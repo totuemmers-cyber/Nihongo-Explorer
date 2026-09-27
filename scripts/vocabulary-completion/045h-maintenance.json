@@ -1,0 +1,3990 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:toozakaru",
+      "revisionId": "045-add-toozakaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "遠ざかる",
+        "reading": "とおざかる",
+        "romaji": "toozakaru",
+        "meaning": "sich entfernen; sich abwenden von, den Kontakt verlieren",
+        "type": "Verb",
+        "category": "Bewegung",
+        "level": "N1",
+        "notes": "Räumlich weiter weg gehen (足音が遠ざかる) oder übertragen den Kontakt zu etwas verlieren: 政治から遠ざかる. Transitiv: 遠ざける.",
+        "examples": [
+          {
+            "japanese": "船がゆっくりと港から遠ざかっていった。",
+            "romaji": "Fune ga yukkuri to minato kara toozakatte itta.",
+            "german": "Das Schiff entfernte sich langsam vom Hafen."
+          },
+          {
+            "japanese": "就職してから、すっかりスポーツから遠ざかっている。",
+            "romaji": "Shuushoku shite kara, sukkari supootsu kara toozakatte iru.",
+            "german": "Seit ich arbeite, habe ich mit Sport kaum noch etwas zu tun."
+          }
+        ],
+        "pitch": 4,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "とおざかる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とおざかる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183717693",
+            "patterns": [
+              4
+            ],
+            "finding": "遠ざかる / トオザカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 遠ざかる; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "遠ざかる",
+              "reading": "とおざかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "遠ざかる as \"sich entfernen; sich abwenden von, den Kontakt verlieren\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 遠ざかる【とおざかる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177830; spelling=遠ざかる; reading=とおざかる; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1177830 遠ざかる/とおざかる sense(s) 1,2 support \"sich entfernen; sich abwenden von, den Kontakt verlieren\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1177830",
+            "spelling": "遠ざかる",
+            "reading": "とおざかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go away",
+                  "to become more distant",
+                  "to fade away",
+                  "to die away"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be estranged"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "遠ざかる|とおざかる",
+          "referenceIndex": 0,
+          "referenceHash": "a45276fab2d89a8ec62c5e388414ce8cdc0ba48a18f24b9e624bf80de6777e41"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"sich entfernen; sich abwenden von, den Kontakt verlieren\" matches JMdict 1177830 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Ship leaving port.",
+          "Drifting away from sport."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1177830; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading とおざかる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@183717693 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183717693",
+            "patterns": [
+              4
+            ],
+            "finding": "遠ざかる / トオザカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 遠ざかる; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "遠ざかる",
+              "reading": "とおざかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "遠ざかる as \"sich entfernen; sich abwenden von, den Kontakt verlieren\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 遠ざかる【とおざかる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1177830 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9d69fab3ff9e0788b08824407cdbf72011975bb2c47aaf00b7fecdaedba9335c",
+        "approvalHash": "0d3f96efb60c45b33bc2b5b3bf4f5ba8b4c5ff8d74e51747a7b0b935969bd042"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "9d69fab3ff9e0788b08824407cdbf72011975bb2c47aaf00b7fecdaedba9335c",
+        "approvalHash": "0d3f96efb60c45b33bc2b5b3bf4f5ba8b4c5ff8d74e51747a7b0b935969bd042"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:toomawari",
+      "revisionId": "045-add-toomawari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "遠回り",
+        "reading": "とおまわり",
+        "romaji": "toomawari",
+        "meaning": "Umweg",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N1",
+        "notes": "Einen längeren Weg nehmen (遠回りする); übertragen auch ein umständliches Vorgehen. Sprichwort: 急がば回れ (Eile mit Weile).",
+        "examples": [
+          {
+            "japanese": "道が混んでいたので、遠回りして帰った。",
+            "romaji": "Michi ga konde ita node, toomawari shite kaetta.",
+            "german": "Weil die Straße verstopft war, fuhr ich auf einem Umweg nach Hause."
+          },
+          {
+            "japanese": "遠回りに見えても、基礎から学ぶのが一番だ。",
+            "romaji": "Toomawari ni miete mo, kiso kara manabu no ga ichiban da.",
+            "german": "Auch wenn es wie ein Umweg aussieht: Am besten lernt man von den Grundlagen an."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183835336",
+            "patterns": [
+              3
+            ],
+            "finding": "遠回り / トオマワリ; 名詞/普通名詞/一般/*; *; *; lemma 遠回り; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "遠回り",
+              "reading": "とおまわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "遠回り as \"Umweg\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 遠回り【とおまわり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177930; spelling=遠回り; reading=とおまわり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1177930 遠回り/とおまわり sense(s) 1 support \"Umweg\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1177930",
+            "spelling": "遠回り",
+            "reading": "とおまわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "detour",
+                  "roundabout way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "遠回り|とおまわり",
+          "referenceIndex": 0,
+          "referenceHash": "a3f64a877d81885be929573a3cfacd15870816a0974265ce0076e86e0d7a18de"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Umweg\" matches JMdict 1177930 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Traffic jam.",
+          "Learning advice."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1177930; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@183835336 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183835336",
+            "patterns": [
+              3
+            ],
+            "finding": "遠回り / トオマワリ; 名詞/普通名詞/一般/*; *; *; lemma 遠回り; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "遠回り",
+              "reading": "とおまわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "遠回り as \"Umweg\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 遠回り【とおまわり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1177930 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bbe1247b45c9da596b494caa45ea46887f8bac81c8224939af9384e66cabdbbb",
+        "approvalHash": "6271b1f73853825e9bde2b578ea21f279264bcf3a4be51a0a47fe46870e8fed9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "bbe1247b45c9da596b494caa45ea46887f8bac81c8224939af9384e66cabdbbb",
+        "approvalHash": "6271b1f73853825e9bde2b578ea21f279264bcf3a4be51a0a47fe46870e8fed9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:togameru",
+      "revisionId": "045-add-togameru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "咎める",
+        "reading": "とがめる",
+        "romaji": "togameru",
+        "meaning": "tadeln, vorwerfen; (das Gewissen) plagen",
+        "type": "Verb",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Jemandem einen Fehler vorhalten: 失敗を咎める. Intransitiv in 気が咎める (ein schlechtes Gewissen haben). Oft in Kana: とがめる.",
+        "examples": [
+          {
+            "japanese": "誰も彼の失敗を咎めなかった。",
+            "romaji": "Dare mo kare no shippai o togamenakatta.",
+            "german": "Niemand machte ihm seinen Fehler zum Vorwurf."
+          },
+          {
+            "japanese": "嘘をついたことで、ずっと気が咎めている。",
+            "romaji": "Uso o tsuita koto de, zutto ki ga togamete iru.",
+            "german": "Weil ich gelogen habe, plagt mich die ganze Zeit ein schlechtes Gewissen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "とがめる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とがめる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184168255",
+            "patterns": [
+              3
+            ],
+            "finding": "咎める / トガメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 咎める; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "咎める",
+              "reading": "とがめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "咎める as \"tadeln, vorwerfen; (das Gewissen) plagen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 咎める【とがめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565100; spelling=咎める; reading=とがめる; senses=1,4; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1565100 咎める/とがめる sense(s) 1,4 support \"tadeln, vorwerfen; (das Gewissen) plagen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1565100",
+            "spelling": "咎める",
+            "reading": "とがめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blame",
+                  "to reproach",
+                  "to censure",
+                  "to rebuke",
+                  "to reprove",
+                  "to find fault",
+                  "to take to task",
+                  "to criticize",
+                  "to criticise"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to prick (one's conscience)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "咎める|とがめる",
+          "referenceIndex": 0,
+          "referenceHash": "87a8c1878e4f64ccbea36e0133f9489b66a18fe12ca7ded7c116e5659e5abba3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"tadeln, vorwerfen; (das Gewissen) plagen\" matches JMdict 1565100 sense(s) 1,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "No one blames him.",
+          "Guilty conscience."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1565100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading とがめる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184168255 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184168255",
+            "patterns": [
+              3
+            ],
+            "finding": "咎める / トガメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 咎める; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "咎める",
+              "reading": "とがめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "咎める as \"tadeln, vorwerfen; (das Gewissen) plagen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 咎める【とがめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1565100 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "441dfa160b2120cfd34e8fdd2ad42fdc8e03a5d8ab46819dd55f2159c5f7f7a3",
+        "approvalHash": "35714c8eca143ffcad09c90261302c7e82e54db71dcb56f77689417667465e97"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "441dfa160b2120cfd34e8fdd2ad42fdc8e03a5d8ab46819dd55f2159c5f7f7a3",
+        "approvalHash": "35714c8eca143ffcad09c90261302c7e82e54db71dcb56f77689417667465e97"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tokiori",
+      "revisionId": "045-add-tokiori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "時折",
+        "reading": "ときおり",
+        "romaji": "tokiori",
+        "meaning": "gelegentlich, ab und zu",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Gehobener als 時々: 時折雨が降る. Auch 時おり geschrieben.",
+        "examples": [
+          {
+            "japanese": "窓の外から時折鳥の声が聞こえる。",
+            "romaji": "Mado no soto kara tokiori tori no koe ga kikoeru.",
+            "german": "Von draußen hört man ab und zu Vogelstimmen."
+          },
+          {
+            "japanese": "彼女は時折寂しそうな表情を見せる。",
+            "romaji": "Kanojo wa tokiori sabishisou na hyoujou o miseru.",
+            "german": "Hin und wieder wirkt sie traurig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184379590",
+            "patterns": [
+              0
+            ],
+            "finding": "時折 / トキオリ; 副詞/*/*/*; *; *; lemma 時折; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "時折",
+              "reading": "ときおり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "時折 as \"gelegentlich, ab und zu\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 時折【ときおり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598670; spelling=時折; reading=ときおり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598670 時折/ときおり sense(s) 1 support \"gelegentlich, ab und zu\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1598670",
+            "spelling": "時折",
+            "reading": "ときおり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sometimes",
+                  "at intervals",
+                  "occasionally",
+                  "on occasion",
+                  "from time to time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "時折|ときおり",
+          "referenceIndex": 0,
+          "referenceHash": "8bfac8c59b324d72cf6ea34a03df95b381ecb9ff3ffd0a224f4dcc75b267f230"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"gelegentlich, ab und zu\" matches JMdict 1598670 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Birdsong.",
+          "Occasional sadness."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1598670; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184379590 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184379590",
+            "patterns": [
+              0
+            ],
+            "finding": "時折 / トキオリ; 副詞/*/*/*; *; *; lemma 時折; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "時折",
+              "reading": "ときおり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "時折 as \"gelegentlich, ab und zu\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 時折【ときおり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1598670 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fe207d585ccaf44849ea8e77997132d1d9aaf0fa3a02b5d7220c33b9c431fbec",
+        "approvalHash": "488738fc09e765acdb99d2d72ee8dd18f998ff7aca03bb3485bec891538da3ce"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "fe207d585ccaf44849ea8e77997132d1d9aaf0fa3a02b5d7220c33b9c431fbec",
+        "approvalHash": "488738fc09e765acdb99d2d72ee8dd18f998ff7aca03bb3485bec891538da3ce"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:togireru",
+      "revisionId": "045-add-togireru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "途切れる",
+        "reading": "とぎれる",
+        "romaji": "togireru",
+        "meaning": "abbrechen, unterbrochen werden, stocken",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Etwas Fortlaufendes reißt (vorübergehend) ab: 話が途切れる (das Gespräch stockt), 電波が途切れる, 人通りが途切れる. Vgl. 途絶える (ganz aufhören).",
+        "examples": [
+          {
+            "japanese": "電話の声が途切れて、よく聞こえない。",
+            "romaji": "Denwa no koe ga togirete, yoku kikoenai.",
+            "german": "Die Stimme am Telefon bricht immer wieder ab, ich verstehe schlecht."
+          },
+          {
+            "japanese": "会話が途切れて、気まずい沈黙が流れた。",
+            "romaji": "Kaiwa ga togirete, kimazui chinmoku ga nagareta.",
+            "german": "Das Gespräch stockte, und es entstand ein peinliches Schweigen."
+          }
+        ],
+        "pitch": 3,
+        "aliases": [
+          "跡切れる"
+        ],
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "とぎれる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とぎれる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184836847",
+            "patterns": [
+              3
+            ],
+            "finding": "途切れる / トギレル; 動詞/一般/*/*; 下一段-ラ行; 終止形-一般; lemma 途切れる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "途切れる",
+              "reading": "とぎれる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ラ行; 終止形-一般",
+              "sense": "途切れる as \"abbrechen, unterbrochen werden, stocken\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (途切れる), tanos N1 (跡切れる). Editorial N1.",
+      "rationale": "Add 途切れる【とぎれる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598690; spelling=途切れる; reading=とぎれる; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598690 途切れる/とぎれる sense(s) 1 support \"abbrechen, unterbrochen werden, stocken\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1598690",
+            "spelling": "途切れる",
+            "reading": "とぎれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to break off",
+                  "to come to an end",
+                  "to be interrupted",
+                  "to be cut short",
+                  "to pause"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "途切れる|とぎれる",
+          "referenceIndex": 0,
+          "referenceHash": "a45f6a4e6911a4d67e7429ffdb3f598f56bcb3a25ce8a5be30f3a9030a78ed80"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"abbrechen, unterbrochen werden, stocken\" matches JMdict 1598690 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bad phone connection.",
+          "Awkward silence."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1598690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading とぎれる; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N1 (途切れる), tanos N1 (跡切れる). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184836847 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184836847",
+            "patterns": [
+              3
+            ],
+            "finding": "途切れる / トギレル; 動詞/一般/*/*; 下一段-ラ行; 終止形-一般; lemma 途切れる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "途切れる",
+              "reading": "とぎれる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ラ行; 終止形-一般",
+              "sense": "途切れる as \"abbrechen, unterbrochen werden, stocken\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 途切れる【とぎれる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1598690 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e5f14752e799d823f24011719f186accfea5092e69e6bcbdb5b50ff6735a4677",
+        "approvalHash": "07cdf9bae44de1380aa70caaa2c9307469e126ea69b5564f8d91675c3a44c88b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "e5f14752e799d823f24011719f186accfea5092e69e6bcbdb5b50ff6735a4677",
+        "approvalHash": "07cdf9bae44de1380aa70caaa2c9307469e126ea69b5564f8d91675c3a44c88b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:toku-preach",
+      "revisionId": "045-add-toku-preach",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "説く",
+        "reading": "とく",
+        "romaji": "toku",
+        "meaning": "erklären, darlegen, predigen; überreden",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Eine Lehre oder Notwendigkeit eindringlich darlegen: 必要性を説く, 教えを説く; auch jemanden zu überzeugen suchen (説き伏せる = umstimmen). Gleich klingend: 解く (lösen).",
+        "examples": [
+          {
+            "japanese": "医者は運動の大切さを患者に説いた。",
+            "romaji": "Isha wa undou no taisetsusa o kanja ni toita.",
+            "german": "Der Arzt legte dem Patienten eindringlich dar, wie wichtig Bewegung ist."
+          },
+          {
+            "japanese": "お釈迦様は人々に仏の教えを説いた。",
+            "romaji": "Oshakasama wa hitobito ni hotoke no oshie o toita.",
+            "german": "Buddha predigte den Menschen seine Lehre."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "とく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とく",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184882700",
+            "patterns": [
+              1
+            ],
+            "finding": "説く / トク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 説く; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "説く",
+              "reading": "とく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "説く as \"erklären, darlegen, predigen; überreden\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 説く【とく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1386420; spelling=説く; reading=とく; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1386420 説く/とく sense(s) 1,2 support \"erklären, darlegen, predigen; überreden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1386420",
+            "spelling": "説く",
+            "reading": "とく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to explain",
+                  "to preach",
+                  "to advocate"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to persuade",
+                  "to prevail upon",
+                  "to reason with",
+                  "to urge (someone to do)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "説く|とく",
+          "referenceIndex": 0,
+          "referenceHash": "0e5398549d2de06d0643b684e7996e005e914a14c77be528e388cc3ef1a46e2b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"erklären, darlegen, predigen; überreden\" matches JMdict 1386420 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Doctor's advice.",
+          "Buddha's teaching."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1386420; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading とく; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184882700 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184882700",
+            "patterns": [
+              1
+            ],
+            "finding": "説く / トク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 説く; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "説く",
+              "reading": "とく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "説く as \"erklären, darlegen, predigen; überreden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 説く【とく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1386420 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "36f92b40ca3652dcd9fec3ddb33fb7d4b39b5385fe069de0442ff572008dee9a",
+        "approvalHash": "d30e85d0478a818a38c847e8b0aebd6dbbc89bca6b307f39be19c8819eabf173"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "36f92b40ca3652dcd9fec3ddb33fb7d4b39b5385fe069de0442ff572008dee9a",
+        "approvalHash": "d30e85d0478a818a38c847e8b0aebd6dbbc89bca6b307f39be19c8819eabf173"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tokusan",
+      "revisionId": "045-add-tokusan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "特産",
+        "reading": "とくさん",
+        "romaji": "tokusan",
+        "meaning": "Spezialität, typisches Erzeugnis (einer Region)",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N1",
+        "notes": "Für eine Gegend typisches Erzeugnis: 特産品 (regionale Spezialität), 〜の特産 (Spezialität von …).",
+        "examples": [
+          {
+            "japanese": "りんごは青森県の特産だ。",
+            "romaji": "Ringo wa Aomori-ken no tokusan da.",
+            "german": "Äpfel sind eine Spezialität der Präfektur Aomori."
+          },
+          {
+            "japanese": "旅行先で地元の特産品を買った。",
+            "romaji": "Ryokousaki de jimoto no tokusanhin o katta.",
+            "german": "Am Reiseziel habe ich regionale Spezialitäten gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184905467",
+            "patterns": [
+              0
+            ],
+            "finding": "特産 / トクサン; 名詞/普通名詞/一般/*; *; *; lemma 特産; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特産",
+              "reading": "とくさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "特産 as \"Spezialität, typisches Erzeugnis (einer Region)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 特産【とくさん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1454920; spelling=特産; reading=とくさん; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1454920 特産/とくさん sense(s) 1 support \"Spezialität, typisches Erzeugnis (einer Region)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1454920",
+            "spelling": "特産",
+            "reading": "とくさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being produced in a particular region",
+                  "local specialty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "特産|とくさん",
+          "referenceIndex": 0,
+          "referenceHash": "55af2d0bd8f17329a8811dc8da6ebd84c09f5fea9f2ba3fddb488572dd738ccb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Spezialität, typisches Erzeugnis (einer Region)\" matches JMdict 1454920 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Regional product.",
+          "Souvenir shopping."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1454920; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184905467 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184905467",
+            "patterns": [
+              0
+            ],
+            "finding": "特産 / トクサン; 名詞/普通名詞/一般/*; *; *; lemma 特産; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特産",
+              "reading": "とくさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "特産 as \"Spezialität, typisches Erzeugnis (einer Region)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 特産【とくさん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1454920 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1b4385ffba3dbd433556047be1713e64abe92fc35dd0a150d0154ad96c05e7f4",
+        "approvalHash": "67e63d18b2a16683044f12725011a451660e00fd9b55b5161db1ed151a5efd9f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "1b4385ffba3dbd433556047be1713e64abe92fc35dd0a150d0154ad96c05e7f4",
+        "approvalHash": "67e63d18b2a16683044f12725011a451660e00fd9b55b5161db1ed151a5efd9f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tokushuu",
+      "revisionId": "045-add-tokushuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "特集",
+        "reading": "とくしゅう",
+        "romaji": "tokushuu",
+        "meaning": "Sonderbeitrag, Themenschwerpunkt",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Schwerpunktthema in Zeitschrift, Zeitung oder Sendung: 特集記事, 特集番組 (Sondersendung). Als Verb 特集する oder 特集を組む.",
+        "examples": [
+          {
+            "japanese": "今月の雑誌は京都の特集だ。",
+            "romaji": "Kongetsu no zasshi wa Kyouto no tokushuu da.",
+            "german": "Die Zeitschrift hat diesen Monat Kyoto als Schwerpunktthema."
+          },
+          {
+            "japanese": "テレビで地震の特集番組を見た。",
+            "romaji": "Terebi de jishin no tokushuu bangumi o mita.",
+            "german": "Im Fernsehen sah ich eine Sondersendung über Erdbeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184912701",
+            "patterns": [
+              0
+            ],
+            "finding": "特集 / トクシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 特集; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特集",
+              "reading": "とくしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "特集 as \"Sonderbeitrag, Themenschwerpunkt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 特集【とくしゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455060; spelling=特集; reading=とくしゅう; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1455060 特集/とくしゅう sense(s) 1 support \"Sonderbeitrag, Themenschwerpunkt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1455060",
+            "spelling": "特集",
+            "reading": "とくしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feature (e.g. newspaper)",
+                  "special edition",
+                  "report"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "特集|とくしゅう",
+          "referenceIndex": 0,
+          "referenceHash": "d0d9187441cdbc31f34c8f70d4df053061d762076f18049423ee1db3aed0fce1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Sonderbeitrag, Themenschwerpunkt\" matches JMdict 1455060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Magazine issue.",
+          "TV special."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1455060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184912701 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184912701",
+            "patterns": [
+              0
+            ],
+            "finding": "特集 / トクシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 特集; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特集",
+              "reading": "とくしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "特集 as \"Sonderbeitrag, Themenschwerpunkt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 特集【とくしゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1455060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7dd0e53d921216067e56fc1f85b55270324c2fc2ae0d83b7db7a6c61afd0a2f0",
+        "approvalHash": "e348698ae7434e87589e05d2f88c4e708d3b48b841ace64220c6a885d31cb6fa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "7dd0e53d921216067e56fc1f85b55270324c2fc2ae0d83b7db7a6c61afd0a2f0",
+        "approvalHash": "e348698ae7434e87589e05d2f88c4e708d3b48b841ace64220c6a885d31cb6fa"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tokuha",
+      "revisionId": "045-add-tokuha",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "特派",
+        "reading": "とくは",
+        "romaji": "tokuha",
+        "meaning": "Sonderentsendung, eigens Entsenden",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Meist in 特派員 (Auslandskorrespondent, Sonderberichterstatter); Verb 特派する (eigens entsenden).",
+        "examples": [
+          {
+            "japanese": "新聞社は現地に記者を特派した。",
+            "romaji": "Shinbunsha wa genchi ni kisha o tokuha shita.",
+            "german": "Die Zeitung entsandte eigens einen Reporter an den Ort des Geschehens."
+          },
+          {
+            "japanese": "彼はロンドン特派員として三年間働いた。",
+            "romaji": "Kare wa Rondon tokuhain to shite sannenkan hataraita.",
+            "german": "Er arbeitete drei Jahre lang als Korrespondent in London."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184963957",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "特派 / トクハ; 名詞/普通名詞/サ変可能/*; *; *; lemma 特派; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特派",
+              "reading": "とくは",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "特派 as \"Sonderentsendung, eigens Entsenden\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 特派【とくは】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455230; spelling=特派; reading=とくは; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1455230 特派/とくは sense(s) 1 support \"Sonderentsendung, eigens Entsenden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1455230",
+            "spelling": "特派",
+            "reading": "とくは",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "send specially",
+                  "special envoy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "特派|とくは",
+          "referenceIndex": 0,
+          "referenceHash": "3bfeed77cc71e2c63ef1a7e1b08e28b1dae0eb2049a38026a721111d8bc1d100"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Sonderentsendung, eigens Entsenden\" matches JMdict 1455230 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Newspaper dispatch.",
+          "Foreign correspondent."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1455230; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@184963957 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184963957",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "特派 / トクハ; 名詞/普通名詞/サ変可能/*; *; *; lemma 特派; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "特派",
+              "reading": "とくは",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "特派 as \"Sonderentsendung, eigens Entsenden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 特派【とくは】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1455230 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b3a104d452d49c462f7504e0a087e432421f93744631bbda190b291f2626d078",
+        "approvalHash": "6f5e72fccbeb82992c6d2c24b29a32ebea3ce1417157295833dcb5513062c64b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "b3a104d452d49c462f7504e0a087e432421f93744631bbda190b291f2626d078",
+        "approvalHash": "6f5e72fccbeb82992c6d2c24b29a32ebea3ce1417157295833dcb5513062c64b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:toge",
+      "revisionId": "045-add-toge",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "とげ",
+        "reading": "とげ",
+        "romaji": "toge",
+        "meaning": "Dorn, Stachel; Splitter; spitze Bemerkung",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Dorn einer Pflanze (バラのとげ), eingezogener Splitter (指にとげが刺さる) oder übertragen verletzende Schärfe: とげのある言い方 (spitze Bemerkung). Meist in Kana.",
+        "examples": [
+          {
+            "japanese": "バラのとげが指に刺さった。",
+            "romaji": "Bara no toge ga yubi ni sasatta.",
+            "german": "Ich habe mich an einem Rosendorn in den Finger gestochen."
+          },
+          {
+            "japanese": "彼女の言葉にはとげがあった。",
+            "romaji": "Kanojo no kotoba ni wa toge ga atta.",
+            "german": "Ihre Worte hatten einen spitzen Unterton."
+          }
+        ],
+        "pitch": 2,
+        "aliases": [
+          "棘",
+          "刺"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185333858",
+            "patterns": [
+              2
+            ],
+            "finding": "とげ / トゲ; 名詞/普通名詞/一般/*; *; *; lemma 棘; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "とげ",
+              "reading": "とげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "とげ as \"Dorn, Stachel; Splitter; spitze Bemerkung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (棘), tanos N1 (刺). Editorial N1.",
+      "rationale": "Add とげ【とげ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598710; spelling=とげ; reading=とげ; senses=1,2,3; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598710 とげ/とげ sense(s) 1,2,3 support \"Dorn, Stachel; Splitter; spitze Bemerkung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1598710",
+            "spelling": "とげ",
+            "reading": "とげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thorn",
+                  "spine",
+                  "prickle"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "splinter (esp. lodged in one's flesh)",
+                  "hard sharp item (esp. lodged in one's throat, e.g. fish bone)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "biting words"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "棘|とげ",
+          "referenceIndex": 0,
+          "referenceHash": "755fd01e0f6b83dc300049e6cf9c3d49fdbcdf5cd9e5e17fb9d593f3d402addb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Dorn, Stachel; Splitter; spitze Bemerkung\" matches JMdict 1598710 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Gardening mishap.",
+          "Sharp remark."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1598710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1 (棘), tanos N1 (刺). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185333858 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185333858",
+            "patterns": [
+              2
+            ],
+            "finding": "とげ / トゲ; 名詞/普通名詞/一般/*; *; *; lemma 棘; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "とげ",
+              "reading": "とげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "とげ as \"Dorn, Stachel; Splitter; spitze Bemerkung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add とげ【とげ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1598710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7df81d0dffafb6b1c16f8601fef4a1c1fd217051cb7b3a4aa23ba4c43a3f549b",
+        "approvalHash": "dc40302a23076569de851c252c975085be195a584090806bfb17d7ba6efed54c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "7df81d0dffafb6b1c16f8601fef4a1c1fd217051cb7b3a4aa23ba4c43a3f549b",
+        "approvalHash": "dc40302a23076569de851c252c975085be195a584090806bfb17d7ba6efed54c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tojimari",
+      "revisionId": "045-add-tojimari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "戸締まり",
+        "reading": "とじまり",
+        "romaji": "tojimari",
+        "meaning": "Abschließen (von Türen und Fenstern)",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Vor dem Weggehen oder Schlafengehen alles verriegeln: 戸締まりをする, 戸締まりに気をつける.",
+        "examples": [
+          {
+            "japanese": "出かける前に戸締まりを確認した。",
+            "romaji": "Dekakeru mae ni tojimari o kakunin shita.",
+            "german": "Bevor ich ging, prüfte ich, ob alles abgeschlossen war."
+          },
+          {
+            "japanese": "最近空き巣が多いので、戸締まりに気をつけてください。",
+            "romaji": "Saikin akisu ga ooi node, tojimari ni ki o tsukete kudasai.",
+            "german": "Da es in letzter Zeit viele Einbrüche gibt, achten Sie bitte darauf, alles abzuschließen."
+          }
+        ],
+        "pitch": 2,
+        "aliases": [
+          "戸締り"
+        ],
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185849109",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "戸締まり / トジマリ; 名詞/普通名詞/一般/*; *; *; lemma 戸締まり; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "戸締まり",
+              "reading": "とじまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "戸締まり as \"Abschließen (von Türen und Fenstern)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (戸締まり), tanos N1 (戸締り). Editorial N1.",
+      "rationale": "Add 戸締まり【とじまり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267060; spelling=戸締まり; reading=とじまり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1267060 戸締まり/とじまり sense(s) 1 support \"Abschließen (von Türen und Fenstern)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1267060",
+            "spelling": "戸締まり",
+            "reading": "とじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locking up (doors and windows)",
+                  "fastening the doors"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "戸締まり|とじまり",
+          "referenceIndex": 0,
+          "referenceHash": "17f4a51b3bb4ec48afab23bdc00fd8aee908b81b44e7361a4698f45ac2fd661f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"Abschließen (von Türen und Fenstern)\" matches JMdict 1267060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Leaving home.",
+          "Burglary warning."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1267060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1 (戸締まり), tanos N1 (戸締り). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185849109 attest 2,0; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185849109",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "戸締まり / トジマリ; 名詞/普通名詞/一般/*; *; *; lemma 戸締まり; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "戸締まり",
+              "reading": "とじまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "戸締まり as \"Abschließen (von Türen und Fenstern)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 戸締まり【とじまり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1267060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ae3b7e8f80f4998f24bea7f4c9abc194c42fa8f9234d68139ebc981a57d2c421",
+        "approvalHash": "bc9219fdabcd34de55f760ec455962b30359b2c6baf2faf782fc19a7c4690ee3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "ae3b7e8f80f4998f24bea7f4c9abc194c42fa8f9234d68139ebc981a57d2c421",
+        "approvalHash": "bc9219fdabcd34de55f760ec455962b30359b2c6baf2faf782fc19a7c4690ee3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tojou",
+      "revisionId": "045-add-tojou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "途上",
+        "reading": "とじょう",
+        "romaji": "tojou",
+        "meaning": "unterwegs; im Verlauf, in Entwicklung",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Gehoben: 帰宅の途上 (auf dem Heimweg), 発展途上国 (Entwicklungsland), 〜の途上にある (sich mitten in … befinden).",
+        "examples": [
+          {
+            "japanese": "彼は通勤の途上で事故に遭った。",
+            "romaji": "Kare wa tsuukin no tojou de jiko ni atta.",
+            "german": "Er hatte auf dem Weg zur Arbeit einen Unfall."
+          },
+          {
+            "japanese": "この技術はまだ研究の途上にある。",
+            "romaji": "Kono gijutsu wa mada kenkyuu no tojou ni aru.",
+            "german": "Diese Technik befindet sich noch im Forschungsstadium."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185851256",
+            "patterns": [
+              0
+            ],
+            "finding": "途上 / トジョウ; 名詞/普通名詞/副詞可能/*; *; *; lemma 途上; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "途上",
+              "reading": "とじょう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "途上 as \"unterwegs; im Verlauf, in Entwicklung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 045); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 途上【とじょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1444870; spelling=途上; reading=とじょう; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1444870 途上/とじょう sense(s) 1,2 support \"unterwegs; im Verlauf, in Entwicklung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1444870",
+            "spelling": "途上",
+            "reading": "とじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "on the way",
+                  "en route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in the process of (development, construction, etc.)",
+                  "in the middle of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "途上|とじょう",
+          "referenceIndex": 0,
+          "referenceHash": "05fd109b020bd25eeee8b34440aaa8c1b73dc8b68fa71c400e9412a16f771bac"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-045-editor",
+        "meaning": "\"unterwegs; im Verlauf, in Entwicklung\" matches JMdict 1444870 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Commuting accident.",
+          "Research in progress."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1444870; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185851256 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185851256",
+            "patterns": [
+              0
+            ],
+            "finding": "途上 / トジョウ; 名詞/普通名詞/副詞可能/*; *; *; lemma 途上; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "途上",
+              "reading": "とじょう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "途上 as \"unterwegs; im Verlauf, in Entwicklung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: Add 途上【とじょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1444870 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "497a51249dab5f5e661f3456ef58ff58c735dabee78e7573ba974ff773957fbd",
+        "approvalHash": "d6355384e0db860eebcf7a538573e449650bb179ff39e30373265ac0ce5d866b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Unchanged since round 1 and re-accepted: examples use the headword in the taught sense; romaji, German, POS/conjugation, JMdict sense support and pitch status checked.",
+        "contentHash": "497a51249dab5f5e661f3456ef58ff58c735dabee78e7573ba974ff773957fbd",
+        "approvalHash": "d6355384e0db860eebcf7a538573e449650bb179ff39e30373265ac0ce5d866b"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "遠ざかる|とおざかる",
+      "referenceIndex": 0,
+      "referenceHash": "a45276fab2d89a8ec62c5e388414ce8cdc0ba48a18f24b9e624bf80de6777e41",
+      "revisionId": "045-candidate-toozakaru-9c74f710-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toozakaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toozakaru": "9d69fab3ff9e0788b08824407cdbf72011975bb2c47aaf00b7fecdaedba9335c"
+      },
+      "reason": "Reference 遠ざかる/とおざかる (tanos N1) is the same lexeme as the new entry 遠ざかる【とおざかる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 遠ざかる/とおざかる at N1 (gloss: to go far off)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177830; spelling=遠ざかる; reading=とおざかる; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1177830 as the reference form.",
+          "selected": {
+            "sequence": "1177830",
+            "spelling": "遠ざかる",
+            "reading": "とおざかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go away",
+                  "to become more distant",
+                  "to fade away",
+                  "to die away"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be estranged"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 遠ざかる|とおざかる#0 is the same lexeme as vocab-n1:correction:toozakaru; target hash bound to the assembled addition.",
+        "contentHash": "e649f03424ab6a7024957c6b32f97708bd36aee246ebadf4b2f5cca04661bdb5",
+        "approvalHash": "e649f03424ab6a7024957c6b32f97708bd36aee246ebadf4b2f5cca04661bdb5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "e649f03424ab6a7024957c6b32f97708bd36aee246ebadf4b2f5cca04661bdb5",
+        "approvalHash": "e649f03424ab6a7024957c6b32f97708bd36aee246ebadf4b2f5cca04661bdb5"
+      }
+    },
+    {
+      "key": "遠ざかる|とおざかる",
+      "referenceIndex": 1,
+      "referenceHash": "e954240641ef91cdb57f6bc2ebaf02ff230f29c1336906dba5b82acc50c27ca5",
+      "revisionId": "045-candidate-toozakaru-9c74f710-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toozakaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toozakaru": "9d69fab3ff9e0788b08824407cdbf72011975bb2c47aaf00b7fecdaedba9335c"
+      },
+      "reason": "Reference 遠ざかる/とおざかる (master N1) is the same lexeme as the new entry 遠ざかる【とおざかる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 遠ざかる/とおざかる at N1 (gloss: to go far off; aller loin; (1) удаля́ться)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177830; spelling=遠ざかる; reading=とおざかる; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1177830 as the reference form.",
+          "selected": {
+            "sequence": "1177830",
+            "spelling": "遠ざかる",
+            "reading": "とおざかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go away",
+                  "to become more distant",
+                  "to fade away",
+                  "to die away"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be estranged"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 遠ざかる|とおざかる#1 is the same lexeme as vocab-n1:correction:toozakaru; target hash bound to the assembled addition.",
+        "contentHash": "831b0b7c77737c0bedc0d19952ad220b5814b95659f1a8abc4beddb1747ab9bc",
+        "approvalHash": "831b0b7c77737c0bedc0d19952ad220b5814b95659f1a8abc4beddb1747ab9bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "831b0b7c77737c0bedc0d19952ad220b5814b95659f1a8abc4beddb1747ab9bc",
+        "approvalHash": "831b0b7c77737c0bedc0d19952ad220b5814b95659f1a8abc4beddb1747ab9bc"
+      }
+    },
+    {
+      "key": "遠回り|とおまわり",
+      "referenceIndex": 0,
+      "referenceHash": "a3f64a877d81885be929573a3cfacd15870816a0974265ce0076e86e0d7a18de",
+      "revisionId": "045-candidate-toomawari-edc796c5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toomawari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toomawari": "bbe1247b45c9da596b494caa45ea46887f8bac81c8224939af9384e66cabdbbb"
+      },
+      "reason": "Reference 遠回り/とおまわり (tanos N1) is the same lexeme as the new entry 遠回り【とおまわり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 遠回り/とおまわり at N1 (gloss: detour, roundabout way)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177930; spelling=遠回り; reading=とおまわり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1177930 as the reference form.",
+          "selected": {
+            "sequence": "1177930",
+            "spelling": "遠回り",
+            "reading": "とおまわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "detour",
+                  "roundabout way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 遠回り|とおまわり#0 is the same lexeme as vocab-n1:correction:toomawari; target hash bound to the assembled addition.",
+        "contentHash": "1cf5e3ec6f6c43ca07f7dc2f09926db24da5d175ffdc6e64f8fb27683d9a05ba",
+        "approvalHash": "1cf5e3ec6f6c43ca07f7dc2f09926db24da5d175ffdc6e64f8fb27683d9a05ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "1cf5e3ec6f6c43ca07f7dc2f09926db24da5d175ffdc6e64f8fb27683d9a05ba",
+        "approvalHash": "1cf5e3ec6f6c43ca07f7dc2f09926db24da5d175ffdc6e64f8fb27683d9a05ba"
+      }
+    },
+    {
+      "key": "遠回り|とおまわり",
+      "referenceIndex": 1,
+      "referenceHash": "dfe99cadbe480ce13bf41242d64aa8b84fd1a85f4eafc4442804be44f853cf6a",
+      "revisionId": "045-candidate-toomawari-edc796c5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toomawari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toomawari": "bbe1247b45c9da596b494caa45ea46887f8bac81c8224939af9384e66cabdbbb"
+      },
+      "reason": "Reference 遠回り/とおまわり (master N1) is the same lexeme as the new entry 遠回り【とおまわり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 遠回り/とおまわり at N1 (gloss: detour; roundabout way; (n) Umweg)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1177930; spelling=遠回り; reading=とおまわり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1177930 as the reference form.",
+          "selected": {
+            "sequence": "1177930",
+            "spelling": "遠回り",
+            "reading": "とおまわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "detour",
+                  "roundabout way"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 遠回り|とおまわり#1 is the same lexeme as vocab-n1:correction:toomawari; target hash bound to the assembled addition.",
+        "contentHash": "eb11b6134de2ac4c3ae3698fd41f690350795d936a0cf482e6307b069c0e2149",
+        "approvalHash": "eb11b6134de2ac4c3ae3698fd41f690350795d936a0cf482e6307b069c0e2149"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "eb11b6134de2ac4c3ae3698fd41f690350795d936a0cf482e6307b069c0e2149",
+        "approvalHash": "eb11b6134de2ac4c3ae3698fd41f690350795d936a0cf482e6307b069c0e2149"
+      }
+    },
+    {
+      "key": "咎める|とがめる",
+      "referenceIndex": 0,
+      "referenceHash": "87a8c1878e4f64ccbea36e0133f9489b66a18fe12ca7ded7c116e5659e5abba3",
+      "revisionId": "045-candidate-togameru-23439bf7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:togameru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:togameru": "441dfa160b2120cfd34e8fdd2ad42fdc8e03a5d8ab46819dd55f2159c5f7f7a3"
+      },
+      "reason": "Reference 咎める/とがめる (tanos N1) is the same lexeme as the new entry 咎める【とがめる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 咎める/とがめる at N1 (gloss: to blame, to find fault, to take someone to task,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565100; spelling=咎める; reading=とがめる; senses=1,4; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565100 as the reference form.",
+          "selected": {
+            "sequence": "1565100",
+            "spelling": "咎める",
+            "reading": "とがめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blame",
+                  "to reproach",
+                  "to censure",
+                  "to rebuke",
+                  "to reprove",
+                  "to find fault",
+                  "to take to task",
+                  "to criticize",
+                  "to criticise"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to prick (one's conscience)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 咎める|とがめる#0 is the same lexeme as vocab-n1:correction:togameru; target hash bound to the assembled addition.",
+        "contentHash": "ebff869cad53af738bb794b29190b098dbd1841558df604e0decbc9fc05af288",
+        "approvalHash": "ebff869cad53af738bb794b29190b098dbd1841558df604e0decbc9fc05af288"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "ebff869cad53af738bb794b29190b098dbd1841558df604e0decbc9fc05af288",
+        "approvalHash": "ebff869cad53af738bb794b29190b098dbd1841558df604e0decbc9fc05af288"
+      }
+    },
+    {
+      "key": "咎める|とがめる",
+      "referenceIndex": 1,
+      "referenceHash": "cf87ac0a938161494e27fbeac9bba8c51c5c19ac9dd5c434ff4fbf84e4baa66a",
+      "revisionId": "045-candidate-togameru-23439bf7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:togameru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:togameru": "441dfa160b2120cfd34e8fdd2ad42fdc8e03a5d8ab46819dd55f2159c5f7f7a3"
+      },
+      "reason": "Reference 咎める/とがめる (master N1) is the same lexeme as the new entry 咎める【とがめる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 咎める/とがめる at N1 (gloss: to blame; to find fault; to challenge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565100; spelling=咎める; reading=とがめる; senses=1,4; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565100 as the reference form.",
+          "selected": {
+            "sequence": "1565100",
+            "spelling": "咎める",
+            "reading": "とがめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to blame",
+                  "to reproach",
+                  "to censure",
+                  "to rebuke",
+                  "to reprove",
+                  "to find fault",
+                  "to take to task",
+                  "to criticize",
+                  "to criticise"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to prick (one's conscience)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 咎める|とがめる#1 is the same lexeme as vocab-n1:correction:togameru; target hash bound to the assembled addition.",
+        "contentHash": "33c4333b044ce89303b8349c4fecc83310628fd36e9b22ba820b296cea24f235",
+        "approvalHash": "33c4333b044ce89303b8349c4fecc83310628fd36e9b22ba820b296cea24f235"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "33c4333b044ce89303b8349c4fecc83310628fd36e9b22ba820b296cea24f235",
+        "approvalHash": "33c4333b044ce89303b8349c4fecc83310628fd36e9b22ba820b296cea24f235"
+      }
+    },
+    {
+      "key": "時折|ときおり",
+      "referenceIndex": 0,
+      "referenceHash": "8bfac8c59b324d72cf6ea34a03df95b381ecb9ff3ffd0a224f4dcc75b267f230",
+      "revisionId": "045-candidate-tokiori-7cda2b5c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokiori"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokiori": "fe207d585ccaf44849ea8e77997132d1d9aaf0fa3a02b5d7220c33b9c431fbec"
+      },
+      "reason": "Reference 時折/ときおり (tanos N1) is the same lexeme as the new entry 時折【ときおり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 時折/ときおり at N1 (gloss: sometimes)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598670; spelling=時折; reading=ときおり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598670 as the reference form.",
+          "selected": {
+            "sequence": "1598670",
+            "spelling": "時折",
+            "reading": "ときおり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sometimes",
+                  "at intervals",
+                  "occasionally",
+                  "on occasion",
+                  "from time to time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 時折|ときおり#0 is the same lexeme as vocab-n1:correction:tokiori; target hash bound to the assembled addition.",
+        "contentHash": "7a8cc572cd83097766f4ffce409428efb8b63048f4f68e695678eb9f42cf862e",
+        "approvalHash": "7a8cc572cd83097766f4ffce409428efb8b63048f4f68e695678eb9f42cf862e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "7a8cc572cd83097766f4ffce409428efb8b63048f4f68e695678eb9f42cf862e",
+        "approvalHash": "7a8cc572cd83097766f4ffce409428efb8b63048f4f68e695678eb9f42cf862e"
+      }
+    },
+    {
+      "key": "時折|ときおり",
+      "referenceIndex": 1,
+      "referenceHash": "c3c08aed7d61d748c217cd35a9c76ea551c11c4dfab679fab8d9b7b84efc5d16",
+      "revisionId": "045-candidate-tokiori-7cda2b5c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokiori"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokiori": "fe207d585ccaf44849ea8e77997132d1d9aaf0fa3a02b5d7220c33b9c431fbec"
+      },
+      "reason": "Reference 時折/ときおり (master N1) is the same lexeme as the new entry 時折【ときおり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 時折/ときおり at N1 (gloss: sometimes; de temps en temps; (n) ab und an)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598670; spelling=時折; reading=ときおり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598670 as the reference form.",
+          "selected": {
+            "sequence": "1598670",
+            "spelling": "時折",
+            "reading": "ときおり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sometimes",
+                  "at intervals",
+                  "occasionally",
+                  "on occasion",
+                  "from time to time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 時折|ときおり#1 is the same lexeme as vocab-n1:correction:tokiori; target hash bound to the assembled addition.",
+        "contentHash": "dca81bfdf2bfea2d3f8431ed47f44b9a59bdb82e8075bca37dd9e6fd523be93e",
+        "approvalHash": "dca81bfdf2bfea2d3f8431ed47f44b9a59bdb82e8075bca37dd9e6fd523be93e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "dca81bfdf2bfea2d3f8431ed47f44b9a59bdb82e8075bca37dd9e6fd523be93e",
+        "approvalHash": "dca81bfdf2bfea2d3f8431ed47f44b9a59bdb82e8075bca37dd9e6fd523be93e"
+      }
+    },
+    {
+      "key": "途切れる|とぎれる",
+      "referenceIndex": 0,
+      "referenceHash": "a45f6a4e6911a4d67e7429ffdb3f598f56bcb3a25ce8a5be30f3a9030a78ed80",
+      "revisionId": "045-candidate-togireru-90bd83e5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:togireru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:togireru": "e5f14752e799d823f24011719f186accfea5092e69e6bcbdb5b50ff6735a4677"
+      },
+      "reason": "Reference 途切れる/とぎれる (master N1) is the same lexeme as the new entry 途切れる【とぎれる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 途切れる/とぎれる at N1 (gloss: to pause; to be interrupted; cesser)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598690; spelling=途切れる; reading=とぎれる; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598690 as the reference form.",
+          "selected": {
+            "sequence": "1598690",
+            "spelling": "途切れる",
+            "reading": "とぎれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to break off",
+                  "to come to an end",
+                  "to be interrupted",
+                  "to be cut short",
+                  "to pause"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 途切れる|とぎれる#0 is the same lexeme as vocab-n1:correction:togireru; target hash bound to the assembled addition.",
+        "contentHash": "a81551e6f6681f6210a188997e0dc2da1bc2dbf4bba692a4043a9709dae42fb7",
+        "approvalHash": "a81551e6f6681f6210a188997e0dc2da1bc2dbf4bba692a4043a9709dae42fb7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "a81551e6f6681f6210a188997e0dc2da1bc2dbf4bba692a4043a9709dae42fb7",
+        "approvalHash": "a81551e6f6681f6210a188997e0dc2da1bc2dbf4bba692a4043a9709dae42fb7"
+      }
+    },
+    {
+      "key": "跡切れる|とぎれる",
+      "referenceIndex": 0,
+      "referenceHash": "2b7be4e32ef224ed8468933730e7990ade285c86902a6fa474de0f45bfb9e669",
+      "revisionId": "045-candidate-togireru-eeb78bd3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:togireru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:togireru": "e5f14752e799d823f24011719f186accfea5092e69e6bcbdb5b50ff6735a4677"
+      },
+      "reason": "Reference 跡切れる/とぎれる (tanos N1) is the same lexeme as the new entry 途切れる【とぎれる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 跡切れる/とぎれる at N1 (gloss: to pause, to be interrupted)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598690; spelling=途切れる; reading=とぎれる; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598690 as the reference form.",
+          "selected": {
+            "sequence": "1598690",
+            "spelling": "途切れる",
+            "reading": "とぎれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to break off",
+                  "to come to an end",
+                  "to be interrupted",
+                  "to be cut short",
+                  "to pause"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 跡切れる|とぎれる#0 is the same lexeme as vocab-n1:correction:togireru; target hash bound to the assembled addition.",
+        "contentHash": "72b991a893451f808cde8920dd3062e7986d70d0ec1e377c87c1065c4eeb8ddc",
+        "approvalHash": "72b991a893451f808cde8920dd3062e7986d70d0ec1e377c87c1065c4eeb8ddc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "72b991a893451f808cde8920dd3062e7986d70d0ec1e377c87c1065c4eeb8ddc",
+        "approvalHash": "72b991a893451f808cde8920dd3062e7986d70d0ec1e377c87c1065c4eeb8ddc"
+      }
+    },
+    {
+      "key": "説く|とく",
+      "referenceIndex": 0,
+      "referenceHash": "0e5398549d2de06d0643b684e7996e005e914a14c77be528e388cc3ef1a46e2b",
+      "revisionId": "045-candidate-toku-preach-47390089-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toku-preach"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toku-preach": "36f92b40ca3652dcd9fec3ddb33fb7d4b39b5385fe069de0442ff572008dee9a"
+      },
+      "reason": "Reference 説く/とく (tanos N1) is the same lexeme as the new entry 説く【とく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=116",
+          "finding": "tanos lists 説く/とく at N1 (gloss: to explain, to advocate, to preach, to persuade)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1386420; spelling=説く; reading=とく; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1386420 as the reference form.",
+          "selected": {
+            "sequence": "1386420",
+            "spelling": "説く",
+            "reading": "とく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to explain",
+                  "to preach",
+                  "to advocate"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to persuade",
+                  "to prevail upon",
+                  "to reason with",
+                  "to urge (someone to do)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 説く|とく#0 is the same lexeme as vocab-n1:correction:toku-preach; target hash bound to the assembled addition.",
+        "contentHash": "20575b0133977351921f0646a0516eb092eff44d25e7d36e03b43890ec7a5e8d",
+        "approvalHash": "20575b0133977351921f0646a0516eb092eff44d25e7d36e03b43890ec7a5e8d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "20575b0133977351921f0646a0516eb092eff44d25e7d36e03b43890ec7a5e8d",
+        "approvalHash": "20575b0133977351921f0646a0516eb092eff44d25e7d36e03b43890ec7a5e8d"
+      }
+    },
+    {
+      "key": "説く|とく",
+      "referenceIndex": 1,
+      "referenceHash": "db181dfad149164f45946053322d42e7c71b695bb59e9d0092040d69b2e71157",
+      "revisionId": "045-candidate-toku-preach-47390089-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toku-preach"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toku-preach": "36f92b40ca3652dcd9fec3ddb33fb7d4b39b5385fe069de0442ff572008dee9a"
+      },
+      "reason": "Reference 説く/とく (master N1) is the same lexeme as the new entry 説く【とく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 説く/とく at N1 (gloss: to explain; to advocate; to preach)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1386420; spelling=説く; reading=とく; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1386420 as the reference form.",
+          "selected": {
+            "sequence": "1386420",
+            "spelling": "説く",
+            "reading": "とく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to explain",
+                  "to preach",
+                  "to advocate"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to persuade",
+                  "to prevail upon",
+                  "to reason with",
+                  "to urge (someone to do)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 説く|とく#1 is the same lexeme as vocab-n1:correction:toku-preach; target hash bound to the assembled addition.",
+        "contentHash": "1f2e463208b897da2a4efedc2860ea6aba5143f702b978f31e413eaee8330d16",
+        "approvalHash": "1f2e463208b897da2a4efedc2860ea6aba5143f702b978f31e413eaee8330d16"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "1f2e463208b897da2a4efedc2860ea6aba5143f702b978f31e413eaee8330d16",
+        "approvalHash": "1f2e463208b897da2a4efedc2860ea6aba5143f702b978f31e413eaee8330d16"
+      }
+    },
+    {
+      "key": "特産|とくさん",
+      "referenceIndex": 0,
+      "referenceHash": "55af2d0bd8f17329a8811dc8da6ebd84c09f5fea9f2ba3fddb488572dd738ccb",
+      "revisionId": "045-candidate-tokusan-d7fd2782-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokusan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokusan": "1b4385ffba3dbd433556047be1713e64abe92fc35dd0a150d0154ad96c05e7f4"
+      },
+      "reason": "Reference 特産/とくさん (tanos N1) is the same lexeme as the new entry 特産【とくさん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 特産/とくさん at N1 (gloss: specialty, special product)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1454920; spelling=特産; reading=とくさん; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1454920 as the reference form.",
+          "selected": {
+            "sequence": "1454920",
+            "spelling": "特産",
+            "reading": "とくさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being produced in a particular region",
+                  "local specialty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特産|とくさん#0 is the same lexeme as vocab-n1:correction:tokusan; target hash bound to the assembled addition.",
+        "contentHash": "a5770485a606a84b54b37dd47a3934aee51d8caeb915758ef6b05b425a3f9fec",
+        "approvalHash": "a5770485a606a84b54b37dd47a3934aee51d8caeb915758ef6b05b425a3f9fec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "a5770485a606a84b54b37dd47a3934aee51d8caeb915758ef6b05b425a3f9fec",
+        "approvalHash": "a5770485a606a84b54b37dd47a3934aee51d8caeb915758ef6b05b425a3f9fec"
+      }
+    },
+    {
+      "key": "特産|とくさん",
+      "referenceIndex": 1,
+      "referenceHash": "0c3bfb8230703ab1412f401001e0c6ce811aea23ee1f190fe218fa85c98ff564",
+      "revisionId": "045-candidate-tokusan-d7fd2782-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokusan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokusan": "1b4385ffba3dbd433556047be1713e64abe92fc35dd0a150d0154ad96c05e7f4"
+      },
+      "reason": "Reference 特産/とくさん (master N1) is the same lexeme as the new entry 特産【とくさん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 特産/とくさん at N1 (gloss: specialty; special product; production principale)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1454920; spelling=特産; reading=とくさん; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1454920 as the reference form.",
+          "selected": {
+            "sequence": "1454920",
+            "spelling": "特産",
+            "reading": "とくさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being produced in a particular region",
+                  "local specialty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特産|とくさん#1 is the same lexeme as vocab-n1:correction:tokusan; target hash bound to the assembled addition.",
+        "contentHash": "fee9282e09684906218415cf0378d154cc261b9f793540a16ec0ece2823ebf23",
+        "approvalHash": "fee9282e09684906218415cf0378d154cc261b9f793540a16ec0ece2823ebf23"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "fee9282e09684906218415cf0378d154cc261b9f793540a16ec0ece2823ebf23",
+        "approvalHash": "fee9282e09684906218415cf0378d154cc261b9f793540a16ec0ece2823ebf23"
+      }
+    },
+    {
+      "key": "特集|とくしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "d0d9187441cdbc31f34c8f70d4df053061d762076f18049423ee1db3aed0fce1",
+      "revisionId": "045-candidate-tokushuu-548bf9f6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokushuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokushuu": "7dd0e53d921216067e56fc1f85b55270324c2fc2ae0d83b7db7a6c61afd0a2f0"
+      },
+      "reason": "Reference 特集/とくしゅう (tanos N1) is the same lexeme as the new entry 特集【とくしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 特集/とくしゅう at N1 (gloss: feature (e.g. newspaper), special edition,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455060; spelling=特集; reading=とくしゅう; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1455060 as the reference form.",
+          "selected": {
+            "sequence": "1455060",
+            "spelling": "特集",
+            "reading": "とくしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feature (e.g. newspaper)",
+                  "special edition",
+                  "report"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特集|とくしゅう#0 is the same lexeme as vocab-n1:correction:tokushuu; target hash bound to the assembled addition.",
+        "contentHash": "822a0149c23b1f965da52527c5c261555434703245de9d85126855c39fc8ba86",
+        "approvalHash": "822a0149c23b1f965da52527c5c261555434703245de9d85126855c39fc8ba86"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "822a0149c23b1f965da52527c5c261555434703245de9d85126855c39fc8ba86",
+        "approvalHash": "822a0149c23b1f965da52527c5c261555434703245de9d85126855c39fc8ba86"
+      }
+    },
+    {
+      "key": "特集|とくしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "481c9009c4bfc3f983e53ae3a334f31c701c9e2d1e571fc16103f25d8f5991eb",
+      "revisionId": "045-candidate-tokushuu-548bf9f6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokushuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokushuu": "7dd0e53d921216067e56fc1f85b55270324c2fc2ae0d83b7db7a6c61afd0a2f0"
+      },
+      "reason": "Reference 特集/とくしゅう (master N1) is the same lexeme as the new entry 特集【とくしゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 特集/とくしゅう at N1 (gloss: feature (e.g. newspaper); special edition; report)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455060; spelling=特集; reading=とくしゅう; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1455060 as the reference form.",
+          "selected": {
+            "sequence": "1455060",
+            "spelling": "特集",
+            "reading": "とくしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feature (e.g. newspaper)",
+                  "special edition",
+                  "report"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特集|とくしゅう#1 is the same lexeme as vocab-n1:correction:tokushuu; target hash bound to the assembled addition.",
+        "contentHash": "f3dd17197caca282768b6dc36ba9252b3b23d14cdeeccfc85c2938506fc710b5",
+        "approvalHash": "f3dd17197caca282768b6dc36ba9252b3b23d14cdeeccfc85c2938506fc710b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "f3dd17197caca282768b6dc36ba9252b3b23d14cdeeccfc85c2938506fc710b5",
+        "approvalHash": "f3dd17197caca282768b6dc36ba9252b3b23d14cdeeccfc85c2938506fc710b5"
+      }
+    },
+    {
+      "key": "特派|とくは",
+      "referenceIndex": 0,
+      "referenceHash": "3bfeed77cc71e2c63ef1a7e1b08e28b1dae0eb2049a38026a721111d8bc1d100",
+      "revisionId": "045-candidate-tokuha-62732b69-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokuha"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokuha": "b3a104d452d49c462f7504e0a087e432421f93744631bbda190b291f2626d078"
+      },
+      "reason": "Reference 特派/とくは (tanos N1) is the same lexeme as the new entry 特派【とくは】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 特派/とくは at N1 (gloss: send specially, special envoy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455230; spelling=特派; reading=とくは; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1455230 as the reference form.",
+          "selected": {
+            "sequence": "1455230",
+            "spelling": "特派",
+            "reading": "とくは",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "send specially",
+                  "special envoy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特派|とくは#0 is the same lexeme as vocab-n1:correction:tokuha; target hash bound to the assembled addition.",
+        "contentHash": "99d8605e2bbdbaa5cbdbaa5bc01c7e9678c174decab482f54b189ab77b9274fc",
+        "approvalHash": "99d8605e2bbdbaa5cbdbaa5bc01c7e9678c174decab482f54b189ab77b9274fc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "99d8605e2bbdbaa5cbdbaa5bc01c7e9678c174decab482f54b189ab77b9274fc",
+        "approvalHash": "99d8605e2bbdbaa5cbdbaa5bc01c7e9678c174decab482f54b189ab77b9274fc"
+      }
+    },
+    {
+      "key": "特派|とくは",
+      "referenceIndex": 1,
+      "referenceHash": "3ce2ceaa4f2e7d1a2edb2cb02ed9eb7050c38022f17ca19d0734b0e3f22085cf",
+      "revisionId": "045-candidate-tokuha-62732b69-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tokuha"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tokuha": "b3a104d452d49c462f7504e0a087e432421f93744631bbda190b291f2626d078"
+      },
+      "reason": "Reference 特派/とくは (master N1) is the same lexeme as the new entry 特派【とくは】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 特派/とくは at N1 (gloss: send specially; special envoy; (n) besondere Entsendung)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1455230; spelling=特派; reading=とくは; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1455230 as the reference form.",
+          "selected": {
+            "sequence": "1455230",
+            "spelling": "特派",
+            "reading": "とくは",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "send specially",
+                  "special envoy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 特派|とくは#1 is the same lexeme as vocab-n1:correction:tokuha; target hash bound to the assembled addition.",
+        "contentHash": "153577c7b7d5d58af4ee9b7335a4b918ba7683a866578ce3cb0df41bb8464f0f",
+        "approvalHash": "153577c7b7d5d58af4ee9b7335a4b918ba7683a866578ce3cb0df41bb8464f0f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "153577c7b7d5d58af4ee9b7335a4b918ba7683a866578ce3cb0df41bb8464f0f",
+        "approvalHash": "153577c7b7d5d58af4ee9b7335a4b918ba7683a866578ce3cb0df41bb8464f0f"
+      }
+    },
+    {
+      "key": "棘|とげ",
+      "referenceIndex": 0,
+      "referenceHash": "755fd01e0f6b83dc300049e6cf9c3d49fdbcdf5cd9e5e17fb9d593f3d402addb",
+      "revisionId": "045-candidate-toge-d33f4ba5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toge"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toge": "7df81d0dffafb6b1c16f8601fef4a1c1fd217051cb7b3a4aa23ba4c43a3f549b"
+      },
+      "reason": "Reference 棘/とげ (master N1) is the same lexeme as the new entry とげ【とげ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "Nihongo Master lists 棘/とげ at N1 (gloss: thorn; splinter; spine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598710; spelling=とげ; reading=とげ; senses=1,2,3; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598710 as the reference form.",
+          "selected": {
+            "sequence": "1598710",
+            "spelling": "とげ",
+            "reading": "とげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thorn",
+                  "spine",
+                  "prickle"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "splinter (esp. lodged in one's flesh)",
+                  "hard sharp item (esp. lodged in one's throat, e.g. fish bone)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "biting words"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 棘|とげ#0 is the same lexeme as vocab-n1:correction:toge; target hash bound to the assembled addition.",
+        "contentHash": "ecb64362bcd149b0fe8c7ca4510b0fb3d44c47367341e3c5483d1ea47fb3c570",
+        "approvalHash": "ecb64362bcd149b0fe8c7ca4510b0fb3d44c47367341e3c5483d1ea47fb3c570"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "ecb64362bcd149b0fe8c7ca4510b0fb3d44c47367341e3c5483d1ea47fb3c570",
+        "approvalHash": "ecb64362bcd149b0fe8c7ca4510b0fb3d44c47367341e3c5483d1ea47fb3c570"
+      }
+    },
+    {
+      "key": "刺|とげ",
+      "referenceIndex": 0,
+      "referenceHash": "bd86a7aac049c5b4bfcd0ccc9016b3ba73b50e3cca6dba69f80964395ad004b4",
+      "revisionId": "045-candidate-toge-c68f8bef-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:toge"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:toge": "7df81d0dffafb6b1c16f8601fef4a1c1fd217051cb7b3a4aa23ba4c43a3f549b"
+      },
+      "reason": "Reference 刺/とげ (tanos N1) is the same lexeme as the new entry とげ【とげ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 刺/とげ at N1 (gloss: thorn, splinter, spine, biting words)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598710; spelling=とげ; reading=とげ; senses=1,2,3; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1598710 as the reference form.",
+          "selected": {
+            "sequence": "1598710",
+            "spelling": "とげ",
+            "reading": "とげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thorn",
+                  "spine",
+                  "prickle"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "splinter (esp. lodged in one's flesh)",
+                  "hard sharp item (esp. lodged in one's throat, e.g. fish bone)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "biting words"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 刺|とげ#0 is the same lexeme as vocab-n1:correction:toge; target hash bound to the assembled addition.",
+        "contentHash": "f705588ad1050b9b90450545decee42e911bc8de3af94212faf30072c4968496",
+        "approvalHash": "f705588ad1050b9b90450545decee42e911bc8de3af94212faf30072c4968496"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "f705588ad1050b9b90450545decee42e911bc8de3af94212faf30072c4968496",
+        "approvalHash": "f705588ad1050b9b90450545decee42e911bc8de3af94212faf30072c4968496"
+      }
+    },
+    {
+      "key": "戸締まり|とじまり",
+      "referenceIndex": 0,
+      "referenceHash": "17f4a51b3bb4ec48afab23bdc00fd8aee908b81b44e7361a4698f45ac2fd661f",
+      "revisionId": "045-candidate-tojimari-2dce5331-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tojimari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tojimari": "ae3b7e8f80f4998f24bea7f4c9abc194c42fa8f9234d68139ebc981a57d2c421"
+      },
+      "reason": "Reference 戸締まり/とじまり (master N1) is the same lexeme as the new entry 戸締まり【とじまり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 戸締まり/とじまり at N1 (gloss: closing up; fastening the doors; enfermement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267060; spelling=戸締まり; reading=とじまり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1267060 as the reference form.",
+          "selected": {
+            "sequence": "1267060",
+            "spelling": "戸締まり",
+            "reading": "とじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locking up (doors and windows)",
+                  "fastening the doors"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 戸締まり|とじまり#0 is the same lexeme as vocab-n1:correction:tojimari; target hash bound to the assembled addition.",
+        "contentHash": "99d0bfa66139c1cda89d0ac3679f762f4b78a13dfa1a434a52bccfa4a31eb036",
+        "approvalHash": "99d0bfa66139c1cda89d0ac3679f762f4b78a13dfa1a434a52bccfa4a31eb036"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "99d0bfa66139c1cda89d0ac3679f762f4b78a13dfa1a434a52bccfa4a31eb036",
+        "approvalHash": "99d0bfa66139c1cda89d0ac3679f762f4b78a13dfa1a434a52bccfa4a31eb036"
+      }
+    },
+    {
+      "key": "戸締り|とじまり",
+      "referenceIndex": 0,
+      "referenceHash": "7ddd91d6a66b711acb82398e7945dae7af887a56d14409c1226292180304461a",
+      "revisionId": "045-candidate-tojimari-baea1399-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tojimari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tojimari": "ae3b7e8f80f4998f24bea7f4c9abc194c42fa8f9234d68139ebc981a57d2c421"
+      },
+      "reason": "Reference 戸締り/とじまり (tanos N1) is the same lexeme as the new entry 戸締まり【とじまり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 戸締り/とじまり at N1 (gloss: closing up, fastening the doors)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267060; spelling=戸締まり; reading=とじまり; senses=1; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1267060 as the reference form.",
+          "selected": {
+            "sequence": "1267060",
+            "spelling": "戸締まり",
+            "reading": "とじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locking up (doors and windows)",
+                  "fastening the doors"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 戸締り|とじまり#0 is the same lexeme as vocab-n1:correction:tojimari; target hash bound to the assembled addition.",
+        "contentHash": "dbd4bfe1f4a5f9577ad24e5c12288bc5b220e91c80fab5745214e636020b7633",
+        "approvalHash": "dbd4bfe1f4a5f9577ad24e5c12288bc5b220e91c80fab5745214e636020b7633"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "dbd4bfe1f4a5f9577ad24e5c12288bc5b220e91c80fab5745214e636020b7633",
+        "approvalHash": "dbd4bfe1f4a5f9577ad24e5c12288bc5b220e91c80fab5745214e636020b7633"
+      }
+    },
+    {
+      "key": "途上|とじょう",
+      "referenceIndex": 0,
+      "referenceHash": "05fd109b020bd25eeee8b34440aaa8c1b73dc8b68fa71c400e9412a16f771bac",
+      "revisionId": "045-candidate-tojou-e0cb1557-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tojou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tojou": "497a51249dab5f5e661f3456ef58ff58c735dabee78e7573ba974ff773957fbd"
+      },
+      "reason": "Reference 途上/とじょう (tanos N1) is the same lexeme as the new entry 途上【とじょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=117",
+          "finding": "tanos lists 途上/とじょう at N1 (gloss: en route, half way)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1444870; spelling=途上; reading=とじょう; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1444870 as the reference form.",
+          "selected": {
+            "sequence": "1444870",
+            "spelling": "途上",
+            "reading": "とじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "on the way",
+                  "en route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in the process of (development, construction, etc.)",
+                  "in the middle of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 途上|とじょう#0 is the same lexeme as vocab-n1:correction:tojou; target hash bound to the assembled addition.",
+        "contentHash": "2a287c09e80fbb90ab3a073587737386bbc4c7c6b770f32c2c0c70c6c2dd38c6",
+        "approvalHash": "2a287c09e80fbb90ab3a073587737386bbc4c7c6b770f32c2c0c70c6c2dd38c6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "2a287c09e80fbb90ab3a073587737386bbc4c7c6b770f32c2c0c70c6c2dd38c6",
+        "approvalHash": "2a287c09e80fbb90ab3a073587737386bbc4c7c6b770f32c2c0c70c6c2dd38c6"
+      }
+    },
+    {
+      "key": "途上|とじょう",
+      "referenceIndex": 1,
+      "referenceHash": "c877435fe3904cb3f7c8ebd330d0715086064feaca69c92b2dad05a21a843bb1",
+      "revisionId": "045-candidate-tojou-e0cb1557-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tojou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tojou": "497a51249dab5f5e661f3456ef58ff58c735dabee78e7573ba974ff773957fbd"
+      },
+      "reason": "Reference 途上/とじょう (master N1) is the same lexeme as the new entry 途上【とじょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 途上/とじょう at N1 (gloss: en route; half-way; à mi-chemin)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1444870; spelling=途上; reading=とじょう; senses=1,2; scripts/vocabulary-completion/maintenance-045/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1444870 as the reference form.",
+          "selected": {
+            "sequence": "1444870",
+            "spelling": "途上",
+            "reading": "とじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "on the way",
+                  "en route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in the process of (development, construction, etc.)",
+                  "in the middle of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-editor",
+        "finding": "Editorial first pass: reference 途上|とじょう#1 is the same lexeme as vocab-n1:correction:tojou; target hash bound to the assembled addition.",
+        "contentHash": "23f07e33bb0f838ac83b1632a11d02f7c49bc259768a7422622ed0fafd7f768f",
+        "approvalHash": "23f07e33bb0f838ac83b1632a11d02f7c49bc259768a7422622ed0fafd7f768f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-045-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 contains only the round-1 fixes (転ずる, 棟, 同士, 同志, 動的, 留める, ドライブイン); first-approved files match the rebuilt assemblies (finalContent, packet, assemblyHash), and the targets/hashes match vocabulary-batch targets; packets are still fresh against the current plan after 044/046 (checkPacket ok; check.cjs still reports all 135 forms as new); 118 additions / 229 added decisions + 1 exclusion, nothing dropped. Decision re-accepted: publisher row is the same lexeme as the bound target.",
+        "contentHash": "23f07e33bb0f838ac83b1632a11d02f7c49bc259768a7422622ed0fafd7f768f",
+        "approvalHash": "23f07e33bb0f838ac83b1632a11d02f7c49bc259768a7422622ed0fafd7f768f"
+      }
+    }
+  ]
+}
