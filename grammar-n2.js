@@ -3108,7 +3108,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Naite bakari wa irarenai. Mae ni susumanakytte wa.",
+        "romaji": "Naite bakari wa irarenai. Mae ni susumanakute wa.",
         "german": "Ich kann nicht nur weinen. Ich muss vorwärts gehen."
       },
       {

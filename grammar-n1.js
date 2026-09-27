@@ -2404,7 +2404,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼の演説は聴衆を驚かせずにはおかなかった。",
-        "romaji": "Kare no enzetsu wa chousha wo odorokasezuni wa okanakatta.",
+        "romaji": "Kare no enzetsu wa chōshū o odorokasezu ni wa okanakatta.",
         "german": "Seine Rede konnte das Publikum nicht anders als überraschen."
       }
     ],
@@ -2637,7 +2637,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "世界の平和を願って止まない。",
-        "romaji": "Sekai no heiwa wo negatte yamanu.",
+        "romaji": "Sekai no heiwa o negatte yamanai.",
         "german": "Ich wünsche mir unaufhörlich den Weltfrieden."
       },
       {
@@ -3246,7 +3246,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 7,
           "answer": "ともすると"
         },
-        "romaji": "Hitori de iru to, tomosuru to hikantek ni naru.",
+        "romaji": "Hitori de iru to, tomosuru to hikanteki ni naru.",
         "german": "Wenn man allein ist, wird man leicht pessimistisch."
       }
     ],
@@ -5344,7 +5344,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Tanomareba, tetsudawanai mono demo nai.",
+        "romaji": "Tanomarereba, tetsudawanai mono de mo nai.",
         "german": "Wenn man mich bittet, ist es nicht so, dass ich nicht helfen würde."
       },
       {
@@ -5631,7 +5631,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Sore wa kyoushi ni aramajiki koui da.",
+        "romaji": "Sore wa kyōshi ni arumajiki kōi da.",
         "german": "Das ist ein für einen Lehrer unwürdiges Verhalten."
       },
       {
@@ -5640,7 +5640,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "にあるまじき"
         },
-        "romaji": "Isha ni aramajiki hatsugen wo shita.",
+        "romaji": "Isha ni arumajiki hatsugen o shita.",
         "german": "Er machte eine für einen Arzt unangemessene Bemerkung."
       }
     ],
@@ -6089,7 +6089,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "極まる"
         },
-        "romaji": "Kiken kiwamaru joukyou ni ochitta.",
+        "romaji": "Kiken kiwamaru jōkyō ni ochiitta.",
         "german": "Wir gerieten in eine extrem gefährliche Situation."
       },
       {

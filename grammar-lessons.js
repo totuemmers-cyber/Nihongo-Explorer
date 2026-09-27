@@ -2071,7 +2071,7 @@
           text: 'に対して hat zwei Hauptbedeutungen: (1) <strong>gegenüber</strong> jemandem/etwas (eine Haltung, ein Verhalten) und (2) <strong>im Gegensatz zu</strong> (kontrastierend). Im Deutschen: „Gegenüber...", „Während..., dagegen...".',
           examples: [
             { jp: '先生に対して失礼な態度を取ってはいけない。', romaji: 'Sensei ni taishite shitsurei na taido o totte wa ikenai.', de: 'Man darf dem Lehrer gegenüber nicht unhöflich sein.' },
-            { jp: '兄は外向的なのに対して、弟は内向的だ。', romaji: 'Ani wa gaigōteki na no ni taishite, otōto wa naikōteki da.', de: 'Während der ältere Bruder extrovertiert ist, ist der jüngere introvertiert.' },
+            { jp: '兄は外向的なのに対して、弟は内向的だ。', romaji: 'Ani wa gaikōteki na no ni taishite, otōto wa naikōteki da.', de: 'Während der ältere Bruder extrovertiert ist, ist der jüngere introvertiert.' },
             { jp: '日本語は語順が自由なのに対して、ドイツ語は動詞の位置が固定されている。', romaji: 'Nihongo wa gojun ga jiyū na no ni taishite, doitsugo wa dōshi no ichi ga kotei sarete iru.', de: 'Während die Wortstellung im Japanischen frei ist, ist die Verbposition im Deutschen festgelegt.' }
           ]
         },
@@ -2287,7 +2287,7 @@
           heading: 'Vergleich: ざるを得ない vs ないわけにはいかない',
           text: '<ul class="lesson-rules"><li><strong>ざるを得ない</strong> → Äußere Umstände zwingen: „Die Situation lässt mir keine Wahl"</li><li><strong>ないわけにはいかない</strong> → Soziale/moralische Pflicht: „Mein Pflichtgefühl erlaubt es nicht"</li></ul>Beide drücken Notwendigkeit aus, aber die Quelle des Zwangs ist unterschiedlich.',
           examples: [
-            { jp: '台風で会社を休まざるを得なかった。', romaji: 'Taifū de kaisha o yasumezaru o enakatta.', de: 'Wegen des Taifuns musste ich der Arbeit fernbleiben. (äußerer Zwang)' },
+            { jp: '台風で会社を休まざるを得なかった。', romaji: 'Taifū de kaisha o yasumazaru o enakatta.', de: 'Wegen des Taifuns musste ich der Arbeit fernbleiben. (äußerer Zwang)' },
             { jp: '約束したんだから、行かないわけにはいかない。', romaji: 'Yakusoku shita n da kara, ikanai wake ni wa ikanai.', de: 'Ich habe es versprochen, also muss ich hingehen. (moralische Pflicht)' }
           ],
           tip: 'ざるを得ない klingt schwerer und formeller — ideal für Geschäftssprache. ないわけにはいかない ist etwas alltäglicher und persönlicher.'
@@ -3240,7 +3240,7 @@
           text: 'In der ersten Bedeutung drücken ～を通じて und ～を通して aus, dass etwas <strong>als Mittel, Kanal oder Vermittler</strong> dient. Es beantwortet die Frage: „Auf welchem Weg?" oder „Durch wen/was?" Die Konstruktion ist: <strong>Nomen + を通じて/を通して</strong>. Typische Nomen sind: インターネット (Internet), 友人 (Freund), 経験 (Erfahrung), メディア (Medien).',
           examples: [
             { jp: 'インターネットを通じて、世界中の人とつながれる。', romaji: 'Intānetto wo tsūjite, sekaijū no hito to tsunagareru.', de: 'Durch das Internet kann man sich mit Menschen auf der ganzen Welt verbinden.' },
-            { jp: '友人を通して、彼と知り合った。', romaji: 'Yūjin wo tōshite, kare to shiraiatta.', de: 'Ich habe ihn über einen Freund kennengelernt.' },
+            { jp: '友人を通して、彼と知り合った。', romaji: 'Yūjin o tōshite, kare to shiriatta.', de: 'Ich habe ihn über einen Freund kennengelernt.' },
             { jp: 'ボランティア活動を通じて、多くのことを学んだ。', romaji: 'Borantia katsudō wo tsūjite, ōku no koto wo mananda.', de: 'Durch die Freiwilligenarbeit habe ich viel gelernt.' },
           ],
           tip: 'Bei der Bedeutung „durch/mittels" sind を通じて und を通して fast immer austauschbar. を通じて klingt etwas formeller.'
@@ -4784,7 +4784,7 @@
           heading: 'たびに — jedes Mal wenn',
           text: '<strong>たびに</strong> drückt Wiederholung aus: Immer wenn X passiert, folgt Y. Es ist regelmäßiger und allgemeiner als ein einmaliger Zeitzusammenhang.',
           examples: [
-            { jp: 'この歌を聞くたびに、学生時代を思い出します。', romaji: 'Kono uta o kiku tabi ni, gakusei jidai o omoidasu.', de: 'Jedes Mal, wenn ich dieses Lied höre, denke ich an meine Studienzeit.' },
+            { jp: 'この歌を聞くたびに、学生時代を思い出します。', romaji: 'Kono uta o kiku tabi ni, gakusei jidai o omoidashimasu.', de: 'Jedes Mal, wenn ich dieses Lied höre, denke ich an meine Studienzeit.' },
             { jp: '会うたびに、彼は元気になります。', romaji: 'Au tabi ni, kare wa genki ni narimasu.', de: 'Jedes Mal, wenn wir uns treffen, wird er besser gelaunt.' },
           ],
           tip: 'たびに beschreibt keine einmalige Situation, sondern ein wiederholtes Muster.'
@@ -4863,7 +4863,7 @@
           text: 'Die Kausativ-Passivform verbindet beide Ideen: Jemand wird dazu gebracht oder gezwungen, etwas zu tun. Sie ist formell komplexer, aber in N3-Lesetexten und Hörverstehen sehr relevant.',
           examples: [
             { jp: '私は父に野菜を食べさせられました。', romaji: 'Watashi wa chichi ni yasai o tabesaseraremashita.', de: 'Mein Vater zwang mich dazu, Gemüse zu essen.' },
-            { jp: '学生たちは毎日漢字を書かせられています。', romaji: 'Gakuseitachi wa mainichi kanji o kakasarete imasu.', de: 'Die Studenten werden jeden Tag dazu gebracht, Kanji zu schreiben.' },
+            { jp: '学生たちは毎日漢字を書かせられています。', romaji: 'Gakuseitachi wa mainichi kanji o kakaserarete imasu.', de: 'Die Studenten werden jeden Tag dazu gebracht, Kanji zu schreiben.' },
           ],
           tip: 'N3-Ziel ist nicht nur die Bildung, sondern das sichere Erkennen der Beziehung zwischen den drei Formen und ihrer jeweiligen Perspektive.'
         }
@@ -4932,7 +4932,7 @@
           heading: '～ところで — selbst wenn / übrigens / genau dann',
           text: '<strong>ところで</strong> hat mehrere Funktionen, die man aus dem Kontext erkennen muss. Als Satzverbindung heißt es oft „übrigens“. In Mustern wie ～たところで bedeutet es „selbst wenn ...“, oft mit der Nuance, dass das Ergebnis wenig bringt.',
           examples: [
-            { jp: '今から急いだところで、もう間に合わない。', romaji: 'Ima kara isoida tokoro de, mō maniau nai.', de: 'Selbst wenn wir uns jetzt beeilen, schaffen wir es nicht mehr rechtzeitig.' },
+            { jp: '今から急いだところで、もう間に合わない。', romaji: 'Ima kara isoida tokoro de, mō maniawanai.', de: 'Selbst wenn wir uns jetzt beeilen, schaffen wir es nicht mehr rechtzeitig.' },
             { jp: 'ところで、来週の会議は何時ですか。', romaji: 'Tokoro de, raishū no kaigi wa nanji desu ka.', de: 'Übrigens, um wie viel Uhr ist die Besprechung nächste Woche?' },
           ],
           tip: 'Die Funktion „übrigens“ ist sehr häufig im Gespräch, die Konditionalbedeutung eher typisch für N3-Grammatikfragen.'
@@ -6101,7 +6101,7 @@
         "examples": [
           {
             "jp": "四十歳にして初めて、自分の店を持った。",
-            "romaji": "Yonjuussai ni shite hajimete, jibun no mise o motta.",
+            "romaji": "Yonjussai ni shite hajimete, jibun no mise o motta.",
             "de": "Erst mit vierzig eröffnete ich mein eigenes Geschäft."
           },
           {
@@ -6698,8 +6698,8 @@
         heading: 'Wie du beide Formen gedanklich trennst',
         text: 'Stell dir immer die Frage: <strong>Ist die Handlung Pflicht?</strong> Wenn ja, brauchst du ～なければならない. Wenn nein, aber sie wäre okay, passt ～なくてもいい. So vermeidest du den häufigsten Anfängerfehler, nämlich ～なくてもいい als Verbot zu lesen.',
         examples: [
-          { jp: '明日は制服を着なくてもいいです。', romaji: 'Ashita wa seifuku o kiranakute mo ii desu.', de: 'Morgen muss man keine Uniform tragen.' },
-          { jp: '明日は制服を着なければなりません。', romaji: 'Ashita wa seifuku o kiranakereba narimasen.', de: 'Morgen muss man Uniform tragen.' }
+          { jp: '明日は制服を着なくてもいいです。', romaji: 'Ashita wa seifuku o kinakute mo ii desu.', de: 'Morgen muss man keine Uniform tragen.' },
+          { jp: '明日は制服を着なければなりません。', romaji: 'Ashita wa seifuku o kinakereba narimasen.', de: 'Morgen muss man Uniform tragen.' }
         ],
         tip: 'Wenn du im Deutschen „musst nicht“ sagen würdest, ist fast nie ein Verbot gemeint.'
       },
@@ -6908,7 +6908,7 @@
         examples: [
           { jp: '早く来い。', romaji: 'Hayaku koi.', de: 'Komm schnell!' },
           { jp: 'やめろ！', romaji: 'Yamero!', de: 'Hoer auf!' },
-          { jp: '急げ！', romaji: 'Isole!', de: 'Beeil dich!' }
+          { jp: '急げ！', romaji: 'Isoge!', de: 'Beeil dich!' }
         ],
         tip: 'Fuer Lernende ist Verstehen wichtiger als aktiver Gebrauch. Die Form klingt schnell hart.'
       },

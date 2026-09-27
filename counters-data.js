@@ -551,7 +551,7 @@ window.COUNTERS_DATA = {
       ],
       examples: [
         { japanese: 'テストで九十点を取りました。', romaji: 'Tesuto de kyūjutten o torimashita.', german: 'Ich habe 90 Punkte im Test bekommen.' },
-        { japanese: 'お買い上げは三点です。', romaji: 'Okariage wa santen desu.', german: 'Sie kaufen drei Artikel.' }
+        { japanese: 'お買い上げは三点です。', romaji: 'Okaiage wa santen desu.', german: 'Sie kaufen drei Artikel.' }
       ],
       notes: '点 wird in zwei Kontexten verwendet: Punkte/Bewertungen (百点 = 100 Punkte) und als formeller Zähler für Gegenstände (besonders im Einzelhandel und in Museen).'
     },
@@ -976,7 +976,7 @@ window.COUNTERS_DATA = {
       ],
       examples: [
         { japanese: '三年間日本に住んでいました。', romaji: 'Sannenkan Nihon ni sunde imashita.', german: 'Ich habe drei Jahre in Japan gewohnt.' },
-        { japanese: '今年は2026年です。', romaji: 'Kotoshi wa nisen nijuuroku nen desu.', german: 'Dieses Jahr ist 2026.' }
+        { japanese: '今年は2026年です。', romaji: 'Kotoshi wa nisen nijūroku nen desu.', german: 'Dieses Jahr ist 2026.' }
       ],
       notes: '4年 = よねん (nicht よんねん). Zeitdauer: ～年間 (ねんかん). 今年 (ことし) = dieses Jahr, 来年 (らいねん) = nächstes Jahr, 去年 (きょねん) = letztes Jahr.'
     },

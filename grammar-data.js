@@ -11988,7 +11988,7 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "困難を乗り越え、やり抜いた。",
-        "romaji": "Konnan o norikoete, yari nuita.",
+        "romaji": "Konnan o norikoe, yarinuita.",
         "german": "Ich überwand die Schwierigkeiten und zog es durch."
       }
     ],

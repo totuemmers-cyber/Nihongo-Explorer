@@ -4271,7 +4271,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "子供たちがキャーキャー騒いでいる。",
-        "romaji": "Kodomotachi ga kyākyā sawide iru.",
+        "romaji": "Kodomotachi ga kyākyā sawaide iru.",
         "german": "Die Kinder kreischen aufgeregt."
       }
     ],
@@ -7550,7 +7550,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "シュッシュッ",
     "reading": "しゅっしゅっ",
-    "romaji": "shusshuss",
+    "romaji": "shusshu",
     "pitch": 1,
     "meaning": "Zisch, Sprüh (Spray, Dampf)",
     "category": "Geräusche",
@@ -7562,7 +7562,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "スプレーをシュッシュッとかけた。",
-        "romaji": "Supurē o shusshuss to kaketa.",
+        "romaji": "Supurē o shusshu to kaketa.",
         "german": "Ich sprühte mit der Sprühflasche."
       }
     ],
@@ -7800,7 +7800,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ゴチャゴチャ",
     "reading": "ごちゃごちゃ",
-    "romaji": "gochagoca",
+    "romaji": "gochagocha",
     "pitch": 0,
     "meaning": "Durcheinander, chaotisch unordentlich",
     "category": "Zustände",

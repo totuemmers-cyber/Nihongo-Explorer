@@ -4026,7 +4026,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "ごゆっくり遊ばせ。",
-        "romaji": "Goyukkuri aobase.",
+        "romaji": "Goyukkuri asobase.",
         "german": "Bitte nehmen Sie sich alle Zeit. (sehr gehoben)"
       },
       {
@@ -4058,7 +4058,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "先生がおっしゃられました。",
-        "romaji": "Sensei ga ossharaemashita.",
+        "romaji": "Sensei ga osshararemashita.",
         "german": "Der Lehrer hat gesagt. (doppeltes Keigo, oft gehört, aber streng genommen fehlerhaft)"
       },
       {
@@ -4215,7 +4215,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "天は自ら助くる者を助け給う。",
-        "romaji": "Ten wa mizukara tasukuru mono wo tasuke tamau.",
+        "romaji": "Ten wa mizukara tasukuru mono o tasuke tamau.",
         "german": "Der Himmel hilft denen, die sich selbst helfen.",
         "cloze": {
           "start": 11,
@@ -4545,12 +4545,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "陛下にこの品を奉ります。",
-        "romaji": "Heika ni kono shina wo tatematsulimasu.",
+        "romaji": "Heika ni kono shina o tatematsurimasu.",
         "german": "Ich reiche Seiner Majestät diesen Gegenstand ehrerbietig dar."
       },
       {
         "japanese": "謹んで新年のお慶びを申し上げ奉ります。",
-        "romaji": "Tsutsushinde shinnen no oyorokobi wo mōshiage tatematsulimasu.",
+        "romaji": "Tsutsushinde shinnen no oyorokobi o mōshiage tatematsurimasu.",
         "german": "Ich überbringe ehrerbietigst meine Neujahrsglückwünsche."
       }
     ],
@@ -4785,7 +4785,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "拙見を述べさせていただきます。",
-        "romaji": "Sekken wo nobesasete itadakimasu.",
+        "romaji": "Sekken o nobesasete itadakimasu.",
         "german": "Erlauben Sie mir, meine bescheidene Ansicht darzulegen."
       },
       {
@@ -7163,7 +7163,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "ご期待に沿えず、誠に申し訳ございません。",
-        "romaji": "Gokitai ni souezu, makoto ni mōshiwake gozaimasen.",
+        "romaji": "Gokitai ni soezu, makoto ni mōshiwake gozaimasen.",
         "german": "Es tut mir aufrichtig leid, dass wir Ihren Erwartungen nicht entsprechen konnten.",
         "cloze": {
           "start": 0,
