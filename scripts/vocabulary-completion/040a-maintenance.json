@@ -1,0 +1,3931 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:kanki-cold",
+      "revisionId": "040-add-kanki-cold",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "寒気",
+        "reading": "かんき",
+        "romaji": "kanki",
+        "meaning": "Kälte; Kaltluft",
+        "type": "Nomen",
+        "category": "Wetter",
+        "level": "N1",
+        "notes": "Vor allem in Wetterberichten: 寒気が流れ込む (Kaltluft strömt ein). Mit der Lesung さむけ bedeutet dasselbe Wort „Schüttelfrost, Frösteln“.",
+        "examples": [
+          {
+            "japanese": "北から強い寒気が流れ込んでいる。",
+            "romaji": "Kita kara tsuyoi kanki ga nagarekonde iru.",
+            "german": "Von Norden strömt starke Kaltluft ein."
+          },
+          {
+            "japanese": "寒気の影響で、明日は雪になるでしょう。",
+            "romaji": "Kanki no eikyou de, ashita wa yuki ni naru deshou.",
+            "german": "Wegen der Kaltluft wird es morgen wohl schneien."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100286342",
+            "patterns": [
+              1
+            ],
+            "finding": "寒気 / カンキ; 名詞/普通名詞/一般/*; *; *; lemma 寒気; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寒気",
+              "reading": "かんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寒気 as \"Kälte; Kaltluft\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1. Editorial N1.",
+      "rationale": "Add 寒気【かんき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2866134; spelling=寒気; reading=かんき; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2866134 寒気/かんき sense(s) 1 support \"Kälte; Kaltluft\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2866134",
+            "spelling": "寒気",
+            "reading": "かんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cold",
+                  "coldness",
+                  "cold air"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "寒気|かんき",
+          "referenceIndex": 0,
+          "referenceHash": "e6f20bc86d18b6a2dfdd8f42d858e42300ffcea6386e8ba6d3f87064b7aebac9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Kälte; Kaltluft\" matches JMdict 2866134 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Weather report: inflow of cold air.",
+          "Forecast of snow."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2866134; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100286342 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100286342",
+            "patterns": [
+              1
+            ],
+            "finding": "寒気 / カンキ; 名詞/普通名詞/一般/*; *; *; lemma 寒気; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寒気",
+              "reading": "かんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寒気 as \"Kälte; Kaltluft\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 寒気【かんき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2866134 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1edd274de6cdd7baa63955c37944b72fb683519f6c1b764bdfbab67a5301d0be",
+        "approvalHash": "d6cf2e5b6c88c1a6cff5454f4754cdeca9c4cb20df02d11b4e0890838c8b2b4a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 寒気【かんき】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 2866134 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new. Weather-report usage (寒気が流れ込む) natural; note correctly separates the さむけ reading. Pitch 1 from exact 寒気/カンキ row.",
+        "contentHash": "1edd274de6cdd7baa63955c37944b72fb683519f6c1b764bdfbab67a5301d0be",
+        "approvalHash": "d6cf2e5b6c88c1a6cff5454f4754cdeca9c4cb20df02d11b4e0890838c8b2b4a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kango-nursing",
+      "revisionId": "040-add-kango-nursing",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "看護",
+        "reading": "かんご",
+        "romaji": "kango",
+        "meaning": "Krankenpflege, Pflege",
+        "type": "Nomen",
+        "category": "Medizin",
+        "level": "N1",
+        "notes": "Pflege von Kranken; als Verb 看護する. Pflegekraft: 看護師. Die häusliche Pflege von Angehörigen heißt oft 看病.",
+        "examples": [
+          {
+            "japanese": "彼女は病院で看護の仕事をしている。",
+            "romaji": "Kanojo wa byouin de kango no shigoto o shite iru.",
+            "german": "Sie arbeitet im Krankenhaus in der Pflege."
+          },
+          {
+            "japanese": "事故の後、母は父を献身的に看護した。",
+            "romaji": "Jiko no ato, haha wa chichi o kenshinteki ni kango shita.",
+            "german": "Nach dem Unfall pflegte meine Mutter meinen Vater aufopferungsvoll."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100382955",
+            "patterns": [
+              1
+            ],
+            "finding": "看護 / カンゴ; 名詞/普通名詞/サ変可能/*; *; *; lemma 看護; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "看護",
+              "reading": "かんご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "看護 as \"Krankenpflege, Pflege\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 看護【かんご】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213810; spelling=看護; reading=かんご; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1213810 看護/かんご sense(s) 1 support \"Krankenpflege, Pflege\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1213810",
+            "spelling": "看護",
+            "reading": "かんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nursing",
+                  "(army) nurse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "看護|かんご",
+          "referenceIndex": 0,
+          "referenceHash": "55e9de821fb29cd649dc8edd22ba438dfa4c919ea7def6d4d091f9b2510912a0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Krankenpflege, Pflege\" matches JMdict 1213810 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Working in nursing.",
+          "Caring for a family member (verb)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1213810; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100382955 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100382955",
+            "patterns": [
+              1
+            ],
+            "finding": "看護 / カンゴ; 名詞/普通名詞/サ変可能/*; *; *; lemma 看護; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "看護",
+              "reading": "かんご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "看護 as \"Krankenpflege, Pflege\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 看護【かんご】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1213810 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6ec75f9181dd626f766a87459220fb43fc7d3c22358a2ad52c33a857dda40829",
+        "approvalHash": "9452f8a11ecf03f91d851f71a2ec566479b9c66ad7708c25ddc40a6e36fd1077"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 看護【かんご】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1213810 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "6ec75f9181dd626f766a87459220fb43fc7d3c22358a2ad52c33a857dda40829",
+        "approvalHash": "9452f8a11ecf03f91d851f71a2ec566479b9c66ad7708c25ddc40a6e36fd1077"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kansan",
+      "revisionId": "040-add-kansan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "換算",
+        "reading": "かんさん",
+        "romaji": "kansan",
+        "meaning": "Umrechnung",
+        "type": "Nomen",
+        "category": "Finanzen",
+        "level": "N1",
+        "notes": "Umrechnen in eine andere Einheit oder Währung: 円に換算する, ドル換算で. Als Verb 換算する.",
+        "examples": [
+          {
+            "japanese": "この値段をユーロに換算するといくらですか。",
+            "romaji": "Kono nedan o yuuro ni kansan suru to ikura desu ka.",
+            "german": "Wie viel ist dieser Preis in Euro umgerechnet?"
+          },
+          {
+            "japanese": "一時間を分に換算すると六十分だ。",
+            "romaji": "Ichijikan o fun ni kansan suru to rokujuppun da.",
+            "german": "Eine Stunde in Minuten umgerechnet sind sechzig Minuten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100414046",
+            "patterns": [
+              0
+            ],
+            "finding": "換算 / カンサン; 名詞/普通名詞/サ変可能/*; *; *; lemma 換算; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "換算",
+              "reading": "かんさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "換算 as \"Umrechnung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 換算【かんさん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212820; spelling=換算; reading=かんさん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1212820 換算/かんさん sense(s) 1 support \"Umrechnung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1212820",
+            "spelling": "換算",
+            "reading": "かんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conversion (e.g. yen to dollars)",
+                  "change",
+                  "exchange",
+                  "translation (numerical)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "換算|かんさん",
+          "referenceIndex": 0,
+          "referenceHash": "d465e559a62674a2a14b4ae45cb9ddd8da075f92d17229e0c08c53f8e636bcc7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Umrechnung\" matches JMdict 1212820 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Currency conversion.",
+          "Unit conversion."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1212820; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100414046 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100414046",
+            "patterns": [
+              0
+            ],
+            "finding": "換算 / カンサン; 名詞/普通名詞/サ変可能/*; *; *; lemma 換算; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "換算",
+              "reading": "かんさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "換算 as \"Umrechnung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 換算【かんさん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1212820 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4292ec2cccb9d199f99974b5a6347e0e6d34f1e840b4b118f1a80e20b9b205aa",
+        "approvalHash": "231e693c95f4f12281be7253babf6ccdf07c86b3dcc4016025d32de90adb4856"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 換算【かんさん】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1212820 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "4292ec2cccb9d199f99974b5a6347e0e6d34f1e840b4b118f1a80e20b9b205aa",
+        "approvalHash": "231e693c95f4f12281be7253babf6ccdf07c86b3dcc4016025d32de90adb4856"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kanshuu",
+      "revisionId": "040-add-kanshuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "観衆",
+        "reading": "かんしゅう",
+        "romaji": "kanshuu",
+        "meaning": "Zuschauer, Publikum",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N1",
+        "notes": "Die Zuschauermenge bei einem Ereignis, besonders im Sport. Bei Konzerten und Vorträgen eher 聴衆, allgemein 観客.",
+        "examples": [
+          {
+            "japanese": "五万人の観衆が試合を見守った。",
+            "romaji": "Gomannin no kanshuu ga shiai o mimamotta.",
+            "german": "Fünfzigtausend Zuschauer verfolgten das Spiel."
+          },
+          {
+            "japanese": "決勝点が入ると、観衆は総立ちになった。",
+            "romaji": "Kesshouten ga hairu to, kanshuu wa soudachi ni natta.",
+            "german": "Als der Siegtreffer fiel, sprangen alle Zuschauer auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100443935",
+            "patterns": [
+              0
+            ],
+            "finding": "観衆 / カンシュウ; 名詞/普通名詞/一般/*; *; *; lemma 観衆; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "観衆",
+              "reading": "かんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "観衆 as \"Zuschauer, Publikum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 観衆【かんしゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214930; spelling=観衆; reading=かんしゅう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1214930 観衆/かんしゅう sense(s) 1 support \"Zuschauer, Publikum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1214930",
+            "spelling": "観衆",
+            "reading": "かんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spectators",
+                  "onlookers",
+                  "members of the audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "観衆|かんしゅう",
+          "referenceIndex": 0,
+          "referenceHash": "61c7317fb7e903d9bac0789bba79f8686aa23e584b694aa5660b870d3fd59e1c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Zuschauer, Publikum\" matches JMdict 1214930 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Stadium crowd.",
+          "Crowd reaction to a goal."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1214930; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100443935 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100443935",
+            "patterns": [
+              0
+            ],
+            "finding": "観衆 / カンシュウ; 名詞/普通名詞/一般/*; *; *; lemma 観衆; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "観衆",
+              "reading": "かんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "観衆 as \"Zuschauer, Publikum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 観衆【かんしゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1214930 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a44f2f4b93aa0b7df5d6e7a006fc53a8abd7bbc63be5c5703bc40fbacb1ae4b7",
+        "approvalHash": "d9857a3aba185d3c701ea280d07150e3ec6dfd087aa9f442b6f7cd7a72acc5b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 観衆【かんしゅう】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1214930 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "a44f2f4b93aa0b7df5d6e7a006fc53a8abd7bbc63be5c5703bc40fbacb1ae4b7",
+        "approvalHash": "d9857a3aba185d3c701ea280d07150e3ec6dfd087aa9f442b6f7cd7a72acc5b1"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:gansho",
+      "revisionId": "040-add-gansho",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "願書",
+        "reading": "がんしょ",
+        "romaji": "gansho",
+        "meaning": "Antrag, Bewerbungsformular",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Schriftlicher Antrag, besonders die Bewerbung für eine Schule oder Universität: 願書を出す (sich bewerben).",
+        "examples": [
+          {
+            "japanese": "大学に入学願書を提出した。",
+            "romaji": "Daigaku ni nyuugaku gansho o teishutsu shita.",
+            "german": "Ich habe bei der Universität meine Bewerbung eingereicht."
+          },
+          {
+            "japanese": "願書の締め切りは来週の金曜日だ。",
+            "romaji": "Gansho no shimekiri wa raishuu no kin'youbi da.",
+            "german": "Einsendeschluss für die Bewerbung ist nächsten Freitag."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101787017",
+            "patterns": [
+              1
+            ],
+            "finding": "願書 / ガンショ; 名詞/普通名詞/一般/*; *; *; lemma 願書; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "願書",
+              "reading": "がんしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "願書 as \"Antrag, Bewerbungsformular\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 願書【がんしょ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1218050; spelling=願書; reading=がんしょ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1218050 願書/がんしょ sense(s) 1 support \"Antrag, Bewerbungsformular\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1218050",
+            "spelling": "願書",
+            "reading": "がんしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(written) application",
+                  "written request",
+                  "petition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "願書|がんしょ",
+          "referenceIndex": 0,
+          "referenceHash": "5123d2d830a6a42f3a37772bb5ed68a9ae1e56382f127043500d494306e0f08c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Antrag, Bewerbungsformular\" matches JMdict 1218050 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Submitting an application.",
+          "Application deadline."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1218050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101787017 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101787017",
+            "patterns": [
+              1
+            ],
+            "finding": "願書 / ガンショ; 名詞/普通名詞/一般/*; *; *; lemma 願書; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "願書",
+              "reading": "がんしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "願書 as \"Antrag, Bewerbungsformular\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 願書【がんしょ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1218050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "58a73e8c3d128fe9b6648ffad88e88cbbf7ad8dce492745906a5ede2bf6183bf",
+        "approvalHash": "d9b28483a499277f972bda7c0a35c29a9f48dc6244c2e8eb2cd38f56f84749c5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 願書【がんしょ】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1218050 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new. ex1 uses the compound 入学願書, ex2 uses 願書 on its own – acceptable. Meaning/JMdict 1218050 fine.",
+        "contentHash": "58a73e8c3d128fe9b6648ffad88e88cbbf7ad8dce492745906a5ede2bf6183bf",
+        "approvalHash": "d9b28483a499277f972bda7c0a35c29a9f48dc6244c2e8eb2cd38f56f84749c5"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kansei-cheer",
+      "revisionId": "040-add-kansei-cheer",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "歓声",
+        "reading": "かんせい",
+        "romaji": "kansei",
+        "meaning": "Jubel, Freudenschrei",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Laute Freudenrufe einer Menge: 歓声が上がる, 歓声を上げる. Gleich lautend: 完成 (Fertigstellung).",
+        "examples": [
+          {
+            "japanese": "花火が上がると、大きな歓声が上がった。",
+            "romaji": "Hanabi ga agaru to, ooki na kansei ga agatta.",
+            "german": "Als das Feuerwerk aufstieg, brach lauter Jubel aus."
+          },
+          {
+            "japanese": "子どもたちは歓声を上げて海に走っていった。",
+            "romaji": "Kodomotachi wa kansei o agete umi ni hashitte itta.",
+            "german": "Die Kinder rannten jubelnd ins Meer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100642039",
+            "patterns": [
+              0
+            ],
+            "finding": "歓声 / カンセイ; 名詞/普通名詞/一般/*; *; *; lemma 歓声; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "歓声",
+              "reading": "かんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "歓声 as \"Jubel, Freudenschrei\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 歓声【かんせい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213000; spelling=歓声; reading=かんせい; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1213000 歓声/かんせい sense(s) 1 support \"Jubel, Freudenschrei\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1213000",
+            "spelling": "歓声",
+            "reading": "かんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheer",
+                  "shout of joy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "歓声|かんせい",
+          "referenceIndex": 0,
+          "referenceHash": "c059cea83258446d2f81c0ddacf726045e65610ee7b59303fb3c582fc030b482"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Jubel, Freudenschrei\" matches JMdict 1213000 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Crowd at fireworks.",
+          "Children running to the sea."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1213000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100642039 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100642039",
+            "patterns": [
+              0
+            ],
+            "finding": "歓声 / カンセイ; 名詞/普通名詞/一般/*; *; *; lemma 歓声; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "歓声",
+              "reading": "かんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "歓声 as \"Jubel, Freudenschrei\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 歓声【かんせい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1213000 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "126dc370081b908b8fc47559725a6233da40f41fdc1fae126f49067cd512a1e8",
+        "approvalHash": "596e72ddea7e1cde0765ec024f9e3606a7c90c02a1951f1f28d1c27e5b2a3d21"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 歓声【かんせい】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1213000 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "126dc370081b908b8fc47559725a6233da40f41fdc1fae126f49067cd512a1e8",
+        "approvalHash": "596e72ddea7e1cde0765ec024f9e3606a7c90c02a1951f1f28d1c27e5b2a3d21"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ganseki",
+      "revisionId": "040-add-ganseki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "岩石",
+        "reading": "がんせき",
+        "romaji": "ganseki",
+        "meaning": "Gestein, Fels",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "Fachsprachlich für Gestein (Geologie); im Alltag meist 岩 (Fels) oder 石 (Stein).",
+        "examples": [
+          {
+            "japanese": "この地域の岩石は火山活動によってできた。",
+            "romaji": "Kono chiiki no ganseki wa kazan katsudou ni yotte dekita.",
+            "german": "Das Gestein dieser Gegend ist durch vulkanische Aktivität entstanden."
+          },
+          {
+            "japanese": "探査機が月の岩石を持ち帰った。",
+            "romaji": "Tansaki ga tsuki no ganseki o mochikaetta.",
+            "german": "Die Sonde brachte Mondgestein zurück."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101801894",
+            "patterns": [
+              1
+            ],
+            "finding": "岩石 / ガンセキ; 名詞/普通名詞/一般/*; *; *; lemma 岩石; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "岩石",
+              "reading": "がんせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "岩石 as \"Gestein, Fels\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 岩石【がんせき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1217360; spelling=岩石; reading=がんせき; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1217360 岩石/がんせき sense(s) 1 support \"Gestein, Fels\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1217360",
+            "spelling": "岩石",
+            "reading": "がんせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "岩石|がんせき",
+          "referenceIndex": 0,
+          "referenceHash": "ebd1ea0c351d69a246f52e8a1d66b1ea6c7bf4faab7a0945c4e0fe19d1a60f49"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Gestein, Fels\" matches JMdict 1217360 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Geology of a region.",
+          "Rock samples from space."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1217360; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101801894 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101801894",
+            "patterns": [
+              1
+            ],
+            "finding": "岩石 / ガンセキ; 名詞/普通名詞/一般/*; *; *; lemma 岩石; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "岩石",
+              "reading": "がんせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "岩石 as \"Gestein, Fels\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 岩石【がんせき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1217360 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "974d51b157e8086ae73d4540f56a0b88b9ef6f2ab3e2442c0718b9d3a43bb3b0",
+        "approvalHash": "341643ed5de340f80b8f2912b89fa00c40eafe42c62e584099e06a9cf3a70a32"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 岩石【がんせき】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1217360 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "974d51b157e8086ae73d4540f56a0b88b9ef6f2ab3e2442c0718b9d3a43bb3b0",
+        "approvalHash": "341643ed5de340f80b8f2912b89fa00c40eafe42c62e584099e06a9cf3a70a32"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kansen-trunk",
+      "revisionId": "040-add-kansen-trunk",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "幹線",
+        "reading": "かんせん",
+        "romaji": "kansen",
+        "meaning": "Hauptstrecke, Hauptverkehrsader",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N1",
+        "notes": "Hauptlinie eines Verkehrs- oder Leitungsnetzes: 幹線道路 (Hauptverkehrsstraße). 新幹線 heißt wörtlich „neue Hauptstrecke“.",
+        "examples": [
+          {
+            "japanese": "事故で幹線が止まり、多くの人が影響を受けた。",
+            "romaji": "Jiko de kansen ga tomari, ooku no hito ga eikyou o uketa.",
+            "german": "Wegen eines Unfalls stand die Hauptstrecke still, und viele Menschen waren betroffen."
+          },
+          {
+            "japanese": "町の中心を幹線道路が通っている。",
+            "romaji": "Machi no chuushin o kansen douro ga tootte iru.",
+            "german": "Durch die Stadtmitte führt eine Hauptverkehrsstraße."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100650558",
+            "patterns": [
+              0
+            ],
+            "finding": "幹線 / カンセン; 名詞/普通名詞/一般/*; *; *; lemma 幹線; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "幹線",
+              "reading": "かんせん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "幹線 as \"Hauptstrecke, Hauptverkehrsader\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 幹線【かんせん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212140; spelling=幹線; reading=かんせん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1212140 幹線/かんせん sense(s) 1 support \"Hauptstrecke, Hauptverkehrsader\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1212140",
+            "spelling": "幹線",
+            "reading": "かんせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main line",
+                  "trunk line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "幹線|かんせん",
+          "referenceIndex": 0,
+          "referenceHash": "e9b906c9509ffae09db3832a341be0c594fcd86be20994bfc60a050edb4dd810"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Hauptstrecke, Hauptverkehrsader\" matches JMdict 1212140 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Disruption of a main line.",
+          "Arterial road through a town."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1212140; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100650558 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100650558",
+            "patterns": [
+              0
+            ],
+            "finding": "幹線 / カンセン; 名詞/普通名詞/一般/*; *; *; lemma 幹線; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "幹線",
+              "reading": "かんせん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "幹線 as \"Hauptstrecke, Hauptverkehrsader\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 幹線【かんせん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1212140 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0da3cda4b30f60725a753f22131d317c9de30bdc9de53da573343f5edccd2c52",
+        "approvalHash": "354de69d40d999b4caf1d204c0b0f65659c7ca6394f8911b51ca32d7f2482641"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 幹線【かんせん】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1212140 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new. ex1 幹線 alone (main line), ex2 幹線道路 (compound, explained in note) – acceptable.",
+        "contentHash": "0da3cda4b30f60725a753f22131d317c9de30bdc9de53da573343f5edccd2c52",
+        "approvalHash": "354de69d40d999b4caf1d204c0b0f65659c7ca6394f8911b51ca32d7f2482641"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kando",
+      "revisionId": "040-add-kando",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "感度",
+        "reading": "かんど",
+        "romaji": "kando",
+        "meaning": "Empfindlichkeit, Empfang",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Wie empfindlich ein Gerät, Film oder Sensor reagiert; bei Funk und Handy auch die Empfangsqualität: 感度がいい／悪い.",
+        "examples": [
+          {
+            "japanese": "このマイクは感度が高く、小さな声も拾う。",
+            "romaji": "Kono maiku wa kando ga takaku, chiisa na koe mo hirou.",
+            "german": "Dieses Mikrofon ist sehr empfindlich und nimmt auch leise Stimmen auf."
+          },
+          {
+            "japanese": "山の中ではラジオの感度が悪くなる。",
+            "romaji": "Yama no naka de wa rajio no kando ga waruku naru.",
+            "german": "In den Bergen wird der Radioempfang schlecht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100798716",
+            "patterns": [
+              1
+            ],
+            "finding": "感度 / カンド; 名詞/普通名詞/一般/*; *; *; lemma 感度; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "感度",
+              "reading": "かんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "感度 as \"Empfindlichkeit, Empfang\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 感度【かんど】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212550; spelling=感度; reading=かんど; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1212550 感度/かんど sense(s) 1,2 support \"Empfindlichkeit, Empfang\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1212550",
+            "spelling": "感度",
+            "reading": "かんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (e.g. of a measuring instrument)",
+                  "reception (radio, TV, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (of film)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "感度|かんど",
+          "referenceIndex": 0,
+          "referenceHash": "8d893ccf74b8e8caf2b6eba4a366259d776fc976302afe88a22253ca69130251"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Empfindlichkeit, Empfang\" matches JMdict 1212550 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Microphone sensitivity.",
+          "Radio reception."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1212550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100798716 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100798716",
+            "patterns": [
+              1
+            ],
+            "finding": "感度 / カンド; 名詞/普通名詞/一般/*; *; *; lemma 感度; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "感度",
+              "reading": "かんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "感度 as \"Empfindlichkeit, Empfang\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 感度【かんど】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1212550 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5258032abfb16d0eaf61ae3f570b64f8b1b8c5a39043071e8847989e9f531911",
+        "approvalHash": "27bf0c3537be7619639945856b9c0cdbec40f66e986dc78f64fe336bec66d278"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 感度【かんど】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1212550 sense(s) 1,2; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "5258032abfb16d0eaf61ae3f570b64f8b1b8c5a39043071e8847989e9f531911",
+        "approvalHash": "27bf0c3537be7619639945856b9c0cdbec40f66e986dc78f64fe336bec66d278"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kanningu",
+      "revisionId": "040-add-kanningu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "カンニング",
+        "reading": "カンニング",
+        "romaji": "kanningu",
+        "meaning": "Spicken, Schummeln (bei Prüfungen)",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Vom englischen „cunning“; im Japanischen nur „bei einer Prüfung abschreiben“. Als Verb カンニングする.",
+        "examples": [
+          {
+            "japanese": "試験中にカンニングをして、先生に見つかった。",
+            "romaji": "Shikenchuu ni kanningu o shite, sensei ni mitsukatta.",
+            "german": "Er hat während der Prüfung gespickt und wurde vom Lehrer erwischt."
+          },
+          {
+            "japanese": "カンニングをした答案は零点になる。",
+            "romaji": "Kanningu o shita touan wa reiten ni naru.",
+            "german": "Eine Prüfungsarbeit, bei der gespickt wurde, wird mit null Punkten bewertet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100826591",
+            "patterns": [
+              0
+            ],
+            "finding": "カンニング / カンニング; 名詞/普通名詞/サ変可能/*; *; *; lemma カンニング-cunning; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カンニング",
+              "reading": "カンニング",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "カンニング as \"Spicken, Schummeln (bei Prüfungen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add カンニング【カンニング】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1039490; spelling=カンニング; reading=カンニング; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1039490 カンニング/カンニング sense(s) 1 support \"Spicken, Schummeln (bei Prüfungen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1039490",
+            "spelling": "カンニング",
+            "reading": "カンニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheating (on an examination)",
+                  "cribbing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "かんにんぐ|かんにんぐ",
+          "referenceIndex": 0,
+          "referenceHash": "d7cc46959788bceb2b40be7628faaea232bef609adcb5e13b7246ed337fd23aa"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Spicken, Schummeln (bei Prüfungen)\" matches JMdict 1039490 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Caught cheating.",
+          "Consequence of cheating."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1039490; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100826591 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100826591",
+            "patterns": [
+              0
+            ],
+            "finding": "カンニング / カンニング; 名詞/普通名詞/サ変可能/*; *; *; lemma カンニング-cunning; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "カンニング",
+              "reading": "カンニング",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "カンニング as \"Spicken, Schummeln (bei Prüfungen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add カンニング【カンニング】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1039490 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cb3c29ac396ec5da11c3a1a403e90f61cc54b9a9d4f29b78414e023ac906ea4f",
+        "approvalHash": "8be3f361cdbdd35a9bf0990540885d739d90dbb9831253ebded0fe96e4b36247"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). R1 fix applied verbatim: ex2 German now „Eine Prüfungsarbeit, bei der gespickt wurde, wird mit null Punkten bewertet.“ Rest unchanged and fine.",
+        "contentHash": "cb3c29ac396ec5da11c3a1a403e90f61cc54b9a9d4f29b78414e023ac906ea4f",
+        "approvalHash": "8be3f361cdbdd35a9bf0990540885d739d90dbb9831253ebded0fe96e4b36247"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:gannen",
+      "revisionId": "040-add-gannen",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "元年",
+        "reading": "がんねん",
+        "romaji": "gannen",
+        "meaning": "erstes Jahr (einer Ära); Anfangsjahr",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Erstes Jahr einer japanischen Ära: 令和元年 (2019). Übertragen das Jahr, in dem etwas beginnt: 電気自動車元年.",
+        "examples": [
+          {
+            "japanese": "令和元年に娘が生まれた。",
+            "romaji": "Reiwa gannen ni musume ga umareta.",
+            "german": "Im ersten Jahr der Reiwa-Ära wurde meine Tochter geboren."
+          },
+          {
+            "japanese": "今年はこの業界にとって新しい時代の元年になるだろう。",
+            "romaji": "Kotoshi wa kono gyoukai ni totte atarashii jidai no gannen ni naru darou.",
+            "german": "Dieses Jahr wird für die Branche wohl der Beginn einer neuen Ära sein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101823828",
+            "patterns": [
+              1
+            ],
+            "finding": "元年 / ガンネン; 名詞/普通名詞/副詞可能/*; *; *; lemma 元年; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "元年",
+              "reading": "がんねん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "元年 as \"erstes Jahr (einer Ära); Anfangsjahr\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 元年【がんねん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261020; spelling=元年; reading=がんねん; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1261020 元年/がんねん sense(s) 1,2 support \"erstes Jahr (einer Ära); Anfangsjahr\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1261020",
+            "spelling": "元年",
+            "reading": "がんねん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first year (of an imperial era)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "year something (important) first happened or began"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "元年|がんねん",
+          "referenceIndex": 0,
+          "referenceHash": "6fa4a0cf39e3e03b2fe754f34f472450411f41a8bddabb4289e7cca8fe7606be"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"erstes Jahr (einer Ära); Anfangsjahr\" matches JMdict 1261020 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "First year of an era name.",
+          "Figurative starting year."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1261020; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101823828 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101823828",
+            "patterns": [
+              1
+            ],
+            "finding": "元年 / ガンネン; 名詞/普通名詞/副詞可能/*; *; *; lemma 元年; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "元年",
+              "reading": "がんねん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "元年 as \"erstes Jahr (einer Ära); Anfangsjahr\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 元年【がんねん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1261020 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "8ddcb4d0b6bfdcf20fc69c7ed74a5fdb9daca427e85df24874e63ac27dc388c1",
+        "approvalHash": "80b7b474a105e7f5492af5062abc5ae7f43aff26ee8316de6624b05afcfb71ee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 元年【がんねん】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1261020 sense(s) 1,2; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "8ddcb4d0b6bfdcf20fc69c7ed74a5fdb9daca427e85df24874e63ac27dc388c1",
+        "approvalHash": "80b7b474a105e7f5492af5062abc5ae7f43aff26ee8316de6624b05afcfb71ee"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kanbu",
+      "revisionId": "040-add-kanbu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "幹部",
+        "reading": "かんぶ",
+        "romaji": "kanbu",
+        "meaning": "Führungskräfte, leitende Mitglieder",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Die Führungsebene einer Organisation (Firma, Partei, Polizei): 会社の幹部, 幹部候補 (Führungsnachwuchs).",
+        "examples": [
+          {
+            "japanese": "会社の幹部が集まって今後の方針を話し合った。",
+            "romaji": "Kaisha no kanbu ga atsumatte kongo no houshin o hanashiatta.",
+            "german": "Die Führungskräfte der Firma kamen zusammen und besprachen den künftigen Kurs."
+          },
+          {
+            "japanese": "彼は若くして党の幹部になった。",
+            "romaji": "Kare wa wakakushite tou no kanbu ni natta.",
+            "german": "Er wurde schon in jungen Jahren Parteifunktionär."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100906611",
+            "patterns": [
+              1
+            ],
+            "finding": "幹部 / カンブ; 名詞/普通名詞/一般/*; *; *; lemma 幹部; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "幹部",
+              "reading": "かんぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "幹部 as \"Führungskräfte, leitende Mitglieder\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 幹部【かんぶ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212170; spelling=幹部; reading=かんぶ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1212170 幹部/かんぶ sense(s) 1 support \"Führungskräfte, leitende Mitglieder\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1212170",
+            "spelling": "幹部",
+            "reading": "かんぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "management",
+                  "(executive) staff",
+                  "leaders",
+                  "leadership",
+                  "top brass",
+                  "upper echelons"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "幹部|かんぶ",
+          "referenceIndex": 0,
+          "referenceHash": "fefb7723654f0eebd992b8b4726458544b3c770d97114f51c15b10909a64bd7a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Führungskräfte, leitende Mitglieder\" matches JMdict 1212170 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Management meeting.",
+          "Party leadership."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1212170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@100906611 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100906611",
+            "patterns": [
+              1
+            ],
+            "finding": "幹部 / カンブ; 名詞/普通名詞/一般/*; *; *; lemma 幹部; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "幹部",
+              "reading": "かんぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "幹部 as \"Führungskräfte, leitende Mitglieder\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 幹部【かんぶ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1212170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "187d81cab2590f7d20bd998c977fd28aaf7197a327953482b0f750db78d2f146",
+        "approvalHash": "361a9b3068f9b50a8daf8bb6a5de364a0e1174ef9d233c9abbd2a86319503ae4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 幹部【かんぶ】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1212170 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 1 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "187d81cab2590f7d20bd998c977fd28aaf7197a327953482b0f750db78d2f146",
+        "approvalHash": "361a9b3068f9b50a8daf8bb6a5de364a0e1174ef9d233c9abbd2a86319503ae4"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kanmuryou",
+      "revisionId": "040-add-kanmuryou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "感無量",
+        "reading": "かんむりょう",
+        "romaji": "kanmuryou",
+        "meaning": "tief bewegt, überwältigt",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Ein Gefühl, das sich nicht in Worte fassen lässt, meist bei Erfolgen oder Abschieden: 感無量です.",
+        "examples": [
+          {
+            "japanese": "長年の夢がかなって、感無量です。",
+            "romaji": "Naganen no yume ga kanatte, kanmuryou desu.",
+            "german": "Mein langjähriger Traum ist in Erfüllung gegangen – ich bin tief bewegt."
+          },
+          {
+            "japanese": "卒業式で息子の姿を見て、母は感無量の様子だった。",
+            "romaji": "Sotsugyoushiki de musuko no sugata o mite, haha wa kanmuryou no yousu datta.",
+            "german": "Als die Mutter ihren Sohn bei der Abschlussfeier sah, war sie sichtlich überwältigt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 感無量【かんむりょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212620; spelling=感無量; reading=かんむりょう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1212620 感無量/かんむりょう sense(s) 1 support \"tief bewegt, überwältigt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1212620",
+            "spelling": "感無量",
+            "reading": "かんむりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deep emotion",
+                  "being filled with emotion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "感無量|かんむりょう",
+          "referenceIndex": 0,
+          "referenceHash": "cf35add3018ac371dd0d5d2d3e43a05c27abdf058b23b37f99351a64ab1c0723"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"tief bewegt, überwältigt\" matches JMdict 1212620 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fulfilled dream.",
+          "Parent at a graduation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1212620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 感無量 / かんむりょう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 感無量 / かんむりょう",
+            "finding": "No exact written-form/kana UniDic row for 感無量 / かんむりょう."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 感無量【かんむりょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1212620 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "32532f250cf2c51797bf11ae76da0ae3b50787939916fb05810a1c1ee0cb0592",
+        "approvalHash": "2f0d4eb347de0178fbe61c0fd2f035cc721abab31d5379fd241a29bbe3b80f76"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 感無量【かんむりょう】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1212620 sense(s) 1; type Nomen; level N1 per publisher refs; pitch unknown; check.cjs: new.",
+        "contentHash": "32532f250cf2c51797bf11ae76da0ae3b50787939916fb05810a1c1ee0cb0592",
+        "approvalHash": "2f0d4eb347de0178fbe61c0fd2f035cc721abab31d5379fd241a29bbe3b80f76"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "寒気|かんき",
+      "referenceIndex": 0,
+      "referenceHash": "e6f20bc86d18b6a2dfdd8f42d858e42300ffcea6386e8ba6d3f87064b7aebac9",
+      "revisionId": "040-candidate-kanki-cold-719e8313-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanki-cold"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanki-cold": "1edd274de6cdd7baa63955c37944b72fb683519f6c1b764bdfbab67a5301d0be"
+      },
+      "reason": "Reference 寒気/かんき (tanos N1) is the same lexeme as the new entry 寒気【かんき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 寒気/かんき at N1 (gloss: cold, frost, chill)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2866134; spelling=寒気; reading=かんき; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2866134 as the reference form.",
+          "selected": {
+            "sequence": "2866134",
+            "spelling": "寒気",
+            "reading": "かんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cold",
+                  "coldness",
+                  "cold air"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 寒気|かんき#0 is the same lexeme as vocab-n1:correction:kanki-cold; target hash bound to the assembled addition.",
+        "contentHash": "b9d85f0be40fe1ab339e493151a83476c3a745e98f3854a66eff1901d4336c18",
+        "approvalHash": "b9d85f0be40fe1ab339e493151a83476c3a745e98f3854a66eff1901d4336c18"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 寒気/かんき → added vocab-n1:correction:kanki-cold: same lexeme as the target.",
+        "contentHash": "b9d85f0be40fe1ab339e493151a83476c3a745e98f3854a66eff1901d4336c18",
+        "approvalHash": "b9d85f0be40fe1ab339e493151a83476c3a745e98f3854a66eff1901d4336c18"
+      }
+    },
+    {
+      "key": "看護|かんご",
+      "referenceIndex": 0,
+      "referenceHash": "55e9de821fb29cd649dc8edd22ba438dfa4c919ea7def6d4d091f9b2510912a0",
+      "revisionId": "040-candidate-kango-nursing-408c2512-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kango-nursing"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kango-nursing": "6ec75f9181dd626f766a87459220fb43fc7d3c22358a2ad52c33a857dda40829"
+      },
+      "reason": "Reference 看護/かんご (tanos N1) is the same lexeme as the new entry 看護【かんご】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 看護/かんご at N1 (gloss: nursing, (army) nurse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213810; spelling=看護; reading=かんご; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1213810 as the reference form.",
+          "selected": {
+            "sequence": "1213810",
+            "spelling": "看護",
+            "reading": "かんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nursing",
+                  "(army) nurse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 看護|かんご#0 is the same lexeme as vocab-n1:correction:kango-nursing; target hash bound to the assembled addition.",
+        "contentHash": "fda0e6750e7acd5e5d1cda73e2e06e041fb699dc008e4f272df3e765e596f9e2",
+        "approvalHash": "fda0e6750e7acd5e5d1cda73e2e06e041fb699dc008e4f272df3e765e596f9e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 看護/かんご → added vocab-n1:correction:kango-nursing: same lexeme as the target.",
+        "contentHash": "fda0e6750e7acd5e5d1cda73e2e06e041fb699dc008e4f272df3e765e596f9e2",
+        "approvalHash": "fda0e6750e7acd5e5d1cda73e2e06e041fb699dc008e4f272df3e765e596f9e2"
+      }
+    },
+    {
+      "key": "看護|かんご",
+      "referenceIndex": 1,
+      "referenceHash": "58509985a60907acbac0dd53a618e5f6da40d5cee3fe95a2054c3cb9d76feef9",
+      "revisionId": "040-candidate-kango-nursing-408c2512-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kango-nursing"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kango-nursing": "6ec75f9181dd626f766a87459220fb43fc7d3c22358a2ad52c33a857dda40829"
+      },
+      "reason": "Reference 看護/かんご (master N1) is the same lexeme as the new entry 看護【かんご】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 看護/かんご at N1 (gloss: nursing; (army) nurse; infirmière)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213810; spelling=看護; reading=かんご; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1213810 as the reference form.",
+          "selected": {
+            "sequence": "1213810",
+            "spelling": "看護",
+            "reading": "かんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nursing",
+                  "(army) nurse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 看護|かんご#1 is the same lexeme as vocab-n1:correction:kango-nursing; target hash bound to the assembled addition.",
+        "contentHash": "ae7c4ce63d82d12baa5817350e5feb6a320f304741e6c77bbd01f7f663fa8b2a",
+        "approvalHash": "ae7c4ce63d82d12baa5817350e5feb6a320f304741e6c77bbd01f7f663fa8b2a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 看護/かんご → added vocab-n1:correction:kango-nursing: same lexeme as the target.",
+        "contentHash": "ae7c4ce63d82d12baa5817350e5feb6a320f304741e6c77bbd01f7f663fa8b2a",
+        "approvalHash": "ae7c4ce63d82d12baa5817350e5feb6a320f304741e6c77bbd01f7f663fa8b2a"
+      }
+    },
+    {
+      "key": "換算|かんさん",
+      "referenceIndex": 0,
+      "referenceHash": "d465e559a62674a2a14b4ae45cb9ddd8da075f92d17229e0c08c53f8e636bcc7",
+      "revisionId": "040-candidate-kansan-217de227-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansan": "4292ec2cccb9d199f99974b5a6347e0e6d34f1e840b4b118f1a80e20b9b205aa"
+      },
+      "reason": "Reference 換算/かんさん (tanos N1) is the same lexeme as the new entry 換算【かんさん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 換算/かんさん at N1 (gloss: conversion, change, exchange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212820; spelling=換算; reading=かんさん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212820 as the reference form.",
+          "selected": {
+            "sequence": "1212820",
+            "spelling": "換算",
+            "reading": "かんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conversion (e.g. yen to dollars)",
+                  "change",
+                  "exchange",
+                  "translation (numerical)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 換算|かんさん#0 is the same lexeme as vocab-n1:correction:kansan; target hash bound to the assembled addition.",
+        "contentHash": "d5113d283f41c227375398639e8433370ec13bc8f6d2f4042b6a4b5dd2febbf1",
+        "approvalHash": "d5113d283f41c227375398639e8433370ec13bc8f6d2f4042b6a4b5dd2febbf1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 換算/かんさん → added vocab-n1:correction:kansan: same lexeme as the target.",
+        "contentHash": "d5113d283f41c227375398639e8433370ec13bc8f6d2f4042b6a4b5dd2febbf1",
+        "approvalHash": "d5113d283f41c227375398639e8433370ec13bc8f6d2f4042b6a4b5dd2febbf1"
+      }
+    },
+    {
+      "key": "換算|かんさん",
+      "referenceIndex": 1,
+      "referenceHash": "0b2ac2e1dfdefbaa784332858b4ad4061070ddce99ffedb919836ea21e836473",
+      "revisionId": "040-candidate-kansan-217de227-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansan": "4292ec2cccb9d199f99974b5a6347e0e6d34f1e840b4b118f1a80e20b9b205aa"
+      },
+      "reason": "Reference 換算/かんさん (master N1) is the same lexeme as the new entry 換算【かんさん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 換算/かんさん at N1 (gloss: conversion (e.g. yen to dollars); change; exchange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212820; spelling=換算; reading=かんさん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212820 as the reference form.",
+          "selected": {
+            "sequence": "1212820",
+            "spelling": "換算",
+            "reading": "かんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conversion (e.g. yen to dollars)",
+                  "change",
+                  "exchange",
+                  "translation (numerical)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 換算|かんさん#1 is the same lexeme as vocab-n1:correction:kansan; target hash bound to the assembled addition.",
+        "contentHash": "1de21656b23045a1cd82722693fd69d1d2e0db83bd171e7861040034b6e396dd",
+        "approvalHash": "1de21656b23045a1cd82722693fd69d1d2e0db83bd171e7861040034b6e396dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 換算/かんさん → added vocab-n1:correction:kansan: same lexeme as the target.",
+        "contentHash": "1de21656b23045a1cd82722693fd69d1d2e0db83bd171e7861040034b6e396dd",
+        "approvalHash": "1de21656b23045a1cd82722693fd69d1d2e0db83bd171e7861040034b6e396dd"
+      }
+    },
+    {
+      "key": "観衆|かんしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "61c7317fb7e903d9bac0789bba79f8686aa23e584b694aa5660b870d3fd59e1c",
+      "revisionId": "040-candidate-kanshuu-218dd411-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanshuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanshuu": "a44f2f4b93aa0b7df5d6e7a006fc53a8abd7bbc63be5c5703bc40fbacb1ae4b7"
+      },
+      "reason": "Reference 観衆/かんしゅう (tanos N1) is the same lexeme as the new entry 観衆【かんしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 観衆/かんしゅう at N1 (gloss: spectators, onlookers, members of the)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214930; spelling=観衆; reading=かんしゅう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1214930 as the reference form.",
+          "selected": {
+            "sequence": "1214930",
+            "spelling": "観衆",
+            "reading": "かんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spectators",
+                  "onlookers",
+                  "members of the audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 観衆|かんしゅう#0 is the same lexeme as vocab-n1:correction:kanshuu; target hash bound to the assembled addition.",
+        "contentHash": "5339b3910eeb67db85b1aec197465d420aa9e7918af557c01fd61f947c608525",
+        "approvalHash": "5339b3910eeb67db85b1aec197465d420aa9e7918af557c01fd61f947c608525"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 観衆/かんしゅう → added vocab-n1:correction:kanshuu: same lexeme as the target.",
+        "contentHash": "5339b3910eeb67db85b1aec197465d420aa9e7918af557c01fd61f947c608525",
+        "approvalHash": "5339b3910eeb67db85b1aec197465d420aa9e7918af557c01fd61f947c608525"
+      }
+    },
+    {
+      "key": "観衆|かんしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "f6cff83ee6ee1fa32176558dd4d9f3e48335f08995a555dc640b47d8eb6c856b",
+      "revisionId": "040-candidate-kanshuu-218dd411-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanshuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanshuu": "a44f2f4b93aa0b7df5d6e7a006fc53a8abd7bbc63be5c5703bc40fbacb1ae4b7"
+      },
+      "reason": "Reference 観衆/かんしゅう (master N1) is the same lexeme as the new entry 観衆【かんしゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 観衆/かんしゅう at N1 (gloss: spectators; onlookers; members of the audience)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1214930; spelling=観衆; reading=かんしゅう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1214930 as the reference form.",
+          "selected": {
+            "sequence": "1214930",
+            "spelling": "観衆",
+            "reading": "かんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spectators",
+                  "onlookers",
+                  "members of the audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 観衆|かんしゅう#1 is the same lexeme as vocab-n1:correction:kanshuu; target hash bound to the assembled addition.",
+        "contentHash": "3303eb09fcb1eceba209d6c34bb8e95b468ae09626c4eea8c4a2da131ef66788",
+        "approvalHash": "3303eb09fcb1eceba209d6c34bb8e95b468ae09626c4eea8c4a2da131ef66788"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 観衆/かんしゅう → added vocab-n1:correction:kanshuu: same lexeme as the target.",
+        "contentHash": "3303eb09fcb1eceba209d6c34bb8e95b468ae09626c4eea8c4a2da131ef66788",
+        "approvalHash": "3303eb09fcb1eceba209d6c34bb8e95b468ae09626c4eea8c4a2da131ef66788"
+      }
+    },
+    {
+      "key": "願書|がんしょ",
+      "referenceIndex": 0,
+      "referenceHash": "5123d2d830a6a42f3a37772bb5ed68a9ae1e56382f127043500d494306e0f08c",
+      "revisionId": "040-candidate-gansho-72368fb1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gansho"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gansho": "58a73e8c3d128fe9b6648ffad88e88cbbf7ad8dce492745906a5ede2bf6183bf"
+      },
+      "reason": "Reference 願書/がんしょ (tanos N1) is the same lexeme as the new entry 願書【がんしょ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=37",
+          "finding": "tanos lists 願書/がんしょ at N1 (gloss: written application or petition)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1218050; spelling=願書; reading=がんしょ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1218050 as the reference form.",
+          "selected": {
+            "sequence": "1218050",
+            "spelling": "願書",
+            "reading": "がんしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(written) application",
+                  "written request",
+                  "petition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 願書|がんしょ#0 is the same lexeme as vocab-n1:correction:gansho; target hash bound to the assembled addition.",
+        "contentHash": "cd4193f53dce516750565a22177b38e912af0c2e410ee9ac34842e83ebd7f418",
+        "approvalHash": "cd4193f53dce516750565a22177b38e912af0c2e410ee9ac34842e83ebd7f418"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 願書/がんしょ → added vocab-n1:correction:gansho: same lexeme as the target.",
+        "contentHash": "cd4193f53dce516750565a22177b38e912af0c2e410ee9ac34842e83ebd7f418",
+        "approvalHash": "cd4193f53dce516750565a22177b38e912af0c2e410ee9ac34842e83ebd7f418"
+      }
+    },
+    {
+      "key": "願書|がんしょ",
+      "referenceIndex": 1,
+      "referenceHash": "e19d5d1e9de05779861c232a02e361c5adbbb1b65edef98ede901f2e2b09df5d",
+      "revisionId": "040-candidate-gansho-72368fb1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gansho"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gansho": "58a73e8c3d128fe9b6648ffad88e88cbbf7ad8dce492745906a5ede2bf6183bf"
+      },
+      "reason": "Reference 願書/がんしょ (master N1) is the same lexeme as the new entry 願書【がんしょ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 願書/がんしょ at N1 (gloss: written application or petition; application form; acte de candidature)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1218050; spelling=願書; reading=がんしょ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1218050 as the reference form.",
+          "selected": {
+            "sequence": "1218050",
+            "spelling": "願書",
+            "reading": "がんしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(written) application",
+                  "written request",
+                  "petition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 願書|がんしょ#1 is the same lexeme as vocab-n1:correction:gansho; target hash bound to the assembled addition.",
+        "contentHash": "235c17628073c9ecd581d774a964d476939b22047761343c2acba0c22b21ea86",
+        "approvalHash": "235c17628073c9ecd581d774a964d476939b22047761343c2acba0c22b21ea86"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 願書/がんしょ → added vocab-n1:correction:gansho: same lexeme as the target.",
+        "contentHash": "235c17628073c9ecd581d774a964d476939b22047761343c2acba0c22b21ea86",
+        "approvalHash": "235c17628073c9ecd581d774a964d476939b22047761343c2acba0c22b21ea86"
+      }
+    },
+    {
+      "key": "歓声|かんせい",
+      "referenceIndex": 0,
+      "referenceHash": "c059cea83258446d2f81c0ddacf726045e65610ee7b59303fb3c582fc030b482",
+      "revisionId": "040-candidate-kansei-cheer-51e8c38b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansei-cheer"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansei-cheer": "126dc370081b908b8fc47559725a6233da40f41fdc1fae126f49067cd512a1e8"
+      },
+      "reason": "Reference 歓声/かんせい (tanos N1) is the same lexeme as the new entry 歓声【かんせい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 歓声/かんせい at N1 (gloss: cheer, shout of joy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213000; spelling=歓声; reading=かんせい; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1213000 as the reference form.",
+          "selected": {
+            "sequence": "1213000",
+            "spelling": "歓声",
+            "reading": "かんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheer",
+                  "shout of joy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 歓声|かんせい#0 is the same lexeme as vocab-n1:correction:kansei-cheer; target hash bound to the assembled addition.",
+        "contentHash": "9632f70a624a8308a935cf607032458daf566d91f34e5ff3a5dce53b6b5615ad",
+        "approvalHash": "9632f70a624a8308a935cf607032458daf566d91f34e5ff3a5dce53b6b5615ad"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 歓声/かんせい → added vocab-n1:correction:kansei-cheer: same lexeme as the target.",
+        "contentHash": "9632f70a624a8308a935cf607032458daf566d91f34e5ff3a5dce53b6b5615ad",
+        "approvalHash": "9632f70a624a8308a935cf607032458daf566d91f34e5ff3a5dce53b6b5615ad"
+      }
+    },
+    {
+      "key": "歓声|かんせい",
+      "referenceIndex": 1,
+      "referenceHash": "56ec4c4433b54b20979026d6168ec7d3b67c71b94bdc30d3e4a66045748bfef9",
+      "revisionId": "040-candidate-kansei-cheer-51e8c38b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansei-cheer"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansei-cheer": "126dc370081b908b8fc47559725a6233da40f41fdc1fae126f49067cd512a1e8"
+      },
+      "reason": "Reference 歓声/かんせい (master N1) is the same lexeme as the new entry 歓声【かんせい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 歓声/かんせい at N1 (gloss: cheer; shout of joy; acclamations)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1213000; spelling=歓声; reading=かんせい; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1213000 as the reference form.",
+          "selected": {
+            "sequence": "1213000",
+            "spelling": "歓声",
+            "reading": "かんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheer",
+                  "shout of joy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 歓声|かんせい#1 is the same lexeme as vocab-n1:correction:kansei-cheer; target hash bound to the assembled addition.",
+        "contentHash": "5c03575194748ed461d3b7a9ec4f05d644604c0829a7a04b33896212a39fcd9c",
+        "approvalHash": "5c03575194748ed461d3b7a9ec4f05d644604c0829a7a04b33896212a39fcd9c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 歓声/かんせい → added vocab-n1:correction:kansei-cheer: same lexeme as the target.",
+        "contentHash": "5c03575194748ed461d3b7a9ec4f05d644604c0829a7a04b33896212a39fcd9c",
+        "approvalHash": "5c03575194748ed461d3b7a9ec4f05d644604c0829a7a04b33896212a39fcd9c"
+      }
+    },
+    {
+      "key": "岩石|がんせき",
+      "referenceIndex": 0,
+      "referenceHash": "ebd1ea0c351d69a246f52e8a1d66b1ea6c7bf4faab7a0945c4e0fe19d1a60f49",
+      "revisionId": "040-candidate-ganseki-0281cf4c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ganseki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ganseki": "974d51b157e8086ae73d4540f56a0b88b9ef6f2ab3e2442c0718b9d3a43bb3b0"
+      },
+      "reason": "Reference 岩石/がんせき (tanos N1) is the same lexeme as the new entry 岩石【がんせき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=37",
+          "finding": "tanos lists 岩石/がんせき at N1 (gloss: rock)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1217360; spelling=岩石; reading=がんせき; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1217360 as the reference form.",
+          "selected": {
+            "sequence": "1217360",
+            "spelling": "岩石",
+            "reading": "がんせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 岩石|がんせき#0 is the same lexeme as vocab-n1:correction:ganseki; target hash bound to the assembled addition.",
+        "contentHash": "cf9ad1b8003d3a6a8fa20ec1be5bcaafb2111c1c9119acb05552d49347583124",
+        "approvalHash": "cf9ad1b8003d3a6a8fa20ec1be5bcaafb2111c1c9119acb05552d49347583124"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 岩石/がんせき → added vocab-n1:correction:ganseki: same lexeme as the target.",
+        "contentHash": "cf9ad1b8003d3a6a8fa20ec1be5bcaafb2111c1c9119acb05552d49347583124",
+        "approvalHash": "cf9ad1b8003d3a6a8fa20ec1be5bcaafb2111c1c9119acb05552d49347583124"
+      }
+    },
+    {
+      "key": "岩石|がんせき",
+      "referenceIndex": 1,
+      "referenceHash": "807bee724748778ccbc77df44091dd63f364e99a0f45ceba32218b48b9d8f0ae",
+      "revisionId": "040-candidate-ganseki-0281cf4c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ganseki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ganseki": "974d51b157e8086ae73d4540f56a0b88b9ef6f2ab3e2442c0718b9d3a43bb3b0"
+      },
+      "reason": "Reference 岩石/がんせき (master N1) is the same lexeme as the new entry 岩石【がんせき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 岩石/がんせき at N1 (gloss: rock; roc; rocher)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1217360; spelling=岩石; reading=がんせき; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1217360 as the reference form.",
+          "selected": {
+            "sequence": "1217360",
+            "spelling": "岩石",
+            "reading": "がんせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rock"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 岩石|がんせき#1 is the same lexeme as vocab-n1:correction:ganseki; target hash bound to the assembled addition.",
+        "contentHash": "a120d75d550717ab02dba436a2ec7f5d23ea68f0167e86eaefbf538c3d547766",
+        "approvalHash": "a120d75d550717ab02dba436a2ec7f5d23ea68f0167e86eaefbf538c3d547766"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 岩石/がんせき → added vocab-n1:correction:ganseki: same lexeme as the target.",
+        "contentHash": "a120d75d550717ab02dba436a2ec7f5d23ea68f0167e86eaefbf538c3d547766",
+        "approvalHash": "a120d75d550717ab02dba436a2ec7f5d23ea68f0167e86eaefbf538c3d547766"
+      }
+    },
+    {
+      "key": "幹線|かんせん",
+      "referenceIndex": 0,
+      "referenceHash": "e9b906c9509ffae09db3832a341be0c594fcd86be20994bfc60a050edb4dd810",
+      "revisionId": "040-candidate-kansen-trunk-c6c2e6e9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansen-trunk"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansen-trunk": "0da3cda4b30f60725a753f22131d317c9de30bdc9de53da573343f5edccd2c52"
+      },
+      "reason": "Reference 幹線/かんせん (tanos N1) is the same lexeme as the new entry 幹線【かんせん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=35",
+          "finding": "tanos lists 幹線/かんせん at N1 (gloss: main line, trunk line)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212140; spelling=幹線; reading=かんせん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212140 as the reference form.",
+          "selected": {
+            "sequence": "1212140",
+            "spelling": "幹線",
+            "reading": "かんせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main line",
+                  "trunk line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 幹線|かんせん#0 is the same lexeme as vocab-n1:correction:kansen-trunk; target hash bound to the assembled addition.",
+        "contentHash": "c0972217c51337104d7b252c4c9e1abda82832c1f45315846afdbd2b9640063c",
+        "approvalHash": "c0972217c51337104d7b252c4c9e1abda82832c1f45315846afdbd2b9640063c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 幹線/かんせん → added vocab-n1:correction:kansen-trunk: same lexeme as the target.",
+        "contentHash": "c0972217c51337104d7b252c4c9e1abda82832c1f45315846afdbd2b9640063c",
+        "approvalHash": "c0972217c51337104d7b252c4c9e1abda82832c1f45315846afdbd2b9640063c"
+      }
+    },
+    {
+      "key": "幹線|かんせん",
+      "referenceIndex": 1,
+      "referenceHash": "7826b45905c7b9b6a021679ee7d821fd64a08b25d792d5159469d7b1be7f65c7",
+      "revisionId": "040-candidate-kansen-trunk-c6c2e6e9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansen-trunk"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansen-trunk": "0da3cda4b30f60725a753f22131d317c9de30bdc9de53da573343f5edccd2c52"
+      },
+      "reason": "Reference 幹線/かんせん (master N1) is the same lexeme as the new entry 幹線【かんせん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 幹線/かんせん at N1 (gloss: main line; trunk line; (n) Hauptstrecke)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212140; spelling=幹線; reading=かんせん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212140 as the reference form.",
+          "selected": {
+            "sequence": "1212140",
+            "spelling": "幹線",
+            "reading": "かんせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main line",
+                  "trunk line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 幹線|かんせん#1 is the same lexeme as vocab-n1:correction:kansen-trunk; target hash bound to the assembled addition.",
+        "contentHash": "4b6fda806db824137b2a82722e391ddeed284db13ff223aa9438ad404c9fdc4c",
+        "approvalHash": "4b6fda806db824137b2a82722e391ddeed284db13ff223aa9438ad404c9fdc4c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 幹線/かんせん → added vocab-n1:correction:kansen-trunk: same lexeme as the target.",
+        "contentHash": "4b6fda806db824137b2a82722e391ddeed284db13ff223aa9438ad404c9fdc4c",
+        "approvalHash": "4b6fda806db824137b2a82722e391ddeed284db13ff223aa9438ad404c9fdc4c"
+      }
+    },
+    {
+      "key": "感度|かんど",
+      "referenceIndex": 0,
+      "referenceHash": "8d893ccf74b8e8caf2b6eba4a366259d776fc976302afe88a22253ca69130251",
+      "revisionId": "040-candidate-kando-cec1b750-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kando"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kando": "5258032abfb16d0eaf61ae3f570b64f8b1b8c5a39043071e8847989e9f531911"
+      },
+      "reason": "Reference 感度/かんど (tanos N1) is the same lexeme as the new entry 感度【かんど】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=35",
+          "finding": "tanos lists 感度/かんど at N1 (gloss: sensitivity, severity (quake))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212550; spelling=感度; reading=かんど; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212550 as the reference form.",
+          "selected": {
+            "sequence": "1212550",
+            "spelling": "感度",
+            "reading": "かんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (e.g. of a measuring instrument)",
+                  "reception (radio, TV, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (of film)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 感度|かんど#0 is the same lexeme as vocab-n1:correction:kando; target hash bound to the assembled addition.",
+        "contentHash": "397724667f0730165ec7e2d84b07de006c39dbf7ee1226f19d645c8ea7efa883",
+        "approvalHash": "397724667f0730165ec7e2d84b07de006c39dbf7ee1226f19d645c8ea7efa883"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 感度/かんど → added vocab-n1:correction:kando: same lexeme as the target.",
+        "contentHash": "397724667f0730165ec7e2d84b07de006c39dbf7ee1226f19d645c8ea7efa883",
+        "approvalHash": "397724667f0730165ec7e2d84b07de006c39dbf7ee1226f19d645c8ea7efa883"
+      }
+    },
+    {
+      "key": "感度|かんど",
+      "referenceIndex": 1,
+      "referenceHash": "6529c1faf45521c2ce4080b6e373923731489840ac058243d2f0701f86c54af0",
+      "revisionId": "040-candidate-kando-cec1b750-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kando"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kando": "5258032abfb16d0eaf61ae3f570b64f8b1b8c5a39043071e8847989e9f531911"
+      },
+      "reason": "Reference 感度/かんど (master N1) is the same lexeme as the new entry 感度【かんど】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 感度/かんど at N1 (gloss: sensitivity; reception (e.g. radio and television); severity (quake))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212550; spelling=感度; reading=かんど; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212550 as the reference form.",
+          "selected": {
+            "sequence": "1212550",
+            "spelling": "感度",
+            "reading": "かんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (e.g. of a measuring instrument)",
+                  "reception (radio, TV, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sensitivity (of film)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 感度|かんど#1 is the same lexeme as vocab-n1:correction:kando; target hash bound to the assembled addition.",
+        "contentHash": "fea5838341b5c319e01d681f633d0a25840d5250089f0d02eeae253c8d7137c5",
+        "approvalHash": "fea5838341b5c319e01d681f633d0a25840d5250089f0d02eeae253c8d7137c5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 感度/かんど → added vocab-n1:correction:kando: same lexeme as the target.",
+        "contentHash": "fea5838341b5c319e01d681f633d0a25840d5250089f0d02eeae253c8d7137c5",
+        "approvalHash": "fea5838341b5c319e01d681f633d0a25840d5250089f0d02eeae253c8d7137c5"
+      }
+    },
+    {
+      "key": "かんにんぐ|かんにんぐ",
+      "referenceIndex": 0,
+      "referenceHash": "d7cc46959788bceb2b40be7628faaea232bef609adcb5e13b7246ed337fd23aa",
+      "revisionId": "040-candidate-kanningu-2a043776-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanningu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanningu": "cb3c29ac396ec5da11c3a1a403e90f61cc54b9a9d4f29b78414e023ac906ea4f"
+      },
+      "reason": "Reference カンニング/カンニング (tanos N1) is the same lexeme as the new entry カンニング【カンニング】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=175",
+          "finding": "tanos lists カンニング/カンニング at N1 (gloss: cunning, cheat)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1039490; spelling=カンニング; reading=カンニング; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1039490 as the reference form.",
+          "selected": {
+            "sequence": "1039490",
+            "spelling": "カンニング",
+            "reading": "カンニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheating (on an examination)",
+                  "cribbing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference かんにんぐ|かんにんぐ#0 is the same lexeme as vocab-n1:correction:kanningu; target hash bound to the assembled addition.",
+        "contentHash": "cde58d88127c359e4855f9efe0235830537113268b03c9f3edbc045dbbd17565",
+        "approvalHash": "cde58d88127c359e4855f9efe0235830537113268b03c9f3edbc045dbbd17565"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row カンニング/カンニング → added vocab-n1:correction:kanningu: same lexeme as the target.",
+        "contentHash": "cde58d88127c359e4855f9efe0235830537113268b03c9f3edbc045dbbd17565",
+        "approvalHash": "cde58d88127c359e4855f9efe0235830537113268b03c9f3edbc045dbbd17565"
+      }
+    },
+    {
+      "key": "かんにんぐ|かんにんぐ",
+      "referenceIndex": 1,
+      "referenceHash": "e788dbf12bcd35bc0e2912152aafeb0e4e71403e5e1f6eb726f01e166d30e4f1",
+      "revisionId": "040-candidate-kanningu-2a043776-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanningu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanningu": "cb3c29ac396ec5da11c3a1a403e90f61cc54b9a9d4f29b78414e023ac906ea4f"
+      },
+      "reason": "Reference カンニング/カンニング (master N1) is the same lexeme as the new entry カンニング【カンニング】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists カンニング/カンニング at N1 (gloss: cheating; tricherie; (n) Schwindelei)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1039490; spelling=カンニング; reading=カンニング; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1039490 as the reference form.",
+          "selected": {
+            "sequence": "1039490",
+            "spelling": "カンニング",
+            "reading": "カンニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheating (on an examination)",
+                  "cribbing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference かんにんぐ|かんにんぐ#1 is the same lexeme as vocab-n1:correction:kanningu; target hash bound to the assembled addition.",
+        "contentHash": "ebd4fc856b11a9b0d921a4ace398e092827d904839d10d53bef6cae2075e76ad",
+        "approvalHash": "ebd4fc856b11a9b0d921a4ace398e092827d904839d10d53bef6cae2075e76ad"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row カンニング/カンニング → added vocab-n1:correction:kanningu: same lexeme as the target.",
+        "contentHash": "ebd4fc856b11a9b0d921a4ace398e092827d904839d10d53bef6cae2075e76ad",
+        "approvalHash": "ebd4fc856b11a9b0d921a4ace398e092827d904839d10d53bef6cae2075e76ad"
+      }
+    },
+    {
+      "key": "元年|がんねん",
+      "referenceIndex": 0,
+      "referenceHash": "6fa4a0cf39e3e03b2fe754f34f472450411f41a8bddabb4289e7cca8fe7606be",
+      "revisionId": "040-candidate-gannen-9f7756f9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gannen"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gannen": "8ddcb4d0b6bfdcf20fc69c7ed74a5fdb9daca427e85df24874e63ac27dc388c1"
+      },
+      "reason": "Reference 元年/がんねん (tanos N1) is the same lexeme as the new entry 元年【がんねん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=37",
+          "finding": "tanos lists 元年/がんねん at N1 (gloss: first year (of a specific reign))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261020; spelling=元年; reading=がんねん; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261020 as the reference form.",
+          "selected": {
+            "sequence": "1261020",
+            "spelling": "元年",
+            "reading": "がんねん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first year (of an imperial era)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "year something (important) first happened or began"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 元年|がんねん#0 is the same lexeme as vocab-n1:correction:gannen; target hash bound to the assembled addition.",
+        "contentHash": "83eac092783907f2aeeb4318d15823d3b5996cee53e16b76aa0a966546975f3c",
+        "approvalHash": "83eac092783907f2aeeb4318d15823d3b5996cee53e16b76aa0a966546975f3c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 元年/がんねん → added vocab-n1:correction:gannen: same lexeme as the target.",
+        "contentHash": "83eac092783907f2aeeb4318d15823d3b5996cee53e16b76aa0a966546975f3c",
+        "approvalHash": "83eac092783907f2aeeb4318d15823d3b5996cee53e16b76aa0a966546975f3c"
+      }
+    },
+    {
+      "key": "元年|がんねん",
+      "referenceIndex": 1,
+      "referenceHash": "1a0018e954840a6cea1a5dce65083ffc1943098791414181327f1c6df7b6a246",
+      "revisionId": "040-candidate-gannen-9f7756f9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gannen"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gannen": "8ddcb4d0b6bfdcf20fc69c7ed74a5fdb9daca427e85df24874e63ac27dc388c1"
+      },
+      "reason": "Reference 元年/がんねん (master N1) is the same lexeme as the new entry 元年【がんねん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 元年/がんねん at N1 (gloss: first year (of a specific reign); première année (d'une ère); (n) erstes Jahr (nach Reichsgründung, nach der Thronbesteigung, einer Regierungsära etc.))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261020; spelling=元年; reading=がんねん; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261020 as the reference form.",
+          "selected": {
+            "sequence": "1261020",
+            "spelling": "元年",
+            "reading": "がんねん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first year (of an imperial era)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "year something (important) first happened or began"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 元年|がんねん#1 is the same lexeme as vocab-n1:correction:gannen; target hash bound to the assembled addition.",
+        "contentHash": "207b3a2d698ad43d21cab390d787e476a5ef24602ddf55c6a131626c9b48848a",
+        "approvalHash": "207b3a2d698ad43d21cab390d787e476a5ef24602ddf55c6a131626c9b48848a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 元年/がんねん → added vocab-n1:correction:gannen: same lexeme as the target.",
+        "contentHash": "207b3a2d698ad43d21cab390d787e476a5ef24602ddf55c6a131626c9b48848a",
+        "approvalHash": "207b3a2d698ad43d21cab390d787e476a5ef24602ddf55c6a131626c9b48848a"
+      }
+    },
+    {
+      "key": "幹部|かんぶ",
+      "referenceIndex": 0,
+      "referenceHash": "fefb7723654f0eebd992b8b4726458544b3c770d97114f51c15b10909a64bd7a",
+      "revisionId": "040-candidate-kanbu-384d5887-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanbu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanbu": "187d81cab2590f7d20bd998c977fd28aaf7197a327953482b0f750db78d2f146"
+      },
+      "reason": "Reference 幹部/かんぶ (tanos N1) is the same lexeme as the new entry 幹部【かんぶ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=35",
+          "finding": "tanos lists 幹部/かんぶ at N1 (gloss: management, (executive) staff, leaders)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212170; spelling=幹部; reading=かんぶ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212170 as the reference form.",
+          "selected": {
+            "sequence": "1212170",
+            "spelling": "幹部",
+            "reading": "かんぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "management",
+                  "(executive) staff",
+                  "leaders",
+                  "leadership",
+                  "top brass",
+                  "upper echelons"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 幹部|かんぶ#0 is the same lexeme as vocab-n1:correction:kanbu; target hash bound to the assembled addition.",
+        "contentHash": "04adfbd1cb4a4eb0fd2e091daac55c063a1aadc337c51b57f95785f297e2e876",
+        "approvalHash": "04adfbd1cb4a4eb0fd2e091daac55c063a1aadc337c51b57f95785f297e2e876"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 幹部/かんぶ → added vocab-n1:correction:kanbu: same lexeme as the target.",
+        "contentHash": "04adfbd1cb4a4eb0fd2e091daac55c063a1aadc337c51b57f95785f297e2e876",
+        "approvalHash": "04adfbd1cb4a4eb0fd2e091daac55c063a1aadc337c51b57f95785f297e2e876"
+      }
+    },
+    {
+      "key": "幹部|かんぶ",
+      "referenceIndex": 1,
+      "referenceHash": "290dc9cfe7a8d5eb32f994dab577891c3ffd135b1d8ed92deccbba13707c80b8",
+      "revisionId": "040-candidate-kanbu-384d5887-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanbu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanbu": "187d81cab2590f7d20bd998c977fd28aaf7197a327953482b0f750db78d2f146"
+      },
+      "reason": "Reference 幹部/かんぶ (master N1) is the same lexeme as the new entry 幹部【かんぶ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 幹部/かんぶ at N1 (gloss: management; (executive) staff; leaders)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212170; spelling=幹部; reading=かんぶ; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212170 as the reference form.",
+          "selected": {
+            "sequence": "1212170",
+            "spelling": "幹部",
+            "reading": "かんぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "management",
+                  "(executive) staff",
+                  "leaders",
+                  "leadership",
+                  "top brass",
+                  "upper echelons"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 幹部|かんぶ#1 is the same lexeme as vocab-n1:correction:kanbu; target hash bound to the assembled addition.",
+        "contentHash": "0be2f1bee67b5aa1927672e8885aaff514703252746ee4f5d904cca6d7720c7d",
+        "approvalHash": "0be2f1bee67b5aa1927672e8885aaff514703252746ee4f5d904cca6d7720c7d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 幹部/かんぶ → added vocab-n1:correction:kanbu: same lexeme as the target.",
+        "contentHash": "0be2f1bee67b5aa1927672e8885aaff514703252746ee4f5d904cca6d7720c7d",
+        "approvalHash": "0be2f1bee67b5aa1927672e8885aaff514703252746ee4f5d904cca6d7720c7d"
+      }
+    },
+    {
+      "key": "感無量|かんむりょう",
+      "referenceIndex": 0,
+      "referenceHash": "cf35add3018ac371dd0d5d2d3e43a05c27abdf058b23b37f99351a64ab1c0723",
+      "revisionId": "040-candidate-kanmuryou-212c3652-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanmuryou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanmuryou": "32532f250cf2c51797bf11ae76da0ae3b50787939916fb05810a1c1ee0cb0592"
+      },
+      "reason": "Reference 感無量/かんむりょう (tanos N1) is the same lexeme as the new entry 感無量【かんむりょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=35",
+          "finding": "tanos lists 感無量/かんむりょう at N1 (gloss: deep feeling, inexpressible feeling, filled with)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212620; spelling=感無量; reading=かんむりょう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212620 as the reference form.",
+          "selected": {
+            "sequence": "1212620",
+            "spelling": "感無量",
+            "reading": "かんむりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deep emotion",
+                  "being filled with emotion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 感無量|かんむりょう#0 is the same lexeme as vocab-n1:correction:kanmuryou; target hash bound to the assembled addition.",
+        "contentHash": "252bfb72bfaa466736863522d9904f7ac92ab31f6740536ed2707e67c9df25cd",
+        "approvalHash": "252bfb72bfaa466736863522d9904f7ac92ab31f6740536ed2707e67c9df25cd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 感無量/かんむりょう → added vocab-n1:correction:kanmuryou: same lexeme as the target.",
+        "contentHash": "252bfb72bfaa466736863522d9904f7ac92ab31f6740536ed2707e67c9df25cd",
+        "approvalHash": "252bfb72bfaa466736863522d9904f7ac92ab31f6740536ed2707e67c9df25cd"
+      }
+    },
+    {
+      "key": "感無量|かんむりょう",
+      "referenceIndex": 1,
+      "referenceHash": "3adc7f0e7f4276568be3f5572cf850a09a1c0a03dc0404a9007bb7f283b3b362",
+      "revisionId": "040-candidate-kanmuryou-212c3652-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanmuryou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanmuryou": "32532f250cf2c51797bf11ae76da0ae3b50787939916fb05810a1c1ee0cb0592"
+      },
+      "reason": "Reference 感無量/かんむりょう (master N1) is the same lexeme as the new entry 感無量【かんむりょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 感無量/かんむりょう at N1 (gloss: deep feeling; inexpressible feeling; filled with emotion)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212620; spelling=感無量; reading=かんむりょう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212620 as the reference form.",
+          "selected": {
+            "sequence": "1212620",
+            "spelling": "感無量",
+            "reading": "かんむりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deep emotion",
+                  "being filled with emotion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 感無量|かんむりょう#1 is the same lexeme as vocab-n1:correction:kanmuryou; target hash bound to the assembled addition.",
+        "contentHash": "2e3dafe096340c501202399980fda7db9c07e3f4aeb67948719859633c631fca",
+        "approvalHash": "2e3dafe096340c501202399980fda7db9c07e3f4aeb67948719859633c631fca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 感無量/かんむりょう → added vocab-n1:correction:kanmuryou: same lexeme as the target.",
+        "contentHash": "2e3dafe096340c501202399980fda7db9c07e3f4aeb67948719859633c631fca",
+        "approvalHash": "2e3dafe096340c501202399980fda7db9c07e3f4aeb67948719859633c631fca"
+      }
+    }
+  ]
+}

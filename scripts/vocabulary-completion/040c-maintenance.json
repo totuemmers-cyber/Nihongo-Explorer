@@ -1,0 +1,3969 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:gijidou",
+      "revisionId": "040-add-gijidou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "議事堂",
+        "reading": "ぎじどう",
+        "romaji": "gijidou",
+        "meaning": "Parlamentsgebäude",
+        "type": "Nomen",
+        "category": "Politik",
+        "level": "N1",
+        "notes": "Versammlungsgebäude eines Parlaments; in Japan besonders 国会議事堂 in Tokio.",
+        "examples": [
+          {
+            "japanese": "修学旅行で国会議事堂を見学した。",
+            "romaji": "Shuugaku ryokou de kokkai gijidou o kengaku shita.",
+            "german": "Auf der Klassenfahrt haben wir das Parlamentsgebäude besichtigt."
+          },
+          {
+            "japanese": "議事堂の前にはデモの人々が集まっていた。",
+            "romaji": "Gijidou no mae ni wa demo no hitobito ga atsumatte ita.",
+            "german": "Vor dem Parlamentsgebäude hatten sich Demonstranten versammelt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 議事堂【ぎじどう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226090; spelling=議事堂; reading=ぎじどう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1226090 議事堂/ぎじどう sense(s) 1 support \"Parlamentsgebäude\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1226090",
+            "spelling": "議事堂",
+            "reading": "ぎじどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "assembly hall",
+                  "parliament house",
+                  "diet building",
+                  "capitol",
+                  "houses of parliament",
+                  "congress hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "議事堂|ぎじどう",
+          "referenceIndex": 0,
+          "referenceHash": "626df097fd0be4b75c44cafdc5dda1dfa59ccc9c2618e2cde5d5aa23fb4e8419"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Parlamentsgebäude\" matches JMdict 1226090 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "School trip visit.",
+          "Protest outside parliament."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1226090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 議事堂 / ぎじどう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 議事堂 / ぎじどう",
+            "finding": "No exact written-form/kana UniDic row for 議事堂 / ぎじどう."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 議事堂【ぎじどう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1226090 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a519ac3a39a1d765b9ccbf9b75c4cab029c387e91a271346a9a7dbacebcfff10",
+        "approvalHash": "343936884c3d2c88fa316368b80da4cc37c37cfb2c9384687930c4ab14acdca8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 議事堂【ぎじどう】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1226090 sense(s) 1; type Nomen; level N1 per publisher refs; pitch unknown; check.cjs: new.",
+        "contentHash": "a519ac3a39a1d765b9ccbf9b75c4cab029c387e91a271346a9a7dbacebcfff10",
+        "approvalHash": "343936884c3d2c88fa316368b80da4cc37c37cfb2c9384687930c4ab14acdca8"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kizou",
+      "revisionId": "040-add-kizou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "寄贈",
+        "reading": "きぞう",
+        "romaji": "kizou",
+        "meaning": "Schenkung, Spende (von Gegenständen)",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Eine Sache (Bücher, Kunstwerke, Geräte) einer Einrichtung schenken: 寄贈する. JMdict kennt auch die ältere Lesung きそう; üblich ist heute きぞう. Geld spendet man eher mit 寄付.",
+        "examples": [
+          {
+            "japanese": "祖父の蔵書を市の図書館に寄贈した。",
+            "romaji": "Sofu no zousho o shi no toshokan ni kizou shita.",
+            "german": "Wir haben die Büchersammlung meines Großvaters der Stadtbibliothek geschenkt."
+          },
+          {
+            "japanese": "この絵は地元の画家から寄贈されたものです。",
+            "romaji": "Kono e wa jimoto no gaka kara kizou sareta mono desu.",
+            "german": "Dieses Bild ist eine Schenkung eines hiesigen Malers."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104304721",
+            "patterns": [
+              0
+            ],
+            "finding": "寄贈 / キゾウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 寄贈; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寄贈",
+              "reading": "きぞう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "寄贈 as \"Schenkung, Spende (von Gegenständen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (きぞう), tanos N1 (きそう, the same JMdict entry 1577730). Editorial N1.",
+      "rationale": "Add 寄贈【きぞう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1577730; spelling=寄贈; reading=きぞう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1577730 寄贈/きぞう sense(s) 1 support \"Schenkung, Spende (von Gegenständen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1577730",
+            "spelling": "寄贈",
+            "reading": "きぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "donation",
+                  "presentation",
+                  "gift"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "寄贈|きぞう",
+          "referenceIndex": 0,
+          "referenceHash": "c1ebc979d9d49f3aec1dfb06971c1cf554e2c0917c28b4f0a8dbbb52f6c2c7a3"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Schenkung, Spende (von Gegenständen)\" matches JMdict 1577730 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Donating books to a library.",
+          "Donated painting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1577730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1 (きぞう), tanos N1 (きそう, the same JMdict entry 1577730). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104304721 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104304721",
+            "patterns": [
+              0
+            ],
+            "finding": "寄贈 / キゾウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 寄贈; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寄贈",
+              "reading": "きぞう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "寄贈 as \"Schenkung, Spende (von Gegenständen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 寄贈【きぞう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1577730 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ffc5130ebd4a74e664c2b04a8ab355e07f920fc040410651b9896d95a9cc8a0c",
+        "approvalHash": "e1f43311fd5ff34f361608b419726cb8753c14703ea8e2caca4a171d94e2bc25"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 寄贈【きぞう】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1577730 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new. きそう is listed as second reading in JMdict 1577730 and is the traditional reading, so „ältere Lesung\" holds; examples fine.",
+        "contentHash": "ffc5130ebd4a74e664c2b04a8ab355e07f920fc040410651b9896d95a9cc8a0c",
+        "approvalHash": "e1f43311fd5ff34f361608b419726cb8753c14703ea8e2caca4a171d94e2bc25"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kidate",
+      "revisionId": "040-add-kidate",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気立て",
+        "reading": "きだて",
+        "romaji": "kidate",
+        "meaning": "Wesen, Gemüt, Charakter",
+        "type": "Nomen",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "Die Art eines Menschen, meist positiv: 気立てがいい／優しい (gutherzig).",
+        "examples": [
+          {
+            "japanese": "隣の娘さんは気立てのいい子だ。",
+            "romaji": "Tonari no musumesan wa kidate no ii ko da.",
+            "german": "Die Tochter der Nachbarn ist ein gutherziges Mädchen."
+          },
+          {
+            "japanese": "彼女は美人というより気立てが優しい人だ。",
+            "romaji": "Kanojo wa bijin to iu yori kidate ga yasashii hito da.",
+            "german": "Sie ist weniger eine Schönheit als ein Mensch mit sanftem Gemüt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104648414",
+            "patterns": [
+              0
+            ],
+            "finding": "気立て / キダテ; 名詞/普通名詞/一般/*; *; *; lemma 気立て; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気立て",
+              "reading": "きだて",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気立て as \"Wesen, Gemüt, Charakter\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 気立て【きだて】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222670; spelling=気立て; reading=きだて; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1222670 気立て/きだて sense(s) 1 support \"Wesen, Gemüt, Charakter\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1222670",
+            "spelling": "気立て",
+            "reading": "きだて",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disposition",
+                  "nature"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気立て|きだて",
+          "referenceIndex": 0,
+          "referenceHash": "f7fed39bab7b8c345b1b340b01d709c022b5607a6236c9649ec6b77581ba11da"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Wesen, Gemüt, Charakter\" matches JMdict 1222670 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Praising a neighbour’s daughter.",
+          "Describing someone’s nature."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1222670; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104648414 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104648414",
+            "patterns": [
+              0
+            ],
+            "finding": "気立て / キダテ; 名詞/普通名詞/一般/*; *; *; lemma 気立て; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気立て",
+              "reading": "きだて",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気立て as \"Wesen, Gemüt, Charakter\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 気立て【きだて】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1222670 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f03043ae29c2e44c659ebe1cc222a2489b82076b0629f46278e8686b63d302ae",
+        "approvalHash": "be1f82c976cf2b042d708a1346f3f1bac0331eab31038b8396cac2a7d95ecf60"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 気立て【きだて】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1222670 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "f03043ae29c2e44c659ebe1cc222a2489b82076b0629f46278e8686b63d302ae",
+        "approvalHash": "be1f82c976cf2b042d708a1346f3f1bac0331eab31038b8396cac2a7d95ecf60"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kichitto",
+      "revisionId": "040-add-kichitto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "きちっと",
+        "reading": "きちっと",
+        "romaji": "kichitto",
+        "meaning": "ordentlich, genau, akkurat",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Umgangssprachliche Variante von きちんと: sorgfältig, genau passend: きちっと片付ける.",
+        "examples": [
+          {
+            "japanese": "使った道具はきちっと元の場所に戻してください。",
+            "romaji": "Tsukatta dougu wa kichitto moto no basho ni modoshite kudasai.",
+            "german": "Bringen Sie das benutzte Werkzeug bitte ordentlich an seinen Platz zurück."
+          },
+          {
+            "japanese": "彼はいつもきちっとした服装をしている。",
+            "romaji": "Kare wa itsumo kichitto shita fukusou o shite iru.",
+            "german": "Er ist immer ordentlich gekleidet."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add きちっと【きちっと】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003390; spelling=きちっと; reading=きちっと; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003390 きちっと/きちっと sense(s) 1,2 support \"ordentlich, genau, akkurat\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003390",
+            "spelling": "きちっと",
+            "reading": "きちっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "accurately",
+                  "exactly",
+                  "precisely",
+                  "regularly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "neatly",
+                  "tidily",
+                  "orderly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "きちっと|きちっと",
+          "referenceIndex": 0,
+          "referenceHash": "e84a48f50cee3d33419ee9ba898a980107f4107fce3cefc37ee743bd19e451c4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"ordentlich, genau, akkurat\" matches JMdict 1003390 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tidying up tools.",
+          "Neat appearance."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003390; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for きちっと / きちっと; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup きちっと / きちっと",
+            "finding": "Only a UniDic row for the related adverb きちんと exists; no exact row for きちっと."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add きちっと【きちっと】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1003390 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a3e0535d7b81334d8e9197e756fa2a80fcd26ae5d0ee6bc4f1b93f67680203a6",
+        "approvalHash": "ee7b50f3f996930a9d32ce36e475f2447e1bc1e96a2a8906092e8e9a500cdc3b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). きちっと【きちっと】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1003390 sense(s) 1,2; type Adverb; level N1 per publisher refs; pitch unknown; check.cjs: new. Pitch correctly left unknown (only a きちんと row exists in UniDic). Colloquial variant of きちんと (N4) correctly described.",
+        "contentHash": "a3e0535d7b81334d8e9197e756fa2a80fcd26ae5d0ee6bc4f1b93f67680203a6",
+        "approvalHash": "ee7b50f3f996930a9d32ce36e475f2447e1bc1e96a2a8906092e8e9a500cdc3b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kikkari",
+      "revisionId": "040-add-kikkari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "きっかり",
+        "reading": "きっかり",
+        "romaji": "kikkari",
+        "meaning": "genau, pünktlich, exakt",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Genau bei einer Zahl oder Uhrzeit: 九時きっかり, きっかり千円.",
+        "examples": [
+          {
+            "japanese": "会議は九時きっかりに始まった。",
+            "romaji": "Kaigi wa kuji kikkari ni hajimatta.",
+            "german": "Die Besprechung begann pünktlich um neun Uhr."
+          },
+          {
+            "japanese": "お釣りはきっかり五百円だった。",
+            "romaji": "Otsuri wa kikkari gohyakuen datta.",
+            "german": "Das Wechselgeld betrug genau 500 Yen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104689028",
+            "patterns": [
+              3
+            ],
+            "finding": "きっかり / キッカリ; 副詞/*/*/*; *; *; lemma きっかり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっかり",
+              "reading": "きっかり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっかり as \"genau, pünktlich, exakt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add きっかり【きっかり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003410; spelling=きっかり; reading=きっかり; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003410 きっかり/きっかり sense(s) 1,2 support \"genau, pünktlich, exakt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003410",
+            "spelling": "きっかり",
+            "reading": "きっかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "just",
+                  "precisely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "punctually",
+                  "exactly on time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "きっかり|きっかり",
+          "referenceIndex": 0,
+          "referenceHash": "b601090fcd0d739a4fc05856fb323b81a4151ff68be3288fafee884ed9133de7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"genau, pünktlich, exakt\" matches JMdict 1003410 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Punctual start.",
+          "Exact amount of change."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003410; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104689028 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104689028",
+            "patterns": [
+              3
+            ],
+            "finding": "きっかり / キッカリ; 副詞/*/*/*; *; *; lemma きっかり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっかり",
+              "reading": "きっかり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっかり as \"genau, pünktlich, exakt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add きっかり【きっかり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1003410 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fc5837bb8722e6d2ba968db2d092e5562097bc875365992b8bcd8bbc7aab52f9",
+        "approvalHash": "7f1a5d46d28fda91193835c023c703fa93cd4f16affe83c7239d497b45b50666"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). きっかり【きっかり】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1003410 sense(s) 1,2; type Adverb; level N1 per publisher refs; pitch verified 3 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "fc5837bb8722e6d2ba968db2d092e5562097bc875365992b8bcd8bbc7aab52f9",
+        "approvalHash": "7f1a5d46d28fda91193835c023c703fa93cd4f16affe83c7239d497b45b50666"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kissa",
+      "revisionId": "040-add-kissa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "喫茶",
+        "reading": "きっさ",
+        "romaji": "kissa",
+        "meaning": "Teetrinken; Café",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N1",
+        "notes": "Das Trinken von Tee oder Kaffee, auch als Kurzwort für ein Café: 喫茶コーナー, 喫茶室. Das Café selbst heißt meist 喫茶店.",
+        "examples": [
+          {
+            "japanese": "喫茶の習慣は中国から日本に伝わった。",
+            "romaji": "Kissa no shuukan wa Chuugoku kara Nihon ni tsutawatta.",
+            "german": "Die Gewohnheit des Teetrinkens kam aus China nach Japan."
+          },
+          {
+            "japanese": "この美術館には喫茶のスペースもある。",
+            "romaji": "Kono bijutsukan ni wa kissa no supeesu mo aru.",
+            "german": "Dieses Museum hat auch einen Café-Bereich."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104699242",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "喫茶 / キッサ; 名詞/普通名詞/一般/*; *; *; lemma 喫茶; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "喫茶",
+              "reading": "きっさ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "喫茶 as \"Teetrinken; Café\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 喫茶【きっさ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226430; spelling=喫茶; reading=きっさ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1226430 喫茶/きっさ sense(s) 1,2 support \"Teetrinken; Café\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1226430",
+            "spelling": "喫茶",
+            "reading": "きっさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tea drinking"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "teahouse",
+                  "tearoom",
+                  "coffee lounge",
+                  "coffee shop",
+                  "(rather formal) cafe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "喫茶|きっさ",
+          "referenceIndex": 0,
+          "referenceHash": "43f47ed7b167b5657fbc3a27a97a7939defb8f491337dc5ba9ea866d2f8f6138"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Teetrinken; Café\" matches JMdict 1226430 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "History of tea drinking.",
+          "Café space in a museum."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1226430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104699242 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104699242",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "喫茶 / キッサ; 名詞/普通名詞/一般/*; *; *; lemma 喫茶; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "喫茶",
+              "reading": "きっさ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "喫茶 as \"Teetrinken; Café\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 喫茶【きっさ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1226430 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a9be9c167b83a23711f580c7792b1bc493236b693c55cd2a864055369627c713",
+        "approvalHash": "e9f3b01989da41b8480ec16848bef9ea2f731c095540b3b7eac234ed2f6e1058"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 喫茶【きっさ】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1226430 sense(s) 1,2; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new. ex1 sense 1 (tea drinking, historically accurate), ex2 sense 2 (喫茶のスペース, slightly less idiomatic than 喫茶スペース but grammatical).",
+        "contentHash": "a9be9c167b83a23711f580c7792b1bc493236b693c55cd2a864055369627c713",
+        "approvalHash": "e9f3b01989da41b8480ec16848bef9ea2f731c095540b3b7eac234ed2f6e1058"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kitchiri",
+      "revisionId": "040-add-kitchiri",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "きっちり",
+        "reading": "きっちり",
+        "romaji": "kitchiri",
+        "meaning": "genau, exakt; eng anliegend; gewissenhaft",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Genau und ohne Abweichung: きっちり払う, 時間きっちりに. Auch „passgenau, fest“: ふたをきっちり閉める.",
+        "examples": [
+          {
+            "japanese": "借りたお金はきっちり返した。",
+            "romaji": "Karita okane wa kitchiri kaeshita.",
+            "german": "Das geliehene Geld habe ich auf Heller und Pfennig zurückgezahlt."
+          },
+          {
+            "japanese": "瓶のふたをきっちり閉めてください。",
+            "romaji": "Bin no futa o kitchiri shimete kudasai.",
+            "german": "Schrauben Sie den Deckel der Flasche bitte fest zu."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104721635",
+            "patterns": [
+              3
+            ],
+            "finding": "きっちり / キッチリ; 副詞/*/*/*; *; *; lemma きっちり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっちり",
+              "reading": "きっちり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっちり as \"genau, exakt; eng anliegend; gewissenhaft\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add きっちり【きっちり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003420; spelling=きっちり; reading=きっちり; senses=1,2,3; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003420 きっちり/きっちり sense(s) 1,2,3 support \"genau, exakt; eng anliegend; gewissenhaft\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003420",
+            "spelling": "きっちり",
+            "reading": "きっちり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "precisely",
+                  "punctually",
+                  "on the dot"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "closely",
+                  "tightly",
+                  "(fitting) perfectly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "without fail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "きっちり|きっちり",
+          "referenceIndex": 0,
+          "referenceHash": "8445abea027a84ab158812688d59c580d15acfc6efa5021442ce277e3cdf1cde"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"genau, exakt; eng anliegend; gewissenhaft\" matches JMdict 1003420 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Paying back exactly.",
+          "Closing a lid tightly."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003420; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104721635 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104721635",
+            "patterns": [
+              3
+            ],
+            "finding": "きっちり / キッチリ; 副詞/*/*/*; *; *; lemma きっちり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっちり",
+              "reading": "きっちり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっちり as \"genau, exakt; eng anliegend; gewissenhaft\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add きっちり【きっちり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1003420 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d39f4f350d003bfa3bae22d148ea386c8f2df9bbaa34d8f73de55dd2485ee916",
+        "approvalHash": "687884d81c8e5b48bde57b7ad564cbb077033e34f92580811139ef93ba1ceacb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). きっちり【きっちり】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1003420 sense(s) 1,2,3; type Adverb; level N1 per publisher refs; pitch verified 3 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "d39f4f350d003bfa3bae22d148ea386c8f2df9bbaa34d8f73de55dd2485ee916",
+        "approvalHash": "687884d81c8e5b48bde57b7ad564cbb077033e34f92580811139ef93ba1ceacb"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kippari",
+      "revisionId": "040-add-kippari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "きっぱり",
+        "reading": "きっぱり",
+        "romaji": "kippari",
+        "meaning": "entschieden, klipp und klar",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Klar und ohne Zögern: きっぱり断る (rundheraus ablehnen), きっぱりやめる (endgültig aufhören).",
+        "examples": [
+          {
+            "japanese": "彼女は彼の誘いをきっぱり断った。",
+            "romaji": "Kanojo wa kare no sasoi o kippari kotowatta.",
+            "german": "Sie lehnte seine Einladung klipp und klar ab."
+          },
+          {
+            "japanese": "父は去年、たばこをきっぱりやめた。",
+            "romaji": "Chichi wa kyonen, tabako o kippari yameta.",
+            "german": "Mein Vater hat letztes Jahr endgültig mit dem Rauchen aufgehört."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104731876",
+            "patterns": [
+              3
+            ],
+            "finding": "きっぱり / キッパリ; 副詞/*/*/*; *; *; lemma きっぱり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっぱり",
+              "reading": "きっぱり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっぱり as \"entschieden, klipp und klar\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add きっぱり【きっぱり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003440; spelling=きっぱり; reading=きっぱり; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003440 きっぱり/きっぱり sense(s) 1 support \"entschieden, klipp und klar\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003440",
+            "spelling": "きっぱり",
+            "reading": "きっぱり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "clearly",
+                  "plainly",
+                  "distinctly",
+                  "decisively",
+                  "flatly",
+                  "definitely",
+                  "resolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "きっぱり|きっぱり",
+          "referenceIndex": 0,
+          "referenceHash": "0400e4d457ab289e460922caf7b80944bb73a30bece6558599e41bf2e3410c43"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"entschieden, klipp und klar\" matches JMdict 1003440 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Firm refusal.",
+          "Quitting smoking for good."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003440; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104731876 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104731876",
+            "patterns": [
+              3
+            ],
+            "finding": "きっぱり / キッパリ; 副詞/*/*/*; *; *; lemma きっぱり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "きっぱり",
+              "reading": "きっぱり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "きっぱり as \"entschieden, klipp und klar\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add きっぱり【きっぱり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1003440 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "8a2b66c355708abf91f59c1c131548f5820175af46362dba40c2d3b29c359e20",
+        "approvalHash": "1b3740d791daf25c7aa9c549af8563c37f0543cc216c81262ff032d7a258c53b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). きっぱり【きっぱり】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1003440 sense(s) 1; type Adverb; level N1 per publisher refs; pitch verified 3 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "8a2b66c355708abf91f59c1c131548f5820175af46362dba40c2d3b29c359e20",
+        "approvalHash": "1b3740d791daf25c7aa9c549af8563c37f0543cc216c81262ff032d7a258c53b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kiten",
+      "revisionId": "040-add-kiten",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "起点",
+        "reading": "きてん",
+        "romaji": "kiten",
+        "meaning": "Ausgangspunkt, Startpunkt",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N1",
+        "notes": "Anfangspunkt einer Strecke oder Entwicklung: 東海道の起点. Gegenteil: 終点. Gleich lautend: 機転 (Geistesgegenwart).",
+        "examples": [
+          {
+            "japanese": "日本橋は東海道の起点だった。",
+            "romaji": "Nihonbashi wa Toukaidou no kiten datta.",
+            "german": "Nihonbashi war der Ausgangspunkt des Tōkaidō."
+          },
+          {
+            "japanese": "この事件が改革の起点となった。",
+            "romaji": "Kono jiken ga kaikaku no kiten to natta.",
+            "german": "Dieser Vorfall wurde zum Ausgangspunkt der Reform."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104906649",
+            "patterns": [
+              0
+            ],
+            "finding": "起点 / キテン; 名詞/普通名詞/一般/*; *; *; lemma 起点; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "起点",
+              "reading": "きてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "起点 as \"Ausgangspunkt, Startpunkt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 起点【きてん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223860; spelling=起点; reading=きてん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1223860 起点/きてん sense(s) 1 support \"Ausgangspunkt, Startpunkt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1223860",
+            "spelling": "起点",
+            "reading": "きてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "starting point",
+                  "origin"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "起点|きてん",
+          "referenceIndex": 0,
+          "referenceHash": "7d63eed83a9fa633af4f02ab26e8dc5f44a61bc6908019daf275190dca79f920"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Ausgangspunkt, Startpunkt\" matches JMdict 1223860 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Historic road starting point.",
+          "Figurative starting point."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1223860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104906649 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104906649",
+            "patterns": [
+              0
+            ],
+            "finding": "起点 / キテン; 名詞/普通名詞/一般/*; *; *; lemma 起点; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "起点",
+              "reading": "きてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "起点 as \"Ausgangspunkt, Startpunkt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 起点【きてん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1223860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ff45c84702fdd7f76d69ba4bcb6907889723522b4ac967b4d0a3c009b6dff300",
+        "approvalHash": "fd7e4c1f26f0f3bcc57d5b0eb25e52a59b1147324e67983089e4b42bf2e2076f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 起点【きてん】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1223860 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "ff45c84702fdd7f76d69ba4bcb6907889723522b4ac967b4d0a3c009b6dff300",
+        "approvalHash": "fd7e4c1f26f0f3bcc57d5b0eb25e52a59b1147324e67983089e4b42bf2e2076f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kihin",
+      "revisionId": "040-add-kihin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気品",
+        "reading": "きひん",
+        "romaji": "kihin",
+        "meaning": "Vornehmheit, Anmut",
+        "type": "Nomen",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "Feine, würdevolle Ausstrahlung eines Menschen oder Kunstwerks: 気品がある, 気品にあふれる.",
+        "examples": [
+          {
+            "japanese": "その老婦人には気品が感じられた。",
+            "romaji": "Sono roufujin ni wa kihin ga kanjirareta.",
+            "german": "Die alte Dame strahlte Vornehmheit aus."
+          },
+          {
+            "japanese": "この茶碗には素朴な中にも気品がある。",
+            "romaji": "Kono chawan ni wa soboku na naka ni mo kihin ga aru.",
+            "german": "Diese Teeschale hat trotz ihrer Schlichtheit etwas Vornehmes."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105159831",
+            "patterns": [
+              0
+            ],
+            "finding": "気品 / キヒン; 名詞/普通名詞/一般/*; *; *; lemma 気品; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気品",
+              "reading": "きひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気品 as \"Vornehmheit, Anmut\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 気品【きひん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222540; spelling=気品; reading=きひん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1222540 気品/きひん sense(s) 1 support \"Vornehmheit, Anmut\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1222540",
+            "spelling": "気品",
+            "reading": "きひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elegance",
+                  "refinement",
+                  "grace",
+                  "dignity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気品|きひん",
+          "referenceIndex": 0,
+          "referenceHash": "498d669cfd551716978cdfad98504482f9ad67b20a504c43f22c1b5db8ba9d20"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Vornehmheit, Anmut\" matches JMdict 1222540 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Describing a person.",
+          "Describing a work of craft."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1222540; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105159831 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105159831",
+            "patterns": [
+              0
+            ],
+            "finding": "気品 / キヒン; 名詞/普通名詞/一般/*; *; *; lemma 気品; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気品",
+              "reading": "きひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気品 as \"Vornehmheit, Anmut\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 気品【きひん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1222540 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ceea3aa75839df188203750c99f16947e3be565f8bd5714731d7a58fc2913ea1",
+        "approvalHash": "300462e8705d0e9640027879b5978ff41bad1c04a4cfcd9ebc985b6ecb24ce6f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 気品【きひん】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1222540 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "ceea3aa75839df188203750c99f16947e3be565f8bd5714731d7a58fc2913ea1",
+        "approvalHash": "300462e8705d0e9640027879b5978ff41bad1c04a4cfcd9ebc985b6ecb24ce6f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kifuu",
+      "revisionId": "040-add-kifuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気風",
+        "reading": "きふう",
+        "romaji": "kifuu",
+        "meaning": "Wesensart, Geist (einer Gruppe)",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Die charakteristische Art einer Gruppe, Region oder Zeit: 自由な気風, 下町の気風.",
+        "examples": [
+          {
+            "japanese": "この学校には自由な気風がある。",
+            "romaji": "Kono gakkou ni wa jiyuu na kifuu ga aru.",
+            "german": "An dieser Schule herrscht ein freiheitlicher Geist."
+          },
+          {
+            "japanese": "職人の町らしい、さっぱりした気風が残っている。",
+            "romaji": "Shokunin no machi rashii, sappari shita kifuu ga nokotte iru.",
+            "german": "Die unkomplizierte Art, typisch für eine Handwerkerstadt, ist erhalten geblieben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105194339",
+            "patterns": [
+              0
+            ],
+            "finding": "気風 / キフウ; 名詞/普通名詞/一般/*; *; *; lemma 気風; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気風",
+              "reading": "きふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気風 as \"Wesensart, Geist (einer Gruppe)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 気風【きふう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222580; spelling=気風; reading=きふう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1222580 気風/きふう sense(s) 1 support \"Wesensart, Geist (einer Gruppe)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1222580",
+            "spelling": "気風",
+            "reading": "きふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character",
+                  "traits",
+                  "ethos"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気風|きふう",
+          "referenceIndex": 0,
+          "referenceHash": "291b66f509ce7717dd941f1dd2ca026cc76fd52e7816211e81549461242b4f2e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Wesensart, Geist (einer Gruppe)\" matches JMdict 1222580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "School atmosphere.",
+          "Character of a town."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1222580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105194339 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105194339",
+            "patterns": [
+              0
+            ],
+            "finding": "気風 / キフウ; 名詞/普通名詞/一般/*; *; *; lemma 気風; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気風",
+              "reading": "きふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気風 as \"Wesensart, Geist (einer Gruppe)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 気風【きふう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1222580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "764b6c2553502d2cc8e295ad524a596901ba24ab29e968524e3fbcf27c2bcf43",
+        "approvalHash": "b57b745b879071fb12e0912db3ee4cf4ec0f0dbbb7ef4e614475d685b0a40f82"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 気風【きふう】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1222580 sense(s) 1; type Nomen; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new.",
+        "contentHash": "764b6c2553502d2cc8e295ad524a596901ba24ab29e968524e3fbcf27c2bcf43",
+        "approvalHash": "b57b745b879071fb12e0912db3ee4cf4ec0f0dbbb7ef4e614475d685b0a40f82"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kimagure",
+      "revisionId": "040-add-kimagure",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気まぐれ",
+        "reading": "きまぐれ",
+        "romaji": "kimagure",
+        "meaning": "Laune; launisch, wankelmütig",
+        "type": "Adjektiv",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "Nomen und な-Adjektiv: plötzlicher Einfall oder wechselhafte Art: 気まぐれな天気, ほんの気まぐれで.",
+        "examples": [
+          {
+            "japanese": "山の天気は気まぐれだ。",
+            "romaji": "Yama no tenki wa kimagure da.",
+            "german": "Das Wetter in den Bergen ist launisch."
+          },
+          {
+            "japanese": "ほんの気まぐれで、帰りに違う道を通ってみた。",
+            "romaji": "Hon no kimagure de, kaeri ni chigau michi o tootte mita.",
+            "german": "Aus einer Laune heraus habe ich auf dem Heimweg einen anderen Weg genommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4,
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105264066",
+            "patterns": [
+              0,
+              4,
+              2
+            ],
+            "finding": "気まぐれ / キマグレ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 気紛れ; aType 0,4,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気まぐれ",
+              "reading": "きまぐれ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "気まぐれ as \"Laune; launisch, wankelmütig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 040); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 気まぐれ【きまぐれ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591410; spelling=気まぐれ; reading=きまぐれ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1591410 気まぐれ/きまぐれ sense(s) 1,2 support \"Laune; launisch, wankelmütig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1591410",
+            "spelling": "気まぐれ",
+            "reading": "きまぐれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "whim",
+                  "caprice",
+                  "fancy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "capricious",
+                  "fickle",
+                  "whimsical",
+                  "impulsive",
+                  "changeable",
+                  "temperamental"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気まぐれ|きまぐれ",
+          "referenceIndex": 0,
+          "referenceHash": "c28e5eb22eefd560f73d0028586d57dad6b31279356836325502d06ae4cd3bc7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-040-editor",
+        "meaning": "\"Laune; launisch, wankelmütig\" matches JMdict 1591410 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Changeable weather.",
+          "Acting on a whim."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1591410; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105264066 attest 0,4,2; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105264066",
+            "patterns": [
+              0,
+              4,
+              2
+            ],
+            "finding": "気まぐれ / キマグレ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 気紛れ; aType 0,4,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気まぐれ",
+              "reading": "きまぐれ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "気まぐれ as \"Laune; launisch, wankelmütig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: Add 気まぐれ【きまぐれ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1591410 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cb2905d5c819d60cb6b185cebaf38049462680cc809b7798fee5d0418f487777",
+        "approvalHash": "bd8e51173adb533449718fe9841de546f77313278030258db97a315490182f04"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). 気まぐれ【きまぐれ】: both examples grammatical/natural and use the headword in the taught sense in distinct contexts; romaji checked word by word; German meaning/notes/translations accurate; meaning backed by JMdict 1591410 sense(s) 1,2; type Adjektiv; level N1 per publisher refs; pitch verified 0 from exact same-lexeme UniDic row; check.cjs: new. Pitch row 気まぐれ with lemma 気紛れ – same lexeme; 0 (+4,2) fine. な-adj/noun usage both shown.",
+        "contentHash": "cb2905d5c819d60cb6b185cebaf38049462680cc809b7798fee5d0418f487777",
+        "approvalHash": "bd8e51173adb533449718fe9841de546f77313278030258db97a315490182f04"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "議事堂|ぎじどう",
+      "referenceIndex": 0,
+      "referenceHash": "626df097fd0be4b75c44cafdc5dda1dfa59ccc9c2618e2cde5d5aa23fb4e8419",
+      "revisionId": "040-candidate-gijidou-9ef15e09-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gijidou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gijidou": "a519ac3a39a1d765b9ccbf9b75c4cab029c387e91a271346a9a7dbacebcfff10"
+      },
+      "reason": "Reference 議事堂/ぎじどう (tanos N1) is the same lexeme as the new entry 議事堂【ぎじどう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=45",
+          "finding": "tanos lists 議事堂/ぎじどう at N1 (gloss: Diet building)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226090; spelling=議事堂; reading=ぎじどう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226090 as the reference form.",
+          "selected": {
+            "sequence": "1226090",
+            "spelling": "議事堂",
+            "reading": "ぎじどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "assembly hall",
+                  "parliament house",
+                  "diet building",
+                  "capitol",
+                  "houses of parliament",
+                  "congress hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 議事堂|ぎじどう#0 is the same lexeme as vocab-n1:correction:gijidou; target hash bound to the assembled addition.",
+        "contentHash": "459a0ef89a0f7dee29b8c7c98fb480b7d32958fb2a032d86c77464acde522b99",
+        "approvalHash": "459a0ef89a0f7dee29b8c7c98fb480b7d32958fb2a032d86c77464acde522b99"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 議事堂/ぎじどう → added vocab-n1:correction:gijidou: same lexeme as the target.",
+        "contentHash": "459a0ef89a0f7dee29b8c7c98fb480b7d32958fb2a032d86c77464acde522b99",
+        "approvalHash": "459a0ef89a0f7dee29b8c7c98fb480b7d32958fb2a032d86c77464acde522b99"
+      }
+    },
+    {
+      "key": "議事堂|ぎじどう",
+      "referenceIndex": 1,
+      "referenceHash": "671202f2c27bc5e63fb7057f7b575ecc46b9042fce454284df41ae932230d927",
+      "revisionId": "040-candidate-gijidou-9ef15e09-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:gijidou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:gijidou": "a519ac3a39a1d765b9ccbf9b75c4cab029c387e91a271346a9a7dbacebcfff10"
+      },
+      "reason": "Reference 議事堂/ぎじどう (master N1) is the same lexeme as the new entry 議事堂【ぎじどう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 議事堂/ぎじどう at N1 (gloss: Diet building; (n) Parlamentsgebäude; Capitol)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226090; spelling=議事堂; reading=ぎじどう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226090 as the reference form.",
+          "selected": {
+            "sequence": "1226090",
+            "spelling": "議事堂",
+            "reading": "ぎじどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "assembly hall",
+                  "parliament house",
+                  "diet building",
+                  "capitol",
+                  "houses of parliament",
+                  "congress hall"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 議事堂|ぎじどう#1 is the same lexeme as vocab-n1:correction:gijidou; target hash bound to the assembled addition.",
+        "contentHash": "0eb0a8c3afd64c90d05749de3dc2166ffa83e9a8ad3e68205768f25850eb994c",
+        "approvalHash": "0eb0a8c3afd64c90d05749de3dc2166ffa83e9a8ad3e68205768f25850eb994c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 議事堂/ぎじどう → added vocab-n1:correction:gijidou: same lexeme as the target.",
+        "contentHash": "0eb0a8c3afd64c90d05749de3dc2166ffa83e9a8ad3e68205768f25850eb994c",
+        "approvalHash": "0eb0a8c3afd64c90d05749de3dc2166ffa83e9a8ad3e68205768f25850eb994c"
+      }
+    },
+    {
+      "key": "寄贈|きぞう",
+      "referenceIndex": 0,
+      "referenceHash": "c1ebc979d9d49f3aec1dfb06971c1cf554e2c0917c28b4f0a8dbbb52f6c2c7a3",
+      "revisionId": "040-candidate-kizou-f1b1aa94-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kizou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kizou": "ffc5130ebd4a74e664c2b04a8ab355e07f920fc040410651b9896d95a9cc8a0c"
+      },
+      "reason": "Reference 寄贈/きぞう (master N1) is the same lexeme as the new entry 寄贈【きぞう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 寄贈/きぞう at N1 (gloss: donation; presentation; gift)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1577730; spelling=寄贈; reading=きぞう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1577730 as the reference form.",
+          "selected": {
+            "sequence": "1577730",
+            "spelling": "寄贈",
+            "reading": "きぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "donation",
+                  "presentation",
+                  "gift"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 寄贈|きぞう#0 is the same lexeme as vocab-n1:correction:kizou; target hash bound to the assembled addition.",
+        "contentHash": "67cbf8a561e4b195c5f3b8060f5a3bda739f03d6553c2b707e4bbcf034d4eb74",
+        "approvalHash": "67cbf8a561e4b195c5f3b8060f5a3bda739f03d6553c2b707e4bbcf034d4eb74"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 寄贈/きぞう → added vocab-n1:correction:kizou: same lexeme as the target.",
+        "contentHash": "67cbf8a561e4b195c5f3b8060f5a3bda739f03d6553c2b707e4bbcf034d4eb74",
+        "approvalHash": "67cbf8a561e4b195c5f3b8060f5a3bda739f03d6553c2b707e4bbcf034d4eb74"
+      }
+    },
+    {
+      "key": "寄贈|きそう",
+      "referenceIndex": 0,
+      "referenceHash": "76911729de748dd7d6ea2ccc5afe9ff0954ba1f20d0d5d6ea11cf301489c8497",
+      "revisionId": "040-candidate-kizou-f09effe2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kizou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kizou": "ffc5130ebd4a74e664c2b04a8ab355e07f920fc040410651b9896d95a9cc8a0c"
+      },
+      "reason": "Reference 寄贈/きそう (tanos N1) is the same lexeme as the new entry 寄贈【きぞう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=39",
+          "finding": "tanos lists 寄贈/きそう at N1 (gloss: donation, presentation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1577730; spelling=寄贈; reading=きぞう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1577730 as the reference form.",
+          "selected": {
+            "sequence": "1577730",
+            "spelling": "寄贈",
+            "reading": "きぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "donation",
+                  "presentation",
+                  "gift"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 寄贈|きそう#0 is the same lexeme as vocab-n1:correction:kizou; target hash bound to the assembled addition.",
+        "contentHash": "bb205c708b1f5867175340fec64249e91057582de3571b472bf431f894f98700",
+        "approvalHash": "bb205c708b1f5867175340fec64249e91057582de3571b472bf431f894f98700"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 寄贈/きそう → added vocab-n1:correction:kizou: same lexeme as the target. tanos row 寄贈/きそう: きそう is the second reading of the same JMdict entry 1577730 – same lexeme as 寄贈【きぞう】; linking to the きぞう entry is correct.",
+        "contentHash": "bb205c708b1f5867175340fec64249e91057582de3571b472bf431f894f98700",
+        "approvalHash": "bb205c708b1f5867175340fec64249e91057582de3571b472bf431f894f98700"
+      }
+    },
+    {
+      "key": "気立て|きだて",
+      "referenceIndex": 0,
+      "referenceHash": "f7fed39bab7b8c345b1b340b01d709c022b5607a6236c9649ec6b77581ba11da",
+      "revisionId": "040-candidate-kidate-f814346d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kidate"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kidate": "f03043ae29c2e44c659ebe1cc222a2489b82076b0629f46278e8686b63d302ae"
+      },
+      "reason": "Reference 気立て/きだて (tanos N1) is the same lexeme as the new entry 気立て【きだて】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=39",
+          "finding": "tanos lists 気立て/きだて at N1 (gloss: disposition, nature)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222670; spelling=気立て; reading=きだて; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222670 as the reference form.",
+          "selected": {
+            "sequence": "1222670",
+            "spelling": "気立て",
+            "reading": "きだて",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disposition",
+                  "nature"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気立て|きだて#0 is the same lexeme as vocab-n1:correction:kidate; target hash bound to the assembled addition.",
+        "contentHash": "8c0ef3fa6fbac2af342d819fec05b178db2aea7b3e5f1ecc5e0f19d0ee3fa781",
+        "approvalHash": "8c0ef3fa6fbac2af342d819fec05b178db2aea7b3e5f1ecc5e0f19d0ee3fa781"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 気立て/きだて → added vocab-n1:correction:kidate: same lexeme as the target.",
+        "contentHash": "8c0ef3fa6fbac2af342d819fec05b178db2aea7b3e5f1ecc5e0f19d0ee3fa781",
+        "approvalHash": "8c0ef3fa6fbac2af342d819fec05b178db2aea7b3e5f1ecc5e0f19d0ee3fa781"
+      }
+    },
+    {
+      "key": "気立て|きだて",
+      "referenceIndex": 1,
+      "referenceHash": "4abf0903ba8d8b18eeb83aae9fd6df05db9c5755be96b536bc91de372d156a7a",
+      "revisionId": "040-candidate-kidate-f814346d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kidate"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kidate": "f03043ae29c2e44c659ebe1cc222a2489b82076b0629f46278e8686b63d302ae"
+      },
+      "reason": "Reference 気立て/きだて (master N1) is the same lexeme as the new entry 気立て【きだて】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 気立て/きだて at N1 (gloss: disposition; nature; (n) Natur)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222670; spelling=気立て; reading=きだて; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222670 as the reference form.",
+          "selected": {
+            "sequence": "1222670",
+            "spelling": "気立て",
+            "reading": "きだて",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disposition",
+                  "nature"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気立て|きだて#1 is the same lexeme as vocab-n1:correction:kidate; target hash bound to the assembled addition.",
+        "contentHash": "d85e29a82e731663f03a1f1b8cd8f18b45bb0d6c3513451fdb6adf931de575e3",
+        "approvalHash": "d85e29a82e731663f03a1f1b8cd8f18b45bb0d6c3513451fdb6adf931de575e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 気立て/きだて → added vocab-n1:correction:kidate: same lexeme as the target.",
+        "contentHash": "d85e29a82e731663f03a1f1b8cd8f18b45bb0d6c3513451fdb6adf931de575e3",
+        "approvalHash": "d85e29a82e731663f03a1f1b8cd8f18b45bb0d6c3513451fdb6adf931de575e3"
+      }
+    },
+    {
+      "key": "きちっと|きちっと",
+      "referenceIndex": 0,
+      "referenceHash": "e84a48f50cee3d33419ee9ba898a980107f4107fce3cefc37ee743bd19e451c4",
+      "revisionId": "040-candidate-kichitto-5b88f811-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kichitto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kichitto": "a3e0535d7b81334d8e9197e756fa2a80fcd26ae5d0ee6bc4f1b93f67680203a6"
+      },
+      "reason": "Reference きちっと/きちっと (tanos N1) is the same lexeme as the new entry きちっと【きちっと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=39",
+          "finding": "tanos lists きちっと/きちっと at N1 (gloss: exactly, perfectly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003390; spelling=きちっと; reading=きちっと; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003390 as the reference form.",
+          "selected": {
+            "sequence": "1003390",
+            "spelling": "きちっと",
+            "reading": "きちっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "accurately",
+                  "exactly",
+                  "precisely",
+                  "regularly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "neatly",
+                  "tidily",
+                  "orderly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きちっと|きちっと#0 is the same lexeme as vocab-n1:correction:kichitto; target hash bound to the assembled addition.",
+        "contentHash": "de43ca6b43b6872b5dcf770fb6ebff30161900c2fb1d5fcc855431d62c2d2eb0",
+        "approvalHash": "de43ca6b43b6872b5dcf770fb6ebff30161900c2fb1d5fcc855431d62c2d2eb0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row きちっと/きちっと → added vocab-n1:correction:kichitto: same lexeme as the target.",
+        "contentHash": "de43ca6b43b6872b5dcf770fb6ebff30161900c2fb1d5fcc855431d62c2d2eb0",
+        "approvalHash": "de43ca6b43b6872b5dcf770fb6ebff30161900c2fb1d5fcc855431d62c2d2eb0"
+      }
+    },
+    {
+      "key": "きちっと|きちっと",
+      "referenceIndex": 1,
+      "referenceHash": "631ed1c240f9586ece81713c0b7a20be4edec488c160b38b4b8b0173149afa11",
+      "revisionId": "040-candidate-kichitto-5b88f811-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kichitto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kichitto": "a3e0535d7b81334d8e9197e756fa2a80fcd26ae5d0ee6bc4f1b93f67680203a6"
+      },
+      "reason": "Reference きちっと/きちっと (master N1) is the same lexeme as the new entry きちっと【きちっと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists きちっと/きちっと at N1 (gloss: exactly; perfectly; (n) richtig)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003390; spelling=きちっと; reading=きちっと; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003390 as the reference form.",
+          "selected": {
+            "sequence": "1003390",
+            "spelling": "きちっと",
+            "reading": "きちっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "accurately",
+                  "exactly",
+                  "precisely",
+                  "regularly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "neatly",
+                  "tidily",
+                  "orderly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きちっと|きちっと#1 is the same lexeme as vocab-n1:correction:kichitto; target hash bound to the assembled addition.",
+        "contentHash": "8435001d0fb20b91057b74e6505efdd82da5625c71d1a1503e1646200c61d964",
+        "approvalHash": "8435001d0fb20b91057b74e6505efdd82da5625c71d1a1503e1646200c61d964"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row きちっと/きちっと → added vocab-n1:correction:kichitto: same lexeme as the target.",
+        "contentHash": "8435001d0fb20b91057b74e6505efdd82da5625c71d1a1503e1646200c61d964",
+        "approvalHash": "8435001d0fb20b91057b74e6505efdd82da5625c71d1a1503e1646200c61d964"
+      }
+    },
+    {
+      "key": "きっかり|きっかり",
+      "referenceIndex": 0,
+      "referenceHash": "b601090fcd0d739a4fc05856fb323b81a4151ff68be3288fafee884ed9133de7",
+      "revisionId": "040-candidate-kikkari-25b15a14-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kikkari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kikkari": "fc5837bb8722e6d2ba968db2d092e5562097bc875365992b8bcd8bbc7aab52f9"
+      },
+      "reason": "Reference きっかり/きっかり (tanos N1) is the same lexeme as the new entry きっかり【きっかり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists きっかり/きっかり at N1 (gloss: exactly, precisely)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003410; spelling=きっかり; reading=きっかり; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003410 as the reference form.",
+          "selected": {
+            "sequence": "1003410",
+            "spelling": "きっかり",
+            "reading": "きっかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "just",
+                  "precisely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "punctually",
+                  "exactly on time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっかり|きっかり#0 is the same lexeme as vocab-n1:correction:kikkari; target hash bound to the assembled addition.",
+        "contentHash": "4d3171edde06e251801d85a8d2fb5053e852d56fd0413c677b01d21e86846344",
+        "approvalHash": "4d3171edde06e251801d85a8d2fb5053e852d56fd0413c677b01d21e86846344"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row きっかり/きっかり → added vocab-n1:correction:kikkari: same lexeme as the target.",
+        "contentHash": "4d3171edde06e251801d85a8d2fb5053e852d56fd0413c677b01d21e86846344",
+        "approvalHash": "4d3171edde06e251801d85a8d2fb5053e852d56fd0413c677b01d21e86846344"
+      }
+    },
+    {
+      "key": "きっかり|きっかり",
+      "referenceIndex": 1,
+      "referenceHash": "53526f42cab77c8c2b20791fc0d083451d7a152277bd7c00994b9338aac3748c",
+      "revisionId": "040-candidate-kikkari-25b15a14-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kikkari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kikkari": "fc5837bb8722e6d2ba968db2d092e5562097bc875365992b8bcd8bbc7aab52f9"
+      },
+      "reason": "Reference きっかり/きっかり (master N1) is the same lexeme as the new entry きっかり【きっかり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists きっかり/きっかり at N1 (gloss: exactly; precisely; (n) exakt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003410; spelling=きっかり; reading=きっかり; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003410 as the reference form.",
+          "selected": {
+            "sequence": "1003410",
+            "spelling": "きっかり",
+            "reading": "きっかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "just",
+                  "precisely"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "punctually",
+                  "exactly on time"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっかり|きっかり#1 is the same lexeme as vocab-n1:correction:kikkari; target hash bound to the assembled addition.",
+        "contentHash": "29584577134236386ccf264b7dbe2941b8489116cc1b029cad2c03aa8de2e0f2",
+        "approvalHash": "29584577134236386ccf264b7dbe2941b8489116cc1b029cad2c03aa8de2e0f2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row きっかり/きっかり → added vocab-n1:correction:kikkari: same lexeme as the target.",
+        "contentHash": "29584577134236386ccf264b7dbe2941b8489116cc1b029cad2c03aa8de2e0f2",
+        "approvalHash": "29584577134236386ccf264b7dbe2941b8489116cc1b029cad2c03aa8de2e0f2"
+      }
+    },
+    {
+      "key": "喫茶|きっさ",
+      "referenceIndex": 0,
+      "referenceHash": "43f47ed7b167b5657fbc3a27a97a7939defb8f491337dc5ba9ea866d2f8f6138",
+      "revisionId": "040-candidate-kissa-3aa8ef52-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kissa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kissa": "a9be9c167b83a23711f580c7792b1bc493236b693c55cd2a864055369627c713"
+      },
+      "reason": "Reference 喫茶/きっさ (tanos N1) is the same lexeme as the new entry 喫茶【きっさ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists 喫茶/きっさ at N1 (gloss: tea drinking, tea house)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226430; spelling=喫茶; reading=きっさ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226430 as the reference form.",
+          "selected": {
+            "sequence": "1226430",
+            "spelling": "喫茶",
+            "reading": "きっさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tea drinking"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "teahouse",
+                  "tearoom",
+                  "coffee lounge",
+                  "coffee shop",
+                  "(rather formal) cafe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 喫茶|きっさ#0 is the same lexeme as vocab-n1:correction:kissa; target hash bound to the assembled addition.",
+        "contentHash": "5a43a72ffea1768249a0bc93c7836afd073c8a30dbfbc97923d524d4ec000fa3",
+        "approvalHash": "5a43a72ffea1768249a0bc93c7836afd073c8a30dbfbc97923d524d4ec000fa3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 喫茶/きっさ → added vocab-n1:correction:kissa: same lexeme as the target.",
+        "contentHash": "5a43a72ffea1768249a0bc93c7836afd073c8a30dbfbc97923d524d4ec000fa3",
+        "approvalHash": "5a43a72ffea1768249a0bc93c7836afd073c8a30dbfbc97923d524d4ec000fa3"
+      }
+    },
+    {
+      "key": "喫茶|きっさ",
+      "referenceIndex": 1,
+      "referenceHash": "c34a53f0aeaa1728ae721dfc4b011463d5759b10ae9acc69b1d761a0a105394f",
+      "revisionId": "040-candidate-kissa-3aa8ef52-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kissa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kissa": "a9be9c167b83a23711f580c7792b1bc493236b693c55cd2a864055369627c713"
+      },
+      "reason": "Reference 喫茶/きっさ (master N1) is the same lexeme as the new entry 喫茶【きっさ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 喫茶/きっさ at N1 (gloss: tea drinking; tea house; (n) Teetrinken)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226430; spelling=喫茶; reading=きっさ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226430 as the reference form.",
+          "selected": {
+            "sequence": "1226430",
+            "spelling": "喫茶",
+            "reading": "きっさ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tea drinking"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "teahouse",
+                  "tearoom",
+                  "coffee lounge",
+                  "coffee shop",
+                  "(rather formal) cafe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 喫茶|きっさ#1 is the same lexeme as vocab-n1:correction:kissa; target hash bound to the assembled addition.",
+        "contentHash": "cf5c65bd4d1546d26c7e54827f9cf55d12416dce8ff7606d3aa85fd1818f360a",
+        "approvalHash": "cf5c65bd4d1546d26c7e54827f9cf55d12416dce8ff7606d3aa85fd1818f360a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 喫茶/きっさ → added vocab-n1:correction:kissa: same lexeme as the target.",
+        "contentHash": "cf5c65bd4d1546d26c7e54827f9cf55d12416dce8ff7606d3aa85fd1818f360a",
+        "approvalHash": "cf5c65bd4d1546d26c7e54827f9cf55d12416dce8ff7606d3aa85fd1818f360a"
+      }
+    },
+    {
+      "key": "きっちり|きっちり",
+      "referenceIndex": 0,
+      "referenceHash": "8445abea027a84ab158812688d59c580d15acfc6efa5021442ce277e3cdf1cde",
+      "revisionId": "040-candidate-kitchiri-c72ac74a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kitchiri"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kitchiri": "d39f4f350d003bfa3bae22d148ea386c8f2df9bbaa34d8f73de55dd2485ee916"
+      },
+      "reason": "Reference きっちり/きっちり (tanos N1) is the same lexeme as the new entry きっちり【きっちり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists きっちり/きっちり at N1 (gloss: precisely, tightly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003420; spelling=きっちり; reading=きっちり; senses=1,2,3; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003420 as the reference form.",
+          "selected": {
+            "sequence": "1003420",
+            "spelling": "きっちり",
+            "reading": "きっちり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "precisely",
+                  "punctually",
+                  "on the dot"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "closely",
+                  "tightly",
+                  "(fitting) perfectly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "without fail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっちり|きっちり#0 is the same lexeme as vocab-n1:correction:kitchiri; target hash bound to the assembled addition.",
+        "contentHash": "e626603a5444b96858680991dff3645eb494e6ecdeb9050f895b70a7f6e72c81",
+        "approvalHash": "e626603a5444b96858680991dff3645eb494e6ecdeb9050f895b70a7f6e72c81"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row きっちり/きっちり → added vocab-n1:correction:kitchiri: same lexeme as the target.",
+        "contentHash": "e626603a5444b96858680991dff3645eb494e6ecdeb9050f895b70a7f6e72c81",
+        "approvalHash": "e626603a5444b96858680991dff3645eb494e6ecdeb9050f895b70a7f6e72c81"
+      }
+    },
+    {
+      "key": "きっちり|きっちり",
+      "referenceIndex": 1,
+      "referenceHash": "6afd3ac9773de5af350770f774d70b31492719a37568cc9287ad6e649d89d799",
+      "revisionId": "040-candidate-kitchiri-c72ac74a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kitchiri"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kitchiri": "d39f4f350d003bfa3bae22d148ea386c8f2df9bbaa34d8f73de55dd2485ee916"
+      },
+      "reason": "Reference きっちり/きっちり (master N1) is the same lexeme as the new entry きっちり【きっちり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists きっちり/きっちり at N1 (gloss: punctually; on the dot; precisely)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003420; spelling=きっちり; reading=きっちり; senses=1,2,3; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003420 as the reference form.",
+          "selected": {
+            "sequence": "1003420",
+            "spelling": "きっちり",
+            "reading": "きっちり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "exactly",
+                  "precisely",
+                  "punctually",
+                  "on the dot"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "closely",
+                  "tightly",
+                  "(fitting) perfectly"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "properly",
+                  "without fail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっちり|きっちり#1 is the same lexeme as vocab-n1:correction:kitchiri; target hash bound to the assembled addition.",
+        "contentHash": "f57127ab83823dcf5f0f2901d8298442254e4441eb1f783ef9a35d7701a5ad4a",
+        "approvalHash": "f57127ab83823dcf5f0f2901d8298442254e4441eb1f783ef9a35d7701a5ad4a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row きっちり/きっちり → added vocab-n1:correction:kitchiri: same lexeme as the target.",
+        "contentHash": "f57127ab83823dcf5f0f2901d8298442254e4441eb1f783ef9a35d7701a5ad4a",
+        "approvalHash": "f57127ab83823dcf5f0f2901d8298442254e4441eb1f783ef9a35d7701a5ad4a"
+      }
+    },
+    {
+      "key": "きっぱり|きっぱり",
+      "referenceIndex": 0,
+      "referenceHash": "0400e4d457ab289e460922caf7b80944bb73a30bece6558599e41bf2e3410c43",
+      "revisionId": "040-candidate-kippari-dc3ac891-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kippari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kippari": "8a2b66c355708abf91f59c1c131548f5820175af46362dba40c2d3b29c359e20"
+      },
+      "reason": "Reference きっぱり/きっぱり (tanos N1) is the same lexeme as the new entry きっぱり【きっぱり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists きっぱり/きっぱり at N1 (gloss: clearly, plainly, distinctly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003440; spelling=きっぱり; reading=きっぱり; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003440 as the reference form.",
+          "selected": {
+            "sequence": "1003440",
+            "spelling": "きっぱり",
+            "reading": "きっぱり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "clearly",
+                  "plainly",
+                  "distinctly",
+                  "decisively",
+                  "flatly",
+                  "definitely",
+                  "resolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっぱり|きっぱり#0 is the same lexeme as vocab-n1:correction:kippari; target hash bound to the assembled addition.",
+        "contentHash": "f2546f8bf5514a88ab7e903f453d5114ed67d4ceb9b336af4d9a759edf1ce8fd",
+        "approvalHash": "f2546f8bf5514a88ab7e903f453d5114ed67d4ceb9b336af4d9a759edf1ce8fd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row きっぱり/きっぱり → added vocab-n1:correction:kippari: same lexeme as the target.",
+        "contentHash": "f2546f8bf5514a88ab7e903f453d5114ed67d4ceb9b336af4d9a759edf1ce8fd",
+        "approvalHash": "f2546f8bf5514a88ab7e903f453d5114ed67d4ceb9b336af4d9a759edf1ce8fd"
+      }
+    },
+    {
+      "key": "きっぱり|きっぱり",
+      "referenceIndex": 1,
+      "referenceHash": "72d299852eaa0a52ec41566be59c1ee137d1c7dd05b7f97700535b4506279854",
+      "revisionId": "040-candidate-kippari-dc3ac891-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kippari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kippari": "8a2b66c355708abf91f59c1c131548f5820175af46362dba40c2d3b29c359e20"
+      },
+      "reason": "Reference きっぱり/きっぱり (master N1) is the same lexeme as the new entry きっぱり【きっぱり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists きっぱり/きっぱり at N1 (gloss: clearly; plainly; decisively)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003440; spelling=きっぱり; reading=きっぱり; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003440 as the reference form.",
+          "selected": {
+            "sequence": "1003440",
+            "spelling": "きっぱり",
+            "reading": "きっぱり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "clearly",
+                  "plainly",
+                  "distinctly",
+                  "decisively",
+                  "flatly",
+                  "definitely",
+                  "resolutely"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference きっぱり|きっぱり#1 is the same lexeme as vocab-n1:correction:kippari; target hash bound to the assembled addition.",
+        "contentHash": "6b63ee997ec73f2a4c905e9f1417b2abd2b487983b922aa4ad15970e94eeda0e",
+        "approvalHash": "6b63ee997ec73f2a4c905e9f1417b2abd2b487983b922aa4ad15970e94eeda0e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row きっぱり/きっぱり → added vocab-n1:correction:kippari: same lexeme as the target.",
+        "contentHash": "6b63ee997ec73f2a4c905e9f1417b2abd2b487983b922aa4ad15970e94eeda0e",
+        "approvalHash": "6b63ee997ec73f2a4c905e9f1417b2abd2b487983b922aa4ad15970e94eeda0e"
+      }
+    },
+    {
+      "key": "起点|きてん",
+      "referenceIndex": 0,
+      "referenceHash": "7d63eed83a9fa633af4f02ab26e8dc5f44a61bc6908019daf275190dca79f920",
+      "revisionId": "040-candidate-kiten-b11bb8df-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kiten"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kiten": "ff45c84702fdd7f76d69ba4bcb6907889723522b4ac967b4d0a3c009b6dff300"
+      },
+      "reason": "Reference 起点/きてん (tanos N1) is the same lexeme as the new entry 起点【きてん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists 起点/きてん at N1 (gloss: starting point)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223860; spelling=起点; reading=きてん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1223860 as the reference form.",
+          "selected": {
+            "sequence": "1223860",
+            "spelling": "起点",
+            "reading": "きてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "starting point",
+                  "origin"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 起点|きてん#0 is the same lexeme as vocab-n1:correction:kiten; target hash bound to the assembled addition.",
+        "contentHash": "5986fce202bef00b74d3d53e029e6b3e2429a7c880f5b080992c57f8f21f6204",
+        "approvalHash": "5986fce202bef00b74d3d53e029e6b3e2429a7c880f5b080992c57f8f21f6204"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 起点/きてん → added vocab-n1:correction:kiten: same lexeme as the target.",
+        "contentHash": "5986fce202bef00b74d3d53e029e6b3e2429a7c880f5b080992c57f8f21f6204",
+        "approvalHash": "5986fce202bef00b74d3d53e029e6b3e2429a7c880f5b080992c57f8f21f6204"
+      }
+    },
+    {
+      "key": "起点|きてん",
+      "referenceIndex": 1,
+      "referenceHash": "d2f929a3d51089a8d38f2de8af51b35b05eae57634f990f47548348fe5da92d8",
+      "revisionId": "040-candidate-kiten-b11bb8df-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kiten"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kiten": "ff45c84702fdd7f76d69ba4bcb6907889723522b4ac967b4d0a3c009b6dff300"
+      },
+      "reason": "Reference 起点/きてん (master N1) is the same lexeme as the new entry 起点【きてん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 起点/きてん at N1 (gloss: starting point; origin; point de départ)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223860; spelling=起点; reading=きてん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1223860 as the reference form.",
+          "selected": {
+            "sequence": "1223860",
+            "spelling": "起点",
+            "reading": "きてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "starting point",
+                  "origin"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 起点|きてん#1 is the same lexeme as vocab-n1:correction:kiten; target hash bound to the assembled addition.",
+        "contentHash": "7238d39c5f8994acad05f8c1e2c8e4044f6b7a5a969d37e3a2412ae6b6398272",
+        "approvalHash": "7238d39c5f8994acad05f8c1e2c8e4044f6b7a5a969d37e3a2412ae6b6398272"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 起点/きてん → added vocab-n1:correction:kiten: same lexeme as the target.",
+        "contentHash": "7238d39c5f8994acad05f8c1e2c8e4044f6b7a5a969d37e3a2412ae6b6398272",
+        "approvalHash": "7238d39c5f8994acad05f8c1e2c8e4044f6b7a5a969d37e3a2412ae6b6398272"
+      }
+    },
+    {
+      "key": "気品|きひん",
+      "referenceIndex": 0,
+      "referenceHash": "498d669cfd551716978cdfad98504482f9ad67b20a504c43f22c1b5db8ba9d20",
+      "revisionId": "040-candidate-kihin-d5035372-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kihin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kihin": "ceea3aa75839df188203750c99f16947e3be565f8bd5714731d7a58fc2913ea1"
+      },
+      "reason": "Reference 気品/きひん (tanos N1) is the same lexeme as the new entry 気品【きひん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists 気品/きひん at N1 (gloss: aroma)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222540; spelling=気品; reading=きひん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222540 as the reference form.",
+          "selected": {
+            "sequence": "1222540",
+            "spelling": "気品",
+            "reading": "きひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elegance",
+                  "refinement",
+                  "grace",
+                  "dignity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気品|きひん#0 is the same lexeme as vocab-n1:correction:kihin; target hash bound to the assembled addition.",
+        "contentHash": "13e800f4c289218e51d824f64eac0775f65725fbed1c805adf3ed1520299e227",
+        "approvalHash": "13e800f4c289218e51d824f64eac0775f65725fbed1c805adf3ed1520299e227"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 気品/きひん → added vocab-n1:correction:kihin: same lexeme as the target. tanos gloss „aroma\" is a publisher glitch, but form/reading 気品/きひん = JMdict 1222540 – same lexeme.",
+        "contentHash": "13e800f4c289218e51d824f64eac0775f65725fbed1c805adf3ed1520299e227",
+        "approvalHash": "13e800f4c289218e51d824f64eac0775f65725fbed1c805adf3ed1520299e227"
+      }
+    },
+    {
+      "key": "気品|きひん",
+      "referenceIndex": 1,
+      "referenceHash": "9384d174b51fd09c9db2ce3d0230aa32986b6499620bd04df5ac94015826368e",
+      "revisionId": "040-candidate-kihin-d5035372-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kihin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kihin": "ceea3aa75839df188203750c99f16947e3be565f8bd5714731d7a58fc2913ea1"
+      },
+      "reason": "Reference 気品/きひん (master N1) is the same lexeme as the new entry 気品【きひん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 気品/きひん at N1 (gloss: elegance; refinement; grace)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222540; spelling=気品; reading=きひん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222540 as the reference form.",
+          "selected": {
+            "sequence": "1222540",
+            "spelling": "気品",
+            "reading": "きひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elegance",
+                  "refinement",
+                  "grace",
+                  "dignity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気品|きひん#1 is the same lexeme as vocab-n1:correction:kihin; target hash bound to the assembled addition.",
+        "contentHash": "b3602a8eaa98197902a3fb942c33e3a4bb51c37397cf8614b71bec99617e6fca",
+        "approvalHash": "b3602a8eaa98197902a3fb942c33e3a4bb51c37397cf8614b71bec99617e6fca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 気品/きひん → added vocab-n1:correction:kihin: same lexeme as the target.",
+        "contentHash": "b3602a8eaa98197902a3fb942c33e3a4bb51c37397cf8614b71bec99617e6fca",
+        "approvalHash": "b3602a8eaa98197902a3fb942c33e3a4bb51c37397cf8614b71bec99617e6fca"
+      }
+    },
+    {
+      "key": "気風|きふう",
+      "referenceIndex": 0,
+      "referenceHash": "291b66f509ce7717dd941f1dd2ca026cc76fd52e7816211e81549461242b4f2e",
+      "revisionId": "040-candidate-kifuu-bcd8ada8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kifuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kifuu": "764b6c2553502d2cc8e295ad524a596901ba24ab29e968524e3fbcf27c2bcf43"
+      },
+      "reason": "Reference 気風/きふう (tanos N1) is the same lexeme as the new entry 気風【きふう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists 気風/きふう at N1 (gloss: character, traits, ethos)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222580; spelling=気風; reading=きふう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222580 as the reference form.",
+          "selected": {
+            "sequence": "1222580",
+            "spelling": "気風",
+            "reading": "きふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character",
+                  "traits",
+                  "ethos"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気風|きふう#0 is the same lexeme as vocab-n1:correction:kifuu; target hash bound to the assembled addition.",
+        "contentHash": "37fe9bcd75b30bfc285557136c5bed0383626842995533702cc6ef3e988220b1",
+        "approvalHash": "37fe9bcd75b30bfc285557136c5bed0383626842995533702cc6ef3e988220b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 気風/きふう → added vocab-n1:correction:kifuu: same lexeme as the target.",
+        "contentHash": "37fe9bcd75b30bfc285557136c5bed0383626842995533702cc6ef3e988220b1",
+        "approvalHash": "37fe9bcd75b30bfc285557136c5bed0383626842995533702cc6ef3e988220b1"
+      }
+    },
+    {
+      "key": "気風|きふう",
+      "referenceIndex": 1,
+      "referenceHash": "c62b93a5a954c902240bdf696c3d66456385df2c0209dd22699edf5e5c2791f1",
+      "revisionId": "040-candidate-kifuu-bcd8ada8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kifuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kifuu": "764b6c2553502d2cc8e295ad524a596901ba24ab29e968524e3fbcf27c2bcf43"
+      },
+      "reason": "Reference 気風/きふう (master N1) is the same lexeme as the new entry 気風【きふう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 気風/きふう at N1 (gloss: character; traits; ethos)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222580; spelling=気風; reading=きふう; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222580 as the reference form.",
+          "selected": {
+            "sequence": "1222580",
+            "spelling": "気風",
+            "reading": "きふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "character",
+                  "traits",
+                  "ethos"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気風|きふう#1 is the same lexeme as vocab-n1:correction:kifuu; target hash bound to the assembled addition.",
+        "contentHash": "bb71edd70e51d794649a136cfda04b278e4c5103f51980ef23cc9841a6b607e2",
+        "approvalHash": "bb71edd70e51d794649a136cfda04b278e4c5103f51980ef23cc9841a6b607e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 気風/きふう → added vocab-n1:correction:kifuu: same lexeme as the target.",
+        "contentHash": "bb71edd70e51d794649a136cfda04b278e4c5103f51980ef23cc9841a6b607e2",
+        "approvalHash": "bb71edd70e51d794649a136cfda04b278e4c5103f51980ef23cc9841a6b607e2"
+      }
+    },
+    {
+      "key": "気まぐれ|きまぐれ",
+      "referenceIndex": 0,
+      "referenceHash": "c28e5eb22eefd560f73d0028586d57dad6b31279356836325502d06ae4cd3bc7",
+      "revisionId": "040-candidate-kimagure-78223e56-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kimagure"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kimagure": "cb2905d5c819d60cb6b185cebaf38049462680cc809b7798fee5d0418f487777"
+      },
+      "reason": "Reference 気まぐれ/きまぐれ (tanos N1) is the same lexeme as the new entry 気まぐれ【きまぐれ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=40",
+          "finding": "tanos lists 気まぐれ/きまぐれ at N1 (gloss: whim, caprice, whimsy, fickle, moody, uneven)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591410; spelling=気まぐれ; reading=きまぐれ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1591410 as the reference form.",
+          "selected": {
+            "sequence": "1591410",
+            "spelling": "気まぐれ",
+            "reading": "きまぐれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "whim",
+                  "caprice",
+                  "fancy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "capricious",
+                  "fickle",
+                  "whimsical",
+                  "impulsive",
+                  "changeable",
+                  "temperamental"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気まぐれ|きまぐれ#0 is the same lexeme as vocab-n1:correction:kimagure; target hash bound to the assembled addition.",
+        "contentHash": "2cd8ac8efabbe4c8be85d520a5d61aa2b7d54386bfb2e870f49cbc4eec690311",
+        "approvalHash": "2cd8ac8efabbe4c8be85d520a5d61aa2b7d54386bfb2e870f49cbc4eec690311"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). tanos N1 row 気まぐれ/きまぐれ → added vocab-n1:correction:kimagure: same lexeme as the target.",
+        "contentHash": "2cd8ac8efabbe4c8be85d520a5d61aa2b7d54386bfb2e870f49cbc4eec690311",
+        "approvalHash": "2cd8ac8efabbe4c8be85d520a5d61aa2b7d54386bfb2e870f49cbc4eec690311"
+      }
+    },
+    {
+      "key": "気まぐれ|きまぐれ",
+      "referenceIndex": 1,
+      "referenceHash": "7a784ede4cbb9922e778238256776b611d469b065423e2244317841d7025e3d5",
+      "revisionId": "040-candidate-kimagure-78223e56-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kimagure"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kimagure": "cb2905d5c819d60cb6b185cebaf38049462680cc809b7798fee5d0418f487777"
+      },
+      "reason": "Reference 気まぐれ/きまぐれ (master N1) is the same lexeme as the new entry 気まぐれ【きまぐれ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 気まぐれ/きまぐれ at N1 (gloss: whim; caprice; whimsy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591410; spelling=気まぐれ; reading=きまぐれ; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1591410 as the reference form.",
+          "selected": {
+            "sequence": "1591410",
+            "spelling": "気まぐれ",
+            "reading": "きまぐれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "whim",
+                  "caprice",
+                  "fancy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "capricious",
+                  "fickle",
+                  "whimsical",
+                  "impulsive",
+                  "changeable",
+                  "temperamental"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-editor",
+        "finding": "Editorial first pass: reference 気まぐれ|きまぐれ#1 is the same lexeme as vocab-n1:correction:kimagure; target hash bound to the assembled addition.",
+        "contentHash": "d4c03a6b96d51db12d176fd5c855783efd10dd3c7593923768dba29139388fe3",
+        "approvalHash": "d4c03a6b96d51db12d176fd5c855783efd10dd3c7593923768dba29139388fe3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-040-independent-reviewer",
+        "finding": "Second pass: re-verified after rebuild (spec diff vs before-r1 touches only 危害, きざ, カンニング, 切り替え, 勤労, 軍事, 獣 and the 華奢 refNote; nothing dropped). master N1 row 気まぐれ/きまぐれ → added vocab-n1:correction:kimagure: same lexeme as the target.",
+        "contentHash": "d4c03a6b96d51db12d176fd5c855783efd10dd3c7593923768dba29139388fe3",
+        "approvalHash": "d4c03a6b96d51db12d176fd5c855783efd10dd3c7593923768dba29139388fe3"
+      }
+    }
+  ]
+}
