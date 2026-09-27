@@ -72768,5 +72768,29 @@ window.VOCAB_N1 = [
     ],
     "pitch": null,
     "correctionId": "vocab-n1:correction:youtoukuniku"
+  },
+  {
+    "word": "明くる",
+    "reading": "あくる",
+    "romaji": "akuru",
+    "meaning": "nächste(r, s), folgende(r, s)",
+    "type": "Adjektiv",
+    "category": "Zeit",
+    "level": "N1",
+    "notes": "Vornomen (連体詞), nur vor Zeitangaben: 明くる日 (am nächsten Tag), 明くる朝, 明くる年. Schriftsprachlich; im Alltag eher 次の日 oder 翌日.",
+    "examples": [
+      {
+        "japanese": "明くる日の朝、彼は早く家を出た。",
+        "romaji": "Akuru hi no asa, kare wa hayaku ie o deta.",
+        "german": "Am Morgen des nächsten Tages verließ er früh das Haus."
+      },
+      {
+        "japanese": "明くる年、二人は結婚した。",
+        "romaji": "Akuru toshi, futari wa kekkon shita.",
+        "german": "Im Jahr darauf heirateten die beiden."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:akuru"
   }
 ];
