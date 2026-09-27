@@ -1,0 +1,3848 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:misemono",
+      "revisionId": "048-add-misemono",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "見世物",
+        "reading": "みせもの",
+        "romaji": "misemono",
+        "meaning": "Schau, Spektakel; Schaustellerei",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Früher Jahrmarktsvorführungen (見世物小屋 = Schaubude). Heute meist abwertend: 見世物になる/にする (zum Spektakel werden, zur Schau stellen). Auch 見せ物 geschrieben.",
+        "examples": [
+          {
+            "japanese": "事故の現場が見世物のようになって、多くの人が写真を撮っていた。",
+            "romaji": "Jiko no genba ga misemono no you ni natte, ooku no hito ga shashin o totte ita.",
+            "german": "Die Unfallstelle wurde zum Spektakel, viele Leute machten Fotos."
+          },
+          {
+            "japanese": "動物を見世物にするのはかわいそうだという声もある。",
+            "romaji": "Doubutsu o misemono ni suru no wa kawaisou da to iu koe mo aru.",
+            "german": "Manche sagen, es sei grausam, Tiere zur Schau zu stellen."
+          }
+        ],
+        "pitch": 3,
+        "aliases": [
+          "見せ物"
+        ],
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255032179",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "見世物 / ミセモノ; 名詞/普通名詞/一般/*; *; *; lemma 見世物; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見世物",
+              "reading": "みせもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見世物 as \"Schau, Spektakel; Schaustellerei\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (見せ物), Nihongo Master N1 (見世物). Editorial N1.",
+      "rationale": "Add 見世物【みせもの】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259240; spelling=見世物; reading=みせもの; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1259240 見世物/みせもの sense(s) 1,2 support \"Schau, Spektakel; Schaustellerei\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1259240",
+            "spelling": "見世物",
+            "reading": "みせもの",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "ateji (phonetic) reading"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "historical term"
+                ],
+                "gloss": [
+                  "misemono",
+                  "type of Edo- and Meiji-period side show often held outdoors or in small temporarily erected shacks on temple and shrine grounds"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "show",
+                  "exhibition",
+                  "spectacle",
+                  "freakshow",
+                  "side show"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "見せ物|みせもの",
+          "referenceIndex": 0,
+          "referenceHash": "9ce69c28b159b5a3c89d51fba507150fadb84d671aa43b3d82160606aa06d860"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Schau, Spektakel; Schaustellerei\" matches JMdict 1259240 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Onlookers at an accident.",
+          "Debate about animal shows."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1259240; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1 (見せ物), Nihongo Master N1 (見世物). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@255032179 attest 3,4; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255032179",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "見世物 / ミセモノ; 名詞/普通名詞/一般/*; *; *; lemma 見世物; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見世物",
+              "reading": "みせもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見世物 as \"Schau, Spektakel; Schaustellerei\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 見世物【みせもの】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1259240 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b9734d18c20000096387a9357f27191357b82cfbb1debdbae93c8d9c1b836892",
+        "approvalHash": "52382755a4f369cc863228e867fa33ac4b1ec36cf88dc65051286396861326b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "b9734d18c20000096387a9357f27191357b82cfbb1debdbae93c8d9c1b836892",
+        "approvalHash": "52382755a4f369cc863228e867fa33ac4b1ec36cf88dc65051286396861326b9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mizo",
+      "revisionId": "048-add-mizo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "溝",
+        "reading": "みぞ",
+        "romaji": "mizo",
+        "meaning": "Graben, Rinne; Kluft (zwischen Menschen)",
+        "type": "Nomen",
+        "category": "Beziehungen",
+        "level": "N1",
+        "notes": "Wörtlich ein Graben oder eine Abflussrinne (溝に落ちる); übertragen eine Entfremdung: 二人の間に溝ができる. Andere Lesung: こう (in Fachwörtern wie 海溝, Tiefseegraben).",
+        "examples": [
+          {
+            "japanese": "自転車のタイヤが道の溝にはまってしまった。",
+            "romaji": "Jitensha no taiya ga michi no mizo ni hamatte shimatta.",
+            "german": "Der Fahrradreifen ist in einer Rinne am Straßenrand stecken geblieben."
+          },
+          {
+            "japanese": "あのけんか以来、二人の間には深い溝ができた。",
+            "romaji": "Ano kenka irai, futari no aida ni wa fukai mizo ga dekita.",
+            "german": "Seit jenem Streit gibt es eine tiefe Kluft zwischen den beiden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255110896",
+            "patterns": [
+              0
+            ],
+            "finding": "溝 / ミゾ; 名詞/普通名詞/一般/*; *; *; lemma 溝; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "溝",
+              "reading": "みぞ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "溝 as \"Graben, Rinne; Kluft (zwischen Menschen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1 (みぞ). A separate tanos/Nihongo Master row reads こう. Editorial N1.",
+      "rationale": "Add 溝【みぞ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1578720; spelling=溝; reading=みぞ; senses=1,3; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1578720 溝/みぞ sense(s) 1,3 support \"Graben, Rinne; Kluft (zwischen Menschen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1578720",
+            "spelling": "溝",
+            "reading": "みぞ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ditch",
+                  "drain",
+                  "gutter",
+                  "trench"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gap (between people, countries, etc.)",
+                  "gulf",
+                  "rift"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "溝|みぞ",
+          "referenceIndex": 0,
+          "referenceHash": "64859621b7fb8445f43b5fe78dab9c9a9b0d937b057d203ecc000fe03e0c9fd8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Graben, Rinne; Kluft (zwischen Menschen)\" matches JMdict 1578720 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bicycle stuck in a gutter.",
+          "Rift after a quarrel."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1578720; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1 (みぞ). A separate tanos/Nihongo Master row reads こう. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@255110896 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255110896",
+            "patterns": [
+              0
+            ],
+            "finding": "溝 / ミゾ; 名詞/普通名詞/一般/*; *; *; lemma 溝; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "溝",
+              "reading": "みぞ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "溝 as \"Graben, Rinne; Kluft (zwischen Menschen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 溝【みぞ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1578720 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bb42da3347f982ee1e8cadbe2aef5116ee0068c51f6bbc8144174ee818323a64",
+        "approvalHash": "181eaf755d7e207850b361476afe14b1eb2f985fcf9d2eded9f026955b8dabf6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "bb42da3347f982ee1e8cadbe2aef5116ee0068c51f6bbc8144174ee818323a64",
+        "approvalHash": "181eaf755d7e207850b361476afe14b1eb2f985fcf9d2eded9f026955b8dabf6"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:michi-unknown",
+      "revisionId": "048-add-michi-unknown",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "未知",
+        "reading": "みち",
+        "romaji": "michi",
+        "meaning": "unbekannt, noch nicht bekannt",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Schriftsprachlich, meist 未知の + Nomen: 未知の世界 (eine unbekannte Welt), 未知数 (Unbekannte, ungewisse Größe). Gegenteil: 既知. Gleich klingend: 道.",
+        "examples": [
+          {
+            "japanese": "宇宙には未知のことがまだたくさんある。",
+            "romaji": "Uchuu ni wa michi no koto ga mada takusan aru.",
+            "german": "Im Weltall gibt es noch viel Unbekanntes."
+          },
+          {
+            "japanese": "留学は、未知の世界に飛び込むようなものだった。",
+            "romaji": "Ryuugaku wa, michi no sekai ni tobikomu you na mono datta.",
+            "german": "Das Auslandsstudium war wie ein Sprung in eine unbekannte Welt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255360274",
+            "patterns": [
+              1
+            ],
+            "finding": "未知 / ミチ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 未知; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "未知",
+              "reading": "みち",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "未知 as \"unbekannt, noch nicht bekannt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 未知【みち】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1527770; spelling=未知; reading=みち; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1527770 未知/みち sense(s) 1 support \"unbekannt, noch nicht bekannt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1527770",
+            "spelling": "未知",
+            "reading": "みち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "not yet known",
+                  "unknown",
+                  "strange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "未知|みち",
+          "referenceIndex": 0,
+          "referenceHash": "3f330308aa70d52843152c3954e734ff7560431e1203064f4409e826ead70779"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"unbekannt, noch nicht bekannt\" matches JMdict 1527770 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Space research.",
+          "Studying abroad."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1527770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@255360274 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255360274",
+            "patterns": [
+              1
+            ],
+            "finding": "未知 / ミチ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 未知; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "未知",
+              "reading": "みち",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "未知 as \"unbekannt, noch nicht bekannt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 未知【みち】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1527770 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f3b917bc87f01d18663257fb37ae0f5989ecb3c91e773d674b163b814d69f3cd",
+        "approvalHash": "ba4e8b43e1c07141db32c6c174fc8756026155cff57d1dbbf6fb28e2b11e1206"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "f3b917bc87f01d18663257fb37ae0f5989ecb3c91e773d674b163b814d69f3cd",
+        "approvalHash": "ba4e8b43e1c07141db32c6c174fc8756026155cff57d1dbbf6fb28e2b11e1206"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mitsu",
+      "revisionId": "048-add-mitsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "蜜",
+        "reading": "みつ",
+        "romaji": "mitsu",
+        "meaning": "Nektar; Honig",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Süße Flüssigkeit: 花の蜜 (Blütennektar); Honig heißt meist 蜂蜜. 黒蜜 = dunkler Zuckersirup.",
+        "examples": [
+          {
+            "japanese": "蝶が花の蜜を吸っている。",
+            "romaji": "Chou ga hana no mitsu o sutte iru.",
+            "german": "Ein Schmetterling saugt Nektar aus der Blüte."
+          },
+          {
+            "japanese": "蜂は集めた蜜を巣にためる。",
+            "romaji": "Hachi wa atsumeta mitsu o su ni tameru.",
+            "german": "Bienen speichern den gesammelten Nektar in ihrem Stock."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255736596",
+            "patterns": [
+              1
+            ],
+            "finding": "蜜 / ミツ; 名詞/普通名詞/一般/*; *; *; lemma 蜜; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蜜",
+              "reading": "みつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蜜 as \"Nektar; Honig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 蜜【みつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1647880; spelling=蜜; reading=みつ; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1647880 蜜/みつ sense(s) 1,2 support \"Nektar; Honig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1647880",
+            "spelling": "蜜",
+            "reading": "みつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nectar"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honey"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "蜜|みつ",
+          "referenceIndex": 0,
+          "referenceHash": "c4db8a9657d6861baa9c15875027e17b1fef3ed710cb11c79f15ca2ce143051b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Nektar; Honig\" matches JMdict 1647880 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Butterfly on a flower.",
+          "Bees storing nectar."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1647880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@255736596 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255736596",
+            "patterns": [
+              1
+            ],
+            "finding": "蜜 / ミツ; 名詞/普通名詞/一般/*; *; *; lemma 蜜; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蜜",
+              "reading": "みつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蜜 as \"Nektar; Honig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 蜜【みつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1647880 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0cfe570d72d00312e56cbd758c74fe0ec06a75c00f4d180f6ed89fa0cfc61cc6",
+        "approvalHash": "7822d8235b537a1494e3635a311204e44a3aecffaa7e56d03f0017e244396396"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "0cfe570d72d00312e56cbd758c74fe0ec06a75c00f4d180f6ed89fa0cfc61cc6",
+        "approvalHash": "7822d8235b537a1494e3635a311204e44a3aecffaa7e56d03f0017e244396396"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:misshuu",
+      "revisionId": "048-add-misshuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "密集",
+        "reading": "みっしゅう",
+        "romaji": "misshuu",
+        "meaning": "dichtes Zusammendrängen, Ballung",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Als Verb 密集する: dicht beieinander stehen oder sich drängen: 住宅が密集している (dicht bebaut). Während der Corona-Pandemie bekannt aus 三密 (密閉・密集・密接).",
+        "examples": [
+          {
+            "japanese": "この辺りは古い住宅が密集している。",
+            "romaji": "Kono atari wa furui juutaku ga misshuu shite iru.",
+            "german": "In dieser Gegend stehen alte Wohnhäuser dicht an dicht."
+          },
+          {
+            "japanese": "人が密集する場所では、スリに気をつけてください。",
+            "romaji": "Hito ga misshuu suru basho de wa, suri ni ki o tsukete kudasai.",
+            "german": "Achten Sie an Orten mit großem Gedränge auf Taschendiebe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255659283",
+            "patterns": [
+              0
+            ],
+            "finding": "密集 / ミッシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 密集; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "密集",
+              "reading": "みっしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "密集 as \"dichtes Zusammendrängen, Ballung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 密集【みっしゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1528280; spelling=密集; reading=みっしゅう; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1528280 密集/みっしゅう sense(s) 1 support \"dichtes Zusammendrängen, Ballung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1528280",
+            "spelling": "密集",
+            "reading": "みっしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "crowding together",
+                  "clustering together",
+                  "close formation",
+                  "swarm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "密集|みっしゅう",
+          "referenceIndex": 0,
+          "referenceHash": "937e67d25c025749ba070b2971d1731d2f5191861a0da67e65c3b3edebde9e19"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"dichtes Zusammendrängen, Ballung\" matches JMdict 1528280 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Dense housing.",
+          "Warning about pickpockets."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1528280; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@255659283 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255659283",
+            "patterns": [
+              0
+            ],
+            "finding": "密集 / ミッシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 密集; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "密集",
+              "reading": "みっしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "密集 as \"dichtes Zusammendrängen, Ballung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 密集【みっしゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1528280 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a7ea98670f29cd35c5bb4bbd92046a973976ff1bd3babf021124b9f71ca04210",
+        "approvalHash": "0f1b7599b8f1101b4ca39b5bae7a44f6023c21ceb492088bc7d156a7e6e5edad"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "a7ea98670f29cd35c5bb4bbd92046a973976ff1bd3babf021124b9f71ca04210",
+        "approvalHash": "0f1b7599b8f1101b4ca39b5bae7a44f6023c21ceb492088bc7d156a7e6e5edad"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:minamoto",
+      "revisionId": "048-add-minamoto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "源",
+        "reading": "みなもと",
+        "romaji": "minamoto",
+        "meaning": "Quelle, Ursprung",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Wörtlich die Quelle eines Flusses (川の源), meist übertragen: 力の源 (Kraftquelle), 情報の源.",
+        "examples": [
+          {
+            "japanese": "この川の源は、あの山の中にある。",
+            "romaji": "Kono kawa no minamoto wa, ano yama no naka ni aru.",
+            "german": "Die Quelle dieses Flusses liegt in jenen Bergen."
+          },
+          {
+            "japanese": "家族の笑顔が、私の元気の源だ。",
+            "romaji": "Kazoku no egao ga, watashi no genki no minamoto da.",
+            "german": "Das Lächeln meiner Familie ist meine Kraftquelle."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256471457",
+            "patterns": [
+              0
+            ],
+            "finding": "源 / ミナモト; 名詞/普通名詞/一般/*; *; *; lemma 源; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "源",
+              "reading": "みなもと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "源 as \"Quelle, Ursprung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 源【みなもと】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1263360; spelling=源; reading=みなもと; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1263360 源/みなもと sense(s) 1,2 support \"Quelle, Ursprung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1263360",
+            "spelling": "源",
+            "reading": "みなもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source (of a river)",
+                  "fountainhead"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source",
+                  "origin",
+                  "root"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "源|みなもと",
+          "referenceIndex": 0,
+          "referenceHash": "e7160c05575800bf78a150bdee7d4cb1a564e9780a3e49060e52eb88b419d6e8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Quelle, Ursprung\" matches JMdict 1263360 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Source of a river.",
+          "Source of energy in life."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1263360; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256471457 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256471457",
+            "patterns": [
+              0
+            ],
+            "finding": "源 / ミナモト; 名詞/普通名詞/一般/*; *; *; lemma 源; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "源",
+              "reading": "みなもと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "源 as \"Quelle, Ursprung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 源【みなもと】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1263360 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "294ad5e64bd0dace7b62fdb9a17d7341852c8c403b4c525ea33579a83432b088",
+        "approvalHash": "796fad4cfaf7fa79383e068412dc20db0dfe0fc74fa307cc96dd9f0b094c5ceb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "294ad5e64bd0dace7b62fdb9a17d7341852c8c403b4c525ea33579a83432b088",
+        "approvalHash": "796fad4cfaf7fa79383e068412dc20db0dfe0fc74fa307cc96dd9f0b094c5ceb"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:minarau",
+      "revisionId": "048-add-minarau",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "見習う",
+        "reading": "みならう",
+        "romaji": "minarau",
+        "meaning": "sich ein Beispiel nehmen an; durch Zuschauen lernen",
+        "type": "Verb",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Transitiv: jemanden zum Vorbild nehmen: 先輩を見習う. Nomen 見習い = Lehrling, Auszubildender.",
+        "examples": [
+          {
+            "japanese": "少しはお兄さんを見習いなさい。",
+            "romaji": "Sukoshi wa oniisan o minarainasai.",
+            "german": "Nimm dir mal ein Beispiel an deinem großen Bruder."
+          },
+          {
+            "japanese": "新人の頃は、先輩の仕事を見習って覚えた。",
+            "romaji": "Shinjin no koro wa, senpai no shigoto o minaratte oboeta.",
+            "german": "Als Neuling habe ich die Arbeit gelernt, indem ich den älteren Kollegen zugesehen habe."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "みならう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みならう",
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256483684",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "見習う / ミナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見習う; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見習う",
+              "reading": "みならう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見習う as \"sich ein Beispiel nehmen an; durch Zuschauen lernen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 見習う【みならう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259700; spelling=見習う; reading=みならう; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1259700 見習う/みならう sense(s) 1,2 support \"sich ein Beispiel nehmen an; durch Zuschauen lernen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1259700",
+            "spelling": "見習う",
+            "reading": "みならう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to follow (someone's) example",
+                  "to imitate",
+                  "to copy",
+                  "to pattern oneself on"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to learn (by observation)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "見習う|みならう",
+          "referenceIndex": 0,
+          "referenceHash": "d87bd723d6b5b1115dc4315ffa82f431730f30384b0c4f4cbe9b7c91ecc97393"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"sich ein Beispiel nehmen an; durch Zuschauen lernen\" matches JMdict 1259700 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Parent scolding a child.",
+          "Learning on the job."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1259700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading みならう; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256483684 attest 3,0; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256483684",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "見習う / ミナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見習う; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見習う",
+              "reading": "みならう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見習う as \"sich ein Beispiel nehmen an; durch Zuschauen lernen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 見習う【みならう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1259700 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a892efbfb573d50fa9d93b3bd88401dab7f6a0be9e4231fe6e04e07fad71c0f0",
+        "approvalHash": "65c990310fbecbc17403c7070f8ac90fda7254701cb20905a27fa8e44ad5e4a9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "a892efbfb573d50fa9d93b3bd88401dab7f6a0be9e4231fe6e04e07fad71c0f0",
+        "approvalHash": "65c990310fbecbc17403c7070f8ac90fda7254701cb20905a27fa8e44ad5e4a9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:minari",
+      "revisionId": "048-add-minari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "身なり",
+        "reading": "みなり",
+        "romaji": "minari",
+        "meaning": "Aufmachung, äußere Erscheinung, Kleidung",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Wie jemand gekleidet und zurechtgemacht ist: 身なりを整える (sich ordentlich zurechtmachen), 身なりのいい紳士.",
+        "examples": [
+          {
+            "japanese": "面接の前に、鏡で身なりを整えた。",
+            "romaji": "Mensetsu no mae ni, kagami de minari o totonoeta.",
+            "german": "Vor dem Vorstellungsgespräch machte ich mich vor dem Spiegel zurecht."
+          },
+          {
+            "japanese": "身なりのいい紳士が、店に入ってきた。",
+            "romaji": "Minari no ii shinshi ga, mise ni haitte kita.",
+            "german": "Ein gut gekleideter Herr betrat den Laden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256489855",
+            "patterns": [
+              1
+            ],
+            "finding": "身なり / ミナリ; 名詞/普通名詞/一般/*; *; *; lemma 身形; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身なり",
+              "reading": "みなり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身なり as \"Aufmachung, äußere Erscheinung, Kleidung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 身なり【みなり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365570; spelling=身なり; reading=みなり; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1365570 身なり/みなり sense(s) 1 support \"Aufmachung, äußere Erscheinung, Kleidung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1365570",
+            "spelling": "身なり",
+            "reading": "みなり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress",
+                  "attire",
+                  "clothing",
+                  "getup",
+                  "outfit",
+                  "personal appearance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "身なり|みなり",
+          "referenceIndex": 0,
+          "referenceHash": "dd88c6e21f8474093fb1fbf013536b6edba7c0dfcd161021ea6cedd9d5bdc1fb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Aufmachung, äußere Erscheinung, Kleidung\" matches JMdict 1365570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Before a job interview.",
+          "Customer entering a shop."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1365570; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256489855 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256489855",
+            "patterns": [
+              1
+            ],
+            "finding": "身なり / ミナリ; 名詞/普通名詞/一般/*; *; *; lemma 身形; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身なり",
+              "reading": "みなり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身なり as \"Aufmachung, äußere Erscheinung, Kleidung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 身なり【みなり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1365570 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a75ceef0c433ac40d97927672dd15519f41e2a70b295fe94b2fdbccab94ecf6f",
+        "approvalHash": "63b4ba8d7dc9fbdd1ed99f30dcf849fa88ba5b898d7d6bf1d4886fb3eca34011"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "a75ceef0c433ac40d97927672dd15519f41e2a70b295fe94b2fdbccab94ecf6f",
+        "approvalHash": "63b4ba8d7dc9fbdd1ed99f30dcf849fa88ba5b898d7d6bf1d4886fb3eca34011"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mine",
+      "revisionId": "048-add-mine",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "峰",
+        "reading": "みね",
+        "romaji": "mine",
+        "meaning": "Gipfel, Bergrücken",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Gipfel oder Grat eines Berges, eher literarisch. Im Alltag sagt man 山頂 oder 頂上.",
+        "examples": [
+          {
+            "japanese": "雪をかぶった峰が朝日に輝いていた。",
+            "romaji": "Yuki o kabutta mine ga asahi ni kagayaite ita.",
+            "german": "Die schneebedeckten Gipfel leuchteten in der Morgensonne."
+          },
+          {
+            "japanese": "雲の上に、遠くの山の峰が見えた。",
+            "romaji": "Kumo no ue ni, tooku no yama no mine ga mieta.",
+            "german": "Über den Wolken sah man die Gipfel ferner Berge."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256553148",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "峰 / ミネ; 名詞/普通名詞/一般/*; *; *; lemma 峰; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "峰",
+              "reading": "みね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "峰 as \"Gipfel, Bergrücken\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 峰【みね】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1516250; spelling=峰; reading=みね; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1516250 峰/みね sense(s) 1 support \"Gipfel, Bergrücken\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1516250",
+            "spelling": "峰",
+            "reading": "みね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "peak",
+                  "summit",
+                  "ridge",
+                  "top"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "峰|みね",
+          "referenceIndex": 0,
+          "referenceHash": "5ef74b693869073f0ade17c4e344a1e6a2bf158f2df24356b06da7ffcb75fb96"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Gipfel, Bergrücken\" matches JMdict 1516250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Snowy peaks at sunrise.",
+          "View above the clouds."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1516250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256553148 attest 2,0; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256553148",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "峰 / ミネ; 名詞/普通名詞/一般/*; *; *; lemma 峰; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "峰",
+              "reading": "みね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "峰 as \"Gipfel, Bergrücken\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 峰【みね】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1516250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2377113f3600c8d95cc35e8b21c20c59d6240a1bb8e6db5d9b17f20d6ea5a3ee",
+        "approvalHash": "1c638f613ffcc91092fbbbc2570fe7f640605063af9c7b376d4a5376acf402df"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "2377113f3600c8d95cc35e8b21c20c59d6240a1bb8e6db5d9b17f20d6ea5a3ee",
+        "approvalHash": "1c638f613ffcc91092fbbbc2570fe7f640605063af9c7b376d4a5376acf402df"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:minoue",
+      "revisionId": "048-add-minoue",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "身の上",
+        "reading": "みのうえ",
+        "romaji": "minoue",
+        "meaning": "Lebensumstände, Lebensgeschichte",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N1",
+        "notes": "Die persönliche Lage und Vergangenheit eines Menschen: 身の上話 (Lebensgeschichte), 身の上相談 (Lebensberatung, z. B. in Zeitungen).",
+        "examples": [
+          {
+            "japanese": "彼女は初めて自分の身の上を語り始めた。",
+            "romaji": "Kanojo wa hajimete jibun no minoue o katarihajimeta.",
+            "german": "Zum ersten Mal begann sie, von ihrem Leben zu erzählen."
+          },
+          {
+            "japanese": "両親を早くに亡くした彼の身の上に、みんな同情した。",
+            "romaji": "Ryoushin o hayaku ni nakushita kare no minoue ni, minna doujou shita.",
+            "german": "Alle hatten Mitgefühl mit seinem Schicksal, da er früh seine Eltern verloren hatte."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256582182",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "身の上 / ミノウエ; 名詞/普通名詞/一般/*; *; *; lemma 身の上; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の上",
+              "reading": "みのうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の上 as \"Lebensumstände, Lebensgeschichte\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 身の上【みのうえ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365600; spelling=身の上; reading=みのうえ; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1365600 身の上/みのうえ sense(s) 1 support \"Lebensumstände, Lebensgeschichte\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1365600",
+            "spelling": "身の上",
+            "reading": "みのうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's station in life",
+                  "one's personal history",
+                  "one's circumstances"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "身の上|みのうえ",
+          "referenceIndex": 0,
+          "referenceHash": "4db19f3753b158776a95220f26b4c9c498eff2e0a868811a211642fb6c31f48e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Lebensumstände, Lebensgeschichte\" matches JMdict 1365600 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Opening up about one’s past.",
+          "Sympathy for someone’s fate."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1365600; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256582182 attest 0,4; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256582182",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "身の上 / ミノウエ; 名詞/普通名詞/一般/*; *; *; lemma 身の上; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の上",
+              "reading": "みのうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の上 as \"Lebensumstände, Lebensgeschichte\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 身の上【みのうえ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1365600 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e13196a37ceefb15908ffe99f0fc60e4f96ac7336f106a64e04be6da773e7dac",
+        "approvalHash": "6d1b722fd7aa1d9f1df611af284b8b9107381ddc8f346778799b27fce7cbb70c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "e13196a37ceefb15908ffe99f0fc60e4f96ac7336f106a64e04be6da773e7dac",
+        "approvalHash": "6d1b722fd7aa1d9f1df611af284b8b9107381ddc8f346778799b27fce7cbb70c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:minomawari",
+      "revisionId": "048-add-minomawari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "身の回り",
+        "reading": "みのまわり",
+        "romaji": "minomawari",
+        "meaning": "persönliche Dinge; unmittelbare Umgebung, Alltag",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "身の回りの物 (die persönlichen Sachen), 身の回りの世話 (Hilfe bei der täglichen Versorgung, etwa für ältere Menschen).",
+        "examples": [
+          {
+            "japanese": "入院に必要な身の回りの物をかばんに詰めた。",
+            "romaji": "Nyuuin ni hitsuyou na minomawari no mono o kaban ni tsumeta.",
+            "german": "Ich packte die persönlichen Sachen, die ich im Krankenhaus brauche, in eine Tasche."
+          },
+          {
+            "japanese": "祖母の身の回りの世話は、主に母がしている。",
+            "romaji": "Sobo no minomawari no sewa wa, omo ni haha ga shite iru.",
+            "german": "Um die tägliche Versorgung meiner Großmutter kümmert sich hauptsächlich meine Mutter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256645104",
+            "patterns": [
+              0
+            ],
+            "finding": "身の回り / ミノマワリ; 名詞/普通名詞/一般/*; *; *; lemma 身の回り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の回り",
+              "reading": "みのまわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の回り as \"persönliche Dinge; unmittelbare Umgebung, Alltag\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 身の回り【みのまわり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365590; spelling=身の回り; reading=みのまわり; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1365590 身の回り/みのまわり sense(s) 1 support \"persönliche Dinge; unmittelbare Umgebung, Alltag\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1365590",
+            "spelling": "身の回り",
+            "reading": "みのまわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's personal belongings",
+                  "one's vicinity",
+                  "one's daily life",
+                  "everyday necessities"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "身の回り|みのまわり",
+          "referenceIndex": 0,
+          "referenceHash": "b53df1ddf26b2a776db8e0224ecc9b41852d8c71d3f2d931c53842c4f691f9db"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"persönliche Dinge; unmittelbare Umgebung, Alltag\" matches JMdict 1365590 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Packing for a hospital stay.",
+          "Caring for a grandparent."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1365590; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256645104 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256645104",
+            "patterns": [
+              0
+            ],
+            "finding": "身の回り / ミノマワリ; 名詞/普通名詞/一般/*; *; *; lemma 身の回り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の回り",
+              "reading": "みのまわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の回り as \"persönliche Dinge; unmittelbare Umgebung, Alltag\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 身の回り【みのまわり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1365590 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b078862023bdf12d29b491ae5bc2385bd60e25799ef5c72257693e996b51362c",
+        "approvalHash": "7b383918c809dadd9c7f7136f80a97056bbb5f58563e140d6e0374902675daca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "b078862023bdf12d29b491ae5bc2385bd60e25799ef5c72257693e996b51362c",
+        "approvalHash": "7b383918c809dadd9c7f7136f80a97056bbb5f58563e140d6e0374902675daca"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mihakarau",
+      "revisionId": "048-add-mihakarau",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "見計らう",
+        "reading": "みはからう",
+        "romaji": "mihakarau",
+        "meaning": "den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen",
+        "type": "Verb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Transitiv. Meist タイミングを見計らう / 頃合いを見計らう: den passenden Moment abwarten. Auch: nach eigenem Urteil auswählen.",
+        "examples": [
+          {
+            "japanese": "上司の機嫌がいい時を見計らって、休みを頼んだ。",
+            "romaji": "Joushi no kigen ga ii toki o mihakaratte, yasumi o tanonda.",
+            "german": "Ich passte einen Moment ab, in dem mein Chef gute Laune hatte, und bat um Urlaub."
+          },
+          {
+            "japanese": "花束は予算内で適当に見計らってください。",
+            "romaji": "Hanataba wa yosannai de tekitou ni mihakaratte kudasai.",
+            "german": "Stellen Sie den Blumenstrauß bitte nach Ihrem Ermessen im Rahmen des Budgets zusammen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "みはからう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みはからう",
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256712494",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "見計らう / ミハカラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見計らう; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見計らう",
+              "reading": "みはからう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見計らう as \"den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 見計らう【みはからう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259510; spelling=見計らう; reading=みはからう; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1259510 見計らう/みはからう sense(s) 1,2 support \"den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1259510",
+            "spelling": "見計らう",
+            "reading": "みはからう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to choose at one's own discretion"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to choose when to do something",
+                  "to estimate (the time for something)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "見計らう|みはからう",
+          "referenceIndex": 0,
+          "referenceHash": "9e7137ee2b3fa2190cc11f8910c3f9c5a3396e712f4e6db414baf16e95ccdbf0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen\" matches JMdict 1259510 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking the boss for leave.",
+          "Ordering flowers."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1259510; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading みはからう; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256712494 attest 0,4; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256712494",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "見計らう / ミハカラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見計らう; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見計らう",
+              "reading": "みはからう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見計らう as \"den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 見計らう【みはからう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1259510 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2e26a2b3fb2260b214def96b334e66d9b52a07c21140a39d34de811c18d6d3d3",
+        "approvalHash": "c6f79fcbb2077cf29d751fd688e49a2c2dd4a9fdabd19137dabef76c1c7d53ec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "2e26a2b3fb2260b214def96b334e66d9b52a07c21140a39d34de811c18d6d3d3",
+        "approvalHash": "c6f79fcbb2077cf29d751fd688e49a2c2dd4a9fdabd19137dabef76c1c7d53ec"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:miharashi",
+      "revisionId": "048-add-miharashi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "見晴らし",
+        "reading": "みはらし",
+        "romaji": "miharashi",
+        "meaning": "Aussicht, Fernblick",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Weiter Blick über eine Landschaft: 見晴らしがいい (eine schöne Aussicht haben). Verb: 見晴らす.",
+        "examples": [
+          {
+            "japanese": "山の上のホテルは見晴らしがとてもいい。",
+            "romaji": "Yama no ue no hoteru wa miharashi ga totemo ii.",
+            "german": "Das Hotel oben auf dem Berg hat eine wunderbare Aussicht."
+          },
+          {
+            "japanese": "窓の前に高いビルが建って、見晴らしが悪くなった。",
+            "romaji": "Mado no mae ni takai biru ga tatte, miharashi ga waruku natta.",
+            "german": "Seit vor dem Fenster ein Hochhaus gebaut wurde, ist die Aussicht schlechter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256749083",
+            "patterns": [
+              0
+            ],
+            "finding": "見晴らし / ミハラシ; 名詞/普通名詞/一般/*; *; *; lemma 見晴らし; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見晴らし",
+              "reading": "みはらし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見晴らし as \"Aussicht, Fernblick\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 048); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 見晴らし【みはらし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259770; spelling=見晴らし; reading=みはらし; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1259770 見晴らし/みはらし sense(s) 1 support \"Aussicht, Fernblick\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1259770",
+            "spelling": "見晴らし",
+            "reading": "みはらし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(scenic) view",
+                  "prospect",
+                  "outlook"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "見晴らし|みはらし",
+          "referenceIndex": 0,
+          "referenceHash": "a13affe1b76bda55df8327e18335e11fbc27424ecf062e8a1111861746ce162b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-048-editor",
+        "meaning": "\"Aussicht, Fernblick\" matches JMdict 1259770 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Mountain hotel.",
+          "View blocked by a building."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1259770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@256749083 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256749083",
+            "patterns": [
+              0
+            ],
+            "finding": "見晴らし / ミハラシ; 名詞/普通名詞/一般/*; *; *; lemma 見晴らし; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見晴らし",
+              "reading": "みはらし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見晴らし as \"Aussicht, Fernblick\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: Add 見晴らし【みはらし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1259770 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "93ecee6433d811d8317b3b55e5116552f6fcfc9615057222d42561357ab7ce78",
+        "approvalHash": "d6f374f618c6a503a68dfe7869936c91e3ce69d684f26239af2df0d8ddc6f4e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "93ecee6433d811d8317b3b55e5116552f6fcfc9615057222d42561357ab7ce78",
+        "approvalHash": "d6f374f618c6a503a68dfe7869936c91e3ce69d684f26239af2df0d8ddc6f4e4"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "見せ物|みせもの",
+      "referenceIndex": 0,
+      "referenceHash": "9ce69c28b159b5a3c89d51fba507150fadb84d671aa43b3d82160606aa06d860",
+      "revisionId": "048-candidate-misemono-d5ea8c55-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:misemono"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:misemono": "b9734d18c20000096387a9357f27191357b82cfbb1debdbae93c8d9c1b836892"
+      },
+      "reason": "Reference 見せ物/みせもの (tanos N1) is the same lexeme as the new entry 見世物【みせもの】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=157",
+          "finding": "tanos lists 見せ物/みせもの at N1 (gloss: show, exhibition)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259240; spelling=見世物; reading=みせもの; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259240 as the reference form.",
+          "selected": {
+            "sequence": "1259240",
+            "spelling": "見世物",
+            "reading": "みせもの",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "ateji (phonetic) reading"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "historical term"
+                ],
+                "gloss": [
+                  "misemono",
+                  "type of Edo- and Meiji-period side show often held outdoors or in small temporarily erected shacks on temple and shrine grounds"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "show",
+                  "exhibition",
+                  "spectacle",
+                  "freakshow",
+                  "side show"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見せ物|みせもの#0 is the same lexeme as vocab-n1:correction:misemono; target hash bound to the assembled addition.",
+        "contentHash": "31fe144bdd04cad44b24a02be1b143a565e462188be37395ffa3a73a5c6d0229",
+        "approvalHash": "31fe144bdd04cad44b24a02be1b143a565e462188be37395ffa3a73a5c6d0229"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "31fe144bdd04cad44b24a02be1b143a565e462188be37395ffa3a73a5c6d0229",
+        "approvalHash": "31fe144bdd04cad44b24a02be1b143a565e462188be37395ffa3a73a5c6d0229"
+      }
+    },
+    {
+      "key": "見世物|みせもの",
+      "referenceIndex": 0,
+      "referenceHash": "8ee21aa2f2255bf26068968f9f0860bf572b4efb2cf70b228db479fc09e805e8",
+      "revisionId": "048-candidate-misemono-d85e7016-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:misemono"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:misemono": "b9734d18c20000096387a9357f27191357b82cfbb1debdbae93c8d9c1b836892"
+      },
+      "reason": "Reference 見世物/みせもの (master N1) is the same lexeme as the new entry 見世物【みせもの】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 見世物/みせもの at N1 (gloss: show; exhibition; spectacle)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259240; spelling=見世物; reading=みせもの; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259240 as the reference form.",
+          "selected": {
+            "sequence": "1259240",
+            "spelling": "見世物",
+            "reading": "みせもの",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "ateji (phonetic) reading"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "historical term"
+                ],
+                "gloss": [
+                  "misemono",
+                  "type of Edo- and Meiji-period side show often held outdoors or in small temporarily erected shacks on temple and shrine grounds"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "show",
+                  "exhibition",
+                  "spectacle",
+                  "freakshow",
+                  "side show"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見世物|みせもの#0 is the same lexeme as vocab-n1:correction:misemono; target hash bound to the assembled addition.",
+        "contentHash": "aeaba0791c64dfd7a4c49f0ce9b7a10181f68b3e32e3cdacac6ac3a336e6a33e",
+        "approvalHash": "aeaba0791c64dfd7a4c49f0ce9b7a10181f68b3e32e3cdacac6ac3a336e6a33e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "aeaba0791c64dfd7a4c49f0ce9b7a10181f68b3e32e3cdacac6ac3a336e6a33e",
+        "approvalHash": "aeaba0791c64dfd7a4c49f0ce9b7a10181f68b3e32e3cdacac6ac3a336e6a33e"
+      }
+    },
+    {
+      "key": "溝|みぞ",
+      "referenceIndex": 0,
+      "referenceHash": "64859621b7fb8445f43b5fe78dab9c9a9b0d937b057d203ecc000fe03e0c9fd8",
+      "revisionId": "048-candidate-mizo-5e5d7954-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mizo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mizo": "bb42da3347f982ee1e8cadbe2aef5116ee0068c51f6bbc8144174ee818323a64"
+      },
+      "reason": "Reference 溝/みぞ (master N1) is the same lexeme as the new entry 溝【みぞ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 溝/みぞ at N1 (gloss: ditch; drain; gutter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1578720; spelling=溝; reading=みぞ; senses=1,3; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1578720 as the reference form.",
+          "selected": {
+            "sequence": "1578720",
+            "spelling": "溝",
+            "reading": "みぞ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ditch",
+                  "drain",
+                  "gutter",
+                  "trench"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gap (between people, countries, etc.)",
+                  "gulf",
+                  "rift"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 溝|みぞ#0 is the same lexeme as vocab-n1:correction:mizo; target hash bound to the assembled addition.",
+        "contentHash": "7a7d811aa6d7b2cb2b19f5e15e09b81b55f9b097185d27487da170147499a888",
+        "approvalHash": "7a7d811aa6d7b2cb2b19f5e15e09b81b55f9b097185d27487da170147499a888"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "7a7d811aa6d7b2cb2b19f5e15e09b81b55f9b097185d27487da170147499a888",
+        "approvalHash": "7a7d811aa6d7b2cb2b19f5e15e09b81b55f9b097185d27487da170147499a888"
+      }
+    },
+    {
+      "key": "未知|みち",
+      "referenceIndex": 0,
+      "referenceHash": "3f330308aa70d52843152c3954e734ff7560431e1203064f4409e826ead70779",
+      "revisionId": "048-candidate-michi-unknown-40e18112-0",
+      "predecessorRevisionHash": "966b75e7baa400f7166e8cada9bc9d8724700d3f2d168e3fd0c7c5cc24426554",
+      "predecessorHash": "7862236c81aab9d47a7be90f030760c57707caab16cc0324f33ee43e40d26dcd",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:michi-unknown"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:michi-unknown": "f3b917bc87f01d18663257fb37ae0f5989ecb3c91e773d674b163b814d69f3cd"
+      },
+      "reason": "Reference 未知/みち (tanos N1) is the same lexeme as the new entry 未知【みち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=157",
+          "finding": "tanos lists 未知/みち at N1 (gloss: not yet known)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1527770; spelling=未知; reading=みち; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1527770 as the reference form.",
+          "selected": {
+            "sequence": "1527770",
+            "spelling": "未知",
+            "reading": "みち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "not yet known",
+                  "unknown",
+                  "strange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 未知|みち#0 is the same lexeme as vocab-n1:correction:michi-unknown; target hash bound to the assembled addition.",
+        "contentHash": "141114a72280e936658e69f48bfbe4a095ec3d2e9dcff797e6f0b373e76ca227",
+        "approvalHash": "141114a72280e936658e69f48bfbe4a095ec3d2e9dcff797e6f0b373e76ca227"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "141114a72280e936658e69f48bfbe4a095ec3d2e9dcff797e6f0b373e76ca227",
+        "approvalHash": "141114a72280e936658e69f48bfbe4a095ec3d2e9dcff797e6f0b373e76ca227"
+      }
+    },
+    {
+      "key": "未知|みち",
+      "referenceIndex": 1,
+      "referenceHash": "3cf4537c8586bad10b9587ae81a4d3428f4abf0b81a6fd1d640ede9ae2182214",
+      "revisionId": "048-candidate-michi-unknown-40e18112-1",
+      "predecessorRevisionHash": "c9c9da26d135c3e25882e67d24e11d58a098e5e18c4a95ac72b6d1e31f740e74",
+      "predecessorHash": "2de81bd425e2d231f2f332530e1a959be48e35023c29d229df79e3adeef4c5ee",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:michi-unknown"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:michi-unknown": "f3b917bc87f01d18663257fb37ae0f5989ecb3c91e773d674b163b814d69f3cd"
+      },
+      "reason": "Reference 未知/みち (master N1) is the same lexeme as the new entry 未知【みち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 未知/みち at N1 (gloss: not yet known; unknown; strange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1527770; spelling=未知; reading=みち; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1527770 as the reference form.",
+          "selected": {
+            "sequence": "1527770",
+            "spelling": "未知",
+            "reading": "みち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "not yet known",
+                  "unknown",
+                  "strange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 未知|みち#1 is the same lexeme as vocab-n1:correction:michi-unknown; target hash bound to the assembled addition.",
+        "contentHash": "6db095ade19972940218356f254fa3b1e47c894b412a0e4c4ca0d00493fd09b9",
+        "approvalHash": "6db095ade19972940218356f254fa3b1e47c894b412a0e4c4ca0d00493fd09b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "6db095ade19972940218356f254fa3b1e47c894b412a0e4c4ca0d00493fd09b9",
+        "approvalHash": "6db095ade19972940218356f254fa3b1e47c894b412a0e4c4ca0d00493fd09b9"
+      }
+    },
+    {
+      "key": "蜜|みつ",
+      "referenceIndex": 0,
+      "referenceHash": "c4db8a9657d6861baa9c15875027e17b1fef3ed710cb11c79f15ca2ce143051b",
+      "revisionId": "048-candidate-mitsu-9bfda522-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mitsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mitsu": "0cfe570d72d00312e56cbd758c74fe0ec06a75c00f4d180f6ed89fa0cfc61cc6"
+      },
+      "reason": "Reference 蜜/みつ (tanos N1) is the same lexeme as the new entry 蜜【みつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=157",
+          "finding": "tanos lists 蜜/みつ at N1 (gloss: nectar, honey)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1647880; spelling=蜜; reading=みつ; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1647880 as the reference form.",
+          "selected": {
+            "sequence": "1647880",
+            "spelling": "蜜",
+            "reading": "みつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nectar"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honey"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 蜜|みつ#0 is the same lexeme as vocab-n1:correction:mitsu; target hash bound to the assembled addition.",
+        "contentHash": "6fec7cd502d70a41f6bbc91a5e039f58c266f20c54eb20515bcfe03a1c35eb25",
+        "approvalHash": "6fec7cd502d70a41f6bbc91a5e039f58c266f20c54eb20515bcfe03a1c35eb25"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "6fec7cd502d70a41f6bbc91a5e039f58c266f20c54eb20515bcfe03a1c35eb25",
+        "approvalHash": "6fec7cd502d70a41f6bbc91a5e039f58c266f20c54eb20515bcfe03a1c35eb25"
+      }
+    },
+    {
+      "key": "蜜|みつ",
+      "referenceIndex": 1,
+      "referenceHash": "59b192e84bff2132a5d3d68fbfa4644fdc68ab09602c0dc53abd5ecf60aaf404",
+      "revisionId": "048-candidate-mitsu-9bfda522-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mitsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mitsu": "0cfe570d72d00312e56cbd758c74fe0ec06a75c00f4d180f6ed89fa0cfc61cc6"
+      },
+      "reason": "Reference 蜜/みつ (master N1) is the same lexeme as the new entry 蜜【みつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 蜜/みつ at N1 (gloss: nectar; honey; (n) Honig)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1647880; spelling=蜜; reading=みつ; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1647880 as the reference form.",
+          "selected": {
+            "sequence": "1647880",
+            "spelling": "蜜",
+            "reading": "みつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nectar"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honey"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 蜜|みつ#1 is the same lexeme as vocab-n1:correction:mitsu; target hash bound to the assembled addition.",
+        "contentHash": "43f6cf4bfe21afe92013e65e447bab5bf7fff66c27cde7248bc547a97f8c91cb",
+        "approvalHash": "43f6cf4bfe21afe92013e65e447bab5bf7fff66c27cde7248bc547a97f8c91cb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "43f6cf4bfe21afe92013e65e447bab5bf7fff66c27cde7248bc547a97f8c91cb",
+        "approvalHash": "43f6cf4bfe21afe92013e65e447bab5bf7fff66c27cde7248bc547a97f8c91cb"
+      }
+    },
+    {
+      "key": "密集|みっしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "937e67d25c025749ba070b2971d1731d2f5191861a0da67e65c3b3edebde9e19",
+      "revisionId": "048-candidate-misshuu-5983502b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:misshuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:misshuu": "a7ea98670f29cd35c5bb4bbd92046a973976ff1bd3babf021124b9f71ca04210"
+      },
+      "reason": "Reference 密集/みっしゅう (tanos N1) is the same lexeme as the new entry 密集【みっしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=157",
+          "finding": "tanos lists 密集/みっしゅう at N1 (gloss: crowd, close formation, dense)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1528280; spelling=密集; reading=みっしゅう; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1528280 as the reference form.",
+          "selected": {
+            "sequence": "1528280",
+            "spelling": "密集",
+            "reading": "みっしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "crowding together",
+                  "clustering together",
+                  "close formation",
+                  "swarm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 密集|みっしゅう#0 is the same lexeme as vocab-n1:correction:misshuu; target hash bound to the assembled addition.",
+        "contentHash": "42524ba545939934ede33a225feddf4a3f65cacc53c175893982c77dbb88e482",
+        "approvalHash": "42524ba545939934ede33a225feddf4a3f65cacc53c175893982c77dbb88e482"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "42524ba545939934ede33a225feddf4a3f65cacc53c175893982c77dbb88e482",
+        "approvalHash": "42524ba545939934ede33a225feddf4a3f65cacc53c175893982c77dbb88e482"
+      }
+    },
+    {
+      "key": "密集|みっしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "5a10239f799e51403249a77aff762644ad9b7b6c2f2df817f0a010fddf6cc608",
+      "revisionId": "048-candidate-misshuu-5983502b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:misshuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:misshuu": "a7ea98670f29cd35c5bb4bbd92046a973976ff1bd3babf021124b9f71ca04210"
+      },
+      "reason": "Reference 密集/みっしゅう (master N1) is the same lexeme as the new entry 密集【みっしゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 密集/みっしゅう at N1 (gloss: crowd; close formation; dense)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1528280; spelling=密集; reading=みっしゅう; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1528280 as the reference form.",
+          "selected": {
+            "sequence": "1528280",
+            "spelling": "密集",
+            "reading": "みっしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "crowding together",
+                  "clustering together",
+                  "close formation",
+                  "swarm"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 密集|みっしゅう#1 is the same lexeme as vocab-n1:correction:misshuu; target hash bound to the assembled addition.",
+        "contentHash": "bf06f4551c277ad7495dc7ea9fbf7dc5c90255527a5ed66c063a0baea1d39bee",
+        "approvalHash": "bf06f4551c277ad7495dc7ea9fbf7dc5c90255527a5ed66c063a0baea1d39bee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "bf06f4551c277ad7495dc7ea9fbf7dc5c90255527a5ed66c063a0baea1d39bee",
+        "approvalHash": "bf06f4551c277ad7495dc7ea9fbf7dc5c90255527a5ed66c063a0baea1d39bee"
+      }
+    },
+    {
+      "key": "源|みなもと",
+      "referenceIndex": 0,
+      "referenceHash": "e7160c05575800bf78a150bdee7d4cb1a564e9780a3e49060e52eb88b419d6e8",
+      "revisionId": "048-candidate-minamoto-75d3d0f1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minamoto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minamoto": "294ad5e64bd0dace7b62fdb9a17d7341852c8c403b4c525ea33579a83432b088"
+      },
+      "reason": "Reference 源/みなもと (tanos N1) is the same lexeme as the new entry 源【みなもと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=158",
+          "finding": "tanos lists 源/みなもと at N1 (gloss: source, origin)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1263360; spelling=源; reading=みなもと; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1263360 as the reference form.",
+          "selected": {
+            "sequence": "1263360",
+            "spelling": "源",
+            "reading": "みなもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source (of a river)",
+                  "fountainhead"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source",
+                  "origin",
+                  "root"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 源|みなもと#0 is the same lexeme as vocab-n1:correction:minamoto; target hash bound to the assembled addition.",
+        "contentHash": "eef2f27d67e9967b364a5934d932b5d0d12dd173012a2c3184b5bd667925218f",
+        "approvalHash": "eef2f27d67e9967b364a5934d932b5d0d12dd173012a2c3184b5bd667925218f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "eef2f27d67e9967b364a5934d932b5d0d12dd173012a2c3184b5bd667925218f",
+        "approvalHash": "eef2f27d67e9967b364a5934d932b5d0d12dd173012a2c3184b5bd667925218f"
+      }
+    },
+    {
+      "key": "源|みなもと",
+      "referenceIndex": 1,
+      "referenceHash": "6c9856f875e1f91cb6c26948db945439d6b5207d76656f12d978c8a54dc2abf3",
+      "revisionId": "048-candidate-minamoto-75d3d0f1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minamoto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minamoto": "294ad5e64bd0dace7b62fdb9a17d7341852c8c403b4c525ea33579a83432b088"
+      },
+      "reason": "Reference 源/みなもと (master N1) is the same lexeme as the new entry 源【みなもと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 源/みなもと at N1 (gloss: source; origin; origine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1263360; spelling=源; reading=みなもと; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1263360 as the reference form.",
+          "selected": {
+            "sequence": "1263360",
+            "spelling": "源",
+            "reading": "みなもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source (of a river)",
+                  "fountainhead"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "source",
+                  "origin",
+                  "root"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 源|みなもと#1 is the same lexeme as vocab-n1:correction:minamoto; target hash bound to the assembled addition.",
+        "contentHash": "41c018780005cfa9d64072137f406258da940856a224065d35023d75963cd374",
+        "approvalHash": "41c018780005cfa9d64072137f406258da940856a224065d35023d75963cd374"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "41c018780005cfa9d64072137f406258da940856a224065d35023d75963cd374",
+        "approvalHash": "41c018780005cfa9d64072137f406258da940856a224065d35023d75963cd374"
+      }
+    },
+    {
+      "key": "見習う|みならう",
+      "referenceIndex": 0,
+      "referenceHash": "d87bd723d6b5b1115dc4315ffa82f431730f30384b0c4f4cbe9b7c91ecc97393",
+      "revisionId": "048-candidate-minarau-07ef82bc-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minarau"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minarau": "a892efbfb573d50fa9d93b3bd88401dab7f6a0be9e4231fe6e04e07fad71c0f0"
+      },
+      "reason": "Reference 見習う/みならう (master N1) is the same lexeme as the new entry 見習う【みならう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 見習う/みならう at N1 (gloss: to follow another's example; apprendre; imiter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259700; spelling=見習う; reading=みならう; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259700 as the reference form.",
+          "selected": {
+            "sequence": "1259700",
+            "spelling": "見習う",
+            "reading": "みならう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to follow (someone's) example",
+                  "to imitate",
+                  "to copy",
+                  "to pattern oneself on"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to learn (by observation)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見習う|みならう#0 is the same lexeme as vocab-n1:correction:minarau; target hash bound to the assembled addition.",
+        "contentHash": "67b4a112981649b294cf85fba59595eea7ab6710943beb91a69e9a0d5b04e73d",
+        "approvalHash": "67b4a112981649b294cf85fba59595eea7ab6710943beb91a69e9a0d5b04e73d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "67b4a112981649b294cf85fba59595eea7ab6710943beb91a69e9a0d5b04e73d",
+        "approvalHash": "67b4a112981649b294cf85fba59595eea7ab6710943beb91a69e9a0d5b04e73d"
+      }
+    },
+    {
+      "key": "身なり|みなり",
+      "referenceIndex": 0,
+      "referenceHash": "dd88c6e21f8474093fb1fbf013536b6edba7c0dfcd161021ea6cedd9d5bdc1fb",
+      "revisionId": "048-candidate-minari-f238a5e0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minari": "a75ceef0c433ac40d97927672dd15519f41e2a70b295fe94b2fdbccab94ecf6f"
+      },
+      "reason": "Reference 身なり/みなり (tanos N1) is the same lexeme as the new entry 身なり【みなり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=158",
+          "finding": "tanos lists 身なり/みなり at N1 (gloss: personal appearance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365570; spelling=身なり; reading=みなり; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1365570 as the reference form.",
+          "selected": {
+            "sequence": "1365570",
+            "spelling": "身なり",
+            "reading": "みなり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress",
+                  "attire",
+                  "clothing",
+                  "getup",
+                  "outfit",
+                  "personal appearance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 身なり|みなり#0 is the same lexeme as vocab-n1:correction:minari; target hash bound to the assembled addition.",
+        "contentHash": "1c6a16d405d81c5f97bd6f456ad099194bae18b2d0afdb0a1c1b9bdfb5cf5232",
+        "approvalHash": "1c6a16d405d81c5f97bd6f456ad099194bae18b2d0afdb0a1c1b9bdfb5cf5232"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "1c6a16d405d81c5f97bd6f456ad099194bae18b2d0afdb0a1c1b9bdfb5cf5232",
+        "approvalHash": "1c6a16d405d81c5f97bd6f456ad099194bae18b2d0afdb0a1c1b9bdfb5cf5232"
+      }
+    },
+    {
+      "key": "身なり|みなり",
+      "referenceIndex": 1,
+      "referenceHash": "aa1f5346848c481f31d6faeeb21020b8885ae7580d563651b8c38a52d60159a9",
+      "revisionId": "048-candidate-minari-f238a5e0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minari": "a75ceef0c433ac40d97927672dd15519f41e2a70b295fe94b2fdbccab94ecf6f"
+      },
+      "reason": "Reference 身なり/みなり (master N1) is the same lexeme as the new entry 身なり【みなり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 身なり/みなり at N1 (gloss: personal appearance; apparence; mise)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365570; spelling=身なり; reading=みなり; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1365570 as the reference form.",
+          "selected": {
+            "sequence": "1365570",
+            "spelling": "身なり",
+            "reading": "みなり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dress",
+                  "attire",
+                  "clothing",
+                  "getup",
+                  "outfit",
+                  "personal appearance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 身なり|みなり#1 is the same lexeme as vocab-n1:correction:minari; target hash bound to the assembled addition.",
+        "contentHash": "010465461d497353d0429829a5d86653bb15ba1c1c4e4b23d3c5e8ded4bf856f",
+        "approvalHash": "010465461d497353d0429829a5d86653bb15ba1c1c4e4b23d3c5e8ded4bf856f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "010465461d497353d0429829a5d86653bb15ba1c1c4e4b23d3c5e8ded4bf856f",
+        "approvalHash": "010465461d497353d0429829a5d86653bb15ba1c1c4e4b23d3c5e8ded4bf856f"
+      }
+    },
+    {
+      "key": "峰|みね",
+      "referenceIndex": 0,
+      "referenceHash": "5ef74b693869073f0ade17c4e344a1e6a2bf158f2df24356b06da7ffcb75fb96",
+      "revisionId": "048-candidate-mine-757c3d7e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mine"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mine": "2377113f3600c8d95cc35e8b21c20c59d6240a1bb8e6db5d9b17f20d6ea5a3ee"
+      },
+      "reason": "Reference 峰/みね (tanos N1) is the same lexeme as the new entry 峰【みね】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=158",
+          "finding": "tanos lists 峰/みね at N1 (gloss: peak, ridge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1516250; spelling=峰; reading=みね; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1516250 as the reference form.",
+          "selected": {
+            "sequence": "1516250",
+            "spelling": "峰",
+            "reading": "みね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "peak",
+                  "summit",
+                  "ridge",
+                  "top"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 峰|みね#0 is the same lexeme as vocab-n1:correction:mine; target hash bound to the assembled addition.",
+        "contentHash": "3ae69abc07b22eb969e8fda44db14829e30016942901127ec07a780c91b1b1bb",
+        "approvalHash": "3ae69abc07b22eb969e8fda44db14829e30016942901127ec07a780c91b1b1bb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "3ae69abc07b22eb969e8fda44db14829e30016942901127ec07a780c91b1b1bb",
+        "approvalHash": "3ae69abc07b22eb969e8fda44db14829e30016942901127ec07a780c91b1b1bb"
+      }
+    },
+    {
+      "key": "峰|みね",
+      "referenceIndex": 1,
+      "referenceHash": "175736a329286f02916ee632299b2d2e280e1134d92a30c60511cf6a8a3cea0c",
+      "revisionId": "048-candidate-mine-757c3d7e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mine"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mine": "2377113f3600c8d95cc35e8b21c20c59d6240a1bb8e6db5d9b17f20d6ea5a3ee"
+      },
+      "reason": "Reference 峰/みね (master N1) is the same lexeme as the new entry 峰【みね】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 峰/みね at N1 (gloss: peak; ridge; sommet)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1516250; spelling=峰; reading=みね; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1516250 as the reference form.",
+          "selected": {
+            "sequence": "1516250",
+            "spelling": "峰",
+            "reading": "みね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "peak",
+                  "summit",
+                  "ridge",
+                  "top"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 峰|みね#1 is the same lexeme as vocab-n1:correction:mine; target hash bound to the assembled addition.",
+        "contentHash": "4f68b4c7ee0da6a0f60536533a58c5c30440aa844479cc12785ee1094e1965f8",
+        "approvalHash": "4f68b4c7ee0da6a0f60536533a58c5c30440aa844479cc12785ee1094e1965f8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "4f68b4c7ee0da6a0f60536533a58c5c30440aa844479cc12785ee1094e1965f8",
+        "approvalHash": "4f68b4c7ee0da6a0f60536533a58c5c30440aa844479cc12785ee1094e1965f8"
+      }
+    },
+    {
+      "key": "身の上|みのうえ",
+      "referenceIndex": 0,
+      "referenceHash": "4db19f3753b158776a95220f26b4c9c498eff2e0a868811a211642fb6c31f48e",
+      "revisionId": "048-candidate-minoue-02cbd968-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minoue"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minoue": "e13196a37ceefb15908ffe99f0fc60e4f96ac7336f106a64e04be6da773e7dac"
+      },
+      "reason": "Reference 身の上/みのうえ (master N1) is the same lexeme as the new entry 身の上【みのうえ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 身の上/みのうえ at N1 (gloss: one's future; one's welfare; one's personal history)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365600; spelling=身の上; reading=みのうえ; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1365600 as the reference form.",
+          "selected": {
+            "sequence": "1365600",
+            "spelling": "身の上",
+            "reading": "みのうえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's station in life",
+                  "one's personal history",
+                  "one's circumstances"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 身の上|みのうえ#0 is the same lexeme as vocab-n1:correction:minoue; target hash bound to the assembled addition.",
+        "contentHash": "2a2a81515b4438b523d749f26ec872a0eccbbc3302e67011f04419d907186eb0",
+        "approvalHash": "2a2a81515b4438b523d749f26ec872a0eccbbc3302e67011f04419d907186eb0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "2a2a81515b4438b523d749f26ec872a0eccbbc3302e67011f04419d907186eb0",
+        "approvalHash": "2a2a81515b4438b523d749f26ec872a0eccbbc3302e67011f04419d907186eb0"
+      }
+    },
+    {
+      "key": "身の回り|みのまわり",
+      "referenceIndex": 0,
+      "referenceHash": "b53df1ddf26b2a776db8e0224ecc9b41852d8c71d3f2d931c53842c4f691f9db",
+      "revisionId": "048-candidate-minomawari-80b1030e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:minomawari"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:minomawari": "b078862023bdf12d29b491ae5bc2385bd60e25799ef5c72257693e996b51362c"
+      },
+      "reason": "Reference 身の回り/みのまわり (master N1) is the same lexeme as the new entry 身の回り【みのまわり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 身の回り/みのまわり at N1 (gloss: one's personal belongings; one's vicinity; one's daily life)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1365590; spelling=身の回り; reading=みのまわり; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1365590 as the reference form.",
+          "selected": {
+            "sequence": "1365590",
+            "spelling": "身の回り",
+            "reading": "みのまわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's personal belongings",
+                  "one's vicinity",
+                  "one's daily life",
+                  "everyday necessities"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 身の回り|みのまわり#0 is the same lexeme as vocab-n1:correction:minomawari; target hash bound to the assembled addition.",
+        "contentHash": "1feccc084e4e96eb6b42686f61fcbb3f2d4f6bd5a05c0202885ddc73a8e0c4ab",
+        "approvalHash": "1feccc084e4e96eb6b42686f61fcbb3f2d4f6bd5a05c0202885ddc73a8e0c4ab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "1feccc084e4e96eb6b42686f61fcbb3f2d4f6bd5a05c0202885ddc73a8e0c4ab",
+        "approvalHash": "1feccc084e4e96eb6b42686f61fcbb3f2d4f6bd5a05c0202885ddc73a8e0c4ab"
+      }
+    },
+    {
+      "key": "見計らう|みはからう",
+      "referenceIndex": 0,
+      "referenceHash": "9e7137ee2b3fa2190cc11f8910c3f9c5a3396e712f4e6db414baf16e95ccdbf0",
+      "revisionId": "048-candidate-mihakarau-3b23e1a5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mihakarau"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mihakarau": "2e26a2b3fb2260b214def96b334e66d9b52a07c21140a39d34de811c18d6d3d3"
+      },
+      "reason": "Reference 見計らう/みはからう (master N1) is the same lexeme as the new entry 見計らう【みはからう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 見計らう/みはからう at N1 (gloss: to choose at one's own discretion; (n) nach eigenem Ermessen entscheiden; nach Gutdünken entscheiden)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259510; spelling=見計らう; reading=みはからう; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259510 as the reference form.",
+          "selected": {
+            "sequence": "1259510",
+            "spelling": "見計らう",
+            "reading": "みはからう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to choose at one's own discretion"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to choose when to do something",
+                  "to estimate (the time for something)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見計らう|みはからう#0 is the same lexeme as vocab-n1:correction:mihakarau; target hash bound to the assembled addition.",
+        "contentHash": "68cce9361922a991103cee0e4587467f759c5aae44b5781f7be747e3a86870b6",
+        "approvalHash": "68cce9361922a991103cee0e4587467f759c5aae44b5781f7be747e3a86870b6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "68cce9361922a991103cee0e4587467f759c5aae44b5781f7be747e3a86870b6",
+        "approvalHash": "68cce9361922a991103cee0e4587467f759c5aae44b5781f7be747e3a86870b6"
+      }
+    },
+    {
+      "key": "見晴らし|みはらし",
+      "referenceIndex": 0,
+      "referenceHash": "a13affe1b76bda55df8327e18335e11fbc27424ecf062e8a1111861746ce162b",
+      "revisionId": "048-candidate-miharashi-3ce40519-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:miharashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:miharashi": "93ecee6433d811d8317b3b55e5116552f6fcfc9615057222d42561357ab7ce78"
+      },
+      "reason": "Reference 見晴らし/みはらし (tanos N1) is the same lexeme as the new entry 見晴らし【みはらし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=158",
+          "finding": "tanos lists 見晴らし/みはらし at N1 (gloss: view)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259770; spelling=見晴らし; reading=みはらし; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259770 as the reference form.",
+          "selected": {
+            "sequence": "1259770",
+            "spelling": "見晴らし",
+            "reading": "みはらし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(scenic) view",
+                  "prospect",
+                  "outlook"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見晴らし|みはらし#0 is the same lexeme as vocab-n1:correction:miharashi; target hash bound to the assembled addition.",
+        "contentHash": "391a8d003af1f3db441d582813dd914d7fa4e9ecff7a5329cf48b9f01bf85911",
+        "approvalHash": "391a8d003af1f3db441d582813dd914d7fa4e9ecff7a5329cf48b9f01bf85911"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "391a8d003af1f3db441d582813dd914d7fa4e9ecff7a5329cf48b9f01bf85911",
+        "approvalHash": "391a8d003af1f3db441d582813dd914d7fa4e9ecff7a5329cf48b9f01bf85911"
+      }
+    },
+    {
+      "key": "見晴らし|みはらし",
+      "referenceIndex": 1,
+      "referenceHash": "27a3f91da6d03ec7fe96418c5ac9ce0f596e5df49afd359d155c7de75776368d",
+      "revisionId": "048-candidate-miharashi-3ce40519-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:miharashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:miharashi": "93ecee6433d811d8317b3b55e5116552f6fcfc9615057222d42561357ab7ce78"
+      },
+      "reason": "Reference 見晴らし/みはらし (master N1) is the same lexeme as the new entry 見晴らし【みはらし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 見晴らし/みはらし at N1 (gloss: view; prospect; outlook)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1259770; spelling=見晴らし; reading=みはらし; senses=1; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1259770 as the reference form.",
+          "selected": {
+            "sequence": "1259770",
+            "spelling": "見晴らし",
+            "reading": "みはらし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(scenic) view",
+                  "prospect",
+                  "outlook"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-editor",
+        "finding": "Editorial first pass: reference 見晴らし|みはらし#1 is the same lexeme as vocab-n1:correction:miharashi; target hash bound to the assembled addition.",
+        "contentHash": "a5f576719c95c7511c0b613c2dd5b2de3176d9f0ee422bcd334cbfe39061a412",
+        "approvalHash": "a5f576719c95c7511c0b613c2dd5b2de3176d9f0ee422bcd334cbfe39061a412"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-048-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fixes (待ち合わせ ex2 五分, 雌 ex2 ツノ, 本体 note) plus the 発足 cand/levelBasis edit; first-approved files identical to rebuilt assemblies; packets re-prepared against the post-047 runtime are byte-identical (no staleness); 116 entries / 222 decisions, nothing dropped. Unchanged since round 1 and re-accepted: examples, romaji, German, JMdict sense support, POS/conjugation, pitch status, duplicate check and publisher-row lexeme binding all verified.",
+        "contentHash": "a5f576719c95c7511c0b613c2dd5b2de3176d9f0ee422bcd334cbfe39061a412",
+        "approvalHash": "a5f576719c95c7511c0b613c2dd5b2de3176d9f0ee422bcd334cbfe39061a412"
+      }
+    }
+  ]
+}

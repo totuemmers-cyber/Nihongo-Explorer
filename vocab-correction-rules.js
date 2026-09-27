@@ -53567,6 +53567,5021 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "5117": {
+        "word": "方式",
+        "reading": "ほうしき",
+        "romaji": "houshiki",
+        "meaning": "Methode, Verfahren, System",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Eine festgelegte Art, etwas durchzuführen, oft für technische oder organisatorische Systeme: 支払い方式 (Zahlungsweise), 選挙方式 (Wahlverfahren). Für eine einzelne Vorgehensweise sagt man eher 方法.",
+        "examples": [
+          {
+            "japanese": "会社は来年から新しい方式で給料を計算する。",
+            "romaji": "Kaisha wa rainen kara atarashii houshiki de kyuuryou o keisan suru.",
+            "german": "Die Firma berechnet die Gehälter ab nächstem Jahr nach einem neuen Verfahren."
+          },
+          {
+            "japanese": "この試験はマークシート方式で行われます。",
+            "romaji": "Kono shiken wa maakushiito houshiki de okonawaremasu.",
+            "german": "Diese Prüfung wird mit maschinenlesbaren Antwortbögen durchgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242688911",
+            "patterns": [
+              0
+            ],
+            "finding": "方式 / ホウシキ; 名詞/普通名詞/一般/*; *; *; lemma 方式; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "方式",
+              "reading": "ほうしき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "方式 as \"Methode, Verfahren, System\"."
+            }
+          }
+        ]
+      },
+      "5118": {
+        "word": "放出",
+        "reading": "ほうしゅつ",
+        "romaji": "houshutsu",
+        "meaning": "Ausstoß, Freisetzung; Abgabe (von Vorräten)",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "Als Verb 放出する: Energie, Gas oder Wärme abgeben (熱を放出する) oder Lagerbestände und Spieler abgeben (在庫を放出する).",
+        "examples": [
+          {
+            "japanese": "工場から有害なガスが放出されていた。",
+            "romaji": "Koujou kara yuugai na gasu ga houshutsu sarete ita.",
+            "german": "Aus der Fabrik wurden schädliche Gase ausgestoßen."
+          },
+          {
+            "japanese": "政府は備蓄していた米を市場に放出した。",
+            "romaji": "Seifu wa bichiku shite ita kome o shijou ni houshutsu shita.",
+            "german": "Die Regierung gab ihre eingelagerten Reisvorräte auf den Markt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242696832",
+            "patterns": [
+              0
+            ],
+            "finding": "放出 / ホウシュツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 放出; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "放出",
+              "reading": "ほうしゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "放出 as \"Ausstoß, Freisetzung; Abgabe (von Vorräten)\"."
+            }
+          }
+        ]
+      },
+      "5119": {
+        "word": "冒頭",
+        "reading": "ぼうとう",
+        "romaji": "boutou",
+        "meaning": "Anfang, Beginn (einer Rede, eines Textes)",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Der Anfang eines Textes, einer Rede oder Sitzung: 冒頭で述べたように (wie eingangs erwähnt). Gleich klingend: 暴騰 (Kurssprung).",
+        "examples": [
+          {
+            "japanese": "会議の冒頭で、社長が挨拶をした。",
+            "romaji": "Kaigi no boutou de, shachou ga aisatsu o shita.",
+            "german": "Zu Beginn der Sitzung hielt der Firmenchef eine Begrüßungsrede."
+          },
+          {
+            "japanese": "小説の冒頭の一文がとても印象的だった。",
+            "romaji": "Shousetsu no boutou no ichibun ga totemo inshouteki datta.",
+            "german": "Der erste Satz des Romans war sehr eindrucksvoll."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246022844",
+            "patterns": [
+              0
+            ],
+            "finding": "冒頭 / ボウトウ; 名詞/普通名詞/一般/*; *; *; lemma 冒頭; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "冒頭",
+              "reading": "ぼうとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "冒頭 as \"Anfang, Beginn (einer Rede, eines Textes)\"."
+            }
+          }
+        ]
+      },
+      "5120": {
+        "word": "暴動",
+        "reading": "ぼうどう",
+        "romaji": "boudou",
+        "meaning": "Aufruhr, Krawall, Unruhen",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Gewalttätiger Aufruhr einer Menschenmenge: 暴動が起きる (Unruhen brechen aus), 暴動を鎮める (Unruhen niederschlagen).",
+        "examples": [
+          {
+            "japanese": "物価の急な上昇に怒った市民が暴動を起こした。",
+            "romaji": "Bukka no kyuu na joushou ni okotta shimin ga boudou o okoshita.",
+            "german": "Wütend über den plötzlichen Preisanstieg zettelten die Bürger Unruhen an."
+          },
+          {
+            "japanese": "警察は夜までに暴動を鎮めた。",
+            "romaji": "Keisatsu wa yoru made ni boudou o shizumeta.",
+            "german": "Die Polizei hatte den Aufruhr bis zum Abend niedergeschlagen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246025056",
+            "patterns": [
+              0
+            ],
+            "finding": "暴動 / ボウドウ; 名詞/普通名詞/一般/*; *; *; lemma 暴動; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "暴動",
+              "reading": "ぼうどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "暴動 as \"Aufruhr, Krawall, Unruhen\"."
+            }
+          }
+        ]
+      },
+      "5121": {
+        "word": "暴風",
+        "reading": "ぼうふう",
+        "romaji": "boufuu",
+        "meaning": "Sturm, heftiger Wind",
+        "type": "Nomen",
+        "category": "Wetter",
+        "level": "N1",
+        "notes": "Sehr starker Wind, vor allem in Wetterberichten: 暴風警報 (Sturmwarnung), 暴風雨 (Unwetter mit Sturm und Regen). Im Alltag sagt man eher 強い風 oder 嵐.",
+        "examples": [
+          {
+            "japanese": "台風の影響で、夜から暴風が吹き始めた。",
+            "romaji": "Taifuu no eikyou de, yoru kara boufuu ga fukihajimeta.",
+            "german": "Wegen des Taifuns kam ab dem Abend ein heftiger Sturm auf."
+          },
+          {
+            "japanese": "暴風のため、午後の便はすべて欠航になった。",
+            "romaji": "Boufuu no tame, gogo no bin wa subete kekkou ni natta.",
+            "german": "Wegen des Sturms wurden alle Nachmittagsflüge gestrichen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246033763",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "暴風 / ボウフウ; 名詞/普通名詞/一般/*; *; *; lemma 暴風; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "暴風",
+              "reading": "ぼうふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "暴風 as \"Sturm, heftiger Wind\"."
+            }
+          }
+        ]
+      },
+      "5122": {
+        "word": "放り込む",
+        "reading": "ほうりこむ",
+        "romaji": "hourikomu",
+        "meaning": "hineinwerfen, hineinstopfen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv: etwas achtlos oder mit Schwung in etwas hineinwerfen: かばんに放り込む. Gegenstück: 放り出す (hinauswerfen).",
+        "examples": [
+          {
+            "japanese": "彼は脱いだ服を洗濯機に放り込んだ。",
+            "romaji": "Kare wa nuida fuku o sentakuki ni hourikonda.",
+            "german": "Er warf die ausgezogenen Kleider in die Waschmaschine."
+          },
+          {
+            "japanese": "急いでいたので、書類をかばんに放り込んで家を出た。",
+            "romaji": "Isoide ita node, shorui o kaban ni hourikonde ie o deta.",
+            "german": "Weil ich es eilig hatte, stopfte ich die Unterlagen in die Tasche und ging aus dem Haus."
+          }
+        ],
+        "pitch": 4,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ほうりこむ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ほうりこむ",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243067804",
+            "patterns": [
+              4
+            ],
+            "finding": "放り込む / ホウリコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 放り込む; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "放り込む",
+              "reading": "ほうりこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "放り込む as \"hineinwerfen, hineinstopfen\"."
+            }
+          }
+        ]
+      },
+      "5123": {
+        "word": "放り出す",
+        "reading": "ほうりだす",
+        "romaji": "houridasu",
+        "meaning": "hinauswerfen, hinschleudern; (eine Arbeit) hinschmeißen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv: etwas hinauswerfen oder hinausschleudern; übertragen eine Aufgabe mittendrin aufgeben: 仕事を途中で放り出す.",
+        "examples": [
+          {
+            "japanese": "急ブレーキで、トラックの荷台から荷物が道路に放り出された。",
+            "romaji": "Kyuubureeki de, torakku no nidai kara nimotsu ga douro ni houridasareta.",
+            "german": "Bei der Vollbremsung wurde Ladung von der Ladefläche des Lastwagens auf die Straße geschleudert."
+          },
+          {
+            "japanese": "彼は仕事を途中で放り出して、旅行に行ってしまった。",
+            "romaji": "Kare wa shigoto o tochuu de houridashite, ryokou ni itte shimatta.",
+            "german": "Er hat seine Arbeit mittendrin hingeschmissen und ist in Urlaub gefahren."
+          }
+        ],
+        "pitch": 4,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ほうりだす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ほうりだす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243124451",
+            "patterns": [
+              4
+            ],
+            "finding": "放り出す / ホウリダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 放り出す; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "放り出す",
+              "reading": "ほうりだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "放り出す as \"hinauswerfen, hinschleudern; (eine Arbeit) hinschmeißen\"."
+            }
+          }
+        ]
+      },
+      "5124": {
+        "word": "保温",
+        "reading": "ほおん",
+        "romaji": "hoon",
+        "meaning": "Warmhalten, Wärmedämmung",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Als Verb 保温する: etwas warm halten. Häufig bei Geräten: 炊飯器の保温 (Warmhaltefunktion des Reiskochers), 保温性 (Wärmedämmung).",
+        "examples": [
+          {
+            "japanese": "ご飯は炊飯器で保温しておいてね。",
+            "romaji": "Gohan wa suihanki de hoon shite oite ne.",
+            "german": "Halte den Reis bitte im Reiskocher warm."
+          },
+          {
+            "japanese": "このコップは保温に優れているので、コーヒーが冷めにくい。",
+            "romaji": "Kono koppu wa hoon ni sugurete iru node, koohii ga samenikui.",
+            "german": "Dieser Becher hält hervorragend warm, deshalb wird der Kaffee nicht so schnell kalt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243404137",
+            "patterns": [
+              0
+            ],
+            "finding": "保温 / ホオン; 名詞/普通名詞/サ変可能/*; *; *; lemma 保温; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "保温",
+              "reading": "ほおん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "保温 as \"Warmhalten, Wärmedämmung\"."
+            }
+          }
+        ]
+      },
+      "5125": {
+        "word": "補給",
+        "reading": "ほきゅう",
+        "romaji": "hokyuu",
+        "meaning": "Versorgung, Nachschub, Auffüllen",
+        "type": "Nomen",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Als Verb 補給する: Verbrauchtes ergänzen: 水分を補給する (Flüssigkeit zu sich nehmen), 燃料の補給 (Auftanken).",
+        "examples": [
+          {
+            "japanese": "暑い日は、こまめに水分を補給してください。",
+            "romaji": "Atsui hi wa, komame ni suibun o hokyuu shite kudasai.",
+            "german": "An heißen Tagen sollten Sie regelmäßig Flüssigkeit zu sich nehmen."
+          },
+          {
+            "japanese": "飛行機は途中の空港で燃料を補給した。",
+            "romaji": "Hikouki wa tochuu no kuukou de nenryou o hokyuu shita.",
+            "german": "Das Flugzeug tankte auf einem Flughafen unterwegs nach."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243440596",
+            "patterns": [
+              0
+            ],
+            "finding": "補給 / ホキュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 補給; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "補給",
+              "reading": "ほきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "補給 as \"Versorgung, Nachschub, Auffüllen\"."
+            }
+          }
+        ]
+      },
+      "5126": {
+        "word": "補強",
+        "reading": "ほきょう",
+        "romaji": "hokyou",
+        "meaning": "Verstärkung",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Als Verb 補強する: etwas stabiler machen: 壁を補強する; auch übertragen: チームを補強する (ein Team verstärken).",
+        "examples": [
+          {
+            "japanese": "地震に備えて、古い校舎を補強した。",
+            "romaji": "Jishin ni sonaete, furui kousha o hokyou shita.",
+            "german": "Als Vorsorge gegen Erdbeben wurde das alte Schulgebäude verstärkt."
+          },
+          {
+            "japanese": "チームは新しい選手を入れて守備を補強した。",
+            "romaji": "Chiimu wa atarashii senshu o irete shubi o hokyou shita.",
+            "german": "Die Mannschaft verstärkte mit neuen Spielern ihre Abwehr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243441008",
+            "patterns": [
+              0
+            ],
+            "finding": "補強 / ホキョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 補強; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "補強",
+              "reading": "ほきょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "補強 as \"Verstärkung\"."
+            }
+          }
+        ]
+      },
+      "5127": {
+        "word": "母校",
+        "reading": "ぼこう",
+        "romaji": "bokou",
+        "meaning": "ehemalige Schule, Alma Mater",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Die Schule oder Universität, die man selbst besucht hat: 母校を訪ねる. Auch für Grund- und Oberschulen, nicht nur für Universitäten.",
+        "examples": [
+          {
+            "japanese": "卒業して十年ぶりに母校を訪ねた。",
+            "romaji": "Sotsugyou shite juunen buri ni bokou o tazuneta.",
+            "german": "Zehn Jahre nach meinem Abschluss besuchte ich wieder meine alte Schule."
+          },
+          {
+            "japanese": "母校の野球部が甲子園に出場することになった。",
+            "romaji": "Bokou no yakyuubu ga Koushien ni shutsujou suru koto ni natta.",
+            "german": "Die Baseballmannschaft meiner ehemaligen Schule hat sich für das Koshien-Turnier qualifiziert."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246198640",
+            "patterns": [
+              1
+            ],
+            "finding": "母校 / ボコウ; 名詞/普通名詞/一般/*; *; *; lemma 母校; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "母校",
+              "reading": "ぼこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "母校 as \"ehemalige Schule, Alma Mater\"."
+            }
+          }
+        ]
+      },
+      "5128": {
+        "word": "母国",
+        "reading": "ぼこく",
+        "romaji": "bokoku",
+        "meaning": "Heimatland",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N1",
+        "notes": "Das Land, in dem man geboren und aufgewachsen ist, vor allem aus Sicht von Menschen im Ausland: 母国に帰る. Vgl. 母国語 (Muttersprache).",
+        "examples": [
+          {
+            "japanese": "留学を終えたら、母国に帰って教師になるつもりです。",
+            "romaji": "Ryuugaku o oetara, bokoku ni kaette kyoushi ni naru tsumori desu.",
+            "german": "Nach meinem Auslandsstudium will ich in mein Heimatland zurückkehren und Lehrer werden."
+          },
+          {
+            "japanese": "彼女は母国の料理を友達にふるまった。",
+            "romaji": "Kanojo wa bokoku no ryouri o tomodachi ni furumatta.",
+            "german": "Sie bewirtete ihre Freunde mit Gerichten aus ihrem Heimatland."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246198993",
+            "patterns": [
+              1
+            ],
+            "finding": "母国 / ボコク; 名詞/普通名詞/一般/*; *; *; lemma 母国; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "母国",
+              "reading": "ぼこく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "母国 as \"Heimatland\"."
+            }
+          }
+        ]
+      },
+      "5129": {
+        "word": "ポジション",
+        "reading": "ポジション",
+        "romaji": "pojishon",
+        "meaning": "Position, Stellung",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N1",
+        "notes": "Aus dem Englischen: Position im Sport (ポジションを守る) oder in einer Organisation. Im Beruf sagt man oft auch 地位 oder 役職.",
+        "examples": [
+          {
+            "japanese": "彼のサッカーでのポジションはゴールキーパーだ。",
+            "romaji": "Kare no sakkaa de no pojishon wa goorukiipaa da.",
+            "german": "Seine Position im Fußball ist Torwart."
+          },
+          {
+            "japanese": "彼女は会社で重要なポジションに就いている。",
+            "romaji": "Kanojo wa kaisha de juuyou na pojishon ni tsuite iru.",
+            "german": "Sie hat in der Firma eine wichtige Position inne."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246733331",
+            "patterns": [
+              2
+            ],
+            "finding": "ポジション / ポジション; 名詞/普通名詞/一般/*; *; *; lemma ポジション-position; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ポジション",
+              "reading": "ポジション",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ポジション as \"Position, Stellung\"."
+            }
+          }
+        ]
+      },
+      "5130": {
+        "word": "干し物",
+        "reading": "ほしもの",
+        "romaji": "hoshimono",
+        "meaning": "(zum Trocknen aufgehängte) Wäsche",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Was man in der Sonne trocknet, vor allem Wäsche: 干し物を取り込む (die Wäsche hereinholen). Heute sagt man meist 洗濯物. Nicht verwechseln mit 干物【ひもの】 (getrockneter Fisch); die Schreibung 乾物 liest man meist かんぶつ (getrocknete Lebensmittel).",
+        "examples": [
+          {
+            "japanese": "雨が降りそうだから、干し物を取り込んでおいて。",
+            "romaji": "Ame ga furisou dakara, hoshimono o torikonde oite.",
+            "german": "Es sieht nach Regen aus, hol bitte die Wäsche herein."
+          },
+          {
+            "japanese": "ベランダに干し物がたくさん並んでいる。",
+            "romaji": "Beranda ni hoshimono ga takusan narande iru.",
+            "german": "Auf dem Balkon hängt jede Menge Wäsche zum Trocknen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243840260",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "干し物 / ホシモノ; 名詞/普通名詞/一般/*; *; *; lemma 干し物; aType 3,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "干し物",
+              "reading": "ほしもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "干し物 as \"(zum Trocknen aufgehängte) Wäsche\"."
+            }
+          }
+        ]
+      },
+      "5131": {
+        "word": "ホース",
+        "reading": "ホース",
+        "romaji": "hoosu",
+        "meaning": "Schlauch",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Wasser- oder Gartenschlauch: ホースで水をまく (mit dem Schlauch sprengen). Gleich lautend, aber ein anderes Wort: ホース (engl. horse, Pferd).",
+        "examples": [
+          {
+            "japanese": "庭の花にホースで水をまいた。",
+            "romaji": "Niwa no hana ni hoosu de mizu o maita.",
+            "german": "Ich habe die Blumen im Garten mit dem Schlauch gegossen."
+          },
+          {
+            "japanese": "洗濯機のホースが外れて、床が水浸しになった。",
+            "romaji": "Sentakuki no hoosu ga hazurete, yuka ga mizubitashi ni natta.",
+            "german": "Der Schlauch der Waschmaschine löste sich, und der Boden stand unter Wasser."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245866809",
+            "patterns": [
+              1
+            ],
+            "finding": "ホース / ホース; 名詞/普通名詞/一般/*; *; *; lemma ホース-hoos; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ホース",
+              "reading": "ホース",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ホース as \"Schlauch\"."
+            }
+          }
+        ]
+      },
+      "5132": {
+        "word": "ポーズ",
+        "reading": "ポーズ",
+        "romaji": "poozu",
+        "meaning": "Pose, Haltung; Getue, Show",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Körperhaltung, z. B. für ein Foto: ポーズを取る (posieren). Übertragen eine vorgetäuschte Haltung: 反省しているのはポーズだけだ. Gleich lautend, aber ein anderes Wort: ポーズ (Pause, etwa beim Abspielen eines Videos).",
+        "examples": [
+          {
+            "japanese": "写真を撮るから、何かポーズを取って。",
+            "romaji": "Shashin o toru kara, nanika poozu o totte.",
+            "german": "Ich mache ein Foto – stell dich mal in Pose."
+          },
+          {
+            "japanese": "彼が反省しているのは、ただのポーズにすぎない。",
+            "romaji": "Kare ga hansei shite iru no wa, tada no poozu ni suginai.",
+            "german": "Dass er Reue zeigt, ist nur Show."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246970566",
+            "patterns": [
+              1
+            ],
+            "finding": "ポーズ / ポーズ; 名詞/普通名詞/一般/*; *; *; lemma ポーズ-pose; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ポーズ",
+              "reading": "ポーズ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ポーズ as \"Pose, Haltung; Getue, Show\"."
+            }
+          }
+        ]
+      },
+      "5133": {
+        "word": "発作",
+        "reading": "ほっさ",
+        "romaji": "hossa",
+        "meaning": "Anfall",
+        "type": "Nomen",
+        "category": "Medizin",
+        "level": "N1",
+        "notes": "Plötzlich auftretender Krankheitsanfall: 発作が起きる, 心臓発作 (Herzanfall), 喘息の発作 (Asthmaanfall). Achtung Lesung: ほっさ, nicht はっさ.",
+        "examples": [
+          {
+            "japanese": "祖父は夜中に心臓の発作を起こして入院した。",
+            "romaji": "Sofu wa yonaka ni shinzou no hossa o okoshite nyuuin shita.",
+            "german": "Mein Großvater erlitt mitten in der Nacht einen Herzanfall und kam ins Krankenhaus."
+          },
+          {
+            "japanese": "喘息の発作が起きたときのために、いつも薬を持っている。",
+            "romaji": "Zensoku no hossa ga okita toki no tame ni, itsumo kusuri o motte iru.",
+            "german": "Für den Fall eines Asthmaanfalls habe ich immer Medikamente dabei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244139178",
+            "patterns": [
+              0
+            ],
+            "finding": "発作 / ホッサ; 名詞/普通名詞/一般/*; *; *; lemma 発作; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "発作",
+              "reading": "ほっさ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "発作 as \"Anfall\"."
+            }
+          }
+        ]
+      },
+      "5134": {
+        "word": "発足",
+        "reading": "ほっそく",
+        "romaji": "hossoku",
+        "meaning": "Gründung, Start (einer Organisation)",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Als Verb 発足する: eine Organisation, ein Gremium oder eine Regierung nimmt die Arbeit auf: 新政権が発足した. Auch はっそく gelesen.",
+        "examples": [
+          {
+            "japanese": "新しい委員会が来月発足する予定だ。",
+            "romaji": "Atarashii iinkai ga raigetsu hossoku suru yotei da.",
+            "german": "Ein neuer Ausschuss soll nächsten Monat seine Arbeit aufnehmen."
+          },
+          {
+            "japanese": "この団体は発足から今年で五十年になる。",
+            "romaji": "Kono dantai wa hossoku kara kotoshi de gojuunen ni naru.",
+            "german": "Seit der Gründung dieser Organisation sind dieses Jahr fünfzig Jahre vergangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244152312",
+            "patterns": [
+              0
+            ],
+            "finding": "発足 / ホッソク; 名詞/普通名詞/サ変可能/*; *; *; lemma 発足; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "発足",
+              "reading": "ほっそく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "発足 as \"Gründung, Start (einer Organisation)\"."
+            }
+          }
+        ]
+      },
+      "5135": {
+        "word": "ほっと",
+        "reading": "ほっと",
+        "romaji": "hotto",
+        "meaning": "erleichtert (aufatmen)",
+        "type": "Adverb",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Meist ほっとする: erleichtert sein, aufatmen. ほっと一息つく = kurz verschnaufen. Nicht verwechseln mit ホット (heiß).",
+        "examples": [
+          {
+            "japanese": "試験に合格したと聞いて、ほっとした。",
+            "romaji": "Shiken ni goukaku shita to kiite, hotto shita.",
+            "german": "Als ich hörte, dass ich die Prüfung bestanden hatte, war ich erleichtert."
+          },
+          {
+            "japanese": "子どもが無事に帰ってきて、母親はほっと胸をなで下ろした。",
+            "romaji": "Kodomo ga buji ni kaette kite, hahaoya wa hotto mune o nadeoroshita.",
+            "german": "Als das Kind wohlbehalten zurückkam, atmete die Mutter erleichtert auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244195782",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "ほっと / ホット; 副詞/*/*/*; *; *; lemma ほっと; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ほっと",
+              "reading": "ほっと",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ほっと as \"erleichtert (aufatmen)\"."
+            }
+          }
+        ]
+      },
+      "5136": {
+        "word": "ホット",
+        "reading": "ホット",
+        "romaji": "hotto",
+        "meaning": "heiß; heißer Kaffee",
+        "type": "Adjektiv",
+        "category": "Essen",
+        "level": "N1",
+        "notes": "Vor allem für warme Getränke: ホットコーヒー; im Café kurz ホット (heißer Kaffee) im Gegensatz zu アイス. Nicht verwechseln mit ほっと (erleichtert).",
+        "examples": [
+          {
+            "japanese": "「コーヒーはホットとアイス、どちらになさいますか。」「ホットでお願いします。」",
+            "romaji": "\"Koohii wa hotto to aisu, dochira ni nasaimasu ka.\" \"Hotto de onegai shimasu.\"",
+            "german": "„Möchten Sie den Kaffee heiß oder mit Eis?“ – „Heiß, bitte.“"
+          },
+          {
+            "japanese": "寒い日は、ホットのミルクティーが飲みたくなる。",
+            "romaji": "Samui hi wa, hotto no miruku tii ga nomitaku naru.",
+            "german": "An kalten Tagen habe ich Lust auf heißen Milchtee."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244196822",
+            "patterns": [
+              1
+            ],
+            "finding": "ホット / ホット; 名詞/普通名詞/形状詞可能/*; *; *; lemma ホット-hot; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ホット",
+              "reading": "ホット",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "ホット as \"heiß; heißer Kaffee\"."
+            }
+          }
+        ]
+      },
+      "5137": {
+        "word": "ポット",
+        "reading": "ポット",
+        "romaji": "potto",
+        "meaning": "Kanne; Thermoskanne",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Tee- oder Kaffeekanne (ティーポット) und im japanischen Haushalt oft die elektrische Heißwasserkanne (電気ポット) bzw. Thermoskanne.",
+        "examples": [
+          {
+            "japanese": "ポットにお湯が入っているから、自由にお茶を飲んでね。",
+            "romaji": "Potto ni oyu ga haitte iru kara, jiyuu ni ocha o nonde ne.",
+            "german": "In der Thermoskanne ist heißes Wasser, bedien dich ruhig mit Tee."
+          },
+          {
+            "japanese": "紅茶の葉をポットに入れて、三分待った。",
+            "romaji": "Koucha no ha o potto ni irete, sanpun matta.",
+            "german": "Ich gab die Teeblätter in die Kanne und wartete drei Minuten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246778382",
+            "patterns": [
+              1
+            ],
+            "finding": "ポット / ポット; 名詞/普通名詞/一般/*; *; *; lemma ポット-pot; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ポット",
+              "reading": "ポット",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ポット as \"Kanne; Thermoskanne\"."
+            }
+          }
+        ]
+      },
+      "5138": {
+        "word": "ほっぺた",
+        "reading": "ほっぺた",
+        "romaji": "hoppeta",
+        "meaning": "Backe, Wange (umgangssprachlich)",
+        "type": "Nomen",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Umgangssprachlich für 頬【ほお】, meist in Kana; kindersprachlich auch ほっぺ. ほっぺたが落ちる = so lecker, dass einem die Backen herunterfallen.",
+        "examples": [
+          {
+            "japanese": "赤ちゃんのほっぺたはとてもやわらかい。",
+            "romaji": "Akachan no hoppeta wa totemo yawarakai.",
+            "german": "Babybacken sind ganz weich."
+          },
+          {
+            "japanese": "このケーキ、ほっぺたが落ちるほどおいしい！",
+            "romaji": "Kono keeki, hoppeta ga ochiru hodo oishii!",
+            "german": "Dieser Kuchen ist zum Niederknien lecker!"
+          }
+        ],
+        "aliases": [
+          "頬っぺた"
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244205370",
+            "patterns": [
+              3
+            ],
+            "finding": "ほっぺた / ホッペタ; 名詞/普通名詞/一般/*; *; *; lemma 頬っぺた; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ほっぺた",
+              "reading": "ほっぺた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ほっぺた as \"Backe, Wange (umgangssprachlich)\"."
+            }
+          }
+        ]
+      },
+      "5139": {
+        "word": "ぼつぼつ",
+        "reading": "ぼつぼつ",
+        "romaji": "botsubotsu",
+        "meaning": "allmählich, nach und nach; so langsam (Zeit für etwas)",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Wie ぼちぼち: langsam, aber stetig (ぼつぼつ客が来始めた) oder „so langsam“, wenn es Zeit für etwas wird: ぼつぼつ帰ろうか. Als Nomen auch „Pünktchen, Pickel“.",
+        "examples": [
+          {
+            "japanese": "開店して一時間たつと、ぼつぼつ客が入り始めた。",
+            "romaji": "Kaiten shite ichijikan tatsu to, botsubotsu kyaku ga hairihajimeta.",
+            "german": "Eine Stunde nach der Öffnung kamen nach und nach die ersten Kunden."
+          },
+          {
+            "japanese": "もう遅いから、ぼつぼつ帰りましょうか。",
+            "romaji": "Mou osoi kara, botsubotsu kaerimashou ka.",
+            "german": "Es ist schon spät, sollen wir uns so langsam auf den Heimweg machen?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246345890",
+            "patterns": [
+              0
+            ],
+            "finding": "ぼつぼつ / ボツボツ; 副詞/*/*/*; *; *; lemma ぼつぼつ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぼつぼつ",
+              "reading": "ぼつぼつ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ぼつぼつ as \"allmählich, nach und nach; so langsam (Zeit für etwas)\"."
+            }
+          }
+        ]
+      },
+      "5140": {
+        "word": "ぼやく",
+        "reading": "ぼやく",
+        "romaji": "boyaku",
+        "meaning": "murren, meckern, jammern",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Umgangssprachlich: halblaut und eher resigniert über etwas klagen, oft über Kleinigkeiten: 仕事が多いとぼやく.",
+        "examples": [
+          {
+            "japanese": "父は「最近、物価が高すぎる」とぼやいている。",
+            "romaji": "Chichi wa \"saikin, bukka ga takasugiru\" to boyaite iru.",
+            "german": "Mein Vater jammert, dass in letzter Zeit alles viel zu teuer ist."
+          },
+          {
+            "japanese": "ぼやいてばかりいないで、少しは手伝ってよ。",
+            "romaji": "Boyaite bakari inaide, sukoshi wa tetsudatte yo.",
+            "german": "Hör auf zu meckern und hilf lieber ein bisschen mit!"
+          }
+        ],
+        "pitch": 2,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ぼやく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ぼやく",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246411555",
+            "patterns": [
+              2
+            ],
+            "finding": "ぼやく / ボヤク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma ぼやく; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぼやく",
+              "reading": "ぼやく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "ぼやく as \"murren, meckern, jammern\"."
+            }
+          }
+        ]
+      },
+      "5141": {
+        "word": "ぼやける",
+        "reading": "ぼやける",
+        "romaji": "boyakeru",
+        "meaning": "verschwimmen, unscharf werden",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Intransitiv: Umrisse, Bilder oder Erinnerungen werden undeutlich: 写真がぼやける, 記憶がぼやける.",
+        "examples": [
+          {
+            "japanese": "眼鏡を外すと、文字がぼやけて読めない。",
+            "romaji": "Megane o hazusu to, moji ga boyakete yomenai.",
+            "german": "Ohne Brille verschwimmen die Buchstaben, und ich kann sie nicht lesen."
+          },
+          {
+            "japanese": "手が動いたせいで、写真がぼやけてしまった。",
+            "romaji": "Te ga ugoita sei de, shashin ga boyakete shimatta.",
+            "german": "Weil meine Hand gewackelt hat, ist das Foto unscharf geworden."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "ぼやける",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ぼやける",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246431546",
+            "patterns": [
+              3
+            ],
+            "finding": "ぼやける / ボヤケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma ぼやける; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぼやける",
+              "reading": "ぼやける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "ぼやける as \"verschwimmen, unscharf werden\"."
+            }
+          }
+        ]
+      },
+      "5142": {
+        "word": "保養",
+        "reading": "ほよう",
+        "romaji": "hoyou",
+        "meaning": "Erholung, Kur",
+        "type": "Nomen",
+        "category": "Gesundheit",
+        "level": "N1",
+        "notes": "Erholung für Körper und Geist: 温泉で保養する, 保養地 (Kurort). Redensart: 目の保養 (eine Augenweide).",
+        "examples": [
+          {
+            "japanese": "祖母は毎年、温泉地で一週間ほど保養している。",
+            "romaji": "Sobo wa maitoshi, onsenchi de isshuukan hodo hoyou shite iru.",
+            "german": "Meine Großmutter erholt sich jedes Jahr etwa eine Woche in einem Thermalbadeort."
+          },
+          {
+            "japanese": "きれいな庭を見て、いい目の保養になった。",
+            "romaji": "Kirei na niwa o mite, ii me no hoyou ni natta.",
+            "german": "Der schöne Garten war eine wahre Augenweide."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244960470",
+            "patterns": [
+              0
+            ],
+            "finding": "保養 / ホヨウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 保養; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "保養",
+              "reading": "ほよう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "保養 as \"Erholung, Kur\"."
+            }
+          }
+        ]
+      },
+      "5143": {
+        "word": "ホール",
+        "reading": "ホール",
+        "romaji": "hooru",
+        "meaning": "Halle, Saal; Gastraum (im Restaurant)",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Großer Saal für Veranstaltungen: コンサートホール. In der Gastronomie der Gastraum; wer dort bedient, arbeitet in der ホール (im Gegensatz zur Küche). Gleich lautend: ホール (Loch beim Golf).",
+        "examples": [
+          {
+            "japanese": "卒業式は市のホールで行われた。",
+            "romaji": "Sotsugyoushiki wa shi no hooru de okonawareta.",
+            "german": "Die Abschlussfeier fand in der städtischen Halle statt."
+          },
+          {
+            "japanese": "レストランのアルバイトで、キッチンではなくホールを担当している。",
+            "romaji": "Resutoran no arubaito de, kitchin de wa naku hooru o tantou shite iru.",
+            "german": "In meinem Nebenjob im Restaurant arbeite ich nicht in der Küche, sondern im Service."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245894206",
+            "patterns": [
+              1
+            ],
+            "finding": "ホール / ホール; 名詞/普通名詞/一般/*; *; *; lemma ホール-hall; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ホール",
+              "reading": "ホール",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ホール as \"Halle, Saal; Gastraum (im Restaurant)\"."
+            }
+          }
+        ]
+      },
+      "5144": {
+        "word": "ボルト",
+        "reading": "ボルト",
+        "romaji": "boruto",
+        "meaning": "Volt",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Maßeinheit der elektrischen Spannung: 百ボルト. In Japan liefern Haushaltssteckdosen 100 Volt. Gleich lautend, aber ein anderes Wort: ボルト (Schraubenbolzen).",
+        "examples": [
+          {
+            "japanese": "日本の家庭用コンセントの電圧は百ボルトだ。",
+            "romaji": "Nihon no kateiyou konsento no den'atsu wa hyaku boruto da.",
+            "german": "Haushaltssteckdosen in Japan haben eine Spannung von 100 Volt."
+          },
+          {
+            "japanese": "この充電器は二百四十ボルトまで対応している。",
+            "romaji": "Kono juudenki wa nihyaku yonjuu boruto made taiou shite iru.",
+            "german": "Dieses Ladegerät ist für bis zu 240 Volt ausgelegt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246495314",
+            "patterns": [
+              1
+            ],
+            "finding": "ボルト / ボルト; 名詞/普通名詞/助数詞可能/*; *; *; lemma ボルト-volt; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ボルト",
+              "reading": "ボルト",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "ボルト as \"Volt\"."
+            }
+          }
+        ]
+      },
+      "5145": {
+        "word": "本国",
+        "reading": "ほんごく",
+        "romaji": "hongoku",
+        "meaning": "Heimatland, Herkunftsland",
+        "type": "Nomen",
+        "category": "Politik",
+        "level": "N1",
+        "notes": "Das eigene Land, vor allem aus Sicht von Diplomaten, Firmen oder Menschen im Ausland: 本国の政府, 本国に戻る. Vgl. 母国 (Heimatland, persönlicher).",
+        "examples": [
+          {
+            "japanese": "大使は本国の政府と連絡を取った。",
+            "romaji": "Taishi wa hongoku no seifu to renraku o totta.",
+            "german": "Der Botschafter setzte sich mit der Regierung seines Heimatlandes in Verbindung."
+          },
+          {
+            "japanese": "その会社は日本から撤退し、社員は本国に戻った。",
+            "romaji": "Sono kaisha wa Nihon kara tettai shi, shain wa hongoku ni modotta.",
+            "german": "Das Unternehmen zog sich aus Japan zurück, und die Mitarbeiter kehrten in ihr Heimatland zurück."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245765210",
+            "patterns": [
+              1
+            ],
+            "finding": "本国 / ホンゴク; 名詞/普通名詞/一般/*; *; *; lemma 本国; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "本国",
+              "reading": "ほんごく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "本国 as \"Heimatland, Herkunftsland\"."
+            }
+          }
+        ]
+      },
+      "5146": {
+        "word": "本体",
+        "reading": "ほんたい",
+        "romaji": "hontai",
+        "meaning": "Hauptteil, eigentliches Gerät (ohne Zubehör)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Das eigentliche Gerät im Gegensatz zu Zubehör oder Verpackung: パソコン本体. 本体価格 = Preis ohne Steuer. Weitere Bedeutungen: „wahre Gestalt, eigentliches Wesen“ (本体を現す, seine wahre Gestalt zeigen) und das Hauptkultobjekt, das in einem Schrein oder Tempel verehrt wird.",
+        "examples": [
+          {
+            "japanese": "箱の中には本体と説明書しか入っていなかった。",
+            "romaji": "Hako no naka ni wa hontai to setsumeisho shika haitte inakatta.",
+            "german": "In der Schachtel waren nur das Gerät selbst und die Anleitung."
+          },
+          {
+            "japanese": "カメラの本体は軽いが、レンズがかなり重い。",
+            "romaji": "Kamera no hontai wa karui ga, renzu ga kanari omoi.",
+            "german": "Das Kameragehäuse ist leicht, aber das Objektiv ist ziemlich schwer."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245797323",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "本体 / ホンタイ; 名詞/普通名詞/一般/*; *; *; lemma 本体; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "本体",
+              "reading": "ほんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "本体 as \"Hauptteil, eigentliches Gerät (ohne Zubehör)\"."
+            }
+          }
+        ]
+      },
+      "5147": {
+        "word": "本場",
+        "reading": "ほんば",
+        "romaji": "honba",
+        "meaning": "Heimat, Ursprungsort (eines Produkts, einer Kultur)",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Der Ort, wo etwas herkommt oder am besten gemacht wird: 本場のイタリア料理 (echte italienische Küche), 本場の英語.",
+        "examples": [
+          {
+            "japanese": "本場のフランス料理を食べに、パリへ行った。",
+            "romaji": "Honba no Furansu ryouri o tabe ni, Pari e itta.",
+            "german": "Ich bin nach Paris gefahren, um echte französische Küche zu essen."
+          },
+          {
+            "japanese": "彼は本場で料理を学ぶためにイタリアに渡った。",
+            "romaji": "Kare wa honba de ryouri o manabu tame ni Itaria ni watatta.",
+            "german": "Er ging nach Italien, um das Kochen direkt an der Quelle zu lernen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245827798",
+            "patterns": [
+              0
+            ],
+            "finding": "本場 / ホンバ; 名詞/普通名詞/一般/*; *; *; lemma 本場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "本場",
+              "reading": "ほんば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "本場 as \"Heimat, Ursprungsort (eines Produkts, einer Kultur)\"."
+            }
+          }
+        ]
+      },
+      "5148": {
+        "word": "ポンプ",
+        "reading": "ポンプ",
+        "romaji": "ponpu",
+        "meaning": "Pumpe",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Gerät zum Fördern von Flüssigkeiten oder Luft: ポンプで水をくみ上げる (Wasser hochpumpen).",
+        "examples": [
+          {
+            "japanese": "井戸の水をポンプでくみ上げている。",
+            "romaji": "Ido no mizu o ponpu de kumiagete iru.",
+            "german": "Das Brunnenwasser wird mit einer Pumpe hochgepumpt."
+          },
+          {
+            "japanese": "自転車のタイヤにポンプで空気を入れた。",
+            "romaji": "Jitensha no taiya ni ponpu de kuuki o ireta.",
+            "german": "Ich habe mit der Pumpe Luft in den Fahrradreifen gepumpt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246958133",
+            "patterns": [
+              1
+            ],
+            "finding": "ポンプ / ポンプ; 名詞/普通名詞/一般/*; *; *; lemma ポンプ-pomp; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ポンプ",
+              "reading": "ポンプ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ポンプ as \"Pumpe\"."
+            }
+          }
+        ]
+      },
+      "5149": {
+        "word": "埋蔵",
+        "reading": "まいぞう",
+        "romaji": "maizou",
+        "meaning": "Vergraben; (unterirdische) Vorkommen",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "Als Verb 埋蔵する, meist passiv: 石油が埋蔵されている (es gibt Ölvorkommen). 埋蔵量 = Reserven, 埋蔵金 = vergrabener Schatz.",
+        "examples": [
+          {
+            "japanese": "この地域の地下には大量の天然ガスが埋蔵されている。",
+            "romaji": "Kono chiiki no chika ni wa tairyou no tennen gasu ga maizou sarete iru.",
+            "german": "Unter dieser Region lagern große Mengen Erdgas."
+          },
+          {
+            "japanese": "この城には、昔の殿様が小判を埋蔵したという伝説がある。",
+            "romaji": "Kono shiro ni wa, mukashi no tonosama ga koban o maizou shita to iu densetsu ga aru.",
+            "german": "Um diese Burg rankt sich die Legende, ein früherer Fürst habe hier Goldmünzen vergraben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247297201",
+            "patterns": [
+              0
+            ],
+            "finding": "埋蔵 / マイゾウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 埋蔵; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "埋蔵",
+              "reading": "まいぞう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "埋蔵 as \"Vergraben; (unterirdische) Vorkommen\"."
+            }
+          }
+        ]
+      },
+      "5150": {
+        "word": "真上",
+        "reading": "まうえ",
+        "romaji": "maue",
+        "meaning": "direkt über, genau darüber",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N1",
+        "notes": "Genau senkrecht über etwas: 頭の真上. Gegenteil: 真下.",
+        "examples": [
+          {
+            "japanese": "棚の真上に時計が掛かっている。",
+            "romaji": "Tana no maue ni tokei ga kakatte iru.",
+            "german": "Direkt über dem Regal hängt eine Uhr."
+          },
+          {
+            "japanese": "飛行機が家の真上を飛んでいった。",
+            "romaji": "Hikouki ga ie no maue o tonde itta.",
+            "german": "Ein Flugzeug flog direkt über unser Haus hinweg."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247561765",
+            "patterns": [
+              3
+            ],
+            "finding": "真上 / マウエ; 名詞/普通名詞/一般/*; *; *; lemma 真上; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真上",
+              "reading": "まうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "真上 as \"direkt über, genau darüber\"."
+            }
+          }
+        ]
+      },
+      "5151": {
+        "word": "前売り",
+        "reading": "まえうり",
+        "romaji": "maeuri",
+        "meaning": "Vorverkauf",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N1",
+        "notes": "Verkauf von Eintrittskarten vor dem Veranstaltungstag: 前売り券 (Vorverkaufskarte), 前売りで買う. Oft günstiger als Karten am Veranstaltungstag (当日券).",
+        "examples": [
+          {
+            "japanese": "コンサートのチケットは前売りで買うと五百円安い。",
+            "romaji": "Konsaato no chiketto wa maeuri de kau to gohyaku en yasui.",
+            "german": "Konzertkarten sind im Vorverkauf 500 Yen billiger."
+          },
+          {
+            "japanese": "人気の映画なので、前売りはもう売り切れていた。",
+            "romaji": "Ninki no eiga na node, maeuri wa mou urikirete ita.",
+            "german": "Weil der Film so beliebt ist, war der Vorverkauf schon ausverkauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247584097",
+            "patterns": [
+              0
+            ],
+            "finding": "前売り / マエウリ; 名詞/普通名詞/サ変可能/*; *; *; lemma 前売り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前売り",
+              "reading": "まえうり",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "前売り as \"Vorverkauf\"."
+            }
+          }
+        ]
+      },
+      "5152": {
+        "word": "前置き",
+        "reading": "まえおき",
+        "romaji": "maeoki",
+        "meaning": "Vorrede, Einleitung",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Einleitende Worte vor dem eigentlichen Thema: 前置きが長い (weitschweifig einleiten). Als Verb 前置きする.",
+        "examples": [
+          {
+            "japanese": "前置きはこのくらいにして、本題に入りましょう。",
+            "romaji": "Maeoki wa kono kurai ni shite, hondai ni hairimashou.",
+            "german": "Genug der Vorrede, kommen wir zur Sache."
+          },
+          {
+            "japanese": "校長先生の話は前置きが長くて、みんな退屈していた。",
+            "romaji": "Kouchou sensei no hanashi wa maeoki ga nagakute, minna taikutsu shite ita.",
+            "german": "Die Rede des Schulleiters hatte eine so lange Einleitung, dass sich alle langweilten."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247585306",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "前置き / マエオキ; 名詞/普通名詞/サ変可能/*; *; *; lemma 前置き; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "前置き",
+              "reading": "まえおき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "前置き as \"Vorrede, Einleitung\"."
+            }
+          }
+        ]
+      },
+      "5153": {
+        "word": "負かす",
+        "reading": "まかす",
+        "romaji": "makasu",
+        "meaning": "besiegen, schlagen",
+        "type": "Verb",
+        "category": "Sport",
+        "level": "N1",
+        "notes": "Transitiv zu 負ける: jemanden besiegen: 相手を負かす. Nicht verwechseln mit 任す (anvertrauen).",
+        "examples": [
+          {
+            "japanese": "弟は将棋で父を負かして大喜びだった。",
+            "romaji": "Otouto wa shougi de chichi o makashite ooyorokobi datta.",
+            "german": "Mein kleiner Bruder hat unseren Vater im Shogi besiegt und war überglücklich."
+          },
+          {
+            "japanese": "去年負けた相手を、今年は見事に負かした。",
+            "romaji": "Kyonen maketa aite o, kotoshi wa migoto ni makashita.",
+            "german": "Den Gegner, gegen den wir letztes Jahr verloren hatten, haben wir dieses Jahr klar geschlagen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "まかす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まかす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247654710",
+            "patterns": [
+              0
+            ],
+            "finding": "負かす / マカス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 負かす; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "負かす",
+              "reading": "まかす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "負かす as \"besiegen, schlagen\"."
+            }
+          }
+        ]
+      },
+      "5154": {
+        "word": "マーク",
+        "reading": "マーク",
+        "romaji": "maaku",
+        "meaning": "Zeichen, Symbol, Logo; markieren",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Als Nomen ein Zeichen oder Logo (星のマーク); als Verb マークする: etwas markieren oder anstreichen. Im Sport auch „einen Gegenspieler decken“.",
+        "examples": [
+          {
+            "japanese": "大事なところに赤でマークを付けておいた。",
+            "romaji": "Daiji na tokoro ni aka de maaku o tsukete oita.",
+            "german": "Ich habe die wichtigen Stellen rot markiert."
+          },
+          {
+            "japanese": "この店のマークは青い鳥だ。",
+            "romaji": "Kono mise no maaku wa aoi tori da.",
+            "german": "Das Logo dieses Ladens ist ein blauer Vogel."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253329922",
+            "patterns": [
+              1
+            ],
+            "finding": "マーク / マーク; 名詞/普通名詞/サ変可能/*; *; *; lemma マーク-mark; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "マーク",
+              "reading": "マーク",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "マーク as \"Zeichen, Symbol, Logo; markieren\"."
+            }
+          }
+        ]
+      },
+      "5155": {
+        "word": "膜",
+        "reading": "まく",
+        "romaji": "maku",
+        "meaning": "Membran, Häutchen, Film",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "Dünne Schicht oder Haut: 細胞膜 (Zellmembran); auf warmer Milch bildet sich ein 膜. Gleich klingend: 幕 (Vorhang), 巻く (wickeln).",
+        "examples": [
+          {
+            "japanese": "温めた牛乳の表面に薄い膜ができた。",
+            "romaji": "Atatameta gyuunyuu no hyoumen ni usui maku ga dekita.",
+            "german": "Auf der erhitzten Milch bildete sich eine dünne Haut."
+          },
+          {
+            "japanese": "細胞は薄い膜に包まれている。",
+            "romaji": "Saibou wa usui maku ni tsutsumarete iru.",
+            "german": "Zellen sind von einer dünnen Membran umhüllt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@248930354",
+            "patterns": [
+              2
+            ],
+            "finding": "膜 / マク; 名詞/普通名詞/一般/*; *; *; lemma 膜; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "膜",
+              "reading": "まく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "膜 as \"Membran, Häutchen, Film\"."
+            }
+          }
+        ]
+      },
+      "5156": {
+        "word": "まくる",
+        "reading": "まくる",
+        "romaji": "makuru",
+        "meaning": "hochkrempeln; (nach Verbstamm) wie wild …, ohne Ende …",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Meist in Kana: 袖をまくる (die Ärmel hochkrempeln). Nach dem Masu-Stamm umgangssprachlich für exzessives Tun: 食べまくる (ohne Ende essen), 買いまくる. Die Kanji-Schreibung 捲る wird auch めくる (umblättern) gelesen.",
+        "examples": [
+          {
+            "japanese": "彼は袖をまくって、皿を洗い始めた。",
+            "romaji": "Kare wa sode o makutte, sara o araihajimeta.",
+            "german": "Er krempelte die Ärmel hoch und fing an, das Geschirr zu spülen."
+          },
+          {
+            "japanese": "旅行中は毎日おいしいものを食べまくった。",
+            "romaji": "Ryokouchuu wa mainichi oishii mono o tabemakutta.",
+            "german": "Auf der Reise habe ich jeden Tag ohne Ende leckere Sachen gegessen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "まくる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まくる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249087671",
+            "patterns": [
+              0
+            ],
+            "finding": "まくる / マクル; 動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般; lemma 捲る; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まくる",
+              "reading": "まくる",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "まくる as \"hochkrempeln; (nach Verbstamm) wie wild …, ohne Ende …\"."
+            }
+          }
+        ]
+      },
+      "5157": {
+        "word": "真心",
+        "reading": "まごころ",
+        "romaji": "magokoro",
+        "meaning": "Aufrichtigkeit, von Herzen kommende Hingabe",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Ehrliche, herzliche Gesinnung: 真心を込めて (mit ganzem Herzen). Lesung まごころ; die Lesung まこころ ist veraltet.",
+        "examples": [
+          {
+            "japanese": "母は真心を込めて、手紙を書いた。",
+            "romaji": "Haha wa magokoro o komete, tegami o kaita.",
+            "german": "Meine Mutter schrieb den Brief mit ganzem Herzen."
+          },
+          {
+            "japanese": "彼女の真心のこもった看病のおかげで、父は元気になった。",
+            "romaji": "Kanojo no magokoro no komotta kanbyou no okage de, chichi wa genki ni natta.",
+            "german": "Dank ihrer liebevollen, aufopfernden Pflege wurde mein Vater wieder gesund."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249328372",
+            "patterns": [
+              2
+            ],
+            "finding": "真心 / マゴコロ; 名詞/普通名詞/一般/*; *; *; lemma 真心; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真心",
+              "reading": "まごころ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "真心 as \"Aufrichtigkeit, von Herzen kommende Hingabe\"."
+            }
+          }
+        ]
+      },
+      "5158": {
+        "word": "まごつく",
+        "reading": "まごつく",
+        "romaji": "magotsuku",
+        "meaning": "verwirrt sein, nicht zurechtkommen",
+        "type": "Verb",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Intransitiv, umgangssprachlich: unsicher werden und nicht wissen, was zu tun ist, etwa in fremder Umgebung: 初めての駅でまごつく. Synonym: 戸惑う.",
+        "examples": [
+          {
+            "japanese": "初めて東京駅に行ったとき、出口が多くてまごついた。",
+            "romaji": "Hajimete Toukyou eki ni itta toki, deguchi ga ookute magotsuita.",
+            "german": "Als ich zum ersten Mal am Bahnhof Tokio war, kam ich mit den vielen Ausgängen nicht zurecht."
+          },
+          {
+            "japanese": "急に英語で質問されて、店員はまごついていた。",
+            "romaji": "Kyuu ni eigo de shitsumon sarete, ten'in wa magotsuite ita.",
+            "german": "Der Verkäufer war verunsichert, als er plötzlich auf Englisch angesprochen wurde."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "まごつく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まごつく",
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249339611",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "まごつく / マゴツク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma まごつく; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まごつく",
+              "reading": "まごつく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "まごつく as \"verwirrt sein, nicht zurechtkommen\"."
+            }
+          }
+        ]
+      },
+      "5159": {
+        "word": "まさしく",
+        "reading": "まさしく",
+        "romaji": "masashiku",
+        "meaning": "zweifellos, genau, tatsächlich",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Bekräftigt nachdrücklich, ähnlich wie まさに: まさしくその通り (ganz genau so). Meist in Kana; die Kanji-Schreibung 正しく wird sonst ただしく gelesen.",
+        "examples": [
+          {
+            "japanese": "これはまさしく私がなくした財布だ。",
+            "romaji": "Kore wa masashiku watashi ga nakushita saifu da.",
+            "german": "Das ist zweifellos das Portemonnaie, das ich verloren habe."
+          },
+          {
+            "japanese": "彼の言うことは、まさしくその通りだと思う。",
+            "romaji": "Kare no iu koto wa, masashiku sono toori da to omou.",
+            "german": "Ich finde, was er sagt, trifft genau zu."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249439492",
+            "patterns": [
+              2
+            ],
+            "finding": "まさしく / マサシク; 副詞/*/*/*; *; *; lemma 正しく; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まさしく",
+              "reading": "まさしく",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まさしく as \"zweifellos, genau, tatsächlich\"."
+            }
+          }
+        ]
+      },
+      "5160": {
+        "word": "まし",
+        "reading": "まし",
+        "romaji": "mashi",
+        "meaning": "besser (als etwas anderes), das kleinere Übel",
+        "type": "Adjektiv",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "な-Adjektiv, meist in Kana: AよりBの方がましだ (B ist immer noch besser als A). Drückt aus, dass etwas nicht gut, aber weniger schlecht ist. Als Suffix 〜増し auch „Aufschlag“: 二割増し (20 % mehr).",
+        "examples": [
+          {
+            "japanese": "何もしないより、少しでもやった方がましだ。",
+            "romaji": "Nani mo shinai yori, sukoshi demo yatta hou ga mashi da.",
+            "german": "Ein bisschen zu tun ist immer noch besser, als gar nichts zu tun."
+          },
+          {
+            "japanese": "昨日よりはましだけど、まだ頭が痛い。",
+            "romaji": "Kinou yori wa mashi dakedo, mada atama ga itai.",
+            "german": "Es ist zwar besser als gestern, aber ich habe immer noch Kopfschmerzen."
+          }
+        ],
+        "aliases": [
+          "増し"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249662439",
+            "patterns": [
+              0
+            ],
+            "finding": "まし / マシ; 形状詞/一般/*/*; *; *; lemma 増し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まし",
+              "reading": "まし",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "まし as \"besser (als etwas anderes), das kleinere Übel\"."
+            }
+          }
+        ]
+      },
+      "5161": {
+        "word": "交える",
+        "reading": "まじえる",
+        "romaji": "majieru",
+        "meaning": "einbeziehen, einflechten; (Worte) wechseln",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv, eher förmlich: 冗談を交えて話す (mit Scherzen gespickt sprechen), 専門家を交えて議論する (unter Beteiligung von Fachleuten diskutieren), 言葉を交える (ein paar Worte wechseln).",
+        "examples": [
+          {
+            "japanese": "先生は冗談を交えながら、わかりやすく説明してくれた。",
+            "romaji": "Sensei wa joudan o majienagara, wakariyasuku setsumei shite kureta.",
+            "german": "Der Lehrer erklärte es verständlich und streute dabei Witze ein."
+          },
+          {
+            "japanese": "会議では、外部の専門家を交えて話し合った。",
+            "romaji": "Kaigi de wa, gaibu no senmonka o majiete hanashiatta.",
+            "german": "In der Sitzung berieten wir unter Einbeziehung externer Fachleute."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "まじえる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まじえる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249726733",
+            "patterns": [
+              3
+            ],
+            "finding": "交える / マジエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 交える; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "交える",
+              "reading": "まじえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "交える as \"einbeziehen, einflechten; (Worte) wechseln\"."
+            }
+          }
+        ]
+      },
+      "5162": {
+        "word": "真下",
+        "reading": "ました",
+        "romaji": "mashita",
+        "meaning": "direkt unter, genau darunter",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N1",
+        "notes": "Genau senkrecht unter etwas: 橋の真下. Gegenteil: 真上.",
+        "examples": [
+          {
+            "japanese": "私の部屋の真下はコンビニになっている。",
+            "romaji": "Watashi no heya no mashita wa konbini ni natte iru.",
+            "german": "Direkt unter meiner Wohnung ist ein Convenience-Store."
+          },
+          {
+            "japanese": "橋の真下で雨宿りをした。",
+            "romaji": "Hashi no mashita de amayadori o shita.",
+            "german": "Ich habe direkt unter der Brücke vor dem Regen Schutz gesucht."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249674366",
+            "patterns": [
+              3
+            ],
+            "finding": "真下 / マシタ; 名詞/普通名詞/一般/*; *; *; lemma 真下; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真下",
+              "reading": "ました",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "真下 as \"direkt unter, genau darunter\"."
+            }
+          }
+        ]
+      },
+      "5163": {
+        "word": "まして",
+        "reading": "まして",
+        "romaji": "mashite",
+        "meaning": "erst recht, geschweige denn",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "Steigert einen Vergleich: Wenn schon A (nicht) so ist, dann B erst recht (nicht): 大人でも難しいのに、まして子どもには無理だ. Meist in Kana.",
+        "examples": [
+          {
+            "japanese": "日本人でも難しい漢字なのだから、まして外国人には読めないだろう。",
+            "romaji": "Nihonjin demo muzukashii kanji na no dakara, mashite gaikokujin ni wa yomenai darou.",
+            "german": "Wenn das Kanji schon für Japaner schwer ist, können Ausländer es erst recht nicht lesen."
+          },
+          {
+            "japanese": "平日でも混んでいるのだから、まして週末はすごい人だろう。",
+            "romaji": "Heijitsu demo konde iru no dakara, mashite shuumatsu wa sugoi hito darou.",
+            "german": "Wenn es schon unter der Woche so voll ist, wird am Wochenende erst recht die Hölle los sein."
+          }
+        ],
+        "aliases": [
+          "況して"
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249674706",
+            "patterns": [
+              1
+            ],
+            "finding": "まして / マシテ; 副詞/*/*/*; *; *; lemma 況して; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まして",
+              "reading": "まして",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まして as \"erst recht, geschweige denn\"."
+            }
+          }
+        ]
+      },
+      "5164": {
+        "word": "マスコミ",
+        "reading": "マスコミ",
+        "romaji": "masukomi",
+        "meaning": "Massenmedien, die Presse",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Kurzform von マスコミュニケーション; im Alltag die Medien insgesamt, oft mit kritischem Unterton: マスコミに騒がれる. Neutraler: メディア, 報道機関.",
+        "examples": [
+          {
+            "japanese": "事件の後、家の前にマスコミが大勢集まった。",
+            "romaji": "Jiken no ato, ie no mae ni masukomi ga oozei atsumatta.",
+            "german": "Nach dem Vorfall versammelten sich zahlreiche Journalisten vor dem Haus."
+          },
+          {
+            "japanese": "その俳優の結婚はマスコミで大きく報道された。",
+            "romaji": "Sono haiyuu no kekkon wa masukomi de ookiku houdou sareta.",
+            "german": "Über die Hochzeit des Schauspielers wurde in den Medien ausführlich berichtet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249987295",
+            "patterns": [
+              0
+            ],
+            "finding": "マスコミ / マスコミ; 名詞/普通名詞/一般/*; *; *; lemma マスコミ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "マスコミ",
+              "reading": "マスコミ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "マスコミ as \"Massenmedien, die Presse\"."
+            }
+          }
+        ]
+      },
+      "5165": {
+        "word": "またがる",
+        "reading": "またがる",
+        "romaji": "matagaru",
+        "meaning": "rittlings sitzen, aufsteigen; sich erstrecken über",
+        "type": "Verb",
+        "category": "Bewegung",
+        "level": "N1",
+        "notes": "Intransitiv, meist in Kana. Mit に: 馬にまたがる (auf ein Pferd steigen), 自転車にまたがる. Übertragen: sich über mehrere Bereiche erstrecken: 三県にまたがる山.",
+        "examples": [
+          {
+            "japanese": "彼は自転車にまたがって、坂を下りていった。",
+            "romaji": "Kare wa jitensha ni matagatte, saka o orite itta.",
+            "german": "Er schwang sich aufs Fahrrad und fuhr den Hang hinunter."
+          },
+          {
+            "japanese": "この国立公園は三つの県にまたがっている。",
+            "romaji": "Kono kokuritsu kouen wa mittsu no ken ni matagatte iru.",
+            "german": "Dieser Nationalpark erstreckt sich über drei Präfekturen."
+          }
+        ],
+        "aliases": [
+          "跨る"
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "またがる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "またがる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250341116",
+            "patterns": [
+              3
+            ],
+            "finding": "またがる / マタガル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 跨がる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "またがる",
+              "reading": "またがる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "またがる as \"rittlings sitzen, aufsteigen; sich erstrecken über\"."
+            }
+          }
+        ]
+      },
+      "5166": {
+        "word": "待ち合わせ",
+        "reading": "まちあわせ",
+        "romaji": "machiawase",
+        "meaning": "Verabredung, Treffen (an einem vereinbarten Ort)",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Das verabredete Treffen an einem Ort: 待ち合わせ場所 (Treffpunkt), 駅で待ち合わせをする. Verb: 待ち合わせる.",
+        "examples": [
+          {
+            "japanese": "友達と駅の前で待ち合わせをしている。",
+            "romaji": "Tomodachi to eki no mae de machiawase o shite iru.",
+            "german": "Ich bin mit einem Freund vor dem Bahnhof verabredet."
+          },
+          {
+            "japanese": "待ち合わせの時間に五分遅れてしまった。",
+            "romaji": "Machiawase no jikan ni gofun okurete shimatta.",
+            "german": "Ich bin fünf Minuten zu spät zum Treffen gekommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250501649",
+            "patterns": [
+              0
+            ],
+            "finding": "待ち合わせ / マチアワセ; 名詞/普通名詞/サ変可能/*; *; *; lemma 待ち合わせ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "待ち合わせ",
+              "reading": "まちあわせ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "待ち合わせ as \"Verabredung, Treffen (an einem vereinbarten Ort)\"."
+            }
+          }
+        ]
+      },
+      "5167": {
+        "word": "間違う",
+        "reading": "まちがう",
+        "romaji": "machigau",
+        "meaning": "sich irren, falsch sein; etwas falsch machen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Meist intransitiv: 答えが間違っている (die Antwort ist falsch). Häufig in 間違った (falsch) und 間違っても〜ない (auf keinen Fall). Für „etwas falsch machen, verwechseln“ ist 間違える gebräuchlicher.",
+        "examples": [
+          {
+            "japanese": "この計算はどこかが間違っている。",
+            "romaji": "Kono keisan wa dokoka ga machigatte iru.",
+            "german": "Irgendwo in dieser Rechnung steckt ein Fehler."
+          },
+          {
+            "japanese": "間違った情報をネットに書かないように気をつけよう。",
+            "romaji": "Machigatta jouhou o netto ni kakanai you ni ki o tsukeyou.",
+            "german": "Wir sollten darauf achten, keine falschen Informationen ins Netz zu stellen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "まちがう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まちがう",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250598500",
+            "patterns": [
+              3
+            ],
+            "finding": "間違う / マチガウ; 動詞/非自立可能/*/*; 五段-ワア行; 終止形-一般; lemma 間違う; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "間違う",
+              "reading": "まちがう",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "間違う as \"sich irren, falsch sein; etwas falsch machen\"."
+            }
+          }
+        ]
+      },
+      "5168": {
+        "word": "待ち遠しい",
+        "reading": "まちどおしい",
+        "romaji": "machidooshii",
+        "meaning": "sehnsüchtig erwartet; etwas kaum erwarten können",
+        "type": "Adjektiv",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "い-Adjektiv: Man kann etwas kaum erwarten: 夏休みが待ち遠しい. Das Subjekt ist das Erwartete, nicht die wartende Person.",
+        "examples": [
+          {
+            "japanese": "子どもたちはクリスマスが待ち遠しくてたまらない。",
+            "romaji": "Kodomotachi wa Kurisumasu ga machidooshikute tamaranai.",
+            "german": "Die Kinder können Weihnachten kaum erwarten."
+          },
+          {
+            "japanese": "遠くに住む孫に会える日が待ち遠しい。",
+            "romaji": "Tooku ni sumu mago ni aeru hi ga machidooshii.",
+            "german": "Ich kann den Tag kaum erwarten, an dem ich meine weit entfernt lebenden Enkel sehe."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250735466",
+            "patterns": [
+              5
+            ],
+            "finding": "待ち遠しい / マチドオシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 待ち遠しい; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "待ち遠しい",
+              "reading": "まちどおしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "待ち遠しい as \"sehnsüchtig erwartet; etwas kaum erwarten können\"."
+            }
+          }
+        ]
+      },
+      "5169": {
+        "word": "待ち望む",
+        "reading": "まちのぞむ",
+        "romaji": "machinozomu",
+        "meaning": "sehnlichst erwarten, herbeisehnen",
+        "type": "Verb",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Transitiv, schriftsprachlich: lange und sehnlich auf etwas warten: 平和を待ち望む. Oft 待ち望んでいた (lang ersehnt).",
+        "examples": [
+          {
+            "japanese": "村の人々は雨が降るのを待ち望んでいた。",
+            "romaji": "Mura no hitobito wa ame ga furu no o machinozonde ita.",
+            "german": "Die Dorfbewohner sehnten den Regen herbei."
+          },
+          {
+            "japanese": "待ち望んでいた新作のゲームが、ついに発売された。",
+            "romaji": "Machinozonde ita shinsaku no geemu ga, tsui ni hatsubai sareta.",
+            "german": "Das lang ersehnte neue Spiel ist endlich erschienen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "まちのぞむ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まちのぞむ",
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250766173",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "待ち望む / マチノゾム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 待ち望む; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "待ち望む",
+              "reading": "まちのぞむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "待ち望む as \"sehnlichst erwarten, herbeisehnen\"."
+            }
+          }
+        ]
+      },
+      "5170": {
+        "word": "まちまち",
+        "reading": "まちまち",
+        "romaji": "machimachi",
+        "meaning": "unterschiedlich, uneinheitlich",
+        "type": "Adjektiv",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "な-Adjektiv, meist in Kana (selten 区々): Meinungen, Angaben oder Eigenschaften gehen auseinander: 意見がまちまちだ.",
+        "examples": [
+          {
+            "japanese": "この問題については、専門家の意見もまちまちだ。",
+            "romaji": "Kono mondai ni tsuite wa, senmonka no iken mo machimachi da.",
+            "german": "Bei diesem Problem gehen auch die Meinungen der Fachleute auseinander."
+          },
+          {
+            "japanese": "参加者の年齢はまちまちで、十代から七十代までいた。",
+            "romaji": "Sankasha no nenrei wa machimachi de, juudai kara nanajuudai made ita.",
+            "german": "Die Teilnehmer waren unterschiedlich alt, von Teenagern bis zu Siebzigjährigen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2,
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250808542",
+            "patterns": [
+              0,
+              2,
+              3
+            ],
+            "finding": "まちまち / マチマチ; 形状詞/一般/*/*; *; *; lemma まちまち; aType 0,2,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まちまち",
+              "reading": "まちまち",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "まちまち as \"unterschiedlich, uneinheitlich\"."
+            }
+          }
+        ]
+      },
+      "5171": {
+        "word": "末期",
+        "reading": "まっき",
+        "romaji": "makki",
+        "meaning": "Endphase, Spätzeit, Endstadium",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Letzte Phase einer Epoche oder Entwicklung: 江戸時代の末期; bei Krankheiten 末期がん (Krebs im Endstadium). Die Lesung まつご bedeutet dagegen „Sterbestunde“.",
+        "examples": [
+          {
+            "japanese": "江戸時代の末期には、多くの外国船が日本に来るようになった。",
+            "romaji": "Edo jidai no makki ni wa, ooku no gaikokusen ga Nihon ni kuru you ni natta.",
+            "german": "In der Spätzeit der Edo-Zeit kamen immer mehr ausländische Schiffe nach Japan."
+          },
+          {
+            "japanese": "病気が末期になる前に見つかって、本当によかった。",
+            "romaji": "Byouki ga makki ni naru mae ni mitsukatte, hontou ni yokatta.",
+            "german": "Zum Glück wurde die Krankheit entdeckt, bevor sie das Endstadium erreichte."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250880558",
+            "patterns": [
+              1
+            ],
+            "finding": "末期 / マッキ; 名詞/普通名詞/一般/*; *; *; lemma 末期; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "末期",
+              "reading": "まっき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "末期 as \"Endphase, Spätzeit, Endstadium\"."
+            }
+          }
+        ]
+      },
+      "5172": {
+        "word": "マッサージ",
+        "reading": "マッサージ",
+        "romaji": "massaaji",
+        "meaning": "Massage",
+        "type": "Nomen",
+        "category": "Gesundheit",
+        "level": "N1",
+        "notes": "Auch als Verb マッサージする: 肩をマッサージする. Eine Massage bekommen: マッサージを受ける.",
+        "examples": [
+          {
+            "japanese": "疲れたので、マッサージを受けに行った。",
+            "romaji": "Tsukareta node, massaaji o uke ni itta.",
+            "german": "Weil ich erschöpft war, ließ ich mich massieren."
+          },
+          {
+            "japanese": "母の肩をマッサージしてあげた。",
+            "romaji": "Haha no kata o massaaji shite ageta.",
+            "german": "Ich habe meiner Mutter die Schultern massiert."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250939259",
+            "patterns": [
+              3,
+              1
+            ],
+            "finding": "マッサージ / マッサージ; 名詞/普通名詞/サ変可能/*; *; *; lemma マッサージ-massage; aType 3,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "マッサージ",
+              "reading": "マッサージ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "マッサージ as \"Massage\"."
+            }
+          }
+        ]
+      },
+      "5173": {
+        "word": "真っ二つ",
+        "reading": "まっぷたつ",
+        "romaji": "mapputatsu",
+        "meaning": "genau in zwei Hälften",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Meist 真っ二つに: 真っ二つに割れる/切る (genau in zwei Teile brechen/schneiden). Übertragen: 意見が真っ二つに分かれる (die Meinungen sind in zwei Lager gespalten).",
+        "examples": [
+          {
+            "japanese": "皿が床に落ちて、真っ二つに割れた。",
+            "romaji": "Sara ga yuka ni ochite, mapputatsu ni wareta.",
+            "german": "Der Teller fiel auf den Boden und zerbrach genau in zwei Hälften."
+          },
+          {
+            "japanese": "その問題で、クラスの意見は真っ二つに分かれた。",
+            "romaji": "Sono mondai de, kurasu no iken wa mapputatsu ni wakareta.",
+            "german": "In dieser Frage spaltete sich die Klasse in zwei Lager."
+          }
+        ],
+        "pitch": null
+      },
+      "5174": {
+        "word": "的",
+        "reading": "まと",
+        "romaji": "mato",
+        "meaning": "Zielscheibe, Ziel; Gegenstand (der Aufmerksamkeit, Kritik)",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Wörtlich die Zielscheibe (的に当たる, 的を外す); übertragen: 注目の的 (Mittelpunkt der Aufmerksamkeit), 的を射た意見 (eine treffende Bemerkung). Als Suffix 〜的 (z. B. 経済的) liest man てき.",
+        "examples": [
+          {
+            "japanese": "矢は的の真ん中に当たった。",
+            "romaji": "Ya wa mato no mannaka ni atatta.",
+            "german": "Der Pfeil traf die Zielscheibe genau in der Mitte."
+          },
+          {
+            "japanese": "新しいスマホはクラスで注目の的になった。",
+            "romaji": "Atarashii sumaho wa kurasu de chuumoku no mato ni natta.",
+            "german": "Das neue Smartphone stand in der Klasse im Mittelpunkt der Aufmerksamkeit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251292823",
+            "patterns": [
+              0
+            ],
+            "finding": "的 / マト; 名詞/普通名詞/一般/*; *; *; lemma 的; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "的",
+              "reading": "まと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "的 as \"Zielscheibe, Ziel; Gegenstand (der Aufmerksamkeit, Kritik)\"."
+            }
+          }
+        ]
+      },
+      "5175": {
+        "word": "まとまり",
+        "reading": "まとまり",
+        "romaji": "matomari",
+        "meaning": "Zusammenhalt, Geschlossenheit, Kohärenz",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Meist in Kana: チームのまとまり (Teamgeist), まとまりのない文章 (ein zusammenhangloser Text). Verb: まとまる.",
+        "examples": [
+          {
+            "japanese": "このチームはまとまりがあって、とても強い。",
+            "romaji": "Kono chiimu wa matomari ga atte, totemo tsuyoi.",
+            "german": "Dieses Team hält gut zusammen und ist sehr stark."
+          },
+          {
+            "japanese": "彼の話はまとまりがなくて、何が言いたいのかわからない。",
+            "romaji": "Kare no hanashi wa matomari ga nakute, nani ga iitai no ka wakaranai.",
+            "german": "Was er erzählt, ist so wirr, dass man nicht versteht, worauf er hinauswill."
+          }
+        ],
+        "aliases": [
+          "纏まり"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251345802",
+            "patterns": [
+              0
+            ],
+            "finding": "まとまり / マトマリ; 名詞/普通名詞/一般/*; *; *; lemma 纏まり; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まとまり",
+              "reading": "まとまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "まとまり as \"Zusammenhalt, Geschlossenheit, Kohärenz\"."
+            }
+          }
+        ]
+      },
+      "5176": {
+        "word": "まとめ",
+        "reading": "まとめ",
+        "romaji": "matome",
+        "meaning": "Zusammenfassung",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Meist in Kana: 授業のまとめ (Zusammenfassung der Stunde). Verb: まとめる. Auch in まとめ買い (Großeinkauf).",
+        "examples": [
+          {
+            "japanese": "最後に、今日の授業のまとめをします。",
+            "romaji": "Saigo ni, kyou no jugyou no matome o shimasu.",
+            "german": "Zum Schluss fassen wir die heutige Stunde zusammen."
+          },
+          {
+            "japanese": "会議の内容を簡単なまとめにして、メールで送った。",
+            "romaji": "Kaigi no naiyou o kantan na matome ni shite, meeru de okutta.",
+            "german": "Ich habe den Inhalt der Sitzung kurz zusammengefasst und per E-Mail verschickt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251386775",
+            "patterns": [
+              0
+            ],
+            "finding": "まとめ / マトメ; 名詞/普通名詞/一般/*; *; *; lemma 纏め; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まとめ",
+              "reading": "まとめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "まとめ as \"Zusammenfassung\"."
+            }
+          }
+        ]
+      },
+      "5177": {
+        "word": "招き",
+        "reading": "まねき",
+        "romaji": "maneki",
+        "meaning": "Einladung",
+        "type": "Nomen",
+        "category": "Beziehungen",
+        "level": "N1",
+        "notes": "Förmliches Nomen zu 招く: お招きいただき、ありがとうございます (vielen Dank für die Einladung). Vgl. 招待 (Einladung zu einer Veranstaltung).",
+        "examples": [
+          {
+            "japanese": "本日はお招きいただき、ありがとうございます。",
+            "romaji": "Honjitsu wa omaneki itadaki, arigatou gozaimasu.",
+            "german": "Vielen Dank, dass Sie mich heute eingeladen haben."
+          },
+          {
+            "japanese": "彼は大学の招きで、日本で講演をした。",
+            "romaji": "Kare wa daigaku no maneki de, Nihon de kouen o shita.",
+            "german": "Auf Einladung der Universität hielt er in Japan einen Vortrag."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251795412",
+            "patterns": [
+              3
+            ],
+            "finding": "招き / マネキ; 名詞/普通名詞/一般/*; *; *; lemma 招き; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "招き",
+              "reading": "まねき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "招き as \"Einladung\"."
+            }
+          }
+        ]
+      },
+      "5178": {
+        "word": "麻痺",
+        "reading": "まひ",
+        "romaji": "mahi",
+        "meaning": "Lähmung, Taubheit; Stillstand (des Verkehrs usw.)",
+        "type": "Nomen",
+        "category": "Medizin",
+        "level": "N1",
+        "notes": "Als Verb 麻痺する. Medizinisch: 手足が麻痺する; übertragen: 大雪で交通が麻痺した (der Verkehr kam zum Erliegen). Oft auch in Kana まひ.",
+        "examples": [
+          {
+            "japanese": "事故の後遺症で、右手が少し麻痺している。",
+            "romaji": "Jiko no kouishou de, migite ga sukoshi mahi shite iru.",
+            "german": "Als Folge des Unfalls ist meine rechte Hand leicht gelähmt."
+          },
+          {
+            "japanese": "大雪で都内の交通が麻痺した。",
+            "romaji": "Ooyuki de tonai no koutsuu ga mahi shita.",
+            "german": "Durch den starken Schneefall kam der Verkehr in Tokio zum Erliegen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251952173",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "麻痺 / マヒ; 名詞/普通名詞/サ変可能/*; *; *; lemma 麻痺; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "麻痺",
+              "reading": "まひ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "麻痺 as \"Lähmung, Taubheit; Stillstand (des Verkehrs usw.)\"."
+            }
+          }
+        ]
+      },
+      "5179": {
+        "word": "間々",
+        "reading": "まま",
+        "romaji": "mama",
+        "meaning": "gelegentlich, hin und wieder",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Schriftsprachlich, meist in ままある (kommt gelegentlich vor), oft auch in Kana. Nicht verwechseln mit まま (so wie es ist) und ママ (Mama).",
+        "examples": [
+          {
+            "japanese": "急いでいると、こういう間違いは間々あることだ。",
+            "romaji": "Isoide iru to, kou iu machigai wa mama aru koto da.",
+            "german": "Wenn man es eilig hat, kommen solche Fehler hin und wieder vor."
+          },
+          {
+            "japanese": "天気予報が外れることも間々ある。",
+            "romaji": "Tenki yohou ga hazureru koto mo mama aru.",
+            "german": "Es kommt gelegentlich auch vor, dass die Wettervorhersage danebenliegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252062640",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "間々 / ママ; 副詞/*/*/*; *; *; lemma 間々; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "間々",
+              "reading": "まま",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "間々 as \"gelegentlich, hin und wieder\"."
+            }
+          }
+        ]
+      },
+      "5180": {
+        "word": "〜まみれ",
+        "reading": "まみれ",
+        "romaji": "mamire",
+        "meaning": "voller …, über und über mit … bedeckt",
+        "type": "Partikel",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Suffix an Nomen: 汗まみれ (schweißgebadet), 泥まみれ (voller Schlamm), 借金まみれ (hoch verschuldet). Meist negativ; die Kanji-Schreibung 塗れ ist selten. Verb: 塗れる【まみれる】.",
+        "examples": [
+          {
+            "japanese": "子どもたちは泥まみれになって遊んでいた。",
+            "romaji": "Kodomotachi wa doromamire ni natte asonde ita.",
+            "german": "Die Kinder spielten, bis sie über und über voller Schlamm waren."
+          },
+          {
+            "japanese": "夏の工事現場で働いて、一日中汗まみれだった。",
+            "romaji": "Natsu no kouji genba de hataraite, ichinichijuu asemamire datta.",
+            "german": "Bei der Arbeit auf der Baustelle im Sommer war ich den ganzen Tag schweißgebadet."
+          }
+        ],
+        "pitch": null
+      },
+      "5181": {
+        "word": "鞠",
+        "reading": "まり",
+        "romaji": "mari",
+        "meaning": "(traditioneller) Ball",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Traditioneller, oft mit bunten Fäden umwickelter Ball, mit dem früher Kinder spielten (手まり). Heute eher literarisch; für Sportbälle sagt man ボール.",
+        "examples": [
+          {
+            "japanese": "少女たちが庭で鞠をついて遊んでいる。",
+            "romaji": "Shoujotachi ga niwa de mari o tsuite asonde iru.",
+            "german": "Die Mädchen spielen im Garten und prellen einen Ball."
+          },
+          {
+            "japanese": "祖母が作った鞠は、色とりどりの糸で巻かれていた。",
+            "romaji": "Sobo ga tsukutta mari wa, irotoridori no ito de makarete ita.",
+            "german": "Der Ball, den meine Großmutter gemacht hatte, war mit bunten Fäden umwickelt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252412736",
+            "patterns": [
+              2
+            ],
+            "finding": "鞠 / マリ; 名詞/普通名詞/一般/*; *; *; lemma 鞠; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鞠",
+              "reading": "まり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鞠 as \"(traditioneller) Ball\"."
+            }
+          }
+        ]
+      },
+      "5182": {
+        "word": "まるっきり",
+        "reading": "まるっきり",
+        "romaji": "marukkiri",
+        "meaning": "ganz und gar, völlig (meist mit Verneinung)",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Umgangssprachlich, meist mit Verneinung: まるっきりわからない (überhaupt nicht verstehen). Ähnlich まるで und 全然.",
+        "examples": [
+          {
+            "japanese": "フランス語はまるっきりわからない。",
+            "romaji": "Furansugo wa marukkiri wakaranai.",
+            "german": "Französisch verstehe ich überhaupt nicht."
+          },
+          {
+            "japanese": "写真で見たのとまるっきり違う部屋だった。",
+            "romaji": "Shashin de mita no to marukkiri chigau heya datta.",
+            "german": "Das Zimmer war völlig anders als auf dem Foto."
+          }
+        ],
+        "aliases": [
+          "丸っきり"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252546161",
+            "patterns": [
+              0
+            ],
+            "finding": "まるっきり / マルッキリ; 副詞/*/*/*; *; *; lemma 丸切り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "まるっきり",
+              "reading": "まるっきり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "まるっきり as \"ganz und gar, völlig (meist mit Verneinung)\"."
+            }
+          }
+        ]
+      },
+      "5183": {
+        "word": "丸々",
+        "reading": "まるまる",
+        "romaji": "marumaru",
+        "meaning": "ganz, volle(r/s); rundlich, pummelig",
+        "type": "Adverb",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "Als Adverb: ganz und gar, volle …: 丸々一日 (einen ganzen Tag lang). Mit と/とした: rundlich, pausbäckig (丸々とした赤ちゃん). Auch in Kana まるまる.",
+        "examples": [
+          {
+            "japanese": "資料作りに丸々一週間かかった。",
+            "romaji": "Shiryouzukuri ni marumaru isshuukan kakatta.",
+            "german": "Für die Erstellung der Unterlagen habe ich eine volle Woche gebraucht."
+          },
+          {
+            "japanese": "丸々と太った猫が縁側で寝ている。",
+            "romaji": "Marumaru to futotta neko ga engawa de nete iru.",
+            "german": "Eine kugelrunde, dicke Katze schläft auf der Veranda."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252676720",
+            "patterns": [
+              3
+            ],
+            "finding": "丸々 / マルマル; 副詞/*/*/*; *; *; lemma 丸々; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "丸々",
+              "reading": "まるまる",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "丸々 as \"ganz, volle(r/s); rundlich, pummelig\"."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252677848",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "丸々 / マルマル; 名詞/普通名詞/一般/*; *; *; lemma 丸々; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "丸々",
+              "reading": "まるまる",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "丸々 as \"ganz, volle(r/s); rundlich, pummelig\"."
+            }
+          }
+        ]
+      },
+      "5184": {
+        "word": "丸める",
+        "reading": "まるめる",
+        "romaji": "marumeru",
+        "meaning": "rund machen, zusammenknüllen; (den Kopf) kahl scheren",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv: 紙を丸める (Papier zusammenknüllen), 背中を丸める (einen Buckel machen). 頭を丸める = sich den Kopf kahl scheren, traditionell als Zeichen der Reue.",
+        "examples": [
+          {
+            "japanese": "彼は書き損じた紙を丸めてごみ箱に捨てた。",
+            "romaji": "Kare wa kakisonjita kami o marumete gomibako ni suteta.",
+            "german": "Er knüllte das verschriebene Blatt zusammen und warf es in den Papierkorb."
+          },
+          {
+            "japanese": "寒いので、猫が背中を丸めて寝ている。",
+            "romaji": "Samui node, neko ga senaka o marumete nete iru.",
+            "german": "Weil es kalt ist, schläft die Katze zusammengerollt."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "まるめる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "まるめる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252749846",
+            "patterns": [
+              0
+            ],
+            "finding": "丸める / マルメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 丸める; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "丸める",
+              "reading": "まるめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "丸める as \"rund machen, zusammenknüllen; (den Kopf) kahl scheren\"."
+            }
+          }
+        ]
+      },
+      "5185": {
+        "word": "満場",
+        "reading": "まんじょう",
+        "romaji": "manjou",
+        "meaning": "der ganze Saal, das gesamte Publikum",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Alle Anwesenden in einem Saal: 満場の拍手 (Beifall des ganzen Saals). Bekannt aus 満場一致 (einstimmig).",
+        "examples": [
+          {
+            "japanese": "彼の演説が終わると、満場の拍手が起こった。",
+            "romaji": "Kare no enzetsu ga owaru to, manjou no hakushu ga okotta.",
+            "german": "Als seine Rede zu Ende war, applaudierte der ganze Saal."
+          },
+          {
+            "japanese": "満場の観客が、選手の最後のジャンプを見守った。",
+            "romaji": "Manjou no kankyaku ga, senshu no saigo no janpu o mimamotta.",
+            "german": "Das gesamte Publikum verfolgte gespannt den letzten Sprung des Athleten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253208197",
+            "patterns": [
+              0
+            ],
+            "finding": "満場 / マンジョウ; 名詞/普通名詞/一般/*; *; *; lemma 満場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "満場",
+              "reading": "まんじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "満場 as \"der ganze Saal, das gesamte Publikum\"."
+            }
+          }
+        ]
+      },
+      "5186": {
+        "word": "真ん前",
+        "reading": "まんまえ",
+        "romaji": "manmae",
+        "meaning": "direkt vor, genau gegenüber",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N1",
+        "notes": "Umgangssprachlich verstärktes 前: 駅の真ん前 (direkt vor dem Bahnhof).",
+        "examples": [
+          {
+            "japanese": "私の家は駅の真ん前にある。",
+            "romaji": "Watashi no ie wa eki no manmae ni aru.",
+            "german": "Mein Haus liegt direkt vor dem Bahnhof."
+          },
+          {
+            "japanese": "コンサートでは、ステージの真ん前の席に座れた。",
+            "romaji": "Konsaato de wa, suteeji no manmae no seki ni suwareta.",
+            "german": "Beim Konzert konnte ich direkt vor der Bühne sitzen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253288592",
+            "patterns": [
+              3
+            ],
+            "finding": "真ん前 / マンマエ; 名詞/普通名詞/一般/*; *; *; lemma 真ん前; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真ん前",
+              "reading": "まんまえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "真ん前 as \"direkt vor, genau gegenüber\"."
+            }
+          }
+        ]
+      },
+      "5187": {
+        "word": "真ん丸い",
+        "reading": "まんまるい",
+        "romaji": "manmarui",
+        "meaning": "kreisrund, kugelrund",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "い-Adjektiv, verstärktes 丸い: 真ん丸い月 (der kreisrunde Vollmond). Auch 真ん丸 (Nomen).",
+        "examples": [
+          {
+            "japanese": "今夜は真ん丸い月が出ている。",
+            "romaji": "Kon'ya wa manmarui tsuki ga dete iru.",
+            "german": "Heute Nacht steht ein kreisrunder Mond am Himmel."
+          },
+          {
+            "japanese": "驚いた子どもは、目を真ん丸くして私を見た。",
+            "romaji": "Odoroita kodomo wa, me o manmaruku shite watashi o mita.",
+            "german": "Das Kind sah mich mit kugelrunden Augen erstaunt an."
+          }
+        ],
+        "aliases": [
+          "真ん円い"
+        ],
+        "pitch": 4,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253299803",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "真ん丸い / マンマルイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 真ん丸い; aType 4,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真ん丸い",
+              "reading": "まんまるい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "真ん丸い as \"kreisrund, kugelrund\"."
+            }
+          }
+        ]
+      },
+      "5188": {
+        "word": "見合い",
+        "reading": "みあい",
+        "romaji": "miai",
+        "meaning": "arrangiertes Kennenlernen (mit Heiratsabsicht)",
+        "type": "Nomen",
+        "category": "Familie",
+        "level": "N1",
+        "notes": "Meist お見合い: ein von Familie oder Vermittlern arrangiertes Treffen möglicher Ehepartner. 見合い結婚 = durch ein solches Treffen zustande gekommene Ehe (im Gegensatz zu 恋愛結婚).",
+        "examples": [
+          {
+            "japanese": "両親は見合いで知り合って結婚した。",
+            "romaji": "Ryoushin wa miai de shiriatte kekkon shita.",
+            "german": "Meine Eltern haben sich bei einem arrangierten Treffen kennengelernt und geheiratet."
+          },
+          {
+            "japanese": "おばに勧められて、来週見合いをすることになった。",
+            "romaji": "Oba ni susumerarete, raishuu miai o suru koto ni natta.",
+            "german": "Auf Anraten meiner Tante treffe ich nächste Woche einen möglichen Heiratskandidaten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253394396",
+            "patterns": [
+              0
+            ],
+            "finding": "見合い / ミアイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 見合い; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見合い",
+              "reading": "みあい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "見合い as \"arrangiertes Kennenlernen (mit Heiratsabsicht)\"."
+            }
+          }
+        ]
+      },
+      "5189": {
+        "word": "見合わせる",
+        "reading": "みあわせる",
+        "romaji": "miawaseru",
+        "meaning": "einander ansehen; aufschieben, vorläufig aussetzen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv. 1. 顔を見合わせる: sich (verwundert) ansehen. 2. Förmlich: vorläufig aussetzen, oft in Durchsagen: 運転を見合わせる (den Zugverkehr vorübergehend einstellen).",
+        "examples": [
+          {
+            "japanese": "突然の知らせに、二人は顔を見合わせた。",
+            "romaji": "Totsuzen no shirase ni, futari wa kao o miawaseta.",
+            "german": "Bei der plötzlichen Nachricht sahen sich die beiden an."
+          },
+          {
+            "japanese": "大雨のため、電車は運転を見合わせています。",
+            "romaji": "Ooame no tame, densha wa unten o miawasete imasu.",
+            "german": "Wegen des Starkregens ist der Zugverkehr vorübergehend eingestellt."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "みあわせる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みあわせる",
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253539989",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "見合わせる / ミアワセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 見合わせる; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見合わせる",
+              "reading": "みあわせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "見合わせる as \"einander ansehen; aufschieben, vorläufig aussetzen\"."
+            }
+          }
+        ]
+      },
+      "5190": {
+        "word": "未開",
+        "reading": "みかい",
+        "romaji": "mikai",
+        "meaning": "unerschlossen, unerforscht",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N1",
+        "notes": "Noch nicht erschlossen oder erforscht: 未開の地 (unerschlossenes Land), 未開の分野 (Neuland in der Forschung). Die ältere Bedeutung „unzivilisiert“ gilt heute als abwertend.",
+        "examples": [
+          {
+            "japanese": "当時、この地域はまだ未開の地だった。",
+            "romaji": "Touji, kono chiiki wa mada mikai no chi datta.",
+            "german": "Damals war diese Gegend noch unerschlossenes Land."
+          },
+          {
+            "japanese": "この分野は研究者が少なく、まだ未開の部分が多い。",
+            "romaji": "Kono bun'ya wa kenkyuusha ga sukunaku, mada mikai no bubun ga ooi.",
+            "german": "In diesem Fachgebiet gibt es wenige Forscher und noch viele unerforschte Bereiche."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253871964",
+            "patterns": [
+              0
+            ],
+            "finding": "未開 / ミカイ; 名詞/普通名詞/一般/*; *; *; lemma 未開; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "未開",
+              "reading": "みかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "未開 as \"unerschlossen, unerforscht\"."
+            }
+          }
+        ]
+      },
+      "5191": {
+        "word": "味覚",
+        "reading": "みかく",
+        "romaji": "mikaku",
+        "meaning": "Geschmackssinn",
+        "type": "Nomen",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Einer der fünf Sinne (五感): 味覚が鋭い (einen feinen Gaumen haben). 秋の味覚 = die kulinarischen Genüsse des Herbstes.",
+        "examples": [
+          {
+            "japanese": "風邪を引いて、味覚がおかしくなった。",
+            "romaji": "Kaze o hiite, mikaku ga okashiku natta.",
+            "german": "Durch die Erkältung ist mein Geschmackssinn gestört."
+          },
+          {
+            "japanese": "料理人は味覚が鋭くなければならない。",
+            "romaji": "Ryourinin wa mikaku ga surudoku nakereba naranai.",
+            "german": "Ein Koch braucht einen feinen Geschmackssinn."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253937559",
+            "patterns": [
+              0
+            ],
+            "finding": "味覚 / ミカク; 名詞/普通名詞/一般/*; *; *; lemma 味覚; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "味覚",
+              "reading": "みかく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "味覚 as \"Geschmackssinn\"."
+            }
+          }
+        ]
+      },
+      "5192": {
+        "word": "微塵",
+        "reading": "みじん",
+        "romaji": "mijin",
+        "meaning": "Stäubchen, winziges Stück; (mit Verneinung) nicht im Geringsten",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Meist 微塵も〜ない: nicht das kleinste bisschen (反省の色は微塵もない). Beim Kochen: みじん切り (fein gehackt).",
+        "examples": [
+          {
+            "japanese": "彼には反省の気持ちなど微塵もなかった。",
+            "romaji": "Kare ni wa hansei no kimochi nado mijin mo nakatta.",
+            "german": "Er zeigte nicht die geringste Reue."
+          },
+          {
+            "japanese": "玉ねぎを微塵に刻んで、ひき肉と混ぜた。",
+            "romaji": "Tamanegi o mijin ni kizande, hikiniku to mazeta.",
+            "german": "Ich hackte die Zwiebeln fein und vermischte sie mit dem Hackfleisch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254611609",
+            "patterns": [
+              0
+            ],
+            "finding": "微塵 / ミジン; 名詞/普通名詞/一般/*; *; *; lemma 微塵; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "微塵",
+              "reading": "みじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "微塵 as \"Stäubchen, winziges Stück; (mit Verneinung) nicht im Geringsten\"."
+            }
+          }
+        ]
+      },
+      "5193": {
+        "word": "水気",
+        "reading": "みずけ",
+        "romaji": "mizuke",
+        "meaning": "Feuchtigkeit, Wassergehalt, Saftigkeit",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N1",
+        "notes": "Wasser, das in etwas enthalten ist: 水気を切る (abtropfen lassen), 水気の多い果物 (saftiges Obst). Andere Lesung: すいき.",
+        "examples": [
+          {
+            "japanese": "洗った野菜の水気をよく切ってください。",
+            "romaji": "Aratta yasai no mizuke o yoku kitte kudasai.",
+            "german": "Lassen Sie das gewaschene Gemüse gut abtropfen."
+          },
+          {
+            "japanese": "この梨は水気が多くて甘い。",
+            "romaji": "Kono nashi wa mizuke ga ookute amai.",
+            "german": "Diese Nashi-Birne ist saftig und süß."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254853390",
+            "patterns": [
+              0
+            ],
+            "finding": "水気 / ミズケ; 名詞/普通名詞/一般/*; *; *; lemma 水気; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "水気",
+              "reading": "みずけ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "水気 as \"Feuchtigkeit, Wassergehalt, Saftigkeit\"."
+            }
+          }
+        ]
+      },
+      "5194": {
+        "word": "ミスプリント",
+        "reading": "ミスプリント",
+        "romaji": "misupurinto",
+        "meaning": "Druckfehler",
+        "type": "Nomen",
+        "category": "Medien",
+        "level": "N1",
+        "notes": "Fehler in einem gedruckten Text. Gleichbedeutend, eher schriftsprachlich: 誤植.",
+        "examples": [
+          {
+            "japanese": "教科書にミスプリントが見つかった。",
+            "romaji": "Kyoukasho ni misupurinto ga mitsukatta.",
+            "german": "Im Lehrbuch wurde ein Druckfehler entdeckt."
+          },
+          {
+            "japanese": "招待状の日付がミスプリントで、一日ずれていた。",
+            "romaji": "Shoutaijou no hizuke ga misupurinto de, ichinichi zurete ita.",
+            "german": "Wegen eines Druckfehlers stand auf der Einladung ein um einen Tag verschobenes Datum."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254740344",
+            "patterns": [
+              4
+            ],
+            "finding": "ミスプリント / ミスプリント; 名詞/普通名詞/サ変可能/*; *; *; lemma ミスプリント-misprint; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ミスプリント",
+              "reading": "ミスプリント",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ミスプリント as \"Druckfehler\"."
+            }
+          }
+        ]
+      },
+      "5195": {
+        "word": "みすぼらしい",
+        "reading": "みすぼらしい",
+        "romaji": "misuborashii",
+        "meaning": "schäbig, ärmlich",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "い-Adjektiv, meist in Kana: みすぼらしい服 (schäbige Kleidung), みすぼらしい家.",
+        "examples": [
+          {
+            "japanese": "彼はみすぼらしい服を着ていたが、実は大金持ちだった。",
+            "romaji": "Kare wa misuborashii fuku o kite ita ga, jitsu wa ooganemochi datta.",
+            "german": "Er trug schäbige Kleidung, war aber in Wahrheit steinreich."
+          },
+          {
+            "japanese": "駅前のみすぼらしい小屋が、立派なカフェに生まれ変わった。",
+            "romaji": "Ekimae no misuborashii koya ga, rippa na kafe ni umarekawatta.",
+            "german": "Aus der schäbigen Hütte vor dem Bahnhof ist ein schickes Café geworden."
+          }
+        ],
+        "aliases": [
+          "見すぼらしい"
+        ],
+        "pitch": 5,
+        "pitchVariants": [
+          0,
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254748684",
+            "patterns": [
+              5,
+              0,
+              1
+            ],
+            "finding": "みすぼらしい / ミスボラシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 見窄らしい; aType 5,0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "みすぼらしい",
+              "reading": "みすぼらしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "みすぼらしい as \"schäbig, ärmlich\"."
+            }
+          }
+        ]
+      },
+      "5196": {
+        "word": "ミセス",
+        "reading": "ミセス",
+        "romaji": "misesu",
+        "meaning": "verheiratete Frau; Mrs.",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N1",
+        "notes": "Aus dem Englischen „Mrs.“: vor allem in Werbung und Mode für verheiratete Frauen (ミセス向けの服). Als Anrede im Japanischen selten.",
+        "examples": [
+          {
+            "japanese": "このブランドは三十代のミセス向けの服が多い。",
+            "romaji": "Kono burando wa sanjuudai no misesu muke no fuku ga ooi.",
+            "german": "Diese Marke hat viel Kleidung für verheiratete Frauen in den Dreißigern."
+          },
+          {
+            "japanese": "この雑誌の読者は主にミセスだそうだ。",
+            "romaji": "Kono zasshi no dokusha wa omo ni misesu da sou da.",
+            "german": "Die Leserinnen dieser Zeitschrift sollen hauptsächlich verheiratete Frauen sein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254999669",
+            "patterns": [
+              1
+            ],
+            "finding": "ミセス / ミセス; 名詞/普通名詞/一般/*; *; *; lemma ミセス-Mrs; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ミセス",
+              "reading": "ミセス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ミセス as \"verheiratete Frau; Mrs.\"."
+            }
+          }
+        ]
+      },
+      "5197": {
+        "word": "見せびらかす",
+        "reading": "みせびらかす",
+        "romaji": "misebirakasu",
+        "meaning": "zur Schau stellen, prahlen mit",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv, abwertend: etwas absichtlich zeigen, um bewundert oder beneidet zu werden: 新しい時計を見せびらかす.",
+        "examples": [
+          {
+            "japanese": "彼は新しい時計をみんなに見せびらかしている。",
+            "romaji": "Kare wa atarashii tokei o minna ni misebirakashite iru.",
+            "german": "Er protzt vor allen mit seiner neuen Uhr."
+          },
+          {
+            "japanese": "買ったばかりのスマホを見せびらかすのはやめなさい。",
+            "romaji": "Katta bakari no sumaho o misebirakasu no wa yamenasai.",
+            "german": "Hör auf, mit dem neuen Smartphone anzugeben."
+          }
+        ],
+        "pitch": 5,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "みせびらかす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みせびらかす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255028008",
+            "patterns": [
+              5
+            ],
+            "finding": "見せびらかす / ミセビラカス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 見せびらかす; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見せびらかす",
+              "reading": "みせびらかす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "見せびらかす as \"zur Schau stellen, prahlen mit\"."
+            }
+          }
+        ]
+      },
+      "5198": {
+        "word": "見世物",
+        "reading": "みせもの",
+        "romaji": "misemono",
+        "meaning": "Schau, Spektakel; Schaustellerei",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "Früher Jahrmarktsvorführungen (見世物小屋 = Schaubude). Heute meist abwertend: 見世物になる/にする (zum Spektakel werden, zur Schau stellen). Auch 見せ物 geschrieben.",
+        "examples": [
+          {
+            "japanese": "事故の現場が見世物のようになって、多くの人が写真を撮っていた。",
+            "romaji": "Jiko no genba ga misemono no you ni natte, ooku no hito ga shashin o totte ita.",
+            "german": "Die Unfallstelle wurde zum Spektakel, viele Leute machten Fotos."
+          },
+          {
+            "japanese": "動物を見世物にするのはかわいそうだという声もある。",
+            "romaji": "Doubutsu o misemono ni suru no wa kawaisou da to iu koe mo aru.",
+            "german": "Manche sagen, es sei grausam, Tiere zur Schau zu stellen."
+          }
+        ],
+        "aliases": [
+          "見せ物"
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255032179",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "見世物 / ミセモノ; 名詞/普通名詞/一般/*; *; *; lemma 見世物; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見世物",
+              "reading": "みせもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見世物 as \"Schau, Spektakel; Schaustellerei\"."
+            }
+          }
+        ]
+      },
+      "5199": {
+        "word": "溝",
+        "reading": "みぞ",
+        "romaji": "mizo",
+        "meaning": "Graben, Rinne; Kluft (zwischen Menschen)",
+        "type": "Nomen",
+        "category": "Beziehungen",
+        "level": "N1",
+        "notes": "Wörtlich ein Graben oder eine Abflussrinne (溝に落ちる); übertragen eine Entfremdung: 二人の間に溝ができる. Andere Lesung: こう (in Fachwörtern wie 海溝, Tiefseegraben).",
+        "examples": [
+          {
+            "japanese": "自転車のタイヤが道の溝にはまってしまった。",
+            "romaji": "Jitensha no taiya ga michi no mizo ni hamatte shimatta.",
+            "german": "Der Fahrradreifen ist in einer Rinne am Straßenrand stecken geblieben."
+          },
+          {
+            "japanese": "あのけんか以来、二人の間には深い溝ができた。",
+            "romaji": "Ano kenka irai, futari no aida ni wa fukai mizo ga dekita.",
+            "german": "Seit jenem Streit gibt es eine tiefe Kluft zwischen den beiden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255110896",
+            "patterns": [
+              0
+            ],
+            "finding": "溝 / ミゾ; 名詞/普通名詞/一般/*; *; *; lemma 溝; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "溝",
+              "reading": "みぞ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "溝 as \"Graben, Rinne; Kluft (zwischen Menschen)\"."
+            }
+          }
+        ]
+      },
+      "5200": {
+        "word": "未知",
+        "reading": "みち",
+        "romaji": "michi",
+        "meaning": "unbekannt, noch nicht bekannt",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Schriftsprachlich, meist 未知の + Nomen: 未知の世界 (eine unbekannte Welt), 未知数 (Unbekannte, ungewisse Größe). Gegenteil: 既知. Gleich klingend: 道.",
+        "examples": [
+          {
+            "japanese": "宇宙には未知のことがまだたくさんある。",
+            "romaji": "Uchuu ni wa michi no koto ga mada takusan aru.",
+            "german": "Im Weltall gibt es noch viel Unbekanntes."
+          },
+          {
+            "japanese": "留学は、未知の世界に飛び込むようなものだった。",
+            "romaji": "Ryuugaku wa, michi no sekai ni tobikomu you na mono datta.",
+            "german": "Das Auslandsstudium war wie ein Sprung in eine unbekannte Welt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255360274",
+            "patterns": [
+              1
+            ],
+            "finding": "未知 / ミチ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 未知; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "未知",
+              "reading": "みち",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "未知 as \"unbekannt, noch nicht bekannt\"."
+            }
+          }
+        ]
+      },
+      "5201": {
+        "word": "蜜",
+        "reading": "みつ",
+        "romaji": "mitsu",
+        "meaning": "Nektar; Honig",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Süße Flüssigkeit: 花の蜜 (Blütennektar); Honig heißt meist 蜂蜜. 黒蜜 = dunkler Zuckersirup.",
+        "examples": [
+          {
+            "japanese": "蝶が花の蜜を吸っている。",
+            "romaji": "Chou ga hana no mitsu o sutte iru.",
+            "german": "Ein Schmetterling saugt Nektar aus der Blüte."
+          },
+          {
+            "japanese": "蜂は集めた蜜を巣にためる。",
+            "romaji": "Hachi wa atsumeta mitsu o su ni tameru.",
+            "german": "Bienen speichern den gesammelten Nektar in ihrem Stock."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255736596",
+            "patterns": [
+              1
+            ],
+            "finding": "蜜 / ミツ; 名詞/普通名詞/一般/*; *; *; lemma 蜜; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蜜",
+              "reading": "みつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蜜 as \"Nektar; Honig\"."
+            }
+          }
+        ]
+      },
+      "5202": {
+        "word": "密集",
+        "reading": "みっしゅう",
+        "romaji": "misshuu",
+        "meaning": "dichtes Zusammendrängen, Ballung",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Als Verb 密集する: dicht beieinander stehen oder sich drängen: 住宅が密集している (dicht bebaut). Während der Corona-Pandemie bekannt aus 三密 (密閉・密集・密接).",
+        "examples": [
+          {
+            "japanese": "この辺りは古い住宅が密集している。",
+            "romaji": "Kono atari wa furui juutaku ga misshuu shite iru.",
+            "german": "In dieser Gegend stehen alte Wohnhäuser dicht an dicht."
+          },
+          {
+            "japanese": "人が密集する場所では、スリに気をつけてください。",
+            "romaji": "Hito ga misshuu suru basho de wa, suri ni ki o tsukete kudasai.",
+            "german": "Achten Sie an Orten mit großem Gedränge auf Taschendiebe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255659283",
+            "patterns": [
+              0
+            ],
+            "finding": "密集 / ミッシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 密集; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "密集",
+              "reading": "みっしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "密集 as \"dichtes Zusammendrängen, Ballung\"."
+            }
+          }
+        ]
+      },
+      "5203": {
+        "word": "源",
+        "reading": "みなもと",
+        "romaji": "minamoto",
+        "meaning": "Quelle, Ursprung",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Wörtlich die Quelle eines Flusses (川の源), meist übertragen: 力の源 (Kraftquelle), 情報の源.",
+        "examples": [
+          {
+            "japanese": "この川の源は、あの山の中にある。",
+            "romaji": "Kono kawa no minamoto wa, ano yama no naka ni aru.",
+            "german": "Die Quelle dieses Flusses liegt in jenen Bergen."
+          },
+          {
+            "japanese": "家族の笑顔が、私の元気の源だ。",
+            "romaji": "Kazoku no egao ga, watashi no genki no minamoto da.",
+            "german": "Das Lächeln meiner Familie ist meine Kraftquelle."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256471457",
+            "patterns": [
+              0
+            ],
+            "finding": "源 / ミナモト; 名詞/普通名詞/一般/*; *; *; lemma 源; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "源",
+              "reading": "みなもと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "源 as \"Quelle, Ursprung\"."
+            }
+          }
+        ]
+      },
+      "5204": {
+        "word": "見習う",
+        "reading": "みならう",
+        "romaji": "minarau",
+        "meaning": "sich ein Beispiel nehmen an; durch Zuschauen lernen",
+        "type": "Verb",
+        "category": "Bildung",
+        "level": "N1",
+        "notes": "Transitiv: jemanden zum Vorbild nehmen: 先輩を見習う. Nomen 見習い = Lehrling, Auszubildender.",
+        "examples": [
+          {
+            "japanese": "少しはお兄さんを見習いなさい。",
+            "romaji": "Sukoshi wa oniisan o minarainasai.",
+            "german": "Nimm dir mal ein Beispiel an deinem großen Bruder."
+          },
+          {
+            "japanese": "新人の頃は、先輩の仕事を見習って覚えた。",
+            "romaji": "Shinjin no koro wa, senpai no shigoto o minaratte oboeta.",
+            "german": "Als Neuling habe ich die Arbeit gelernt, indem ich den älteren Kollegen zugesehen habe."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "みならう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みならう",
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256483684",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "見習う / ミナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見習う; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見習う",
+              "reading": "みならう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見習う as \"sich ein Beispiel nehmen an; durch Zuschauen lernen\"."
+            }
+          }
+        ]
+      },
+      "5205": {
+        "word": "身なり",
+        "reading": "みなり",
+        "romaji": "minari",
+        "meaning": "Aufmachung, äußere Erscheinung, Kleidung",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Wie jemand gekleidet und zurechtgemacht ist: 身なりを整える (sich ordentlich zurechtmachen), 身なりのいい紳士.",
+        "examples": [
+          {
+            "japanese": "面接の前に、鏡で身なりを整えた。",
+            "romaji": "Mensetsu no mae ni, kagami de minari o totonoeta.",
+            "german": "Vor dem Vorstellungsgespräch machte ich mich vor dem Spiegel zurecht."
+          },
+          {
+            "japanese": "身なりのいい紳士が、店に入ってきた。",
+            "romaji": "Minari no ii shinshi ga, mise ni haitte kita.",
+            "german": "Ein gut gekleideter Herr betrat den Laden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256489855",
+            "patterns": [
+              1
+            ],
+            "finding": "身なり / ミナリ; 名詞/普通名詞/一般/*; *; *; lemma 身形; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身なり",
+              "reading": "みなり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身なり as \"Aufmachung, äußere Erscheinung, Kleidung\"."
+            }
+          }
+        ]
+      },
+      "5206": {
+        "word": "峰",
+        "reading": "みね",
+        "romaji": "mine",
+        "meaning": "Gipfel, Bergrücken",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Gipfel oder Grat eines Berges, eher literarisch. Im Alltag sagt man 山頂 oder 頂上.",
+        "examples": [
+          {
+            "japanese": "雪をかぶった峰が朝日に輝いていた。",
+            "romaji": "Yuki o kabutta mine ga asahi ni kagayaite ita.",
+            "german": "Die schneebedeckten Gipfel leuchteten in der Morgensonne."
+          },
+          {
+            "japanese": "雲の上に、遠くの山の峰が見えた。",
+            "romaji": "Kumo no ue ni, tooku no yama no mine ga mieta.",
+            "german": "Über den Wolken sah man die Gipfel ferner Berge."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256553148",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "峰 / ミネ; 名詞/普通名詞/一般/*; *; *; lemma 峰; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "峰",
+              "reading": "みね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "峰 as \"Gipfel, Bergrücken\"."
+            }
+          }
+        ]
+      },
+      "5207": {
+        "word": "身の上",
+        "reading": "みのうえ",
+        "romaji": "minoue",
+        "meaning": "Lebensumstände, Lebensgeschichte",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N1",
+        "notes": "Die persönliche Lage und Vergangenheit eines Menschen: 身の上話 (Lebensgeschichte), 身の上相談 (Lebensberatung, z. B. in Zeitungen).",
+        "examples": [
+          {
+            "japanese": "彼女は初めて自分の身の上を語り始めた。",
+            "romaji": "Kanojo wa hajimete jibun no minoue o katarihajimeta.",
+            "german": "Zum ersten Mal begann sie, von ihrem Leben zu erzählen."
+          },
+          {
+            "japanese": "両親を早くに亡くした彼の身の上に、みんな同情した。",
+            "romaji": "Ryoushin o hayaku ni nakushita kare no minoue ni, minna doujou shita.",
+            "german": "Alle hatten Mitgefühl mit seinem Schicksal, da er früh seine Eltern verloren hatte."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256582182",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "身の上 / ミノウエ; 名詞/普通名詞/一般/*; *; *; lemma 身の上; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の上",
+              "reading": "みのうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の上 as \"Lebensumstände, Lebensgeschichte\"."
+            }
+          }
+        ]
+      },
+      "5208": {
+        "word": "身の回り",
+        "reading": "みのまわり",
+        "romaji": "minomawari",
+        "meaning": "persönliche Dinge; unmittelbare Umgebung, Alltag",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "身の回りの物 (die persönlichen Sachen), 身の回りの世話 (Hilfe bei der täglichen Versorgung, etwa für ältere Menschen).",
+        "examples": [
+          {
+            "japanese": "入院に必要な身の回りの物をかばんに詰めた。",
+            "romaji": "Nyuuin ni hitsuyou na minomawari no mono o kaban ni tsumeta.",
+            "german": "Ich packte die persönlichen Sachen, die ich im Krankenhaus brauche, in eine Tasche."
+          },
+          {
+            "japanese": "祖母の身の回りの世話は、主に母がしている。",
+            "romaji": "Sobo no minomawari no sewa wa, omo ni haha ga shite iru.",
+            "german": "Um die tägliche Versorgung meiner Großmutter kümmert sich hauptsächlich meine Mutter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256645104",
+            "patterns": [
+              0
+            ],
+            "finding": "身の回り / ミノマワリ; 名詞/普通名詞/一般/*; *; *; lemma 身の回り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "身の回り",
+              "reading": "みのまわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "身の回り as \"persönliche Dinge; unmittelbare Umgebung, Alltag\"."
+            }
+          }
+        ]
+      },
+      "5209": {
+        "word": "見計らう",
+        "reading": "みはからう",
+        "romaji": "mihakarau",
+        "meaning": "den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen",
+        "type": "Verb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Transitiv. Meist タイミングを見計らう / 頃合いを見計らう: den passenden Moment abwarten. Auch: nach eigenem Urteil auswählen.",
+        "examples": [
+          {
+            "japanese": "上司の機嫌がいい時を見計らって、休みを頼んだ。",
+            "romaji": "Joushi no kigen ga ii toki o mihakaratte, yasumi o tanonda.",
+            "german": "Ich passte einen Moment ab, in dem mein Chef gute Laune hatte, und bat um Urlaub."
+          },
+          {
+            "japanese": "花束は予算内で適当に見計らってください。",
+            "romaji": "Hanataba wa yosannai de tekitou ni mihakaratte kudasai.",
+            "german": "Stellen Sie den Blumenstrauß bitte nach Ihrem Ermessen im Rahmen des Budgets zusammen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "みはからう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "みはからう",
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256712494",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "見計らう / ミハカラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 見計らう; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見計らう",
+              "reading": "みはからう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "見計らう as \"den richtigen Zeitpunkt abpassen; nach eigenem Ermessen auswählen\"."
+            }
+          }
+        ]
+      },
+      "5210": {
+        "word": "見晴らし",
+        "reading": "みはらし",
+        "romaji": "miharashi",
+        "meaning": "Aussicht, Fernblick",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Weiter Blick über eine Landschaft: 見晴らしがいい (eine schöne Aussicht haben). Verb: 見晴らす.",
+        "examples": [
+          {
+            "japanese": "山の上のホテルは見晴らしがとてもいい。",
+            "romaji": "Yama no ue no hoteru wa miharashi ga totemo ii.",
+            "german": "Das Hotel oben auf dem Berg hat eine wunderbare Aussicht."
+          },
+          {
+            "japanese": "窓の前に高いビルが建って、見晴らしが悪くなった。",
+            "romaji": "Mado no mae ni takai biru ga tatte, miharashi ga waruku natta.",
+            "german": "Seit vor dem Fenster ein Hochhaus gebaut wurde, ist die Aussicht schlechter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@256749083",
+            "patterns": [
+              0
+            ],
+            "finding": "見晴らし / ミハラシ; 名詞/普通名詞/一般/*; *; *; lemma 見晴らし; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "見晴らし",
+              "reading": "みはらし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "見晴らし as \"Aussicht, Fernblick\"."
+            }
+          }
+        ]
+      },
+      "5211": {
+        "word": "ミュージック",
+        "reading": "ミュージック",
+        "romaji": "myuujikku",
+        "meaning": "Musik",
+        "type": "Nomen",
+        "category": "Musik",
+        "level": "N1",
+        "notes": "Vor allem in Zusammensetzungen, Namen und Kommandos: ミュージックビデオ, ポップミュージック. Das allgemeine Wort ist 音楽.",
+        "examples": [
+          {
+            "japanese": "「ミュージック、スタート！」の合図で、ダンスが始まった。",
+            "romaji": "\"Myuujikku, sutaato!\" no aizu de, dansu ga hajimatta.",
+            "german": "Auf das Kommando „Musik ab!“ begann der Tanz."
+          },
+          {
+            "japanese": "私はポップミュージックが好きで、毎日聞いている。",
+            "romaji": "Watashi wa poppu myuujikku ga suki de, mainichi kiite iru.",
+            "german": "Ich mag Popmusik und höre sie jeden Tag."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257449719",
+            "patterns": [
+              1
+            ],
+            "finding": "ミュージック / ミュージック; 名詞/普通名詞/一般/*; *; *; lemma ミュージック-music; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ミュージック",
+              "reading": "ミュージック",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ミュージック as \"Musik\"."
+            }
+          }
+        ]
+      },
+      "5212": {
+        "word": "無意味",
+        "reading": "むいみ",
+        "romaji": "muimi",
+        "meaning": "sinnlos, bedeutungslos",
+        "type": "Adjektiv",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "な-Adjektiv: 無意味な争い (sinnloser Streit). Umgangssprachlicher: 意味がない.",
+        "examples": [
+          {
+            "japanese": "そんな議論を続けても無意味だ。",
+            "romaji": "Sonna giron o tsuzuketemo muimi da.",
+            "german": "Es ist sinnlos, so eine Diskussion fortzusetzen."
+          },
+          {
+            "japanese": "無意味な会議を減らして、仕事の時間を増やしたい。",
+            "romaji": "Muimi na kaigi o herashite, shigoto no jikan o fuyashitai.",
+            "german": "Ich möchte sinnlose Sitzungen reduzieren und mehr Zeit zum Arbeiten haben."
+          }
+        ],
+        "pitch": null
+      },
+      "5213": {
+        "word": "向き",
+        "reading": "むき",
+        "romaji": "muki",
+        "meaning": "Richtung, Ausrichtung; geeignet für (〜向き)",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N1",
+        "notes": "Richtung: 風の向き, 向きを変える. Als Suffix 〜向き: geeignet für (子ども向き, 初心者向き) oder ausgerichtet nach (南向きの部屋). Vgl. 〜向け (für … gedacht).",
+        "examples": [
+          {
+            "japanese": "机の向きを変えたら、部屋が広く見えるようになった。",
+            "romaji": "Tsukue no muki o kaetara, heya ga hiroku mieru you ni natta.",
+            "german": "Seit ich den Schreibtisch anders ausgerichtet habe, wirkt das Zimmer größer."
+          },
+          {
+            "japanese": "この仕事は、細かい作業が好きな人向きだ。",
+            "romaji": "Kono shigoto wa, komakai sagyou ga suki na hito muki da.",
+            "german": "Diese Arbeit eignet sich für Leute, die gern kleinteilig arbeiten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258062786",
+            "patterns": [
+              1
+            ],
+            "finding": "向き / ムキ; 名詞/普通名詞/一般/*; *; *; lemma 向き; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "向き",
+              "reading": "むき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "向き as \"Richtung, Ausrichtung; geeignet für (〜向き)\"."
+            }
+          }
+        ]
+      },
+      "5214": {
+        "word": "無口",
+        "reading": "むくち",
+        "romaji": "mukuchi",
+        "meaning": "schweigsam, wortkarg",
+        "type": "Adjektiv",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "な-Adjektiv: 無口な人 (ein wortkarger Mensch). Gegenteil: おしゃべり.",
+        "examples": [
+          {
+            "japanese": "父は無口だが、とても優しい人だ。",
+            "romaji": "Chichi wa mukuchi da ga, totemo yasashii hito da.",
+            "german": "Mein Vater ist wortkarg, aber ein sehr liebevoller Mensch."
+          },
+          {
+            "japanese": "彼は緊張すると無口になる。",
+            "romaji": "Kare wa kinchou suru to mukuchi ni naru.",
+            "german": "Wenn er nervös ist, wird er schweigsam."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258314662",
+            "patterns": [
+              1
+            ],
+            "finding": "無口 / ムクチ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 無口; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "無口",
+              "reading": "むくち",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "無口 as \"schweigsam, wortkarg\"."
+            }
+          }
+        ]
+      },
+      "5215": {
+        "word": "むしる",
+        "reading": "むしる",
+        "romaji": "mushiru",
+        "meaning": "(aus)rupfen, zupfen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv, meist in Kana: 草をむしる (Unkraut jäten), 鶏の羽をむしる. Auch: Fleisch von Gräten zupfen (魚の身をむしる).",
+        "examples": [
+          {
+            "japanese": "日曜日に、庭の草をむしった。",
+            "romaji": "Nichiyoubi ni, niwa no kusa o mushitta.",
+            "german": "Am Sonntag habe ich im Garten Unkraut gejätet."
+          },
+          {
+            "japanese": "焼いた魚の身を箸でむしって、子どもに食べさせた。",
+            "romaji": "Yaita sakana no mi o hashi de mushitte, kodomo ni tabesaseta.",
+            "german": "Ich zupfte mit den Stäbchen das Fleisch vom gegrillten Fisch und gab es dem Kind zu essen."
+          }
+        ],
+        "aliases": [
+          "毟る"
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "むしる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "むしる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258906371",
+            "patterns": [
+              0
+            ],
+            "finding": "むしる / ムシル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 毟る; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "むしる",
+              "reading": "むしる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "むしる as \"(aus)rupfen, zupfen\"."
+            }
+          }
+        ]
+      },
+      "5216": {
+        "word": "結び",
+        "reading": "むすび",
+        "romaji": "musubi",
+        "meaning": "Schluss, Abschluss (einer Rede, eines Textes)",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Der abschließende Teil: 手紙の結び, 結びの言葉 (Schlussworte). Weitere Bedeutungen: Knoten (蝶結び = Schleife) und おむすび (Reisbällchen).",
+        "examples": [
+          {
+            "japanese": "スピーチの結びに、お世話になった人たちへの感謝を述べた。",
+            "romaji": "Supiichi no musubi ni, osewa ni natta hitotachi e no kansha o nobeta.",
+            "german": "Am Schluss meiner Rede dankte ich allen, die mich unterstützt hatten."
+          },
+          {
+            "japanese": "手紙の結びには「お体を大切に」と書いた。",
+            "romaji": "Tegami no musubi ni wa \"okarada o taisetsu ni\" to kaita.",
+            "german": "Zum Abschluss des Briefes schrieb ich: „Pass gut auf dich auf.“"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258958291",
+            "patterns": [
+              0
+            ],
+            "finding": "結び / ムスビ; 名詞/普通名詞/一般/*; *; *; lemma 結び; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "結び",
+              "reading": "むすび",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "結び as \"Schluss, Abschluss (einer Rede, eines Textes)\"."
+            }
+          }
+        ]
+      },
+      "5217": {
+        "word": "結び付き",
+        "reading": "むすびつき",
+        "romaji": "musubitsuki",
+        "meaning": "Verbindung, Zusammenhang, Bindung",
+        "type": "Nomen",
+        "category": "Beziehungen",
+        "level": "N1",
+        "notes": "Enge Beziehung zwischen Menschen, Ländern oder Dingen: 地域の結び付き, 経済的な結び付き. Häufig auch 結びつき geschrieben.",
+        "examples": [
+          {
+            "japanese": "日本とこの国は、経済的な結び付きが強い。",
+            "romaji": "Nihon to kono kuni wa, keizaiteki na musubitsuki ga tsuyoi.",
+            "german": "Japan und dieses Land sind wirtschaftlich eng miteinander verbunden."
+          },
+          {
+            "japanese": "私は家族との結び付きを大切にしている。",
+            "romaji": "Watashi wa kazoku to no musubitsuki o taisetsu ni shite iru.",
+            "german": "Mir ist die Bindung zu meiner Familie wichtig."
+          }
+        ],
+        "aliases": [
+          "結びつき"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259033924",
+            "patterns": [
+              0
+            ],
+            "finding": "結び付き / ムスビツキ; 名詞/普通名詞/一般/*; *; *; lemma 結び付き; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "結び付き",
+              "reading": "むすびつき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "結び付き as \"Verbindung, Zusammenhang, Bindung\"."
+            }
+          }
+        ]
+      },
+      "5218": {
+        "word": "結び付く",
+        "reading": "むすびつく",
+        "romaji": "musubitsuku",
+        "meaning": "verbunden sein; führen zu",
+        "type": "Verb",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Intransitiv: AとBが結び付く (A und B hängen zusammen); 〜に結び付く = zu etwas führen: 努力が結果に結び付く. Transitiv: 結び付ける.",
+        "examples": [
+          {
+            "japanese": "毎日の練習が、ついに優勝に結び付いた。",
+            "romaji": "Mainichi no renshuu ga, tsui ni yuushou ni musubitsuita.",
+            "german": "Das tägliche Training führte schließlich zum Sieg."
+          },
+          {
+            "japanese": "この甘い香りは、私の子どもの頃の記憶と結び付いている。",
+            "romaji": "Kono amai kaori wa, watashi no kodomo no koro no kioku to musubitsuite iru.",
+            "german": "Dieser süße Duft ist für mich mit Kindheitserinnerungen verbunden."
+          }
+        ],
+        "aliases": [
+          "結びつく"
+        ],
+        "pitch": 4,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "むすびつく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "むすびつく",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259050220",
+            "patterns": [
+              4
+            ],
+            "finding": "結び付く / ムスビツク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 結び付く; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "結び付く",
+              "reading": "むすびつく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "結び付く as \"verbunden sein; führen zu\"."
+            }
+          }
+        ]
+      },
+      "5219": {
+        "word": "結び付ける",
+        "reading": "むすびつける",
+        "romaji": "musubitsukeru",
+        "meaning": "festbinden; verknüpfen, in Verbindung bringen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv zu 結び付く: 木にひもを結び付ける (eine Schnur an einen Baum binden); übertragen: 二つの事件を結び付ける (zwei Fälle miteinander in Verbindung bringen).",
+        "examples": [
+          {
+            "japanese": "風で飛ばないように、風船をいすに結び付けた。",
+            "romaji": "Kaze de tobanai you ni, fuusen o isu ni musubitsuketa.",
+            "german": "Damit er nicht wegfliegt, band ich den Luftballon am Stuhl fest."
+          },
+          {
+            "japanese": "警察は二つの事件を結び付けて考えている。",
+            "romaji": "Keisatsu wa futatsu no jiken o musubitsukete kangaete iru.",
+            "german": "Die Polizei bringt die beiden Fälle miteinander in Verbindung."
+          }
+        ],
+        "aliases": [
+          "結びつける"
+        ],
+        "pitch": 5,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "むすびつける",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "むすびつける",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259067752",
+            "patterns": [
+              5
+            ],
+            "finding": "結び付ける / ムスビツケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 結び付ける; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "結び付ける",
+              "reading": "むすびつける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "結び付ける as \"festbinden; verknüpfen, in Verbindung bringen\"."
+            }
+          }
+        ]
+      },
+      "5220": {
+        "word": "無線",
+        "reading": "むせん",
+        "romaji": "musen",
+        "meaning": "Funk; kabellos",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Funkverkehr (無線で連絡する) und allgemein „kabellos“: 無線LAN (WLAN). Gegenteil: 有線.",
+        "examples": [
+          {
+            "japanese": "船の上から無線で港に連絡した。",
+            "romaji": "Fune no ue kara musen de minato ni renraku shita.",
+            "german": "Vom Schiff aus wurde per Funk der Hafen verständigt."
+          },
+          {
+            "japanese": "この部屋は無線でインターネットにつながる。",
+            "romaji": "Kono heya wa musen de intaanetto ni tsunagaru.",
+            "german": "In diesem Zimmer kommt man kabellos ins Internet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259349687",
+            "patterns": [
+              0
+            ],
+            "finding": "無線 / ムセン; 名詞/普通名詞/一般/*; *; *; lemma 無線; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "無線",
+              "reading": "むせん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "無線 as \"Funk; kabellos\"."
+            }
+          }
+        ]
+      },
+      "5221": {
+        "word": "ムード",
+        "reading": "ムード",
+        "romaji": "muudo",
+        "meaning": "Stimmung, Atmosphäre",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Die Stimmung einer Situation oder Gruppe: いいムード, ムードメーカー (Stimmungsmacher). Ähnlich: 雰囲気.",
+        "examples": [
+          {
+            "japanese": "試合に勝って、チームのムードが明るくなった。",
+            "romaji": "Shiai ni katte, chiimu no muudo ga akaruku natta.",
+            "german": "Nach dem Sieg hellte sich die Stimmung im Team auf."
+          },
+          {
+            "japanese": "二人はいいムードだったのに、電話が鳴って台無しになった。",
+            "romaji": "Futari wa ii muudo datta noni, denwa ga natte dainashi ni natta.",
+            "german": "Die beiden waren gerade in romantischer Stimmung, als das Telefon klingelte und alles verdarb."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259946079",
+            "patterns": [
+              1
+            ],
+            "finding": "ムード / ムード; 名詞/普通名詞/一般/*; *; *; lemma ムード-mood; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ムード",
+              "reading": "ムード",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ムード as \"Stimmung, Atmosphäre\"."
+            }
+          }
+        ]
+      },
+      "5222": {
+        "word": "無念",
+        "reading": "むねん",
+        "romaji": "munen",
+        "meaning": "Bedauern, bittere Enttäuschung",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Tiefe Enttäuschung oder Groll über ein Scheitern: 無念の涙 (Tränen der Enttäuschung), 無念を晴らす (die Schmach tilgen). Stärker und förmlicher als 残念.",
+        "examples": [
+          {
+            "japanese": "決勝で負けた選手たちは、無念の涙を流した。",
+            "romaji": "Kesshou de maketa senshutachi wa, munen no namida o nagashita.",
+            "german": "Die im Finale unterlegenen Spieler vergossen Tränen der Enttäuschung."
+          },
+          {
+            "japanese": "夢を果たせずに亡くなった父の無念を思うと、胸が痛む。",
+            "romaji": "Yume o hatasezu ni nakunatta chichi no munen o omou to, mune ga itamu.",
+            "german": "Wenn ich daran denke, wie bitter es für meinen Vater war, zu sterben, ohne seinen Traum zu verwirklichen, tut mir das Herz weh."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259586571",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "無念 / ムネン; 名詞/普通名詞/形状詞可能/*; *; *; lemma 無念; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "無念",
+              "reading": "むねん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "無念 as \"Bedauern, bittere Enttäuschung\"."
+            }
+          }
+        ]
+      },
+      "5223": {
+        "word": "無用",
+        "reading": "むよう",
+        "romaji": "muyou",
+        "meaning": "nutzlos; unnötig; (auf Schildern) verboten",
+        "type": "Adjektiv",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "な-Adjektiv, eher förmlich: 無用な争い (unnötiger Streit), 心配ご無用 (keine Sorge). Auf Schildern „nicht erlaubt“: 天地無用 (nicht stürzen).",
+        "examples": [
+          {
+            "japanese": "無用なトラブルを避けるために、契約書をよく読んだ。",
+            "romaji": "Muyou na toraburu o sakeru tame ni, keiyakusho o yoku yonda.",
+            "german": "Um unnötigen Ärger zu vermeiden, las ich den Vertrag sorgfältig."
+          },
+          {
+            "japanese": "私のことなら、心配は無用です。",
+            "romaji": "Watashi no koto nara, shinpai wa muyou desu.",
+            "german": "Um mich brauchen Sie sich keine Sorgen zu machen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259614817",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "無用 / ムヨウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 無用; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "無用",
+              "reading": "むよう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "無用 as \"nutzlos; unnötig; (auf Schildern) verboten\"."
+            }
+          }
+        ]
+      },
+      "5224": {
+        "word": "名称",
+        "reading": "めいしょう",
+        "romaji": "meishou",
+        "meaning": "Bezeichnung, (offizieller) Name",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N1",
+        "notes": "Offizieller Name einer Sache, Organisation oder eines Produkts: 正式名称 (offizielle Bezeichnung). Für Personen sagt man 名前 oder 氏名. Gleich klingend: 名勝 (Sehenswürdigkeit).",
+        "examples": [
+          {
+            "japanese": "会社は来年から名称を変更する。",
+            "romaji": "Kaisha wa rainen kara meishou o henkou suru.",
+            "german": "Die Firma ändert ab nächstem Jahr ihren Namen."
+          },
+          {
+            "japanese": "この祭りの正式な名称を知っていますか。",
+            "romaji": "Kono matsuri no seishiki na meishou o shitte imasu ka.",
+            "german": "Kennen Sie die offizielle Bezeichnung dieses Festes?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260076175",
+            "patterns": [
+              0
+            ],
+            "finding": "名称 / メイショウ; 名詞/普通名詞/一般/*; *; *; lemma 名称; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "名称",
+              "reading": "めいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "名称 as \"Bezeichnung, (offizieller) Name\"."
+            }
+          }
+        ]
+      },
+      "5225": {
+        "word": "命中",
+        "reading": "めいちゅう",
+        "romaji": "meichuu",
+        "meaning": "Treffer, Volltreffer",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N1",
+        "notes": "Als Verb 命中する: ins Ziel treffen: 的に命中する. 命中率 = Trefferquote.",
+        "examples": [
+          {
+            "japanese": "彼の投げたボールは、見事に的に命中した。",
+            "romaji": "Kare no nageta booru wa, migoto ni mato ni meichuu shita.",
+            "german": "Sein Ball traf perfekt ins Ziel."
+          },
+          {
+            "japanese": "ミサイルは目標に命中しなかった。",
+            "romaji": "Misairu wa mokuhyou ni meichuu shinakatta.",
+            "german": "Die Rakete verfehlte ihr Ziel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260151771",
+            "patterns": [
+              0
+            ],
+            "finding": "命中 / メイチュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 命中; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "命中",
+              "reading": "めいちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "命中 as \"Treffer, Volltreffer\"."
+            }
+          }
+        ]
+      },
+      "5226": {
+        "word": "メーカー",
+        "reading": "メーカー",
+        "romaji": "meekaa",
+        "meaning": "Hersteller",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "Herstellerfirma, vor allem größere Unternehmen: 自動車メーカー (Autohersteller), 大手メーカー.",
+        "examples": [
+          {
+            "japanese": "このパソコンはどこのメーカーのですか。",
+            "romaji": "Kono pasokon wa doko no meekaa no desu ka.",
+            "german": "Von welchem Hersteller ist dieser Computer?"
+          },
+          {
+            "japanese": "兄は大手の自動車メーカーに勤めている。",
+            "romaji": "Ani wa oote no jidousha meekaa ni tsutomete iru.",
+            "german": "Mein älterer Bruder arbeitet bei einem großen Autohersteller."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262065691",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "メーカー / メーカー; 名詞/普通名詞/一般/*; *; *; lemma メーカー-maker; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "メーカー",
+              "reading": "メーカー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メーカー as \"Hersteller\"."
+            }
+          }
+        ]
+      },
+      "5227": {
+        "word": "目方",
+        "reading": "めかた",
+        "romaji": "mekata",
+        "meaning": "Gewicht",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N1",
+        "notes": "Etwas altmodisches Wort für 重さ, vor allem beim Wiegen von Waren: 目方を量る, 目方で売る (nach Gewicht verkaufen).",
+        "examples": [
+          {
+            "japanese": "魚屋さんは、魚の目方を量って値段を決めた。",
+            "romaji": "Sakanayasan wa, sakana no mekata o hakatte nedan o kimeta.",
+            "german": "Der Fischhändler wog den Fisch und legte den Preis fest."
+          },
+          {
+            "japanese": "このお菓子は目方で売られている。",
+            "romaji": "Kono okashi wa mekata de urarete iru.",
+            "german": "Diese Süßigkeiten werden nach Gewicht verkauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260253176",
+            "patterns": [
+              0
+            ],
+            "finding": "目方 / メカタ; 名詞/普通名詞/一般/*; *; *; lemma 目方; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "目方",
+              "reading": "めかた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "目方 as \"Gewicht\"."
+            }
+          }
+        ]
+      },
+      "5228": {
+        "word": "恵み",
+        "reading": "めぐみ",
+        "romaji": "megumi",
+        "meaning": "Segen, Gabe, Gnade",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Gaben der Natur oder göttliche Gnade: 自然の恵み, 恵みの雨 (ersehnter Regen nach Trockenheit). Verb: 恵む.",
+        "examples": [
+          {
+            "japanese": "海の恵みに感謝して、漁師たちは祭りを行う。",
+            "romaji": "Umi no megumi ni kansha shite, ryoushitachi wa matsuri o okonau.",
+            "german": "Aus Dankbarkeit für die Gaben des Meeres halten die Fischer ein Fest ab."
+          },
+          {
+            "japanese": "長い日照りの後の雨は、まさに恵みの雨だった。",
+            "romaji": "Nagai hideri no ato no ame wa, masa ni megumi no ame datta.",
+            "german": "Der Regen nach der langen Dürre war ein wahrer Segen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260526467",
+            "patterns": [
+              0
+            ],
+            "finding": "恵み / メグミ; 名詞/普通名詞/一般/*; *; *; lemma 恵み; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "恵み",
+              "reading": "めぐみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "恵み as \"Segen, Gabe, Gnade\"."
+            }
+          }
+        ]
+      },
+      "5229": {
+        "word": "雌",
+        "reading": "めす",
+        "romaji": "mesu",
+        "meaning": "Weibchen",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Weibliches Tier (auch Pflanze): 雌の猫. Gegenteil: 雄【おす】. Oft in Kana めす oder メス geschrieben.",
+        "examples": [
+          {
+            "japanese": "うちの猫は雌で、名前はモモです。",
+            "romaji": "Uchi no neko wa mesu de, namae wa Momo desu.",
+            "german": "Unsere Katze ist ein Weibchen und heißt Momo."
+          },
+          {
+            "japanese": "雌のカブトムシにはツノがない。",
+            "romaji": "Mesu no kabutomushi ni wa tsuno ga nai.",
+            "german": "Nashornkäferweibchen haben kein Horn."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261329116",
+            "patterns": [
+              2
+            ],
+            "finding": "雌 / メス; 名詞/普通名詞/一般/*; *; *; lemma 雌; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "雌",
+              "reading": "めす",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雌 as \"Weibchen\"."
+            }
+          }
+        ]
+      },
+      "5230": {
+        "word": "目つき",
+        "reading": "めつき",
+        "romaji": "metsuki",
+        "meaning": "Blick, Augenausdruck",
+        "type": "Nomen",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Wie jemand schaut, oft negativ: 目つきが悪い (einen finsteren Blick haben), 鋭い目つき. Auch 目付き geschrieben.",
+        "examples": [
+          {
+            "japanese": "あの男は目つきが悪いけど、本当は優しい人だ。",
+            "romaji": "Ano otoko wa metsuki ga warui kedo, hontou wa yasashii hito da.",
+            "german": "Der Mann hat zwar einen finsteren Blick, ist aber eigentlich ein netter Mensch."
+          },
+          {
+            "japanese": "猫は鋭い目つきで鳥をじっと見ていた。",
+            "romaji": "Neko wa surudoi metsuki de tori o jitto mite ita.",
+            "german": "Die Katze fixierte den Vogel mit scharfem Blick."
+          }
+        ],
+        "aliases": [
+          "目付き"
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261528316",
+            "patterns": [
+              1
+            ],
+            "finding": "目つき / メツキ; 名詞/普通名詞/一般/*; *; *; lemma 目付き; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "目つき",
+              "reading": "めつき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "目つき as \"Blick, Augenausdruck\"."
+            }
+          }
+        ]
+      },
+      "5231": {
+        "word": "目盛り",
+        "reading": "めもり",
+        "romaji": "memori",
+        "meaning": "Skala, Skalenstrich",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N1",
+        "notes": "Die Einteilung auf Messgeräten: 定規の目盛り, 温度計の目盛りを読む.",
+        "examples": [
+          {
+            "japanese": "温度計の目盛りを読んで、ノートに記録した。",
+            "romaji": "Ondokei no memori o yonde, nooto ni kiroku shita.",
+            "german": "Ich las die Skala des Thermometers ab und notierte den Wert."
+          },
+          {
+            "japanese": "計量カップの目盛りに合わせて、水を二百ミリリットル入れた。",
+            "romaji": "Keiryou kappu no memori ni awasete, mizu o nihyaku miririttoru ireta.",
+            "german": "Ich füllte Wasser bis zur 200-Milliliter-Markierung des Messbechers ein."
+          }
+        ],
+        "aliases": [
+          "目盛"
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261810816",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "目盛り / メモリ; 名詞/普通名詞/一般/*; *; *; lemma 目盛り; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "目盛り",
+              "reading": "めもり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "目盛り as \"Skala, Skalenstrich\"."
+            }
+          }
+        ]
+      },
+      "5232": {
+        "word": "メロディー",
+        "reading": "メロディー",
+        "romaji": "merodii",
+        "meaning": "Melodie",
+        "type": "Nomen",
+        "category": "Musik",
+        "level": "N1",
+        "notes": "Tonfolge eines Liedes: 懐かしいメロディー. Auch メロディ geschrieben.",
+        "examples": [
+          {
+            "japanese": "どこかで聞いたことのあるメロディーが流れてきた。",
+            "romaji": "Dokoka de kiita koto no aru merodii ga nagarete kita.",
+            "german": "Eine Melodie, die ich irgendwo schon einmal gehört hatte, erklang."
+          },
+          {
+            "japanese": "この曲は歌詞よりもメロディーが好きだ。",
+            "romaji": "Kono kyoku wa kashi yori mo merodii ga suki da.",
+            "german": "An diesem Lied gefällt mir die Melodie besser als der Text."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261926721",
+            "patterns": [
+              1
+            ],
+            "finding": "メロディー / メロディー; 名詞/普通名詞/一般/*; *; *; lemma メロディー-melody; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "メロディー",
+              "reading": "メロディー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メロディー as \"Melodie\"."
+            }
+          }
+        ]
       }
     },
     "vocab-n5": {
@@ -113705,7 +118720,123 @@ window.VOCAB_CORRECTION_RULES = {
       "5113": "vocab-n1:correction:wabi",
       "5114": "vocab-n1:correction:wabun",
       "5115": "vocab-n1:correction:wara",
-      "5116": "vocab-n1:correction:warumono"
+      "5116": "vocab-n1:correction:warumono",
+      "5117": "vocab-n1:correction:houshiki",
+      "5118": "vocab-n1:correction:houshutsu",
+      "5119": "vocab-n1:correction:boutou",
+      "5120": "vocab-n1:correction:boudou",
+      "5121": "vocab-n1:correction:boufuu",
+      "5122": "vocab-n1:correction:hourikomu",
+      "5123": "vocab-n1:correction:houridasu",
+      "5124": "vocab-n1:correction:hoon",
+      "5125": "vocab-n1:correction:hokyuu",
+      "5126": "vocab-n1:correction:hokyou",
+      "5127": "vocab-n1:correction:bokou",
+      "5128": "vocab-n1:correction:bokoku",
+      "5129": "vocab-n1:correction:pojishon",
+      "5130": "vocab-n1:correction:hoshimono",
+      "5131": "vocab-n1:correction:hoosu",
+      "5132": "vocab-n1:correction:poozu",
+      "5133": "vocab-n1:correction:hossa",
+      "5134": "vocab-n1:correction:hossoku",
+      "5135": "vocab-n1:correction:hotto",
+      "5136": "vocab-n1:correction:hotto-hot",
+      "5137": "vocab-n1:correction:potto",
+      "5138": "vocab-n1:correction:hoppeta",
+      "5139": "vocab-n1:correction:botsubotsu",
+      "5140": "vocab-n1:correction:boyaku",
+      "5141": "vocab-n1:correction:boyakeru",
+      "5142": "vocab-n1:correction:hoyou",
+      "5143": "vocab-n1:correction:hooru",
+      "5144": "vocab-n1:correction:boruto-volt",
+      "5145": "vocab-n1:correction:hongoku",
+      "5146": "vocab-n1:correction:hontai",
+      "5147": "vocab-n1:correction:honba",
+      "5148": "vocab-n1:correction:ponpu",
+      "5149": "vocab-n1:correction:maizou",
+      "5150": "vocab-n1:correction:maue",
+      "5151": "vocab-n1:correction:maeuri",
+      "5152": "vocab-n1:correction:maeoki",
+      "5153": "vocab-n1:correction:makasu",
+      "5154": "vocab-n1:correction:maaku",
+      "5155": "vocab-n1:correction:maku-membrane",
+      "5156": "vocab-n1:correction:makuru",
+      "5157": "vocab-n1:correction:magokoro",
+      "5158": "vocab-n1:correction:magotsuku",
+      "5159": "vocab-n1:correction:masashiku",
+      "5160": "vocab-n1:correction:mashi",
+      "5161": "vocab-n1:correction:majieru",
+      "5162": "vocab-n1:correction:mashita-below",
+      "5163": "vocab-n1:correction:mashite",
+      "5164": "vocab-n1:correction:masukomi",
+      "5165": "vocab-n1:correction:matagaru",
+      "5166": "vocab-n1:correction:machiawase",
+      "5167": "vocab-n1:correction:machigau",
+      "5168": "vocab-n1:correction:machidooshii",
+      "5169": "vocab-n1:correction:machinozomu",
+      "5170": "vocab-n1:correction:machimachi",
+      "5171": "vocab-n1:correction:makki",
+      "5172": "vocab-n1:correction:massaaji",
+      "5173": "vocab-n1:correction:mapputatsu",
+      "5174": "vocab-n1:correction:mato",
+      "5175": "vocab-n1:correction:matomari",
+      "5176": "vocab-n1:correction:matome",
+      "5177": "vocab-n1:correction:maneki",
+      "5178": "vocab-n1:correction:mahi",
+      "5179": "vocab-n1:correction:mama-occasionally",
+      "5180": "vocab-n1:correction:mamire",
+      "5181": "vocab-n1:correction:mari",
+      "5182": "vocab-n1:correction:marukkiri",
+      "5183": "vocab-n1:correction:marumaru",
+      "5184": "vocab-n1:correction:marumeru",
+      "5185": "vocab-n1:correction:manjou",
+      "5186": "vocab-n1:correction:manmae",
+      "5187": "vocab-n1:correction:manmarui",
+      "5188": "vocab-n1:correction:miai",
+      "5189": "vocab-n1:correction:miawaseru",
+      "5190": "vocab-n1:correction:mikai",
+      "5191": "vocab-n1:correction:mikaku",
+      "5192": "vocab-n1:correction:mijin",
+      "5193": "vocab-n1:correction:mizuke",
+      "5194": "vocab-n1:correction:misupurinto",
+      "5195": "vocab-n1:correction:misuborashii",
+      "5196": "vocab-n1:correction:misesu",
+      "5197": "vocab-n1:correction:misebirakasu",
+      "5198": "vocab-n1:correction:misemono",
+      "5199": "vocab-n1:correction:mizo",
+      "5200": "vocab-n1:correction:michi-unknown",
+      "5201": "vocab-n1:correction:mitsu",
+      "5202": "vocab-n1:correction:misshuu",
+      "5203": "vocab-n1:correction:minamoto",
+      "5204": "vocab-n1:correction:minarau",
+      "5205": "vocab-n1:correction:minari",
+      "5206": "vocab-n1:correction:mine",
+      "5207": "vocab-n1:correction:minoue",
+      "5208": "vocab-n1:correction:minomawari",
+      "5209": "vocab-n1:correction:mihakarau",
+      "5210": "vocab-n1:correction:miharashi",
+      "5211": "vocab-n1:correction:myuujikku",
+      "5212": "vocab-n1:correction:muimi",
+      "5213": "vocab-n1:correction:muki",
+      "5214": "vocab-n1:correction:mukuchi",
+      "5215": "vocab-n1:correction:mushiru",
+      "5216": "vocab-n1:correction:musubi",
+      "5217": "vocab-n1:correction:musubitsuki",
+      "5218": "vocab-n1:correction:musubitsuku",
+      "5219": "vocab-n1:correction:musubitsukeru",
+      "5220": "vocab-n1:correction:musen",
+      "5221": "vocab-n1:correction:muudo",
+      "5222": "vocab-n1:correction:munen",
+      "5223": "vocab-n1:correction:muyou",
+      "5224": "vocab-n1:correction:meishou",
+      "5225": "vocab-n1:correction:meichuu",
+      "5226": "vocab-n1:correction:meekaa",
+      "5227": "vocab-n1:correction:mekata",
+      "5228": "vocab-n1:correction:megumi",
+      "5229": "vocab-n1:correction:mesu",
+      "5230": "vocab-n1:correction:metsuki",
+      "5231": "vocab-n1:correction:memori",
+      "5232": "vocab-n1:correction:merodii"
     },
     "vocab-n5": {
       "0": "vocab-n5:0",
