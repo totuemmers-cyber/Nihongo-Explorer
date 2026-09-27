@@ -1,0 +1,1001 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:2809",
+      "revisionId": "051-vocab-n3-2809",
+      "state": "accepted",
+      "predecessorHash": "5cc1a5fce9ee1a322c8f653e19c37273d9264ab4a6a0c98a980480e2c95ed091",
+      "predecessorRevisionHash": null,
+      "originalHash": "5cc1a5fce9ee1a322c8f653e19c37273d9264ab4a6a0c98a980480e2c95ed091",
+      "rationale": "Relevel 韓国 from N3 to N5. No source list covers 韓国; N3 came from the original vocab-n3 import. 韓国語 (vocab-n5:correction:kankokugo), 中国 (vocab-n5:1005), アメリカ and ドイツ are taught at N5, and 韓国 is a country name of the same everyday kind. The example with N3 訪れる is replaced by N5-level sentences.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. No source list covers 韓国; N3 came from the original vocab-n3 import. 韓国語 (vocab-n5:correction:kankokugo), 中国 (vocab-n5:1005), アメリカ and ドイツ are taught at N5, and 韓国 is a country name of the same everyday kind. The example with N3 訪れる is replaced by N5-level sentences.",
+      "original": {
+        "level": "N3",
+        "examples": [
+          {
+            "japanese": "私は去年、韓国を訪れました。",
+            "romaji": "Watashi wa kyonen, Kankoku o otozuremashita.",
+            "german": "Ich habe letztes Jahr Südkorea besucht."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "level": "N5",
+        "examples": [
+          {
+            "japanese": "去年、韓国に行きました。",
+            "romaji": "Kyonen, Kankoku ni ikimashita.",
+            "german": "Letztes Jahr bin ich nach Südkorea gefahren."
+          },
+          {
+            "japanese": "韓国の料理が好きです。",
+            "romaji": "Kankoku no ryouri ga suki desu.",
+            "german": "Ich mag koreanisches Essen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100378229",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "韓国 / カンコク; 名詞/固有名詞/地名/国; *; *; lemma 韓国; aType 1. Existing pitch 1 attested by the exact place-name row.",
+            "match": {
+              "word": "韓国",
+              "reading": "かんこく",
+              "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+              "sense": "韓国 as \"Südkorea\"; the country name."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216170; spelling=韓国; reading=かんこく",
+          "finding": "JMdict 1216170 confirms 韓国 / かんこく; the relevel does not change the meaning \"Südkorea\".",
+          "selected": {
+            "sequence": "1216170",
+            "spelling": "韓国",
+            "reading": "かんこく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "South Korea",
+                  "Republic of Korea"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "historical term",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "Korean Empire (1897-1910)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel 韓国 from N3 to N5. No source list covers 韓国; N3 came from the original vocab-n3 import. 韓国語 (vocab-n5:correction:kankokugo), 中国 (vocab-n5:1005), アメリカ and ドイツ are taught at N5, and 韓国 is a country name of the same everyday kind. The example with N3 訪れる is replaced by N5-level sentences."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Südkorea\" unchanged; checked against JMdict 1216170.",
+        "japanese": "去年、韓国に行きました。 / 韓国の料理が好きです。 — new N5-level examples replace the N3 訪れる sentence; checked for grammar and naturalness.",
+        "romanization": "Example romaji checked against the kana.",
+        "translation": "German translations checked.",
+        "contexts": [
+          "Letztes Jahr bin ich nach Südkorea gefahren.",
+          "Ich mag koreanisches Essen."
+        ],
+        "lexical": "JMdict 1216170; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N3 → N5. No source list covers 韓国; N3 came from the original vocab-n3 import. 韓国語 (vocab-n5:correction:kankokugo), 中国 (vocab-n5:1005), アメリカ and ドイツ are taught at N5, and 韓国 is a country name of the same everyday kind. The example with N3 訪れる is replaced by N5-level sentences."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic place-name row sys.dic@100378229 attests 1; existing pitch unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100378229",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "韓国 / カンコク; 名詞/固有名詞/地名/国; *; *; lemma 韓国; aType 1. Existing pitch 1 attested by the exact place-name row.",
+            "match": {
+              "word": "韓国",
+              "reading": "かんこく",
+              "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+              "sense": "韓国 as \"Südkorea\"; the country name."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel 韓国 from N3 to N5. No source list covers 韓国; N3 came from the original vocab-n3 import. 韓国語 (vocab-n5:correction:kankokugo), 中国 (vocab-n5:1005), アメリカ and ドイツ are taught at N5, and 韓国 is a country name of the same everyday kind. The example with N3 訪れる is replaced by N5-level sentences. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "70cf2460fc20d698dcddfa87edfda3e0f51eaa0b4573c35cb40e0ce393041217",
+        "approvalHash": "2c259ecd320461e5077963baf266e99a59306681b424f88f5330701b75414562"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: Round 2: the fixes are applied. The final content differs from the runtime in level (N3 -> N5), examples and the added pitchProvenance, and nothing else. The levelBasis now reads \"No source list covers 韓国; N3 came from the original vocab-n3 import\", which matches the ledger (only the baseline row exists). It also cites 韓国語 vocab-n5:correction:kankokugo (N5), 中国 vocab-n5:1005, アメリカ and ドイツ (N5), all accurate. The new examples are correct. 去年、韓国に行きました。 / \"Kyonen, Kankoku ni ikimashita.\" / \"Letztes Jahr bin ich nach Südkorea gefahren.\" is natural N5 Japanese with exact romaji and a correct translation. 韓国の料理が好きです。 / \"Kankoku no ryouri ga suki desu.\" / \"Ich mag koreanisches Essen.\" is also natural, with doubled-vowel romaji and an idiomatic translation. Both use the headword, all their vocabulary is N5, and the two contexts (travel, food preference) are distinct. The pitch provenance is unchanged from round 1: exact place-name row sys.dic@100378229, aType 1, matching pitch 1. Non-blocking: policy.reasons lists only \"level\" although the examples were also replaced; the consequential policy covers this, and the review fields document the new examples.",
+        "contentHash": "70cf2460fc20d698dcddfa87edfda3e0f51eaa0b4573c35cb40e0ce393041217",
+        "approvalHash": "2c259ecd320461e5077963baf266e99a59306681b424f88f5330701b75414562"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:dezain",
+      "revisionId": "051-vocab-n1-correction-dezain",
+      "state": "accepted",
+      "predecessorHash": "5f3f9819c4feb0d0ccc5dcae70f34bed15009bd6da1cb001d91a40d7d84425c8",
+      "predecessorRevisionHash": "f39b2525193dd049217d367e04e737bf28b0af30d529d49912b5fbe456ea9dfa",
+      "originalHash": "5f3f9819c4feb0d0ccc5dcae70f34bed15009bd6da1cb001d91a40d7d84425c8",
+      "rationale": "Relevel デザイン from N1 to N3. Everyday loanword (服のデザイン, デザインする); Tanos and Nihongo Master list it only at N1, but it is common from intermediate level on, like other everyday loanwords taught at N3.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Everyday loanword (服のデザイン, デザインする); Tanos and Nihongo Master list it only at N1, but it is common from intermediate level on, like other everyday loanwords taught at N3.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1082900; spelling=デザイン; reading=デザイン",
+          "finding": "JMdict 1082900 confirms デザイン / デザイン; the relevel does not change the meaning \"Design, Gestaltung\".",
+          "selected": {
+            "sequence": "1082900",
+            "spelling": "デザイン",
+            "reading": "デザイン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "design"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel デザイン from N1 to N3. Everyday loanword (服のデザイン, デザインする); Tanos and Nihongo Master list it only at N1, but it is common from intermediate level on, like other everyday loanwords taught at N3."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Design, Gestaltung\" unchanged; checked against JMdict 1082900.",
+        "japanese": "このスマホはデザインがシンプルで気に入っている。 / 彼女は自分で服をデザインして作っている。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Mir gefällt das schlichte Design dieses Smartphones.",
+          "Sie entwirft und näht ihre Kleidung selbst."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1082900; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N3. Everyday loanword (服のデザイン, デザインする); Tanos and Nihongo Master list it only at N1, but it is common from intermediate level on, like other everyday loanwords taught at N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 2 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182261594",
+            "patterns": [
+              2
+            ],
+            "finding": "デザイン / デザイン; 名詞/普通名詞/サ変可能/*; *; *; lemma デザイン-design; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "デザイン",
+              "reading": "デザイン",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "デザイン as \"Design, Gestaltung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel デザイン from N1 to N3. Everyday loanword (服のデザイン, デザインする); Tanos and Nihongo Master list it only at N1, but it is common from intermediate level on, like other everyday loanwords taught at N3. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5aa95dc66074fca62ed71d0c8da59c9a3e0635c81726796266bf4b5a84672388",
+        "approvalHash": "f3c871f70a95ea4dea5dd30a4f76b2834f373a0283b088ca2edb82b3277f0146"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: デザイン N1 -> N3 is re-accepted. It sits with the everyday loanwords at N3 (ストレス, スタイル, チャンス, サイン, セット). The levelBasis matches the ledger (Tanos and Nihongo Master N1). Pitch 2 with provenance sys.dic@182261594 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "5aa95dc66074fca62ed71d0c8da59c9a3e0635c81726796266bf4b5a84672388",
+        "approvalHash": "f3c871f70a95ea4dea5dd30a4f76b2834f373a0283b088ca2edb82b3277f0146"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:teishoku",
+      "revisionId": "051-vocab-n1-correction-teishoku",
+      "state": "accepted",
+      "predecessorHash": "b82175a864d1341290725474a1b7ad35694a2db08f5aca597aae1f6eb3585683",
+      "predecessorRevisionHash": "e6a612a04580e458c9fcc03529f3b9bb7ca0f1192188fb28d65077b8399bafcf",
+      "originalHash": "b82175a864d1341290725474a1b7ad35694a2db08f5aca597aae1f6eb3585683",
+      "rationale": "Relevel 定食 from N1 to N4. Restaurant vocabulary on every lunch menu (ランチ定食); 食堂 and 弁当 are taught at N5, so N4 fits.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Restaurant vocabulary on every lunch menu (ランチ定食); 食堂 and 弁当 are taught at N5, so N4 fits.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1435650; spelling=定食; reading=ていしょく",
+          "finding": "JMdict 1435650 confirms 定食 / ていしょく; the relevel does not change the meaning \"Menü, Tagesgericht (festes Gericht mit Beilagen)\".",
+          "selected": {
+            "sequence": "1435650",
+            "spelling": "定食",
+            "reading": "ていしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "set meal",
+                  "special (of the day)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel 定食 from N1 to N4. Restaurant vocabulary on every lunch menu (ランチ定食); 食堂 and 弁当 are taught at N5, so N4 fits."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Menü, Tagesgericht (festes Gericht mit Beilagen)\" unchanged; checked against JMdict 1435650.",
+        "japanese": "昼は駅前の食堂で焼き魚定食を食べた。 / この店の定食はご飯のおかわりが無料だ。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Mittags habe ich im Lokal am Bahnhof ein Menü mit gegrilltem Fisch gegessen.",
+          "Bei den Menüs in diesem Lokal ist der Nachschlag an Reis kostenlos."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1435650; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N4. Restaurant vocabulary on every lunch menu (ランチ定食); 食堂 and 弁当 are taught at N5, so N4 fits."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179939505",
+            "patterns": [
+              0
+            ],
+            "finding": "定食 / テイショク; 名詞/普通名詞/一般/*; *; *; lemma 定食; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "定食",
+              "reading": "ていしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "定食 as \"Menü, Tagesgericht (festes Gericht mit Beilagen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel 定食 from N1 to N4. Restaurant vocabulary on every lunch menu (ランチ定食); 食堂 and 弁当 are taught at N5, so N4 fits. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f8a5aaf0cabe9cf0aaa6af7f624832c26d6eda15b0065ad98c3b5f3e865618c6",
+        "approvalHash": "2da6854c31135e390375b9bd4fb172e8802b60529dff04329175c94bc0dce206"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: 定食 N1 -> N4 is re-accepted. 食堂 and 弁当 are N5, as the rationale states. Pitch 0 with provenance sys.dic@179939505 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "f8a5aaf0cabe9cf0aaa6af7f624832c26d6eda15b0065ad98c3b5f3e865618c6",
+        "approvalHash": "2da6854c31135e390375b9bd4fb172e8802b60529dff04329175c94bc0dce206"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:toho",
+      "revisionId": "051-vocab-n1-correction-toho",
+      "state": "accepted",
+      "predecessorHash": "59197fa57823e62d38259669b6dd5520ef4bfea1435681f22bb7cbe7ef8e32fc",
+      "predecessorRevisionHash": "ec456b4c65e36f08132fcb24b650732c502ba9ead71076d51cef3adc1e927f79",
+      "originalHash": "59197fa57823e62d38259669b6dd5520ef4bfea1435681f22bb7cbe7ef8e32fc",
+      "rationale": "Relevel 徒歩 from N1 to N3. Standard in directions and ads (駅から徒歩5分); learners meet it as soon as they read signs and apartment listings, so N3 fits better than N1.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Standard in directions and ads (駅から徒歩5分); learners meet it as soon as they read signs and apartment listings, so N3 fits better than N1.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1444510; spelling=徒歩; reading=とほ",
+          "finding": "JMdict 1444510 confirms 徒歩 / とほ; the relevel does not change the meaning \"zu Fuß\".",
+          "selected": {
+            "sequence": "1444510",
+            "spelling": "徒歩",
+            "reading": "とほ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "walking",
+                  "going on foot"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel 徒歩 from N1 to N3. Standard in directions and ads (駅から徒歩5分); learners meet it as soon as they read signs and apartment listings, so N3 fits better than N1."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"zu Fuß\" unchanged; checked against JMdict 1444510.",
+        "japanese": "ホテルは駅から徒歩五分です。 / バスがないので、徒歩で行くしかない。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Das Hotel liegt fünf Minuten zu Fuß vom Bahnhof entfernt.",
+          "Da kein Bus fährt, bleibt nur der Fußweg."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1444510; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N3. Standard in directions and ads (駅から徒歩5分); learners meet it as soon as they read signs and apartment listings, so N3 fits better than N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@187634869",
+            "patterns": [
+              1
+            ],
+            "finding": "徒歩 / トホ; 名詞/普通名詞/一般/*; *; *; lemma 徒歩; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "徒歩",
+              "reading": "とほ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "徒歩 as \"zu Fuß\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel 徒歩 from N1 to N3. Standard in directions and ads (駅から徒歩5分); learners meet it as soon as they read signs and apartment listings, so N3 fits better than N1. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "191ca18dbd638a06e9e81a65f20c3dbbb2e73e8208f541da93d559c16db9d4b1",
+        "approvalHash": "e0e0fc97ee9587fbd71558609e2d3d9a303b51d60e48a08bd6272a4d6bb146e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: 徒歩 N1 -> N3 is re-accepted: the word is standard in signs and listings, and 歩く and 散歩 are N5. Pitch 1 with provenance sys.dic@187634869 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "191ca18dbd638a06e9e81a65f20c3dbbb2e73e8208f541da93d559c16db9d4b1",
+        "approvalHash": "e0e0fc97ee9587fbd71558609e2d3d9a303b51d60e48a08bd6272a4d6bb146e4"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:machiawase",
+      "revisionId": "051-vocab-n1-correction-machiawase",
+      "state": "accepted",
+      "predecessorHash": "1fdd691a0d5eb36ba208f1e6094dd108a44a3235b270a58f848ffff9782e760b",
+      "predecessorRevisionHash": "ec0796054fd06b713b3343ee07d2d5425203ce3a9272a624662cde6729f6fe5d",
+      "originalHash": "1fdd691a0d5eb36ba208f1e6094dd108a44a3235b270a58f848ffff9782e760b",
+      "rationale": "Relevel 待ち合わせ from N1 to N3. Everyday word for meeting up (待ち合わせの場所); 約束 is N5. N3 is used rather than N4 because the kanji compound form is intermediate.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Everyday word for meeting up (待ち合わせの場所); 約束 is N5. N3 is used rather than N4 because the kanji compound form is intermediate.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1410510; spelling=待ち合わせ; reading=まちあわせ",
+          "finding": "JMdict 1410510 confirms 待ち合わせ / まちあわせ; the relevel does not change the meaning \"Verabredung, Treffen (an einem vereinbarten Ort)\".",
+          "selected": {
+            "sequence": "1410510",
+            "spelling": "待ち合わせ",
+            "reading": "まちあわせ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "appointment"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel 待ち合わせ from N1 to N3. Everyday word for meeting up (待ち合わせの場所); 約束 is N5. N3 is used rather than N4 because the kanji compound form is intermediate."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Verabredung, Treffen (an einem vereinbarten Ort)\" unchanged; checked against JMdict 1410510.",
+        "japanese": "友達と駅の前で待ち合わせをしている。 / 待ち合わせの時間に五分遅れてしまった。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Ich bin mit einem Freund vor dem Bahnhof verabredet.",
+          "Ich bin fünf Minuten zu spät zum Treffen gekommen."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1410510; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N3. Everyday word for meeting up (待ち合わせの場所); 約束 is N5. N3 is used rather than N4 because the kanji compound form is intermediate."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250501649",
+            "patterns": [
+              0
+            ],
+            "finding": "待ち合わせ / マチアワセ; 名詞/普通名詞/サ変可能/*; *; *; lemma 待ち合わせ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "待ち合わせ",
+              "reading": "まちあわせ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "待ち合わせ as \"Verabredung, Treffen (an einem vereinbarten Ort)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel 待ち合わせ from N1 to N3. Everyday word for meeting up (待ち合わせの場所); 約束 is N5. N3 is used rather than N4 because the kanji compound form is intermediate. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f019daa4af9a2ffa5de81a479c84ad706b94aa0d963380c23cb4c765301dced3",
+        "approvalHash": "52e58f5470ba95fea1d1f65e5e3700d61437e22dc1dbe29d0d86c0a0a843703c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: 待ち合わせ N1 -> N3 is re-accepted. 約束 is N5 as stated. The verb 待ち合わせる is now aligned at N3 in this same batch, which resolves the round-1 consistency point. Pitch 0 with provenance sys.dic@250501649 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "f019daa4af9a2ffa5de81a479c84ad706b94aa0d963380c23cb4c765301dced3",
+        "approvalHash": "52e58f5470ba95fea1d1f65e5e3700d61437e22dc1dbe29d0d86c0a0a843703c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:meekaa",
+      "revisionId": "051-vocab-n1-correction-meekaa",
+      "state": "accepted",
+      "predecessorHash": "3638d8308fc74444fec979b75bb68f1cab8b271fe28393eb7f31cb522ff934f5",
+      "predecessorRevisionHash": "a14a43f8360ec6e75b82db007953cf691b84310dff389f4377d0c87482142ff7",
+      "originalHash": "3638d8308fc74444fec979b75bb68f1cab8b271fe28393eb7f31cb522ff934f5",
+      "rationale": "Relevel メーカー from N1 to N3. Common loanword for manufacturer (家電メーカー); 製品 is N4, so N3 fits.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Common loanword for manufacturer (家電メーカー); 製品 is N4, so N3 fits.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1132420; spelling=メーカー; reading=メーカー",
+          "finding": "JMdict 1132420 confirms メーカー / メーカー; the relevel does not change the meaning \"Hersteller\".",
+          "selected": {
+            "sequence": "1132420",
+            "spelling": "メーカー",
+            "reading": "メーカー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "manufacturer (esp. a major company)",
+                  "producer",
+                  "maker"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "maker (person or device that makes something)"
+                ],
+                "notes": [
+                  "in compounds"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel メーカー from N1 to N3. Common loanword for manufacturer (家電メーカー); 製品 is N4, so N3 fits."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Hersteller\" unchanged; checked against JMdict 1132420.",
+        "japanese": "このパソコンはどこのメーカーのですか。 / 兄は大手の自動車メーカーに勤めている。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Von welchem Hersteller ist dieser Computer?",
+          "Mein älterer Bruder arbeitet bei einem großen Autohersteller."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1132420; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N3. Common loanword for manufacturer (家電メーカー); 製品 is N4, so N3 fits."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262065691",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "メーカー / メーカー; 名詞/普通名詞/一般/*; *; *; lemma メーカー-maker; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "メーカー",
+              "reading": "メーカー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メーカー as \"Hersteller\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel メーカー from N1 to N3. Common loanword for manufacturer (家電メーカー); 製品 is N4, so N3 fits. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5627ac3c8b6f6dd192632399c300f5259c1856fbe1463c3219c471697441992d",
+        "approvalHash": "475903be5fbc5f35fd67d3a543f3144c95c5e1ab6629539ba1b24e07c78eb9ff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: メーカー N1 -> N3 is re-accepted. 製品 and 工場 are N4. Pitch 1 with variants [0] and provenance sys.dic@262065691 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "5627ac3c8b6f6dd192632399c300f5259c1856fbe1463c3219c471697441992d",
+        "approvalHash": "475903be5fbc5f35fd67d3a543f3144c95c5e1ab6629539ba1b24e07c78eb9ff"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:massaaji",
+      "revisionId": "051-vocab-n1-correction-massaaji",
+      "state": "accepted",
+      "predecessorHash": "2a7d8807e33cf1d3790c9735a7b3b83f6603579a5956c6a66db8f1a6422dad60",
+      "predecessorRevisionHash": "810e34c00fa0f08002093c1365c90a95b837f67c84907dd3bc6c2ead68a30735",
+      "originalHash": "2a7d8807e33cf1d3790c9735a7b3b83f6603579a5956c6a66db8f1a6422dad60",
+      "rationale": "Relevel マッサージ from N1 to N3. Common everyday loanword (マッサージを受ける); N1 overstates its difficulty; N3 like other everyday loanwords.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Common everyday loanword (マッサージを受ける); N1 overstates its difficulty; N3 like other everyday loanwords.",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1128360; spelling=マッサージ; reading=マッサージ",
+          "finding": "JMdict 1128360 confirms マッサージ / マッサージ; the relevel does not change the meaning \"Massage\".",
+          "selected": {
+            "sequence": "1128360",
+            "spelling": "マッサージ",
+            "reading": "マッサージ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "massage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel マッサージ from N1 to N3. Common everyday loanword (マッサージを受ける); N1 overstates its difficulty; N3 like other everyday loanwords."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"Massage\" unchanged; checked against JMdict 1128360.",
+        "japanese": "疲れたので、マッサージを受けに行った。 / 母の肩をマッサージしてあげた。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Weil ich erschöpft war, ließ ich mich massieren.",
+          "Ich habe meiner Mutter die Schultern massiert."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1128360; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N1 → N3. Common everyday loanword (マッサージを受ける); N1 overstates its difficulty; N3 like other everyday loanwords."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 3 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250939259",
+            "patterns": [
+              3,
+              1
+            ],
+            "finding": "マッサージ / マッサージ; 名詞/普通名詞/サ変可能/*; *; *; lemma マッサージ-massage; aType 3,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "マッサージ",
+              "reading": "マッサージ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "マッサージ as \"Massage\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel マッサージ from N1 to N3. Common everyday loanword (マッサージを受ける); N1 overstates its difficulty; N3 like other everyday loanwords. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f65eb1b2fa082ee8044bf2bd268268637a9270b90c93aeef2123db0a904aa0f1",
+        "approvalHash": "33db5d12740398ae35fa40c2ff9ac16ea97e70c5c12c28d058dc4e5fbf478d8e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: マッサージ N1 -> N3 is re-accepted; it sits with the everyday loanwords at N3. Pitch 3 with variants [1] and provenance sys.dic@250939259 is unchanged. Round 2: the author.cjs diff against before-r1 does not touch this entry. Its final content differs from the runtime only in level, and its pitch provenance is carried unchanged.",
+        "contentHash": "f65eb1b2fa082ee8044bf2bd268268637a9270b90c93aeef2123db0a904aa0f1",
+        "approvalHash": "33db5d12740398ae35fa40c2ff9ac16ea97e70c5c12c28d058dc4e5fbf478d8e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:machiawaseru",
+      "revisionId": "051-vocab-n2-correction-machiawaseru",
+      "state": "accepted",
+      "predecessorHash": "2a34260f70a6dc65c13a1c71a11ea961660d2ab70c48322e98796160cba9e706",
+      "predecessorRevisionHash": "af4f2c0b67ad70f836b7c72de00070f2e78f2ceac5974b9d990ac19e42498156",
+      "originalHash": "2a34260f70a6dc65c13a1c71a11ea961660d2ab70c48322e98796160cba9e706",
+      "rationale": "Relevel 待ち合わせる from N2 to N3. Aligned with the noun 待ち合わせ (N3, batch 051): the verb is just as everyday (駅で友達と待ち合わせる) and its note points to the noun.",
+      "levelBasis": "Project-owner override (2026-09-27): the owner decided that obvious everyday words are leveled by usage, not by the source lists. Aligned with the noun 待ち合わせ (N3, batch 051): the verb is just as everyday (駅で友達と待ち合わせる) and its note points to the noun.",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1410520; spelling=待ち合わせる; reading=まちあわせる",
+          "finding": "JMdict 1410520 confirms 待ち合わせる / まちあわせる; the relevel does not change the meaning \"sich verabreden (an einem Ort), sich treffen\".",
+          "selected": {
+            "sequence": "1410520",
+            "spelling": "待ち合わせる",
+            "reading": "まちあわせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to rendezvous",
+                  "to meet at a prearranged place and time",
+                  "to arrange to meet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Project-owner decision (maintenance batch 051)",
+          "version": "2026-09-27",
+          "locator": "conversation with the project owner, 2026-09-27",
+          "finding": "Relevel 待ち合わせる from N2 to N3. Aligned with the noun 待ち合わせ (N3, batch 051): the verb is just as everyday (駅で友達と待ち合わせる) and its note points to the noun."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-051-editor",
+        "meaning": "\"sich verabreden (an einem Ort), sich treffen\" unchanged; checked against JMdict 1410520.",
+        "japanese": "駅の改札で六時に待ち合わせましょう。 / 友達と待ち合わせたが、なかなか来なかった。 — unchanged; checked that the examples suit the new level.",
+        "romanization": "Unchanged.",
+        "translation": "Unchanged.",
+        "contexts": [
+          "Treffen wir uns um sechs an der Bahnsteigsperre.",
+          "Ich war mit einem Freund verabredet, aber er kam lange nicht."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1410520; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "N2 → N3. Aligned with the noun 待ち合わせ (N3, batch 051): the verb is just as everyday (駅で友達と待ち合わせる) and its note points to the noun."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 5 and its exact-row provenance are unchanged by the relevel.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250522064",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "待ち合わせる / マチアワセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 待ち合わせる; aType 5,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "待ち合わせる",
+              "reading": "まちあわせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "待ち合わせる as \"sich verabreden (an einem Ort), sich treffen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-editor",
+        "finding": "Editorial first pass: Relevel 待ち合わせる from N2 to N3. Aligned with the noun 待ち合わせ (N3, batch 051): the verb is just as everyday (駅で友達と待ち合わせる) and its note points to the noun. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "36d3ae1eb3aa8840f28a3b1ec7c5ec44085a27c083dc38541e5b11c1da42306d",
+        "approvalHash": "0cc0cb7f514d634178322265a651801aefbe916602372f4cf97ad625e0997beb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-051-independent-reviewer",
+        "finding": "Second pass: New in round 2: 待ち合わせる N2 -> N3, aligning the verb with the noun 待ち合わせ (N3, same batch). The final content differs from the runtime only in level. The pitch is unchanged and its provenance is byte-identical to the runtime: pitch 5 with variants [0], and exact row sys.dic@250522064 (待ち合わせる/マチアワセル, 下一段-サ行, aType 5,0). The ichidan metadata (まちあわせる) is unchanged. The review text is verb-aware (\"Unchanged verb metadata.\", \"Unchanged (ichidan).\"). JMdict 1410520 is cited, and enrichmentRequired is true for this correction id. The two existing examples (駅の改札で六時に待ち合わせましょう。 / 友達と待ち合わせたが、なかなか来なかった。) are natural and suit N3. The levelBasis is accurate: the verb's note points to the noun. Tanos lists it at N2, but the owner override applies.",
+        "contentHash": "36d3ae1eb3aa8840f28a3b1ec7c5ec44085a27c083dc38541e5b11c1da42306d",
+        "approvalHash": "0cc0cb7f514d634178322265a651801aefbe916602372f4cf97ad625e0997beb"
+      }
+    }
+  ],
+  "decisions": []
+}

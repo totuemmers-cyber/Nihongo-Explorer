@@ -97,7 +97,10 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   但し), headwords 繁盛 and 捕らえる with the old spellings as aliases, romaji and German fixes, and
   the additions よほど, 本格的 and 浸ける.
 
-Runtime: **15,558 entries** (N5 1,643, N4 1,637, N3 3,753, N2 3,172, N1 5,353),
+- **051 (owner override for everyday words):** 韓国 → N5, 定食 → N4, デザイン, 徒歩, 待ち合わせ(る),
+  メーカー and マッサージ → N3, although the source lists place them higher.
+
+Runtime: **15,558 entries** (N5 1,644, N4 1,638, N3 3,758, N2 3,171, N1 5,347),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

@@ -39965,7 +39965,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Menü, Tagesgericht (festes Gericht mit Beilagen)",
         "type": "Nomen",
         "category": "Essen",
-        "level": "N1",
+        "level": "N4",
         "notes": "Festes Gericht mit Reis, Misosuppe und Beilagen, typisch in Kantinen und einfachen Lokalen: 焼き魚定食, 日替わり定食 (Tagesmenü).",
         "examples": [
           {
@@ -40317,7 +40317,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Design, Gestaltung",
         "type": "Nomen",
         "category": "Kunst",
-        "level": "N1",
+        "level": "N3",
         "notes": "Gestaltung von Produkten, Kleidung oder Grafik; als Verb デザインする. デザイナー = Designer.",
         "examples": [
           {
@@ -43493,7 +43493,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "zu Fuß",
         "type": "Nomen",
         "category": "Verkehr",
-        "level": "N1",
+        "level": "N3",
         "notes": "Förmlich für 歩いて: 駅から徒歩五分 (fünf Minuten zu Fuß vom Bahnhof) – typisch in Wohnungs- und Hotelanzeigen.",
         "examples": [
           {
@@ -55751,7 +55751,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Verabredung, Treffen (an einem vereinbarten Ort)",
         "type": "Nomen",
         "category": "Alltag",
-        "level": "N1",
+        "level": "N3",
         "notes": "Das verabredete Treffen an einem Ort: 待ち合わせ場所 (Treffpunkt), 駅で待ち合わせをする. Verb: 待ち合わせる.",
         "examples": [
           {
@@ -56023,7 +56023,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Massage",
         "type": "Nomen",
         "category": "Gesundheit",
-        "level": "N1",
+        "level": "N3",
         "notes": "Auch als Verb マッサージする: 肩をマッサージする. Eine Massage bekommen: マッサージを受ける.",
         "examples": [
           {
@@ -58348,7 +58348,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Hersteller",
         "type": "Nomen",
         "category": "Wirtschaft",
-        "level": "N1",
+        "level": "N3",
         "notes": "Herstellerfirma, vor allem größere Unternehmen: 自動車メーカー (Autohersteller), 大手メーカー.",
         "examples": [
           {
@@ -75955,6 +75955,39 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Ausdruck",
         "pitch": null
       },
+      "2809": {
+        "level": "N5",
+        "examples": [
+          {
+            "japanese": "去年、韓国に行きました。",
+            "romaji": "Kyonen, Kankoku ni ikimashita.",
+            "german": "Letztes Jahr bin ich nach Südkorea gefahren."
+          },
+          {
+            "japanese": "韓国の料理が好きです。",
+            "romaji": "Kankoku no ryouri ga suki desu.",
+            "german": "Ich mag koreanisches Essen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100378229",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "韓国 / カンコク; 名詞/固有名詞/地名/国; *; *; lemma 韓国; aType 1. Existing pitch 1 attested by the exact place-name row.",
+            "match": {
+              "word": "韓国",
+              "reading": "かんこく",
+              "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+              "sense": "韓国 as \"Südkorea\"; the country name."
+            }
+          }
+        ]
+      },
       "2847": {
         "examples": [
           {
@@ -92505,7 +92538,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "sich verabreden (an einem Ort), sich treffen",
         "type": "Verb",
         "category": "Handlung",
-        "level": "N2",
+        "level": "N3",
         "notes": "Sich zu einer vereinbarten Zeit an einem Ort treffen: 駅で友達と待ち合わせる. Nomen: 待ち合わせ (Verabredung, Treffpunkt).",
         "examples": [
           {
@@ -119858,6 +119891,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2694": "vocab-n3:2694",
       "2748": "vocab-n3:2748",
       "2760": "vocab-n3:2760",
+      "2809": "vocab-n3:2809",
       "2847": "vocab-n3:2847",
       "2853": "vocab-n3:2853",
       "2883": "vocab-n3:2883",

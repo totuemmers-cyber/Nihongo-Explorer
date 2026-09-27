@@ -111026,7 +111026,7 @@ window.VOCAB_N1 = [
     "meaning": "Menü, Tagesgericht (festes Gericht mit Beilagen)",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N1",
+    "level": "N4",
     "notes": "Festes Gericht mit Reis, Misosuppe und Beilagen, typisch in Kantinen und einfachen Lokalen: 焼き魚定食, 日替わり定食 (Tagesmenü).",
     "examples": [
       {
@@ -111386,7 +111386,7 @@ window.VOCAB_N1 = [
     "meaning": "Design, Gestaltung",
     "type": "Nomen",
     "category": "Kunst",
-    "level": "N1",
+    "level": "N3",
     "notes": "Gestaltung von Produkten, Kleidung oder Grafik; als Verb デザインする. デザイナー = Designer.",
     "examples": [
       {
@@ -114635,7 +114635,7 @@ window.VOCAB_N1 = [
     "meaning": "zu Fuß",
     "type": "Nomen",
     "category": "Verkehr",
-    "level": "N1",
+    "level": "N3",
     "notes": "Förmlich für 歩いて: 駅から徒歩五分 (fünf Minuten zu Fuß vom Bahnhof) – typisch in Wohnungs- und Hotelanzeigen.",
     "examples": [
       {
@@ -127182,7 +127182,7 @@ window.VOCAB_N1 = [
     "meaning": "Verabredung, Treffen (an einem vereinbarten Ort)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N1",
+    "level": "N3",
     "notes": "Das verabredete Treffen an einem Ort: 待ち合わせ場所 (Treffpunkt), 駅で待ち合わせをする. Verb: 待ち合わせる.",
     "examples": [
       {
@@ -127460,7 +127460,7 @@ window.VOCAB_N1 = [
     "meaning": "Massage",
     "type": "Nomen",
     "category": "Gesundheit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Auch als Verb マッサージする: 肩をマッサージする. Eine Massage bekommen: マッサージを受ける.",
     "examples": [
       {
@@ -129839,7 +129839,7 @@ window.VOCAB_N1 = [
     "meaning": "Hersteller",
     "type": "Nomen",
     "category": "Wirtschaft",
-    "level": "N1",
+    "level": "N3",
     "notes": "Herstellerfirma, vor allem größere Unternehmen: 自動車メーカー (Autohersteller), 大手メーカー.",
     "examples": [
       {

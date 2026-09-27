@@ -49754,7 +49754,7 @@ window.VOCAB_N2 = [
     "meaning": "sich verabreden (an einem Ort), sich treffen",
     "type": "Verb",
     "category": "Handlung",
-    "level": "N2",
+    "level": "N3",
     "notes": "Sich zu einer vereinbarten Zeit an einem Ort treffen: 駅で友達と待ち合わせる. Nomen: 待ち合わせ (Verabredung, Treffpunkt).",
     "examples": [
       {

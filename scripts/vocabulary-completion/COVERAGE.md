@@ -5,17 +5,17 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 | Measure | Count |
 | --- | ---: |
 | Entries | 15558 |
-| Accepted editorial reviews | 3097 |
-| Pending entry reviews | 12461 |
-| Unresolved candidate groups | 1405 |
-| Unresolved candidate references | 1907 |
-| Verified pitch | 2731 |
+| Accepted editorial reviews | 3098 |
+| Pending entry reviews | 12460 |
+| Unresolved candidate groups | 1413 |
+| Unresolved candidate references | 1922 |
+| Verified pitch | 2732 |
 | Investigated unknown pitch | 366 |
-| Uninvestigated pitch | 12461 |
-| Optional missing notes among accepted reviews | 562 |
+| Uninvestigated pitch | 12460 |
+| Optional missing notes among accepted reviews | 563 |
 | Optional missing second context among accepted reviews | 107 |
 | Open sample defects | 0 |
 
 Review completion: **open**. Strict enrichment: **open**.
 
-Ledger SHA256: `50d386113c25f84d0448b0a94ccb2113e5cca642f344d79e453696caa5a391cd`.
+Ledger SHA256: `079cb6c7b92dfeee9466920bfef66abc9be58ac2488055941c74549b111deb3c`.
