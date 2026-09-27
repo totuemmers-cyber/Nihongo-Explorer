@@ -1,0 +1,3561 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:2387",
+      "revisionId": "054-vocab-n2-2387",
+      "state": "accepted",
+      "predecessorHash": "422050523a1959235591288c6b3bc1953ab5f9a9731c3fbebf985fe0172b9472",
+      "predecessorRevisionHash": null,
+      "originalHash": "422050523a1959235591288c6b3bc1953ab5f9a9731c3fbebf985fe0172b9472",
+      "rationale": "All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N5: メニュー is everyday restaurant vocabulary like レストラン (N5) and is needed from the first restaurant dialogue.",
+      "original": {
+        "romaji": "menyuu",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "メニューを見せてください。",
+            "romaji": "Menyuu o misete kudasai.",
+            "german": "Zeigen Sie mir bitte die Speisekarte."
+          },
+          {
+            "kind": "natural",
+            "japanese": "季節ごとにメニューが変わります。",
+            "romaji": "Kisetsugoto ni menyuu ga kawarimasu.",
+            "german": "Die Speisekarte wechselt mit den Jahreszeiten."
+          }
+        ],
+        "level": "N2",
+        "pitch": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "menyū",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "メニューを見せてください。",
+            "romaji": "Menyū o misete kudasai.",
+            "german": "Zeigen Sie mir bitte die Speisekarte."
+          },
+          {
+            "kind": "natural",
+            "japanese": "季節ごとにメニューが変わります。",
+            "romaji": "Kisetsugoto ni menyū ga kawarimasu.",
+            "german": "Die Speisekarte wechselt mit den Jahreszeiten."
+          }
+        ],
+        "level": "N5",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261671673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "メニュー / メニュー; 名詞/普通名詞/一般/*; *; *; lemma メニュー-menu; aType 1. Existing null unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "メニュー",
+              "reading": "メニュー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メニュー as \"Speisekarte; Menüauswahl\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1133790; spelling=メニュー; reading=メニュー",
+          "finding": "JMdict 1133790 メニュー/メニュー confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1133790",
+            "spelling": "メニュー",
+            "reading": "メニュー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "menu"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "schedule",
+                  "program",
+                  "programme",
+                  "course",
+                  "services"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": "owner decision, conversation 2026-09-27",
+          "finding": "All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N5: メニュー is everyday restaurant vocabulary like レストラン (N5) and is needed from the first restaurant dialogue."
+        }
+      ],
+      "levelBasis": "Project-owner override (2026-09-27): levels follow real-world usage where the source lists or the legacy import disagree. メニュー is everyday restaurant vocabulary like レストラン (N5) and is needed from the first restaurant dialogue.",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization",
+          "level"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Speisekarte; Menüauswahl\" unchanged; checked against JMdict 1133790.",
+        "japanese": "メニューを見せてください。 / 季節ごとにメニューが変わります。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"menyū\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Zeigen Sie mir bitte die Speisekarte.",
+          "Die Speisekarte wechselt mit den Jahreszeiten."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N2 → N5. メニュー is everyday restaurant vocabulary like レストラン (N5) and is needed from the first restaurant dialogue."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@261671673 attests 1. Existing null unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261671673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "メニュー / メニュー; 名詞/普通名詞/一般/*; *; *; lemma メニュー-menu; aType 1. Existing null unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "メニュー",
+              "reading": "メニュー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メニュー as \"Speisekarte; Menüauswahl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N5: メニュー is everyday restaurant vocabulary like レストラン (N5) and is needed from the first restaurant dialogue. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "dc3c0bdd37d9d2945dbd38645bde5281843d5589c41d7d23483117f6b3e8f2ed",
+        "approvalHash": "b38f76362d32a38a9e42c01084706161c68a23f78b8b0ffe01b66ba0a57a8324"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Relevel N2 -> N5 per owner decision; levelBasis accurate (Tanos and Master both N2, overridden; レストラン is N5). menyū headword/examples in Hepburn; pitch null -> 1 from own row メニュー sys.dic@261671673 (lemma メニュー-menu). Japanese, German, meaning and type untouched.",
+        "contentHash": "dc3c0bdd37d9d2945dbd38645bde5281843d5589c41d7d23483117f6b3e8f2ed",
+        "approvalHash": "b38f76362d32a38a9e42c01084706161c68a23f78b8b0ffe01b66ba0a57a8324"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ranchi",
+      "revisionId": "054-vocab-n2-correction-ranchi",
+      "state": "accepted",
+      "predecessorHash": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880",
+      "predecessorRevisionHash": "213f0cf0c22407f4a3be23960aea9122424f0cde1ae086168f2a1c19aed260d7",
+      "originalHash": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880",
+      "rationale": "All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N4: ランチ is an everyday loanword on every lunch menu; 定食 (N4 by the same owner decision) and 昼ご飯 (N5) are comparable.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "会社の近くの店でランチを食べた。",
+            "romaji": "Kaisha no chikaku no mise de ranchi o tabeta.",
+            "german": "Ich habe in einem Lokal in der Nähe der Firma zu Mittag gegessen."
+          },
+          {
+            "japanese": "この店のランチは千円で、コーヒー付きだ。",
+            "romaji": "Kono mise no ranchi wa sen'en de, koohii tsuki da.",
+            "german": "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
+          }
+        ],
+        "level": "N2"
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "会社の近くの店でランチを食べた。",
+            "romaji": "Kaisha no chikaku no mise de ranchi o tabeta.",
+            "german": "Ich habe in einem Lokal in der Nähe der Firma zu Mittag gegessen."
+          },
+          {
+            "japanese": "この店のランチは千円で、コーヒー付きだ。",
+            "romaji": "Kono mise no ranchi wa sen'en de, kōhī-tsuki da.",
+            "german": "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
+          }
+        ],
+        "level": "N4"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140100; spelling=ランチ; reading=ランチ",
+          "finding": "JMdict 1140100 ランチ/ランチ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1140100",
+            "spelling": "ランチ",
+            "reading": "ランチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(Western-style) single-plate lunch set",
+                  "plate lunch",
+                  "lunch set"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": "owner decision, conversation 2026-09-27",
+          "finding": "All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N4: ランチ is an everyday loanword on every lunch menu; 定食 (N4 by the same owner decision) and 昼ご飯 (N5) are comparable."
+        }
+      ],
+      "levelBasis": "Project-owner override (2026-09-27): levels follow real-world usage where the source lists or the legacy import disagree. ランチ is an everyday loanword on every lunch menu; 定食 (N4 by the same owner decision) and 昼ご飯 (N5) are comparable.",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization",
+          "level"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Mittagessen; Mittagsmenü\" unchanged; checked against JMdict 1140100.",
+        "japanese": "会社の近くの店でランチを食べた。 / この店のランチは千円で、コーヒー付きだ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ranchi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe in einem Lokal in der Nähe der Firma zu Mittag gegessen.",
+          "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N2 → N4. ランチ is an everyday loanword on every lunch menu; 定食 (N4 by the same owner decision) and 昼ご飯 (N5) are comparable."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 1 and its provenance (現代書き言葉UniDic) are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277958646",
+            "patterns": [
+              1
+            ],
+            "finding": "ランチ / ランチ; 名詞/普通名詞/一般/*; *; *; lemma ランチ-lunch; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ランチ",
+              "reading": "ランチ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ランチ as \"Mittagessen; Mittagsmenü\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Relevel N2 → N4: ランチ is an everyday loanword on every lunch menu; 定食 (N4 by the same owner decision) and 昼ご飯 (N5) are comparable. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5f7264aacd0794801f09de4b9580183db7d296c9011ce6f921eef4ed94975cab",
+        "approvalHash": "248b2512eecbf15831894807dbb9bd290bfdf403e952223e7029897aee7ceeae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Relevel N2 -> N4 per owner decision; levelBasis accurate (定食 N4, 昼ご飯 N5 in data). Round 2: ex2 now \"Kono mise no ranchi wa sen'en de, kōhī-tsuki da.\" (full Hepburn, n' intact); pitch 1 keeps own row ランチ-lunch sys.dic@277958646. Japanese, German, meaning and type untouched.",
+        "contentHash": "5f7264aacd0794801f09de4b9580183db7d296c9011ce6f921eef4ed94975cab",
+        "approvalHash": "248b2512eecbf15831894807dbb9bd290bfdf403e952223e7029897aee7ceeae"
+      }
+    },
+    {
+      "id": "vocab-n5:892",
+      "revisionId": "054-vocab-n5-892",
+      "state": "accepted",
+      "predecessorHash": "bbed739e4adefafb539894d07900bf009a9ae502f72565d0ca7acf0698d7803f",
+      "predecessorRevisionHash": "2cc50cdb401ef5599affec57021326c42ca771937abf231b9760149b2743953b",
+      "originalHash": "bbed739e4adefafb539894d07900bf009a9ae502f72565d0ca7acf0698d7803f",
+      "rationale": "Relevel N5 → N1: 一本気 (single-minded, uncompromising) is a literary character word far above beginner level; none of the Tanos, JLPT Sensei or Nihongo Master lists includes it, and the old N5 came from the legacy import.",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1166610; spelling=一本気; reading=いっぽんぎ",
+          "finding": "JMdict 1166610 一本気/いっぽんぎ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1166610",
+            "spelling": "一本気",
+            "reading": "いっぽんぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "single-minded (esp. personality or person)",
+                  "one-track mind"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": "owner decision, conversation 2026-09-27",
+          "finding": "Relevel N5 → N1: 一本気 (single-minded, uncompromising) is a literary character word far above beginner level; none of the Tanos, JLPT Sensei or Nihongo Master lists includes it, and the old N5 came from the legacy import."
+        }
+      ],
+      "levelBasis": "Project-owner override (2026-09-27): levels follow real-world usage where the source lists or the legacy import disagree. 一本気 (single-minded, uncompromising) is a literary character word far above beginner level; none of the Tanos, JLPT Sensei or Nihongo Master lists includes it, and the old N5 came from the legacy import.",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"geradlinig, unbeirrbar\" unchanged; checked against JMdict 1166610.",
+        "japanese": "ニックって一本気なところがあるよね。 / 彼は一本気な人です。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ippongi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Nick hat etwas Geradliniges an sich, oder?",
+          "Er ist ein geradliniger, unbeirrbarer Mensch."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N5 → N1. 一本気 (single-minded, uncompromising) is a literary character word far above beginner level; none of the Tanos, JLPT Sensei or Nihongo Master lists includes it, and the old N5 came from the legacy import."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 一本気 / いっぽんぎ.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:892; exact written-form/kana lookup 一本気 / いっぽんぎ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Relevel N5 → N1: 一本気 (single-minded, uncompromising) is a literary character word far above beginner level; none of the Tanos, JLPT Sensei or Nihongo Master lists includes it, and the old N5 came from the legacy import. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "f9a12e7526d571d594ed28d3ed0f4f362794b56b346c2180d5d906ded681e2e1",
+        "approvalHash": "092927138c8e5d71f93dbe17e5779ed205d84e4c53c2795b3f0a8bcfbc3740ab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Relevel N5 -> N1 per owner decision; round-2 levelBasis now correctly states 一本気 is on none of the Tanos/Sensei/Master lists and the N5 came from the legacy import. Pitch stays null. Japanese, German, meaning and type untouched.",
+        "contentHash": "f9a12e7526d571d594ed28d3ed0f4f362794b56b346c2180d5d906ded681e2e1",
+        "approvalHash": "092927138c8e5d71f93dbe17e5779ed205d84e4c53c2795b3f0a8bcfbc3740ab"
+      }
+    },
+    {
+      "id": "vocab-n4:1199",
+      "revisionId": "054-vocab-n4-1199",
+      "state": "accepted",
+      "predecessorHash": "9c7fa568df61b9d9b6441170fd89ae05b82b3c76c9ce8e9eb00a9c77cba6f9eb",
+      "predecessorRevisionHash": "a93b50343f76b8037ba18c76ba756485eea2b55901f60e1d56a0aa0ce2573044",
+      "originalHash": "9c7fa568df61b9d9b6441170fd89ae05b82b3c76c9ce8e9eb00a9c77cba6f9eb",
+      "rationale": "Relevel N4 → N1: 可分 (divisible) is a technical legal/mathematical term (可分債務); not beginner vocabulary.",
+      "original": {
+        "level": "N4"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1191140; spelling=可分; reading=かぶん",
+          "finding": "JMdict 1191140 可分/かぶん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1191140",
+            "spelling": "可分",
+            "reading": "かぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "divisible",
+                  "separable"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": "owner decision, conversation 2026-09-27",
+          "finding": "Relevel N4 → N1: 可分 (divisible) is a technical legal/mathematical term (可分債務); not beginner vocabulary."
+        }
+      ],
+      "levelBasis": "Project-owner override (2026-09-27): levels follow real-world usage where the source lists or the legacy import disagree. 可分 (divisible) is a technical legal/mathematical term (可分債務); not beginner vocabulary.",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "level"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"teilbar\" unchanged; checked against JMdict 1191140.",
+        "japanese": "この土地は可分の財産として扱われる。 / 法律上、可分債務と不可分債務は区別される。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kabun\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Dieses Grundstück wird als teilbares Vermögen behandelt.",
+          "Rechtlich unterscheidet man teilbare und unteilbare Verbindlichkeiten."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N4 → N1. 可分 (divisible) is a technical legal/mathematical term (可分債務); not beginner vocabulary."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 可分 / かぶん.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n4:1199; exact written-form/kana lookup 可分 / かぶん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Relevel N4 → N1: 可分 (divisible) is a technical legal/mathematical term (可分債務); not beginner vocabulary. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "82ad6bc66961a7312b6b591cd6ae13ac2448b615cfb1a7dc431379eadd2970fd",
+        "approvalHash": "09354f5a6d76bdf913a85560dfcdb825d26ed67e090980488b9022daa108a9ff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Relevel N4 -> N1 per owner decision; levelBasis accurate (可分 on no list, technical legal term). Pitch stays null. Japanese, German, meaning and type untouched.",
+        "contentHash": "82ad6bc66961a7312b6b591cd6ae13ac2448b615cfb1a7dc431379eadd2970fd",
+        "approvalHash": "09354f5a6d76bdf913a85560dfcdb825d26ed67e090980488b9022daa108a9ff"
+      }
+    },
+    {
+      "id": "vocab-n3:2597",
+      "revisionId": "054-vocab-n3-2597",
+      "state": "accepted",
+      "predecessorHash": "d96b656add2a36bbb7559c4c3c6e7b4408cf1a99fa1398a25c54de3e8e0f2c84",
+      "predecessorRevisionHash": "76464c40648d707ca6343243caa8866447fb4d6807744a19fb7da0e4bd6fa619",
+      "originalHash": "d96b656add2a36bbb7559c4c3c6e7b4408cf1a99fa1398a25c54de3e8e0f2c84",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Relevel N3 → N1: 気違い is a discriminatory term taught for passive recognition only (see its usage note); placing it at N1 keeps it out of beginner study.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。",
+            "romaji": "Kanae wa, tama ni kichigaijimita dansu o shinagara ofisu ni haitte kuru.",
+            "german": "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf."
+          },
+          {
+            "japanese": "昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。",
+            "romaji": "Mukashi no shōsetsu ni wa 'kichigai' to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
+            "german": "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
+          }
+        ],
+        "level": "N3"
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。",
+            "romaji": "Kanae wa, tama ni kichigaijimita dansu o shinagara ofisu ni haitte kuru.",
+            "german": "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf."
+          },
+          {
+            "japanese": "昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。",
+            "romaji": "Mukashi no shōsetsu ni wa \"kichigai\" to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
+            "german": "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
+          }
+        ],
+        "level": "N1"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221900; spelling=気違い; reading=きちがい",
+          "finding": "JMdict 1221900 気違い/きちがい confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1221900",
+            "spelling": "気違い",
+            "reading": "きちがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "sensitive",
+                  "derogatory",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "madness",
+                  "insanity",
+                  "madman",
+                  "lunatic",
+                  "crazy person"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "sensitive",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "mania",
+                  "craze",
+                  "obsession",
+                  "enthusiast",
+                  "maniac",
+                  "fanatic",
+                  "nut",
+                  "freak"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": "owner decision, conversation 2026-09-27",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Relevel N3 → N1: 気違い is a discriminatory term taught for passive recognition only (see its usage note); placing it at N1 keeps it out of beginner study."
+        }
+      ],
+      "levelBasis": "Project-owner override (2026-09-27): levels follow real-world usage where the source lists or the legacy import disagree. 気違い is a discriminatory term taught for passive recognition only (see its usage note); placing it at N1 keeps it out of beginner study.",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization",
+          "level"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Wahnsinn; Verrückter (abwertend, diskriminierend)\" unchanged; checked against JMdict 1221900.",
+        "japanese": "カナエは、たまに気違いじみたダンスをしながらオフィスに入ってくる。 / 昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kichigai\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Kanae kommt manchmal tanzend ins Büro und führt dabei einen verrückten Tanz auf.",
+          "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "N3 → N1. 気違い is a discriminatory term taught for passive recognition only (see its usage note); placing it at N1 keeps it out of beginner study."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 3 and its provenance (現代書き言葉UniDic) are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104656918",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "気違い / キチガイ; 名詞/普通名詞/一般/*; *; *; lemma 気違い; aType 3. Existing 0 unattested by the exact row; corrected to 3.",
+            "match": {
+              "word": "気違い",
+              "reading": "きちがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気違い as \"verrückt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Relevel N3 → N1: 気違い is a discriminatory term taught for passive recognition only (see its usage note); placing it at N1 keeps it out of beginner study. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f5436637ddf72d7ef090624c40912c8be26826488ca067afabf44d049264a34e",
+        "approvalHash": "fa6627db89a6e7b511f668c50222e555cbaa77bec51bc502c6bf74aa0a9bddb5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Relevel N3 -> N1 per owner decision; levelBasis accurate (usage note present). Ex2 「気違い」 rendered as \"kichigai\", macrons applied, romaji matches the Japanese; pitch 3 own row sys.dic@104656918. Japanese, German, meaning and type untouched.",
+        "contentHash": "f5436637ddf72d7ef090624c40912c8be26826488ca067afabf44d049264a34e",
+        "approvalHash": "fa6627db89a6e7b511f668c50222e555cbaa77bec51bc502c6bf74aa0a9bddb5"
+      }
+    },
+    {
+      "id": "vocab-n5:294",
+      "revisionId": "054-vocab-n5-294",
+      "state": "accepted",
+      "predecessorHash": "234603520d079ea7820e5c09b341d268a31d059e1a860b2bb11a8389e0e522e3",
+      "predecessorRevisionHash": "1da8a33b5c17688fce19b31f975be9521db3ddd4d0b5d480034cbcaf826f23fe",
+      "originalHash": "234603520d079ea7820e5c09b341d268a31d059e1a860b2bb11a8389e0e522e3",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "ohayou gozaimasu",
+        "examples": [
+          {
+            "japanese": "おはようございます、先生。",
+            "romaji": "Ohayou gozaimasu, sensei.",
+            "german": "Guten Morgen, Herr/Frau Lehrer/in."
+          },
+          {
+            "japanese": "先生に「おはようございます」と言いました。",
+            "romaji": "Sensei ni 'ohayou gozaimasu' to iimashita.",
+            "german": "Ich sagte zum Lehrer 'Guten Morgen'."
+          }
+        ]
+      },
+      "replacement": {
+        "romaji": "ohayō gozaimasu",
+        "examples": [
+          {
+            "japanese": "おはようございます、先生。",
+            "romaji": "Ohayō gozaimasu, sensei.",
+            "german": "Guten Morgen, Herr/Frau Lehrer/in."
+          },
+          {
+            "japanese": "先生に「おはようございます」と言いました。",
+            "romaji": "Sensei ni \"ohayō gozaimasu\" to iimashita.",
+            "german": "Ich sagte zum Lehrer 'Guten Morgen'."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002340; spelling=おはようございます; reading=おはようございます",
+          "finding": "JMdict 1002340 おはようございます/おはようございます confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1002340",
+            "spelling": "おはようございます",
+            "reading": "おはようございます",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "good morning"
+                ],
+                "notes": [
+                  "used at any time of the day in some industries and workplaces"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Guten Morgen\" unchanged; checked against JMdict 1002340.",
+        "japanese": "おはようございます、先生。 / 先生に「おはようございます」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ohayō gozaimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Guten Morgen, Herr/Frau Lehrer/in.",
+          "Ich sagte zum Lehrer 'Guten Morgen'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 8 and its provenance (The Japan Foundation, Irodori Starter vocabulary list (Nepali)) are unchanged.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori Starter vocabulary list (Nepali)",
+            "version": "2021/10/01; retrieved 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_X.pdf#page=3",
+            "attribution": "The Japan Foundation",
+            "patterns": [
+              8
+            ],
+            "finding": "Exact printed notation おはよう（ございま↓す）. Legend page2: circle means no fall, arrow marks downstep. Full polite greeting has the printed fall after ma, eighth mora in ohayou gozaimasu; correct original0 to8 based on whole-phrase evidence.",
+            "match": {
+              "word": "おはようございます",
+              "reading": "おはようございます",
+              "grammaticalForm": "Whole expression, not component extrapolation",
+              "sense": "Guten Morgen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "804161289de2375df2fc214fda4998b3649c73e75aea3410c3f6470c360356e9",
+        "approvalHash": "3242f6d71386fa24b97250960445fc700daab50faa6617a84097ce63ed13109a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ohayō gozaimasu in both examples; ex2 「おはようございます」 rendered as \"ohayō gozaimasu\", macrons applied, romaji matches the Japanese; pitch 8 and its Irodori whole-expression provenance (wordlist_X.pdf#page=3) kept unchanged in round 2 (no exact UniDic row, confirmed by independent lookup). Japanese, German, meaning and type untouched.",
+        "contentHash": "804161289de2375df2fc214fda4998b3649c73e75aea3410c3f6470c360356e9",
+        "approvalHash": "3242f6d71386fa24b97250960445fc700daab50faa6617a84097ce63ed13109a"
+      }
+    },
+    {
+      "id": "vocab-n5:297",
+      "revisionId": "054-vocab-n5-297",
+      "state": "accepted",
+      "predecessorHash": "fb51837160fcf50e6e80d7eaf0f4cfc2f61c1510003d6eed5c5c1f2572858a60",
+      "predecessorRevisionHash": "c91d335df7d31e29f61da0e09306e54f120c95ca1c71e53aa1a179b5d63693cd",
+      "originalHash": "fb51837160fcf50e6e80d7eaf0f4cfc2f61c1510003d6eed5c5c1f2572858a60",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "sayounara",
+        "examples": [
+          {
+            "japanese": "さようなら、また明日。",
+            "romaji": "Sayounara, mata ashita.",
+            "german": "Auf Wiedersehen, bis morgen."
+          },
+          {
+            "japanese": "友達に「さようなら」と手を振りました。",
+            "romaji": "Tomodachi ni 'sayounara' to te o furimashita.",
+            "german": "Ich winkte meinem Freund zum Abschied."
+          }
+        ]
+      },
+      "replacement": {
+        "romaji": "sayōnara",
+        "examples": [
+          {
+            "japanese": "さようなら、また明日。",
+            "romaji": "Sayōnara, mata ashita.",
+            "german": "Auf Wiedersehen, bis morgen."
+          },
+          {
+            "japanese": "友達に「さようなら」と手を振りました。",
+            "romaji": "Tomodachi ni \"sayōnara\" to te o furimashita.",
+            "german": "Ich winkte meinem Freund zum Abschied."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1291050; spelling=さようなら; reading=さようなら",
+          "finding": "JMdict 1291050 さようなら/さようなら confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1291050",
+            "spelling": "さようなら",
+            "reading": "さようなら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "farewell",
+                  "adieu",
+                  "goodbye",
+                  "so long"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Auf Wiedersehen\" unchanged; checked against JMdict 1291050.",
+        "japanese": "さようなら、また明日。 / 友達に「さようなら」と手を振りました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"sayōnara\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Auf Wiedersehen, bis morgen.",
+          "Ich winkte meinem Freund zum Abschied."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 4 and its provenance (現代書き言葉UniDic) are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132346349",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4,
+              5
+            ],
+            "finding": "Exact UniDic row sys.dic@132346349 attests 4,5. Goodbye/farewell phrase fits until-tomorrow farewell and waving goodbye. Existing3 is unsupported; exact greeting row attests4 and5.",
+            "match": {
+              "word": "さようなら",
+              "reading": "さようなら",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "Goodbye/farewell phrase fits until-tomorrow farewell and waving goodbye. Existing3 is unsupported; exact greeting row attests4 and5."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "c8c7f12746336cfc45f8e456f5128abccffad111862ab134b238f74bff64e3d0",
+        "approvalHash": "629d09c3ad0a7f64fd681bf1518a133d7af4cc87b7ba40baa739cf34f593ca96"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: sayōnara headword/examples; ex2 「さようなら」 rendered as \"sayōnara\", macrons applied, romaji matches the Japanese; pitch 4 own 感動詞 row sys.dic@132346349. Japanese, German, meaning and type untouched.",
+        "contentHash": "c8c7f12746336cfc45f8e456f5128abccffad111862ab134b238f74bff64e3d0",
+        "approvalHash": "629d09c3ad0a7f64fd681bf1518a133d7af4cc87b7ba40baa739cf34f593ca96"
+      }
+    },
+    {
+      "id": "vocab-n5:298",
+      "revisionId": "054-vocab-n5-298",
+      "state": "accepted",
+      "predecessorHash": "3cb0c032797e46290e49362d9865585c4bf3c5bdb0631eac070204bc502030f0",
+      "predecessorRevisionHash": "c701e95289955eeec0c85fd763b3b54608ffb0dc4f84a19dab54dbf52fa354b8",
+      "originalHash": "3cb0c032797e46290e49362d9865585c4bf3c5bdb0631eac070204bc502030f0",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "arigatou gozaimasu",
+        "examples": [
+          {
+            "japanese": "ありがとうございます。助かりました。",
+            "romaji": "Arigatou gozaimasu. Tasukarimashita.",
+            "german": "Vielen Dank. Das hat mir geholfen."
+          },
+          {
+            "japanese": "プレゼントをもらって「ありがとうございます」と言いました。",
+            "romaji": "Purezento o moratte 'arigatou gozaimasu' to iimashita.",
+            "german": "Ich bekam ein Geschenk und sagte 'Vielen Dank'."
+          }
+        ]
+      },
+      "replacement": {
+        "romaji": "arigatō gozaimasu",
+        "examples": [
+          {
+            "japanese": "ありがとうございます。助かりました。",
+            "romaji": "Arigatō gozaimasu. Tasukarimashita.",
+            "german": "Vielen Dank. Das hat mir geholfen."
+          },
+          {
+            "japanese": "プレゼントをもらって「ありがとうございます」と言いました。",
+            "romaji": "Purezento o moratte \"arigatō gozaimasu\" to iimashita.",
+            "german": "Ich bekam ein Geschenk und sagte 'Vielen Dank'."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1541040; spelling=ありがとうございます; reading=ありがとうございます",
+          "finding": "JMdict 1541040 ありがとうございます/ありがとうございます confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1541040",
+            "spelling": "ありがとうございます",
+            "reading": "ありがとうございます",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thank you"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Vielen Dank\" unchanged; checked against JMdict 1541040.",
+        "japanese": "ありがとうございます。助かりました。 / プレゼントをもらって「ありがとうございます」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"arigatō gozaimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Vielen Dank. Das hat mir geholfen.",
+          "Ich bekam ein Geschenk und sagte 'Vielen Dank'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 2 and its provenance (The Japan Foundation, Irodori Starter vocabulary list (Nepali)) are unchanged.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori Starter vocabulary list (Nepali)",
+            "version": "2021/10/01; retrieved 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_X.pdf#page=3",
+            "attribution": "The Japan Foundation",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact printed notation あり↓がとうございます. Legend page2: circle means no fall, arrow marks downstep. Official whole thanks phrase has one printed downstep after ri, second mora; no second downstep is printed. Correct unsupported0 to2 using full-expression evidence.",
+            "match": {
+              "word": "ありがとうございます",
+              "reading": "ありがとうございます",
+              "grammaticalForm": "Whole expression, not component extrapolation",
+              "sense": "Vielen Dank"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "de4636f8e3b8aeb6e72f24fb0742aeb610b019e6bde632ba679a80233e477c65",
+        "approvalHash": "1949a9286bb08cc70287485fb1d016396ef3410572c18028a31c10e5b68586f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: arigatō gozaimasu headword/examples; ex2 「ありがとうございます」 rendered as \"arigatō gozaimasu\", macrons applied, romaji matches the Japanese; pitch 2 and its Irodori whole-expression provenance (wordlist_X.pdf#page=3) kept unchanged in round 2 (no exact UniDic row, confirmed by independent lookup). Japanese, German, meaning and type untouched.",
+        "contentHash": "de4636f8e3b8aeb6e72f24fb0742aeb610b019e6bde632ba679a80233e477c65",
+        "approvalHash": "1949a9286bb08cc70287485fb1d016396ef3410572c18028a31c10e5b68586f0"
+      }
+    },
+    {
+      "id": "vocab-n5:300",
+      "revisionId": "054-vocab-n5-300",
+      "state": "accepted",
+      "predecessorHash": "8449e8bd2d532f9c7b378e2204d923bb2681934e3b4cf90cce4e17c2e6b63d71",
+      "predecessorRevisionHash": "4829d6e2e3ab2729af6e81bbfe37b267ef57f87af7146f8f9d7c1a025cb16144",
+      "originalHash": "8449e8bd2d532f9c7b378e2204d923bb2681934e3b4cf90cce4e17c2e6b63d71",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "コーヒーをお願いします。",
+            "romaji": "Koohii o onegai shimasu.",
+            "german": "Einen Kaffee, bitte."
+          },
+          {
+            "japanese": "「お願いします」と店員に言いました。",
+            "romaji": "'Onegaishimasu' to ten'in ni iimashita.",
+            "german": "Ich sagte 'Bitte' zum Verkäufer."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "コーヒーをお願いします。",
+            "romaji": "Kōhī o onegai shimasu.",
+            "german": "Einen Kaffee, bitte."
+          },
+          {
+            "japanese": "「お願いします」と店員に言いました。",
+            "romaji": "\"Onegai shimasu\" to ten'in ni iimashita.",
+            "german": "Ich sagte 'Bitte' zum Verkäufer."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1001720; spelling=お願いします; reading=おねがいします",
+          "finding": "JMdict 1001720 お願いします/おねがいします confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1001720",
+            "spelling": "お願いします",
+            "reading": "おねがいします",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "humble (kenjougo) language"
+                ],
+                "gloss": [
+                  "please"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Bitte (Bitte tun Sie das)\" unchanged; checked against JMdict 1001720.",
+        "japanese": "コーヒーをお願いします。 / 「お願いします」と店員に言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"onegai shimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Einen Kaffee, bitte.",
+          "Ich sagte 'Bitte' zum Verkäufer."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 6 and its provenance (The Japan Foundation, Irodori Starter vocabulary list (Nepali)) are unchanged.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori Starter vocabulary list (Nepali)",
+            "version": "2021/10/01; retrieved 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_X.pdf#page=14",
+            "attribution": "The Japan Foundation",
+            "patterns": [
+              6
+            ],
+            "finding": "L5-2 printed request formula places downstep after ma, sixth mora.",
+            "match": {
+              "word": "お願いします",
+              "reading": "おねがいします",
+              "grammaticalForm": "Whole polite expression",
+              "sense": "Humble request formula correctly means Bitte; exact whole-form JPF L5-2 places fall after ma, mora6, so correct pitch5 to6."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "179854799426074df805f965640a7c7395942d5f9566238791cd3dc944641547",
+        "approvalHash": "d7cf269bd3f71a9bf59f7bcd5d26734a1ebb4fef56fc742549c64534928ae031"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex1 Kōhī; round-2 ex2 \"Onegai shimasu\" matches headword spacing, n' in ten'in intact; pitch 6 and its Irodori whole-expression provenance (wordlist_X.pdf#page=14) kept unchanged in round 2 (no exact UniDic row, confirmed by independent lookup). Japanese, German, meaning and type untouched.",
+        "contentHash": "179854799426074df805f965640a7c7395942d5f9566238791cd3dc944641547",
+        "approvalHash": "d7cf269bd3f71a9bf59f7bcd5d26734a1ebb4fef56fc742549c64534928ae031"
+      }
+    },
+    {
+      "id": "vocab-n5:301",
+      "revisionId": "054-vocab-n5-301",
+      "state": "accepted",
+      "predecessorHash": "750949d0e903d603b91982b7b5094a5bb347e5a25be5efc6261def00c4c59042",
+      "predecessorRevisionHash": "41895469e093d654a4c8b0ceadaa0d12e5f76b1b81a3eb5c42dffc68862acba8",
+      "originalHash": "750949d0e903d603b91982b7b5094a5bb347e5a25be5efc6261def00c4c59042",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "いただきます！",
+            "romaji": "Itadakimasu!",
+            "german": "Ich nehme das Essen dankbar an! (Formel vor dem Essen.)"
+          },
+          {
+            "japanese": "ごはんの前に「いただきます」と言います。",
+            "romaji": "Gohan no mae ni 'itadakimasu' to iimasu.",
+            "german": "Vor dem Essen sagt man 'Itadakimasu'."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "いただきます！",
+            "romaji": "Itadakimasu!",
+            "german": "Ich nehme das Essen dankbar an! (Formel vor dem Essen.)"
+          },
+          {
+            "japanese": "ごはんの前に「いただきます」と言います。",
+            "romaji": "Gohan no mae ni \"itadakimasu\" to iimasu.",
+            "german": "Vor dem Essen sagt man 'Itadakimasu'."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1410800; spelling=いただきます; reading=いただきます",
+          "finding": "JMdict 1410800 いただきます/いただきます confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1410800",
+            "spelling": "いただきます",
+            "reading": "いただきます",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thank you (for the meal just served)",
+                  "I receive (this meal)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Dankesformel vor dem eigenen Essen (etwa: Ich nehme das Essen dankbar an)\" unchanged; checked against JMdict 1410800.",
+        "japanese": "いただきます！ / ごはんの前に「いただきます」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"itadakimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich nehme das Essen dankbar an! (Formel vor dem Essen.)",
+          "Vor dem Essen sagt man 'Itadakimasu'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 5 and its provenance (The Japan Foundation, Irodori Starter vocabulary list (Nepali)) are unchanged.",
+        "evidence": [
+          {
+            "source": "The Japan Foundation, Irodori Starter vocabulary list (Nepali)",
+            "version": "2021/10/01; retrieved 2026-09-22",
+            "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_X.pdf#page=15",
+            "attribution": "The Japan Foundation",
+            "patterns": [
+              5
+            ],
+            "finding": "L5-3 printed pre-meal formula places downstep after ma, fifth mora.",
+            "match": {
+              "word": "いただきます",
+              "reading": "いただきます",
+              "grammaticalForm": "Whole polite expression",
+              "sense": "Pre-meal gratitude formula is uttered by the eater; Guten Appetit alone can incorrectly suggest wishing someone else a good meal. Clarify this pragmatic meaning."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "34ef396ebbf64a7da9769468a7083c5609be55214eaee493b0a2e16879d08e91",
+        "approvalHash": "ae01a5cd376f7ee741d5ed02c78f5b893a6d4f576e0ffd80cf8189bfd565a2be"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「いただきます」 rendered as \"itadakimasu\", macrons applied, romaji matches the Japanese; pitch 5 and its Irodori whole-expression provenance (wordlist_X.pdf#page=15) kept unchanged in round 2 (no exact UniDic row, confirmed by independent lookup). Japanese, German, meaning and type untouched.",
+        "contentHash": "34ef396ebbf64a7da9769468a7083c5609be55214eaee493b0a2e16879d08e91",
+        "approvalHash": "ae01a5cd376f7ee741d5ed02c78f5b893a6d4f576e0ffd80cf8189bfd565a2be"
+      }
+    },
+    {
+      "id": "vocab-n5:302",
+      "revisionId": "054-vocab-n5-302",
+      "state": "accepted",
+      "predecessorHash": "3c38993533b3b56109ea3ac030a36910168ade22d33d62dc41423cd08dacf9db",
+      "predecessorRevisionHash": "e55c7fa712cafce33c5db9b197e48299aa30ace4db2b584c02fd804e6bcbf006",
+      "originalHash": "3c38993533b3b56109ea3ac030a36910168ade22d33d62dc41423cd08dacf9db",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "gochisousama deshita",
+        "examples": [
+          {
+            "japanese": "ごちそうさまでした。おいしかったです。",
+            "romaji": "Gochisousama deshita. Oishikatta desu.",
+            "german": "Danke für das Essen. Es war lecker."
+          },
+          {
+            "japanese": "食べた後に「ごちそうさまでした」と言います。",
+            "romaji": "Tabeta ato ni 'gochisousama deshita' to iimasu.",
+            "german": "Nach dem Essen sagt man 'Gochisousama deshita'."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "gochisōsama deshita",
+        "examples": [
+          {
+            "japanese": "ごちそうさまでした。おいしかったです。",
+            "romaji": "Gochisōsama deshita. Oishikatta desu.",
+            "german": "Danke für das Essen. Es war lecker."
+          },
+          {
+            "japanese": "食べた後に「ごちそうさまでした」と言います。",
+            "romaji": "Tabeta ato ni \"gochisōsama deshita\" to iimasu.",
+            "german": "Nach dem Essen sagt man 'Gochisousama deshita'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1005080; spelling=ごちそうさまでした; reading=ごちそうさまでした",
+          "finding": "JMdict 1005080 ごちそうさまでした/ごちそうさまでした confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1005080",
+            "spelling": "ごちそうさまでした",
+            "reading": "ごちそうさまでした",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thank you for the meal",
+                  "that was a delicious meal",
+                  "what a wonderful meal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Danke für das Essen\" unchanged; checked against JMdict 1005080.",
+        "japanese": "ごちそうさまでした。おいしかったです。 / 食べた後に「ごちそうさまでした」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"gochisōsama deshita\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Danke für das Essen. Es war lecker.",
+          "Nach dem Essen sagt man 'Gochisousama deshita'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ごちそうさまでした / ごちそうさまでした; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:302; exact written-form/kana lookup ごちそうさまでした / ごちそうさまでした",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "5559236ff2f4e95c350f0beea4d0b292e31a02dd13e529a61245411e15f30535",
+        "approvalHash": "751c521958b5153964d11c0bdf15ae8c8dfb84e22feb60031642c48681d24640"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: gochisōsama deshita headword/examples; ex2 「ごちそうさまでした」 rendered as \"gochisōsama deshita\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact ごちそうさまでした UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "5559236ff2f4e95c350f0beea4d0b292e31a02dd13e529a61245411e15f30535",
+        "approvalHash": "751c521958b5153964d11c0bdf15ae8c8dfb84e22feb60031642c48681d24640"
+      }
+    },
+    {
+      "id": "vocab-n5:304",
+      "revisionId": "054-vocab-n5-304",
+      "state": "accepted",
+      "predecessorHash": "e8ba3c97c2902237f053bad6a7a43bf95e59adc19e33c47d88adaf0d9ea786fd",
+      "predecessorRevisionHash": "6fd661d58397bea186390effa49a2d019207dd84343020cc3923747c3d8e3609",
+      "originalHash": "e8ba3c97c2902237f053bad6a7a43bf95e59adc19e33c47d88adaf0d9ea786fd",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "douzo yoroshiku",
+        "examples": [
+          {
+            "japanese": "どうぞよろしくお願いします。",
+            "romaji": "Douzo yoroshiku onegai shimasu.",
+            "german": "Ich freue mich auf die Zusammenarbeit."
+          },
+          {
+            "japanese": "新しい同僚に「どうぞよろしく」と言いました。",
+            "romaji": "Atarashii douryou ni 'douzo yoroshiku' to iimashita.",
+            "german": "Ich sagte zum neuen Kollegen 'Freut mich'."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "dōzo yoroshiku",
+        "examples": [
+          {
+            "japanese": "どうぞよろしくお願いします。",
+            "romaji": "Dōzo yoroshiku onegai shimasu.",
+            "german": "Ich freue mich auf die Zusammenarbeit."
+          },
+          {
+            "japanese": "新しい同僚に「どうぞよろしく」と言いました。",
+            "romaji": "Atarashii dōryō ni \"dōzo yoroshiku\" to iimashita.",
+            "german": "Ich sagte zum neuen Kollegen 'Freut mich'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1008960; spelling=どうぞよろしく; reading=どうぞよろしく",
+          "finding": "JMdict 1008960 どうぞよろしく/どうぞよろしく confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1008960",
+            "spelling": "どうぞよろしく",
+            "reading": "どうぞよろしく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "pleased to meet you",
+                  "how do you do"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "my regards (to someone)",
+                  "my greetings",
+                  "best wishes",
+                  "remember me to"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Freut mich, Sie kennenzulernen\" unchanged; checked against JMdict 1008960.",
+        "japanese": "どうぞよろしくお願いします。 / 新しい同僚に「どうぞよろしく」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"dōzo yoroshiku\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich freue mich auf die Zusammenarbeit.",
+          "Ich sagte zum neuen Kollegen 'Freut mich'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for どうぞよろしく / どうぞよろしく; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:304; exact written-form/kana lookup どうぞよろしく / どうぞよろしく",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "87a61cf8d02d79c743307aff396c44b336c95c201acdb76f2db6c7f954882c9a",
+        "approvalHash": "53ae16ca848f7d7419a9b11683762a61b0502268c44a26d2978c884fb759cd21"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: dōzo yoroshiku, dōryō; ex2 「どうぞよろしく」 rendered as \"dōzo yoroshiku\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact どうぞよろしく UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "87a61cf8d02d79c743307aff396c44b336c95c201acdb76f2db6c7f954882c9a",
+        "approvalHash": "53ae16ca848f7d7419a9b11683762a61b0502268c44a26d2978c884fb759cd21"
+      }
+    },
+    {
+      "id": "vocab-n5:305",
+      "revisionId": "054-vocab-n5-305",
+      "state": "accepted",
+      "predecessorHash": "175674f2a71631ec0d9d91d560c106aa1e2cea9886a7e71faf0c42638ae7e677",
+      "predecessorRevisionHash": "f52de6ec96f201d9b8499e2bd495b4d18dde879733fa0352fbbaa1f57475da89",
+      "originalHash": "175674f2a71631ec0d9d91d560c106aa1e2cea9886a7e71faf0c42638ae7e677",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "ただいま！",
+            "romaji": "Tadaima!",
+            "german": "Ich bin zurück!"
+          },
+          {
+            "japanese": "家に帰って「ただいま」と言います。",
+            "romaji": "Ie ni kaette 'tadaima' to iimasu.",
+            "german": "Wenn ich nach Hause komme, sage ich 'Ich bin zurück'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "ただいま！",
+            "romaji": "Tadaima!",
+            "german": "Ich bin zurück!"
+          },
+          {
+            "japanese": "家に帰って「ただいま」と言います。",
+            "romaji": "Ie ni kaette \"tadaima\" to iimasu.",
+            "german": "Wenn ich nach Hause komme, sage ich 'Ich bin zurück'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161640938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              4,
+              0
+            ],
+            "finding": "ただいま / タダイマ; 名詞/普通名詞/副詞可能/*; *; *; lemma 只今; aType 2,4,0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "ただいま",
+              "reading": "ただいま",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "ただいま as \"Ich bin zurück\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538960; spelling=ただいま; reading=ただいま",
+          "finding": "JMdict 1538960 ただいま/ただいま confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1538960",
+            "spelling": "ただいま",
+            "reading": "ただいま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "I'm home!",
+                  "I'm back!",
+                  "it's me!"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "now",
+                  "at present",
+                  "at the moment"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Ich bin zurück\" unchanged; checked against JMdict 1538960.",
+        "japanese": "ただいま！ / 家に帰って「ただいま」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"tadaima\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich bin zurück!",
+          "Wenn ich nach Hause komme, sage ich 'Ich bin zurück'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@161640938 attests 2,4,0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161640938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              4,
+              0
+            ],
+            "finding": "ただいま / タダイマ; 名詞/普通名詞/副詞可能/*; *; *; lemma 只今; aType 2,4,0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "ただいま",
+              "reading": "ただいま",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "ただいま as \"Ich bin zurück\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "856b3956b0b37321b8b976388fddaabc0a0223a73d2b09a6c7913c700d0470f1",
+        "approvalHash": "80c3e332d57e39ce4de67c1a90c206f715f01f48f5cac6cf21af0dfc91e7c86a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「ただいま」 rendered as \"tadaima\", macrons applied, romaji matches the Japanese; pitch 0 within the only exact row ただいま/タダイマ sys.dic@161640938 (2,4,0). Japanese, German, meaning and type untouched.",
+        "contentHash": "856b3956b0b37321b8b976388fddaabc0a0223a73d2b09a6c7913c700d0470f1",
+        "approvalHash": "80c3e332d57e39ce4de67c1a90c206f715f01f48f5cac6cf21af0dfc91e7c86a"
+      }
+    },
+    {
+      "id": "vocab-n5:306",
+      "revisionId": "054-vocab-n5-306",
+      "state": "accepted",
+      "predecessorHash": "6c51720f1d6f27be617bc6695aa2bbe8b66ce1d9dd50ee1e3e8724463db8f001",
+      "predecessorRevisionHash": "e01ec6d75a4cbbba8f243b0809198c398993ff96a482b1acb13839b8fafbbee1",
+      "originalHash": "6c51720f1d6f27be617bc6695aa2bbe8b66ce1d9dd50ee1e3e8724463db8f001",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "おかえりなさい、お疲れさま。",
+            "romaji": "Okaerinasai, otsukaresama.",
+            "german": "Willkommen zurück, gute Arbeit."
+          },
+          {
+            "japanese": "家族が帰ったら「おかえりなさい」と言います。",
+            "romaji": "Kazoku ga kaettara 'okaerinasai' to iimasu.",
+            "german": "Wenn die Familie nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
+        ],
+        "pitch": 5
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "おかえりなさい、お疲れさま。",
+            "romaji": "Okaerinasai, otsukaresama.",
+            "german": "Willkommen zurück, gute Arbeit."
+          },
+          {
+            "japanese": "家族が帰ったら「おかえりなさい」と言います。",
+            "romaji": "Kazoku ga kaettara \"okaerinasai\" to iimasu.",
+            "german": "Wenn die Familie nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1001740; spelling=おかえりなさい; reading=おかえりなさい",
+          "finding": "JMdict 1001740 おかえりなさい/おかえりなさい confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1001740",
+            "spelling": "おかえりなさい",
+            "reading": "おかえりなさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "welcome home"
+                ],
+                "notes": [
+                  "stock phrase said when someone comes home"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Willkommen zurück\" unchanged; checked against JMdict 1001740.",
+        "japanese": "おかえりなさい、お疲れさま。 / 家族が帰ったら「おかえりなさい」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"okaerinasai\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Willkommen zurück, gute Arbeit.",
+          "Wenn die Familie nach Hause kommt, sagt man 'Willkommen zurück'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for おかえりなさい / おかえりなさい; previous 5 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:306; exact written-form/kana lookup おかえりなさい / おかえりなさい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "23a685728d37d9855bd3da302c95f84921746d46b04edbc2b0f63752f6291a0c",
+        "approvalHash": "e37ecd306a6fb090825876c7bc560aa4c1192ce1468130c0b14488cf33c23177"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「おかえりなさい」 rendered as \"okaerinasai\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact おかえりなさい UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "23a685728d37d9855bd3da302c95f84921746d46b04edbc2b0f63752f6291a0c",
+        "approvalHash": "e37ecd306a6fb090825876c7bc560aa4c1192ce1468130c0b14488cf33c23177"
+      }
+    },
+    {
+      "id": "vocab-n5:516",
+      "revisionId": "054-vocab-n5-516",
+      "state": "accepted",
+      "predecessorHash": "7c2ded6874d3d3e4e3684881354ac3195851b3e3beb43be93a567386f1ca8dc7",
+      "predecessorRevisionHash": "ed4ea511a0a530addf59363c717eba13ec8206091fd9f27f5e44242e6e553043",
+      "originalHash": "7c2ded6874d3d3e4e3684881354ac3195851b3e3beb43be93a567386f1ca8dc7",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "久しぶりですね。",
+            "romaji": "Hisashiburi desu ne.",
+            "german": "Lange nicht gesehen!"
+          },
+          {
+            "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+            "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+            "german": "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "久しぶりですね。",
+            "romaji": "Hisashiburi desu ne.",
+            "german": "Lange nicht gesehen!"
+          },
+          {
+            "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+            "romaji": "\"Hisashiburi, genki datta?\" to tomodachi ni iimashita.",
+            "german": "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227370; spelling=久しぶり; reading=ひさしぶり",
+          "finding": "JMdict 1227370 久しぶり/ひさしぶり confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1227370",
+            "spelling": "久しぶり",
+            "reading": "ひさしぶり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a long time (since the last time)",
+                  "first in a long time"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "it's been a long time",
+                  "long time no see"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"lange nicht gesehen\" unchanged; checked against JMdict 1227370.",
+        "japanese": "久しぶりですね。 / 「久しぶり、元気だった？」と友達に言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"hisashiburi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Lange nicht gesehen!",
+          "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 久しぶり / ひさしぶり.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:516; exact written-form/kana lookup 久しぶり / ひさしぶり",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "1ff605e4f60d020b9539e54d69f91a017f8a93faf1f97da531c0c7adea6484bc",
+        "approvalHash": "4e5fec6e5cc7ba4739aa443d964a08919cd35770602b39ab159f566ad647b398"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 \"Hisashiburi, genki datta?\" correctly quoted incl. the question mark; pitch stays null (no exact row). Japanese, German, meaning and type untouched.",
+        "contentHash": "1ff605e4f60d020b9539e54d69f91a017f8a93faf1f97da531c0c7adea6484bc",
+        "approvalHash": "4e5fec6e5cc7ba4739aa443d964a08919cd35770602b39ab159f566ad647b398"
+      }
+    },
+    {
+      "id": "vocab-n5:517",
+      "revisionId": "054-vocab-n5-517",
+      "state": "accepted",
+      "predecessorHash": "7e0abb9607d8b2959c65617b6e51a7c76c3aa54bbea2a6828a5080d98a7a607f",
+      "predecessorRevisionHash": null,
+      "originalHash": "7e0abb9607d8b2959c65617b6e51a7c76c3aa54bbea2a6828a5080d98a7a607f",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "omedetou",
+        "examples": [
+          {
+            "japanese": "誕生日おめでとう！",
+            "romaji": "Tanjoubi omedetou!",
+            "german": "Alles Gute zum Geburtstag!"
+          },
+          {
+            "japanese": "「おめでとう！」と友達に言いました。",
+            "romaji": "'Omedetou!' to tomodachi ni iimashita.",
+            "german": "Ich sagte 'Glückwunsch!' zum Freund."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "omedetō",
+        "examples": [
+          {
+            "japanese": "誕生日おめでとう！",
+            "romaji": "Tanjōbi omedetō!",
+            "german": "Alles Gute zum Geburtstag!"
+          },
+          {
+            "japanese": "「おめでとう！」と友達に言いました。",
+            "romaji": "\"Omedetō!\" to tomodachi ni iimashita.",
+            "german": "Ich sagte 'Glückwunsch!' zum Freund."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270700; spelling=おめでとう; reading=おめでとう",
+          "finding": "JMdict 1270700 おめでとう/おめでとう confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1270700",
+            "spelling": "おめでとう",
+            "reading": "おめでとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "congratulations!",
+                  "well done!",
+                  "best wishes!",
+                  "all the best!"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Glückwunsch\" unchanged; checked against JMdict 1270700.",
+        "japanese": "誕生日おめでとう！ / 「おめでとう！」と友達に言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"omedetō\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Alles Gute zum Geburtstag!",
+          "Ich sagte 'Glückwunsch!' zum Freund."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for おめでとう / おめでとう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:517; exact written-form/kana lookup おめでとう / おめでとう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "59a7a62f6798d2b8e7713aa7e0daa1f79c4334f67cefa4ea5ac7152dbfbcbfb6",
+        "approvalHash": "379af83fb6d9f004f3b83bf2426d45413e086d313b05f045e45d80889cb66751"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: omedetō, Tanjōbi; ex2 \"Omedetō!\"; pitch -> null correct: no exact おめでとう UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "59a7a62f6798d2b8e7713aa7e0daa1f79c4334f67cefa4ea5ac7152dbfbcbfb6",
+        "approvalHash": "379af83fb6d9f004f3b83bf2426d45413e086d313b05f045e45d80889cb66751"
+      }
+    },
+    {
+      "id": "vocab-n5:518",
+      "revisionId": "054-vocab-n5-518",
+      "state": "accepted",
+      "predecessorHash": "57cec5d639bace5226429665dd802ba9090351d283a107837254a2f638f7b866",
+      "predecessorRevisionHash": null,
+      "originalHash": "57cec5d639bace5226429665dd802ba9090351d283a107837254a2f638f7b866",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お大事にしてください。",
+            "romaji": "Odaiji ni shite kudasai.",
+            "german": "Gute Besserung!"
+          },
+          {
+            "japanese": "病気の友達に「お大事に」と言いました。",
+            "romaji": "Byouki no tomodachi ni 'odaiji ni' to iimashita.",
+            "german": "Ich sagte zum kranken Freund 'Gute Besserung'."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お大事にしてください。",
+            "romaji": "Odaiji ni shite kudasai.",
+            "german": "Gute Besserung!"
+          },
+          {
+            "japanese": "病気の友達に「お大事に」と言いました。",
+            "romaji": "Byōki no tomodachi ni \"odaiji ni\" to iimashita.",
+            "german": "Ich sagte zum kranken Freund 'Gute Besserung'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002390; spelling=お大事に; reading=おだいじに",
+          "finding": "JMdict 1002390 お大事に/おだいじに confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1002390",
+            "spelling": "お大事に",
+            "reading": "おだいじに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "take care of yourself",
+                  "get well soon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Gute Besserung\" unchanged; checked against JMdict 1002390.",
+        "japanese": "お大事にしてください。 / 病気の友達に「お大事に」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"odaiji ni\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Gute Besserung!",
+          "Ich sagte zum kranken Freund 'Gute Besserung'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お大事に / おだいじに; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:518; exact written-form/kana lookup お大事に / おだいじに",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "b6527c7da70c75802df36910c3a5bf6411bb8478b0da0004ff4586104b4bcc74",
+        "approvalHash": "4dcfc4a03fcba587f1c94f0ada6e697b6075956bb03cdecd2340f9bcff23a39e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「お大事に」 rendered as \"odaiji ni\", macrons applied, romaji matches the Japanese, Byōki; pitch -> null correct: no exact お大事に UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "b6527c7da70c75802df36910c3a5bf6411bb8478b0da0004ff4586104b4bcc74",
+        "approvalHash": "4dcfc4a03fcba587f1c94f0ada6e697b6075956bb03cdecd2340f9bcff23a39e"
+      }
+    },
+    {
+      "id": "vocab-n5:519",
+      "revisionId": "054-vocab-n5-519",
+      "state": "accepted",
+      "predecessorHash": "e21fb10121c87de476ebe75086f56318141a84d3321ad1670499e5d46380700c",
+      "predecessorRevisionHash": null,
+      "originalHash": "e21fb10121c87de476ebe75086f56318141a84d3321ad1670499e5d46380700c",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "いらっしゃいませ！何名様ですか。",
+            "romaji": "Irasshaimase! Nanmeisama desu ka.",
+            "german": "Willkommen! Wie viele Personen?"
+          },
+          {
+            "japanese": "お店に入ると「いらっしゃいませ」と言われます。",
+            "romaji": "Omise ni hairu to 'irasshaimase' to iwaremasu.",
+            "german": "Wenn man ein Geschäft betritt, hört man 'Willkommen'."
+          }
+        ],
+        "pitch": 6
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "いらっしゃいませ！何名様ですか。",
+            "romaji": "Irasshaimase! Nanmeisama desu ka.",
+            "german": "Willkommen! Wie viele Personen?"
+          },
+          {
+            "japanese": "お店に入ると「いらっしゃいませ」と言われます。",
+            "romaji": "Omise ni hairu to \"irasshaimase\" to iwaremasu.",
+            "german": "Wenn man ein Geschäft betritt, hört man 'Willkommen'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1000930; spelling=いらっしゃいませ; reading=いらっしゃいませ",
+          "finding": "JMdict 1000930 いらっしゃいませ/いらっしゃいませ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1000930",
+            "spelling": "いらっしゃいませ",
+            "reading": "いらっしゃいませ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "welcome"
+                ],
+                "notes": [
+                  "used in shops, restaurants, etc."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Willkommen (Geschäft)\" unchanged; checked against JMdict 1000930.",
+        "japanese": "いらっしゃいませ！何名様ですか。 / お店に入ると「いらっしゃいませ」と言われます。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"irasshaimase\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Willkommen! Wie viele Personen?",
+          "Wenn man ein Geschäft betritt, hört man 'Willkommen'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for いらっしゃいませ / いらっしゃいませ; previous 6 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:519; exact written-form/kana lookup いらっしゃいませ / いらっしゃいませ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "a5db7bb243c4a651f0b8b608158bbf91fcfba280ac4e5d5344fc54387d3dbccf",
+        "approvalHash": "e6b1bb42250be309a51057765fedada3b9e6470f19e6d0281225821b443d7342"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「いらっしゃいませ」 rendered as \"irasshaimase\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact いらっしゃいませ UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "a5db7bb243c4a651f0b8b608158bbf91fcfba280ac4e5d5344fc54387d3dbccf",
+        "approvalHash": "e6b1bb42250be309a51057765fedada3b9e6470f19e6d0281225821b443d7342"
+      }
+    },
+    {
+      "id": "vocab-n5:520",
+      "revisionId": "054-vocab-n5-520",
+      "state": "accepted",
+      "predecessorHash": "c0a27e2f80ecf4d62827a4e75d02a79ce1da438bc6ff90356b0342fa7bbd09cc",
+      "predecessorRevisionHash": null,
+      "originalHash": "c0a27e2f80ecf4d62827a4e75d02a79ce1da438bc6ff90356b0342fa7bbd09cc",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お邪魔します。",
+            "romaji": "Ojama shimasu.",
+            "german": "Entschuldigung für die Störung."
+          },
+          {
+            "japanese": "友達の家で「お邪魔します」と言いました。",
+            "romaji": "Tomodachi no ie de 'ojama shimasu' to iimashita.",
+            "german": "Beim Freund zu Hause sagte ich 'Entschuldigung für die Störung'."
+          }
+        ],
+        "pitch": 5
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お邪魔します。",
+            "romaji": "Ojama shimasu.",
+            "german": "Entschuldigung für die Störung."
+          },
+          {
+            "japanese": "友達の家で「お邪魔します」と言いました。",
+            "romaji": "Tomodachi no ie de \"ojama shimasu\" to iimashita.",
+            "german": "Beim Freund zu Hause sagte ich 'Entschuldigung für die Störung'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002050; spelling=お邪魔します; reading=おじゃまします",
+          "finding": "JMdict 1002050 お邪魔します/おじゃまします confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1002050",
+            "spelling": "お邪魔します",
+            "reading": "おじゃまします",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "please excuse the intrusion",
+                  "I'm coming in"
+                ],
+                "notes": [
+                  "greeting used when entering someone's home"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Entschuldigung für die Störung (beim Betreten)\" unchanged; checked against JMdict 1002050.",
+        "japanese": "お邪魔します。 / 友達の家で「お邪魔します」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ojama shimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Entschuldigung für die Störung.",
+          "Beim Freund zu Hause sagte ich 'Entschuldigung für die Störung'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お邪魔します / おじゃまします; previous 5 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:520; exact written-form/kana lookup お邪魔します / おじゃまします",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "00f3ba165c80ef740407c7fdcc593b7b520dd1b862859a70ae9ea92260559e6f",
+        "approvalHash": "360e9e5d4dd7971f22c14d0499c7ad531d0a1b23f16ab43d88b905525651a79a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「お邪魔します」 rendered as \"ojama shimasu\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact お邪魔します UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "00f3ba165c80ef740407c7fdcc593b7b520dd1b862859a70ae9ea92260559e6f",
+        "approvalHash": "360e9e5d4dd7971f22c14d0499c7ad531d0a1b23f16ab43d88b905525651a79a"
+      }
+    },
+    {
+      "id": "vocab-n5:521",
+      "revisionId": "054-vocab-n5-521",
+      "state": "accepted",
+      "predecessorHash": "d41ccd9aca3a088ce4f5e04a5ad01dd5d871665eb52284ce2dd6fb3cbb87aaf4",
+      "predecessorRevisionHash": null,
+      "originalHash": "d41ccd9aca3a088ce4f5e04a5ad01dd5d871665eb52284ce2dd6fb3cbb87aaf4",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お帰りなさい！",
+            "romaji": "Okaerinasai!",
+            "german": "Willkommen zurück!"
+          },
+          {
+            "japanese": "子供が帰ったら「お帰りなさい」と言います。",
+            "romaji": "Kodomo ga kaettara 'okaerinasai' to iimasu.",
+            "german": "Wenn das Kind nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
+        ],
+        "pitch": 5
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お帰りなさい！",
+            "romaji": "Okaerinasai!",
+            "german": "Willkommen zurück!"
+          },
+          {
+            "japanese": "子供が帰ったら「お帰りなさい」と言います。",
+            "romaji": "Kodomo ga kaettara \"okaerinasai\" to iimasu.",
+            "german": "Wenn das Kind nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1001740; spelling=お帰りなさい; reading=おかえりなさい",
+          "finding": "JMdict 1001740 お帰りなさい/おかえりなさい confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1001740",
+            "spelling": "お帰りなさい",
+            "reading": "おかえりなさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "welcome home"
+                ],
+                "notes": [
+                  "stock phrase said when someone comes home"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Willkommen zurück\" unchanged; checked against JMdict 1001740.",
+        "japanese": "お帰りなさい！ / 子供が帰ったら「お帰りなさい」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"okaerinasai\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Willkommen zurück!",
+          "Wenn das Kind nach Hause kommt, sagt man 'Willkommen zurück'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for お帰りなさい / おかえりなさい; previous 5 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:521; exact written-form/kana lookup お帰りなさい / おかえりなさい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "629e947f9808d866fb96d0e2560fcfb9e02d6dfa178df51c3065c1be7bf5d846",
+        "approvalHash": "6cb66fb9bd5bf639fd166017797cf2af05419e08c5db3077c92461b477155156"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「お帰りなさい」 rendered as \"okaerinasai\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact お帰りなさい UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "629e947f9808d866fb96d0e2560fcfb9e02d6dfa178df51c3065c1be7bf5d846",
+        "approvalHash": "6cb66fb9bd5bf639fd166017797cf2af05419e08c5db3077c92461b477155156"
+      }
+    },
+    {
+      "id": "vocab-n5:604",
+      "revisionId": "054-vocab-n5-604",
+      "state": "accepted",
+      "predecessorHash": "33b7a0ca9752e3dc127d47b77e33bd949f4a7c09ca07f91db5acce12b4dc96c8",
+      "predecessorRevisionHash": null,
+      "originalHash": "33b7a0ca9752e3dc127d47b77e33bd949f4a7c09ca07f91db5acce12b4dc96c8",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "乾杯しましょう。",
+            "romaji": "Kanpai shimashou.",
+            "german": "Lasst uns anstoßen!"
+          },
+          {
+            "japanese": "パーティーで「乾杯」と言いました。",
+            "romaji": "Paatii de 'kanpai' to iimashita.",
+            "german": "Auf der Party sagten wir 'Prost!'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "乾杯しましょう。",
+            "romaji": "Kanpai shimashō.",
+            "german": "Lasst uns anstoßen!"
+          },
+          {
+            "japanese": "パーティーで「乾杯」と言いました。",
+            "romaji": "Pātī de \"kanpai\" to iimashita.",
+            "german": "Auf der Party sagten wir 'Prost!'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100878236",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "乾杯 / カンパイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 乾杯; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "乾杯",
+              "reading": "かんぱい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "乾杯 as \"Prost!\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1590950; spelling=乾杯; reading=かんぱい",
+          "finding": "JMdict 1590950 乾杯/かんぱい confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1590950",
+            "spelling": "乾杯",
+            "reading": "かんぱい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cheers",
+                  "bottoms-up",
+                  "prosit"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "toast",
+                  "drink (in honor or celebration of someone or something)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Prost!\" unchanged; checked against JMdict 1590950.",
+        "japanese": "乾杯しましょう。 / パーティーで「乾杯」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kanpai\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Lasst uns anstoßen!",
+          "Auf der Party sagten wir 'Prost!'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@100878236 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100878236",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "乾杯 / カンパイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 乾杯; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "乾杯",
+              "reading": "かんぱい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "乾杯 as \"Prost!\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "2d8a9320c03bc72bec5aa05137c13a2d2f6b0d94bf3c98e227288543abe4ab01",
+        "approvalHash": "e0561553d1c582ab0cc0b201498b6faf00f628ae3b980162323d4b3d18da5bdd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: shimashō, Pātī; ex2 「乾杯」 rendered as \"kanpai\", macrons applied, romaji matches the Japanese; pitch 0 own row sys.dic@100878236. Japanese, German, meaning and type untouched.",
+        "contentHash": "2d8a9320c03bc72bec5aa05137c13a2d2f6b0d94bf3c98e227288543abe4ab01",
+        "approvalHash": "e0561553d1c582ab0cc0b201498b6faf00f628ae3b980162323d4b3d18da5bdd"
+      }
+    },
+    {
+      "id": "vocab-n5:605",
+      "revisionId": "054-vocab-n5-605",
+      "state": "accepted",
+      "predecessorHash": "92926d0c3705d682fd6706b1b9f580ee36b7863da0d68cf5190ef9b71b776053",
+      "predecessorRevisionHash": null,
+      "originalHash": "92926d0c3705d682fd6706b1b9f580ee36b7863da0d68cf5190ef9b71b776053",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "頂きます。",
+            "romaji": "Itadakimasu.",
+            "german": "Guten Appetit. (Vor dem Essen)"
+          },
+          {
+            "japanese": "手を合わせて「頂きます」と言います。",
+            "romaji": "Te o awasete 'itadakimasu' to iimasu.",
+            "german": "Man legt die Hände zusammen und sagt 'Itadakimasu'."
+          }
+        ],
+        "pitch": 5
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "頂きます。",
+            "romaji": "Itadakimasu.",
+            "german": "Guten Appetit. (Vor dem Essen)"
+          },
+          {
+            "japanese": "手を合わせて「頂きます」と言います。",
+            "romaji": "Te o awasete \"itadakimasu\" to iimasu.",
+            "german": "Man legt die Hände zusammen und sagt 'Itadakimasu'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1410800; spelling=頂きます; reading=いただきます",
+          "finding": "JMdict 1410800 頂きます/いただきます confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1410800",
+            "spelling": "頂きます",
+            "reading": "いただきます",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thank you (for the meal just served)",
+                  "I receive (this meal)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Guten Appetit (vor dem Essen)\" unchanged; checked against JMdict 1410800.",
+        "japanese": "頂きます。 / 手を合わせて「頂きます」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"itadakimasu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Guten Appetit. (Vor dem Essen)",
+          "Man legt die Hände zusammen und sagt 'Itadakimasu'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 頂きます / いただきます; previous 5 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:605; exact written-form/kana lookup 頂きます / いただきます",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "488ded44821631cdb6dd0f187c208784115e97135b55ebfc2ce19222bc84710f",
+        "approvalHash": "9dce4e154d7671f82dd915d7dabadce0a624492257f05c413476b7632638075d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ex2 「頂きます」 rendered as \"itadakimasu\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact 頂きます UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "488ded44821631cdb6dd0f187c208784115e97135b55ebfc2ce19222bc84710f",
+        "approvalHash": "9dce4e154d7671f82dd915d7dabadce0a624492257f05c413476b7632638075d"
+      }
+    },
+    {
+      "id": "vocab-n5:606",
+      "revisionId": "054-vocab-n5-606",
+      "state": "accepted",
+      "predecessorHash": "cdf829eb8a3accc2a7a09461b9cde32cf9ef8c8259fd32eeb188ca53f2263dca",
+      "predecessorRevisionHash": null,
+      "originalHash": "cdf829eb8a3accc2a7a09461b9cde32cf9ef8c8259fd32eeb188ca53f2263dca",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "gochisousama",
+        "examples": [
+          {
+            "japanese": "ご馳走様でした。",
+            "romaji": "Gochisousama deshita.",
+            "german": "Danke für das Essen. (Nach dem Essen)"
+          },
+          {
+            "japanese": "食事の後に「ご馳走様」と言いましょう。",
+            "romaji": "Shokuji no ato ni 'gochisousama' to iimashou.",
+            "german": "Nach dem Essen sagen wir 'Danke für das Essen'."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "gochisōsama",
+        "examples": [
+          {
+            "japanese": "ご馳走様でした。",
+            "romaji": "Gochisōsama deshita.",
+            "german": "Danke für das Essen. (Nach dem Essen)"
+          },
+          {
+            "japanese": "食事の後に「ご馳走様」と言いましょう。",
+            "romaji": "Shokuji no ato ni \"gochisōsama\" to iimashō.",
+            "german": "Nach dem Essen sagen wir 'Danke für das Essen'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1270520; spelling=ご馳走様; reading=ごちそうさま",
+          "finding": "JMdict 1270520 ご馳走様/ごちそうさま confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1270520",
+            "spelling": "ご馳走様",
+            "reading": "ごちそうさま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "thank you (for the meal)",
+                  "that was a delicious meal"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "jocular, humorous term"
+                ],
+                "gloss": [
+                  "thank you (for displaying lovey-dovey behaviour)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Danke für das Essen (nach dem Essen)\" unchanged; checked against JMdict 1270520.",
+        "japanese": "ご馳走様でした。 / 食事の後に「ご馳走様」と言いましょう。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"gochisōsama\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Danke für das Essen. (Nach dem Essen)",
+          "Nach dem Essen sagen wir 'Danke für das Essen'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ご馳走様 / ごちそうさま; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n5:606; exact written-form/kana lookup ご馳走様 / ごちそうさま",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "2030c5e42b43f565652782acb8b558a2a7b3e789fedd2859ff468d11169ee42d",
+        "approvalHash": "6ae13afef7be5a49ccc481f0165665b96be5e6ee62ba33fbd13e193644633d99"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: gochisōsama, iimashō; ex2 「ご馳走様」 rendered as \"gochisōsama\", macrons applied, romaji matches the Japanese; pitch -> null correct: no exact ご馳走様 UniDic row (independent lookup) and no prior provenance. Japanese, German, meaning and type untouched.",
+        "contentHash": "2030c5e42b43f565652782acb8b558a2a7b3e789fedd2859ff468d11169ee42d",
+        "approvalHash": "6ae13afef7be5a49ccc481f0165665b96be5e6ee62ba33fbd13e193644633d99"
+      }
+    },
+    {
+      "id": "vocab-n5:844",
+      "revisionId": "054-vocab-n5-844",
+      "state": "accepted",
+      "predecessorHash": "141aded5f716113cc84dc77a2c6c75babd6b91687c4dee2a1468c62f0ceee1b5",
+      "predecessorRevisionHash": null,
+      "originalHash": "141aded5f716113cc84dc77a2c6c75babd6b91687c4dee2a1468c62f0ceee1b5",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "romaji": "ohayou",
+        "examples": [
+          {
+            "japanese": "ミホちゃん、おはよう！",
+            "romaji": "Mihochan, ohayou!",
+            "german": "Guten Morgen, Miho-chan!"
+          },
+          {
+            "japanese": "友達に「おはよう」と言いました。",
+            "romaji": "Tomodachi ni 'ohayou' to iimashita.",
+            "german": "Ich sagte zum Freund 'Guten Morgen'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "ohayō",
+        "examples": [
+          {
+            "japanese": "ミホちゃん、おはよう！",
+            "romaji": "Mihochan, ohayō!",
+            "german": "Guten Morgen, Miho-chan!"
+          },
+          {
+            "japanese": "友達に「おはよう」と言いました。",
+            "romaji": "Tomodachi ni \"ohayō\" to iimashita.",
+            "german": "Ich sagte zum Freund 'Guten Morgen'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81079855",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "おはよう / オハヨウ; 感動詞/一般/*/*; *; *; lemma 御早う; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "おはよう",
+              "reading": "おはよう",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "おはよう as \"Guten Morgen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612820; spelling=おはよう; reading=おはよう",
+          "finding": "JMdict 1612820 おはよう/おはよう confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1612820",
+            "spelling": "おはよう",
+            "reading": "おはよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "good morning"
+                ],
+                "notes": [
+                  "used at any time of the day in some industries and workplaces"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Guten Morgen\" unchanged; checked against JMdict 1612820.",
+        "japanese": "ミホちゃん、おはよう！ / 友達に「おはよう」と言いました。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ohayō\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Guten Morgen, Miho-chan!",
+          "Ich sagte zum Freund 'Guten Morgen'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@81079855 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81079855",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "おはよう / オハヨウ; 感動詞/一般/*/*; *; *; lemma 御早う; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "おはよう",
+              "reading": "おはよう",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "おはよう as \"Guten Morgen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5dd9913549577647a179e65a723cc159c00e3d5639aa26997fcd6c2804c04af1",
+        "approvalHash": "865163d4f2c0aa634f5cd7dbb51721984099e9896605f82b575544689508e497"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: ohayō headword/examples; ex2 「おはよう」 rendered as \"ohayō\", macrons applied, romaji matches the Japanese; pitch 0 own 感動詞 row sys.dic@81079855. Japanese, German, meaning and type untouched.",
+        "contentHash": "5dd9913549577647a179e65a723cc159c00e3d5639aa26997fcd6c2804c04af1",
+        "approvalHash": "865163d4f2c0aa634f5cd7dbb51721984099e9896605f82b575544689508e497"
+      }
+    },
+    {
+      "id": "vocab-n5:1198",
+      "revisionId": "054-vocab-n5-1198",
+      "state": "accepted",
+      "predecessorHash": "aa49b4fbe2b481dc73a2bc76c9d0405b22b93ba29abb2aece778e86c18b54eae",
+      "predecessorRevisionHash": null,
+      "originalHash": "aa49b4fbe2b481dc73a2bc76c9d0405b22b93ba29abb2aece778e86c18b54eae",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "もしもし、山川です。",
+            "romaji": "Moshimoshi, yamakawa desu.",
+            "german": "Hallo, hier ist Yamakawa."
+          },
+          {
+            "japanese": "電話で「もしもし」と言います。",
+            "romaji": "Denwa de 'moshimoshi' to iimasu.",
+            "german": "Am Telefon sagt man 'Moshimoshi'."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "もしもし、山川です。",
+            "romaji": "Moshimoshi, Yamakawa desu.",
+            "german": "Hallo, hier ist Yamakawa."
+          },
+          {
+            "japanese": "電話で「もしもし」と言います。",
+            "romaji": "Denwa de \"moshimoshi\" to iimasu.",
+            "german": "Am Telefon sagt man 'Moshimoshi'."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263548657",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "もしもし / モシモシ; 感動詞/一般/*/*; *; *; lemma もしもし; aType 1. Existing 2 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "もしもし",
+              "reading": "もしもし",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "もしもし as \"hallo\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012550; spelling=もしもし; reading=もしもし",
+          "finding": "JMdict 1012550 もしもし/もしもし confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1012550",
+            "spelling": "もしもし",
+            "reading": "もしもし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hello (e.g. on phone)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "excuse me! (when calling out to someone)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"hallo\" unchanged; checked against JMdict 1012550.",
+        "japanese": "もしもし、山川です。 / 電話で「もしもし」と言います。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"moshimoshi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Hallo, hier ist Yamakawa.",
+          "Am Telefon sagt man 'Moshimoshi'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@263548657 attests 1. Existing 2 unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263548657",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "もしもし / モシモシ; 感動詞/一般/*/*; *; *; lemma もしもし; aType 1. Existing 2 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "もしもし",
+              "reading": "もしもし",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "もしもし as \"hallo\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "80b421c3b22b84aeba9ecb3b481ef6f8c4b464ed8c61a70814a00effcb843cdc",
+        "approvalHash": "b8d10442b6d3f9cf0f949d8604f0c491348f073c0d0d186c05d93fdca7122f23"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: Round 2: ex1 \"Moshimoshi, Yamakawa desu.\" (surname capitalized); ex2 「もしもし」 rendered as \"moshimoshi\", macrons applied, romaji matches the Japanese; pitch 2 -> 1 from own 感動詞 row もしもし sys.dic@263548657. Japanese, German, meaning and type untouched.",
+        "contentHash": "80b421c3b22b84aeba9ecb3b481ef6f8c4b464ed8c61a70814a00effcb843cdc",
+        "approvalHash": "b8d10442b6d3f9cf0f949d8604f0c491348f073c0d0d186c05d93fdca7122f23"
+      }
+    }
+  ],
+  "decisions": []
+}

@@ -52198,7 +52198,7 @@ window.VOCAB_N2 = [
     "meaning": "Mittagessen; Mittagsmenü",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N2",
+    "level": "N4",
     "notes": "Mittagessen, besonders im Restaurant: ランチメニュー, 日替わりランチ (Tagesmenü). Neutral: 昼ご飯.",
     "examples": [
       {
@@ -52208,7 +52208,7 @@ window.VOCAB_N2 = [
       },
       {
         "japanese": "この店のランチは千円で、コーヒー付きだ。",
-        "romaji": "Kono mise no ranchi wa sen'en de, koohii tsuki da.",
+        "romaji": "Kono mise no ranchi wa sen'en de, kōhī-tsuki da.",
         "german": "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
       }
     ],

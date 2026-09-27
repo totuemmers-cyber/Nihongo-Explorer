@@ -110,7 +110,10 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   examples replaced (越す, 殖える, 膠着する, 錦, 可分), 縦書き and 憂う as headwords, and a usage warning
   for the discriminatory 気違い.
 
-Runtime: **15,558 entries** (N5 1,644, N4 1,638, N3 3,758, N2 3,171, N1 5,347),
+- **054 (.content-cache/m054):** usage-based relevels (メニュー N5, ランチ N4; 一本気, 可分, 気違い N1)
+  and double quotes for 「」 in romaji; these entries' romaji is written out in Hepburn.
+
+Runtime: **15,558 entries** (N5 1,644, N4 1,638, N3 3,757, N2 3,169, N1 5,350),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

@@ -2939,7 +2939,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Nihon no 'Obon' wa, Doitsu no 'Allerheiligen' ni ataru.",
+        "romaji": "Nihon no \"Obon\" wa, Doitsu no \"Allerheiligen\" ni ataru.",
         "german": "Das japanische 'Obon' entspricht dem deutschen 'Allerheiligen'."
       },
       {

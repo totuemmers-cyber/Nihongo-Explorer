@@ -1,0 +1,3185 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:646",
+      "revisionId": "054-vocab-n4-646",
+      "state": "accepted",
+      "predecessorHash": "29b6854e12d24d35cfacd779d5b4bb57a4ad612c09bafd6763ebf4cbf9dc27a7",
+      "predecessorRevisionHash": null,
+      "originalHash": "29b6854e12d24d35cfacd779d5b4bb57a4ad612c09bafd6763ebf4cbf9dc27a7",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "それが彼の口癖です。",
+            "romaji": "Sore ga kare no kuchiguse desu.",
+            "german": "Das ist sein Lieblingsausdruck."
+          },
+          {
+            "japanese": "彼の口癖は「まあまあ」です。",
+            "romaji": "Kare no kuchiguse wa 'maamaa' desu.",
+            "german": "Sein Lieblingsausdruck ist 'na ja'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "それが彼の口癖です。",
+            "romaji": "Sore ga kare no kuchiguse desu.",
+            "german": "Das ist sein Lieblingsausdruck."
+          },
+          {
+            "japanese": "彼の口癖は「まあまあ」です。",
+            "romaji": "Kare no kuchiguse wa \"māmā\" desu.",
+            "german": "Sein Lieblingsausdruck ist 'na ja'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112075845",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "口癖 / クチグセ; 名詞/普通名詞/一般/*; *; *; lemma 口癖; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "口癖",
+              "reading": "くちぐせ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "口癖 as \"Lieblingsausdruck, Redewendung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1276890; spelling=口癖; reading=くちぐせ",
+          "finding": "JMdict 1276890 口癖/くちぐせ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1276890",
+            "spelling": "口癖",
+            "reading": "くちぐせ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pet saying",
+                  "favorite phrase",
+                  "stock phrase",
+                  "catchphrase"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "manner of talking"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Lieblingsausdruck, Redewendung\" unchanged; checked against JMdict 1276890.",
+        "japanese": "それが彼の口癖です。 / 彼の口癖は「まあまあ」です。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kuchiguse\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Das ist sein Lieblingsausdruck.",
+          "Sein Lieblingsausdruck ist 'na ja'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@112075845 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112075845",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "口癖 / クチグセ; 名詞/普通名詞/一般/*; *; *; lemma 口癖; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "口癖",
+              "reading": "くちぐせ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "口癖 as \"Lieblingsausdruck, Redewendung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). All romaji written out in Modified Hepburn (long vowels with macrons), matching the generated layer. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "353d4514372e743bc2d8be6721628ddfe140d8182872db3204968fac7d6a503f",
+        "approvalHash": "7218a4a9bdf6dcad5261cfb869a746a6999be710cb35464883d4b1401476898c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「まあまあ」 rendered as \"māmā\" (macrons applied inside the quotes); romaji otherwise identical and matches the Japanese; pitch 0 keeps own row sys.dic@112075845. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "353d4514372e743bc2d8be6721628ddfe140d8182872db3204968fac7d6a503f",
+        "approvalHash": "7218a4a9bdf6dcad5261cfb869a746a6999be710cb35464883d4b1401476898c"
+      }
+    },
+    {
+      "id": "vocab-n1:1293",
+      "revisionId": "054-vocab-n1-1293",
+      "state": "accepted",
+      "predecessorHash": "554c4fcad9b3a3b4c210cb6eb816caa8ee322fef626b469672b4bb0648307a04",
+      "predecessorRevisionHash": null,
+      "originalHash": "554c4fcad9b3a3b4c210cb6eb816caa8ee322fef626b469672b4bb0648307a04",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "直喩は「ように」などの語を用いた表現法だ。",
+            "romaji": "Chokuyu wa 'yō ni' nado no go o mochiita hyōgenhō da.",
+            "german": "Das Simile ist eine Ausdrucksform, die Wörter wie 'wie' verwendet."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "直喩は「ように」などの語を用いた表現法だ。",
+            "romaji": "Chokuyu wa \"yō ni\" nado no go o mochiita hyōgenhō da.",
+            "german": "Das Simile ist eine Ausdrucksform, die Wörter wie 'wie' verwendet."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170384172",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "直喩 / チョクユ; 名詞/普通名詞/一般/*; *; *; lemma 直喩; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "直喩",
+              "reading": "ちょくゆ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "直喩 as \"Vergleich; Simile\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1431630; spelling=直喩; reading=ちょくゆ",
+          "finding": "JMdict 1431630 直喩/ちょくゆ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1431630",
+            "spelling": "直喩",
+            "reading": "ちょくゆ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "simile"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Vergleich; Simile\" unchanged; checked against JMdict 1431630.",
+        "japanese": "直喩は「ように」などの語を用いた表現法だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"chokuyu\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Das Simile ist eine Ausdrucksform, die Wörter wie 'wie' verwendet."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@170384172 attests 0,1. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170384172",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "直喩 / チョクユ; 名詞/普通名詞/一般/*; *; *; lemma 直喩; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "直喩",
+              "reading": "ちょくゆ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "直喩 as \"Vergleich; Simile\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d9aefe420e0c12cbe9eb9e07fef8b7e9e61529e4fe89e358633545c9e9c7b1c2",
+        "approvalHash": "bcf4b46864b75f61976f06e1a35d6d5b5f3330a2c4a466205d92ebbfd43f3824"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「ように」 rendered as \"yō ni\"; romaji otherwise identical and matches the Japanese; pitch 0 within own row sys.dic@170384172 (0,1). Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "d9aefe420e0c12cbe9eb9e07fef8b7e9e61529e4fe89e358633545c9e9c7b1c2",
+        "approvalHash": "bcf4b46864b75f61976f06e1a35d6d5b5f3330a2c4a466205d92ebbfd43f3824"
+      }
+    },
+    {
+      "id": "vocab-n1:1333",
+      "revisionId": "054-vocab-n1-1333",
+      "state": "accepted",
+      "predecessorHash": "35c9b9d393aae0f8133d035442187538a1a838f16e261291b6ce26114cea0781",
+      "predecessorRevisionHash": null,
+      "originalHash": "35c9b9d393aae0f8133d035442187538a1a838f16e261291b6ce26114cea0781",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「お」や「ご」は日本語の代表的な接頭辞だ。",
+            "romaji": "'O' ya 'go' wa Nihongo no daihyō-teki na settōji da.",
+            "german": "'O' und 'go' sind typische japanische Präfixe."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「お」や「ご」は日本語の代表的な接頭辞だ。",
+            "romaji": "\"O\" ya \"go\" wa Nihongo no daihyō-teki na settōji da.",
+            "german": "'O' und 'go' sind typische japanische Präfixe."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1385640; spelling=接頭辞; reading=せっとうじ",
+          "finding": "JMdict 1385640 接頭辞/せっとうじ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1385640",
+            "spelling": "接頭辞",
+            "reading": "せっとうじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefix"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Präfix; Vorsilbe\" unchanged; checked against JMdict 1385640.",
+        "japanese": "「お」や「ご」は日本語の代表的な接頭辞だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"settōji\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'O' und 'go' sind typische japanische Präfixe."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 接頭辞 / せっとうじ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1333; exact written-form/kana lookup 接頭辞 / せっとうじ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "627c7f84778055cc140efd93f1dab6a93ded24ca9c1dd93ba145f07e81cb508c",
+        "approvalHash": "9d3607f4d7969fa5590603fafa78ad0b52f39f3e2b13f70bfedaf779c53f5e06"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「お」「ご」 rendered as \"O\" ya \"go\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 接頭辞/セットウジ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "627c7f84778055cc140efd93f1dab6a93ded24ca9c1dd93ba145f07e81cb508c",
+        "approvalHash": "9d3607f4d7969fa5590603fafa78ad0b52f39f3e2b13f70bfedaf779c53f5e06"
+      }
+    },
+    {
+      "id": "vocab-n1:1334",
+      "revisionId": "054-vocab-n1-1334",
+      "state": "accepted",
+      "predecessorHash": "1d08d9c1512c8ae5ebdec08dc675f4894e9dd92ba37c0a064cd75a253921ac79",
+      "predecessorRevisionHash": null,
+      "originalHash": "1d08d9c1512c8ae5ebdec08dc675f4894e9dd92ba37c0a064cd75a253921ac79",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「的」は名詞に付く接尾辞である。",
+            "romaji": "'Teki' wa meishi ni tsuku setsubiji de aru.",
+            "german": "'Teki' ist ein Suffix, das an Nomen angehängt wird."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「的」は名詞に付く接尾辞である。",
+            "romaji": "\"Teki\" wa meishi ni tsuku setsubiji de aru.",
+            "german": "'Teki' ist ein Suffix, das an Nomen angehängt wird."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1385670; spelling=接尾辞; reading=せつびじ",
+          "finding": "JMdict 1385670 接尾辞/せつびじ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1385670",
+            "spelling": "接尾辞",
+            "reading": "せつびじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suffix"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Suffix; Nachsilbe\" unchanged; checked against JMdict 1385670.",
+        "japanese": "「的」は名詞に付く接尾辞である。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"setsubiji\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Teki' ist ein Suffix, das an Nomen angehängt wird."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 接尾辞 / せつびじ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1334; exact written-form/kana lookup 接尾辞 / せつびじ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "4a21ea163a216f499bfbbfcf55f270cab770db11deab67bbd5a2b648ad699556",
+        "approvalHash": "35591757c232737780c697b9f4104e1ad5d581162b14ca63cd680e193b27938a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「的」 rendered as \"Teki\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 接尾辞/セツビジ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "4a21ea163a216f499bfbbfcf55f270cab770db11deab67bbd5a2b648ad699556",
+        "approvalHash": "35591757c232737780c697b9f4104e1ad5d581162b14ca63cd680e193b27938a"
+      }
+    },
+    {
+      "id": "vocab-n1:1343",
+      "revisionId": "054-vocab-n1-1343",
+      "state": "accepted",
+      "predecessorHash": "9e1dc45ea35e4b771d164cd74750c4e4d3c51c1b38bdf6775ac1a29076ad3bd6",
+      "predecessorRevisionHash": "466fcbef00f3003a56ab85130474e2602763f103d777f05a6958bf7e0a322744",
+      "originalHash": "9e1dc45ea35e4b771d164cd74750c4e4d3c51c1b38bdf6775ac1a29076ad3bd6",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「消しゴム」は和語と外来語が混じった混種語だ。",
+            "romaji": "'Keshigomu' wa wago to gairaigo ga majitta konshugo da.",
+            "german": "'Keshigomu' ist ein Hybridwort aus einem japanischen und einem Fremdwort."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「消しゴム」は和語と外来語が混じった混種語だ。",
+            "romaji": "\"Keshigomu\" wa wago to gairaigo ga majitta konshugo da.",
+            "german": "'Keshigomu' ist ein Hybridwort aus einem japanischen und einem Fremdwort."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1669630; spelling=混種語; reading=こんしゅご",
+          "finding": "JMdict 1669630 混種語/こんしゅご confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1669630",
+            "spelling": "混種語",
+            "reading": "こんしゅご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hybrid term combining elements drawn from different languages"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Mischwort; Hybridwort\" unchanged; checked against JMdict 1669630.",
+        "japanese": "「消しゴム」は和語と外来語が混じった混種語だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"konshugo\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Keshigomu' ist ein Hybridwort aus einem japanischen und einem Fremdwort."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 混種語 / こんしゅご.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1343; exact written-form/kana lookup 混種語 / こんしゅご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "8d9a1fe49af1c141c151b66609367030c6dcc54e332394adb3f9cdc9d62d161e",
+        "approvalHash": "f7fec8ad6e113aee1841b993a2f0c4320d75bca60971c0c7436773637fed676e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「消しゴム」 rendered as \"Keshigomu\"; romaji otherwise identical and matches the Japanese; pitch stays null (no exact row). Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "8d9a1fe49af1c141c151b66609367030c6dcc54e332394adb3f9cdc9d62d161e",
+        "approvalHash": "f7fec8ad6e113aee1841b993a2f0c4320d75bca60971c0c7436773637fed676e"
+      }
+    },
+    {
+      "id": "vocab-n1:1344",
+      "revisionId": "054-vocab-n1-1344",
+      "state": "accepted",
+      "predecessorHash": "2ae3561308b8cc25aaca4d88ae7720d582b0de78d31dcf5966817186b59e6743",
+      "predecessorRevisionHash": null,
+      "originalHash": "2ae3561308b8cc25aaca4d88ae7720d582b0de78d31dcf5966817186b59e6743",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「矛盾」は中国の故事成語に由来する。",
+            "romaji": "'Mujun' wa Chūgoku no koji seigo ni yurai suru.",
+            "german": "'Mujun' (Widerspruch) stammt aus einer klassischen chinesischen Erzählung."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「矛盾」は中国の故事成語に由来する。",
+            "romaji": "\"Mujun\" wa Chūgoku no koji seigo ni yurai suru.",
+            "german": "'Mujun' (Widerspruch) stammt aus einer klassischen chinesischen Erzählung."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2045180; spelling=故事成語; reading=こじせいご",
+          "finding": "JMdict 2045180 故事成語/こじせいご confirms the reading romanized here.",
+          "selected": {
+            "sequence": "2045180",
+            "spelling": "故事成語",
+            "reading": "こじせいご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "idiom derived from historical events or classical literature of China"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Redewendung aus klassischen Erzählungen\" unchanged; checked against JMdict 2045180.",
+        "japanese": "「矛盾」は中国の故事成語に由来する。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"koji seigo\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Mujun' (Widerspruch) stammt aus einer klassischen chinesischen Erzählung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 故事成語 / こじせいご; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1344; exact written-form/kana lookup 故事成語 / こじせいご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "04bd0cf23697e3a08c2ae6b351f680decefa5116a46ce23502df1562cedf0fd6",
+        "approvalHash": "47c063ad3a09c10dbc108c8d23ca956ef3e53bf3f7d29f73bf1a3ccf1de04c97"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「矛盾」 rendered as \"Mujun\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 故事成語/コジセイゴ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "04bd0cf23697e3a08c2ae6b351f680decefa5116a46ce23502df1562cedf0fd6",
+        "approvalHash": "47c063ad3a09c10dbc108c8d23ca956ef3e53bf3f7d29f73bf1a3ccf1de04c97"
+      }
+    },
+    {
+      "id": "vocab-n1:1347",
+      "revisionId": "054-vocab-n1-1347",
+      "state": "accepted",
+      "predecessorHash": "1f47361e57bd0bcdbd4e1c06d492046b4ff48f093f75b0ddc5cb38ffb96f93a3",
+      "predecessorRevisionHash": null,
+      "originalHash": "1f47361e57bd0bcdbd4e1c06d492046b4ff48f093f75b0ddc5cb38ffb96f93a3",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「善」の対義語は「悪」である。",
+            "romaji": "'Zen' no taigigo wa 'aku' de aru.",
+            "german": "Das Antonym von 'gut' ist 'böse'."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「善」の対義語は「悪」である。",
+            "romaji": "\"Zen\" no taigigo wa \"aku\" de aru.",
+            "german": "Das Antonym von 'gut' ist 'böse'."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1409950; spelling=対義語; reading=たいぎご",
+          "finding": "JMdict 1409950 対義語/たいぎご confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1409950",
+            "spelling": "対義語",
+            "reading": "たいぎご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "antonym"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Antonym; Gegenwort\" unchanged; checked against JMdict 1409950.",
+        "japanese": "「善」の対義語は「悪」である。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"taigigo\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Das Antonym von 'gut' ist 'böse'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 対義語 / たいぎご; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1347; exact written-form/kana lookup 対義語 / たいぎご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "2570a5bd546c4b253bc5e2b931f0f2d3a9a491caa13d1753f745ba9dcb6c4494",
+        "approvalHash": "8891ca5736830bd8cad34a756b304d57b165666fc5ddc1e4396b0a02ee01a90b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「善」「悪」 rendered as \"Zen\" / \"aku\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 対義語/タイギゴ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "2570a5bd546c4b253bc5e2b931f0f2d3a9a491caa13d1753f745ba9dcb6c4494",
+        "approvalHash": "8891ca5736830bd8cad34a756b304d57b165666fc5ddc1e4396b0a02ee01a90b"
+      }
+    },
+    {
+      "id": "vocab-n1:1365",
+      "revisionId": "054-vocab-n1-1365",
+      "state": "accepted",
+      "predecessorHash": "b534dfe0b9330594b4f711fb751bc83bb64f9ddcd87dd771018b5d292a44e8f1",
+      "predecessorRevisionHash": null,
+      "originalHash": "b534dfe0b9330594b4f711fb751bc83bb64f9ddcd87dd771018b5d292a44e8f1",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「れる」「られる」は受身を表す助動詞だ。",
+            "romaji": "'Reru' 'rareru' wa ukemi o arawasu jodōshi da.",
+            "german": "'Reru' und 'rareru' sind Hilfsverben, die das Passiv ausdrücken."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「れる」「られる」は受身を表す助動詞だ。",
+            "romaji": "\"Reru\" \"rareru\" wa ukemi o arawasu jodōshi da.",
+            "german": "'Reru' und 'rareru' sind Hilfsverben, die das Passiv ausdrücken."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1344750; spelling=助動詞; reading=じょどうし",
+          "finding": "JMdict 1344750 助動詞/じょどうし confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1344750",
+            "spelling": "助動詞",
+            "reading": "じょどうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inflecting dependent word (in Japanese)",
+                  "bound auxiliary"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auxiliary verb (in languages other than Japanese)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Hilfsverb\" unchanged; checked against JMdict 1344750.",
+        "japanese": "「れる」「られる」は受身を表す助動詞だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"jodōshi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Reru' und 'rareru' sind Hilfsverben, die das Passiv ausdrücken."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 助動詞 / じょどうし; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1365; exact written-form/kana lookup 助動詞 / じょどうし",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "e489a375f886d123f2197875dbdd2487a574a639ff58cb30688f054e36a2e60f",
+        "approvalHash": "7aa6483a4e370fb7fa3f92c1909c32debdb7c8eacbc4cf4ae02a5e853f6d92ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「れる」「られる」 rendered as \"Reru\" \"rareru\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 助動詞/ジョドウシ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "e489a375f886d123f2197875dbdd2487a574a639ff58cb30688f054e36a2e60f",
+        "approvalHash": "7aa6483a4e370fb7fa3f92c1909c32debdb7c8eacbc4cf4ae02a5e853f6d92ca"
+      }
+    },
+    {
+      "id": "vocab-n1:1366",
+      "revisionId": "054-vocab-n1-1366",
+      "state": "accepted",
+      "predecessorHash": "57977f3d602aee9320ba9ae6fef592f268b264f903ddd3a5f275bf60e2cf0a32",
+      "predecessorRevisionHash": null,
+      "originalHash": "57977f3d602aee9320ba9ae6fef592f268b264f903ddd3a5f275bf60e2cf0a32",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「開く」は自動詞と他動詞の両方の用法がある。",
+            "romaji": "'Aku' wa jidōshi to tadōshi no ryōhō no yōhō ga aru.",
+            "german": "'Aku' hat sowohl intransitive als auch transitive Verwendungen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「開く」は自動詞と他動詞の両方の用法がある。",
+            "romaji": "\"Aku\" wa jidōshi to tadōshi no ryōhō no yōhō ga aru.",
+            "german": "'Aku' hat sowohl intransitive als auch transitive Verwendungen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1318390; spelling=自動詞; reading=じどうし",
+          "finding": "JMdict 1318390 自動詞/じどうし confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1318390",
+            "spelling": "自動詞",
+            "reading": "じどうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "intransitive verb"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"intransitives Verb\" unchanged; checked against JMdict 1318390.",
+        "japanese": "「開く」は自動詞と他動詞の両方の用法がある。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"jidōshi\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Aku' hat sowohl intransitive als auch transitive Verwendungen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 自動詞 / じどうし; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1366; exact written-form/kana lookup 自動詞 / じどうし",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "ec48e1a87c7dd70e3161ee7383d8483a81f741a1d6cf8e8d3951c0869b439b1a",
+        "approvalHash": "b532c503be1a3aed3d23f6b9050415c80968e59044065954ae314e2e3edb9225"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「開く」 rendered as \"Aku\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 自動詞/ジドウシ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "ec48e1a87c7dd70e3161ee7383d8483a81f741a1d6cf8e8d3951c0869b439b1a",
+        "approvalHash": "b532c503be1a3aed3d23f6b9050415c80968e59044065954ae314e2e3edb9225"
+      }
+    },
+    {
+      "id": "vocab-n1:1403",
+      "revisionId": "054-vocab-n1-1403",
+      "state": "accepted",
+      "predecessorHash": "329b700d77319e29f07eceb5effa71258d39ee5e6cf51d4873628458d0c3d116",
+      "predecessorRevisionHash": "f41c9f71cd1fa0caf257f70abdfa73597a5bb7661b9b1e80c5e6caf5d9ee4ac5",
+      "originalHash": "329b700d77319e29f07eceb5effa71258d39ee5e6cf51d4873628458d0c3d116",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「出鱈目」は当て字の一例である。",
+            "romaji": "'Detarame' wa ateji no ichirei de aru.",
+            "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「出鱈目」は当て字の一例である。",
+            "romaji": "\"Detarame\" wa ateji no ichirei de aru.",
+            "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1448890; spelling=当て字; reading=あてじ",
+          "finding": "JMdict 1448890 当て字/あてじ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1448890",
+            "spelling": "当て字",
+            "reading": "あてじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kanji used as a phonetic symbol, instead of for the meaning",
+                  "phonetic-equivalent character",
+                  "substitute character",
+                  "ateji"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kanji used for their meaning, irrespective of reading"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"phonetisch verwendetes Kanji\" unchanged; checked against JMdict 1448890.",
+        "japanese": "「出鱈目」は当て字の一例である。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"ateji\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44736823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "当て字 / アテジ; 名詞/普通名詞/一般/*; *; *; lemma 当て字; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "当て字",
+              "reading": "あてじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "当て字 as \"phonetisch verwendetes Kanji\"; lemma 当て字 is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "907eab754dde461f54d0102a83a24be102dd0bc77221812e80876c85db7e7203",
+        "approvalHash": "e4d9b5944cd9ead938b71035cd4b70acc7be483bdafa56a3120fe97bfaa4fb3d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「出鱈目」 rendered as \"Detarame\"; romaji otherwise identical and matches the Japanese; pitch 0 and existing own-row provenance sys.dic@44736823 unchanged. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "907eab754dde461f54d0102a83a24be102dd0bc77221812e80876c85db7e7203",
+        "approvalHash": "e4d9b5944cd9ead938b71035cd4b70acc7be483bdafa56a3120fe97bfaa4fb3d"
+      }
+    },
+    {
+      "id": "vocab-n1:1404",
+      "revisionId": "054-vocab-n1-1404",
+      "state": "accepted",
+      "predecessorHash": "5f78591c9d8394e6bc70ef9754d2a2617d73d90db97dc776955b46f57c835d83",
+      "predecessorRevisionHash": "8f43bc2994d3413c4f437f62f79ff5ae98982f2bdb7e71d831af851b350dd781",
+      "originalHash": "5f78591c9d8394e6bc70ef9754d2a2617d73d90db97dc776955b46f57c835d83",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「大人」を「おとな」と読むのは熟字訓だ。",
+            "romaji": "'Otona' o 'otona' to yomu no wa jukujikun da.",
+            "german": "Die Lesung von '大人' als 'otona' ist eine irreguläre Kanji-Lesung."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「大人」を「おとな」と読むのは熟字訓だ。",
+            "romaji": "\"Otona\" o \"otona\" to yomu no wa jukujikun da.",
+            "german": "Die Lesung von '大人' als 'otona' ist eine irreguläre Kanji-Lesung."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1337850; spelling=熟字訓; reading=じゅくじくん",
+          "finding": "JMdict 1337850 熟字訓/じゅくじくん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1337850",
+            "spelling": "熟字訓",
+            "reading": "じゅくじくん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reading assigned to a kanji compound whose constituent characters are related to the word's meaning but not its pronunciation",
+                  "kanji compound reading that has no correspondence to the readings of the constituent characters"
+                ],
+                "notes": [
+                  "e.g. 昨日 (きのう), 大人 (おとな)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"irreguläre Kanji-Lesung\" unchanged; checked against JMdict 1337850.",
+        "japanese": "「大人」を「おとな」と読むのは熟字訓だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"jukujikun\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Lesung von '大人' als 'otona' ist eine irreguläre Kanji-Lesung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 熟字訓 / じゅくじくん.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1404; exact written-form/kana lookup 熟字訓 / じゅくじくん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "f5e87113c3e8e5dc0714a3e3b5376b0d25e6eda2cd09ce3400aaf012c3218e47",
+        "approvalHash": "741146a8887f8f459d07c0347de0965efae995af00d2d7638463f4da3517beb5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「大人」「おとな」 rendered as \"Otona\" o \"otona\"; romaji otherwise identical and matches the Japanese; pitch stays null (no exact row). Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "f5e87113c3e8e5dc0714a3e3b5376b0d25e6eda2cd09ce3400aaf012c3218e47",
+        "approvalHash": "741146a8887f8f459d07c0347de0965efae995af00d2d7638463f4da3517beb5"
+      }
+    },
+    {
+      "id": "vocab-n1:1415",
+      "revisionId": "054-vocab-n1-1415",
+      "state": "accepted",
+      "predecessorHash": "0d3e49a3ff11303db3732d163d878fc7747da851ced5b3fd9e97550e1e24f450",
+      "predecessorRevisionHash": null,
+      "originalHash": "0d3e49a3ff11303db3732d163d878fc7747da851ced5b3fd9e97550e1e24f450",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「峠」は日本で作られた国字の一つだ。",
+            "romaji": "'Tōge' wa Nihon de tsukurareta kokuji no hitotsu da.",
+            "german": "'Tōge' (Bergpass) ist eines der in Japan geschaffenen Kanji."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「峠」は日本で作られた国字の一つだ。",
+            "romaji": "\"Tōge\" wa Nihon de tsukurareta kokuji no hitotsu da.",
+            "german": "'Tōge' (Bergpass) ist eines der in Japan geschaffenen Kanji."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121422959",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "国字 / コクジ; 名詞/普通名詞/一般/*; *; *; lemma 国字; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "国字",
+              "reading": "こくじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "国字 as \"in Japan geschaffenes Kanji\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1286650; spelling=国字; reading=こくじ",
+          "finding": "JMdict 1286650 国字/こくじ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1286650",
+            "spelling": "国字",
+            "reading": "こくじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "official writing system of a country",
+                  "official script"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kana (as opposed to kanji)",
+                  "Japanese syllabary"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"in Japan geschaffenes Kanji\" unchanged; checked against JMdict 1286650.",
+        "japanese": "「峠」は日本で作られた国字の一つだ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kokuji\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Tōge' (Bergpass) ist eines der in Japan geschaffenen Kanji."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@121422959 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121422959",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "国字 / コクジ; 名詞/普通名詞/一般/*; *; *; lemma 国字; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "国字",
+              "reading": "こくじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "国字 as \"in Japan geschaffenes Kanji\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "9f4813c64c2c08d9868da4fd19d7ba4430956e16bb7fea1ba2cb25a52d0c8b05",
+        "approvalHash": "102f938e7d939d51efeba2b63f3ca8f1309cda5ef78100752394d22d8907a740"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「峠」 rendered as \"Tōge\"; romaji otherwise identical and matches the Japanese; pitch 0 own row sys.dic@121422959. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "9f4813c64c2c08d9868da4fd19d7ba4430956e16bb7fea1ba2cb25a52d0c8b05",
+        "approvalHash": "102f938e7d939d51efeba2b63f3ca8f1309cda5ef78100752394d22d8907a740"
+      }
+    },
+    {
+      "id": "vocab-n1:1439",
+      "revisionId": "054-vocab-n1-1439",
+      "state": "accepted",
+      "predecessorHash": "d7832a7333290b34e723f8af0412642dc4782faba8bfd694e4e06b0d87d84141",
+      "predecessorRevisionHash": null,
+      "originalHash": "d7832a7333290b34e723f8af0412642dc4782faba8bfd694e4e06b0d87d84141",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "日本語には「さん」「様」など多様な敬称がある。",
+            "romaji": "Nihongo ni wa 'san' 'sama' nado tayō na keishō ga aru.",
+            "german": "Im Japanischen gibt es vielfältige Höflichkeitsanreden wie 'san' und 'sama'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "日本語には「さん」「様」など多様な敬称がある。",
+            "romaji": "Nihongo ni wa \"san\" \"sama\" nado tayō na keishō ga aru.",
+            "german": "Im Japanischen gibt es vielfältige Höflichkeitsanreden wie 'san' und 'sama'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116965897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "敬称 / ケイショウ; 名詞/普通名詞/一般/*; *; *; lemma 敬称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "敬称",
+              "reading": "けいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "敬称 as \"Höflichkeitsanrede; Ehrentitel\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1250760; spelling=敬称; reading=けいしょう",
+          "finding": "JMdict 1250760 敬称/けいしょう confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1250760",
+            "spelling": "敬称",
+            "reading": "けいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honorific title",
+                  "honorific term of address"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Höflichkeitsanrede; Ehrentitel\" unchanged; checked against JMdict 1250760.",
+        "japanese": "日本語には「さん」「様」など多様な敬称がある。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"keishō\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Im Japanischen gibt es vielfältige Höflichkeitsanreden wie 'san' und 'sama'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@116965897 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116965897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "敬称 / ケイショウ; 名詞/普通名詞/一般/*; *; *; lemma 敬称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "敬称",
+              "reading": "けいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "敬称 as \"Höflichkeitsanrede; Ehrentitel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "93a25523a70be8f3bcfad203e1b5bc9b8d2c3478d97d2d7bccb518cd2b6eee56",
+        "approvalHash": "8246bdcfe6049adb4a7ccc459e620a93103d1daad3698a0fda8cce763e671eb5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「さん」「様」 rendered as \"san\" \"sama\"; romaji otherwise identical and matches the Japanese; pitch 0 own row sys.dic@116965897. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "93a25523a70be8f3bcfad203e1b5bc9b8d2c3478d97d2d7bccb518cd2b6eee56",
+        "approvalHash": "8246bdcfe6049adb4a7ccc459e620a93103d1daad3698a0fda8cce763e671eb5"
+      }
+    },
+    {
+      "id": "vocab-n1:1441",
+      "revisionId": "054-vocab-n1-1441",
+      "state": "accepted",
+      "predecessorHash": "7d1145e7b972529acd166b904ea73d00910c7222f97e8c2bcfe04f30a256bcca",
+      "predecessorRevisionHash": null,
+      "originalHash": "7d1145e7b972529acd166b904ea73d00910c7222f97e8c2bcfe04f30a256bcca",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「永眠」は「死」の美称である。",
+            "romaji": "'Eimin' wa 'shi' no bishō de aru.",
+            "german": "'Eimin' (ewiger Schlaf) ist ein Euphemismus für 'Tod'."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「永眠」は「死」の美称である。",
+            "romaji": "\"Eimin\" wa \"shi\" no bishō de aru.",
+            "german": "'Eimin' (ewiger Schlaf) ist ein Euphemismus für 'Tod'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229345351",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "美称 / ビショウ; 名詞/普通名詞/一般/*; *; *; lemma 美称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "美称",
+              "reading": "びしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "美称 as \"Euphemismus; schöne Bezeichnung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1725020; spelling=美称; reading=びしょう",
+          "finding": "JMdict 1725020 美称/びしょう confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1725020",
+            "spelling": "美称",
+            "reading": "びしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "eulogistic name",
+                  "poetic name",
+                  "euphemism"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Euphemismus; schöne Bezeichnung\" unchanged; checked against JMdict 1725020.",
+        "japanese": "「永眠」は「死」の美称である。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"bishō\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Eimin' (ewiger Schlaf) ist ein Euphemismus für 'Tod'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@229345351 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229345351",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "美称 / ビショウ; 名詞/普通名詞/一般/*; *; *; lemma 美称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "美称",
+              "reading": "びしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "美称 as \"Euphemismus; schöne Bezeichnung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f15f15465cfc338be1009a7baa02accbac990f9412a5df1d00a60bd0ff6866bd",
+        "approvalHash": "8797e08e810cac0d512aa5b61d4974276f4dd0307a15618c8e6b4afe2090375f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「永眠」「死」 rendered as \"Eimin\" / \"shi\"; romaji otherwise identical and matches the Japanese; pitch 0 own row sys.dic@229345351. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "f15f15465cfc338be1009a7baa02accbac990f9412a5df1d00a60bd0ff6866bd",
+        "approvalHash": "8797e08e810cac0d512aa5b61d4974276f4dd0307a15618c8e6b4afe2090375f"
+      }
+    },
+    {
+      "id": "vocab-n1:1444",
+      "revisionId": "054-vocab-n1-1444",
+      "state": "accepted",
+      "predecessorHash": "9e20a21ac521e38b45fb60a152f04daee2415fd0cf615f30734df84f022b966a",
+      "predecessorRevisionHash": null,
+      "originalHash": "9e20a21ac521e38b45fb60a152f04daee2415fd0cf615f30734df84f022b966a",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「きらきら」「ふわふわ」は擬態語の例だ。",
+            "romaji": "'Kirakira' 'fuwafuwa' wa gitaigo no rei da.",
+            "german": "'Kirakira' (glitzernd) und 'fuwafuwa' (flauschig) sind Beispiele für Ideophone."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「きらきら」「ふわふわ」は擬態語の例だ。",
+            "romaji": "\"Kirakira\" \"fuwafuwa\" wa gitaigo no rei da.",
+            "german": "'Kirakira' (glitzernd) und 'fuwafuwa' (flauschig) sind Beispiele für Ideophone."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1225390; spelling=擬態語; reading=ぎたいご",
+          "finding": "JMdict 1225390 擬態語/ぎたいご confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1225390",
+            "spelling": "擬態語",
+            "reading": "ぎたいご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "phenomime",
+                  "mimetic word",
+                  "word that mimics an action, condition, or manner that does not make a sound (e.g. \"damp\", \"calmly\")"
+                ],
+                "notes": [
+                  "e.g., じめじめ、ゆったり"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Zustandslautmalerei; Ideophon\" unchanged; checked against JMdict 1225390.",
+        "japanese": "「きらきら」「ふわふわ」は擬態語の例だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"gitaigo\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Kirakira' (glitzernd) und 'fuwafuwa' (flauschig) sind Beispiele für Ideophone."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 擬態語 / ぎたいご; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1444; exact written-form/kana lookup 擬態語 / ぎたいご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "e31021e1537ab59d3d55a4afe9b8f2fe8e2f4ffb84f4ba8b79ce51a1239c9519",
+        "approvalHash": "8f8b87e5e6e1c795a3a39868f940b045198be9782476279d2f798e5bf013864d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「きらきら」「ふわふわ」 rendered as \"Kirakira\" \"fuwafuwa\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 擬態語/ギタイゴ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "e31021e1537ab59d3d55a4afe9b8f2fe8e2f4ffb84f4ba8b79ce51a1239c9519",
+        "approvalHash": "8f8b87e5e6e1c795a3a39868f940b045198be9782476279d2f798e5bf013864d"
+      }
+    },
+    {
+      "id": "vocab-n1:1451",
+      "revisionId": "054-vocab-n1-1451",
+      "state": "accepted",
+      "predecessorHash": "d1e948b5c90bbdd8d829beb3c0493bb8606d8ccdb28492ece8c3ea2184994d21",
+      "predecessorRevisionHash": null,
+      "originalHash": "d1e948b5c90bbdd8d829beb3c0493bb8606d8ccdb28492ece8c3ea2184994d21",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「パン」はポルトガル語からの借用語だ。",
+            "romaji": "'Pan' wa Porutogaru-go kara no shakuyōgo da.",
+            "german": "'Pan' (Brot) ist ein Lehnwort aus dem Portugiesischen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「パン」はポルトガル語からの借用語だ。",
+            "romaji": "\"Pan\" wa Porutogaru-go kara no shakuyōgo da.",
+            "german": "'Pan' (Brot) ist ein Lehnwort aus dem Portugiesischen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2582960; spelling=借用語; reading=しゃくようご",
+          "finding": "JMdict 2582960 借用語/しゃくようご confirms the reading romanized here.",
+          "selected": {
+            "sequence": "2582960",
+            "spelling": "借用語",
+            "reading": "しゃくようご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "loanword",
+                  "loan word",
+                  "borrowed word",
+                  "borrowing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Lehnwort; Entlehnung\" unchanged; checked against JMdict 2582960.",
+        "japanese": "「パン」はポルトガル語からの借用語だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"shakuyōgo\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Pan' (Brot) ist ein Lehnwort aus dem Portugiesischen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 借用語 / しゃくようご; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1451; exact written-form/kana lookup 借用語 / しゃくようご",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "02fb9e08fea663c95b629b189cd025cd9bb3bf3ecbd72fa8fa20560aac74a173",
+        "approvalHash": "f01baa1f4006e4f3c13993c9ee5e00bfba463d2d8e628f814c01cb8f699cd5a1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「パン」 rendered as \"Pan\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 借用語/シャクヨウゴ row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "02fb9e08fea663c95b629b189cd025cd9bb3bf3ecbd72fa8fa20560aac74a173",
+        "approvalHash": "f01baa1f4006e4f3c13993c9ee5e00bfba463d2d8e628f814c01cb8f699cd5a1"
+      }
+    },
+    {
+      "id": "vocab-n1:1487",
+      "revisionId": "054-vocab-n1-1487",
+      "state": "accepted",
+      "predecessorHash": "28e0e5f0cdd6d937e939f9ad9edffc36d437af1b92402def3181e87ecefaea79",
+      "predecessorRevisionHash": null,
+      "originalHash": "28e0e5f0cdd6d937e939f9ad9edffc36d437af1b92402def3181e87ecefaea79",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「や」「かな」「けり」は代表的な切れ字だ。",
+            "romaji": "'Ya' 'kana' 'keri' wa daihyō-teki na kireji da.",
+            "german": "'Ya', 'kana' und 'keri' sind typische Zäsurwörter."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「や」「かな」「けり」は代表的な切れ字だ。",
+            "romaji": "\"Ya\" \"kana\" \"keri\" wa daihyō-teki na kireji da.",
+            "german": "'Ya', 'kana' und 'keri' sind typische Zäsurwörter."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108528767",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "切れ字 / キレジ; 名詞/普通名詞/一般/*; *; *; lemma 切れ字; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "切れ字",
+              "reading": "きれじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切れ字 as \"Zäsurwort (Haiku)\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2089550; spelling=切れ字; reading=きれじ",
+          "finding": "JMdict 2089550 切れ字/きれじ confirms the reading romanized here.",
+          "selected": {
+            "sequence": "2089550",
+            "spelling": "切れ字",
+            "reading": "きれじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "punctuation words in haiku, renga, etc. such as \"ya\", \"kana\", \"keri\", etc."
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Zäsurwort (Haiku)\" unchanged; checked against JMdict 2089550.",
+        "japanese": "「や」「かな」「けり」は代表的な切れ字だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"kireji\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Ya', 'kana' und 'keri' sind typische Zäsurwörter."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@108528767 attests 0,2. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108528767",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "切れ字 / キレジ; 名詞/普通名詞/一般/*; *; *; lemma 切れ字; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "切れ字",
+              "reading": "きれじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切れ字 as \"Zäsurwort (Haiku)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "e0b24744c294eccba6f9f12b124f7b70742e4349a77be8f6fb7c7bd53a343bc7",
+        "approvalHash": "c50173da31c9dbf017c1a63f7c2c80f819a45c3a3795ef60e6f7b4b595a3c10b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「や」「かな」「けり」 rendered as \"Ya\" \"kana\" \"keri\"; romaji otherwise identical and matches the Japanese; pitch 0 within own row sys.dic@108528767 (0,2). Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "e0b24744c294eccba6f9f12b124f7b70742e4349a77be8f6fb7c7bd53a343bc7",
+        "approvalHash": "c50173da31c9dbf017c1a63f7c2c80f819a45c3a3795ef60e6f7b4b595a3c10b"
+      }
+    },
+    {
+      "id": "vocab-n1:1500",
+      "revisionId": "054-vocab-n1-1500",
+      "state": "accepted",
+      "predecessorHash": "74cdc041acb59a1baa02b973c8dfb15330aff884d7695e21b7aef16f573dacc7",
+      "predecessorRevisionHash": null,
+      "originalHash": "74cdc041acb59a1baa02b973c8dfb15330aff884d7695e21b7aef16f573dacc7",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「花火」の「び」は連濁の例だ。",
+            "romaji": "'Hanabi' no 'bi' wa rendaku no rei da.",
+            "german": "Das 'bi' in 'hanabi' ist ein Beispiel für sequentielle Stimmhaftwerdung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「花火」の「び」は連濁の例だ。",
+            "romaji": "\"Hanabi\" no \"bi\" wa rendaku no rei da.",
+            "german": "Das 'bi' in 'hanabi' ist ein Beispiel für sequentielle Stimmhaftwerdung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280103818",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "連濁 / レンダク; 名詞/普通名詞/サ変可能/*; *; *; lemma 連濁; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "連濁",
+              "reading": "れんだく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "連濁 as \"sequentielle Stimmhaftwerdung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1559690; spelling=連濁; reading=れんだく",
+          "finding": "JMdict 1559690 連濁/れんだく confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1559690",
+            "spelling": "連濁",
+            "reading": "れんだく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rendaku",
+                  "sequential voicing",
+                  "in Japanese, an unvoiced sound becoming voiced when it is the initial consonant of the non-initial portion of a compound or prefixed word"
+                ],
+                "notes": [
+                  "e.g. はな (花) + ひ (火) → はなび (花火)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"sequentielle Stimmhaftwerdung\" unchanged; checked against JMdict 1559690.",
+        "japanese": "「花火」の「び」は連濁の例だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"rendaku\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Das 'bi' in 'hanabi' ist ein Beispiel für sequentielle Stimmhaftwerdung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@280103818 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280103818",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "連濁 / レンダク; 名詞/普通名詞/サ変可能/*; *; *; lemma 連濁; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "連濁",
+              "reading": "れんだく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "連濁 as \"sequentielle Stimmhaftwerdung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "ad00eb07c1cffbb26e4d387d8f5941dbaa8294e9107bc112277024967e5b0efa",
+        "approvalHash": "252f07cbc2da1051443958f53bf4576e541e130ef776da3844c46010ff602e3e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「花火」「び」 rendered as \"Hanabi\" / \"bi\"; romaji otherwise identical and matches the Japanese; pitch 0 own row sys.dic@280103818. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "ad00eb07c1cffbb26e4d387d8f5941dbaa8294e9107bc112277024967e5b0efa",
+        "approvalHash": "252f07cbc2da1051443958f53bf4576e541e130ef776da3844c46010ff602e3e"
+      }
+    },
+    {
+      "id": "vocab-n1:1501",
+      "revisionId": "054-vocab-n1-1501",
+      "state": "accepted",
+      "predecessorHash": "0be0c1b2ea666a8dd75593d0862e06175e41957a1746e834b35383d914a7eb79",
+      "predecessorRevisionHash": "af55cb1bf77180edfaee4c7a559b2e2fd0cfbd0fa9c691e7ed814017f05adf0c",
+      "originalHash": "0be0c1b2ea666a8dd75593d0862e06175e41957a1746e834b35383d914a7eb79",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "促音は小さい「っ」で表記される。",
+            "romaji": "Sokuon wa chiisai 'tsu' de hyōki sareru.",
+            "german": "Die Gemination wird mit einem kleinen 'tsu' geschrieben."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "促音は小さい「っ」で表記される。",
+            "romaji": "Sokuon wa chiisai \"tsu\" de hyōki sareru.",
+            "german": "Die Gemination wird mit einem kleinen 'tsu' geschrieben."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1403770; spelling=促音; reading=そくおん",
+          "finding": "JMdict 1403770 促音/そくおん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1403770",
+            "spelling": "促音",
+            "reading": "そくおん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "geminate consonant (small \"tsu\" in Japanese)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Gemination; Doppelkonsonant\" unchanged; checked against JMdict 1403770.",
+        "japanese": "促音は小さい「っ」で表記される。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"sokuon\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Gemination wird mit einem kleinen 'tsu' geschrieben."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155608143",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "促音 / ソクオン; 名詞/普通名詞/一般/*; *; *; lemma 促音; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "促音",
+              "reading": "そくおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "促音 as \"Gemination; Doppelkonsonant\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "4f508d09d51bce95b34d6aa7a14d597ca32fe31a6066b42f35b8d610c2fdefce",
+        "approvalHash": "7c1f5c1a47b4a50bfcf4dbb1f580aadce0afe4e6657807829aa6ec442852c1b8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「っ」 rendered as \"tsu\"; romaji otherwise identical and matches the Japanese; pitch 0 and existing own-row provenance sys.dic@155608143 unchanged. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "4f508d09d51bce95b34d6aa7a14d597ca32fe31a6066b42f35b8d610c2fdefce",
+        "approvalHash": "7c1f5c1a47b4a50bfcf4dbb1f580aadce0afe4e6657807829aa6ec442852c1b8"
+      }
+    },
+    {
+      "id": "vocab-n1:1502",
+      "revisionId": "054-vocab-n1-1502",
+      "state": "accepted",
+      "predecessorHash": "0f5e80dc98eb36545cac5cc59355e8f6742802ea44cd6d8ac1b1f7a02cceb871",
+      "predecessorRevisionHash": null,
+      "originalHash": "0f5e80dc98eb36545cac5cc59355e8f6742802ea44cd6d8ac1b1f7a02cceb871",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "撥音「ん」の発音は後続の音によって変わる。",
+            "romaji": "Hatsuon 'n' no hatsuon wa kōzoku no oto ni yotte kawaru.",
+            "german": "Die Aussprache des Nasallauts 'n' ändert sich je nach dem folgenden Laut."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "撥音「ん」の発音は後続の音によって変わる。",
+            "romaji": "Hatsuon \"n\" no hatsuon wa kōzoku no oto ni yotte kawaru.",
+            "german": "Die Aussprache des Nasallauts 'n' ändert sich je nach dem folgenden Laut."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215913711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "撥音 / ハツオン; 名詞/普通名詞/一般/*; *; *; lemma 撥音; aType 2. Existing 0 unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "撥音",
+              "reading": "はつおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "撥音 as \"Nasallaut; Silbennasal\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1567740; spelling=撥音; reading=はつおん",
+          "finding": "JMdict 1567740 撥音/はつおん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1567740",
+            "spelling": "撥音",
+            "reading": "はつおん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "syllabic nasal (in Japanese)"
+                ],
+                "notes": [
+                  "written in kana as ん or ン"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Nasallaut; Silbennasal\" unchanged; checked against JMdict 1567740.",
+        "japanese": "撥音「ん」の発音は後続の音によって変わる。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"hatsuon\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Aussprache des Nasallauts 'n' ändert sich je nach dem folgenden Laut."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@215913711 attests 2. Existing 0 unattested by the exact row; corrected to 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215913711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "撥音 / ハツオン; 名詞/普通名詞/一般/*; *; *; lemma 撥音; aType 2. Existing 0 unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "撥音",
+              "reading": "はつおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "撥音 as \"Nasallaut; Silbennasal\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "a786ab47ab4449332745d7b5876e8e88494c796cf08659618338d34ccba7d908",
+        "approvalHash": "d924ef8d609b980d0eeb0e95b2fc0e1585b7b8b02781c8d43250342654669a26"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「ん」 rendered as \"n\"; romaji otherwise identical and matches the Japanese; pitch 0 -> 2 from the headword own row 撥音/ハツオン sys.dic@215913711 (aType 2, lemma 撥音), confirmed by independent lookup. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "a786ab47ab4449332745d7b5876e8e88494c796cf08659618338d34ccba7d908",
+        "approvalHash": "d924ef8d609b980d0eeb0e95b2fc0e1585b7b8b02781c8d43250342654669a26"
+      }
+    },
+    {
+      "id": "vocab-n1:1504",
+      "revisionId": "054-vocab-n1-1504",
+      "state": "accepted",
+      "predecessorHash": "453f58e71c25319d31972ef4fbbb26e6bb4137410002eac470d45a4a108f1d88",
+      "predecessorRevisionHash": null,
+      "originalHash": "453f58e71c25319d31972ef4fbbb26e6bb4137410002eac470d45a4a108f1d88",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "拗音は「きゃ」「しゅ」「ちょ」などの音だ。",
+            "romaji": "Yōon wa 'kya' 'shu' 'cho' nado no oto da.",
+            "german": "Yōon sind Laute wie 'kya', 'shu', 'cho'."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "拗音は「きゃ」「しゅ」「ちょ」などの音だ。",
+            "romaji": "Yōon wa \"kya\" \"shu\" \"cho\" nado no oto da.",
+            "german": "Yōon sind Laute wie 'kya', 'shu', 'cho'."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272910119",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "拗音 / ヨウオン; 名詞/普通名詞/一般/*; *; *; lemma 拗音; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "拗音",
+              "reading": "ようおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "拗音 as \"palatalisierter Laut; y-Kombination\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1567280; spelling=拗音; reading=ようおん",
+          "finding": "JMdict 1567280 拗音/ようおん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1567280",
+            "spelling": "拗音",
+            "reading": "ようおん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contracted sound",
+                  "palatalised sound (e.g. Japanese morae with small kana)",
+                  "palatalized sound"
+                ],
+                "notes": [
+                  "e.g. きゃ"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"palatalisierter Laut; y-Kombination\" unchanged; checked against JMdict 1567280.",
+        "japanese": "拗音は「きゃ」「しゅ」「ちょ」などの音だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"yōon\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Yōon sind Laute wie 'kya', 'shu', 'cho'."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@272910119 attests 1. Existing 0 unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272910119",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "拗音 / ヨウオン; 名詞/普通名詞/一般/*; *; *; lemma 拗音; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "拗音",
+              "reading": "ようおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "拗音 as \"palatalisierter Laut; y-Kombination\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "da861fb54e2cea245de22e3624c89172cd2bba1707491fe448451146590e6691",
+        "approvalHash": "e9fd406d71c0f24f69267d0221ff2da49559c51ce4d8584287e957437d8c1c20"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「きゃ」「しゅ」「ちょ」 rendered as \"kya\" \"shu\" \"cho\"; romaji otherwise identical and matches the Japanese; pitch 0 -> 1 from the headword own row 拗音/ヨウオン sys.dic@272910119 (aType 1, lemma 拗音), confirmed by independent lookup. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "da861fb54e2cea245de22e3624c89172cd2bba1707491fe448451146590e6691",
+        "approvalHash": "e9fd406d71c0f24f69267d0221ff2da49559c51ce4d8584287e957437d8c1c20"
+      }
+    },
+    {
+      "id": "vocab-n1:1562",
+      "revisionId": "054-vocab-n1-1562",
+      "state": "accepted",
+      "predecessorHash": "6b5db6a69798860cd2ff8d20cc123c4ec7eb20244756c09082755d5062339a38",
+      "predecessorRevisionHash": null,
+      "originalHash": "6b5db6a69798860cd2ff8d20cc123c4ec7eb20244756c09082755d5062339a38",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「坊っちゃん」は夏目漱石の代表作の一つだ。",
+            "romaji": "'Botchan' wa Natsume Sōseki no daihyōsaku no hitotsu da.",
+            "german": "'Botchan' ist eines der Hauptwerke von Natsume Sōseki."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「坊っちゃん」は夏目漱石の代表作の一つだ。",
+            "romaji": "\"Botchan\" wa Natsume Sōseki no daihyōsaku no hitotsu da.",
+            "german": "'Botchan' ist eines der Hauptwerke von Natsume Sōseki."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412190; spelling=代表作; reading=だいひょうさく",
+          "finding": "JMdict 1412190 代表作/だいひょうさく confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1412190",
+            "spelling": "代表作",
+            "reading": "だいひょうさく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "most important work (of a writer, artist, etc.)",
+                  "representative work",
+                  "masterpiece",
+                  "magnum opus",
+                  "major work"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Hauptwerk; repräsentatives Werk\" unchanged; checked against JMdict 1412190.",
+        "japanese": "「坊っちゃん」は夏目漱石の代表作の一つだ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"daihyōsaku\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Botchan' ist eines der Hauptwerke von Natsume Sōseki."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 代表作 / だいひょうさく; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:1562; exact written-form/kana lookup 代表作 / だいひょうさく",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "45a0c20d6e7e42ca799d5c7facfb8c3604795e2afd1eb6e2f3798d4c03f34941",
+        "approvalHash": "b1ae20ff92d9aac50d524087ebc5dae3cc1a0bf907ee391e2deb2e78f9ec6e3b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「坊っちゃん」 rendered as \"Botchan\"; romaji otherwise identical and matches the Japanese; pitch 0 -> null is correct: independent exact-form lookup (sys.dic SHA 9a512d20…) finds no 代表作/ダイヒョウサク row and no provenance existed. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "45a0c20d6e7e42ca799d5c7facfb8c3604795e2afd1eb6e2f3798d4c03f34941",
+        "approvalHash": "b1ae20ff92d9aac50d524087ebc5dae3cc1a0bf907ee391e2deb2e78f9ec6e3b"
+      }
+    },
+    {
+      "id": "vocab-n1:1585",
+      "revisionId": "054-vocab-n1-1585",
+      "state": "accepted",
+      "predecessorHash": "3d50b1f4153f7ee953738c664e74d707d6b43bc7520cbae6e2c11ed0490129cf",
+      "predecessorRevisionHash": null,
+      "originalHash": "3d50b1f4153f7ee953738c664e74d707d6b43bc7520cbae6e2c11ed0490129cf",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「書いて」の「い」は音便による変化だ。",
+            "romaji": "'Kaite' no 'i' wa onbin ni yoru henka da.",
+            "german": "Das 'i' in 'kaite' ist eine Veränderung durch euphonischen Wandel."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「書いて」の「い」は音便による変化だ。",
+            "romaji": "\"Kaite\" no \"i\" wa onbin ni yoru henka da.",
+            "german": "Das 'i' in 'kaite' ist eine Veränderung durch euphonischen Wandel."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85266402",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "音便 / オンビン; 名詞/普通名詞/一般/*; *; *; lemma 音便; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "音便",
+              "reading": "おんびん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "音便 as \"Lautveränderung; euphonischer Wandel\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1184070; spelling=音便; reading=おんびん",
+          "finding": "JMdict 1184070 音便/おんびん confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1184070",
+            "spelling": "音便",
+            "reading": "おんびん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "euphony",
+                  "euphonic change"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Lautveränderung; euphonischer Wandel\" unchanged; checked against JMdict 1184070.",
+        "japanese": "「書いて」の「い」は音便による変化だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"onbin\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Das 'i' in 'kaite' ist eine Veränderung durch euphonischen Wandel."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@85266402 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85266402",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "音便 / オンビン; 名詞/普通名詞/一般/*; *; *; lemma 音便; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "音便",
+              "reading": "おんびん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "音便 as \"Lautveränderung; euphonischer Wandel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "e1aa50d8fd1d23af3f9ea6a6908a3e9c87e2c412238c1873f2f4f0e74f9d28b1",
+        "approvalHash": "3bcaf022a42233b4ba1f265a9fcc1bf9d2cc2123232e8e70ba8e2d1fdc174558"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「書いて」「い」 rendered as \"Kaite\" / \"i\"; romaji otherwise identical and matches the Japanese; pitch 0 own row sys.dic@85266402. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "e1aa50d8fd1d23af3f9ea6a6908a3e9c87e2c412238c1873f2f4f0e74f9d28b1",
+        "approvalHash": "3bcaf022a42233b4ba1f265a9fcc1bf9d2cc2123232e8e70ba8e2d1fdc174558"
+      }
+    },
+    {
+      "id": "vocab-n1:1588",
+      "revisionId": "054-vocab-n1-1588",
+      "state": "accepted",
+      "predecessorHash": "d58af4bbda47746030c8d1b774d3c372521a1a07caf8cf34f9a1d51faa72b2b6",
+      "predecessorRevisionHash": "b0b8755f8f380d06efa1c4a1a5f3d7b690043da0b60b5c1fc30d560cb5ae4551",
+      "originalHash": "d58af4bbda47746030c8d1b774d3c372521a1a07caf8cf34f9a1d51faa72b2b6",
+      "rationale": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「因縁」を「いんねん」と読むのは連声の例だ。",
+            "romaji": "'Innen' o 'innen' to yomu no wa renjō no rei da.",
+            "german": "Die Lesung von '因縁' als 'innen' ist ein Beispiel für Sandhi."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「因縁」を「いんねん」と読むのは連声の例だ。",
+            "romaji": "\"Innen\" o \"innen\" to yomu no wa renjō no rei da.",
+            "german": "Die Lesung von '因縁' als 'innen' ist ein Beispiel für Sandhi."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1781810; spelling=連声; reading=れんじょう",
+          "finding": "JMdict 1781810 連声/れんじょう confirms the reading romanized here.",
+          "selected": {
+            "sequence": "1781810",
+            "spelling": "連声",
+            "reading": "れんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sandhi"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "renjō",
+                  "morphological change of an initial syllable of the second kanji under the influence of the historical coda of the first kanji in a word"
+                ],
+                "notes": [
+                  "e.g. いんえん(因縁) → いんねん"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Editorial finding (maintenance batch 054)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/m054/quotes.json",
+          "finding": "Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-054-editor",
+        "meaning": "\"Sandhi; Lautverbindung\" unchanged; checked against JMdict 1781810.",
+        "japanese": "「因縁」を「いんねん」と読むのは連声の例だ。 — unchanged; checked for naturalness.",
+        "romanization": "Headword \"renjō\" and example romaji in Modified Hepburn; 「」 rendered as double quotes.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Lesung von '因縁' als 'innen' ist ein Beispiel für Sandhi."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Existing pitch 0 and its exact-row provenance are unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280086979",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "連声 / レンジョウ; 名詞/普通名詞/一般/*; *; *; lemma 連声; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "連声",
+              "reading": "れんじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "連声 as \"Sandhi; Lautverbindung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-editor",
+        "finding": "Editorial first pass: Quotation marks for 「」 written as double quotes like the rest of the data (single quotes were used in some examples). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "120acf31a0502f81e3da97d8fd5ad1b059d2af9bedbb527baf151694886c80de",
+        "approvalHash": "8caca1f51c34b1e2d97af2cc33dbd73ba4f20dd3d57303fd95884f71884abbaa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-054-independent-reviewer",
+        "finding": "Independent second pass: 「」 in 「因縁」「いんねん」 rendered as \"Innen\" o \"innen\"; romaji otherwise identical and matches the Japanese; pitch 0 and existing own-row provenance sys.dic@280086979 unchanged. Only romaji quotes/pitch fields changed; Japanese, German, meaning, type and level untouched.",
+        "contentHash": "120acf31a0502f81e3da97d8fd5ad1b059d2af9bedbb527baf151694886c80de",
+        "approvalHash": "8caca1f51c34b1e2d97af2cc33dbd73ba4f20dd3d57303fd95884f71884abbaa"
+      }
+    }
+  ],
+  "decisions": []
+}

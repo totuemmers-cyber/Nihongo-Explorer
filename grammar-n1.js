@@ -5217,7 +5217,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare wa 'makasero' to bakari ni mune wo tataita.",
+        "romaji": "Kare wa \"makasero\" to bakari ni mune o tataita.",
         "german": "Er klopfte sich auf die Brust, als wollte er sagen 'Verlass dich auf mich'."
       },
       {

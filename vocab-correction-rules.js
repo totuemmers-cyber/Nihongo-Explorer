@@ -2492,6 +2492,34 @@ window.VOCAB_CORRECTION_RULES = {
         ],
         "pitch": null
       },
+      "1293": {
+        "examples": [
+          {
+            "japanese": "直喩は「ように」などの語を用いた表現法だ。",
+            "romaji": "Chokuyu wa \"yō ni\" nado no go o mochiita hyōgenhō da.",
+            "german": "Das Simile ist eine Ausdrucksform, die Wörter wie 'wie' verwendet."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170384172",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "直喩 / チョクユ; 名詞/普通名詞/一般/*; *; *; lemma 直喩; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "直喩",
+              "reading": "ちょくゆ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "直喩 as \"Vergleich; Simile\"."
+            }
+          }
+        ]
+      },
       "1294": {
         "examples": [
           {
@@ -2512,12 +2540,72 @@ window.VOCAB_CORRECTION_RULES = {
         ],
         "pitch": null
       },
+      "1333": {
+        "examples": [
+          {
+            "japanese": "「お」や「ご」は日本語の代表的な接頭辞だ。",
+            "romaji": "\"O\" ya \"go\" wa Nihongo no daihyō-teki na settōji da.",
+            "german": "'O' und 'go' sind typische japanische Präfixe."
+          }
+        ],
+        "pitch": null
+      },
+      "1334": {
+        "examples": [
+          {
+            "japanese": "「的」は名詞に付く接尾辞である。",
+            "romaji": "\"Teki\" wa meishi ni tsuku setsubiji de aru.",
+            "german": "'Teki' ist ein Suffix, das an Nomen angehängt wird."
+          }
+        ],
+        "pitch": null
+      },
       "1343": {
         "examples": [
           {
             "japanese": "「消しゴム」は和語と外来語が混じった混種語だ。",
-            "romaji": "'Keshigomu' wa wago to gairaigo ga majitta konshugo da.",
+            "romaji": "\"Keshigomu\" wa wago to gairaigo ga majitta konshugo da.",
             "german": "'Keshigomu' ist ein Hybridwort aus einem japanischen und einem Fremdwort."
+          }
+        ],
+        "pitch": null
+      },
+      "1344": {
+        "examples": [
+          {
+            "japanese": "「矛盾」は中国の故事成語に由来する。",
+            "romaji": "\"Mujun\" wa Chūgoku no koji seigo ni yurai suru.",
+            "german": "'Mujun' (Widerspruch) stammt aus einer klassischen chinesischen Erzählung."
+          }
+        ],
+        "pitch": null
+      },
+      "1347": {
+        "examples": [
+          {
+            "japanese": "「善」の対義語は「悪」である。",
+            "romaji": "\"Zen\" no taigigo wa \"aku\" de aru.",
+            "german": "Das Antonym von 'gut' ist 'böse'."
+          }
+        ],
+        "pitch": null
+      },
+      "1365": {
+        "examples": [
+          {
+            "japanese": "「れる」「られる」は受身を表す助動詞だ。",
+            "romaji": "\"Reru\" \"rareru\" wa ukemi o arawasu jodōshi da.",
+            "german": "'Reru' und 'rareru' sind Hilfsverben, die das Passiv ausdrücken."
+          }
+        ],
+        "pitch": null
+      },
+      "1366": {
+        "examples": [
+          {
+            "japanese": "「開く」は自動詞と他動詞の両方の用法がある。",
+            "romaji": "\"Aku\" wa jidōshi to tadōshi no ryōhō no yōhō ga aru.",
+            "german": "'Aku' hat sowohl intransitive als auch transitive Verwendungen."
           }
         ],
         "pitch": null
@@ -2537,7 +2625,7 @@ window.VOCAB_CORRECTION_RULES = {
         "examples": [
           {
             "japanese": "「出鱈目」は当て字の一例である。",
-            "romaji": "'Detarame' wa ateji no ichirei de aru.",
+            "romaji": "\"Detarame\" wa ateji no ichirei de aru.",
             "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
           }
         ],
@@ -2564,11 +2652,38 @@ window.VOCAB_CORRECTION_RULES = {
         "examples": [
           {
             "japanese": "「大人」を「おとな」と読むのは熟字訓だ。",
-            "romaji": "'Otona' o 'otona' to yomu no wa jukujikun da.",
+            "romaji": "\"Otona\" o \"otona\" to yomu no wa jukujikun da.",
             "german": "Die Lesung von '大人' als 'otona' ist eine irreguläre Kanji-Lesung."
           }
         ],
         "pitch": null
+      },
+      "1415": {
+        "examples": [
+          {
+            "japanese": "「峠」は日本で作られた国字の一つだ。",
+            "romaji": "\"Tōge\" wa Nihon de tsukurareta kokuji no hitotsu da.",
+            "german": "'Tōge' (Bergpass) ist eines der in Japan geschaffenen Kanji."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121422959",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "国字 / コクジ; 名詞/普通名詞/一般/*; *; *; lemma 国字; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "国字",
+              "reading": "こくじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "国字 as \"in Japan geschaffenes Kanji\"."
+            }
+          }
+        ]
       },
       "1433": {
         "examples": [
@@ -2576,6 +2691,80 @@ window.VOCAB_CORRECTION_RULES = {
             "japanese": "母語の言語習得は生後数年間に急速に進む。",
             "romaji": "Bogo no gengo shūtoku wa seigo sūnenkan ni kyūsoku ni susumu.",
             "german": "Der Erwerb der Muttersprache schreitet in den ersten Lebensjahren rasch voran."
+          }
+        ],
+        "pitch": null
+      },
+      "1439": {
+        "examples": [
+          {
+            "japanese": "日本語には「さん」「様」など多様な敬称がある。",
+            "romaji": "Nihongo ni wa \"san\" \"sama\" nado tayō na keishō ga aru.",
+            "german": "Im Japanischen gibt es vielfältige Höflichkeitsanreden wie 'san' und 'sama'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116965897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "敬称 / ケイショウ; 名詞/普通名詞/一般/*; *; *; lemma 敬称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "敬称",
+              "reading": "けいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "敬称 as \"Höflichkeitsanrede; Ehrentitel\"."
+            }
+          }
+        ]
+      },
+      "1441": {
+        "examples": [
+          {
+            "japanese": "「永眠」は「死」の美称である。",
+            "romaji": "\"Eimin\" wa \"shi\" no bishō de aru.",
+            "german": "'Eimin' (ewiger Schlaf) ist ein Euphemismus für 'Tod'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229345351",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "美称 / ビショウ; 名詞/普通名詞/一般/*; *; *; lemma 美称; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "美称",
+              "reading": "びしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "美称 as \"Euphemismus; schöne Bezeichnung\"."
+            }
+          }
+        ]
+      },
+      "1444": {
+        "examples": [
+          {
+            "japanese": "「きらきら」「ふわふわ」は擬態語の例だ。",
+            "romaji": "\"Kirakira\" \"fuwafuwa\" wa gitaigo no rei da.",
+            "german": "'Kirakira' (glitzernd) und 'fuwafuwa' (flauschig) sind Beispiele für Ideophone."
+          }
+        ],
+        "pitch": null
+      },
+      "1451": {
+        "examples": [
+          {
+            "japanese": "「パン」はポルトガル語からの借用語だ。",
+            "romaji": "\"Pan\" wa Porutogaru-go kara no shakuyōgo da.",
+            "german": "'Pan' (Brot) ist ein Lehnwort aus dem Portugiesischen."
           }
         ],
         "pitch": null
@@ -2590,7 +2779,69 @@ window.VOCAB_CORRECTION_RULES = {
         ],
         "pitch": null
       },
+      "1487": {
+        "examples": [
+          {
+            "japanese": "「や」「かな」「けり」は代表的な切れ字だ。",
+            "romaji": "\"Ya\" \"kana\" \"keri\" wa daihyō-teki na kireji da.",
+            "german": "'Ya', 'kana' und 'keri' sind typische Zäsurwörter."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108528767",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "切れ字 / キレジ; 名詞/普通名詞/一般/*; *; *; lemma 切れ字; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "切れ字",
+              "reading": "きれじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "切れ字 as \"Zäsurwort (Haiku)\"."
+            }
+          }
+        ]
+      },
+      "1500": {
+        "examples": [
+          {
+            "japanese": "「花火」の「び」は連濁の例だ。",
+            "romaji": "\"Hanabi\" no \"bi\" wa rendaku no rei da.",
+            "german": "Das 'bi' in 'hanabi' ist ein Beispiel für sequentielle Stimmhaftwerdung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280103818",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "連濁 / レンダク; 名詞/普通名詞/サ変可能/*; *; *; lemma 連濁; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "連濁",
+              "reading": "れんだく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "連濁 as \"sequentielle Stimmhaftwerdung\"."
+            }
+          }
+        ]
+      },
       "1501": {
+        "examples": [
+          {
+            "japanese": "促音は小さい「っ」で表記される。",
+            "romaji": "Sokuon wa chiisai \"tsu\" de hyōki sareru.",
+            "german": "Die Gemination wird mit einem kleinen 'tsu' geschrieben."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -2611,15 +2862,108 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1502": {
+        "examples": [
+          {
+            "japanese": "撥音「ん」の発音は後続の音によって変わる。",
+            "romaji": "Hatsuon \"n\" no hatsuon wa kōzoku no oto ni yotte kawaru.",
+            "german": "Die Aussprache des Nasallauts 'n' ändert sich je nach dem folgenden Laut."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215913711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "撥音 / ハツオン; 名詞/普通名詞/一般/*; *; *; lemma 撥音; aType 2. Existing 0 unattested by the exact row; corrected to 2.",
+            "match": {
+              "word": "撥音",
+              "reading": "はつおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "撥音 as \"Nasallaut; Silbennasal\"."
+            }
+          }
+        ]
+      },
+      "1504": {
+        "examples": [
+          {
+            "japanese": "拗音は「きゃ」「しゅ」「ちょ」などの音だ。",
+            "romaji": "Yōon wa \"kya\" \"shu\" \"cho\" nado no oto da.",
+            "german": "Yōon sind Laute wie 'kya', 'shu', 'cho'."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272910119",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "拗音 / ヨウオン; 名詞/普通名詞/一般/*; *; *; lemma 拗音; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "拗音",
+              "reading": "ようおん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "拗音 as \"palatalisierter Laut; y-Kombination\"."
+            }
+          }
+        ]
+      },
       "1556": {
         "romaji": "dokugokan",
         "pitch": null
+      },
+      "1562": {
+        "examples": [
+          {
+            "japanese": "「坊っちゃん」は夏目漱石の代表作の一つだ。",
+            "romaji": "\"Botchan\" wa Natsume Sōseki no daihyōsaku no hitotsu da.",
+            "german": "'Botchan' ist eines der Hauptwerke von Natsume Sōseki."
+          }
+        ],
+        "pitch": null
+      },
+      "1585": {
+        "examples": [
+          {
+            "japanese": "「書いて」の「い」は音便による変化だ。",
+            "romaji": "\"Kaite\" no \"i\" wa onbin ni yoru henka da.",
+            "german": "Das 'i' in 'kaite' ist eine Veränderung durch euphonischen Wandel."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85266402",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "音便 / オンビン; 名詞/普通名詞/一般/*; *; *; lemma 音便; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "音便",
+              "reading": "おんびん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "音便 as \"Lautveränderung; euphonischer Wandel\"."
+            }
+          }
+        ]
       },
       "1588": {
         "examples": [
           {
             "japanese": "「因縁」を「いんねん」と読むのは連声の例だ。",
-            "romaji": "'Innen' o 'innen' to yomu no wa renjō no rei da.",
+            "romaji": "\"Innen\" o \"innen\" to yomu no wa renjō no rei da.",
             "german": "Die Lesung von '因縁' als 'innen' ist ein Beispiel für Sandhi."
           }
         ],
@@ -67690,6 +68034,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "294": {
+        "romaji": "ohayō gozaimasu",
+        "examples": [
+          {
+            "japanese": "おはようございます、先生。",
+            "romaji": "Ohayō gozaimasu, sensei.",
+            "german": "Guten Morgen, Herr/Frau Lehrer/in."
+          },
+          {
+            "japanese": "先生に「おはようございます」と言いました。",
+            "romaji": "Sensei ni \"ohayō gozaimasu\" to iimashita.",
+            "german": "Ich sagte zum Lehrer 'Guten Morgen'."
+          }
+        ],
         "pitch": 8,
         "pitchProvenance": [
           {
@@ -67801,6 +68158,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "297": {
+        "romaji": "sayōnara",
+        "examples": [
+          {
+            "japanese": "さようなら、また明日。",
+            "romaji": "Sayōnara, mata ashita.",
+            "german": "Auf Wiedersehen, bis morgen."
+          },
+          {
+            "japanese": "友達に「さようなら」と手を振りました。",
+            "romaji": "Tomodachi ni \"sayōnara\" to te o furimashita.",
+            "german": "Ich winkte meinem Freund zum Abschied."
+          }
+        ],
         "pitch": 4,
         "pitchVariants": [
           5
@@ -67826,6 +68196,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "298": {
+        "romaji": "arigatō gozaimasu",
+        "examples": [
+          {
+            "japanese": "ありがとうございます。助かりました。",
+            "romaji": "Arigatō gozaimasu. Tasukarimashita.",
+            "german": "Vielen Dank. Das hat mir geholfen."
+          },
+          {
+            "japanese": "プレゼントをもらって「ありがとうございます」と言いました。",
+            "romaji": "Purezento o moratte \"arigatō gozaimasu\" to iimashita.",
+            "german": "Ich bekam ein Geschenk und sagte 'Vielen Dank'."
+          }
+        ],
         "pitch": 2,
         "pitchProvenance": [
           {
@@ -67879,6 +68262,18 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "300": {
+        "examples": [
+          {
+            "japanese": "コーヒーをお願いします。",
+            "romaji": "Kōhī o onegai shimasu.",
+            "german": "Einen Kaffee, bitte."
+          },
+          {
+            "japanese": "「お願いします」と店員に言いました。",
+            "romaji": "\"Onegai shimasu\" to ten'in ni iimashita.",
+            "german": "Ich sagte 'Bitte' zum Verkäufer."
+          }
+        ],
         "pitch": 6,
         "pitchProvenance": [
           {
@@ -67909,7 +68304,7 @@ window.VOCAB_CORRECTION_RULES = {
           },
           {
             "japanese": "ごはんの前に「いただきます」と言います。",
-            "romaji": "Gohan no mae ni 'itadakimasu' to iimasu.",
+            "romaji": "Gohan no mae ni \"itadakimasu\" to iimasu.",
             "german": "Vor dem Essen sagt man 'Itadakimasu'."
           }
         ],
@@ -67932,6 +68327,22 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "302": {
+        "romaji": "gochisōsama deshita",
+        "examples": [
+          {
+            "japanese": "ごちそうさまでした。おいしかったです。",
+            "romaji": "Gochisōsama deshita. Oishikatta desu.",
+            "german": "Danke für das Essen. Es war lecker."
+          },
+          {
+            "japanese": "食べた後に「ごちそうさまでした」と言います。",
+            "romaji": "Tabeta ato ni \"gochisōsama deshita\" to iimasu.",
+            "german": "Nach dem Essen sagt man 'Gochisousama deshita'."
+          }
+        ],
+        "pitch": null
+      },
       "303": {
         "pitchProvenance": [
           {
@@ -67951,6 +68362,71 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "304": {
+        "romaji": "dōzo yoroshiku",
+        "examples": [
+          {
+            "japanese": "どうぞよろしくお願いします。",
+            "romaji": "Dōzo yoroshiku onegai shimasu.",
+            "german": "Ich freue mich auf die Zusammenarbeit."
+          },
+          {
+            "japanese": "新しい同僚に「どうぞよろしく」と言いました。",
+            "romaji": "Atarashii dōryō ni \"dōzo yoroshiku\" to iimashita.",
+            "german": "Ich sagte zum neuen Kollegen 'Freut mich'."
+          }
+        ],
+        "pitch": null
+      },
+      "305": {
+        "examples": [
+          {
+            "japanese": "ただいま！",
+            "romaji": "Tadaima!",
+            "german": "Ich bin zurück!"
+          },
+          {
+            "japanese": "家に帰って「ただいま」と言います。",
+            "romaji": "Ie ni kaette \"tadaima\" to iimasu.",
+            "german": "Wenn ich nach Hause komme, sage ich 'Ich bin zurück'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161640938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              4,
+              0
+            ],
+            "finding": "ただいま / タダイマ; 名詞/普通名詞/副詞可能/*; *; *; lemma 只今; aType 2,4,0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "ただいま",
+              "reading": "ただいま",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "ただいま as \"Ich bin zurück\"."
+            }
+          }
+        ]
+      },
+      "306": {
+        "examples": [
+          {
+            "japanese": "おかえりなさい、お疲れさま。",
+            "romaji": "Okaerinasai, otsukaresama.",
+            "german": "Willkommen zurück, gute Arbeit."
+          },
+          {
+            "japanese": "家族が帰ったら「おかえりなさい」と言います。",
+            "romaji": "Kazoku ga kaettara \"okaerinasai\" to iimasu.",
+            "german": "Wenn die Familie nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
+        ],
+        "pitch": null
       },
       "307": {
         "pitchProvenance": [
@@ -70103,12 +70579,88 @@ window.VOCAB_CORRECTION_RULES = {
           },
           {
             "japanese": "「久しぶり、元気だった？」と友達に言いました。",
-            "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+            "romaji": "\"Hisashiburi, genki datta?\" to tomodachi ni iimashita.",
             "german": "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
           }
         ],
         "aliases": [
           "久し振り"
+        ],
+        "pitch": null
+      },
+      "517": {
+        "romaji": "omedetō",
+        "examples": [
+          {
+            "japanese": "誕生日おめでとう！",
+            "romaji": "Tanjōbi omedetō!",
+            "german": "Alles Gute zum Geburtstag!"
+          },
+          {
+            "japanese": "「おめでとう！」と友達に言いました。",
+            "romaji": "\"Omedetō!\" to tomodachi ni iimashita.",
+            "german": "Ich sagte 'Glückwunsch!' zum Freund."
+          }
+        ],
+        "pitch": null
+      },
+      "518": {
+        "examples": [
+          {
+            "japanese": "お大事にしてください。",
+            "romaji": "Odaiji ni shite kudasai.",
+            "german": "Gute Besserung!"
+          },
+          {
+            "japanese": "病気の友達に「お大事に」と言いました。",
+            "romaji": "Byōki no tomodachi ni \"odaiji ni\" to iimashita.",
+            "german": "Ich sagte zum kranken Freund 'Gute Besserung'."
+          }
+        ],
+        "pitch": null
+      },
+      "519": {
+        "examples": [
+          {
+            "japanese": "いらっしゃいませ！何名様ですか。",
+            "romaji": "Irasshaimase! Nanmeisama desu ka.",
+            "german": "Willkommen! Wie viele Personen?"
+          },
+          {
+            "japanese": "お店に入ると「いらっしゃいませ」と言われます。",
+            "romaji": "Omise ni hairu to \"irasshaimase\" to iwaremasu.",
+            "german": "Wenn man ein Geschäft betritt, hört man 'Willkommen'."
+          }
+        ],
+        "pitch": null
+      },
+      "520": {
+        "examples": [
+          {
+            "japanese": "お邪魔します。",
+            "romaji": "Ojama shimasu.",
+            "german": "Entschuldigung für die Störung."
+          },
+          {
+            "japanese": "友達の家で「お邪魔します」と言いました。",
+            "romaji": "Tomodachi no ie de \"ojama shimasu\" to iimashita.",
+            "german": "Beim Freund zu Hause sagte ich 'Entschuldigung für die Störung'."
+          }
+        ],
+        "pitch": null
+      },
+      "521": {
+        "examples": [
+          {
+            "japanese": "お帰りなさい！",
+            "romaji": "Okaerinasai!",
+            "german": "Willkommen zurück!"
+          },
+          {
+            "japanese": "子供が帰ったら「お帰りなさい」と言います。",
+            "romaji": "Kodomo ga kaettara \"okaerinasai\" to iimasu.",
+            "german": "Wenn das Kind nach Hause kommt, sagt man 'Willkommen zurück'."
+          }
         ],
         "pitch": null
       },
@@ -70449,6 +71001,69 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "604": {
+        "examples": [
+          {
+            "japanese": "乾杯しましょう。",
+            "romaji": "Kanpai shimashō.",
+            "german": "Lasst uns anstoßen!"
+          },
+          {
+            "japanese": "パーティーで「乾杯」と言いました。",
+            "romaji": "Pātī de \"kanpai\" to iimashita.",
+            "german": "Auf der Party sagten wir 'Prost!'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100878236",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "乾杯 / カンパイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 乾杯; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "乾杯",
+              "reading": "かんぱい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "乾杯 as \"Prost!\"."
+            }
+          }
+        ]
+      },
+      "605": {
+        "examples": [
+          {
+            "japanese": "頂きます。",
+            "romaji": "Itadakimasu.",
+            "german": "Guten Appetit. (Vor dem Essen)"
+          },
+          {
+            "japanese": "手を合わせて「頂きます」と言います。",
+            "romaji": "Te o awasete \"itadakimasu\" to iimasu.",
+            "german": "Man legt die Hände zusammen und sagt 'Itadakimasu'."
+          }
+        ],
+        "pitch": null
+      },
+      "606": {
+        "romaji": "gochisōsama",
+        "examples": [
+          {
+            "japanese": "ご馳走様でした。",
+            "romaji": "Gochisōsama deshita.",
+            "german": "Danke für das Essen. (Nach dem Essen)"
+          },
+          {
+            "japanese": "食事の後に「ご馳走様」と言いましょう。",
+            "romaji": "Shokuji no ato ni \"gochisōsama\" to iimashō.",
+            "german": "Nach dem Essen sagen wir 'Danke für das Essen'."
+          }
+        ],
+        "pitch": null
       },
       "612": {
         "examples": [
@@ -71599,6 +72214,39 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "844": {
+        "romaji": "ohayō",
+        "examples": [
+          {
+            "japanese": "ミホちゃん、おはよう！",
+            "romaji": "Mihochan, ohayō!",
+            "german": "Guten Morgen, Miho-chan!"
+          },
+          {
+            "japanese": "友達に「おはよう」と言いました。",
+            "romaji": "Tomodachi ni \"ohayō\" to iimashita.",
+            "german": "Ich sagte zum Freund 'Guten Morgen'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81079855",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "おはよう / オハヨウ; 感動詞/一般/*/*; *; *; lemma 御早う; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "おはよう",
+              "reading": "おはよう",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "おはよう as \"Guten Morgen\"."
+            }
+          }
+        ]
+      },
       "847": {
         "romaji": "bīdama",
         "examples": [
@@ -71700,6 +72348,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "892": {
         "meaning": "geradlinig, unbeirrbar",
+        "level": "N1",
         "examples": [
           {
             "japanese": "ニックって一本気なところがあるよね。",
@@ -72166,6 +72815,39 @@ window.VOCAB_CORRECTION_RULES = {
       "1195": {
         "type": "Ausdruck",
         "pitch": null
+      },
+      "1198": {
+        "examples": [
+          {
+            "japanese": "もしもし、山川です。",
+            "romaji": "Moshimoshi, Yamakawa desu.",
+            "german": "Hallo, hier ist Yamakawa."
+          },
+          {
+            "japanese": "電話で「もしもし」と言います。",
+            "romaji": "Denwa de \"moshimoshi\" to iimasu.",
+            "german": "Am Telefon sagt man 'Moshimoshi'."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263548657",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "もしもし / モシモシ; 感動詞/一般/*/*; *; *; lemma もしもし; aType 1. Existing 2 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "もしもし",
+              "reading": "もしもし",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "もしもし as \"hallo\"."
+            }
+          }
+        ]
       },
       "1203": {
         "romaji": "hātogata",
@@ -75573,6 +76255,38 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "646": {
+        "examples": [
+          {
+            "japanese": "それが彼の口癖です。",
+            "romaji": "Sore ga kare no kuchiguse desu.",
+            "german": "Das ist sein Lieblingsausdruck."
+          },
+          {
+            "japanese": "彼の口癖は「まあまあ」です。",
+            "romaji": "Kare no kuchiguse wa \"māmā\" desu.",
+            "german": "Sein Lieblingsausdruck ist 'na ja'."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112075845",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "口癖 / クチグセ; 名詞/普通名詞/一般/*; *; *; lemma 口癖; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "口癖",
+              "reading": "くちぐせ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "口癖 as \"Lieblingsausdruck, Redewendung\"."
+            }
+          }
+        ]
+      },
       "662": {
         "romaji": "yōtsū",
         "examples": [
@@ -76572,6 +77286,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1199": {
+        "level": "N1",
         "examples": [
           {
             "japanese": "この土地は可分の財産として扱われる。",
@@ -80841,6 +81556,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2597": {
         "meaning": "Wahnsinn; Verrückter (abwertend, diskriminierend)",
         "type": "Nomen",
+        "level": "N1",
         "notes": "Achtung: abwertender, diskriminierender Ausdruck, der in Medien vermieden wird. Nur zum Verstehen lernen; neutral sind z. B. 変わった (ungewöhnlich) oder 夢中な (begeistert).",
         "examples": [
           {
@@ -80850,7 +81566,7 @@ window.VOCAB_CORRECTION_RULES = {
           },
           {
             "japanese": "昔の小説には「気違い」という言葉がよく出てくるが、今は差別語とされている。",
-            "romaji": "Mukashi no shōsetsu ni wa 'kichigai' to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
+            "romaji": "Mukashi no shōsetsu ni wa \"kichigai\" to iu kotoba ga yoku dete kuru ga, ima wa sabetsugo to sarete iru.",
             "german": "In alten Romanen kommt das Wort „kichigai“ oft vor, heute gilt es jedoch als diskriminierend."
           }
         ],
@@ -99356,6 +100072,43 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "2387": {
+        "romaji": "menyū",
+        "level": "N5",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "メニューを見せてください。",
+            "romaji": "Menyū o misete kudasai.",
+            "german": "Zeigen Sie mir bitte die Speisekarte."
+          },
+          {
+            "kind": "natural",
+            "japanese": "季節ごとにメニューが変わります。",
+            "romaji": "Kisetsugoto ni menyū ga kawarimasu.",
+            "german": "Die Speisekarte wechselt mit den Jahreszeiten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261671673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "メニュー / メニュー; 名詞/普通名詞/一般/*; *; *; lemma メニュー-menu; aType 1. Existing null unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "メニュー",
+              "reading": "メニュー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "メニュー as \"Speisekarte; Menüauswahl\"."
+            }
+          }
+        ]
+      },
       "2395": {
         "word": "蚊",
         "reading": "か",
@@ -103150,7 +103903,7 @@ window.VOCAB_CORRECTION_RULES = {
         "meaning": "Mittagessen; Mittagsmenü",
         "type": "Nomen",
         "category": "Essen",
-        "level": "N2",
+        "level": "N4",
         "notes": "Mittagessen, besonders im Restaurant: ランチメニュー, 日替わりランチ (Tagesmenü). Neutral: 昼ご飯.",
         "examples": [
           {
@@ -103160,7 +103913,7 @@ window.VOCAB_CORRECTION_RULES = {
           },
           {
             "japanese": "この店のランチは千円で、コーヒー付きだ。",
-            "romaji": "Kono mise no ranchi wa sen'en de, koohii tsuki da.",
+            "romaji": "Kono mise no ranchi wa sen'en de, kōhī-tsuki da.",
             "german": "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
           }
         ],
@@ -126197,16 +126950,34 @@ window.VOCAB_CORRECTION_RULES = {
       "1100": "vocab-n1:1100",
       "1105": "vocab-n1:1105",
       "1197": "vocab-n1:1197",
+      "1293": "vocab-n1:1293",
       "1294": "vocab-n1:1294",
       "1311": "vocab-n1:1311",
+      "1333": "vocab-n1:1333",
+      "1334": "vocab-n1:1334",
       "1343": "vocab-n1:1343",
+      "1344": "vocab-n1:1344",
+      "1347": "vocab-n1:1347",
+      "1365": "vocab-n1:1365",
+      "1366": "vocab-n1:1366",
       "1373": "vocab-n1:1373",
       "1403": "vocab-n1:1403",
       "1404": "vocab-n1:1404",
+      "1415": "vocab-n1:1415",
       "1433": "vocab-n1:1433",
+      "1439": "vocab-n1:1439",
+      "1441": "vocab-n1:1441",
+      "1444": "vocab-n1:1444",
+      "1451": "vocab-n1:1451",
       "1471": "vocab-n1:1471",
+      "1487": "vocab-n1:1487",
+      "1500": "vocab-n1:1500",
       "1501": "vocab-n1:1501",
+      "1502": "vocab-n1:1502",
+      "1504": "vocab-n1:1504",
       "1556": "vocab-n1:1556",
+      "1562": "vocab-n1:1562",
+      "1585": "vocab-n1:1585",
       "1588": "vocab-n1:1588",
       "1603": "vocab-n1:1603",
       "1614": "vocab-n1:1614",
@@ -127939,7 +128710,11 @@ window.VOCAB_CORRECTION_RULES = {
       "299": "vocab-n5:299",
       "300": "vocab-n5:300",
       "301": "vocab-n5:301",
+      "302": "vocab-n5:302",
       "303": "vocab-n5:303",
+      "304": "vocab-n5:304",
+      "305": "vocab-n5:305",
+      "306": "vocab-n5:306",
       "307": "vocab-n5:307",
       "308": "vocab-n5:308",
       "309": "vocab-n5:309",
@@ -128024,6 +128799,11 @@ window.VOCAB_CORRECTION_RULES = {
       "504": "vocab-n5:504",
       "512": "vocab-n5:512",
       "516": "vocab-n5:516",
+      "517": "vocab-n5:517",
+      "518": "vocab-n5:518",
+      "519": "vocab-n5:519",
+      "520": "vocab-n5:520",
+      "521": "vocab-n5:521",
       "523": "vocab-n5:523",
       "528": "vocab-n5:528",
       "541": "vocab-n5:541",
@@ -128035,6 +128815,9 @@ window.VOCAB_CORRECTION_RULES = {
       "584": "vocab-n5:584",
       "590": "vocab-n5:590",
       "595": "vocab-n5:595",
+      "604": "vocab-n5:604",
+      "605": "vocab-n5:605",
+      "606": "vocab-n5:606",
       "612": "vocab-n5:612",
       "615": "vocab-n5:615",
       "618": "vocab-n5:618",
@@ -128076,6 +128859,7 @@ window.VOCAB_CORRECTION_RULES = {
       "828": "vocab-n5:828",
       "831": "vocab-n5:831",
       "843": "vocab-n5:843",
+      "844": "vocab-n5:844",
       "847": "vocab-n5:847",
       "864": "vocab-n5:864",
       "867": "vocab-n5:867",
@@ -128101,6 +128885,7 @@ window.VOCAB_CORRECTION_RULES = {
       "1189": "vocab-n5:1189",
       "1194": "vocab-n5:1194",
       "1195": "vocab-n5:1195",
+      "1198": "vocab-n5:1198",
       "1203": "vocab-n5:1203",
       "1205": "vocab-n5:1205",
       "1207": "vocab-n5:1207",
@@ -128220,6 +129005,7 @@ window.VOCAB_CORRECTION_RULES = {
       "627": "vocab-n4:627",
       "634": "vocab-n4:634",
       "635": "vocab-n4:635",
+      "646": "vocab-n4:646",
       "662": "vocab-n4:662",
       "664": "vocab-n4:664",
       "672": "vocab-n4:672",
@@ -128926,6 +129712,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2256": "vocab-n2:2256",
       "2263": "vocab-n2:2263",
       "2270": "vocab-n2:2270",
+      "2387": "vocab-n2:2387",
       "2395": "vocab-n2:correction:ka-mosquito",
       "2396": "vocab-n2:correction:uranau",
       "2397": "vocab-n2:correction:ukaberu",
