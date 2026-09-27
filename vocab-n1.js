@@ -80946,7 +80946,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "この値段をユーロに換算するといくらですか。",
-        "romaji": "Kono nedan o yuuro ni kansan suru to ikura desu ka.",
+        "romaji": "Kono nedan o yūro ni kansan suru to ikura desu ka.",
         "german": "Wie viel ist dieser Preis in Euro umgerechnet?"
       },
       {
@@ -82931,7 +82931,7 @@ window.VOCAB_N1 = [
   {
     "word": "宮殿",
     "reading": "きゅうでん",
-    "romaji": "kyuuden",
+    "romaji": "kyūden",
     "meaning": "Palast",
     "type": "Nomen",
     "category": "Geschichte",
@@ -82940,12 +82940,12 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "ウィーンでは古い宮殿を見学した。",
-        "romaji": "Uiin de wa furui kyuuden o kengaku shita.",
+        "romaji": "Wīn de wa furui kyūden o kengaku shita.",
         "german": "In Wien habe ich einen alten Palast besichtigt."
       },
       {
         "japanese": "王は豪華な宮殿に住んでいた。",
-        "romaji": "Ou wa gouka na kyuuden ni sunde ita.",
+        "romaji": "Ō wa gōka na kyūden ni sunde ita.",
         "german": "Der König lebte in einem prächtigen Palast."
       }
     ],
@@ -98334,7 +98334,7 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "大きな組織のリーダーには、清濁併せのむ度量が必要だ。",
-        "romaji": "Ookina soshiki no riidaa ni wa, seidaku awasenomu doryou ga hitsuyou da.",
+        "romaji": "Ōkina soshiki no rīdā ni wa, seidaku awasenomu doryō ga hitsuyō da.",
         "german": "Wer eine große Organisation führt, braucht die Größe, Gutes wie Schlechtes hinzunehmen."
       },
       {
@@ -117938,7 +117938,7 @@ window.VOCAB_N1 = [
   {
     "word": "封",
     "reading": "ふう",
-    "romaji": "fuu",
+    "romaji": "fū",
     "meaning": "Siegel, Verschluss (eines Briefs oder einer Packung)",
     "type": "Nomen",
     "category": "Kommunikation",
@@ -117947,12 +117947,12 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "手紙を書き終えて、封筒に封をした。",
-        "romaji": "Tegami o kakiowatte, fuutou ni fuu o shita.",
+        "romaji": "Tegami o kakioete, fūtō ni fū o shita.",
         "german": "Nachdem ich den Brief fertig geschrieben hatte, verschloss ich den Umschlag."
       },
       {
         "japanese": "封を切っていない商品なら、返品できます。",
-        "romaji": "Fuu o kitte inai shouhin nara, henpin dekimasu.",
+        "romaji": "Fū o kitte inai shōhin nara, henpin dekimasu.",
         "german": "Ungeöffnete Ware kann zurückgegeben werden."
       }
     ],
@@ -118115,12 +118115,12 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "節分には「鬼は外、福は内」と言いながら豆をまく。",
-        "romaji": "Setsubun ni wa \"oni wa soto, fuku wa uchi\" to iinagara mame o maku.",
+        "romaji": "Setsubun ni wa \"Oni wa soto, fuku wa uchi\" to iinagara mame o maku.",
         "german": "An Setsubun wirft man Bohnen und ruft dabei: „Dämonen raus, Glück herein!“"
       },
       {
         "japanese": "笑う門には福来たると言うから、いつも笑顔でいよう。",
-        "romaji": "Warau kado ni wa fuku kitaru to iu kara, itsumo egao de iyou.",
+        "romaji": "Warau kado ni wa fuku kitaru to iu kara, itsumo egao de iyō.",
         "german": "Man sagt ja, zu dem, der lacht, kommt das Glück – also lass uns immer lächeln."
       }
     ],
@@ -120525,12 +120525,12 @@ window.VOCAB_N1 = [
     "examples": [
       {
         "japanese": "お申し込みは電話もしくはメールでお願いします。",
-        "romaji": "Omoushikomi wa denwa moshikuwa meeru de onegai shimasu.",
+        "romaji": "Omōshikomi wa denwa moshikuwa mēru de onegai shimasu.",
         "german": "Anmeldungen bitte telefonisch oder per E-Mail."
       },
       {
         "japanese": "参加できるのは二十歳以上、もしくは保護者の同意がある方に限ります。",
-        "romaji": "Sanka dekiru no wa hatachi ijou, moshikuwa hogosha no doui ga aru kata ni kagirimasu.",
+        "romaji": "Sanka dekiru no wa hatachi ijō, moshikuwa hogosha no dōi ga aru kata ni kagirimasu.",
         "german": "Teilnehmen dürfen nur Personen ab 20 Jahren oder mit Zustimmung der Erziehungsberechtigten."
       }
     ],

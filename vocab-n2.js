@@ -57360,7 +57360,7 @@ window.VOCAB_N2 = [
   {
     "word": "四捨五入",
     "reading": "ししゃごにゅう",
-    "romaji": "shishagonyuu",
+    "romaji": "shishagonyū",
     "meaning": "Runden (kaufmännisch)",
     "type": "Nomen",
     "category": "Zahlen",
@@ -57369,12 +57369,12 @@ window.VOCAB_N2 = [
     "examples": [
       {
         "japanese": "小数点以下を四捨五入してください。",
-        "romaji": "Shousuuten ika o shishagonyuu shite kudasai.",
+        "romaji": "Shōsūten ika o shishagonyū shite kudasai.",
         "german": "Bitte runden Sie auf ganze Zahlen."
       },
       {
         "japanese": "三・六を四捨五入すると四になる。",
-        "romaji": "San ten roku o shishagonyuu suru to yon ni naru.",
+        "romaji": "San ten roku o shishagonyū suru to yon ni naru.",
         "german": "Rundet man 3,6, erhält man 4."
       }
     ],
@@ -72719,7 +72719,7 @@ window.VOCAB_N2 = [
   {
     "word": "整数",
     "reading": "せいすう",
-    "romaji": "seisuu",
+    "romaji": "seisū",
     "meaning": "ganze Zahl",
     "type": "Nomen",
     "category": "Zahlen",
@@ -72728,12 +72728,12 @@ window.VOCAB_N2 = [
     "examples": [
       {
         "japanese": "一から十までの整数を全部足してみよう。",
-        "romaji": "Ichi kara juu made no seisuu o zenbu tashite miyou.",
+        "romaji": "Ichi kara jū made no seisū o zenbu tashite miyō.",
         "german": "Addieren wir alle ganzen Zahlen von eins bis zehn."
       },
       {
         "japanese": "三・五は整数ではない。",
-        "romaji": "San ten go wa seisuu de wa nai.",
+        "romaji": "San ten go wa seisū de wa nai.",
         "german": "3,5 ist keine ganze Zahl."
       }
     ],

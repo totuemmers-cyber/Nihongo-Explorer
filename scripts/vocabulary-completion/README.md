@@ -100,6 +100,11 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
 - **051 (owner override for everyday words):** 韓国 → N5, 定食 → N4, デザイン, 徒歩, 待ち合わせ(る),
   メーカー and マッサージ → N3, although the source lists place them higher.
 
+- **052 (romaji review, research in .content-cache/m052):** 377 entries whose romaji was misread or
+  garbled (一人 ichinin, 豚骨 butabone, hyphen length marks) rewritten in Modified Hepburn, with German
+  fixes where clearly wrong and pitch re-checked against exact UniDic rows. Long vowels elsewhere
+  come from the generated layer vocab-romaji-hepburn.js.
+
 Runtime: **15,558 entries** (N5 1,644, N4 1,638, N3 3,758, N2 3,171, N1 5,347),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every

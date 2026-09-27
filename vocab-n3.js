@@ -64724,7 +64724,7 @@ window.VOCAB_N3 = [
   {
     "word": "オーストリア",
     "reading": "オーストリア",
-    "romaji": "oosutoria",
+    "romaji": "ōsutoria",
     "meaning": "Österreich",
     "type": "Nomen",
     "category": "Geographie",
@@ -64733,12 +64733,12 @@ window.VOCAB_N3 = [
     "examples": [
       {
         "japanese": "ウィーンはオーストリアの首都です。",
-        "romaji": "Uiin wa Oosutoria no shuto desu.",
+        "romaji": "Wīn wa Ōsutoria no shuto desu.",
         "german": "Wien ist die Hauptstadt Österreichs."
       },
       {
         "japanese": "オーストリアとオーストラリアをよく間違えます。",
-        "romaji": "Oosutoria to Oosutoraria o yoku machigaemasu.",
+        "romaji": "Ōsutoria to Ōsutoraria o yoku machigaemasu.",
         "german": "Ich verwechsle Österreich und Australien oft."
       }
     ],
@@ -76281,7 +76281,7 @@ window.VOCAB_N3 = [
     "examples": [
       {
         "japanese": "申し込みはメール、あるいは電話でお願いします。",
-        "romaji": "Moushikomi wa meeru, aruiwa denwa de onegai shimasu.",
+        "romaji": "Mōshikomi wa mēru, aruiwa denwa de onegai shimasu.",
         "german": "Bitte melden Sie sich per E-Mail oder telefonisch an."
       },
       {

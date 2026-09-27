@@ -1,0 +1,3100 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:1830",
+      "revisionId": "052-vocab-n1-1830",
+      "state": "accepted",
+      "predecessorHash": "5de0720fdce5fc82af3200957bc81676ac665e833ee94d84c64bb4ebbd0155e7",
+      "predecessorRevisionHash": null,
+      "originalHash": "5de0720fdce5fc82af3200957bc81676ac665e833ee94d84c64bb4ebbd0155e7",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 陥った was misread as \"ochitta\"; corrected to ochiitta.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "経済危機に陥った国への国際的な支援が求められている。",
+            "romaji": "Keizai kiki ni ochitta kuni e no kokusaiteki na shien ga motomerarete iru.",
+            "german": "Internationale Hilfe für Länder, die in eine Wirtschaftskrise geraten sind, wird gefordert."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "経済危機に陥った国への国際的な支援が求められている。",
+            "romaji": "Keizai kiki ni ochiitta kuni e no kokusaiteki na shien ga motomerarete iru.",
+            "german": "Internationale Hilfe für Länder, die in eine Wirtschaftskrise geraten sind, wird gefordert."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79138431",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "陥る / オチイル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 陥る; aType 3,0. Existing pitch 3 attested by the exact row.",
+            "match": {
+              "word": "陥る",
+              "reading": "おちいる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "陥る as \"geraten in; verfallen in\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216120; spelling=陥る; reading=おちいる",
+          "finding": "JMdict 1216120 陥る/おちいる confirms the reading used for the romaji of \"geraten in; verfallen in\".",
+          "selected": {
+            "sequence": "1216120",
+            "spelling": "陥る",
+            "reading": "おちいる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall into (e.g. a hole)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall into (chaos, depression, dilemma, illness, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "陥った was misread as \"ochitta\"; corrected to ochiitta."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"geraten in; verfallen in\" checked against the headword and JMdict 1216120; no issue found.",
+        "japanese": "経済危機に陥った国への国際的な支援が求められている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"ochiiru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Internationale Hilfe für Länder, die in eine Wirtschaftskrise geraten sind, wird gefordert."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@79138431 attests 3,0. Existing pitch 3 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79138431",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "陥る / オチイル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 陥る; aType 3,0. Existing pitch 3 attested by the exact row.",
+            "match": {
+              "word": "陥る",
+              "reading": "おちいる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "陥る as \"geraten in; verfallen in\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 陥った was misread as \"ochitta\"; corrected to ochiitta. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "bb4f34807db79aed8c727534a19159a48af0e3271e384c8cc81654a0788f3607",
+        "approvalHash": "0e9617b1c827495d847bff18f98f664fddc5d87c06ab2bdb8b0e326b38e32d38"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "陥った = ochiitta (was ochitta); pitch 3 within exact verb row 陥る aType 3,0.",
+        "contentHash": "bb4f34807db79aed8c727534a19159a48af0e3271e384c8cc81654a0788f3607",
+        "approvalHash": "0e9617b1c827495d847bff18f98f664fddc5d87c06ab2bdb8b0e326b38e32d38"
+      }
+    },
+    {
+      "id": "vocab-n1:1873",
+      "revisionId": "052-vocab-n1-1873",
+      "state": "accepted",
+      "predecessorHash": "990b359ffc8c2bb4a4b0525f17f20a3d5fec1d6c978eb2f9a36670b0973445ce",
+      "predecessorRevisionHash": null,
+      "originalHash": "990b359ffc8c2bb4a4b0525f17f20a3d5fec1d6c978eb2f9a36670b0973445ce",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed stray split \"tsutaenakereb a\" → tsutaenakereba.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "戦争の野蛮さを後世に伝えなければならない。",
+            "romaji": "Sensō no yabansa o kōsei ni tsutaenakereb a naranai.",
+            "german": "Die Barbarei des Krieges muss an künftige Generationen weitergegeben werden."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "戦争の野蛮さを後世に伝えなければならない。",
+            "romaji": "Sensō no yabansa o kōsei ni tsutaenakereba naranai.",
+            "german": "Die Barbarei des Krieges muss an künftige Generationen weitergegeben werden."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@269128178",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "野蛮 / ヤバン; 名詞/普通名詞/形状詞可能/*; *; *; lemma 野蛮; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "野蛮",
+              "reading": "やばん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "野蛮 as \"barbarisch; unzivilisiert\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537590; spelling=野蛮; reading=やばん",
+          "finding": "JMdict 1537590 野蛮/やばん confirms the reading used for the romaji of \"barbarisch; unzivilisiert\".",
+          "selected": {
+            "sequence": "1537590",
+            "spelling": "野蛮",
+            "reading": "やばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "savage",
+                  "barbarous",
+                  "barbaric",
+                  "uncivilized",
+                  "uncivilised"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Fixed stray split \"tsutaenakereb a\" → tsutaenakereba."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"barbarisch; unzivilisiert\" checked against the headword and JMdict 1537590; no issue found.",
+        "japanese": "戦争の野蛮さを後世に伝えなければならない。 — read in context; examples use the headword.",
+        "romanization": "Headword \"yaban\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Barbarei des Krieges muss an künftige Generationen weitergegeben werden."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@269128178 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@269128178",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "野蛮 / ヤバン; 名詞/普通名詞/形状詞可能/*; *; *; lemma 野蛮; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "野蛮",
+              "reading": "やばん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "野蛮 as \"barbarisch; unzivilisiert\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed stray split \"tsutaenakereb a\" → tsutaenakereba. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "0617158743d6c07dcb5daec3db2350a23efb859f638a17b1192b662862d7bbf5",
+        "approvalHash": "a9ff591b51cce33874a33524933c1472731c015ff794a8cf9e2675b91139350a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "tsutaenakereba (was \"tsutaenakereb a\"); pitch 0 = exact row 野蛮 aType 0.",
+        "contentHash": "0617158743d6c07dcb5daec3db2350a23efb859f638a17b1192b662862d7bbf5",
+        "approvalHash": "a9ff591b51cce33874a33524933c1472731c015ff794a8cf9e2675b91139350a"
+      }
+    },
+    {
+      "id": "vocab-n1:1874",
+      "revisionId": "052-vocab-n1-1874",
+      "state": "accepted",
+      "predecessorHash": "5716e50ce7d1852cf91862abfafc6efd9ac3b5e254c77ca031aaf31af3da7db5",
+      "predecessorRevisionHash": null,
+      "originalHash": "5716e50ce7d1852cf91862abfafc6efd9ac3b5e254c77ca031aaf31af3da7db5",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 未曾有 is mi-zo-u (曾 zo + 有 u), a morpheme boundary, so mizou without macron (headword and example).",
+      "original": {
+        "romaji": "mizō",
+        "examples": [
+          {
+            "japanese": "未曾有の危機に直面して国際社会は団結した。",
+            "romaji": "Mizō no kiki ni chokumen shite kokusai shakai wa danketsu shita.",
+            "german": "Angesichts einer beispiellosen Krise vereinigte sich die internationale Gemeinschaft."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "mizou",
+        "examples": [
+          {
+            "japanese": "未曾有の危機に直面して国際社会は団結した。",
+            "romaji": "Mizou no kiki ni chokumen shite kokusai shakai wa danketsu shita.",
+            "german": "Angesichts einer beispiellosen Krise vereinigte sich die internationale Gemeinschaft."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255112575",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "未曾有 / ミゾウ; 名詞/普通名詞/一般/*; *; *; lemma 未曾有; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "未曾有",
+              "reading": "みぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "未曾有 as \"beispiellos; noch nie dagewesen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1584590; spelling=未曾有; reading=みぞう",
+          "finding": "JMdict 1584590 未曾有/みぞう confirms the reading used for the romaji of \"beispiellos; noch nie dagewesen\".",
+          "selected": {
+            "sequence": "1584590",
+            "spelling": "未曾有",
+            "reading": "みぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unprecedented",
+                  "unheard-of",
+                  "record-breaking"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "未曾有 is mi-zo-u (曾 zo + 有 u), a morpheme boundary, so mizou without macron (headword and example)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"beispiellos; noch nie dagewesen\" checked against the headword and JMdict 1584590; no issue found.",
+        "japanese": "未曾有の危機に直面して国際社会は団結した。 — read in context; examples use the headword.",
+        "romanization": "Headword \"mizou\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Angesichts einer beispiellosen Krise vereinigte sich die internationale Gemeinschaft."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@255112575 attests 0,2. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255112575",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "未曾有 / ミゾウ; 名詞/普通名詞/一般/*; *; *; lemma 未曾有; aType 0,2. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "未曾有",
+              "reading": "みぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "未曾有 as \"beispiellos; noch nie dagewesen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 未曾有 is mi-zo-u (曾 zo + 有 u), a morpheme boundary, so mizou without macron (headword and example). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "96e74e366286c193ea75d80cb2beb2a33677b4baa0550ebd3b0919c6b1bf07db",
+        "approvalHash": "dde3ae67405ff0eed22b77b2db1e0872b012f039302663de819b8b5bbd2321b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "未曾有 = mizou (no macron across the 曾|有 boundary, per convention); pitch 0 within exact row aType 0,2.",
+        "contentHash": "96e74e366286c193ea75d80cb2beb2a33677b4baa0550ebd3b0919c6b1bf07db",
+        "approvalHash": "dde3ae67405ff0eed22b77b2db1e0872b012f039302663de819b8b5bbd2321b9"
+      }
+    },
+    {
+      "id": "vocab-n1:2004",
+      "revisionId": "052-vocab-n1-2004",
+      "state": "accepted",
+      "predecessorHash": "398b69ea11a66bc07e217e03e9f8fdb9fa78862b1cc9509509d212229a06fe05",
+      "predecessorRevisionHash": null,
+      "originalHash": "398b69ea11a66bc07e217e03e9f8fdb9fa78862b1cc9509509d212229a06fe05",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Passive 引き起こされる was garbled as \"hikiokorareru\"; corrected to hikiokosareru.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "潮汐は月と太陽の引力によって引き起こされる。",
+            "romaji": "Chōseki wa tsuki to taiyō no inryoku ni yotte hikiokorareru.",
+            "german": "Die Gezeiten werden durch die Anziehungskraft von Mond und Sonne verursacht."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "潮汐は月と太陽の引力によって引き起こされる。",
+            "romaji": "Chōseki wa tsuki to taiyō no inryoku ni yotte hikiokosareru.",
+            "german": "Die Gezeiten werden durch die Anziehungskraft von Mond und Sonne verursacht."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170239469",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "潮汐 / チョウセキ; 名詞/普通名詞/一般/*; *; *; lemma 潮汐; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "潮汐",
+              "reading": "ちょうせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "潮汐 as \"Gezeiten\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1428680; spelling=潮汐; reading=ちょうせき",
+          "finding": "JMdict 1428680 潮汐/ちょうせき confirms the reading used for the romaji of \"Gezeiten\".",
+          "selected": {
+            "sequence": "1428680",
+            "spelling": "潮汐",
+            "reading": "ちょうせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tide"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Passive 引き起こされる was garbled as \"hikiokorareru\"; corrected to hikiokosareru."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Gezeiten\" checked against the headword and JMdict 1428680; no issue found.",
+        "japanese": "潮汐は月と太陽の引力によって引き起こされる。 — read in context; examples use the headword.",
+        "romanization": "Headword \"chōseki\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Gezeiten werden durch die Anziehungskraft von Mond und Sonne verursacht."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@170239469 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170239469",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "潮汐 / チョウセキ; 名詞/普通名詞/一般/*; *; *; lemma 潮汐; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "潮汐",
+              "reading": "ちょうせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "潮汐 as \"Gezeiten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Passive 引き起こされる was garbled as \"hikiokorareru\"; corrected to hikiokosareru. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "2adb09a98833592c1b76ceff59a7c8170f7e688f5ad29a243e282b62266740eb",
+        "approvalHash": "fa455eb3668a3a5db864d14120976af1ddaa8ad3093dbcbb712159179af27d5a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "引き起こされる = hikiokosareru (was hikiokorareru); pitch 0 = exact row 潮汐 aType 0.",
+        "contentHash": "2adb09a98833592c1b76ceff59a7c8170f7e688f5ad29a243e282b62266740eb",
+        "approvalHash": "fa455eb3668a3a5db864d14120976af1ddaa8ad3093dbcbb712159179af27d5a"
+      }
+    },
+    {
+      "id": "vocab-n1:2012",
+      "revisionId": "052-vocab-n1-2012",
+      "state": "accepted",
+      "predecessorHash": "caa50eeb3ff7d43dc80d82d62be6276c5621c98709cb826caed8f65b0edc7e35",
+      "predecessorRevisionHash": null,
+      "originalHash": "caa50eeb3ff7d43dc80d82d62be6276c5621c98709cb826caed8f65b0edc7e35",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 汲み上げ過ぎ was garbled as \"kumiaage sugi\"; corrected to kumiagesugi, wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "地下水の汲み上げ過ぎが地盤沈下を引き起こす。",
+            "romaji": "Chikasui no kumiaage sugi ga jiban chinka wo hikiokosu.",
+            "german": "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkung."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "地下水の汲み上げ過ぎが地盤沈下を引き起こす。",
+            "romaji": "Chikasui no kumiagesugi ga jiban chinka o hikiokosu.",
+            "german": "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkung."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1622630; spelling=地下水; reading=ちかすい",
+          "finding": "JMdict 1622630 地下水/ちかすい confirms the reading used for the romaji of \"Grundwasser\".",
+          "selected": {
+            "sequence": "1622630",
+            "spelling": "地下水",
+            "reading": "ちかすい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "groundwater",
+                  "underground water"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "汲み上げ過ぎ was garbled as \"kumiaage sugi\"; corrected to kumiagesugi, wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Grundwasser\" checked against the headword and JMdict 1622630; no issue found.",
+        "japanese": "地下水の汲み上げ過ぎが地盤沈下を引き起こす。 — read in context; examples use the headword.",
+        "romanization": "Headword \"chikasui\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 地下水 / ちかすい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2012; exact written-form/kana lookup 地下水 / ちかすい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 汲み上げ過ぎ was garbled as \"kumiaage sugi\"; corrected to kumiagesugi, wo → o. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "f2624e43aa3d03f6e96d6894adc60795b86e4a1eaddfc3d31363a29074d622d8",
+        "approvalHash": "d383b700dee6d134c1d0734e39505631f488ebb97c57a5d88055c3a0bd1c3fd0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "kumiagesugi, particle o (not wo) correct; no exact row for 地下水, pitch null.",
+        "contentHash": "f2624e43aa3d03f6e96d6894adc60795b86e4a1eaddfc3d31363a29074d622d8",
+        "approvalHash": "d383b700dee6d134c1d0734e39505631f488ebb97c57a5d88055c3a0bd1c3fd0"
+      }
+    },
+    {
+      "id": "vocab-n1:2057",
+      "revisionId": "052-vocab-n1-2057",
+      "state": "accepted",
+      "predecessorHash": "f82d376615577c997b198e7dbae963066d6538832cca4d30226d2aec4b874dd4",
+      "predecessorRevisionHash": null,
+      "originalHash": "f82d376615577c997b198e7dbae963066d6538832cca4d30226d2aec4b874dd4",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong tense (\"hikiokosu\" for 引き起こしている); corrected to hikiokoshite iru, wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "地下水の過剰汲み上げが地盤沈下を引き起こしている。",
+            "romaji": "Chikasui no kajō kumiage ga jiban chinka wo hikiokosu.",
+            "german": "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkungen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "地下水の過剰汲み上げが地盤沈下を引き起こしている。",
+            "romaji": "Chikasui no kajō kumiage ga jiban chinka o hikiokoshite iru.",
+            "german": "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkungen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1763960; spelling=地盤沈下; reading=じばんちんか",
+          "finding": "JMdict 1763960 地盤沈下/じばんちんか confirms the reading used for the romaji of \"Bodensenkung\".",
+          "selected": {
+            "sequence": "1763960",
+            "spelling": "地盤沈下",
+            "reading": "じばんちんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "land subsidence"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "decline in influence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Romaji had the wrong tense (\"hikiokosu\" for 引き起こしている); corrected to hikiokoshite iru, wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Bodensenkung\" checked against the headword and JMdict 1763960; no issue found.",
+        "japanese": "地下水の過剰汲み上げが地盤沈下を引き起こしている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"jiban chinka\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Übermäßiges Abpumpen von Grundwasser verursacht Bodensenkungen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 地盤沈下 / じばんちんか; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2057; exact written-form/kana lookup 地盤沈下 / じばんちんか",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong tense (\"hikiokosu\" for 引き起こしている); corrected to hikiokoshite iru, wo → o. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "a926cb2868b1a612a91e0f52cbcd7efe137ad59652bf056c289ef9886adc4e74",
+        "approvalHash": "ff3b58babbe11e11251266b619a63b1c05c90792f550492338edf45f1fa9973c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "引き起こしている = hikiokoshite iru (was hikiokosu), particle o; no exact row, pitch null.",
+        "contentHash": "a926cb2868b1a612a91e0f52cbcd7efe137ad59652bf056c289ef9886adc4e74",
+        "approvalHash": "ff3b58babbe11e11251266b619a63b1c05c90792f550492338edf45f1fa9973c"
+      }
+    },
+    {
+      "id": "vocab-n1:2065",
+      "revisionId": "052-vocab-n1-2065",
+      "state": "accepted",
+      "predecessorHash": "9e01d0a4275ab1bced9a770978a4c7a926f35db50f6fd3bed8e45f7656c1aca2",
+      "predecessorRevisionHash": null,
+      "originalHash": "9e01d0a4275ab1bced9a770978a4c7a926f35db50f6fd3bed8e45f7656c1aca2",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 埋立地 was truncated to \"umetatech\"; corrected to umetatechi, joined shinshutsusui (headword too), wo → o.",
+      "original": {
+        "romaji": "shinshutsu sui",
+        "examples": [
+          {
+            "japanese": "埋立地からの浸出水が地下水を汚染する恐れがある。",
+            "romaji": "Umetatech kara no shinshutsu sui ga chikasui wo osen suru osore ga aru.",
+            "german": "Sickerwasser von Deponien kann das Grundwasser verunreinigen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "shinshutsusui",
+        "examples": [
+          {
+            "japanese": "埋立地からの浸出水が地下水を汚染する恐れがある。",
+            "romaji": "Umetatechi kara no shinshutsusui ga chikasui o osen suru osore ga aru.",
+            "german": "Sickerwasser von Deponien kann das Grundwasser verunreinigen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "埋立地 was truncated to \"umetatech\"; corrected to umetatechi, joined shinshutsusui (headword too), wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Sickerwasser\" checked against the headword; no issue found.",
+        "japanese": "埋立地からの浸出水が地下水を汚染する恐れがある。 — read in context; examples use the headword.",
+        "romanization": "Headword \"shinshutsusui\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Sickerwasser von Deponien kann das Grundwasser verunreinigen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 浸出水 / しんしゅつすい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2065; exact written-form/kana lookup 浸出水 / しんしゅつすい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 埋立地 was truncated to \"umetatech\"; corrected to umetatechi, joined shinshutsusui (headword too), wo → o. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "b1714ad49f239c206f02a24d008f0d91a4e0ff184ebb418df2c0389cd16c67a9",
+        "approvalHash": "72f12169441defcb198218ad296ae209c98ce7dd1db423299dc10402b7145ee5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Umetatechi, shinshutsusui, particle o correct; no exact row, pitch null.",
+        "contentHash": "b1714ad49f239c206f02a24d008f0d91a4e0ff184ebb418df2c0389cd16c67a9",
+        "approvalHash": "72f12169441defcb198218ad296ae209c98ce7dd1db423299dc10402b7145ee5"
+      }
+    },
+    {
+      "id": "vocab-n1:2073",
+      "revisionId": "052-vocab-n1-2073",
+      "state": "accepted",
+      "predecessorHash": "d6c8b03819cf70012e94675de6a57db2f083b7572498ccd2a759f74cb96d99fe",
+      "predecessorRevisionHash": null,
+      "originalHash": "d6c8b03819cf70012e94675de6a57db2f083b7572498ccd2a759f74cb96d99fe",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji only needed \"to shite\" split; German \"wird ... beachtet\" mistranslated 注目されている and was reworded.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "屋上緑化がヒートアイランド対策として注目されている。",
+            "romaji": "Okujō ryokuka ga hīto airando taisaku toshite chūmoku sarete iru.",
+            "german": "Dachbegrünung wird als Maßnahme gegen den Wärmeinseleffekt beachtet."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "屋上緑化がヒートアイランド対策として注目されている。",
+            "romaji": "Okujō ryokuka ga hīto airando taisaku to shite chūmoku sarete iru.",
+            "german": "Dachbegrünung findet als Maßnahme gegen den Wärmeinseleffekt viel Beachtung."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1644860; spelling=緑化; reading=りょくか",
+          "finding": "JMdict 1644860 緑化/りょくか confirms the reading used for the romaji of \"Begrünung\".",
+          "selected": {
+            "sequence": "1644860",
+            "spelling": "緑化",
+            "reading": "りょくか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "greening (i.e. planting to increase greenery)",
+                  "tree planting",
+                  "afforestation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Romaji only needed \"to shite\" split; German \"wird ... beachtet\" mistranslated 注目されている and was reworded."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization",
+          "translation"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Begrünung\" checked against the headword and JMdict 1644860; no issue found.",
+        "japanese": "屋上緑化がヒートアイランド対策として注目されている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"ryokuka\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translation corrected where it was wrong; others checked.",
+        "contexts": [
+          "Dachbegrünung findet als Maßnahme gegen den Wärmeinseleffekt viel Beachtung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 緑化 / りょくか; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2073; exact written-form/kana lookup 緑化 / りょくか",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji only needed \"to shite\" split; German \"wird ... beachtet\" mistranslated 注目されている and was reworded. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "ea47cdfad02bf00aa918e2b4ba9becc67783d8513c50554725dfec2b6856ccf5",
+        "approvalHash": "c05a6d7a5e78e482d4fd6eb8411f3af79df14f2569a047d9005f49f453d1b656"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "to shite split; new German \"findet ... viel Beachtung\" is idiomatic for 注目されている. No exact row for 緑化, pitch null.",
+        "contentHash": "ea47cdfad02bf00aa918e2b4ba9becc67783d8513c50554725dfec2b6856ccf5",
+        "approvalHash": "c05a6d7a5e78e482d4fd6eb8411f3af79df14f2569a047d9005f49f453d1b656"
+      }
+    },
+    {
+      "id": "vocab-n1:2093",
+      "revisionId": "052-vocab-n1-2093",
+      "state": "accepted",
+      "predecessorHash": "fafee60cc46d4c69f147efc31bfe96d7810669db5dff8744c7b9d8c9d7382f2d",
+      "predecessorRevisionHash": null,
+      "originalHash": "fafee60cc46d4c69f147efc31bfe96d7810669db5dff8744c7b9d8c9d7382f2d",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 畑作 was misread as \"hatakusaku\"; corrected to hatasaku.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "台地の上は水はけが良く畑作に適している。",
+            "romaji": "Daichi no ue wa mizuhake ga yoku hatakusaku ni tekishite iru.",
+            "german": "Die Hochebene hat eine gute Entwässerung und eignet sich für den Ackerbau."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "台地の上は水はけが良く畑作に適している。",
+            "romaji": "Daichi no ue wa mizuhake ga yoku hatasaku ni tekishite iru.",
+            "german": "Die Hochebene hat eine gute Entwässerung und eignet sich für den Ackerbau."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166854425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "台地 / ダイチ; 名詞/普通名詞/一般/*; *; *; lemma 台地; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "台地",
+              "reading": "だいち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "台地 as \"Hochebene; Plateau\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1412710; spelling=台地; reading=だいち",
+          "finding": "JMdict 1412710 台地/だいち confirms the reading used for the romaji of \"Hochebene; Plateau\".",
+          "selected": {
+            "sequence": "1412710",
+            "spelling": "台地",
+            "reading": "だいち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "plateau",
+                  "tableland",
+                  "eminence"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "畑作 was misread as \"hatakusaku\"; corrected to hatasaku."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Hochebene; Plateau\" checked against the headword and JMdict 1412710; no issue found.",
+        "japanese": "台地の上は水はけが良く畑作に適している。 — read in context; examples use the headword.",
+        "romanization": "Headword \"daichi\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Hochebene hat eine gute Entwässerung und eignet sich für den Ackerbau."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@166854425 attests 0,1. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166854425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "台地 / ダイチ; 名詞/普通名詞/一般/*; *; *; lemma 台地; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "台地",
+              "reading": "だいち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "台地 as \"Hochebene; Plateau\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 畑作 was misread as \"hatakusaku\"; corrected to hatasaku. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "f4a9f052a869122069cef4fef3d61997b16204e346377d6353d76165fc10d226",
+        "approvalHash": "acebe9dcba2ee9baf2b9a4f708e1fa733b74e7f268e0c768328f47ee38b534b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "畑作 = hatasaku (not hatakusaku); pitch 0 within exact row 台地 aType 0,1.",
+        "contentHash": "f4a9f052a869122069cef4fef3d61997b16204e346377d6353d76165fc10d226",
+        "approvalHash": "acebe9dcba2ee9baf2b9a4f708e1fa733b74e7f268e0c768328f47ee38b534b9"
+      }
+    },
+    {
+      "id": "vocab-n1:2118",
+      "revisionId": "052-vocab-n1-2118",
+      "state": "accepted",
+      "predecessorHash": "e6353ef55f39b690c609d094a3d56e576c384ffd8f2a96025ce160f1ff9c9b8d",
+      "predecessorRevisionHash": null,
+      "originalHash": "e6353ef55f39b690c609d094a3d56e576c384ffd8f2a96025ce160f1ff9c9b8d",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Joined 大陸棚 as tairikudana (headword too) and split \"to shite\".",
+      "original": {
+        "romaji": "tairiku dana",
+        "examples": [
+          {
+            "japanese": "大陸棚は豊かな漁場として知られている。",
+            "romaji": "Tairiku dana wa yutaka na gyojō toshite shirarete iru.",
+            "german": "Der Kontinentalschelf ist als reiches Fischereigebiet bekannt."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "tairikudana",
+        "examples": [
+          {
+            "japanese": "大陸棚は豊かな漁場として知られている。",
+            "romaji": "Tairikudana wa yutaka na gyojō to shite shirarete iru.",
+            "german": "Der Kontinentalschelf ist als reiches Fischereigebiet bekannt."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1415170; spelling=大陸棚; reading=たいりくだな",
+          "finding": "JMdict 1415170 大陸棚/たいりくだな confirms the reading used for the romaji of \"Kontinentalschelf\".",
+          "selected": {
+            "sequence": "1415170",
+            "spelling": "大陸棚",
+            "reading": "たいりくだな",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "continental shelf"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Joined 大陸棚 as tairikudana (headword too) and split \"to shite\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Kontinentalschelf\" checked against the headword and JMdict 1415170; no issue found.",
+        "japanese": "大陸棚は豊かな漁場として知られている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"tairikudana\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der Kontinentalschelf ist als reiches Fischereigebiet bekannt."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 大陸棚 / たいりくだな; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2118; exact written-form/kana lookup 大陸棚 / たいりくだな",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Joined 大陸棚 as tairikudana (headword too) and split \"to shite\". Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "97dcd8c8b849c383183b162d0cd9a15af7db9d40d7b0dc11baceabbab0b867bc",
+        "approvalHash": "494e0d1eedcf2dfa434c5826f360e6505e28465a1f64baf7b33681eccc1c72e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Tairikudana joined, to shite correct; no exact row, pitch null.",
+        "contentHash": "97dcd8c8b849c383183b162d0cd9a15af7db9d40d7b0dc11baceabbab0b867bc",
+        "approvalHash": "494e0d1eedcf2dfa434c5826f360e6505e28465a1f64baf7b33681eccc1c72e3"
+      }
+    },
+    {
+      "id": "vocab-n1:2152",
+      "revisionId": "052-vocab-n1-2152",
+      "state": "accepted",
+      "predecessorHash": "bf911fe8e22ca49b2c75e00e759ac5a21714adb3a04117b5de1cd1510b0f6c53",
+      "predecessorRevisionHash": null,
+      "originalHash": "bf911fe8e22ca49b2c75e00e759ac5a21714adb3a04117b5de1cd1510b0f6c53",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (海食崖 = kaishokugai); kept unchanged.",
+      "original": {
+        "pitch": 0
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1772920; spelling=海食崖; reading=かいしょくがい",
+          "finding": "JMdict 1772920 海食崖/かいしょくがい confirms the reading used for the romaji of \"Abrasionsklippe; Meereskliff\".",
+          "selected": {
+            "sequence": "1772920",
+            "spelling": "海食崖",
+            "reading": "かいしょくがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sea cliff"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Already correct (海食崖 = kaishokugai); kept unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Abrasionsklippe; Meereskliff\" checked against the headword and JMdict 1772920; no issue found.",
+        "japanese": "海食崖は波の侵食によって形成される。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kaishokugai\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Meeresklippen werden durch die Erosion der Wellen geformt."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 海食崖 / かいしょくがい; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2152; exact written-form/kana lookup 海食崖 / かいしょくがい",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (海食崖 = kaishokugai); kept unchanged. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "99c24de90d0c0ec2133d87f8b0eee0a76ed23cedaa78528aa605113d2217a065",
+        "approvalHash": "c77c4ef75c8dae648cea7b2924ff3059aed59be4483c8f8912ac718e1150bc48"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Kaishokugai wa nami no shinshoku ni yotte keisei sareru correct; no exact row, pitch null.",
+        "contentHash": "99c24de90d0c0ec2133d87f8b0eee0a76ed23cedaa78528aa605113d2217a065",
+        "approvalHash": "c77c4ef75c8dae648cea7b2924ff3059aed59be4483c8f8912ac718e1150bc48"
+      }
+    },
+    {
+      "id": "vocab-n1:2157",
+      "revisionId": "052-vocab-n1-2157",
+      "state": "accepted",
+      "predecessorHash": "3283b888abe8076f7c0706bef4f12d059ee8f8f0450f58c1433a1572d85af0bf",
+      "predecessorRevisionHash": null,
+      "originalHash": "3283b888abe8076f7c0706bef4f12d059ee8f8f0450f58c1433a1572d85af0bf",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 埋立地 was truncated to \"umetatech\"; corrected to umetatechi, and Tōkyō-wan written as a proper noun.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "東京湾の埋立地に新しい都市が建設された。",
+            "romaji": "Tōkyō wan no umetatech ni atarashii toshi ga kensetsu sareta.",
+            "german": "Auf dem aufgeschütteten Land in der Bucht von Tokio wurde eine neue Stadt gebaut."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "東京湾の埋立地に新しい都市が建設された。",
+            "romaji": "Tōkyō-wan no umetatechi ni atarashii toshi ga kensetsu sareta.",
+            "german": "Auf dem aufgeschütteten Land in der Bucht von Tokio wurde eine neue Stadt gebaut."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67951425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "埋立 / ウメタテ; 名詞/普通名詞/一般/*; *; *; lemma 埋め立て; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "埋立",
+              "reading": "うめたて",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "埋立 as \"Landgewinnung; Aufschüttung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1610610; spelling=埋立; reading=うめたて",
+          "finding": "JMdict 1610610 埋立/うめたて confirms the reading used for the romaji of \"Landgewinnung; Aufschüttung\".",
+          "selected": {
+            "sequence": "1610610",
+            "spelling": "埋立",
+            "reading": "うめたて",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "land reclamation",
+                  "land fill"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "埋立地 was truncated to \"umetatech\"; corrected to umetatechi, and Tōkyō-wan written as a proper noun."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Landgewinnung; Aufschüttung\" checked against the headword and JMdict 1610610; no issue found.",
+        "japanese": "東京湾の埋立地に新しい都市が建設された。 — read in context; examples use the headword.",
+        "romanization": "Headword \"umetate\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Auf dem aufgeschütteten Land in der Bucht von Tokio wurde eine neue Stadt gebaut."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@67951425 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67951425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "埋立 / ウメタテ; 名詞/普通名詞/一般/*; *; *; lemma 埋め立て; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "埋立",
+              "reading": "うめたて",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "埋立 as \"Landgewinnung; Aufschüttung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 埋立地 was truncated to \"umetatech\"; corrected to umetatechi, and Tōkyō-wan written as a proper noun. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "e21b7bcae72b5ab47eaf63810667eb3a3a154e8b3e2e2171b39953843a8d7e4f",
+        "approvalHash": "ab3689904c3be4e42529260e8293b1cd74c129f0a2cedb76cf68a0ee73d8e32b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Tōkyō-wan, umetatechi (was umetatech) correct; pitch 0 = exact row 埋立 (lemma 埋め立て) aType 0.",
+        "contentHash": "e21b7bcae72b5ab47eaf63810667eb3a3a154e8b3e2e2171b39953843a8d7e4f",
+        "approvalHash": "ab3689904c3be4e42529260e8293b1cd74c129f0a2cedb76cf68a0ee73d8e32b"
+      }
+    },
+    {
+      "id": "vocab-n1:2247",
+      "revisionId": "052-vocab-n1-2247",
+      "state": "accepted",
+      "predecessorHash": "a8f88553d097703a80a97c019691ec9ae8a9edf6a5f7fc73168de47e638dfe80",
+      "predecessorRevisionHash": null,
+      "originalHash": "a8f88553d097703a80a97c019691ec9ae8a9edf6a5f7fc73168de47e638dfe80",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (草地 = sōchi); kept unchanged.",
+      "original": {
+        "pitch": 0
+      },
+      "replacement": {
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2855758; spelling=過放牧; reading=かほうぼく",
+          "finding": "JMdict 2855758 過放牧/かほうぼく confirms the reading used for the romaji of \"Überweidung\".",
+          "selected": {
+            "sequence": "2855758",
+            "spelling": "過放牧",
+            "reading": "かほうぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "overgrazing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Already correct (草地 = sōchi); kept unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Überweidung\" checked against the headword and JMdict 2855758; no issue found.",
+        "japanese": "過放牧による草地の荒廃が進んでいる。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kahōboku\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Verschlechterung des Grünlands durch Überweidung schreitet voran."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 過放牧 / かほうぼく; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2247; exact written-form/kana lookup 過放牧 / かほうぼく",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (草地 = sōchi); kept unchanged. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "593e82dde40397ab9bab2dd15921b9c37e94ee10062a1b89f990d5b7dc28e3ca",
+        "approvalHash": "70000f0bc12ad74e3e6b95d0f14c67a72572cc9a104b01db4b9fd7b864a4b22e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Kahōboku ni yoru sōchi no kōhai correct; no exact row, pitch null.",
+        "contentHash": "593e82dde40397ab9bab2dd15921b9c37e94ee10062a1b89f990d5b7dc28e3ca",
+        "approvalHash": "70000f0bc12ad74e3e6b95d0f14c67a72572cc9a104b01db4b9fd7b864a4b22e"
+      }
+    },
+    {
+      "id": "vocab-n1:2248",
+      "revisionId": "052-vocab-n1-2248",
+      "state": "accepted",
+      "predecessorHash": "9bf821f9942c6924570e9ae8bd8ec5c9d168ecff20879076b446e7813ffe477f",
+      "predecessorRevisionHash": null,
+      "originalHash": "9bf821f9942c6924570e9ae8bd8ec5c9d168ecff20879076b446e7813ffe477f",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "灌漑による塩害が農地の荒廃を引き起こしている。",
+            "romaji": "Kangai ni yoru engai ga nōchi no kōhai wo hikiokosu.",
+            "german": "Salzschäden durch Bewässerung verursachen die Verödung von Ackerland."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "灌漑による塩害が農地の荒廃を引き起こしている。",
+            "romaji": "Kangai ni yoru engai ga nōchi no kōhai o hikiokoshite iru.",
+            "german": "Salzschäden durch Bewässerung verursachen die Verödung von Ackerland."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71843357",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "塩害 / エンガイ; 名詞/普通名詞/一般/*; *; *; lemma 塩害; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "塩害",
+              "reading": "えんがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "塩害 as \"Salzschaden\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1576640; spelling=塩害; reading=えんがい",
+          "finding": "JMdict 1576640 塩害/えんがい confirms the reading used for the romaji of \"Salzschaden\".",
+          "selected": {
+            "sequence": "1576640",
+            "spelling": "塩害",
+            "reading": "えんがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "salt damage (from seawater, sea air, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Salzschaden\" checked against the headword and JMdict 1576640; no issue found.",
+        "japanese": "灌漑による塩害が農地の荒廃を引き起こしている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"engai\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Salzschäden durch Bewässerung verursachen die Verödung von Ackerland."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@71843357 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71843357",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "塩害 / エンガイ; 名詞/普通名詞/一般/*; *; *; lemma 塩害; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "塩害",
+              "reading": "えんがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "塩害 as \"Salzschaden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "7a1ef4198d835cabc6ca6ad892bd8ada95f80d5e5f67cc9fee2bf453c9df61bb",
+        "approvalHash": "3f20660fdf1e9e5565398d458e375063d3fd1a220994d52e2fed560cec84daca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "引き起こしている = hikiokoshite iru, particle o; pitch 0 = exact row 塩害 aType 0.",
+        "contentHash": "7a1ef4198d835cabc6ca6ad892bd8ada95f80d5e5f67cc9fee2bf453c9df61bb",
+        "approvalHash": "3f20660fdf1e9e5565398d458e375063d3fd1a220994d52e2fed560cec84daca"
+      }
+    },
+    {
+      "id": "vocab-n1:2250",
+      "revisionId": "052-vocab-n1-2250",
+      "state": "accepted",
+      "predecessorHash": "7866c2ab498a35cb096d4b4386fef8c2560f780e5366eeba8d56965c78845a6a",
+      "predecessorRevisionHash": null,
+      "originalHash": "7866c2ab498a35cb096d4b4386fef8c2560f780e5366eeba8d56965c78845a6a",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed truncated passive \"mochiirareu\" → mochiirareru.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "水質の評価に生物指標が用いられる。",
+            "romaji": "Suishitsu no hyōka ni seibutsu shihyō ga mochiirareu.",
+            "german": "Zur Bewertung der Wasserqualität werden Bioindikatoren eingesetzt."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "水質の評価に生物指標が用いられる。",
+            "romaji": "Suishitsu no hyōka ni seibutsu shihyō ga mochiirareru.",
+            "german": "Zur Bewertung der Wasserqualität werden Bioindikatoren eingesetzt."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Fixed truncated passive \"mochiirareu\" → mochiirareru."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Bioindikator\" checked against the headword; no issue found.",
+        "japanese": "水質の評価に生物指標が用いられる。 — read in context; examples use the headword.",
+        "romanization": "Headword \"seibutsu shihyō\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Zur Bewertung der Wasserqualität werden Bioindikatoren eingesetzt."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 生物指標 / せいぶつしひょう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2250; exact written-form/kana lookup 生物指標 / せいぶつしひょう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed truncated passive \"mochiirareu\" → mochiirareru. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "2aa84ffa107a602f2e8c87f86ac291b65783c6345fb0ad2314dc567de313ef82",
+        "approvalHash": "8cb1a7cd1ed9b5fb4a30f6306b3cc77f07d64017b420db06eb54114ec2154f34"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "mochiirareru (was mochiirareu); no exact row for 生物指標, pitch null.",
+        "contentHash": "2aa84ffa107a602f2e8c87f86ac291b65783c6345fb0ad2314dc567de313ef82",
+        "approvalHash": "8cb1a7cd1ed9b5fb4a30f6306b3cc77f07d64017b420db06eb54114ec2154f34"
+      }
+    },
+    {
+      "id": "vocab-n1:2265",
+      "revisionId": "052-vocab-n1-2265",
+      "state": "accepted",
+      "predecessorHash": "9221da8717fde82d838166026d918941f0597bf75916ab05fca5718b88498a71",
+      "predecessorRevisionHash": null,
+      "originalHash": "9221da8717fde82d838166026d918941f0597bf75916ab05fca5718b88498a71",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "窒素循環の乱れが環境問題を引き起こしている。",
+            "romaji": "Chisso junkan no midare ga kankyō mondai wo hikiokosu.",
+            "german": "Störungen im Stickstoffkreislauf verursachen Umweltprobleme."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "窒素循環の乱れが環境問題を引き起こしている。",
+            "romaji": "Chisso junkan no midare ga kankyō mondai o hikiokoshite iru.",
+            "german": "Störungen im Stickstoffkreislauf verursachen Umweltprobleme."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2169780; spelling=窒素循環; reading=ちっそじゅんかん",
+          "finding": "JMdict 2169780 窒素循環/ちっそじゅんかん confirms the reading used for the romaji of \"Stickstoffkreislauf\".",
+          "selected": {
+            "sequence": "2169780",
+            "spelling": "窒素循環",
+            "reading": "ちっそじゅんかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nitrogen cycle"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Stickstoffkreislauf\" checked against the headword and JMdict 2169780; no issue found.",
+        "japanese": "窒素循環の乱れが環境問題を引き起こしている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"chisso junkan\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Störungen im Stickstoffkreislauf verursachen Umweltprobleme."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 窒素循環 / ちっそじゅんかん; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2265; exact written-form/kana lookup 窒素循環 / ちっそじゅんかん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Romaji had the wrong form (\"hikiokosu\" for 引き起こしている); corrected, wo → o. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "ec9766fe339398bc6618201b172af67933ad063ff8cf55b70a86ab92b8ad2afe",
+        "approvalHash": "3bf73a0b9d11d64b37072fa9f5147c25656feec567cf8121b891545cbd693290"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "hikiokoshite iru, particle o correct; no exact row for 窒素循環, pitch null.",
+        "contentHash": "ec9766fe339398bc6618201b172af67933ad063ff8cf55b70a86ab92b8ad2afe",
+        "approvalHash": "3bf73a0b9d11d64b37072fa9f5147c25656feec567cf8121b891545cbd693290"
+      }
+    },
+    {
+      "id": "vocab-n1:2285",
+      "revisionId": "052-vocab-n1-2285",
+      "state": "accepted",
+      "predecessorHash": "c139eeec4d2b7198a0b2c4bf11c8c13eb85acf3c81819e486815ab3586844bf6",
+      "predecessorRevisionHash": null,
+      "originalHash": "c139eeec4d2b7198a0b2c4bf11c8c13eb85acf3c81819e486815ab3586844bf6",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Kept nitchō (botanical reading matching the entry); wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "日長の変化が植物の開花を制御する。",
+            "romaji": "Nitchō no henka ga shokubutsu no kaika wo seigyo suru.",
+            "german": "Veränderungen der Tageslänge steuern die Blüte der Pflanzen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "日長の変化が植物の開花を制御する。",
+            "romaji": "Nitchō no henka ga shokubutsu no kaika o seigyo suru.",
+            "german": "Veränderungen der Tageslänge steuern die Blüte der Pflanzen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Kept nitchō (botanical reading matching the entry); wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Tageslänge\" checked against the headword; no issue found.",
+        "japanese": "日長の変化が植物の開花を制御する。 — read in context; examples use the headword.",
+        "romanization": "Headword \"nitchō\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Veränderungen der Tageslänge steuern die Blüte der Pflanzen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 日長 / にっちょう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2285; exact written-form/kana lookup 日長 / にっちょう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Kept nitchō (botanical reading matching the entry); wo → o. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "6943ac66887e9189a01b463b8ecfccd92e3b2344c3b569dbb9dab489991a46e8",
+        "approvalHash": "fda94d5efad6005c6a58b896879b50841d8a8085a76f544f75122ff345d9e1a8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "nitchō, particle o correct; no exact row for 日長, pitch null.",
+        "contentHash": "6943ac66887e9189a01b463b8ecfccd92e3b2344c3b569dbb9dab489991a46e8",
+        "approvalHash": "fda94d5efad6005c6a58b896879b50841d8a8085a76f544f75122ff345d9e1a8"
+      }
+    },
+    {
+      "id": "vocab-n1:2295",
+      "revisionId": "052-vocab-n1-2295",
+      "state": "accepted",
+      "predecessorHash": "9d233a798980070f6344b73b2502c4cc123e504c3caa95348ec3f0cb113f7b50",
+      "predecessorRevisionHash": null,
+      "originalHash": "9d233a798980070f6344b73b2502c4cc123e504c3caa95348ec3f0cb113f7b50",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 流れ込み was garbled as \"nagareokomi\"; corrected to nagarekomi, joined yūsetsusui, wo → o.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "融雪水が河川に流れ込み春の増水を引き起こす。",
+            "romaji": "Yūsetsu sui ga kasen ni nagareokomi haru no zōsui wo hikiokosu.",
+            "german": "Schmelzwasser fließt in die Flüsse und verursacht das Frühjahrshochwasser."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "融雪水が河川に流れ込み春の増水を引き起こす。",
+            "romaji": "Yūsetsusui ga kasen ni nagarekomi haru no zōsui o hikiokosu.",
+            "german": "Schmelzwasser fließt in die Flüsse und verursacht das Frühjahrshochwasser."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270702338",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "融雪 / ユウセツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 融雪; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "融雪",
+              "reading": "ゆうせつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "融雪 as \"Schneeschmelze\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1542620; spelling=融雪; reading=ゆうせつ",
+          "finding": "JMdict 1542620 融雪/ゆうせつ confirms the reading used for the romaji of \"Schneeschmelze\".",
+          "selected": {
+            "sequence": "1542620",
+            "spelling": "融雪",
+            "reading": "ゆうせつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "melted snow",
+                  "melting of snow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "流れ込み was garbled as \"nagareokomi\"; corrected to nagarekomi, joined yūsetsusui, wo → o."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Schneeschmelze\" checked against the headword and JMdict 1542620; no issue found.",
+        "japanese": "融雪水が河川に流れ込み春の増水を引き起こす。 — read in context; examples use the headword.",
+        "romanization": "Headword \"yūsetsu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Schmelzwasser fließt in die Flüsse und verursacht das Frühjahrshochwasser."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@270702338 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270702338",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "融雪 / ユウセツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 融雪; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "融雪",
+              "reading": "ゆうせつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "融雪 as \"Schneeschmelze\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 流れ込み was garbled as \"nagareokomi\"; corrected to nagarekomi, joined yūsetsusui, wo → o. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "08886f7774943bea5f44144f5f333565f88ffac9dc8196db2a69147eef681fcb",
+        "approvalHash": "66fdeb20d47d466dcffc6bf3e266e875d12190248e048c075269d7cba8de4e93"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Yūsetsusui, 流れ込み = nagarekomi (was nagareokomi), particle o; pitch 0 = exact row 融雪 aType 0.",
+        "contentHash": "08886f7774943bea5f44144f5f333565f88ffac9dc8196db2a69147eef681fcb",
+        "approvalHash": "66fdeb20d47d466dcffc6bf3e266e875d12190248e048c075269d7cba8de4e93"
+      }
+    },
+    {
+      "id": "vocab-n1:2298",
+      "revisionId": "052-vocab-n1-2298",
+      "state": "accepted",
+      "predecessorHash": "3554f3f7a51dfe331b4bcff8206021a1d264b6d4aae801160f852e85bb7fbb6d",
+      "predecessorRevisionHash": null,
+      "originalHash": "3554f3f7a51dfe331b4bcff8206021a1d264b6d4aae801160f852e85bb7fbb6d",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 湖 is mizu+umi, so mizuumi without macron (was \"mizūmi\").",
+      "original": {
+        "examples": [
+          {
+            "japanese": "厳しい寒さで湖が結氷した。",
+            "romaji": "Kibishii samusa de mizūmi ga keppyō shita.",
+            "german": "Durch die strenge Kälte fror der See zu."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "厳しい寒さで湖が結氷した。",
+            "romaji": "Kibishii samusa de mizuumi ga keppyō shita.",
+            "german": "Durch die strenge Kälte fror der See zu."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117939777",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "結氷 / ケッピョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 結氷; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "結氷",
+              "reading": "けっぴょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "結氷 as \"Zufrieren; Eisbildung auf Gewässern\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1727460; spelling=結氷; reading=けっぴょう",
+          "finding": "JMdict 1727460 結氷/けっぴょう confirms the reading used for the romaji of \"Zufrieren; Eisbildung auf Gewässern\".",
+          "selected": {
+            "sequence": "1727460",
+            "spelling": "結氷",
+            "reading": "けっぴょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "freezing (over)",
+                  "ice",
+                  "frost"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "湖 is mizu+umi, so mizuumi without macron (was \"mizūmi\")."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Zufrieren; Eisbildung auf Gewässern\" checked against the headword and JMdict 1727460; no issue found.",
+        "japanese": "厳しい寒さで湖が結氷した。 — read in context; examples use the headword.",
+        "romanization": "Headword \"keppyō\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Durch die strenge Kälte fror der See zu."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@117939777 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117939777",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "結氷 / ケッピョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 結氷; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "結氷",
+              "reading": "けっぴょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "結氷 as \"Zufrieren; Eisbildung auf Gewässern\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 湖 is mizu+umi, so mizuumi without macron (was \"mizūmi\"). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "0651bf70f28afb6339d3bace15d9e1a42b8f87aa8d9a5fb917c66a0c75d1f05f",
+        "approvalHash": "23eeb5f27b16dfd94c070afdba5dfa7539695c7bb3af8c8137aa307959ac41c7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "湖 = mizuumi (no macron across the boundary, per convention); pitch 0 = exact row 結氷 aType 0.",
+        "contentHash": "0651bf70f28afb6339d3bace15d9e1a42b8f87aa8d9a5fb917c66a0c75d1f05f",
+        "approvalHash": "23eeb5f27b16dfd94c070afdba5dfa7539695c7bb3af8c8137aa307959ac41c7"
+      }
+    },
+    {
+      "id": "vocab-n1:2476",
+      "revisionId": "052-vocab-n1-2476",
+      "state": "accepted",
+      "predecessorHash": "4ffb64074e4461d3b1cf1c00f722c0863297aa10beb8e8e6311677600df93a16",
+      "predecessorRevisionHash": null,
+      "originalHash": "4ffb64074e4461d3b1cf1c00f722c0863297aa10beb8e8e6311677600df93a16",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 即座 was garbled as \"sokusa\"; corrected to sokuza.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "逡巡することなく即座に決断した。",
+            "romaji": "Shunjun suru koto naku sokusa ni ketsudan shita.",
+            "german": "Ohne zu zögern traf er sofort eine Entscheidung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "逡巡することなく即座に決断した。",
+            "romaji": "Shunjun suru koto naku sokuza ni ketsudan shita.",
+            "german": "Ohne zu zögern traf er sofort eine Entscheidung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140478107",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "逡巡 / シュンジュン; 名詞/普通名詞/サ変可能/*; *; *; lemma 逡巡; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "逡巡",
+              "reading": "しゅんじゅん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "逡巡 as \"Zögern, Zaudern\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2014800; spelling=逡巡; reading=しゅんじゅん",
+          "finding": "JMdict 2014800 逡巡/しゅんじゅん confirms the reading used for the romaji of \"Zögern, Zaudern\".",
+          "selected": {
+            "sequence": "2014800",
+            "spelling": "逡巡",
+            "reading": "しゅんじゅん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hesitation",
+                  "indecision"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "即座 was garbled as \"sokusa\"; corrected to sokuza."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Zögern, Zaudern\" checked against the headword and JMdict 2014800; no issue found.",
+        "japanese": "逡巡することなく即座に決断した。 — read in context; examples use the headword.",
+        "romanization": "Headword \"shunjun\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ohne zu zögern traf er sofort eine Entscheidung."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@140478107 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140478107",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "逡巡 / シュンジュン; 名詞/普通名詞/サ変可能/*; *; *; lemma 逡巡; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "逡巡",
+              "reading": "しゅんじゅん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "逡巡 as \"Zögern, Zaudern\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 即座 was garbled as \"sokusa\"; corrected to sokuza. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "04675006bf755b1d0a385968609d5ce975e7f804499a0de2f88f6c0ad4e1713e",
+        "approvalHash": "53704002df194b9e5a4f215c4e3b4a127ed0f320e5b5270c5c19792caddefac3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "即座 = sokuza (not sokusa); pitch 0 = exact row 逡巡 aType 0.",
+        "contentHash": "04675006bf755b1d0a385968609d5ce975e7f804499a0de2f88f6c0ad4e1713e",
+        "approvalHash": "53704002df194b9e5a4f215c4e3b4a127ed0f320e5b5270c5c19792caddefac3"
+      }
+    },
+    {
+      "id": "vocab-n1:2479",
+      "revisionId": "052-vocab-n1-2479",
+      "state": "accepted",
+      "predecessorHash": "e4f80b66e89e8dd3920f249ac80577e78b137e23b9c5f5a326824b65ec28cb24",
+      "predecessorRevisionHash": null,
+      "originalHash": "e4f80b66e89e8dd3920f249ac80577e78b137e23b9c5f5a326824b65ec28cb24",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 見合って was garbled as \"miaatte\"; corrected to miatte.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "互いに猜疑の目で見合っている。",
+            "romaji": "Tagai ni saigi no me de miaatte iru.",
+            "german": "Man betrachtet sich gegenseitig mit argwöhnischen Blicken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "互いに猜疑の目で見合っている。",
+            "romaji": "Tagai ni saigi no me de miatte iru.",
+            "german": "Man betrachtet sich gegenseitig mit argwöhnischen Blicken."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126939573",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "猜疑 / サイギ; 名詞/普通名詞/サ変可能/*; *; *; lemma 猜疑; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "猜疑",
+              "reading": "さいぎ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "猜疑 as \"Argwohn, Verdacht\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1569290; spelling=猜疑; reading=さいぎ",
+          "finding": "JMdict 1569290 猜疑/さいぎ confirms the reading used for the romaji of \"Argwohn, Verdacht\".",
+          "selected": {
+            "sequence": "1569290",
+            "spelling": "猜疑",
+            "reading": "さいぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suspicion",
+                  "jealousy"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "見合って was garbled as \"miaatte\"; corrected to miatte."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Argwohn, Verdacht\" checked against the headword and JMdict 1569290; no issue found.",
+        "japanese": "互いに猜疑の目で見合っている。 — read in context; examples use the headword.",
+        "romanization": "Headword \"saigi\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Man betrachtet sich gegenseitig mit argwöhnischen Blicken."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@126939573 attests 1. Existing 0 unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126939573",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "猜疑 / サイギ; 名詞/普通名詞/サ変可能/*; *; *; lemma 猜疑; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "猜疑",
+              "reading": "さいぎ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "猜疑 as \"Argwohn, Verdacht\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 見合って was garbled as \"miaatte\"; corrected to miatte. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "7d907a66034edf3453ea2482d2ed1f6995a22054952c408f410b713a3017f892",
+        "approvalHash": "9cfe2d7d650a49164a9bf9b50c5c9c98de0dbde80f22ce45753719b82eb2623b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "見合って = miatte (was miaatte); pitch 0 -> 1 per exact row 猜疑 aType 1.",
+        "contentHash": "7d907a66034edf3453ea2482d2ed1f6995a22054952c408f410b713a3017f892",
+        "approvalHash": "9cfe2d7d650a49164a9bf9b50c5c9c98de0dbde80f22ce45753719b82eb2623b"
+      }
+    },
+    {
+      "id": "vocab-n1:2648",
+      "revisionId": "052-vocab-n1-2648",
+      "state": "accepted",
+      "predecessorHash": "bb630411c5dbd8a767a6a040294f195c6399a9a8583e8db0d532947b9a0c4d1f",
+      "predecessorRevisionHash": null,
+      "originalHash": "bb630411c5dbd8a767a6a040294f195c6399a9a8583e8db0d532947b9a0c4d1f",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 陥った was misread as \"ochitta\"; corrected to ochiitta.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "交渉が膠着状態に陥った。",
+            "romaji": "Kōshō ga kōchaku jōtai ni ochitta.",
+            "german": "Die Verhandlungen gerieten in eine Sackgasse."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "交渉が膠着状態に陥った。",
+            "romaji": "Kōshō ga kōchaku jōtai ni ochiitta.",
+            "german": "Die Verhandlungen gerieten in eine Sackgasse."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "陥った was misread as \"ochitta\"; corrected to ochiitta."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"festfahren, stagnieren\" checked against the headword; open issue noted: Example uses the noun compound 膠着状態 rather than the verb 膠着する, and is identical to the example of 膠着 (vocab-n1:3104); a verb example (e.g. 交渉が膠着している) would fit better.",
+        "japanese": "交渉が膠着状態に陥った。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kōchaku suru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Verhandlungen gerieten in eine Sackgasse."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 膠着する / こうちゃくする; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2648; exact written-form/kana lookup 膠着する / こうちゃくする",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 陥った was misread as \"ochitta\"; corrected to ochiitta. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "589670337985ec4fecd02d73be727f096bd6af971e7c61f02fbd221e2bfe1f00",
+        "approvalHash": "5edc0148174f5d2114c4efc47b314c8f6a3b4c90419dc374e0a86e8eff343b0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "陥った = ochiitta; no exact row for 膠着する, pitch null.",
+        "contentHash": "589670337985ec4fecd02d73be727f096bd6af971e7c61f02fbd221e2bfe1f00",
+        "approvalHash": "5edc0148174f5d2114c4efc47b314c8f6a3b4c90419dc374e0a86e8eff343b0a"
+      }
+    },
+    {
+      "id": "vocab-n1:2650",
+      "revisionId": "052-vocab-n1-2650",
+      "state": "accepted",
+      "predecessorHash": "c73eb66941f33f232e205343bb8c098805c5baad6905150f427039b531d47126",
+      "predecessorRevisionHash": null,
+      "originalHash": "c73eb66941f33f232e205343bb8c098805c5baad6905150f427039b531d47126",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct for the entry reading あわれむ (UniDic suggests めぐむ, also a valid reading of 恤む); kept unchanged.",
+      "original": {
+        "conjugationReason": null,
+        "pitch": 3
+      },
+      "replacement": {
+        "conjugationReason": "JMdict does not attest 恤む with the reading あわれむ, so no inflection table is generated for it.",
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Already correct for the entry reading あわれむ (UniDic suggests めぐむ, also a valid reading of 恤む); kept unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"bemitleiden, erbarmen\" checked against the headword; no issue found.",
+        "japanese": "弱い者を恤む心が大切だ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"awaremu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ein mitfühlendes Herz für die Schwachen ist wichtig."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (n/a).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 恤む / あわれむ; previous 3 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2650; exact written-form/kana lookup 恤む / あわれむ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct for the entry reading あわれむ (UniDic suggests めぐむ, also a valid reading of 恤む); kept unchanged. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "a3f76a16941861199c7485239cc61cabe4e14eac2980434fdaf507310fc3b328",
+        "approvalHash": "73b684c751138c024f86acc6fcbf5c8a8a4a26a8a5ee786c358c1004788b4b2b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "awaremu matches the reading. conjugationReason is now accurate: JMdict has 恤む only as a rare-kanji form of 恵む/めぐむ (1250480), not with あわれむ, so exclusion is justified. No exact UniDic row, pitch null; round-2 finding resolved.",
+        "contentHash": "a3f76a16941861199c7485239cc61cabe4e14eac2980434fdaf507310fc3b328",
+        "approvalHash": "73b684c751138c024f86acc6fcbf5c8a8a4a26a8a5ee786c358c1004788b4b2b"
+      }
+    },
+    {
+      "id": "vocab-n1:2695",
+      "revisionId": "052-vocab-n1-2695",
+      "state": "accepted",
+      "predecessorHash": "9377b673ce35f50b3ee6c2f5d7add4f43d8850fe60095de7de42d3c33df2396c",
+      "predecessorRevisionHash": null,
+      "originalHash": "9377b673ce35f50b3ee6c2f5d7add4f43d8850fe60095de7de42d3c33df2396c",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct: 憂える is ure+eru, so ureeru (not urēru); kept unchanged.",
+      "original": {
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69102372",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "憂える / ウレエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 憂える; aType 3. Existing pitch 3 attested by the exact row.",
+            "match": {
+              "word": "憂える",
+              "reading": "うれえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "憂える as \"sich sorgen, bekümmert sein\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588580; spelling=憂える; reading=うれえる",
+          "finding": "JMdict 1588580 憂える/うれえる confirms the reading used for the romaji of \"sich sorgen, bekümmert sein\".",
+          "selected": {
+            "sequence": "1588580",
+            "spelling": "憂える",
+            "reading": "うれえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to worry about",
+                  "to be anxious about",
+                  "to be concerned about",
+                  "to stress over"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lament",
+                  "to grieve",
+                  "to mourn",
+                  "to feel sorrow for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Already correct: 憂える is ure+eru, so ureeru (not urēru); kept unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"sich sorgen, bekümmert sein\" checked against the headword and JMdict 1588580; no issue found.",
+        "japanese": "国の将来を憂える。 — read in context; examples use the headword.",
+        "romanization": "Headword \"ureeru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Man sorgt sich um die Zukunft des Landes."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@69102372 attests 3. Existing pitch 3 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69102372",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "憂える / ウレエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 憂える; aType 3. Existing pitch 3 attested by the exact row.",
+            "match": {
+              "word": "憂える",
+              "reading": "うれえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "憂える as \"sich sorgen, bekümmert sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct: 憂える is ure+eru, so ureeru (not urēru); kept unchanged. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "05cd30a27353c0736f8765ae1935e8a8a8072f40e02e81ed3b8f8e3505e57cc0",
+        "approvalHash": "757fe856578adc9b342d021b157b18ea3eede3f4c879e28d64360c59920c999b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Kuni no shōrai o ureeru correct; pitch 3 = exact verb row 憂える aType 3.",
+        "contentHash": "05cd30a27353c0736f8765ae1935e8a8a8072f40e02e81ed3b8f8e3505e57cc0",
+        "approvalHash": "757fe856578adc9b342d021b157b18ea3eede3f4c879e28d64360c59920c999b"
+      }
+    },
+    {
+      "id": "vocab-n1:2700",
+      "revisionId": "052-vocab-n1-2700",
+      "state": "accepted",
+      "predecessorHash": "8ad8ac54ef8580618738353071a9a9d47c3d70b079a6fc4659a78d1d3a4e420e",
+      "predecessorRevisionHash": null,
+      "originalHash": "8ad8ac54ef8580618738353071a9a9d47c3d70b079a6fc4659a78d1d3a4e420e",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 真相 was misread as \"shinzō\"; corrected to shinsō.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "事件の真相を糾明する。",
+            "romaji": "Jiken no shinzō o kyūmei suru.",
+            "german": "Man untersucht die Wahrheit hinter dem Vorfall."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "事件の真相を糾明する。",
+            "romaji": "Jiken no shinsō o kyūmei suru.",
+            "german": "Man untersucht die Wahrheit hinter dem Vorfall."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "真相 was misread as \"shinzō\"; corrected to shinsō."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"untersuchen, aufklären\" checked against the headword; no issue found.",
+        "japanese": "事件の真相を糾明する。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kyūmei suru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Man untersucht die Wahrheit hinter dem Vorfall."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 糾明する / きゅうめいする; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n1:2700; exact written-form/kana lookup 糾明する / きゅうめいする",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 真相 was misread as \"shinzō\"; corrected to shinsō. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "413b3e98765473df224ebc4d76d5daaf8f917ea6467d2508c2fc883bcf57b0d2",
+        "approvalHash": "b209ec18c7e3a0e2cb17898cea87a12e7a222bfd58a1f0dcec6181c4f4ba11f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "真相 = shinsō (not shinzō); no exact row for 糾明する, pitch null.",
+        "contentHash": "413b3e98765473df224ebc4d76d5daaf8f917ea6467d2508c2fc883bcf57b0d2",
+        "approvalHash": "b209ec18c7e3a0e2cb17898cea87a12e7a222bfd58a1f0dcec6181c4f4ba11f4"
+      }
+    }
+  ],
+  "decisions": []
+}

@@ -1,0 +1,3507 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:2821",
+      "revisionId": "052-vocab-n3-2821",
+      "state": "accepted",
+      "predecessorHash": "bbf5ea1311d5c799ae6128595dff5d107d1cd6841b177a0104215f542f2944d7",
+      "predecessorRevisionHash": null,
+      "originalHash": "bbf5ea1311d5c799ae6128595dff5d107d1cd6841b177a0104215f542f2944d7",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 後が was misread as \"togo ga\"; it is ato ga. Also joined okoraseru.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "父さんを怒らせると後が面倒よ。",
+            "romaji": "Tousan o okora seru togo ga mendou yo.",
+            "german": "Wenn du Papa verärgerst, wird es hinterher nur umständlich."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "父さんを怒らせると後が面倒よ。",
+            "romaji": "Tōsan o okoraseru to ato ga mendō yo.",
+            "german": "Wenn du Papa verärgerst, wird es hinterher nur umständlich."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1633780; spelling=怒らせる; reading=おこらせる",
+          "finding": "JMdict 1633780 怒らせる/おこらせる confirms the reading used for the romaji of \"verärgern\".",
+          "selected": {
+            "sequence": "1633780",
+            "spelling": "怒らせる",
+            "reading": "おこらせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to make (someone) angry",
+                  "to anger",
+                  "to offend",
+                  "to rile up",
+                  "to provoke (to anger)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "後が was misread as \"togo ga\"; it is ato ga. Also joined okoraseru."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"verärgern\" checked against the headword and JMdict 1633780; no issue found.",
+        "japanese": "父さんを怒らせると後が面倒よ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"okoraseru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wenn du Papa verärgerst, wird es hinterher nur umständlich."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 怒らせる / おこらせる; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2821; exact written-form/kana lookup 怒らせる / おこらせる",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 後が was misread as \"togo ga\"; it is ato ga. Also joined okoraseru. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "dbd1fd7c6163b0bdd4b17fb71d385a8f185ad87cef5a90d17ea6d122aa182fa5",
+        "approvalHash": "8b0dbee4b225babea5dfa61a84ac14ac1a540d67f68277ae635f01214b7a9503"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "後が = ato ga (not togo ga), okoraseru joined, Tōsan for 父さん; no exact UniDic row, pitch null per policy.",
+        "contentHash": "dbd1fd7c6163b0bdd4b17fb71d385a8f185ad87cef5a90d17ea6d122aa182fa5",
+        "approvalHash": "8b0dbee4b225babea5dfa61a84ac14ac1a540d67f68277ae635f01214b7a9503"
+      }
+    },
+    {
+      "id": "vocab-n3:2846",
+      "revisionId": "052-vocab-n3-2846",
+      "state": "accepted",
+      "predecessorHash": "333ab57ce183c79f8de83871777ee6c60149473e14e65a9ea1622953337d83c0",
+      "predecessorRevisionHash": null,
+      "originalHash": "333ab57ce183c79f8de83871777ee6c60149473e14e65a9ea1622953337d83c0",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 盗撮 was rendered \"to to\"; it is now tōsatsu, and the other long vowels are marked.",
+      "original": {
+        "romaji": "tousatsu",
+        "examples": [
+          {
+            "japanese": "あの駅、盗撮が多いから気をつけたほうがいいよ。",
+            "romaji": "Ano eki, to to ga ooi kara ki o tsuketa hou ga ii yo.",
+            "german": "Pass an dem Bahnhof auf. Dort gibt es viele Fälle von heimlichem Filmen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "tōsatsu",
+        "examples": [
+          {
+            "japanese": "あの駅、盗撮が多いから気をつけたほうがいいよ。",
+            "romaji": "Ano eki, tōsatsu ga ōi kara ki o tsuketa hō ga ii yo.",
+            "german": "Pass an dem Bahnhof auf. Dort gibt es viele Fälle von heimlichem Filmen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183363920",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "盗撮 / トウサツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 盗撮; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "盗撮",
+              "reading": "とうさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "盗撮 as \"heimliches Filmen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1939860; spelling=盗撮; reading=とうさつ",
+          "finding": "JMdict 1939860 盗撮/とうさつ confirms the reading used for the romaji of \"heimliches Filmen\".",
+          "selected": {
+            "sequence": "1939860",
+            "spelling": "盗撮",
+            "reading": "とうさつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sneak photography",
+                  "non-consensual photography",
+                  "peeping photos",
+                  "covert filming"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The headword 盗撮 was rendered \"to to\"; it is now tōsatsu, and the other long vowels are marked."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"heimliches Filmen\" checked against the headword and JMdict 1939860; no issue found.",
+        "japanese": "あの駅、盗撮が多いから気をつけたほうがいいよ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"tōsatsu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Pass an dem Bahnhof auf. Dort gibt es viele Fälle von heimlichem Filmen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@183363920 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183363920",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "盗撮 / トウサツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 盗撮; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "盗撮",
+              "reading": "とうさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "盗撮 as \"heimliches Filmen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 盗撮 was rendered \"to to\"; it is now tōsatsu, and the other long vowels are marked. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "3201d033bcf7954192b96e5932961c613f9007025bc45c5ccc3f26b5293701e4",
+        "approvalHash": "f7ff8aaae92cfb1e7e340b0e0c920e07742c7e6c46a49efdf4802d197baec20b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "盗撮 = tōsatsu (was \"to to\"); ōi, hō ga ii correct. Suru verb now verified: pitch 0 = exact 盗撮 名詞/普通名詞/サ変可能 row sys.dic@183363920 (lemma 盗撮), rationale truthful.",
+        "contentHash": "3201d033bcf7954192b96e5932961c613f9007025bc45c5ccc3f26b5293701e4",
+        "approvalHash": "f7ff8aaae92cfb1e7e340b0e0c920e07742c7e6c46a49efdf4802d197baec20b"
+      }
+    },
+    {
+      "id": "vocab-n3:2854",
+      "revisionId": "052-vocab-n3-2854",
+      "state": "accepted",
+      "predecessorHash": "07a20129e0df948a903c3a06addd821cc79f72e7a9f663676d8a77c72eb922ab",
+      "predecessorRevisionHash": null,
+      "originalHash": "07a20129e0df948a903c3a06addd821cc79f72e7a9f663676d8a77c72eb922ab",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 有り難う was written \"arigatau\"; it is arigatō. なぁ is now nā.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "えっ、有り難う。照れるなぁ。",
+            "romaji": "E, arigatau. Tereru naa.",
+            "german": "Oh, danke. Ich werde ganz rot!"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "えっ、有り難う。照れるなぁ。",
+            "romaji": "E, arigatō. Tereru nā.",
+            "german": "Oh, danke. Ich werde ganz rot!"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181290651",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "照れる / テレル; 動詞/一般/*/*; 下一段-ラ行; 終止形-一般; lemma 照れる; aType 2. Existing pitch 2 attested by the exact row.",
+            "match": {
+              "word": "照れる",
+              "reading": "てれる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ラ行; 終止形-一般",
+              "sense": "照れる as \"verlegen sein\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350880; spelling=照れる; reading=てれる",
+          "finding": "JMdict 1350880 照れる/てれる confirms the reading used for the romaji of \"verlegen sein\".",
+          "selected": {
+            "sequence": "1350880",
+            "spelling": "照れる",
+            "reading": "てれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be shy",
+                  "to be bashful",
+                  "to feel awkward",
+                  "to feel embarrassed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "有り難う was written \"arigatau\"; it is arigatō. なぁ is now nā."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"verlegen sein\" checked against the headword and JMdict 1350880; no issue found.",
+        "japanese": "えっ、有り難う。照れるなぁ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"tereru\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Oh, danke. Ich werde ganz rot!"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@181290651 attests 2. Existing pitch 2 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181290651",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "照れる / テレル; 動詞/一般/*/*; 下一段-ラ行; 終止形-一般; lemma 照れる; aType 2. Existing pitch 2 attested by the exact row.",
+            "match": {
+              "word": "照れる",
+              "reading": "てれる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ラ行; 終止形-一般",
+              "sense": "照れる as \"verlegen sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 有り難う was written \"arigatau\"; it is arigatō. なぁ is now nā. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "5fe4b71874d973103c5013e69de331d7e33d6f82d00edf88414d85efc7720031",
+        "approvalHash": "1f243426dba00452750f36799482ac0f75efc5b810659f893825ffdc96ce61a7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "有り難う = arigatō, なぁ = nā; pitch 2 = exact verb row 照れる/テレル aType 2.",
+        "contentHash": "5fe4b71874d973103c5013e69de331d7e33d6f82d00edf88414d85efc7720031",
+        "approvalHash": "1f243426dba00452750f36799482ac0f75efc5b810659f893825ffdc96ce61a7"
+      }
+    },
+    {
+      "id": "vocab-n3:2875",
+      "revisionId": "052-vocab-n3-2875",
+      "state": "accepted",
+      "predecessorHash": "252c023ded77bdb18273fa3f3e90d05a5d26ea293fdb92e7f0034d27481dba25",
+      "predecessorRevisionHash": null,
+      "originalHash": "252c023ded77bdb18273fa3f3e90d05a5d26ea293fdb92e7f0034d27481dba25",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. ソフトウェア is now sofutowea (ウェ→we), and the long vowels are marked.",
+      "original": {
+        "romaji": "kounyuu",
+        "examples": [
+          {
+            "japanese": "新しいソフトウェアの購入を検討しています。",
+            "romaji": "Atarashii sofutouea no kounyuu o kentou shite imasu.",
+            "german": "Ich erwäge den Kauf einer neuen Software."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "kōnyū",
+        "examples": [
+          {
+            "japanese": "新しいソフトウェアの購入を検討しています。",
+            "romaji": "Atarashii sofutowea no kōnyū o kentō shite imasu.",
+            "german": "Ich erwäge den Kauf einer neuen Software."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120455355",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "購入 / コウニュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 購入; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "購入",
+              "reading": "こうにゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "購入 as \"Kauf\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282440; spelling=購入; reading=こうにゅう",
+          "finding": "JMdict 1282440 購入/こうにゅう confirms the reading used for the romaji of \"Kauf\".",
+          "selected": {
+            "sequence": "1282440",
+            "spelling": "購入",
+            "reading": "こうにゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "purchase",
+                  "buying"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "ソフトウェア is now sofutowea (ウェ→we), and the long vowels are marked."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Kauf\" checked against the headword and JMdict 1282440; no issue found.",
+        "japanese": "新しいソフトウェアの購入を検討しています。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kōnyū\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich erwäge den Kauf einer neuen Software."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@120455355 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120455355",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "購入 / コウニュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 購入; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "購入",
+              "reading": "こうにゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "購入 as \"Kauf\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. ソフトウェア is now sofutowea (ウェ→we), and the long vowels are marked. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "777ae4b4ddf9daa481738c786b0f77bc34a5bf4b9f22b076086034dcf78d9750",
+        "approvalHash": "b715b06700d3b1c028a5a601967550e478960c4b21c823527cd00ae02d235e1f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "購入 = kōnyū; sofutowea (ウェ = we), kentō correct. Suru verb now verified: pitch 0 = exact 購入 名詞/普通名詞/サ変可能 row sys.dic@120455355 (lemma 購入), rationale truthful.",
+        "contentHash": "777ae4b4ddf9daa481738c786b0f77bc34a5bf4b9f22b076086034dcf78d9750",
+        "approvalHash": "b715b06700d3b1c028a5a601967550e478960c4b21c823527cd00ae02d235e1f"
+      }
+    },
+    {
+      "id": "vocab-n3:2876",
+      "revisionId": "052-vocab-n3-2876",
+      "state": "accepted",
+      "predecessorHash": "0bee7b54306536438c4fb25f849a0641a1aa378019fbf1f6e0aeab72d8638b5b",
+      "predecessorRevisionHash": null,
+      "originalHash": "0bee7b54306536438c4fb25f849a0641a1aa378019fbf1f6e0aeab72d8638b5b",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. マーケティング is now māketingu (ティ→ti), and all long vowels are marked.",
+      "original": {
+        "romaji": "koubai",
+        "examples": [
+          {
+            "japanese": "この購買データをもとに、新しいマーケティング戦略を立てましょう。",
+            "romaji": "Kono koubai deeta o moto ni, atarashii maaketeingu senryaku o tatemashou.",
+            "german": "Lassen Sie uns auf Grundlage dieser Einkaufsdaten eine neue Marketingstrategie entwickeln."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "kōbai",
+        "examples": [
+          {
+            "japanese": "この購買データをもとに、新しいマーケティング戦略を立てましょう。",
+            "romaji": "Kono kōbai dēta o moto ni, atarashii māketingu senryaku o tatemashō.",
+            "german": "Lassen Sie uns auf Grundlage dieser Einkaufsdaten eine neue Marketingstrategie entwickeln."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120490307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "購買 / コウバイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 購買; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "購買",
+              "reading": "こうばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "購買 as \"Einkauf\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1282470; spelling=購買; reading=こうばい",
+          "finding": "JMdict 1282470 購買/こうばい confirms the reading used for the romaji of \"Einkauf\".",
+          "selected": {
+            "sequence": "1282470",
+            "spelling": "購買",
+            "reading": "こうばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "procurement",
+                  "purchase",
+                  "buying"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "school store",
+                  "co-op",
+                  "school canteen",
+                  "tuck shop"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "マーケティング is now māketingu (ティ→ti), and all long vowels are marked."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Einkauf\" checked against the headword and JMdict 1282470; no issue found.",
+        "japanese": "この購買データをもとに、新しいマーケティング戦略を立てましょう。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kōbai\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Lassen Sie uns auf Grundlage dieser Einkaufsdaten eine neue Marketingstrategie entwickeln."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@120490307 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120490307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "購買 / コウバイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 購買; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "購買",
+              "reading": "こうばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "購買 as \"Einkauf\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. マーケティング is now māketingu (ティ→ti), and all long vowels are marked. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "06311ac90a453c9127045793edd2c13cc483223a4e4beaf1391b012a3fda89c9",
+        "approvalHash": "0794e990f4f7e177c17de2ddd35fc82c2e768519f05ed01a0459b531b7211624"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "kōbai, dēta, māketingu (ティ = ti), tatemashō correct; pitch 0 = exact 普通名詞 row 購買 aType 0.",
+        "contentHash": "06311ac90a453c9127045793edd2c13cc483223a4e4beaf1391b012a3fda89c9",
+        "approvalHash": "0794e990f4f7e177c17de2ddd35fc82c2e768519f05ed01a0459b531b7211624"
+      }
+    },
+    {
+      "id": "vocab-n3:2893",
+      "revisionId": "052-vocab-n3-2893",
+      "state": "accepted",
+      "predecessorHash": "ce504686b00dbf4f1c27f4e9dec8296ee9e04bcf2c92a0459400028e439d7bc0",
+      "predecessorRevisionHash": null,
+      "originalHash": "ce504686b00dbf4f1c27f4e9dec8296ee9e04bcf2c92a0459400028e439d7bc0",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 一人ぐらし was misread as ichiningurashi; it is hitorigurashi. Also marked fūdo.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "20代のころに一人ぐらしを始めて、ジャンクフードを食べる快楽に目覚めてしまったんです。",
+            "romaji": "20dai no koro ni ichiningurashi o hajimete, janku fuudo o taberu kairaku ni mezamete shimatta n desu.",
+            "german": "Als ich in meinen Zwanzigern allein zu leben begann, entdeckte ich das Vergnügen, Junkfood zu essen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "20代のころに一人ぐらしを始めて、ジャンクフードを食べる快楽に目覚めてしまったんです。",
+            "romaji": "20dai no koro ni hitorigurashi o hajimete, janku fūdo o taberu kairaku ni mezamete shimatta n desu.",
+            "german": "Als ich in meinen Zwanzigern allein zu leben begann, entdeckte ich das Vergnügen, Junkfood zu essen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86699023",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "快楽 / カイラク; 名詞/普通名詞/一般/*; *; *; lemma 快楽; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "快楽",
+              "reading": "かいらく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "快楽 as \"Vergnügen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1199980; spelling=快楽; reading=かいらく",
+          "finding": "JMdict 1199980 快楽/かいらく confirms the reading used for the romaji of \"Vergnügen\".",
+          "selected": {
+            "sequence": "1199980",
+            "spelling": "快楽",
+            "reading": "かいらく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pleasure"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "一人ぐらし was misread as ichiningurashi; it is hitorigurashi. Also marked fūdo."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Vergnügen\" checked against the headword and JMdict 1199980; open issue noted: Wortart \"Adjektiv\" passt nicht; es ist ein Nomen.",
+        "japanese": "20代のころに一人ぐらしを始めて、ジャンクフードを食べる快楽に目覚めてしまったんです。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kairaku\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Als ich in meinen Zwanzigern allein zu leben begann, entdeckte ich das Vergnügen, Junkfood zu essen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@86699023 attests 0,1. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86699023",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "快楽 / カイラク; 名詞/普通名詞/一般/*; *; *; lemma 快楽; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "快楽",
+              "reading": "かいらく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "快楽 as \"Vergnügen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 一人ぐらし was misread as ichiningurashi; it is hitorigurashi. Also marked fūdo. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "2de961d9fd2a62ab204e392762c7c1b811d0c076c8ba72c4bfe10e1229f976fb",
+        "approvalHash": "f977882c5fd9b0adc8de01287aa86db3f743e647da5618449f774eaf64cd7076"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "一人ぐらし = hitorigurashi (not ichiningurashi), janku fūdo; pitch 0 within exact row 快楽 aType 0,1.",
+        "contentHash": "2de961d9fd2a62ab204e392762c7c1b811d0c076c8ba72c4bfe10e1229f976fb",
+        "approvalHash": "f977882c5fd9b0adc8de01287aa86db3f743e647da5618449f774eaf64cd7076"
+      }
+    },
+    {
+      "id": "vocab-n3:2905",
+      "revisionId": "052-vocab-n3-2905",
+      "state": "accepted",
+      "predecessorHash": "dfe8ed4b835be99b92d3371ff8d35bdbdec41964cb5ec931828a001271506d66",
+      "predecessorRevisionHash": null,
+      "originalHash": "dfe8ed4b835be99b92d3371ff8d35bdbdec41964cb5ec931828a001271506d66",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. ディナー is now dinā, and kyō is marked. Fixed the ungrammatical German \"ist frittierte Garnelen\".",
+      "original": {
+        "examples": [
+          {
+            "japanese": "我が家の今日のディナーはエビフライです。",
+            "romaji": "Wagaya no kyou no deinaa wa ebi furai desu.",
+            "german": "Das heutige Abendessen bei uns zu Hause ist frittierte Garnelen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "我が家の今日のディナーはエビフライです。",
+            "romaji": "Wagaya no kyō no dinā wa ebi furai desu.",
+            "german": "Bei uns zu Hause gibt es heute zum Abendessen frittierte Garnelen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "ディナー is now dinā, and kyō is marked. Fixed the ungrammatical German \"ist frittierte Garnelen\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization",
+          "translation"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"unser\" checked against the headword; open issue noted: Wortart \"Adjektiv\" passt nicht; 我が is a prenominal (連体詞).",
+        "japanese": "我が家の今日のディナーはエビフライです。 — read in context; examples use the headword.",
+        "romanization": "Headword \"waga\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translation corrected where it was wrong; others checked.",
+        "contexts": [
+          "Bei uns zu Hause gibt es heute zum Abendessen frittierte Garnelen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 我が〜 / わが; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2905; exact written-form/kana lookup 我が〜 / わが",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. ディナー is now dinā, and kyō is marked. Fixed the ungrammatical German \"ist frittierte Garnelen\". Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "f778cacf3450e82960281da84b06b683f2759d172a74581f9793ee82fa033c62",
+        "approvalHash": "5c22afc9b40a2cfcd73a28e40625a32ecabaeda89efd2dac3c2a9f8e5f694890"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Wagaya, kyō, dinā correct; new German \"Bei uns zu Hause gibt es heute zum Abendessen frittierte Garnelen\" fixes the ungrammatical original. No exact row, pitch null.",
+        "contentHash": "f778cacf3450e82960281da84b06b683f2759d172a74581f9793ee82fa033c62",
+        "approvalHash": "5c22afc9b40a2cfcd73a28e40625a32ecabaeda89efd2dac3c2a9f8e5f694890"
+      }
+    },
+    {
+      "id": "vocab-n3:2906",
+      "revisionId": "052-vocab-n3-2906",
+      "state": "accepted",
+      "predecessorHash": "0e03669f376f0ea8dda28531f582618c46ed8374597584c2610434d954353567",
+      "predecessorRevisionHash": null,
+      "originalHash": "0e03669f376f0ea8dda28531f582618c46ed8374597584c2610434d954353567",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Headword hyphen removed (tonkotsurāmen). In the example, 豚骨 was misread as butabone; it is tonkotsu.",
+      "original": {
+        "romaji": "tonkotsura-men",
+        "examples": [
+          {
+            "japanese": "ここは豚骨ラーメンの店です。",
+            "romaji": "Koko wa butabone raamen no mise desu.",
+            "german": "Dies ist ein Tonkotsu-Ramen-Restaurant."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "tonkotsurāmen",
+        "examples": [
+          {
+            "japanese": "ここは豚骨ラーメンの店です。",
+            "romaji": "Koko wa tonkotsu rāmen no mise desu.",
+            "german": "Dies ist ein Tonkotsu-Ramen-Restaurant."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Headword hyphen removed (tonkotsurāmen). In the example, 豚骨 was misread as butabone; it is tonkotsu."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Tonkotsu-Ramen\" checked against the headword; no issue found.",
+        "japanese": "ここは豚骨ラーメンの店です。 — read in context; examples use the headword.",
+        "romanization": "Headword \"tonkotsurāmen\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Dies ist ein Tonkotsu-Ramen-Restaurant."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 豚骨ラーメン / とんこつらーめん; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2906; exact written-form/kana lookup 豚骨ラーメン / とんこつらーめん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Headword hyphen removed (tonkotsurāmen). In the example, 豚骨 was misread as butabone; it is tonkotsu. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "6c99b6591ca149da80811c4a3060cad85a8a19c0cba9ead6b658a16ddaf3b9a1",
+        "approvalHash": "bc045c167a731c05b39986b5c9b0b5cbe79c3c475635c489f88a468691f45337"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Headword tonkotsurāmen (hyphen length mark removed); 豚骨 = tonkotsu, not butabone. No exact row, pitch null.",
+        "contentHash": "6c99b6591ca149da80811c4a3060cad85a8a19c0cba9ead6b658a16ddaf3b9a1",
+        "approvalHash": "bc045c167a731c05b39986b5c9b0b5cbe79c3c475635c489f88a468691f45337"
+      }
+    },
+    {
+      "id": "vocab-n3:2913",
+      "revisionId": "052-vocab-n3-2913",
+      "state": "accepted",
+      "predecessorHash": "cb379b236b44a9bee1e663a0bb016f6b86e3d943c417576f1bc85c57892f43c2",
+      "predecessorRevisionHash": null,
+      "originalHash": "cb379b236b44a9bee1e663a0bb016f6b86e3d943c417576f1bc85c57892f43c2",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 鼻詰まり was written \"hana tsumari\"; it is hanazumari (rendaku).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "鼻詰まりがひどくて眠れません。",
+            "romaji": "Hana tsumari ga hidokute nemuremasen.",
+            "german": "Meine verstopfte Nase ist so schlimm, dass ich nicht schlafen kann."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "鼻詰まりがひどくて眠れません。",
+            "romaji": "Hanazumari ga hidokute nemuremasen.",
+            "german": "Meine verstopfte Nase ist so schlimm, dass ich nicht schlafen kann."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216346768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "鼻詰まり / ハナヅマリ; 名詞/普通名詞/一般/*; *; *; lemma 鼻詰まり; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "鼻詰まり",
+              "reading": "はなづまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鼻詰まり as \"verstopfte Nase\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1486910; spelling=鼻詰まり; reading=はなづまり",
+          "finding": "JMdict 1486910 鼻詰まり/はなづまり confirms the reading used for the romaji of \"verstopfte Nase\".",
+          "selected": {
+            "sequence": "1486910",
+            "spelling": "鼻詰まり",
+            "reading": "はなづまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nasal congestion",
+                  "stuffy nose",
+                  "blocked nose"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "鼻詰まり was written \"hana tsumari\"; it is hanazumari (rendaku)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"verstopfte Nase\" checked against the headword and JMdict 1486910; no issue found.",
+        "japanese": "鼻詰まりがひどくて眠れません。 — read in context; examples use the headword.",
+        "romanization": "Headword \"hanazumari\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Meine verstopfte Nase ist so schlimm, dass ich nicht schlafen kann."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@216346768 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216346768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "鼻詰まり / ハナヅマリ; 名詞/普通名詞/一般/*; *; *; lemma 鼻詰まり; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "鼻詰まり",
+              "reading": "はなづまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鼻詰まり as \"verstopfte Nase\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 鼻詰まり was written \"hana tsumari\"; it is hanazumari (rendaku). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "90873a7d15d91a6b73e517517d3a1cac80745018a170d2c196726898098d2e36",
+        "approvalHash": "9769254c854ed1d6cf41761a06be4ad771e1972b6dbe23ac97dd6eec02d21c42"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "hanazumari with rendaku matches ハナヅマリ; pitch 0 = exact row 鼻詰まり aType 0.",
+        "contentHash": "90873a7d15d91a6b73e517517d3a1cac80745018a170d2c196726898098d2e36",
+        "approvalHash": "9769254c854ed1d6cf41761a06be4ad771e1972b6dbe23ac97dd6eec02d21c42"
+      }
+    },
+    {
+      "id": "vocab-n3:2916",
+      "revisionId": "052-vocab-n3-2916",
+      "state": "accepted",
+      "predecessorHash": "f05db67d6f239ca2eca61154622e80bf4d0963fb8557cdecfcfc95f563211601",
+      "predecessorRevisionHash": null,
+      "originalHash": "f05db67d6f239ca2eca61154622e80bf4d0963fb8557cdecfcfc95f563211601",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 雄犬 was misread as yuuken; it is osuinu.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "その雄犬は子犬のころから元気いっぱいだった。",
+            "romaji": "Sono yuuken wa koinu no koro kara genkiippai datta.",
+            "german": "Dieser Rüde war schon als Welpe voller Energie."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "その雄犬は子犬のころから元気いっぱいだった。",
+            "romaji": "Sono osuinu wa koinu no koro kara genki ippai datta.",
+            "german": "Dieser Rüde war schon als Welpe voller Energie."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@78504742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "雄犬 / オスイヌ; 名詞/普通名詞/一般/*; *; *; lemma 雄犬; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "雄犬",
+              "reading": "おすいぬ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雄犬 as \"Rüde\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1659400; spelling=雄犬; reading=おすいぬ",
+          "finding": "JMdict 1659400 雄犬/おすいぬ confirms the reading used for the romaji of \"Rüde\".",
+          "selected": {
+            "sequence": "1659400",
+            "spelling": "雄犬",
+            "reading": "おすいぬ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "male dog"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The headword 雄犬 was misread as yuuken; it is osuinu."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Rüde\" checked against the headword and JMdict 1659400; no issue found.",
+        "japanese": "その雄犬は子犬のころから元気いっぱいだった。 — read in context; examples use the headword.",
+        "romanization": "Headword \"osuinu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Dieser Rüde war schon als Welpe voller Energie."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@78504742 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@78504742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "雄犬 / オスイヌ; 名詞/普通名詞/一般/*; *; *; lemma 雄犬; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "雄犬",
+              "reading": "おすいぬ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "雄犬 as \"Rüde\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 雄犬 was misread as yuuken; it is osuinu. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "75508fe0c89f711db074f606cfbc776c3bdb5f4b698bb6b856c183278c026147",
+        "approvalHash": "2bb86fda8b7893fa1a1e202e7d35821f640e5e779f927896152e749aa6754c6b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "雄犬 = osuinu (not yuuken), genki ippai; pitch 0 = exact row 雄犬/オスイヌ aType 0.",
+        "contentHash": "75508fe0c89f711db074f606cfbc776c3bdb5f4b698bb6b856c183278c026147",
+        "approvalHash": "2bb86fda8b7893fa1a1e202e7d35821f640e5e779f927896152e749aa6754c6b"
+      }
+    },
+    {
+      "id": "vocab-n3:2922",
+      "revisionId": "052-vocab-n3-2922",
+      "state": "accepted",
+      "predecessorHash": "2d645d296404e51cb569f13913ab088b7998501f1e64638b67679de8d673cda7",
+      "predecessorRevisionHash": null,
+      "originalHash": "2d645d296404e51cb569f13913ab088b7998501f1e64638b67679de8d673cda7",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. ファイル was written \"fuairu\"; it is fairu.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "どれでもいいから、既存のファイルを開いてみてください。",
+            "romaji": "Dore demo ii kara, kison no fuairu o hiraite mite kudasai.",
+            "german": "Egal welche, bitte öffnen Sie eine bestehende Datei."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "どれでもいいから、既存のファイルを開いてみてください。",
+            "romaji": "Dore demo ii kara, kison no fairu o hiraite mite kudasai.",
+            "german": "Egal welche, bitte öffnen Sie eine bestehende Datei."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104302198",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "既存 / キソン; 名詞/普通名詞/サ変可能/*; *; *; lemma 既存; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "既存",
+              "reading": "きそん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "既存 as \"bestehend\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220450; spelling=既存; reading=きそん",
+          "finding": "JMdict 1220450 既存/きそん confirms the reading used for the romaji of \"bestehend\".",
+          "selected": {
+            "sequence": "1220450",
+            "spelling": "既存",
+            "reading": "きそん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "existing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "ファイル was written \"fuairu\"; it is fairu."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"bestehend\" checked against the headword and JMdict 1220450; no issue found.",
+        "japanese": "どれでもいいから、既存のファイルを開いてみてください。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kison\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Egal welche, bitte öffnen Sie eine bestehende Datei."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@104302198 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104302198",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "既存 / キソン; 名詞/普通名詞/サ変可能/*; *; *; lemma 既存; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "既存",
+              "reading": "きそん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "既存 as \"bestehend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. ファイル was written \"fuairu\"; it is fairu. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "25dc5767212686e6550148b713798c5117320f4f443e48c2d587ae780097ac2e",
+        "approvalHash": "7570b1430cbcf40ea21eb0534943503f315d5d4d19347ba4b2271a9fea266a41"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "ファイル = fairu (not fuairu); pitch 0 = exact row 既存/キソン aType 0.",
+        "contentHash": "25dc5767212686e6550148b713798c5117320f4f443e48c2d587ae780097ac2e",
+        "approvalHash": "7570b1430cbcf40ea21eb0534943503f315d5d4d19347ba4b2271a9fea266a41"
+      }
+    },
+    {
+      "id": "vocab-n3:2934",
+      "revisionId": "052-vocab-n3-2934",
+      "state": "accepted",
+      "predecessorHash": "88be5cc677fbf7e7d18f24788e01fe5d53721faee787029f52a688cf103a5761",
+      "predecessorRevisionHash": null,
+      "originalHash": "88be5cc677fbf7e7d18f24788e01fe5d53721faee787029f52a688cf103a5761",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The letter A stays uppercase, and すごいじゃん is split into sugoi jan.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "幾何学のテストでAプラス取ったの？すごいじゃん、よくやったね！",
+            "romaji": "Kikagaku no tesuto de a purasu totta no? Sugoijan, yoku yatta ne!",
+            "german": "Du hast eine Eins plus im Geometrietest bekommen? Das ist toll, gut gemacht!"
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "幾何学のテストでAプラス取ったの？すごいじゃん、よくやったね！",
+            "romaji": "Kikagaku no tesuto de A purasu totta no? Sugoi jan, yoku yatta ne!",
+            "german": "Du hast eine Eins plus im Geometrietest bekommen? Das ist toll, gut gemacht!"
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220020; spelling=幾何学; reading=きかがく",
+          "finding": "JMdict 1220020 幾何学/きかがく confirms the reading used for the romaji of \"Geometrie\".",
+          "selected": {
+            "sequence": "1220020",
+            "spelling": "幾何学",
+            "reading": "きかがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "geometry"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The letter A stays uppercase, and すごいじゃん is split into sugoi jan."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Geometrie\" checked against the headword and JMdict 1220020; no issue found.",
+        "japanese": "幾何学のテストでAプラス取ったの？すごいじゃん、よくやったね！ — read in context; examples use the headword.",
+        "romanization": "Headword \"kikagaku\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Du hast eine Eins plus im Geometrietest bekommen? Das ist toll, gut gemacht!"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 幾何学 / きかがく; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2934; exact written-form/kana lookup 幾何学 / きかがく",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The letter A stays uppercase, and すごいじゃん is split into sugoi jan. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "09f700fe1afd45e1989a802d1cbade2771fe0c9ecf83ff15e9fba176e9e75e4f",
+        "approvalHash": "2cfa69b6ffb287d025a6859a3a3c5ae71efe52ee0fc58d55ed2ebda17e9c921b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "A purasu keeps the Latin A, Sugoi jan split; no exact row for 幾何学, pitch null.",
+        "contentHash": "09f700fe1afd45e1989a802d1cbade2771fe0c9ecf83ff15e9fba176e9e75e4f",
+        "approvalHash": "2cfa69b6ffb287d025a6859a3a3c5ae71efe52ee0fc58d55ed2ebda17e9c921b"
+      }
+    },
+    {
+      "id": "vocab-n3:2960",
+      "revisionId": "052-vocab-n3-2960",
+      "state": "accepted",
+      "predecessorHash": "e927607283f23f57063bf5ea629e80caa24ada672807ed3aa0ef3c716cc20738",
+      "predecessorRevisionHash": null,
+      "originalHash": "e927607283f23f57063bf5ea629e80caa24ada672807ed3aa0ef3c716cc20738",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. In の間で, 間 is aida (not ma). モルディブ is now Morudibu, and the long vowels are marked.",
+      "original": {
+        "romaji": "fuyuu",
+        "examples": [
+          {
+            "japanese": "モルディブは富裕層の間で人気の高いリゾート地です。",
+            "romaji": "Morudeibu wa fuyuusou no ma de ninki no takai rizoutochi desu.",
+            "german": "Die Malediven sind ein bei Wohlhabenden sehr beliebtes Urlaubsziel."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "fuyū",
+        "examples": [
+          {
+            "japanese": "モルディブは富裕層の間で人気の高いリゾート地です。",
+            "romaji": "Morudibu wa fuyūsō no aida de ninki no takai rizōtochi desu.",
+            "german": "Die Malediven sind ein bei Wohlhabenden sehr beliebtes Urlaubsziel."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235671311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "富裕 / フユウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 富裕; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "富裕",
+              "reading": "ふゆう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "富裕 as \"wohlhabend\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1496820; spelling=富裕; reading=ふゆう",
+          "finding": "JMdict 1496820 富裕/ふゆう confirms the reading used for the romaji of \"wohlhabend\".",
+          "selected": {
+            "sequence": "1496820",
+            "spelling": "富裕",
+            "reading": "ふゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wealthy",
+                  "rich",
+                  "affluent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "In の間で, 間 is aida (not ma). モルディブ is now Morudibu, and the long vowels are marked."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"wohlhabend\" checked against the headword and JMdict 1496820; no issue found.",
+        "japanese": "モルディブは富裕層の間で人気の高いリゾート地です。 — read in context; examples use the headword.",
+        "romanization": "Headword \"fuyū\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Malediven sind ein bei Wohlhabenden sehr beliebtes Urlaubsziel."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@235671311 attests 0,1. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235671311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "富裕 / フユウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 富裕; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "富裕",
+              "reading": "ふゆう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "富裕 as \"wohlhabend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. In の間で, 間 is aida (not ma). モルディブ is now Morudibu, and the long vowels are marked. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "c69c2b7f199a4e972950a322e02de9d0c6bf671a8574a18d528ec30d9a33326b",
+        "approvalHash": "fc6f0ebe2aa218b59881cbd76d95f6c237eea339ba1c7dc266475cb2b15da58f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "の間で = no aida de, Morudibu (ディ = di), fuyūsō, rizōtochi correct; pitch 0 within exact row 富裕 aType 0,1.",
+        "contentHash": "c69c2b7f199a4e972950a322e02de9d0c6bf671a8574a18d528ec30d9a33326b",
+        "approvalHash": "fc6f0ebe2aa218b59881cbd76d95f6c237eea339ba1c7dc266475cb2b15da58f"
+      }
+    },
+    {
+      "id": "vocab-n3:2985",
+      "revisionId": "052-vocab-n3-2985",
+      "state": "accepted",
+      "predecessorHash": "d7baa3beec9b895576ad37437f539d8152662f48cb1c3353bdb534b493397e42",
+      "predecessorRevisionHash": null,
+      "originalHash": "d7baa3beec9b895576ad37437f539d8152662f48cb1c3353bdb534b493397e42",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Replaced the \"yo ~ ku\" stretch mark with yōku, and marked the long vowels.",
+      "original": {
+        "romaji": "binbounin",
+        "examples": [
+          {
+            "japanese": "お前は自分のことを素晴らしいと思っているみたいだけどな、ただの貧乏家族の貧乏人だってことを、よ〜く肝に銘じておくんだな。",
+            "romaji": "Omae wa jibun no koto o subarashii to omotte iru mitai da kedo na, tada no binbou kazoku no binbounin datte koto o, yo ~ ku kimo ni meijite oku n da na.",
+            "german": "Du denkst, du bist so toll, aber merk dir gut, dass du nur ein armer Mensch aus einer armen Familie bist!"
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "binbōnin",
+        "examples": [
+          {
+            "japanese": "お前は自分のことを素晴らしいと思っているみたいだけどな、ただの貧乏家族の貧乏人だってことを、よ〜く肝に銘じておくんだな。",
+            "romaji": "Omae wa jibun no koto o subarashii to omotte iru mitai da kedo na, tada no binbō kazoku no binbōnin datte koto o, yōku kimo ni meijite oku n da na.",
+            "german": "Du denkst, du bist so toll, aber merk dir gut, dass du nur ein armer Mensch aus einer armen Familie bist!"
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490930; spelling=貧乏人; reading=びんぼうにん",
+          "finding": "JMdict 1490930 貧乏人/びんぼうにん confirms the reading used for the romaji of \"armer Mensch\".",
+          "selected": {
+            "sequence": "1490930",
+            "spelling": "貧乏人",
+            "reading": "びんぼうにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poor person",
+                  "the poor"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Replaced the \"yo ~ ku\" stretch mark with yōku, and marked the long vowels."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"armer Mensch\" checked against the headword and JMdict 1490930; no issue found.",
+        "japanese": "お前は自分のことを素晴らしいと思っているみたいだけどな、ただの貧乏家族の貧乏人だってことを、よ〜く肝に銘じておくんだな。 — read in context; examples use the headword.",
+        "romanization": "Headword \"binbōnin\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Du denkst, du bist so toll, aber merk dir gut, dass du nur ein armer Mensch aus einer armen Familie bist!"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 貧乏人 / びんぼうにん; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:2985; exact written-form/kana lookup 貧乏人 / びんぼうにん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Replaced the \"yo ~ ku\" stretch mark with yōku, and marked the long vowels. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "a4b38dc00d2d3b5510a219bfadef89cfac7ee2edc0afdfc4a5e4c226dacabdbb",
+        "approvalHash": "92e082f8bac345417dd63475fed35eb3b66b44b891f85c87ac0616b56706cc66"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "よ〜く = yōku, binbō kazoku no binbōnin, kimo ni meijite correct; no exact row, pitch null.",
+        "contentHash": "a4b38dc00d2d3b5510a219bfadef89cfac7ee2edc0afdfc4a5e4c226dacabdbb",
+        "approvalHash": "92e082f8bac345417dd63475fed35eb3b66b44b891f85c87ac0616b56706cc66"
+      }
+    },
+    {
+      "id": "vocab-n3:2998",
+      "revisionId": "052-vocab-n3-2998",
+      "state": "accepted",
+      "predecessorHash": "547d862b577abfa9b56b6ea74dfa8254a74d3ac47f38fbb78330c4acc2d1617a",
+      "predecessorRevisionHash": null,
+      "originalHash": "547d862b577abfa9b56b6ea74dfa8254a74d3ac47f38fbb78330c4acc2d1617a",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword is joined as sakuraniku, イカした is ikashita, and パーティー is pātī.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "お前も一緒に桜肉パーティーに来いよ。イカしたパーティーになるぜ。",
+            "romaji": "Omae mo issho ni sakura niku paateii ni koi yo. Ika shita paateii ni naru ze.",
+            "german": "Komm doch mit zur Pferdefleisch-Party. Das wird eine coole Party."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "お前も一緒に桜肉パーティーに来いよ。イカしたパーティーになるぜ。",
+            "romaji": "Omae mo issho ni sakuraniku pātī ni koi yo. Ikashita pātī ni naru ze.",
+            "german": "Komm doch mit zur Pferdefleisch-Party. Das wird eine coole Party."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128675311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "桜肉 / サクラニク; 名詞/普通名詞/一般/*; *; *; lemma 桜肉; aType 3. Existing 0 unattested by the exact row; corrected to 3.",
+            "match": {
+              "word": "桜肉",
+              "reading": "さくらにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "桜肉 as \"Pferdefleisch\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1298490; spelling=桜肉; reading=さくらにく",
+          "finding": "JMdict 1298490 桜肉/さくらにく confirms the reading used for the romaji of \"Pferdefleisch\".",
+          "selected": {
+            "sequence": "1298490",
+            "spelling": "桜肉",
+            "reading": "さくらにく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "horse meat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The headword is joined as sakuraniku, イカした is ikashita, and パーティー is pātī."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Pferdefleisch\" checked against the headword and JMdict 1298490; no issue found.",
+        "japanese": "お前も一緒に桜肉パーティーに来いよ。イカしたパーティーになるぜ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"sakuraniku\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Komm doch mit zur Pferdefleisch-Party. Das wird eine coole Party."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@128675311 attests 3. Existing 0 unattested by the exact row; corrected to 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128675311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "桜肉 / サクラニク; 名詞/普通名詞/一般/*; *; *; lemma 桜肉; aType 3. Existing 0 unattested by the exact row; corrected to 3.",
+            "match": {
+              "word": "桜肉",
+              "reading": "さくらにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "桜肉 as \"Pferdefleisch\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword is joined as sakuraniku, イカした is ikashita, and パーティー is pātī. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d92978d39cde52dfac9b280527b42c353222a539ec38442e5363e5fe63a306e2",
+        "approvalHash": "2d0628a566e3baf642cf0352d7a769e3102a94c16f719872c2421111ca1e7b86"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "sakuraniku, pātī, Ikashita correct; pitch 3 = exact row 桜肉/サクラニク aType 3.",
+        "contentHash": "d92978d39cde52dfac9b280527b42c353222a539ec38442e5363e5fe63a306e2",
+        "approvalHash": "2d0628a566e3baf642cf0352d7a769e3102a94c16f719872c2421111ca1e7b86"
+      }
+    },
+    {
+      "id": "vocab-n3:2999",
+      "revisionId": "052-vocab-n3-2999",
+      "state": "accepted",
+      "predecessorHash": "055a09606cd2234696ad03c062047ce53be4e75b3b8a51862e83495f179ae917",
+      "predecessorRevisionHash": null,
+      "originalHash": "055a09606cd2234696ad03c062047ce53be4e75b3b8a51862e83495f179ae917",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Two misreadings fixed: 一丁前 is itchomae (not \"ichichou mae\") and 桜色 is sakurairo (not \"sakurashoku\"). Also タキシード is takishīdo and 着てる is kiteru.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "自分が二歳か三歳の頃に、一丁前に桜色のタキシードを着てる写真を見ました。",
+            "romaji": "Jibun ga nisai ka sansai no koro ni, ichichou mae ni sakurashoku no takishiido o ki teru shashin o mimashita.",
+            "german": "Ich habe ein Foto von mir gesehen, als ich zwei oder drei war, auf dem ich einen rosafarbenen Smoking trug."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "自分が二歳か三歳の頃に、一丁前に桜色のタキシードを着てる写真を見ました。",
+            "romaji": "Jibun ga nisai ka sansai no koro ni, itchomae ni sakurairo no takishīdo o kiteru shashin o mimashita.",
+            "german": "Ich habe ein Foto von mir gesehen, als ich zwei oder drei war, auf dem ich einen rosafarbenen Smoking trug."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128647352",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "桜色 / サクライロ; 名詞/普通名詞/一般/*; *; *; lemma 桜色; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "桜色",
+              "reading": "さくらいろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "桜色 as \"Rosa\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1298470; spelling=桜色; reading=さくらいろ",
+          "finding": "JMdict 1298470 桜色/さくらいろ confirms the reading used for the romaji of \"Rosa\".",
+          "selected": {
+            "sequence": "1298470",
+            "spelling": "桜色",
+            "reading": "さくらいろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "light pink",
+                  "pale pink",
+                  "cherry blossom pink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Two misreadings fixed: 一丁前 is itchomae (not \"ichichou mae\") and 桜色 is sakurairo (not \"sakurashoku\"). Also タキシード is takishīdo and 着てる is kiteru."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Rosa\" checked against the headword and JMdict 1298470; no issue found.",
+        "japanese": "自分が二歳か三歳の頃に、一丁前に桜色のタキシードを着てる写真を見ました。 — read in context; examples use the headword.",
+        "romanization": "Headword \"sakurairo\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe ein Foto von mir gesehen, als ich zwei oder drei war, auf dem ich einen rosafarbenen Smoking trug."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@128647352 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128647352",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "桜色 / サクライロ; 名詞/普通名詞/一般/*; *; *; lemma 桜色; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "桜色",
+              "reading": "さくらいろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "桜色 as \"Rosa\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Two misreadings fixed: 一丁前 is itchomae (not \"ichichou mae\") and 桜色 is sakurairo (not \"sakurashoku\"). Also タキシード is takishīdo and 着てる is kiteru. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "507bfb343da1a2aae2e92883e5d3fd01d24cd0924f7814b6489d540e1935eae7",
+        "approvalHash": "cb145cfeefaaa7f0bfaa570235a02a7b1ec790023c21da340b9e51a740a82da8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "一丁前 = itchomae, 桜色 = sakurairo, takishīdo, kiteru all correct; pitch 0 = exact row 桜色 aType 0.",
+        "contentHash": "507bfb343da1a2aae2e92883e5d3fd01d24cd0924f7814b6489d540e1935eae7",
+        "approvalHash": "cb145cfeefaaa7f0bfaa570235a02a7b1ec790023c21da340b9e51a740a82da8"
+      }
+    },
+    {
+      "id": "vocab-n3:3012",
+      "revisionId": "052-vocab-n3-3012",
+      "state": "accepted",
+      "predecessorHash": "0d8aa13e01f7bd7ed1fecf576c13b959bb8ed6868495e1c046e2080584fa1ead",
+      "predecessorRevisionHash": null,
+      "originalHash": "0d8aa13e01f7bd7ed1fecf576c13b959bb8ed6868495e1c046e2080584fa1ead",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. \"naidaro u\" was garbled; it is now nai darō. Party names are capitalized, and 「」 is rendered as quotes.",
+      "original": {
+        "romaji": "jimintou",
+        "examples": [
+          {
+            "japanese": "我らが自民党が今年は熱いな。もう誰も我々のことを「愚民党」なんて呼ぶことはないだろう。",
+            "romaji": "Warera ga jimintou ga kotoshi wa atsui na. Mou dare mo wareware no koto o gumin tou nante yobu koto wa naidaro u.",
+            "german": "Unsere Liberaldemokratische Partei ist dieses Jahr richtig angesagt. Niemand würde uns mehr die Dummenpartei nennen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "romaji": "jimintō",
+        "examples": [
+          {
+            "japanese": "我らが自民党が今年は熱いな。もう誰も我々のことを「愚民党」なんて呼ぶことはないだろう。",
+            "romaji": "Warera ga Jimintō ga kotoshi wa atsui na. Mō dare mo wareware no koto o \"Gumintō\" nante yobu koto wa nai darō.",
+            "german": "Unsere Liberaldemokratische Partei ist dieses Jahr richtig angesagt. Niemand würde uns mehr die Dummenpartei nennen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1608020; spelling=自民党; reading=じみんとう",
+          "finding": "JMdict 1608020 自民党/じみんとう confirms the reading used for the romaji of \"Liberaldemokratische Partei\".",
+          "selected": {
+            "sequence": "1608020",
+            "spelling": "自民党",
+            "reading": "じみんとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "Liberal Democratic Party",
+                  "LDP"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "\"naidaro u\" was garbled; it is now nai darō. Party names are capitalized, and 「」 is rendered as quotes."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Liberaldemokratische Partei\" checked against the headword and JMdict 1608020; no issue found.",
+        "japanese": "我らが自民党が今年は熱いな。もう誰も我々のことを「愚民党」なんて呼ぶことはないだろう。 — read in context; examples use the headword.",
+        "romanization": "Headword \"jimintō\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Unsere Liberaldemokratische Partei ist dieses Jahr richtig angesagt. Niemand würde uns mehr die Dummenpartei nennen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 自民党 / じみんとう; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for vocab-n3:3012; exact written-form/kana lookup 自民党 / じみんとう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. \"naidaro u\" was garbled; it is now nai darō. Party names are capitalized, and 「」 is rendered as quotes. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "8f5a847d9546274e5384b05f87aa4d3554f353b5808584d3e83d863128def896",
+        "approvalHash": "5285872960c7a8dab1cf680e2cd3ebb37f816b1921e68e835dda3435e47ae1b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "nai darō (was naidaro u), Jimintō/Gumintō with quotes, Mō correct; no exact row, pitch null.",
+        "contentHash": "8f5a847d9546274e5384b05f87aa4d3554f353b5808584d3e83d863128def896",
+        "approvalHash": "5285872960c7a8dab1cf680e2cd3ebb37f816b1921e68e835dda3435e47ae1b9"
+      }
+    },
+    {
+      "id": "vocab-n3:3034",
+      "revisionId": "052-vocab-n3-3034",
+      "state": "accepted",
+      "predecessorHash": "d6491b93a778df2854bcd3c7913d0945bad197b95371af7f07b2fd7d721731fc",
+      "predecessorRevisionHash": null,
+      "originalHash": "d6491b93a778df2854bcd3c7913d0945bad197b95371af7f07b2fd7d721731fc",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed the fyiito garble (フィート is fīto) and the \"6. 5\" spacing. Also marked the long vowels and joined sureba.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "どうすればNBA選手のように身長が6.5フィートを越すのでしょうか。今、6フィートなのですが、6.5を越したいのです。",
+            "romaji": "Dou sure ba nba senshu no you ni shinchou ga 6. 5fyiito o kosu no deshou ka. Ima, 6fyiito na no desu ga, 6. 5 o koshitai no desu.",
+            "german": "Wie kann ich wie NBA-Spieler größer als 1,95 m werden? Ich bin jetzt 1,83 m und möchte 1,95 m überschreiten."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "どうすればNBA選手のように身長が6.5フィートを越すのでしょうか。今、6フィートなのですが、6.5を越したいのです。",
+            "romaji": "Dō sureba NBA senshu no yō ni shinchō ga 6.5 fīto o kosu no deshō ka. Ima, 6 fīto na no desu ga, 6.5 o koshitai no desu.",
+            "german": "Wie kann ich wie NBA-Spieler größer als 1,95 m werden? Ich bin jetzt 1,83 m und möchte 1,95 m überschreiten."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@122605646",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "越す / コス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 越す; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "越す",
+              "reading": "こす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "越す as \"überschreiten\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1175300; spelling=越す; reading=こす",
+          "finding": "JMdict 1175300 越す/こす confirms the reading used for the romaji of \"überschreiten\".",
+          "selected": {
+            "sequence": "1175300",
+            "spelling": "越す",
+            "reading": "こす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to cross over (e.g. mountain)",
+                  "to go across"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get over (e.g. hardship)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Fixed the fyiito garble (フィート is fīto) and the \"6. 5\" spacing. Also marked the long vowels and joined sureba."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"überschreiten\" checked against the headword and JMdict 1175300; open issue noted: For exceeding a number, 超す is the standard kanji. 越す is for crossing a physical boundary, so 身長が6.5フィートを越す is non-standard.",
+        "japanese": "どうすればNBA選手のように身長が6.5フィートを越すのでしょうか。今、6フィートなのですが、6.5を越したいのです。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kosu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Wie kann ich wie NBA-Spieler größer als 1,95 m werden? Ich bin jetzt 1,83 m und möchte 1,95 m überschreiten."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@122605646 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@122605646",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "越す / コス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 越す; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "越す",
+              "reading": "こす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "越す as \"überschreiten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Fixed the fyiito garble (フィート is fīto) and the \"6. 5\" spacing. Also marked the long vowels and joined sureba. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "05bed5a7d8b801ddc16346283b431afbb1532c6725006201244267e578f4da78",
+        "approvalHash": "af58368dc2c3ab12fe82d877c394050a1a70653bd7dc1d47b98335791149150c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Dō sureba, 6.5 fīto (フィート = fīto), shinchō, deshō correct; pitch 0 = exact verb row 越す/コス aType 0.",
+        "contentHash": "05bed5a7d8b801ddc16346283b431afbb1532c6725006201244267e578f4da78",
+        "approvalHash": "af58368dc2c3ab12fe82d877c394050a1a70653bd7dc1d47b98335791149150c"
+      }
+    },
+    {
+      "id": "vocab-n3:3091",
+      "revisionId": "052-vocab-n3-3091",
+      "state": "accepted",
+      "predecessorHash": "5f1b6f25cbf013a4fe004328874bd4be5b9ef923a70169b5875b897582be32bc",
+      "predecessorRevisionHash": null,
+      "originalHash": "5f1b6f25cbf013a4fe004328874bd4be5b9ef923a70169b5875b897582be32bc",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. トーフグ is now Tōfugu and オフィス is ofisu. 10人 was read \"10 hito\"; it is 10nin.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "諸君、トーフグのオフィスで独身の 10 人がみんな集まるのってこれがたぶん最後だってこと、気がついていたかい？",
+            "romaji": "Shokun, tou fugu no ofyisu de dokushin no 10 hito ga minna atsumaru no tte kore ga tabun saigo datte koto, kigatsuite ita kai?",
+            "german": "Freunde, ist euch bewusst, dass dies wahrscheinlich das letzte Mal ist, dass wir alle hier im Tofugu-Büro als zehn Singles zusammen sind?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "諸君、トーフグのオフィスで独身の 10 人がみんな集まるのってこれがたぶん最後だってこと、気がついていたかい？",
+            "romaji": "Shokun, Tōfugu no ofisu de dokushin no 10nin ga minna atsumaru no tte kore ga tabun saigo datte koto, ki ga tsuite ita kai?",
+            "german": "Freunde, ist euch bewusst, dass dies wahrscheinlich das letzte Mal ist, dass wir alle hier im Tofugu-Büro als zehn Singles zusammen sind?"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141372401",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "諸君 / ショクン; 名詞/普通名詞/一般/*; *; *; lemma 諸君; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "諸君",
+              "reading": "しょくん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "諸君 as \"meine Damen und Herren\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1344230; spelling=諸君; reading=しょくん",
+          "finding": "JMdict 1344230 諸君/しょくん confirms the reading used for the romaji of \"meine Damen und Herren\".",
+          "selected": {
+            "sequence": "1344230",
+            "spelling": "諸君",
+            "reading": "しょくん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "you (people)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gentlemen",
+                  "ladies and gentlemen",
+                  "my friends",
+                  "everyone"
+                ],
+                "notes": [
+                  "making appeal, etc."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "トーフグ is now Tōfugu and オフィス is ofisu. 10人 was read \"10 hito\"; it is 10nin."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"meine Damen und Herren\" checked against the headword and JMdict 1344230; no issue found.",
+        "japanese": "諸君、トーフグのオフィスで独身の 10 人がみんな集まるのってこれがたぶん最後だってこと、気がついていたかい？ — read in context; examples use the headword.",
+        "romanization": "Headword \"shokun\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Freunde, ist euch bewusst, dass dies wahrscheinlich das letzte Mal ist, dass wir alle hier im Tofugu-Büro als zehn Singles zusammen sind?"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@141372401 attests 1. Existing 0 unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141372401",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "諸君 / ショクン; 名詞/普通名詞/一般/*; *; *; lemma 諸君; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "諸君",
+              "reading": "しょくん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "諸君 as \"meine Damen und Herren\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. トーフグ is now Tōfugu and オフィス is ofisu. 10人 was read \"10 hito\"; it is 10nin. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "40f8468e3f6861023e8275ca592a6c961b4b1c375636a95110fdc5ce6221a28a",
+        "approvalHash": "7786d7814324c5ba98af89028d5b5b635a2c9cfc48b27bbd90f6cebff105e3c1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "Tōfugu, ofisu, 10人 = 10nin, ki ga tsuite correct; pitch 1 = exact row 諸君/ショクン aType 1.",
+        "contentHash": "40f8468e3f6861023e8275ca592a6c961b4b1c375636a95110fdc5ce6221a28a",
+        "approvalHash": "7786d7814324c5ba98af89028d5b5b635a2c9cfc48b27bbd90f6cebff105e3c1"
+      }
+    },
+    {
+      "id": "vocab-n3:3095",
+      "revisionId": "052-vocab-n3-3095",
+      "state": "accepted",
+      "predecessorHash": "c1f1dca85ebae21ff174b387f11e50c9a104c17e19a78ba8e2ff267baa299310",
+      "predecessorRevisionHash": null,
+      "originalHash": "c1f1dca85ebae21ff174b387f11e50c9a104c17e19a78ba8e2ff267baa299310",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The Latin letters CEO were romanized as \"keo\"; they are kept as CEO.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "23歳の新入社員は82歳のCEOと結婚して、一緒に仕事をする人全員を驚かした。",
+            "romaji": "23sai no shinnyuu shain wa 82sai no keo to kekkon shite, issho ni shigoto o suru hito zen'in o odorokashita.",
+            "german": "Der 23-jährige Neuling überraschte alle Kollegen, indem er die 82-jährige Geschäftsführerin heiratete."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "23歳の新入社員は82歳のCEOと結婚して、一緒に仕事をする人全員を驚かした。",
+            "romaji": "23sai no shinnyū shain wa 82sai no CEO to kekkon shite, issho ni shigoto o suru hito zen'in o odorokashita.",
+            "german": "Der 23-jährige Neuling überraschte alle Kollegen, indem er die 82-jährige Geschäftsführerin heiratete."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@80765529",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "驚かす / オドロカス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 驚かす; aType 4. Existing pitch 4 attested by the exact row.",
+            "match": {
+              "word": "驚かす",
+              "reading": "おどろかす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "驚かす as \"überraschen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1238650; spelling=驚かす; reading=おどろかす",
+          "finding": "JMdict 1238650 驚かす/おどろかす confirms the reading used for the romaji of \"überraschen\".",
+          "selected": {
+            "sequence": "1238650",
+            "spelling": "驚かす",
+            "reading": "おどろかす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to surprise",
+                  "to frighten",
+                  "to create a stir"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The Latin letters CEO were romanized as \"keo\"; they are kept as CEO."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"überraschen\" checked against the headword and JMdict 1238650; no issue found.",
+        "japanese": "23歳の新入社員は82歳のCEOと結婚して、一緒に仕事をする人全員を驚かした。 — read in context; examples use the headword.",
+        "romanization": "Headword \"odorokasu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Der 23-jährige Neuling überraschte alle Kollegen, indem er die 82-jährige Geschäftsführerin heiratete."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@80765529 attests 4. Existing pitch 4 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@80765529",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "驚かす / オドロカス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 驚かす; aType 4. Existing pitch 4 attested by the exact row.",
+            "match": {
+              "word": "驚かす",
+              "reading": "おどろかす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "驚かす as \"überraschen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The Latin letters CEO were romanized as \"keo\"; they are kept as CEO. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "b4d5a792b790cb2f308a0e47e4ae4e2408c4130ce6ef278575fb5819873f52a4",
+        "approvalHash": "1c98cbefdd16418a577ce9d336b247649aba8205bfadb633ff7a6444f192246a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "CEO kept Latin, shinnyū shain, zen'in correct; pitch 4 = exact verb row 驚かす aType 4.",
+        "contentHash": "b4d5a792b790cb2f308a0e47e4ae4e2408c4130ce6ef278575fb5819873f52a4",
+        "approvalHash": "1c98cbefdd16418a577ce9d336b247649aba8205bfadb633ff7a6444f192246a"
+      }
+    },
+    {
+      "id": "vocab-n3:3105",
+      "revisionId": "052-vocab-n3-3105",
+      "state": "accepted",
+      "predecessorHash": "fcbb7fd32ad1e32e739c9aa372de1e953513b4abe1ace9ea78f5943dec353b53",
+      "predecessorRevisionHash": null,
+      "originalHash": "fcbb7fd32ad1e32e739c9aa372de1e953513b4abe1ace9ea78f5943dec353b53",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 屁 was written \"e\" as if it were the particle へ. It is the noun he.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "あなたは屁の話をしていると思っているんですが、合ってますかね。",
+            "romaji": "Anata wa e no hanashi o shite iru to omotte iru n desu ga, attemasu ka ne.",
+            "german": "Ich nehme an, Sie sprechen über Blähungen, liege ich richtig?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "あなたは屁の話をしていると思っているんですが、合ってますかね。",
+            "romaji": "Anata wa he no hanashi o shite iru to omotte iru n desu ga, attemasu ka ne.",
+            "german": "Ich nehme an, Sie sprechen über Blähungen, liege ich richtig?"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240771830",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "屁 / ヘ; 名詞/普通名詞/一般/*; *; *; lemma 屁; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "屁",
+              "reading": "へ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "屁 as \"Blähung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2856372; spelling=屁; reading=へ",
+          "finding": "JMdict 2856372 屁/へ confirms the reading used for the romaji of \"Blähung\".",
+          "selected": {
+            "sequence": "2856372",
+            "spelling": "屁",
+            "reading": "へ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fart",
+                  "gas",
+                  "wind"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "worthless thing",
+                  "insignificant thing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "屁 was written \"e\" as if it were the particle へ. It is the noun he."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Blähung\" checked against the headword and JMdict 2856372; no issue found.",
+        "japanese": "あなたは屁の話をしていると思っているんですが、合ってますかね。 — read in context; examples use the headword.",
+        "romanization": "Headword \"he\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich nehme an, Sie sprechen über Blähungen, liege ich richtig?"
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@240771830 attests 1. Existing 0 unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240771830",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "屁 / ヘ; 名詞/普通名詞/一般/*; *; *; lemma 屁; aType 1. Existing 0 unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "屁",
+              "reading": "へ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "屁 as \"Blähung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 屁 was written \"e\" as if it were the particle へ. It is the noun he. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "a88067da198fafc0b02afcd598c6a2ee45a92b7a739cfb5333e0b4863be572bb",
+        "approvalHash": "1eb445225dbaa01ef0a7c27d30f1fe6fee5b71033ac6ed22a94ac8dd53db19cc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "屁 = he (not the particle e); pitch 1 = exact row 屁/ヘ aType 1.",
+        "contentHash": "a88067da198fafc0b02afcd598c6a2ee45a92b7a739cfb5333e0b4863be572bb",
+        "approvalHash": "1eb445225dbaa01ef0a7c27d30f1fe6fee5b71033ac6ed22a94ac8dd53db19cc"
+      }
+    },
+    {
+      "id": "vocab-n3:3132",
+      "revisionId": "052-vocab-n3-3132",
+      "state": "accepted",
+      "predecessorHash": "c3aed3a5356a10dad4d13c34c3f6ae3f8e70ff7b92c6528cb7e6c3e5c7d2de34",
+      "predecessorRevisionHash": null,
+      "originalHash": "c3aed3a5356a10dad4d13c34c3f6ae3f8e70ff7b92c6528cb7e6c3e5c7d2de34",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 牛丼 was misread as \"ushi donburi\"; it is gyūdon. Also added the dialogue quotes and marked the long vowels.",
+      "original": {
+        "romaji": "gyuudon",
+        "examples": [
+          {
+            "japanese": "「この牛丼は、私のおごりね。」「わあ、ありがとう。じゃあ、お言葉に甘えます。」",
+            "romaji": "Kono ushi donburi wa, watashi no ogori ne. Waa, arigatou. Jaa, o kotoba ni amaemasu.",
+            "german": "\"Diese Rindfleischbowl geht auf mich.\" \"Oh, danke. Dann nehme ich das Angebot gerne an.\""
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "romaji": "gyūdon",
+        "examples": [
+          {
+            "japanese": "「この牛丼は、私のおごりね。」「わあ、ありがとう。じゃあ、お言葉に甘えます。」",
+            "romaji": "\"Kono gyūdon wa, watashi no ogori ne.\" \"Wā, arigatō. Jā, okotoba ni amaemasu.\"",
+            "german": "\"Diese Rindfleischbowl geht auf mich.\" \"Oh, danke. Dann nehme ich das Angebot gerne an.\""
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109265114",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "牛丼 / ギュウドン; 名詞/普通名詞/一般/*; *; *; lemma 牛丼; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "牛丼",
+              "reading": "ぎゅうどん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "牛丼 as \"Rindfleischbowl\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1845250; spelling=牛丼; reading=ぎゅうどん",
+          "finding": "JMdict 1845250 牛丼/ぎゅうどん confirms the reading used for the romaji of \"Rindfleischbowl\".",
+          "selected": {
+            "sequence": "1845250",
+            "spelling": "牛丼",
+            "reading": "ぎゅうどん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gyudon",
+                  "rice covered with sliced beef, usu. with fried onion"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "牛丼 was misread as \"ushi donburi\"; it is gyūdon. Also added the dialogue quotes and marked the long vowels."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Rindfleischbowl\" checked against the headword and JMdict 1845250; no issue found.",
+        "japanese": "「この牛丼は、私のおごりね。」「わあ、ありがとう。じゃあ、お言葉に甘えます。」 — read in context; examples use the headword.",
+        "romanization": "Headword \"gyūdon\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "\"Diese Rindfleischbowl geht auf mich.\" \"Oh, danke. Dann nehme ich das Angebot gerne an.\""
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@109265114 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109265114",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "牛丼 / ギュウドン; 名詞/普通名詞/一般/*; *; *; lemma 牛丼; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "牛丼",
+              "reading": "ぎゅうどん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "牛丼 as \"Rindfleischbowl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 牛丼 was misread as \"ushi donburi\"; it is gyūdon. Also added the dialogue quotes and marked the long vowels. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "22a8182cd81a4a00cb7ac306e339857bd3a5a77ca90d2352a5b2fc458dfff964",
+        "approvalHash": "6aad42571c8f7e67dcaac517d560b2a1fb7944b1e30443f51b16d68292b5c199"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "牛丼 = gyūdon (not ushi donburi), Wā, Jā, okotoba correct; pitch 0 = exact row 牛丼 aType 0.",
+        "contentHash": "22a8182cd81a4a00cb7ac306e339857bd3a5a77ca90d2352a5b2fc458dfff964",
+        "approvalHash": "6aad42571c8f7e67dcaac517d560b2a1fb7944b1e30443f51b16d68292b5c199"
+      }
+    },
+    {
+      "id": "vocab-n3:3137",
+      "revisionId": "052-vocab-n3-3137",
+      "state": "accepted",
+      "predecessorHash": "15d4de85e4333da35c209bc2766c801a2014c8d9c90d9d40b350de0a7dd51a24",
+      "predecessorRevisionHash": null,
+      "originalHash": "15d4de85e4333da35c209bc2766c801a2014c8d9c90d9d40b350de0a7dd51a24",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 縦書 was misread as tatesho; it is tategaki.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "文章を縦書にしたいんです。",
+            "romaji": "Bunshou o tatesho ni shitai n desu.",
+            "german": "Ich möchte den Text vertikal schreiben."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "文章を縦書にしたいんです。",
+            "romaji": "Bunshō o tategaki ni shitai n desu.",
+            "german": "Ich möchte den Text vertikal schreiben."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965013",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "縦書 / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "縦書",
+              "reading": "たてがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "縦書 as \"Vertikalschrift\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1335680; spelling=縦書; reading=たてがき",
+          "finding": "JMdict 1335680 縦書/たてがき confirms the reading used for the romaji of \"Vertikalschrift\".",
+          "selected": {
+            "sequence": "1335680",
+            "spelling": "縦書",
+            "reading": "たてがき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing vertically",
+                  "vertical writing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "The headword 縦書 was misread as tatesho; it is tategaki."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Vertikalschrift\" checked against the headword and JMdict 1335680; open issue noted: The usual spelling is 縦書き, with okurigana. 縦書 is a rare variant.",
+        "japanese": "文章を縦書にしたいんです。 — read in context; examples use the headword.",
+        "romanization": "Headword \"tategaki\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich möchte den Text vertikal schreiben."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@163965013 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163965013",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "縦書 / タテガキ; 名詞/普通名詞/一般/*; *; *; lemma 縦書き; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "縦書",
+              "reading": "たてがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "縦書 as \"Vertikalschrift\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. The headword 縦書 was misread as tatesho; it is tategaki. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d68e9c75569625bdd38e3cdba06fbc87d305bfdf0589c6b85feaa429d3d340f6",
+        "approvalHash": "cce5f1bad41ea242eea59ed01661b4b926c453760b481459faa0dd6b21ae7440"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "縦書 = tategaki (not tatesho), Bunshō; pitch 0 = exact row orth 縦書/タテガキ (lemma 縦書き) aType 0.",
+        "contentHash": "d68e9c75569625bdd38e3cdba06fbc87d305bfdf0589c6b85feaa429d3d340f6",
+        "approvalHash": "cce5f1bad41ea242eea59ed01661b4b926c453760b481459faa0dd6b21ae7440"
+      }
+    },
+    {
+      "id": "vocab-n3:3147",
+      "revisionId": "052-vocab-n3-3147",
+      "state": "accepted",
+      "predecessorHash": "9d7a70a47f38ab081020c5fbe035a2ce43aad38929c5330322deb161ecdadd10",
+      "predecessorRevisionHash": null,
+      "originalHash": "9d7a70a47f38ab081020c5fbe035a2ce43aad38929c5330322deb161ecdadd10",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. どうりで was garbled as \"Do uri de\"; it is Dōri de.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "結局、あんたが黒幕だったんだな。どうりであの女を殺した時手慣れていたと思ったよ。",
+            "romaji": "Kekkyoku, anta ga kuromaku datta n da na. Do uri de ano onna o koroshita toki tenarete ita to omotta yo.",
+            "german": "Also, du bist der Drahtzieher, hm? Kein Wunder, dass du so professionell wirktest, als du sie getötet hast."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "結局、あんたが黒幕だったんだな。どうりであの女を殺した時手慣れていたと思ったよ。",
+            "romaji": "Kekkyoku, anta ga kuromaku datta n da na. Dōri de ano onna o koroshita toki tenarete ita to omotta yo.",
+            "german": "Also, du bist der Drahtzieher, hm? Kein Wunder, dass du so professionell wirktest, als du sie getötet hast."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115682971",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "黒幕 / クロマク; 名詞/普通名詞/一般/*; *; *; lemma 黒幕; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "黒幕",
+              "reading": "くろまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "黒幕 as \"Drahtzieher\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1288160; spelling=黒幕; reading=くろまく",
+          "finding": "JMdict 1288160 黒幕/くろまく confirms the reading used for the romaji of \"Drahtzieher\".",
+          "selected": {
+            "sequence": "1288160",
+            "spelling": "黒幕",
+            "reading": "くろまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "black curtain"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wirepuller",
+                  "mastermind",
+                  "backroom manipulator",
+                  "éminence grise",
+                  "power broker"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "どうりで was garbled as \"Do uri de\"; it is Dōri de."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Drahtzieher\" checked against the headword and JMdict 1288160; open issue noted: Wortart \"Adjektiv\" passt nicht; es ist ein Nomen.",
+        "japanese": "結局、あんたが黒幕だったんだな。どうりであの女を殺した時手慣れていたと思ったよ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"kuromaku\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Also, du bist der Drahtzieher, hm? Kein Wunder, dass du so professionell wirktest, als du sie getötet hast."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@115682971 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115682971",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "黒幕 / クロマク; 名詞/普通名詞/一般/*; *; *; lemma 黒幕; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "黒幕",
+              "reading": "くろまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "黒幕 as \"Drahtzieher\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. どうりで was garbled as \"Do uri de\"; it is Dōri de. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "7d7bf468c291df98ceb3128996d8810228f7103f3b0e20909d3072c6d1b2026c",
+        "approvalHash": "fa294e5806ceede8961cbd848babf5a1d049264b36e729834a8d9bde84f480af"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "どうりで = Dōri de (was \"Do uri de\"); pitch 0 = exact row 黒幕 aType 0.",
+        "contentHash": "7d7bf468c291df98ceb3128996d8810228f7103f3b0e20909d3072c6d1b2026c",
+        "approvalHash": "fa294e5806ceede8961cbd848babf5a1d049264b36e729834a8d9bde84f480af"
+      }
+    },
+    {
+      "id": "vocab-n3:3156",
+      "revisionId": "052-vocab-n3-3156",
+      "state": "accepted",
+      "predecessorHash": "82d228d41aefe2fd79240dbcae7ae88fc3fa46a6cdb0b0ff4d1dd4505c0b0957",
+      "predecessorRevisionHash": null,
+      "originalHash": "82d228d41aefe2fd79240dbcae7ae88fc3fa46a6cdb0b0ff4d1dd4505c0b0957",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 両岸 was read \"ryou kishi\"; it is ryōgan. ずうっと was garbled as \"zu u to\"; it is zūtto. The headword sou (so-u, a verb ending) correctly has no macron.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "川の両岸に沿って、ずうっと、美しい桜並木があるんです。",
+            "romaji": "Kawa no ryou kishi ni sotte, zu u to, utsukushii sakura namiki ga aru n desu.",
+            "german": "Es gibt wunderschöne Kirschbaumalleen entlang der beiden Flussufer."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "川の両岸に沿って、ずうっと、美しい桜並木があるんです。",
+            "romaji": "Kawa no ryōgan ni sotte, zūtto, utsukushii sakura namiki ga aru n desu.",
+            "german": "Es gibt wunderschöne Kirschbaumalleen entlang der beiden Flussufer."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155081754",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "沿う / ソウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 沿う; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "沿う",
+              "reading": "そう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "沿う as \"entlanglaufen\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1176700; spelling=沿う; reading=そう",
+          "finding": "JMdict 1176700 沿う/そう confirms the reading used for the romaji of \"entlanglaufen\".",
+          "selected": {
+            "sequence": "1176700",
+            "spelling": "沿う",
+            "reading": "そう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to run along",
+                  "to run beside",
+                  "to stick to (a line)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to follow (a policy, plan, etc.)",
+                  "to act in accordance with",
+                  "to align with"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "両岸 was read \"ryou kishi\"; it is ryōgan. ずうっと was garbled as \"zu u to\"; it is zūtto. The headword sou (so-u, a verb ending) correctly has no macron."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"entlanglaufen\" checked against the headword and JMdict 1176700; no issue found.",
+        "japanese": "川の両岸に沿って、ずうっと、美しい桜並木があるんです。 — read in context; examples use the headword.",
+        "romanization": "Headword \"sou\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Es gibt wunderschöne Kirschbaumalleen entlang der beiden Flussufer."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@155081754 attests 0,1. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155081754",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "沿う / ソウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 沿う; aType 0,1. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "沿う",
+              "reading": "そう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "沿う as \"entlanglaufen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 両岸 was read \"ryou kishi\"; it is ryōgan. ずうっと was garbled as \"zu u to\"; it is zūtto. The headword sou (so-u, a verb ending) correctly has no macron. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "92d68a7fd0fbd938b3f459beb425f49fd8d00c30fdb6e7ba1ae29f3148eb2779",
+        "approvalHash": "9e8c131853e1e0bfe9e2590525627bbf48ab47c954beccc80526cc3a09983440"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "両岸 = ryōgan, ずうっと = zūtto; sou correctly unmacroned (そ+う verb ending); pitch 0 within exact row 沿う aType 0,1.",
+        "contentHash": "92d68a7fd0fbd938b3f459beb425f49fd8d00c30fdb6e7ba1ae29f3148eb2779",
+        "approvalHash": "9e8c131853e1e0bfe9e2590525627bbf48ab47c954beccc80526cc3a09983440"
+      }
+    }
+  ],
+  "decisions": []
+}

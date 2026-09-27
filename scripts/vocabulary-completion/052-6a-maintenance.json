@@ -1,0 +1,388 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "yojijukugo:236",
+      "revisionId": "052-yojijukugo-236",
+      "state": "accepted",
+      "predecessorHash": "8bf96c30c274ac35375421948c7dabe49a36baceba9d6739e218c67a1fb3d414",
+      "predecessorRevisionHash": null,
+      "originalHash": "8bf96c30c274ac35375421948c7dabe49a36baceba9d6739e218c67a1fb3d414",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (有為 = ui here). Unchanged.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "有為転変の世を生きるには、柔軟さが必要だ。",
+            "romaji": "Ui tenpen no yo o ikiru ni wa, jūnanasa ga hitsuyō da.",
+            "german": "Um in einer sich ständig wandelnden Welt zu leben, braucht man Flexibilität."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "有為転変の世を生きるには、柔軟さが必要だ。",
+            "romaji": "Ui tenpen no yo o ikiru ni wa, jūnansa ga hitsuyō da.",
+            "german": "Um in einer sich ständig wandelnden Welt zu leben, braucht man Flexibilität."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1541110; spelling=有為転変; reading=ういてんぺん",
+          "finding": "JMdict 1541110 有為転変/ういてんぺん confirms the reading used for the romaji of \"Der Wandel aller Dinge; Unbeständigkeit des Lebens\".",
+          "selected": {
+            "sequence": "1541110",
+            "spelling": "有為転変",
+            "reading": "ういてんぺん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "mutability (of worldly affairs)",
+                  "fleeting shifts and changes (of human life)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "Already correct (有為 = ui here). Unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Der Wandel aller Dinge; Unbeständigkeit des Lebens\" checked against the headword and JMdict 1541110; no issue found.",
+        "japanese": "有為転変の世を生きるには、柔軟さが必要だ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"ui tenpen\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Um in einer sich ständig wandelnden Welt zu leben, braucht man Flexibilität."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 有為転変 / ういてんぺん.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for yojijukugo:236; exact written-form/kana lookup 有為転変 / ういてんぺん",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. Already correct (有為 = ui here). Unchanged. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "05098adb606399bb962e7be958f8ba84ba89d3812cb8e5ac93c2ea5580322840",
+        "approvalHash": "9943dab550f18677a5242d03df1d09f00ab22641e9a46eda7a746ae2e1822997"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "柔軟さ = jūnansa (was jūnanasa); Ui tenpen no yo, hitsuyō da correct; pitch stays absent.",
+        "contentHash": "05098adb606399bb962e7be958f8ba84ba89d3812cb8e5ac93c2ea5580322840",
+        "approvalHash": "9943dab550f18677a5242d03df1d09f00ab22641e9a46eda7a746ae2e1822997"
+      }
+    },
+    {
+      "id": "idioms:131",
+      "revisionId": "052-idioms-131",
+      "state": "accepted",
+      "predecessorHash": "97193f766244c9a2eda8b87d7c7580c8c8c112f353d53035efa712ae061454df",
+      "predecessorRevisionHash": null,
+      "originalHash": "97193f766244c9a2eda8b87d7c7580c8c8c112f353d53035efa712ae061454df",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 取り消せない was garbled as \"torikesesanai\"; now torikesenai.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "言ってしまったことは取り消せない。覆水盆に返らずだ。",
+            "romaji": "Itte shimatta koto wa torikesesanai. Fukusui bon ni kaerazu da.",
+            "german": "Was gesagt wurde, kann man nicht zurücknehmen. Geschehenes lässt sich nicht ungeschehen machen."
+          }
+        ]
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "言ってしまったことは取り消せない。覆水盆に返らずだ。",
+            "romaji": "Itte shimatta koto wa torikesenai. Fukusui bon ni kaerazu da.",
+            "german": "Was gesagt wurde, kann man nicht zurücknehmen. Geschehenes lässt sich nicht ungeschehen machen."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1501510; spelling=覆水盆に返らず; reading=ふくすいぼんにかえらず",
+          "finding": "JMdict 1501510 覆水盆に返らず/ふくすいぼんにかえらず confirms the reading used for the romaji of \"Geschehenes kann man nicht ungeschehen machen — verschüttetes Wasser lässt sich nicht zurückschöpfen\".",
+          "selected": {
+            "sequence": "1501510",
+            "spelling": "覆水盆に返らず",
+            "reading": "ふくすいぼんにかえらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "proverb"
+                ],
+                "gloss": [
+                  "what's done is done",
+                  "it is no use crying over spilt milk",
+                  "spilt water won't go back into its tray"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "取り消せない was garbled as \"torikesesanai\"; now torikesenai."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Geschehenes kann man nicht ungeschehen machen — verschüttetes Wasser lässt sich nicht zurückschöpfen\" checked against the headword and JMdict 1501510; no issue found.",
+        "japanese": "言ってしまったことは取り消せない。覆水盆に返らずだ。 — read in context; examples use the headword.",
+        "romanization": "Headword \"fukusui bon ni kaerazu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Was gesagt wurde, kann man nicht zurücknehmen. Geschehenes lässt sich nicht ungeschehen machen."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 覆水盆に返らず / ふくすいぼんにかえらず.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "research packet for idioms:131; exact written-form/kana lookup 覆水盆に返らず / ふくすいぼんにかえらず",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 取り消せない was garbled as \"torikesesanai\"; now torikesenai. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "42c0e13b01d1b02b4d5f873cccff7a6460e40d4033add77c4280e265ef5e93a6",
+        "approvalHash": "7888b05f58bffaea12aa479ed3131d8854699bf603ee29a15b21f98eb48d6eba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "取り消せない = torikesenai (was torikesesanai); fukusui bon ni kaerazu da correct; pitch stays absent.",
+        "contentHash": "42c0e13b01d1b02b4d5f873cccff7a6460e40d4033add77c4280e265ef5e93a6",
+        "approvalHash": "7888b05f58bffaea12aa479ed3131d8854699bf603ee29a15b21f98eb48d6eba"
+      }
+    },
+    {
+      "id": "vocab-n1:1603",
+      "revisionId": "052-vocab-n1-1603",
+      "state": "accepted",
+      "predecessorHash": "8da08a697412018d379c9f918c69a8de249bf2b059cd4aad2d123ae5b994a867",
+      "predecessorRevisionHash": null,
+      "originalHash": "8da08a697412018d379c9f918c69a8de249bf2b059cd4aad2d123ae5b994a867",
+      "rationale": "Romaji rewritten in Modified Hepburn and corrected against the Japanese. 反体制派 is hantaiseiha; the old \"hantaiseha\" dropped the i of sei.",
+      "original": {
+        "examples": [
+          {
+            "japanese": "政府による反体制派への弾圧が国際的に非難された。",
+            "romaji": "Seifu ni yoru hantaiseha e no dan'atsu ga kokusaiteki ni hinan sareta.",
+            "german": "Die Repression der Regierung gegen Dissidenten wurde international verurteilt."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "政府による反体制派への弾圧が国際的に非難された。",
+            "romaji": "Seifu ni yoru hantaiseiha e no dan'atsu ga kokusaiteki ni hinan sareta.",
+            "german": "Die Repression der Regierung gegen Dissidenten wurde international verurteilt."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168059017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "弾圧 / ダンアツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 弾圧; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "弾圧",
+              "reading": "だんあつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "弾圧 as \"Repression; Unterdrückung\"."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1419410; spelling=弾圧; reading=だんあつ",
+          "finding": "JMdict 1419410 弾圧/だんあつ confirms the reading used for the romaji of \"Repression; Unterdrückung\".",
+          "selected": {
+            "sequence": "1419410",
+            "spelling": "弾圧",
+            "reading": "だんあつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "oppression",
+                  "suppression",
+                  "pressure"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Romaji review (maintenance batch 052)",
+          "version": "2026-09-27",
+          "locator": ".content-cache/romaji/manual.json; UniDic cwj 2025.12 tokenization",
+          "finding": "反体制派 is hantaiseiha; the old \"hantaiseha\" dropped the i of sei."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-052-editor",
+        "meaning": "\"Repression; Unterdrückung\" checked against the headword and JMdict 1419410; no issue found.",
+        "japanese": "政府による反体制派への弾圧が国際的に非難された。 — read in context; examples use the headword.",
+        "romanization": "Headword \"dan'atsu\" and every example romaji written in Modified Hepburn (macrons for long vowels, wa/e/o particles, n' before vowels) and checked against the Japanese reading.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Repression der Regierung gegen Dissidenten wurde international verurteilt."
+        ],
+        "lexical": "No sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@168059017 attests 0. Existing pitch 0 attested by the exact row.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168059017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "弾圧 / ダンアツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 弾圧; aType 0. Existing pitch 0 attested by the exact row.",
+            "match": {
+              "word": "弾圧",
+              "reading": "だんあつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "弾圧 as \"Repression; Unterdrückung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-editor",
+        "finding": "Editorial first pass: Romaji rewritten in Modified Hepburn and corrected against the Japanese. 反体制派 is hantaiseiha; the old \"hantaiseha\" dropped the i of sei. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "ef30ca81a3cf55627b2e4d4ae2d2a12a50797792733aa32cba613316c5378c15",
+        "approvalHash": "38e2fc3fe8520c8753fc6a04f467437711478d55a4743d3431789480f60d3456"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-052-independent-reviewer",
+        "finding": "反体制派 = hantaiseiha; dan'atsu with n' before a; pitch 0 = exact row 弾圧/ダンアツ サ変可能 aType 0.",
+        "contentHash": "ef30ca81a3cf55627b2e4d4ae2d2a12a50797792733aa32cba613316c5378c15",
+        "approvalHash": "38e2fc3fe8520c8753fc6a04f467437711478d55a4743d3431789480f60d3456"
+      }
+    }
+  ],
+  "decisions": []
+}
