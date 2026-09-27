@@ -621,7 +621,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Ähnlich wie からには und 以上は.",
     "related": [
       "n3-kara-niwa",
-      "n2-ijou-wa"
+      "n2-ijou-wa",
+      "n1-temae"
     ]
   },
   {
@@ -1105,7 +1106,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "",
     "related": [
       "n3-kara-niwa",
-      "n2-ue-wa"
+      "n2-ue-wa",
+      "n1-temae"
     ],
     "legacyIds": [
       "n3-ijou-wa"
@@ -1293,7 +1295,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "related": [
       "n3-mono-no",
       "node",
-      "n3-mono-da"
+      "n3-mono-da",
+      "n1-koto-tote"
     ],
     "legacyIds": [
       "n3-mono-dakara"
@@ -3405,7 +3408,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "notes": "しかたがない ist die formellere Version. Umgangssprache: しょうがない.",
     "related": [
-      "n3-te-tamaranai"
+      "n3-te-tamaranai",
+      "n1-ttara-nai"
     ]
   },
   {
@@ -6811,7 +6815,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "～ときたら (N1) ist ähnlich, aber fast immer scharf kritisierend und etwas derber; ったら kann auch liebevoll-genervt klingen. Nicht verwechseln mit der Bedingung ～たら oder mit ～ったら als Nachdruck bei Aufforderungen (早くしてったら！ „jetzt mach schon!“).",
     "related": [
       "n1-to-kitara",
-      "n4-tte"
+      "n4-tte",
+      "n3-tteba",
+      "n1-ttara-nai"
     ]
   },
   {

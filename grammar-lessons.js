@@ -6224,6 +6224,288 @@
         "tip": "Zwei bewusst verbundene Zwecke → がてら. Förmlicher Besuchsanlass → かたがた. Ungezielte Wahrnehmung → ともなく."
       }
     ]
+  },
+  {
+    "id": "lesson-n1-instant",
+    "number": 152,
+    "title": "～が早いか / ～たとたん",
+    "subtitle": "Kaum geschehen – schon passiert das Nächste",
+    "level": "N1",
+    "grammarIds": [
+      "n1-ga-hayai-ka",
+      "n3-totan"
+    ],
+    "intro": "Beide Ausdrücke verbinden zwei Ereignisse, die fast gleichzeitig ablaufen. たとたん ist alltäglich und betont oft die Überraschung; が早いか ist schriftsprachlich und betont die Schnelligkeit einer bewussten Handlung.",
+    "sections": [
+      {
+        "heading": "たとたん — genau in dem Moment (N3)",
+        "text": "Verb (た-Form) + とたん(に). Das zweite Ereignis kommt meist unerwartet und ist nicht vom Sprecher gesteuert. Sehr häufig im Gespräch.",
+        "examples": [
+          {
+            "jp": "ドアを開けたとたん、猫が飛び出してきた。",
+            "romaji": "Doa o aketa totan, neko ga tobidashite kita.",
+            "de": "Genau als ich die Tür öffnete, sprang die Katze heraus."
+          },
+          {
+            "jp": "立ち上がったとたんに、めまいがした。",
+            "romaji": "Tachiagatta totan ni, memai ga shita.",
+            "de": "In dem Moment, als ich aufstand, wurde mir schwindlig."
+          }
+        ]
+      },
+      {
+        "heading": "が早いか — kaum dass (N1)",
+        "text": "Verb (Wörterbuchform / た-Form) + が早いか. Jemand handelt blitzschnell nach dem ersten Ereignis. Typisch für erzählende Texte; der zweite Teil ist keine Bitte und kein Wille.",
+        "examples": [
+          {
+            "jp": "彼は電話を切るが早いか、部屋を飛び出した。",
+            "romaji": "Kare wa denwa o kiru ga hayai ka, heya o tobidashita.",
+            "de": "Kaum hatte er aufgelegt, stürmte er aus dem Zimmer."
+          },
+          {
+            "jp": "子どもはおもちゃを受け取るが早いか、箱を開け始めた。",
+            "romaji": "Kodomo wa omocha o uketoru ga hayai ka, hako o akehajimeta.",
+            "de": "Kaum hatte das Kind das Spielzeug bekommen, begann es die Schachtel zu öffnen."
+          }
+        ],
+        "tip": "Ist das zweite Ereignis eine Überraschung, die einem passiert (めまいがした)? Dann たとたん. Handelt jemand absichtlich und sofort (飛び出した)? Dann passt が早いか – oder ebenso や否や."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-tendency",
+    "number": 153,
+    "title": "～きらいがある / ～がち",
+    "subtitle": "Neigungen beschreiben – neutral oder kritisch?",
+    "level": "N1",
+    "grammarIds": [
+      "n1-kirai-ga-aru",
+      "n4-gachi"
+    ],
+    "intro": "Beide Ausdrücke beschreiben, dass etwas häufig vorkommt oder jemand zu etwas neigt. がち ist alltäglich und beschreibt eher Zustände; きらいがある urteilt aus der Distanz über eine unerwünschte Eigenschaft.",
+    "sections": [
+      {
+        "heading": "がち — kommt oft vor (N3)",
+        "text": "Verb (ます-Stamm) / Nomen + がち. Häufig bei Dingen, die man nicht ganz steuern kann: 病気がち, 遅れがち, 曇りがち. Meist leicht negativ, aber nicht wertend.",
+        "examples": [
+          {
+            "jp": "冬は運動不足になりがちだ。",
+            "romaji": "Fuyu wa undou busoku ni narigachi da.",
+            "de": "Im Winter bewegt man sich leicht zu wenig."
+          },
+          {
+            "jp": "この時計は最近遅れがちだ。",
+            "romaji": "Kono tokei wa saikin okuregachi da.",
+            "de": "Diese Uhr geht in letzter Zeit oft nach."
+          }
+        ]
+      },
+      {
+        "heading": "きらいがある — hat die (schlechte) Angewohnheit (N1)",
+        "text": "Verb (Wörterbuchform) / Nomen + の + きらいがある. Beschreibt eine Charaktereigenschaft oder Haltung, die der Sprecher kritisiert. Nur für Menschen, Gruppen und ihr Verhalten.",
+        "examples": [
+          {
+            "jp": "彼は人の話を最後まで聞かないきらいがある。",
+            "romaji": "Kare wa hito no hanashi o saigo made kikanai kirai ga aru.",
+            "de": "Er hat die Angewohnheit, anderen nicht bis zum Ende zuzuhören."
+          },
+          {
+            "jp": "日本の会議は結論を先送りにするきらいがある。",
+            "romaji": "Nihon no kaigi wa ketsuron o sakiokuri ni suru kirai ga aru.",
+            "de": "Japanische Besprechungen neigen dazu, Entscheidungen zu vertagen."
+          }
+        ],
+        "tip": "Eine Uhr oder das Wetter kann nicht きらいがある – dafür がち. Wer ein Urteil über das Verhalten einer Person fällt, greift zu きらいがある."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-at-least",
+    "number": 154,
+    "title": "～ないまでも / ～なりとも",
+    "subtitle": "Wenigstens das – mit weniger zufrieden sein",
+    "level": "N1",
+    "grammarIds": [
+      "n1-nai-made-mo",
+      "n1-nari-tomo"
+    ],
+    "intro": "Beide Ausdrücke senken die Erwartung: Das Ideal ist nicht erreichbar, aber ein Minimum soll es sein. ないまでも nennt das unerreichte Ideal ausdrücklich; なりとも hängt an einer kleinen Menge.",
+    "sections": [
+      {
+        "heading": "ないまでも — wenn schon nicht X, dann wenigstens Y",
+        "text": "Verb (ない-Form) + までも, danach das Minimum, oft mit せめて oder 少なくとも. Typisch: ～とは言わないまでも.",
+        "examples": [
+          {
+            "jp": "満点とは言わないまでも、八十点は取りたい。",
+            "romaji": "Manten to wa iwanai made mo, hachijutten wa toritai.",
+            "de": "Ich will nicht sagen die volle Punktzahl, aber achtzig Punkte möchte ich schon."
+          },
+          {
+            "jp": "手伝わないまでも、邪魔はしないでほしい。",
+            "romaji": "Tetsudawanai made mo, jama wa shinaide hoshii.",
+            "de": "Wenn du schon nicht hilfst, dann stör wenigstens nicht."
+          }
+        ]
+      },
+      {
+        "heading": "なりとも — auch wenn es nur wenig ist",
+        "text": "Mengenangabe (少し, 多少, 一目, わずか) + なりとも. Höflich-schriftlich, häufig in Bitten, Wünschen und Stellenanzeigen.",
+        "examples": [
+          {
+            "jp": "多少なりとも力になれればと思います。",
+            "romaji": "Tashou nari tomo chikara ni narereba to omoimasu.",
+            "de": "Ich hoffe, zumindest ein wenig helfen zu können."
+          },
+          {
+            "jp": "一日なりとも早く回復されることを願っています。",
+            "romaji": "Ichinichi nari tomo hayaku kaifuku sareru koto o negatte imasu.",
+            "de": "Ich wünsche Ihnen, dass Sie auch nur einen Tag früher genesen."
+          }
+        ],
+        "tip": "Nennt der Satz das Ideal (満点, 毎日) und dann das Minimum? ないまでも. Steht nur eine kleine Menge (少し, 多少) im Mittelpunkt? なりとも – im Alltag einfach でも."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-face",
+    "number": 155,
+    "title": "～こととて / ～手前",
+    "subtitle": "Begründen, um Nachsicht zu bitten oder das Gesicht zu wahren",
+    "level": "N1",
+    "grammarIds": [
+      "n1-koto-tote",
+      "n1-temae"
+    ],
+    "intro": "Beide Ausdrücke begründen etwas mit Blick auf andere Menschen. こととて bittet um Verständnis für einen Fehler; 手前 erklärt, warum man sich wegen des eigenen Ansehens zu etwas gezwungen sieht.",
+    "sections": [
+      {
+        "heading": "こととて — weil ja … (bitte um Nachsicht)",
+        "text": "Verb / Nomen + の + こととて. Altmodisch-höflich, vor allem in Entschuldigungen: Der Grund soll den Fehler verständlich machen.",
+        "examples": [
+          {
+            "jp": "初めてのこととて、うまくできず申し訳ありません。",
+            "romaji": "Hajimete no koto tote, umaku dekizu moushiwake arimasen.",
+            "de": "Da es das erste Mal war, hat es nicht gut geklappt – das tut mir leid."
+          },
+          {
+            "jp": "何分急なこととて、お返事が遅れました。",
+            "romaji": "Nanibun kyuu na koto tote, ohenji ga okuremashita.",
+            "de": "Da alles so plötzlich kam, hat sich meine Antwort verzögert."
+          }
+        ]
+      },
+      {
+        "heading": "手前 — mit Rücksicht auf das eigene Ansehen",
+        "text": "Verb (た-Form / Wörterbuchform) / Nomen + の + 手前. Man hat etwas gesagt oder steht vor anderen und kann deshalb nicht zurück. Danach folgt meist ～わけにはいかない oder ～しかない.",
+        "examples": [
+          {
+            "jp": "皆の前で約束した手前、やめるわけにはいかない。",
+            "romaji": "Mina no mae de yakusoku shita temae, yameru wake ni wa ikanai.",
+            "de": "Da ich es vor allen versprochen habe, kann ich nicht aufhören."
+          },
+          {
+            "jp": "部下の手前、上司が弱音を吐くわけにはいかない。",
+            "romaji": "Buka no temae, joushi ga yowane o haku wake ni wa ikanai.",
+            "de": "Vor den Mitarbeitern darf der Chef keine Schwäche zeigen."
+          }
+        ],
+        "tip": "Entschuldigt man sich für etwas Geschehenes? こととて. Erklärt man, warum man etwas tun muss, um sein Gesicht zu wahren? 手前."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-extreme",
+    "number": 156,
+    "title": "～ったらない / ～極まりない",
+    "subtitle": "Gefühle und Urteile auf die Spitze treiben",
+    "level": "N1",
+    "grammarIds": [
+      "n1-ttara-nai",
+      "n1-kiwamarinai"
+    ],
+    "intro": "Beide Ausdrücke bedeuten „äußerst“. ったらない klingt gesprochen und drückt ein eigenes Gefühl aus; 極まりない ist steif-schriftlich und bewertet ein Verhalten oder einen Zustand.",
+    "sections": [
+      {
+        "heading": "ったらない — unbeschreiblich (gesprochen)",
+        "text": "い-Adj + ったらない; mit Nomen auf ～さ: ～といったらない. Oft für eigene Gefühle wie Angst, Scham, Einsamkeit oder Ärger.",
+        "examples": [
+          {
+            "jp": "一人の夜は寂しいったらない。",
+            "romaji": "Hitori no yoru wa sabishii ttara nai.",
+            "de": "Allein verbrachte Abende sind furchtbar einsam."
+          },
+          {
+            "jp": "あの時の悔しさといったらなかった。",
+            "romaji": "Ano toki no kuyashisa to ittara nakatta.",
+            "de": "Mein Ärger damals war unbeschreiblich."
+          }
+        ]
+      },
+      {
+        "heading": "極まりない — äußerst (schriftlich, wertend)",
+        "text": "な-Adj-Stamm + 極まりない / 極まる. Typisch mit 失礼, 危険, 不愉快, 無責任. Klingt amtlich oder empört und passt zu Kritik an einem Verhalten.",
+        "examples": [
+          {
+            "jp": "運転中のスマホ操作は危険極まりない。",
+            "romaji": "Unten chuu no sumaho sousa wa kiken kiwamarinai.",
+            "de": "Das Smartphone beim Fahren zu bedienen ist äußerst gefährlich."
+          },
+          {
+            "jp": "連絡もなく約束を破るとは、失礼極まりない。",
+            "romaji": "Renraku mo naku yakusoku o yaburu to wa, shitsurei kiwamarinai.",
+            "de": "Ohne Nachricht eine Verabredung platzen zu lassen, ist äußerst unhöflich."
+          }
+        ],
+        "tip": "い-Adjektiv und eigenes Gefühl im Gespräch? ったらない. な-Adjektiv und ein kritisches Urteil in formellem Ton? 極まりない."
+      }
+    ]
+  },
+  {
+    "id": "lesson-n1-ikan",
+    "number": 157,
+    "title": "いかんせん / ～いかんでは",
+    "subtitle": "Zwei Ausdrücke mit 如何（いかん）",
+    "level": "N1",
+    "grammarIds": [
+      "n1-ikansen",
+      "n1-ikan-de-wa"
+    ],
+    "intro": "Beide Ausdrücke gehen auf das klassische 如何 („wie“) zurück, haben aber ganz verschiedene Aufgaben: いかんせん bedauert ein Hindernis, ～いかんでは macht ein Ergebnis von etwas abhängig.",
+    "sections": [
+      {
+        "heading": "いかんせん — leider lässt sich nichts machen",
+        "text": "Satzeinleitend, meist nach einem が／けれど-Satz mit dem Positiven: Man würde gern, aber das Hindernis ist stärker.",
+        "examples": [
+          {
+            "jp": "行きたい気持ちはあるが、いかんせんお金がない。",
+            "romaji": "Ikitai kimochi wa aru ga, ikansen okane ga nai.",
+            "de": "Lust hätte ich schon, aber leider fehlt mir das Geld."
+          },
+          {
+            "jp": "アイデアは面白い。いかんせん実現は難しい。",
+            "romaji": "Aidea wa omoshiroi. Ikansen jitsugen wa muzukashii.",
+            "de": "Die Idee ist interessant. Leider ist sie schwer umzusetzen."
+          }
+        ]
+      },
+      {
+        "heading": "～いかんでは — je nach …",
+        "text": "Nomen (+ の) + いかんでは / いかんによっては. Das Ergebnis hängt vom genannten Faktor ab; Gegenstück: ～いかんによらず („unabhängig von“).",
+        "examples": [
+          {
+            "jp": "試験の結果いかんでは、留年もあり得る。",
+            "romaji": "Shiken no kekka ikan de wa, ryuunen mo arieru.",
+            "de": "Je nach Prüfungsergebnis ist auch eine Wiederholung des Jahres möglich."
+          },
+          {
+            "jp": "天候のいかんによっては、試合が中止になる。",
+            "romaji": "Tenkou no ikan ni yotte wa, shiai ga chuushi ni naru.",
+            "de": "Je nach Wetter wird das Spiel abgesagt."
+          }
+        ],
+        "tip": "Steht der Ausdruck am Satzanfang und klagt über ein Hindernis? いかんせん. Folgt er einem Nomen und nennt eine Bedingung? いかんでは."
+      }
+    ]
   }
 ]);
   var reviewedLessonPatterns = {

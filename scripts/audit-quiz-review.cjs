@@ -6,7 +6,7 @@ const plain = value => JSON.parse(JSON.stringify(value));
 module.exports = function auditQuizReview(ctx, audit) {
   const groups = loadGroups();
   const compiled = JSON.stringify(groups);
-  assert.equal(applyReview(groups).patterns, 730);
+  assert.equal(applyReview(groups).patterns, 743);
   assert.equal(JSON.stringify(groups), compiled, 'Compiled reviews differ from editorial source');
   const byLevel = {};
   for (const record of manifest.records) {
@@ -27,7 +27,7 @@ module.exports = function auditQuizReview(ctx, audit) {
     }
     byLevel[record.level] = (byLevel[record.level] || 0) + 1;
   }
-  assert.deepEqual(byLevel, {N5:89,N4:139,N3:143,N2:186,N1:173});
+  assert.deepEqual(byLevel, {N5:89,N4:140,N3:146,N2:186,N1:182});
   for (const record of manifest.records.filter(r => r.level === 'N5')) {
     assert(audit.generateQuestionForSource('grammarCloze','N4',record.grammarId,record.exampleIndex),
       'N4 lost prerequisite coverage: ' + record.grammarId);

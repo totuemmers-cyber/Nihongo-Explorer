@@ -184,7 +184,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell und nachdrücklich. Wird hauptsächlich in geschriebener oder formeller Sprache verwendet.",
     "related": [
       "n1-desura",
-      "n4-sae"
+      "n4-sae",
+      "n1-nari-tomo"
     ]
   },
   {
@@ -2179,7 +2180,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell. Wird in offiziellen Dokumenten und Ankündigungen verwendet.",
     "related": [
       "n3-ni-kakawarazu",
-      "n1-ikan-de-wa"
+      "n1-ikan-de-wa",
+      "n1-ikansen"
     ]
   },
   {
@@ -2238,7 +2240,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formell. Betont Abhängigkeit des Ergebnisses von Umständen.",
     "related": [
       "n4-ni-yotte",
-      "n1-ikan-ni-yorazu"
+      "n1-ikan-ni-yorazu",
+      "n1-ikansen"
     ]
   },
   {
@@ -4004,7 +4007,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       "nakutemo-ii",
       "n1-made-da",
       "n2-hodo-no-koto-dewa-nai",
-      "n2-wa-iu-made-mo-nai"
+      "n2-wa-iu-made-mo-nai",
+      "n1-nai-made-mo"
     ]
   },
   {
@@ -4121,7 +4125,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Formell und literarisch. Betont die unmittelbare Aufeinanderfolge zweier Ereignisse.",
     "related": [
       "n3-totan",
-      "n2-ka-nai-ka-no-uchi-ni"
+      "n2-ka-nai-ka-no-uchi-ni",
+      "n1-ga-hayai-ka"
     ]
   },
   {
@@ -5528,7 +5533,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       "n1-ya-inaya",
       "n3-totan",
       "n1-sobakara",
-      "n2-nari-ni"
+      "n2-nari-ni",
+      "n1-ga-hayai-ka"
     ]
   },
   {
@@ -5582,7 +5588,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Drückt aus, dass es mehrere gleichwertige Optionen gibt.",
     "related": [
       "n4-toka",
-      "ka"
+      "ka",
+      "n1-nari-tomo"
     ]
   },
   {
@@ -6107,7 +6114,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "notes": "Sehr formeller Ausdruck, oft in schriftlicher Sprache.",
     "related": [
       "n1-kagirida",
-      "n2-ni-mo-hodo-ga-aru"
+      "n2-ni-mo-hodo-ga-aru",
+      "n1-ttara-nai"
     ],
     "legacyIds": [
       "n1-kiwamari-nai"
@@ -8613,6 +8621,549 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     ],
     "legacyIds": [
       "n1-nagarani-nagarano"
+    ]
+  },
+  {
+    "id": "n1-ga-hayai-ka",
+    "pattern": "～が早いか",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "kaum dass; im selben Augenblick, als",
+    "explanation": "Beschreibt, dass unmittelbar nach einer Handlung schon die nächste geschieht – fast gleichzeitig. Schriftsprachlich; für tatsächliche, meist vergangene Ereignisse, nicht für Wünsche oder Aufforderungen.",
+    "formation": "Verb (Wörterbuchform / た-Form) + が早いか",
+    "examples": [
+      {
+        "japanese": "子どもたちはベルが鳴るが早いか、教室を飛び出した。",
+        "romaji": "Kodomotachi wa beru ga naru ga hayai ka, kyōshitsu o tobidashita.",
+        "german": "Kaum hatte die Glocke geläutet, stürmten die Kinder aus dem Klassenzimmer.",
+        "cloze": {
+          "start": 11,
+          "answer": "が早いか",
+          "quiz": {
+            "level": "N1",
+            "japanese": "子どもたちはベルが鳴るが早いか、教室を飛び出した。",
+            "german": "Kaum hatte die Glocke geläutet, stürmten die Kinder aus dem Klassenzimmer.",
+            "start": 11,
+            "answer": "が早いか",
+            "acceptedAnswers": [
+              "が早いか",
+              "や否や",
+              "やいなや",
+              "なり"
+            ],
+            "distractors": [
+              {
+                "text": "ばかりか",
+                "reason": "ばかりか heißt „nicht nur … sondern auch“ und drückt keine zeitliche Abfolge aus."
+              },
+              {
+                "text": "くせに",
+                "reason": "くせに („obwohl“) enthält einen Vorwurf und keine unmittelbare Abfolge."
+              },
+              {
+                "text": "ものなら",
+                "reason": "ものなら („wenn … überhaupt“) ist hypothetisch und passt nicht zu einem tatsächlichen Ereignis."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "彼は給料をもらうが早いか、全部使ってしまった。",
+        "romaji": "Kare wa kyūryō o morau ga hayai ka, zenbu tsukatte shimatta.",
+        "german": "Kaum hatte er sein Gehalt bekommen, hatte er schon alles ausgegeben."
+      },
+      {
+        "japanese": "店が開くが早いか、客が一斉に入ってきた。",
+        "romaji": "Mise ga aku ga hayai ka, kyaku ga issei ni haitte kita.",
+        "german": "Kaum öffnete der Laden, strömten die Kunden alle gleichzeitig herein."
+      }
+    ],
+    "notes": "Sinnverwandt mit ～や否や und ～なり (beide N1) sowie ～たとたん (N3). が早いか betont besonders die Schnelligkeit. Der zweite Satzteil steht nicht im Willens- oder Befehlsmodus.",
+    "related": [
+      "n1-ya-inaya",
+      "n1-nari",
+      "n3-totan"
+    ]
+  },
+  {
+    "id": "n1-kirai-ga-aru",
+    "pattern": "～きらいがある",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "neigt (unerfreulich) dazu, …",
+    "explanation": "Drückt eine unerwünschte Neigung einer Person oder Gruppe aus. Kritisch-distanziert und schriftsprachlich; きらい (嫌い) wird dabei meist in Hiragana geschrieben.",
+    "formation": "Verb (Wörterbuchform / ない-Form) + きらいがある; Nomen + の + きらいがある",
+    "examples": [
+      {
+        "japanese": "彼は物事を悪い方に考えるきらいがある。",
+        "romaji": "Kare wa monogoto o warui hō ni kangaeru kirai ga aru.",
+        "german": "Er neigt dazu, die Dinge schwarzzusehen.",
+        "cloze": {
+          "start": 12,
+          "answer": "きらいがある",
+          "quiz": {
+            "level": "N1",
+            "japanese": "彼は物事を悪い方に考えるきらいがある。",
+            "german": "Er neigt dazu, die Dinge schwarzzusehen.",
+            "start": 12,
+            "answer": "きらいがある",
+            "acceptedAnswers": [
+              "きらいがある",
+              "傾向がある"
+            ],
+            "distractors": [
+              {
+                "text": "ことがある",
+                "reason": "考えることがある heißt nur „denkt manchmal so“ und drückt keine kritisierte Neigung aus."
+              },
+              {
+                "text": "わけがない",
+                "reason": "わけがない („unmöglich, dass“) widerspricht der Aussage."
+              },
+              {
+                "text": "べきだ",
+                "reason": "べきだ („sollte“) drückt eine Pflicht aus, keine Neigung."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "最近の若者は活字離れのきらいがあると言われる。",
+        "romaji": "Saikin no wakamono wa katsuji banare no kirai ga aru to iwareru.",
+        "german": "Man sagt, junge Leute neigen heute dazu, immer weniger zu lesen."
+      },
+      {
+        "japanese": "この政府は問題を先送りにするきらいがある。",
+        "romaji": "Kono seifu wa mondai o sakiokuri ni suru kirai ga aru.",
+        "german": "Diese Regierung neigt dazu, Probleme auf die lange Bank zu schieben."
+      }
+    ],
+    "notes": "Nur für negative Neigungen. Neutraler: ～傾向がある (Tendenz); alltäglicher: ～がち (N3). Nicht verwechseln mit 嫌い (nicht mögen).",
+    "related": [
+      "n4-gachi"
+    ]
+  },
+  {
+    "id": "n1-gurumi",
+    "pattern": "～ぐるみ",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "mitsamt; … als Ganzes",
+    "explanation": "Nach einem Nomen bedeutet ぐるみ „alles zusammen, … eingeschlossen“. Typisch in festen Verbindungen wie 家族ぐるみ (die ganze Familie), 町ぐるみ (die ganze Stadt) oder 会社ぐるみ (das ganze Unternehmen, oft bei Skandalen).",
+    "formation": "Nomen + ぐるみ (+ で / + の + Nomen)",
+    "examples": [
+      {
+        "japanese": "隣の家とは家族ぐるみで付き合っています。",
+        "romaji": "Tonari no ie to wa kazoku gurumi de tsukiatte imasu.",
+        "german": "Mit den Nachbarn sind wir als ganze Familie befreundet.",
+        "cloze": {
+          "start": 7,
+          "answer": "ぐるみ",
+          "quiz": {
+            "level": "N1",
+            "japanese": "隣の家とは家族ぐるみで付き合っています。",
+            "german": "Mit den Nachbarn sind wir als ganze Familie befreundet.",
+            "start": 7,
+            "answer": "ぐるみ",
+            "acceptedAnswers": [
+              "ぐるみ"
+            ],
+            "distractors": [
+              {
+                "text": "まみれ",
+                "reason": "まみれ heißt „über und über bedeckt mit“ (Schmutz, Schweiß) und passt nicht zu Familie."
+              },
+              {
+                "text": "だらけ",
+                "reason": "だらけ heißt „voller“ (meist Negatives) und beschreibt keine Gemeinschaft."
+              },
+              {
+                "text": "ずくめ",
+                "reason": "ずくめ heißt „nur aus … bestehend“ (黒ずくめ) und passt nicht zu Personen."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "これは会社ぐるみの不正だった。",
+        "romaji": "Kore wa kaisha gurumi no fusei datta.",
+        "german": "Das war ein Betrug, an dem die ganze Firma beteiligt war."
+      },
+      {
+        "japanese": "町ぐるみで祭りの準備をしている。",
+        "romaji": "Machi gurumi de matsuri no junbi o shite iru.",
+        "german": "Die ganze Stadt bereitet das Fest vor."
+      }
+    ],
+    "notes": "Nur mit wenigen Nomen gebräuchlich (家族, 町, 村, 地域, 会社, 組織). Bei 会社ぐるみ und 組織ぐるみ schwingt oft Kritik mit. Nicht verwechseln mit ～ごと (mitsamt, z. B. 皮ごと食べる) oder ぬいぐるみ (Plüschtier).",
+    "related": []
+  },
+  {
+    "id": "n1-nai-made-mo",
+    "pattern": "～ないまでも",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "wenn auch nicht …, so doch wenigstens …",
+    "explanation": "Man räumt ein, dass ein hoher Grad nicht erreicht wird, erwartet aber wenigstens einen niedrigeren. Der zweite Teil enthält oft せめて oder 少なくとも oder eine Aufforderung (～べきだ, ～たほうがいい).",
+    "formation": "Verb (ない-Form) + までも",
+    "examples": [
+      {
+        "japanese": "毎日とは言わないまでも、週に一度は運動したほうがいい。",
+        "romaji": "Mainichi to wa iwanai made mo, shū ni ichido wa undō shita hō ga ii.",
+        "german": "Wenn schon nicht jeden Tag, solltest du doch wenigstens einmal pro Woche Sport treiben.",
+        "cloze": {
+          "start": 6,
+          "answer": "ないまでも",
+          "quiz": {
+            "level": "N1",
+            "japanese": "毎日とは言わないまでも、週に一度は運動したほうがいい。",
+            "german": "Wenn schon nicht jeden Tag, solltest du doch wenigstens einmal pro Woche Sport treiben.",
+            "start": 6,
+            "answer": "ないまでも",
+            "acceptedAnswers": [
+              "ないまでも",
+              "ないにしても",
+              "ないにせよ"
+            ],
+            "distractors": [
+              {
+                "text": "ないばかりか",
+                "reason": "ないばかりか steigert („nicht nur nicht …“) statt einzuräumen."
+              },
+              {
+                "text": "ないからには",
+                "reason": "からには begründet eine Pflicht und räumt nichts ein."
+              },
+              {
+                "text": "ないことには",
+                "reason": "ないことには („solange nicht …“) verlangt ein negatives Ergebnis im zweiten Teil."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "優勝できないまでも、せめて決勝には進みたい。",
+        "romaji": "Yūshō dekinai made mo, semete kesshō ni wa susumitai.",
+        "german": "Auch wenn wir nicht gewinnen können, wollen wir zumindest ins Finale kommen."
+      },
+      {
+        "japanese": "謝らないまでも、説明ぐらいはするべきだ。",
+        "romaji": "Ayamaranai made mo, setsumei gurai wa suru beki da.",
+        "german": "Wenn er sich schon nicht entschuldigt, sollte er es wenigstens erklären."
+      }
+    ],
+    "notes": "Häufig als ～とは言わないまでも („ich will nicht sagen …, aber“). Trotz ähnlicher Form eine andere Bedeutung als ～までもない (N1, „nicht nötig“).",
+    "related": [
+      "n1-made-mo-nai"
+    ]
+  },
+  {
+    "id": "n1-nari-tomo",
+    "pattern": "～なりとも",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "wenigstens; wenn auch nur (ein wenig)",
+    "explanation": "Nach Ausdrücken für eine kleine Menge (少し, 一目, 多少, わずか) bedeutet なりとも „auch wenn es nur … ist“. Schriftsprachlich und höflich; oft in Bitten und Wünschen.",
+    "formation": "Nomen / Mengenangabe + なりとも",
+    "examples": [
+      {
+        "japanese": "少しなりともお役に立てれば幸いです。",
+        "romaji": "Sukoshi nari tomo oyaku ni tatereba saiwai desu.",
+        "german": "Ich wäre froh, wenn ich Ihnen wenigstens ein wenig helfen könnte.",
+        "cloze": {
+          "start": 2,
+          "answer": "なりとも",
+          "quiz": {
+            "level": "N1",
+            "japanese": "少しなりともお役に立てれば幸いです。",
+            "german": "Ich wäre froh, wenn ich Ihnen wenigstens ein wenig helfen könnte.",
+            "start": 2,
+            "answer": "なりとも",
+            "acceptedAnswers": [
+              "なりとも",
+              "でも"
+            ],
+            "distractors": [
+              {
+                "text": "たりとも",
+                "reason": "たりとも steht mit einer Verneinung („nicht im Geringsten“) und passt nicht zu einem Wunsch."
+              },
+              {
+                "text": "ばかりか",
+                "reason": "ばかりか („nicht nur … sondern auch“) ergibt hier keinen Sinn."
+              },
+              {
+                "text": "ずくめ",
+                "reason": "ずくめ („nur aus … bestehend“) kann nicht auf 少し folgen."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "一目なりとも会いたい。",
+        "romaji": "Hitome nari tomo aitai.",
+        "german": "Ich möchte ihn wenigstens einmal kurz sehen."
+      },
+      {
+        "japanese": "多少なりとも経験のある方を募集しています。",
+        "romaji": "Tashō nari tomo keiken no aru kata o boshū shite imasu.",
+        "german": "Wir suchen Personen mit zumindest etwas Erfahrung."
+      }
+    ],
+    "notes": "Formelhaft in 多少なりとも und 少しなりとも. Gleichbedeutend, aber alltäglich: ～でも (少しでも). Nicht verwechseln mit ～たりとも～ない („nicht einmal …“) oder ～なり～なり („entweder … oder“).",
+    "related": [
+      "n1-tari-tomo-nai",
+      "n1-nari-nari"
+    ]
+  },
+  {
+    "id": "n1-ttara-nai",
+    "pattern": "～ったらない",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "unbeschreiblich, extrem (Gefühl)",
+    "explanation": "Nach Wörtern für ein Gefühl oder einen Eindruck bedeutet ったらない „so sehr, dass es sich nicht beschreiben lässt“. Umgangssprachlich; schriftlicher: ～といったらない.",
+    "formation": "い-Adj (Wörterbuchform) + ったらない; Nomen (oft auf ～さ) + といったらない",
+    "examples": [
+      {
+        "japanese": "一人で夜道を歩くのは怖いったらない。",
+        "romaji": "Hitori de yomichi o aruku no wa kowai ttara nai.",
+        "german": "Nachts allein unterwegs zu sein ist unglaublich unheimlich.",
+        "cloze": {
+          "start": 12,
+          "answer": "ったらない",
+          "quiz": {
+            "level": "N1",
+            "japanese": "一人で夜道を歩くのは怖いったらない。",
+            "german": "Nachts allein unterwegs zu sein ist unglaublich unheimlich.",
+            "start": 12,
+            "answer": "ったらない",
+            "acceptedAnswers": [
+              "ったらない",
+              "ったらありゃしない",
+              "といったらない"
+            ],
+            "distractors": [
+              {
+                "text": "ことはない",
+                "reason": "怖いことはない heißt „man braucht keine Angst zu haben“ – das Gegenteil."
+              },
+              {
+                "text": "わけがない",
+                "reason": "わけがない („kann unmöglich …“) bestreitet das Gefühl, statt es zu steigern."
+              },
+              {
+                "text": "ほどではない",
+                "reason": "ほどではない („nicht so sehr“) schwächt ab, statt zu steigern."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "満員電車で転んで、恥ずかしいったらなかった。",
+        "romaji": "Man'in densha de koronde, hazukashii ttara nakatta.",
+        "german": "Ich bin im vollen Zug hingefallen – es war mir wahnsinnig peinlich."
+      },
+      {
+        "japanese": "彼の自慢話のしつこさといったらない。",
+        "romaji": "Kare no jiman banashi no shitsukosa to ittara nai.",
+        "german": "Seine Angeberei ist unerträglich penetrant."
+      }
+    ],
+    "notes": "Meist für negative Gefühle (怖い, 寂しい, 腹立たしい), seltener positiv (うれしいったらない). Nicht verwechseln mit ～ったら (N2), das eine Person genervt hervorhebt. Ähnlich: ～極まりない (N1, schriftlich) und ～てしょうがない (N2).",
+    "related": [
+      "n2-ttara",
+      "n1-kiwamarinai",
+      "n2-te-shou-ga-nai"
+    ]
+  },
+  {
+    "id": "n1-koto-tote",
+    "pattern": "～こととて",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "da (ja) …; weil … (entschuldigend)",
+    "explanation": "Schriftsprachliche Begründung, meist um Nachsicht zu bitten oder sich zu entschuldigen: Weil die Umstände so sind, ist das Folgende verständlich. Klingt altmodisch-höflich.",
+    "formation": "Verb (einfache Form) / な-Adj + な / Nomen + の + こととて",
+    "examples": [
+      {
+        "japanese": "慣れないこととて、ご迷惑をおかけしました。",
+        "romaji": "Narenai koto tote, gomeiwaku o okake shimashita.",
+        "german": "Da ich damit nicht vertraut war, habe ich Ihnen Unannehmlichkeiten bereitet.",
+        "cloze": {
+          "start": 4,
+          "answer": "こととて",
+          "quiz": {
+            "level": "N1",
+            "japanese": "慣れないこととて、ご迷惑をおかけしました。",
+            "german": "Da ich damit nicht vertraut war, habe ich Ihnen Unannehmlichkeiten bereitet.",
+            "start": 4,
+            "answer": "こととて",
+            "acceptedAnswers": [
+              "こととて",
+              "ので",
+              "ものだから"
+            ],
+            "distractors": [
+              {
+                "text": "ことなく",
+                "reason": "ことなく („ohne zu …“) begründet nichts."
+              },
+              {
+                "text": "ことか",
+                "reason": "ことか ist ein Ausruf („wie sehr!“) und kann keinen Nebensatz einleiten."
+              },
+              {
+                "text": "ことには",
+                "reason": "慣れないことには heißt „solange man sich nicht daran gewöhnt“ und verlangt einen negativen Folgesatz, keine Entschuldigung."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "子どものしたこととて、どうか許してやってください。",
+        "romaji": "Kodomo no shita koto tote, dōka yurushite yatte kudasai.",
+        "german": "Es war ja nur ein Kind – bitte verzeihen Sie ihm."
+      },
+      {
+        "japanese": "急なこととて、十分な準備ができませんでした。",
+        "romaji": "Kyū na koto tote, jūbun na junbi ga dekimasen deshita.",
+        "german": "Da alles so plötzlich kam, konnten wir uns nicht ausreichend vorbereiten."
+      }
+    ],
+    "notes": "Fast nur in Entschuldigungen und formellen Briefen; auch mit klassischer Verneinung: 慣れぬこととて. Alltäglich: ～ので／～ものだから. Nicht verwechseln mit ～とて allein („auch“, 私とて).",
+    "related": [
+      "n2-mono-dakara"
+    ]
+  },
+  {
+    "id": "n1-temae",
+    "pattern": "～手前",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "da man nun einmal … (und das Gesicht wahren muss)",
+    "explanation": "手前 (wörtlich „vor einem“) begründet eine Handlung mit Rücksicht auf das eigene Ansehen: Weil man etwas gesagt oder getan hat oder vor anderen steht, kann man nicht anders.",
+    "formation": "Verb (Wörterbuchform / た-Form) + 手前; Nomen + の + 手前",
+    "examples": [
+      {
+        "japanese": "手伝うと約束した手前、今さら断れない。",
+        "romaji": "Tetsudau to yakusoku shita temae, imasara kotowarenai.",
+        "german": "Da ich nun mal versprochen habe zu helfen, kann ich jetzt nicht mehr absagen.",
+        "cloze": {
+          "start": 8,
+          "answer": "手前",
+          "quiz": {
+            "level": "N1",
+            "japanese": "手伝うと約束した手前、今さら断れない。",
+            "german": "Da ich nun mal versprochen habe zu helfen, kann ich jetzt nicht mehr absagen.",
+            "start": 8,
+            "answer": "手前",
+            "acceptedAnswers": [
+              "手前",
+              "以上",
+              "以上は",
+              "からには"
+            ],
+            "distractors": [
+              {
+                "text": "くせに",
+                "reason": "くせに („obwohl“) wirft anderen etwas vor und begründet keinen Zwang."
+              },
+              {
+                "text": "とたん",
+                "reason": "とたん („in dem Moment, als“) ist rein zeitlich."
+              },
+              {
+                "text": "ついでに",
+                "reason": "ついでに („bei der Gelegenheit“) passt nicht zu einem Zwang."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "子どもの手前、親が約束を破るわけにはいかない。",
+        "romaji": "Kodomo no temae, oya ga yakusoku o yaburu wake ni wa ikanai.",
+        "german": "Vor den Kindern können die Eltern ihr Versprechen nicht brechen."
+      },
+      {
+        "japanese": "「絶対に勝つ」と言った手前、負けるわけにはいかない。",
+        "romaji": "\"Zettai ni katsu\" to itta temae, makeru wake ni wa ikanai.",
+        "german": "Nachdem ich gesagt habe „Ich gewinne auf jeden Fall“, darf ich nicht verlieren."
+      }
+    ],
+    "notes": "Der zweite Teil drückt meist einen Zwang aus: ～わけにはいかない, ～なければならない, ～しかない. Verwandt: ～以上(は) und ～上は (N2), die neutraler begründen. Als Nomen heißt 手前 auch „kurz vor, diesseits“ (駅の手前).",
+    "related": [
+      "n2-ijou-wa",
+      "n2-ue-wa"
+    ]
+  },
+  {
+    "id": "n1-ikansen",
+    "pattern": "いかんせん",
+    "level": "N1",
+    "category": "Satzstrukturen",
+    "meaning": "leider (lässt sich nichts machen)",
+    "explanation": "Einleitendes Adverb: Man würde gern, aber die Umstände lassen es leider nicht zu. Schriftsprachlich; aus dem klassischen 如何せん „was soll man machen“.",
+    "formation": "(positiver Satz + が／けれど,) いかんせん + Hindernis",
+    "examples": [
+      {
+        "japanese": "手伝いたいのだが、いかんせん時間がない。",
+        "romaji": "Tetsudaitai no da ga, ikansen jikan ga nai.",
+        "german": "Ich würde ja gern helfen, aber leider fehlt mir die Zeit.",
+        "cloze": {
+          "start": 9,
+          "answer": "いかんせん",
+          "quiz": {
+            "level": "N1",
+            "japanese": "手伝いたいのだが、いかんせん時間がない。",
+            "german": "Ich würde ja gern helfen, aber leider fehlt mir die Zeit.",
+            "start": 9,
+            "answer": "いかんせん",
+            "acceptedAnswers": [
+              "いかんせん",
+              "残念ながら",
+              "あいにく"
+            ],
+            "distractors": [
+              {
+                "text": "いかにも",
+                "reason": "いかにも („wirklich, ganz typisch“) bekräftigt und leitet kein Hindernis ein."
+              },
+              {
+                "text": "せっかく",
+                "reason": "せっかく („extra, eigens“) passt nicht vor ein Hindernis wie Zeitmangel."
+              },
+              {
+                "text": "さすがに",
+                "reason": "さすがに („wie zu erwarten; doch nicht“) passt nicht zur Bedauern ausdrückenden Einleitung."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "計画はいいが、いかんせん予算が足りない。",
+        "romaji": "Keikaku wa ii ga, ikansen yosan ga tarinai.",
+        "german": "Der Plan ist gut, doch leider reicht das Budget nicht."
+      },
+      {
+        "japanese": "この店の料理はおいしいが、いかんせん値段が高すぎる。",
+        "romaji": "Kono mise no ryōri wa oishii ga, ikansen nedan ga takasugiru.",
+        "german": "Das Essen in diesem Restaurant ist lecker, aber leider viel zu teuer."
+      }
+    ],
+    "notes": "Steht meist nach einem が／けれど-Satz, der das Positive nennt. Auch in Kanji: 如何せん. Nicht verwechseln mit ～いかんで／～いかんによらず (N1, „je nach“), die auf dasselbe 如何 zurückgehen.",
+    "related": [
+      "n1-ikan-de-wa",
+      "n1-ikan-ni-yorazu"
     ]
   }
 ]);

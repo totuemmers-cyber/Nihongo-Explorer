@@ -21,7 +21,7 @@ var _kanjiByRadical = null;
 function getAppConstants() {
   return window.NIHONGO_CONSTANTS || {
     VOCAB_TYPES: ['Nomen', 'Verb', 'Adjektiv', 'Adverb', 'Ausdruck', 'Partikel', 'Yojijukugo', 'Redewendung', 'Sprichwort'],
-    COUNTER_CATEGORIES: ['Menschen', 'Objekte', 'Tiere', 'Zeit', 'Essen & Trinken', 'Gebäude & Räume', 'Transport', 'Sprache & Schrift', 'Gruppen & Mengen', 'Ereignisse', 'Natur', 'Medizin'],
+    COUNTER_CATEGORIES: ['Menschen', 'Objekte', 'Tiere', 'Zeit', 'Essen & Trinken', 'Gebäude & Räume', 'Transport', 'Sprache & Schrift', 'Gruppen & Mengen', 'Ereignisse', 'Natur', 'Medizin', 'Reihenfolge', 'Maße & Einheiten'],
     CANONICAL_RADICAL_COUNT: 214
   };
 }

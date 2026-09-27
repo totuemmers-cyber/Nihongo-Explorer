@@ -90,7 +90,7 @@ for(const v of vocab)if(v.type==='Yojijukugo')assert.equal([...v.word].length,4,
 for(const v of vocab){const seen=(v.examples||[]).map(e=>e.japanese.normalize('NFKC').replace(/\s/g,''));assert.equal(new Set(seen).size,seen.length,'Repeated example sentence: '+v.id+' '+v.word);}
 for(const v of enriched){assert(v.notes,'Missing usage notes '+v.word);assert(v.examples.length>=2,'Enrichment lost '+v.word);assert.equal(new Set(v.examples.map(e=>e.japanese)).size,v.examples.length,'Repeated example '+v.word);}
 const newLessons=c.GRAMMAR_LESSONS.filter(l=>l.id.startsWith('lesson-n1-'));
-assert.equal(newLessons.length,6);
+assert.equal(newLessons.length,12);
 for(const lesson of c.GRAMMAR_LESSONS){for(const id of lesson.grammarIds||[])assert(grammarIds.has(id),'Lesson target missing: '+id);}
 for(const l of newLessons){assert(l.sections.length>=2&&l.grammarIds.length>=2,'Thin lesson '+l.id);for(const s of l.sections)assert(s.examples.length>=2,'Missing lesson contrast '+l.id);}
 console.log(JSON.stringify({kanji:kanji.length,missingStrokeAssets:0,missingPrimaryRadicals:0,strokeCountMismatches:0,joyo:joyo.kanji.length,missingJoyo:missingJoyo.length,nonJoyo,grammarPatterns:c.GRAMMAR_DATA.length,clozePatterns,explainedClozeExclusions:excluded,grammarLinks:related,brokenGrammarLinks:0,onomatopoeia:ono.length,newOnomatopoeia:ono.filter(o=>o.editorialBatch).length,brokenOnomatopoeiaLinks:0,enrichedVocabulary:enriched.length,enrichedByLevel:Object.fromEntries(['N3','N2','N1'].map(l=>[l,enriched.filter(v=>v.level===l).length])),newN1Lessons:newLessons.length},null,2));

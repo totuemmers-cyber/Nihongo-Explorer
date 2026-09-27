@@ -3200,7 +3200,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "desu",
       "deshita",
-      "ja-nakatta"
+      "ja-nakatta",
+      "n3-jan"
     ]
   },
   {
@@ -4674,7 +4675,8 @@ window.GRAMMAR_DATA = [
       "nakutemo-ii",
       "n4-nakute-wa-ikenai",
       "n4-nai-to-ikenai",
-      "n2-neba-naranai"
+      "n2-neba-naranai",
+      "n4-nakya-nakucha"
     ]
   },
   {
@@ -7841,7 +7843,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Wie な-Adj: ～がちな + Nomen.",
     "related": [
-      "n4-yasui"
+      "n4-yasui",
+      "n1-kirai-ga-aru"
     ]
   },
   {
@@ -9531,7 +9534,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "n4-toiu",
       "n3-to-iu-no-wa",
-      "n2-ttara"
+      "n2-ttara",
+      "n3-tteba"
     ]
   },
   {
@@ -13678,7 +13682,8 @@ window.GRAMMAR_DATA = [
     "notes": "Immer unerwartet/überraschend. Ähnlich: ～た瞬間.",
     "related": [
       "tara",
-      "n2-ka-nai-ka-no-uchi-ni"
+      "n2-ka-nai-ka-no-uchi-ni",
+      "n1-ga-hayai-ka"
     ]
   },
   {
@@ -14156,7 +14161,8 @@ window.GRAMMAR_DATA = [
     ],
     "notes": "Informell: ～どころじゃない.",
     "related": [
-      "n3-dokoro-ka"
+      "n3-dokoro-ka",
+      "n3-te-iru-baai-janai"
     ]
   },
   {
@@ -17326,7 +17332,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "nakereba-naranai",
       "n4-nai-to-ikenai",
-      "nakutemo-ii"
+      "nakutemo-ii",
+      "n4-nakya-nakucha"
     ]
   },
   {
@@ -17393,7 +17400,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "nakereba-naranai",
       "n4-nakute-wa-ikenai",
-      "n4-to-conditional"
+      "n4-to-conditional",
+      "n4-nakya-nakucha"
     ]
   },
   {
@@ -17708,7 +17716,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "n4-tewa-ikenai",
       "tewa-ikemasen",
-      "n4-te-shimau-casual"
+      "n4-te-shimau-casual",
+      "n4-nakya-nakucha"
     ]
   },
   {
@@ -18998,7 +19007,8 @@ window.GRAMMAR_DATA = [
     "related": [
       "n-desu",
       "deshou",
-      "n3-wake-dewa-nai"
+      "n3-wake-dewa-nai",
+      "n3-jan"
     ]
   },
   {
@@ -19125,6 +19135,251 @@ window.GRAMMAR_DATA = [
     "related": [
       "n5-zenzen-nai",
       "n5-amari-nai"
+    ]
+  },
+  {
+    "id": "n4-nakya-nakucha",
+    "pattern": "～なきゃ / ～なくちゃ",
+    "level": "N4",
+    "category": "Satzstrukturen",
+    "meaning": "muss (umgangssprachlich)",
+    "explanation": "～なきゃ ist die gesprochene Kurzform von ～なければ, ～なくちゃ die von ～なくては. Meist fällt das folgende いけない／ならない weg: 行かなきゃ = „ich muss gehen“. Nur im Gespräch mit Freunden und Familie.",
+    "formation": "Verb (ない-Form: ない → なきゃ / なくちゃ) (+ いけない / ならない)",
+    "examples": [
+      {
+        "japanese": "もう十時だ。そろそろ帰らなきゃ。",
+        "romaji": "Mō jūji da. Sorosoro kaeranakya.",
+        "german": "Schon zehn Uhr. Ich muss langsam nach Hause.",
+        "cloze": {
+          "start": 12,
+          "answer": "なきゃ",
+          "quiz": {
+            "level": "N4",
+            "japanese": "もう十時だ。そろそろ帰らなきゃ。",
+            "german": "Schon zehn Uhr. Ich muss langsam nach Hause.",
+            "start": 12,
+            "answer": "なきゃ",
+            "acceptedAnswers": [
+              "なきゃ",
+              "なくちゃ",
+              "ないと"
+            ],
+            "distractors": [
+              {
+                "text": "ない",
+                "reason": "帰らない heißt „ich gehe nicht nach Hause“ – eine Verneinung, keine Pflicht."
+              },
+              {
+                "text": "なくてもいい",
+                "reason": "なくてもいい bedeutet „muss nicht“ und widerspricht dem Hinweis auf die späte Uhrzeit."
+              },
+              {
+                "text": "れる",
+                "reason": "帰られる ist Passiv/Potential und drückt keine Notwendigkeit aus."
+              }
+            ],
+            "promptKana": "もうじゅうじだ。そろそろかえら＿＿＿。"
+          }
+        }
+      },
+      {
+        "japanese": "明日までにレポートを書かなくちゃいけない。",
+        "romaji": "Ashita made ni repōto o kakanakucha ikenai.",
+        "german": "Bis morgen muss ich den Bericht schreiben."
+      },
+      {
+        "japanese": "あ、牛乳を買わなきゃ。",
+        "romaji": "A, gyūnyū o kawanakya.",
+        "german": "Ach, ich muss noch Milch kaufen."
+      }
+    ],
+    "notes": "Register von formell bis locker: なければならない > なくてはいけない > ないといけない > なきゃ／なくちゃ. Gegenteil: ～なくてもいい (muss nicht). Nicht verwechseln mit ～ちゃいけない (darf nicht).",
+    "related": [
+      "n4-nakute-wa-ikenai",
+      "nakereba-naranai",
+      "n4-nai-to-ikenai",
+      "n4-cha-ikenai"
+    ]
+  },
+  {
+    "id": "n3-jan",
+    "pattern": "～じゃん",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "…, oder? / …, siehst du! (umgangssprachlich)",
+    "explanation": "じゃん ist eine sehr lockere Verkürzung von じゃないか. Man sucht Zustimmung oder weist auf etwas Offensichtliches hin – oft mit Überraschung oder leichtem Vorwurf. Ursprünglich aus der Gegend um Yokohama, heute landesweit unter jüngeren Leuten verbreitet.",
+    "formation": "Verb / い-Adj (einfache Form) + じゃん; Nomen / な-Adj + じゃん",
+    "examples": [
+      {
+        "japanese": "この服、かわいいじゃん。",
+        "romaji": "Kono fuku, kawaii jan.",
+        "german": "Das Kleid ist doch süß!",
+        "cloze": {
+          "start": 8,
+          "answer": "じゃん",
+          "quiz": {
+            "level": "N3",
+            "japanese": "この服、かわいいじゃん。",
+            "german": "Das Kleid ist doch süß!",
+            "start": 8,
+            "answer": "じゃん",
+            "acceptedAnswers": [
+              "じゃん",
+              "じゃない",
+              "じゃないか"
+            ],
+            "distractors": [
+              {
+                "text": "だ",
+                "reason": "い-Adjektive nehmen kein だ: かわいいだ ist ungrammatisch."
+              },
+              {
+                "text": "でした",
+                "reason": "かわいいでした ist ungrammatisch; die höfliche Vergangenheit wäre かわいかったです."
+              },
+              {
+                "text": "じゃなかった",
+                "reason": "じゃなかった ist eine echte Verneinung der Vergangenheit und passt nicht zum Kompliment."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "だから言ったじゃん！",
+        "romaji": "Dakara itta jan!",
+        "german": "Hab ich doch gesagt!"
+      },
+      {
+        "japanese": "明日休みじゃん。遊びに行こうよ。",
+        "romaji": "Ashita yasumi jan. Asobi ni ikō yo.",
+        "german": "Morgen ist doch frei. Lass uns was unternehmen!"
+      }
+    ],
+    "notes": "Nur unter Freunden; gegenüber Vorgesetzten unhöflich. Höflichere Entsprechung: ～じゃないですか. Trotz der Form keine Verneinung: かわいいじゃん heißt „ist doch süß“, nicht „ist nicht süß“.",
+    "related": [
+      "n3-no-dewa-nai-ka",
+      "ja-nai"
+    ]
+  },
+  {
+    "id": "n3-tteba",
+    "pattern": "～ってば",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "…, sag ich doch! (ungeduldiger Nachdruck)",
+    "explanation": "ってば (aus って言えば) verleiht einer Aussage oder Aufforderung ungeduldigen Nachdruck: Man wiederholt etwas, das der andere nicht hören will. Nach Namen drückt es liebevollen Ärger aus.",
+    "formation": "Satz (einfache Form) / Aufforderung + ってば; Name + ってば",
+    "examples": [
+      {
+        "japanese": "大丈夫だってば。心配しないで。",
+        "romaji": "Daijōbu da tteba. Shinpai shinaide.",
+        "german": "Es ist alles gut, sag ich doch! Mach dir keine Sorgen.",
+        "cloze": {
+          "start": 4,
+          "answer": "ってば",
+          "quiz": {
+            "level": "N3",
+            "japanese": "大丈夫だってば。心配しないで。",
+            "german": "Es ist alles gut, sag ich doch! Mach dir keine Sorgen.",
+            "start": 4,
+            "answer": "ってば",
+            "acceptedAnswers": [
+              "ってば",
+              "ったら"
+            ],
+            "distractors": [
+              {
+                "text": "ければ",
+                "reason": "ければ ist die Bedingungsform von い-Adjektiven und kann nicht auf だ folgen."
+              },
+              {
+                "text": "っても",
+                "reason": "だっても ist ungrammatisch; die Einräumung hieße でも."
+              },
+              {
+                "text": "ってた",
+                "reason": "ってた gibt eine vergangene Äußerung wieder („hat gesagt“) und bringt keinen Nachdruck."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "早くしてってば！",
+        "romaji": "Hayaku shite tteba!",
+        "german": "Jetzt mach doch endlich!"
+      },
+      {
+        "japanese": "もう、お母さんってば、また同じこと言ってる。",
+        "romaji": "Mō, okāsan tteba, mata onaji koto itteru.",
+        "german": "Mensch, Mama, du sagst schon wieder dasselbe."
+      }
+    ],
+    "notes": "Sehr umgangssprachlich und emotional; nur im vertrauten Kreis. Nach Personen fast gleichbedeutend mit ～ったら (N2). Nicht verwechseln mit der Bedingungsform ～ば.",
+    "related": [
+      "n2-ttara",
+      "n4-tte"
+    ]
+  },
+  {
+    "id": "n3-te-iru-baai-janai",
+    "pattern": "～ている場合じゃない",
+    "level": "N3",
+    "category": "Satzstrukturen",
+    "meaning": "jetzt ist nicht die Zeit, … zu tun",
+    "explanation": "Wörtlich „es ist nicht die Lage, in der man … tut“. Man stellt fest, dass eine Handlung angesichts der Umstände unangebracht ist, weil etwas Dringenderes ansteht.",
+    "formation": "Verb (て-Form) + いる + 場合じゃない / 場合ではない",
+    "examples": [
+      {
+        "japanese": "寝ている場合じゃない。もう出かける時間だ！",
+        "romaji": "Nete iru baai ja nai. Mō dekakeru jikan da!",
+        "german": "Keine Zeit zum Schlafen – wir müssen los!",
+        "cloze": {
+          "start": 1,
+          "answer": "ている場合じゃない",
+          "quiz": {
+            "level": "N3",
+            "japanese": "寝ている場合じゃない。もう出かける時間だ！",
+            "german": "Keine Zeit zum Schlafen – wir müssen los!",
+            "start": 1,
+            "answer": "ている場合じゃない",
+            "acceptedAnswers": [
+              "ている場合じゃない",
+              "ている場合ではない",
+              "てる場合じゃない"
+            ],
+            "distractors": [
+              {
+                "text": "てもいい",
+                "reason": "寝てもいい erlaubt das Schlafen und widerspricht dem Folgesatz."
+              },
+              {
+                "text": "たほうがいい",
+                "reason": "寝たほうがいい rät zum Schlafen – das Gegenteil der gemeinten Aussage."
+              },
+              {
+                "text": "ているところだ",
+                "reason": "寝ているところだ beschreibt nur, dass man gerade schläft, und drückt keine Unangemessenheit aus."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "japanese": "テストは明日だから、ゲームをしている場合ではありません。",
+        "romaji": "Tesuto wa ashita dakara, gēmu o shite iru baai de wa arimasen.",
+        "german": "Die Prüfung ist morgen, da ist jetzt keine Zeit zum Spielen."
+      },
+      {
+        "japanese": "笑っている場合じゃないよ。本当に困っているんだから。",
+        "romaji": "Waratte iru baai ja nai yo. Hontō ni komatte iru n dakara.",
+        "german": "Das ist nicht zum Lachen – ich stecke wirklich in Schwierigkeiten."
+      }
+    ],
+    "notes": "Formeller: ～ている場合ではない. Verwandt mit ～どころではない (N3), das betont, dass etwas unter den Umständen gar nicht möglich ist. Im Gespräch oft verkürzt: 寝てる場合じゃない.",
+    "related": [
+      "n3-dokoro-dewa-nai"
     ]
   }
 ];

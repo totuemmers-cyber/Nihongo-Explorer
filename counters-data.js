@@ -3677,6 +3677,465 @@ window.COUNTERS_DATA = {
         { japanese: '三島を回るツアーに参加しました。', romaji: 'Santō o mawaru tsuā ni sanka shimashita.', german: 'Ich habe an einer Tour zu drei Inseln teilgenommen.' }
       ],
       notes: 'Japan ist ein Inselstaat. 本州 (ほんしゅう), 北海道 (ほっかいどう), 九州 (きゅうしゅう), 四国 (しこく) sind die vier Hauptinseln.'
+    },
+    {
+      id: 'banme',
+      kanji: '番目',
+      reading: 'ばんめ',
+      romaji: 'banme',
+      meaning: 'der/die/das …-te (Ordnungszahl)',
+      usage: 'Position in einer Reihenfolge: der zweite Platz, die dritte Tür',
+      category: 'Reihenfolge',
+      level: 'N4',
+      questionWord: { kanji: '何番目', reading: 'なんばんめ', romaji: 'nanbanme' },
+      counts: [
+        { num: 1, kanji: '一番目', reading: 'いちばんめ', romaji: 'ichibanme', shift: false },
+        { num: 2, kanji: '二番目', reading: 'にばんめ', romaji: 'nibanme', shift: false },
+        { num: 3, kanji: '三番目', reading: 'さんばんめ', romaji: 'sanbanme', shift: false },
+        { num: 4, kanji: '四番目', reading: 'よんばんめ', romaji: 'yonbanme', shift: false },
+        { num: 5, kanji: '五番目', reading: 'ごばんめ', romaji: 'gobanme', shift: false },
+        { num: 6, kanji: '六番目', reading: 'ろくばんめ', romaji: 'rokubanme', shift: false },
+        { num: 7, kanji: '七番目', reading: 'ななばんめ', romaji: 'nanabanme', shift: false },
+        { num: 8, kanji: '八番目', reading: 'はちばんめ', romaji: 'hachibanme', shift: false },
+        { num: 9, kanji: '九番目', reading: 'きゅうばんめ', romaji: 'kyūbanme', shift: false },
+        { num: 10, kanji: '十番目', reading: 'じゅうばんめ', romaji: 'jūbanme', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '前から三番目の席に座ってください。', romaji: 'Mae kara sanbanme no seki ni suwatte kudasai.', german: 'Bitte setzen Sie sich auf den dritten Platz von vorne.' },
+        { japanese: '彼は兄弟の中で二番目に背が高いです。', romaji: 'Kare wa kyōdai no naka de nibanme ni se ga takai desu.', german: 'Er ist unter den Geschwistern der Zweitgrößte.' }
+      ],
+      notes: '番目 macht aus einer Zahl eine Ordnungszahl: 一番目 = der Erste. Anders als 一番 (Nummer eins; „am meisten“) betont 番目 die Position in einer Reihe. Keine Lautverschiebungen. Ähnlich: 目 nach einem Zählwort (二つ目, 三人目) und die Vorsilbe 第.'
+    },
+    {
+      id: 'dai-ordinal',
+      kanji: '第',
+      reading: 'だい',
+      romaji: 'dai',
+      meaning: 'Nr. …, der/die/das …-te (Vorsilbe)',
+      usage: 'Vorsilbe vor der Zahl in formellen Aufzählungen: 第一回, 第二章, 第三位',
+      category: 'Reihenfolge',
+      level: 'N3',
+      questionWord: { kanji: '第何', reading: 'だいなん', romaji: 'dainan' },
+      counts: [
+        { num: 1, kanji: '第一', reading: 'だいいち', romaji: 'daiichi', shift: false },
+        { num: 2, kanji: '第二', reading: 'だいに', romaji: 'daini', shift: false },
+        { num: 3, kanji: '第三', reading: 'だいさん', romaji: 'daisan', shift: false },
+        { num: 4, kanji: '第四', reading: 'だいよん', romaji: 'daiyon', shift: false },
+        { num: 5, kanji: '第五', reading: 'だいご', romaji: 'daigo', shift: false },
+        { num: 6, kanji: '第六', reading: 'だいろく', romaji: 'dairoku', shift: false },
+        { num: 7, kanji: '第七', reading: 'だいなな', romaji: 'dainana', shift: false },
+        { num: 8, kanji: '第八', reading: 'だいはち', romaji: 'daihachi', shift: false },
+        { num: 9, kanji: '第九', reading: 'だいきゅう', romaji: 'daikyū', shift: false },
+        { num: 10, kanji: '第十', reading: 'だいじゅう', romaji: 'daijū', shift: false }
+      ],
+      specialCounts: [
+        { num: 4, kanji: '第四', reading: 'だいし', romaji: 'daishi', note: 'seltener als だいよん' },
+        { num: 7, kanji: '第七', reading: 'だいしち', romaji: 'daishichi', note: 'neben だいなな' },
+        { num: 9, kanji: '第九', reading: 'だいく', romaji: 'daiku', note: 'Beethovens Neunte (第九)' }
+      ],
+      examples: [
+        { japanese: '第一回の会議は来週の月曜日です。', romaji: 'Daiikkai no kaigi wa raishū no getsuyōbi desu.', german: 'Die erste Sitzung ist am Montag nächster Woche.' },
+        { japanese: '年末には各地で第九が演奏されます。', romaji: 'Nenmatsu ni wa kakuchi de daiku ga ensō saremasu.', german: 'Zum Jahresende wird überall Beethovens Neunte aufgeführt.' }
+      ],
+      notes: '第 steht vor der Zahl, oft zusammen mit einem Zählwort: 第一回 (das erste Mal, die erste Folge), 第二章 (Kapitel 2), 第三位 (dritter Platz). Formeller als 番目. Keine Lautverschiebungen; neben だいよん, だいなな und だいきゅう kommen だいし, だいしち und だいく vor. 第九（だいく）ist Beethovens Neunte, die in Japan traditionell zum Jahresende gespielt wird.'
+    },
+    {
+      id: 'kiro',
+      kanji: 'キロ',
+      reading: 'キロ',
+      romaji: 'kiro',
+      meaning: 'Kilo (Kilogramm, Kilometer)',
+      usage: 'Kurzform für キログラム (Gewicht) und キロメートル (Entfernung); auch km/h: 時速六十キロ',
+      category: 'Maße & Einheiten',
+      level: 'N5',
+      questionWord: { kanji: '何キロ', reading: 'なんキロ', romaji: 'nan kiro' },
+      counts: [
+        { num: 1, kanji: '一キロ', reading: 'いちキロ', romaji: 'ichi kiro', shift: false },
+        { num: 2, kanji: '二キロ', reading: 'にキロ', romaji: 'ni kiro', shift: false },
+        { num: 3, kanji: '三キロ', reading: 'さんキロ', romaji: 'san kiro', shift: false },
+        { num: 4, kanji: '四キロ', reading: 'よんキロ', romaji: 'yon kiro', shift: false },
+        { num: 5, kanji: '五キロ', reading: 'ごキロ', romaji: 'go kiro', shift: false },
+        { num: 6, kanji: '六キロ', reading: 'ろっキロ', romaji: 'rokkiro', shift: true },
+        { num: 7, kanji: '七キロ', reading: 'ななキロ', romaji: 'nana kiro', shift: false },
+        { num: 8, kanji: '八キロ', reading: 'はちキロ', romaji: 'hachi kiro', shift: false },
+        { num: 9, kanji: '九キロ', reading: 'きゅうキロ', romaji: 'kyū kiro', shift: false },
+        { num: 10, kanji: '十キロ', reading: 'じゅっキロ', romaji: 'jukkiro', shift: true }
+      ],
+      specialCounts: [
+        { num: 6, kanji: '六キロ', reading: 'ろくキロ', romaji: 'roku kiro', note: 'neben ろっキロ' },
+        { num: 8, kanji: '八キロ', reading: 'はっキロ', romaji: 'hakkiro', note: 'neben はちキロ' },
+        { num: 10, kanji: '十キロ', reading: 'じっキロ', romaji: 'jikkiro', note: 'neben じゅっキロ' }
+      ],
+      examples: [
+        { japanese: '駅まで二キロぐらいあります。', romaji: 'Eki made ni kiro gurai arimasu.', german: 'Bis zum Bahnhof sind es etwa zwei Kilometer.' },
+        { japanese: 'このスイカは五キロもあります。', romaji: 'Kono suika wa go kiro mo arimasu.', german: 'Diese Wassermelone wiegt ganze fünf Kilo.' }
+      ],
+      notes: 'キロ allein kann Kilogramm oder Kilometer bedeuten – der Kontext entscheidet. Geschrieben oft kg oder km. Lautverschiebung bei 6 (ろっキロ) und 10 (じゅっキロ), wahlweise auch bei 8 (はっキロ).'
+    },
+    {
+      id: 'meetoru',
+      kanji: 'メートル',
+      reading: 'メートル',
+      romaji: 'mētoru',
+      meaning: 'Meter',
+      usage: 'Längen und Entfernungen; geschrieben oft m',
+      category: 'Maße & Einheiten',
+      level: 'N5',
+      questionWord: { kanji: '何メートル', reading: 'なんメートル', romaji: 'nan mētoru' },
+      counts: [
+        { num: 1, kanji: '一メートル', reading: 'いちメートル', romaji: 'ichi mētoru', shift: false },
+        { num: 2, kanji: '二メートル', reading: 'にメートル', romaji: 'ni mētoru', shift: false },
+        { num: 3, kanji: '三メートル', reading: 'さんメートル', romaji: 'san mētoru', shift: false },
+        { num: 4, kanji: '四メートル', reading: 'よんメートル', romaji: 'yon mētoru', shift: false },
+        { num: 5, kanji: '五メートル', reading: 'ごメートル', romaji: 'go mētoru', shift: false },
+        { num: 6, kanji: '六メートル', reading: 'ろくメートル', romaji: 'roku mētoru', shift: false },
+        { num: 7, kanji: '七メートル', reading: 'ななメートル', romaji: 'nana mētoru', shift: false },
+        { num: 8, kanji: '八メートル', reading: 'はちメートル', romaji: 'hachi mētoru', shift: false },
+        { num: 9, kanji: '九メートル', reading: 'きゅうメートル', romaji: 'kyū mētoru', shift: false },
+        { num: 10, kanji: '十メートル', reading: 'じゅうメートル', romaji: 'jū mētoru', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'このプールは二十五メートルです。', romaji: 'Kono pūru wa nijūgo mētoru desu.', german: 'Dieses Becken ist 25 Meter lang.' },
+        { japanese: '百メートル先に交番があります。', romaji: 'Hyaku mētoru saki ni kōban ga arimasu.', german: 'Hundert Meter weiter ist ein Polizeihäuschen.' }
+      ],
+      notes: 'Lehnwort aus dem Französischen (mètre). Keine Lautverschiebungen. Zentimeter: センチ, Kilometer: キロ(メートル).'
+    },
+    {
+      id: 'senchi',
+      kanji: 'センチ',
+      reading: 'センチ',
+      romaji: 'senchi',
+      meaning: 'Zentimeter',
+      usage: 'Kurzform für センチメートル; Körpergröße, kleine Längen',
+      category: 'Maße & Einheiten',
+      level: 'N4',
+      questionWord: { kanji: '何センチ', reading: 'なんセンチ', romaji: 'nan senchi' },
+      counts: [
+        { num: 1, kanji: '一センチ', reading: 'いっセンチ', romaji: 'issenchi', shift: true },
+        { num: 2, kanji: '二センチ', reading: 'にセンチ', romaji: 'ni senchi', shift: false },
+        { num: 3, kanji: '三センチ', reading: 'さんセンチ', romaji: 'san senchi', shift: false },
+        { num: 4, kanji: '四センチ', reading: 'よんセンチ', romaji: 'yon senchi', shift: false },
+        { num: 5, kanji: '五センチ', reading: 'ごセンチ', romaji: 'go senchi', shift: false },
+        { num: 6, kanji: '六センチ', reading: 'ろくセンチ', romaji: 'roku senchi', shift: false },
+        { num: 7, kanji: '七センチ', reading: 'ななセンチ', romaji: 'nana senchi', shift: false },
+        { num: 8, kanji: '八センチ', reading: 'はっセンチ', romaji: 'hassenchi', shift: true },
+        { num: 9, kanji: '九センチ', reading: 'きゅうセンチ', romaji: 'kyū senchi', shift: false },
+        { num: 10, kanji: '十センチ', reading: 'じゅっセンチ', romaji: 'jussenchi', shift: true }
+      ],
+      specialCounts: [
+        { num: 8, kanji: '八センチ', reading: 'はちセンチ', romaji: 'hachi senchi', note: 'neben はっセンチ' },
+        { num: 10, kanji: '十センチ', reading: 'じっセンチ', romaji: 'jissenchi', note: 'neben じゅっセンチ' }
+      ],
+      examples: [
+        { japanese: '私の身長は百六十五センチです。', romaji: 'Watashi no shinchō wa hyaku rokujūgo senchi desu.', german: 'Ich bin 1,65 Meter groß.' },
+        { japanese: 'あと三センチ短くしてください。', romaji: 'Ato san senchi mijikaku shite kudasai.', german: 'Bitte machen Sie es noch drei Zentimeter kürzer.' }
+      ],
+      notes: 'Kurzform von センチメートル (cm). Lautverschiebung wie bei Zählwörtern mit s-Anlaut: いっセンチ, はっセンチ, じゅっセンチ.'
+    },
+    {
+      id: 'guramu',
+      kanji: 'グラム',
+      reading: 'グラム',
+      romaji: 'guramu',
+      meaning: 'Gramm',
+      usage: 'Gewicht; beim Einkaufen oft pro 100 g angegeben (百グラム)',
+      category: 'Maße & Einheiten',
+      level: 'N5',
+      questionWord: { kanji: '何グラム', reading: 'なんグラム', romaji: 'nan guramu' },
+      counts: [
+        { num: 1, kanji: '一グラム', reading: 'いちグラム', romaji: 'ichi guramu', shift: false },
+        { num: 2, kanji: '二グラム', reading: 'にグラム', romaji: 'ni guramu', shift: false },
+        { num: 3, kanji: '三グラム', reading: 'さんグラム', romaji: 'san guramu', shift: false },
+        { num: 4, kanji: '四グラム', reading: 'よんグラム', romaji: 'yon guramu', shift: false },
+        { num: 5, kanji: '五グラム', reading: 'ごグラム', romaji: 'go guramu', shift: false },
+        { num: 6, kanji: '六グラム', reading: 'ろくグラム', romaji: 'roku guramu', shift: false },
+        { num: 7, kanji: '七グラム', reading: 'ななグラム', romaji: 'nana guramu', shift: false },
+        { num: 8, kanji: '八グラム', reading: 'はちグラム', romaji: 'hachi guramu', shift: false },
+        { num: 9, kanji: '九グラム', reading: 'きゅうグラム', romaji: 'kyū guramu', shift: false },
+        { num: 10, kanji: '十グラム', reading: 'じゅうグラム', romaji: 'jū guramu', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '豚肉を三百グラムください。', romaji: 'Butaniku o sanbyaku guramu kudasai.', german: 'Dreihundert Gramm Schweinefleisch, bitte.' },
+        { japanese: 'この肉は百グラム二百円です。', romaji: 'Kono niku wa hyaku guramu nihyaku en desu.', german: 'Dieses Fleisch kostet 200 Yen pro 100 Gramm.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Kilogramm: キログラム oder kurz キロ.'
+    },
+    {
+      id: 'rittoru',
+      kanji: 'リットル',
+      reading: 'リットル',
+      romaji: 'rittoru',
+      meaning: 'Liter',
+      usage: 'Flüssigkeiten und Volumen; geschrieben L oder ℓ',
+      category: 'Maße & Einheiten',
+      level: 'N4',
+      questionWord: { kanji: '何リットル', reading: 'なんリットル', romaji: 'nan rittoru' },
+      counts: [
+        { num: 1, kanji: '一リットル', reading: 'いちリットル', romaji: 'ichi rittoru', shift: false },
+        { num: 2, kanji: '二リットル', reading: 'にリットル', romaji: 'ni rittoru', shift: false },
+        { num: 3, kanji: '三リットル', reading: 'さんリットル', romaji: 'san rittoru', shift: false },
+        { num: 4, kanji: '四リットル', reading: 'よんリットル', romaji: 'yon rittoru', shift: false },
+        { num: 5, kanji: '五リットル', reading: 'ごリットル', romaji: 'go rittoru', shift: false },
+        { num: 6, kanji: '六リットル', reading: 'ろくリットル', romaji: 'roku rittoru', shift: false },
+        { num: 7, kanji: '七リットル', reading: 'ななリットル', romaji: 'nana rittoru', shift: false },
+        { num: 8, kanji: '八リットル', reading: 'はちリットル', romaji: 'hachi rittoru', shift: false },
+        { num: 9, kanji: '九リットル', reading: 'きゅうリットル', romaji: 'kyū rittoru', shift: false },
+        { num: 10, kanji: '十リットル', reading: 'じゅうリットル', romaji: 'jū rittoru', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '毎日水を二リットル飲みます。', romaji: 'Mainichi mizu o ni rittoru nomimasu.', german: 'Ich trinke jeden Tag zwei Liter Wasser.' },
+        { japanese: 'この車はガソリン一リットルで二十キロ走ります。', romaji: 'Kono kuruma wa gasorin ichi rittoru de nijukkiro hashirimasu.', german: 'Dieses Auto fährt mit einem Liter Benzin zwanzig Kilometer.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Milliliter: ミリリットル (ml).'
+    },
+    {
+      id: 'paasento',
+      kanji: 'パーセント',
+      reading: 'パーセント',
+      romaji: 'pāsento',
+      meaning: 'Prozent',
+      usage: 'Anteile, Rabatte, Wahrscheinlichkeiten; geschrieben %',
+      category: 'Maße & Einheiten',
+      level: 'N4',
+      questionWord: { kanji: '何パーセント', reading: 'なんパーセント', romaji: 'nan pāsento' },
+      counts: [
+        { num: 1, kanji: '一パーセント', reading: 'いっパーセント', romaji: 'ippāsento', shift: true },
+        { num: 2, kanji: '二パーセント', reading: 'にパーセント', romaji: 'ni pāsento', shift: false },
+        { num: 3, kanji: '三パーセント', reading: 'さんパーセント', romaji: 'san pāsento', shift: false },
+        { num: 4, kanji: '四パーセント', reading: 'よんパーセント', romaji: 'yon pāsento', shift: false },
+        { num: 5, kanji: '五パーセント', reading: 'ごパーセント', romaji: 'go pāsento', shift: false },
+        { num: 6, kanji: '六パーセント', reading: 'ろっパーセント', romaji: 'roppāsento', shift: true },
+        { num: 7, kanji: '七パーセント', reading: 'ななパーセント', romaji: 'nana pāsento', shift: false },
+        { num: 8, kanji: '八パーセント', reading: 'はっパーセント', romaji: 'happāsento', shift: true },
+        { num: 9, kanji: '九パーセント', reading: 'きゅうパーセント', romaji: 'kyū pāsento', shift: false },
+        { num: 10, kanji: '十パーセント', reading: 'じゅっパーセント', romaji: 'juppāsento', shift: true }
+      ],
+      specialCounts: [
+        { num: 6, kanji: '六パーセント', reading: 'ろくパーセント', romaji: 'roku pāsento', note: 'neben ろっパーセント' },
+        { num: 8, kanji: '八パーセント', reading: 'はちパーセント', romaji: 'hachi pāsento', note: 'neben はっパーセント' },
+        { num: 10, kanji: '十パーセント', reading: 'じっパーセント', romaji: 'jippāsento', note: 'neben じゅっパーセント' }
+      ],
+      examples: [
+        { japanese: '明日の雨の確率は七十パーセントです。', romaji: 'Ashita no ame no kakuritsu wa nanajuppāsento desu.', german: 'Die Regenwahrscheinlichkeit für morgen liegt bei 70 Prozent.' },
+        { japanese: '全品十パーセント引きです。', romaji: 'Zenpin juppāsento biki desu.', german: 'Alle Artikel sind um zehn Prozent reduziert.' }
+      ],
+      notes: 'Lautverschiebung wie bei Zählwörtern mit p-Anlaut: いっ-, ろっ-, はっ-, じゅっパーセント. Für 10-%-Schritte sagt man auch 割（わり）: 三割 = 30 %.'
+    },
+    {
+      id: 'doru',
+      kanji: 'ドル',
+      reading: 'ドル',
+      romaji: 'doru',
+      meaning: 'Dollar',
+      usage: 'Währung, meist US-Dollar; geschrieben $',
+      category: 'Maße & Einheiten',
+      level: 'N4',
+      questionWord: { kanji: '何ドル', reading: 'なんドル', romaji: 'nan doru' },
+      counts: [
+        { num: 1, kanji: '一ドル', reading: 'いちドル', romaji: 'ichi doru', shift: false },
+        { num: 2, kanji: '二ドル', reading: 'にドル', romaji: 'ni doru', shift: false },
+        { num: 3, kanji: '三ドル', reading: 'さんドル', romaji: 'san doru', shift: false },
+        { num: 4, kanji: '四ドル', reading: 'よんドル', romaji: 'yon doru', shift: false },
+        { num: 5, kanji: '五ドル', reading: 'ごドル', romaji: 'go doru', shift: false },
+        { num: 6, kanji: '六ドル', reading: 'ろくドル', romaji: 'roku doru', shift: false },
+        { num: 7, kanji: '七ドル', reading: 'ななドル', romaji: 'nana doru', shift: false },
+        { num: 8, kanji: '八ドル', reading: 'はちドル', romaji: 'hachi doru', shift: false },
+        { num: 9, kanji: '九ドル', reading: 'きゅうドル', romaji: 'kyū doru', shift: false },
+        { num: 10, kanji: '十ドル', reading: 'じゅうドル', romaji: 'jū doru', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'このシャツは二十ドルでした。', romaji: 'Kono shatsu wa nijū doru deshita.', german: 'Dieses Hemd hat zwanzig Dollar gekostet.' },
+        { japanese: '一ドルは今何円ですか。', romaji: 'Ichi doru wa ima nan en desu ka.', german: 'Wie viel Yen ist ein Dollar gerade wert?' }
+      ],
+      notes: 'Keine Lautverschiebungen. Der Wechselkurs heißt 為替レート（かわせレート）; für Yen siehe das Zählwort 円.'
+    },
+    {
+      id: 'yuuro',
+      kanji: 'ユーロ',
+      reading: 'ユーロ',
+      romaji: 'yūro',
+      meaning: 'Euro',
+      usage: 'Währung der Eurozone; geschrieben €',
+      category: 'Maße & Einheiten',
+      level: 'N3',
+      questionWord: { kanji: '何ユーロ', reading: 'なんユーロ', romaji: 'nan yūro' },
+      counts: [
+        { num: 1, kanji: '一ユーロ', reading: 'いちユーロ', romaji: 'ichi yūro', shift: false },
+        { num: 2, kanji: '二ユーロ', reading: 'にユーロ', romaji: 'ni yūro', shift: false },
+        { num: 3, kanji: '三ユーロ', reading: 'さんユーロ', romaji: 'san yūro', shift: false },
+        { num: 4, kanji: '四ユーロ', reading: 'よんユーロ', romaji: 'yon yūro', shift: false },
+        { num: 5, kanji: '五ユーロ', reading: 'ごユーロ', romaji: 'go yūro', shift: false },
+        { num: 6, kanji: '六ユーロ', reading: 'ろくユーロ', romaji: 'roku yūro', shift: false },
+        { num: 7, kanji: '七ユーロ', reading: 'ななユーロ', romaji: 'nana yūro', shift: false },
+        { num: 8, kanji: '八ユーロ', reading: 'はちユーロ', romaji: 'hachi yūro', shift: false },
+        { num: 9, kanji: '九ユーロ', reading: 'きゅうユーロ', romaji: 'kyū yūro', shift: false },
+        { num: 10, kanji: '十ユーロ', reading: 'じゅうユーロ', romaji: 'jū yūro', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: 'コーヒーは三ユーロでした。', romaji: 'Kōhī wa san yūro deshita.', german: 'Der Kaffee hat drei Euro gekostet.' },
+        { japanese: 'ホテル代は一泊八十ユーロです。', romaji: 'Hoterudai wa ippaku hachijū yūro desu.', german: 'Das Hotel kostet 80 Euro pro Nacht.' }
+      ],
+      notes: 'Keine Lautverschiebungen. Cent heißt セント.'
+    },
+    {
+      id: 'gousha',
+      kanji: '号車',
+      reading: 'ごうしゃ',
+      romaji: 'gōsha',
+      meaning: 'Wagen Nr. … (Zug)',
+      usage: 'Wagennummer bei Zügen, vor allem beim Shinkansen und bei reservierten Plätzen',
+      category: 'Transport',
+      level: 'N3',
+      questionWord: { kanji: '何号車', reading: 'なんごうしゃ', romaji: 'nangōsha' },
+      counts: [
+        { num: 1, kanji: '一号車', reading: 'いちごうしゃ', romaji: 'ichigōsha', shift: false },
+        { num: 2, kanji: '二号車', reading: 'にごうしゃ', romaji: 'nigōsha', shift: false },
+        { num: 3, kanji: '三号車', reading: 'さんごうしゃ', romaji: 'sangōsha', shift: false },
+        { num: 4, kanji: '四号車', reading: 'よんごうしゃ', romaji: 'yongōsha', shift: false },
+        { num: 5, kanji: '五号車', reading: 'ごごうしゃ', romaji: 'gogōsha', shift: false },
+        { num: 6, kanji: '六号車', reading: 'ろくごうしゃ', romaji: 'rokugōsha', shift: false },
+        { num: 7, kanji: '七号車', reading: 'ななごうしゃ', romaji: 'nanagōsha', shift: false },
+        { num: 8, kanji: '八号車', reading: 'はちごうしゃ', romaji: 'hachigōsha', shift: false },
+        { num: 9, kanji: '九号車', reading: 'きゅうごうしゃ', romaji: 'kyūgōsha', shift: false },
+        { num: 10, kanji: '十号車', reading: 'じゅうごうしゃ', romaji: 'jūgōsha', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '指定席は七号車です。', romaji: 'Shiteiseki wa nanagōsha desu.', german: 'Die reservierten Plätze sind in Wagen 7.' },
+        { japanese: '三号車の十二番Aの席です。', romaji: 'Sangōsha no jūniban ē no seki desu.', german: 'Es ist Platz 12A in Wagen 3.' }
+      ],
+      notes: '号 = Nummer, 車 = Wagen. Markierungen auf dem Bahnsteig zeigen, wo welcher Wagen hält. Keine Lautverschiebungen.'
+    },
+    {
+      id: 'bansen',
+      kanji: '番線',
+      reading: 'ばんせん',
+      romaji: 'bansen',
+      meaning: 'Gleis Nr. …',
+      usage: 'Bahnsteig- bzw. Gleisnummer im Bahnhof',
+      category: 'Transport',
+      level: 'N3',
+      questionWord: { kanji: '何番線', reading: 'なんばんせん', romaji: 'nanbansen' },
+      counts: [
+        { num: 1, kanji: '一番線', reading: 'いちばんせん', romaji: 'ichibansen', shift: false },
+        { num: 2, kanji: '二番線', reading: 'にばんせん', romaji: 'nibansen', shift: false },
+        { num: 3, kanji: '三番線', reading: 'さんばんせん', romaji: 'sanbansen', shift: false },
+        { num: 4, kanji: '四番線', reading: 'よんばんせん', romaji: 'yonbansen', shift: false },
+        { num: 5, kanji: '五番線', reading: 'ごばんせん', romaji: 'gobansen', shift: false },
+        { num: 6, kanji: '六番線', reading: 'ろくばんせん', romaji: 'rokubansen', shift: false },
+        { num: 7, kanji: '七番線', reading: 'ななばんせん', romaji: 'nanabansen', shift: false },
+        { num: 8, kanji: '八番線', reading: 'はちばんせん', romaji: 'hachibansen', shift: false },
+        { num: 9, kanji: '九番線', reading: 'きゅうばんせん', romaji: 'kyūbansen', shift: false },
+        { num: 10, kanji: '十番線', reading: 'じゅうばんせん', romaji: 'jūbansen', shift: false }
+      ],
+      specialCounts: [],
+      examples: [
+        { japanese: '東京行きの電車は二番線から出ます。', romaji: 'Tōkyō iki no densha wa nibansen kara demasu.', german: 'Der Zug nach Tokyo fährt von Gleis 2 ab.' },
+        { japanese: 'まもなく三番線に電車が参ります。', romaji: 'Mamonaku sanbansen ni densha ga mairimasu.', german: 'In Kürze fährt ein Zug auf Gleis 3 ein.' }
+      ],
+      notes: 'Typische Bahnhofsdurchsage: 〜番線に電車が参ります. 番 = Nummer, 線 = Linie/Gleis. Keine Lautverschiebungen.'
+    },
+    {
+      id: 'meisama',
+      kanji: '名様',
+      reading: 'めいさま',
+      romaji: 'meisama',
+      meaning: 'Personen (sehr höflich, für Gäste)',
+      usage: 'Gastronomie und Service: Anzahl der Gäste',
+      category: 'Menschen',
+      level: 'N4',
+      questionWord: { kanji: '何名様', reading: 'なんめいさま', romaji: 'nanmeisama' },
+      counts: [
+        { num: 1, kanji: '一名様', reading: 'いちめいさま', romaji: 'ichimeisama', shift: false },
+        { num: 2, kanji: '二名様', reading: 'にめいさま', romaji: 'nimeisama', shift: false },
+        { num: 3, kanji: '三名様', reading: 'さんめいさま', romaji: 'sanmeisama', shift: false },
+        { num: 4, kanji: '四名様', reading: 'よんめいさま', romaji: 'yonmeisama', shift: false },
+        { num: 5, kanji: '五名様', reading: 'ごめいさま', romaji: 'gomeisama', shift: false },
+        { num: 6, kanji: '六名様', reading: 'ろくめいさま', romaji: 'rokumeisama', shift: false },
+        { num: 7, kanji: '七名様', reading: 'ななめいさま', romaji: 'nanameisama', shift: false },
+        { num: 8, kanji: '八名様', reading: 'はちめいさま', romaji: 'hachimeisama', shift: false },
+        { num: 9, kanji: '九名様', reading: 'きゅうめいさま', romaji: 'kyūmeisama', shift: false },
+        { num: 10, kanji: '十名様', reading: 'じゅうめいさま', romaji: 'jūmeisama', shift: false }
+      ],
+      specialCounts: [
+        { num: 1, kanji: 'お一人様', reading: 'おひとりさま', romaji: 'ohitorisama', note: 'für einen Gast meist so' },
+        { num: 2, kanji: 'お二人様', reading: 'おふたりさま', romaji: 'ofutarisama', note: 'für zwei Gäste meist so' }
+      ],
+      examples: [
+        { japanese: 'いらっしゃいませ。何名様ですか。', romaji: 'Irasshaimase. Nanmeisama desu ka.', german: 'Willkommen! Für wie viele Personen?' },
+        { japanese: '四名様でお待ちの田中様、どうぞ。', romaji: 'Yonmeisama de omachi no Tanaka-sama, dōzo.', german: 'Tanaka, Tisch für vier Personen, bitte.' }
+      ],
+      notes: 'Höfliche Form von 名（めい）, mit der das Personal Gäste zählt. Über sich selbst sagt man nicht 名様, sondern z. B. 三人です oder 三名です. Für einen oder zwei Gäste hört man meist お一人様／お二人様.'
+    },
+    {
+      id: 'kyaku',
+      kanji: '脚',
+      reading: 'きゃく',
+      romaji: 'kyaku',
+      meaning: 'Stühle, Möbel mit Beinen',
+      usage: 'Stühle, Tische und Hocker (eher formell oder schriftlich)',
+      category: 'Objekte',
+      level: 'N2',
+      questionWord: { kanji: '何脚', reading: 'なんきゃく', romaji: 'nankyaku' },
+      counts: [
+        { num: 1, kanji: '一脚', reading: 'いっきゃく', romaji: 'ikkyaku', shift: true },
+        { num: 2, kanji: '二脚', reading: 'にきゃく', romaji: 'nikyaku', shift: false },
+        { num: 3, kanji: '三脚', reading: 'さんきゃく', romaji: 'sankyaku', shift: false },
+        { num: 4, kanji: '四脚', reading: 'よんきゃく', romaji: 'yonkyaku', shift: false },
+        { num: 5, kanji: '五脚', reading: 'ごきゃく', romaji: 'gokyaku', shift: false },
+        { num: 6, kanji: '六脚', reading: 'ろっきゃく', romaji: 'rokkyaku', shift: true },
+        { num: 7, kanji: '七脚', reading: 'ななきゃく', romaji: 'nanakyaku', shift: false },
+        { num: 8, kanji: '八脚', reading: 'はっきゃく', romaji: 'hakkyaku', shift: true },
+        { num: 9, kanji: '九脚', reading: 'きゅうきゃく', romaji: 'kyūkyaku', shift: false },
+        { num: 10, kanji: '十脚', reading: 'じゅっきゃく', romaji: 'jukkyaku', shift: true }
+      ],
+      specialCounts: [
+        { num: 8, kanji: '八脚', reading: 'はちきゃく', romaji: 'hachikyaku', note: 'neben はっきゃく' },
+        { num: 10, kanji: '十脚', reading: 'じっきゃく', romaji: 'jikkyaku', note: 'neben じゅっきゃく' }
+      ],
+      examples: [
+        { japanese: '会議室に椅子を十脚運んでください。', romaji: 'Kaigishitsu ni isu o jukkyaku hakonde kudasai.', german: 'Bitte bringen Sie zehn Stühle in den Besprechungsraum.' },
+        { japanese: 'このテーブルには椅子が四脚ついています。', romaji: 'Kono tēburu ni wa isu ga yonkyaku tsuite imasu.', german: 'Zu diesem Tisch gehören vier Stühle.' }
+      ],
+      notes: 'Im Alltag zählt man Stühle oft einfach mit つ oder 個; 脚 ist formeller (Inventarlisten, Möbelhandel). Lautverschiebung wie bei Zählwörtern mit k-Anlaut.'
+    },
+    {
+      id: 'toori',
+      kanji: '通り',
+      reading: 'とおり',
+      romaji: 'tōri',
+      meaning: 'Arten, Weisen (Möglichkeiten)',
+      usage: 'Anzahl von Methoden, Varianten oder Lösungswegen',
+      category: 'Gruppen & Mengen',
+      level: 'N3',
+      questionWord: { kanji: '何通り', reading: 'なんとおり', romaji: 'nantōri' },
+      counts: [
+        { num: 1, kanji: '一通り', reading: 'ひととおり', romaji: 'hitotōri', shift: true },
+        { num: 2, kanji: '二通り', reading: 'ふたとおり', romaji: 'futatōri', shift: true },
+        { num: 3, kanji: '三通り', reading: 'さんとおり', romaji: 'santōri', shift: false },
+        { num: 4, kanji: '四通り', reading: 'よんとおり', romaji: 'yontōri', shift: false },
+        { num: 5, kanji: '五通り', reading: 'ごとおり', romaji: 'gotōri', shift: false },
+        { num: 6, kanji: '六通り', reading: 'ろくとおり', romaji: 'rokutōri', shift: false },
+        { num: 7, kanji: '七通り', reading: 'ななとおり', romaji: 'nanatōri', shift: false },
+        { num: 8, kanji: '八通り', reading: 'はちとおり', romaji: 'hachitōri', shift: false },
+        { num: 9, kanji: '九通り', reading: 'きゅうとおり', romaji: 'kyūtōri', shift: false },
+        { num: 10, kanji: '十通り', reading: 'じゅうとおり', romaji: 'jūtōri', shift: false }
+      ],
+      specialCounts: [
+        { num: 3, kanji: '三通り', reading: 'みとおり', romaji: 'mitōri', note: 'seltener, altjapanische Zahl' },
+        { num: 4, kanji: '四通り', reading: 'よとおり', romaji: 'yotōri', note: 'neben よんとおり' }
+      ],
+      examples: [
+        { japanese: 'この問題には二通りの解き方があります。', romaji: 'Kono mondai ni wa futatōri no tokikata ga arimasu.', german: 'Für diese Aufgabe gibt es zwei Lösungswege.' },
+        { japanese: '組み合わせは全部で六通りです。', romaji: 'Kumiawase wa zenbu de rokutōri desu.', german: 'Insgesamt gibt es sechs Kombinationen.' }
+      ],
+      notes: '1 und 2 werden japanisch gelesen: ひととおり, ふたとおり. Nicht zu verwechseln mit 通（つう）für Briefe. 一通り heißt außerdem „im Großen und Ganzen, einmal durch“: 資料に一通り目を通す.'
     }
   ]
 };

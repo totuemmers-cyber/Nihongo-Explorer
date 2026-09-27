@@ -25,7 +25,9 @@
     'Gruppen & Mengen',
     'Ereignisse',
     'Natur',
-    'Medizin'
+    'Medizin',
+    'Reihenfolge',
+    'Maße & Einheiten'
   ];
 
   var CANONICAL_RADICAL_COUNT = 214;
