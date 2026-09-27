@@ -28,17 +28,17 @@ N5/N4 passages provide authored ruby on all written kanji. Higher levels offer o
 
 ## Additional JLPT task formats (27 September 2026)
 
-Since 27 September 2026 the library also contains **34 units in five additional JLPT task formats**. They follow the ten standard units of each level and skill and continue their numbering: reading-n4-11, listening-n5-11 and so on. Standard units keep their original schema, IDs and answer keys; only format units carry a  field.
+Since 27 September 2026 the library also contains **34 units in five additional JLPT task formats**. They follow the ten standard units of each level and skill and continue their numbering: reading-n4-11, listening-n5-11 and so on. Standard units keep their original schema, IDs and answer keys; only format units carry a `format` field.
 
 | Format | JLPT section | Skill | Levels | Units | Shape |
 | --- | --- | --- | --- | ---: | --- |
-|  | 即時応答 | Hören | N5–N1 | 10 | four short lines, pick the most natural reply (3 choices) |
-|  | 発話表現 | Hören | N5–N3 | 6 | situation description, pick what one says (3 choices) |
-|  | 情報検索 | Lesen | N4–N1 | 8 | notice, timetable or rules page; combine conditions (2–3 questions) |
-|  | 統合理解 | Lesen | N2–N1 | 4 | Text A and Text B on one topic; compare positions |
-|  | 長文 | Lesen | N2–N1 | 6 | 3+ paragraphs, at least 600 (N2) / 900 (N1) characters, 3–4 questions |
+| `quick-response` | 即時応答 | Hören | N5–N1 | 10 | four short lines, pick the most natural reply (3 choices) |
+| `utterance` | 発話表現 | Hören | N5–N3 | 6 | situation description, pick what one says (3 choices) |
+| `info-search` | 情報検索 | Lesen | N4–N1 | 8 | notice, timetable or rules page; combine conditions (2–3 questions) |
+| `integrated` | 統合理解 | Lesen | N2–N1 | 4 | Text A and Text B on one topic; compare positions |
+| `long` | 長文 | Lesen | N2–N1 | 6 | 3+ paragraphs, at least 600 (N2) / 900 (N1) characters, 3–4 questions |
 
-Sources are  and  (merged by ). The build derives each format's introduction, practice time and question kind; answer positions are distributed per choice count. The UI shows a format label on list cards and unit headers, "Text A/B" labels on compared texts, and scores out of the unit's own question count.  enforces per-format rules (skill, question and choice counts, Text A/B labels, minimum long-text length). All 34 units were checked by an independent review. The 16 new recordings were generated with the same native pipeline, as a partial run:  now accepts a comma-separated list and adds receipt entries for new units. Like the earlier recordings, they still need a perceptual listening review.
+Sources are `scripts/comprehension/formats-reading.cjs` and `formats-listening.cjs` (merged by `formats.cjs`). The build derives each format's introduction, practice time and question kind; answer positions are distributed per choice count. The UI shows a format label on list cards and unit headers, "Text A/B" labels on compared texts, and scores out of the unit's own question count. `npm run audit:comprehension` enforces per-format rules (skill, question and choice counts, Text A/B labels, minimum long-text length). All 34 units were checked by an independent review. The 16 new recordings were generated with the same native pipeline, as a partial run: `./scripts/generate-comprehension-audio.ps1 -Only id1,id2,…` now accepts a comma-separated list and adds receipt entries for new units. Like the earlier recordings, they still need a perceptual listening review.
 
 ## Files and reproduction
 
