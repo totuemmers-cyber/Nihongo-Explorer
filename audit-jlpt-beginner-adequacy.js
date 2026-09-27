@@ -158,6 +158,12 @@ const ROMAJI_READING_FIXTURES = [
   ['教室に学生が二十人います。', 'Kyoushitsu ni gakusei ga nijuunin imasu.', 'きょうしつにがくせいがにじゅうにんいます。'],
   ['東京に行きます。', 'Tōkyō ni ikimasu.', 'とうきょうにいきます。'],
   ['コーヒーを飲みます。', 'Koohii o nomimasu.', 'コーヒーをのみます。'],
+  // Macron vowels resolved per kanji, by vocabulary words inside a run, and by お-prefixed words.
+  ['公共交通機関を利用します。', 'Kōkyō kōtsū kikan o riyō shimasu.', 'こうきょうこうつうきかんをりようします。'],
+  ['大きな地震がありました。', 'Ōkina jishin ga arimashita.', 'おおきなじしんがありました。'],
+  ['昨日早く寝ました。', 'Kinō hayaku nemashita.', 'きのうはやくねました。'],
+  ['タイは一年中暑いです。', 'Tai wa ichinenjū atsui desu.', 'タイはいちねんじゅうあついです。'],
+  ['お父さんは会社員です。', 'Otōsan wa kaishain desu.', 'おとうさんはかいしゃいんです。'],
   ['猫がいます。', 'Neko wa imasu.', null],
   ['9時に出ます。', 'Kuji ni demasu.', null]
 ];

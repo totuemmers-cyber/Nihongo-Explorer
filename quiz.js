@@ -311,7 +311,7 @@
       if (KANJI_RUN_CHAR_RE.test(ch)) {
         var end = i;
         while (end < text.length && KANJI_RUN_CHAR_RE.test(text[end])) end++;
-        tokens.push({ wild: true, source: text.slice(i, end), following: text.slice(end) });
+        tokens.push({ wild: true, source: text.slice(i, end), following: text.slice(end), preceding: text.slice(0, i) });
         i = end;
         continue;
       }
@@ -348,20 +348,129 @@
   // The vocabulary spelling decides what romaji leaves open; otherwise only plain readings are used.
   function resolveKanjiReading(token, units, start, end) {
     var index = getVocabReadingIndex();
-    for (var suffixLength = 0; suffixLength <= 4 && suffixLength <= token.following.length; suffixLength++) {
-      var suffix = token.following.slice(0, suffixLength);
-      if (hasKanji(suffix)) break;
-      var readings = index[token.source + suffix] || [];
-      for (var r = 0; r < readings.length; r++) {
-        var reading = toHiragana(readings[r]);
-        var okurigana = toHiragana(suffix);
-        if (reading.slice(reading.length - okurigana.length) !== okurigana) continue;
-        var stem = reading.slice(0, reading.length - okurigana.length);
-        if (stem && readingMatchesUnits(stem, units, start, end)) return stem;
+    // Honorific お/ご words (お父さん) are listed with their prefix.
+    var prefixes = [''];
+    var before = (token.preceding || '').slice(-1);
+    if (before === 'お' || before === 'ご') prefixes.push(before);
+    for (var pi = 0; pi < prefixes.length; pi++) {
+      var prefix = prefixes[pi];
+      for (var suffixLength = 0; suffixLength <= 4 && suffixLength <= token.following.length; suffixLength++) {
+        var suffix = token.following.slice(0, suffixLength);
+        if (hasKanji(suffix)) break;
+        var readings = index[prefix + token.source + suffix] || [];
+        for (var r = 0; r < readings.length; r++) {
+          var reading = toHiragana(readings[r]);
+          var okurigana = toHiragana(suffix);
+          if (reading.slice(0, prefix.length) !== prefix) continue;
+          if (reading.slice(reading.length - okurigana.length) !== okurigana) continue;
+          var stem = reading.slice(prefix.length, reading.length - okurigana.length);
+          if (stem && readingMatchesUnits(stem, units, start, end)) return stem;
+        }
       }
     }
     var plain = units.slice(start, end).join('');
-    return plain.indexOf(LONG_VOWEL) === -1 && plain.indexOf('ず') === -1 ? plain : null;
+    if (plain.indexOf('ず') !== -1) return null;
+    if (plain.indexOf(LONG_VOWEL) === -1) return plain;
+    return resolveLongVowelsByKanji(token.source, token.following, units, start, end);
+  }
+
+  // A macron vowel (ō = おう or おお) is settled per kanji: the run must split into the kanji's
+  // listed on/kun readings, or vocabulary words inside the run (昨日 きのう), for exactly one
+  // spelling of the long vowels.
+  var kanjiReadingIndex = null;
+  var kanjiReadingIndexSize = -1;
+  var VOICED = { か: 'が', き: 'ぎ', く: 'ぐ', け: 'げ', こ: 'ご', さ: 'ざ', し: 'じ', す: 'ず', せ: 'ぜ', そ: 'ぞ',
+    た: 'だ', ち: 'ぢ', つ: 'づ', て: 'で', と: 'ど', は: 'ば', ひ: 'び', ふ: 'ぶ', へ: 'べ', ほ: 'ぼ' };
+  var SEMI_VOICED = { は: 'ぱ', ひ: 'ぴ', ふ: 'ぷ', へ: 'ぺ', ほ: 'ぽ' };
+
+  function getKanjiReadingIndex() {
+    var kanji = getAllKanji();
+    if (kanjiReadingIndex && kanjiReadingIndexSize === kanji.length) return kanjiReadingIndex;
+    kanjiReadingIndex = {};
+    kanjiReadingIndexSize = kanji.length;
+    kanji.forEach(function (k) {
+      var set = kanjiReadingIndex[k.kanji] || (kanjiReadingIndex[k.kanji] = {});
+      [].concat(k.on || [], k.kun || []).forEach(function (r) {
+        var base = toHiragana(String(r.kana || '').split('.')[0].replace(/[-－]/g, ''));
+        if (!base) return;
+        var forms = [base];
+        if (VOICED[base[0]]) forms.push(VOICED[base[0]] + base.slice(1));
+        if (SEMI_VOICED[base[0]]) forms.push(SEMI_VOICED[base[0]] + base.slice(1));
+        if (base[0] === 'ち') forms.push('じ' + base.slice(1));
+        forms.slice().forEach(function (f) {
+          if (f.length > 1 && /[きくちつ]$/.test(f)) forms.push(f.slice(0, -1) + 'っ');
+        });
+        forms.forEach(function (f) { set[f] = true; });
+      });
+    });
+    return kanjiReadingIndex;
+  }
+
+  // Readings of the run's last kanji taken from vocabulary words with their okurigana (暑い → あつ).
+  function trailingReadings(vocab, stem, following) {
+    var out = [];
+    for (var k = 1; k <= 3 && k <= following.length; k++) {
+      var okurigana = toHiragana(following.slice(0, k));
+      if (hasKanji(okurigana)) break;
+      (vocab[stem + following.slice(0, k)] || []).forEach(function (r) {
+        var reading = toHiragana(r);
+        if (reading.length > okurigana.length && reading.slice(-okurigana.length) === okurigana) {
+          out.push(reading.slice(0, -okurigana.length));
+        }
+      });
+    }
+    return out;
+  }
+
+  function splitsIntoKanjiReadings(source, kana, following) {
+    var index = getKanjiReadingIndex();
+    var vocab = getVocabReadingIndex();
+    var chars = source.split('');
+    var memo = {};
+    var fits = function (c, p) {
+      if (c === chars.length) return p === kana.length;
+      var key = c + ':' + p;
+      if (Object.prototype.hasOwnProperty.call(memo, key)) return memo[key];
+      var ch = chars[c] === '々' && c > 0 ? chars[c - 1] : chars[c];
+      var readings = index[ch] || {};
+      var ok = false;
+      for (var q = p + 1; q <= kana.length && q - p <= 6 && !ok; q++) {
+        if (readings[kana.slice(p, q)]) ok = fits(c + 1, q);
+      }
+      for (var len = 2; len <= 4 && c + len <= chars.length && !ok; len++) {
+        var words = vocab[source.slice(c, c + len)] || [];
+        for (var w = 0; w < words.length && !ok; w++) {
+          var wr = toHiragana(words[w]);
+          if (kana.slice(p, p + wr.length) === wr) ok = fits(c + len, p + wr.length);
+        }
+      }
+      if (!ok && following && chars.length - c <= 4) {
+        ok = trailingReadings(vocab, source.slice(c), following).indexOf(kana.slice(p)) !== -1;
+      }
+      memo[key] = ok;
+      return ok;
+    };
+    return fits(0, 0);
+  }
+
+  function resolveLongVowelsByKanji(source, following, units, start, end) {
+    var spellings = [''];
+    for (var i = start; i < end; i++) {
+      var unit = units[i];
+      if (unit !== LONG_VOWEL) {
+        spellings = spellings.map(function (s) { return s + unit; });
+        continue;
+      }
+      var vowel = vowelBefore(units, i);
+      if (!vowel) return null;
+      var options = LONG_VOWEL_KANA[vowel].split('');
+      var next = [];
+      spellings.forEach(function (s) { options.forEach(function (o) { next.push(s + o); }); });
+      spellings = next;
+      if (spellings.length > 16) return null;
+    }
+    var found = spellings.filter(function (s) { return splitsIntoKanjiReadings(source, s, following); });
+    return found.length === 1 ? found[0] : null;
   }
 
   function kanaFromRomaji(text, romaji, keepTokens) {
