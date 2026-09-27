@@ -306,7 +306,7 @@
     },
     vocab: {
       // The correction rules are only needed to hydrate vocab, so they load with it instead of at startup.
-      scripts: ['vocab-correction-rules.js', 'vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
+      scripts: ['vocab-correction-rules.js', 'vocab-romaji-hepburn.js', 'vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
         var rawVocabSources = [

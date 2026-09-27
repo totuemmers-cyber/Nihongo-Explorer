@@ -169,13 +169,59 @@
     return normalizeList(sourceName, list);
   };
 
+  // Modified Hepburn long vowels come from a generated layer (vocab-romaji-hepburn.js): per source and
+  // index, each romaji string lists [start, length, replacement] spans. A string is rewritten only while
+  // its hash still matches, so an entry edited later keeps its authored romaji instead of a stale rewrite.
+  function romajiHash(text) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < text.length; i++) {
+      h ^= text.charCodeAt(i);
+      h = Math.imul(h, 0x01000193) >>> 0;
+    }
+    return ('0000000' + h.toString(16)).slice(-8);
+  }
+
+  function applyRomajiSpans(text, hash, spans) {
+    if (typeof text !== 'string' || romajiHash(text) !== hash) return text;
+    for (var i = spans.length - 1; i >= 0; i--) {
+      text = text.slice(0, spans[i][0]) + spans[i][2] + text.slice(spans[i][0] + spans[i][1]);
+    }
+    return text;
+  }
+
+  function applyRomajiLayer(sourceName, items) {
+    var layer = window.VOCAB_ROMAJI_HEPBURN && window.VOCAB_ROMAJI_HEPBURN[sourceName];
+    if (!layer) return items;
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      var fields = layer[item.__sourceIndex];
+      if (!fields) continue;
+      for (var f = 0; f < fields.length; f++) {
+        var field = fields[f];
+        if (field[0] === 'r') {
+          item.romaji = applyRomajiSpans(item.romaji, field[1], field[2]);
+          continue;
+        }
+        var example = item.examples && item.examples[field[0]];
+        if (!example) continue;
+        var romaji = applyRomajiSpans(example.romaji, field[1], field[2]);
+        if (romaji === example.romaji) continue;
+        item.examples[field[0]] = cloneItem(example);
+        item.examples[field[0]].romaji = romaji;
+      }
+    }
+    return items;
+  }
+
+  window.getVocabRomajiHash = romajiHash;
+
   window.getNormalizedVocabSources = function (sources) {
     var sourceList = sources || buildDefaultSources();
     var normalized = [];
     for (var i = 0; i < sourceList.length; i++) {
       normalized.push({
         name: sourceList[i].name,
-        items: normalizeList(sourceList[i].name, sourceList[i].items || [])
+        items: applyRomajiLayer(sourceList[i].name, normalizeList(sourceList[i].name, sourceList[i].items || []))
       });
     }
     return normalized;

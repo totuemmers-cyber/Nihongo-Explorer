@@ -108,6 +108,9 @@ async function run() {
       app.sections.vocab.dom.search.value = q; app.sections.vocab.applyFilters();
       assert(app.sections.vocab.filteredItems.some(v => v.word === '東京'), 'romaji search finds 東京 for ' + q);
     }
+    // The generated Hepburn layer is applied when vocabulary loads.
+    const tokyo = app.sections.vocab.allItems.find(v => v.word === '東京');
+    assert.equal(tokyo.romaji, 'tōkyō');
     app.sections.vocab.dom.search.value = 'Wasser'; app.sections.vocab.applyFilters();
     w.history.back();
     await until(() => app.activeTab === 'kanji' && sec.isOverlayOpen(), 'history restores Kanji');
