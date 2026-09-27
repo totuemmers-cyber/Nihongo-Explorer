@@ -1,0 +1,3846 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:yoshiashi",
+      "revisionId": "049-add-yoshiashi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "善し悪し",
+        "reading": "よしあし",
+        "romaji": "yoshiashi",
+        "meaning": "Gut und Schlecht, Qualität; Vor- und Nachteile",
+        "type": "Nomen",
+        "category": "Bewertung",
+        "level": "N1",
+        "notes": "物事の善し悪し (was gut und was schlecht ist), 善し悪しを判断する (die Qualität beurteilen). Als Urteil: それも善し悪しだ (das hat seine Vor- und Nachteile). Auch 良し悪し geschrieben.",
+        "examples": [
+          {
+            "japanese": "小さな子どもには、まだ物事の善し悪しが分からない。",
+            "romaji": "Chiisana kodomo ni wa, mada monogoto no yoshiashi ga wakaranai.",
+            "german": "Kleine Kinder können noch nicht unterscheiden, was gut und was schlecht ist."
+          },
+          {
+            "japanese": "便利すぎるのも善し悪しだ。",
+            "romaji": "Benrisugiru no mo yoshiashi da.",
+            "german": "Zu viel Bequemlichkeit hat auch ihre Schattenseiten."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "良し悪し"
+        ],
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273647478",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "善し悪し / ヨシアシ; 名詞/普通名詞/一般/*; *; *; lemma 善し悪し; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "善し悪し",
+              "reading": "よしあし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "善し悪し as \"Gut und Schlecht, Qualität; Vor- und Nachteile\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 善し悪し【よしあし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581170; spelling=善し悪し; reading=よしあし; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1581170 善し悪し/よしあし sense(s) 1,2 support \"Gut und Schlecht, Qualität; Vor- und Nachteile\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1581170",
+            "spelling": "善し悪し",
+            "reading": "よしあし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "right or wrong",
+                  "good or bad",
+                  "quality",
+                  "suitability"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "having both merits and demerits",
+                  "having both advantages and disadvantages"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "善し悪し|よしあし",
+          "referenceIndex": 0,
+          "referenceHash": "f6c53ba471c47d735271330bb234f985885964f554dcc6de09f8eaea98e436f7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Gut und Schlecht, Qualität; Vor- und Nachteile\" matches JMdict 1581170 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Children and moral judgement.",
+          "Downside of too much convenience."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1581170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@273647478 attest 1,2; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273647478",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "善し悪し / ヨシアシ; 名詞/普通名詞/一般/*; *; *; lemma 善し悪し; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "善し悪し",
+              "reading": "よしあし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "善し悪し as \"Gut und Schlecht, Qualität; Vor- und Nachteile\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 善し悪し【よしあし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1581170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2a60d54457351f30e809b1be45d704a464b90ccd0bf8345f7dc25b7f4b3670b5",
+        "approvalHash": "1da6c161fc16407bd9cd36c4610884c767c411a6c82d9eaf9bf793fbc6683204"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "2a60d54457351f30e809b1be45d704a464b90ccd0bf8345f7dc25b7f4b3670b5",
+        "approvalHash": "1da6c161fc16407bd9cd36c4610884c767c411a6c82d9eaf9bf793fbc6683204"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yosomi",
+      "revisionId": "049-add-yosomi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "よそ見",
+        "reading": "よそみ",
+        "romaji": "yosomi",
+        "meaning": "Wegschauen, Unaufmerksamkeit",
+        "type": "Nomen",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Als する-Verb: よそ見する (woanders hinschauen, nicht aufpassen). よそ見運転 (unaufmerksames Fahren). Auch 余所見 geschrieben.",
+        "examples": [
+          {
+            "japanese": "授業中によそ見をして、先生に注意された。",
+            "romaji": "Jugyouchuu ni yosomi o shite, sensei ni chuui sareta.",
+            "german": "Ich schaute im Unterricht woanders hin und wurde vom Lehrer ermahnt."
+          },
+          {
+            "japanese": "運転中のよそ見は事故のもとだ。",
+            "romaji": "Untenchuu no yosomi wa jiko no moto da.",
+            "german": "Wer beim Fahren nicht auf die Straße schaut, riskiert einen Unfall."
+          }
+        ],
+        "pitch": 2,
+        "aliases": [
+          "余所見"
+        ],
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274326619",
+            "patterns": [
+              2,
+              3
+            ],
+            "finding": "よそ見 / ヨソミ; 名詞/普通名詞/一般/*; *; *; lemma 余所見; aType 2,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よそ見",
+              "reading": "よそみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "よそ見 as \"Wegschauen, Unaufmerksamkeit\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (余所見), Nihongo Master N1 (よそ見). Editorial N1.",
+      "rationale": "Add よそ見【よそみ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1544190; spelling=よそ見; reading=よそみ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1544190 よそ見/よそみ sense(s) 1 support \"Wegschauen, Unaufmerksamkeit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1544190",
+            "spelling": "よそ見",
+            "reading": "よそみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "looking away",
+                  "looking aside"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "よそ見|よそみ",
+          "referenceIndex": 0,
+          "referenceHash": "81bc404faae0e9ba99c6ee45e925b85ccee7ccef75ffb3289dbd520ede1606a0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Wegschauen, Unaufmerksamkeit\" matches JMdict 1544190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Not paying attention in class.",
+          "Road safety."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1544190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1 (余所見), Nihongo Master N1 (よそ見). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@274326619 attest 2,3; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274326619",
+            "patterns": [
+              2,
+              3
+            ],
+            "finding": "よそ見 / ヨソミ; 名詞/普通名詞/一般/*; *; *; lemma 余所見; aType 2,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よそ見",
+              "reading": "よそみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "よそ見 as \"Wegschauen, Unaufmerksamkeit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add よそ見【よそみ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1544190 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9d011edf85a7886be938638d4807186ddb841d85bc0f52147a8a7edeebd8b357",
+        "approvalHash": "404675ea1b06a6202f468ae6ebb02dc2241a69ef0da94639b182ca8a4547da30"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "9d011edf85a7886be938638d4807186ddb841d85bc0f52147a8a7edeebd8b357",
+        "approvalHash": "404675ea1b06a6202f468ae6ebb02dc2241a69ef0da94639b182ca8a4547da30"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yotte",
+      "revisionId": "049-add-yotte",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "よって",
+        "reading": "よって",
+        "romaji": "yotte",
+        "meaning": "daher, folglich, deshalb",
+        "type": "Ausdruck",
+        "category": "Sprache",
+        "level": "N1",
+        "notes": "Förmliche Konjunktion am Satzanfang, typisch in Urkunden, Urteilen und Beweisen: よって、〜とする (daher gilt …). Auf Urkunden: よってこれを賞します (dafür wird diese Auszeichnung verliehen). Nicht verwechseln mit 〜によって (durch, je nach).",
+        "examples": [
+          {
+            "japanese": "あなたは本大会で優秀な成績を収めました。よってこれを賞します。",
+            "romaji": "Anata wa hon taikai de yuushuu na seiseki o osamemashita. Yotte kore o shou shimasu.",
+            "german": "Sie haben bei diesem Wettbewerb hervorragende Leistungen erzielt. Dafür wird Ihnen diese Auszeichnung verliehen."
+          },
+          {
+            "japanese": "原告の主張には根拠がない。よって、本件の訴えを棄却する。",
+            "romaji": "Genkoku no shuchou ni wa konkyo ga nai. Yotte, honken no uttae o kikyaku suru.",
+            "german": "Die Behauptungen des Klägers sind unbegründet. Die Klage wird daher abgewiesen."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "因って",
+          "依って"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (依って), Nihongo Master N1 (因って). Editorial N1.",
+      "rationale": "Add よって【よって】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605970; spelling=よって; reading=よって; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1605970 よって/よって sense(s) 1 support \"daher, folglich, deshalb\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1605970",
+            "spelling": "よって",
+            "reading": "よって",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "therefore",
+                  "consequently",
+                  "accordingly",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "因って|よって",
+          "referenceIndex": 0,
+          "referenceHash": "ff53d7ae9e4992bffc14fab68575d374d38eed105641047427c0a6fb3d93c53a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"daher, folglich, deshalb\" matches JMdict 1605970 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Wording of an award certificate.",
+          "Court judgment."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1605970; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N1 (依って), Nihongo Master N1 (因って). Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for よって / よって; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup よって / よって",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add よって【よって】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1605970 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "7aa3cf3d0bd8e0c6bc3c9de97f11860debd6d9227db9703e27bab24284e99836",
+        "approvalHash": "b5c15320e55d3b14a74857d1606bc80309b84b19780e1b2d475e79bef847e2af"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Round-1 reject fixed: type is now Ausdruck, matching the JMdict conjunction tag and the app convention. The other fields are unchanged. Accepted.",
+        "contentHash": "7aa3cf3d0bd8e0c6bc3c9de97f11860debd6d9227db9703e27bab24284e99836",
+        "approvalHash": "b5c15320e55d3b14a74857d1606bc80309b84b19780e1b2d475e79bef847e2af"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yoppodo",
+      "revisionId": "049-add-yoppodo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "よっぽど",
+        "reading": "よっぽど",
+        "romaji": "yoppodo",
+        "meaning": "sehr, erheblich, weitaus",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "Umgangssprachliche, verstärkte Form von よほど (余程): よっぽど疲れていたんだね (du musst ja sehr müde gewesen sein). Mit Vergleich: 〜よりよっぽどいい (viel besser als …). Meist in Kana.",
+        "examples": [
+          {
+            "japanese": "何も言わずに寝てしまうなんて、よっぽど疲れていたんだね。",
+            "romaji": "Nani mo iwazu ni nete shimau nante, yoppodo tsukarete ita n da ne.",
+            "german": "Einfach ohne ein Wort einzuschlafen – du musst ja todmüde gewesen sein."
+          },
+          {
+            "japanese": "外食するより、家で作るほうがよっぽど安い。",
+            "romaji": "Gaishoku suru yori, ie de tsukuru hou ga yoppodo yasui.",
+            "german": "Selbst kochen ist viel billiger als auswärts essen."
+          }
+        ],
+        "pitch": 4,
+        "aliases": [
+          "余っ程"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235012",
+            "patterns": [
+              4
+            ],
+            "finding": "よっぽど / ヨッポド; 副詞/*/*/*; *; *; lemma 余程; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よっぽど",
+              "reading": "よっぽど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "よっぽど as \"sehr, erheblich, weitaus\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (余程, read よっぽど), Nihongo Master N1 (余っ程). Editorial N1.",
+      "rationale": "Add よっぽど【よっぽど】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2830551; spelling=よっぽど; reading=よっぽど; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2830551 よっぽど/よっぽど sense(s) 1 support \"sehr, erheblich, weitaus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2830551",
+            "spelling": "よっぽど",
+            "reading": "よっぽど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "greatly",
+                  "much",
+                  "considerably",
+                  "to a large extent",
+                  "quite"
+                ],
+                "notes": [
+                  "余 is ateji"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "余っ程|よっぽど",
+          "referenceIndex": 0,
+          "referenceHash": "593768a391274e5534beb924722005bc2e5d0a11940debc2225f7a8576f6db0d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"sehr, erheblich, weitaus\" matches JMdict 2830551 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Friend falling asleep instantly.",
+          "Comparing cooking costs."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2830551; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1 (余程, read よっぽど), Nihongo Master N1 (余っ程). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@275235012 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235012",
+            "patterns": [
+              4
+            ],
+            "finding": "よっぽど / ヨッポド; 副詞/*/*/*; *; *; lemma 余程; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よっぽど",
+              "reading": "よっぽど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "よっぽど as \"sehr, erheblich, weitaus\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add よっぽど【よっぽど】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2830551 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2c7f5e97726d6b25bdb3c881529b36916aa3ca3ef2ebd24d438bbd7c35b37fc8",
+        "approvalHash": "b39568ec7cc3d29f0f9543b5ff04a14b97329f2e70738fa42b1ef4da90e68534"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "2c7f5e97726d6b25bdb3c881529b36916aa3ca3ef2ebd24d438bbd7c35b37fc8",
+        "approvalHash": "b39568ec7cc3d29f0f9543b5ff04a14b97329f2e70738fa42b1ef4da90e68534"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yobitomeru",
+      "revisionId": "049-add-yobitomeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "呼び止める",
+        "reading": "よびとめる",
+        "romaji": "yobitomeru",
+        "meaning": "(durch Zuruf) anhalten, zurückrufen",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Jemanden durch Zurufen zum Stehenbleiben bringen: 警官に呼び止められる (von einem Polizisten angehalten werden). Auch: タクシーを呼び止める (ein Taxi heranwinken).",
+        "examples": [
+          {
+            "japanese": "駅を出たところで、知らない人に呼び止められた。",
+            "romaji": "Eki o deta tokoro de, shiranai hito ni yobitomerareta.",
+            "german": "Als ich aus dem Bahnhof kam, hielt mich ein Fremder an."
+          },
+          {
+            "japanese": "帰ろうとしたら、部長に呼び止められた。",
+            "romaji": "Kaerou to shitara, buchou ni yobitomerareta.",
+            "german": "Gerade als ich gehen wollte, rief mich der Abteilungsleiter zurück."
+          }
+        ],
+        "pitch": 4,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "よびとめる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よびとめる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275041458",
+            "patterns": [
+              4
+            ],
+            "finding": "呼び止める / ヨビトメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 呼び止める; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "呼び止める",
+              "reading": "よびとめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "呼び止める as \"(durch Zuruf) anhalten, zurückrufen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 呼び止める【よびとめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266330; spelling=呼び止める; reading=よびとめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1266330 呼び止める/よびとめる sense(s) 1 support \"(durch Zuruf) anhalten, zurückrufen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1266330",
+            "spelling": "呼び止める",
+            "reading": "よびとめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (call and) stop",
+                  "to call (someone) to stop",
+                  "to hail (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "呼び止める|よびとめる",
+          "referenceIndex": 0,
+          "referenceHash": "b73832093bf72bc3bb11ffadc578b650af8833a3bb7b957eceb0b5f76ec92119"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"(durch Zuruf) anhalten, zurückrufen\" matches JMdict 1266330 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Stopped by a stranger.",
+          "Called back by the boss."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1266330; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading よびとめる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@275041458 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275041458",
+            "patterns": [
+              4
+            ],
+            "finding": "呼び止める / ヨビトメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 呼び止める; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "呼び止める",
+              "reading": "よびとめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "呼び止める as \"(durch Zuruf) anhalten, zurückrufen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 呼び止める【よびとめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1266330 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c276bc4a725112612d80c3296d59a4f8bcd163aeba713d4c3e4a82ec45536617",
+        "approvalHash": "75ca80e0307ef1f6dc8c472208208505664cfc2e39e87e25cc84740dd5618e41"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "c276bc4a725112612d80c3296d59a4f8bcd163aeba713d4c3e4a82ec45536617",
+        "approvalHash": "75ca80e0307ef1f6dc8c472208208505664cfc2e39e87e25cc84740dd5618e41"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yomiageru",
+      "revisionId": "049-add-yomiageru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "読み上げる",
+        "reading": "よみあげる",
+        "romaji": "yomiageru",
+        "meaning": "vorlesen, laut verlesen",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Laut und deutlich vorlesen, oft vor Publikum: 名前を読み上げる (Namen aufrufen), 原稿を読み上げる (ein Manuskript verlesen).",
+        "examples": [
+          {
+            "japanese": "先生が合格者の名前を一人ずつ読み上げた。",
+            "romaji": "Sensei ga goukakusha no namae o hitori zutsu yomiageta.",
+            "german": "Der Lehrer verlas nacheinander die Namen derer, die bestanden hatten."
+          },
+          {
+            "japanese": "司会者が式の予定を読み上げた。",
+            "romaji": "Shikaisha ga shiki no yotei o yomiageta.",
+            "german": "Der Moderator verlas den Ablauf der Zeremonie."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "よみあげる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よみあげる",
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275277095",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "読み上げる / ヨミアゲル; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; lemma 読み上げる; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "読み上げる",
+              "reading": "よみあげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "読み上げる as \"vorlesen, laut verlesen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 読み上げる【よみあげる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1456260; spelling=読み上げる; reading=よみあげる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1456260 読み上げる/よみあげる sense(s) 1 support \"vorlesen, laut verlesen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1456260",
+            "spelling": "読み上げる",
+            "reading": "よみあげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to read out",
+                  "to read aloud",
+                  "to call out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "読み上げる|よみあげる",
+          "referenceIndex": 0,
+          "referenceHash": "598c3475ac8012e46fdc14495fbc8444040253c87f09c2b6b99ce198f3c0137b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"vorlesen, laut verlesen\" matches JMdict 1456260 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Announcing successful candidates.",
+          "Master of ceremonies."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1456260; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading よみあげる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@275277095 attest 0,4; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275277095",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "読み上げる / ヨミアゲル; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; lemma 読み上げる; aType 0,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "読み上げる",
+              "reading": "よみあげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "読み上げる as \"vorlesen, laut verlesen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 読み上げる【よみあげる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1456260 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f55455a261f5da530f3c707a10c6a4817a924d9df604155da0730cfa4723b84c",
+        "approvalHash": "a21d84cf72ffd91ecb81ba6e8eddd750cf9986ca6d4854cdbb29f3bbca9a6b2e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "f55455a261f5da530f3c707a10c6a4817a924d9df604155da0730cfa4723b84c",
+        "approvalHash": "a21d84cf72ffd91ecb81ba6e8eddd750cf9986ca6d4854cdbb29f3bbca9a6b2e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yowamaru",
+      "revisionId": "049-add-yowamaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "弱まる",
+        "reading": "よわまる",
+        "romaji": "yowamaru",
+        "meaning": "schwächer werden, nachlassen",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Intransitiv: 風が弱まる (der Wind lässt nach), 影響力が弱まる (der Einfluss schwindet). Transitiv: 弱める.",
+        "examples": [
+          {
+            "japanese": "夜になって、雨が少し弱まった。",
+            "romaji": "Yoru ni natte, ame ga sukoshi yowamatta.",
+            "german": "Am Abend ließ der Regen etwas nach."
+          },
+          {
+            "japanese": "年を取ると、筋肉の力が弱まる。",
+            "romaji": "Toshi o toru to, kinniku no chikara ga yowamaru.",
+            "german": "Im Alter lässt die Muskelkraft nach."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "よわまる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よわまる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277229194",
+            "patterns": [
+              3
+            ],
+            "finding": "弱まる / ヨワマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 弱まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱まる",
+              "reading": "よわまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "弱まる as \"schwächer werden, nachlassen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 弱まる【よわまる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324580; spelling=弱まる; reading=よわまる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1324580 弱まる/よわまる sense(s) 1 support \"schwächer werden, nachlassen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1324580",
+            "spelling": "弱まる",
+            "reading": "よわまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to abate",
+                  "to weaken",
+                  "to be emaciated",
+                  "to be dejected",
+                  "to be perplexed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "弱まる|よわまる",
+          "referenceIndex": 0,
+          "referenceHash": "918bfe29e91b9aa704648ab4713066f54b01fd23ec071601a91a9d311a867c92"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"schwächer werden, nachlassen\" matches JMdict 1324580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Rain easing at night.",
+          "Ageing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1324580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading よわまる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277229194 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277229194",
+            "patterns": [
+              3
+            ],
+            "finding": "弱まる / ヨワマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 弱まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱まる",
+              "reading": "よわまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "弱まる as \"schwächer werden, nachlassen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 弱まる【よわまる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1324580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5fbd6191502880f856147f056be2fbe515f789184f12f423041351c0fa52cfe9",
+        "approvalHash": "87f2cc03d8f779b70c95a1ce977de731750c823a2e7369674fab7273a1177069"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "5fbd6191502880f856147f056be2fbe515f789184f12f423041351c0fa52cfe9",
+        "approvalHash": "87f2cc03d8f779b70c95a1ce977de731750c823a2e7369674fab7273a1177069"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yowameru",
+      "revisionId": "049-add-yowameru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "弱める",
+        "reading": "よわめる",
+        "romaji": "yowameru",
+        "meaning": "schwächen, abschwächen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitiv zu 弱まる: 火を弱める (die Hitze herunterdrehen), 力を弱める. Gegenteil: 強める.",
+        "examples": [
+          {
+            "japanese": "沸騰したら、火を弱めて十分煮てください。",
+            "romaji": "Futtou shitara, hi o yowamete juppun nite kudasai.",
+            "german": "Sobald es kocht, die Hitze reduzieren und zehn Minuten köcheln lassen."
+          },
+          {
+            "japanese": "薬の副作用を弱めるために、食後に飲む。",
+            "romaji": "Kusuri no fukusayou o yowameru tame ni, shokugo ni nomu.",
+            "german": "Um die Nebenwirkungen abzuschwächen, nimmt man das Medikament nach dem Essen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "よわめる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よわめる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277240607",
+            "patterns": [
+              3
+            ],
+            "finding": "弱める / ヨワメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 弱める; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱める",
+              "reading": "よわめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "弱める as \"schwächen, abschwächen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 弱める【よわめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324590; spelling=弱める; reading=よわめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1324590 弱める/よわめる sense(s) 1 support \"schwächen, abschwächen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1324590",
+            "spelling": "弱める",
+            "reading": "よわめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "弱める|よわめる",
+          "referenceIndex": 0,
+          "referenceHash": "05353ff2bf02ffa9524c2ea73b83c8880adea672c4ac78553fa6412900f68f42"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"schwächen, abschwächen\" matches JMdict 1324590 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cooking instructions.",
+          "Taking medicine after meals."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1324590; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading よわめる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277240607 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277240607",
+            "patterns": [
+              3
+            ],
+            "finding": "弱める / ヨワメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 弱める; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱める",
+              "reading": "よわめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "弱める as \"schwächen, abschwächen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 弱める【よわめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1324590 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "785edf49ac1382de6e93fca46a9bb5202e23ba184610d248ba15a2a156c94867",
+        "approvalHash": "9aabd120d4b7a7d1492c7821a3bf07b79d040d315981aa671ebaac00980b5d45"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "785edf49ac1382de6e93fca46a9bb5202e23ba184610d248ba15a2a156c94867",
+        "approvalHash": "9aabd120d4b7a7d1492c7821a3bf07b79d040d315981aa671ebaac00980b5d45"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yowaru",
+      "revisionId": "049-add-yowaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "弱る",
+        "reading": "よわる",
+        "romaji": "yowaru",
+        "meaning": "schwach werden; in Verlegenheit sein",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Körperlich: 体が弱る (geschwächt werden). Umgangssprachlich auch: 弱ったなあ (Was mache ich jetzt bloß?), 〜には弱る (… macht einem zu schaffen).",
+        "examples": [
+          {
+            "japanese": "祖母は入院してから、足がすっかり弱った。",
+            "romaji": "Sobo wa nyuuin shite kara, ashi ga sukkari yowatta.",
+            "german": "Seit ihrem Krankenhausaufenthalt sind die Beine meiner Großmutter ganz schwach geworden."
+          },
+          {
+            "japanese": "財布を忘れてしまった。弱ったなあ。",
+            "romaji": "Saifu o wasurete shimatta. Yowatta naa.",
+            "german": "Ich habe mein Portemonnaie vergessen. Was mache ich jetzt bloß?"
+          }
+        ],
+        "pitch": 2,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "よわる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よわる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277294194",
+            "patterns": [
+              2
+            ],
+            "finding": "弱る / ヨワル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 弱る; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱る",
+              "reading": "よわる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "弱る as \"schwach werden; in Verlegenheit sein\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 弱る【よわる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324650; spelling=弱る; reading=よわる; senses=1,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1324650 弱る/よわる sense(s) 1,3 support \"schwach werden; in Verlegenheit sein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1324650",
+            "spelling": "弱る",
+            "reading": "よわる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken",
+                  "to grow weak",
+                  "to wane",
+                  "to decline (of one's health)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be troubled",
+                  "to be at a loss",
+                  "to be perplexed",
+                  "to be annoyed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "弱る|よわる",
+          "referenceIndex": 0,
+          "referenceHash": "14bd36784ce7116e6cb95f283265e97cdfe5989e8acd9f63adde16308373be92"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"schwach werden; in Verlegenheit sein\" matches JMdict 1324650 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Weakening after hospitalisation.",
+          "Forgotten wallet."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1324650; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading よわる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277294194 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277294194",
+            "patterns": [
+              2
+            ],
+            "finding": "弱る / ヨワル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 弱る; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "弱る",
+              "reading": "よわる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "弱る as \"schwach werden; in Verlegenheit sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 弱る【よわる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1324650 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a11f062fa058a0967f031ea36682bd2c7210bdffd80776647e7641bf3d17cb7b",
+        "approvalHash": "cc04c55b68cf2db28d8f4234d2fe82bcb74875f35166da3eabfd7385deb5c148"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "a11f062fa058a0967f031ea36682bd2c7210bdffd80776647e7641bf3d17cb7b",
+        "approvalHash": "cc04c55b68cf2db28d8f4234d2fe82bcb74875f35166da3eabfd7385deb5c148"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:raijou",
+      "revisionId": "049-add-raijou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "来場",
+        "reading": "らいじょう",
+        "romaji": "raijou",
+        "meaning": "Besuch (einer Veranstaltung), Erscheinen",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N1",
+        "notes": "Förmlich in Ansagen: ご来場の皆様 (liebe Besucherinnen und Besucher), ご来場ありがとうございます. 来場者 (Besucher).",
+        "examples": [
+          {
+            "japanese": "本日はご来場いただき、誠にありがとうございます。",
+            "romaji": "Honjitsu wa goraijou itadaki, makoto ni arigatou gozaimasu.",
+            "german": "Herzlichen Dank, dass Sie heute gekommen sind."
+          },
+          {
+            "japanese": "駐車場がないため、車での来場はご遠慮ください。",
+            "romaji": "Chuushajou ga nai tame, kuruma de no raijou wa goenryo kudasai.",
+            "german": "Da es keine Parkplätze gibt, bitten wir Sie, nicht mit dem Auto anzureisen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277379043",
+            "patterns": [
+              0
+            ],
+            "finding": "来場 / ライジョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 来場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "来場",
+              "reading": "らいじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "来場 as \"Besuch (einer Veranstaltung), Erscheinen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 来場【らいじょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585050; spelling=来場; reading=らいじょう; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1585050 来場/らいじょう sense(s) 1 support \"Besuch (einer Veranstaltung), Erscheinen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1585050",
+            "spelling": "来場",
+            "reading": "らいじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "attendance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "来場|らいじょう",
+          "referenceIndex": 0,
+          "referenceHash": "bf40675321bf16a09c842d2366aed3dde29442cc43b7e3ce82bab9c0633e0892"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Besuch (einer Veranstaltung), Erscheinen\" matches JMdict 1585050 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Greeting at an event.",
+          "Parking notice."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1585050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277379043 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277379043",
+            "patterns": [
+              0
+            ],
+            "finding": "来場 / ライジョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 来場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "来場",
+              "reading": "らいじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "来場 as \"Besuch (einer Veranstaltung), Erscheinen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 来場【らいじょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1585050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "fe07a30ac8d777ec8ab0a7ce7bf96c329cfa9ad34b46b5d61420902e9a8d0950",
+        "approvalHash": "a35f5fa1df84d880bd1552a56905aefce7725c4cf64d85eeba7a8816aee3554e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "fe07a30ac8d777ec8ab0a7ce7bf96c329cfa9ad34b46b5d61420902e9a8d0950",
+        "approvalHash": "a35f5fa1df84d880bd1552a56905aefce7725c4cf64d85eeba7a8816aee3554e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:raisu",
+      "revisionId": "049-add-raisu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ライス",
+        "reading": "ライス",
+        "romaji": "raisu",
+        "meaning": "Reis (auf dem Teller serviert)",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N1",
+        "notes": "In Restaurants mit westlicher Küche für gekochten Reis auf dem Teller: ライスの大盛り (große Portion Reis). Zu Hause und in japanischen Lokalen sagt man ご飯.",
+        "examples": [
+          {
+            "japanese": "ハンバーグにライスとスープが付いてくる。",
+            "romaji": "Hanbaagu ni raisu to suupu ga tsuite kuru.",
+            "german": "Zum Hacksteak gibt es Reis und Suppe dazu."
+          },
+          {
+            "japanese": "ライスは大盛りにできますか。",
+            "romaji": "Raisu wa oomori ni dekimasu ka.",
+            "german": "Kann ich eine große Portion Reis bekommen?"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277381079",
+            "patterns": [
+              1
+            ],
+            "finding": "ライス / ライス; 名詞/普通名詞/一般/*; *; *; lemma ライス-rice; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ライス",
+              "reading": "ライス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ライス as \"Reis (auf dem Teller serviert)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add ライス【ライス】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137820; spelling=ライス; reading=ライス; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1137820 ライス/ライス sense(s) 1 support \"Reis (auf dem Teller serviert)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1137820",
+            "spelling": "ライス",
+            "reading": "ライス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice (esp. when served on a plate)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "らいす|らいす",
+          "referenceIndex": 0,
+          "referenceHash": "7761534dd28ae3c871df5e9bf699ef9fc3df4e4b0386392414e949bda3cf6358"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Reis (auf dem Teller serviert)\" matches JMdict 1137820 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Set menu in a Western-style restaurant.",
+          "Ordering a large portion."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1137820; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277381079 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277381079",
+            "patterns": [
+              1
+            ],
+            "finding": "ライス / ライス; 名詞/普通名詞/一般/*; *; *; lemma ライス-rice; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ライス",
+              "reading": "ライス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ライス as \"Reis (auf dem Teller serviert)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add ライス【ライス】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1137820 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a37a4130d859c391736502a5b19e58431993438799b44c9b44cbc1cfcd4e2987",
+        "approvalHash": "266cfb35ab6ffcfc91deffb8326e2abd92f9a3d6e0a0260525690e9687e6d156"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "a37a4130d859c391736502a5b19e58431993438799b44c9b44cbc1cfcd4e2987",
+        "approvalHash": "266cfb35ab6ffcfc91deffb8326e2abd92f9a3d6e0a0260525690e9687e6d156"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:rakka",
+      "revisionId": "049-add-rakka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "落下",
+        "reading": "らっか",
+        "romaji": "rakka",
+        "meaning": "Fall, Herabfallen, Sturz",
+        "type": "Nomen",
+        "category": "Bewegung",
+        "level": "N1",
+        "notes": "Förmlich / technisch: 落下物 (herabfallende Gegenstände), 落下傘 (Fallschirm). Als する-Verb: 屋根から落下する. Im Alltag: 落ちる. Gleich lautend: 落果 (Fallobst).",
+        "examples": [
+          {
+            "japanese": "工事現場では落下物に注意してください。",
+            "romaji": "Kouji genba de wa rakkabutsu ni chuui shite kudasai.",
+            "german": "Auf der Baustelle bitte auf herabfallende Gegenstände achten."
+          },
+          {
+            "japanese": "強風で看板が歩道に落下した。",
+            "romaji": "Kyoufuu de kanban ga hodou ni rakka shita.",
+            "german": "Durch den starken Wind stürzte ein Schild auf den Gehweg."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277653619",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "落下 / ラッカ; 名詞/普通名詞/サ変可能/*; *; *; lemma 落下; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "落下",
+              "reading": "らっか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "落下 as \"Fall, Herabfallen, Sturz\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 落下【らっか】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548650; spelling=落下; reading=らっか; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1548650 落下/らっか sense(s) 1 support \"Fall, Herabfallen, Sturz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1548650",
+            "spelling": "落下",
+            "reading": "らっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fall",
+                  "drop",
+                  "descent",
+                  "coming down"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "落下|らっか",
+          "referenceIndex": 0,
+          "referenceHash": "ba7d4caee21844ee23f503648fba1cf68b4443d0c488f46964a947f420ccc222"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Fall, Herabfallen, Sturz\" matches JMdict 1548650 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Construction site warning.",
+          "Sign falling in a storm."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1548650; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277653619 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277653619",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "落下 / ラッカ; 名詞/普通名詞/サ変可能/*; *; *; lemma 落下; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "落下",
+              "reading": "らっか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "落下 as \"Fall, Herabfallen, Sturz\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 落下【らっか】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1548650 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ee24461849b58a608824f8c4142f3778393b8afd3e0ade5a778517920d972dc1",
+        "approvalHash": "91a82447cacdae0ded4a961d4fa94da63625fd976eb6cf82b276ff52bd256c24"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "ee24461849b58a608824f8c4142f3778393b8afd3e0ade5a778517920d972dc1",
+        "approvalHash": "91a82447cacdae0ded4a961d4fa94da63625fd976eb6cf82b276ff52bd256c24"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "善し悪し|よしあし",
+      "referenceIndex": 0,
+      "referenceHash": "f6c53ba471c47d735271330bb234f985885964f554dcc6de09f8eaea98e436f7",
+      "revisionId": "049-candidate-yoshiashi-90c144db-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yoshiashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yoshiashi": "2a60d54457351f30e809b1be45d704a464b90ccd0bf8345f7dc25b7f4b3670b5"
+      },
+      "reason": "Reference 善し悪し/よしあし (tanos N1) is the same lexeme as the new entry 善し悪し【よしあし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=168",
+          "finding": "tanos lists 善し悪し/よしあし at N1 (gloss: good or bad, merits or demerits, quality,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581170; spelling=善し悪し; reading=よしあし; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581170 as the reference form.",
+          "selected": {
+            "sequence": "1581170",
+            "spelling": "善し悪し",
+            "reading": "よしあし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "right or wrong",
+                  "good or bad",
+                  "quality",
+                  "suitability"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "having both merits and demerits",
+                  "having both advantages and disadvantages"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 善し悪し|よしあし#0 is the same lexeme as vocab-n1:correction:yoshiashi; target hash bound to the assembled addition.",
+        "contentHash": "118713ec40f6d176b0f6a0bdeaedefde9cb495ee67d5e007af1c5fbe5463a79b",
+        "approvalHash": "118713ec40f6d176b0f6a0bdeaedefde9cb495ee67d5e007af1c5fbe5463a79b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "118713ec40f6d176b0f6a0bdeaedefde9cb495ee67d5e007af1c5fbe5463a79b",
+        "approvalHash": "118713ec40f6d176b0f6a0bdeaedefde9cb495ee67d5e007af1c5fbe5463a79b"
+      }
+    },
+    {
+      "key": "善し悪し|よしあし",
+      "referenceIndex": 1,
+      "referenceHash": "1055861b9e596f6368eb0a5aca9d2c5ae5ef1271fd739c291cb8d69ecc1a004d",
+      "revisionId": "049-candidate-yoshiashi-90c144db-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yoshiashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yoshiashi": "2a60d54457351f30e809b1be45d704a464b90ccd0bf8345f7dc25b7f4b3670b5"
+      },
+      "reason": "Reference 善し悪し/よしあし (master N1) is the same lexeme as the new entry 善し悪し【よしあし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 善し悪し/よしあし at N1 (gloss: right or wrong; good or bad; merits or demerits)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581170; spelling=善し悪し; reading=よしあし; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581170 as the reference form.",
+          "selected": {
+            "sequence": "1581170",
+            "spelling": "善し悪し",
+            "reading": "よしあし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "right or wrong",
+                  "good or bad",
+                  "quality",
+                  "suitability"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "having both merits and demerits",
+                  "having both advantages and disadvantages"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 善し悪し|よしあし#1 is the same lexeme as vocab-n1:correction:yoshiashi; target hash bound to the assembled addition.",
+        "contentHash": "c07887f7c99bfd251517890862c30369ccf32badb1f30c5588c7925afcec3f1a",
+        "approvalHash": "c07887f7c99bfd251517890862c30369ccf32badb1f30c5588c7925afcec3f1a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "c07887f7c99bfd251517890862c30369ccf32badb1f30c5588c7925afcec3f1a",
+        "approvalHash": "c07887f7c99bfd251517890862c30369ccf32badb1f30c5588c7925afcec3f1a"
+      }
+    },
+    {
+      "key": "よそ見|よそみ",
+      "referenceIndex": 0,
+      "referenceHash": "81bc404faae0e9ba99c6ee45e925b85ccee7ccef75ffb3289dbd520ede1606a0",
+      "revisionId": "049-candidate-yosomi-ed1025f5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yosomi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yosomi": "9d011edf85a7886be938638d4807186ddb841d85bc0f52147a8a7edeebd8b357"
+      },
+      "reason": "Reference よそ見/よそみ (master N1) is the same lexeme as the new entry よそ見【よそみ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists よそ見/よそみ at N1 (gloss: looking away; looking aside; détourner le regard)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1544190; spelling=よそ見; reading=よそみ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1544190 as the reference form.",
+          "selected": {
+            "sequence": "1544190",
+            "spelling": "よそ見",
+            "reading": "よそみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "looking away",
+                  "looking aside"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference よそ見|よそみ#0 is the same lexeme as vocab-n1:correction:yosomi; target hash bound to the assembled addition.",
+        "contentHash": "ab82bb1d11011ab242fb2b25d371d3676088d49880318db432b9dc2c1c87a43c",
+        "approvalHash": "ab82bb1d11011ab242fb2b25d371d3676088d49880318db432b9dc2c1c87a43c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "ab82bb1d11011ab242fb2b25d371d3676088d49880318db432b9dc2c1c87a43c",
+        "approvalHash": "ab82bb1d11011ab242fb2b25d371d3676088d49880318db432b9dc2c1c87a43c"
+      }
+    },
+    {
+      "key": "余所見|よそみ",
+      "referenceIndex": 0,
+      "referenceHash": "4f72dd3b1587137219f7e76776b4d81159d67b93a8ee4b39ad940019db988e51",
+      "revisionId": "049-candidate-yosomi-3f3e70b3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yosomi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yosomi": "9d011edf85a7886be938638d4807186ddb841d85bc0f52147a8a7edeebd8b357"
+      },
+      "reason": "Reference 余所見/よそみ (tanos N1) is the same lexeme as the new entry よそ見【よそみ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=168",
+          "finding": "tanos lists 余所見/よそみ at N1 (gloss: looking away, looking aside)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1544190; spelling=よそ見; reading=よそみ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1544190 as the reference form.",
+          "selected": {
+            "sequence": "1544190",
+            "spelling": "よそ見",
+            "reading": "よそみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "looking away",
+                  "looking aside"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 余所見|よそみ#0 is the same lexeme as vocab-n1:correction:yosomi; target hash bound to the assembled addition.",
+        "contentHash": "34e09dca72314ad07d253ddad75867da11e665c5f1928b42f8aa128961b7f80d",
+        "approvalHash": "34e09dca72314ad07d253ddad75867da11e665c5f1928b42f8aa128961b7f80d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "34e09dca72314ad07d253ddad75867da11e665c5f1928b42f8aa128961b7f80d",
+        "approvalHash": "34e09dca72314ad07d253ddad75867da11e665c5f1928b42f8aa128961b7f80d"
+      }
+    },
+    {
+      "key": "因って|よって",
+      "referenceIndex": 0,
+      "referenceHash": "ff53d7ae9e4992bffc14fab68575d374d38eed105641047427c0a6fb3d93c53a",
+      "revisionId": "049-candidate-yotte-40ac7d4c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yotte"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yotte": "7aa3cf3d0bd8e0c6bc3c9de97f11860debd6d9227db9703e27bab24284e99836"
+      },
+      "reason": "Reference 因って/よって (master N1) is the same lexeme as the new entry よって【よって】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 因って/よって at N1 (gloss: therefore; consequently; accordingly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605970; spelling=よって; reading=よって; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1605970 as the reference form.",
+          "selected": {
+            "sequence": "1605970",
+            "spelling": "よって",
+            "reading": "よって",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "therefore",
+                  "consequently",
+                  "accordingly",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 因って|よって#0 is the same lexeme as vocab-n1:correction:yotte; target hash bound to the assembled addition.",
+        "contentHash": "3ab80be39321c86dddabcad4bfbdb375b3494d4f66d69d0bd5cf74bcbaa79644",
+        "approvalHash": "3ab80be39321c86dddabcad4bfbdb375b3494d4f66d69d0bd5cf74bcbaa79644"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "3ab80be39321c86dddabcad4bfbdb375b3494d4f66d69d0bd5cf74bcbaa79644",
+        "approvalHash": "3ab80be39321c86dddabcad4bfbdb375b3494d4f66d69d0bd5cf74bcbaa79644"
+      }
+    },
+    {
+      "key": "依って|よって",
+      "referenceIndex": 0,
+      "referenceHash": "769d280a327ac16ba948694af1a0f554b9a9ab3b7bd1d5d62373aa99a36098b4",
+      "revisionId": "049-candidate-yotte-babc59c6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yotte"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yotte": "7aa3cf3d0bd8e0c6bc3c9de97f11860debd6d9227db9703e27bab24284e99836"
+      },
+      "reason": "Reference 依って/よって (tanos N1) is the same lexeme as the new entry よって【よって】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=168",
+          "finding": "tanos lists 依って/よって at N1 (gloss: therefore, consequently, accordingly, because)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605970; spelling=よって; reading=よって; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1605970 as the reference form.",
+          "selected": {
+            "sequence": "1605970",
+            "spelling": "よって",
+            "reading": "よって",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "therefore",
+                  "consequently",
+                  "accordingly",
+                  "for that reason"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 依って|よって#0 is the same lexeme as vocab-n1:correction:yotte; target hash bound to the assembled addition.",
+        "contentHash": "e4939cbaddca04cde5667ebeacc2d63289644119da8dd65f26bbb5f57aeb15a0",
+        "approvalHash": "e4939cbaddca04cde5667ebeacc2d63289644119da8dd65f26bbb5f57aeb15a0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "e4939cbaddca04cde5667ebeacc2d63289644119da8dd65f26bbb5f57aeb15a0",
+        "approvalHash": "e4939cbaddca04cde5667ebeacc2d63289644119da8dd65f26bbb5f57aeb15a0"
+      }
+    },
+    {
+      "key": "余っ程|よっぽど",
+      "referenceIndex": 0,
+      "referenceHash": "593768a391274e5534beb924722005bc2e5d0a11940debc2225f7a8576f6db0d",
+      "revisionId": "049-candidate-yoppodo-cb082f83-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yoppodo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yoppodo": "2c7f5e97726d6b25bdb3c881529b36916aa3ca3ef2ebd24d438bbd7c35b37fc8"
+      },
+      "reason": "Reference 余っ程/よっぽど (master N1) is the same lexeme as the new entry よっぽど【よっぽど】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 余っ程/よっぽど at N1 (gloss: very; greatly; much)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2830551; spelling=よっぽど; reading=よっぽど; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2830551 as the reference form.",
+          "selected": {
+            "sequence": "2830551",
+            "spelling": "よっぽど",
+            "reading": "よっぽど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "greatly",
+                  "much",
+                  "considerably",
+                  "to a large extent",
+                  "quite"
+                ],
+                "notes": [
+                  "余 is ateji"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 余っ程|よっぽど#0 is the same lexeme as vocab-n1:correction:yoppodo; target hash bound to the assembled addition.",
+        "contentHash": "fc7b9d78a24d971abd6aeb0b25876c7847939a3eace30c0d5d2f96b1f18cb4b4",
+        "approvalHash": "fc7b9d78a24d971abd6aeb0b25876c7847939a3eace30c0d5d2f96b1f18cb4b4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "fc7b9d78a24d971abd6aeb0b25876c7847939a3eace30c0d5d2f96b1f18cb4b4",
+        "approvalHash": "fc7b9d78a24d971abd6aeb0b25876c7847939a3eace30c0d5d2f96b1f18cb4b4"
+      }
+    },
+    {
+      "key": "余程|よっぽど",
+      "referenceIndex": 0,
+      "referenceHash": "79c2169b678f5dd3539a87e8d00f8bcc95a9f3dc96efab25a5cb449b420987fd",
+      "revisionId": "049-candidate-yoppodo-66349dca-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yoppodo"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yoppodo": "2c7f5e97726d6b25bdb3c881529b36916aa3ca3ef2ebd24d438bbd7c35b37fc8"
+      },
+      "reason": "Reference 余程/よっぽど (tanos N1) is the same lexeme as the new entry よっぽど【よっぽど】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 余程/よっぽど at N1 (gloss: very, greatly, much, to a large extent, quite)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2830551; spelling=よっぽど; reading=よっぽど; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2830551 (よっぽど) lists 余っ程 as its kanji form; the spelling 余程 belongs to the related entry よほど. tanos gives 余程 with the reading よっぽど, i.e. the colloquial emphatic form of 余程; same word as the new entry よっぽど (UniDic files よっぽど under lemma 余程).",
+          "selected": {
+            "sequence": "2830551",
+            "spelling": "よっぽど",
+            "reading": "よっぽど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "greatly",
+                  "much",
+                  "considerably",
+                  "to a large extent",
+                  "quite"
+                ],
+                "notes": [
+                  "余 is ateji"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 余程|よっぽど#0 is the same lexeme as vocab-n1:correction:yoppodo; target hash bound to the assembled addition.",
+        "contentHash": "f99c5cd3f19518ffe36b13fe670ec5326710e19f64cb7dbc4dc0b9d37419785e",
+        "approvalHash": "f99c5cd3f19518ffe36b13fe670ec5326710e19f64cb7dbc4dc0b9d37419785e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "f99c5cd3f19518ffe36b13fe670ec5326710e19f64cb7dbc4dc0b9d37419785e",
+        "approvalHash": "f99c5cd3f19518ffe36b13fe670ec5326710e19f64cb7dbc4dc0b9d37419785e"
+      }
+    },
+    {
+      "key": "呼び止める|よびとめる",
+      "referenceIndex": 0,
+      "referenceHash": "b73832093bf72bc3bb11ffadc578b650af8833a3bb7b957eceb0b5f76ec92119",
+      "revisionId": "049-candidate-yobitomeru-ceffabc0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yobitomeru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yobitomeru": "c276bc4a725112612d80c3296d59a4f8bcd163aeba713d4c3e4a82ec45536617"
+      },
+      "reason": "Reference 呼び止める/よびとめる (tanos N1) is the same lexeme as the new entry 呼び止める【よびとめる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 呼び止める/よびとめる at N1 (gloss: to challenge, to call somebody to halt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266330; spelling=呼び止める; reading=よびとめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1266330 as the reference form.",
+          "selected": {
+            "sequence": "1266330",
+            "spelling": "呼び止める",
+            "reading": "よびとめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (call and) stop",
+                  "to call (someone) to stop",
+                  "to hail (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 呼び止める|よびとめる#0 is the same lexeme as vocab-n1:correction:yobitomeru; target hash bound to the assembled addition.",
+        "contentHash": "27ae95bc2eb7480017f37331efdeb6670a0d96149d33c36519b0d451eb97eede",
+        "approvalHash": "27ae95bc2eb7480017f37331efdeb6670a0d96149d33c36519b0d451eb97eede"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "27ae95bc2eb7480017f37331efdeb6670a0d96149d33c36519b0d451eb97eede",
+        "approvalHash": "27ae95bc2eb7480017f37331efdeb6670a0d96149d33c36519b0d451eb97eede"
+      }
+    },
+    {
+      "key": "呼び止める|よびとめる",
+      "referenceIndex": 1,
+      "referenceHash": "36c5229b81d64fb740cbe40dab4e2a77d92b99c9e562648c83b3b7b07ff16774",
+      "revisionId": "049-candidate-yobitomeru-ceffabc0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yobitomeru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yobitomeru": "c276bc4a725112612d80c3296d59a4f8bcd163aeba713d4c3e4a82ec45536617"
+      },
+      "reason": "Reference 呼び止める/よびとめる (master N1) is the same lexeme as the new entry 呼び止める【よびとめる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 呼び止める/よびとめる at N1 (gloss: to challenge; to call somebody to halt; (n) anhalten)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266330; spelling=呼び止める; reading=よびとめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1266330 as the reference form.",
+          "selected": {
+            "sequence": "1266330",
+            "spelling": "呼び止める",
+            "reading": "よびとめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to (call and) stop",
+                  "to call (someone) to stop",
+                  "to hail (e.g. a taxi)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 呼び止める|よびとめる#1 is the same lexeme as vocab-n1:correction:yobitomeru; target hash bound to the assembled addition.",
+        "contentHash": "919812af7a9ac0410d75304a4d10b680bcf264ba8b9f9df335f9ba3a9ea60514",
+        "approvalHash": "919812af7a9ac0410d75304a4d10b680bcf264ba8b9f9df335f9ba3a9ea60514"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "919812af7a9ac0410d75304a4d10b680bcf264ba8b9f9df335f9ba3a9ea60514",
+        "approvalHash": "919812af7a9ac0410d75304a4d10b680bcf264ba8b9f9df335f9ba3a9ea60514"
+      }
+    },
+    {
+      "key": "読み上げる|よみあげる",
+      "referenceIndex": 0,
+      "referenceHash": "598c3475ac8012e46fdc14495fbc8444040253c87f09c2b6b99ce198f3c0137b",
+      "revisionId": "049-candidate-yomiageru-d1dee9fe-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yomiageru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yomiageru": "f55455a261f5da530f3c707a10c6a4817a924d9df604155da0730cfa4723b84c"
+      },
+      "reason": "Reference 読み上げる/よみあげる (tanos N1) is the same lexeme as the new entry 読み上げる【よみあげる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 読み上げる/よみあげる at N1 (gloss: to read out loud (and clearly), to call a roll)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1456260; spelling=読み上げる; reading=よみあげる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1456260 as the reference form.",
+          "selected": {
+            "sequence": "1456260",
+            "spelling": "読み上げる",
+            "reading": "よみあげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to read out",
+                  "to read aloud",
+                  "to call out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 読み上げる|よみあげる#0 is the same lexeme as vocab-n1:correction:yomiageru; target hash bound to the assembled addition.",
+        "contentHash": "8c533a9e51485737ff7345428ceb108556dc572e2a1f9e588b7c2a3adad17f33",
+        "approvalHash": "8c533a9e51485737ff7345428ceb108556dc572e2a1f9e588b7c2a3adad17f33"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "8c533a9e51485737ff7345428ceb108556dc572e2a1f9e588b7c2a3adad17f33",
+        "approvalHash": "8c533a9e51485737ff7345428ceb108556dc572e2a1f9e588b7c2a3adad17f33"
+      }
+    },
+    {
+      "key": "読み上げる|よみあげる",
+      "referenceIndex": 1,
+      "referenceHash": "5a9eea7cd8cfabd16da556529f2880c8ed4cdb3ca56e73af4fdca3e6f217a05b",
+      "revisionId": "049-candidate-yomiageru-d1dee9fe-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yomiageru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yomiageru": "f55455a261f5da530f3c707a10c6a4817a924d9df604155da0730cfa4723b84c"
+      },
+      "reason": "Reference 読み上げる/よみあげる (master N1) is the same lexeme as the new entry 読み上げる【よみあげる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 読み上げる/よみあげる at N1 (gloss: to read out loud (and clearly); to call a roll; (n) laut lesen)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1456260; spelling=読み上げる; reading=よみあげる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1456260 as the reference form.",
+          "selected": {
+            "sequence": "1456260",
+            "spelling": "読み上げる",
+            "reading": "よみあげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to read out",
+                  "to read aloud",
+                  "to call out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 読み上げる|よみあげる#1 is the same lexeme as vocab-n1:correction:yomiageru; target hash bound to the assembled addition.",
+        "contentHash": "5925897c4df3c6a92bd73bc45e54e29be6cd09dea480ed976b8ae9f90ed6804b",
+        "approvalHash": "5925897c4df3c6a92bd73bc45e54e29be6cd09dea480ed976b8ae9f90ed6804b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "5925897c4df3c6a92bd73bc45e54e29be6cd09dea480ed976b8ae9f90ed6804b",
+        "approvalHash": "5925897c4df3c6a92bd73bc45e54e29be6cd09dea480ed976b8ae9f90ed6804b"
+      }
+    },
+    {
+      "key": "弱まる|よわまる",
+      "referenceIndex": 0,
+      "referenceHash": "918bfe29e91b9aa704648ab4713066f54b01fd23ec071601a91a9d311a867c92",
+      "revisionId": "049-candidate-yowamaru-d9732990-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowamaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowamaru": "5fbd6191502880f856147f056be2fbe515f789184f12f423041351c0fa52cfe9"
+      },
+      "reason": "Reference 弱まる/よわまる (tanos N1) is the same lexeme as the new entry 弱まる【よわまる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 弱まる/よわまる at N1 (gloss: to abate, to weaken, to be emaciated, to be)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324580; spelling=弱まる; reading=よわまる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324580 as the reference form.",
+          "selected": {
+            "sequence": "1324580",
+            "spelling": "弱まる",
+            "reading": "よわまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to abate",
+                  "to weaken",
+                  "to be emaciated",
+                  "to be dejected",
+                  "to be perplexed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱まる|よわまる#0 is the same lexeme as vocab-n1:correction:yowamaru; target hash bound to the assembled addition.",
+        "contentHash": "c68dd5d99f1c62f48333216ca9a23c8f4eb7b0d7d398d6184d0bcaa8faae9e11",
+        "approvalHash": "c68dd5d99f1c62f48333216ca9a23c8f4eb7b0d7d398d6184d0bcaa8faae9e11"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "c68dd5d99f1c62f48333216ca9a23c8f4eb7b0d7d398d6184d0bcaa8faae9e11",
+        "approvalHash": "c68dd5d99f1c62f48333216ca9a23c8f4eb7b0d7d398d6184d0bcaa8faae9e11"
+      }
+    },
+    {
+      "key": "弱まる|よわまる",
+      "referenceIndex": 1,
+      "referenceHash": "64870cd1ebd5b91ba2ec2476f9a8e47e4f0c3bc05aca9647f96f3cfbd4137e66",
+      "revisionId": "049-candidate-yowamaru-d9732990-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowamaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowamaru": "5fbd6191502880f856147f056be2fbe515f789184f12f423041351c0fa52cfe9"
+      },
+      "reason": "Reference 弱まる/よわまる (master N1) is the same lexeme as the new entry 弱まる【よわまる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 弱まる/よわまる at N1 (gloss: to abate; to weaken; to be emaciated)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324580; spelling=弱まる; reading=よわまる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324580 as the reference form.",
+          "selected": {
+            "sequence": "1324580",
+            "spelling": "弱まる",
+            "reading": "よわまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to abate",
+                  "to weaken",
+                  "to be emaciated",
+                  "to be dejected",
+                  "to be perplexed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱まる|よわまる#1 is the same lexeme as vocab-n1:correction:yowamaru; target hash bound to the assembled addition.",
+        "contentHash": "53f582fbc76756be32d1c8f056a53969230f471642d18e057ee047fc95ec9bd4",
+        "approvalHash": "53f582fbc76756be32d1c8f056a53969230f471642d18e057ee047fc95ec9bd4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "53f582fbc76756be32d1c8f056a53969230f471642d18e057ee047fc95ec9bd4",
+        "approvalHash": "53f582fbc76756be32d1c8f056a53969230f471642d18e057ee047fc95ec9bd4"
+      }
+    },
+    {
+      "key": "弱める|よわめる",
+      "referenceIndex": 0,
+      "referenceHash": "05353ff2bf02ffa9524c2ea73b83c8880adea672c4ac78553fa6412900f68f42",
+      "revisionId": "049-candidate-yowameru-daad4ec8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowameru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowameru": "785edf49ac1382de6e93fca46a9bb5202e23ba184610d248ba15a2a156c94867"
+      },
+      "reason": "Reference 弱める/よわめる (tanos N1) is the same lexeme as the new entry 弱める【よわめる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 弱める/よわめる at N1 (gloss: to weaken)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324590; spelling=弱める; reading=よわめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324590 as the reference form.",
+          "selected": {
+            "sequence": "1324590",
+            "spelling": "弱める",
+            "reading": "よわめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱める|よわめる#0 is the same lexeme as vocab-n1:correction:yowameru; target hash bound to the assembled addition.",
+        "contentHash": "b6b086956322ffc58d7c621ec40b5f81fbfeecc81ed000cb105122f46a5e0733",
+        "approvalHash": "b6b086956322ffc58d7c621ec40b5f81fbfeecc81ed000cb105122f46a5e0733"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "b6b086956322ffc58d7c621ec40b5f81fbfeecc81ed000cb105122f46a5e0733",
+        "approvalHash": "b6b086956322ffc58d7c621ec40b5f81fbfeecc81ed000cb105122f46a5e0733"
+      }
+    },
+    {
+      "key": "弱める|よわめる",
+      "referenceIndex": 1,
+      "referenceHash": "92b90888e5fd1fd2d07bff1fe3458fae09df51c1f5ec376b574853df29a8d1b5",
+      "revisionId": "049-candidate-yowameru-daad4ec8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowameru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowameru": "785edf49ac1382de6e93fca46a9bb5202e23ba184610d248ba15a2a156c94867"
+      },
+      "reason": "Reference 弱める/よわめる (master N1) is the same lexeme as the new entry 弱める【よわめる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 弱める/よわめる at N1 (gloss: to weaken; affaiblir; fragiliser)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324590; spelling=弱める; reading=よわめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324590 as the reference form.",
+          "selected": {
+            "sequence": "1324590",
+            "spelling": "弱める",
+            "reading": "よわめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱める|よわめる#1 is the same lexeme as vocab-n1:correction:yowameru; target hash bound to the assembled addition.",
+        "contentHash": "68677e7b6afc95807020792cddb44eae0f6627aa4ef127d1a24660470d494b40",
+        "approvalHash": "68677e7b6afc95807020792cddb44eae0f6627aa4ef127d1a24660470d494b40"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "68677e7b6afc95807020792cddb44eae0f6627aa4ef127d1a24660470d494b40",
+        "approvalHash": "68677e7b6afc95807020792cddb44eae0f6627aa4ef127d1a24660470d494b40"
+      }
+    },
+    {
+      "key": "弱る|よわる",
+      "referenceIndex": 0,
+      "referenceHash": "14bd36784ce7116e6cb95f283265e97cdfe5989e8acd9f63adde16308373be92",
+      "revisionId": "049-candidate-yowaru-d78d0e50-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowaru": "a11f062fa058a0967f031ea36682bd2c7210bdffd80776647e7641bf3d17cb7b"
+      },
+      "reason": "Reference 弱る/よわる (tanos N1) is the same lexeme as the new entry 弱る【よわる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 弱る/よわる at N1 (gloss: be emaciated, to be dejected, to be perplexed,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324650; spelling=弱る; reading=よわる; senses=1,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324650 as the reference form.",
+          "selected": {
+            "sequence": "1324650",
+            "spelling": "弱る",
+            "reading": "よわる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken",
+                  "to grow weak",
+                  "to wane",
+                  "to decline (of one's health)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be troubled",
+                  "to be at a loss",
+                  "to be perplexed",
+                  "to be annoyed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱る|よわる#0 is the same lexeme as vocab-n1:correction:yowaru; target hash bound to the assembled addition.",
+        "contentHash": "6b20a19f3a97d8f09fde2f28e1299831695d3fc211bdb480ab19ab6623aa8772",
+        "approvalHash": "6b20a19f3a97d8f09fde2f28e1299831695d3fc211bdb480ab19ab6623aa8772"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "6b20a19f3a97d8f09fde2f28e1299831695d3fc211bdb480ab19ab6623aa8772",
+        "approvalHash": "6b20a19f3a97d8f09fde2f28e1299831695d3fc211bdb480ab19ab6623aa8772"
+      }
+    },
+    {
+      "key": "弱る|よわる",
+      "referenceIndex": 1,
+      "referenceHash": "100bcf64ca201a772edced4c53cfeb6f922df27a9af85eebac9c40363135b3b7",
+      "revisionId": "049-candidate-yowaru-d78d0e50-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yowaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yowaru": "a11f062fa058a0967f031ea36682bd2c7210bdffd80776647e7641bf3d17cb7b"
+      },
+      "reason": "Reference 弱る/よわる (master N1) is the same lexeme as the new entry 弱る【よわる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 弱る/よわる at N1 (gloss: to weaken; to be troubled; to be downcast)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324650; spelling=弱る; reading=よわる; senses=1,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324650 as the reference form.",
+          "selected": {
+            "sequence": "1324650",
+            "spelling": "弱る",
+            "reading": "よわる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weaken",
+                  "to grow weak",
+                  "to wane",
+                  "to decline (of one's health)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be troubled",
+                  "to be at a loss",
+                  "to be perplexed",
+                  "to be annoyed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 弱る|よわる#1 is the same lexeme as vocab-n1:correction:yowaru; target hash bound to the assembled addition.",
+        "contentHash": "f5c84803f7524aa08c965b72eb33171299023b501362db9d9987b1ead5414e15",
+        "approvalHash": "f5c84803f7524aa08c965b72eb33171299023b501362db9d9987b1ead5414e15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "f5c84803f7524aa08c965b72eb33171299023b501362db9d9987b1ead5414e15",
+        "approvalHash": "f5c84803f7524aa08c965b72eb33171299023b501362db9d9987b1ead5414e15"
+      }
+    },
+    {
+      "key": "来場|らいじょう",
+      "referenceIndex": 0,
+      "referenceHash": "bf40675321bf16a09c842d2366aed3dde29442cc43b7e3ce82bab9c0633e0892",
+      "revisionId": "049-candidate-raijou-40c66316-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:raijou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:raijou": "fe07a30ac8d777ec8ab0a7ce7bf96c329cfa9ad34b46b5d61420902e9a8d0950"
+      },
+      "reason": "Reference 来場/らいじょう (tanos N1) is the same lexeme as the new entry 来場【らいじょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 来場/らいじょう at N1 (gloss: attendance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585050; spelling=来場; reading=らいじょう; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1585050 as the reference form.",
+          "selected": {
+            "sequence": "1585050",
+            "spelling": "来場",
+            "reading": "らいじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "attendance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 来場|らいじょう#0 is the same lexeme as vocab-n1:correction:raijou; target hash bound to the assembled addition.",
+        "contentHash": "d7ebd275ef46d3bfbb37daa15612db409c2559e66bb8722a06887a9e3ddf6c6e",
+        "approvalHash": "d7ebd275ef46d3bfbb37daa15612db409c2559e66bb8722a06887a9e3ddf6c6e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "d7ebd275ef46d3bfbb37daa15612db409c2559e66bb8722a06887a9e3ddf6c6e",
+        "approvalHash": "d7ebd275ef46d3bfbb37daa15612db409c2559e66bb8722a06887a9e3ddf6c6e"
+      }
+    },
+    {
+      "key": "来場|らいじょう",
+      "referenceIndex": 1,
+      "referenceHash": "31428c62ad11f0c9f1f17593ec9b9c3d716bc40d9a6c27246476edcfcf5a0a70",
+      "revisionId": "049-candidate-raijou-40c66316-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:raijou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:raijou": "fe07a30ac8d777ec8ab0a7ce7bf96c329cfa9ad34b46b5d61420902e9a8d0950"
+      },
+      "reason": "Reference 来場/らいじょう (master N1) is the same lexeme as the new entry 来場【らいじょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 来場/らいじょう at N1 (gloss: attendance; (n) Besuch; Anwesenheit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585050; spelling=来場; reading=らいじょう; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1585050 as the reference form.",
+          "selected": {
+            "sequence": "1585050",
+            "spelling": "来場",
+            "reading": "らいじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "attendance"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 来場|らいじょう#1 is the same lexeme as vocab-n1:correction:raijou; target hash bound to the assembled addition.",
+        "contentHash": "c45b3355d241f1e4f4265d3bce4519eec831c5a8f3ba79361a85879b09c7b6e2",
+        "approvalHash": "c45b3355d241f1e4f4265d3bce4519eec831c5a8f3ba79361a85879b09c7b6e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "c45b3355d241f1e4f4265d3bce4519eec831c5a8f3ba79361a85879b09c7b6e2",
+        "approvalHash": "c45b3355d241f1e4f4265d3bce4519eec831c5a8f3ba79361a85879b09c7b6e2"
+      }
+    },
+    {
+      "key": "らいす|らいす",
+      "referenceIndex": 0,
+      "referenceHash": "7761534dd28ae3c871df5e9bf699ef9fc3df4e4b0386392414e949bda3cf6358",
+      "revisionId": "049-candidate-raisu-c4e5a12b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:raisu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:raisu": "a37a4130d859c391736502a5b19e58431993438799b44c9b44cbc1cfcd4e2987"
+      },
+      "reason": "Reference ライス/ライス (tanos N1) is the same lexeme as the new entry ライス【ライス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=183",
+          "finding": "tanos lists ライス/ライス at N1 (gloss: rice)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137820; spelling=ライス; reading=ライス; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1137820 as the reference form.",
+          "selected": {
+            "sequence": "1137820",
+            "spelling": "ライス",
+            "reading": "ライス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice (esp. when served on a plate)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference らいす|らいす#0 is the same lexeme as vocab-n1:correction:raisu; target hash bound to the assembled addition.",
+        "contentHash": "68718e3de29ee4b6ba39665b45da863e53c158edd0b50a3230c89e50728bf1d6",
+        "approvalHash": "68718e3de29ee4b6ba39665b45da863e53c158edd0b50a3230c89e50728bf1d6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "68718e3de29ee4b6ba39665b45da863e53c158edd0b50a3230c89e50728bf1d6",
+        "approvalHash": "68718e3de29ee4b6ba39665b45da863e53c158edd0b50a3230c89e50728bf1d6"
+      }
+    },
+    {
+      "key": "らいす|らいす",
+      "referenceIndex": 1,
+      "referenceHash": "096db501e05e9540f65f4f8665e07a12f3afc1678a097eb12b0a2b282727d91e",
+      "revisionId": "049-candidate-raisu-c4e5a12b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:raisu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:raisu": "a37a4130d859c391736502a5b19e58431993438799b44c9b44cbc1cfcd4e2987"
+      },
+      "reason": "Reference ライス/ライス (master N1) is the same lexeme as the new entry ライス【ライス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists ライス/ライス at N1 (gloss: rice (esp. when served on a plate); рис; (n) Elmer Rice (amerik. Schriftsteller; 18921967))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137820; spelling=ライス; reading=ライス; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1137820 as the reference form.",
+          "selected": {
+            "sequence": "1137820",
+            "spelling": "ライス",
+            "reading": "ライス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice (esp. when served on a plate)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference らいす|らいす#1 is the same lexeme as vocab-n1:correction:raisu; target hash bound to the assembled addition.",
+        "contentHash": "481e76739b2ee9346693995374f9fdf6c40347fd8729d6379b110be74a325f51",
+        "approvalHash": "481e76739b2ee9346693995374f9fdf6c40347fd8729d6379b110be74a325f51"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "481e76739b2ee9346693995374f9fdf6c40347fd8729d6379b110be74a325f51",
+        "approvalHash": "481e76739b2ee9346693995374f9fdf6c40347fd8729d6379b110be74a325f51"
+      }
+    },
+    {
+      "key": "落下|らっか",
+      "referenceIndex": 0,
+      "referenceHash": "ba7d4caee21844ee23f503648fba1cf68b4443d0c488f46964a947f420ccc222",
+      "revisionId": "049-candidate-rakka-51f630cc-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:rakka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:rakka": "ee24461849b58a608824f8c4142f3778393b8afd3e0ade5a778517920d972dc1"
+      },
+      "reason": "Reference 落下/らっか (tanos N1) is the same lexeme as the new entry 落下【らっか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=169",
+          "finding": "tanos lists 落下/らっか at N1 (gloss: fall, drop, come down)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548650; spelling=落下; reading=らっか; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1548650 as the reference form.",
+          "selected": {
+            "sequence": "1548650",
+            "spelling": "落下",
+            "reading": "らっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fall",
+                  "drop",
+                  "descent",
+                  "coming down"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 落下|らっか#0 is the same lexeme as vocab-n1:correction:rakka; target hash bound to the assembled addition.",
+        "contentHash": "8963b5cccf0db29452a0f370bac7361a697f3391046d2223e0abad0564f72654",
+        "approvalHash": "8963b5cccf0db29452a0f370bac7361a697f3391046d2223e0abad0564f72654"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "8963b5cccf0db29452a0f370bac7361a697f3391046d2223e0abad0564f72654",
+        "approvalHash": "8963b5cccf0db29452a0f370bac7361a697f3391046d2223e0abad0564f72654"
+      }
+    },
+    {
+      "key": "落下|らっか",
+      "referenceIndex": 1,
+      "referenceHash": "31ed1ecaee35187ba31d799b5babbf82bd5718fdcce6e0a09537112ae7ab8df9",
+      "revisionId": "049-candidate-rakka-51f630cc-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:rakka"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:rakka": "ee24461849b58a608824f8c4142f3778393b8afd3e0ade5a778517920d972dc1"
+      },
+      "reason": "Reference 落下/らっか (master N1) is the same lexeme as the new entry 落下【らっか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 落下/らっか at N1 (gloss: fall; drop; come down)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548650; spelling=落下; reading=らっか; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1548650 as the reference form.",
+          "selected": {
+            "sequence": "1548650",
+            "spelling": "落下",
+            "reading": "らっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fall",
+                  "drop",
+                  "descent",
+                  "coming down"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 落下|らっか#1 is the same lexeme as vocab-n1:correction:rakka; target hash bound to the assembled addition.",
+        "contentHash": "4d0503ef85924ea8f41e3f740fe37dd8b007a36c39c418dbc728d31a715d592a",
+        "approvalHash": "4d0503ef85924ea8f41e3f740fe37dd8b007a36c39c418dbc728d31a715d592a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "4d0503ef85924ea8f41e3f740fe37dd8b007a36c39c418dbc728d31a715d592a",
+        "approvalHash": "4d0503ef85924ea8f41e3f740fe37dd8b007a36c39c418dbc728d31a715d592a"
+      }
+    }
+  ]
+}

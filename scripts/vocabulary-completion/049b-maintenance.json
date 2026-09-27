@@ -1,0 +1,4068 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:monitaa",
+      "revisionId": "049-add-monitaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "モニター",
+        "reading": "モニター",
+        "romaji": "monitaa",
+        "meaning": "Bildschirm, Monitor; Überwachung; Testperson (für Produkte)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Bildschirm (パソコンのモニター) oder Überwachung (モニターする). Auch eine Person, die Produkte oder Sendungen testet und bewertet: 商品モニター.",
+        "examples": [
+          {
+            "japanese": "仕事用に大きいモニターを買った。",
+            "romaji": "Shigotoyou ni ookii monitaa o katta.",
+            "german": "Für die Arbeit habe ich mir einen großen Monitor gekauft."
+          },
+          {
+            "japanese": "新しい化粧品のモニターを募集しています。",
+            "romaji": "Atarashii keshouhin no monitaa o boshuu shite imasu.",
+            "german": "Wir suchen Testpersonen für neue Kosmetikprodukte."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265253113",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "モニター / モニター; 名詞/普通名詞/サ変可能/*; *; *; lemma モニター-monitor; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "モニター",
+              "reading": "モニター",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "モニター as \"Bildschirm, Monitor; Überwachung; Testperson (für Produkte)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add モニター【モニター】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1135430; spelling=モニター; reading=モニター; senses=1,2,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1135430 モニター/モニター sense(s) 1,2,3 support \"Bildschirm, Monitor; Überwachung; Testperson (für Produkte)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1135430",
+            "spelling": "モニター",
+            "reading": "モニター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monitor (device, software or person)",
+                  "monitoring"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person who gives feedback on products, television programs, etc.",
+                  "customer panel participant"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(computer) monitor",
+                  "display"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "もにたー|もにたー",
+          "referenceIndex": 0,
+          "referenceHash": "7e4d3c7e56bdcbb30f184f28ad8a6e47af4c67548ee3ba23efbbdcc763f97f32"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Bildschirm, Monitor; Überwachung; Testperson (für Produkte)\" matches JMdict 1135430 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Buying a computer screen.",
+          "Recruiting product testers."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1135430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@265253113 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265253113",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "モニター / モニター; 名詞/普通名詞/サ変可能/*; *; *; lemma モニター-monitor; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "モニター",
+              "reading": "モニター",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "モニター as \"Bildschirm, Monitor; Überwachung; Testperson (für Produkte)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add モニター【モニター】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1135430 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "334d10dd67036a9239a7e3e57696499a0e0cbfff2b26b4d95bbc67b6a2d58466",
+        "approvalHash": "e2be544d96462559f8355a2b400dbe250f33c850252201acf7c0bd6d063924f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "334d10dd67036a9239a7e3e57696499a0e0cbfff2b26b4d95bbc67b6a2d58466",
+        "approvalHash": "e2be544d96462559f8355a2b400dbe250f33c850252201acf7c0bd6d063924f4"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:monozuki",
+      "revisionId": "049-add-monozuki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "物好き",
+        "reading": "ものずき",
+        "romaji": "monozuki",
+        "meaning": "Neugier auf Ausgefallenes, eigenartiger Geschmack; Sonderling",
+        "type": "Adjektiv",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "Leicht spöttisch für ungewöhnliche Vorlieben: 物好きな人 (ein Mensch mit eigenartigem Geschmack), 物好きにも … (aus reiner Liebhaberei, ausgerechnet …). Als な-Adjektiv und als Nomen gebraucht.",
+        "examples": [
+          {
+            "japanese": "こんな寒い日に海で泳ぐなんて、物好きな人もいるものだ。",
+            "romaji": "Konna samui hi ni umi de oyogu nante, monozuki na hito mo iru mono da.",
+            "german": "An so einem kalten Tag im Meer schwimmen – es gibt schon seltsame Leute."
+          },
+          {
+            "japanese": "物好きにも、彼は古いタイプライターばかり集めている。",
+            "romaji": "Monozuki ni mo, kare wa furui taipuraitaa bakari atsumete iru.",
+            "german": "Aus einer Marotte heraus sammelt er ausschließlich alte Schreibmaschinen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265644663",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "物好き / モノズキ; 形状詞/一般/*/*; *; *; lemma 物好き; aType 3,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "物好き",
+              "reading": "ものずき",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "物好き as \"Neugier auf Ausgefallenes, eigenartiger Geschmack; Sonderling\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 物好き【ものずき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1502500; spelling=物好き; reading=ものずき; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1502500 物好き/ものずき sense(s) 1,2 support \"Neugier auf Ausgefallenes, eigenartiger Geschmack; Sonderling\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1502500",
+            "spelling": "物好き",
+            "reading": "ものずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(idle) curiosity",
+                  "fancifulness",
+                  "eccentricity",
+                  "whimsy",
+                  "(having) strange tastes"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person with unusual tastes",
+                  "eccentric",
+                  "oddball"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "物好き|ものずき",
+          "referenceIndex": 0,
+          "referenceHash": "c29ef33b9b11c6905f7c2482762312f71bfc97cfd36a4ace6393764b8a1d1c63"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Neugier auf Ausgefallenes, eigenartiger Geschmack; Sonderling\" matches JMdict 1502500 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Swimming in the cold sea.",
+          "Collecting old typewriters."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1502500; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@265644663 attest 3,2; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265644663",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "物好き / モノズキ; 形状詞/一般/*/*; *; *; lemma 物好き; aType 3,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "物好き",
+              "reading": "ものずき",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "物好き as \"Neugier auf Ausgefallenes, eigenartiger Geschmack; Sonderling\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 物好き【ものずき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1502500 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ab085ded447e15a2fd50852ef29688dea32b3e126fc03dc20553b1607a1a7297",
+        "approvalHash": "fd9bfa433769537a3eec5a987c50af56858401c95c25554a9368195ffee5555c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "ab085ded447e15a2fd50852ef29688dea32b3e126fc03dc20553b1607a1a7297",
+        "approvalHash": "fd9bfa433769537a3eec5a987c50af56858401c95c25554a9368195ffee5555c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mohaya",
+      "revisionId": "049-add-mohaya",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "もはや",
+        "reading": "もはや",
+        "romaji": "mohaya",
+        "meaning": "schon, bereits; nicht mehr (mit Verneinung)",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Schriftsprachlich; betont, dass ein Zustand bereits eingetreten ist und sich nicht mehr umkehren lässt: もはや手遅れだ (es ist schon zu spät). Mit Verneinung: もはや〜ない (nicht mehr).",
+        "examples": [
+          {
+            "japanese": "気づいたときには、もはや手遅れだった。",
+            "romaji": "Kizuita toki ni wa, mohaya teokure datta.",
+            "german": "Als ich es bemerkte, war es bereits zu spät."
+          },
+          {
+            "japanese": "そんな古い考え方は、もはや通用しない。",
+            "romaji": "Sonna furui kangaekata wa, mohaya tsuuyou shinai.",
+            "german": "Mit solchen veralteten Ansichten kommt man heute nicht mehr weit."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "最早"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265821434",
+            "patterns": [
+              1
+            ],
+            "finding": "もはや / モハヤ; 副詞/*/*/*; *; *; lemma 最早; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "もはや",
+              "reading": "もはや",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "もはや as \"schon, bereits; nicht mehr (mit Verneinung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (最早), Nihongo Master N1 (最早). Editorial N1.",
+      "rationale": "Add もはや【もはや】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1294170; spelling=もはや; reading=もはや; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1294170 もはや/もはや sense(s) 1,2 support \"schon, bereits; nicht mehr (mit Verneinung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1294170",
+            "spelling": "もはや",
+            "reading": "もはや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "already",
+                  "now"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "no longer",
+                  "not any more"
+                ],
+                "notes": [
+                  "with negative verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "最早|もはや",
+          "referenceIndex": 0,
+          "referenceHash": "4a76844192795acb24508778ca3a188e4b007fda5ef8c9751b4a353057f2114f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"schon, bereits; nicht mehr (mit Verneinung)\" matches JMdict 1294170 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Noticing a problem too late.",
+          "Outdated way of thinking."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1294170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1 (最早), Nihongo Master N1 (最早). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@265821434 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265821434",
+            "patterns": [
+              1
+            ],
+            "finding": "もはや / モハヤ; 副詞/*/*/*; *; *; lemma 最早; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "もはや",
+              "reading": "もはや",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "もはや as \"schon, bereits; nicht mehr (mit Verneinung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add もはや【もはや】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1294170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "41f004e1401d64545e7a79ea78c4223ee70ecc268305e3b923edae99940ff064",
+        "approvalHash": "ce9c5529ecbb59ca65ebf47d0c7cdfebfc0aad9fead225e6ca1e114e0e7adec6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "41f004e1401d64545e7a79ea78c4223ee70ecc268305e3b923edae99940ff064",
+        "approvalHash": "ce9c5529ecbb59ca65ebf47d0c7cdfebfc0aad9fead225e6ca1e114e0e7adec6"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:momeru",
+      "revisionId": "049-add-momeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "揉める",
+        "reading": "もめる",
+        "romaji": "momeru",
+        "meaning": "sich streiten, in Streit geraten",
+        "type": "Verb",
+        "category": "Beziehungen",
+        "level": "N1",
+        "notes": "Intransitiv; Subjekt sind die Streitenden oder die Angelegenheit: 会議が揉める (in der Sitzung gibt es Streit), 遺産で揉める (sich ums Erbe streiten). Oft in Kana: もめる. Nomen: 揉め事 (Streit, Ärger).",
+        "examples": [
+          {
+            "japanese": "兄弟が遺産のことで揉めている。",
+            "romaji": "Kyoudai ga isan no koto de momete iru.",
+            "german": "Die Geschwister streiten sich ums Erbe."
+          },
+          {
+            "japanese": "会議は予算の配分をめぐって揉めた。",
+            "romaji": "Kaigi wa yosan no haibun o megutte mometa.",
+            "german": "In der Sitzung gab es Streit über die Verteilung des Budgets."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "もめる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "もめる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266118142",
+            "patterns": [
+              0
+            ],
+            "finding": "揉める / モメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 揉める; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "揉める",
+              "reading": "もめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "揉める as \"sich streiten, in Streit geraten\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 揉める【もめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1567630; spelling=揉める; reading=もめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1567630 揉める/もめる sense(s) 1 support \"sich streiten, in Streit geraten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1567630",
+            "spelling": "揉める",
+            "reading": "もめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to disagree",
+                  "to dispute",
+                  "to fight (over)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "揉める|もめる",
+          "referenceIndex": 0,
+          "referenceHash": "e0644a19f4b2229c27e31bec78f0af36672c97b4c8cb7b5f8426718ad85cf6ce"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"sich streiten, in Streit geraten\" matches JMdict 1567630 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Siblings fighting over an inheritance.",
+          "Heated budget meeting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1567630; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading もめる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@266118142 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266118142",
+            "patterns": [
+              0
+            ],
+            "finding": "揉める / モメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 揉める; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "揉める",
+              "reading": "もめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "揉める as \"sich streiten, in Streit geraten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 揉める【もめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1567630 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e97f22c73ff042233c8aa6fe9bfa356d8ff7a0efa646b0c35b914b4a4f3c7807",
+        "approvalHash": "3bdb3919745685d8dc3d16ce3e6b1c6ff07452757de5988c90c07133a38902dc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "e97f22c73ff042233c8aa6fe9bfa356d8ff7a0efa646b0c35b914b4a4f3c7807",
+        "approvalHash": "3bdb3919745685d8dc3d16ce3e6b1c6ff07452757de5988c90c07133a38902dc"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:momo-thigh",
+      "revisionId": "049-add-momo-thigh",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "腿",
+        "reading": "もも",
+        "romaji": "momo",
+        "meaning": "Oberschenkel",
+        "type": "Nomen",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Oft in Kana: もも; üblicher ist 太もも (太腿). Beim Fleisch: 鶏もも肉 (Hähnchenschenkel). Gleich lautend: 桃 (Pfirsich).",
+        "examples": [
+          {
+            "japanese": "走りすぎて、腿の筋肉が痛い。",
+            "romaji": "Hashirisugite, momo no kinniku ga itai.",
+            "german": "Ich bin zu viel gelaufen, jetzt tun mir die Oberschenkelmuskeln weh."
+          },
+          {
+            "japanese": "ボールが腿に当たって、あざができた。",
+            "romaji": "Booru ga momo ni atatte, aza ga dekita.",
+            "german": "Der Ball traf mich am Oberschenkel, und ich bekam einen blauen Fleck."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266124233",
+            "patterns": [
+              1
+            ],
+            "finding": "腿 / モモ; 名詞/普通名詞/一般/*; *; *; lemma 腿; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "腿",
+              "reading": "もも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "腿 as \"Oberschenkel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1. Editorial N1.",
+      "rationale": "Add 腿【もも】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=腿; reading=もも; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1605310 腿/もも sense(s) 1 support \"Oberschenkel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "腿",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "腿|もも",
+          "referenceIndex": 0,
+          "referenceHash": "86ad1c51ef7b65bb48cd903fde4b423f09a68bee4fef79c39ffddf194b8ce704"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Oberschenkel\" matches JMdict 1605310 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sore muscles after running.",
+          "Ball hitting the leg."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1605310; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@266124233 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266124233",
+            "patterns": [
+              1
+            ],
+            "finding": "腿 / モモ; 名詞/普通名詞/一般/*; *; *; lemma 腿; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "腿",
+              "reading": "もも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "腿 as \"Oberschenkel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 腿【もも】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1605310 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bb94013fa5b03a8d56ff75432b8dcec226244c13fa64d5ca8c27b7007184ded7",
+        "approvalHash": "17b60f700b1fd7dd36aaa64545abe878f9d7072980a335414249a3c76bc59187"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "bb94013fa5b03a8d56ff75432b8dcec226244c13fa64d5ca8c27b7007184ded7",
+        "approvalHash": "17b60f700b1fd7dd36aaa64545abe878f9d7072980a335414249a3c76bc59187"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:moru",
+      "revisionId": "049-add-moru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "漏る",
+        "reading": "もる",
+        "romaji": "moru",
+        "meaning": "undicht sein, durchlecken (Dach, Gefäß)",
+        "type": "Verb",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Intransitiv, vor allem bei Dächern und Gefäßen: 雨が漏る (es regnet durch), 屋根が漏る. Nomen: 雨漏り. Allgemeiner ist 漏れる (austreten, durchsickern). Gleich lautend: 盛る (auftun, anhäufen).",
+        "examples": [
+          {
+            "japanese": "古い家なので、大雨の日は天井から雨が漏る。",
+            "romaji": "Furui ie na node, ooame no hi wa tenjou kara ame ga moru.",
+            "german": "Das Haus ist alt, deshalb regnet es bei Starkregen durch die Decke."
+          },
+          {
+            "japanese": "このバケツは底にひびがあって、水が漏る。",
+            "romaji": "Kono baketsu wa soko ni hibi ga atte, mizu ga moru.",
+            "german": "Dieser Eimer hat einen Riss im Boden und ist undicht."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "もる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "もる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266781815",
+            "patterns": [
+              1
+            ],
+            "finding": "漏る / モル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 漏る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "漏る",
+              "reading": "もる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "漏る as \"undicht sein, durchlecken (Dach, Gefäß)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 漏る【もる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1560840; spelling=漏る; reading=もる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1560840 漏る/もる sense(s) 1 support \"undicht sein, durchlecken (Dach, Gefäß)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1560840",
+            "spelling": "漏る",
+            "reading": "もる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to leak",
+                  "to run out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "漏る|もる",
+          "referenceIndex": 0,
+          "referenceHash": "c2da3e83e69bda419de83eb94151ff338fd08c62ea0e33d01de6e329f46b8de1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"undicht sein, durchlecken (Dach, Gefäß)\" matches JMdict 1560840 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Leaking roof in heavy rain.",
+          "Cracked bucket."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1560840; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading もる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@266781815 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266781815",
+            "patterns": [
+              1
+            ],
+            "finding": "漏る / モル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 漏る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "漏る",
+              "reading": "もる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "漏る as \"undicht sein, durchlecken (Dach, Gefäß)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 漏る【もる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1560840 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d8cd72c5989e64ce1a81fa8bf260b8cc394c30acc2babe8257d782f0548e65d7",
+        "approvalHash": "dc412a453b8c5e6bf0f630ac8699ce0f7d7c41b9324172591dddc72809fb2a66"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "d8cd72c5989e64ce1a81fa8bf260b8cc394c30acc2babe8257d782f0548e65d7",
+        "approvalHash": "dc412a453b8c5e6bf0f630ac8699ce0f7d7c41b9324172591dddc72809fb2a66"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:moroni",
+      "revisionId": "049-add-moroni",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "もろに",
+        "reading": "もろに",
+        "romaji": "moroni",
+        "meaning": "voll, direkt, mit voller Wucht",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Umgangssprachlich: etwas trifft direkt und ungebremst: もろに影響を受ける (voll getroffen werden), もろにぶつかる (frontal zusammenstoßen). Meist in Kana.",
+        "examples": [
+          {
+            "japanese": "自転車が電柱にもろにぶつかった。",
+            "romaji": "Jitensha ga denchuu ni moroni butsukatta.",
+            "german": "Das Fahrrad krachte frontal gegen einen Strommast."
+          },
+          {
+            "japanese": "円安の影響をもろに受けて、輸入品が値上がりした。",
+            "romaji": "En'yasu no eikyou o moroni ukete, yunyuuhin ga neagari shita.",
+            "german": "Der schwache Yen schlug voll durch, und Importwaren wurden teurer."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "諸に"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1 (もろに), Nihongo Master N1 (諸に). Editorial N1.",
+      "rationale": "Add もろに【もろに】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012710; spelling=もろに; reading=もろに; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1012710 もろに/もろに sense(s) 1 support \"voll, direkt, mit voller Wucht\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1012710",
+            "spelling": "もろに",
+            "reading": "もろに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "completely",
+                  "all the way",
+                  "altogether",
+                  "bodily"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "もろに|もろに",
+          "referenceIndex": 0,
+          "referenceHash": "48629a0a62161acd3bf914bb39cf29ebe0cedada37b17dac4e7fb8e3bd8521ee"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"voll, direkt, mit voller Wucht\" matches JMdict 1012710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bicycle crash.",
+          "Effect of a weak yen on imports."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1012710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1 (もろに), Nihongo Master N1 (諸に). Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for もろに / もろに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup もろに / もろに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add もろに【もろに】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1012710 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a70b48385fab40223d663404d616994e0f4580a81ed6d3ac17ed2da0e1f7508e",
+        "approvalHash": "3a2ca997ed80f3fca4477fd262326a7855cfcc2c6d34ab1a80fc685b9b9fd684"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "a70b48385fab40223d663404d616994e0f4580a81ed6d3ac17ed2da0e1f7508e",
+        "approvalHash": "3a2ca997ed80f3fca4477fd262326a7855cfcc2c6d34ab1a80fc685b9b9fd684"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ya-arrow",
+      "revisionId": "049-add-ya-arrow",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "矢",
+        "reading": "や",
+        "romaji": "ya",
+        "meaning": "Pfeil",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N1",
+        "notes": "Pfeil zum Bogen (弓): 矢を射る (einen Pfeil abschießen). Redewendungen: 矢のように (pfeilschnell), 矢の催促 (ständiges Drängen). Gleich lautend: 〜屋 (Laden).",
+        "examples": [
+          {
+            "japanese": "選手は的の真ん中に矢を命中させた。",
+            "romaji": "Senshu wa mato no mannaka ni ya o meichuu saseta.",
+            "german": "Der Schütze traf mit dem Pfeil genau die Mitte der Zielscheibe."
+          },
+          {
+            "japanese": "月日は矢のように過ぎていった。",
+            "romaji": "Tsukihi wa ya no you ni sugite itta.",
+            "german": "Die Zeit verging wie im Flug."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267180782",
+            "patterns": [
+              1
+            ],
+            "finding": "矢 / ヤ; 名詞/普通名詞/一般/*; *; *; lemma 矢; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "矢",
+              "reading": "や",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "矢 as \"Pfeil\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 矢【や】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537760; spelling=矢; reading=や; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1537760 矢/や sense(s) 1 support \"Pfeil\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1537760",
+            "spelling": "矢",
+            "reading": "や",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arrow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "矢|や",
+          "referenceIndex": 0,
+          "referenceHash": "d98f4a29eeefd25fb4ff6f2f74eb101a6781cc1026e63401e566625349e579a5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Pfeil\" matches JMdict 1537760 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Archery competition.",
+          "Time passing quickly."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1537760; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@267180782 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267180782",
+            "patterns": [
+              1
+            ],
+            "finding": "矢 / ヤ; 名詞/普通名詞/一般/*; *; *; lemma 矢; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "矢",
+              "reading": "や",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "矢 as \"Pfeil\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 矢【や】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1537760 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d9c0d6a3606c5705f4130569f3a127c30d58bd600a418727f1f72fe3343b50f7",
+        "approvalHash": "c237d1b6d9735f2d9a044bd44c331052b410bbfa717cf55b920e219822cf54eb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "d9c0d6a3606c5705f4130569f3a127c30d58bd600a418727f1f72fe3343b50f7",
+        "approvalHash": "c237d1b6d9735f2d9a044bd44c331052b410bbfa717cf55b920e219822cf54eb"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yagai",
+      "revisionId": "049-add-yagai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "野外",
+        "reading": "やがい",
+        "romaji": "yagai",
+        "meaning": "Freiluft-, im Freien; freies Feld",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N1",
+        "notes": "Vor allem als Bestimmungswort: 野外コンサート (Open-Air-Konzert), 野外活動 (Aktivitäten im Freien). Ähnlich: 屋外 (draußen, außerhalb von Gebäuden).",
+        "examples": [
+          {
+            "japanese": "夏休みに、子どもたちは野外でキャンプをした。",
+            "romaji": "Natsuyasumi ni, kodomotachi wa yagai de kyanpu o shita.",
+            "german": "In den Sommerferien zelteten die Kinder im Freien."
+          },
+          {
+            "japanese": "雨のため、野外コンサートは中止になった。",
+            "romaji": "Ame no tame, yagai konsaato wa chuushi ni natta.",
+            "german": "Wegen des Regens wurde das Open-Air-Konzert abgesagt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267265639",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "野外 / ヤガイ; 名詞/普通名詞/一般/*; *; *; lemma 野外; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "野外",
+              "reading": "やがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "野外 as \"Freiluft-, im Freien; freies Feld\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 野外【やがい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537270; spelling=野外; reading=やがい; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1537270 野外/やがい sense(s) 1,2 support \"Freiluft-, im Freien; freies Feld\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1537270",
+            "spelling": "野外",
+            "reading": "やがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "outdoors",
+                  "outside",
+                  "open air"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fields",
+                  "outskirts",
+                  "suburbs"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "野外|やがい",
+          "referenceIndex": 0,
+          "referenceHash": "3790264a9ef2cfca24bafbac265e56ce736c16b5b914e85849572d56df05ca26"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Freiluft-, im Freien; freies Feld\" matches JMdict 1537270 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Summer camping.",
+          "Cancelled outdoor concert."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1537270; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@267265639 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267265639",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "野外 / ヤガイ; 名詞/普通名詞/一般/*; *; *; lemma 野外; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "野外",
+              "reading": "やがい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "野外 as \"Freiluft-, im Freien; freies Feld\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 野外【やがい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1537270 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "22a591200bc70e0224ab977bbbe6e3ab12c9a7d388b1c0ddd521d5821bbeb83e",
+        "approvalHash": "55e263e8433224de7d2a73492b7f3d4de7e81bade617c2ca642f086b6fe0241c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "22a591200bc70e0224ab977bbbe6e3ab12c9a7d388b1c0ddd521d5821bbeb83e",
+        "approvalHash": "55e263e8433224de7d2a73492b7f3d4de7e81bade617c2ca642f086b6fe0241c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yagu",
+      "revisionId": "049-add-yagu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "夜具",
+        "reading": "やぐ",
+        "romaji": "yagu",
+        "meaning": "Bettzeug",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N1",
+        "notes": "Etwas altmodisches Wort für Futon und Decken; im Alltag sagt man 布団 oder 寝具.",
+        "examples": [
+          {
+            "japanese": "旅館の人が部屋に夜具を敷いてくれた。",
+            "romaji": "Ryokan no hito ga heya ni yagu o shiite kureta.",
+            "german": "Das Personal des Gasthauses breitete im Zimmer das Bettzeug für uns aus."
+          },
+          {
+            "japanese": "冬に備えて、厚い夜具を押し入れから出した。",
+            "romaji": "Fuyu ni sonaete, atsui yagu o oshiire kara dashita.",
+            "german": "Für den Winter holte ich dickes Bettzeug aus dem Wandschrank."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267823580",
+            "patterns": [
+              1
+            ],
+            "finding": "夜具 / ヤグ; 名詞/普通名詞/一般/*; *; *; lemma 夜具; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "夜具",
+              "reading": "やぐ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "夜具 as \"Bettzeug\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 夜具【やぐ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1536660; spelling=夜具; reading=やぐ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1536660 夜具/やぐ sense(s) 1 support \"Bettzeug\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1536660",
+            "spelling": "夜具",
+            "reading": "やぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bedding",
+                  "bedclothes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "夜具|やぐ",
+          "referenceIndex": 0,
+          "referenceHash": "d005b4cddc583a8f1f1c2b46b489acdb46db6834c3efcf9671ec959c65678fc6"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Bettzeug\" matches JMdict 1536660 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Futons laid out at a ryokan.",
+          "Preparing warm bedding for winter."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1536660; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@267823580 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267823580",
+            "patterns": [
+              1
+            ],
+            "finding": "夜具 / ヤグ; 名詞/普通名詞/一般/*; *; *; lemma 夜具; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "夜具",
+              "reading": "やぐ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "夜具 as \"Bettzeug\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 夜具【やぐ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1536660 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c2dd1a9ff433cd2cf80cfb323f97388cdf6633ee11a5c3d7723999e340d2d32b",
+        "approvalHash": "a2f85d9011bc7c1ff03248d18d8aba59cf413036827c75146913b1cabd9220a3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "c2dd1a9ff433cd2cf80cfb323f97388cdf6633ee11a5c3d7723999e340d2d32b",
+        "approvalHash": "a2f85d9011bc7c1ff03248d18d8aba59cf413036827c75146913b1cabd9220a3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yakushoku",
+      "revisionId": "049-add-yakushoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "役職",
+        "reading": "やくしょく",
+        "romaji": "yakushoku",
+        "meaning": "Posten, (leitende) Stellung",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Position in einer Firma oder Behörde, besonders eine Führungsposition: 役職に就く (einen Posten übernehmen), 役職名 (Titel wie 部長 oder 課長).",
+        "examples": [
+          {
+            "japanese": "彼女は四十歳で部長という役職に就いた。",
+            "romaji": "Kanojo wa yonjussai de buchou to iu yakushoku ni tsuita.",
+            "german": "Mit vierzig übernahm sie den Posten der Abteilungsleiterin."
+          },
+          {
+            "japanese": "名刺には名前と役職が書いてある。",
+            "romaji": "Meishi ni wa namae to yakushoku ga kaite aru.",
+            "german": "Auf der Visitenkarte stehen Name und Position."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267728188",
+            "patterns": [
+              0
+            ],
+            "finding": "役職 / ヤクショク; 名詞/普通名詞/一般/*; *; *; lemma 役職; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "役職",
+              "reading": "やくしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "役職 as \"Posten, (leitende) Stellung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 役職【やくしょく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538040; spelling=役職; reading=やくしょく; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1538040 役職/やくしょく sense(s) 1,2 support \"Posten, (leitende) Stellung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1538040",
+            "spelling": "役職",
+            "reading": "やくしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "post",
+                  "official position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "managerial position",
+                  "executive position"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "役職|やくしょく",
+          "referenceIndex": 0,
+          "referenceHash": "13045cb60540021a6c6824d8045d79e64c2263d26c0ae1e0811e8f10f02cd6d9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"Posten, (leitende) Stellung\" matches JMdict 1538040 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Promotion to department head.",
+          "Information on a business card."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1538040; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@267728188 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267728188",
+            "patterns": [
+              0
+            ],
+            "finding": "役職 / ヤクショク; 名詞/普通名詞/一般/*; *; *; lemma 役職; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "役職",
+              "reading": "やくしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "役職 as \"Posten, (leitende) Stellung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 役職【やくしょく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1538040 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5ef06fedf33ec17009ce9ba84e4f71afcfbcf1640515cb737277d0d6fc7f5533",
+        "approvalHash": "4d03faef748225439ab13da29efeb953c61f078c32fe232b00ae4aa62428cb80"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "5ef06fedf33ec17009ce9ba84e4f71afcfbcf1640515cb737277d0d6fc7f5533",
+        "approvalHash": "4d03faef748225439ab13da29efeb953c61f078c32fe232b00ae4aa62428cb80"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yakudatsu",
+      "revisionId": "049-add-yakudatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "役立つ",
+        "reading": "やくだつ",
+        "romaji": "yakudatsu",
+        "meaning": "nützlich sein, sich bewähren",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Kürzere, etwas schriftsprachlichere Form von 役に立つ: 仕事に役立つ資格 (eine für die Arbeit nützliche Qualifikation). Transitiv: 役立てる (nutzen, zugutekommen lassen).",
+        "examples": [
+          {
+            "japanese": "この本は日本語の勉強に大いに役立った。",
+            "romaji": "Kono hon wa nihongo no benkyou ni ooi ni yakudatta.",
+            "german": "Dieses Buch hat mir beim Japanischlernen sehr geholfen."
+          },
+          {
+            "japanese": "災害時に役立つ情報をまとめました。",
+            "romaji": "Saigaiji ni yakudatsu jouhou o matomemashita.",
+            "german": "Wir haben Informationen zusammengestellt, die im Katastrophenfall nützlich sind."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "やくだつ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "やくだつ",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267776623",
+            "patterns": [
+              3
+            ],
+            "finding": "役立つ / ヤクダツ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; lemma 役立つ; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "役立つ",
+              "reading": "やくだつ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "役立つ as \"nützlich sein, sich bewähren\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 役立つ【やくだつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538090; spelling=役立つ; reading=やくだつ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1538090 役立つ/やくだつ sense(s) 1 support \"nützlich sein, sich bewähren\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1538090",
+            "spelling": "役立つ",
+            "reading": "やくだつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'tsu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be useful",
+                  "to be helpful",
+                  "to serve the purpose"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "役立つ|やくだつ",
+          "referenceIndex": 0,
+          "referenceHash": "a3c7b252b80005372db574c4c903e408ae91e3307afb19fd11d586badba35436"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"nützlich sein, sich bewähren\" matches JMdict 1538090 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Useful study book.",
+          "Disaster preparedness information."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1538090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading やくだつ; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@267776623 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267776623",
+            "patterns": [
+              3
+            ],
+            "finding": "役立つ / ヤクダツ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; lemma 役立つ; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "役立つ",
+              "reading": "やくだつ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "役立つ as \"nützlich sein, sich bewähren\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add 役立つ【やくだつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1538090 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5951454dee582b7b121e1d16f92734e4c06c11e02de94e874d978f1401569521",
+        "approvalHash": "4e07e059f315710b2b68ae6acd990d99c32e02608f602c1ae822321af039f76d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "5951454dee582b7b121e1d16f92734e4c06c11e02de94e874d978f1401569521",
+        "approvalHash": "4e07e059f315710b2b68ae6acd990d99c32e02608f602c1ae822321af039f76d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yakeni",
+      "revisionId": "049-add-yakeni",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "やけに",
+        "reading": "やけに",
+        "romaji": "yakeni",
+        "meaning": "auffällig, ungewöhnlich (stark)",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Umgangssprachlich, wenn etwas auffällig und unerwartet stark ist: 今日はやけに暑い (heute ist es ungewöhnlich heiß). Nicht verwechseln mit やけになる (aus Verzweiflung trotzig werden).",
+        "examples": [
+          {
+            "japanese": "今日はやけに静かだね。何かあったの？",
+            "romaji": "Kyou wa yakeni shizuka da ne. Nanika atta no?",
+            "german": "Du bist heute auffällig still. Ist etwas passiert?"
+          },
+          {
+            "japanese": "今年の夏はやけに蚊が多い。",
+            "romaji": "Kotoshi no natsu wa yakeni ka ga ooi.",
+            "german": "Diesen Sommer gibt es auffällig viele Mücken."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 049); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add やけに【やけに】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012770; spelling=やけに; reading=やけに; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1012770 やけに/やけに sense(s) 1 support \"auffällig, ungewöhnlich (stark)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1012770",
+            "spelling": "やけに",
+            "reading": "やけに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "awfully",
+                  "frightfully",
+                  "desperately",
+                  "violently",
+                  "unduly",
+                  "extremely"
+                ],
+                "notes": [
+                  "from 自棄"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "やけに|やけに",
+          "referenceIndex": 0,
+          "referenceHash": "6bac93f413f5aed09e10a280713028a713dc59ed92f3dd66bc10b47c878cd127"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-049-editor",
+        "meaning": "\"auffällig, ungewöhnlich (stark)\" matches JMdict 1012770 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Noticing someone is unusually quiet.",
+          "Many mosquitoes this summer."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1012770; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for やけに / やけに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup やけに / やけに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: Add やけに【やけに】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1012770 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "7958c87b30de87ec3181261fd92b56f53908151932c1024e1c30aae09774b949",
+        "approvalHash": "ded8a4ab9aa699f62e67db06f5f50b478ad2d74296d4db97f39d9b719a2e70a1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the examples are grammatical and use the headword in the taught sense; romaji checked; the German meaning and notes are supported by the selected JMdict senses; part of speech, conjugation and pitch status are consistent; the duplicate check reports \"new\".",
+        "contentHash": "7958c87b30de87ec3181261fd92b56f53908151932c1024e1c30aae09774b949",
+        "approvalHash": "ded8a4ab9aa699f62e67db06f5f50b478ad2d74296d4db97f39d9b719a2e70a1"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "もにたー|もにたー",
+      "referenceIndex": 0,
+      "referenceHash": "7e4d3c7e56bdcbb30f184f28ad8a6e47af4c67548ee3ba23efbbdcc763f97f32",
+      "revisionId": "049-candidate-monitaa-320900a7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:monitaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:monitaa": "334d10dd67036a9239a7e3e57696499a0e0cbfff2b26b4d95bbc67b6a2d58466"
+      },
+      "reason": "Reference モニター/モニター (tanos N1) is the same lexeme as the new entry モニター【モニター】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=182",
+          "finding": "tanos lists モニター/モニター at N1 (gloss: (computer) monitor)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1135430; spelling=モニター; reading=モニター; senses=1,2,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1135430 as the reference form.",
+          "selected": {
+            "sequence": "1135430",
+            "spelling": "モニター",
+            "reading": "モニター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monitor (device, software or person)",
+                  "monitoring"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person who gives feedback on products, television programs, etc.",
+                  "customer panel participant"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(computer) monitor",
+                  "display"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference もにたー|もにたー#0 is the same lexeme as vocab-n1:correction:monitaa; target hash bound to the assembled addition.",
+        "contentHash": "722459099f9ae498fd942d5d73733a575a6aa8e5493806aa4df324ab1689ea92",
+        "approvalHash": "722459099f9ae498fd942d5d73733a575a6aa8e5493806aa4df324ab1689ea92"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "722459099f9ae498fd942d5d73733a575a6aa8e5493806aa4df324ab1689ea92",
+        "approvalHash": "722459099f9ae498fd942d5d73733a575a6aa8e5493806aa4df324ab1689ea92"
+      }
+    },
+    {
+      "key": "もにたー|もにたー",
+      "referenceIndex": 1,
+      "referenceHash": "582d79d38849b24f0ea0ff7f40f07e7bcc17e5d081c576988d415d981c62c59f",
+      "revisionId": "049-candidate-monitaa-320900a7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:monitaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:monitaa": "334d10dd67036a9239a7e3e57696499a0e0cbfff2b26b4d95bbc67b6a2d58466"
+      },
+      "reason": "Reference モニター/モニター (master N1) is the same lexeme as the new entry モニター【モニター】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists モニター/モニター at N1 (gloss: (computer) monitor)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1135430; spelling=モニター; reading=モニター; senses=1,2,3; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1135430 as the reference form.",
+          "selected": {
+            "sequence": "1135430",
+            "spelling": "モニター",
+            "reading": "モニター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monitor (device, software or person)",
+                  "monitoring"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person who gives feedback on products, television programs, etc.",
+                  "customer panel participant"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(computer) monitor",
+                  "display"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference もにたー|もにたー#1 is the same lexeme as vocab-n1:correction:monitaa; target hash bound to the assembled addition.",
+        "contentHash": "4d425f2ac1edfd8b97c655d37f799df2eb3afd4c39c00fad73ec1c8a5474b864",
+        "approvalHash": "4d425f2ac1edfd8b97c655d37f799df2eb3afd4c39c00fad73ec1c8a5474b864"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "4d425f2ac1edfd8b97c655d37f799df2eb3afd4c39c00fad73ec1c8a5474b864",
+        "approvalHash": "4d425f2ac1edfd8b97c655d37f799df2eb3afd4c39c00fad73ec1c8a5474b864"
+      }
+    },
+    {
+      "key": "物好き|ものずき",
+      "referenceIndex": 0,
+      "referenceHash": "c29ef33b9b11c6905f7c2482762312f71bfc97cfd36a4ace6393764b8a1d1c63",
+      "revisionId": "049-candidate-monozuki-171973b0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:monozuki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:monozuki": "ab085ded447e15a2fd50852ef29688dea32b3e126fc03dc20553b1607a1a7297"
+      },
+      "reason": "Reference 物好き/ものずき (tanos N1) is the same lexeme as the new entry 物好き【ものずき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists 物好き/ものずき at N1 (gloss: curiosity)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1502500; spelling=物好き; reading=ものずき; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1502500 as the reference form.",
+          "selected": {
+            "sequence": "1502500",
+            "spelling": "物好き",
+            "reading": "ものずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(idle) curiosity",
+                  "fancifulness",
+                  "eccentricity",
+                  "whimsy",
+                  "(having) strange tastes"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person with unusual tastes",
+                  "eccentric",
+                  "oddball"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 物好き|ものずき#0 is the same lexeme as vocab-n1:correction:monozuki; target hash bound to the assembled addition.",
+        "contentHash": "3a9bdc9514912d992a2f95f362f7455acf933da9866d060bd9dcd8e3a888ffc4",
+        "approvalHash": "3a9bdc9514912d992a2f95f362f7455acf933da9866d060bd9dcd8e3a888ffc4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "3a9bdc9514912d992a2f95f362f7455acf933da9866d060bd9dcd8e3a888ffc4",
+        "approvalHash": "3a9bdc9514912d992a2f95f362f7455acf933da9866d060bd9dcd8e3a888ffc4"
+      }
+    },
+    {
+      "key": "物好き|ものずき",
+      "referenceIndex": 1,
+      "referenceHash": "bcf73ce9b9cc57473ff004959a3a0663d8e11b4dbdbce2c877662b6fbdecfb89",
+      "revisionId": "049-candidate-monozuki-171973b0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:monozuki"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:monozuki": "ab085ded447e15a2fd50852ef29688dea32b3e126fc03dc20553b1607a1a7297"
+      },
+      "reason": "Reference 物好き/ものずき (master N1) is the same lexeme as the new entry 物好き【ものずき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 物好き/ものずき at N1 (gloss: (idle) curiosity; curiosité; fantaisie)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1502500; spelling=物好き; reading=ものずき; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1502500 as the reference form.",
+          "selected": {
+            "sequence": "1502500",
+            "spelling": "物好き",
+            "reading": "ものずき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(idle) curiosity",
+                  "fancifulness",
+                  "eccentricity",
+                  "whimsy",
+                  "(having) strange tastes"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person with unusual tastes",
+                  "eccentric",
+                  "oddball"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 物好き|ものずき#1 is the same lexeme as vocab-n1:correction:monozuki; target hash bound to the assembled addition.",
+        "contentHash": "26630af3c7a761e5b6588c8ac5ae9d5d37c223d4a18f3e0bef8b3f5cb316613b",
+        "approvalHash": "26630af3c7a761e5b6588c8ac5ae9d5d37c223d4a18f3e0bef8b3f5cb316613b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "26630af3c7a761e5b6588c8ac5ae9d5d37c223d4a18f3e0bef8b3f5cb316613b",
+        "approvalHash": "26630af3c7a761e5b6588c8ac5ae9d5d37c223d4a18f3e0bef8b3f5cb316613b"
+      }
+    },
+    {
+      "key": "最早|もはや",
+      "referenceIndex": 0,
+      "referenceHash": "4a76844192795acb24508778ca3a188e4b007fda5ef8c9751b4a353057f2114f",
+      "revisionId": "049-candidate-mohaya-84a18dfd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mohaya"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mohaya": "41f004e1401d64545e7a79ea78c4223ee70ecc268305e3b923edae99940ff064"
+      },
+      "reason": "Reference 最早/もはや (tanos N1) is the same lexeme as the new entry もはや【もはや】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists 最早/もはや at N1 (gloss: already, now)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1294170; spelling=もはや; reading=もはや; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1294170 as the reference form.",
+          "selected": {
+            "sequence": "1294170",
+            "spelling": "もはや",
+            "reading": "もはや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "already",
+                  "now"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "no longer",
+                  "not any more"
+                ],
+                "notes": [
+                  "with negative verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 最早|もはや#0 is the same lexeme as vocab-n1:correction:mohaya; target hash bound to the assembled addition.",
+        "contentHash": "8fc00749d6323ffdfdf2cf1da82beb7a42527861715da6f68b80ce0541be0569",
+        "approvalHash": "8fc00749d6323ffdfdf2cf1da82beb7a42527861715da6f68b80ce0541be0569"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "8fc00749d6323ffdfdf2cf1da82beb7a42527861715da6f68b80ce0541be0569",
+        "approvalHash": "8fc00749d6323ffdfdf2cf1da82beb7a42527861715da6f68b80ce0541be0569"
+      }
+    },
+    {
+      "key": "最早|もはや",
+      "referenceIndex": 1,
+      "referenceHash": "102a369ed815f5b119b070aa03490d706be5e37cda410b88782b24ebcf3c3821",
+      "revisionId": "049-candidate-mohaya-84a18dfd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:mohaya"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mohaya": "41f004e1401d64545e7a79ea78c4223ee70ecc268305e3b923edae99940ff064"
+      },
+      "reason": "Reference 最早/もはや (master N1) is the same lexeme as the new entry もはや【もはや】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 最早/もはや at N1 (gloss: already; now; déjà)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1294170; spelling=もはや; reading=もはや; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1294170 as the reference form.",
+          "selected": {
+            "sequence": "1294170",
+            "spelling": "もはや",
+            "reading": "もはや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "already",
+                  "now"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "no longer",
+                  "not any more"
+                ],
+                "notes": [
+                  "with negative verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 最早|もはや#1 is the same lexeme as vocab-n1:correction:mohaya; target hash bound to the assembled addition.",
+        "contentHash": "cc2b32123184d78558135dcce2ecf2e7ec14776d5c3b007759a71462608f24cc",
+        "approvalHash": "cc2b32123184d78558135dcce2ecf2e7ec14776d5c3b007759a71462608f24cc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "cc2b32123184d78558135dcce2ecf2e7ec14776d5c3b007759a71462608f24cc",
+        "approvalHash": "cc2b32123184d78558135dcce2ecf2e7ec14776d5c3b007759a71462608f24cc"
+      }
+    },
+    {
+      "key": "揉める|もめる",
+      "referenceIndex": 0,
+      "referenceHash": "e0644a19f4b2229c27e31bec78f0af36672c97b4c8cb7b5f8426718ad85cf6ce",
+      "revisionId": "049-candidate-momeru-a12fc8ef-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:momeru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:momeru": "e97f22c73ff042233c8aa6fe9bfa356d8ff7a0efa646b0c35b914b4a4f3c7807"
+      },
+      "reason": "Reference 揉める/もめる (tanos N1) is the same lexeme as the new entry 揉める【もめる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists 揉める/もめる at N1 (gloss: to disagree, to dispute)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1567630; spelling=揉める; reading=もめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1567630 as the reference form.",
+          "selected": {
+            "sequence": "1567630",
+            "spelling": "揉める",
+            "reading": "もめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to disagree",
+                  "to dispute",
+                  "to fight (over)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 揉める|もめる#0 is the same lexeme as vocab-n1:correction:momeru; target hash bound to the assembled addition.",
+        "contentHash": "d3dc0fca3cbdfee00c655083b64c5f2ef35d44dcdea3b910ed161cfda3acd4d2",
+        "approvalHash": "d3dc0fca3cbdfee00c655083b64c5f2ef35d44dcdea3b910ed161cfda3acd4d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "d3dc0fca3cbdfee00c655083b64c5f2ef35d44dcdea3b910ed161cfda3acd4d2",
+        "approvalHash": "d3dc0fca3cbdfee00c655083b64c5f2ef35d44dcdea3b910ed161cfda3acd4d2"
+      }
+    },
+    {
+      "key": "揉める|もめる",
+      "referenceIndex": 1,
+      "referenceHash": "7ca5a634a473b38ac9365e9b3260c11196f57d44662e776810410a2d7df21c09",
+      "revisionId": "049-candidate-momeru-a12fc8ef-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:momeru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:momeru": "e97f22c73ff042233c8aa6fe9bfa356d8ff7a0efa646b0c35b914b4a4f3c7807"
+      },
+      "reason": "Reference 揉める/もめる (master N1) is the same lexeme as the new entry 揉める【もめる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 揉める/もめる at N1 (gloss: to disagree; to dispute; se brouiller)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1567630; spelling=揉める; reading=もめる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1567630 as the reference form.",
+          "selected": {
+            "sequence": "1567630",
+            "spelling": "揉める",
+            "reading": "もめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to disagree",
+                  "to dispute",
+                  "to fight (over)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 揉める|もめる#1 is the same lexeme as vocab-n1:correction:momeru; target hash bound to the assembled addition.",
+        "contentHash": "a5187335d6d86b484e5bc7a4abace3332c3398d00d33cf9c8d25eeeb09183e10",
+        "approvalHash": "a5187335d6d86b484e5bc7a4abace3332c3398d00d33cf9c8d25eeeb09183e10"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "a5187335d6d86b484e5bc7a4abace3332c3398d00d33cf9c8d25eeeb09183e10",
+        "approvalHash": "a5187335d6d86b484e5bc7a4abace3332c3398d00d33cf9c8d25eeeb09183e10"
+      }
+    },
+    {
+      "key": "腿|もも",
+      "referenceIndex": 0,
+      "referenceHash": "86ad1c51ef7b65bb48cd903fde4b423f09a68bee4fef79c39ffddf194b8ce704",
+      "revisionId": "049-candidate-momo-thigh-2c9d9187-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:momo-thigh"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:momo-thigh": "bb94013fa5b03a8d56ff75432b8dcec226244c13fa64d5ca8c27b7007184ded7"
+      },
+      "reason": "Reference 腿/もも (tanos N1) is the same lexeme as the new entry 腿【もも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists 腿/もも at N1 (gloss: thigh, femur)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=腿; reading=もも; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1605310 as the reference form.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "腿",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 腿|もも#0 is the same lexeme as vocab-n1:correction:momo-thigh; target hash bound to the assembled addition.",
+        "contentHash": "17bf930326d51138766be6da2b99b5de3bee8f0b0e8983649a4a43f0d95c9adf",
+        "approvalHash": "17bf930326d51138766be6da2b99b5de3bee8f0b0e8983649a4a43f0d95c9adf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "17bf930326d51138766be6da2b99b5de3bee8f0b0e8983649a4a43f0d95c9adf",
+        "approvalHash": "17bf930326d51138766be6da2b99b5de3bee8f0b0e8983649a4a43f0d95c9adf"
+      }
+    },
+    {
+      "key": "漏る|もる",
+      "referenceIndex": 0,
+      "referenceHash": "c2da3e83e69bda419de83eb94151ff338fd08c62ea0e33d01de6e329f46b8de1",
+      "revisionId": "049-candidate-moru-4abd97e1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moru": "d8cd72c5989e64ce1a81fa8bf260b8cc394c30acc2babe8257d782f0548e65d7"
+      },
+      "reason": "Reference 漏る/もる (tanos N1) is the same lexeme as the new entry 漏る【もる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists 漏る/もる at N1 (gloss: to leak, to run out)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1560840; spelling=漏る; reading=もる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1560840 as the reference form.",
+          "selected": {
+            "sequence": "1560840",
+            "spelling": "漏る",
+            "reading": "もる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to leak",
+                  "to run out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 漏る|もる#0 is the same lexeme as vocab-n1:correction:moru; target hash bound to the assembled addition.",
+        "contentHash": "6667b2ea1c03c49e269490a39ed0b4c60658d31503775bb02121452e23e321b5",
+        "approvalHash": "6667b2ea1c03c49e269490a39ed0b4c60658d31503775bb02121452e23e321b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "6667b2ea1c03c49e269490a39ed0b4c60658d31503775bb02121452e23e321b5",
+        "approvalHash": "6667b2ea1c03c49e269490a39ed0b4c60658d31503775bb02121452e23e321b5"
+      }
+    },
+    {
+      "key": "漏る|もる",
+      "referenceIndex": 1,
+      "referenceHash": "65fbdacd34a934e364b2dfbcebebe2a21202d69825975ace0afe70c705a4e287",
+      "revisionId": "049-candidate-moru-4abd97e1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moru": "d8cd72c5989e64ce1a81fa8bf260b8cc394c30acc2babe8257d782f0548e65d7"
+      },
+      "reason": "Reference 漏る/もる (master N1) is the same lexeme as the new entry 漏る【もる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 漏る/もる at N1 (gloss: to leak; to run out; fuire (ex: fuite d'eau)/s'évader)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1560840; spelling=漏る; reading=もる; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1560840 as the reference form.",
+          "selected": {
+            "sequence": "1560840",
+            "spelling": "漏る",
+            "reading": "もる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to leak",
+                  "to run out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 漏る|もる#1 is the same lexeme as vocab-n1:correction:moru; target hash bound to the assembled addition.",
+        "contentHash": "2c5a060a02c50dddb375851faec5e0bf376449723f9e2f2d303961838735d550",
+        "approvalHash": "2c5a060a02c50dddb375851faec5e0bf376449723f9e2f2d303961838735d550"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "2c5a060a02c50dddb375851faec5e0bf376449723f9e2f2d303961838735d550",
+        "approvalHash": "2c5a060a02c50dddb375851faec5e0bf376449723f9e2f2d303961838735d550"
+      }
+    },
+    {
+      "key": "もろに|もろに",
+      "referenceIndex": 0,
+      "referenceHash": "48629a0a62161acd3bf914bb39cf29ebe0cedada37b17dac4e7fb8e3bd8521ee",
+      "revisionId": "049-candidate-moroni-4e19bdde-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moroni"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moroni": "a70b48385fab40223d663404d616994e0f4580a81ed6d3ac17ed2da0e1f7508e"
+      },
+      "reason": "Reference もろに/もろに (tanos N1) is the same lexeme as the new entry もろに【もろに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "tanos lists もろに/もろに at N1 (gloss: completely, all the way)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012710; spelling=もろに; reading=もろに; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1012710 as the reference form.",
+          "selected": {
+            "sequence": "1012710",
+            "spelling": "もろに",
+            "reading": "もろに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "completely",
+                  "all the way",
+                  "altogether",
+                  "bodily"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference もろに|もろに#0 is the same lexeme as vocab-n1:correction:moroni; target hash bound to the assembled addition.",
+        "contentHash": "ff217cbba3d9f92270e581b05ef99a014476e96b4fe69015d769fea177916855",
+        "approvalHash": "ff217cbba3d9f92270e581b05ef99a014476e96b4fe69015d769fea177916855"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "ff217cbba3d9f92270e581b05ef99a014476e96b4fe69015d769fea177916855",
+        "approvalHash": "ff217cbba3d9f92270e581b05ef99a014476e96b4fe69015d769fea177916855"
+      }
+    },
+    {
+      "key": "諸に|もろに",
+      "referenceIndex": 0,
+      "referenceHash": "abe5e4079b72f6cdc4d18e1dbba15fd99bf734b7b72287ced4460ee782d0f178",
+      "revisionId": "049-candidate-moroni-badb12ed-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moroni"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moroni": "a70b48385fab40223d663404d616994e0f4580a81ed6d3ac17ed2da0e1f7508e"
+      },
+      "reason": "Reference 諸に/もろに (master N1) is the same lexeme as the new entry もろに【もろに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 諸に/もろに at N1 (gloss: completely; all the way; altogether)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012710; spelling=もろに; reading=もろに; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1012710 as the reference form.",
+          "selected": {
+            "sequence": "1012710",
+            "spelling": "もろに",
+            "reading": "もろに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "completely",
+                  "all the way",
+                  "altogether",
+                  "bodily"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 諸に|もろに#0 is the same lexeme as vocab-n1:correction:moroni; target hash bound to the assembled addition.",
+        "contentHash": "b97d01d683cb5c80556ca90cafcef16e9ac63930098c18606a3a6afc30e5f84a",
+        "approvalHash": "b97d01d683cb5c80556ca90cafcef16e9ac63930098c18606a3a6afc30e5f84a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "b97d01d683cb5c80556ca90cafcef16e9ac63930098c18606a3a6afc30e5f84a",
+        "approvalHash": "b97d01d683cb5c80556ca90cafcef16e9ac63930098c18606a3a6afc30e5f84a"
+      }
+    },
+    {
+      "key": "矢|や",
+      "referenceIndex": 0,
+      "referenceHash": "d98f4a29eeefd25fb4ff6f2f74eb101a6781cc1026e63401e566625349e579a5",
+      "revisionId": "049-candidate-ya-arrow-18aee384-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ya-arrow"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ya-arrow": "d9c0d6a3606c5705f4130569f3a127c30d58bd600a418727f1f72fe3343b50f7"
+      },
+      "reason": "Reference 矢/や (tanos N1) is the same lexeme as the new entry 矢【や】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=164",
+          "finding": "tanos lists 矢/や at N1 (gloss: arrow)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537760; spelling=矢; reading=や; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1537760 as the reference form.",
+          "selected": {
+            "sequence": "1537760",
+            "spelling": "矢",
+            "reading": "や",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arrow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 矢|や#0 is the same lexeme as vocab-n1:correction:ya-arrow; target hash bound to the assembled addition.",
+        "contentHash": "ff65c24d1a77331be1688f9c1745e7e988eec9a0af6afe25816685faa1d3c434",
+        "approvalHash": "ff65c24d1a77331be1688f9c1745e7e988eec9a0af6afe25816685faa1d3c434"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "ff65c24d1a77331be1688f9c1745e7e988eec9a0af6afe25816685faa1d3c434",
+        "approvalHash": "ff65c24d1a77331be1688f9c1745e7e988eec9a0af6afe25816685faa1d3c434"
+      }
+    },
+    {
+      "key": "矢|や",
+      "referenceIndex": 1,
+      "referenceHash": "a28115fd4d03a212a389a892ced293378af030c93dab01ee4a86c8e0b4c91030",
+      "revisionId": "049-candidate-ya-arrow-18aee384-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ya-arrow"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ya-arrow": "d9c0d6a3606c5705f4130569f3a127c30d58bd600a418727f1f72fe3343b50f7"
+      },
+      "reason": "Reference 矢/や (master N1) is the same lexeme as the new entry 矢【や】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 矢/や at N1 (gloss: arrow; flèche; стрела́)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537760; spelling=矢; reading=や; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1537760 as the reference form.",
+          "selected": {
+            "sequence": "1537760",
+            "spelling": "矢",
+            "reading": "や",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arrow"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 矢|や#1 is the same lexeme as vocab-n1:correction:ya-arrow; target hash bound to the assembled addition.",
+        "contentHash": "38f867f734952ee46aa7462b17c95be62795fbba9ae935481eb8f0b513aa4ed6",
+        "approvalHash": "38f867f734952ee46aa7462b17c95be62795fbba9ae935481eb8f0b513aa4ed6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "38f867f734952ee46aa7462b17c95be62795fbba9ae935481eb8f0b513aa4ed6",
+        "approvalHash": "38f867f734952ee46aa7462b17c95be62795fbba9ae935481eb8f0b513aa4ed6"
+      }
+    },
+    {
+      "key": "野外|やがい",
+      "referenceIndex": 0,
+      "referenceHash": "3790264a9ef2cfca24bafbac265e56ce736c16b5b914e85849572d56df05ca26",
+      "revisionId": "049-candidate-yagai-2bad3fe4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yagai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yagai": "22a591200bc70e0224ab977bbbe6e3ab12c9a7d388b1c0ddd521d5821bbeb83e"
+      },
+      "reason": "Reference 野外/やがい (tanos N1) is the same lexeme as the new entry 野外【やがい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=164",
+          "finding": "tanos lists 野外/やがい at N1 (gloss: fields, outskirts, open air, suburbs)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537270; spelling=野外; reading=やがい; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1537270 as the reference form.",
+          "selected": {
+            "sequence": "1537270",
+            "spelling": "野外",
+            "reading": "やがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "outdoors",
+                  "outside",
+                  "open air"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fields",
+                  "outskirts",
+                  "suburbs"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 野外|やがい#0 is the same lexeme as vocab-n1:correction:yagai; target hash bound to the assembled addition.",
+        "contentHash": "4d92740343c76b54311df4d83db61a5814e6b520b92bf97a2e26efc2fafd7041",
+        "approvalHash": "4d92740343c76b54311df4d83db61a5814e6b520b92bf97a2e26efc2fafd7041"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "4d92740343c76b54311df4d83db61a5814e6b520b92bf97a2e26efc2fafd7041",
+        "approvalHash": "4d92740343c76b54311df4d83db61a5814e6b520b92bf97a2e26efc2fafd7041"
+      }
+    },
+    {
+      "key": "野外|やがい",
+      "referenceIndex": 1,
+      "referenceHash": "c6342c1658efd36209641ede56277147538d5f4baf9704c7d82c4ad34fee1960",
+      "revisionId": "049-candidate-yagai-2bad3fe4-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yagai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yagai": "22a591200bc70e0224ab977bbbe6e3ab12c9a7d388b1c0ddd521d5821bbeb83e"
+      },
+      "reason": "Reference 野外/やがい (master N1) is the same lexeme as the new entry 野外【やがい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 野外/やがい at N1 (gloss: fields; outskirts; open air)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1537270; spelling=野外; reading=やがい; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1537270 as the reference form.",
+          "selected": {
+            "sequence": "1537270",
+            "spelling": "野外",
+            "reading": "やがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "outdoors",
+                  "outside",
+                  "open air"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fields",
+                  "outskirts",
+                  "suburbs"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 野外|やがい#1 is the same lexeme as vocab-n1:correction:yagai; target hash bound to the assembled addition.",
+        "contentHash": "f7e32724d29b066816a70c3b5537df9da45891232097c78ef8505d68b3838bdf",
+        "approvalHash": "f7e32724d29b066816a70c3b5537df9da45891232097c78ef8505d68b3838bdf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "f7e32724d29b066816a70c3b5537df9da45891232097c78ef8505d68b3838bdf",
+        "approvalHash": "f7e32724d29b066816a70c3b5537df9da45891232097c78ef8505d68b3838bdf"
+      }
+    },
+    {
+      "key": "夜具|やぐ",
+      "referenceIndex": 0,
+      "referenceHash": "d005b4cddc583a8f1f1c2b46b489acdb46db6834c3efcf9671ec959c65678fc6",
+      "revisionId": "049-candidate-yagu-d8a5a8d0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yagu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yagu": "c2dd1a9ff433cd2cf80cfb323f97388cdf6633ee11a5c3d7723999e340d2d32b"
+      },
+      "reason": "Reference 夜具/やぐ (tanos N1) is the same lexeme as the new entry 夜具【やぐ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=164",
+          "finding": "tanos lists 夜具/やぐ at N1 (gloss: bedding)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1536660; spelling=夜具; reading=やぐ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1536660 as the reference form.",
+          "selected": {
+            "sequence": "1536660",
+            "spelling": "夜具",
+            "reading": "やぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bedding",
+                  "bedclothes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 夜具|やぐ#0 is the same lexeme as vocab-n1:correction:yagu; target hash bound to the assembled addition.",
+        "contentHash": "cbeea8df10932e0782de903e9f71ed4077752c5777817cdb9569e621cfa0e392",
+        "approvalHash": "cbeea8df10932e0782de903e9f71ed4077752c5777817cdb9569e621cfa0e392"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "cbeea8df10932e0782de903e9f71ed4077752c5777817cdb9569e621cfa0e392",
+        "approvalHash": "cbeea8df10932e0782de903e9f71ed4077752c5777817cdb9569e621cfa0e392"
+      }
+    },
+    {
+      "key": "夜具|やぐ",
+      "referenceIndex": 1,
+      "referenceHash": "2bb43da9c10d092b93eaae2753990ddcfb06c3e9ecb8a228d18fd5210f6a8768",
+      "revisionId": "049-candidate-yagu-d8a5a8d0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yagu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yagu": "c2dd1a9ff433cd2cf80cfb323f97388cdf6633ee11a5c3d7723999e340d2d32b"
+      },
+      "reason": "Reference 夜具/やぐ (master N1) is the same lexeme as the new entry 夜具【やぐ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 夜具/やぐ at N1 (gloss: bedding; bedclothes; couchage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1536660; spelling=夜具; reading=やぐ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1536660 as the reference form.",
+          "selected": {
+            "sequence": "1536660",
+            "spelling": "夜具",
+            "reading": "やぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bedding",
+                  "bedclothes"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 夜具|やぐ#1 is the same lexeme as vocab-n1:correction:yagu; target hash bound to the assembled addition.",
+        "contentHash": "962fa1e3aac2f7796798ae02c3d2e594ca616e84d2d53296a3c1926ee8fdb491",
+        "approvalHash": "962fa1e3aac2f7796798ae02c3d2e594ca616e84d2d53296a3c1926ee8fdb491"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "962fa1e3aac2f7796798ae02c3d2e594ca616e84d2d53296a3c1926ee8fdb491",
+        "approvalHash": "962fa1e3aac2f7796798ae02c3d2e594ca616e84d2d53296a3c1926ee8fdb491"
+      }
+    },
+    {
+      "key": "役職|やくしょく",
+      "referenceIndex": 0,
+      "referenceHash": "13045cb60540021a6c6824d8045d79e64c2263d26c0ae1e0811e8f10f02cd6d9",
+      "revisionId": "049-candidate-yakushoku-e9523e53-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yakushoku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yakushoku": "5ef06fedf33ec17009ce9ba84e4f71afcfbcf1640515cb737277d0d6fc7f5533"
+      },
+      "reason": "Reference 役職/やくしょく (tanos N1) is the same lexeme as the new entry 役職【やくしょく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=164",
+          "finding": "tanos lists 役職/やくしょく at N1 (gloss: post, managerial position, official position)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538040; spelling=役職; reading=やくしょく; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1538040 as the reference form.",
+          "selected": {
+            "sequence": "1538040",
+            "spelling": "役職",
+            "reading": "やくしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "post",
+                  "official position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "managerial position",
+                  "executive position"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 役職|やくしょく#0 is the same lexeme as vocab-n1:correction:yakushoku; target hash bound to the assembled addition.",
+        "contentHash": "a7fd7153ceab500c2bc0337c0b0c3d03cd3e7f9dff8e8b1f9fc45957fb6ac402",
+        "approvalHash": "a7fd7153ceab500c2bc0337c0b0c3d03cd3e7f9dff8e8b1f9fc45957fb6ac402"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "a7fd7153ceab500c2bc0337c0b0c3d03cd3e7f9dff8e8b1f9fc45957fb6ac402",
+        "approvalHash": "a7fd7153ceab500c2bc0337c0b0c3d03cd3e7f9dff8e8b1f9fc45957fb6ac402"
+      }
+    },
+    {
+      "key": "役職|やくしょく",
+      "referenceIndex": 1,
+      "referenceHash": "3be5bee1a8834e26d1b93ed11079fc0d4166afbbb7776d91689ffd12ff175e57",
+      "revisionId": "049-candidate-yakushoku-e9523e53-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yakushoku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yakushoku": "5ef06fedf33ec17009ce9ba84e4f71afcfbcf1640515cb737277d0d6fc7f5533"
+      },
+      "reason": "Reference 役職/やくしょく (master N1) is the same lexeme as the new entry 役職【やくしょく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 役職/やくしょく at N1 (gloss: post; managerial position; official position)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538040; spelling=役職; reading=やくしょく; senses=1,2; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1538040 as the reference form.",
+          "selected": {
+            "sequence": "1538040",
+            "spelling": "役職",
+            "reading": "やくしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "post",
+                  "official position"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "managerial position",
+                  "executive position"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 役職|やくしょく#1 is the same lexeme as vocab-n1:correction:yakushoku; target hash bound to the assembled addition.",
+        "contentHash": "9df2f1b11d5e870cf8c9f66f40dae28ed6f3bd1d0a5f8502501501a091cee1e8",
+        "approvalHash": "9df2f1b11d5e870cf8c9f66f40dae28ed6f3bd1d0a5f8502501501a091cee1e8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "9df2f1b11d5e870cf8c9f66f40dae28ed6f3bd1d0a5f8502501501a091cee1e8",
+        "approvalHash": "9df2f1b11d5e870cf8c9f66f40dae28ed6f3bd1d0a5f8502501501a091cee1e8"
+      }
+    },
+    {
+      "key": "役立つ|やくだつ",
+      "referenceIndex": 0,
+      "referenceHash": "a3c7b252b80005372db574c4c903e408ae91e3307afb19fd11d586badba35436",
+      "revisionId": "049-candidate-yakudatsu-d9019ec3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yakudatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yakudatsu": "5951454dee582b7b121e1d16f92734e4c06c11e02de94e874d978f1401569521"
+      },
+      "reason": "Reference 役立つ/やくだつ (tanos N1) is the same lexeme as the new entry 役立つ【やくだつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=164",
+          "finding": "tanos lists 役立つ/やくだつ at N1 (gloss: to be useful, to be helpful, to serve the purpose)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538090; spelling=役立つ; reading=やくだつ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1538090 as the reference form.",
+          "selected": {
+            "sequence": "1538090",
+            "spelling": "役立つ",
+            "reading": "やくだつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'tsu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be useful",
+                  "to be helpful",
+                  "to serve the purpose"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 役立つ|やくだつ#0 is the same lexeme as vocab-n1:correction:yakudatsu; target hash bound to the assembled addition.",
+        "contentHash": "395e16638b9b3a914f9fd85ba72c8f4bef51964535713a13f4dd6074764eac34",
+        "approvalHash": "395e16638b9b3a914f9fd85ba72c8f4bef51964535713a13f4dd6074764eac34"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "395e16638b9b3a914f9fd85ba72c8f4bef51964535713a13f4dd6074764eac34",
+        "approvalHash": "395e16638b9b3a914f9fd85ba72c8f4bef51964535713a13f4dd6074764eac34"
+      }
+    },
+    {
+      "key": "役立つ|やくだつ",
+      "referenceIndex": 1,
+      "referenceHash": "b9a35b6914c56aa4cbfb4314310061a68900f258c0b497a7ebc67e8d69ccea7f",
+      "revisionId": "049-candidate-yakudatsu-d9019ec3-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yakudatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yakudatsu": "5951454dee582b7b121e1d16f92734e4c06c11e02de94e874d978f1401569521"
+      },
+      "reason": "Reference 役立つ/やくだつ (master N1) is the same lexeme as the new entry 役立つ【やくだつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 役立つ/やくだつ at N1 (gloss: to be useful; to be helpful; to serve the purpose)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1538090; spelling=役立つ; reading=やくだつ; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1538090 as the reference form.",
+          "selected": {
+            "sequence": "1538090",
+            "spelling": "役立つ",
+            "reading": "やくだつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'tsu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be useful",
+                  "to be helpful",
+                  "to serve the purpose"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference 役立つ|やくだつ#1 is the same lexeme as vocab-n1:correction:yakudatsu; target hash bound to the assembled addition.",
+        "contentHash": "7f454c2e9442f2d3ae30ed332909d305bb785e6e0597e1b855981c0a74246ba0",
+        "approvalHash": "7f454c2e9442f2d3ae30ed332909d305bb785e6e0597e1b855981c0a74246ba0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "7f454c2e9442f2d3ae30ed332909d305bb785e6e0597e1b855981c0a74246ba0",
+        "approvalHash": "7f454c2e9442f2d3ae30ed332909d305bb785e6e0597e1b855981c0a74246ba0"
+      }
+    },
+    {
+      "key": "やけに|やけに",
+      "referenceIndex": 0,
+      "referenceHash": "6bac93f413f5aed09e10a280713028a713dc59ed92f3dd66bc10b47c878cd127",
+      "revisionId": "049-candidate-yakeni-67acd5b8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yakeni"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yakeni": "7958c87b30de87ec3181261fd92b56f53908151932c1024e1c30aae09774b949"
+      },
+      "reason": "Reference やけに/やけに (master N1) is the same lexeme as the new entry やけに【やけに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists やけに/やけに at N1 (gloss: awfully; frightfully; desperately)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1012770; spelling=やけに; reading=やけに; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1012770 as the reference form.",
+          "selected": {
+            "sequence": "1012770",
+            "spelling": "やけに",
+            "reading": "やけに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "awfully",
+                  "frightfully",
+                  "desperately",
+                  "violently",
+                  "unduly",
+                  "extremely"
+                ],
+                "notes": [
+                  "from 自棄"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-editor",
+        "finding": "Editorial first pass: reference やけに|やけに#0 is the same lexeme as vocab-n1:correction:yakeni; target hash bound to the assembled addition.",
+        "contentHash": "7ce2fdedad86c3b6af60843594e6dabd7a2e11e6104492194f64b70a333dfb22",
+        "approvalHash": "7ce2fdedad86c3b6af60843594e6dabd7a2e11e6104492194f64b70a333dfb22"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-049-independent-reviewer",
+        "finding": "Second pass: the spec diff against before-r1 contains only the four round-1 edits (社 ex2, よって type, 類 ex1/note/context, 藁 ex2), and nothing was dropped. Each first-approved file matches its rebuilt assembly in content. checkPacket passes against the current runtime (after the 043-047 imports), so no packet is stale. Totals: 112 additions, 214 decisions. Unchanged since round 1 and re-accepted: the publisher row is the same lexeme as its target, and the hash is bound to the assembled addition.",
+        "contentHash": "7ce2fdedad86c3b6af60843594e6dabd7a2e11e6104492194f64b70a333dfb22",
+        "approvalHash": "7ce2fdedad86c3b6af60843594e6dabd7a2e11e6104492194f64b70a333dfb22"
+      }
+    }
+  ]
+}
