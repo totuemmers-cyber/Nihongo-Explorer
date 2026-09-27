@@ -6,22 +6,43 @@ const { createHash } = require('node:crypto');
 const root = path.resolve(__dirname, '..'), sandbox = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'comprehension-data.js'), 'utf8'), sandbox);
 const units = sandbox.window.COMPREHENSION_UNITS;
-const ids = new Set(), distribution = [0, 0, 0, 0];
+const ids = new Set(), distribution = [0, 0, 0, 0], distribution3 = [0, 0, 0];
+// Additional task formats: skill, question count range, choices per question, minimum passages.
+const FORMATS = {
+  'quick-response': { skill: 'listening', questions: [3, 6], choices: 3, passages: 3 },
+  utterance: { skill: 'listening', questions: [3, 6], choices: 3, passages: 3 },
+  'info-search': { skill: 'reading', questions: [2, 3], choices: 4, passages: 1 },
+  integrated: { skill: 'reading', questions: [2, 3], choices: 4, passages: 2 },
+  long: { skill: 'reading', questions: [3, 4], choices: 4, passages: 3, minChars: { N2: 600, N1: 900 } }
+};
 function unique(id) { assert(!ids.has(id), 'Duplicate ID: ' + id); ids.add(id); }
-assert.equal(units.length, 100);
+assert.equal(units.filter(u => !u.format).length, 100);
 for (const level of ['N5', 'N4', 'N3', 'N2', 'N1']) for (const skill of ['reading', 'listening']) {
   const group = units.filter(u => u.level === level && u.skill === skill);
-  assert.equal(group.length, 10, level + '/' + skill);
-  assert.equal(group.map(u => u.order).join(','), '1,2,3,4,5,6,7,8,9,10');
+  const standard = group.filter(u => !u.format);
+  assert.equal(standard.length, 10, level + '/' + skill);
+  assert.equal(standard.map(u => u.order).join(','), '1,2,3,4,5,6,7,8,9,10');
+  // Format units continue the per-skill numbering after the ten standard units.
+  assert.equal(group.map(u => u.order).join(','), group.map((_, i) => i + 1).join(','), level + '/' + skill + ' order');
   assert(group.every(u => u.id === `${skill}-${level.toLowerCase()}-${u.order}`));
 }
 let totalSeconds = 0;
 for (const u of units) {
   unique(u.id);
   for (const key of ['title', 'objective', 'introduction', 'translation', 'note']) assert(typeof u[key] === 'string' && u[key].trim().length > 0, `${u.id}: ${key}`);
-  assert(Number.isInteger(u.minutes) && u.minutes >= 7 && u.minutes <= 19, u.id + ': practice time');
+  const spec = u.format && FORMATS[u.format];
+  assert(!u.format || spec, u.id + ': unknown format');
+  assert(Number.isInteger(u.minutes) && u.minutes >= (spec ? 5 : 7) && u.minutes <= (spec ? 25 : 19), u.id + ': practice time');
   assert(u.glossary.length >= 2);
-  assert.equal(u.questions.length, 3);
+  if (!spec) assert.equal(u.questions.length, 3);
+  else {
+    assert.equal(u.skill, spec.skill, u.id + ': format skill');
+    assert(u.questions.length >= spec.questions[0] && u.questions.length <= spec.questions[1], u.id + ': question count');
+    assert(u.passages.length >= spec.passages, u.id + ': passages');
+    if (u.format === 'integrated') assert.equal(u.passages.map(p => p.label).filter(Boolean).join('|'), 'Text A|Text B', u.id + ': Text A/B labels');
+    const chars = u.passages.reduce((n, p) => n + p.text.replace(/\{([^|{}]+)\|([^{}]+)\}/g, '$1').length, 0);
+    if (spec.minChars && spec.minChars[u.level]) assert(chars >= spec.minChars[u.level], u.id + ': long text too short (' + chars + ')');
+  }
   for (const p of u.passages) {
     unique(p.id); assert(p.text.length > 10);
     assert(!p.text.replace(/\{([^|{}]+)\|([^{}]+)\}/g, '$1').match(/[{}|]/), 'Malformed ruby: ' + p.id);
@@ -33,8 +54,9 @@ for (const u of units) {
   assert(u.passages.some(p => /\{.+\|.+\}/.test(p.text)), 'No reading support: ' + u.id);
   for (const q of u.questions) {
     unique(q.id); assert(u.passages.some(p => p.id === q.evidence));
-    assert.equal(q.choices.length, 4); assert.equal(new Set(q.choices.map(c => c.text)).size, 4);
-    assert(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4); distribution[q.answer]++;
+    const choices = spec ? spec.choices : 4;
+    assert.equal(q.choices.length, choices, q.id + ': choices'); assert.equal(new Set(q.choices.map(c => c.text)).size, choices);
+    assert(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < choices); (choices === 4 ? distribution : distribution3)[q.answer]++;
     for (const c of q.choices) { assert(c.text.length > 0); assert(u.passages.some(p => p.id === c.evidence), q.id + ': missing choice evidence'); assert(c.explanation.length > 10, q.id + ': missing rationale'); }
   }
   if (u.skill === 'listening') {
@@ -64,11 +86,12 @@ const sha = file => createHash('sha256').update(fs.readFileSync(path.join(root, 
 // Line endings follow Git's checkout settings; the receipt hashes the LF text.
 const manifestText = fs.readFileSync(path.join(root, 'audio-manifest.json'), 'utf8').replace(/\r\n/g, '\n');
 assert.equal(receipt.manifestSha256, createHash('sha256').update(manifestText).digest('hex'), 'Audio settings changed: regenerate WAVs');
-assert.equal(receipt.files.length, 50);
-assert.equal(new Set(receipt.files.map(f => f.id)).size, 50, 'Duplicate receipt entry');
+const listeningUnits = units.filter(u => u.skill === 'listening').length;
+assert.equal(receipt.files.length, listeningUnits);
+assert.equal(new Set(receipt.files.map(f => f.id)).size, listeningUnits, 'Duplicate receipt entry');
 for (const file of receipt.files) assert.equal(file.sha256, sha(file.src), file.id + ': audio differs from generation receipt');
-assert.equal(manifest.length, 50);
-assert.equal(new Set(manifest.map(m => m.id)).size, 50, 'Duplicate audio specification');
+assert.equal(manifest.length, listeningUnits);
+assert.equal(new Set(manifest.map(m => m.id)).size, listeningUnits, 'Duplicate audio specification');
 for (const m of manifest) {
   assert(m.segments.every(s => s.text && !/[{}|]|[AB]:/.test(s.text)));
   // 十分 as "ten minutes" is read じゅうぶん ("enough") unless the speech text spells it out.
@@ -78,6 +101,8 @@ for (const m of manifest) {
   assert(receipt.files.some(f => f.id === m.id && f.src === m.src), m.id + ': missing generation receipt');
   if (u.passages.some(p => p.speaker)) assert.equal(new Set(m.segments.map(s => s.voice)).size, 2, m.id + ': dialogue voices');
 }
-assert.equal(units.reduce((n, u) => n + u.questions.length, 0), 300);
+assert.equal(units.filter(u => !u.format).reduce((n, u) => n + u.questions.length, 0), 300);
 assert(Math.max(...distribution) - Math.min(...distribution) <= 2, 'Unbalanced answer positions');
-console.log(`Comprehension audit passed: 100 units, 300 questions, unique IDs and evidence, beginner ruby, 50 PCM WAVs (${(totalSeconds / 60).toFixed(1)} minutes). Answer positions: ${distribution.join('/')}. Audio checks cover signal integrity, not perceptual pronunciation review.`);
+if (distribution3.some(Boolean)) assert(Math.max(...distribution3) - Math.min(...distribution3) <= 2, 'Unbalanced three-choice answer positions');
+const questionTotal = units.reduce((n, u) => n + u.questions.length, 0);
+console.log(`Comprehension audit passed: ${units.length} units (${units.filter(u => u.format).length} in additional task formats), ${questionTotal} questions, unique IDs and evidence, beginner ruby, ${listeningUnits} PCM WAVs (${(totalSeconds / 60).toFixed(1)} minutes). Answer positions: ${distribution.join('/')}${distribution3.some(Boolean) ? ' (3-choice: ' + distribution3.join('/') + ')' : ''}. Audio checks cover signal integrity, not perceptual pronunciation review.`);

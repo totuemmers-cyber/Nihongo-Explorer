@@ -22,7 +22,7 @@ New-Item -ItemType Directory -Path $stagingRoot -Force | Out-Null
 $synth = [Windows.Media.SpeechSynthesis.SpeechSynthesizer]::new()
 try {
   foreach ($unit in $manifest) {
-    if ($Only -and $unit.id -ne $Only) { continue }
+    if ($Only -and (($Only -split ',') -notcontains $unit.id)) { continue }
     if ($unit.id -notmatch '^listening-n[1-5]-[1-9][0-9]*$') { throw 'Unexpected unit ID' }
     $synth.Options.SpeakingRate = $unit.speakingRate
     $index = 0

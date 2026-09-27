@@ -34,16 +34,24 @@ async function boot(hash = '#reading', options = {}) {
   await until(() => w.app && w.app.workspace && w.history.state, 'boot');
   return { dom, w, d, errors, media, requests };
 }
+// Expected header text, derived like workspace.js: total plus "· n je Niveau" when all levels are equal.
+function expectedCount(w, skill) {
+  const levels = ['N5', 'N4', 'N3', 'N2', 'N1'].map(l => w.COMPREHENSION_UNITS.filter(u => u.skill === skill && u.level === l).length);
+  const total = levels.reduce((a, b) => a + b, 0);
+  return total + ' Einheiten' + (levels.every(n => n === levels[0]) ? ' · ' + levels[0] + ' je Niveau' : '');
+}
+function levelCount(w, skill, level) { return w.COMPREHENSION_UNITS.filter(u => u.skill === skill && u.level === level).length; }
 function clickText(d, text) { const button = [...d.querySelectorAll('button')].find(b => b.textContent === text && !b.closest('.hidden')); assert(button, text); button.click(); return button; }
 async function run() {
   const first = await boot('#kana');
   assert(!first.requests.includes('comprehension-data.js'), 'Content must be lazy'); first.dom.window.close();
   const f = await boot(); const { w, d } = f;
   try {
-    assert.equal(d.querySelectorAll('#reading-tab [data-unit]').length, 10);
-    assert.equal(d.getElementById('item-count').textContent, '50 Einheiten · 10 je Niveau');
-    assert(d.getElementById('reading-tab').textContent.includes('10 Einheiten auf Niveau N5'));
-    assert(d.querySelector('[data-unit="reading-n5-10"]').closest('li').textContent.includes('10/10'));
+    const n5 = levelCount(w, 'reading', 'N5');
+    assert.equal(d.querySelectorAll('#reading-tab [data-unit]').length, n5);
+    assert.equal(d.getElementById('item-count').textContent, expectedCount(w, 'reading'));
+    assert(d.getElementById('reading-tab').textContent.includes(n5 + ' Einheiten auf Niveau N5'));
+    assert(d.querySelector('[data-unit="reading-n5-10"]').closest('li').textContent.includes('10/' + n5));
     assert.equal(d.querySelector('#reading-tab .level-filters [aria-pressed="true"]').textContent, 'N5');
     for (const bar of d.querySelectorAll('.search-bar')) { assert(bar.querySelector('.search-field > input')); assert(bar.querySelector('.search-field > .btn-clear')); assert.equal(bar.querySelector('.bm-toggle').parentElement, bar); }
     clickText(d, 'N3'); w.scrollY = 480; d.querySelector('#reading-tab [data-unit]').click();
@@ -107,7 +115,7 @@ async function run() {
     const deep = await boot(route, { progress: JSON.stringify(legacyProgress) });
     const unit = deep.w.COMPREHENSION_UNITS.find(u => u.id === id);
     assert.equal(deep.d.querySelector('.comprehension-unit h2').textContent, unit.title);
-    assert.equal(deep.d.getElementById('item-count').textContent, '50 Einheiten · 10 je Niveau');
+    assert.equal(deep.d.getElementById('item-count').textContent, expectedCount(deep.w, skill));
     for (const q of unit.questions) deep.d.querySelector('input[name="' + q.id + '"][value="' + q.answer + '"]').click();
     deep.d.querySelector('.comprehension-unit form').dispatchEvent(new deep.w.Event('submit', { bubbles: true, cancelable: true }));
     const saved = deep.w.localStorage.getItem('nihongo-comprehension-v1');
@@ -116,7 +124,7 @@ async function run() {
     assert(refreshed.d.querySelector('.comprehension-result').textContent.startsWith('3 von 3 richtig'), id);
     refreshed.w.close();
     clickText(deep.d, '← Zurück zu ' + (skill === 'reading' ? 'Lesen' : 'Hören'));
-    assert.equal(deep.d.querySelectorAll('#' + skill + '-tab [data-unit]').length, 10);
+    assert.equal(deep.d.querySelectorAll('#' + skill + '-tab [data-unit]').length, levelCount(deep.w, skill, unit.level));
     assert.equal(deep.d.activeElement.dataset.unit, id);
     deep.w.history.back(); await until(() => deep.d.querySelector('.comprehension-unit'), 'history to unit ten');
     assert.equal(deep.w.location.hash, route);
@@ -128,24 +136,29 @@ async function run() {
     all.w.app.switchTab(unit.skill);
     await all.w.Comprehension.activate(unit.skill, null, unit.id);
     const panel = all.d.getElementById(unit.skill + '-tab');
-    assert.equal(panel.querySelectorAll('fieldset').length, 3, unit.id); assert.equal(panel.querySelectorAll('input[type="radio"]').length, 12, unit.id);
+    const choiceTotal = unit.questions.reduce((n, q) => n + q.choices.length, 0);
+    assert.equal(panel.querySelectorAll('fieldset').length, unit.questions.length, unit.id); assert.equal(panel.querySelectorAll('input[type="radio"]').length, choiceTotal, unit.id);
+    for (const p of unit.passages) if (p.label) assert(panel.querySelector('#' + p.id).textContent.startsWith(p.label), unit.id + ': passage label');
+    if (unit.format) assert(panel.querySelector('.comprehension-unit .comprehension-meta').textContent.includes('·'), unit.id + ': format badge');
     assert.equal(panel.querySelectorAll('.comprehension-feedback').length, 0, unit.id);
     for (const q of unit.questions) panel.querySelector('input[name="' + q.id + '"][value="' + q.answer + '"]').click();
     panel.querySelector('form').dispatchEvent(new all.w.Event('submit', { bubbles: true, cancelable: true }));
-    assert.equal(panel.querySelectorAll('.comprehension-feedback').length, 12, unit.id); assert(panel.querySelector('.comprehension-result').textContent.startsWith('3 von 3 richtig'), unit.id);
+    assert.equal(panel.querySelectorAll('.comprehension-feedback').length, choiceTotal, unit.id); assert(panel.querySelector('.comprehension-result').textContent.startsWith(unit.questions.length + ' von ' + unit.questions.length + ' richtig'), unit.id);
   }
   // An uneven future content group must not keep today's total or denominator.
-  const extra = JSON.parse(JSON.stringify(all.w.COMPREHENSION_UNITS.find(u => u.id === 'reading-n5-10')).replace(/reading-n5-10/g, 'reading-n5-11'));
-  extra.order = 11;
+  const readingTotal = all.w.COMPREHENSION_UNITS.filter(u => u.skill === 'reading').length, listeningTotal = all.w.COMPREHENSION_UNITS.filter(u => u.skill === 'listening').length;
+  const nextOrder = levelCount(all.w, 'reading', 'N5') + 1, extraId = 'reading-n5-' + nextOrder;
+  const extra = JSON.parse(JSON.stringify(all.w.COMPREHENSION_UNITS.find(u => u.id === 'reading-n5-10')).replace(/reading-n5-10/g, extraId));
+  extra.order = nextOrder;
   all.w.COMPREHENSION_UNITS.push(extra);
   all.w.app.switchTab('reading');
   await all.w.Comprehension.activate('reading', { reading: { level: 'N5' } }, '');
-  assert.equal(all.d.getElementById('item-count').textContent, '51 Einheiten');
-  assert.equal(all.d.querySelectorAll('#reading-tab [data-unit]').length, 11);
-  assert(all.d.getElementById('reading-tab').textContent.includes('11 Einheiten auf Niveau N5'));
-  assert(all.d.querySelector('[data-unit="reading-n5-11"]').closest('li').textContent.includes('11/11'));
-  assert.equal(all.w.Comprehension.counts('listening').total, 50);
+  assert.equal(all.d.getElementById('item-count').textContent, (readingTotal + 1) + ' Einheiten');
+  assert.equal(all.d.querySelectorAll('#reading-tab [data-unit]').length, nextOrder);
+  assert(all.d.getElementById('reading-tab').textContent.includes(nextOrder + ' Einheiten auf Niveau N5'));
+  assert(all.d.querySelector('[data-unit="' + extraId + '"]').closest('li').textContent.includes(nextOrder + '/' + nextOrder));
+  assert.equal(all.w.Comprehension.counts('listening').total, listeningTotal);
   assert.equal(all.errors.length, 0, all.errors.map(e => e.message).join('\n')); all.w.close();
-  console.log('Guided learning tests passed: all 100 units, dynamic counts, unit-ten deep links/history/refresh, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, retry, audio lifecycle and unavailable storage.');
+  console.log('Guided learning tests passed: all units (incl. task formats), dynamic counts, unit-ten deep links/history/refresh, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, retry, audio lifecycle and unavailable storage.');
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

@@ -12,6 +12,8 @@
       if (status) status.textContent = 'Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Neuladen dieser Seite erhalten.';
     }
   }
+  var FORMAT_LABELS = { 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?', 'info-search': 'Informationen suchen', integrated: 'Zwei Texte vergleichen', long: 'Langer Text' };
+  function formatLabel(u) { return u.format ? ' · ' + FORMAT_LABELS[u.format] : ''; }
   function el(tag, text, cls) { var n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; }
   function button(text, fn) { var b = el('button', text); b.type = 'button'; b.onclick = fn; return b; }
   function japanese(text) {
@@ -43,8 +45,8 @@
   function attempt(u) {
     var p = progress[u.id];
     if (!p || typeof p !== 'object' || !p.answers || typeof p.answers !== 'object' || !p.hints || typeof p.hints !== 'object' || !Array.isArray(p.attempts)) p = progress[u.id] = { answers: {}, submitted: false, assisted: false, hints: {}, attempts: [] };
-    p.attempts = p.attempts.filter(function (a) { return a && Number.isInteger(a.score) && a.score >= 0 && a.score <= 3 && typeof a.assisted === 'boolean'; });
-    u.questions.forEach(function (q) { if (!Number.isInteger(p.answers[q.id]) || p.answers[q.id] < 0 || p.answers[q.id] > 3) delete p.answers[q.id]; });
+    p.attempts = p.attempts.filter(function (a) { return a && Number.isInteger(a.score) && a.score >= 0 && a.score <= u.questions.length && typeof a.assisted === 'boolean'; });
+    u.questions.forEach(function (q) { if (!Number.isInteger(p.answers[q.id]) || p.answers[q.id] < 0 || p.answers[q.id] >= q.choices.length) delete p.answers[q.id]; });
     if (p.submitted && (!p.attempts.length || !u.questions.every(function (q) { return Number.isInteger(p.answers[q.id]); }))) p.submitted = false;
     return p;
   }
@@ -93,7 +95,7 @@
     var list = el('ol', null, 'comprehension-list');
     group.forEach(function (u) {
       var li = el('li', null, 'comprehension-card');
-      li.appendChild(el('span', u.level + ' · ' + u.order + '/' + group.length + ' · ca. ' + u.minutes + ' Min.', 'comprehension-meta'));
+      li.appendChild(el('span', u.level + ' · ' + u.order + '/' + group.length + ' · ca. ' + u.minutes + ' Min.' + formatLabel(u), 'comprehension-meta'));
       var b = button(u.title, function () { open(u.id); }); b.dataset.unit = u.id; li.appendChild(b);
       li.appendChild(el('p', u.objective));
       list.appendChild(li);
@@ -103,7 +105,7 @@
     var p = attempt(u); persist();
     host.appendChild(button('← Zurück zu ' + (active === 'reading' ? 'Lesen' : 'Hören'), back));
     var article = el('article', null, 'comprehension-unit'); host.appendChild(article);
-    article.appendChild(el('p', u.level + ' · Einheit ' + u.order + ' · ca. ' + u.minutes + ' Min.', 'comprehension-meta'));
+    article.appendChild(el('p', u.level + ' · Einheit ' + u.order + ' · ca. ' + u.minutes + ' Min.' + formatLabel(u), 'comprehension-meta'));
     article.appendChild(el('h2', u.title)); article.appendChild(el('p', 'Lernziel: ' + u.objective)); article.appendChild(el('p', u.introduction));
     var aidStatus = el('p', p.assisted ? 'Dieser Versuch: mit Hilfe' : 'Dieser Versuch: ohne Hilfe', 'comprehension-meta'); aidStatus.setAttribute('role', 'status'); article.appendChild(aidStatus);
     function markHint(key) { if (!p.submitted) { p.assisted = true; p.hints[key] = true; persist(); aidStatus.textContent = 'Dieser Versuch: mit Hilfe'; } }
@@ -112,7 +114,7 @@
     article.classList.toggle('without-furigana', !furigana);
     var rubyButton = button(/^N[45]$/.test(u.level) ? 'Furigana' : 'Furigana für Schlüsselwörter', function () { furigana = !furigana; article.classList.toggle('without-furigana', !furigana); rubyButton.setAttribute('aria-pressed', String(furigana)); if (furigana && !/^N[45]$/.test(u.level)) markHint('furigana'); });
     rubyButton.setAttribute('aria-pressed', String(furigana)); supports.appendChild(rubyButton);
-    function passages(target) { u.passages.forEach(function (block) { var row = el('div', null, 'comprehension-passage'); row.id = block.id; if (block.speaker) row.appendChild(el('span', block.speaker, 'comprehension-meta')); row.appendChild(japanese(block.text)); target.appendChild(row); }); }
+    function passages(target) { u.passages.forEach(function (block) { var row = el('div', null, 'comprehension-passage'); row.id = block.id; if (block.speaker || block.label) row.appendChild(el('span', block.label || block.speaker, 'comprehension-meta')); row.appendChild(japanese(block.text)); target.appendChild(row); }); }
     if (u.skill === 'listening') {
       article.appendChild(el('p', 'Synthetisches japanisches Audio · ohne automatischen Start', 'comprehension-meta'));
       var audio = document.createElement('audio'); audio.controls = true; audio.preload = 'none'; audio.src = u.audio.src + '?v=' + encodeURIComponent(u.audio.revision || '1'); audio.setAttribute('aria-label', u.title + ' anhören'); article.appendChild(audio);
@@ -157,7 +159,7 @@
       var result = host.querySelector('.comprehension-result'); if (result) result.focus();
     };
     if (p.submitted) {
-      var last = p.attempts[p.attempts.length - 1]; var result = el('p', last.score + ' von 3 richtig · ' + (last.assisted ? 'mit Hilfe' : 'ohne Hilfe'), 'comprehension-result'); result.tabIndex = -1; result.setAttribute('role', 'status'); article.appendChild(result);
+      var last = p.attempts[p.attempts.length - 1]; var result = el('p', last.score + ' von ' + u.questions.length + ' richtig · ' + (last.assisted ? 'mit Hilfe' : 'ohne Hilfe'), 'comprehension-result'); result.tabIndex = -1; result.setAttribute('role', 'status'); article.appendChild(result);
       article.appendChild(el('p', 'Lernhinweis: ' + u.note));
       article.appendChild(button('Neuer Versuch', function () { progress[u.id] = { answers: {}, submitted: false, assisted: false, hints: {}, attempts: p.attempts }; persist(); render(); focusHeading(); }));
     }

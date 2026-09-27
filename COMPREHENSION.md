@@ -26,6 +26,20 @@ Within each level, each five-unit sequence moves from explicit orientation to in
 
 N5/N4 passages provide authored ruby on all written kanji. Higher levels offer optional ruby on authored glossary key terms. Vocabulary, translation and listening transcript hints start closed on a new attempt. Opening a hint, enabling higher-level ruby, or slowing audio marks that attempt assisted. Default beginner ruby and ordinary replay do not. Revealing help after submission does not retroactively alter the saved result. A new attempt resets answers and hints while preserving previous completion records.
 
+## Additional JLPT task formats (27 September 2026)
+
+Since 27 September 2026 the library also contains **34 units in five additional JLPT task formats**. They follow the ten standard units of each level and skill and continue their numbering: reading-n4-11, listening-n5-11 and so on. Standard units keep their original schema, IDs and answer keys; only format units carry a  field.
+
+| Format | JLPT section | Skill | Levels | Units | Shape |
+| --- | --- | --- | --- | ---: | --- |
+|  | 即時応答 | Hören | N5–N1 | 10 | four short lines, pick the most natural reply (3 choices) |
+|  | 発話表現 | Hören | N5–N3 | 6 | situation description, pick what one says (3 choices) |
+|  | 情報検索 | Lesen | N4–N1 | 8 | notice, timetable or rules page; combine conditions (2–3 questions) |
+|  | 統合理解 | Lesen | N2–N1 | 4 | Text A and Text B on one topic; compare positions |
+|  | 長文 | Lesen | N2–N1 | 6 | 3+ paragraphs, at least 600 (N2) / 900 (N1) characters, 3–4 questions |
+
+Sources are  and  (merged by ). The build derives each format's introduction, practice time and question kind; answer positions are distributed per choice count. The UI shows a format label on list cards and unit headers, "Text A/B" labels on compared texts, and scores out of the unit's own question count.  enforces per-format rules (skill, question and choice counts, Text A/B labels, minimum long-text length). All 34 units were checked by an independent review. The 16 new recordings were generated with the same native pipeline, as a partial run:  now accepts a comma-separated list and adds receipt entries for new units. Like the earlier recordings, they still need a perceptual listening review.
+
 ## Files and reproduction
 
 - `scripts/comprehension/n5.cjs` through `n1.cjs`: editable authored sources for the original units; each includes its matching `n*-expansion.cjs` source for units 6–10. Each question lists its defensible answer first; packaging deterministically distributes answers across all four positions (76/75/74/75).

@@ -2611,6 +2611,602 @@ window.COMPREHENSION_UNITS = [
     }
   },
   {
+    "id": "listening-n5-11",
+    "level": "N5",
+    "skill": "listening",
+    "order": 11,
+    "title": "Schnell antworten: Alltag",
+    "objective": "Auf kurze Fragen und Bemerkungen im Alltag passend reagieren.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n5-11-p1",
+        "speaker": "A",
+        "text": "{今日|きょう}はいい{天気|てんき}ですね。"
+      },
+      {
+        "id": "listening-n5-11-p2",
+        "speaker": "B",
+        "text": "これ、だれのかさですか。"
+      },
+      {
+        "id": "listening-n5-11-p3",
+        "speaker": "A",
+        "text": "いっしょにお{茶|ちゃ}を{飲|の}みませんか。"
+      },
+      {
+        "id": "listening-n5-11-p4",
+        "speaker": "B",
+        "text": "{何時|なんじ}に{起|お}きましたか。"
+      }
+    ],
+    "translation": "A: Heute ist schönes Wetter, nicht wahr? B: Wessen Regenschirm ist das? A: Wollen wir zusammen Tee trinken? B: Um wie viel Uhr bist du aufgestanden?",
+    "glossary": [
+      [
+        "天気（てんき）",
+        "Wetter"
+      ],
+      [
+        "いっしょに",
+        "zusammen"
+      ],
+      [
+        "起きました（おきました）",
+        "bin aufgestanden"
+      ]
+    ],
+    "note": "Auf eine Einladung mit ～ませんか antwortet man zustimmend mit ええ、いいですね – nicht mit einer verneinten Verbform.",
+    "questions": [
+      {
+        "id": "listening-n5-11-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n5-11-p1",
+        "choices": [
+          {
+            "text": "はい、てんきです。",
+            "explanation": "Das wiederholt nur das Wort und ist keine natürliche Reaktion.",
+            "evidence": "listening-n5-11-p1"
+          },
+          {
+            "text": "いいえ、きのうです。",
+            "explanation": "Das beantwortet eine Frage nach dem Zeitpunkt, die niemand gestellt hat.",
+            "evidence": "listening-n5-11-p1"
+          },
+          {
+            "text": "そうですね。",
+            "explanation": "そうですね stimmt einer Bemerkung über das Wetter zu.",
+            "evidence": "listening-n5-11-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n5-11-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n5-11-p2",
+        "choices": [
+          {
+            "text": "わたしのです。",
+            "explanation": "だれの fragt nach dem Besitzer; わたしの nennt ihn.",
+            "evidence": "listening-n5-11-p2"
+          },
+          {
+            "text": "はい、かさです。",
+            "explanation": "Dass es ein Schirm ist, weiß der Fragende schon.",
+            "evidence": "listening-n5-11-p2"
+          },
+          {
+            "text": "あそこです。",
+            "explanation": "Das nennt einen Ort statt eines Besitzers.",
+            "evidence": "listening-n5-11-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n5-11-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n5-11-p3",
+        "choices": [
+          {
+            "text": "はい、のみません。",
+            "explanation": "はい passt nicht zur verneinten Form; das klingt wie eine Ablehnung.",
+            "evidence": "listening-n5-11-p3"
+          },
+          {
+            "text": "ええ、いいですね。",
+            "explanation": "So nimmt man eine Einladung mit ～ませんか an.",
+            "evidence": "listening-n5-11-p3"
+          },
+          {
+            "text": "おちゃです。",
+            "explanation": "Das beantwortet eine Frage nach dem Getränk, keine Einladung.",
+            "evidence": "listening-n5-11-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n5-11-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n5-11-p4",
+        "choices": [
+          {
+            "text": "しちじに おきます。",
+            "explanation": "Die Gegenwartsform beschreibt eine Gewohnheit, nicht den heutigen Morgen.",
+            "evidence": "listening-n5-11-p4"
+          },
+          {
+            "text": "あさごはんを たべました。",
+            "explanation": "Das nennt eine andere Handlung statt der Uhrzeit.",
+            "evidence": "listening-n5-11-p4"
+          },
+          {
+            "text": "しちじに おきました。",
+            "explanation": "Die Frage steht in der Vergangenheit; die Antwort nennt die Uhrzeit ebenfalls in der Vergangenheit.",
+            "evidence": "listening-n5-11-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n5-11.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n5-12",
+    "level": "N5",
+    "skill": "listening",
+    "order": 12,
+    "title": "Schnell antworten: Im Laden und in der Schule",
+    "objective": "Auf typische Fragen im Laden und in der Schule reagieren.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n5-12-p1",
+        "speaker": "A",
+        "text": "いらっしゃいませ。{何|なに}にしますか。"
+      },
+      {
+        "id": "listening-n5-12-p2",
+        "speaker": "B",
+        "text": "すみません、トイレはどこですか。"
+      },
+      {
+        "id": "listening-n5-12-p3",
+        "speaker": "A",
+        "text": "{先生|せんせい}、さようなら。"
+      },
+      {
+        "id": "listening-n5-12-p4",
+        "speaker": "B",
+        "text": "この{本|ほん}はいくらですか。"
+      }
+    ],
+    "translation": "A: Willkommen. Was möchten Sie? B: Entschuldigung, wo ist die Toilette? A: Auf Wiedersehen, Herr Lehrer / Frau Lehrerin. B: Wie viel kostet dieses Buch?",
+    "glossary": [
+      [
+        "何にしますか（なににしますか）",
+        "Was möchten Sie? (Bestellung)"
+      ],
+      [
+        "いくら",
+        "wie viel (Preis)"
+      ]
+    ],
+    "note": "いくら fragt nach dem Preis, いくつ oder なんさつ nach der Anzahl. Achte auf das Fragewort.",
+    "questions": [
+      {
+        "id": "listening-n5-12-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n5-12-p1",
+        "choices": [
+          {
+            "text": "コーヒーを ください。",
+            "explanation": "Auf 何にしますか antwortet man mit der Bestellung.",
+            "evidence": "listening-n5-12-p1"
+          },
+          {
+            "text": "いらっしゃいませ。",
+            "explanation": "Das sagt das Personal, nicht der Kunde.",
+            "evidence": "listening-n5-12-p1"
+          },
+          {
+            "text": "コーヒーが すきです。",
+            "explanation": "Das beschreibt eine Vorliebe, ist aber keine Bestellung.",
+            "evidence": "listening-n5-12-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n5-12-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n5-12-p2",
+        "choices": [
+          {
+            "text": "トイレです。",
+            "explanation": "Das wiederholt nur das Wort und nennt keinen Ort.",
+            "evidence": "listening-n5-12-p2"
+          },
+          {
+            "text": "あそこです。",
+            "explanation": "どこ fragt nach dem Ort; あそこ zeigt ihn.",
+            "evidence": "listening-n5-12-p2"
+          },
+          {
+            "text": "はい、そうです。",
+            "explanation": "Auf eine Frage mit どこ kann man nicht mit Ja antworten.",
+            "evidence": "listening-n5-12-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n5-12-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n5-12-p3",
+        "choices": [
+          {
+            "text": "いただきます。",
+            "explanation": "Das sagt man vor dem Essen.",
+            "evidence": "listening-n5-12-p3"
+          },
+          {
+            "text": "はじめまして。",
+            "explanation": "Das sagt man beim ersten Kennenlernen.",
+            "evidence": "listening-n5-12-p3"
+          },
+          {
+            "text": "さようなら。また あした。",
+            "explanation": "Man erwidert den Abschiedsgruß.",
+            "evidence": "listening-n5-12-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n5-12-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n5-12-p4",
+        "choices": [
+          {
+            "text": "さんびゃくえんです。",
+            "explanation": "いくら fragt nach dem Preis.",
+            "evidence": "listening-n5-12-p4"
+          },
+          {
+            "text": "ほんです。",
+            "explanation": "Dass es ein Buch ist, ist bereits bekannt.",
+            "evidence": "listening-n5-12-p4"
+          },
+          {
+            "text": "さんさつです。",
+            "explanation": "Das nennt eine Anzahl (冊), keinen Preis.",
+            "evidence": "listening-n5-12-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n5-12.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n5-13",
+    "level": "N5",
+    "skill": "listening",
+    "order": 13,
+    "title": "Was sagt man? Grüßen und danken",
+    "objective": "Die passende Grußformel für eine Alltagssituation wählen.",
+    "minutes": 8,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n5-13-p1",
+        "speaker": "",
+        "text": "{友|とも}だちに{本|ほん}を{借|か}りました。{返|かえ}すとき、{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-13-p2",
+        "speaker": "",
+        "text": "{朝|あさ}、{学校|がっこう}で{先生|せんせい}に{会|あ}いました。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-13-p3",
+        "speaker": "",
+        "text": "ご{飯|はん}を{食|た}べる{前|まえ}に、{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-13-p4",
+        "speaker": "",
+        "text": "{家|いえ}を{出|で}るとき、{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Du hast dir von einer Freundin ein Buch geliehen. Was sagst du beim Zurückgeben? Am Morgen triffst du in der Schule deinen Lehrer. Was sagst du? Was sagst du vor dem Essen? Was sagst du, wenn du das Haus verlässt?",
+    "glossary": [
+      [
+        "借りました（かりました）",
+        "habe (mir) geliehen"
+      ],
+      [
+        "返す（かえす）",
+        "zurückgeben"
+      ]
+    ],
+    "note": "ごちそうさまでした sagt man nach dem Essen, いただきます davor. ただいま sagt man beim Heimkommen, いってきます beim Weggehen.",
+    "questions": [
+      {
+        "id": "listening-n5-13-q1",
+        "kind": "utterance",
+        "prompt": "Du gibst ein geliehenes Buch zurück. Was sagst du?",
+        "evidence": "listening-n5-13-p1",
+        "choices": [
+          {
+            "text": "どういたしまして。",
+            "explanation": "Das ist die Antwort auf einen Dank, kein Dank.",
+            "evidence": "listening-n5-13-p1"
+          },
+          {
+            "text": "ありがとうございました。",
+            "explanation": "Beim Zurückgeben bedankt man sich für das Leihen.",
+            "evidence": "listening-n5-13-p1"
+          },
+          {
+            "text": "いただきます。",
+            "explanation": "Das sagt man vor dem Essen.",
+            "evidence": "listening-n5-13-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n5-13-q2",
+        "kind": "utterance",
+        "prompt": "Du triffst morgens deinen Lehrer. Was sagst du?",
+        "evidence": "listening-n5-13-p2",
+        "choices": [
+          {
+            "text": "おやすみなさい。",
+            "explanation": "Das sagt man vor dem Schlafengehen.",
+            "evidence": "listening-n5-13-p2"
+          },
+          {
+            "text": "こんばんは。",
+            "explanation": "Das ist ein Abendgruß.",
+            "evidence": "listening-n5-13-p2"
+          },
+          {
+            "text": "おはようございます。",
+            "explanation": "Der höfliche Morgengruß.",
+            "evidence": "listening-n5-13-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n5-13-q3",
+        "kind": "utterance",
+        "prompt": "Du beginnst zu essen. Was sagst du?",
+        "evidence": "listening-n5-13-p3",
+        "choices": [
+          {
+            "text": "いただきます。",
+            "explanation": "Das sagt man vor dem Essen.",
+            "evidence": "listening-n5-13-p3"
+          },
+          {
+            "text": "ごちそうさまでした。",
+            "explanation": "Das sagt man nach dem Essen.",
+            "evidence": "listening-n5-13-p3"
+          },
+          {
+            "text": "いってきます。",
+            "explanation": "Das sagt man beim Weggehen.",
+            "evidence": "listening-n5-13-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n5-13-q4",
+        "kind": "utterance",
+        "prompt": "Du verlässt das Haus. Was sagst du?",
+        "evidence": "listening-n5-13-p4",
+        "choices": [
+          {
+            "text": "ただいま。",
+            "explanation": "Das sagt man beim Heimkommen.",
+            "evidence": "listening-n5-13-p4"
+          },
+          {
+            "text": "いってきます。",
+            "explanation": "Wer geht, sagt いってきます.",
+            "evidence": "listening-n5-13-p4"
+          },
+          {
+            "text": "おかえりなさい。",
+            "explanation": "Damit begrüßt man jemanden, der heimkommt.",
+            "evidence": "listening-n5-13-p4"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n5-13.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n5-14",
+    "level": "N5",
+    "skill": "listening",
+    "order": 14,
+    "title": "Was sagt man? Bitten und entschuldigen",
+    "objective": "Höflich bitten, sich entschuldigen und bedanken.",
+    "minutes": 8,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n5-14-p1",
+        "speaker": "",
+        "text": "{道|みち}で{人|ひと}の{足|あし}を{踏|ふ}みました。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-14-p2",
+        "speaker": "",
+        "text": "{店|みせ}で{水|みず}がほしいです。{店|みせ}の{人|ひと}に{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-14-p3",
+        "speaker": "",
+        "text": "{友|とも}だちがおかしをくれました。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n5-14-p4",
+        "speaker": "",
+        "text": "{友|とも}だちに{電話|でんわ}をかけました。{最初|さいしょ}に{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Auf der Straße bist du jemandem auf den Fuß getreten. Was sagst du? Im Restaurant möchtest du Wasser. Was sagst du zum Personal? Eine Freundin hat dir Süßigkeiten geschenkt. Was sagst du? Du rufst einen Freund an. Was sagst du zuerst?",
+    "glossary": [
+      [
+        "踏みました（ふみました）",
+        "bin (darauf) getreten"
+      ],
+      [
+        "最初に（さいしょに）",
+        "zuerst"
+      ]
+    ],
+    "note": "すみません passt zum Entschuldigen und zum Ansprechen. Am Telefon beginnt man mit もしもし.",
+    "questions": [
+      {
+        "id": "listening-n5-14-q1",
+        "kind": "utterance",
+        "prompt": "Du bist jemandem auf den Fuß getreten. Was sagst du?",
+        "evidence": "listening-n5-14-p1",
+        "choices": [
+          {
+            "text": "ありがとう。",
+            "explanation": "Ein Dank passt nicht zu einem Missgeschick.",
+            "evidence": "listening-n5-14-p1"
+          },
+          {
+            "text": "どうぞ。",
+            "explanation": "Damit bietet man etwas an.",
+            "evidence": "listening-n5-14-p1"
+          },
+          {
+            "text": "すみません。",
+            "explanation": "Eine kurze Entschuldigung.",
+            "evidence": "listening-n5-14-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n5-14-q2",
+        "kind": "utterance",
+        "prompt": "Du möchtest Wasser. Was sagst du?",
+        "evidence": "listening-n5-14-p2",
+        "choices": [
+          {
+            "text": "すみません、みずを ください。",
+            "explanation": "Man spricht das Personal an und bittet um Wasser.",
+            "evidence": "listening-n5-14-p2"
+          },
+          {
+            "text": "みずを どうぞ。",
+            "explanation": "Damit bietet man selbst Wasser an.",
+            "evidence": "listening-n5-14-p2"
+          },
+          {
+            "text": "みずが あります。",
+            "explanation": "Das stellt nur fest, dass es Wasser gibt.",
+            "evidence": "listening-n5-14-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n5-14-q3",
+        "kind": "utterance",
+        "prompt": "Du bekommst Süßigkeiten geschenkt. Was sagst du?",
+        "evidence": "listening-n5-14-p3",
+        "choices": [
+          {
+            "text": "どういたしまして。",
+            "explanation": "Das ist die Antwort auf einen Dank.",
+            "evidence": "listening-n5-14-p3"
+          },
+          {
+            "text": "ありがとう。",
+            "explanation": "Man bedankt sich für das Geschenk.",
+            "evidence": "listening-n5-14-p3"
+          },
+          {
+            "text": "ごめんなさい。",
+            "explanation": "Es gibt keinen Grund, sich zu entschuldigen.",
+            "evidence": "listening-n5-14-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n5-14-q4",
+        "kind": "utterance",
+        "prompt": "Du rufst an. Was sagst du zuerst?",
+        "evidence": "listening-n5-14-p4",
+        "choices": [
+          {
+            "text": "さようなら。",
+            "explanation": "Das ist ein Abschiedsgruß.",
+            "evidence": "listening-n5-14-p4"
+          },
+          {
+            "text": "おやすみなさい。",
+            "explanation": "Das sagt man vor dem Schlafengehen.",
+            "evidence": "listening-n5-14-p4"
+          },
+          {
+            "text": "もしもし。",
+            "explanation": "So beginnt man ein Telefongespräch.",
+            "evidence": "listening-n5-14-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n5-14.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
     "id": "reading-n4-1",
     "level": "N4",
     "skill": "reading",
@@ -5216,6 +5812,815 @@ window.COMPREHENSION_UNITS = [
     ],
     "audio": {
       "src": "audio/comprehension/listening-n4-10.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "reading-n4-11",
+    "level": "N4",
+    "skill": "reading",
+    "order": 11,
+    "title": "Die Stadtbibliothek",
+    "objective": "Öffnungszeiten, Ausleihgrenzen und Rückgabe in einem Aushang kombinieren.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n4-11-p1",
+        "speaker": "",
+        "text": "さくら{市立|しりつ}{図書館|としょかん}　ご{利用|りよう}{案内|あんない}\n・{開館|かいかん}{時間|じかん}：{火曜日|かようび}〜{金曜日|きんようび}　{午前|ごぜん}{九時|くじ}〜{午後|ごご}{七時|しちじ}\n　{土曜日|どようび}・{日曜日|にちようび}　{午前|ごぜん}{九時|くじ}〜{午後|ごご}{五時|ごじ}\n・{休館日|きゅうかんび}：{月曜日|げつようび}\n・{本|ほん}は{一人|ひとり}{十冊|じゅっさつ}まで、{二週間|にしゅうかん}{借|か}りられます。\n・{雑誌|ざっし}は{一人|ひとり}{三冊|さんさつ}まで、{一週間|いっしゅうかん}です。\n・{本|ほん}や{雑誌|ざっし}を{返|かえ}すときは、{入|い}り{口|ぐち}の{横|よこ}の「{返却|へんきゃく}ポスト」に{入|い}れることもできます。{休館日|きゅうかんび}も{使|つか}えます。"
+      }
+    ],
+    "translation": "Städtische Bibliothek Sakura – Benutzungshinweise. Öffnungszeiten: Dienstag bis Freitag 9 bis 19 Uhr, Samstag und Sonntag 9 bis 17 Uhr. Schließtag: Montag. Bücher: bis zu zehn pro Person für zwei Wochen. Zeitschriften: bis zu drei pro Person für eine Woche. Bücher und Zeitschriften kann man auch in die Rückgabebox neben dem Eingang werfen; sie ist auch am Schließtag nutzbar.",
+    "glossary": [
+      [
+        "返却（へんきゃく）ポスト",
+        "Rückgabebox"
+      ],
+      [
+        "休館日（きゅうかんび）",
+        "Schließtag"
+      ],
+      [
+        "雑誌（ざっし）",
+        "Zeitschrift"
+      ]
+    ],
+    "note": "Bei Aushängen musst du oft zwei Angaben verbinden: Wochentag und Uhrzeit, Obergrenze und Art des Mediums. Lies jede Zeile einzeln und prüfe dann die Kombination.",
+    "questions": [
+      {
+        "id": "reading-n4-11-q1",
+        "kind": "search",
+        "prompt": "Frau Lee arbeitet bis 18 Uhr und ist frühestens um 18:30 Uhr in der Bibliothek. An welchen Tagen kann sie hineingehen?",
+        "evidence": "reading-n4-11-p1",
+        "choices": [
+          {
+            "text": "Am Samstag und Sonntag.",
+            "explanation": "Am Wochenende schließt die Bibliothek schon um 17 Uhr.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Am Montag.",
+            "explanation": "Montag ist Schließtag.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "An jedem Tag der Woche.",
+            "explanation": "Montags ist geschlossen, am Wochenende schließt sie zu früh.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Von Dienstag bis Freitag.",
+            "explanation": "Nur an diesen Tagen ist bis 19 Uhr (午後七時) geöffnet.",
+            "evidence": "reading-n4-11-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n4-11-q2",
+        "kind": "search",
+        "prompt": "Ken möchte zwölf Bücher und zwei Zeitschriften ausleihen. Wie viel davon kann er höchstens auf einmal ausleihen?",
+        "evidence": "reading-n4-11-p1",
+        "choices": [
+          {
+            "text": "Zehn Bücher und zwei Zeitschriften.",
+            "explanation": "Bücher sind auf zehn begrenzt, zwei Zeitschriften liegen unter der Grenze von drei.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Zwölf Bücher und zwei Zeitschriften.",
+            "explanation": "Mehr als zehn Bücher sind nicht erlaubt.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Zehn Bücher, aber keine Zeitschriften.",
+            "explanation": "Die zwei Zeitschriften kann er zusätzlich ausleihen; für sie gilt eine eigene Grenze von drei.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Drei Bücher und zwei Zeitschriften.",
+            "explanation": "Drei ist die Grenze für Zeitschriften, nicht für Bücher.",
+            "evidence": "reading-n4-11-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-11-q3",
+        "kind": "search",
+        "prompt": "Ken will seine Bücher an einem Montag zurückgeben. Was kann er tun?",
+        "evidence": "reading-n4-11-p1",
+        "choices": [
+          {
+            "text": "Er muss bis Dienstag warten, weil montags keine Rückgabe möglich ist.",
+            "explanation": "Die Rückgabebox funktioniert auch am Montag.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Sie in die Rückgabebox neben dem Eingang werfen.",
+            "explanation": "Die Box ist ausdrücklich auch am Schließtag nutzbar.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Er gibt sie am Schalter im Inneren ab.",
+            "explanation": "Montags ist die Bibliothek geschlossen.",
+            "evidence": "reading-n4-11-p1"
+          },
+          {
+            "text": "Er schickt sie per Post an die Bibliothek.",
+            "explanation": "Eine Rückgabe per Post wird nicht erwähnt.",
+            "evidence": "reading-n4-11-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n4-12",
+    "level": "N4",
+    "skill": "reading",
+    "order": 12,
+    "title": "Preise im Sportzentrum",
+    "objective": "Preise, Altersgrenzen und Sonderregeln eines Sportzentrums anwenden.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n4-12-p1",
+        "speaker": "",
+        "text": "みどりスポーツセンター　{料金|りょうきん}のご{案内|あんない}\n・プール（{一回|いっかい}{二時間|にじかん}まで）：{大人|おとな}{四百円|よんひゃくえん}　{中学生|ちゅうがくせい}{以下|いか}{二百円|にひゃくえん}\n・トレーニングルーム（{一回|いっかい}）：{三百円|さんびゃくえん}　※{十六歳|じゅうろくさい}{以上|いじょう}の{方|かた}だけ{使|つか}えます。\n・プールの{回数券|かいすうけん}：{大人|おとな}{十一回分|じゅういっかいぶん}を{四千円|よんせんえん}で{売|う}っています。\n・{毎月|まいつき}{第一|だいいち}{日曜日|にちようび}は、{市|し}に{住|す}んでいる{人|ひと}はプールが{無料|むりょう}です。\n・{月曜日|げつようび}はお{休|やす}みです。"
+      }
+    ],
+    "translation": "Sportzentrum Midori – Preise. Schwimmbad (pro Besuch bis zu zwei Stunden): Erwachsene 400 Yen, Mittelschüler und Jüngere 200 Yen. Fitnessraum (pro Besuch): 300 Yen, nur ab 16 Jahren. Mehrfachkarte fürs Schwimmbad: elf Besuche für Erwachsene für 4000 Yen. Am ersten Sonntag jedes Monats ist das Schwimmbad für Einwohner der Stadt kostenlos. Montags geschlossen.",
+    "glossary": [
+      [
+        "回数券（かいすうけん）",
+        "Mehrfachkarte"
+      ],
+      [
+        "以下（いか）／以上（いじょう）",
+        "höchstens … / mindestens …"
+      ],
+      [
+        "無料（むりょう）",
+        "kostenlos"
+      ]
+    ],
+    "note": "以下 und 以上 schließen die genannte Zahl ein: 十六歳以上 bedeutet „16 Jahre und älter“. Prüfe bei Sonderregeln immer, für wen und wann sie gelten.",
+    "questions": [
+      {
+        "id": "reading-n4-12-q1",
+        "kind": "search",
+        "prompt": "Eine Mutter geht mit ihrem Sohn (Grundschüler) an einem gewöhnlichen Samstag schwimmen. Wie viel zahlen beide zusammen?",
+        "evidence": "reading-n4-12-p1",
+        "choices": [
+          {
+            "text": "600 Yen.",
+            "explanation": "400 Yen für die Mutter und 200 Yen für das Kind (中学生以下).",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "800 Yen.",
+            "explanation": "Das Kind zahlt nicht den Erwachsenenpreis.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "400 Yen.",
+            "explanation": "Auch das Kind muss bezahlen.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "Nichts.",
+            "explanation": "Kostenlos ist es nur am ersten Sonntag für Einwohner.",
+            "evidence": "reading-n4-12-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-12-q2",
+        "kind": "search",
+        "prompt": "Wer darf den Fitnessraum NICHT benutzen?",
+        "evidence": "reading-n4-12-p1",
+        "choices": [
+          {
+            "text": "Eine 16-jährige Schülerin.",
+            "explanation": "以上 schließt die 16 ein.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "Ein 15-jähriger Schüler.",
+            "explanation": "Der Fitnessraum ist erst ab 16 Jahren (十六歳以上) erlaubt.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "Ein 70-jähriger Rentner.",
+            "explanation": "Eine obere Altersgrenze gibt es nicht.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "Ein Erwachsener aus einer anderen Stadt.",
+            "explanation": "Der Wohnort spielt nur beim kostenlosen Sonntag im Schwimmbad eine Rolle.",
+            "evidence": "reading-n4-12-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n4-12-q3",
+        "kind": "search",
+        "prompt": "Wie viel spart ein Erwachsener mit der Mehrfachkarte gegenüber elf Einzelbesuchen im Schwimmbad?",
+        "evidence": "reading-n4-12-p1",
+        "choices": [
+          {
+            "text": "1100 Yen.",
+            "explanation": "So viel wäre es nur bei einem anderen Einzelpreis.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "Nichts, beides kostet gleich viel.",
+            "explanation": "11 × 400 Yen sind mehr als 4000 Yen.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "400 Yen.",
+            "explanation": "Elf Einzelbesuche kosten 4400 Yen, die Karte 4000 Yen.",
+            "evidence": "reading-n4-12-p1"
+          },
+          {
+            "text": "4000 Yen.",
+            "explanation": "4000 Yen ist der Preis der Karte, nicht die Ersparnis.",
+            "evidence": "reading-n4-12-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "listening-n4-11",
+    "level": "N4",
+    "skill": "listening",
+    "order": 11,
+    "title": "Schnell antworten: Pläne und Hilfe",
+    "objective": "Einladungen, Bitten und Hilfsangebote richtig beantworten.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n4-11-p1",
+        "speaker": "A",
+        "text": "{明日|あした}、{映画|えいが}を{見|み}に{行|い}かない？"
+      },
+      {
+        "id": "listening-n4-11-p2",
+        "speaker": "B",
+        "text": "ちょっと{窓|まど}を{開|あ}けてもいいですか。"
+      },
+      {
+        "id": "listening-n4-11-p3",
+        "speaker": "A",
+        "text": "{駅|えき}までどのぐらいかかりますか。"
+      },
+      {
+        "id": "listening-n4-11-p4",
+        "speaker": "B",
+        "text": "{荷物|にもつ}、{持|も}ちましょうか。"
+      }
+    ],
+    "translation": "A: Wollen wir morgen ins Kino gehen? B: Darf ich kurz das Fenster öffnen? A: Wie lange braucht man bis zum Bahnhof? B: Soll ich das Gepäck tragen?",
+    "glossary": [
+      [
+        "〜ない？",
+        "lockere Einladung („wollen wir …?“)"
+      ],
+      [
+        "〜ましょうか",
+        "Angebot: Soll ich …?"
+      ]
+    ],
+    "note": "～ましょうか ist ein Hilfsangebot. Man nimmt es mit おねがいします an oder lehnt höflich mit だいじょうぶです ab.",
+    "questions": [
+      {
+        "id": "listening-n4-11-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n4-11-p1",
+        "choices": [
+          {
+            "text": "うん、みなかったよ。",
+            "explanation": "Die Vergangenheitsform passt nicht zu einem Plan für morgen.",
+            "evidence": "listening-n4-11-p1"
+          },
+          {
+            "text": "いいね、いこう。",
+            "explanation": "Eine lockere Zusage auf die lockere Einladung.",
+            "evidence": "listening-n4-11-p1"
+          },
+          {
+            "text": "えいがは あしたです。",
+            "explanation": "Das wiederholt nur die Information, statt zu antworten.",
+            "evidence": "listening-n4-11-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n4-11-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n4-11-p2",
+        "choices": [
+          {
+            "text": "ええ、あきました。",
+            "explanation": "あきました beschreibt, dass sich etwas von selbst geöffnet hat – keine Erlaubnis.",
+            "evidence": "listening-n4-11-p2"
+          },
+          {
+            "text": "いいえ、まどです。",
+            "explanation": "Das beantwortet die Bitte nicht.",
+            "evidence": "listening-n4-11-p2"
+          },
+          {
+            "text": "ええ、どうぞ。",
+            "explanation": "So erlaubt man etwas.",
+            "evidence": "listening-n4-11-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n4-11-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n4-11-p3",
+        "choices": [
+          {
+            "text": "あるいて じゅっぷんぐらいです。",
+            "explanation": "どのぐらいかかりますか fragt nach der Dauer.",
+            "evidence": "listening-n4-11-p3"
+          },
+          {
+            "text": "えきは あそこです。",
+            "explanation": "Das nennt einen Ort statt einer Dauer.",
+            "evidence": "listening-n4-11-p3"
+          },
+          {
+            "text": "バスで いきました。",
+            "explanation": "Das nennt ein Verkehrsmittel in der Vergangenheit.",
+            "evidence": "listening-n4-11-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n4-11-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n4-11-p4",
+        "choices": [
+          {
+            "text": "はい、もちましょう。",
+            "explanation": "Damit schlägt man vor, es gemeinsam zu tragen – das Angebot wird nicht angenommen.",
+            "evidence": "listening-n4-11-p4"
+          },
+          {
+            "text": "あ、すみません。おねがいします。",
+            "explanation": "So nimmt man ein Hilfsangebot dankend an.",
+            "evidence": "listening-n4-11-p4"
+          },
+          {
+            "text": "いいえ、もってください。",
+            "explanation": "Nein und die Bitte zu tragen widersprechen sich.",
+            "evidence": "listening-n4-11-p4"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n4-11.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n4-12",
+    "level": "N4",
+    "skill": "listening",
+    "order": 12,
+    "title": "Schnell antworten: Unterwegs und im Büro",
+    "objective": "Im Zug und am Arbeitsplatz passend reagieren.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n4-12-p1",
+        "speaker": "A",
+        "text": "すみません、この{席|せき}、{空|あ}いていますか。"
+      },
+      {
+        "id": "listening-n4-12-p2",
+        "speaker": "B",
+        "text": "{昨日|きのう}はどうして{休|やす}んだんですか。"
+      },
+      {
+        "id": "listening-n4-12-p3",
+        "speaker": "A",
+        "text": "{会議|かいぎ}の{資料|しりょう}、もうコピーしましたか。"
+      },
+      {
+        "id": "listening-n4-12-p4",
+        "speaker": "B",
+        "text": "お{先|さき}に{失礼|しつれい}します。"
+      }
+    ],
+    "translation": "A: Entschuldigung, ist dieser Platz frei? B: Warum hast du gestern gefehlt? A: Hast du die Unterlagen für die Besprechung schon kopiert? B: Ich gehe dann schon mal.",
+    "glossary": [
+      [
+        "空いています（あいています）",
+        "ist frei"
+      ],
+      [
+        "お先に失礼します（おさきにしつれいします）",
+        "Ich gehe schon mal (Verabschiedung im Büro)"
+      ]
+    ],
+    "note": "Wer das Büro vor den anderen verlässt, sagt お先に失礼します; die Antwort ist お疲れさまでした.",
+    "questions": [
+      {
+        "id": "listening-n4-12-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n4-12-p1",
+        "choices": [
+          {
+            "text": "いいえ、すわりません。",
+            "explanation": "Das beantwortet nicht, ob der Platz frei ist.",
+            "evidence": "listening-n4-12-p1"
+          },
+          {
+            "text": "せきは ここです。",
+            "explanation": "Das zeigt nur, wo ein Platz ist.",
+            "evidence": "listening-n4-12-p1"
+          },
+          {
+            "text": "ええ、どうぞ。",
+            "explanation": "So bietet man den freien Platz an.",
+            "evidence": "listening-n4-12-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n4-12-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n4-12-p2",
+        "choices": [
+          {
+            "text": "ねつが あったんです。",
+            "explanation": "どうして fragt nach dem Grund; ～んです erklärt ihn.",
+            "evidence": "listening-n4-12-p2"
+          },
+          {
+            "text": "あしたは やすみます。",
+            "explanation": "Das spricht über morgen statt über gestern.",
+            "evidence": "listening-n4-12-p2"
+          },
+          {
+            "text": "はい、やすみました。",
+            "explanation": "Das bestätigt nur das Fehlen, nennt aber keinen Grund.",
+            "evidence": "listening-n4-12-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n4-12-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n4-12-p3",
+        "choices": [
+          {
+            "text": "いいえ、もう しません。",
+            "explanation": "もう しません bedeutet „nicht mehr tun“; die natürliche Verneinung wäre まだです.",
+            "evidence": "listening-n4-12-p3"
+          },
+          {
+            "text": "はい、もう しました。",
+            "explanation": "もう ～ましたか fragt, ob etwas schon erledigt ist.",
+            "evidence": "listening-n4-12-p3"
+          },
+          {
+            "text": "かいぎは さんじからです。",
+            "explanation": "Das nennt die Uhrzeit statt den Stand der Kopien.",
+            "evidence": "listening-n4-12-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n4-12-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n4-12-p4",
+        "choices": [
+          {
+            "text": "いってらっしゃい。",
+            "explanation": "Das sagt man zu jemandem, der kurz weggeht und zurückkommt.",
+            "evidence": "listening-n4-12-p4"
+          },
+          {
+            "text": "おかえりなさい。",
+            "explanation": "Damit begrüßt man jemanden, der zurückkommt.",
+            "evidence": "listening-n4-12-p4"
+          },
+          {
+            "text": "おつかれさまでした。",
+            "explanation": "Die übliche Antwort, wenn jemand die Arbeit verlässt.",
+            "evidence": "listening-n4-12-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n4-12.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n4-13",
+    "level": "N4",
+    "skill": "listening",
+    "order": 13,
+    "title": "Was sagt man? Hilfe und Besuch",
+    "objective": "In Alltagssituationen höflich bitten und anbieten.",
+    "minutes": 8,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n4-13-p1",
+        "speaker": "",
+        "text": "{先生|せんせい}の{話|はなし}がよく{聞|き}こえませんでした。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n4-13-p2",
+        "speaker": "",
+        "text": "{重|おも}い{荷物|にもつ}を{持|も}っているおばあさんがいます。{手伝|てつだ}いたいです。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n4-13-p3",
+        "speaker": "",
+        "text": "{友|とも}だちの{家|いえ}に{入|はい}ります。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n4-13-p4",
+        "speaker": "",
+        "text": "{会社|かいしゃ}で、{先|さき}に{帰|かえ}る{人|ひと}に{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Du hast nicht richtig gehört, was der Lehrer gesagt hat. Was sagst du? Eine ältere Frau trägt schweres Gepäck. Du möchtest helfen. Was sagst du? Du betrittst die Wohnung eines Freundes. Was sagst du? Was sagst du in der Firma zu jemandem, der früher nach Hause geht?",
+    "glossary": [
+      [
+        "聞こえませんでした（きこえませんでした）",
+        "konnte nicht hören"
+      ],
+      [
+        "お邪魔します（おじゃまします）",
+        "Entschuldigen Sie die Störung (beim Betreten)"
+      ]
+    ],
+    "note": "おじゃまします sagt man beim Betreten fremder Räume. Wer geht, sagt お先に失礼します; die Bleibenden antworten お疲れさまでした.",
+    "questions": [
+      {
+        "id": "listening-n4-13-q1",
+        "kind": "utterance",
+        "prompt": "Du hast den Lehrer nicht verstanden. Was sagst du?",
+        "evidence": "listening-n4-13-p1",
+        "choices": [
+          {
+            "text": "すみません、もう いちど おねがいします。",
+            "explanation": "So bittet man höflich um eine Wiederholung.",
+            "evidence": "listening-n4-13-p1"
+          },
+          {
+            "text": "よく きこえました。",
+            "explanation": "Das behauptet das Gegenteil.",
+            "evidence": "listening-n4-13-p1"
+          },
+          {
+            "text": "はなしを きいてください。",
+            "explanation": "Damit bittet man den Lehrer, selbst zuzuhören.",
+            "evidence": "listening-n4-13-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n4-13-q2",
+        "kind": "utterance",
+        "prompt": "Du möchtest beim Tragen helfen. Was sagst du?",
+        "evidence": "listening-n4-13-p2",
+        "choices": [
+          {
+            "text": "にもつを もってください。",
+            "explanation": "Damit bittet man die Frau, das Gepäck zu tragen.",
+            "evidence": "listening-n4-13-p2"
+          },
+          {
+            "text": "にもつ、もちましょうか。",
+            "explanation": "Mit ～ましょうか bietet man Hilfe an.",
+            "evidence": "listening-n4-13-p2"
+          },
+          {
+            "text": "にもつが おもいですね。",
+            "explanation": "Das ist nur eine Bemerkung, kein Hilfsangebot.",
+            "evidence": "listening-n4-13-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n4-13-q3",
+        "kind": "utterance",
+        "prompt": "Du betrittst die Wohnung eines Freundes. Was sagst du?",
+        "evidence": "listening-n4-13-p3",
+        "choices": [
+          {
+            "text": "いらっしゃい。",
+            "explanation": "Das sagt der Gastgeber.",
+            "evidence": "listening-n4-13-p3"
+          },
+          {
+            "text": "おかえり。",
+            "explanation": "Damit begrüßt man Heimkehrende.",
+            "evidence": "listening-n4-13-p3"
+          },
+          {
+            "text": "おじゃまします。",
+            "explanation": "Die übliche Formel beim Betreten.",
+            "evidence": "listening-n4-13-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n4-13-q4",
+        "kind": "utterance",
+        "prompt": "Ein Kollege geht früher nach Hause. Was sagst du zu ihm?",
+        "evidence": "listening-n4-13-p4",
+        "choices": [
+          {
+            "text": "おつかれさまでした。",
+            "explanation": "Die Antwort der Bleibenden an den, der geht.",
+            "evidence": "listening-n4-13-p4"
+          },
+          {
+            "text": "おさきに しつれいします。",
+            "explanation": "Das sagt der, der selbst geht.",
+            "evidence": "listening-n4-13-p4"
+          },
+          {
+            "text": "いってきます。",
+            "explanation": "Das sagt man beim eigenen Weggehen.",
+            "evidence": "listening-n4-13-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n4-13.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n4-14",
+    "level": "N4",
+    "skill": "listening",
+    "order": 14,
+    "title": "Was sagt man? Im Laden und im Restaurant",
+    "objective": "Im Geschäft und im Restaurant die passende Formulierung wählen.",
+    "minutes": 7,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n4-14-p1",
+        "speaker": "",
+        "text": "レストランで、{料理|りょうり}を{注文|ちゅうもん}したいです。{店|みせ}の{人|ひと}を{呼|よ}びます。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n4-14-p2",
+        "speaker": "",
+        "text": "{店|みせ}で、{服|ふく}を{着|き}てみたいです。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n4-14-p3",
+        "speaker": "",
+        "text": "レストランで{食事|しょくじ}が{終|お}わりました。お{金|かね}を{払|はら}いたいです。{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Du möchtest im Restaurant bestellen und rufst das Personal. Was sagst du? Du möchtest im Geschäft Kleidung anprobieren. Was sagst du? Du hast im Restaurant fertig gegessen und möchtest bezahlen. Was sagst du?",
+    "glossary": [
+      [
+        "注文（ちゅうもん）",
+        "Bestellung"
+      ],
+      [
+        "お会計（おかいけい）",
+        "Rechnung, Bezahlen"
+      ]
+    ],
+    "note": "～てみてもいいですか fragt höflich um Erlaubnis, etwas auszuprobieren. Zum Bezahlen sagt man おかいけい、おねがいします.",
+    "questions": [
+      {
+        "id": "listening-n4-14-q1",
+        "kind": "utterance",
+        "prompt": "Du rufst das Personal. Was sagst du?",
+        "evidence": "listening-n4-14-p1",
+        "choices": [
+          {
+            "text": "いらっしゃいませ。",
+            "explanation": "Das sagt das Personal zu Gästen.",
+            "evidence": "listening-n4-14-p1"
+          },
+          {
+            "text": "すみません。",
+            "explanation": "Damit spricht man das Personal an.",
+            "evidence": "listening-n4-14-p1"
+          },
+          {
+            "text": "おまたせしました。",
+            "explanation": "Das sagt das Personal, wenn es etwas bringt.",
+            "evidence": "listening-n4-14-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n4-14-q2",
+        "kind": "utterance",
+        "prompt": "Du möchtest ein Kleidungsstück anprobieren. Was sagst du?",
+        "evidence": "listening-n4-14-p2",
+        "choices": [
+          {
+            "text": "これ、きてください。",
+            "explanation": "Damit bittet man eine andere Person, es anzuziehen.",
+            "evidence": "listening-n4-14-p2"
+          },
+          {
+            "text": "これ、きましたか。",
+            "explanation": "Das fragt, ob jemand es schon getragen hat.",
+            "evidence": "listening-n4-14-p2"
+          },
+          {
+            "text": "これ、きてみても いいですか。",
+            "explanation": "So fragt man um Erlaubnis zum Anprobieren.",
+            "evidence": "listening-n4-14-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n4-14-q3",
+        "kind": "utterance",
+        "prompt": "Du möchtest bezahlen. Was sagst du?",
+        "evidence": "listening-n4-14-p3",
+        "choices": [
+          {
+            "text": "おかいけい、おねがいします。",
+            "explanation": "So bittet man um die Rechnung.",
+            "evidence": "listening-n4-14-p3"
+          },
+          {
+            "text": "いただきます。",
+            "explanation": "Das sagt man vor dem Essen.",
+            "evidence": "listening-n4-14-p3"
+          },
+          {
+            "text": "おかねを ください。",
+            "explanation": "Damit verlangt man selbst Geld.",
+            "evidence": "listening-n4-14-p3"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n4-14.wav",
       "synthetic": true,
       "revision": "native16-v3"
     }
@@ -7831,6 +9236,819 @@ window.COMPREHENSION_UNITS = [
     }
   },
   {
+    "id": "reading-n3-11",
+    "level": "N3",
+    "skill": "reading",
+    "order": 11,
+    "title": "Kurse im Bürgerzentrum",
+    "objective": "Aus einem Kursangebot den passenden Kurs nach mehreren Bedingungen auswählen.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n3-11-p1",
+        "speaker": "",
+        "text": "ひまわり市民センター　秋の講座（10月〜12月）\n①はじめての中国語　火曜日　19:00〜20:30　全10回　8,000円　{定員|ていいん}15名\n②家庭で作る和菓子　土曜日　10:00〜12:00　全5回　6,500円（材料費込み・作った菓子は持ち帰り可）　{定員|ていいん}12名\n③スマホ写真教室　水曜日　14:00〜15:30　全6回　4,000円　{定員|ていいん}20名　※スマートフォンを持参\n④やさしいヨガ　日曜日　9:00〜10:00　全8回　5,000円　{定員|ていいん}25名\n・申し込みは9月20日まで。{定員|ていいん}を超えた場合は{抽選|ちゅうせん}となります。\n・市内に住んでいる方、または市内に{在勤|ざいきん}の方は、受講料が1割引になります。"
+      }
+    ],
+    "translation": "Bürgerzentrum Himawari – Herbstkurse (Oktober bis Dezember). ① Chinesisch für Anfänger: dienstags 19:00–20:30, 10 Termine, 8000 Yen, 15 Plätze. ② Japanische Süßigkeiten selbst gemacht: samstags 10:00–12:00, 5 Termine, 6500 Yen (inklusive Material, die Süßigkeiten dürfen mitgenommen werden), 12 Plätze. ③ Fotografieren mit dem Smartphone: mittwochs 14:00–15:30, 6 Termine, 4000 Yen, 20 Plätze, Smartphone mitbringen. ④ Sanftes Yoga: sonntags 9:00–10:00, 8 Termine, 5000 Yen, 25 Plätze. Anmeldung bis 20. September; bei mehr Anmeldungen als Plätzen wird gelost. Wer in der Stadt wohnt oder arbeitet, erhält 10 % Rabatt.",
+    "glossary": [
+      [
+        "定員（ていいん）",
+        "Höchstzahl der Teilnehmenden"
+      ],
+      [
+        "抽選（ちゅうせん）",
+        "Auslosung"
+      ],
+      [
+        "在勤（ざいきん）",
+        "dort beschäftigt sein"
+      ]
+    ],
+    "note": "In Kurslisten stehen Tag, Uhrzeit, Preis und Sonderregeln oft in einer Zeile. Streiche zuerst die Kurse, die eine Bedingung verletzen, und rechne erst dann.",
+    "questions": [
+      {
+        "id": "reading-n3-11-q1",
+        "kind": "search",
+        "prompt": "Frau Sato arbeitet werktags bis 18 Uhr. Sie möchte am Wochenende etwas lernen und am Ende etwas Essbares mit nach Hause nehmen. Welcher Kurs passt?",
+        "evidence": "reading-n3-11-p1",
+        "choices": [
+          {
+            "text": "④, das Yoga am Sonntag.",
+            "explanation": "Der Termin passt, aber man nimmt nichts Essbares mit.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "①, der Chinesischkurs.",
+            "explanation": "Er findet dienstags statt, nicht am Wochenende.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "②, der Kurs für japanische Süßigkeiten.",
+            "explanation": "Er findet samstags statt, und die Süßigkeiten dürfen mitgenommen werden.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "③, der Fotokurs.",
+            "explanation": "Mittwoch um 14 Uhr ist während ihrer Arbeitszeit.",
+            "evidence": "reading-n3-11-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-11-q2",
+        "kind": "search",
+        "prompt": "Herr Kim wohnt in der Nachbarstadt, arbeitet aber in dieser Stadt. Wie viel kostet Kurs ③ für ihn?",
+        "evidence": "reading-n3-11-p1",
+        "choices": [
+          {
+            "text": "4000 Yen.",
+            "explanation": "Der Rabatt gilt auch für Menschen, die nur in der Stadt arbeiten.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "3000 Yen.",
+            "explanation": "Der Rabatt beträgt 1割, also 10 %, nicht 25 %.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "2000 Yen.",
+            "explanation": "Es gibt keinen Rabatt von 50 %.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "3600 Yen.",
+            "explanation": "Wer in der Stadt arbeitet (在勤), erhält 10 % Rabatt auf 4000 Yen.",
+            "evidence": "reading-n3-11-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n3-11-q3",
+        "kind": "search",
+        "prompt": "Für Kurs ② melden sich 20 Personen an. Was passiert?",
+        "evidence": "reading-n3-11-p1",
+        "choices": [
+          {
+            "text": "Es wird ausgelost, wer teilnehmen darf.",
+            "explanation": "Bei mehr Anmeldungen als Plätzen (定員12名) entscheidet das Los.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "Der Kurs wird zweimal angeboten.",
+            "explanation": "Ein zweiter Termin wird nicht erwähnt.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "Die ersten zwölf Anmeldungen erhalten einen Platz.",
+            "explanation": "Die Reihenfolge der Anmeldung spielt keine Rolle.",
+            "evidence": "reading-n3-11-p1"
+          },
+          {
+            "text": "Die Anmeldefrist wird verlängert.",
+            "explanation": "Von einer Verlängerung steht nichts im Aushang.",
+            "evidence": "reading-n3-11-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n3-12",
+    "level": "N3",
+    "skill": "reading",
+    "order": 12,
+    "title": "Mit dem Bus zum Flughafen",
+    "objective": "Abfahrtszeiten, Fahrzeiten und Preisregeln eines Flughafenbusses verbinden.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n3-12-p1",
+        "speaker": "",
+        "text": "空港リムジンバス　中央駅 → 空港\n・発車時刻：6:10／6:40／7:20／8:00／9:00（9時以降は毎時0分）\n・{所要時間|しょようじかん}：約50分。ただし、朝7時から9時の間に出発する便は、道路が混むため約70分かかります。\n・運賃：大人1,300円、子ども650円\n・{乗車券|じょうしゃけん}は駅の{券売機|けんばいき}でお求めください。車内で現金で支払う場合は、1人につき100円高くなります。\n・大きな荷物は1人2個まで無料でお預かりします。"
+      }
+    ],
+    "translation": "Flughafen-Limousinenbus vom Hauptbahnhof zum Flughafen. Abfahrten: 6:10, 6:40, 7:20, 8:00, 9:00, danach jeweils zur vollen Stunde. Fahrzeit etwa 50 Minuten; Busse, die zwischen 7 und 9 Uhr morgens abfahren, brauchen wegen des Verkehrs etwa 70 Minuten. Fahrpreis: Erwachsene 1300 Yen, Kinder 650 Yen. Fahrkarten gibt es am Automaten im Bahnhof; wer im Bus bar bezahlt, zahlt pro Person 100 Yen mehr. Große Gepäckstücke: bis zu zwei pro Person kostenlos.",
+    "glossary": [
+      [
+        "所要時間（しょようじかん）",
+        "benötigte Zeit, Fahrzeit"
+      ],
+      [
+        "乗車券（じょうしゃけん）",
+        "Fahrkarte"
+      ],
+      [
+        "券売機（けんばいき）",
+        "Fahrkartenautomat"
+      ]
+    ],
+    "note": "Achte auf ただし: Danach folgt eine Ausnahme, die die allgemeine Regel einschränkt. Hier verändert sie die Fahrzeit am Morgen.",
+    "questions": [
+      {
+        "id": "reading-n3-12-q1",
+        "kind": "search",
+        "prompt": "Du musst spätestens um 8:15 Uhr am Flughafen sein. Welchen Bus nimmst du spätestens?",
+        "evidence": "reading-n3-12-p1",
+        "choices": [
+          {
+            "text": "Den Bus um 7:20 Uhr.",
+            "explanation": "Er fährt in der Stoßzeit, braucht etwa 70 Minuten und kommt erst gegen 8:30 Uhr an.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "Den Bus um 8:00 Uhr.",
+            "explanation": "Dieser Bus kommt frühestens um 9 Uhr an.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "Den Bus um 6:10 Uhr.",
+            "explanation": "Er kommt rechtzeitig an, ist aber nicht der späteste mögliche Bus.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "Den Bus um 6:40 Uhr.",
+            "explanation": "Er fährt vor 7 Uhr ab, braucht etwa 50 Minuten und ist gegen 7:30 Uhr am Flughafen.",
+            "evidence": "reading-n3-12-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n3-12-q2",
+        "kind": "search",
+        "prompt": "Zwei Erwachsene und ein Kind bezahlen ihre Fahrt bar im Bus. Wie viel zahlen sie zusammen?",
+        "evidence": "reading-n3-12-p1",
+        "choices": [
+          {
+            "text": "3550 Yen.",
+            "explanation": "2 × 1400 Yen plus 750 Yen: Der Aufschlag von 100 Yen gilt für jede Person.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "3250 Yen.",
+            "explanation": "Das ist der Preis am Automaten ohne Aufschlag.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "3350 Yen.",
+            "explanation": "Der Aufschlag gilt pro Person, nicht nur einmal.",
+            "evidence": "reading-n3-12-p1"
+          },
+          {
+            "text": "4200 Yen.",
+            "explanation": "Das Kind zahlt nicht den Erwachsenenpreis.",
+            "evidence": "reading-n3-12-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "listening-n3-11",
+    "level": "N3",
+    "skill": "listening",
+    "order": 11,
+    "title": "Schnell antworten: Absichten erkennen",
+    "objective": "Kurze umgangssprachliche Äußerungen und ihre Absicht verstehen.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n3-11-p1",
+        "speaker": "A",
+        "text": "この{資料|しりょう}、{明日|あした}までにまとめてもらえる？"
+      },
+      {
+        "id": "listening-n3-11-p2",
+        "speaker": "B",
+        "text": "{田中|たなか}さん、もう{帰|かえ}っちゃった？"
+      },
+      {
+        "id": "listening-n3-11-p3",
+        "speaker": "A",
+        "text": "{駅前|えきまえ}に{新|あたら}しいラーメン{屋|や}ができたの、{知|し}ってる？"
+      },
+      {
+        "id": "listening-n3-11-p4",
+        "speaker": "B",
+        "text": "あれ、{傘|かさ}{持|も}ってこなかったの？"
+      }
+    ],
+    "translation": "A: Kannst du diese Unterlagen bis morgen zusammenstellen? B: Ist Tanaka schon nach Hause gegangen? A: Weißt du, dass vor dem Bahnhof ein neuer Ramen-Laden aufgemacht hat? B: Nanu, hast du keinen Schirm mitgebracht?",
+    "glossary": [
+      [
+        "まとめる",
+        "zusammenfassen, fertigstellen"
+      ],
+      [
+        "～てもらえる？",
+        "Kannst du … (für mich)?"
+      ]
+    ],
+    "note": "Bei verneinten Fragen wie 持ってこなかったの？ bestätigt うん die Verneinung: „Stimmt, ich habe keinen mitgebracht.“",
+    "questions": [
+      {
+        "id": "listening-n3-11-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n3-11-p1",
+        "choices": [
+          {
+            "text": "うん、わかった。やっておくよ。",
+            "explanation": "Man nimmt die Bitte an und sagt zu, es zu erledigen.",
+            "evidence": "listening-n3-11-p1"
+          },
+          {
+            "text": "うん、まとめてもらったよ。",
+            "explanation": "Das vertauscht die Rollen: Jemand anderes hätte es für einen gemacht.",
+            "evidence": "listening-n3-11-p1"
+          },
+          {
+            "text": "資料は明日だよ。",
+            "explanation": "Das wiederholt nur die Frist und sagt nicht zu.",
+            "evidence": "listening-n3-11-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n3-11-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n3-11-p2",
+        "choices": [
+          {
+            "text": "ううん、帰らないで。",
+            "explanation": "Das ist eine Bitte an den Gesprächspartner, nicht zu gehen.",
+            "evidence": "listening-n3-11-p2"
+          },
+          {
+            "text": "うん、さっき帰ったよ。",
+            "explanation": "Die Frage, ob Tanaka schon gegangen ist, wird beantwortet.",
+            "evidence": "listening-n3-11-p2"
+          },
+          {
+            "text": "うん、これから帰るつもり。",
+            "explanation": "Das spricht über die eigenen Pläne statt über Tanaka.",
+            "evidence": "listening-n3-11-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n3-11-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n3-11-p3",
+        "choices": [
+          {
+            "text": "うん、ラーメンを作ったんだ。",
+            "explanation": "できた bedeutet hier „eröffnet“, nicht „gekocht“.",
+            "evidence": "listening-n3-11-p3"
+          },
+          {
+            "text": "駅前までバスで行くよ。",
+            "explanation": "Das beantwortet eine Frage nach dem Weg.",
+            "evidence": "listening-n3-11-p3"
+          },
+          {
+            "text": "えっ、知らなかった。今度行ってみよう。",
+            "explanation": "Man reagiert auf die neue Information.",
+            "evidence": "listening-n3-11-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n3-11-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n3-11-p4",
+        "choices": [
+          {
+            "text": "うん、朝は晴れてたから。",
+            "explanation": "うん bestätigt, dass man keinen Schirm dabeihat, und nennt den Grund.",
+            "evidence": "listening-n3-11-p4"
+          },
+          {
+            "text": "うん、持ってきたよ。",
+            "explanation": "Das widerspricht sich: Auf die verneinte Frage bestätigt うん, dass man keinen Schirm mitgebracht hat.",
+            "evidence": "listening-n3-11-p4"
+          },
+          {
+            "text": "ええ、雨の日は傘をさします。",
+            "explanation": "Das ist eine allgemeine Aussage über Gewohnheiten und reagiert nicht auf die Frage.",
+            "evidence": "listening-n3-11-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n3-11.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n3-12",
+    "level": "N3",
+    "skill": "listening",
+    "order": 12,
+    "title": "Schnell antworten: Höflich reagieren",
+    "objective": "Auf höfliche Standardsätze mit der passenden Formel antworten.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n3-12-p1",
+        "speaker": "A",
+        "text": "{先日|せんじつ}はお{世話|せわ}になりました。"
+      },
+      {
+        "id": "listening-n3-12-p2",
+        "speaker": "B",
+        "text": "{今|いま}、ちょっといいですか。"
+      },
+      {
+        "id": "listening-n3-12-p3",
+        "speaker": "A",
+        "text": "このケーキ、よかったら{召|め}し{上|あ}がってください。"
+      },
+      {
+        "id": "listening-n3-12-p4",
+        "speaker": "B",
+        "text": "{遅|おそ}くなってすみません。"
+      }
+    ],
+    "translation": "A: Vielen Dank für neulich. B: Haben Sie gerade einen Moment? A: Bitte nehmen Sie doch von diesem Kuchen, wenn Sie mögen. B: Entschuldigen Sie die Verspätung.",
+    "glossary": [
+      [
+        "お世話になる",
+        "jemandem zu Dank verpflichtet sein"
+      ],
+      [
+        "召し上がる",
+        "essen, trinken (Ehrform)"
+      ]
+    ],
+    "note": "召し上がる ist eine Ehrform für andere. Über das eigene Essen sagt man いただきます.",
+    "questions": [
+      {
+        "id": "listening-n3-12-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n3-12-p1",
+        "choices": [
+          {
+            "text": "はい、お世話しました。",
+            "explanation": "Das nimmt den Dank selbstgefällig an und klingt unhöflich.",
+            "evidence": "listening-n3-12-p1"
+          },
+          {
+            "text": "いえいえ、こちらこそ。",
+            "explanation": "Man gibt den Dank bescheiden zurück.",
+            "evidence": "listening-n3-12-p1"
+          },
+          {
+            "text": "いいえ、先日は休みでした。",
+            "explanation": "Das missversteht den Dank als Frage nach dem Tag.",
+            "evidence": "listening-n3-12-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n3-12-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n3-12-p2",
+        "choices": [
+          {
+            "text": "はい、ちょっといいです。",
+            "explanation": "Die wörtliche Wiederholung klingt unnatürlich.",
+            "evidence": "listening-n3-12-p2"
+          },
+          {
+            "text": "いいえ、今です。",
+            "explanation": "Das beantwortet eine Frage nach dem Zeitpunkt.",
+            "evidence": "listening-n3-12-p2"
+          },
+          {
+            "text": "はい、何でしょう。",
+            "explanation": "So signalisiert man, dass man Zeit hat, und fragt nach dem Anliegen.",
+            "evidence": "listening-n3-12-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n3-12-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n3-12-p3",
+        "choices": [
+          {
+            "text": "ありがとうございます。いただきます。",
+            "explanation": "Man nimmt das Angebot dankend an.",
+            "evidence": "listening-n3-12-p3"
+          },
+          {
+            "text": "はい、召し上がります。",
+            "explanation": "Die Ehrform für das eigene Essen ist falsch.",
+            "evidence": "listening-n3-12-p3"
+          },
+          {
+            "text": "どうぞ召し上がってください。",
+            "explanation": "Das gibt die Einladung einfach an den Gastgeber zurück.",
+            "evidence": "listening-n3-12-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n3-12-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n3-12-p4",
+        "choices": [
+          {
+            "text": "はい、もう少し遅くなります。",
+            "explanation": "Das spricht über die eigene Verspätung.",
+            "evidence": "listening-n3-12-p4"
+          },
+          {
+            "text": "いえ、私も今来たところです。",
+            "explanation": "Man beruhigt die Person, die sich entschuldigt.",
+            "evidence": "listening-n3-12-p4"
+          },
+          {
+            "text": "ええ、遅くなってすみません。",
+            "explanation": "Das wiederholt die Entschuldigung, obwohl man selbst gewartet hat.",
+            "evidence": "listening-n3-12-p4"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n3-12.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n3-13",
+    "level": "N3",
+    "skill": "listening",
+    "order": 13,
+    "title": "Was sagt man? Im Büro",
+    "objective": "Im beruflichen Umfeld die passende höfliche Formulierung wählen.",
+    "minutes": 8,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n3-13-p1",
+        "speaker": "",
+        "text": "{会社|かいしゃ}で、{上司|じょうし}より{先|さき}に{帰|かえ}ります。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-13-p2",
+        "speaker": "",
+        "text": "お{客様|きゃくさま}に、{少|すこ}し{待|ま}ってもらいたいです。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-13-p3",
+        "speaker": "",
+        "text": "{電話|でんわ}で、{話|はな}したい{人|ひと}がいませんでした。あとで{自分|じぶん}からかけ{直|なお}したいです。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-13-p4",
+        "speaker": "",
+        "text": "{上司|じょうし}の{話|はなし}が{聞|き}き{取|と}れませんでした。もう{一度|いちど}{言|い}ってほしいです。{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Du gehst vor deiner Vorgesetzten nach Hause. Was sagst du? Du möchtest, dass ein Kunde kurz wartet. Was sagst du? Am Telefon ist die gewünschte Person nicht da. Du möchtest später selbst zurückrufen. Was sagst du? Du hast deinen Vorgesetzten nicht verstanden und möchtest, dass er es wiederholt. Was sagst du?",
+    "glossary": [
+      [
+        "上司（じょうし）",
+        "Vorgesetzte(r)"
+      ],
+      [
+        "後ほど（のちほど）",
+        "später (höflich)"
+      ],
+      [
+        "恐れ入りますが（おそれいりますが）",
+        "Entschuldigen Sie, aber …"
+      ]
+    ],
+    "note": "Bitten an Vorgesetzte und Kunden formuliert man mit おっしゃっていただけますか oder お待ちください, nicht mit Formen, die einen Gefallen anbieten (～てあげる).",
+    "questions": [
+      {
+        "id": "listening-n3-13-q1",
+        "kind": "utterance",
+        "prompt": "Du gehst vor deiner Vorgesetzten. Was sagst du?",
+        "evidence": "listening-n3-13-p1",
+        "choices": [
+          {
+            "text": "お疲れさまでした。",
+            "explanation": "Das sagen die, die bleiben.",
+            "evidence": "listening-n3-13-p1"
+          },
+          {
+            "text": "いってまいります。",
+            "explanation": "Das sagt man, wenn man kurz weggeht und zurückkommt.",
+            "evidence": "listening-n3-13-p1"
+          },
+          {
+            "text": "お先に失礼します。",
+            "explanation": "Das sagt, wer als Erster geht.",
+            "evidence": "listening-n3-13-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n3-13-q2",
+        "kind": "utterance",
+        "prompt": "Ein Kunde soll kurz warten. Was sagst du?",
+        "evidence": "listening-n3-13-p2",
+        "choices": [
+          {
+            "text": "少々お待ちください。",
+            "explanation": "Die höfliche Standardbitte um Geduld.",
+            "evidence": "listening-n3-13-p2"
+          },
+          {
+            "text": "少し待ってあげます。",
+            "explanation": "Damit bietet man selbst an zu warten.",
+            "evidence": "listening-n3-13-p2"
+          },
+          {
+            "text": "お待たせしました。",
+            "explanation": "Das sagt man nach dem Warten.",
+            "evidence": "listening-n3-13-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n3-13-q3",
+        "kind": "utterance",
+        "prompt": "Du willst später selbst zurückrufen. Was sagst du?",
+        "evidence": "listening-n3-13-p3",
+        "choices": [
+          {
+            "text": "では、後ほどお電話ください。",
+            "explanation": "Damit bittet man die andere Seite um einen Rückruf.",
+            "evidence": "listening-n3-13-p3"
+          },
+          {
+            "text": "では、また後ほどお電話いたします。",
+            "explanation": "いたします ist die bescheidene Form für das eigene Anrufen.",
+            "evidence": "listening-n3-13-p3"
+          },
+          {
+            "text": "お電話ありがとうございました。",
+            "explanation": "Das beendet das Gespräch, ohne den Rückruf anzukündigen.",
+            "evidence": "listening-n3-13-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n3-13-q4",
+        "kind": "utterance",
+        "prompt": "Du möchtest, dass dein Vorgesetzter es wiederholt. Was sagst du?",
+        "evidence": "listening-n3-13-p4",
+        "choices": [
+          {
+            "text": "もう一度言ってあげましょうか。",
+            "explanation": "Damit bietet man selbst an, etwas zu wiederholen.",
+            "evidence": "listening-n3-13-p4"
+          },
+          {
+            "text": "もう一度申し上げます。",
+            "explanation": "Damit kündigt man an, selbst etwas zu wiederholen.",
+            "evidence": "listening-n3-13-p4"
+          },
+          {
+            "text": "恐れ入りますが、もう一度おっしゃっていただけますか。",
+            "explanation": "Eine höfliche Bitte um Wiederholung an einen Vorgesetzten.",
+            "evidence": "listening-n3-13-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n3-13.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n3-14",
+    "level": "N3",
+    "skill": "listening",
+    "order": 14,
+    "title": "Was sagt man? Nachbarn und Freunde",
+    "objective": "Glückwünsche, Genesungswünsche und Begrüßungsformeln unterscheiden.",
+    "minutes": 8,
+    "introduction": "Lies die Situation und höre, was gesagt wird. Wähle, was man in dieser Situation sagt.",
+    "passages": [
+      {
+        "id": "listening-n3-14-p1",
+        "speaker": "",
+        "text": "{引|ひ}っ{越|こ}してきて、{隣|となり}の{家|いえ}にあいさつに{行|い}きました。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-14-p2",
+        "speaker": "",
+        "text": "{友達|ともだち}が{試験|しけん}に{合格|ごうかく}しました。{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-14-p3",
+        "speaker": "",
+        "text": "{友達|ともだち}が{風邪|かぜ}で{休|やす}んでいます。{電話|でんわ}を{切|き}るとき、{何|なん}と{言|い}いますか。"
+      },
+      {
+        "id": "listening-n3-14-p4",
+        "speaker": "",
+        "text": "{友達|ともだち}の{家|いえ}で{晩|ばん}ご{飯|はん}をごちそうになりました。{帰|かえ}るとき、{何|なん}と{言|い}いますか。"
+      }
+    ],
+    "translation": "Du bist umgezogen und stellst dich bei den Nachbarn vor. Was sagst du? Eine Freundin hat die Prüfung bestanden. Was sagst du? Ein Freund liegt mit einer Erkältung im Bett. Was sagst du am Ende des Telefonats? Du wurdest bei Freunden zum Abendessen eingeladen. Was sagst du beim Gehen?",
+    "glossary": [
+      [
+        "引っ越す（ひっこす）",
+        "umziehen"
+      ],
+      [
+        "合格（ごうかく）",
+        "Bestehen (einer Prüfung)"
+      ]
+    ],
+    "note": "お大事に wünscht Kranken gute Besserung. ごちそうさまでした bedankt sich für eine Einladung zum Essen – auch noch beim Gehen.",
+    "questions": [
+      {
+        "id": "listening-n3-14-q1",
+        "kind": "utterance",
+        "prompt": "Du stellst dich bei den neuen Nachbarn vor. Was sagst du?",
+        "evidence": "listening-n3-14-p1",
+        "choices": [
+          {
+            "text": "隣に越してきた者です。よろしくお願いします。",
+            "explanation": "Man stellt sich als neuer Nachbar vor und bittet um gute Nachbarschaft.",
+            "evidence": "listening-n3-14-p1"
+          },
+          {
+            "text": "お邪魔しました。",
+            "explanation": "Das sagt man beim Verlassen einer fremden Wohnung.",
+            "evidence": "listening-n3-14-p1"
+          },
+          {
+            "text": "おかえりなさい。",
+            "explanation": "Damit begrüßt man Heimkehrende.",
+            "evidence": "listening-n3-14-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n3-14-q2",
+        "kind": "utterance",
+        "prompt": "Deine Freundin hat bestanden. Was sagst du?",
+        "evidence": "listening-n3-14-p2",
+        "choices": [
+          {
+            "text": "お大事に。",
+            "explanation": "Das wünscht man Kranken.",
+            "evidence": "listening-n3-14-p2"
+          },
+          {
+            "text": "合格おめでとう！よかったね。",
+            "explanation": "Ein Glückwunsch.",
+            "evidence": "listening-n3-14-p2"
+          },
+          {
+            "text": "残念だったね。",
+            "explanation": "Das tröstet nach einem Misserfolg.",
+            "evidence": "listening-n3-14-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n3-14-q3",
+        "kind": "utterance",
+        "prompt": "Du beendest ein Telefonat mit einem kranken Freund. Was sagst du?",
+        "evidence": "listening-n3-14-p3",
+        "choices": [
+          {
+            "text": "おめでとう。",
+            "explanation": "Ein Glückwunsch passt nicht zu einer Krankheit.",
+            "evidence": "listening-n3-14-p3"
+          },
+          {
+            "text": "ごちそうさま。",
+            "explanation": "Das sagt man nach dem Essen.",
+            "evidence": "listening-n3-14-p3"
+          },
+          {
+            "text": "お大事にね。",
+            "explanation": "Gute Besserung.",
+            "evidence": "listening-n3-14-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n3-14-q4",
+        "kind": "utterance",
+        "prompt": "Du verabschiedest dich nach dem Abendessen. Was sagst du?",
+        "evidence": "listening-n3-14-p4",
+        "choices": [
+          {
+            "text": "今日はごちそうさまでした。",
+            "explanation": "Man bedankt sich für die Einladung zum Essen.",
+            "evidence": "listening-n3-14-p4"
+          },
+          {
+            "text": "いただきます。",
+            "explanation": "Das sagt man vor dem Essen.",
+            "evidence": "listening-n3-14-p4"
+          },
+          {
+            "text": "おかまいなく。",
+            "explanation": "Damit lehnt man Bewirtung ab, bevor sie angeboten wird.",
+            "evidence": "listening-n3-14-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "utterance",
+    "audio": {
+      "src": "audio/comprehension/listening-n3-14.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
     "id": "reading-n2-1",
     "level": "N2",
     "skill": "reading",
@@ -10441,6 +12659,1288 @@ window.COMPREHENSION_UNITS = [
     }
   },
   {
+    "id": "reading-n2-11",
+    "level": "N2",
+    "skill": "reading",
+    "order": 11,
+    "title": "Homeoffice: zwei Erfahrungen",
+    "objective": "Gemeinsamkeiten und Unterschiede zweier Meinungen zum Homeoffice herausarbeiten.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n2-11-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "在宅勤務が広がって三年になる。通勤に使っていた一日往復二時間を、私は勉強や家族との時間に{充てられる|あてられる}ようになった。集中を要する資料作成は、話しかけられることの多い職場より家の方がはかどる。もちろん、対面で話し合うべき場面はある。だからこそ、出社する日を目的に応じて選べる今の働き方を、会社には続けてほしい。{一律|いちりつ}に全員を毎日出社させる制度に戻れば、これまでに得た成果を手放すことになる。"
+      },
+      {
+        "id": "reading-n2-11-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "私の部署では昨年、在宅勤務の日を週二日に減らした。仕事の効率が落ちたからではない。入社したばかりの社員が、分からないことを気軽に聞けず、一人で悩んでいたことが分かったのだ。画面越しの会議では、用件は伝わっても、ちょっとした雑談から生まれる助言や信頼関係は育ちにくい。在宅勤務の利点は認めつつも、経験の浅い人が{孤立|こりつ}しない仕組みを先に考えるべきだと思う。"
+      }
+    ],
+    "translation": "Text A: Homeoffice gibt es seit drei Jahren. Die zwei Stunden Pendelzeit pro Tag kann ich nun fürs Lernen und für die Familie nutzen. Konzentrierte Schreibarbeit gelingt zu Hause besser als im Büro, wo man oft angesprochen wird. Natürlich gibt es Situationen, die ein persönliches Gespräch erfordern. Gerade deshalb soll die Firma die jetzige Regel beibehalten, bei der man die Bürotage je nach Zweck wählen kann. Eine einheitliche Pflicht zur täglichen Anwesenheit würde das Erreichte aufgeben. Text B: Meine Abteilung hat die Homeoffice-Tage im letzten Jahr auf zwei pro Woche reduziert – nicht, weil die Effizienz sank, sondern weil neue Mitarbeitende nicht einfach nachfragen konnten und allein mit Problemen blieben. In Videokonferenzen kommt das Anliegen an, aber Rat und Vertrauen aus kleinen Gesprächen wachsen kaum. Ich erkenne die Vorteile an, meine aber, man müsse zuerst dafür sorgen, dass Unerfahrene nicht isoliert werden.",
+    "glossary": [
+      [
+        "充てられる（あてられる）",
+        "für etwas verwenden können"
+      ],
+      [
+        "一律（いちりつ）",
+        "einheitlich, ohne Ausnahme"
+      ],
+      [
+        "孤立（こりつ）",
+        "Isolation"
+      ]
+    ],
+    "note": "Beim Vergleich zweier Texte hilft eine einfache Tabelle: Was sagen beide? Wo setzen sie andere Schwerpunkte? Achte auf einschränkende Formulierungen wie 認めつつも.",
+    "questions": [
+      {
+        "id": "reading-n2-11-q1",
+        "kind": "integrated",
+        "prompt": "Worin sind sich beide Texte einig?",
+        "evidence": "reading-n2-11-p2",
+        "choices": [
+          {
+            "text": "Man sollte vollständig zur täglichen Büroarbeit zurückkehren.",
+            "explanation": "A lehnt das ausdrücklich ab, B fordert es nicht.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "Homeoffice hat Vorteile, doch für manches bleibt persönlicher Kontakt wichtig.",
+            "explanation": "A nennt Situationen für persönliche Gespräche, B erkennt die Vorteile des Homeoffice an.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "Homeoffice senkt die Effizienz der Arbeit.",
+            "explanation": "B betont, dass die Effizienz nicht der Grund war.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "Neue Mitarbeitende arbeiten zu Hause besser.",
+            "explanation": "B beschreibt gerade ihre Schwierigkeiten zu Hause.",
+            "evidence": "reading-n2-11-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-11-q2",
+        "kind": "integrated",
+        "prompt": "Wie unterscheidet sich Text B von Text A?",
+        "evidence": "reading-n2-11-p2",
+        "choices": [
+          {
+            "text": "B hält Homeoffice für unproduktiv.",
+            "explanation": "B sagt ausdrücklich, dass die Effizienz nicht gesunken ist.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "B möchte, dass jeder seine Bürotage frei wählt.",
+            "explanation": "Das ist die Position von Text A.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "B stellt die Unterstützung neuer Mitarbeitender in den Vordergrund und hält deshalb weniger Homeoffice-Tage für sinnvoll.",
+            "explanation": "B begründet die Reduzierung mit der Isolation neuer Kollegen.",
+            "evidence": "reading-n2-11-p2"
+          },
+          {
+            "text": "B lehnt Videokonferenzen grundsätzlich ab.",
+            "explanation": "B sagt nur, dass dort Vertrauen schwer entsteht.",
+            "evidence": "reading-n2-11-p2"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n2-12",
+    "level": "N2",
+    "skill": "reading",
+    "order": 12,
+    "title": "Höhere Eintrittspreise für die Burg",
+    "objective": "Zwei Stellungnahmen zu einer Preiserhöhung vergleichen und ihre Vorschläge unterscheiden.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n2-12-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "市は来年度から、城の{天守|てんしゅ}の入場料を500円から1,200円に引き上げる。観光客が増え続け、傷んだ階段や展示の修理が追いつかないためだ。値上げで得た収入は、全額を建物の保存と整備に充てる。市民については、住所を確認できる証明書を示せば、今の料金のままとする。見学の質を守るためにも、混雑をある程度抑えることは必要だと考えている。"
+      },
+      {
+        "id": "reading-n2-12-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "{文化財|ぶんかざい}を守るための費用を利用者が負担するという考え方には賛成だ。しかし、いきなり二倍以上にするのは急すぎる。家族で訪れれば大きな出費になるし、修学旅行の学校が行き先を変えてしまうおそれもある。値上げは{段階的|だんかいてき}に行い、子どもや学生の料金は低く抑えるべきではないか。混雑を減らしたいのであれば、時間帯ごとの予約制を導入するという方法もあるはずだ。"
+      }
+    ],
+    "translation": "Text A: Die Stadt erhöht ab dem nächsten Haushaltsjahr den Eintritt für den Burgturm von 500 auf 1200 Yen. Die Besucherzahlen steigen weiter, und die Reparaturen beschädigter Treppen und Ausstellungen kommen nicht hinterher. Die Mehreinnahmen fließen vollständig in Erhalt und Pflege. Einwohner zahlen mit einem Nachweis ihres Wohnorts weiterhin den bisherigen Preis. Um die Qualität der Besichtigung zu sichern, sei es auch nötig, den Andrang etwas zu begrenzen. Text B: Dass die Besucher die Kosten für den Erhalt des Kulturguts tragen, befürworte ich. Mehr als eine Verdopplung auf einen Schlag ist aber zu abrupt: Für Familien wird es teuer, und Schulen könnten für Klassenfahrten andere Ziele wählen. Die Erhöhung sollte schrittweise erfolgen, und Kinder und Studierende sollten wenig zahlen. Gegen den Andrang könnte man auch Reservierungen nach Zeitfenstern einführen.",
+    "glossary": [
+      [
+        "天守（てんしゅ）",
+        "Burgturm, Hauptturm einer Burg"
+      ],
+      [
+        "文化財（ぶんかざい）",
+        "Kulturgut"
+      ],
+      [
+        "段階的（だんかいてき）",
+        "schrittweise"
+      ]
+    ],
+    "note": "Stellungnahmen beginnen oft mit Zustimmung (には賛成だ) und bringen danach mit しかし die eigentliche Kritik. Die Vorschläge stehen meist am Ende.",
+    "questions": [
+      {
+        "id": "reading-n2-12-q1",
+        "kind": "integrated",
+        "prompt": "Worin stimmen beide Texte überein?",
+        "evidence": "reading-n2-12-p2",
+        "choices": [
+          {
+            "text": "Der Preis sollte sofort mehr als verdoppelt werden.",
+            "explanation": "Das plant nur A; B hält es für zu abrupt.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Einwohner der Stadt sollten mehr bezahlen.",
+            "explanation": "A lässt den Preis für Einwohner unverändert; B äußert sich dazu nicht.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Die Besucher sollen zur Finanzierung des Erhalts der Burg beitragen.",
+            "explanation": "A erhöht dafür den Preis; B stimmt dem Grundgedanken ausdrücklich zu.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Klassenfahrten zur Burg sollten eingeschränkt werden.",
+            "explanation": "B befürchtet im Gegenteil, dass Schulen fernbleiben.",
+            "evidence": "reading-n2-12-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-12-q2",
+        "kind": "integrated",
+        "prompt": "Was schlägt Text B vor, was Text A nicht vorsieht?",
+        "evidence": "reading-n2-12-p2",
+        "choices": [
+          {
+            "text": "Den Eintritt für alle kostenlos zu machen.",
+            "explanation": "B befürwortet ausdrücklich, dass Besucher zahlen.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Die Einnahmen für Tourismuswerbung zu verwenden.",
+            "explanation": "Von Werbung ist in keinem Text die Rede.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Die Vergünstigung für Einwohner abzuschaffen.",
+            "explanation": "B geht auf die Regel für Einwohner nicht ein.",
+            "evidence": "reading-n2-12-p2"
+          },
+          {
+            "text": "Eine schrittweise Erhöhung, günstige Preise für Kinder und Studierende und Reservierungen nach Zeitfenstern.",
+            "explanation": "Genau diese Maßnahmen nennt B als Alternativen.",
+            "evidence": "reading-n2-12-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-12-q3",
+        "kind": "integrated",
+        "prompt": "Welches Ziel nennen beide Texte im Zusammenhang mit dem Andrang?",
+        "evidence": "reading-n2-12-p1",
+        "choices": [
+          {
+            "text": "Weniger Gedränge bei der Besichtigung.",
+            "explanation": "A will den Andrang begrenzen; B schlägt dafür Zeitfenster vor.",
+            "evidence": "reading-n2-12-p1"
+          },
+          {
+            "text": "Mehr Besucher aus dem Ausland.",
+            "explanation": "Keiner der Texte wünscht mehr Besucher.",
+            "evidence": "reading-n2-12-p1"
+          },
+          {
+            "text": "Längere Öffnungszeiten.",
+            "explanation": "Öffnungszeiten werden nicht erwähnt.",
+            "evidence": "reading-n2-12-p1"
+          },
+          {
+            "text": "Den Bau eines zweiten Eingangs.",
+            "explanation": "Bauliche Erweiterungen kommen nicht vor.",
+            "evidence": "reading-n2-12-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n2-13",
+    "level": "N2",
+    "skill": "reading",
+    "order": 13,
+    "title": "Ausschreibung eines Stipendiums",
+    "objective": "Bewerbungsvoraussetzungen und Formalien einer Stipendienausschreibung prüfen.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n2-13-p1",
+        "speaker": "",
+        "text": "〇〇財団　2027年度　留学支援奨学金　募集要項\n１．対象：本学の2年生以上で、2027年9月から1年以内の交換留学が決定している者\n２．{給付|きゅうふ}額：月額8万円（返還不要）\n３．成績基準：前年度のGPAが3.0以上であること\n４．併給：他の{給付|きゅうふ}型奨学金との併給は不可。ただし、{貸与|たいよ}型奨学金との併用は認める。\n５．提出書類：申請書、成績証明書、留学先大学の受入許可書（写し可）、指導教員による推薦書\n６．締切：2027年5月31日（{必着|ひっちゃく}）。郵送でのみ受け付ける。"
+      }
+    ],
+    "translation": "Stiftung 〇〇 – Stipendium zur Förderung von Auslandsstudien 2027, Ausschreibung. 1. Berechtigt: Studierende dieser Universität ab dem zweiten Jahr, deren Austauschstudium innerhalb eines Jahres ab September 2027 feststeht. 2. Leistung: 80.000 Yen monatlich (nicht rückzahlbar). 3. Leistungsnachweis: GPA des Vorjahres mindestens 3,0. 4. Doppelförderung: Gleichzeitiger Bezug eines anderen nicht rückzahlbaren Stipendiums ist nicht erlaubt; ein Darlehensstipendium darf jedoch zusätzlich bezogen werden. 5. Unterlagen: Antrag, Notenbescheinigung, Zulassung der Gastuniversität (Kopie genügt), Empfehlungsschreiben der betreuenden Lehrkraft. 6. Frist: 31. Mai 2027 (Eingang), nur per Post.",
+    "glossary": [
+      [
+        "給付（きゅうふ）",
+        "nicht rückzahlbare Leistung"
+      ],
+      [
+        "貸与（たいよ）",
+        "Darlehen, leihweise Vergabe"
+      ],
+      [
+        "必着（ひっちゃく）",
+        "muss bis zum Stichtag eingegangen sein"
+      ]
+    ],
+    "note": "In Ausschreibungen trennen ただし und のみ die Regel von ihrer Ausnahme bzw. Einschränkung. 必着 bedeutet: Das Eingangsdatum zählt, nicht der Poststempel.",
+    "questions": [
+      {
+        "id": "reading-n2-13-q1",
+        "kind": "search",
+        "prompt": "Wer kann sich bewerben?",
+        "evidence": "reading-n2-13-p1",
+        "choices": [
+          {
+            "text": "Ein Student im 1. Jahr mit GPA 3,8 und feststehendem Austausch.",
+            "explanation": "Bewerben dürfen sich nur Studierende ab dem 2. Jahr.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Eine Studentin mit GPA 3,4, die bereits ein anderes nicht rückzahlbares Stipendium erhält.",
+            "explanation": "Ein zweites 給付型-Stipendium ist ausgeschlossen.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Ein Student im 2. Jahr mit GPA 2,8 und feststehendem Austausch.",
+            "explanation": "Der GPA muss mindestens 3,0 betragen.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Eine Studentin im 3. Jahr mit GPA 3,2, deren Austausch ab September 2027 feststeht und die ein Studiendarlehen erhält.",
+            "explanation": "Alle Bedingungen sind erfüllt; ein Darlehen (貸与型) darf zusätzlich bezogen werden.",
+            "evidence": "reading-n2-13-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-13-q2",
+        "kind": "search",
+        "prompt": "Was gilt für die Unterlagen?",
+        "evidence": "reading-n2-13-p1",
+        "choices": [
+          {
+            "text": "Die Zulassung darf eine Kopie sein, die Empfehlung muss von der betreuenden Lehrkraft stammen.",
+            "explanation": "写し可 und 指導教員による推薦書 regeln genau das.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Alle Dokumente müssen im Original eingereicht werden.",
+            "explanation": "Für die Zulassung genügt ausdrücklich eine Kopie.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Man kann die Unterlagen per E-Mail schicken, wenn sie bis 31. Mai ankommen.",
+            "explanation": "Es wird nur Post angenommen (郵送でのみ).",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Die Empfehlung darf von jeder Lehrkraft der Universität stammen.",
+            "explanation": "Gefordert ist die betreuende Lehrkraft (指導教員).",
+            "evidence": "reading-n2-13-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-13-q3",
+        "kind": "search",
+        "prompt": "Muss das Stipendium zurückgezahlt werden?",
+        "evidence": "reading-n2-13-p1",
+        "choices": [
+          {
+            "text": "Ja, nach dem Ende des Studiums.",
+            "explanation": "Rückzahlung gilt für Darlehen, nicht für dieses Stipendium.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Nein, es ist nicht rückzahlbar.",
+            "explanation": "返還不要 bedeutet, dass keine Rückzahlung nötig ist.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Nur, wenn der GPA unter 3,0 fällt.",
+            "explanation": "Eine solche Bedingung steht nicht in der Ausschreibung.",
+            "evidence": "reading-n2-13-p1"
+          },
+          {
+            "text": "Nur zur Hälfte.",
+            "explanation": "Von einer teilweisen Rückzahlung ist keine Rede.",
+            "evidence": "reading-n2-13-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n2-14",
+    "level": "N2",
+    "skill": "reading",
+    "order": 14,
+    "title": "Regeln für Tagungsräume",
+    "objective": "Preis-, Storno- und Nutzungsregeln eines Tagungshauses auf konkrete Fälle anwenden.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n2-14-p1",
+        "speaker": "",
+        "text": "市民会館　会議室のご利用について\n・予約：利用日の3か月前の1日から、{窓口|まどぐち}またはウェブサイトで受け付けます。\n・料金（1時間あたり）：小会議室（定員10名）800円／中会議室（定員30名）1,500円／大会議室（定員80名）3,000円\n・{営利|えいり}目的でのご利用は、上記料金の2倍となります。\n・キャンセル料：利用日の7日前までは無料、6日前から前日までは料金の50％、当日は100％を申し受けます。\n・飲食は小会議室のみ可能です。ただし、アルコール類は全室でご{遠慮|えんりょ}ください。"
+      }
+    ],
+    "translation": "Bürgerhaus – Nutzung der Tagungsräume. Reservierung ab dem 1. des Monats drei Monate vor dem Nutzungstag, am Schalter oder online. Preise pro Stunde: kleiner Raum (10 Personen) 800 Yen, mittlerer Raum (30 Personen) 1500 Yen, großer Raum (80 Personen) 3000 Yen. Bei gewerblicher Nutzung gilt der doppelte Preis. Stornogebühren: bis 7 Tage vorher kostenlos, von 6 Tagen vorher bis zum Vortag 50 %, am Nutzungstag 100 %. Essen und Trinken nur im kleinen Raum; Alkohol ist in allen Räumen nicht erlaubt.",
+    "glossary": [
+      [
+        "営利（えいり）",
+        "Gewinnerzielung, gewerblich"
+      ],
+      [
+        "窓口（まどぐち）",
+        "Schalter"
+      ],
+      [
+        "遠慮（えんりょ）",
+        "verzichten (höfliches Verbot)"
+      ]
+    ],
+    "note": "ご遠慮ください ist ein höfliches Verbot. Prüfe bei Berechnungen Schritt für Schritt: passender Raum, Stunden, Aufschlag.",
+    "questions": [
+      {
+        "id": "reading-n2-14-q1",
+        "kind": "search",
+        "prompt": "Eine Firma hält mit 25 Teilnehmenden zwei Stunden lang eine Verkaufsschulung ab. Was kostet der passende Raum?",
+        "evidence": "reading-n2-14-p1",
+        "choices": [
+          {
+            "text": "6000 Yen.",
+            "explanation": "Mittlerer Raum: 1500 Yen × 2 Stunden, verdoppelt wegen gewerblicher Nutzung.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "3000 Yen.",
+            "explanation": "Der Aufschlag für gewerbliche Nutzung fehlt.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "12.000 Yen.",
+            "explanation": "Für 25 Personen reicht der mittlere Raum; der große wäre nicht nötig.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "3200 Yen.",
+            "explanation": "Der kleine Raum ist nur für 10 Personen.",
+            "evidence": "reading-n2-14-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-14-q2",
+        "kind": "search",
+        "prompt": "Eine Gruppe möchte bei ihrem Treffen Kaffee und Kuchen anbieten. Was ist richtig?",
+        "evidence": "reading-n2-14-p1",
+        "choices": [
+          {
+            "text": "Im großen Raum ist Essen erlaubt, nur Alkohol nicht.",
+            "explanation": "Essen ist ausschließlich im kleinen Raum erlaubt.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Das geht nur im kleinen Raum, also mit höchstens 10 Personen.",
+            "explanation": "飲食は小会議室のみ erlaubt Essen nur dort.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Essen und Trinken sind in allen Räumen verboten.",
+            "explanation": "Im kleinen Raum sind sie erlaubt.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Kaffee ist überall erlaubt, Kuchen nur im kleinen Raum.",
+            "explanation": "Die Regel unterscheidet nicht zwischen Getränken und Essen.",
+            "evidence": "reading-n2-14-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-14-q3",
+        "kind": "search",
+        "prompt": "Eine Buchung für Samstag wird am Montag derselben Woche storniert. Was zahlt man?",
+        "evidence": "reading-n2-14-p1",
+        "choices": [
+          {
+            "text": "Nichts.",
+            "explanation": "Kostenlos ist es nur bis sieben Tage vorher.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Den vollen Preis.",
+            "explanation": "100 % gelten nur am Nutzungstag selbst.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Die Hälfte des Preises.",
+            "explanation": "Montag ist fünf Tage vor Samstag, also im Zeitraum mit 50 %.",
+            "evidence": "reading-n2-14-p1"
+          },
+          {
+            "text": "Ein Viertel des Preises.",
+            "explanation": "Eine Gebühr von 25 % ist nicht vorgesehen.",
+            "evidence": "reading-n2-14-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n2-15",
+    "level": "N2",
+    "skill": "reading",
+    "order": 15,
+    "title": "Ein Heft für Fehler",
+    "objective": "Den Gedankengang eines längeren Berichts über Fehlerkultur verfolgen.",
+    "minutes": 23,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-15-p1",
+        "speaker": "",
+        "text": "ある小さな印刷会社では、社員が仕事で失敗をしたとき、その内容を共有のノートに書き込むことになっている。誰が、いつ、どのような失敗をしたのか、そしてなぜそうなったと思うのかを、できるだけ具体的に記すのである。始めた当初、このノートはほとんど白紙のままだった。失敗を書けば評価が下がるのではないか、同僚にどう思われるだろうかと、社員の多くが恐れたからだ。"
+      },
+      {
+        "id": "reading-n2-15-p2",
+        "speaker": "",
+        "text": "状況が変わったのは、社長自身が自分の失敗を書き始めてからである。{見積もり|みつもり}の計算を誤って赤字の仕事を引き受けたこと、取引先への連絡を忘れて{納期|のうき}を遅らせたことなど、社長は隠さずに書いた。そして、ノートの内容は人事の評価には一切使わないと、全員の前で約束した。すると、少しずつほかの社員も書き込むようになった。"
+      },
+      {
+        "id": "reading-n2-15-p3",
+        "speaker": "",
+        "text": "ノートの記録が増えるにつれて、同じような失敗が何度も繰り返されていることが見えてきた。例えば、急ぎの注文ほど確認の手順が省かれ、誤字が見落とされやすい。また、新人が一人で電話を受ける時間帯には、注文内容の聞き間違いが多いことも分かった。そこで会社は、急ぎの仕事にこそ二人で確認する仕組みを取り入れ、電話の内容は必ず書面で確かめることにした。その結果、{刷り直し|すりなおし}の件数は一年で半分近くに減ったという。"
+      },
+      {
+        "id": "reading-n2-15-p4",
+        "speaker": "",
+        "text": "失敗を責めるだけの職場では、人は失敗を隠そうとする。隠された失敗からは、誰も学ぶことができない。大切なのは、失敗を個人の不注意として片付けるのではなく、なぜ起きたのかを皆で考えられる環境をつくることだろう。このノートの価値は、失敗の数を減らしたことだけではなく、失敗について話し合える雰囲気を職場に生んだことにあるのかもしれない。"
+      }
+    ],
+    "translation": "In einer kleinen Druckerei tragen Beschäftigte ihre Fehler in ein gemeinsames Heft ein: wer, wann, welcher Fehler und warum er vermutlich passiert ist. Anfangs blieb das Heft fast leer, weil viele eine schlechtere Beurteilung und die Meinung der Kollegen fürchteten. Das änderte sich, als der Chef seine eigenen Fehler aufschrieb – etwa einen falsch kalkulierten Kostenvoranschlag, der einen Verlustauftrag brachte, oder eine vergessene Nachricht, die eine Lieferfrist verzögerte – und vor allen versprach, das Heft nie für Personalbeurteilungen zu nutzen. Mit der Zeit zeigte sich, dass sich ähnliche Fehler wiederholten: Bei Eilaufträgen wurden Kontrollschritte ausgelassen und Tippfehler übersehen, und wenn Neulinge allein am Telefon waren, wurden Bestellungen häufig missverstanden. Die Firma führte deshalb für Eilaufträge eine Kontrolle durch zwei Personen ein und bestätigt telefonische Bestellungen schriftlich. Nachdrucke gingen in einem Jahr um fast die Hälfte zurück. Wo Fehler nur bestraft werden, werden sie versteckt, und aus versteckten Fehlern lernt niemand. Wichtig ist ein Umfeld, in dem man gemeinsam nach den Ursachen fragt. Der Wert des Hefts liegt vielleicht nicht nur in weniger Fehlern, sondern in einer Atmosphäre, in der man über Fehler sprechen kann.",
+    "glossary": [
+      [
+        "見積もり（みつもり）",
+        "Kostenvoranschlag"
+      ],
+      [
+        "納期（のうき）",
+        "Liefertermin"
+      ],
+      [
+        "刷り直し（すりなおし）",
+        "Nachdruck"
+      ]
+    ],
+    "note": "Lange Texte folgen oft dem Muster Problem – Wendepunkt – Ergebnis – Deutung. Die Meinung des Autors steht meist im letzten Absatz, erkennbar an だろう oder のかもしれない.",
+    "questions": [
+      {
+        "id": "reading-n2-15-q1",
+        "kind": "global",
+        "prompt": "Was ist die Kernaussage des Textes?",
+        "evidence": "reading-n2-15-p4",
+        "choices": [
+          {
+            "text": "Fehler müssen streng bestraft werden, damit sie seltener vorkommen.",
+            "explanation": "Der Text beschreibt Bestrafung als Grund, Fehler zu verstecken.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Aus Fehlern lernt man nur, wenn man offen und ohne Schuldzuweisung über sie sprechen kann.",
+            "explanation": "Der letzte Absatz fasst genau diesen Gedanken zusammen.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Nur Führungskräfte sollten ihre Fehler aufschreiben.",
+            "explanation": "Der Chef ging voran, damit alle schreiben.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Kontrollen sind bei Eilaufträgen überflüssig.",
+            "explanation": "Gerade für Eilaufträge wurde eine doppelte Kontrolle eingeführt.",
+            "evidence": "reading-n2-15-p4"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-15-q2",
+        "kind": "detail",
+        "prompt": "Warum blieb das Heft anfangs fast leer?",
+        "evidence": "reading-n2-15-p1",
+        "choices": [
+          {
+            "text": "Es passierten damals kaum Fehler.",
+            "explanation": "Später zeigen sich viele wiederholte Fehler.",
+            "evidence": "reading-n2-15-p1"
+          },
+          {
+            "text": "Das Heft war nur für den Chef bestimmt.",
+            "explanation": "Es war ein gemeinsames Heft (共有のノート).",
+            "evidence": "reading-n2-15-p1"
+          },
+          {
+            "text": "Viele fürchteten eine schlechtere Beurteilung und die Reaktion der Kollegen.",
+            "explanation": "評価が下がるのではないか und 同僚にどう思われるか nennen die Gründe.",
+            "evidence": "reading-n2-15-p1"
+          },
+          {
+            "text": "Die Beschäftigten hatten keine Zeit zum Schreiben.",
+            "explanation": "Zeitmangel wird nicht als Grund genannt.",
+            "evidence": "reading-n2-15-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-15-q3",
+        "kind": "inference",
+        "prompt": "Welche Maßnahme ergriff die Firma aufgrund der Einträge?",
+        "evidence": "reading-n2-15-p3",
+        "choices": [
+          {
+            "text": "Eilaufträge werden nicht mehr angenommen.",
+            "explanation": "Die Firma nimmt sie weiter an, prüft sie aber doppelt.",
+            "evidence": "reading-n2-15-p3"
+          },
+          {
+            "text": "Neue Mitarbeitende dürfen keine Anrufe mehr annehmen.",
+            "explanation": "Telefonische Bestellungen werden stets schriftlich bestätigt.",
+            "evidence": "reading-n2-15-p3"
+          },
+          {
+            "text": "Die Einträge fließen in die Personalbeurteilung ein.",
+            "explanation": "Das hat der Chef ausdrücklich ausgeschlossen.",
+            "evidence": "reading-n2-15-p3"
+          },
+          {
+            "text": "Eilaufträge werden von zwei Personen kontrolliert.",
+            "explanation": "急ぎの仕事にこそ二人で確認する仕組み wurde eingeführt.",
+            "evidence": "reading-n2-15-p3"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-15-q4",
+        "kind": "inference",
+        "prompt": "Was hält der Autor für den vielleicht größten Wert des Hefts?",
+        "evidence": "reading-n2-15-p4",
+        "choices": [
+          {
+            "text": "Dass eine Atmosphäre entstand, in der man über Fehler sprechen kann.",
+            "explanation": "だけではなく … 雰囲気を生んだこと betont diesen zusätzlichen Wert.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Die eingesparten Kosten für Nachdrucke.",
+            "explanation": "Weniger Nachdrucke werden genannt, aber nicht als größter Wert.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Eine genaue Statistik der Fehler jedes Einzelnen.",
+            "explanation": "Um Schuldzuweisung an Einzelne geht es gerade nicht.",
+            "evidence": "reading-n2-15-p4"
+          },
+          {
+            "text": "Dass der Chef keine Fehler mehr macht.",
+            "explanation": "Davon ist im Text nicht die Rede.",
+            "evidence": "reading-n2-15-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n2-16",
+    "level": "N2",
+    "skill": "reading",
+    "order": 16,
+    "title": "Die Buchhandlung am Bahnhof",
+    "objective": "Verstehen, warum ein kleiner Laden besteht, und die Verallgemeinerung des Autors erkennen.",
+    "minutes": 19,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-16-p1",
+        "speaker": "",
+        "text": "インターネットで本を買う人が増え、町の本屋は年々数を減らしている。私の住む町でも、この十年で三軒あった本屋のうち二軒が閉店した。ところが、駅前に残った一軒は、客が減るどころか、最近はむしろにぎわっているように見える。平日の夕方でも、棚の前で本を手に取る人の姿が絶えない。その理由が知りたくて、{店主|てんしゅ}に話を聞いてみた。"
+      },
+      {
+        "id": "reading-n2-16-p2",
+        "speaker": "",
+        "text": "{店主|てんしゅ}によれば、店の広さでは大型書店にかなわないため、置く本の数で勝負することはやめたという。その代わりに、店員が実際に読んで勧めたいと思った本を選び、一冊ごとに手書きの紹介文を添えている。「何を読めばいいか分からない」という客にとって、この紹介文が本を選ぶきっかけになっているのだ。紹介文を読むのが楽しみで、毎週のように店に立ち寄る{常連客|じょうれんきゃく}もいるそうだ。"
+      },
+      {
+        "id": "reading-n2-16-p3",
+        "speaker": "",
+        "text": "また、月に一度、閉店後の店内で{読書会|どくしょかい}を開いている。参加者は同じ本を読んできて、感想を自由に話し合う。初めは数人だった参加者も、今では毎回二十人ほどが集まるという。年齢も職業もさまざまな人々が、一冊の本をきっかけに言葉を交わす。{読書会|どくしょかい}で知り合った人同士が、店の外でも交流するようになったという話も聞いた。"
+      },
+      {
+        "id": "reading-n2-16-p4",
+        "speaker": "",
+        "text": "{店主|てんしゅ}は「本を売るだけなら、ネットには勝てません。でも、本をきっかけに人が集まる場所は、ネットでは作りにくいと思うんです」と語った。便利さや値段では比べられない価値を、どのように示していくか。それは本屋に限らず、町の小さな店が生き残っていくための、共通の課題なのかもしれない。"
+      }
+    ],
+    "translation": "Immer mehr Menschen kaufen Bücher online, und die Buchhandlungen der Städte werden jedes Jahr weniger. Auch in meiner Stadt haben in zehn Jahren zwei von drei Läden geschlossen. Die übrige Buchhandlung am Bahnhof wirkt dagegen belebter als früher; selbst an Werktagabenden stehen ständig Leute an den Regalen. Ich fragte den Inhaber nach dem Grund. Weil der Laden an Fläche mit großen Buchhandlungen nicht mithalten kann, konkurriert er nicht über die Zahl der Bücher. Stattdessen wählen die Mitarbeitenden Bücher aus, die sie selbst gelesen haben und empfehlen möchten, und legen jedem eine handgeschriebene Empfehlung bei. Für Kunden, die nicht wissen, was sie lesen sollen, ist das der Anstoß; manche Stammkunden kommen fast jede Woche wegen dieser Texte. Außerdem findet einmal im Monat nach Ladenschluss ein Lesekreis statt, zu dem inzwischen rund zwanzig Menschen jeden Alters und Berufs kommen; manche treffen sich inzwischen auch außerhalb des Ladens. Der Inhaber sagt: Nur Bücher verkaufen könne man gegen das Internet nicht gewinnen, aber einen Ort, an dem Bücher Menschen zusammenbringen, könne das Internet schwer schaffen. Wie man einen Wert zeigt, der sich nicht an Bequemlichkeit oder Preis messen lässt, ist vielleicht die gemeinsame Aufgabe aller kleinen Läden.",
+    "glossary": [
+      [
+        "店主（てんしゅ）",
+        "Ladeninhaber"
+      ],
+      [
+        "読書会（どくしょかい）",
+        "Lesekreis"
+      ],
+      [
+        "常連客（じょうれんきゃく）",
+        "Stammkunde"
+      ]
+    ],
+    "note": "どころか verstärkt einen Gegensatz: „nicht nur nicht weniger, sondern sogar mehr“. Achte im letzten Absatz darauf, wie der Autor von einem Einzelfall auf eine allgemeine Frage schließt.",
+    "questions": [
+      {
+        "id": "reading-n2-16-q1",
+        "kind": "global",
+        "prompt": "Worum geht es in dem Text hauptsächlich?",
+        "evidence": "reading-n2-16-p1",
+        "choices": [
+          {
+            "text": "Wie man Bücher im Internet günstig kauft.",
+            "explanation": "Online-Käufe sind nur der Hintergrund.",
+            "evidence": "reading-n2-16-p1"
+          },
+          {
+            "text": "Warum zwei Buchhandlungen schließen mussten.",
+            "explanation": "Die Schließungen werden nur kurz erwähnt.",
+            "evidence": "reading-n2-16-p1"
+          },
+          {
+            "text": "Warum eine kleine Buchhandlung trotz Online-Konkurrenz Kundschaft gewinnt.",
+            "explanation": "Der Autor will genau diesen Grund herausfinden und berichtet darüber.",
+            "evidence": "reading-n2-16-p1"
+          },
+          {
+            "text": "Wie man einen Lesekreis gründet.",
+            "explanation": "Der Lesekreis ist nur eine von mehreren Maßnahmen.",
+            "evidence": "reading-n2-16-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-16-q2",
+        "kind": "detail",
+        "prompt": "Warum konkurriert der Laden nicht über die Zahl der Bücher?",
+        "evidence": "reading-n2-16-p2",
+        "choices": [
+          {
+            "text": "Weil die Kunden nur neue Bücher wollen.",
+            "explanation": "Das sagt der Inhaber nicht.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Weil große Buchhandlungen keine Empfehlungen schreiben.",
+            "explanation": "Über Empfehlungen anderer Läden wird nichts gesagt.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Weil er vor allem gebrauchte Bücher verkauft.",
+            "explanation": "Gebrauchte Bücher kommen nicht vor.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Weil er an Fläche nicht mit großen Buchhandlungen mithalten kann.",
+            "explanation": "店の広さでは大型書店にかなわない ist der genannte Grund.",
+            "evidence": "reading-n2-16-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-16-q3",
+        "kind": "inference",
+        "prompt": "Was hilft Kunden, die nicht wissen, was sie lesen sollen?",
+        "evidence": "reading-n2-16-p2",
+        "choices": [
+          {
+            "text": "Die handgeschriebenen Empfehlungen zu jedem Buch.",
+            "explanation": "Das 紹介文 wird ausdrücklich als Anstoß zur Auswahl genannt.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Ein großes Angebot an Bestsellern.",
+            "explanation": "Der Laden setzt gerade nicht auf Menge.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Rabatte für Stammkunden.",
+            "explanation": "Rabatte werden nicht erwähnt.",
+            "evidence": "reading-n2-16-p2"
+          },
+          {
+            "text": "Eine Online-Bestellmöglichkeit.",
+            "explanation": "Der Laden grenzt sich vom Internet ab.",
+            "evidence": "reading-n2-16-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-16-q4",
+        "kind": "inference",
+        "prompt": "Welche Schlussfolgerung zieht der Autor?",
+        "evidence": "reading-n2-16-p4",
+        "choices": [
+          {
+            "text": "Kleine Läden sollten ihre Preise senken.",
+            "explanation": "Gerade Preise hält der Autor nicht für entscheidend.",
+            "evidence": "reading-n2-16-p4"
+          },
+          {
+            "text": "Kleine Läden müssen einen Wert zeigen, der sich nicht an Bequemlichkeit oder Preis messen lässt.",
+            "explanation": "Der letzte Satz verallgemeinert den Einzelfall auf alle kleinen Läden.",
+            "evidence": "reading-n2-16-p4"
+          },
+          {
+            "text": "Buchhandlungen sollten zusätzlich online verkaufen.",
+            "explanation": "Das empfiehlt der Text nicht.",
+            "evidence": "reading-n2-16-p4"
+          },
+          {
+            "text": "Lesekreise sind wichtiger als Bücher.",
+            "explanation": "Der Lesekreis ergänzt den Verkauf, ersetzt ihn aber nicht.",
+            "evidence": "reading-n2-16-p4"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n2-17",
+    "level": "N2",
+    "skill": "reading",
+    "order": 17,
+    "title": "Helfen, aber auf Dauer",
+    "objective": "Das Problem kurzlebiger Freiwilligenarbeit und die vorgeschlagene Lösung verstehen.",
+    "minutes": 20,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-17-p1",
+        "speaker": "",
+        "text": "災害が起きると、多くの人がボランティアとして{被災地|ひさいち}に駆けつける。困っている人の力になりたいというその気持ちは尊いものだ。しかし、活動が長く続かないという問題もたびたび指摘されてきた。最初の数週間は大勢の人が集まっても、報道が減るにつれて参加者も目に見えて減ってしまうのだ。一方で、被災した人々の生活が元に戻るまでには、何年もかかることが少なくない。"
+      },
+      {
+        "id": "reading-n2-17-p2",
+        "speaker": "",
+        "text": "ある地域の団体は、この問題に対して「無理をしない参加」を呼びかけている。毎週来られなくても、月に一度、半日だけでもよい。現地に行けない人には、支援物資の仕分けや、仮設住宅で暮らす人への手紙を書くといった、自宅や近所でできる活動を紹介している。参加の形を増やすことで、関わる人の数を保とうとしているのである。また、参加した人同士が経験を分かち合えるよう、月に一度の報告会も開いている。"
+      },
+      {
+        "id": "reading-n2-17-p3",
+        "speaker": "",
+        "text": "団体の代表は「一度に全力を出して{燃え尽き|もえつき}てしまう人を、これまで何人も見てきました」と話す。熱意のある人ほど、仕事や家庭を犠牲にしてまで活動を続けようとし、やがて疲れ果てて離れていく。本人にとってつらいだけでなく、結果的に支援の力も弱くなってしまう。代表は、そうした人をこれ以上出さないことも団体の大切な役目だと考えている。"
+      },
+      {
+        "id": "reading-n2-17-p4",
+        "speaker": "",
+        "text": "支援とは、強い気持ちで一度だけ行うものではなく、細く長く続けていくものなのだろう。自分にできる範囲を知り、その範囲の中で関わり続けること。それは決して消極的な態度ではなく、長い{復興|ふっこう}の道のりを支えるための、現実的な方法だと言えるのではないだろうか。"
+      }
+    ],
+    "translation": "Nach Katastrophen eilen viele als Freiwillige ins Katastrophengebiet. Dieser Wunsch zu helfen ist wertvoll, doch oft wird kritisiert, dass die Hilfe nicht lange anhält: In den ersten Wochen kommen viele, aber mit abnehmender Berichterstattung sinkt die Zahl der Helfer sichtbar. Dabei dauert es oft Jahre, bis das Leben der Betroffenen wieder normal ist. Eine regionale Organisation ruft deshalb zu einer „Teilnahme ohne Überforderung“ auf: Wer nicht jede Woche kommen kann, hilft einmal im Monat einen halben Tag. Wer nicht vor Ort sein kann, sortiert Hilfsgüter oder schreibt Briefe an Menschen in Behelfsunterkünften. Durch mehr Formen der Beteiligung soll die Zahl der Helfenden erhalten bleiben; außerdem gibt es einmal im Monat ein Treffen, bei dem die Beteiligten ihre Erfahrungen austauschen. Der Leiter sagt, er habe viele gesehen, die sich auf einmal völlig verausgabt und dann ausgebrannt hätten. Gerade Engagierte opfern Beruf und Familie, erschöpfen sich und ziehen sich zurück – das ist schlimm für sie und schwächt am Ende die Hilfe. Der Leiter sieht es auch als Aufgabe der Organisation, dass es nicht noch mehr solcher Fälle gibt. Hilfe ist wohl nichts, was man einmal mit großem Einsatz leistet, sondern etwas, das man in kleinem Umfang lange fortsetzt. Die eigenen Grenzen zu kennen und in diesem Rahmen dabeizubleiben, ist keine passive Haltung, sondern ein realistischer Weg, den langen Wiederaufbau zu unterstützen.",
+    "glossary": [
+      [
+        "被災地（ひさいち）",
+        "Katastrophengebiet"
+      ],
+      [
+        "燃え尽き（もえつき）",
+        "Ausbrennen, Burn-out"
+      ],
+      [
+        "復興（ふっこう）",
+        "Wiederaufbau"
+      ]
+    ],
+    "note": "Die These steht hier erst im letzten Absatz. Die ersten drei Absätze liefern Problem, Lösungsansatz und Begründung – lies sie als Vorbereitung auf die Schlussfolgerung.",
+    "questions": [
+      {
+        "id": "reading-n2-17-q1",
+        "kind": "global",
+        "prompt": "Was ist die Hauptaussage des Textes?",
+        "evidence": "reading-n2-17-p4",
+        "choices": [
+          {
+            "text": "Freiwillige sollten sich möglichst intensiv in kurzer Zeit engagieren.",
+            "explanation": "Genau davor warnt der Text.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Die Medien sollten mehr über Katastrophen berichten.",
+            "explanation": "Die Berichterstattung ist nur ein Faktor im Problem.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Nur Fachleute sollten in Katastrophengebieten helfen.",
+            "explanation": "Der Text wirbt für breite Beteiligung.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Hilfe wirkt am besten, wenn viele im Rahmen ihrer Möglichkeiten lange dabeibleiben.",
+            "explanation": "Der letzte Absatz formuliert genau diese These.",
+            "evidence": "reading-n2-17-p4"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-17-q2",
+        "kind": "detail",
+        "prompt": "Welches Problem beschreibt der erste Absatz?",
+        "evidence": "reading-n2-17-p1",
+        "choices": [
+          {
+            "text": "Mit abnehmender Berichterstattung gehen auch die Helfer zurück, obwohl der Wiederaufbau Jahre dauert.",
+            "explanation": "Dieser Widerspruch wird im ersten Absatz beschrieben.",
+            "evidence": "reading-n2-17-p1"
+          },
+          {
+            "text": "Es kommen von Anfang an zu wenige Freiwillige.",
+            "explanation": "Anfangs kommen im Gegenteil viele.",
+            "evidence": "reading-n2-17-p1"
+          },
+          {
+            "text": "Die Betroffenen wollen keine Hilfe annehmen.",
+            "explanation": "Davon ist keine Rede.",
+            "evidence": "reading-n2-17-p1"
+          },
+          {
+            "text": "Freiwillige behindern die Arbeit der Behörden.",
+            "explanation": "Das wird nicht erwähnt.",
+            "evidence": "reading-n2-17-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-17-q3",
+        "kind": "inference",
+        "prompt": "Was bietet die Organisation Menschen an, die nicht ins Katastrophengebiet reisen können?",
+        "evidence": "reading-n2-17-p2",
+        "choices": [
+          {
+            "text": "Geld für die Reise ins Gebiet.",
+            "explanation": "Reisekosten werden nicht erwähnt.",
+            "evidence": "reading-n2-17-p2"
+          },
+          {
+            "text": "Hilfsgüter sortieren oder Briefe an Menschen in Behelfsunterkünften schreiben.",
+            "explanation": "Diese Tätigkeiten zu Hause oder in der Nähe werden genannt.",
+            "evidence": "reading-n2-17-p2"
+          },
+          {
+            "text": "Online-Kurse über Katastrophenschutz.",
+            "explanation": "Solche Kurse kommen im Text nicht vor.",
+            "evidence": "reading-n2-17-p2"
+          },
+          {
+            "text": "Eine Mitgliedschaft ohne Aufgaben.",
+            "explanation": "Es geht um konkrete Tätigkeiten.",
+            "evidence": "reading-n2-17-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-17-q4",
+        "kind": "inference",
+        "prompt": "Wie bewertet der Autor die Haltung, nur so viel zu tun, wie man kann?",
+        "evidence": "reading-n2-17-p4",
+        "choices": [
+          {
+            "text": "Als Zeichen mangelnden Engagements.",
+            "explanation": "Der Autor widerspricht dieser Deutung ausdrücklich.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Als Notlösung, die nur für Ältere geeignet ist.",
+            "explanation": "Eine Altersgruppe wird nicht genannt.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Als realistischen, keineswegs passiven Weg, den Wiederaufbau zu unterstützen.",
+            "explanation": "決して消極的な態度ではなく … 現実的な方法 drückt diese Bewertung aus.",
+            "evidence": "reading-n2-17-p4"
+          },
+          {
+            "text": "Als Grund für das Nachlassen der Hilfe.",
+            "explanation": "Als Grund nennt der Text im Gegenteil das Ausbrennen durch Überforderung.",
+            "evidence": "reading-n2-17-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "listening-n2-11",
+    "level": "N2",
+    "skill": "listening",
+    "order": 11,
+    "title": "Schnell antworten: Zwischen den Zeilen",
+    "objective": "Die Absicht hinter umgangssprachlichen und höflichen Äußerungen erkennen.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n2-11-p1",
+        "speaker": "A",
+        "text": "{悪|わる}いけど、この{仕事|しごと}、{今週中|こんしゅうちゅう}に{片付|かたづ}けてもらえないかな。"
+      },
+      {
+        "id": "listening-n2-11-p2",
+        "speaker": "B",
+        "text": "{新|あたら}しい{企画|きかく}、{部長|ぶちょう}に{反対|はんたい}されるかと{思|おも}ったら、あっさり{通|とお}っちゃったよ。"
+      },
+      {
+        "id": "listening-n2-11-p3",
+        "speaker": "A",
+        "text": "せっかく{来|き}てくれたのに、{何|なん}のおかまいもできませんで。"
+      },
+      {
+        "id": "listening-n2-11-p4",
+        "speaker": "B",
+        "text": "{山田|やまだ}さんって、{口|くち}ばっかりで{全然|ぜんぜん}{手伝|てつだ}ってくれないんだから。"
+      }
+    ],
+    "translation": "A: Tut mir leid, aber könntest du diese Arbeit noch diese Woche erledigen? B: Ich dachte, der Abteilungsleiter würde gegen das neue Projekt sein, aber es ging ganz glatt durch. A: Du bist extra gekommen, und ich konnte dir nicht einmal etwas anbieten. B: Yamada redet nur und hilft überhaupt nicht mit.",
+    "glossary": [
+      [
+        "企画（きかく）",
+        "Projekt, Plan"
+      ],
+      [
+        "あっさり",
+        "problemlos, ohne Umstände"
+      ],
+      [
+        "おかまい",
+        "Bewirtung"
+      ]
+    ],
+    "note": "～かと思ったら leitet ein unerwartetes Ergebnis ein: Man erwartete Widerstand, aber der Plan ging glatt durch.",
+    "questions": [
+      {
+        "id": "listening-n2-11-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n2-11-p1",
+        "choices": [
+          {
+            "text": "ええ、片付けてもらいました。",
+            "explanation": "Das vertauscht, wer die Arbeit macht.",
+            "evidence": "listening-n2-11-p1"
+          },
+          {
+            "text": "今週は忙しかったですね。",
+            "explanation": "Das spricht über die Vergangenheit und reagiert nicht auf die Bitte.",
+            "evidence": "listening-n2-11-p1"
+          },
+          {
+            "text": "わかりました。何とかやってみます。",
+            "explanation": "Man nimmt die Bitte an.",
+            "evidence": "listening-n2-11-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n2-11-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n2-11-p2",
+        "choices": [
+          {
+            "text": "へえ、それはよかったですね。",
+            "explanation": "Das Projekt wurde genehmigt; man freut sich mit.",
+            "evidence": "listening-n2-11-p2"
+          },
+          {
+            "text": "えっ、やっぱり反対されたんですか。",
+            "explanation": "Es wurde gerade nicht abgelehnt.",
+            "evidence": "listening-n2-11-p2"
+          },
+          {
+            "text": "じゃあ、もう一度出し直しましょう。",
+            "explanation": "Ein erneutes Einreichen ist nicht nötig.",
+            "evidence": "listening-n2-11-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n2-11-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n2-11-p3",
+        "choices": [
+          {
+            "text": "ええ、何もありませんでしたね。",
+            "explanation": "Das bestätigt die Floskel wörtlich und ist unhöflich.",
+            "evidence": "listening-n2-11-p3"
+          },
+          {
+            "text": "いえ、こちらこそ急にお邪魔してすみません。",
+            "explanation": "Man weist die bescheidene Entschuldigung des Gastgebers höflich zurück.",
+            "evidence": "listening-n2-11-p3"
+          },
+          {
+            "text": "では、何か持ってきましょうか。",
+            "explanation": "Der Gast bietet an, etwas zu holen – das passt nicht.",
+            "evidence": "listening-n2-11-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n2-11-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n2-11-p4",
+        "choices": [
+          {
+            "text": "そう、よく手伝ってくれるよね。",
+            "explanation": "Das widerspricht der Aussage.",
+            "evidence": "listening-n2-11-p4"
+          },
+          {
+            "text": "山田さん、口が痛いの？",
+            "explanation": "口ばっかり ist eine Redewendung, keine Aussage über den Mund.",
+            "evidence": "listening-n2-11-p4"
+          },
+          {
+            "text": "確かに、言うだけで動かないよね。",
+            "explanation": "口ばっかり bedeutet „nur Worte“; man stimmt der Kritik zu.",
+            "evidence": "listening-n2-11-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n2-11.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n2-12",
+    "level": "N2",
+    "skill": "listening",
+    "order": 12,
+    "title": "Schnell antworten: Im Beruf",
+    "objective": "Geschäftliche Äußerungen und höfliche Absagen richtig einordnen.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n2-12-p1",
+        "speaker": "A",
+        "text": "{例|れい}の{件|けん}、{先方|せんぽう}から{何|なに}か{連絡|れんらく}ありました？"
+      },
+      {
+        "id": "listening-n2-12-p2",
+        "speaker": "B",
+        "text": "{会議|かいぎ}、{三十分|さんじゅっぷん}{遅|おく}らせてもらえる？"
+      },
+      {
+        "id": "listening-n2-12-p3",
+        "speaker": "A",
+        "text": "{今回|こんかい}はご{縁|えん}がなかったということで……。"
+      },
+      {
+        "id": "listening-n2-12-p4",
+        "speaker": "B",
+        "text": "{課長|かちょう}、{明日|あした}の{出張|しゅっちょう}の{新幹線|しんかんせん}の{切符|きっぷ}、もう{手配|てはい}してあります。"
+      }
+    ],
+    "translation": "A: Hat sich die Gegenseite wegen der bewussten Angelegenheit gemeldet? B: Kannst du die Besprechung um dreißig Minuten verschieben? A: Diesmal hat es leider nicht gepasst … B: Herr Sektionsleiter, die Shinkansen-Fahrkarten für die Dienstreise morgen sind schon besorgt.",
+    "glossary": [
+      [
+        "先方（せんぽう）",
+        "die Gegenseite (Geschäftspartner)"
+      ],
+      [
+        "ご縁（ごえん）",
+        "Verbindung, Schicksal"
+      ],
+      [
+        "手配（てはい）",
+        "Vorbereitung, Besorgung"
+      ]
+    ],
+    "note": "ご縁がなかった ist eine höfliche Absage, etwa nach einem Vorstellungsgespräch oder einem Angebot.",
+    "questions": [
+      {
+        "id": "listening-n2-12-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n2-12-p1",
+        "choices": [
+          {
+            "text": "いえ、まだ何も。",
+            "explanation": "Man antwortet auf die Frage nach einer Rückmeldung.",
+            "evidence": "listening-n2-12-p1"
+          },
+          {
+            "text": "はい、連絡しておきます。",
+            "explanation": "Das kündigt an, selbst Kontakt aufzunehmen.",
+            "evidence": "listening-n2-12-p1"
+          },
+          {
+            "text": "先方は来週いらっしゃいます。",
+            "explanation": "Das beantwortet eine andere Frage.",
+            "evidence": "listening-n2-12-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n2-12-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n2-12-p2",
+        "choices": [
+          {
+            "text": "はい、三十分遅れました。",
+            "explanation": "Das berichtet von einer eigenen Verspätung.",
+            "evidence": "listening-n2-12-p2"
+          },
+          {
+            "text": "わかりました。皆さんに伝えておきます。",
+            "explanation": "Man nimmt die Bitte an und informiert die anderen.",
+            "evidence": "listening-n2-12-p2"
+          },
+          {
+            "text": "会議は三十分で終わりますよ。",
+            "explanation": "Das spricht über die Dauer, nicht über den Beginn.",
+            "evidence": "listening-n2-12-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n2-12-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n2-12-p3",
+        "choices": [
+          {
+            "text": "では、よろしくお願いします。",
+            "explanation": "Das klingt, als hätte man eine Zusage bekommen.",
+            "evidence": "listening-n2-12-p3"
+          },
+          {
+            "text": "ご縁があってよかったです。",
+            "explanation": "Das missversteht die Absage als Zusage.",
+            "evidence": "listening-n2-12-p3"
+          },
+          {
+            "text": "そうですか。残念ですが、承知しました。",
+            "explanation": "Man nimmt die höfliche Absage an.",
+            "evidence": "listening-n2-12-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n2-12-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n2-12-p4",
+        "choices": [
+          {
+            "text": "ああ、助かるよ。ありがとう。",
+            "explanation": "Der Vorgesetzte bedankt sich für die Erledigung.",
+            "evidence": "listening-n2-12-p4"
+          },
+          {
+            "text": "じゃあ、早く手配してくれ。",
+            "explanation": "Die Karten sind bereits besorgt.",
+            "evidence": "listening-n2-12-p4"
+          },
+          {
+            "text": "出張はもう終わったよ。",
+            "explanation": "Die Reise ist erst morgen.",
+            "evidence": "listening-n2-12-p4"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n2-12.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
     "id": "reading-n1-1",
     "level": "N1",
     "skill": "reading",
@@ -13046,6 +16546,1303 @@ window.COMPREHENSION_UNITS = [
     ],
     "audio": {
       "src": "audio/comprehension/listening-n1-10.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "reading-n1-11",
+    "level": "N1",
+    "skill": "reading",
+    "order": 11,
+    "title": "Förderrichtlinien für Kulturprojekte",
+    "objective": "Förderhöhe, förderfähige Kosten und Pflichten aus Richtlinien ableiten.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n1-11-p1",
+        "speaker": "",
+        "text": "令和9年度　地域文化振興助成　公募要領（抜粋）\n【助成対象】市内で活動する非営利団体が市内で実施する文化事業。ただし、団体の構成員の{過半数|かはんすう}が市内在住または在勤であること。\n【助成額】対象経費の2分の1以内、上限50万円。ただし、本助成に初めて申請する団体については、対象経費の3分の2以内とする（上限額は同じ）。\n【対象外経費】飲食費、団体構成員への{謝礼|しゃれい}、{備品|びひん}のうち単価5万円以上のもの\n【重複申請】同一年度内に本市の他の助成を受ける事業は対象としない。\n【実績報告】事業終了後30日以内に報告書を提出すること。提出がない場合は、翌年度の申請を受け付けない。"
+      }
+    ],
+    "translation": "Förderung der regionalen Kultur im Haushaltsjahr 2027 – Ausschreibung (Auszug). Gefördert werden Kulturprojekte gemeinnütziger Gruppen, die in der Stadt tätig sind und das Projekt in der Stadt durchführen; mehr als die Hälfte der Mitglieder muss in der Stadt wohnen oder arbeiten. Förderhöhe: bis zur Hälfte der förderfähigen Kosten, höchstens 500.000 Yen; Gruppen, die zum ersten Mal beantragen, erhalten bis zu zwei Dritteln (gleiche Obergrenze). Nicht förderfähig: Verpflegung, Honorare für Mitglieder der Gruppe, Ausstattung mit einem Stückpreis ab 50.000 Yen. Projekte, die im selben Jahr eine andere städtische Förderung erhalten, sind ausgeschlossen. Innerhalb von 30 Tagen nach Projektende ist ein Bericht einzureichen; ohne Bericht wird im Folgejahr kein Antrag angenommen.",
+    "glossary": [
+      [
+        "過半数（かはんすう）",
+        "Mehrheit, mehr als die Hälfte"
+      ],
+      [
+        "謝礼（しゃれい）",
+        "Honorar, Aufwandsentschädigung"
+      ],
+      [
+        "備品（びひん）",
+        "Ausstattung, Anschaffungen"
+      ]
+    ],
+    "note": "Bei Förderrichtlinien entscheidet die Reihenfolge: erst Regel, dann ただし-Ausnahme, zuletzt die Obergrenze. Rechne immer alle drei Schritte durch.",
+    "questions": [
+      {
+        "id": "reading-n1-11-q1",
+        "kind": "search",
+        "prompt": "Eine Gruppe beantragt zum ersten Mal eine Förderung; die förderfähigen Kosten betragen 900.000 Yen. Wie hoch ist die Förderung höchstens?",
+        "evidence": "reading-n1-11-p1",
+        "choices": [
+          {
+            "text": "500.000 Yen.",
+            "explanation": "Zwei Drittel wären 600.000 Yen, doch die Obergrenze von 500.000 Yen gilt auch für Erstantragsteller.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "600.000 Yen.",
+            "explanation": "Die Obergrenze (上限額は同じ) wurde übersehen.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "450.000 Yen.",
+            "explanation": "Erstantragsteller erhalten bis zu zwei Drittel, nicht nur die Hälfte.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "300.000 Yen.",
+            "explanation": "Das wäre ein Drittel; eine solche Regel gibt es nicht.",
+            "evidence": "reading-n1-11-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-11-q2",
+        "kind": "search",
+        "prompt": "Welche Ausgabe ist förderfähig?",
+        "evidence": "reading-n1-11-p1",
+        "choices": [
+          {
+            "text": "Ein Honorar für ein Vereinsmitglied, das einen Vortrag hält.",
+            "explanation": "Honorare an Mitglieder (構成員への謝礼) sind ausgeschlossen.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Ein Beamer zum Stückpreis von 40.000 Yen.",
+            "explanation": "Ausgeschlossen ist Ausstattung erst ab 50.000 Yen pro Stück.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Getränke und Snacks für das Publikum.",
+            "explanation": "Verpflegung (飲食費) ist nicht förderfähig.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Ein Mischpult zum Preis von 80.000 Yen.",
+            "explanation": "Ausstattung ab 50.000 Yen pro Stück ist ausgeschlossen.",
+            "evidence": "reading-n1-11-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-11-q3",
+        "kind": "search",
+        "prompt": "Eine geförderte Gruppe reicht keinen Bericht ein. Welche Folge nennt der Text?",
+        "evidence": "reading-n1-11-p1",
+        "choices": [
+          {
+            "text": "Die Förderung muss sofort vollständig zurückgezahlt werden.",
+            "explanation": "Eine Rückzahlung wird im Auszug nicht erwähnt.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Die Förderung wird im laufenden Jahr halbiert.",
+            "explanation": "Davon steht nichts im Text.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Im folgenden Jahr wird kein Antrag der Gruppe angenommen.",
+            "explanation": "翌年度の申請を受け付けない ist die einzige genannte Folge.",
+            "evidence": "reading-n1-11-p1"
+          },
+          {
+            "text": "Die Gruppe verliert ihre Gemeinnützigkeit.",
+            "explanation": "Das ist keine genannte Folge.",
+            "evidence": "reading-n1-11-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n1-12",
+    "level": "N1",
+    "skill": "reading",
+    "order": 12,
+    "title": "Rückerstattung bei einem Online-Kurs",
+    "objective": "Erstattungs- und Verlängerungsregeln eines Kursvertrags auf Einzelfälle anwenden.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n1-12-p1",
+        "speaker": "",
+        "text": "オンライン講座「データ分析実践」受講規約（抜粋）\n第5条（返金）\n１　受講開始日から8日以内に申し出があった場合は、受講料の全額を返金する。ただし、教材の視聴が全体の20％を超えている場合は、この限りでない。\n２　前項の期間の経過後、受講開始日から30日以内に申し出があった場合は、受講料から事務手数料3,000円を差し引いた額の半額を返金する。\n３　受講開始日から30日を超えた場合は、理由の{如何|いかん}を問わず返金しない。\n第6条（受講期間の延長）\n病気その他やむを得ない事情により、医師の{診断書|しんだんしょ}等を提出した場合に限り、受講期間を最長3か月延長することができる。延長の申請は、受講期間{満了|まんりょう}の14日前までに行うものとする。"
+      }
+    ],
+    "translation": "Online-Kurs „Datenanalyse in der Praxis“ – Teilnahmebedingungen (Auszug). § 5 Rückerstattung: 1. Wer sich innerhalb von 8 Tagen ab Kursbeginn meldet, erhält die volle Gebühr zurück; dies gilt nicht, wenn mehr als 20 % des Materials angesehen wurden. 2. Nach Ablauf dieser Frist und innerhalb von 30 Tagen ab Kursbeginn wird die Hälfte des Betrags erstattet, der nach Abzug einer Bearbeitungsgebühr von 3000 Yen von der Kursgebühr bleibt. 3. Nach mehr als 30 Tagen wird unabhängig vom Grund nichts erstattet. § 6 Verlängerung: Nur bei Krankheit oder sonstigen unvermeidbaren Umständen und gegen Vorlage eines ärztlichen Attests o. Ä. kann der Kurs um höchstens drei Monate verlängert werden. Der Antrag ist bis 14 Tage vor Ablauf der Kursdauer zu stellen.",
+    "glossary": [
+      [
+        "如何（いかん）",
+        "wie auch immer, unabhängig davon"
+      ],
+      [
+        "満了（まんりょう）",
+        "Ablauf (einer Frist)"
+      ],
+      [
+        "診断書（しんだんしょ）",
+        "ärztliches Attest"
+      ]
+    ],
+    "note": "Vertragstexte verweisen oft aufeinander (前項 = der vorige Absatz). この限りでない hebt die vorherige Regel für einen Sonderfall auf.",
+    "questions": [
+      {
+        "id": "reading-n1-12-q1",
+        "kind": "search",
+        "prompt": "Die Kursgebühr beträgt 43.000 Yen. Eine Teilnehmerin meldet sich am 15. Tag und hat 10 % des Materials angesehen. Wie viel erhält sie zurück?",
+        "evidence": "reading-n1-12-p1",
+        "choices": [
+          {
+            "text": "43.000 Yen.",
+            "explanation": "Die volle Erstattung gilt nur innerhalb von 8 Tagen.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "20.000 Yen.",
+            "explanation": "Absatz 2 gilt: (43.000 − 3.000) ÷ 2 = 20.000 Yen.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "21.500 Yen.",
+            "explanation": "Vor dem Halbieren wird die Bearbeitungsgebühr abgezogen.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "40.000 Yen.",
+            "explanation": "Nach Abzug der Gebühr wird zusätzlich halbiert.",
+            "evidence": "reading-n1-12-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-12-q2",
+        "kind": "search",
+        "prompt": "Wer erhält eine Verlängerung der Kursdauer?",
+        "evidence": "reading-n1-12-p1",
+        "choices": [
+          {
+            "text": "Eine Teilnehmerin, die aus beruflichen Gründen ohne Nachweis verlängern möchte.",
+            "explanation": "Ein Nachweis wie ein Attest ist Voraussetzung (に限り).",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Ein Teilnehmer mit Attest, der eine Woche vor Ablauf beantragt.",
+            "explanation": "Der Antrag muss spätestens 14 Tage vor Ablauf gestellt werden.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Ein Teilnehmer, der wegen eines Krankenhausaufenthalts ein Attest vorlegt und 20 Tage vor Ablauf beantragt.",
+            "explanation": "Grund, Nachweis und Frist (14 Tage vorher) sind erfüllt.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Eine Teilnehmerin mit Attest, die dafür sechs Monate Verlängerung erhält.",
+            "explanation": "Höchstens drei Monate sind möglich.",
+            "evidence": "reading-n1-12-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-12-q3",
+        "kind": "search",
+        "prompt": "Jemand möchte am 40. Tag wegen eines Umzugs aussteigen. Was gilt?",
+        "evidence": "reading-n1-12-p1",
+        "choices": [
+          {
+            "text": "Die Hälfte abzüglich der Bearbeitungsgebühr wird erstattet.",
+            "explanation": "Das gilt nur bis zum 30. Tag.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Bei einem Umzug wird die volle Gebühr erstattet.",
+            "explanation": "Umzüge sind keine Ausnahme im Vertrag.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Nur die Bearbeitungsgebühr wird einbehalten.",
+            "explanation": "Eine solche Regel gibt es nicht.",
+            "evidence": "reading-n1-12-p1"
+          },
+          {
+            "text": "Es wird nichts erstattet.",
+            "explanation": "Nach 30 Tagen gibt es unabhängig vom Grund (理由の如何を問わず) keine Erstattung.",
+            "evidence": "reading-n1-12-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n1-13",
+    "level": "N1",
+    "skill": "reading",
+    "order": 13,
+    "title": "Der Preis der Verständlichkeit",
+    "objective": "Die differenzierte These eines Essays über vereinfachte Wissensvermittlung nachvollziehen.",
+    "minutes": 23,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-13-p1",
+        "speaker": "",
+        "text": "近年、専門的な知識を「分かりやすく」伝えることが、あらゆる分野で求められるようになった。難解な研究成果を一般の人々に届けようとする努力そのものは、もちろん歓迎すべきである。専門家が内輪の言葉だけで語り、社会との接点を持とうとしなかった時代を思えば、その変化は確かな前進だと言えよう。実際、身近な言葉で語られた説明によって、それまで縁遠かった分野に関心を持つようになった人も少なくない。"
+      },
+      {
+        "id": "reading-n1-13-p2",
+        "speaker": "",
+        "text": "しかし、分かりやすさが至上の価値とされるとき、見落とされがちなことがある。それは、単純化の過程で何が切り捨てられたのかが、受け手にはほとんど見えないという点だ。例えば、ある薬に効果があるという説明は、どのような条件の人に、どの程度の確率で効くのかという{留保|りゅうほ}を省けば、確かに分かりやすくなる。だが、その{留保|りゅうほ}こそが、個々人が判断を誤らないために最も必要な情報であることも少なくない。統計の数字も同様で、平均値だけが示されれば、ばらつきの大きさや例外的な事例は視野から消えてしまう。"
+      },
+      {
+        "id": "reading-n1-13-p3",
+        "speaker": "",
+        "text": "さらに厄介なのは、分かりやすい説明に慣れた受け手が、複雑な説明そのものを不誠実なものとみなし始めることである。条件や例外を丁寧に述べる専門家よりも、{断定的|だんていてき}に言い切る人の方が頼もしく、信頼できるように感じられてしまう。こうして、慎重であることがかえって説得力の欠如と受け取られるという逆転が生じる。その結果、発信する側もまた、{留保|りゅうほ}を省いた断定へと引き寄せられていくのである。こうした状況が続けば、専門家の中にも、慎重さを誇りとするより、断定の明快さを競おうとする者が現れかねない。"
+      },
+      {
+        "id": "reading-n1-13-p4",
+        "speaker": "",
+        "text": "もっとも、だからといって分かりやすさを捨てるべきだというのではない。求められているのは、単純化したうえで、何を省いたのかを明示する姿勢であろう。「ここでは細かな条件には触れていない」と一言添えるだけでも、受け手は説明の限界を意識することができる。そして必要に応じて、それを手がかりにより詳しい情報へとたどり着くこともできるだろう。分かりやすさと正確さは、必ずしも{二者択一|にしゃたくいつ}の関係にあるわけではない。"
+      },
+      {
+        "id": "reading-n1-13-p5",
+        "speaker": "",
+        "text": "伝える側にその自覚があるかどうか。そして受け手の側にも、分かりやすい説明の背後にある省略を想像する力があるかどうか。専門知と社会との健全な関係は、その両方にかかっているのではないだろうか。"
+      }
+    ],
+    "translation": "Seit einigen Jahren soll Fachwissen in allen Bereichen „verständlich“ vermittelt werden. Das Bemühen, schwierige Forschungsergebnisse der Allgemeinheit nahezubringen, ist zu begrüßen; verglichen mit einer Zeit, in der Fachleute nur in ihrem Jargon sprachen und keinen Kontakt zur Gesellschaft suchten, ist das ein echter Fortschritt, und viele haben dadurch Interesse an fernen Gebieten gefunden. Wird Verständlichkeit aber zum höchsten Wert, übersieht man etwas: Was bei der Vereinfachung weggelassen wurde, bleibt für die Empfänger unsichtbar. Die Aussage, ein Medikament wirke, wird verständlicher, wenn man weglässt, bei wem und mit welcher Wahrscheinlichkeit – doch gerade diese Einschränkungen sind oft die wichtigste Information für eine richtige Entscheidung. Ebenso lassen Durchschnittswerte allein Streuung und Ausnahmen aus dem Blick verschwinden. Schwerer wiegt, dass an Vereinfachung gewöhnte Empfänger komplexe Erklärungen für unaufrichtig halten und Menschen, die klar behaupten, vertrauenswürdiger finden als Fachleute, die Bedingungen und Ausnahmen darlegen. So kehrt sich das Verhältnis um: Vorsicht wirkt wie mangelnde Überzeugungskraft, und auch die Sender werden zu Behauptungen ohne Einschränkungen verleitet. Hält das an, könnten selbst Fachleute eher um klare Behauptungen wetteifern, als auf ihre Vorsicht stolz zu sein. Das heißt nicht, dass man auf Verständlichkeit verzichten soll. Gefordert ist, nach der Vereinfachung offenzulegen, was weggelassen wurde; schon ein Satz wie „Einzelheiten werden hier nicht behandelt“ macht die Grenzen bewusst und kann bei Bedarf zu genaueren Informationen führen. Verständlichkeit und Genauigkeit schließen sich nicht aus. Ob die Sender sich dessen bewusst sind und ob die Empfänger sich die Auslassungen hinter einfachen Erklärungen vorstellen können – davon hängt ein gesundes Verhältnis zwischen Fachwissen und Gesellschaft ab.",
+    "glossary": [
+      [
+        "留保（りゅうほ）",
+        "Einschränkung, Vorbehalt"
+      ],
+      [
+        "断定的（だんていてき）",
+        "bestimmt, apodiktisch"
+      ],
+      [
+        "二者択一（にしゃたくいつ）",
+        "Entweder-oder"
+      ]
+    ],
+    "note": "Essays räumen oft zuerst etwas ein (もちろん, 確かに), bevor die eigentliche Kritik kommt (しかし). もっとも leitet danach eine Einschränkung der eigenen Kritik ein – achte auf dieses Hin und Her.",
+    "questions": [
+      {
+        "id": "reading-n1-13-q1",
+        "kind": "global",
+        "prompt": "Welche Haltung vertritt der Autor insgesamt?",
+        "evidence": "reading-n1-13-p4",
+        "choices": [
+          {
+            "text": "Fachwissen sollte nur noch in Fachsprache vermittelt werden.",
+            "explanation": "Die Hinwendung zur Allgemeinheit nennt der Autor einen Fortschritt.",
+            "evidence": "reading-n1-13-p4"
+          },
+          {
+            "text": "Verständlichkeit ist wichtiger als Genauigkeit.",
+            "explanation": "Der Autor hält beide für vereinbar, nicht für gegeneinander abzuwägen.",
+            "evidence": "reading-n1-13-p4"
+          },
+          {
+            "text": "Man soll verständlich erklären, aber kenntlich machen, was dabei weggelassen wurde.",
+            "explanation": "Der vierte Absatz formuliert diesen Mittelweg ausdrücklich.",
+            "evidence": "reading-n1-13-p4"
+          },
+          {
+            "text": "Vereinfachte Erklärungen sollten verboten werden.",
+            "explanation": "Er will ausdrücklich nicht auf Verständlichkeit verzichten.",
+            "evidence": "reading-n1-13-p4"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-13-q2",
+        "kind": "detail",
+        "prompt": "Was geht nach dem Beispiel im zweiten Absatz bei der Vereinfachung verloren?",
+        "evidence": "reading-n1-13-p2",
+        "choices": [
+          {
+            "text": "Der Name des Medikaments.",
+            "explanation": "Davon ist nicht die Rede.",
+            "evidence": "reading-n1-13-p2"
+          },
+          {
+            "text": "Die Kosten der Forschung.",
+            "explanation": "Kosten werden nicht erwähnt.",
+            "evidence": "reading-n1-13-p2"
+          },
+          {
+            "text": "Die Nebenwirkungen bei allen Menschen.",
+            "explanation": "Genannt werden Bedingungen und Wahrscheinlichkeiten, nicht Nebenwirkungen.",
+            "evidence": "reading-n1-13-p2"
+          },
+          {
+            "text": "Angaben dazu, bei wem und mit welcher Wahrscheinlichkeit ein Medikament wirkt.",
+            "explanation": "Diese 留保 werden als wichtigste Information für die Entscheidung genannt.",
+            "evidence": "reading-n1-13-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-13-q3",
+        "kind": "inference",
+        "prompt": "Welche Umkehrung beschreibt der dritte Absatz?",
+        "evidence": "reading-n1-13-p3",
+        "choices": [
+          {
+            "text": "Vorsichtige, differenzierte Aussagen wirken weniger überzeugend als klare Behauptungen.",
+            "explanation": "慎重であることがかえって説得力の欠如と受け取られる beschreibt diese Umkehrung.",
+            "evidence": "reading-n1-13-p3"
+          },
+          {
+            "text": "Laien erklären Fachwissen besser als Fachleute.",
+            "explanation": "Das behauptet der Text nicht.",
+            "evidence": "reading-n1-13-p3"
+          },
+          {
+            "text": "Komplexe Erklärungen werden populärer als einfache.",
+            "explanation": "Es ist umgekehrt.",
+            "evidence": "reading-n1-13-p3"
+          },
+          {
+            "text": "Fachleute vertrauen der Allgemeinheit nicht mehr.",
+            "explanation": "Es geht um das Vertrauen der Empfänger in die Sender.",
+            "evidence": "reading-n1-13-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-13-q4",
+        "kind": "inference",
+        "prompt": "Was erwartet der Autor von den Empfängern?",
+        "evidence": "reading-n1-13-p5",
+        "choices": [
+          {
+            "text": "Dass sie nur Fachleuten mit Titeln glauben.",
+            "explanation": "Titel spielen im Text keine Rolle.",
+            "evidence": "reading-n1-13-p5"
+          },
+          {
+            "text": "Dass sie sich vorstellen können, was hinter einer einfachen Erklärung weggelassen wurde.",
+            "explanation": "Der letzte Absatz nennt diese Vorstellungskraft ausdrücklich.",
+            "evidence": "reading-n1-13-p5"
+          },
+          {
+            "text": "Dass sie komplexe Erklärungen grundsätzlich meiden.",
+            "explanation": "Genau diese Haltung kritisiert der Autor.",
+            "evidence": "reading-n1-13-p5"
+          },
+          {
+            "text": "Dass sie selbst Forschung betreiben.",
+            "explanation": "Das wird nicht verlangt.",
+            "evidence": "reading-n1-13-p5"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n1-14",
+    "level": "N1",
+    "skill": "reading",
+    "order": 14,
+    "title": "Erinnerungen bewahren",
+    "objective": "Einem Essay über digitale Regionalarchive und widersprüchliche Erinnerungen folgen.",
+    "minutes": 24,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-14-p1",
+        "speaker": "",
+        "text": "古い写真や日記、地域の祭りの記録などを集め、デジタル化して公開する取り組みが各地で進んでいる。紙の資料は時とともに{劣化|れっか}しやすく、持ち主が亡くなれば{散逸|さんいつ}してしまうおそれもある。それらを誰もが閲覧できる形で残すことは、地域の歴史を未来へ手渡すうえで、大きな意義を持つ取り組みだと言えるだろう。とりわけ、個人の家に眠っていた資料が公開されることで、これまで知られていなかった暮らしの細部が明らかになることもある。"
+      },
+      {
+        "id": "reading-n1-14-p2",
+        "speaker": "",
+        "text": "ところが、実際にこうした事業に関わった人々からは、資料を集めることよりも、資料に意味を与えることの方がはるかに難しいという声が聞かれる。一枚の写真には、撮影された日付や場所さえ分からないものが多い。写っている人物が誰で、それがどのような場面なのかを知る人も、年々少なくなっていく。説明のない写真は、どれほど鮮明にデジタル化されたとしても、見る人にとってはただの古い画像にすぎない。"
+      },
+      {
+        "id": "reading-n1-14-p3",
+        "speaker": "",
+        "text": "そこで、ある町の図書館では、写真を公開するだけでなく、住民が思い出や情報を自由に書き込める場を設けた。すると、同じ一枚の写真について、ある人は祭りの準備の様子だと書き、別の人は台風の後片付けの場面だと記した。書き込みの中には、写真に写った店の名前や当時の値段、そのころ流行していた歌を記したものもあった。人々の記憶は、しばしば食い違う。図書館はそれを無理に一つの説明にまとめることはせず、異なる{証言|しょうげん}をそのまま並べて残すことにした。"
+      },
+      {
+        "id": "reading-n1-14-p4",
+        "speaker": "",
+        "text": "この方針に対しては、記録としての正確さを損なうという批判もあるだろう。しかし、過去は一つの正しい物語として存在しているわけではない。同じ出来事を人々がどのように受け止め、どのように語り継いできたのか。その多様さもまた、地域の歴史の一部である。記録の正確さとは、一つの答えを確定させることだけを意味するのではなく、{証言|しょうげん}がどのように分かれているのかを正確に残すことでもあるはずだ。食い違いを消してしまえば、かえって失われるものがあるのではないか。"
+      },
+      {
+        "id": "reading-n1-14-p5",
+        "speaker": "",
+        "text": "記録を残すとは、単に物を保存することではなく、それについて語る人々の声を保存することなのかもしれない。資料の向こう側にいた人々の経験に想像を巡らせる余地を残しておくこと。その余地こそが、後の世代が過去と対話するための入り口になるのだろう。"
+      }
+    ],
+    "translation": "Vielerorts werden alte Fotos, Tagebücher und Aufzeichnungen über lokale Feste gesammelt, digitalisiert und veröffentlicht. Papier zerfällt mit der Zeit, und nach dem Tod der Besitzer droht das Material verstreut zu werden. Es für alle zugänglich zu erhalten, ist für die Weitergabe der Ortsgeschichte bedeutsam; gerade Material aus Privathaushalten bringt manchmal unbekannte Details des Alltags ans Licht. Beteiligte berichten jedoch, dass es viel schwieriger sei, dem Material Bedeutung zu geben, als es zu sammeln. Bei vielen Fotos sind nicht einmal Datum oder Ort bekannt, und immer weniger Menschen wissen, wer darauf zu sehen ist und welche Situation es zeigt. Ohne Erläuterung bleibt ein Foto, so scharf es digitalisiert sein mag, nur ein altes Bild. Eine Stadtbibliothek schuf daher einen Ort, an dem Einwohner Erinnerungen und Informationen eintragen können. Zu demselben Foto schrieb der eine, es zeige Festvorbereitungen, der andere, es zeige Aufräumarbeiten nach einem Taifun; manche notierten auch den Namen eines Ladens auf dem Bild, damalige Preise oder Lieder, die damals beliebt waren. Erinnerungen widersprechen sich oft; die Bibliothek fasste sie nicht gewaltsam zu einer Erklärung zusammen, sondern bewahrte die verschiedenen Aussagen nebeneinander. Man mag einwenden, das schade der Genauigkeit. Doch die Vergangenheit existiert nicht als eine einzige richtige Geschichte. Genauigkeit heißt nicht nur, eine Antwort festzulegen, sondern auch genau festzuhalten, wie die Aussagen auseinandergehen. Wie Menschen ein Ereignis aufgenommen und weitererzählt haben, gehört in seiner Vielfalt ebenfalls zur Ortsgeschichte; wer die Widersprüche tilgt, verliert vielleicht gerade etwas. Aufzeichnungen zu bewahren heißt womöglich nicht, Dinge zu bewahren, sondern die Stimmen derer, die davon erzählen – und Raum zu lassen, sich die Erfahrungen der Menschen hinter dem Material vorzustellen. Gerade dieser Raum ist wohl der Zugang, durch den spätere Generationen mit der Vergangenheit ins Gespräch kommen.",
+    "glossary": [
+      [
+        "劣化（れっか）",
+        "Zerfall, Qualitätsverlust"
+      ],
+      [
+        "散逸（さんいつ）",
+        "Verstreutwerden, Verlorengehen"
+      ],
+      [
+        "証言（しょうげん）",
+        "Aussage, Zeugnis"
+      ]
+    ],
+    "note": "Der Autor nimmt im vierten Absatz einen möglichen Einwand vorweg (批判もあるだろう) und widerlegt ihn mit しかし. Solche vorweggenommenen Einwände sind typisch für Essays.",
+    "questions": [
+      {
+        "id": "reading-n1-14-q1",
+        "kind": "global",
+        "prompt": "Was ist die Hauptaussage des Textes?",
+        "evidence": "reading-n1-14-p5",
+        "choices": [
+          {
+            "text": "Alte Fotos sollten vor allem in hoher Auflösung digitalisiert werden.",
+            "explanation": "Gerade die Bildqualität allein reicht laut Text nicht aus.",
+            "evidence": "reading-n1-14-p5"
+          },
+          {
+            "text": "Widersprüchliche Erinnerungen sollten korrigiert werden.",
+            "explanation": "Die Bibliothek bewahrt sie bewusst nebeneinander.",
+            "evidence": "reading-n1-14-p5"
+          },
+          {
+            "text": "Papierarchive sind digitalen Archiven überlegen.",
+            "explanation": "Der Text vergleicht die beiden nicht in dieser Weise.",
+            "evidence": "reading-n1-14-p5"
+          },
+          {
+            "text": "Beim Bewahren von Ortsgeschichte kommt es darauf an, auch die unterschiedlichen Erinnerungen der Menschen festzuhalten.",
+            "explanation": "Der Schluss beschreibt Archivieren als Bewahren von Stimmen.",
+            "evidence": "reading-n1-14-p5"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-14-q2",
+        "kind": "detail",
+        "prompt": "Was bezeichnen die Beteiligten als die größere Schwierigkeit?",
+        "evidence": "reading-n1-14-p2",
+        "choices": [
+          {
+            "text": "Dem Material eine Bedeutung zu geben, weil oft Datum, Ort und Personen unbekannt sind.",
+            "explanation": "資料に意味を与えることの方がはるかに難しい wird so begründet.",
+            "evidence": "reading-n1-14-p2"
+          },
+          {
+            "text": "Genug Material zu sammeln.",
+            "explanation": "Das Sammeln gilt als der leichtere Teil.",
+            "evidence": "reading-n1-14-p2"
+          },
+          {
+            "text": "Die hohen Kosten der Digitalisierung.",
+            "explanation": "Kosten werden nicht erwähnt.",
+            "evidence": "reading-n1-14-p2"
+          },
+          {
+            "text": "Die Einwilligung der Besitzer zu erhalten.",
+            "explanation": "Davon ist nicht die Rede.",
+            "evidence": "reading-n1-14-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-14-q3",
+        "kind": "inference",
+        "prompt": "Wie geht die Bibliothek mit widersprüchlichen Einträgen um?",
+        "evidence": "reading-n1-14-p3",
+        "choices": [
+          {
+            "text": "Sie wählt die glaubwürdigste Aussage aus.",
+            "explanation": "Sie fasst die Aussagen ausdrücklich nicht zu einer zusammen.",
+            "evidence": "reading-n1-14-p3"
+          },
+          {
+            "text": "Sie bewahrt die verschiedenen Aussagen nebeneinander auf.",
+            "explanation": "異なる証言をそのまま並べて残す beschreibt ihr Vorgehen.",
+            "evidence": "reading-n1-14-p3"
+          },
+          {
+            "text": "Sie löscht alle Einträge zu diesem Foto.",
+            "explanation": "Nichts wird gelöscht.",
+            "evidence": "reading-n1-14-p3"
+          },
+          {
+            "text": "Sie lässt Fachleute die richtige Deutung festlegen.",
+            "explanation": "Fachleute werden nicht eingeschaltet.",
+            "evidence": "reading-n1-14-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-14-q4",
+        "kind": "inference",
+        "prompt": "Wie antwortet der Autor auf den Einwand, die Genauigkeit leide?",
+        "evidence": "reading-n1-14-p4",
+        "choices": [
+          {
+            "text": "Er gibt zu, dass der Einwand berechtigt ist, und empfiehlt eine Korrektur.",
+            "explanation": "Er widerspricht dem Einwand.",
+            "evidence": "reading-n1-14-p4"
+          },
+          {
+            "text": "Genauigkeit sei in Archiven unwichtig.",
+            "explanation": "Er relativiert den Begriff „eine richtige Geschichte“, nicht die Sorgfalt.",
+            "evidence": "reading-n1-14-p4"
+          },
+          {
+            "text": "Auch die Vielfalt der Deutungen sei Teil der Geschichte, weil es nicht nur eine richtige Version gibt.",
+            "explanation": "Das sagt der vierte Absatz nach しかし.",
+            "evidence": "reading-n1-14-p4"
+          },
+          {
+            "text": "Nur Augenzeugen dürften Einträge schreiben.",
+            "explanation": "Eine solche Regel schlägt er nicht vor.",
+            "evidence": "reading-n1-14-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n1-15",
+    "level": "N1",
+    "skill": "reading",
+    "order": 15,
+    "title": "Die unsichtbaren Kosten der Effizienz",
+    "objective": "Die Kritik eines Essays an der Verlagerung von Arbeit auf Kunden verstehen.",
+    "minutes": 25,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-15-p1",
+        "speaker": "",
+        "text": "スーパーのセルフレジ、駅の自動券売機、インターネット上での各種手続き。私たちの身の回りでは、かつて店員や職員が担っていた作業を、利用者自身が行う場面が急速に増えている。事業者にとっては人件費の削減につながり、利用者にとっても待ち時間が短くなるという利点がある。行政の手続きも例外ではなく、かつては窓口で職員に尋ねれば済んだことを、今では画面の案内に従って一人で進めなければならない場面が増えた。一見すると、誰も損をしない、望ましい変化のように思える。"
+      },
+      {
+        "id": "reading-n1-15-p2",
+        "speaker": "",
+        "text": "だが、ここで見落とされているのは、作業そのものがなくなったわけではないという事実である。商品のバーコードを読み取り、袋に詰め、支払いを済ませる。これらの手間は消えたのではなく、店員から客へと移されたにすぎない。しかも、その労働は{対価|たいか}を伴わず、統計上の生産性にも表れない。効率化の成果として語られるものの一部は、実は利用者の{無償|むしょう}の労働によって支えられているのである。言い換えれば、事業者が支払っていた人件費の一部が、利用者の時間と手間という形に姿を変えて付け替えられているのだ。"
+      },
+      {
+        "id": "reading-n1-15-p3",
+        "speaker": "",
+        "text": "この移転は、すべての人に等しく負担を課すわけでもない。機械の操作に慣れた人にとってはわずかな手間であっても、高齢者や障害のある人、あるいはその国の言葉が十分に分からない人にとっては、大きな壁となりうる。有人の窓口が減らされれば減らされるほど、そうした人々は助けを求める先を失っていく。実際、セルフレジの前で操作に迷い、後ろに並ぶ人の視線を気にしながら焦る高齢者の姿は、決して珍しいものではない。"
+      },
+      {
+        "id": "reading-n1-15-p4",
+        "speaker": "",
+        "text": "もちろん、私は自動化そのものを否定するつもりはない。問題は、効率化による利益が誰に{帰属|きぞく}し、そのための手間を誰が引き受けているのかが、ほとんど議論されないまま事態が進んでいる点にある。利用者の負担を前提とした仕組みであるならば、その負担に見合う配慮、例えば操作に困った人がすぐに頼れる人員を配置することなどが、当然求められるべきだろう。"
+      },
+      {
+        "id": "reading-n1-15-p5",
+        "speaker": "",
+        "text": "便利さの陰で、誰かが目に見えない形で費用を払っている。効率化を評価する際には、削減された費用だけでなく、移し替えられた負担にも目を向ける必要があるのではないだろうか。問われているのは技術の進歩そのものではなく、その負担の配分なのである。"
+      }
+    ],
+    "translation": "Selbstbedienungskassen im Supermarkt, Fahrkartenautomaten im Bahnhof, Formalitäten im Internet: Immer öfter erledigen Nutzer selbst, was früher Personal tat; auch bei Behörden muss man vieles, was man früher am Schalter erfragte, heute allein nach Bildschirmanweisungen erledigen. Für Unternehmen sinken die Personalkosten, für Nutzer die Wartezeiten – auf den ersten Blick ein Wandel, bei dem niemand verliert. Übersehen wird jedoch, dass die Arbeit nicht verschwunden ist. Scannen, Einpacken, Bezahlen – diese Arbeit wurde nur vom Personal auf die Kunden verlagert. Sie wird nicht bezahlt und taucht in keiner Produktivitätsstatistik auf; ein Teil der gefeierten Effizienz beruht also auf unbezahlter Arbeit der Nutzer. Anders gesagt: Ein Teil der Personalkosten wird in Form von Zeit und Mühe der Nutzer umgebucht. Diese Verlagerung belastet auch nicht alle gleich: Wer mit Geräten vertraut ist, hat wenig Mühe, für ältere Menschen, Menschen mit Behinderung oder Menschen, die die Landessprache nicht gut beherrschen, kann sie eine große Hürde sein. Je mehr bemannte Schalter abgebaut werden, desto mehr verlieren sie jede Anlaufstelle; ältere Menschen, die an der Selbstbedienungskasse unsicher werden und unter den Blicken der Wartenden in Eile geraten, sind kein seltener Anblick. Ich lehne Automatisierung nicht ab. Das Problem ist, dass kaum diskutiert wird, wem der Nutzen der Effizienz zufließt und wer die Mühe trägt. Wenn ein System auf der Belastung der Nutzer aufbaut, sollte es entsprechende Rücksicht nehmen, etwa Personal bereitstellen, an das sich Menschen bei Problemen sofort wenden können. Im Schatten der Bequemlichkeit zahlt jemand unsichtbar einen Preis; bei der Bewertung von Effizienz muss man neben den eingesparten Kosten auch die verlagerten Lasten sehen. Infrage steht nicht der technische Fortschritt selbst, sondern die Verteilung dieser Last.",
+    "glossary": [
+      [
+        "対価（たいか）",
+        "Gegenleistung, Bezahlung"
+      ],
+      [
+        "無償（むしょう）",
+        "unentgeltlich"
+      ],
+      [
+        "帰属（きぞく）",
+        "Zugehörigkeit, zufallen"
+      ]
+    ],
+    "note": "Der Autor grenzt seine Kritik im vierten Absatz ein (もちろん … 否定するつもりはない). Die eigentliche Forderung folgt danach – achte auf べきだろう.",
+    "questions": [
+      {
+        "id": "reading-n1-15-q1",
+        "kind": "global",
+        "prompt": "Was ist die zentrale These des Textes?",
+        "evidence": "reading-n1-15-p2",
+        "choices": [
+          {
+            "text": "Effizienzgewinne beruhen teils auf unbezahlter Arbeit, die auf die Kunden verlagert wurde.",
+            "explanation": "Der zweite Absatz formuliert diese These, der Schluss wiederholt sie.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Automatisierung sollte vollständig abgeschafft werden.",
+            "explanation": "Der Autor lehnt Automatisierung ausdrücklich nicht ab.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Selbstbedienung spart allen Beteiligten Zeit und Geld.",
+            "explanation": "Genau diesen ersten Eindruck stellt der Autor in Frage.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Unternehmen sollten höhere Preise verlangen.",
+            "explanation": "Preise sind nicht das Thema.",
+            "evidence": "reading-n1-15-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-15-q2",
+        "kind": "detail",
+        "prompt": "Warum taucht die Arbeit der Kunden nicht in der Produktivitätsstatistik auf?",
+        "evidence": "reading-n1-15-p2",
+        "choices": [
+          {
+            "text": "Weil sie nur wenige Sekunden dauert.",
+            "explanation": "Die Dauer wird nicht als Grund genannt.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Weil sie unbezahlt geleistet wird.",
+            "explanation": "対価を伴わず erklärt, warum sie statistisch unsichtbar bleibt.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Weil Unternehmen sie absichtlich verschweigen.",
+            "explanation": "Von Absicht ist nicht die Rede.",
+            "evidence": "reading-n1-15-p2"
+          },
+          {
+            "text": "Weil sie von Maschinen erledigt wird.",
+            "explanation": "Gerade die Kunden erledigen sie selbst.",
+            "evidence": "reading-n1-15-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-15-q3",
+        "kind": "inference",
+        "prompt": "Für wen ist die Verlagerung laut Text besonders belastend?",
+        "evidence": "reading-n1-15-p3",
+        "choices": [
+          {
+            "text": "Für junge Menschen, die schnell einkaufen wollen.",
+            "explanation": "Für Geübte ist es laut Text nur eine kleine Mühe.",
+            "evidence": "reading-n1-15-p3"
+          },
+          {
+            "text": "Für das Personal, das entlassen wird.",
+            "explanation": "Der Text spricht von Kunden, nicht vom Personal.",
+            "evidence": "reading-n1-15-p3"
+          },
+          {
+            "text": "Für ältere Menschen, Menschen mit Behinderung und Menschen mit geringen Sprachkenntnissen.",
+            "explanation": "Diese Gruppen nennt der dritte Absatz.",
+            "evidence": "reading-n1-15-p3"
+          },
+          {
+            "text": "Für Unternehmen mit hohen Personalkosten.",
+            "explanation": "Für Unternehmen ist die Verlagerung ein Vorteil.",
+            "evidence": "reading-n1-15-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-15-q4",
+        "kind": "inference",
+        "prompt": "Was fordert der Autor konkret?",
+        "evidence": "reading-n1-15-p4",
+        "choices": [
+          {
+            "text": "Die Rückkehr zu ausschließlich bemannten Kassen.",
+            "explanation": "Er lehnt Automatisierung nicht ab.",
+            "evidence": "reading-n1-15-p4"
+          },
+          {
+            "text": "Eine Entschädigung in Geld für jeden Kunden.",
+            "explanation": "Eine Bezahlung der Kunden fordert er nicht.",
+            "evidence": "reading-n1-15-p4"
+          },
+          {
+            "text": "Mehr Statistiken über Wartezeiten.",
+            "explanation": "Davon ist nicht die Rede.",
+            "evidence": "reading-n1-15-p4"
+          },
+          {
+            "text": "Personal, an das sich Menschen bei Bedienungsproblemen sofort wenden können.",
+            "explanation": "Diese Rücksichtnahme nennt er als Beispiel für das, was gefordert werden sollte.",
+            "evidence": "reading-n1-15-p4"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n1-16",
+    "level": "N1",
+    "skill": "reading",
+    "order": 16,
+    "title": "Maschinelle Übersetzung im Sprachunterricht",
+    "objective": "Zwei Positionen zum Einsatz von Übersetzungstools vergleichen und eine vermittelnde Folgerung ziehen.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n1-16-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "大学の語学授業で、機械翻訳の使用を一律に禁じる動きがあるが、私は賛成しかねる。翻訳ツールはすでに社会の隅々にまで{浸透|しんとう}しており、学生が卒業後にそれを使わずに働くことはまず考えられない。むしろ授業では、訳文のどこに誤りや不自然さが潜みやすいのかを、原文と照らし合わせて{検証|けんしょう}する力を養うべきだ。道具の限界を知らないまま使わせることこそ危うい。一律の禁止は、その訓練の機会までも奪ってしまう。"
+      },
+      {
+        "id": "reading-n1-16-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "機械翻訳を{検証|けんしょう}する力が重要だという主張そのものに異論はない。だが、訳文の誤りに気づくためには、そもそも原文を自力で読み解ける程度の語学力が{前提|ぜんてい}となる。文法や語彙の基礎が固まっていない段階でツールに頼れば、学生はもっともらしい訳文をそのまま受け入れるだけになりかねない。初級の段階では使用を控えさせ、一定の力がついた中級以降に、{検証|けんしょう}を目的として段階的に導入するのが筋だろう。"
+      }
+    ],
+    "translation": "Text A: Es gibt Bestrebungen, maschinelle Übersetzung im Sprachunterricht an Universitäten pauschal zu verbieten; dem kann ich nicht zustimmen. Übersetzungstools sind längst überall in der Gesellschaft verbreitet, und dass Studierende nach dem Abschluss ohne sie arbeiten, ist kaum vorstellbar. Vielmehr sollte der Unterricht die Fähigkeit schulen, durch Abgleich mit dem Original zu prüfen, wo sich in Übersetzungen leicht Fehler und Unnatürliches verbergen. Gefährlich ist es gerade, Werkzeuge ohne Kenntnis ihrer Grenzen zu benutzen. Ein pauschales Verbot nimmt auch die Gelegenheit zu diesem Training. Text B: Dass die Fähigkeit zur Überprüfung wichtig ist, bestreite ich nicht. Um Fehler zu bemerken, muss man das Original aber selbst verstehen können. Stützen sich Lernende auf Tools, bevor Grammatik und Wortschatz gefestigt sind, übernehmen sie leicht plausibel klingende Übersetzungen ungeprüft. Sinnvoll ist, die Nutzung im Anfängerstadium zurückzuhalten und sie ab der Mittelstufe schrittweise zum Zweck der Überprüfung einzuführen.",
+    "glossary": [
+      [
+        "浸透（しんとう）",
+        "Durchdringung, Verbreitung"
+      ],
+      [
+        "検証（けんしょう）",
+        "Überprüfung"
+      ],
+      [
+        "前提（ぜんてい）",
+        "Voraussetzung"
+      ]
+    ],
+    "note": "In argumentativen Texten markieren Wendungen wie 異論はない, だが oder 賛成しかねる genau, wo Zustimmung endet und Widerspruch beginnt.",
+    "questions": [
+      {
+        "id": "reading-n1-16-q1",
+        "kind": "integrated",
+        "prompt": "Worin sind sich beide Texte einig?",
+        "evidence": "reading-n1-16-p2",
+        "choices": [
+          {
+            "text": "Maschinelle Übersetzung sollte an Universitäten ganz verboten werden.",
+            "explanation": "A lehnt ein Verbot ab, B will nur eine Einschränkung am Anfang.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "Die Fähigkeit, maschinelle Übersetzungen kritisch zu überprüfen, ist wichtig.",
+            "explanation": "A fordert diese Fähigkeit, B bestätigt sie ausdrücklich (異論はない).",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "Anfänger sollten Übersetzungstools möglichst viel nutzen.",
+            "explanation": "B rät gerade Anfängern davon ab.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "Übersetzungstools machen Sprachunterricht überflüssig.",
+            "explanation": "Beide setzen weiterhin Sprachunterricht voraus.",
+            "evidence": "reading-n1-16-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-16-q2",
+        "kind": "integrated",
+        "prompt": "Wie unterscheidet sich die Position von Text B?",
+        "evidence": "reading-n1-16-p2",
+        "choices": [
+          {
+            "text": "B hält die Tools für so fehlerhaft, dass man sie nie benutzen sollte.",
+            "explanation": "B will sie ab der Mittelstufe einführen.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "B meint, im Berufsleben brauche man keine Übersetzungstools.",
+            "explanation": "Über das Berufsleben äußert sich nur A.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "B macht den Einsatz vom Lernstand abhängig, weil man Fehler nur mit eigenen Grundkenntnissen erkennt.",
+            "explanation": "B verlangt zuerst eine sprachliche Grundlage und führt die Tools erst später ein.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "B möchte die Tools nur im Anfängerunterricht erlauben.",
+            "explanation": "Es ist umgekehrt: erst ab der Mittelstufe.",
+            "evidence": "reading-n1-16-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-16-q3",
+        "kind": "integrated",
+        "prompt": "Welche Kursplanung entspräche beiden Texten am ehesten?",
+        "evidence": "reading-n1-16-p2",
+        "choices": [
+          {
+            "text": "Im Anfängerkurs werden alle Hausaufgaben maschinell übersetzt.",
+            "explanation": "Das widerspricht B deutlich.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "In allen Kursen ist die Nutzung verboten.",
+            "explanation": "Das widerspricht A deutlich.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "Die Tools werden erst nach dem Studium eingeführt.",
+            "explanation": "Beide wollen die Überprüfung im Studium üben.",
+            "evidence": "reading-n1-16-p2"
+          },
+          {
+            "text": "In Fortgeschrittenenkursen werden maschinelle Übersetzungen gezielt mit dem Original verglichen und korrigiert.",
+            "explanation": "Das verbindet As Überprüfungstraining mit Bs späterem Einsatz.",
+            "evidence": "reading-n1-16-p2"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n1-17",
+    "level": "N1",
+    "skill": "reading",
+    "order": 17,
+    "title": "Buslinien auf dem Land",
+    "objective": "Zwei Positionen zur Umstellung ländlicher Buslinien vergleichen.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n1-17-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "利用者が一日に数人しかいない路線バスを、税金で走らせ続けることには限界がある。ほとんど空のバスが決まった時刻に走る一方で、本当に移動に困っている高齢者は、停留所まで歩くことさえ難しい場合が多い。予約に応じて自宅近くまで迎えに行く乗り合いタクシーに切り替えれば、費用を抑えながら、利用者一人ひとりの事情により細かく対応できるはずだ。路線を維持すること自体を{目的化|もくてきか}すべきではない。"
+      },
+      {
+        "id": "reading-n1-17-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "乗り合いタクシーの利点は理解できる。しかし、予約という手続きは、電話やスマートフォンの操作に{不慣れ|ふなれ}な人にとって、意外な壁となりうる。また、決まった時刻に必ずバスが来るという安心感があるからこそ、通院や買い物の予定を立てられる人も多い。利用者数だけで路線の価値を測るのは{一面的|いちめんてき}だろう。切り替えるのであれば、予約の支援や試行期間を設け、利用者の声を確かめながら慎重に進めるべきである。"
+      }
+    ],
+    "translation": "Text A: Buslinien mit nur wenigen Fahrgästen pro Tag dauerhaft mit Steuergeld zu betreiben, hat Grenzen. Während fast leere Busse nach Fahrplan fahren, können gerade die älteren Menschen, die wirklich Mobilität brauchen, oft nicht einmal zur Haltestelle gehen. Mit Rufsammeltaxis, die auf Bestellung bis in die Nähe der Wohnung kommen, ließen sich Kosten senken und die Bedürfnisse Einzelner genauer berücksichtigen. Der Erhalt der Linie darf kein Selbstzweck werden. Text B: Die Vorteile von Rufsammeltaxis verstehe ich. Doch die Reservierung kann für Menschen, die mit Telefon oder Smartphone wenig vertraut sind, eine unerwartete Hürde sein. Außerdem können viele ihre Arzt- und Einkaufstermine nur planen, weil sie sich darauf verlassen, dass der Bus zu festen Zeiten kommt. Den Wert einer Linie nur an den Fahrgastzahlen zu messen, ist einseitig. Wenn man umstellt, dann vorsichtig: mit Hilfe bei der Reservierung, einer Testphase und unter Einbeziehung der Nutzer.",
+    "glossary": [
+      [
+        "目的化（もくてきか）",
+        "zum Selbstzweck machen"
+      ],
+      [
+        "不慣れ（ふなれ）",
+        "ungeübt, nicht vertraut"
+      ],
+      [
+        "一面的（いちめんてき）",
+        "einseitig"
+      ]
+    ],
+    "note": "Achte darauf, welches Argument des anderen Textes aufgegriffen wird: B antwortet auf As Vorschlag, bestreitet aber nicht dessen Vorteile, sondern ergänzt Bedingungen.",
+    "questions": [
+      {
+        "id": "reading-n1-17-q1",
+        "kind": "integrated",
+        "prompt": "Welche Aussage würden beide Autoren teilen?",
+        "evidence": "reading-n1-17-p2",
+        "choices": [
+          {
+            "text": "Rufsammeltaxis sind grundsätzlich ungeeignet.",
+            "explanation": "B versteht ausdrücklich ihre Vorteile.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "Buslinien sollten allein nach Fahrgastzahlen bewertet werden.",
+            "explanation": "B nennt diese Sicht einseitig.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "Rufsammeltaxis können Vorteile haben, entscheidend sind aber die Bedürfnisse der Menschen, die auf Mobilität angewiesen sind.",
+            "explanation": "A argumentiert mit den Bedürfnissen älterer Menschen, B erkennt die Vorteile an und denkt an die Nutzer.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "Die Stadt sollte die Steuern für den Busverkehr erhöhen.",
+            "explanation": "Keiner der Texte fordert höhere Steuern.",
+            "evidence": "reading-n1-17-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-17-q2",
+        "kind": "integrated",
+        "prompt": "Worin unterscheidet sich Text B von Text A?",
+        "evidence": "reading-n1-17-p2",
+        "choices": [
+          {
+            "text": "B lehnt jede Umstellung kategorisch ab.",
+            "explanation": "B stellt Bedingungen für eine Umstellung, lehnt sie aber nicht ab.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "B hält Linienbusse für zu teuer.",
+            "explanation": "Das Kostenargument stammt von A.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "B meint, ältere Menschen sollten selbst zur Haltestelle gehen.",
+            "explanation": "Das sagt keiner der Texte.",
+            "evidence": "reading-n1-17-p2"
+          },
+          {
+            "text": "B sieht Hürden bei der Reservierung und den Wert fester Fahrzeiten und will nur schrittweise mit Unterstützung umstellen.",
+            "explanation": "Diese Einwände und Bedingungen nennt B.",
+            "evidence": "reading-n1-17-p2"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "listening-n1-11",
+    "level": "N1",
+    "skill": "listening",
+    "order": 11,
+    "title": "Schnell antworten: Indirekte Absagen",
+    "objective": "Indirekte Ablehnungen, Einwände und Andeutungen erkennen und angemessen reagieren.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n1-11-p1",
+        "speaker": "A",
+        "text": "せっかくのお{誘|さそ}いですが、あいにくその{日|ひ}は{先約|せんやく}がありまして……。"
+      },
+      {
+        "id": "listening-n1-11-p2",
+        "speaker": "B",
+        "text": "お{言葉|ことば}を{返|かえ}すようですが、その{案|あん}には{少々|しょうしょう}{無理|むり}があるかと{存|ぞん}じます。"
+      },
+      {
+        "id": "listening-n1-11-p3",
+        "speaker": "A",
+        "text": "{今回|こんかい}の{件|けん}、{部長|ぶちょう}の{耳|みみ}に{入|はい}ったら、ただじゃ{済|す}まないよ。"
+      },
+      {
+        "id": "listening-n1-11-p4",
+        "speaker": "B",
+        "text": "{課長|かちょう}、つかぬことを{伺|うかが}いますが、{来月|らいげつ}の{異動|いどう}の{話|はなし}、{本当|ほんとう}なんですか。"
+      }
+    ],
+    "translation": "A: Vielen Dank für die freundliche Einladung, aber an dem Tag habe ich leider schon etwas vor … B: Verzeihen Sie den Widerspruch, aber ich halte den Vorschlag für etwas schwer umsetzbar. A: Wenn der Abteilungsleiter davon erfährt, wird das Folgen haben. B: Entschuldigen Sie die unvermittelte Frage, Herr Sektionsleiter, aber stimmt das mit der Versetzung nächsten Monat?",
+    "glossary": [
+      [
+        "先約（せんやく）",
+        "frühere Verabredung"
+      ],
+      [
+        "異動（いどう）",
+        "Versetzung (innerhalb der Firma)"
+      ],
+      [
+        "ただじゃ済まない",
+        "das wird Folgen haben"
+      ]
+    ],
+    "note": "お言葉を返すようですが leitet höflich einen Widerspruch ein; die passende Reaktion ist, nach den Gründen zu fragen.",
+    "questions": [
+      {
+        "id": "listening-n1-11-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n1-11-p1",
+        "choices": [
+          {
+            "text": "では、その日にお待ちしております。",
+            "explanation": "Das überhört die Absage.",
+            "evidence": "listening-n1-11-p1"
+          },
+          {
+            "text": "そうですか、残念です。またの機会にぜひ。",
+            "explanation": "Man nimmt die höfliche Absage an und hält die Tür offen.",
+            "evidence": "listening-n1-11-p1"
+          },
+          {
+            "text": "それはよかった。楽しみにしています。",
+            "explanation": "Das versteht die Absage als Zusage.",
+            "evidence": "listening-n1-11-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n1-11-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n1-11-p2",
+        "choices": [
+          {
+            "text": "ありがとうございます。では、その案で進めます。",
+            "explanation": "Der Einwand wird ignoriert.",
+            "evidence": "listening-n1-11-p2"
+          },
+          {
+            "text": "お言葉を返していただき、恐縮です。",
+            "explanation": "Die Floskel wird wörtlich missverstanden.",
+            "evidence": "listening-n1-11-p2"
+          },
+          {
+            "text": "なるほど。具体的にどの点でしょうか。",
+            "explanation": "Man geht auf den Einwand ein und fragt nach Details.",
+            "evidence": "listening-n1-11-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n1-11-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n1-11-p3",
+        "choices": [
+          {
+            "text": "じゃあ、早めに自分から報告したほうがよさそうですね。",
+            "explanation": "Man reagiert auf die Warnung vor ernsten Folgen.",
+            "evidence": "listening-n1-11-p3"
+          },
+          {
+            "text": "部長は耳が遠いんですか。",
+            "explanation": "耳に入る bedeutet „zu Ohren kommen“, nicht schlecht hören.",
+            "evidence": "listening-n1-11-p3"
+          },
+          {
+            "text": "ただで済むなら助かります。",
+            "explanation": "ただじゃ済まない bedeutet, dass es gerade nicht ohne Folgen bleibt.",
+            "evidence": "listening-n1-11-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n1-11-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n1-11-p4",
+        "choices": [
+          {
+            "text": "つかない話はしないでくれ。",
+            "explanation": "つかぬことを伺いますが ist eine feste Floskel, kein Inhalt.",
+            "evidence": "listening-n1-11-p4"
+          },
+          {
+            "text": "いや、まだ正式には何も決まっていないんだ。",
+            "explanation": "Der Vorgesetzte antwortet auf die Frage nach dem Gerücht.",
+            "evidence": "listening-n1-11-p4"
+          },
+          {
+            "text": "来月は伺えません。",
+            "explanation": "Das missversteht 伺う als „besuchen“.",
+            "evidence": "listening-n1-11-p4"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n1-11.wav",
+      "synthetic": true,
+      "revision": "native16-v3"
+    }
+  },
+  {
+    "id": "listening-n1-12",
+    "level": "N1",
+    "skill": "listening",
+    "order": 12,
+    "title": "Schnell antworten: Feine Nuancen",
+    "objective": "Bewertungen, Zugeständnisse und Bitten mit feinen Nuancen richtig deuten.",
+    "minutes": 8,
+    "introduction": "Du hörst jeweils einen kurzen Satz. Wähle die Antwort, die im Gespräch direkt passt – ohne lange nachzudenken.",
+    "passages": [
+      {
+        "id": "listening-n1-12-p1",
+        "speaker": "A",
+        "text": "{彼|かれ}の{提案|ていあん}、{悪|わる}くはないんだけど、いまひとつ{決め手|きめて}に{欠|か}けるんだよね。"
+      },
+      {
+        "id": "listening-n1-12-p2",
+        "speaker": "B",
+        "text": "先方がそこまでおっしゃるなら、こちらとしても{無下に|むげに}は{断|ことわ}れませんね。"
+      },
+      {
+        "id": "listening-n1-12-p3",
+        "speaker": "A",
+        "text": "いやあ、あのプレゼン、{我|われ}ながらよくできたと{思|おも}うよ。"
+      },
+      {
+        "id": "listening-n1-12-p4",
+        "speaker": "B",
+        "text": "この{件|けん}は、ひとまず{私|わたし}に預からせてもらえませんか。"
+      }
+    ],
+    "translation": "A: Sein Vorschlag ist nicht schlecht, aber irgendwie fehlt das entscheidende Argument. B: Wenn die Gegenseite so darauf besteht, können wir nicht einfach rundweg ablehnen. A: Also, die Präsentation ist mir, wenn ich das selbst sagen darf, gut gelungen. B: Könnten Sie diese Angelegenheit vorerst mir überlassen?",
+    "glossary": [
+      [
+        "決め手（きめて）",
+        "entscheidender Punkt"
+      ],
+      [
+        "無下に（むげに）",
+        "kurzerhand, rundweg"
+      ],
+      [
+        "預かる（あずかる）",
+        "in Obhut nehmen; übernehmen"
+      ]
+    ],
+    "note": "我ながら bedeutet „wenn ich das selbst sagen darf“ – Eigenlob. 預からせてもらえませんか bittet darum, eine Angelegenheit übernehmen zu dürfen.",
+    "questions": [
+      {
+        "id": "listening-n1-12-q1",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n1-12-p1",
+        "choices": [
+          {
+            "text": "ええ、決め手がたくさんありますね。",
+            "explanation": "Es fehlt gerade ein entscheidender Punkt.",
+            "evidence": "listening-n1-12-p1"
+          },
+          {
+            "text": "じゃあ、すぐに採用しましょう。",
+            "explanation": "Die zurückhaltende Bewertung spricht gegen eine sofortige Annahme.",
+            "evidence": "listening-n1-12-p1"
+          },
+          {
+            "text": "そうですね、もう一押し欲しいところです。",
+            "explanation": "Man stimmt zu, dass noch etwas Überzeugendes fehlt.",
+            "evidence": "listening-n1-12-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "listening-n1-12-q2",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n1-12-p2",
+        "choices": [
+          {
+            "text": "ええ、前向きに検討するしかなさそうですね。",
+            "explanation": "Man kann nicht rundweg ablehnen und muss es ernsthaft prüfen.",
+            "evidence": "listening-n1-12-p2"
+          },
+          {
+            "text": "はい、すぐに断りましょう。",
+            "explanation": "無下には断れない bedeutet gerade, dass man nicht einfach ablehnen kann.",
+            "evidence": "listening-n1-12-p2"
+          },
+          {
+            "text": "先方は何もおっしゃっていませんよ。",
+            "explanation": "Das widerspricht der Voraussetzung der Äußerung.",
+            "evidence": "listening-n1-12-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "listening-n1-12-q3",
+        "kind": "response",
+        "prompt": "Was antwortet man am besten?",
+        "evidence": "listening-n1-12-p3",
+        "choices": [
+          {
+            "text": "ええ、誰が作ったんですか。",
+            "explanation": "我ながら zeigt, dass der Sprecher sie selbst gemacht hat.",
+            "evidence": "listening-n1-12-p3"
+          },
+          {
+            "text": "自画自賛ですね。でも確かによかったです。",
+            "explanation": "Man kommentiert das Eigenlob scherzhaft und stimmt zu.",
+            "evidence": "listening-n1-12-p3"
+          },
+          {
+            "text": "私たちのプレゼンはまだですよ。",
+            "explanation": "Die Präsentation hat bereits stattgefunden.",
+            "evidence": "listening-n1-12-p3"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "listening-n1-12-q4",
+        "kind": "response",
+        "prompt": "Welche Antwort passt?",
+        "evidence": "listening-n1-12-p4",
+        "choices": [
+          {
+            "text": "はい、確かにお預かりしました。",
+            "explanation": "Das vertauscht die Rollen: Man hätte selbst etwas übernommen.",
+            "evidence": "listening-n1-12-p4"
+          },
+          {
+            "text": "では、今すぐ返してください。",
+            "explanation": "預かる bezieht sich hier nicht auf einen Gegenstand.",
+            "evidence": "listening-n1-12-p4"
+          },
+          {
+            "text": "わかりました。では、お任せします。",
+            "explanation": "Man überlässt die Sache der Person, die darum bittet.",
+            "evidence": "listening-n1-12-p4"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "quick-response",
+    "audio": {
+      "src": "audio/comprehension/listening-n1-12.wav",
       "synthetic": true,
       "revision": "native16-v3"
     }

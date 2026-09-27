@@ -45,7 +45,8 @@ function main() {
   const only = process.argv[2], manifestBytes = fs.readFileSync(path.join(root, 'audio-manifest.json'));
   // Hash LF text so Git's autocrlf checkout does not invalidate the receipt.
   const manifestText = manifestBytes.toString('utf8').replace(/\r\n/g, '\n');
-  const manifest = JSON.parse(manifestBytes), selected = manifest.filter(u => !only || u.id === only);
+  const onlyIds = only ? only.split(',') : [];
+  const manifest = JSON.parse(manifestBytes), selected = manifest.filter(u => !only || onlyIds.includes(u.id));
   if (!selected.length) throw new Error('No matching audio unit');
   const sha = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
   const prepared = selected.map(u => {
@@ -63,16 +64,18 @@ function main() {
     const receipt = { manifestSha256: sha(manifestText), engine: 'Windows.Media.SpeechSynthesis', format: 'Native PCM mono, 16000 Hz, 16 bit', resampling: false, peakLimit: .8, edgeFadeMs: 5, generatedAt: new Date().toISOString(), files: prepared.map(({ u, wav }) => ({ id: u.id, src: u.src, sha256: sha(wav) })) };
     fs.writeFileSync(path.join(root, 'audio/comprehension/generation.json'), JSON.stringify(receipt, null, 2) + '\n');
   } else {
-    // A single-unit run re-records only that unit; its manifest change must be the only one.
+    // A partial run re-records only the listed units (new units get a new receipt entry).
     const receiptPath = path.join(root, 'audio/comprehension/generation.json');
     const receipt = JSON.parse(fs.readFileSync(receiptPath, 'utf8').replace(/^\uFEFF/, ''));
     for (const { u, wav } of prepared) {
       const entry = receipt.files.find(f => f.id === u.id && f.src === u.src);
-      if (!entry) throw new Error('Missing generation receipt entry: ' + u.id);
-      entry.sha256 = sha(wav);
+      if (entry) entry.sha256 = sha(wav);
+      else if (receipt.files.some(f => f.id === u.id)) throw new Error('Receipt entry with a different path: ' + u.id);
+      else receipt.files.push({ id: u.id, src: u.src, sha256: sha(wav) });
     }
     receipt.manifestSha256 = sha(manifestText);
-    receipt.partialRegenerations = (receipt.partialRegenerations || []).concat({ id: only, generatedAt: new Date().toISOString() });
+    receipt.files.sort((a, b) => manifest.findIndex(m => m.id === a.id) - manifest.findIndex(m => m.id === b.id));
+    receipt.partialRegenerations = (receipt.partialRegenerations || []).concat(onlyIds.map(id => ({ id, generatedAt: new Date().toISOString() })));
     fs.writeFileSync(receiptPath, JSON.stringify(receipt, null, 2) + '\n');
   }
   console.log(`Packaged ${prepared.length} native recordings without sample-rate conversion.`);
