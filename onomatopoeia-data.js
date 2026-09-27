@@ -10164,5 +10164,174 @@ window.ONOMATOPOEIA_DATA = [
     "editorialBatch": "2026-09-content",
     "tags": [],
     "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
+  },
+  {
+    "id": "onomatopoeia:word:ギリギリ",
+    "word": "ギリギリ",
+    "reading": "ギリギリ",
+    "romaji": "girigiri",
+    "pitch": null,
+    "meaning": "knapp, gerade noch; bis an die Grenze",
+    "category": "Zustände",
+    "categoryJP": "擬態語",
+    "pattern": "ABAB",
+    "level": "N3",
+    "usage": "ギリギリ間に合う・ギリギリまで",
+    "explanation": "knapp, gerade noch; bis an die Grenze。 ギリギリ間に合う・ギリギリまで。Etwas liegt gerade noch an einer Grenze (Zeit, Geld, Platz); oft auch in Hiragana ぎりぎり.",
+    "notes": "ギリギリ間に合う・ギリギリまで。Etwas liegt gerade noch an einer Grenze (Zeit, Geld, Platz); oft auch in Hiragana ぎりぎり.",
+    "examples": [
+      {
+        "japanese": "電車にギリギリ間に合った。",
+        "romaji": "Densha ni girigiri maniatta.",
+        "german": "Ich habe den Zug gerade noch erwischt."
+      },
+      {
+        "japanese": "締め切りギリギリまで宿題をしなかった。",
+        "romaji": "Shimekiri girigiri made shukudai o shinakatta.",
+        "german": "Ich habe die Hausaufgaben bis kurz vor Abgabeschluss liegen lassen."
+      }
+    ],
+    "related": [
+      "ハラハラ"
+    ],
+    "editorialBatch": "2026-09-content",
+    "tags": [],
+    "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
+  },
+  {
+    "id": "onomatopoeia:word:ギョッと",
+    "word": "ギョッと",
+    "reading": "ギョッと",
+    "romaji": "gyotto",
+    "pitch": null,
+    "meaning": "erschrocken zusammenfahren",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABっと",
+    "level": "N2",
+    "usage": "ギョッとする",
+    "explanation": "erschrocken zusammenfahren。 ギョッとする。Plötzlicher, heftiger Schreck bei etwas Unerwartetem; ドキッと ist leichter und kann auch Herzklopfen vor Aufregung meinen.",
+    "notes": "ギョッとする。Plötzlicher, heftiger Schreck bei etwas Unerwartetem; ドキッと ist leichter und kann auch Herzklopfen vor Aufregung meinen.",
+    "examples": [
+      {
+        "japanese": "暗闇から猫が飛び出してきて、ギョッとした。",
+        "romaji": "Kurayami kara neko ga tobidashite kite, gyotto shita.",
+        "german": "Als eine Katze aus der Dunkelheit sprang, fuhr ich erschrocken zusammen."
+      },
+      {
+        "japanese": "請求書の金額を見てギョッとした。",
+        "romaji": "Seikyuusho no kingaku o mite gyotto shita.",
+        "german": "Beim Anblick des Rechnungsbetrags bin ich zusammengezuckt."
+      }
+    ],
+    "related": [
+      "ドキッと",
+      "ゾッと",
+      "ビクッと"
+    ],
+    "editorialBatch": "2026-09-content",
+    "tags": [],
+    "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
+  },
+  {
+    "id": "onomatopoeia:word:ドキッと",
+    "word": "ドキッと",
+    "reading": "ドキッと",
+    "romaji": "dokitto",
+    "pitch": null,
+    "meaning": "einen kurzen Schreck bekommen; Herzklopfen haben",
+    "category": "Gefühle",
+    "categoryJP": "擬情語",
+    "pattern": "ABっと",
+    "level": "N3",
+    "usage": "ドキッとする",
+    "explanation": "einen kurzen Schreck bekommen; Herzklopfen haben。 ドキッとする。Kurzer Schreck oder plötzliches Herzklopfen, auch vor Verliebtheit; ドキドキ ist anhaltendes Herzklopfen.",
+    "notes": "ドキッとする。Kurzer Schreck oder plötzliches Herzklopfen, auch vor Verliebtheit; ドキドキ ist anhaltendes Herzklopfen.",
+    "examples": [
+      {
+        "japanese": "急に名前を呼ばれてドキッとした。",
+        "romaji": "Kyuu ni namae o yobarete dokitto shita.",
+        "german": "Als plötzlich mein Name gerufen wurde, bekam ich einen Schreck."
+      },
+      {
+        "japanese": "彼の笑顔にドキッとした。",
+        "romaji": "Kare no egao ni dokitto shita.",
+        "german": "Bei seinem Lächeln bekam ich Herzklopfen."
+      }
+    ],
+    "related": [
+      "ドキドキ",
+      "ギョッと",
+      "ハッと"
+    ],
+    "editorialBatch": "2026-09-content",
+    "tags": [],
+    "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
+  },
+  {
+    "id": "onomatopoeia:word:ガミガミ",
+    "word": "ガミガミ",
+    "reading": "ガミガミ",
+    "romaji": "gamigami",
+    "pitch": null,
+    "meaning": "keifend, nörgelnd (schimpfen)",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "level": "N2",
+    "usage": "ガミガミ言う・ガミガミ怒る",
+    "explanation": "keifend, nörgelnd (schimpfen)。 ガミガミ言う・ガミガミ怒る。Lautes, andauerndes Schimpfen, typisch für Eltern oder Vorgesetzte; ブツブツ ist dagegen leises Murren.",
+    "notes": "ガミガミ言う・ガミガミ怒る。Lautes, andauerndes Schimpfen, typisch für Eltern oder Vorgesetzte; ブツブツ ist dagegen leises Murren.",
+    "examples": [
+      {
+        "japanese": "母は朝からガミガミ怒っている。",
+        "romaji": "Haha wa asa kara gamigami okotte iru.",
+        "german": "Meine Mutter schimpft schon seit dem Morgen herum."
+      },
+      {
+        "japanese": "そんなにガミガミ言わなくても分かるよ。",
+        "romaji": "Sonna ni gamigami iwanakutemo wakaru yo.",
+        "german": "Du musst nicht so herumnörgeln, ich hab es ja verstanden."
+      }
+    ],
+    "related": [
+      "ブツブツ"
+    ],
+    "editorialBatch": "2026-09-content",
+    "tags": [],
+    "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
+  },
+  {
+    "id": "onomatopoeia:word:ベラベラ",
+    "word": "ベラベラ",
+    "reading": "ベラベラ",
+    "romaji": "berabera",
+    "pitch": null,
+    "meaning": "drauflosplappern; ausplaudern",
+    "category": "Geräusche",
+    "categoryJP": "擬音語",
+    "pattern": "ABAB",
+    "level": "N2",
+    "usage": "ベラベラしゃべる",
+    "explanation": "drauflosplappern; ausplaudern。 ベラベラしゃべる。Abwertend: zu viel reden oder Geheimes ausplaudern; ペラペラ lobt dagegen fließendes Sprechen einer Fremdsprache.",
+    "notes": "ベラベラしゃべる。Abwertend: zu viel reden oder Geheimes ausplaudern; ペラペラ lobt dagegen fließendes Sprechen einer Fremdsprache.",
+    "examples": [
+      {
+        "japanese": "秘密をベラベラしゃべるな。",
+        "romaji": "Himitsu o berabera shaberu na.",
+        "german": "Plaudere das Geheimnis nicht aus!"
+      },
+      {
+        "japanese": "彼は会議中ずっとベラベラ話していた。",
+        "romaji": "Kare wa kaigichuu zutto berabera hanashite ita.",
+        "german": "Er hat während der ganzen Besprechung ununterbrochen geredet."
+      }
+    ],
+    "related": [
+      "ペラペラ"
+    ],
+    "editorialBatch": "2026-09-content",
+    "tags": [],
+    "levelSource": "Redaktionelle Lernstufe; keine offizielle JLPT-Liste"
   }
 ];

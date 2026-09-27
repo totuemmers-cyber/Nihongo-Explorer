@@ -48794,5 +48794,317 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:tsuuchi"
+  },
+  {
+    "word": "猫をかぶる",
+    "reading": "ねこをかぶる",
+    "romaji": "neko o kaburu",
+    "meaning": "sich verstellen, harmlos tun, den Unschuldigen spielen",
+    "type": "Redewendung",
+    "category": "Charakter",
+    "level": "N2",
+    "notes": "Wörtlich „sich eine Katze überziehen“: sein wahres Wesen hinter einer braven, sanften Fassade verstecken. Oft von jemandem, der vor Fremden oder Vorgesetzten ganz anders auftritt als sonst. Nomen: 猫かぶり.",
+    "examples": [
+      {
+        "japanese": "彼女は先生の前では猫をかぶっている。",
+        "romaji": "Kanojo wa sensei no mae de wa neko o kabutte iru.",
+        "german": "Vor dem Lehrer spielt sie die Brave."
+      },
+      {
+        "japanese": "最初は猫をかぶっていたけど、だんだん本性が出てきた。",
+        "romaji": "Saisho wa neko o kabutte ita kedo, dandan honshou ga dete kita.",
+        "german": "Anfangs hat er sich verstellt, aber nach und nach zeigte sich sein wahres Wesen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:neko-o-kaburu"
+  },
+  {
+    "word": "犬猿の仲",
+    "reading": "けんえんのなか",
+    "romaji": "ken'en no naka",
+    "meaning": "wie Hund und Katze; spinnefeind",
+    "type": "Redewendung",
+    "category": "Beziehungen",
+    "level": "N2",
+    "notes": "Wörtlich „Verhältnis von Hund und Affe“: Im Japanischen sind Hund und Affe die sprichwörtlichen Feinde, nicht Hund und Katze. 犬猿 wird on-gelesen: けんえん.",
+    "examples": [
+      {
+        "japanese": "あの二人は犬猿の仲で、会うとすぐにけんかになる。",
+        "romaji": "Ano futari wa ken'en no naka de, au to sugu ni kenka ni naru.",
+        "german": "Die beiden sind wie Hund und Katze; sobald sie sich treffen, streiten sie."
+      },
+      {
+        "japanese": "犬猿の仲だった二つの会社が、今回は協力することになった。",
+        "romaji": "Ken'en no naka datta futatsu no kaisha ga, konkai wa kyouryoku suru koto ni natta.",
+        "german": "Zwei Firmen, die lange verfeindet waren, arbeiten diesmal zusammen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:kenen-no-naka"
+  },
+  {
+    "word": "雀の涙",
+    "reading": "すずめのなみだ",
+    "romaji": "suzume no namida",
+    "meaning": "ein winziger Betrag; ein Almosen",
+    "type": "Redewendung",
+    "category": "Geld",
+    "level": "N2",
+    "notes": "Wörtlich „Spatzentränen“: eine lächerlich kleine Menge, meist Geld (Lohn, Bonus, Zinsen). Leicht klagend oder ironisch.",
+    "examples": [
+      {
+        "japanese": "ボーナスは雀の涙ほどしか出なかった。",
+        "romaji": "Boonasu wa suzume no namida hodo shika denakatta.",
+        "german": "Der Bonus war nur ein Almosen."
+      },
+      {
+        "japanese": "銀行の利息なんて雀の涙だ。",
+        "romaji": "Ginkou no risoku nante suzume no namida da.",
+        "german": "Die Bankzinsen sind doch lächerlich gering."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:suzume-no-namida"
+  },
+  {
+    "word": "足を洗う",
+    "reading": "あしをあらう",
+    "romaji": "ashi o arau",
+    "meaning": "aussteigen, einen Schlussstrich ziehen (unter ein zwielichtiges Leben)",
+    "type": "Redewendung",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Wörtlich „sich die Füße waschen“. Im übertragenen Sinn: mit einer schlechten oder zwielichtigen Tätigkeit aufhören (Kriminalität, Glücksspiel), heute auch allgemein „einen Beruf an den Nagel hängen“.",
+    "examples": [
+      {
+        "japanese": "彼は悪い仲間から足を洗って、まじめに働いている。",
+        "romaji": "Kare wa warui nakama kara ashi o aratte, majime ni hataraite iru.",
+        "german": "Er hat mit seinen schlechten Freunden gebrochen und arbeitet jetzt ehrlich."
+      },
+      {
+        "japanese": "ギャンブルからはもう足を洗った。",
+        "romaji": "Gyanburu kara wa mou ashi o aratta.",
+        "german": "Mit dem Glücksspiel habe ich endgültig aufgehört."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:ashi-o-arau"
+  },
+  {
+    "word": "手を焼く",
+    "reading": "てをやく",
+    "romaji": "te o yaku",
+    "meaning": "seine liebe Not haben (mit), nicht fertig werden mit",
+    "type": "Redewendung",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Wörtlich „sich die Hand verbrennen“. Meist mit に: 子どもに手を焼く. Ähnlich: 手に負えない (nicht zu bändigen).",
+    "examples": [
+      {
+        "japanese": "息子のわがままに手を焼いている。",
+        "romaji": "Musuko no wagamama ni te o yaite iru.",
+        "german": "Mit dem Eigensinn meines Sohnes habe ich meine liebe Not."
+      },
+      {
+        "japanese": "この古いパソコンの設定には手を焼いた。",
+        "romaji": "Kono furui pasokon no settei ni wa te o yaita.",
+        "german": "Mit der Einrichtung dieses alten Computers hatte ich viel Mühe."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:te-o-yaku"
+  },
+  {
+    "word": "歯が立たない",
+    "reading": "はがたたない",
+    "romaji": "ha ga tatanai",
+    "meaning": "nicht gewachsen sein; sich die Zähne ausbeißen",
+    "type": "Redewendung",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Wörtlich „die Zähne greifen nicht“ – auch buchstäblich bei hartem Essen. Übertragen: einem Gegner oder einer Aufgabe nicht gewachsen sein.",
+    "examples": [
+      {
+        "japanese": "この数学の問題は難しすぎて、全然歯が立たない。",
+        "romaji": "Kono suugaku no mondai wa muzukashisugite, zenzen ha ga tatanai.",
+        "german": "Diese Matheaufgabe ist zu schwer, ich beiße mir die Zähne daran aus."
+      },
+      {
+        "japanese": "チャンピオンが相手では、歯が立たなかった。",
+        "romaji": "Chanpion ga aite de wa, ha ga tatanakatta.",
+        "german": "Gegen den Champion hatte ich keine Chance."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:ha-ga-tatanai"
+  },
+  {
+    "word": "喉から手が出る",
+    "reading": "のどからてがでる",
+    "romaji": "nodo kara te ga deru",
+    "meaning": "etwas unbedingt haben wollen",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N2",
+    "notes": "Wörtlich „aus dem Hals kommt eine Hand“: so großes Verlangen, dass man danach greifen möchte. Meist als 喉から手が出るほど欲しい.",
+    "examples": [
+      {
+        "japanese": "あのギターは喉から手が出るほど欲しい。",
+        "romaji": "Ano gitaa wa nodo kara te ga deru hodo hoshii.",
+        "german": "Diese Gitarre will ich unbedingt haben."
+      },
+      {
+        "japanese": "経験のある人材は、どの会社も喉から手が出るほど欲しがっている。",
+        "romaji": "Keiken no aru jinzai wa, dono kaisha mo nodo kara te ga deru hodo hoshigatte iru.",
+        "german": "Erfahrene Fachkräfte will jede Firma um jeden Preis haben."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:nodo-kara-te-ga-deru"
+  },
+  {
+    "word": "根掘り葉掘り",
+    "reading": "ねほりはほり",
+    "romaji": "nehori hahori",
+    "meaning": "haarklein, bis ins Kleinste (ausfragen)",
+    "type": "Adverb",
+    "category": "Kommunikation",
+    "level": "N2",
+    "notes": "Wörtlich „Wurzeln ausgraben, Blätter ausgraben“. Fast immer mit 聞く／尋ねる und leicht vorwurfsvoll: jemanden neugierig ausfragen.",
+    "examples": [
+      {
+        "japanese": "初対面なのに、家族のことを根掘り葉掘り聞かれた。",
+        "romaji": "Shotaimen na noni, kazoku no koto o nehori hahori kikareta.",
+        "german": "Obwohl wir uns gerade erst kennengelernt hatten, wurde ich haarklein über meine Familie ausgefragt."
+      },
+      {
+        "japanese": "記者は事件について根掘り葉掘り質問した。",
+        "romaji": "Kisha wa jiken ni tsuite nehori hahori shitsumon shita.",
+        "german": "Der Reporter fragte bis ins letzte Detail über den Vorfall nach."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:nehorihahori"
+  },
+  {
+    "word": "腕が上がる",
+    "reading": "うでがあがる",
+    "romaji": "ude ga agaru",
+    "meaning": "besser werden, sich verbessern (Können)",
+    "type": "Redewendung",
+    "category": "Körper",
+    "level": "N2",
+    "notes": "腕 steht für Können: 腕が上がる = die Fähigkeiten verbessern sich (料理の腕が上がった). Verwandt: 腕がいい (geschickt sein), 腕を磨く (sein Können schleifen).",
+    "examples": [
+      {
+        "japanese": "毎日練習して、料理の腕が上がった。",
+        "romaji": "Mainichi renshuu shite, ryouri no ude ga agatta.",
+        "german": "Durch tägliches Üben bin ich beim Kochen besser geworden."
+      },
+      {
+        "japanese": "この一年でテニスの腕がずいぶん上がったね。",
+        "romaji": "Kono ichinen de tenisu no ude ga zuibun agatta ne.",
+        "german": "Im letzten Jahr bist du im Tennis viel besser geworden."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:ude-ga-agaru"
+  },
+  {
+    "word": "鼻につく",
+    "reading": "はなにつく",
+    "romaji": "hana ni tsuku",
+    "meaning": "unangenehm auffallen; einem auf die Nerven gehen",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N2",
+    "notes": "Wörtlich „an der Nase haften“: Ein Verhalten, eine Art zu reden oder ein Geruch wird mit der Zeit lästig. Typisch: 自慢話が鼻につく (die Angeberei nervt).",
+    "examples": [
+      {
+        "japanese": "彼の自慢話がだんだん鼻についてきた。",
+        "romaji": "Kare no jiman banashi ga dandan hana ni tsuite kita.",
+        "german": "Seine Angeberei geht mir allmählich auf die Nerven."
+      },
+      {
+        "japanese": "この香水は強すぎて、少し鼻につく。",
+        "romaji": "Kono kousui wa tsuyosugite, sukoshi hana ni tsuku.",
+        "german": "Dieses Parfüm ist zu stark und riecht etwas aufdringlich."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:hana-ni-tsuku"
+  },
+  {
+    "word": "猫の額",
+    "reading": "ねこのひたい",
+    "romaji": "neko no hitai",
+    "meaning": "winzig (Grundstück, Garten)",
+    "type": "Redewendung",
+    "category": "Alltag",
+    "level": "N2",
+    "notes": "Wörtlich „Katzenstirn“: eine sehr kleine Fläche, besonders bescheiden über den eigenen Garten oder das eigene Grundstück gesagt.",
+    "examples": [
+      {
+        "japanese": "猫の額ほどの庭で野菜を育てています。",
+        "romaji": "Neko no hitai hodo no niwa de yasai o sodatete imasu.",
+        "german": "In unserem winzigen Garten ziehe ich Gemüse."
+      },
+      {
+        "japanese": "東京では猫の額のような土地でも高い。",
+        "romaji": "Toukyou de wa neko no hitai no you na tochi demo takai.",
+        "german": "In Tokyo ist selbst ein winziges Grundstück teuer."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:neko-no-hitai"
+  },
+  {
+    "word": "首を突っ込む",
+    "reading": "くびをつっこむ",
+    "romaji": "kubi o tsukkomu",
+    "meaning": "seine Nase (in fremde Angelegenheiten) stecken; sich einmischen",
+    "type": "Redewendung",
+    "category": "Beziehungen",
+    "level": "N2",
+    "notes": "Wörtlich „den Hals hineinstecken“. Meist kritisch: sich in Dinge einmischen, die einen nichts angehen; seltener neutral „sich intensiv mit etwas beschäftigen“.",
+    "examples": [
+      {
+        "japanese": "他人の問題に首を突っ込まないほうがいい。",
+        "romaji": "Tanin no mondai ni kubi o tsukkomanai hou ga ii.",
+        "german": "Du solltest deine Nase nicht in die Probleme anderer stecken."
+      },
+      {
+        "japanese": "彼は何にでも首を突っ込みたがる。",
+        "romaji": "Kare wa nan ni demo kubi o tsukkomitagaru.",
+        "german": "Er will sich überall einmischen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:kubi-o-tsukkomu"
+  },
+  {
+    "word": "顔から火が出る",
+    "reading": "かおからひがでる",
+    "romaji": "kao kara hi ga deru",
+    "meaning": "vor Scham im Boden versinken wollen; knallrot werden",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N2",
+    "notes": "Wörtlich „aus dem Gesicht kommt Feuer“: extreme Verlegenheit, meist als 顔から火が出るほど恥ずかしい. Meist über eigene Peinlichkeiten.",
+    "examples": [
+      {
+        "japanese": "みんなの前で転んで、顔から火が出るほど恥ずかしかった。",
+        "romaji": "Minna no mae de koronde, kao kara hi ga deru hodo hazukashikatta.",
+        "german": "Ich bin vor allen hingefallen und wäre am liebsten im Boden versunken."
+      },
+      {
+        "japanese": "名前を間違えて呼んでしまい、顔から火が出る思いだった。",
+        "romaji": "Namae o machigaete yonde shimai, kao kara hi ga deru omoi datta.",
+        "german": "Ich habe jemanden mit dem falschen Namen angesprochen und bin knallrot geworden."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:kao-kara-hi-ga-deru"
   }
 ];

@@ -68,7 +68,14 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   verified from exact UniDic rows, 26 unknown. Two independent review rounds; three
   round-1 rejections (オランダ note, 豚 example, 山羊 note) were fixed and re-reviewed.
 
-Runtime: **13,238 entries** (N5 1,632, N4 1,606, N3 3,447, N2 2,535, N1 4,018),
+- **026a (25 additions, research in [maintenance-026](maintenance-026/research-supplement.json)):**
+  22 common idioms (猫をかぶる, 犬猿の仲, 雀の涙, 足を洗う, 目がない, 歯が立たない, 揚げ足を取る,
+  顔から火が出る …), the noun 蛇足, the adverb 根掘り葉掘り and the yojijukugo 千差万別 and
+  羊頭狗肉. Added as vocabulary entries of type Redewendung/Sprichwort because the pipeline
+  cannot create idiom-source IDs. 井の中の蛙 was dropped in review as a short form of the
+  existing 井の中の蛙大海を知らず.
+
+Runtime: **13,263 entries** (N5 1,632, N4 1,606, N3 3,450, N2 2,548, N1 4,027),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

@@ -1,0 +1,3133 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:neko-o-kaburu",
+      "revisionId": "026-add-neko-o-kaburu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "猫をかぶる",
+        "reading": "ねこをかぶる",
+        "romaji": "neko o kaburu",
+        "meaning": "sich verstellen, harmlos tun, den Unschuldigen spielen",
+        "type": "Redewendung",
+        "category": "Charakter",
+        "level": "N2",
+        "notes": "Wörtlich „sich eine Katze überziehen“: sein wahres Wesen hinter einer braven, sanften Fassade verstecken. Oft von jemandem, der vor Fremden oder Vorgesetzten ganz anders auftritt als sonst. Nomen: 猫かぶり.",
+        "examples": [
+          {
+            "japanese": "彼女は先生の前では猫をかぶっている。",
+            "romaji": "Kanojo wa sensei no mae de wa neko o kabutte iru.",
+            "german": "Vor dem Lehrer spielt sie die Brave."
+          },
+          {
+            "japanese": "最初は猫をかぶっていたけど、だんだん本性が出てきた。",
+            "romaji": "Saisho wa neko o kabutte ita kedo, dandan honshou ga dete kita.",
+            "german": "Anfangs hat er sich verstellt, aber nach und nach zeigte sich sein wahres Wesen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common idiom; the app places comparable character idioms (顔が広い) at N2. Editorial N2.",
+      "rationale": "Add 猫をかぶる【ねこをかぶる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2275680; spelling=猫をかぶる; reading=ねこをかぶる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2275680 猫をかぶる/ねこをかぶる sense(s) 1 support \"sich verstellen, harmlos tun, den Unschuldigen spielen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2275680",
+            "spelling": "猫をかぶる",
+            "reading": "ねこをかぶる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to feign friendliness",
+                  "to play the hypocrite"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"sich verstellen, harmlos tun, den Unschuldigen spielen\" matches JMdict 2275680 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Behaviour in front of a teacher.",
+          "True character revealed over time."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2275680; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common idiom; the app places comparable character idioms (顔が広い) at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 猫をかぶる / ねこをかぶる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 猫をかぶる / ねこをかぶる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 猫をかぶる【ねこをかぶる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2275680 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "435242589a4d68db4c64b8c0f1fb1d45f4d0ce7b5ab5c87d0822c170364d9fc1",
+        "approvalHash": "e23ce6e4658a945cfd0309a2c05faa72d0d8de37a6159178c453fe30b80df363"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning supported by JMdict 2275680; ex1 teacher / ex2 true nature revealed: natural, distinct, romaji exact (honshou); 猫かぶり note correct; N2/Charakter fits. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "435242589a4d68db4c64b8c0f1fb1d45f4d0ce7b5ab5c87d0822c170364d9fc1",
+        "approvalHash": "e23ce6e4658a945cfd0309a2c05faa72d0d8de37a6159178c453fe30b80df363"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kenen-no-naka",
+      "revisionId": "026-add-kenen-no-naka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "犬猿の仲",
+        "reading": "けんえんのなか",
+        "romaji": "ken'en no naka",
+        "meaning": "wie Hund und Katze; spinnefeind",
+        "type": "Redewendung",
+        "category": "Beziehungen",
+        "level": "N2",
+        "notes": "Wörtlich „Verhältnis von Hund und Affe“: Im Japanischen sind Hund und Affe die sprichwörtlichen Feinde, nicht Hund und Katze. 犬猿 wird on-gelesen: けんえん.",
+        "examples": [
+          {
+            "japanese": "あの二人は犬猿の仲で、会うとすぐにけんかになる。",
+            "romaji": "Ano futari wa ken'en no naka de, au to sugu ni kenka ni naru.",
+            "german": "Die beiden sind wie Hund und Katze; sobald sie sich treffen, streiten sie."
+          },
+          {
+            "japanese": "犬猿の仲だった二つの会社が、今回は協力することになった。",
+            "romaji": "Ken'en no naka datta futatsu no kaisha ga, konkai wa kyouryoku suru koto ni natta.",
+            "german": "Zwei Firmen, die lange verfeindet waren, arbeiten diesmal zusammen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common idiom about relationships; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 犬猿の仲【けんえんのなか】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1258340; spelling=犬猿の仲; reading=けんえんのなか; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1258340 犬猿の仲/けんえんのなか sense(s) 1 support \"wie Hund und Katze; spinnefeind\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1258340",
+            "spelling": "犬猿の仲",
+            "reading": "けんえんのなか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "like cats and dogs",
+                  "(on) very bad terms",
+                  "relationship of dogs and monkeys"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"wie Hund und Katze; spinnefeind\" matches JMdict 1258340 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Two people who always fight.",
+          "Rival companies cooperating."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1258340; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common idiom about relationships; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 犬猿の仲 / けんえんのなか; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 犬猿の仲 / けんえんのなか",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 犬猿の仲【けんえんのなか】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1258340 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "b89514c5ee4bef5d883069e73a9709c3166d9f51e4f82e69b29aa2f36cb184c4",
+        "approvalHash": "ee93fd7eb2b0e69a76b9a8f85571577e4f38d658cd02cf3a282b32396069ac47"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: ex2 German now \"Zwei Firmen, die lange verfeindet waren, arbeiten diesmal zusammen.\" – reflects 犬猿の仲だった correctly. Rest unchanged: dog/monkey vs dog/cat note and on-reading けんえん correct, ken'en apostrophe correct, JMdict 1258340. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "b89514c5ee4bef5d883069e73a9709c3166d9f51e4f82e69b29aa2f36cb184c4",
+        "approvalHash": "ee93fd7eb2b0e69a76b9a8f85571577e4f38d658cd02cf3a282b32396069ac47"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:suzume-no-namida",
+      "revisionId": "026-add-suzume-no-namida",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "雀の涙",
+        "reading": "すずめのなみだ",
+        "romaji": "suzume no namida",
+        "meaning": "ein winziger Betrag; ein Almosen",
+        "type": "Redewendung",
+        "category": "Geld",
+        "level": "N2",
+        "notes": "Wörtlich „Spatzentränen“: eine lächerlich kleine Menge, meist Geld (Lohn, Bonus, Zinsen). Leicht klagend oder ironisch.",
+        "examples": [
+          {
+            "japanese": "ボーナスは雀の涙ほどしか出なかった。",
+            "romaji": "Boonasu wa suzume no namida hodo shika denakatta.",
+            "german": "Der Bonus war nur ein Almosen."
+          },
+          {
+            "japanese": "銀行の利息なんて雀の涙だ。",
+            "romaji": "Ginkou no risoku nante suzume no namida da.",
+            "german": "Die Bankzinsen sind doch lächerlich gering."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common idiom about money; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 雀の涙【すずめのなみだ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1373570; spelling=雀の涙; reading=すずめのなみだ; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1373570 雀の涙/すずめのなみだ sense(s) 1 support \"ein winziger Betrag; ein Almosen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1373570",
+            "spelling": "雀の涙",
+            "reading": "すずめのなみだ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "drop in the bucket",
+                  "pittance",
+                  "chicken feed",
+                  "insignificant amount",
+                  "sparrow tears"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"ein winziger Betrag; ein Almosen\" matches JMdict 1373570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Small bonus at work.",
+          "Low bank interest."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1373570; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common idiom about money; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 雀の涙 / すずめのなみだ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 雀の涙 / すずめのなみだ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 雀の涙【すずめのなみだ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1373570 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "080be00025486f276f7ed16d9108448929d096738b0cde34496e06aa437667a6",
+        "approvalHash": "84dbc5845ccf217e4f6bd6a09c730b56f7056d72c3c521c85db4d38e28c1f1e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: meaning now \"ein winziger Betrag; ein Almosen\" – matches JMdict 1373570 (pittance) without the narrower \"Tropfen auf den heißen Stein\". Examples (bonus / bank interest) natural, romaji correct (Boonasu, Ginkou); Redewendung/Geld/N2 consistent. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "080be00025486f276f7ed16d9108448929d096738b0cde34496e06aa437667a6",
+        "approvalHash": "84dbc5845ccf217e4f6bd6a09c730b56f7056d72c3c521c85db4d38e28c1f1e2"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tsuru-no-hitokoe",
+      "revisionId": "026-add-tsuru-no-hitokoe",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鶴の一声",
+        "reading": "つるのひとこえ",
+        "romaji": "tsuru no hitokoe",
+        "meaning": "Machtwort (einer Autoritätsperson)",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Wörtlich „ein Ruf des Kranichs“: Ein einziges Wort einer mächtigen Person beendet eine lange Diskussion. Typisch in Firmen und Familien.",
+        "examples": [
+          {
+            "japanese": "会議は長引いたが、社長の鶴の一声で決まった。",
+            "romaji": "Kaigi wa nagabiita ga, shachou no tsuru no hitokoe de kimatta.",
+            "german": "Die Besprechung zog sich hin, aber ein Machtwort des Chefs entschied die Sache."
+          },
+          {
+            "japanese": "旅行先は祖父の鶴の一声で京都になった。",
+            "romaji": "Ryokousaki wa sofu no tsuru no hitokoe de Kyouto ni natta.",
+            "german": "Auf ein Machtwort des Großvaters hin wurde Kyoto das Reiseziel."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Idiom of written and business registers; the app places comparable idioms at N1. Editorial N1.",
+      "rationale": "Add 鶴の一声【つるのひとこえ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2140260; spelling=鶴の一声; reading=つるのひとこえ; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2140260 鶴の一声/つるのひとこえ sense(s) 1 support \"Machtwort (einer Autoritätsperson)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2140260",
+            "spelling": "鶴の一声",
+            "reading": "つるのひとこえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "final word",
+                  "voice of authority",
+                  "authoritative pronouncement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"Machtwort (einer Autoritätsperson)\" matches JMdict 2140260 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Decision in a company meeting.",
+          "Family decision."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2140260; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Idiom of written and business registers; the app places comparable idioms at N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 鶴の一声 / つるのひとこえ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 鶴の一声 / つるのひとこえ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 鶴の一声【つるのひとこえ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2140260 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "f73ea44915634ae114b6de46b36c5dbb5560db99a5ee55941a3d9f5000e5574c",
+        "approvalHash": "165fcae01d7d55fb6d02478bb4f97bce04514af69f6a39091543c8328eefa6b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): Machtwort matches JMdict 2140260; examples company meeting / family decision natural, romaji correct (nagabiita, Kyouto). N1 defensible. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "f73ea44915634ae114b6de46b36c5dbb5560db99a5ee55941a3d9f5000e5574c",
+        "approvalHash": "165fcae01d7d55fb6d02478bb4f97bce04514af69f6a39091543c8328eefa6b5"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:dasoku",
+      "revisionId": "026-add-dasoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "蛇足",
+        "reading": "だそく",
+        "romaji": "dasoku",
+        "meaning": "überflüssige Zugabe; unnötiger Zusatz",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Aus einer chinesischen Anekdote: Wer beim Wettmalen einer Schlange noch Füße dazumalt, verliert. Häufig als bescheidene Einleitung: 蛇足ですが… („Nur als kleine, vielleicht überflüssige Ergänzung …“).",
+        "examples": [
+          {
+            "japanese": "蛇足ですが、一つ付け加えさせてください。",
+            "romaji": "Dasoku desu ga, hitotsu tsukekuwaesasete kudasai.",
+            "german": "Auch wenn es überflüssig sein mag, lassen Sie mich noch etwas ergänzen."
+          },
+          {
+            "japanese": "最後の説明は蛇足だったかもしれない。",
+            "romaji": "Saigo no setsumei wa dasoku datta kamo shirenai.",
+            "german": "Die letzte Erklärung war vielleicht unnötig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167504658",
+            "patterns": [
+              0
+            ],
+            "finding": "蛇足 / ダソク; 名詞/普通名詞/一般/*; *; *; lemma 蛇足; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蛇足",
+              "reading": "だそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蛇足 as \"überflüssige Zugabe; unnötiger Zusatz\"."
+            }
+          }
+        ]
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Formal noun from a classical anecdote, used in writing and presentations. Editorial N1.",
+      "rationale": "Add 蛇足【だそく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1323390; spelling=蛇足; reading=だそく; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1323390 蛇足/だそく sense(s) 1 support \"überflüssige Zugabe; unnötiger Zusatz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1323390",
+            "spelling": "蛇足",
+            "reading": "だそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "redundancy",
+                  "superfluity",
+                  "useless addition"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"überflüssige Zugabe; unnötiger Zusatz\" matches JMdict 1323390 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Modest phrase before adding a remark.",
+          "Judging an explanation as superfluous."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1323390; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Formal noun from a classical anecdote, used in writing and presentations. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@167504658 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167504658",
+            "patterns": [
+              0
+            ],
+            "finding": "蛇足 / ダソク; 名詞/普通名詞/一般/*; *; *; lemma 蛇足; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蛇足",
+              "reading": "だそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蛇足 as \"überflüssige Zugabe; unnötiger Zusatz\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 蛇足【だそく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1323390 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a45712ebe91a1d5a778fcd2527f78cfa232a090fc332754ab5ab7da8584fb4f5",
+        "approvalHash": "d4bb8c526c9680fcec3129c3df02def0c749d24074b9ad14f47d8b3846ae1381"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1323390; Zhanguoce snake-drawing anecdote correctly summarised; 蛇足ですが usage accurate; examples natural (tsukekuwaesasete correct). Pitch 0 from exact UniDic row sys.dic@167504658 蛇足/ダソク 名詞-普通名詞-一般 lemma 蛇足 = taught lexeme (agrees with NHK だそく0). check.cjs: new.",
+        "contentHash": "a45712ebe91a1d5a778fcd2527f78cfa232a090fc332754ab5ab7da8584fb4f5",
+        "approvalHash": "d4bb8c526c9680fcec3129c3df02def0c749d24074b9ad14f47d8b3846ae1381"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ashi-o-arau",
+      "revisionId": "026-add-ashi-o-arau",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "足を洗う",
+        "reading": "あしをあらう",
+        "romaji": "ashi o arau",
+        "meaning": "aussteigen, einen Schlussstrich ziehen (unter ein zwielichtiges Leben)",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „sich die Füße waschen“. Im übertragenen Sinn: mit einer schlechten oder zwielichtigen Tätigkeit aufhören (Kriminalität, Glücksspiel), heute auch allgemein „einen Beruf an den Nagel hängen“.",
+        "examples": [
+          {
+            "japanese": "彼は悪い仲間から足を洗って、まじめに働いている。",
+            "romaji": "Kare wa warui nakama kara ashi o aratte, majime ni hataraite iru.",
+            "german": "Er hat mit seinen schlechten Freunden gebrochen und arbeitet jetzt ehrlich."
+          },
+          {
+            "japanese": "ギャンブルからはもう足を洗った。",
+            "romaji": "Gyanburu kara wa mou ashi o aratta.",
+            "german": "Mit dem Glücksspiel habe ich endgültig aufgehört."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 足を洗う【あしをあらう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1856360; spelling=足を洗う; reading=あしをあらう; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1856360 足を洗う/あしをあらう sense(s) 1,2 support \"aussteigen, einen Schlussstrich ziehen (unter ein zwielichtiges Leben)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1856360",
+            "spelling": "足を洗う",
+            "reading": "あしをあらう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'u' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to quit (a shady business)",
+                  "to wash one's hands of",
+                  "to cut one's ties with",
+                  "to turn over a new leaf",
+                  "to go straight"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'u' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to wash one's feet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"aussteigen, einen Schlussstrich ziehen (unter ein zwielichtiges Leben)\" matches JMdict 1856360 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Leaving a bad crowd.",
+          "Quitting gambling."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1856360; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 足を洗う / あしをあらう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 足を洗う / あしをあらう",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 足を洗う【あしをあらう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1856360 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "e69abc0458d372217633d9fc3ceff96b082c55a304061c2c5a2db886f73e8aa8",
+        "approvalHash": "368be2ad2d25a4a8847cef16eb541ccc4355a0ca7c363331dbf2eb4596707c67"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1856360 sense 1; note on modern broader use accurate; examples bad crowd / gambling natural, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "e69abc0458d372217633d9fc3ceff96b082c55a304061c2c5a2db886f73e8aa8",
+        "approvalHash": "368be2ad2d25a4a8847cef16eb541ccc4355a0ca7c363331dbf2eb4596707c67"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:te-o-yaku",
+      "revisionId": "026-add-te-o-yaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "手を焼く",
+        "reading": "てをやく",
+        "romaji": "te o yaku",
+        "meaning": "seine liebe Not haben (mit), nicht fertig werden mit",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „sich die Hand verbrennen“. Meist mit に: 子どもに手を焼く. Ähnlich: 手に負えない (nicht zu bändigen).",
+        "examples": [
+          {
+            "japanese": "息子のわがままに手を焼いている。",
+            "romaji": "Musuko no wagamama ni te o yaite iru.",
+            "german": "Mit dem Eigensinn meines Sohnes habe ich meine liebe Not."
+          },
+          {
+            "japanese": "この古いパソコンの設定には手を焼いた。",
+            "romaji": "Kono furui pasokon no settei ni wa te o yaita.",
+            "german": "Mit der Einrichtung dieses alten Computers hatte ich viel Mühe."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 手を焼く【てをやく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2028670; spelling=手を焼く; reading=てをやく; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2028670 手を焼く/てをやく sense(s) 1 support \"seine liebe Not haben (mit), nicht fertig werden mit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2028670",
+            "spelling": "手を焼く",
+            "reading": "てをやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to not know what to do with",
+                  "to be at a loss with",
+                  "to have difficulty with",
+                  "to be put out"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"seine liebe Not haben (mit), nicht fertig werden mit\" matches JMdict 2028670 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Difficult child.",
+          "Troublesome technical task."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2028670; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 手を焼く / てをやく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 手を焼く / てをやく",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 手を焼く【てをやく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2028670 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "ec020bcd7f936e0a999912ab11c522ffb1eb37fe6d46b9255ccda4d5b1aaeabb",
+        "approvalHash": "fd40ca8d72498920619e8cf86e48ac6b1efa9b1b6362153c6360417a10a93775"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 2028670; に-construction and 手に負えない cross-reference correct (existing idiom, not a duplicate); examples child / old PC natural. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "ec020bcd7f936e0a999912ab11c522ffb1eb37fe6d46b9255ccda4d5b1aaeabb",
+        "approvalHash": "fd40ca8d72498920619e8cf86e48ac6b1efa9b1b6362153c6360417a10a93775"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:me-ga-nai",
+      "revisionId": "026-add-me-ga-nai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "目がない",
+        "reading": "めがない",
+        "romaji": "me ga nai",
+        "meaning": "ganz verrückt sein nach; eine Schwäche haben für",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N3",
+        "notes": "Mit に: 甘いものに目がない („ganz versessen auf Süßes“). Seltener auch „keinen Blick für etwas haben“: 人を見る目がない (kein Menschenkenner sein).",
+        "examples": [
+          {
+            "japanese": "私はチョコレートに目がない。",
+            "romaji": "Watashi wa chokoreeto ni me ga nai.",
+            "german": "Bei Schokolade kann ich nicht widerstehen."
+          },
+          {
+            "japanese": "彼は人を見る目がないから、よくだまされる。",
+            "romaji": "Kare wa hito o miru me ga nai kara, yoku damasareru.",
+            "german": "Er ist kein guter Menschenkenner und wird oft hereingelegt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Very frequent everyday idiom. Editorial N3.",
+      "rationale": "Add 目がない【めがない】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1535080; spelling=目がない; reading=めがない; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1535080 目がない/めがない sense(s) 1,2 support \"ganz verrückt sein nach; eine Schwäche haben für\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1535080",
+            "spelling": "目がない",
+            "reading": "めがない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being extremely fond of",
+                  "having a weakness for",
+                  "being a sucker for"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "having no eye for",
+                  "being a poor judge of",
+                  "lacking insight"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"ganz verrückt sein nach; eine Schwäche haben für\" matches JMdict 1535080 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Weakness for a food.",
+          "Lacking judgment of people (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1535080; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Very frequent everyday idiom. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 目がない / めがない; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 目がない / めがない",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 目がない【めがない】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1535080 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d2ffcb3db99bea44977f9b3c942bad5911c52da14a54a36ed3e01c780c9c54da",
+        "approvalHash": "022ad2f244edd85b0752b4e1bf83dd1b8d3758c58867e81d77f74b77ff987977"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): JMdict 1535080 senses 1–2 covered; ex1 chocolate (sense 1) / ex2 人を見る目がない (sense 2) natural and distinct, romaji correct; N3/Gefühle reasonable. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "d2ffcb3db99bea44977f9b3c942bad5911c52da14a54a36ed3e01c780c9c54da",
+        "approvalHash": "022ad2f244edd85b0752b4e1bf83dd1b8d3758c58867e81d77f74b77ff987977"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:hone-ga-oreru",
+      "revisionId": "026-add-hone-ga-oreru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "骨が折れる",
+        "reading": "ほねがおれる",
+        "romaji": "hone ga oreru",
+        "meaning": "mühsam sein, viel Mühe kosten",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N3",
+        "notes": "Wörtlich „die Knochen brechen“, gemeint ist aber große Anstrengung (骨が折れる仕事 = mühsame Arbeit). Verwandt: 骨を折る (sich Mühe geben, sich für jemanden einsetzen).",
+        "examples": [
+          {
+            "japanese": "百人分の料理を作るのは骨が折れる。",
+            "romaji": "Hyakuninbun no ryouri o tsukuru no wa hone ga oreru.",
+            "german": "Für hundert Leute zu kochen ist mühsam."
+          },
+          {
+            "japanese": "この資料を全部翻訳するのは骨が折れる仕事だ。",
+            "romaji": "Kono shiryou o zenbu hon'yaku suru no wa hone ga oreru shigoto da.",
+            "german": "Diese Unterlagen komplett zu übersetzen ist eine mühsame Arbeit."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Frequent everyday idiom. Editorial N3.",
+      "rationale": "Add 骨が折れる【ほねがおれる】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1627350; spelling=骨が折れる; reading=ほねがおれる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1627350 骨が折れる/ほねがおれる sense(s) 1 support \"mühsam sein, viel Mühe kosten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1627350",
+            "spelling": "骨が折れる",
+            "reading": "ほねがおれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to be hard (to do)",
+                  "to be difficult",
+                  "to require much effort",
+                  "to be laborious",
+                  "to be backbreaking",
+                  "to have trouble (doing)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"mühsam sein, viel Mühe kosten\" matches JMdict 1627350 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cooking for many people.",
+          "Translation workload."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1627350; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Frequent everyday idiom. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 骨が折れる / ほねがおれる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 骨が折れる / ほねがおれる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 骨が折れる【ほねがおれる】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1627350 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d838b164b930863366b0a4c30706a6cf7707f0b7e07d1114ea652976748b02b1",
+        "approvalHash": "75e338af9c2c89063f408f8d9563edf2db09f2debc7c48c6f57db4b0315ecc97"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1627350; 骨を折る cross-reference correct (idioms:25, related, not a duplicate); examples natural, hon'yaku apostrophe correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "d838b164b930863366b0a4c30706a6cf7707f0b7e07d1114ea652976748b02b1",
+        "approvalHash": "75e338af9c2c89063f408f8d9563edf2db09f2debc7c48c6f57db4b0315ecc97"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ha-ga-tatanai",
+      "revisionId": "026-add-ha-ga-tatanai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "歯が立たない",
+        "reading": "はがたたない",
+        "romaji": "ha ga tatanai",
+        "meaning": "nicht gewachsen sein; sich die Zähne ausbeißen",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „die Zähne greifen nicht“ – auch buchstäblich bei hartem Essen. Übertragen: einem Gegner oder einer Aufgabe nicht gewachsen sein.",
+        "examples": [
+          {
+            "japanese": "この数学の問題は難しすぎて、全然歯が立たない。",
+            "romaji": "Kono suugaku no mondai wa muzukashisugite, zenzen ha ga tatanai.",
+            "german": "Diese Matheaufgabe ist zu schwer, ich beiße mir die Zähne daran aus."
+          },
+          {
+            "japanese": "チャンピオンが相手では、歯が立たなかった。",
+            "romaji": "Chanpion ga aite de wa, ha ga tatanakatta.",
+            "german": "Gegen den Champion hatte ich keine Chance."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 歯が立たない【はがたたない】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1313030; spelling=歯が立たない; reading=はがたたない; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1313030 歯が立たない/はがたたない sense(s) 1,2 support \"nicht gewachsen sein; sich die Zähne ausbeißen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1313030",
+            "spelling": "歯が立たない",
+            "reading": "はがたたない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "unable to compete with",
+                  "not able to make a dent in (e.g. a problem)",
+                  "not able to get a solid hit in (e.g. in a fight)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hard to chew"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"nicht gewachsen sein; sich die Zähne ausbeißen\" matches JMdict 1313030 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Too difficult a problem.",
+          "Losing to a stronger opponent."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1313030; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 歯が立たない / はがたたない; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 歯が立たない / はがたたない",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 歯が立たない【はがたたない】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1313030 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "ebccd49958e228f34b3d0108f9ae299f20101ef495a20f452afec6b023ac53ad",
+        "approvalHash": "25129dddf03ed8c5621d1edadffa7200878bb47532806cfe50610fbf645fe2f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): both JMdict 1313030 senses reflected; examples maths problem / champion natural, romaji correct (muzukashisugite, Chanpion). Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "ebccd49958e228f34b3d0108f9ae299f20101ef495a20f452afec6b023ac53ad",
+        "approvalHash": "25129dddf03ed8c5621d1edadffa7200878bb47532806cfe50610fbf645fe2f0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nodo-kara-te-ga-deru",
+      "revisionId": "026-add-nodo-kara-te-ga-deru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "喉から手が出る",
+        "reading": "のどからてがでる",
+        "romaji": "nodo kara te ga deru",
+        "meaning": "etwas unbedingt haben wollen",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „aus dem Hals kommt eine Hand“: so großes Verlangen, dass man danach greifen möchte. Meist als 喉から手が出るほど欲しい.",
+        "examples": [
+          {
+            "japanese": "あのギターは喉から手が出るほど欲しい。",
+            "romaji": "Ano gitaa wa nodo kara te ga deru hodo hoshii.",
+            "german": "Diese Gitarre will ich unbedingt haben."
+          },
+          {
+            "japanese": "経験のある人材は、どの会社も喉から手が出るほど欲しがっている。",
+            "romaji": "Keiken no aru jinzai wa, dono kaisha mo nodo kara te ga deru hodo hoshigatte iru.",
+            "german": "Erfahrene Fachkräfte will jede Firma um jeden Preis haben."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 喉から手が出る【のどからてがでる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2028680; spelling=喉から手が出る; reading=のどからてがでる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2028680 喉から手が出る/のどからてがでる sense(s) 1 support \"etwas unbedingt haben wollen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2028680",
+            "spelling": "喉から手が出る",
+            "reading": "のどからてがでる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "(wanting something so badly that) one can almost taste it",
+                  "a hand reaches out from one's throat"
+                ],
+                "notes": [
+                  "as ～ほど, 〜くらい, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"etwas unbedingt haben wollen\" matches JMdict 2028680 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Personal wish for an object.",
+          "Companies desperate for staff."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2028680; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 喉から手が出る / のどからてがでる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 喉から手が出る / のどからてがでる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 喉から手が出る【のどからてがでる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2028680 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d8b17147caf3eafbaf820efba86de830d4d1a1c9700c299237594606df1b9afa",
+        "approvalHash": "c063767c7b549bb1a79e3e8dcdd3af55f0ed2b62265e854631ac5d1884a603a3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 2028680; ～ほど欲しい / 欲しがる examples natural and distinct, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "d8b17147caf3eafbaf820efba86de830d4d1a1c9700c299237594606df1b9afa",
+        "approvalHash": "c063767c7b549bb1a79e3e8dcdd3af55f0ed2b62265e854631ac5d1884a603a3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ageashi-o-toru",
+      "revisionId": "026-add-ageashi-o-toru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "揚げ足を取る",
+        "reading": "あげあしをとる",
+        "romaji": "ageashi o toru",
+        "meaning": "jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln",
+        "type": "Redewendung",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Aus dem Ringen: das hochgehobene Bein des Gegners packen. Heißt, jemanden an einem kleinen Versprecher oder Formulierungsfehler zu packen, statt auf den Inhalt einzugehen.",
+        "examples": [
+          {
+            "japanese": "人の揚げ足を取るのはやめなさい。",
+            "romaji": "Hito no ageashi o toru no wa yamenasai.",
+            "german": "Hör auf, anderen jeden kleinen Versprecher vorzuhalten."
+          },
+          {
+            "japanese": "議論が揚げ足の取り合いになってしまった。",
+            "romaji": "Giron ga ageashi no toriai ni natte shimatta.",
+            "german": "Die Diskussion ist in gegenseitige Haarspalterei ausgeartet."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Idiom of argument and debate; the app places comparable idioms at N1. Editorial N1.",
+      "rationale": "Add 揚げ足を取る【あげあしをとる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1586280; spelling=揚げ足を取る; reading=あげあしをとる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1586280 揚げ足を取る/あげあしをとる sense(s) 1 support \"jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1586280",
+            "spelling": "揚げ足を取る",
+            "reading": "あげあしをとる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to jump on someone's (verbal) mistake",
+                  "to trip someone up",
+                  "to find fault with something someone says"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln\" matches JMdict 1586280 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Scolding someone for nitpicking.",
+          "Debate turning into mutual nitpicking."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1586280; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Idiom of argument and debate; the app places comparable idioms at N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 揚げ足を取る / あげあしをとる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 揚げ足を取る / あげあしをとる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 揚げ足を取る【あげあしをとる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1586280 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "32574a24c2852b5d3de3327b3452c4e099cdda235ad2220432711df66aa25437",
+        "approvalHash": "11a0c885b474c3f8e7bae8acc69fad0b7c998a3d0be3a34c0248f927b9ddc3c0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: round-1 rejection fixed. Meaning now \"jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln\" and ex1 German \"Hör auf, anderen jeden kleinen Versprecher vorzuhalten.\" – both match JMdict 1586280 (jump on someone's verbal mistake) and are consistent with the note; wrestling origin correct; ex2 unchanged and fine. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "32574a24c2852b5d3de3327b3452c4e099cdda235ad2220432711df66aa25437",
+        "approvalHash": "11a0c885b474c3f8e7bae8acc69fad0b7c998a3d0be3a34c0248f927b9ddc3c0"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:aji-o-shimeru",
+      "revisionId": "026-add-aji-o-shimeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "味を占める",
+        "reading": "あじをしめる",
+        "romaji": "aji o shimeru",
+        "meaning": "auf den Geschmack kommen (nach einem ersten Erfolg)",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Nach einem ersten Erfolg oder Vorteil will man dasselbe wieder versuchen – oft mit leicht negativem Beiklang (Gier, Leichtsinn). Oft auch in Kana: 味をしめる.",
+        "examples": [
+          {
+            "japanese": "一度宝くじが当たったのに味を占めて、毎週買っている。",
+            "romaji": "Ichido takarakuji ga atatta no ni aji o shimete, maishuu katte iru.",
+            "german": "Seit er einmal im Lotto gewonnen hat, ist er auf den Geschmack gekommen und kauft jede Woche Lose."
+          },
+          {
+            "japanese": "カラスは一度ごみをあさって味を占めると、何度も来る。",
+            "romaji": "Karasu wa ichido gomi o asatte aji o shimeru to, nando mo kuru.",
+            "german": "Wenn eine Krähe einmal im Müll Futter gefunden hat, kommt sie immer wieder."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Less frequent idiom of the written register. Editorial N1.",
+      "rationale": "Add 味を占める【あじをしめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2102010; spelling=味を占める; reading=あじをしめる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2102010 味を占める/あじをしめる sense(s) 1 support \"auf den Geschmack kommen (nach einem ersten Erfolg)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2102010",
+            "spelling": "味を占める",
+            "reading": "あじをしめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to be encouraged by initial success",
+                  "to get a taste for",
+                  "to yearn for more"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"auf den Geschmack kommen (nach einem ersten Erfolg)\" matches JMdict 2102010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Repeating after a lottery win.",
+          "Crows returning to garbage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2102010; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Less frequent idiom of the written register. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 味を占める / あじをしめる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 味を占める / あじをしめる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 味を占める【あじをしめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2102010 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "40d356bdcfb69c677851872cb99444a28982cda310a7d33cacd887b1f0a93f4f",
+        "approvalHash": "ab78b87db8f6fc8d3559a34b8afa50413597252d48b48dfa8fa42f169198565d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: note now adds \"Oft auch in Kana: 味をしめる.\" – correct. Rest unchanged: meaning matches JMdict 2102010; ex1 ～のに味を占めて (の+に, romaji \"no ni\") and ex2 crows natural. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "40d356bdcfb69c677851872cb99444a28982cda310a7d33cacd887b1f0a93f4f",
+        "approvalHash": "ab78b87db8f6fc8d3559a34b8afa50413597252d48b48dfa8fa42f169198565d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ita-ni-tsuku",
+      "revisionId": "026-add-ita-ni-tsuku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "板につく",
+        "reading": "いたにつく",
+        "romaji": "ita ni tsuku",
+        "meaning": "in etwas hineinwachsen; zur zweiten Natur werden",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Aus dem Theater: Ein Schauspieler „passt auf die Bretter“ (板 = Bühne). Heute: eine Rolle, ein Beruf oder Kleidung wirkt natürlich und selbstverständlich. Auch 板に付く geschrieben.",
+        "examples": [
+          {
+            "japanese": "彼女の先生ぶりもすっかり板についてきた。",
+            "romaji": "Kanojo no senseiburi mo sukkari ita ni tsuite kita.",
+            "german": "Sie ist inzwischen ganz in ihre Rolle als Lehrerin hineingewachsen."
+          },
+          {
+            "japanese": "新入社員はまだスーツ姿が板についていない。",
+            "romaji": "Shinnyuu shain wa mada suutsu sugata ga ita ni tsuite inai.",
+            "german": "Die neuen Mitarbeiter wirken im Anzug noch nicht ganz natürlich."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Idiom of the written register. Editorial N1.",
+      "rationale": "Add 板につく【いたにつく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1858410; spelling=板につく; reading=いたにつく; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1858410 板につく/いたにつく sense(s) 1,2 support \"in etwas hineinwachsen; zur zweiten Natur werden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1858410",
+            "spelling": "板につく",
+            "reading": "いたにつく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to get used to",
+                  "to become accustomed to"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to be at home (on the stage)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"in etwas hineinwachsen; zur zweiten Natur werden\" matches JMdict 1858410 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Growing into a profession.",
+          "New employee not yet at ease in a suit."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1858410; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Idiom of the written register. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 板につく / いたにつく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 板につく / いたにつく",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 板につく【いたにつく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1858410 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "889643309ff0f43f4b20e4788b6999db1c22dae419fc25f71527a47f6a5048d0",
+        "approvalHash": "7e33c3ecd02e60c338d60c5d9944e80f057dfdd3a4b7347d7ab62c348fbf02da"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: ex2 is now a full sentence 新入社員はまだスーツ姿が板についていない。/ Shinnyuu shain wa mada suutsu sugata ga ita ni tsuite inai. / \"Die neuen Mitarbeiter wirken im Anzug noch nicht ganz natürlich.\" – grammatical, natural, romaji exact, German accurate (singular/plural of 新入社員 open, plural fine). Theatre origin and JMdict 1858410 senses correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "889643309ff0f43f4b20e4788b6999db1c22dae419fc25f71527a47f6a5048d0",
+        "approvalHash": "7e33c3ecd02e60c338d60c5d9944e80f057dfdd3a4b7347d7ab62c348fbf02da"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nehorihahori",
+      "revisionId": "026-add-nehorihahori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "根掘り葉掘り",
+        "reading": "ねほりはほり",
+        "romaji": "nehori hahori",
+        "meaning": "haarklein, bis ins Kleinste (ausfragen)",
+        "type": "Adverb",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Wörtlich „Wurzeln ausgraben, Blätter ausgraben“. Fast immer mit 聞く／尋ねる und leicht vorwurfsvoll: jemanden neugierig ausfragen.",
+        "examples": [
+          {
+            "japanese": "初対面なのに、家族のことを根掘り葉掘り聞かれた。",
+            "romaji": "Shotaimen na noni, kazoku no koto o nehori hahori kikareta.",
+            "german": "Obwohl wir uns gerade erst kennengelernt hatten, wurde ich haarklein über meine Familie ausgefragt."
+          },
+          {
+            "japanese": "記者は事件について根掘り葉掘り質問した。",
+            "romaji": "Kisha wa jiken ni tsuite nehori hahori shitsumon shita.",
+            "german": "Der Reporter fragte bis ins letzte Detail über den Vorfall nach."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common adverbial idiom. Editorial N2.",
+      "rationale": "Add 根掘り葉掘り【ねほりはほり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1290060; spelling=根掘り葉掘り; reading=ねほりはほり; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1290060 根掘り葉掘り/ねほりはほり sense(s) 1 support \"haarklein, bis ins Kleinste (ausfragen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1290060",
+            "spelling": "根掘り葉掘り",
+            "reading": "ねほりはほり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inquisitively",
+                  "pryingly",
+                  "nosily",
+                  "thoroughly",
+                  "persistently",
+                  "through-and-through"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"haarklein, bis ins Kleinste (ausfragen)\" matches JMdict 1290060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Nosy questions at a first meeting.",
+          "Reporter questioning in detail."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1290060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Common adverbial idiom. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 根掘り葉掘り / ねほりはほり; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 根掘り葉掘り / ねほりはほり",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 根掘り葉掘り【ねほりはほり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1290060 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "f20671912d69135ab96c6b64bc745b37334bd5425f68649dcc28980c5e5f7834",
+        "approvalHash": "c196253d3caa85dbf061c8813016bdc90bbe1a1b483fd2606ff4588658c8156a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1290060; examples 初対面なのに / reporter natural, romaji correct; Adverb type sensible. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "f20671912d69135ab96c6b64bc745b37334bd5425f68649dcc28980c5e5f7834",
+        "approvalHash": "c196253d3caa85dbf061c8813016bdc90bbe1a1b483fd2606ff4588658c8156a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kitsune-ni-tsumamareru",
+      "revisionId": "026-add-kitsune-ni-tsumamareru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "狐につままれる",
+        "reading": "きつねにつままれる",
+        "romaji": "kitsune ni tsumamareru",
+        "meaning": "völlig verdutzt sein; wie verhext",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Im Volksglauben verzaubert der Fuchs Menschen. Beschreibt Verwirrung über etwas Unerklärliches, meist als 狐につままれたような顔／気分.",
+        "examples": [
+          {
+            "japanese": "財布が急に見つかって、狐につままれたような気分だ。",
+            "romaji": "Saifu ga kyuu ni mitsukatte, kitsune ni tsumamareta you na kibun da.",
+            "german": "Das Portemonnaie ist plötzlich wieder aufgetaucht – ich fühle mich wie verhext."
+          },
+          {
+            "japanese": "説明を聞いても、みんな狐につままれたような顔をしていた。",
+            "romaji": "Setsumei o kiite mo, minna kitsune ni tsumamareta you na kao o shite ita.",
+            "german": "Auch nach der Erklärung schauten alle völlig verdutzt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Idiom of the written register; the app places comparable idioms at N1. Editorial N1.",
+      "rationale": "Add 狐につままれる【きつねにつままれる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2582970; spelling=狐につままれる; reading=きつねにつままれる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2582970 狐につままれる/きつねにつままれる sense(s) 1 support \"völlig verdutzt sein; wie verhext\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2582970",
+            "spelling": "狐につままれる",
+            "reading": "きつねにつままれる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to be confused",
+                  "to be baffled",
+                  "to be dumbfounded",
+                  "to be bewildered",
+                  "to be bewitched by a fox"
+                ],
+                "notes": [
+                  "usu. as 狐につままれた"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"völlig verdutzt sein; wie verhext\" matches JMdict 2582970 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Inexplicable event.",
+          "Baffled faces after an explanation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2582970; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Idiom of the written register; the app places comparable idioms at N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 狐につままれる / きつねにつままれる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 狐につままれる / きつねにつままれる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 狐につままれる【きつねにつままれる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2582970 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a74b6fad5aab16ebe33769721c625f92c841b37086d2e1667c124029200b12a6",
+        "approvalHash": "779487002405b7ca505f8ec22e9509f496c7d5e8033c647461c4653822a6d4d2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 2582970; fox folklore note and ～たような気分/顔 examples natural, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "a74b6fad5aab16ebe33769721c625f92c841b37086d2e1667c124029200b12a6",
+        "approvalHash": "779487002405b7ca505f8ec22e9509f496c7d5e8033c647461c4653822a6d4d2"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mayu-o-hisomeru",
+      "revisionId": "026-add-mayu-o-hisomeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "眉をひそめる",
+        "reading": "まゆをひそめる",
+        "romaji": "mayu o hisomeru",
+        "meaning": "die Stirn runzeln (aus Missbilligung)",
+        "type": "Redewendung",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Die Augenbrauen zusammenziehen – Ausdruck von Missfallen oder Sorge über das Verhalten anderer. Auch 眉を顰める geschrieben.",
+        "examples": [
+          {
+            "japanese": "電車の中で大声で話す若者に、周りの人は眉をひそめた。",
+            "romaji": "Densha no naka de oogoe de hanasu wakamono ni, mawari no hito wa mayu o hisometa.",
+            "german": "Über die jungen Leute, die im Zug laut redeten, runzelten die anderen Fahrgäste die Stirn."
+          },
+          {
+            "japanese": "彼の失礼な言葉に、先生は眉をひそめた。",
+            "romaji": "Kare no shitsurei na kotoba ni, sensei wa mayu o hisometa.",
+            "german": "Bei seinen unhöflichen Worten runzelte der Lehrer die Stirn."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Body-part idiom of the written register. Editorial N1.",
+      "rationale": "Add 眉をひそめる【まゆをひそめる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2125270; spelling=眉をひそめる; reading=まゆをひそめる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2125270 眉をひそめる/まゆをひそめる sense(s) 1 support \"die Stirn runzeln (aus Missbilligung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2125270",
+            "spelling": "眉をひそめる",
+            "reading": "まゆをひそめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to knit one's brows (in discomfort, unease, disapproval, etc.)",
+                  "to raise one's eyebrows",
+                  "to frown"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"die Stirn runzeln (aus Missbilligung)\" matches JMdict 2125270 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Disapproval of noisy behaviour on a train.",
+          "Teacher reacting to rudeness."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2125270; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Body-part idiom of the written register. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 眉をひそめる / まゆをひそめる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 眉をひそめる / まゆをひそめる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 眉をひそめる【まゆをひそめる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2125270 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "24c15e861f433dca589ddb4a122ab671b9bacabc907ba5897f8363474f575d7d",
+        "approvalHash": "2eab8a329f7c5fafce983060ff73da52c790bd40dbabdbf98a95c8cf77f9a53e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: ex1 German now \"…runzelten die anderen Fahrgäste die Stirn\" – fits 周りの人 in a train. Rest unchanged: meaning matches JMdict 2125270, 眉を顰める variant note correct, ex2 natural. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "24c15e861f433dca589ddb4a122ab671b9bacabc907ba5897f8363474f575d7d",
+        "approvalHash": "2eab8a329f7c5fafce983060ff73da52c790bd40dbabdbf98a95c8cf77f9a53e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ude-ga-agaru",
+      "revisionId": "026-add-ude-ga-agaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "腕が上がる",
+        "reading": "うでがあがる",
+        "romaji": "ude ga agaru",
+        "meaning": "besser werden, sich verbessern (Können)",
+        "type": "Redewendung",
+        "category": "Körper",
+        "level": "N2",
+        "notes": "腕 steht für Können: 腕が上がる = die Fähigkeiten verbessern sich (料理の腕が上がった). Verwandt: 腕がいい (geschickt sein), 腕を磨く (sein Können schleifen).",
+        "examples": [
+          {
+            "japanese": "毎日練習して、料理の腕が上がった。",
+            "romaji": "Mainichi renshuu shite, ryouri no ude ga agatta.",
+            "german": "Durch tägliches Üben bin ich beim Kochen besser geworden."
+          },
+          {
+            "japanese": "この一年でテニスの腕がずいぶん上がったね。",
+            "romaji": "Kono ichinen de tenisu no ude ga zuibun agatta ne.",
+            "german": "Im letzten Jahr bist du im Tennis viel besser geworden."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 腕が上がる【うでがあがる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1854800; spelling=腕が上がる; reading=うでがあがる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1854800 腕が上がる/うでがあがる sense(s) 1 support \"besser werden, sich verbessern (Können)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1854800",
+            "spelling": "腕が上がる",
+            "reading": "うでがあがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to gain in skill",
+                  "to improve",
+                  "to get better"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"besser werden, sich verbessern (Können)\" matches JMdict 1854800 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Improving cooking skills.",
+          "Praising progress in a sport."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1854800; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 腕が上がる / うでがあがる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 腕が上がる / うでがあがる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 腕が上がる【うでがあがる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1854800 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "f4a00a550cd2a00e901f33b8660f9584826df0a1ba14c98351191c8307709d91",
+        "approvalHash": "a77d0c9667cf7ce740236468137ab40aa6c203a2f3e810290d696f28a044a29a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1854800; 腕を磨く cross-reference exists (idioms:18, not a duplicate); examples cooking / tennis natural, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "f4a00a550cd2a00e901f33b8660f9584826df0a1ba14c98351191c8307709d91",
+        "approvalHash": "a77d0c9667cf7ce740236468137ab40aa6c203a2f3e810290d696f28a044a29a"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:ki-ga-sumu",
+      "revisionId": "026-add-ki-ga-sumu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気が済む",
+        "reading": "きがすむ",
+        "romaji": "ki ga sumu",
+        "meaning": "zufrieden sein; sich besser fühlen (wenn etwas erledigt ist)",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N3",
+        "notes": "Das innere Bedürfnis ist befriedigt. Häufig: 気が済むまで („so lange, bis man zufrieden ist“) und vorwurfsvoll 何度謝れば気が済むの？",
+        "examples": [
+          {
+            "japanese": "気が済むまで泣いていいよ。",
+            "romaji": "Ki ga sumu made naite ii yo.",
+            "german": "Du darfst weinen, bis es dir besser geht."
+          },
+          {
+            "japanese": "全部自分で確認しないと気が済まない。",
+            "romaji": "Zenbu jibun de kakunin shinai to ki ga sumanai.",
+            "german": "Ich habe keine Ruhe, bevor ich nicht alles selbst überprüft habe."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Frequent everyday 気 idiom. Editorial N3.",
+      "rationale": "Add 気が済む【きがすむ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1221580; spelling=気が済む; reading=きがすむ; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1221580 気が済む/きがすむ sense(s) 1 support \"zufrieden sein; sich besser fühlen (wenn etwas erledigt ist)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1221580",
+            "spelling": "気が済む",
+            "reading": "きがすむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'mu' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be satisfied",
+                  "to find peace of mind",
+                  "to feel good"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"zufrieden sein; sich besser fühlen (wenn etwas erledigt ist)\" matches JMdict 1221580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Comforting someone.",
+          "Perfectionist habit."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1221580; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Frequent everyday 気 idiom. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 気が済む / きがすむ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 気が済む / きがすむ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 気が済む【きがすむ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1221580 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "2b50cbabae58fdbbba99065eb123b26c2530ea2e989d432ea4bdeae6f5b3fd6f",
+        "approvalHash": "8c888e9ad6febc79f38b500f312027de869418f22d4b53c5ac1367e1996e0104"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1221580; 気が済むまで / ～ないと気が済まない examples natural and distinct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "2b50cbabae58fdbbba99065eb123b26c2530ea2e989d432ea4bdeae6f5b3fd6f",
+        "approvalHash": "8c888e9ad6febc79f38b500f312027de869418f22d4b53c5ac1367e1996e0104"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sensabanbetsu",
+      "revisionId": "026-add-sensabanbetsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "千差万別",
+        "reading": "せんさばんべつ",
+        "romaji": "sensa banbetsu",
+        "meaning": "unendlich verschieden; jeder ist anders",
+        "type": "Yojijukugo",
+        "category": "Lebensweisheit",
+        "level": "N1",
+        "notes": "Wörtlich „tausend Unterschiede, zehntausend Verschiedenheiten“. Betont die große Vielfalt von Meinungen, Geschmäckern oder Menschen; ähnlich 十人十色.",
+        "examples": [
+          {
+            "japanese": "人の好みは千差万別だ。",
+            "romaji": "Hito no konomi wa sensa banbetsu da.",
+            "german": "Geschmäcker sind ganz verschieden."
+          },
+          {
+            "japanese": "同じ質問でも、答えは千差万別だった。",
+            "romaji": "Onaji shitsumon demo, kotae wa sensa banbetsu datta.",
+            "german": "Auf dieselbe Frage kamen ganz unterschiedliche Antworten."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Four-character compound of the written register; the app places most yojijukugo at N2–N1. Editorial N1.",
+      "rationale": "Add 千差万別【せんさばんべつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1388840; spelling=千差万別; reading=せんさばんべつ; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1388840 千差万別/せんさばんべつ sense(s) 1 support \"unendlich verschieden; jeder ist anders\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1388840",
+            "spelling": "千差万別",
+            "reading": "せんさばんべつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "an infinite variety of",
+                  "multifarious",
+                  "being extremely varied and wide-ranging"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"unendlich verschieden; jeder ist anders\" matches JMdict 1388840 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Personal taste.",
+          "Variety of answers to one question."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1388840; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Four-character compound of the written register; the app places most yojijukugo at N2–N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 千差万別 / せんさばんべつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 千差万別 / せんさばんべつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 千差万別【せんさばんべつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1388840 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "58869c8857ac72632c0707ff686f996745ddadfdd0b4d7cd0d5c6d4de7154a59",
+        "approvalHash": "cb0e55ce0887314b9ccb9a21942b7bc21bf3103b3702501354008a62adad766d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1388840; 十人十色 comparison correct (idioms:211, related, not a duplicate); romaji \"sensa banbetsu\" matches yojijukugo spacing; N1/Lebensweisheit consistent. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "58869c8857ac72632c0707ff686f996745ddadfdd0b4d7cd0d5c6d4de7154a59",
+        "approvalHash": "cb0e55ce0887314b9ccb9a21942b7bc21bf3103b3702501354008a62adad766d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:youtoukuniku",
+      "revisionId": "026-add-youtoukuniku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "羊頭狗肉",
+        "reading": "ようとうくにく",
+        "romaji": "youtou kuniku",
+        "meaning": "Etikettenschwindel; mehr Schein als Sein",
+        "type": "Yojijukugo",
+        "category": "Warnung",
+        "level": "N1",
+        "notes": "Wörtlich „Schafskopf (aushängen), Hundefleisch (verkaufen)“: Das Äußere verspricht Besseres, als der Inhalt hält – etwa bei Werbung oder Produkten. Schriftsprachlich.",
+        "examples": [
+          {
+            "japanese": "この広告は羊頭狗肉だと批判された。",
+            "romaji": "Kono koukoku wa youtou kuniku da to hihan sareta.",
+            "german": "Diese Werbung wurde als Etikettenschwindel kritisiert."
+          },
+          {
+            "japanese": "立派な名前の講座だったが、内容は羊頭狗肉だった。",
+            "romaji": "Rippa na namae no kouza datta ga, naiyou wa youtou kuniku datta.",
+            "german": "Der Kurs hatte einen großartigen Namen, doch der Inhalt war mehr Schein als Sein."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Four-character compound of the written register. Editorial N1.",
+      "rationale": "Add 羊頭狗肉【ようとうくにく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1546510; spelling=羊頭狗肉; reading=ようとうくにく; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1546510 羊頭狗肉/ようとうくにく sense(s) 1 support \"Etikettenschwindel; mehr Schein als Sein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1546510",
+            "spelling": "羊頭狗肉",
+            "reading": "ようとうくにく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "crying wine and selling vinegar",
+                  "deceptive advertisement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"Etikettenschwindel; mehr Schein als Sein\" matches JMdict 1546510 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Criticism of advertising.",
+          "Disappointing course content."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1546510; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Four-character compound of the written register. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 羊頭狗肉 / ようとうくにく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 羊頭狗肉 / ようとうくにく",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 羊頭狗肉【ようとうくにく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1546510 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "ba8a7b3f8dd8545d30777d9280535cb253c6529c92bf835291ea83f39ae6b8bb",
+        "approvalHash": "1d7abfcc7cf19f39c651d1a2edead3f6360d1a55e21d3268c5ac6a7b7c9ca935"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): Etikettenschwindel matches JMdict 1546510; literal gloss reflects 羊頭を掲げて狗肉を売る; examples advertising / course natural, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "ba8a7b3f8dd8545d30777d9280535cb253c6529c92bf835291ea83f39ae6b8bb",
+        "approvalHash": "1d7abfcc7cf19f39c651d1a2edead3f6360d1a55e21d3268c5ac6a7b7c9ca935"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hana-ni-tsuku",
+      "revisionId": "026-add-hana-ni-tsuku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鼻につく",
+        "reading": "はなにつく",
+        "romaji": "hana ni tsuku",
+        "meaning": "unangenehm auffallen; einem auf die Nerven gehen",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „an der Nase haften“: Ein Verhalten, eine Art zu reden oder ein Geruch wird mit der Zeit lästig. Typisch: 自慢話が鼻につく (die Angeberei nervt).",
+        "examples": [
+          {
+            "japanese": "彼の自慢話がだんだん鼻についてきた。",
+            "romaji": "Kare no jiman banashi ga dandan hana ni tsuite kita.",
+            "german": "Seine Angeberei geht mir allmählich auf die Nerven."
+          },
+          {
+            "japanese": "この香水は強すぎて、少し鼻につく。",
+            "romaji": "Kono kousui wa tsuyosugite, sukoshi hana ni tsuku.",
+            "german": "Dieses Parfüm ist zu stark und riecht etwas aufdringlich."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 鼻につく【はなにつく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2060860; spelling=鼻につく; reading=はなにつく; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2060860 鼻につく/はなにつく sense(s) 1,2 support \"unangenehm auffallen; einem auf die Nerven gehen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2060860",
+            "spelling": "鼻につく",
+            "reading": "はなにつく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be cloying",
+                  "to be sick and tired with",
+                  "to be disgusted with",
+                  "to get up someone's nose"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to stink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"unangenehm auffallen; einem auf die Nerven gehen\" matches JMdict 2060860 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Annoying behaviour (boasting).",
+          "Overpowering smell (literal sense)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2060860; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 鼻につく / はなにつく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 鼻につく / はなにつく",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 鼻につく【はなにつく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2060860 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "3615fb10edaf5a96ecd4ec8f3408f09e5c037ca81d541aae64babb2135741916",
+        "approvalHash": "803c3d7a42c1021437d994f7006232a760f8d1e40d72effb3db89e44c2aad7d1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2, new entry (replaces dropped 井の中の蛙): meaning \"unangenehm auffallen; einem auf die Nerven gehen\" supported by JMdict 2060860 sense 1 (cloying; sick and tired with; get up someone's nose); the smell use in note/ex2 covers sense 2 (to stink) – ex2 \"riecht etwas aufdringlich\" is a fair rendering of the milder 少し鼻につく. ex1 自慢話がだんだん鼻についてきた (boasting) / ex2 perfume: grammatical, natural, distinct; romaji exact (jiman banashi with rendaku, kousui, tsuyosugite). Literal gloss \"an der Nase haften\" acceptable. N2/Redewendung/Gefühle consistent with body-part idioms. Pitch null confirmed: research2.json has no exact UniDic row. check.cjs: 鼻につく and 鼻に付く both new; no near-duplicate in idioms-data.js (only 鼻が高い, a different idiom; 鼻にかける absent).",
+        "contentHash": "3615fb10edaf5a96ecd4ec8f3408f09e5c037ca81d541aae64babb2135741916",
+        "approvalHash": "803c3d7a42c1021437d994f7006232a760f8d1e40d72effb3db89e44c2aad7d1"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:neko-no-hitai",
+      "revisionId": "026-add-neko-no-hitai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "猫の額",
+        "reading": "ねこのひたい",
+        "romaji": "neko no hitai",
+        "meaning": "winzig (Grundstück, Garten)",
+        "type": "Redewendung",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Wörtlich „Katzenstirn“: eine sehr kleine Fläche, besonders bescheiden über den eigenen Garten oder das eigene Grundstück gesagt.",
+        "examples": [
+          {
+            "japanese": "猫の額ほどの庭で野菜を育てています。",
+            "romaji": "Neko no hitai hodo no niwa de yasai o sodatete imasu.",
+            "german": "In unserem winzigen Garten ziehe ich Gemüse."
+          },
+          {
+            "japanese": "東京では猫の額のような土地でも高い。",
+            "romaji": "Toukyou de wa neko no hitai no you na tochi demo takai.",
+            "german": "In Tokyo ist selbst ein winziges Grundstück teuer."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common animal idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 猫の額【ねこのひたい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1845690; spelling=猫の額; reading=ねこのひたい; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1845690 猫の額/ねこのひたい sense(s) 1 support \"winzig (Grundstück, Garten)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1845690",
+            "spelling": "猫の額",
+            "reading": "ねこのひたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "tiny area",
+                  "tiny surface",
+                  "cat's forehead"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"winzig (Grundstück, Garten)\" matches JMdict 1845690 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Modest remark about one’s garden.",
+          "Land prices in Tokyo."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1845690; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common animal idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 猫の額 / ねこのひたい; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 猫の額 / ねこのひたい",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 猫の額【ねこのひたい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1845690 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "3a89d3a8c83dda563d900d4f39b6b2288f1fddf735a0bd229bd16d2cb03932cd",
+        "approvalHash": "73bfd41578c195d3bb2cc613c445144562dd3019cd85f50f76c4f4d732b10dc8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 1845690; ～ほどの庭 / ～のような土地 examples natural, romaji correct (Toukyou de wa). Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "3a89d3a8c83dda563d900d4f39b6b2288f1fddf735a0bd229bd16d2cb03932cd",
+        "approvalHash": "73bfd41578c195d3bb2cc613c445144562dd3019cd85f50f76c4f4d732b10dc8"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kubi-o-tsukkomu",
+      "revisionId": "026-add-kubi-o-tsukkomu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "首を突っ込む",
+        "reading": "くびをつっこむ",
+        "romaji": "kubi o tsukkomu",
+        "meaning": "seine Nase (in fremde Angelegenheiten) stecken; sich einmischen",
+        "type": "Redewendung",
+        "category": "Beziehungen",
+        "level": "N2",
+        "notes": "Wörtlich „den Hals hineinstecken“. Meist kritisch: sich in Dinge einmischen, die einen nichts angehen; seltener neutral „sich intensiv mit etwas beschäftigen“.",
+        "examples": [
+          {
+            "japanese": "他人の問題に首を突っ込まないほうがいい。",
+            "romaji": "Tanin no mondai ni kubi o tsukkomanai hou ga ii.",
+            "german": "Du solltest deine Nase nicht in die Probleme anderer stecken."
+          },
+          {
+            "japanese": "彼は何にでも首を突っ込みたがる。",
+            "romaji": "Kare wa nan ni demo kubi o tsukkomitagaru.",
+            "german": "Er will sich überall einmischen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 首を突っ込む【くびをつっこむ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2016320; spelling=首を突っ込む; reading=くびをつっこむ; senses=1,2; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2016320 首を突っ込む/くびをつっこむ sense(s) 1,2 support \"seine Nase (in fremde Angelegenheiten) stecken; sich einmischen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2016320",
+            "spelling": "首を突っ込む",
+            "reading": "くびをつっこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'mu' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to poke one's nose into another's affairs",
+                  "to have a hand in",
+                  "to take a (deep) interest in",
+                  "to meddle in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'mu' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to poke one's head (into a room)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"seine Nase (in fremde Angelegenheiten) stecken; sich einmischen\" matches JMdict 2016320 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Advice not to interfere.",
+          "Describing a meddling person."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 2016320; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 首を突っ込む / くびをつっこむ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 首を突っ込む / くびをつっこむ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 首を突っ込む【くびをつっこむ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2016320 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "13cde5dd437f2791c1a149ce4d4f72eabf2eb2943bf49b9dbcdafab96a043816",
+        "approvalHash": "140509b9b3dfcff402f67cb28e03de43cf1cecfeb37553ec87d35bd28255cda4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2 (entry unchanged, re-checked against final assembly b57a5ec2): meaning matches JMdict 2016320 sense 1; examples natural, romaji correct (nan ni demo). Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "13cde5dd437f2791c1a149ce4d4f72eabf2eb2943bf49b9dbcdafab96a043816",
+        "approvalHash": "140509b9b3dfcff402f67cb28e03de43cf1cecfeb37553ec87d35bd28255cda4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kao-kara-hi-ga-deru",
+      "revisionId": "026-add-kao-kara-hi-ga-deru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "顔から火が出る",
+        "reading": "かおからひがでる",
+        "romaji": "kao kara hi ga deru",
+        "meaning": "vor Scham im Boden versinken wollen; knallrot werden",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „aus dem Gesicht kommt Feuer“: extreme Verlegenheit, meist als 顔から火が出るほど恥ずかしい. Meist über eigene Peinlichkeiten.",
+        "examples": [
+          {
+            "japanese": "みんなの前で転んで、顔から火が出るほど恥ずかしかった。",
+            "romaji": "Minna no mae de koronde, kao kara hi ga deru hodo hazukashikatta.",
+            "german": "Ich bin vor allen hingefallen und wäre am liebsten im Boden versunken."
+          },
+          {
+            "japanese": "名前を間違えて呼んでしまい、顔から火が出る思いだった。",
+            "romaji": "Namae o machigaete yonde shimai, kao kara hi ga deru omoi datta.",
+            "german": "Ich habe jemanden mit dem falschen Namen angesprochen und bin knallrot geworden."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Idiom gap (maintenance batch 026, content roadmap phase 2); verified absent from the corrected runtime, including the idiom and yojijukugo sources, under all spellings, readings and aliases.",
+      "levelBasis": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2.",
+      "rationale": "Add 顔から火が出る【かおからひがでる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1217740; spelling=顔から火が出る; reading=かおからひがでる; senses=1; scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1217740 顔から火が出る/かおからひがでる sense(s) 1 support \"vor Scham im Boden versinken wollen; knallrot werden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1217740",
+            "spelling": "顔から火が出る",
+            "reading": "かおからひがでる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to be extremely embarrassed",
+                  "to burn with shame"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-026-editor",
+        "meaning": "\"vor Scham im Boden versinken wollen; knallrot werden\" matches JMdict 1217740 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji spaced by word like the existing idiom source; example romaji checked word by word (long vowels doubled).",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Falling in public.",
+          "Calling someone by the wrong name."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Fixed expression JMdict 1217740; taught as a whole phrase, no component merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Fixed phrase; the verb inside is explained in the note and examples, not taught as a separate verb entry.",
+        "conjugation": "Idiom entry (type Redewendung); no separate conjugation metadata, as for the existing idiom source.",
+        "level": "Common body-part idiom; the app places comparable idioms at N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 顔から火が出る / かおからひがでる; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-026/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 顔から火が出る / かおからひがでる",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-editor",
+        "finding": "Editorial first pass: Add 顔から火が出る【かおからひがでる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1217740 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "fbf8f557e1b29e3b767c22a83f9e20e3203b6f2205af75a26d71301e3d9a56d3",
+        "approvalHash": "1e9b1d8eca666d50dd642913ddd81cf83eef8bd2007b1d42b0942f384b1185b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-026-independent-reviewer",
+        "finding": "Round 2: note now \"Meist über eigene Peinlichkeiten.\" – accurate. Rest unchanged: meaning matches JMdict 1217740; ～ほど恥ずかしい / ～思いだった examples natural, romaji correct. Pitch null confirmed (no exact UniDic row in research.json). check.cjs: new.",
+        "contentHash": "fbf8f557e1b29e3b767c22a83f9e20e3203b6f2205af75a26d71301e3d9a56d3",
+        "approvalHash": "1e9b1d8eca666d50dd642913ddd81cf83eef8bd2007b1d42b0942f384b1185b9"
+      }
+    }
+  ],
+  "decisions": []
+}

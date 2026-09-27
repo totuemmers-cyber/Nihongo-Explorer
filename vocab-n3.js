@@ -66442,5 +66442,77 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:masuku"
+  },
+  {
+    "word": "目がない",
+    "reading": "めがない",
+    "romaji": "me ga nai",
+    "meaning": "ganz verrückt sein nach; eine Schwäche haben für",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N3",
+    "notes": "Mit に: 甘いものに目がない („ganz versessen auf Süßes“). Seltener auch „keinen Blick für etwas haben“: 人を見る目がない (kein Menschenkenner sein).",
+    "examples": [
+      {
+        "japanese": "私はチョコレートに目がない。",
+        "romaji": "Watashi wa chokoreeto ni me ga nai.",
+        "german": "Bei Schokolade kann ich nicht widerstehen."
+      },
+      {
+        "japanese": "彼は人を見る目がないから、よくだまされる。",
+        "romaji": "Kare wa hito o miru me ga nai kara, yoku damasareru.",
+        "german": "Er ist kein guter Menschenkenner und wird oft hereingelegt."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:me-ga-nai"
+  },
+  {
+    "word": "骨が折れる",
+    "reading": "ほねがおれる",
+    "romaji": "hone ga oreru",
+    "meaning": "mühsam sein, viel Mühe kosten",
+    "type": "Redewendung",
+    "category": "Arbeit",
+    "level": "N3",
+    "notes": "Wörtlich „die Knochen brechen“, gemeint ist aber große Anstrengung (骨が折れる仕事 = mühsame Arbeit). Verwandt: 骨を折る (sich Mühe geben, sich für jemanden einsetzen).",
+    "examples": [
+      {
+        "japanese": "百人分の料理を作るのは骨が折れる。",
+        "romaji": "Hyakuninbun no ryouri o tsukuru no wa hone ga oreru.",
+        "german": "Für hundert Leute zu kochen ist mühsam."
+      },
+      {
+        "japanese": "この資料を全部翻訳するのは骨が折れる仕事だ。",
+        "romaji": "Kono shiryou o zenbu hon'yaku suru no wa hone ga oreru shigoto da.",
+        "german": "Diese Unterlagen komplett zu übersetzen ist eine mühsame Arbeit."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:hone-ga-oreru"
+  },
+  {
+    "word": "気が済む",
+    "reading": "きがすむ",
+    "romaji": "ki ga sumu",
+    "meaning": "zufrieden sein; sich besser fühlen (wenn etwas erledigt ist)",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N3",
+    "notes": "Das innere Bedürfnis ist befriedigt. Häufig: 気が済むまで („so lange, bis man zufrieden ist“) und vorwurfsvoll 何度謝れば気が済むの？",
+    "examples": [
+      {
+        "japanese": "気が済むまで泣いていいよ。",
+        "romaji": "Ki ga sumu made naite ii yo.",
+        "german": "Du darfst weinen, bis es dir besser geht."
+      },
+      {
+        "japanese": "全部自分で確認しないと気が済まない。",
+        "romaji": "Zenbu jibun de kakunin shinai to ki ga sumanai.",
+        "german": "Ich habe keine Ruhe, bevor ich nicht alles selbst überprüft habe."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:ki-ga-sumu"
   }
 ];

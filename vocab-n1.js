@@ -72534,5 +72534,239 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:zonzai"
+  },
+  {
+    "word": "鶴の一声",
+    "reading": "つるのひとこえ",
+    "romaji": "tsuru no hitokoe",
+    "meaning": "Machtwort (einer Autoritätsperson)",
+    "type": "Redewendung",
+    "category": "Arbeit",
+    "level": "N1",
+    "notes": "Wörtlich „ein Ruf des Kranichs“: Ein einziges Wort einer mächtigen Person beendet eine lange Diskussion. Typisch in Firmen und Familien.",
+    "examples": [
+      {
+        "japanese": "会議は長引いたが、社長の鶴の一声で決まった。",
+        "romaji": "Kaigi wa nagabiita ga, shachou no tsuru no hitokoe de kimatta.",
+        "german": "Die Besprechung zog sich hin, aber ein Machtwort des Chefs entschied die Sache."
+      },
+      {
+        "japanese": "旅行先は祖父の鶴の一声で京都になった。",
+        "romaji": "Ryokousaki wa sofu no tsuru no hitokoe de Kyouto ni natta.",
+        "german": "Auf ein Machtwort des Großvaters hin wurde Kyoto das Reiseziel."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:tsuru-no-hitokoe"
+  },
+  {
+    "word": "蛇足",
+    "reading": "だそく",
+    "romaji": "dasoku",
+    "meaning": "überflüssige Zugabe; unnötiger Zusatz",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N1",
+    "notes": "Aus einer chinesischen Anekdote: Wer beim Wettmalen einer Schlange noch Füße dazumalt, verliert. Häufig als bescheidene Einleitung: 蛇足ですが… („Nur als kleine, vielleicht überflüssige Ergänzung …“).",
+    "examples": [
+      {
+        "japanese": "蛇足ですが、一つ付け加えさせてください。",
+        "romaji": "Dasoku desu ga, hitotsu tsukekuwaesasete kudasai.",
+        "german": "Auch wenn es überflüssig sein mag, lassen Sie mich noch etwas ergänzen."
+      },
+      {
+        "japanese": "最後の説明は蛇足だったかもしれない。",
+        "romaji": "Saigo no setsumei wa dasoku datta kamo shirenai.",
+        "german": "Die letzte Erklärung war vielleicht unnötig."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167504658",
+        "patterns": [
+          0
+        ],
+        "finding": "蛇足 / ダソク; 名詞/普通名詞/一般/*; *; *; lemma 蛇足; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "蛇足",
+          "reading": "だそく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "蛇足 as \"überflüssige Zugabe; unnötiger Zusatz\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:dasoku"
+  },
+  {
+    "word": "揚げ足を取る",
+    "reading": "あげあしをとる",
+    "romaji": "ageashi o toru",
+    "meaning": "jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln",
+    "type": "Redewendung",
+    "category": "Kommunikation",
+    "level": "N1",
+    "notes": "Aus dem Ringen: das hochgehobene Bein des Gegners packen. Heißt, jemanden an einem kleinen Versprecher oder Formulierungsfehler zu packen, statt auf den Inhalt einzugehen.",
+    "examples": [
+      {
+        "japanese": "人の揚げ足を取るのはやめなさい。",
+        "romaji": "Hito no ageashi o toru no wa yamenasai.",
+        "german": "Hör auf, anderen jeden kleinen Versprecher vorzuhalten."
+      },
+      {
+        "japanese": "議論が揚げ足の取り合いになってしまった。",
+        "romaji": "Giron ga ageashi no toriai ni natte shimatta.",
+        "german": "Die Diskussion ist in gegenseitige Haarspalterei ausgeartet."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:ageashi-o-toru"
+  },
+  {
+    "word": "味を占める",
+    "reading": "あじをしめる",
+    "romaji": "aji o shimeru",
+    "meaning": "auf den Geschmack kommen (nach einem ersten Erfolg)",
+    "type": "Redewendung",
+    "category": "Handlung",
+    "level": "N1",
+    "notes": "Nach einem ersten Erfolg oder Vorteil will man dasselbe wieder versuchen – oft mit leicht negativem Beiklang (Gier, Leichtsinn). Oft auch in Kana: 味をしめる.",
+    "examples": [
+      {
+        "japanese": "一度宝くじが当たったのに味を占めて、毎週買っている。",
+        "romaji": "Ichido takarakuji ga atatta no ni aji o shimete, maishuu katte iru.",
+        "german": "Seit er einmal im Lotto gewonnen hat, ist er auf den Geschmack gekommen und kauft jede Woche Lose."
+      },
+      {
+        "japanese": "カラスは一度ごみをあさって味を占めると、何度も来る。",
+        "romaji": "Karasu wa ichido gomi o asatte aji o shimeru to, nando mo kuru.",
+        "german": "Wenn eine Krähe einmal im Müll Futter gefunden hat, kommt sie immer wieder."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:aji-o-shimeru"
+  },
+  {
+    "word": "板につく",
+    "reading": "いたにつく",
+    "romaji": "ita ni tsuku",
+    "meaning": "in etwas hineinwachsen; zur zweiten Natur werden",
+    "type": "Redewendung",
+    "category": "Arbeit",
+    "level": "N1",
+    "notes": "Aus dem Theater: Ein Schauspieler „passt auf die Bretter“ (板 = Bühne). Heute: eine Rolle, ein Beruf oder Kleidung wirkt natürlich und selbstverständlich. Auch 板に付く geschrieben.",
+    "examples": [
+      {
+        "japanese": "彼女の先生ぶりもすっかり板についてきた。",
+        "romaji": "Kanojo no senseiburi mo sukkari ita ni tsuite kita.",
+        "german": "Sie ist inzwischen ganz in ihre Rolle als Lehrerin hineingewachsen."
+      },
+      {
+        "japanese": "新入社員はまだスーツ姿が板についていない。",
+        "romaji": "Shinnyuu shain wa mada suutsu sugata ga ita ni tsuite inai.",
+        "german": "Die neuen Mitarbeiter wirken im Anzug noch nicht ganz natürlich."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:ita-ni-tsuku"
+  },
+  {
+    "word": "狐につままれる",
+    "reading": "きつねにつままれる",
+    "romaji": "kitsune ni tsumamareru",
+    "meaning": "völlig verdutzt sein; wie verhext",
+    "type": "Redewendung",
+    "category": "Gefühle",
+    "level": "N1",
+    "notes": "Im Volksglauben verzaubert der Fuchs Menschen. Beschreibt Verwirrung über etwas Unerklärliches, meist als 狐につままれたような顔／気分.",
+    "examples": [
+      {
+        "japanese": "財布が急に見つかって、狐につままれたような気分だ。",
+        "romaji": "Saifu ga kyuu ni mitsukatte, kitsune ni tsumamareta you na kibun da.",
+        "german": "Das Portemonnaie ist plötzlich wieder aufgetaucht – ich fühle mich wie verhext."
+      },
+      {
+        "japanese": "説明を聞いても、みんな狐につままれたような顔をしていた。",
+        "romaji": "Setsumei o kiite mo, minna kitsune ni tsumamareta you na kao o shite ita.",
+        "german": "Auch nach der Erklärung schauten alle völlig verdutzt."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:kitsune-ni-tsumamareru"
+  },
+  {
+    "word": "眉をひそめる",
+    "reading": "まゆをひそめる",
+    "romaji": "mayu o hisomeru",
+    "meaning": "die Stirn runzeln (aus Missbilligung)",
+    "type": "Redewendung",
+    "category": "Körper",
+    "level": "N1",
+    "notes": "Die Augenbrauen zusammenziehen – Ausdruck von Missfallen oder Sorge über das Verhalten anderer. Auch 眉を顰める geschrieben.",
+    "examples": [
+      {
+        "japanese": "電車の中で大声で話す若者に、周りの人は眉をひそめた。",
+        "romaji": "Densha no naka de oogoe de hanasu wakamono ni, mawari no hito wa mayu o hisometa.",
+        "german": "Über die jungen Leute, die im Zug laut redeten, runzelten die anderen Fahrgäste die Stirn."
+      },
+      {
+        "japanese": "彼の失礼な言葉に、先生は眉をひそめた。",
+        "romaji": "Kare no shitsurei na kotoba ni, sensei wa mayu o hisometa.",
+        "german": "Bei seinen unhöflichen Worten runzelte der Lehrer die Stirn."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:mayu-o-hisomeru"
+  },
+  {
+    "word": "千差万別",
+    "reading": "せんさばんべつ",
+    "romaji": "sensa banbetsu",
+    "meaning": "unendlich verschieden; jeder ist anders",
+    "type": "Yojijukugo",
+    "category": "Lebensweisheit",
+    "level": "N1",
+    "notes": "Wörtlich „tausend Unterschiede, zehntausend Verschiedenheiten“. Betont die große Vielfalt von Meinungen, Geschmäckern oder Menschen; ähnlich 十人十色.",
+    "examples": [
+      {
+        "japanese": "人の好みは千差万別だ。",
+        "romaji": "Hito no konomi wa sensa banbetsu da.",
+        "german": "Geschmäcker sind ganz verschieden."
+      },
+      {
+        "japanese": "同じ質問でも、答えは千差万別だった。",
+        "romaji": "Onaji shitsumon demo, kotae wa sensa banbetsu datta.",
+        "german": "Auf dieselbe Frage kamen ganz unterschiedliche Antworten."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:sensabanbetsu"
+  },
+  {
+    "word": "羊頭狗肉",
+    "reading": "ようとうくにく",
+    "romaji": "youtou kuniku",
+    "meaning": "Etikettenschwindel; mehr Schein als Sein",
+    "type": "Yojijukugo",
+    "category": "Warnung",
+    "level": "N1",
+    "notes": "Wörtlich „Schafskopf (aushängen), Hundefleisch (verkaufen)“: Das Äußere verspricht Besseres, als der Inhalt hält – etwa bei Werbung oder Produkten. Schriftsprachlich.",
+    "examples": [
+      {
+        "japanese": "この広告は羊頭狗肉だと批判された。",
+        "romaji": "Kono koukoku wa youtou kuniku da to hihan sareta.",
+        "german": "Diese Werbung wurde als Etikettenschwindel kritisiert."
+      },
+      {
+        "japanese": "立派な名前の講座だったが、内容は羊頭狗肉だった。",
+        "romaji": "Rippa na namae no kouza datta ga, naiyou wa youtou kuniku datta.",
+        "german": "Der Kurs hatte einen großartigen Namen, doch der Inhalt war mehr Schein als Sein."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:youtoukuniku"
   }
 ];

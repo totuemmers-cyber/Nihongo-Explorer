@@ -2310,6 +2310,231 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "3900": {
+        "word": "鶴の一声",
+        "reading": "つるのひとこえ",
+        "romaji": "tsuru no hitokoe",
+        "meaning": "Machtwort (einer Autoritätsperson)",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Wörtlich „ein Ruf des Kranichs“: Ein einziges Wort einer mächtigen Person beendet eine lange Diskussion. Typisch in Firmen und Familien.",
+        "examples": [
+          {
+            "japanese": "会議は長引いたが、社長の鶴の一声で決まった。",
+            "romaji": "Kaigi wa nagabiita ga, shachou no tsuru no hitokoe de kimatta.",
+            "german": "Die Besprechung zog sich hin, aber ein Machtwort des Chefs entschied die Sache."
+          },
+          {
+            "japanese": "旅行先は祖父の鶴の一声で京都になった。",
+            "romaji": "Ryokousaki wa sofu no tsuru no hitokoe de Kyouto ni natta.",
+            "german": "Auf ein Machtwort des Großvaters hin wurde Kyoto das Reiseziel."
+          }
+        ],
+        "pitch": null
+      },
+      "3901": {
+        "word": "蛇足",
+        "reading": "だそく",
+        "romaji": "dasoku",
+        "meaning": "überflüssige Zugabe; unnötiger Zusatz",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Aus einer chinesischen Anekdote: Wer beim Wettmalen einer Schlange noch Füße dazumalt, verliert. Häufig als bescheidene Einleitung: 蛇足ですが… („Nur als kleine, vielleicht überflüssige Ergänzung …“).",
+        "examples": [
+          {
+            "japanese": "蛇足ですが、一つ付け加えさせてください。",
+            "romaji": "Dasoku desu ga, hitotsu tsukekuwaesasete kudasai.",
+            "german": "Auch wenn es überflüssig sein mag, lassen Sie mich noch etwas ergänzen."
+          },
+          {
+            "japanese": "最後の説明は蛇足だったかもしれない。",
+            "romaji": "Saigo no setsumei wa dasoku datta kamo shirenai.",
+            "german": "Die letzte Erklärung war vielleicht unnötig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167504658",
+            "patterns": [
+              0
+            ],
+            "finding": "蛇足 / ダソク; 名詞/普通名詞/一般/*; *; *; lemma 蛇足; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蛇足",
+              "reading": "だそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蛇足 as \"überflüssige Zugabe; unnötiger Zusatz\"."
+            }
+          }
+        ]
+      },
+      "3902": {
+        "word": "揚げ足を取る",
+        "reading": "あげあしをとる",
+        "romaji": "ageashi o toru",
+        "meaning": "jemanden bei jedem Versprecher festnageln; an jemandes Worten herumkritteln",
+        "type": "Redewendung",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Aus dem Ringen: das hochgehobene Bein des Gegners packen. Heißt, jemanden an einem kleinen Versprecher oder Formulierungsfehler zu packen, statt auf den Inhalt einzugehen.",
+        "examples": [
+          {
+            "japanese": "人の揚げ足を取るのはやめなさい。",
+            "romaji": "Hito no ageashi o toru no wa yamenasai.",
+            "german": "Hör auf, anderen jeden kleinen Versprecher vorzuhalten."
+          },
+          {
+            "japanese": "議論が揚げ足の取り合いになってしまった。",
+            "romaji": "Giron ga ageashi no toriai ni natte shimatta.",
+            "german": "Die Diskussion ist in gegenseitige Haarspalterei ausgeartet."
+          }
+        ],
+        "pitch": null
+      },
+      "3903": {
+        "word": "味を占める",
+        "reading": "あじをしめる",
+        "romaji": "aji o shimeru",
+        "meaning": "auf den Geschmack kommen (nach einem ersten Erfolg)",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Nach einem ersten Erfolg oder Vorteil will man dasselbe wieder versuchen – oft mit leicht negativem Beiklang (Gier, Leichtsinn). Oft auch in Kana: 味をしめる.",
+        "examples": [
+          {
+            "japanese": "一度宝くじが当たったのに味を占めて、毎週買っている。",
+            "romaji": "Ichido takarakuji ga atatta no ni aji o shimete, maishuu katte iru.",
+            "german": "Seit er einmal im Lotto gewonnen hat, ist er auf den Geschmack gekommen und kauft jede Woche Lose."
+          },
+          {
+            "japanese": "カラスは一度ごみをあさって味を占めると、何度も来る。",
+            "romaji": "Karasu wa ichido gomi o asatte aji o shimeru to, nando mo kuru.",
+            "german": "Wenn eine Krähe einmal im Müll Futter gefunden hat, kommt sie immer wieder."
+          }
+        ],
+        "pitch": null
+      },
+      "3904": {
+        "word": "板につく",
+        "reading": "いたにつく",
+        "romaji": "ita ni tsuku",
+        "meaning": "in etwas hineinwachsen; zur zweiten Natur werden",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Aus dem Theater: Ein Schauspieler „passt auf die Bretter“ (板 = Bühne). Heute: eine Rolle, ein Beruf oder Kleidung wirkt natürlich und selbstverständlich. Auch 板に付く geschrieben.",
+        "examples": [
+          {
+            "japanese": "彼女の先生ぶりもすっかり板についてきた。",
+            "romaji": "Kanojo no senseiburi mo sukkari ita ni tsuite kita.",
+            "german": "Sie ist inzwischen ganz in ihre Rolle als Lehrerin hineingewachsen."
+          },
+          {
+            "japanese": "新入社員はまだスーツ姿が板についていない。",
+            "romaji": "Shinnyuu shain wa mada suutsu sugata ga ita ni tsuite inai.",
+            "german": "Die neuen Mitarbeiter wirken im Anzug noch nicht ganz natürlich."
+          }
+        ],
+        "pitch": null
+      },
+      "3905": {
+        "word": "狐につままれる",
+        "reading": "きつねにつままれる",
+        "romaji": "kitsune ni tsumamareru",
+        "meaning": "völlig verdutzt sein; wie verhext",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Im Volksglauben verzaubert der Fuchs Menschen. Beschreibt Verwirrung über etwas Unerklärliches, meist als 狐につままれたような顔／気分.",
+        "examples": [
+          {
+            "japanese": "財布が急に見つかって、狐につままれたような気分だ。",
+            "romaji": "Saifu ga kyuu ni mitsukatte, kitsune ni tsumamareta you na kibun da.",
+            "german": "Das Portemonnaie ist plötzlich wieder aufgetaucht – ich fühle mich wie verhext."
+          },
+          {
+            "japanese": "説明を聞いても、みんな狐につままれたような顔をしていた。",
+            "romaji": "Setsumei o kiite mo, minna kitsune ni tsumamareta you na kao o shite ita.",
+            "german": "Auch nach der Erklärung schauten alle völlig verdutzt."
+          }
+        ],
+        "pitch": null
+      },
+      "3906": {
+        "word": "眉をひそめる",
+        "reading": "まゆをひそめる",
+        "romaji": "mayu o hisomeru",
+        "meaning": "die Stirn runzeln (aus Missbilligung)",
+        "type": "Redewendung",
+        "category": "Körper",
+        "level": "N1",
+        "notes": "Die Augenbrauen zusammenziehen – Ausdruck von Missfallen oder Sorge über das Verhalten anderer. Auch 眉を顰める geschrieben.",
+        "examples": [
+          {
+            "japanese": "電車の中で大声で話す若者に、周りの人は眉をひそめた。",
+            "romaji": "Densha no naka de oogoe de hanasu wakamono ni, mawari no hito wa mayu o hisometa.",
+            "german": "Über die jungen Leute, die im Zug laut redeten, runzelten die anderen Fahrgäste die Stirn."
+          },
+          {
+            "japanese": "彼の失礼な言葉に、先生は眉をひそめた。",
+            "romaji": "Kare no shitsurei na kotoba ni, sensei wa mayu o hisometa.",
+            "german": "Bei seinen unhöflichen Worten runzelte der Lehrer die Stirn."
+          }
+        ],
+        "pitch": null
+      },
+      "3907": {
+        "word": "千差万別",
+        "reading": "せんさばんべつ",
+        "romaji": "sensa banbetsu",
+        "meaning": "unendlich verschieden; jeder ist anders",
+        "type": "Yojijukugo",
+        "category": "Lebensweisheit",
+        "level": "N1",
+        "notes": "Wörtlich „tausend Unterschiede, zehntausend Verschiedenheiten“. Betont die große Vielfalt von Meinungen, Geschmäckern oder Menschen; ähnlich 十人十色.",
+        "examples": [
+          {
+            "japanese": "人の好みは千差万別だ。",
+            "romaji": "Hito no konomi wa sensa banbetsu da.",
+            "german": "Geschmäcker sind ganz verschieden."
+          },
+          {
+            "japanese": "同じ質問でも、答えは千差万別だった。",
+            "romaji": "Onaji shitsumon demo, kotae wa sensa banbetsu datta.",
+            "german": "Auf dieselbe Frage kamen ganz unterschiedliche Antworten."
+          }
+        ],
+        "pitch": null
+      },
+      "3908": {
+        "word": "羊頭狗肉",
+        "reading": "ようとうくにく",
+        "romaji": "youtou kuniku",
+        "meaning": "Etikettenschwindel; mehr Schein als Sein",
+        "type": "Yojijukugo",
+        "category": "Warnung",
+        "level": "N1",
+        "notes": "Wörtlich „Schafskopf (aushängen), Hundefleisch (verkaufen)“: Das Äußere verspricht Besseres, als der Inhalt hält – etwa bei Werbung oder Produkten. Schriftsprachlich.",
+        "examples": [
+          {
+            "japanese": "この広告は羊頭狗肉だと批判された。",
+            "romaji": "Kono koukoku wa youtou kuniku da to hihan sareta.",
+            "german": "Diese Werbung wurde als Etikettenschwindel kritisiert."
+          },
+          {
+            "japanese": "立派な名前の講座だったが、内容は羊頭狗肉だった。",
+            "romaji": "Rippa na namae no kouza datta ga, naiyou wa youtou kuniku datta.",
+            "german": "Der Kurs hatte einen großartigen Namen, doch der Inhalt war mehr Schein als Sein."
+          }
+        ],
+        "pitch": null
       }
     },
     "vocab-n5": {
@@ -20479,6 +20704,75 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "3421": {
+        "word": "目がない",
+        "reading": "めがない",
+        "romaji": "me ga nai",
+        "meaning": "ganz verrückt sein nach; eine Schwäche haben für",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N3",
+        "notes": "Mit に: 甘いものに目がない („ganz versessen auf Süßes“). Seltener auch „keinen Blick für etwas haben“: 人を見る目がない (kein Menschenkenner sein).",
+        "examples": [
+          {
+            "japanese": "私はチョコレートに目がない。",
+            "romaji": "Watashi wa chokoreeto ni me ga nai.",
+            "german": "Bei Schokolade kann ich nicht widerstehen."
+          },
+          {
+            "japanese": "彼は人を見る目がないから、よくだまされる。",
+            "romaji": "Kare wa hito o miru me ga nai kara, yoku damasareru.",
+            "german": "Er ist kein guter Menschenkenner und wird oft hereingelegt."
+          }
+        ],
+        "pitch": null
+      },
+      "3422": {
+        "word": "骨が折れる",
+        "reading": "ほねがおれる",
+        "romaji": "hone ga oreru",
+        "meaning": "mühsam sein, viel Mühe kosten",
+        "type": "Redewendung",
+        "category": "Arbeit",
+        "level": "N3",
+        "notes": "Wörtlich „die Knochen brechen“, gemeint ist aber große Anstrengung (骨が折れる仕事 = mühsame Arbeit). Verwandt: 骨を折る (sich Mühe geben, sich für jemanden einsetzen).",
+        "examples": [
+          {
+            "japanese": "百人分の料理を作るのは骨が折れる。",
+            "romaji": "Hyakuninbun no ryouri o tsukuru no wa hone ga oreru.",
+            "german": "Für hundert Leute zu kochen ist mühsam."
+          },
+          {
+            "japanese": "この資料を全部翻訳するのは骨が折れる仕事だ。",
+            "romaji": "Kono shiryou o zenbu hon'yaku suru no wa hone ga oreru shigoto da.",
+            "german": "Diese Unterlagen komplett zu übersetzen ist eine mühsame Arbeit."
+          }
+        ],
+        "pitch": null
+      },
+      "3423": {
+        "word": "気が済む",
+        "reading": "きがすむ",
+        "romaji": "ki ga sumu",
+        "meaning": "zufrieden sein; sich besser fühlen (wenn etwas erledigt ist)",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N3",
+        "notes": "Das innere Bedürfnis ist befriedigt. Häufig: 気が済むまで („so lange, bis man zufrieden ist“) und vorwurfsvoll 何度謝れば気が済むの？",
+        "examples": [
+          {
+            "japanese": "気が済むまで泣いていいよ。",
+            "romaji": "Ki ga sumu made naite ii yo.",
+            "german": "Du darfst weinen, bis es dir besser geht."
+          },
+          {
+            "japanese": "全部自分で確認しないと気が済まない。",
+            "romaji": "Zenbu jibun de kakunin shinai to ki ga sumanai.",
+            "german": "Ich habe keine Ruhe, bevor ich nicht alles selbst überprüft habe."
+          }
+        ],
+        "pitch": null
       }
     },
     "vocab-n2": {
@@ -21239,6 +21533,305 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "2407": {
+        "word": "猫をかぶる",
+        "reading": "ねこをかぶる",
+        "romaji": "neko o kaburu",
+        "meaning": "sich verstellen, harmlos tun, den Unschuldigen spielen",
+        "type": "Redewendung",
+        "category": "Charakter",
+        "level": "N2",
+        "notes": "Wörtlich „sich eine Katze überziehen“: sein wahres Wesen hinter einer braven, sanften Fassade verstecken. Oft von jemandem, der vor Fremden oder Vorgesetzten ganz anders auftritt als sonst. Nomen: 猫かぶり.",
+        "examples": [
+          {
+            "japanese": "彼女は先生の前では猫をかぶっている。",
+            "romaji": "Kanojo wa sensei no mae de wa neko o kabutte iru.",
+            "german": "Vor dem Lehrer spielt sie die Brave."
+          },
+          {
+            "japanese": "最初は猫をかぶっていたけど、だんだん本性が出てきた。",
+            "romaji": "Saisho wa neko o kabutte ita kedo, dandan honshou ga dete kita.",
+            "german": "Anfangs hat er sich verstellt, aber nach und nach zeigte sich sein wahres Wesen."
+          }
+        ],
+        "pitch": null
+      },
+      "2408": {
+        "word": "犬猿の仲",
+        "reading": "けんえんのなか",
+        "romaji": "ken'en no naka",
+        "meaning": "wie Hund und Katze; spinnefeind",
+        "type": "Redewendung",
+        "category": "Beziehungen",
+        "level": "N2",
+        "notes": "Wörtlich „Verhältnis von Hund und Affe“: Im Japanischen sind Hund und Affe die sprichwörtlichen Feinde, nicht Hund und Katze. 犬猿 wird on-gelesen: けんえん.",
+        "examples": [
+          {
+            "japanese": "あの二人は犬猿の仲で、会うとすぐにけんかになる。",
+            "romaji": "Ano futari wa ken'en no naka de, au to sugu ni kenka ni naru.",
+            "german": "Die beiden sind wie Hund und Katze; sobald sie sich treffen, streiten sie."
+          },
+          {
+            "japanese": "犬猿の仲だった二つの会社が、今回は協力することになった。",
+            "romaji": "Ken'en no naka datta futatsu no kaisha ga, konkai wa kyouryoku suru koto ni natta.",
+            "german": "Zwei Firmen, die lange verfeindet waren, arbeiten diesmal zusammen."
+          }
+        ],
+        "pitch": null
+      },
+      "2409": {
+        "word": "雀の涙",
+        "reading": "すずめのなみだ",
+        "romaji": "suzume no namida",
+        "meaning": "ein winziger Betrag; ein Almosen",
+        "type": "Redewendung",
+        "category": "Geld",
+        "level": "N2",
+        "notes": "Wörtlich „Spatzentränen“: eine lächerlich kleine Menge, meist Geld (Lohn, Bonus, Zinsen). Leicht klagend oder ironisch.",
+        "examples": [
+          {
+            "japanese": "ボーナスは雀の涙ほどしか出なかった。",
+            "romaji": "Boonasu wa suzume no namida hodo shika denakatta.",
+            "german": "Der Bonus war nur ein Almosen."
+          },
+          {
+            "japanese": "銀行の利息なんて雀の涙だ。",
+            "romaji": "Ginkou no risoku nante suzume no namida da.",
+            "german": "Die Bankzinsen sind doch lächerlich gering."
+          }
+        ],
+        "pitch": null
+      },
+      "2410": {
+        "word": "足を洗う",
+        "reading": "あしをあらう",
+        "romaji": "ashi o arau",
+        "meaning": "aussteigen, einen Schlussstrich ziehen (unter ein zwielichtiges Leben)",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „sich die Füße waschen“. Im übertragenen Sinn: mit einer schlechten oder zwielichtigen Tätigkeit aufhören (Kriminalität, Glücksspiel), heute auch allgemein „einen Beruf an den Nagel hängen“.",
+        "examples": [
+          {
+            "japanese": "彼は悪い仲間から足を洗って、まじめに働いている。",
+            "romaji": "Kare wa warui nakama kara ashi o aratte, majime ni hataraite iru.",
+            "german": "Er hat mit seinen schlechten Freunden gebrochen und arbeitet jetzt ehrlich."
+          },
+          {
+            "japanese": "ギャンブルからはもう足を洗った。",
+            "romaji": "Gyanburu kara wa mou ashi o aratta.",
+            "german": "Mit dem Glücksspiel habe ich endgültig aufgehört."
+          }
+        ],
+        "pitch": null
+      },
+      "2411": {
+        "word": "手を焼く",
+        "reading": "てをやく",
+        "romaji": "te o yaku",
+        "meaning": "seine liebe Not haben (mit), nicht fertig werden mit",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „sich die Hand verbrennen“. Meist mit に: 子どもに手を焼く. Ähnlich: 手に負えない (nicht zu bändigen).",
+        "examples": [
+          {
+            "japanese": "息子のわがままに手を焼いている。",
+            "romaji": "Musuko no wagamama ni te o yaite iru.",
+            "german": "Mit dem Eigensinn meines Sohnes habe ich meine liebe Not."
+          },
+          {
+            "japanese": "この古いパソコンの設定には手を焼いた。",
+            "romaji": "Kono furui pasokon no settei ni wa te o yaita.",
+            "german": "Mit der Einrichtung dieses alten Computers hatte ich viel Mühe."
+          }
+        ],
+        "pitch": null
+      },
+      "2412": {
+        "word": "歯が立たない",
+        "reading": "はがたたない",
+        "romaji": "ha ga tatanai",
+        "meaning": "nicht gewachsen sein; sich die Zähne ausbeißen",
+        "type": "Redewendung",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Wörtlich „die Zähne greifen nicht“ – auch buchstäblich bei hartem Essen. Übertragen: einem Gegner oder einer Aufgabe nicht gewachsen sein.",
+        "examples": [
+          {
+            "japanese": "この数学の問題は難しすぎて、全然歯が立たない。",
+            "romaji": "Kono suugaku no mondai wa muzukashisugite, zenzen ha ga tatanai.",
+            "german": "Diese Matheaufgabe ist zu schwer, ich beiße mir die Zähne daran aus."
+          },
+          {
+            "japanese": "チャンピオンが相手では、歯が立たなかった。",
+            "romaji": "Chanpion ga aite de wa, ha ga tatanakatta.",
+            "german": "Gegen den Champion hatte ich keine Chance."
+          }
+        ],
+        "pitch": null
+      },
+      "2413": {
+        "word": "喉から手が出る",
+        "reading": "のどからてがでる",
+        "romaji": "nodo kara te ga deru",
+        "meaning": "etwas unbedingt haben wollen",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „aus dem Hals kommt eine Hand“: so großes Verlangen, dass man danach greifen möchte. Meist als 喉から手が出るほど欲しい.",
+        "examples": [
+          {
+            "japanese": "あのギターは喉から手が出るほど欲しい。",
+            "romaji": "Ano gitaa wa nodo kara te ga deru hodo hoshii.",
+            "german": "Diese Gitarre will ich unbedingt haben."
+          },
+          {
+            "japanese": "経験のある人材は、どの会社も喉から手が出るほど欲しがっている。",
+            "romaji": "Keiken no aru jinzai wa, dono kaisha mo nodo kara te ga deru hodo hoshigatte iru.",
+            "german": "Erfahrene Fachkräfte will jede Firma um jeden Preis haben."
+          }
+        ],
+        "pitch": null
+      },
+      "2414": {
+        "word": "根掘り葉掘り",
+        "reading": "ねほりはほり",
+        "romaji": "nehori hahori",
+        "meaning": "haarklein, bis ins Kleinste (ausfragen)",
+        "type": "Adverb",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Wörtlich „Wurzeln ausgraben, Blätter ausgraben“. Fast immer mit 聞く／尋ねる und leicht vorwurfsvoll: jemanden neugierig ausfragen.",
+        "examples": [
+          {
+            "japanese": "初対面なのに、家族のことを根掘り葉掘り聞かれた。",
+            "romaji": "Shotaimen na noni, kazoku no koto o nehori hahori kikareta.",
+            "german": "Obwohl wir uns gerade erst kennengelernt hatten, wurde ich haarklein über meine Familie ausgefragt."
+          },
+          {
+            "japanese": "記者は事件について根掘り葉掘り質問した。",
+            "romaji": "Kisha wa jiken ni tsuite nehori hahori shitsumon shita.",
+            "german": "Der Reporter fragte bis ins letzte Detail über den Vorfall nach."
+          }
+        ],
+        "pitch": null
+      },
+      "2415": {
+        "word": "腕が上がる",
+        "reading": "うでがあがる",
+        "romaji": "ude ga agaru",
+        "meaning": "besser werden, sich verbessern (Können)",
+        "type": "Redewendung",
+        "category": "Körper",
+        "level": "N2",
+        "notes": "腕 steht für Können: 腕が上がる = die Fähigkeiten verbessern sich (料理の腕が上がった). Verwandt: 腕がいい (geschickt sein), 腕を磨く (sein Können schleifen).",
+        "examples": [
+          {
+            "japanese": "毎日練習して、料理の腕が上がった。",
+            "romaji": "Mainichi renshuu shite, ryouri no ude ga agatta.",
+            "german": "Durch tägliches Üben bin ich beim Kochen besser geworden."
+          },
+          {
+            "japanese": "この一年でテニスの腕がずいぶん上がったね。",
+            "romaji": "Kono ichinen de tenisu no ude ga zuibun agatta ne.",
+            "german": "Im letzten Jahr bist du im Tennis viel besser geworden."
+          }
+        ],
+        "pitch": null
+      },
+      "2416": {
+        "word": "鼻につく",
+        "reading": "はなにつく",
+        "romaji": "hana ni tsuku",
+        "meaning": "unangenehm auffallen; einem auf die Nerven gehen",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „an der Nase haften“: Ein Verhalten, eine Art zu reden oder ein Geruch wird mit der Zeit lästig. Typisch: 自慢話が鼻につく (die Angeberei nervt).",
+        "examples": [
+          {
+            "japanese": "彼の自慢話がだんだん鼻についてきた。",
+            "romaji": "Kare no jiman banashi ga dandan hana ni tsuite kita.",
+            "german": "Seine Angeberei geht mir allmählich auf die Nerven."
+          },
+          {
+            "japanese": "この香水は強すぎて、少し鼻につく。",
+            "romaji": "Kono kousui wa tsuyosugite, sukoshi hana ni tsuku.",
+            "german": "Dieses Parfüm ist zu stark und riecht etwas aufdringlich."
+          }
+        ],
+        "pitch": null
+      },
+      "2417": {
+        "word": "猫の額",
+        "reading": "ねこのひたい",
+        "romaji": "neko no hitai",
+        "meaning": "winzig (Grundstück, Garten)",
+        "type": "Redewendung",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Wörtlich „Katzenstirn“: eine sehr kleine Fläche, besonders bescheiden über den eigenen Garten oder das eigene Grundstück gesagt.",
+        "examples": [
+          {
+            "japanese": "猫の額ほどの庭で野菜を育てています。",
+            "romaji": "Neko no hitai hodo no niwa de yasai o sodatete imasu.",
+            "german": "In unserem winzigen Garten ziehe ich Gemüse."
+          },
+          {
+            "japanese": "東京では猫の額のような土地でも高い。",
+            "romaji": "Toukyou de wa neko no hitai no you na tochi demo takai.",
+            "german": "In Tokyo ist selbst ein winziges Grundstück teuer."
+          }
+        ],
+        "pitch": null
+      },
+      "2418": {
+        "word": "首を突っ込む",
+        "reading": "くびをつっこむ",
+        "romaji": "kubi o tsukkomu",
+        "meaning": "seine Nase (in fremde Angelegenheiten) stecken; sich einmischen",
+        "type": "Redewendung",
+        "category": "Beziehungen",
+        "level": "N2",
+        "notes": "Wörtlich „den Hals hineinstecken“. Meist kritisch: sich in Dinge einmischen, die einen nichts angehen; seltener neutral „sich intensiv mit etwas beschäftigen“.",
+        "examples": [
+          {
+            "japanese": "他人の問題に首を突っ込まないほうがいい。",
+            "romaji": "Tanin no mondai ni kubi o tsukkomanai hou ga ii.",
+            "german": "Du solltest deine Nase nicht in die Probleme anderer stecken."
+          },
+          {
+            "japanese": "彼は何にでも首を突っ込みたがる。",
+            "romaji": "Kare wa nan ni demo kubi o tsukkomitagaru.",
+            "german": "Er will sich überall einmischen."
+          }
+        ],
+        "pitch": null
+      },
+      "2419": {
+        "word": "顔から火が出る",
+        "reading": "かおからひがでる",
+        "romaji": "kao kara hi ga deru",
+        "meaning": "vor Scham im Boden versinken wollen; knallrot werden",
+        "type": "Redewendung",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Wörtlich „aus dem Gesicht kommt Feuer“: extreme Verlegenheit, meist als 顔から火が出るほど恥ずかしい. Meist über eigene Peinlichkeiten.",
+        "examples": [
+          {
+            "japanese": "みんなの前で転んで、顔から火が出るほど恥ずかしかった。",
+            "romaji": "Minna no mae de koronde, kao kara hi ga deru hodo hazukashikatta.",
+            "german": "Ich bin vor allen hingefallen und wäre am liebsten im Boden versunken."
+          },
+          {
+            "japanese": "名前を間違えて呼んでしまい、顔から火が出る思いだった。",
+            "romaji": "Namae o machigaete yonde shimai, kao kara hi ga deru omoi datta.",
+            "german": "Ich habe jemanden mit dem falschen Namen angesprochen und bin knallrot geworden."
+          }
+        ],
+        "pitch": null
       }
     },
     "idioms": {
@@ -21589,7 +22182,16 @@ window.VOCAB_CORRECTION_RULES = {
       "3896": "vocab-n1:correction:shachihokobaru",
       "3897": "vocab-n1:correction:tadotadoshii",
       "3898": "vocab-n1:correction:bukkirabou",
-      "3899": "vocab-n1:correction:zonzai"
+      "3899": "vocab-n1:correction:zonzai",
+      "3900": "vocab-n1:correction:tsuru-no-hitokoe",
+      "3901": "vocab-n1:correction:dasoku",
+      "3902": "vocab-n1:correction:ageashi-o-toru",
+      "3903": "vocab-n1:correction:aji-o-shimeru",
+      "3904": "vocab-n1:correction:ita-ni-tsuku",
+      "3905": "vocab-n1:correction:kitsune-ni-tsumamareru",
+      "3906": "vocab-n1:correction:mayu-o-hisomeru",
+      "3907": "vocab-n1:correction:sensabanbetsu",
+      "3908": "vocab-n1:correction:youtoukuniku"
     },
     "vocab-n5": {
       "0": "vocab-n5:0",
@@ -22271,7 +22873,10 @@ window.VOCAB_CORRECTION_RULES = {
       "3417": "vocab-n3:correction:moerugomi",
       "3418": "vocab-n3:correction:saru",
       "3419": "vocab-n3:correction:nezumi",
-      "3420": "vocab-n3:correction:masuku"
+      "3420": "vocab-n3:correction:masuku",
+      "3421": "vocab-n3:correction:me-ga-nai",
+      "3422": "vocab-n3:correction:hone-ga-oreru",
+      "3423": "vocab-n3:correction:ki-ga-sumu"
     },
     "vocab-n2": {
       "208": "vocab-n2:208",
@@ -22299,7 +22904,20 @@ window.VOCAB_CORRECTION_RULES = {
       "2403": "vocab-n2:correction:haishin",
       "2404": "vocab-n2:correction:saikidou",
       "2405": "vocab-n2:correction:zairyuukaado",
-      "2406": "vocab-n2:correction:tsuuchi"
+      "2406": "vocab-n2:correction:tsuuchi",
+      "2407": "vocab-n2:correction:neko-o-kaburu",
+      "2408": "vocab-n2:correction:kenen-no-naka",
+      "2409": "vocab-n2:correction:suzume-no-namida",
+      "2410": "vocab-n2:correction:ashi-o-arau",
+      "2411": "vocab-n2:correction:te-o-yaku",
+      "2412": "vocab-n2:correction:ha-ga-tatanai",
+      "2413": "vocab-n2:correction:nodo-kara-te-ga-deru",
+      "2414": "vocab-n2:correction:nehorihahori",
+      "2415": "vocab-n2:correction:ude-ga-agaru",
+      "2416": "vocab-n2:correction:hana-ni-tsuku",
+      "2417": "vocab-n2:correction:neko-no-hitai",
+      "2418": "vocab-n2:correction:kubi-o-tsukkomu",
+      "2419": "vocab-n2:correction:kao-kara-hi-ga-deru"
     },
     "idioms": {
       "47": "idioms:47",
