@@ -1,0 +1,3813 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:hyotto",
+      "revisionId": "047-add-hyotto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ひょっと",
+        "reading": "ひょっと",
+        "romaji": "hyotto",
+        "meaning": "vielleicht, womöglich; zufällig, unversehens",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N1",
+        "notes": "Fast nur in festen Verbindungen: ひょっとしたら / ひょっとすると / ひょっとして (vielleicht, womöglich). Drückt eine eher unerwartete Möglichkeit aus.",
+        "examples": [
+          {
+            "japanese": "ひょっとしたら、彼はもう帰ったのかもしれない。",
+            "romaji": "Hyotto shitara, kare wa mou kaetta no kamo shirenai.",
+            "german": "Vielleicht ist er schon nach Hause gegangen."
+          },
+          {
+            "japanese": "ひょっとして、田中さんの妹さんですか。",
+            "romaji": "Hyotto shite, Tanaka-san no imouto-san desu ka.",
+            "german": "Sind Sie etwa die jüngere Schwester von Herrn Tanaka?"
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@227930136",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "ひょっと / ヒョット; 副詞/*/*/*; *; *; lemma ひょっと; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ひょっと",
+              "reading": "ひょっと",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ひょっと as \"vielleicht, womöglich; zufällig, unversehens\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add ひょっと【ひょっと】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010640; spelling=ひょっと; reading=ひょっと; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1010640 ひょっと/ひょっと sense(s) 1,2 support \"vielleicht, womöglich; zufällig, unversehens\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1010640",
+            "spelling": "ひょっと",
+            "reading": "ひょっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "possibly",
+                  "perhaps",
+                  "perchance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "unintentionally",
+                  "accidentally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ひょっと|ひょっと",
+          "referenceIndex": 0,
+          "referenceHash": "b9e4202cc4bc4852141e4e56f07456cdccf708606ff126c594349cdf27533553"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"vielleicht, womöglich; zufällig, unversehens\" matches JMdict 1010640 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Guessing why someone is absent.",
+          "Recognising someone."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1010640; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@227930136 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@227930136",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "ひょっと / ヒョット; 副詞/*/*/*; *; *; lemma ひょっと; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ひょっと",
+              "reading": "ひょっと",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ひょっと as \"vielleicht, womöglich; zufällig, unversehens\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add ひょっと【ひょっと】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1010640 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f41f02a6b6d1c13d03a6681ddf937f0fe95b2067b2d6bcf55a81e3ee0c555e7d",
+        "approvalHash": "6b741a4c9c0e1d0a29a6e9a889a690a894b359c8114ea311362050034be96d79"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples limited to ひょっとしたら/ひょっとして, matching the note; natural.",
+        "contentHash": "f41f02a6b6d1c13d03a6681ddf937f0fe95b2067b2d6bcf55a81e3ee0c555e7d",
+        "approvalHash": "6b741a4c9c0e1d0a29a6e9a889a690a894b359c8114ea311362050034be96d79"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:hiratai",
+      "revisionId": "047-add-hiratai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "平たい",
+        "reading": "ひらたい",
+        "romaji": "hiratai",
+        "meaning": "flach, eben; (Sprache) einfach, verständlich",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "い-Adjektiv: 平たい皿 (flacher Teller). Übertragen: 平たく言えば (einfach gesagt).",
+        "examples": [
+          {
+            "japanese": "平たい皿に料理を盛りつけた。",
+            "romaji": "Hiratai sara ni ryouri o moritsuketa.",
+            "german": "Ich richtete das Essen auf einem flachen Teller an."
+          },
+          {
+            "japanese": "平たく言えば、この計画は失敗だったということだ。",
+            "romaji": "Hirataku ieba, kono keikaku wa shippai datta to iu koto da.",
+            "german": "Einfach gesagt: Der Plan ist gescheitert."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228249977",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "平たい / ヒラタイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 平たい; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "平たい",
+              "reading": "ひらたい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "平たい as \"flach, eben; (Sprache) einfach, verständlich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 平たい【ひらたい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1506900; spelling=平たい; reading=ひらたい; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1506900 平たい/ひらたい sense(s) 1,2 support \"flach, eben; (Sprache) einfach, verständlich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1506900",
+            "spelling": "平たい",
+            "reading": "ひらたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flat",
+                  "even",
+                  "level"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "plain (language, words, etc.)",
+                  "simple"
+                ],
+                "notes": [
+                  "usu. as 平たく言えば, 平たく言うと, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "平たい|ひらたい",
+          "referenceIndex": 0,
+          "referenceHash": "b0d6498a78107d2920457aa10f5b64a2e3b7d4fd5fee0a5f2a2da516ca809151"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"flach, eben; (Sprache) einfach, verständlich\" matches JMdict 1506900 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Serving food.",
+          "Summarising plainly."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1506900; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@228249977 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228249977",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "平たい / ヒラタイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 平たい; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "平たい",
+              "reading": "ひらたい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "平たい as \"flach, eben; (Sprache) einfach, verständlich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 平たい【ひらたい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1506900 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "545107133add5eda2d1727cbb6b6d0c6515696d52d07a4b47bc3b3bbfe7baceb",
+        "approvalHash": "6848c218b4a42bc27e64c58d31a1bd0fec9a34145599554947cd1ea691db71f3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "545107133add5eda2d1727cbb6b6d0c6515696d52d07a4b47bc3b3bbfe7baceb",
+        "approvalHash": "6848c218b4a42bc27e64c58d31a1bd0fec9a34145599554947cd1ea691db71f3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:biri",
+      "revisionId": "047-add-biri",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "びり",
+        "reading": "びり",
+        "romaji": "biri",
+        "meaning": "Letzte(r), letzter Platz",
+        "type": "Nomen",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "Umgangssprachlich: びりになる (Letzter werden). Neutral: 最下位.",
+        "examples": [
+          {
+            "japanese": "運動会のかけっこで、びりになってしまった。",
+            "romaji": "Undoukai no kakekko de, biri ni natte shimatta.",
+            "german": "Beim Wettlauf am Sportfest bin ich Letzter geworden."
+          },
+          {
+            "japanese": "彼は成績がクラスでびりだったが、今は医者として働いている。",
+            "romaji": "Kare wa seiseki ga kurasu de biri datta ga, ima wa isha to shite hataraite iru.",
+            "german": "Er war der Schlechteste seiner Klasse, doch heute arbeitet er als Arzt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229703848",
+            "patterns": [
+              1
+            ],
+            "finding": "びり / ビリ; 名詞/普通名詞/一般/*; *; *; lemma びり; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "びり",
+              "reading": "びり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "びり as \"Letzte(r), letzter Platz\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add びり【びり】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010790; spelling=びり; reading=びり; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1010790 びり/びり sense(s) 1 support \"Letzte(r), letzter Platz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1010790",
+            "spelling": "びり",
+            "reading": "びり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "last (on the list)",
+                  "(at the) bottom",
+                  "(in) last position",
+                  "tailender"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "びり|びり",
+          "referenceIndex": 0,
+          "referenceHash": "1d01e79818600f55671b858da80951691d6b696c315dafaea76d427febe2b469"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Letzte(r), letzter Platz\" matches JMdict 1010790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "School sports day.",
+          "Success story."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1010790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@229703848 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229703848",
+            "patterns": [
+              1
+            ],
+            "finding": "びり / ビリ; 名詞/普通名詞/一般/*; *; *; lemma びり; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "びり",
+              "reading": "びり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "びり as \"Letzte(r), letzter Platz\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add びり【びり】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1010790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9a6267310b8c45656025a22a1c9b78f52553e869eed3d08c06fce6f952f09dd5",
+        "approvalHash": "e9fae31cc90bb64a5bf8d019a919a550b7d4ae78ef44d6cfe3b8741cab67415e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "9a6267310b8c45656025a22a1c9b78f52553e869eed3d08c06fce6f952f09dd5",
+        "approvalHash": "e9fae31cc90bb64a5bf8d019a919a550b7d4ae78ef44d6cfe3b8741cab67415e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:biryou",
+      "revisionId": "047-add-biryou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "微量",
+        "reading": "びりょう",
+        "romaji": "biryou",
+        "meaning": "winzige Menge, Spur",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "Oft 微量の〜: 微量の放射性物質, 微量の毒. Gegenteil: 大量.",
+        "examples": [
+          {
+            "japanese": "水道水から微量の鉛が検出された。",
+            "romaji": "Suidousui kara biryou no namari ga kenshutsu sareta.",
+            "german": "Im Leitungswasser wurden Spuren von Blei nachgewiesen."
+          },
+          {
+            "japanese": "この薬は、微量でも強い効き目がある。",
+            "romaji": "Kono kusuri wa, biryou demo tsuyoi kikime ga aru.",
+            "german": "Dieses Medikament wirkt schon in winzigen Mengen stark."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229716483",
+            "patterns": [
+              0
+            ],
+            "finding": "微量 / ビリョウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 微量; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "微量",
+              "reading": "びりょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "微量 as \"winzige Menge, Spur\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 微量【びりょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1486200; spelling=微量; reading=びりょう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1486200 微量/びりょう sense(s) 1 support \"winzige Menge, Spur\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1486200",
+            "spelling": "微量",
+            "reading": "びりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "minuscule amount",
+                  "extremely small quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "微量|びりょう",
+          "referenceIndex": 0,
+          "referenceHash": "f443e3cbac813bce6722be9b7ae0da3f439a24ddb02e370e64193f6f8b512172"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"winzige Menge, Spur\" matches JMdict 1486200 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Water quality test.",
+          "Potent medicine."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1486200; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@229716483 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229716483",
+            "patterns": [
+              0
+            ],
+            "finding": "微量 / ビリョウ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 微量; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "微量",
+              "reading": "びりょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "微量 as \"winzige Menge, Spur\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 微量【びりょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1486200 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "56215a76ed4d65d64c379bb6ba3ae8a548cb9ff274c6a69d0fca0538b3b7d01a",
+        "approvalHash": "db0ce3836a2b0ea2d418f519e750df55a0f98d74f4d5823b5623b94c5415b76c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "56215a76ed4d65d64c379bb6ba3ae8a548cb9ff274c6a69d0fca0538b3b7d01a",
+        "approvalHash": "db0ce3836a2b0ea2d418f519e750df55a0f98d74f4d5823b5623b94c5415b76c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:hirumeshi",
+      "revisionId": "047-add-hirumeshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "昼飯",
+        "reading": "ひるめし",
+        "romaji": "hirumeshi",
+        "meaning": "Mittagessen (salopp)",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N1",
+        "notes": "Salopp (飯 = Essen, derb); neutral: 昼ご飯, お昼.",
+        "examples": [
+          {
+            "japanese": "そろそろ昼飯にしようか。",
+            "romaji": "Sorosoro hirumeshi ni shiyou ka.",
+            "german": "Wollen wir langsam Mittag machen?"
+          },
+          {
+            "japanese": "忙しくて、昼飯を食べる時間もなかった。",
+            "romaji": "Isogashikute, hirumeshi o taberu jikan mo nakatta.",
+            "german": "Ich war so beschäftigt, dass ich nicht mal Zeit zum Mittagessen hatte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228525794",
+            "patterns": [
+              0
+            ],
+            "finding": "昼飯 / ヒルメシ; 名詞/普通名詞/一般/*; *; *; lemma 昼飯; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "昼飯",
+              "reading": "ひるめし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "昼飯 as \"Mittagessen (salopp)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 昼飯【ひるめし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1426410; spelling=昼飯; reading=ひるめし; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1426410 昼飯/ひるめし sense(s) 1 support \"Mittagessen (salopp)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1426410",
+            "spelling": "昼飯",
+            "reading": "ひるめし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch",
+                  "midday meal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "昼飯|ひるめし",
+          "referenceIndex": 0,
+          "referenceHash": "838525e8e46734034a2785acec2f28719a4e93645c000853bd2388bace215642"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Mittagessen (salopp)\" matches JMdict 1426410 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Suggesting a lunch break to colleagues.",
+          "Busy workday."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1426410; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@228525794 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228525794",
+            "patterns": [
+              0
+            ],
+            "finding": "昼飯 / ヒルメシ; 名詞/普通名詞/一般/*; *; *; lemma 昼飯; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "昼飯",
+              "reading": "ひるめし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "昼飯 as \"Mittagessen (salopp)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 昼飯【ひるめし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1426410 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f83e81b8eae133950bdaaf3498c5fa671f06d2c2fa5bd69e5f0a719ae50c043a",
+        "approvalHash": "03d0e220e75d5719989f270dfde47ddd3f57da6878fe82d44d242ff11bb1943e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Register (salopp) correctly flagged; TTS reads ひるめし in context.",
+        "contentHash": "f83e81b8eae133950bdaaf3498c5fa671f06d2c2fa5bd69e5f0a719ae50c043a",
+        "approvalHash": "03d0e220e75d5719989f270dfde47ddd3f57da6878fe82d44d242ff11bb1943e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:hiromaru",
+      "revisionId": "047-add-hiromaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "広まる",
+        "reading": "ひろまる",
+        "romaji": "hiromaru",
+        "meaning": "sich verbreiten, sich herumsprechen",
+        "type": "Verb",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "Intransitiv; transitiv: 広める. うわさが広まる (ein Gerücht verbreitet sich). Für räumliches Ausdehnen eher 広がる.",
+        "examples": [
+          {
+            "japanese": "そのうわさは、あっという間に学校中に広まった。",
+            "romaji": "Sono uwasa wa, atto iu ma ni gakkouchuu ni hiromatta.",
+            "german": "Das Gerücht verbreitete sich im Nu in der ganzen Schule."
+          },
+          {
+            "japanese": "インターネットのおかげで、この言葉は若者の間に広まった。",
+            "romaji": "Intaanetto no okage de, kono kotoba wa wakamono no aida ni hiromatta.",
+            "german": "Durch das Internet hat sich dieses Wort unter jungen Leuten verbreitet."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ひろまる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ひろまる",
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228982623",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "広まる / ヒロマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 広まる; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "広まる",
+              "reading": "ひろまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "広まる as \"sich verbreiten, sich herumsprechen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 広まる【ひろまる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1278450; spelling=広まる; reading=ひろまる; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1278450 広まる/ひろまる sense(s) 1 support \"sich verbreiten, sich herumsprechen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1278450",
+            "spelling": "広まる",
+            "reading": "ひろまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to spread",
+                  "to be propagated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "広まる|ひろまる",
+          "referenceIndex": 0,
+          "referenceHash": "907d76decdab8e172461c472dd7b92e8d5f86e8c8dc506e489cc700457ecc0a8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"sich verbreiten, sich herumsprechen\" matches JMdict 1278450 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Rumour at school.",
+          "Spread of a new word."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1278450; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading ひろまる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@228982623 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228982623",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "広まる / ヒロマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 広まる; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "広まる",
+              "reading": "ひろまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "広まる as \"sich verbreiten, sich herumsprechen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 広まる【ひろまる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1278450 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cc3777320fc99f82d1b1cb19ba95ae461b75f82cbd025c947d7e43f157f500fb",
+        "approvalHash": "28b05324a85edfa75b189111150086961134b5f1ae21a831c3876fd8d13acd3f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "cc3777320fc99f82d1b1cb19ba95ae461b75f82cbd025c947d7e43f157f500fb",
+        "approvalHash": "28b05324a85edfa75b189111150086961134b5f1ae21a831c3876fd8d13acd3f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:hinjaku",
+      "revisionId": "047-add-hinjaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "貧弱",
+        "reading": "ひんじゃく",
+        "romaji": "hinjaku",
+        "meaning": "dürftig, kümmerlich, schmächtig",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "な-Adjektiv: 貧弱な体 (schmächtiger Körper), 貧弱な知識 (dürftige Kenntnisse).",
+        "examples": [
+          {
+            "japanese": "彼は子どもの頃、体が貧弱だったので、水泳を始めた。",
+            "romaji": "Kare wa kodomo no koro, karada ga hinjaku datta node, suiei o hajimeta.",
+            "german": "Als Kind war er schmächtig, deshalb fing er mit dem Schwimmen an."
+          },
+          {
+            "japanese": "この報告書は、データが貧弱で説得力がない。",
+            "romaji": "Kono houkokusho wa, deeta ga hinjaku de settokuryoku ga nai.",
+            "german": "Dieser Bericht stützt sich auf dürftige Daten und überzeugt nicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229105621",
+            "patterns": [
+              0
+            ],
+            "finding": "貧弱 / ヒンジャク; 名詞/普通名詞/形状詞可能/*; *; *; lemma 貧弱; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貧弱",
+              "reading": "ひんじゃく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "貧弱 as \"dürftig, kümmerlich, schmächtig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 貧弱【ひんじゃく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490850; spelling=貧弱; reading=ひんじゃく; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1490850 貧弱/ひんじゃく sense(s) 1 support \"dürftig, kümmerlich, schmächtig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1490850",
+            "spelling": "貧弱",
+            "reading": "ひんじゃく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poor",
+                  "meagre",
+                  "meager",
+                  "feeble",
+                  "scanty",
+                  "shabby",
+                  "insubstantial"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "貧弱|ひんじゃく",
+          "referenceIndex": 0,
+          "referenceHash": "043a9d2c7a5ab80de67e5321f7215993fb183fc444cf99a4c1a65a923aa1f83a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"dürftig, kümmerlich, schmächtig\" matches JMdict 1490850 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Childhood physique.",
+          "Weak report."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1490850; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@229105621 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229105621",
+            "patterns": [
+              0
+            ],
+            "finding": "貧弱 / ヒンジャク; 名詞/普通名詞/形状詞可能/*; *; *; lemma 貧弱; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "貧弱",
+              "reading": "ひんじゃく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "貧弱 as \"dürftig, kümmerlich, schmächtig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 貧弱【ひんじゃく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1490850 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4d441a06cbd9959e946aa88efd37f9e8e48775cc5fcd1894273a9958cdb6a156",
+        "approvalHash": "0ea18913439f668e3dbbddd2b953b03fa501bcafedb8d6665992d14d2f9e6cae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "4d441a06cbd9959e946aa88efd37f9e8e48775cc5fcd1894273a9958cdb6a156",
+        "approvalHash": "0ea18913439f668e3dbbddd2b953b03fa501bcafedb8d6665992d14d2f9e6cae"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:hinshu",
+      "revisionId": "047-add-hinshu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "品種",
+        "reading": "ひんしゅ",
+        "romaji": "hinshu",
+        "meaning": "Sorte, Rasse (Züchtung); Warenart",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N1",
+        "notes": "Bei Pflanzen und Tieren: 米の品種 (Reissorte), 品種改良 (Züchtung neuer Sorten).",
+        "examples": [
+          {
+            "japanese": "コシヒカリは、日本で最も多く作られている米の品種だ。",
+            "romaji": "Koshihikari wa, Nihon de mottomo ooku tsukurarete iru kome no hinshu da.",
+            "german": "Koshihikari ist die in Japan am meisten angebaute Reissorte."
+          },
+          {
+            "japanese": "この農家では、いろいろな品種のリンゴを育てている。",
+            "romaji": "Kono nouka de wa, iroiro na hinshu no ringo o sodatete iru.",
+            "german": "Dieser Bauernhof baut viele verschiedene Apfelsorten an."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229102694",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "品種 / ヒンシュ; 名詞/普通名詞/一般/*; *; *; lemma 品種; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "品種",
+              "reading": "ひんしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "品種 as \"Sorte, Rasse (Züchtung); Warenart\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 品種【ひんしゅ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490620; spelling=品種; reading=ひんしゅ; senses=1,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1490620 品種/ひんしゅ sense(s) 1,3 support \"Sorte, Rasse (Züchtung); Warenart\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1490620",
+            "spelling": "品種",
+            "reading": "ひんしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "type (of goods)",
+                  "sort"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breed",
+                  "variety",
+                  "kind",
+                  "type",
+                  "cultivar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "品種|ひんしゅ",
+          "referenceIndex": 0,
+          "referenceHash": "3b4d30a45ab58acd27e71fb7e0e2521d3027833302b80e3136d8e5942027af4a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Sorte, Rasse (Züchtung); Warenart\" matches JMdict 1490620 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Japanese rice varieties.",
+          "Apple farm."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1490620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@229102694 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229102694",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "品種 / ヒンシュ; 名詞/普通名詞/一般/*; *; *; lemma 品種; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "品種",
+              "reading": "ひんしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "品種 as \"Sorte, Rasse (Züchtung); Warenart\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 品種【ひんしゅ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1490620 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1c1afd28bd8c6d25d280d34ecc07cbd32914dfc7ba9b76a742259f673af82eea",
+        "approvalHash": "0ed22a67cb9794b0a2a993402398932abe32493b7fcf09d869fd48cb2aa1cd26"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Koshihikari is the most widely planted rice cultivar in Japan (top since 1979) – accurate.",
+        "contentHash": "1c1afd28bd8c6d25d280d34ecc07cbd32914dfc7ba9b76a742259f673af82eea",
+        "approvalHash": "0ed22a67cb9794b0a2a993402398932abe32493b7fcf09d869fd48cb2aa1cd26"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:faito",
+      "revisionId": "047-add-faito",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ファイト",
+        "reading": "ファイト",
+        "romaji": "faito",
+        "meaning": "Kampfgeist; (Anfeuerungsruf) Los, gib alles!",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N1",
+        "notes": "Als Anfeuerungsruf: ファイト！ (Auf geht’s!, Du schaffst das!). ファイトがある = Kampfgeist haben. Auch „Kampf“ im Boxen.",
+        "examples": [
+          {
+            "japanese": "最後まであきらめないファイトが、勝利につながった。",
+            "romaji": "Saigo made akiramenai faito ga, shouri ni tsunagatta.",
+            "german": "Der Kampfgeist, bis zuletzt nicht aufzugeben, führte zum Sieg."
+          },
+          {
+            "japanese": "試験前の友達に「ファイト！」と声をかけた。",
+            "romaji": "Shiken mae no tomodachi ni \"faito!\" to koe o kaketa.",
+            "german": "Ich rief meiner Freundin vor der Prüfung „Du schaffst das!“ zu."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230297620",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "ファイト / ファイト; 名詞/普通名詞/一般/*; *; *; lemma ファイト-fight; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ファイト",
+              "reading": "ファイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ファイト as \"Kampfgeist; (Anfeuerungsruf) Los, gib alles!\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add ファイト【ファイト】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1107700; spelling=ファイト; reading=ファイト; senses=2,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1107700 ファイト/ファイト sense(s) 2,3 support \"Kampfgeist; (Anfeuerungsruf) Los, gib alles!\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1107700",
+            "spelling": "ファイト",
+            "reading": "ファイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "fighting spirit"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fight!",
+                  "do your best",
+                  "go for it",
+                  "keep at it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ふぁいと|ふぁいと",
+          "referenceIndex": 0,
+          "referenceHash": "5fcf7028b8099691b10728c9f78612ed8f35569ea4c8f0fb5f385d1e5e07629b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Kampfgeist; (Anfeuerungsruf) Los, gib alles!\" matches JMdict 1107700 sense(s) 2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sports commentary.",
+          "Encouraging a friend."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1107700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@230297620 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230297620",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "ファイト / ファイト; 名詞/普通名詞/一般/*; *; *; lemma ファイト-fight; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ファイト",
+              "reading": "ファイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ファイト as \"Kampfgeist; (Anfeuerungsruf) Los, gib alles!\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add ファイト【ファイト】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1107700 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2e778e5314b839913d5b16869c8965e9b08a796612957f37976699e2c99bca05",
+        "approvalHash": "a9eba9371cf7f71923a001e9a0b2ac20437b437ba0c763deb24b8097f63d19f3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "2e778e5314b839913d5b16869c8965e9b08a796612957f37976699e2c99bca05",
+        "approvalHash": "a9eba9371cf7f71923a001e9a0b2ac20437b437ba0c763deb24b8097f63d19f3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:fui",
+      "revisionId": "047-add-fui",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "不意",
+        "reading": "ふい",
+        "romaji": "fui",
+        "meaning": "plötzlich, unerwartet",
+        "type": "Adjektiv",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Meist 不意に (plötzlich) oder 不意を突く / 不意を打つ (überrumpeln): 不意を突かれる = überrascht werden.",
+        "examples": [
+          {
+            "japanese": "後ろから不意に名前を呼ばれて、びっくりした。",
+            "romaji": "Ushiro kara fui ni namae o yobarete, bikkuri shita.",
+            "german": "Ich erschrak, als mich plötzlich jemand von hinten beim Namen rief."
+          },
+          {
+            "japanese": "相手チームは、こちらの不意を突いて攻めてきた。",
+            "romaji": "Aite chiimu wa, kochira no fui o tsuite semete kita.",
+            "german": "Die gegnerische Mannschaft griff uns überraschend an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230646906",
+            "patterns": [
+              0
+            ],
+            "finding": "不意 / フイ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 不意; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "不意",
+              "reading": "ふい",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "不意 as \"plötzlich, unerwartet\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 不意【ふい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1491210; spelling=不意; reading=ふい; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1491210 不意/ふい sense(s) 1 support \"plötzlich, unerwartet\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1491210",
+            "spelling": "不意",
+            "reading": "ふい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "unforeseen"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "不意|ふい",
+          "referenceIndex": 0,
+          "referenceHash": "6e90c3ffe9bd93ef331ceb8ba871b644e235efc864e38d8d3c66cea03a9e77a4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"plötzlich, unerwartet\" matches JMdict 1491210 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Being called unexpectedly.",
+          "Surprise attack in a match."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1491210; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@230646906 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230646906",
+            "patterns": [
+              0
+            ],
+            "finding": "不意 / フイ; 名詞/普通名詞/形状詞可能/*; *; *; lemma 不意; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "不意",
+              "reading": "ふい",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "不意 as \"plötzlich, unerwartet\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 不意【ふい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1491210 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "92d87c2c3f80c4ef29c3c1008a922fe5ded48602c061d63888af45727e0eff66",
+        "approvalHash": "89716101849f3d03c6cd19ad7a81f5d1f7df2c277981f21f01c92a76563ff052"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "92d87c2c3f80c4ef29c3c1008a922fe5ded48602c061d63888af45727e0eff66",
+        "approvalHash": "89716101849f3d03c6cd19ad7a81f5d1f7df2c277981f21f01c92a76563ff052"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:firutaa",
+      "revisionId": "047-add-firutaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "フィルター",
+        "reading": "フィルター",
+        "romaji": "firutaa",
+        "meaning": "Filter",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N1",
+        "notes": "Kaffee-, Luft- oder Kamerafilter; auch Bildfilter in Apps: フィルターをかける (einen Filter anwenden).",
+        "examples": [
+          {
+            "japanese": "コーヒーのフィルターが切れていたので、買いに行った。",
+            "romaji": "Koohii no firutaa ga kirete ita node, kai ni itta.",
+            "german": "Die Kaffeefilter waren alle, also ging ich welche kaufen."
+          },
+          {
+            "japanese": "写真にフィルターをかけると、雰囲気が変わる。",
+            "romaji": "Shashin ni firutaa o kakeru to, fun'iki ga kawaru.",
+            "german": "Wenn man einen Filter über das Foto legt, ändert sich die Stimmung."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230598771",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "フィルター / フィルター; 名詞/普通名詞/一般/*; *; *; lemma フィルター-filter; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フィルター",
+              "reading": "フィルター",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "フィルター as \"Filter\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add フィルター【フィルター】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1109330; spelling=フィルター; reading=フィルター; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1109330 フィルター/フィルター sense(s) 1 support \"Filter\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1109330",
+            "spelling": "フィルター",
+            "reading": "フィルター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "filter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ふぃるたー|ふぃるたー",
+          "referenceIndex": 0,
+          "referenceHash": "d75df49d190779102e9d89a9f1acf9a4bfff99aaa9c729858efc9aa10832d8a7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Filter\" matches JMdict 1109330 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Running out of coffee filters.",
+          "Photo editing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1109330; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@230598771 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230598771",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "フィルター / フィルター; 名詞/普通名詞/一般/*; *; *; lemma フィルター-filter; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フィルター",
+              "reading": "フィルター",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "フィルター as \"Filter\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add フィルター【フィルター】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1109330 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b9c70d1348192e787cb0def7e59a9ead509cd78613c1a83ba3cb1f6ac5c9eb71",
+        "approvalHash": "fc0c7f0b150e52ad0de55cbb452684b8d668232abac44bc938017a0921d77e05"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "b9c70d1348192e787cb0def7e59a9ead509cd78613c1a83ba3cb1f6ac5c9eb71",
+        "approvalHash": "fc0c7f0b150e52ad0de55cbb452684b8d668232abac44bc938017a0921d77e05"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:fuu-seal",
+      "revisionId": "047-add-fuu-seal",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "封",
+        "reading": "ふう",
+        "romaji": "fuu",
+        "meaning": "Siegel, Verschluss (eines Briefs oder einer Packung)",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "封をする (verschließen), 封を切る / 封を開ける (öffnen, anbrechen). Briefumschlag: 封筒.",
+        "examples": [
+          {
+            "japanese": "手紙を書き終えて、封筒に封をした。",
+            "romaji": "Tegami o kakiowatte, fuutou ni fuu o shita.",
+            "german": "Nachdem ich den Brief fertig geschrieben hatte, verschloss ich den Umschlag."
+          },
+          {
+            "japanese": "封を切っていない商品なら、返品できます。",
+            "romaji": "Fuu o kitte inai shouhin nara, henpin dekimasu.",
+            "german": "Ungeöffnete Ware kann zurückgegeben werden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230659690",
+            "patterns": [
+              1
+            ],
+            "finding": "封 / フウ; 名詞/普通名詞/一般/*; *; *; lemma 封; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "封",
+              "reading": "ふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "封 as \"Siegel, Verschluss (eines Briefs oder einer Packung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 047); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 封【ふう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1499580; spelling=封; reading=ふう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1499580 封/ふう sense(s) 1 support \"Siegel, Verschluss (eines Briefs oder einer Packung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1499580",
+            "spelling": "封",
+            "reading": "ふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "封|ふう",
+          "referenceIndex": 0,
+          "referenceHash": "8424406133ad6a0ef65ef469aaeb29eb79bf344ab07208a32168abf50d225ad5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-047-editor",
+        "meaning": "\"Siegel, Verschluss (eines Briefs oder einer Packung)\" matches JMdict 1499580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sealing a letter.",
+          "Shop return policy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1499580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@230659690 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230659690",
+            "patterns": [
+              1
+            ],
+            "finding": "封 / フウ; 名詞/普通名詞/一般/*; *; *; lemma 封; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "封",
+              "reading": "ふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "封 as \"Siegel, Verschluss (eines Briefs oder einer Packung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: Add 封【ふう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1499580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a368244795a893dffb03e9a274709d05c7b6a7308d7f067ff7863618551c8387",
+        "approvalHash": "f61391db7e95313681f5e6274ba65248588ad2f069a8ab0c245d1e2e38869b04"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Examples grammatical/natural with headword in taught sense; romaji, German, JMdict support, POS, level, pitch provenance and duplicate status (new) checked.",
+        "contentHash": "a368244795a893dffb03e9a274709d05c7b6a7308d7f067ff7863618551c8387",
+        "approvalHash": "f61391db7e95313681f5e6274ba65248588ad2f069a8ab0c245d1e2e38869b04"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "ひょっと|ひょっと",
+      "referenceIndex": 0,
+      "referenceHash": "b9e4202cc4bc4852141e4e56f07456cdccf708606ff126c594349cdf27533553",
+      "revisionId": "047-candidate-hyotto-f6d6ccbf-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hyotto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hyotto": "f41f02a6b6d1c13d03a6681ddf937f0fe95b2067b2d6bcf55a81e3ee0c555e7d"
+      },
+      "reason": "Reference ひょっと/ひょっと (tanos N1) is the same lexeme as the new entry ひょっと【ひょっと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=140",
+          "finding": "tanos lists ひょっと/ひょっと at N1 (gloss: possibly, accidentally)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010640; spelling=ひょっと; reading=ひょっと; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1010640 as the reference form.",
+          "selected": {
+            "sequence": "1010640",
+            "spelling": "ひょっと",
+            "reading": "ひょっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "possibly",
+                  "perhaps",
+                  "perchance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "unintentionally",
+                  "accidentally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ひょっと|ひょっと#0 is the same lexeme as vocab-n1:correction:hyotto; target hash bound to the assembled addition.",
+        "contentHash": "59dc28fe49694a7fc937398bbf84c02038f6d0bcc0a187d2a5297b37d2a5da50",
+        "approvalHash": "59dc28fe49694a7fc937398bbf84c02038f6d0bcc0a187d2a5297b37d2a5da50"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hyotto.",
+        "contentHash": "59dc28fe49694a7fc937398bbf84c02038f6d0bcc0a187d2a5297b37d2a5da50",
+        "approvalHash": "59dc28fe49694a7fc937398bbf84c02038f6d0bcc0a187d2a5297b37d2a5da50"
+      }
+    },
+    {
+      "key": "ひょっと|ひょっと",
+      "referenceIndex": 1,
+      "referenceHash": "d7582291b65cbfc232aaf0ccc3492aaf686f679ec22d9d0dd438517212887d82",
+      "revisionId": "047-candidate-hyotto-f6d6ccbf-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hyotto"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hyotto": "f41f02a6b6d1c13d03a6681ddf937f0fe95b2067b2d6bcf55a81e3ee0c555e7d"
+      },
+      "reason": "Reference ひょっと/ひょっと (master N1) is the same lexeme as the new entry ひょっと【ひょっと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ひょっと/ひょっと at N1 (gloss: possibly; perhaps; perchance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010640; spelling=ひょっと; reading=ひょっと; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1010640 as the reference form.",
+          "selected": {
+            "sequence": "1010640",
+            "spelling": "ひょっと",
+            "reading": "ひょっと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "possibly",
+                  "perhaps",
+                  "perchance"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "unintentionally",
+                  "accidentally"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ひょっと|ひょっと#1 is the same lexeme as vocab-n1:correction:hyotto; target hash bound to the assembled addition.",
+        "contentHash": "37d7e605eb3983243b19cc9a91a8a8fb2049c31d5ee4d0e831e81b1f6ec5732b",
+        "approvalHash": "37d7e605eb3983243b19cc9a91a8a8fb2049c31d5ee4d0e831e81b1f6ec5732b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hyotto.",
+        "contentHash": "37d7e605eb3983243b19cc9a91a8a8fb2049c31d5ee4d0e831e81b1f6ec5732b",
+        "approvalHash": "37d7e605eb3983243b19cc9a91a8a8fb2049c31d5ee4d0e831e81b1f6ec5732b"
+      }
+    },
+    {
+      "key": "平たい|ひらたい",
+      "referenceIndex": 0,
+      "referenceHash": "b0d6498a78107d2920457aa10f5b64a2e3b7d4fd5fee0a5f2a2da516ca809151",
+      "revisionId": "047-candidate-hiratai-754e9449-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hiratai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hiratai": "545107133add5eda2d1727cbb6b6d0c6515696d52d07a4b47bc3b3bbfe7baceb"
+      },
+      "reason": "Reference 平たい/ひらたい (tanos N1) is the same lexeme as the new entry 平たい【ひらたい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=140",
+          "finding": "tanos lists 平たい/ひらたい at N1 (gloss: flat, even, level, simple, plain)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1506900; spelling=平たい; reading=ひらたい; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1506900 as the reference form.",
+          "selected": {
+            "sequence": "1506900",
+            "spelling": "平たい",
+            "reading": "ひらたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flat",
+                  "even",
+                  "level"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "plain (language, words, etc.)",
+                  "simple"
+                ],
+                "notes": [
+                  "usu. as 平たく言えば, 平たく言うと, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 平たい|ひらたい#0 is the same lexeme as vocab-n1:correction:hiratai; target hash bound to the assembled addition.",
+        "contentHash": "afdb6c86afe00c234188b431e4352a06e13e135665e1893d867242da0f24c1ef",
+        "approvalHash": "afdb6c86afe00c234188b431e4352a06e13e135665e1893d867242da0f24c1ef"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hiratai.",
+        "contentHash": "afdb6c86afe00c234188b431e4352a06e13e135665e1893d867242da0f24c1ef",
+        "approvalHash": "afdb6c86afe00c234188b431e4352a06e13e135665e1893d867242da0f24c1ef"
+      }
+    },
+    {
+      "key": "平たい|ひらたい",
+      "referenceIndex": 1,
+      "referenceHash": "580cfb77670aa86feba52608d491a602ed96d996d28c53efdafb9aab5b414bce",
+      "revisionId": "047-candidate-hiratai-754e9449-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hiratai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hiratai": "545107133add5eda2d1727cbb6b6d0c6515696d52d07a4b47bc3b3bbfe7baceb"
+      },
+      "reason": "Reference 平たい/ひらたい (master N1) is the same lexeme as the new entry 平たい【ひらたい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 平たい/ひらたい at N1 (gloss: flat; even; level)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1506900; spelling=平たい; reading=ひらたい; senses=1,2; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1506900 as the reference form.",
+          "selected": {
+            "sequence": "1506900",
+            "spelling": "平たい",
+            "reading": "ひらたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flat",
+                  "even",
+                  "level"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "plain (language, words, etc.)",
+                  "simple"
+                ],
+                "notes": [
+                  "usu. as 平たく言えば, 平たく言うと, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 平たい|ひらたい#1 is the same lexeme as vocab-n1:correction:hiratai; target hash bound to the assembled addition.",
+        "contentHash": "fca9be06d8b573654d008d1c30ad4fb44488bb1766c04e79d3f5c357302abf0a",
+        "approvalHash": "fca9be06d8b573654d008d1c30ad4fb44488bb1766c04e79d3f5c357302abf0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hiratai.",
+        "contentHash": "fca9be06d8b573654d008d1c30ad4fb44488bb1766c04e79d3f5c357302abf0a",
+        "approvalHash": "fca9be06d8b573654d008d1c30ad4fb44488bb1766c04e79d3f5c357302abf0a"
+      }
+    },
+    {
+      "key": "びり|びり",
+      "referenceIndex": 0,
+      "referenceHash": "1d01e79818600f55671b858da80951691d6b696c315dafaea76d427febe2b469",
+      "revisionId": "047-candidate-biri-c44f1b2b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:biri"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:biri": "9a6267310b8c45656025a22a1c9b78f52553e869eed3d08c06fce6f952f09dd5"
+      },
+      "reason": "Reference びり/びり (tanos N1) is the same lexeme as the new entry びり【びり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=141",
+          "finding": "tanos lists びり/びり at N1 (gloss: last on the list, at the bottom)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010790; spelling=びり; reading=びり; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1010790 as the reference form.",
+          "selected": {
+            "sequence": "1010790",
+            "spelling": "びり",
+            "reading": "びり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "last (on the list)",
+                  "(at the) bottom",
+                  "(in) last position",
+                  "tailender"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference びり|びり#0 is the same lexeme as vocab-n1:correction:biri; target hash bound to the assembled addition.",
+        "contentHash": "ad56de4826c1e53d89ca54f7ab11c18146efdda64b080f9927881a460690187d",
+        "approvalHash": "ad56de4826c1e53d89ca54f7ab11c18146efdda64b080f9927881a460690187d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:biri.",
+        "contentHash": "ad56de4826c1e53d89ca54f7ab11c18146efdda64b080f9927881a460690187d",
+        "approvalHash": "ad56de4826c1e53d89ca54f7ab11c18146efdda64b080f9927881a460690187d"
+      }
+    },
+    {
+      "key": "びり|びり",
+      "referenceIndex": 1,
+      "referenceHash": "915eec9fd8d91fab1a90fc40f03ad23b46f2d37b827d6f8406e39fca20fb2ac1",
+      "revisionId": "047-candidate-biri-c44f1b2b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:biri"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:biri": "9a6267310b8c45656025a22a1c9b78f52553e869eed3d08c06fce6f952f09dd5"
+      },
+      "reason": "Reference びり/びり (master N1) is the same lexeme as the new entry びり【びり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists びり/びり at N1 (gloss: last on the list; at the bottom; (n) Letzter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010790; spelling=びり; reading=びり; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1010790 as the reference form.",
+          "selected": {
+            "sequence": "1010790",
+            "spelling": "びり",
+            "reading": "びり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "last (on the list)",
+                  "(at the) bottom",
+                  "(in) last position",
+                  "tailender"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference びり|びり#1 is the same lexeme as vocab-n1:correction:biri; target hash bound to the assembled addition.",
+        "contentHash": "aac696514be965e47c4772df4d6d0a53affb2dad65d170d01c3a2d116913169d",
+        "approvalHash": "aac696514be965e47c4772df4d6d0a53affb2dad65d170d01c3a2d116913169d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:biri.",
+        "contentHash": "aac696514be965e47c4772df4d6d0a53affb2dad65d170d01c3a2d116913169d",
+        "approvalHash": "aac696514be965e47c4772df4d6d0a53affb2dad65d170d01c3a2d116913169d"
+      }
+    },
+    {
+      "key": "微量|びりょう",
+      "referenceIndex": 0,
+      "referenceHash": "f443e3cbac813bce6722be9b7ae0da3f439a24ddb02e370e64193f6f8b512172",
+      "revisionId": "047-candidate-biryou-18468d90-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:biryou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:biryou": "56215a76ed4d65d64c379bb6ba3ae8a548cb9ff274c6a69d0fca0538b3b7d01a"
+      },
+      "reason": "Reference 微量/びりょう (tanos N1) is the same lexeme as the new entry 微量【びりょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=141",
+          "finding": "tanos lists 微量/びりょう at N1 (gloss: minuscule amount, extremely small quantity)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1486200; spelling=微量; reading=びりょう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1486200 as the reference form.",
+          "selected": {
+            "sequence": "1486200",
+            "spelling": "微量",
+            "reading": "びりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "minuscule amount",
+                  "extremely small quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 微量|びりょう#0 is the same lexeme as vocab-n1:correction:biryou; target hash bound to the assembled addition.",
+        "contentHash": "7ecf7c99ff609fceeb6ae646de7cc66f25246a67790f6100f5a4ab6e8b9d787d",
+        "approvalHash": "7ecf7c99ff609fceeb6ae646de7cc66f25246a67790f6100f5a4ab6e8b9d787d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:biryou.",
+        "contentHash": "7ecf7c99ff609fceeb6ae646de7cc66f25246a67790f6100f5a4ab6e8b9d787d",
+        "approvalHash": "7ecf7c99ff609fceeb6ae646de7cc66f25246a67790f6100f5a4ab6e8b9d787d"
+      }
+    },
+    {
+      "key": "微量|びりょう",
+      "referenceIndex": 1,
+      "referenceHash": "02e9a02a5b9ab86331ae409d7bd091a33322adba9ed0e2e7353f77fc6d332f31",
+      "revisionId": "047-candidate-biryou-18468d90-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:biryou"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:biryou": "56215a76ed4d65d64c379bb6ba3ae8a548cb9ff274c6a69d0fca0538b3b7d01a"
+      },
+      "reason": "Reference 微量/びりょう (master N1) is the same lexeme as the new entry 微量【びりょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 微量/びりょう at N1 (gloss: minuscule amount; extremely small quantity; (n) winzige Menge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1486200; spelling=微量; reading=びりょう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1486200 as the reference form.",
+          "selected": {
+            "sequence": "1486200",
+            "spelling": "微量",
+            "reading": "びりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "minuscule amount",
+                  "extremely small quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 微量|びりょう#1 is the same lexeme as vocab-n1:correction:biryou; target hash bound to the assembled addition.",
+        "contentHash": "27c3b45a287352ebcf0ae0dc1dc7188c3091a6132481b3ab8eeff2c83960f716",
+        "approvalHash": "27c3b45a287352ebcf0ae0dc1dc7188c3091a6132481b3ab8eeff2c83960f716"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:biryou.",
+        "contentHash": "27c3b45a287352ebcf0ae0dc1dc7188c3091a6132481b3ab8eeff2c83960f716",
+        "approvalHash": "27c3b45a287352ebcf0ae0dc1dc7188c3091a6132481b3ab8eeff2c83960f716"
+      }
+    },
+    {
+      "key": "昼飯|ひるめし",
+      "referenceIndex": 0,
+      "referenceHash": "838525e8e46734034a2785acec2f28719a4e93645c000853bd2388bace215642",
+      "revisionId": "047-candidate-hirumeshi-acb063eb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hirumeshi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hirumeshi": "f83e81b8eae133950bdaaf3498c5fa671f06d2c2fa5bd69e5f0a719ae50c043a"
+      },
+      "reason": "Reference 昼飯/ひるめし (master N1) is the same lexeme as the new entry 昼飯【ひるめし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 昼飯/ひるめし at N1 (gloss: lunch; midday meal; (n) Mittagessen)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1426410; spelling=昼飯; reading=ひるめし; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1426410 as the reference form.",
+          "selected": {
+            "sequence": "1426410",
+            "spelling": "昼飯",
+            "reading": "ひるめし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch",
+                  "midday meal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 昼飯|ひるめし#0 is the same lexeme as vocab-n1:correction:hirumeshi; target hash bound to the assembled addition.",
+        "contentHash": "807e2921d1f7cc4be7d70efe5b3a941fd276da8f0861e09bc3c6086b60b371c2",
+        "approvalHash": "807e2921d1f7cc4be7d70efe5b3a941fd276da8f0861e09bc3c6086b60b371c2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hirumeshi.",
+        "contentHash": "807e2921d1f7cc4be7d70efe5b3a941fd276da8f0861e09bc3c6086b60b371c2",
+        "approvalHash": "807e2921d1f7cc4be7d70efe5b3a941fd276da8f0861e09bc3c6086b60b371c2"
+      }
+    },
+    {
+      "key": "広まる|ひろまる",
+      "referenceIndex": 0,
+      "referenceHash": "907d76decdab8e172461c472dd7b92e8d5f86e8c8dc506e489cc700457ecc0a8",
+      "revisionId": "047-candidate-hiromaru-c30e54ea-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hiromaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hiromaru": "cc3777320fc99f82d1b1cb19ba95ae461b75f82cbd025c947d7e43f157f500fb"
+      },
+      "reason": "Reference 広まる/ひろまる (tanos N1) is the same lexeme as the new entry 広まる【ひろまる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=140",
+          "finding": "tanos lists 広まる/ひろまる at N1 (gloss: to spread, to be propagated)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1278450; spelling=広まる; reading=ひろまる; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1278450 as the reference form.",
+          "selected": {
+            "sequence": "1278450",
+            "spelling": "広まる",
+            "reading": "ひろまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to spread",
+                  "to be propagated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 広まる|ひろまる#0 is the same lexeme as vocab-n1:correction:hiromaru; target hash bound to the assembled addition.",
+        "contentHash": "abc035e9a3409daee2ba1d8730323496a95427bb85b1b8518e3a1b8a1c8e9863",
+        "approvalHash": "abc035e9a3409daee2ba1d8730323496a95427bb85b1b8518e3a1b8a1c8e9863"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hiromaru.",
+        "contentHash": "abc035e9a3409daee2ba1d8730323496a95427bb85b1b8518e3a1b8a1c8e9863",
+        "approvalHash": "abc035e9a3409daee2ba1d8730323496a95427bb85b1b8518e3a1b8a1c8e9863"
+      }
+    },
+    {
+      "key": "広まる|ひろまる",
+      "referenceIndex": 1,
+      "referenceHash": "5e3115e002acff4e762443ff963f9573037186fcefdd45797ea5351b760a0f37",
+      "revisionId": "047-candidate-hiromaru-c30e54ea-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hiromaru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hiromaru": "cc3777320fc99f82d1b1cb19ba95ae461b75f82cbd025c947d7e43f157f500fb"
+      },
+      "reason": "Reference 広まる/ひろまる (master N1) is the same lexeme as the new entry 広まる【ひろまる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 広まる/ひろまる at N1 (gloss: to spread; to be propagated; étendre)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1278450; spelling=広まる; reading=ひろまる; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1278450 as the reference form.",
+          "selected": {
+            "sequence": "1278450",
+            "spelling": "広まる",
+            "reading": "ひろまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to spread",
+                  "to be propagated"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 広まる|ひろまる#1 is the same lexeme as vocab-n1:correction:hiromaru; target hash bound to the assembled addition.",
+        "contentHash": "4f593f7cdef7afc254a39859096c91e98c268c449f08d644c0cd9ba5f764ac31",
+        "approvalHash": "4f593f7cdef7afc254a39859096c91e98c268c449f08d644c0cd9ba5f764ac31"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hiromaru.",
+        "contentHash": "4f593f7cdef7afc254a39859096c91e98c268c449f08d644c0cd9ba5f764ac31",
+        "approvalHash": "4f593f7cdef7afc254a39859096c91e98c268c449f08d644c0cd9ba5f764ac31"
+      }
+    },
+    {
+      "key": "貧弱|ひんじゃく",
+      "referenceIndex": 0,
+      "referenceHash": "043a9d2c7a5ab80de67e5321f7215993fb183fc444cf99a4c1a65a923aa1f83a",
+      "revisionId": "047-candidate-hinjaku-51a078b1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hinjaku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hinjaku": "4d441a06cbd9959e946aa88efd37f9e8e48775cc5fcd1894273a9958cdb6a156"
+      },
+      "reason": "Reference 貧弱/ひんじゃく (tanos N1) is the same lexeme as the new entry 貧弱【ひんじゃく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=140",
+          "finding": "tanos lists 貧弱/ひんじゃく at N1 (gloss: poor, meagre, insubstantial)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490850; spelling=貧弱; reading=ひんじゃく; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1490850 as the reference form.",
+          "selected": {
+            "sequence": "1490850",
+            "spelling": "貧弱",
+            "reading": "ひんじゃく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poor",
+                  "meagre",
+                  "meager",
+                  "feeble",
+                  "scanty",
+                  "shabby",
+                  "insubstantial"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 貧弱|ひんじゃく#0 is the same lexeme as vocab-n1:correction:hinjaku; target hash bound to the assembled addition.",
+        "contentHash": "95c3cdd84f03fa49334f82150d4ed4e931442a66c269519bc647ed63b3fab290",
+        "approvalHash": "95c3cdd84f03fa49334f82150d4ed4e931442a66c269519bc647ed63b3fab290"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hinjaku.",
+        "contentHash": "95c3cdd84f03fa49334f82150d4ed4e931442a66c269519bc647ed63b3fab290",
+        "approvalHash": "95c3cdd84f03fa49334f82150d4ed4e931442a66c269519bc647ed63b3fab290"
+      }
+    },
+    {
+      "key": "貧弱|ひんじゃく",
+      "referenceIndex": 1,
+      "referenceHash": "6feb182ddd76d497ff255d699416590aeedd17081509b1f8f2d79b508932f0c3",
+      "revisionId": "047-candidate-hinjaku-51a078b1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hinjaku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hinjaku": "4d441a06cbd9959e946aa88efd37f9e8e48775cc5fcd1894273a9958cdb6a156"
+      },
+      "reason": "Reference 貧弱/ひんじゃく (master N1) is the same lexeme as the new entry 貧弱【ひんじゃく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 貧弱/ひんじゃく at N1 (gloss: poor; meagre; meager)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490850; spelling=貧弱; reading=ひんじゃく; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1490850 as the reference form.",
+          "selected": {
+            "sequence": "1490850",
+            "spelling": "貧弱",
+            "reading": "ひんじゃく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poor",
+                  "meagre",
+                  "meager",
+                  "feeble",
+                  "scanty",
+                  "shabby",
+                  "insubstantial"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 貧弱|ひんじゃく#1 is the same lexeme as vocab-n1:correction:hinjaku; target hash bound to the assembled addition.",
+        "contentHash": "e5df2e67877344905b02197acec49c4fe3c8635a1385e0a3e69c851b192ac389",
+        "approvalHash": "e5df2e67877344905b02197acec49c4fe3c8635a1385e0a3e69c851b192ac389"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hinjaku.",
+        "contentHash": "e5df2e67877344905b02197acec49c4fe3c8635a1385e0a3e69c851b192ac389",
+        "approvalHash": "e5df2e67877344905b02197acec49c4fe3c8635a1385e0a3e69c851b192ac389"
+      }
+    },
+    {
+      "key": "品種|ひんしゅ",
+      "referenceIndex": 0,
+      "referenceHash": "3b4d30a45ab58acd27e71fb7e0e2521d3027833302b80e3136d8e5942027af4a",
+      "revisionId": "047-candidate-hinshu-d705a387-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hinshu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hinshu": "1c1afd28bd8c6d25d280d34ecc07cbd32914dfc7ba9b76a742259f673af82eea"
+      },
+      "reason": "Reference 品種/ひんしゅ (tanos N1) is the same lexeme as the new entry 品種【ひんしゅ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=140",
+          "finding": "tanos lists 品種/ひんしゅ at N1 (gloss: brand, kind, description)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490620; spelling=品種; reading=ひんしゅ; senses=1,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1490620 as the reference form.",
+          "selected": {
+            "sequence": "1490620",
+            "spelling": "品種",
+            "reading": "ひんしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "type (of goods)",
+                  "sort"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breed",
+                  "variety",
+                  "kind",
+                  "type",
+                  "cultivar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 品種|ひんしゅ#0 is the same lexeme as vocab-n1:correction:hinshu; target hash bound to the assembled addition.",
+        "contentHash": "524dc10ee9684129714e9324f68ab55439dfa08117164dc542e0ecc3fca73b82",
+        "approvalHash": "524dc10ee9684129714e9324f68ab55439dfa08117164dc542e0ecc3fca73b82"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hinshu.",
+        "contentHash": "524dc10ee9684129714e9324f68ab55439dfa08117164dc542e0ecc3fca73b82",
+        "approvalHash": "524dc10ee9684129714e9324f68ab55439dfa08117164dc542e0ecc3fca73b82"
+      }
+    },
+    {
+      "key": "品種|ひんしゅ",
+      "referenceIndex": 1,
+      "referenceHash": "21b362c52c6d9287ece4f1e7bd8970eb586b7c44cb6f290c0b7baf1c02d40338",
+      "revisionId": "047-candidate-hinshu-d705a387-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hinshu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hinshu": "1c1afd28bd8c6d25d280d34ecc07cbd32914dfc7ba9b76a742259f673af82eea"
+      },
+      "reason": "Reference 品種/ひんしゅ (master N1) is the same lexeme as the new entry 品種【ひんしゅ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 品種/ひんしゅ at N1 (gloss: kind (of goods); brand; espèce)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1490620; spelling=品種; reading=ひんしゅ; senses=1,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1490620 as the reference form.",
+          "selected": {
+            "sequence": "1490620",
+            "spelling": "品種",
+            "reading": "ひんしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "type (of goods)",
+                  "sort"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breed",
+                  "variety",
+                  "kind",
+                  "type",
+                  "cultivar"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 品種|ひんしゅ#1 is the same lexeme as vocab-n1:correction:hinshu; target hash bound to the assembled addition.",
+        "contentHash": "a9c6a6b3c03fda2831b3ca1d13ba5687109450936a549ee44c4b54dd351694a9",
+        "approvalHash": "a9c6a6b3c03fda2831b3ca1d13ba5687109450936a549ee44c4b54dd351694a9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:hinshu.",
+        "contentHash": "a9c6a6b3c03fda2831b3ca1d13ba5687109450936a549ee44c4b54dd351694a9",
+        "approvalHash": "a9c6a6b3c03fda2831b3ca1d13ba5687109450936a549ee44c4b54dd351694a9"
+      }
+    },
+    {
+      "key": "ふぁいと|ふぁいと",
+      "referenceIndex": 0,
+      "referenceHash": "5fcf7028b8099691b10728c9f78612ed8f35569ea4c8f0fb5f385d1e5e07629b",
+      "revisionId": "047-candidate-faito-4088c831-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:faito"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:faito": "2e778e5314b839913d5b16869c8965e9b08a796612957f37976699e2c99bca05"
+      },
+      "reason": "Reference ファイト/ファイト (tanos N1) is the same lexeme as the new entry ファイト【ファイト】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=181",
+          "finding": "tanos lists ファイト/ファイト at N1 (gloss: fight)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1107700; spelling=ファイト; reading=ファイト; senses=2,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1107700 as the reference form.",
+          "selected": {
+            "sequence": "1107700",
+            "spelling": "ファイト",
+            "reading": "ファイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "fighting spirit"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fight!",
+                  "do your best",
+                  "go for it",
+                  "keep at it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ふぁいと|ふぁいと#0 is the same lexeme as vocab-n1:correction:faito; target hash bound to the assembled addition.",
+        "contentHash": "8802d3222dd47892d48de99afcf285c29c5c7f455380b2f1aa8418c7a3c22ff9",
+        "approvalHash": "8802d3222dd47892d48de99afcf285c29c5c7f455380b2f1aa8418c7a3c22ff9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:faito.",
+        "contentHash": "8802d3222dd47892d48de99afcf285c29c5c7f455380b2f1aa8418c7a3c22ff9",
+        "approvalHash": "8802d3222dd47892d48de99afcf285c29c5c7f455380b2f1aa8418c7a3c22ff9"
+      }
+    },
+    {
+      "key": "ふぁいと|ふぁいと",
+      "referenceIndex": 1,
+      "referenceHash": "3ff142e57ba9d2feb908edd68e21b76ac0dede7590e2e9065d6b61d8374360f5",
+      "revisionId": "047-candidate-faito-4088c831-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:faito"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:faito": "2e778e5314b839913d5b16869c8965e9b08a796612957f37976699e2c99bca05"
+      },
+      "reason": "Reference ファイト/ファイト (master N1) is the same lexeme as the new entry ファイト【ファイト】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists ファイト/ファイト at N1 (gloss: fight; (n) Kampf; Fight)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1107700; spelling=ファイト; reading=ファイト; senses=2,3; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1107700 as the reference form.",
+          "selected": {
+            "sequence": "1107700",
+            "spelling": "ファイト",
+            "reading": "ファイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "fighting spirit"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fight!",
+                  "do your best",
+                  "go for it",
+                  "keep at it"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ふぁいと|ふぁいと#1 is the same lexeme as vocab-n1:correction:faito; target hash bound to the assembled addition.",
+        "contentHash": "a4e73922f93bd84038d7163d9990929b94b97d1ca9998e6467a7e2ac9eff3631",
+        "approvalHash": "a4e73922f93bd84038d7163d9990929b94b97d1ca9998e6467a7e2ac9eff3631"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:faito.",
+        "contentHash": "a4e73922f93bd84038d7163d9990929b94b97d1ca9998e6467a7e2ac9eff3631",
+        "approvalHash": "a4e73922f93bd84038d7163d9990929b94b97d1ca9998e6467a7e2ac9eff3631"
+      }
+    },
+    {
+      "key": "不意|ふい",
+      "referenceIndex": 0,
+      "referenceHash": "6e90c3ffe9bd93ef331ceb8ba871b644e235efc864e38d8d3c66cea03a9e77a4",
+      "revisionId": "047-candidate-fui-cbe62aac-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fui"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fui": "92d87c2c3f80c4ef29c3c1008a922fe5ded48602c061d63888af45727e0eff66"
+      },
+      "reason": "Reference 不意/ふい (tanos N1) is the same lexeme as the new entry 不意【ふい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=141",
+          "finding": "tanos lists 不意/ふい at N1 (gloss: sudden, abrupt, unexpected, unforeseen)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1491210; spelling=不意; reading=ふい; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1491210 as the reference form.",
+          "selected": {
+            "sequence": "1491210",
+            "spelling": "不意",
+            "reading": "ふい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "unforeseen"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 不意|ふい#0 is the same lexeme as vocab-n1:correction:fui; target hash bound to the assembled addition.",
+        "contentHash": "2f4ac01e2f28536a5d5069a489e9649e37b9fa88e0196d3fa8fef36f6ec3fae2",
+        "approvalHash": "2f4ac01e2f28536a5d5069a489e9649e37b9fa88e0196d3fa8fef36f6ec3fae2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:fui.",
+        "contentHash": "2f4ac01e2f28536a5d5069a489e9649e37b9fa88e0196d3fa8fef36f6ec3fae2",
+        "approvalHash": "2f4ac01e2f28536a5d5069a489e9649e37b9fa88e0196d3fa8fef36f6ec3fae2"
+      }
+    },
+    {
+      "key": "不意|ふい",
+      "referenceIndex": 1,
+      "referenceHash": "cb8cbf2dbe79d243dc3cc62f207d1189bc78648f4896233270939fb10fd3dfd6",
+      "revisionId": "047-candidate-fui-cbe62aac-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fui"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fui": "92d87c2c3f80c4ef29c3c1008a922fe5ded48602c061d63888af45727e0eff66"
+      },
+      "reason": "Reference 不意/ふい (master N1) is the same lexeme as the new entry 不意【ふい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 不意/ふい at N1 (gloss: sudden; abrupt; unexpected)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1491210; spelling=不意; reading=ふい; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1491210 as the reference form.",
+          "selected": {
+            "sequence": "1491210",
+            "spelling": "不意",
+            "reading": "ふい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "unforeseen"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 不意|ふい#1 is the same lexeme as vocab-n1:correction:fui; target hash bound to the assembled addition.",
+        "contentHash": "1d0fb62b18aabcf4e628328ff79bf1d37d3da19ba71b24f5addc0511d2ad046f",
+        "approvalHash": "1d0fb62b18aabcf4e628328ff79bf1d37d3da19ba71b24f5addc0511d2ad046f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:fui.",
+        "contentHash": "1d0fb62b18aabcf4e628328ff79bf1d37d3da19ba71b24f5addc0511d2ad046f",
+        "approvalHash": "1d0fb62b18aabcf4e628328ff79bf1d37d3da19ba71b24f5addc0511d2ad046f"
+      }
+    },
+    {
+      "key": "ふぃるたー|ふぃるたー",
+      "referenceIndex": 0,
+      "referenceHash": "d75df49d190779102e9d89a9f1acf9a4bfff99aaa9c729858efc9aa10832d8a7",
+      "revisionId": "047-candidate-firutaa-e49ef69b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:firutaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:firutaa": "b9c70d1348192e787cb0def7e59a9ead509cd78613c1a83ba3cb1f6ac5c9eb71"
+      },
+      "reason": "Reference フィルター/フィルター (tanos N1) is the same lexeme as the new entry フィルター【フィルター】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=181",
+          "finding": "tanos lists フィルター/フィルター at N1 (gloss: (camera) filter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1109330; spelling=フィルター; reading=フィルター; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1109330 as the reference form.",
+          "selected": {
+            "sequence": "1109330",
+            "spelling": "フィルター",
+            "reading": "フィルター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "filter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ふぃるたー|ふぃるたー#0 is the same lexeme as vocab-n1:correction:firutaa; target hash bound to the assembled addition.",
+        "contentHash": "aaf81ca22d587a098c4824d3673223ba7afa7367e60014f49201fb63514c7a74",
+        "approvalHash": "aaf81ca22d587a098c4824d3673223ba7afa7367e60014f49201fb63514c7a74"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:firutaa.",
+        "contentHash": "aaf81ca22d587a098c4824d3673223ba7afa7367e60014f49201fb63514c7a74",
+        "approvalHash": "aaf81ca22d587a098c4824d3673223ba7afa7367e60014f49201fb63514c7a74"
+      }
+    },
+    {
+      "key": "ふぃるたー|ふぃるたー",
+      "referenceIndex": 1,
+      "referenceHash": "d9a91664876961c322820b048049b46879f13ef141cf7e1e0b05d774595e5d34",
+      "revisionId": "047-candidate-firutaa-e49ef69b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:firutaa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:firutaa": "b9c70d1348192e787cb0def7e59a9ead509cd78613c1a83ba3cb1f6ac5c9eb71"
+      },
+      "reason": "Reference フィルター/フィルター (master N1) is the same lexeme as the new entry フィルター【フィルター】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists フィルター/フィルター at N1 (gloss: filter (esp. camera); (n) Filter (auch Elektrot. und EDV))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1109330; spelling=フィルター; reading=フィルター; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1109330 as the reference form.",
+          "selected": {
+            "sequence": "1109330",
+            "spelling": "フィルター",
+            "reading": "フィルター",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "filter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference ふぃるたー|ふぃるたー#1 is the same lexeme as vocab-n1:correction:firutaa; target hash bound to the assembled addition.",
+        "contentHash": "1f09fc276214373d064bcdbe2e9c6b0133328f5c77176210d28711e7ec262b58",
+        "approvalHash": "1f09fc276214373d064bcdbe2e9c6b0133328f5c77176210d28711e7ec262b58"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:firutaa.",
+        "contentHash": "1f09fc276214373d064bcdbe2e9c6b0133328f5c77176210d28711e7ec262b58",
+        "approvalHash": "1f09fc276214373d064bcdbe2e9c6b0133328f5c77176210d28711e7ec262b58"
+      }
+    },
+    {
+      "key": "封|ふう",
+      "referenceIndex": 0,
+      "referenceHash": "8424406133ad6a0ef65ef469aaeb29eb79bf344ab07208a32168abf50d225ad5",
+      "revisionId": "047-candidate-fuu-seal-fd9c9e7c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fuu-seal"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuu-seal": "a368244795a893dffb03e9a274709d05c7b6a7308d7f067ff7863618551c8387"
+      },
+      "reason": "Reference 封/ふう (tanos N1) is the same lexeme as the new entry 封【ふう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=141",
+          "finding": "tanos lists 封/ふう at N1 (gloss: seal)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1499580; spelling=封; reading=ふう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1499580 as the reference form.",
+          "selected": {
+            "sequence": "1499580",
+            "spelling": "封",
+            "reading": "ふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 封|ふう#0 is the same lexeme as vocab-n1:correction:fuu-seal; target hash bound to the assembled addition.",
+        "contentHash": "eca0b6020df6181a57d578fd8deda46222ffbaba54cb7c13739e1a8ab9446b81",
+        "approvalHash": "eca0b6020df6181a57d578fd8deda46222ffbaba54cb7c13739e1a8ab9446b81"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:fuu-seal.",
+        "contentHash": "eca0b6020df6181a57d578fd8deda46222ffbaba54cb7c13739e1a8ab9446b81",
+        "approvalHash": "eca0b6020df6181a57d578fd8deda46222ffbaba54cb7c13739e1a8ab9446b81"
+      }
+    },
+    {
+      "key": "封|ふう",
+      "referenceIndex": 1,
+      "referenceHash": "986b04bf00f60c91e1aa6d71411741e80c1cfad6091982956bbead4f0e097717",
+      "revisionId": "047-candidate-fuu-seal-fd9c9e7c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fuu-seal"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuu-seal": "a368244795a893dffb03e9a274709d05c7b6a7308d7f067ff7863618551c8387"
+      },
+      "reason": "Reference 封/ふう (master N1) is the same lexeme as the new entry 封【ふう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 封/ふう at N1 (gloss: seal; cachet; sceau)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1499580; spelling=封; reading=ふう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1499580 as the reference form.",
+          "selected": {
+            "sequence": "1499580",
+            "spelling": "封",
+            "reading": "ふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-editor",
+        "finding": "Editorial first pass: reference 封|ふう#1 is the same lexeme as vocab-n1:correction:fuu-seal; target hash bound to the assembled addition.",
+        "contentHash": "4719da69641853dc2cb34b2464cae7c2571233ab101fc756499b6f18e40b2639",
+        "approvalHash": "4719da69641853dc2cb34b2464cae7c2571233ab101fc756499b6f18e40b2639"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-047-independent-reviewer",
+        "finding": "Second pass: spec diff vs before-r1 touches only the round-1 fix (判 ex2 German) and the optional 雛 ex2 change (雛人形, romaji hina ningyou; ex1 keeps bare 雛); first-approved content identical to rebuilt assemblies (only firstPass added, hashes match first-decisions); 115 entries / 221 decisions (2 excluded), nothing dropped. Re-accepted: Publisher row is the same lexeme as target vocab-n1:correction:fuu-seal.",
+        "contentHash": "4719da69641853dc2cb34b2464cae7c2571233ab101fc756499b6f18e40b2639",
+        "approvalHash": "4719da69641853dc2cb34b2464cae7c2571233ab101fc756499b6f18e40b2639"
+      }
+    }
+  ]
+}
