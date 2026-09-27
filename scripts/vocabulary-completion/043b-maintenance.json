@@ -1,0 +1,3725 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:shirusu",
+      "revisionId": "043-add-shirusu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "記す",
+        "reading": "しるす",
+        "romaji": "shirusu",
+        "meaning": "aufschreiben, niederschreiben; schildern, festhalten",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Transitiv, schriftsprachlich für 書く: etwas notieren oder schriftlich festhalten. 名前を記す, 日記に記す.",
+        "examples": [
+          {
+            "japanese": "用紙に名前と住所を記してください。",
+            "romaji": "Youshi ni namae to juusho o shirushite kudasai.",
+            "german": "Bitte tragen Sie Ihren Namen und Ihre Adresse auf dem Formular ein."
+          },
+          {
+            "japanese": "この本には、戦争中の生活が詳しく記されている。",
+            "romaji": "Kono hon ni wa, sensouchuu no seikatsu ga kuwashiku shirusarete iru.",
+            "german": "In diesem Buch wird das Leben während des Krieges ausführlich geschildert."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "しるす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "しるす",
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142209404",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "記す / シルス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 記す; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "記す",
+              "reading": "しるす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "記す as \"aufschreiben, niederschreiben; schildern, festhalten\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 記す【しるす】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223140; spelling=記す; reading=しるす; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1223140 記す/しるす sense(s) 1,2 support \"aufschreiben, niederschreiben; schildern, festhalten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1223140",
+            "spelling": "記す",
+            "reading": "しるす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to write down",
+                  "to note down",
+                  "to jot down",
+                  "to take a note of"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to mention",
+                  "to describe",
+                  "to give an account of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "記す|しるす",
+          "referenceIndex": 0,
+          "referenceHash": "f1d1ad08c43e326a635b61c1e73dd4deda9d89bbadc62e249d93f55e81b355c1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"aufschreiben, niederschreiben; schildern, festhalten\" matches JMdict 1223140 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Filling in a form.",
+          "A wartime memoir."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1223140; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading しるす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142209404 attest 0,2; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142209404",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "記す / シルス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 記す; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "記す",
+              "reading": "しるす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "記す as \"aufschreiben, niederschreiben; schildern, festhalten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 記す【しるす】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1223140 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "490405eff5808d5c80c6e1fe2fa080dc9f4b72f250c770eec3f39300a717893e",
+        "approvalHash": "fce9b6d1a1c8095e9f636ec30d0f5f3ba59a77bbe5dc9641404c480d2f28177a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "490405eff5808d5c80c6e1fe2fa080dc9f4b72f250c770eec3f39300a717893e",
+        "approvalHash": "fce9b6d1a1c8095e9f636ec30d0f5f3ba59a77bbe5dc9641404c480d2f28177a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shirei",
+      "revisionId": "043-add-shirei",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "指令",
+        "reading": "しれい",
+        "romaji": "shirei",
+        "meaning": "Befehl, Anweisung, Direktive",
+        "type": "Nomen",
+        "category": "Organisation",
+        "level": "N1",
+        "notes": "Anweisung von oben (Zentrale, Behörde, Kommando): 指令を出す/受ける. Nicht verwechseln mit 司令 (Kommando, 司令官 = Befehlshaber), gleich gelesen.",
+        "examples": [
+          {
+            "japanese": "本部から撤退の指令が出た。",
+            "romaji": "Honbu kara tettai no shirei ga deta.",
+            "german": "Vom Hauptquartier kam der Befehl zum Rückzug."
+          },
+          {
+            "japanese": "彼らは上からの指令を受けて動いている。",
+            "romaji": "Karera wa ue kara no shirei o ukete ugoite iru.",
+            "german": "Sie handeln auf Anweisung von oben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142236231",
+            "patterns": [
+              0
+            ],
+            "finding": "指令 / シレイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 指令; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "指令",
+              "reading": "しれい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "指令 as \"Befehl, Anweisung, Direktive\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 指令【しれい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1310060; spelling=指令; reading=しれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1310060 指令/しれい sense(s) 1 support \"Befehl, Anweisung, Direktive\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1310060",
+            "spelling": "指令",
+            "reading": "しれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "order",
+                  "directive",
+                  "instructions",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "指令|しれい",
+          "referenceIndex": 0,
+          "referenceHash": "0d1f0399ba4230ab5ae5d049372a0b0edfd7882b65897f61424dbfd010c5d4de"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Befehl, Anweisung, Direktive\" matches JMdict 1310060 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Order to retreat.",
+          "Acting on orders."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1310060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142236231 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142236231",
+            "patterns": [
+              0
+            ],
+            "finding": "指令 / シレイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 指令; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "指令",
+              "reading": "しれい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "指令 as \"Befehl, Anweisung, Direktive\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 指令【しれい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1310060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ffba228c264d06fa91cd89391848d07d8ef00d57dc7883e7727e41c5cff8c411",
+        "approvalHash": "a24ff3d37e9443a51b3a0fb6116c34142649505e471219564854f14855a0674e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "ffba228c264d06fa91cd89391848d07d8ef00d57dc7883e7727e41c5cff8c411",
+        "approvalHash": "a24ff3d37e9443a51b3a0fb6116c34142649505e471219564854f14855a0674e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shin-new",
+      "revisionId": "043-add-shin-new",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "新〜",
+        "reading": "しん",
+        "romaji": "shin",
+        "meaning": "neu-, Neu-",
+        "type": "Partikel",
+        "category": "Sprache",
+        "level": "N1",
+        "notes": "Vorsilbe vor sinojapanischen Wörtern und Lehnwörtern: 新製品 (neues Produkt), 新学期 (neues Schuljahr/Semester), 新メンバー. Als freies Adjektiv sagt man 新しい.",
+        "examples": [
+          {
+            "japanese": "来月、新製品が発売される。",
+            "romaji": "Raigetsu, shinseihin ga hatsubai sareru.",
+            "german": "Nächsten Monat kommt ein neues Produkt auf den Markt."
+          },
+          {
+            "japanese": "チームの新メンバーを紹介します。",
+            "romaji": "Chiimu no shinmenbaa o shoukai shimasu.",
+            "german": "Ich stelle Ihnen das neue Teammitglied vor."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Taught as an affix like the app’s 反〜 and 〜時間目. Editorial N1.",
+      "rationale": "Add 新〜【しん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361480; spelling=新; reading=しん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361480 新/しん sense(s) 1 support \"neu-, Neu-\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361480",
+            "spelling": "新",
+            "reading": "しん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "new",
+                  "neo-"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "新|しん",
+          "referenceIndex": 0,
+          "referenceHash": "314d23f62fc9a322f6399a1ecf0fc334b45d96cb33ae01f66abc70ee50bcbc0a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"neu-, Neu-\" matches JMdict 1361480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Product launch.",
+          "Introducing a new colleague."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Taught as an affix like the app’s 反〜 and 〜時間目. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 新〜 / しん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 新〜 / しん",
+            "finding": "Bound suffix headword; no row exists for the written form with 〜, and no accent is taken from the free form."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 新〜【しん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361480 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "8546c8a567d4e8426e2ac3b69f78a79483a9de23d525d1bca868742327d580f6",
+        "approvalHash": "aab07f9832ae159ab1a3cb34f76f46e2e6e4ed849ade53b9638d275b9d740909"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "8546c8a567d4e8426e2ac3b69f78a79483a9de23d525d1bca868742327d580f6",
+        "approvalHash": "aab07f9832ae159ab1a3cb34f76f46e2e6e4ed849ade53b9638d275b9d740909"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinkou-promotion",
+      "revisionId": "043-add-shinkou-promotion",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "振興",
+        "reading": "しんこう",
+        "romaji": "shinkou",
+        "meaning": "Förderung, Belebung (von Industrie, Kultur usw.)",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "〜する: einen Bereich öffentlich fördern und beleben: 産業振興, 地域振興, 観光振興. Nicht verwechseln mit 新興 (aufstrebend), gleich gelesen.",
+        "examples": [
+          {
+            "japanese": "町は観光の振興に力を入れている。",
+            "romaji": "Machi wa kankou no shinkou ni chikara o irete iru.",
+            "german": "Die Stadt setzt sich stark für die Förderung des Tourismus ein."
+          },
+          {
+            "japanese": "県は地元の産業を振興するための計画を発表した。",
+            "romaji": "Ken wa jimoto no sangyou o shinkou suru tame no keikaku o happyou shita.",
+            "german": "Die Präfektur stellte einen Plan zur Förderung der örtlichen Industrie vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142675045",
+            "patterns": [
+              0
+            ],
+            "finding": "振興 / シンコウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 振興; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "振興",
+              "reading": "しんこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "振興 as \"Förderung, Belebung (von Industrie, Kultur usw.)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 振興【しんこう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361380; spelling=振興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361380 振興/しんこう sense(s) 1 support \"Förderung, Belebung (von Industrie, Kultur usw.)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361380",
+            "spelling": "振興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion",
+                  "encouragement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "振興|しんこう",
+          "referenceIndex": 0,
+          "referenceHash": "f3d74ecf1d4d474510a0fd1def809ad6cd8225f00734ec3a09b7167ce5f3bb2f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Förderung, Belebung (von Industrie, Kultur usw.)\" matches JMdict 1361380 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tourism promotion.",
+          "Regional industry plan."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361380; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142675045 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142675045",
+            "patterns": [
+              0
+            ],
+            "finding": "振興 / シンコウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 振興; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "振興",
+              "reading": "しんこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "振興 as \"Förderung, Belebung (von Industrie, Kultur usw.)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 振興【しんこう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361380 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "654b8fe48e3fdbf916031f460d1dc5b47a8a5d32e6eb7cea6ff6cd08a48f7426",
+        "approvalHash": "ff8085961bd83ebfab0adcb44db366aa4a27bda82031af47d40a3b1360aff0e8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "654b8fe48e3fdbf916031f460d1dc5b47a8a5d32e6eb7cea6ff6cd08a48f7426",
+        "approvalHash": "ff8085961bd83ebfab0adcb44db366aa4a27bda82031af47d40a3b1360aff0e8"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinkou-emerging",
+      "revisionId": "043-add-shinkou-emerging",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "新興",
+        "reading": "しんこう",
+        "romaji": "shinkou",
+        "meaning": "aufstrebend, neu entstehend, jung",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "Meist vor Nomen: 新興国 (Schwellenland), 新興企業 (junges Unternehmen), 新興住宅地 (Neubausiedlung). Nicht verwechseln mit 振興 (Förderung), gleich gelesen.",
+        "examples": [
+          {
+            "japanese": "新興のネット企業が急成長している。",
+            "romaji": "Shinkou no netto kigyou ga kyuuseichou shite iru.",
+            "german": "Junge, aufstrebende Internetfirmen wachsen rasant."
+          },
+          {
+            "japanese": "新興国の経済は、今後も成長が見込まれる。",
+            "romaji": "Shinkoukoku no keizai wa, kongo mo seichou ga mikomareru.",
+            "german": "Für die Wirtschaft der Schwellenländer wird auch künftig Wachstum erwartet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142676241",
+            "patterns": [
+              0
+            ],
+            "finding": "新興 / シンコウ; 名詞/普通名詞/一般/*; *; *; lemma 新興; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新興",
+              "reading": "しんこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新興 as \"aufstrebend, neu entstehend, jung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 新興【しんこう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361750; spelling=新興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361750 新興/しんこう sense(s) 1 support \"aufstrebend, neu entstehend, jung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361750",
+            "spelling": "新興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rising",
+                  "developing",
+                  "emergent",
+                  "burgeoning",
+                  "new"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "新興|しんこう",
+          "referenceIndex": 0,
+          "referenceHash": "865113d341d1e4fd9ec0b80a7a22ad814d20d9cc721935fa9a5d565fa031e722"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"aufstrebend, neu entstehend, jung\" matches JMdict 1361750 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Start-ups growing.",
+          "Emerging economies."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361750; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142676241 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142676241",
+            "patterns": [
+              0
+            ],
+            "finding": "新興 / シンコウ; 名詞/普通名詞/一般/*; *; *; lemma 新興; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新興",
+              "reading": "しんこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新興 as \"aufstrebend, neu entstehend, jung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 新興【しんこう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361750 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bf86915ea870c8c6db8d4f1606facd14dbc50ecdc2ffb4b4c2808ba1345a6e79",
+        "approvalHash": "7846eacdab9662e91f45d8272442a9ba7a93a08d8a9497008352b0e103cd3606"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "bf86915ea870c8c6db8d4f1606facd14dbc50ecdc2ffb4b4c2808ba1345a6e79",
+        "approvalHash": "7846eacdab9662e91f45d8272442a9ba7a93a08d8a9497008352b0e103cd3606"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinkon",
+      "revisionId": "043-add-shinkon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "新婚",
+        "reading": "しんこん",
+        "romaji": "shinkon",
+        "meaning": "frisch verheiratet; Frischvermählte",
+        "type": "Nomen",
+        "category": "Familie",
+        "level": "N1",
+        "notes": "Mit だ/の oder vor Nomen: 新婚夫婦 (frisch verheiratetes Paar), 新婚旅行 (Hochzeitsreise), 新婚生活.",
+        "examples": [
+          {
+            "japanese": "二人はまだ新婚なので、毎日楽しそうだ。",
+            "romaji": "Futari wa mada shinkon na node, mainichi tanoshisou da.",
+            "german": "Die beiden sind noch frisch verheiratet und wirken jeden Tag glücklich."
+          },
+          {
+            "japanese": "新婚旅行はハワイに行った。",
+            "romaji": "Shinkon ryokou wa Hawai ni itta.",
+            "german": "Unsere Hochzeitsreise ging nach Hawaii."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142688186",
+            "patterns": [
+              0
+            ],
+            "finding": "新婚 / シンコン; 名詞/普通名詞/一般/*; *; *; lemma 新婚; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新婚",
+              "reading": "しんこん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新婚 as \"frisch verheiratet; Frischvermählte\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 新婚【しんこん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361820; spelling=新婚; reading=しんこん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361820 新婚/しんこん sense(s) 1 support \"frisch verheiratet; Frischvermählte\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361820",
+            "spelling": "新婚",
+            "reading": "しんこん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newly-wed",
+                  "newly married"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "新婚|しんこん",
+          "referenceIndex": 0,
+          "referenceHash": "d79b2e6bec6a28c1d587d46caf3dcd4fdf7cf9d2008a221b894a4f5abbe2a6fb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"frisch verheiratet; Frischvermählte\" matches JMdict 1361820 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Newlyweds.",
+          "Honeymoon destination."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361820; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142688186 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142688186",
+            "patterns": [
+              0
+            ],
+            "finding": "新婚 / シンコン; 名詞/普通名詞/一般/*; *; *; lemma 新婚; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新婚",
+              "reading": "しんこん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新婚 as \"frisch verheiratet; Frischvermählte\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 新婚【しんこん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361820 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cc381496c34278c167b02a083ce06f688d3487d94dd998e91c4bf439fc21bf44",
+        "approvalHash": "d1800039b828a02b5d3c2cef2f359353b02d9538b325a42f3cab5f00535256dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "cc381496c34278c167b02a083ce06f688d3487d94dd998e91c4bf439fc21bf44",
+        "approvalHash": "d1800039b828a02b5d3c2cef2f359353b02d9538b325a42f3cab5f00535256dd"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinja",
+      "revisionId": "043-add-shinja",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "信者",
+        "reading": "しんじゃ",
+        "romaji": "shinja",
+        "meaning": "Gläubige(r), Anhänger(in); glühender Fan",
+        "type": "Nomen",
+        "category": "Religion",
+        "level": "N1",
+        "notes": "Anhänger einer Religion: キリスト教の信者. Umgangssprachlich auch für bedingungslose Fans einer Person oder Marke.",
+        "examples": [
+          {
+            "japanese": "彼は熱心な仏教の信者だ。",
+            "romaji": "Kare wa nesshin na bukkyou no shinja da.",
+            "german": "Er ist ein gläubiger Buddhist."
+          },
+          {
+            "japanese": "そのアイドルの信者は、何を言われても彼女をかばう。",
+            "romaji": "Sono aidoru no shinja wa, nani o iwarete mo kanojo o kabau.",
+            "german": "Die glühenden Fans dieses Idols verteidigen sie, egal was man über sie sagt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142819293",
+            "patterns": [
+              1
+            ],
+            "finding": "信者 / シンジャ; 名詞/普通名詞/一般/*; *; *; lemma 信者; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "信者",
+              "reading": "しんじゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "信者 as \"Gläubige(r), Anhänger(in); glühender Fan\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 信者【しんじゃ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1359340; spelling=信者; reading=しんじゃ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1359340 信者/しんじゃ sense(s) 1,2 support \"Gläubige(r), Anhänger(in); glühender Fan\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1359340",
+            "spelling": "信者",
+            "reading": "しんじゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "believer",
+                  "adherent",
+                  "devotee",
+                  "follower"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "fanboy",
+                  "fanatic",
+                  "superfan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "信者|しんじゃ",
+          "referenceIndex": 0,
+          "referenceHash": "093f8b1abdcd96316feda5d914bfa6c90b242b0ef57f3899d59cd1192e3fac1a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Gläubige(r), Anhänger(in); glühender Fan\" matches JMdict 1359340 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Religious believer.",
+          "Devoted fans."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1359340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142819293 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142819293",
+            "patterns": [
+              1
+            ],
+            "finding": "信者 / シンジャ; 名詞/普通名詞/一般/*; *; *; lemma 信者; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "信者",
+              "reading": "しんじゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "信者 as \"Gläubige(r), Anhänger(in); glühender Fan\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 信者【しんじゃ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1359340 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "edf42de4faa21dd56532f73cf0e41c2e42c9153da72fb8787e9b60881ec234a2",
+        "approvalHash": "f5c1519aeeebf2d02086cee2cd0f89a015407b1f6331c63eb3b8504f5a0f224d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "edf42de4faa21dd56532f73cf0e41c2e42c9153da72fb8787e9b60881ec234a2",
+        "approvalHash": "f5c1519aeeebf2d02086cee2cd0f89a015407b1f6331c63eb3b8504f5a0f224d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinjuu",
+      "revisionId": "043-add-shinjuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "心中",
+        "reading": "しんじゅう",
+        "romaji": "shinjuu",
+        "meaning": "Doppelselbstmord (von Liebenden); gemeinsamer Suizid",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "〜する. Gemeinsamer Suizid zweier Liebender oder einer ganzen Familie (一家心中). Mit der Lesung しんちゅう bedeutet 心中 dagegen „im Innersten, innere Gefühle“.",
+        "examples": [
+          {
+            "japanese": "江戸時代には、心中を題材にした芝居が多く作られた。",
+            "romaji": "Edo jidai ni wa, shinjuu o daizai ni shita shibai ga ooku tsukurareta.",
+            "german": "In der Edo-Zeit entstanden viele Theaterstücke über den gemeinsamen Freitod von Liebenden."
+          },
+          {
+            "japanese": "事件は一家心中とみられている。",
+            "romaji": "Jiken wa ikka shinjuu to mirarete iru.",
+            "german": "Man geht davon aus, dass es sich um einen gemeinsamen Suizid der Familie handelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142822746",
+            "patterns": [
+              0
+            ],
+            "finding": "心中 / シンジュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 心中; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "心中",
+              "reading": "しんじゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "心中 as \"Doppelselbstmord (von Liebenden); gemeinsamer Suizid\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 心中【しんじゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360840; spelling=心中; reading=しんじゅう; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1360840 心中/しんじゅう sense(s) 1,2 support \"Doppelselbstmord (von Liebenden); gemeinsamer Suizid\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1360840",
+            "spelling": "心中",
+            "reading": "しんじゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "double suicide",
+                  "lovers' suicide"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group suicide",
+                  "family suicide"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "心中|しんじゅう",
+          "referenceIndex": 0,
+          "referenceHash": "5f8fe5097c3d40ab27c8e25cf0912b8aa286491f53b1716ea4d8345a8acae22e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Doppelselbstmord (von Liebenden); gemeinsamer Suizid\" matches JMdict 1360840 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Edo-period drama.",
+          "News report."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1360840; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142822746 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142822746",
+            "patterns": [
+              0
+            ],
+            "finding": "心中 / シンジュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 心中; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "心中",
+              "reading": "しんじゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "心中 as \"Doppelselbstmord (von Liebenden); gemeinsamer Suizid\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 心中【しんじゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1360840 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2da6c7d394a6b78b3eb6ec7978f8ee9f544489baf71e64b86fb60f22d2e6977e",
+        "approvalHash": "83a22a41fa41d5331e74cd7fb437637d787111a89e9a7f27fd264e2f46432c83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "2da6c7d394a6b78b3eb6ec7978f8ee9f544489baf71e64b86fb60f22d2e6977e",
+        "approvalHash": "83a22a41fa41d5331e74cd7fb437637d787111a89e9a7f27fd264e2f46432c83"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinshutsu",
+      "revisionId": "043-add-shinshutsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "進出",
+        "reading": "しんしゅつ",
+        "romaji": "shinshutsu",
+        "meaning": "Vordringen, Expansion (in einen Markt); Einzug (in die nächste Runde)",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N1",
+        "notes": "〜する: in ein neues Gebiet vordringen: 海外に進出する (ins Ausland expandieren), 政界に進出する; im Sport: 決勝に進出する (ins Finale einziehen).",
+        "examples": [
+          {
+            "japanese": "その会社は来年、アジア市場に進出する予定だ。",
+            "romaji": "Sono kaisha wa rainen, Ajia shijou ni shinshutsu suru yotei da.",
+            "german": "Die Firma plant, nächstes Jahr in den asiatischen Markt zu expandieren."
+          },
+          {
+            "japanese": "日本代表は決勝に進出した。",
+            "romaji": "Nihon daihyou wa kesshou ni shinshutsu shita.",
+            "german": "Die japanische Nationalmannschaft zog ins Finale ein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142735045",
+            "patterns": [
+              0
+            ],
+            "finding": "進出 / シンシュツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 進出; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "進出",
+              "reading": "しんしゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "進出 as \"Vordringen, Expansion (in einen Markt); Einzug (in die nächste Runde)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 進出【しんしゅつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1366080; spelling=進出; reading=しんしゅつ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1366080 進出/しんしゅつ sense(s) 1,2 support \"Vordringen, Expansion (in einen Markt); Einzug (in die nächste Runde)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1366080",
+            "spelling": "進出",
+            "reading": "しんしゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (into a new market, industry, etc.)",
+                  "expansion (into)",
+                  "launch (into)",
+                  "entering",
+                  "making inroads (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (to the next round of a competition)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "進出|しんしゅつ",
+          "referenceIndex": 0,
+          "referenceHash": "0e2ac405e4e6ae9ac7c15b1f2ec01a306c81eb1b2718eb93fbb68410d083d003"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Vordringen, Expansion (in einen Markt); Einzug (in die nächste Runde)\" matches JMdict 1366080 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Market expansion.",
+          "Reaching the final."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1366080; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142735045 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142735045",
+            "patterns": [
+              0
+            ],
+            "finding": "進出 / シンシュツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 進出; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "進出",
+              "reading": "しんしゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "進出 as \"Vordringen, Expansion (in einen Markt); Einzug (in die nächste Runde)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 進出【しんしゅつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1366080 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b00f9132e2cf105e68ec1886d7c666c746f9bc968075a4da0cd6e1282a7728ca",
+        "approvalHash": "22fbbd04dd8558395b5d61c25622ba8db404e4ae0e38679092a33956984cee5f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "b00f9132e2cf105e68ec1886d7c666c746f9bc968075a4da0cd6e1282a7728ca",
+        "approvalHash": "22fbbd04dd8558395b5d61c25622ba8db404e4ae0e38679092a33956984cee5f"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinjou-feelings",
+      "revisionId": "043-add-shinjou-feelings",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "心情",
+        "reading": "しんじょう",
+        "romaji": "shinjou",
+        "meaning": "Gefühle, Empfindungen, Gemütslage",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Förmlich: was jemand innerlich fühlt. 心情を察する (sich in jemandes Gefühle hineinversetzen), 心情的には (gefühlsmäßig).",
+        "examples": [
+          {
+            "japanese": "被害者の家族の心情を思うと、胸が痛む。",
+            "romaji": "Higaisha no kazoku no shinjou o omou to, mune ga itamu.",
+            "german": "Wenn ich an die Gefühle der Angehörigen der Opfer denke, tut mir das Herz weh."
+          },
+          {
+            "japanese": "心情的には彼の味方をしたいが、規則は守らなければならない。",
+            "romaji": "Shinjouteki ni wa kare no mikata o shitai ga, kisoku wa mamoranakereba naranai.",
+            "german": "Gefühlsmäßig möchte ich zu ihm halten, aber die Regeln müssen eingehalten werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142831706",
+            "patterns": [
+              0
+            ],
+            "finding": "心情 / シンジョウ; 名詞/普通名詞/一般/*; *; *; lemma 心情; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "心情",
+              "reading": "しんじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "心情 as \"Gefühle, Empfindungen, Gemütslage\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 心情【しんじょう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360720; spelling=心情; reading=しんじょう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1360720 心情/しんじょう sense(s) 1 support \"Gefühle, Empfindungen, Gemütslage\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1360720",
+            "spelling": "心情",
+            "reading": "しんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sentiment",
+                  "emotions",
+                  "one's feelings",
+                  "one's heart"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "心情|しんじょう",
+          "referenceIndex": 0,
+          "referenceHash": "66f3f7d3e318a93466211ac9b7e223257b35428377860ef6004ae216baca9bbb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Gefühle, Empfindungen, Gemütslage\" matches JMdict 1360720 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sympathy with victims’ families.",
+          "Feelings versus rules."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1360720; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142831706 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142831706",
+            "patterns": [
+              0
+            ],
+            "finding": "心情 / シンジョウ; 名詞/普通名詞/一般/*; *; *; lemma 心情; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "心情",
+              "reading": "しんじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "心情 as \"Gefühle, Empfindungen, Gemütslage\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 心情【しんじょう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1360720 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f29877e58a9ed9af2f81f690933ab66ba327214fe8abf97cb5c96823ff504713",
+        "approvalHash": "196cedef30e39bf6c96560e43c340cbc2147bd859e29d20988550d732ab13653"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "f29877e58a9ed9af2f81f690933ab66ba327214fe8abf97cb5c96823ff504713",
+        "approvalHash": "196cedef30e39bf6c96560e43c340cbc2147bd859e29d20988550d732ab13653"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shinjin",
+      "revisionId": "043-add-shinjin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "新人",
+        "reading": "しんじん",
+        "romaji": "shinjin",
+        "meaning": "Neuling, Neueinsteiger(in), Newcomer",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Neu in Firma, Team oder Branche: 新人社員, 新人研修 (Einarbeitung neuer Mitarbeiter), 新人賞 (Nachwuchspreis).",
+        "examples": [
+          {
+            "japanese": "今年の新人はみんなまじめだ。",
+            "romaji": "Kotoshi no shinjin wa minna majime da.",
+            "german": "Die Neuen in diesem Jahr sind alle sehr gewissenhaft."
+          },
+          {
+            "japanese": "彼女はデビュー作で新人賞を受賞した。",
+            "romaji": "Kanojo wa debyuusaku de shinjinshou o jushou shita.",
+            "german": "Für ihr Debüt erhielt sie den Nachwuchspreis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142838476",
+            "patterns": [
+              0
+            ],
+            "finding": "新人 / シンジン; 名詞/普通名詞/一般/*; *; *; lemma 新人; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新人",
+              "reading": "しんじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新人 as \"Neuling, Neueinsteiger(in), Newcomer\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 新人【しんじん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361960; spelling=新人; reading=しんじん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361960 新人/しんじん sense(s) 1 support \"Neuling, Neueinsteiger(in), Newcomer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361960",
+            "spelling": "新人",
+            "reading": "しんじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newcomer",
+                  "new figure",
+                  "new member",
+                  "recruit",
+                  "rookie",
+                  "new talent",
+                  "new star"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "新人|しんじん",
+          "referenceIndex": 0,
+          "referenceHash": "de2df50ba901a6dcae4719e53c56179de47cda6cf6b5b9777f8515f5031196bb"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Neuling, Neueinsteiger(in), Newcomer\" matches JMdict 1361960 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "New employees.",
+          "Newcomer award."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361960; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@142838476 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142838476",
+            "patterns": [
+              0
+            ],
+            "finding": "新人 / シンジン; 名詞/普通名詞/一般/*; *; *; lemma 新人; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "新人",
+              "reading": "しんじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "新人 as \"Neuling, Neueinsteiger(in), Newcomer\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 新人【しんじん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361960 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "23d4cb03211c447df4cc68ab45d35b5070b62fe151a13237244b18b897a1fa28",
+        "approvalHash": "830a216ad7efcf1290b48377e9477434bb1974ddea9150234adf045c0b334774"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "23d4cb03211c447df4cc68ab45d35b5070b62fe151a13237244b18b897a1fa28",
+        "approvalHash": "830a216ad7efcf1290b48377e9477434bb1974ddea9150234adf045c0b334774"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "記す|しるす",
+      "referenceIndex": 0,
+      "referenceHash": "f1d1ad08c43e326a635b61c1e73dd4deda9d89bbadc62e249d93f55e81b355c1",
+      "revisionId": "043-candidate-shirusu-85919077-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirusu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirusu": "490405eff5808d5c80c6e1fe2fa080dc9f4b72f250c770eec3f39300a717893e"
+      },
+      "reason": "Reference 記す/しるす (tanos N1) is the same lexeme as the new entry 記す【しるす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 記す/しるす at N1 (gloss: to note, to write down)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223140; spelling=記す; reading=しるす; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1223140 as the reference form.",
+          "selected": {
+            "sequence": "1223140",
+            "spelling": "記す",
+            "reading": "しるす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to write down",
+                  "to note down",
+                  "to jot down",
+                  "to take a note of"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to mention",
+                  "to describe",
+                  "to give an account of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 記す|しるす#0 is the same lexeme as vocab-n1:correction:shirusu; target hash bound to the assembled addition.",
+        "contentHash": "c5b170d84b8ca44d383431d2efe0206e798a901ac950d540508bf453b5615776",
+        "approvalHash": "c5b170d84b8ca44d383431d2efe0206e798a901ac950d540508bf453b5615776"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "c5b170d84b8ca44d383431d2efe0206e798a901ac950d540508bf453b5615776",
+        "approvalHash": "c5b170d84b8ca44d383431d2efe0206e798a901ac950d540508bf453b5615776"
+      }
+    },
+    {
+      "key": "記す|しるす",
+      "referenceIndex": 1,
+      "referenceHash": "a41105f477aa412d68f082412bf30fc40c7baf0ba153f69ef0e445e51f4723bb",
+      "revisionId": "043-candidate-shirusu-85919077-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirusu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirusu": "490405eff5808d5c80c6e1fe2fa080dc9f4b72f250c770eec3f39300a717893e"
+      },
+      "reason": "Reference 記す/しるす (master N1) is the same lexeme as the new entry 記す【しるす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 記す/しるす at N1 (gloss: to write down; to note; to jot down)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1223140; spelling=記す; reading=しるす; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1223140 as the reference form.",
+          "selected": {
+            "sequence": "1223140",
+            "spelling": "記す",
+            "reading": "しるす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to write down",
+                  "to note down",
+                  "to jot down",
+                  "to take a note of"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to mention",
+                  "to describe",
+                  "to give an account of"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 記す|しるす#1 is the same lexeme as vocab-n1:correction:shirusu; target hash bound to the assembled addition.",
+        "contentHash": "18033f58139e29ffa081d05865860fba00e8f58e572ddf0bfd0d98864768b4aa",
+        "approvalHash": "18033f58139e29ffa081d05865860fba00e8f58e572ddf0bfd0d98864768b4aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "18033f58139e29ffa081d05865860fba00e8f58e572ddf0bfd0d98864768b4aa",
+        "approvalHash": "18033f58139e29ffa081d05865860fba00e8f58e572ddf0bfd0d98864768b4aa"
+      }
+    },
+    {
+      "key": "指令|しれい",
+      "referenceIndex": 0,
+      "referenceHash": "0d1f0399ba4230ab5ae5d049372a0b0edfd7882b65897f61424dbfd010c5d4de",
+      "revisionId": "043-candidate-shirei-f62d72e3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirei"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirei": "ffba228c264d06fa91cd89391848d07d8ef00d57dc7883e7727e41c5cff8c411"
+      },
+      "reason": "Reference 指令/しれい (tanos N1) is the same lexeme as the new entry 指令【しれい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 指令/しれい at N1 (gloss: orders, instructions, directive)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1310060; spelling=指令; reading=しれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1310060 as the reference form.",
+          "selected": {
+            "sequence": "1310060",
+            "spelling": "指令",
+            "reading": "しれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "order",
+                  "directive",
+                  "instructions",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 指令|しれい#0 is the same lexeme as vocab-n1:correction:shirei; target hash bound to the assembled addition.",
+        "contentHash": "c1d52a4381a795666852a63209b08165db452dde05ea51d46efe40356fb06348",
+        "approvalHash": "c1d52a4381a795666852a63209b08165db452dde05ea51d46efe40356fb06348"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "c1d52a4381a795666852a63209b08165db452dde05ea51d46efe40356fb06348",
+        "approvalHash": "c1d52a4381a795666852a63209b08165db452dde05ea51d46efe40356fb06348"
+      }
+    },
+    {
+      "key": "指令|しれい",
+      "referenceIndex": 1,
+      "referenceHash": "9ddc47007c464789a05c2293417164e1c392b5da40408b819cebeec835f79e08",
+      "revisionId": "043-candidate-shirei-f62d72e3-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirei"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirei": "ffba228c264d06fa91cd89391848d07d8ef00d57dc7883e7727e41c5cff8c411"
+      },
+      "reason": "Reference 指令/しれい (master N1) is the same lexeme as the new entry 指令【しれい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 指令/しれい at N1 (gloss: orders; instructions; directive)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1310060; spelling=指令; reading=しれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1310060 as the reference form.",
+          "selected": {
+            "sequence": "1310060",
+            "spelling": "指令",
+            "reading": "しれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "order",
+                  "directive",
+                  "instructions",
+                  "command"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 指令|しれい#1 is the same lexeme as vocab-n1:correction:shirei; target hash bound to the assembled addition.",
+        "contentHash": "5d95e72ebf1e6409e146bc5ec863c392687a33788404cd9b138f1ed23c6631a6",
+        "approvalHash": "5d95e72ebf1e6409e146bc5ec863c392687a33788404cd9b138f1ed23c6631a6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "5d95e72ebf1e6409e146bc5ec863c392687a33788404cd9b138f1ed23c6631a6",
+        "approvalHash": "5d95e72ebf1e6409e146bc5ec863c392687a33788404cd9b138f1ed23c6631a6"
+      }
+    },
+    {
+      "key": "新|しん",
+      "referenceIndex": 0,
+      "referenceHash": "314d23f62fc9a322f6399a1ecf0fc334b45d96cb33ae01f66abc70ee50bcbc0a",
+      "revisionId": "043-candidate-shin-new-482ca407-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shin-new"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shin-new": "8546c8a567d4e8426e2ac3b69f78a79483a9de23d525d1bca868742327d580f6"
+      },
+      "reason": "Reference 新/しん (tanos N1) is the same lexeme as the new entry 新〜【しん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 新/しん at N1 (gloss: new)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361480; spelling=新; reading=しん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361480 as the reference form.",
+          "selected": {
+            "sequence": "1361480",
+            "spelling": "新",
+            "reading": "しん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "new",
+                  "neo-"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新|しん#0 is the same lexeme as vocab-n1:correction:shin-new; target hash bound to the assembled addition.",
+        "contentHash": "43bda955dec7d1c9d93605b74d9a843cc469899caf99957a87c2836dd9667a6e",
+        "approvalHash": "43bda955dec7d1c9d93605b74d9a843cc469899caf99957a87c2836dd9667a6e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "43bda955dec7d1c9d93605b74d9a843cc469899caf99957a87c2836dd9667a6e",
+        "approvalHash": "43bda955dec7d1c9d93605b74d9a843cc469899caf99957a87c2836dd9667a6e"
+      }
+    },
+    {
+      "key": "新|しん",
+      "referenceIndex": 1,
+      "referenceHash": "4998bc50a2632e42cde01b0c50855972f75554b6b0419eec420c1d5becc8a5f6",
+      "revisionId": "043-candidate-shin-new-482ca407-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shin-new"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shin-new": "8546c8a567d4e8426e2ac3b69f78a79483a9de23d525d1bca868742327d580f6"
+      },
+      "reason": "Reference 新/しん (master N1) is the same lexeme as the new entry 新〜【しん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 新/しん at N1 (gloss: new; neo-; néo-)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361480; spelling=新; reading=しん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361480 as the reference form.",
+          "selected": {
+            "sequence": "1361480",
+            "spelling": "新",
+            "reading": "しん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "new",
+                  "neo-"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新|しん#1 is the same lexeme as vocab-n1:correction:shin-new; target hash bound to the assembled addition.",
+        "contentHash": "180507b4f8cac062131e432f8509845b9912e1bc3e19ab46460412dad1f81a02",
+        "approvalHash": "180507b4f8cac062131e432f8509845b9912e1bc3e19ab46460412dad1f81a02"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "180507b4f8cac062131e432f8509845b9912e1bc3e19ab46460412dad1f81a02",
+        "approvalHash": "180507b4f8cac062131e432f8509845b9912e1bc3e19ab46460412dad1f81a02"
+      }
+    },
+    {
+      "key": "振興|しんこう",
+      "referenceIndex": 0,
+      "referenceHash": "f3d74ecf1d4d474510a0fd1def809ad6cd8225f00734ec3a09b7167ce5f3bb2f",
+      "revisionId": "043-candidate-shinkou-promotion-3d1d4128-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkou-promotion"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkou-promotion": "654b8fe48e3fdbf916031f460d1dc5b47a8a5d32e6eb7cea6ff6cd08a48f7426"
+      },
+      "reason": "Reference 振興/しんこう (tanos N1) is the same lexeme as the new entry 振興【しんこう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 振興/しんこう at N1 (gloss: promotion, encouragement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361380; spelling=振興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361380 as the reference form.",
+          "selected": {
+            "sequence": "1361380",
+            "spelling": "振興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion",
+                  "encouragement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 振興|しんこう#0 is the same lexeme as vocab-n1:correction:shinkou-promotion; target hash bound to the assembled addition.",
+        "contentHash": "ca75c1bdbc35ffac87c398d4d640528076af3eff34e0b151e5388c63dcb063de",
+        "approvalHash": "ca75c1bdbc35ffac87c398d4d640528076af3eff34e0b151e5388c63dcb063de"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "ca75c1bdbc35ffac87c398d4d640528076af3eff34e0b151e5388c63dcb063de",
+        "approvalHash": "ca75c1bdbc35ffac87c398d4d640528076af3eff34e0b151e5388c63dcb063de"
+      }
+    },
+    {
+      "key": "振興|しんこう",
+      "referenceIndex": 1,
+      "referenceHash": "74a43ea68b374cd3e2641d9311a753b93e1a8d70ce570e3aa61f55179b7a185c",
+      "revisionId": "043-candidate-shinkou-promotion-3d1d4128-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkou-promotion"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkou-promotion": "654b8fe48e3fdbf916031f460d1dc5b47a8a5d32e6eb7cea6ff6cd08a48f7426"
+      },
+      "reason": "Reference 振興/しんこう (master N1) is the same lexeme as the new entry 振興【しんこう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 振興/しんこう at N1 (gloss: promotion; encouragement; élan)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361380; spelling=振興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361380 as the reference form.",
+          "selected": {
+            "sequence": "1361380",
+            "spelling": "振興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promotion",
+                  "encouragement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 振興|しんこう#1 is the same lexeme as vocab-n1:correction:shinkou-promotion; target hash bound to the assembled addition.",
+        "contentHash": "e46009087b21d186a03935915889bb7bac83a2fb4241883389cb1039b2aa6cb8",
+        "approvalHash": "e46009087b21d186a03935915889bb7bac83a2fb4241883389cb1039b2aa6cb8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "e46009087b21d186a03935915889bb7bac83a2fb4241883389cb1039b2aa6cb8",
+        "approvalHash": "e46009087b21d186a03935915889bb7bac83a2fb4241883389cb1039b2aa6cb8"
+      }
+    },
+    {
+      "key": "新興|しんこう",
+      "referenceIndex": 0,
+      "referenceHash": "865113d341d1e4fd9ec0b80a7a22ad814d20d9cc721935fa9a5d565fa031e722",
+      "revisionId": "043-candidate-shinkou-emerging-384d51bf-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkou-emerging"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkou-emerging": "bf86915ea870c8c6db8d4f1606facd14dbc50ecdc2ffb4b4c2808ba1345a6e79"
+      },
+      "reason": "Reference 新興/しんこう (tanos N1) is the same lexeme as the new entry 新興【しんこう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 新興/しんこう at N1 (gloss: rising, developing, emergent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361750; spelling=新興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361750 as the reference form.",
+          "selected": {
+            "sequence": "1361750",
+            "spelling": "新興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rising",
+                  "developing",
+                  "emergent",
+                  "burgeoning",
+                  "new"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新興|しんこう#0 is the same lexeme as vocab-n1:correction:shinkou-emerging; target hash bound to the assembled addition.",
+        "contentHash": "bccde85a429fb5f4d89db1b498a423c90ac2df1e5c72176c6fca774ff68bd171",
+        "approvalHash": "bccde85a429fb5f4d89db1b498a423c90ac2df1e5c72176c6fca774ff68bd171"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "bccde85a429fb5f4d89db1b498a423c90ac2df1e5c72176c6fca774ff68bd171",
+        "approvalHash": "bccde85a429fb5f4d89db1b498a423c90ac2df1e5c72176c6fca774ff68bd171"
+      }
+    },
+    {
+      "key": "新興|しんこう",
+      "referenceIndex": 1,
+      "referenceHash": "a52d093d449f69aa6f6c4de099ba2a2eb3bffdda4b1e8851f219215c510c57bc",
+      "revisionId": "043-candidate-shinkou-emerging-384d51bf-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkou-emerging"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkou-emerging": "bf86915ea870c8c6db8d4f1606facd14dbc50ecdc2ffb4b4c2808ba1345a6e79"
+      },
+      "reason": "Reference 新興/しんこう (master N1) is the same lexeme as the new entry 新興【しんこう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 新興/しんこう at N1 (gloss: rising; developing; emergent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361750; spelling=新興; reading=しんこう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361750 as the reference form.",
+          "selected": {
+            "sequence": "1361750",
+            "spelling": "新興",
+            "reading": "しんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rising",
+                  "developing",
+                  "emergent",
+                  "burgeoning",
+                  "new"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新興|しんこう#1 is the same lexeme as vocab-n1:correction:shinkou-emerging; target hash bound to the assembled addition.",
+        "contentHash": "d6e15d83b25bd99bf21acbafb72b334cbf14f5030f14202be393bad8b104e2ca",
+        "approvalHash": "d6e15d83b25bd99bf21acbafb72b334cbf14f5030f14202be393bad8b104e2ca"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "d6e15d83b25bd99bf21acbafb72b334cbf14f5030f14202be393bad8b104e2ca",
+        "approvalHash": "d6e15d83b25bd99bf21acbafb72b334cbf14f5030f14202be393bad8b104e2ca"
+      }
+    },
+    {
+      "key": "新婚|しんこん",
+      "referenceIndex": 0,
+      "referenceHash": "d79b2e6bec6a28c1d587d46caf3dcd4fdf7cf9d2008a221b894a4f5abbe2a6fb",
+      "revisionId": "043-candidate-shinkon-2b6a8d9c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkon"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkon": "cc381496c34278c167b02a083ce06f688d3487d94dd998e91c4bf439fc21bf44"
+      },
+      "reason": "Reference 新婚/しんこん (tanos N1) is the same lexeme as the new entry 新婚【しんこん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 新婚/しんこん at N1 (gloss: newly-wed)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361820; spelling=新婚; reading=しんこん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361820 as the reference form.",
+          "selected": {
+            "sequence": "1361820",
+            "spelling": "新婚",
+            "reading": "しんこん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newly-wed",
+                  "newly married"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新婚|しんこん#0 is the same lexeme as vocab-n1:correction:shinkon; target hash bound to the assembled addition.",
+        "contentHash": "6a6149fc979f692fb4fe152f910b70335c375da7d11fc493de5f78c085c442b1",
+        "approvalHash": "6a6149fc979f692fb4fe152f910b70335c375da7d11fc493de5f78c085c442b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "6a6149fc979f692fb4fe152f910b70335c375da7d11fc493de5f78c085c442b1",
+        "approvalHash": "6a6149fc979f692fb4fe152f910b70335c375da7d11fc493de5f78c085c442b1"
+      }
+    },
+    {
+      "key": "新婚|しんこん",
+      "referenceIndex": 1,
+      "referenceHash": "101d4693f7413a7bd56218537ce803a0c307f8c700324963c831cdc4609aa944",
+      "revisionId": "043-candidate-shinkon-2b6a8d9c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkon"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkon": "cc381496c34278c167b02a083ce06f688d3487d94dd998e91c4bf439fc21bf44"
+      },
+      "reason": "Reference 新婚/しんこん (sensei N1) is the same lexeme as the new entry 新婚【しんこん】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n1-vocabulary-list/",
+          "finding": "JLPT Sensei lists 新婚/しんこん at N1 (gloss: newly-wed; newly married)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361820; spelling=新婚; reading=しんこん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361820 as the reference form.",
+          "selected": {
+            "sequence": "1361820",
+            "spelling": "新婚",
+            "reading": "しんこん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newly-wed",
+                  "newly married"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新婚|しんこん#1 is the same lexeme as vocab-n1:correction:shinkon; target hash bound to the assembled addition.",
+        "contentHash": "98edc2eb8e9ec747ce3644085013b66b6b0c8f2341cd7360f066e9b0a246ce4a",
+        "approvalHash": "98edc2eb8e9ec747ce3644085013b66b6b0c8f2341cd7360f066e9b0a246ce4a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "98edc2eb8e9ec747ce3644085013b66b6b0c8f2341cd7360f066e9b0a246ce4a",
+        "approvalHash": "98edc2eb8e9ec747ce3644085013b66b6b0c8f2341cd7360f066e9b0a246ce4a"
+      }
+    },
+    {
+      "key": "新婚|しんこん",
+      "referenceIndex": 2,
+      "referenceHash": "a5e9fb169a8f65b30ebbb00d8c9dd996278b716f33ccefac472d28b1a41ab435",
+      "revisionId": "043-candidate-shinkon-2b6a8d9c-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinkon"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinkon": "cc381496c34278c167b02a083ce06f688d3487d94dd998e91c4bf439fc21bf44"
+      },
+      "reason": "Reference 新婚/しんこん (master N1) is the same lexeme as the new entry 新婚【しんこん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 新婚/しんこん at N1 (gloss: newly-wed; jeunes mariés; nouveaux mariés)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361820; spelling=新婚; reading=しんこん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361820 as the reference form.",
+          "selected": {
+            "sequence": "1361820",
+            "spelling": "新婚",
+            "reading": "しんこん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newly-wed",
+                  "newly married"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新婚|しんこん#2 is the same lexeme as vocab-n1:correction:shinkon; target hash bound to the assembled addition.",
+        "contentHash": "f6167218190d9ef72b19fb08353d1351bdf8c160e8e303b1dd5d89e3e7fbfc1a",
+        "approvalHash": "f6167218190d9ef72b19fb08353d1351bdf8c160e8e303b1dd5d89e3e7fbfc1a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "f6167218190d9ef72b19fb08353d1351bdf8c160e8e303b1dd5d89e3e7fbfc1a",
+        "approvalHash": "f6167218190d9ef72b19fb08353d1351bdf8c160e8e303b1dd5d89e3e7fbfc1a"
+      }
+    },
+    {
+      "key": "信者|しんじゃ",
+      "referenceIndex": 0,
+      "referenceHash": "093f8b1abdcd96316feda5d914bfa6c90b242b0ef57f3899d59cd1192e3fac1a",
+      "revisionId": "043-candidate-shinja-563c295c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinja"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinja": "edf42de4faa21dd56532f73cf0e41c2e42c9153da72fb8787e9b60881ec234a2"
+      },
+      "reason": "Reference 信者/しんじゃ (tanos N1) is the same lexeme as the new entry 信者【しんじゃ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 信者/しんじゃ at N1 (gloss: believer, adherent, devotee, Christian)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1359340; spelling=信者; reading=しんじゃ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1359340 as the reference form.",
+          "selected": {
+            "sequence": "1359340",
+            "spelling": "信者",
+            "reading": "しんじゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "believer",
+                  "adherent",
+                  "devotee",
+                  "follower"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "fanboy",
+                  "fanatic",
+                  "superfan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 信者|しんじゃ#0 is the same lexeme as vocab-n1:correction:shinja; target hash bound to the assembled addition.",
+        "contentHash": "2146dc056a5b64dcfb59cc3d0054031728e9c6046b50466f54fb9872fec3331f",
+        "approvalHash": "2146dc056a5b64dcfb59cc3d0054031728e9c6046b50466f54fb9872fec3331f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "2146dc056a5b64dcfb59cc3d0054031728e9c6046b50466f54fb9872fec3331f",
+        "approvalHash": "2146dc056a5b64dcfb59cc3d0054031728e9c6046b50466f54fb9872fec3331f"
+      }
+    },
+    {
+      "key": "信者|しんじゃ",
+      "referenceIndex": 1,
+      "referenceHash": "6787ea30fe9975f91d3d46521cb9b9b79e1b026fcb8b7685407dc23e3aa8f83d",
+      "revisionId": "043-candidate-shinja-563c295c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinja"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinja": "edf42de4faa21dd56532f73cf0e41c2e42c9153da72fb8787e9b60881ec234a2"
+      },
+      "reason": "Reference 信者/しんじゃ (master N1) is the same lexeme as the new entry 信者【しんじゃ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 信者/しんじゃ at N1 (gloss: believer; adherent; devotee)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1359340; spelling=信者; reading=しんじゃ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1359340 as the reference form.",
+          "selected": {
+            "sequence": "1359340",
+            "spelling": "信者",
+            "reading": "しんじゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "believer",
+                  "adherent",
+                  "devotee",
+                  "follower"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "fanboy",
+                  "fanatic",
+                  "superfan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 信者|しんじゃ#1 is the same lexeme as vocab-n1:correction:shinja; target hash bound to the assembled addition.",
+        "contentHash": "d21efaaa1f7b92de43c3b0b94e9bd3a81fde05721e290d82caa0911e2fc42da2",
+        "approvalHash": "d21efaaa1f7b92de43c3b0b94e9bd3a81fde05721e290d82caa0911e2fc42da2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "d21efaaa1f7b92de43c3b0b94e9bd3a81fde05721e290d82caa0911e2fc42da2",
+        "approvalHash": "d21efaaa1f7b92de43c3b0b94e9bd3a81fde05721e290d82caa0911e2fc42da2"
+      }
+    },
+    {
+      "key": "心中|しんじゅう",
+      "referenceIndex": 0,
+      "referenceHash": "5f8fe5097c3d40ab27c8e25cf0912b8aa286491f53b1716ea4d8345a8acae22e",
+      "revisionId": "043-candidate-shinjuu-9893ff82-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjuu": "2da6c7d394a6b78b3eb6ec7978f8ee9f544489baf71e64b86fb60f22d2e6977e"
+      },
+      "reason": "Reference 心中/しんじゅう (tanos N1) is the same lexeme as the new entry 心中【しんじゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 心中/しんじゅう at N1 (gloss: double suicide, lovers suicide)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360840; spelling=心中; reading=しんじゅう; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360840 as the reference form.",
+          "selected": {
+            "sequence": "1360840",
+            "spelling": "心中",
+            "reading": "しんじゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "double suicide",
+                  "lovers' suicide"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group suicide",
+                  "family suicide"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 心中|しんじゅう#0 is the same lexeme as vocab-n1:correction:shinjuu; target hash bound to the assembled addition.",
+        "contentHash": "a82a4ab85b9b3c53185d4409cbf63ba4a48947ee1383fca68a2293fab9888eb4",
+        "approvalHash": "a82a4ab85b9b3c53185d4409cbf63ba4a48947ee1383fca68a2293fab9888eb4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "a82a4ab85b9b3c53185d4409cbf63ba4a48947ee1383fca68a2293fab9888eb4",
+        "approvalHash": "a82a4ab85b9b3c53185d4409cbf63ba4a48947ee1383fca68a2293fab9888eb4"
+      }
+    },
+    {
+      "key": "心中|しんじゅう",
+      "referenceIndex": 1,
+      "referenceHash": "1e41da331c3e9b0d245c37118fc0bbf0801efb1c4e4e667c94e2a6ae5ae2408a",
+      "revisionId": "043-candidate-shinjuu-9893ff82-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjuu": "2da6c7d394a6b78b3eb6ec7978f8ee9f544489baf71e64b86fb60f22d2e6977e"
+      },
+      "reason": "Reference 心中/しんじゅう (master N1) is the same lexeme as the new entry 心中【しんじゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 心中/しんじゅう at N1 (gloss: double suicide; lovers suicide; double suicide (d'amoureux))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360840; spelling=心中; reading=しんじゅう; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360840 as the reference form.",
+          "selected": {
+            "sequence": "1360840",
+            "spelling": "心中",
+            "reading": "しんじゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "double suicide",
+                  "lovers' suicide"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group suicide",
+                  "family suicide"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 心中|しんじゅう#1 is the same lexeme as vocab-n1:correction:shinjuu; target hash bound to the assembled addition.",
+        "contentHash": "e205c1c698f1b8e99fc8285fd62c20e39896d32aec53327835efadcf720ee3d3",
+        "approvalHash": "e205c1c698f1b8e99fc8285fd62c20e39896d32aec53327835efadcf720ee3d3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "e205c1c698f1b8e99fc8285fd62c20e39896d32aec53327835efadcf720ee3d3",
+        "approvalHash": "e205c1c698f1b8e99fc8285fd62c20e39896d32aec53327835efadcf720ee3d3"
+      }
+    },
+    {
+      "key": "進出|しんしゅつ",
+      "referenceIndex": 0,
+      "referenceHash": "0e2ac405e4e6ae9ac7c15b1f2ec01a306c81eb1b2718eb93fbb68410d083d003",
+      "revisionId": "043-candidate-shinshutsu-4b9e3474-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinshutsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinshutsu": "b00f9132e2cf105e68ec1886d7c666c746f9bc968075a4da0cd6e1282a7728ca"
+      },
+      "reason": "Reference 進出/しんしゅつ (tanos N1) is the same lexeme as the new entry 進出【しんしゅつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 進出/しんしゅつ at N1 (gloss: advance, step forward)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1366080; spelling=進出; reading=しんしゅつ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1366080 as the reference form.",
+          "selected": {
+            "sequence": "1366080",
+            "spelling": "進出",
+            "reading": "しんしゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (into a new market, industry, etc.)",
+                  "expansion (into)",
+                  "launch (into)",
+                  "entering",
+                  "making inroads (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (to the next round of a competition)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 進出|しんしゅつ#0 is the same lexeme as vocab-n1:correction:shinshutsu; target hash bound to the assembled addition.",
+        "contentHash": "68a5d3f6bb06aca1b701134f140b1877e2aaad126906f904bb13b39e89352d62",
+        "approvalHash": "68a5d3f6bb06aca1b701134f140b1877e2aaad126906f904bb13b39e89352d62"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "68a5d3f6bb06aca1b701134f140b1877e2aaad126906f904bb13b39e89352d62",
+        "approvalHash": "68a5d3f6bb06aca1b701134f140b1877e2aaad126906f904bb13b39e89352d62"
+      }
+    },
+    {
+      "key": "進出|しんしゅつ",
+      "referenceIndex": 1,
+      "referenceHash": "9e14781ec1b8cbed9a25c4ed5d12d1f8f612d162685555634987562085263a1c",
+      "revisionId": "043-candidate-shinshutsu-4b9e3474-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinshutsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinshutsu": "b00f9132e2cf105e68ec1886d7c666c746f9bc968075a4da0cd6e1282a7728ca"
+      },
+      "reason": "Reference 進出/しんしゅつ (master N1) is the same lexeme as the new entry 進出【しんしゅつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 進出/しんしゅつ at N1 (gloss: advance (into a new market or stage of progress); launching (a new career or venture); expanding (into a new market))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1366080; spelling=進出; reading=しんしゅつ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1366080 as the reference form.",
+          "selected": {
+            "sequence": "1366080",
+            "spelling": "進出",
+            "reading": "しんしゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (into a new market, industry, etc.)",
+                  "expansion (into)",
+                  "launch (into)",
+                  "entering",
+                  "making inroads (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "advance (to the next round of a competition)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 進出|しんしゅつ#1 is the same lexeme as vocab-n1:correction:shinshutsu; target hash bound to the assembled addition.",
+        "contentHash": "bdb49184a295dacf14c7bf6a79c6e78f2cd6186e2104b4c7e7358374abded4ad",
+        "approvalHash": "bdb49184a295dacf14c7bf6a79c6e78f2cd6186e2104b4c7e7358374abded4ad"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "bdb49184a295dacf14c7bf6a79c6e78f2cd6186e2104b4c7e7358374abded4ad",
+        "approvalHash": "bdb49184a295dacf14c7bf6a79c6e78f2cd6186e2104b4c7e7358374abded4ad"
+      }
+    },
+    {
+      "key": "心情|しんじょう",
+      "referenceIndex": 0,
+      "referenceHash": "66f3f7d3e318a93466211ac9b7e223257b35428377860ef6004ae216baca9bbb",
+      "revisionId": "043-candidate-shinjou-feelings-a5c5b97b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjou-feelings"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjou-feelings": "f29877e58a9ed9af2f81f690933ab66ba327214fe8abf97cb5c96823ff504713"
+      },
+      "reason": "Reference 心情/しんじょう (tanos N1) is the same lexeme as the new entry 心情【しんじょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 心情/しんじょう at N1 (gloss: mentality)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360720; spelling=心情; reading=しんじょう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360720 as the reference form.",
+          "selected": {
+            "sequence": "1360720",
+            "spelling": "心情",
+            "reading": "しんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sentiment",
+                  "emotions",
+                  "one's feelings",
+                  "one's heart"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 心情|しんじょう#0 is the same lexeme as vocab-n1:correction:shinjou-feelings; target hash bound to the assembled addition.",
+        "contentHash": "e98a15351fa6996e4efc24c6dc5c0279faac1cdde3bd0cd98d627799b3be3e6c",
+        "approvalHash": "e98a15351fa6996e4efc24c6dc5c0279faac1cdde3bd0cd98d627799b3be3e6c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "e98a15351fa6996e4efc24c6dc5c0279faac1cdde3bd0cd98d627799b3be3e6c",
+        "approvalHash": "e98a15351fa6996e4efc24c6dc5c0279faac1cdde3bd0cd98d627799b3be3e6c"
+      }
+    },
+    {
+      "key": "心情|しんじょう",
+      "referenceIndex": 1,
+      "referenceHash": "b072943d866af096220ead152ad14337f18f8ad4e53ba8ca3bb2a569444c459e",
+      "revisionId": "043-candidate-shinjou-feelings-a5c5b97b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjou-feelings"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjou-feelings": "f29877e58a9ed9af2f81f690933ab66ba327214fe8abf97cb5c96823ff504713"
+      },
+      "reason": "Reference 心情/しんじょう (master N1) is the same lexeme as the new entry 心情【しんじょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 心情/しんじょう at N1 (gloss: sentiment; emotions; one's feelings)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360720; spelling=心情; reading=しんじょう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360720 as the reference form.",
+          "selected": {
+            "sequence": "1360720",
+            "spelling": "心情",
+            "reading": "しんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sentiment",
+                  "emotions",
+                  "one's feelings",
+                  "one's heart"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 心情|しんじょう#1 is the same lexeme as vocab-n1:correction:shinjou-feelings; target hash bound to the assembled addition.",
+        "contentHash": "90fe9526bee015fc813f0c672bc9ec1a715b8718878b8d9870d385b13f6e9678",
+        "approvalHash": "90fe9526bee015fc813f0c672bc9ec1a715b8718878b8d9870d385b13f6e9678"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "90fe9526bee015fc813f0c672bc9ec1a715b8718878b8d9870d385b13f6e9678",
+        "approvalHash": "90fe9526bee015fc813f0c672bc9ec1a715b8718878b8d9870d385b13f6e9678"
+      }
+    },
+    {
+      "key": "新人|しんじん",
+      "referenceIndex": 0,
+      "referenceHash": "de2df50ba901a6dcae4719e53c56179de47cda6cf6b5b9777f8515f5031196bb",
+      "revisionId": "043-candidate-shinjin-bb7d1d85-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjin": "23d4cb03211c447df4cc68ab45d35b5070b62fe151a13237244b18b897a1fa28"
+      },
+      "reason": "Reference 新人/しんじん (tanos N1) is the same lexeme as the new entry 新人【しんじん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=79",
+          "finding": "tanos lists 新人/しんじん at N1 (gloss: new face, newcomer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361960; spelling=新人; reading=しんじん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361960 as the reference form.",
+          "selected": {
+            "sequence": "1361960",
+            "spelling": "新人",
+            "reading": "しんじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newcomer",
+                  "new figure",
+                  "new member",
+                  "recruit",
+                  "rookie",
+                  "new talent",
+                  "new star"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新人|しんじん#0 is the same lexeme as vocab-n1:correction:shinjin; target hash bound to the assembled addition.",
+        "contentHash": "6cd59d755bcd457f7fd471543c091e03baf781ce0f40ca6c15616f134d1ce248",
+        "approvalHash": "6cd59d755bcd457f7fd471543c091e03baf781ce0f40ca6c15616f134d1ce248"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "6cd59d755bcd457f7fd471543c091e03baf781ce0f40ca6c15616f134d1ce248",
+        "approvalHash": "6cd59d755bcd457f7fd471543c091e03baf781ce0f40ca6c15616f134d1ce248"
+      }
+    },
+    {
+      "key": "新人|しんじん",
+      "referenceIndex": 1,
+      "referenceHash": "1686b014c316972646732b8ca218c1b19948df8d4c6e2c9e973839af9c5469fd",
+      "revisionId": "043-candidate-shinjin-bb7d1d85-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjin": "23d4cb03211c447df4cc68ab45d35b5070b62fe151a13237244b18b897a1fa28"
+      },
+      "reason": "Reference 新人/しんじん (sensei N1) is the same lexeme as the new entry 新人【しんじん】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n1-vocabulary-list/",
+          "finding": "JLPT Sensei lists 新人/しんじん at N1 (gloss: new face; newcomer; rookie; fresh recruit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361960; spelling=新人; reading=しんじん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361960 as the reference form.",
+          "selected": {
+            "sequence": "1361960",
+            "spelling": "新人",
+            "reading": "しんじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newcomer",
+                  "new figure",
+                  "new member",
+                  "recruit",
+                  "rookie",
+                  "new talent",
+                  "new star"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新人|しんじん#1 is the same lexeme as vocab-n1:correction:shinjin; target hash bound to the assembled addition.",
+        "contentHash": "76835759bdfcea0fe92bc927f41e0a66320fd4099065183942bbbe3a787dfc96",
+        "approvalHash": "76835759bdfcea0fe92bc927f41e0a66320fd4099065183942bbbe3a787dfc96"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "76835759bdfcea0fe92bc927f41e0a66320fd4099065183942bbbe3a787dfc96",
+        "approvalHash": "76835759bdfcea0fe92bc927f41e0a66320fd4099065183942bbbe3a787dfc96"
+      }
+    },
+    {
+      "key": "新人|しんじん",
+      "referenceIndex": 2,
+      "referenceHash": "bbf3b85710ab55bdabec9e2367b7ca714192dc357d324a975a9f057306a2230d",
+      "revisionId": "043-candidate-shinjin-bb7d1d85-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shinjin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shinjin": "23d4cb03211c447df4cc68ab45d35b5070b62fe151a13237244b18b897a1fa28"
+      },
+      "reason": "Reference 新人/しんじん (master N1) is the same lexeme as the new entry 新人【しんじん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 新人/しんじん at N1 (gloss: new face; newcomer; débutant)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361960; spelling=新人; reading=しんじん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361960 as the reference form.",
+          "selected": {
+            "sequence": "1361960",
+            "spelling": "新人",
+            "reading": "しんじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "newcomer",
+                  "new figure",
+                  "new member",
+                  "recruit",
+                  "rookie",
+                  "new talent",
+                  "new star"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 新人|しんじん#2 is the same lexeme as vocab-n1:correction:shinjin; target hash bound to the assembled addition.",
+        "contentHash": "fcf038f515607140400afb7c55c6f1a6b421cadbc89bd9086cdd52ac6603a73e",
+        "approvalHash": "fcf038f515607140400afb7c55c6f1a6b421cadbc89bd9086cdd52ac6603a73e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "fcf038f515607140400afb7c55c6f1a6b421cadbc89bd9086cdd52ac6603a73e",
+        "approvalHash": "fcf038f515607140400afb7c55c6f1a6b421cadbc89bd9086cdd52ac6603a73e"
+      }
+    }
+  ]
+}

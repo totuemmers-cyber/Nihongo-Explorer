@@ -1,0 +1,4019 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:shousoku",
+      "revisionId": "043-add-shousoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "消息",
+        "reading": "しょうそく",
+        "romaji": "shousoku",
+        "meaning": "Nachricht, Lebenszeichen; Verbleib (einer Person)",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N1",
+        "notes": "Schriftsprachlich: Nachricht darüber, wie es jemandem geht und wo er ist. 消息を絶つ (kein Lebenszeichen mehr geben, verschollen sein), 消息不明 (verschollen), 消息筋 (gut unterrichtete Kreise).",
+        "examples": [
+          {
+            "japanese": "登山に出かけたまま、彼は消息を絶った。",
+            "romaji": "Tozan ni dekaketa mama, kare wa shousoku o tatta.",
+            "german": "Er brach zu einer Bergtour auf, und seitdem fehlt von ihm jedes Lebenszeichen."
+          },
+          {
+            "japanese": "卒業してから、田中さんの消息はまったく聞かない。",
+            "romaji": "Sotsugyou shite kara, Tanaka-san no shousoku wa mattaku kikanai.",
+            "german": "Seit dem Abschluss habe ich überhaupt nichts mehr von Tanaka gehört."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141034832",
+            "patterns": [
+              0
+            ],
+            "finding": "消息 / ショウソク; 名詞/普通名詞/一般/*; *; *; lemma 消息; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "消息",
+              "reading": "しょうそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "消息 as \"Nachricht, Lebenszeichen; Verbleib (einer Person)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 消息【しょうそく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350250; spelling=消息; reading=しょうそく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1350250 消息/しょうそく sense(s) 1,2 support \"Nachricht, Lebenszeichen; Verbleib (einer Person)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1350250",
+            "spelling": "消息",
+            "reading": "しょうそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "news (from someone)",
+                  "letter",
+                  "contact"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(someone's) whereabouts",
+                  "(someone's) movements"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "消息|しょうそく",
+          "referenceIndex": 0,
+          "referenceHash": "5b67fbbcdf4dbc6d3654fde5e59938f4cb0fa5c5df439d855a962d8193fed6f4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Nachricht, Lebenszeichen; Verbleib (einer Person)\" matches JMdict 1350250 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Missing mountaineer.",
+          "Lost touch after graduation."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1350250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141034832 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141034832",
+            "patterns": [
+              0
+            ],
+            "finding": "消息 / ショウソク; 名詞/普通名詞/一般/*; *; *; lemma 消息; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "消息",
+              "reading": "しょうそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "消息 as \"Nachricht, Lebenszeichen; Verbleib (einer Person)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 消息【しょうそく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1350250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "543dfdd0b721bd1a248ee0b9ddfdc33df0ff222c8d89b47d0b2d4c20f8c5be7b",
+        "approvalHash": "175f74881302124d0f7e78dbfc6aa53c0ae1b54ed3a84bc07f600455396f19e1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "543dfdd0b721bd1a248ee0b9ddfdc33df0ff222c8d89b47d0b2d4c20f8c5be7b",
+        "approvalHash": "175f74881302124d0f7e78dbfc6aa53c0ae1b54ed3a84bc07f600455396f19e1"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shoutai",
+      "revisionId": "043-add-shoutai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "正体",
+        "reading": "しょうたい",
+        "romaji": "shoutai",
+        "meaning": "wahre Gestalt, wahres Gesicht, wahre Identität",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N1",
+        "notes": "Was hinter Maske oder Schein steckt: 正体を現す (sein wahres Gesicht zeigen), 正体不明 (unbekannter Identität/Herkunft). Nicht verwechseln mit 招待 (Einladung), gleich gelesen.",
+        "examples": [
+          {
+            "japanese": "ついに犯人が正体を現した。",
+            "romaji": "Tsui ni hannin ga shoutai o arawashita.",
+            "german": "Schließlich zeigte der Täter sein wahres Gesicht."
+          },
+          {
+            "japanese": "夜中に聞こえた音の正体は、隣の家の猫だった。",
+            "romaji": "Yonaka ni kikoeta oto no shoutai wa, tonari no ie no neko datta.",
+            "german": "Das Geräusch mitten in der Nacht stammte in Wirklichkeit von der Katze der Nachbarn."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141054519",
+            "patterns": [
+              1
+            ],
+            "finding": "正体 / ショウタイ; 名詞/普通名詞/一般/*; *; *; lemma 正体; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "正体",
+              "reading": "しょうたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "正体 as \"wahre Gestalt, wahres Gesicht, wahre Identität\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 正体【しょうたい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1377530; spelling=正体; reading=しょうたい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1377530 正体/しょうたい sense(s) 1 support \"wahre Gestalt, wahres Gesicht, wahre Identität\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1377530",
+            "spelling": "正体",
+            "reading": "しょうたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "true character",
+                  "true form",
+                  "true colors",
+                  "identity",
+                  "truth (of a mystery, phenomenon, etc.)",
+                  "origin"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "正体|しょうたい",
+          "referenceIndex": 0,
+          "referenceHash": "60c593b25b7778199a8cb5e3398ba0e17a023cb44380a836cba116b73494f216"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"wahre Gestalt, wahres Gesicht, wahre Identität\" matches JMdict 1377530 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Culprit unmasked.",
+          "Mystery noise explained."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1377530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141054519 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141054519",
+            "patterns": [
+              1
+            ],
+            "finding": "正体 / ショウタイ; 名詞/普通名詞/一般/*; *; *; lemma 正体; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "正体",
+              "reading": "しょうたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "正体 as \"wahre Gestalt, wahres Gesicht, wahre Identität\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 正体【しょうたい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1377530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f5bb7502ca7409723560ef467c299710f98f69a10593ad8bd59acbe47681eaa0",
+        "approvalHash": "ba0e32b3225d7c64a6582c5cfc6dc5eb6d66ed668498100070290f51ad397290"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "f5bb7502ca7409723560ef467c299710f98f69a10593ad8bd59acbe47681eaa0",
+        "approvalHash": "ba0e32b3225d7c64a6582c5cfc6dc5eb6d66ed668498100070290f51ad397290"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shiyounin",
+      "revisionId": "043-add-shiyounin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "使用人",
+        "reading": "しようにん",
+        "romaji": "shiyounin",
+        "meaning": "Bedienstete(r), Dienstbote; Angestellte(r)",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Wer bei jemandem angestellt ist, besonders als Hauspersonal. Klingt heute altmodisch; für Firmenangestellte sagt man 社員 oder 従業員.",
+        "examples": [
+          {
+            "japanese": "その屋敷には十人の使用人がいた。",
+            "romaji": "Sono yashiki ni wa juunin no shiyounin ga ita.",
+            "german": "In dem Herrenhaus arbeiteten zehn Bedienstete."
+          },
+          {
+            "japanese": "彼は使用人を家族のように大切にした。",
+            "romaji": "Kare wa shiyounin o kazoku no you ni taisetsu ni shita.",
+            "german": "Er behandelte seine Bediensteten so fürsorglich wie seine eigene Familie."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 使用人【しようにん】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1306280; spelling=使用人; reading=しようにん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1306280 使用人/しようにん sense(s) 1 support \"Bedienstete(r), Dienstbote; Angestellte(r)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1306280",
+            "spelling": "使用人",
+            "reading": "しようにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "employee",
+                  "servant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "使用人|しようにん",
+          "referenceIndex": 0,
+          "referenceHash": "b2f7465ebe80d306d0755dd6bf44d5af8321bf7923d4bbbf1be1ab7fde21c447"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Bedienstete(r), Dienstbote; Angestellte(r)\" matches JMdict 1306280 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Staff of a mansion.",
+          "Treating servants well."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1306280; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 使用人 / しようにん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 使用人 / しようにん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 使用人【しようにん】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1306280 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "6d49b44322effd78e3f1e0b9a893962eb59bf0fd298c2da59badd64c1587883a",
+        "approvalHash": "561e6ada13fe5a86556e729f437425152c3b3647b8cd9f1c12ce0de7678109d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "6d49b44322effd78e3f1e0b9a893962eb59bf0fd298c2da59badd64c1587883a",
+        "approvalHash": "561e6ada13fe5a86556e729f437425152c3b3647b8cd9f1c12ce0de7678109d9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:jouriku",
+      "revisionId": "043-add-jouriku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "上陸",
+        "reading": "じょうりく",
+        "romaji": "jouriku",
+        "meaning": "Landung, An-Land-Gehen; Landfall (eines Taifuns)",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N1",
+        "notes": "〜する: vom Schiff an Land gehen (Passagiere, Truppen). Auch vom Taifun, der auf Land trifft: 台風が上陸する.",
+        "examples": [
+          {
+            "japanese": "台風十号が今夜、九州に上陸する見込みです。",
+            "romaji": "Taifuu juugou ga kon'ya, Kyuushuu ni jouriku suru mikomi desu.",
+            "german": "Taifun Nr. 10 wird voraussichtlich heute Nacht auf Kyūshū treffen."
+          },
+          {
+            "japanese": "船は港に着き、乗客は島に上陸した。",
+            "romaji": "Fune wa minato ni tsuki, joukyaku wa shima ni jouriku shita.",
+            "german": "Das Schiff legte im Hafen an, und die Passagiere gingen auf der Insel an Land."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145011063",
+            "patterns": [
+              0
+            ],
+            "finding": "上陸 / ジョウリク; 名詞/普通名詞/サ変可能/*; *; *; lemma 上陸; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上陸",
+              "reading": "じょうりく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "上陸 as \"Landung, An-Land-Gehen; Landfall (eines Taifuns)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 上陸【じょうりく】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1354480; spelling=上陸; reading=じょうりく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1354480 上陸/じょうりく sense(s) 1,2 support \"Landung, An-Land-Gehen; Landfall (eines Taifuns)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1354480",
+            "spelling": "上陸",
+            "reading": "じょうりく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "landing",
+                  "going ashore",
+                  "disembarkation"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "making landfall (of a typhoon)",
+                  "striking land",
+                  "hitting land"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "上陸|じょうりく",
+          "referenceIndex": 0,
+          "referenceHash": "1c569178f26c43f34379990fa369cbaf4d568b48489cfac681fcd933cdca5540"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Landung, An-Land-Gehen; Landfall (eines Taifuns)\" matches JMdict 1354480 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Typhoon forecast.",
+          "Passengers disembarking."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1354480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@145011063 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145011063",
+            "patterns": [
+              0
+            ],
+            "finding": "上陸 / ジョウリク; 名詞/普通名詞/サ変可能/*; *; *; lemma 上陸; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上陸",
+              "reading": "じょうりく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "上陸 as \"Landung, An-Land-Gehen; Landfall (eines Taifuns)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 上陸【じょうりく】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1354480 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e5fe6d303cea4dd94330f9217ab845cd8533a4f6f68797736a0344d6b4c3b012",
+        "approvalHash": "666d63fa296f847c129c31ef06133e9223d8921a6106196af4c2558f24cc9338"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "e5fe6d303cea4dd94330f9217ab845cd8533a4f6f68797736a0344d6b4c3b012",
+        "approvalHash": "666d63fa296f847c129c31ef06133e9223d8921a6106196af4c2558f24cc9338"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shourei",
+      "revisionId": "043-add-shourei",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "奨励",
+        "reading": "しょうれい",
+        "romaji": "shourei",
+        "meaning": "Förderung, Ermutigung",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "〜する: etwas (offiziell) fördern und dazu anhalten, v. a. Behörden, Firmen, Schulen. 奨励金 = Prämie, Fördergeld.",
+        "examples": [
+          {
+            "japanese": "会社は社員に自転車通勤を奨励している。",
+            "romaji": "Kaisha wa shain ni jitensha tsuukin o shourei shite iru.",
+            "german": "Die Firma ermutigt ihre Mitarbeiter, mit dem Fahrrad zur Arbeit zu fahren."
+          },
+          {
+            "japanese": "政府は省エネを奨励するため、補助金を出している。",
+            "romaji": "Seifu wa shouene o shourei suru tame, hojokin o dashite iru.",
+            "german": "Um das Energiesparen zu fördern, zahlt die Regierung Zuschüsse."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141255880",
+            "patterns": [
+              0
+            ],
+            "finding": "奨励 / ショウレイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 奨励; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "奨励",
+              "reading": "しょうれい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "奨励 as \"Förderung, Ermutigung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 奨励【しょうれい】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347550; spelling=奨励; reading=しょうれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1347550 奨励/しょうれい sense(s) 1 support \"Förderung, Ermutigung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1347550",
+            "spelling": "奨励",
+            "reading": "しょうれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "encouragement",
+                  "promotion",
+                  "inducement",
+                  "incitement",
+                  "stimulation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "奨励|しょうれい",
+          "referenceIndex": 0,
+          "referenceHash": "be44d4a298eaef74f702e48dec9f836f9cf90e61eade67c3c769259acef80512"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Förderung, Ermutigung\" matches JMdict 1347550 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Company policy on commuting.",
+          "Government subsidy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1347550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141255880 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141255880",
+            "patterns": [
+              0
+            ],
+            "finding": "奨励 / ショウレイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 奨励; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "奨励",
+              "reading": "しょうれい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "奨励 as \"Förderung, Ermutigung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 奨励【しょうれい】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1347550 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "19cf08d579bd9e0be3f11b7766049b63705560c58fe4b975cc7e1d75c20c74e7",
+        "approvalHash": "28832e2f1fb33d53e52c9c74bfc39c4d316fbda4da84f605c4cb029e7f1f3de3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "19cf08d579bd9e0be3f11b7766049b63705560c58fe4b975cc7e1d75c20c74e7",
+        "approvalHash": "28832e2f1fb33d53e52c9c74bfc39c4d316fbda4da84f605c4cb029e7f1f3de3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shokumu",
+      "revisionId": "043-add-shokumu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "職務",
+        "reading": "しょくむ",
+        "romaji": "shokumu",
+        "meaning": "Dienstpflichten, dienstliche Aufgaben",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Förmlich: die Aufgaben, die zu einer Stelle gehören. 職務を果たす (seine Pflichten erfüllen), 職務質問 (polizeiliche Befragung auf der Straße).",
+        "examples": [
+          {
+            "japanese": "彼は最後まで職務を果たした。",
+            "romaji": "Kare wa saigo made shokumu o hatashita.",
+            "german": "Er erfüllte seine Dienstpflichten bis zuletzt."
+          },
+          {
+            "japanese": "職務中の飲酒は禁止されている。",
+            "romaji": "Shokumuchuu no inshu wa kinshi sarete iru.",
+            "german": "Alkohol ist während der Dienstzeit verboten."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141363596",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "職務 / ショクム; 名詞/普通名詞/一般/*; *; *; lemma 職務; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "職務",
+              "reading": "しょくむ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "職務 as \"Dienstpflichten, dienstliche Aufgaben\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 職務【しょくむ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1357580; spelling=職務; reading=しょくむ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1357580 職務/しょくむ sense(s) 1 support \"Dienstpflichten, dienstliche Aufgaben\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1357580",
+            "spelling": "職務",
+            "reading": "しょくむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "professional duties"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "職務|しょくむ",
+          "referenceIndex": 0,
+          "referenceHash": "b399dcf439224d738b2b8785d96440bf639b7d26ef808043db725f2409fb464b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Dienstpflichten, dienstliche Aufgaben\" matches JMdict 1357580 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Doing one’s duty to the end.",
+          "Workplace rule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1357580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141363596 attest 1,2; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141363596",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "職務 / ショクム; 名詞/普通名詞/一般/*; *; *; lemma 職務; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "職務",
+              "reading": "しょくむ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "職務 as \"Dienstpflichten, dienstliche Aufgaben\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 職務【しょくむ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1357580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4e750b6c948c7c72ffa910d254ea86c52942ff9aeaf9fd55521409efcd8e6b7f",
+        "approvalHash": "331132fbd43f4f61a4307e86cac4863c9111be49f1af6d79efdbf0d9f2f0c67c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "4e750b6c948c7c72ffa910d254ea86c52942ff9aeaf9fd55521409efcd8e6b7f",
+        "approvalHash": "331132fbd43f4f61a4307e86cac4863c9111be49f1af6d79efdbf0d9f2f0c67c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shoji",
+      "revisionId": "043-add-shoji",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "所持",
+        "reading": "しょじ",
+        "romaji": "shoji",
+        "meaning": "Besitz; Mitführen (bei sich tragen)",
+        "type": "Nomen",
+        "category": "Recht",
+        "level": "N1",
+        "notes": "〜する: etwas bei sich haben oder besitzen; typisch in Amts- und Rechtssprache. 所持品 (mitgeführte Gegenstände), 所持金 (Bargeld, das man bei sich hat).",
+        "examples": [
+          {
+            "japanese": "入国の際はパスポートを所持していなければならない。",
+            "romaji": "Nyuukoku no sai wa pasupooto o shoji shite inakereba naranai.",
+            "german": "Bei der Einreise muss man einen Reisepass bei sich führen."
+          },
+          {
+            "japanese": "男は刃物を所持していたとして逮捕された。",
+            "romaji": "Otoko wa hamono o shoji shite ita to shite taiho sareta.",
+            "german": "Der Mann wurde festgenommen, weil er ein Messer bei sich trug."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141462024",
+            "patterns": [
+              1
+            ],
+            "finding": "所持 / ショジ; 名詞/普通名詞/サ変可能/*; *; *; lemma 所持; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所持",
+              "reading": "しょじ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "所持 as \"Besitz; Mitführen (bei sich tragen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 所持【しょじ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1343250; spelling=所持; reading=しょじ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1343250 所持/しょじ sense(s) 1 support \"Besitz; Mitführen (bei sich tragen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1343250",
+            "spelling": "所持",
+            "reading": "しょじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "possession",
+                  "having (on one's person)",
+                  "carrying (with one)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "所持|しょじ",
+          "referenceIndex": 0,
+          "referenceHash": "ece8f2a769290ff482e1d9bff9803dd1418ab81e62863944436b4096c95bbcec"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Besitz; Mitführen (bei sich tragen)\" matches JMdict 1343250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Entry requirement.",
+          "Arrest for carrying a knife."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1343250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141462024 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141462024",
+            "patterns": [
+              1
+            ],
+            "finding": "所持 / ショジ; 名詞/普通名詞/サ変可能/*; *; *; lemma 所持; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所持",
+              "reading": "しょじ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "所持 as \"Besitz; Mitführen (bei sich tragen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 所持【しょじ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1343250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d008a2fa2fe08ccfb71f7b4a59716738a01bc9b984fe860df4f1f8cc086938f8",
+        "approvalHash": "dab85e4c537ea0de5828bdada16384e5cb2184f107893e856ae696d1b6648e83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "d008a2fa2fe08ccfb71f7b4a59716738a01bc9b984fe860df4f1f8cc086938f8",
+        "approvalHash": "dab85e4c537ea0de5828bdada16384e5cb2184f107893e856ae696d1b6648e83"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:joshi-madam",
+      "revisionId": "043-add-joshi-madam",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "女史",
+        "reading": "じょし",
+        "romaji": "joshi",
+        "meaning": "Frau … (respektvoller Titel für angesehene Frauen)",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N1",
+        "notes": "Nach dem Namen einer angesehenen Frau (Wissenschaftlerin, Künstlerin, Politikerin): 山田女史. Heute eher altmodisch und schriftsprachlich. Nicht verwechseln mit 女子 (Mädchen, Frauen-), gleich gelesen.",
+        "examples": [
+          {
+            "japanese": "講演会では、鈴木女史が環境問題について話した。",
+            "romaji": "Kouenkai de wa, Suzuki joshi ga kankyou mondai ni tsuite hanashita.",
+            "german": "Beim Vortragsabend sprach Frau Suzuki über Umweltprobleme."
+          },
+          {
+            "japanese": "会議の議長はブラウン女史が務めた。",
+            "romaji": "Kaigi no gichou wa Buraun joshi ga tsutometa.",
+            "german": "Den Vorsitz der Konferenz führte Frau Braun."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145050418",
+            "patterns": [
+              1
+            ],
+            "finding": "女史 / ジョシ; 名詞/普通名詞/一般/*; *; *; lemma 女史; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "女史",
+              "reading": "じょし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "女史 as \"Frau … (respektvoller Titel für angesehene Frauen)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 女史【じょし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345130; spelling=女史; reading=じょし; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1345130 女史/じょし sense(s) 1,2 support \"Frau … (respektvoller Titel für angesehene Frauen)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1345130",
+            "spelling": "女史",
+            "reading": "じょし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lady (of high social status; e.g. scholar, artist, critic, politician)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "Ms",
+                  "Mrs",
+                  "Miss"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "女史|じょし",
+          "referenceIndex": 0,
+          "referenceHash": "84c69c76a66ed9dca8af7d5d5851cc01b239f091b273180a7f9e93f786f75771"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Frau … (respektvoller Titel für angesehene Frauen)\" matches JMdict 1345130 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Lecture by a scholar.",
+          "Chairing a conference."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1345130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@145050418 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145050418",
+            "patterns": [
+              1
+            ],
+            "finding": "女史 / ジョシ; 名詞/普通名詞/一般/*; *; *; lemma 女史; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "女史",
+              "reading": "じょし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "女史 as \"Frau … (respektvoller Titel für angesehene Frauen)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 女史【じょし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1345130 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5655a89ccad04f6421766eb2e63d3b8ba0eab878795bb935368712193bc930e5",
+        "approvalHash": "189f22c55742538c45b2eb8ef929e83b52ff2dc4e3f421f5349443613d85bd7a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "5655a89ccad04f6421766eb2e63d3b8ba0eab878795bb935368712193bc930e5",
+        "approvalHash": "189f22c55742538c45b2eb8ef929e83b52ff2dc4e3f421f5349443613d85bd7a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shokku",
+      "revisionId": "043-add-shokku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ショック",
+        "reading": "ショック",
+        "romaji": "shokku",
+        "meaning": "Schock; Stoß, Erschütterung",
+        "type": "Nomen",
+        "category": "Gefühle",
+        "level": "N1",
+        "notes": "Seelisch: ショックを受ける (geschockt sein), ショックだ (das ist ein Schock). Körperlich/technisch: Stoß, Erschütterung.",
+        "examples": [
+          {
+            "japanese": "試験に落ちて、大きなショックを受けた。",
+            "romaji": "Shiken ni ochite, ookina shokku o uketa.",
+            "german": "Dass ich durch die Prüfung gefallen bin, war ein großer Schock für mich."
+          },
+          {
+            "japanese": "着地のショックで、ひざを痛めた。",
+            "romaji": "Chakuchi no shokku de, hiza o itameta.",
+            "german": "Durch den Stoß bei der Landung habe ich mir das Knie verletzt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141511813",
+            "patterns": [
+              1
+            ],
+            "finding": "ショック / ショック; 名詞/普通名詞/形状詞可能/*; *; *; lemma ショック-shock; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ショック",
+              "reading": "ショック",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "ショック as \"Schock; Stoß, Erschütterung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add ショック【ショック】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1062660; spelling=ショック; reading=ショック; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1062660 ショック/ショック sense(s) 1,2 support \"Schock; Stoß, Erschütterung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1062660",
+            "spelling": "ショック",
+            "reading": "ショック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (emotional)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (physical)",
+                  "impact",
+                  "jolt"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "しょっく|しょっく",
+          "referenceIndex": 0,
+          "referenceHash": "5dacd644cf29680c9720953e91af8f512b792b6b6879d0297463472683a1bbe6"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Schock; Stoß, Erschütterung\" matches JMdict 1062660 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Failing an exam.",
+          "Hard landing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1062660; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141511813 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141511813",
+            "patterns": [
+              1
+            ],
+            "finding": "ショック / ショック; 名詞/普通名詞/形状詞可能/*; *; *; lemma ショック-shock; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ショック",
+              "reading": "ショック",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "ショック as \"Schock; Stoß, Erschütterung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add ショック【ショック】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1062660 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3d2f929c228d3c5efaa21ea07b14de4f7e0b137b7a2fc0496449bde5a98eeea8",
+        "approvalHash": "12c5e3e0105a394350daeda7cb55efddeae7e36156c89ff7a7f0465c5350a923"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "3d2f929c228d3c5efaa21ea07b14de4f7e0b137b7a2fc0496449bde5a98eeea8",
+        "approvalHash": "12c5e3e0105a394350daeda7cb55efddeae7e36156c89ff7a7f0465c5350a923"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shotchuu",
+      "revisionId": "043-add-shotchuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "しょっちゅう",
+        "reading": "しょっちゅう",
+        "romaji": "shotchuu",
+        "meaning": "ständig, dauernd, sehr oft",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N1",
+        "notes": "Umgangssprachlich: immer wieder, andauernd. Förmlicher: 頻繁に oder 常に.",
+        "examples": [
+          {
+            "japanese": "弟はしょっちゅう鍵をなくす。",
+            "romaji": "Otouto wa shotchuu kagi o nakusu.",
+            "german": "Mein kleiner Bruder verliert ständig seine Schlüssel."
+          },
+          {
+            "japanese": "彼女とはしょっちゅう電話で話している。",
+            "romaji": "Kanojo to wa shotchuu denwa de hanashite iru.",
+            "german": "Mit ihr telefoniere ich ständig."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141516971",
+            "patterns": [
+              1
+            ],
+            "finding": "しょっちゅう / ショッチュウ; 副詞/*/*/*; *; *; lemma しょっちゅう; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "しょっちゅう",
+              "reading": "しょっちゅう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "しょっちゅう as \"ständig, dauernd, sehr oft\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add しょっちゅう【しょっちゅう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1005710; spelling=しょっちゅう; reading=しょっちゅう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1005710 しょっちゅう/しょっちゅう sense(s) 1 support \"ständig, dauernd, sehr oft\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1005710",
+            "spelling": "しょっちゅう",
+            "reading": "しょっちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "always",
+                  "all the time",
+                  "constantly",
+                  "frequently",
+                  "often"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "しょっちゅう|しょっちゅう",
+          "referenceIndex": 0,
+          "referenceHash": "9d71437049c15c3b88f63bcfac2b60420ee55469ee1b485e10640694054d7839"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"ständig, dauernd, sehr oft\" matches JMdict 1005710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Losing keys.",
+          "Frequent phone calls."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1005710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141516971 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141516971",
+            "patterns": [
+              1
+            ],
+            "finding": "しょっちゅう / ショッチュウ; 副詞/*/*/*; *; *; lemma しょっちゅう; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "しょっちゅう",
+              "reading": "しょっちゅう",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "しょっちゅう as \"ständig, dauernd, sehr oft\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add しょっちゅう【しょっちゅう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1005710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bf36fe6219de1417c2be9bc117b92d421e3e69b0e0c49f9b10d7cfa9951fa8de",
+        "approvalHash": "d592ce59c1fc0d29d7ca7585f6b9c1ec93415cdb830cfb5c18ca79b68f3f872c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "bf36fe6219de1417c2be9bc117b92d421e3e69b0e0c49f9b10d7cfa9951fa8de",
+        "approvalHash": "d592ce59c1fc0d29d7ca7585f6b9c1ec93415cdb830cfb5c18ca79b68f3f872c"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shobatsu",
+      "revisionId": "043-add-shobatsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "処罰",
+        "reading": "しょばつ",
+        "romaji": "shobatsu",
+        "meaning": "Bestrafung, Strafe",
+        "type": "Nomen",
+        "category": "Recht",
+        "level": "N1",
+        "notes": "〜する/〜される: von Amts wegen bestrafen. Allgemeiner: 罰.",
+        "examples": [
+          {
+            "japanese": "規則を破った者は処罰される。",
+            "romaji": "Kisoku o yabutta mono wa shobatsu sareru.",
+            "german": "Wer die Regeln bricht, wird bestraft."
+          },
+          {
+            "japanese": "飲酒運転に対する処罰が厳しくなった。",
+            "romaji": "Inshu unten ni taisuru shobatsu ga kibishiku natta.",
+            "german": "Die Strafen für Trunkenheit am Steuer wurden verschärft."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141563167",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "処罰 / ショバツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 処罰; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "処罰",
+              "reading": "しょばつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "処罰 as \"Bestrafung, Strafe\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 処罰【しょばつ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342480; spelling=処罰; reading=しょばつ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1342480 処罰/しょばつ sense(s) 1 support \"Bestrafung, Strafe\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1342480",
+            "spelling": "処罰",
+            "reading": "しょばつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "punishment",
+                  "penalty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "処罰|しょばつ",
+          "referenceIndex": 0,
+          "referenceHash": "47f570312276d3b09a9ae50d5ed77d82ee0df4ac171b2884471c15ed5c25d595"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Bestrafung, Strafe\" matches JMdict 1342480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Breaking rules.",
+          "Drunk-driving penalties."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1342480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141563167 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141563167",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "処罰 / ショバツ; 名詞/普通名詞/サ変可能/*; *; *; lemma 処罰; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "処罰",
+              "reading": "しょばつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "処罰 as \"Bestrafung, Strafe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 処罰【しょばつ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1342480 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4e6d713f64d9897b09f4cb40acf9ba05e4a715a99b8404bf1d010265f97298c9",
+        "approvalHash": "00165f21f37326460c119ca2d2fbfce7284dcecaf56300a11d26cedd967aeb08"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "4e6d713f64d9897b09f4cb40acf9ba05e4a715a99b8404bf1d010265f97298c9",
+        "approvalHash": "00165f21f37326460c119ca2d2fbfce7284dcecaf56300a11d26cedd967aeb08"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shoyuu",
+      "revisionId": "043-add-shoyuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "所有",
+        "reading": "しょゆう",
+        "romaji": "shoyuu",
+        "meaning": "Besitz, Eigentum",
+        "type": "Nomen",
+        "category": "Recht",
+        "level": "N1",
+        "notes": "〜する: besitzen, v. a. im rechtlichen Sinn. 所有者 (Eigentümer), 所有権 (Eigentumsrecht).",
+        "examples": [
+          {
+            "japanese": "彼は都内に土地を所有している。",
+            "romaji": "Kare wa tonai ni tochi o shoyuu shite iru.",
+            "german": "Er besitzt Grundstücke in Tokio."
+          },
+          {
+            "japanese": "東京では車を所有しない人が多い。",
+            "romaji": "Toukyou de wa kuruma o shoyuu shinai hito ga ooi.",
+            "german": "In Tokio besitzen viele Menschen kein Auto."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141644219",
+            "patterns": [
+              0
+            ],
+            "finding": "所有 / ショユウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 所有; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所有",
+              "reading": "しょゆう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "所有 as \"Besitz, Eigentum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 所有【しょゆう】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1343390; spelling=所有; reading=しょゆう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1343390 所有/しょゆう sense(s) 1 support \"Besitz, Eigentum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1343390",
+            "spelling": "所有",
+            "reading": "しょゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "possession",
+                  "ownership"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "所有|しょゆう",
+          "referenceIndex": 0,
+          "referenceHash": "96587f0aa067c6ca1176e7cd5723bb8c3936639f40b70644356c69a14897987a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Besitz, Eigentum\" matches JMdict 1343390 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Land ownership.",
+          "Car ownership in the city."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1343390; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141644219 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141644219",
+            "patterns": [
+              0
+            ],
+            "finding": "所有 / ショユウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 所有; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "所有",
+              "reading": "しょゆう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "所有 as \"Besitz, Eigentum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 所有【しょゆう】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1343390 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b215d2ba42902839a12836f1cbc80f8253e870a78336fac75b2d94f104442c1e",
+        "approvalHash": "ba3222d3a7559d3ffff4fec208ccef3888d894a05bd7ba7677d26b59ddacafae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "b215d2ba42902839a12836f1cbc80f8253e870a78336fac75b2d94f104442c1e",
+        "approvalHash": "ba3222d3a7559d3ffff4fec208ccef3888d894a05bd7ba7677d26b59ddacafae"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:shirabe",
+      "revisionId": "043-add-shirabe",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "調べ",
+        "reading": "しらべ",
+        "romaji": "shirabe",
+        "meaning": "Untersuchung, Ermittlung; Melodie, Weise",
+        "type": "Nomen",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Substantiv zu 調べる: 警察の調べによると (laut den Ermittlungen der Polizei), 取り調べ (Verhör). Gehoben auch „Melodie, Klang“: ピアノの調べ.",
+        "examples": [
+          {
+            "japanese": "警察の調べによると、火事の原因はたばこだった。",
+            "romaji": "Keisatsu no shirabe ni yoru to, kaji no gen'in wa tabako datta.",
+            "german": "Laut den Ermittlungen der Polizei war eine Zigarette die Brandursache."
+          },
+          {
+            "japanese": "静かな夜に、美しいピアノの調べが流れてきた。",
+            "romaji": "Shizuka na yoru ni, utsukushii piano no shirabe ga nagarete kita.",
+            "german": "In der stillen Nacht erklang eine schöne Klaviermelodie."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141878148",
+            "patterns": [
+              3
+            ],
+            "finding": "調べ / シラベ; 名詞/普通名詞/一般/*; *; *; lemma 調べ; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "調べ",
+              "reading": "しらべ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "調べ as \"Untersuchung, Ermittlung; Melodie, Weise\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 043); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 調べ【しらべ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1429050; spelling=調べ; reading=しらべ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1429050 調べ/しらべ sense(s) 1,2 support \"Untersuchung, Ermittlung; Melodie, Weise\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1429050",
+            "spelling": "調べ",
+            "reading": "しらべ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "investigation",
+                  "inspection",
+                  "examination"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tune",
+                  "note",
+                  "melody"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "調べ|しらべ",
+          "referenceIndex": 0,
+          "referenceHash": "396fabf83659fa3bc73a4113eacef3630ddfce7414ad2b998446eac4a649931a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-043-editor",
+        "meaning": "\"Untersuchung, Ermittlung; Melodie, Weise\" matches JMdict 1429050 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Police findings.",
+          "Music at night."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1429050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@141878148 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141878148",
+            "patterns": [
+              3
+            ],
+            "finding": "調べ / シラベ; 名詞/普通名詞/一般/*; *; *; lemma 調べ; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "調べ",
+              "reading": "しらべ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "調べ as \"Untersuchung, Ermittlung; Melodie, Weise\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: Add 調べ【しらべ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1429050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "498d9945212d88260e01ce3496cfbb0a623b2ecc8d394829609b98a21a1e47f2",
+        "approvalHash": "caecacb2e9806ed1b9f4fde25056b98bf4bc4b4125c2ee506828b0b4c98eaf52"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Entry re-accepted from round 1: examples, romaji, German text, JMdict sense support, level, POS/conjugation, pitch status and duplicate check all in order.",
+        "contentHash": "498d9945212d88260e01ce3496cfbb0a623b2ecc8d394829609b98a21a1e47f2",
+        "approvalHash": "caecacb2e9806ed1b9f4fde25056b98bf4bc4b4125c2ee506828b0b4c98eaf52"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "消息|しょうそく",
+      "referenceIndex": 0,
+      "referenceHash": "5b67fbbcdf4dbc6d3654fde5e59938f4cb0fa5c5df439d855a962d8193fed6f4",
+      "revisionId": "043-candidate-shousoku-3b35465a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shousoku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shousoku": "543dfdd0b721bd1a248ee0b9ddfdc33df0ff222c8d89b47d0b2d4c20f8c5be7b"
+      },
+      "reason": "Reference 消息/しょうそく (tanos N1) is the same lexeme as the new entry 消息【しょうそく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=76",
+          "finding": "tanos lists 消息/しょうそく at N1 (gloss: news, letter, circumstances)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350250; spelling=消息; reading=しょうそく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1350250 as the reference form.",
+          "selected": {
+            "sequence": "1350250",
+            "spelling": "消息",
+            "reading": "しょうそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "news (from someone)",
+                  "letter",
+                  "contact"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(someone's) whereabouts",
+                  "(someone's) movements"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 消息|しょうそく#0 is the same lexeme as vocab-n1:correction:shousoku; target hash bound to the assembled addition.",
+        "contentHash": "9b377a850b80a13c9e00858af107309a7e2456bd7993c82160db1119e0025c5b",
+        "approvalHash": "9b377a850b80a13c9e00858af107309a7e2456bd7993c82160db1119e0025c5b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "9b377a850b80a13c9e00858af107309a7e2456bd7993c82160db1119e0025c5b",
+        "approvalHash": "9b377a850b80a13c9e00858af107309a7e2456bd7993c82160db1119e0025c5b"
+      }
+    },
+    {
+      "key": "消息|しょうそく",
+      "referenceIndex": 1,
+      "referenceHash": "252d3f328acc394be2cdb112ab38703245ff7a1143fa6842fab73e070013e391",
+      "revisionId": "043-candidate-shousoku-3b35465a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shousoku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shousoku": "543dfdd0b721bd1a248ee0b9ddfdc33df0ff222c8d89b47d0b2d4c20f8c5be7b"
+      },
+      "reason": "Reference 消息/しょうそく (master N1) is the same lexeme as the new entry 消息【しょうそく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 消息/しょうそく at N1 (gloss: news (from somebody); letter; contact)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1350250; spelling=消息; reading=しょうそく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1350250 as the reference form.",
+          "selected": {
+            "sequence": "1350250",
+            "spelling": "消息",
+            "reading": "しょうそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "news (from someone)",
+                  "letter",
+                  "contact"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(someone's) whereabouts",
+                  "(someone's) movements"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 消息|しょうそく#1 is the same lexeme as vocab-n1:correction:shousoku; target hash bound to the assembled addition.",
+        "contentHash": "2b5281d15080710ac1a95ef0d4cfc7d14ae3bf3d302fd13fc5acf21d787f6cf5",
+        "approvalHash": "2b5281d15080710ac1a95ef0d4cfc7d14ae3bf3d302fd13fc5acf21d787f6cf5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "2b5281d15080710ac1a95ef0d4cfc7d14ae3bf3d302fd13fc5acf21d787f6cf5",
+        "approvalHash": "2b5281d15080710ac1a95ef0d4cfc7d14ae3bf3d302fd13fc5acf21d787f6cf5"
+      }
+    },
+    {
+      "key": "正体|しょうたい",
+      "referenceIndex": 0,
+      "referenceHash": "60c593b25b7778199a8cb5e3398ba0e17a023cb44380a836cba116b73494f216",
+      "revisionId": "043-candidate-shoutai-c33d7b17-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shoutai"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shoutai": "f5bb7502ca7409723560ef467c299710f98f69a10593ad8bd59acbe47681eaa0"
+      },
+      "reason": "Reference 正体/しょうたい (master N1) is the same lexeme as the new entry 正体【しょうたい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 正体/しょうたい at N1 (gloss: natural shape; one's true colors; one's true colours)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1377530; spelling=正体; reading=しょうたい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1377530 as the reference form.",
+          "selected": {
+            "sequence": "1377530",
+            "spelling": "正体",
+            "reading": "しょうたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "true character",
+                  "true form",
+                  "true colors",
+                  "identity",
+                  "truth (of a mystery, phenomenon, etc.)",
+                  "origin"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 正体|しょうたい#0 is the same lexeme as vocab-n1:correction:shoutai; target hash bound to the assembled addition.",
+        "contentHash": "2e3868e8c11410e565eaa0f3ca7f0536d26013b52725d1ab06fa0318a66e8810",
+        "approvalHash": "2e3868e8c11410e565eaa0f3ca7f0536d26013b52725d1ab06fa0318a66e8810"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "2e3868e8c11410e565eaa0f3ca7f0536d26013b52725d1ab06fa0318a66e8810",
+        "approvalHash": "2e3868e8c11410e565eaa0f3ca7f0536d26013b52725d1ab06fa0318a66e8810"
+      }
+    },
+    {
+      "key": "使用人|しようにん",
+      "referenceIndex": 0,
+      "referenceHash": "b2f7465ebe80d306d0755dd6bf44d5af8321bf7923d4bbbf1be1ab7fde21c447",
+      "revisionId": "043-candidate-shiyounin-9ff07208-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shiyounin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shiyounin": "6d49b44322effd78e3f1e0b9a893962eb59bf0fd298c2da59badd64c1587883a"
+      },
+      "reason": "Reference 使用人/しようにん (tanos N1) is the same lexeme as the new entry 使用人【しようにん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 使用人/しようにん at N1 (gloss: employee, servant)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1306280; spelling=使用人; reading=しようにん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1306280 as the reference form.",
+          "selected": {
+            "sequence": "1306280",
+            "spelling": "使用人",
+            "reading": "しようにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "employee",
+                  "servant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 使用人|しようにん#0 is the same lexeme as vocab-n1:correction:shiyounin; target hash bound to the assembled addition.",
+        "contentHash": "cc5245a6ae9d071660c81a5f012e3a449066b7249618a2f8dd0170b1785ad0db",
+        "approvalHash": "cc5245a6ae9d071660c81a5f012e3a449066b7249618a2f8dd0170b1785ad0db"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "cc5245a6ae9d071660c81a5f012e3a449066b7249618a2f8dd0170b1785ad0db",
+        "approvalHash": "cc5245a6ae9d071660c81a5f012e3a449066b7249618a2f8dd0170b1785ad0db"
+      }
+    },
+    {
+      "key": "使用人|しようにん",
+      "referenceIndex": 1,
+      "referenceHash": "0ba54899649f69a8dde306353cdbc76d6e87eac2dacddb25713684111359541d",
+      "revisionId": "043-candidate-shiyounin-9ff07208-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shiyounin"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shiyounin": "6d49b44322effd78e3f1e0b9a893962eb59bf0fd298c2da59badd64c1587883a"
+      },
+      "reason": "Reference 使用人/しようにん (master N1) is the same lexeme as the new entry 使用人【しようにん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 使用人/しようにん at N1 (gloss: employee; servant; domestique)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1306280; spelling=使用人; reading=しようにん; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1306280 as the reference form.",
+          "selected": {
+            "sequence": "1306280",
+            "spelling": "使用人",
+            "reading": "しようにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "employee",
+                  "servant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 使用人|しようにん#1 is the same lexeme as vocab-n1:correction:shiyounin; target hash bound to the assembled addition.",
+        "contentHash": "b8c137ba50f11a3b054f10af14a5e6453e47864cc3a53c2a6c418491ffa00113",
+        "approvalHash": "b8c137ba50f11a3b054f10af14a5e6453e47864cc3a53c2a6c418491ffa00113"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "b8c137ba50f11a3b054f10af14a5e6453e47864cc3a53c2a6c418491ffa00113",
+        "approvalHash": "b8c137ba50f11a3b054f10af14a5e6453e47864cc3a53c2a6c418491ffa00113"
+      }
+    },
+    {
+      "key": "上陸|じょうりく",
+      "referenceIndex": 0,
+      "referenceHash": "1c569178f26c43f34379990fa369cbaf4d568b48489cfac681fcd933cdca5540",
+      "revisionId": "043-candidate-jouriku-8b7e041e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:jouriku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:jouriku": "e5fe6d303cea4dd94330f9217ab845cd8533a4f6f68797736a0344d6b4c3b012"
+      },
+      "reason": "Reference 上陸/じょうりく (tanos N1) is the same lexeme as the new entry 上陸【じょうりく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=84",
+          "finding": "tanos lists 上陸/じょうりく at N1 (gloss: landing, disembarkation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1354480; spelling=上陸; reading=じょうりく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1354480 as the reference form.",
+          "selected": {
+            "sequence": "1354480",
+            "spelling": "上陸",
+            "reading": "じょうりく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "landing",
+                  "going ashore",
+                  "disembarkation"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "making landfall (of a typhoon)",
+                  "striking land",
+                  "hitting land"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 上陸|じょうりく#0 is the same lexeme as vocab-n1:correction:jouriku; target hash bound to the assembled addition.",
+        "contentHash": "a57c31615b79f2e4d2c31b8e70a1e6358e1f9f7b9ffb90013b69dc169c9bc7f5",
+        "approvalHash": "a57c31615b79f2e4d2c31b8e70a1e6358e1f9f7b9ffb90013b69dc169c9bc7f5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "a57c31615b79f2e4d2c31b8e70a1e6358e1f9f7b9ffb90013b69dc169c9bc7f5",
+        "approvalHash": "a57c31615b79f2e4d2c31b8e70a1e6358e1f9f7b9ffb90013b69dc169c9bc7f5"
+      }
+    },
+    {
+      "key": "上陸|じょうりく",
+      "referenceIndex": 1,
+      "referenceHash": "3a7cd3cc29b00f4b538b301374b32b01eb338c732692fb5878ed053d1d15fcb3",
+      "revisionId": "043-candidate-jouriku-8b7e041e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:jouriku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:jouriku": "e5fe6d303cea4dd94330f9217ab845cd8533a4f6f68797736a0344d6b4c3b012"
+      },
+      "reason": "Reference 上陸/じょうりく (master N1) is the same lexeme as the new entry 上陸【じょうりく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 上陸/じょうりく at N1 (gloss: landing; disembarkation; débarquement (bateau))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1354480; spelling=上陸; reading=じょうりく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1354480 as the reference form.",
+          "selected": {
+            "sequence": "1354480",
+            "spelling": "上陸",
+            "reading": "じょうりく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "landing",
+                  "going ashore",
+                  "disembarkation"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "making landfall (of a typhoon)",
+                  "striking land",
+                  "hitting land"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 上陸|じょうりく#1 is the same lexeme as vocab-n1:correction:jouriku; target hash bound to the assembled addition.",
+        "contentHash": "fb7fe1f8aba75f40ceab8b64ab551418c4b97c377f608a23509b05b198461e85",
+        "approvalHash": "fb7fe1f8aba75f40ceab8b64ab551418c4b97c377f608a23509b05b198461e85"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "fb7fe1f8aba75f40ceab8b64ab551418c4b97c377f608a23509b05b198461e85",
+        "approvalHash": "fb7fe1f8aba75f40ceab8b64ab551418c4b97c377f608a23509b05b198461e85"
+      }
+    },
+    {
+      "key": "奨励|しょうれい",
+      "referenceIndex": 0,
+      "referenceHash": "be44d4a298eaef74f702e48dec9f836f9cf90e61eade67c3c769259acef80512",
+      "revisionId": "043-candidate-shourei-a71d0178-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shourei"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shourei": "19cf08d579bd9e0be3f11b7766049b63705560c58fe4b975cc7e1d75c20c74e7"
+      },
+      "reason": "Reference 奨励/しょうれい (tanos N1) is the same lexeme as the new entry 奨励【しょうれい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=77",
+          "finding": "tanos lists 奨励/しょうれい at N1 (gloss: encouragement, promotion, message, address)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347550; spelling=奨励; reading=しょうれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1347550 as the reference form.",
+          "selected": {
+            "sequence": "1347550",
+            "spelling": "奨励",
+            "reading": "しょうれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "encouragement",
+                  "promotion",
+                  "inducement",
+                  "incitement",
+                  "stimulation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 奨励|しょうれい#0 is the same lexeme as vocab-n1:correction:shourei; target hash bound to the assembled addition.",
+        "contentHash": "1adfa5c08aa74d7c382a5cc41a9d34b0c8929cd9444c9dbecb03525fdba170ba",
+        "approvalHash": "1adfa5c08aa74d7c382a5cc41a9d34b0c8929cd9444c9dbecb03525fdba170ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "1adfa5c08aa74d7c382a5cc41a9d34b0c8929cd9444c9dbecb03525fdba170ba",
+        "approvalHash": "1adfa5c08aa74d7c382a5cc41a9d34b0c8929cd9444c9dbecb03525fdba170ba"
+      }
+    },
+    {
+      "key": "奨励|しょうれい",
+      "referenceIndex": 1,
+      "referenceHash": "d34461c67ffe86e811e42e87f6954a39904cbc053010508af0d8503f93a90325",
+      "revisionId": "043-candidate-shourei-a71d0178-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shourei"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shourei": "19cf08d579bd9e0be3f11b7766049b63705560c58fe4b975cc7e1d75c20c74e7"
+      },
+      "reason": "Reference 奨励/しょうれい (master N1) is the same lexeme as the new entry 奨励【しょうれい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 奨励/しょうれい at N1 (gloss: encouragement; promotion; message)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1347550; spelling=奨励; reading=しょうれい; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1347550 as the reference form.",
+          "selected": {
+            "sequence": "1347550",
+            "spelling": "奨励",
+            "reading": "しょうれい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "encouragement",
+                  "promotion",
+                  "inducement",
+                  "incitement",
+                  "stimulation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 奨励|しょうれい#1 is the same lexeme as vocab-n1:correction:shourei; target hash bound to the assembled addition.",
+        "contentHash": "381eec9ebd363409da225c746b76e0ce7e31ddca32e7c1feb4556936286f5f67",
+        "approvalHash": "381eec9ebd363409da225c746b76e0ce7e31ddca32e7c1feb4556936286f5f67"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "381eec9ebd363409da225c746b76e0ce7e31ddca32e7c1feb4556936286f5f67",
+        "approvalHash": "381eec9ebd363409da225c746b76e0ce7e31ddca32e7c1feb4556936286f5f67"
+      }
+    },
+    {
+      "key": "職務|しょくむ",
+      "referenceIndex": 0,
+      "referenceHash": "b399dcf439224d738b2b8785d96440bf639b7d26ef808043db725f2409fb464b",
+      "revisionId": "043-candidate-shokumu-5ccf5139-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shokumu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shokumu": "4e750b6c948c7c72ffa910d254ea86c52942ff9aeaf9fd55521409efcd8e6b7f"
+      },
+      "reason": "Reference 職務/しょくむ (tanos N1) is the same lexeme as the new entry 職務【しょくむ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=77",
+          "finding": "tanos lists 職務/しょくむ at N1 (gloss: professional duties)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1357580; spelling=職務; reading=しょくむ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1357580 as the reference form.",
+          "selected": {
+            "sequence": "1357580",
+            "spelling": "職務",
+            "reading": "しょくむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "professional duties"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 職務|しょくむ#0 is the same lexeme as vocab-n1:correction:shokumu; target hash bound to the assembled addition.",
+        "contentHash": "530150b2988d7617b20de911a9d0bc90fc634b7fdda53a6f884494670b095eae",
+        "approvalHash": "530150b2988d7617b20de911a9d0bc90fc634b7fdda53a6f884494670b095eae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "530150b2988d7617b20de911a9d0bc90fc634b7fdda53a6f884494670b095eae",
+        "approvalHash": "530150b2988d7617b20de911a9d0bc90fc634b7fdda53a6f884494670b095eae"
+      }
+    },
+    {
+      "key": "職務|しょくむ",
+      "referenceIndex": 1,
+      "referenceHash": "61c28cac2c67bcae9f42799803298e3dda84396d63c2c345b9a83802c42198bc",
+      "revisionId": "043-candidate-shokumu-5ccf5139-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shokumu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shokumu": "4e750b6c948c7c72ffa910d254ea86c52942ff9aeaf9fd55521409efcd8e6b7f"
+      },
+      "reason": "Reference 職務/しょくむ (master N1) is the same lexeme as the new entry 職務【しょくむ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 職務/しょくむ at N1 (gloss: professional duties; charge; devoir)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1357580; spelling=職務; reading=しょくむ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1357580 as the reference form.",
+          "selected": {
+            "sequence": "1357580",
+            "spelling": "職務",
+            "reading": "しょくむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "professional duties"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 職務|しょくむ#1 is the same lexeme as vocab-n1:correction:shokumu; target hash bound to the assembled addition.",
+        "contentHash": "133e39badbee44430b32f141adee765bdebd4e44b8f0cde9d636028ba485a611",
+        "approvalHash": "133e39badbee44430b32f141adee765bdebd4e44b8f0cde9d636028ba485a611"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "133e39badbee44430b32f141adee765bdebd4e44b8f0cde9d636028ba485a611",
+        "approvalHash": "133e39badbee44430b32f141adee765bdebd4e44b8f0cde9d636028ba485a611"
+      }
+    },
+    {
+      "key": "所持|しょじ",
+      "referenceIndex": 0,
+      "referenceHash": "ece8f2a769290ff482e1d9bff9803dd1418ab81e62863944436b4096c95bbcec",
+      "revisionId": "043-candidate-shoji-40acceca-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shoji"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shoji": "d008a2fa2fe08ccfb71f7b4a59716738a01bc9b984fe860df4f1f8cc086938f8"
+      },
+      "reason": "Reference 所持/しょじ (tanos N1) is the same lexeme as the new entry 所持【しょじ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=77",
+          "finding": "tanos lists 所持/しょじ at N1 (gloss: possession, owning)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1343250; spelling=所持; reading=しょじ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1343250 as the reference form.",
+          "selected": {
+            "sequence": "1343250",
+            "spelling": "所持",
+            "reading": "しょじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "possession",
+                  "having (on one's person)",
+                  "carrying (with one)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 所持|しょじ#0 is the same lexeme as vocab-n1:correction:shoji; target hash bound to the assembled addition.",
+        "contentHash": "756e0c530e65bc5d22e85ff6003abdd237360735874924a456d55310acbafa15",
+        "approvalHash": "756e0c530e65bc5d22e85ff6003abdd237360735874924a456d55310acbafa15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "756e0c530e65bc5d22e85ff6003abdd237360735874924a456d55310acbafa15",
+        "approvalHash": "756e0c530e65bc5d22e85ff6003abdd237360735874924a456d55310acbafa15"
+      }
+    },
+    {
+      "key": "所持|しょじ",
+      "referenceIndex": 1,
+      "referenceHash": "c45831b5ddbb5320e23322342cff5f896c24f21d162c34cd5655e743069537b3",
+      "revisionId": "043-candidate-shoji-40acceca-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shoji"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shoji": "d008a2fa2fe08ccfb71f7b4a59716738a01bc9b984fe860df4f1f8cc086938f8"
+      },
+      "reason": "Reference 所持/しょじ (master N1) is the same lexeme as the new entry 所持【しょじ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 所持/しょじ at N1 (gloss: possession; owning; (n) Besitz)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1343250; spelling=所持; reading=しょじ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1343250 as the reference form.",
+          "selected": {
+            "sequence": "1343250",
+            "spelling": "所持",
+            "reading": "しょじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "possession",
+                  "having (on one's person)",
+                  "carrying (with one)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 所持|しょじ#1 is the same lexeme as vocab-n1:correction:shoji; target hash bound to the assembled addition.",
+        "contentHash": "721e9cd1000aa4eabee166afabd7ec6b579435efd94a081846cba77a42bd9d9b",
+        "approvalHash": "721e9cd1000aa4eabee166afabd7ec6b579435efd94a081846cba77a42bd9d9b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "721e9cd1000aa4eabee166afabd7ec6b579435efd94a081846cba77a42bd9d9b",
+        "approvalHash": "721e9cd1000aa4eabee166afabd7ec6b579435efd94a081846cba77a42bd9d9b"
+      }
+    },
+    {
+      "key": "女史|じょし",
+      "referenceIndex": 0,
+      "referenceHash": "84c69c76a66ed9dca8af7d5d5851cc01b239f091b273180a7f9e93f786f75771",
+      "revisionId": "043-candidate-joshi-madam-31547a2b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:joshi-madam"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:joshi-madam": "5655a89ccad04f6421766eb2e63d3b8ba0eab878795bb935368712193bc930e5"
+      },
+      "reason": "Reference 女史/じょし (tanos N1) is the same lexeme as the new entry 女史【じょし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=84",
+          "finding": "tanos lists 女史/じょし at N1 (gloss: Ms.)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345130; spelling=女史; reading=じょし; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1345130 as the reference form.",
+          "selected": {
+            "sequence": "1345130",
+            "spelling": "女史",
+            "reading": "じょし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lady (of high social status; e.g. scholar, artist, critic, politician)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "Ms",
+                  "Mrs",
+                  "Miss"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 女史|じょし#0 is the same lexeme as vocab-n1:correction:joshi-madam; target hash bound to the assembled addition.",
+        "contentHash": "89abce2dc1a4e30e723c0a3ed5b3bf1b9b93a10d122105d04354131a08f2fa43",
+        "approvalHash": "89abce2dc1a4e30e723c0a3ed5b3bf1b9b93a10d122105d04354131a08f2fa43"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "89abce2dc1a4e30e723c0a3ed5b3bf1b9b93a10d122105d04354131a08f2fa43",
+        "approvalHash": "89abce2dc1a4e30e723c0a3ed5b3bf1b9b93a10d122105d04354131a08f2fa43"
+      }
+    },
+    {
+      "key": "女史|じょし",
+      "referenceIndex": 1,
+      "referenceHash": "7feab5ec4c83f8e1a934668c5835671f488c1f0adb30d4b36627c5f78a80c4da",
+      "revisionId": "043-candidate-joshi-madam-31547a2b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:joshi-madam"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:joshi-madam": "5655a89ccad04f6421766eb2e63d3b8ba0eab878795bb935368712193bc930e5"
+      },
+      "reason": "Reference 女史/じょし (master N1) is the same lexeme as the new entry 女史【じょし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 女史/じょし at N1 (gloss: Ms (nuance of status); Miss; Madame)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345130; spelling=女史; reading=じょし; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1345130 as the reference form.",
+          "selected": {
+            "sequence": "1345130",
+            "spelling": "女史",
+            "reading": "じょし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lady (of high social status; e.g. scholar, artist, critic, politician)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "Ms",
+                  "Mrs",
+                  "Miss"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 女史|じょし#1 is the same lexeme as vocab-n1:correction:joshi-madam; target hash bound to the assembled addition.",
+        "contentHash": "60c5726f3f41504695f0efc02ed096d24886e42d315662ffe2cd40c499fbd4b5",
+        "approvalHash": "60c5726f3f41504695f0efc02ed096d24886e42d315662ffe2cd40c499fbd4b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "60c5726f3f41504695f0efc02ed096d24886e42d315662ffe2cd40c499fbd4b5",
+        "approvalHash": "60c5726f3f41504695f0efc02ed096d24886e42d315662ffe2cd40c499fbd4b5"
+      }
+    },
+    {
+      "key": "しょっく|しょっく",
+      "referenceIndex": 0,
+      "referenceHash": "5dacd644cf29680c9720953e91af8f512b792b6b6879d0297463472683a1bbe6",
+      "revisionId": "043-candidate-shokku-ada5b133-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shokku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shokku": "3d2f929c228d3c5efaa21ea07b14de4f7e0b137b7a2fc0496449bde5a98eeea8"
+      },
+      "reason": "Reference ショック/ショック (tanos N1) is the same lexeme as the new entry ショック【ショック】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=177",
+          "finding": "tanos lists ショック/ショック at N1 (gloss: shock)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1062660; spelling=ショック; reading=ショック; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1062660 as the reference form.",
+          "selected": {
+            "sequence": "1062660",
+            "spelling": "ショック",
+            "reading": "ショック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (emotional)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (physical)",
+                  "impact",
+                  "jolt"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference しょっく|しょっく#0 is the same lexeme as vocab-n1:correction:shokku; target hash bound to the assembled addition.",
+        "contentHash": "2d30e0f2f811b678194153f68283e3c19129ad2b61286ffe7a69bab155d95932",
+        "approvalHash": "2d30e0f2f811b678194153f68283e3c19129ad2b61286ffe7a69bab155d95932"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "2d30e0f2f811b678194153f68283e3c19129ad2b61286ffe7a69bab155d95932",
+        "approvalHash": "2d30e0f2f811b678194153f68283e3c19129ad2b61286ffe7a69bab155d95932"
+      }
+    },
+    {
+      "key": "しょっく|しょっく",
+      "referenceIndex": 1,
+      "referenceHash": "6b72e6e88d979ebbd63ad549eee082c2f9157207298412826d6ccf66b59f9fec",
+      "revisionId": "043-candidate-shokku-ada5b133-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shokku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shokku": "3d2f929c228d3c5efaa21ea07b14de4f7e0b137b7a2fc0496449bde5a98eeea8"
+      },
+      "reason": "Reference ショック/ショック (master N1) is the same lexeme as the new entry ショック【ショック】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists ショック/ショック at N1 (gloss: shock; choc; шок)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1062660; spelling=ショック; reading=ショック; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1062660 as the reference form.",
+          "selected": {
+            "sequence": "1062660",
+            "spelling": "ショック",
+            "reading": "ショック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (emotional)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shock (physical)",
+                  "impact",
+                  "jolt"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference しょっく|しょっく#1 is the same lexeme as vocab-n1:correction:shokku; target hash bound to the assembled addition.",
+        "contentHash": "444e5039f4a5b8a701035d527866c023dc6f5f9b3879139a144d94809dd85b28",
+        "approvalHash": "444e5039f4a5b8a701035d527866c023dc6f5f9b3879139a144d94809dd85b28"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "444e5039f4a5b8a701035d527866c023dc6f5f9b3879139a144d94809dd85b28",
+        "approvalHash": "444e5039f4a5b8a701035d527866c023dc6f5f9b3879139a144d94809dd85b28"
+      }
+    },
+    {
+      "key": "しょっちゅう|しょっちゅう",
+      "referenceIndex": 0,
+      "referenceHash": "9d71437049c15c3b88f63bcfac2b60420ee55469ee1b485e10640694054d7839",
+      "revisionId": "043-candidate-shotchuu-9fdd9c3e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shotchuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shotchuu": "bf36fe6219de1417c2be9bc117b92d421e3e69b0e0c49f9b10d7cfa9951fa8de"
+      },
+      "reason": "Reference しょっちゅう/しょっちゅう (tanos N1) is the same lexeme as the new entry しょっちゅう【しょっちゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=77",
+          "finding": "tanos lists しょっちゅう/しょっちゅう at N1 (gloss: always, constantly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1005710; spelling=しょっちゅう; reading=しょっちゅう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1005710 as the reference form.",
+          "selected": {
+            "sequence": "1005710",
+            "spelling": "しょっちゅう",
+            "reading": "しょっちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "always",
+                  "all the time",
+                  "constantly",
+                  "frequently",
+                  "often"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference しょっちゅう|しょっちゅう#0 is the same lexeme as vocab-n1:correction:shotchuu; target hash bound to the assembled addition.",
+        "contentHash": "481afb08a28cc1919392d9cca2b7cd6a013adacc138e224b6702ce233b1b9724",
+        "approvalHash": "481afb08a28cc1919392d9cca2b7cd6a013adacc138e224b6702ce233b1b9724"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "481afb08a28cc1919392d9cca2b7cd6a013adacc138e224b6702ce233b1b9724",
+        "approvalHash": "481afb08a28cc1919392d9cca2b7cd6a013adacc138e224b6702ce233b1b9724"
+      }
+    },
+    {
+      "key": "しょっちゅう|しょっちゅう",
+      "referenceIndex": 1,
+      "referenceHash": "7b4210db4c8f09fb59ff98fbc3749a27551c09612c65e2d4b4cb23ce4aa96bbe",
+      "revisionId": "043-candidate-shotchuu-9fdd9c3e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shotchuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shotchuu": "bf36fe6219de1417c2be9bc117b92d421e3e69b0e0c49f9b10d7cfa9951fa8de"
+      },
+      "reason": "Reference しょっちゅう/しょっちゅう (master N1) is the same lexeme as the new entry しょっちゅう【しょっちゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists しょっちゅう/しょっちゅう at N1 (gloss: always; constantly; frequently)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1005710; spelling=しょっちゅう; reading=しょっちゅう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1005710 as the reference form.",
+          "selected": {
+            "sequence": "1005710",
+            "spelling": "しょっちゅう",
+            "reading": "しょっちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "always",
+                  "all the time",
+                  "constantly",
+                  "frequently",
+                  "often"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference しょっちゅう|しょっちゅう#1 is the same lexeme as vocab-n1:correction:shotchuu; target hash bound to the assembled addition.",
+        "contentHash": "3d4271ad29305dc4ccd340c840e340d3b8d1ef4292890573cacc758874d707b1",
+        "approvalHash": "3d4271ad29305dc4ccd340c840e340d3b8d1ef4292890573cacc758874d707b1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "3d4271ad29305dc4ccd340c840e340d3b8d1ef4292890573cacc758874d707b1",
+        "approvalHash": "3d4271ad29305dc4ccd340c840e340d3b8d1ef4292890573cacc758874d707b1"
+      }
+    },
+    {
+      "key": "処罰|しょばつ",
+      "referenceIndex": 0,
+      "referenceHash": "47f570312276d3b09a9ae50d5ed77d82ee0df4ac171b2884471c15ed5c25d595",
+      "revisionId": "043-candidate-shobatsu-fe7b8dd6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shobatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shobatsu": "4e6d713f64d9897b09f4cb40acf9ba05e4a715a99b8404bf1d010265f97298c9"
+      },
+      "reason": "Reference 処罰/しょばつ (tanos N1) is the same lexeme as the new entry 処罰【しょばつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=77",
+          "finding": "tanos lists 処罰/しょばつ at N1 (gloss: punishment)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342480; spelling=処罰; reading=しょばつ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1342480 as the reference form.",
+          "selected": {
+            "sequence": "1342480",
+            "spelling": "処罰",
+            "reading": "しょばつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "punishment",
+                  "penalty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 処罰|しょばつ#0 is the same lexeme as vocab-n1:correction:shobatsu; target hash bound to the assembled addition.",
+        "contentHash": "c6d8b43a2cad734686b799a4ce2b4a562115677a194467587a75d471c82a6dc0",
+        "approvalHash": "c6d8b43a2cad734686b799a4ce2b4a562115677a194467587a75d471c82a6dc0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "c6d8b43a2cad734686b799a4ce2b4a562115677a194467587a75d471c82a6dc0",
+        "approvalHash": "c6d8b43a2cad734686b799a4ce2b4a562115677a194467587a75d471c82a6dc0"
+      }
+    },
+    {
+      "key": "処罰|しょばつ",
+      "referenceIndex": 1,
+      "referenceHash": "3153bf510901a15b86c7541acd2e9953fbf00307cbe23da2b5836472f7168457",
+      "revisionId": "043-candidate-shobatsu-fe7b8dd6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shobatsu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shobatsu": "4e6d713f64d9897b09f4cb40acf9ba05e4a715a99b8404bf1d010265f97298c9"
+      },
+      "reason": "Reference 処罰/しょばつ (master N1) is the same lexeme as the new entry 処罰【しょばつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 処罰/しょばつ at N1 (gloss: punishment; punition; (n) Bestrafung)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1342480; spelling=処罰; reading=しょばつ; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1342480 as the reference form.",
+          "selected": {
+            "sequence": "1342480",
+            "spelling": "処罰",
+            "reading": "しょばつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "punishment",
+                  "penalty"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 処罰|しょばつ#1 is the same lexeme as vocab-n1:correction:shobatsu; target hash bound to the assembled addition.",
+        "contentHash": "4e7fc8d32692fbde5aaa51aa22ee2bc01d2c5a1621812ca3f92e2b30a6662518",
+        "approvalHash": "4e7fc8d32692fbde5aaa51aa22ee2bc01d2c5a1621812ca3f92e2b30a6662518"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "4e7fc8d32692fbde5aaa51aa22ee2bc01d2c5a1621812ca3f92e2b30a6662518",
+        "approvalHash": "4e7fc8d32692fbde5aaa51aa22ee2bc01d2c5a1621812ca3f92e2b30a6662518"
+      }
+    },
+    {
+      "key": "所有|しょゆう",
+      "referenceIndex": 0,
+      "referenceHash": "96587f0aa067c6ca1176e7cd5723bb8c3936639f40b70644356c69a14897987a",
+      "revisionId": "043-candidate-shoyuu-a3f88734-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shoyuu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shoyuu": "b215d2ba42902839a12836f1cbc80f8253e870a78336fac75b2d94f104442c1e"
+      },
+      "reason": "Reference 所有/しょゆう (master N1) is the same lexeme as the new entry 所有【しょゆう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 所有/しょゆう at N1 (gloss: one's possessions; ownership; possession)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1343390; spelling=所有; reading=しょゆう; senses=1; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1343390 as the reference form.",
+          "selected": {
+            "sequence": "1343390",
+            "spelling": "所有",
+            "reading": "しょゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "possession",
+                  "ownership"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 所有|しょゆう#0 is the same lexeme as vocab-n1:correction:shoyuu; target hash bound to the assembled addition.",
+        "contentHash": "8a0d4e34de7ac6796957c1999d41a62ede7a02d9264ee02293339906113b05cc",
+        "approvalHash": "8a0d4e34de7ac6796957c1999d41a62ede7a02d9264ee02293339906113b05cc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "8a0d4e34de7ac6796957c1999d41a62ede7a02d9264ee02293339906113b05cc",
+        "approvalHash": "8a0d4e34de7ac6796957c1999d41a62ede7a02d9264ee02293339906113b05cc"
+      }
+    },
+    {
+      "key": "調べ|しらべ",
+      "referenceIndex": 0,
+      "referenceHash": "396fabf83659fa3bc73a4113eacef3630ddfce7414ad2b998446eac4a649931a",
+      "revisionId": "043-candidate-shirabe-5bb6ce68-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirabe"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirabe": "498d9945212d88260e01ce3496cfbb0a623b2ecc8d394829609b98a21a1e47f2"
+      },
+      "reason": "Reference 調べ/しらべ (tanos N1) is the same lexeme as the new entry 調べ【しらべ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=78",
+          "finding": "tanos lists 調べ/しらべ at N1 (gloss: preparation, investigation, inspection)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1429050; spelling=調べ; reading=しらべ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1429050 as the reference form.",
+          "selected": {
+            "sequence": "1429050",
+            "spelling": "調べ",
+            "reading": "しらべ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "investigation",
+                  "inspection",
+                  "examination"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tune",
+                  "note",
+                  "melody"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 調べ|しらべ#0 is the same lexeme as vocab-n1:correction:shirabe; target hash bound to the assembled addition.",
+        "contentHash": "88361b7a3f8bc00e60c931e167827fd3a3d079db667d096067481f4644906d05",
+        "approvalHash": "88361b7a3f8bc00e60c931e167827fd3a3d079db667d096067481f4644906d05"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "88361b7a3f8bc00e60c931e167827fd3a3d079db667d096067481f4644906d05",
+        "approvalHash": "88361b7a3f8bc00e60c931e167827fd3a3d079db667d096067481f4644906d05"
+      }
+    },
+    {
+      "key": "調べ|しらべ",
+      "referenceIndex": 1,
+      "referenceHash": "193ae50bbc56b28154a63554ea2644f9c0ba34cac5e7a4816092c79279bf4349",
+      "revisionId": "043-candidate-shirabe-5bb6ce68-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:shirabe"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:shirabe": "498d9945212d88260e01ce3496cfbb0a623b2ecc8d394829609b98a21a1e47f2"
+      },
+      "reason": "Reference 調べ/しらべ (master N1) is the same lexeme as the new entry 調べ【しらべ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 調べ/しらべ at N1 (gloss: investigation; inspection; examination)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1429050; spelling=調べ; reading=しらべ; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1429050 as the reference form.",
+          "selected": {
+            "sequence": "1429050",
+            "spelling": "調べ",
+            "reading": "しらべ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "investigation",
+                  "inspection",
+                  "examination"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tune",
+                  "note",
+                  "melody"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-editor",
+        "finding": "Editorial first pass: reference 調べ|しらべ#1 is the same lexeme as vocab-n1:correction:shirabe; target hash bound to the assembled addition.",
+        "contentHash": "9db7e2578b1abef9f9989a2d43f8d6c7c8c1ac19decfae8a892be92dde918fa3",
+        "approvalHash": "9db7e2578b1abef9f9989a2d43f8d6c7c8c1ac19decfae8a892be92dde918fa3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-043-independent-reviewer",
+        "finding": "Second pass: assembly byte-identical to round 1 (same assemblyHash); first-approved finalContent, additions and decisions identical to the reviewed assembly. Decision re-accepted: publisher row is the same lexeme as its target.",
+        "contentHash": "9db7e2578b1abef9f9989a2d43f8d6c7c8c1ac19decfae8a892be92dde918fa3",
+        "approvalHash": "9db7e2578b1abef9f9989a2d43f8d6c7c8c1ac19decfae8a892be92dde918fa3"
+      }
+    }
+  ]
+}
