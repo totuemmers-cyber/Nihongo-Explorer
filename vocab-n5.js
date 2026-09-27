@@ -37331,5 +37331,47 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:rekoodo"
+  },
+  {
+    "word": "オレンジ",
+    "reading": "オレンジ",
+    "romaji": "orenji",
+    "meaning": "Orange (Frucht); Orange (Farbe)",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N5",
+    "notes": "Frucht und Farbe; als Farbe auch オレンジ色. Mandarinen heißen みかん.",
+    "examples": [
+      {
+        "japanese": "朝ご飯にオレンジを一つ食べた。",
+        "romaji": "Asagohan ni orenji o hitotsu tabeta.",
+        "german": "Zum Frühstück habe ich eine Orange gegessen."
+      },
+      {
+        "japanese": "オレンジのセーターを着ている人が私の姉です。",
+        "romaji": "Orenji no seetaa o kite iru hito ga watashi no ane desu.",
+        "german": "Die Person im orangefarbenen Pullover ist meine ältere Schwester."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84972673",
+        "patterns": [
+          2
+        ],
+        "finding": "オレンジ / オレンジ; 名詞/普通名詞/一般/*; *; *; lemma オレンジ-orange; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オレンジ",
+          "reading": "オレンジ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "オレンジ as \"Orange (Frucht); Orange (Farbe)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:orenji"
   }
 ];

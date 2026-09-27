@@ -78487,5 +78487,548 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:haa"
+  },
+  {
+    "word": "オートマチック",
+    "reading": "オートマチック",
+    "romaji": "ootomachikku",
+    "meaning": "automatisch; Automatik (Getriebe)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Kurzform: オートマ (Automatikgetriebe). Gegenteil: マニュアル.",
+    "examples": [
+      {
+        "japanese": "私の免許はオートマチック車限定です。",
+        "romaji": "Watashi no menkyo wa ootomachikku sha gentei desu.",
+        "german": "Mein Führerschein gilt nur für Automatikfahrzeuge."
+      },
+      {
+        "japanese": "このカメラはオートマチックでピントを合わせてくれる。",
+        "romaji": "Kono kamera wa ootomachikku de pinto o awasete kureru.",
+        "german": "Diese Kamera stellt automatisch scharf."
+      }
+    ],
+    "pitch": 5,
+    "pitchVariants": [
+      4
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85393779",
+        "patterns": [
+          5,
+          4
+        ],
+        "finding": "オートマチック / オートマチック; 名詞/普通名詞/形状詞可能/*; *; *; lemma オートマチック-automatic; aType 5,4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オートマチック",
+          "reading": "オートマチック",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "オートマチック as \"automatisch; Automatik (Getriebe)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:ootomachikku"
+  },
+  {
+    "word": "オープン",
+    "reading": "オープン",
+    "romaji": "oopun",
+    "meaning": "Eröffnung; offen",
+    "type": "Nomen",
+    "category": "Handel",
+    "level": "N3",
+    "notes": "Als Verb オープンする (eröffnen): 新しい店がオープンした. Als な-Adjektiv „offen, aufgeschlossen“: オープンな性格.",
+    "examples": [
+      {
+        "japanese": "駅前に新しいカフェがオープンした。",
+        "romaji": "Ekimae ni atarashii kafe ga oopun shita.",
+        "german": "Am Bahnhof hat ein neues Café eröffnet."
+      },
+      {
+        "japanese": "彼女はオープンな性格で、誰とでも話せる。",
+        "romaji": "Kanojo wa oopun na seikaku de, dare to demo hanaseru.",
+        "german": "Sie ist ein offener Mensch und kann mit jedem reden."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85439139",
+        "patterns": [
+          1
+        ],
+        "finding": "オープン / オープン; 名詞/普通名詞/サ変形状詞可能/*; *; *; lemma オープン-open; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オープン",
+          "reading": "オープン",
+          "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+          "sense": "オープン as \"Eröffnung; offen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:oopun"
+  },
+  {
+    "word": "おむつ",
+    "reading": "おむつ",
+    "romaji": "omutsu",
+    "meaning": "Windel",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N3",
+    "notes": "Meist in Hiragana (Kanji 襁褓 sehr selten). Wegwerfwindel: 紙おむつ. おむつを替える (die Windel wechseln).",
+    "examples": [
+      {
+        "japanese": "赤ちゃんのおむつを替えた。",
+        "romaji": "Akachan no omutsu o kaeta.",
+        "german": "Ich habe dem Baby die Windel gewechselt."
+      },
+      {
+        "japanese": "旅行のために、おむつを多めに買っておいた。",
+        "romaji": "Ryokou no tame ni, omutsu o oome ni katte oita.",
+        "german": "Für die Reise habe ich vorsorglich mehr Windeln gekauft."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81665394",
+        "patterns": [
+          2
+        ],
+        "finding": "おむつ / オムツ; 名詞/普通名詞/一般/*; *; *; lemma 御襁褓; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "おむつ",
+          "reading": "おむつ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "おむつ as \"Windel\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:omutsu"
+  },
+  {
+    "word": "オリエンテーション",
+    "reading": "オリエンテーション",
+    "romaji": "orienteeshon",
+    "meaning": "Einführungsveranstaltung, Orientierung",
+    "type": "Nomen",
+    "category": "Bildung",
+    "level": "N3",
+    "notes": "Z. B. für neue Studierende oder Mitarbeiter: 新入生オリエンテーション.",
+    "examples": [
+      {
+        "japanese": "入学式のあと、オリエンテーションがあります。",
+        "romaji": "Nyuugakushiki no ato, orienteeshon ga arimasu.",
+        "german": "Nach der Aufnahmefeier gibt es eine Einführungsveranstaltung."
+      },
+      {
+        "japanese": "オリエンテーションで授業の選び方を教わった。",
+        "romaji": "Orienteeshon de jugyou no erabikata o osowatta.",
+        "german": "In der Einführung haben wir gelernt, wie man die Kurse auswählt."
+      }
+    ],
+    "pitch": 5,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84147558",
+        "patterns": [
+          5
+        ],
+        "finding": "オリエンテーション / オリエンテーション; 名詞/普通名詞/一般/*; *; *; lemma オリエンテーション-orientation; aType 5. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オリエンテーション",
+          "reading": "オリエンテーション",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "オリエンテーション as \"Einführungsveranstaltung, Orientierung\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:orienteeshon"
+  },
+  {
+    "word": "おんぶ",
+    "reading": "おんぶ",
+    "romaji": "onbu",
+    "meaning": "huckepack tragen; sich auf andere verlassen",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N3",
+    "notes": "Als Verb おんぶする (ein Kind auf dem Rücken tragen). Übertragen: 親におんぶする (auf Kosten der Eltern leben). Auf dem Arm tragen heißt だっこ.",
+    "examples": [
+      {
+        "japanese": "父は疲れた娘をおんぶして家まで歩いた。",
+        "romaji": "Chichi wa tsukareta musume o onbu shite ie made aruita.",
+        "german": "Der Vater trug seine müde Tochter huckepack nach Hause."
+      },
+      {
+        "japanese": "いつまでも親におんぶしているわけにはいかない。",
+        "romaji": "Itsu made mo oya ni onbu shite iru wake ni wa ikanai.",
+        "german": "Ich kann nicht ewig auf Kosten meiner Eltern leben."
+      }
+    ],
+    "aliases": [
+      "負んぶ"
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85267033",
+        "patterns": [
+          1
+        ],
+        "finding": "おんぶ / オンブ; 名詞/普通名詞/サ変可能/*; *; *; lemma 負んぶ; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "おんぶ",
+          "reading": "おんぶ",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "おんぶ as \"huckepack tragen; sich auf andere verlassen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:onbu"
+  },
+  {
+    "word": "ガイドブック",
+    "reading": "ガイドブック",
+    "romaji": "gaidobukku",
+    "meaning": "Reiseführer (Buch)",
+    "type": "Nomen",
+    "category": "Reisen",
+    "level": "N3",
+    "notes": "Der Reiseführer als Buch; die Person heißt ガイド.",
+    "examples": [
+      {
+        "japanese": "ガイドブックを見ながら、京都の寺を回った。",
+        "romaji": "Gaidobukku o minagara, Kyouto no tera o mawatta.",
+        "german": "Mit dem Reiseführer in der Hand habe ich die Tempel in Kyoto besucht."
+      },
+      {
+        "japanese": "ガイドブックに載っていない店を探した。",
+        "romaji": "Gaidobukku ni notte inai mise o sagashita.",
+        "german": "Ich habe nach Läden gesucht, die nicht im Reiseführer stehen."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101162038",
+        "patterns": [
+          4
+        ],
+        "finding": "ガイドブック / ガイドブック; 名詞/普通名詞/一般/*; *; *; lemma ガイドブック-guidebook; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ガイドブック",
+          "reading": "ガイドブック",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ガイドブック as \"Reiseführer (Buch)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:gaidobukku"
+  },
+  {
+    "word": "カクテル",
+    "reading": "カクテル",
+    "romaji": "kakuteru",
+    "meaning": "Cocktail",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N3",
+    "notes": "Gemischtes alkoholisches Getränk: カクテルを作る (einen Cocktail mixen).",
+    "examples": [
+      {
+        "japanese": "バーでカクテルを注文した。",
+        "romaji": "Baa de kakuteru o chuumon shita.",
+        "german": "Ich habe an der Bar einen Cocktail bestellt."
+      },
+      {
+        "japanese": "彼女はお酒に弱いので、甘いカクテルを一杯だけ飲んだ。",
+        "romaji": "Kanojo wa osake ni yowai node, amai kakuteru o ippai dake nonda.",
+        "german": "Weil sie wenig Alkohol verträgt, trank sie nur einen süßen Cocktail."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90682743",
+        "patterns": [
+          1
+        ],
+        "finding": "カクテル / カクテル; 名詞/普通名詞/一般/*; *; *; lemma カクテル-cocktail; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カクテル",
+          "reading": "カクテル",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カクテル as \"Cocktail\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kakuteru"
+  },
+  {
+    "word": "駆けっこ",
+    "reading": "かけっこ",
+    "romaji": "kakekko",
+    "meaning": "Wettlauf (unter Kindern)",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N3",
+    "notes": "Kinderwort; beim Sportfest der Schule: 運動会の駆けっこ.",
+    "examples": [
+      {
+        "japanese": "公園で子どもたちが駆けっこをしている。",
+        "romaji": "Kouen de kodomotachi ga kakekko o shite iru.",
+        "german": "Im Park laufen die Kinder um die Wette."
+      },
+      {
+        "japanese": "運動会の駆けっこで一等になった。",
+        "romaji": "Undoukai no kakekko de ittou ni natta.",
+        "german": "Beim Wettlauf am Sportfest wurde ich Erster."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:kakekko"
+  },
+  {
+    "word": "片付け",
+    "reading": "かたづけ",
+    "romaji": "katazuke",
+    "meaning": "Aufräumen",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N3",
+    "notes": "Nomen zu 片付ける; 後片付け (Aufräumen danach, z. B. nach dem Essen).",
+    "examples": [
+      {
+        "japanese": "年末は部屋の片付けで忙しい。",
+        "romaji": "Nenmatsu wa heya no katazuke de isogashii.",
+        "german": "Zum Jahresende bin ich mit dem Aufräumen meines Zimmers beschäftigt."
+      },
+      {
+        "japanese": "パーティーの片付けをみんなで手伝った。",
+        "romaji": "Paatii no katazuke o minna de tetsudatta.",
+        "german": "Alle haben beim Aufräumen nach der Party geholfen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94377668",
+        "patterns": [
+          0
+        ],
+        "finding": "片付け / カタヅケ; 名詞/普通名詞/一般/*; *; *; lemma 片付け; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "片付け",
+          "reading": "かたづけ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "片付け as \"Aufräumen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:katazuke"
+  },
+  {
+    "word": "カット",
+    "reading": "カット",
+    "romaji": "katto",
+    "meaning": "Schnitt; Kürzung; Haarschnitt",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Als Verb カットする: 髪をカットする, 予算をカットする (kürzen), シーンをカットする (herausschneiden).",
+    "examples": [
+      {
+        "japanese": "美容院で髪をカットしてもらった。",
+        "romaji": "Biyouin de kami o katto shite moratta.",
+        "german": "Ich habe mir beim Friseur die Haare schneiden lassen."
+      },
+      {
+        "japanese": "予算の関係で、そのシーンはカットされた。",
+        "romaji": "Yosan no kankei de, sono shiin wa katto sareta.",
+        "german": "Aus Budgetgründen wurde diese Szene herausgeschnitten."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95436613",
+        "patterns": [
+          1
+        ],
+        "finding": "カット / カット; 名詞/普通名詞/サ変可能/*; *; *; lemma カット-cut; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カット",
+          "reading": "カット",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "カット as \"Schnitt; Kürzung; Haarschnitt\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:katto"
+  },
+  {
+    "word": "カーペット",
+    "reading": "カーペット",
+    "romaji": "kaapetto",
+    "meaning": "Teppich",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N3",
+    "notes": "Auch じゅうたん. カーペットを敷く (einen Teppich auslegen).",
+    "examples": [
+      {
+        "japanese": "リビングに新しいカーペットを敷いた。",
+        "romaji": "Ribingu ni atarashii kaapetto o shiita.",
+        "german": "Im Wohnzimmer habe ich einen neuen Teppich ausgelegt."
+      },
+      {
+        "japanese": "カーペットにコーヒーをこぼしてしまった。",
+        "romaji": "Kaapetto ni koohii o koboshite shimatta.",
+        "german": "Ich habe Kaffee auf den Teppich verschüttet."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101043593",
+        "patterns": [
+          1,
+          3
+        ],
+        "finding": "カーペット / カーペット; 名詞/普通名詞/一般/*; *; *; lemma カーペット-carpet; aType 1,3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カーペット",
+          "reading": "カーペット",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カーペット as \"Teppich\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kaapetto"
+  },
+  {
+    "word": "カメラマン",
+    "reading": "カメラマン",
+    "romaji": "kameraman",
+    "meaning": "Fotograf; Kameramann",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N3",
+    "notes": "Beruf: Fotograf (Presse, Hochzeiten) oder Kameramann bei Film und Fernsehen.",
+    "examples": [
+      {
+        "japanese": "結婚式にプロのカメラマンを呼んだ。",
+        "romaji": "Kekkonshiki ni puro no kameraman o yonda.",
+        "german": "Für die Hochzeit haben wir einen Berufsfotografen bestellt."
+      },
+      {
+        "japanese": "テレビ局のカメラマンが事故現場を撮影していた。",
+        "romaji": "Terebikyoku no kameraman ga jiko genba o satsuei shite ita.",
+        "german": "Ein Kameramann des Fernsehsenders filmte den Unfallort."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97694139",
+        "patterns": [
+          3
+        ],
+        "finding": "カメラマン / カメラマン; 名詞/普通名詞/一般/*; *; *; lemma カメラマン-cameraman; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カメラマン",
+          "reading": "カメラマン",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カメラマン as \"Fotograf; Kameramann\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kameraman"
+  },
+  {
+    "word": "ガレージ",
+    "reading": "ガレージ",
+    "romaji": "gareeji",
+    "meaning": "Garage",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N3",
+    "notes": "Am oder im Haus; ein Parkplatz heißt 駐車場.",
+    "examples": [
+      {
+        "japanese": "車をガレージに入れた。",
+        "romaji": "Kuruma o gareeji ni ireta.",
+        "german": "Ich habe das Auto in die Garage gestellt."
+      },
+      {
+        "japanese": "ガレージを片付けて、自転車を置く場所を作った。",
+        "romaji": "Gareeji o katazukete, jitensha o oku basho o tsukutta.",
+        "german": "Ich habe die Garage aufgeräumt und Platz für die Fahrräder geschaffen."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101744118",
+        "patterns": [
+          2,
+          1
+        ],
+        "finding": "ガレージ / ガレージ; 名詞/普通名詞/一般/*; *; *; lemma ガレージ-garage; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ガレージ",
+          "reading": "ガレージ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ガレージ as \"Garage\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:gareeji"
   }
 ];

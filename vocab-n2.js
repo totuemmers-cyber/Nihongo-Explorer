@@ -75131,5 +75131,177 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:eeto"
+  },
+  {
+    "word": "活発",
+    "reading": "かっぱつ",
+    "romaji": "kappatsu",
+    "meaning": "lebhaft, aktiv",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N2",
+    "notes": "な-Adjektiv: 活発な子ども, 活発な議論 (lebhafte Diskussion), 活発に活動する.",
+    "examples": [
+      {
+        "japanese": "妹は活発で、外で遊ぶのが大好きだ。",
+        "romaji": "Imouto wa kappatsu de, soto de asobu no ga daisuki da.",
+        "german": "Meine kleine Schwester ist lebhaft und spielt am liebsten draußen."
+      },
+      {
+        "japanese": "会議では活発な意見交換が行われた。",
+        "romaji": "Kaigi de wa kappatsu na iken koukan ga okonawareta.",
+        "german": "In der Besprechung gab es einen lebhaften Meinungsaustausch."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95481544",
+        "patterns": [
+          0
+        ],
+        "finding": "活発 / カッパツ; 形状詞/一般/*/*; *; *; lemma 活発; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "活発",
+          "reading": "かっぱつ",
+          "grammaticalForm": "形状詞/一般/*/*; *; *",
+          "sense": "活発 as \"lebhaft, aktiv\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:kappatsu"
+  },
+  {
+    "word": "カテゴリー",
+    "reading": "カテゴリー",
+    "romaji": "kategorii",
+    "meaning": "Kategorie",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "Auch カテゴリ geschrieben. 〜のカテゴリーに入る (zur Kategorie … gehören).",
+    "examples": [
+      {
+        "japanese": "商品をカテゴリーごとに分けて表示する。",
+        "romaji": "Shouhin o kategorii goto ni wakete hyouji suru.",
+        "german": "Die Produkte werden nach Kategorien getrennt angezeigt."
+      },
+      {
+        "japanese": "この映画はどのカテゴリーにも当てはまらない。",
+        "romaji": "Kono eiga wa dono kategorii ni mo atehamaranai.",
+        "german": "Dieser Film passt in keine Kategorie."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95786249",
+        "patterns": [
+          2
+        ],
+        "finding": "カテゴリー / カテゴリー; 名詞/普通名詞/一般/*; *; *; lemma カテゴリー-category; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カテゴリー",
+          "reading": "カテゴリー",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カテゴリー as \"Kategorie\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:kategorii"
+  },
+  {
+    "word": "カムバック",
+    "reading": "カムバック",
+    "romaji": "kamubakku",
+    "meaning": "Comeback",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N2",
+    "notes": "Als Verb カムバックする (ein Comeback feiern).",
+    "examples": [
+      {
+        "japanese": "けがから一年後、彼は見事にカムバックした。",
+        "romaji": "Kega kara ichinen go, kare wa migoto ni kamubakku shita.",
+        "german": "Ein Jahr nach der Verletzung feierte er ein glänzendes Comeback."
+      },
+      {
+        "japanese": "そのバンドの十年ぶりのカムバックが話題になった。",
+        "romaji": "Sono bando no juunenburi no kamubakku ga wadai ni natta.",
+        "german": "Das Comeback der Band nach zehn Jahren sorgte für Gesprächsstoff."
+      }
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97648198",
+        "patterns": [
+          3,
+          1
+        ],
+        "finding": "カムバック / カムバック; 名詞/普通名詞/サ変可能/*; *; *; lemma カムバック-comeback; aType 3,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カムバック",
+          "reading": "カムバック",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "カムバック as \"Comeback\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:kamubakku"
+  },
+  {
+    "word": "カルテ",
+    "reading": "カルテ",
+    "romaji": "karute",
+    "meaning": "Krankenakte, Patientenkarte",
+    "type": "Nomen",
+    "category": "Medizin",
+    "level": "N2",
+    "notes": "Aus dem Deutschen „Karte“. Heute oft elektronisch: 電子カルテ.",
+    "examples": [
+      {
+        "japanese": "医者はカルテを見ながら説明した。",
+        "romaji": "Isha wa karute o minagara setsumei shita.",
+        "german": "Der Arzt erklärte es mit Blick auf die Krankenakte."
+      },
+      {
+        "japanese": "病院を変えたので、前の病院からカルテを取り寄せた。",
+        "romaji": "Byouin o kaeta node, mae no byouin kara karute o toriyoseta.",
+        "german": "Weil ich das Krankenhaus gewechselt habe, habe ich meine Krankenakte vom alten Krankenhaus angefordert."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99157405",
+        "patterns": [
+          1
+        ],
+        "finding": "カルテ / カルテ; 名詞/普通名詞/一般/*; *; *; lemma カルテ-Karte; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カルテ",
+          "reading": "カルテ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カルテ as \"Krankenakte, Patientenkarte\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:karute"
   }
 ];
