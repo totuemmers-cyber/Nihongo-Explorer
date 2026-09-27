@@ -86,7 +86,7 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   身長, 恋, 意思 …), authored in parallel and each checked by an independent reviewer over two rounds.
   Rare kanji/ateji spellings (何時でも, 其の儘, 屡々 …) are decided as the same lexeme as the kana entry.
 
-Runtime: **13,384 entries** (N5 1,642, N4 1,637, N3 3,530, N2 2,548, N1 4,027),
+Runtime: **13,527 entries** (N5 1,642, N4 1,637, N3 3,673, N2 2,548, N1 4,027),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

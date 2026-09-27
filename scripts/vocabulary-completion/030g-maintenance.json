@@ -1,0 +1,2084 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:danshi",
+      "revisionId": "030-add-danshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "男子",
+        "reading": "だんし",
+        "romaji": "danshi",
+        "meaning": "Junge; Mann (männlich)",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N3",
+        "notes": "Vor allem in Schule und Sport: 男子生徒, 男子トイレ, 男子サッカー. Gegenstück: 女子.",
+        "examples": [
+          {
+            "japanese": "このクラスは男子が十五人、女子が十五人です。",
+            "romaji": "Kono kurasu wa danshi ga juugonin, joshi ga juugonin desu.",
+            "german": "In dieser Klasse sind fünfzehn Jungen und fünfzehn Mädchen."
+          },
+          {
+            "japanese": "男子百メートルの決勝が始まった。",
+            "romaji": "Danshi hyaku meetoru no kesshou ga hajimatta.",
+            "german": "Das Finale der Männer über 100 Meter hat begonnen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168087440",
+            "patterns": [
+              1
+            ],
+            "finding": "男子 / ダンシ; 名詞/普通名詞/一般/*; *; *; lemma 男子; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "男子",
+              "reading": "だんし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "男子 as \"Junge; Mann (männlich)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 男子【だんし】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420070; spelling=男子; reading=だんし; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1420070 男子/だんし sense(s) 1,2 support \"Junge; Mann (männlich)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1420070",
+            "spelling": "男子",
+            "reading": "だんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "man",
+                  "male"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "男子|だんし",
+          "referenceIndex": 0,
+          "referenceHash": "b442628acfc23f2efa9fc4629379958603d8415527dda449bec48eb0fe4a3e3d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Junge; Mann (männlich)\" matches JMdict 1420070 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Class composition.",
+          "Men’s sports event."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1420070; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@168087440 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168087440",
+            "patterns": [
+              1
+            ],
+            "finding": "男子 / ダンシ; 名詞/普通名詞/一般/*; *; *; lemma 男子; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "男子",
+              "reading": "だんし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "男子 as \"Junge; Mann (männlich)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 男子【だんし】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1420070 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "98dbd66c3bac5aa49031d5ae7271c602663faaa3ab89a01bffeb03d60944f665",
+        "approvalHash": "0a3be7e139f49484ed88c544c6d99763b0b7b3d6d32952e1df672b3a09b07220"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 男子【だんし】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 1 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "98dbd66c3bac5aa49031d5ae7271c602663faaa3ab89a01bffeb03d60944f665",
+        "approvalHash": "0a3be7e139f49484ed88c544c6d99763b0b7b3d6d32952e1df672b3a09b07220"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:kawa-skin",
+      "revisionId": "030-add-kawa-skin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "皮",
+        "reading": "かわ",
+        "romaji": "kawa",
+        "meaning": "Haut; Schale, Rinde",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N3",
+        "notes": "Äußere Hülle von Lebewesen und Früchten: りんごの皮をむく (Apfel schälen), 木の皮. Gegerbtes Leder schreibt man 革.",
+        "examples": [
+          {
+            "japanese": "りんごの皮をむいてください。",
+            "romaji": "Ringo no kawa o muite kudasai.",
+            "german": "Schäl bitte den Apfel."
+          },
+          {
+            "japanese": "日焼けして、背中の皮がむけた。",
+            "romaji": "Hiyake shite, senaka no kawa ga muketa.",
+            "german": "Vom Sonnenbrand hat sich die Haut am Rücken gepellt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99455405",
+            "patterns": [
+              2
+            ],
+            "finding": "皮 / カワ; 名詞/普通名詞/一般/*; *; *; lemma 皮; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "皮",
+              "reading": "かわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "皮 as \"Haut; Schale, Rinde\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 皮【かわ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1483800; spelling=皮; reading=かわ; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1483800 皮/かわ sense(s) 1,2 support \"Haut; Schale, Rinde\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1483800",
+            "spelling": "皮",
+            "reading": "かわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skin",
+                  "hide",
+                  "pelt",
+                  "fur"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rind",
+                  "peel",
+                  "husk",
+                  "bark"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "皮|かわ",
+          "referenceIndex": 0,
+          "referenceHash": "d770ee31573906535ff5821934a82c1eca50e9fdad0063214f2c19f275566271"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Haut; Schale, Rinde\" matches JMdict 1483800 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Peeling fruit.",
+          "Peeling skin after sunburn."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1483800; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@99455405 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99455405",
+            "patterns": [
+              2
+            ],
+            "finding": "皮 / カワ; 名詞/普通名詞/一般/*; *; *; lemma 皮; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "皮",
+              "reading": "かわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "皮 as \"Haut; Schale, Rinde\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 皮【かわ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1483800 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4e5e1cb4782ee19b26197bcd438d5f71aff969ef9bd9f5bb8dbbbf7d8399ffbd",
+        "approvalHash": "4c6b3d1b4b805c5a408bd9eb9b55987f70f7d8da14eb161e0dc619b99d3429f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 皮【かわ】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 2 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "4e5e1cb4782ee19b26197bcd438d5f71aff969ef9bd9f5bb8dbbbf7d8399ffbd",
+        "approvalHash": "4c6b3d1b4b805c5a408bd9eb9b55987f70f7d8da14eb161e0dc619b99d3429f0"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:sakari",
+      "revisionId": "030-add-sakari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "盛り",
+        "reading": "さかり",
+        "romaji": "sakari",
+        "meaning": "Höhepunkt, beste Zeit",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N3",
+        "notes": "Der Höhepunkt einer Zeit oder eines Zustands: 夏の盛り, 桜が盛りだ, 働き盛り (im besten Arbeitsalter). Die Lesung もり bedeutet „Portion“.",
+        "examples": [
+          {
+            "japanese": "今、桜がちょうど盛りです。",
+            "romaji": "Ima, sakura ga choudo sakari desu.",
+            "german": "Die Kirschblüte ist gerade auf ihrem Höhepunkt."
+          },
+          {
+            "japanese": "若い盛りを勉強だけで過ごすのはもったいない。",
+            "romaji": "Wakai sakari o benkyou dake de sugosu no wa mottainai.",
+            "german": "Es wäre schade, die besten Jugendjahre nur mit Lernen zu verbringen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127677482",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "盛り / サカリ; 名詞/普通名詞/一般/*; *; *; lemma 盛り; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "盛り",
+              "reading": "さかり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "盛り as \"Höhepunkt, beste Zeit\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N3. The tanos row glosses 盛り（もり） \"serving\" and stays open. Editorial N3.",
+      "rationale": "Add 盛り【さかり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379640; spelling=盛り; reading=さかり; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1379640 盛り/さかり sense(s) 1,2 support \"Höhepunkt, beste Zeit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1379640",
+            "spelling": "盛り",
+            "reading": "さかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "height (e.g. of summer)",
+                  "peak (e.g. of cherry blossom season)",
+                  "(in) season",
+                  "full bloom",
+                  "full swing (of a party, etc.)"
+                ],
+                "notes": [
+                  "ざかり when used as a suffix"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prime (of one's life)",
+                  "(one's) best days",
+                  "bloom"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "盛り|さかり",
+          "referenceIndex": 1,
+          "referenceHash": "4476b5e9b206fee3f3aab19a4b516b671328960a69d3c737ca753dadda543273"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Höhepunkt, beste Zeit\" matches JMdict 1379640 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cherry blossoms at their peak.",
+          "Prime of youth (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1379640; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N3. The tanos row glosses 盛り（もり） \"serving\" and stays open. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@127677482 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127677482",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "盛り / サカリ; 名詞/普通名詞/一般/*; *; *; lemma 盛り; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "盛り",
+              "reading": "さかり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "盛り as \"Höhepunkt, beste Zeit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 盛り【さかり】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1379640 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "eb08636596324a5f33169759a9ead107300a3752de360e3047c4364c2d82920f",
+        "approvalHash": "8dff84cc3e2607c79c173878cca065b384f7dc42bc2169a4487c6d4dbfee8580"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Round-1 fix verified: ex2 「若い盛りを勉強だけで過ごすのはもったいない。」 uses bare 盛り in sense 2 (prime of youth). Romaji \"Wakai sakari o …\" and German are correct. The tanos もり row correctly stays open.",
+        "contentHash": "eb08636596324a5f33169759a9ead107300a3752de360e3047c4364c2d82920f",
+        "approvalHash": "8dff84cc3e2607c79c173878cca065b384f7dc42bc2169a4487c6d4dbfee8580"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:jiki-soon",
+      "revisionId": "030-add-jiki-soon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "じき",
+        "reading": "じき",
+        "romaji": "jiki",
+        "meaning": "bald, gleich",
+        "type": "Adverb",
+        "category": "Zeit",
+        "level": "N3",
+        "notes": "Umgangssprachlich für すぐ／まもなく, meist in Kana: もうじき (gleich), じきに分かる (wird sich bald zeigen). Kanji 直.",
+        "examples": [
+          {
+            "japanese": "もうじき春ですね。",
+            "romaji": "Mou jiki haru desu ne.",
+            "german": "Bald ist Frühling, nicht wahr?"
+          },
+          {
+            "japanese": "彼ならじきに来るから、少し待とう。",
+            "romaji": "Kare nara jiki ni kuru kara, sukoshi matou.",
+            "german": "Er kommt sicher gleich, lass uns ein bisschen warten."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "直"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143515064",
+            "patterns": [
+              0
+            ],
+            "finding": "じき / ジキ; 名詞/普通名詞/副詞可能/*; *; *; lemma 直; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "じき",
+              "reading": "じき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "じき as \"bald, gleich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add じき【じき】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581790; spelling=じき; reading=じき; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1581790 じき/じき sense(s) 1 support \"bald, gleich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1581790",
+            "spelling": "じき",
+            "reading": "じき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "soon",
+                  "in a moment",
+                  "before long",
+                  "shortly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "直|じき",
+          "referenceIndex": 0,
+          "referenceHash": "9830da6143a1d7d48a5b1b7d0aaecd0dcaad91df9d5f32f15ad707d4b15e2b2f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"bald, gleich\" matches JMdict 1581790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Season approaching.",
+          "Someone arriving soon."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1581790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@143515064 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143515064",
+            "patterns": [
+              0
+            ],
+            "finding": "じき / ジキ; 名詞/普通名詞/副詞可能/*; *; *; lemma 直; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "じき",
+              "reading": "じき",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "じき as \"bald, gleich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add じき【じき】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1581790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7a6d5a6392634625d2f5423fbecbbcd54ef2ccc45c4e094c53b3604fd4fe5b47",
+        "approvalHash": "2438bb019ccfa58c0808caf87edf7f8dbd37231a96a4d2c8da321a75b3a28d40"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Pitch row is orth じき, lemma 直, 名詞/副詞可能, aType 0: the same lexeme, not 磁気 or 仕切る. The alias 直 does not collide with any existing headword.",
+        "contentHash": "7a6d5a6392634625d2f5423fbecbbcd54ef2ccc45c4e094c53b3604fd4fe5b47",
+        "approvalHash": "2438bb019ccfa58c0808caf87edf7f8dbd37231a96a4d2c8da321a75b3a28d40"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:jika-ni",
+      "revisionId": "030-add-jika-ni",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "直に",
+        "reading": "じかに",
+        "romaji": "jikani",
+        "meaning": "direkt, unmittelbar; persönlich",
+        "type": "Adverb",
+        "category": "Art und Weise",
+        "level": "N3",
+        "notes": "Ohne Umweg oder Zwischenschicht: 床に直に座る, 本人に直に聞く. Oft in Kana じかに. Nicht verwechseln mit じきに (bald), das man ebenfalls 直に schreiben kann.",
+        "examples": [
+          {
+            "japanese": "大事なことは本人に直に聞いたほうがいい。",
+            "romaji": "Daiji na koto wa honnin ni jika ni kiita hou ga ii.",
+            "german": "Wichtige Dinge fragt man besser direkt die betroffene Person."
+          },
+          {
+            "japanese": "この薬は肌に直に塗らないでください。",
+            "romaji": "Kono kusuri wa hada ni jika ni nuranaide kudasai.",
+            "german": "Tragen Sie dieses Mittel bitte nicht direkt auf die Haut auf."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 直に【じかに】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1430690; spelling=直に; reading=じかに; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1430690 直に/じかに sense(s) 1 support \"direkt, unmittelbar; persönlich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1430690",
+            "spelling": "直に",
+            "reading": "じかに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "directly",
+                  "in person",
+                  "firsthand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "直に|じかに",
+          "referenceIndex": 0,
+          "referenceHash": "466edf3efe419de92455c174c7119d51537702051d1a63328714a16d639b0077"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"direkt, unmittelbar; persönlich\" matches JMdict 1430690 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Asking in person.",
+          "Direct skin contact warning."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1430690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 直に / じかに; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 直に / じかに",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 直に【じかに】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1430690 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "ba485d6e99c7928ae00092f2e10809300cf06b793ac4fa7f6a1f24e960345091",
+        "approvalHash": "33c45830726f63efcd2c2f5e42b4fce0defd31c0b824679b2c4ebb05cd97eb5f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. No exact UniDic row, so pitch unknown/null is correct. The distinction from じきに is noted.",
+        "contentHash": "ba485d6e99c7928ae00092f2e10809300cf06b793ac4fa7f6a1f24e960345091",
+        "approvalHash": "33c45830726f63efcd2c2f5e42b4fce0defd31c0b824679b2c4ebb05cd97eb5f"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:makka",
+      "revisionId": "030-add-makka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "真っ赤",
+        "reading": "まっか",
+        "romaji": "makka",
+        "meaning": "knallrot; völlig (Lüge)",
+        "type": "Adjektiv",
+        "category": "Farben",
+        "level": "N3",
+        "notes": "な-Adjektiv: 真っ赤なりんご, 顔が真っ赤になる (vor Scham oder Ärger). Auch 真っ赤なうそ (glatte Lüge). Ähnlich gebildet: 真っ白, 真っ青.",
+        "examples": [
+          {
+            "japanese": "恥ずかしくて、顔が真っ赤になった。",
+            "romaji": "Hazukashikute, kao ga makka ni natta.",
+            "german": "Vor Verlegenheit bin ich knallrot geworden."
+          },
+          {
+            "japanese": "それは真っ赤なうそだ。",
+            "romaji": "Sore wa makka na uso da.",
+            "german": "Das ist eine glatte Lüge."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250870150",
+            "patterns": [
+              3
+            ],
+            "finding": "真っ赤 / マッカ; 形状詞/一般/*/*; *; *; lemma 真っ赤; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真っ赤",
+              "reading": "まっか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "真っ赤 as \"knallrot; völlig (Lüge)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 真っ赤【まっか】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1363250; spelling=真っ赤; reading=まっか; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1363250 真っ赤/まっか sense(s) 1,2 support \"knallrot; völlig (Lüge)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1363250",
+            "spelling": "真っ赤",
+            "reading": "まっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bright red",
+                  "deep red",
+                  "flushed (of face)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "downright (e.g. lie)",
+                  "complete",
+                  "utter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "真っ赤|まっか",
+          "referenceIndex": 0,
+          "referenceHash": "aafeb59d7bc6ba6145d66b8c0492a9ec721d594e6414ee7a4eca3ba9941fd2d7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"knallrot; völlig (Lüge)\" matches JMdict 1363250 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Blushing.",
+          "Downright lie (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1363250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@250870150 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@250870150",
+            "patterns": [
+              3
+            ],
+            "finding": "真っ赤 / マッカ; 形状詞/一般/*/*; *; *; lemma 真っ赤; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "真っ赤",
+              "reading": "まっか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "真っ赤 as \"knallrot; völlig (Lüge)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 真っ赤【まっか】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1363250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4deec7ae67c63160cbe26e403c1adfccb22a40e82c583623051efe72249a3fa4",
+        "approvalHash": "3ef480a3e70f8ddc160b7039a2f264d0c2b3cc5f5de158b41ef93255889548fc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 真っ赤【まっか】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 3 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "4deec7ae67c63160cbe26e403c1adfccb22a40e82c583623051efe72249a3fa4",
+        "approvalHash": "3ef480a3e70f8ddc160b7039a2f264d0c2b3cc5f5de158b41ef93255889548fc"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "男子|だんし",
+      "referenceIndex": 0,
+      "referenceHash": "b442628acfc23f2efa9fc4629379958603d8415527dda449bec48eb0fe4a3e3d",
+      "revisionId": "030-candidate-danshi-a6c7e729-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:danshi"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:danshi": "98dbd66c3bac5aa49031d5ae7271c602663faaa3ab89a01bffeb03d60944f665"
+      },
+      "reason": "Reference 男子/だんし (tanos N3) is the same lexeme as the new entry 男子【だんし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=56",
+          "finding": "tanos lists 男子/だんし at N3 (gloss: youth,young man)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420070; spelling=男子; reading=だんし; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1420070 as the reference form.",
+          "selected": {
+            "sequence": "1420070",
+            "spelling": "男子",
+            "reading": "だんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "man",
+                  "male"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 男子|だんし#0 is the same lexeme as vocab-n3:correction:danshi; target hash bound to the assembled addition.",
+        "contentHash": "844756171812daddfa5699acebf4d9729b071d501f3eeb215ccebc12e0288804",
+        "approvalHash": "844756171812daddfa5699acebf4d9729b071d501f3eeb215ccebc12e0288804"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 男子|だんし is the same lexeme as target vocab-n3:correction:danshi.",
+        "contentHash": "844756171812daddfa5699acebf4d9729b071d501f3eeb215ccebc12e0288804",
+        "approvalHash": "844756171812daddfa5699acebf4d9729b071d501f3eeb215ccebc12e0288804"
+      }
+    },
+    {
+      "key": "男子|だんし",
+      "referenceIndex": 1,
+      "referenceHash": "182d579535766aa1115099dc944b1b26425a72cc33f6ec48ebf6097fd034adf8",
+      "revisionId": "030-candidate-danshi-a6c7e729-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:danshi"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:danshi": "98dbd66c3bac5aa49031d5ae7271c602663faaa3ab89a01bffeb03d60944f665"
+      },
+      "reason": "Reference 男子/だんし (sensei N3) is the same lexeme as the new entry 男子【だんし】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n3-vocabulary-list/",
+          "finding": "JLPT Sensei lists 男子/だんし at N3 (gloss: youth; young man)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420070; spelling=男子; reading=だんし; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1420070 as the reference form.",
+          "selected": {
+            "sequence": "1420070",
+            "spelling": "男子",
+            "reading": "だんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "man",
+                  "male"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 男子|だんし#1 is the same lexeme as vocab-n3:correction:danshi; target hash bound to the assembled addition.",
+        "contentHash": "2489b206e197494a7a571e4cc51fb28de64ce65432a3f3c34b9f28bacc6081bf",
+        "approvalHash": "2489b206e197494a7a571e4cc51fb28de64ce65432a3f3c34b9f28bacc6081bf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 男子|だんし is the same lexeme as target vocab-n3:correction:danshi.",
+        "contentHash": "2489b206e197494a7a571e4cc51fb28de64ce65432a3f3c34b9f28bacc6081bf",
+        "approvalHash": "2489b206e197494a7a571e4cc51fb28de64ce65432a3f3c34b9f28bacc6081bf"
+      }
+    },
+    {
+      "key": "男子|だんし",
+      "referenceIndex": 2,
+      "referenceHash": "d301fb1276267b29fb7c6d044dce0f7f3844125b6a942658846d8c086ec1f254",
+      "revisionId": "030-candidate-danshi-a6c7e729-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:danshi"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:danshi": "98dbd66c3bac5aa49031d5ae7271c602663faaa3ab89a01bffeb03d60944f665"
+      },
+      "reason": "Reference 男子/だんし (master N3) is the same lexeme as the new entry 男子【だんし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 男子/だんし at N3 (gloss: youth; young man; jeune homme)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420070; spelling=男子; reading=だんし; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1420070 as the reference form.",
+          "selected": {
+            "sequence": "1420070",
+            "spelling": "男子",
+            "reading": "だんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "boy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "man",
+                  "male"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 男子|だんし#2 is the same lexeme as vocab-n3:correction:danshi; target hash bound to the assembled addition.",
+        "contentHash": "40cf43ec97a6160fb680d03079e49c39236ccbd83d86a9f467954f770329bee5",
+        "approvalHash": "40cf43ec97a6160fb680d03079e49c39236ccbd83d86a9f467954f770329bee5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 男子|だんし is the same lexeme as target vocab-n3:correction:danshi.",
+        "contentHash": "40cf43ec97a6160fb680d03079e49c39236ccbd83d86a9f467954f770329bee5",
+        "approvalHash": "40cf43ec97a6160fb680d03079e49c39236ccbd83d86a9f467954f770329bee5"
+      }
+    },
+    {
+      "key": "皮|かわ",
+      "referenceIndex": 0,
+      "referenceHash": "d770ee31573906535ff5821934a82c1eca50e9fdad0063214f2c19f275566271",
+      "revisionId": "030-candidate-kawa-skin-abf4483d-0",
+      "predecessorRevisionHash": "474800548fe74fc18cae0dc801c077280f272801671230be0dc9a5815079bdcc",
+      "predecessorHash": "553639052b51498fe43a93962e3539e75a49b7e0ee56b10c527ec8a325a8736c",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:kawa-skin"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kawa-skin": "4e5e1cb4782ee19b26197bcd438d5f71aff969ef9bd9f5bb8dbbbf7d8399ffbd"
+      },
+      "reason": "Reference 皮/かわ (tanos N3) is the same lexeme as the new entry 皮【かわ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=18",
+          "finding": "tanos lists 皮/かわ at N3 (gloss: skin,hide,leather,fur,pelt,bark,shell)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1483800; spelling=皮; reading=かわ; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1483800 as the reference form.",
+          "selected": {
+            "sequence": "1483800",
+            "spelling": "皮",
+            "reading": "かわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skin",
+                  "hide",
+                  "pelt",
+                  "fur"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rind",
+                  "peel",
+                  "husk",
+                  "bark"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 皮|かわ#0 is the same lexeme as vocab-n3:correction:kawa-skin; target hash bound to the assembled addition.",
+        "contentHash": "38a20aeb3465a526677f0883b3b15f63ebbf704c436bec2098adfe197ea5dcee",
+        "approvalHash": "38a20aeb3465a526677f0883b3b15f63ebbf704c436bec2098adfe197ea5dcee"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 皮|かわ is the same lexeme as target vocab-n3:correction:kawa-skin; chains onto the prior deferred research record via predecessorHash.",
+        "contentHash": "38a20aeb3465a526677f0883b3b15f63ebbf704c436bec2098adfe197ea5dcee",
+        "approvalHash": "38a20aeb3465a526677f0883b3b15f63ebbf704c436bec2098adfe197ea5dcee"
+      }
+    },
+    {
+      "key": "皮|かわ",
+      "referenceIndex": 1,
+      "referenceHash": "b611b788b97f637485e3d6301fc1bbd175a8ddf23d35e8975854d2a1b332e025",
+      "revisionId": "030-candidate-kawa-skin-abf4483d-1",
+      "predecessorRevisionHash": "17096e3806cff9865a5af149db1d6be7dff83be2e90e7972c1691da5eb634ac3",
+      "predecessorHash": "9a4b297525c586ebffd49e7b4d4c345dcea30cd06533fa3c6b40f0f9e53945cd",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:kawa-skin"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kawa-skin": "4e5e1cb4782ee19b26197bcd438d5f71aff969ef9bd9f5bb8dbbbf7d8399ffbd"
+      },
+      "reason": "Reference 皮/かわ (master N3) is the same lexeme as the new entry 皮【かわ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 皮/かわ at N3 (gloss: skin; hide; pelt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1483800; spelling=皮; reading=かわ; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1483800 as the reference form.",
+          "selected": {
+            "sequence": "1483800",
+            "spelling": "皮",
+            "reading": "かわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "skin",
+                  "hide",
+                  "pelt",
+                  "fur"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rind",
+                  "peel",
+                  "husk",
+                  "bark"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 皮|かわ#1 is the same lexeme as vocab-n3:correction:kawa-skin; target hash bound to the assembled addition.",
+        "contentHash": "8eb1f0941d92b5c45646d56afc85d93df6c9edcafc05bbd6db280919ba24395f",
+        "approvalHash": "8eb1f0941d92b5c45646d56afc85d93df6c9edcafc05bbd6db280919ba24395f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 皮|かわ is the same lexeme as target vocab-n3:correction:kawa-skin; chains onto the prior deferred research record via predecessorHash.",
+        "contentHash": "8eb1f0941d92b5c45646d56afc85d93df6c9edcafc05bbd6db280919ba24395f",
+        "approvalHash": "8eb1f0941d92b5c45646d56afc85d93df6c9edcafc05bbd6db280919ba24395f"
+      }
+    },
+    {
+      "key": "盛り|さかり",
+      "referenceIndex": 1,
+      "referenceHash": "4476b5e9b206fee3f3aab19a4b516b671328960a69d3c737ca753dadda543273",
+      "revisionId": "030-candidate-sakari-d3d27136-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:sakari"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:sakari": "eb08636596324a5f33169759a9ead107300a3752de360e3047c4364c2d82920f"
+      },
+      "reason": "Reference 盛り/さかり (master N3) is the same lexeme as the new entry 盛り【さかり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 盛り/さかり at N3 (gloss: peak (e.g. of cherry blossom season); height (e.g. of summer); apogée)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1379640; spelling=盛り; reading=さかり; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1379640 as the reference form.",
+          "selected": {
+            "sequence": "1379640",
+            "spelling": "盛り",
+            "reading": "さかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "height (e.g. of summer)",
+                  "peak (e.g. of cherry blossom season)",
+                  "(in) season",
+                  "full bloom",
+                  "full swing (of a party, etc.)"
+                ],
+                "notes": [
+                  "ざかり when used as a suffix"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prime (of one's life)",
+                  "(one's) best days",
+                  "bloom"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 盛り|さかり#1 is the same lexeme as vocab-n3:correction:sakari; target hash bound to the assembled addition.",
+        "contentHash": "5fd9f3ad68b3aa989ddbea8c868c6f380f5d5f04e64e457dfac1ec3ff080938b",
+        "approvalHash": "5fd9f3ad68b3aa989ddbea8c868c6f380f5d5f04e64e457dfac1ec3ff080938b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 盛り|さかり is the same lexeme as target vocab-n3:correction:sakari.",
+        "contentHash": "5fd9f3ad68b3aa989ddbea8c868c6f380f5d5f04e64e457dfac1ec3ff080938b",
+        "approvalHash": "5fd9f3ad68b3aa989ddbea8c868c6f380f5d5f04e64e457dfac1ec3ff080938b"
+      }
+    },
+    {
+      "key": "直|じき",
+      "referenceIndex": 0,
+      "referenceHash": "9830da6143a1d7d48a5b1b7d0aaecd0dcaad91df9d5f32f15ad707d4b15e2b2f",
+      "revisionId": "030-candidate-jiki-soon-57a53cc4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jiki-soon"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jiki-soon": "7a6d5a6392634625d2f5423fbecbbcd54ef2ccc45c4e094c53b3604fd4fe5b47"
+      },
+      "reason": "Reference 直/じき (tanos N3) is the same lexeme as the new entry じき【じき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=36",
+          "finding": "tanos lists 直/じき at N3 (gloss: earnestly,immediately,exactly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581790; spelling=じき; reading=じき; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581790 as the reference form.",
+          "selected": {
+            "sequence": "1581790",
+            "spelling": "じき",
+            "reading": "じき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "soon",
+                  "in a moment",
+                  "before long",
+                  "shortly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 直|じき#0 is the same lexeme as vocab-n3:correction:jiki-soon; target hash bound to the assembled addition.",
+        "contentHash": "12c558f67e0a82d7bbb4818cbcd125675dae136615dbb4cfeec268d3606f3a2f",
+        "approvalHash": "12c558f67e0a82d7bbb4818cbcd125675dae136615dbb4cfeec268d3606f3a2f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 直|じき is the same lexeme as target vocab-n3:correction:jiki-soon.",
+        "contentHash": "12c558f67e0a82d7bbb4818cbcd125675dae136615dbb4cfeec268d3606f3a2f",
+        "approvalHash": "12c558f67e0a82d7bbb4818cbcd125675dae136615dbb4cfeec268d3606f3a2f"
+      }
+    },
+    {
+      "key": "直|じき",
+      "referenceIndex": 1,
+      "referenceHash": "385b1d0599f10253adf2ec0efdcc34b3beda1d4b56eb75141372bfda4bd4a9be",
+      "revisionId": "030-candidate-jiki-soon-57a53cc4-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jiki-soon"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jiki-soon": "7a6d5a6392634625d2f5423fbecbbcd54ef2ccc45c4e094c53b3604fd4fe5b47"
+      },
+      "reason": "Reference 直/じき (master N3) is the same lexeme as the new entry じき【じき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 直/じき at N3 (gloss: soon; in a moment; before long)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581790; spelling=じき; reading=じき; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581790 as the reference form.",
+          "selected": {
+            "sequence": "1581790",
+            "spelling": "じき",
+            "reading": "じき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "soon",
+                  "in a moment",
+                  "before long",
+                  "shortly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 直|じき#1 is the same lexeme as vocab-n3:correction:jiki-soon; target hash bound to the assembled addition.",
+        "contentHash": "167dc96576872c73dcb06d2db07bd7e3208bd0c81018d138982d4ff4be5cbd23",
+        "approvalHash": "167dc96576872c73dcb06d2db07bd7e3208bd0c81018d138982d4ff4be5cbd23"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 直|じき is the same lexeme as target vocab-n3:correction:jiki-soon.",
+        "contentHash": "167dc96576872c73dcb06d2db07bd7e3208bd0c81018d138982d4ff4be5cbd23",
+        "approvalHash": "167dc96576872c73dcb06d2db07bd7e3208bd0c81018d138982d4ff4be5cbd23"
+      }
+    },
+    {
+      "key": "直に|じかに",
+      "referenceIndex": 0,
+      "referenceHash": "466edf3efe419de92455c174c7119d51537702051d1a63328714a16d639b0077",
+      "revisionId": "030-candidate-jika-ni-5b0b5e50-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jika-ni"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jika-ni": "ba485d6e99c7928ae00092f2e10809300cf06b793ac4fa7f6a1f24e960345091"
+      },
+      "reason": "Reference 直に/じかに (tanos N3) is the same lexeme as the new entry 直に【じかに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=36",
+          "finding": "tanos lists 直に/じかに at N3 (gloss: immediately,readily,directly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1430690; spelling=直に; reading=じかに; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1430690 as the reference form.",
+          "selected": {
+            "sequence": "1430690",
+            "spelling": "直に",
+            "reading": "じかに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "directly",
+                  "in person",
+                  "firsthand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 直に|じかに#0 is the same lexeme as vocab-n3:correction:jika-ni; target hash bound to the assembled addition.",
+        "contentHash": "689db8ca298c3559a605480439d7055cb9cbcd3d44f535de6ac050092c8aa455",
+        "approvalHash": "689db8ca298c3559a605480439d7055cb9cbcd3d44f535de6ac050092c8aa455"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 直に|じかに is the same lexeme as target vocab-n3:correction:jika-ni.",
+        "contentHash": "689db8ca298c3559a605480439d7055cb9cbcd3d44f535de6ac050092c8aa455",
+        "approvalHash": "689db8ca298c3559a605480439d7055cb9cbcd3d44f535de6ac050092c8aa455"
+      }
+    },
+    {
+      "key": "直に|じかに",
+      "referenceIndex": 1,
+      "referenceHash": "f7aadf2aa950c1b3c1da4b9b8dcafd3548c462e0306fdee909967f3df5cdfb72",
+      "revisionId": "030-candidate-jika-ni-5b0b5e50-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:jika-ni"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jika-ni": "ba485d6e99c7928ae00092f2e10809300cf06b793ac4fa7f6a1f24e960345091"
+      },
+      "reason": "Reference 直に/じかに (master N3) is the same lexeme as the new entry 直に【じかに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 直に/じかに at N3 (gloss: directly; in person; headlong)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1430690; spelling=直に; reading=じかに; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1430690 as the reference form.",
+          "selected": {
+            "sequence": "1430690",
+            "spelling": "直に",
+            "reading": "じかに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "directly",
+                  "in person",
+                  "firsthand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 直に|じかに#1 is the same lexeme as vocab-n3:correction:jika-ni; target hash bound to the assembled addition.",
+        "contentHash": "098c39e1162941afcfab8ff34ec42fd4ffb27e310a2b85d7bd0fa67ee9789e7e",
+        "approvalHash": "098c39e1162941afcfab8ff34ec42fd4ffb27e310a2b85d7bd0fa67ee9789e7e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 直に|じかに is the same lexeme as target vocab-n3:correction:jika-ni.",
+        "contentHash": "098c39e1162941afcfab8ff34ec42fd4ffb27e310a2b85d7bd0fa67ee9789e7e",
+        "approvalHash": "098c39e1162941afcfab8ff34ec42fd4ffb27e310a2b85d7bd0fa67ee9789e7e"
+      }
+    },
+    {
+      "key": "真っ赤|まっか",
+      "referenceIndex": 0,
+      "referenceHash": "aafeb59d7bc6ba6145d66b8c0492a9ec721d594e6414ee7a4eca3ba9941fd2d7",
+      "revisionId": "030-candidate-makka-40bedc6c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:makka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:makka": "4deec7ae67c63160cbe26e403c1adfccb22a40e82c583623051efe72249a3fa4"
+      },
+      "reason": "Reference 真っ赤/まっか (tanos N3) is the same lexeme as the new entry 真っ赤【まっか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=83",
+          "finding": "tanos lists 真っ赤/まっか at N3 (gloss: deep red,flushed (of face))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1363250; spelling=真っ赤; reading=まっか; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1363250 as the reference form.",
+          "selected": {
+            "sequence": "1363250",
+            "spelling": "真っ赤",
+            "reading": "まっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bright red",
+                  "deep red",
+                  "flushed (of face)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "downright (e.g. lie)",
+                  "complete",
+                  "utter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 真っ赤|まっか#0 is the same lexeme as vocab-n3:correction:makka; target hash bound to the assembled addition.",
+        "contentHash": "5a85ae5eb4b2a56403b1138c2337a20eb587524dbed09992def6ab86af62cf8e",
+        "approvalHash": "5a85ae5eb4b2a56403b1138c2337a20eb587524dbed09992def6ab86af62cf8e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 真っ赤|まっか is the same lexeme as target vocab-n3:correction:makka.",
+        "contentHash": "5a85ae5eb4b2a56403b1138c2337a20eb587524dbed09992def6ab86af62cf8e",
+        "approvalHash": "5a85ae5eb4b2a56403b1138c2337a20eb587524dbed09992def6ab86af62cf8e"
+      }
+    },
+    {
+      "key": "真っ赤|まっか",
+      "referenceIndex": 1,
+      "referenceHash": "ca3c366872e7a67718d0a2f9dccaf038db3f5556d997dd96c629727fdbb0aa43",
+      "revisionId": "030-candidate-makka-40bedc6c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:makka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:makka": "4deec7ae67c63160cbe26e403c1adfccb22a40e82c583623051efe72249a3fa4"
+      },
+      "reason": "Reference 真っ赤/まっか (sensei N3) is the same lexeme as the new entry 真っ赤【まっか】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n3-vocabulary-list/page/2/",
+          "finding": "JLPT Sensei lists 真っ赤/まっか at N3 (gloss: bright red; deep red; flushed (of face))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1363250; spelling=真っ赤; reading=まっか; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1363250 as the reference form.",
+          "selected": {
+            "sequence": "1363250",
+            "spelling": "真っ赤",
+            "reading": "まっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bright red",
+                  "deep red",
+                  "flushed (of face)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "downright (e.g. lie)",
+                  "complete",
+                  "utter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 真っ赤|まっか#1 is the same lexeme as vocab-n3:correction:makka; target hash bound to the assembled addition.",
+        "contentHash": "d8fba676e1e720282226654f120fba60aa36af6dc01dd3a8b42266f0dd8ac222",
+        "approvalHash": "d8fba676e1e720282226654f120fba60aa36af6dc01dd3a8b42266f0dd8ac222"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 真っ赤|まっか is the same lexeme as target vocab-n3:correction:makka.",
+        "contentHash": "d8fba676e1e720282226654f120fba60aa36af6dc01dd3a8b42266f0dd8ac222",
+        "approvalHash": "d8fba676e1e720282226654f120fba60aa36af6dc01dd3a8b42266f0dd8ac222"
+      }
+    },
+    {
+      "key": "真っ赤|まっか",
+      "referenceIndex": 2,
+      "referenceHash": "f3b4c6d4bd8b3d5a27e90725598c33a47ea5b7ea31694f6d768221c1f4715ea8",
+      "revisionId": "030-candidate-makka-40bedc6c-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:makka"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:makka": "4deec7ae67c63160cbe26e403c1adfccb22a40e82c583623051efe72249a3fa4"
+      },
+      "reason": "Reference 真っ赤/まっか (master N3) is the same lexeme as the new entry 真っ赤【まっか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 真っ赤/まっか at N3 (gloss: bright red; deep red; flushed (of face))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1363250; spelling=真っ赤; reading=まっか; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1363250 as the reference form.",
+          "selected": {
+            "sequence": "1363250",
+            "spelling": "真っ赤",
+            "reading": "まっか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bright red",
+                  "deep red",
+                  "flushed (of face)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "downright (e.g. lie)",
+                  "complete",
+                  "utter"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 真っ赤|まっか#2 is the same lexeme as vocab-n3:correction:makka; target hash bound to the assembled addition.",
+        "contentHash": "da9f6255ec01f885ff79f4c8df76effb691614e70d1645ed1a3c05765dbd2428",
+        "approvalHash": "da9f6255ec01f885ff79f4c8df76effb691614e70d1645ed1a3c05765dbd2428"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 真っ赤|まっか is the same lexeme as target vocab-n3:correction:makka.",
+        "contentHash": "da9f6255ec01f885ff79f4c8df76effb691614e70d1645ed1a3c05765dbd2428",
+        "approvalHash": "da9f6255ec01f885ff79f4c8df76effb691614e70d1645ed1a3c05765dbd2428"
+      }
+    }
+  ]
+}

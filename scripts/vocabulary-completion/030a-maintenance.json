@@ -1,0 +1,3491 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:tosho",
+      "revisionId": "030-add-tosho",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "図書",
+        "reading": "としょ",
+        "romaji": "tosho",
+        "meaning": "Bücher (Sammelbegriff)",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N3",
+        "notes": "Schriftsprachlicher Sammelbegriff für Bücher, vor allem in Zusammensetzungen: 図書館 (Bibliothek), 図書室 (Schulbücherei), 図書券 (Büchergutschein). Einzelne Bücher heißen im Alltag 本.",
+        "examples": [
+          {
+            "japanese": "この図書は来週までに返してください。",
+            "romaji": "Kono tosho wa raishuu made ni kaeshite kudasai.",
+            "german": "Bitte geben Sie diese Bücher bis nächste Woche zurück."
+          },
+          {
+            "japanese": "市は子ども向けの図書を増やしている。",
+            "romaji": "Shi wa kodomo muke no tosho o fuyashite iru.",
+            "german": "Die Stadt erweitert ihren Bestand an Kinderbüchern."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185620961",
+            "patterns": [
+              1
+            ],
+            "finding": "図書 / トショ; 名詞/普通名詞/一般/*; *; *; lemma 図書; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "図書",
+              "reading": "としょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "図書 as \"Bücher (Sammelbegriff)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 図書【としょ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1370410; spelling=図書; reading=としょ; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1370410 図書/としょ sense(s) 1 support \"Bücher (Sammelbegriff)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1370410",
+            "spelling": "図書",
+            "reading": "としょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "books"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "図書|としょ",
+          "referenceIndex": 0,
+          "referenceHash": "8eea3cb16501f47991963799606602020812d71b1777293b7d1e7aa7527e2f6a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Bücher (Sammelbegriff)\" matches JMdict 1370410 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Library loan period.",
+          "Public book collection."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1370410; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@185620961 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185620961",
+            "patterns": [
+              1
+            ],
+            "finding": "図書 / トショ; 名詞/普通名詞/一般/*; *; *; lemma 図書; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "図書",
+              "reading": "としょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "図書 as \"Bücher (Sammelbegriff)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 図書【としょ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1370410 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d8b64c55f09a7ccda83398ab8d53843b18f3267457c865e10584c48b5a4afd8e",
+        "approvalHash": "d683605f3458a3444b89a5a0b043cc95968d985a8d4832b1a788ef6cf13f8193"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 図書【としょ】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 1 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "d8b64c55f09a7ccda83398ab8d53843b18f3267457c865e10584c48b5a4afd8e",
+        "approvalHash": "d683605f3458a3444b89a5a0b043cc95968d985a8d4832b1a788ef6cf13f8193"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:chi-ground",
+      "revisionId": "030-add-chi-ground",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "地",
+        "reading": "ち",
+        "romaji": "chi",
+        "meaning": "Erde, Boden; Ort, Gegend",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N3",
+        "notes": "Gehoben für „Erde, Boden“ und „Ort“: 天と地 (Himmel und Erde), 約束の地 (das gelobte Land). Sehr häufig in Zusammensetzungen: 土地, 地下, 地元, 目的地.",
+        "examples": [
+          {
+            "japanese": "祖父はこの地で生まれ育った。",
+            "romaji": "Sofu wa kono chi de umaresodatta.",
+            "german": "Mein Großvater ist hier in dieser Gegend geboren und aufgewachsen."
+          },
+          {
+            "japanese": "枯れ葉が風に舞って、静かに地に落ちた。",
+            "romaji": "Kareha ga kaze ni matte, shizuka ni chi ni ochita.",
+            "german": "Welke Blätter wirbelten im Wind und fielen still zu Boden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168232593",
+            "patterns": [
+              1
+            ],
+            "finding": "地 / チ; 名詞/普通名詞/一般/*; *; *; lemma 地; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "地",
+              "reading": "ち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "地 as \"Erde, Boden; Ort, Gegend\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 地【ち】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420730; spelling=地; reading=ち; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1420730 地/ち sense(s) 1,2 support \"Erde, Boden; Ort, Gegend\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1420730",
+            "spelling": "地",
+            "reading": "ち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "earth",
+                  "ground",
+                  "land",
+                  "soil"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "地|ち",
+          "referenceIndex": 0,
+          "referenceHash": "a6bae6538ccf714019e2c943d4a17b89daf21ed53bff43723d5714ed58467182"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Erde, Boden; Ort, Gegend\" matches JMdict 1420730 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Place of birth (この地).",
+          "Leaves falling to the ground."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1420730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@168232593 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168232593",
+            "patterns": [
+              1
+            ],
+            "finding": "地 / チ; 名詞/普通名詞/一般/*; *; *; lemma 地; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "地",
+              "reading": "ち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "地 as \"Erde, Boden; Ort, Gegend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 地【ち】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1420730 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c58e1024776f97c7e8fde556a1590b6a7424f3a56f9478c2bdf11e1e9f8d9300",
+        "approvalHash": "56f7747dc0555ffd8f0644a12809cab81b201b988dc33afe142f687c4ddd7380"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Round-1 fix verified: ex2 is now 「枯れ葉が風に舞って、静かに地に落ちた。」, a natural literary use of bare 地 = ground. Romaji \"Kareha ga kaze ni matte, shizuka ni chi ni ochita.\" and German are correct. Pitch 1 is from the exact 地/チ noun row.",
+        "contentHash": "c58e1024776f97c7e8fde556a1590b6a7424f3a56f9478c2bdf11e1e9f8d9300",
+        "approvalHash": "56f7747dc0555ffd8f0644a12809cab81b201b988dc33afe142f687c4ddd7380"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:hokori",
+      "revisionId": "030-add-hokori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "埃",
+        "reading": "ほこり",
+        "romaji": "hokori",
+        "meaning": "Staub",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N3",
+        "notes": "Meist in Kana geschrieben (ほこり). „Staub wischen“: ほこりを払う／拭く. Gleich klingend: 誇り (Stolz).",
+        "examples": [
+          {
+            "japanese": "本棚にほこりがたまっている。",
+            "romaji": "Hondana ni hokori ga tamatte iru.",
+            "german": "Auf dem Bücherregal hat sich Staub angesammelt."
+          },
+          {
+            "japanese": "窓を開けて、部屋のほこりを払った。",
+            "romaji": "Mado o akete, heya no hokori o haratta.",
+            "german": "Ich habe das Fenster geöffnet und im Zimmer Staub gewischt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243597116",
+            "patterns": [
+              0
+            ],
+            "finding": "埃 / ホコリ; 名詞/普通名詞/一般/*; *; *; lemma 埃; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "埃",
+              "reading": "ほこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "埃 as \"Staub\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 埃【ほこり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565750; spelling=埃; reading=ほこり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1565750 埃/ほこり sense(s) 1 support \"Staub\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1565750",
+            "spelling": "埃",
+            "reading": "ほこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "dust"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "埃|ほこり",
+          "referenceIndex": 0,
+          "referenceHash": "1e0fdce9ce5bacb9a7d77105047a427d7568ac929d86b3f0645c20f0af74c368"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Staub\" matches JMdict 1565750 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Dust on a shelf.",
+          "Cleaning a room."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1565750; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@243597116 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243597116",
+            "patterns": [
+              0
+            ],
+            "finding": "埃 / ホコリ; 名詞/普通名詞/一般/*; *; *; lemma 埃; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "埃",
+              "reading": "ほこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "埃 as \"Staub\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 埃【ほこり】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1565750 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ae2eda9105413cdf1360158f8f056c719e1743aff2cdfeb4c275bb96b28026a3",
+        "approvalHash": "a196844b1fc68f745fc36876a25fddfcd5c4188d314f0a958f0bda6de7442881"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 埃【ほこり】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 0 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "ae2eda9105413cdf1360158f8f056c719e1743aff2cdfeb4c275bb96b28026a3",
+        "approvalHash": "a196844b1fc68f745fc36876a25fddfcd5c4188d314f0a958f0bda6de7442881"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:hori",
+      "revisionId": "030-add-hori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "堀",
+        "reading": "ほり",
+        "romaji": "hori",
+        "meaning": "Burggraben; Kanal",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N3",
+        "notes": "Wassergraben um eine Burg (お堀) oder künstlicher Kanal. Häufig in Orts- und Familiennamen (堀川, 堀田).",
+        "examples": [
+          {
+            "japanese": "城の周りには深い堀がある。",
+            "romaji": "Shiro no mawari ni wa fukai hori ga aru.",
+            "german": "Um die Burg herum gibt es einen tiefen Graben."
+          },
+          {
+            "japanese": "春になると、お堀の周りに桜が咲く。",
+            "romaji": "Haru ni naru to, ohori no mawari ni sakura ga saku.",
+            "german": "Im Frühling blühen rund um den Burggraben die Kirschbäume."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244980879",
+            "patterns": [
+              2
+            ],
+            "finding": "堀 / ホリ; 名詞/普通名詞/一般/*; *; *; lemma 堀; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "堀",
+              "reading": "ほり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "堀 as \"Burggraben; Kanal\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 堀【ほり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1522060; spelling=堀; reading=ほり; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1522060 堀/ほり sense(s) 1,2 support \"Burggraben; Kanal\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1522060",
+            "spelling": "堀",
+            "reading": "ほり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moat",
+                  "fosse"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canal",
+                  "ditch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "堀|ほり",
+          "referenceIndex": 0,
+          "referenceHash": "afd94fa9a3c7516cf7a1d8168244a5503fb2da31ad82a3b33f06ca25076189b5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Burggraben; Kanal\" matches JMdict 1522060 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Castle defences.",
+          "Cherry blossoms along a moat."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1522060; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@244980879 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@244980879",
+            "patterns": [
+              2
+            ],
+            "finding": "堀 / ホリ; 名詞/普通名詞/一般/*; *; *; lemma 堀; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "堀",
+              "reading": "ほり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "堀 as \"Burggraben; Kanal\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 堀【ほり】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1522060 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "c860f81d05965076acb35f6bb311bdb03473285b0cff6a1bed15c7741cb5df03",
+        "approvalHash": "b6044cf021568b6e526c9a6754a2a9581fcdae82f49fd878324303c68b61f793"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 堀【ほり】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 2 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "c860f81d05965076acb35f6bb311bdb03473285b0cff6a1bed15c7741cb5df03",
+        "approvalHash": "b6044cf021568b6e526c9a6754a2a9581fcdae82f49fd878324303c68b61f793"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:ba-place",
+      "revisionId": "030-add-ba-place",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "場",
+        "reading": "ば",
+        "romaji": "ba",
+        "meaning": "Ort, Platz; Situation, Gelegenheit",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N3",
+        "notes": "Allein meist in festen Wendungen: その場で (auf der Stelle), 場を和ませる (die Stimmung auflockern), 場に合う (zur Situation passen). In Zusammensetzungen als 〜場 (駐車場, 会場).",
+        "examples": [
+          {
+            "japanese": "その場ですぐに返事をした。",
+            "romaji": "Sono ba de sugu ni henji o shita.",
+            "german": "Ich habe auf der Stelle geantwortet."
+          },
+          {
+            "japanese": "彼の冗談で、場の雰囲気が明るくなった。",
+            "romaji": "Kare no joudan de, ba no fun'iki ga akaruku natta.",
+            "german": "Durch seinen Witz wurde die Stimmung lockerer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219993933",
+            "patterns": [
+              0
+            ],
+            "finding": "場 / バ; 名詞/普通名詞/一般/*; *; *; lemma 場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "場",
+              "reading": "ば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "場 as \"Ort, Platz; Situation, Gelegenheit\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 場【ば】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355790; spelling=場; reading=ば; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1355790 場/ば sense(s) 1,3 support \"Ort, Platz; Situation, Gelegenheit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1355790",
+            "spelling": "場",
+            "reading": "ば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place",
+                  "spot",
+                  "space"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "occasion",
+                  "situation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "場|ば",
+          "referenceIndex": 0,
+          "referenceHash": "d95bb39adb5383ec52d9f0f7c856f2486a67fa76a101c5f5b242639984028a37"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Ort, Platz; Situation, Gelegenheit\" matches JMdict 1355790 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Immediate reaction (その場で).",
+          "Atmosphere of a gathering."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1355790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@219993933 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219993933",
+            "patterns": [
+              0
+            ],
+            "finding": "場 / バ; 名詞/普通名詞/一般/*; *; *; lemma 場; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "場",
+              "reading": "ば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "場 as \"Ort, Platz; Situation, Gelegenheit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 場【ば】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1355790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "813ed35e81bdabc37607fef9c09401a9ea6f170b42e4dd5a3cfae325c01512db",
+        "approvalHash": "7fcdaa41de8dbf40e209bd7ba89875a43d8d436be33ff2786cf2f912d765b008"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 場【ば】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 0 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "813ed35e81bdabc37607fef9c09401a9ea6f170b42e4dd5a3cfae325c01512db",
+        "approvalHash": "7fcdaa41de8dbf40e209bd7ba89875a43d8d436be33ff2786cf2f912d765b008"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:tou-tower",
+      "revisionId": "030-add-tou-tower",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "塔",
+        "reading": "とう",
+        "romaji": "tou",
+        "meaning": "Turm; Pagode",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N3",
+        "notes": "Hoher, schmaler Bau: 東京タワー heißt zwar タワー, aber die Pagode eines Tempels ist ein 塔（五重塔 = fünfstöckige Pagode）. Gleich klingend: 問う.",
+        "examples": [
+          {
+            "japanese": "お寺の五重の塔は七百年前に建てられた。",
+            "romaji": "Otera no gojuu no tou wa nanahyakunen mae ni taterareta.",
+            "german": "Die fünfstöckige Pagode des Tempels wurde vor 700 Jahren erbaut."
+          },
+          {
+            "japanese": "丘の上に白い塔が立っていて、遠くからでもよく見える。",
+            "romaji": "Oka no ue ni shiroi tou ga tatte ite, tooku kara demo yoku mieru.",
+            "german": "Auf dem Hügel steht ein weißer Turm, den man auch von Weitem gut sieht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183230090",
+            "patterns": [
+              1
+            ],
+            "finding": "塔 / トウ; 名詞/普通名詞/一般/*; *; *; lemma 塔; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "塔",
+              "reading": "とう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "塔 as \"Turm; Pagode\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 塔【とう】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1446740; spelling=塔; reading=とう; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1446740 塔/とう sense(s) 1,2 support \"Turm; Pagode\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1446740",
+            "spelling": "塔",
+            "reading": "とう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tower",
+                  "steeple",
+                  "spire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "stupa",
+                  "pagoda",
+                  "dagoba"
+                ],
+                "notes": [
+                  "original meaning"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "塔|とう",
+          "referenceIndex": 0,
+          "referenceHash": "ad333601d18c434b1f7c68ac897443de3ccae22baee7c69e82628b70cabdeb1a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Turm; Pagode\" matches JMdict 1446740 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Temple pagoda.",
+          "Tower on a hill."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1446740; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@183230090 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183230090",
+            "patterns": [
+              1
+            ],
+            "finding": "塔 / トウ; 名詞/普通名詞/一般/*; *; *; lemma 塔; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "塔",
+              "reading": "とう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "塔 as \"Turm; Pagode\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 塔【とう】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1446740 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d015fdfd1594dd542a48e0c0a03de93122e637e0faef394aa549e536d5c0616f",
+        "approvalHash": "3713e5ab66450d868df10974f1fc18abc59b93196795c824d00992c4fa9d29b8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Round-1 fix verified: ex1 now uses 五重の塔 (bare 塔; romaji gojuu no tou matches), and ex2 「丘の上に白い塔が立っていて、遠くからでもよく見える。」 is natural. Romaji and German are correct. Pitch 1 is from the exact row.",
+        "contentHash": "d015fdfd1594dd542a48e0c0a03de93122e637e0faef394aa549e536d5c0616f",
+        "approvalHash": "3713e5ab66450d868df10974f1fc18abc59b93196795c824d00992c4fa9d29b8"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:fujin-madam",
+      "revisionId": "030-add-fujin-madam",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "夫人",
+        "reading": "ふじん",
+        "romaji": "fujin",
+        "meaning": "Frau (Gattin), Madame",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N3",
+        "notes": "Respektvoll für die Ehefrau einer (meist bekannten) Person: 首相夫人 (Gattin des Premierministers), 田中夫人. Nicht verwechseln mit 婦人 (Frau allgemein, 婦人服).",
+        "examples": [
+          {
+            "japanese": "大統領夫人が学校を訪問した。",
+            "romaji": "Daitouryou fujin ga gakkou o houmon shita.",
+            "german": "Die Frau des Präsidenten besuchte die Schule."
+          },
+          {
+            "japanese": "パーティーには社長夫人も出席した。",
+            "romaji": "Paatii ni wa shachou fujin mo shusseki shita.",
+            "german": "An der Feier nahm auch die Frau des Firmenchefs teil."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233667951",
+            "patterns": [
+              0
+            ],
+            "finding": "夫人 / フジン; 名詞/普通名詞/一般/*; *; *; lemma 夫人; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "夫人",
+              "reading": "ふじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "夫人 as \"Frau (Gattin), Madame\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 夫人【ふじん】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1496540; spelling=夫人; reading=ふじん; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1496540 夫人/ふじん sense(s) 1 support \"Frau (Gattin), Madame\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1496540",
+            "spelling": "夫人",
+            "reading": "ふじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "wife",
+                  "Mrs",
+                  "Madam"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "夫人|ふじん",
+          "referenceIndex": 0,
+          "referenceHash": "398ec9335dc4f65a74793bb5ca1858e1875e80bc42f69dababc0de8eb97314d2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Frau (Gattin), Madame\" matches JMdict 1496540 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Official visit.",
+          "Guests at a party."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1496540; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@233667951 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233667951",
+            "patterns": [
+              0
+            ],
+            "finding": "夫人 / フジン; 名詞/普通名詞/一般/*; *; *; lemma 夫人; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "夫人",
+              "reading": "ふじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "夫人 as \"Frau (Gattin), Madame\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 夫人【ふじん】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1496540 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "036484c8afc2ea8c395629df78b26a6a377c58cb2f550dc1592381a25e13d8b8",
+        "approvalHash": "919db5599f550ecd37c79c7c7838d6d8062a7274a627f3b30518fd833449d4f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 夫人【ふじん】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 0 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "036484c8afc2ea8c395629df78b26a6a377c58cb2f550dc1592381a25e13d8b8",
+        "approvalHash": "919db5599f550ecd37c79c7c7838d6d8062a7274a627f3b30518fd833449d4f0"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:oku",
+      "revisionId": "030-add-oku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "奥",
+        "reading": "おく",
+        "romaji": "oku",
+        "meaning": "das Innere, hinterer Teil; Tiefe",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N3",
+        "notes": "Der hintere, innere Teil eines Raumes oder Ortes: 引き出しの奥, 店の奥. Auch übertragen: 心の奥 (tief im Herzen). Verwandt: 奥さん (Ehefrau anderer).",
+        "examples": [
+          {
+            "japanese": "探していた鍵は引き出しの奥にあった。",
+            "romaji": "Sagashite ita kagi wa hikidashi no oku ni atta.",
+            "german": "Der Schlüssel, den ich gesucht hatte, lag ganz hinten in der Schublade."
+          },
+          {
+            "japanese": "彼の言葉は心の奥に残っている。",
+            "romaji": "Kare no kotoba wa kokoro no oku ni nokotte iru.",
+            "german": "Seine Worte sind mir tief im Herzen geblieben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75079916",
+            "patterns": [
+              1
+            ],
+            "finding": "奥 / オク; 名詞/普通名詞/一般/*; *; *; lemma 奥; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "奥",
+              "reading": "おく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "奥 as \"das Innere, hinterer Teil; Tiefe\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 奥【おく】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1179320; spelling=奥; reading=おく; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1179320 奥/おく sense(s) 1,3 support \"das Innere, hinterer Teil; Tiefe\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1179320",
+            "spelling": "奥",
+            "reading": "おく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inner part",
+                  "interior",
+                  "back (of a drawer, one's throat, etc.)",
+                  "depths (e.g. of a forest)",
+                  "recesses (e.g. of a cave)",
+                  "heart",
+                  "end (of a road, garden, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recesses (of one's mind)",
+                  "bottom (of one's heart)",
+                  "behind (someone's words)",
+                  "mysteries (of an art)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "奥|おく",
+          "referenceIndex": 0,
+          "referenceHash": "987e0b75aab03537fa3aaa48897c1c1781a0d966fc94cedc89238c266dd95393"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"das Innere, hinterer Teil; Tiefe\" matches JMdict 1179320 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Back of a drawer.",
+          "Deep in one’s heart."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1179320; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@75079916 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75079916",
+            "patterns": [
+              1
+            ],
+            "finding": "奥 / オク; 名詞/普通名詞/一般/*; *; *; lemma 奥; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "奥",
+              "reading": "おく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "奥 as \"das Innere, hinterer Teil; Tiefe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 奥【おく】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1179320 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cb995529ecf70749618e1728f989d98df5e4174192916d3b8a5e7bac86ff2fc5",
+        "approvalHash": "9e7e921fb7d10692d89664f3ee24958a17402cd9f255a2138af662d6a8d07d4e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 奥【おく】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 1 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "cb995529ecf70749618e1728f989d98df5e4174192916d3b8a5e7bac86ff2fc5",
+        "approvalHash": "9e7e921fb7d10692d89664f3ee24958a17402cd9f255a2138af662d6a8d07d4e"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:hajimari",
+      "revisionId": "030-add-hajimari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "始まり",
+        "reading": "はじまり",
+        "romaji": "hajimari",
+        "meaning": "Anfang, Beginn; Ursprung",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N3",
+        "notes": "Nomen zu 始まる (anfangen). Häufig: 新しい生活の始まり, 事件の始まり. Gegenteil: 終わり.",
+        "examples": [
+          {
+            "japanese": "春は新しい生活の始まりだ。",
+            "romaji": "Haru wa atarashii seikatsu no hajimari da.",
+            "german": "Der Frühling ist der Beginn eines neuen Lebensabschnitts."
+          },
+          {
+            "japanese": "この祭りの始まりは江戸時代だと言われている。",
+            "romaji": "Kono matsuri no hajimari wa Edo jidai da to iwarete iru.",
+            "german": "Der Ursprung dieses Festes soll in der Edo-Zeit liegen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@214824941",
+            "patterns": [
+              0
+            ],
+            "finding": "始まり / ハジマリ; 名詞/普通名詞/一般/*; *; *; lemma 始まり; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "始まり",
+              "reading": "はじまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "始まり as \"Anfang, Beginn; Ursprung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 始まり【はじまり】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611200; spelling=始まり; reading=はじまり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1611200 始まり/はじまり sense(s) 1 support \"Anfang, Beginn; Ursprung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1611200",
+            "spelling": "始まり",
+            "reading": "はじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "start"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "始まり|はじまり",
+          "referenceIndex": 0,
+          "referenceHash": "8adf1dbcab8877c9efc6cdf3088cd2c37d78c1ee6db659b748e311ea1b960040"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Anfang, Beginn; Ursprung\" matches JMdict 1611200 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "New life in spring.",
+          "Origin of a festival."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1611200; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@214824941 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@214824941",
+            "patterns": [
+              0
+            ],
+            "finding": "始まり / ハジマリ; 名詞/普通名詞/一般/*; *; *; lemma 始まり; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "始まり",
+              "reading": "はじまり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "始まり as \"Anfang, Beginn; Ursprung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 始まり【はじまり】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1611200 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ca20c5185307cf4f28ab4a951f764c1cfdae11f81b9736910762b2e43a884606",
+        "approvalHash": "0bfbf626e4ab0745317ce234a0b57a4b3223ed3154bbdf8006e681808ca17155"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 始まり【はじまり】: examples are grammatical and natural and use the headword in the taught sense. Romaji, German text, JMdict sense support and level are correct, and pitch 0 matches the exact UniDic row of the same lexeme.",
+        "contentHash": "ca20c5185307cf4f28ab4a951f764c1cfdae11f81b9736910762b2e43a884606",
+        "approvalHash": "0bfbf626e4ab0745317ce234a0b57a4b3223ed3154bbdf8006e681808ca17155"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:gaku",
+      "revisionId": "030-add-gaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "学",
+        "reading": "がく",
+        "romaji": "gaku",
+        "meaning": "Bildung, Gelehrsamkeit; Wissenschaft von …",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N3",
+        "notes": "Allein etwas gehoben: 学がある (gebildet sein). Als Suffix „-lehre, -wissenschaft“: 経済学, 心理学, 言語学.",
+        "examples": [
+          {
+            "japanese": "祖父は学はないが、とても賢い人だった。",
+            "romaji": "Sofu wa gaku wa nai ga, totemo kashikoi hito datta.",
+            "german": "Mein Großvater war nicht gebildet, aber ein sehr kluger Mensch."
+          },
+          {
+            "japanese": "大学で心理学を勉強しています。",
+            "romaji": "Daigaku de shinrigaku o benkyou shite imasu.",
+            "german": "Ich studiere an der Universität Psychologie."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101250736",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "学 / ガク; 名詞/普通名詞/一般/*; *; *; lemma 学; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "学",
+              "reading": "がく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "学 as \"Bildung, Gelehrsamkeit; Wissenschaft von …\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 030); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3.",
+      "rationale": "Add 学【がく】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1955900; spelling=学; reading=がく; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1955900 学/がく sense(s) 1,2 support \"Bildung, Gelehrsamkeit; Wissenschaft von …\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1955900",
+            "spelling": "学",
+            "reading": "がく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "learning",
+                  "scholarship",
+                  "study",
+                  "erudition",
+                  "knowledge",
+                  "education"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study of ...",
+                  "-ology",
+                  "-ics"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "学|がく",
+          "referenceIndex": 0,
+          "referenceHash": "ee579bd6dafb0dcd400b079c819a66d7710a9f8de2ee8192163f48b8e17798d1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-030-editor",
+        "meaning": "\"Bildung, Gelehrsamkeit; Wissenschaft von …\" matches JMdict 1955900 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Being educated (学がある).",
+          "Suffix -ology (心理学)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1955900; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, JLPT Sensei N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101250736 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101250736",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "学 / ガク; 名詞/普通名詞/一般/*; *; *; lemma 学; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "学",
+              "reading": "がく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "学 as \"Bildung, Gelehrsamkeit; Wissenschaft von …\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: Add 学【がく】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1955900 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6560b4465b1b4bf5bea9726986f22076a50ad9df47f857af50d401cc56a24882",
+        "approvalHash": "e6b4fe96d9f4c32769b126930a87b923e69091e9bf979bb2edbe22692b7de15a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. 心理学 illustrates JMdict sense 2 (-ology), which is inherently a suffix sense, and ex1 shows bare 学 (学はない). Acceptable.",
+        "contentHash": "6560b4465b1b4bf5bea9726986f22076a50ad9df47f857af50d401cc56a24882",
+        "approvalHash": "e6b4fe96d9f4c32769b126930a87b923e69091e9bf979bb2edbe22692b7de15a"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "図書|としょ",
+      "referenceIndex": 0,
+      "referenceHash": "8eea3cb16501f47991963799606602020812d71b1777293b7d1e7aa7527e2f6a",
+      "revisionId": "030-candidate-tosho-15b36227-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tosho"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tosho": "d8b64c55f09a7ccda83398ab8d53843b18f3267457c865e10584c48b5a4afd8e"
+      },
+      "reason": "Reference 図書/としょ (tanos N3) is the same lexeme as the new entry 図書【としょ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=64",
+          "finding": "tanos lists 図書/としょ at N3 (gloss: books)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1370410; spelling=図書; reading=としょ; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1370410 as the reference form.",
+          "selected": {
+            "sequence": "1370410",
+            "spelling": "図書",
+            "reading": "としょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "books"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 図書|としょ#0 is the same lexeme as vocab-n3:correction:tosho; target hash bound to the assembled addition.",
+        "contentHash": "cf1b19bbe5ff418ce8361245cdbae5bfc94d0d0039dcccc6a7b9a34f50fd4973",
+        "approvalHash": "cf1b19bbe5ff418ce8361245cdbae5bfc94d0d0039dcccc6a7b9a34f50fd4973"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 図書|としょ is the same lexeme as target vocab-n3:correction:tosho.",
+        "contentHash": "cf1b19bbe5ff418ce8361245cdbae5bfc94d0d0039dcccc6a7b9a34f50fd4973",
+        "approvalHash": "cf1b19bbe5ff418ce8361245cdbae5bfc94d0d0039dcccc6a7b9a34f50fd4973"
+      }
+    },
+    {
+      "key": "図書|としょ",
+      "referenceIndex": 1,
+      "referenceHash": "98e3c06c2e2f505b481af833dd89016ac43196e8e165c463f8c8521d4de6cceb",
+      "revisionId": "030-candidate-tosho-15b36227-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tosho"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tosho": "d8b64c55f09a7ccda83398ab8d53843b18f3267457c865e10584c48b5a4afd8e"
+      },
+      "reason": "Reference 図書/としょ (sensei N3) is the same lexeme as the new entry 図書【としょ】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n3-vocabulary-list/page/2/",
+          "finding": "JLPT Sensei lists 図書/としょ at N3 (gloss: books)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1370410; spelling=図書; reading=としょ; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1370410 as the reference form.",
+          "selected": {
+            "sequence": "1370410",
+            "spelling": "図書",
+            "reading": "としょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "books"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 図書|としょ#1 is the same lexeme as vocab-n3:correction:tosho; target hash bound to the assembled addition.",
+        "contentHash": "53fb7804f312e18d14220f7b8410064afe976a8900ac50a9a91af95bda5b7cc0",
+        "approvalHash": "53fb7804f312e18d14220f7b8410064afe976a8900ac50a9a91af95bda5b7cc0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 図書|としょ is the same lexeme as target vocab-n3:correction:tosho.",
+        "contentHash": "53fb7804f312e18d14220f7b8410064afe976a8900ac50a9a91af95bda5b7cc0",
+        "approvalHash": "53fb7804f312e18d14220f7b8410064afe976a8900ac50a9a91af95bda5b7cc0"
+      }
+    },
+    {
+      "key": "図書|としょ",
+      "referenceIndex": 2,
+      "referenceHash": "d274124b6d27366aa7b2673bd53b431d18c20ead533d2b485374359eb4bbeb8e",
+      "revisionId": "030-candidate-tosho-15b36227-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tosho"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tosho": "d8b64c55f09a7ccda83398ab8d53843b18f3267457c865e10584c48b5a4afd8e"
+      },
+      "reason": "Reference 図書/としょ (master N3) is the same lexeme as the new entry 図書【としょ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 図書/としょ at N3 (gloss: books; livre; (n) Bücher)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1370410; spelling=図書; reading=としょ; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1370410 as the reference form.",
+          "selected": {
+            "sequence": "1370410",
+            "spelling": "図書",
+            "reading": "としょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "books"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 図書|としょ#2 is the same lexeme as vocab-n3:correction:tosho; target hash bound to the assembled addition.",
+        "contentHash": "8a8873db77df501b709360ab999912477d2e6a1ba901709c949166f88417d848",
+        "approvalHash": "8a8873db77df501b709360ab999912477d2e6a1ba901709c949166f88417d848"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 図書|としょ is the same lexeme as target vocab-n3:correction:tosho.",
+        "contentHash": "8a8873db77df501b709360ab999912477d2e6a1ba901709c949166f88417d848",
+        "approvalHash": "8a8873db77df501b709360ab999912477d2e6a1ba901709c949166f88417d848"
+      }
+    },
+    {
+      "key": "地|ち",
+      "referenceIndex": 0,
+      "referenceHash": "a6bae6538ccf714019e2c943d4a17b89daf21ed53bff43723d5714ed58467182",
+      "revisionId": "030-candidate-chi-ground-d5592244-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:chi-ground"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:chi-ground": "c58e1024776f97c7e8fde556a1590b6a7424f3a56f9478c2bdf11e1e9f8d9300"
+      },
+      "reason": "Reference 地/ち (tanos N3) is the same lexeme as the new entry 地【ち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=57",
+          "finding": "tanos lists 地/ち at N3 (gloss: earth)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420730; spelling=地; reading=ち; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1420730 as the reference form.",
+          "selected": {
+            "sequence": "1420730",
+            "spelling": "地",
+            "reading": "ち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "earth",
+                  "ground",
+                  "land",
+                  "soil"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 地|ち#0 is the same lexeme as vocab-n3:correction:chi-ground; target hash bound to the assembled addition.",
+        "contentHash": "6045fddfab6ca3a35beb7a0b687fa14c605d2444d9cb00595afa30e51ffc6fa7",
+        "approvalHash": "6045fddfab6ca3a35beb7a0b687fa14c605d2444d9cb00595afa30e51ffc6fa7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 地|ち is the same lexeme as target vocab-n3:correction:chi-ground.",
+        "contentHash": "6045fddfab6ca3a35beb7a0b687fa14c605d2444d9cb00595afa30e51ffc6fa7",
+        "approvalHash": "6045fddfab6ca3a35beb7a0b687fa14c605d2444d9cb00595afa30e51ffc6fa7"
+      }
+    },
+    {
+      "key": "地|ち",
+      "referenceIndex": 1,
+      "referenceHash": "b5322a1e4901db445b57a450e55b5060709e03399c6e3fcb5b19f8c10ffd8549",
+      "revisionId": "030-candidate-chi-ground-d5592244-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:chi-ground"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:chi-ground": "c58e1024776f97c7e8fde556a1590b6a7424f3a56f9478c2bdf11e1e9f8d9300"
+      },
+      "reason": "Reference 地/ち (master N3) is the same lexeme as the new entry 地【ち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 地/ち at N3 (gloss: earth; ground; land)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1420730; spelling=地; reading=ち; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1420730 as the reference form.",
+          "selected": {
+            "sequence": "1420730",
+            "spelling": "地",
+            "reading": "ち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "earth",
+                  "ground",
+                  "land",
+                  "soil"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 地|ち#1 is the same lexeme as vocab-n3:correction:chi-ground; target hash bound to the assembled addition.",
+        "contentHash": "c1d43c9037aac060340d0eacdae6c561d8bd5ffac5067051a4dfe75047b6c582",
+        "approvalHash": "c1d43c9037aac060340d0eacdae6c561d8bd5ffac5067051a4dfe75047b6c582"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 地|ち is the same lexeme as target vocab-n3:correction:chi-ground.",
+        "contentHash": "c1d43c9037aac060340d0eacdae6c561d8bd5ffac5067051a4dfe75047b6c582",
+        "approvalHash": "c1d43c9037aac060340d0eacdae6c561d8bd5ffac5067051a4dfe75047b6c582"
+      }
+    },
+    {
+      "key": "埃|ほこり",
+      "referenceIndex": 0,
+      "referenceHash": "1e0fdce9ce5bacb9a7d77105047a427d7568ac929d86b3f0645c20f0af74c368",
+      "revisionId": "030-candidate-hokori-d0ad89e3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hokori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hokori": "ae2eda9105413cdf1360158f8f056c719e1743aff2cdfeb4c275bb96b28026a3"
+      },
+      "reason": "Reference 埃/ほこり (tanos N3) is the same lexeme as the new entry 埃【ほこり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=81",
+          "finding": "tanos lists 埃/ほこり at N3 (gloss: dust)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565750; spelling=埃; reading=ほこり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565750 as the reference form.",
+          "selected": {
+            "sequence": "1565750",
+            "spelling": "埃",
+            "reading": "ほこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "dust"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 埃|ほこり#0 is the same lexeme as vocab-n3:correction:hokori; target hash bound to the assembled addition.",
+        "contentHash": "733269b9c9baed433abeba3f09ad496fb4e09d2b8bb8526917640ffb02e0595c",
+        "approvalHash": "733269b9c9baed433abeba3f09ad496fb4e09d2b8bb8526917640ffb02e0595c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 埃|ほこり is the same lexeme as target vocab-n3:correction:hokori.",
+        "contentHash": "733269b9c9baed433abeba3f09ad496fb4e09d2b8bb8526917640ffb02e0595c",
+        "approvalHash": "733269b9c9baed433abeba3f09ad496fb4e09d2b8bb8526917640ffb02e0595c"
+      }
+    },
+    {
+      "key": "埃|ほこり",
+      "referenceIndex": 1,
+      "referenceHash": "b20523439257f3c7fbb838d9ce92da0247518879abe940202b39f236a5fc649d",
+      "revisionId": "030-candidate-hokori-d0ad89e3-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hokori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hokori": "ae2eda9105413cdf1360158f8f056c719e1743aff2cdfeb4c275bb96b28026a3"
+      },
+      "reason": "Reference 埃/ほこり (master N3) is the same lexeme as the new entry 埃【ほこり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 埃/ほこり at N3 (gloss: dust; poussière; пы́ль)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1565750; spelling=埃; reading=ほこり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1565750 as the reference form.",
+          "selected": {
+            "sequence": "1565750",
+            "spelling": "埃",
+            "reading": "ほこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "dust"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 埃|ほこり#1 is the same lexeme as vocab-n3:correction:hokori; target hash bound to the assembled addition.",
+        "contentHash": "e6a24bd5f2fc95c0cc8eca49126b45dbd3797385521bbbd1b70b7e49c5bc6fae",
+        "approvalHash": "e6a24bd5f2fc95c0cc8eca49126b45dbd3797385521bbbd1b70b7e49c5bc6fae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 埃|ほこり is the same lexeme as target vocab-n3:correction:hokori.",
+        "contentHash": "e6a24bd5f2fc95c0cc8eca49126b45dbd3797385521bbbd1b70b7e49c5bc6fae",
+        "approvalHash": "e6a24bd5f2fc95c0cc8eca49126b45dbd3797385521bbbd1b70b7e49c5bc6fae"
+      }
+    },
+    {
+      "key": "堀|ほり",
+      "referenceIndex": 0,
+      "referenceHash": "afd94fa9a3c7516cf7a1d8168244a5503fb2da31ad82a3b33f06ca25076189b5",
+      "revisionId": "030-candidate-hori-1e4b4752-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hori": "c860f81d05965076acb35f6bb311bdb03473285b0cff6a1bed15c7741cb5df03"
+      },
+      "reason": "Reference 堀/ほり (tanos N2) is the same lexeme as the new entry 堀【ほり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=80",
+          "finding": "tanos lists 堀/ほり at N2 (gloss: moat,canal)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1522060; spelling=堀; reading=ほり; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1522060 as the reference form.",
+          "selected": {
+            "sequence": "1522060",
+            "spelling": "堀",
+            "reading": "ほり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moat",
+                  "fosse"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canal",
+                  "ditch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 堀|ほり#0 is the same lexeme as vocab-n3:correction:hori; target hash bound to the assembled addition.",
+        "contentHash": "f28e2e250905d9df2232cbed8c92e632f8c189478d18939883913c5df31ef14e",
+        "approvalHash": "f28e2e250905d9df2232cbed8c92e632f8c189478d18939883913c5df31ef14e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 堀|ほり is the same lexeme as target vocab-n3:correction:hori.",
+        "contentHash": "f28e2e250905d9df2232cbed8c92e632f8c189478d18939883913c5df31ef14e",
+        "approvalHash": "f28e2e250905d9df2232cbed8c92e632f8c189478d18939883913c5df31ef14e"
+      }
+    },
+    {
+      "key": "堀|ほり",
+      "referenceIndex": 1,
+      "referenceHash": "f0d2f9b7178be8c861546cd7971575293915a8fdd01feadc438c7a1be5e7101e",
+      "revisionId": "030-candidate-hori-1e4b4752-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hori"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hori": "c860f81d05965076acb35f6bb311bdb03473285b0cff6a1bed15c7741cb5df03"
+      },
+      "reason": "Reference 堀/ほり (master N3) is the same lexeme as the new entry 堀【ほり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 堀/ほり at N3 (gloss: moat; fosse; canal)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1522060; spelling=堀; reading=ほり; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1522060 as the reference form.",
+          "selected": {
+            "sequence": "1522060",
+            "spelling": "堀",
+            "reading": "ほり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moat",
+                  "fosse"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "canal",
+                  "ditch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 堀|ほり#1 is the same lexeme as vocab-n3:correction:hori; target hash bound to the assembled addition.",
+        "contentHash": "f8cde9e506fca00d10bf8f0c6c59fbccbfbcad9d1b6ea1cdfcb5ac76d97ccab4",
+        "approvalHash": "f8cde9e506fca00d10bf8f0c6c59fbccbfbcad9d1b6ea1cdfcb5ac76d97ccab4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 堀|ほり is the same lexeme as target vocab-n3:correction:hori.",
+        "contentHash": "f8cde9e506fca00d10bf8f0c6c59fbccbfbcad9d1b6ea1cdfcb5ac76d97ccab4",
+        "approvalHash": "f8cde9e506fca00d10bf8f0c6c59fbccbfbcad9d1b6ea1cdfcb5ac76d97ccab4"
+      }
+    },
+    {
+      "key": "場|ば",
+      "referenceIndex": 0,
+      "referenceHash": "d95bb39adb5383ec52d9f0f7c856f2486a67fa76a101c5f5b242639984028a37",
+      "revisionId": "030-candidate-ba-place-fc5b736a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:ba-place"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:ba-place": "813ed35e81bdabc37607fef9c09401a9ea6f170b42e4dd5a3cfae325c01512db"
+      },
+      "reason": "Reference 場/ば (tanos N3) is the same lexeme as the new entry 場【ば】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=71",
+          "finding": "tanos lists 場/ば at N3 (gloss: place,field (physics))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355790; spelling=場; reading=ば; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1355790 as the reference form.",
+          "selected": {
+            "sequence": "1355790",
+            "spelling": "場",
+            "reading": "ば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place",
+                  "spot",
+                  "space"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "occasion",
+                  "situation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 場|ば#0 is the same lexeme as vocab-n3:correction:ba-place; target hash bound to the assembled addition.",
+        "contentHash": "3735bd11fcd41c141aaa88721e1bc119f0c6e832df714dafc13c95427ff0d70a",
+        "approvalHash": "3735bd11fcd41c141aaa88721e1bc119f0c6e832df714dafc13c95427ff0d70a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 場|ば is the same lexeme as target vocab-n3:correction:ba-place.",
+        "contentHash": "3735bd11fcd41c141aaa88721e1bc119f0c6e832df714dafc13c95427ff0d70a",
+        "approvalHash": "3735bd11fcd41c141aaa88721e1bc119f0c6e832df714dafc13c95427ff0d70a"
+      }
+    },
+    {
+      "key": "場|ば",
+      "referenceIndex": 1,
+      "referenceHash": "d3037b274b49da2afc7b8aaaae44034519e406f8c4fab9fbd7491b6de02b5fed",
+      "revisionId": "030-candidate-ba-place-fc5b736a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:ba-place"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:ba-place": "813ed35e81bdabc37607fef9c09401a9ea6f170b42e4dd5a3cfae325c01512db"
+      },
+      "reason": "Reference 場/ば (master N3) is the same lexeme as the new entry 場【ば】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 場/ば at N3 (gloss: place; spot; space)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1355790; spelling=場; reading=ば; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1355790 as the reference form.",
+          "selected": {
+            "sequence": "1355790",
+            "spelling": "場",
+            "reading": "ば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place",
+                  "spot",
+                  "space"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "occasion",
+                  "situation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 場|ば#1 is the same lexeme as vocab-n3:correction:ba-place; target hash bound to the assembled addition.",
+        "contentHash": "bc85b4bfc78365581f1e3e46e29e7f2d6c37adeb9ac1b39f2760a47d5b11e315",
+        "approvalHash": "bc85b4bfc78365581f1e3e46e29e7f2d6c37adeb9ac1b39f2760a47d5b11e315"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 場|ば is the same lexeme as target vocab-n3:correction:ba-place.",
+        "contentHash": "bc85b4bfc78365581f1e3e46e29e7f2d6c37adeb9ac1b39f2760a47d5b11e315",
+        "approvalHash": "bc85b4bfc78365581f1e3e46e29e7f2d6c37adeb9ac1b39f2760a47d5b11e315"
+      }
+    },
+    {
+      "key": "塔|とう",
+      "referenceIndex": 0,
+      "referenceHash": "ad333601d18c434b1f7c68ac897443de3ccae22baee7c69e82628b70cabdeb1a",
+      "revisionId": "030-candidate-tou-tower-ad85f90d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tou-tower"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tou-tower": "d015fdfd1594dd542a48e0c0a03de93122e637e0faef394aa549e536d5c0616f"
+      },
+      "reason": "Reference 塔/とう (tanos N3) is the same lexeme as the new entry 塔【とう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=63",
+          "finding": "tanos lists 塔/とう at N3 (gloss: tower,pagoda)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1446740; spelling=塔; reading=とう; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1446740 as the reference form.",
+          "selected": {
+            "sequence": "1446740",
+            "spelling": "塔",
+            "reading": "とう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tower",
+                  "steeple",
+                  "spire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "stupa",
+                  "pagoda",
+                  "dagoba"
+                ],
+                "notes": [
+                  "original meaning"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 塔|とう#0 is the same lexeme as vocab-n3:correction:tou-tower; target hash bound to the assembled addition.",
+        "contentHash": "cd9c5de49a73fdb72c195cb947be41bbd69a36ec5ce7784c92478a48cbda2e7f",
+        "approvalHash": "cd9c5de49a73fdb72c195cb947be41bbd69a36ec5ce7784c92478a48cbda2e7f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 塔|とう is the same lexeme as target vocab-n3:correction:tou-tower.",
+        "contentHash": "cd9c5de49a73fdb72c195cb947be41bbd69a36ec5ce7784c92478a48cbda2e7f",
+        "approvalHash": "cd9c5de49a73fdb72c195cb947be41bbd69a36ec5ce7784c92478a48cbda2e7f"
+      }
+    },
+    {
+      "key": "塔|とう",
+      "referenceIndex": 1,
+      "referenceHash": "0ff939c74686b20ed7095e49a667da536695d184f24706d4eebaa5eaf2ae64e8",
+      "revisionId": "030-candidate-tou-tower-ad85f90d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:tou-tower"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:tou-tower": "d015fdfd1594dd542a48e0c0a03de93122e637e0faef394aa549e536d5c0616f"
+      },
+      "reason": "Reference 塔/とう (master N3) is the same lexeme as the new entry 塔【とう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 塔/とう at N3 (gloss: tower; steeple; spire)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1446740; spelling=塔; reading=とう; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1446740 as the reference form.",
+          "selected": {
+            "sequence": "1446740",
+            "spelling": "塔",
+            "reading": "とう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tower",
+                  "steeple",
+                  "spire"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "stupa",
+                  "pagoda",
+                  "dagoba"
+                ],
+                "notes": [
+                  "original meaning"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 塔|とう#1 is the same lexeme as vocab-n3:correction:tou-tower; target hash bound to the assembled addition.",
+        "contentHash": "455972b8bc4d8f28637217bfe66e0b879c41a396cfd056732b5ef94ab965c270",
+        "approvalHash": "455972b8bc4d8f28637217bfe66e0b879c41a396cfd056732b5ef94ab965c270"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 塔|とう is the same lexeme as target vocab-n3:correction:tou-tower.",
+        "contentHash": "455972b8bc4d8f28637217bfe66e0b879c41a396cfd056732b5ef94ab965c270",
+        "approvalHash": "455972b8bc4d8f28637217bfe66e0b879c41a396cfd056732b5ef94ab965c270"
+      }
+    },
+    {
+      "key": "夫人|ふじん",
+      "referenceIndex": 0,
+      "referenceHash": "398ec9335dc4f65a74793bb5ca1858e1875e80bc42f69dababc0de8eb97314d2",
+      "revisionId": "030-candidate-fujin-madam-73b65773-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:fujin-madam"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:fujin-madam": "036484c8afc2ea8c395629df78b26a6a377c58cb2f550dc1592381a25e13d8b8"
+      },
+      "reason": "Reference 夫人/ふじん (tanos N3) is the same lexeme as the new entry 夫人【ふじん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=77",
+          "finding": "tanos lists 夫人/ふじん at N3 (gloss: wife,Mrs,madam)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1496540; spelling=夫人; reading=ふじん; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1496540 as the reference form.",
+          "selected": {
+            "sequence": "1496540",
+            "spelling": "夫人",
+            "reading": "ふじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "wife",
+                  "Mrs",
+                  "Madam"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 夫人|ふじん#0 is the same lexeme as vocab-n3:correction:fujin-madam; target hash bound to the assembled addition.",
+        "contentHash": "ccf7e4e86f8b031c0d7f4f139927ab1c8c60e00ab96e8539fd13e624be3d8ef2",
+        "approvalHash": "ccf7e4e86f8b031c0d7f4f139927ab1c8c60e00ab96e8539fd13e624be3d8ef2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 夫人|ふじん is the same lexeme as target vocab-n3:correction:fujin-madam.",
+        "contentHash": "ccf7e4e86f8b031c0d7f4f139927ab1c8c60e00ab96e8539fd13e624be3d8ef2",
+        "approvalHash": "ccf7e4e86f8b031c0d7f4f139927ab1c8c60e00ab96e8539fd13e624be3d8ef2"
+      }
+    },
+    {
+      "key": "夫人|ふじん",
+      "referenceIndex": 1,
+      "referenceHash": "c8add79909dd1ce94afd98703e4d37d60eeec8455d5f8868b5d283819e633c19",
+      "revisionId": "030-candidate-fujin-madam-73b65773-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:fujin-madam"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:fujin-madam": "036484c8afc2ea8c395629df78b26a6a377c58cb2f550dc1592381a25e13d8b8"
+      },
+      "reason": "Reference 夫人/ふじん (master N3) is the same lexeme as the new entry 夫人【ふじん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 夫人/ふじん at N3 (gloss: wife; Mrs; madam)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1496540; spelling=夫人; reading=ふじん; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1496540 as the reference form.",
+          "selected": {
+            "sequence": "1496540",
+            "spelling": "夫人",
+            "reading": "ふじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "wife",
+                  "Mrs",
+                  "Madam"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 夫人|ふじん#1 is the same lexeme as vocab-n3:correction:fujin-madam; target hash bound to the assembled addition.",
+        "contentHash": "424a211ddc9d01f67c454a74c290eb77106ae2bb0b4b47291202226c9e1f985e",
+        "approvalHash": "424a211ddc9d01f67c454a74c290eb77106ae2bb0b4b47291202226c9e1f985e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 夫人|ふじん is the same lexeme as target vocab-n3:correction:fujin-madam.",
+        "contentHash": "424a211ddc9d01f67c454a74c290eb77106ae2bb0b4b47291202226c9e1f985e",
+        "approvalHash": "424a211ddc9d01f67c454a74c290eb77106ae2bb0b4b47291202226c9e1f985e"
+      }
+    },
+    {
+      "key": "奥|おく",
+      "referenceIndex": 0,
+      "referenceHash": "987e0b75aab03537fa3aaa48897c1c1781a0d966fc94cedc89238c266dd95393",
+      "revisionId": "030-candidate-oku-97010581-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:oku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:oku": "cb995529ecf70749618e1728f989d98df5e4174192916d3b8a5e7bac86ff2fc5"
+      },
+      "reason": "Reference 奥/おく (tanos N3) is the same lexeme as the new entry 奥【おく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=11",
+          "finding": "tanos lists 奥/おく at N3 (gloss: interior,inner part)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1179320; spelling=奥; reading=おく; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1179320 as the reference form.",
+          "selected": {
+            "sequence": "1179320",
+            "spelling": "奥",
+            "reading": "おく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inner part",
+                  "interior",
+                  "back (of a drawer, one's throat, etc.)",
+                  "depths (e.g. of a forest)",
+                  "recesses (e.g. of a cave)",
+                  "heart",
+                  "end (of a road, garden, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recesses (of one's mind)",
+                  "bottom (of one's heart)",
+                  "behind (someone's words)",
+                  "mysteries (of an art)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 奥|おく#0 is the same lexeme as vocab-n3:correction:oku; target hash bound to the assembled addition.",
+        "contentHash": "c1eed2a5442b178e4b20dd4a44313452bb1958835b027c5df38e9641e888c0c0",
+        "approvalHash": "c1eed2a5442b178e4b20dd4a44313452bb1958835b027c5df38e9641e888c0c0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 奥|おく is the same lexeme as target vocab-n3:correction:oku.",
+        "contentHash": "c1eed2a5442b178e4b20dd4a44313452bb1958835b027c5df38e9641e888c0c0",
+        "approvalHash": "c1eed2a5442b178e4b20dd4a44313452bb1958835b027c5df38e9641e888c0c0"
+      }
+    },
+    {
+      "key": "奥|おく",
+      "referenceIndex": 1,
+      "referenceHash": "c0c07e72c56e327ef4a7e0e00f9e016cf01233da600644514650eb834b0bda20",
+      "revisionId": "030-candidate-oku-97010581-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:oku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:oku": "cb995529ecf70749618e1728f989d98df5e4174192916d3b8a5e7bac86ff2fc5"
+      },
+      "reason": "Reference 奥/おく (master N3) is the same lexeme as the new entry 奥【おく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 奥/おく at N3 (gloss: interior; inner part; inside)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1179320; spelling=奥; reading=おく; senses=1,3; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1179320 as the reference form.",
+          "selected": {
+            "sequence": "1179320",
+            "spelling": "奥",
+            "reading": "おく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inner part",
+                  "interior",
+                  "back (of a drawer, one's throat, etc.)",
+                  "depths (e.g. of a forest)",
+                  "recesses (e.g. of a cave)",
+                  "heart",
+                  "end (of a road, garden, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recesses (of one's mind)",
+                  "bottom (of one's heart)",
+                  "behind (someone's words)",
+                  "mysteries (of an art)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 奥|おく#1 is the same lexeme as vocab-n3:correction:oku; target hash bound to the assembled addition.",
+        "contentHash": "31e08b252516fad7d10700ad68db7d5b85689188aa5202fb3b3d4e055cd9a6f8",
+        "approvalHash": "31e08b252516fad7d10700ad68db7d5b85689188aa5202fb3b3d4e055cd9a6f8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 奥|おく is the same lexeme as target vocab-n3:correction:oku.",
+        "contentHash": "31e08b252516fad7d10700ad68db7d5b85689188aa5202fb3b3d4e055cd9a6f8",
+        "approvalHash": "31e08b252516fad7d10700ad68db7d5b85689188aa5202fb3b3d4e055cd9a6f8"
+      }
+    },
+    {
+      "key": "始まり|はじまり",
+      "referenceIndex": 0,
+      "referenceHash": "8adf1dbcab8877c9efc6cdf3088cd2c37d78c1ee6db659b748e311ea1b960040",
+      "revisionId": "030-candidate-hajimari-ee355833-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hajimari"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hajimari": "ca20c5185307cf4f28ab4a951f764c1cfdae11f81b9736910762b2e43a884606"
+      },
+      "reason": "Reference 始まり/はじまり (tanos N3) is the same lexeme as the new entry 始まり【はじまり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=72",
+          "finding": "tanos lists 始まり/はじまり at N3 (gloss: origin,beginning)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611200; spelling=始まり; reading=はじまり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611200 as the reference form.",
+          "selected": {
+            "sequence": "1611200",
+            "spelling": "始まり",
+            "reading": "はじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "start"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 始まり|はじまり#0 is the same lexeme as vocab-n3:correction:hajimari; target hash bound to the assembled addition.",
+        "contentHash": "5789b92762550e31d5403ff5e0e654f0af832e7b752563179c81957bf72ee1f0",
+        "approvalHash": "5789b92762550e31d5403ff5e0e654f0af832e7b752563179c81957bf72ee1f0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 始まり|はじまり is the same lexeme as target vocab-n3:correction:hajimari.",
+        "contentHash": "5789b92762550e31d5403ff5e0e654f0af832e7b752563179c81957bf72ee1f0",
+        "approvalHash": "5789b92762550e31d5403ff5e0e654f0af832e7b752563179c81957bf72ee1f0"
+      }
+    },
+    {
+      "key": "始まり|はじまり",
+      "referenceIndex": 1,
+      "referenceHash": "f34ebba5733200d2ff3728219f4e7a9d100be061f74a670e176fd35b6b600128",
+      "revisionId": "030-candidate-hajimari-ee355833-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hajimari"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hajimari": "ca20c5185307cf4f28ab4a951f764c1cfdae11f81b9736910762b2e43a884606"
+      },
+      "reason": "Reference 始まり/はじまり (master N3) is the same lexeme as the new entry 始まり【はじまり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 始まり/はじまり at N3 (gloss: origin; beginning; début/origine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611200; spelling=始まり; reading=はじまり; senses=1; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611200 as the reference form.",
+          "selected": {
+            "sequence": "1611200",
+            "spelling": "始まり",
+            "reading": "はじまり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "start"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 始まり|はじまり#1 is the same lexeme as vocab-n3:correction:hajimari; target hash bound to the assembled addition.",
+        "contentHash": "d0ee29989c896ae0542e290551a1bdf5ed51e95fe408889389604e1ec69e9345",
+        "approvalHash": "d0ee29989c896ae0542e290551a1bdf5ed51e95fe408889389604e1ec69e9345"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 始まり|はじまり is the same lexeme as target vocab-n3:correction:hajimari.",
+        "contentHash": "d0ee29989c896ae0542e290551a1bdf5ed51e95fe408889389604e1ec69e9345",
+        "approvalHash": "d0ee29989c896ae0542e290551a1bdf5ed51e95fe408889389604e1ec69e9345"
+      }
+    },
+    {
+      "key": "学|がく",
+      "referenceIndex": 0,
+      "referenceHash": "ee579bd6dafb0dcd400b079c819a66d7710a9f8de2ee8192163f48b8e17798d1",
+      "revisionId": "030-candidate-gaku-8d31d28a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:gaku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:gaku": "6560b4465b1b4bf5bea9726986f22076a50ad9df47f857af50d401cc56a24882"
+      },
+      "reason": "Reference 学/がく (tanos N3) is the same lexeme as the new entry 学【がく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=15",
+          "finding": "tanos lists 学/がく at N3 (gloss: learning,scholarship,erudition,knowledge)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1955900; spelling=学; reading=がく; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1955900 as the reference form.",
+          "selected": {
+            "sequence": "1955900",
+            "spelling": "学",
+            "reading": "がく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "learning",
+                  "scholarship",
+                  "study",
+                  "erudition",
+                  "knowledge",
+                  "education"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study of ...",
+                  "-ology",
+                  "-ics"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 学|がく#0 is the same lexeme as vocab-n3:correction:gaku; target hash bound to the assembled addition.",
+        "contentHash": "dc05add8d7f6ef9503f9eddb553ee91291e400b5b60aa07930ea6643c2b816e8",
+        "approvalHash": "dc05add8d7f6ef9503f9eddb553ee91291e400b5b60aa07930ea6643c2b816e8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 学|がく is the same lexeme as target vocab-n3:correction:gaku.",
+        "contentHash": "dc05add8d7f6ef9503f9eddb553ee91291e400b5b60aa07930ea6643c2b816e8",
+        "approvalHash": "dc05add8d7f6ef9503f9eddb553ee91291e400b5b60aa07930ea6643c2b816e8"
+      }
+    },
+    {
+      "key": "学|がく",
+      "referenceIndex": 1,
+      "referenceHash": "77eada1eea660895cb3a69ba4b2bb05e0c5a566027b25a54eda5495753ee1913",
+      "revisionId": "030-candidate-gaku-8d31d28a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:gaku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:gaku": "6560b4465b1b4bf5bea9726986f22076a50ad9df47f857af50d401cc56a24882"
+      },
+      "reason": "Reference 学/がく (sensei N3) is the same lexeme as the new entry 学【がく】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n3-vocabulary-list/",
+          "finding": "JLPT Sensei lists 学/がく at N3 (gloss: learning; education; study of)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1955900; spelling=学; reading=がく; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1955900 as the reference form.",
+          "selected": {
+            "sequence": "1955900",
+            "spelling": "学",
+            "reading": "がく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "learning",
+                  "scholarship",
+                  "study",
+                  "erudition",
+                  "knowledge",
+                  "education"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study of ...",
+                  "-ology",
+                  "-ics"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 学|がく#1 is the same lexeme as vocab-n3:correction:gaku; target hash bound to the assembled addition.",
+        "contentHash": "ec1d52d9251fe26c86db5e39c6c3bf1f0b32cbcffa5b790b187570fedc296fb2",
+        "approvalHash": "ec1d52d9251fe26c86db5e39c6c3bf1f0b32cbcffa5b790b187570fedc296fb2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 学|がく is the same lexeme as target vocab-n3:correction:gaku.",
+        "contentHash": "ec1d52d9251fe26c86db5e39c6c3bf1f0b32cbcffa5b790b187570fedc296fb2",
+        "approvalHash": "ec1d52d9251fe26c86db5e39c6c3bf1f0b32cbcffa5b790b187570fedc296fb2"
+      }
+    },
+    {
+      "key": "学|がく",
+      "referenceIndex": 2,
+      "referenceHash": "1ba8a46f8c44a8ec78d09b8a389b74382a52d25f5987e06ff7a3c8ec1a810950",
+      "revisionId": "030-candidate-gaku-8d31d28a-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:gaku"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:gaku": "6560b4465b1b4bf5bea9726986f22076a50ad9df47f857af50d401cc56a24882"
+      },
+      "reason": "Reference 学/がく (master N3) is the same lexeme as the new entry 学【がく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list",
+          "finding": "Nihongo Master lists 学/がく at N3 (gloss: learning; scholarship; erudition)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1955900; spelling=学; reading=がく; senses=1,2; scripts/vocabulary-completion/maintenance-030/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1955900 as the reference form.",
+          "selected": {
+            "sequence": "1955900",
+            "spelling": "学",
+            "reading": "がく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "learning",
+                  "scholarship",
+                  "study",
+                  "erudition",
+                  "knowledge",
+                  "education"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study of ...",
+                  "-ology",
+                  "-ics"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-editor",
+        "finding": "Editorial first pass: reference 学|がく#2 is the same lexeme as vocab-n3:correction:gaku; target hash bound to the assembled addition.",
+        "contentHash": "ab935f66ff52d5eded2ed3895135457f6b0b097d3d7c8557b153644b0d150961",
+        "approvalHash": "ab935f66ff52d5eded2ed3895135457f6b0b097d3d7c8557b153644b0d150961"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-030-independent-reviewer",
+        "finding": "Second pass: re-checked against the regenerated assembly; content is unchanged from round 1. Publisher row 学|がく is the same lexeme as target vocab-n3:correction:gaku.",
+        "contentHash": "ab935f66ff52d5eded2ed3895135457f6b0b097d3d7c8557b153644b0d150961",
+        "approvalHash": "ab935f66ff52d5eded2ed3895135457f6b0b097d3d7c8557b153644b0d150961"
+      }
+    }
+  ]
+}
