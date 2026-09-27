@@ -1,0 +1,303 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:yohodo",
+      "revisionId": "050-add-yohodo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "よほど",
+        "reading": "よほど",
+        "romaji": "yohodo",
+        "meaning": "sehr, erheblich, weitaus; ziemlich",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "Neutrale Standardform; よっぽど ist die umgangssprachlich verstärkte Variante. Typisch: よほど〜のだろう (muss wohl sehr … sein), 〜よりよほど (viel … als), よほどのこと (etwas Außergewöhnliches). Meist in Kana (余程).",
+        "examples": [
+          {
+            "japanese": "あんなに怒るなんて、彼はよほど嫌なことがあったのだろう。",
+            "romaji": "Anna ni okoru nante, kare wa yohodo iya na koto ga atta no darou.",
+            "german": "Dass er so wütend wird – ihm muss wohl etwas sehr Unangenehmes passiert sein."
+          },
+          {
+            "japanese": "よほどのことがない限り、会議は予定どおり行います。",
+            "romaji": "Yohodo no koto ga nai kagiri, kaigi wa yotei doori okonaimasu.",
+            "german": "Sofern nichts Außergewöhnliches passiert, findet die Besprechung wie geplant statt."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "余程"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235388",
+            "patterns": [
+              0
+            ],
+            "finding": "よほど / ヨホド; 副詞/*/*/*; *; *; lemma 余程; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よほど",
+              "reading": "よほど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "よほど as \"sehr, erheblich, weitaus; ziemlich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Content-roadmap addition (maintenance batch 050); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Tanos lists 余程 at N1 (reading よっぽど, already taught as よっぽど N1); よほど is the standard reading of the same JMdict entry and is placed at the same level.",
+      "rationale": "Add よほど【よほど】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605980; spelling=よほど; reading=よほど; senses=1; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1605980 よほど/よほど sense(s) 1 support \"sehr, erheblich, weitaus; ziemlich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1605980",
+            "spelling": "よほど",
+            "reading": "よほど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "very",
+                  "greatly",
+                  "much",
+                  "to a large extent",
+                  "quite"
+                ],
+                "notes": [
+                  "余 is ateji"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"sehr, erheblich, weitaus; ziemlich\" matches JMdict 1605980 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Vermutung über einen starken Grund (よほど〜のだろう)",
+          "Feste Wendung よほどのこと (außergewöhnlicher Umstand)"
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1605980; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Tanos lists 余程 at N1 (reading よっぽど, already taught as よっぽど N1); よほど is the standard reading of the same JMdict entry and is placed at the same level."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@275235388 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235388",
+            "patterns": [
+              0
+            ],
+            "finding": "よほど / ヨホド; 副詞/*/*/*; *; *; lemma 余程; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よほど",
+              "reading": "よほど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "よほど as \"sehr, erheblich, weitaus; ziemlich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add よほど【よほど】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1605980 senses, level basis and pitch disposition (verified) inspected.",
+        "contentHash": "fc39d38f5997c1d3f1c4b631f185ceee62a3c36777909a4391700b041ad74905",
+        "approvalHash": "0c25fb6e873c928cf90280e60e6d85870b13be5cddc6e22b2f23b63b86985168"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 2): Assembly B is unchanged since round 1 (same assemblyHash as its first-approved file). Re-accepted: よほど is absent from the runtime, and the alias 余程 does not collide with よっぽど, whose alias is 余っ程. The meaning matches JMdict 1605980 sense 1. The note, both examples, the romaji and the German are correct. Pitch 0 comes from exact row sys.dic@275235388.",
+        "contentHash": "fc39d38f5997c1d3f1c4b631f185ceee62a3c36777909a4391700b041ad74905",
+        "approvalHash": "0c25fb6e873c928cf90280e60e6d85870b13be5cddc6e22b2f23b63b86985168"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:honkakuteki",
+      "revisionId": "050-add-honkakuteki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "本格的",
+        "reading": "ほんかくてき",
+        "romaji": "honkakuteki",
+        "meaning": "echt, authentisch; richtig, ernsthaft, in vollem Umfang",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "な-Adjektiv. 本格的な (echt, authentisch: 本格的な料理) und adverbial 本格的に (richtig, ernsthaft: 本格的に始まる). Abgeleitet von 本格 (die eigentliche, echte Art).",
+        "examples": [
+          {
+            "japanese": "この店では本格的なイタリア料理が食べられる。",
+            "romaji": "Kono mise de wa honkakuteki na Itaria ryouri ga taberareru.",
+            "german": "In diesem Restaurant kann man authentische italienische Küche essen."
+          },
+          {
+            "japanese": "来週から梅雨が本格的に始まるそうだ。",
+            "romaji": "Raishuu kara tsuyu ga honkakuteki ni hajimaru sou da.",
+            "german": "Ab nächster Woche soll die Regenzeit richtig beginnen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Content-roadmap addition (maintenance batch 050); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Tanos and Nihongo Master list the base noun 本格 at N1; 本格的 is its common な-adjective derivative and is placed at the same level.",
+      "rationale": "Add 本格的【ほんかくてき】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1522330; spelling=本格的; reading=ほんかくてき; senses=1,2; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1522330 本格的/ほんかくてき sense(s) 1,2 support \"echt, authentisch; richtig, ernsthaft, in vollem Umfang\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1522330",
+            "spelling": "本格的",
+            "reading": "ほんかくてき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "genuine",
+                  "real",
+                  "authentic",
+                  "standard",
+                  "orthodox"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "full-scale",
+                  "full-blown",
+                  "all-out",
+                  "full-fledged",
+                  "fully fledged",
+                  "full",
+                  "proper",
+                  "real",
+                  "earnest",
+                  "serious"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"echt, authentisch; richtig, ernsthaft, in vollem Umfang\" matches JMdict 1522330 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Attributiv: authentisches Essen (本格的な)",
+          "Adverbial: etwas beginnt richtig (本格的に)"
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1522330; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Tanos and Nihongo Master list the base noun 本格 at N1; 本格的 is its common な-adjective derivative and is placed at the same level."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 本格的 / ほんかくてき; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 本格的 / ほんかくてき",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add 本格的【ほんかくてき】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1522330 senses, level basis and pitch disposition (unknown) inspected.",
+        "contentHash": "512dd33d59e6884e4b974e2775d0cb6c6502a3d176a644c8da50c0750e8cde42",
+        "approvalHash": "307585036efc8c81823d91467d26f1046bc07d1a55d3e3b310d0048a61214722"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 2): Assembly B is unchanged since round 1. Re-accepted: 本格的 is absent from the runtime and typed Adjektiv like other な-adjectives. The meaning covers JMdict 1522330 senses 1 and 2. The examples, romaji and German are correct. Pitch stays null because no exact UniDic row exists.",
+        "contentHash": "512dd33d59e6884e4b974e2775d0cb6c6502a3d176a644c8da50c0750e8cde42",
+        "approvalHash": "307585036efc8c81823d91467d26f1046bc07d1a55d3e3b310d0048a61214722"
+      }
+    }
+  ],
+  "decisions": []
+}

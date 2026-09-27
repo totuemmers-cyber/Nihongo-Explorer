@@ -1893,6 +1893,33 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1403": {
+        "examples": [
+          {
+            "japanese": "「出鱈目」は当て字の一例である。",
+            "romaji": "'Detarame' wa ateji no ichirei de aru.",
+            "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44736823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "当て字 / アテジ; 名詞/普通名詞/一般/*; *; *; lemma 当て字; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "当て字",
+              "reading": "あてじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "当て字 as \"phonetisch verwendetes Kanji\"; lemma 当て字 is the taught lexeme."
+            }
+          }
+        ]
+      },
       "1556": {
         "romaji": "dokugokan",
         "pitch": null
@@ -2020,6 +2047,38 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ],
         "pitch": null
+      },
+      "3480": {
+        "word": "繁盛",
+        "examples": [
+          {
+            "japanese": "商売が繁盛するように、神社でお祈りをしてきました。",
+            "romaji": "Shoubai ga hanjou suru you ni, jinja de oinori o shite kimashita.",
+            "german": "Ich habe an einem Schrein gebetet, damit das Geschäft gedeiht."
+          }
+        ],
+        "aliases": [
+          "繁昌"
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219789142",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "繁盛 / ハンジョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 繁盛; aType 1. Existing 0 contradicted or unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "繁盛",
+              "reading": "はんじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "繁盛 as \"Gedeihen\"; lemma 繁盛 is the taught lexeme."
+            }
+          }
+        ]
       },
       "3642": {
         "examples": [
@@ -58582,6 +58641,73 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "5233": {
+        "word": "よほど",
+        "reading": "よほど",
+        "romaji": "yohodo",
+        "meaning": "sehr, erheblich, weitaus; ziemlich",
+        "type": "Adverb",
+        "category": "Vergleich",
+        "level": "N1",
+        "notes": "Neutrale Standardform; よっぽど ist die umgangssprachlich verstärkte Variante. Typisch: よほど〜のだろう (muss wohl sehr … sein), 〜よりよほど (viel … als), よほどのこと (etwas Außergewöhnliches). Meist in Kana (余程).",
+        "examples": [
+          {
+            "japanese": "あんなに怒るなんて、彼はよほど嫌なことがあったのだろう。",
+            "romaji": "Anna ni okoru nante, kare wa yohodo iya na koto ga atta no darou.",
+            "german": "Dass er so wütend wird – ihm muss wohl etwas sehr Unangenehmes passiert sein."
+          },
+          {
+            "japanese": "よほどのことがない限り、会議は予定どおり行います。",
+            "romaji": "Yohodo no koto ga nai kagiri, kaigi wa yotei doori okonaimasu.",
+            "german": "Sofern nichts Außergewöhnliches passiert, findet die Besprechung wie geplant statt."
+          }
+        ],
+        "aliases": [
+          "余程"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235388",
+            "patterns": [
+              0
+            ],
+            "finding": "よほど / ヨホド; 副詞/*/*/*; *; *; lemma 余程; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "よほど",
+              "reading": "よほど",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "よほど as \"sehr, erheblich, weitaus; ziemlich\"."
+            }
+          }
+        ]
+      },
+      "5234": {
+        "word": "本格的",
+        "reading": "ほんかくてき",
+        "romaji": "honkakuteki",
+        "meaning": "echt, authentisch; richtig, ernsthaft, in vollem Umfang",
+        "type": "Adjektiv",
+        "category": "Eigenschaften",
+        "level": "N1",
+        "notes": "な-Adjektiv. 本格的な (echt, authentisch: 本格的な料理) und adverbial 本格的に (richtig, ernsthaft: 本格的に始まる). Abgeleitet von 本格 (die eigentliche, echte Art).",
+        "examples": [
+          {
+            "japanese": "この店では本格的なイタリア料理が食べられる。",
+            "romaji": "Kono mise de wa honkakuteki na Itaria ryouri ga taberareru.",
+            "german": "In diesem Restaurant kann man authentische italienische Küche essen."
+          },
+          {
+            "japanese": "来週から梅雨が本格的に始まるそうだ。",
+            "romaji": "Raishuu kara tsuyu ga honkakuteki ni hajimaru sou da.",
+            "german": "Ab nächster Woche soll die Regenzeit richtig beginnen."
+          }
+        ],
+        "pitch": null
       }
     },
     "vocab-n5": {
@@ -67575,6 +67701,24 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "516": {
+        "examples": [
+          {
+            "japanese": "久しぶりですね。",
+            "romaji": "Hisashiburi desu ne.",
+            "german": "Lange nicht gesehen!"
+          },
+          {
+            "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+            "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+            "german": "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+          }
+        ],
+        "aliases": [
+          "久し振り"
+        ],
+        "pitch": null
+      },
       "523": {
         "examples": [
           {
@@ -69013,6 +69157,24 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "878": {
+        "examples": [
+          {
+            "japanese": "先々月、キューバにいきました。",
+            "romaji": "Sensengetsu, Kyuuba ni ikimashita.",
+            "german": "Vorletzten Monat bin ich nach Kuba gereist."
+          },
+          {
+            "japanese": "先々月に引っ越しました。",
+            "romaji": "Sensengetsu ni hikkoshimashita.",
+            "german": "Ich bin vorletzten Monat umgezogen."
+          }
+        ],
+        "aliases": [
+          "先先月"
+        ],
+        "pitch": null
       },
       "939": {
         "examples": [
@@ -72056,6 +72218,41 @@ window.VOCAB_CORRECTION_RULES = {
               "reading": "きらきら",
               "grammaticalForm": "副詞/*/*/*; *; *",
               "sense": "きらきら as \"funkelnd, glitzernd\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "634": {
+        "examples": [
+          {
+            "japanese": "スプーンですくいます。",
+            "romaji": "Supuun de sukuimasu.",
+            "german": "Ich schöpfe es mit dem Löffel."
+          },
+          {
+            "japanese": "スプーンでスープをすくいます。",
+            "romaji": "Supuun de suupu o sukuimasu.",
+            "german": "Ich schöpfe die Suppe mit dem Löffel."
+          }
+        ],
+        "aliases": [
+          "掬う"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147003245",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "すくう / スクウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 掬う; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "すくう",
+              "reading": "すくう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "すくう as \"schöpfen, löffeln\"; lemma 掬う is the taught lexeme."
             }
           }
         ]
@@ -75662,6 +75859,37 @@ window.VOCAB_CORRECTION_RULES = {
               "reading": "ざんぴん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
               "sense": "残品 as \"Restware\"; grammatical form matches the headword."
+            }
+          }
+        ]
+      },
+      "2633": {
+        "word": "捕らえる",
+        "examples": [
+          {
+            "japanese": "兵士たちは敵を生きたまま捕らえた。",
+            "romaji": "Heishitachi wa teki o ikita mama toraeta.",
+            "german": "Die Soldaten nahmen den Feind lebendig gefangen."
+          }
+        ],
+        "aliases": [
+          "捕える"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188542550",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "捕らえる / トラエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 捕らえる; aType 3. Existing pitch 3 attested by the exact row; unchanged.",
+            "match": {
+              "word": "捕らえる",
+              "reading": "とらえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "捕らえる as \"fangen\"; lemma 捕らえる is the taught lexeme."
             }
           }
         ]
@@ -90583,6 +90811,42 @@ window.VOCAB_CORRECTION_RULES = {
         ],
         "pitch": null
       },
+      "856": {
+        "examples": [
+          {
+            "japanese": "参加は自由です。ただし、事前に申し込みが必要です。",
+            "romaji": "Sanka wa jiyuu desu. Tadashi, jizen ni moushikomi ga hitsuyou desu.",
+            "german": "Die Teilnahme ist freiwillig. Allerdings ist eine vorherige Anmeldung erforderlich."
+          },
+          {
+            "kind": "natural",
+            "japanese": "写真は撮れます。ただし、フラッシュは使わないでください。",
+            "romaji": "Shashin wa toremasu. Tadashi, furasshu wa tsukawanaide kudasai.",
+            "german": "Fotografieren ist erlaubt. Allerdings darf kein Blitz verwendet werden."
+          }
+        ],
+        "aliases": [
+          "但し"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161665335",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "ただし / タダシ; 接続詞/*/*/*; *; *; lemma 但し; aType 1. Existing pitch 1 attested by the exact row; unchanged.",
+            "match": {
+              "word": "ただし",
+              "reading": "ただし",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "ただし as \"jedoch; allerdings\"; lemma 但し is the taught lexeme."
+            }
+          }
+        ]
+      },
       "861": {
         "examples": [
           {
@@ -90592,6 +90856,36 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ],
         "pitch": null
+      },
+      "1357": {
+        "examples": [
+          {
+            "japanese": "そのスリッパは私のお薦めです。",
+            "romaji": "Sono surippa wa watashi no osusume desu.",
+            "german": "Diese Hausschuhe sind meine Empfehlung."
+          }
+        ],
+        "aliases": [
+          "勧め"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147858350",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "薦め / ススメ; 名詞/普通名詞/一般/*; *; *; lemma 勧め; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "薦め",
+              "reading": "すすめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "薦め as \"Empfehlung\"; lemma 勧め is the taught lexeme."
+            }
+          }
+        ]
       },
       "1526": {
         "type": "Ausdruck",
@@ -95446,6 +95740,9 @@ window.VOCAB_CORRECTION_RULES = {
             "romaji": "Sono hon wa sensenshuu kara karita mama da.",
             "german": "Das Buch habe ich seit vorletzter Woche ausgeliehen."
           }
+        ],
+        "aliases": [
+          "先先週"
         ],
         "pitch": null
       },
@@ -117153,6 +117450,65 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "3043": {
+        "word": "浸ける",
+        "reading": "つける",
+        "romaji": "tsukeru",
+        "meaning": "eintauchen, einweichen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Transitiv: etwas in Flüssigkeit legen (水に浸ける). Gleich gelesen wie 漬ける (einlegen, marinieren), das vor allem für eingelegtes Essen steht. Intransitives Gegenstück: 浸かる (eingetaucht sein).",
+        "examples": [
+          {
+            "japanese": "汚れたシャツをしばらく水に浸けておいた。",
+            "romaji": "Yogoreta shatsu o shibaraku mizu ni tsukete oita.",
+            "german": "Ich habe das schmutzige Hemd eine Weile in Wasser eingeweicht."
+          },
+          {
+            "japanese": "疲れた足をお湯に浸けると気持ちがいい。",
+            "romaji": "Tsukareta ashi o oyu ni tsukeru to kimochi ga ii.",
+            "german": "Es tut gut, die müden Füße in warmes Wasser zu tauchen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "つける",
+          "conjugationKind": "verb",
+          "conjugationVariants": {
+            "imperative": [
+              "つけよ"
+            ]
+          }
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "つける",
+        "conjugationVariants": {
+          "imperative": [
+            "つけよ"
+          ]
+        },
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@175377924",
+            "patterns": [
+              0
+            ],
+            "finding": "浸ける / ツケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 浸ける; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "浸ける",
+              "reading": "つける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "浸ける as \"eintauchen, einweichen\"."
+            }
+          }
+        ]
       }
     },
     "idioms": {
@@ -117490,6 +117846,7 @@ window.VOCAB_CORRECTION_RULES = {
       "843": "vocab-n1:843",
       "847": "vocab-n1:847",
       "1037": "vocab-n1:1037",
+      "1403": "vocab-n1:1403",
       "1556": "vocab-n1:1556",
       "2048": "vocab-n1:2048",
       "2331": "vocab-n1:2331",
@@ -117497,6 +117854,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2829": "vocab-n1:2829",
       "2987": "vocab-n1:2987",
       "3268": "vocab-n1:3268",
+      "3480": "vocab-n1:3480",
       "3642": "vocab-n1:3642",
       "3715": "vocab-n1:3715",
       "3895": "vocab-n1:correction:motatsuku",
@@ -118836,7 +119194,9 @@ window.VOCAB_CORRECTION_RULES = {
       "5229": "vocab-n1:correction:mesu",
       "5230": "vocab-n1:correction:metsuki",
       "5231": "vocab-n1:correction:memori",
-      "5232": "vocab-n1:correction:merodii"
+      "5232": "vocab-n1:correction:merodii",
+      "5233": "vocab-n1:correction:yohodo",
+      "5234": "vocab-n1:correction:honkakuteki"
     },
     "vocab-n5": {
       "0": "vocab-n5:0",
@@ -119225,6 +119585,7 @@ window.VOCAB_CORRECTION_RULES = {
       "502": "vocab-n5:502",
       "504": "vocab-n5:504",
       "512": "vocab-n5:512",
+      "516": "vocab-n5:516",
       "523": "vocab-n5:523",
       "528": "vocab-n5:528",
       "541": "vocab-n5:541",
@@ -119275,6 +119636,7 @@ window.VOCAB_CORRECTION_RULES = {
       "798": "vocab-n5:798",
       "831": "vocab-n5:831",
       "843": "vocab-n5:843",
+      "878": "vocab-n5:878",
       "939": "vocab-n5:939",
       "1004": "vocab-n5:1004",
       "1194": "vocab-n5:1194",
@@ -119384,6 +119746,7 @@ window.VOCAB_CORRECTION_RULES = {
       "617": "vocab-n4:617",
       "618": "vocab-n4:618",
       "621": "vocab-n4:621",
+      "634": "vocab-n4:634",
       "635": "vocab-n4:635",
       "664": "vocab-n4:664",
       "672": "vocab-n4:672",
@@ -119490,6 +119853,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2587": "vocab-n3:2587",
       "2610": "vocab-n3:2610",
       "2620": "vocab-n3:2620",
+      "2633": "vocab-n3:2633",
       "2654": "vocab-n3:2654",
       "2694": "vocab-n3:2694",
       "2748": "vocab-n3:2748",
@@ -119872,7 +120236,9 @@ window.VOCAB_CORRECTION_RULES = {
       "208": "vocab-n2:208",
       "523": "vocab-n2:523",
       "791": "vocab-n2:791",
+      "856": "vocab-n2:856",
       "861": "vocab-n2:861",
+      "1357": "vocab-n2:1357",
       "1526": "vocab-n2:1526",
       "1550": "vocab-n2:1550",
       "1768": "vocab-n2:1768",
@@ -120530,7 +120896,8 @@ window.VOCAB_CORRECTION_RULES = {
       "3039": "vocab-n2:correction:kappatsu",
       "3040": "vocab-n2:correction:kategorii",
       "3041": "vocab-n2:correction:kamubakku",
-      "3042": "vocab-n2:correction:karute"
+      "3042": "vocab-n2:correction:karute",
+      "3043": "vocab-n2:correction:tsukeru-hitasu"
     },
     "idioms": {
       "47": "idioms:47",

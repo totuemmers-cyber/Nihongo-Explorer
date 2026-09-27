@@ -93,7 +93,11 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
 - **038– (N1 JLPT-list gaps, research in maintenance-038 …):** the N1 backlog in twelve chunks by reading,
   curated the same way as the N2 chunks and each checked by an independent reviewer.
 
-Runtime: **15,555 entries** (N5 1,643, N4 1,637, N3 3,753, N2 3,171, N1 5,351),
+- **050 (follow-ups, research in maintenance-050):** spelling aliases (勧め, 掬う, 先先月, 先先週, 久し振り,
+  但し), headwords 繁盛 and 捕らえる with the old spellings as aliases, romaji and German fixes, and
+  the additions よほど, 本格的 and 浸ける.
+
+Runtime: **15,558 entries** (N5 1,643, N4 1,637, N3 3,753, N2 3,172, N1 5,353),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

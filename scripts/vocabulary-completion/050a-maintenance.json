@@ -1,0 +1,1360 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1357",
+      "revisionId": "050-vocab-n2-1357",
+      "state": "accepted",
+      "predecessorHash": "f0237b68e82a51a74b4aac18da330178e12ebd92db5b4fdac7999d751818296f",
+      "predecessorRevisionHash": null,
+      "originalHash": "f0237b68e82a51a74b4aac18da330178e12ebd92db5b4fdac7999d751818296f",
+      "rationale": "Add 勧め, the more common spelling of the same noun すすめ (JMdict 1210900 lists 勧め, 薦め, 奨め as one entry; Tanos and Nihongo Master list 勧め at N1). Example romaji \"o susumedesu\" fixed to \"osusume desu\".",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "そのスリッパは私のお薦めです。",
+            "romaji": "Sono surippa wa watashi no o susumedesu.",
+            "german": "Diese Hausschuhe sind meine Empfehlung."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "aliases": [
+          "勧め"
+        ],
+        "examples": [
+          {
+            "japanese": "そのスリッパは私のお薦めです。",
+            "romaji": "Sono surippa wa watashi no osusume desu.",
+            "german": "Diese Hausschuhe sind meine Empfehlung."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147858350",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "薦め / ススメ; 名詞/普通名詞/一般/*; *; *; lemma 勧め; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "薦め",
+              "reading": "すすめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "薦め as \"Empfehlung\"; lemma 勧め is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1210900; spellings=薦め,勧め; reading=すすめ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1210900 lists 薦め and 勧め / すすめ as one entry with the sense taught here (\"Empfehlung\").",
+          "selected": {
+            "sequence": "1210900",
+            "spelling": "薦め",
+            "reading": "すすめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recommendation",
+                  "advice",
+                  "suggestion",
+                  "encouragement"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n2:1357 after vocab-correction-rules.js",
+          "finding": "Add 勧め, the more common spelling of the same noun すすめ (JMdict 1210900 lists 勧め, 薦め, 奨め as one entry; Tanos and Nihongo Master list 勧め at N1). Example romaji \"o susumedesu\" fixed to \"osusume desu\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"Empfehlung\" unchanged; checked against JMdict 1210900.",
+        "japanese": "そのスリッパは私のお薦めです。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"susume\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Diese Hausschuhe sind meine Empfehlung."
+        ],
+        "lexical": "JMdict 1210900; aliases 勧め are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@147858350 attests 0. Existing pitch 0 attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147858350",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "薦め / ススメ; 名詞/普通名詞/一般/*; *; *; lemma 勧め; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "薦め",
+              "reading": "すすめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "薦め as \"Empfehlung\"; lemma 勧め is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add 勧め, the more common spelling of the same noun すすめ (JMdict 1210900 lists 勧め, 薦め, 奨め as one entry; Tanos and Nihongo Master list 勧め at N1). Example romaji \"o susumedesu\" fixed to \"osusume desu\". Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "d04f9f5b096e1be906b8e0396ef4f37a228df3e2831679b86c7736902658f96e",
+        "approvalHash": "16394a3df0f2b3a45ef529c87e80618e837f7e142a8b71b52fece74fd36f0bd9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. cjs diff against before-r1 touches only 634, 516 and 856). Re-accepted: 勧め is a spelling of the same JMdict entry 1210900; the romaji 'Sono surippa wa watashi no osusume desu.' is correct; pitch 0 is supported by exact row sys.dic@147858350 (薦め, lemma 勧め, aType 0).",
+        "contentHash": "d04f9f5b096e1be906b8e0396ef4f37a228df3e2831679b86c7736902658f96e",
+        "approvalHash": "16394a3df0f2b3a45ef529c87e80618e837f7e142a8b71b52fece74fd36f0bd9"
+      }
+    },
+    {
+      "id": "vocab-n4:634",
+      "revisionId": "050-vocab-n4-634",
+      "state": "accepted",
+      "predecessorHash": "5bf644f716273f04508b0b8588543767326dc584e984ccc1f2c2f06ba9295aa3",
+      "predecessorRevisionHash": null,
+      "originalHash": "5bf644f716273f04508b0b8588543767326dc584e984ccc1f2c2f06ba9295aa3",
+      "rationale": "Add the kanji spelling 掬う of the same verb すくう \"scoop, ladle\" (JMdict 1226200). The homophones 救う \"rescue\" and 巣くう \"nest\" are separate entries and are not merged. German examples reworded (non-standard \"Ich löffel\", doubled Löffel).",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "スプーンですくいます。",
+            "romaji": "Supuun de sukuimasu.",
+            "german": "Ich löffel es mit dem Löffel."
+          },
+          {
+            "japanese": "スプーンでスープをすくいます。",
+            "romaji": "Supuun de suupu o sukuimasu.",
+            "german": "Ich löffle die Suppe mit dem Löffel."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "aliases": [
+          "掬う"
+        ],
+        "examples": [
+          {
+            "japanese": "スプーンですくいます。",
+            "romaji": "Supuun de sukuimasu.",
+            "german": "Ich schöpfe es mit dem Löffel."
+          },
+          {
+            "japanese": "スプーンでスープをすくいます。",
+            "romaji": "Supuun de suupu o sukuimasu.",
+            "german": "Ich schöpfe die Suppe mit dem Löffel."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147003245",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "すくう / スクウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 掬う; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "すくう",
+              "reading": "すくう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "すくう as \"schöpfen, löffeln\"; lemma 掬う is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226200; spellings=すくう,掬う; reading=すくう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1226200 lists すくう and 掬う / すくう as one entry with the sense taught here (\"schöpfen, löffeln\").",
+          "selected": {
+            "sequence": "1226200",
+            "spelling": "すくう",
+            "reading": "すくう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to scoop",
+                  "to ladle out"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to trip up (e.g. someone's legs)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n4:634 after vocab-correction-rules.js",
+          "finding": "Add the kanji spelling 掬う of the same verb すくう \"scoop, ladle\" (JMdict 1226200). The homophones 救う \"rescue\" and 巣くう \"nest\" are separate entries and are not merged. German examples reworded (non-standard \"Ich löffel\", doubled Löffel)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"schöpfen, löffeln\" unchanged; checked against JMdict 1226200.",
+        "japanese": "スプーンですくいます。 / スプーンでスープをすくいます。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"sukuu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich schöpfe es mit dem Löffel.",
+          "Ich schöpfe die Suppe mit dem Löffel."
+        ],
+        "lexical": "JMdict 1226200; aliases 掬う are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (godan, reading すくう).",
+        "level": "Existing N4 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@147003245 attests 0. Existing pitch 0 attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147003245",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "すくう / スクウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 掬う; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "すくう",
+              "reading": "すくう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "すくう as \"schöpfen, löffeln\"; lemma 掬う is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add the kanji spelling 掬う of the same verb すくう \"scoop, ladle\" (JMdict 1226200). The homophones 救う \"rescue\" and 巣くう \"nest\" are separate entries and are not merged. German examples reworded (non-standard \"Ich löffel\", doubled Löffel). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "25554c63e9feaf29fb35dbd81f10fa312f86ab33c3bff700b2491385d16442c4",
+        "approvalHash": "469222c274683a94980e1c410248093918c8b6ff7594b5cabe1f320176aca183"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. The round-1 fix is applied. The German examples now read 'Ich schöpfe es mit dem Löffel.' and 'Ich schöpfe die Suppe mit dem Löffel.', which are grammatical and match スプーンですくいます。 / スプーンでスープをすくいます。 The Japanese, the romaji, the alias 掬う (JMdict 1226200, kana row sys.dic@147003245 with lemma 掬う and aType 0) and the godan metadata are unchanged and correct. The homophones 救う and 巣くう are not merged.",
+        "contentHash": "25554c63e9feaf29fb35dbd81f10fa312f86ab33c3bff700b2491385d16442c4",
+        "approvalHash": "469222c274683a94980e1c410248093918c8b6ff7594b5cabe1f320176aca183"
+      }
+    },
+    {
+      "id": "vocab-n5:878",
+      "revisionId": "050-vocab-n5-878",
+      "state": "accepted",
+      "predecessorHash": "720e7b0cef8a0593c5cad71e43dbb7462f993a9d689ee74172e71e50048dbac4",
+      "predecessorRevisionHash": null,
+      "originalHash": "720e7b0cef8a0593c5cad71e43dbb7462f993a9d689ee74172e71e50048dbac4",
+      "rationale": "Add 先先月, the spelling of 先々月 without the repetition mark (same JMdict entry 1596200). Example romaji \"Sakizaki tsuki\" misread 先々月; corrected to \"Sensengetsu\".",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "先々月、キューバにいきました。",
+            "romaji": "Sakizaki tsuki, Kyuuba ni ikimashita.",
+            "german": "Vorletzten Monat bin ich nach Kuba gereist."
+          },
+          {
+            "japanese": "先々月に引っ越しました。",
+            "romaji": "Sensengetsu ni hikkoshimashita.",
+            "german": "Ich bin vorletzten Monat umgezogen."
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "aliases": [
+          "先先月"
+        ],
+        "examples": [
+          {
+            "japanese": "先々月、キューバにいきました。",
+            "romaji": "Sensengetsu, Kyuuba ni ikimashita.",
+            "german": "Vorletzten Monat bin ich nach Kuba gereist."
+          },
+          {
+            "japanese": "先々月に引っ越しました。",
+            "romaji": "Sensengetsu ni hikkoshimashita.",
+            "german": "Ich bin vorletzten Monat umgezogen."
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596200; spellings=先々月,先先月; reading=せんせんげつ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1596200 lists 先々月 and 先先月 / せんせんげつ as one entry with the sense taught here (\"vorletzter Monat\").",
+          "selected": {
+            "sequence": "1596200",
+            "spelling": "先々月",
+            "reading": "せんせんげつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "month before last"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n5:878 after vocab-correction-rules.js",
+          "finding": "Add 先先月, the spelling of 先々月 without the repetition mark (same JMdict entry 1596200). Example romaji \"Sakizaki tsuki\" misread 先々月; corrected to \"Sensengetsu\"."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"vorletzter Monat\" unchanged; checked against JMdict 1596200.",
+        "japanese": "先々月、キューバにいきました。 / 先々月に引っ越しました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"sensengetsu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Vorletzten Monat bin ich nach Kuba gereist.",
+          "Ich bin vorletzten Monat umgezogen."
+        ],
+        "lexical": "JMdict 1596200; aliases 先先月 are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 先々月 / せんせんげつ; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 先々月 / せんせんげつ",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add 先先月, the spelling of 先々月 without the repetition mark (same JMdict entry 1596200). Example romaji \"Sakizaki tsuki\" misread 先々月; corrected to \"Sensengetsu\". Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "e2647e783ddc3bf652721cfbbda51473622af32f0a7f470aa04989e90b1b226b",
+        "approvalHash": "d1a775d945d7355b3fddf96716380b1ba77c74f870a5abdd1dab19cd9c288f1b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. Re-accepted: 先先月 is the same JMdict entry 1596200 as 先々月; the romaji fix 'Sensengetsu, Kyuuba ni ikimashita.' is correct; pitch 0 -> null because no exact UniDic row exists.",
+        "contentHash": "e2647e783ddc3bf652721cfbbda51473622af32f0a7f470aa04989e90b1b226b",
+        "approvalHash": "d1a775d945d7355b3fddf96716380b1ba77c74f870a5abdd1dab19cd9c288f1b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sensenshuu",
+      "revisionId": "050-vocab-n2-correction-sensenshuu",
+      "state": "accepted",
+      "predecessorHash": "300906e96e00ddba7db9708946fb21fdd5427ca75dc24822ad991021a7702e87",
+      "predecessorRevisionHash": "05cc31e16434cfc0d8614ccef07c04245efeb6bafad9fa382d40f3b9a4c8231f",
+      "originalHash": "300906e96e00ddba7db9708946fb21fdd5427ca75dc24822ad991021a7702e87",
+      "rationale": "Add 先先週, the spelling of 先々週 without the repetition mark (same JMdict entry 1888910).",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "先先週"
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1888910; spellings=先先週,先々週; reading=せんせんしゅう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1888910 lists 先先週 and 先々週 / せんせんしゅう as one entry with the sense taught here (\"vorletzte Woche\").",
+          "selected": {
+            "sequence": "1888910",
+            "spelling": "先先週",
+            "reading": "せんせんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "week before last"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n2:correction:sensenshuu after vocab-correction-rules.js",
+          "finding": "Add 先先週, the spelling of 先々週 without the repetition mark (same JMdict entry 1888910)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"vorletzte Woche\" unchanged; checked against JMdict 1888910.",
+        "japanese": "先々週の土曜日に引っ越した。 / その本は先々週から借りたままだ。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"sensenshuu\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich bin am Samstag vorletzte Woche umgezogen.",
+          "Das Buch habe ich seit vorletzter Woche ausgeliehen."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "JMdict 1888910; aliases 先先週 are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 先々週 / せんせんしゅう.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 先々週 / せんせんしゅう",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add 先先週, the spelling of 先々週 without the repetition mark (same JMdict entry 1888910). Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "1fcafbc24ba76c8d53d365203ffc00aaf5ff42bfa609ec880566854119cb9e08",
+        "approvalHash": "bcd7f58e532de717b7db9160d53a746ac09c301fbafdb9afe300e6eac10d4084"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: the only change to the whole assembly is on this review. policy.enrichmentRequired went from false to true, and review.reviewedDistinctContexts was added as true. It is needed because this entry is an addition seed from an earlier batch. finalContent and packet are byte-identical to round 2, and every other review differs only in its approval passes. The entry has its note (\"Die Woche vor der letzten Woche. Entsprechend: 先々月 (vorletzter Monat).\") and two examples. Their contexts are distinct: a one-off event on a specific day (先々週の土曜日に引っ越した, \"Ich bin am Samstag vorletzte Woche umgezogen.\") and an ongoing state since that week (先々週から借りたままだ, \"Das Buch habe ich seit vorletzter Woche ausgeliehen.\"). Both use the headword in the taught sense, and their romaji is correct. Re-accepted: 先先週 is the same JMdict entry 1888910 as 先々週, and pitch stays null because no exact UniDic row exists.",
+        "contentHash": "1fcafbc24ba76c8d53d365203ffc00aaf5ff42bfa609ec880566854119cb9e08",
+        "approvalHash": "bcd7f58e532de717b7db9160d53a746ac09c301fbafdb9afe300e6eac10d4084"
+      }
+    },
+    {
+      "id": "vocab-n1:3480",
+      "revisionId": "050-vocab-n1-3480",
+      "state": "accepted",
+      "predecessorHash": "f4c221ce375c32491e33a12722e1fb0be38221ba193e73bb7f9fea60ed2a0612",
+      "predecessorRevisionHash": null,
+      "originalHash": "f4c221ce375c32491e33a12722e1fb0be38221ba193e73bb7f9fea60ed2a0612",
+      "rationale": "Headword changed from 繁昌 to 繁盛, the standard modern spelling of はんじょう (JMdict 1481710 lists 繁盛 first; UniDic files 繁昌 under lemma 繁盛); 繁昌 kept as alias. Example rewritten with 繁盛. Pitch corrected from unattested 0 to 1 per the exact UniDic row.",
+      "original": {
+        "word": "繁昌",
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "商売が繁昌するように、神社でお祈りをしてきました。",
+            "romaji": "Shoubai ga hanjou suru you ni, jinja de oinori o shite kimashita.",
+            "german": "Ich habe an einem Schrein gebetet, damit das Geschäft gedeiht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "word": "繁盛",
+        "aliases": [
+          "繁昌"
+        ],
+        "examples": [
+          {
+            "japanese": "商売が繁盛するように、神社でお祈りをしてきました。",
+            "romaji": "Shoubai ga hanjou suru you ni, jinja de oinori o shite kimashita.",
+            "german": "Ich habe an einem Schrein gebetet, damit das Geschäft gedeiht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219789142",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "繁盛 / ハンジョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 繁盛; aType 1. Existing 0 contradicted or unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "繁盛",
+              "reading": "はんじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "繁盛 as \"Gedeihen\"; lemma 繁盛 is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1481710; spellings=繁昌,繁盛; reading=はんじょう; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1481710 lists 繁昌 and 繁盛 / はんじょう as one entry with the sense taught here (\"Gedeihen\").",
+          "selected": {
+            "sequence": "1481710",
+            "spelling": "繁昌",
+            "reading": "はんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prosperity",
+                  "flourishing",
+                  "thriving"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n1:3480 after vocab-correction-rules.js",
+          "finding": "Headword changed from 繁昌 to 繁盛, the standard modern spelling of はんじょう (JMdict 1481710 lists 繁盛 first; UniDic files 繁昌 under lemma 繁盛); 繁昌 kept as alias. Example rewritten with 繁盛. Pitch corrected from unattested 0 to 1 per the exact UniDic row."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-spelling",
+          "spelling-alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"Gedeihen\" unchanged; checked against JMdict 1481710.",
+        "japanese": "商売が繁盛するように、神社でお祈りをしてきました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"hanjou\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Ich habe an einem Schrein gebetet, damit das Geschäft gedeiht."
+        ],
+        "lexical": "JMdict 1481710; aliases 繁昌 are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (suru, reading はんじょうする).",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@219789142 attests 1. Existing 0 contradicted or unattested by the exact row; corrected to 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219789142",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "繁盛 / ハンジョウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 繁盛; aType 1. Existing 0 contradicted or unattested by the exact row; corrected to 1.",
+            "match": {
+              "word": "繁盛",
+              "reading": "はんじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "繁盛 as \"Gedeihen\"; lemma 繁盛 is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Headword changed from 繁昌 to 繁盛, the standard modern spelling of はんじょう (JMdict 1481710 lists 繁盛 first; UniDic files 繁昌 under lemma 繁盛); 繁昌 kept as alias. Example rewritten with 繁盛. Pitch corrected from unattested 0 to 1 per the exact UniDic row. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "de619d76c894543f767f9801e450de458e7c2ec7c0b63df6cdb4eeb8161617a0",
+        "approvalHash": "9879201b807e32fd9dc7023db9f70e267345a6f160ddd482137cf00e93c55b72"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. Re-accepted: the headword swap 繁昌 -> 繁盛 is justified by JMdict 1481710 and by UniDic, which files 繁昌 (sys.dic@219788920) under lemma 繁盛; 繁昌 is kept as an alias; pitch 1 comes from exact row sys.dic@219789142; the suru metadata is unchanged.",
+        "contentHash": "de619d76c894543f767f9801e450de458e7c2ec7c0b63df6cdb4eeb8161617a0",
+        "approvalHash": "9879201b807e32fd9dc7023db9f70e267345a6f160ddd482137cf00e93c55b72"
+      }
+    },
+    {
+      "id": "vocab-n5:516",
+      "revisionId": "050-vocab-n5-516",
+      "state": "accepted",
+      "predecessorHash": "6d2d85e402f83ab7cf200b438c05af44aaa37dbf07759f0874147bf1369254d9",
+      "predecessorRevisionHash": null,
+      "originalHash": "6d2d85e402f83ab7cf200b438c05af44aaa37dbf07759f0874147bf1369254d9",
+      "rationale": "Add 久し振り, the spelling with kanji 振り of the same word 久しぶり (JMdict 1227370). German of the second example made idiomatic.",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "久しぶりですね。",
+            "romaji": "Hisashiburi desu ne.",
+            "german": "Lange nicht gesehen!"
+          },
+          {
+            "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+            "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+            "german": "Ich sagte zum Freund: 'Lange nicht gesehen, wie ging es dir?'"
+          }
+        ],
+        "pitch": 0
+      },
+      "replacement": {
+        "aliases": [
+          "久し振り"
+        ],
+        "examples": [
+          {
+            "japanese": "久しぶりですね。",
+            "romaji": "Hisashiburi desu ne.",
+            "german": "Lange nicht gesehen!"
+          },
+          {
+            "japanese": "「久しぶり、元気だった？」と友達に言いました。",
+            "romaji": "'Hisashiburi, genki datta?' to tomodachi ni iimashita.",
+            "german": "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+          }
+        ],
+        "pitch": null
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1227370; spellings=久しぶり,久し振り; reading=ひさしぶり; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1227370 lists 久しぶり and 久し振り / ひさしぶり as one entry with the sense taught here (\"lange nicht gesehen\").",
+          "selected": {
+            "sequence": "1227370",
+            "spelling": "久しぶり",
+            "reading": "ひさしぶり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "a long time (since the last time)",
+                  "first in a long time"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "it's been a long time",
+                  "long time no see"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n5:516 after vocab-correction-rules.js",
+          "finding": "Add 久し振り, the spelling with kanji 振り of the same word 久しぶり (JMdict 1227370). German of the second example made idiomatic."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"lange nicht gesehen\" unchanged; checked against JMdict 1227370.",
+        "japanese": "久しぶりですね。 / 「久しぶり、元気だった？」と友達に言いました。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"hisashiburi\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Lange nicht gesehen!",
+          "Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'"
+        ],
+        "lexical": "JMdict 1227370; aliases 久し振り are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N5 retained."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 久しぶり / ひさしぶり; previous 0 is unattested and not inferred from parts.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 久しぶり / ひさしぶり",
+            "finding": "No exact-form row; pitch set to unknown (null)."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add 久し振り, the spelling with kanji 振り of the same word 久しぶり (JMdict 1227370). German of the second example made idiomatic. Final content, JMdict evidence and pitch disposition (unknown) inspected.",
+        "contentHash": "7c2ded6874d3d3e4e3684881354ac3195851b3e3beb43be93a567386f1ca8dc7",
+        "approvalHash": "34f8961633fa5b59eb9885129a182c1285f99c2145533171edba7bf3d5be4460"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. The round-1 fix is applied. examples[1].german is now 'Ich sagte zu meinem Freund: 'Lange nicht gesehen! Wie ist es dir ergangen?'', which is idiomatic German and faithful to 「久しぶり、元気だった？」と友達に言いました。 examples[0], the romaji, the alias 久し振り (JMdict 1227370) and pitch null (no exact UniDic row) are unchanged and correct.",
+        "contentHash": "7c2ded6874d3d3e4e3684881354ac3195851b3e3beb43be93a567386f1ca8dc7",
+        "approvalHash": "34f8961633fa5b59eb9885129a182c1285f99c2145533171edba7bf3d5be4460"
+      }
+    },
+    {
+      "id": "vocab-n2:856",
+      "revisionId": "050-vocab-n2-856",
+      "state": "accepted",
+      "predecessorHash": "9c50e8aaa84837c47df729add994e79dea3fb1da52436c16f4c4f8216ff34fd0",
+      "predecessorRevisionHash": null,
+      "originalHash": "9c50e8aaa84837c47df729add994e79dea3fb1da52436c16f4c4f8216ff34fd0",
+      "rationale": "Add the kanji spelling 但し of the conjunction ただし (JMdict 1416190); kana stays the headword because the conjunction is usually written in kana. The homophonous 正しい/正す forms are not merged. Example romaji converted from macrons to doubled vowels.",
+      "original": {
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "参加は自由です。ただし、事前に申し込みが必要です。",
+            "romaji": "Sanka wa jiyū desu. Tadashi, jizen ni mōshikomi ga hitsuyō desu.",
+            "german": "Die Teilnahme ist freiwillig. Allerdings ist eine vorherige Anmeldung erforderlich."
+          },
+          {
+            "kind": "natural",
+            "japanese": "写真は撮れます。ただし、フラッシュは使わないでください。",
+            "romaji": "Shashin wa toremasu. Tadashi, furasshu wa tsukawanaide kudasai.",
+            "german": "Fotografieren ist erlaubt. Allerdings darf kein Blitz verwendet werden."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "aliases": [
+          "但し"
+        ],
+        "examples": [
+          {
+            "japanese": "参加は自由です。ただし、事前に申し込みが必要です。",
+            "romaji": "Sanka wa jiyuu desu. Tadashi, jizen ni moushikomi ga hitsuyou desu.",
+            "german": "Die Teilnahme ist freiwillig. Allerdings ist eine vorherige Anmeldung erforderlich."
+          },
+          {
+            "kind": "natural",
+            "japanese": "写真は撮れます。ただし、フラッシュは使わないでください。",
+            "romaji": "Shashin wa toremasu. Tadashi, furasshu wa tsukawanaide kudasai.",
+            "german": "Fotografieren ist erlaubt. Allerdings darf kein Blitz verwendet werden."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161665335",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "ただし / タダシ; 接続詞/*/*/*; *; *; lemma 但し; aType 1. Existing pitch 1 attested by the exact row; unchanged.",
+            "match": {
+              "word": "ただし",
+              "reading": "ただし",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "ただし as \"jedoch; allerdings\"; lemma 但し is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1416190; spellings=ただし,但し; reading=ただし; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1416190 lists ただし and 但し / ただし as one entry with the sense taught here (\"jedoch; allerdings\").",
+          "selected": {
+            "sequence": "1416190",
+            "spelling": "ただし",
+            "reading": "ただし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "but",
+                  "however",
+                  "provided that"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n2:856 after vocab-correction-rules.js",
+          "finding": "Add the kanji spelling 但し of the conjunction ただし (JMdict 1416190); kana stays the headword because the conjunction is usually written in kana. The homophonous 正しい/正す forms are not merged. Example romaji converted from macrons to doubled vowels."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"jedoch; allerdings\" unchanged; checked against JMdict 1416190.",
+        "japanese": "参加は自由です。ただし、事前に申し込みが必要です。 / 写真は撮れます。ただし、フラッシュは使わないでください。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"tadashi\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Teilnahme ist freiwillig. Allerdings ist eine vorherige Anmeldung erforderlich.",
+          "Fotografieren ist erlaubt. Allerdings darf kein Blitz verwendet werden."
+        ],
+        "lexical": "JMdict 1416190; aliases 但し are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N2 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@161665335 attests 1. Existing pitch 1 attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@161665335",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "ただし / タダシ; 接続詞/*/*/*; *; *; lemma 但し; aType 1. Existing pitch 1 attested by the exact row; unchanged.",
+            "match": {
+              "word": "ただし",
+              "reading": "ただし",
+              "grammaticalForm": "接続詞/*/*/*; *; *",
+              "sense": "ただし as \"jedoch; allerdings\"; lemma 但し is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Add the kanji spelling 但し of the conjunction ただし (JMdict 1416190); kana stays the headword because the conjunction is usually written in kana. The homophonous 正しい/正す forms are not merged. Example romaji converted from macrons to doubled vowels. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "9138550dfd218161314fe75ab40ade3f8b9a166a02737296d3177a0281b752ad",
+        "approvalHash": "6711cb8fcf9ca26b796b676e5ef5032f0602454ae51f841a3b18f231f2b94666"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. The round-1 fix is applied. examples[0].romaji is now 'Sanka wa jiyuu desu. Tadashi, jizen ni moushikomi ga hitsuyou desu.', which matches the kana and uses doubled long vowels. examples[1], including kind 'natural', is unchanged. The alias 但し (JMdict 1416190) and pitch 1 (kana row sys.dic@161665335, conjunction, lemma 但し) are correct, and 正しい and 正す are not merged.",
+        "contentHash": "9138550dfd218161314fe75ab40ade3f8b9a166a02737296d3177a0281b752ad",
+        "approvalHash": "6711cb8fcf9ca26b796b676e5ef5032f0602454ae51f841a3b18f231f2b94666"
+      }
+    },
+    {
+      "id": "vocab-n3:2633",
+      "revisionId": "050-vocab-n3-2633",
+      "state": "accepted",
+      "predecessorHash": "d6616fc424cd21555c0825fbe08c94f3f763129684fbb40e084d9e6fd063218c",
+      "predecessorRevisionHash": null,
+      "originalHash": "d6616fc424cd21555c0825fbe08c94f3f763129684fbb40e084d9e6fd063218c",
+      "rationale": "Headword changed from 捕える to 捕らえる, the standard okurigana (JMdict 1598960 lists 捕らえる first; UniDic files 捕える under lemma 捕らえる); 捕える kept as alias. Example rewritten with 捕らえた.",
+      "original": {
+        "word": "捕える",
+        "aliases": null,
+        "examples": [
+          {
+            "japanese": "兵士たちは敵を生きたまま捕えた。",
+            "romaji": "Heishitachi wa teki o ikita mama toraeta.",
+            "german": "Die Soldaten nahmen den Feind lebendig gefangen."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "word": "捕らえる",
+        "aliases": [
+          "捕える"
+        ],
+        "examples": [
+          {
+            "japanese": "兵士たちは敵を生きたまま捕らえた。",
+            "romaji": "Heishitachi wa teki o ikita mama toraeta.",
+            "german": "Die Soldaten nahmen den Feind lebendig gefangen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188542550",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "捕らえる / トラエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 捕らえる; aType 3. Existing pitch 3 attested by the exact row; unchanged.",
+            "match": {
+              "word": "捕らえる",
+              "reading": "とらえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "捕らえる as \"fangen\"; lemma 捕らえる is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598960; spellings=捕える,捕らえる; reading=とらえる; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1598960 lists 捕える and 捕らえる / とらえる as one entry with the sense taught here (\"fangen\").",
+          "selected": {
+            "sequence": "1598960",
+            "spelling": "捕える",
+            "reading": "とらえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to catch",
+                  "to capture",
+                  "to seize",
+                  "to arrest",
+                  "to grab",
+                  "to catch hold of"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to grasp (e.g. meaning)",
+                  "to perceive",
+                  "to capture (e.g. features)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n3:2633 after vocab-correction-rules.js",
+          "finding": "Headword changed from 捕える to 捕らえる, the standard okurigana (JMdict 1598960 lists 捕らえる first; UniDic files 捕える under lemma 捕らえる); 捕える kept as alias. Example rewritten with 捕らえた."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "headword-spelling",
+          "spelling-alias"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"fangen\" unchanged; checked against JMdict 1598960.",
+        "japanese": "兵士たちは敵を生きたまま捕らえた。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"toraeru\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "Die Soldaten nahmen den Feind lebendig gefangen."
+        ],
+        "lexical": "JMdict 1598960; aliases 捕える are spellings of the same lexeme; no homophone merged.",
+        "register": "Unchanged.",
+        "transitivity": "Unchanged verb metadata.",
+        "conjugation": "Unchanged (ichidan, reading とらえる).",
+        "level": "Existing N3 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@188542550 attests 3. Existing pitch 3 attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@188542550",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "捕らえる / トラエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 捕らえる; aType 3. Existing pitch 3 attested by the exact row; unchanged.",
+            "match": {
+              "word": "捕らえる",
+              "reading": "とらえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "捕らえる as \"fangen\"; lemma 捕らえる is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Headword changed from 捕える to 捕らえる, the standard okurigana (JMdict 1598960 lists 捕らえる first; UniDic files 捕える under lemma 捕らえる); 捕える kept as alias. Example rewritten with 捕らえた. Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "36274b7a0e77db91db828bd3b89ed3aecefecb149c2bf48a0a33091a5e58f189",
+        "approvalHash": "6886e14a84a85b6e1c41542bd11be600e0d06765422cde18cd96d4cd9f20dd4a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. Re-accepted: the headword swap 捕える -> 捕らえる (JMdict 1598960; UniDic files 捕える under lemma 捕らえる); 捕える is kept as an alias; 捉える vocab-n3:2550 stays separate; pitch 3 comes from exact row sys.dic@188542550; the ichidan metadata is correct.",
+        "contentHash": "36274b7a0e77db91db828bd3b89ed3aecefecb149c2bf48a0a33091a5e58f189",
+        "approvalHash": "6886e14a84a85b6e1c41542bd11be600e0d06765422cde18cd96d4cd9f20dd4a"
+      }
+    },
+    {
+      "id": "vocab-n1:1403",
+      "revisionId": "050-vocab-n1-1403",
+      "state": "accepted",
+      "predecessorHash": "c1079f84c4c00867ad83caf5e69ac1391cb1c154879839561fceead2165ca79d",
+      "predecessorRevisionHash": null,
+      "originalHash": "c1079f84c4c00867ad83caf5e69ac1391cb1c154879839561fceead2165ca79d",
+      "rationale": "Example romaji \"ichrei\" corrected to \"ichirei\" (一例 いちれい).",
+      "original": {
+        "examples": [
+          {
+            "japanese": "「出鱈目」は当て字の一例である。",
+            "romaji": "'Detarame' wa ateji no ichrei de aru.",
+            "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "examples": [
+          {
+            "japanese": "「出鱈目」は当て字の一例である。",
+            "romaji": "'Detarame' wa ateji no ichirei de aru.",
+            "german": "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44736823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "当て字 / アテジ; 名詞/普通名詞/一般/*; *; *; lemma 当て字; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "当て字",
+              "reading": "あてじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "当て字 as \"phonetisch verwendetes Kanji\"; lemma 当て字 is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1448890; spellings=当て字; reading=あてじ; scripts/vocabulary-completion/maintenance-050/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1448890 lists 当て字 / あてじ as one entry with the sense taught here (\"phonetisch verwendetes Kanji\").",
+          "selected": {
+            "sequence": "1448890",
+            "spelling": "当て字",
+            "reading": "あてじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kanji used as a phonetic symbol, instead of for the meaning",
+                  "phonetic-equivalent character",
+                  "substitute character",
+                  "ateji"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kanji used for their meaning, irrespective of reading"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Reported defect (maintenance batch 050)",
+          "version": "2026-09-27",
+          "locator": "runtime vocab-n1:1403 after vocab-correction-rules.js",
+          "finding": "Example romaji \"ichrei\" corrected to \"ichirei\" (一例 いちれい)."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "romanization"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-050-editor",
+        "meaning": "\"phonetisch verwendetes Kanji\" unchanged; checked against JMdict 1448890.",
+        "japanese": "「出鱈目」は当て字の一例である。 — checked for grammar, naturalness and use of the headword.",
+        "romanization": "Headword romaji \"ateji\" and example romaji checked against the kana.",
+        "translation": "German translations checked against the Japanese.",
+        "contexts": [
+          "'Detarame' ist ein Beispiel für phonetisch verwendete Kanji."
+        ],
+        "lexical": "JMdict 1448890; no sense added or removed.",
+        "register": "Unchanged.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Existing N1 retained."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row sys.dic@44736823 attests 0. Existing pitch 0 attested by the exact row; unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44736823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "当て字 / アテジ; 名詞/普通名詞/一般/*; *; *; lemma 当て字; aType 0. Existing pitch 0 attested by the exact row; unchanged.",
+            "match": {
+              "word": "当て字",
+              "reading": "あてじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "当て字 as \"phonetisch verwendetes Kanji\"; lemma 当て字 is the taught lexeme."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-editor",
+        "finding": "Editorial first pass: Example romaji \"ichrei\" corrected to \"ichirei\" (一例 いちれい). Final content, JMdict evidence and pitch disposition (verified) inspected.",
+        "contentHash": "329b700d77319e29f07eceb5effa71258d39ee5e6cf51d4873628458d0c3d116",
+        "approvalHash": "a894e3a7701423495ef86f03b0eafc35a3c47110ba8169ddb1cb74d619aafaff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-050-independent-reviewer",
+        "finding": "Second pass (round 3): Round 3: unchanged since round 2. finalContent and review data are identical; only the approval passes were regenerated. Re-accepted: the romaji 'ichrei' -> 'ichirei' (一例) is correct, and pitch 0 comes from exact row sys.dic@44736823.",
+        "contentHash": "329b700d77319e29f07eceb5effa71258d39ee5e6cf51d4873628458d0c3d116",
+        "approvalHash": "a894e3a7701423495ef86f03b0eafc35a3c47110ba8169ddb1cb74d619aafaff"
+      }
+    }
+  ],
+  "decisions": []
+}

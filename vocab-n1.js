@@ -130139,5 +130139,74 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:merodii"
+  },
+  {
+    "word": "よほど",
+    "reading": "よほど",
+    "romaji": "yohodo",
+    "meaning": "sehr, erheblich, weitaus; ziemlich",
+    "type": "Adverb",
+    "category": "Vergleich",
+    "level": "N1",
+    "notes": "Neutrale Standardform; よっぽど ist die umgangssprachlich verstärkte Variante. Typisch: よほど〜のだろう (muss wohl sehr … sein), 〜よりよほど (viel … als), よほどのこと (etwas Außergewöhnliches). Meist in Kana (余程).",
+    "examples": [
+      {
+        "japanese": "あんなに怒るなんて、彼はよほど嫌なことがあったのだろう。",
+        "romaji": "Anna ni okoru nante, kare wa yohodo iya na koto ga atta no darou.",
+        "german": "Dass er so wütend wird – ihm muss wohl etwas sehr Unangenehmes passiert sein."
+      },
+      {
+        "japanese": "よほどのことがない限り、会議は予定どおり行います。",
+        "romaji": "Yohodo no koto ga nai kagiri, kaigi wa yotei doori okonaimasu.",
+        "german": "Sofern nichts Außergewöhnliches passiert, findet die Besprechung wie geplant statt."
+      }
+    ],
+    "aliases": [
+      "余程"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@275235388",
+        "patterns": [
+          0
+        ],
+        "finding": "よほど / ヨホド; 副詞/*/*/*; *; *; lemma 余程; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "よほど",
+          "reading": "よほど",
+          "grammaticalForm": "副詞/*/*/*; *; *",
+          "sense": "よほど as \"sehr, erheblich, weitaus; ziemlich\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:yohodo"
+  },
+  {
+    "word": "本格的",
+    "reading": "ほんかくてき",
+    "romaji": "honkakuteki",
+    "meaning": "echt, authentisch; richtig, ernsthaft, in vollem Umfang",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N1",
+    "notes": "な-Adjektiv. 本格的な (echt, authentisch: 本格的な料理) und adverbial 本格的に (richtig, ernsthaft: 本格的に始まる). Abgeleitet von 本格 (die eigentliche, echte Art).",
+    "examples": [
+      {
+        "japanese": "この店では本格的なイタリア料理が食べられる。",
+        "romaji": "Kono mise de wa honkakuteki na Itaria ryouri ga taberareru.",
+        "german": "In diesem Restaurant kann man authentische italienische Küche essen."
+      },
+      {
+        "japanese": "来週から梅雨が本格的に始まるそうだ。",
+        "romaji": "Raishuu kara tsuyu ga honkakuteki ni hajimaru sou da.",
+        "german": "Ab nächster Woche soll die Regenzeit richtig beginnen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n1:correction:honkakuteki"
   }
 ];

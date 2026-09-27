@@ -53067,6 +53067,9 @@ window.VOCAB_N2 = [
         "german": "Das Buch habe ich seit vorletzter Woche ausgeliehen."
       }
     ],
+    "aliases": [
+      "先先週"
+    ],
     "pitch": null,
     "correctionId": "vocab-n2:correction:sensenshuu"
   },
@@ -75303,5 +75306,65 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:karute"
+  },
+  {
+    "word": "浸ける",
+    "reading": "つける",
+    "romaji": "tsukeru",
+    "meaning": "eintauchen, einweichen",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Transitiv: etwas in Flüssigkeit legen (水に浸ける). Gleich gelesen wie 漬ける (einlegen, marinieren), das vor allem für eingelegtes Essen steht. Intransitives Gegenstück: 浸かる (eingetaucht sein).",
+    "examples": [
+      {
+        "japanese": "汚れたシャツをしばらく水に浸けておいた。",
+        "romaji": "Yogoreta shatsu o shibaraku mizu ni tsukete oita.",
+        "german": "Ich habe das schmutzige Hemd eine Weile in Wasser eingeweicht."
+      },
+      {
+        "japanese": "疲れた足をお湯に浸けると気持ちがいい。",
+        "romaji": "Tsukareta ashi o oyu ni tsukeru to kimochi ga ii.",
+        "german": "Es tut gut, die müden Füße in warmes Wasser zu tauchen."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "ichidan",
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "つける",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "つけよ"
+        ]
+      }
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "つける",
+    "conjugationVariants": {
+      "imperative": [
+        "つけよ"
+      ]
+    },
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@175377924",
+        "patterns": [
+          0
+        ],
+        "finding": "浸ける / ツケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 浸ける; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "浸ける",
+          "reading": "つける",
+          "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+          "sense": "浸ける as \"eintauchen, einweichen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:tsukeru-hitasu"
   }
 ];
