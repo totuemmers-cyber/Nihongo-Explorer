@@ -7562,7 +7562,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "スプレーをシュッシュッとかけた。",
-        "romaji": "Supuree o shusshuss to kaketa.",
+        "romaji": "Supurē o shusshuss to kaketa.",
         "german": "Ich sprühte mit der Sprühflasche."
       }
     ],
