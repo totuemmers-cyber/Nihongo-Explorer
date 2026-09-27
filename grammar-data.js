@@ -17452,7 +17452,7 @@ window.GRAMMAR_DATA = [
       },
       {
         "japanese": "「窓を開けても構いませんか。」「ええ、どうぞ。」",
-        "romaji": "\"Mado o akete mo kamaimasen ka.\" \"Ee, dōzo.\"",
+        "romaji": "\"Mado o akete mo kamaimasen ka.\" \"Ē, dōzo.\"",
         "german": "„Darf ich das Fenster öffnen?“ – „Ja, bitte.“"
       },
       {

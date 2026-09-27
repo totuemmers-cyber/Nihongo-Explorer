@@ -3176,7 +3176,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "もっと簡単にできないものだろうか。",
-        "romaji": "Motto kantan ni dekinai mono darou ka.",
+        "romaji": "Motto kantan ni dekinai mono darō ka.",
         "german": "Kann man das nicht irgendwie einfacher machen?"
       }
     ],
@@ -3466,7 +3466,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "十分起こり得ることだ。",
-        "romaji": "Juubun okoriuru koto da.",
+        "romaji": "Jūbun okoriuru koto da.",
         "german": "Es ist durchaus möglich, dass das passiert."
       }
     ],
@@ -3899,7 +3899,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "今日は良いことずくめだった。",
-        "romaji": "Kyou wa yoi koto zukume datta.",
+        "romaji": "Kyō wa yoi koto zukume datta.",
         "german": "Heute passierte nur Gutes."
       },
       {
@@ -3966,7 +3966,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "春めいた陽気になってきた。",
-        "romaji": "Harumei ta youki ni natte kita.",
+        "romaji": "Harumei ta yōki ni natte kita.",
         "german": "Das Wetter fängt an, frühlingshaft zu werden."
       },
       {
@@ -6808,7 +6808,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "もう、お兄ちゃんったら！",
-        "romaji": "Mō, onīchan ttara!",
+        "romaji": "Mō, oniichan ttara!",
         "german": "Mensch, großer Bruder, also wirklich!"
       }
     ],

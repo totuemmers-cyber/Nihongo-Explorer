@@ -2106,12 +2106,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "これは信頼に足る情報だ。",
-        "romaji": "Kore wa shinrai ni taru jouhou da.",
+        "romaji": "Kore wa shinrai ni taru jōhō da.",
         "german": "Das ist eine vertrauenswürdige Information."
       },
       {
         "japanese": "彼の業績は称賛に足るものだ。",
-        "romaji": "Kare no gyouseki wa shousan ni taru mono da.",
+        "romaji": "Kare no gyōseki wa shōsan ni taru mono da.",
         "german": "Seine Leistungen sind lobenswert."
       }
     ],
@@ -2399,7 +2399,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kono eiga wa miru hito wo kandou sasezuni wa okanai.",
+        "romaji": "Kono eiga wa miru hito wo kandō sasezuni wa okanai.",
         "german": "Dieser Film kann die Zuschauer nicht anders als bewegen."
       },
       {
@@ -2462,7 +2462,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 13,
           "answer": "ないではおかない"
         },
-        "romaji": "Kanojo no utsukushisa wa hitobito wo miryou shinai de wa okanai.",
+        "romaji": "Kanojo no utsukushisa wa hitobito wo miryō shinai de wa okanai.",
         "german": "Ihre Schönheit kann die Menschen nicht anders als faszinieren."
       }
     ],
@@ -2578,7 +2578,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 10,
           "answer": "ないではすまない"
         },
-        "romaji": "Sekininsha toshite, jishoku shinai de wa sumanai darou.",
+        "romaji": "Sekininsha toshite, jishoku shinai de wa sumanai darō.",
         "german": "Als Verantwortlicher wird man wohl nicht umhinkommen zurückzutreten."
       }
     ],
@@ -2599,7 +2599,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "皆様のご健康とご多幸を願ってやみません。",
-        "romaji": "Minasama no go-kenkou to go-takou wo negatte yamimasen.",
+        "romaji": "Minasama no go-kenkō to go-takō wo negatte yamimasen.",
         "german": "Ich wünsche Ihnen von Herzen Gesundheit und Glück."
       },
       {
@@ -2642,7 +2642,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼の成功を祈って止みません。",
-        "romaji": "Kare no seikou wo inotte yamimasen.",
+        "romaji": "Kare no seikō wo inotte yamimasen.",
         "german": "Ich bete inbrünstig für seinen Erfolg."
       }
     ],
@@ -2753,7 +2753,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Sanpo gatera, yuubinkyoku ni yotte kita.",
+        "romaji": "Sanpo gatera, yūbinkyoku ni yotte kita.",
         "german": "Ich bin bei einem Spaziergang beim Postamt vorbeigegangen."
       },
       {
@@ -2812,7 +2812,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare wa kaishain no katawara, shousetsu wo kaite iru.",
+        "romaji": "Kare wa kaishain no katawara, shōsetsu wo kaite iru.",
         "german": "Nebenbei, dass er Büroangestellter ist, schreibt er auch Romane."
       },
       {
@@ -2821,7 +2821,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "かたわら"
         },
-        "romaji": "Hataraku katawara, daigaku de benkyou shite iru.",
+        "romaji": "Hataraku katawara, daigaku de benkyō shite iru.",
         "german": "Neben der Arbeit studiere ich an der Universität."
       }
     ],
@@ -3008,7 +3008,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "このような問題は早急に対処してしかるべきだ。",
-        "romaji": "Kono you na mondai wa sakkyuu ni taisho shite shikaru beki da.",
+        "romaji": "Kono yō na mondai wa sakkyū ni taisho shite shikaru beki da.",
         "german": "Solche Probleme sollten natürlich umgehend angegangen werden."
       },
       {
@@ -3133,7 +3133,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "ではあるまいし"
         },
-        "romaji": "Sensou de wa aru mai shi, soko made suru hitsuyou wa nai.",
+        "romaji": "Sensō de wa aru mai shi, soko made suru hitsuyō wa nai.",
         "german": "Es ist ja kein Krieg, es ist nicht nötig, so weit zu gehen."
       }
     ],
@@ -3182,12 +3182,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kouten to aimatte, uriage ga nobita.",
+        "romaji": "Kōten to aimatte, uriage ga nobita.",
         "german": "Gepaart mit dem guten Wetter stiegen die Verkäufe."
       },
       {
         "japanese": "彼の努力と才能が相まって、成功を収めた。",
-        "romaji": "Kare no doryoku to sainou ga aimatte, seikou wo osameta.",
+        "romaji": "Kare no doryoku to sainō ga aimatte, seikō wo osameta.",
         "german": "Seine Anstrengungen zusammen mit seinem Talent führten zum Erfolg."
       }
     ],
@@ -3237,7 +3237,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Isogashii to, tomosureba kenkou wo gaishi gachi da.",
+        "romaji": "Isogashii to, tomosureba kenkō wo gaishi gachi da.",
         "german": "Wenn man beschäftigt ist, neigt man leicht dazu, seine Gesundheit zu schädigen."
       },
       {
@@ -3324,7 +3324,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "長年の研究の末、成功に至った。",
-        "romaji": "Naganen no kenkyuu no sue, seikou ni itatta.",
+        "romaji": "Naganen no kenkyū no sue, seikō ni itatta.",
         "german": "Nach jahrelanger Forschung gelangte man schließlich zum Erfolg.",
         "cloze": {
           "start": 10,
@@ -3357,7 +3357,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "事態は最悪の状況に至っている。",
-        "romaji": "Jitai wa saiaku no joukyou ni itatte iru.",
+        "romaji": "Jitai wa saiaku no jōkyō ni itatte iru.",
         "german": "Die Situation hat den schlimmsten Punkt erreicht."
       }
     ],
@@ -3415,7 +3415,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 10,
           "answer": "に至っては"
         },
-        "romaji": "Kotoshi no natsu wa atsui. Senshuu ni itatte wa, 40-do wo koeta.",
+        "romaji": "Kotoshi no natsu wa atsui. Senshū ni itatte wa, 40-do wo koeta.",
         "german": "Dieser Sommer ist heiß. Letzte Woche ist es sogar über 40 Grad gestiegen."
       }
     ],
@@ -3464,7 +3464,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kenkou ga ichiban da. Byouki ni naranai ni koshita koto wa nai.",
+        "romaji": "Kenkō ga ichiban da. Byōki ni naranai ni koshita koto wa nai.",
         "german": "Gesundheit ist das Wichtigste. Nichts ist besser, als nicht krank zu werden."
       },
       {
@@ -3522,7 +3522,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kaikaisiki ni sakidatte, rihaasaru ga okonawareta.",
+        "romaji": "Kaikaisiki ni sakidatte, rihāsaru ga okonawareta.",
         "german": "Im Vorfeld der Eröffnungszeremonie wurde eine Probe abgehalten."
       },
       {
@@ -3596,7 +3596,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 5,
           "answer": "ばこそ"
         },
-        "romaji": "Kurou ga areba koso, seikou no yorokobi mo ookii.",
+        "romaji": "Kurō ga areba koso, seikō no yorokobi mo ōkii.",
         "german": "Gerade weil es Mühe gab, ist die Freude über den Erfolg umso größer."
       }
     ],
@@ -3654,7 +3654,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "たらそれまでだ"
         },
-        "romaji": "Akirametara sore made da. Saigo made ganbarou.",
+        "romaji": "Akirametara sore made da. Saigo made ganbarō.",
         "german": "Wenn wir aufgeben, ist es vorbei. Lass uns bis zum Ende durchhalten."
       }
     ],
@@ -3761,7 +3761,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Seikou subeku, doryoku wo tsudzukete iru.",
+        "romaji": "Seikō subeku, doryoku wo tsudzukete iru.",
         "german": "Um erfolgreich zu sein, setze ich meine Bemühungen fort."
       },
       {
@@ -3770,7 +3770,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 8,
           "answer": "べく"
         },
-        "romaji": "Shinjitsu wo akiraka ni subeku, chousa wo kaishi shita.",
+        "romaji": "Shinjitsu wo akiraka ni subeku, chōsa wo kaishi shita.",
         "german": "Um die Wahrheit aufzudecken, begann man mit der Untersuchung."
       }
     ],
@@ -3819,7 +3819,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare no sainou wa watashi nado ga oyobu beku mo nai.",
+        "romaji": "Kare no sainō wa watashi nado ga oyobu beku mo nai.",
         "german": "Sein Talent ist etwas, das ich unmöglich erreichen kann."
       },
       {
@@ -3828,7 +3828,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 11,
           "answer": "べくもない"
         },
-        "romaji": "Kono mondai wa shirouto ga kaiketsu subeku mo nai.",
+        "romaji": "Kono mondai wa shirōto ga kaiketsu subeku mo nai.",
         "german": "Dieses Problem kann von einem Laien unmöglich gelöst werden."
       }
     ],
@@ -3877,7 +3877,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kyoushi ni aru majiki koui da.",
+        "romaji": "Kyōshi ni aru majiki kōi da.",
         "german": "Das ist ein Verhalten, das eines Lehrers unwürdig ist."
       },
       {
@@ -4118,7 +4118,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 6,
           "answer": "や否や"
         },
-        "romaji": "Shiken ga owaru ya inaya, gakuseitachi wa kyoushitsu wo tobidashita.",
+        "romaji": "Shiken ga owaru ya inaya, gakuseitachi wa kyōshitsu wo tobidashita.",
         "german": "Sobald die Prüfung vorbei war, stürmten die Studenten aus dem Klassenzimmer."
       }
     ],
@@ -4140,7 +4140,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "雨が降ろうが降るまいが、試合は行われる。",
-        "romaji": "Ame ga furou ga furu mai ga, shiai wa okonawareru.",
+        "romaji": "Ame ga furō ga furu mai ga, shiai wa okonawareru.",
         "german": "Egal ob es regnet oder nicht, das Spiel findet statt."
       },
       {
@@ -4174,7 +4174,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Nani wo shiyou to, kekka wa kawaranai.",
+        "romaji": "Nani wo shiyō to, kekka wa kawaranai.",
         "german": "Egal was man tut, das Ergebnis ändert sich nicht."
       }
     ],
@@ -4195,7 +4195,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "お金がなくて、買おうにも買えない。",
-        "romaji": "Okane ga nakute, kaou ni mo kaenai.",
+        "romaji": "Okane ga nakute, kaō ni mo kaenai.",
         "german": "Ich habe kein Geld, selbst wenn ich es kaufen wollte, kann ich es nicht.",
         "cloze": {
           "start": 7,
@@ -4228,7 +4228,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "電話番号を知らないので、連絡しようにもできない。",
-        "romaji": "Denwa bangou wo shiranai node, renraku shiyou ni mo dekinai.",
+        "romaji": "Denwa bangō wo shiranai node, renraku shiyō ni mo dekinai.",
         "german": "Ich kenne die Telefonnummer nicht, also kann ich nicht Kontakt aufnehmen, selbst wenn ich wollte."
       }
     ],
@@ -4274,7 +4274,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Gendai no kagaku wo motte shite mo, kono byouki wa naosenai.",
+        "romaji": "Gendai no kagaku wo motte shite mo, kono byōki wa naosenai.",
         "german": "Selbst mit der modernen Wissenschaft kann diese Krankheit nicht geheilt werden."
       },
       {
@@ -4283,7 +4283,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "をもってしても"
         },
-        "romaji": "Kare no doryoku wo motte shite mo, yuushou wa muzukashii darou.",
+        "romaji": "Kare no doryoku wo motte shite mo, yūshō wa muzukashii darō.",
         "german": "Selbst mit seinen Bemühungen wird der Sieg schwierig sein."
       }
     ],
@@ -4332,7 +4332,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Seikou sen ga tame ni, kare wa subete wo gisei ni shita.",
+        "romaji": "Seikō sen ga tame ni, kare wa subete wo gisei ni shita.",
         "german": "Um erfolgreich zu sein, opferte er alles."
       },
       {
@@ -4341,7 +4341,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 5,
           "answer": "んがために"
         },
-        "romaji": "Shinjitsu wo shiran ga tame ni, kanojo wa chousa wo tsudzuketa.",
+        "romaji": "Shinjitsu wo shiran ga tame ni, kanojo wa chōsa wo tsudzuketa.",
         "german": "Um die Wahrheit zu erfahren, setzte sie die Untersuchung fort."
       }
     ],
@@ -4395,7 +4395,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "群衆は喜びに溢れんばかりだった。",
-        "romaji": "Gunshuu wa yorokobi ni afuren bakari datta.",
+        "romaji": "Gunshū wa yorokobi ni afuren bakari datta.",
         "german": "Die Menge war so erfüllt von Freude, als würde sie überlaufen."
       },
       {
@@ -4477,7 +4477,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼と喧嘩したが最後、もう仲直りできない。",
-        "romaji": "Kare to kenka shita ga saigo, mou nakanaori dekinai.",
+        "romaji": "Kare to kenka shita ga saigo, mō nakanaori dekinai.",
         "german": "Wenn man einmal mit ihm gestritten hat, kann man sich nicht mehr versöhnen."
       }
     ],
@@ -4529,7 +4529,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Doryoku suru koto nashi ni, seikou wa erarenai.",
+        "romaji": "Doryoku suru koto nashi ni, seikō wa erarenai.",
         "german": "Ohne sich anzustrengen, kann man keinen Erfolg erlangen."
       },
       {
@@ -4588,7 +4588,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Doryoku nashi ni seikou wa nai.",
+        "romaji": "Doryoku nashi ni seikō wa nai.",
         "german": "Ohne Anstrengung gibt es keinen Erfolg."
       },
       {
@@ -4646,7 +4646,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Oisogashii tokoro wo, ojikan wo itadaki arigatou gozaimasu.",
+        "romaji": "Oisogashii tokoro wo, ojikan wo itadaki arigatō gozaimasu.",
         "german": "Vielen Dank, dass Sie sich Zeit genommen haben, obwohl Sie beschäftigt sind."
       },
       {
@@ -4704,7 +4704,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Ame ga furu ka to omoikiya, kyuu ni hareta.",
+        "romaji": "Ame ga furu ka to omoikiya, kyū ni hareta.",
         "german": "Gerade als ich dachte, es würde regnen, klarte es plötzlich auf."
       },
       {
@@ -4770,7 +4770,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 8,
           "answer": "てはかなわない"
         },
-        "romaji": "Mainichi zangyou saserarete wa kanawanai.",
+        "romaji": "Mainichi zangyō saserarete wa kanawanai.",
         "german": "Jeden Tag Überstunden machen zu müssen, ist unerträglich."
       }
     ],
@@ -4819,7 +4819,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare no kimochi wa souzou ni katakunai.",
+        "romaji": "Kare no kimochi wa sōzō ni katakunai.",
         "german": "Seine Gefühle sind nicht schwer vorstellbar."
       },
       {
@@ -4828,7 +4828,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 7,
           "answer": "にかたくない"
         },
-        "romaji": "Sono kekka wa yosou ni katakunai.",
+        "romaji": "Sono kekka wa yosō ni katakunai.",
         "german": "Dieses Ergebnis ist nicht schwer vorherzusagen."
       }
     ],
@@ -4848,7 +4848,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "実情に即した対策を立てる必要がある。",
-        "romaji": "Jitsujou ni sokushita taisaku wo tateru hitsuyou ga aru.",
+        "romaji": "Jitsujō ni sokushita taisaku wo tateru hitsuyō ga aru.",
         "german": "Es ist notwendig, Maßnahmen zu ergreifen, die der tatsächlichen Situation entsprechen.",
         "cloze": {
           "start": 2,
@@ -4882,7 +4882,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "法律に即して判断すべきだ。",
-        "romaji": "Houritsu ni sokushite handan subeki da.",
+        "romaji": "Hōritsu ni sokushite handan subeki da.",
         "german": "Man sollte gemäß dem Gesetz urteilen."
       }
     ],
@@ -4939,7 +4939,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 14,
           "answer": "てはばからない"
         },
-        "romaji": "Kanojo wa doudou to jibun no iken wo nobete habakaranai.",
+        "romaji": "Kanojo wa dōdō to jibun no iken wo nobete habakaranai.",
         "german": "Sie scheut sich nicht, ihre Meinung offen zu äußern."
       }
     ],
@@ -4987,7 +4987,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare no yuuki ni wa kandou wo kinji enai.",
+        "romaji": "Kare no yūki ni wa kandō wo kinji enai.",
         "german": "Ich kann nicht umhin, von seinem Mut bewegt zu sein."
       },
       {
@@ -5054,7 +5054,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 7,
           "answer": "に堪えない"
         },
-        "romaji": "Kono koukei wa miru ni taenai.",
+        "romaji": "Kono kōkei wa miru ni taenai.",
         "german": "Dieser Anblick ist unerträglich anzusehen."
       }
     ],
@@ -5075,7 +5075,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "台風は多くの人々に避難を余儀なくさせた。",
-        "romaji": "Taifuu wa ooku no hitobito ni hinan wo yoginaku saseta.",
+        "romaji": "Taifū wa ōku no hitobito ni hinan wo yoginaku saseta.",
         "german": "Der Taifun zwang viele Menschen zur Evakuierung.",
         "cloze": {
           "start": 11,
@@ -5108,7 +5108,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "不況は会社に人員削減を余儀なくさせている。",
-        "romaji": "Fukyou wa kaisha ni jin'in sakugen wo yoginaku sasete iru.",
+        "romaji": "Fukyō wa kaisha ni jin'in sakugen wo yoginaku sasete iru.",
         "german": "Die Rezession zwingt die Firma zu Personalabbau."
       }
     ],
@@ -5353,7 +5353,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 9,
           "answer": "ないものでもない"
         },
-        "romaji": "Jouken shidai de wa, kangaenai mono demo nai.",
+        "romaji": "Jōken shidai de wa, kangaenai mono demo nai.",
         "german": "Je nach Bedingungen ist es nicht ausgeschlossen, dass ich es mir überlege."
       }
     ],
@@ -5374,7 +5374,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "努力なくして成功はない。",
-        "romaji": "Doryoku nakushite seikou wa nai.",
+        "romaji": "Doryoku nakushite seikō wa nai.",
         "german": "Ohne Anstrengung gibt es keinen Erfolg.",
         "cloze": {
           "start": 2,
@@ -5466,7 +5466,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 1,
           "answer": "ならいざしらず"
         },
-        "romaji": "Mukashi nara iza shirazu, ima no jidai ni sore wa tsuuyou shinai.",
+        "romaji": "Mukashi nara iza shirazu, ima no jidai ni sore wa tsūyō shinai.",
         "german": "In der Vergangenheit mag das sein, aber in der heutigen Zeit funktioniert das nicht."
       }
     ],
@@ -5548,7 +5548,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "電話するなりメールするなりして連絡してください。",
-        "romaji": "Denwa suru nari meeru suru nari shite renraku shite kudasai.",
+        "romaji": "Denwa suru nari mēru suru nari shite renraku shite kudasai.",
         "german": "Bitte kontaktieren Sie mich, sei es per Telefon oder E-Mail.",
         "cloze": {
           "start": 4,
@@ -5695,7 +5695,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "にかこつけて"
         },
-        "romaji": "Taichou furyou ni kakotsukete, kaigi wo kesseki shita.",
+        "romaji": "Taichō furyō ni kakotsukete, kaigi wo kesseki shita.",
         "german": "Unter dem Vorwand schlechter Gesundheit fehlte ich bei der Besprechung."
       }
     ],
@@ -5741,7 +5741,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Asobi ni kamakete, benkyou wo okotatta.",
+        "romaji": "Asobi ni kamakete, benkyō wo okotatta.",
         "german": "Ich ließ mich vom Spielen ablenken und vernachlässigte mein Studium."
       },
       {
@@ -5851,7 +5851,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare wa oya ni sura hontou no koto wo iwanakatta.",
+        "romaji": "Kare wa oya ni sura hontō no koto wo iwanakatta.",
         "german": "Er sagte nicht einmal seinen Eltern die Wahrheit."
       },
       {
@@ -5909,7 +5909,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare ni nai shinken na hyoujou datta.",
+        "romaji": "Kare ni nai shinken na hyōjō datta.",
         "german": "Es war ein für ihn ungewöhnlich ernster Gesichtsausdruck."
       },
       {
@@ -6021,7 +6021,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Senmonka ni iwasereba, kore wa kiken da sou da.",
+        "romaji": "Senmonka ni iwasereba, kore wa kiken da sō da.",
         "german": "Wenn man die Experten fragt, ist das gefährlich."
       },
       {
@@ -6080,7 +6080,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Sore wa shitsurei kiwamarinai koui da.",
+        "romaji": "Sore wa shitsurei kiwamarinai kōi da.",
         "german": "Das ist ein äußerst unhöfliches Verhalten."
       },
       {
@@ -6171,7 +6171,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 1,
           "answer": "すら"
         },
-        "romaji": "Mizu sura nomenai joukyou datta.",
+        "romaji": "Mizu sura nomenai jōkyō datta.",
         "german": "Es war eine Situation, in der man nicht einmal Wasser trinken konnte."
       }
     ],
@@ -6221,7 +6221,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Souzou suru dani osoroshii.",
+        "romaji": "Sōzō suru dani osoroshii.",
         "german": "Allein die Vorstellung ist schrecklich."
       },
       {
@@ -6280,7 +6280,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kyoushi taru mono, seito no mohan de nakereba naranai.",
+        "romaji": "Kyōshi taru mono, seito no mohan de nakereba naranai.",
         "german": "Als Lehrer muss man ein Vorbild für die Schüler sein."
       },
       {
@@ -6289,7 +6289,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "たる"
         },
-        "romaji": "Riidaa taru mono, sekinin wo motsu beki da.",
+        "romaji": "Rīdā taru mono, sekinin wo motsu beki da.",
         "german": "Als Führungskraft sollte man Verantwortung übernehmen."
       }
     ],
@@ -6400,7 +6400,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "泣きつ笑いつ、感情が揺れ動いた。",
-        "romaji": "Nakitsu waraitsu, kanjou ga yure ugoita.",
+        "romaji": "Nakitsu waraitsu, kanjō ga yure ugoita.",
         "german": "Abwechselnd weinend und lachend schwankten die Gefühle."
       }
     ],
@@ -6449,7 +6449,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kore ga kiseki de nakute nan darou.",
+        "romaji": "Kore ga kiseki de nakute nan darō.",
         "german": "Wenn das kein Wunder ist, was ist es dann?"
       },
       {
@@ -6458,7 +6458,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 6,
           "answer": "でなくてなんだろう"
         },
-        "romaji": "Sore wa uragiri de nakute nan darou ka.",
+        "romaji": "Sore wa uragiri de nakute nan darō ka.",
         "german": "Wenn das kein Verrat ist, was ist es dann?"
       }
     ],
@@ -6515,7 +6515,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 8,
           "answer": "ではあるまいか"
         },
-        "romaji": "Kore ga saizen no houhou de wa arumai ka.",
+        "romaji": "Kore ga saizen no hōhō de wa arumai ka.",
         "german": "Ist das nicht der beste Weg?"
       }
     ],
@@ -6562,7 +6562,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Ame ga furou tomo, ikimasu.",
+        "romaji": "Ame ga furō tomo, ikimasu.",
         "german": "Selbst wenn es regnet, werde ich gehen."
       },
       {
@@ -6571,7 +6571,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 6,
           "answer": "とも"
         },
-        "romaji": "Konnan de arou tomo, chousen suru.",
+        "romaji": "Konnan de arō tomo, chōsen suru.",
         "german": "Auch wenn es schwierig ist, werde ich es versuchen."
       }
     ],
@@ -6629,7 +6629,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 3,
           "answer": "ないとも限らない"
         },
-        "romaji": "Shippai shinai to mo kagiranai kara, chuui ga hitsuyou da.",
+        "romaji": "Shippai shinai to mo kagiranai kara, chūi ga hitsuyō da.",
         "german": "Es könnte sein, dass wir scheitern, also müssen wir vorsichtig sein."
       }
     ],
@@ -6735,7 +6735,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare ni shita tokoro de, kono mondai wa tokenai darou.",
+        "romaji": "Kare ni shita tokoro de, kono mondai wa tokenai darō.",
         "german": "Selbst er könnte dieses Problem wahrscheinlich nicht lösen."
       },
       {
@@ -6789,7 +6789,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare wa sono shougou ni hajinai katsuyaku wo shita.",
+        "romaji": "Kare wa sono shōgō ni hajinai katsuyaku wo shita.",
         "german": "Er leistete Arbeit, die dem Titel würdig war."
       },
       {
@@ -6856,7 +6856,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "は言うに及ばず"
         },
-        "romaji": "Toukyou wa iu ni oyobazu, chihou demo ninki ga aru.",
+        "romaji": "Tōkyō wa iu ni oyobazu, chihō demo ninki ga aru.",
         "german": "Ganz zu schweigen von Tokyo, ist es auch in ländlichen Gebieten beliebt."
       }
     ],
@@ -6904,7 +6904,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Joudan wa sateoki, hondai ni hairimashou.",
+        "romaji": "Jōdan wa sateoki, hondai ni hairimashō.",
         "german": "Spaß beiseite, kommen wir zum eigentlichen Thema."
       },
       {
@@ -6913,7 +6913,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 4,
           "answer": "はさておいて"
         },
-        "romaji": "Okane no hanashi wa sateoite, mazu keikaku wo tateyou.",
+        "romaji": "Okane no hanashi wa sateoite, mazu keikaku wo tateyō.",
         "german": "Abgesehen vom Geld, lass uns erst einmal einen Plan machen."
       }
     ],
@@ -6933,7 +6933,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "彼は日本語ばかりか、中国語まで話せる。",
-        "romaji": "Kare wa nihongo bakari ka, chuugokugo made hanaseru.",
+        "romaji": "Kare wa nihongo bakari ka, chūgokugo made hanaseru.",
         "german": "Er kann nicht nur Japanisch, sondern sogar Chinesisch sprechen.",
         "cloze": {
           "start": 5,
@@ -6967,7 +6967,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼女は勉強ばかりか、スポーツまで得意だ。",
-        "romaji": "Kanojo wa benkyou bakari ka, supootsu made tokui da.",
+        "romaji": "Kanojo wa benkyō bakari ka, supōtsu made tokui da.",
         "german": "Sie ist nicht nur gut im Lernen, sondern sogar im Sport."
       }
     ],
@@ -7126,7 +7126,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare no ensou ni wa kokoro wo utsu mono ga aru.",
+        "romaji": "Kare no ensō ni wa kokoro wo utsu mono ga aru.",
         "german": "Seine Darbietung hat etwas, das das Herz berührt."
       },
       {
@@ -7181,7 +7181,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare ga konai mono to shite, keikaku wo susumeyou.",
+        "romaji": "Kare ga konai mono to shite, keikaku wo susumeyō.",
         "german": "Unter der Annahme, dass er nicht kommt, lass uns mit dem Plan fortfahren."
       },
       {
@@ -7336,7 +7336,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "みんなで力を合わせて頑張ろうではないか。",
-        "romaji": "Minna de chikara wo awasete ganbarou de wa nai ka.",
+        "romaji": "Minna de chikara wo awasete ganbarō de wa nai ka.",
         "german": "Lasst uns alle zusammenarbeiten und unser Bestes geben!",
         "cloze": {
           "start": 10,
@@ -7370,7 +7370,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "この機会に挑戦してみようではありませんか。",
-        "romaji": "Kono kikai ni chousen shite miyou de wa arimasen ka.",
+        "romaji": "Kono kikai ni chōsen shite miyō de wa arimasen ka.",
         "german": "Wollen wir nicht diese Gelegenheit nutzen und es versuchen?"
       }
     ],
@@ -7419,12 +7419,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare no seikou wa yorokobashii kagiri da.",
+        "romaji": "Kare no seikō wa yorokobashii kagiri da.",
         "german": "Sein Erfolg ist höchst erfreulich."
       },
       {
         "japanese": "このような結果になって、残念な限りです。",
-        "romaji": "Kono you na kekka ni natte, zannen na kagiri desu.",
+        "romaji": "Kono yō na kekka ni natte, zannen na kagiri desu.",
         "german": "Dass es zu einem solchen Ergebnis kam, ist äußerst bedauerlich."
       }
     ],
@@ -7533,7 +7533,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼女は怒りこそすれ、喜ぶことはないだろう。",
-        "romaji": "Kanojo wa okori koso sure, yorokobu koto wa nai darou.",
+        "romaji": "Kanojo wa okori koso sure, yorokobu koto wa nai darō.",
         "german": "Sie wird eher wütend sein, sich aber sicher nicht freuen."
       }
     ],
@@ -7591,7 +7591,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 8,
           "answer": "こそすれ"
         },
-        "romaji": "Kare no taido wa kouka shi koso sure, nanka shinai.",
+        "romaji": "Kare no taido wa kōka shi koso sure, nanka shinai.",
         "german": "Seine Haltung verhärtet sich eher, als dass sie weicher wird."
       }
     ],
@@ -7640,7 +7640,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Souji shita soba kara, mata chirakasu.",
+        "romaji": "Sōji shita soba kara, mata chirakasu.",
         "german": "Kaum habe ich sauber gemacht, macht er schon wieder Unordnung."
       },
       {
@@ -7755,7 +7755,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Dare de arou to, ruuru wa mamoranakereba naranai.",
+        "romaji": "Dare de arō to, rūru wa mamoranakereba naranai.",
         "german": "Wer auch immer es ist, muss die Regeln befolgen."
       },
       {
@@ -7764,7 +7764,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 5,
           "answer": "であろうと"
         },
-        "romaji": "Donna konnan de arou to, akiramenai.",
+        "romaji": "Donna konnan de arō to, akiramenai.",
         "german": "Egal wie schwierig es ist, ich gebe nicht auf."
       }
     ],
@@ -7867,7 +7867,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Shachou no meirei to atte wa, kotowarenai.",
+        "romaji": "Shachō no meirei to atte wa, kotowarenai.",
         "german": "Wenn es ein Befehl des Geschäftsführers ist, kann ich nicht ablehnen."
       },
       {
@@ -7876,7 +7876,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 7,
           "answer": "とあっては"
         },
-        "romaji": "Kono you na joukyou to atte wa, shikata ga nai.",
+        "romaji": "Kono yō na jōkyō to atte wa, shikata ga nai.",
         "german": "Unter diesen Umständen lässt sich nichts machen."
       }
     ],
@@ -7934,7 +7934,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 5,
           "answer": "というもの"
         },
-        "romaji": "Kono isshuukan to iu mono, ame bakari da.",
+        "romaji": "Kono isshūkan to iu mono, ame bakari da.",
         "german": "Diese ganze Woche über regnet es ständig."
       }
     ],
@@ -7991,7 +7991,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 11,
           "answer": "といったところだ"
         },
-        "romaji": "Kare no jitsuryoku wa seizei chuukyuu to itta tokoro da.",
+        "romaji": "Kare no jitsuryoku wa seizei chūkyū to itta tokoro da.",
         "german": "Seine Fähigkeiten sind bestenfalls auf mittlerem Niveau."
       }
     ],
@@ -8049,7 +8049,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 5,
           "answer": "としたところで"
         },
-        "romaji": "Kare ni tanonda to shita tokoro de, tasukete kurenai darou.",
+        "romaji": "Kare ni tanonda to shita tokoro de, tasukete kurenai darō.",
         "german": "Auch wenn wir ihn bitten würden, würde er uns wahrscheinlich nicht helfen."
       }
     ],
@@ -8103,7 +8103,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Chansu to miru ya, sugu ni koudou ni utsushita.",
+        "romaji": "Chansu to miru ya, sugu ni kōdō ni utsushita.",
         "german": "Sobald er eine Chance sah, handelte er sofort."
       }
     ],
@@ -8153,12 +8153,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Sekkyou jimita hanashi wa yamete kudasai.",
+        "romaji": "Sekkyō jimita hanashi wa yamete kudasai.",
         "german": "Bitte hör auf mit diesen predigtartigen Reden."
       },
       {
         "japanese": "彼の服装は年寄りじみている。",
-        "romaji": "Kare no fukusou wa toshiyori jimite iru.",
+        "romaji": "Kare no fukusō wa toshiyori jimite iru.",
         "german": "Seine Kleidung wirkt altmodisch/wie ein alter Mann."
       },
       {
@@ -8294,7 +8294,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "がたい"
         },
-        "romaji": "Yurushi gatai koui da.",
+        "romaji": "Yurushi gatai kōi da.",
         "german": "Das ist eine unverzeihliche Tat."
       },
       {
@@ -8303,7 +8303,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 2,
           "answer": "がたい"
         },
-        "romaji": "Shinji gatai hanashi da ga, hontou rashii.",
+        "romaji": "Shinji gatai hanashi da ga, hontō rashii.",
         "german": "Es ist eine kaum zu glaubende Geschichte, aber sie scheint wahr zu sein."
       },
       {
@@ -8366,7 +8366,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Kare wa sabishi ge na hyoujou wo shite ita.",
+        "romaji": "Kare wa sabishi ge na hyōjō wo shite ita.",
         "german": "Er hatte einen einsamen Gesichtsausdruck."
       },
       {
@@ -8419,7 +8419,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "examples": [
       {
         "japanese": "一生懸命勉強した甲斐があって、合格できた。",
-        "romaji": "Isshoukenmei benkyou shita kai ga atte, goukaku dekita.",
+        "romaji": "Isshōkenmei benkyō shita kai ga atte, gōkaku dekita.",
         "german": "Die harte Arbeit beim Lernen hat sich gelohnt, und ich konnte bestehen.",
         "cloze": {
           "start": 8,
@@ -8515,7 +8515,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 1,
           "answer": "ごとき"
         },
-        "romaji": "Watashi gotoki mono ga iken wo iu no wa osore ooi.",
+        "romaji": "Watashi gotoki mono ga iken wo iu no wa osore ōi.",
         "german": "Es ist anmaßend für jemanden wie mich, eine Meinung zu äußern."
       },
       {
@@ -8587,7 +8587,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Ari no mama no sugata, umare nagara no sainou.",
+        "romaji": "Ari no mama no sugata, umare nagara no sainō.",
         "german": "Die Gestalt wie sie ist, angeborenes Talent."
       },
       {
@@ -8596,7 +8596,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "start": 1,
           "answer": "ながらの"
         },
-        "romaji": "Mukashi nagara no seihou de tsukurarete iru.",
+        "romaji": "Mukashi nagara no seihō de tsukurarete iru.",
         "german": "Es wird nach der traditionellen Herstellungsmethode gemacht."
       },
       {
@@ -8610,7 +8610,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "彼は生まれながらの才能を持っている。",
-        "romaji": "Kare wa umarenagara no sainou wo motte iru.",
+        "romaji": "Kare wa umarenagara no sainō wo motte iru.",
         "german": "Er besitzt ein angeborenes Talent."
       }
     ],

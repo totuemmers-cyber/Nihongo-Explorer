@@ -4665,7 +4665,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
       },
       {
         "japanese": "ご送付いただいた書類を拝受いたしました。",
-        "romaji": "Gosofu itadaita shorui wo haiju itashimashita.",
+        "romaji": "Gosōfu itadaita shorui wo haiju itashimashita.",
         "german": "Ich habe die von Ihnen zugesandten Dokumente erhalten."
       },
       {

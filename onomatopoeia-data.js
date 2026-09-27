@@ -20,7 +20,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "日本語がドンドン上手になる。",
-        "romaji": "Nihongo ga dondon jouzu ni naru.",
+        "romaji": "Nihongo ga dondon jōzu ni naru.",
         "german": "Mein Japanisch wird immer besser."
       }
     ],
@@ -35,7 +35,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ザーザー",
     "reading": "ざーざー",
-    "romaji": "zaazaa",
+    "romaji": "zāzā",
     "pitch": 1,
     "meaning": "Rauschen, prasseln (starker Regen)",
     "category": "Geräusche",
@@ -47,12 +47,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "雨がザーザー降っている。",
-        "romaji": "Ame ga zaazaa futte iru.",
+        "romaji": "Ame ga zāzā futte iru.",
         "german": "Es regnet in Strömen."
       },
       {
         "japanese": "古いラジオからザーザーと雑音が聞こえる。",
-        "romaji": "Furui rajio kara zaazaa to zatsuon ga kikoeru.",
+        "romaji": "Furui rajio kara zāzā to zatsuon ga kikoeru.",
         "german": "Aus dem alten Radio ist ein starkes Rauschen zu hören."
       }
     ],
@@ -102,7 +102,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "シーン",
     "reading": "しーん",
-    "romaji": "shiin",
+    "romaji": "shīn",
     "pitch": 0,
     "meaning": "Totenstille",
     "category": "Geräusche",
@@ -114,12 +114,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "教室がシーンとなった。",
-        "romaji": "Kyoushitsu ga shiin to natta.",
+        "romaji": "Kyōshitsu ga shīn to natta.",
         "german": "Im Klassenzimmer wurde es totenstill."
       },
       {
         "japanese": "質問しても返事がなく、会場はシーンとしていた。",
-        "romaji": "Shitsumon shite mo henji ga naku, kaijou wa shiin to shite ita.",
+        "romaji": "Shitsumon shite mo henji ga naku, kaijō wa shīn to shite ita.",
         "german": "Auf die Frage kam keine Antwort; im Saal herrschte völlige Stille."
       }
     ],
@@ -165,7 +165,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ニャーニャー",
     "reading": "にゃーにゃー",
-    "romaji": "nyaanyaa",
+    "romaji": "nyānyā",
     "pitch": 1,
     "meaning": "Miau (Katzenmiauen)",
     "category": "Geräusche",
@@ -177,7 +177,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "猫がニャーニャー鳴いている。",
-        "romaji": "Neko ga nyaanyaa naite iru.",
+        "romaji": "Neko ga nyānyā naite iru.",
         "german": "Die Katze miaut."
       }
     ],
@@ -447,7 +447,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ガオー",
     "reading": "がおー",
-    "romaji": "gaoo",
+    "romaji": "gaō",
     "pitch": 1,
     "meaning": "Brüllen (Löwe, Monster)",
     "category": "Geräusche",
@@ -459,7 +459,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "ライオンがガオーと吠えた。",
-        "romaji": "Raion ga gaoo to hoeta.",
+        "romaji": "Raion ga gaō to hoeta.",
         "german": "Der Löwe brüllte."
       }
     ],
@@ -505,7 +505,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ブーブー",
     "reading": "ぶーぶー",
-    "romaji": "buubuu",
+    "romaji": "būbū",
     "pitch": 1,
     "meaning": "Hupen, Brummen; Meckern (Schwein)",
     "category": "Geräusche",
@@ -517,7 +517,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "車がブーブー鳴っている。",
-        "romaji": "Kuruma ga buubuu natte iru.",
+        "romaji": "Kuruma ga būbū natte iru.",
         "german": "Das Auto hupt."
       }
     ],
@@ -574,7 +574,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "氷をガリガリかじる。",
-        "romaji": "Koori o garigari kajiru.",
+        "romaji": "Kōri o garigari kajiru.",
         "german": "Knirschend auf Eis beißen."
       },
       {
@@ -626,7 +626,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ゴーゴー",
     "reading": "ごーごー",
-    "romaji": "googoo",
+    "romaji": "gōgō",
     "pitch": 1,
     "meaning": "Tosen, Brausen (Wind, Feuer)",
     "category": "Geräusche",
@@ -638,7 +638,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "風がゴーゴー吹いている。",
-        "romaji": "Kaze ga googoo fuite iru.",
+        "romaji": "Kaze ga gōgō fuite iru.",
         "german": "Der Wind tobt."
       }
     ],
@@ -652,7 +652,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ビュービュー",
     "reading": "びゅーびゅー",
-    "romaji": "byuubyuu",
+    "romaji": "byūbyū",
     "pitch": 1,
     "meaning": "Heulen, Pfeifen (starker Wind)",
     "category": "Geräusche",
@@ -664,7 +664,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "木枯らしがビュービュー吹く。",
-        "romaji": "Kogarashi ga byuubyuu fuku.",
+        "romaji": "Kogarashi ga byūbyū fuku.",
         "german": "Der kalte Herbstwind heult."
       }
     ],
@@ -690,7 +690,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "キーボードをカチャカチャ打つ。",
-        "romaji": "Kiiboodo o kachakacha utsu.",
+        "romaji": "Kībōdo o kachakacha utsu.",
         "german": "Klackernd auf der Tastatur tippen."
       }
     ],
@@ -716,7 +716,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "太陽がジリジリ照りつける。",
-        "romaji": "Taiyou ga jirijiri teritsukeru.",
+        "romaji": "Taiyō ga jirijiri teritsukeru.",
         "german": "Die Sonne brennt sengend."
       }
     ],
@@ -769,7 +769,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "フワフワのパンケーキを食べた。",
-        "romaji": "Fuwafuwa no pankeeki o tabeta.",
+        "romaji": "Fuwafuwa no pankēki o tabeta.",
         "german": "Ich aß fluffige Pfannkuchen."
       },
       {
@@ -868,7 +868,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "納豆はネバネバしている。",
-        "romaji": "Nattou wa nebaneba shite iru.",
+        "romaji": "Nattō wa nebaneba shite iru.",
         "german": "Nattou ist zähklebrig."
       },
       {
@@ -966,7 +966,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "ギトギトのラーメン。",
-        "romaji": "Gitogito no raamen.",
+        "romaji": "Gitogito no rāmen.",
         "german": "Fettiges Ramen."
       }
     ],
@@ -1059,7 +1059,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "太陽がギラギラ照っている。",
-        "romaji": "Taiyou ga giragira tette iru.",
+        "romaji": "Taiyō ga giragira tette iru.",
         "german": "Die Sonne scheint grell."
       }
     ],
@@ -1207,7 +1207,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "よく磨いた木の表面がスベスベしている。",
-        "romaji": "Yoku migaita ki no hyoumen ga subesube shite iru.",
+        "romaji": "Yoku migaita ki no hyōmen ga subesube shite iru.",
         "german": "Die gut polierte Holzoberfläche fühlt sich glatt an."
       }
     ],
@@ -1261,7 +1261,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "今日はムシムシして暑い。",
-        "romaji": "Kyou wa mushimushi shite atsui.",
+        "romaji": "Kyō wa mushimushi shite atsui.",
         "german": "Heute ist es schwül und heiß."
       }
     ],
@@ -1321,7 +1321,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "パリパリの餃子が好き。",
-        "romaji": "Paripari no gyouza ga suki.",
+        "romaji": "Paripari no gyōza ga suki.",
         "german": "Ich mag knusprige Gyoza."
       },
       {
@@ -1353,7 +1353,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "サクサクのクッキー。",
-        "romaji": "Sakusaku no kukkii.",
+        "romaji": "Sakusaku no kukkī.",
         "german": "Knusprige Kekse."
       },
       {
@@ -1410,7 +1410,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "緊張でコチコチになった。",
-        "romaji": "Kinchou de kochikochi ni natta.",
+        "romaji": "Kinchō de kochikochi ni natta.",
         "german": "Vor Nervosität ganz steif geworden."
       }
     ],
@@ -1490,7 +1490,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "旅行前でワクワクしている。",
-        "romaji": "Ryokou mae de wakuwaku shite iru.",
+        "romaji": "Ryokō mae de wakuwaku shite iru.",
         "german": "Vor der Reise bin ich ganz aufgeregt."
       },
       {
@@ -1555,7 +1555,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "渋滞でイライラする。",
-        "romaji": "Juutai de iraira suru.",
+        "romaji": "Jūtai de iraira suru.",
         "german": "Der Stau macht mich wahnsinnig."
       },
       {
@@ -1620,7 +1620,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "おばあちゃんがニコニコ笑っている。",
-        "romaji": "Obaachan ga nikoniko waratte iru.",
+        "romaji": "Obāchan ga nikoniko waratte iru.",
         "german": "Oma lächelt strahlend."
       },
       {
@@ -1891,7 +1891,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "毎日残業でウンザリだ。",
-        "romaji": "Mainichi zangyou de unzari da.",
+        "romaji": "Mainichi zangyō de unzari da.",
         "german": "Ich habe die täglichen Überstunden satt."
       }
     ],
@@ -1971,7 +1971,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "上司の前でビクビクしている。",
-        "romaji": "Joushi no mae de bikubiku shite iru.",
+        "romaji": "Jōshi no mae de bikubiku shite iru.",
         "german": "Vor dem Chef ist er ganz eingeschüchtert."
       }
     ],
@@ -1998,7 +1998,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "新入社員がオドオドしている。",
-        "romaji": "Shinnyuushain ga odoodo shite iru.",
+        "romaji": "Shinnyūshain ga odoodo shite iru.",
         "german": "Der neue Mitarbeiter ist ganz nervös."
       },
       {
@@ -2117,7 +2117,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "結果発表を待つ間、ソワソワして落ち着かなかった。",
-        "romaji": "Kekka happyou o matsu aida, sowasowa shite ochitsukanakatta.",
+        "romaji": "Kekka happyō o matsu aida, sowasowa shite ochitsukanakatta.",
         "german": "Beim Warten auf die Ergebnisse war ich unruhig und konnte mich nicht entspannen."
       }
     ],
@@ -2133,7 +2133,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ボーッと",
     "reading": "ぼーっと",
-    "romaji": "bootto",
+    "romaji": "bōtto",
     "pitch": 0,
     "meaning": "Geistesabwesend, zerstreut, benommen",
     "category": "Gefühle",
@@ -2145,7 +2145,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "疲れてボーッとしている。",
-        "romaji": "Tsukarete bootto shite iru.",
+        "romaji": "Tsukarete bōtto shite iru.",
         "german": "Vor Müdigkeit bin ich ganz benommen."
       }
     ],
@@ -2193,7 +2193,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "シャワーを浴びてスッキリした。",
-        "romaji": "Shawaa o abite sukkiri shita.",
+        "romaji": "Shawā o abite sukkiri shita.",
         "german": "Nach dem Duschen fühlte ich mich erfrischt."
       },
       {
@@ -2225,12 +2225,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "渋滞でノロノロ運転する。",
-        "romaji": "Juutai de noronoro unten suru.",
+        "romaji": "Jūtai de noronoro unten suru.",
         "german": "Im Stau im Schneckentempo fahren."
       },
       {
         "japanese": "渋滞で車がノロノロ進んでいる。",
-        "romaji": "Juutai de kuruma ga noronoro susunde iru.",
+        "romaji": "Jūtai de kuruma ga noronoro susunde iru.",
         "german": "Im Stau kommen die Autos nur im Schneckentempo voran."
       }
     ],
@@ -2388,7 +2388,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "観光客がキョロキョロしている。",
-        "romaji": "Kankoukyaku ga kyorokyoro shite iru.",
+        "romaji": "Kankōkyaku ga kyorokyoro shite iru.",
         "german": "Die Touristen schauen sich neugierig um."
       }
     ],
@@ -2630,7 +2630,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "そろそろ帰りましょう。",
-        "romaji": "Sorosoro kaerimashou.",
+        "romaji": "Sorosoro kaerimashō.",
         "german": "Lass uns so langsam gehen."
       },
       {
@@ -2690,7 +2690,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "包帯をグルグル巻く。",
-        "romaji": "Houtai o guruguru maku.",
+        "romaji": "Hōtai o guruguru maku.",
         "german": "Einen Verband rund und rund wickeln."
       }
     ],
@@ -3801,7 +3801,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "理由が分からず、気持ちがモヤモヤしている。",
-        "romaji": "Riyuu ga wakarazu, kimochi ga moyamoya shite iru.",
+        "romaji": "Riyū ga wakarazu, kimochi ga moyamoya shite iru.",
         "german": "Weil ich den Grund nicht verstehe, bleibt ein diffuses ungutes Gefühl."
       }
     ],
@@ -6617,7 +6617,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "日本語がめきめき上達した。",
-        "romaji": "Nihongo ga mekimeki joutatsu shita.",
+        "romaji": "Nihongo ga mekimeki jōtatsu shita.",
         "german": "Mein Japanisch hat sich zusehends verbessert."
       }
     ],
@@ -7159,7 +7159,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "モーモー",
     "reading": "もーもー",
-    "romaji": "moomoo",
+    "romaji": "mōmō",
     "pitch": 1,
     "meaning": "Muh (Kuh-Laut)",
     "category": "Geräusche",
@@ -7171,7 +7171,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "牛がモーモー鳴いている。",
-        "romaji": "Ushi ga moomoo naite iru.",
+        "romaji": "Ushi ga mōmō naite iru.",
         "german": "Die Kuh muht."
       }
     ],
@@ -7186,7 +7186,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "コケコッコー",
     "reading": "こけこっこー",
-    "romaji": "kokekokko",
+    "romaji": "kokekokkō",
     "pitch": 0,
     "meaning": "Kikeriki (Hahnenschrei)",
     "category": "Geräusche",
@@ -7198,7 +7198,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "朝、鶏がコケコッコーと鳴いた。",
-        "romaji": "Asa, niwatori ga kokekokko to naita.",
+        "romaji": "Asa, niwatori ga kokekokkō to naita.",
         "german": "Morgens krähte der Hahn."
       }
     ],
@@ -7319,7 +7319,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ヒーヒー",
     "reading": "ひーひー",
-    "romaji": "hiihii",
+    "romaji": "hīhī",
     "pitch": 1,
     "meaning": "Keuchen, wimmern; stöhnen (vor Anstrengung)",
     "category": "Geräusche",
@@ -7426,7 +7426,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "メーメー",
     "reading": "めーめー",
-    "romaji": "meemee",
+    "romaji": "mēmē",
     "pitch": 1,
     "meaning": "Mäh (Schaf/Ziege)",
     "category": "Geräusche",
@@ -7438,7 +7438,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "羊がメーメー鳴いている。",
-        "romaji": "Hitsuji ga meemee naite iru.",
+        "romaji": "Hitsuji ga mēmē naite iru.",
         "german": "Das Schaf blökt."
       }
     ],
@@ -7452,7 +7452,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ガーガー",
     "reading": "がーがー",
-    "romaji": "gaagaa",
+    "romaji": "gāgā",
     "pitch": 1,
     "meaning": "Quak quak (Ente); Schnarchen",
     "category": "Geräusche",
@@ -7464,12 +7464,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "アヒルがガーガー鳴いている。",
-        "romaji": "Ahiru ga gaagaa naite iru.",
+        "romaji": "Ahiru ga gāgā naite iru.",
         "german": "Die Ente schnattert."
       },
       {
         "japanese": "隣の人がガーガーいびきをかいている。",
-        "romaji": "Tonari no hito ga gaagaa ibiki o kaite iru.",
+        "romaji": "Tonari no hito ga gāgā ibiki o kaite iru.",
         "german": "Die Person nebenan schnarcht laut."
       }
     ],
@@ -7518,7 +7518,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "グーグー",
     "reading": "ぐーぐー",
-    "romaji": "guuguu",
+    "romaji": "gūgū",
     "pitch": 1,
     "meaning": "Tief schlafen; Magenknurren",
     "category": "Geräusche",
@@ -7530,12 +7530,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "赤ちゃんがグーグー寝ている。",
-        "romaji": "Akachan ga guuguu nete iru.",
+        "romaji": "Akachan ga gūgū nete iru.",
         "german": "Das Baby schläft tief und fest."
       },
       {
         "japanese": "お腹がグーグー鳴っている。",
-        "romaji": "Onaka ga guuguu natte iru.",
+        "romaji": "Onaka ga gūgū natte iru.",
         "german": "Mein Magen knurrt."
       }
     ],
@@ -7588,7 +7588,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "緊張でガチガチになった。",
-        "romaji": "Kinchou de gachigachi ni natta.",
+        "romaji": "Kinchō de gachigachi ni natta.",
         "german": "Ich war vor Nervosität ganz steif."
       },
       {
@@ -7661,7 +7661,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "キーキー",
     "reading": "きーきー",
-    "romaji": "kiikii",
+    "romaji": "kīkī",
     "pitch": 1,
     "meaning": "Quietschen, kreischen (hoher Ton)",
     "category": "Geräusche",
@@ -7673,7 +7673,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "ブレーキがキーキー鳴る。",
-        "romaji": "Bureeki ga kiikii naru.",
+        "romaji": "Burēki ga kiikii naru.",
         "german": "Die Bremsen quietschen."
       },
       {
@@ -7720,7 +7720,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ギャーギャー",
     "reading": "ぎゃーぎゃー",
-    "romaji": "gyaagyaa",
+    "romaji": "gyāgyā",
     "pitch": 1,
     "meaning": "Laut schreien, kreischen (lästig)",
     "category": "Geräusche",
@@ -7732,7 +7732,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "子供がギャーギャー泣いている。",
-        "romaji": "Kodomo ga gyaagyaa naite iru.",
+        "romaji": "Kodomo ga gyāgyā naite iru.",
         "german": "Das Kind heult lautstark."
       }
     ],
@@ -7786,7 +7786,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "この通りはゴミゴミしている。",
-        "romaji": "Kono toori wa gomigomi shite iru.",
+        "romaji": "Kono tōri wa gomigomi shite iru.",
         "german": "Diese Straße ist eng und überfüllt."
       }
     ],
@@ -7844,7 +7844,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "急な事故にオタオタした。",
-        "romaji": "Kyuu na jiko ni otaota shita.",
+        "romaji": "Kyū na jiko ni otaota shita.",
         "german": "Bei dem plötzlichen Unfall geriet ich in Panik."
       }
     ],
@@ -7973,7 +7973,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "ゼーゼー",
     "reading": "ぜーぜー",
-    "romaji": "zeezee",
+    "romaji": "zēzē",
     "pitch": 1,
     "meaning": "Keuchen, schwer atmen, röcheln",
     "category": "Geräusche",
@@ -7985,12 +7985,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "階段を上ってゼーゼー言っている。",
-        "romaji": "Kaidan o nobotte zeezee itte iru.",
+        "romaji": "Kaidan o nobotte zēzē itte iru.",
         "german": "Nach dem Treppensteigen keuche ich."
       },
       {
         "japanese": "喘息でゼーゼーする。",
-        "romaji": "Zensoku de zeezee suru.",
+        "romaji": "Zensoku de zēzē suru.",
         "german": "Durch Asthma keuche ich."
       }
     ],
@@ -8051,7 +8051,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "今日はカラッと晴れている。",
-        "romaji": "Kyou wa karatto harete iru.",
+        "romaji": "Kyō wa karatto harete iru.",
         "german": "Heute ist es trocken und sonnig."
       },
       {
@@ -8172,7 +8172,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "アツアツのラーメンを食べた。",
-        "romaji": "Atsuatsu no raamen o tabeta.",
+        "romaji": "Atsuatsu no rāmen o tabeta.",
         "german": "Ich aß dampfend heiße Ramen."
       },
       {
@@ -8401,7 +8401,7 @@ window.ONOMATOPOEIA_DATA = [
   {
     "word": "のうのう",
     "reading": "のうのう",
-    "romaji": "nounou",
+    "romaji": "nōnō",
     "pitch": 0,
     "meaning": "Seelenruhig, unbekümmert, dreist",
     "category": "Zustände",
@@ -8413,7 +8413,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "他人の苦労も知らずにのうのうと暮らしている。",
-        "romaji": "Tanin no kurou mo shirazu ni nounou to kurashite iru.",
+        "romaji": "Tanin no kurō mo shirazu ni nōnō to kurashite iru.",
         "german": "Er lebt seelenruhig, ohne die Mühen anderer zu kennen."
       }
     ],
@@ -8498,7 +8498,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "こせこせしないで、もっとおおらかに行こう。",
-        "romaji": "Kosekose shinai de, motto ooraka ni ikou.",
+        "romaji": "Kosekose shinai de, motto ōraka ni ikō.",
         "german": "Sei nicht so kleinlich, lass uns großzügiger sein."
       }
     ],
@@ -8873,7 +8873,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "あくせく働いても、給料は増えない。",
-        "romaji": "Akuseku hataraite mo, kyuuryou wa fuenai.",
+        "romaji": "Akuseku hataraite mo, kyūryō wa fuenai.",
         "german": "Auch wenn man sich abschuftet, steigt das Gehalt nicht."
       }
     ],
@@ -8934,12 +8934,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "もう少しゆっくり話してください。",
-        "romaji": "Mou sukoshi yukkuri hanashite kudasai.",
+        "romaji": "Mō sukoshi yukkuri hanashite kudasai.",
         "german": "Bitte sprechen Sie etwas langsamer."
       },
       {
         "japanese": "今日は家でゆっくり休みます。",
-        "romaji": "Kyou wa ie de yukkuri yasumimasu.",
+        "romaji": "Kyō wa ie de yukkuri yasumimasu.",
         "german": "Heute ruhe ich mich zu Hause in aller Ruhe aus."
       }
     ],
@@ -8968,7 +8968,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "休みの日は公園でのんびりする。",
-        "romaji": "Yasumi no hi wa kouen de nonbiri suru.",
+        "romaji": "Yasumi no hi wa kōen de nonbiri suru.",
         "german": "An freien Tagen entspanne ich mich gemütlich im Park."
       },
       {
@@ -9002,7 +9002,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "このケーキはしっとりしている。",
-        "romaji": "Kono keeki wa shittori shite iru.",
+        "romaji": "Kono kēki wa shittori shite iru.",
         "german": "Dieser Kuchen ist angenehm saftig."
       },
       {
@@ -9043,7 +9043,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "風が吹いて、スカートがふんわり広がった。",
-        "romaji": "Kaze ga fuite, sukaato ga funwari hirogatta.",
+        "romaji": "Kaze ga fuite, sukāto ga funwari hirogatta.",
         "german": "Im Wind bauschte sich der Rock sanft auf."
       }
     ],
@@ -9079,7 +9079,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "臨時収入があって、父はほくほく顔だ。",
-        "romaji": "Rinji shuunyuu ga atte, chichi wa hokuhokugao da.",
+        "romaji": "Rinji shūnyū ga atte, chichi wa hokuhokugao da.",
         "german": "Mein Vater strahlt über seine unerwarteten Einnahmen."
       }
     ],
@@ -9110,7 +9110,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "皿の上でゼリーがぷるぷる揺れている。",
-        "romaji": "Sara no ue de zerii ga purupuru yurete iru.",
+        "romaji": "Sara no ue de zerī ga purupuru yurete iru.",
         "german": "Das Gelee wackelt auf dem Teller."
       },
       {
@@ -9147,7 +9147,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "この紙は表面がざらざらしている。",
-        "romaji": "Kono kami wa hyoumen ga zarazara shite iru.",
+        "romaji": "Kono kami wa hyōmen ga zarazara shite iru.",
         "german": "Dieses Papier hat eine raue Oberfläche."
       },
       {
@@ -9181,7 +9181,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "緊張で胃がきりきり痛む。",
-        "romaji": "Kinchou de i ga kirikiri itamu.",
+        "romaji": "Kinchō de i ga kirikiri itamu.",
         "german": "Vor Anspannung schmerzt mein Magen stechend."
       },
       {
@@ -9217,7 +9217,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "急に立ち上がったら、頭がくらくらした。",
-        "romaji": "Kyuu ni tachiagattara, atama ga kurakura shita.",
+        "romaji": "Kyū ni tachiagattara, atama ga kurakura shita.",
         "german": "Als ich plötzlich aufstand, wurde mir schwindelig."
       },
       {
@@ -9253,7 +9253,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "試合に負けて、弟はしょんぼりしている。",
-        "romaji": "Shiai ni makete, otouto wa shonbori shite iru.",
+        "romaji": "Shiai ni makete, otōto wa shonbori shite iru.",
         "german": "Mein jüngerer Bruder ist nach der Niederlage niedergeschlagen."
       },
       {
@@ -9321,12 +9321,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "会議は十時きっちりに始まった。",
-        "romaji": "Kaigi wa juuji kicchiri ni hajimatta.",
+        "romaji": "Kaigi wa jūji kicchiri ni hajimatta.",
         "german": "Die Besprechung begann genau um zehn."
       },
       {
         "japanese": "使った道具をきっちり片付けてから帰る。",
-        "romaji": "Tsukatta dougu o kicchiri katazukete kara kaeru.",
+        "romaji": "Tsukatta dōgu o kicchiri katazukete kara kaeru.",
         "german": "Ich räume die benutzten Werkzeuge sorgfältig auf, bevor ich gehe."
       }
     ],
@@ -9360,7 +9360,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "集合写真に全員がばっちり写っている。",
-        "romaji": "Shuugou shashin ni zen'in ga bacchiri utsutte iru.",
+        "romaji": "Shūgō shashin ni zen'in ga bacchiri utsutte iru.",
         "german": "Auf dem Gruppenfoto sind alle perfekt zu sehen."
       }
     ],
@@ -9389,7 +9389,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "契約する前に、条件をじっくり読んだ。",
-        "romaji": "Keiyaku suru mae ni, jouken o jikkuri yonda.",
+        "romaji": "Keiyaku suru mae ni, jōken o jikkuri yonda.",
         "german": "Vor dem Vertragsabschluss las ich die Bedingungen gründlich."
       },
       {
@@ -9428,7 +9428,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "休日は家でゆったり過ごしたい。",
-        "romaji": "Kyuujitsu wa ie de yuttari sugoshitai.",
+        "romaji": "Kyūjitsu wa ie de yuttari sugoshitai.",
         "german": "Den freien Tag möchte ich entspannt zu Hause verbringen."
       }
     ],
@@ -9493,7 +9493,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "水が多すぎて、ご飯がべちゃべちゃになった。",
-        "romaji": "Mizu ga oosugite, gohan ga bechabecha ni natta.",
+        "romaji": "Mizu ga ōsugite, gohan ga bechabecha ni natta.",
         "german": "Durch zu viel Wasser wurde der Reis matschig."
       },
       {
@@ -9527,7 +9527,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "洗濯物を放置したら、シャツがしわしわになった。",
-        "romaji": "Sentakumono o houchi shitara, shatsu ga shiwashiwa ni natta.",
+        "romaji": "Sentakumono o hōchi shitara, shatsu ga shiwashiwa ni natta.",
         "german": "Weil ich die Wäsche liegen ließ, wurde das Hemd ganz zerknittert."
       },
       {
@@ -9561,12 +9561,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "約束を忘れられて、妹はぷんぷん怒っている。",
-        "romaji": "Yakusoku o wasurerarete, imouto wa punpun okotte iru.",
+        "romaji": "Yakusoku o wasurerarete, imōto wa punpun okotte iru.",
         "german": "Meine jüngere Schwester ist stinksauer, weil man die Verabredung vergessen hat."
       },
       {
         "japanese": "部屋に香水の匂いがぷんぷんする。",
-        "romaji": "Heya ni kousui no nioi ga punpun suru.",
+        "romaji": "Heya ni kōsui no nioi ga punpun suru.",
         "german": "Im Zimmer riecht es sehr stark nach Parfüm."
       }
     ],
@@ -9668,7 +9668,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "鐘が鳴ると、子供たちが教室からわらわら出てきた。",
-        "romaji": "Kane ga naru to, kodomotachi ga kyoushitsu kara warawara dete kita.",
+        "romaji": "Kane ga naru to, kodomotachi ga kyōshitsu kara warawara dete kita.",
         "german": "Beim Klingeln strömten die Kinder aus dem Klassenzimmer."
       }
     ],
@@ -9736,7 +9736,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "弟は大きなケーキをぺろっと食べた。",
-        "romaji": "Otouto wa ookina keeki o perotto tabeta.",
+        "romaji": "Otōto wa ōkina kēki o perotto tabeta.",
         "german": "Mein jüngerer Bruder verputzte mühelos ein großes Stück Kuchen."
       }
     ],
@@ -9788,7 +9788,7 @@ window.ONOMATOPOEIA_DATA = [
     "id": "onomatopoeia:word:ばーんと",
     "word": "ばーんと",
     "reading": "ばーんと",
-    "romaji": "baanto",
+    "romaji": "bānto",
     "pitch": null,
     "meaning": "mit einem Knall; demonstrativ groß",
     "category": "Geräusche",
@@ -9801,12 +9801,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "ドアがばーんと閉まった。",
-        "romaji": "Doa ga baanto shimatta.",
+        "romaji": "Doa ga bānto shimatta.",
         "german": "Die Tür fiel mit einem Knall zu."
       },
       {
         "japanese": "広告に新商品の写真がばーんと載っている。",
-        "romaji": "Koukoku ni shinshouhin no shashin ga baanto notte iru.",
+        "romaji": "Kōkoku ni shinshōhin no shashin ga bānto notte iru.",
         "german": "Die Werbung zeigt ein riesiges, auffälliges Foto des neuen Produkts."
       }
     ],
@@ -9890,7 +9890,7 @@ window.ONOMATOPOEIA_DATA = [
     "id": "onomatopoeia:word:はあはあ",
     "word": "はあはあ",
     "reading": "はあはあ",
-    "romaji": "haahaa",
+    "romaji": "hāhā",
     "pitch": null,
     "meaning": "keuchend; schwer atmend",
     "category": "Geräusche",
@@ -9903,12 +9903,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "階段を駆け上がって、はあはあ息をした。",
-        "romaji": "Kaidan o kakeagatte, haahaa iki o shita.",
+        "romaji": "Kaidan o kakeagatte, hāhā iki o shita.",
         "german": "Nach dem Sprint die Treppe hinauf keuchte ich."
       },
       {
         "japanese": "犬が舌を出してはあはあしている。",
-        "romaji": "Inu ga shita o dashite haahaa shite iru.",
+        "romaji": "Inu ga shita o dashite hāhā shite iru.",
         "german": "Der Hund hechelt mit heraushängender Zunge."
       }
     ],
@@ -9926,7 +9926,7 @@ window.ONOMATOPOEIA_DATA = [
     "id": "onomatopoeia:word:しゅーしゅー",
     "word": "しゅーしゅー",
     "reading": "しゅーしゅー",
-    "romaji": "shuushuu",
+    "romaji": "shūshū",
     "pitch": null,
     "meaning": "anhaltend zischend",
     "category": "Geräusche",
@@ -9939,12 +9939,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "やかんから蒸気がしゅーしゅー出ている。",
-        "romaji": "Yakan kara jouki ga shuushuu dete iru.",
+        "romaji": "Yakan kara jōki ga shūshū dete iru.",
         "german": "Aus dem Kessel zischt Dampf."
       },
       {
         "japanese": "タイヤから空気がしゅーしゅー漏れていた。",
-        "romaji": "Taiya kara kuuki ga shuushuu morete ita.",
+        "romaji": "Taiya kara kūki ga shūshū morete ita.",
         "german": "Aus dem Reifen entwich zischend Luft."
       }
     ],
@@ -9960,7 +9960,7 @@ window.ONOMATOPOEIA_DATA = [
     "id": "onomatopoeia:word:ぎーぎー",
     "word": "ぎーぎー",
     "reading": "ぎーぎー",
-    "romaji": "giigii",
+    "romaji": "gīgī",
     "pitch": null,
     "meaning": "quietschend; knarrend",
     "category": "Geräusche",
@@ -9973,12 +9973,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "古い椅子がぎーぎー鳴る。",
-        "romaji": "Furui isu ga giigii naru.",
+        "romaji": "Furui isu ga gīgī naru.",
         "german": "Der alte Stuhl knarrt."
       },
       {
         "japanese": "門を動かすたびに、蝶番がぎーぎーきしんだ。",
-        "romaji": "Mon o ugokasu tabi ni, choutsugai ga giigii kishinda.",
+        "romaji": "Mon o ugokasu tabi ni, chōtsugai ga gīgī kishinda.",
         "german": "Bei jeder Bewegung des Tores quietschten die Scharniere."
       }
     ],
@@ -9994,7 +9994,7 @@ window.ONOMATOPOEIA_DATA = [
     "id": "onomatopoeia:word:もうもう",
     "word": "もうもう",
     "reading": "もうもう",
-    "romaji": "moumou",
+    "romaji": "mōmō",
     "pitch": null,
     "meaning": "dicht aufsteigend und die Sicht verhüllend",
     "category": "Zustände",
@@ -10007,12 +10007,12 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "煙がもうもうと立ち込めて、向こうが見えない。",
-        "romaji": "Kemuri ga moumou to tachikomete, mukou ga mienai.",
+        "romaji": "Kemuri ga mōmō to tachikomete, mukō ga mienai.",
         "german": "Dichter Rauch versperrt die Sicht."
       },
       {
         "japanese": "車が通ると、ほこりがもうもうと舞い上がった。",
-        "romaji": "Kuruma ga tooru to, hokori ga moumou to maiagatta.",
+        "romaji": "Kuruma ga tōru to, hokori ga mōmō to maiagatta.",
         "german": "Als das Auto vorbeifuhr, wirbelten dichte Staubwolken auf."
       }
     ],
@@ -10076,7 +10076,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "軟骨はこりこりした食感が特徴だ。",
-        "romaji": "Nankotsu wa korikori shita shokkan ga tokuchou da.",
+        "romaji": "Nankotsu wa korikori shita shokkan ga tokuchō da.",
         "german": "Knorpel zeichnet sich durch seinen fest-knackigen Biss aus."
       },
       {
@@ -10112,7 +10112,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "緩衝材を指でぷちぷちつぶした。",
-        "romaji": "Kanshouzai o yubi de puchipuchi tsubushita.",
+        "romaji": "Kanshōzai o yubi de puchipuchi tsubushita.",
         "german": "Ich ließ die Luftpolster mit den Fingern eines nach dem anderen platzen."
       },
       {
@@ -10148,7 +10148,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "旅行のためにせっせとお金を貯めている。",
-        "romaji": "Ryokou no tame ni sesseto okane o tamete iru.",
+        "romaji": "Ryokō no tame ni sesseto okane o tamete iru.",
         "german": "Ich spare fleißig für die Reise."
       },
       {
@@ -10220,7 +10220,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "請求書の金額を見てギョッとした。",
-        "romaji": "Seikyuusho no kingaku o mite gyotto shita.",
+        "romaji": "Seikyūsho no kingaku o mite gyotto shita.",
         "german": "Beim Anblick des Rechnungsbetrags bin ich zusammengezuckt."
       }
     ],
@@ -10250,7 +10250,7 @@ window.ONOMATOPOEIA_DATA = [
     "examples": [
       {
         "japanese": "急に名前を呼ばれてドキッとした。",
-        "romaji": "Kyuu ni namae o yobarete dokitto shita.",
+        "romaji": "Kyū ni namae o yobarete dokitto shita.",
         "german": "Als plötzlich mein Name gerufen wurde, bekam ich einen Schreck."
       },
       {
@@ -10323,7 +10323,7 @@ window.ONOMATOPOEIA_DATA = [
       },
       {
         "japanese": "彼は会議中ずっとベラベラ話していた。",
-        "romaji": "Kare wa kaigichuu zutto berabera hanashite ita.",
+        "romaji": "Kare wa kaigichū zutto berabera hanashite ita.",
         "german": "Er hat während der ganzen Besprechung ununterbrochen geredet."
       }
     ],
