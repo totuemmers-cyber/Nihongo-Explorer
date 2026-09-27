@@ -1,0 +1,3142 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:burasageru",
+      "revisionId": "036-add-burasageru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぶら下げる",
+        "reading": "ぶらさげる",
+        "romaji": "burasageru",
+        "meaning": "(herab)hängen lassen, baumeln lassen; in der Hand tragen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Etwas hängend tragen oder aufhängen: 袋をぶら下げて歩く, 風鈴をぶら下げる. Intransitiv: ぶら下がる.",
+        "examples": [
+          {
+            "japanese": "父は買い物袋をぶら下げて帰ってきた。",
+            "romaji": "Chichi wa kaimonobukuro o burasagete kaette kita.",
+            "german": "Mein Vater kam mit einer Einkaufstüte in der Hand nach Hause."
+          },
+          {
+            "japanese": "窓に風鈴をぶら下げた。",
+            "romaji": "Mado ni fuurin o burasageta.",
+            "german": "Ich habe ein Windspiel ans Fenster gehängt."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "ぶらさげる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ぶらさげる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239690417",
+            "patterns": [
+              0
+            ],
+            "finding": "ぶら下げる / ブラサゲル; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; lemma ぶら下げる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶら下げる",
+              "reading": "ぶらさげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "ぶら下げる as \"(herab)hängen lassen, baumeln lassen; in der Hand tragen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (kana). Editorial N2.",
+      "rationale": "Add ぶら下げる【ぶらさげる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1011250; spelling=ぶら下げる; reading=ぶらさげる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1011250 ぶら下げる/ぶらさげる sense(s) 1 support \"(herab)hängen lassen, baumeln lassen; in der Hand tragen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1011250",
+            "spelling": "ぶら下げる",
+            "reading": "ぶらさげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hang",
+                  "to suspend",
+                  "to dangle",
+                  "to swing",
+                  "to carry"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぶら下げる|ぶらさげる",
+          "referenceIndex": 0,
+          "referenceHash": "cf59dcc8c3f9f5c93e1a12577759e17b6fe59f9b1ef4727a966a73ee8a75fde8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"(herab)hängen lassen, baumeln lassen; in der Hand tragen\" matches JMdict 1011250 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Carrying a bag.",
+          "Hanging a wind chime."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1011250; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading ぶらさげる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (kana). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@239690417 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239690417",
+            "patterns": [
+              0
+            ],
+            "finding": "ぶら下げる / ブラサゲル; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; lemma ぶら下げる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶら下げる",
+              "reading": "ぶらさげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "ぶら下げる as \"(herab)hängen lassen, baumeln lassen; in der Hand tragen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ぶら下げる【ぶらさげる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1011250 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a78930da47916141e7d34e068518844de8ff1e929061afd601e8f0d0f12bac71",
+        "approvalHash": "aef44214e0dc059bcf51d2f9036f6bc9ba39ff0a662e3e36444ffcfe26b66b9e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). ぶら下げる【ぶらさげる】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1011250; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "a78930da47916141e7d34e068518844de8ff1e929061afd601e8f0d0f12bac71",
+        "approvalHash": "aef44214e0dc059bcf51d2f9036f6bc9ba39ff0a662e3e36444ffcfe26b66b9e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:burashi",
+      "revisionId": "036-add-burashi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ブラシ",
+        "reading": "ブラシ",
+        "romaji": "burashi",
+        "meaning": "Bürste",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Bürste für Haare, Kleidung oder Schuhe: ヘアブラシ, 歯ブラシ (Zahnbürste). ブラシをかける = bürsten.",
+        "examples": [
+          {
+            "japanese": "出かける前に髪にブラシをかけた。",
+            "romaji": "Dekakeru mae ni kami ni burashi o kaketa.",
+            "german": "Vor dem Ausgehen habe ich mir die Haare gebürstet."
+          },
+          {
+            "japanese": "靴の泥をブラシで落とした。",
+            "romaji": "Kutsu no doro o burashi de otoshita.",
+            "german": "Ich habe den Schlamm mit einer Bürste von den Schuhen entfernt."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239697791",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "ブラシ / ブラシ; 名詞/普通名詞/一般/*; *; *; lemma ブラシ-brush; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブラシ",
+              "reading": "ブラシ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブラシ as \"Bürste\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ブラシ【ブラシ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1579310; spelling=ブラシ; reading=ブラシ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1579310 ブラシ/ブラシ sense(s) 1 support \"Bürste\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1579310",
+            "spelling": "ブラシ",
+            "reading": "ブラシ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brush"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぶらし|ぶらし",
+          "referenceIndex": 0,
+          "referenceHash": "d7122d46efbbd52184dce9f33d59c7bd3cd139ad651d24cf7807143f86b99401"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Bürste\" matches JMdict 1579310 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Brushing hair.",
+          "Cleaning shoes."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1579310; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@239697791 attest 1,2; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239697791",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "ブラシ / ブラシ; 名詞/普通名詞/一般/*; *; *; lemma ブラシ-brush; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブラシ",
+              "reading": "ブラシ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブラシ as \"Bürste\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ブラシ【ブラシ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1579310 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5efa4dd7493464fb9e1c5caa33e00dfbc8a5e4ef926f9031ce972f6dabe9cf5b",
+        "approvalHash": "3e170e5d68d7f8fbcaca30d16044434e16bd00aa3d14b787140bca950bb24505"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Pinned JMdict 1579310 (brush) correct. Examples natural.",
+        "contentHash": "5efa4dd7493464fb9e1c5caa33e00dfbc8a5e4ef926f9031ce972f6dabe9cf5b",
+        "approvalHash": "3e170e5d68d7f8fbcaca30d16044434e16bd00aa3d14b787140bca950bb24505"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:purattohoomu",
+      "revisionId": "036-add-purattohoomu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "プラットホーム",
+        "reading": "プラットホーム",
+        "romaji": "purattohoomu",
+        "meaning": "Bahnsteig",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Vollform; im Alltag meist kurz ホーム. Gleisnummer: 〜番線.",
+        "examples": [
+          {
+            "japanese": "プラットホームで電車を待っている人が多い。",
+            "romaji": "Purattohoomu de densha o matte iru hito ga ooi.",
+            "german": "Auf dem Bahnsteig warten viele Leute auf den Zug."
+          },
+          {
+            "japanese": "危ないので、プラットホームの端を歩かないでください。",
+            "romaji": "Abunai node, purattohoomu no hashi o arukanaide kudasai.",
+            "german": "Bitte gehen Sie nicht am Bahnsteigrand, es ist gefährlich."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240407823",
+            "patterns": [
+              5
+            ],
+            "finding": "プラットホーム / プラットホーム; 名詞/普通名詞/一般/*; *; *; lemma プラットホーム-platform; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "プラットホーム",
+              "reading": "プラットホーム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "プラットホーム as \"Bahnsteig\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add プラットホーム【プラットホーム】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1115820; spelling=プラットホーム; reading=プラットホーム; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1115820 プラットホーム/プラットホーム sense(s) 1 support \"Bahnsteig\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1115820",
+            "spelling": "プラットホーム",
+            "reading": "プラットホーム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "platform"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぷらっとほーむ|ぷらっとほーむ",
+          "referenceIndex": 0,
+          "referenceHash": "9dc45c4acfcbd12121dc98ea687050f0c8574cbf55644daa997e82568653d37a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Bahnsteig\" matches JMdict 1115820 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Waiting passengers.",
+          "Safety announcement."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1115820; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@240407823 attest 5; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240407823",
+            "patterns": [
+              5
+            ],
+            "finding": "プラットホーム / プラットホーム; 名詞/普通名詞/一般/*; *; *; lemma プラットホーム-platform; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "プラットホーム",
+              "reading": "プラットホーム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "プラットホーム as \"Bahnsteig\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add プラットホーム【プラットホーム】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1115820 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d11dce635652a1a527508a7a29ddfb2564e6772b1d0b69f4455aa0361e531985",
+        "approvalHash": "98363d4c870280d130d39626276e0d1b80bd9ff2a9f32cdafdc882193d6963d7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). プラットホーム【プラットホーム】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1115820; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "d11dce635652a1a527508a7a29ddfb2564e6772b1d0b69f4455aa0361e531985",
+        "approvalHash": "98363d4c870280d130d39626276e0d1b80bd9ff2a9f32cdafdc882193d6963d7"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:furii",
+      "revisionId": "036-add-furii",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "フリー",
+        "reading": "フリー",
+        "romaji": "furii",
+        "meaning": "frei, ungebunden; kostenlos; freiberuflich",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N2",
+        "notes": "Ohne Bindung (フリーのカメラマン = freiberuflicher Fotograf), gratis (フリーの Wi-Fi) oder als Suffix „-frei“ (バリアフリー).",
+        "examples": [
+          {
+            "japanese": "兄は会社を辞めて、フリーのデザイナーになった。",
+            "romaji": "Ani wa kaisha o yamete, furii no dezainaa ni natta.",
+            "german": "Mein Bruder hat gekündigt und ist freiberuflicher Designer geworden."
+          },
+          {
+            "japanese": "このカフェではフリーのWi-Fiが使える。",
+            "romaji": "Kono kafe de wa furii no waifai ga tsukaeru.",
+            "german": "In diesem Café gibt es kostenloses WLAN."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@237244686",
+            "patterns": [
+              2
+            ],
+            "finding": "フリー / フリー; 名詞/普通名詞/形状詞可能/*; *; *; lemma フリー-free; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フリー",
+              "reading": "フリー",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "フリー as \"frei, ungebunden; kostenlos; freiberuflich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add フリー【フリー】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1111640; spelling=フリー; reading=フリー; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1111640 フリー/フリー sense(s) 1,2,3 support \"frei, ungebunden; kostenlos; freiberuflich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1111640",
+            "spelling": "フリー",
+            "reading": "フリー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of restraint, controls, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of charge)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "freelance",
+                  "independent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ふりー|ふりー",
+          "referenceIndex": 0,
+          "referenceHash": "50a151cfac01fe49eba7955b56973064780c72afc93052d4a7d1cec02b272d5d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"frei, ungebunden; kostenlos; freiberuflich\" matches JMdict 1111640 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Freelance work.",
+          "Free Wi-Fi."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1111640; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@237244686 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@237244686",
+            "patterns": [
+              2
+            ],
+            "finding": "フリー / フリー; 名詞/普通名詞/形状詞可能/*; *; *; lemma フリー-free; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フリー",
+              "reading": "フリー",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "フリー as \"frei, ungebunden; kostenlos; freiberuflich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add フリー【フリー】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1111640 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f078ba7a6b5f6b27ca27d674f1a56f25dc143d4b8cc869048f14a331e477f4b1",
+        "approvalHash": "e64dd85601f086d3d8c66a73a707ce5d3df3f220010f57e4bf1b2d157109421a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). フリー【フリー】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1111640; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "f078ba7a6b5f6b27ca27d674f1a56f25dc143d4b8cc869048f14a331e477f4b1",
+        "approvalHash": "e64dd85601f086d3d8c66a73a707ce5d3df3f220010f57e4bf1b2d157109421a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:furimuku",
+      "revisionId": "036-add-furimuku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "振り向く",
+        "reading": "ふりむく",
+        "romaji": "furimuku",
+        "meaning": "sich umdrehen, zurückblicken",
+        "type": "Verb",
+        "category": "Bewegung",
+        "level": "N2",
+        "notes": "Den Kopf oder Körper nach hinten drehen: 名前を呼ばれて振り向く.",
+        "examples": [
+          {
+            "japanese": "名前を呼ばれて振り向くと、昔の友達がいた。",
+            "romaji": "Namae o yobarete furimuku to, mukashi no tomodachi ga ita.",
+            "german": "Als ich meinen Namen hörte und mich umdrehte, stand ein alter Freund da."
+          },
+          {
+            "japanese": "彼女は一度も振り向かずに行ってしまった。",
+            "romaji": "Kanojo wa ichido mo furimukazu ni itte shimatta.",
+            "german": "Sie ging, ohne sich ein einziges Mal umzudrehen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ふりむく",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ふりむく",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@237103800",
+            "patterns": [
+              3
+            ],
+            "finding": "振り向く / フリムク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 振り向く; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "振り向く",
+              "reading": "ふりむく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "振り向く as \"sich umdrehen, zurückblicken\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 振り向く【ふりむく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361190; spelling=振り向く; reading=ふりむく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1361190 振り向く/ふりむく sense(s) 1 support \"sich umdrehen, zurückblicken\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1361190",
+            "spelling": "振り向く",
+            "reading": "ふりむく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to turn one's face",
+                  "to turn around",
+                  "to look over one's shoulder"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "振り向く|ふりむく",
+          "referenceIndex": 0,
+          "referenceHash": "03144f5595fda44bfdb2e5585c8b52f03504430e402836eba7d69b0ee46cf3a8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"sich umdrehen, zurückblicken\" matches JMdict 1361190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Turning at one’s name.",
+          "Leaving without looking back."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1361190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading ふりむく; nested and top-level metadata agree.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@237103800 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@237103800",
+            "patterns": [
+              3
+            ],
+            "finding": "振り向く / フリムク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 振り向く; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "振り向く",
+              "reading": "ふりむく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "振り向く as \"sich umdrehen, zurückblicken\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 振り向く【ふりむく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1361190 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ae24bbb39ecad40877bb2afd21fe9da48cea051285eef52ab60ba6db3d226a65",
+        "approvalHash": "aa7c4076a90b08b970cfdea4da1d51150e5ab69b570fa6ff451965ad8f69fc82"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 振り向く【ふりむく】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1361190; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "ae24bbb39ecad40877bb2afd21fe9da48cea051285eef52ab60ba6db3d226a65",
+        "approvalHash": "aa7c4076a90b08b970cfdea4da1d51150e5ab69b570fa6ff451965ad8f69fc82"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:purinto",
+      "revisionId": "036-add-purinto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "プリント",
+        "reading": "プリント",
+        "romaji": "purinto",
+        "meaning": "Handout, Arbeitsblatt; Ausdruck",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "In Schulen das ausgeteilte Arbeitsblatt (プリントを配る); auch Druck und Ausdruck (写真をプリントする).",
+        "examples": [
+          {
+            "japanese": "先生が宿題のプリントを配った。",
+            "romaji": "Sensei ga shukudai no purinto o kubatta.",
+            "german": "Der Lehrer verteilte die Hausaufgabenblätter."
+          },
+          {
+            "japanese": "コンビニで写真をプリントした。",
+            "romaji": "Konbini de shashin o purinto shita.",
+            "german": "Ich habe die Fotos im Konbini ausgedruckt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240502743",
+            "patterns": [
+              0
+            ],
+            "finding": "プリント / プリント; 名詞/普通名詞/サ変可能/*; *; *; lemma プリント-print; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "プリント",
+              "reading": "プリント",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "プリント as \"Handout, Arbeitsblatt; Ausdruck\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add プリント【プリント】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1116300; spelling=プリント; reading=プリント; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1116300 プリント/プリント sense(s) 1,2 support \"Handout, Arbeitsblatt; Ausdruck\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1116300",
+            "spelling": "プリント",
+            "reading": "プリント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "print",
+                  "printing",
+                  "(printed) copy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handout",
+                  "flyer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぷりんと|ぷりんと",
+          "referenceIndex": 0,
+          "referenceHash": "d747a843e14e2da9e653f172aff686699d6081a78b4ee1cde914348513544546"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Handout, Arbeitsblatt; Ausdruck\" matches JMdict 1116300 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Worksheet in class.",
+          "Printing photos."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1116300; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@240502743 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240502743",
+            "patterns": [
+              0
+            ],
+            "finding": "プリント / プリント; 名詞/普通名詞/サ変可能/*; *; *; lemma プリント-print; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "プリント",
+              "reading": "プリント",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "プリント as \"Handout, Arbeitsblatt; Ausdruck\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add プリント【プリント】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1116300 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f017d5d92d63c98a66cd6513eb0df04f19d1b5552f0bbb44d9a57640abfb2fbb",
+        "approvalHash": "2a534e45fd81924819599d9e50405b91c0dc086b704b1e508b087bd23de8480f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). プリント【プリント】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1116300; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "f017d5d92d63c98a66cd6513eb0df04f19d1b5552f0bbb44d9a57640abfb2fbb",
+        "approvalHash": "2a534e45fd81924819599d9e50405b91c0dc086b704b1e508b087bd23de8480f"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:buroochi",
+      "revisionId": "036-add-buroochi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ブローチ",
+        "reading": "ブローチ",
+        "romaji": "buroochi",
+        "meaning": "Brosche",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Schmucknadel für die Kleidung: ブローチをつける.",
+        "examples": [
+          {
+            "japanese": "祖母からもらったブローチを胸につけた。",
+            "romaji": "Sobo kara moratta buroochi o mune ni tsuketa.",
+            "german": "Ich habe mir die Brosche meiner Großmutter an die Brust gesteckt."
+          },
+          {
+            "japanese": "花の形のブローチが店に並んでいる。",
+            "romaji": "Hana no katachi no buroochi ga mise ni narande iru.",
+            "german": "Im Laden liegen Broschen in Blumenform."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240024912",
+            "patterns": [
+              2
+            ],
+            "finding": "ブローチ / ブローチ; 名詞/普通名詞/一般/*; *; *; lemma ブローチ-brooch; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブローチ",
+              "reading": "ブローチ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブローチ as \"Brosche\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ブローチ【ブローチ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1114910; spelling=ブローチ; reading=ブローチ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1114910 ブローチ/ブローチ sense(s) 1 support \"Brosche\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1114910",
+            "spelling": "ブローチ",
+            "reading": "ブローチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brooch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぶろーち|ぶろーち",
+          "referenceIndex": 0,
+          "referenceHash": "d8b56e80cc8d9e25950de523823f9d2a955948c6a92caf7617804efbcb2aac5b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Brosche\" matches JMdict 1114910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Wearing an heirloom.",
+          "Shop display."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1114910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@240024912 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240024912",
+            "patterns": [
+              2
+            ],
+            "finding": "ブローチ / ブローチ; 名詞/普通名詞/一般/*; *; *; lemma ブローチ-brooch; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブローチ",
+              "reading": "ブローチ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブローチ as \"Brosche\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ブローチ【ブローチ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1114910 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "32bd0454e8cfc612c9172cca4400127447a3ddb2705d6083ae6604c665d5941e",
+        "approvalHash": "7ea04d234f0c459a3c9e94724dcc24d79e85f6a8d631d76eeee69a8091469afc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Pinned JMdict 1114910 (brooch) correct. Examples natural.",
+        "contentHash": "32bd0454e8cfc612c9172cca4400127447a3ddb2705d6083ae6604c665d5941e",
+        "approvalHash": "7ea04d234f0c459a3c9e94724dcc24d79e85f6a8d631d76eeee69a8091469afc"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:bunsuu",
+      "revisionId": "036-add-bunsuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "分数",
+        "reading": "ぶんすう",
+        "romaji": "bunsuu",
+        "meaning": "Bruch (Mathematik)",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N2",
+        "notes": "Bruchzahl wie ½ (二分の一 = „ein Halb“; im Japanischen zuerst der Nenner). Dezimalzahl: 小数.",
+        "examples": [
+          {
+            "japanese": "小学校で分数の計算を習った。",
+            "romaji": "Shougakkou de bunsuu no keisan o naratta.",
+            "german": "In der Grundschule haben wir Bruchrechnen gelernt."
+          },
+          {
+            "japanese": "分数を小数に直してください。",
+            "romaji": "Bunsuu o shousuu ni naoshite kudasai.",
+            "german": "Wandeln Sie den Bruch bitte in eine Dezimalzahl um."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240095622",
+            "patterns": [
+              3
+            ],
+            "finding": "分数 / ブンスウ; 名詞/普通名詞/一般/*; *; *; lemma 分数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "分数",
+              "reading": "ぶんすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "分数 as \"Bruch (Mathematik)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 分数【ぶんすう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1503860; spelling=分数; reading=ぶんすう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1503860 分数/ぶんすう sense(s) 1 support \"Bruch (Mathematik)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1503860",
+            "spelling": "分数",
+            "reading": "ぶんすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "分数|ぶんすう",
+          "referenceIndex": 0,
+          "referenceHash": "50feb17e8cdbd7ed9d15e90596cf60368970dcc7bcd7217c26123870d379659f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Bruch (Mathematik)\" matches JMdict 1503860 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Maths lesson.",
+          "Converting numbers."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1503860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@240095622 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240095622",
+            "patterns": [
+              3
+            ],
+            "finding": "分数 / ブンスウ; 名詞/普通名詞/一般/*; *; *; lemma 分数; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "分数",
+              "reading": "ぶんすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "分数 as \"Bruch (Mathematik)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 分数【ぶんすう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1503860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e10bb38dad267731cbeee0531010bd5ec1ea2097236b32966f688b2d376f26b7",
+        "approvalHash": "d0613df803e9138a77400fa7b59afed2309df01177ed53e9d79e1165e79767e8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 分数【ぶんすう】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1503860; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "e10bb38dad267731cbeee0531010bd5ec1ea2097236b32966f688b2d376f26b7",
+        "approvalHash": "d0613df803e9138a77400fa7b59afed2309df01177ed53e9d79e1165e79767e8"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:bunbougu",
+      "revisionId": "036-add-bunbougu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "文房具",
+        "reading": "ぶんぼうぐ",
+        "romaji": "bunbougu",
+        "meaning": "Schreibwaren",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Stifte, Hefte, Radiergummis usw.: 文房具屋 (Schreibwarenladen).",
+        "examples": [
+          {
+            "japanese": "新学期の前に文房具をそろえた。",
+            "romaji": "Shingakki no mae ni bunbougu o soroeta.",
+            "german": "Vor dem neuen Schulhalbjahr habe ich mir Schreibwaren besorgt."
+          },
+          {
+            "japanese": "日本の文房具は外国人にも人気がある。",
+            "romaji": "Nihon no bunbougu wa gaikokujin ni mo ninki ga aru.",
+            "german": "Japanische Schreibwaren sind auch bei Ausländern beliebt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 文房具【ぶんぼうぐ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1505620; spelling=文房具; reading=ぶんぼうぐ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1505620 文房具/ぶんぼうぐ sense(s) 1 support \"Schreibwaren\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1505620",
+            "spelling": "文房具",
+            "reading": "ぶんぼうぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stationery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "文房具|ぶんぼうぐ",
+          "referenceIndex": 0,
+          "referenceHash": "704994cb84927cc24cc6ead7ee078cb872984149cc529208a1ecbc0ffe825f8d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Schreibwaren\" matches JMdict 1505620 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Back-to-school shopping.",
+          "Popularity of products."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1505620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 文房具 / ぶんぼうぐ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 文房具 / ぶんぼうぐ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 文房具【ぶんぼうぐ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1505620 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "896a043b790f7d74ae1c8cf0e189d017efe00c1ec2228d16261deab8cd5d013e",
+        "approvalHash": "b5c263fffa9d658336a63ec187683b43dc857f64e35f79f96dc7499c79b6634d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 文房具【ぶんぼうぐ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1505620; level N2 supported; pitch unknown consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "896a043b790f7d74ae1c8cf0e189d017efe00c1ec2228d16261deab8cd5d013e",
+        "approvalHash": "b5c263fffa9d658336a63ec187683b43dc857f64e35f79f96dc7499c79b6634d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:bunryou",
+      "revisionId": "036-add-bunryou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "分量",
+        "reading": "ぶんりょう",
+        "romaji": "bunryou",
+        "meaning": "Menge, Dosis",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Menge von Zutaten oder Arbeit: 砂糖の分量, 仕事の分量. Ähnlich: 量.",
+        "examples": [
+          {
+            "japanese": "レシピの分量どおりに作ったら、うまくできた。",
+            "romaji": "Reshipi no bunryou doori ni tsukuttara, umaku dekita.",
+            "german": "Als ich mich genau an die Mengen im Rezept hielt, gelang es gut."
+          },
+          {
+            "japanese": "薬は決められた分量を守って飲んでください。",
+            "romaji": "Kusuri wa kimerareta bunryou o mamotte nonde kudasai.",
+            "german": "Nehmen Sie das Medikament bitte genau in der vorgeschriebenen Dosis."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240233820",
+            "patterns": [
+              3
+            ],
+            "finding": "分量 / ブンリョウ; 名詞/普通名詞/一般/*; *; *; lemma 分量; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "分量",
+              "reading": "ぶんりょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "分量 as \"Menge, Dosis\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 分量【ぶんりょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1504430; spelling=分量; reading=ぶんりょう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1504430 分量/ぶんりょう sense(s) 1 support \"Menge, Dosis\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1504430",
+            "spelling": "分量",
+            "reading": "ぶんりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "amount",
+                  "quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "分量|ぶんりょう",
+          "referenceIndex": 0,
+          "referenceHash": "4ced0080f3b26e66a3b9840680c3aecfc5c2fb748079697173c868c7045b3d07"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Menge, Dosis\" matches JMdict 1504430 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cooking quantities.",
+          "Medicine dosage."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1504430; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@240233820 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240233820",
+            "patterns": [
+              3
+            ],
+            "finding": "分量 / ブンリョウ; 名詞/普通名詞/一般/*; *; *; lemma 分量; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "分量",
+              "reading": "ぶんりょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "分量 as \"Menge, Dosis\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 分量【ぶんりょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1504430 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7ee96030905b9b5d5fe02cab7a6603de66ca8ac2f1505b33cf29565cc7eb794d",
+        "approvalHash": "054854da5f0560f581e530cba00eac550b44f18b90c3130f3e386aa0cefa49a6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 分量【ぶんりょう】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1504430; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "7ee96030905b9b5d5fe02cab7a6603de66ca8ac2f1505b33cf29565cc7eb794d",
+        "approvalHash": "054854da5f0560f581e530cba00eac550b44f18b90c3130f3e386aa0cefa49a6"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "ぶら下げる|ぶらさげる",
+      "referenceIndex": 0,
+      "referenceHash": "cf59dcc8c3f9f5c93e1a12577759e17b6fe59f9b1ef4727a966a73ee8a75fde8",
+      "revisionId": "036-candidate-burasageru-ea744a1b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burasageru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burasageru": "a78930da47916141e7d34e068518844de8ff1e929061afd601e8f0d0f12bac71"
+      },
+      "reason": "Reference ぶら下げる/ぶらさげる (tanos N1) is the same lexeme as the new entry ぶら下げる【ぶらさげる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=145",
+          "finding": "tanos lists ぶら下げる/ぶらさげる at N1 (gloss: to hang, to suspend, to dangle, to swing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1011250; spelling=ぶら下げる; reading=ぶらさげる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1011250 as the reference form.",
+          "selected": {
+            "sequence": "1011250",
+            "spelling": "ぶら下げる",
+            "reading": "ぶらさげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hang",
+                  "to suspend",
+                  "to dangle",
+                  "to swing",
+                  "to carry"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶら下げる|ぶらさげる#0 is the same lexeme as vocab-n2:correction:burasageru; target hash bound to the assembled addition.",
+        "contentHash": "0dc69174fc90ee9f03bb3fff6f0f26114e53483ef0a844d4832a38183d1db3b5",
+        "approvalHash": "0dc69174fc90ee9f03bb3fff6f0f26114e53483ef0a844d4832a38183d1db3b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶら下げる|ぶらさげる#0 is the same lexeme as vocab-n2:correction:burasageru (tanos lists ぶら下げる/ぶらさげる at N1 (gloss: to hang, to suspend, to dangle, to swing).).",
+        "contentHash": "0dc69174fc90ee9f03bb3fff6f0f26114e53483ef0a844d4832a38183d1db3b5",
+        "approvalHash": "0dc69174fc90ee9f03bb3fff6f0f26114e53483ef0a844d4832a38183d1db3b5"
+      }
+    },
+    {
+      "key": "ぶら下げる|ぶらさげる",
+      "referenceIndex": 1,
+      "referenceHash": "445ef91c5f728a925bd21477b12d4264a788f8b9310fa27c7a41b3d5aae1e7a6",
+      "revisionId": "036-candidate-burasageru-ea744a1b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burasageru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burasageru": "a78930da47916141e7d34e068518844de8ff1e929061afd601e8f0d0f12bac71"
+      },
+      "reason": "Reference ぶら下げる/ぶらさげる (master N2) is the same lexeme as the new entry ぶら下げる【ぶらさげる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ぶら下げる/ぶらさげる at N2 (gloss: to hang; to suspend; to dangle)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1011250; spelling=ぶら下げる; reading=ぶらさげる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1011250 as the reference form.",
+          "selected": {
+            "sequence": "1011250",
+            "spelling": "ぶら下げる",
+            "reading": "ぶらさげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hang",
+                  "to suspend",
+                  "to dangle",
+                  "to swing",
+                  "to carry"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶら下げる|ぶらさげる#1 is the same lexeme as vocab-n2:correction:burasageru; target hash bound to the assembled addition.",
+        "contentHash": "34335db2cea9b49aa244a09e2691bca06e7455ad638bad58c5bb8fbe7a8ce883",
+        "approvalHash": "34335db2cea9b49aa244a09e2691bca06e7455ad638bad58c5bb8fbe7a8ce883"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶら下げる|ぶらさげる#1 is the same lexeme as vocab-n2:correction:burasageru (Nihongo Master lists ぶら下げる/ぶらさげる at N2 (gloss: to hang; to suspend; to dangle).).",
+        "contentHash": "34335db2cea9b49aa244a09e2691bca06e7455ad638bad58c5bb8fbe7a8ce883",
+        "approvalHash": "34335db2cea9b49aa244a09e2691bca06e7455ad638bad58c5bb8fbe7a8ce883"
+      }
+    },
+    {
+      "key": "ぶらさげる|ぶらさげる",
+      "referenceIndex": 0,
+      "referenceHash": "ea114297d5976d3f763a623902cec32d02779b20da4453d9a38c3287e632a2ed",
+      "revisionId": "036-candidate-burasageru-fdda0326-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burasageru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burasageru": "a78930da47916141e7d34e068518844de8ff1e929061afd601e8f0d0f12bac71"
+      },
+      "reason": "Reference ぶらさげる/ぶらさげる (tanos N2) is the same lexeme as the new entry ぶら下げる【ぶらさげる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists ぶらさげる/ぶらさげる at N2 (gloss: to hang,to suspend,to dangle,to swing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1011250; spelling=ぶら下げる; reading=ぶらさげる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1011250 as the reference form.",
+          "selected": {
+            "sequence": "1011250",
+            "spelling": "ぶら下げる",
+            "reading": "ぶらさげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to hang",
+                  "to suspend",
+                  "to dangle",
+                  "to swing",
+                  "to carry"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶらさげる|ぶらさげる#0 is the same lexeme as vocab-n2:correction:burasageru; target hash bound to the assembled addition.",
+        "contentHash": "2481f90ed949f153ea2afab4762f2ade1214d55dd64d91135393924d0395d185",
+        "approvalHash": "2481f90ed949f153ea2afab4762f2ade1214d55dd64d91135393924d0395d185"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶらさげる|ぶらさげる#0 is the same lexeme as vocab-n2:correction:burasageru (tanos lists ぶらさげる/ぶらさげる at N2 (gloss: to hang,to suspend,to dangle,to swing).).",
+        "contentHash": "2481f90ed949f153ea2afab4762f2ade1214d55dd64d91135393924d0395d185",
+        "approvalHash": "2481f90ed949f153ea2afab4762f2ade1214d55dd64d91135393924d0395d185"
+      }
+    },
+    {
+      "key": "ぶらし|ぶらし",
+      "referenceIndex": 0,
+      "referenceHash": "d7122d46efbbd52184dce9f33d59c7bd3cd139ad651d24cf7807143f86b99401",
+      "revisionId": "036-candidate-burashi-5367c30f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burashi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burashi": "5efa4dd7493464fb9e1c5caa33e00dfbc8a5e4ef926f9031ce972f6dabe9cf5b"
+      },
+      "reason": "Reference ブラシ/ブラシ (tanos N2) is the same lexeme as the new entry ブラシ【ブラシ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists ブラシ/ブラシ at N2 (gloss: brushy,brush)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1579310; spelling=ブラシ; reading=ブラシ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1579310 as the reference form.",
+          "selected": {
+            "sequence": "1579310",
+            "spelling": "ブラシ",
+            "reading": "ブラシ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brush"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶらし|ぶらし#0 is the same lexeme as vocab-n2:correction:burashi; target hash bound to the assembled addition.",
+        "contentHash": "4b3591a69be64ab165549f5f559245b400e9b08c3b7ab2e51966da4811ade3e0",
+        "approvalHash": "4b3591a69be64ab165549f5f559245b400e9b08c3b7ab2e51966da4811ade3e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶらし|ぶらし#0 is the same lexeme as vocab-n2:correction:burashi (tanos lists ブラシ/ブラシ at N2 (gloss: brushy,brush).).",
+        "contentHash": "4b3591a69be64ab165549f5f559245b400e9b08c3b7ab2e51966da4811ade3e0",
+        "approvalHash": "4b3591a69be64ab165549f5f559245b400e9b08c3b7ab2e51966da4811ade3e0"
+      }
+    },
+    {
+      "key": "ぶらし|ぶらし",
+      "referenceIndex": 1,
+      "referenceHash": "cddda0eb411471592e9a766e148d180c0bd8c6e64ee530861e34d6272d09da49",
+      "revisionId": "036-candidate-burashi-5367c30f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burashi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burashi": "5efa4dd7493464fb9e1c5caa33e00dfbc8a5e4ef926f9031ce972f6dabe9cf5b"
+      },
+      "reason": "Reference ブラシ/ブラシ (master N2) is the same lexeme as the new entry ブラシ【ブラシ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ブラシ/ブラシ at N2 (gloss: brush; brosse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1579310; spelling=ブラシ; reading=ブラシ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1579310 as the reference form.",
+          "selected": {
+            "sequence": "1579310",
+            "spelling": "ブラシ",
+            "reading": "ブラシ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brush"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶらし|ぶらし#1 is the same lexeme as vocab-n2:correction:burashi; target hash bound to the assembled addition.",
+        "contentHash": "addf16e01b7e683cdae76281595ca88094cfb5b7d8eeba5ba7a6686942857a0a",
+        "approvalHash": "addf16e01b7e683cdae76281595ca88094cfb5b7d8eeba5ba7a6686942857a0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶらし|ぶらし#1 is the same lexeme as vocab-n2:correction:burashi (Nihongo Master lists ブラシ/ブラシ at N2 (gloss: brush; brosse).).",
+        "contentHash": "addf16e01b7e683cdae76281595ca88094cfb5b7d8eeba5ba7a6686942857a0a",
+        "approvalHash": "addf16e01b7e683cdae76281595ca88094cfb5b7d8eeba5ba7a6686942857a0a"
+      }
+    },
+    {
+      "key": "ぷらっとほーむ|ぷらっとほーむ",
+      "referenceIndex": 0,
+      "referenceHash": "9dc45c4acfcbd12121dc98ea687050f0c8574cbf55644daa997e82568653d37a",
+      "revisionId": "036-candidate-purattohoomu-00afd120-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:purattohoomu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:purattohoomu": "d11dce635652a1a527508a7a29ddfb2564e6772b1d0b69f4455aa0361e531985"
+      },
+      "reason": "Reference プラットホーム/プラットホーム (tanos N2) is the same lexeme as the new entry プラットホーム【プラットホーム】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists プラットホーム/プラットホーム at N2 (gloss: platform)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1115820; spelling=プラットホーム; reading=プラットホーム; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1115820 as the reference form.",
+          "selected": {
+            "sequence": "1115820",
+            "spelling": "プラットホーム",
+            "reading": "プラットホーム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "platform"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぷらっとほーむ|ぷらっとほーむ#0 is the same lexeme as vocab-n2:correction:purattohoomu; target hash bound to the assembled addition.",
+        "contentHash": "8fbf678e64915e5d6d52097ef531e28ffacb5b057829c487c9a37a4ac1d50c9b",
+        "approvalHash": "8fbf678e64915e5d6d52097ef531e28ffacb5b057829c487c9a37a4ac1d50c9b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぷらっとほーむ|ぷらっとほーむ#0 is the same lexeme as vocab-n2:correction:purattohoomu (tanos lists プラットホーム/プラットホーム at N2 (gloss: platform).).",
+        "contentHash": "8fbf678e64915e5d6d52097ef531e28ffacb5b057829c487c9a37a4ac1d50c9b",
+        "approvalHash": "8fbf678e64915e5d6d52097ef531e28ffacb5b057829c487c9a37a4ac1d50c9b"
+      }
+    },
+    {
+      "key": "ぷらっとほーむ|ぷらっとほーむ",
+      "referenceIndex": 1,
+      "referenceHash": "9f0d3b5072ecbaa5389a9de9d45e891ffef7596c31731ab82e3cadb28ab9954a",
+      "revisionId": "036-candidate-purattohoomu-00afd120-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:purattohoomu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:purattohoomu": "d11dce635652a1a527508a7a29ddfb2564e6772b1d0b69f4455aa0361e531985"
+      },
+      "reason": "Reference プラットホーム/プラットホーム (master N2) is the same lexeme as the new entry プラットホーム【プラットホーム】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists プラットホーム/プラットホーム at N2 (gloss: platform; quai (gare); платформа)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1115820; spelling=プラットホーム; reading=プラットホーム; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1115820 as the reference form.",
+          "selected": {
+            "sequence": "1115820",
+            "spelling": "プラットホーム",
+            "reading": "プラットホーム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "platform"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぷらっとほーむ|ぷらっとほーむ#1 is the same lexeme as vocab-n2:correction:purattohoomu; target hash bound to the assembled addition.",
+        "contentHash": "784e73275161bd88fc41aaf4e598de9d7fc682eaf09c6fde249dc3e41645a5e3",
+        "approvalHash": "784e73275161bd88fc41aaf4e598de9d7fc682eaf09c6fde249dc3e41645a5e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぷらっとほーむ|ぷらっとほーむ#1 is the same lexeme as vocab-n2:correction:purattohoomu (Nihongo Master lists プラットホーム/プラットホーム at N2 (gloss: platform; quai (gare); платформа).).",
+        "contentHash": "784e73275161bd88fc41aaf4e598de9d7fc682eaf09c6fde249dc3e41645a5e3",
+        "approvalHash": "784e73275161bd88fc41aaf4e598de9d7fc682eaf09c6fde249dc3e41645a5e3"
+      }
+    },
+    {
+      "key": "ふりー|ふりー",
+      "referenceIndex": 0,
+      "referenceHash": "50a151cfac01fe49eba7955b56973064780c72afc93052d4a7d1cec02b272d5d",
+      "revisionId": "036-candidate-furii-9e40d1c1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:furii"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:furii": "f078ba7a6b5f6b27ca27d674f1a56f25dc143d4b8cc869048f14a331e477f4b1"
+      },
+      "reason": "Reference フリー/フリー (tanos N2) is the same lexeme as the new entry フリー【フリー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists フリー/フリー at N2 (gloss: free)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1111640; spelling=フリー; reading=フリー; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1111640 as the reference form.",
+          "selected": {
+            "sequence": "1111640",
+            "spelling": "フリー",
+            "reading": "フリー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of restraint, controls, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of charge)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "freelance",
+                  "independent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ふりー|ふりー#0 is the same lexeme as vocab-n2:correction:furii; target hash bound to the assembled addition.",
+        "contentHash": "193cb634ddca4653512829c1e46f7cb756213e836a24d642720ee3d9ea3dc723",
+        "approvalHash": "193cb634ddca4653512829c1e46f7cb756213e836a24d642720ee3d9ea3dc723"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ふりー|ふりー#0 is the same lexeme as vocab-n2:correction:furii (tanos lists フリー/フリー at N2 (gloss: free).).",
+        "contentHash": "193cb634ddca4653512829c1e46f7cb756213e836a24d642720ee3d9ea3dc723",
+        "approvalHash": "193cb634ddca4653512829c1e46f7cb756213e836a24d642720ee3d9ea3dc723"
+      }
+    },
+    {
+      "key": "ふりー|ふりー",
+      "referenceIndex": 1,
+      "referenceHash": "e9f5b3512e011bfc732bc14571c312f1683218198bf446805db6a9883735b52a",
+      "revisionId": "036-candidate-furii-9e40d1c1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:furii"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:furii": "f078ba7a6b5f6b27ca27d674f1a56f25dc143d4b8cc869048f14a331e477f4b1"
+      },
+      "reason": "Reference フリー/フリー (master N2) is the same lexeme as the new entry フリー【フリー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists フリー/フリー at N2 (gloss: free; свободный; (n) Kostenlosigkeit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1111640; spelling=フリー; reading=フリー; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1111640 as the reference form.",
+          "selected": {
+            "sequence": "1111640",
+            "spelling": "フリー",
+            "reading": "フリー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of restraint, controls, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free (of charge)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "freelance",
+                  "independent"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ふりー|ふりー#1 is the same lexeme as vocab-n2:correction:furii; target hash bound to the assembled addition.",
+        "contentHash": "e37865d8e26e2bc0d012ce90c0330b1b497c403119ff878fc4e39058a9ab56aa",
+        "approvalHash": "e37865d8e26e2bc0d012ce90c0330b1b497c403119ff878fc4e39058a9ab56aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ふりー|ふりー#1 is the same lexeme as vocab-n2:correction:furii (Nihongo Master lists フリー/フリー at N2 (gloss: free; свободный; (n) Kostenlosigkeit).).",
+        "contentHash": "e37865d8e26e2bc0d012ce90c0330b1b497c403119ff878fc4e39058a9ab56aa",
+        "approvalHash": "e37865d8e26e2bc0d012ce90c0330b1b497c403119ff878fc4e39058a9ab56aa"
+      }
+    },
+    {
+      "key": "振り向く|ふりむく",
+      "referenceIndex": 0,
+      "referenceHash": "03144f5595fda44bfdb2e5585c8b52f03504430e402836eba7d69b0ee46cf3a8",
+      "revisionId": "036-candidate-furimuku-c5fb8a7f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:furimuku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:furimuku": "ae24bbb39ecad40877bb2afd21fe9da48cea051285eef52ab60ba6db3d226a65"
+      },
+      "reason": "Reference 振り向く/ふりむく (master N2) is the same lexeme as the new entry 振り向く【ふりむく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 振り向く/ふりむく at N2 (gloss: to turn one's face; to turn around; to look over one's shoulder)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1361190; spelling=振り向く; reading=ふりむく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1361190 as the reference form.",
+          "selected": {
+            "sequence": "1361190",
+            "spelling": "振り向く",
+            "reading": "ふりむく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to turn one's face",
+                  "to turn around",
+                  "to look over one's shoulder"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 振り向く|ふりむく#0 is the same lexeme as vocab-n2:correction:furimuku; target hash bound to the assembled addition.",
+        "contentHash": "c1e3aec24af55e4b6d4cbff5c87fc7bd0041b94c8b2da8a7c6a11318681183e4",
+        "approvalHash": "c1e3aec24af55e4b6d4cbff5c87fc7bd0041b94c8b2da8a7c6a11318681183e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 振り向く|ふりむく#0 is the same lexeme as vocab-n2:correction:furimuku (Nihongo Master lists 振り向く/ふりむく at N2 (gloss: to turn one's face; to turn around; to look over one's shoulder).).",
+        "contentHash": "c1e3aec24af55e4b6d4cbff5c87fc7bd0041b94c8b2da8a7c6a11318681183e4",
+        "approvalHash": "c1e3aec24af55e4b6d4cbff5c87fc7bd0041b94c8b2da8a7c6a11318681183e4"
+      }
+    },
+    {
+      "key": "ぷりんと|ぷりんと",
+      "referenceIndex": 0,
+      "referenceHash": "d747a843e14e2da9e653f172aff686699d6081a78b4ee1cde914348513544546",
+      "revisionId": "036-candidate-purinto-d26d6e18-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:purinto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:purinto": "f017d5d92d63c98a66cd6513eb0df04f19d1b5552f0bbb44d9a57640abfb2fbb"
+      },
+      "reason": "Reference プリント/プリント (tanos N2) is the same lexeme as the new entry プリント【プリント】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists プリント/プリント at N2 (gloss: print,handout)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1116300; spelling=プリント; reading=プリント; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1116300 as the reference form.",
+          "selected": {
+            "sequence": "1116300",
+            "spelling": "プリント",
+            "reading": "プリント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "print",
+                  "printing",
+                  "(printed) copy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handout",
+                  "flyer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぷりんと|ぷりんと#0 is the same lexeme as vocab-n2:correction:purinto; target hash bound to the assembled addition.",
+        "contentHash": "c2d582135c7ba50b15ec641c1eaceb95e756baab7929aa3f53d7f0c4600851b2",
+        "approvalHash": "c2d582135c7ba50b15ec641c1eaceb95e756baab7929aa3f53d7f0c4600851b2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぷりんと|ぷりんと#0 is the same lexeme as vocab-n2:correction:purinto (tanos lists プリント/プリント at N2 (gloss: print,handout).).",
+        "contentHash": "c2d582135c7ba50b15ec641c1eaceb95e756baab7929aa3f53d7f0c4600851b2",
+        "approvalHash": "c2d582135c7ba50b15ec641c1eaceb95e756baab7929aa3f53d7f0c4600851b2"
+      }
+    },
+    {
+      "key": "ぷりんと|ぷりんと",
+      "referenceIndex": 1,
+      "referenceHash": "0a9e8dfbd5d57aef9767ee46c7575ed658e106bb516ae5dafe3c79d3d0a392a8",
+      "revisionId": "036-candidate-purinto-d26d6e18-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:purinto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:purinto": "f017d5d92d63c98a66cd6513eb0df04f19d1b5552f0bbb44d9a57640abfb2fbb"
+      },
+      "reason": "Reference プリント/プリント (master N2) is the same lexeme as the new entry プリント【プリント】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists プリント/プリント at N2 (gloss: handout; flyer; imprimé)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1116300; spelling=プリント; reading=プリント; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1116300 as the reference form.",
+          "selected": {
+            "sequence": "1116300",
+            "spelling": "プリント",
+            "reading": "プリント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "print",
+                  "printing",
+                  "(printed) copy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handout",
+                  "flyer"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぷりんと|ぷりんと#1 is the same lexeme as vocab-n2:correction:purinto; target hash bound to the assembled addition.",
+        "contentHash": "40c5545f6f561b85d3dd1a4f5a16066fa07c2f9e37568f53e1694ad1e928a202",
+        "approvalHash": "40c5545f6f561b85d3dd1a4f5a16066fa07c2f9e37568f53e1694ad1e928a202"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぷりんと|ぷりんと#1 is the same lexeme as vocab-n2:correction:purinto (Nihongo Master lists プリント/プリント at N2 (gloss: handout; flyer; imprimé).).",
+        "contentHash": "40c5545f6f561b85d3dd1a4f5a16066fa07c2f9e37568f53e1694ad1e928a202",
+        "approvalHash": "40c5545f6f561b85d3dd1a4f5a16066fa07c2f9e37568f53e1694ad1e928a202"
+      }
+    },
+    {
+      "key": "ぶろーち|ぶろーち",
+      "referenceIndex": 0,
+      "referenceHash": "d8b56e80cc8d9e25950de523823f9d2a955948c6a92caf7617804efbcb2aac5b",
+      "revisionId": "036-candidate-buroochi-d1240054-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:buroochi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:buroochi": "32bd0454e8cfc612c9172cca4400127447a3ddb2705d6083ae6604c665d5941e"
+      },
+      "reason": "Reference ブローチ/ブローチ (tanos N2) is the same lexeme as the new entry ブローチ【ブローチ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists ブローチ/ブローチ at N2 (gloss: brooch)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1114910; spelling=ブローチ; reading=ブローチ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1114910 as the reference form.",
+          "selected": {
+            "sequence": "1114910",
+            "spelling": "ブローチ",
+            "reading": "ブローチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brooch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶろーち|ぶろーち#0 is the same lexeme as vocab-n2:correction:buroochi; target hash bound to the assembled addition.",
+        "contentHash": "e177a4a6a1eec2315434c0fc7937652903e8c2968879e4dded0c6214b325e25c",
+        "approvalHash": "e177a4a6a1eec2315434c0fc7937652903e8c2968879e4dded0c6214b325e25c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶろーち|ぶろーち#0 is the same lexeme as vocab-n2:correction:buroochi (tanos lists ブローチ/ブローチ at N2 (gloss: brooch).).",
+        "contentHash": "e177a4a6a1eec2315434c0fc7937652903e8c2968879e4dded0c6214b325e25c",
+        "approvalHash": "e177a4a6a1eec2315434c0fc7937652903e8c2968879e4dded0c6214b325e25c"
+      }
+    },
+    {
+      "key": "ぶろーち|ぶろーち",
+      "referenceIndex": 1,
+      "referenceHash": "a028d0ee2d73203ca2c32a85ea0b247fa92c23073947dafd863ade1801435344",
+      "revisionId": "036-candidate-buroochi-d1240054-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:buroochi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:buroochi": "32bd0454e8cfc612c9172cca4400127447a3ddb2705d6083ae6604c665d5941e"
+      },
+      "reason": "Reference ブローチ/ブローチ (master N2) is the same lexeme as the new entry ブローチ【ブローチ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ブローチ/ブローチ at N2 (gloss: brooch; брошь; (n) Brosche)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1114910; spelling=ブローチ; reading=ブローチ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1114910 as the reference form.",
+          "selected": {
+            "sequence": "1114910",
+            "spelling": "ブローチ",
+            "reading": "ブローチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brooch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶろーち|ぶろーち#1 is the same lexeme as vocab-n2:correction:buroochi; target hash bound to the assembled addition.",
+        "contentHash": "3ba72465094c395afbd1c067247aa58a2e775c86349b59f3c9b6c05176c0a23c",
+        "approvalHash": "3ba72465094c395afbd1c067247aa58a2e775c86349b59f3c9b6c05176c0a23c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶろーち|ぶろーち#1 is the same lexeme as vocab-n2:correction:buroochi (Nihongo Master lists ブローチ/ブローチ at N2 (gloss: brooch; брошь; (n) Brosche).).",
+        "contentHash": "3ba72465094c395afbd1c067247aa58a2e775c86349b59f3c9b6c05176c0a23c",
+        "approvalHash": "3ba72465094c395afbd1c067247aa58a2e775c86349b59f3c9b6c05176c0a23c"
+      }
+    },
+    {
+      "key": "分数|ぶんすう",
+      "referenceIndex": 0,
+      "referenceHash": "50feb17e8cdbd7ed9d15e90596cf60368970dcc7bcd7217c26123870d379659f",
+      "revisionId": "036-candidate-bunsuu-8dce7f16-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunsuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunsuu": "e10bb38dad267731cbeee0531010bd5ec1ea2097236b32966f688b2d376f26b7"
+      },
+      "reason": "Reference 分数/ぶんすう (tanos N2) is the same lexeme as the new entry 分数【ぶんすう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists 分数/ぶんすう at N2 (gloss: fraction (in math))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1503860; spelling=分数; reading=ぶんすう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1503860 as the reference form.",
+          "selected": {
+            "sequence": "1503860",
+            "spelling": "分数",
+            "reading": "ぶんすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 分数|ぶんすう#0 is the same lexeme as vocab-n2:correction:bunsuu; target hash bound to the assembled addition.",
+        "contentHash": "42ad8dbde8b818a341886cb2cad6444200e42f3be943a6fefc4ba0193cc241cf",
+        "approvalHash": "42ad8dbde8b818a341886cb2cad6444200e42f3be943a6fefc4ba0193cc241cf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 分数|ぶんすう#0 is the same lexeme as vocab-n2:correction:bunsuu (tanos lists 分数/ぶんすう at N2 (gloss: fraction (in math)).).",
+        "contentHash": "42ad8dbde8b818a341886cb2cad6444200e42f3be943a6fefc4ba0193cc241cf",
+        "approvalHash": "42ad8dbde8b818a341886cb2cad6444200e42f3be943a6fefc4ba0193cc241cf"
+      }
+    },
+    {
+      "key": "分数|ぶんすう",
+      "referenceIndex": 1,
+      "referenceHash": "3396a3edc3b2b9f9f3d3962c16368e8db1cdfe2a3ceabe36c8429745091ad1c0",
+      "revisionId": "036-candidate-bunsuu-8dce7f16-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunsuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunsuu": "e10bb38dad267731cbeee0531010bd5ec1ea2097236b32966f688b2d376f26b7"
+      },
+      "reason": "Reference 分数/ぶんすう (master N2) is the same lexeme as the new entry 分数【ぶんすう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 分数/ぶんすう at N2 (gloss: fraction; fraction (en mathématiques); дробь)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1503860; spelling=分数; reading=ぶんすう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1503860 as the reference form.",
+          "selected": {
+            "sequence": "1503860",
+            "spelling": "分数",
+            "reading": "ぶんすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraction"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 分数|ぶんすう#1 is the same lexeme as vocab-n2:correction:bunsuu; target hash bound to the assembled addition.",
+        "contentHash": "b975dc5d84297d84ce9658ebc09f93e5f906a4908228feb8fd4abb48bfc5b09b",
+        "approvalHash": "b975dc5d84297d84ce9658ebc09f93e5f906a4908228feb8fd4abb48bfc5b09b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 分数|ぶんすう#1 is the same lexeme as vocab-n2:correction:bunsuu (Nihongo Master lists 分数/ぶんすう at N2 (gloss: fraction; fraction (en mathématiques); дробь).).",
+        "contentHash": "b975dc5d84297d84ce9658ebc09f93e5f906a4908228feb8fd4abb48bfc5b09b",
+        "approvalHash": "b975dc5d84297d84ce9658ebc09f93e5f906a4908228feb8fd4abb48bfc5b09b"
+      }
+    },
+    {
+      "key": "文房具|ぶんぼうぐ",
+      "referenceIndex": 0,
+      "referenceHash": "704994cb84927cc24cc6ead7ee078cb872984149cc529208a1ecbc0ffe825f8d",
+      "revisionId": "036-candidate-bunbougu-7e24c491-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunbougu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunbougu": "896a043b790f7d74ae1c8cf0e189d017efe00c1ec2228d16261deab8cd5d013e"
+      },
+      "reason": "Reference 文房具/ぶんぼうぐ (tanos N2) is the same lexeme as the new entry 文房具【ぶんぼうぐ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=78",
+          "finding": "tanos lists 文房具/ぶんぼうぐ at N2 (gloss: stationery)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1505620; spelling=文房具; reading=ぶんぼうぐ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1505620 as the reference form.",
+          "selected": {
+            "sequence": "1505620",
+            "spelling": "文房具",
+            "reading": "ぶんぼうぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stationery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 文房具|ぶんぼうぐ#0 is the same lexeme as vocab-n2:correction:bunbougu; target hash bound to the assembled addition.",
+        "contentHash": "66493d6ef25033ad20c28de676efa42d39e6dd2c8170d988357d7c3ed7485f8e",
+        "approvalHash": "66493d6ef25033ad20c28de676efa42d39e6dd2c8170d988357d7c3ed7485f8e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 文房具|ぶんぼうぐ#0 is the same lexeme as vocab-n2:correction:bunbougu (tanos lists 文房具/ぶんぼうぐ at N2 (gloss: stationery).).",
+        "contentHash": "66493d6ef25033ad20c28de676efa42d39e6dd2c8170d988357d7c3ed7485f8e",
+        "approvalHash": "66493d6ef25033ad20c28de676efa42d39e6dd2c8170d988357d7c3ed7485f8e"
+      }
+    },
+    {
+      "key": "文房具|ぶんぼうぐ",
+      "referenceIndex": 1,
+      "referenceHash": "abecccde330d32ef6cfa7e20a885067a7acbc2fb978a5b175983cee98f9fb476",
+      "revisionId": "036-candidate-bunbougu-7e24c491-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunbougu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunbougu": "896a043b790f7d74ae1c8cf0e189d017efe00c1ec2228d16261deab8cd5d013e"
+      },
+      "reason": "Reference 文房具/ぶんぼうぐ (master N2) is the same lexeme as the new entry 文房具【ぶんぼうぐ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 文房具/ぶんぼうぐ at N2 (gloss: stationery; papeterie; (n) Schreibwaren)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1505620; spelling=文房具; reading=ぶんぼうぐ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1505620 as the reference form.",
+          "selected": {
+            "sequence": "1505620",
+            "spelling": "文房具",
+            "reading": "ぶんぼうぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stationery"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 文房具|ぶんぼうぐ#1 is the same lexeme as vocab-n2:correction:bunbougu; target hash bound to the assembled addition.",
+        "contentHash": "c01da0dff78e3c5675a16ed76f3c5b168251f5c21ad591b14fcc2a2aede046a9",
+        "approvalHash": "c01da0dff78e3c5675a16ed76f3c5b168251f5c21ad591b14fcc2a2aede046a9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 文房具|ぶんぼうぐ#1 is the same lexeme as vocab-n2:correction:bunbougu (Nihongo Master lists 文房具/ぶんぼうぐ at N2 (gloss: stationery; papeterie; (n) Schreibwaren).).",
+        "contentHash": "c01da0dff78e3c5675a16ed76f3c5b168251f5c21ad591b14fcc2a2aede046a9",
+        "approvalHash": "c01da0dff78e3c5675a16ed76f3c5b168251f5c21ad591b14fcc2a2aede046a9"
+      }
+    },
+    {
+      "key": "分量|ぶんりょう",
+      "referenceIndex": 0,
+      "referenceHash": "4ced0080f3b26e66a3b9840680c3aecfc5c2fb748079697173c868c7045b3d07",
+      "revisionId": "036-candidate-bunryou-7af86104-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunryou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunryou": "7ee96030905b9b5d5fe02cab7a6603de66ca8ac2f1505b33cf29565cc7eb794d"
+      },
+      "reason": "Reference 分量/ぶんりょう (tanos N2) is the same lexeme as the new entry 分量【ぶんりょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=78",
+          "finding": "tanos lists 分量/ぶんりょう at N2 (gloss: amount,quantity)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1504430; spelling=分量; reading=ぶんりょう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1504430 as the reference form.",
+          "selected": {
+            "sequence": "1504430",
+            "spelling": "分量",
+            "reading": "ぶんりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "amount",
+                  "quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 分量|ぶんりょう#0 is the same lexeme as vocab-n2:correction:bunryou; target hash bound to the assembled addition.",
+        "contentHash": "42131a1ee7002727fa805e33d21f0093bfb53c42c08826a6a915a7d3980fb246",
+        "approvalHash": "42131a1ee7002727fa805e33d21f0093bfb53c42c08826a6a915a7d3980fb246"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 分量|ぶんりょう#0 is the same lexeme as vocab-n2:correction:bunryou (tanos lists 分量/ぶんりょう at N2 (gloss: amount,quantity).).",
+        "contentHash": "42131a1ee7002727fa805e33d21f0093bfb53c42c08826a6a915a7d3980fb246",
+        "approvalHash": "42131a1ee7002727fa805e33d21f0093bfb53c42c08826a6a915a7d3980fb246"
+      }
+    },
+    {
+      "key": "分量|ぶんりょう",
+      "referenceIndex": 1,
+      "referenceHash": "5764aa5194e27f37d36c268f3e3eec4701be8ded128776cc8509fdede9007105",
+      "revisionId": "036-candidate-bunryou-7af86104-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bunryou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bunryou": "7ee96030905b9b5d5fe02cab7a6603de66ca8ac2f1505b33cf29565cc7eb794d"
+      },
+      "reason": "Reference 分量/ぶんりょう (master N2) is the same lexeme as the new entry 分量【ぶんりょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 分量/ぶんりょう at N2 (gloss: amount; quantity; dose)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1504430; spelling=分量; reading=ぶんりょう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1504430 as the reference form.",
+          "selected": {
+            "sequence": "1504430",
+            "spelling": "分量",
+            "reading": "ぶんりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "amount",
+                  "quantity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 分量|ぶんりょう#1 is the same lexeme as vocab-n2:correction:bunryou; target hash bound to the assembled addition.",
+        "contentHash": "28917b9c06e1037db1050590382f5b4bb676252bf77e324c556b1b1c4ccc086a",
+        "approvalHash": "28917b9c06e1037db1050590382f5b4bb676252bf77e324c556b1b1c4ccc086a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 分量|ぶんりょう#1 is the same lexeme as vocab-n2:correction:bunryou (Nihongo Master lists 分量/ぶんりょう at N2 (gloss: amount; quantity; dose).).",
+        "contentHash": "28917b9c06e1037db1050590382f5b4bb676252bf77e324c556b1b1c4ccc086a",
+        "approvalHash": "28917b9c06e1037db1050590382f5b4bb676252bf77e324c556b1b1c4ccc086a"
+      }
+    }
+  ]
+}

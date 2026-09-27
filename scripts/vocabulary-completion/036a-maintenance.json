@@ -1,0 +1,3452 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:toru-catch",
+      "revisionId": "036-add-toru-catch",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "捕る",
+        "reading": "とる",
+        "romaji": "toru",
+        "meaning": "fangen, erbeuten (Tiere, Fische; Ball)",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Schreibung von とる speziell für das Fangen von Tieren, Fischen oder Insekten (魚を捕る) und im Baseball (ボールを捕る). Das allgemeine „nehmen“ schreibt man 取る.",
+        "examples": [
+          {
+            "japanese": "子どもの頃、よく川で魚を捕った。",
+            "romaji": "Kodomo no koro, yoku kawa de sakana o totta.",
+            "german": "Als Kind habe ich oft im Fluss Fische gefangen."
+          },
+          {
+            "japanese": "外野手が高く上がったボールを捕った。",
+            "romaji": "Gaiyashu ga takaku agatta booru o totta.",
+            "german": "Der Außenfeldspieler fing den hoch geschlagenen Ball."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "とる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "とる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@191864177",
+            "patterns": [
+              1
+            ],
+            "finding": "捕る / トル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 取る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "捕る",
+              "reading": "とる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "捕る as \"fangen, erbeuten (Tiere, Fische; Ball)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 捕る【とる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1514140; spelling=捕る; reading=とる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1514140 捕る/とる sense(s) 1 support \"fangen, erbeuten (Tiere, Fische; Ball)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1514140",
+            "spelling": "捕る",
+            "reading": "とる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to catch (a wild animal, fish, insect, baseball, etc.)",
+                  "to capture"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "捕る|とる",
+          "referenceIndex": 0,
+          "referenceHash": "3bc16ce84ed75f5dd5ff364c7fe597f9e3afe95274b21a334d3db8686feea41b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"fangen, erbeuten (Tiere, Fische; Ball)\" matches JMdict 1514140 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Catching fish.",
+          "Catching a ball (baseball)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1514140; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading とる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@191864177 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@191864177",
+            "patterns": [
+              1
+            ],
+            "finding": "捕る / トル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 取る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "捕る",
+              "reading": "とる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "捕る as \"fangen, erbeuten (Tiere, Fische; Ball)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 捕る【とる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1514140 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6aceeacbea3d4636e540f834d4ee6809e0ae10801f08f5b8310bacf00b0530e4",
+        "approvalHash": "521af3d2c2be70bca61b075a3b84b2da4283a84a8f1cbcd6473b6fe9cdd78111"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Examples natural (fish, baseball), romaji ok, godan correct. Pitch from exact 捕る/トル row with UniDic lemma 取る: consistent with the accepted precedent for 撮る (vocab-correction-rules, same lemma 取る row), so verified 1 is acceptable. Absent (only 撮る/取る/採る/執る present).",
+        "contentHash": "6aceeacbea3d4636e540f834d4ee6809e0ae10801f08f5b8310bacf00b0530e4",
+        "approvalHash": "521af3d2c2be70bca61b075a3b84b2da4283a84a8f1cbcd6473b6fe9cdd78111"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:naisen",
+      "revisionId": "036-add-naisen",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "内線",
+        "reading": "ないせん",
+        "romaji": "naisen",
+        "meaning": "(Telefon-)Nebenstelle, Durchwahl",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N2",
+        "notes": "Interne Telefonleitung in Firmen und Behörden: 内線番号 (Durchwahlnummer), 内線で呼ぶ. Gegenteil: 外線 (Amtsleitung).",
+        "examples": [
+          {
+            "japanese": "経理部には内線の百二十番でつながります。",
+            "romaji": "Keiribu ni wa naisen no hyakunijuuban de tsunagarimasu.",
+            "german": "Die Buchhaltung erreichen Sie über die Nebenstelle 120."
+          },
+          {
+            "japanese": "内線で課長を呼んでもらえますか。",
+            "romaji": "Naisen de kachou o yonde moraemasu ka.",
+            "german": "Könnten Sie den Abteilungsleiter über die Hausleitung anrufen?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193599110",
+            "patterns": [
+              0
+            ],
+            "finding": "内線 / ナイセン; 名詞/普通名詞/一般/*; *; *; lemma 内線; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "内線",
+              "reading": "ないせん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "内線 as \"(Telefon-)Nebenstelle, Durchwahl\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 内線【ないせん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1458650; spelling=内線; reading=ないせん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1458650 内線/ないせん sense(s) 1 support \"(Telefon-)Nebenstelle, Durchwahl\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1458650",
+            "spelling": "内線",
+            "reading": "ないせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "phone extension",
+                  "indoor wiring",
+                  "inner line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "内線|ないせん",
+          "referenceIndex": 0,
+          "referenceHash": "539c07f7a40b82c05341fd5418ab9954287340129fe2427d8734be786e327a4a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"(Telefon-)Nebenstelle, Durchwahl\" matches JMdict 1458650 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Extension number.",
+          "Calling a colleague internally."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1458650; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@193599110 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193599110",
+            "patterns": [
+              0
+            ],
+            "finding": "内線 / ナイセン; 名詞/普通名詞/一般/*; *; *; lemma 内線; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "内線",
+              "reading": "ないせん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "内線 as \"(Telefon-)Nebenstelle, Durchwahl\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 内線【ないせん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1458650 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5cbea5faa6d52693f261881369503a1d92320334787aea690c20892d408b3fb5",
+        "approvalHash": "1a10440837852e0dccfc87eeabcbe78b35b82f5849ec4b031d508dca577c7519"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 内線【ないせん】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1458650; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "5cbea5faa6d52693f261881369503a1d92320334787aea690c20892d408b3fb5",
+        "approvalHash": "1a10440837852e0dccfc87eeabcbe78b35b82f5849ec4b031d508dca577c7519"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nairon",
+      "revisionId": "036-add-nairon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ナイロン",
+        "reading": "ナイロン",
+        "romaji": "nairon",
+        "meaning": "Nylon",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Kunstfaser, z. B. für Taschen, Strümpfe und Seile: ナイロンのバッグ.",
+        "examples": [
+          {
+            "japanese": "このかばんはナイロンでできていて軽い。",
+            "romaji": "Kono kaban wa nairon de dekite ite karui.",
+            "german": "Diese Tasche ist aus Nylon und leicht."
+          },
+          {
+            "japanese": "ナイロンのロープは丈夫で切れにくい。",
+            "romaji": "Nairon no roopu wa joubu de kirenikui.",
+            "german": "Nylonseile sind robust und reißen nicht so leicht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193676015",
+            "patterns": [
+              1
+            ],
+            "finding": "ナイロン / ナイロン; 名詞/普通名詞/一般/*; *; *; lemma ナイロン-nylon; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ナイロン",
+              "reading": "ナイロン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ナイロン as \"Nylon\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ナイロン【ナイロン】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089930; spelling=ナイロン; reading=ナイロン; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1089930 ナイロン/ナイロン sense(s) 1 support \"Nylon\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1089930",
+            "spelling": "ナイロン",
+            "reading": "ナイロン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nylon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ないろん|ないろん",
+          "referenceIndex": 0,
+          "referenceHash": "58ac5a0e27a2e748bb9e69ab4de709467490e3bd363cd059e377ad4dd6875794"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Nylon\" matches JMdict 1089930 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Material of a bag.",
+          "Property of a rope."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1089930; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@193676015 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193676015",
+            "patterns": [
+              1
+            ],
+            "finding": "ナイロン / ナイロン; 名詞/普通名詞/一般/*; *; *; lemma ナイロン-nylon; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ナイロン",
+              "reading": "ナイロン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ナイロン as \"Nylon\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ナイロン【ナイロン】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1089930 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "08f24fcd9959cf340d3ff4ba4aa5ac1da3c756e99b98aba1c5968046a9e3044e",
+        "approvalHash": "24c8400943835dafcef3adbcb22812a94b767c83d11230abe82088058f62b0ed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — ex2 now 丈夫で切れにくい (accurate). No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "08f24fcd9959cf340d3ff4ba4aa5ac1da3c756e99b98aba1c5968046a9e3044e",
+        "approvalHash": "24c8400943835dafcef3adbcb22812a94b767c83d11230abe82088058f62b0ed"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nakusu-lose",
+      "revisionId": "036-add-nakusu-lose",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "亡くす",
+        "reading": "なくす",
+        "romaji": "nakusu",
+        "meaning": "(durch den Tod) verlieren",
+        "type": "Verb",
+        "category": "Familie",
+        "level": "N2",
+        "notes": "Einen Menschen durch den Tod verlieren: 父を亡くす. Das Verlieren von Gegenständen schreibt man 無くす.",
+        "examples": [
+          {
+            "japanese": "彼は去年、母親を亡くした。",
+            "romaji": "Kare wa kyonen, hahaoya o nakushita.",
+            "german": "Er hat letztes Jahr seine Mutter verloren."
+          },
+          {
+            "japanese": "事故で夫を亡くした女性が、体験を語った。",
+            "romaji": "Jiko de otto o nakushita josei ga, taiken o katatta.",
+            "german": "Eine Frau, die ihren Mann bei einem Unfall verloren hatte, erzählte von ihren Erfahrungen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "なくす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "なくす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@195629285",
+            "patterns": [
+              0
+            ],
+            "finding": "亡くす / ナクス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 亡くす; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "亡くす",
+              "reading": "なくす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "亡くす as \"(durch den Tod) verlieren\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2. Editorial N2.",
+      "rationale": "Add 亡くす【なくす】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2835808; spelling=亡くす; reading=なくす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2835808 亡くす/なくす sense(s) 1 support \"(durch den Tod) verlieren\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2835808",
+            "spelling": "亡くす",
+            "reading": "なくす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lose (through death; e.g. a wife, child)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "亡くす|なくす",
+          "referenceIndex": 0,
+          "referenceHash": "48ca4b1180b62484781153dfaa7ee43052ff036c605557fc2a199ee585e45015"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"(durch den Tod) verlieren\" matches JMdict 2835808 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Loss of a parent.",
+          "Widow speaking about an accident."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2835808; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading なくす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@195629285 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@195629285",
+            "patterns": [
+              0
+            ],
+            "finding": "亡くす / ナクス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 亡くす; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "亡くす",
+              "reading": "なくす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "亡くす as \"(durch den Tod) verlieren\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 亡くす【なくす】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2835808 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ac9bb650530bda19f031d7296c98143e17863731dd91127edf979dd34fb3b0a0",
+        "approvalHash": "82a3607ca370bc4de9381001b99a72fb325c072dca9b5e869fd66f489d608395"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 亡くす【なくす】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 2835808; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "ac9bb650530bda19f031d7296c98143e17863731dd91127edf979dd34fb3b0a0",
+        "approvalHash": "82a3607ca370bc4de9381001b99a72fb325c072dca9b5e869fd66f489d608395"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nasu-do",
+      "revisionId": "036-add-nasu-do",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "為す",
+        "reading": "なす",
+        "romaji": "nasu",
+        "meaning": "tun, vollbringen (schriftsprachlich)",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Gehobenes Wort für „tun“: 為すべきこと (was zu tun ist), 為す術がない (nichts tun können). Im Alltag sagt man する.",
+        "examples": [
+          {
+            "japanese": "自分が為すべきことを考えなさい。",
+            "romaji": "Jibun ga nasu beki koto o kangaenasai.",
+            "german": "Denk darüber nach, was du tun musst."
+          },
+          {
+            "japanese": "大雨の前に、人々は為す術もなかった。",
+            "romaji": "Ooame no mae ni, hitobito wa nasu sube mo nakatta.",
+            "german": "Gegen den Starkregen waren die Menschen machtlos."
+          }
+        ],
+        "pitch": null,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "なす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "なす"
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 為す【なす】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2861111; spelling=為す; reading=なす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2861111 為す/なす sense(s) 1 support \"tun, vollbringen (schriftsprachlich)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2861111",
+            "spelling": "為す",
+            "reading": "なす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to do",
+                  "to commit",
+                  "to carry out",
+                  "to bring about"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "為す|なす",
+          "referenceIndex": 0,
+          "referenceHash": "fc59c8a9791ddbb6f87bc4de1b5b9691fd16f7f485cac055d68c6af0be9132dc"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"tun, vollbringen (schriftsprachlich)\" matches JMdict 2861111 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Duty to act.",
+          "Helplessness (為す術もない)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2861111; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading なす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 為す / なす; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 為す / なす",
+            "finding": "The only exact UniDic row files 為す under the lemma 成す (to form, to accomplish), which JMdict treats as a separate entry; no accent taken from it."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 為す【なす】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2861111 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "5de300667b12aa518215eb948fb6b47645eab06c7599266cac291405cb14edd2",
+        "approvalHash": "2ee9ae4a56e60b96b34372f26a894ab1a2f0a5f29bc2cdd26b80d0e0708fe436"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Examples natural (為すべきこと, 為す術もない), romaji/German ok. Pitch null is conservative; note: by the 捕る/撮る precedent the exact 為す/ナス row (lemma 成す, aType 1) could arguably be used, but leaving it unknown is not a defect.",
+        "contentHash": "5de300667b12aa518215eb948fb6b47645eab06c7599266cac291405cb14edd2",
+        "approvalHash": "2ee9ae4a56e60b96b34372f26a894ab1a2f0a5f29bc2cdd26b80d0e0708fe436"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nadaraka",
+      "revisionId": "036-add-nadaraka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "なだらか",
+        "reading": "なだらか",
+        "romaji": "nadaraka",
+        "meaning": "sanft abfallend; allmählich",
+        "type": "Adjektiv",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "な-Adjektiv: sanft geneigt (なだらかな坂, なだらかな丘) oder ohne Brüche verlaufend (なだらかな曲線). Meist in Hiragana.",
+        "examples": [
+          {
+            "japanese": "駅から家までは、なだらかな坂が続く。",
+            "romaji": "Eki kara ie made wa, nadaraka na saka ga tsuzuku.",
+            "german": "Vom Bahnhof bis nach Hause geht es sanft bergauf."
+          },
+          {
+            "japanese": "グラフはなだらかに上がっている。",
+            "romaji": "Gurafu wa nadaraka ni agatte iru.",
+            "german": "Die Kurve steigt allmählich an."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197021312",
+            "patterns": [
+              2
+            ],
+            "finding": "なだらか / ナダラカ; 形状詞/一般/*/*; *; *; lemma なだらか; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "なだらか",
+              "reading": "なだらか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "なだらか as \"sanft abfallend; allmählich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add なだらか【なだらか】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1632290; spelling=なだらか; reading=なだらか; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1632290 なだらか/なだらか sense(s) 1,2 support \"sanft abfallend; allmählich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1632290",
+            "spelling": "なだらか",
+            "reading": "なだらか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gently sloping",
+                  "gentle",
+                  "gradual",
+                  "easy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "smooth (process)",
+                  "gentle (e.g. tone of voice)",
+                  "slow (e.g. growth)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "傾らか|なだらか",
+          "referenceIndex": 0,
+          "referenceHash": "3affc0a10d17f97bc0cc45eabbb2288255ce55a6a9bce3fb0322a1df181d7837"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"sanft abfallend; allmählich\" matches JMdict 1632290 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Gentle slope on the way home.",
+          "Gradual rise in a graph."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1632290; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@197021312 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197021312",
+            "patterns": [
+              2
+            ],
+            "finding": "なだらか / ナダラカ; 形状詞/一般/*/*; *; *; lemma なだらか; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "なだらか",
+              "reading": "なだらか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "なだらか as \"sanft abfallend; allmählich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add なだらか【なだらか】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1632290 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0fef2f82d0c647529176924ccbd849beb8277ba99543bb9d72de6261c80020f1",
+        "approvalHash": "739398c49fbc10fb89524c32dadb25b123a1d581cc94e54cbe4427a92157d87c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). なだらか【なだらか】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1632290; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "0fef2f82d0c647529176924ccbd849beb8277ba99543bb9d72de6261c80020f1",
+        "approvalHash": "739398c49fbc10fb89524c32dadb25b123a1d581cc94e54cbe4427a92157d87c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:naninani",
+      "revisionId": "036-add-naninani",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "何々",
+        "reading": "なになに",
+        "romaji": "naninani",
+        "meaning": "soundso, dies und das; was denn?",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Platzhalter für nicht genannte Dinge (何々という店 = ein Laden namens soundso) und neugierige Nachfrage: なになに？（Was denn? Erzähl!).",
+        "examples": [
+          {
+            "japanese": "申込書には「何々大学卒業」のように書いてください。",
+            "romaji": "Moushikomisho ni wa \"naninani daigaku sotsugyou\" no you ni kaite kudasai.",
+            "german": "Schreiben Sie ins Formular etwa „Abschluss an der Universität soundso“."
+          },
+          {
+            "japanese": "なになに、面白い話？私にも教えて。",
+            "romaji": "Naninani, omoshiroi hanashi? Watashi ni mo oshiete.",
+            "german": "Was denn, eine lustige Geschichte? Erzähl sie mir auch."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2,
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197503784",
+            "patterns": [
+              1,
+              2,
+              0
+            ],
+            "finding": "何々 / ナニナニ; 代名詞/*/*/*; *; *; lemma 何々; aType 1,2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "何々",
+              "reading": "なになに",
+              "grammaticalForm": "代名詞/*/*/*; *; *",
+              "sense": "何々 as \"soundso, dies und das; was denn?\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 何々【なになに】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599580; spelling=何々; reading=なになに; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1599580 何々/なになに sense(s) 1,2,3 support \"soundso, dies und das; was denn?\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1599580",
+            "spelling": "何々",
+            "reading": "なになに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what"
+                ],
+                "notes": [
+                  "used when asking about or referring to multiple unspecified things"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "so-and-so",
+                  "such and such",
+                  "something (or other)"
+                ],
+                "notes": [
+                  "used when listing things that are unknown or do not need to be specified"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "wait",
+                  "hang on"
+                ],
+                "notes": [
+                  "used when asking for confirmation upon hearing something surprising"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "何々|なになに",
+          "referenceIndex": 0,
+          "referenceHash": "6d2a9faec1efee22d3fe264a120993cc25b7cd4319d7c4974057984468221957"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"soundso, dies und das; was denn?\" matches JMdict 1599580 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Placeholder in instructions.",
+          "Curious question."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1599580; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@197503784 attest 1,2,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197503784",
+            "patterns": [
+              1,
+              2,
+              0
+            ],
+            "finding": "何々 / ナニナニ; 代名詞/*/*/*; *; *; lemma 何々; aType 1,2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "何々",
+              "reading": "なになに",
+              "grammaticalForm": "代名詞/*/*/*; *; *",
+              "sense": "何々 as \"soundso, dies und das; was denn?\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 何々【なになに】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1599580 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bb0b67edddb3d46dca10e631e0103aebd30e4b263cdb3abf091fa05c7cb2fe5c",
+        "approvalHash": "a40d103b44ee0362d355b3b9df2a1083ff858a16c5b5564c7c1664cf17d61846"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). ex2 in kana (なになに) is the normal spelling of the interjection and is the same word; acceptable. Pitch 1 (variants 2,0) from exact 何々 row.",
+        "contentHash": "bb0b67edddb3d46dca10e631e0103aebd30e4b263cdb3abf091fa05c7cb2fe5c",
+        "approvalHash": "a40d103b44ee0362d355b3b9df2a1083ff858a16c5b5564c7c1664cf17d61846"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:namiki",
+      "revisionId": "036-add-namiki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "並木",
+        "reading": "なみき",
+        "romaji": "namiki",
+        "meaning": "Baumreihe, Allee",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Bäume entlang einer Straße: 桜並木 (Kirschbaumallee), 並木道 (Allee).",
+        "examples": [
+          {
+            "japanese": "駅前の通りには並木が続いている。",
+            "romaji": "Ekimae no toori ni wa namiki ga tsuzuite iru.",
+            "german": "Die Straße vor dem Bahnhof säumt eine Baumreihe."
+          },
+          {
+            "japanese": "秋になると、並木が黄色く色づく。",
+            "romaji": "Aki ni naru to, namiki ga kiiroku irozuku.",
+            "german": "Im Herbst färben sich die Alleebäume gelb."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198154757",
+            "patterns": [
+              0
+            ],
+            "finding": "並木 / ナミキ; 名詞/普通名詞/一般/*; *; *; lemma 並木; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "並木",
+              "reading": "なみき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "並木 as \"Baumreihe, Allee\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 並木【なみき】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599640; spelling=並木; reading=なみき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1599640 並木/なみき sense(s) 1 support \"Baumreihe, Allee\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1599640",
+            "spelling": "並木",
+            "reading": "なみき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "roadside trees",
+                  "row of trees"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "並木|なみき",
+          "referenceIndex": 0,
+          "referenceHash": "04a4cb6d21d6cdeaa809955b1c457045b6bb88bf15fceacd77f1202c76adf318"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Baumreihe, Allee\" matches JMdict 1599640 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Trees along a street.",
+          "Autumn colours."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1599640; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@198154757 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198154757",
+            "patterns": [
+              0
+            ],
+            "finding": "並木 / ナミキ; 名詞/普通名詞/一般/*; *; *; lemma 並木; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "並木",
+              "reading": "なみき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "並木 as \"Baumreihe, Allee\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 並木【なみき】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1599640 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b35bf75c49e010fa1de2e37397ecbebcd2a81a861daf81b3939bf2dba0ea59c7",
+        "approvalHash": "87ba5dce8685975c95eaaf678247b3e3d7508ac37bdcd2ebe7853782fe4efcbf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 並木【なみき】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1599640; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "b35bf75c49e010fa1de2e37397ecbebcd2a81a861daf81b3939bf2dba0ea59c7",
+        "approvalHash": "87ba5dce8685975c95eaaf678247b3e3d7508ac37bdcd2ebe7853782fe4efcbf"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:narau-imitate",
+      "revisionId": "036-add-narau-imitate",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "倣う",
+        "reading": "ならう",
+        "romaji": "narau",
+        "meaning": "nachahmen, sich richten nach",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Einem Vorbild folgen: 前例に倣う (sich an einen Präzedenzfall halten), 右に倣え (Richt euch!). Nicht verwechseln mit 習う (lernen).",
+        "examples": [
+          {
+            "japanese": "私たちも先輩のやり方に倣うことにした。",
+            "romaji": "Watashitachi mo senpai no yarikata ni narau koto ni shita.",
+            "german": "Wir haben beschlossen, uns an der Vorgehensweise der Älteren zu orientieren."
+          },
+          {
+            "japanese": "他の国に倣って、新しい制度が作られた。",
+            "romaji": "Hoka no kuni ni naratte, atarashii seido ga tsukurareta.",
+            "german": "Nach dem Vorbild anderer Länder wurde ein neues System geschaffen."
+          }
+        ],
+        "pitch": 2,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ならう",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ならう",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198849479",
+            "patterns": [
+              2
+            ],
+            "finding": "倣う / ナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 倣う; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "倣う",
+              "reading": "ならう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "倣う as \"nachahmen, sich richten nach\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 倣う【ならう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599680; spelling=倣う; reading=ならう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1599680 倣う/ならう sense(s) 1 support \"nachahmen, sich richten nach\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1599680",
+            "spelling": "倣う",
+            "reading": "ならう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to imitate",
+                  "to follow",
+                  "to copy",
+                  "to emulate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "倣う|ならう",
+          "referenceIndex": 0,
+          "referenceHash": "c8956ac160771c765a69825b7a0b40967f0a34e3b13f5a7a06e2ab2d3b32a1c4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"nachahmen, sich richten nach\" matches JMdict 1599680 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Following seniors’ method.",
+          "Modelling a system on other countries."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1599680; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading ならう; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@198849479 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198849479",
+            "patterns": [
+              2
+            ],
+            "finding": "倣う / ナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 倣う; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "倣う",
+              "reading": "ならう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "倣う as \"nachahmen, sich richten nach\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 倣う【ならう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1599680 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2c3565e1b2fc80c7be0ae2d3d1226be1a71ffc0c379469bd3004e9a3c75258f7",
+        "approvalHash": "e5422b0dd3e8e944da93c8e400bdf760806ac75733eac8ddd1d8a283a1400f47"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 倣う【ならう】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1599680; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "2c3565e1b2fc80c7be0ae2d3d1226be1a71ffc0c379469bd3004e9a3c75258f7",
+        "approvalHash": "e5422b0dd3e8e944da93c8e400bdf760806ac75733eac8ddd1d8a283a1400f47"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:narasu-ring",
+      "revisionId": "036-add-narasu-ring",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鳴らす",
+        "reading": "ならす",
+        "romaji": "narasu",
+        "meaning": "klingen lassen, läuten",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Transitiv zu 鳴る: ベルを鳴らす (klingeln), クラクションを鳴らす (hupen). Übertragen: 警鐘を鳴らす (warnen).",
+        "examples": [
+          {
+            "japanese": "玄関のベルを鳴らしたが、誰も出てこなかった。",
+            "romaji": "Genkan no beru o narashita ga, dare mo dete konakatta.",
+            "german": "Ich habe an der Haustür geklingelt, aber niemand kam heraus."
+          },
+          {
+            "japanese": "後ろの車がクラクションを鳴らした。",
+            "romaji": "Ushiro no kuruma ga kurakushon o narashita.",
+            "german": "Das Auto hinter uns hupte."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ならす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ならす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198948263",
+            "patterns": [
+              0
+            ],
+            "finding": "鳴らす / ナラス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 鳴らす; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鳴らす",
+              "reading": "ならす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "鳴らす as \"klingen lassen, läuten\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 鳴らす【ならす】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1532880; spelling=鳴らす; reading=ならす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1532880 鳴らす/ならす sense(s) 1 support \"klingen lassen, läuten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1532880",
+            "spelling": "鳴らす",
+            "reading": "ならす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to ring",
+                  "to sound",
+                  "to chime",
+                  "to beat",
+                  "to snort (nose)",
+                  "to snap (fingers)",
+                  "to crack (joints)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "鳴らす|ならす",
+          "referenceIndex": 0,
+          "referenceHash": "a71d9179902a3cd74871ed470e946120caf51ec45dffdb26230136751d07945d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"klingen lassen, läuten\" matches JMdict 1532880 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Ringing a doorbell.",
+          "Honking a horn."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1532880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading ならす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@198948263 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198948263",
+            "patterns": [
+              0
+            ],
+            "finding": "鳴らす / ナラス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 鳴らす; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鳴らす",
+              "reading": "ならす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "鳴らす as \"klingen lassen, läuten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 鳴らす【ならす】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1532880 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7e5f757498a0a6105fff5cd9e18101708522685a3134af17b27707d249efa098",
+        "approvalHash": "96458645f9fbfcdf55300b83b6005beeadc84cc8d11bf82dbe432590787481f4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 鳴らす【ならす】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1532880; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "7e5f757498a0a6105fff5cd9e18101708522685a3134af17b27707d249efa098",
+        "approvalHash": "96458645f9fbfcdf55300b83b6005beeadc84cc8d11bf82dbe432590787481f4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:naru-bear",
+      "revisionId": "036-add-naru-bear",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "生る",
+        "reading": "なる",
+        "romaji": "naru",
+        "meaning": "(Früchte) tragen",
+        "type": "Verb",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Früchte wachsen an einer Pflanze: 実が生る, 柿が生る. Meist in Hiragana geschrieben; nicht verwechseln mit なる (werden).",
+        "examples": [
+          {
+            "japanese": "庭の木にたくさん柿が生った。",
+            "romaji": "Niwa no ki ni takusan kaki ga natta.",
+            "german": "Am Baum im Garten sind viele Kakis gewachsen."
+          },
+          {
+            "japanese": "このトマトは夏になると実が生る。",
+            "romaji": "Kono tomato wa natsu ni naru to mi ga naru.",
+            "german": "Diese Tomaten tragen im Sommer Früchte."
+          }
+        ],
+        "pitch": 1,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "なる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "なる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@199774176",
+            "patterns": [
+              1
+            ],
+            "finding": "生る / ナル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 生る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "生る",
+              "reading": "なる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "生る as \"(Früchte) tragen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 生る【なる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611000; spelling=生る; reading=なる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1611000 生る/なる sense(s) 1 support \"(Früchte) tragen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1611000",
+            "spelling": "生る",
+            "reading": "なる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to bear fruit"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "生る|なる",
+          "referenceIndex": 0,
+          "referenceHash": "409128c071c64b2b262a5156eecdd5f7c8b23f0543875be4e8b69a61bda4c65b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"(Früchte) tragen\" matches JMdict 1611000 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Persimmons on a tree.",
+          "Tomato plants fruiting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1611000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading なる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@199774176 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@199774176",
+            "patterns": [
+              1
+            ],
+            "finding": "生る / ナル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 生る; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "生る",
+              "reading": "なる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "生る as \"(Früchte) tragen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 生る【なる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1611000 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3728cb436ddfe46a4c1ecca0b3979d991e10229de4968974025fbb77ac69f88a",
+        "approvalHash": "dd6c3c2e6bd02c298a30e9de3301bcf07d6a6d3952d1898850468368a69b58d3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 生る【なる】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1611000; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "3728cb436ddfe46a4c1ecca0b3979d991e10229de4968974025fbb77ac69f88a",
+        "approvalHash": "dd6c3c2e6bd02c298a30e9de3301bcf07d6a6d3952d1898850468368a69b58d3"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "捕る|とる",
+      "referenceIndex": 0,
+      "referenceHash": "3bc16ce84ed75f5dd5ff364c7fe597f9e3afe95274b21a334d3db8686feea41b",
+      "revisionId": "036-candidate-toru-catch-3de2aea7-0",
+      "predecessorRevisionHash": "d4fb9cb6afd5b092299210e69957145e6f8eb91418793f1cf6b5cd8ed9f9d1b5",
+      "predecessorHash": "bd69c7b364904e427057a6f0aaab51aa36f1981dbd17085365a4a6002785ff63",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:toru-catch"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:toru-catch": "6aceeacbea3d4636e540f834d4ee6809e0ae10801f08f5b8310bacf00b0530e4"
+      },
+      "reason": "Reference 捕る/とる (tanos N2) is the same lexeme as the new entry 捕る【とる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=63",
+          "finding": "tanos lists 捕る/とる at N2 (gloss: to take,to catch (fish),to capture)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1514140; spelling=捕る; reading=とる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1514140 as the reference form.",
+          "selected": {
+            "sequence": "1514140",
+            "spelling": "捕る",
+            "reading": "とる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to catch (a wild animal, fish, insect, baseball, etc.)",
+                  "to capture"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 捕る|とる#0 is the same lexeme as vocab-n2:correction:toru-catch; target hash bound to the assembled addition.",
+        "contentHash": "a816b74ef5134b3a6a87d384f0837b57e461cd1ecf3f615a6f26a1859091076e",
+        "approvalHash": "a816b74ef5134b3a6a87d384f0837b57e461cd1ecf3f615a6f26a1859091076e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 捕る|とる#0 is the same lexeme as vocab-n2:correction:toru-catch (tanos lists 捕る/とる at N2 (gloss: to take,to catch (fish),to capture).).",
+        "contentHash": "a816b74ef5134b3a6a87d384f0837b57e461cd1ecf3f615a6f26a1859091076e",
+        "approvalHash": "a816b74ef5134b3a6a87d384f0837b57e461cd1ecf3f615a6f26a1859091076e"
+      }
+    },
+    {
+      "key": "捕る|とる",
+      "referenceIndex": 1,
+      "referenceHash": "7e90166a01b0c1a2d9c2b5bca0cffc545b65512f4cdc99382e216d737adeff8b",
+      "revisionId": "036-candidate-toru-catch-3de2aea7-1",
+      "predecessorRevisionHash": "499129788298835d011645a3dd75e05410687d737e8791f3f5a28954ba403dda",
+      "predecessorHash": "18c719149a3a0cf4291dbe00f4150786f7a2575f992373b487c7c4f050d46f85",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:toru-catch"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:toru-catch": "6aceeacbea3d4636e540f834d4ee6809e0ae10801f08f5b8310bacf00b0530e4"
+      },
+      "reason": "Reference 捕る/とる (master N2) is the same lexeme as the new entry 捕る【とる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 捕る/とる at N2 (gloss: to take; to catch (fish); to capture)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1514140; spelling=捕る; reading=とる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1514140 as the reference form.",
+          "selected": {
+            "sequence": "1514140",
+            "spelling": "捕る",
+            "reading": "とる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to catch (a wild animal, fish, insect, baseball, etc.)",
+                  "to capture"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 捕る|とる#1 is the same lexeme as vocab-n2:correction:toru-catch; target hash bound to the assembled addition.",
+        "contentHash": "15e864fc2797a2334a0398f77a9830751d064a98b7bba348498ff1614f2e8672",
+        "approvalHash": "15e864fc2797a2334a0398f77a9830751d064a98b7bba348498ff1614f2e8672"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 捕る|とる#1 is the same lexeme as vocab-n2:correction:toru-catch (Nihongo Master lists 捕る/とる at N2 (gloss: to take; to catch (fish); to capture).).",
+        "contentHash": "15e864fc2797a2334a0398f77a9830751d064a98b7bba348498ff1614f2e8672",
+        "approvalHash": "15e864fc2797a2334a0398f77a9830751d064a98b7bba348498ff1614f2e8672"
+      }
+    },
+    {
+      "key": "内線|ないせん",
+      "referenceIndex": 0,
+      "referenceHash": "539c07f7a40b82c05341fd5418ab9954287340129fe2427d8734be786e327a4a",
+      "revisionId": "036-candidate-naisen-5395607e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naisen"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naisen": "5cbea5faa6d52693f261881369503a1d92320334787aea690c20892d408b3fb5"
+      },
+      "reason": "Reference 内線/ないせん (tanos N2) is the same lexeme as the new entry 内線【ないせん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=64",
+          "finding": "tanos lists 内線/ないせん at N2 (gloss: phone extension,indoor wiring,inner line)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1458650; spelling=内線; reading=ないせん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1458650 as the reference form.",
+          "selected": {
+            "sequence": "1458650",
+            "spelling": "内線",
+            "reading": "ないせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "phone extension",
+                  "indoor wiring",
+                  "inner line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 内線|ないせん#0 is the same lexeme as vocab-n2:correction:naisen; target hash bound to the assembled addition.",
+        "contentHash": "d48279277f33d5f1cd4b2f39c304d670fe4f7c1a4edfc673f48394a110cc2ecb",
+        "approvalHash": "d48279277f33d5f1cd4b2f39c304d670fe4f7c1a4edfc673f48394a110cc2ecb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 内線|ないせん#0 is the same lexeme as vocab-n2:correction:naisen (tanos lists 内線/ないせん at N2 (gloss: phone extension,indoor wiring,inner line).).",
+        "contentHash": "d48279277f33d5f1cd4b2f39c304d670fe4f7c1a4edfc673f48394a110cc2ecb",
+        "approvalHash": "d48279277f33d5f1cd4b2f39c304d670fe4f7c1a4edfc673f48394a110cc2ecb"
+      }
+    },
+    {
+      "key": "内線|ないせん",
+      "referenceIndex": 1,
+      "referenceHash": "aa2023e53e3a3a1e8b2053867b9ba90f72146a619cd05094d4d4f72dc8fc4e9e",
+      "revisionId": "036-candidate-naisen-5395607e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naisen"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naisen": "5cbea5faa6d52693f261881369503a1d92320334787aea690c20892d408b3fb5"
+      },
+      "reason": "Reference 内線/ないせん (master N2) is the same lexeme as the new entry 内線【ないせん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 内線/ないせん at N2 (gloss: phone extension; indoor wiring; inner line)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1458650; spelling=内線; reading=ないせん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1458650 as the reference form.",
+          "selected": {
+            "sequence": "1458650",
+            "spelling": "内線",
+            "reading": "ないせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "phone extension",
+                  "indoor wiring",
+                  "inner line"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 内線|ないせん#1 is the same lexeme as vocab-n2:correction:naisen; target hash bound to the assembled addition.",
+        "contentHash": "4a56b1779f0e9220d5711d112db83e203aacbda1ae79cf42e7d897e0778ca875",
+        "approvalHash": "4a56b1779f0e9220d5711d112db83e203aacbda1ae79cf42e7d897e0778ca875"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 内線|ないせん#1 is the same lexeme as vocab-n2:correction:naisen (Nihongo Master lists 内線/ないせん at N2 (gloss: phone extension; indoor wiring; inner line).).",
+        "contentHash": "4a56b1779f0e9220d5711d112db83e203aacbda1ae79cf42e7d897e0778ca875",
+        "approvalHash": "4a56b1779f0e9220d5711d112db83e203aacbda1ae79cf42e7d897e0778ca875"
+      }
+    },
+    {
+      "key": "ないろん|ないろん",
+      "referenceIndex": 0,
+      "referenceHash": "58ac5a0e27a2e748bb9e69ab4de709467490e3bd363cd059e377ad4dd6875794",
+      "revisionId": "036-candidate-nairon-b941f678-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nairon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nairon": "08f24fcd9959cf340d3ff4ba4aa5ac1da3c756e99b98aba1c5968046a9e3044e"
+      },
+      "reason": "Reference ナイロン/ナイロン (tanos N2) is the same lexeme as the new entry ナイロン【ナイロン】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=64",
+          "finding": "tanos lists ナイロン/ナイロン at N2 (gloss: nylon)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089930; spelling=ナイロン; reading=ナイロン; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1089930 as the reference form.",
+          "selected": {
+            "sequence": "1089930",
+            "spelling": "ナイロン",
+            "reading": "ナイロン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nylon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ないろん|ないろん#0 is the same lexeme as vocab-n2:correction:nairon; target hash bound to the assembled addition.",
+        "contentHash": "5a55098347dee7eeb9f0e04e5bdc2a838d951cb2906bfd9d396e927f5086672b",
+        "approvalHash": "5a55098347dee7eeb9f0e04e5bdc2a838d951cb2906bfd9d396e927f5086672b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ないろん|ないろん#0 is the same lexeme as vocab-n2:correction:nairon (tanos lists ナイロン/ナイロン at N2 (gloss: nylon).).",
+        "contentHash": "5a55098347dee7eeb9f0e04e5bdc2a838d951cb2906bfd9d396e927f5086672b",
+        "approvalHash": "5a55098347dee7eeb9f0e04e5bdc2a838d951cb2906bfd9d396e927f5086672b"
+      }
+    },
+    {
+      "key": "ないろん|ないろん",
+      "referenceIndex": 1,
+      "referenceHash": "a4bc2e598434183e5f5b247ffe42b9c3b3474505afd8394247e68b0cb2b207aa",
+      "revisionId": "036-candidate-nairon-b941f678-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nairon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nairon": "08f24fcd9959cf340d3ff4ba4aa5ac1da3c756e99b98aba1c5968046a9e3044e"
+      },
+      "reason": "Reference ナイロン/ナイロン (master N2) is the same lexeme as the new entry ナイロン【ナイロン】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ナイロン/ナイロン at N2 (gloss: nylon; nylon; нейлон)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1089930; spelling=ナイロン; reading=ナイロン; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1089930 as the reference form.",
+          "selected": {
+            "sequence": "1089930",
+            "spelling": "ナイロン",
+            "reading": "ナイロン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nylon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ないろん|ないろん#1 is the same lexeme as vocab-n2:correction:nairon; target hash bound to the assembled addition.",
+        "contentHash": "bc1a5f98bab9d10fba7d8932b47947db2a4abb3915994657603c1e9fcb9c6971",
+        "approvalHash": "bc1a5f98bab9d10fba7d8932b47947db2a4abb3915994657603c1e9fcb9c6971"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ないろん|ないろん#1 is the same lexeme as vocab-n2:correction:nairon (Nihongo Master lists ナイロン/ナイロン at N2 (gloss: nylon; nylon; нейлон).).",
+        "contentHash": "bc1a5f98bab9d10fba7d8932b47947db2a4abb3915994657603c1e9fcb9c6971",
+        "approvalHash": "bc1a5f98bab9d10fba7d8932b47947db2a4abb3915994657603c1e9fcb9c6971"
+      }
+    },
+    {
+      "key": "亡くす|なくす",
+      "referenceIndex": 0,
+      "referenceHash": "48ca4b1180b62484781153dfaa7ee43052ff036c605557fc2a199ee585e45015",
+      "revisionId": "036-candidate-nakusu-lose-e20a507f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nakusu-lose"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nakusu-lose": "ac9bb650530bda19f031d7296c98143e17863731dd91127edf979dd34fb3b0a0"
+      },
+      "reason": "Reference 亡くす/なくす (tanos N2) is the same lexeme as the new entry 亡くす【なくす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=64",
+          "finding": "tanos lists 亡くす/なくす at N2 (gloss: to lose someone, wife, child, etc)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2835808; spelling=亡くす; reading=なくす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2835808 as the reference form.",
+          "selected": {
+            "sequence": "2835808",
+            "spelling": "亡くす",
+            "reading": "なくす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lose (through death; e.g. a wife, child)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 亡くす|なくす#0 is the same lexeme as vocab-n2:correction:nakusu-lose; target hash bound to the assembled addition.",
+        "contentHash": "b466306a22125207dbbfb0909682dae3707176442d91d435deadf0773cae131b",
+        "approvalHash": "b466306a22125207dbbfb0909682dae3707176442d91d435deadf0773cae131b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 亡くす|なくす#0 is the same lexeme as vocab-n2:correction:nakusu-lose (tanos lists 亡くす/なくす at N2 (gloss: to lose someone, wife, child, etc).).",
+        "contentHash": "b466306a22125207dbbfb0909682dae3707176442d91d435deadf0773cae131b",
+        "approvalHash": "b466306a22125207dbbfb0909682dae3707176442d91d435deadf0773cae131b"
+      }
+    },
+    {
+      "key": "為す|なす",
+      "referenceIndex": 0,
+      "referenceHash": "fc59c8a9791ddbb6f87bc4de1b5b9691fd16f7f485cac055d68c6af0be9132dc",
+      "revisionId": "036-candidate-nasu-do-a3fa3f49-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nasu-do"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nasu-do": "5de300667b12aa518215eb948fb6b47645eab06c7599266cac291405cb14edd2"
+      },
+      "reason": "Reference 為す/なす (tanos N2) is the same lexeme as the new entry 為す【なす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=64",
+          "finding": "tanos lists 為す/なす at N2 (gloss: to accomplish,to do)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2861111; spelling=為す; reading=なす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2861111 as the reference form.",
+          "selected": {
+            "sequence": "2861111",
+            "spelling": "為す",
+            "reading": "なす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to do",
+                  "to commit",
+                  "to carry out",
+                  "to bring about"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 為す|なす#0 is the same lexeme as vocab-n2:correction:nasu-do; target hash bound to the assembled addition.",
+        "contentHash": "d6d15b979c4eed863532c85cedc8fbee05d1646aed9096f8886ad826e0b792e5",
+        "approvalHash": "d6d15b979c4eed863532c85cedc8fbee05d1646aed9096f8886ad826e0b792e5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 為す|なす#0 is the same lexeme as vocab-n2:correction:nasu-do (tanos lists 為す/なす at N2 (gloss: to accomplish,to do).).",
+        "contentHash": "d6d15b979c4eed863532c85cedc8fbee05d1646aed9096f8886ad826e0b792e5",
+        "approvalHash": "d6d15b979c4eed863532c85cedc8fbee05d1646aed9096f8886ad826e0b792e5"
+      }
+    },
+    {
+      "key": "為す|なす",
+      "referenceIndex": 1,
+      "referenceHash": "80eb9170fec92feb67eae221fe9787ed6bc4830f52bb109184ec023a003d67ae",
+      "revisionId": "036-candidate-nasu-do-a3fa3f49-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nasu-do"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nasu-do": "5de300667b12aa518215eb948fb6b47645eab06c7599266cac291405cb14edd2"
+      },
+      "reason": "Reference 為す/なす (master N2) is the same lexeme as the new entry 為す【なす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 為す/なす at N2 (gloss: to build up; to establish; accomplir)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2861111; spelling=為す; reading=なす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2861111 as the reference form.",
+          "selected": {
+            "sequence": "2861111",
+            "spelling": "為す",
+            "reading": "なす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to do",
+                  "to commit",
+                  "to carry out",
+                  "to bring about"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 為す|なす#1 is the same lexeme as vocab-n2:correction:nasu-do; target hash bound to the assembled addition.",
+        "contentHash": "5a0c72c1e1f76f99dccd2fa267f8c90ec97ebd1ca83420f2aef8af48cb888c30",
+        "approvalHash": "5a0c72c1e1f76f99dccd2fa267f8c90ec97ebd1ca83420f2aef8af48cb888c30"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 為す|なす#1 is the same lexeme as vocab-n2:correction:nasu-do (Nihongo Master lists 為す/なす at N2 (gloss: to build up; to establish; accomplir).). Note: the Nihongo Master gloss („to build up; to establish“) stems from the old combined 成す/為す JMdict entry; linking by the 為す spelling is acceptable.",
+        "contentHash": "5a0c72c1e1f76f99dccd2fa267f8c90ec97ebd1ca83420f2aef8af48cb888c30",
+        "approvalHash": "5a0c72c1e1f76f99dccd2fa267f8c90ec97ebd1ca83420f2aef8af48cb888c30"
+      }
+    },
+    {
+      "key": "傾らか|なだらか",
+      "referenceIndex": 0,
+      "referenceHash": "3affc0a10d17f97bc0cc45eabbb2288255ce55a6a9bce3fb0322a1df181d7837",
+      "revisionId": "036-candidate-nadaraka-065a0b83-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nadaraka"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nadaraka": "0fef2f82d0c647529176924ccbd849beb8277ba99543bb9d72de6261c80020f1"
+      },
+      "reason": "Reference 傾らか/なだらか (master N2) is the same lexeme as the new entry なだらか【なだらか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 傾らか/なだらか at N2 (gloss: gently-sloping; gentle; easy)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1632290; spelling=なだらか; reading=なだらか; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1632290 as the reference form.",
+          "selected": {
+            "sequence": "1632290",
+            "spelling": "なだらか",
+            "reading": "なだらか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gently sloping",
+                  "gentle",
+                  "gradual",
+                  "easy"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "smooth (process)",
+                  "gentle (e.g. tone of voice)",
+                  "slow (e.g. growth)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 傾らか|なだらか#0 is the same lexeme as vocab-n2:correction:nadaraka; target hash bound to the assembled addition.",
+        "contentHash": "ec72c3a0052d3c8b7428399643bb30aee7386c2cf5be208a5fd1bd8316650ed8",
+        "approvalHash": "ec72c3a0052d3c8b7428399643bb30aee7386c2cf5be208a5fd1bd8316650ed8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 傾らか|なだらか#0 is the same lexeme as vocab-n2:correction:nadaraka (Nihongo Master lists 傾らか/なだらか at N2 (gloss: gently-sloping; gentle; easy).).",
+        "contentHash": "ec72c3a0052d3c8b7428399643bb30aee7386c2cf5be208a5fd1bd8316650ed8",
+        "approvalHash": "ec72c3a0052d3c8b7428399643bb30aee7386c2cf5be208a5fd1bd8316650ed8"
+      }
+    },
+    {
+      "key": "何々|なになに",
+      "referenceIndex": 0,
+      "referenceHash": "6d2a9faec1efee22d3fe264a120993cc25b7cd4319d7c4974057984468221957",
+      "revisionId": "036-candidate-naninani-248e8988-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naninani"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naninani": "bb0b67edddb3d46dca10e631e0103aebd30e4b263cdb3abf091fa05c7cb2fe5c"
+      },
+      "reason": "Reference 何々/なになに (tanos N2) is the same lexeme as the new entry 何々【なになに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 何々/なになに at N2 (gloss: such and such,What?)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599580; spelling=何々; reading=なになに; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599580 as the reference form.",
+          "selected": {
+            "sequence": "1599580",
+            "spelling": "何々",
+            "reading": "なになに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what"
+                ],
+                "notes": [
+                  "used when asking about or referring to multiple unspecified things"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "so-and-so",
+                  "such and such",
+                  "something (or other)"
+                ],
+                "notes": [
+                  "used when listing things that are unknown or do not need to be specified"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "wait",
+                  "hang on"
+                ],
+                "notes": [
+                  "used when asking for confirmation upon hearing something surprising"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 何々|なになに#0 is the same lexeme as vocab-n2:correction:naninani; target hash bound to the assembled addition.",
+        "contentHash": "ba62d1f744465a9f7caffd1fcc842844df1054b1deb7b1842cc9a4c39ab32d0a",
+        "approvalHash": "ba62d1f744465a9f7caffd1fcc842844df1054b1deb7b1842cc9a4c39ab32d0a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 何々|なになに#0 is the same lexeme as vocab-n2:correction:naninani (tanos lists 何々/なになに at N2 (gloss: such and such,What?).).",
+        "contentHash": "ba62d1f744465a9f7caffd1fcc842844df1054b1deb7b1842cc9a4c39ab32d0a",
+        "approvalHash": "ba62d1f744465a9f7caffd1fcc842844df1054b1deb7b1842cc9a4c39ab32d0a"
+      }
+    },
+    {
+      "key": "何々|なになに",
+      "referenceIndex": 1,
+      "referenceHash": "0b48ec0945bb8835e1cc28d1d16ec697afc7d89185af04023cf8eff6b92548e8",
+      "revisionId": "036-candidate-naninani-248e8988-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naninani"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naninani": "bb0b67edddb3d46dca10e631e0103aebd30e4b263cdb3abf091fa05c7cb2fe5c"
+      },
+      "reason": "Reference 何々/なになに (master N2) is the same lexeme as the new entry 何々【なになに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 何々/なになに at N2 (gloss: such and such (when being vague, placeholder, etc.); this and that)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599580; spelling=何々; reading=なになに; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599580 as the reference form.",
+          "selected": {
+            "sequence": "1599580",
+            "spelling": "何々",
+            "reading": "なになに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what"
+                ],
+                "notes": [
+                  "used when asking about or referring to multiple unspecified things"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [],
+                "gloss": [
+                  "so-and-so",
+                  "such and such",
+                  "something (or other)"
+                ],
+                "notes": [
+                  "used when listing things that are unknown or do not need to be specified"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "what?",
+                  "wait",
+                  "hang on"
+                ],
+                "notes": [
+                  "used when asking for confirmation upon hearing something surprising"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 何々|なになに#1 is the same lexeme as vocab-n2:correction:naninani; target hash bound to the assembled addition.",
+        "contentHash": "56e8785b87ec10cced249e25b7d794d72cafff0a59373ba23a00ca53f5105ceb",
+        "approvalHash": "56e8785b87ec10cced249e25b7d794d72cafff0a59373ba23a00ca53f5105ceb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 何々|なになに#1 is the same lexeme as vocab-n2:correction:naninani (Nihongo Master lists 何々/なになに at N2 (gloss: such and such (when being vague, placeholder, etc.); this and that).).",
+        "contentHash": "56e8785b87ec10cced249e25b7d794d72cafff0a59373ba23a00ca53f5105ceb",
+        "approvalHash": "56e8785b87ec10cced249e25b7d794d72cafff0a59373ba23a00ca53f5105ceb"
+      }
+    },
+    {
+      "key": "並木|なみき",
+      "referenceIndex": 0,
+      "referenceHash": "04a4cb6d21d6cdeaa809955b1c457045b6bb88bf15fceacd77f1202c76adf318",
+      "revisionId": "036-candidate-namiki-c1d107f6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:namiki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:namiki": "b35bf75c49e010fa1de2e37397ecbebcd2a81a861daf81b3939bf2dba0ea59c7"
+      },
+      "reason": "Reference 並木/なみき (tanos N2) is the same lexeme as the new entry 並木【なみき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 並木/なみき at N2 (gloss: roadside tree,row of trees)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599640; spelling=並木; reading=なみき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599640 as the reference form.",
+          "selected": {
+            "sequence": "1599640",
+            "spelling": "並木",
+            "reading": "なみき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "roadside trees",
+                  "row of trees"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 並木|なみき#0 is the same lexeme as vocab-n2:correction:namiki; target hash bound to the assembled addition.",
+        "contentHash": "57b8ef3d03999c7b51da74cd37fa58645c49cc111a0344e07aeeb71cfab10441",
+        "approvalHash": "57b8ef3d03999c7b51da74cd37fa58645c49cc111a0344e07aeeb71cfab10441"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 並木|なみき#0 is the same lexeme as vocab-n2:correction:namiki (tanos lists 並木/なみき at N2 (gloss: roadside tree,row of trees).).",
+        "contentHash": "57b8ef3d03999c7b51da74cd37fa58645c49cc111a0344e07aeeb71cfab10441",
+        "approvalHash": "57b8ef3d03999c7b51da74cd37fa58645c49cc111a0344e07aeeb71cfab10441"
+      }
+    },
+    {
+      "key": "並木|なみき",
+      "referenceIndex": 1,
+      "referenceHash": "6401baab0eccf8a008516b6325d254852174439afe86d33a2e0c59830b27c3d8",
+      "revisionId": "036-candidate-namiki-c1d107f6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:namiki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:namiki": "b35bf75c49e010fa1de2e37397ecbebcd2a81a861daf81b3939bf2dba0ea59c7"
+      },
+      "reason": "Reference 並木/なみき (sensei N2) is the same lexeme as the new entry 並木【なみき】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 並木/なみき at N2 (gloss: roadside tree; row of trees)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599640; spelling=並木; reading=なみき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599640 as the reference form.",
+          "selected": {
+            "sequence": "1599640",
+            "spelling": "並木",
+            "reading": "なみき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "roadside trees",
+                  "row of trees"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 並木|なみき#1 is the same lexeme as vocab-n2:correction:namiki; target hash bound to the assembled addition.",
+        "contentHash": "561d85094be7f1ed961ffeb5e0790914816fdf8b53c69a1d6f53622733d5326a",
+        "approvalHash": "561d85094be7f1ed961ffeb5e0790914816fdf8b53c69a1d6f53622733d5326a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 並木|なみき#1 is the same lexeme as vocab-n2:correction:namiki (JLPT Sensei lists 並木/なみき at N2 (gloss: roadside tree; row of trees).).",
+        "contentHash": "561d85094be7f1ed961ffeb5e0790914816fdf8b53c69a1d6f53622733d5326a",
+        "approvalHash": "561d85094be7f1ed961ffeb5e0790914816fdf8b53c69a1d6f53622733d5326a"
+      }
+    },
+    {
+      "key": "並木|なみき",
+      "referenceIndex": 2,
+      "referenceHash": "8d08a57be8be80a05e5faf79831c2f65ae1c1f3ebee26647205358f52d66a44a",
+      "revisionId": "036-candidate-namiki-c1d107f6-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:namiki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:namiki": "b35bf75c49e010fa1de2e37397ecbebcd2a81a861daf81b3939bf2dba0ea59c7"
+      },
+      "reason": "Reference 並木/なみき (master N2) is the same lexeme as the new entry 並木【なみき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 並木/なみき at N2 (gloss: roadside tree; row of trees; rangée d'arbre)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599640; spelling=並木; reading=なみき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599640 as the reference form.",
+          "selected": {
+            "sequence": "1599640",
+            "spelling": "並木",
+            "reading": "なみき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "roadside trees",
+                  "row of trees"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 並木|なみき#2 is the same lexeme as vocab-n2:correction:namiki; target hash bound to the assembled addition.",
+        "contentHash": "489fe3cf7080bd8d13e54fe788c90638895bddd700ea5eb18f6dce98ac4d42de",
+        "approvalHash": "489fe3cf7080bd8d13e54fe788c90638895bddd700ea5eb18f6dce98ac4d42de"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 並木|なみき#2 is the same lexeme as vocab-n2:correction:namiki (Nihongo Master lists 並木/なみき at N2 (gloss: roadside tree; row of trees; rangée d'arbre).).",
+        "contentHash": "489fe3cf7080bd8d13e54fe788c90638895bddd700ea5eb18f6dce98ac4d42de",
+        "approvalHash": "489fe3cf7080bd8d13e54fe788c90638895bddd700ea5eb18f6dce98ac4d42de"
+      }
+    },
+    {
+      "key": "倣う|ならう",
+      "referenceIndex": 0,
+      "referenceHash": "c8956ac160771c765a69825b7a0b40967f0a34e3b13f5a7a06e2ab2d3b32a1c4",
+      "revisionId": "036-candidate-narau-imitate-f3f00ce5-0",
+      "predecessorRevisionHash": "af085ab327cabfdc492ba4725b3810b0e7024a551130f8628899a799602b417a",
+      "predecessorHash": "92a4d469eb8589508030aa6ca7ae1228d678223bcf970e22a7b09ebbfc9c22d5",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:narau-imitate"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:narau-imitate": "2c3565e1b2fc80c7be0ae2d3d1226be1a71ffc0c379469bd3004e9a3c75258f7"
+      },
+      "reason": "Reference 倣う/ならう (tanos N2) is the same lexeme as the new entry 倣う【ならう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 倣う/ならう at N2 (gloss: to imitate,to follow,to emulate)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599680; spelling=倣う; reading=ならう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599680 as the reference form.",
+          "selected": {
+            "sequence": "1599680",
+            "spelling": "倣う",
+            "reading": "ならう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to imitate",
+                  "to follow",
+                  "to copy",
+                  "to emulate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 倣う|ならう#0 is the same lexeme as vocab-n2:correction:narau-imitate; target hash bound to the assembled addition.",
+        "contentHash": "35137a347456855ada5663c3c864223e5f2828041bed2dbeb2281903e0573770",
+        "approvalHash": "35137a347456855ada5663c3c864223e5f2828041bed2dbeb2281903e0573770"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 倣う|ならう#0 is the same lexeme as vocab-n2:correction:narau-imitate (tanos lists 倣う/ならう at N2 (gloss: to imitate,to follow,to emulate).).",
+        "contentHash": "35137a347456855ada5663c3c864223e5f2828041bed2dbeb2281903e0573770",
+        "approvalHash": "35137a347456855ada5663c3c864223e5f2828041bed2dbeb2281903e0573770"
+      }
+    },
+    {
+      "key": "倣う|ならう",
+      "referenceIndex": 1,
+      "referenceHash": "4954f2e55bd6032dbe1993518587d91b4cc29cfcf757ed787dfdcd886d9f8589",
+      "revisionId": "036-candidate-narau-imitate-f3f00ce5-1",
+      "predecessorRevisionHash": "9f60a50ba0043d3d488abc9d1e01e1d02512917954bf0e64d73c81ae74310aa3",
+      "predecessorHash": "5d44225da44813d6e376b73932b2b9b64908cdaa2f58849b709c32be308e6dcd",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:narau-imitate"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:narau-imitate": "2c3565e1b2fc80c7be0ae2d3d1226be1a71ffc0c379469bd3004e9a3c75258f7"
+      },
+      "reason": "Reference 倣う/ならう (master N2) is the same lexeme as the new entry 倣う【ならう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 倣う/ならう at N2 (gloss: to imitate; to follow; to emulate)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599680; spelling=倣う; reading=ならう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599680 as the reference form.",
+          "selected": {
+            "sequence": "1599680",
+            "spelling": "倣う",
+            "reading": "ならう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to imitate",
+                  "to follow",
+                  "to copy",
+                  "to emulate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 倣う|ならう#1 is the same lexeme as vocab-n2:correction:narau-imitate; target hash bound to the assembled addition.",
+        "contentHash": "94e12c9a15d0ce1a4c2b942e5179e82e633d63e2fb85306caa52dc1e51c98398",
+        "approvalHash": "94e12c9a15d0ce1a4c2b942e5179e82e633d63e2fb85306caa52dc1e51c98398"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 倣う|ならう#1 is the same lexeme as vocab-n2:correction:narau-imitate (Nihongo Master lists 倣う/ならう at N2 (gloss: to imitate; to follow; to emulate).).",
+        "contentHash": "94e12c9a15d0ce1a4c2b942e5179e82e633d63e2fb85306caa52dc1e51c98398",
+        "approvalHash": "94e12c9a15d0ce1a4c2b942e5179e82e633d63e2fb85306caa52dc1e51c98398"
+      }
+    },
+    {
+      "key": "鳴らす|ならす",
+      "referenceIndex": 0,
+      "referenceHash": "a71d9179902a3cd74871ed470e946120caf51ec45dffdb26230136751d07945d",
+      "revisionId": "036-candidate-narasu-ring-36aa8b91-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:narasu-ring"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:narasu-ring": "7e5f757498a0a6105fff5cd9e18101708522685a3134af17b27707d249efa098"
+      },
+      "reason": "Reference 鳴らす/ならす (tanos N2) is the same lexeme as the new entry 鳴らす【ならす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 鳴らす/ならす at N2 (gloss: to ring,to sound,to chime,to beat,to snort (nose))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1532880; spelling=鳴らす; reading=ならす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1532880 as the reference form.",
+          "selected": {
+            "sequence": "1532880",
+            "spelling": "鳴らす",
+            "reading": "ならす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to ring",
+                  "to sound",
+                  "to chime",
+                  "to beat",
+                  "to snort (nose)",
+                  "to snap (fingers)",
+                  "to crack (joints)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鳴らす|ならす#0 is the same lexeme as vocab-n2:correction:narasu-ring; target hash bound to the assembled addition.",
+        "contentHash": "2d7e5fcb862e1ae837bfe9efe7d666fb26a80fa2bab0359221b21adb48bc8ee7",
+        "approvalHash": "2d7e5fcb862e1ae837bfe9efe7d666fb26a80fa2bab0359221b21adb48bc8ee7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鳴らす|ならす#0 is the same lexeme as vocab-n2:correction:narasu-ring (tanos lists 鳴らす/ならす at N2 (gloss: to ring,to sound,to chime,to beat,to snort (nose)).).",
+        "contentHash": "2d7e5fcb862e1ae837bfe9efe7d666fb26a80fa2bab0359221b21adb48bc8ee7",
+        "approvalHash": "2d7e5fcb862e1ae837bfe9efe7d666fb26a80fa2bab0359221b21adb48bc8ee7"
+      }
+    },
+    {
+      "key": "鳴らす|ならす",
+      "referenceIndex": 1,
+      "referenceHash": "388986d98e2d0f379ff440864426cb1652d2d428d050a297d55fe81fe873342a",
+      "revisionId": "036-candidate-narasu-ring-36aa8b91-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:narasu-ring"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:narasu-ring": "7e5f757498a0a6105fff5cd9e18101708522685a3134af17b27707d249efa098"
+      },
+      "reason": "Reference 鳴らす/ならす (master N2) is the same lexeme as the new entry 鳴らす【ならす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 鳴らす/ならす at N2 (gloss: to ring; to sound; to chime)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1532880; spelling=鳴らす; reading=ならす; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1532880 as the reference form.",
+          "selected": {
+            "sequence": "1532880",
+            "spelling": "鳴らす",
+            "reading": "ならす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to ring",
+                  "to sound",
+                  "to chime",
+                  "to beat",
+                  "to snort (nose)",
+                  "to snap (fingers)",
+                  "to crack (joints)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鳴らす|ならす#1 is the same lexeme as vocab-n2:correction:narasu-ring; target hash bound to the assembled addition.",
+        "contentHash": "bf6fc0402b5d9214e717aac91204a023602047f152596644932f2f43e20a8eae",
+        "approvalHash": "bf6fc0402b5d9214e717aac91204a023602047f152596644932f2f43e20a8eae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鳴らす|ならす#1 is the same lexeme as vocab-n2:correction:narasu-ring (Nihongo Master lists 鳴らす/ならす at N2 (gloss: to ring; to sound; to chime).).",
+        "contentHash": "bf6fc0402b5d9214e717aac91204a023602047f152596644932f2f43e20a8eae",
+        "approvalHash": "bf6fc0402b5d9214e717aac91204a023602047f152596644932f2f43e20a8eae"
+      }
+    },
+    {
+      "key": "生る|なる",
+      "referenceIndex": 0,
+      "referenceHash": "409128c071c64b2b262a5156eecdd5f7c8b23f0543875be4e8b69a61bda4c65b",
+      "revisionId": "036-candidate-naru-bear-f1abf23d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naru-bear"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naru-bear": "3728cb436ddfe46a4c1ecca0b3979d991e10229de4968974025fbb77ac69f88a"
+      },
+      "reason": "Reference 生る/なる (tanos N2) is the same lexeme as the new entry 生る【なる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 生る/なる at N2 (gloss: to bear fruit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611000; spelling=生る; reading=なる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611000 as the reference form.",
+          "selected": {
+            "sequence": "1611000",
+            "spelling": "生る",
+            "reading": "なる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to bear fruit"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 生る|なる#0 is the same lexeme as vocab-n2:correction:naru-bear; target hash bound to the assembled addition.",
+        "contentHash": "2ca01f8ec61933fbd5c46142c9bff58b75391cc66d417682e0b0d73581a6c888",
+        "approvalHash": "2ca01f8ec61933fbd5c46142c9bff58b75391cc66d417682e0b0d73581a6c888"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 生る|なる#0 is the same lexeme as vocab-n2:correction:naru-bear (tanos lists 生る/なる at N2 (gloss: to bear fruit).).",
+        "contentHash": "2ca01f8ec61933fbd5c46142c9bff58b75391cc66d417682e0b0d73581a6c888",
+        "approvalHash": "2ca01f8ec61933fbd5c46142c9bff58b75391cc66d417682e0b0d73581a6c888"
+      }
+    },
+    {
+      "key": "生る|なる",
+      "referenceIndex": 1,
+      "referenceHash": "8212895964538369f2a9437373aa88de76216f33eefc76d40f452ed259b412bd",
+      "revisionId": "036-candidate-naru-bear-f1abf23d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:naru-bear"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:naru-bear": "3728cb436ddfe46a4c1ecca0b3979d991e10229de4968974025fbb77ac69f88a"
+      },
+      "reason": "Reference 生る/なる (master N2) is the same lexeme as the new entry 生る【なる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 生る/なる at N2 (gloss: to bear fruit; porter des fruits; (n) (Früchte) tragen)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611000; spelling=生る; reading=なる; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611000 as the reference form.",
+          "selected": {
+            "sequence": "1611000",
+            "spelling": "生る",
+            "reading": "なる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to bear fruit"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 生る|なる#1 is the same lexeme as vocab-n2:correction:naru-bear; target hash bound to the assembled addition.",
+        "contentHash": "81b5841cca28be5d6a34873b2ae2364b5652134120879e7e8144976b166aec06",
+        "approvalHash": "81b5841cca28be5d6a34873b2ae2364b5652134120879e7e8144976b166aec06"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 生る|なる#1 is the same lexeme as vocab-n2:correction:naru-bear (Nihongo Master lists 生る/なる at N2 (gloss: to bear fruit; porter des fruits; (n) (Früchte) tragen).).",
+        "contentHash": "81b5841cca28be5d6a34873b2ae2364b5652134120879e7e8144976b166aec06",
+        "approvalHash": "81b5841cca28be5d6a34873b2ae2364b5652134120879e7e8144976b166aec06"
+      }
+    }
+  ]
+}

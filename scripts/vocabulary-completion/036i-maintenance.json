@@ -1,0 +1,3746 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:fusagaru",
+      "revisionId": "036-add-fusagaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "塞がる",
+        "reading": "ふさがる",
+        "romaji": "fusagaru",
+        "meaning": "verstopft sein, versperrt sein; belegt sein",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N2",
+        "notes": "Intransitiv: 道が塞がる (versperrt), 穴が塞がる (sich schließen), 手が塞がっている (die Hände voll haben). Transitiv: 塞ぐ.",
+        "examples": [
+          {
+            "japanese": "事故で道が塞がって、車が進めない。",
+            "romaji": "Jiko de michi ga fusagatte, kuruma ga susumenai.",
+            "german": "Durch einen Unfall ist die Straße versperrt, und die Autos kommen nicht weiter."
+          },
+          {
+            "japanese": "今、手が塞がっているので、ドアを開けてくれる？",
+            "romaji": "Ima, te ga fusagatte iru node, doa o akete kureru?",
+            "german": "Ich habe gerade die Hände voll, kannst du die Tür aufmachen?"
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ふさがる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ふさがる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233307681",
+            "patterns": [
+              0
+            ],
+            "finding": "塞がる / フサガル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 塞がる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "塞がる",
+              "reading": "ふさがる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "塞がる as \"verstopft sein, versperrt sein; belegt sein\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 塞がる【ふさがる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602570; spelling=塞がる; reading=ふさがる; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1602570 塞がる/ふさがる sense(s) 1,2,3 support \"verstopft sein, versperrt sein; belegt sein\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1602570",
+            "spelling": "塞がる",
+            "reading": "ふさがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be closed",
+                  "to be blocked",
+                  "to be healed (e.g. wound)",
+                  "to be shut up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be clogged",
+                  "to be plugged up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be occupied",
+                  "to be taken (e.g. accommodation)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "塞がる|ふさがる",
+          "referenceIndex": 0,
+          "referenceHash": "9eab64e493ff4478891ab6326f0cc734f2f0d3b706edfb8160a14b9635107c1e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"verstopft sein, versperrt sein; belegt sein\" matches JMdict 1602570 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Road blocked by an accident.",
+          "Hands full (idiomatic)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1602570; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading ふさがる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@233307681 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233307681",
+            "patterns": [
+              0
+            ],
+            "finding": "塞がる / フサガル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 塞がる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "塞がる",
+              "reading": "ふさがる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "塞がる as \"verstopft sein, versperrt sein; belegt sein\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 塞がる【ふさがる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1602570 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9dd7f23c214510cccd7135939ff8bf3101d6ce9901516dabe478d32f1a1865a6",
+        "approvalHash": "973a7d9f084ed9bf9eab73bae9d756c1628d89d214856b894aadb72c8bf6ec37"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 塞がる【ふさがる】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1602570; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "9dd7f23c214510cccd7135939ff8bf3101d6ce9901516dabe478d32f1a1865a6",
+        "approvalHash": "973a7d9f084ed9bf9eab73bae9d756c1628d89d214856b894aadb72c8bf6ec37"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:fuzakeru",
+      "revisionId": "036-add-fuzakeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ふざける",
+        "reading": "ふざける",
+        "romaji": "fuzakeru",
+        "meaning": "herumalbern, Unsinn treiben; sich lustig machen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Albern sein (授業中にふざける) oder sich über jemanden lustig machen; ärgerlich: ふざけるな！（Lass den Unsinn!）. Die Kanji 巫山戯る sind Ateji.",
+        "examples": [
+          {
+            "japanese": "授業中にふざけて、先生に注意された。",
+            "romaji": "Jugyouchuu ni fuzakete, sensei ni chuui sareta.",
+            "german": "Ich habe im Unterricht herumgealbert und wurde vom Lehrer ermahnt."
+          },
+          {
+            "japanese": "子どもたちがふざけ合って笑っている。",
+            "romaji": "Kodomotachi ga fuzakeatte waratte iru.",
+            "german": "Die Kinder albern miteinander herum und lachen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "ふざける",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ふざける",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233489427",
+            "patterns": [
+              3
+            ],
+            "finding": "ふざける / フザケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma ふざける; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ふざける",
+              "reading": "ふざける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "ふざける as \"herumalbern, Unsinn treiben; sich lustig machen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2 (巫山戯る). Editorial N2.",
+      "rationale": "Add ふざける【ふざける】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1566450; spelling=ふざける; reading=ふざける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1566450 ふざける/ふざける sense(s) 1,2,3 support \"herumalbern, Unsinn treiben; sich lustig machen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1566450",
+            "spelling": "ふざける",
+            "reading": "ふざける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to joke",
+                  "to jest",
+                  "to kid",
+                  "to josh"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to make fun of",
+                  "to laugh at",
+                  "to play a prank"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to romp",
+                  "to gambol",
+                  "to frolic",
+                  "to frisk",
+                  "to mess around",
+                  "to fool around",
+                  "to screw around"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ふざける|ふざける",
+          "referenceIndex": 0,
+          "referenceHash": "99eebd655c4acc72fe2ca125142c405e79e6cd4ef4b3f8f6e615cbcb6349ef79"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"herumalbern, Unsinn treiben; sich lustig machen\" matches JMdict 1566450 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Joking in class.",
+          "Children playing around."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1566450; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading ふざける; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2 (巫山戯る). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@233489427 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233489427",
+            "patterns": [
+              3
+            ],
+            "finding": "ふざける / フザケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma ふざける; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ふざける",
+              "reading": "ふざける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "ふざける as \"herumalbern, Unsinn treiben; sich lustig machen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ふざける【ふざける】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1566450 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ebb36354bffb80557e6eadcd53453e86f58476a1de9d5ad0cf40b4c147130996",
+        "approvalHash": "036d5b32c84d713d54cdc58972a1fac2047ec7c151f2b82b9124178f528fe750"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Merge ふざける/巫山戯る correct; ex1 uses the plain verb, ex2 ふざけ合う; ichidan correct.",
+        "contentHash": "ebb36354bffb80557e6eadcd53453e86f58476a1de9d5ad0cf40b4c147130996",
+        "approvalHash": "036d5b32c84d713d54cdc58972a1fac2047ec7c151f2b82b9124178f528fe750"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:fuzoku",
+      "revisionId": "036-add-fuzoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "付属",
+        "reading": "ふぞく",
+        "romaji": "fuzoku",
+        "meaning": "Zubehör, Zugehörigkeit; angegliedert",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Zu etwas gehörig: 付属品 (Zubehör), 大学付属の病院 (Universitätsklinik), 付属高校 (der Universität angegliederte Oberschule). Auch 附属 geschrieben.",
+        "examples": [
+          {
+            "japanese": "このカメラには充電器が付属している。",
+            "romaji": "Kono kamera ni wa juudenki ga fuzoku shite iru.",
+            "german": "Zu dieser Kamera gehört ein Ladegerät."
+          },
+          {
+            "japanese": "彼女は大学の付属病院で働いている。",
+            "romaji": "Kanojo wa daigaku no fuzoku byouin de hataraite iru.",
+            "german": "Sie arbeitet in der Universitätsklinik."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "附属"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233874493",
+            "patterns": [
+              0
+            ],
+            "finding": "付属 / フゾク; 名詞/普通名詞/サ変可能/*; *; *; lemma 付属; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "付属",
+              "reading": "ふぞく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "付属 as \"Zubehör, Zugehörigkeit; angegliedert\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (附属). Editorial N2.",
+      "rationale": "Add 付属【ふぞく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602700; spelling=付属; reading=ふぞく; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1602700 付属/ふぞく sense(s) 1,2 support \"Zubehör, Zugehörigkeit; angegliedert\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1602700",
+            "spelling": "付属",
+            "reading": "ふぞく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being attached (to)",
+                  "being affiliated (to)",
+                  "belonging (to)",
+                  "going with"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "attached school",
+                  "affiliated school"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "付属|ふぞく",
+          "referenceIndex": 0,
+          "referenceHash": "f252ba653f1171924cb69e47bae740c15905187c8f1c91ef891350566e09e172"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Zubehör, Zugehörigkeit; angegliedert\" matches JMdict 1602700 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Product accessories.",
+          "University hospital."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1602700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (附属). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@233874493 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233874493",
+            "patterns": [
+              0
+            ],
+            "finding": "付属 / フゾク; 名詞/普通名詞/サ変可能/*; *; *; lemma 付属; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "付属",
+              "reading": "ふぞく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "付属 as \"Zubehör, Zugehörigkeit; angegliedert\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 付属【ふぞく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1602700 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "53a8bdb95eec2aa08241470087050d5219e1db507bbe22c1f955cdbc87538f9d",
+        "approvalHash": "b88ba7a2c4dfc6ce70be0ee1573892e29b6b2420dea91daec3590b35754cc540"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — ex1 now 充電器が付属している (headword itself). No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "53a8bdb95eec2aa08241470087050d5219e1db507bbe22c1f955cdbc87538f9d",
+        "approvalHash": "b88ba7a2c4dfc6ce70be0ee1573892e29b6b2420dea91daec3590b35754cc540"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:futa",
+      "revisionId": "036-add-futa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "蓋",
+        "reading": "ふた",
+        "romaji": "futa",
+        "meaning": "Deckel",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Deckel eines Topfs oder Behälters: 蓋をする (zudecken), 蓋を開ける. Oft in Kana: ふた.",
+        "examples": [
+          {
+            "japanese": "鍋に蓋をして、十分ほど煮てください。",
+            "romaji": "Nabe ni futa o shite, juppun hodo nite kudasai.",
+            "german": "Legen Sie den Deckel auf den Topf und lassen Sie es etwa zehn Minuten köcheln."
+          },
+          {
+            "japanese": "瓶の蓋が固くて開かない。",
+            "romaji": "Bin no futa ga katakute akanai.",
+            "german": "Der Deckel des Glases sitzt fest und geht nicht auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233879446",
+            "patterns": [
+              0
+            ],
+            "finding": "蓋 / フタ; 名詞/普通名詞/一般/*; *; *; lemma 蓋; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蓋",
+              "reading": "ふた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蓋 as \"Deckel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 蓋【ふた】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1204540; spelling=蓋; reading=ふた; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1204540 蓋/ふた sense(s) 1 support \"Deckel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1204540",
+            "spelling": "蓋",
+            "reading": "ふた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cover",
+                  "lid",
+                  "cap"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "蓋|ふた",
+          "referenceIndex": 0,
+          "referenceHash": "5b76e9226397e35d5087f15cd8a870eed39f37b1dc4acbeeef72ad8d67cd7796"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Deckel\" matches JMdict 1204540 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cooking.",
+          "Stuck lid."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1204540; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@233879446 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233879446",
+            "patterns": [
+              0
+            ],
+            "finding": "蓋 / フタ; 名詞/普通名詞/一般/*; *; *; lemma 蓋; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "蓋",
+              "reading": "ふた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "蓋 as \"Deckel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 蓋【ふた】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1204540 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "09c170eab24965aefaa3963c16e04df55b2601480714ed3c3e5e438f5b3ff300",
+        "approvalHash": "4b35b26b3c8573390fa0ea26844310e4a7b9033de39963843f952fc491b06a84"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 蓋【ふた】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1204540; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "09c170eab24965aefaa3963c16e04df55b2601480714ed3c3e5e438f5b3ff300",
+        "approvalHash": "4b35b26b3c8573390fa0ea26844310e4a7b9033de39963843f952fc491b06a84"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:futsuu-stop",
+      "revisionId": "036-add-futsuu-stop",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "不通",
+        "reading": "ふつう",
+        "romaji": "futsuu",
+        "meaning": "Unterbrechung (Verkehr, Verbindung)",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Verkehr oder Verbindung ist unterbrochen: 大雪で電車が不通になる. Gleich klingend: 普通 (normal).",
+        "examples": [
+          {
+            "japanese": "台風の影響で、電車が不通になっている。",
+            "romaji": "Taifuu no eikyou de, densha ga futsuu ni natte iru.",
+            "german": "Wegen des Taifuns ist der Zugverkehr unterbrochen."
+          },
+          {
+            "japanese": "地震のあと、電話がしばらく不通だった。",
+            "romaji": "Jishin no ato, denwa ga shibaraku futsuu datta.",
+            "german": "Nach dem Erdbeben waren die Telefonleitungen eine Weile unterbrochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234051287",
+            "patterns": [
+              0
+            ],
+            "finding": "不通 / フツウ; 名詞/普通名詞/一般/*; *; *; lemma 不通; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "不通",
+              "reading": "ふつう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "不通 as \"Unterbrechung (Verkehr, Verbindung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 不通【ふつう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1493860; spelling=不通; reading=ふつう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1493860 不通/ふつう sense(s) 1 support \"Unterbrechung (Verkehr, Verbindung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1493860",
+            "spelling": "不通",
+            "reading": "ふつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suspension",
+                  "interruption",
+                  "stoppage",
+                  "tie-up",
+                  "cessation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "不通|ふつう",
+          "referenceIndex": 0,
+          "referenceHash": "cda50768f9565b8fd45b10691b4174b83e8e471ca49e1259cff582039ba47e73"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Unterbrechung (Verkehr, Verbindung)\" matches JMdict 1493860 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Train service suspended.",
+          "Phone lines down."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1493860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@234051287 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234051287",
+            "patterns": [
+              0
+            ],
+            "finding": "不通 / フツウ; 名詞/普通名詞/一般/*; *; *; lemma 不通; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "不通",
+              "reading": "ふつう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "不通 as \"Unterbrechung (Verkehr, Verbindung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 不通【ふつう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1493860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5c7c705a211777220f8c894a11a51c4682f60bce9bc299e9d93317c555bf9f7d",
+        "approvalHash": "644a4436786f3afc2dde95326bcd7967940c826449bf2b335d48bd5f7c3f78e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 不通【ふつう】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1493860; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "5c7c705a211777220f8c894a11a51c4682f60bce9bc299e9d93317c555bf9f7d",
+        "approvalHash": "644a4436786f3afc2dde95326bcd7967940c826449bf2b335d48bd5f7c3f78e0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:butsukeru",
+      "revisionId": "036-add-butsukeru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぶつける",
+        "reading": "ぶつける",
+        "romaji": "butsukeru",
+        "meaning": "anstoßen, (an)stoßen gegen; auslassen (Gefühle)",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Transitiv zu ぶつかる: 頭をぶつける (sich den Kopf stoßen), 車をぶつける; übertragen 怒りをぶつける (seinen Ärger auslassen). Kanji 打付ける selten.",
+        "examples": [
+          {
+            "japanese": "棚の角に頭をぶつけてしまった。",
+            "romaji": "Tana no kado ni atama o butsukete shimatta.",
+            "german": "Ich habe mir den Kopf an der Regalecke gestoßen."
+          },
+          {
+            "japanese": "仕事の不満を家族にぶつけるのはよくない。",
+            "romaji": "Shigoto no fuman o kazoku ni butsukeru no wa yokunai.",
+            "german": "Es ist nicht gut, den Frust über die Arbeit an der Familie auszulassen."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "ぶつける",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ぶつける",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239528486",
+            "patterns": [
+              0
+            ],
+            "finding": "ぶつける / ブツケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma ぶつける; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶつける",
+              "reading": "ぶつける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "ぶつける as \"anstoßen, (an)stoßen gegen; auslassen (Gefühle)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1 and Nihongo Master N2 (打付ける). Editorial N2.",
+      "rationale": "Add ぶつける【ぶつける】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2742080; spelling=ぶつける; reading=ぶつける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2742080 ぶつける/ぶつける sense(s) 1,2,3 support \"anstoßen, (an)stoßen gegen; auslassen (Gefühle)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2742080",
+            "spelling": "ぶつける",
+            "reading": "ぶつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to hit (e.g. one's head)",
+                  "to strike",
+                  "to knock",
+                  "to run (into)",
+                  "to crash (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to throw (at)",
+                  "to fling (at)",
+                  "to hurl (at)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to vent (e.g. one's anger)",
+                  "to express (one's feelings)",
+                  "to throw (a question at someone)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぶつける|ぶつける",
+          "referenceIndex": 0,
+          "referenceHash": "aed2906f5e6ad98e2ad5cdbbd7df869fcaeb9937719431ac95940249dd9ab0f5"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"anstoßen, (an)stoßen gegen; auslassen (Gefühle)\" matches JMdict 2742080 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bumping one’s head.",
+          "Venting frustration."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2742080; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading ぶつける; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, tanos N1 and Nihongo Master N2 (打付ける). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@239528486 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239528486",
+            "patterns": [
+              0
+            ],
+            "finding": "ぶつける / ブツケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma ぶつける; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぶつける",
+              "reading": "ぶつける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "ぶつける as \"anstoßen, (an)stoßen gegen; auslassen (Gefühle)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ぶつける【ぶつける】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2742080 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a87e54bb543386381acba278882458b0729a8ff990726b557fa712620b4f03c6",
+        "approvalHash": "4a7b5763e9a2b038e620cfac5b29a2233dd1d7193ca57bf6b0766885dc135914"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Merge ぶつける/打付ける correct (JMdict 2742080). Examples (physical, venting) distinct and natural.",
+        "contentHash": "a87e54bb543386381acba278882458b0729a8ff990726b557fa712620b4f03c6",
+        "approvalHash": "4a7b5763e9a2b038e620cfac5b29a2233dd1d7193ca57bf6b0766885dc135914"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:funabin",
+      "revisionId": "036-add-funabin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "船便",
+        "reading": "ふなびん",
+        "romaji": "funabin",
+        "meaning": "Seepost, Versand per Schiff",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Versand mit dem Schiff, billiger aber langsamer als 航空便 (Luftpost).",
+        "examples": [
+          {
+            "japanese": "本は重いので、船便で送った。",
+            "romaji": "Hon wa omoi node, funabin de okutta.",
+            "german": "Die Bücher waren schwer, deshalb habe ich sie per Seepost geschickt."
+          },
+          {
+            "japanese": "船便だと、届くまで一か月ほどかかる。",
+            "romaji": "Funabin da to, todoku made ikkagetsu hodo kakaru.",
+            "german": "Per Schiff dauert es etwa einen Monat, bis es ankommt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234308506",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "船便 / フナビン; 名詞/普通名詞/一般/*; *; *; lemma 船便; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "船便",
+              "reading": "ふなびん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "船便 as \"Seepost, Versand per Schiff\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 船便【ふなびん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392100; spelling=船便; reading=ふなびん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1392100 船便/ふなびん sense(s) 1 support \"Seepost, Versand per Schiff\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1392100",
+            "spelling": "船便",
+            "reading": "ふなびん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "surface mail (by ship)",
+                  "sea mail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "船便|ふなびん",
+          "referenceIndex": 0,
+          "referenceHash": "9dbeb6c6a3add0b8c4e2a56faabb85f631088668d7212f6780c1e3174468dab4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Seepost, Versand per Schiff\" matches JMdict 1392100 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sending heavy books.",
+          "Delivery time."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1392100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@234308506 attest 0,2; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234308506",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "船便 / フナビン; 名詞/普通名詞/一般/*; *; *; lemma 船便; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "船便",
+              "reading": "ふなびん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "船便 as \"Seepost, Versand per Schiff\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 船便【ふなびん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1392100 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f924afe961bdc3d118c55544372937dea266db890c1ed06ca525977dc26742ae",
+        "approvalHash": "4d9eb38557446b7e8864d3a3fd316ce9999c2f2639e83d9c2a9e6c119724ff19"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 船便【ふなびん】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1392100; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "f924afe961bdc3d118c55544372937dea266db890c1ed06ca525977dc26742ae",
+        "approvalHash": "4d9eb38557446b7e8864d3a3fd316ce9999c2f2639e83d9c2a9e6c119724ff19"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:fubo",
+      "revisionId": "036-add-fubo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "父母",
+        "reading": "ふぼ",
+        "romaji": "fubo",
+        "meaning": "Eltern, Vater und Mutter",
+        "type": "Nomen",
+        "category": "Familie",
+        "level": "N2",
+        "notes": "Formelles Wort für die Eltern, z. B. in Schulen: 父母会 (Elternversammlung). Alltäglich: 両親, 親.",
+        "examples": [
+          {
+            "japanese": "学校で父母会が開かれた。",
+            "romaji": "Gakkou de fubokai ga hirakareta.",
+            "german": "In der Schule fand eine Elternversammlung statt."
+          },
+          {
+            "japanese": "申込書に父母の名前を書いてください。",
+            "romaji": "Moushikomisho ni fubo no namae o kaite kudasai.",
+            "german": "Tragen Sie bitte die Namen der Eltern ins Formular ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234382969",
+            "patterns": [
+              1
+            ],
+            "finding": "父母 / フボ; 名詞/普通名詞/一般/*; *; *; lemma 父母; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "父母",
+              "reading": "ふぼ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "父母 as \"Eltern, Vater und Mutter\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 父母【ふぼ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1497690; spelling=父母; reading=ふぼ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1497690 父母/ふぼ sense(s) 1 support \"Eltern, Vater und Mutter\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1497690",
+            "spelling": "父母",
+            "reading": "ふぼ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "father and mother",
+                  "parents"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "父母|ふぼ",
+          "referenceIndex": 0,
+          "referenceHash": "61a3fd628d9059063b50a8fe41263d3f2f8b2c23db9d37179d717f90800e39b0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Eltern, Vater und Mutter\" matches JMdict 1497690 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Parents’ meeting.",
+          "Filling in a form."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1497690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@234382969 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234382969",
+            "patterns": [
+              1
+            ],
+            "finding": "父母 / フボ; 名詞/普通名詞/一般/*; *; *; lemma 父母; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "父母",
+              "reading": "ふぼ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "父母 as \"Eltern, Vater und Mutter\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 父母【ふぼ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1497690 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2b0951d82a9c777695435063aef5249035ea5bfd86e6a17aeec10f91b9914ff0",
+        "approvalHash": "14a0f9efb52b0986b1fdcce7488a131438c759e1f35dbd1d2f049e2dd2122317"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 父母【ふぼ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1497690; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "2b0951d82a9c777695435063aef5249035ea5bfd86e6a17aeec10f91b9914ff0",
+        "approvalHash": "14a0f9efb52b0986b1fdcce7488a131438c759e1f35dbd1d2f049e2dd2122317"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:fumoto",
+      "revisionId": "036-add-fumoto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "麓",
+        "reading": "ふもと",
+        "romaji": "fumoto",
+        "meaning": "Fuß (eines Berges)",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N2",
+        "notes": "Unterer Teil eines Berges: 山の麓の村. Gegenteil: 頂上 (Gipfel). Oft in Kana.",
+        "examples": [
+          {
+            "japanese": "山の麓に小さな村がある。",
+            "romaji": "Yama no fumoto ni chiisa na mura ga aru.",
+            "german": "Am Fuß des Berges liegt ein kleines Dorf."
+          },
+          {
+            "japanese": "麓から頂上まで三時間かかった。",
+            "romaji": "Fumoto kara choujou made sanjikan kakatta.",
+            "german": "Vom Fuß bis zum Gipfel brauchten wir drei Stunden."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235618249",
+            "patterns": [
+              3
+            ],
+            "finding": "麓 / フモト; 名詞/普通名詞/一般/*; *; *; lemma 麓; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "麓",
+              "reading": "ふもと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "麓 as \"Fuß (eines Berges)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 麓【ふもと】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611440; spelling=麓; reading=ふもと; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1611440 麓/ふもと sense(s) 1 support \"Fuß (eines Berges)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1611440",
+            "spelling": "麓",
+            "reading": "ふもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "foot (of a mountain or hill)",
+                  "bottom",
+                  "base"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "麓|ふもと",
+          "referenceIndex": 0,
+          "referenceHash": "0baff6bfd4fcc12334780adac49952b61ea199d54d70bb731b220e8351e6091d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Fuß (eines Berges)\" matches JMdict 1611440 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Village at the foot.",
+          "Hiking time."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1611440; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@235618249 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235618249",
+            "patterns": [
+              3
+            ],
+            "finding": "麓 / フモト; 名詞/普通名詞/一般/*; *; *; lemma 麓; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "麓",
+              "reading": "ふもと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "麓 as \"Fuß (eines Berges)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 麓【ふもと】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1611440 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3e8841e003e0fe0b488301e095355e211d45b76e35db70ba21a0e6c858bc2a0e",
+        "approvalHash": "4bdb2e48768714f41fbb69a685402c90b54cbcbab8da1b553f8c3344c8586bf9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 麓【ふもと】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1611440; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "3e8841e003e0fe0b488301e095355e211d45b76e35db70ba21a0e6c858bc2a0e",
+        "approvalHash": "4bdb2e48768714f41fbb69a685402c90b54cbcbab8da1b553f8c3344c8586bf9"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:burausu",
+      "revisionId": "036-add-burausu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ブラウス",
+        "reading": "ブラウス",
+        "romaji": "burausu",
+        "meaning": "Bluse",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Damenoberteil; ワイシャツ ist das Herrenhemd.",
+        "examples": [
+          {
+            "japanese": "白いブラウスに紺のスカートを合わせた。",
+            "romaji": "Shiroi burausu ni kon no sukaato o awaseta.",
+            "german": "Ich habe zu einer weißen Bluse einen dunkelblauen Rock getragen."
+          },
+          {
+            "japanese": "このブラウスはアイロンがいらない。",
+            "romaji": "Kono burausu wa airon ga iranai.",
+            "german": "Diese Bluse muss nicht gebügelt werden."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239629295",
+            "patterns": [
+              2
+            ],
+            "finding": "ブラウス / ブラウス; 名詞/普通名詞/一般/*; *; *; lemma ブラウス-blouse; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブラウス",
+              "reading": "ブラウス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブラウス as \"Bluse\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ブラウス【ブラウス】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1113650; spelling=ブラウス; reading=ブラウス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1113650 ブラウス/ブラウス sense(s) 1 support \"Bluse\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1113650",
+            "spelling": "ブラウス",
+            "reading": "ブラウス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぶらうす|ぶらうす",
+          "referenceIndex": 0,
+          "referenceHash": "77b89a8461f4713d0c54e15863f712ce36e0b7dce92f03f5bb0b068233a9a897"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Bluse\" matches JMdict 1113650 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Outfit.",
+          "Easy-care clothing."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1113650; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@239629295 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239629295",
+            "patterns": [
+              2
+            ],
+            "finding": "ブラウス / ブラウス; 名詞/普通名詞/一般/*; *; *; lemma ブラウス-blouse; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブラウス",
+              "reading": "ブラウス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブラウス as \"Bluse\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ブラウス【ブラウス】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1113650 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d42a070b693097e5d9a32863787bd403783c8a893d4a90b613e3abf9f1443dce",
+        "approvalHash": "90625abfd8aed8f33f9b1c144026caaac6f2c407cb29aaa0a1835659ed20b50d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). ブラウス【ブラウス】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1113650; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "d42a070b693097e5d9a32863787bd403783c8a893d4a90b613e3abf9f1443dce",
+        "approvalHash": "90625abfd8aed8f33f9b1c144026caaac6f2c407cb29aaa0a1835659ed20b50d"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "塞がる|ふさがる",
+      "referenceIndex": 0,
+      "referenceHash": "9eab64e493ff4478891ab6326f0cc734f2f0d3b706edfb8160a14b9635107c1e",
+      "revisionId": "036-candidate-fusagaru-eb3a7422-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fusagaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fusagaru": "9dd7f23c214510cccd7135939ff8bf3101d6ce9901516dabe478d32f1a1865a6"
+      },
+      "reason": "Reference 塞がる/ふさがる (tanos N2) is the same lexeme as the new entry 塞がる【ふさがる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=75",
+          "finding": "tanos lists 塞がる/ふさがる at N2 (gloss: to be plugged up,to be shut up)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602570; spelling=塞がる; reading=ふさがる; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1602570 as the reference form.",
+          "selected": {
+            "sequence": "1602570",
+            "spelling": "塞がる",
+            "reading": "ふさがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be closed",
+                  "to be blocked",
+                  "to be healed (e.g. wound)",
+                  "to be shut up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be clogged",
+                  "to be plugged up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be occupied",
+                  "to be taken (e.g. accommodation)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 塞がる|ふさがる#0 is the same lexeme as vocab-n2:correction:fusagaru; target hash bound to the assembled addition.",
+        "contentHash": "1ffc27811904eed762e1f1698e206bf6bc76f91346e532859fdc5b323479d1a9",
+        "approvalHash": "1ffc27811904eed762e1f1698e206bf6bc76f91346e532859fdc5b323479d1a9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 塞がる|ふさがる#0 is the same lexeme as vocab-n2:correction:fusagaru (tanos lists 塞がる/ふさがる at N2 (gloss: to be plugged up,to be shut up).).",
+        "contentHash": "1ffc27811904eed762e1f1698e206bf6bc76f91346e532859fdc5b323479d1a9",
+        "approvalHash": "1ffc27811904eed762e1f1698e206bf6bc76f91346e532859fdc5b323479d1a9"
+      }
+    },
+    {
+      "key": "塞がる|ふさがる",
+      "referenceIndex": 1,
+      "referenceHash": "51a25a2cae41d58a5866fc2475305a76cfa821b519d1ca2c6f01b1cb435f27b6",
+      "revisionId": "036-candidate-fusagaru-eb3a7422-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fusagaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fusagaru": "9dd7f23c214510cccd7135939ff8bf3101d6ce9901516dabe478d32f1a1865a6"
+      },
+      "reason": "Reference 塞がる/ふさがる (master N2) is the same lexeme as the new entry 塞がる【ふさがる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 塞がる/ふさがる at N2 (gloss: to be closed; to be blocked; to be healed (e.g. wound))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602570; spelling=塞がる; reading=ふさがる; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1602570 as the reference form.",
+          "selected": {
+            "sequence": "1602570",
+            "spelling": "塞がる",
+            "reading": "ふさがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be closed",
+                  "to be blocked",
+                  "to be healed (e.g. wound)",
+                  "to be shut up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be clogged",
+                  "to be plugged up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be occupied",
+                  "to be taken (e.g. accommodation)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 塞がる|ふさがる#1 is the same lexeme as vocab-n2:correction:fusagaru; target hash bound to the assembled addition.",
+        "contentHash": "53f36493f2712207099345fb1b341467124d7891aa22b8be15186a98a2edfd15",
+        "approvalHash": "53f36493f2712207099345fb1b341467124d7891aa22b8be15186a98a2edfd15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 塞がる|ふさがる#1 is the same lexeme as vocab-n2:correction:fusagaru (Nihongo Master lists 塞がる/ふさがる at N2 (gloss: to be closed; to be blocked; to be healed (e.g. wound)).).",
+        "contentHash": "53f36493f2712207099345fb1b341467124d7891aa22b8be15186a98a2edfd15",
+        "approvalHash": "53f36493f2712207099345fb1b341467124d7891aa22b8be15186a98a2edfd15"
+      }
+    },
+    {
+      "key": "ふざける|ふざける",
+      "referenceIndex": 0,
+      "referenceHash": "99eebd655c4acc72fe2ca125142c405e79e6cd4ef4b3f8f6e615cbcb6349ef79",
+      "revisionId": "036-candidate-fuzakeru-fe3faea6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fuzakeru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fuzakeru": "ebb36354bffb80557e6eadcd53453e86f58476a1de9d5ad0cf40b4c147130996"
+      },
+      "reason": "Reference ふざける/ふざける (tanos N2) is the same lexeme as the new entry ふざける【ふざける】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=75",
+          "finding": "tanos lists ふざける/ふざける at N2 (gloss: to romp,to gambol,to frolic,to joke)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1566450; spelling=ふざける; reading=ふざける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1566450 as the reference form.",
+          "selected": {
+            "sequence": "1566450",
+            "spelling": "ふざける",
+            "reading": "ふざける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to joke",
+                  "to jest",
+                  "to kid",
+                  "to josh"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to make fun of",
+                  "to laugh at",
+                  "to play a prank"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to romp",
+                  "to gambol",
+                  "to frolic",
+                  "to frisk",
+                  "to mess around",
+                  "to fool around",
+                  "to screw around"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ふざける|ふざける#0 is the same lexeme as vocab-n2:correction:fuzakeru; target hash bound to the assembled addition.",
+        "contentHash": "d85da6a4fe06eabbf4aadcc82115a0efb3e2b9b338eb36aa4608828bc997eb3f",
+        "approvalHash": "d85da6a4fe06eabbf4aadcc82115a0efb3e2b9b338eb36aa4608828bc997eb3f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ふざける|ふざける#0 is the same lexeme as vocab-n2:correction:fuzakeru (tanos lists ふざける/ふざける at N2 (gloss: to romp,to gambol,to frolic,to joke).).",
+        "contentHash": "d85da6a4fe06eabbf4aadcc82115a0efb3e2b9b338eb36aa4608828bc997eb3f",
+        "approvalHash": "d85da6a4fe06eabbf4aadcc82115a0efb3e2b9b338eb36aa4608828bc997eb3f"
+      }
+    },
+    {
+      "key": "巫山戯る|ふざける",
+      "referenceIndex": 0,
+      "referenceHash": "ce4a3c83e91aad7d02b260dd8947701e6448675fb8f91501eff23a12bb77bdf7",
+      "revisionId": "036-candidate-fuzakeru-81c08d50-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fuzakeru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fuzakeru": "ebb36354bffb80557e6eadcd53453e86f58476a1de9d5ad0cf40b4c147130996"
+      },
+      "reason": "Reference 巫山戯る/ふざける (master N2) is the same lexeme as the new entry ふざける【ふざける】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 巫山戯る/ふざける at N2 (gloss: to romp; to gambol; to frolic)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1566450; spelling=ふざける; reading=ふざける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1566450 as the reference form.",
+          "selected": {
+            "sequence": "1566450",
+            "spelling": "ふざける",
+            "reading": "ふざける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to joke",
+                  "to jest",
+                  "to kid",
+                  "to josh"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to make fun of",
+                  "to laugh at",
+                  "to play a prank"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to romp",
+                  "to gambol",
+                  "to frolic",
+                  "to frisk",
+                  "to mess around",
+                  "to fool around",
+                  "to screw around"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 巫山戯る|ふざける#0 is the same lexeme as vocab-n2:correction:fuzakeru; target hash bound to the assembled addition.",
+        "contentHash": "80a0e01e94fd3431b6087cd52d7bd5dd69c71cbef22cf885d22de3792aa5db94",
+        "approvalHash": "80a0e01e94fd3431b6087cd52d7bd5dd69c71cbef22cf885d22de3792aa5db94"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 巫山戯る|ふざける#0 is the same lexeme as vocab-n2:correction:fuzakeru (Nihongo Master lists 巫山戯る/ふざける at N2 (gloss: to romp; to gambol; to frolic).). Spelling-variant merge verified.",
+        "contentHash": "80a0e01e94fd3431b6087cd52d7bd5dd69c71cbef22cf885d22de3792aa5db94",
+        "approvalHash": "80a0e01e94fd3431b6087cd52d7bd5dd69c71cbef22cf885d22de3792aa5db94"
+      }
+    },
+    {
+      "key": "付属|ふぞく",
+      "referenceIndex": 0,
+      "referenceHash": "f252ba653f1171924cb69e47bae740c15905187c8f1c91ef891350566e09e172",
+      "revisionId": "036-candidate-fuzoku-64e2b3fe-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fuzoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fuzoku": "53a8bdb95eec2aa08241470087050d5219e1db507bbe22c1f955cdbc87538f9d"
+      },
+      "reason": "Reference 付属/ふぞく (tanos N1) is the same lexeme as the new entry 付属【ふぞく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=143",
+          "finding": "tanos lists 付属/ふぞく at N1 (gloss: associated, subordinate, incidental, dependent,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602700; spelling=付属; reading=ふぞく; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1602700 as the reference form.",
+          "selected": {
+            "sequence": "1602700",
+            "spelling": "付属",
+            "reading": "ふぞく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being attached (to)",
+                  "being affiliated (to)",
+                  "belonging (to)",
+                  "going with"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "attached school",
+                  "affiliated school"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 付属|ふぞく#0 is the same lexeme as vocab-n2:correction:fuzoku; target hash bound to the assembled addition.",
+        "contentHash": "0ae38bc5678ffe54c3b9f179c4a6ed2c92ec19b44f5d86bb42a78be68aaf44b5",
+        "approvalHash": "0ae38bc5678ffe54c3b9f179c4a6ed2c92ec19b44f5d86bb42a78be68aaf44b5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 付属|ふぞく#0 is the same lexeme as vocab-n2:correction:fuzoku (tanos lists 付属/ふぞく at N1 (gloss: associated, subordinate, incidental, dependent,).).",
+        "contentHash": "0ae38bc5678ffe54c3b9f179c4a6ed2c92ec19b44f5d86bb42a78be68aaf44b5",
+        "approvalHash": "0ae38bc5678ffe54c3b9f179c4a6ed2c92ec19b44f5d86bb42a78be68aaf44b5"
+      }
+    },
+    {
+      "key": "付属|ふぞく",
+      "referenceIndex": 1,
+      "referenceHash": "8751f51d7f659bb0b71bc32a11f7eea6bbfb1e67ecf9fcd05927568068a6269c",
+      "revisionId": "036-candidate-fuzoku-64e2b3fe-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fuzoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fuzoku": "53a8bdb95eec2aa08241470087050d5219e1db507bbe22c1f955cdbc87538f9d"
+      },
+      "reason": "Reference 付属/ふぞく (master N2) is the same lexeme as the new entry 付属【ふぞく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 付属/ふぞく at N2 (gloss: attached; belonging (to); included)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602700; spelling=付属; reading=ふぞく; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1602700 as the reference form.",
+          "selected": {
+            "sequence": "1602700",
+            "spelling": "付属",
+            "reading": "ふぞく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being attached (to)",
+                  "being affiliated (to)",
+                  "belonging (to)",
+                  "going with"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "attached school",
+                  "affiliated school"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 付属|ふぞく#1 is the same lexeme as vocab-n2:correction:fuzoku; target hash bound to the assembled addition.",
+        "contentHash": "34ae48e6993a5a541e67be943c88d2e70ed0228e45d7f3d5c038d5f365553711",
+        "approvalHash": "34ae48e6993a5a541e67be943c88d2e70ed0228e45d7f3d5c038d5f365553711"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 付属|ふぞく#1 is the same lexeme as vocab-n2:correction:fuzoku (Nihongo Master lists 付属/ふぞく at N2 (gloss: attached; belonging (to); included).).",
+        "contentHash": "34ae48e6993a5a541e67be943c88d2e70ed0228e45d7f3d5c038d5f365553711",
+        "approvalHash": "34ae48e6993a5a541e67be943c88d2e70ed0228e45d7f3d5c038d5f365553711"
+      }
+    },
+    {
+      "key": "附属|ふぞく",
+      "referenceIndex": 0,
+      "referenceHash": "356b297d82d80413a36c2cbbd25bba1fbc918a1617f3d7025e049a44f1bcf474",
+      "revisionId": "036-candidate-fuzoku-e0e4260f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fuzoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fuzoku": "53a8bdb95eec2aa08241470087050d5219e1db507bbe22c1f955cdbc87538f9d"
+      },
+      "reason": "Reference 附属/ふぞく (tanos N2) is the same lexeme as the new entry 付属【ふぞく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 附属/ふぞく at N2 (gloss: attached,belonging,affiliated)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1602700; spelling=付属; reading=ふぞく; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1602700 as the reference form.",
+          "selected": {
+            "sequence": "1602700",
+            "spelling": "付属",
+            "reading": "ふぞく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "being attached (to)",
+                  "being affiliated (to)",
+                  "belonging (to)",
+                  "going with"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "attached school",
+                  "affiliated school"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 附属|ふぞく#0 is the same lexeme as vocab-n2:correction:fuzoku; target hash bound to the assembled addition.",
+        "contentHash": "5590a7d7aea40a2cf633c75772f8f0e2a83a38363a0a5ed4ee026b7cf11e0062",
+        "approvalHash": "5590a7d7aea40a2cf633c75772f8f0e2a83a38363a0a5ed4ee026b7cf11e0062"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 附属|ふぞく#0 is the same lexeme as vocab-n2:correction:fuzoku (tanos lists 附属/ふぞく at N2 (gloss: attached,belonging,affiliated).). Spelling-variant merge verified.",
+        "contentHash": "5590a7d7aea40a2cf633c75772f8f0e2a83a38363a0a5ed4ee026b7cf11e0062",
+        "approvalHash": "5590a7d7aea40a2cf633c75772f8f0e2a83a38363a0a5ed4ee026b7cf11e0062"
+      }
+    },
+    {
+      "key": "蓋|ふた",
+      "referenceIndex": 0,
+      "referenceHash": "5b76e9226397e35d5087f15cd8a870eed39f37b1dc4acbeeef72ad8d67cd7796",
+      "revisionId": "036-candidate-futa-73639180-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:futa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:futa": "09c170eab24965aefaa3963c16e04df55b2601480714ed3c3e5e438f5b3ff300"
+      },
+      "reason": "Reference 蓋/ふた (tanos N2) is the same lexeme as the new entry 蓋【ふた】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 蓋/ふた at N2 (gloss: cover,lid,cap)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1204540; spelling=蓋; reading=ふた; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1204540 as the reference form.",
+          "selected": {
+            "sequence": "1204540",
+            "spelling": "蓋",
+            "reading": "ふた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cover",
+                  "lid",
+                  "cap"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 蓋|ふた#0 is the same lexeme as vocab-n2:correction:futa; target hash bound to the assembled addition.",
+        "contentHash": "298def05b53485e0d4b787e3ebae0f1446dc776fdb763a055d17584232319cec",
+        "approvalHash": "298def05b53485e0d4b787e3ebae0f1446dc776fdb763a055d17584232319cec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 蓋|ふた#0 is the same lexeme as vocab-n2:correction:futa (tanos lists 蓋/ふた at N2 (gloss: cover,lid,cap).).",
+        "contentHash": "298def05b53485e0d4b787e3ebae0f1446dc776fdb763a055d17584232319cec",
+        "approvalHash": "298def05b53485e0d4b787e3ebae0f1446dc776fdb763a055d17584232319cec"
+      }
+    },
+    {
+      "key": "蓋|ふた",
+      "referenceIndex": 1,
+      "referenceHash": "e036971133456915df0bd8d8af6497303376ee9cb0e511bec76c34a35f3362c5",
+      "revisionId": "036-candidate-futa-73639180-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:futa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:futa": "09c170eab24965aefaa3963c16e04df55b2601480714ed3c3e5e438f5b3ff300"
+      },
+      "reason": "Reference 蓋/ふた (master N2) is the same lexeme as the new entry 蓋【ふた】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 蓋/ふた at N2 (gloss: cover; lid; cap)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1204540; spelling=蓋; reading=ふた; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1204540 as the reference form.",
+          "selected": {
+            "sequence": "1204540",
+            "spelling": "蓋",
+            "reading": "ふた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cover",
+                  "lid",
+                  "cap"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 蓋|ふた#1 is the same lexeme as vocab-n2:correction:futa; target hash bound to the assembled addition.",
+        "contentHash": "28263e7d9b8b82ef368b1a66b2b50a475580356d52a4075839e50a33443d838a",
+        "approvalHash": "28263e7d9b8b82ef368b1a66b2b50a475580356d52a4075839e50a33443d838a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 蓋|ふた#1 is the same lexeme as vocab-n2:correction:futa (Nihongo Master lists 蓋/ふた at N2 (gloss: cover; lid; cap).).",
+        "contentHash": "28263e7d9b8b82ef368b1a66b2b50a475580356d52a4075839e50a33443d838a",
+        "approvalHash": "28263e7d9b8b82ef368b1a66b2b50a475580356d52a4075839e50a33443d838a"
+      }
+    },
+    {
+      "key": "不通|ふつう",
+      "referenceIndex": 0,
+      "referenceHash": "cda50768f9565b8fd45b10691b4174b83e8e471ca49e1259cff582039ba47e73",
+      "revisionId": "036-candidate-futsuu-stop-f17a6faf-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:futsuu-stop"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:futsuu-stop": "5c7c705a211777220f8c894a11a51c4682f60bce9bc299e9d93317c555bf9f7d"
+      },
+      "reason": "Reference 不通/ふつう (tanos N2) is the same lexeme as the new entry 不通【ふつう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 不通/ふつう at N2 (gloss: suspension,interruption,stoppage,tie-up,cessation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1493860; spelling=不通; reading=ふつう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1493860 as the reference form.",
+          "selected": {
+            "sequence": "1493860",
+            "spelling": "不通",
+            "reading": "ふつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suspension",
+                  "interruption",
+                  "stoppage",
+                  "tie-up",
+                  "cessation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 不通|ふつう#0 is the same lexeme as vocab-n2:correction:futsuu-stop; target hash bound to the assembled addition.",
+        "contentHash": "13382999820704925c3f172ef307a5b21eb861d54ab840163079209478372827",
+        "approvalHash": "13382999820704925c3f172ef307a5b21eb861d54ab840163079209478372827"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 不通|ふつう#0 is the same lexeme as vocab-n2:correction:futsuu-stop (tanos lists 不通/ふつう at N2 (gloss: suspension,interruption,stoppage,tie-up,cessation).).",
+        "contentHash": "13382999820704925c3f172ef307a5b21eb861d54ab840163079209478372827",
+        "approvalHash": "13382999820704925c3f172ef307a5b21eb861d54ab840163079209478372827"
+      }
+    },
+    {
+      "key": "不通|ふつう",
+      "referenceIndex": 1,
+      "referenceHash": "d5dc86f82db91faf6565ed0d5619465909c128cd94ab0cd816f9b57d0cd5a02b",
+      "revisionId": "036-candidate-futsuu-stop-f17a6faf-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:futsuu-stop"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:futsuu-stop": "5c7c705a211777220f8c894a11a51c4682f60bce9bc299e9d93317c555bf9f7d"
+      },
+      "reason": "Reference 不通/ふつう (master N2) is the same lexeme as the new entry 不通【ふつう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 不通/ふつう at N2 (gloss: suspension; interruption; stoppage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1493860; spelling=不通; reading=ふつう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1493860 as the reference form.",
+          "selected": {
+            "sequence": "1493860",
+            "spelling": "不通",
+            "reading": "ふつう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suspension",
+                  "interruption",
+                  "stoppage",
+                  "tie-up",
+                  "cessation"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 不通|ふつう#1 is the same lexeme as vocab-n2:correction:futsuu-stop; target hash bound to the assembled addition.",
+        "contentHash": "41af925690877b75d36c21cb21695e77fd0fd88830bbb9b6c11980a40af247c1",
+        "approvalHash": "41af925690877b75d36c21cb21695e77fd0fd88830bbb9b6c11980a40af247c1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 不通|ふつう#1 is the same lexeme as vocab-n2:correction:futsuu-stop (Nihongo Master lists 不通/ふつう at N2 (gloss: suspension; interruption; stoppage).).",
+        "contentHash": "41af925690877b75d36c21cb21695e77fd0fd88830bbb9b6c11980a40af247c1",
+        "approvalHash": "41af925690877b75d36c21cb21695e77fd0fd88830bbb9b6c11980a40af247c1"
+      }
+    },
+    {
+      "key": "ぶつける|ぶつける",
+      "referenceIndex": 0,
+      "referenceHash": "aed2906f5e6ad98e2ad5cdbbd7df869fcaeb9937719431ac95940249dd9ab0f5",
+      "revisionId": "036-candidate-butsukeru-55a003d4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:butsukeru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:butsukeru": "a87e54bb543386381acba278882458b0729a8ff990726b557fa712620b4f03c6"
+      },
+      "reason": "Reference ぶつける/ぶつける (tanos N2) is the same lexeme as the new entry ぶつける【ぶつける】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists ぶつける/ぶつける at N2 (gloss: to knock,to run into,to nail on,to strike hard,to hit and)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2742080; spelling=ぶつける; reading=ぶつける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2742080 as the reference form.",
+          "selected": {
+            "sequence": "2742080",
+            "spelling": "ぶつける",
+            "reading": "ぶつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to hit (e.g. one's head)",
+                  "to strike",
+                  "to knock",
+                  "to run (into)",
+                  "to crash (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to throw (at)",
+                  "to fling (at)",
+                  "to hurl (at)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to vent (e.g. one's anger)",
+                  "to express (one's feelings)",
+                  "to throw (a question at someone)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶつける|ぶつける#0 is the same lexeme as vocab-n2:correction:butsukeru; target hash bound to the assembled addition.",
+        "contentHash": "d62d3b163250ba8c0421589663fe9573a614d57eac8c90efa83d6c4746f5c5d0",
+        "approvalHash": "d62d3b163250ba8c0421589663fe9573a614d57eac8c90efa83d6c4746f5c5d0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶつける|ぶつける#0 is the same lexeme as vocab-n2:correction:butsukeru (tanos lists ぶつける/ぶつける at N2 (gloss: to knock,to run into,to nail on,to strike hard,to hit and).).",
+        "contentHash": "d62d3b163250ba8c0421589663fe9573a614d57eac8c90efa83d6c4746f5c5d0",
+        "approvalHash": "d62d3b163250ba8c0421589663fe9573a614d57eac8c90efa83d6c4746f5c5d0"
+      }
+    },
+    {
+      "key": "打付ける|ぶつける",
+      "referenceIndex": 0,
+      "referenceHash": "beceb7aefc75f86e55a4eaa209e6eb5b9f02ad1a508b674aeb665cae5608de37",
+      "revisionId": "036-candidate-butsukeru-4e22d48b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:butsukeru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:butsukeru": "a87e54bb543386381acba278882458b0729a8ff990726b557fa712620b4f03c6"
+      },
+      "reason": "Reference 打付ける/ぶつける (tanos N1) is the same lexeme as the new entry ぶつける【ぶつける】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=145",
+          "finding": "tanos lists 打付ける/ぶつける at N1 (gloss: to knock, to run into, to nail on, to strike hard,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2742080; spelling=ぶつける; reading=ぶつける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2742080 as the reference form.",
+          "selected": {
+            "sequence": "2742080",
+            "spelling": "ぶつける",
+            "reading": "ぶつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to hit (e.g. one's head)",
+                  "to strike",
+                  "to knock",
+                  "to run (into)",
+                  "to crash (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to throw (at)",
+                  "to fling (at)",
+                  "to hurl (at)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to vent (e.g. one's anger)",
+                  "to express (one's feelings)",
+                  "to throw (a question at someone)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 打付ける|ぶつける#0 is the same lexeme as vocab-n2:correction:butsukeru; target hash bound to the assembled addition.",
+        "contentHash": "a4996ee732ffeb2224f2732acc1d57d64450990578100657a989b5e4caccedc0",
+        "approvalHash": "a4996ee732ffeb2224f2732acc1d57d64450990578100657a989b5e4caccedc0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 打付ける|ぶつける#0 is the same lexeme as vocab-n2:correction:butsukeru (tanos lists 打付ける/ぶつける at N1 (gloss: to knock, to run into, to nail on, to strike hard,).). Spelling-variant merge verified.",
+        "contentHash": "a4996ee732ffeb2224f2732acc1d57d64450990578100657a989b5e4caccedc0",
+        "approvalHash": "a4996ee732ffeb2224f2732acc1d57d64450990578100657a989b5e4caccedc0"
+      }
+    },
+    {
+      "key": "打付ける|ぶつける",
+      "referenceIndex": 1,
+      "referenceHash": "5893679a8cadd7a859da47e6ef8552f4e490aada65d7bb84cc636db4b42c15ea",
+      "revisionId": "036-candidate-butsukeru-4e22d48b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:butsukeru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:butsukeru": "a87e54bb543386381acba278882458b0729a8ff990726b557fa712620b4f03c6"
+      },
+      "reason": "Reference 打付ける/ぶつける (master N2) is the same lexeme as the new entry ぶつける【ぶつける】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 打付ける/ぶつける at N2 (gloss: to knock; to run into; to nail on)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2742080; spelling=ぶつける; reading=ぶつける; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2742080 as the reference form.",
+          "selected": {
+            "sequence": "2742080",
+            "spelling": "ぶつける",
+            "reading": "ぶつける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to hit (e.g. one's head)",
+                  "to strike",
+                  "to knock",
+                  "to run (into)",
+                  "to crash (into)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to throw (at)",
+                  "to fling (at)",
+                  "to hurl (at)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to vent (e.g. one's anger)",
+                  "to express (one's feelings)",
+                  "to throw (a question at someone)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 打付ける|ぶつける#1 is the same lexeme as vocab-n2:correction:butsukeru; target hash bound to the assembled addition.",
+        "contentHash": "0b7091895d5fd42117e1c6a079d960e03c79be6b51894afdf23016faa4ec883c",
+        "approvalHash": "0b7091895d5fd42117e1c6a079d960e03c79be6b51894afdf23016faa4ec883c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 打付ける|ぶつける#1 is the same lexeme as vocab-n2:correction:butsukeru (Nihongo Master lists 打付ける/ぶつける at N2 (gloss: to knock; to run into; to nail on).). Spelling-variant merge verified.",
+        "contentHash": "0b7091895d5fd42117e1c6a079d960e03c79be6b51894afdf23016faa4ec883c",
+        "approvalHash": "0b7091895d5fd42117e1c6a079d960e03c79be6b51894afdf23016faa4ec883c"
+      }
+    },
+    {
+      "key": "船便|ふなびん",
+      "referenceIndex": 0,
+      "referenceHash": "9dbeb6c6a3add0b8c4e2a56faabb85f631088668d7212f6780c1e3174468dab4",
+      "revisionId": "036-candidate-funabin-7fcfe6c0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:funabin"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:funabin": "f924afe961bdc3d118c55544372937dea266db890c1ed06ca525977dc26742ae"
+      },
+      "reason": "Reference 船便/ふなびん (tanos N2) is the same lexeme as the new entry 船便【ふなびん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 船便/ふなびん at N2 (gloss: surface mail (ship))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392100; spelling=船便; reading=ふなびん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1392100 as the reference form.",
+          "selected": {
+            "sequence": "1392100",
+            "spelling": "船便",
+            "reading": "ふなびん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "surface mail (by ship)",
+                  "sea mail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 船便|ふなびん#0 is the same lexeme as vocab-n2:correction:funabin; target hash bound to the assembled addition.",
+        "contentHash": "626a6a5a70436ff29ef2e797649d8c855ca824379738efdf2a7e187c90046281",
+        "approvalHash": "626a6a5a70436ff29ef2e797649d8c855ca824379738efdf2a7e187c90046281"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 船便|ふなびん#0 is the same lexeme as vocab-n2:correction:funabin (tanos lists 船便/ふなびん at N2 (gloss: surface mail (ship)).).",
+        "contentHash": "626a6a5a70436ff29ef2e797649d8c855ca824379738efdf2a7e187c90046281",
+        "approvalHash": "626a6a5a70436ff29ef2e797649d8c855ca824379738efdf2a7e187c90046281"
+      }
+    },
+    {
+      "key": "船便|ふなびん",
+      "referenceIndex": 1,
+      "referenceHash": "55ce65c14e80d04e72f6fe877d133d869e3df78eb770c4e20e5f7f2921c33972",
+      "revisionId": "036-candidate-funabin-7fcfe6c0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:funabin"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:funabin": "f924afe961bdc3d118c55544372937dea266db890c1ed06ca525977dc26742ae"
+      },
+      "reason": "Reference 船便/ふなびん (master N2) is the same lexeme as the new entry 船便【ふなびん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 船便/ふなびん at N2 (gloss: surface mail (ship); courrier maritime; transport par bateau)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1392100; spelling=船便; reading=ふなびん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1392100 as the reference form.",
+          "selected": {
+            "sequence": "1392100",
+            "spelling": "船便",
+            "reading": "ふなびん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "surface mail (by ship)",
+                  "sea mail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 船便|ふなびん#1 is the same lexeme as vocab-n2:correction:funabin; target hash bound to the assembled addition.",
+        "contentHash": "e37ac8ae77422c1b028c001c607eb806b25050c11547dd05bdab80ab7606b900",
+        "approvalHash": "e37ac8ae77422c1b028c001c607eb806b25050c11547dd05bdab80ab7606b900"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 船便|ふなびん#1 is the same lexeme as vocab-n2:correction:funabin (Nihongo Master lists 船便/ふなびん at N2 (gloss: surface mail (ship); courrier maritime; transport par bateau).).",
+        "contentHash": "e37ac8ae77422c1b028c001c607eb806b25050c11547dd05bdab80ab7606b900",
+        "approvalHash": "e37ac8ae77422c1b028c001c607eb806b25050c11547dd05bdab80ab7606b900"
+      }
+    },
+    {
+      "key": "父母|ふぼ",
+      "referenceIndex": 0,
+      "referenceHash": "61a3fd628d9059063b50a8fe41263d3f2f8b2c23db9d37179d717f90800e39b0",
+      "revisionId": "036-candidate-fubo-866ea0ce-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fubo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fubo": "2b0951d82a9c777695435063aef5249035ea5bfd86e6a17aeec10f91b9914ff0"
+      },
+      "reason": "Reference 父母/ふぼ (tanos N2) is the same lexeme as the new entry 父母【ふぼ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 父母/ふぼ at N2 (gloss: father and mother,parents)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1497690; spelling=父母; reading=ふぼ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1497690 as the reference form.",
+          "selected": {
+            "sequence": "1497690",
+            "spelling": "父母",
+            "reading": "ふぼ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "father and mother",
+                  "parents"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 父母|ふぼ#0 is the same lexeme as vocab-n2:correction:fubo; target hash bound to the assembled addition.",
+        "contentHash": "7237fd3b25768f296d242e47efe615882bcca9ddb355a13ed26c0981aa4b4164",
+        "approvalHash": "7237fd3b25768f296d242e47efe615882bcca9ddb355a13ed26c0981aa4b4164"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 父母|ふぼ#0 is the same lexeme as vocab-n2:correction:fubo (tanos lists 父母/ふぼ at N2 (gloss: father and mother,parents).).",
+        "contentHash": "7237fd3b25768f296d242e47efe615882bcca9ddb355a13ed26c0981aa4b4164",
+        "approvalHash": "7237fd3b25768f296d242e47efe615882bcca9ddb355a13ed26c0981aa4b4164"
+      }
+    },
+    {
+      "key": "父母|ふぼ",
+      "referenceIndex": 1,
+      "referenceHash": "f868cb500741c9716d54b4f9a20b5b62a58262bd76dcfd14aecc2052b2bd5bad",
+      "revisionId": "036-candidate-fubo-866ea0ce-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fubo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fubo": "2b0951d82a9c777695435063aef5249035ea5bfd86e6a17aeec10f91b9914ff0"
+      },
+      "reason": "Reference 父母/ふぼ (sensei N2) is the same lexeme as the new entry 父母【ふぼ】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 父母/ふぼ at N2 (gloss: father and mother; parents)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1497690; spelling=父母; reading=ふぼ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1497690 as the reference form.",
+          "selected": {
+            "sequence": "1497690",
+            "spelling": "父母",
+            "reading": "ふぼ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "father and mother",
+                  "parents"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 父母|ふぼ#1 is the same lexeme as vocab-n2:correction:fubo; target hash bound to the assembled addition.",
+        "contentHash": "1adf280c0f227e1ec448568d522b200c22dc73ce9f3a4960b5165a1be799fb35",
+        "approvalHash": "1adf280c0f227e1ec448568d522b200c22dc73ce9f3a4960b5165a1be799fb35"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 父母|ふぼ#1 is the same lexeme as vocab-n2:correction:fubo (JLPT Sensei lists 父母/ふぼ at N2 (gloss: father and mother; parents).).",
+        "contentHash": "1adf280c0f227e1ec448568d522b200c22dc73ce9f3a4960b5165a1be799fb35",
+        "approvalHash": "1adf280c0f227e1ec448568d522b200c22dc73ce9f3a4960b5165a1be799fb35"
+      }
+    },
+    {
+      "key": "父母|ふぼ",
+      "referenceIndex": 2,
+      "referenceHash": "def6f13db2d71a8a6592659b8910df5cdd0570d075ebbbdc17b2874d4eaadc1e",
+      "revisionId": "036-candidate-fubo-866ea0ce-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fubo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fubo": "2b0951d82a9c777695435063aef5249035ea5bfd86e6a17aeec10f91b9914ff0"
+      },
+      "reason": "Reference 父母/ふぼ (master N2) is the same lexeme as the new entry 父母【ふぼ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 父母/ふぼ at N2 (gloss: father and mother; parents; père et mère)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1497690; spelling=父母; reading=ふぼ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1497690 as the reference form.",
+          "selected": {
+            "sequence": "1497690",
+            "spelling": "父母",
+            "reading": "ふぼ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "father and mother",
+                  "parents"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 父母|ふぼ#2 is the same lexeme as vocab-n2:correction:fubo; target hash bound to the assembled addition.",
+        "contentHash": "cb57d9f0ab57cc99ab837e1086890b25a81e376df65653a9cb4d7589b590b2ff",
+        "approvalHash": "cb57d9f0ab57cc99ab837e1086890b25a81e376df65653a9cb4d7589b590b2ff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 父母|ふぼ#2 is the same lexeme as vocab-n2:correction:fubo (Nihongo Master lists 父母/ふぼ at N2 (gloss: father and mother; parents; père et mère).).",
+        "contentHash": "cb57d9f0ab57cc99ab837e1086890b25a81e376df65653a9cb4d7589b590b2ff",
+        "approvalHash": "cb57d9f0ab57cc99ab837e1086890b25a81e376df65653a9cb4d7589b590b2ff"
+      }
+    },
+    {
+      "key": "麓|ふもと",
+      "referenceIndex": 0,
+      "referenceHash": "0baff6bfd4fcc12334780adac49952b61ea199d54d70bb731b220e8351e6091d",
+      "revisionId": "036-candidate-fumoto-8fb0b8f9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fumoto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fumoto": "3e8841e003e0fe0b488301e095355e211d45b76e35db70ba21a0e6c858bc2a0e"
+      },
+      "reason": "Reference 麓/ふもと (tanos N2) is the same lexeme as the new entry 麓【ふもと】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=76",
+          "finding": "tanos lists 麓/ふもと at N2 (gloss: the foot,the bottom,the base (of a mountain))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611440; spelling=麓; reading=ふもと; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611440 as the reference form.",
+          "selected": {
+            "sequence": "1611440",
+            "spelling": "麓",
+            "reading": "ふもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "foot (of a mountain or hill)",
+                  "bottom",
+                  "base"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 麓|ふもと#0 is the same lexeme as vocab-n2:correction:fumoto; target hash bound to the assembled addition.",
+        "contentHash": "897adf9b37ad68c5cd9fa1ac46d6b51bd1bffadf7e69d3e654268fc37c4bd0bf",
+        "approvalHash": "897adf9b37ad68c5cd9fa1ac46d6b51bd1bffadf7e69d3e654268fc37c4bd0bf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 麓|ふもと#0 is the same lexeme as vocab-n2:correction:fumoto (tanos lists 麓/ふもと at N2 (gloss: the foot,the bottom,the base (of a mountain)).).",
+        "contentHash": "897adf9b37ad68c5cd9fa1ac46d6b51bd1bffadf7e69d3e654268fc37c4bd0bf",
+        "approvalHash": "897adf9b37ad68c5cd9fa1ac46d6b51bd1bffadf7e69d3e654268fc37c4bd0bf"
+      }
+    },
+    {
+      "key": "麓|ふもと",
+      "referenceIndex": 1,
+      "referenceHash": "1f73c08fa6623de31b20dbfc68a6a9e6c0f46278600b18ce2d7895286b9115c2",
+      "revisionId": "036-candidate-fumoto-8fb0b8f9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:fumoto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:fumoto": "3e8841e003e0fe0b488301e095355e211d45b76e35db70ba21a0e6c858bc2a0e"
+      },
+      "reason": "Reference 麓/ふもと (master N2) is the same lexeme as the new entry 麓【ふもと】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 麓/ふもと at N2 (gloss: the foot; the bottom; the base (of a mountain))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611440; spelling=麓; reading=ふもと; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611440 as the reference form.",
+          "selected": {
+            "sequence": "1611440",
+            "spelling": "麓",
+            "reading": "ふもと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "foot (of a mountain or hill)",
+                  "bottom",
+                  "base"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 麓|ふもと#1 is the same lexeme as vocab-n2:correction:fumoto; target hash bound to the assembled addition.",
+        "contentHash": "29d143c2f0e19809120962c4f72222722f499bdbf1d8d31116d740785093c258",
+        "approvalHash": "29d143c2f0e19809120962c4f72222722f499bdbf1d8d31116d740785093c258"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 麓|ふもと#1 is the same lexeme as vocab-n2:correction:fumoto (Nihongo Master lists 麓/ふもと at N2 (gloss: the foot; the bottom; the base (of a mountain)).).",
+        "contentHash": "29d143c2f0e19809120962c4f72222722f499bdbf1d8d31116d740785093c258",
+        "approvalHash": "29d143c2f0e19809120962c4f72222722f499bdbf1d8d31116d740785093c258"
+      }
+    },
+    {
+      "key": "ぶらうす|ぶらうす",
+      "referenceIndex": 0,
+      "referenceHash": "77b89a8461f4713d0c54e15863f712ce36e0b7dce92f03f5bb0b068233a9a897",
+      "revisionId": "036-candidate-burausu-4e52d290-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burausu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burausu": "d42a070b693097e5d9a32863787bd403783c8a893d4a90b613e3abf9f1443dce"
+      },
+      "reason": "Reference ブラウス/ブラウス (tanos N2) is the same lexeme as the new entry ブラウス【ブラウス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=77",
+          "finding": "tanos lists ブラウス/ブラウス at N2 (gloss: blouse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1113650; spelling=ブラウス; reading=ブラウス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1113650 as the reference form.",
+          "selected": {
+            "sequence": "1113650",
+            "spelling": "ブラウス",
+            "reading": "ブラウス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶらうす|ぶらうす#0 is the same lexeme as vocab-n2:correction:burausu; target hash bound to the assembled addition.",
+        "contentHash": "be3b861f32d5d51ae97ad6e2af1c055f79698867ca54270ea07f6f4d1b7d0b27",
+        "approvalHash": "be3b861f32d5d51ae97ad6e2af1c055f79698867ca54270ea07f6f4d1b7d0b27"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶらうす|ぶらうす#0 is the same lexeme as vocab-n2:correction:burausu (tanos lists ブラウス/ブラウス at N2 (gloss: blouse).).",
+        "contentHash": "be3b861f32d5d51ae97ad6e2af1c055f79698867ca54270ea07f6f4d1b7d0b27",
+        "approvalHash": "be3b861f32d5d51ae97ad6e2af1c055f79698867ca54270ea07f6f4d1b7d0b27"
+      }
+    },
+    {
+      "key": "ぶらうす|ぶらうす",
+      "referenceIndex": 1,
+      "referenceHash": "32b6651381378e07176f08f1773d40084d12e3166836c522175e58578267e106",
+      "revisionId": "036-candidate-burausu-4e52d290-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:burausu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:burausu": "d42a070b693097e5d9a32863787bd403783c8a893d4a90b613e3abf9f1443dce"
+      },
+      "reason": "Reference ブラウス/ブラウス (master N2) is the same lexeme as the new entry ブラウス【ブラウス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ブラウス/ブラウス at N2 (gloss: blouse; chemisier; corsage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1113650; spelling=ブラウス; reading=ブラウス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1113650 as the reference form.",
+          "selected": {
+            "sequence": "1113650",
+            "spelling": "ブラウス",
+            "reading": "ブラウス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blouse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ぶらうす|ぶらうす#1 is the same lexeme as vocab-n2:correction:burausu; target hash bound to the assembled addition.",
+        "contentHash": "35fa8d3f7468d210644384fe7d4879153d7518f16232fc103385c752f3700242",
+        "approvalHash": "35fa8d3f7468d210644384fe7d4879153d7518f16232fc103385c752f3700242"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ぶらうす|ぶらうす#1 is the same lexeme as vocab-n2:correction:burausu (Nihongo Master lists ブラウス/ブラウス at N2 (gloss: blouse; chemisier; corsage).).",
+        "contentHash": "35fa8d3f7468d210644384fe7d4879153d7518f16232fc103385c752f3700242",
+        "approvalHash": "35fa8d3f7468d210644384fe7d4879153d7518f16232fc103385c752f3700242"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3229 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:baibai-bye",
+      "revisionId": "036-add-baibai-bye",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "バイバイ",
+        "reading": "バイバイ",
+        "romaji": "baibai",
+        "meaning": "tschüss, bye-bye",
+        "type": "Ausdruck",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Lockerer Abschiedsgruß unter Freunden und gegenüber Kindern; oft mit Winken. Nicht gegenüber Vorgesetzten.",
+        "examples": [
+          {
+            "japanese": "子どもが手を振って「バイバイ」と言った。",
+            "romaji": "Kodomo ga te o futte \"baibai\" to itta.",
+            "german": "Das Kind winkte und sagte „Tschüss“."
+          },
+          {
+            "japanese": "じゃあ、また明日ね。バイバイ。",
+            "romaji": "Jaa, mata ashita ne. Baibai.",
+            "german": "Also dann, bis morgen. Tschüss!"
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add バイバイ【バイバイ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1983760; spelling=バイバイ; reading=バイバイ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1983760 バイバイ/バイバイ sense(s) 1 support \"tschüss, bye-bye\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1983760",
+            "spelling": "バイバイ",
+            "reading": "バイバイ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "bye-bye",
+                  "goodbye"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ばいばい|ばいばい",
+          "referenceIndex": 0,
+          "referenceHash": "b2d533fae4da6f6fcf3396bfdcd49ea5fae01f611c26c2e234ef12ed507b2bb8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"tschüss, bye-bye\" matches JMdict 1983760 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Child waving goodbye.",
+          "Parting from a friend."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1983760; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for バイバイ / バイバイ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup バイバイ / バイバイ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add バイバイ【バイバイ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1983760 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "45770cd29aa0aa9a294aa8b560259ccc566cc47600e869d5bb6d066021649317",
+        "approvalHash": "96656bb1466834004a3dab9a21991e3fd436606d18bb312dac58deef07b596be"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). バイバイ【バイバイ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1983760; level N2 supported; pitch unknown consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "45770cd29aa0aa9a294aa8b560259ccc566cc47600e869d5bb6d066021649317",
+        "approvalHash": "96656bb1466834004a3dab9a21991e3fd436606d18bb312dac58deef07b596be"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:baibai-trade",
+      "revisionId": "036-add-baibai-trade",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "売買",
+        "reading": "ばいばい",
+        "romaji": "baibai",
+        "meaning": "Kauf und Verkauf, Handel",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N2",
+        "notes": "Formell für Handelsgeschäfte: 土地の売買, 売買契約 (Kaufvertrag). Als Verb 売買する.",
+        "examples": [
+          {
+            "japanese": "インターネットで中古品を売買する人が増えている。",
+            "romaji": "Intaanetto de chuukohin o baibai suru hito ga fuete iru.",
+            "german": "Immer mehr Menschen kaufen und verkaufen Gebrauchtwaren im Internet."
+          },
+          {
+            "japanese": "土地の売買には契約書が必要だ。",
+            "romaji": "Tochi no baibai ni wa keiyakusho ga hitsuyou da.",
+            "german": "Für den Kauf und Verkauf von Grundstücken braucht man einen Vertrag."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220104233",
+            "patterns": [
+              1
+            ],
+            "finding": "売買 / バイバイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 売買; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売買",
+              "reading": "ばいばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "売買 as \"Kauf und Verkauf, Handel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 売買【ばいばい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474050; spelling=売買; reading=ばいばい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1474050 売買/ばいばい sense(s) 1 support \"Kauf und Verkauf, Handel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1474050",
+            "spelling": "売買",
+            "reading": "ばいばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "buying and selling",
+                  "trafficking (e.g. of humans, arms, drugs)",
+                  "dealing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "売買|ばいばい",
+          "referenceIndex": 0,
+          "referenceHash": "feaa4aeb60ead812f5dbc9b8aa7f8c2a4eacb278efd6a32f245145d178e2af0b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Kauf und Verkauf, Handel\" matches JMdict 1474050 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Second-hand trading online.",
+          "Land transactions."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1474050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@220104233 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220104233",
+            "patterns": [
+              1
+            ],
+            "finding": "売買 / バイバイ; 名詞/普通名詞/サ変可能/*; *; *; lemma 売買; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売買",
+              "reading": "ばいばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "売買 as \"Kauf und Verkauf, Handel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 売買【ばいばい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1474050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6401454a4009b387751c257816adecdde277fdf52054a96042c21349af1f6943",
+        "approvalHash": "0684048c5121b879b4e7279bdd4385c66f0f5d2a542b2fe96e8bb9195caec925"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 売買【ばいばい】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1474050; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "6401454a4009b387751c257816adecdde277fdf52054a96042c21349af1f6943",
+        "approvalHash": "0684048c5121b879b4e7279bdd4385c66f0f5d2a542b2fe96e8bb9195caec925"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hakari",
+      "revisionId": "036-add-hakari",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "秤",
+        "reading": "はかり",
+        "romaji": "hakari",
+        "meaning": "Waage",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Gerät zum Wiegen: 秤で量る. Die Körperwaage heißt meist 体重計.",
+        "examples": [
+          {
+            "japanese": "小麦粉を秤で二百グラム量った。",
+            "romaji": "Komugiko o hakari de nihyaku guramu hakatta.",
+            "german": "Ich habe 200 Gramm Mehl auf der Waage abgewogen."
+          },
+          {
+            "japanese": "郵便局の秤で荷物の重さを調べた。",
+            "romaji": "Yuubinkyoku no hakari de nimotsu no omosa o shirabeta.",
+            "german": "Auf der Waage in der Post habe ich das Paket gewogen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212083635",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "秤 / ハカリ; 名詞/普通名詞/一般/*; *; *; lemma 秤; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "秤",
+              "reading": "はかり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "秤 as \"Waage\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 秤【はかり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474220; spelling=秤; reading=はかり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1474220 秤/はかり sense(s) 1 support \"Waage\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1474220",
+            "spelling": "秤",
+            "reading": "はかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "scales",
+                  "weighing machine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "秤|はかり",
+          "referenceIndex": 0,
+          "referenceHash": "d27816d113c13264f3ca3a7cd4ccd8301be3fb604cd0be01a610bacad857749d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Waage\" matches JMdict 1474220 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Baking.",
+          "Weighing a parcel."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1474220; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@212083635 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212083635",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "秤 / ハカリ; 名詞/普通名詞/一般/*; *; *; lemma 秤; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "秤",
+              "reading": "はかり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "秤 as \"Waage\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 秤【はかり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1474220 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "05dcba26d8dae57346cd7fe551cd69470be96e694f28e971245880a388ee9cbf",
+        "approvalHash": "9b6af3a5ba381bab97ff021499821986e9b6aebcdae348461206a9b038bbb34d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 秤【はかり】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1474220; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "05dcba26d8dae57346cd7fe551cd69470be96e694f28e971245880a388ee9cbf",
+        "approvalHash": "9b6af3a5ba381bab97ff021499821986e9b6aebcdae348461206a9b038bbb34d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:baketsu",
+      "revisionId": "036-add-baketsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "バケツ",
+        "reading": "バケツ",
+        "romaji": "baketsu",
+        "meaning": "Eimer",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Eimer für Wasser oder Putzarbeiten: バケツに水をくむ. Die Schreibung 馬穴 ist ein altes Ateji.",
+        "examples": [
+          {
+            "japanese": "バケツに水をくんで、花に水をやった。",
+            "romaji": "Baketsu ni mizu o kunde, hana ni mizu o yatta.",
+            "german": "Ich habe Wasser in den Eimer gefüllt und die Blumen gegossen."
+          },
+          {
+            "japanese": "雨漏りがするので、床にバケツを置いた。",
+            "romaji": "Amamori ga suru node, yuka ni baketsu o oita.",
+            "german": "Weil es durchs Dach regnete, stellte ich einen Eimer auf den Boden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220318247",
+            "patterns": [
+              0
+            ],
+            "finding": "バケツ / バケツ; 名詞/普通名詞/一般/*; *; *; lemma バケツ-bucket; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バケツ",
+              "reading": "バケツ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バケツ as \"Eimer\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2 (馬穴). Editorial N2.",
+      "rationale": "Add バケツ【バケツ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098340; spelling=バケツ; reading=バケツ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1098340 バケツ/バケツ sense(s) 1 support \"Eimer\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1098340",
+            "spelling": "バケツ",
+            "reading": "バケツ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "bucket",
+                  "pail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ばけつ|ばけつ",
+          "referenceIndex": 0,
+          "referenceHash": "16d98ec7f15e9374c9eeb09e472152fa2c72ffc01b6dcb328bf5a35ac371c50f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Eimer\" matches JMdict 1098340 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Watering flowers.",
+          "Leaking roof."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1098340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2 (馬穴). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@220318247 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220318247",
+            "patterns": [
+              0
+            ],
+            "finding": "バケツ / バケツ; 名詞/普通名詞/一般/*; *; *; lemma バケツ-bucket; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バケツ",
+              "reading": "バケツ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バケツ as \"Eimer\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add バケツ【バケツ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1098340 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "04ca55c2574dbc9d4ba4f1925f3c04f50d75abb8ce29a203c491ecf849afe0fa",
+        "approvalHash": "3c8fef557b43ccfe124d42fff2ffea484a16ce1bf96ed3da050ad1adfa2cc4cf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Merge バケツ/馬穴 correct (馬穴 is ateji). Examples natural.",
+        "contentHash": "04ca55c2574dbc9d4ba4f1925f3c04f50d75abb8ce29a203c491ecf849afe0fa",
+        "approvalHash": "3c8fef557b43ccfe124d42fff2ffea484a16ce1bf96ed3da050ad1adfa2cc4cf"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hashigo",
+      "revisionId": "036-add-hashigo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "梯子",
+        "reading": "はしご",
+        "romaji": "hashigo",
+        "meaning": "Leiter",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Leiter: 梯子を上る／かける. Umgangssprachlich auch „mehrere Lokale nacheinander besuchen“ (はしご酒). Oft in Hiragana.",
+        "examples": [
+          {
+            "japanese": "梯子を使って屋根に上った。",
+            "romaji": "Hashigo o tsukatte yane ni nobotta.",
+            "german": "Ich bin mit einer Leiter aufs Dach gestiegen."
+          },
+          {
+            "japanese": "梯子を壁にかけて、窓をふいた。",
+            "romaji": "Hashigo o kabe ni kakete, mado o fuita.",
+            "german": "Ich lehnte die Leiter an die Wand und putzte das Fenster."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213970402",
+            "patterns": [
+              0
+            ],
+            "finding": "梯子 / ハシゴ; 名詞/普通名詞/一般/*; *; *; lemma 梯子; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "梯子",
+              "reading": "はしご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "梯子 as \"Leiter\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 梯子【はしご】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1436480; spelling=梯子; reading=はしご; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1436480 梯子/はしご sense(s) 1 support \"Leiter\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1436480",
+            "spelling": "梯子",
+            "reading": "はしご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ladder"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "梯子|はしご",
+          "referenceIndex": 0,
+          "referenceHash": "ff028f65af5bf2e30251ac25bc36409c49d640424ff64d675685df2b1a08410e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Leiter\" matches JMdict 1436480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Climbing onto a roof.",
+          "Cleaning windows."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1436480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@213970402 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213970402",
+            "patterns": [
+              0
+            ],
+            "finding": "梯子 / ハシゴ; 名詞/普通名詞/一般/*; *; *; lemma 梯子; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "梯子",
+              "reading": "はしご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "梯子 as \"Leiter\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 梯子【はしご】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1436480 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0ab6095edaa85a4aac1c7c6f49a4db083c7f34c786c49dc126eae24006506c39",
+        "approvalHash": "83a0c2c06273856c69a3db91b79fa1ace7a50022617b9d6d98af8914aeb3aef2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 梯子【はしご】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1436480; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "0ab6095edaa85a4aac1c7c6f49a4db083c7f34c786c49dc126eae24006506c39",
+        "approvalHash": "83a0c2c06273856c69a3db91b79fa1ace7a50022617b9d6d98af8914aeb3aef2"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hadagi",
+      "revisionId": "036-add-hadagi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "肌着",
+        "reading": "はだぎ",
+        "romaji": "hadagi",
+        "meaning": "Unterwäsche (direkt auf der Haut)",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Kleidung, die direkt auf der Haut getragen wird (Unterhemd usw.). Ähnlich: 下着.",
+        "examples": [
+          {
+            "japanese": "赤ちゃんの肌着は綿がいい。",
+            "romaji": "Akachan no hadagi wa men ga ii.",
+            "german": "Für Babyunterwäsche ist Baumwolle gut."
+          },
+          {
+            "japanese": "寒いので、厚い肌着を着ている。",
+            "romaji": "Samui node, atsui hadagi o kite iru.",
+            "german": "Weil es kalt ist, trage ich dicke Unterwäsche."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215674464",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "肌着 / ハダギ; 名詞/普通名詞/一般/*; *; *; lemma 肌着; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "肌着",
+              "reading": "はだぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "肌着 as \"Unterwäsche (direkt auf der Haut)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 肌着【はだぎ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1476500; spelling=肌着; reading=はだぎ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1476500 肌着/はだぎ sense(s) 1 support \"Unterwäsche (direkt auf der Haut)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1476500",
+            "spelling": "肌着",
+            "reading": "はだぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "underwear",
+                  "underclothes",
+                  "lingerie",
+                  "chemise",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "肌着|はだぎ",
+          "referenceIndex": 0,
+          "referenceHash": "bc03a14ab4ca1d7b0586f1b415b6f90ec765f63c74d2bddf6fbc9fe2a5c2d053"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Unterwäsche (direkt auf der Haut)\" matches JMdict 1476500 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Baby clothes.",
+          "Dressing for cold weather."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1476500; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@215674464 attest 3,0; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215674464",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "肌着 / ハダギ; 名詞/普通名詞/一般/*; *; *; lemma 肌着; aType 3,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "肌着",
+              "reading": "はだぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "肌着 as \"Unterwäsche (direkt auf der Haut)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 肌着【はだぎ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1476500 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "326eeda0bb614d6c7c49fc5a3dd922cc17712064b70c593d30501ba121eebd54",
+        "approvalHash": "6229b77852fcee0211b3baa4c25d8dae7a34e3c4ce03ffaf61ab228d146edef6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 肌着【はだぎ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1476500; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "326eeda0bb614d6c7c49fc5a3dd922cc17712064b70c593d30501ba121eebd54",
+        "approvalHash": "6229b77852fcee0211b3baa4c25d8dae7a34e3c4ce03ffaf61ab228d146edef6"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hachi-bowl",
+      "revisionId": "036-add-hachi-bowl",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "鉢",
+        "reading": "はち",
+        "romaji": "hachi",
+        "meaning": "Schüssel; Blumentopf",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Tiefe Schale (料理を鉢に盛る) und Blumentopf (植木鉢). Gleich klingend: 八, 蜂.",
+        "examples": [
+          {
+            "japanese": "サラダを大きな鉢に盛った。",
+            "romaji": "Sarada o ooki na hachi ni motta.",
+            "german": "Ich habe den Salat in einer großen Schüssel angerichtet."
+          },
+          {
+            "japanese": "花を新しい鉢に植え替えた。",
+            "romaji": "Hana o atarashii hachi ni uekaeta.",
+            "german": "Ich habe die Blume in einen neuen Topf umgepflanzt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215729880",
+            "patterns": [
+              2
+            ],
+            "finding": "鉢 / ハチ; 名詞/普通名詞/一般/*; *; *; lemma 鉢; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉢",
+              "reading": "はち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉢 as \"Schüssel; Blumentopf\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 鉢【はち】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1477090; spelling=鉢; reading=はち; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1477090 鉢/はち sense(s) 1,2 support \"Schüssel; Blumentopf\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1477090",
+            "spelling": "鉢",
+            "reading": "はち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl",
+                  "pot",
+                  "basin"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(plant) pot",
+                  "flowerpot"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "鉢|はち",
+          "referenceIndex": 0,
+          "referenceHash": "34d0ed26de0d7f39e5c4a2ba121b9b0b9df842f79ebd8c1a8277612a31426286"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Schüssel; Blumentopf\" matches JMdict 1477090 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Serving a dish.",
+          "Repotting a plant."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1477090; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@215729880 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215729880",
+            "patterns": [
+              2
+            ],
+            "finding": "鉢 / ハチ; 名詞/普通名詞/一般/*; *; *; lemma 鉢; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "鉢",
+              "reading": "はち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "鉢 as \"Schüssel; Blumentopf\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 鉢【はち】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1477090 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b3f1c5763a6dfeaaee82dbac28506f939533b92d400f76a15e2997e8170f386d",
+        "approvalHash": "25f194fcceecf15c1a78a834948f91ffa0099dfb5582702648ac59254b981537"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 鉢【はち】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1477090; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "b3f1c5763a6dfeaaee82dbac28506f939533b92d400f76a15e2997e8170f386d",
+        "approvalHash": "25f194fcceecf15c1a78a834948f91ffa0099dfb5582702648ac59254b981537"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:batsu",
+      "revisionId": "036-add-batsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "バツ",
+        "reading": "バツ",
+        "romaji": "batsu",
+        "meaning": "Kreuz (Zeichen für falsch)",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Das Zeichen ×, das in Japan „falsch/nein“ bedeutet; Gegenteil: 丸（まる, ○） = richtig. Auch mit den Armen gezeigt: 腕でバツを作る.",
+        "examples": [
+          {
+            "japanese": "間違えた答えにバツがついていた。",
+            "romaji": "Machigaeta kotae ni batsu ga tsuite ita.",
+            "german": "Die falschen Antworten waren mit einem Kreuz markiert."
+          },
+          {
+            "japanese": "彼は腕でバツを作って「だめ」と言った。",
+            "romaji": "Kare wa ude de batsu o tsukutte \"dame\" to itta.",
+            "german": "Er kreuzte die Arme zu einem X und sagte „Nein“."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "×"
+        ],
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220576565",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "バツ / バツ; 名詞/普通名詞/一般/*; *; *; lemma ×; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バツ",
+              "reading": "バツ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バツ as \"Kreuz (Zeichen für falsch)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add バツ【バツ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2197150; spelling=バツ; reading=バツ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2197150 バツ/バツ sense(s) 1 support \"Kreuz (Zeichen für falsch)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2197150",
+            "spelling": "バツ",
+            "reading": "バツ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "x (mark)",
+                  "cross"
+                ],
+                "notes": [
+                  "used to indicate an incorrect answer, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "×|ばつ",
+          "referenceIndex": 0,
+          "referenceHash": "f440b398a48bb380421820cdeedc4a43c167507bb57efe8f450e0c2b452e78e9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Kreuz (Zeichen für falsch)\" matches JMdict 2197150 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Marked test answers.",
+          "Gesture for “no”."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2197150; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@220576565 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220576565",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "バツ / バツ; 名詞/普通名詞/一般/*; *; *; lemma ×; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バツ",
+              "reading": "バツ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "バツ as \"Kreuz (Zeichen für falsch)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add バツ【バツ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2197150 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b525c21542c4e8c7a16aed4ed12f49a67c755d7a6ba3ae56fdf32fe9b6d06007",
+        "approvalHash": "774fbfa16aeb90713636ab584a55dd19cb5439cf87131e11a2e58d530c6021f3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Pitch taken from the exact バツ/バツ row (lemma ×) — same lexeme as JMdict 2197150; ok. Examples natural.",
+        "contentHash": "b525c21542c4e8c7a16aed4ed12f49a67c755d7a6ba3ae56fdf32fe9b6d06007",
+        "approvalHash": "774fbfa16aeb90713636ab584a55dd19cb5439cf87131e11a2e58d530c6021f3"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:bakku",
+      "revisionId": "036-add-bakku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "バック",
+        "reading": "バック",
+        "romaji": "bakku",
+        "meaning": "Rückseite, Hintergrund; Rückwärtsfahren; Unterstützung",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Vielseitiges Lehnwort: 山をバックに写真を撮る (vor dem Berg als Hintergrund), 車をバックさせる (rückwärts fahren), 大企業がバックについている (Rückhalt haben). Nicht verwechseln mit バッグ (Tasche).",
+        "examples": [
+          {
+            "japanese": "富士山をバックに写真を撮った。",
+            "romaji": "Fujisan o bakku ni shashin o totta.",
+            "german": "Wir haben ein Foto mit dem Fuji im Hintergrund gemacht."
+          },
+          {
+            "japanese": "駐車場で車をゆっくりバックさせた。",
+            "romaji": "Chuushajou de kuruma o yukkuri bakku saseta.",
+            "german": "Auf dem Parkplatz fuhr ich langsam rückwärts."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220487571",
+            "patterns": [
+              1
+            ],
+            "finding": "バック / バック; 名詞/普通名詞/サ変可能/*; *; *; lemma バック-back; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バック",
+              "reading": "バック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "バック as \"Rückseite, Hintergrund; Rückwärtsfahren; Unterstützung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add バック【バック】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098760; spelling=バック; reading=バック; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1098760 バック/バック sense(s) 1,2,3,4 support \"Rückseite, Hintergrund; Rückwärtsfahren; Unterstützung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1098760",
+            "spelling": "バック",
+            "reading": "バック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "back",
+                  "rear"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "background",
+                  "backdrop"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "backing",
+                  "support",
+                  "backer",
+                  "supporter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going backwards",
+                  "reversing",
+                  "backing up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ばっく|ばっく",
+          "referenceIndex": 0,
+          "referenceHash": "29031769b6d30c42fe6cf1896838a8d3719b1385ce5779b1641df64054812b3d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Rückseite, Hintergrund; Rückwärtsfahren; Unterstützung\" matches JMdict 1098760 sense(s) 1,2,3,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Photo background.",
+          "Reversing a car."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1098760; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@220487571 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220487571",
+            "patterns": [
+              1
+            ],
+            "finding": "バック / バック; 名詞/普通名詞/サ変可能/*; *; *; lemma バック-back; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "バック",
+              "reading": "バック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "バック as \"Rückseite, Hintergrund; Rückwärtsfahren; Unterstützung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add バック【バック】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1098760 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "252dc6babfb480a2424034fd747fbb93dd3ec9e640e239630672f23244646a42",
+        "approvalHash": "2dfa59305ed64eda0698ccfea7184077ac19d9a582e8545ceb6ee3e9b0606565"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Pinned JMdict 1098760 (back), not バッグ; note warns against confusion. Examples (background, reversing) distinct and natural.",
+        "contentHash": "252dc6babfb480a2424034fd747fbb93dd3ec9e640e239630672f23244646a42",
+        "approvalHash": "2dfa59305ed64eda0698ccfea7184077ac19d9a582e8545ceb6ee3e9b0606565"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:hanashiai",
+      "revisionId": "036-add-hanashiai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "話し合い",
+        "reading": "はなしあい",
+        "romaji": "hanashiai",
+        "meaning": "Besprechung, Aussprache",
+        "type": "Nomen",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Gespräch, um sich zu einigen: 話し合いで決める, 話し合いがつく (sich einigen). Verb: 話し合う.",
+        "examples": [
+          {
+            "japanese": "問題は話し合いで解決しよう。",
+            "romaji": "Mondai wa hanashiai de kaiketsu shiyou.",
+            "german": "Lass uns das Problem durch ein Gespräch lösen."
+          },
+          {
+            "japanese": "長い話し合いの結果、計画は中止になった。",
+            "romaji": "Nagai hanashiai no kekka, keikaku wa chuushi ni natta.",
+            "german": "Nach langen Besprechungen wurde der Plan aufgegeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216099616",
+            "patterns": [
+              0
+            ],
+            "finding": "話し合い / ハナシアイ; 名詞/普通名詞/一般/*; *; *; lemma 話し合い; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "話し合い",
+              "reading": "はなしあい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "話し合い as \"Besprechung, Aussprache\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (話合い). Editorial N2.",
+      "rationale": "Add 話し合い【はなしあい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600910; spelling=話し合い; reading=はなしあい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1600910 話し合い/はなしあい sense(s) 1 support \"Besprechung, Aussprache\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1600910",
+            "spelling": "話し合い",
+            "reading": "はなしあい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discussion",
+                  "talk",
+                  "tête-à-tête",
+                  "conference"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "話し合い|はなしあい",
+          "referenceIndex": 0,
+          "referenceHash": "a6bb9139fe3c0cee563e346175906332d4314d764a5cf29f05cfcd54bf331914"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Besprechung, Aussprache\" matches JMdict 1600910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Resolving a problem.",
+          "Outcome of a meeting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1600910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N2, tanos N2 (話合い). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@216099616 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216099616",
+            "patterns": [
+              0
+            ],
+            "finding": "話し合い / ハナシアイ; 名詞/普通名詞/一般/*; *; *; lemma 話し合い; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "話し合い",
+              "reading": "はなしあい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "話し合い as \"Besprechung, Aussprache\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 話し合い【はなしあい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1600910 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7e3eeb175e95b70a75c4e476f184a42e5c905c53003be3af965ccdda3f1285ed",
+        "approvalHash": "c994c9fd81369c5b7dabd1e362d4ac7ae7c98d5d7a8126fe5981b5f20c91843b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 話し合い【はなしあい】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1600910; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "7e3eeb175e95b70a75c4e476f184a42e5c905c53003be3af965ccdda3f1285ed",
+        "approvalHash": "c994c9fd81369c5b7dabd1e362d4ac7ae7c98d5d7a8126fe5981b5f20c91843b"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "ばいばい|ばいばい",
+      "referenceIndex": 0,
+      "referenceHash": "b2d533fae4da6f6fcf3396bfdcd49ea5fae01f611c26c2e234ef12ed507b2bb8",
+      "revisionId": "036-candidate-baibai-bye-60378a92-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baibai-bye"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baibai-bye": "45770cd29aa0aa9a294aa8b560259ccc566cc47600e869d5bb6d066021649317"
+      },
+      "reason": "Reference バイバイ/バイバイ (master N2) is the same lexeme as the new entry バイバイ【バイバイ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists バイバイ/バイバイ at N2 (gloss: bye-bye; good-bye; see you)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1983760; spelling=バイバイ; reading=バイバイ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1983760 as the reference form.",
+          "selected": {
+            "sequence": "1983760",
+            "spelling": "バイバイ",
+            "reading": "バイバイ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "interjection (kandoushi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "bye-bye",
+                  "goodbye"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ばいばい|ばいばい#0 is the same lexeme as vocab-n2:correction:baibai-bye; target hash bound to the assembled addition.",
+        "contentHash": "294b64d1fedc00063ed3fa9cb6d5c57a294af0d6b03a32b3c8a0a13edc43bb6c",
+        "approvalHash": "294b64d1fedc00063ed3fa9cb6d5c57a294af0d6b03a32b3c8a0a13edc43bb6c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ばいばい|ばいばい#0 is the same lexeme as vocab-n2:correction:baibai-bye (Nihongo Master lists バイバイ/バイバイ at N2 (gloss: bye-bye; good-bye; see you).).",
+        "contentHash": "294b64d1fedc00063ed3fa9cb6d5c57a294af0d6b03a32b3c8a0a13edc43bb6c",
+        "approvalHash": "294b64d1fedc00063ed3fa9cb6d5c57a294af0d6b03a32b3c8a0a13edc43bb6c"
+      }
+    },
+    {
+      "key": "売買|ばいばい",
+      "referenceIndex": 0,
+      "referenceHash": "feaa4aeb60ead812f5dbc9b8aa7f8c2a4eacb278efd6a32f245145d178e2af0b",
+      "revisionId": "036-candidate-baibai-trade-99763aab-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baibai-trade"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baibai-trade": "6401454a4009b387751c257816adecdde277fdf52054a96042c21349af1f6943"
+      },
+      "reason": "Reference 売買/ばいばい (tanos N2) is the same lexeme as the new entry 売買【ばいばい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=68",
+          "finding": "tanos lists 売買/ばいばい at N2 (gloss: trade,buying and selling)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474050; spelling=売買; reading=ばいばい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474050 as the reference form.",
+          "selected": {
+            "sequence": "1474050",
+            "spelling": "売買",
+            "reading": "ばいばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "buying and selling",
+                  "trafficking (e.g. of humans, arms, drugs)",
+                  "dealing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売買|ばいばい#0 is the same lexeme as vocab-n2:correction:baibai-trade; target hash bound to the assembled addition.",
+        "contentHash": "754ffe33dcd40f7ef2275cceccb0cc156fe5dbbb05f6016155f22c283952b3d0",
+        "approvalHash": "754ffe33dcd40f7ef2275cceccb0cc156fe5dbbb05f6016155f22c283952b3d0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売買|ばいばい#0 is the same lexeme as vocab-n2:correction:baibai-trade (tanos lists 売買/ばいばい at N2 (gloss: trade,buying and selling).).",
+        "contentHash": "754ffe33dcd40f7ef2275cceccb0cc156fe5dbbb05f6016155f22c283952b3d0",
+        "approvalHash": "754ffe33dcd40f7ef2275cceccb0cc156fe5dbbb05f6016155f22c283952b3d0"
+      }
+    },
+    {
+      "key": "売買|ばいばい",
+      "referenceIndex": 1,
+      "referenceHash": "9df139acd8dea72941a99c0b136bb022377f1b4a0e75e7922732e308884bb0d9",
+      "revisionId": "036-candidate-baibai-trade-99763aab-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baibai-trade"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baibai-trade": "6401454a4009b387751c257816adecdde277fdf52054a96042c21349af1f6943"
+      },
+      "reason": "Reference 売買/ばいばい (sensei N2) is the same lexeme as the new entry 売買【ばいばい】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 売買/ばいばい at N2 (gloss: trade; buying and selling)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474050; spelling=売買; reading=ばいばい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474050 as the reference form.",
+          "selected": {
+            "sequence": "1474050",
+            "spelling": "売買",
+            "reading": "ばいばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "buying and selling",
+                  "trafficking (e.g. of humans, arms, drugs)",
+                  "dealing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売買|ばいばい#1 is the same lexeme as vocab-n2:correction:baibai-trade; target hash bound to the assembled addition.",
+        "contentHash": "c086f67d95ad5434d33e2fc5d0abbea7d655f87cb317a44c4e71233be0f301a3",
+        "approvalHash": "c086f67d95ad5434d33e2fc5d0abbea7d655f87cb317a44c4e71233be0f301a3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売買|ばいばい#1 is the same lexeme as vocab-n2:correction:baibai-trade (JLPT Sensei lists 売買/ばいばい at N2 (gloss: trade; buying and selling).).",
+        "contentHash": "c086f67d95ad5434d33e2fc5d0abbea7d655f87cb317a44c4e71233be0f301a3",
+        "approvalHash": "c086f67d95ad5434d33e2fc5d0abbea7d655f87cb317a44c4e71233be0f301a3"
+      }
+    },
+    {
+      "key": "売買|ばいばい",
+      "referenceIndex": 2,
+      "referenceHash": "a693f8020516e59965d835a453290a8d00739e9598c01e179d00e15dce376edb",
+      "revisionId": "036-candidate-baibai-trade-99763aab-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baibai-trade"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baibai-trade": "6401454a4009b387751c257816adecdde277fdf52054a96042c21349af1f6943"
+      },
+      "reason": "Reference 売買/ばいばい (master N2) is the same lexeme as the new entry 売買【ばいばい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 売買/ばいばい at N2 (gloss: trade; buying and selling; négoce)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474050; spelling=売買; reading=ばいばい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474050 as the reference form.",
+          "selected": {
+            "sequence": "1474050",
+            "spelling": "売買",
+            "reading": "ばいばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade",
+                  "buying and selling",
+                  "trafficking (e.g. of humans, arms, drugs)",
+                  "dealing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売買|ばいばい#2 is the same lexeme as vocab-n2:correction:baibai-trade; target hash bound to the assembled addition.",
+        "contentHash": "03bb5c9c6fec1421a7fa82d9645441877abab1c49a8bb526f473325d32b60a55",
+        "approvalHash": "03bb5c9c6fec1421a7fa82d9645441877abab1c49a8bb526f473325d32b60a55"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売買|ばいばい#2 is the same lexeme as vocab-n2:correction:baibai-trade (Nihongo Master lists 売買/ばいばい at N2 (gloss: trade; buying and selling; négoce).).",
+        "contentHash": "03bb5c9c6fec1421a7fa82d9645441877abab1c49a8bb526f473325d32b60a55",
+        "approvalHash": "03bb5c9c6fec1421a7fa82d9645441877abab1c49a8bb526f473325d32b60a55"
+      }
+    },
+    {
+      "key": "秤|はかり",
+      "referenceIndex": 0,
+      "referenceHash": "d27816d113c13264f3ca3a7cd4ccd8301be3fb604cd0be01a610bacad857749d",
+      "revisionId": "036-candidate-hakari-5c6926f1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hakari"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hakari": "05dcba26d8dae57346cd7fe551cd69470be96e694f28e971245880a388ee9cbf"
+      },
+      "reason": "Reference 秤/はかり (tanos N2) is the same lexeme as the new entry 秤【はかり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=68",
+          "finding": "tanos lists 秤/はかり at N2 (gloss: scales,weighing machine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474220; spelling=秤; reading=はかり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474220 as the reference form.",
+          "selected": {
+            "sequence": "1474220",
+            "spelling": "秤",
+            "reading": "はかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "scales",
+                  "weighing machine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 秤|はかり#0 is the same lexeme as vocab-n2:correction:hakari; target hash bound to the assembled addition.",
+        "contentHash": "1df6942296b7426a640c1f54429cd52106b473b5d0ad530bef1c824f8ea7e1b4",
+        "approvalHash": "1df6942296b7426a640c1f54429cd52106b473b5d0ad530bef1c824f8ea7e1b4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 秤|はかり#0 is the same lexeme as vocab-n2:correction:hakari (tanos lists 秤/はかり at N2 (gloss: scales,weighing machine).).",
+        "contentHash": "1df6942296b7426a640c1f54429cd52106b473b5d0ad530bef1c824f8ea7e1b4",
+        "approvalHash": "1df6942296b7426a640c1f54429cd52106b473b5d0ad530bef1c824f8ea7e1b4"
+      }
+    },
+    {
+      "key": "秤|はかり",
+      "referenceIndex": 1,
+      "referenceHash": "2789eed30fe6987ee8cbabb83ed3a80488fb352c9bace403d22dd02854be3028",
+      "revisionId": "036-candidate-hakari-5c6926f1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hakari"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hakari": "05dcba26d8dae57346cd7fe551cd69470be96e694f28e971245880a388ee9cbf"
+      },
+      "reason": "Reference 秤/はかり (master N2) is the same lexeme as the new entry 秤【はかり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 秤/はかり at N2 (gloss: scales; weighing machine; balance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474220; spelling=秤; reading=はかり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474220 as the reference form.",
+          "selected": {
+            "sequence": "1474220",
+            "spelling": "秤",
+            "reading": "はかり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "scales",
+                  "weighing machine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 秤|はかり#1 is the same lexeme as vocab-n2:correction:hakari; target hash bound to the assembled addition.",
+        "contentHash": "41dfa0c8cb07129ab5c714cb531f12192dde11f04ebf06f8b5a2dcbea5d45b1c",
+        "approvalHash": "41dfa0c8cb07129ab5c714cb531f12192dde11f04ebf06f8b5a2dcbea5d45b1c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 秤|はかり#1 is the same lexeme as vocab-n2:correction:hakari (Nihongo Master lists 秤/はかり at N2 (gloss: scales; weighing machine; balance).).",
+        "contentHash": "41dfa0c8cb07129ab5c714cb531f12192dde11f04ebf06f8b5a2dcbea5d45b1c",
+        "approvalHash": "41dfa0c8cb07129ab5c714cb531f12192dde11f04ebf06f8b5a2dcbea5d45b1c"
+      }
+    },
+    {
+      "key": "ばけつ|ばけつ",
+      "referenceIndex": 0,
+      "referenceHash": "16d98ec7f15e9374c9eeb09e472152fa2c72ffc01b6dcb328bf5a35ac371c50f",
+      "revisionId": "036-candidate-baketsu-3ebd4879-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baketsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baketsu": "04ca55c2574dbc9d4ba4f1925f3c04f50d75abb8ce29a203c491ecf849afe0fa"
+      },
+      "reason": "Reference バケツ/バケツ (tanos N2) is the same lexeme as the new entry バケツ【バケツ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "tanos lists バケツ/バケツ at N2 (gloss: bucket,pail)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098340; spelling=バケツ; reading=バケツ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1098340 as the reference form.",
+          "selected": {
+            "sequence": "1098340",
+            "spelling": "バケツ",
+            "reading": "バケツ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "bucket",
+                  "pail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ばけつ|ばけつ#0 is the same lexeme as vocab-n2:correction:baketsu; target hash bound to the assembled addition.",
+        "contentHash": "cba9b71fc12b260598761aa016978083e742a3955912418808578cda0555ea64",
+        "approvalHash": "cba9b71fc12b260598761aa016978083e742a3955912418808578cda0555ea64"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ばけつ|ばけつ#0 is the same lexeme as vocab-n2:correction:baketsu (tanos lists バケツ/バケツ at N2 (gloss: bucket,pail).).",
+        "contentHash": "cba9b71fc12b260598761aa016978083e742a3955912418808578cda0555ea64",
+        "approvalHash": "cba9b71fc12b260598761aa016978083e742a3955912418808578cda0555ea64"
+      }
+    },
+    {
+      "key": "馬穴|ばけつ",
+      "referenceIndex": 0,
+      "referenceHash": "c0f542886f44364742608e7fc73b8bbc50dd69f95c1d0c85cf2e6e5e60f7ef71",
+      "revisionId": "036-candidate-baketsu-94a2c6e2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baketsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baketsu": "04ca55c2574dbc9d4ba4f1925f3c04f50d75abb8ce29a203c491ecf849afe0fa"
+      },
+      "reason": "Reference 馬穴/バケツ (master N2) is the same lexeme as the new entry バケツ【バケツ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 馬穴/バケツ at N2 (gloss: bucket; pail; seau (lit. bucket))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098340; spelling=バケツ; reading=バケツ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1098340 as the reference form.",
+          "selected": {
+            "sequence": "1098340",
+            "spelling": "バケツ",
+            "reading": "バケツ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "bucket",
+                  "pail"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 馬穴|ばけつ#0 is the same lexeme as vocab-n2:correction:baketsu; target hash bound to the assembled addition.",
+        "contentHash": "313c61472a712d17b2ca415b3f94e880ad23ec56268b50e5545ebbe8c015e65b",
+        "approvalHash": "313c61472a712d17b2ca415b3f94e880ad23ec56268b50e5545ebbe8c015e65b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 馬穴|ばけつ#0 is the same lexeme as vocab-n2:correction:baketsu (Nihongo Master lists 馬穴/バケツ at N2 (gloss: bucket; pail; seau (lit. bucket)).). Spelling-variant merge verified.",
+        "contentHash": "313c61472a712d17b2ca415b3f94e880ad23ec56268b50e5545ebbe8c015e65b",
+        "approvalHash": "313c61472a712d17b2ca415b3f94e880ad23ec56268b50e5545ebbe8c015e65b"
+      }
+    },
+    {
+      "key": "梯子|はしご",
+      "referenceIndex": 0,
+      "referenceHash": "ff028f65af5bf2e30251ac25bc36409c49d640424ff64d675685df2b1a08410e",
+      "revisionId": "036-candidate-hashigo-3388832c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hashigo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hashigo": "0ab6095edaa85a4aac1c7c6f49a4db083c7f34c786c49dc126eae24006506c39"
+      },
+      "reason": "Reference 梯子/はしご (tanos N2) is the same lexeme as the new entry 梯子【はしご】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "tanos lists 梯子/はしご at N2 (gloss: ladder,stairs)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1436480; spelling=梯子; reading=はしご; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1436480 as the reference form.",
+          "selected": {
+            "sequence": "1436480",
+            "spelling": "梯子",
+            "reading": "はしご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ladder"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 梯子|はしご#0 is the same lexeme as vocab-n2:correction:hashigo; target hash bound to the assembled addition.",
+        "contentHash": "9ad02f66de8d959b5bca82a306d3370316b8d79692012d728501e253d6a3533f",
+        "approvalHash": "9ad02f66de8d959b5bca82a306d3370316b8d79692012d728501e253d6a3533f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 梯子|はしご#0 is the same lexeme as vocab-n2:correction:hashigo (tanos lists 梯子/はしご at N2 (gloss: ladder,stairs).).",
+        "contentHash": "9ad02f66de8d959b5bca82a306d3370316b8d79692012d728501e253d6a3533f",
+        "approvalHash": "9ad02f66de8d959b5bca82a306d3370316b8d79692012d728501e253d6a3533f"
+      }
+    },
+    {
+      "key": "梯子|はしご",
+      "referenceIndex": 1,
+      "referenceHash": "e3bd3422b2e7be3dfadb5d00873f2e83792e71921d91635007d46f03aca02c55",
+      "revisionId": "036-candidate-hashigo-3388832c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hashigo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hashigo": "0ab6095edaa85a4aac1c7c6f49a4db083c7f34c786c49dc126eae24006506c39"
+      },
+      "reason": "Reference 梯子/はしご (master N2) is the same lexeme as the new entry 梯子【はしご】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 梯子/はしご at N2 (gloss: ladder; échelle)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1436480; spelling=梯子; reading=はしご; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1436480 as the reference form.",
+          "selected": {
+            "sequence": "1436480",
+            "spelling": "梯子",
+            "reading": "はしご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "ladder"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 梯子|はしご#1 is the same lexeme as vocab-n2:correction:hashigo; target hash bound to the assembled addition.",
+        "contentHash": "aff82cdc696e05cb3f3b1ee45d8c3f58b264ed2c1d4cac64e80ccee561dcf4ed",
+        "approvalHash": "aff82cdc696e05cb3f3b1ee45d8c3f58b264ed2c1d4cac64e80ccee561dcf4ed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 梯子|はしご#1 is the same lexeme as vocab-n2:correction:hashigo (Nihongo Master lists 梯子/はしご at N2 (gloss: ladder; échelle).).",
+        "contentHash": "aff82cdc696e05cb3f3b1ee45d8c3f58b264ed2c1d4cac64e80ccee561dcf4ed",
+        "approvalHash": "aff82cdc696e05cb3f3b1ee45d8c3f58b264ed2c1d4cac64e80ccee561dcf4ed"
+      }
+    },
+    {
+      "key": "肌着|はだぎ",
+      "referenceIndex": 0,
+      "referenceHash": "bc03a14ab4ca1d7b0586f1b415b6f90ec765f63c74d2bddf6fbc9fe2a5c2d053",
+      "revisionId": "036-candidate-hadagi-a27399e0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hadagi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hadagi": "326eeda0bb614d6c7c49fc5a3dd922cc17712064b70c593d30501ba121eebd54"
+      },
+      "reason": "Reference 肌着/はだぎ (tanos N2) is the same lexeme as the new entry 肌着【はだぎ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "tanos lists 肌着/はだぎ at N2 (gloss: underwear)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1476500; spelling=肌着; reading=はだぎ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1476500 as the reference form.",
+          "selected": {
+            "sequence": "1476500",
+            "spelling": "肌着",
+            "reading": "はだぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "underwear",
+                  "underclothes",
+                  "lingerie",
+                  "chemise",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 肌着|はだぎ#0 is the same lexeme as vocab-n2:correction:hadagi; target hash bound to the assembled addition.",
+        "contentHash": "2312be65a6af4b2aac71f4e16eabd709742d36ee7c66ad29f88020bb6280b605",
+        "approvalHash": "2312be65a6af4b2aac71f4e16eabd709742d36ee7c66ad29f88020bb6280b605"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 肌着|はだぎ#0 is the same lexeme as vocab-n2:correction:hadagi (tanos lists 肌着/はだぎ at N2 (gloss: underwear).).",
+        "contentHash": "2312be65a6af4b2aac71f4e16eabd709742d36ee7c66ad29f88020bb6280b605",
+        "approvalHash": "2312be65a6af4b2aac71f4e16eabd709742d36ee7c66ad29f88020bb6280b605"
+      }
+    },
+    {
+      "key": "肌着|はだぎ",
+      "referenceIndex": 1,
+      "referenceHash": "c0ee6cb5467a43f3524f62863378a1f3bf038f38a0b7d5a5ea09e56ff257869b",
+      "revisionId": "036-candidate-hadagi-a27399e0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hadagi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hadagi": "326eeda0bb614d6c7c49fc5a3dd922cc17712064b70c593d30501ba121eebd54"
+      },
+      "reason": "Reference 肌着/はだぎ (master N2) is the same lexeme as the new entry 肌着【はだぎ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 肌着/はだぎ at N2 (gloss: underwear; underclothes; lingerie)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1476500; spelling=肌着; reading=はだぎ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1476500 as the reference form.",
+          "selected": {
+            "sequence": "1476500",
+            "spelling": "肌着",
+            "reading": "はだぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "underwear",
+                  "underclothes",
+                  "lingerie",
+                  "chemise",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 肌着|はだぎ#1 is the same lexeme as vocab-n2:correction:hadagi; target hash bound to the assembled addition.",
+        "contentHash": "8c011c0069c44049ba634904a0a95c48efe0ce4063247a174494c31b3570696d",
+        "approvalHash": "8c011c0069c44049ba634904a0a95c48efe0ce4063247a174494c31b3570696d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 肌着|はだぎ#1 is the same lexeme as vocab-n2:correction:hadagi (Nihongo Master lists 肌着/はだぎ at N2 (gloss: underwear; underclothes; lingerie).).",
+        "contentHash": "8c011c0069c44049ba634904a0a95c48efe0ce4063247a174494c31b3570696d",
+        "approvalHash": "8c011c0069c44049ba634904a0a95c48efe0ce4063247a174494c31b3570696d"
+      }
+    },
+    {
+      "key": "鉢|はち",
+      "referenceIndex": 0,
+      "referenceHash": "34d0ed26de0d7f39e5c4a2ba121b9b0b9df842f79ebd8c1a8277612a31426286",
+      "revisionId": "036-candidate-hachi-bowl-bfe0f196-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hachi-bowl"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hachi-bowl": "b3f1c5763a6dfeaaee82dbac28506f939533b92d400f76a15e2997e8170f386d"
+      },
+      "reason": "Reference 鉢/はち (tanos N2) is the same lexeme as the new entry 鉢【はち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "tanos lists 鉢/はち at N2 (gloss: a bowl,a pot)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1477090; spelling=鉢; reading=はち; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1477090 as the reference form.",
+          "selected": {
+            "sequence": "1477090",
+            "spelling": "鉢",
+            "reading": "はち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl",
+                  "pot",
+                  "basin"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(plant) pot",
+                  "flowerpot"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鉢|はち#0 is the same lexeme as vocab-n2:correction:hachi-bowl; target hash bound to the assembled addition.",
+        "contentHash": "2c1e9743d5ae16e056cfdb611142c19e153179700a98af9b94f2a1540497953b",
+        "approvalHash": "2c1e9743d5ae16e056cfdb611142c19e153179700a98af9b94f2a1540497953b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鉢|はち#0 is the same lexeme as vocab-n2:correction:hachi-bowl (tanos lists 鉢/はち at N2 (gloss: a bowl,a pot).).",
+        "contentHash": "2c1e9743d5ae16e056cfdb611142c19e153179700a98af9b94f2a1540497953b",
+        "approvalHash": "2c1e9743d5ae16e056cfdb611142c19e153179700a98af9b94f2a1540497953b"
+      }
+    },
+    {
+      "key": "鉢|はち",
+      "referenceIndex": 1,
+      "referenceHash": "5973c0707e2543dfcbb3e89710bd5e443fed87d3df23c4e9b4c3c85083b2cda9",
+      "revisionId": "036-candidate-hachi-bowl-bfe0f196-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hachi-bowl"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hachi-bowl": "b3f1c5763a6dfeaaee82dbac28506f939533b92d400f76a15e2997e8170f386d"
+      },
+      "reason": "Reference 鉢/はち (master N2) is the same lexeme as the new entry 鉢【はち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 鉢/はち at N2 (gloss: bowl; pot; basin)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1477090; spelling=鉢; reading=はち; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1477090 as the reference form.",
+          "selected": {
+            "sequence": "1477090",
+            "spelling": "鉢",
+            "reading": "はち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl",
+                  "pot",
+                  "basin"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(plant) pot",
+                  "flowerpot"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鉢|はち#1 is the same lexeme as vocab-n2:correction:hachi-bowl; target hash bound to the assembled addition.",
+        "contentHash": "8c104f73f0866fd83a84eded7d1c86c22dcc5bb422a8cdadce86565749f0635c",
+        "approvalHash": "8c104f73f0866fd83a84eded7d1c86c22dcc5bb422a8cdadce86565749f0635c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鉢|はち#1 is the same lexeme as vocab-n2:correction:hachi-bowl (Nihongo Master lists 鉢/はち at N2 (gloss: bowl; pot; basin).).",
+        "contentHash": "8c104f73f0866fd83a84eded7d1c86c22dcc5bb422a8cdadce86565749f0635c",
+        "approvalHash": "8c104f73f0866fd83a84eded7d1c86c22dcc5bb422a8cdadce86565749f0635c"
+      }
+    },
+    {
+      "key": "×|ばつ",
+      "referenceIndex": 0,
+      "referenceHash": "f440b398a48bb380421820cdeedc4a43c167507bb57efe8f450e0c2b452e78e9",
+      "revisionId": "036-candidate-batsu-fa6f50e3-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:batsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:batsu": "b525c21542c4e8c7a16aed4ed12f49a67c755d7a6ba3ae56fdf32fe9b6d06007"
+      },
+      "reason": "Reference ×/ばつ (master N2) is the same lexeme as the new entry バツ【バツ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ×/ばつ at N2 (gloss: x-mark (used to indicate an incorrect answer in a test, etc.))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2197150; spelling=バツ; reading=バツ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2197150 as the reference form.",
+          "selected": {
+            "sequence": "2197150",
+            "spelling": "バツ",
+            "reading": "バツ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "x (mark)",
+                  "cross"
+                ],
+                "notes": [
+                  "used to indicate an incorrect answer, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ×|ばつ#0 is the same lexeme as vocab-n2:correction:batsu; target hash bound to the assembled addition.",
+        "contentHash": "9842c155b03b729f9e25e035fcfa11cd30bbcc151b61454aaadb55b150edbff3",
+        "approvalHash": "9842c155b03b729f9e25e035fcfa11cd30bbcc151b61454aaadb55b150edbff3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ×|ばつ#0 is the same lexeme as vocab-n2:correction:batsu (Nihongo Master lists ×/ばつ at N2 (gloss: x-mark (used to indicate an incorrect answer in a test, etc.)).). Spelling-variant merge verified.",
+        "contentHash": "9842c155b03b729f9e25e035fcfa11cd30bbcc151b61454aaadb55b150edbff3",
+        "approvalHash": "9842c155b03b729f9e25e035fcfa11cd30bbcc151b61454aaadb55b150edbff3"
+      }
+    },
+    {
+      "key": "ばっく|ばっく",
+      "referenceIndex": 0,
+      "referenceHash": "29031769b6d30c42fe6cf1896838a8d3719b1385ce5779b1641df64054812b3d",
+      "revisionId": "036-candidate-bakku-922bedd1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bakku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bakku": "252dc6babfb480a2424034fd747fbb93dd3ec9e640e239630672f23244646a42"
+      },
+      "reason": "Reference バック/バック (tanos N2) is the same lexeme as the new entry バック【バック】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "tanos lists バック/バック at N2 (gloss: back)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098760; spelling=バック; reading=バック; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1098760 as the reference form.",
+          "selected": {
+            "sequence": "1098760",
+            "spelling": "バック",
+            "reading": "バック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "back",
+                  "rear"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "background",
+                  "backdrop"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "backing",
+                  "support",
+                  "backer",
+                  "supporter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going backwards",
+                  "reversing",
+                  "backing up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ばっく|ばっく#0 is the same lexeme as vocab-n2:correction:bakku; target hash bound to the assembled addition.",
+        "contentHash": "26f18a7032f92648656cc9a1858f0fe01efdc477c655e3bb93fe1ec456633992",
+        "approvalHash": "26f18a7032f92648656cc9a1858f0fe01efdc477c655e3bb93fe1ec456633992"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ばっく|ばっく#0 is the same lexeme as vocab-n2:correction:bakku (tanos lists バック/バック at N2 (gloss: back).).",
+        "contentHash": "26f18a7032f92648656cc9a1858f0fe01efdc477c655e3bb93fe1ec456633992",
+        "approvalHash": "26f18a7032f92648656cc9a1858f0fe01efdc477c655e3bb93fe1ec456633992"
+      }
+    },
+    {
+      "key": "ばっく|ばっく",
+      "referenceIndex": 1,
+      "referenceHash": "d793733fbfcdc592189b059fdf55bdc6337fe6a2f22e5986e7c23ff9b5391979",
+      "revisionId": "036-candidate-bakku-922bedd1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:bakku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:bakku": "252dc6babfb480a2424034fd747fbb93dd3ec9e640e239630672f23244646a42"
+      },
+      "reason": "Reference バック/バック (master N2) is the same lexeme as the new entry バック【バック】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists バック/バック at N2 (gloss: back; arrière-plan; arrières)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1098760; spelling=バック; reading=バック; senses=1,2,3,4; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1098760 as the reference form.",
+          "selected": {
+            "sequence": "1098760",
+            "spelling": "バック",
+            "reading": "バック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "back",
+                  "rear"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "background",
+                  "backdrop"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "backing",
+                  "support",
+                  "backer",
+                  "supporter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "going backwards",
+                  "reversing",
+                  "backing up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ばっく|ばっく#1 is the same lexeme as vocab-n2:correction:bakku; target hash bound to the assembled addition.",
+        "contentHash": "fcd9244589a4950d6191be1202a3d312e5f61b05c0b537fa2ade291fd8beaf1f",
+        "approvalHash": "fcd9244589a4950d6191be1202a3d312e5f61b05c0b537fa2ade291fd8beaf1f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ばっく|ばっく#1 is the same lexeme as vocab-n2:correction:bakku (Nihongo Master lists バック/バック at N2 (gloss: back; arrière-plan; arrières).).",
+        "contentHash": "fcd9244589a4950d6191be1202a3d312e5f61b05c0b537fa2ade291fd8beaf1f",
+        "approvalHash": "fcd9244589a4950d6191be1202a3d312e5f61b05c0b537fa2ade291fd8beaf1f"
+      }
+    },
+    {
+      "key": "話し合い|はなしあい",
+      "referenceIndex": 0,
+      "referenceHash": "a6bb9139fe3c0cee563e346175906332d4314d764a5cf29f05cfcd54bf331914",
+      "revisionId": "036-candidate-hanashiai-bf2e6184-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hanashiai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hanashiai": "7e3eeb175e95b70a75c4e476f184a42e5c905c53003be3af965ccdda3f1285ed"
+      },
+      "reason": "Reference 話し合い/はなしあい (tanos N1) is the same lexeme as the new entry 話し合い【はなしあい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=134",
+          "finding": "tanos lists 話し合い/はなしあい at N1 (gloss: discussion, conference)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600910; spelling=話し合い; reading=はなしあい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1600910 as the reference form.",
+          "selected": {
+            "sequence": "1600910",
+            "spelling": "話し合い",
+            "reading": "はなしあい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discussion",
+                  "talk",
+                  "tête-à-tête",
+                  "conference"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 話し合い|はなしあい#0 is the same lexeme as vocab-n2:correction:hanashiai; target hash bound to the assembled addition.",
+        "contentHash": "d1c7ee597d9d588cb37bd69f9d714f53f341434eabf402e7102d34e631e60363",
+        "approvalHash": "d1c7ee597d9d588cb37bd69f9d714f53f341434eabf402e7102d34e631e60363"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 話し合い|はなしあい#0 is the same lexeme as vocab-n2:correction:hanashiai (tanos lists 話し合い/はなしあい at N1 (gloss: discussion, conference).).",
+        "contentHash": "d1c7ee597d9d588cb37bd69f9d714f53f341434eabf402e7102d34e631e60363",
+        "approvalHash": "d1c7ee597d9d588cb37bd69f9d714f53f341434eabf402e7102d34e631e60363"
+      }
+    },
+    {
+      "key": "話し合い|はなしあい",
+      "referenceIndex": 1,
+      "referenceHash": "5adcf6384218632c4f9340254ea3e3716cd7abc7e0fc8b7673f6c82a434050da",
+      "revisionId": "036-candidate-hanashiai-bf2e6184-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hanashiai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hanashiai": "7e3eeb175e95b70a75c4e476f184a42e5c905c53003be3af965ccdda3f1285ed"
+      },
+      "reason": "Reference 話し合い/はなしあい (master N2) is the same lexeme as the new entry 話し合い【はなしあい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 話し合い/はなしあい at N2 (gloss: discussion; conference; conférence)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600910; spelling=話し合い; reading=はなしあい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1600910 as the reference form.",
+          "selected": {
+            "sequence": "1600910",
+            "spelling": "話し合い",
+            "reading": "はなしあい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discussion",
+                  "talk",
+                  "tête-à-tête",
+                  "conference"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 話し合い|はなしあい#1 is the same lexeme as vocab-n2:correction:hanashiai; target hash bound to the assembled addition.",
+        "contentHash": "9a085e57f6c8d04a01363b05324174c2a023df227448b98e7402c72317f05d04",
+        "approvalHash": "9a085e57f6c8d04a01363b05324174c2a023df227448b98e7402c72317f05d04"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 話し合い|はなしあい#1 is the same lexeme as vocab-n2:correction:hanashiai (Nihongo Master lists 話し合い/はなしあい at N2 (gloss: discussion; conference; conférence).).",
+        "contentHash": "9a085e57f6c8d04a01363b05324174c2a023df227448b98e7402c72317f05d04",
+        "approvalHash": "9a085e57f6c8d04a01363b05324174c2a023df227448b98e7402c72317f05d04"
+      }
+    },
+    {
+      "key": "話合い|はなしあい",
+      "referenceIndex": 0,
+      "referenceHash": "22e2420a13162df4eb1662e96318799a7022e3ff57880ff71c8e4c72dc5eddd8",
+      "revisionId": "036-candidate-hanashiai-bdabb2c5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:hanashiai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:hanashiai": "7e3eeb175e95b70a75c4e476f184a42e5c905c53003be3af965ccdda3f1285ed"
+      },
+      "reason": "Reference 話合い/はなしあい (tanos N2) is the same lexeme as the new entry 話し合い【はなしあい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=70",
+          "finding": "tanos lists 話合い/はなしあい at N2 (gloss: discussion,conference)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600910; spelling=話し合い; reading=はなしあい; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1600910 as the reference form.",
+          "selected": {
+            "sequence": "1600910",
+            "spelling": "話し合い",
+            "reading": "はなしあい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discussion",
+                  "talk",
+                  "tête-à-tête",
+                  "conference"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 話合い|はなしあい#0 is the same lexeme as vocab-n2:correction:hanashiai; target hash bound to the assembled addition.",
+        "contentHash": "22485c4756f3467dab4a0069a4dadf5b9b62e5b8534863ad9a69d5cdb0568907",
+        "approvalHash": "22485c4756f3467dab4a0069a4dadf5b9b62e5b8534863ad9a69d5cdb0568907"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 話合い|はなしあい#0 is the same lexeme as vocab-n2:correction:hanashiai (tanos lists 話合い/はなしあい at N2 (gloss: discussion,conference).).",
+        "contentHash": "22485c4756f3467dab4a0069a4dadf5b9b62e5b8534863ad9a69d5cdb0568907",
+        "approvalHash": "22485c4756f3467dab4a0069a4dadf5b9b62e5b8534863ad9a69d5cdb0568907"
+      }
+    }
+  ]
+}

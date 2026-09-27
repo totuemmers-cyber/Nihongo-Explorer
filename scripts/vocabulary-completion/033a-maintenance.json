@@ -1,0 +1,3368 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:ki-chance",
+      "revisionId": "033-add-ki-chance",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "機",
+        "reading": "き",
+        "romaji": "ki",
+        "meaning": "(günstige) Gelegenheit, Zeitpunkt",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Allein vor allem in festen Wendungen: 機が熟す (die Zeit ist reif), 機を逃す (die Gelegenheit verpassen), 機を見る (den richtigen Moment abwarten). Als Suffix auch „Maschine“ (洗濯機) und „Flugzeug“ (旅客機).",
+        "examples": [
+          {
+            "japanese": "計画を発表するには、まだ機が熟していない。",
+            "romaji": "Keikaku o happyou suru ni wa, mada ki ga jukushite inai.",
+            "german": "Für die Bekanntgabe des Plans ist die Zeit noch nicht reif."
+          },
+          {
+            "japanese": "彼は機を見て、社長に新しい提案をした。",
+            "romaji": "Kare wa ki o mite, shachou ni atarashii teian o shita.",
+            "german": "Er wartete den richtigen Moment ab und machte dem Chef einen neuen Vorschlag."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101934053",
+            "patterns": [
+              1
+            ],
+            "finding": "機 / キ; 名詞/普通名詞/助数詞可能/*; *; *; lemma 機; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "機",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "機 as \"(günstige) Gelegenheit, Zeitpunkt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 機【き】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2037700; spelling=機; reading=き; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2037700 機/き sense(s) 1 support \"(günstige) Gelegenheit, Zeitpunkt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2037700",
+            "spelling": "機",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chance",
+                  "opportunity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "機|き",
+          "referenceIndex": 0,
+          "referenceHash": "cfed9d5255cd15ed410c5474a358fc3949c2d2a93388ad7018b876ec11ce2815"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"(günstige) Gelegenheit, Zeitpunkt\" matches JMdict 2037700 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Timing an announcement (機が熟す).",
+          "Choosing the right moment (機を見る)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2037700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@101934053 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101934053",
+            "patterns": [
+              1
+            ],
+            "finding": "機 / キ; 名詞/普通名詞/助数詞可能/*; *; *; lemma 機; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "機",
+              "reading": "き",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "機 as \"(günstige) Gelegenheit, Zeitpunkt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 機【き】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2037700 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e83ed986ab5e04b13abab639ea4de4bf1c4fa09a4c4b995cb137d85e181a0df5",
+        "approvalHash": "6c4470ec3636867cb14f477009cff1df4129c036d34df6fcdcb78bc2fbeddb8d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Both examples use free 機 in fixed phrases (機が熟す, 機を見る) as the note says; the Maschine/Flugzeug suffix remark is accurate. UniDic 機/キ row is the same written form (UniDic does not split senses); aType 1 fine. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "e83ed986ab5e04b13abab639ea4de4bf1c4fa09a4c4b995cb137d85e181a0df5",
+        "approvalHash": "6c4470ec3636867cb14f477009cff1df4129c036d34df6fcdcb78bc2fbeddb8d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kikai-apparatus",
+      "revisionId": "033-add-kikai-apparatus",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "器械",
+        "reading": "きかい",
+        "romaji": "kikai",
+        "meaning": "Gerät, Instrument, Apparat",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Meist kleinere Geräte und Instrumente ohne eigenen Antrieb, etwa in Medizin, Labor oder Sport (器械体操 = Geräteturnen). Große, angetriebene Maschinen heißen 機械（きかい）.",
+        "examples": [
+          {
+            "japanese": "この実験には特別な器械が必要だ。",
+            "romaji": "Kono jikken ni wa tokubetsu na kikai ga hitsuyou da.",
+            "german": "Für dieses Experiment braucht man ein spezielles Gerät."
+          },
+          {
+            "japanese": "手術の前に、医者は器械を一つずつ確認した。",
+            "romaji": "Shujutsu no mae ni, isha wa kikai o hitotsu zutsu kakunin shita.",
+            "german": "Vor der Operation prüfte der Arzt die Instrumente eines nach dem anderen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@102216158",
+            "patterns": [
+              2
+            ],
+            "finding": "器械 / キカイ; 名詞/普通名詞/一般/*; *; *; lemma 器械; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "器械",
+              "reading": "きかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "器械 as \"Gerät, Instrument, Apparat\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2. Editorial N2.",
+      "rationale": "Add 器械【きかい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220810; spelling=器械; reading=きかい; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1220810 器械/きかい sense(s) 1,2 support \"Gerät, Instrument, Apparat\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1220810",
+            "spelling": "器械",
+            "reading": "きかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "machine",
+                  "mechanism"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "instrument",
+                  "appliance",
+                  "apparatus"
+                ],
+                "notes": [
+                  "often 器械"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "器械|きかい",
+          "referenceIndex": 0,
+          "referenceHash": "e936f7981bc5ab60fea59d8814bf8fae3fe8b7db96cf857f17d44715389d307d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Gerät, Instrument, Apparat\" matches JMdict 1220810 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Laboratory equipment.",
+          "Surgical instruments."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1220810; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@102216158 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@102216158",
+            "patterns": [
+              2
+            ],
+            "finding": "器械 / キカイ; 名詞/普通名詞/一般/*; *; *; lemma 器械; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "器械",
+              "reading": "きかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "器械 as \"Gerät, Instrument, Apparat\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 器械【きかい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1220810 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b99c26cad01413f763f9b4a8953dcc4f2af11206cb950a177cae384cf44f30cd",
+        "approvalHash": "8411f65d947975c1f1b4810f217de2dd2a8d2476cfc8049baee1f9164d650b35"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "器械 vs 機械 distinction (no motor, instruments) is standard; lab/surgery examples fit sense 2. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "b99c26cad01413f763f9b4a8953dcc4f2af11206cb950a177cae384cf44f30cd",
+        "approvalHash": "8411f65d947975c1f1b4810f217de2dd2a8d2476cfc8049baee1f9164d650b35"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kikansha",
+      "revisionId": "033-add-kikansha",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "機関車",
+        "reading": "きかんしゃ",
+        "romaji": "kikansha",
+        "meaning": "Lokomotive",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Das Triebfahrzeug, das Waggons zieht: 蒸気機関車 (Dampflok, kurz SL), 電気機関車 (E-Lok).",
+        "examples": [
+          {
+            "japanese": "古い機関車が駅に展示されている。",
+            "romaji": "Furui kikansha ga eki ni tenji sarete iru.",
+            "german": "Am Bahnhof ist eine alte Lokomotive ausgestellt."
+          },
+          {
+            "japanese": "機関車が長い貨物列車を引いて走っていく。",
+            "romaji": "Kikansha ga nagai kamotsu ressha o hiite hashitte iku.",
+            "german": "Die Lokomotive zieht einen langen Güterzug."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 機関車【きかんしゃ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220880; spelling=機関車; reading=きかんしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1220880 機関車/きかんしゃ sense(s) 1 support \"Lokomotive\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1220880",
+            "spelling": "機関車",
+            "reading": "きかんしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locomotive",
+                  "engine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "機関車|きかんしゃ",
+          "referenceIndex": 0,
+          "referenceHash": "df3afd8759940dfd50b38584195c9dd869a24565389f212fdc2e06b44826ea0f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Lokomotive\" matches JMdict 1220880 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Museum exhibit at a station.",
+          "Pulling a freight train."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1220880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 機関車 / きかんしゃ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 機関車 / きかんしゃ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 機関車【きかんしゃ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1220880 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a4c5783a35ac91ffe3f9ceb64860c307aef7f5627c8a16ebcabec94ff40e99da",
+        "approvalHash": "e071406d1d130a04f06f53f23994528adf8b06711e157d56a34a486548ada455"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Examples natural; pitch unknown is acceptable (no exact row). Romaji, German, JMdict senses, level N2 and pitch provenance (unknown) checked; headword new per check.cjs.",
+        "contentHash": "a4c5783a35ac91ffe3f9ceb64860c307aef7f5627c8a16ebcabec94ff40e99da",
+        "approvalHash": "e071406d1d130a04f06f53f23994528adf8b06711e157d56a34a486548ada455"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kikin",
+      "revisionId": "033-add-kikin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "飢饉",
+        "reading": "ききん",
+        "romaji": "kikin",
+        "meaning": "Hungersnot; (akuter) Mangel",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N2",
+        "notes": "Hungersnot nach Missernten. Übertragen auch für einen schweren Mangel: 水飢饉 (Wassermangel).",
+        "examples": [
+          {
+            "japanese": "昔、この地方では大きな飢饉が何度も起きた。",
+            "romaji": "Mukashi, kono chihou de wa ooki na kikin ga nando mo okita.",
+            "german": "Früher gab es in dieser Gegend mehrmals große Hungersnöte."
+          },
+          {
+            "japanese": "雨が降らず、夏には水の飢饉になった。",
+            "romaji": "Ame ga furazu, natsu ni wa mizu no kikin ni natta.",
+            "german": "Weil es nicht regnete, herrschte im Sommer akuter Wassermangel."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103545997",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "飢饉 / キキン; 名詞/普通名詞/一般/*; *; *; lemma 飢饉; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "飢饉",
+              "reading": "ききん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "飢饉 as \"Hungersnot; (akuter) Mangel\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 飢饉【ききん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591080; spelling=飢饉; reading=ききん; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1591080 飢饉/ききん sense(s) 1,2 support \"Hungersnot; (akuter) Mangel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1591080",
+            "spelling": "飢饉",
+            "reading": "ききん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "famine",
+                  "crop failure"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chronic shortage (e.g. of water)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "飢饉|ききん",
+          "referenceIndex": 0,
+          "referenceHash": "876040e52b2910da8c6c7001627fdd538e0b058896d2a576ad073ba1bad3bde7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Hungersnot; (akuter) Mangel\" matches JMdict 1591080 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Historical famine.",
+          "Water shortage (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1591080; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@103545997 attest 2,1; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103545997",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "飢饉 / キキン; 名詞/普通名詞/一般/*; *; *; lemma 飢饉; aType 2,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "飢饉",
+              "reading": "ききん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "飢饉 as \"Hungersnot; (akuter) Mangel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 飢饉【ききん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1591080 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "81dca805009bc5d5dd9cee5b4afe3f0ee97efc95f9529fbc03c5a6f3f8c66ab1",
+        "approvalHash": "112d530b081e5aa96e8f92e7457b85992281d14c76fd6f7e2880c970524fd2c0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "ex2 水の飢饉 is less common than 水飢饉 but grammatical and matches sense 2. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "81dca805009bc5d5dd9cee5b4afe3f0ee97efc95f9529fbc03c5a6f3f8c66ab1",
+        "approvalHash": "112d530b081e5aa96e8f92e7457b85992281d14c76fd6f7e2880c970524fd2c0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kiseru",
+      "revisionId": "033-add-kiseru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "着せる",
+        "reading": "きせる",
+        "romaji": "kiseru",
+        "meaning": "(jemandem etwas) anziehen; (Schuld) zuschieben",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N2",
+        "notes": "Transitives Ichidan-Verb zu 着る: 子どもに服を着せる (dem Kind Kleidung anziehen). Übertragen: 罪を着せる (jemandem ein Verbrechen anhängen).",
+        "examples": [
+          {
+            "japanese": "母は赤ちゃんに暖かい服を着せた。",
+            "romaji": "Haha wa akachan ni atatakai fuku o kiseta.",
+            "german": "Die Mutter zog dem Baby warme Kleidung an."
+          },
+          {
+            "japanese": "彼は自分の失敗の責任を部下に着せた。",
+            "romaji": "Kare wa jibun no shippai no sekinin o buka ni kiseta.",
+            "german": "Er schob die Verantwortung für seinen Fehler einem Mitarbeiter zu."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "きせる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "きせる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104206176",
+            "patterns": [
+              0
+            ],
+            "finding": "着せる / キセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 着せる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "着せる",
+              "reading": "きせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "着せる as \"(jemandem etwas) anziehen; (Schuld) zuschieben\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 着せる【きせる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1422990; spelling=着せる; reading=きせる; senses=1,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1422990 着せる/きせる sense(s) 1,3 support \"(jemandem etwas) anziehen; (Schuld) zuschieben\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1422990",
+            "spelling": "着せる",
+            "reading": "きせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put clothes on (someone)",
+                  "to dress",
+                  "to clothe"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pin (e.g. a crime on someone)",
+                  "to lay (blame)",
+                  "to charge (with an offence)",
+                  "to give (a bad name)",
+                  "to remind someone of (their indebtedness)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "着せる|きせる",
+          "referenceIndex": 0,
+          "referenceHash": "a1974f489aea78e7a51c65c7e5d38bc72a250cb96d6d3210161acd387a4fc57b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"(jemandem etwas) anziehen; (Schuld) zuschieben\" matches JMdict 1422990 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Dressing a baby.",
+          "Shifting blame (sense 3)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1422990; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading きせる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104206176 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104206176",
+            "patterns": [
+              0
+            ],
+            "finding": "着せる / キセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 着せる; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "着せる",
+              "reading": "きせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "着せる as \"(jemandem etwas) anziehen; (Schuld) zuschieben\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 着せる【きせる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1422990 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "79c0626b228b95800c644a9689da0281aa9ee1ea089bef7f43bd63af718e894c",
+        "approvalHash": "30b8463c9f9c12f75d2fd6f416e0bf2fe6638651fba7b7d578cec9258d0bfbe5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "ex2 責任を…に着せる is covered by the dictionary sense 罪・責任などを負わせる; ichidan meta correct. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "79c0626b228b95800c644a9689da0281aa9ee1ea089bef7f43bd63af718e894c",
+        "approvalHash": "30b8463c9f9c12f75d2fd6f416e0bf2fe6638651fba7b7d578cec9258d0bfbe5"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kitai",
+      "revisionId": "033-add-kitai",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "気体",
+        "reading": "きたい",
+        "romaji": "kitai",
+        "meaning": "Gas, gasförmiger Stoff",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N2",
+        "notes": "Aggregatzustand neben 固体 (fest) und 液体 (flüssig). Gleich klingend: 期待 (Erwartung).",
+        "examples": [
+          {
+            "japanese": "水は熱すると気体になる。",
+            "romaji": "Mizu wa nessuru to kitai ni naru.",
+            "german": "Wasser wird gasförmig, wenn man es erhitzt."
+          },
+          {
+            "japanese": "この気体には色もにおいもない。",
+            "romaji": "Kono kitai ni wa iro mo nioi mo nai.",
+            "german": "Dieses Gas hat weder Farbe noch Geruch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104315839",
+            "patterns": [
+              0
+            ],
+            "finding": "気体 / キタイ; 名詞/普通名詞/一般/*; *; *; lemma 気体; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気体",
+              "reading": "きたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気体 as \"Gas, gasförmiger Stoff\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 気体【きたい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222460; spelling=気体; reading=きたい; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1222460 気体/きたい sense(s) 1 support \"Gas, gasförmiger Stoff\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1222460",
+            "spelling": "気体",
+            "reading": "きたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gas",
+                  "vapour",
+                  "vapor",
+                  "gaseous body"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "気体|きたい",
+          "referenceIndex": 0,
+          "referenceHash": "cc53cffd3012c6b066acf2346e4c400b79160c4b27092d4e16750df6347d48ef"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Gas, gasförmiger Stoff\" matches JMdict 1222460 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "States of matter.",
+          "Describing a gas."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1222460; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104315839 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104315839",
+            "patterns": [
+              0
+            ],
+            "finding": "気体 / キタイ; 名詞/普通名詞/一般/*; *; *; lemma 気体; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "気体",
+              "reading": "きたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "気体 as \"Gas, gasförmiger Stoff\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 気体【きたい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1222460 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "28871858273e9941b760aca3e4e3c1f6ff0b1dd9968ca8687cfd642fad61308f",
+        "approvalHash": "99ed40b73fdb72cdcbed77e1a0a2a2bda3320c1b75a897f00b763a8ca7edbab3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean; homophone note 期待 accurate. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "28871858273e9941b760aca3e4e3c1f6ff0b1dd9968ca8687cfd642fad61308f",
+        "approvalHash": "99ed40b73fdb72cdcbed77e1a0a2a2bda3320c1b75a897f00b763a8ca7edbab3"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kichi",
+      "revisionId": "033-add-kichi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "基地",
+        "reading": "きち",
+        "romaji": "kichi",
+        "meaning": "Stützpunkt, Basis",
+        "type": "Nomen",
+        "category": "Ort",
+        "level": "N2",
+        "notes": "Militärischer Stützpunkt (米軍基地) oder Ausgangsbasis, z. B. 南極の観測基地 (Forschungsstation in der Antarktis), 秘密基地 (geheimes Versteck von Kindern).",
+        "examples": [
+          {
+            "japanese": "島には大きな軍の基地がある。",
+            "romaji": "Shima ni wa ooki na gun no kichi ga aru.",
+            "german": "Auf der Insel gibt es einen großen Militärstützpunkt."
+          },
+          {
+            "japanese": "子どものころ、森に秘密の基地を作った。",
+            "romaji": "Kodomo no koro, mori ni himitsu no kichi o tsukutta.",
+            "german": "Als Kind habe ich im Wald ein geheimes Versteck gebaut."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104652510",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "基地 / キチ; 名詞/普通名詞/一般/*; *; *; lemma 基地; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "基地",
+              "reading": "きち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "基地 as \"Stützpunkt, Basis\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 基地【きち】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1219110; spelling=基地; reading=きち; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1219110 基地/きち sense(s) 1 support \"Stützpunkt, Basis\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1219110",
+            "spelling": "基地",
+            "reading": "きち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "base (military, expedition, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "基地|きち",
+          "referenceIndex": 0,
+          "referenceHash": "99787878983f927cf7effbe252afceff8bee1c8f9f52f89a0ee16df0207bc3e1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Stützpunkt, Basis\" matches JMdict 1219110 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Military base.",
+          "Children’s secret hideout."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1219110; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104652510 attest 1,2; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104652510",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "基地 / キチ; 名詞/普通名詞/一般/*; *; *; lemma 基地; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "基地",
+              "reading": "きち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "基地 as \"Stützpunkt, Basis\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 基地【きち】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1219110 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "897c975bb506b8338d4c87d5a8aacdea544146b01bbe95e4deabc3db5e72c31c",
+        "approvalHash": "88c94d40011c075239d280b762e9ccad78fe15392eff52c675ed1803044c069a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean; 秘密の基地 / Versteck fine. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "897c975bb506b8338d4c87d5a8aacdea544146b01bbe95e4deabc3db5e72c31c",
+        "approvalHash": "88c94d40011c075239d280b762e9ccad78fe15392eff52c675ed1803044c069a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gisshiri",
+      "revisionId": "033-add-gisshiri",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぎっしり",
+        "reading": "ぎっしり",
+        "romaji": "gisshiri",
+        "meaning": "dicht gedrängt, randvoll",
+        "type": "Adverb",
+        "category": "Zustand",
+        "level": "N2",
+        "notes": "Etwas ist so voll, dass kein Platz mehr bleibt: 予定がぎっしり (ein voller Terminkalender), 本がぎっしり詰まった棚.",
+        "examples": [
+          {
+            "japanese": "箱にはりんごがぎっしり詰まっていた。",
+            "romaji": "Hako ni wa ringo ga gisshiri tsumatte ita.",
+            "german": "Die Kiste war randvoll mit Äpfeln."
+          },
+          {
+            "japanese": "今週は予定がぎっしりで、休む暇がない。",
+            "romaji": "Konshuu wa yotei ga gisshiri de, yasumu hima ga nai.",
+            "german": "Diese Woche ist mein Terminkalender voll, ich habe keine Zeit zum Ausruhen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109123255",
+            "patterns": [
+              3
+            ],
+            "finding": "ぎっしり / ギッシリ; 副詞/*/*/*; *; *; lemma ぎっしり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぎっしり",
+              "reading": "ぎっしり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ぎっしり as \"dicht gedrängt, randvoll\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ぎっしり【ぎっしり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003590; spelling=ぎっしり; reading=ぎっしり; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1003590 ぎっしり/ぎっしり sense(s) 1 support \"dicht gedrängt, randvoll\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1003590",
+            "spelling": "ぎっしり",
+            "reading": "ぎっしり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "tightly (packed)",
+                  "densely",
+                  "closely",
+                  "crammed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぎっしり|ぎっしり",
+          "referenceIndex": 0,
+          "referenceHash": "116fb16e0ae8ac373bdbcd1c95b17909643bd5bac9f95aa59313fa7c22cdfa4a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"dicht gedrängt, randvoll\" matches JMdict 1003590 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Packed box.",
+          "Busy schedule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1003590; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@109123255 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109123255",
+            "patterns": [
+              3
+            ],
+            "finding": "ぎっしり / ギッシリ; 副詞/*/*/*; *; *; lemma ぎっしり; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ぎっしり",
+              "reading": "ぎっしり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "ぎっしり as \"dicht gedrängt, randvoll\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add ぎっしり【ぎっしり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1003590 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b03d14f2493a87d41421410e4e962d3d68afb702367cf396be2323fcd05bed53",
+        "approvalHash": "c37d6868c2a60afa4236ebbc2850f0c470557934c2dfee1b4574f8ba36eba9ec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Both uses (packed box, packed schedule) natural. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "b03d14f2493a87d41421410e4e962d3d68afb702367cf396be2323fcd05bed53",
+        "approvalHash": "c37d6868c2a60afa4236ebbc2850f0c470557934c2dfee1b4574f8ba36eba9ec"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kyakuseki",
+      "revisionId": "033-add-kyakuseki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "客席",
+        "reading": "きゃくせき",
+        "romaji": "kyakuseki",
+        "meaning": "Zuschauerplätze; Publikum",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N2",
+        "notes": "Die Sitzplätze für Gäste im Theater, Stadion oder Restaurant und übertragen die Zuschauer selbst: 客席から拍手が起こった.",
+        "examples": [
+          {
+            "japanese": "コンサートが始まる前に、客席はいっぱいになった。",
+            "romaji": "Konsaato ga hajimaru mae ni, kyakuseki wa ippai ni natta.",
+            "german": "Noch vor Konzertbeginn waren alle Zuschauerplätze besetzt."
+          },
+          {
+            "japanese": "歌手が手を振ると、客席から大きな拍手が起こった。",
+            "romaji": "Kashu ga te o furu to, kyakuseki kara ooki na hakushu ga okotta.",
+            "german": "Als die Sängerin winkte, brach im Publikum lauter Applaus aus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105635347",
+            "patterns": [
+              0
+            ],
+            "finding": "客席 / キャクセキ; 名詞/普通名詞/一般/*; *; *; lemma 客席; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "客席",
+              "reading": "きゃくせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "客席 as \"Zuschauerplätze; Publikum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 客席【きゃくせき】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226760; spelling=客席; reading=きゃくせき; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1226760 客席/きゃくせき sense(s) 1,2 support \"Zuschauerplätze; Publikum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1226760",
+            "spelling": "客席",
+            "reading": "きゃくせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "guest seating (e.g. theater, stadium)",
+                  "passenger seat (e.g. taxi)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "客席|きゃくせき",
+          "referenceIndex": 0,
+          "referenceHash": "5ea10519c5e16fd857f3415349c78be80bf47e6eea2fabf55344d9079a20c342"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Zuschauerplätze; Publikum\" matches JMdict 1226760 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Full auditorium.",
+          "Audience reaction (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1226760; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105635347 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105635347",
+            "patterns": [
+              0
+            ],
+            "finding": "客席 / キャクセキ; 名詞/普通名詞/一般/*; *; *; lemma 客席; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "客席",
+              "reading": "きゃくせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "客席 as \"Zuschauerplätze; Publikum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 客席【きゃくせき】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1226760 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "70eaff554f3adb0f8e780907e6960b911548762ac0ea2a3b5890822af1bb9be0",
+        "approvalHash": "5561869831a2a17b8dc8ccb30a10862ca6335be3fee7e6b611c64ac899f16b36"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Senses 1 and 2 each illustrated. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "70eaff554f3adb0f8e780907e6960b911548762ac0ea2a3b5890822af1bb9be0",
+        "approvalHash": "5561869831a2a17b8dc8ccb30a10862ca6335be3fee7e6b611c64ac899f16b36"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kyakuma",
+      "revisionId": "033-add-kyakuma",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "客間",
+        "reading": "きゃくま",
+        "romaji": "kyakuma",
+        "meaning": "Gästezimmer, Empfangsraum",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Raum in einem Haus, in dem man Gäste empfängt; in traditionellen Häusern oft ein Tatamiraum (和室).",
+        "examples": [
+          {
+            "japanese": "お客さんを客間に案内した。",
+            "romaji": "Okyakusan o kyakuma ni annai shita.",
+            "german": "Ich führte den Gast in den Empfangsraum."
+          },
+          {
+            "japanese": "祖父の家には広い客間がある。",
+            "romaji": "Sofu no ie ni wa hiroi kyakuma ga aru.",
+            "german": "Im Haus meines Großvaters gibt es ein großes Gästezimmer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105643562",
+            "patterns": [
+              0
+            ],
+            "finding": "客間 / キャクマ; 名詞/普通名詞/一般/*; *; *; lemma 客間; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "客間",
+              "reading": "きゃくま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "客間 as \"Gästezimmer, Empfangsraum\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 客間【きゃくま】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226710; spelling=客間; reading=きゃくま; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1226710 客間/きゃくま sense(s) 1 support \"Gästezimmer, Empfangsraum\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1226710",
+            "spelling": "客間",
+            "reading": "きゃくま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drawing room",
+                  "parlor",
+                  "parlour",
+                  "guest room"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "客間|きゃくま",
+          "referenceIndex": 0,
+          "referenceHash": "c0b4707b36f7b7e25e7240b93b530c8bdc9f882c4aa36c4ba61631927adbc04f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Gästezimmer, Empfangsraum\" matches JMdict 1226710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Showing a guest in.",
+          "Describing a house."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1226710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@105643562 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105643562",
+            "patterns": [
+              0
+            ],
+            "finding": "客間 / キャクマ; 名詞/普通名詞/一般/*; *; *; lemma 客間; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "客間",
+              "reading": "きゃくま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "客間 as \"Gästezimmer, Empfangsraum\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 客間【きゃくま】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1226710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7d9efde52a654965fcc5b5d9161342911a8a9aa1f097e6640e6d222e417e2d05",
+        "approvalHash": "9603a6210411fe1645a151b933e530725cc9f8e1688c8b8b0a53de370602a55e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "7d9efde52a654965fcc5b5d9161342911a8a9aa1f097e6640e6d222e417e2d05",
+        "approvalHash": "9603a6210411fe1645a151b933e530725cc9f8e1688c8b8b0a53de370602a55e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gyangu",
+      "revisionId": "033-add-gyangu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ギャング",
+        "reading": "ギャング",
+        "romaji": "gyangu",
+        "meaning": "Gangsterbande; Gangster",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N2",
+        "notes": "Bewaffnete Verbrecherbande, besonders aus Filmen über Amerika. Die japanische Mafia heißt 暴力団 oder ヤクザ.",
+        "examples": [
+          {
+            "japanese": "映画の中でギャングが銀行を襲った。",
+            "romaji": "Eiga no naka de gyangu ga ginkou o osotta.",
+            "german": "Im Film überfiel eine Gangsterbande eine Bank."
+          },
+          {
+            "japanese": "その町はギャングの争いで危険になった。",
+            "romaji": "Sono machi wa gyangu no arasoi de kiken ni natta.",
+            "german": "Durch Bandenkriege wurde die Stadt gefährlich."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109225681",
+            "patterns": [
+              1
+            ],
+            "finding": "ギャング / ギャング; 名詞/普通名詞/一般/*; *; *; lemma ギャング-gang; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ギャング",
+              "reading": "ギャング",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ギャング as \"Gangsterbande; Gangster\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ギャング【ギャング】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1043150; spelling=ギャング; reading=ギャング; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1043150 ギャング/ギャング sense(s) 1,2 support \"Gangsterbande; Gangster\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1043150",
+            "spelling": "ギャング",
+            "reading": "ギャング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gang"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "gangster"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ぎゃんぐ|ぎゃんぐ",
+          "referenceIndex": 0,
+          "referenceHash": "d422e874e0a5528e21b0cf5bc9622603e3e2073acab9c5f7e623740806408ad8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Gangsterbande; Gangster\" matches JMdict 1043150 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Film plot.",
+          "Gang violence in a city."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1043150; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@109225681 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109225681",
+            "patterns": [
+              1
+            ],
+            "finding": "ギャング / ギャング; 名詞/普通名詞/一般/*; *; *; lemma ギャング-gang; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ギャング",
+              "reading": "ギャング",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ギャング as \"Gangsterbande; Gangster\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add ギャング【ギャング】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1043150 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5cfde0616efdedf6dae078e77b5660939046e62dd2dc9c4bdadab0c1a7eb0e97",
+        "approvalHash": "a4393b36544a7342d261e7785eb15c32cced79c15d51c8bea44abbe099fe78dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean; ヤクザ/暴力団 contrast accurate. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "5cfde0616efdedf6dae078e77b5660939046e62dd2dc9c4bdadab0c1a7eb0e97",
+        "approvalHash": "a4393b36544a7342d261e7785eb15c32cced79c15d51c8bea44abbe099fe78dd"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "機|き",
+      "referenceIndex": 0,
+      "referenceHash": "cfed9d5255cd15ed410c5474a358fc3949c2d2a93388ad7018b876ec11ce2815",
+      "revisionId": "033-candidate-ki-chance-a58487fc-0",
+      "predecessorRevisionHash": "65095d46d1ab3452a3d7d46d179369249c9bbac449b42bc959f88276cc1814ec",
+      "predecessorHash": "2513799a5f38682d9942e145fae423bfd32a6abd6deeeccbaebef0cb997a4189",
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ki-chance"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ki-chance": "e83ed986ab5e04b13abab639ea4de4bf1c4fa09a4c4b995cb137d85e181a0df5"
+      },
+      "reason": "Reference 機/き (master N2) is the same lexeme as the new entry 機【き】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 機/き at N2 (gloss: chance; opportunity)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2037700; spelling=機; reading=き; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 2037700 as the reference form.",
+          "selected": {
+            "sequence": "2037700",
+            "spelling": "機",
+            "reading": "き",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chance",
+                  "opportunity"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 機|き#0 is the same lexeme as vocab-n2:correction:ki-chance; target hash bound to the assembled addition.",
+        "contentHash": "4492ea74c825c14d1f3c55194223a7a94ba2b19196de5fa72c2b81cb2a64fa35",
+        "approvalHash": "4492ea74c825c14d1f3c55194223a7a94ba2b19196de5fa72c2b81cb2a64fa35"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:ki-chance (機/き at N2 (gloss: chance; opportunity)).",
+        "contentHash": "4492ea74c825c14d1f3c55194223a7a94ba2b19196de5fa72c2b81cb2a64fa35",
+        "approvalHash": "4492ea74c825c14d1f3c55194223a7a94ba2b19196de5fa72c2b81cb2a64fa35"
+      }
+    },
+    {
+      "key": "器械|きかい",
+      "referenceIndex": 0,
+      "referenceHash": "e936f7981bc5ab60fea59d8814bf8fae3fe8b7db96cf857f17d44715389d307d",
+      "revisionId": "033-candidate-kikai-apparatus-85a9b938-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kikai-apparatus"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kikai-apparatus": "b99c26cad01413f763f9b4a8953dcc4f2af11206cb950a177cae384cf44f30cd"
+      },
+      "reason": "Reference 器械/きかい (tanos N2) is the same lexeme as the new entry 器械【きかい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 器械/きかい at N2 (gloss: instrument)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220810; spelling=器械; reading=きかい; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1220810 as the reference form.",
+          "selected": {
+            "sequence": "1220810",
+            "spelling": "器械",
+            "reading": "きかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "machine",
+                  "mechanism"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "instrument",
+                  "appliance",
+                  "apparatus"
+                ],
+                "notes": [
+                  "often 器械"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 器械|きかい#0 is the same lexeme as vocab-n2:correction:kikai-apparatus; target hash bound to the assembled addition.",
+        "contentHash": "02fabb67b944fb8c1258bec5966f812d68a0479ac8f9f1ec83bfcaa08bb3d3ae",
+        "approvalHash": "02fabb67b944fb8c1258bec5966f812d68a0479ac8f9f1ec83bfcaa08bb3d3ae"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kikai-apparatus (器械/きかい at N2 (gloss: instrument)).",
+        "contentHash": "02fabb67b944fb8c1258bec5966f812d68a0479ac8f9f1ec83bfcaa08bb3d3ae",
+        "approvalHash": "02fabb67b944fb8c1258bec5966f812d68a0479ac8f9f1ec83bfcaa08bb3d3ae"
+      }
+    },
+    {
+      "key": "機関車|きかんしゃ",
+      "referenceIndex": 0,
+      "referenceHash": "df3afd8759940dfd50b38584195c9dd869a24565389f212fdc2e06b44826ea0f",
+      "revisionId": "033-candidate-kikansha-1c8f586e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kikansha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kikansha": "a4c5783a35ac91ffe3f9ceb64860c307aef7f5627c8a16ebcabec94ff40e99da"
+      },
+      "reason": "Reference 機関車/きかんしゃ (tanos N2) is the same lexeme as the new entry 機関車【きかんしゃ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 機関車/きかんしゃ at N2 (gloss: locomotive,engine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220880; spelling=機関車; reading=きかんしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1220880 as the reference form.",
+          "selected": {
+            "sequence": "1220880",
+            "spelling": "機関車",
+            "reading": "きかんしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locomotive",
+                  "engine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 機関車|きかんしゃ#0 is the same lexeme as vocab-n2:correction:kikansha; target hash bound to the assembled addition.",
+        "contentHash": "ef9ece0ac91955cca0c88a3cf4146da198340dffd76aa4bdd8cc512553de7917",
+        "approvalHash": "ef9ece0ac91955cca0c88a3cf4146da198340dffd76aa4bdd8cc512553de7917"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kikansha (機関車/きかんしゃ at N2 (gloss: locomotive,engine)).",
+        "contentHash": "ef9ece0ac91955cca0c88a3cf4146da198340dffd76aa4bdd8cc512553de7917",
+        "approvalHash": "ef9ece0ac91955cca0c88a3cf4146da198340dffd76aa4bdd8cc512553de7917"
+      }
+    },
+    {
+      "key": "機関車|きかんしゃ",
+      "referenceIndex": 1,
+      "referenceHash": "ecfbf6d9b3e7515b279e49149577d867fc6c5ac860c2ac8a619459b2d49a218d",
+      "revisionId": "033-candidate-kikansha-1c8f586e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kikansha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kikansha": "a4c5783a35ac91ffe3f9ceb64860c307aef7f5627c8a16ebcabec94ff40e99da"
+      },
+      "reason": "Reference 機関車/きかんしゃ (master N2) is the same lexeme as the new entry 機関車【きかんしゃ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 機関車/きかんしゃ at N2 (gloss: locomotive; engine; locomotive)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1220880; spelling=機関車; reading=きかんしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1220880 as the reference form.",
+          "selected": {
+            "sequence": "1220880",
+            "spelling": "機関車",
+            "reading": "きかんしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "locomotive",
+                  "engine"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 機関車|きかんしゃ#1 is the same lexeme as vocab-n2:correction:kikansha; target hash bound to the assembled addition.",
+        "contentHash": "f8db3d294d2525360b9d2ec20730e49f4ec4bc010e2bbd4e02e31b6149d05591",
+        "approvalHash": "f8db3d294d2525360b9d2ec20730e49f4ec4bc010e2bbd4e02e31b6149d05591"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kikansha (機関車/きかんしゃ at N2 (gloss: locomotive; engine; locomotive)).",
+        "contentHash": "f8db3d294d2525360b9d2ec20730e49f4ec4bc010e2bbd4e02e31b6149d05591",
+        "approvalHash": "f8db3d294d2525360b9d2ec20730e49f4ec4bc010e2bbd4e02e31b6149d05591"
+      }
+    },
+    {
+      "key": "飢饉|ききん",
+      "referenceIndex": 0,
+      "referenceHash": "876040e52b2910da8c6c7001627fdd538e0b058896d2a576ad073ba1bad3bde7",
+      "revisionId": "033-candidate-kikin-57223214-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kikin"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kikin": "81dca805009bc5d5dd9cee5b4afe3f0ee97efc95f9529fbc03c5a6f3f8c66ab1"
+      },
+      "reason": "Reference 飢饉/ききん (tanos N2) is the same lexeme as the new entry 飢饉【ききん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 飢饉/ききん at N2 (gloss: famine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591080; spelling=飢饉; reading=ききん; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1591080 as the reference form.",
+          "selected": {
+            "sequence": "1591080",
+            "spelling": "飢饉",
+            "reading": "ききん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "famine",
+                  "crop failure"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chronic shortage (e.g. of water)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 飢饉|ききん#0 is the same lexeme as vocab-n2:correction:kikin; target hash bound to the assembled addition.",
+        "contentHash": "281b330ab1ba5ed537257312cad8081b5386202c2f7b4527009679752b418f0e",
+        "approvalHash": "281b330ab1ba5ed537257312cad8081b5386202c2f7b4527009679752b418f0e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kikin (飢饉/ききん at N2 (gloss: famine)).",
+        "contentHash": "281b330ab1ba5ed537257312cad8081b5386202c2f7b4527009679752b418f0e",
+        "approvalHash": "281b330ab1ba5ed537257312cad8081b5386202c2f7b4527009679752b418f0e"
+      }
+    },
+    {
+      "key": "飢饉|ききん",
+      "referenceIndex": 1,
+      "referenceHash": "2cada7416229796945118888e1e4e5c65ae56217245b032b90a66020d6d0a176",
+      "revisionId": "033-candidate-kikin-57223214-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kikin"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kikin": "81dca805009bc5d5dd9cee5b4afe3f0ee97efc95f9529fbc03c5a6f3f8c66ab1"
+      },
+      "reason": "Reference 飢饉/ききん (master N2) is the same lexeme as the new entry 飢饉【ききん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 飢饉/ききん at N2 (gloss: famine; drought; shortage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1591080; spelling=飢饉; reading=ききん; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1591080 as the reference form.",
+          "selected": {
+            "sequence": "1591080",
+            "spelling": "飢饉",
+            "reading": "ききん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "famine",
+                  "crop failure"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chronic shortage (e.g. of water)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 飢饉|ききん#1 is the same lexeme as vocab-n2:correction:kikin; target hash bound to the assembled addition.",
+        "contentHash": "de991a33c5d54de617b02bf414e5806f369df435222c5b47c46960a6b88a8fc0",
+        "approvalHash": "de991a33c5d54de617b02bf414e5806f369df435222c5b47c46960a6b88a8fc0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kikin (飢饉/ききん at N2 (gloss: famine; drought; shortage)).",
+        "contentHash": "de991a33c5d54de617b02bf414e5806f369df435222c5b47c46960a6b88a8fc0",
+        "approvalHash": "de991a33c5d54de617b02bf414e5806f369df435222c5b47c46960a6b88a8fc0"
+      }
+    },
+    {
+      "key": "着せる|きせる",
+      "referenceIndex": 0,
+      "referenceHash": "a1974f489aea78e7a51c65c7e5d38bc72a250cb96d6d3210161acd387a4fc57b",
+      "revisionId": "033-candidate-kiseru-f9daed61-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kiseru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kiseru": "79c0626b228b95800c644a9689da0281aa9ee1ea089bef7f43bd63af718e894c"
+      },
+      "reason": "Reference 着せる/きせる (tanos N2) is the same lexeme as the new entry 着せる【きせる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 着せる/きせる at N2 (gloss: to put on clothes)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1422990; spelling=着せる; reading=きせる; senses=1,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1422990 as the reference form.",
+          "selected": {
+            "sequence": "1422990",
+            "spelling": "着せる",
+            "reading": "きせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put clothes on (someone)",
+                  "to dress",
+                  "to clothe"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pin (e.g. a crime on someone)",
+                  "to lay (blame)",
+                  "to charge (with an offence)",
+                  "to give (a bad name)",
+                  "to remind someone of (their indebtedness)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 着せる|きせる#0 is the same lexeme as vocab-n2:correction:kiseru; target hash bound to the assembled addition.",
+        "contentHash": "134a60072f84ed7c25d8010a923788faf55648ead0add02f00e19842fe155d5c",
+        "approvalHash": "134a60072f84ed7c25d8010a923788faf55648ead0add02f00e19842fe155d5c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kiseru (着せる/きせる at N2 (gloss: to put on clothes)).",
+        "contentHash": "134a60072f84ed7c25d8010a923788faf55648ead0add02f00e19842fe155d5c",
+        "approvalHash": "134a60072f84ed7c25d8010a923788faf55648ead0add02f00e19842fe155d5c"
+      }
+    },
+    {
+      "key": "着せる|きせる",
+      "referenceIndex": 1,
+      "referenceHash": "ad46648241cf320028f9c58f03373767217f5b4e5fb46979f3e651d45b92d995",
+      "revisionId": "033-candidate-kiseru-f9daed61-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kiseru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kiseru": "79c0626b228b95800c644a9689da0281aa9ee1ea089bef7f43bd63af718e894c"
+      },
+      "reason": "Reference 着せる/きせる (master N2) is the same lexeme as the new entry 着せる【きせる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 着せる/きせる at N2 (gloss: to put clothes on (someone); couvrir; habiller)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1422990; spelling=着せる; reading=きせる; senses=1,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1422990 as the reference form.",
+          "selected": {
+            "sequence": "1422990",
+            "spelling": "着せる",
+            "reading": "きせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put clothes on (someone)",
+                  "to dress",
+                  "to clothe"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pin (e.g. a crime on someone)",
+                  "to lay (blame)",
+                  "to charge (with an offence)",
+                  "to give (a bad name)",
+                  "to remind someone of (their indebtedness)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 着せる|きせる#1 is the same lexeme as vocab-n2:correction:kiseru; target hash bound to the assembled addition.",
+        "contentHash": "ebbb795a928894951e6fe0cef038fa523126a08d69266ce45e582c00afa5d80b",
+        "approvalHash": "ebbb795a928894951e6fe0cef038fa523126a08d69266ce45e582c00afa5d80b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kiseru (着せる/きせる at N2 (gloss: to put clothes on (someone); couvrir; habiller)).",
+        "contentHash": "ebbb795a928894951e6fe0cef038fa523126a08d69266ce45e582c00afa5d80b",
+        "approvalHash": "ebbb795a928894951e6fe0cef038fa523126a08d69266ce45e582c00afa5d80b"
+      }
+    },
+    {
+      "key": "気体|きたい",
+      "referenceIndex": 0,
+      "referenceHash": "cc53cffd3012c6b066acf2346e4c400b79160c4b27092d4e16750df6347d48ef",
+      "revisionId": "033-candidate-kitai-9cb4d0be-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kitai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kitai": "28871858273e9941b760aca3e4e3c1f6ff0b1dd9968ca8687cfd642fad61308f"
+      },
+      "reason": "Reference 気体/きたい (tanos N2) is the same lexeme as the new entry 気体【きたい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 気体/きたい at N2 (gloss: vapour,gas)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222460; spelling=気体; reading=きたい; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222460 as the reference form.",
+          "selected": {
+            "sequence": "1222460",
+            "spelling": "気体",
+            "reading": "きたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gas",
+                  "vapour",
+                  "vapor",
+                  "gaseous body"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 気体|きたい#0 is the same lexeme as vocab-n2:correction:kitai; target hash bound to the assembled addition.",
+        "contentHash": "118591e9136964a00dfe6e9e4f01ee5f7268066d9c33ff1cd2a5859b720647df",
+        "approvalHash": "118591e9136964a00dfe6e9e4f01ee5f7268066d9c33ff1cd2a5859b720647df"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kitai (気体/きたい at N2 (gloss: vapour,gas)).",
+        "contentHash": "118591e9136964a00dfe6e9e4f01ee5f7268066d9c33ff1cd2a5859b720647df",
+        "approvalHash": "118591e9136964a00dfe6e9e4f01ee5f7268066d9c33ff1cd2a5859b720647df"
+      }
+    },
+    {
+      "key": "気体|きたい",
+      "referenceIndex": 1,
+      "referenceHash": "ea30ac9f7b42b1aa57f9ddcfe35344b6f25c6eba8507012cfe7f578f1dbb4107",
+      "revisionId": "033-candidate-kitai-9cb4d0be-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kitai"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kitai": "28871858273e9941b760aca3e4e3c1f6ff0b1dd9968ca8687cfd642fad61308f"
+      },
+      "reason": "Reference 気体/きたい (master N2) is the same lexeme as the new entry 気体【きたい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 気体/きたい at N2 (gloss: vapour; vapor; gas)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1222460; spelling=気体; reading=きたい; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1222460 as the reference form.",
+          "selected": {
+            "sequence": "1222460",
+            "spelling": "気体",
+            "reading": "きたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gas",
+                  "vapour",
+                  "vapor",
+                  "gaseous body"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 気体|きたい#1 is the same lexeme as vocab-n2:correction:kitai; target hash bound to the assembled addition.",
+        "contentHash": "3462c0bb9213b77cae0bff174514283b6346d18e3d1761f01b12ee933cbc9985",
+        "approvalHash": "3462c0bb9213b77cae0bff174514283b6346d18e3d1761f01b12ee933cbc9985"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kitai (気体/きたい at N2 (gloss: vapour; vapor; gas)).",
+        "contentHash": "3462c0bb9213b77cae0bff174514283b6346d18e3d1761f01b12ee933cbc9985",
+        "approvalHash": "3462c0bb9213b77cae0bff174514283b6346d18e3d1761f01b12ee933cbc9985"
+      }
+    },
+    {
+      "key": "基地|きち",
+      "referenceIndex": 0,
+      "referenceHash": "99787878983f927cf7effbe252afceff8bee1c8f9f52f89a0ee16df0207bc3e1",
+      "revisionId": "033-candidate-kichi-3823bf9f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kichi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kichi": "897c975bb506b8338d4c87d5a8aacdea544146b01bbe95e4deabc3db5e72c31c"
+      },
+      "reason": "Reference 基地/きち (tanos N2) is the same lexeme as the new entry 基地【きち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists 基地/きち at N2 (gloss: base)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1219110; spelling=基地; reading=きち; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1219110 as the reference form.",
+          "selected": {
+            "sequence": "1219110",
+            "spelling": "基地",
+            "reading": "きち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "base (military, expedition, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 基地|きち#0 is the same lexeme as vocab-n2:correction:kichi; target hash bound to the assembled addition.",
+        "contentHash": "6ac03c51a91db6cfe3564d3597400aee905c860a78e7e5b71d979be2d736a6e4",
+        "approvalHash": "6ac03c51a91db6cfe3564d3597400aee905c860a78e7e5b71d979be2d736a6e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kichi (基地/きち at N2 (gloss: base)).",
+        "contentHash": "6ac03c51a91db6cfe3564d3597400aee905c860a78e7e5b71d979be2d736a6e4",
+        "approvalHash": "6ac03c51a91db6cfe3564d3597400aee905c860a78e7e5b71d979be2d736a6e4"
+      }
+    },
+    {
+      "key": "基地|きち",
+      "referenceIndex": 1,
+      "referenceHash": "674437afce0023e6264c7180899c5f805be752a90279b5b47c430fc357c571e7",
+      "revisionId": "033-candidate-kichi-3823bf9f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kichi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kichi": "897c975bb506b8338d4c87d5a8aacdea544146b01bbe95e4deabc3db5e72c31c"
+      },
+      "reason": "Reference 基地/きち (master N2) is the same lexeme as the new entry 基地【きち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 基地/きち at N2 (gloss: base; base; база)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1219110; spelling=基地; reading=きち; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1219110 as the reference form.",
+          "selected": {
+            "sequence": "1219110",
+            "spelling": "基地",
+            "reading": "きち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "base (military, expedition, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 基地|きち#1 is the same lexeme as vocab-n2:correction:kichi; target hash bound to the assembled addition.",
+        "contentHash": "975781e068cc8a1045134a5206db3bd0bd76c72a304b1993da4f38fbbab75bfd",
+        "approvalHash": "975781e068cc8a1045134a5206db3bd0bd76c72a304b1993da4f38fbbab75bfd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kichi (基地/きち at N2 (gloss: base; base; база)).",
+        "contentHash": "975781e068cc8a1045134a5206db3bd0bd76c72a304b1993da4f38fbbab75bfd",
+        "approvalHash": "975781e068cc8a1045134a5206db3bd0bd76c72a304b1993da4f38fbbab75bfd"
+      }
+    },
+    {
+      "key": "ぎっしり|ぎっしり",
+      "referenceIndex": 0,
+      "referenceHash": "116fb16e0ae8ac373bdbcd1c95b17909643bd5bac9f95aa59313fa7c22cdfa4a",
+      "revisionId": "033-candidate-gisshiri-45b7c84d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gisshiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gisshiri": "b03d14f2493a87d41421410e4e962d3d68afb702367cf396be2323fcd05bed53"
+      },
+      "reason": "Reference ぎっしり/ぎっしり (tanos N2) is the same lexeme as the new entry ぎっしり【ぎっしり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=20",
+          "finding": "tanos lists ぎっしり/ぎっしり at N2 (gloss: tightly,fully)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003590; spelling=ぎっしり; reading=ぎっしり; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003590 as the reference form.",
+          "selected": {
+            "sequence": "1003590",
+            "spelling": "ぎっしり",
+            "reading": "ぎっしり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "tightly (packed)",
+                  "densely",
+                  "closely",
+                  "crammed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference ぎっしり|ぎっしり#0 is the same lexeme as vocab-n2:correction:gisshiri; target hash bound to the assembled addition.",
+        "contentHash": "00dbb7e1facd81eaa07f1929c778554cd3847c051fca80e2e8637a033d5eaa65",
+        "approvalHash": "00dbb7e1facd81eaa07f1929c778554cd3847c051fca80e2e8637a033d5eaa65"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gisshiri (ぎっしり/ぎっしり at N2 (gloss: tightly,fully)).",
+        "contentHash": "00dbb7e1facd81eaa07f1929c778554cd3847c051fca80e2e8637a033d5eaa65",
+        "approvalHash": "00dbb7e1facd81eaa07f1929c778554cd3847c051fca80e2e8637a033d5eaa65"
+      }
+    },
+    {
+      "key": "ぎっしり|ぎっしり",
+      "referenceIndex": 1,
+      "referenceHash": "6da005ee2a883aac5840974c375b23efdbc168b5f2e2d10e52e75d5a94725468",
+      "revisionId": "033-candidate-gisshiri-45b7c84d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gisshiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gisshiri": "b03d14f2493a87d41421410e4e962d3d68afb702367cf396be2323fcd05bed53"
+      },
+      "reason": "Reference ぎっしり/ぎっしり (master N2) is the same lexeme as the new entry ぎっしり【ぎっしり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ぎっしり/ぎっしり at N2 (gloss: tightly; fully; bondé)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1003590; spelling=ぎっしり; reading=ぎっしり; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1003590 as the reference form.",
+          "selected": {
+            "sequence": "1003590",
+            "spelling": "ぎっしり",
+            "reading": "ぎっしり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "tightly (packed)",
+                  "densely",
+                  "closely",
+                  "crammed"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference ぎっしり|ぎっしり#1 is the same lexeme as vocab-n2:correction:gisshiri; target hash bound to the assembled addition.",
+        "contentHash": "6c0af3e579d088e017bec1f6bd0d62b2b1299ebe80a2f5b4fd8bbcf52f51037b",
+        "approvalHash": "6c0af3e579d088e017bec1f6bd0d62b2b1299ebe80a2f5b4fd8bbcf52f51037b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gisshiri (ぎっしり/ぎっしり at N2 (gloss: tightly; fully; bondé)).",
+        "contentHash": "6c0af3e579d088e017bec1f6bd0d62b2b1299ebe80a2f5b4fd8bbcf52f51037b",
+        "approvalHash": "6c0af3e579d088e017bec1f6bd0d62b2b1299ebe80a2f5b4fd8bbcf52f51037b"
+      }
+    },
+    {
+      "key": "客席|きゃくせき",
+      "referenceIndex": 0,
+      "referenceHash": "5ea10519c5e16fd857f3415349c78be80bf47e6eea2fabf55344d9079a20c342",
+      "revisionId": "033-candidate-kyakuseki-1e4a2f66-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kyakuseki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kyakuseki": "70eaff554f3adb0f8e780907e6960b911548762ac0ea2a3b5890822af1bb9be0"
+      },
+      "reason": "Reference 客席/きゃくせき (tanos N2) is the same lexeme as the new entry 客席【きゃくせき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=21",
+          "finding": "tanos lists 客席/きゃくせき at N2 (gloss: guest seating)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226760; spelling=客席; reading=きゃくせき; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226760 as the reference form.",
+          "selected": {
+            "sequence": "1226760",
+            "spelling": "客席",
+            "reading": "きゃくせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "guest seating (e.g. theater, stadium)",
+                  "passenger seat (e.g. taxi)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 客席|きゃくせき#0 is the same lexeme as vocab-n2:correction:kyakuseki; target hash bound to the assembled addition.",
+        "contentHash": "efdedb8183a12114a38f7c2dc473599790adca6d2f6125b25458fb33658bdfed",
+        "approvalHash": "efdedb8183a12114a38f7c2dc473599790adca6d2f6125b25458fb33658bdfed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kyakuseki (客席/きゃくせき at N2 (gloss: guest seating)).",
+        "contentHash": "efdedb8183a12114a38f7c2dc473599790adca6d2f6125b25458fb33658bdfed",
+        "approvalHash": "efdedb8183a12114a38f7c2dc473599790adca6d2f6125b25458fb33658bdfed"
+      }
+    },
+    {
+      "key": "客席|きゃくせき",
+      "referenceIndex": 1,
+      "referenceHash": "f6d6b607e1263796a116c6919c36c2d7a84e8769ea01bf3e3f0450beb46907ec",
+      "revisionId": "033-candidate-kyakuseki-1e4a2f66-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kyakuseki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kyakuseki": "70eaff554f3adb0f8e780907e6960b911548762ac0ea2a3b5890822af1bb9be0"
+      },
+      "reason": "Reference 客席/きゃくせき (master N2) is the same lexeme as the new entry 客席【きゃくせき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 客席/きゃくせき at N2 (gloss: guest seating (e.g. theater, stadium); passenger seat (e.g. taxi); place (dans une salle de spectacle))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226760; spelling=客席; reading=きゃくせき; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226760 as the reference form.",
+          "selected": {
+            "sequence": "1226760",
+            "spelling": "客席",
+            "reading": "きゃくせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "guest seating (e.g. theater, stadium)",
+                  "passenger seat (e.g. taxi)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "audience"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 客席|きゃくせき#1 is the same lexeme as vocab-n2:correction:kyakuseki; target hash bound to the assembled addition.",
+        "contentHash": "14582b1f09e02be0007e27a07c8bda34bc3487734353508e4d8d14d3657452d8",
+        "approvalHash": "14582b1f09e02be0007e27a07c8bda34bc3487734353508e4d8d14d3657452d8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kyakuseki (客席/きゃくせき at N2 (gloss: guest seating (e.g. theater, stadium); passenger seat (e.g. taxi); place (dans une salle de spectacle))).",
+        "contentHash": "14582b1f09e02be0007e27a07c8bda34bc3487734353508e4d8d14d3657452d8",
+        "approvalHash": "14582b1f09e02be0007e27a07c8bda34bc3487734353508e4d8d14d3657452d8"
+      }
+    },
+    {
+      "key": "客間|きゃくま",
+      "referenceIndex": 0,
+      "referenceHash": "c0b4707b36f7b7e25e7240b93b530c8bdc9f882c4aa36c4ba61631927adbc04f",
+      "revisionId": "033-candidate-kyakuma-2a718730-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kyakuma"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kyakuma": "7d9efde52a654965fcc5b5d9161342911a8a9aa1f097e6640e6d222e417e2d05"
+      },
+      "reason": "Reference 客間/きゃくま (tanos N2) is the same lexeme as the new entry 客間【きゃくま】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=21",
+          "finding": "tanos lists 客間/きゃくま at N2 (gloss: parlor,guest room)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226710; spelling=客間; reading=きゃくま; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226710 as the reference form.",
+          "selected": {
+            "sequence": "1226710",
+            "spelling": "客間",
+            "reading": "きゃくま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drawing room",
+                  "parlor",
+                  "parlour",
+                  "guest room"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 客間|きゃくま#0 is the same lexeme as vocab-n2:correction:kyakuma; target hash bound to the assembled addition.",
+        "contentHash": "327a2a64e8617261d4717fcdbcb234fb1d8927d958c81f69d4bef8e355214e95",
+        "approvalHash": "327a2a64e8617261d4717fcdbcb234fb1d8927d958c81f69d4bef8e355214e95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kyakuma (客間/きゃくま at N2 (gloss: parlor,guest room)).",
+        "contentHash": "327a2a64e8617261d4717fcdbcb234fb1d8927d958c81f69d4bef8e355214e95",
+        "approvalHash": "327a2a64e8617261d4717fcdbcb234fb1d8927d958c81f69d4bef8e355214e95"
+      }
+    },
+    {
+      "key": "客間|きゃくま",
+      "referenceIndex": 1,
+      "referenceHash": "16292ea192fc9dc9fb5031f73de3e5cef19cf90e920b0e3ad768bdd776944f65",
+      "revisionId": "033-candidate-kyakuma-2a718730-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kyakuma"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kyakuma": "7d9efde52a654965fcc5b5d9161342911a8a9aa1f097e6640e6d222e417e2d05"
+      },
+      "reason": "Reference 客間/きゃくま (master N2) is the same lexeme as the new entry 客間【きゃくま】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 客間/きゃくま at N2 (gloss: parlor; parlour; guest room)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1226710; spelling=客間; reading=きゃくま; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1226710 as the reference form.",
+          "selected": {
+            "sequence": "1226710",
+            "spelling": "客間",
+            "reading": "きゃくま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drawing room",
+                  "parlor",
+                  "parlour",
+                  "guest room"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 客間|きゃくま#1 is the same lexeme as vocab-n2:correction:kyakuma; target hash bound to the assembled addition.",
+        "contentHash": "4191136fe060af90f43feebe66c6fe6412d4f59b276b1e14c6f815dbcd29a86c",
+        "approvalHash": "4191136fe060af90f43feebe66c6fe6412d4f59b276b1e14c6f815dbcd29a86c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kyakuma (客間/きゃくま at N2 (gloss: parlor; parlour; guest room)).",
+        "contentHash": "4191136fe060af90f43feebe66c6fe6412d4f59b276b1e14c6f815dbcd29a86c",
+        "approvalHash": "4191136fe060af90f43feebe66c6fe6412d4f59b276b1e14c6f815dbcd29a86c"
+      }
+    },
+    {
+      "key": "ぎゃんぐ|ぎゃんぐ",
+      "referenceIndex": 0,
+      "referenceHash": "d422e874e0a5528e21b0cf5bc9622603e3e2073acab9c5f7e623740806408ad8",
+      "revisionId": "033-candidate-gyangu-77aba39c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gyangu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gyangu": "5cfde0616efdedf6dae078e77b5660939046e62dd2dc9c4bdadab0c1a7eb0e97"
+      },
+      "reason": "Reference ギャング/ギャング (tanos N2) is the same lexeme as the new entry ギャング【ギャング】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=21",
+          "finding": "tanos lists ギャング/ギャング at N2 (gloss: gang)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1043150; spelling=ギャング; reading=ギャング; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1043150 as the reference form.",
+          "selected": {
+            "sequence": "1043150",
+            "spelling": "ギャング",
+            "reading": "ギャング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gang"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "gangster"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference ぎゃんぐ|ぎゃんぐ#0 is the same lexeme as vocab-n2:correction:gyangu; target hash bound to the assembled addition.",
+        "contentHash": "4d229b0fc2476ffbda52f48a0f0d0994a6cfcdb68c3a7dd74b2103555ef35e5a",
+        "approvalHash": "4d229b0fc2476ffbda52f48a0f0d0994a6cfcdb68c3a7dd74b2103555ef35e5a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gyangu (ギャング/ギャング at N2 (gloss: gang)).",
+        "contentHash": "4d229b0fc2476ffbda52f48a0f0d0994a6cfcdb68c3a7dd74b2103555ef35e5a",
+        "approvalHash": "4d229b0fc2476ffbda52f48a0f0d0994a6cfcdb68c3a7dd74b2103555ef35e5a"
+      }
+    },
+    {
+      "key": "ぎゃんぐ|ぎゃんぐ",
+      "referenceIndex": 1,
+      "referenceHash": "3af3e70fbed0a14547cde78c95de6302127bf4cf9045a1e9a51cd8dec7b131a5",
+      "revisionId": "033-candidate-gyangu-77aba39c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gyangu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gyangu": "5cfde0616efdedf6dae078e77b5660939046e62dd2dc9c4bdadab0c1a7eb0e97"
+      },
+      "reason": "Reference ギャング/ギャング (master N2) is the same lexeme as the new entry ギャング【ギャング】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ギャング/ギャング at N2 (gloss: gang)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1043150; spelling=ギャング; reading=ギャング; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1043150 as the reference form.",
+          "selected": {
+            "sequence": "1043150",
+            "spelling": "ギャング",
+            "reading": "ギャング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gang"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "gangster"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference ぎゃんぐ|ぎゃんぐ#1 is the same lexeme as vocab-n2:correction:gyangu; target hash bound to the assembled addition.",
+        "contentHash": "5c7ad0795367ad85c315e39cd306b1037076339bf033a3178d43c25210aaf4f9",
+        "approvalHash": "5c7ad0795367ad85c315e39cd306b1037076339bf033a3178d43c25210aaf4f9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gyangu (ギャング/ギャング at N2 (gloss: gang)).",
+        "contentHash": "5c7ad0795367ad85c315e39cd306b1037076339bf033a3178d43c25210aaf4f9",
+        "approvalHash": "5c7ad0795367ad85c315e39cd306b1037076339bf033a3178d43c25210aaf4f9"
+      }
+    }
+  ]
+}

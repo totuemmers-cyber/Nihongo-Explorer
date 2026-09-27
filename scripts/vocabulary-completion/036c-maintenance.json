@@ -1,0 +1,3519 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:nendo",
+      "revisionId": "036-add-nendo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "年度",
+        "reading": "ねんど",
+        "romaji": "nendo",
+        "meaning": "Geschäftsjahr, Schuljahr",
+        "type": "Nomen",
+        "category": "Verwaltung",
+        "level": "N2",
+        "notes": "In Japan läuft das Geschäfts- und Schuljahr meist vom 1. April bis 31. März: 今年度, 来年度, 年度末 (Ende des Geschäftsjahres).",
+        "examples": [
+          {
+            "japanese": "年度末は仕事がとても忙しい。",
+            "romaji": "Nendomatsu wa shigoto ga totemo isogashii.",
+            "german": "Zum Ende des Geschäftsjahres gibt es sehr viel Arbeit."
+          },
+          {
+            "japanese": "日本の学校では、四月に新しい年度が始まる。",
+            "romaji": "Nihon no gakkou de wa, shigatsu ni atarashii nendo ga hajimaru.",
+            "german": "In japanischen Schulen beginnt das neue Schuljahr im April."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207117431",
+            "patterns": [
+              1
+            ],
+            "finding": "年度 / ネンド; 名詞/普通名詞/一般/*; *; *; lemma 年度; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "年度",
+              "reading": "ねんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "年度 as \"Geschäftsjahr, Schuljahr\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 年度【ねんど】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1469050; spelling=年度; reading=ねんど; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1469050 年度/ねんど sense(s) 1,2 support \"Geschäftsjahr, Schuljahr\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1469050",
+            "spelling": "年度",
+            "reading": "ねんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fiscal year (usu. April 1 to March 31 in Japan)",
+                  "financial year"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "academic year",
+                  "school year"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "年度|ねんど",
+          "referenceIndex": 0,
+          "referenceHash": "a55f6ad79a200fd1582986832b90a4b2bfcd3d6114e1f8fb426cc57e0bd70d8f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Geschäftsjahr, Schuljahr\" matches JMdict 1469050 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fiscal year-end.",
+          "Academic year."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1469050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@207117431 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207117431",
+            "patterns": [
+              1
+            ],
+            "finding": "年度 / ネンド; 名詞/普通名詞/一般/*; *; *; lemma 年度; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "年度",
+              "reading": "ねんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "年度 as \"Geschäftsjahr, Schuljahr\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 年度【ねんど】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1469050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "5bf4052174cc01304bc6638a703bd89de296f13595511d059741cd78c624b089",
+        "approvalHash": "16ecbfa13fc8f909e524e58bbad98d126f594650a3992400e893cf301f9c1eeb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — ex2 now uses 年度 standalone (新しい年度が始まる). No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "5bf4052174cc01304bc6638a703bd89de296f13595511d059741cd78c624b089",
+        "approvalHash": "16ecbfa13fc8f909e524e58bbad98d126f594650a3992400e893cf301f9c1eeb"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nousanbutsu",
+      "revisionId": "036-add-nousanbutsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "農産物",
+        "reading": "のうさんぶつ",
+        "romaji": "nousanbutsu",
+        "meaning": "Agrarprodukte, landwirtschaftliche Erzeugnisse",
+        "type": "Nomen",
+        "category": "Wirtschaft",
+        "level": "N2",
+        "notes": "Erzeugnisse aus Feldbau (Reis, Gemüse, Obst). Vgl. 水産物 (Meeresprodukte).",
+        "examples": [
+          {
+            "japanese": "この地域は農産物の生産がさかんだ。",
+            "romaji": "Kono chiiki wa nousanbutsu no seisan ga sakan da.",
+            "german": "In dieser Region werden viele Agrarprodukte erzeugt."
+          },
+          {
+            "japanese": "道の駅では地元の農産物を買うことができる。",
+            "romaji": "Michi no eki de wa jimoto no nousanbutsu o kau koto ga dekiru.",
+            "german": "An der Raststätte kann man Erzeugnisse aus der Region kaufen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 農産物【のうさんぶつ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470710; spelling=農産物; reading=のうさんぶつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1470710 農産物/のうさんぶつ sense(s) 1 support \"Agrarprodukte, landwirtschaftliche Erzeugnisse\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1470710",
+            "spelling": "農産物",
+            "reading": "のうさんぶつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural produce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "農産物|のうさんぶつ",
+          "referenceIndex": 0,
+          "referenceHash": "3b7a175b3d720556b1f176565f3bf9b9ff44cd989790ce00258ed5c8a0f62dcd"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Agrarprodukte, landwirtschaftliche Erzeugnisse\" matches JMdict 1470710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Regional production.",
+          "Buying local produce."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1470710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 農産物 / のうさんぶつ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 農産物 / のうさんぶつ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 農産物【のうさんぶつ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1470710 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "a03675a9b36d131db76336be18ec32fe900ad5f3b479514d656d1cd3f0fe2f5b",
+        "approvalHash": "cc268bac845e6f2c40b2a30b8116a2646234841359da1eb19a7273bec60ce205"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 農産物【のうさんぶつ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1470710; level N2 supported; pitch unknown consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "a03675a9b36d131db76336be18ec32fe900ad5f3b479514d656d1cd3f0fe2f5b",
+        "approvalHash": "cc268bac845e6f2c40b2a30b8116a2646234841359da1eb19a7273bec60ce205"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nouson",
+      "revisionId": "036-add-nouson",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "農村",
+        "reading": "のうそん",
+        "romaji": "nouson",
+        "meaning": "Bauerndorf, ländliche Gegend",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N2",
+        "notes": "Von der Landwirtschaft geprägte Gemeinde: 農村地帯 (ländliches Gebiet). Gegenstück: 都市 (Stadt).",
+        "examples": [
+          {
+            "japanese": "農村では若い人が減っている。",
+            "romaji": "Nouson de wa wakai hito ga hette iru.",
+            "german": "In den Bauerndörfern gibt es immer weniger junge Leute."
+          },
+          {
+            "japanese": "祖父母は小さな農村で暮らしている。",
+            "romaji": "Sofubo wa chiisa na nouson de kurashite iru.",
+            "german": "Meine Großeltern leben in einem kleinen Bauerndorf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207213319",
+            "patterns": [
+              0
+            ],
+            "finding": "農村 / ノウソン; 名詞/普通名詞/一般/*; *; *; lemma 農村; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "農村",
+              "reading": "のうそん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "農村 as \"Bauerndorf, ländliche Gegend\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 農村【のうそん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470730; spelling=農村; reading=のうそん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1470730 農村/のうそん sense(s) 1 support \"Bauerndorf, ländliche Gegend\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1470730",
+            "spelling": "農村",
+            "reading": "のうそん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural community",
+                  "farm village"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "農村|のうそん",
+          "referenceIndex": 0,
+          "referenceHash": "a6829db191a52b50b91aef796cac4bdec9001f1ad0c0cf4bee007d56c96598ee"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Bauerndorf, ländliche Gegend\" matches JMdict 1470730 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Rural depopulation.",
+          "Grandparents’ village."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1470730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@207213319 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207213319",
+            "patterns": [
+              0
+            ],
+            "finding": "農村 / ノウソン; 名詞/普通名詞/一般/*; *; *; lemma 農村; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "農村",
+              "reading": "のうそん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "農村 as \"Bauerndorf, ländliche Gegend\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 農村【のうそん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1470730 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "beba24fa13e221e4d855ec44207b4be8185fd23ec7eb3c343ef2a75e77eae972",
+        "approvalHash": "eb38628151e49bf07cee7517bf375c0ca1975f0bc20bd01cdd15c465c617749b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 農村【のうそん】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1470730; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "beba24fa13e221e4d855ec44207b4be8185fd23ec7eb3c343ef2a75e77eae972",
+        "approvalHash": "eb38628151e49bf07cee7517bf375c0ca1975f0bc20bd01cdd15c465c617749b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nouyaku",
+      "revisionId": "036-add-nouyaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "農薬",
+        "reading": "のうやく",
+        "romaji": "nouyaku",
+        "meaning": "Pflanzenschutzmittel, Pestizid",
+        "type": "Nomen",
+        "category": "Umwelt",
+        "level": "N2",
+        "notes": "Chemische Mittel in der Landwirtschaft: 農薬を使う, 無農薬の野菜 (Gemüse ohne Pestizide).",
+        "examples": [
+          {
+            "japanese": "この野菜は農薬を使わずに育てた。",
+            "romaji": "Kono yasai wa nouyaku o tsukawazu ni sodateta.",
+            "german": "Dieses Gemüse wurde ohne Pestizide angebaut."
+          },
+          {
+            "japanese": "農薬の使いすぎは環境に悪い。",
+            "romaji": "Nouyaku no tsukaisugi wa kankyou ni warui.",
+            "german": "Zu viel Pflanzenschutzmittel schadet der Umwelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207235906",
+            "patterns": [
+              0
+            ],
+            "finding": "農薬 / ノウヤク; 名詞/普通名詞/一般/*; *; *; lemma 農薬; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "農薬",
+              "reading": "のうやく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "農薬 as \"Pflanzenschutzmittel, Pestizid\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 農薬【のうやく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470780; spelling=農薬; reading=のうやく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1470780 農薬/のうやく sense(s) 1 support \"Pflanzenschutzmittel, Pestizid\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1470780",
+            "spelling": "農薬",
+            "reading": "のうやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural chemical",
+                  "agrochemical",
+                  "agrichemical"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "農薬|のうやく",
+          "referenceIndex": 0,
+          "referenceHash": "cdd230a633b892486757131d407ac34be33b3f23e02fb1b3d8e2330f876128a4"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Pflanzenschutzmittel, Pestizid\" matches JMdict 1470780 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Organic vegetables.",
+          "Environmental effect."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1470780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@207235906 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207235906",
+            "patterns": [
+              0
+            ],
+            "finding": "農薬 / ノウヤク; 名詞/普通名詞/一般/*; *; *; lemma 農薬; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "農薬",
+              "reading": "のうやく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "農薬 as \"Pflanzenschutzmittel, Pestizid\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 農薬【のうやく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1470780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "636a7989f20a2f90311f363a6a7ac07ac3f1eaad30709cb453574d3dce1795d8",
+        "approvalHash": "3d1098904a76f5a8cc46ba952035363f040b22efb3c930f0d66ee7f0f93dbb9f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 農薬【のうやく】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1470780; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "636a7989f20a2f90311f363a6a7ac07ac3f1eaad30709cb453574d3dce1795d8",
+        "approvalHash": "3d1098904a76f5a8cc46ba952035363f040b22efb3c930f0d66ee7f0f93dbb9f"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nouritsu",
+      "revisionId": "036-add-nouritsu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "能率",
+        "reading": "のうりつ",
+        "romaji": "nouritsu",
+        "meaning": "Leistungsfähigkeit, Effizienz",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N2",
+        "notes": "Wie viel Arbeit in einer bestimmten Zeit geschafft wird: 能率が上がる／下がる, 能率的 (effizient). Ähnlich: 効率.",
+        "examples": [
+          {
+            "japanese": "疲れていると仕事の能率が下がる。",
+            "romaji": "Tsukarete iru to shigoto no nouritsu ga sagaru.",
+            "german": "Wenn man müde ist, sinkt die Arbeitsleistung."
+          },
+          {
+            "japanese": "新しい機械で作業の能率が上がった。",
+            "romaji": "Atarashii kikai de sagyou no nouritsu ga agatta.",
+            "german": "Mit der neuen Maschine ist die Arbeit effizienter geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207238215",
+            "patterns": [
+              0
+            ],
+            "finding": "能率 / ノウリツ; 名詞/普通名詞/一般/*; *; *; lemma 能率; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "能率",
+              "reading": "のうりつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "能率 as \"Leistungsfähigkeit, Effizienz\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 能率【のうりつ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470330; spelling=能率; reading=のうりつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1470330 能率/のうりつ sense(s) 1 support \"Leistungsfähigkeit, Effizienz\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1470330",
+            "spelling": "能率",
+            "reading": "のうりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "efficiency"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "能率|のうりつ",
+          "referenceIndex": 0,
+          "referenceHash": "87dec3873fca834ad106265ad40d1b6fb93579ffa1257f2f941cd005ef50a52c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Leistungsfähigkeit, Effizienz\" matches JMdict 1470330 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Fatigue and output.",
+          "Improvement through machines."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1470330; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@207238215 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207238215",
+            "patterns": [
+              0
+            ],
+            "finding": "能率 / ノウリツ; 名詞/普通名詞/一般/*; *; *; lemma 能率; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "能率",
+              "reading": "のうりつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "能率 as \"Leistungsfähigkeit, Effizienz\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 能率【のうりつ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1470330 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "45fe62dff41b3a603e81e70cbddd2e66e36c2966b6e2681fe1ba44fc134668c1",
+        "approvalHash": "6edc807ab80bd96cd41e1510095711be0337c48761c13cbd9dd4bd37869e431b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 能率【のうりつ】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1470330; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "45fe62dff41b3a603e81e70cbddd2e66e36c2966b6e2681fe1ba44fc134668c1",
+        "approvalHash": "6edc807ab80bd96cd41e1510095711be0337c48761c13cbd9dd4bd37869e431b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nokogiri",
+      "revisionId": "036-add-nokogiri",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "のこぎり",
+        "reading": "のこぎり",
+        "romaji": "nokogiri",
+        "meaning": "Säge",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Werkzeug zum Sägen; japanische Sägen schneiden auf Zug. Kanji 鋸 selten.",
+        "examples": [
+          {
+            "japanese": "のこぎりで板を半分に切った。",
+            "romaji": "Nokogiri de ita o hanbun ni kitta.",
+            "german": "Ich habe das Brett mit der Säge halbiert."
+          },
+          {
+            "japanese": "のこぎりを使うときは手に気をつけて。",
+            "romaji": "Nokogiri o tsukau toki wa te ni ki o tsukete.",
+            "german": "Pass beim Sägen auf deine Hände auf."
+          }
+        ],
+        "pitch": 3,
+        "aliases": [
+          "鋸"
+        ],
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207447972",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "のこぎり / ノコギリ; 名詞/普通名詞/一般/*; *; *; lemma 鋸; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "のこぎり",
+              "reading": "のこぎり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "のこぎり as \"Säge\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1 and Nihongo Master N2 (鋸). Editorial N2.",
+      "rationale": "Add のこぎり【のこぎり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1232930; spelling=のこぎり; reading=のこぎり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1232930 のこぎり/のこぎり sense(s) 1 support \"Säge\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1232930",
+            "spelling": "のこぎり",
+            "reading": "のこぎり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "saw"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "のこぎり|のこぎり",
+          "referenceIndex": 0,
+          "referenceHash": "21ca1bde07908a73d1b3e61d314bf927f3965f336e30070e8e216505f1545c47"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Säge\" matches JMdict 1232930 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cutting a board.",
+          "Safety warning."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1232930; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1 and Nihongo Master N2 (鋸). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@207447972 attest 3,4; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207447972",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "のこぎり / ノコギリ; 名詞/普通名詞/一般/*; *; *; lemma 鋸; aType 3,4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "のこぎり",
+              "reading": "のこぎり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "のこぎり as \"Säge\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add のこぎり【のこぎり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1232930 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "463d62c01252d19bc71cf9cd2b1c84d697f82a6e3b52116066b5c90b047db7ac",
+        "approvalHash": "a6aa47a8e1f3dd3df8960148f219aced33abed0d5618798296858ea02a385227"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Note „japanische Sägen schneiden auf Zug“ is accurate (pull saws). Merge のこぎり/鋸 correct; pitch 3 (4) from exact row.",
+        "contentHash": "463d62c01252d19bc71cf9cd2b1c84d697f82a6e3b52116066b5c90b047db7ac",
+        "approvalHash": "a6aa47a8e1f3dd3df8960148f219aced33abed0d5618798296858ea02a385227"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nokorazu",
+      "revisionId": "036-add-nokorazu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "残らず",
+        "reading": "のこらず",
+        "romaji": "nokorazu",
+        "meaning": "restlos, ausnahmslos, alle",
+        "type": "Adverb",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Nichts bleibt übrig: 一人残らず (ausnahmslos jeder), 残らず食べる (alles aufessen).",
+        "examples": [
+          {
+            "japanese": "子どもたちは料理を残らず食べた。",
+            "romaji": "Kodomotachi wa ryouri o nokorazu tabeta.",
+            "german": "Die Kinder haben das Essen restlos aufgegessen."
+          },
+          {
+            "japanese": "クラスの全員が一人残らず参加した。",
+            "romaji": "Kurasu no zen'in ga hitori nokorazu sanka shita.",
+            "german": "Die ganze Klasse hat ausnahmslos teilgenommen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 残らず【のこらず】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611130; spelling=残らず; reading=のこらず; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1611130 残らず/のこらず sense(s) 1 support \"restlos, ausnahmslos, alle\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1611130",
+            "spelling": "残らず",
+            "reading": "のこらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "all",
+                  "entirely",
+                  "completely",
+                  "without exception"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "残らず|のこらず",
+          "referenceIndex": 0,
+          "referenceHash": "350fa13b5285b1217f7e5f63d610c2646244da56fb901f14eec2de3c2d468eda"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"restlos, ausnahmslos, alle\" matches JMdict 1611130 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Eating everything.",
+          "Everyone without exception."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1611130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 残らず / のこらず; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 残らず / のこらず",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 残らず【のこらず】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1611130 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "cafc8d0ee2261009268c8c5370f19a16e3ce121a70a70e3351b1e9198957f493",
+        "approvalHash": "6a9a1b21b2417c0ae0d5fba6b23a3d7645e31698a887ba1a4c36b8d1689c0681"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 残らず【のこらず】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1611130; level N2 supported; pitch unknown consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "cafc8d0ee2261009268c8c5370f19a16e3ce121a70a70e3351b1e9198957f493",
+        "approvalHash": "6a9a1b21b2417c0ae0d5fba6b23a3d7645e31698a887ba1a4c36b8d1689c0681"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nobori",
+      "revisionId": "036-add-nobori",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "上り",
+        "reading": "のぼり",
+        "romaji": "nobori",
+        "meaning": "Aufstieg; Fahrtrichtung nach Tokio bzw. zum Ausgangspunkt der Linie",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Gegenteil von 下り: 上り坂 (Anstieg), 上りの電車 (Zug Richtung Tokio bzw. Ausgangsbahnhof), 上り線.",
+        "examples": [
+          {
+            "japanese": "上りの電車は十分おきに来る。",
+            "romaji": "Nobori no densha wa juppun oki ni kuru.",
+            "german": "Die Züge Richtung Tokio kommen alle zehn Minuten."
+          },
+          {
+            "japanese": "この先は急な上りが続きます。",
+            "romaji": "Kono saki wa kyuu na nobori ga tsuzukimasu.",
+            "german": "Von hier an geht es steil bergauf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@208987424",
+            "patterns": [
+              0
+            ],
+            "finding": "上り / ノボリ; 名詞/普通名詞/一般/*; *; *; lemma 上り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上り",
+              "reading": "のぼり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "上り as \"Aufstieg; Fahrtrichtung nach Tokio bzw. zum Ausgangspunkt der Linie\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 上り【のぼり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352510; spelling=上り; reading=のぼり; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1352510 上り/のぼり sense(s) 1,2,3 support \"Aufstieg; Fahrtrichtung nach Tokio bzw. zum Ausgangspunkt der Linie\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1352510",
+            "spelling": "上り",
+            "reading": "のぼり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ascent",
+                  "climbing",
+                  "ascending (path)",
+                  "climb"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "up-train",
+                  "train heading toward the starting point of its route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "upbound (esp. toward Tokyo)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "上り|のぼり",
+          "referenceIndex": 0,
+          "referenceHash": "7863f28781d19ba82efe95fd20376db3efd14eba002174a1c4fbe745af000a8e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Aufstieg; Fahrtrichtung nach Tokio bzw. zum Ausgangspunkt der Linie\" matches JMdict 1352510 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Train direction.",
+          "Uphill road."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1352510; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@208987424 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@208987424",
+            "patterns": [
+              0
+            ],
+            "finding": "上り / ノボリ; 名詞/普通名詞/一般/*; *; *; lemma 上り; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "上り",
+              "reading": "のぼり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "上り as \"Aufstieg; Fahrtrichtung nach Tokio bzw. zum Ausgangspunkt der Linie\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 上り【のぼり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1352510 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "683ecd9e7a69211d60fa03d0c79c977c415b2e01cdaaffd433f1a0fdf6c1e9be",
+        "approvalHash": "14bb9a5e191d3d2528f692d1646bc85f50e3ed88120e411b9effb14ca9066f13"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 上り【のぼり】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1352510; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "683ecd9e7a69211d60fa03d0c79c977c415b2e01cdaaffd433f1a0fdf6c1e9be",
+        "approvalHash": "14bb9a5e191d3d2528f692d1646bc85f50e3ed88120e411b9effb14ca9066f13"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nori-glue",
+      "revisionId": "036-add-nori-glue",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "糊",
+        "reading": "のり",
+        "romaji": "nori",
+        "meaning": "Klebstoff, Kleister; Wäschestärke",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Klebstoff für Papier: 糊で貼る; auch Stärke für Wäsche (シャツに糊をつける). Gleich klingend: 海苔 (Seetang).",
+        "examples": [
+          {
+            "japanese": "写真を糊でノートに貼った。",
+            "romaji": "Shashin o nori de nooto ni hatta.",
+            "german": "Ich habe das Foto mit Klebstoff ins Heft geklebt."
+          },
+          {
+            "japanese": "クリーニング店でシャツに糊をつけてもらった。",
+            "romaji": "Kuriiningu ten de shatsu ni nori o tsukete moratta.",
+            "german": "In der Reinigung wurde mein Hemd gestärkt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@209786898",
+            "patterns": [
+              2
+            ],
+            "finding": "糊 / ノリ; 名詞/普通名詞/一般/*; *; *; lemma 糊; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "糊",
+              "reading": "のり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "糊 as \"Klebstoff, Kleister; Wäschestärke\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 糊【のり】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267400; spelling=糊; reading=のり; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1267400 糊/のり sense(s) 1,2 support \"Klebstoff, Kleister; Wäschestärke\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1267400",
+            "spelling": "糊",
+            "reading": "のり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paste",
+                  "glue"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clothing starch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "糊|のり",
+          "referenceIndex": 0,
+          "referenceHash": "dc70570c716ce0abfec7850aafa1ec5a8965a1ec435e7fdbe0b9925d35c1538f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Klebstoff, Kleister; Wäschestärke\" matches JMdict 1267400 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Glueing a photo.",
+          "Starching a shirt."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1267400; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@209786898 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@209786898",
+            "patterns": [
+              2
+            ],
+            "finding": "糊 / ノリ; 名詞/普通名詞/一般/*; *; *; lemma 糊; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "糊",
+              "reading": "のり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "糊 as \"Klebstoff, Kleister; Wäschestärke\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 糊【のり】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1267400 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "d4139ff8279ecd705f1e39fab5f979d8d1eb2725901b14de6bab0e2f02be2f51",
+        "approvalHash": "730f7da45f000191ebc9afc44c228e2980475523491bce681117433a489f53ac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 糊【のり】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1267400; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "d4139ff8279ecd705f1e39fab5f979d8d1eb2725901b14de6bab0e2f02be2f51",
+        "approvalHash": "730f7da45f000191ebc9afc44c228e2980475523491bce681117433a489f53ac"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:norikoshi",
+      "revisionId": "036-add-norikoshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "乗り越し",
+        "reading": "のりこし",
+        "romaji": "norikoshi",
+        "meaning": "Weiterfahrt über den Zielbahnhof hinaus",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Wenn man mit dem Fahrschein weiter fährt als bezahlt, zahlt man am 精算機 (Nachzahlautomat) nach: 乗り越し料金.",
+        "examples": [
+          {
+            "japanese": "寝てしまって、乗り越しをしてしまった。",
+            "romaji": "Nete shimatte, norikoshi o shite shimatta.",
+            "german": "Ich bin eingeschlafen und über meinen Bahnhof hinausgefahren."
+          },
+          {
+            "japanese": "乗り越しの場合は、精算機で料金を払ってください。",
+            "romaji": "Norikoshi no baai wa, seisanki de ryoukin o haratte kudasai.",
+            "german": "Wenn Sie weiter gefahren sind, zahlen Sie bitte am Nachzahlautomaten nach."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210204844",
+            "patterns": [
+              0
+            ],
+            "finding": "乗り越し / ノリコシ; 名詞/普通名詞/一般/*; *; *; lemma 乗り越し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "乗り越し",
+              "reading": "のりこし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "乗り越し as \"Weiterfahrt über den Zielbahnhof hinaus\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 乗り越し【のりこし】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600480; spelling=乗り越し; reading=のりこし; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1600480 乗り越し/のりこし sense(s) 1 support \"Weiterfahrt über den Zielbahnhof hinaus\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1600480",
+            "spelling": "乗り越し",
+            "reading": "のりこし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "riding past (one's station)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "乗り越し|のりこし",
+          "referenceIndex": 0,
+          "referenceHash": "c9caa640240dc1ba8edc6a7eef86a57b1eba2ba4b8d13abe2348b2a62858738b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Weiterfahrt über den Zielbahnhof hinaus\" matches JMdict 1600480 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Missing one’s stop.",
+          "Paying the fare difference."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1600480; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@210204844 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210204844",
+            "patterns": [
+              0
+            ],
+            "finding": "乗り越し / ノリコシ; 名詞/普通名詞/一般/*; *; *; lemma 乗り越し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "乗り越し",
+              "reading": "のりこし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "乗り越し as \"Weiterfahrt über den Zielbahnhof hinaus\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 乗り越し【のりこし】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1600480 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1154f6addeb47c95e56d4543063a84263c5adef767d28e08223d6aee4d204f34",
+        "approvalHash": "d0e79a7ff2812d9b1bf101a245b1ecbbfbe09859105d49fe1a1f0f3b1b9eae74"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 乗り越し【のりこし】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1600480; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "1154f6addeb47c95e56d4543063a84263c5adef767d28e08223d6aee4d204f34",
+        "approvalHash": "d0e79a7ff2812d9b1bf101a245b1ecbbfbe09859105d49fe1a1f0f3b1b9eae74"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:baiten",
+      "revisionId": "036-add-baiten",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "売店",
+        "reading": "ばいてん",
+        "romaji": "baiten",
+        "meaning": "Kiosk, Verkaufsstand",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N2",
+        "notes": "Kleiner Laden in Bahnhöfen, Krankenhäusern oder Schulen: 駅の売店, 病院の売店.",
+        "examples": [
+          {
+            "japanese": "駅の売店で新聞を買った。",
+            "romaji": "Eki no baiten de shinbun o katta.",
+            "german": "Ich habe am Bahnhofskiosk eine Zeitung gekauft."
+          },
+          {
+            "japanese": "病院の売店は夜八時まで開いている。",
+            "romaji": "Byouin no baiten wa yoru hachiji made aite iru.",
+            "german": "Der Kiosk im Krankenhaus hat bis 20 Uhr geöffnet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220092194",
+            "patterns": [
+              0
+            ],
+            "finding": "売店 / バイテン; 名詞/普通名詞/一般/*; *; *; lemma 売店; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売店",
+              "reading": "ばいてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "売店 as \"Kiosk, Verkaufsstand\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 売店【ばいてん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474040; spelling=売店; reading=ばいてん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1474040 売店/ばいてん sense(s) 1 support \"Kiosk, Verkaufsstand\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1474040",
+            "spelling": "売店",
+            "reading": "ばいてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stand",
+                  "stall",
+                  "booth",
+                  "kiosk",
+                  "store"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "売店|ばいてん",
+          "referenceIndex": 0,
+          "referenceHash": "d9f6276f2b9ed4d5a42b4dc0ef7938950c7bc518b782e69bf67d62ff959f3a49"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Kiosk, Verkaufsstand\" matches JMdict 1474040 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Buying a newspaper.",
+          "Hospital shop hours."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1474040; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@220092194 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220092194",
+            "patterns": [
+              0
+            ],
+            "finding": "売店 / バイテン; 名詞/普通名詞/一般/*; *; *; lemma 売店; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売店",
+              "reading": "ばいてん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "売店 as \"Kiosk, Verkaufsstand\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 売店【ばいてん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1474040 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "89c2800b44cf931b39286a10c10b5b1e0987f8c8225eb995aac1d5a56215588a",
+        "approvalHash": "d2d0f9cf81859d6c01c7cfdaf13845731e925663c9be8be9ba002706d222f179"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 売店【ばいてん】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1474040; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "89c2800b44cf931b39286a10c10b5b1e0987f8c8225eb995aac1d5a56215588a",
+        "approvalHash": "d2d0f9cf81859d6c01c7cfdaf13845731e925663c9be8be9ba002706d222f179"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "年度|ねんど",
+      "referenceIndex": 0,
+      "referenceHash": "a55f6ad79a200fd1582986832b90a4b2bfcd3d6114e1f8fb426cc57e0bd70d8f",
+      "revisionId": "036-candidate-nendo-3a555bdb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nendo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nendo": "5bf4052174cc01304bc6638a703bd89de296f13595511d059741cd78c624b089"
+      },
+      "reason": "Reference 年度/ねんど (tanos N2) is the same lexeme as the new entry 年度【ねんど】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 年度/ねんど at N2 (gloss: year,fiscal year,school year,term)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1469050; spelling=年度; reading=ねんど; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1469050 as the reference form.",
+          "selected": {
+            "sequence": "1469050",
+            "spelling": "年度",
+            "reading": "ねんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fiscal year (usu. April 1 to March 31 in Japan)",
+                  "financial year"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "academic year",
+                  "school year"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 年度|ねんど#0 is the same lexeme as vocab-n2:correction:nendo; target hash bound to the assembled addition.",
+        "contentHash": "403aa59064f3766f5b42ecf27998ac1330c4c08d6a31df96c48f94d6226ccc59",
+        "approvalHash": "403aa59064f3766f5b42ecf27998ac1330c4c08d6a31df96c48f94d6226ccc59"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 年度|ねんど#0 is the same lexeme as vocab-n2:correction:nendo (tanos lists 年度/ねんど at N2 (gloss: year,fiscal year,school year,term).).",
+        "contentHash": "403aa59064f3766f5b42ecf27998ac1330c4c08d6a31df96c48f94d6226ccc59",
+        "approvalHash": "403aa59064f3766f5b42ecf27998ac1330c4c08d6a31df96c48f94d6226ccc59"
+      }
+    },
+    {
+      "key": "年度|ねんど",
+      "referenceIndex": 1,
+      "referenceHash": "4e3e0185d5348f4dc1621951f27bb88ea7d0932384a467205a1feb2c816dd2a5",
+      "revisionId": "036-candidate-nendo-3a555bdb-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nendo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nendo": "5bf4052174cc01304bc6638a703bd89de296f13595511d059741cd78c624b089"
+      },
+      "reason": "Reference 年度/ねんど (master N2) is the same lexeme as the new entry 年度【ねんど】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 年度/ねんど at N2 (gloss: fiscal year (usu. April 1 to March 31 in Japan); financial year; année)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1469050; spelling=年度; reading=ねんど; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1469050 as the reference form.",
+          "selected": {
+            "sequence": "1469050",
+            "spelling": "年度",
+            "reading": "ねんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fiscal year (usu. April 1 to March 31 in Japan)",
+                  "financial year"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "academic year",
+                  "school year"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 年度|ねんど#1 is the same lexeme as vocab-n2:correction:nendo; target hash bound to the assembled addition.",
+        "contentHash": "1cb55a5cec8e216a5d955ac9beb382c4958dac356db7882a2a2273fa88b6f7ec",
+        "approvalHash": "1cb55a5cec8e216a5d955ac9beb382c4958dac356db7882a2a2273fa88b6f7ec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 年度|ねんど#1 is the same lexeme as vocab-n2:correction:nendo (Nihongo Master lists 年度/ねんど at N2 (gloss: fiscal year (usu. April 1 to March 31 in Japan); financial year; année).).",
+        "contentHash": "1cb55a5cec8e216a5d955ac9beb382c4958dac356db7882a2a2273fa88b6f7ec",
+        "approvalHash": "1cb55a5cec8e216a5d955ac9beb382c4958dac356db7882a2a2273fa88b6f7ec"
+      }
+    },
+    {
+      "key": "農産物|のうさんぶつ",
+      "referenceIndex": 0,
+      "referenceHash": "3b7a175b3d720556b1f176565f3bf9b9ff44cd989790ce00258ed5c8a0f62dcd",
+      "revisionId": "036-candidate-nousanbutsu-baa59e7f-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nousanbutsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nousanbutsu": "a03675a9b36d131db76336be18ec32fe900ad5f3b479514d656d1cd3f0fe2f5b"
+      },
+      "reason": "Reference 農産物/のうさんぶつ (tanos N2) is the same lexeme as the new entry 農産物【のうさんぶつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 農産物/のうさんぶつ at N2 (gloss: agricultural produce)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470710; spelling=農産物; reading=のうさんぶつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470710 as the reference form.",
+          "selected": {
+            "sequence": "1470710",
+            "spelling": "農産物",
+            "reading": "のうさんぶつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural produce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農産物|のうさんぶつ#0 is the same lexeme as vocab-n2:correction:nousanbutsu; target hash bound to the assembled addition.",
+        "contentHash": "b1205d915e82159a8afbe42f8e16f533edae2359d6490eb57c18af6641ccf550",
+        "approvalHash": "b1205d915e82159a8afbe42f8e16f533edae2359d6490eb57c18af6641ccf550"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農産物|のうさんぶつ#0 is the same lexeme as vocab-n2:correction:nousanbutsu (tanos lists 農産物/のうさんぶつ at N2 (gloss: agricultural produce).).",
+        "contentHash": "b1205d915e82159a8afbe42f8e16f533edae2359d6490eb57c18af6641ccf550",
+        "approvalHash": "b1205d915e82159a8afbe42f8e16f533edae2359d6490eb57c18af6641ccf550"
+      }
+    },
+    {
+      "key": "農産物|のうさんぶつ",
+      "referenceIndex": 1,
+      "referenceHash": "eccd76f77fe58090ecb000f6861887b6920c6b34a1fb6e3216f8b18699e6ccfc",
+      "revisionId": "036-candidate-nousanbutsu-baa59e7f-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nousanbutsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nousanbutsu": "a03675a9b36d131db76336be18ec32fe900ad5f3b479514d656d1cd3f0fe2f5b"
+      },
+      "reason": "Reference 農産物/のうさんぶつ (master N2) is the same lexeme as the new entry 農産物【のうさんぶつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 農産物/のうさんぶつ at N2 (gloss: agricultural produce; produit agricole; сельскохозяйственная продукция)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470710; spelling=農産物; reading=のうさんぶつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470710 as the reference form.",
+          "selected": {
+            "sequence": "1470710",
+            "spelling": "農産物",
+            "reading": "のうさんぶつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural produce"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農産物|のうさんぶつ#1 is the same lexeme as vocab-n2:correction:nousanbutsu; target hash bound to the assembled addition.",
+        "contentHash": "de927b61b9239d6e01e0848dd05501a0293aaa3d24d6f0492afb257aae7f5eeb",
+        "approvalHash": "de927b61b9239d6e01e0848dd05501a0293aaa3d24d6f0492afb257aae7f5eeb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農産物|のうさんぶつ#1 is the same lexeme as vocab-n2:correction:nousanbutsu (Nihongo Master lists 農産物/のうさんぶつ at N2 (gloss: agricultural produce; produit agricole; сельскохозяйственная продукция).).",
+        "contentHash": "de927b61b9239d6e01e0848dd05501a0293aaa3d24d6f0492afb257aae7f5eeb",
+        "approvalHash": "de927b61b9239d6e01e0848dd05501a0293aaa3d24d6f0492afb257aae7f5eeb"
+      }
+    },
+    {
+      "key": "農村|のうそん",
+      "referenceIndex": 0,
+      "referenceHash": "a6829db191a52b50b91aef796cac4bdec9001f1ad0c0cf4bee007d56c96598ee",
+      "revisionId": "036-candidate-nouson-8c07de20-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouson"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouson": "beba24fa13e221e4d855ec44207b4be8185fd23ec7eb3c343ef2a75e77eae972"
+      },
+      "reason": "Reference 農村/のうそん (tanos N2) is the same lexeme as the new entry 農村【のうそん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 農村/のうそん at N2 (gloss: agricultural community,farm village,rural)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470730; spelling=農村; reading=のうそん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470730 as the reference form.",
+          "selected": {
+            "sequence": "1470730",
+            "spelling": "農村",
+            "reading": "のうそん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural community",
+                  "farm village"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農村|のうそん#0 is the same lexeme as vocab-n2:correction:nouson; target hash bound to the assembled addition.",
+        "contentHash": "a2edeb14dd155b55242a17db0c0b82a437684f9e0e77ea4b26194ca1438e3119",
+        "approvalHash": "a2edeb14dd155b55242a17db0c0b82a437684f9e0e77ea4b26194ca1438e3119"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農村|のうそん#0 is the same lexeme as vocab-n2:correction:nouson (tanos lists 農村/のうそん at N2 (gloss: agricultural community,farm village,rural).).",
+        "contentHash": "a2edeb14dd155b55242a17db0c0b82a437684f9e0e77ea4b26194ca1438e3119",
+        "approvalHash": "a2edeb14dd155b55242a17db0c0b82a437684f9e0e77ea4b26194ca1438e3119"
+      }
+    },
+    {
+      "key": "農村|のうそん",
+      "referenceIndex": 1,
+      "referenceHash": "6ae77c0be1866e4a917727c45d1ed18337356ebe446bae489ae19b70fa1e146b",
+      "revisionId": "036-candidate-nouson-8c07de20-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouson"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouson": "beba24fa13e221e4d855ec44207b4be8185fd23ec7eb3c343ef2a75e77eae972"
+      },
+      "reason": "Reference 農村/のうそん (master N2) is the same lexeme as the new entry 農村【のうそん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 農村/のうそん at N2 (gloss: agricultural community; farm village; rural)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470730; spelling=農村; reading=のうそん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470730 as the reference form.",
+          "selected": {
+            "sequence": "1470730",
+            "spelling": "農村",
+            "reading": "のうそん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural community",
+                  "farm village"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農村|のうそん#1 is the same lexeme as vocab-n2:correction:nouson; target hash bound to the assembled addition.",
+        "contentHash": "488ea8b1ef833da182752c1b558bafe263bbbeca62bcb2ad6413a50ab511041f",
+        "approvalHash": "488ea8b1ef833da182752c1b558bafe263bbbeca62bcb2ad6413a50ab511041f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農村|のうそん#1 is the same lexeme as vocab-n2:correction:nouson (Nihongo Master lists 農村/のうそん at N2 (gloss: agricultural community; farm village; rural).).",
+        "contentHash": "488ea8b1ef833da182752c1b558bafe263bbbeca62bcb2ad6413a50ab511041f",
+        "approvalHash": "488ea8b1ef833da182752c1b558bafe263bbbeca62bcb2ad6413a50ab511041f"
+      }
+    },
+    {
+      "key": "農薬|のうやく",
+      "referenceIndex": 0,
+      "referenceHash": "cdd230a633b892486757131d407ac34be33b3f23e02fb1b3d8e2330f876128a4",
+      "revisionId": "036-candidate-nouyaku-41c8a595-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouyaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouyaku": "636a7989f20a2f90311f363a6a7ac07ac3f1eaad30709cb453574d3dce1795d8"
+      },
+      "reason": "Reference 農薬/のうやく (tanos N2) is the same lexeme as the new entry 農薬【のうやく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 農薬/のうやく at N2 (gloss: agricultural chemicals)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470780; spelling=農薬; reading=のうやく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470780 as the reference form.",
+          "selected": {
+            "sequence": "1470780",
+            "spelling": "農薬",
+            "reading": "のうやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural chemical",
+                  "agrochemical",
+                  "agrichemical"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農薬|のうやく#0 is the same lexeme as vocab-n2:correction:nouyaku; target hash bound to the assembled addition.",
+        "contentHash": "e8d9a68f1e025073e74dd8d7f9f94948522a12d4ae3f8212a915a616b19ce332",
+        "approvalHash": "e8d9a68f1e025073e74dd8d7f9f94948522a12d4ae3f8212a915a616b19ce332"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農薬|のうやく#0 is the same lexeme as vocab-n2:correction:nouyaku (tanos lists 農薬/のうやく at N2 (gloss: agricultural chemicals).).",
+        "contentHash": "e8d9a68f1e025073e74dd8d7f9f94948522a12d4ae3f8212a915a616b19ce332",
+        "approvalHash": "e8d9a68f1e025073e74dd8d7f9f94948522a12d4ae3f8212a915a616b19ce332"
+      }
+    },
+    {
+      "key": "農薬|のうやく",
+      "referenceIndex": 1,
+      "referenceHash": "f155720bf2a21499c7f1721922444e48581e3eff14bc60656882f900ab518c3d",
+      "revisionId": "036-candidate-nouyaku-41c8a595-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouyaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouyaku": "636a7989f20a2f90311f363a6a7ac07ac3f1eaad30709cb453574d3dce1795d8"
+      },
+      "reason": "Reference 農薬/のうやく (master N2) is the same lexeme as the new entry 農薬【のうやく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 農薬/のうやく at N2 (gloss: agricultural chemical (i.e. pesticide, herbicide, fungicide, etc.); agrochemical; agrichemical)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470780; spelling=農薬; reading=のうやく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470780 as the reference form.",
+          "selected": {
+            "sequence": "1470780",
+            "spelling": "農薬",
+            "reading": "のうやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agricultural chemical",
+                  "agrochemical",
+                  "agrichemical"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 農薬|のうやく#1 is the same lexeme as vocab-n2:correction:nouyaku; target hash bound to the assembled addition.",
+        "contentHash": "1785f1aba62a91f8ceb0a7f78d2593288260c357fd28e6ef1767c1d893a038bf",
+        "approvalHash": "1785f1aba62a91f8ceb0a7f78d2593288260c357fd28e6ef1767c1d893a038bf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 農薬|のうやく#1 is the same lexeme as vocab-n2:correction:nouyaku (Nihongo Master lists 農薬/のうやく at N2 (gloss: agricultural chemical (i.e. pesticide, herbicide, fungicide, etc.); agrochemical; agrichemical).).",
+        "contentHash": "1785f1aba62a91f8ceb0a7f78d2593288260c357fd28e6ef1767c1d893a038bf",
+        "approvalHash": "1785f1aba62a91f8ceb0a7f78d2593288260c357fd28e6ef1767c1d893a038bf"
+      }
+    },
+    {
+      "key": "能率|のうりつ",
+      "referenceIndex": 0,
+      "referenceHash": "87dec3873fca834ad106265ad40d1b6fb93579ffa1257f2f941cd005ef50a52c",
+      "revisionId": "036-candidate-nouritsu-05addc24-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouritsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouritsu": "45fe62dff41b3a603e81e70cbddd2e66e36c2966b6e2681fe1ba44fc134668c1"
+      },
+      "reason": "Reference 能率/のうりつ (tanos N2) is the same lexeme as the new entry 能率【のうりつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 能率/のうりつ at N2 (gloss: efficiency)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470330; spelling=能率; reading=のうりつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470330 as the reference form.",
+          "selected": {
+            "sequence": "1470330",
+            "spelling": "能率",
+            "reading": "のうりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "efficiency"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 能率|のうりつ#0 is the same lexeme as vocab-n2:correction:nouritsu; target hash bound to the assembled addition.",
+        "contentHash": "bc8c6a32707f2764fe919bcbc594388d026f78b5f2eb94cdd01709ea1e1cc78c",
+        "approvalHash": "bc8c6a32707f2764fe919bcbc594388d026f78b5f2eb94cdd01709ea1e1cc78c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 能率|のうりつ#0 is the same lexeme as vocab-n2:correction:nouritsu (tanos lists 能率/のうりつ at N2 (gloss: efficiency).).",
+        "contentHash": "bc8c6a32707f2764fe919bcbc594388d026f78b5f2eb94cdd01709ea1e1cc78c",
+        "approvalHash": "bc8c6a32707f2764fe919bcbc594388d026f78b5f2eb94cdd01709ea1e1cc78c"
+      }
+    },
+    {
+      "key": "能率|のうりつ",
+      "referenceIndex": 1,
+      "referenceHash": "7015e3398cf5a4673303cf05d4661750170860f62c033d2185db4e514ed0ae70",
+      "revisionId": "036-candidate-nouritsu-05addc24-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nouritsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nouritsu": "45fe62dff41b3a603e81e70cbddd2e66e36c2966b6e2681fe1ba44fc134668c1"
+      },
+      "reason": "Reference 能率/のうりつ (master N2) is the same lexeme as the new entry 能率【のうりつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 能率/のうりつ at N2 (gloss: efficiency; efficacité)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1470330; spelling=能率; reading=のうりつ; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1470330 as the reference form.",
+          "selected": {
+            "sequence": "1470330",
+            "spelling": "能率",
+            "reading": "のうりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "efficiency"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 能率|のうりつ#1 is the same lexeme as vocab-n2:correction:nouritsu; target hash bound to the assembled addition.",
+        "contentHash": "694430e4f24e02da1e5ba6a21f2429790751a15afe25b4617d659cfe93ee1c6a",
+        "approvalHash": "694430e4f24e02da1e5ba6a21f2429790751a15afe25b4617d659cfe93ee1c6a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 能率|のうりつ#1 is the same lexeme as vocab-n2:correction:nouritsu (Nihongo Master lists 能率/のうりつ at N2 (gloss: efficiency; efficacité).).",
+        "contentHash": "694430e4f24e02da1e5ba6a21f2429790751a15afe25b4617d659cfe93ee1c6a",
+        "approvalHash": "694430e4f24e02da1e5ba6a21f2429790751a15afe25b4617d659cfe93ee1c6a"
+      }
+    },
+    {
+      "key": "のこぎり|のこぎり",
+      "referenceIndex": 0,
+      "referenceHash": "21ca1bde07908a73d1b3e61d314bf927f3965f336e30070e8e216505f1545c47",
+      "revisionId": "036-candidate-nokogiri-1386b686-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nokogiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nokogiri": "463d62c01252d19bc71cf9cd2b1c84d697f82a6e3b52116066b5c90b047db7ac"
+      },
+      "reason": "Reference のこぎり/のこぎり (tanos N2) is the same lexeme as the new entry のこぎり【のこぎり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists のこぎり/のこぎり at N2 (gloss: saw)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1232930; spelling=のこぎり; reading=のこぎり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1232930 as the reference form.",
+          "selected": {
+            "sequence": "1232930",
+            "spelling": "のこぎり",
+            "reading": "のこぎり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "saw"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference のこぎり|のこぎり#0 is the same lexeme as vocab-n2:correction:nokogiri; target hash bound to the assembled addition.",
+        "contentHash": "e68f40305455c2c059ace6715dddd4b880e7994fd3efc4d5882cfddeeb5a732c",
+        "approvalHash": "e68f40305455c2c059ace6715dddd4b880e7994fd3efc4d5882cfddeeb5a732c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row のこぎり|のこぎり#0 is the same lexeme as vocab-n2:correction:nokogiri (tanos lists のこぎり/のこぎり at N2 (gloss: saw).).",
+        "contentHash": "e68f40305455c2c059ace6715dddd4b880e7994fd3efc4d5882cfddeeb5a732c",
+        "approvalHash": "e68f40305455c2c059ace6715dddd4b880e7994fd3efc4d5882cfddeeb5a732c"
+      }
+    },
+    {
+      "key": "鋸|のこぎり",
+      "referenceIndex": 0,
+      "referenceHash": "60f7a9009a901083fbcd944cc5c3cb125b0249340d4ba28f5e27ffdefaa37833",
+      "revisionId": "036-candidate-nokogiri-4b7f33be-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nokogiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nokogiri": "463d62c01252d19bc71cf9cd2b1c84d697f82a6e3b52116066b5c90b047db7ac"
+      },
+      "reason": "Reference 鋸/のこぎり (tanos N1) is the same lexeme as the new entry のこぎり【のこぎり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=130",
+          "finding": "tanos lists 鋸/のこぎり at N1 (gloss: saw)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1232930; spelling=のこぎり; reading=のこぎり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1232930 as the reference form.",
+          "selected": {
+            "sequence": "1232930",
+            "spelling": "のこぎり",
+            "reading": "のこぎり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "saw"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鋸|のこぎり#0 is the same lexeme as vocab-n2:correction:nokogiri; target hash bound to the assembled addition.",
+        "contentHash": "d44571f069c590481df1884658db63496d8dc74d9182f439f8ac1f011c057027",
+        "approvalHash": "d44571f069c590481df1884658db63496d8dc74d9182f439f8ac1f011c057027"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鋸|のこぎり#0 is the same lexeme as vocab-n2:correction:nokogiri (tanos lists 鋸/のこぎり at N1 (gloss: saw).). Spelling-variant merge verified.",
+        "contentHash": "d44571f069c590481df1884658db63496d8dc74d9182f439f8ac1f011c057027",
+        "approvalHash": "d44571f069c590481df1884658db63496d8dc74d9182f439f8ac1f011c057027"
+      }
+    },
+    {
+      "key": "鋸|のこぎり",
+      "referenceIndex": 1,
+      "referenceHash": "321f2a57ecb251c7bf000beb4e8c2841144ed2c09b3a1b519e03a79f9a077445",
+      "revisionId": "036-candidate-nokogiri-4b7f33be-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nokogiri"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nokogiri": "463d62c01252d19bc71cf9cd2b1c84d697f82a6e3b52116066b5c90b047db7ac"
+      },
+      "reason": "Reference 鋸/のこぎり (master N2) is the same lexeme as the new entry のこぎり【のこぎり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 鋸/のこぎり at N2 (gloss: saw; scie)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1232930; spelling=のこぎり; reading=のこぎり; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1232930 as the reference form.",
+          "selected": {
+            "sequence": "1232930",
+            "spelling": "のこぎり",
+            "reading": "のこぎり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "saw"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 鋸|のこぎり#1 is the same lexeme as vocab-n2:correction:nokogiri; target hash bound to the assembled addition.",
+        "contentHash": "5c4f172310cdcbb027d2e22f6fb80efc01c52afe4929e7acad15f48157ca0327",
+        "approvalHash": "5c4f172310cdcbb027d2e22f6fb80efc01c52afe4929e7acad15f48157ca0327"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 鋸|のこぎり#1 is the same lexeme as vocab-n2:correction:nokogiri (Nihongo Master lists 鋸/のこぎり at N2 (gloss: saw; scie).). Spelling-variant merge verified.",
+        "contentHash": "5c4f172310cdcbb027d2e22f6fb80efc01c52afe4929e7acad15f48157ca0327",
+        "approvalHash": "5c4f172310cdcbb027d2e22f6fb80efc01c52afe4929e7acad15f48157ca0327"
+      }
+    },
+    {
+      "key": "残らず|のこらず",
+      "referenceIndex": 0,
+      "referenceHash": "350fa13b5285b1217f7e5f63d610c2646244da56fb901f14eec2de3c2d468eda",
+      "revisionId": "036-candidate-nokorazu-9d856cb1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nokorazu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nokorazu": "cafc8d0ee2261009268c8c5370f19a16e3ce121a70a70e3351b1e9198957f493"
+      },
+      "reason": "Reference 残らず/のこらず (tanos N2) is the same lexeme as the new entry 残らず【のこらず】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 残らず/のこらず at N2 (gloss: all,entirely,completely,without exception)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611130; spelling=残らず; reading=のこらず; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611130 as the reference form.",
+          "selected": {
+            "sequence": "1611130",
+            "spelling": "残らず",
+            "reading": "のこらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "all",
+                  "entirely",
+                  "completely",
+                  "without exception"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 残らず|のこらず#0 is the same lexeme as vocab-n2:correction:nokorazu; target hash bound to the assembled addition.",
+        "contentHash": "a828c7d5c7b58cf8cb5a53063080a14ea7d63180472b3d968b984786da499ea1",
+        "approvalHash": "a828c7d5c7b58cf8cb5a53063080a14ea7d63180472b3d968b984786da499ea1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 残らず|のこらず#0 is the same lexeme as vocab-n2:correction:nokorazu (tanos lists 残らず/のこらず at N2 (gloss: all,entirely,completely,without exception).).",
+        "contentHash": "a828c7d5c7b58cf8cb5a53063080a14ea7d63180472b3d968b984786da499ea1",
+        "approvalHash": "a828c7d5c7b58cf8cb5a53063080a14ea7d63180472b3d968b984786da499ea1"
+      }
+    },
+    {
+      "key": "残らず|のこらず",
+      "referenceIndex": 1,
+      "referenceHash": "778182302654d5fd8b82a1d854134dc88ec78d6a51c5112b1affe27b4524be0a",
+      "revisionId": "036-candidate-nokorazu-9d856cb1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nokorazu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nokorazu": "cafc8d0ee2261009268c8c5370f19a16e3ce121a70a70e3351b1e9198957f493"
+      },
+      "reason": "Reference 残らず/のこらず (master N2) is the same lexeme as the new entry 残らず【のこらず】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 残らず/のこらず at N2 (gloss: all; entirely; completely)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1611130; spelling=残らず; reading=のこらず; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1611130 as the reference form.",
+          "selected": {
+            "sequence": "1611130",
+            "spelling": "残らず",
+            "reading": "のこらず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "all",
+                  "entirely",
+                  "completely",
+                  "without exception"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 残らず|のこらず#1 is the same lexeme as vocab-n2:correction:nokorazu; target hash bound to the assembled addition.",
+        "contentHash": "71fc0ffed9421c5491b8a0ac69dd3f3e750e38eae5f8cf806b0087f7fcbb1f3a",
+        "approvalHash": "71fc0ffed9421c5491b8a0ac69dd3f3e750e38eae5f8cf806b0087f7fcbb1f3a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 残らず|のこらず#1 is the same lexeme as vocab-n2:correction:nokorazu (Nihongo Master lists 残らず/のこらず at N2 (gloss: all; entirely; completely).).",
+        "contentHash": "71fc0ffed9421c5491b8a0ac69dd3f3e750e38eae5f8cf806b0087f7fcbb1f3a",
+        "approvalHash": "71fc0ffed9421c5491b8a0ac69dd3f3e750e38eae5f8cf806b0087f7fcbb1f3a"
+      }
+    },
+    {
+      "key": "上り|のぼり",
+      "referenceIndex": 0,
+      "referenceHash": "7863f28781d19ba82efe95fd20376db3efd14eba002174a1c4fbe745af000a8e",
+      "revisionId": "036-candidate-nobori-81d09a92-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nobori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nobori": "683ecd9e7a69211d60fa03d0c79c977c415b2e01cdaaffd433f1a0fdf6c1e9be"
+      },
+      "reason": "Reference 上り/のぼり (tanos N2) is the same lexeme as the new entry 上り【のぼり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 上り/のぼり at N2 (gloss: up-train (going to Tokyo),ascent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352510; spelling=上り; reading=のぼり; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1352510 as the reference form.",
+          "selected": {
+            "sequence": "1352510",
+            "spelling": "上り",
+            "reading": "のぼり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ascent",
+                  "climbing",
+                  "ascending (path)",
+                  "climb"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "up-train",
+                  "train heading toward the starting point of its route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "upbound (esp. toward Tokyo)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 上り|のぼり#0 is the same lexeme as vocab-n2:correction:nobori; target hash bound to the assembled addition.",
+        "contentHash": "4377191de724bfc4c64398dc353211294c65a2ef80a48c8390c648bed12a879a",
+        "approvalHash": "4377191de724bfc4c64398dc353211294c65a2ef80a48c8390c648bed12a879a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 上り|のぼり#0 is the same lexeme as vocab-n2:correction:nobori (tanos lists 上り/のぼり at N2 (gloss: up-train (going to Tokyo),ascent).).",
+        "contentHash": "4377191de724bfc4c64398dc353211294c65a2ef80a48c8390c648bed12a879a",
+        "approvalHash": "4377191de724bfc4c64398dc353211294c65a2ef80a48c8390c648bed12a879a"
+      }
+    },
+    {
+      "key": "上り|のぼり",
+      "referenceIndex": 1,
+      "referenceHash": "aa7a913e8b30fcd5d64d4d68777a410f2d4218b9c788bca989cf6f19a7c13973",
+      "revisionId": "036-candidate-nobori-81d09a92-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nobori"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nobori": "683ecd9e7a69211d60fa03d0c79c977c415b2e01cdaaffd433f1a0fdf6c1e9be"
+      },
+      "reason": "Reference 上り/のぼり (master N2) is the same lexeme as the new entry 上り【のぼり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 上り/のぼり at N2 (gloss: ascent; climbing; ascending (path))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1352510; spelling=上り; reading=のぼり; senses=1,2,3; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1352510 as the reference form.",
+          "selected": {
+            "sequence": "1352510",
+            "spelling": "上り",
+            "reading": "のぼり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ascent",
+                  "climbing",
+                  "ascending (path)",
+                  "climb"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "up-train",
+                  "train heading toward the starting point of its route"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "upbound (esp. toward Tokyo)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 上り|のぼり#1 is the same lexeme as vocab-n2:correction:nobori; target hash bound to the assembled addition.",
+        "contentHash": "0f7a0cd0c6e2b19c2ddfd890f1f0a71e7d4a5f94e798d5e78880be1847ce0f26",
+        "approvalHash": "0f7a0cd0c6e2b19c2ddfd890f1f0a71e7d4a5f94e798d5e78880be1847ce0f26"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 上り|のぼり#1 is the same lexeme as vocab-n2:correction:nobori (Nihongo Master lists 上り/のぼり at N2 (gloss: ascent; climbing; ascending (path)).).",
+        "contentHash": "0f7a0cd0c6e2b19c2ddfd890f1f0a71e7d4a5f94e798d5e78880be1847ce0f26",
+        "approvalHash": "0f7a0cd0c6e2b19c2ddfd890f1f0a71e7d4a5f94e798d5e78880be1847ce0f26"
+      }
+    },
+    {
+      "key": "糊|のり",
+      "referenceIndex": 0,
+      "referenceHash": "dc70570c716ce0abfec7850aafa1ec5a8965a1ec435e7fdbe0b9925d35c1538f",
+      "revisionId": "036-candidate-nori-glue-59251ab0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nori-glue"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nori-glue": "d4139ff8279ecd705f1e39fab5f979d8d1eb2725901b14de6bab0e2f02be2f51"
+      },
+      "reason": "Reference 糊/のり (tanos N2) is the same lexeme as the new entry 糊【のり】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 糊/のり at N2 (gloss: paste,starch)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267400; spelling=糊; reading=のり; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1267400 as the reference form.",
+          "selected": {
+            "sequence": "1267400",
+            "spelling": "糊",
+            "reading": "のり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paste",
+                  "glue"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clothing starch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 糊|のり#0 is the same lexeme as vocab-n2:correction:nori-glue; target hash bound to the assembled addition.",
+        "contentHash": "4d7a24b2552c533b2f791ff06997cfb1d2e0be156d046657ceb2d40f08166f06",
+        "approvalHash": "4d7a24b2552c533b2f791ff06997cfb1d2e0be156d046657ceb2d40f08166f06"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 糊|のり#0 is the same lexeme as vocab-n2:correction:nori-glue (tanos lists 糊/のり at N2 (gloss: paste,starch).).",
+        "contentHash": "4d7a24b2552c533b2f791ff06997cfb1d2e0be156d046657ceb2d40f08166f06",
+        "approvalHash": "4d7a24b2552c533b2f791ff06997cfb1d2e0be156d046657ceb2d40f08166f06"
+      }
+    },
+    {
+      "key": "糊|のり",
+      "referenceIndex": 1,
+      "referenceHash": "f9ee23997dbafd5bd0ad74d1f3ca317ed8bf877a4719e7a364651dc55a01cd19",
+      "revisionId": "036-candidate-nori-glue-59251ab0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nori-glue"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nori-glue": "d4139ff8279ecd705f1e39fab5f979d8d1eb2725901b14de6bab0e2f02be2f51"
+      },
+      "reason": "Reference 糊/のり (master N2) is the same lexeme as the new entry 糊【のり】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 糊/のり at N2 (gloss: paste; glue; starch)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1267400; spelling=糊; reading=のり; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1267400 as the reference form.",
+          "selected": {
+            "sequence": "1267400",
+            "spelling": "糊",
+            "reading": "のり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paste",
+                  "glue"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clothing starch"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 糊|のり#1 is the same lexeme as vocab-n2:correction:nori-glue; target hash bound to the assembled addition.",
+        "contentHash": "39efda65d7a14279672aace2a5fe2729643356031dae869fe62b48e7f6699b27",
+        "approvalHash": "39efda65d7a14279672aace2a5fe2729643356031dae869fe62b48e7f6699b27"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 糊|のり#1 is the same lexeme as vocab-n2:correction:nori-glue (Nihongo Master lists 糊/のり at N2 (gloss: paste; glue; starch).).",
+        "contentHash": "39efda65d7a14279672aace2a5fe2729643356031dae869fe62b48e7f6699b27",
+        "approvalHash": "39efda65d7a14279672aace2a5fe2729643356031dae869fe62b48e7f6699b27"
+      }
+    },
+    {
+      "key": "乗り越し|のりこし",
+      "referenceIndex": 0,
+      "referenceHash": "c9caa640240dc1ba8edc6a7eef86a57b1eba2ba4b8d13abe2348b2a62858738b",
+      "revisionId": "036-candidate-norikoshi-077ba248-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:norikoshi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:norikoshi": "1154f6addeb47c95e56d4543063a84263c5adef767d28e08223d6aee4d204f34"
+      },
+      "reason": "Reference 乗り越し/のりこし (master N2) is the same lexeme as the new entry 乗り越し【のりこし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 乗り越し/のりこし at N2 (gloss: riding past (one's station); dépasser (son arrêt, sa gare); laisser passer (son arrêt, sa gare))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1600480; spelling=乗り越し; reading=のりこし; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1600480 as the reference form.",
+          "selected": {
+            "sequence": "1600480",
+            "spelling": "乗り越し",
+            "reading": "のりこし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "riding past (one's station)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 乗り越し|のりこし#0 is the same lexeme as vocab-n2:correction:norikoshi; target hash bound to the assembled addition.",
+        "contentHash": "80a9b89ed0b522032b612f870b9b0ed31e75a2abbb5e9b9824cba119f5687f61",
+        "approvalHash": "80a9b89ed0b522032b612f870b9b0ed31e75a2abbb5e9b9824cba119f5687f61"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 乗り越し|のりこし#0 is the same lexeme as vocab-n2:correction:norikoshi (Nihongo Master lists 乗り越し/のりこし at N2 (gloss: riding past (one's station); dépasser (son arrêt, sa gare); laisser passer (son arrêt, sa gare)).).",
+        "contentHash": "80a9b89ed0b522032b612f870b9b0ed31e75a2abbb5e9b9824cba119f5687f61",
+        "approvalHash": "80a9b89ed0b522032b612f870b9b0ed31e75a2abbb5e9b9824cba119f5687f61"
+      }
+    },
+    {
+      "key": "売店|ばいてん",
+      "referenceIndex": 0,
+      "referenceHash": "d9f6276f2b9ed4d5a42b4dc0ef7938950c7bc518b782e69bf67d62ff959f3a49",
+      "revisionId": "036-candidate-baiten-96d5a4dd-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baiten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baiten": "89c2800b44cf931b39286a10c10b5b1e0987f8c8225eb995aac1d5a56215588a"
+      },
+      "reason": "Reference 売店/ばいてん (tanos N2) is the same lexeme as the new entry 売店【ばいてん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=68",
+          "finding": "tanos lists 売店/ばいてん at N2 (gloss: shop,stand)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474040; spelling=売店; reading=ばいてん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474040 as the reference form.",
+          "selected": {
+            "sequence": "1474040",
+            "spelling": "売店",
+            "reading": "ばいてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stand",
+                  "stall",
+                  "booth",
+                  "kiosk",
+                  "store"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売店|ばいてん#0 is the same lexeme as vocab-n2:correction:baiten; target hash bound to the assembled addition.",
+        "contentHash": "8ce160ea4c4994bcb0b141fca515d771b1c2862da6d632511b1801c0313b100a",
+        "approvalHash": "8ce160ea4c4994bcb0b141fca515d771b1c2862da6d632511b1801c0313b100a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売店|ばいてん#0 is the same lexeme as vocab-n2:correction:baiten (tanos lists 売店/ばいてん at N2 (gloss: shop,stand).).",
+        "contentHash": "8ce160ea4c4994bcb0b141fca515d771b1c2862da6d632511b1801c0313b100a",
+        "approvalHash": "8ce160ea4c4994bcb0b141fca515d771b1c2862da6d632511b1801c0313b100a"
+      }
+    },
+    {
+      "key": "売店|ばいてん",
+      "referenceIndex": 1,
+      "referenceHash": "e3f0b103e0db5d840a24831fd99999d085065ed4a085b251c7022e998d696628",
+      "revisionId": "036-candidate-baiten-96d5a4dd-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baiten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baiten": "89c2800b44cf931b39286a10c10b5b1e0987f8c8225eb995aac1d5a56215588a"
+      },
+      "reason": "Reference 売店/ばいてん (sensei N2) is the same lexeme as the new entry 売店【ばいてん】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 売店/ばいてん at N2 (gloss: stand; stall; booth; kiosk; store)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474040; spelling=売店; reading=ばいてん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474040 as the reference form.",
+          "selected": {
+            "sequence": "1474040",
+            "spelling": "売店",
+            "reading": "ばいてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stand",
+                  "stall",
+                  "booth",
+                  "kiosk",
+                  "store"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売店|ばいてん#1 is the same lexeme as vocab-n2:correction:baiten; target hash bound to the assembled addition.",
+        "contentHash": "95883710aff8f38b582f249d4e605c9824832c680f557402bf906a9734d05a19",
+        "approvalHash": "95883710aff8f38b582f249d4e605c9824832c680f557402bf906a9734d05a19"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売店|ばいてん#1 is the same lexeme as vocab-n2:correction:baiten (JLPT Sensei lists 売店/ばいてん at N2 (gloss: stand; stall; booth; kiosk; store).).",
+        "contentHash": "95883710aff8f38b582f249d4e605c9824832c680f557402bf906a9734d05a19",
+        "approvalHash": "95883710aff8f38b582f249d4e605c9824832c680f557402bf906a9734d05a19"
+      }
+    },
+    {
+      "key": "売店|ばいてん",
+      "referenceIndex": 2,
+      "referenceHash": "7eba58bb0aa381c15db73f8c7ef9bc0db232b29bd59029b5803072ddd3948185",
+      "revisionId": "036-candidate-baiten-96d5a4dd-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:baiten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:baiten": "89c2800b44cf931b39286a10c10b5b1e0987f8c8225eb995aac1d5a56215588a"
+      },
+      "reason": "Reference 売店/ばいてん (master N2) is the same lexeme as the new entry 売店【ばいてん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 売店/ばいてん at N2 (gloss: shop; stand; échoppe)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1474040; spelling=売店; reading=ばいてん; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1474040 as the reference form.",
+          "selected": {
+            "sequence": "1474040",
+            "spelling": "売店",
+            "reading": "ばいてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stand",
+                  "stall",
+                  "booth",
+                  "kiosk",
+                  "store"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 売店|ばいてん#2 is the same lexeme as vocab-n2:correction:baiten; target hash bound to the assembled addition.",
+        "contentHash": "bda260ec00164ff7faa72afbcfdc490dfe4ca61bbc2678b8e5ba48101f306dec",
+        "approvalHash": "bda260ec00164ff7faa72afbcfdc490dfe4ca61bbc2678b8e5ba48101f306dec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 売店|ばいてん#2 is the same lexeme as vocab-n2:correction:baiten (Nihongo Master lists 売店/ばいてん at N2 (gloss: shop; stand; échoppe).).",
+        "contentHash": "bda260ec00164ff7faa72afbcfdc490dfe4ca61bbc2678b8e5ba48101f306dec",
+        "approvalHash": "bda260ec00164ff7faa72afbcfdc490dfe4ca61bbc2678b8e5ba48101f306dec"
+      }
+    }
+  ]
+}

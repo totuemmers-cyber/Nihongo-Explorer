@@ -1,0 +1,3374 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:nantomo",
+      "revisionId": "036-add-nantomo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "なんとも",
+        "reading": "なんとも",
+        "romaji": "nantomo",
+        "meaning": "wirklich, äußerst; (mit Verneinung) gar nicht",
+        "type": "Adverb",
+        "category": "Gefühle",
+        "level": "N2",
+        "notes": "Mit Verneinung „überhaupt nicht“: なんとも思わない (sich nichts daraus machen); ohne Verneinung „wirklich, äußerst“: なんとも美しい. Feste Wendung: なんとも言えない (unbeschreiblich; schwer zu sagen).",
+        "examples": [
+          {
+            "japanese": "あの人に何を言われても、なんとも思わない。",
+            "romaji": "Ano hito ni nani o iwarete mo, nantomo omowanai.",
+            "german": "Egal was er sagt, es macht mir nichts aus."
+          },
+          {
+            "japanese": "この景色はなんとも美しい。",
+            "romaji": "Kono keshiki wa nantomo utsukushii.",
+            "german": "Diese Landschaft ist wirklich wunderschön."
+          }
+        ],
+        "pitch": null,
+        "aliases": [
+          "何とも"
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add なんとも【なんとも】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188690; spelling=なんとも; reading=なんとも; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1188690 なんとも/なんとも sense(s) 1,2 support \"wirklich, äußerst; (mit Verneinung) gar nicht\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1188690",
+            "spelling": "なんとも",
+            "reading": "なんとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "really",
+                  "very",
+                  "extremely",
+                  "terribly",
+                  "awfully"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(not) at all",
+                  "(not) a bit"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "なんとも|なんとも",
+          "referenceIndex": 0,
+          "referenceHash": "cff1773899da810ba8b3b16e63432b6d5b6064bd6bd6d0995661e9d0de914a29"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"wirklich, äußerst; (mit Verneinung) gar nicht\" matches JMdict 1188690 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Indifference (with negation).",
+          "Emphasis (positive)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1188690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, tanos N1, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for なんとも / なんとも; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup なんとも / なんとも",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add なんとも【なんとも】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1188690 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "d87337c88f6d770c0ebed767d54e32ed9638f3dbbc6b732fad03699a43030147",
+        "approvalHash": "42bd4210f696f2eb9c491265ba1db75eebfd23e9f1db555f6ae3af6ced292d95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — note now separates the negated use, なんとも美しい and the set phrase なんとも言えない. No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "d87337c88f6d770c0ebed767d54e32ed9638f3dbbc6b732fad03699a43030147",
+        "approvalHash": "42bd4210f696f2eb9c491265ba1db75eebfd23e9f1db555f6ae3af6ced292d95"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nanbaa",
+      "revisionId": "036-add-nanbaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ナンバー",
+        "reading": "ナンバー",
+        "romaji": "nanbaa",
+        "meaning": "Nummer; Nummernschild",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Nummer allgemein (ナンバーを振る = durchnummerieren) und kurz für ナンバープレート (Autokennzeichen): 車のナンバー.",
+        "examples": [
+          {
+            "japanese": "事故を起こした車のナンバーを覚えていますか。",
+            "romaji": "Jiko o okoshita kuruma no nanbaa o oboete imasu ka.",
+            "german": "Erinnern Sie sich an das Kennzeichen des Unfallwagens?"
+          },
+          {
+            "japanese": "会場では、参加者一人一人にナンバーが振られた。",
+            "romaji": "Kaijou de wa, sankasha hitori hitori ni nanbaa ga furareta.",
+            "german": "Am Veranstaltungsort bekam jeder Teilnehmer eine Nummer zugeteilt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200081419",
+            "patterns": [
+              1
+            ],
+            "finding": "ナンバー / ナンバー; 名詞/普通名詞/一般/*; *; *; lemma ナンバー-number; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ナンバー",
+              "reading": "ナンバー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ナンバー as \"Nummer; Nummernschild\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ナンバー【ナンバー】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1090860; spelling=ナンバー; reading=ナンバー; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1090860 ナンバー/ナンバー sense(s) 1,2 support \"Nummer; Nummernschild\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1090860",
+            "spelling": "ナンバー",
+            "reading": "ナンバー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "number"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "number plate",
+                  "license plate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "なんばー|なんばー",
+          "referenceIndex": 0,
+          "referenceHash": "12f454d12c2856d22291f91d7a168660e6b300aacb31c8129ca1492e144b18e7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Nummer; Nummernschild\" matches JMdict 1090860 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Licence plate.",
+          "Player number."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1090860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@200081419 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200081419",
+            "patterns": [
+              1
+            ],
+            "finding": "ナンバー / ナンバー; 名詞/普通名詞/一般/*; *; *; lemma ナンバー-number; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ナンバー",
+              "reading": "ナンバー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ナンバー as \"Nummer; Nummernschild\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ナンバー【ナンバー】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1090860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "743443ef90f93ff786704d5326290b866e6313cfa9637a64687f71a32589845f",
+        "approvalHash": "1bed39c98739170833841ae29e399e2461b1b2f40787deee4f761503fa31da90"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — ex2 now 参加者一人一人にナンバーが振られた; note updated to ナンバーを振る. No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "743443ef90f93ff786704d5326290b866e6313cfa9637a64687f71a32589845f",
+        "approvalHash": "1bed39c98739170833841ae29e399e2461b1b2f40787deee4f761503fa31da90"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nanboku",
+      "revisionId": "036-add-nanboku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "南北",
+        "reading": "なんぼく",
+        "romaji": "nanboku",
+        "meaning": "Nord und Süd; von Norden nach Süden",
+        "type": "Nomen",
+        "category": "Geographie",
+        "level": "N2",
+        "notes": "Achse Nord–Süd: 南北に長い国 (ein Land mit großer Nord-Süd-Ausdehnung). Die Reihenfolge ist im Japanischen „Süd–Nord“. Vgl. 東西 (Ost und West).",
+        "examples": [
+          {
+            "japanese": "日本は南北に長い国です。",
+            "romaji": "Nihon wa nanboku ni nagai kuni desu.",
+            "german": "Japan erstreckt sich lang von Norden nach Süden."
+          },
+          {
+            "japanese": "この道は町を南北に走っている。",
+            "romaji": "Kono michi wa machi o nanboku ni hashitte iru.",
+            "german": "Diese Straße verläuft in Nord-Süd-Richtung durch die Stadt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200096556",
+            "patterns": [
+              1
+            ],
+            "finding": "南北 / ナンボク; 名詞/普通名詞/一般/*; *; *; lemma 南北; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "南北",
+              "reading": "なんぼく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "南北 as \"Nord und Süd; von Norden nach Süden\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 南北【なんぼく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1460600; spelling=南北; reading=なんぼく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1460600 南北/なんぼく sense(s) 1 support \"Nord und Süd; von Norden nach Süden\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1460600",
+            "spelling": "南北",
+            "reading": "なんぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "north and south",
+                  "north to south"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "南北|なんぼく",
+          "referenceIndex": 0,
+          "referenceHash": "720d92d767e47659954bcf3d5dfb121536ea8d37d60f0cba6e9f6e132b7c5d2e"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Nord und Süd; von Norden nach Süden\" matches JMdict 1460600 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shape of a country.",
+          "Direction of a road."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1460600; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@200096556 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@200096556",
+            "patterns": [
+              1
+            ],
+            "finding": "南北 / ナンボク; 名詞/普通名詞/一般/*; *; *; lemma 南北; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "南北",
+              "reading": "なんぼく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "南北 as \"Nord und Süd; von Norden nach Süden\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 南北【なんぼく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1460600 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "eaad710ed630b99123207910df90a429b02e6e12d473826b6e46c08ec6f3c8cf",
+        "approvalHash": "331fe0fea6d119176351eabe78b0e37dee94041e389a26fd3b3f94e649ece606"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 南北【なんぼく】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1460600; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "eaad710ed630b99123207910df90a429b02e6e12d473826b6e46c08ec6f3c8cf",
+        "approvalHash": "331fe0fea6d119176351eabe78b0e37dee94041e389a26fd3b3f94e649ece606"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nihonshiki",
+      "revisionId": "036-add-nihonshiki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "日本式",
+        "reading": "にほんしき",
+        "romaji": "nihonshiki",
+        "meaning": "japanischer Stil, auf japanische Art",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N2",
+        "notes": "式 = Art, Stil: 日本式のトイレ (japanische Hocktoilette), 日本式の経営. Ähnlich: 和式.",
+        "examples": [
+          {
+            "japanese": "この旅館の部屋は日本式で、畳の上で寝ます。",
+            "romaji": "Kono ryokan no heya wa nihonshiki de, tatami no ue de nemasu.",
+            "german": "Die Zimmer in diesem Gasthof sind japanisch eingerichtet; man schläft auf Tatami."
+          },
+          {
+            "japanese": "海外でも日本式の経営を取り入れる会社がある。",
+            "romaji": "Kaigai demo nihonshiki no keiei o toriireru kaisha ga aru.",
+            "german": "Auch im Ausland gibt es Firmen, die japanische Managementmethoden übernehmen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 日本式【にほんしき】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1464650; spelling=日本式; reading=にほんしき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1464650 日本式/にほんしき sense(s) 1 support \"japanischer Stil, auf japanische Art\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1464650",
+            "spelling": "日本式",
+            "reading": "にほんしき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Japanese style"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "日本式|にほんしき",
+          "referenceIndex": 0,
+          "referenceHash": "9e5eca840fc33b185627078a66afd577f69e6f6b47f4cae487dd8405c338d52a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"japanischer Stil, auf japanische Art\" matches JMdict 1464650 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Japanese-style room.",
+          "Management style abroad."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1464650; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 日本式 / にほんしき; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 日本式 / にほんしき",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 日本式【にほんしき】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1464650 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "400f8415912d001ab817f4439450488ecf3e71dc503acf28bdd59bae1a8b3171",
+        "approvalHash": "3d12fca398c144e2cb60c29a9c1bf309299b5d0bc1a7589ec60738a85cb65e9c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 日本式【にほんしき】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1464650; level N2 supported; pitch unknown consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "400f8415912d001ab817f4439450488ecf3e71dc503acf28bdd59bae1a8b3171",
+        "approvalHash": "3d12fca398c144e2cb60c29a9c1bf309299b5d0bc1a7589ec60738a85cb65e9c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nyoubou",
+      "revisionId": "036-add-nyoubou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "女房",
+        "reading": "にょうぼう",
+        "romaji": "nyoubou",
+        "meaning": "(meine) Frau, Ehefrau (umgangssprachlich)",
+        "type": "Nomen",
+        "category": "Familie",
+        "level": "N2",
+        "notes": "Lockeres, etwas altmodisches Wort eines Mannes für die eigene Ehefrau: うちの女房. Neutraler: 妻; über die Frau anderer: 奥さん.",
+        "examples": [
+          {
+            "japanese": "うちの女房は料理がうまい。",
+            "romaji": "Uchi no nyoubou wa ryouri ga umai.",
+            "german": "Meine Frau kocht gut."
+          },
+          {
+            "japanese": "帰りが遅いと女房に怒られるんだ。",
+            "romaji": "Kaeri ga osoi to nyoubou ni okorareru n da.",
+            "german": "Wenn ich spät nach Hause komme, schimpft meine Frau."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202609311",
+            "patterns": [
+              1
+            ],
+            "finding": "女房 / ニョウボウ; 名詞/普通名詞/一般/*; *; *; lemma 女房; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "女房",
+              "reading": "にょうぼう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "女房 as \"(meine) Frau, Ehefrau (umgangssprachlich)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 女房【にょうぼう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345420; spelling=女房; reading=にょうぼう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1345420 女房/にょうぼう sense(s) 1 support \"(meine) Frau, Ehefrau (umgangssprachlich)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1345420",
+            "spelling": "女房",
+            "reading": "にょうぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wife (esp. one's own wife)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "女房|にょうぼう",
+          "referenceIndex": 0,
+          "referenceHash": "a3d64aa53d60733485eaefddc1ba2bf49731f88da591b6b33cda6b6d56daa342"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"(meine) Frau, Ehefrau (umgangssprachlich)\" matches JMdict 1345420 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Praising one’s wife.",
+          "Casual complaint."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1345420; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@202609311 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202609311",
+            "patterns": [
+              1
+            ],
+            "finding": "女房 / ニョウボウ; 名詞/普通名詞/一般/*; *; *; lemma 女房; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "女房",
+              "reading": "にょうぼう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "女房 as \"(meine) Frau, Ehefrau (umgangssprachlich)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 女房【にょうぼう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1345420 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0ce84e9f1bcf78a8e4f4a47894a7a847b98da3c40076512bd3212723971ae35c",
+        "approvalHash": "fa3fe2f1d0f58c4f8358273097fe7834b1f85b23f489d07fa7ad0af9d29b8ecf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). 女房【にょうぼう】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1345420; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "0ce84e9f1bcf78a8e4f4a47894a7a847b98da3c40076512bd3212723971ae35c",
+        "approvalHash": "fa3fe2f1d0f58c4f8358273097fe7834b1f85b23f489d07fa7ad0af9d29b8ecf"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:niwaka",
+      "revisionId": "036-add-niwaka",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "にわか",
+        "reading": "にわか",
+        "romaji": "niwaka",
+        "meaning": "plötzlich; auf die Schnelle",
+        "type": "Adjektiv",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "な-Adjektiv: にわか雨 (plötzlicher Regenschauer), にわかには信じられない (kaum auf Anhieb zu glauben). Auch „Neuling, der nur kurz mitmacht“ (にわかファン).",
+        "examples": [
+          {
+            "japanese": "その話はにわかには信じられない。",
+            "romaji": "Sono hanashi wa niwaka ni wa shinjirarenai.",
+            "german": "Diese Geschichte kann man kaum auf Anhieb glauben."
+          },
+          {
+            "japanese": "にわかに空が暗くなった。",
+            "romaji": "Niwaka ni sora ga kuraku natta.",
+            "german": "Plötzlich wurde der Himmel dunkel."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "俄"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202839222",
+            "patterns": [
+              1
+            ],
+            "finding": "にわか / ニワカ; 形状詞/一般/*/*; *; *; lemma 俄か; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "にわか",
+              "reading": "にわか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "にわか as \"plötzlich; auf die Schnelle\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add にわか【にわか】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599920; spelling=にわか; reading=にわか; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1599920 にわか/にわか sense(s) 1,2 support \"plötzlich; auf die Schnelle\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1599920",
+            "spelling": "にわか",
+            "reading": "にわか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "immediate"
+                ],
+                "notes": [
+                  "occ. written 遽か"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "improvised",
+                  "hasty",
+                  "impromptu",
+                  "offhand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "俄|にわか",
+          "referenceIndex": 0,
+          "referenceHash": "b2e5c9fdd517c515ed88042e54970985b07781ec703ea79d87b06c3a4766cb4b"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"plötzlich; auf die Schnelle\" matches JMdict 1599920 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Hard to believe at once.",
+          "Sudden change in the sky."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1599920; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@202839222 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202839222",
+            "patterns": [
+              1
+            ],
+            "finding": "にわか / ニワカ; 形状詞/一般/*/*; *; *; lemma 俄か; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "にわか",
+              "reading": "にわか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "にわか as \"plötzlich; auf die Schnelle\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add にわか【にわか】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1599920 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "65884436ac4a13de68941e84fbe3f3780fdcf29fc12b2f700c0c5ed102dd8ad2",
+        "approvalHash": "f0979ec2bd49436fd654d755e117521d73dfc51e1ea064ee30b4e0a1b08deddc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). にわか【にわか】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1599920; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "65884436ac4a13de68941e84fbe3f3780fdcf29fc12b2f700c0c5ed102dd8ad2",
+        "approvalHash": "f0979ec2bd49436fd654d755e117521d73dfc51e1ea064ee30b4e0a1b08deddc"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:neji",
+      "revisionId": "036-add-neji",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ねじ",
+        "reading": "ねじ",
+        "romaji": "neji",
+        "meaning": "Schraube",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Schraube: ねじを締める (festziehen), ねじを緩める (lockern); auch die Feder eines Uhrwerks (ねじを巻く = aufziehen). Oft auch ネジ.",
+        "examples": [
+          {
+            "japanese": "ドライバーでねじを締めた。",
+            "romaji": "Doraibaa de neji o shimeta.",
+            "german": "Ich habe die Schraube mit dem Schraubendreher festgezogen."
+          },
+          {
+            "japanese": "古い時計のねじを巻いた。",
+            "romaji": "Furui tokei no neji o maita.",
+            "german": "Ich habe die alte Uhr aufgezogen."
+          }
+        ],
+        "pitch": 1,
+        "aliases": [
+          "螺子"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@205377552",
+            "patterns": [
+              1
+            ],
+            "finding": "ねじ / ネジ; 名詞/普通名詞/一般/*; *; *; lemma 螺子; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ねじ",
+              "reading": "ねじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ねじ as \"Schraube\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2 (螺子). Editorial N2.",
+      "rationale": "Add ねじ【ねじ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585010; spelling=ねじ; reading=ねじ; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1585010 ねじ/ねじ sense(s) 1,2 support \"Schraube\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1585010",
+            "spelling": "ねじ",
+            "reading": "ねじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "screw"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "key (of a clock, watch, etc.)",
+                  "spring"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ねじ|ねじ",
+          "referenceIndex": 0,
+          "referenceHash": "060d40b5481b55d74f9fa602a45107803ef14aa8469c165427a6b68c1bd4eb5a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Schraube\" matches JMdict 1585010 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tightening a screw.",
+          "Winding a clock."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1585010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2 (螺子). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@205377552 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@205377552",
+            "patterns": [
+              1
+            ],
+            "finding": "ねじ / ネジ; 名詞/普通名詞/一般/*; *; *; lemma 螺子; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ねじ",
+              "reading": "ねじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ねじ as \"Schraube\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ねじ【ねじ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1585010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ac5ccdc8c96a0cd3528d81d60b7244851145c605e19165667e2618397bf289df",
+        "approvalHash": "021a2cb8ab17098850647aa1ab1c75f15b224974a34cb1771e2b8fee1da873a4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Merge ねじ/螺子 correct (JMdict 1585010); pitch from exact ねじ row (lemma 螺子, same lexeme). Examples cover screw and clock-winding senses.",
+        "contentHash": "ac5ccdc8c96a0cd3528d81d60b7244851145c605e19165667e2618397bf289df",
+        "approvalHash": "021a2cb8ab17098850647aa1ab1c75f15b224974a34cb1771e2b8fee1da873a4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nekkuresu",
+      "revisionId": "036-add-nekkuresu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ネックレス",
+        "reading": "ネックレス",
+        "romaji": "nekkuresu",
+        "meaning": "Halskette",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Halsschmuck; ネックレスをする／つける (tragen, anlegen).",
+        "examples": [
+          {
+            "japanese": "誕生日に母からネックレスをもらった。",
+            "romaji": "Tanjoubi ni haha kara nekkuresu o moratta.",
+            "german": "Zum Geburtstag habe ich von meiner Mutter eine Halskette bekommen."
+          },
+          {
+            "japanese": "今日は白いネックレスをつけている。",
+            "romaji": "Kyou wa shiroi nekkuresu o tsukete iru.",
+            "german": "Heute trage ich eine weiße Halskette."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206097459",
+            "patterns": [
+              1
+            ],
+            "finding": "ネックレス / ネックレス; 名詞/普通名詞/一般/*; *; *; lemma ネックレス-necklace; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ネックレス",
+              "reading": "ネックレス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ネックレス as \"Halskette\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ネックレス【ネックレス】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1093000; spelling=ネックレス; reading=ネックレス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1093000 ネックレス/ネックレス sense(s) 1 support \"Halskette\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1093000",
+            "spelling": "ネックレス",
+            "reading": "ネックレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "necklace"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "ねっくれす|ねっくれす",
+          "referenceIndex": 0,
+          "referenceHash": "5eb4676a6846aa7e07c59e43a26be557cdb9f79d7ed6957fdb0165eeda8ed9dd"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Halskette\" matches JMdict 1093000 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Birthday present.",
+          "Wearing jewellery."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1093000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@206097459 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206097459",
+            "patterns": [
+              1
+            ],
+            "finding": "ネックレス / ネックレス; 名詞/普通名詞/一般/*; *; *; lemma ネックレス-necklace; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ネックレス",
+              "reading": "ネックレス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ネックレス as \"Halskette\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add ネックレス【ネックレス】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1093000 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1f120f3b4e2e856325355c85ad8f17f04eae06f964ef37a00e58752d83aa96ed",
+        "approvalHash": "319479d7713295241ee7c9c75650c90ef7e18c9f6a4aa07311cc8f1f8f189ca1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). ネックレス【ネックレス】: examples grammatical, natural, headword in taught sense, two distinct contexts; romaji exact; German meaning/note/translations accurate; meaning backed by JMdict 1093000; level N2 supported; pitch verified consistent with evidence; absent from runtime (check.cjs: new).",
+        "contentHash": "1f120f3b4e2e856325355c85ad8f17f04eae06f964ef37a00e58752d83aa96ed",
+        "approvalHash": "319479d7713295241ee7c9c75650c90ef7e18c9f6a4aa07311cc8f1f8f189ca1"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nessuru",
+      "revisionId": "036-add-nessuru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "熱する",
+        "reading": "ねっする",
+        "romaji": "nessuru",
+        "meaning": "erhitzen; sich begeistern",
+        "type": "Verb",
+        "category": "Wissenschaft",
+        "level": "N2",
+        "notes": "Schriftlich für „erhitzen“: フライパンを熱する, 熱した油. Übertragen: 熱しやすく冷めやすい (schnell begeistert, schnell wieder abgekühlt).",
+        "examples": [
+          {
+            "japanese": "フライパンをよく熱してから油を入れる。",
+            "romaji": "Furaipan o yoku nesshite kara abura o ireru.",
+            "german": "Man erhitzt die Pfanne gut und gibt dann das Öl hinein."
+          },
+          {
+            "japanese": "彼は熱しやすく冷めやすい性格だ。",
+            "romaji": "Kare wa nesshiyasuku sameyasui seikaku da.",
+            "german": "Er ist schnell begeistert und ebenso schnell wieder desinteressiert."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "suru",
+        "conjugation": {
+          "verbGroup": "suru",
+          "conjugationReading": "ねっする",
+          "conjugationKind": "verb",
+          "conjugationOverrides": {
+            "potential": null,
+            "imperative": "ねっせよ"
+          },
+          "conjugationVariants": {
+            "imperative": [
+              "ねっせよ"
+            ]
+          }
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "ねっする",
+        "conjugationOverrides": {
+          "potential": null,
+          "imperative": "ねっせよ"
+        },
+        "conjugationVariants": {
+          "imperative": [
+            "ねっせよ"
+          ]
+        },
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206105990",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "熱する / ネッスル; 動詞/一般/*/*; サ行変格; 終止形-一般; lemma 熱する; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "熱する",
+              "reading": "ねっする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "熱する as \"erhitzen; sich begeistern\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 熱する【ねっする】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1467730; spelling=熱する; reading=ねっする; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1467730 熱する/ねっする sense(s) 1,2 support \"erhitzen; sich begeistern\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1467730",
+            "spelling": "熱する",
+            "reading": "ねっする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to heat",
+                  "to heat up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get excited",
+                  "to get worked up",
+                  "to get fired up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "熱する|ねっする",
+          "referenceIndex": 0,
+          "referenceHash": "cc1aceae20b0a9a2343f56b15b10ad74fefd7ca33df443b215a380a07461ad53"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"erhitzen; sich begeistern\" matches JMdict 1467730 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Heating a pan.",
+          "Temperament (figurative)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1467730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "suru; transitivity per JMdict and explained in the note.",
+        "conjugation": "suru verb, conjugation reading ねっする; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@206105990 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206105990",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "熱する / ネッスル; 動詞/一般/*/*; サ行変格; 終止形-一般; lemma 熱する; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "熱する",
+              "reading": "ねっする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "熱する as \"erhitzen; sich begeistern\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 熱する【ねっする】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1467730 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "29c5e9671c8fce5c88b910c8a0d703e1ce68550062a1969be91b1290bfe712a6",
+        "approvalHash": "a78da89d8931eef0423c2ce827c301ebe9469d4d2bf13ed4039ba33331be53a0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: round-1 fix verified by spec diff and regenerated content — conjugationOverrides {potential:null, imperative:ねっせよ} + variant ねっせよ present; conjugation.js yields no potential and imperative ねっせよ, matching 接する/徹する. No other changes to this entry; otherwise as round 1: examples, romaji, German, JMdict senses, level and pitch disposition checked.",
+        "contentHash": "29c5e9671c8fce5c88b910c8a0d703e1ce68550062a1969be91b1290bfe712a6",
+        "approvalHash": "a78da89d8931eef0423c2ce827c301ebe9469d4d2bf13ed4039ba33331be53a0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:nemaki",
+      "revisionId": "036-add-nemaki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "寝間着",
+        "reading": "ねまき",
+        "romaji": "nemaki",
+        "meaning": "Nachthemd, Schlafanzug",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Kleidung zum Schlafen; auch 寝巻き geschrieben. Der westliche Schlafanzug heißt meist パジャマ.",
+        "examples": [
+          {
+            "japanese": "寝間着に着替えて布団に入った。",
+            "romaji": "Nemaki ni kigaete futon ni haitta.",
+            "german": "Ich zog mich zum Schlafen um und ging ins Bett."
+          },
+          {
+            "japanese": "旅館には浴衣が寝間着として用意されている。",
+            "romaji": "Ryokan ni wa yukata ga nemaki to shite youi sarete iru.",
+            "german": "Im Ryokan liegt ein Yukata als Nachtwäsche bereit."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "寝巻き",
+          "寝巻"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206453032",
+            "patterns": [
+              0
+            ],
+            "finding": "寝間着 / ネマキ; 名詞/普通名詞/一般/*; *; *; lemma 寝巻き; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寝間着",
+              "reading": "ねまき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寝間着 as \"Nachthemd, Schlafanzug\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 036); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2 (寝間着, 寝巻), Nihongo Master N2 (寝巻き). Editorial N2.",
+      "rationale": "Add 寝間着【ねまき】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360040; spelling=寝間着; reading=ねまき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1360040 寝間着/ねまき sense(s) 1 support \"Nachthemd, Schlafanzug\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1360040",
+            "spelling": "寝間着",
+            "reading": "ねまき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nightclothes",
+                  "nightwear",
+                  "sleepwear",
+                  "pyjamas",
+                  "pajamas",
+                  "nightgown",
+                  "nightdress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "寝間着|ねまき",
+          "referenceIndex": 0,
+          "referenceHash": "16fe649e2e8b7d2b0d3744592c123a61f9740501da3fbb69232ce21ae628089a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-036-editor",
+        "meaning": "\"Nachthemd, Schlafanzug\" matches JMdict 1360040 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Changing for bed.",
+          "Nightwear in a Japanese inn."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1360040; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2 (寝間着, 寝巻), Nihongo Master N2 (寝巻き). Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@206453032 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@206453032",
+            "patterns": [
+              0
+            ],
+            "finding": "寝間着 / ネマキ; 名詞/普通名詞/一般/*; *; *; lemma 寝巻き; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寝間着",
+              "reading": "ねまき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寝間着 as \"Nachthemd, Schlafanzug\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: Add 寝間着【ねまき】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1360040 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "955c6d76fbd813e0bfabc56819bb58c3bf0fdb516da7265744435719ea34a08a",
+        "approvalHash": "8b30d2cd0cd49e9649ea382a8544aca9f6b87ffa78b43abdfff5f6f7d4312138"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Merge 寝間着/寝巻き/寝巻 correct (JMdict 1360040); pitch from exact 寝間着 row whose UniDic lemma 寝巻き is the same lexeme. Examples fine.",
+        "contentHash": "955c6d76fbd813e0bfabc56819bb58c3bf0fdb516da7265744435719ea34a08a",
+        "approvalHash": "8b30d2cd0cd49e9649ea382a8544aca9f6b87ffa78b43abdfff5f6f7d4312138"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "なんとも|なんとも",
+      "referenceIndex": 0,
+      "referenceHash": "cff1773899da810ba8b3b16e63432b6d5b6064bd6bd6d0995661e9d0de914a29",
+      "revisionId": "036-candidate-nantomo-3b8f4314-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nantomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nantomo": "d87337c88f6d770c0ebed767d54e32ed9638f3dbbc6b732fad03699a43030147"
+      },
+      "reason": "Reference なんとも/なんとも (tanos N2) is the same lexeme as the new entry なんとも【なんとも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists なんとも/なんとも at N2 (gloss: nothing (with neg. verb),quite,not a bit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188690; spelling=なんとも; reading=なんとも; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188690 as the reference form.",
+          "selected": {
+            "sequence": "1188690",
+            "spelling": "なんとも",
+            "reading": "なんとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "really",
+                  "very",
+                  "extremely",
+                  "terribly",
+                  "awfully"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(not) at all",
+                  "(not) a bit"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference なんとも|なんとも#0 is the same lexeme as vocab-n2:correction:nantomo; target hash bound to the assembled addition.",
+        "contentHash": "05dc139b6b88209edf9ee8da829e49927246747de37a487ba766281ed5a8c5f9",
+        "approvalHash": "05dc139b6b88209edf9ee8da829e49927246747de37a487ba766281ed5a8c5f9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row なんとも|なんとも#0 is the same lexeme as vocab-n2:correction:nantomo (tanos lists なんとも/なんとも at N2 (gloss: nothing (with neg. verb),quite,not a bit).).",
+        "contentHash": "05dc139b6b88209edf9ee8da829e49927246747de37a487ba766281ed5a8c5f9",
+        "approvalHash": "05dc139b6b88209edf9ee8da829e49927246747de37a487ba766281ed5a8c5f9"
+      }
+    },
+    {
+      "key": "何とも|なんとも",
+      "referenceIndex": 0,
+      "referenceHash": "c7017285ae0fc7adcccd3e766d48b5dd0cade8d66dbe1f64fbc5c45c291ec340",
+      "revisionId": "036-candidate-nantomo-96d578ed-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nantomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nantomo": "d87337c88f6d770c0ebed767d54e32ed9638f3dbbc6b732fad03699a43030147"
+      },
+      "reason": "Reference 何とも/なんとも (tanos N1) is the same lexeme as the new entry なんとも【なんとも】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=126",
+          "finding": "tanos lists 何とも/なんとも at N1 (gloss: nothing (with neg. verb), quite, not a bit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188690; spelling=なんとも; reading=なんとも; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188690 as the reference form.",
+          "selected": {
+            "sequence": "1188690",
+            "spelling": "なんとも",
+            "reading": "なんとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "really",
+                  "very",
+                  "extremely",
+                  "terribly",
+                  "awfully"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(not) at all",
+                  "(not) a bit"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 何とも|なんとも#0 is the same lexeme as vocab-n2:correction:nantomo; target hash bound to the assembled addition.",
+        "contentHash": "379d886ed70f149e0f58f241415d80509591608d3a0b6b9b94481be3df550c49",
+        "approvalHash": "379d886ed70f149e0f58f241415d80509591608d3a0b6b9b94481be3df550c49"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 何とも|なんとも#0 is the same lexeme as vocab-n2:correction:nantomo (tanos lists 何とも/なんとも at N1 (gloss: nothing (with neg. verb), quite, not a bit).). Spelling-variant merge verified.",
+        "contentHash": "379d886ed70f149e0f58f241415d80509591608d3a0b6b9b94481be3df550c49",
+        "approvalHash": "379d886ed70f149e0f58f241415d80509591608d3a0b6b9b94481be3df550c49"
+      }
+    },
+    {
+      "key": "何とも|なんとも",
+      "referenceIndex": 1,
+      "referenceHash": "600401f2166bb35bc384ad667291d845cbb31f7ebf9eff81fcfabe9d613494dd",
+      "revisionId": "036-candidate-nantomo-96d578ed-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nantomo"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nantomo": "d87337c88f6d770c0ebed767d54e32ed9638f3dbbc6b732fad03699a43030147"
+      },
+      "reason": "Reference 何とも/なんとも (master N2) is the same lexeme as the new entry なんとも【なんとも】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 何とも/なんとも at N2 (gloss: quite; really; very)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1188690; spelling=なんとも; reading=なんとも; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1188690 as the reference form.",
+          "selected": {
+            "sequence": "1188690",
+            "spelling": "なんとも",
+            "reading": "なんとも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "really",
+                  "very",
+                  "extremely",
+                  "terribly",
+                  "awfully"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(not) anything",
+                  "(not) at all",
+                  "(not) a bit"
+                ],
+                "notes": [
+                  "with neg. verb"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 何とも|なんとも#1 is the same lexeme as vocab-n2:correction:nantomo; target hash bound to the assembled addition.",
+        "contentHash": "d3014f9dbd94be691bd28fc3ddb45c7b4fd1c15fad848cc58de029c744a20e33",
+        "approvalHash": "d3014f9dbd94be691bd28fc3ddb45c7b4fd1c15fad848cc58de029c744a20e33"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 何とも|なんとも#1 is the same lexeme as vocab-n2:correction:nantomo (Nihongo Master lists 何とも/なんとも at N2 (gloss: quite; really; very).). Spelling-variant merge verified.",
+        "contentHash": "d3014f9dbd94be691bd28fc3ddb45c7b4fd1c15fad848cc58de029c744a20e33",
+        "approvalHash": "d3014f9dbd94be691bd28fc3ddb45c7b4fd1c15fad848cc58de029c744a20e33"
+      }
+    },
+    {
+      "key": "なんばー|なんばー",
+      "referenceIndex": 0,
+      "referenceHash": "12f454d12c2856d22291f91d7a168660e6b300aacb31c8129ca1492e144b18e7",
+      "revisionId": "036-candidate-nanbaa-21279732-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nanbaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nanbaa": "743443ef90f93ff786704d5326290b866e6313cfa9637a64687f71a32589845f"
+      },
+      "reason": "Reference ナンバー/ナンバー (tanos N2) is the same lexeme as the new entry ナンバー【ナンバー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists ナンバー/ナンバー at N2 (gloss: number)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1090860; spelling=ナンバー; reading=ナンバー; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1090860 as the reference form.",
+          "selected": {
+            "sequence": "1090860",
+            "spelling": "ナンバー",
+            "reading": "ナンバー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "number"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "number plate",
+                  "license plate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference なんばー|なんばー#0 is the same lexeme as vocab-n2:correction:nanbaa; target hash bound to the assembled addition.",
+        "contentHash": "7b446150b9a8866f50ad8ab5be2233d9e0db3f4a544efb65ebba50bd7e59d628",
+        "approvalHash": "7b446150b9a8866f50ad8ab5be2233d9e0db3f4a544efb65ebba50bd7e59d628"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row なんばー|なんばー#0 is the same lexeme as vocab-n2:correction:nanbaa (tanos lists ナンバー/ナンバー at N2 (gloss: number).).",
+        "contentHash": "7b446150b9a8866f50ad8ab5be2233d9e0db3f4a544efb65ebba50bd7e59d628",
+        "approvalHash": "7b446150b9a8866f50ad8ab5be2233d9e0db3f4a544efb65ebba50bd7e59d628"
+      }
+    },
+    {
+      "key": "なんばー|なんばー",
+      "referenceIndex": 1,
+      "referenceHash": "302a46ff26274f3b3668abd03baa85e00aed54f938a19ad5db8512909627bf95",
+      "revisionId": "036-candidate-nanbaa-21279732-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nanbaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nanbaa": "743443ef90f93ff786704d5326290b866e6313cfa9637a64687f71a32589845f"
+      },
+      "reason": "Reference ナンバー/ナンバー (master N2) is the same lexeme as the new entry ナンバー【ナンバー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists ナンバー/ナンバー at N2 (gloss: number; numéro; номер (en: number))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1090860; spelling=ナンバー; reading=ナンバー; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1090860 as the reference form.",
+          "selected": {
+            "sequence": "1090860",
+            "spelling": "ナンバー",
+            "reading": "ナンバー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "number"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "number plate",
+                  "license plate"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference なんばー|なんばー#1 is the same lexeme as vocab-n2:correction:nanbaa; target hash bound to the assembled addition.",
+        "contentHash": "8a0027024b00e739e033c0b61774105bec02ad5577e0b3296b4e4e29b6489929",
+        "approvalHash": "8a0027024b00e739e033c0b61774105bec02ad5577e0b3296b4e4e29b6489929"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row なんばー|なんばー#1 is the same lexeme as vocab-n2:correction:nanbaa (Nihongo Master lists ナンバー/ナンバー at N2 (gloss: number; numéro; номер (en: number)).).",
+        "contentHash": "8a0027024b00e739e033c0b61774105bec02ad5577e0b3296b4e4e29b6489929",
+        "approvalHash": "8a0027024b00e739e033c0b61774105bec02ad5577e0b3296b4e4e29b6489929"
+      }
+    },
+    {
+      "key": "南北|なんぼく",
+      "referenceIndex": 0,
+      "referenceHash": "720d92d767e47659954bcf3d5dfb121536ea8d37d60f0cba6e9f6e132b7c5d2e",
+      "revisionId": "036-candidate-nanboku-356907f4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nanboku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nanboku": "eaad710ed630b99123207910df90a429b02e6e12d473826b6e46c08ec6f3c8cf"
+      },
+      "reason": "Reference 南北/なんぼく (tanos N2) is the same lexeme as the new entry 南北【なんぼく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=65",
+          "finding": "tanos lists 南北/なんぼく at N2 (gloss: south and north)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1460600; spelling=南北; reading=なんぼく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1460600 as the reference form.",
+          "selected": {
+            "sequence": "1460600",
+            "spelling": "南北",
+            "reading": "なんぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "north and south",
+                  "north to south"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 南北|なんぼく#0 is the same lexeme as vocab-n2:correction:nanboku; target hash bound to the assembled addition.",
+        "contentHash": "86a6754dac22f83538ad0a26137ccec64b2819c67bf644ff9c396831f2eef187",
+        "approvalHash": "86a6754dac22f83538ad0a26137ccec64b2819c67bf644ff9c396831f2eef187"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 南北|なんぼく#0 is the same lexeme as vocab-n2:correction:nanboku (tanos lists 南北/なんぼく at N2 (gloss: south and north).).",
+        "contentHash": "86a6754dac22f83538ad0a26137ccec64b2819c67bf644ff9c396831f2eef187",
+        "approvalHash": "86a6754dac22f83538ad0a26137ccec64b2819c67bf644ff9c396831f2eef187"
+      }
+    },
+    {
+      "key": "南北|なんぼく",
+      "referenceIndex": 1,
+      "referenceHash": "412b5d49ce1fbd7e262324dc9fd0549119010db4ff57709ecd15a5d64e77685c",
+      "revisionId": "036-candidate-nanboku-356907f4-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nanboku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nanboku": "eaad710ed630b99123207910df90a429b02e6e12d473826b6e46c08ec6f3c8cf"
+      },
+      "reason": "Reference 南北/なんぼく (master N2) is the same lexeme as the new entry 南北【なんぼく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 南北/なんぼく at N2 (gloss: south and north; nord-sud; (n) Süden und Norden)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1460600; spelling=南北; reading=なんぼく; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1460600 as the reference form.",
+          "selected": {
+            "sequence": "1460600",
+            "spelling": "南北",
+            "reading": "なんぼく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "north and south",
+                  "north to south"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 南北|なんぼく#1 is the same lexeme as vocab-n2:correction:nanboku; target hash bound to the assembled addition.",
+        "contentHash": "1e74389d6ddf60868d80c4fb9b89830a0832a0a1f61dd2d20b2bf77253286174",
+        "approvalHash": "1e74389d6ddf60868d80c4fb9b89830a0832a0a1f61dd2d20b2bf77253286174"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 南北|なんぼく#1 is the same lexeme as vocab-n2:correction:nanboku (Nihongo Master lists 南北/なんぼく at N2 (gloss: south and north; nord-sud; (n) Süden und Norden).).",
+        "contentHash": "1e74389d6ddf60868d80c4fb9b89830a0832a0a1f61dd2d20b2bf77253286174",
+        "approvalHash": "1e74389d6ddf60868d80c4fb9b89830a0832a0a1f61dd2d20b2bf77253286174"
+      }
+    },
+    {
+      "key": "日本式|にほんしき",
+      "referenceIndex": 0,
+      "referenceHash": "9e5eca840fc33b185627078a66afd577f69e6f6b47f4cae487dd8405c338d52a",
+      "revisionId": "036-candidate-nihonshiki-aeaaa576-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nihonshiki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nihonshiki": "400f8415912d001ab817f4439450488ecf3e71dc503acf28bdd59bae1a8b3171"
+      },
+      "reason": "Reference 日本式/にほんしき (master N2) is the same lexeme as the new entry 日本式【にほんしき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 日本式/にほんしき at N2 (gloss: Japanese style; (n) japanischer Stil)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1464650; spelling=日本式; reading=にほんしき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1464650 as the reference form.",
+          "selected": {
+            "sequence": "1464650",
+            "spelling": "日本式",
+            "reading": "にほんしき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Japanese style"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 日本式|にほんしき#0 is the same lexeme as vocab-n2:correction:nihonshiki; target hash bound to the assembled addition.",
+        "contentHash": "7a66f2463ee2fed821506fa13f6ec55d2a6021ac536a2705cd90f7ba3a21deed",
+        "approvalHash": "7a66f2463ee2fed821506fa13f6ec55d2a6021ac536a2705cd90f7ba3a21deed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 日本式|にほんしき#0 is the same lexeme as vocab-n2:correction:nihonshiki (Nihongo Master lists 日本式/にほんしき at N2 (gloss: Japanese style; (n) japanischer Stil).).",
+        "contentHash": "7a66f2463ee2fed821506fa13f6ec55d2a6021ac536a2705cd90f7ba3a21deed",
+        "approvalHash": "7a66f2463ee2fed821506fa13f6ec55d2a6021ac536a2705cd90f7ba3a21deed"
+      }
+    },
+    {
+      "key": "女房|にょうぼう",
+      "referenceIndex": 0,
+      "referenceHash": "a3d64aa53d60733485eaefddc1ba2bf49731f88da591b6b33cda6b6d56daa342",
+      "revisionId": "036-candidate-nyoubou-d5c381f1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nyoubou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nyoubou": "0ce84e9f1bcf78a8e4f4a47894a7a847b98da3c40076512bd3212723971ae35c"
+      },
+      "reason": "Reference 女房/にょうぼう (tanos N2) is the same lexeme as the new entry 女房【にょうぼう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=66",
+          "finding": "tanos lists 女房/にょうぼう at N2 (gloss: wife)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345420; spelling=女房; reading=にょうぼう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1345420 as the reference form.",
+          "selected": {
+            "sequence": "1345420",
+            "spelling": "女房",
+            "reading": "にょうぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wife (esp. one's own wife)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 女房|にょうぼう#0 is the same lexeme as vocab-n2:correction:nyoubou; target hash bound to the assembled addition.",
+        "contentHash": "04e725619f71af34e7aeb35fc6df52d3e60a2caf63946d0467cbbe101093d09e",
+        "approvalHash": "04e725619f71af34e7aeb35fc6df52d3e60a2caf63946d0467cbbe101093d09e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 女房|にょうぼう#0 is the same lexeme as vocab-n2:correction:nyoubou (tanos lists 女房/にょうぼう at N2 (gloss: wife).).",
+        "contentHash": "04e725619f71af34e7aeb35fc6df52d3e60a2caf63946d0467cbbe101093d09e",
+        "approvalHash": "04e725619f71af34e7aeb35fc6df52d3e60a2caf63946d0467cbbe101093d09e"
+      }
+    },
+    {
+      "key": "女房|にょうぼう",
+      "referenceIndex": 1,
+      "referenceHash": "4f34374c68ccd3c71c7261edd9f3f86140e8b0091567fea1fafc494d6d4c374f",
+      "revisionId": "036-candidate-nyoubou-d5c381f1-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nyoubou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nyoubou": "0ce84e9f1bcf78a8e4f4a47894a7a847b98da3c40076512bd3212723971ae35c"
+      },
+      "reason": "Reference 女房/にょうぼう (master N2) is the same lexeme as the new entry 女房【にょうぼう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 女房/にょうぼう at N2 (gloss: wife; (mon) épouse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1345420; spelling=女房; reading=にょうぼう; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1345420 as the reference form.",
+          "selected": {
+            "sequence": "1345420",
+            "spelling": "女房",
+            "reading": "にょうぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wife (esp. one's own wife)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 女房|にょうぼう#1 is the same lexeme as vocab-n2:correction:nyoubou; target hash bound to the assembled addition.",
+        "contentHash": "15f2f2d7d49cbdb42c78fd1376421651114e134f2da1ee01e99ea0067841573d",
+        "approvalHash": "15f2f2d7d49cbdb42c78fd1376421651114e134f2da1ee01e99ea0067841573d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 女房|にょうぼう#1 is the same lexeme as vocab-n2:correction:nyoubou (Nihongo Master lists 女房/にょうぼう at N2 (gloss: wife; (mon) épouse).).",
+        "contentHash": "15f2f2d7d49cbdb42c78fd1376421651114e134f2da1ee01e99ea0067841573d",
+        "approvalHash": "15f2f2d7d49cbdb42c78fd1376421651114e134f2da1ee01e99ea0067841573d"
+      }
+    },
+    {
+      "key": "俄|にわか",
+      "referenceIndex": 0,
+      "referenceHash": "b2e5c9fdd517c515ed88042e54970985b07781ec703ea79d87b06c3a4766cb4b",
+      "revisionId": "036-candidate-niwaka-bd5b93eb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:niwaka"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:niwaka": "65884436ac4a13de68941e84fbe3f3780fdcf29fc12b2f700c0c5ed102dd8ad2"
+      },
+      "reason": "Reference 俄/にわか (tanos N2) is the same lexeme as the new entry にわか【にわか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=66",
+          "finding": "tanos lists 俄/にわか at N2 (gloss: sudden,abrupt,unexpected,improvised,offhand)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599920; spelling=にわか; reading=にわか; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599920 as the reference form.",
+          "selected": {
+            "sequence": "1599920",
+            "spelling": "にわか",
+            "reading": "にわか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "immediate"
+                ],
+                "notes": [
+                  "occ. written 遽か"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "improvised",
+                  "hasty",
+                  "impromptu",
+                  "offhand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 俄|にわか#0 is the same lexeme as vocab-n2:correction:niwaka; target hash bound to the assembled addition.",
+        "contentHash": "66d4ca0d7d3dc397106449bc34bfc7dc0a79d685962fde7e56f2e6c89f874150",
+        "approvalHash": "66d4ca0d7d3dc397106449bc34bfc7dc0a79d685962fde7e56f2e6c89f874150"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 俄|にわか#0 is the same lexeme as vocab-n2:correction:niwaka (tanos lists 俄/にわか at N2 (gloss: sudden,abrupt,unexpected,improvised,offhand).).",
+        "contentHash": "66d4ca0d7d3dc397106449bc34bfc7dc0a79d685962fde7e56f2e6c89f874150",
+        "approvalHash": "66d4ca0d7d3dc397106449bc34bfc7dc0a79d685962fde7e56f2e6c89f874150"
+      }
+    },
+    {
+      "key": "俄|にわか",
+      "referenceIndex": 1,
+      "referenceHash": "3e3cfb34ea49103546fdc5ffea2c55f6ed02a3f103b5ea45496d8abe9801c594",
+      "revisionId": "036-candidate-niwaka-bd5b93eb-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:niwaka"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:niwaka": "65884436ac4a13de68941e84fbe3f3780fdcf29fc12b2f700c0c5ed102dd8ad2"
+      },
+      "reason": "Reference 俄/にわか (master N2) is the same lexeme as the new entry にわか【にわか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 俄/にわか at N2 (gloss: sudden; abrupt; unexpected)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1599920; spelling=にわか; reading=にわか; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1599920 as the reference form.",
+          "selected": {
+            "sequence": "1599920",
+            "spelling": "にわか",
+            "reading": "にわか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "sudden",
+                  "abrupt",
+                  "unexpected",
+                  "immediate"
+                ],
+                "notes": [
+                  "occ. written 遽か"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "prefix",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "improvised",
+                  "hasty",
+                  "impromptu",
+                  "offhand"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 俄|にわか#1 is the same lexeme as vocab-n2:correction:niwaka; target hash bound to the assembled addition.",
+        "contentHash": "27ba16952d2a14a12a8b5a3c7b9feabcb2b576fe24877cdd5f78b68486999d01",
+        "approvalHash": "27ba16952d2a14a12a8b5a3c7b9feabcb2b576fe24877cdd5f78b68486999d01"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 俄|にわか#1 is the same lexeme as vocab-n2:correction:niwaka (Nihongo Master lists 俄/にわか at N2 (gloss: sudden; abrupt; unexpected).).",
+        "contentHash": "27ba16952d2a14a12a8b5a3c7b9feabcb2b576fe24877cdd5f78b68486999d01",
+        "approvalHash": "27ba16952d2a14a12a8b5a3c7b9feabcb2b576fe24877cdd5f78b68486999d01"
+      }
+    },
+    {
+      "key": "ねじ|ねじ",
+      "referenceIndex": 0,
+      "referenceHash": "060d40b5481b55d74f9fa602a45107803ef14aa8469c165427a6b68c1bd4eb5a",
+      "revisionId": "036-candidate-neji-16a2fc37-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:neji"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:neji": "ac5ccdc8c96a0cd3528d81d60b7244851145c605e19165667e2618397bf289df"
+      },
+      "reason": "Reference ねじ/ねじ (tanos N2) is the same lexeme as the new entry ねじ【ねじ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=66",
+          "finding": "tanos lists ねじ/ねじ at N2 (gloss: (a) screw)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585010; spelling=ねじ; reading=ねじ; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1585010 as the reference form.",
+          "selected": {
+            "sequence": "1585010",
+            "spelling": "ねじ",
+            "reading": "ねじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "screw"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "key (of a clock, watch, etc.)",
+                  "spring"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ねじ|ねじ#0 is the same lexeme as vocab-n2:correction:neji; target hash bound to the assembled addition.",
+        "contentHash": "80e9db0c812c1bc802d35ce8f7163efb472c155ce603d8ad584891ab1fb06dc2",
+        "approvalHash": "80e9db0c812c1bc802d35ce8f7163efb472c155ce603d8ad584891ab1fb06dc2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ねじ|ねじ#0 is the same lexeme as vocab-n2:correction:neji (tanos lists ねじ/ねじ at N2 (gloss: (a) screw).).",
+        "contentHash": "80e9db0c812c1bc802d35ce8f7163efb472c155ce603d8ad584891ab1fb06dc2",
+        "approvalHash": "80e9db0c812c1bc802d35ce8f7163efb472c155ce603d8ad584891ab1fb06dc2"
+      }
+    },
+    {
+      "key": "螺子|ねじ",
+      "referenceIndex": 0,
+      "referenceHash": "9996c3008b6c35a03bde0d306fdb145435b1f31d43c49ae37fa96295647dd5a7",
+      "revisionId": "036-candidate-neji-484cad90-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:neji"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:neji": "ac5ccdc8c96a0cd3528d81d60b7244851145c605e19165667e2618397bf289df"
+      },
+      "reason": "Reference 螺子/ねじ (master N2) is the same lexeme as the new entry ねじ【ねじ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 螺子/ねじ at N2 (gloss: screw; ressort; vis)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1585010; spelling=ねじ; reading=ねじ; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1585010 as the reference form.",
+          "selected": {
+            "sequence": "1585010",
+            "spelling": "ねじ",
+            "reading": "ねじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "screw"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "key (of a clock, watch, etc.)",
+                  "spring"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 螺子|ねじ#0 is the same lexeme as vocab-n2:correction:neji; target hash bound to the assembled addition.",
+        "contentHash": "43d8fef0b6a0476213da5237c58fed0d37121a7e9a3e073b8f9e545b0c72c166",
+        "approvalHash": "43d8fef0b6a0476213da5237c58fed0d37121a7e9a3e073b8f9e545b0c72c166"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 螺子|ねじ#0 is the same lexeme as vocab-n2:correction:neji (Nihongo Master lists 螺子/ねじ at N2 (gloss: screw; ressort; vis).). Spelling-variant merge verified.",
+        "contentHash": "43d8fef0b6a0476213da5237c58fed0d37121a7e9a3e073b8f9e545b0c72c166",
+        "approvalHash": "43d8fef0b6a0476213da5237c58fed0d37121a7e9a3e073b8f9e545b0c72c166"
+      }
+    },
+    {
+      "key": "ねっくれす|ねっくれす",
+      "referenceIndex": 0,
+      "referenceHash": "5eb4676a6846aa7e07c59e43a26be557cdb9f79d7ed6957fdb0165eeda8ed9dd",
+      "revisionId": "036-candidate-nekkuresu-a97f4df9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nekkuresu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nekkuresu": "1f120f3b4e2e856325355c85ad8f17f04eae06f964ef37a00e58752d83aa96ed"
+      },
+      "reason": "Reference ネックレス/ネックレス (tanos N2) is the same lexeme as the new entry ネックレス【ネックレス】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=66",
+          "finding": "tanos lists ネックレス/ネックレス at N2 (gloss: necklace)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1093000; spelling=ネックレス; reading=ネックレス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1093000 as the reference form.",
+          "selected": {
+            "sequence": "1093000",
+            "spelling": "ネックレス",
+            "reading": "ネックレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "necklace"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ねっくれす|ねっくれす#0 is the same lexeme as vocab-n2:correction:nekkuresu; target hash bound to the assembled addition.",
+        "contentHash": "f8f2e03660ba07e31ec0471d9a5edbc3727c4b1a5fcaa24a8b82d1fd22201aeb",
+        "approvalHash": "f8f2e03660ba07e31ec0471d9a5edbc3727c4b1a5fcaa24a8b82d1fd22201aeb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ねっくれす|ねっくれす#0 is the same lexeme as vocab-n2:correction:nekkuresu (tanos lists ネックレス/ネックレス at N2 (gloss: necklace).).",
+        "contentHash": "f8f2e03660ba07e31ec0471d9a5edbc3727c4b1a5fcaa24a8b82d1fd22201aeb",
+        "approvalHash": "f8f2e03660ba07e31ec0471d9a5edbc3727c4b1a5fcaa24a8b82d1fd22201aeb"
+      }
+    },
+    {
+      "key": "ねっくれす|ねっくれす",
+      "referenceIndex": 1,
+      "referenceHash": "a1a17ab474e3c850f8277217b76655c5eb03562672ae7fe4918764dafd20069f",
+      "revisionId": "036-candidate-nekkuresu-a97f4df9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nekkuresu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nekkuresu": "1f120f3b4e2e856325355c85ad8f17f04eae06f964ef37a00e58752d83aa96ed"
+      },
+      "reason": "Reference ネックレス/ネックレス (master N2) is the same lexeme as the new entry ネックレス【ネックレス】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ネックレス/ネックレス at N2 (gloss: necklace; collier; (n) Halskette)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1093000; spelling=ネックレス; reading=ネックレス; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1093000 as the reference form.",
+          "selected": {
+            "sequence": "1093000",
+            "spelling": "ネックレス",
+            "reading": "ネックレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "necklace"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference ねっくれす|ねっくれす#1 is the same lexeme as vocab-n2:correction:nekkuresu; target hash bound to the assembled addition.",
+        "contentHash": "8d5951abc889ad4f74464a4c5ba83123d96486b3a46d8bff842ff04af5763ca9",
+        "approvalHash": "8d5951abc889ad4f74464a4c5ba83123d96486b3a46d8bff842ff04af5763ca9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row ねっくれす|ねっくれす#1 is the same lexeme as vocab-n2:correction:nekkuresu (Nihongo Master lists ネックレス/ネックレス at N2 (gloss: necklace; collier; (n) Halskette).).",
+        "contentHash": "8d5951abc889ad4f74464a4c5ba83123d96486b3a46d8bff842ff04af5763ca9",
+        "approvalHash": "8d5951abc889ad4f74464a4c5ba83123d96486b3a46d8bff842ff04af5763ca9"
+      }
+    },
+    {
+      "key": "熱する|ねっする",
+      "referenceIndex": 0,
+      "referenceHash": "cc1aceae20b0a9a2343f56b15b10ad74fefd7ca33df443b215a380a07461ad53",
+      "revisionId": "036-candidate-nessuru-dd262130-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nessuru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nessuru": "29c5e9671c8fce5c88b910c8a0d703e1ce68550062a1969be91b1290bfe712a6"
+      },
+      "reason": "Reference 熱する/ねっする (tanos N2) is the same lexeme as the new entry 熱する【ねっする】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 熱する/ねっする at N2 (gloss: to heat)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1467730; spelling=熱する; reading=ねっする; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1467730 as the reference form.",
+          "selected": {
+            "sequence": "1467730",
+            "spelling": "熱する",
+            "reading": "ねっする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to heat",
+                  "to heat up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get excited",
+                  "to get worked up",
+                  "to get fired up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 熱する|ねっする#0 is the same lexeme as vocab-n2:correction:nessuru; target hash bound to the assembled addition.",
+        "contentHash": "ed3a53b9937cb166c08784b389e611f21f85ecad267443dcd64154d837a2bea4",
+        "approvalHash": "ed3a53b9937cb166c08784b389e611f21f85ecad267443dcd64154d837a2bea4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 熱する|ねっする#0 is the same lexeme as vocab-n2:correction:nessuru (tanos lists 熱する/ねっする at N2 (gloss: to heat).).",
+        "contentHash": "ed3a53b9937cb166c08784b389e611f21f85ecad267443dcd64154d837a2bea4",
+        "approvalHash": "ed3a53b9937cb166c08784b389e611f21f85ecad267443dcd64154d837a2bea4"
+      }
+    },
+    {
+      "key": "熱する|ねっする",
+      "referenceIndex": 1,
+      "referenceHash": "92576d064c5d6ef6600ef589d7fafe5545a28ec319fffe8dbc73cdd634fd0d34",
+      "revisionId": "036-candidate-nessuru-dd262130-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nessuru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nessuru": "29c5e9671c8fce5c88b910c8a0d703e1ce68550062a1969be91b1290bfe712a6"
+      },
+      "reason": "Reference 熱する/ねっする (master N2) is the same lexeme as the new entry 熱する【ねっする】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 熱する/ねっする at N2 (gloss: to heat; to heat up; chauffer)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1467730; spelling=熱する; reading=ねっする; senses=1,2; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1467730 as the reference form.",
+          "selected": {
+            "sequence": "1467730",
+            "spelling": "熱する",
+            "reading": "ねっする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to heat",
+                  "to heat up"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get excited",
+                  "to get worked up",
+                  "to get fired up"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 熱する|ねっする#1 is the same lexeme as vocab-n2:correction:nessuru; target hash bound to the assembled addition.",
+        "contentHash": "3ba7b6281a800ec9f70383db474ac1d088dc33508c882fb8f8a51704a3449ef5",
+        "approvalHash": "3ba7b6281a800ec9f70383db474ac1d088dc33508c882fb8f8a51704a3449ef5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 熱する|ねっする#1 is the same lexeme as vocab-n2:correction:nessuru (Nihongo Master lists 熱する/ねっする at N2 (gloss: to heat; to heat up; chauffer).).",
+        "contentHash": "3ba7b6281a800ec9f70383db474ac1d088dc33508c882fb8f8a51704a3449ef5",
+        "approvalHash": "3ba7b6281a800ec9f70383db474ac1d088dc33508c882fb8f8a51704a3449ef5"
+      }
+    },
+    {
+      "key": "寝間着|ねまき",
+      "referenceIndex": 0,
+      "referenceHash": "16fe649e2e8b7d2b0d3744592c123a61f9740501da3fbb69232ce21ae628089a",
+      "revisionId": "036-candidate-nemaki-24a8ead0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nemaki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nemaki": "955c6d76fbd813e0bfabc56819bb58c3bf0fdb516da7265744435719ea34a08a"
+      },
+      "reason": "Reference 寝間着/ねまき (tanos N2) is the same lexeme as the new entry 寝間着【ねまき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 寝間着/ねまき at N2 (gloss: sleep-wear,nightclothes,pyjamas,nightgown,nightdress)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360040; spelling=寝間着; reading=ねまき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360040 as the reference form.",
+          "selected": {
+            "sequence": "1360040",
+            "spelling": "寝間着",
+            "reading": "ねまき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nightclothes",
+                  "nightwear",
+                  "sleepwear",
+                  "pyjamas",
+                  "pajamas",
+                  "nightgown",
+                  "nightdress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 寝間着|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki; target hash bound to the assembled addition.",
+        "contentHash": "c3e558371316aeda9e4a42d08efb5fd21dd85d3be632a2fff9448c249c9a8c05",
+        "approvalHash": "c3e558371316aeda9e4a42d08efb5fd21dd85d3be632a2fff9448c249c9a8c05"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 寝間着|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki (tanos lists 寝間着/ねまき at N2 (gloss: sleep-wear,nightclothes,pyjamas,nightgown,nightdress).).",
+        "contentHash": "c3e558371316aeda9e4a42d08efb5fd21dd85d3be632a2fff9448c249c9a8c05",
+        "approvalHash": "c3e558371316aeda9e4a42d08efb5fd21dd85d3be632a2fff9448c249c9a8c05"
+      }
+    },
+    {
+      "key": "寝巻|ねまき",
+      "referenceIndex": 0,
+      "referenceHash": "03e687c5b2b523d9f41c053c30ce9aaf7fa2da755270203fd6d5074795cd8136",
+      "revisionId": "036-candidate-nemaki-24c5e43a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nemaki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nemaki": "955c6d76fbd813e0bfabc56819bb58c3bf0fdb516da7265744435719ea34a08a"
+      },
+      "reason": "Reference 寝巻/ねまき (tanos N2) is the same lexeme as the new entry 寝間着【ねまき】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=67",
+          "finding": "tanos lists 寝巻/ねまき at N2 (gloss: sleep-wear,nightclothes,pyjamas,nightgown,nightdress)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360040; spelling=寝間着; reading=ねまき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360040 as the reference form.",
+          "selected": {
+            "sequence": "1360040",
+            "spelling": "寝間着",
+            "reading": "ねまき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nightclothes",
+                  "nightwear",
+                  "sleepwear",
+                  "pyjamas",
+                  "pajamas",
+                  "nightgown",
+                  "nightdress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 寝巻|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki; target hash bound to the assembled addition.",
+        "contentHash": "8d7be7be27b91a69b854928b6ba7e68dd60fd186ec4a358773aa91dbf2768b46",
+        "approvalHash": "8d7be7be27b91a69b854928b6ba7e68dd60fd186ec4a358773aa91dbf2768b46"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 寝巻|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki (tanos lists 寝巻/ねまき at N2 (gloss: sleep-wear,nightclothes,pyjamas,nightgown,nightdress).). Spelling-variant merge verified.",
+        "contentHash": "8d7be7be27b91a69b854928b6ba7e68dd60fd186ec4a358773aa91dbf2768b46",
+        "approvalHash": "8d7be7be27b91a69b854928b6ba7e68dd60fd186ec4a358773aa91dbf2768b46"
+      }
+    },
+    {
+      "key": "寝巻き|ねまき",
+      "referenceIndex": 0,
+      "referenceHash": "e0c0b1fa31101428f65222fa36e6afd511d45a5c90da1c3281020f9c9d906c5c",
+      "revisionId": "036-candidate-nemaki-639494a7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:nemaki"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:nemaki": "955c6d76fbd813e0bfabc56819bb58c3bf0fdb516da7265744435719ea34a08a"
+      },
+      "reason": "Reference 寝巻き/ねまき (master N2) is the same lexeme as the new entry 寝間着【ねまき】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 寝巻き/ねまき at N2 (gloss: sleep-wear; nightclothes; pyjamas)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1360040; spelling=寝間着; reading=ねまき; senses=1; scripts/vocabulary-completion/maintenance-036/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1360040 as the reference form.",
+          "selected": {
+            "sequence": "1360040",
+            "spelling": "寝間着",
+            "reading": "ねまき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nightclothes",
+                  "nightwear",
+                  "sleepwear",
+                  "pyjamas",
+                  "pajamas",
+                  "nightgown",
+                  "nightdress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-editor",
+        "finding": "Editorial first pass: reference 寝巻き|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki; target hash bound to the assembled addition.",
+        "contentHash": "888e2d399d8ff5500773459500e5157d29d953b89f53cfc6f5b27ecf6afb1073",
+        "approvalHash": "888e2d399d8ff5500773459500e5157d29d953b89f53cfc6f5b27ecf6afb1073"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-036-independent-reviewer",
+        "finding": "Round 2: unchanged since round-1 review (content diff empty for this target). Publisher row 寝巻き|ねまき#0 is the same lexeme as vocab-n2:correction:nemaki (Nihongo Master lists 寝巻き/ねまき at N2 (gloss: sleep-wear; nightclothes; pyjamas).). Spelling-variant merge verified.",
+        "contentHash": "888e2d399d8ff5500773459500e5157d29d953b89f53cfc6f5b27ecf6afb1073",
+        "approvalHash": "888e2d399d8ff5500773459500e5157d29d953b89f53cfc6f5b27ecf6afb1073"
+      }
+    }
+  ]
+}

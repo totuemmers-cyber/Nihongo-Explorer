@@ -90,7 +90,7 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   100 N2 words each, curated from the open candidate groups by level and reading (spelling variants merged,
   already-taught forms, affixes and garbage rows left open), each checked by an independent reviewer.
 
-Runtime: **13,689 entries** (N5 1,642, N4 1,637, N3 3,740, N2 2,643, N1 4,027),
+Runtime: **13,902 entries** (N5 1,642, N4 1,637, N3 3,740, N2 2,856, N1 4,027),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

@@ -1,0 +1,3479 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:keikoutou",
+      "revisionId": "033-add-keikoutou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "蛍光灯",
+        "reading": "けいこうとう",
+        "romaji": "keikoutou",
+        "meaning": "Leuchtstofflampe, Neonröhre",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Die klassische Deckenbeleuchtung in japanischen Büros und Wohnungen, heute oft durch LED ersetzt. Umgangssprachlich auch für jemanden, der langsam reagiert.",
+        "examples": [
+          {
+            "japanese": "台所の蛍光灯が切れてしまった。",
+            "romaji": "Daidokoro no keikoutou ga kirete shimatta.",
+            "german": "Die Leuchtstoffröhre in der Küche ist durchgebrannt."
+          },
+          {
+            "japanese": "蛍光灯をLEDに取り替えた。",
+            "romaji": "Keikoutou o eruiidii ni torikaeta.",
+            "german": "Ich habe die Leuchtstoffröhre gegen eine LED getauscht."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 蛍光灯【けいこうとう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1592540; spelling=蛍光灯; reading=けいこうとう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1592540 蛍光灯/けいこうとう sense(s) 1 support \"Leuchtstofflampe, Neonröhre\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1592540",
+            "spelling": "蛍光灯",
+            "reading": "けいこうとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fluorescent lamp",
+                  "fluorescent light"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "蛍光灯|けいこうとう",
+          "referenceIndex": 0,
+          "referenceHash": "246033be00c0eaa5001ac61f78fb443383b56c94882b3182bc725a5373e9df2f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Leuchtstofflampe, Neonröhre\" matches JMdict 1592540 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Burnt-out light.",
+          "Replacing with LED."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1592540; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 蛍光灯 / けいこうとう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 蛍光灯 / けいこうとう",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 蛍光灯【けいこうとう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1592540 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "1825fc52134832880285bedcc78ddfb1b1b5e2c9137a06f75562723f3227758f",
+        "approvalHash": "44a598da11ebac79e9324ccb738d5ddcd1bc662256c4b687e00758e92480568f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Slang note (slow to react) is accurate (also in tanos gloss); pitch unknown acceptable. Romaji, German, JMdict senses, level N2 and pitch provenance (unknown) checked; headword new per check.cjs.",
+        "contentHash": "1825fc52134832880285bedcc78ddfb1b1b5e2c9137a06f75562723f3227758f",
+        "approvalHash": "44a598da11ebac79e9324ccb738d5ddcd1bc662256c4b687e00758e92480568f"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:keitou",
+      "revisionId": "033-add-keitou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "系統",
+        "reading": "けいとう",
+        "romaji": "keitou",
+        "meaning": "System; Linie, Abstammung; Gruppe",
+        "type": "Nomen",
+        "category": "Abstrakt",
+        "level": "N2",
+        "notes": "Ein zusammenhängendes Ganzes: バスの系統 (Buslinie), 電気系統 (elektrisches System), 同じ系統の色 (Farben derselben Gruppe). Auch Abstammungslinie.",
+        "examples": [
+          {
+            "japanese": "駅前から出るバスは系統が多くて、どれに乗ればいいか分かりにくい。",
+            "romaji": "Ekimae kara deru basu wa keitou ga ookute, dore ni noreba ii ka wakarinikui.",
+            "german": "Vom Bahnhofsvorplatz fahren so viele Buslinien ab, dass man schwer weiß, welchen Bus man nehmen soll."
+          },
+          {
+            "japanese": "カーテンを壁と同じ系統の色にした。",
+            "romaji": "Kaaten o kabe to onaji keitou no iro ni shita.",
+            "german": "Ich habe Vorhänge in derselben Farbfamilie wie die Wände gewählt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117107091",
+            "patterns": [
+              0
+            ],
+            "finding": "系統 / ケイトウ; 名詞/普通名詞/一般/*; *; *; lemma 系統; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "系統",
+              "reading": "けいとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "系統 as \"System; Linie, Abstammung; Gruppe\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 系統【けいとう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1251030; spelling=系統; reading=けいとう; senses=1,2,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1251030 系統/けいとう sense(s) 1,2,3 support \"System; Linie, Abstammung; Gruppe\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1251030",
+            "spelling": "系統",
+            "reading": "けいとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "system"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lineage",
+                  "ancestry",
+                  "family line"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group (e.g. of colors) (colours)",
+                  "family (e.g. of languages)",
+                  "party",
+                  "school (of thought)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "系統|けいとう",
+          "referenceIndex": 0,
+          "referenceHash": "5e390d50c426195e87a0b2291b8c9b2a300bc54a0add3018da972e4f47dedd10"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"System; Linie, Abstammung; Gruppe\" matches JMdict 1251030 sense(s) 1,2,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bus routes.",
+          "Colour family (sense 3)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1251030; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@117107091 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117107091",
+            "patterns": [
+              0
+            ],
+            "finding": "系統 / ケイトウ; 名詞/普通名詞/一般/*; *; *; lemma 系統; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "系統",
+              "reading": "けいとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "系統 as \"System; Linie, Abstammung; Gruppe\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 系統【けいとう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1251030 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f9924468bd3b96a6838f598716ad8f2d09f5fb60fb8488ceb614e91068daeee1",
+        "approvalHash": "1c43f56f27497be486cdcb65dabe79fae93d1b9db7d3f882a962101b26a86b95"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Round-1 fix applied: ex1 now 駅前から出るバスは系統が多くて… (logical route sense), ex2 now 壁と同じ系統の色 (idiomatic colour-family sense); romaji and German correct.",
+        "contentHash": "f9924468bd3b96a6838f598716ad8f2d09f5fb60fb8488ceb614e91068daeee1",
+        "approvalHash": "1c43f56f27497be486cdcb65dabe79fae93d1b9db7d3f882a962101b26a86b95"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:geinou",
+      "revisionId": "033-add-geinou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "芸能",
+        "reading": "げいのう",
+        "romaji": "geinou",
+        "meaning": "Unterhaltung, darstellende Künste",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N2",
+        "notes": "Film, Fernsehen, Musik und traditionelle Bühnenkünste: 伝統芸能 (traditionelle Künste wie Kabuki, Nō). 芸能人 = Prominente aus der Unterhaltungsbranche.",
+        "examples": [
+          {
+            "japanese": "彼女は芸能の世界で二十年働いている。",
+            "romaji": "Kanojo wa geinou no sekai de nijuunen hataraite iru.",
+            "german": "Sie arbeitet seit zwanzig Jahren im Showgeschäft."
+          },
+          {
+            "japanese": "この村には古い芸能が今も残っている。",
+            "romaji": "Kono mura ni wa furui geinou ga ima mo nokotte iru.",
+            "german": "In diesem Dorf haben sich alte Volkskünste bis heute erhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119043008",
+            "patterns": [
+              0
+            ],
+            "finding": "芸能 / ゲイノウ; 名詞/普通名詞/一般/*; *; *; lemma 芸能; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "芸能",
+              "reading": "げいのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "芸能 as \"Unterhaltung, darstellende Künste\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 芸能【げいのう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253130; spelling=芸能; reading=げいのう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1253130 芸能/げいのう sense(s) 1 support \"Unterhaltung, darstellende Künste\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1253130",
+            "spelling": "芸能",
+            "reading": "げいのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "public entertainment",
+                  "performing arts"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "芸能|げいのう",
+          "referenceIndex": 0,
+          "referenceHash": "c7e5c34fba08163baa334563b0972a0a867d1e7812b0d86bda7b25069a7eecbd"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Unterhaltung, darstellende Künste\" matches JMdict 1253130 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Show business career.",
+          "Traditional performing arts."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1253130; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119043008 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119043008",
+            "patterns": [
+              0
+            ],
+            "finding": "芸能 / ゲイノウ; 名詞/普通名詞/一般/*; *; *; lemma 芸能; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "芸能",
+              "reading": "げいのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "芸能 as \"Unterhaltung, darstellende Künste\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 芸能【げいのう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1253130 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "53b64520d0f25013ee08d64a42f56a627b47ca398324a076b6335bc9dfa2338b",
+        "approvalHash": "45c7919fec5588df2ae7f395271aeb3e13eb5f6a7a0590376eb69745162f66bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "53b64520d0f25013ee08d64a42f56a627b47ca398324a076b6335bc9dfa2338b",
+        "approvalHash": "45c7919fec5588df2ae7f395271aeb3e13eb5f6a7a0590376eb69745162f66bc"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:keiba",
+      "revisionId": "033-add-keiba",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "競馬",
+        "reading": "けいば",
+        "romaji": "keiba",
+        "meaning": "Pferderennen",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N2",
+        "notes": "Pferderennen mit Wetten; die Rennbahn heißt 競馬場. Andere staatlich zugelassene Rennwetten: 競輪 (Radrennen), 競艇 (Bootsrennen).",
+        "examples": [
+          {
+            "japanese": "週末に父と競馬を見に行った。",
+            "romaji": "Shuumatsu ni chichi to keiba o mi ni itta.",
+            "german": "Am Wochenende war ich mit meinem Vater beim Pferderennen."
+          },
+          {
+            "japanese": "彼は競馬で大金を失った。",
+            "romaji": "Kare wa keiba de taikin o ushinatta.",
+            "german": "Er hat beim Pferderennen viel Geld verloren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117124854",
+            "patterns": [
+              0
+            ],
+            "finding": "競馬 / ケイバ; 名詞/普通名詞/一般/*; *; *; lemma 競馬; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "競馬",
+              "reading": "けいば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "競馬 as \"Pferderennen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 競馬【けいば】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1234210; spelling=競馬; reading=けいば; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1234210 競馬/けいば sense(s) 1 support \"Pferderennen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1234210",
+            "spelling": "競馬",
+            "reading": "けいば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "horse racing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "競馬|けいば",
+          "referenceIndex": 0,
+          "referenceHash": "1e867781bb4ec44fc5a690a873e0b741b7a5e7818c86b636036612cc755306cd"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Pferderennen\" matches JMdict 1234210 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Going to the races.",
+          "Losing money betting."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1234210; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@117124854 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117124854",
+            "patterns": [
+              0
+            ],
+            "finding": "競馬 / ケイバ; 名詞/普通名詞/一般/*; *; *; lemma 競馬; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "競馬",
+              "reading": "けいば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "競馬 as \"Pferderennen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 競馬【けいば】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1234210 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1f9694ad32576b8bd1f41967fc3cea5a4458cf93c06979e5921427f0714d0534",
+        "approvalHash": "3ab66cff959293bf855364d256392d0d5b5bf8e8507c21e17d5e83d9fb9aca3e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "1f9694ad32576b8bd1f41967fc3cea5a4458cf93c06979e5921427f0714d0534",
+        "approvalHash": "3ab66cff959293bf855364d256392d0d5b5bf8e8507c21e17d5e83d9fb9aca3e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gekizou",
+      "revisionId": "033-add-gekizou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "激増",
+        "reading": "げきぞう",
+        "romaji": "gekizou",
+        "meaning": "sprunghafter Anstieg, starke Zunahme",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N2",
+        "notes": "Schriftsprachlich, oft in Nachrichten; als Verb 激増する. Gegenteil: 激減 (starker Rückgang).",
+        "examples": [
+          {
+            "japanese": "この十年で外国人観光客が激増した。",
+            "romaji": "Kono juunen de gaikokujin kankoukyaku ga gekizou shita.",
+            "german": "In den letzten zehn Jahren ist die Zahl ausländischer Touristen stark gestiegen."
+          },
+          {
+            "japanese": "事故の激増を受けて、市は対策を始めた。",
+            "romaji": "Jiko no gekizou o ukete, shi wa taisaku o hajimeta.",
+            "german": "Wegen des sprunghaften Anstiegs der Unfälle ergriff die Stadt Maßnahmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119092528",
+            "patterns": [
+              0
+            ],
+            "finding": "激増 / ゲキゾウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 激増; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "激増",
+              "reading": "げきぞう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "激増 as \"sprunghafter Anstieg, starke Zunahme\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 激増【げきぞう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253690; spelling=激増; reading=げきぞう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1253690 激増/げきぞう sense(s) 1 support \"sprunghafter Anstieg, starke Zunahme\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1253690",
+            "spelling": "激増",
+            "reading": "げきぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sharp increase",
+                  "sudden rise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "激増|げきぞう",
+          "referenceIndex": 0,
+          "referenceHash": "c290033d8a90c2071e042d7d13b8a30bf71a1f31b6bb489770f52dfa3e1a6a44"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"sprunghafter Anstieg, starke Zunahme\" matches JMdict 1253690 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Tourism statistics.",
+          "Response to rising accidents."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1253690; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119092528 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119092528",
+            "patterns": [
+              0
+            ],
+            "finding": "激増 / ゲキゾウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 激増; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "激増",
+              "reading": "げきぞう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "激増 as \"sprunghafter Anstieg, starke Zunahme\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 激増【げきぞう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1253690 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "45154b79199fa269fcfa786f30c575e54e1a401cc26d7d030109109edad8a97b",
+        "approvalHash": "0d65b6c0c77096100ca5ad20c20edb1faf0dcf3bc4b7ed96bc0c9705c9a8c7de"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "45154b79199fa269fcfa786f30c575e54e1a401cc26d7d030109109edad8a97b",
+        "approvalHash": "0d65b6c0c77096100ca5ad20c20edb1faf0dcf3bc4b7ed96bc0c9705c9a8c7de"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gesha",
+      "revisionId": "033-add-gesha",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "下車",
+        "reading": "げしゃ",
+        "romaji": "gesha",
+        "meaning": "Aussteigen (aus Zug, Bus)",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Förmlich, typisch in Durchsagen und Wegbeschreibungen: 〇〇駅下車 (am Bahnhof 〇〇 aussteigen), 途中下車 (Fahrtunterbrechung). Alltäglich: 降りる.",
+        "examples": [
+          {
+            "japanese": "博物館へは、東駅で下車して徒歩五分です。",
+            "romaji": "Hakubutsukan e wa, Higashieki de gesha shite toho gofun desu.",
+            "german": "Zum Museum steigen Sie am Ostbahnhof aus und gehen fünf Minuten zu Fuß."
+          },
+          {
+            "japanese": "この切符は、途中の駅で下車すると無効になります。",
+            "romaji": "Kono kippu wa, tochuu no eki de gesha suru to mukou ni narimasu.",
+            "german": "Diese Fahrkarte wird ungültig, wenn man unterwegs an einem Bahnhof aussteigt."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119121929",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "下車 / ゲシャ; 名詞/普通名詞/サ変可能/*; *; *; lemma 下車; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "下車",
+              "reading": "げしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "下車 as \"Aussteigen (aus Zug, Bus)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 下車【げしゃ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185170; spelling=下車; reading=げしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1185170 下車/げしゃ sense(s) 1 support \"Aussteigen (aus Zug, Bus)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1185170",
+            "spelling": "下車",
+            "reading": "げしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "alighting (from a train, bus, etc.)",
+                  "getting off",
+                  "getting out (of a car)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "下車|げしゃ",
+          "referenceIndex": 0,
+          "referenceHash": "8d456e54b7023e1351f70f0dcd4463e5a85944fbc13125f4a74d617cb345fd0d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Aussteigen (aus Zug, Bus)\" matches JMdict 1185170 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Directions.",
+          "Ticket rule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1185170; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119121929 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119121929",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "下車 / ゲシャ; 名詞/普通名詞/サ変可能/*; *; *; lemma 下車; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "下車",
+              "reading": "げしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "下車 as \"Aussteigen (aus Zug, Bus)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 下車【げしゃ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1185170 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ccd46a97bee2f00390f1189f03192e66548b0c5fe91271ea3619ddb42f8d1a1c",
+        "approvalHash": "18b22dcd9f69849601708ff1a817d370f058a4b6c25acdd0e7619d07d18b6107"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Round-1 fix applied: ex2 now uses 下車する directly (途中の駅で下車すると無効になります) instead of the compound 途中下車; romaji and German correct.",
+        "contentHash": "ccd46a97bee2f00390f1189f03192e66548b0c5fe91271ea3619ddb42f8d1a1c",
+        "approvalHash": "18b22dcd9f69849601708ff1a817d370f058a4b6c25acdd0e7619d07d18b6107"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gesui",
+      "revisionId": "033-add-gesui",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "下水",
+        "reading": "げすい",
+        "romaji": "gesui",
+        "meaning": "Abwasser; Kanalisation",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Abwasser und die Leitungen dafür: 下水道 (Kanalisation). Gegenteil: 上水 (Trinkwasser).",
+        "examples": [
+          {
+            "japanese": "大雨で下水があふれた。",
+            "romaji": "Ooame de gesui ga afureta.",
+            "german": "Durch den starken Regen lief die Kanalisation über."
+          },
+          {
+            "japanese": "油を下水に流さないでください。",
+            "romaji": "Abura o gesui ni nagasanaide kudasai.",
+            "german": "Bitte kein Öl ins Abwasser gießen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119130206",
+            "patterns": [
+              0
+            ],
+            "finding": "下水 / ゲスイ; 名詞/普通名詞/一般/*; *; *; lemma 下水; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "下水",
+              "reading": "げすい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "下水 as \"Abwasser; Kanalisation\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 下水【げすい】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185510; spelling=下水; reading=げすい; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1185510 下水/げすい sense(s) 1,2 support \"Abwasser; Kanalisation\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1185510",
+            "spelling": "下水",
+            "reading": "げすい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drainage",
+                  "ditch",
+                  "gutter",
+                  "sewerage"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sewage",
+                  "black water"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "下水|げすい",
+          "referenceIndex": 0,
+          "referenceHash": "787d6c145234dd86226a61fa26f357dcc793fed37291f12b21e45954cec9ed57"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Abwasser; Kanalisation\" matches JMdict 1185510 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Flooded drains.",
+          "Kitchen rule."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1185510; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119130206 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119130206",
+            "patterns": [
+              0
+            ],
+            "finding": "下水 / ゲスイ; 名詞/普通名詞/一般/*; *; *; lemma 下水; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "下水",
+              "reading": "げすい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "下水 as \"Abwasser; Kanalisation\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 下水【げすい】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1185510 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "63364b079f07d8b5de39f47a734ba2c8697e874430dc4387fa63ec8650be29c1",
+        "approvalHash": "ed92b62343a751dce621c872f6a34abc0285dcdf137ace0f71f82dee35a61d27"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "63364b079f07d8b5de39f47a734ba2c8697e874430dc4387fa63ec8650be29c1",
+        "approvalHash": "ed92b62343a751dce621c872f6a34abc0285dcdf137ace0f71f82dee35a61d27"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gekkyuu",
+      "revisionId": "033-add-gekkyuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "月給",
+        "reading": "げっきゅう",
+        "romaji": "gekkyuu",
+        "meaning": "Monatsgehalt",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N2",
+        "notes": "Das monatlich gezahlte Gehalt; vgl. 時給 (Stundenlohn), 年収 (Jahreseinkommen).",
+        "examples": [
+          {
+            "japanese": "新しい会社は月給がいい。",
+            "romaji": "Atarashii kaisha wa gekkyuu ga ii.",
+            "german": "Die neue Firma zahlt ein gutes Monatsgehalt."
+          },
+          {
+            "japanese": "月給の半分を家賃に使っている。",
+            "romaji": "Gekkyuu no hanbun o yachin ni tsukatte iru.",
+            "german": "Die Hälfte meines Monatsgehalts geht für die Miete drauf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119170197",
+            "patterns": [
+              0
+            ],
+            "finding": "月給 / ゲッキュウ; 名詞/普通名詞/一般/*; *; *; lemma 月給; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "月給",
+              "reading": "げっきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "月給 as \"Monatsgehalt\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 月給【げっきゅう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1255560; spelling=月給; reading=げっきゅう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1255560 月給/げっきゅう sense(s) 1 support \"Monatsgehalt\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1255560",
+            "spelling": "月給",
+            "reading": "げっきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monthly salary"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "月給|げっきゅう",
+          "referenceIndex": 0,
+          "referenceHash": "cfdbd90e5821465cd510cbcb6c1ff3536acdb9459652dbf7406f0fd65e4e0ac8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Monatsgehalt\" matches JMdict 1255560 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Comparing jobs.",
+          "Budget."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1255560; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119170197 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119170197",
+            "patterns": [
+              0
+            ],
+            "finding": "月給 / ゲッキュウ; 名詞/普通名詞/一般/*; *; *; lemma 月給; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "月給",
+              "reading": "げっきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "月給 as \"Monatsgehalt\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 月給【げっきゅう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1255560 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f76463c5f4db70a67bd0bcd3fffafcce53363abd182bc96bc92f025e7b8e8e93",
+        "approvalHash": "d8022bd0585dbb2f6c16eb8e3e27a62716df9007bd119c73ce8031fd23d541b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "f76463c5f4db70a67bd0bcd3fffafcce53363abd182bc96bc92f025e7b8e8e93",
+        "approvalHash": "d8022bd0585dbb2f6c16eb8e3e27a62716df9007bd119c73ce8031fd23d541b9"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gensan",
+      "revisionId": "033-add-gensan",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "原産",
+        "reading": "げんさん",
+        "romaji": "gensan",
+        "meaning": "Herkunft, Ursprung(sland)",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N2",
+        "notes": "Ursprüngliches Herkunftsgebiet von Pflanzen, Tieren und Produkten: 南米原産, 原産地 (Herkunftsort), 原産国 (Herkunftsland).",
+        "examples": [
+          {
+            "japanese": "トマトは南アメリカ原産の野菜だ。",
+            "romaji": "Tomato wa Minami Amerika gensan no yasai da.",
+            "german": "Die Tomate ist ein Gemüse, das ursprünglich aus Südamerika stammt."
+          },
+          {
+            "japanese": "この花の原産はアフリカだそうだ。",
+            "romaji": "Kono hana no gensan wa Afurika da sou da.",
+            "german": "Diese Blume soll ursprünglich aus Afrika stammen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119335400",
+            "patterns": [
+              0
+            ],
+            "finding": "原産 / ゲンサン; 名詞/普通名詞/一般/*; *; *; lemma 原産; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "原産",
+              "reading": "げんさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "原産 as \"Herkunft, Ursprung(sland)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 原産【げんさん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261470; spelling=原産; reading=げんさん; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1261470 原産/げんさん sense(s) 1 support \"Herkunft, Ursprung(sland)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1261470",
+            "spelling": "原産",
+            "reading": "げんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place of origin",
+                  "habitat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "原産|げんさん",
+          "referenceIndex": 0,
+          "referenceHash": "e02d1c5cf0e9bd4283fbdd5d6bc5ab10aee4bccf8df63b583bb45d2710abf799"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Herkunft, Ursprung(sland)\" matches JMdict 1261470 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Origin of a vegetable.",
+          "Origin of a flower."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1261470; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119335400 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119335400",
+            "patterns": [
+              0
+            ],
+            "finding": "原産 / ゲンサン; 名詞/普通名詞/一般/*; *; *; lemma 原産; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "原産",
+              "reading": "げんさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "原産 as \"Herkunft, Ursprung(sland)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 原産【げんさん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1261470 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ad1693d12159ab93fbbbbb9aa38cff9ed2d3344ec7dfab1a61a95b8a17f01866",
+        "approvalHash": "5c7e79a658302aea3607a4dfc21157ea9208fc4c12a2acb00ab1a3f56a724b5b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "南アメリカ原産 is the productive N+原産 pattern; ex2 uses it standalone. OK. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "ad1693d12159ab93fbbbbb9aa38cff9ed2d3344ec7dfab1a61a95b8a17f01866",
+        "approvalHash": "5c7e79a658302aea3607a4dfc21157ea9208fc4c12a2acb00ab1a3f56a724b5b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:genshi",
+      "revisionId": "033-add-genshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "原始",
+        "reading": "げんし",
+        "romaji": "genshi",
+        "meaning": "Urzustand; ursprünglich, urzeitlich",
+        "type": "Nomen",
+        "category": "Geschichte",
+        "level": "N2",
+        "notes": "Die frühesten, unberührten Anfänge: 原始時代 (Urzeit), 原始的 (primitiv), 原始の森 (Urwald). Gleich klingend: 原子 (Atom).",
+        "examples": [
+          {
+            "japanese": "島には原始のままの森が残っている。",
+            "romaji": "Shima ni wa genshi no mama no mori ga nokotte iru.",
+            "german": "Auf der Insel gibt es noch unberührten Urwald."
+          },
+          {
+            "japanese": "人間は原始の昔から火を使ってきた。",
+            "romaji": "Ningen wa genshi no mukashi kara hi o tsukatte kita.",
+            "german": "Seit Urzeiten benutzt der Mensch Feuer."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119340764",
+            "patterns": [
+              1
+            ],
+            "finding": "原始 / ゲンシ; 名詞/普通名詞/一般/*; *; *; lemma 原始; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "原始",
+              "reading": "げんし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "原始 as \"Urzustand; ursprünglich, urzeitlich\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 原始【げんし】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261500; spelling=原始; reading=げんし; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1261500 原始/げんし sense(s) 1,2 support \"Urzustand; ursprünglich, urzeitlich\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1261500",
+            "spelling": "原始",
+            "reading": "げんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "genesis"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "primeval",
+                  "primordial",
+                  "primitive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "原始|げんし",
+          "referenceIndex": 0,
+          "referenceHash": "06bccfb624bd70cd69224dc12f39f24b4d5e258f83f70057627fb181b15d3699"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Urzustand; ursprünglich, urzeitlich\" matches JMdict 1261500 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Untouched forest.",
+          "Prehistoric times."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1261500; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@119340764 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119340764",
+            "patterns": [
+              1
+            ],
+            "finding": "原始 / ゲンシ; 名詞/普通名詞/一般/*; *; *; lemma 原始; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "原始",
+              "reading": "げんし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "原始 as \"Urzustand; ursprünglich, urzeitlich\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 原始【げんし】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1261500 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "91ffea1a953e992a809f788c2ec411988105b9a34ebed6ad2ae531d346dccbda",
+        "approvalHash": "66bf58f93b5b4d20f4da2f2eb71d9087de74e00b728bfe33462b8970ab6ec752"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "91ffea1a953e992a809f788c2ec411988105b9a34ebed6ad2ae531d346dccbda",
+        "approvalHash": "66bf58f93b5b4d20f4da2f2eb71d9087de74e00b728bfe33462b8970ab6ec752"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kenchou",
+      "revisionId": "033-add-kenchou",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "県庁",
+        "reading": "けんちょう",
+        "romaji": "kenchou",
+        "meaning": "Präfekturverwaltung",
+        "type": "Nomen",
+        "category": "Verwaltung",
+        "level": "N2",
+        "notes": "Verwaltungssitz einer Präfektur; die Stadt, in der er liegt, heißt 県庁所在地. In Tokyo entsprechend 都庁.",
+        "examples": [
+          {
+            "japanese": "県庁でパスポートを申請した。",
+            "romaji": "Kenchou de pasupooto o shinsei shita.",
+            "german": "Ich habe bei der Präfekturverwaltung einen Reisepass beantragt."
+          },
+          {
+            "japanese": "県庁は駅から歩いて十分ほどです。",
+            "romaji": "Kenchou wa eki kara aruite jippun hodo desu.",
+            "german": "Die Präfekturverwaltung ist etwa zehn Gehminuten vom Bahnhof entfernt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118885959",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "県庁 / ケンチョウ; 名詞/普通名詞/一般/*; *; *; lemma 県庁; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "県庁",
+              "reading": "けんちょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "県庁 as \"Präfekturverwaltung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 県庁【けんちょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1258880; spelling=県庁; reading=けんちょう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1258880 県庁/けんちょう sense(s) 1 support \"Präfekturverwaltung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1258880",
+            "spelling": "県庁",
+            "reading": "けんちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefectural office"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "県庁|けんちょう",
+          "referenceIndex": 0,
+          "referenceHash": "8d27068d9ee6a5aa309580e6be2031a52156cf1fc22ecab280c5e6c7e223f763"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Präfekturverwaltung\" matches JMdict 1258880 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Administrative procedure.",
+          "Location directions."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1258880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@118885959 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118885959",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "県庁 / ケンチョウ; 名詞/普通名詞/一般/*; *; *; lemma 県庁; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "県庁",
+              "reading": "けんちょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "県庁 as \"Präfekturverwaltung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 県庁【けんちょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1258880 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1d49b7ea576e5285cf9754a89942b3963f22566def1c831499ad064d13dd7162",
+        "approvalHash": "fee7c830f40b01895f94af6655649a1859c9106f02e63cae0d7c08be4d732bab"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Round-1 fix applied: ex1 now 県庁でパスポートを申請した (plausible prefectural procedure); romaji and German correct.",
+        "contentHash": "1d49b7ea576e5285cf9754a89942b3963f22566def1c831499ad064d13dd7162",
+        "approvalHash": "fee7c830f40b01895f94af6655649a1859c9106f02e63cae0d7c08be4d732bab"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "蛍光灯|けいこうとう",
+      "referenceIndex": 0,
+      "referenceHash": "246033be00c0eaa5001ac61f78fb443383b56c94882b3182bc725a5373e9df2f",
+      "revisionId": "033-candidate-keikoutou-269c4332-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keikoutou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keikoutou": "1825fc52134832880285bedcc78ddfb1b1b5e2c9137a06f75562723f3227758f"
+      },
+      "reason": "Reference 蛍光灯/けいこうとう (tanos N2) is the same lexeme as the new entry 蛍光灯【けいこうとう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 蛍光灯/けいこうとう at N2 (gloss: fluorescent lamp,person who is slow to react)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1592540; spelling=蛍光灯; reading=けいこうとう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1592540 as the reference form.",
+          "selected": {
+            "sequence": "1592540",
+            "spelling": "蛍光灯",
+            "reading": "けいこうとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fluorescent lamp",
+                  "fluorescent light"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 蛍光灯|けいこうとう#0 is the same lexeme as vocab-n2:correction:keikoutou; target hash bound to the assembled addition.",
+        "contentHash": "80f06fce8f675676e2031cc4b54126c66c240de7a6850d776575c1a458a5bc7e",
+        "approvalHash": "80f06fce8f675676e2031cc4b54126c66c240de7a6850d776575c1a458a5bc7e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keikoutou (蛍光灯/けいこうとう at N2 (gloss: fluorescent lamp,person who is slow to react)).",
+        "contentHash": "80f06fce8f675676e2031cc4b54126c66c240de7a6850d776575c1a458a5bc7e",
+        "approvalHash": "80f06fce8f675676e2031cc4b54126c66c240de7a6850d776575c1a458a5bc7e"
+      }
+    },
+    {
+      "key": "蛍光灯|けいこうとう",
+      "referenceIndex": 1,
+      "referenceHash": "2a33c50e8cabe89420b83c9ec8b1f9aa3e904aeba925ce38331f81e4e985f936",
+      "revisionId": "033-candidate-keikoutou-269c4332-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keikoutou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keikoutou": "1825fc52134832880285bedcc78ddfb1b1b5e2c9137a06f75562723f3227758f"
+      },
+      "reason": "Reference 蛍光灯/けいこうとう (master N2) is the same lexeme as the new entry 蛍光灯【けいこうとう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 蛍光灯/けいこうとう at N2 (gloss: fluorescent lamp; fluorescent light; lampe fluorescente)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1592540; spelling=蛍光灯; reading=けいこうとう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1592540 as the reference form.",
+          "selected": {
+            "sequence": "1592540",
+            "spelling": "蛍光灯",
+            "reading": "けいこうとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fluorescent lamp",
+                  "fluorescent light"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 蛍光灯|けいこうとう#1 is the same lexeme as vocab-n2:correction:keikoutou; target hash bound to the assembled addition.",
+        "contentHash": "cc27c3cb51a9318e2102179cdefa7e45f24d4e73519158071f6b4342fc38b59b",
+        "approvalHash": "cc27c3cb51a9318e2102179cdefa7e45f24d4e73519158071f6b4342fc38b59b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keikoutou (蛍光灯/けいこうとう at N2 (gloss: fluorescent lamp; fluorescent light; lampe fluorescente)).",
+        "contentHash": "cc27c3cb51a9318e2102179cdefa7e45f24d4e73519158071f6b4342fc38b59b",
+        "approvalHash": "cc27c3cb51a9318e2102179cdefa7e45f24d4e73519158071f6b4342fc38b59b"
+      }
+    },
+    {
+      "key": "系統|けいとう",
+      "referenceIndex": 0,
+      "referenceHash": "5e390d50c426195e87a0b2291b8c9b2a300bc54a0add3018da972e4f47dedd10",
+      "revisionId": "033-candidate-keitou-c8112f09-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keitou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keitou": "f9924468bd3b96a6838f598716ad8f2d09f5fb60fb8488ceb614e91068daeee1"
+      },
+      "reason": "Reference 系統/けいとう (tanos N2) is the same lexeme as the new entry 系統【けいとう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 系統/けいとう at N2 (gloss: system,family line,geological formation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1251030; spelling=系統; reading=けいとう; senses=1,2,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1251030 as the reference form.",
+          "selected": {
+            "sequence": "1251030",
+            "spelling": "系統",
+            "reading": "けいとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "system"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lineage",
+                  "ancestry",
+                  "family line"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group (e.g. of colors) (colours)",
+                  "family (e.g. of languages)",
+                  "party",
+                  "school (of thought)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 系統|けいとう#0 is the same lexeme as vocab-n2:correction:keitou; target hash bound to the assembled addition.",
+        "contentHash": "a193a5e79100ad78f87a026d45183b7ba7aa822fdc7a65611a8505254037e849",
+        "approvalHash": "a193a5e79100ad78f87a026d45183b7ba7aa822fdc7a65611a8505254037e849"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keitou (系統/けいとう at N2 (gloss: system,family line,geological formation)).",
+        "contentHash": "a193a5e79100ad78f87a026d45183b7ba7aa822fdc7a65611a8505254037e849",
+        "approvalHash": "a193a5e79100ad78f87a026d45183b7ba7aa822fdc7a65611a8505254037e849"
+      }
+    },
+    {
+      "key": "系統|けいとう",
+      "referenceIndex": 1,
+      "referenceHash": "c8fe4d15a73c4635195a2e7926e509b30b23066955ef104132fb46768622fa67",
+      "revisionId": "033-candidate-keitou-c8112f09-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keitou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keitou": "f9924468bd3b96a6838f598716ad8f2d09f5fb60fb8488ceb614e91068daeee1"
+      },
+      "reason": "Reference 系統/けいとう (master N2) is the same lexeme as the new entry 系統【けいとう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 系統/けいとう at N2 (gloss: system; family line; geological formation)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1251030; spelling=系統; reading=けいとう; senses=1,2,3; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1251030 as the reference form.",
+          "selected": {
+            "sequence": "1251030",
+            "spelling": "系統",
+            "reading": "けいとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "system"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lineage",
+                  "ancestry",
+                  "family line"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "group (e.g. of colors) (colours)",
+                  "family (e.g. of languages)",
+                  "party",
+                  "school (of thought)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 系統|けいとう#1 is the same lexeme as vocab-n2:correction:keitou; target hash bound to the assembled addition.",
+        "contentHash": "309b4e8d04d2cb581dcdd7645f0a87b629616adc79567ddb2fcbb8839acf3216",
+        "approvalHash": "309b4e8d04d2cb581dcdd7645f0a87b629616adc79567ddb2fcbb8839acf3216"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keitou (系統/けいとう at N2 (gloss: system; family line; geological formation)).",
+        "contentHash": "309b4e8d04d2cb581dcdd7645f0a87b629616adc79567ddb2fcbb8839acf3216",
+        "approvalHash": "309b4e8d04d2cb581dcdd7645f0a87b629616adc79567ddb2fcbb8839acf3216"
+      }
+    },
+    {
+      "key": "芸能|げいのう",
+      "referenceIndex": 0,
+      "referenceHash": "c7e5c34fba08163baa334563b0972a0a867d1e7812b0d86bda7b25069a7eecbd",
+      "revisionId": "033-candidate-geinou-af8ca767-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:geinou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:geinou": "53b64520d0f25013ee08d64a42f56a627b47ca398324a076b6335bc9dfa2338b"
+      },
+      "reason": "Reference 芸能/げいのう (tanos N2) is the same lexeme as the new entry 芸能【げいのう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 芸能/げいのう at N2 (gloss: public entertainment,accomplishments,attainments)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253130; spelling=芸能; reading=げいのう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1253130 as the reference form.",
+          "selected": {
+            "sequence": "1253130",
+            "spelling": "芸能",
+            "reading": "げいのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "public entertainment",
+                  "performing arts"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 芸能|げいのう#0 is the same lexeme as vocab-n2:correction:geinou; target hash bound to the assembled addition.",
+        "contentHash": "24c8e1fe02187f91d7543c11a9cbdcba0b9e4835d2bfeaf2938577c01e325003",
+        "approvalHash": "24c8e1fe02187f91d7543c11a9cbdcba0b9e4835d2bfeaf2938577c01e325003"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:geinou (芸能/げいのう at N2 (gloss: public entertainment,accomplishments,attainments)).",
+        "contentHash": "24c8e1fe02187f91d7543c11a9cbdcba0b9e4835d2bfeaf2938577c01e325003",
+        "approvalHash": "24c8e1fe02187f91d7543c11a9cbdcba0b9e4835d2bfeaf2938577c01e325003"
+      }
+    },
+    {
+      "key": "芸能|げいのう",
+      "referenceIndex": 1,
+      "referenceHash": "9d03807adebed21e74042df206a261db676bda531ce9b96a7974d848afa1cfd9",
+      "revisionId": "033-candidate-geinou-af8ca767-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:geinou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:geinou": "53b64520d0f25013ee08d64a42f56a627b47ca398324a076b6335bc9dfa2338b"
+      },
+      "reason": "Reference 芸能/げいのう (master N2) is the same lexeme as the new entry 芸能【げいのう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 芸能/げいのう at N2 (gloss: public entertainment; accomplishments; attainments)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253130; spelling=芸能; reading=げいのう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1253130 as the reference form.",
+          "selected": {
+            "sequence": "1253130",
+            "spelling": "芸能",
+            "reading": "げいのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "public entertainment",
+                  "performing arts"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 芸能|げいのう#1 is the same lexeme as vocab-n2:correction:geinou; target hash bound to the assembled addition.",
+        "contentHash": "679efe543a4937b25c6d558e91062b404c77c5ec98b38050ce8f407b830bcf2e",
+        "approvalHash": "679efe543a4937b25c6d558e91062b404c77c5ec98b38050ce8f407b830bcf2e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:geinou (芸能/げいのう at N2 (gloss: public entertainment; accomplishments; attainments)).",
+        "contentHash": "679efe543a4937b25c6d558e91062b404c77c5ec98b38050ce8f407b830bcf2e",
+        "approvalHash": "679efe543a4937b25c6d558e91062b404c77c5ec98b38050ce8f407b830bcf2e"
+      }
+    },
+    {
+      "key": "競馬|けいば",
+      "referenceIndex": 0,
+      "referenceHash": "1e867781bb4ec44fc5a690a873e0b741b7a5e7818c86b636036612cc755306cd",
+      "revisionId": "033-candidate-keiba-63d79751-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keiba"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keiba": "1f9694ad32576b8bd1f41967fc3cea5a4458cf93c06979e5921427f0714d0534"
+      },
+      "reason": "Reference 競馬/けいば (tanos N2) is the same lexeme as the new entry 競馬【けいば】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 競馬/けいば at N2 (gloss: horse racing)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1234210; spelling=競馬; reading=けいば; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1234210 as the reference form.",
+          "selected": {
+            "sequence": "1234210",
+            "spelling": "競馬",
+            "reading": "けいば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "horse racing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 競馬|けいば#0 is the same lexeme as vocab-n2:correction:keiba; target hash bound to the assembled addition.",
+        "contentHash": "b90cfe46fa9d0969167733c5fba5b459651afa871532433566e0cd78cab846ed",
+        "approvalHash": "b90cfe46fa9d0969167733c5fba5b459651afa871532433566e0cd78cab846ed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keiba (競馬/けいば at N2 (gloss: horse racing)).",
+        "contentHash": "b90cfe46fa9d0969167733c5fba5b459651afa871532433566e0cd78cab846ed",
+        "approvalHash": "b90cfe46fa9d0969167733c5fba5b459651afa871532433566e0cd78cab846ed"
+      }
+    },
+    {
+      "key": "競馬|けいば",
+      "referenceIndex": 1,
+      "referenceHash": "5862f13bc82001e891418399f48af64cf501163755202d840ac5a6961e57558e",
+      "revisionId": "033-candidate-keiba-63d79751-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:keiba"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:keiba": "1f9694ad32576b8bd1f41967fc3cea5a4458cf93c06979e5921427f0714d0534"
+      },
+      "reason": "Reference 競馬/けいば (master N2) is the same lexeme as the new entry 競馬【けいば】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 競馬/けいば at N2 (gloss: horse racing; course de chevaux; (n) Pferderennen)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1234210; spelling=競馬; reading=けいば; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1234210 as the reference form.",
+          "selected": {
+            "sequence": "1234210",
+            "spelling": "競馬",
+            "reading": "けいば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "horse racing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 競馬|けいば#1 is the same lexeme as vocab-n2:correction:keiba; target hash bound to the assembled addition.",
+        "contentHash": "d9d600e3770698c7d10c77163905859e043f1b8f47923a811ffbe709510a5c6c",
+        "approvalHash": "d9d600e3770698c7d10c77163905859e043f1b8f47923a811ffbe709510a5c6c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:keiba (競馬/けいば at N2 (gloss: horse racing; course de chevaux; (n) Pferderennen)).",
+        "contentHash": "d9d600e3770698c7d10c77163905859e043f1b8f47923a811ffbe709510a5c6c",
+        "approvalHash": "d9d600e3770698c7d10c77163905859e043f1b8f47923a811ffbe709510a5c6c"
+      }
+    },
+    {
+      "key": "激増|げきぞう",
+      "referenceIndex": 0,
+      "referenceHash": "c290033d8a90c2071e042d7d13b8a30bf71a1f31b6bb489770f52dfa3e1a6a44",
+      "revisionId": "033-candidate-gekizou-444dcc16-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gekizou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gekizou": "45154b79199fa269fcfa786f30c575e54e1a401cc26d7d030109109edad8a97b"
+      },
+      "reason": "Reference 激増/げきぞう (tanos N2) is the same lexeme as the new entry 激増【げきぞう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 激増/げきぞう at N2 (gloss: sudden increase)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253690; spelling=激増; reading=げきぞう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1253690 as the reference form.",
+          "selected": {
+            "sequence": "1253690",
+            "spelling": "激増",
+            "reading": "げきぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sharp increase",
+                  "sudden rise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 激増|げきぞう#0 is the same lexeme as vocab-n2:correction:gekizou; target hash bound to the assembled addition.",
+        "contentHash": "7ffe400c9c2089e4cdae0a5ab553d5917bcb91acd128289a7d4d012a3b6bb2ba",
+        "approvalHash": "7ffe400c9c2089e4cdae0a5ab553d5917bcb91acd128289a7d4d012a3b6bb2ba"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gekizou (激増/げきぞう at N2 (gloss: sudden increase)).",
+        "contentHash": "7ffe400c9c2089e4cdae0a5ab553d5917bcb91acd128289a7d4d012a3b6bb2ba",
+        "approvalHash": "7ffe400c9c2089e4cdae0a5ab553d5917bcb91acd128289a7d4d012a3b6bb2ba"
+      }
+    },
+    {
+      "key": "激増|げきぞう",
+      "referenceIndex": 1,
+      "referenceHash": "6496d42b9c7914da396b8ad0d72df917fd396d6d396cc46abfaa316d251a8515",
+      "revisionId": "033-candidate-gekizou-444dcc16-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gekizou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gekizou": "45154b79199fa269fcfa786f30c575e54e1a401cc26d7d030109109edad8a97b"
+      },
+      "reason": "Reference 激増/げきぞう (master N2) is the same lexeme as the new entry 激増【げきぞう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 激増/げきぞう at N2 (gloss: sudden increase; (n) starke Zunahme; plötzliche Zunahme)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1253690; spelling=激増; reading=げきぞう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1253690 as the reference form.",
+          "selected": {
+            "sequence": "1253690",
+            "spelling": "激増",
+            "reading": "げきぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sharp increase",
+                  "sudden rise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 激増|げきぞう#1 is the same lexeme as vocab-n2:correction:gekizou; target hash bound to the assembled addition.",
+        "contentHash": "49c766cc130631b32bb6e66d856a6c19aaec3ea9ecd334b11de7961b9d6998e1",
+        "approvalHash": "49c766cc130631b32bb6e66d856a6c19aaec3ea9ecd334b11de7961b9d6998e1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gekizou (激増/げきぞう at N2 (gloss: sudden increase; (n) starke Zunahme; plötzliche Zunahme)).",
+        "contentHash": "49c766cc130631b32bb6e66d856a6c19aaec3ea9ecd334b11de7961b9d6998e1",
+        "approvalHash": "49c766cc130631b32bb6e66d856a6c19aaec3ea9ecd334b11de7961b9d6998e1"
+      }
+    },
+    {
+      "key": "下車|げしゃ",
+      "referenceIndex": 0,
+      "referenceHash": "8d456e54b7023e1351f70f0dcd4463e5a85944fbc13125f4a74d617cb345fd0d",
+      "revisionId": "033-candidate-gesha-e6b6e3b0-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gesha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gesha": "ccd46a97bee2f00390f1189f03192e66548b0c5fe91271ea3619ddb42f8d1a1c"
+      },
+      "reason": "Reference 下車/げしゃ (tanos N2) is the same lexeme as the new entry 下車【げしゃ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=24",
+          "finding": "tanos lists 下車/げしゃ at N2 (gloss: alighting,getting off)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185170; spelling=下車; reading=げしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1185170 as the reference form.",
+          "selected": {
+            "sequence": "1185170",
+            "spelling": "下車",
+            "reading": "げしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "alighting (from a train, bus, etc.)",
+                  "getting off",
+                  "getting out (of a car)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 下車|げしゃ#0 is the same lexeme as vocab-n2:correction:gesha; target hash bound to the assembled addition.",
+        "contentHash": "e21f955193f056a8c59252f854cf066b1942052f55bdeb6d830ce05036c53008",
+        "approvalHash": "e21f955193f056a8c59252f854cf066b1942052f55bdeb6d830ce05036c53008"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gesha (下車/げしゃ at N2 (gloss: alighting,getting off)).",
+        "contentHash": "e21f955193f056a8c59252f854cf066b1942052f55bdeb6d830ce05036c53008",
+        "approvalHash": "e21f955193f056a8c59252f854cf066b1942052f55bdeb6d830ce05036c53008"
+      }
+    },
+    {
+      "key": "下車|げしゃ",
+      "referenceIndex": 1,
+      "referenceHash": "2aa3a8b207fe35ffe95feb9e3cf35c2dbc640ceb87e950125a29f9bd114d3e88",
+      "revisionId": "033-candidate-gesha-e6b6e3b0-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gesha"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gesha": "ccd46a97bee2f00390f1189f03192e66548b0c5fe91271ea3619ddb42f8d1a1c"
+      },
+      "reason": "Reference 下車/げしゃ (master N2) is the same lexeme as the new entry 下車【げしゃ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 下車/げしゃ at N2 (gloss: alighting (from train, bus, etc.); getting off; descente (d'un véhicule))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185170; spelling=下車; reading=げしゃ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1185170 as the reference form.",
+          "selected": {
+            "sequence": "1185170",
+            "spelling": "下車",
+            "reading": "げしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "alighting (from a train, bus, etc.)",
+                  "getting off",
+                  "getting out (of a car)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 下車|げしゃ#1 is the same lexeme as vocab-n2:correction:gesha; target hash bound to the assembled addition.",
+        "contentHash": "e0039550e56e414eb2fef135ccd1474bb53daadcb905ab62861bb3c45cee7a02",
+        "approvalHash": "e0039550e56e414eb2fef135ccd1474bb53daadcb905ab62861bb3c45cee7a02"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gesha (下車/げしゃ at N2 (gloss: alighting (from train, bus, etc.); getting off; descente (d'un véhicule))).",
+        "contentHash": "e0039550e56e414eb2fef135ccd1474bb53daadcb905ab62861bb3c45cee7a02",
+        "approvalHash": "e0039550e56e414eb2fef135ccd1474bb53daadcb905ab62861bb3c45cee7a02"
+      }
+    },
+    {
+      "key": "下水|げすい",
+      "referenceIndex": 0,
+      "referenceHash": "787d6c145234dd86226a61fa26f357dcc793fed37291f12b21e45954cec9ed57",
+      "revisionId": "033-candidate-gesui-affff4cb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gesui"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gesui": "63364b079f07d8b5de39f47a734ba2c8697e874430dc4387fa63ec8650be29c1"
+      },
+      "reason": "Reference 下水/げすい (tanos N2) is the same lexeme as the new entry 下水【げすい】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=25",
+          "finding": "tanos lists 下水/げすい at N2 (gloss: drainage,sewage,ditch,gutter,sewerage)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185510; spelling=下水; reading=げすい; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1185510 as the reference form.",
+          "selected": {
+            "sequence": "1185510",
+            "spelling": "下水",
+            "reading": "げすい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drainage",
+                  "ditch",
+                  "gutter",
+                  "sewerage"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sewage",
+                  "black water"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 下水|げすい#0 is the same lexeme as vocab-n2:correction:gesui; target hash bound to the assembled addition.",
+        "contentHash": "0c9ed9f0d38aa215982dade56570c5fb6060d29eb40dac64c2c42fc4407e7588",
+        "approvalHash": "0c9ed9f0d38aa215982dade56570c5fb6060d29eb40dac64c2c42fc4407e7588"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gesui (下水/げすい at N2 (gloss: drainage,sewage,ditch,gutter,sewerage)).",
+        "contentHash": "0c9ed9f0d38aa215982dade56570c5fb6060d29eb40dac64c2c42fc4407e7588",
+        "approvalHash": "0c9ed9f0d38aa215982dade56570c5fb6060d29eb40dac64c2c42fc4407e7588"
+      }
+    },
+    {
+      "key": "下水|げすい",
+      "referenceIndex": 1,
+      "referenceHash": "b26cc16857985f8c0ee02ccf60f76fcc8af28d0e8e2ec9d64f150998bd7af7ef",
+      "revisionId": "033-candidate-gesui-affff4cb-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gesui"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gesui": "63364b079f07d8b5de39f47a734ba2c8697e874430dc4387fa63ec8650be29c1"
+      },
+      "reason": "Reference 下水/げすい (master N2) is the same lexeme as the new entry 下水【げすい】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 下水/げすい at N2 (gloss: drainage; ditch; gutter)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1185510; spelling=下水; reading=げすい; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1185510 as the reference form.",
+          "selected": {
+            "sequence": "1185510",
+            "spelling": "下水",
+            "reading": "げすい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drainage",
+                  "ditch",
+                  "gutter",
+                  "sewerage"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sewage",
+                  "black water"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 下水|げすい#1 is the same lexeme as vocab-n2:correction:gesui; target hash bound to the assembled addition.",
+        "contentHash": "5f7c65891c26c35c94295e152cb6243ae426c8e2ec810560b7a29fb8a40eee63",
+        "approvalHash": "5f7c65891c26c35c94295e152cb6243ae426c8e2ec810560b7a29fb8a40eee63"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gesui (下水/げすい at N2 (gloss: drainage; ditch; gutter)).",
+        "contentHash": "5f7c65891c26c35c94295e152cb6243ae426c8e2ec810560b7a29fb8a40eee63",
+        "approvalHash": "5f7c65891c26c35c94295e152cb6243ae426c8e2ec810560b7a29fb8a40eee63"
+      }
+    },
+    {
+      "key": "月給|げっきゅう",
+      "referenceIndex": 0,
+      "referenceHash": "cfdbd90e5821465cd510cbcb6c1ff3536acdb9459652dbf7406f0fd65e4e0ac8",
+      "revisionId": "033-candidate-gekkyuu-201c745d-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gekkyuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gekkyuu": "f76463c5f4db70a67bd0bcd3fffafcce53363abd182bc96bc92f025e7b8e8e93"
+      },
+      "reason": "Reference 月給/げっきゅう (tanos N2) is the same lexeme as the new entry 月給【げっきゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=25",
+          "finding": "tanos lists 月給/げっきゅう at N2 (gloss: monthly salary)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1255560; spelling=月給; reading=げっきゅう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1255560 as the reference form.",
+          "selected": {
+            "sequence": "1255560",
+            "spelling": "月給",
+            "reading": "げっきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monthly salary"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 月給|げっきゅう#0 is the same lexeme as vocab-n2:correction:gekkyuu; target hash bound to the assembled addition.",
+        "contentHash": "d7ba519f82984dccdb30471c336e4d7b78eef1a6156d335a902352928bd8b309",
+        "approvalHash": "d7ba519f82984dccdb30471c336e4d7b78eef1a6156d335a902352928bd8b309"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gekkyuu (月給/げっきゅう at N2 (gloss: monthly salary)).",
+        "contentHash": "d7ba519f82984dccdb30471c336e4d7b78eef1a6156d335a902352928bd8b309",
+        "approvalHash": "d7ba519f82984dccdb30471c336e4d7b78eef1a6156d335a902352928bd8b309"
+      }
+    },
+    {
+      "key": "月給|げっきゅう",
+      "referenceIndex": 1,
+      "referenceHash": "f668f458392f274e39c49d7190115ceb05d6e46a996b3259aee318b1a92b6ffa",
+      "revisionId": "033-candidate-gekkyuu-201c745d-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gekkyuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gekkyuu": "f76463c5f4db70a67bd0bcd3fffafcce53363abd182bc96bc92f025e7b8e8e93"
+      },
+      "reason": "Reference 月給/げっきゅう (master N2) is the same lexeme as the new entry 月給【げっきゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 月給/げっきゅう at N2 (gloss: monthly salary; salaire mensuel; (n) Monatsgehalt)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1255560; spelling=月給; reading=げっきゅう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1255560 as the reference form.",
+          "selected": {
+            "sequence": "1255560",
+            "spelling": "月給",
+            "reading": "げっきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monthly salary"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 月給|げっきゅう#1 is the same lexeme as vocab-n2:correction:gekkyuu; target hash bound to the assembled addition.",
+        "contentHash": "f9ab9af06078924b8af41e30050c1aa96056a075785309ff5dd8104ffd2d12a8",
+        "approvalHash": "f9ab9af06078924b8af41e30050c1aa96056a075785309ff5dd8104ffd2d12a8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gekkyuu (月給/げっきゅう at N2 (gloss: monthly salary; salaire mensuel; (n) Monatsgehalt)).",
+        "contentHash": "f9ab9af06078924b8af41e30050c1aa96056a075785309ff5dd8104ffd2d12a8",
+        "approvalHash": "f9ab9af06078924b8af41e30050c1aa96056a075785309ff5dd8104ffd2d12a8"
+      }
+    },
+    {
+      "key": "原産|げんさん",
+      "referenceIndex": 0,
+      "referenceHash": "e02d1c5cf0e9bd4283fbdd5d6bc5ab10aee4bccf8df63b583bb45d2710abf799",
+      "revisionId": "033-candidate-gensan-33a0e05a-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gensan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gensan": "ad1693d12159ab93fbbbbb9aa38cff9ed2d3344ec7dfab1a61a95b8a17f01866"
+      },
+      "reason": "Reference 原産/げんさん (tanos N2) is the same lexeme as the new entry 原産【げんさん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=25",
+          "finding": "tanos lists 原産/げんさん at N2 (gloss: place of origin,habitat)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261470; spelling=原産; reading=げんさん; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261470 as the reference form.",
+          "selected": {
+            "sequence": "1261470",
+            "spelling": "原産",
+            "reading": "げんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place of origin",
+                  "habitat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 原産|げんさん#0 is the same lexeme as vocab-n2:correction:gensan; target hash bound to the assembled addition.",
+        "contentHash": "e8ef07252bd7f8b70f2a5c6a936f21514915a0482f3289e088eca9e14ef114f1",
+        "approvalHash": "e8ef07252bd7f8b70f2a5c6a936f21514915a0482f3289e088eca9e14ef114f1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gensan (原産/げんさん at N2 (gloss: place of origin,habitat)).",
+        "contentHash": "e8ef07252bd7f8b70f2a5c6a936f21514915a0482f3289e088eca9e14ef114f1",
+        "approvalHash": "e8ef07252bd7f8b70f2a5c6a936f21514915a0482f3289e088eca9e14ef114f1"
+      }
+    },
+    {
+      "key": "原産|げんさん",
+      "referenceIndex": 1,
+      "referenceHash": "5d6d9fd3feb0f9815578bec0fdeb6cfb324f13b985e69b52b5e8c9515ecc71bf",
+      "revisionId": "033-candidate-gensan-33a0e05a-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:gensan"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gensan": "ad1693d12159ab93fbbbbb9aa38cff9ed2d3344ec7dfab1a61a95b8a17f01866"
+      },
+      "reason": "Reference 原産/げんさん (master N2) is the same lexeme as the new entry 原産【げんさん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 原産/げんさん at N2 (gloss: place of origin; habitat; (n) ursprüngliche Herkunft)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261470; spelling=原産; reading=げんさん; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261470 as the reference form.",
+          "selected": {
+            "sequence": "1261470",
+            "spelling": "原産",
+            "reading": "げんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "place of origin",
+                  "habitat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 原産|げんさん#1 is the same lexeme as vocab-n2:correction:gensan; target hash bound to the assembled addition.",
+        "contentHash": "b4fcc1e00bf3fa4cf93dc9f99fd6eaecb21eeb1785e4f4cf51981975dc1665bf",
+        "approvalHash": "b4fcc1e00bf3fa4cf93dc9f99fd6eaecb21eeb1785e4f4cf51981975dc1665bf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:gensan (原産/げんさん at N2 (gloss: place of origin; habitat; (n) ursprüngliche Herkunft)).",
+        "contentHash": "b4fcc1e00bf3fa4cf93dc9f99fd6eaecb21eeb1785e4f4cf51981975dc1665bf",
+        "approvalHash": "b4fcc1e00bf3fa4cf93dc9f99fd6eaecb21eeb1785e4f4cf51981975dc1665bf"
+      }
+    },
+    {
+      "key": "原始|げんし",
+      "referenceIndex": 0,
+      "referenceHash": "06bccfb624bd70cd69224dc12f39f24b4d5e258f83f70057627fb181b15d3699",
+      "revisionId": "033-candidate-genshi-099e0f7b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:genshi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:genshi": "91ffea1a953e992a809f788c2ec411988105b9a34ebed6ad2ae531d346dccbda"
+      },
+      "reason": "Reference 原始/げんし (tanos N2) is the same lexeme as the new entry 原始【げんし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=25",
+          "finding": "tanos lists 原始/げんし at N2 (gloss: origin,primeval)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261500; spelling=原始; reading=げんし; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261500 as the reference form.",
+          "selected": {
+            "sequence": "1261500",
+            "spelling": "原始",
+            "reading": "げんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "genesis"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "primeval",
+                  "primordial",
+                  "primitive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 原始|げんし#0 is the same lexeme as vocab-n2:correction:genshi; target hash bound to the assembled addition.",
+        "contentHash": "6679866cc6671528a79d0dc3a173f484281a21c520e746f063e8074d657e8b07",
+        "approvalHash": "6679866cc6671528a79d0dc3a173f484281a21c520e746f063e8074d657e8b07"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:genshi (原始/げんし at N2 (gloss: origin,primeval)).",
+        "contentHash": "6679866cc6671528a79d0dc3a173f484281a21c520e746f063e8074d657e8b07",
+        "approvalHash": "6679866cc6671528a79d0dc3a173f484281a21c520e746f063e8074d657e8b07"
+      }
+    },
+    {
+      "key": "原始|げんし",
+      "referenceIndex": 1,
+      "referenceHash": "3212033a20a2f3f8f193b0fa66281cfd275120f1fffac07d42b293bc8454c568",
+      "revisionId": "033-candidate-genshi-099e0f7b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:genshi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:genshi": "91ffea1a953e992a809f788c2ec411988105b9a34ebed6ad2ae531d346dccbda"
+      },
+      "reason": "Reference 原始/げんし (master N2) is the same lexeme as the new entry 原始【げんし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 原始/げんし at N2 (gloss: origin; primeval; origine)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1261500; spelling=原始; reading=げんし; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1261500 as the reference form.",
+          "selected": {
+            "sequence": "1261500",
+            "spelling": "原始",
+            "reading": "げんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "origin",
+                  "beginning",
+                  "genesis"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "primeval",
+                  "primordial",
+                  "primitive"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 原始|げんし#1 is the same lexeme as vocab-n2:correction:genshi; target hash bound to the assembled addition.",
+        "contentHash": "dc3437a167ab8267b5072785dc28a250b6f1bf454aaebc1ffcd6e90989560c65",
+        "approvalHash": "dc3437a167ab8267b5072785dc28a250b6f1bf454aaebc1ffcd6e90989560c65"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:genshi (原始/げんし at N2 (gloss: origin; primeval; origine)).",
+        "contentHash": "dc3437a167ab8267b5072785dc28a250b6f1bf454aaebc1ffcd6e90989560c65",
+        "approvalHash": "dc3437a167ab8267b5072785dc28a250b6f1bf454aaebc1ffcd6e90989560c65"
+      }
+    },
+    {
+      "key": "県庁|けんちょう",
+      "referenceIndex": 0,
+      "referenceHash": "8d27068d9ee6a5aa309580e6be2031a52156cf1fc22ecab280c5e6c7e223f763",
+      "revisionId": "033-candidate-kenchou-4fd74836-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kenchou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kenchou": "1d49b7ea576e5285cf9754a89942b3963f22566def1c831499ad064d13dd7162"
+      },
+      "reason": "Reference 県庁/けんちょう (tanos N2) is the same lexeme as the new entry 県庁【けんちょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=26",
+          "finding": "tanos lists 県庁/けんちょう at N2 (gloss: prefectural office)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1258880; spelling=県庁; reading=けんちょう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1258880 as the reference form.",
+          "selected": {
+            "sequence": "1258880",
+            "spelling": "県庁",
+            "reading": "けんちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefectural office"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 県庁|けんちょう#0 is the same lexeme as vocab-n2:correction:kenchou; target hash bound to the assembled addition.",
+        "contentHash": "a26e04a8fadcff00c4ef586504c8a73a895a64dac041b518a726031ed21b70a4",
+        "approvalHash": "a26e04a8fadcff00c4ef586504c8a73a895a64dac041b518a726031ed21b70a4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kenchou (県庁/けんちょう at N2 (gloss: prefectural office)).",
+        "contentHash": "a26e04a8fadcff00c4ef586504c8a73a895a64dac041b518a726031ed21b70a4",
+        "approvalHash": "a26e04a8fadcff00c4ef586504c8a73a895a64dac041b518a726031ed21b70a4"
+      }
+    },
+    {
+      "key": "県庁|けんちょう",
+      "referenceIndex": 1,
+      "referenceHash": "4dd5dbb27cbb857bde0d1ee8d43aab43136928448e79bb82d053a67bbb103d28",
+      "revisionId": "033-candidate-kenchou-4fd74836-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kenchou"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kenchou": "1d49b7ea576e5285cf9754a89942b3963f22566def1c831499ad064d13dd7162"
+      },
+      "reason": "Reference 県庁/けんちょう (master N2) is the same lexeme as the new entry 県庁【けんちょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 県庁/けんちょう at N2 (gloss: prefectural office; bureau préfectoral; (n) Präfekturbehörde)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1258880; spelling=県庁; reading=けんちょう; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1258880 as the reference form.",
+          "selected": {
+            "sequence": "1258880",
+            "spelling": "県庁",
+            "reading": "けんちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefectural office"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 県庁|けんちょう#1 is the same lexeme as vocab-n2:correction:kenchou; target hash bound to the assembled addition.",
+        "contentHash": "f8454f6f28d4bca8863b89a17be0a36c2dd0f8e5d659cf78593766a2083f7e9d",
+        "approvalHash": "f8454f6f28d4bca8863b89a17be0a36c2dd0f8e5d659cf78593766a2083f7e9d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:kenchou (県庁/けんちょう at N2 (gloss: prefectural office; bureau préfectoral; (n) Präfekturbehörde)).",
+        "contentHash": "f8454f6f28d4bca8863b89a17be0a36c2dd0f8e5d659cf78593766a2083f7e9d",
+        "approvalHash": "f8454f6f28d4bca8863b89a17be0a36c2dd0f8e5d659cf78593766a2083f7e9d"
+      }
+    }
+  ]
+}

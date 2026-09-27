@@ -1,0 +1,1471 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:shizumaru",
+      "revisionId": "033-add-shizumaru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "静まる",
+        "reading": "しずまる",
+        "romaji": "shizumaru",
+        "meaning": "still werden; sich beruhigen, nachlassen",
+        "type": "Verb",
+        "category": "Zustand",
+        "level": "N2",
+        "notes": "Intransitives Godan-Verb: 会場が静まる (der Saal wird still), 風が静まる (der Wind legt sich). Transitiv: 静める. Für Schmerzen oder Aufruhr auch 鎮まる.",
+        "examples": [
+          {
+            "japanese": "先生が入ってくると、教室は静まった。",
+            "romaji": "Sensei ga haitte kuru to, kyoushitsu wa shizumatta.",
+            "german": "Als der Lehrer hereinkam, wurde es in der Klasse still."
+          },
+          {
+            "japanese": "夜になって、ようやく風が静まった。",
+            "romaji": "Yoru ni natte, youyaku kaze ga shizumatta.",
+            "german": "Am Abend legte sich der Wind endlich."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "しずまる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "しずまる",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135470696",
+            "patterns": [
+              3
+            ],
+            "finding": "静まる / シズマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 静まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "静まる",
+              "reading": "しずまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "静まる as \"still werden; sich beruhigen, nachlassen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 静まる【しずまる】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1594270; spelling=静まる; reading=しずまる; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1594270 静まる/しずまる sense(s) 1,2 support \"still werden; sich beruhigen, nachlassen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1594270",
+            "spelling": "静まる",
+            "reading": "しずまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become quiet",
+                  "to quiet down",
+                  "to quieten down"
+                ],
+                "notes": [
+                  "esp. 静まる"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to calm down",
+                  "to die down",
+                  "to subside",
+                  "to abate",
+                  "to be suppressed"
+                ],
+                "notes": [
+                  "esp. 鎮まる"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "静まる|しずまる",
+          "referenceIndex": 0,
+          "referenceHash": "596270dbfa38f7d575d989bcae86dce905be4598e6c58b3f9f331236a50d73e9"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"still werden; sich beruhigen, nachlassen\" matches JMdict 1594270 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Classroom falls silent.",
+          "Wind dies down (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1594270; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading しずまる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@135470696 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135470696",
+            "patterns": [
+              3
+            ],
+            "finding": "静まる / シズマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 静まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "静まる",
+              "reading": "しずまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "静まる as \"still werden; sich beruhigen, nachlassen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 静まる【しずまる】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1594270 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1c369749e84f4695a56300daf65bb61280eec0fee78a772c7fa8fa66adc6f9e5",
+        "approvalHash": "ccfece3ad8321daa633ab10fb19c90dcfdd35a1f66c383ce012dba49b2a84de4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Correct. The N1 entry 鎮まる is a kanji variant of the same JMdict lexeme; the note cross-references it. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "1c369749e84f4695a56300daf65bb61280eec0fee78a772c7fa8fa66adc6f9e5",
+        "approvalHash": "ccfece3ad8321daa633ab10fb19c90dcfdd35a1f66c383ce012dba49b2a84de4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shiizun",
+      "revisionId": "033-add-shiizun",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "シーズン",
+        "reading": "シーズン",
+        "romaji": "shiizun",
+        "meaning": "Saison",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Hauptzeit für etwas: 野球のシーズン, スキーシーズン, 受験シーズン; オフシーズン (Nebensaison).",
+        "examples": [
+          {
+            "japanese": "スキーのシーズンになると、ホテルは予約でいっぱいだ。",
+            "romaji": "Sukii no shiizun ni naru to, hoteru wa yoyaku de ippai da.",
+            "german": "In der Skisaison sind die Hotels ausgebucht."
+          },
+          {
+            "japanese": "プロ野球のシーズンが始まった。",
+            "romaji": "Puro yakyuu no shiizun ga hajimatta.",
+            "german": "Die Profibaseball-Saison hat begonnen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143236288",
+            "patterns": [
+              1
+            ],
+            "finding": "シーズン / シーズン; 名詞/普通名詞/一般/*; *; *; lemma シーズン-season; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "シーズン",
+              "reading": "シーズン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "シーズン as \"Saison\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add シーズン【シーズン】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1059300; spelling=シーズン; reading=シーズン; senses=1,2,4; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1059300 シーズン/シーズン sense(s) 1,2,4 support \"Saison\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1059300",
+            "spelling": "シーズン",
+            "reading": "シーズン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (period in which regulated games are played)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (division of the year)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (for doing something, e.g. ski season, entrance examination season)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "しーずん|しーずん",
+          "referenceIndex": 0,
+          "referenceHash": "deaa3a5af9ad2182880cb40e7707d59f68a81ae64cda583f5118234b70f23520"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Saison\" matches JMdict 1059300 sense(s) 1,2,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Ski season bookings.",
+          "Sports season."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1059300; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@143236288 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143236288",
+            "patterns": [
+              1
+            ],
+            "finding": "シーズン / シーズン; 名詞/普通名詞/一般/*; *; *; lemma シーズン-season; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "シーズン",
+              "reading": "シーズン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "シーズン as \"Saison\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add シーズン【シーズン】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1059300 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1474c469aa39c618be775832065a2b37c5d99205b1cc291a8d96cf181cc72bec",
+        "approvalHash": "fc3ff59cff5c76e47fc89c348925aca2527111747ce40c8643418765b37471cb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "1474c469aa39c618be775832065a2b37c5d99205b1cc291a8d96cf181cc72bec",
+        "approvalHash": "fc3ff59cff5c76e47fc89c348925aca2527111747ce40c8643418765b37471cb"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shizenkagaku",
+      "revisionId": "033-add-shizenkagaku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "自然科学",
+        "reading": "しぜんかがく",
+        "romaji": "shizenkagaku",
+        "meaning": "Naturwissenschaft(en)",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N2",
+        "notes": "Physik, Chemie, Biologie usw.; vgl. 社会科学 (Sozialwissenschaften) und 人文科学 (Geisteswissenschaften).",
+        "examples": [
+          {
+            "japanese": "大学で自然科学を専攻している。",
+            "romaji": "Daigaku de shizen kagaku o senkou shite iru.",
+            "german": "Ich studiere an der Uni Naturwissenschaften."
+          },
+          {
+            "japanese": "自然科学の発展が私たちの生活を変えた。",
+            "romaji": "Shizen kagaku no hatten ga watashitachi no seikatsu o kaeta.",
+            "german": "Der Fortschritt der Naturwissenschaften hat unser Leben verändert."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 自然科学【しぜんかがく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1318110; spelling=自然科学; reading=しぜんかがく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1318110 自然科学/しぜんかがく sense(s) 1 support \"Naturwissenschaft(en)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1318110",
+            "spelling": "自然科学",
+            "reading": "しぜんかがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "natural science"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "自然科学|しぜんかがく",
+          "referenceIndex": 0,
+          "referenceHash": "23bce787a1254187bdd19085b49f362b87ef00f806f3772746a15b823d0ba792"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Naturwissenschaft(en)\" matches JMdict 1318110 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "University major.",
+          "Impact of science."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1318110; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 自然科学 / しぜんかがく; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 自然科学 / しぜんかがく",
+            "finding": "No exact UniDic row for 自然科学 / しぜんかがく."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 自然科学【しぜんかがく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1318110 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "7b703b6c21c82e69a0b502e9a5b3601d596bc0be25bca9182e72a5e4a72ab78f",
+        "approvalHash": "9b9f72009c92b78f853d2f9d84b8d589894ae65f84224d1f7a76ee18e2a60897"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean; pitch unknown acceptable. Romaji, German, JMdict senses, level N2 and pitch provenance (unknown) checked; headword new per check.cjs.",
+        "contentHash": "7b703b6c21c82e69a0b502e9a5b3601d596bc0be25bca9182e72a5e4a72ab78f",
+        "approvalHash": "9b9f72009c92b78f853d2f9d84b8d589894ae65f84224d1f7a76ee18e2a60897"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jisoku",
+      "revisionId": "033-add-jisoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "時速",
+        "reading": "じそく",
+        "romaji": "jisoku",
+        "meaning": "Stundengeschwindigkeit, km/h",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Geschwindigkeit pro Stunde: 時速六十キロ (60 km/h). Vgl. 秒速 (pro Sekunde), 分速 (pro Minute).",
+        "examples": [
+          {
+            "japanese": "新幹線は時速三百キロで走る。",
+            "romaji": "Shinkansen wa jisoku sanbyaku kiro de hashiru.",
+            "german": "Der Shinkansen fährt mit 300 Kilometern pro Stunde."
+          },
+          {
+            "japanese": "この道路では時速四十キロ以下で走ってください。",
+            "romaji": "Kono douro de wa jisoku yonjukkiro ika de hashitte kudasai.",
+            "german": "Auf dieser Straße fahren Sie bitte höchstens 40 km/h."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143705478",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "時速 / ジソク; 名詞/普通名詞/一般/*; *; *; lemma 時速; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "時速",
+              "reading": "じそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "時速 as \"Stundengeschwindigkeit, km/h\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 033); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 時速【じそく】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1316290; spelling=時速; reading=じそく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1316290 時速/じそく sense(s) 1 support \"Stundengeschwindigkeit, km/h\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1316290",
+            "spelling": "時速",
+            "reading": "じそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "speed (per hour)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "時速|じそく",
+          "referenceIndex": 0,
+          "referenceHash": "0d3b107378887185d105dc897a782916523ccc28de741e451ecc4bc70d7e3aa0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-033-editor",
+        "meaning": "\"Stundengeschwindigkeit, km/h\" matches JMdict 1316290 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Train speed.",
+          "Speed limit."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1316290; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@143705478 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143705478",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "時速 / ジソク; 名詞/普通名詞/一般/*; *; *; lemma 時速; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "時速",
+              "reading": "じそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "時速 as \"Stundengeschwindigkeit, km/h\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: Add 時速【じそく】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1316290 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "3d31e3680bc19da151d8796ba749757e5c054c2f797acc76c41212e2f2d63a21",
+        "approvalHash": "182ceab4603ad7a3188b974e023fbbcbe9fa786bc4ffde509b7a2ae2204c14a6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Clean; yonjukkiro correct. Romaji, German, JMdict senses, level N2 and pitch provenance (verified) checked; headword new per check.cjs.",
+        "contentHash": "3d31e3680bc19da151d8796ba749757e5c054c2f797acc76c41212e2f2d63a21",
+        "approvalHash": "182ceab4603ad7a3188b974e023fbbcbe9fa786bc4ffde509b7a2ae2204c14a6"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "静まる|しずまる",
+      "referenceIndex": 0,
+      "referenceHash": "596270dbfa38f7d575d989bcae86dce905be4598e6c58b3f9f331236a50d73e9",
+      "revisionId": "033-candidate-shizumaru-2d6f085b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shizumaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shizumaru": "1c369749e84f4695a56300daf65bb61280eec0fee78a772c7fa8fa66adc6f9e5"
+      },
+      "reason": "Reference 静まる/しずまる (tanos N2) is the same lexeme as the new entry 静まる【しずまる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=35",
+          "finding": "tanos lists 静まる/しずまる at N2 (gloss: to quieten down,to calm down,to subside)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1594270; spelling=静まる; reading=しずまる; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1594270 as the reference form.",
+          "selected": {
+            "sequence": "1594270",
+            "spelling": "静まる",
+            "reading": "しずまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become quiet",
+                  "to quiet down",
+                  "to quieten down"
+                ],
+                "notes": [
+                  "esp. 静まる"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to calm down",
+                  "to die down",
+                  "to subside",
+                  "to abate",
+                  "to be suppressed"
+                ],
+                "notes": [
+                  "esp. 鎮まる"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 静まる|しずまる#0 is the same lexeme as vocab-n2:correction:shizumaru; target hash bound to the assembled addition.",
+        "contentHash": "f3886c2d254c3adfdd8ea332d8e0ebe7ab137e695069768f008e3e7d09fd5df1",
+        "approvalHash": "f3886c2d254c3adfdd8ea332d8e0ebe7ab137e695069768f008e3e7d09fd5df1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shizumaru (静まる/しずまる at N2 (gloss: to quieten down,to calm down,to subside)).",
+        "contentHash": "f3886c2d254c3adfdd8ea332d8e0ebe7ab137e695069768f008e3e7d09fd5df1",
+        "approvalHash": "f3886c2d254c3adfdd8ea332d8e0ebe7ab137e695069768f008e3e7d09fd5df1"
+      }
+    },
+    {
+      "key": "静まる|しずまる",
+      "referenceIndex": 1,
+      "referenceHash": "5492277043ba58e120a00d4f81aa0e160c1e166602d0efbfa6d943f2628ed3a7",
+      "revisionId": "033-candidate-shizumaru-2d6f085b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shizumaru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shizumaru": "1c369749e84f4695a56300daf65bb61280eec0fee78a772c7fa8fa66adc6f9e5"
+      },
+      "reason": "Reference 静まる/しずまる (master N2) is the same lexeme as the new entry 静まる【しずまる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 静まる/しずまる at N2 (gloss: to quieten down; to calm down; to subside)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1594270; spelling=静まる; reading=しずまる; senses=1,2; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1594270 as the reference form.",
+          "selected": {
+            "sequence": "1594270",
+            "spelling": "静まる",
+            "reading": "しずまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become quiet",
+                  "to quiet down",
+                  "to quieten down"
+                ],
+                "notes": [
+                  "esp. 静まる"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to calm down",
+                  "to die down",
+                  "to subside",
+                  "to abate",
+                  "to be suppressed"
+                ],
+                "notes": [
+                  "esp. 鎮まる"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 静まる|しずまる#1 is the same lexeme as vocab-n2:correction:shizumaru; target hash bound to the assembled addition.",
+        "contentHash": "2ba4525edcd7213d791274f7d4c02a38ebbc7ee8f3957449992a08608b7af7d9",
+        "approvalHash": "2ba4525edcd7213d791274f7d4c02a38ebbc7ee8f3957449992a08608b7af7d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shizumaru (静まる/しずまる at N2 (gloss: to quieten down; to calm down; to subside)).",
+        "contentHash": "2ba4525edcd7213d791274f7d4c02a38ebbc7ee8f3957449992a08608b7af7d9",
+        "approvalHash": "2ba4525edcd7213d791274f7d4c02a38ebbc7ee8f3957449992a08608b7af7d9"
+      }
+    },
+    {
+      "key": "しーずん|しーずん",
+      "referenceIndex": 0,
+      "referenceHash": "deaa3a5af9ad2182880cb40e7707d59f68a81ae64cda583f5118234b70f23520",
+      "revisionId": "033-candidate-shiizun-f58923f9-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shiizun"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shiizun": "1474c469aa39c618be775832065a2b37c5d99205b1cc291a8d96cf181cc72bec"
+      },
+      "reason": "Reference シーズン/シーズン (tanos N2) is the same lexeme as the new entry シーズン【シーズン】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=34",
+          "finding": "tanos lists シーズン/シーズン at N2 (gloss: season (sporting))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1059300; spelling=シーズン; reading=シーズン; senses=1,2,4; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1059300 as the reference form.",
+          "selected": {
+            "sequence": "1059300",
+            "spelling": "シーズン",
+            "reading": "シーズン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (period in which regulated games are played)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (division of the year)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (for doing something, e.g. ski season, entrance examination season)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference しーずん|しーずん#0 is the same lexeme as vocab-n2:correction:shiizun; target hash bound to the assembled addition.",
+        "contentHash": "9d2f43e4ed3a70e6bab162bf6ab853613b34d95a24c86d5d573eea2e6da0e6a6",
+        "approvalHash": "9d2f43e4ed3a70e6bab162bf6ab853613b34d95a24c86d5d573eea2e6da0e6a6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shiizun (シーズン/シーズン at N2 (gloss: season (sporting))).",
+        "contentHash": "9d2f43e4ed3a70e6bab162bf6ab853613b34d95a24c86d5d573eea2e6da0e6a6",
+        "approvalHash": "9d2f43e4ed3a70e6bab162bf6ab853613b34d95a24c86d5d573eea2e6da0e6a6"
+      }
+    },
+    {
+      "key": "しーずん|しーずん",
+      "referenceIndex": 1,
+      "referenceHash": "88aac35827a7d41fe15668707d156986071151d50386675d9425690bfcede76b",
+      "revisionId": "033-candidate-shiizun-f58923f9-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shiizun"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shiizun": "1474c469aa39c618be775832065a2b37c5d99205b1cc291a8d96cf181cc72bec"
+      },
+      "reason": "Reference シーズン/シーズン (master N2) is the same lexeme as the new entry シーズン【シーズン】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists シーズン/シーズン at N2 (gloss: season (fruits and vegetables, sporting, holidays); saison (sport); (n) Saison)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1059300; spelling=シーズン; reading=シーズン; senses=1,2,4; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1059300 as the reference form.",
+          "selected": {
+            "sequence": "1059300",
+            "spelling": "シーズン",
+            "reading": "シーズン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (period in which regulated games are played)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (division of the year)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "season (for doing something, e.g. ski season, entrance examination season)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference しーずん|しーずん#1 is the same lexeme as vocab-n2:correction:shiizun; target hash bound to the assembled addition.",
+        "contentHash": "7255d0a4b7bd05126a8cf25bc411e9a2191a41be171e6fc89e39356463e95d84",
+        "approvalHash": "7255d0a4b7bd05126a8cf25bc411e9a2191a41be171e6fc89e39356463e95d84"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shiizun (シーズン/シーズン at N2 (gloss: season (fruits and vegetables, sporting, holidays); saison (sport); (n) Saison)).",
+        "contentHash": "7255d0a4b7bd05126a8cf25bc411e9a2191a41be171e6fc89e39356463e95d84",
+        "approvalHash": "7255d0a4b7bd05126a8cf25bc411e9a2191a41be171e6fc89e39356463e95d84"
+      }
+    },
+    {
+      "key": "自然科学|しぜんかがく",
+      "referenceIndex": 0,
+      "referenceHash": "23bce787a1254187bdd19085b49f362b87ef00f806f3772746a15b823d0ba792",
+      "revisionId": "033-candidate-shizenkagaku-14b54403-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shizenkagaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shizenkagaku": "7b703b6c21c82e69a0b502e9a5b3601d596bc0be25bca9182e72a5e4a72ab78f"
+      },
+      "reason": "Reference 自然科学/しぜんかがく (tanos N2) is the same lexeme as the new entry 自然科学【しぜんかがく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=35",
+          "finding": "tanos lists 自然科学/しぜんかがく at N2 (gloss: natural science)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1318110; spelling=自然科学; reading=しぜんかがく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1318110 as the reference form.",
+          "selected": {
+            "sequence": "1318110",
+            "spelling": "自然科学",
+            "reading": "しぜんかがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "natural science"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 自然科学|しぜんかがく#0 is the same lexeme as vocab-n2:correction:shizenkagaku; target hash bound to the assembled addition.",
+        "contentHash": "13145700994e97de1bb0e7578b8c6594cdd7967623c832560a118425b9fe0ac5",
+        "approvalHash": "13145700994e97de1bb0e7578b8c6594cdd7967623c832560a118425b9fe0ac5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shizenkagaku (自然科学/しぜんかがく at N2 (gloss: natural science)).",
+        "contentHash": "13145700994e97de1bb0e7578b8c6594cdd7967623c832560a118425b9fe0ac5",
+        "approvalHash": "13145700994e97de1bb0e7578b8c6594cdd7967623c832560a118425b9fe0ac5"
+      }
+    },
+    {
+      "key": "自然科学|しぜんかがく",
+      "referenceIndex": 1,
+      "referenceHash": "15a74e37a7d7c98dfa684615eb60e01155c0c3233438e8a9f8198b8a8c006376",
+      "revisionId": "033-candidate-shizenkagaku-14b54403-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shizenkagaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shizenkagaku": "7b703b6c21c82e69a0b502e9a5b3601d596bc0be25bca9182e72a5e4a72ab78f"
+      },
+      "reason": "Reference 自然科学/しぜんかがく (sensei N2) is the same lexeme as the new entry 自然科学【しぜんかがく】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 自然科学/しぜんかがく at N2 (gloss: natural science)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1318110; spelling=自然科学; reading=しぜんかがく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1318110 as the reference form.",
+          "selected": {
+            "sequence": "1318110",
+            "spelling": "自然科学",
+            "reading": "しぜんかがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "natural science"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 自然科学|しぜんかがく#1 is the same lexeme as vocab-n2:correction:shizenkagaku; target hash bound to the assembled addition.",
+        "contentHash": "afd711f9c389f053f3e22baea84de3bf7efedd9d815cd3c1ee5408acbd22d528",
+        "approvalHash": "afd711f9c389f053f3e22baea84de3bf7efedd9d815cd3c1ee5408acbd22d528"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shizenkagaku (自然科学/しぜんかがく at N2 (gloss: natural science)).",
+        "contentHash": "afd711f9c389f053f3e22baea84de3bf7efedd9d815cd3c1ee5408acbd22d528",
+        "approvalHash": "afd711f9c389f053f3e22baea84de3bf7efedd9d815cd3c1ee5408acbd22d528"
+      }
+    },
+    {
+      "key": "自然科学|しぜんかがく",
+      "referenceIndex": 2,
+      "referenceHash": "399256980b27c942f4fd229d54c3fb85afc7402443bf91200c2b0fd5410a088f",
+      "revisionId": "033-candidate-shizenkagaku-14b54403-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:shizenkagaku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:shizenkagaku": "7b703b6c21c82e69a0b502e9a5b3601d596bc0be25bca9182e72a5e4a72ab78f"
+      },
+      "reason": "Reference 自然科学/しぜんかがく (master N2) is the same lexeme as the new entry 自然科学【しぜんかがく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 自然科学/しぜんかがく at N2 (gloss: natural science; sciences naturelles; (n) Naturwissenschaften)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1318110; spelling=自然科学; reading=しぜんかがく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1318110 as the reference form.",
+          "selected": {
+            "sequence": "1318110",
+            "spelling": "自然科学",
+            "reading": "しぜんかがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "natural science"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 自然科学|しぜんかがく#2 is the same lexeme as vocab-n2:correction:shizenkagaku; target hash bound to the assembled addition.",
+        "contentHash": "e55df63a297a8b3d143027c6b1aca2d8b2065976bb57e6a66827a9ffcd5b37c7",
+        "approvalHash": "e55df63a297a8b3d143027c6b1aca2d8b2065976bb57e6a66827a9ffcd5b37c7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:shizenkagaku (自然科学/しぜんかがく at N2 (gloss: natural science; sciences naturelles; (n) Naturwissenschaften)).",
+        "contentHash": "e55df63a297a8b3d143027c6b1aca2d8b2065976bb57e6a66827a9ffcd5b37c7",
+        "approvalHash": "e55df63a297a8b3d143027c6b1aca2d8b2065976bb57e6a66827a9ffcd5b37c7"
+      }
+    },
+    {
+      "key": "時速|じそく",
+      "referenceIndex": 0,
+      "referenceHash": "0d3b107378887185d105dc897a782916523ccc28de741e451ecc4bc70d7e3aa0",
+      "revisionId": "033-candidate-jisoku-9422dc2b-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jisoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jisoku": "3d31e3680bc19da151d8796ba749757e5c054c2f797acc76c41212e2f2d63a21"
+      },
+      "reason": "Reference 時速/じそく (tanos N2) is the same lexeme as the new entry 時速【じそく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=35",
+          "finding": "tanos lists 時速/じそく at N2 (gloss: speed (per hour))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1316290; spelling=時速; reading=じそく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1316290 as the reference form.",
+          "selected": {
+            "sequence": "1316290",
+            "spelling": "時速",
+            "reading": "じそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "speed (per hour)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 時速|じそく#0 is the same lexeme as vocab-n2:correction:jisoku; target hash bound to the assembled addition.",
+        "contentHash": "92eebd4328e308a50bf984f4d5f2f0778f0787ec8f747c643ae1b2d8da3ae816",
+        "approvalHash": "92eebd4328e308a50bf984f4d5f2f0778f0787ec8f747c643ae1b2d8da3ae816"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:jisoku (時速/じそく at N2 (gloss: speed (per hour))).",
+        "contentHash": "92eebd4328e308a50bf984f4d5f2f0778f0787ec8f747c643ae1b2d8da3ae816",
+        "approvalHash": "92eebd4328e308a50bf984f4d5f2f0778f0787ec8f747c643ae1b2d8da3ae816"
+      }
+    },
+    {
+      "key": "時速|じそく",
+      "referenceIndex": 1,
+      "referenceHash": "572d8b9bbc33403fd46dfd391168d7369cc7f4e1e675a7a06d4731e29e747bc4",
+      "revisionId": "033-candidate-jisoku-9422dc2b-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jisoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jisoku": "3d31e3680bc19da151d8796ba749757e5c054c2f797acc76c41212e2f2d63a21"
+      },
+      "reason": "Reference 時速/じそく (sensei N2) is the same lexeme as the new entry 時速【じそく】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 時速/じそく at N2 (gloss: speed (per hour))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1316290; spelling=時速; reading=じそく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1316290 as the reference form.",
+          "selected": {
+            "sequence": "1316290",
+            "spelling": "時速",
+            "reading": "じそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "speed (per hour)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 時速|じそく#1 is the same lexeme as vocab-n2:correction:jisoku; target hash bound to the assembled addition.",
+        "contentHash": "3ffcdcd97774aa6d3bab4ebb4e4ee69c64f82e2133eace2036bdbfd926e81634",
+        "approvalHash": "3ffcdcd97774aa6d3bab4ebb4e4ee69c64f82e2133eace2036bdbfd926e81634"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:jisoku (時速/じそく at N2 (gloss: speed (per hour))).",
+        "contentHash": "3ffcdcd97774aa6d3bab4ebb4e4ee69c64f82e2133eace2036bdbfd926e81634",
+        "approvalHash": "3ffcdcd97774aa6d3bab4ebb4e4ee69c64f82e2133eace2036bdbfd926e81634"
+      }
+    },
+    {
+      "key": "時速|じそく",
+      "referenceIndex": 2,
+      "referenceHash": "e54010f634dd31c6c2ea1ba38bf41fca485844ef3d3f0708aac0b063e43c9582",
+      "revisionId": "033-candidate-jisoku-9422dc2b-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:jisoku"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:jisoku": "3d31e3680bc19da151d8796ba749757e5c054c2f797acc76c41212e2f2d63a21"
+      },
+      "reason": "Reference 時速/じそく (master N2) is the same lexeme as the new entry 時速【じそく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 時速/じそく at N2 (gloss: speed (per hour); vitesse (par heure); (n) Geschwindigkeit (pro Stunde))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1316290; spelling=時速; reading=じそく; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1316290 as the reference form.",
+          "selected": {
+            "sequence": "1316290",
+            "spelling": "時速",
+            "reading": "じそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "speed (per hour)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-editor",
+        "finding": "Editorial first pass: reference 時速|じそく#2 is the same lexeme as vocab-n2:correction:jisoku; target hash bound to the assembled addition.",
+        "contentHash": "893cf7d8fe33c54f6aadf24ef827a4bbfc9d256c0c22421e35897a956de48b62",
+        "approvalHash": "893cf7d8fe33c54f6aadf24ef827a4bbfc9d256c0c22421e35897a956de48b62"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-033-independent-reviewer",
+        "finding": "Publisher row is the same lexeme as vocab-n2:correction:jisoku (時速/じそく at N2 (gloss: speed (per hour); vitesse (par heure); (n) Geschwindigkeit (pro Stunde))).",
+        "contentHash": "893cf7d8fe33c54f6aadf24ef827a4bbfc9d256c0c22421e35897a956de48b62",
+        "approvalHash": "893cf7d8fe33c54f6aadf24ef827a4bbfc9d256c0c22421e35897a956de48b62"
+      }
+    }
+  ]
+}
