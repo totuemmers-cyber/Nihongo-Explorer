@@ -1,0 +1,852 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:wan-bowl",
+      "revisionId": "037-add-wan-bowl",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "椀",
+        "reading": "わん",
+        "romaji": "wan",
+        "meaning": "(Holz-)Schale, Suppenschale",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N2",
+        "notes": "Lackierte Holzschale für Suppe (お椀). Porzellanschalen schreibt man 碗 (茶碗). Auch Zählwort: 一椀.",
+        "examples": [
+          {
+            "japanese": "お椀にみそ汁を入れた。",
+            "romaji": "Owan ni misoshiru o ireta.",
+            "german": "Ich habe Misosuppe in die Schale gefüllt."
+          },
+          {
+            "japanese": "このお椀は祖母が大切にしていたものだ。",
+            "romaji": "Kono owan wa sobo ga taisetsu ni shite ita mono da.",
+            "german": "Diese Schale hat meiner Großmutter viel bedeutet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@283779626",
+            "patterns": [
+              0
+            ],
+            "finding": "椀 / ワン; 名詞/普通名詞/一般/*; *; *; lemma 椀; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "椀",
+              "reading": "わん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "椀 as \"(Holz-)Schale, Suppenschale\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 椀【わん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1562780; spelling=椀; reading=わん; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1562780 椀/わん sense(s) 1,2 support \"(Holz-)Schale, Suppenschale\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1562780",
+            "spelling": "椀",
+            "reading": "わん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl (wooden)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for bowls of food or drink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "椀|わん",
+          "referenceIndex": 0,
+          "referenceHash": "db610ace5003559a49f70558d533cfb7337a46989975cc9c0c779275027f33ef"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"(Holz-)Schale, Suppenschale\" matches JMdict 1562780 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Serving soup.",
+          "Family heirloom."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1562780; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@283779626 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@283779626",
+            "patterns": [
+              0
+            ],
+            "finding": "椀 / ワン; 名詞/普通名詞/一般/*; *; *; lemma 椀; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "椀",
+              "reading": "わん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "椀 as \"(Holz-)Schale, Suppenschale\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 椀【わん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1562780 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "e4898343fac81a15168b8ee6e8767700501d8ee476cfd9a1194c4c050f061f2a",
+        "approvalHash": "569a67329f23e065feddedbfb5bba9569e715d2fb70fdf024ddfcd928922e334"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "Examples use お椀 (beautifying prefix, not a compound) - acceptable, 椀 alone is rare in speech. Note on 碗 vs 椀 correct. pitch 0 exact row.",
+        "contentHash": "e4898343fac81a15168b8ee6e8767700501d8ee476cfd9a1194c4c050f061f2a",
+        "approvalHash": "569a67329f23e065feddedbfb5bba9569e715d2fb70fdf024ddfcd928922e334"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sensenshuu",
+      "revisionId": "037-add-sensenshuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "先々週",
+        "reading": "せんせんしゅう",
+        "romaji": "sensenshuu",
+        "meaning": "vorletzte Woche",
+        "type": "Nomen",
+        "category": "Zeit",
+        "level": "N2",
+        "notes": "Die Woche vor der letzten Woche. Entsprechend: 先々月 (vorletzter Monat).",
+        "examples": [
+          {
+            "japanese": "先々週の土曜日に引っ越した。",
+            "romaji": "Sensenshuu no doyoubi ni hikkoshita.",
+            "german": "Ich bin am Samstag vorletzte Woche umgezogen."
+          },
+          {
+            "japanese": "その本は先々週から借りたままだ。",
+            "romaji": "Sono hon wa sensenshuu kara karita mama da.",
+            "german": "Das Buch habe ich seit vorletzter Woche ausgeliehen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2. Editorial N2.",
+      "rationale": "Add 先々週【せんせんしゅう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1888910; spelling=先々週; reading=せんせんしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1888910 先々週/せんせんしゅう sense(s) 1 support \"vorletzte Woche\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1888910",
+            "spelling": "先々週",
+            "reading": "せんせんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "week before last"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "先々週|先々週",
+          "referenceIndex": 0,
+          "referenceHash": "857d57d4c5bc3f39a7ceb4e67b61a34dfae7a56560e65e978043362cdc302d93"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"vorletzte Woche\" matches JMdict 1888910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Past move.",
+          "Overdue book."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1888910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 先々週 / せんせんしゅう; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 先々週 / せんせんしゅう",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 先々週【せんせんしゅう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1888910 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "300906e96e00ddba7db9708946fb21fdd5427ca75dc24822ad991021a7702e87",
+        "approvalHash": "01a5f418c6dec584f4492ea03e370415a84e163a71d473194cfa152b1dc74f1e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "先々週【せんせんしゅう】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1888910 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch unknown (no exact row); level N2 reasonable.",
+        "contentHash": "300906e96e00ddba7db9708946fb21fdd5427ca75dc24822ad991021a7702e87",
+        "approvalHash": "01a5f418c6dec584f4492ea03e370415a84e163a71d473194cfa152b1dc74f1e"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tenten",
+      "revisionId": "037-add-tenten",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "転々",
+        "reading": "てんてん",
+        "romaji": "tenten",
+        "meaning": "von Ort zu Ort; hin und her",
+        "type": "Adverb",
+        "category": "Bewegung",
+        "level": "N2",
+        "notes": "Meist als 転々とする: 職を転々とする (häufig den Job wechseln), 各地を転々とする.",
+        "examples": [
+          {
+            "japanese": "父の仕事の関係で、子どもの頃は各地を転々とした。",
+            "romaji": "Chichi no shigoto no kankei de, kodomo no koro wa kakuchi o tenten to shita.",
+            "german": "Wegen der Arbeit meines Vaters zogen wir in meiner Kindheit von Ort zu Ort."
+          },
+          {
+            "japanese": "彼は若い頃、仕事を転々としていた。",
+            "romaji": "Kare wa wakai koro, shigoto o tenten to shite ita.",
+            "german": "In jungen Jahren wechselte er ständig den Job."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181484572",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "転々 / テンテン; 副詞/*/*/*; *; *; lemma 転々; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "転々",
+              "reading": "てんてん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "転々 as \"von Ort zu Ort; hin und her\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 転々【てんてん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1704220; spelling=転々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1704220 転々/てんてん sense(s) 1 support \"von Ort zu Ort; hin und her\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1704220",
+            "spelling": "転々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moving from place to place",
+                  "being passed around repeatedly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "転々|てんてん",
+          "referenceIndex": 0,
+          "referenceHash": "d0c4d9303c8de31087db25470a96e77ecb31f8aa7cfeda9f95ff8a48ac53348a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"von Ort zu Ort; hin und her\" matches JMdict 1704220 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Moving around as a child.",
+          "Changing jobs often."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1704220; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@181484572 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181484572",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "転々 / テンテン; 副詞/*/*/*; *; *; lemma 転々; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "転々",
+              "reading": "てんてん",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "転々 as \"von Ort zu Ort; hin und her\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 転々【てんてん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1704220 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b2b34e2b62f48f196b61ab9ec1fdb69a048bc89e17323033d1af864e52518e04",
+        "approvalHash": "e2334f69ca2108219eeee2202da23d2d98c1359caebd685d4e6d43e6414716e8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "転々【てんてん】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1704220 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 0/3 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "b2b34e2b62f48f196b61ab9ec1fdb69a048bc89e17323033d1af864e52518e04",
+        "approvalHash": "e2334f69ca2108219eeee2202da23d2d98c1359caebd685d4e6d43e6414716e8"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "椀|わん",
+      "referenceIndex": 0,
+      "referenceHash": "db610ace5003559a49f70558d533cfb7337a46989975cc9c0c779275027f33ef",
+      "revisionId": "037-candidate-wan-bowl-e2f9ad5e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:wan-bowl"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:wan-bowl": "e4898343fac81a15168b8ee6e8767700501d8ee476cfd9a1194c4c050f061f2a"
+      },
+      "reason": "Reference 椀/わん (tanos N2) is the same lexeme as the new entry 椀【わん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=93",
+          "finding": "tanos lists 椀/わん at N2 (gloss: Japanese soup bowl,wooden bowl)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1562780; spelling=椀; reading=わん; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1562780 as the reference form.",
+          "selected": {
+            "sequence": "1562780",
+            "spelling": "椀",
+            "reading": "わん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl (wooden)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for bowls of food or drink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 椀|わん#0 is the same lexeme as vocab-n2:correction:wan-bowl; target hash bound to the assembled addition.",
+        "contentHash": "2377ff14e141ef37bd7b05eed2358df66d8c328f7e09ace487f09f6893392332",
+        "approvalHash": "2377ff14e141ef37bd7b05eed2358df66d8c328f7e09ace487f09f6893392332"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:wan-bowl: publisher row (椀/わん at N2 (gloss: Japanese soup bowl,wooden bowl)) is the same lexeme as the target entry.",
+        "contentHash": "2377ff14e141ef37bd7b05eed2358df66d8c328f7e09ace487f09f6893392332",
+        "approvalHash": "2377ff14e141ef37bd7b05eed2358df66d8c328f7e09ace487f09f6893392332"
+      }
+    },
+    {
+      "key": "椀|わん",
+      "referenceIndex": 1,
+      "referenceHash": "3b69ae583eec3b115e310109782d303b894191c580e2d403bbb7975bac52ff16",
+      "revisionId": "037-candidate-wan-bowl-e2f9ad5e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:wan-bowl"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:wan-bowl": "e4898343fac81a15168b8ee6e8767700501d8ee476cfd9a1194c4c050f061f2a"
+      },
+      "reason": "Reference 椀/わん (master N2) is the same lexeme as the new entry 椀【わん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 椀/わん at N2 (gloss: Japanese soup bowl; wooden bowl; bol (soupe japonaise))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1562780; spelling=椀; reading=わん; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1562780 as the reference form.",
+          "selected": {
+            "sequence": "1562780",
+            "spelling": "椀",
+            "reading": "わん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bowl (wooden)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for bowls of food or drink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 椀|わん#1 is the same lexeme as vocab-n2:correction:wan-bowl; target hash bound to the assembled addition.",
+        "contentHash": "20c5a64cb5d7611d062d44682c1188c97c426cdc59e7f0f08bb14768bc9b70e0",
+        "approvalHash": "20c5a64cb5d7611d062d44682c1188c97c426cdc59e7f0f08bb14768bc9b70e0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:wan-bowl: publisher row (椀/わん at N2 (gloss: Japanese soup bowl; wooden bowl; bol (soupe japonaise))) is the same lexeme as the target entry.",
+        "contentHash": "20c5a64cb5d7611d062d44682c1188c97c426cdc59e7f0f08bb14768bc9b70e0",
+        "approvalHash": "20c5a64cb5d7611d062d44682c1188c97c426cdc59e7f0f08bb14768bc9b70e0"
+      }
+    },
+    {
+      "key": "先々週|先々週",
+      "referenceIndex": 0,
+      "referenceHash": "857d57d4c5bc3f39a7ceb4e67b61a34dfae7a56560e65e978043362cdc302d93",
+      "revisionId": "037-candidate-sensenshuu-bc679c2c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sensenshuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sensenshuu": "300906e96e00ddba7db9708946fb21fdd5427ca75dc24822ad991021a7702e87"
+      },
+      "reason": "Reference 先々週/先々週 (tanos N2) is the same lexeme as the new entry 先々週【せんせんしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=48",
+          "finding": "tanos lists 先々週/先々週 at N2 (gloss: せんせんしゅう)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1888910; spelling=先々週; reading=せんせんしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1888910 as the reference form.",
+          "selected": {
+            "sequence": "1888910",
+            "spelling": "先々週",
+            "reading": "せんせんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "week before last"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 先々週|先々週#0 is the same lexeme as vocab-n2:correction:sensenshuu; target hash bound to the assembled addition.",
+        "contentHash": "81c4895f1169d5849a30e14affefa2400ca99a55a5c4c2ee9645e3c3f2c6841e",
+        "approvalHash": "81c4895f1169d5849a30e14affefa2400ca99a55a5c4c2ee9645e3c3f2c6841e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:sensenshuu: publisher row (先々週/先々週 at N2 (gloss: せんせんしゅう)) is the same lexeme as the target entry.",
+        "contentHash": "81c4895f1169d5849a30e14affefa2400ca99a55a5c4c2ee9645e3c3f2c6841e",
+        "approvalHash": "81c4895f1169d5849a30e14affefa2400ca99a55a5c4c2ee9645e3c3f2c6841e"
+      }
+    },
+    {
+      "key": "転々|てんてん",
+      "referenceIndex": 0,
+      "referenceHash": "d0c4d9303c8de31087db25470a96e77ecb31f8aa7cfeda9f95ff8a48ac53348a",
+      "revisionId": "037-candidate-tenten-c9adbf95-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenten": "b2b34e2b62f48f196b61ab9ec1fdb69a048bc89e17323033d1af864e52518e04"
+      },
+      "reason": "Reference 転々/てんてん (master N2) is the same lexeme as the new entry 転々【てんてん】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 転々/てんてん at N2 (gloss: moving from place to place; being passed around repeatedly)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1704220; spelling=転々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1704220 as the reference form.",
+          "selected": {
+            "sequence": "1704220",
+            "spelling": "転々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moving from place to place",
+                  "being passed around repeatedly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 転々|てんてん#0 is the same lexeme as vocab-n2:correction:tenten; target hash bound to the assembled addition.",
+        "contentHash": "cda2e2471d37a8a9d207ab62377103f8f929bc3b8ee0b922e997c490626218e9",
+        "approvalHash": "cda2e2471d37a8a9d207ab62377103f8f929bc3b8ee0b922e997c490626218e9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:tenten: publisher row (転々/てんてん at N2 (gloss: moving from place to place; being passed around repeatedly)) is the same lexeme as the target entry.",
+        "contentHash": "cda2e2471d37a8a9d207ab62377103f8f929bc3b8ee0b922e997c490626218e9",
+        "approvalHash": "cda2e2471d37a8a9d207ab62377103f8f929bc3b8ee0b922e997c490626218e9"
+      }
+    },
+    {
+      "key": "転々|転々",
+      "referenceIndex": 0,
+      "referenceHash": "f267a3bd18f7ab2e17329646c9a7f5a1180b094f7a7bf5c9c7af2044b1b80c43",
+      "revisionId": "037-candidate-tenten-253411c1-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:tenten"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:tenten": "b2b34e2b62f48f196b61ab9ec1fdb69a048bc89e17323033d1af864e52518e04"
+      },
+      "reason": "Reference 転々/転々 (tanos N2) is the same lexeme as the new entry 転々【てんてん】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=60",
+          "finding": "tanos lists 転々/転々 at N2 (gloss: てんてん)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1704220; spelling=転々; reading=てんてん; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1704220 as the reference form.",
+          "selected": {
+            "sequence": "1704220",
+            "spelling": "転々",
+            "reading": "てんてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moving from place to place",
+                  "being passed around repeatedly"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 転々|転々#0 is the same lexeme as vocab-n2:correction:tenten; target hash bound to the assembled addition.",
+        "contentHash": "b3079c96906aa6076f04ddf782805cd32314da8c8ea81afc1bf852b199221536",
+        "approvalHash": "b3079c96906aa6076f04ddf782805cd32314da8c8ea81afc1bf852b199221536"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:tenten: publisher row (転々/転々 at N2 (gloss: てんてん)) is the same lexeme as the target entry.",
+        "contentHash": "b3079c96906aa6076f04ddf782805cd32314da8c8ea81afc1bf852b199221536",
+        "approvalHash": "b3079c96906aa6076f04ddf782805cd32314da8c8ea81afc1bf852b199221536"
+      }
+    }
+  ]
+}

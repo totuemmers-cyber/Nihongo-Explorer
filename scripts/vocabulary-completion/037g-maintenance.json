@@ -1,0 +1,3883 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n2:correction:yobidasu",
+      "revisionId": "037-add-yobidasu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "呼び出す",
+        "reading": "よびだす",
+        "romaji": "yobidasu",
+        "meaning": "herbeirufen, vorladen; aufrufen",
+        "type": "Verb",
+        "category": "Kommunikation",
+        "level": "N2",
+        "notes": "Jemanden zu sich rufen: 先生に呼び出される (zum Lehrer bestellt werden); in der IT auch Funktionen aufrufen.",
+        "examples": [
+          {
+            "japanese": "授業のあと、先生に職員室に呼び出された。",
+            "romaji": "Jugyou no ato, sensei ni shokuinshitsu ni yobidasareta.",
+            "german": "Nach dem Unterricht wurde ich ins Lehrerzimmer bestellt."
+          },
+          {
+            "japanese": "受付で担当者を呼び出してもらった。",
+            "romaji": "Uketsuke de tantousha o yobidashite moratta.",
+            "german": "Ich ließ am Empfang den zuständigen Mitarbeiter ausrufen."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "よびだす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "よびだす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274973957",
+            "patterns": [
+              3
+            ],
+            "finding": "呼び出す / ヨビダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 呼び出す; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "呼び出す",
+              "reading": "よびだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "呼び出す as \"herbeirufen, vorladen; aufrufen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 呼び出す【よびだす】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266350; spelling=呼び出す; reading=よびだす; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1266350 呼び出す/よびだす sense(s) 1,2 support \"herbeirufen, vorladen; aufrufen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1266350",
+            "spelling": "呼び出す",
+            "reading": "よびだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to call (someone) to (the door, phone, etc.)",
+                  "to tell (someone) to come",
+                  "to call up (on the phone)",
+                  "to summon",
+                  "to page",
+                  "to invoke (e.g. a spirit)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to invoke (e.g. a subroutine)",
+                  "to call",
+                  "to open (e.g. a file)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "呼び出す|よびだす",
+          "referenceIndex": 0,
+          "referenceHash": "5406e6e75450c2fe35d66b6942a3d37557ef41aaaf81f7a07b63b4dbd94ff1e8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"herbeirufen, vorladen; aufrufen\" matches JMdict 1266350 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Summoned by a teacher.",
+          "Having someone paged at reception."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1266350; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading よびだす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@274973957 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274973957",
+            "patterns": [
+              3
+            ],
+            "finding": "呼び出す / ヨビダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 呼び出す; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "呼び出す",
+              "reading": "よびだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "呼び出す as \"herbeirufen, vorladen; aufrufen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 呼び出す【よびだす】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1266350 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a546a2c68c892f3d22087c7eb3706ffb74e139d0213a037cfa53688b71f551e5",
+        "approvalHash": "ee482b9c71e2b3570b9aecbb6e04e62a52e94e9352556c075a4f669c72daf035"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "Round-1 fix verified: ex2 now 受付で担当者を呼び出してもらった。 with the person as object of 呼び出す; romaji Uketsuke de tantousha o yobidashite moratta. and German match. ex1, godan, pitch 3 exact row correct.",
+        "contentHash": "a546a2c68c892f3d22087c7eb3706ffb74e139d0213a037cfa53688b71f551e5",
+        "approvalHash": "ee482b9c71e2b3570b9aecbb6e04e62a52e94e9352556c075a4f669c72daf035"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:rainichi",
+      "revisionId": "037-add-rainichi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "来日",
+        "reading": "らいにち",
+        "romaji": "rainichi",
+        "meaning": "Besuch in Japan, Ankunft in Japan",
+        "type": "Nomen",
+        "category": "Reisen",
+        "level": "N2",
+        "notes": "Als Verb 来日する – für Ausländer, die nach Japan kommen: 大統領が来日する. Gegenteil: 離日.",
+        "examples": [
+          {
+            "japanese": "有名な歌手が来月来日する。",
+            "romaji": "Yuumei na kashu ga raigetsu rainichi suru.",
+            "german": "Ein berühmter Sänger kommt nächsten Monat nach Japan."
+          },
+          {
+            "japanese": "来日して三年になるが、まだ敬語が苦手だ。",
+            "romaji": "Rainichi shite sannen ni naru ga, mada keigo ga nigate da.",
+            "german": "Ich bin seit drei Jahren in Japan, tue mich aber immer noch schwer mit Keigo."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277410731",
+            "patterns": [
+              0
+            ],
+            "finding": "来日 / ライニチ; 名詞/普通名詞/サ変可能/*; *; *; lemma 来日; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "来日",
+              "reading": "らいにち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "来日 as \"Besuch in Japan, Ankunft in Japan\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 来日【らいにち】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548200; spelling=来日; reading=らいにち; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1548200 来日/らいにち sense(s) 1 support \"Besuch in Japan, Ankunft in Japan\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1548200",
+            "spelling": "来日",
+            "reading": "らいにち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "coming to Japan",
+                  "visit to Japan",
+                  "arrival in Japan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "来日|らいにち",
+          "referenceIndex": 0,
+          "referenceHash": "cc730785976160f2bc8905ff4d66428a3eeb8e86cfb1c1c901c5885f27d0be04"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Besuch in Japan, Ankunft in Japan\" matches JMdict 1548200 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Celebrity visit.",
+          "Time since arriving in Japan."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1548200; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277410731 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277410731",
+            "patterns": [
+              0
+            ],
+            "finding": "来日 / ライニチ; 名詞/普通名詞/サ変可能/*; *; *; lemma 来日; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "来日",
+              "reading": "らいにち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "来日 as \"Besuch in Japan, Ankunft in Japan\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 来日【らいにち】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1548200 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "154bbeeddc5f96e7109b85d0bca6ba18d2ac8dc9b1b400910afc689e49dcd214",
+        "approvalHash": "03d7c01b874a8cf27ad3b42683b5851a7c1cd42c75acb8b509bbce02248bb67d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "来日【らいにち】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1548200 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 0 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "154bbeeddc5f96e7109b85d0bca6ba18d2ac8dc9b1b400910afc689e49dcd214",
+        "approvalHash": "03d7c01b874a8cf27ad3b42683b5851a7c1cd42c75acb8b509bbce02248bb67d"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:rasshuawaa",
+      "revisionId": "037-add-rasshuawaa",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ラッシュアワー",
+        "reading": "ラッシュアワー",
+        "romaji": "rasshuawaa",
+        "meaning": "Hauptverkehrszeit, Rushhour",
+        "type": "Nomen",
+        "category": "Verkehr",
+        "level": "N2",
+        "notes": "Die Zeit mit dem stärksten Pendelverkehr; oft kurz ラッシュ: 朝のラッシュ.",
+        "examples": [
+          {
+            "japanese": "ラッシュアワーの電車はとても込んでいる。",
+            "romaji": "Rasshuawaa no densha wa totemo konde iru.",
+            "german": "Die Züge zur Rushhour sind sehr voll."
+          },
+          {
+            "japanese": "ラッシュアワーを避けて、早めに家を出た。",
+            "romaji": "Rasshuawaa o sakete, hayame ni ie o deta.",
+            "german": "Um die Rushhour zu vermeiden, bin ich früher losgegangen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ラッシュアワー【ラッシュアワー】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1139190; spelling=ラッシュアワー; reading=ラッシュアワー; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1139190 ラッシュアワー/ラッシュアワー sense(s) 1 support \"Hauptverkehrszeit, Rushhour\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1139190",
+            "spelling": "ラッシュアワー",
+            "reading": "ラッシュアワー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rush hour"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "らっしゅあわー|らっしゅあわー",
+          "referenceIndex": 0,
+          "referenceHash": "f20e5692c47a9ec52d930366e1207eb10e9e5fc1763dd93da39aa1b4b16cb6a8"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Hauptverkehrszeit, Rushhour\" matches JMdict 1139190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Crowded trains.",
+          "Avoiding peak time."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1139190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ラッシュアワー / ラッシュアワー; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ラッシュアワー / ラッシュアワー",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add ラッシュアワー【ラッシュアワー】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1139190 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "b293701b720ac12256ee16d3124e40953d103f058df315143b36d8ce3ec1ece0",
+        "approvalHash": "04cd1e84f519c56778cf69330e3b99ecf26a9a30a271128ba506b25cd44b44d0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "ラッシュアワー【ラッシュアワー】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1139190 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch unknown (no exact row); level N2 reasonable.",
+        "contentHash": "b293701b720ac12256ee16d3124e40953d103f058df315143b36d8ce3ec1ece0",
+        "approvalHash": "04cd1e84f519c56778cf69330e3b99ecf26a9a30a271128ba506b25cd44b44d0"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ranchi",
+      "revisionId": "037-add-ranchi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ランチ",
+        "reading": "ランチ",
+        "romaji": "ranchi",
+        "meaning": "Mittagessen; Mittagsmenü",
+        "type": "Nomen",
+        "category": "Essen",
+        "level": "N2",
+        "notes": "Mittagessen, besonders im Restaurant: ランチメニュー, 日替わりランチ (Tagesmenü). Neutral: 昼ご飯.",
+        "examples": [
+          {
+            "japanese": "会社の近くの店でランチを食べた。",
+            "romaji": "Kaisha no chikaku no mise de ranchi o tabeta.",
+            "german": "Ich habe in einem Lokal in der Nähe der Firma zu Mittag gegessen."
+          },
+          {
+            "japanese": "この店のランチは千円で、コーヒー付きだ。",
+            "romaji": "Kono mise no ranchi wa sen'en de, koohii tsuki da.",
+            "german": "Das Mittagsmenü in diesem Lokal kostet tausend Yen, Kaffee inklusive."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277958646",
+            "patterns": [
+              1
+            ],
+            "finding": "ランチ / ランチ; 名詞/普通名詞/一般/*; *; *; lemma ランチ-lunch; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ランチ",
+              "reading": "ランチ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ランチ as \"Mittagessen; Mittagsmenü\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ランチ【ランチ】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140100; spelling=ランチ; reading=ランチ; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1140100 ランチ/ランチ sense(s) 1,2 support \"Mittagessen; Mittagsmenü\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1140100",
+            "spelling": "ランチ",
+            "reading": "ランチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(Western-style) single-plate lunch set",
+                  "plate lunch",
+                  "lunch set"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "らんち|らんち",
+          "referenceIndex": 0,
+          "referenceHash": "560cfd720875c6294343af3e2ab7e6f551d2372d6f948cfcdd6214dc5a9f9a79"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Mittagessen; Mittagsmenü\" matches JMdict 1140100 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Eating out at lunch.",
+          "Set lunch (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1140100; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277958646 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277958646",
+            "patterns": [
+              1
+            ],
+            "finding": "ランチ / ランチ; 名詞/普通名詞/一般/*; *; *; lemma ランチ-lunch; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ランチ",
+              "reading": "ランチ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ランチ as \"Mittagessen; Mittagsmenü\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add ランチ【ランチ】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1140100 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880",
+        "approvalHash": "2a3a2b0213f36318f24972cf6a5fce98d33e15a2be2e70f3c391f90be662228b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "ランチ【ランチ】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1140100 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 1 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880",
+        "approvalHash": "2a3a2b0213f36318f24972cf6a5fce98d33e15a2be2e70f3c391f90be662228b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ranningu",
+      "revisionId": "037-add-ranningu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ランニング",
+        "reading": "ランニング",
+        "romaji": "ranningu",
+        "meaning": "Laufen, Joggen; Unterhemd",
+        "type": "Nomen",
+        "category": "Sport",
+        "level": "N2",
+        "notes": "Laufen als Sport: 毎朝ランニングをする. Auch kurz für ärmelloses Unterhemd (ランニングシャツ).",
+        "examples": [
+          {
+            "japanese": "毎朝、公園でランニングをしている。",
+            "romaji": "Maiasa, kouen de ranningu o shite iru.",
+            "german": "Ich gehe jeden Morgen im Park joggen."
+          },
+          {
+            "japanese": "暑いので、ランニング一枚で寝た。",
+            "romaji": "Atsui node, ranningu ichimai de neta.",
+            "german": "Weil es heiß war, habe ich nur im Unterhemd geschlafen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277982317",
+            "patterns": [
+              0
+            ],
+            "finding": "ランニング / ランニング; 名詞/普通名詞/一般/*; *; *; lemma ランニング-running; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ランニング",
+              "reading": "ランニング",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ランニング as \"Laufen, Joggen; Unterhemd\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add ランニング【ランニング】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140270; spelling=ランニング; reading=ランニング; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1140270 ランニング/ランニング sense(s) 1,2 support \"Laufen, Joggen; Unterhemd\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1140270",
+            "spelling": "ランニング",
+            "reading": "ランニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "running"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "tank top (worn as an undergarment or sportswear)",
+                  "vest",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "らんにんぐ|らんにんぐ",
+          "referenceIndex": 0,
+          "referenceHash": "1202b578c98e17688c8a40ccc3b4c54af9116201b22873aa221bb957cf4f0731"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Laufen, Joggen; Unterhemd\" matches JMdict 1140270 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Morning jogging.",
+          "Tank top (sense 2)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1140270; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277982317 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277982317",
+            "patterns": [
+              0
+            ],
+            "finding": "ランニング / ランニング; 名詞/普通名詞/一般/*; *; *; lemma ランニング-running; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ランニング",
+              "reading": "ランニング",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ランニング as \"Laufen, Joggen; Unterhemd\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add ランニング【ランニング】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1140270 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "7624d93f338cbb3e9a0e743b30e07e311f34a13990feadf4076d720fa174c07c",
+        "approvalHash": "264e9ce6c2919d3074d74a4f0fdfb17cc72a069f9ed9f719eb286c1a59d45361"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "ランニング【ランニング】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1140270 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 0 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "7624d93f338cbb3e9a0e743b30e07e311f34a13990feadf4076d720fa174c07c",
+        "approvalHash": "264e9ce6c2919d3074d74a4f0fdfb17cc72a069f9ed9f719eb286c1a59d45361"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:rika",
+      "revisionId": "037-add-rika",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "理科",
+        "reading": "りか",
+        "romaji": "rika",
+        "meaning": "Naturwissenschaften (Schulfach)",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Schulfach, das Physik, Chemie, Biologie und Geowissenschaften (地学) zusammenfasst. Die naturwissenschaftliche Fachrichtung an Oberschule und Universität heißt 理系 (Gegenteil: 文系).",
+        "examples": [
+          {
+            "japanese": "理科の授業で植物の観察をした。",
+            "romaji": "Rika no jugyou de shokubutsu no kansatsu o shita.",
+            "german": "Im naturwissenschaftlichen Unterricht haben wir Pflanzen beobachtet."
+          },
+          {
+            "japanese": "弟は理科が得意だ。",
+            "romaji": "Otouto wa rika ga tokui da.",
+            "german": "Mein jüngerer Bruder ist gut in Naturwissenschaften."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278099551",
+            "patterns": [
+              1
+            ],
+            "finding": "理科 / リカ; 名詞/普通名詞/一般/*; *; *; lemma 理科; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "理科",
+              "reading": "りか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "理科 as \"Naturwissenschaften (Schulfach)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 理科【りか】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1549900; spelling=理科; reading=りか; senses=1,3; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1549900 理科/りか sense(s) 1,3 support \"Naturwissenschaften (Schulfach)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1549900",
+            "spelling": "理科",
+            "reading": "りか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (natural sciences and related fields, incl. mathematics, engineering, medicine, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (as a school subject)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "理科|りか",
+          "referenceIndex": 0,
+          "referenceHash": "eec7b57fd1af466334984c08de275f496545468458c1669f6d9cfec6552bd57c"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Naturwissenschaften (Schulfach)\" matches JMdict 1549900 sense(s) 1,3.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Science class.",
+          "Favourite subject."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1549900; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@278099551 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278099551",
+            "patterns": [
+              1
+            ],
+            "finding": "理科 / リカ; 名詞/普通名詞/一般/*; *; *; lemma 理科; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "理科",
+              "reading": "りか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "理科 as \"Naturwissenschaften (Schulfach)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 理科【りか】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1549900 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a8b56e5b78987cd01ff921c801a1d134d126c74a7034fb17888a9ed9220371db",
+        "approvalHash": "fe5298b87bb9a87b65def6906f08492b0a380ed392529da15f1e1bacb7589bb5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "Round-1 fix verified: note now names Geowissenschaften (地学) instead of Erdkunde and describes 理系/文系 correctly; examples, meaning (JMdict sense 3) and pitch 1 exact row correct.",
+        "contentHash": "a8b56e5b78987cd01ff921c801a1d134d126c74a7034fb17888a9ed9220371db",
+        "approvalHash": "fe5298b87bb9a87b65def6906f08492b0a380ed392529da15f1e1bacb7589bb5"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:rittoru",
+      "revisionId": "037-add-rittoru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "リットル",
+        "reading": "リットル",
+        "romaji": "rittoru",
+        "meaning": "Liter",
+        "type": "Nomen",
+        "category": "Zahlen",
+        "level": "N2",
+        "notes": "Maßeinheit für Flüssigkeiten (L). Zählweise siehe Zählwort リットル.",
+        "examples": [
+          {
+            "japanese": "このペットボトルには二リットル入る。",
+            "romaji": "Kono pettobotoru ni wa ni rittoru hairu.",
+            "german": "In diese Plastikflasche passen zwei Liter."
+          },
+          {
+            "japanese": "お風呂には何リットルのお湯が入りますか。",
+            "romaji": "Ofuro ni wa nan rittoru no oyu ga hairimasu ka.",
+            "german": "Wie viele Liter Wasser passen in die Badewanne?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278376377",
+            "patterns": [
+              0
+            ],
+            "finding": "リットル / リットル; 名詞/普通名詞/助数詞可能/*; *; *; lemma リットル-litre; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リットル",
+              "reading": "リットル",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "リットル as \"Liter\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add リットル【リットル】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1141870; spelling=リットル; reading=リットル; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1141870 リットル/リットル sense(s) 1 support \"Liter\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1141870",
+            "spelling": "リットル",
+            "reading": "リットル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "litre",
+                  "liter"
+                ],
+                "notes": [
+                  "also written as 立"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "りっとる|りっとる",
+          "referenceIndex": 0,
+          "referenceHash": "ee93773e86b75705897a77365f28f68126a196abac2176335897d7e8e5b326d2"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Liter\" matches JMdict 1141870 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Bottle size.",
+          "Bathtub volume."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1141870; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@278376377 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278376377",
+            "patterns": [
+              0
+            ],
+            "finding": "リットル / リットル; 名詞/普通名詞/助数詞可能/*; *; *; lemma リットル-litre; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リットル",
+              "reading": "リットル",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "リットル as \"Liter\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add リットル【リットル】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1141870 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "09b5f779667e98a233ad237680c1d2245f9b9a87a7cea8bc7dc614a272eb499e",
+        "approvalHash": "c936ad7adba87cd960a324e66c148999332ba6acec252070be629b7f11e9211a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "Note reference \"Zählwort リットル\" is valid - counters-data.js has a リットル counter. Examples fine, pitch 0.",
+        "contentHash": "09b5f779667e98a233ad237680c1d2245f9b9a87a7cea8bc7dc614a272eb499e",
+        "approvalHash": "c936ad7adba87cd960a324e66c148999332ba6acec252070be629b7f11e9211a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ripooto",
+      "revisionId": "037-add-ripooto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "リポート",
+        "reading": "リポート",
+        "romaji": "ripooto",
+        "meaning": "Bericht, Referat; Reportage",
+        "type": "Nomen",
+        "category": "Bildung",
+        "level": "N2",
+        "notes": "Andere Schreibung von レポート; besonders für Reportagen im Fernsehen üblich (現地からのリポート).",
+        "examples": [
+          {
+            "japanese": "記者が現地からリポートしている。",
+            "romaji": "Kisha ga genchi kara ripooto shite iru.",
+            "german": "Ein Reporter berichtet live vom Ort des Geschehens."
+          },
+          {
+            "japanese": "来週までに実験のリポートを出してください。",
+            "romaji": "Raishuu made ni jikken no ripooto o dashite kudasai.",
+            "german": "Geben Sie den Versuchsbericht bis nächste Woche ab."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280015595",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "リポート / リポート; 名詞/普通名詞/サ変可能/*; *; *; lemma レポート-report; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リポート",
+              "reading": "リポート",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "リポート as \"Bericht, Referat; Reportage\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2. Editorial N2.",
+      "rationale": "Add リポート【リポート】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1145990; spelling=リポート; reading=リポート; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1145990 リポート/リポート sense(s) 1,2 support \"Bericht, Referat; Reportage\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1145990",
+            "spelling": "リポート",
+            "reading": "リポート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "report",
+                  "paper"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reportage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "りぽーと|りぽーと",
+          "referenceIndex": 0,
+          "referenceHash": "8c38206e4e60ce07cd62a4182d550b0380e7bdf292b6f3aa445861872f20feab"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Bericht, Referat; Reportage\" matches JMdict 1145990 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Live news report (sense 2).",
+          "Lab report."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1145990; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@280015595 attest 2,0; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280015595",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "リポート / リポート; 名詞/普通名詞/サ変可能/*; *; *; lemma レポート-report; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リポート",
+              "reading": "リポート",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "リポート as \"Bericht, Referat; Reportage\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add リポート【リポート】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1145990 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "900a53df1d91cd2dbe3caff4b3af5f0bbd6c4d822af6055c666c13ac8dad408b",
+        "approvalHash": "d7cc3290578373e6a28d491bf992e3e73710d491852840b3d03a44801408fc82"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "Near-duplicate of existing レポート (N4) considered: JMdict keeps リポート as its own entry (1145990), reading differs so aliasing is impossible, and the note ties it to レポート and to broadcast reportage. pitch 2/0 from row whose orth is リポート (lemma レポート) - consistent with the note treating it as the same lexeme. Examples fine.",
+        "contentHash": "900a53df1d91cd2dbe3caff4b3af5f0bbd6c4d822af6055c666c13ac8dad408b",
+        "approvalHash": "d7cc3290578373e6a28d491bf992e3e73710d491852840b3d03a44801408fc82"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ribon",
+      "revisionId": "037-add-ribon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "リボン",
+        "reading": "リボン",
+        "romaji": "ribon",
+        "meaning": "Schleife, Band",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Band für Geschenke oder Haare: プレゼントにリボンをかける.",
+        "examples": [
+          {
+            "japanese": "プレゼントに赤いリボンをかけた。",
+            "romaji": "Purezento ni akai ribon o kaketa.",
+            "german": "Ich habe ein rotes Band um das Geschenk gebunden."
+          },
+          {
+            "japanese": "娘は髪にリボンをつけている。",
+            "romaji": "Musume wa kami ni ribon o tsukete iru.",
+            "german": "Meine Tochter trägt eine Schleife im Haar."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278573567",
+            "patterns": [
+              1
+            ],
+            "finding": "リボン / リボン; 名詞/普通名詞/一般/*; *; *; lemma リボン-ribbon; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リボン",
+              "reading": "リボン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "リボン as \"Schleife, Band\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add リボン【リボン】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1142880; spelling=リボン; reading=リボン; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1142880 リボン/リボン sense(s) 1 support \"Schleife, Band\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1142880",
+            "spelling": "リボン",
+            "reading": "リボン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ribbon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "りぼん|りぼん",
+          "referenceIndex": 0,
+          "referenceHash": "5c82b2788c9e4da5f9eb091176139b92dd06accffb7bb86b001d0297078d8ca0"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Schleife, Band\" matches JMdict 1142880 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Wrapping a present.",
+          "Hair ribbon."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1142880; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@278573567 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278573567",
+            "patterns": [
+              1
+            ],
+            "finding": "リボン / リボン; 名詞/普通名詞/一般/*; *; *; lemma リボン-ribbon; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リボン",
+              "reading": "リボン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "リボン as \"Schleife, Band\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add リボン【リボン】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1142880 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "824a26ca719e8bae381f6f79863f9f30cd23745d54fe7740f0161c0bcf54ac70",
+        "approvalHash": "c00199d248468501d2ee71749ed40335a0b0e0f9e5ecbcb15c2b9ff60f842a63"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "リボン【リボン】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1142880 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 1 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "824a26ca719e8bae381f6f79863f9f30cd23745d54fe7740f0161c0bcf54ac70",
+        "approvalHash": "c00199d248468501d2ee71749ed40335a0b0e0f9e5ecbcb15c2b9ff60f842a63"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ryou-dorm",
+      "revisionId": "037-add-ryou-dorm",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "寮",
+        "reading": "りょう",
+        "romaji": "ryou",
+        "meaning": "Wohnheim",
+        "type": "Nomen",
+        "category": "Wohnen",
+        "level": "N2",
+        "notes": "Wohnheim für Studierende oder Angestellte: 学生寮, 社員寮. Gleich klingend: 量, 両.",
+        "examples": [
+          {
+            "japanese": "大学の寮に住んでいる。",
+            "romaji": "Daigaku no ryou ni sunde iru.",
+            "german": "Ich wohne im Studentenwohnheim."
+          },
+          {
+            "japanese": "この会社には独身者のための寮がある。",
+            "romaji": "Kono kaisha ni wa dokushinsha no tame no ryou ga aru.",
+            "german": "Diese Firma hat ein Wohnheim für Unverheiratete."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278846298",
+            "patterns": [
+              1
+            ],
+            "finding": "寮 / リョウ; 名詞/普通名詞/一般/*; *; *; lemma 寮; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寮",
+              "reading": "りょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寮 as \"Wohnheim\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 寮【りょう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554230; spelling=寮; reading=りょう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1554230 寮/りょう sense(s) 1 support \"Wohnheim\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1554230",
+            "spelling": "寮",
+            "reading": "りょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hostel",
+                  "dormitory"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "寮|りょう",
+          "referenceIndex": 0,
+          "referenceHash": "f17e7d4a018ed11f4ce7568857cd8419cfa1236b24c5eb88dfcf75c3fc730f87"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Wohnheim\" matches JMdict 1554230 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Student dormitory.",
+          "Company dormitory."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1554230; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@278846298 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278846298",
+            "patterns": [
+              1
+            ],
+            "finding": "寮 / リョウ; 名詞/普通名詞/一般/*; *; *; lemma 寮; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "寮",
+              "reading": "りょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "寮 as \"Wohnheim\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 寮【りょう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1554230 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b92b8a6b78512ee47927c652497b865a30434b4531dd7982cf8781a57cd10271",
+        "approvalHash": "9fb56716ebc414a2e0e477c9b3d2c4160659c55500d5c191f4d176a8cea10d15"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "寮【りょう】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1554230 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 1 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "b92b8a6b78512ee47927c652497b865a30434b4531dd7982cf8781a57cd10271",
+        "approvalHash": "9fb56716ebc414a2e0e477c9b3d2c4160659c55500d5c191f4d176a8cea10d15"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ryoushuu",
+      "revisionId": "037-add-ryoushuu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "領収",
+        "reading": "りょうしゅう",
+        "romaji": "ryoushuu",
+        "meaning": "Empfang (von Geld), Quittierung",
+        "type": "Nomen",
+        "category": "Finanzen",
+        "level": "N2",
+        "notes": "Förmlich, vor allem in 領収書 (Quittung) und als 領収する (Zahlung erhalten). Auf Quittungen: 上記正に領収いたしました.",
+        "examples": [
+          {
+            "japanese": "代金を確かに領収しました。",
+            "romaji": "Daikin o tashika ni ryoushuu shimashita.",
+            "german": "Wir bestätigen den Erhalt des Betrags."
+          },
+          {
+            "japanese": "領収の印をもらうのを忘れた。",
+            "romaji": "Ryoushuu no in o morau no o wasureta.",
+            "german": "Ich habe vergessen, mir den Erhalt abstempeln zu lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278930446",
+            "patterns": [
+              0
+            ],
+            "finding": "領収 / リョウシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 領収; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "領収",
+              "reading": "りょうしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "領収 as \"Empfang (von Geld), Quittierung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add 領収【りょうしゅう】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554750; spelling=領収; reading=りょうしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1554750 領収/りょうしゅう sense(s) 1 support \"Empfang (von Geld), Quittierung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1554750",
+            "spelling": "領収",
+            "reading": "りょうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "receipt (of money)",
+                  "receiving"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "領収|りょうしゅう",
+          "referenceIndex": 0,
+          "referenceHash": "b00ff932cecc04c9289d0af1ad660b96bc69f386a3eabbe7bcf8eb6352784c9a"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Empfang (von Geld), Quittierung\" matches JMdict 1554750 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Formal confirmation of payment.",
+          "Receipt stamp."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1554750; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, JLPT Sensei N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@278930446 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278930446",
+            "patterns": [
+              0
+            ],
+            "finding": "領収 / リョウシュウ; 名詞/普通名詞/サ変可能/*; *; *; lemma 領収; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "領収",
+              "reading": "りょうしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "領収 as \"Empfang (von Geld), Quittierung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add 領収【りょうしゅう】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1554750 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "6ac513c120b6969f2fa754de8d011cc6e17d554678357c057ad9487a046dca31",
+        "approvalHash": "ac117f5de2ed2e9e29e3d0428120cf04595a930d15cdaeca56788291978496dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "領収【りょうしゅう】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1554750 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch 0 from exact UniDic row; level N2 reasonable.",
+        "contentHash": "6ac513c120b6969f2fa754de8d011cc6e17d554678357c057ad9487a046dca31",
+        "approvalHash": "ac117f5de2ed2e9e29e3d0428120cf04595a930d15cdaeca56788291978496dd"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:reinkooto",
+      "revisionId": "037-add-reinkooto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "レインコート",
+        "reading": "レインコート",
+        "romaji": "reinkooto",
+        "meaning": "Regenmantel",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N2",
+        "notes": "Mantel gegen Regen; auch 雨がっぱ (Regenumhang) oder kurz カッパ.",
+        "examples": [
+          {
+            "japanese": "雨の日は自転車に乗るとき、レインコートを着る。",
+            "romaji": "Ame no hi wa jitensha ni noru toki, reinkooto o kiru.",
+            "german": "An Regentagen ziehe ich beim Radfahren einen Regenmantel an."
+          },
+          {
+            "japanese": "子どもに黄色いレインコートを買った。",
+            "romaji": "Kodomo ni kiiroi reinkooto o katta.",
+            "german": "Ich habe dem Kind einen gelben Regenmantel gekauft."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 037); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2.",
+      "rationale": "Add レインコート【レインコート】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1144700; spelling=レインコート; reading=レインコート; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1144700 レインコート/レインコート sense(s) 1 support \"Regenmantel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1144700",
+            "spelling": "レインコート",
+            "reading": "レインコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "raincoat",
+                  "mackintosh",
+                  "macintosh",
+                  "trench coat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "れいんこーと|れいんこーと",
+          "referenceIndex": 0,
+          "referenceHash": "7ac9d0f6c46ef7227fe779eec64cf20e3d0576b5c8eb67aff82359a5bc7cc382"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-037-editor",
+        "meaning": "\"Regenmantel\" matches JMdict 1144700 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Cycling in the rain.",
+          "Buying rainwear."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1144700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N2, Nihongo Master N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for レインコート / レインコート; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup レインコート / レインコート",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: Add レインコート【レインコート】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1144700 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "94c2a2e42b2a40432fae56c5d64fa7141c314be84df8cca047266fbab53810b9",
+        "approvalHash": "f61f99abfba316cfa443a27f4a14089c23b585a257fc0f0581551466741ca09b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "レインコート【レインコート】: new headword (check.cjs \"new\"), meaning matches selected JMdict 1144700 senses, both examples use the headword in the taught sense in distinct contexts, romaji and German checked; pitch unknown (no exact row); level N2 reasonable.",
+        "contentHash": "94c2a2e42b2a40432fae56c5d64fa7141c314be84df8cca047266fbab53810b9",
+        "approvalHash": "f61f99abfba316cfa443a27f4a14089c23b585a257fc0f0581551466741ca09b"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "呼び出す|よびだす",
+      "referenceIndex": 0,
+      "referenceHash": "5406e6e75450c2fe35d66b6942a3d37557ef41aaaf81f7a07b63b4dbd94ff1e8",
+      "revisionId": "037-candidate-yobidasu-3ad56854-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:yobidasu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:yobidasu": "a546a2c68c892f3d22087c7eb3706ffb74e139d0213a037cfa53688b71f551e5"
+      },
+      "reason": "Reference 呼び出す/よびだす (tanos N2) is the same lexeme as the new entry 呼び出す【よびだす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists 呼び出す/よびだす at N2 (gloss: to summon,to call (e.g. phone))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266350; spelling=呼び出す; reading=よびだす; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1266350 as the reference form.",
+          "selected": {
+            "sequence": "1266350",
+            "spelling": "呼び出す",
+            "reading": "よびだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to call (someone) to (the door, phone, etc.)",
+                  "to tell (someone) to come",
+                  "to call up (on the phone)",
+                  "to summon",
+                  "to page",
+                  "to invoke (e.g. a spirit)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to invoke (e.g. a subroutine)",
+                  "to call",
+                  "to open (e.g. a file)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 呼び出す|よびだす#0 is the same lexeme as vocab-n2:correction:yobidasu; target hash bound to the assembled addition.",
+        "contentHash": "44769979dc0f07d23fe83c7e8a35d8f873be8346fa486efce3c901b440c88cff",
+        "approvalHash": "44769979dc0f07d23fe83c7e8a35d8f873be8346fa486efce3c901b440c88cff"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:yobidasu: publisher row (呼び出す/よびだす at N2 (gloss: to summon,to call (e.g. phone))) is the same lexeme as the target entry.",
+        "contentHash": "44769979dc0f07d23fe83c7e8a35d8f873be8346fa486efce3c901b440c88cff",
+        "approvalHash": "44769979dc0f07d23fe83c7e8a35d8f873be8346fa486efce3c901b440c88cff"
+      }
+    },
+    {
+      "key": "呼び出す|よびだす",
+      "referenceIndex": 1,
+      "referenceHash": "f07262aca192dcd433f8e0da4cc574233bd5be84bbf5a703400104d8c882949b",
+      "revisionId": "037-candidate-yobidasu-3ad56854-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:yobidasu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:yobidasu": "a546a2c68c892f3d22087c7eb3706ffb74e139d0213a037cfa53688b71f551e5"
+      },
+      "reason": "Reference 呼び出す/よびだす (master N2) is the same lexeme as the new entry 呼び出す【よびだす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 呼び出す/よびだす at N2 (gloss: to summon; to call (e.g. phone); to convene)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1266350; spelling=呼び出す; reading=よびだす; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1266350 as the reference form.",
+          "selected": {
+            "sequence": "1266350",
+            "spelling": "呼び出す",
+            "reading": "よびだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to call (someone) to (the door, phone, etc.)",
+                  "to tell (someone) to come",
+                  "to call up (on the phone)",
+                  "to summon",
+                  "to page",
+                  "to invoke (e.g. a spirit)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to invoke (e.g. a subroutine)",
+                  "to call",
+                  "to open (e.g. a file)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 呼び出す|よびだす#1 is the same lexeme as vocab-n2:correction:yobidasu; target hash bound to the assembled addition.",
+        "contentHash": "a80e16ac5d8c6532c02920bf6e2b672d1e35a9a6ff1033aa5f40c9ddf283e728",
+        "approvalHash": "a80e16ac5d8c6532c02920bf6e2b672d1e35a9a6ff1033aa5f40c9ddf283e728"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:yobidasu: publisher row (呼び出す/よびだす at N2 (gloss: to summon; to call (e.g. phone); to convene)) is the same lexeme as the target entry.",
+        "contentHash": "a80e16ac5d8c6532c02920bf6e2b672d1e35a9a6ff1033aa5f40c9ddf283e728",
+        "approvalHash": "a80e16ac5d8c6532c02920bf6e2b672d1e35a9a6ff1033aa5f40c9ddf283e728"
+      }
+    },
+    {
+      "key": "来日|らいにち",
+      "referenceIndex": 0,
+      "referenceHash": "cc730785976160f2bc8905ff4d66428a3eeb8e86cfb1c1c901c5885f27d0be04",
+      "revisionId": "037-candidate-rainichi-648f9cc6-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rainichi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rainichi": "154bbeeddc5f96e7109b85d0bca6ba18d2ac8dc9b1b400910afc689e49dcd214"
+      },
+      "reason": "Reference 来日/らいにち (tanos N2) is the same lexeme as the new entry 来日【らいにち】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists 来日/らいにち at N2 (gloss: arrival in Japan,coming to Japan,visit to Japan)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548200; spelling=来日; reading=らいにち; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1548200 as the reference form.",
+          "selected": {
+            "sequence": "1548200",
+            "spelling": "来日",
+            "reading": "らいにち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "coming to Japan",
+                  "visit to Japan",
+                  "arrival in Japan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 来日|らいにち#0 is the same lexeme as vocab-n2:correction:rainichi; target hash bound to the assembled addition.",
+        "contentHash": "a8dc252c5a5d879a5ac786a740fb1efb0b048d29243a9620034291085f3dc43e",
+        "approvalHash": "a8dc252c5a5d879a5ac786a740fb1efb0b048d29243a9620034291085f3dc43e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rainichi: publisher row (来日/らいにち at N2 (gloss: arrival in Japan,coming to Japan,visit to Japan)) is the same lexeme as the target entry.",
+        "contentHash": "a8dc252c5a5d879a5ac786a740fb1efb0b048d29243a9620034291085f3dc43e",
+        "approvalHash": "a8dc252c5a5d879a5ac786a740fb1efb0b048d29243a9620034291085f3dc43e"
+      }
+    },
+    {
+      "key": "来日|らいにち",
+      "referenceIndex": 1,
+      "referenceHash": "c5b4e6577697f648fd6973003b6af5f7ab147d7c370b1b8eb56604ede610550e",
+      "revisionId": "037-candidate-rainichi-648f9cc6-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rainichi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rainichi": "154bbeeddc5f96e7109b85d0bca6ba18d2ac8dc9b1b400910afc689e49dcd214"
+      },
+      "reason": "Reference 来日/らいにち (master N2) is the same lexeme as the new entry 来日【らいにち】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists 来日/らいにち at N2 (gloss: arrival in Japan; coming to Japan; visit to Japan)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1548200; spelling=来日; reading=らいにち; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1548200 as the reference form.",
+          "selected": {
+            "sequence": "1548200",
+            "spelling": "来日",
+            "reading": "らいにち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "coming to Japan",
+                  "visit to Japan",
+                  "arrival in Japan"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 来日|らいにち#1 is the same lexeme as vocab-n2:correction:rainichi; target hash bound to the assembled addition.",
+        "contentHash": "e013af3a676293356112180b14f3469d433e94a15bbdffb169ec22344a2e8770",
+        "approvalHash": "e013af3a676293356112180b14f3469d433e94a15bbdffb169ec22344a2e8770"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rainichi: publisher row (来日/らいにち at N2 (gloss: arrival in Japan; coming to Japan; visit to Japan)) is the same lexeme as the target entry.",
+        "contentHash": "e013af3a676293356112180b14f3469d433e94a15bbdffb169ec22344a2e8770",
+        "approvalHash": "e013af3a676293356112180b14f3469d433e94a15bbdffb169ec22344a2e8770"
+      }
+    },
+    {
+      "key": "らっしゅあわー|らっしゅあわー",
+      "referenceIndex": 0,
+      "referenceHash": "f20e5692c47a9ec52d930366e1207eb10e9e5fc1763dd93da39aa1b4b16cb6a8",
+      "revisionId": "037-candidate-rasshuawaa-a8eca6a8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rasshuawaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rasshuawaa": "b293701b720ac12256ee16d3124e40953d103f058df315143b36d8ce3ec1ece0"
+      },
+      "reason": "Reference ラッシュアワー/ラッシュアワー (tanos N2) is the same lexeme as the new entry ラッシュアワー【ラッシュアワー】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists ラッシュアワー/ラッシュアワー at N2 (gloss: rush hour)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1139190; spelling=ラッシュアワー; reading=ラッシュアワー; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1139190 as the reference form.",
+          "selected": {
+            "sequence": "1139190",
+            "spelling": "ラッシュアワー",
+            "reading": "ラッシュアワー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rush hour"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らっしゅあわー|らっしゅあわー#0 is the same lexeme as vocab-n2:correction:rasshuawaa; target hash bound to the assembled addition.",
+        "contentHash": "e8b66a908fa54b764328d1d0b4048fca2a3ed8ae92ea7fb8002fcbe497b2feed",
+        "approvalHash": "e8b66a908fa54b764328d1d0b4048fca2a3ed8ae92ea7fb8002fcbe497b2feed"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rasshuawaa: publisher row (ラッシュアワー/ラッシュアワー at N2 (gloss: rush hour)) is the same lexeme as the target entry.",
+        "contentHash": "e8b66a908fa54b764328d1d0b4048fca2a3ed8ae92ea7fb8002fcbe497b2feed",
+        "approvalHash": "e8b66a908fa54b764328d1d0b4048fca2a3ed8ae92ea7fb8002fcbe497b2feed"
+      }
+    },
+    {
+      "key": "らっしゅあわー|らっしゅあわー",
+      "referenceIndex": 1,
+      "referenceHash": "a75870acdbd9175ced141396cfed9444d966328f1c15b94873af326318bfe884",
+      "revisionId": "037-candidate-rasshuawaa-a8eca6a8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rasshuawaa"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rasshuawaa": "b293701b720ac12256ee16d3124e40953d103f058df315143b36d8ce3ec1ece0"
+      },
+      "reason": "Reference ラッシュアワー/ラッシュアワー (master N2) is the same lexeme as the new entry ラッシュアワー【ラッシュアワー】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ラッシュアワー/ラッシュアワー at N2 (gloss: rush hour; heure de pointe; (n) Stoßzeit)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1139190; spelling=ラッシュアワー; reading=ラッシュアワー; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1139190 as the reference form.",
+          "selected": {
+            "sequence": "1139190",
+            "spelling": "ラッシュアワー",
+            "reading": "ラッシュアワー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rush hour"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らっしゅあわー|らっしゅあわー#1 is the same lexeme as vocab-n2:correction:rasshuawaa; target hash bound to the assembled addition.",
+        "contentHash": "045dff44c5d2f07cb5810d4094963ebcc3e85e78cf72fdd69f55c4284acd7c7e",
+        "approvalHash": "045dff44c5d2f07cb5810d4094963ebcc3e85e78cf72fdd69f55c4284acd7c7e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rasshuawaa: publisher row (ラッシュアワー/ラッシュアワー at N2 (gloss: rush hour; heure de pointe; (n) Stoßzeit)) is the same lexeme as the target entry.",
+        "contentHash": "045dff44c5d2f07cb5810d4094963ebcc3e85e78cf72fdd69f55c4284acd7c7e",
+        "approvalHash": "045dff44c5d2f07cb5810d4094963ebcc3e85e78cf72fdd69f55c4284acd7c7e"
+      }
+    },
+    {
+      "key": "らんち|らんち",
+      "referenceIndex": 0,
+      "referenceHash": "560cfd720875c6294343af3e2ab7e6f551d2372d6f948cfcdd6214dc5a9f9a79",
+      "revisionId": "037-candidate-ranchi-3d9ec39e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ranchi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ranchi": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880"
+      },
+      "reason": "Reference ランチ/ランチ (tanos N2) is the same lexeme as the new entry ランチ【ランチ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists ランチ/ランチ at N2 (gloss: launch,lunch)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140100; spelling=ランチ; reading=ランチ; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1140100 as the reference form.",
+          "selected": {
+            "sequence": "1140100",
+            "spelling": "ランチ",
+            "reading": "ランチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(Western-style) single-plate lunch set",
+                  "plate lunch",
+                  "lunch set"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らんち|らんち#0 is the same lexeme as vocab-n2:correction:ranchi; target hash bound to the assembled addition.",
+        "contentHash": "c0089bc8e169e5245863178970481b63484cf029f3b1cf542b12117e0364e573",
+        "approvalHash": "c0089bc8e169e5245863178970481b63484cf029f3b1cf542b12117e0364e573"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ranchi: publisher row (ランチ/ランチ at N2 (gloss: launch,lunch)) is the same lexeme as the target entry.",
+        "contentHash": "c0089bc8e169e5245863178970481b63484cf029f3b1cf542b12117e0364e573",
+        "approvalHash": "c0089bc8e169e5245863178970481b63484cf029f3b1cf542b12117e0364e573"
+      }
+    },
+    {
+      "key": "らんち|らんち",
+      "referenceIndex": 1,
+      "referenceHash": "8aca8da6cd8124266f36f4f6fc2274e9788a0ea4fa1f5d333ce7c4819a052d19",
+      "revisionId": "037-candidate-ranchi-3d9ec39e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ranchi"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ranchi": "37d388b3806dd5daa20c48c2c9b96eb27fa8be0438c87058e96a7583346e3880"
+      },
+      "reason": "Reference ランチ/ランチ (master N2) is the same lexeme as the new entry ランチ【ランチ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ランチ/ランチ at N2 (gloss: lunch; déjeuner (lunch); lancement)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140100; spelling=ランチ; reading=ランチ; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1140100 as the reference form.",
+          "selected": {
+            "sequence": "1140100",
+            "spelling": "ランチ",
+            "reading": "ランチ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lunch"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(Western-style) single-plate lunch set",
+                  "plate lunch",
+                  "lunch set"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らんち|らんち#1 is the same lexeme as vocab-n2:correction:ranchi; target hash bound to the assembled addition.",
+        "contentHash": "b0a1aa4723a3a37820bb578e3c5e53c2786cde7a073ca3aaeb6b447fc6dcd857",
+        "approvalHash": "b0a1aa4723a3a37820bb578e3c5e53c2786cde7a073ca3aaeb6b447fc6dcd857"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ranchi: publisher row (ランチ/ランチ at N2 (gloss: lunch; déjeuner (lunch); lancement)) is the same lexeme as the target entry.",
+        "contentHash": "b0a1aa4723a3a37820bb578e3c5e53c2786cde7a073ca3aaeb6b447fc6dcd857",
+        "approvalHash": "b0a1aa4723a3a37820bb578e3c5e53c2786cde7a073ca3aaeb6b447fc6dcd857"
+      }
+    },
+    {
+      "key": "らんにんぐ|らんにんぐ",
+      "referenceIndex": 0,
+      "referenceHash": "1202b578c98e17688c8a40ccc3b4c54af9116201b22873aa221bb957cf4f0731",
+      "revisionId": "037-candidate-ranningu-3150c341-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ranningu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ranningu": "7624d93f338cbb3e9a0e743b30e07e311f34a13990feadf4076d720fa174c07c"
+      },
+      "reason": "Reference ランニング/ランニング (tanos N2) is the same lexeme as the new entry ランニング【ランニング】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists ランニング/ランニング at N2 (gloss: (1) running,(2) tank top)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140270; spelling=ランニング; reading=ランニング; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1140270 as the reference form.",
+          "selected": {
+            "sequence": "1140270",
+            "spelling": "ランニング",
+            "reading": "ランニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "running"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "tank top (worn as an undergarment or sportswear)",
+                  "vest",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らんにんぐ|らんにんぐ#0 is the same lexeme as vocab-n2:correction:ranningu; target hash bound to the assembled addition.",
+        "contentHash": "7e6678e90b81c30d65ed7900acc51ffb20aa078d5f76c0771b7217fde91fe5aa",
+        "approvalHash": "7e6678e90b81c30d65ed7900acc51ffb20aa078d5f76c0771b7217fde91fe5aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ranningu: publisher row (ランニング/ランニング at N2 (gloss: (1) running,(2) tank top)) is the same lexeme as the target entry.",
+        "contentHash": "7e6678e90b81c30d65ed7900acc51ffb20aa078d5f76c0771b7217fde91fe5aa",
+        "approvalHash": "7e6678e90b81c30d65ed7900acc51ffb20aa078d5f76c0771b7217fde91fe5aa"
+      }
+    },
+    {
+      "key": "らんにんぐ|らんにんぐ",
+      "referenceIndex": 1,
+      "referenceHash": "1660e8f033557f8354c9ca7f5331f19e5cbb6b34f0b65f02ce9fd2b636894d78",
+      "revisionId": "037-candidate-ranningu-3150c341-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ranningu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ranningu": "7624d93f338cbb3e9a0e743b30e07e311f34a13990feadf4076d720fa174c07c"
+      },
+      "reason": "Reference ランニング/ランニング (master N2) is the same lexeme as the new entry ランニング【ランニング】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists ランニング/ランニング at N2 (gloss: running; course)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1140270; spelling=ランニング; reading=ランニング; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1140270 as the reference form.",
+          "selected": {
+            "sequence": "1140270",
+            "spelling": "ランニング",
+            "reading": "ランニング",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "running"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "tank top (worn as an undergarment or sportswear)",
+                  "vest",
+                  "singlet"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference らんにんぐ|らんにんぐ#1 is the same lexeme as vocab-n2:correction:ranningu; target hash bound to the assembled addition.",
+        "contentHash": "05a1a2db41c0e948c4defa613df74d33a7e141a58004e3a491faff6c3d8abecb",
+        "approvalHash": "05a1a2db41c0e948c4defa613df74d33a7e141a58004e3a491faff6c3d8abecb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ranningu: publisher row (ランニング/ランニング at N2 (gloss: running; course)) is the same lexeme as the target entry.",
+        "contentHash": "05a1a2db41c0e948c4defa613df74d33a7e141a58004e3a491faff6c3d8abecb",
+        "approvalHash": "05a1a2db41c0e948c4defa613df74d33a7e141a58004e3a491faff6c3d8abecb"
+      }
+    },
+    {
+      "key": "理科|りか",
+      "referenceIndex": 0,
+      "referenceHash": "eec7b57fd1af466334984c08de275f496545468458c1669f6d9cfec6552bd57c",
+      "revisionId": "037-candidate-rika-4e3812ed-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rika"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rika": "a8b56e5b78987cd01ff921c801a1d134d126c74a7034fb17888a9ed9220371db"
+      },
+      "reason": "Reference 理科/りか (tanos N2) is the same lexeme as the new entry 理科【りか】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists 理科/りか at N2 (gloss: science)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1549900; spelling=理科; reading=りか; senses=1,3; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1549900 as the reference form.",
+          "selected": {
+            "sequence": "1549900",
+            "spelling": "理科",
+            "reading": "りか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (natural sciences and related fields, incl. mathematics, engineering, medicine, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (as a school subject)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 理科|りか#0 is the same lexeme as vocab-n2:correction:rika; target hash bound to the assembled addition.",
+        "contentHash": "c242b5e8e94d769757f88f3eebca3592bf2ca8f14048b1a505d68624e1f8c9bd",
+        "approvalHash": "c242b5e8e94d769757f88f3eebca3592bf2ca8f14048b1a505d68624e1f8c9bd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rika: publisher row (理科/りか at N2 (gloss: science)) is the same lexeme as the target entry.",
+        "contentHash": "c242b5e8e94d769757f88f3eebca3592bf2ca8f14048b1a505d68624e1f8c9bd",
+        "approvalHash": "c242b5e8e94d769757f88f3eebca3592bf2ca8f14048b1a505d68624e1f8c9bd"
+      }
+    },
+    {
+      "key": "理科|りか",
+      "referenceIndex": 1,
+      "referenceHash": "2ad4071eefed422da39a8ed2a551aa0f1d7530a4c53e2ce85ff4a3b30570aa0c",
+      "revisionId": "037-candidate-rika-4e3812ed-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rika"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rika": "a8b56e5b78987cd01ff921c801a1d134d126c74a7034fb17888a9ed9220371db"
+      },
+      "reason": "Reference 理科/りか (sensei N2) is the same lexeme as the new entry 理科【りか】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 理科/りか at N2 (gloss: science (department; course))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1549900; spelling=理科; reading=りか; senses=1,3; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1549900 as the reference form.",
+          "selected": {
+            "sequence": "1549900",
+            "spelling": "理科",
+            "reading": "りか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (natural sciences and related fields, incl. mathematics, engineering, medicine, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (as a school subject)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 理科|りか#1 is the same lexeme as vocab-n2:correction:rika; target hash bound to the assembled addition.",
+        "contentHash": "b0292c17b59b00419b3ad402f3c86d26ec53c5ea1a62b58af55f5daf20adb37d",
+        "approvalHash": "b0292c17b59b00419b3ad402f3c86d26ec53c5ea1a62b58af55f5daf20adb37d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rika: publisher row (理科/りか at N2 (gloss: science (department; course))) is the same lexeme as the target entry.",
+        "contentHash": "b0292c17b59b00419b3ad402f3c86d26ec53c5ea1a62b58af55f5daf20adb37d",
+        "approvalHash": "b0292c17b59b00419b3ad402f3c86d26ec53c5ea1a62b58af55f5daf20adb37d"
+      }
+    },
+    {
+      "key": "理科|りか",
+      "referenceIndex": 2,
+      "referenceHash": "153e5466bf2b3c29ff298c51e0de72cf998d1805049e07b35146f74aacfa45e4",
+      "revisionId": "037-candidate-rika-4e3812ed-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rika"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rika": "a8b56e5b78987cd01ff921c801a1d134d126c74a7034fb17888a9ed9220371db"
+      },
+      "reason": "Reference 理科/りか (master N2) is the same lexeme as the new entry 理科【りか】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 理科/りか at N2 (gloss: science; science; (n) Naturwissenschaft)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1549900; spelling=理科; reading=りか; senses=1,3; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1549900 as the reference form.",
+          "selected": {
+            "sequence": "1549900",
+            "spelling": "理科",
+            "reading": "りか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (natural sciences and related fields, incl. mathematics, engineering, medicine, etc.)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "science (as a school subject)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 理科|りか#2 is the same lexeme as vocab-n2:correction:rika; target hash bound to the assembled addition.",
+        "contentHash": "2ef504649f404638d86a3881de829ea75159666b3c01b394698be92ca525bf76",
+        "approvalHash": "2ef504649f404638d86a3881de829ea75159666b3c01b394698be92ca525bf76"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rika: publisher row (理科/りか at N2 (gloss: science; science; (n) Naturwissenschaft)) is the same lexeme as the target entry.",
+        "contentHash": "2ef504649f404638d86a3881de829ea75159666b3c01b394698be92ca525bf76",
+        "approvalHash": "2ef504649f404638d86a3881de829ea75159666b3c01b394698be92ca525bf76"
+      }
+    },
+    {
+      "key": "りっとる|りっとる",
+      "referenceIndex": 0,
+      "referenceHash": "ee93773e86b75705897a77365f28f68126a196abac2176335897d7e8e5b326d2",
+      "revisionId": "037-candidate-rittoru-b4b6f53c-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rittoru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rittoru": "09b5f779667e98a233ad237680c1d2245f9b9a87a7cea8bc7dc614a272eb499e"
+      },
+      "reason": "Reference リットル/リットル (tanos N2) is the same lexeme as the new entry リットル【リットル】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists リットル/リットル at N2 (gloss: litre)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1141870; spelling=リットル; reading=リットル; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1141870 as the reference form.",
+          "selected": {
+            "sequence": "1141870",
+            "spelling": "リットル",
+            "reading": "リットル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "litre",
+                  "liter"
+                ],
+                "notes": [
+                  "also written as 立"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference りっとる|りっとる#0 is the same lexeme as vocab-n2:correction:rittoru; target hash bound to the assembled addition.",
+        "contentHash": "e6f5d03ef2bf659c9a03657f48beac967469fcc1600644b8058405f630740a4d",
+        "approvalHash": "e6f5d03ef2bf659c9a03657f48beac967469fcc1600644b8058405f630740a4d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rittoru: publisher row (リットル/リットル at N2 (gloss: litre)) is the same lexeme as the target entry.",
+        "contentHash": "e6f5d03ef2bf659c9a03657f48beac967469fcc1600644b8058405f630740a4d",
+        "approvalHash": "e6f5d03ef2bf659c9a03657f48beac967469fcc1600644b8058405f630740a4d"
+      }
+    },
+    {
+      "key": "りっとる|りっとる",
+      "referenceIndex": 1,
+      "referenceHash": "7b459bbd777e74859fef057f7b2cbef7ffb90087512e6ac4a29d0ed41e6de45f",
+      "revisionId": "037-candidate-rittoru-b4b6f53c-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:rittoru"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:rittoru": "09b5f779667e98a233ad237680c1d2245f9b9a87a7cea8bc7dc614a272eb499e"
+      },
+      "reason": "Reference リットル/リットル (master N2) is the same lexeme as the new entry リットル【リットル】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "Nihongo Master lists リットル/リットル at N2 (gloss: litre; litre; литр)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1141870; spelling=リットル; reading=リットル; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1141870 as the reference form.",
+          "selected": {
+            "sequence": "1141870",
+            "spelling": "リットル",
+            "reading": "リットル",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "litre",
+                  "liter"
+                ],
+                "notes": [
+                  "also written as 立"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference りっとる|りっとる#1 is the same lexeme as vocab-n2:correction:rittoru; target hash bound to the assembled addition.",
+        "contentHash": "91def25ceb35875fbe1f1852ff436ecbb1d8ab7c7f4d37e6d7e9a24cf09da823",
+        "approvalHash": "91def25ceb35875fbe1f1852ff436ecbb1d8ab7c7f4d37e6d7e9a24cf09da823"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:rittoru: publisher row (リットル/リットル at N2 (gloss: litre; litre; литр)) is the same lexeme as the target entry.",
+        "contentHash": "91def25ceb35875fbe1f1852ff436ecbb1d8ab7c7f4d37e6d7e9a24cf09da823",
+        "approvalHash": "91def25ceb35875fbe1f1852ff436ecbb1d8ab7c7f4d37e6d7e9a24cf09da823"
+      }
+    },
+    {
+      "key": "りぽーと|りぽーと",
+      "referenceIndex": 0,
+      "referenceHash": "8c38206e4e60ce07cd62a4182d550b0380e7bdf292b6f3aa445861872f20feab",
+      "revisionId": "037-candidate-ripooto-3910e8ad-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ripooto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ripooto": "900a53df1d91cd2dbe3caff4b3af5f0bbd6c4d822af6055c666c13ac8dad408b"
+      },
+      "reason": "Reference リポート/リポート (tanos N2) is the same lexeme as the new entry リポート【リポート】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=92",
+          "finding": "tanos lists リポート/リポート at N2 (gloss: report,paper)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1145990; spelling=リポート; reading=リポート; senses=1,2; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1145990 as the reference form.",
+          "selected": {
+            "sequence": "1145990",
+            "spelling": "リポート",
+            "reading": "リポート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "report",
+                  "paper"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reportage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference りぽーと|りぽーと#0 is the same lexeme as vocab-n2:correction:ripooto; target hash bound to the assembled addition.",
+        "contentHash": "15b303542e2d2acf8d4b0e5a912e51fe84d82b80189309af89b204835b4a505d",
+        "approvalHash": "15b303542e2d2acf8d4b0e5a912e51fe84d82b80189309af89b204835b4a505d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ripooto: publisher row (リポート/リポート at N2 (gloss: report,paper)) is the same lexeme as the target entry.",
+        "contentHash": "15b303542e2d2acf8d4b0e5a912e51fe84d82b80189309af89b204835b4a505d",
+        "approvalHash": "15b303542e2d2acf8d4b0e5a912e51fe84d82b80189309af89b204835b4a505d"
+      }
+    },
+    {
+      "key": "りぼん|りぼん",
+      "referenceIndex": 0,
+      "referenceHash": "5c82b2788c9e4da5f9eb091176139b92dd06accffb7bb86b001d0297078d8ca0",
+      "revisionId": "037-candidate-ribon-5f1c621e-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ribon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ribon": "824a26ca719e8bae381f6f79863f9f30cd23745d54fe7740f0161c0bcf54ac70"
+      },
+      "reason": "Reference リボン/リボン (tanos N2) is the same lexeme as the new entry リボン【リボン】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=91",
+          "finding": "tanos lists リボン/リボン at N2 (gloss: ribbon)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1142880; spelling=リボン; reading=リボン; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1142880 as the reference form.",
+          "selected": {
+            "sequence": "1142880",
+            "spelling": "リボン",
+            "reading": "リボン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ribbon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference りぼん|りぼん#0 is the same lexeme as vocab-n2:correction:ribon; target hash bound to the assembled addition.",
+        "contentHash": "a59abe4ba423480b59d2d1c6413f43f6225edc678388793458a2b693d5713d67",
+        "approvalHash": "a59abe4ba423480b59d2d1c6413f43f6225edc678388793458a2b693d5713d67"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ribon: publisher row (リボン/リボン at N2 (gloss: ribbon)) is the same lexeme as the target entry.",
+        "contentHash": "a59abe4ba423480b59d2d1c6413f43f6225edc678388793458a2b693d5713d67",
+        "approvalHash": "a59abe4ba423480b59d2d1c6413f43f6225edc678388793458a2b693d5713d67"
+      }
+    },
+    {
+      "key": "りぼん|りぼん",
+      "referenceIndex": 1,
+      "referenceHash": "ae2b815387ea5bb47fa719ae700159b0523e847d91174d861e7e805e041da80d",
+      "revisionId": "037-candidate-ribon-5f1c621e-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ribon"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ribon": "824a26ca719e8bae381f6f79863f9f30cd23745d54fe7740f0161c0bcf54ac70"
+      },
+      "reason": "Reference リボン/リボン (master N2) is the same lexeme as the new entry リボン【リボン】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists リボン/リボン at N2 (gloss: ribbon; ruban; (n) Band)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1142880; spelling=リボン; reading=リボン; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1142880 as the reference form.",
+          "selected": {
+            "sequence": "1142880",
+            "spelling": "リボン",
+            "reading": "リボン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ribbon"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference りぼん|りぼん#1 is the same lexeme as vocab-n2:correction:ribon; target hash bound to the assembled addition.",
+        "contentHash": "c85dd30125137b527c2f1604852a007c89007197083d463ed8a454a1bdc8e627",
+        "approvalHash": "c85dd30125137b527c2f1604852a007c89007197083d463ed8a454a1bdc8e627"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ribon: publisher row (リボン/リボン at N2 (gloss: ribbon; ruban; (n) Band)) is the same lexeme as the target entry.",
+        "contentHash": "c85dd30125137b527c2f1604852a007c89007197083d463ed8a454a1bdc8e627",
+        "approvalHash": "c85dd30125137b527c2f1604852a007c89007197083d463ed8a454a1bdc8e627"
+      }
+    },
+    {
+      "key": "寮|りょう",
+      "referenceIndex": 0,
+      "referenceHash": "f17e7d4a018ed11f4ce7568857cd8419cfa1236b24c5eb88dfcf75c3fc730f87",
+      "revisionId": "037-candidate-ryou-dorm-2196eeec-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ryou-dorm"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryou-dorm": "b92b8a6b78512ee47927c652497b865a30434b4531dd7982cf8781a57cd10271"
+      },
+      "reason": "Reference 寮/りょう (tanos N2) is the same lexeme as the new entry 寮【りょう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=92",
+          "finding": "tanos lists 寮/りょう at N2 (gloss: hostel,dormitory)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554230; spelling=寮; reading=りょう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1554230 as the reference form.",
+          "selected": {
+            "sequence": "1554230",
+            "spelling": "寮",
+            "reading": "りょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hostel",
+                  "dormitory"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 寮|りょう#0 is the same lexeme as vocab-n2:correction:ryou-dorm; target hash bound to the assembled addition.",
+        "contentHash": "49f88368c832294afa59291cb270b9e5d3ce9a5e4d86a600d4e2f37a17221de8",
+        "approvalHash": "49f88368c832294afa59291cb270b9e5d3ce9a5e4d86a600d4e2f37a17221de8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ryou-dorm: publisher row (寮/りょう at N2 (gloss: hostel,dormitory)) is the same lexeme as the target entry.",
+        "contentHash": "49f88368c832294afa59291cb270b9e5d3ce9a5e4d86a600d4e2f37a17221de8",
+        "approvalHash": "49f88368c832294afa59291cb270b9e5d3ce9a5e4d86a600d4e2f37a17221de8"
+      }
+    },
+    {
+      "key": "寮|りょう",
+      "referenceIndex": 1,
+      "referenceHash": "53aa42e9765f7ede8f43f50f169a868602d9bccfbc1affb52bb92da82dff0c6a",
+      "revisionId": "037-candidate-ryou-dorm-2196eeec-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ryou-dorm"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryou-dorm": "b92b8a6b78512ee47927c652497b865a30434b4531dd7982cf8781a57cd10271"
+      },
+      "reason": "Reference 寮/りょう (master N2) is the same lexeme as the new entry 寮【りょう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 寮/りょう at N2 (gloss: hostel; dormitory; logement commun)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554230; spelling=寮; reading=りょう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1554230 as the reference form.",
+          "selected": {
+            "sequence": "1554230",
+            "spelling": "寮",
+            "reading": "りょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hostel",
+                  "dormitory"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 寮|りょう#1 is the same lexeme as vocab-n2:correction:ryou-dorm; target hash bound to the assembled addition.",
+        "contentHash": "f7f5d5ce1eaa0af53d146cbb28d2d8bdfd06976880e952b8804cd11c2dfea399",
+        "approvalHash": "f7f5d5ce1eaa0af53d146cbb28d2d8bdfd06976880e952b8804cd11c2dfea399"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ryou-dorm: publisher row (寮/りょう at N2 (gloss: hostel; dormitory; logement commun)) is the same lexeme as the target entry.",
+        "contentHash": "f7f5d5ce1eaa0af53d146cbb28d2d8bdfd06976880e952b8804cd11c2dfea399",
+        "approvalHash": "f7f5d5ce1eaa0af53d146cbb28d2d8bdfd06976880e952b8804cd11c2dfea399"
+      }
+    },
+    {
+      "key": "領収|りょうしゅう",
+      "referenceIndex": 0,
+      "referenceHash": "b00ff932cecc04c9289d0af1ad660b96bc69f386a3eabbe7bcf8eb6352784c9a",
+      "revisionId": "037-candidate-ryoushuu-ff771aaa-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ryoushuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryoushuu": "6ac513c120b6969f2fa754de8d011cc6e17d554678357c057ad9487a046dca31"
+      },
+      "reason": "Reference 領収/りょうしゅう (tanos N2) is the same lexeme as the new entry 領収【りょうしゅう】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=92",
+          "finding": "tanos lists 領収/りょうしゅう at N2 (gloss: receipt,voucher)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554750; spelling=領収; reading=りょうしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1554750 as the reference form.",
+          "selected": {
+            "sequence": "1554750",
+            "spelling": "領収",
+            "reading": "りょうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "receipt (of money)",
+                  "receiving"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 領収|りょうしゅう#0 is the same lexeme as vocab-n2:correction:ryoushuu; target hash bound to the assembled addition.",
+        "contentHash": "e36a8250c6352184fd82118cf8388299cdb72d39c356f887f95f98e726e8a46a",
+        "approvalHash": "e36a8250c6352184fd82118cf8388299cdb72d39c356f887f95f98e726e8a46a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ryoushuu: publisher row (領収/りょうしゅう at N2 (gloss: receipt,voucher)) is the same lexeme as the target entry.",
+        "contentHash": "e36a8250c6352184fd82118cf8388299cdb72d39c356f887f95f98e726e8a46a",
+        "approvalHash": "e36a8250c6352184fd82118cf8388299cdb72d39c356f887f95f98e726e8a46a"
+      }
+    },
+    {
+      "key": "領収|りょうしゅう",
+      "referenceIndex": 1,
+      "referenceHash": "5789b07322cea22c93f06412be1a11cf4584519a64256b7cc6e32562cac6a816",
+      "revisionId": "037-candidate-ryoushuu-ff771aaa-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ryoushuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryoushuu": "6ac513c120b6969f2fa754de8d011cc6e17d554678357c057ad9487a046dca31"
+      },
+      "reason": "Reference 領収/りょうしゅう (sensei N2) is the same lexeme as the new entry 領収【りょうしゅう】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n2-vocabulary-list/",
+          "finding": "JLPT Sensei lists 領収/りょうしゅう at N2 (gloss: receipt (of money); receiving)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554750; spelling=領収; reading=りょうしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1554750 as the reference form.",
+          "selected": {
+            "sequence": "1554750",
+            "spelling": "領収",
+            "reading": "りょうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "receipt (of money)",
+                  "receiving"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 領収|りょうしゅう#1 is the same lexeme as vocab-n2:correction:ryoushuu; target hash bound to the assembled addition.",
+        "contentHash": "bc8c0134615ea0bf0a824de6a209b7724b037428f0873b0e78bcaf3b4ed34a09",
+        "approvalHash": "bc8c0134615ea0bf0a824de6a209b7724b037428f0873b0e78bcaf3b4ed34a09"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ryoushuu: publisher row (領収/りょうしゅう at N2 (gloss: receipt (of money); receiving)) is the same lexeme as the target entry.",
+        "contentHash": "bc8c0134615ea0bf0a824de6a209b7724b037428f0873b0e78bcaf3b4ed34a09",
+        "approvalHash": "bc8c0134615ea0bf0a824de6a209b7724b037428f0873b0e78bcaf3b4ed34a09"
+      }
+    },
+    {
+      "key": "領収|りょうしゅう",
+      "referenceIndex": 2,
+      "referenceHash": "3d78f98f2bfb4f0505a0e2fd806e7c3417e73545f638120194de7b2f19eab634",
+      "revisionId": "037-candidate-ryoushuu-ff771aaa-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ryoushuu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryoushuu": "6ac513c120b6969f2fa754de8d011cc6e17d554678357c057ad9487a046dca31"
+      },
+      "reason": "Reference 領収/りょうしゅう (master N2) is the same lexeme as the new entry 領収【りょうしゅう】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 領収/りょうしゅう at N2 (gloss: receipt; voucher; reçu)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1554750; spelling=領収; reading=りょうしゅう; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1554750 as the reference form.",
+          "selected": {
+            "sequence": "1554750",
+            "spelling": "領収",
+            "reading": "りょうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "receipt (of money)",
+                  "receiving"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference 領収|りょうしゅう#2 is the same lexeme as vocab-n2:correction:ryoushuu; target hash bound to the assembled addition.",
+        "contentHash": "6378a1f4b57c515a51719d7e6e3e93d09f60516caf4f055da79894d9b0105b8b",
+        "approvalHash": "6378a1f4b57c515a51719d7e6e3e93d09f60516caf4f055da79894d9b0105b8b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:ryoushuu: publisher row (領収/りょうしゅう at N2 (gloss: receipt; voucher; reçu)) is the same lexeme as the target entry.",
+        "contentHash": "6378a1f4b57c515a51719d7e6e3e93d09f60516caf4f055da79894d9b0105b8b",
+        "approvalHash": "6378a1f4b57c515a51719d7e6e3e93d09f60516caf4f055da79894d9b0105b8b"
+      }
+    },
+    {
+      "key": "れいんこーと|れいんこーと",
+      "referenceIndex": 0,
+      "referenceHash": "7ac9d0f6c46ef7227fe779eec64cf20e3d0576b5c8eb67aff82359a5bc7cc382",
+      "revisionId": "037-candidate-reinkooto-604ec269-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:reinkooto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:reinkooto": "94c2a2e42b2a40432fae56c5d64fa7141c314be84df8cca047266fbab53810b9"
+      },
+      "reason": "Reference レインコート/レインコート (tanos N2) is the same lexeme as the new entry レインコート【レインコート】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=92",
+          "finding": "tanos lists レインコート/レインコート at N2 (gloss: raincoat)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1144700; spelling=レインコート; reading=レインコート; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1144700 as the reference form.",
+          "selected": {
+            "sequence": "1144700",
+            "spelling": "レインコート",
+            "reading": "レインコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "raincoat",
+                  "mackintosh",
+                  "macintosh",
+                  "trench coat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference れいんこーと|れいんこーと#0 is the same lexeme as vocab-n2:correction:reinkooto; target hash bound to the assembled addition.",
+        "contentHash": "f49047210d4e67f194842d08818dcc4695bbd9c1417b0cfae91815d25569e244",
+        "approvalHash": "f49047210d4e67f194842d08818dcc4695bbd9c1417b0cfae91815d25569e244"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:reinkooto: publisher row (レインコート/レインコート at N2 (gloss: raincoat)) is the same lexeme as the target entry.",
+        "contentHash": "f49047210d4e67f194842d08818dcc4695bbd9c1417b0cfae91815d25569e244",
+        "approvalHash": "f49047210d4e67f194842d08818dcc4695bbd9c1417b0cfae91815d25569e244"
+      }
+    },
+    {
+      "key": "れいんこーと|れいんこーと",
+      "referenceIndex": 1,
+      "referenceHash": "d8b2049b73a4b202505a53a1d6c5a0c592e7ce6b868ef9362f3c331c9c550fac",
+      "revisionId": "037-candidate-reinkooto-604ec269-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:reinkooto"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:reinkooto": "94c2a2e42b2a40432fae56c5d64fa7141c314be84df8cca047266fbab53810b9"
+      },
+      "reason": "Reference レインコート/レインコート (master N2) is the same lexeme as the new entry レインコート【レインコート】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists レインコート/レインコート at N2 (gloss: raincoat; mackintosh; macintosh)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1144700; spelling=レインコート; reading=レインコート; senses=1; scripts/vocabulary-completion/maintenance-037/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1144700 as the reference form.",
+          "selected": {
+            "sequence": "1144700",
+            "spelling": "レインコート",
+            "reading": "レインコート",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "raincoat",
+                  "mackintosh",
+                  "macintosh",
+                  "trench coat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-editor",
+        "finding": "Editorial first pass: reference れいんこーと|れいんこーと#1 is the same lexeme as vocab-n2:correction:reinkooto; target hash bound to the assembled addition.",
+        "contentHash": "8ddb8cc9afae7d8f6677bb07584fa0e65320526092bbf9f257f912a4d783f68a",
+        "approvalHash": "8ddb8cc9afae7d8f6677bb07584fa0e65320526092bbf9f257f912a4d783f68a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-037-independent-reviewer",
+        "finding": "added -> vocab-n2:correction:reinkooto: publisher row (レインコート/レインコート at N2 (gloss: raincoat; mackintosh; macintosh)) is the same lexeme as the target entry.",
+        "contentHash": "8ddb8cc9afae7d8f6677bb07584fa0e65320526092bbf9f257f912a4d783f68a",
+        "approvalHash": "8ddb8cc9afae7d8f6677bb07584fa0e65320526092bbf9f257f912a4d783f68a"
+      }
+    }
+  ]
+}
