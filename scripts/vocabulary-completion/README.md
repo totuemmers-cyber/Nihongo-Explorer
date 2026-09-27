@@ -58,7 +58,17 @@ files and were removed on 23 September 2026. Keep such files in `.content-cache/
   市場開放, 市場参入, 引渡条件, 焼き物, ご覧になる, だからといって, 駆け出す); stray
   tabs/spaces and a U+FEFF removed from 19 examples; 相図 (rare kanji form) retired into 合図.
 
-Runtime: **13,136 entries** (N5 1,616, N4 1,570, N3 3,401, N2 2,531, N1 4,018),
+- **025a–e (102 additions, research in [maintenance-025](maintenance-025/research-supplement.json)):**
+  everyday vocabulary that the JLPT-list comparison had never covered. Country and
+  continent names (ドイツ, フランス, アメリカ, ヨーロッパ …), language and nationality words
+  (ドイツ語, 韓国語, 日本人 …), online and phone vocabulary (ダウンロード, パスワード,
+  ログイン, 既読, SNS …), animals (豚, 羊, 猿, パンダ, ペンギン …) and daily-life words
+  (マスク, レジ袋, 宅配便, テレワーク …). 025e is candidate-backed and closes 18 publisher
+  references (アメリカ, アジア, アフリカ, ヨーロッパ, 通知, コピー, 猿, 鼠, マスク). Pitch: 76
+  verified from exact UniDic rows, 26 unknown. Two independent review rounds; three
+  round-1 rejections (オランダ note, 豚 example, 山羊 note) were fixed and re-reviewed.
+
+Runtime: **13,238 entries** (N5 1,632, N4 1,606, N3 3,447, N2 2,535, N1 4,018),
 with 16 retired IDs redirected. See [generated coverage](COVERAGE.md) for the
 ledger counts. Deferred work: the near-duplicate category merge (163 entries). Every
 category-only edit is a consequential full review with a pitch disposition, and 70

@@ -48662,5 +48662,137 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:pinku"
+  },
+  {
+    "word": "配信",
+    "reading": "はいしん",
+    "romaji": "haishin",
+    "meaning": "Streaming, Übertragung; Versand (von Nachrichten)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N2",
+    "notes": "Als Verb mit する: 動画を配信する (streamen), ニュースを配信する (verbreiten). Livestream: ライブ配信.",
+    "examples": [
+      {
+        "japanese": "試合はネットでライブ配信されます。",
+        "romaji": "Shiai wa netto de raibu haishin saremasu.",
+        "german": "Das Spiel wird live im Internet gestreamt."
+      },
+      {
+        "japanese": "登録すると、毎週ニュースが配信されます。",
+        "romaji": "Touroku suru to, maishuu nyuusu ga haishin saremasu.",
+        "german": "Nach der Anmeldung bekommt man jede Woche Nachrichten zugeschickt."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211092554",
+        "patterns": [
+          0
+        ],
+        "finding": "配信 / ハイシン; 名詞/普通名詞/サ変可能/*; *; *; lemma 配信; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "配信",
+          "reading": "はいしん",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "配信 as \"Streaming, Übertragung; Versand (von Nachrichten)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:haishin"
+  },
+  {
+    "word": "再起動",
+    "reading": "さいきどう",
+    "romaji": "saikidou",
+    "meaning": "Neustart",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N2",
+    "notes": "再 (wieder) + 起動 (Starten). Als Verb mit する: パソコンを再起動する.",
+    "examples": [
+      {
+        "japanese": "動かないときは、一度再起動してみてください。",
+        "romaji": "Ugokanai toki wa, ichido saikidou shite mite kudasai.",
+        "german": "Wenn es nicht funktioniert, versuchen Sie einmal einen Neustart."
+      },
+      {
+        "japanese": "更新のあと、スマホが自動で再起動しました。",
+        "romaji": "Koushin no ato, sumaho ga jidou de saikidou shimashita.",
+        "german": "Nach dem Update hat sich das Smartphone automatisch neu gestartet."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:saikidou"
+  },
+  {
+    "word": "在留カード",
+    "reading": "ざいりゅうカード",
+    "romaji": "zairyuukaado",
+    "meaning": "Aufenthaltskarte (für Ausländer)",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N2",
+    "notes": "Ausweis für in Japan lebende Ausländer mit mittel- bis langfristigem Visum; muss immer mitgeführt werden.",
+    "examples": [
+      {
+        "japanese": "区役所で在留カードを見せてください。",
+        "romaji": "Kuyakusho de zairyuu kaado o misete kudasai.",
+        "german": "Zeigen Sie bitte im Bezirksamt Ihre Aufenthaltskarte vor."
+      },
+      {
+        "japanese": "在留カードはいつも持っていなければなりません。",
+        "romaji": "Zairyuu kaado wa itsumo motte inakereba narimasen.",
+        "german": "Die Aufenthaltskarte muss man immer bei sich tragen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n2:correction:zairyuukaado"
+  },
+  {
+    "word": "通知",
+    "reading": "つうち",
+    "romaji": "tsuuchi",
+    "meaning": "Mitteilung, Benachrichtigung",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N2",
+    "notes": "Nomen zu 通知する (benachrichtigen, bereits N2). Offizielle Mitteilung (合格通知), aber auch die Push-Benachrichtigung auf dem Handy (スマホの通知).",
+    "examples": [
+      {
+        "japanese": "大学から合格の通知が届きました。",
+        "romaji": "Daigaku kara goukaku no tsuuchi ga todokimashita.",
+        "german": "Von der Universität kam die Zulassungsbenachrichtigung."
+      },
+      {
+        "japanese": "アプリの通知を切りました。",
+        "romaji": "Apuri no tsuuchi o kirimashita.",
+        "german": "Ich habe die App-Benachrichtigungen ausgeschaltet."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@171286507",
+        "patterns": [
+          0
+        ],
+        "finding": "通知 / ツウチ; 名詞/普通名詞/サ変可能/*; *; *; lemma 通知; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "通知",
+          "reading": "つうち",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "通知 as \"Mitteilung, Benachrichtigung\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:tsuuchi"
   }
 ];

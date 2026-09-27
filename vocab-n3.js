@@ -64678,5 +64678,1769 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:kurisumasu"
+  },
+  {
+    "word": "スイス",
+    "reading": "スイス",
+    "romaji": "suisu",
+    "meaning": "Schweiz",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Bekannt für Uhren (スイスの時計) und die Alpen (アルプス).",
+    "examples": [
+      {
+        "japanese": "スイスの時計は高いけれど丈夫です。",
+        "romaji": "Suisu no tokei wa takai keredo joubu desu.",
+        "german": "Schweizer Uhren sind teuer, aber robust."
+      },
+      {
+        "japanese": "スイスでは四つの言葉が話されています。",
+        "romaji": "Suisu de wa yottsu no kotoba ga hanasarete imasu.",
+        "german": "In der Schweiz werden vier Sprachen gesprochen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145629121",
+        "patterns": [
+          1
+        ],
+        "finding": "スイス / スイス; 名詞/固有名詞/地名/国; *; *; lemma スイス-Suisse; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スイス",
+          "reading": "スイス",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "スイス as \"Schweiz\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:suisu"
+  },
+  {
+    "word": "オーストリア",
+    "reading": "オーストリア",
+    "romaji": "oosutoria",
+    "meaning": "Österreich",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Leicht zu verwechseln mit オーストラリア (Australien); Japaner scherzen selbst darüber.",
+    "examples": [
+      {
+        "japanese": "ウィーンはオーストリアの首都です。",
+        "romaji": "Uiin wa Oosutoria no shuto desu.",
+        "german": "Wien ist die Hauptstadt Österreichs."
+      },
+      {
+        "japanese": "オーストリアとオーストラリアをよく間違えます。",
+        "romaji": "Oosutoria to Oosutoraria o yoku machigaemasu.",
+        "german": "Ich verwechsle Österreich und Australien oft."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85359131",
+        "patterns": [
+          4
+        ],
+        "finding": "オーストリア / オーストリア; 名詞/固有名詞/地名/国; *; *; lemma オーストリア-Austria; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オーストリア",
+          "reading": "オーストリア",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "オーストリア as \"Österreich\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:oosutoria"
+  },
+  {
+    "word": "オランダ",
+    "reading": "オランダ",
+    "romaji": "oranda",
+    "meaning": "Niederlande, Holland",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername (von portugiesisch „Holanda“). Historisch wichtig: In der Edo-Zeit durften als einzige Europäer die Niederländer (auf Dejima in Nagasaki) mit Japan Handel treiben; daher 蘭学（らんがく）„Hollandkunde“ für westliche Wissenschaften.",
+    "examples": [
+      {
+        "japanese": "オランダは花と風車で有名です。",
+        "romaji": "Oranda wa hana to fuusha de yuumei desu.",
+        "german": "Die Niederlande sind für Blumen und Windmühlen berühmt."
+      },
+      {
+        "japanese": "江戸時代、日本はオランダと貿易をしていました。",
+        "romaji": "Edo jidai, Nihon wa Oranda to boueki o shite imashita.",
+        "german": "In der Edo-Zeit trieb Japan Handel mit den Niederlanden."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84018616",
+        "patterns": [
+          0
+        ],
+        "finding": "オランダ / オランダ; 名詞/固有名詞/地名/国; *; *; lemma オランダ-Olanda; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "オランダ",
+          "reading": "オランダ",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "オランダ as \"Niederlande, Holland\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:oranda"
+  },
+  {
+    "word": "フィリピン",
+    "reading": "フィリピン",
+    "romaji": "firipin",
+    "meaning": "Philippinen",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Kein Plural: フィリピン steht für den ganzen Inselstaat.",
+    "examples": [
+      {
+        "japanese": "フィリピンには島がたくさんあります。",
+        "romaji": "Firipin ni wa shima ga takusan arimasu.",
+        "german": "Die Philippinen haben sehr viele Inseln."
+      },
+      {
+        "japanese": "フィリピンで英語の授業を受けました。",
+        "romaji": "Firipin de eigo no jugyou o ukemashita.",
+        "german": "Ich habe auf den Philippinen Englischunterricht genommen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230589188",
+        "patterns": [
+          1
+        ],
+        "finding": "フィリピン / フィリピン; 名詞/固有名詞/地名/国; *; *; lemma フィリピン-Philippines; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "フィリピン",
+          "reading": "フィリピン",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "フィリピン as \"Philippinen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:firipin"
+  },
+  {
+    "word": "インドネシア",
+    "reading": "インドネシア",
+    "romaji": "indoneshia",
+    "meaning": "Indonesien",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Nicht mit インド (Indien) verwechseln.",
+    "examples": [
+      {
+        "japanese": "バリ島はインドネシアにあります。",
+        "romaji": "Baritou wa Indoneshia ni arimasu.",
+        "german": "Bali liegt in Indonesien."
+      },
+      {
+        "japanese": "インドネシアから来た同僚と一緒に働いています。",
+        "romaji": "Indoneshia kara kita douryou to issho ni hataraite imasu.",
+        "german": "Ich arbeite mit einem Kollegen aus Indonesien zusammen."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59498369",
+        "patterns": [
+          4
+        ],
+        "finding": "インドネシア / インドネシア; 名詞/固有名詞/地名/国; *; *; lemma インドネシア-Indonesia; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "インドネシア",
+          "reading": "インドネシア",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "インドネシア as \"Indonesien\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:indoneshia"
+  },
+  {
+    "word": "メキシコ",
+    "reading": "メキシコ",
+    "romaji": "mekishiko",
+    "meaning": "Mexiko",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Mexikanisches Essen: メキシコ料理.",
+    "examples": [
+      {
+        "japanese": "メキシコの料理は辛いものが多いです。",
+        "romaji": "Mekishiko no ryouri wa karai mono ga ooi desu.",
+        "german": "In der mexikanischen Küche gibt es viel Scharfes."
+      },
+      {
+        "japanese": "メキシコはアメリカの南にあります。",
+        "romaji": "Mekishiko wa Amerika no minami ni arimasu.",
+        "german": "Mexiko liegt südlich der USA."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260287891",
+        "patterns": [
+          0,
+          2
+        ],
+        "finding": "メキシコ / メキシコ; 名詞/固有名詞/地名/国; *; *; lemma メキシコ-Mexico; aType 0,2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "メキシコ",
+          "reading": "メキシコ",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "メキシコ as \"Mexiko\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:mekishiko"
+  },
+  {
+    "word": "エジプト",
+    "reading": "エジプト",
+    "romaji": "ejiputo",
+    "meaning": "Ägypten",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana. Pyramiden: ピラミッド.",
+    "examples": [
+      {
+        "japanese": "いつかエジプトでピラミッドを見たいです。",
+        "romaji": "Itsuka Ejiputo de piramiddo o mitai desu.",
+        "german": "Irgendwann möchte ich in Ägypten die Pyramiden sehen."
+      },
+      {
+        "japanese": "エジプトは雨があまり降りません。",
+        "romaji": "Ejiputo wa ame ga amari furimasen.",
+        "german": "In Ägypten regnet es kaum."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70376377",
+        "patterns": [
+          0
+        ],
+        "finding": "エジプト / エジプト; 名詞/固有名詞/地名/国; *; *; lemma エジプト-Egypt; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "エジプト",
+          "reading": "エジプト",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "エジプト as \"Ägypten\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:ejiputo"
+  },
+  {
+    "word": "トルコ",
+    "reading": "トルコ",
+    "romaji": "toruko",
+    "meaning": "Türkei",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N3",
+    "notes": "Ländername in Katakana (seit 2022 offiziell auch テュルキエ, im Alltag aber meist トルコ).",
+    "examples": [
+      {
+        "japanese": "トルコはヨーロッパとアジアの間にあります。",
+        "romaji": "Toruko wa Yooroppa to Ajia no aida ni arimasu.",
+        "german": "Die Türkei liegt zwischen Europa und Asien."
+      },
+      {
+        "japanese": "トルコのアイスクリームはよく伸びます。",
+        "romaji": "Toruko no aisukuriimu wa yoku nobimasu.",
+        "german": "Türkisches Eis ist sehr dehnbar."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@191928236",
+        "patterns": [
+          1
+        ],
+        "finding": "トルコ / トルコ; 名詞/固有名詞/地名/国; *; *; lemma トルコ-Turco; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "トルコ",
+          "reading": "トルコ",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "トルコ as \"Türkei\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:toruko"
+  },
+  {
+    "word": "母国語",
+    "reading": "ぼこくご",
+    "romaji": "bokokugo",
+    "meaning": "Muttersprache",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N3",
+    "notes": "Wörtlich „Sprache des Mutterlandes“; im Alltag häufiger als das sprachwissenschaftliche 母語（ぼご）, das keine Staatszugehörigkeit voraussetzt.",
+    "examples": [
+      {
+        "japanese": "私の母国語はドイツ語です。",
+        "romaji": "Watashi no bokokugo wa doitsugo desu.",
+        "german": "Meine Muttersprache ist Deutsch."
+      },
+      {
+        "japanese": "疲れると、つい母国語で話してしまいます。",
+        "romaji": "Tsukareru to, tsui bokokugo de hanashite shimaimasu.",
+        "german": "Wenn ich müde bin, spreche ich unwillkürlich in meiner Muttersprache."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:bokokugo"
+  },
+  {
+    "word": "アップロード",
+    "reading": "アップロード",
+    "romaji": "appuroodo",
+    "meaning": "Upload, Hochladen",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Als Verb mit する: 写真をアップロードする. Umgangssprachlich oft kurz アップする.",
+    "examples": [
+      {
+        "japanese": "旅行の写真をネットにアップロードしました。",
+        "romaji": "Ryokou no shashin o netto ni appuroodo shimashita.",
+        "german": "Ich habe die Urlaubsfotos ins Netz hochgeladen."
+      },
+      {
+        "japanese": "ファイルが大きすぎて、アップロードできません。",
+        "romaji": "Fairu ga ookisugite, appuroodo dekimasen.",
+        "german": "Die Datei ist zu groß und lässt sich nicht hochladen."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44287615",
+        "patterns": [
+          4
+        ],
+        "finding": "アップロード / アップロード; 名詞/普通名詞/サ変可能/*; *; *; lemma アップロード-upload; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "アップロード",
+          "reading": "アップロード",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "アップロード as \"Upload, Hochladen\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:appuroodo"
+  },
+  {
+    "word": "ログアウト",
+    "reading": "ログアウト",
+    "romaji": "roguauto",
+    "meaning": "Abmeldung, Logout",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Als Verb mit する. An fremden Computern: 使ったあとは必ずログアウトする.",
+    "examples": [
+      {
+        "japanese": "共用のパソコンでは必ずログアウトしてください。",
+        "romaji": "Kyouyou no pasokon de wa kanarazu roguauto shite kudasai.",
+        "german": "An gemeinsam genutzten Computern bitte immer abmelden."
+      },
+      {
+        "japanese": "しばらく操作しないと、自動的にログアウトされます。",
+        "romaji": "Shibaraku sousa shinai to, jidouteki ni roguauto saremasu.",
+        "german": "Wenn man eine Weile nichts tut, wird man automatisch abgemeldet."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:roguauto"
+  },
+  {
+    "word": "動画",
+    "reading": "どうが",
+    "romaji": "douga",
+    "meaning": "Video (online)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Wörtlich „bewegtes Bild“; das übliche Wort für Online-Videos (動画を見る／撮る). ビデオ klingt eher nach Aufnahme oder Kassette.",
+    "examples": [
+      {
+        "japanese": "寝る前にスマホで動画を見ます。",
+        "romaji": "Neru mae ni sumaho de douga o mimasu.",
+        "german": "Vor dem Schlafen schaue ich Videos auf dem Smartphone."
+      },
+      {
+        "japanese": "子どもの誕生日を動画で撮りました。",
+        "romaji": "Kodomo no tanjoubi o douga de torimashita.",
+        "german": "Ich habe den Geburtstag meines Kindes als Video aufgenommen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192334879",
+        "patterns": [
+          0
+        ],
+        "finding": "動画 / ドウガ; 名詞/普通名詞/一般/*; *; *; lemma 動画; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "動画",
+          "reading": "どうが",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "動画 as \"Video (online)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:douga"
+  },
+  {
+    "word": "ウェブサイト",
+    "reading": "ウェブサイト",
+    "romaji": "webusaito",
+    "meaning": "Website",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Vollform; im Gespräch meist kurz サイト oder (veraltend) ホームページ.",
+    "examples": [
+      {
+        "japanese": "市のウェブサイトにごみの出し方が載っています。",
+        "romaji": "Shi no webusaito ni gomi no dashikata ga notte imasu.",
+        "german": "Auf der Website der Stadt steht, wie man den Müll rausstellt."
+      },
+      {
+        "japanese": "新しいウェブサイトを作る仕事をしています。",
+        "romaji": "Atarashii webusaito o tsukuru shigoto o shite imasu.",
+        "german": "Meine Arbeit ist es, neue Websites zu erstellen."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59905109",
+        "patterns": [
+          3
+        ],
+        "finding": "ウェブサイト / ウェブサイト; 名詞/普通名詞/一般/*; *; *; lemma ウェブサイト-website; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ウェブサイト",
+          "reading": "ウェブサイト",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ウェブサイト as \"Website\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:webusaito"
+  },
+  {
+    "word": "SNS",
+    "reading": "エスエヌエス",
+    "romaji": "esuenuesu",
+    "meaning": "soziale Medien, soziales Netzwerk",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Wird mit lateinischen Buchstaben geschrieben (SNS, auch ＳＮＳ) und エスエヌエス gelesen. Im Japanischen das übliche Wort für „soziale Medien“ (ソーシャルメディア ist seltener).",
+    "examples": [
+      {
+        "japanese": "SNSで友達の近況を知りました。",
+        "romaji": "Esuenuesu de tomodachi no kinkyou o shirimashita.",
+        "german": "Über soziale Medien habe ich erfahren, wie es meinem Freund geht."
+      },
+      {
+        "japanese": "個人情報をSNSに書かないほうがいいです。",
+        "romaji": "Kojin jouhou o esuenuesu ni kakanai hou ga ii desu.",
+        "german": "Man sollte keine persönlichen Daten in sozialen Medien posten."
+      }
+    ],
+    "pitch": 5,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70402134",
+        "patterns": [
+          5
+        ],
+        "finding": "ＳＮＳ / エスエヌエス; 名詞/普通名詞/一般/*; *; *; lemma ＳＮＳ; aType 5. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "SNS",
+          "reading": "エスエヌエス",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; UniDic orth ＳＮＳ is the full-width, NFKC-identical form of SNS",
+          "sense": "SNS as \"soziale Medien, soziales Netzwerk\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:esuenuesu"
+  },
+  {
+    "word": "既読",
+    "reading": "きどく",
+    "romaji": "kidoku",
+    "meaning": "gelesen (Nachrichtenstatus)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Anzeige in Messenger-Apps wie LINE. 既読スルー／既読無視: eine Nachricht lesen, aber nicht antworten. Gegenteil: 未読（みどく）.",
+    "examples": [
+      {
+        "japanese": "メッセージに既読がついたのに、返事が来ません。",
+        "romaji": "Messeeji ni kidoku ga tsuita noni, henji ga kimasen.",
+        "german": "Die Nachricht wurde als gelesen markiert, aber es kommt keine Antwort."
+      },
+      {
+        "japanese": "既読スルーされると、少し寂しいです。",
+        "romaji": "Kidoku suruu sareru to, sukoshi sabishii desu.",
+        "german": "Wenn jemand liest und nicht antwortet, bin ich ein bisschen traurig."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104927213",
+        "patterns": [
+          0
+        ],
+        "finding": "既読 / キドク; 名詞/普通名詞/一般/*; *; *; lemma 既読; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "既読",
+          "reading": "きどく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "既読 as \"gelesen (Nachrichtenstatus)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kidoku"
+  },
+  {
+    "word": "フォロー",
+    "reading": "フォロー",
+    "romaji": "foroo",
+    "meaning": "Folgen (SNS); Unterstützung, Nachbetreuung",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Als Verb mit する. In sozialen Medien: アカウントをフォローする. Im Beruf auch „jemanden unterstützen, einen Fehler ausbügeln“ (部下をフォローする).",
+    "examples": [
+      {
+        "japanese": "好きな歌手をSNSでフォローしています。",
+        "romaji": "Suki na kashu o esuenuesu de foroo shite imasu.",
+        "german": "Ich folge meiner Lieblingssängerin in den sozialen Medien."
+      },
+      {
+        "japanese": "新人のミスを先輩がフォローしました。",
+        "romaji": "Shinjin no misu o senpai ga foroo shimashita.",
+        "german": "Der erfahrene Kollege hat den Fehler des Neulings ausgebügelt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231075028",
+        "patterns": [
+          1
+        ],
+        "finding": "フォロー / フォロー; 名詞/普通名詞/サ変可能/*; *; *; lemma フォロー-follow; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "フォロー",
+          "reading": "フォロー",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "フォロー as \"Folgen (SNS); Unterstützung, Nachbetreuung\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:foroo"
+  },
+  {
+    "word": "ブログ",
+    "reading": "ブログ",
+    "romaji": "burogu",
+    "meaning": "Blog",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "„Einen Blog schreiben“: ブログを書く. Ein Eintrag heißt 記事（きじ）.",
+    "examples": [
+      {
+        "japanese": "毎日の料理をブログに書いています。",
+        "romaji": "Mainichi no ryouri o burogu ni kaite imasu.",
+        "german": "Ich schreibe über mein tägliches Kochen in einem Blog."
+      },
+      {
+        "japanese": "そのブログで日本の生活について読みました。",
+        "romaji": "Sono burogu de Nihon no seikatsu ni tsuite yomimashita.",
+        "german": "In diesem Blog habe ich über das Leben in Japan gelesen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239990483",
+        "patterns": [
+          0
+        ],
+        "finding": "ブログ / ブログ; 名詞/普通名詞/一般/*; *; *; lemma ブログ-blog; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ブログ",
+          "reading": "ブログ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ブログ as \"Blog\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:burogu"
+  },
+  {
+    "word": "ユーザー",
+    "reading": "ユーザー",
+    "romaji": "yuuzaa",
+    "meaning": "Benutzer(in), Nutzer(in)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Nutzer eines Produkts oder Dienstes. Benutzername: ユーザー名. Auch ユーザ geschrieben.",
+    "examples": [
+      {
+        "japanese": "このアプリのユーザーは若い人が多いです。",
+        "romaji": "Kono apuri no yuuzaa wa wakai hito ga ooi desu.",
+        "german": "Die Nutzer dieser App sind überwiegend junge Leute."
+      },
+      {
+        "japanese": "ユーザー名とパスワードを入力してください。",
+        "romaji": "Yuuzaamei to pasuwaado o nyuuryoku shite kudasai.",
+        "german": "Bitte geben Sie Benutzernamen und Passwort ein."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272640184",
+        "patterns": [
+          1
+        ],
+        "finding": "ユーザー / ユーザー; 名詞/普通名詞/一般/*; *; *; lemma ユーザー-user; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ユーザー",
+          "reading": "ユーザー",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ユーザー as \"Benutzer(in), Nutzer(in)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:yuuzaa"
+  },
+  {
+    "word": "充電器",
+    "reading": "じゅうでんき",
+    "romaji": "juudenki",
+    "meaning": "Ladegerät",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "充電 (Aufladen) + 器 (Gerät). Mobiler Akku: モバイルバッテリー.",
+    "examples": [
+      {
+        "japanese": "充電器を家に忘れてしまいました。",
+        "romaji": "Juudenki o ie ni wasurete shimaimashita.",
+        "german": "Ich habe das Ladegerät zu Hause vergessen."
+      },
+      {
+        "japanese": "すみません、充電器を貸してもらえませんか。",
+        "romaji": "Sumimasen, juudenki o kashite moraemasen ka.",
+        "german": "Entschuldigung, könnten Sie mir Ihr Ladegerät leihen?"
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:juudenki"
+  },
+  {
+    "word": "スタンプ",
+    "reading": "スタンプ",
+    "romaji": "sutanpu",
+    "meaning": "Sticker (in Messengern); Stempel",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Zwei Bedeutungen: Stempel (z. B. スタンプラリー an Bahnhöfen, Stempelkarte) und die großen Sticker in Messenger-Apps wie LINE.",
+    "examples": [
+      {
+        "japanese": "返事の代わりにかわいいスタンプを送りました。",
+        "romaji": "Henji no kawari ni kawaii sutanpu o okurimashita.",
+        "german": "Statt einer Antwort habe ich einen niedlichen Sticker geschickt."
+      },
+      {
+        "japanese": "駅でスタンプを押して集めました。",
+        "romaji": "Eki de sutanpu o oshite atsumemashita.",
+        "german": "Ich habe an den Bahnhöfen Stempel gesammelt."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@148191236",
+        "patterns": [
+          2
+        ],
+        "finding": "スタンプ / スタンプ; 名詞/普通名詞/一般/*; *; *; lemma スタンプ-stamp; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スタンプ",
+          "reading": "スタンプ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "スタンプ as \"Sticker (in Messengern); Stempel\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:sutanpu"
+  },
+  {
+    "word": "着信",
+    "reading": "ちゃくしん",
+    "romaji": "chakushin",
+    "meaning": "eingehender Anruf, eingegangene Nachricht",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Anzeige auf dem Handy: 着信あり (Anruf eingegangen). Klingelton: 着信音. Gegenteil: 発信 (ausgehender Anruf, Senden).",
+    "examples": [
+      {
+        "japanese": "会議中に母から着信がありました。",
+        "romaji": "Kaigichuu ni haha kara chakushin ga arimashita.",
+        "german": "Während der Besprechung kam ein Anruf von meiner Mutter."
+      },
+      {
+        "japanese": "着信音を小さくしてください。",
+        "romaji": "Chakushin'on o chiisaku shite kudasai.",
+        "german": "Stellen Sie bitte den Klingelton leiser."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169531058",
+        "patterns": [
+          0
+        ],
+        "finding": "着信 / チャクシン; 名詞/普通名詞/サ変可能/*; *; *; lemma 着信; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "着信",
+          "reading": "ちゃくしん",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "着信 as \"eingehender Anruf, eingegangene Nachricht\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:chakushin"
+  },
+  {
+    "word": "インストール",
+    "reading": "インストール",
+    "romaji": "insutooru",
+    "meaning": "Installation (Software)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Als Verb mit する. Gegenteil: アンインストール. Bei Apps sagt man oft einfach ダウンロード.",
+    "examples": [
+      {
+        "japanese": "新しいソフトをインストールしました。",
+        "romaji": "Atarashii sofuto o insutooru shimashita.",
+        "german": "Ich habe eine neue Software installiert."
+      },
+      {
+        "japanese": "インストールが終わるまで電源を切らないでください。",
+        "romaji": "Insutooru ga owaru made dengen o kiranaide kudasai.",
+        "german": "Schalten Sie das Gerät nicht aus, bis die Installation abgeschlossen ist."
+      }
+    ],
+    "pitch": 4,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59340402",
+        "patterns": [
+          4
+        ],
+        "finding": "インストール / インストール; 名詞/普通名詞/サ変可能/*; *; *; lemma インストール-install; aType 4. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "インストール",
+          "reading": "インストール",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "インストール as \"Installation (Software)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:insutooru"
+  },
+  {
+    "word": "フォルダ",
+    "reading": "フォルダ",
+    "romaji": "foruda",
+    "meaning": "Ordner (Computer)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "Auch フォルダー geschrieben. Ein Papierordner heißt eher ファイル.",
+    "examples": [
+      {
+        "japanese": "写真を新しいフォルダに入れました。",
+        "romaji": "Shashin o atarashii foruda ni iremashita.",
+        "german": "Ich habe die Fotos in einen neuen Ordner gelegt."
+      },
+      {
+        "japanese": "そのファイルはどのフォルダにありますか。",
+        "romaji": "Sono fairu wa dono foruda ni arimasu ka.",
+        "german": "In welchem Ordner ist die Datei?"
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231055653",
+        "patterns": [
+          0,
+          1
+        ],
+        "finding": "フォルダ / フォルダ; 名詞/普通名詞/一般/*; *; *; lemma フォルダー-folder; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "フォルダ",
+          "reading": "フォルダ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "フォルダ as \"Ordner (Computer)\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:foruda"
+  },
+  {
+    "word": "羊",
+    "reading": "ひつじ",
+    "romaji": "hitsuji",
+    "meaning": "Schaf",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Auch Tierkreiszeichen (未年). Wolle heißt 羊毛（ようもう）; Lammfleisch ラム, Hammelfleisch マトン.",
+    "examples": [
+      {
+        "japanese": "眠れないときは羊を数えます。",
+        "romaji": "Nemurenai toki wa hitsuji o kazoemasu.",
+        "german": "Wenn ich nicht schlafen kann, zähle ich Schafe."
+      },
+      {
+        "japanese": "北海道の牧場で羊にえさをあげました。",
+        "romaji": "Hokkaidou no bokujou de hitsuji ni esa o agemashita.",
+        "german": "Auf einer Farm in Hokkaido habe ich Schafe gefüttert."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226501206",
+        "patterns": [
+          0
+        ],
+        "finding": "羊 / ヒツジ; 名詞/普通名詞/一般/*; *; *; lemma 羊; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "羊",
+          "reading": "ひつじ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "羊 as \"Schaf\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:hitsuji"
+  },
+  {
+    "word": "蛇",
+    "reading": "へび",
+    "romaji": "hebi",
+    "meaning": "Schlange",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Oft in Kana geschrieben (へび／ヘビ). Tierkreiszeichen: 巳年（みどし）.",
+    "examples": [
+      {
+        "japanese": "山道で大きな蛇を見て、びっくりしました。",
+        "romaji": "Yamamichi de ooki na hebi o mite, bikkuri shimashita.",
+        "german": "Auf dem Bergweg habe ich eine große Schlange gesehen und mich erschreckt."
+      },
+      {
+        "japanese": "私は蛇がどうしても苦手です。",
+        "romaji": "Watashi wa hebi ga doushitemo nigate desu.",
+        "german": "Ich kann Schlangen einfach nicht ausstehen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@241363379",
+        "patterns": [
+          1
+        ],
+        "finding": "蛇 / ヘビ; 名詞/普通名詞/一般/*; *; *; lemma 蛇; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "蛇",
+          "reading": "へび",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "蛇 as \"Schlange\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:hebi"
+  },
+  {
+    "word": "鯨",
+    "reading": "くじら",
+    "romaji": "kujira",
+    "meaning": "Wal",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Oft in Kana geschrieben (くじら／クジラ). Trotz 魚-Radikal ein Säugetier. Walbeobachtung: ホエールウォッチング.",
+    "examples": [
+      {
+        "japanese": "船から鯨が見えました。",
+        "romaji": "Fune kara kujira ga miemashita.",
+        "german": "Vom Schiff aus war ein Wal zu sehen."
+      },
+      {
+        "japanese": "鯨は魚ではなく、哺乳類です。",
+        "romaji": "Kujira wa sakana de wa naku, honyuurui desu.",
+        "german": "Wale sind keine Fische, sondern Säugetiere."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@111155388",
+        "patterns": [
+          0
+        ],
+        "finding": "鯨 / クジラ; 名詞/普通名詞/一般/*; *; *; lemma 鯨; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "鯨",
+          "reading": "くじら",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "鯨 as \"Wal\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kujira"
+  },
+  {
+    "word": "山羊",
+    "reading": "やぎ",
+    "romaji": "yagi",
+    "meaning": "Ziege",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Oft in Kana geschrieben (やぎ／ヤギ); 山羊 ist eine Jukujikun-Schreibung: Die Kanji („Bergschaf“) geben die Bedeutung wieder, nicht die Lesung. Ziegenmilch: ヤギのミルク.",
+    "examples": [
+      {
+        "japanese": "牧場で山羊にえさをあげました。",
+        "romaji": "Bokujou de yagi ni esa o agemashita.",
+        "german": "Auf dem Hof habe ich die Ziegen gefüttert."
+      },
+      {
+        "japanese": "山羊は紙を食べると言われますが、本当ですか。",
+        "romaji": "Yagi wa kami o taberu to iwaremasu ga, hontou desu ka.",
+        "german": "Man sagt, Ziegen fressen Papier – stimmt das?"
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267668319",
+        "patterns": [
+          1
+        ],
+        "finding": "山羊 / ヤギ; 名詞/普通名詞/一般/*; *; *; lemma 山羊; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "山羊",
+          "reading": "やぎ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "山羊 as \"Ziege\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:yagi"
+  },
+  {
+    "word": "鶏",
+    "reading": "にわとり",
+    "romaji": "niwatori",
+    "meaning": "Huhn, Haushuhn",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Das lebende Tier; das Fleisch heißt 鶏肉（とりにく）oder einfach とり. Tierkreiszeichen: 酉年.",
+    "examples": [
+      {
+        "japanese": "祖母の家では鶏を飼っています。",
+        "romaji": "Sobo no ie de wa niwatori o katte imasu.",
+        "german": "Bei meiner Großmutter hält man Hühner."
+      },
+      {
+        "japanese": "朝早く鶏の鳴き声で目が覚めました。",
+        "romaji": "Asa hayaku niwatori no nakigoe de me ga samemashita.",
+        "german": "Früh am Morgen bin ich vom Krähen des Hahns aufgewacht."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202855479",
+        "patterns": [
+          0
+        ],
+        "finding": "鶏 / ニワトリ; 名詞/普通名詞/一般/*; *; *; lemma 鶏; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "鶏",
+          "reading": "にわとり",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "鶏 as \"Huhn, Haushuhn\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:niwatori"
+  },
+  {
+    "word": "鳩",
+    "reading": "はと",
+    "romaji": "hato",
+    "meaning": "Taube",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Häufig in Parks und an Tempeln; Symbol des Friedens (平和の象徴). Oft in Kana (ハト).",
+    "examples": [
+      {
+        "japanese": "公園で鳩にパンをあげないでください。",
+        "romaji": "Kouen de hato ni pan o agenaide kudasai.",
+        "german": "Bitte füttern Sie die Tauben im Park nicht mit Brot."
+      },
+      {
+        "japanese": "鳩は平和のシンボルです。",
+        "romaji": "Hato wa heiwa no shinboru desu.",
+        "german": "Die Taube ist ein Symbol des Friedens."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@216003103",
+        "patterns": [
+          1
+        ],
+        "finding": "鳩 / ハト; 名詞/普通名詞/一般/*; *; *; lemma 鳩; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "鳩",
+          "reading": "はと",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "鳩 as \"Taube\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:hato"
+  },
+  {
+    "word": "ゴリラ",
+    "reading": "ゴリラ",
+    "romaji": "gorira",
+    "meaning": "Gorilla",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Zootier in Katakana.",
+    "examples": [
+      {
+        "japanese": "ゴリラは力がとても強いです。",
+        "romaji": "Gorira wa chikara ga totemo tsuyoi desu.",
+        "german": "Gorillas sind sehr stark."
+      },
+      {
+        "japanese": "動物園のゴリラがこちらをじっと見ていました。",
+        "romaji": "Doubutsuen no gorira ga kochira o jitto mite imashita.",
+        "german": "Der Gorilla im Zoo starrte zu uns herüber."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126740710",
+        "patterns": [
+          1
+        ],
+        "finding": "ゴリラ / ゴリラ; 名詞/普通名詞/一般/*; *; *; lemma ゴリラ-gorilla; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ゴリラ",
+          "reading": "ゴリラ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ゴリラ as \"Gorilla\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:gorira"
+  },
+  {
+    "word": "コアラ",
+    "reading": "コアラ",
+    "romaji": "koara",
+    "meaning": "Koala",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Zootier in Katakana; lebt in Australien (オーストラリア).",
+    "examples": [
+      {
+        "japanese": "コアラは一日のほとんどを寝て過ごします。",
+        "romaji": "Koara wa ichinichi no hotondo o nete sugoshimasu.",
+        "german": "Koalas verbringen fast den ganzen Tag mit Schlafen."
+      },
+      {
+        "japanese": "オーストラリアでコアラを抱っこしました。",
+        "romaji": "Oosutoraria de koara o dakko shimashita.",
+        "german": "In Australien habe ich einen Koala auf den Arm genommen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119547471",
+        "patterns": [
+          1
+        ],
+        "finding": "コアラ / コアラ; 名詞/普通名詞/一般/*; *; *; lemma コアラ-koala; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "コアラ",
+          "reading": "コアラ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "コアラ as \"Koala\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:koara"
+  },
+  {
+    "word": "カンガルー",
+    "reading": "カンガルー",
+    "romaji": "kangaruu",
+    "meaning": "Känguru",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Zootier in Katakana; die Beuteltasche heißt 袋（ふくろ）.",
+    "examples": [
+      {
+        "japanese": "カンガルーはおなかの袋で子どもを育てます。",
+        "romaji": "Kangaruu wa onaka no fukuro de kodomo o sodatemasu.",
+        "german": "Kängurus ziehen ihre Jungen im Beutel am Bauch groß."
+      },
+      {
+        "japanese": "道路にカンガルーが飛び出してきました。",
+        "romaji": "Douro ni kangaruu ga tobidashite kimashita.",
+        "german": "Ein Känguru ist auf die Straße gesprungen."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100282038",
+        "patterns": [
+          3
+        ],
+        "finding": "カンガルー / カンガルー; 名詞/普通名詞/一般/*; *; *; lemma カンガルー-kangaroo; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "カンガルー",
+          "reading": "カンガルー",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "カンガルー as \"Känguru\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kangaruu"
+  },
+  {
+    "word": "サメ",
+    "reading": "サメ",
+    "romaji": "same",
+    "meaning": "Hai",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Meist in Katakana; Kanji: 鮫. Haifischflossensuppe: ふかひれスープ.",
+    "examples": [
+      {
+        "japanese": "この海岸にはサメが出ることがあります。",
+        "romaji": "Kono kaigan ni wa same ga deru koto ga arimasu.",
+        "german": "An dieser Küste tauchen manchmal Haie auf."
+      },
+      {
+        "japanese": "水族館で大きなサメを見ました。",
+        "romaji": "Suizokukan de ooki na same o mimashita.",
+        "german": "Im Aquarium habe ich einen großen Hai gesehen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132216104",
+        "patterns": [
+          0
+        ],
+        "finding": "サメ / サメ; 名詞/普通名詞/一般/*; *; *; lemma 鮫; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "サメ",
+          "reading": "サメ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "サメ as \"Hai\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:same"
+  },
+  {
+    "word": "ハムスター",
+    "reading": "ハムスター",
+    "romaji": "hamusutaa",
+    "meaning": "Hamster",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Beliebtes Haustier (ペット) in Katakana.",
+    "examples": [
+      {
+        "japanese": "娘はハムスターを飼いたがっています。",
+        "romaji": "Musume wa hamusutaa o kaitagatte imasu.",
+        "german": "Meine Tochter möchte unbedingt einen Hamster haben."
+      },
+      {
+        "japanese": "ハムスターは夜になると元気に動き回ります。",
+        "romaji": "Hamusutaa wa yoru ni naru to genki ni ugokimawarimasu.",
+        "german": "Nachts wird der Hamster munter und läuft herum."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217724694",
+        "patterns": [
+          1,
+          2
+        ],
+        "finding": "ハムスター / ハムスター; 名詞/普通名詞/一般/*; *; *; lemma ハムスター-hamster; aType 1,2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ハムスター",
+          "reading": "ハムスター",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ハムスター as \"Hamster\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:hamusutaa"
+  },
+  {
+    "word": "ゴキブリ",
+    "reading": "ゴキブリ",
+    "romaji": "gokiburi",
+    "meaning": "Kakerlake",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Meist in Katakana; oft verhüllend G（ジー）genannt. Im japanischen Sommer ein häufiges Ärgernis.",
+    "examples": [
+      {
+        "japanese": "台所にゴキブリが出て、大騒ぎになりました。",
+        "romaji": "Daidokoro ni gokiburi ga dete, oosawagi ni narimashita.",
+        "german": "In der Küche tauchte eine Kakerlake auf, und es gab großes Geschrei."
+      },
+      {
+        "japanese": "夏はゴキブリが増えるので、ごみをすぐに捨てます。",
+        "romaji": "Natsu wa gokiburi ga fueru node, gomi o sugu ni sutemasu.",
+        "german": "Im Sommer gibt es mehr Kakerlaken, deshalb bringe ich den Müll sofort raus."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126347033",
+        "patterns": [
+          0
+        ],
+        "finding": "ゴキブリ / ゴキブリ; 名詞/普通名詞/一般/*; *; *; lemma ごきぶり; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ゴキブリ",
+          "reading": "ゴキブリ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "ゴキブリ as \"Kakerlake\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:gokiburi"
+  },
+  {
+    "word": "ポイントカード",
+    "reading": "ポイントカード",
+    "romaji": "pointokaado",
+    "meaning": "Bonuskarte, Treuekarte",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "An der Kasse fragt man fast immer: ポイントカードはお持ちですか (Haben Sie eine Punktekarte?). Antwort, wenn nicht: 持っていません／大丈夫です.",
+    "examples": [
+      {
+        "japanese": "ポイントカードはお持ちですか。",
+        "romaji": "Pointokaado wa omochi desu ka.",
+        "german": "Haben Sie eine Punktekarte?"
+      },
+      {
+        "japanese": "財布がポイントカードでいっぱいです。",
+        "romaji": "Saifu ga pointokaado de ippai desu.",
+        "german": "Mein Portemonnaie ist voller Bonuskarten."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:pointokaado"
+  },
+  {
+    "word": "エコバッグ",
+    "reading": "エコバッグ",
+    "romaji": "ekobaggu",
+    "meaning": "Einkaufsbeutel, Mehrwegtasche",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Seit Plastiktüten in Japan kostenpflichtig sind (2020), sehr gebräuchlich. Gegenstück: レジ袋.",
+    "examples": [
+      {
+        "japanese": "買い物にはいつもエコバッグを持って行きます。",
+        "romaji": "Kaimono ni wa itsumo ekobaggu o motte ikimasu.",
+        "german": "Zum Einkaufen nehme ich immer eine Mehrwegtasche mit."
+      },
+      {
+        "japanese": "このエコバッグは小さくたためて便利です。",
+        "romaji": "Kono ekobaggu wa chiisaku tatamete benri desu.",
+        "german": "Diese Einkaufstasche lässt sich klein falten und ist praktisch."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:ekobaggu"
+  },
+  {
+    "word": "レジ袋",
+    "reading": "レジぶくろ",
+    "romaji": "rejibukuro",
+    "meaning": "Plastiktüte (an der Kasse)",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "レジ (Kasse) + 袋. An der Kasse: レジ袋はご利用ですか (Brauchen Sie eine Tüte?). Kostet seit 2020 extra.",
+    "examples": [
+      {
+        "japanese": "レジ袋はご利用ですか。",
+        "romaji": "Rejibukuro wa goriyou desu ka.",
+        "german": "Möchten Sie eine Tüte?"
+      },
+      {
+        "japanese": "レジ袋が有料になって、使う人が減りました。",
+        "romaji": "Rejibukuro ga yuuryou ni natte, tsukau hito ga herimashita.",
+        "german": "Seit die Tüten etwas kosten, nutzen sie weniger Leute."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:rejibukuro"
+  },
+  {
+    "word": "宅配便",
+    "reading": "たくはいびん",
+    "romaji": "takuhaibin",
+    "meaning": "Paketdienst, Hauslieferung",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Paketzustellung an die Haustür, z. B. durch Yamato (宅急便 ist deren Markenname). Nicht angetroffen: 不在票 im Briefkasten.",
+    "examples": [
+      {
+        "japanese": "実家から宅配便で野菜が届きました。",
+        "romaji": "Jikka kara takuhaibin de yasai ga todokimashita.",
+        "german": "Von meinen Eltern kam Gemüse per Paketdienst."
+      },
+      {
+        "japanese": "この荷物を宅配便で送りたいんですが。",
+        "romaji": "Kono nimotsu o takuhaibin de okuritai n desu ga.",
+        "german": "Ich möchte dieses Paket per Paketdienst verschicken."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:takuhaibin"
+  },
+  {
+    "word": "コインランドリー",
+    "reading": "コインランドリー",
+    "romaji": "koinrandorii",
+    "meaning": "Waschsalon",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Münzwäscherei; viele haben große Trockner (乾燥機) für Futons.",
+    "examples": [
+      {
+        "japanese": "雨の日はコインランドリーで乾かします。",
+        "romaji": "Ame no hi wa koinrandorii de kawakashimasu.",
+        "german": "An Regentagen trockne ich die Wäsche im Waschsalon."
+      },
+      {
+        "japanese": "アパートの近くにコインランドリーがあります。",
+        "romaji": "Apaato no chikaku ni koinrandorii ga arimasu.",
+        "german": "In der Nähe der Wohnung gibt es einen Waschsalon."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:koinrandorii"
+  },
+  {
+    "word": "満員電車",
+    "reading": "まんいんでんしゃ",
+    "romaji": "man'indensha",
+    "meaning": "überfüllter Zug",
+    "type": "Nomen",
+    "category": "Verkehr",
+    "level": "N3",
+    "notes": "満員 (voll besetzt) + 電車. Typisch für die Rushhour (ラッシュアワー) in Tokio.",
+    "examples": [
+      {
+        "japanese": "毎朝、満員電車で会社に行きます。",
+        "romaji": "Maiasa, man'in densha de kaisha ni ikimasu.",
+        "german": "Jeden Morgen fahre ich mit dem überfüllten Zug zur Arbeit."
+      },
+      {
+        "japanese": "満員電車の中では、かばんを前に持ちましょう。",
+        "romaji": "Man'in densha no naka de wa, kaban o mae ni mochimashou.",
+        "german": "Im vollen Zug sollte man die Tasche vor dem Körper tragen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:manindensha"
+  },
+  {
+    "word": "テレワーク",
+    "reading": "テレワーク",
+    "romaji": "terewaaku",
+    "meaning": "Telearbeit, Homeoffice",
+    "type": "Nomen",
+    "category": "Arbeit",
+    "level": "N3",
+    "notes": "Arbeiten von zu Hause oder unterwegs; ähnlich: リモートワーク, 在宅勤務 (N3).",
+    "examples": [
+      {
+        "japanese": "週に二日はテレワークです。",
+        "romaji": "Shuu ni futsuka wa terewaaku desu.",
+        "german": "Zwei Tage pro Woche arbeite ich im Homeoffice."
+      },
+      {
+        "japanese": "テレワークで通勤の時間がなくなりました。",
+        "romaji": "Terewaaku de tsuukin no jikan ga nakunarimashita.",
+        "german": "Durch Telearbeit fällt die Pendelzeit weg."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181296281",
+        "patterns": [
+          3
+        ],
+        "finding": "テレワーク / テレワーク; 名詞/普通名詞/一般/*; *; *; lemma テレワーク-telework; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "テレワーク",
+          "reading": "テレワーク",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "テレワーク as \"Telearbeit, Homeoffice\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:terewaaku"
+  },
+  {
+    "word": "燃えるごみ",
+    "reading": "もえるごみ",
+    "romaji": "moerugomi",
+    "meaning": "brennbarer Müll",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Müllkategorie; auch 燃えるゴミ geschrieben, amtlich 可燃ごみ. Gegenteil: 燃えないごみ. Die Abholtage stehen im Müllkalender der Gemeinde.",
+    "examples": [
+      {
+        "japanese": "燃えるごみは月曜日と木曜日に出してください。",
+        "romaji": "Moeru gomi wa getsuyoubi to mokuyoubi ni dashite kudasai.",
+        "german": "Brennbaren Müll bitte montags und donnerstags rausstellen."
+      },
+      {
+        "japanese": "紙くずは燃えるごみに入れます。",
+        "romaji": "Kamikuzu wa moeru gomi ni iremasu.",
+        "german": "Papierabfälle kommen in den brennbaren Müll."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n3:correction:moerugomi"
+  },
+  {
+    "word": "猿",
+    "reading": "さる",
+    "romaji": "saru",
+    "meaning": "Affe",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Meist der Japanmakak (ニホンザル). Sprichwort: 猿も木から落ちる (Auch Affen fallen vom Baum). Gleich klingend: 去る (weggehen).",
+    "examples": [
+      {
+        "japanese": "日光の山で猿を見ました。",
+        "romaji": "Nikkou no yama de saru o mimashita.",
+        "german": "In den Bergen von Nikko habe ich Affen gesehen."
+      },
+      {
+        "japanese": "猿が観光客の食べ物を取っていきました。",
+        "romaji": "Saru ga kankoukyaku no tabemono o totte ikimashita.",
+        "german": "Ein Affe hat einem Touristen das Essen weggeschnappt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132596612",
+        "patterns": [
+          1
+        ],
+        "finding": "猿 / サル; 名詞/普通名詞/一般/*; *; *; lemma 猿; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "猿",
+          "reading": "さる",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "猿 as \"Affe\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:saru"
+  },
+  {
+    "word": "鼠",
+    "reading": "ねずみ",
+    "romaji": "nezumi",
+    "meaning": "Maus, Ratte",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Meist in Kana geschrieben (ねずみ／ネズミ); Japanisch unterscheidet Maus und Ratte im Alltag nicht. Tierkreiszeichen: 子年（ねどし）. Auch die Farbe 鼠色 (mausgrau).",
+    "examples": [
+      {
+        "japanese": "古い家の天井に鼠がいるようです。",
+        "romaji": "Furui ie no tenjou ni nezumi ga iru you desu.",
+        "german": "In der Decke des alten Hauses scheint eine Maus zu sein."
+      },
+      {
+        "japanese": "猫が鼠を追いかけています。",
+        "romaji": "Neko ga nezumi o oikakete imasu.",
+        "german": "Die Katze jagt eine Maus."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@205945951",
+        "patterns": [
+          0
+        ],
+        "finding": "鼠 / ネズミ; 名詞/普通名詞/一般/*; *; *; lemma 鼠; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "鼠",
+          "reading": "ねずみ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "鼠 as \"Maus, Ratte\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:nezumi"
+  },
+  {
+    "word": "マスク",
+    "reading": "マスク",
+    "romaji": "masuku",
+    "meaning": "Maske, Mundschutz",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Meist der Mund-Nasen-Schutz, den man in Japan bei Erkältung oder Heuschnupfen trägt: マスクをする／つける. Auch Theater- oder Gesichtsmaske.",
+    "examples": [
+      {
+        "japanese": "風邪をひいたので、マスクをしています。",
+        "romaji": "Kaze o hiita node, masuku o shite imasu.",
+        "german": "Weil ich erkältet bin, trage ich eine Maske."
+      },
+      {
+        "japanese": "花粉の季節はマスクが手放せません。",
+        "romaji": "Kafun no kisetsu wa masuku ga tebanasemasen.",
+        "german": "In der Pollensaison komme ich ohne Maske nicht aus."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249981716",
+        "patterns": [
+          1
+        ],
+        "finding": "マスク / マスク; 名詞/普通名詞/一般/*; *; *; lemma マスク-mask; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "マスク",
+          "reading": "マスク",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "マスク as \"Maske, Mundschutz\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:masuku"
   }
 ];

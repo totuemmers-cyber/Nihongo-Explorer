@@ -1,0 +1,3387 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n5:correction:gaikokugo",
+      "revisionId": "025-add-gaikokugo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "外国語",
+        "reading": "がいこくご",
+        "romaji": "gaikokugo",
+        "meaning": "Fremdsprache",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N5",
+        "notes": "外国 (Ausland) + 語 (Sprache). „Eine Fremdsprache lernen“: 外国語を勉強する／学ぶ.",
+        "examples": [
+          {
+            "japanese": "外国語を勉強するのは楽しいです。",
+            "romaji": "Gaikokugo o benkyou suru no wa tanoshii desu.",
+            "german": "Fremdsprachen zu lernen macht Spaß."
+          },
+          {
+            "japanese": "この学校では二つの外国語を習います。",
+            "romaji": "Kono gakkou de wa futatsu no gaikokugo o naraimasu.",
+            "german": "An dieser Schule lernt man zwei Fremdsprachen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Builds on the N5 entries 外国 and 外国人 and on N5 language names. Editorial N5.",
+      "rationale": "Add 外国語【がいこくご】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1203640; spelling=外国語; reading=がいこくご; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1203640 外国語/がいこくご sense(s) 1 support \"Fremdsprache\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1203640",
+            "spelling": "外国語",
+            "reading": "がいこくご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "foreign language"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Fremdsprache\" matches JMdict 1203640 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Opinion about learning.",
+          "School curriculum."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1203640; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Builds on the N5 entries 外国 and 外国人 and on N5 language names. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 外国語 / がいこくご; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 外国語 / がいこくご",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 外国語【がいこくご】 (N5) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1203640 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "7510de3cb504b5e21880a48ae67758d3e6cf6864bad354bec7cfe4f7b5395c30",
+        "approvalHash": "849e33423067f5afd03111e45ce8a8ca76c9183d9814a11a05e0c8852cb96aaf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 opinion (のは楽しい) / ex2 curriculum (二つ futatsu): natural, romaji exact. JMdict 1203640. Pitch unknown correct (no row). Builds on 外国 N5 (verified present). runtime check.cjs: new.",
+        "contentHash": "7510de3cb504b5e21880a48ae67758d3e6cf6864bad354bec7cfe4f7b5395c30",
+        "approvalHash": "849e33423067f5afd03111e45ce8a8ca76c9183d9814a11a05e0c8852cb96aaf"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:bokokugo",
+      "revisionId": "025-add-bokokugo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "母国語",
+        "reading": "ぼこくご",
+        "romaji": "bokokugo",
+        "meaning": "Muttersprache",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N3",
+        "notes": "Wörtlich „Sprache des Mutterlandes“; im Alltag häufiger als das sprachwissenschaftliche 母語（ぼご）, das keine Staatszugehörigkeit voraussetzt.",
+        "examples": [
+          {
+            "japanese": "私の母国語はドイツ語です。",
+            "romaji": "Watashi no bokokugo wa doitsugo desu.",
+            "german": "Meine Muttersprache ist Deutsch."
+          },
+          {
+            "japanese": "疲れると、つい母国語で話してしまいます。",
+            "romaji": "Tsukareru to, tsui bokokugo de hanashite shimaimasu.",
+            "german": "Wenn ich müde bin, spreche ich unwillkürlich in meiner Muttersprache."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Everyday self-introduction word, below the N1 academic 母語 already in the app. Editorial N3.",
+      "rationale": "Add 母国語【ぼこくご】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1515070; spelling=母国語; reading=ぼこくご; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1515070 母国語/ぼこくご sense(s) 1 support \"Muttersprache\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1515070",
+            "spelling": "母国語",
+            "reading": "ぼこくご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "language of one's country",
+                  "mother tongue",
+                  "native language"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Muttersprache\" matches JMdict 1515070 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Self-introduction.",
+          "Habit when tired."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1515070; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Everyday self-introduction word, below the N1 academic 母語 already in the app. Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 母国語 / ぼこくご; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 母国語 / ぼこくご",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 母国語【ぼこくご】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1515070 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "08bcc7d06f64ecc121582826f801e3d2c79eb49b813e4867f9d85f6e63d2a5b4",
+        "approvalHash": "4b74034ff771d06bdbb4595332c9794f012d232ec66b7f13cfb9aa0d5ca45376"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 self-intro / ex2 つい〜てしまう when tired: natural, romaji exact. 母語 distinction accurate; 母語 exists at N1 (vocab-n1:1339). JMdict 1515070. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "08bcc7d06f64ecc121582826f801e3d2c79eb49b813e4867f9d85f6e63d2a5b4",
+        "approvalHash": "4b74034ff771d06bdbb4595332c9794f012d232ec66b7f13cfb9aa0d5ca45376"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:doitsujin",
+      "revisionId": "025-add-doitsujin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ドイツ人",
+        "reading": "ドイツじん",
+        "romaji": "doitsujin",
+        "meaning": "Deutsche(r)",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N5",
+        "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: ドイツの方（かた）.",
+        "examples": [
+          {
+            "japanese": "私はドイツ人です。",
+            "romaji": "Watashi wa doitsujin desu.",
+            "german": "Ich bin Deutsche(r)."
+          },
+          {
+            "japanese": "あのドイツ人の先生はとても親切です。",
+            "romaji": "Ano doitsujin no sensei wa totemo shinsetsu desu.",
+            "german": "Der deutsche Lehrer dort ist sehr freundlich."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5.",
+      "rationale": "Add ドイツ人【ドイツじん】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1087990; spelling=ドイツ人; reading=ドイツじん; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1087990 ドイツ人/ドイツじん sense(s) 1 support \"Deutsche(r)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1087990",
+            "spelling": "ドイツ人",
+            "reading": "ドイツじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "German person"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Deutsche(r)\" matches JMdict 1087990 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Stating one’s nationality.",
+          "Describing a teacher."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1087990; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ドイツ人 / ドイツじん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ドイツ人 / ドイツじん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ドイツ人【ドイツじん】 (N5) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1087990 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "208404685f17fa6ab694edb597de5b213cbc5e9ad241966915478f36d8018bce",
+        "approvalHash": "a566b0fc0d8dfcdc88bc43997599aa4c817ad778d1d9e55a4ab2bcd140830311"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 nationality / ex2 あのドイツ人の先生: natural, romaji exact. ドイツの方 politeness note correct. JMdict 1087990. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "208404685f17fa6ab694edb597de5b213cbc5e9ad241966915478f36d8018bce",
+        "approvalHash": "a566b0fc0d8dfcdc88bc43997599aa4c817ad778d1d9e55a4ab2bcd140830311"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:chuugokujin",
+      "revisionId": "025-add-chuugokujin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "中国人",
+        "reading": "ちゅうごくじん",
+        "romaji": "chuugokujin",
+        "meaning": "Chinese, Chinesin",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N5",
+        "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: 中国の方（かた）.",
+        "examples": [
+          {
+            "japanese": "ルームメイトは中国人です。",
+            "romaji": "Ruumumeito wa chuugokujin desu.",
+            "german": "Mein Mitbewohner ist Chinese."
+          },
+          {
+            "japanese": "この店には中国人の観光客がたくさん来ます。",
+            "romaji": "Kono mise ni wa chuugokujin no kankoukyaku ga takusan kimasu.",
+            "german": "In diesen Laden kommen viele chinesische Touristen."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5.",
+      "rationale": "Add 中国人【ちゅうごくじん】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1424300; spelling=中国人; reading=ちゅうごくじん; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1424300 中国人/ちゅうごくじん sense(s) 1 support \"Chinese, Chinesin\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1424300",
+            "spelling": "中国人",
+            "reading": "ちゅうごくじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Chinese person"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Chinese, Chinesin\" matches JMdict 1424300 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Roommate’s nationality.",
+          "Tourists in a shop."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1424300; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 中国人 / ちゅうごくじん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 中国人 / ちゅうごくじん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 中国人【ちゅうごくじん】 (N5) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1424300 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "732ce062e4cd6699a7db9c9c0b8270b25372ecb4d5a5ac52d92b0d0fb6dea768",
+        "approvalHash": "7ff8d4161294b344b498959e511685d1ce1cd77511d809414cf15973bc5c59bd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 roommate / ex2 tourists: natural, romaji exact. JMdict 1424300. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "732ce062e4cd6699a7db9c9c0b8270b25372ecb4d5a5ac52d92b0d0fb6dea768",
+        "approvalHash": "7ff8d4161294b344b498959e511685d1ce1cd77511d809414cf15973bc5c59bd"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:kankokujin",
+      "revisionId": "025-add-kankokujin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "韓国人",
+        "reading": "かんこくじん",
+        "romaji": "kankokujin",
+        "meaning": "Südkoreaner(in)",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N5",
+        "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: 韓国の方（かた）.",
+        "examples": [
+          {
+            "japanese": "隣の部屋に韓国人の留学生が住んでいます。",
+            "romaji": "Tonari no heya ni kankokujin no ryuugakusei ga sunde imasu.",
+            "german": "Im Zimmer nebenan wohnt ein koreanischer Austauschstudent."
+          },
+          {
+            "japanese": "彼は韓国人ですが、日本で生まれました。",
+            "romaji": "Kare wa kankokujin desu ga, Nihon de umaremashita.",
+            "german": "Er ist Koreaner, wurde aber in Japan geboren."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5.",
+      "rationale": "Add 韓国人【かんこくじん】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1216190; spelling=韓国人; reading=かんこくじん; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1216190 韓国人/かんこくじん sense(s) 1 support \"Südkoreaner(in)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1216190",
+            "spelling": "韓国人",
+            "reading": "かんこくじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "South Korean person"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Südkoreaner(in)\" matches JMdict 1216190 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Neighbour in a dormitory.",
+          "Nationality vs. birthplace."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1216190; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 韓国人 / かんこくじん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 韓国人 / かんこくじん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 韓国人【かんこくじん】 (N5) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1216190 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "e49634880d3a706e4ec591864eee41cde54b50f9382024a6bf3af4223ba2e6f0",
+        "approvalHash": "32218a2ee098738d43b653875f6d9040db82c17c528eda188055fe30eb5c962a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 dorm neighbour / ex2 nationality vs birthplace: natural, romaji exact. Meaning Südkoreaner(in) matches JMdict 1216190. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "e49634880d3a706e4ec591864eee41cde54b50f9382024a6bf3af4223ba2e6f0",
+        "approvalHash": "32218a2ee098738d43b653875f6d9040db82c17c528eda188055fe30eb5c962a"
+      }
+    },
+    {
+      "id": "vocab-n5:correction:nihonjin",
+      "revisionId": "025-add-nihonjin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "romaji": "nihonjin",
+        "meaning": "Japaner(in)",
+        "type": "Nomen",
+        "category": "Menschen",
+        "level": "N5",
+        "notes": "Land + 人（じん）. Auch にっぽんじん gelesen, im Alltag aber meist にほんじん.",
+        "examples": [
+          {
+            "japanese": "日本人の友達がたくさんいます。",
+            "romaji": "Nihonjin no tomodachi ga takusan imasu.",
+            "german": "Ich habe viele japanische Freunde."
+          },
+          {
+            "japanese": "日本人はよくお辞儀をします。",
+            "romaji": "Nihonjin wa yoku ojigi o shimasu.",
+            "german": "Japaner verbeugen sich oft."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人; basic textbook word. Editorial N5.",
+      "rationale": "Add 日本人【にほんじん】 (N5) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1464700; spelling=日本人; reading=にほんじん; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1464700 日本人/にほんじん sense(s) 1 support \"Japaner(in)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1464700",
+            "spelling": "日本人",
+            "reading": "にほんじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Japanese person"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Japaner(in)\" matches JMdict 1464700 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Friends of a nationality.",
+          "Generalisation about customs."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1464700; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Nationality words are N5 like the existing アメリカ人, フランス人 and イギリス人; basic textbook word. Editorial N5."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 日本人 / にほんじん; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 日本人 / にほんじん",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 日本人【にほんじん】 (N5) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1464700 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "c9d2718aa9319990598ff0d65567bc7d6a44fd86cacededa075de1dbcb5bf7f6",
+        "approvalHash": "fac4a1660a854e1392372923e8bd506c723589ea2844902123e03c9949b678ac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 friends / ex2 bowing: natural, romaji exact. にっぽんじん note correct. JMdict 1464700. Pitch unknown correct (no row). Verified genuinely absent from runtime (日本/日本語 present, 日本人 not). runtime check.cjs: new.",
+        "contentHash": "c9d2718aa9319990598ff0d65567bc7d6a44fd86cacededa075de1dbcb5bf7f6",
+        "approvalHash": "fac4a1660a854e1392372923e8bd506c723589ea2844902123e03c9949b678ac"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:daunroodo",
+      "revisionId": "025-add-daunroodo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ダウンロード",
+        "reading": "ダウンロード",
+        "romaji": "daunroodo",
+        "meaning": "Download, Herunterladen",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Als Verb mit する: アプリをダウンロードする. Gegenteil: アップロード.",
+        "examples": [
+          {
+            "japanese": "このアプリを無料でダウンロードしました。",
+            "romaji": "Kono apuri o muryou de daunroodo shimashita.",
+            "german": "Ich habe diese App kostenlos heruntergeladen."
+          },
+          {
+            "japanese": "ダウンロードに時間がかかっています。",
+            "romaji": "Daunroodo ni jikan ga kakatte imasu.",
+            "german": "Der Download dauert lange."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166952437",
+            "patterns": [
+              4
+            ],
+            "finding": "ダウンロード / ダウンロード; 名詞/普通名詞/サ変可能/*; *; *; lemma ダウンロード-download; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダウンロード",
+              "reading": "ダウンロード",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダウンロード as \"Download, Herunterladen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core smartphone vocabulary, level with the app’s N4 entries スマホ, インターネット and メール. Editorial N4.",
+      "rationale": "Add ダウンロード【ダウンロード】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077010; spelling=ダウンロード; reading=ダウンロード; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1077010 ダウンロード/ダウンロード sense(s) 1 support \"Download, Herunterladen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1077010",
+            "spelling": "ダウンロード",
+            "reading": "ダウンロード",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "download"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Download, Herunterladen\" matches JMdict 1077010 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Getting a free app.",
+          "Slow download (noun use)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1077010; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core smartphone vocabulary, level with the app’s N4 entries スマホ, インターネット and メール. Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@166952437 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166952437",
+            "patterns": [
+              4
+            ],
+            "finding": "ダウンロード / ダウンロード; 名詞/普通名詞/サ変可能/*; *; *; lemma ダウンロード-download; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ダウンロード",
+              "reading": "ダウンロード",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "ダウンロード as \"Download, Herunterladen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ダウンロード【ダウンロード】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1077010 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "532714bb29db31f948f1facc284457ad9cfb023dd7dd6cb61c2942de91401b06",
+        "approvalHash": "7422887e5a1ccb679fcac48dbf915fe23ac3ff261bf1d071d0a1776d713e45c9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 verb use 無料で / ex2 noun use 時間がかかっている: natural, distinct, romaji exact. JMdict 1077010. Pitch sys.dic@166952437 ダウンロード-download aType 4 correct. runtime check.cjs: new.",
+        "contentHash": "532714bb29db31f948f1facc284457ad9cfb023dd7dd6cb61c2942de91401b06",
+        "approvalHash": "7422887e5a1ccb679fcac48dbf915fe23ac3ff261bf1d071d0a1776d713e45c9"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:appuroodo",
+      "revisionId": "025-add-appuroodo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "アップロード",
+        "reading": "アップロード",
+        "romaji": "appuroodo",
+        "meaning": "Upload, Hochladen",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Als Verb mit する: 写真をアップロードする. Umgangssprachlich oft kurz アップする.",
+        "examples": [
+          {
+            "japanese": "旅行の写真をネットにアップロードしました。",
+            "romaji": "Ryokou no shashin o netto ni appuroodo shimashita.",
+            "german": "Ich habe die Urlaubsfotos ins Netz hochgeladen."
+          },
+          {
+            "japanese": "ファイルが大きすぎて、アップロードできません。",
+            "romaji": "Fairu ga ookisugite, appuroodo dekimasen.",
+            "german": "Die Datei ist zu groß und lässt sich nicht hochladen."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44287615",
+            "patterns": [
+              4
+            ],
+            "finding": "アップロード / アップロード; 名詞/普通名詞/サ変可能/*; *; *; lemma アップロード-upload; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "アップロード",
+              "reading": "アップロード",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "アップロード as \"Upload, Hochladen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Less basic counterpart of ダウンロード (N4). Editorial N3.",
+      "rationale": "Add アップロード【アップロード】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1016710; spelling=アップロード; reading=アップロード; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1016710 アップロード/アップロード sense(s) 1 support \"Upload, Hochladen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1016710",
+            "spelling": "アップロード",
+            "reading": "アップロード",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "upload"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Upload, Hochladen\" matches JMdict 1016710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sharing photos online.",
+          "Upload error."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1016710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Less basic counterpart of ダウンロード (N4). Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@44287615 attest 4; primary 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44287615",
+            "patterns": [
+              4
+            ],
+            "finding": "アップロード / アップロード; 名詞/普通名詞/サ変可能/*; *; *; lemma アップロード-upload; aType 4. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "アップロード",
+              "reading": "アップロード",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "アップロード as \"Upload, Hochladen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add アップロード【アップロード】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1016710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "abbd28780d3a2bdc954ec67dac2da0dfe2a2fc2d58a9dcdaa8623dffe89113a9",
+        "approvalHash": "4a16410a13d5269b2d34144b3e3c3d2fa5c688ffd81e4f22733fb43811aa2c6e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 photos to the net / ex2 file too big: natural, romaji exact. アップする colloquial note correct. JMdict 1016710. Pitch sys.dic@44287615 アップロード-upload aType 4. runtime check.cjs: new.",
+        "contentHash": "abbd28780d3a2bdc954ec67dac2da0dfe2a2fc2d58a9dcdaa8623dffe89113a9",
+        "approvalHash": "4a16410a13d5269b2d34144b3e3c3d2fa5c688ffd81e4f22733fb43811aa2c6e"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:pasuwaado",
+      "revisionId": "025-add-pasuwaado",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "パスワード",
+        "reading": "パスワード",
+        "romaji": "pasuwaado",
+        "meaning": "Passwort",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "„Passwort eingeben“: パスワードを入力する. Die Geheimzahl (PIN) der Bankkarte heißt dagegen 暗証番号.",
+        "examples": [
+          {
+            "japanese": "パスワードを忘れてしまいました。",
+            "romaji": "Pasuwaado o wasurete shimaimashita.",
+            "german": "Ich habe mein Passwort vergessen."
+          },
+          {
+            "japanese": "パスワードは八文字以上にしてください。",
+            "romaji": "Pasuwaado wa hachimoji ijou ni shite kudasai.",
+            "german": "Das Passwort muss mindestens acht Zeichen lang sein."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221357104",
+            "patterns": [
+              3
+            ],
+            "finding": "パスワード / パスワード; 名詞/普通名詞/一般/*; *; *; lemma パスワード; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "パスワード",
+              "reading": "パスワード",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "パスワード as \"Passwort\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4.",
+      "rationale": "Add パスワード【パスワード】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1101520; spelling=パスワード; reading=パスワード; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1101520 パスワード/パスワード sense(s) 1 support \"Passwort\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1101520",
+            "spelling": "パスワード",
+            "reading": "パスワード",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "password"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Passwort\" matches JMdict 1101520 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Forgotten password.",
+          "Password rule on a form."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1101520; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@221357104 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221357104",
+            "patterns": [
+              3
+            ],
+            "finding": "パスワード / パスワード; 名詞/普通名詞/一般/*; *; *; lemma パスワード; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "パスワード",
+              "reading": "パスワード",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "パスワード as \"Passwort\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add パスワード【パスワード】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1101520 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "18ca4308d1fa18db2f6ea09a70d1c484d3218a9bf5bdc2379d3120ef6b635bdb",
+        "approvalHash": "271b403766864e6c51d7e7362dde1c96c62b49fc965635dfd6987c721891d902"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 forgot / ex2 八文字以上 (hachimoji) rule: natural, romaji exact. 暗証番号 PIN note correct (暗証番号 exists N3). JMdict 1101520. Pitch sys.dic@221357104 aType 3. runtime check.cjs: new.",
+        "contentHash": "18ca4308d1fa18db2f6ea09a70d1c484d3218a9bf5bdc2379d3120ef6b635bdb",
+        "approvalHash": "271b403766864e6c51d7e7362dde1c96c62b49fc965635dfd6987c721891d902"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:roguin",
+      "revisionId": "025-add-roguin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ログイン",
+        "reading": "ログイン",
+        "romaji": "roguin",
+        "meaning": "Anmeldung, Login",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Als Verb mit する: サイトにログインする. Gegenteil: ログアウト.",
+        "examples": [
+          {
+            "japanese": "メールアドレスとパスワードでログインします。",
+            "romaji": "Meeruadoresu to pasuwaado de roguin shimasu.",
+            "german": "Man meldet sich mit E-Mail-Adresse und Passwort an."
+          },
+          {
+            "japanese": "朝からログインできなくて困っています。",
+            "romaji": "Asa kara roguin dekinakute komatte imasu.",
+            "german": "Seit heute Morgen kann ich mich nicht anmelden und bin ratlos."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4.",
+      "rationale": "Add ログイン【ログイン】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1147120; spelling=ログイン; reading=ログイン; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1147120 ログイン/ログイン sense(s) 1 support \"Anmeldung, Login\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1147120",
+            "spelling": "ログイン",
+            "reading": "ログイン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "login"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Anmeldung, Login\" matches JMdict 1147120 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "How to log in.",
+          "Login problem."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1147120; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ログイン / ログイン; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ログイン / ログイン",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ログイン【ログイン】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1147120 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "1397d113757a934f93bdcdaac5245d1fa16f78364bda4af177eb9f8fe2fe4858",
+        "approvalHash": "b0c3832ac2514092f7df990d1e4636b9bc253a9467c74a53900de76edb7188d4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 how to log in / ex2 problem since morning: natural, romaji exact. JMdict 1147120. Pitch unknown correct: re-scan of sys.dic found no ログイン row. runtime check.cjs: new.",
+        "contentHash": "1397d113757a934f93bdcdaac5245d1fa16f78364bda4af177eb9f8fe2fe4858",
+        "approvalHash": "b0c3832ac2514092f7df990d1e4636b9bc253a9467c74a53900de76edb7188d4"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:roguauto",
+      "revisionId": "025-add-roguauto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ログアウト",
+        "reading": "ログアウト",
+        "romaji": "roguauto",
+        "meaning": "Abmeldung, Logout",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Als Verb mit する. An fremden Computern: 使ったあとは必ずログアウトする.",
+        "examples": [
+          {
+            "japanese": "共用のパソコンでは必ずログアウトしてください。",
+            "romaji": "Kyouyou no pasokon de wa kanarazu roguauto shite kudasai.",
+            "german": "An gemeinsam genutzten Computern bitte immer abmelden."
+          },
+          {
+            "japanese": "しばらく操作しないと、自動的にログアウトされます。",
+            "romaji": "Shibaraku sousa shinai to, jidouteki ni roguauto saremasu.",
+            "german": "Wenn man eine Weile nichts tut, wird man automatisch abgemeldet."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Less basic counterpart of ログイン (N4). Editorial N3.",
+      "rationale": "Add ログアウト【ログアウト】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1147110; spelling=ログアウト; reading=ログアウト; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1147110 ログアウト/ログアウト sense(s) 1 support \"Abmeldung, Logout\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1147110",
+            "spelling": "ログアウト",
+            "reading": "ログアウト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "logout"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Abmeldung, Logout\" matches JMdict 1147110 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Security rule.",
+          "Automatic session timeout."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1147110; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Less basic counterpart of ログイン (N4). Editorial N3."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ログアウト / ログアウト; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ログアウト / ログアウト",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ログアウト【ログアウト】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1147110 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "29ee792b9d777aa114f5370ec80fb0b25731bb91f5587d3da8a1e6ab6c27b188",
+        "approvalHash": "7caf3333bd38f59290629da32397cc1a7c1fb9db8b11fb1319dc480731b669c7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 shared PC rule / ex2 automatic logout (passive): natural, romaji exact. JMdict 1147110. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "29ee792b9d777aa114f5370ec80fb0b25731bb91f5587d3da8a1e6ab6c27b188",
+        "approvalHash": "7caf3333bd38f59290629da32397cc1a7c1fb9db8b11fb1319dc480731b669c7"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:akaunto",
+      "revisionId": "025-add-akaunto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "アカウント",
+        "reading": "アカウント",
+        "romaji": "akaunto",
+        "meaning": "Konto, Account (online)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Benutzerkonto bei einem Dienst: アカウントを作る. Ein Bankkonto ist dagegen 口座（こうざ）.",
+        "examples": [
+          {
+            "japanese": "新しいアカウントを作りました。",
+            "romaji": "Atarashii akaunto o tsukurimashita.",
+            "german": "Ich habe ein neues Konto angelegt."
+          },
+          {
+            "japanese": "このアカウントは仕事用です。",
+            "romaji": "Kono akaunto wa shigotoyou desu.",
+            "german": "Dieser Account ist für die Arbeit."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@40610166",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "アカウント / アカウント; 名詞/普通名詞/一般/*; *; *; lemma アカウント-account; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "アカウント",
+              "reading": "アカウント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "アカウント as \"Konto, Account (online)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4.",
+      "rationale": "Add アカウント【アカウント】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1014970; spelling=アカウント; reading=アカウント; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1014970 アカウント/アカウント sense(s) 1 support \"Konto, Account (online)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1014970",
+            "spelling": "アカウント",
+            "reading": "アカウント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "account"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Konto, Account (online)\" matches JMdict 1014970 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Creating an account.",
+          "Separating work and private use."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1014970; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with スマホ and メール (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@40610166 attest 2,0; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@40610166",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "アカウント / アカウント; 名詞/普通名詞/一般/*; *; *; lemma アカウント-account; aType 2,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "アカウント",
+              "reading": "アカウント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "アカウント as \"Konto, Account (online)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add アカウント【アカウント】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1014970 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "f18b2637f004a844d00fb7e3ddc2aa98ddd3c8d48ee883e9dbd8d2318e7267c9",
+        "approvalHash": "c5eec2ed201461593349710005460da0fa85604f826b566abc3195096803889b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 create / ex2 仕事用 (shigotoyou): natural, romaji exact. 口座 contrast correct. JMdict 1014970. Pitch sys.dic@40610166 アカウント-account aType 2,0 correct. runtime check.cjs: new.",
+        "contentHash": "f18b2637f004a844d00fb7e3ddc2aa98ddd3c8d48ee883e9dbd8d2318e7267c9",
+        "approvalHash": "c5eec2ed201461593349710005460da0fa85604f826b566abc3195096803889b"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:douga",
+      "revisionId": "025-add-douga",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "動画",
+        "reading": "どうが",
+        "romaji": "douga",
+        "meaning": "Video (online)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Wörtlich „bewegtes Bild“; das übliche Wort für Online-Videos (動画を見る／撮る). ビデオ klingt eher nach Aufnahme oder Kassette.",
+        "examples": [
+          {
+            "japanese": "寝る前にスマホで動画を見ます。",
+            "romaji": "Neru mae ni sumaho de douga o mimasu.",
+            "german": "Vor dem Schlafen schaue ich Videos auf dem Smartphone."
+          },
+          {
+            "japanese": "子どもの誕生日を動画で撮りました。",
+            "romaji": "Kodomo no tanjoubi o douga de torimashita.",
+            "german": "Ich habe den Geburtstag meines Kindes als Video aufgenommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192334879",
+            "patterns": [
+              0
+            ],
+            "finding": "動画 / ドウガ; 名詞/普通名詞/一般/*; *; *; lemma 動画; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "動画",
+              "reading": "どうが",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "動画 as \"Video (online)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Frequent everyday word in kanji; placed with the app’s N3 digital vocabulary (検索, 保存, 画面). Editorial N3.",
+      "rationale": "Add 動画【どうが】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1451290; spelling=動画; reading=どうが; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1451290 動画/どうが sense(s) 1 support \"Video (online)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1451290",
+            "spelling": "動画",
+            "reading": "どうが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "video (esp. digital)",
+                  "video clip",
+                  "clip"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Video (online)\" matches JMdict 1451290 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Watching videos.",
+          "Recording a video."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1451290; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Frequent everyday word in kanji; placed with the app’s N3 digital vocabulary (検索, 保存, 画面). Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@192334879 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192334879",
+            "patterns": [
+              0
+            ],
+            "finding": "動画 / ドウガ; 名詞/普通名詞/一般/*; *; *; lemma 動画; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "動画",
+              "reading": "どうが",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "動画 as \"Video (online)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 動画【どうが】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1451290 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "30e5cd178d3a508db57ff42c686f6f405a2382e4a3b87b7c0897e1ad1566288b",
+        "approvalHash": "8d0d0edaa3885f24d69e9aac2b5e77a5b4593737e4afb411717e2c34d7cf595e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 watching / ex2 recording 動画で撮る: natural, romaji exact. JMdict 1451290. Pitch sys.dic@192334879 動画/ドウガ aType 0 correct. runtime check.cjs: new.",
+        "contentHash": "30e5cd178d3a508db57ff42c686f6f405a2382e4a3b87b7c0897e1ad1566288b",
+        "approvalHash": "8d0d0edaa3885f24d69e9aac2b5e77a5b4593737e4afb411717e2c34d7cf595e"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:saito",
+      "revisionId": "025-add-saito",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "サイト",
+        "reading": "サイト",
+        "romaji": "saito",
+        "meaning": "Website",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Kurz für ウェブサイト. Auch „Stätte, Gelände“ (z. B. キャンプサイト).",
+        "examples": [
+          {
+            "japanese": "このサイトで安いホテルを探せます。",
+            "romaji": "Kono saito de yasui hoteru o sagasemasu.",
+            "german": "Auf dieser Website kann man günstige Hotels finden."
+          },
+          {
+            "japanese": "詳しいことは会社のサイトを見てください。",
+            "romaji": "Kuwashii koto wa kaisha no saito o mite kudasai.",
+            "german": "Details finden Sie auf der Website der Firma."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127069641",
+            "patterns": [
+              0
+            ],
+            "finding": "サイト / サイト; 名詞/普通名詞/一般/*; *; *; lemma サイト-site; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "サイト",
+              "reading": "サイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "サイト as \"Website\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4.",
+      "rationale": "Add サイト【サイト】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1055810; spelling=サイト; reading=サイト; senses=1,2; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1055810 サイト/サイト sense(s) 1,2 support \"Website\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1055810",
+            "spelling": "サイト",
+            "reading": "サイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "site"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "website"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Website\" matches JMdict 1055810 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Searching hotels online.",
+          "Referring to an official website."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1055810; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@127069641 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127069641",
+            "patterns": [
+              0
+            ],
+            "finding": "サイト / サイト; 名詞/普通名詞/一般/*; *; *; lemma サイト-site; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "サイト",
+              "reading": "サイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "サイト as \"Website\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add サイト【サイト】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1055810 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2c4161e7a0790bfa8bca85e3d7b330b6d22935a3d667469dfe6755b615f4a29f",
+        "approvalHash": "c958ff05b56504a918d4e713bb0c0b5748e36cf5b842a3d2c9cfd349d644a7ac"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 hotel search / ex2 company site: natural, romaji exact. JMdict 1055810 senses 1-2 cover note. Pitch sys.dic@127069641 lemma サイト-site aType 0 - correct lexeme (sight row @127069451 and 人名 row avoided). runtime check.cjs: new.",
+        "contentHash": "2c4161e7a0790bfa8bca85e3d7b330b6d22935a3d667469dfe6755b615f4a29f",
+        "approvalHash": "c958ff05b56504a918d4e713bb0c0b5748e36cf5b842a3d2c9cfd349d644a7ac"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:webusaito",
+      "revisionId": "025-add-webusaito",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ウェブサイト",
+        "reading": "ウェブサイト",
+        "romaji": "webusaito",
+        "meaning": "Website",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Vollform; im Gespräch meist kurz サイト oder (veraltend) ホームページ.",
+        "examples": [
+          {
+            "japanese": "市のウェブサイトにごみの出し方が載っています。",
+            "romaji": "Shi no webusaito ni gomi no dashikata ga notte imasu.",
+            "german": "Auf der Website der Stadt steht, wie man den Müll rausstellt."
+          },
+          {
+            "japanese": "新しいウェブサイトを作る仕事をしています。",
+            "romaji": "Atarashii webusaito o tsukuru shigoto o shite imasu.",
+            "german": "Meine Arbeit ist es, neue Websites zu erstellen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59905109",
+            "patterns": [
+              3
+            ],
+            "finding": "ウェブサイト / ウェブサイト; 名詞/普通名詞/一般/*; *; *; lemma ウェブサイト-website; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ウェブサイト",
+              "reading": "ウェブサイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ウェブサイト as \"Website\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Full form of サイト (N4), more formal. Editorial N3.",
+      "rationale": "Add ウェブサイト【ウェブサイト】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1986140; spelling=ウェブサイト; reading=ウェブサイト; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1986140 ウェブサイト/ウェブサイト sense(s) 1 support \"Website\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1986140",
+            "spelling": "ウェブサイト",
+            "reading": "ウェブサイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "website",
+                  "web site"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Website\" matches JMdict 1986140 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Public information online.",
+          "Web-design job."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1986140; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Full form of サイト (N4), more formal. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@59905109 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59905109",
+            "patterns": [
+              3
+            ],
+            "finding": "ウェブサイト / ウェブサイト; 名詞/普通名詞/一般/*; *; *; lemma ウェブサイト-website; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ウェブサイト",
+              "reading": "ウェブサイト",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ウェブサイト as \"Website\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ウェブサイト【ウェブサイト】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1986140 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "054eec60705575dccbdbf061fe1a8bf846d459485c38fd27ea6c0ed3cc6959cb",
+        "approvalHash": "302ef8ffad80714cf203082d95d6e3cde77c2ee3eec718e6ae99a89b7606bc01"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 city site garbage rules / ex2 web design job: natural, romaji exact. JMdict 1986140. Pitch sys.dic@59905109 ウェブサイト-website aType 3. runtime check.cjs: new.",
+        "contentHash": "054eec60705575dccbdbf061fe1a8bf846d459485c38fd27ea6c0ed3cc6959cb",
+        "approvalHash": "302ef8ffad80714cf203082d95d6e3cde77c2ee3eec718e6ae99a89b7606bc01"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:hoomupeeji",
+      "revisionId": "025-add-hoomupeeji",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ホームページ",
+        "reading": "ホームページ",
+        "romaji": "hoomupeeji",
+        "meaning": "Website, Homepage",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "In Japan oft für die ganze Website benutzt, nicht nur die Startseite. Abkürzung: HP.",
+        "examples": [
+          {
+            "japanese": "お店のホームページで営業時間を調べました。",
+            "romaji": "Omise no hoomupeeji de eigyou jikan o shirabemashita.",
+            "german": "Ich habe auf der Website des Ladens die Öffnungszeiten nachgesehen."
+          },
+          {
+            "japanese": "学校のホームページに写真が出ています。",
+            "romaji": "Gakkou no hoomupeeji ni shashin ga dete imasu.",
+            "german": "Auf der Website der Schule sind Fotos."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Common everyday word, level with インターネット (N4). Editorial N4.",
+      "rationale": "Add ホームページ【ホームページ】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1648000; spelling=ホームページ; reading=ホームページ; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1648000 ホームページ/ホームページ sense(s) 1 support \"Website, Homepage\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1648000",
+            "spelling": "ホームページ",
+            "reading": "ホームページ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "home page (of a website or browser)",
+                  "homepage"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Website, Homepage\" matches JMdict 1648000 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Checking opening hours.",
+          "School website."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1648000; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Common everyday word, level with インターネット (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for ホームページ / ホームページ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup ホームページ / ホームページ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ホームページ【ホームページ】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1648000 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "040ee7fff43f3dca4af7ca7b995a233b2f3975f0afb29d6e6b4fd0cc87260683",
+        "approvalHash": "6266d4b1ea134717ebb5b4635a5ae9112ec938f97d019d30b71e0526900694e4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 opening hours (お店 omise) / ex2 school photos: natural, romaji exact. \"ganze Website\" and HP notes correct. JMdict 1648000. Pitch unknown correct (no row). runtime check.cjs: new.",
+        "contentHash": "040ee7fff43f3dca4af7ca7b995a233b2f3975f0afb29d6e6b4fd0cc87260683",
+        "approvalHash": "6266d4b1ea134717ebb5b4635a5ae9112ec938f97d019d30b71e0526900694e4"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:rinku",
+      "revisionId": "025-add-rinku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "リンク",
+        "reading": "リンク",
+        "romaji": "rinku",
+        "meaning": "Link (Verknüpfung)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Als Verb mit する (verlinken). „Einen Link schicken“: リンクを送る. Gleich klingend: リンク (Eisbahn).",
+        "examples": [
+          {
+            "japanese": "会議のリンクをメールで送ります。",
+            "romaji": "Kaigi no rinku o meeru de okurimasu.",
+            "german": "Ich schicke den Link zur Besprechung per E-Mail."
+          },
+          {
+            "japanese": "このリンクをクリックしてください。",
+            "romaji": "Kono rinku o kurikku shite kudasai.",
+            "german": "Bitte klicken Sie auf diesen Link."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279191993",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "リンク / リンク; 名詞/普通名詞/サ変可能/*; *; *; lemma リンク-link; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リンク",
+              "reading": "リンク",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "リンク as \"Link (Verknüpfung)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4.",
+      "rationale": "Add リンク【リンク】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1143400; spelling=リンク; reading=リンク; senses=2; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1143400 リンク/リンク sense(s) 2 support \"Link (Verknüpfung)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1143400",
+            "spelling": "リンク",
+            "reading": "リンク",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "link",
+                  "hyperlink"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Link (Verknüpfung)\" matches JMdict 1143400 sense(s) 2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Sending a meeting link.",
+          "Instruction to click."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1143400; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@279191993 attest 0,1; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279191993",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "リンク / リンク; 名詞/普通名詞/サ変可能/*; *; *; lemma リンク-link; aType 0,1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "リンク",
+              "reading": "リンク",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "リンク as \"Link (Verknüpfung)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add リンク【リンク】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1143400 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "b9804e399ef88f7df65ee45bd5b0727be331bab55a3dca083c099518d4daf05b",
+        "approvalHash": "c1e01102a1a01388b8001e2543708d9a2f41ea0169525d95f96e9bb7a88542c1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 sending meeting link / ex2 click link: natural, romaji exact. Pitch row sys.dic@279191993 lemma リンク-link サ変可能 aType 0,1 - correct lexeme (rink row @279193026 not used). JMdict 1143400 sense 2 hyperlink; rink homophone note matches JMdict 2853644. runtime check.cjs: new.",
+        "contentHash": "b9804e399ef88f7df65ee45bd5b0727be331bab55a3dca083c099518d4daf05b",
+        "approvalHash": "c1e01102a1a01388b8001e2543708d9a2f41ea0169525d95f96e9bb7a88542c1"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:kurikku",
+      "revisionId": "025-add-kurikku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "クリック",
+        "reading": "クリック",
+        "romaji": "kurikku",
+        "meaning": "Klick, Anklicken",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Als Verb mit する: ボタンをクリックする. Doppelklick: ダブルクリック. Auf dem Smartphone sagt man eher タップ.",
+        "examples": [
+          {
+            "japanese": "右上のボタンをクリックしてください。",
+            "romaji": "Migiue no botan o kurikku shite kudasai.",
+            "german": "Klicken Sie auf die Schaltfläche oben rechts."
+          },
+          {
+            "japanese": "クリック一つで注文できます。",
+            "romaji": "Kurikku hitotsu de chuumon dekimasu.",
+            "german": "Man kann mit einem einzigen Klick bestellen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@114670747",
+            "patterns": [
+              2
+            ],
+            "finding": "クリック / クリック; 名詞/普通名詞/サ変可能/*; *; *; lemma クリック-click; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "クリック",
+              "reading": "クリック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "クリック as \"Klick, Anklicken\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4.",
+      "rationale": "Add クリック【クリック】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1044910; spelling=クリック; reading=クリック; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1044910 クリック/クリック sense(s) 1 support \"Klick, Anklicken\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1044910",
+            "spelling": "クリック",
+            "reading": "クリック",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(mouse) click"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Klick, Anklicken\" matches JMdict 1044910 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Computer instruction.",
+          "One-click ordering."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1044910; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with インターネット (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@114670747 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@114670747",
+            "patterns": [
+              2
+            ],
+            "finding": "クリック / クリック; 名詞/普通名詞/サ変可能/*; *; *; lemma クリック-click; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "クリック",
+              "reading": "クリック",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "クリック as \"Klick, Anklicken\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add クリック【クリック】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1044910 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "41ea3601c7c68dfb3659a7384d3b3357ffd1f9f8e108a3af01eb7b44ab00e048",
+        "approvalHash": "450941d2ecc05aea2d0ead919e69df2e496549f88e204520365f070f54fd5379"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 button top right (migiue) / ex2 one-click ordering: natural, romaji exact. JMdict 1044910. Pitch sys.dic@114670747 クリック-click aType 2 (Crick 人名 row avoided). runtime check.cjs: new.",
+        "contentHash": "41ea3601c7c68dfb3659a7384d3b3357ffd1f9f8e108a3af01eb7b44ab00e048",
+        "approvalHash": "450941d2ecc05aea2d0ead919e69df2e496549f88e204520365f070f54fd5379"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:sumaatofon",
+      "revisionId": "025-add-sumaatofon",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "スマートフォン",
+        "reading": "スマートフォン",
+        "romaji": "sumaatofon",
+        "meaning": "Smartphone",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Vollform von スマホ; in Anleitungen und Nachrichten üblich, im Gespräch fast immer スマホ.",
+        "examples": [
+          {
+            "japanese": "スマートフォンの使い方を祖母に教えました。",
+            "romaji": "Sumaatofon no tsukaikata o sobo ni oshiemashita.",
+            "german": "Ich habe meiner Großmutter gezeigt, wie man ein Smartphone benutzt."
+          },
+          {
+            "japanese": "スマートフォンをお持ちの方は、画面を見せてください。",
+            "romaji": "Sumaatofon o omochi no kata wa, gamen o misete kudasai.",
+            "german": "Wer ein Smartphone hat, zeigt bitte den Bildschirm vor."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Full form of the existing N4 entry スマホ. Editorial N4.",
+      "rationale": "Add スマートフォン【スマートフォン】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2304550; spelling=スマートフォン; reading=スマートフォン; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2304550 スマートフォン/スマートフォン sense(s) 1 support \"Smartphone\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2304550",
+            "spelling": "スマートフォン",
+            "reading": "スマートフォン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "smartphone",
+                  "smart phone"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Smartphone\" matches JMdict 2304550 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Teaching a relative.",
+          "Polite instruction at a counter."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2304550; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Full form of the existing N4 entry スマホ. Editorial N4."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for スマートフォン / スマートフォン; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup スマートフォン / スマートフォン",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add スマートフォン【スマートフォン】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2304550 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "be6c650850116131f97718d5acb11755d3d5c0684ce92cb35264a9e92a59a5b0",
+        "approvalHash": "76e1e4bafb7d8ecc950558f9945ba21dba939884b7f7e4b87bf63d4fb681f2c8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 teaching grandmother / ex2 お持ちの方 counter instruction: natural, romaji exact. JMdict 2304550. Pitch unknown correct (no row). スマホ N4 exists. runtime check.cjs: new.",
+        "contentHash": "be6c650850116131f97718d5acb11755d3d5c0684ce92cb35264a9e92a59a5b0",
+        "approvalHash": "76e1e4bafb7d8ecc950558f9945ba21dba939884b7f7e4b87bf63d4fb681f2c8"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:esuenuesu",
+      "revisionId": "025-add-esuenuesu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "SNS",
+        "reading": "エスエヌエス",
+        "romaji": "esuenuesu",
+        "meaning": "soziale Medien, soziales Netzwerk",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Wird mit lateinischen Buchstaben geschrieben (SNS, auch ＳＮＳ) und エスエヌエス gelesen. Im Japanischen das übliche Wort für „soziale Medien“ (ソーシャルメディア ist seltener).",
+        "examples": [
+          {
+            "japanese": "SNSで友達の近況を知りました。",
+            "romaji": "Esuenuesu de tomodachi no kinkyou o shirimashita.",
+            "german": "Über soziale Medien habe ich erfahren, wie es meinem Freund geht."
+          },
+          {
+            "japanese": "個人情報をSNSに書かないほうがいいです。",
+            "romaji": "Kojin jouhou o esuenuesu ni kakanai hou ga ii desu.",
+            "german": "Man sollte keine persönlichen Daten in sozialen Medien posten."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70402134",
+            "patterns": [
+              5
+            ],
+            "finding": "ＳＮＳ / エスエヌエス; 名詞/普通名詞/一般/*; *; *; lemma ＳＮＳ; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "SNS",
+              "reading": "エスエヌエス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; UniDic orth ＳＮＳ is the full-width, NFKC-identical form of SNS",
+              "sense": "SNS as \"soziale Medien, soziales Netzwerk\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Everyday media word, placed with the app’s N3 digital vocabulary (検索, 投稿-type actions). Editorial N3.",
+      "rationale": "Add SNS【エスエヌエス】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2237890; spelling=ＳＮＳ; reading=エスエヌエス; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2237890 ＳＮＳ/エスエヌエス sense(s) 1 support \"soziale Medien, soziales Netzwerk\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2237890",
+            "spelling": "ＳＮＳ",
+            "reading": "エスエヌエス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "social networking service",
+                  "SNS",
+                  "social media"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"soziale Medien, soziales Netzwerk\" matches JMdict 2237890 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Keeping up with friends.",
+          "Privacy advice."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2237890; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Everyday media word, placed with the app’s N3 digital vocabulary (検索, 投稿-type actions). Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@70402134 attest 5; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70402134",
+            "patterns": [
+              5
+            ],
+            "finding": "ＳＮＳ / エスエヌエス; 名詞/普通名詞/一般/*; *; *; lemma ＳＮＳ; aType 5. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "SNS",
+              "reading": "エスエヌエス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; UniDic orth ＳＮＳ is the full-width, NFKC-identical form of SNS",
+              "sense": "SNS as \"soziale Medien, soziales Netzwerk\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add SNS【エスエヌエス】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2237890 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "12bb6f50a7d1fe8922240b4ba4864b5897e313d6ef6bba7e1f270150e915f00c",
+        "approvalHash": "6f36222b04978ece9316fb4416ff48980de686358f02a3b197a338a21f5aa91c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 news of friends (近況) / ex2 privacy advice: natural, romaji exact (Esuenuesu). JMdict 2237890. Pitch sys.dic@70402134 ＳＮＳ/エスエヌエス aType 5: orth is full-width, NFKC-identical to the stored half-width \"SNS\"; provenance states this explicitly - acceptable, and no other row exists. runtime check.cjs: new.",
+        "contentHash": "12bb6f50a7d1fe8922240b4ba4864b5897e313d6ef6bba7e1f270150e915f00c",
+        "approvalHash": "6f36222b04978ece9316fb4416ff48980de686358f02a3b197a338a21f5aa91c"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:kidoku",
+      "revisionId": "025-add-kidoku",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "既読",
+        "reading": "きどく",
+        "romaji": "kidoku",
+        "meaning": "gelesen (Nachrichtenstatus)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Anzeige in Messenger-Apps wie LINE. 既読スルー／既読無視: eine Nachricht lesen, aber nicht antworten. Gegenteil: 未読（みどく）.",
+        "examples": [
+          {
+            "japanese": "メッセージに既読がついたのに、返事が来ません。",
+            "romaji": "Messeeji ni kidoku ga tsuita noni, henji ga kimasen.",
+            "german": "Die Nachricht wurde als gelesen markiert, aber es kommt keine Antwort."
+          },
+          {
+            "japanese": "既読スルーされると、少し寂しいです。",
+            "romaji": "Kidoku suruu sareru to, sukoshi sabishii desu.",
+            "german": "Wenn jemand liest und nicht antwortet, bin ich ein bisschen traurig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104927213",
+            "patterns": [
+              0
+            ],
+            "finding": "既読 / キドク; 名詞/普通名詞/一般/*; *; *; lemma 既読; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "既読",
+              "reading": "きどく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "既読 as \"gelesen (Nachrichtenstatus)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Frequent messaging word written in kanji; placed with the app’s N3 digital vocabulary. Editorial N3.",
+      "rationale": "Add 既読【きどく】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2056830; spelling=既読; reading=きどく; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2056830 既読/きどく sense(s) 1 support \"gelesen (Nachrichtenstatus)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2056830",
+            "spelling": "既読",
+            "reading": "きどく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "already read"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"gelesen (Nachrichtenstatus)\" matches JMdict 2056830 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Read receipt without reply.",
+          "Feelings about being ignored."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2056830; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Frequent messaging word written in kanji; placed with the app’s N3 digital vocabulary. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@104927213 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104927213",
+            "patterns": [
+              0
+            ],
+            "finding": "既読 / キドク; 名詞/普通名詞/一般/*; *; *; lemma 既読; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "既読",
+              "reading": "きどく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "既読 as \"gelesen (Nachrichtenstatus)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 既読【きどく】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2056830 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "4654c2dda34a52a68b82077714f57c726cc322c81ec7534c9195523ecbe64650",
+        "approvalHash": "c766053fe75c45d86a440761e78ccb4e40ab37bbb943b6ee5d58ae7371a60e5f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 read receipt のに / ex2 既読スルー passive: natural, romaji exact. 既読スルー/既読無視 and 未読 notes correct. JMdict 2056830. Pitch sys.dic@104927213 既読/キドク aType 0. runtime check.cjs: new.",
+        "contentHash": "4654c2dda34a52a68b82077714f57c726cc322c81ec7534c9195523ecbe64650",
+        "approvalHash": "c766053fe75c45d86a440761e78ccb4e40ab37bbb943b6ee5d58ae7371a60e5f"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:chatto",
+      "revisionId": "025-add-chatto",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "チャット",
+        "reading": "チャット",
+        "romaji": "chatto",
+        "meaning": "Chat",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N4",
+        "notes": "Als Verb mit する: 友達とチャットする. Auch die Chatfunktion in Apps oder beim Kundendienst.",
+        "examples": [
+          {
+            "japanese": "夜は友達とチャットしています。",
+            "romaji": "Yoru wa tomodachi to chatto shite imasu.",
+            "german": "Abends chatte ich mit Freunden."
+          },
+          {
+            "japanese": "質問はチャットでも受け付けています。",
+            "romaji": "Shitsumon wa chatto demo uketsukete imasu.",
+            "german": "Fragen nehmen wir auch per Chat entgegen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169603263",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "チャット / チャット; 名詞/普通名詞/サ変可能/*; *; *; lemma チャット-chat; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "チャット",
+              "reading": "チャット",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "チャット as \"Chat\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Core everyday digital vocabulary, level with メール (N4). Editorial N4.",
+      "rationale": "Add チャット【チャット】 (N4) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1077940; spelling=チャット; reading=チャット; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1077940 チャット/チャット sense(s) 1 support \"Chat\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1077940",
+            "spelling": "チャット",
+            "reading": "チャット",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chat"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Chat\" matches JMdict 1077940 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Chatting with friends.",
+          "Customer support channel."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1077940; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Core everyday digital vocabulary, level with メール (N4). Editorial N4."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@169603263 attest 1,0; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169603263",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "チャット / チャット; 名詞/普通名詞/サ変可能/*; *; *; lemma チャット-chat; aType 1,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "チャット",
+              "reading": "チャット",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "チャット as \"Chat\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add チャット【チャット】 (N4) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1077940 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "1ba89975c53afda8d4607886377117847c0e414bcd6af44fbb069ccfe425bad1",
+        "approvalHash": "ed74b268f736a49f0b2a4dc4a9413d6b972a8440961414fafc45160ba10d689b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 chatting with friends / ex2 support channel: natural, romaji exact. Pitch row sys.dic@169603263 lemma チャット-chat aType 1,0 - correct lexeme (Kyat row @169603034 avoided). JMdict 1077940. runtime check.cjs: new.",
+        "contentHash": "1ba89975c53afda8d4607886377117847c0e414bcd6af44fbb069ccfe425bad1",
+        "approvalHash": "ed74b268f736a49f0b2a4dc4a9413d6b972a8440961414fafc45160ba10d689b"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:haishin",
+      "revisionId": "025-add-haishin",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "配信",
+        "reading": "はいしん",
+        "romaji": "haishin",
+        "meaning": "Streaming, Übertragung; Versand (von Nachrichten)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "Als Verb mit する: 動画を配信する (streamen), ニュースを配信する (verbreiten). Livestream: ライブ配信.",
+        "examples": [
+          {
+            "japanese": "試合はネットでライブ配信されます。",
+            "romaji": "Shiai wa netto de raibu haishin saremasu.",
+            "german": "Das Spiel wird live im Internet gestreamt."
+          },
+          {
+            "japanese": "登録すると、毎週ニュースが配信されます。",
+            "romaji": "Touroku suru to, maishuu nyuusu ga haishin saremasu.",
+            "german": "Nach der Anmeldung bekommt man jede Woche Nachrichten zugeschickt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211092554",
+            "patterns": [
+              0
+            ],
+            "finding": "配信 / ハイシン; 名詞/普通名詞/サ変可能/*; *; *; lemma 配信; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "配信",
+              "reading": "はいしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "配信 as \"Streaming, Übertragung; Versand (von Nachrichten)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Media and news vocabulary; JMdict common word of the written register. Editorial N2.",
+      "rationale": "Add 配信【はいしん】 (N2) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1639050; spelling=配信; reading=はいしん; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1639050 配信/はいしん sense(s) 1 support \"Streaming, Übertragung; Versand (von Nachrichten)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1639050",
+            "spelling": "配信",
+            "reading": "はいしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "distribution (of information, news, etc.)",
+                  "broadcast",
+                  "delivery",
+                  "transmission",
+                  "streaming (over the Internet)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Streaming, Übertragung; Versand (von Nachrichten)\" matches JMdict 1639050 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Live streaming a match.",
+          "Newsletter delivery."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1639050; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Media and news vocabulary; JMdict common word of the written register. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@211092554 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211092554",
+            "patterns": [
+              0
+            ],
+            "finding": "配信 / ハイシン; 名詞/普通名詞/サ変可能/*; *; *; lemma 配信; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "配信",
+              "reading": "はいしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "配信 as \"Streaming, Übertragung; Versand (von Nachrichten)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add 配信【はいしん】 (N2) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1639050 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "ef79b2028aef5dc311a48e34dc05cfa19397108e62ac59fd6c423498d20e62a4",
+        "approvalHash": "a58e051a728d9450b10f89c890e90453507f43765bf34a2e9de1c95aaa4f3eec"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 live stream passive / ex2 newsletter delivery: natural, distinct, romaji exact. JMdict 1639050 single sense covers streaming + distribution. Pitch sys.dic@211092554 配信/ハイシン aType 0. N2 reasonable. runtime check.cjs: new.",
+        "contentHash": "ef79b2028aef5dc311a48e34dc05cfa19397108e62ac59fd6c423498d20e62a4",
+        "approvalHash": "a58e051a728d9450b10f89c890e90453507f43765bf34a2e9de1c95aaa4f3eec"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:foroo",
+      "revisionId": "025-add-foroo",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "フォロー",
+        "reading": "フォロー",
+        "romaji": "foroo",
+        "meaning": "Folgen (SNS); Unterstützung, Nachbetreuung",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "Als Verb mit する. In sozialen Medien: アカウントをフォローする. Im Beruf auch „jemanden unterstützen, einen Fehler ausbügeln“ (部下をフォローする).",
+        "examples": [
+          {
+            "japanese": "好きな歌手をSNSでフォローしています。",
+            "romaji": "Suki na kashu o esuenuesu de foroo shite imasu.",
+            "german": "Ich folge meiner Lieblingssängerin in den sozialen Medien."
+          },
+          {
+            "japanese": "新人のミスを先輩がフォローしました。",
+            "romaji": "Shinjin no misu o senpai ga foroo shimashita.",
+            "german": "Der erfahrene Kollege hat den Fehler des Neulings ausgebügelt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231075028",
+            "patterns": [
+              1
+            ],
+            "finding": "フォロー / フォロー; 名詞/普通名詞/サ変可能/*; *; *; lemma フォロー-follow; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フォロー",
+              "reading": "フォロー",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "フォロー as \"Folgen (SNS); Unterstützung, Nachbetreuung\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Everyday loanword with a social-media and a workplace sense; placed with N3 digital vocabulary. Editorial N3.",
+      "rationale": "Add フォロー【フォロー】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1110800; spelling=フォロー; reading=フォロー; senses=2,4; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1110800 フォロー/フォロー sense(s) 2,4 support \"Folgen (SNS); Unterstützung, Nachbetreuung\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1110800",
+            "spelling": "フォロー",
+            "reading": "フォロー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "following (on social media, esp. Twitter)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "backing-up",
+                  "covering for",
+                  "patching things up",
+                  "support"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Folgen (SNS); Unterstützung, Nachbetreuung\" matches JMdict 1110800 sense(s) 2,4.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Following on social media.",
+          "Supporting a colleague at work."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1110800; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Everyday loanword with a social-media and a workplace sense; placed with N3 digital vocabulary. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@231075028 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231075028",
+            "patterns": [
+              1
+            ],
+            "finding": "フォロー / フォロー; 名詞/普通名詞/サ変可能/*; *; *; lemma フォロー-follow; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "フォロー",
+              "reading": "フォロー",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "フォロー as \"Folgen (SNS); Unterstützung, Nachbetreuung\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add フォロー【フォロー】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1110800 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "36a2df5f8b1d78e511751b2c02268673ae5240fb5d7f5b8001f5cc20e0490f54",
+        "approvalHash": "0a868f140647338250da5562fc0876d0a94adafff848762403e12447c478cfde"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 SNS follow / ex2 workplace covering a mistake: natural, romaji exact; both senses supported by selected JMdict 1110800 senses 2 and 4. Pitch sys.dic@231075028 フォロー-follow aType 1. runtime check.cjs: new.",
+        "contentHash": "36a2df5f8b1d78e511751b2c02268673ae5240fb5d7f5b8001f5cc20e0490f54",
+        "approvalHash": "0a868f140647338250da5562fc0876d0a94adafff848762403e12447c478cfde"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:burogu",
+      "revisionId": "025-add-burogu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ブログ",
+        "reading": "ブログ",
+        "romaji": "burogu",
+        "meaning": "Blog",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N3",
+        "notes": "„Einen Blog schreiben“: ブログを書く. Ein Eintrag heißt 記事（きじ）.",
+        "examples": [
+          {
+            "japanese": "毎日の料理をブログに書いています。",
+            "romaji": "Mainichi no ryouri o burogu ni kaite imasu.",
+            "german": "Ich schreibe über mein tägliches Kochen in einem Blog."
+          },
+          {
+            "japanese": "そのブログで日本の生活について読みました。",
+            "romaji": "Sono burogu de Nihon no seikatsu ni tsuite yomimashita.",
+            "german": "In diesem Blog habe ich über das Leben in Japan gelesen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239990483",
+            "patterns": [
+              0
+            ],
+            "finding": "ブログ / ブログ; 名詞/普通名詞/一般/*; *; *; lemma ブログ-blog; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブログ",
+              "reading": "ブログ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブログ as \"Blog\"."
+            }
+          }
+        ]
+      },
+      "reason": "Everyday-vocabulary gap (maintenance batch 025); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Everyday media word; placed with the app’s N3 digital vocabulary. Editorial N3.",
+      "rationale": "Add ブログ【ブログ】 (N3) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2037270; spelling=ブログ; reading=ブログ; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2037270 ブログ/ブログ sense(s) 1 support \"Blog\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2037270",
+            "spelling": "ブログ",
+            "reading": "ブログ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blog"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "maintenance-025-editor",
+        "meaning": "\"Blog\" matches JMdict 2037270 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Writing a blog.",
+          "Reading a blog."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 2037270; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Everyday media word; placed with the app’s N3 digital vocabulary. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@239990483 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239990483",
+            "patterns": [
+              0
+            ],
+            "finding": "ブログ / ブログ; 名詞/普通名詞/一般/*; *; *; lemma ブログ-blog; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ブログ",
+              "reading": "ブログ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "ブログ as \"Blog\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-editor",
+        "finding": "Editorial first pass: Add ブログ【ブログ】 (N3) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 2037270 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "9212e0565a8280c32111cf3f41dea272485cf5a4bec997d45fb8abf4237a49b2",
+        "approvalHash": "172984160ff1fa91306562ec4d1947a10e5362f41d703c3e85023c00991796f5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-025-independent-reviewer",
+        "finding": "Round 2 (assembly hash unchanged since round 1, content re-verified): ex1 writing / ex2 reading: natural, romaji exact. 記事 note correct. JMdict 2037270. Pitch sys.dic@239990483 ブログ-blog aType 0. runtime check.cjs: new.",
+        "contentHash": "9212e0565a8280c32111cf3f41dea272485cf5a4bec997d45fb8abf4237a49b2",
+        "approvalHash": "172984160ff1fa91306562ec4d1947a10e5362f41d703c3e85023c00991796f5"
+      }
+    }
+  ],
+  "decisions": []
+}

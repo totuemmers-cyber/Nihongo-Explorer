@@ -36445,5 +36445,515 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:banana"
+  },
+  {
+    "word": "ドイツ",
+    "reading": "ドイツ",
+    "romaji": "doitsu",
+    "meaning": "Deutschland",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Ländername in Katakana (von niederländisch „Duits“). Sprache: ドイツ語, Person: ドイツ人. Die alte Kanji-Schreibung 独逸 lebt nur in Abkürzungen weiter, z. B. 独 in 日独（にちどく）„japanisch-deutsch“.",
+    "examples": [
+      {
+        "japanese": "私はドイツから来ました。",
+        "romaji": "Watashi wa Doitsu kara kimashita.",
+        "german": "Ich komme aus Deutschland."
+      },
+      {
+        "japanese": "ドイツのビールはとても有名です。",
+        "romaji": "Doitsu no biiru wa totemo yuumei desu.",
+        "german": "Deutsches Bier ist sehr berühmt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192261165",
+        "patterns": [
+          1
+        ],
+        "finding": "ドイツ / ドイツ; 名詞/固有名詞/地名/国; *; *; lemma ドイツ-Duits; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "ドイツ",
+          "reading": "ドイツ",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "ドイツ as \"Deutschland\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:doitsu"
+  },
+  {
+    "word": "フランス",
+    "reading": "フランス",
+    "romaji": "furansu",
+    "meaning": "Frankreich",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Ländername in Katakana. Sprache: フランス語, Person: フランス人. Abkürzung in Zusammensetzungen: 仏（ふつ）, z. B. 日仏.",
+    "examples": [
+      {
+        "japanese": "夏休みにフランスへ旅行します。",
+        "romaji": "Natsuyasumi ni Furansu e ryokou shimasu.",
+        "german": "In den Sommerferien reise ich nach Frankreich."
+      },
+      {
+        "japanese": "フランスのパンはおいしいですね。",
+        "romaji": "Furansu no pan wa oishii desu ne.",
+        "german": "Französisches Brot ist lecker, nicht wahr?"
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235804767",
+        "patterns": [
+          0
+        ],
+        "finding": "フランス / フランス; 名詞/固有名詞/地名/国; *; *; lemma フランス-France; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "フランス",
+          "reading": "フランス",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "フランス as \"Frankreich\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:furansu"
+  },
+  {
+    "word": "イギリス",
+    "reading": "イギリス",
+    "romaji": "igirisu",
+    "meaning": "Großbritannien, England",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Üblicher Name für das Vereinigte Königreich (formell und in Zeitungen 英国（えいこく）). Die Sprache heißt nicht „イギリス語“, sondern 英語.",
+    "examples": [
+      {
+        "japanese": "兄はイギリスの大学で勉強しています。",
+        "romaji": "Ani wa Igirisu no daigaku de benkyou shite imasu.",
+        "german": "Mein älterer Bruder studiert an einer britischen Universität."
+      },
+      {
+        "japanese": "イギリスではよく雨が降ります。",
+        "romaji": "Igirisu de wa yoku ame ga furimasu.",
+        "german": "In Großbritannien regnet es oft."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@53958356",
+        "patterns": [
+          0
+        ],
+        "finding": "イギリス / イギリス; 名詞/固有名詞/地名/国; *; *; lemma イギリス-Inglez; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "イギリス",
+          "reading": "イギリス",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "イギリス as \"Großbritannien, England\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:igirisu"
+  },
+  {
+    "word": "イタリア",
+    "reading": "イタリア",
+    "romaji": "itaria",
+    "meaning": "Italien",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Ländername in Katakana. Sprache: イタリア語, italienisches Essen: イタリア料理.",
+    "examples": [
+      {
+        "japanese": "イタリア料理が大好きです。",
+        "romaji": "Itaria ryouri ga daisuki desu.",
+        "german": "Ich liebe italienisches Essen."
+      },
+      {
+        "japanese": "来年、イタリアに行きたいです。",
+        "romaji": "Rainen, Itaria ni ikitai desu.",
+        "german": "Nächstes Jahr möchte ich nach Italien fahren."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55745523",
+        "patterns": [
+          0
+        ],
+        "finding": "イタリア / イタリア; 名詞/固有名詞/地名/国; *; *; lemma イタリア-Italia; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "イタリア",
+          "reading": "イタリア",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "イタリア as \"Italien\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:itaria"
+  },
+  {
+    "word": "スペイン",
+    "reading": "スペイン",
+    "romaji": "supein",
+    "meaning": "Spanien",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Ländername in Katakana. Sprache: スペイン語 (bereits N5).",
+    "examples": [
+      {
+        "japanese": "スペインは日本より暖かいです。",
+        "romaji": "Supein wa Nihon yori atatakai desu.",
+        "german": "Spanien ist wärmer als Japan."
+      },
+      {
+        "japanese": "友達はスペインでサッカーを見ました。",
+        "romaji": "Tomodachi wa Supein de sakkaa o mimashita.",
+        "german": "Mein Freund hat sich in Spanien ein Fußballspiel angesehen."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149296904",
+        "patterns": [
+          2
+        ],
+        "finding": "スペイン / スペイン; 名詞/固有名詞/地名/国; *; *; lemma スペイン-Spain; aType 2. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "スペイン",
+          "reading": "スペイン",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "スペイン as \"Spanien\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:supein"
+  },
+  {
+    "word": "ドイツ語",
+    "reading": "ドイツご",
+    "romaji": "doitsugo",
+    "meaning": "Deutsch (Sprache)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "Land + 語（ご）= Sprache. Aber: „Englisch“ ist 英語, nicht イギリス語.",
+    "examples": [
+      {
+        "japanese": "ドイツ語を少し話せます。",
+        "romaji": "Doitsugo o sukoshi hanasemasu.",
+        "german": "Ich kann ein bisschen Deutsch."
+      },
+      {
+        "japanese": "この本はドイツ語で書いてあります。",
+        "romaji": "Kono hon wa doitsugo de kaite arimasu.",
+        "german": "Dieses Buch ist auf Deutsch geschrieben."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:doitsugo"
+  },
+  {
+    "word": "中国語",
+    "reading": "ちゅうごくご",
+    "romaji": "chuugokugo",
+    "meaning": "Chinesisch (Sprache)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "Meist ist Hochchinesisch (Mandarin) gemeint. Viele Kanji sind gemeinsam, Aussprache und Grammatik aber ganz anders.",
+    "examples": [
+      {
+        "japanese": "中国語の発音は難しいです。",
+        "romaji": "Chuugokugo no hatsuon wa muzukashii desu.",
+        "german": "Die chinesische Aussprache ist schwierig."
+      },
+      {
+        "japanese": "父は仕事で中国語を使います。",
+        "romaji": "Chichi wa shigoto de chuugokugo o tsukaimasu.",
+        "german": "Mein Vater benutzt Chinesisch bei der Arbeit."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:chuugokugo"
+  },
+  {
+    "word": "韓国語",
+    "reading": "かんこくご",
+    "romaji": "kankokugo",
+    "meaning": "Koreanisch (Sprache)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "Übliche Bezeichnung für die in Südkorea gesprochene Sprache; neutraler, sprachwissenschaftlicher Begriff: 朝鮮語（ちょうせんご）.",
+    "examples": [
+      {
+        "japanese": "韓国のドラマを見て、韓国語を覚えました。",
+        "romaji": "Kankoku no dorama o mite, kankokugo o oboemashita.",
+        "german": "Ich habe Koreanisch gelernt, indem ich koreanische Serien geschaut habe."
+      },
+      {
+        "japanese": "駅の案内は英語と韓国語でも書いてあります。",
+        "romaji": "Eki no annai wa eigo to kankokugo demo kaite arimasu.",
+        "german": "Die Hinweise am Bahnhof stehen auch auf Englisch und Koreanisch."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:kankokugo"
+  },
+  {
+    "word": "イタリア語",
+    "reading": "イタリアご",
+    "romaji": "itariago",
+    "meaning": "Italienisch (Sprache)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "Land + 語（ご）= Sprache. Musikbegriffe wie ピアノ oder テンポ stammen aus dem Italienischen.",
+    "examples": [
+      {
+        "japanese": "大学でイタリア語の授業を取っています。",
+        "romaji": "Daigaku de itariago no jugyou o totte imasu.",
+        "german": "Ich belege an der Uni einen Italienischkurs."
+      },
+      {
+        "japanese": "「チャオ」はイタリア語のあいさつです。",
+        "romaji": "“Chao” wa itariago no aisatsu desu.",
+        "german": "„Ciao“ ist ein italienischer Gruß."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:itariago"
+  },
+  {
+    "word": "外国語",
+    "reading": "がいこくご",
+    "romaji": "gaikokugo",
+    "meaning": "Fremdsprache",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "外国 (Ausland) + 語 (Sprache). „Eine Fremdsprache lernen“: 外国語を勉強する／学ぶ.",
+    "examples": [
+      {
+        "japanese": "外国語を勉強するのは楽しいです。",
+        "romaji": "Gaikokugo o benkyou suru no wa tanoshii desu.",
+        "german": "Fremdsprachen zu lernen macht Spaß."
+      },
+      {
+        "japanese": "この学校では二つの外国語を習います。",
+        "romaji": "Kono gakkou de wa futatsu no gaikokugo o naraimasu.",
+        "german": "An dieser Schule lernt man zwei Fremdsprachen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:gaikokugo"
+  },
+  {
+    "word": "ドイツ人",
+    "reading": "ドイツじん",
+    "romaji": "doitsujin",
+    "meaning": "Deutsche(r)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N5",
+    "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: ドイツの方（かた）.",
+    "examples": [
+      {
+        "japanese": "私はドイツ人です。",
+        "romaji": "Watashi wa doitsujin desu.",
+        "german": "Ich bin Deutsche(r)."
+      },
+      {
+        "japanese": "あのドイツ人の先生はとても親切です。",
+        "romaji": "Ano doitsujin no sensei wa totemo shinsetsu desu.",
+        "german": "Der deutsche Lehrer dort ist sehr freundlich."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:doitsujin"
+  },
+  {
+    "word": "中国人",
+    "reading": "ちゅうごくじん",
+    "romaji": "chuugokujin",
+    "meaning": "Chinese, Chinesin",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N5",
+    "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: 中国の方（かた）.",
+    "examples": [
+      {
+        "japanese": "ルームメイトは中国人です。",
+        "romaji": "Ruumumeito wa chuugokujin desu.",
+        "german": "Mein Mitbewohner ist Chinese."
+      },
+      {
+        "japanese": "この店には中国人の観光客がたくさん来ます。",
+        "romaji": "Kono mise ni wa chuugokujin no kankoukyaku ga takusan kimasu.",
+        "german": "In diesen Laden kommen viele chinesische Touristen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:chuugokujin"
+  },
+  {
+    "word": "韓国人",
+    "reading": "かんこくじん",
+    "romaji": "kankokujin",
+    "meaning": "Südkoreaner(in)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N5",
+    "notes": "Land + 人（じん）= Staatsangehörige(r). Höflicher bei Personen: 韓国の方（かた）.",
+    "examples": [
+      {
+        "japanese": "隣の部屋に韓国人の留学生が住んでいます。",
+        "romaji": "Tonari no heya ni kankokujin no ryuugakusei ga sunde imasu.",
+        "german": "Im Zimmer nebenan wohnt ein koreanischer Austauschstudent."
+      },
+      {
+        "japanese": "彼は韓国人ですが、日本で生まれました。",
+        "romaji": "Kare wa kankokujin desu ga, Nihon de umaremashita.",
+        "german": "Er ist Koreaner, wurde aber in Japan geboren."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:kankokujin"
+  },
+  {
+    "word": "日本人",
+    "reading": "にほんじん",
+    "romaji": "nihonjin",
+    "meaning": "Japaner(in)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N5",
+    "notes": "Land + 人（じん）. Auch にっぽんじん gelesen, im Alltag aber meist にほんじん.",
+    "examples": [
+      {
+        "japanese": "日本人の友達がたくさんいます。",
+        "romaji": "Nihonjin no tomodachi ga takusan imasu.",
+        "german": "Ich habe viele japanische Freunde."
+      },
+      {
+        "japanese": "日本人はよくお辞儀をします。",
+        "romaji": "Nihonjin wa yoku ojigi o shimasu.",
+        "german": "Japaner verbeugen sich oft."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:nihonjin"
+  },
+  {
+    "word": "アメリカ",
+    "reading": "アメリカ",
+    "romaji": "amerika",
+    "meaning": "Amerika, USA",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N5",
+    "notes": "Meist sind die USA gemeint (offiziell アメリカ合衆国, kurz 米国（べいこく）). In Zusammensetzungen: 米, z. B. 日米 „japanisch-amerikanisch“.",
+    "examples": [
+      {
+        "japanese": "兄はアメリカに住んでいます。",
+        "romaji": "Ani wa Amerika ni sunde imasu.",
+        "german": "Mein älterer Bruder wohnt in Amerika."
+      },
+      {
+        "japanese": "アメリカの映画をよく見ます。",
+        "romaji": "Amerika no eiga o yoku mimasu.",
+        "german": "Ich schaue oft amerikanische Filme."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46863736",
+        "patterns": [
+          0
+        ],
+        "finding": "アメリカ / アメリカ; 名詞/固有名詞/地名/国; *; *; lemma アメリカ-America; aType 0. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "アメリカ",
+          "reading": "アメリカ",
+          "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+          "sense": "アメリカ as \"Amerika, USA\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:amerika"
+  },
+  {
+    "word": "コピー",
+    "reading": "コピー",
+    "romaji": "kopii",
+    "meaning": "Kopie",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N5",
+    "notes": "Nomen; als Verb コピーする (bereits N4). Fotokopie, aber auch Kopie am Computer. Werbetext: キャッチコピー.",
+    "examples": [
+      {
+        "japanese": "会議の資料のコピーを十部お願いします。",
+        "romaji": "Kaigi no shiryou no kopii o juubu onegai shimasu.",
+        "german": "Bitte zehn Kopien der Besprechungsunterlagen."
+      },
+      {
+        "japanese": "このコピーは字が薄くて読めません。",
+        "romaji": "Kono kopii wa ji ga usukute yomemasen.",
+        "german": "Auf dieser Kopie ist die Schrift zu blass zum Lesen."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124101110",
+        "patterns": [
+          1
+        ],
+        "finding": "コピー / コピー; 名詞/普通名詞/サ変可能/*; *; *; lemma コピー-copy; aType 1. Exact written-form/kana row for the taught lexeme.",
+        "match": {
+          "word": "コピー",
+          "reading": "コピー",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "コピー as \"Kopie\"."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:kopii"
   }
 ];
