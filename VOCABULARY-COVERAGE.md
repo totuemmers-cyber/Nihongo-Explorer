@@ -10,8 +10,8 @@ Current ledger-backed counts are generated in
 New batches use `risk-based-v2`; the checkpoint descriptions below are retained
 as historical records. The full review remains open.
 
-Completion work is **still open**. The current runtime contains **14,214 entries**:
-N5 **1,642**, N4 **1,637**, N3 **3,740**, N2 **3,167**, N1 **4,028**.
+Completion work is **still open**. The current runtime contains **14,311 entries**:
+N5 **1,642**, N4 **1,637**, N3 **3,740**, N2 **3,167**, N1 **4,125**.
 Maintenance batch 025 (27 September 2026) added 102 everyday words (countries,
 languages, online vocabulary, animals, daily life); batch 026 added 25 idioms and sayings; batch 027 added 46 N5/N4 JLPT-list words; batches 028–031 added 285 N3 JLPT-list words; see
 [the maintenance summary](scripts/vocabulary-completion/README.md#maintenance-batches-021022--reported-defects-and-additions-23-september-2026).

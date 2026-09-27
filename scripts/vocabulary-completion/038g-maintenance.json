@@ -1,0 +1,3725 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:uchiawaseru",
+      "revisionId": "038-add-uchiawaseru",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "打ち合わせる",
+        "reading": "うちあわせる",
+        "romaji": "uchiawaseru",
+        "meaning": "vorher absprechen, sich abstimmen",
+        "type": "Verb",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Transitives Ichidan-Verb: Einzelheiten vorab besprechen: 日程を打ち合わせる. Häufiger ist das Nomen 打ち合わせ (Besprechung).",
+        "examples": [
+          {
+            "japanese": "会議の前に、発表の順番を打ち合わせておこう。",
+            "romaji": "Kaigi no mae ni, happyou no junban o uchiawasete okou.",
+            "german": "Lass uns vor der Sitzung die Reihenfolge der Vorträge absprechen."
+          },
+          {
+            "japanese": "旅行の日程について、ガイドと打ち合わせた。",
+            "romaji": "Ryokou no nittei ni tsuite, gaido to uchiawaseta.",
+            "german": "Ich habe mit dem Reiseleiter den Reiseplan abgestimmt."
+          }
+        ],
+        "pitch": 5,
+        "verbGroup": "ichidan",
+        "conjugation": {
+          "verbGroup": "ichidan",
+          "conjugationReading": "うちあわせる",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "うちあわせる",
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63387274",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "打ち合わせる / ウチアワセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 打ち合わせる; aType 5,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち合わせる",
+              "reading": "うちあわせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "打ち合わせる as \"vorher absprechen, sich abstimmen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 打ち合わせる【うちあわせる】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588150; spelling=打ち合わせる; reading=うちあわせる; senses=2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1588150 打ち合わせる/うちあわせる sense(s) 2 support \"vorher absprechen, sich abstimmen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1588150",
+            "spelling": "打ち合わせる",
+            "reading": "うちあわせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to arrange (e.g. a meeting)",
+                  "to discuss (in advance)",
+                  "to coordinate",
+                  "to prearrange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "打ち合わせる|うちあわせる",
+          "referenceIndex": 0,
+          "referenceHash": "1b6cfd7e8bb72202c7cf751da256e264e68702ededa5b5dfafdfc0cfaf586bf1"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"vorher absprechen, sich abstimmen\" matches JMdict 1588150 sense(s) 2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Planning a presentation order.",
+          "Coordinating with a guide."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1588150; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "ichidan; transitivity per JMdict and explained in the note.",
+        "conjugation": "ichidan verb, conjugation reading うちあわせる; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@63387274 attest 5,0; primary 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63387274",
+            "patterns": [
+              5,
+              0
+            ],
+            "finding": "打ち合わせる / ウチアワセル; 動詞/一般/*/*; 下一段-サ行; 終止形-一般; lemma 打ち合わせる; aType 5,0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち合わせる",
+              "reading": "うちあわせる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-サ行; 終止形-一般",
+              "sense": "打ち合わせる as \"vorher absprechen, sich abstimmen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 打ち合わせる【うちあわせる】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1588150 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a73bcb4a08416fb6f8a06639d293beafdef81a286fa5ce468220dd48e0e5687f",
+        "approvalHash": "8d40724d66898bd738b97b14314ce000aecc6de09155f4f7a2ab8e7d5bd3dc83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Sense 2; ichidan; pitch 5,0. check.cjs: new; romaji and German verified.",
+        "contentHash": "a73bcb4a08416fb6f8a06639d293beafdef81a286fa5ce468220dd48e0e5687f",
+        "approvalHash": "8d40724d66898bd738b97b14314ce000aecc6de09155f4f7a2ab8e7d5bd3dc83"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uchikeshi",
+      "revisionId": "038-add-uchikeshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "打ち消し",
+        "reading": "うちけし",
+        "romaji": "uchikeshi",
+        "meaning": "Verneinung, Dementi",
+        "type": "Nomen",
+        "category": "Sprache",
+        "level": "N1",
+        "notes": "Verneinung (Grammatik: 打ち消しの形 = Verneinungsform) und das Dementieren eines Gerüchts. Verb: 打ち消す.",
+        "examples": [
+          {
+            "japanese": "「ない」は打ち消しを表す言葉だ。",
+            "romaji": "\"Nai\" wa uchikeshi o arawasu kotoba da.",
+            "german": "„nai“ ist ein Wort, das eine Verneinung ausdrückt."
+          },
+          {
+            "japanese": "会社はうわさの打ち消しに追われた。",
+            "romaji": "Kaisha wa uwasa no uchikeshi ni owareta.",
+            "german": "Die Firma war damit beschäftigt, die Gerüchte zu dementieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63922502",
+            "patterns": [
+              0
+            ],
+            "finding": "打ち消し / ウチケシ; 名詞/普通名詞/一般/*; *; *; lemma 打ち消し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち消し",
+              "reading": "うちけし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "打ち消し as \"Verneinung, Dementi\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 打ち消し【うちけし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588200; spelling=打ち消し; reading=うちけし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1588200 打ち消し/うちけし sense(s) 1 support \"Verneinung, Dementi\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1588200",
+            "spelling": "打ち消し",
+            "reading": "うちけし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "negation",
+                  "denial",
+                  "negative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "打ち消し|うちけし",
+          "referenceIndex": 0,
+          "referenceHash": "21e59b379ec003216fe427085f93532cec7b40abb0f9858eefec0c55470964c7"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Verneinung, Dementi\" matches JMdict 1588200 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Grammar of negation.",
+          "Denying a rumour."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1588200; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@63922502 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63922502",
+            "patterns": [
+              0
+            ],
+            "finding": "打ち消し / ウチケシ; 名詞/普通名詞/一般/*; *; *; lemma 打ち消し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち消し",
+              "reading": "うちけし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "打ち消し as \"Verneinung, Dementi\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 打ち消し【うちけし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1588200 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "cfff04ed1a1f181254236f170df0c9bb3ff1af47bc7b71cac69594b3b920b8a3",
+        "approvalHash": "1e3a3886b5b41703b1a71ac350d25b18c68ded7a049710b79ea3478d87af20da"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Fine; pitch 0. check.cjs: new; romaji and German verified.",
+        "contentHash": "cfff04ed1a1f181254236f170df0c9bb3ff1af47bc7b71cac69594b3b920b8a3",
+        "approvalHash": "1e3a3886b5b41703b1a71ac350d25b18c68ded7a049710b79ea3478d87af20da"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uchikomu",
+      "revisionId": "038-add-uchikomu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "打ち込む",
+        "reading": "うちこむ",
+        "romaji": "uchikomu",
+        "meaning": "einschlagen; eingeben; sich ganz widmen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb mit mehreren Bedeutungen: 釘を打ち込む (einen Nagel einschlagen), データを打ち込む (Daten eingeben), 仕事に打ち込む (in der Arbeit aufgehen).",
+        "examples": [
+          {
+            "japanese": "彼は研究に打ち込んで、休みもほとんど取らない。",
+            "romaji": "Kare wa kenkyuu ni uchikonde, yasumi mo hotondo toranai.",
+            "german": "Er geht ganz in seiner Forschung auf und nimmt kaum Urlaub."
+          },
+          {
+            "japanese": "名簿のデータをパソコンに打ち込んだ。",
+            "romaji": "Meibo no deeta o pasokon ni uchikonda.",
+            "german": "Ich habe die Daten der Namensliste in den Computer eingegeben."
+          }
+        ],
+        "pitch": 0,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "うちこむ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "うちこむ",
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@64014194",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "打ち込む / ウチコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 打ち込む; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち込む",
+              "reading": "うちこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "打ち込む as \"einschlagen; eingeben; sich ganz widmen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 打ち込む【うちこむ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581440; spelling=打ち込む; reading=うちこむ; senses=1,4,5; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1581440 打ち込む/うちこむ sense(s) 1,4,5 support \"einschlagen; eingeben; sich ganz widmen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1581440",
+            "spelling": "打ち込む",
+            "reading": "うちこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to drive in (a nail, stake, etc.)",
+                  "to hammer in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to input (data)",
+                  "to enter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to devote oneself to",
+                  "to be absorbed in",
+                  "to be (really) into",
+                  "to be enthusiastic about",
+                  "to put heart and soul into",
+                  "to throw oneself into",
+                  "to go head over heels for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "打ち込む|うちこむ",
+          "referenceIndex": 0,
+          "referenceHash": "4f4e51ae8e6178595d88b3ea0815b405552b1f1e8d18b8add8510c302512ac49"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"einschlagen; eingeben; sich ganz widmen\" matches JMdict 1581440 sense(s) 1,4,5.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Devotion to research.",
+          "Data entry."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1581440; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading うちこむ; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@64014194 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@64014194",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "打ち込む / ウチコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 打ち込む; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "打ち込む",
+              "reading": "うちこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "打ち込む as \"einschlagen; eingeben; sich ganz widmen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 打ち込む【うちこむ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1581440 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "af0c62b7f5303c1912e7cf08ce6e9f5b60ba720d26216c6c244527a9b3be92a7",
+        "approvalHash": "1a62672ede24cfe5a680fe581b33badd13cbf78b21a63aa3ae4631d18977e0d9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Senses 1,4,5 (ex1 sense 5 研究に打ち込む, ex2 sense 4 データを打ち込む); JMdict marks all senses vt, so the note is consistent; pitch 0,3. check.cjs: new; romaji and German verified.",
+        "contentHash": "af0c62b7f5303c1912e7cf08ce6e9f5b60ba720d26216c6c244527a9b3be92a7",
+        "approvalHash": "1a62672ede24cfe5a680fe581b33badd13cbf78b21a63aa3ae4631d18977e0d9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:utsushi",
+      "revisionId": "038-add-utsushi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "写し",
+        "reading": "うつし",
+        "romaji": "utsushi",
+        "meaning": "Kopie, Abschrift",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N1",
+        "notes": "Kopie eines Dokuments, oft in Behörden: 住民票の写し (Kopie der Meldebescheinigung). Alltäglicher: コピー.",
+        "examples": [
+          {
+            "japanese": "申し込みには住民票の写しが必要です。",
+            "romaji": "Moushikomi ni wa juuminhyou no utsushi ga hitsuyou desu.",
+            "german": "Für den Antrag benötigen Sie eine Kopie der Meldebescheinigung."
+          },
+          {
+            "japanese": "契約書の写しを一部いただけますか。",
+            "romaji": "Keiyakusho no utsushi o ichibu itadakemasu ka.",
+            "german": "Könnte ich eine Kopie des Vertrags bekommen?"
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65712444",
+            "patterns": [
+              3
+            ],
+            "finding": "写し / ウツシ; 名詞/普通名詞/一般/*; *; *; lemma 写し; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "写し",
+              "reading": "うつし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "写し as \"Kopie, Abschrift\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 写し【うつし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1321790; spelling=写し; reading=うつし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1321790 写し/うつし sense(s) 1 support \"Kopie, Abschrift\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1321790",
+            "spelling": "写し",
+            "reading": "うつし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "copy",
+                  "duplicate",
+                  "facsimile",
+                  "transcript"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "写し|うつし",
+          "referenceIndex": 0,
+          "referenceHash": "e4fa10f8b6dca2b03e765cdac58ed2d9cf065b52a75cbd8b007f984916c06c14"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Kopie, Abschrift\" matches JMdict 1321790 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Official application.",
+          "Asking for a contract copy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1321790; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@65712444 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65712444",
+            "patterns": [
+              3
+            ],
+            "finding": "写し / ウツシ; 名詞/普通名詞/一般/*; *; *; lemma 写し; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "写し",
+              "reading": "うつし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "写し as \"Kopie, Abschrift\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 写し【うつし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1321790 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "2d53cd5f5b5baad7b57ffa1dad7677921ce5227a6b0cf54e03213b0726751211",
+        "approvalHash": "99e084d8b6e41f34b1b0e49fd4c407d9d775c8c71478814e7a32b6c3df53aef2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). 住民票の写し is the standard official phrase; ex2 fine; pitch 3. check.cjs: new; romaji and German verified.",
+        "contentHash": "2d53cd5f5b5baad7b57ffa1dad7677921ce5227a6b0cf54e03213b0726751211",
+        "approvalHash": "99e084d8b6e41f34b1b0e49fd4c407d9d775c8c71478814e7a32b6c3df53aef2"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uttae",
+      "revisionId": "038-add-uttae",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "訴え",
+        "reading": "うったえ",
+        "romaji": "uttae",
+        "meaning": "Klage; Beschwerde",
+        "type": "Nomen",
+        "category": "Recht",
+        "level": "N1",
+        "notes": "Nomen zu 訴える: gerichtliche Klage (訴えを起こす) und allgemein eine Beschwerde: 住民の訴え.",
+        "examples": [
+          {
+            "japanese": "住民の訴えを受けて、市は調査を始めた。",
+            "romaji": "Juumin no uttae o ukete, shi wa chousa o hajimeta.",
+            "german": "Auf die Beschwerden der Anwohner hin begann die Stadt eine Untersuchung."
+          },
+          {
+            "japanese": "彼は会社を相手に訴えを起こした。",
+            "romaji": "Kare wa kaisha o aite ni uttae o okoshita.",
+            "german": "Er reichte Klage gegen die Firma ein."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65474751",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "訴え / ウッタエ; 名詞/普通名詞/一般/*; *; *; lemma 訴え; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "訴え",
+              "reading": "うったえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "訴え as \"Klage; Beschwerde\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 訴え【うったえ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1397710; spelling=訴え; reading=うったえ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1397710 訴え/うったえ sense(s) 1 support \"Klage; Beschwerde\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1397710",
+            "spelling": "訴え",
+            "reading": "うったえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lawsuit",
+                  "complaint"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "訴え|うったえ",
+          "referenceIndex": 0,
+          "referenceHash": "c571a4f1f6926d7191452b6443b3380e307a1f35dd697134f60f047c985bbe37"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Klage; Beschwerde\" matches JMdict 1397710 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Residents’ complaint.",
+          "Filing a lawsuit."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1397710; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@65474751 attest 0,3; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65474751",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "訴え / ウッタエ; 名詞/普通名詞/一般/*; *; *; lemma 訴え; aType 0,3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "訴え",
+              "reading": "うったえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "訴え as \"Klage; Beschwerde\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 訴え【うったえ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1397710 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "abedbd56d8a4be8a33efc0acb30f4585d73a8b14843b689745871830fdee3cb3",
+        "approvalHash": "32246d253b8fe0207f08b3c82661152e1e04a5224e7fae2612a2bbeaebd1122d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Round-1 rejection resolved: fix applied exactly as requested (verified in spec-part diff against before-r1/ and in the rebuilt first-approved assembly). meaning: Klage; Beschwerde | notes: Nomen zu 訴える: gerichtliche Klage (訴えを起こす) und allgemein eine Beschwerde: 住民の訴え. Rest of the entry unchanged and previously verified; check.cjs: new.",
+        "contentHash": "abedbd56d8a4be8a33efc0acb30f4585d73a8b14843b689745871830fdee3cb3",
+        "approvalHash": "32246d253b8fe0207f08b3c82661152e1e04a5224e7fae2612a2bbeaebd1122d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:utsuro",
+      "revisionId": "038-add-utsuro",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "虚ろ",
+        "reading": "うつろ",
+        "romaji": "utsuro",
+        "meaning": "leer, hohl; abwesend (Blick)",
+        "type": "Adjektiv",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "な-Adjektiv: innen hohl oder – häufiger – ausdruckslos, geistesabwesend: 虚ろな目. Auch 空ろ geschrieben.",
+        "examples": [
+          {
+            "japanese": "彼は虚ろな目で窓の外を見ていた。",
+            "romaji": "Kare wa utsuro na me de mado no soto o mite ita.",
+            "german": "Er blickte mit leeren Augen aus dem Fenster."
+          },
+          {
+            "japanese": "古い木の幹は中が虚ろになっていた。",
+            "romaji": "Furui ki no miki wa naka ga utsuro ni natte ita.",
+            "german": "Der Stamm des alten Baumes war innen hohl."
+          }
+        ],
+        "pitch": 0,
+        "aliases": [
+          "空ろ"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66379713",
+            "patterns": [
+              0
+            ],
+            "finding": "虚ろ / ウツロ; 形状詞/一般/*/*; *; *; lemma 虚ろ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "虚ろ",
+              "reading": "うつろ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "虚ろ as \"leer, hohl; abwesend (Blick)\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: Nihongo Master N1, tanos N1 (空ろ). Editorial N1.",
+      "rationale": "Add 虚ろ【うつろ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588340; spelling=虚ろ; reading=うつろ; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1588340 虚ろ/うつろ sense(s) 1,2 support \"leer, hohl; abwesend (Blick)\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1588340",
+            "spelling": "虚ろ",
+            "reading": "うつろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cavity",
+                  "hollow",
+                  "void"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hollow (voice, smile, etc.)",
+                  "blank (eyes, look, etc.)",
+                  "vacant (expression, stare, etc.)",
+                  "empty (words, heart, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "虚ろ|うつろ",
+          "referenceIndex": 0,
+          "referenceHash": "8585d5546686e2d4658e4239dcba016b533445d95c30913f0ef7f04eca48b977"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"leer, hohl; abwesend (Blick)\" matches JMdict 1588340 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Vacant stare.",
+          "Hollow tree trunk."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1588340; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: Nihongo Master N1, tanos N1 (空ろ). Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@66379713 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66379713",
+            "patterns": [
+              0
+            ],
+            "finding": "虚ろ / ウツロ; 形状詞/一般/*/*; *; *; lemma 虚ろ; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "虚ろ",
+              "reading": "うつろ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "虚ろ as \"leer, hohl; abwesend (Blick)\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 虚ろ【うつろ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1588340 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "0d517946394de21934ce66b0ef813087e9647dad158ceb74dcf2bec23fcb6a94",
+        "approvalHash": "0cf7d15569b70725bf532ed4acb8cff8d603464d7a4c88e0d3bd782578fea63b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Both senses exemplified; merge 空ろ correct; pitch 0. check.cjs: new; romaji and German verified.",
+        "contentHash": "0d517946394de21934ce66b0ef813087e9647dad158ceb74dcf2bec23fcb6a94",
+        "approvalHash": "0cf7d15569b70725bf532ed4acb8cff8d603464d7a4c88e0d3bd782578fea63b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:unubore",
+      "revisionId": "038-add-unubore",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "自惚れ",
+        "reading": "うぬぼれ",
+        "romaji": "unubore",
+        "meaning": "Eingebildetheit, Selbstgefälligkeit",
+        "type": "Nomen",
+        "category": "Charakter",
+        "level": "N1",
+        "notes": "Übertriebene Selbstsicherheit: 自惚れが強い. Verb: 自惚れる. Oft in Kana: うぬぼれ.",
+        "examples": [
+          {
+            "japanese": "少し褒められただけで天才だと思うのは自惚れだ。",
+            "romaji": "Sukoshi homerareta dake de tensai da to omou no wa unubore da.",
+            "german": "Sich nach ein bisschen Lob für ein Genie zu halten, ist Eingebildetheit."
+          },
+          {
+            "japanese": "彼の自惚れには、みんなうんざりしている。",
+            "romaji": "Kare no unubore ni wa, minna unzari shite iru.",
+            "german": "Alle haben seine Selbstgefälligkeit satt."
+          }
+        ],
+        "pitch": null
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 自惚れ【うぬぼれ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317730; spelling=自惚れ; reading=うぬぼれ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1317730 自惚れ/うぬぼれ sense(s) 1 support \"Eingebildetheit, Selbstgefälligkeit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1317730",
+            "spelling": "自惚れ",
+            "reading": "うぬぼれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conceit",
+                  "vanity",
+                  "pride",
+                  "self-importance",
+                  "egotism"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "自惚れ|うぬぼれ",
+          "referenceIndex": 0,
+          "referenceHash": "6480708bac7d9147f2fd94891faa70a566a7bc83807d198ef61a292fcd7bf53f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Eingebildetheit, Selbstgefälligkeit\" matches JMdict 1317730 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Overconfidence after praise.",
+          "Others fed up with conceit."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1317730; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "No exact written-form/kana UniDic row for 自惚れ / うぬぼれ; pitch left unknown (null).",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup 自惚れ / うぬぼれ",
+            "finding": "No exact-form row; no accent inferred from components."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 自惚れ【うぬぼれ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1317730 senses, level basis and pitch disposition (unknown) inspected; round-1 review findings addressed.",
+        "contentHash": "8ea9fa8cbdb8ab3781d4660609641d6eed42c980d5f977ade7e2db588c13b537",
+        "approvalHash": "efb426fa7d22bc523e8a286747c780999b9dd47a1126019f1876e61a4611df36"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Fine; pitch unknown correct (only verb-form rows). check.cjs: new; romaji and German verified.",
+        "contentHash": "8ea9fa8cbdb8ab3781d4660609641d6eed42c980d5f977ade7e2db588c13b537",
+        "approvalHash": "efb426fa7d22bc523e8a286747c780999b9dd47a1126019f1876e61a4611df36"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:umekomu",
+      "revisionId": "038-add-umekomu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "埋め込む",
+        "reading": "うめこむ",
+        "romaji": "umekomu",
+        "meaning": "einbetten, einlassen",
+        "type": "Verb",
+        "category": "Handlung",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb: etwas in etwas anderes einfügen oder eingraben: 壁に照明を埋め込む; auch digital: 動画をページに埋め込む.",
+        "examples": [
+          {
+            "japanese": "天井にライトが埋め込まれている。",
+            "romaji": "Tenjou ni raito ga umekomarete iru.",
+            "german": "In die Decke sind Lampen eingelassen."
+          },
+          {
+            "japanese": "ブログに動画を埋め込んだ。",
+            "romaji": "Burogu ni douga o umekonda.",
+            "german": "Ich habe ein Video in meinen Blog eingebettet."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "うめこむ",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "うめこむ",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67935171",
+            "patterns": [
+              3
+            ],
+            "finding": "埋め込む / ウメコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 埋め込む; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "埋め込む",
+              "reading": "うめこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "埋め込む as \"einbetten, einlassen\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 埋め込む【うめこむ】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1524520; spelling=埋め込む; reading=うめこむ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1524520 埋め込む/うめこむ sense(s) 1 support \"einbetten, einlassen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1524520",
+            "spelling": "埋め込む",
+            "reading": "うめこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to bury",
+                  "to embed",
+                  "to implant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "埋め込む|うめこむ",
+          "referenceIndex": 0,
+          "referenceHash": "d1f060b79dbaf1066b66694b1795554046966fe02f58de7d264dd8ff138a8c0d"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"einbetten, einlassen\" matches JMdict 1524520 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Recessed lighting.",
+          "Embedding a video."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1524520; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading うめこむ; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@67935171 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67935171",
+            "patterns": [
+              3
+            ],
+            "finding": "埋め込む / ウメコム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 埋め込む; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "埋め込む",
+              "reading": "うめこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "埋め込む as \"einbetten, einlassen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 埋め込む【うめこむ】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1524520 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "29452704949eaef2aa769c4a5e1e0793740308f189e39978dcb9ee31fabfb6a6",
+        "approvalHash": "ded4d34850c38d63b4d3ced28930d7f3d07d7ee9457886445ec0f6b986078487"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Fine; pitch 3. check.cjs: new; romaji and German verified.",
+        "contentHash": "29452704949eaef2aa769c4a5e1e0793740308f189e39978dcb9ee31fabfb6a6",
+        "approvalHash": "ded4d34850c38d63b4d3ced28930d7f3d07d7ee9457886445ec0f6b986078487"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uragaeshi",
+      "revisionId": "038-add-uragaeshi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "裏返し",
+        "reading": "うらがえし",
+        "romaji": "uragaeshi",
+        "meaning": "Innenseite nach außen; Kehrseite",
+        "type": "Nomen",
+        "category": "Zustand",
+        "level": "N1",
+        "notes": "Verkehrt herum (シャツが裏返し) und übertragen die Kehrseite: 不安の裏返し (Ausdruck verdeckter Unsicherheit). Verb: 裏返す.",
+        "examples": [
+          {
+            "japanese": "シャツを裏返しに着ていることに気づかなかった。",
+            "romaji": "Shatsu o uragaeshi ni kite iru koto ni kizukanakatta.",
+            "german": "Ich merkte nicht, dass ich das Hemd auf links trug."
+          },
+          {
+            "japanese": "彼の強い言葉は、不安の裏返しかもしれない。",
+            "romaji": "Kare no tsuyoi kotoba wa, fuan no uragaeshi kamo shirenai.",
+            "german": "Seine harschen Worte sind vielleicht nur die Kehrseite seiner Unsicherheit."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68100309",
+            "patterns": [
+              3
+            ],
+            "finding": "裏返し / ウラガエシ; 名詞/普通名詞/一般/*; *; *; lemma 裏返し; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "裏返し",
+              "reading": "うらがえし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "裏返し as \"Innenseite nach außen; Kehrseite\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 裏返し【うらがえし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1550620; spelling=裏返し; reading=うらがえし; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1550620 裏返し/うらがえし sense(s) 1,2 support \"Innenseite nach außen; Kehrseite\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1550620",
+            "spelling": "裏返し",
+            "reading": "うらがえし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inside out",
+                  "upside down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flip side",
+                  "opposite",
+                  "contrary",
+                  "reverse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "裏返し|うらがえし",
+          "referenceIndex": 0,
+          "referenceHash": "0598fcaac9f57f777eedbc210e458454bef142b339eafe19e268f2298773cd98"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Innenseite nach außen; Kehrseite\" matches JMdict 1550620 sense(s) 1,2.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Shirt inside out.",
+          "Hidden insecurity."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1550620; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@68100309 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68100309",
+            "patterns": [
+              3
+            ],
+            "finding": "裏返し / ウラガエシ; 名詞/普通名詞/一般/*; *; *; lemma 裏返し; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "裏返し",
+              "reading": "うらがえし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "裏返し as \"Innenseite nach außen; Kehrseite\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 裏返し【うらがえし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1550620 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "a9c4bfb54c553b2c7d4939231b32c6a4c0d2fa243cd3fc1ff294d72f469b4893",
+        "approvalHash": "cc30b209dcbed0b03c1a8513201a17f157c7c8137b07534544772e7b088420a8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Both senses exemplified; pitch 3. check.cjs: new; romaji and German verified.",
+        "contentHash": "a9c4bfb54c553b2c7d4939231b32c6a4c0d2fa243cd3fc1ff294d72f469b4893",
+        "approvalHash": "cc30b209dcbed0b03c1a8513201a17f157c7c8137b07534544772e7b088420a8"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uridashi",
+      "revisionId": "038-add-uridashi",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "売り出し",
+        "reading": "うりだし",
+        "romaji": "uridashi",
+        "meaning": "Sonderverkauf, Ausverkauf",
+        "type": "Nomen",
+        "category": "Handel",
+        "level": "N1",
+        "notes": "Verkaufsaktion mit Sonderpreisen: 大売り出し. Auch Markteinführung eines neuen Produkts.",
+        "examples": [
+          {
+            "japanese": "この店では毎月一日に売り出しがある。",
+            "romaji": "Kono mise de wa maitsuki tsuitachi ni uridashi ga aru.",
+            "german": "In diesem Laden gibt es an jedem Monatsersten einen Sonderverkauf."
+          },
+          {
+            "japanese": "年末の売り出しで、服を安く買った。",
+            "romaji": "Nenmatsu no uridashi de, fuku o yasuku katta.",
+            "german": "Beim Jahresendverkauf habe ich Kleidung günstig gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68663348",
+            "patterns": [
+              0
+            ],
+            "finding": "売り出し / ウリダシ; 名詞/普通名詞/一般/*; *; *; lemma 売り出し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売り出し",
+              "reading": "うりだし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "売り出し as \"Sonderverkauf, Ausverkauf\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 売り出し【うりだし】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588530; spelling=売り出し; reading=うりだし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1588530 売り出し/うりだし sense(s) 1 support \"Sonderverkauf, Ausverkauf\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1588530",
+            "spelling": "売り出し",
+            "reading": "うりだし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(bargain) sale"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "売り出し|うりだし",
+          "referenceIndex": 0,
+          "referenceHash": "205219072f32995fd7fbe98c2dbd8a71fcd5580b30afc6702daee624f3f5367f"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"Sonderverkauf, Ausverkauf\" matches JMdict 1588530 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Monthly sale day.",
+          "Year-end sale."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1588530; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@68663348 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68663348",
+            "patterns": [
+              0
+            ],
+            "finding": "売り出し / ウリダシ; 名詞/普通名詞/一般/*; *; *; lemma 売り出し; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売り出し",
+              "reading": "うりだし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "売り出し as \"Sonderverkauf, Ausverkauf\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 売り出し【うりだし】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1588530 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "efb84a6c5f0aa429237519d86a8e1736cded2e3c577e9725d0d93dc7d00e05e0",
+        "approvalHash": "8ae5146d532a2ac02d5bd6b9d0742db815b046bf8cef18297fe548d7edb5cfb3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Fine; pitch 0. check.cjs: new; romaji and German verified.",
+        "contentHash": "efb84a6c5f0aa429237519d86a8e1736cded2e3c577e9725d0d93dc7d00e05e0",
+        "approvalHash": "8ae5146d532a2ac02d5bd6b9d0742db815b046bf8cef18297fe548d7edb5cfb3"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:uridasu",
+      "revisionId": "038-add-uridasu",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "売り出す",
+        "reading": "うりだす",
+        "romaji": "uridasu",
+        "meaning": "auf den Markt bringen, zum Verkauf anbieten",
+        "type": "Verb",
+        "category": "Handel",
+        "level": "N1",
+        "notes": "Transitives Godan-Verb: ein Produkt einführen oder zum Verkauf anbieten: 新商品を売り出す. Nomen: 売り出し (Sonderverkauf); 売り出し中 heißt auch „aufstrebend“ (売り出し中の歌手).",
+        "examples": [
+          {
+            "japanese": "その会社は来月、新しいスマホを売り出す。",
+            "romaji": "Sono kaisha wa raigetsu, atarashii sumaho o uridasu.",
+            "german": "Die Firma bringt nächsten Monat ein neues Smartphone auf den Markt."
+          },
+          {
+            "japanese": "限定品は明日の朝十時から売り出される。",
+            "romaji": "Genteihin wa ashita no asa juuji kara uridasareru.",
+            "german": "Die limitierten Artikel kommen morgen ab 10 Uhr in den Verkauf."
+          }
+        ],
+        "pitch": 3,
+        "verbGroup": "godan",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "うりだす",
+          "conjugationKind": "verb"
+        },
+        "conjugationKind": "verb",
+        "conjugationReading": "うりだす",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68678612",
+            "patterns": [
+              3
+            ],
+            "finding": "売り出す / ウリダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 売り出す; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売り出す",
+              "reading": "うりだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "売り出す as \"auf den Markt bringen, zum Verkauf anbieten\"."
+            }
+          }
+        ]
+      },
+      "reason": "Candidate-backed addition (maintenance batch 038); verified absent from the corrected runtime under all spellings, readings and aliases.",
+      "levelBasis": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1.",
+      "rationale": "Add 売り出す【うりだす】 (N1) with German meaning, usage note and two distinct examples.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1473860; spelling=売り出す; reading=うりだす; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1473860 売り出す/うりだす sense(s) 1 support \"auf den Markt bringen, zum Verkauf anbieten\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1473860",
+            "spelling": "売り出す",
+            "reading": "うりだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put on the market",
+                  "to put out for sale",
+                  "to put on sale",
+                  "to begin selling",
+                  "to market"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1",
+        "candidateReference": {
+          "key": "売り出す|うりだす",
+          "referenceIndex": 0,
+          "referenceHash": "eab8314a6d599057f632c0d384ac6b9da97de17cfeab7f9f94b015f81572cd70"
+        }
+      },
+      "review": {
+        "reviewer": "maintenance-038-editor",
+        "meaning": "\"auf den Markt bringen, zum Verkauf anbieten\" matches JMdict 1473860 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Product launch.",
+          "Limited items going on sale."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1473860; no homophone merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading うりだす; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N1, JLPT Sensei N1, Nihongo Master N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@68678612 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68678612",
+            "patterns": [
+              3
+            ],
+            "finding": "売り出す / ウリダス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 売り出す; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "売り出す",
+              "reading": "うりだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "売り出す as \"auf den Markt bringen, zum Verkauf anbieten\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: Add 売り出す【うりだす】 (N1) with German meaning, usage note and two distinct examples. Absence re-checked (check.cjs), JMdict 1473860 senses, level basis and pitch disposition (verified) inspected; round-1 review findings addressed.",
+        "contentHash": "bc7dbead263526436cfab23ad02bab2562943e15b875d3bc1c1b0266df667ccb",
+        "approvalHash": "96c91a1ce4691bf977a763d99c4131ab791211f6a96af131071babed8b21a163"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Reduced to sense 1 (vt) — examples match; 売り出し中 note accurate; pitch 3. check.cjs: new; romaji and German verified.",
+        "contentHash": "bc7dbead263526436cfab23ad02bab2562943e15b875d3bc1c1b0266df667ccb",
+        "approvalHash": "96c91a1ce4691bf977a763d99c4131ab791211f6a96af131071babed8b21a163"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "打ち合わせる|うちあわせる",
+      "referenceIndex": 0,
+      "referenceHash": "1b6cfd7e8bb72202c7cf751da256e264e68702ededa5b5dfafdfc0cfaf586bf1",
+      "revisionId": "038-candidate-uchiawaseru-b745e1e8-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchiawaseru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchiawaseru": "a73bcb4a08416fb6f8a06639d293beafdef81a286fa5ce468220dd48e0e5687f"
+      },
+      "reason": "Reference 打ち合わせる/うちあわせる (tanos N1) is the same lexeme as the new entry 打ち合わせる【うちあわせる】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 打ち合わせる/うちあわせる at N1 (gloss: to knock together, to arrange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588150; spelling=打ち合わせる; reading=うちあわせる; senses=2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588150 as the reference form.",
+          "selected": {
+            "sequence": "1588150",
+            "spelling": "打ち合わせる",
+            "reading": "うちあわせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to arrange (e.g. a meeting)",
+                  "to discuss (in advance)",
+                  "to coordinate",
+                  "to prearrange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち合わせる|うちあわせる#0 is the same lexeme as vocab-n1:correction:uchiawaseru; target hash bound to the assembled addition.",
+        "contentHash": "72b4cf9729466b23700999be4db1942f15968e9dc16d997cdeee405cceb0eacf",
+        "approvalHash": "72b4cf9729466b23700999be4db1942f15968e9dc16d997cdeee405cceb0eacf"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち合わせる is the same lexeme as vocab-n1:correction:uchiawaseru.",
+        "contentHash": "72b4cf9729466b23700999be4db1942f15968e9dc16d997cdeee405cceb0eacf",
+        "approvalHash": "72b4cf9729466b23700999be4db1942f15968e9dc16d997cdeee405cceb0eacf"
+      }
+    },
+    {
+      "key": "打ち合わせる|うちあわせる",
+      "referenceIndex": 1,
+      "referenceHash": "497ae181d8ba678c45fcf610a8356d7b14dff4d7ff794884476808328e28bb52",
+      "revisionId": "038-candidate-uchiawaseru-b745e1e8-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchiawaseru"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchiawaseru": "a73bcb4a08416fb6f8a06639d293beafdef81a286fa5ce468220dd48e0e5687f"
+      },
+      "reason": "Reference 打ち合わせる/うちあわせる (master N1) is the same lexeme as the new entry 打ち合わせる【うちあわせる】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 打ち合わせる/うちあわせる at N1 (gloss: to knock together; assembler; discuter par avance)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588150; spelling=打ち合わせる; reading=うちあわせる; senses=2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588150 as the reference form.",
+          "selected": {
+            "sequence": "1588150",
+            "spelling": "打ち合わせる",
+            "reading": "うちあわせる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to arrange (e.g. a meeting)",
+                  "to discuss (in advance)",
+                  "to coordinate",
+                  "to prearrange"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち合わせる|うちあわせる#1 is the same lexeme as vocab-n1:correction:uchiawaseru; target hash bound to the assembled addition.",
+        "contentHash": "da6fb31b7717210aa6218b3f00deefe513312355f3b50c0deba399c1780448e2",
+        "approvalHash": "da6fb31b7717210aa6218b3f00deefe513312355f3b50c0deba399c1780448e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち合わせる is the same lexeme as vocab-n1:correction:uchiawaseru.",
+        "contentHash": "da6fb31b7717210aa6218b3f00deefe513312355f3b50c0deba399c1780448e2",
+        "approvalHash": "da6fb31b7717210aa6218b3f00deefe513312355f3b50c0deba399c1780448e2"
+      }
+    },
+    {
+      "key": "打ち消し|うちけし",
+      "referenceIndex": 0,
+      "referenceHash": "21e59b379ec003216fe427085f93532cec7b40abb0f9858eefec0c55470964c7",
+      "revisionId": "038-candidate-uchikeshi-871bf6e5-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchikeshi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchikeshi": "cfff04ed1a1f181254236f170df0c9bb3ff1af47bc7b71cac69594b3b920b8a3"
+      },
+      "reason": "Reference 打ち消し/うちけし (tanos N1) is the same lexeme as the new entry 打ち消し【うちけし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 打ち消し/うちけし at N1 (gloss: negation, denial, negative)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588200; spelling=打ち消し; reading=うちけし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588200 as the reference form.",
+          "selected": {
+            "sequence": "1588200",
+            "spelling": "打ち消し",
+            "reading": "うちけし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "negation",
+                  "denial",
+                  "negative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち消し|うちけし#0 is the same lexeme as vocab-n1:correction:uchikeshi; target hash bound to the assembled addition.",
+        "contentHash": "ac8b69ac612493aa492b7e149f52a7db66da56ca89e9479b0d0819d77121e429",
+        "approvalHash": "ac8b69ac612493aa492b7e149f52a7db66da56ca89e9479b0d0819d77121e429"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち消し is the same lexeme as vocab-n1:correction:uchikeshi.",
+        "contentHash": "ac8b69ac612493aa492b7e149f52a7db66da56ca89e9479b0d0819d77121e429",
+        "approvalHash": "ac8b69ac612493aa492b7e149f52a7db66da56ca89e9479b0d0819d77121e429"
+      }
+    },
+    {
+      "key": "打ち消し|うちけし",
+      "referenceIndex": 1,
+      "referenceHash": "e893efbcb8d9f66ae6899eb6d4e525d198c19c4a99dc1ac163a23ef909114930",
+      "revisionId": "038-candidate-uchikeshi-871bf6e5-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchikeshi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchikeshi": "cfff04ed1a1f181254236f170df0c9bb3ff1af47bc7b71cac69594b3b920b8a3"
+      },
+      "reason": "Reference 打ち消し/うちけし (master N1) is the same lexeme as the new entry 打ち消し【うちけし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 打ち消し/うちけし at N1 (gloss: negation; denial; negative)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588200; spelling=打ち消し; reading=うちけし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588200 as the reference form.",
+          "selected": {
+            "sequence": "1588200",
+            "spelling": "打ち消し",
+            "reading": "うちけし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "negation",
+                  "denial",
+                  "negative"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち消し|うちけし#1 is the same lexeme as vocab-n1:correction:uchikeshi; target hash bound to the assembled addition.",
+        "contentHash": "1711f78fc943c6ef3160f1ac4f2758c8061c8340d5e393b5fd41c92ff17ac3ef",
+        "approvalHash": "1711f78fc943c6ef3160f1ac4f2758c8061c8340d5e393b5fd41c92ff17ac3ef"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち消し is the same lexeme as vocab-n1:correction:uchikeshi.",
+        "contentHash": "1711f78fc943c6ef3160f1ac4f2758c8061c8340d5e393b5fd41c92ff17ac3ef",
+        "approvalHash": "1711f78fc943c6ef3160f1ac4f2758c8061c8340d5e393b5fd41c92ff17ac3ef"
+      }
+    },
+    {
+      "key": "打ち込む|うちこむ",
+      "referenceIndex": 0,
+      "referenceHash": "4f4e51ae8e6178595d88b3ea0815b405552b1f1e8d18b8add8510c302512ac49",
+      "revisionId": "038-candidate-uchikomu-da725d70-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchikomu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchikomu": "af0c62b7f5303c1912e7cf08ce6e9f5b60ba720d26216c6c244527a9b3be92a7"
+      },
+      "reason": "Reference 打ち込む/うちこむ (tanos N1) is the same lexeme as the new entry 打ち込む【うちこむ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 打ち込む/うちこむ at N1 (gloss: to, to shoot into, to smash, to throw into, to)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581440; spelling=打ち込む; reading=うちこむ; senses=1,4,5; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581440 as the reference form.",
+          "selected": {
+            "sequence": "1581440",
+            "spelling": "打ち込む",
+            "reading": "うちこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to drive in (a nail, stake, etc.)",
+                  "to hammer in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to input (data)",
+                  "to enter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to devote oneself to",
+                  "to be absorbed in",
+                  "to be (really) into",
+                  "to be enthusiastic about",
+                  "to put heart and soul into",
+                  "to throw oneself into",
+                  "to go head over heels for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち込む|うちこむ#0 is the same lexeme as vocab-n1:correction:uchikomu; target hash bound to the assembled addition.",
+        "contentHash": "db5930597e24aaca292b3243ecdb8c1f256dbf50eb096ad059b89b4882e664b9",
+        "approvalHash": "db5930597e24aaca292b3243ecdb8c1f256dbf50eb096ad059b89b4882e664b9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち込む is the same lexeme as vocab-n1:correction:uchikomu.",
+        "contentHash": "db5930597e24aaca292b3243ecdb8c1f256dbf50eb096ad059b89b4882e664b9",
+        "approvalHash": "db5930597e24aaca292b3243ecdb8c1f256dbf50eb096ad059b89b4882e664b9"
+      }
+    },
+    {
+      "key": "打ち込む|うちこむ",
+      "referenceIndex": 1,
+      "referenceHash": "27d8744baf4cba1c1b690be3e46a06779bb17817d1c0d9414555ddad94c63302",
+      "revisionId": "038-candidate-uchikomu-da725d70-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uchikomu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uchikomu": "af0c62b7f5303c1912e7cf08ce6e9f5b60ba720d26216c6c244527a9b3be92a7"
+      },
+      "reason": "Reference 打ち込む/うちこむ (master N1) is the same lexeme as the new entry 打ち込む【うちこむ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 打ち込む/うちこむ at N1 (gloss: to drive in (e.g. nail, stake); to devote oneself to; to shoot into)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1581440; spelling=打ち込む; reading=うちこむ; senses=1,4,5; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1581440 as the reference form.",
+          "selected": {
+            "sequence": "1581440",
+            "spelling": "打ち込む",
+            "reading": "うちこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to drive in (a nail, stake, etc.)",
+                  "to hammer in"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to input (data)",
+                  "to enter"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to devote oneself to",
+                  "to be absorbed in",
+                  "to be (really) into",
+                  "to be enthusiastic about",
+                  "to put heart and soul into",
+                  "to throw oneself into",
+                  "to go head over heels for"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 打ち込む|うちこむ#1 is the same lexeme as vocab-n1:correction:uchikomu; target hash bound to the assembled addition.",
+        "contentHash": "bc9c583b5594733af0f6dde43155b3b76aac941988c972d5cd30111eb27015dd",
+        "approvalHash": "bc9c583b5594733af0f6dde43155b3b76aac941988c972d5cd30111eb27015dd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 打ち込む is the same lexeme as vocab-n1:correction:uchikomu.",
+        "contentHash": "bc9c583b5594733af0f6dde43155b3b76aac941988c972d5cd30111eb27015dd",
+        "approvalHash": "bc9c583b5594733af0f6dde43155b3b76aac941988c972d5cd30111eb27015dd"
+      }
+    },
+    {
+      "key": "写し|うつし",
+      "referenceIndex": 0,
+      "referenceHash": "e4fa10f8b6dca2b03e765cdac58ed2d9cf065b52a75cbd8b007f984916c06c14",
+      "revisionId": "038-candidate-utsushi-999541eb-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:utsushi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:utsushi": "2d53cd5f5b5baad7b57ffa1dad7677921ce5227a6b0cf54e03213b0726751211"
+      },
+      "reason": "Reference 写し/うつし (tanos N1) is the same lexeme as the new entry 写し【うつし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 写し/うつし at N1 (gloss: copy, duplicate, facsimile, transcript)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1321790; spelling=写し; reading=うつし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1321790 as the reference form.",
+          "selected": {
+            "sequence": "1321790",
+            "spelling": "写し",
+            "reading": "うつし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "copy",
+                  "duplicate",
+                  "facsimile",
+                  "transcript"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 写し|うつし#0 is the same lexeme as vocab-n1:correction:utsushi; target hash bound to the assembled addition.",
+        "contentHash": "a92787925d6a37c29d019832abf600f546ec8b22fecfacc6ff810eb42ad4e4aa",
+        "approvalHash": "a92787925d6a37c29d019832abf600f546ec8b22fecfacc6ff810eb42ad4e4aa"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 写し is the same lexeme as vocab-n1:correction:utsushi.",
+        "contentHash": "a92787925d6a37c29d019832abf600f546ec8b22fecfacc6ff810eb42ad4e4aa",
+        "approvalHash": "a92787925d6a37c29d019832abf600f546ec8b22fecfacc6ff810eb42ad4e4aa"
+      }
+    },
+    {
+      "key": "写し|うつし",
+      "referenceIndex": 1,
+      "referenceHash": "31fd3ad43696d9a45508d0b341da194c40220b35564121643fb56ed71be756ae",
+      "revisionId": "038-candidate-utsushi-999541eb-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:utsushi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:utsushi": "2d53cd5f5b5baad7b57ffa1dad7677921ce5227a6b0cf54e03213b0726751211"
+      },
+      "reason": "Reference 写し/うつし (master N1) is the same lexeme as the new entry 写し【うつし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 写し/うつし at N1 (gloss: copy; duplicate; facsimile)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1321790; spelling=写し; reading=うつし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1321790 as the reference form.",
+          "selected": {
+            "sequence": "1321790",
+            "spelling": "写し",
+            "reading": "うつし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "copy",
+                  "duplicate",
+                  "facsimile",
+                  "transcript"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 写し|うつし#1 is the same lexeme as vocab-n1:correction:utsushi; target hash bound to the assembled addition.",
+        "contentHash": "253ba61d886aad1621f59ccf6f47b46f8bb00cad3f1bcdf1285581488027808b",
+        "approvalHash": "253ba61d886aad1621f59ccf6f47b46f8bb00cad3f1bcdf1285581488027808b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 写し is the same lexeme as vocab-n1:correction:utsushi.",
+        "contentHash": "253ba61d886aad1621f59ccf6f47b46f8bb00cad3f1bcdf1285581488027808b",
+        "approvalHash": "253ba61d886aad1621f59ccf6f47b46f8bb00cad3f1bcdf1285581488027808b"
+      }
+    },
+    {
+      "key": "訴え|うったえ",
+      "referenceIndex": 0,
+      "referenceHash": "c571a4f1f6926d7191452b6443b3380e307a1f35dd697134f60f047c985bbe37",
+      "revisionId": "038-candidate-uttae-72ae55c2-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uttae"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uttae": "abedbd56d8a4be8a33efc0acb30f4585d73a8b14843b689745871830fdee3cb3"
+      },
+      "reason": "Reference 訴え/うったえ (tanos N1) is the same lexeme as the new entry 訴え【うったえ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 訴え/うったえ at N1 (gloss: lawsuit, complaint)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1397710; spelling=訴え; reading=うったえ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1397710 as the reference form.",
+          "selected": {
+            "sequence": "1397710",
+            "spelling": "訴え",
+            "reading": "うったえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lawsuit",
+                  "complaint"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 訴え|うったえ#0 is the same lexeme as vocab-n1:correction:uttae; target hash bound to the assembled addition.",
+        "contentHash": "00291f894f2eccc4e898d505ad551b268ef777d1bd410b4fe722ccc4c7f9693f",
+        "approvalHash": "00291f894f2eccc4e898d505ad551b268ef777d1bd410b4fe722ccc4c7f9693f"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Publisher row 訴え is the same lexeme as vocab-n1:correction:uttae. Target content fix verified in round 2; link re-bound to the revised target hash.",
+        "contentHash": "00291f894f2eccc4e898d505ad551b268ef777d1bd410b4fe722ccc4c7f9693f",
+        "approvalHash": "00291f894f2eccc4e898d505ad551b268ef777d1bd410b4fe722ccc4c7f9693f"
+      }
+    },
+    {
+      "key": "訴え|うったえ",
+      "referenceIndex": 1,
+      "referenceHash": "e2f45866d0d343231b52ea82937054fa6e9a96297a7155dfd8a68f26290d5268",
+      "revisionId": "038-candidate-uttae-72ae55c2-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uttae"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uttae": "abedbd56d8a4be8a33efc0acb30f4585d73a8b14843b689745871830fdee3cb3"
+      },
+      "reason": "Reference 訴え/うったえ (master N1) is the same lexeme as the new entry 訴え【うったえ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 訴え/うったえ at N1 (gloss: lawsuit; complaint; plainte)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1397710; spelling=訴え; reading=うったえ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1397710 as the reference form.",
+          "selected": {
+            "sequence": "1397710",
+            "spelling": "訴え",
+            "reading": "うったえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lawsuit",
+                  "complaint"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 訴え|うったえ#1 is the same lexeme as vocab-n1:correction:uttae; target hash bound to the assembled addition.",
+        "contentHash": "76af5acaf57cdb7de2d42c3591c2cdbc33214efa1f289f1e8931ade37087f466",
+        "approvalHash": "76af5acaf57cdb7de2d42c3591c2cdbc33214efa1f289f1e8931ade37087f466"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Publisher row 訴え is the same lexeme as vocab-n1:correction:uttae. Target content fix verified in round 2; link re-bound to the revised target hash.",
+        "contentHash": "76af5acaf57cdb7de2d42c3591c2cdbc33214efa1f289f1e8931ade37087f466",
+        "approvalHash": "76af5acaf57cdb7de2d42c3591c2cdbc33214efa1f289f1e8931ade37087f466"
+      }
+    },
+    {
+      "key": "虚ろ|うつろ",
+      "referenceIndex": 0,
+      "referenceHash": "8585d5546686e2d4658e4239dcba016b533445d95c30913f0ef7f04eca48b977",
+      "revisionId": "038-candidate-utsuro-c98e48da-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:utsuro"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:utsuro": "0d517946394de21934ce66b0ef813087e9647dad158ceb74dcf2bec23fcb6a94"
+      },
+      "reason": "Reference 虚ろ/うつろ (master N1) is the same lexeme as the new entry 虚ろ【うつろ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 虚ろ/うつろ at N1 (gloss: blank; cavity; hollow)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588340; spelling=虚ろ; reading=うつろ; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588340 as the reference form.",
+          "selected": {
+            "sequence": "1588340",
+            "spelling": "虚ろ",
+            "reading": "うつろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cavity",
+                  "hollow",
+                  "void"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hollow (voice, smile, etc.)",
+                  "blank (eyes, look, etc.)",
+                  "vacant (expression, stare, etc.)",
+                  "empty (words, heart, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 虚ろ|うつろ#0 is the same lexeme as vocab-n1:correction:utsuro; target hash bound to the assembled addition.",
+        "contentHash": "b3b143e8a8f94a29c2a5b9172125376a7640204df3cc3622c346e7728382e3e1",
+        "approvalHash": "b3b143e8a8f94a29c2a5b9172125376a7640204df3cc3622c346e7728382e3e1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 虚ろ is the same lexeme as vocab-n1:correction:utsuro.",
+        "contentHash": "b3b143e8a8f94a29c2a5b9172125376a7640204df3cc3622c346e7728382e3e1",
+        "approvalHash": "b3b143e8a8f94a29c2a5b9172125376a7640204df3cc3622c346e7728382e3e1"
+      }
+    },
+    {
+      "key": "空ろ|うつろ",
+      "referenceIndex": 0,
+      "referenceHash": "2841e1ad630e04ccfd27b47b6bfc80a62a80b960719915d2bc4a7427d83838e4",
+      "revisionId": "038-candidate-utsuro-e644cd60-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:utsuro"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:utsuro": "0d517946394de21934ce66b0ef813087e9647dad158ceb74dcf2bec23fcb6a94"
+      },
+      "reason": "Reference 空ろ/うつろ (tanos N1) is the same lexeme as the new entry 虚ろ【うつろ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 空ろ/うつろ at N1 (gloss: blank, cavity, hollow, empty (space))."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588340; spelling=虚ろ; reading=うつろ; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588340 as the reference form.",
+          "selected": {
+            "sequence": "1588340",
+            "spelling": "虚ろ",
+            "reading": "うつろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cavity",
+                  "hollow",
+                  "void"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hollow (voice, smile, etc.)",
+                  "blank (eyes, look, etc.)",
+                  "vacant (expression, stare, etc.)",
+                  "empty (words, heart, etc.)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 空ろ|うつろ#0 is the same lexeme as vocab-n1:correction:utsuro; target hash bound to the assembled addition.",
+        "contentHash": "862dedcb199ca249bc86cf3c797fb4388635296fc335883cebcd8ef053895fa8",
+        "approvalHash": "862dedcb199ca249bc86cf3c797fb4388635296fc335883cebcd8ef053895fa8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 空ろ is the same lexeme as vocab-n1:correction:utsuro. 空ろ = spelling of JMdict 1588340.",
+        "contentHash": "862dedcb199ca249bc86cf3c797fb4388635296fc335883cebcd8ef053895fa8",
+        "approvalHash": "862dedcb199ca249bc86cf3c797fb4388635296fc335883cebcd8ef053895fa8"
+      }
+    },
+    {
+      "key": "自惚れ|うぬぼれ",
+      "referenceIndex": 0,
+      "referenceHash": "6480708bac7d9147f2fd94891faa70a566a7bc83807d198ef61a292fcd7bf53f",
+      "revisionId": "038-candidate-unubore-6eae05e4-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:unubore"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:unubore": "8ea9fa8cbdb8ab3781d4660609641d6eed42c980d5f977ade7e2db588c13b537"
+      },
+      "reason": "Reference 自惚れ/うぬぼれ (tanos N1) is the same lexeme as the new entry 自惚れ【うぬぼれ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=15",
+          "finding": "tanos lists 自惚れ/うぬぼれ at N1 (gloss: pretension, conceit, hubris)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317730; spelling=自惚れ; reading=うぬぼれ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1317730 as the reference form.",
+          "selected": {
+            "sequence": "1317730",
+            "spelling": "自惚れ",
+            "reading": "うぬぼれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conceit",
+                  "vanity",
+                  "pride",
+                  "self-importance",
+                  "egotism"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 自惚れ|うぬぼれ#0 is the same lexeme as vocab-n1:correction:unubore; target hash bound to the assembled addition.",
+        "contentHash": "80bb79b768da03316b4ee8e08c8661ecfe8a0609419d23ee2366bfff07594fcb",
+        "approvalHash": "80bb79b768da03316b4ee8e08c8661ecfe8a0609419d23ee2366bfff07594fcb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 自惚れ is the same lexeme as vocab-n1:correction:unubore.",
+        "contentHash": "80bb79b768da03316b4ee8e08c8661ecfe8a0609419d23ee2366bfff07594fcb",
+        "approvalHash": "80bb79b768da03316b4ee8e08c8661ecfe8a0609419d23ee2366bfff07594fcb"
+      }
+    },
+    {
+      "key": "自惚れ|うぬぼれ",
+      "referenceIndex": 1,
+      "referenceHash": "85f949ee44402e5be76151f3a1c8e6ce3afb12b44d07daf071dbed5bf9b31a4b",
+      "revisionId": "038-candidate-unubore-6eae05e4-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:unubore"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:unubore": "8ea9fa8cbdb8ab3781d4660609641d6eed42c980d5f977ade7e2db588c13b537"
+      },
+      "reason": "Reference 自惚れ/うぬぼれ (master N1) is the same lexeme as the new entry 自惚れ【うぬぼれ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 自惚れ/うぬぼれ at N1 (gloss: pretension; conceit; hubris)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1317730; spelling=自惚れ; reading=うぬぼれ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1317730 as the reference form.",
+          "selected": {
+            "sequence": "1317730",
+            "spelling": "自惚れ",
+            "reading": "うぬぼれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conceit",
+                  "vanity",
+                  "pride",
+                  "self-importance",
+                  "egotism"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 自惚れ|うぬぼれ#1 is the same lexeme as vocab-n1:correction:unubore; target hash bound to the assembled addition.",
+        "contentHash": "54a52eace55dd7001251fbffc9f98f23e15ad4989f8918988380ea8bae5ff061",
+        "approvalHash": "54a52eace55dd7001251fbffc9f98f23e15ad4989f8918988380ea8bae5ff061"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 自惚れ is the same lexeme as vocab-n1:correction:unubore.",
+        "contentHash": "54a52eace55dd7001251fbffc9f98f23e15ad4989f8918988380ea8bae5ff061",
+        "approvalHash": "54a52eace55dd7001251fbffc9f98f23e15ad4989f8918988380ea8bae5ff061"
+      }
+    },
+    {
+      "key": "埋め込む|うめこむ",
+      "referenceIndex": 0,
+      "referenceHash": "d1f060b79dbaf1066b66694b1795554046966fe02f58de7d264dd8ff138a8c0d",
+      "revisionId": "038-candidate-umekomu-e3dc3433-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:umekomu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:umekomu": "29452704949eaef2aa769c4a5e1e0793740308f189e39978dcb9ee31fabfb6a6"
+      },
+      "reason": "Reference 埋め込む/うめこむ (tanos N1) is the same lexeme as the new entry 埋め込む【うめこむ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=16",
+          "finding": "tanos lists 埋め込む/うめこむ at N1 (gloss: to bury)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1524520; spelling=埋め込む; reading=うめこむ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1524520 as the reference form.",
+          "selected": {
+            "sequence": "1524520",
+            "spelling": "埋め込む",
+            "reading": "うめこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to bury",
+                  "to embed",
+                  "to implant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 埋め込む|うめこむ#0 is the same lexeme as vocab-n1:correction:umekomu; target hash bound to the assembled addition.",
+        "contentHash": "c51a6dcc2238eb3305c04a66d85e81d4e10bb9be4f632f652a232039c66b42e2",
+        "approvalHash": "c51a6dcc2238eb3305c04a66d85e81d4e10bb9be4f632f652a232039c66b42e2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 埋め込む is the same lexeme as vocab-n1:correction:umekomu.",
+        "contentHash": "c51a6dcc2238eb3305c04a66d85e81d4e10bb9be4f632f652a232039c66b42e2",
+        "approvalHash": "c51a6dcc2238eb3305c04a66d85e81d4e10bb9be4f632f652a232039c66b42e2"
+      }
+    },
+    {
+      "key": "埋め込む|うめこむ",
+      "referenceIndex": 1,
+      "referenceHash": "7d016d675899edcf5eb839baf4d1fb6ebc560e6ec9828f74cc22f811d6789dba",
+      "revisionId": "038-candidate-umekomu-e3dc3433-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:umekomu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:umekomu": "29452704949eaef2aa769c4a5e1e0793740308f189e39978dcb9ee31fabfb6a6"
+      },
+      "reason": "Reference 埋め込む/うめこむ (master N1) is the same lexeme as the new entry 埋め込む【うめこむ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "Nihongo Master lists 埋め込む/うめこむ at N1 (gloss: to bury; to embed; (n) einbetten)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1524520; spelling=埋め込む; reading=うめこむ; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1524520 as the reference form.",
+          "selected": {
+            "sequence": "1524520",
+            "spelling": "埋め込む",
+            "reading": "うめこむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to bury",
+                  "to embed",
+                  "to implant"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 埋め込む|うめこむ#1 is the same lexeme as vocab-n1:correction:umekomu; target hash bound to the assembled addition.",
+        "contentHash": "6111e53980ab977e9fba730e6e6b3700847ba06ed35a706b47582329c74525cb",
+        "approvalHash": "6111e53980ab977e9fba730e6e6b3700847ba06ed35a706b47582329c74525cb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 埋め込む is the same lexeme as vocab-n1:correction:umekomu.",
+        "contentHash": "6111e53980ab977e9fba730e6e6b3700847ba06ed35a706b47582329c74525cb",
+        "approvalHash": "6111e53980ab977e9fba730e6e6b3700847ba06ed35a706b47582329c74525cb"
+      }
+    },
+    {
+      "key": "裏返し|うらがえし",
+      "referenceIndex": 0,
+      "referenceHash": "0598fcaac9f57f777eedbc210e458454bef142b339eafe19e268f2298773cd98",
+      "revisionId": "038-candidate-uragaeshi-1c6d30f7-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uragaeshi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uragaeshi": "a9c4bfb54c553b2c7d4939231b32c6a4c0d2fa243cd3fc1ff294d72f469b4893"
+      },
+      "reason": "Reference 裏返し/うらがえし (tanos N1) is the same lexeme as the new entry 裏返し【うらがえし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=16",
+          "finding": "tanos lists 裏返し/うらがえし at N1 (gloss: inside out, upside down)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1550620; spelling=裏返し; reading=うらがえし; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1550620 as the reference form.",
+          "selected": {
+            "sequence": "1550620",
+            "spelling": "裏返し",
+            "reading": "うらがえし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inside out",
+                  "upside down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flip side",
+                  "opposite",
+                  "contrary",
+                  "reverse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 裏返し|うらがえし#0 is the same lexeme as vocab-n1:correction:uragaeshi; target hash bound to the assembled addition.",
+        "contentHash": "61cb21c4087b7ee00c743c0c620efba71fbd7f35f9430f3dc4cb4456df4e8921",
+        "approvalHash": "61cb21c4087b7ee00c743c0c620efba71fbd7f35f9430f3dc4cb4456df4e8921"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 裏返し is the same lexeme as vocab-n1:correction:uragaeshi.",
+        "contentHash": "61cb21c4087b7ee00c743c0c620efba71fbd7f35f9430f3dc4cb4456df4e8921",
+        "approvalHash": "61cb21c4087b7ee00c743c0c620efba71fbd7f35f9430f3dc4cb4456df4e8921"
+      }
+    },
+    {
+      "key": "裏返し|うらがえし",
+      "referenceIndex": 1,
+      "referenceHash": "06bc344575fef7a922ea0437a4adf3df5030b8a97f3440835f0ff7f0b9382077",
+      "revisionId": "038-candidate-uragaeshi-1c6d30f7-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uragaeshi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uragaeshi": "a9c4bfb54c553b2c7d4939231b32c6a4c0d2fa243cd3fc1ff294d72f469b4893"
+      },
+      "reason": "Reference 裏返し/うらがえし (master N1) is the same lexeme as the new entry 裏返し【うらがえし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "Nihongo Master lists 裏返し/うらがえし at N1 (gloss: inside out; upside down; à l'envers)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1550620; spelling=裏返し; reading=うらがえし; senses=1,2; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1550620 as the reference form.",
+          "selected": {
+            "sequence": "1550620",
+            "spelling": "裏返し",
+            "reading": "うらがえし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inside out",
+                  "upside down"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flip side",
+                  "opposite",
+                  "contrary",
+                  "reverse"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 裏返し|うらがえし#1 is the same lexeme as vocab-n1:correction:uragaeshi; target hash bound to the assembled addition.",
+        "contentHash": "69ec8a01451db0616ededcb7d5e952fb7f221d39c304b6ca82771c778950c662",
+        "approvalHash": "69ec8a01451db0616ededcb7d5e952fb7f221d39c304b6ca82771c778950c662"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 裏返し is the same lexeme as vocab-n1:correction:uragaeshi.",
+        "contentHash": "69ec8a01451db0616ededcb7d5e952fb7f221d39c304b6ca82771c778950c662",
+        "approvalHash": "69ec8a01451db0616ededcb7d5e952fb7f221d39c304b6ca82771c778950c662"
+      }
+    },
+    {
+      "key": "売り出し|うりだし",
+      "referenceIndex": 0,
+      "referenceHash": "205219072f32995fd7fbe98c2dbd8a71fcd5580b30afc6702daee624f3f5367f",
+      "revisionId": "038-candidate-uridashi-08404826-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridashi": "efb84a6c5f0aa429237519d86a8e1736cded2e3c577e9725d0d93dc7d00e05e0"
+      },
+      "reason": "Reference 売り出し/うりだし (tanos N1) is the same lexeme as the new entry 売り出し【うりだし】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=16",
+          "finding": "tanos lists 売り出し/うりだし at N1 (gloss: (bargain) sale)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588530; spelling=売り出し; reading=うりだし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588530 as the reference form.",
+          "selected": {
+            "sequence": "1588530",
+            "spelling": "売り出し",
+            "reading": "うりだし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(bargain) sale"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出し|うりだし#0 is the same lexeme as vocab-n1:correction:uridashi; target hash bound to the assembled addition.",
+        "contentHash": "2339ee0a41ef63445acb7515338aefbfef883899840e0af6a139d4bcb010bf52",
+        "approvalHash": "2339ee0a41ef63445acb7515338aefbfef883899840e0af6a139d4bcb010bf52"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出し is the same lexeme as vocab-n1:correction:uridashi.",
+        "contentHash": "2339ee0a41ef63445acb7515338aefbfef883899840e0af6a139d4bcb010bf52",
+        "approvalHash": "2339ee0a41ef63445acb7515338aefbfef883899840e0af6a139d4bcb010bf52"
+      }
+    },
+    {
+      "key": "売り出し|うりだし",
+      "referenceIndex": 1,
+      "referenceHash": "72715eb50e35a517cf79d500b05c3a7988c911a1acde51ff29021fb8ec089a62",
+      "revisionId": "038-candidate-uridashi-08404826-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridashi": "efb84a6c5f0aa429237519d86a8e1736cded2e3c577e9725d0d93dc7d00e05e0"
+      },
+      "reason": "Reference 売り出し/うりだし (sensei N1) is the same lexeme as the new entry 売り出し【うりだし】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n1-vocabulary-list/",
+          "finding": "JLPT Sensei lists 売り出し/うりだし at N1 (gloss: (bargain) sale)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588530; spelling=売り出し; reading=うりだし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588530 as the reference form.",
+          "selected": {
+            "sequence": "1588530",
+            "spelling": "売り出し",
+            "reading": "うりだし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(bargain) sale"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出し|うりだし#1 is the same lexeme as vocab-n1:correction:uridashi; target hash bound to the assembled addition.",
+        "contentHash": "f3909c5d3d18701d8236c00fa1801c0d349fdd381f85dc5e94fb898c45e6f4fb",
+        "approvalHash": "f3909c5d3d18701d8236c00fa1801c0d349fdd381f85dc5e94fb898c45e6f4fb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出し is the same lexeme as vocab-n1:correction:uridashi.",
+        "contentHash": "f3909c5d3d18701d8236c00fa1801c0d349fdd381f85dc5e94fb898c45e6f4fb",
+        "approvalHash": "f3909c5d3d18701d8236c00fa1801c0d349fdd381f85dc5e94fb898c45e6f4fb"
+      }
+    },
+    {
+      "key": "売り出し|うりだし",
+      "referenceIndex": 2,
+      "referenceHash": "98b2275d59e6ee909bf33d4f21570e4b0e41f49121c08f6b80b0570fcb6eba19",
+      "revisionId": "038-candidate-uridashi-08404826-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridashi"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridashi": "efb84a6c5f0aa429237519d86a8e1736cded2e3c577e9725d0d93dc7d00e05e0"
+      },
+      "reason": "Reference 売り出し/うりだし (master N1) is the same lexeme as the new entry 売り出し【うりだし】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 売り出し/うりだし at N1 (gloss: (bargain) sale; (n) Ausverkauf; Großverkauf)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1588530; spelling=売り出し; reading=うりだし; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1588530 as the reference form.",
+          "selected": {
+            "sequence": "1588530",
+            "spelling": "売り出し",
+            "reading": "うりだし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(bargain) sale"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出し|うりだし#2 is the same lexeme as vocab-n1:correction:uridashi; target hash bound to the assembled addition.",
+        "contentHash": "a75a27fedb090a49549afff488a7291516b1f4cad27576884d6a496d24fd51c7",
+        "approvalHash": "a75a27fedb090a49549afff488a7291516b1f4cad27576884d6a496d24fd51c7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出し is the same lexeme as vocab-n1:correction:uridashi.",
+        "contentHash": "a75a27fedb090a49549afff488a7291516b1f4cad27576884d6a496d24fd51c7",
+        "approvalHash": "a75a27fedb090a49549afff488a7291516b1f4cad27576884d6a496d24fd51c7"
+      }
+    },
+    {
+      "key": "売り出す|うりだす",
+      "referenceIndex": 0,
+      "referenceHash": "eab8314a6d599057f632c0d384ac6b9da97de17cfeab7f9f94b015f81572cd70",
+      "revisionId": "038-candidate-uridasu-e5a49b97-0",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridasu": "bc7dbead263526436cfab23ad02bab2562943e15b875d3bc1c1b0266df667ccb"
+      },
+      "reason": "Reference 売り出す/うりだす (tanos N1) is the same lexeme as the new entry 売り出す【うりだす】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=16",
+          "finding": "tanos lists 売り出す/うりだす at N1 (gloss: to put on sale, to market, to become popular)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1473860; spelling=売り出す; reading=うりだす; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1473860 as the reference form.",
+          "selected": {
+            "sequence": "1473860",
+            "spelling": "売り出す",
+            "reading": "うりだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put on the market",
+                  "to put out for sale",
+                  "to put on sale",
+                  "to begin selling",
+                  "to market"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出す|うりだす#0 is the same lexeme as vocab-n1:correction:uridasu; target hash bound to the assembled addition.",
+        "contentHash": "f7ddd0a328079ad74944bca88e7f659e35871ba9887cb8f115e21c1f507df090",
+        "approvalHash": "f7ddd0a328079ad74944bca88e7f659e35871ba9887cb8f115e21c1f507df090"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出す is the same lexeme as vocab-n1:correction:uridasu.",
+        "contentHash": "f7ddd0a328079ad74944bca88e7f659e35871ba9887cb8f115e21c1f507df090",
+        "approvalHash": "f7ddd0a328079ad74944bca88e7f659e35871ba9887cb8f115e21c1f507df090"
+      }
+    },
+    {
+      "key": "売り出す|うりだす",
+      "referenceIndex": 1,
+      "referenceHash": "0eed019a1768c38c5a68b58506671502b853125150bcd0cc3b3b6cd759675e22",
+      "revisionId": "038-candidate-uridasu-e5a49b97-1",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridasu": "bc7dbead263526436cfab23ad02bab2562943e15b875d3bc1c1b0266df667ccb"
+      },
+      "reason": "Reference 売り出す/うりだす (sensei N1) is the same lexeme as the new entry 売り出す【うりだす】.",
+      "evidence": [
+        {
+          "source": "JLPT Sensei vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://jlptsensei.com/jlpt-n1-vocabulary-list/",
+          "finding": "JLPT Sensei lists 売り出す/うりだす at N1 (gloss: to put on the market; to put on sale; to begin selling)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1473860; spelling=売り出す; reading=うりだす; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1473860 as the reference form.",
+          "selected": {
+            "sequence": "1473860",
+            "spelling": "売り出す",
+            "reading": "うりだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put on the market",
+                  "to put out for sale",
+                  "to put on sale",
+                  "to begin selling",
+                  "to market"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出す|うりだす#1 is the same lexeme as vocab-n1:correction:uridasu; target hash bound to the assembled addition.",
+        "contentHash": "2fc6df75438cc28fd741fea7b3bbb60a44047632423e71b86e43ce5fa2e2fd01",
+        "approvalHash": "2fc6df75438cc28fd741fea7b3bbb60a44047632423e71b86e43ce5fa2e2fd01"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出す is the same lexeme as vocab-n1:correction:uridasu.",
+        "contentHash": "2fc6df75438cc28fd741fea7b3bbb60a44047632423e71b86e43ce5fa2e2fd01",
+        "approvalHash": "2fc6df75438cc28fd741fea7b3bbb60a44047632423e71b86e43ce5fa2e2fd01"
+      }
+    },
+    {
+      "key": "売り出す|うりだす",
+      "referenceIndex": 2,
+      "referenceHash": "e87b08a976a0913b4f4f681a807f1661a2d66cb318c7e71347f32208c7715d4a",
+      "revisionId": "038-candidate-uridasu-e5a49b97-2",
+      "predecessorRevisionHash": null,
+      "predecessorHash": null,
+      "state": "accepted",
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-decision"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:uridasu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:uridasu": "bc7dbead263526436cfab23ad02bab2562943e15b875d3bc1c1b0266df667ccb"
+      },
+      "reason": "Reference 売り出す/うりだす (master N1) is the same lexeme as the new entry 売り出す【うりだす】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 売り出す/うりだす at N1 (gloss: to put on sale; to market; mettre en vente)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1473860; spelling=売り出す; reading=うりだす; senses=1; scripts/vocabulary-completion/maintenance-038/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1473860 as the reference form.",
+          "selected": {
+            "sequence": "1473860",
+            "spelling": "売り出す",
+            "reading": "うりだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to put on the market",
+                  "to put out for sale",
+                  "to put on sale",
+                  "to begin selling",
+                  "to market"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-editor",
+        "finding": "Editorial first pass: reference 売り出す|うりだす#2 is the same lexeme as vocab-n1:correction:uridasu; target hash bound to the assembled addition.",
+        "contentHash": "8a7005403ecf9aac0106cdd206d87487437733df3a5854fb3ba85c8d2662dd6d",
+        "approvalHash": "8a7005403ecf9aac0106cdd206d87487437733df3a5854fb3ba85c8d2662dd6d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "maintenance-038-independent-reviewer",
+        "finding": "Unchanged since round 1 (spec diff touches only arukari, intaanashonaru, ikichigai, uttae). Publisher row 売り出す is the same lexeme as vocab-n1:correction:uridasu.",
+        "contentHash": "8a7005403ecf9aac0106cdd206d87487437733df3a5854fb3ba85c8d2662dd6d",
+        "approvalHash": "8a7005403ecf9aac0106cdd206d87487437733df3a5854fb3ba85c8d2662dd6d"
+      }
+    }
+  ]
+}
