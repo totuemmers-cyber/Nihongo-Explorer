@@ -43,6 +43,16 @@ adds 字引 with two examples, and resolves six candidate references. It is a pa
 checkpoint: no level is certified complete. Live remaining counts are in
 `COVERAGE.md`; sealed earlier batches retain their original evidence and approvals.
 
+The second verified checkpoint, batches 060–065, enriches 300 further existing
+N5 entries, bringing this campaign to 527 original entries plus 字引. It resolves
+ten more baseline candidate references (16 in total) and refreshes ten historical
+spelling approvals after their target teaching content changed. Re-reviews are
+not counted as new entries. All 21 full checks pass; the second generated replay
+is identical, all 15,558 original identities remain, and comprehension/audio
+payloads are unchanged. Browser inspection covers 390/1440 widths in both themes,
+verified and investigated unknown pitch, nine alias searches and addition
+deep-link refresh. N5 remains active and incomplete; N4–N1 are pending.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

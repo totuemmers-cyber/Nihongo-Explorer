@@ -1,0 +1,921 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "おもしろい|おもしろい",
+      "referenceIndex": 0,
+      "referenceHash": "b1093cc8720813c5c4afa15fb4c2a7cd931293b0bc5db3587377b9b2aa73aa8a",
+      "revisionId": "062c-revalidate-0",
+      "state": "accepted",
+      "predecessorHash": "57ce138c8df19419f6c749c818e5ce4dbd146024a576e395244bebaaf1f15225",
+      "predecessorRevisionHash": "6194cfbb56a4cb6c8ef9902d2dc86bd4e389faed4add8ed28e6979c5b2b16ee6",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:80"
+      ],
+      "targetHashes": {
+        "vocab-n5:80": "4660b070e0ebdc1e8132f2e485cbcc6ce5ee4ca05f897b8d3f5801754d8dfbe5"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. Kana おもしろい and 面白い share おもしろい. Publisher Interesting is explicitly retained in the film example and note; the additional funny-story context does not remove this sense.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1533580; spelling=おもしろい; reading=おもしろい; senses=1",
+          "finding": "Kana おもしろい and 面白い share おもしろい. Publisher Interesting is explicitly retained in the film example and note; the additional funny-story context does not remove this sense.",
+          "selected": {
+            "sequence": "1533580",
+            "spelling": "おもしろい",
+            "reading": "おもしろい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "interesting",
+                  "fascinating",
+                  "intriguing",
+                  "enthralling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 b1093cc8720813c5c4afa15fb4c2a7cd931293b0bc5db3587377b9b2aa73aa8a; current target SHA256 4660b070e0ebdc1e8132f2e485cbcc6ce5ee4ca05f897b8d3f5801754d8dfbe5",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=7",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. Kana おもしろい and 面白い share おもしろい. Publisher Interesting is explicitly retained in the film example and note; the additional funny-story context does not remove this sense."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 4660b070e0ebdc1e8132f2e485cbcc6ce5ee4ca05f897b8d3f5801754d8dfbe5",
+          "locator": "scripts/vocabulary-completion/056a-full-n5.json#reviews/vocab-n5:80",
+          "finding": "Current target content inspected; Kana おもしろい and 面白い share おもしろい. Publisher Interesting is explicitly retained in the film example and note; the additional funny-story context does not remove this sense."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. Kana おもしろい and 面白い share おもしろい. Publisher Interesting is explicitly retained in the film example and note; the additional funny-story context does not remove this sense. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "1de7eabae50a00113fc3900b78b9ac79106d8317b1e053e441c27160a79dcea5",
+        "approvalHash": "1de7eabae50a00113fc3900b78b9ac79106d8317b1e053e441c27160a79dcea5"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently read frozen TANOS Interesting gloss and current 面白い target: film example explicitly says interessant, while humorous-story example does not remove interest sense. Raw JMdict1533580 allows kana reading おもしろい with 面白い, sense1 i-adjective unrestricted. Exact alias and reading preserved; current full teaching hash independently matches target binding.",
+        "contentHash": "1de7eabae50a00113fc3900b78b9ac79106d8317b1e053e441c27160a79dcea5",
+        "approvalHash": "1de7eabae50a00113fc3900b78b9ac79106d8317b1e053e441c27160a79dcea5"
+      }
+    },
+    {
+      "key": "未だ|まだ",
+      "referenceIndex": 1,
+      "referenceHash": "f96a587189d72f9d92196ada13cbe989fcf9901d8ba7233542cae0b5f1d56586",
+      "revisionId": "062c-revalidate-1",
+      "state": "accepted",
+      "predecessorHash": "cff5207656d345edeae2af7ae6ecd06e102c7080de686b52fb393e124d626cbd",
+      "predecessorRevisionHash": "c601d42f3bf5ad16c855645047a3409791c018cfc09228281cbfdaa9952c2e29",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:207"
+      ],
+      "targetHashes": {
+        "vocab-n5:207": "e4c3414caca6772dc09a0af6b37fee8811bea355084507f766d9b0810444c747"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 未だ/まだ, not distinct いまだ: positive continuing rain and negative unfinished homework teach still/as yet and not yet. The unchanged alias preserves the source spelling.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1527110; spelling=未だ; reading=まだ; senses=1,2",
+          "finding": "未だ/まだ, not distinct いまだ: positive continuing rain and negative unfinished homework teach still/as yet and not yet. The unchanged alias preserves the source spelling.",
+          "selected": {
+            "sequence": "1527110",
+            "spelling": "未だ",
+            "reading": "まだ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "still",
+                  "as yet",
+                  "only"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(not) yet"
+                ],
+                "notes": [
+                  "with verb in the negative"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 f96a587189d72f9d92196ada13cbe989fcf9901d8ba7233542cae0b5f1d56586; current target SHA256 e4c3414caca6772dc09a0af6b37fee8811bea355084507f766d9b0810444c747",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 未だ/まだ, not distinct いまだ: positive continuing rain and negative unfinished homework teach still/as yet and not yet. The unchanged alias preserves the source spelling."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes e4c3414caca6772dc09a0af6b37fee8811bea355084507f766d9b0810444c747",
+          "locator": "scripts/vocabulary-completion/059a-full-n5.json#reviews/vocab-n5:207",
+          "finding": "Current target content inspected; 未だ/まだ, not distinct いまだ: positive continuing rain and negative unfinished homework teach still/as yet and not yet. The unchanged alias preserves the source spelling."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 未だ/まだ, not distinct いまだ: positive continuing rain and negative unfinished homework teach still/as yet and not yet. The unchanged alias preserves the source spelling. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "9bc7b6d5d1572677ff896b6e90a9ccfd853360c9145564940a303491aa12a2c8",
+        "approvalHash": "9bc7b6d5d1572677ff896b6e90a9ccfd853360c9145564940a303491aa12a2c8"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen Master as yet/hitherto/still matches current continuing rain and unfinished homework examples and polarity note. Raw JMdict1527110 lists both まだ and いまだ; selected senses1/2 have no restriction and まだ is exact source reading. Target207 is correct rather than separate いまだ entry; alias 未だ and exact current teaching hash independently verified.",
+        "contentHash": "9bc7b6d5d1572677ff896b6e90a9ccfd853360c9145564940a303491aa12a2c8",
+        "approvalHash": "9bc7b6d5d1572677ff896b6e90a9ccfd853360c9145564940a303491aa12a2c8"
+      }
+    },
+    {
+      "key": "在る|ある",
+      "referenceIndex": 0,
+      "referenceHash": "8af1d64d90ddd73f89b9abb38d46bc7c43ec8fbc9fef0714e0cc4487d9e2dfe5",
+      "revisionId": "062c-revalidate-2",
+      "state": "accepted",
+      "predecessorHash": "b1a5aec90dd1b133aaf2ede8a738534ca0b4a1a90a225ecfadfb9aede7440428",
+      "predecessorRevisionHash": "79f3e059db64333009e0d73f036f07bdadc8f191057b5395f63f50ff5ea89556",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:27"
+      ],
+      "targetHashes": {
+        "vocab-n5:27": "07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 在る/ある is the existence verb, not a different animate-only lexeme. The source to live,to be is the same JMdict existence sense; current teaching correctly qualifies the usual inanimate use and contrasts いる.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1296400; spelling=在る; reading=ある; senses=1",
+          "finding": "在る/ある is the existence verb, not a different animate-only lexeme. The source to live,to be is the same JMdict existence sense; current teaching correctly qualifies the usual inanimate use and contrasts いる.",
+          "selected": {
+            "sequence": "1296400",
+            "spelling": "在る",
+            "reading": "ある",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending (irregular verb)",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be",
+                  "to exist",
+                  "to live"
+                ],
+                "notes": [
+                  "usu. of inanimate objects"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 8af1d64d90ddd73f89b9abb38d46bc7c43ec8fbc9fef0714e0cc4487d9e2dfe5; current target SHA256 07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=3",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 在る/ある is the existence verb, not a different animate-only lexeme. The source to live,to be is the same JMdict existence sense; current teaching correctly qualifies the usual inanimate use and contrasts いる."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac",
+          "locator": "scripts/vocabulary-completion/055a-full-n5.json#reviews/vocab-n5:27",
+          "finding": "Current target content inspected; 在る/ある is the existence verb, not a different animate-only lexeme. The source to live,to be is the same JMdict existence sense; current teaching correctly qualifies the usual inanimate use and contrasts いる."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 在る/ある is the existence verb, not a different animate-only lexeme. The source to live,to be is the same JMdict existence sense; current teaching correctly qualifies the usual inanimate use and contrasts いる. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "85f30c5411b3a62371f80edf58ab1d255f4786cc91a29cb1262192d166696f1d",
+        "approvalHash": "85f30c5411b3a62371f80edf58ab1d255f4786cc91a29cb1262192d166696f1d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS to live,to be is ambiguous English, but exact 在る/ある raw JMdict1296400 sense1 explicitly includes those glosses and usually-inanimate qualification; no separate living-person lexeme or dwelling sense is evidenced by this reference. Current book existence and note teach restriction-compatible existence while distinguishing normal animate いる. Alias, exact reading and current target27 hash verified; acceptance does not claim teaching human residence.",
+        "contentHash": "85f30c5411b3a62371f80edf58ab1d255f4786cc91a29cb1262192d166696f1d",
+        "approvalHash": "85f30c5411b3a62371f80edf58ab1d255f4786cc91a29cb1262192d166696f1d"
+      }
+    },
+    {
+      "key": "在る|ある",
+      "referenceIndex": 1,
+      "referenceHash": "0876b9aeecd1146c9b6ddbb87ff7f25ec63a2e670f5a7d7dbe3807e3996b6bcb",
+      "revisionId": "062c-revalidate-3",
+      "state": "accepted",
+      "predecessorHash": "e44c32946882f5cdfd95d2205be65ac61b1c4be9f857ec04b37ef53674e5f0bc",
+      "predecessorRevisionHash": "ea991f2e55a5ea099eed2864f73f24cab18c98317414075464a167d18cbb9486",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:27"
+      ],
+      "targetHashes": {
+        "vocab-n5:27": "07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. The publisher explicitly qualifies usually inanimate objects. The table-book existence example and usage note teach exactly this restriction-compatible 在る/ある sense, with the spelling preserved as an alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1296400; spelling=在る; reading=ある; senses=1",
+          "finding": "The publisher explicitly qualifies usually inanimate objects. The table-book existence example and usage note teach exactly this restriction-compatible 在る/ある sense, with the spelling preserved as an alias.",
+          "selected": {
+            "sequence": "1296400",
+            "spelling": "在る",
+            "reading": "ある",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending (irregular verb)",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be",
+                  "to exist",
+                  "to live"
+                ],
+                "notes": [
+                  "usu. of inanimate objects"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 0876b9aeecd1146c9b6ddbb87ff7f25ec63a2e670f5a7d7dbe3807e3996b6bcb; current target SHA256 07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. The publisher explicitly qualifies usually inanimate objects. The table-book existence example and usage note teach exactly this restriction-compatible 在る/ある sense, with the spelling preserved as an alias."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 07165ef3e2ed0ecfcc809ba5961dc35ddae1a190aeb5b52253c6af654e9509ac",
+          "locator": "scripts/vocabulary-completion/055a-full-n5.json#reviews/vocab-n5:27",
+          "finding": "Current target content inspected; The publisher explicitly qualifies usually inanimate objects. The table-book existence example and usage note teach exactly this restriction-compatible 在る/ある sense, with the spelling preserved as an alias."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. The publisher explicitly qualifies usually inanimate objects. The table-book existence example and usage note teach exactly this restriction-compatible 在る/ある sense, with the spelling preserved as an alias. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "3406457cd182fc5792f04ef8937da48d34090597a230f03e3128a6305c816f08",
+        "approvalHash": "3406457cd182fc5792f04ef8937da48d34090597a230f03e3128a6305c816f08"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen Master explicitly says usually of inanimate objects, followed by exist/live. Raw JMdict1296400 sense1 and its inanimate note match current book-on-table existence and qualified usage note. Source spelling remains searchable as 在る alias of ある. Both current contexts read and exact target27 hash verified; no source reading change or animate-sense inference.",
+        "contentHash": "3406457cd182fc5792f04ef8937da48d34090597a230f03e3128a6305c816f08",
+        "approvalHash": "3406457cd182fc5792f04ef8937da48d34090597a230f03e3128a6305c816f08"
+      }
+    },
+    {
+      "key": "出掛ける|でかける",
+      "referenceIndex": 0,
+      "referenceHash": "b3edc2bfee9f377e9b180c89a12e43e3fb1a097cf2324103770540ccf06fc234",
+      "revisionId": "062c-revalidate-4",
+      "state": "accepted",
+      "predecessorHash": "4280a68a409561aed7b8177b1b4ad283e37abee901a097017db4bbe9742f51e0",
+      "predecessorRevisionHash": "798fd2b4062b6f9aa55c22914a62675a98a21260941883e1d02c5e951263a908",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:43"
+      ],
+      "targetHashes": {
+        "vocab-n5:43": "23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 出掛ける and 出かける share でかける. Depart/set out/start/going out are covered by the current shopping-purpose and going-out-with-friends examples. Do not silently claim the separate about-to-leave sense as taught.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598550; spelling=出掛ける; reading=でかける; senses=1",
+          "finding": "出掛ける and 出かける share でかける. Depart/set out/start/going out are covered by the current shopping-purpose and going-out-with-friends examples. Do not silently claim the separate about-to-leave sense as taught.",
+          "selected": {
+            "sequence": "1598550",
+            "spelling": "出掛ける",
+            "reading": "でかける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go out (e.g. on an excursion or outing)",
+                  "to leave",
+                  "to depart",
+                  "to start",
+                  "to set out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 b3edc2bfee9f377e9b180c89a12e43e3fb1a097cf2324103770540ccf06fc234; current target SHA256 23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=59",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 出掛ける and 出かける share でかける. Depart/set out/start/going out are covered by the current shopping-purpose and going-out-with-friends examples. Do not silently claim the separate about-to-leave sense as taught."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916",
+          "locator": "scripts/vocabulary-completion/055a-full-n5.json#reviews/vocab-n5:43",
+          "finding": "Current target content inspected; 出掛ける and 出かける share でかける. Depart/set out/start/going out are covered by the current shopping-purpose and going-out-with-friends examples. Do not silently claim the separate about-to-leave sense as taught."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 出掛ける and 出かける share でかける. Depart/set out/start/going out are covered by the current shopping-purpose and going-out-with-friends examples. Do not silently claim the separate about-to-leave sense as taught. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "c4231a906a4c59fe0924832ef00ef2c7a825d14521fe1bc856ea84be72506360",
+        "approvalHash": "c4231a906a4c59fe0924832ef00ef2c7a825d14521fe1bc856ea84be72506360"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS depart/set out/start/be going out collectively support outing/departure. Raw JMdict1598550 explicitly includes both 出かける and 出掛ける with unrestricted でかける; selected sense1 includes leave/start/set out. Current shopping-purpose and companion contexts plus note teach leaving for an outing. Separate sense2 about-to-leave is not claimed covered by this decision; current alias/reading/hash independently verified.",
+        "contentHash": "c4231a906a4c59fe0924832ef00ef2c7a825d14521fe1bc856ea84be72506360",
+        "approvalHash": "c4231a906a4c59fe0924832ef00ef2c7a825d14521fe1bc856ea84be72506360"
+      }
+    },
+    {
+      "key": "出掛ける|でかける",
+      "referenceIndex": 1,
+      "referenceHash": "ab906f56992ac2cac4da3173a667c31338836b05e8c768bef8b6b5baecf0ddca",
+      "revisionId": "062c-revalidate-5",
+      "state": "accepted",
+      "predecessorHash": "a36cee3847e66e420aa0c084a97239ed73ce2ac87f46661f2e8509e6cb1ddf80",
+      "predecessorRevisionHash": "f1e7fea8278fde5b05087784f26c7df86e5115ff43f49f2a99b40341986a4ae0",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:43"
+      ],
+      "targetHashes": {
+        "vocab-n5:43": "23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. The publisher depart/go out/set out gloss matches the selected outing/departure sense. Current purpose に and companion と examples and the explicit variant note preserve this coverage.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1598550; spelling=出掛ける; reading=でかける; senses=1",
+          "finding": "The publisher depart/go out/set out gloss matches the selected outing/departure sense. Current purpose に and companion と examples and the explicit variant note preserve this coverage.",
+          "selected": {
+            "sequence": "1598550",
+            "spelling": "出掛ける",
+            "reading": "でかける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go out (e.g. on an excursion or outing)",
+                  "to leave",
+                  "to depart",
+                  "to start",
+                  "to set out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 ab906f56992ac2cac4da3173a667c31338836b05e8c768bef8b6b5baecf0ddca; current target SHA256 23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. The publisher depart/go out/set out gloss matches the selected outing/departure sense. Current purpose に and companion と examples and the explicit variant note preserve this coverage."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 23f44b0a50405310263b40d80fb3dd7ca83b1cb273613238281e61acad5d9916",
+          "locator": "scripts/vocabulary-completion/055a-full-n5.json#reviews/vocab-n5:43",
+          "finding": "Current target content inspected; The publisher depart/go out/set out gloss matches the selected outing/departure sense. Current purpose に and companion と examples and the explicit variant note preserve this coverage."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. The publisher depart/go out/set out gloss matches the selected outing/departure sense. Current purpose に and companion と examples and the explicit variant note preserve this coverage. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "0b88394510ca4d811b3231a22e4294559b2a7b535857e11e79d6c1cd692d82cd",
+        "approvalHash": "0b88394510ca4d811b3231a22e4294559b2a7b535857e11e79d6c1cd692d82cd"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen Master depart/go out on an excursion/set out unambiguously matches raw JMdict1598550 sense1, not sense2 about-to-leave. Current purpose に and companion と examples are natural and explicitly teach outings; note preserves alternate 出掛ける spelling. Exact source reading, alias and current target43 hash independently checked.",
+        "contentHash": "0b88394510ca4d811b3231a22e4294559b2a7b535857e11e79d6c1cd692d82cd",
+        "approvalHash": "0b88394510ca4d811b3231a22e4294559b2a7b535857e11e79d6c1cd692d82cd"
+      }
+    },
+    {
+      "key": "分る|わかる",
+      "referenceIndex": 0,
+      "referenceHash": "44095928b9a226dcc28f6336284a08fd06eae4b57b4cb8bea06224d2c181ea7d",
+      "revisionId": "062c-revalidate-6",
+      "state": "accepted",
+      "predecessorHash": "0487cdaede3d2be15e1fe402b990f3004db46926fbed38c631fd756f6010b2a7",
+      "predecessorRevisionHash": "d00919ba5f75a7cff4c3beb940089e008d4a6c77e8405e85b201a42f3a4a6f11",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:29"
+      ],
+      "targetHashes": {
+        "vocab-n5:29": "39a4d5270da9a1af9aeef0daa2251b5440b3c206beae55000de89aef88ea1fde"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 分る/わかる is the same comprehension verb as 分かる. Source passive English to be understood does not create a Japanese passive lexeme. Japanese-language understanding and an uncomprehended exercise show the current taught sense with が.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1606560; spelling=分る; reading=わかる; senses=1",
+          "finding": "分る/わかる is the same comprehension verb as 分かる. Source passive English to be understood does not create a Japanese passive lexeme. Japanese-language understanding and an uncomprehended exercise show the current taught sense with が.",
+          "selected": {
+            "sequence": "1606560",
+            "spelling": "分る",
+            "reading": "わかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to understand",
+                  "to comprehend",
+                  "to grasp",
+                  "to see",
+                  "to get",
+                  "to follow"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 44095928b9a226dcc28f6336284a08fd06eae4b57b4cb8bea06224d2c181ea7d; current target SHA256 39a4d5270da9a1af9aeef0daa2251b5440b3c206beae55000de89aef88ea1fde",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=93",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 分る/わかる is the same comprehension verb as 分かる. Source passive English to be understood does not create a Japanese passive lexeme. Japanese-language understanding and an uncomprehended exercise show the current taught sense with が."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 39a4d5270da9a1af9aeef0daa2251b5440b3c206beae55000de89aef88ea1fde",
+          "locator": "scripts/vocabulary-completion/055a-full-n5.json#reviews/vocab-n5:29",
+          "finding": "Current target content inspected; 分る/わかる is the same comprehension verb as 分かる. Source passive English to be understood does not create a Japanese passive lexeme. Japanese-language understanding and an uncomprehended exercise show the current taught sense with が."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 分る/わかる is the same comprehension verb as 分かる. Source passive English to be understood does not create a Japanese passive lexeme. Japanese-language understanding and an uncomprehended exercise show the current taught sense with が. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "0b6620763ef616ab11b9006780624da4f443a6c321555e07cf738da1edc92ab6",
+        "approvalHash": "0b6620763ef616ab11b9006780624da4f443a6c321555e07cf738da1edc92ab6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS to be understood maps to the same intransitive comprehension verb, not a morphologically passive Japanese word. Raw JMdict1606560 explicitly lists 分る and 分かる with わかる, sense1 unrestricted; current positive language comprehension and negative task comprehension use が correctly. Alias and exact current hash verified; decision does not assert teaching every later discovery/clarity sense.",
+        "contentHash": "0b6620763ef616ab11b9006780624da4f443a6c321555e07cf738da1edc92ab6",
+        "approvalHash": "0b6620763ef616ab11b9006780624da4f443a6c321555e07cf738da1edc92ab6"
+      }
+    },
+    {
+      "key": "直ぐ|すぐ",
+      "referenceIndex": 1,
+      "referenceHash": "87bea7e0ec0599cc6f8554ba9e86969d9909edd837b6c70780dcc8353345019a",
+      "revisionId": "062c-revalidate-7",
+      "state": "accepted",
+      "predecessorHash": "32d1168b30314f3b069965842fb97e3266536b4441446a40244544719cc48d44",
+      "predecessorRevisionHash": "9e1ef98e42461bc4e46b5604871afd4229df9cb157622aef8e19cb69ae34dea0",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:206"
+      ],
+      "targetHashes": {
+        "vocab-n5:206": "9347177a859ee653f0c89de7bbdff775d950b2958f7ebd4a5d1eac16fef35a46"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 直ぐ/すぐ selects the immediate-action adverb, not an old verb or an upright adjective. Current すぐ行きます explicitly teaches immediately/at once/directly; a separate spatial context and note do not replace the immediate sense.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1430610; spelling=直ぐ; reading=すぐ; senses=1",
+          "finding": "直ぐ/すぐ selects the immediate-action adverb, not an old verb or an upright adjective. Current すぐ行きます explicitly teaches immediately/at once/directly; a separate spatial context and note do not replace the immediate sense.",
+          "selected": {
+            "sequence": "1430610",
+            "spelling": "直ぐ",
+            "reading": "すぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "immediately",
+                  "at once",
+                  "right away",
+                  "directly"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 87bea7e0ec0599cc6f8554ba9e86969d9909edd837b6c70780dcc8353345019a; current target SHA256 9347177a859ee653f0c89de7bbdff775d950b2958f7ebd4a5d1eac16fef35a46",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 直ぐ/すぐ selects the immediate-action adverb, not an old verb or an upright adjective. Current すぐ行きます explicitly teaches immediately/at once/directly; a separate spatial context and note do not replace the immediate sense."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 9347177a859ee653f0c89de7bbdff775d950b2958f7ebd4a5d1eac16fef35a46",
+          "locator": "scripts/vocabulary-completion/059a-full-n5.json#reviews/vocab-n5:206",
+          "finding": "Current target content inspected; 直ぐ/すぐ selects the immediate-action adverb, not an old verb or an upright adjective. Current すぐ行きます explicitly teaches immediately/at once/directly; a separate spatial context and note do not replace the immediate sense."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 直ぐ/すぐ selects the immediate-action adverb, not an old verb or an upright adjective. Current すぐ行きます explicitly teaches immediately/at once/directly; a separate spatial context and note do not replace the immediate sense. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "41d67413ad08f04700db12ffba0bd5b1966f35f0640be38ef27c7f2255e2c358",
+        "approvalHash": "41d67413ad08f04700db12ffba0bd5b1966f35f0640be38ef27c7f2255e2c358"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen Master immediately/at once/directly matches selected raw JMdict1430610 sense1 adverb and current すぐ行きます immediate-action example. Current nearby-station example adds separate sense without displacing temporal teaching. Exact 直ぐ alias/すぐ reading and target206 full content hash verified; no old verb or upright adjective substitution.",
+        "contentHash": "41d67413ad08f04700db12ffba0bd5b1966f35f0640be38ef27c7f2255e2c358",
+        "approvalHash": "41d67413ad08f04700db12ffba0bd5b1966f35f0640be38ef27c7f2255e2c358"
+      }
+    },
+    {
+      "key": "好い|よい",
+      "referenceIndex": 0,
+      "referenceHash": "6586cf5f9654c15eb7cc69df7a1f61482fcd922a37a3bd129c945ebb04e60bfb",
+      "revisionId": "062c-revalidate-8",
+      "state": "accepted",
+      "predecessorHash": "ba6f9b31741384f6af0900ac6cb3351308126e4e9c9834ad6a8e5909c20409d2",
+      "predecessorRevisionHash": "bafef78de4ae4e5126c948741b6bf121caea26204d8430c43c5109401ff3558a",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:71"
+      ],
+      "targetHashes": {
+        "vocab-n5:71": "1968d40150b03f8486cfa215c0762b64cebf196ca981f01b623dd7270b3d14f1"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 好い/よい and 良い/よい are the same positive-evaluation adjective. The retained weather and book examples teach good; note distinguishes よい from colloquial いい without changing the source reading.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605820; spelling=好い; reading=よい; senses=1",
+          "finding": "好い/よい and 良い/よい are the same positive-evaluation adjective. The retained weather and book examples teach good; note distinguishes よい from colloquial いい without changing the source reading.",
+          "selected": {
+            "sequence": "1605820",
+            "spelling": "好い",
+            "reading": "よい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good",
+                  "excellent",
+                  "fine",
+                  "nice",
+                  "pleasant",
+                  "agreeable"
+                ],
+                "notes": [
+                  "also いい (all senses)"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 6586cf5f9654c15eb7cc69df7a1f61482fcd922a37a3bd129c945ebb04e60bfb; current target SHA256 1968d40150b03f8486cfa215c0762b64cebf196ca981f01b623dd7270b3d14f1",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=167",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 好い/よい and 良い/よい are the same positive-evaluation adjective. The retained weather and book examples teach good; note distinguishes よい from colloquial いい without changing the source reading."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 1968d40150b03f8486cfa215c0762b64cebf196ca981f01b623dd7270b3d14f1",
+          "locator": "scripts/vocabulary-completion/056a-full-n5.json#reviews/vocab-n5:71",
+          "finding": "Current target content inspected; 好い/よい and 良い/よい are the same positive-evaluation adjective. The retained weather and book examples teach good; note distinguishes よい from colloquial いい without changing the source reading."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 好い/よい and 良い/よい are the same positive-evaluation adjective. The retained weather and book examples teach good; note distinguishes よい from colloquial いい without changing the source reading. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "b9dbcf32e7dbaad021156937db5bcbfb0dd1a7a9c860d2b20d634e6ebab5ac56",
+        "approvalHash": "b9dbcf32e7dbaad021156937db5bcbfb0dd1a7a9c860d2b20d634e6ebab5ac56"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS good matches current good weather/book positive evaluations. Raw JMdict1605820 explicitly lists 好い and 良い with よい, unrestricted sense1; source reading stays よい, not silently replaced by いい. Current note correctly explains shared よ inflection. Alias and exact target71 full content hash independently verified.",
+        "contentHash": "b9dbcf32e7dbaad021156937db5bcbfb0dd1a7a9c860d2b20d634e6ebab5ac56",
+        "approvalHash": "b9dbcf32e7dbaad021156937db5bcbfb0dd1a7a9c860d2b20d634e6ebab5ac56"
+      }
+    },
+    {
+      "key": "良く|よく",
+      "referenceIndex": 0,
+      "referenceHash": "de6db31b6a5714aa66666961838559583dd4c747bedd0e6a5df6cc0c26b6cafb",
+      "revisionId": "062c-revalidate-9",
+      "state": "accepted",
+      "predecessorHash": "57aad528e53f4619efc53dc5f4b97112e198b3042b1ed82791a2d998c8e41c7d",
+      "predecessorRevisionHash": "a717cc53e96508d2989cd6a1b49a7dfad8f319555bb9a85d1e1325ca0063d69f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:205"
+      ],
+      "targetHashes": {
+        "vocab-n5:205": "2f428e729c34fa4b5dce4ff5727e850699217dd16f800b8e46f05b6eb843b251"
+      },
+      "reason": "Fresh source-to-target review after full teaching enrichment reopened the old target-hash approval. 良く/よく is the well/properly adverb. Current 日本語がよく分かります explicitly teaches good understanding, while the other example independently teaches frequency. Alias remains searchable; unrelated 欲/翼 homophones are excluded.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605870; spelling=良く; reading=よく; senses=1",
+          "finding": "良く/よく is the well/properly adverb. Current 日本語がよく分かります explicitly teaches good understanding, while the other example independently teaches frequency. Alias remains searchable; unrelated 欲/翼 homophones are excluded.",
+          "selected": {
+            "sequence": "1605870",
+            "spelling": "良く",
+            "reading": "よく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nicely",
+                  "properly",
+                  "well",
+                  "skillfully",
+                  "skilfully"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed teaching coverage",
+          "version": "Reference SHA256 de6db31b6a5714aa66666961838559583dd4c747bedd0e6a5df6cc0c26b6cafb; current target SHA256 2f428e729c34fa4b5dce4ff5727e850699217dd16f800b8e46f05b6eb843b251",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "Read this frozen publisher identity and gloss against the current spelling alias, reading, note and both teaching contexts. 良く/よく is the well/properly adverb. Current 日本語がよく分かります explicitly teaches good understanding, while the other example independently teaches frequency. Alias remains searchable; unrelated 欲/翼 homophones are excluded."
+        },
+        {
+          "source": "Sealed full-enrichment authoring record",
+          "version": "Target-bound current content hashes 2f428e729c34fa4b5dce4ff5727e850699217dd16f800b8e46f05b6eb843b251",
+          "locator": "scripts/vocabulary-completion/059a-full-n5.json#reviews/vocab-n5:205",
+          "finding": "Current target content inspected; 良く/よく is the well/properly adverb. Current 日本語がよく分かります explicitly teaches good understanding, while the other example independently teaches frequency. Alias remains searchable; unrelated 欲/翼 homophones are excluded."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the frozen reference gloss, exact spelling/reading selected JMdict senses and all current target teaching/alias content. 良く/よく is the well/properly adverb. Current 日本語がよく分かります explicitly teaches good understanding, while the other example independently teaches frequency. Alias remains searchable; unrelated 欲/翼 homophones are excluded. New approval binds current content; no existing record or historical approval is changed.",
+        "contentHash": "3eb46cca149500f3647e85e98ec6511b74bb59d79dd2efd10ec2d5c758e0475e",
+        "approvalHash": "3eb46cca149500f3647e85e98ec6511b74bb59d79dd2efd10ec2d5c758e0475e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen Master nicely/properly/well matches selected raw JMdict1605870 sense1 and current 日本語がよく分かります well-understood context. Frequency example is additional meaning, not sole coverage. Raw entry explicitly lists 良く/よく without spelling/reading restrictions. Alias and exact target205 current hash independently verified, excluding unrelated 欲/翼.",
+        "contentHash": "3eb46cca149500f3647e85e98ec6511b74bb59d79dd2efd10ec2d5c758e0475e",
+        "approvalHash": "3eb46cca149500f3647e85e98ec6511b74bb59d79dd2efd10ec2d5c758e0475e"
+      }
+    }
+  ]
+}

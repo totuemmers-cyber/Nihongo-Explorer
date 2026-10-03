@@ -1,0 +1,240 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:459",
+      "revisionId": "065c-alias-459",
+      "state": "accepted",
+      "predecessorHash": "ef5c70ed143d6a067ce2fe7773a755669c829f4f3e8e233352f88de3e251b5a6",
+      "predecessorRevisionHash": "725ecf0c2c843c6a1805e0ec2401b6a906c88b495304efe1b611bd42272af13d",
+      "originalHash": "ef5c70ed143d6a067ce2fe7773a755669c829f4f3e8e233352f88de3e251b5a6",
+      "rationale": "Resolve source-attested irregular okurigana spelling through searchable alias and qualified German guidance while preserving exact identity, all reviewed contexts and whole-form pitch.",
+      "original": {
+        "aliases": null,
+        "notes": "集まる beschreibt, dass Menschen zusammenkommen oder Dinge sich sammeln. Das Gesammelte steht mit が, der Treffpunkt kann mit に stehen. Wer aktiv etwas einsammelt, verwendet dagegen 集める mit を. 集まる ist Godan mit 集まって; seine る-Endung macht es nicht zu Ichidan."
+      },
+      "replacement": {
+        "aliases": [
+          "集る"
+        ],
+        "notes": "集まる beschreibt, dass Menschen zusammenkommen oder Dinge sich sammeln. Das Gesammelte steht mit が, der Treffpunkt kann mit に stehen. Wer aktiv etwas einsammelt, verwendet dagegen 集める mit を. 集まる ist Godan mit 集まって; seine る-Endung macht es nicht zu Ichidan. Die übliche Schreibung ist 集まる. Die Wörterbuchvariante 集る hat eine unregelmäßige Okurigana-Schreibung; verwenden Sie beim eigenen Schreiben 集まる."
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1333550; spelling=集まる; reading=あつまる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict1333550 Bedeutung1: zusammenkommen/sich sammeln. Die erste doppelte Personenversammlung wird durch zusammengekommene Reisemittel ersetzt; deutsche Zeile deckt beide Subjektarten. Bestehender pitch0 widerspricht exakter UniDic-Gesamtzeile 集まる/アツマル/aType3 und wird auf3 korrigiert. Intransitives Godan-ラ. お金が ist gesammelte Sache, みんなが die Personengruppe; 旅行の benennt den Finanzierungszweck und 駅の前に den Treffpunkt. Keine transitive 集める-Analyse.",
+          "selected": {
+            "sequence": "1333550",
+            "spelling": "集まる",
+            "reading": "あつまる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to gather",
+                  "to collect",
+                  "to assemble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1333550; spelling=集る; reading=あつまる; sense=1",
+          "finding": "Frozen publisher gloss to gather selects exactly JMdict1333550 sense1 to gather/collect/assemble, not the differently read たかる homograph. 集る/あつまる is unrestricted but marked irregular okurigana usage; current money accumulation and station meeting teach the same intransitive Godan gather sense. Standard learner spelling remains 集まる.",
+          "selected": {
+            "sequence": "1333550",
+            "spelling": "集る",
+            "reading": "あつまる",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "irregular okurigana usage"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to gather",
+                  "to collect",
+                  "to assemble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-spelling-alias",
+          "usage-note"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich sammeln, sich versammeln — JMdict1333550 Bedeutung1: zusammenkommen/sich sammeln. Die erste doppelte Personenversammlung wird durch zusammengekommene Reisemittel ersetzt; deutsche Zeile deckt beide Subjektarten. Bestehender pitch0 widerspricht exakter UniDic-Gesamtzeile 集まる/アツマル/aType3 und wird auf3 korrigiert.",
+        "japanese": "旅行のお金が集まりました。 / 駅の前にみんなが集まりました。 — Intransitives Godan-ラ. お金が ist gesammelte Sache, みんなが die Personengruppe; 旅行の benennt den Finanzierungszweck und 駅の前に den Treffpunkt. Keine transitive 集める-Analyse.",
+        "romanization": "Ryokō no okane ga atsumarimashita. / Eki no mae ni minna ga atsumarimashita. — Modified Hepburn, Makronen, richtige て-Formen und Partikeln wa/o/e einzeln geprüft; moraisches n vor Vokal in ten'in getrennt.",
+        "translation": "Das Geld für die Reise ist zusammengekommen. / Alle haben sich vor dem Bahnhof versammelt. — Intransitives Godan-ラ. お金が ist gesammelte Sache, みんなが die Personengruppe; 旅行の benennt den Finanzierungszweck und 駅の前に den Treffpunkt. Keine transitive 集める-Analyse. Zustandsresultat, Handlungsrichtung und Auslöser sind treu übersetzt; kein unbelegter Trocknungsgrund oder laufende Zustandsveränderung ergänzt.",
+        "contexts": [
+          "Zusammengekommenes Geld zur Finanzierung einer Reise melden.",
+          "Eine Gruppe versammelt sich an einem vereinbarten Ort vor dem Bahnhof."
+        ],
+        "lexical": "JMdict1333550 Bedeutung1: zusammenkommen/sich sammeln. Die erste doppelte Personenversammlung wird durch zusammengekommene Reisemittel ersetzt; deutsche Zeile deckt beide Subjektarten. Bestehender pitch0 widerspricht exakter UniDic-Gesamtzeile 集まる/アツマル/aType3 und wird auf3 korrigiert. Frozen publisher gloss to gather selects exactly JMdict1333550 sense1 to gather/collect/assemble, not the differently read たかる homograph. 集る/あつまる is unrestricted but marked irregular okurigana usage; current money accumulation and station meeting teach the same intransitive Godan gather sense. Standard learner spelling remains 集まる. New spelling guidance read against irregular-okurigana source marker.",
+        "register": "Neutraler Alltag in höflichen Fragen, Bitten und Aussagen; wörtlich ausgewählte Grundbedeutungen.",
+        "transitivity": "Intransitives Godan-ラ. お金が ist gesammelte Sache, みんなが die Personengruppe; 旅行の benennt den Finanzierungszweck und 駅の前に den Treffpunkt. Keine transitive 集める-Analyse.",
+        "conjugation": "Vorhandene Verbgruppe/Lesung erhalten und genaue Satzformen sowie mögliche resultative ている-Auslegung geprüft. Intransitives Godan-ラ. お金が ist gesammelte Sache, みんなが die Personengruppe; 旅行の benennt den Finanzierungszweck und 駅の前に den Treffpunkt. Keine transitive 集める-Analyse.",
+        "level": "N5 bleibt erhalten; konkrete Grundwortfunktionen in diesen einzeln geprüften Kontexten: Zusammengekommenes Geld zur Finanzierung einer Reise melden. / Eine Gruppe versammelt sich an einem vereinbarten Ort vor dem Bahnhof."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exakte UniDic-Gesamtform sys.dic@44534881 mit orth=集まる, kana=アツマル, lemma=集まる, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=3. Gewählter Sinn und aktuelle Wörterbuchform geprüft.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44534881",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Genau 集まる/アツマル, Lexeme 集まる, 動詞/一般/*/*, 五段-ラ行, 終止形-一般, aType 3. JMdict1333550 Bedeutung1: zusammenkommen/sich sammeln. Die erste doppelte Personenversammlung wird durch zusammengekommene Reisemittel ersetzt; deutsche Zeile deckt beide Subjektarten. Bestehender pitch0 widerspricht exakter UniDic-Gesamtzeile 集まる/アツマル/aType3 und wird auf3 korrigiert.",
+            "match": {
+              "word": "集まる",
+              "reading": "あつまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "集まる als sich sammeln, sich versammeln"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the exact final money-accumulation and people-meeting Japanese contexts, Hepburn, complete German translations and full revised spelling note; selected JMdict1333550 集る/あつまる sense1 is unrestricted but marked irregular okurigana, so learner guidance retains standard 集まる. Publisher to gather maps to these intransitive contexts, not たかる homograph. New alias and target content hash inspected; all existing identity/conjugation and exact terminal UniDic whole-form pitch3 are preserved.",
+        "contentHash": "60d9950425fbf2c26daa6e6fc20bf422faa2dcddcbca84f52ea0098f9f8adce7",
+        "approvalHash": "9c1790ab00f9d845928dd14c95e15c37b19a468398e23fb1a129e59c376c2c83"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read final money-accumulation and station-gathering sentences, faithful German/Hepburn and unchanged intransitive Godan morphology. Independently read original JMdict1333550 XML: alternate spelling explicitly marked irregular okurigana, unrestricted reading atsumaru and gather/collect/assemble sense. Added note accurately recommends standard spelling for own writing. Exact original UniDic44534881 whole dictionary form confirms retained3. Alias and note are supported; distinct teaching contexts retained.",
+        "contentHash": "60d9950425fbf2c26daa6e6fc20bf422faa2dcddcbca84f52ea0098f9f8adce7",
+        "approvalHash": "9c1790ab00f9d845928dd14c95e15c37b19a468398e23fb1a129e59c376c2c83"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "集る|あつまる",
+      "referenceIndex": 0,
+      "referenceHash": "d0c3dd398daa6a6526e54da1d40725935595bff8faecbdc681551fac2968a433",
+      "revisionId": "065c-candidate-459-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:459"
+      ],
+      "targetHashes": {
+        "vocab-n5:459": "60d9950425fbf2c26daa6e6fc20bf422faa2dcddcbca84f52ea0098f9f8adce7"
+      },
+      "reason": "Frozen publisher gloss to gather selects exactly JMdict1333550 sense1 to gather/collect/assemble, not the differently read たかる homograph. 集る/あつまる is unrestricted but marked irregular okurigana usage; current money accumulation and station meeting teach the same intransitive Godan gather sense. Standard learner spelling remains 集まる.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1333550; spelling=集る; reading=あつまる; sense=1",
+          "finding": "Frozen publisher gloss to gather selects exactly JMdict1333550 sense1 to gather/collect/assemble, not the differently read たかる homograph. 集る/あつまる is unrestricted but marked irregular okurigana usage; current money accumulation and station meeting teach the same intransitive Godan gather sense. Standard learner spelling remains 集まる.",
+          "selected": {
+            "sequence": "1333550",
+            "spelling": "集る",
+            "reading": "あつまる",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "irregular okurigana usage"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to gather",
+                  "to collect",
+                  "to assemble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference",
+          "version": "Reference SHA256 d0c3dd398daa6a6526e54da1d40725935595bff8faecbdc681551fac2968a433",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=1",
+          "finding": "Root read exact publisher word/reading/gloss and mapped it to the reviewed accumulation and people-gathering contexts. Frozen publisher gloss to gather selects exactly JMdict1333550 sense1 to gather/collect/assemble, not the differently read たかる homograph. 集る/あつまる is unrestricted but marked irregular okurigana usage; current money accumulation and station meeting teach the same intransitive Godan gather sense. Standard learner spelling remains 集まる."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the exact final money-accumulation and people-meeting Japanese contexts, Hepburn, complete German translations and full revised spelling note; selected JMdict1333550 集る/あつまる sense1 is unrestricted but marked irregular okurigana, so learner guidance retains standard 集まる. Publisher to gather maps to these intransitive contexts, not たかる homograph. New alias and target content hash inspected; all existing identity/conjugation and exact terminal UniDic whole-form pitch3 are preserved.",
+        "contentHash": "701223fa5f8a3b296488c0f4204954ce19bd75c15bba4d6d3c780a2db65e8a8a",
+        "approvalHash": "701223fa5f8a3b296488c0f4204954ce19bd75c15bba4d6d3c780a2db65e8a8a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS N4 reference explicitly pairs alternate spelling with atsumaru and to gather. Original JMdict1333550 unrestricted reading/sense supports exactly that mapping, not differently read takaru. Final alias is searchable and accompanied by irregular-okurigana qualification; both enriched contexts cover gather. Independently recalculated final target content hash matches decision binding.",
+        "contentHash": "701223fa5f8a3b296488c0f4204954ce19bd75c15bba4d6d3c780a2db65e8a8a",
+        "approvalHash": "701223fa5f8a3b296488c0f4204954ce19bd75c15bba4d6d3c780a2db65e8a8a"
+      }
+    }
+  ]
+}

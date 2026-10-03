@@ -1,0 +1,324 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:203",
+      "revisionId": "060c-full-n5-203",
+      "state": "accepted",
+      "predecessorHash": "157770a5a794331cecab4f269cdb22a1e908da08ba4b993c59aa152dee45daab",
+      "predecessorRevisionHash": "df9afe0edf25d7831e4d9fa84abc3394c421ee869ca68aadea1a1fdd8bc98798",
+      "originalHash": "157770a5a794331cecab4f269cdb22a1e908da08ba4b993c59aa152dee45daab",
+      "rationale": "Bereits vollständig und unabhängig geprüfte Gebrauchsnotiz und unterschiedliche Beispiele unverändert erhalten. Neu recherchierter exakter Gesamtformakzent aus der offiziellen Irodori-Wortliste ersetzt den dokumentierten unbekannten Status. Irodori 入門 ことばリスト L5-3, いつも / itsumo / い↓つも / always. Das Fallzeichen steht nach der ersten Mora い; somit Akzent 1. Die Quelle nennt das Häufigkeitsadverb, nicht den gleich gelesenen Ortsnamen.",
+      "original": {
+        "notes": "いつも heißt immer oder regelmäßig wie gewohnt. Es steht vor der beschriebenen Gewohnheit, zum Beispiel いつもここで食べる. 時々 ist dagegen nur gelegentlich. Die Karte behandelt den Häufigkeitsgebrauch, nicht einen gleich gelesenen Ortsnamen.",
+        "examples": [
+          {
+            "japanese": "いつもここで食べます。",
+            "romaji": "Itsumo koko de tabemasu.",
+            "german": "Ich esse immer hier."
+          },
+          {
+            "japanese": "いつもこの道を歩きます。",
+            "romaji": "Itsumo kono michi o arukimasu.",
+            "german": "Ich gehe immer diese Straße entlang."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "いつも heißt immer oder regelmäßig wie gewohnt. Es steht vor der beschriebenen Gewohnheit, zum Beispiel いつもここで食べる. 時々 ist dagegen nur gelegentlich. Die Karte behandelt den Häufigkeitsgebrauch, nicht einen gleich gelesenen Ortsnamen.",
+        "examples": [
+          {
+            "japanese": "いつもここで食べます。",
+            "romaji": "Itsumo koko de tabemasu.",
+            "german": "Ich esse immer hier."
+          },
+          {
+            "japanese": "いつもこの道を歩きます。",
+            "romaji": "Itsumo kono michi o arukimasu.",
+            "german": "Ich gehe immer diese Straße entlang."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": [
+          {
+            "source": "Irodori — The Japan Foundation",
+            "version": "Starter word list, Ver.2021/10/01; retrieved 2026-10-03; PDF SHA256 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267",
+            "locator": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf#page=15",
+            "attribution": "© The Japan Foundation; official Irodori word list; accent facts cited without copying audio",
+            "patterns": [
+              1
+            ],
+            "finding": "Irodori 入門 ことばリスト L5-3, いつも / itsumo / い↓つも / always. Das Fallzeichen steht nach der ersten Mora い; somit Akzent 1. Die Quelle nennt das Häufigkeitsadverb, nicht den gleich gelesenen Ortsnamen.",
+            "match": {
+              "word": "いつも",
+              "reading": "いつも",
+              "grammaticalForm": "Adverb; Irodori L5-3 exact whole form",
+              "sense": "immer"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1188890; spelling=いつも; reading=いつも; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict 1188890, Bedeutung 1: immer/stets. Die Situationen betreffen gleichbleibenden Essensort und gewohnte Strecke. UniDic-地名 イツモ passt nicht zum Adverb; sein Akzent ist nicht übernommen. Adverb vor dem ganzen Handlungssatz. ここで ist der Essensort; この道を die durchquerte Strecke beim intransitiven 歩く.",
+          "selected": {
+            "sequence": "1188890",
+            "spelling": "いつも",
+            "reading": "いつも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "always",
+                  "all the time",
+                  "at all times"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "full-enrichment",
+          "pitch"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "immer — JMdict 1188890, Bedeutung 1: immer/stets. Die Situationen betreffen gleichbleibenden Essensort und gewohnte Strecke. UniDic-地名 イツモ passt nicht zum Adverb; sein Akzent ist nicht übernommen.",
+        "japanese": "いつもここで食べます。 / いつもこの道を歩きます。 — Partikeln, Wortart, Polarität und konkrete Aussagefunktion geprüft. Adverb vor dem ganzen Handlungssatz. ここで ist der Essensort; この道を die durchquerte Strecke beim intransitiven 歩く.",
+        "romanization": "Itsumo koko de tabemasu. / Itsumo kono michi o arukimasu. — Modified Hepburn mit Makronen und wa/o/e für die Partikeln; kleine っ ergeben Doppelkonsonanten. ",
+        "translation": "Ich esse immer hier. / Ich gehe immer diese Straße entlang. — Häufigkeit, Menge, Zeitbezug und Negation stimmen mit der japanischen Aussage überein; insbesondere まだ/もう/よく sind kontextabhängig geprüft.",
+        "contexts": [
+          "Stets derselbe Ort für eine Mahlzeit.",
+          "Eine gewohnte Wegstrecke wird regelmäßig gewählt."
+        ],
+        "lexical": "JMdict 1188890, Bedeutung 1: immer/stets. Die Situationen betreffen gleichbleibenden Essensort und gewohnte Strecke. UniDic-地名 イツモ passt nicht zum Adverb; sein Akzent ist nicht übernommen.",
+        "register": "Neutraler Grundgebrauch im Alltag und Unterricht; höfliche Aussagen, Fragen oder Einladungen. Seltene, abwertende oder emotionale Homographe werden nicht als Standardgebrauch übernommen.",
+        "transitivity": "Keine selbst konjugierende Verbkarte; die Rollen von Nomen, Adverb und Satzverb sind einzeln geprüft. Adverb vor dem ganzen Handlungssatz. ここで ist der Essensort; この道を die durchquerte Strecke beim intransitiven 歩く.",
+        "conjugation": "Nomen beziehungsweise Adverb; die Verb- und Adjektivformen der Beispiele sind geprüft. Adverb vor dem ganzen Handlungssatz. ここで ist der Essensort; この道を die durchquerte Strecke beim intransitiven 歩く.",
+        "level": "N5 bleibt erhalten: grundlegender Gebrauch für Stets derselbe Ort für eine Mahlzeit. / Eine gewohnte Wegstrecke wird regelmäßig gewählt.. Keine Levelverschiebung aufgrund einzelner erklärender Zusatzwörter."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Irodori 入門 ことばリスト L5-3, いつも / itsumo / い↓つも / always. Das Fallzeichen steht nach der ersten Mora い; somit Akzent 1. Die Quelle nennt das Häufigkeitsadverb, nicht den gleich gelesenen Ortsnamen.",
+        "evidence": [
+          {
+            "source": "Irodori — The Japan Foundation",
+            "version": "Starter word list, Ver.2021/10/01; retrieved 2026-10-03; PDF SHA256 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267",
+            "locator": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf#page=15",
+            "attribution": "© The Japan Foundation; official Irodori word list; accent facts cited without copying audio",
+            "patterns": [
+              1
+            ],
+            "finding": "Irodori 入門 ことばリスト L5-3, いつも / itsumo / い↓つも / always. Das Fallzeichen steht nach der ersten Mora い; somit Akzent 1. Die Quelle nennt das Häufigkeitsadverb, nicht den gleich gelesenen Ortsnamen.",
+            "match": {
+              "word": "いつも",
+              "reading": "いつも",
+              "grammaticalForm": "Adverb; Irodori L5-3 exact whole form",
+              "sense": "immer"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root rechecked the two ordinary frequency-adverb contexts, original German usage note and exact JMdict sense. Current official Irodori L5-3/page15 prints い↓つも for always, verifying pattern1 for the adverb; preserves all previously reviewed teaching content and does not reuse a place-name accent.",
+        "contentHash": "a78439ecdf1b8bcde46498151838ed074182d336c36712b78968d0526e44ce06",
+        "approvalHash": "d90636402dab20eb340bde7c0c4c9ad860983d245f397a02fff5a7635d7c9b9c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently reopened current official main JPF Irodori Starter English PDF, version2021/10/01: page15 (zero-based14), printed L5-3 explicitly attests frequency adverb いつも and downstep immediately after first mora, supporting pitch1. Saved PDF SHA independently recomputes 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267; exact main-source locator/version match. This newly found primary evidence resolves prior honest unknown and does not select the homophonous UniDic place-name. Compared complete final content with independently reviewed059a: notes, meaning, type, IDs and Japanese/German/Hepburn meal-location and walking-route contexts remain exactly unchanged; distinct-context review still supported.",
+        "contentHash": "a78439ecdf1b8bcde46498151838ed074182d336c36712b78968d0526e44ce06",
+        "approvalHash": "d90636402dab20eb340bde7c0c4c9ad860983d245f397a02fff5a7635d7c9b9c"
+      }
+    },
+    {
+      "id": "vocab-n5:213",
+      "revisionId": "060c-full-n5-213",
+      "state": "accepted",
+      "predecessorHash": "a263e0d0c0b2332fcb76af6a7530b549a71a85cab3d3733f0e4d4ec1844f3602",
+      "predecessorRevisionHash": "42800350c67a17888fd33b34221e0c21280eb4fd82bb9d8b5418d45c6dee021c",
+      "originalHash": "a263e0d0c0b2332fcb76af6a7530b549a71a85cab3d3733f0e4d4ec1844f3602",
+      "rationale": "Bereits vollständig und unabhängig geprüfte Gebrauchsnotiz und unterschiedliche Beispiele unverändert erhalten. Neu recherchierter exakter Gesamtformakzent aus der offiziellen Irodori-Wortliste ersetzt den dokumentierten unbekannten Status. Irodori 入門 ことばリスト L12-5, いっしょに / issho ni / いっしょに○ / together. Das Kreiszeichen bezeichnet laut der Symbolerklärung keinen Akzentabfall. Die genaue gesamte Wendung einschließlich に ist belegt, somit Akzent 0; keine Ableitung aus 一緒 allein.",
+      "original": {
+        "notes": "一緒に bedeutet zusammen beziehungsweise gemeinsam. Eine andere beteiligte Person wird mit と ergänzt: 友達と一緒に. Das に gehört zur hier gelehrten adverbialen Wendung; es wird nicht noch einmal zusätzlich angehängt.",
+        "examples": [
+          {
+            "japanese": "一緒に行きましょう。",
+            "romaji": "Issho ni ikimashō.",
+            "german": "Lass uns zusammen gehen."
+          },
+          {
+            "japanese": "友達と一緒に住んでいます。",
+            "romaji": "Tomodachi to issho ni sunde imasu.",
+            "german": "Ich wohne mit einem Freund zusammen."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "一緒に bedeutet zusammen beziehungsweise gemeinsam. Eine andere beteiligte Person wird mit と ergänzt: 友達と一緒に. Das に gehört zur hier gelehrten adverbialen Wendung; es wird nicht noch einmal zusätzlich angehängt.",
+        "examples": [
+          {
+            "japanese": "一緒に行きましょう。",
+            "romaji": "Issho ni ikimashō.",
+            "german": "Lass uns zusammen gehen."
+          },
+          {
+            "japanese": "友達と一緒に住んでいます。",
+            "romaji": "Tomodachi to issho ni sunde imasu.",
+            "german": "Ich wohne mit einem Freund zusammen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": [
+          {
+            "source": "Irodori — The Japan Foundation",
+            "version": "Starter word list, Ver.2021/10/01; retrieved 2026-10-03; PDF SHA256 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267",
+            "locator": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf#page=43",
+            "attribution": "© The Japan Foundation; official Irodori word list; accent facts cited without copying audio",
+            "patterns": [
+              0
+            ],
+            "finding": "Irodori 入門 ことばリスト L12-5, いっしょに / issho ni / いっしょに○ / together. Das Kreiszeichen bezeichnet laut der Symbolerklärung keinen Akzentabfall. Die genaue gesamte Wendung einschließlich に ist belegt, somit Akzent 0; keine Ableitung aus 一緒 allein.",
+            "match": {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "grammaticalForm": "Adverb; Irodori L12-5 exact whole form",
+              "sense": "zusammen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1163420; spelling=一緒に; reading=いっしょに; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict 1163420, Bedeutung 1: zusammen mit jemandem. UniDic hat keine Gesamtform 一緒に; die OJAD-Suche zeigt 一緒/いっしょ ohne に, dessen Akzent wird nicht als exakter Phrasenakzent übernommen. Adverbiale Wendung mit に; と kennzeichnet den Mitbewohner. 住んでいます beschreibt ein andauerndes Wohnen, ～ましょう lädt zu einem gemeinsamen Weg ein.",
+          "selected": {
+            "sequence": "1163420",
+            "spelling": "一緒に",
+            "reading": "いっしょに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "together (with)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "full-enrichment",
+          "pitch"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "zusammen — JMdict 1163420, Bedeutung 1: zusammen mit jemandem. UniDic hat keine Gesamtform 一緒に; die OJAD-Suche zeigt 一緒/いっしょ ohne に, dessen Akzent wird nicht als exakter Phrasenakzent übernommen.",
+        "japanese": "一緒に行きましょう。 / 友達と一緒に住んでいます。 — Partikeln, Wortart, Polarität und konkrete Aussagefunktion geprüft. Adverbiale Wendung mit に; と kennzeichnet den Mitbewohner. 住んでいます beschreibt ein andauerndes Wohnen, ～ましょう lädt zu einem gemeinsamen Weg ein.",
+        "romanization": "Issho ni ikimashō. / Tomodachi to issho ni sunde imasu. — Modified Hepburn mit Makronen und wa/o/e für die Partikeln; kleine っ ergeben Doppelkonsonanten. ",
+        "translation": "Lass uns zusammen gehen. / Ich wohne mit einem Freund zusammen. — Häufigkeit, Menge, Zeitbezug und Negation stimmen mit der japanischen Aussage überein; insbesondere まだ/もう/よく sind kontextabhängig geprüft.",
+        "contexts": [
+          "Einladung zu einer gemeinsamen Bewegung.",
+          "Gemeinsames Wohnen mit einer befreundeten Person."
+        ],
+        "lexical": "JMdict 1163420, Bedeutung 1: zusammen mit jemandem. UniDic hat keine Gesamtform 一緒に; die OJAD-Suche zeigt 一緒/いっしょ ohne に, dessen Akzent wird nicht als exakter Phrasenakzent übernommen.",
+        "register": "Neutraler Grundgebrauch im Alltag und Unterricht; höfliche Aussagen, Fragen oder Einladungen. Seltene, abwertende oder emotionale Homographe werden nicht als Standardgebrauch übernommen.",
+        "transitivity": "Keine selbst konjugierende Verbkarte; die Rollen von Nomen, Adverb und Satzverb sind einzeln geprüft. Adverbiale Wendung mit に; と kennzeichnet den Mitbewohner. 住んでいます beschreibt ein andauerndes Wohnen, ～ましょう lädt zu einem gemeinsamen Weg ein.",
+        "conjugation": "Nomen beziehungsweise Adverb; die Verb- und Adjektivformen der Beispiele sind geprüft. Adverbiale Wendung mit に; と kennzeichnet den Mitbewohner. 住んでいます beschreibt ein andauerndes Wohnen, ～ましょう lädt zu einem gemeinsamen Weg ein.",
+        "level": "N5 bleibt erhalten: grundlegender Gebrauch für Einladung zu einer gemeinsamen Bewegung. / Gemeinsames Wohnen mit einer befreundeten Person.. Keine Levelverschiebung aufgrund einzelner erklärender Zusatzwörter."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Irodori 入門 ことばリスト L12-5, いっしょに / issho ni / いっしょに○ / together. Das Kreiszeichen bezeichnet laut der Symbolerklärung keinen Akzentabfall. Die genaue gesamte Wendung einschließlich に ist belegt, somit Akzent 0; keine Ableitung aus 一緒 allein.",
+        "evidence": [
+          {
+            "source": "Irodori — The Japan Foundation",
+            "version": "Starter word list, Ver.2021/10/01; retrieved 2026-10-03; PDF SHA256 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267",
+            "locator": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf#page=43",
+            "attribution": "© The Japan Foundation; official Irodori word list; accent facts cited without copying audio",
+            "patterns": [
+              0
+            ],
+            "finding": "Irodori 入門 ことばリスト L12-5, いっしょに / issho ni / いっしょに○ / together. Das Kreiszeichen bezeichnet laut der Symbolerklärung keinen Akzentabfall. Die genaue gesamte Wendung einschließlich に ist belegt, somit Akzent 0; keine Ableitung aus 一緒 allein.",
+            "match": {
+              "word": "一緒に",
+              "reading": "いっしょに",
+              "grammaticalForm": "Adverb; Irodori L12-5 exact whole form",
+              "sense": "zusammen"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root rechecked invitation and shared-residence contexts, German translations, Hepburn and exact JMdict phrase. Current official Irodori L12-5/page43 prints the complete いっしょに○, verifying whole-form0 including に. Teaching content is preserved; accent is sourced directly rather than composed from 一緒.",
+        "contentHash": "e572fcb5cb603fa8c6764e51c7d2aa0a8c5e7a848255e1d704cc4b357b40ddef",
+        "approvalHash": "50a4c7588aa610d7a968fbc5c0c9e572884ade9a06364a1109986162481baafc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently reopened current official main JPF English PDF page43 (zero-based42), printed L12-5: exact complete reading いっしょに, including に, has no-downstep circle. Same PDF symbol guide page2 and accent appendix define that as no accent fall, supporting whole-form pitch0 without extrapolating bare 一緒. Source PDF hash independently verified. English main-source pagination differs from Nepali mirror (which prints this row one page earlier), and authored page43 matches the selected source. Compared complete final teaching content to reviewed059a: notes, meaning, ID, Japanese/German/Hepburn joint-departure invitation and co-residence contexts unchanged; exact JMdict whole-form adverb meaning remains supported.",
+        "contentHash": "e572fcb5cb603fa8c6764e51c7d2aa0a8c5e7a848255e1d704cc4b357b40ddef",
+        "approvalHash": "50a4c7588aa610d7a968fbc5c0c9e572884ade9a06364a1109986162481baafc"
+      }
+    }
+  ],
+  "decisions": []
+}
