@@ -355,6 +355,35 @@ async function run() {
     key(w, d.body, '0'); assert.equal(app.activeTab, 'quiz');
     app.switchTab('kana');
 
+    // Curated examples remain readable without a full kanji entry and link only known entries.
+    app.switchTab('radicals'); await app.ensureSectionLoaded('radicals');
+    const radicalSection=app.sections.radicals;
+    const affected=radicalSection.allItems.filter(r=>r.exampleDetails);
+    assert.equal(affected.length,13);
+    for(const radical of affected){
+      const index=radicalSection.filteredItems.findIndex(r=>r.number===radical.number);
+      radicalSection.openDetail(index);
+      const examples=d.getElementById('radical-detail-examples');
+      assert(!d.getElementById('radical-detail-examples-section').classList.contains('hidden'));
+      assert.equal(examples.children.length,radical.examples.length);
+      for(const character of radical.examples){
+        const detail=radical.exampleDetails[character];
+        assert(examples.textContent.includes(detail.reading));assert(examples.textContent.includes(detail.meaning));
+        const button=examples.querySelector('[data-kanji="'+character+'"]');
+        const exists=kanjiSection.allItems.some(k=>k.kanji===character);
+        assert.equal(Boolean(button),exists,'Unknown example creates a broken link: '+character);
+      }
+    }
+    radicalSection.openDetail(radicalSection.filteredItems.findIndex(r=>r.number===193));
+    const linkedExample=d.querySelector('#radical-detail-examples [data-kanji="隔"]');
+    activate(w,linkedExample);
+    await until(()=>app.activeTab==='kanji'&&kanjiSection.selectedItem?.kanji==='隔','curated radical keyboard link');
+    app.switchTab('radicals');
+    radicalSection.openDetail(radicalSection.filteredItems.findIndex(r=>r.number===1));
+    assert(d.getElementById('radical-detail-examples-section').classList.contains('hidden'),'Previous radical metadata leaked');
+    assert.equal(d.getElementById('radical-detail-examples').children.length,0);
+    app.switchTab('kana');
+
     // Shortcut modifiers and Japanese IME composition must never change sections.
     key(w, d.body, '3', { ctrlKey: true }); key(w, d.body, '4', { isComposing: true });
     assert.equal(app.activeTab, 'kana');

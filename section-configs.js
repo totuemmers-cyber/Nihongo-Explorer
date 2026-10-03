@@ -502,6 +502,33 @@ function renderKanjiTags(container, kanjiItems) {
   }
 }
 
+function renderRadicalExamples(radical, section) {
+  var exampleSection = document.getElementById('radical-detail-examples-section');
+  var container = document.getElementById('radical-detail-examples');
+  container.textContent = '';
+  exampleSection.classList.toggle('hidden', !radical.exampleDetails);
+  if (!radical.exampleDetails) return;
+  var kanjiSection = window.app && window.app.sections.kanji;
+  var known = kanjiSection && kanjiSection.isLoaded ? kanjiSection.allItems : [];
+  radical.examples.forEach(function (character) {
+    var detail = radical.exampleDetails[character];
+    if (!detail) return;
+    var linked = known.some(function (kanji) { return kanji.kanji === character; });
+    var tag = appendElement(container, linked ? 'button' : 'div', 'radical-example' + (linked ? ' component-tag' : ''));
+    if (linked) {
+      tag.type = 'button';
+      tag.setAttribute('data-kanji', character);
+      tag.setAttribute('aria-label', character + ', ' + detail.reading + ', ' + detail.meaning + ': Kanji öffnen');
+    }
+    appendElement(tag, 'span', 'comp-radical', character);
+    var text = appendElement(tag, 'span', 'radical-example-text');
+    appendElement(text, 'span', 'radical-example-reading', detail.reading);
+    appendElement(text, 'span', 'comp-meaning', detail.meaning);
+    appendElement(text, 'span', 'radical-example-relation', detail.relation === 'primary' ? 'Hauptradikal' : 'Bestandteil');
+  });
+  attachKanjiNavigation(container, section);
+}
+
 function navigateToKanji(targetKanji, currentSection) {
   window.app.workspace.openRelated('kanji', function (k) { return k.kanji === targetKanji; });
 }
@@ -1448,6 +1475,7 @@ SECTION_CONFIGS.radicals = {
     }
 
     // Find kanji that use this radical (O(1) lookup via index)
+    renderRadicalExamples(r, section);
     var kanjiList = document.getElementById('radical-detail-kanji-list');
     var matchingKanji = getKanjiByRadical()[r.radical] || [];
 
@@ -1460,8 +1488,14 @@ SECTION_CONFIGS.radicals = {
         if (!section.isOverlayOpen()) return;
         var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
         if (!current || current.number !== r.number) return;
-        renderKanjiTags(kanjiList, getKanjiByRadical()[r.radical] || []);
-        attachKanjiNavigation(kanjiList, section);
+        renderRadicalExamples(r, section);
+        var loadedKanji = getKanjiByRadical()[r.radical] || [];
+        if (loadedKanji.length) {
+          renderKanjiTags(kanjiList, loadedKanji);
+          attachKanjiNavigation(kanjiList, section);
+        } else {
+          kanjiList.textContent = 'Für dieses Hauptradikal sind hier keine Kanji-Einträge hinterlegt.';
+        }
       }).catch(function () {
         kanjiList.textContent = 'Kanji-Verweise konnten nicht geladen werden. ';
         var retry = appendElement(kanjiList, 'button', '', 'Erneut versuchen');

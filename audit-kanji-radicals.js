@@ -22,6 +22,7 @@ const allKanji = []
 const missingPrimary = [];
 const noCanonical = [];
 const explicitPrimary = [];
+const missingExamples = ctx.KANGXI_RADICALS.filter(r => !r.examples || !r.examples.length);
 
 allKanji.forEach(function (item) {
   const radicals = ctx.getCanonicalRadicalsForKanji ? ctx.getCanonicalRadicalsForKanji(item) : [];
@@ -57,7 +58,8 @@ console.log(JSON.stringify({
     missingPrimary: missingPrimary.length
   },
   missingPrimarySample: missingPrimary.slice(0, 100),
-  noCanonicalSample: noCanonical.slice(0, 50)
+  noCanonicalSample: noCanonical.slice(0, 50),
+  missingExampleRadicals: missingExamples.map(r => r.number)
 }, null, 2));
 
-if (missingPrimary.length || noCanonical.length || new Set((ctx.KANGXI_RADICALS || []).map(r => r.radical)).size !== 214) process.exitCode = 1;
+if (missingPrimary.length || noCanonical.length || missingExamples.length || new Set((ctx.KANGXI_RADICALS || []).map(r => r.radical)).size !== 214) process.exitCode = 1;

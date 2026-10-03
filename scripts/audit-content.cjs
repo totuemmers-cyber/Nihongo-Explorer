@@ -18,10 +18,30 @@ for(const k of kanji){
   for(const e of k.examples)assert(e.word.includes(k.kanji),'Example word lacks its kanji: '+k.kanji+' '+e.word);
 }
 // Radical examples are Japanese kanji: either in the kanji data or a known Japanese character
-// without its own entry (never simplified or traditional Chinese forms such as 军 or 體).
+// without its own entry. Rare forms must have attested Japanese readings.
 const kanjiChars=new Set(kanji.map(k=>k.kanji));
-const RADICAL_EXAMPLES_WITHOUT_ENTRY=new Set([...'函尖尤尨巳巴辰鞍麹']);
-for(const r of c.KANGXI_RADICALS)for(const ex of r.examples)assert(kanjiChars.has(ex)||RADICAL_EXAMPLES_WITHOUT_ENTRY.has(ex),'Radical example is not a Japanese kanji entry: '+r.radical+' '+ex);
+const radicalEvidence=JSON.parse(fs.readFileSync(path.join(__dirname,'radical-example-evidence.json'),'utf8'));
+const RADICAL_EXAMPLES_WITHOUT_ENTRY=new Set([...'函尖尤尨巳巴辰鞍麹',...radicalEvidence.radicals.flatMap(r=>r.examples.map(e=>e.character))]);
+for(const r of c.KANGXI_RADICALS){
+  assert(r.examples.length>0,'Radical examples missing: '+r.radical);
+  assert.equal(new Set(r.examples).size,r.examples.length,'Repeated radical example: '+r.radical);
+  for(const ex of r.examples)assert(kanjiChars.has(ex)||RADICAL_EXAMPLES_WITHOUT_ENTRY.has(ex),'Radical example is not a Japanese kanji entry: '+r.radical+' '+ex);
+  if(r.exampleDetails){
+    const record=radicalEvidence.radicals.find(e=>e.number===r.number&&e.radical===r.radical);
+    assert(record,'Missing radical evidence: '+r.radical);
+    assert.deepEqual(Object.keys(r.exampleDetails).sort(),Array.from(r.examples).sort(),'Radical metadata roster differs');
+    for(const ex of r.examples){
+      const detail=r.exampleDetails[ex],e=record.examples.find(e=>e.character===ex);
+      assert(e&&e.kanjidicLocator,'Missing Japanese dictionary evidence: '+ex);
+      assert(detail.reading&&detail.meaning,'Missing example reading or meaning: '+ex);
+      assert(['primary','component'].includes(detail.relation),'Invalid radical relationship: '+ex);
+      for(const field of ['reading','meaning','relation'])assert.equal(detail[field],e[field],'Radical evidence differs: '+ex+'/'+field);
+      if(detail.relation==='primary')assert.equal(e.classicalRadical,r.number,'Example has another classical radical: '+ex);
+      else assert(e.kanjivgLocator&&e.classicalRadical!==r.number,'Component evidence missing: '+ex);
+    }
+  }
+}
+assert.equal(radicalEvidence.radicals.length,13,'Scoped radical example records changed');
 // Jōyō coverage against KANJIDIC2 (scripts/joyo-kanji.json). The 2010 table permits these
 // tolerated forms (許容字体); the data uses them for the listed official glyphs.
 const joyo=JSON.parse(fs.readFileSync(path.join(__dirname,'joyo-kanji.json'),'utf8'));

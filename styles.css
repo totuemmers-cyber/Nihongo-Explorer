@@ -210,6 +210,11 @@ input::placeholder { color: var(--text-secondary); opacity: 1; }
 .component-tag[role='button'] { cursor: pointer; }
 .comp-radical, .example-word { font: 22px var(--font-jp); }
 .comp-meaning, .example-reading { font-size: 14px; color: var(--text-secondary); }
+.radical-example { display: inline-flex; align-items: flex-start; gap: 12px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); max-width: 100%; min-width: 0; }
+.radical-example-text { display: flex; flex-direction: column; gap: 4px; text-align: left; overflow-wrap: anywhere; }
+.radical-example-reading { font: 14px var(--font-jp); color: var(--text); }
+.radical-example-relation, .radical-example-note { font-size: 13px; color: var(--text-secondary); }
+.radical-example-note { margin: 0 0 12px; }
 .grammar-related-tag, .ono-related-tag { font-family: var(--font-jp); color: var(--accent); }
 .ono-related-tag.disabled { display: inline-flex; padding: 10px; color: var(--text-secondary); }
 .example-item, .grammar-example, .counter-special-item { border-radius: 8px; padding: 16px; background: var(--bg); }
