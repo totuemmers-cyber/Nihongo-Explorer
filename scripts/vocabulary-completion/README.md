@@ -1,4 +1,49 @@
-# Vocabulary correction and completion — exhaustive campaign superseded
+# Vocabulary correction and completion
+
+## Full enrichment campaign (3 October 2026)
+
+The user explicitly requested full coverage and enrichment, delivered in N5 → N4 →
+N3 → N2 → N1 phases with parallel authors and an independent reviewer. The new
+campaign is recorded in [campaign status](campaign-status.json); its immutable
+[baseline](campaign-baseline-20261003.json) contains 15,558 existing identities and
+1,944 unresolved candidate references. The old freeze and quality sweep remain
+historical records.
+
+Each entry needs a specific German usage note and at least two semantically
+distinct Japanese example contexts, with Modified Hepburn and complete German
+translations. Previously accepted entries missing this enrichment re-enter the
+queue. Every teaching change requires exact-content first and independent second
+approvals; no dictionary hit or generated template constitutes acceptance.
+
+Use `npm run report:vocabulary-completion -- --level=N5` for current counts and
+`npm run audit:vocabulary-enrichment -- --level=N5` to gate that phase. The normal
+global audit commands continue to gate the entire library. Shared candidate groups
+belong to the earliest reference level or current target-entry level, including
+targets allocated by later decisions; historical
+target levels are used only when no current entry exists. For shared groups,
+all their references must resolve before that phase passes. Investigated unknown
+pitch is allowed; uninvestigated pitch is not.
+
+The CLI queue and packet preparation default to the active campaign's level and
+include accepted entries still needing enrichment. Use explicit `--level=N4
+--enrichment` for a scoped inspection. Imports remain serialized and recovery-safe.
+See [current coverage](COVERAGE.md) and [batch workflow](../vocabulary-batch.md).
+
+After a passing level gate and full test suite, run
+`node scripts/vocabulary-campaign.cjs advance` to advance the campaign. It validates
+the actual runtime, ledger and immutable baseline, rechecks every earlier phase,
+and refuses to advance with open content or research. The last phase additionally
+requires global strict completion. `advance --dry-run` performs the same gates
+without writing. Enrichment changes may reopen historical candidate approvals
+because their target hashes include teaching content; refresh those references
+against the final reviewed entries before certifying the affected phase.
+
+The first verified checkpoint, batches 055–059, enriches 227 existing N5 entries,
+adds 字引 with two examples, and resolves six candidate references. It is a partial
+checkpoint: no level is certified complete. Live remaining counts are in
+`COVERAGE.md`; sealed earlier batches retain their original evidence and approvals.
+
+## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
 60-minute quality sweep. See [campaign status](campaign-status.json) and the

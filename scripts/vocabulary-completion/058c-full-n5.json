@@ -1,0 +1,742 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n5:correction:jibiki",
+      "revisionId": "058c-full-n5-jibiki",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "字引",
+        "reading": "じびき",
+        "romaji": "jibiki",
+        "meaning": "Wörterbuch (ältere Bezeichnung)",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N5",
+        "notes": "字引（じびき）, auch 字引き, ist eine ältere Bezeichnung für ein Wörterbuch. Im heutigen Alltag ist 辞書 die üblichere Wahl. 字引で調べる heißt „in einem Wörterbuch nachschlagen“. Das Wort wird weiterhin verstanden; die Kennzeichnung bedeutet nicht, dass es unbrauchbar oder ausschließlich historisch wäre.",
+        "examples": [
+          {
+            "japanese": "わからない言葉を字引で調べます。",
+            "romaji": "Wakaranai kotoba o jibiki de shirabemasu.",
+            "german": "Ich schlage unbekannte Wörter im Wörterbuch nach."
+          },
+          {
+            "japanese": "祖父の字引は大きくて、重いです。",
+            "romaji": "Sofu no jibiki wa ōkikute, omoi desu.",
+            "german": "Das Wörterbuch meines Großvaters ist groß und schwer."
+          }
+        ],
+        "aliases": [
+          "字引き"
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143849504",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact orthography 字引, kana ジビキ, ordinary noun, lemma 字引き, aType 3. UniDic lemma normalizes the okurigana spelling; the exact shorter orthography is attested, so no pitch inference from another word is required.",
+            "match": {
+              "word": "字引",
+              "reading": "じびき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Dictionary/reference book, JMdict 1315140 sense 1, not an inflected 引く verb."
+            }
+          }
+        ]
+      },
+      "reason": "Verified N5 candidate 字引/じびき is absent from the current runtime. Add the attested dictionary noun with a qualified older-term note and two distinct natural contexts, retaining 辞書 as a separate synonym.",
+      "levelBasis": "Current fixed campaign references TANOS, JLPT Sensei and Nihongo Master classify 字引/じびき as N5. Basic dictionary meaning and short classroom/household contexts support this retained study-list placement; no official JLPT vocabulary-list claim.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315140; spelling=字引; reading=じびき; senses=1",
+          "finding": "Exact JMdict 1315140 sense 1 supports 字引/じびき as dictionary; primary Japanese KanjiPedia independently confirms character/word reference-book meanings. This is a distinct synonym, not a spelling alias of 辞書 with a different reading.",
+          "selected": {
+            "sequence": "1315140",
+            "spelling": "字引",
+            "reading": "じびき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictionary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315140; keb=字引,字引き; reb=じびき",
+          "finding": "Read the cached primary XML entry: spellings 字引 and 字引き share the sole reading じびき. Add only the verified same-reading okurigana spelling as an alias."
+        },
+        {
+          "source": "漢字ペディア / 日本漢字能力検定協会",
+          "version": "Primary dictionary page retrieved 2026-10-03",
+          "locator": "https://www.kanjipedia.jp/kotoba/0002844500",
+          "attribution": "公益財団法人 日本漢字能力検定協会",
+          "finding": "字引 is read ジびき. Its definitions cover a character dictionary and a word reference book explaining meanings/usages, equivalent to 辞書・辞典. Paraphrased lexical support; no claim that this dictionary labels it obsolete."
+        },
+        {
+          "source": "Explicit vocabulary author B editorial register assessment",
+          "version": "2026-10-03",
+          "locator": "scripts/vocabulary-completion/058c-full-n5.json#additions/vocab-n5:correction:jibiki/review/register",
+          "finding": "The mild German older-term label reflects the traditional book-oriented register of 字引 relative to ordinary modern 辞書. JMdict has no archaic or obsolete tag; the entry explicitly remains usable. Meaning and orthographic variant are separately verified against the primary dictionaries."
+        },
+        {
+          "source": "Frozen scoped vocabulary candidate references",
+          "version": "Exact source-reference hashes 669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa, 54cbdc3fa200a0b27d5c088b8592977425adfaa86451ce687c444c3c8b282046, 508121653216ab994c768c4a3f0528a9ca4ec123c57b38e8f9656c4141658130",
+          "locator": "scripts/vocabulary-completion.json#candidates/字引|じびき/references",
+          "finding": "TANOS N5 page 15, JLPT Sensei N5 and Nihongo Master N5 references all allocate this spelling/reading to the current N5 backlog. This is study-list placement, not a claim of an official exhaustive JLPT word list."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "register"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "字引|じびき",
+          "referenceIndex": 0,
+          "referenceHash": "669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wörterbuch (ältere Bezeichnung): dictionary noun attested independently by JMdict and KanjiPedia; mild older register is explicitly editorial, not a fabricated archaic dictionary tag.",
+        "japanese": "わからない言葉を字引で調べます。 / 祖父の字引は大きくて、重いです。 — natural reference-book lookup and possession/physical description.",
+        "romanization": "jibiki; Wakaranai kotoba o jibiki de shirabemasu. / Sofu no jibiki wa ōkikute, omoi desu. — Modified Hepburn, particles and adjective connective checked.",
+        "translation": "Ich schlage unbekannte Wörter im Wörterbuch nach. / Das Wörterbuch meines Großvaters ist groß und schwer. — full context-faithful German translations.",
+        "contexts": [
+          "Unbekannte Wörter mithilfe eines Wörterbuchs nachschlagen: praktische Benutzung.",
+          "Das Wörterbuch des Großvaters als groß und schwer beschreiben: Besitz und körperliche Eigenschaften."
+        ],
+        "lexical": "Exact JMdict 1315140 sense 1 supports 字引/じびき as dictionary; primary Japanese KanjiPedia independently confirms character/word reference-book meanings. This is a distinct synonym, not a spelling alias of 辞書 with a different reading.",
+        "register": "Traditional/older book-oriented term compared with everyday modern 辞書; still understandable and usable, not labelled obsolete. Independent reviewer should assess this mild register note separately from lexical evidence.",
+        "transitivity": "Noun target, not a verb; で marks the reference tool in 調べる.",
+        "conjugation": "Non-conjugating noun; 祖父の and predicate adjectives checked.",
+        "level": "N5 placement from three scoped study-list references; simple reference-book meaning taught with short natural contexts."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact ordinary-noun 字引/ジビキ row sys.dic@143849504, lemma 字引き, attests aType 3; short and okurigana spellings are verified independently.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143849504",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact orthography 字引, kana ジビキ, ordinary noun, lemma 字引き, aType 3. UniDic lemma normalizes the okurigana spelling; the exact shorter orthography is attested, so no pitch inference from another word is required.",
+            "match": {
+              "word": "字引",
+              "reading": "じびき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Dictionary/reference book, JMdict 1315140 sense 1, not an inflected 引く verb."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root checked original Japanese lookup and inherited-book contexts, German translations, Hepburn, qualified older-register note, same-reading okurigana alias, exact selected JMdict and UniDic row; distinct synonym of 辞書 and two substantive contexts, not obsolete-only. All inline evidence now has durable source locators.",
+        "contentHash": "565f751fc717f3f7ec5c59c9d30dba9b3492081b837a2a28ed3fc5b232c3f86f",
+        "approvalHash": "0505333b26dd8127cddbe3271ebb893de9d84837839822581f6d083bc812f245"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently reviewed the complete new entry: lookup with 字引で調べる and grandfather-owned book’s size/weight are two natural, semantically distinct contexts. Japanese, German and jibiki/ōkikute match. Read original primary JMdict XML entry 1315140: 字引 and 字引き share sole reading じびき and noun dictionary sense, with no archaic tag. Independently checked original cached UniDic sys.dic@143849504 exact 字引/ジビキ ordinary noun, lemma 字引き, aType 3. KanjiPedia official page’s indexed primary definition independently confirms reference-book meanings. Mild older-term guidance is appropriate editorial usage advice relative to contemporary 辞書; the note explicitly preserves usability and does not invent an obsolete source tag. Three exact frozen N5 publisher references support study-list placement; distinct synonym must not merge into 辞書 under a different reading.",
+        "contentHash": "565f751fc717f3f7ec5c59c9d30dba9b3492081b837a2a28ed3fc5b232c3f86f",
+        "approvalHash": "0505333b26dd8127cddbe3271ebb893de9d84837839822581f6d083bc812f245"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "字引|じびき",
+      "referenceIndex": 0,
+      "referenceHash": "669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa",
+      "revisionId": "058c-candidate-jibiki-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:jibiki"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:jibiki": "565f751fc717f3f7ec5c59c9d30dba9b3492081b837a2a28ed3fc5b232c3f86f"
+      },
+      "reason": "The absent attested dictionary noun is supplied by one fully reviewed stable-ID addition; this reference is covered by that exact content.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315140; spelling=字引; reading=じびき; senses=1",
+          "finding": "Exact referenced 字引/じびき dictionary noun is taught by the single allocated addition; all three publisher references point to this same lexical identity.",
+          "selected": {
+            "sequence": "1315140",
+            "spelling": "字引",
+            "reading": "じびき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictionary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen scoped vocabulary candidate references",
+          "version": "Exact source-reference hashes 669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa, 54cbdc3fa200a0b27d5c088b8592977425adfaa86451ce687c444c3c8b282046, 508121653216ab994c768c4a3f0528a9ca4ec123c57b38e8f9656c4141658130",
+          "locator": "scripts/vocabulary-completion.json#candidates/字引|じびき/references",
+          "finding": "TANOS N5 page 15, JLPT Sensei N5 and Nihongo Master N5 references all allocate this spelling/reading to the current N5 backlog. This is study-list placement, not a claim of an official exhaustive JLPT word list."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: 字引|じびき#0. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "706f5899aa7918976136087c9cb4c6bf1bb934e73f2a8f28728e15d2193457f9",
+        "approvalHash": "706f5899aa7918976136087c9cb4c6bf1bb934e73f2a8f28728e15d2193457f9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected exact TANOS N5 page-15 reference 字引/じびき, Dictionary, with its frozen reference hash and newly allocated stable ID. Exact JMdict noun and verified pitch corroborate it; reviewed new entry supplies two distinct contexts, qualified register and 字引き alias. Added disposition and target content hash bind to that precise addition, not a synonym with a different reading.",
+        "contentHash": "706f5899aa7918976136087c9cb4c6bf1bb934e73f2a8f28728e15d2193457f9",
+        "approvalHash": "706f5899aa7918976136087c9cb4c6bf1bb934e73f2a8f28728e15d2193457f9"
+      }
+    },
+    {
+      "key": "字引|じびき",
+      "referenceIndex": 1,
+      "referenceHash": "54cbdc3fa200a0b27d5c088b8592977425adfaa86451ce687c444c3c8b282046",
+      "revisionId": "058c-candidate-jibiki-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:jibiki"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:jibiki": "565f751fc717f3f7ec5c59c9d30dba9b3492081b837a2a28ed3fc5b232c3f86f"
+      },
+      "reason": "The absent attested dictionary noun is supplied by one fully reviewed stable-ID addition; this reference is covered by that exact content.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315140; spelling=字引; reading=じびき; senses=1",
+          "finding": "Exact referenced 字引/じびき dictionary noun is taught by the single allocated addition; all three publisher references point to this same lexical identity.",
+          "selected": {
+            "sequence": "1315140",
+            "spelling": "字引",
+            "reading": "じびき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictionary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen scoped vocabulary candidate references",
+          "version": "Exact source-reference hashes 669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa, 54cbdc3fa200a0b27d5c088b8592977425adfaa86451ce687c444c3c8b282046, 508121653216ab994c768c4a3f0528a9ca4ec123c57b38e8f9656c4141658130",
+          "locator": "scripts/vocabulary-completion.json#candidates/字引|じびき/references",
+          "finding": "TANOS N5 page 15, JLPT Sensei N5 and Nihongo Master N5 references all allocate this spelling/reading to the current N5 backlog. This is study-list placement, not a claim of an official exhaustive JLPT word list."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: 字引|じびき#1. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "7c98dc96f1cbb2650cbbf4bd8fb580b62df0e2f14e8bf4901fbedb05c844288e",
+        "approvalHash": "7c98dc96f1cbb2650cbbf4bd8fb580b62df0e2f14e8bf4901fbedb05c844288e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected exact JLPT Sensei N5 reference 字引/じびき, dictionary. It denotes the same attested JMdict 1315140 noun as the new stable-ID addition, with no additional restricted sense. Reusing that single addition rather than duplicating another entry is correct; frozen reference hash and target hash are specific to this reference and reviewed content.",
+        "contentHash": "7c98dc96f1cbb2650cbbf4bd8fb580b62df0e2f14e8bf4901fbedb05c844288e",
+        "approvalHash": "7c98dc96f1cbb2650cbbf4bd8fb580b62df0e2f14e8bf4901fbedb05c844288e"
+      }
+    },
+    {
+      "key": "字引|じびき",
+      "referenceIndex": 2,
+      "referenceHash": "508121653216ab994c768c4a3f0528a9ca4ec123c57b38e8f9656c4141658130",
+      "revisionId": "058c-candidate-jibiki-2",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:jibiki"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:jibiki": "565f751fc717f3f7ec5c59c9d30dba9b3492081b837a2a28ed3fc5b232c3f86f"
+      },
+      "reason": "The absent attested dictionary noun is supplied by one fully reviewed stable-ID addition; this reference is covered by that exact content.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1315140; spelling=字引; reading=じびき; senses=1",
+          "finding": "Exact referenced 字引/じびき dictionary noun is taught by the single allocated addition; all three publisher references point to this same lexical identity.",
+          "selected": {
+            "sequence": "1315140",
+            "spelling": "字引",
+            "reading": "じびき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dictionary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen scoped vocabulary candidate references",
+          "version": "Exact source-reference hashes 669773e46bb8ddee06f25df20dbe0845f65df61c669fdb41769c241558f64ffa, 54cbdc3fa200a0b27d5c088b8592977425adfaa86451ce687c444c3c8b282046, 508121653216ab994c768c4a3f0528a9ca4ec123c57b38e8f9656c4141658130",
+          "locator": "scripts/vocabulary-completion.json#candidates/字引|じびき/references",
+          "finding": "TANOS N5 page 15, JLPT Sensei N5 and Nihongo Master N5 references all allocate this spelling/reading to the current N5 backlog. This is study-list placement, not a claim of an official exhaustive JLPT word list."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: 字引|じびき#2. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "2a30cc2ae9303057216de4186446e411ad1510938b06ba74e10ab56491ab59a1",
+        "approvalHash": "2a30cc2ae9303057216de4186446e411ad1510938b06ba74e10ab56491ab59a1"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected exact Nihongo Master N5 reference 字引/じびき, dictionary/dictionnaire/словарь. Its lexical identity matches original JMdict entry and the independently reviewed new addition. Added disposition correctly points this third publisher to the same one fully taught stable ID with exact target content hash; no extra homophone or spelling is introduced.",
+        "contentHash": "2a30cc2ae9303057216de4186446e411ad1510938b06ba74e10ab56491ab59a1",
+        "approvalHash": "2a30cc2ae9303057216de4186446e411ad1510938b06ba74e10ab56491ab59a1"
+      }
+    },
+    {
+      "key": "ほか|ほか",
+      "referenceIndex": 0,
+      "referenceHash": "e24d03e8b2fd6102a86b07b6e0299c473045f7cb3c9e9aa049543577051087f8",
+      "revisionId": "058c-candidate-hoka-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:1433"
+      ],
+      "targetHashes": {
+        "vocab-n5:1433": "c5594fd622cb7e87317908b6f6f59de825a2e9ef9f4db1839db4570801d4856c"
+      },
+      "reason": "Verified same-reading kana spelling of the reviewed 他/ほか lexeme; its alias and teaching contexts cover this reference without duplicating vocabulary.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1203260; spelling=ほか; reading=ほか; senses=1,2,5",
+          "finding": "Candidate kana spelling ほか has the same exact reading and JMdict entry as 他/ほか. Reviewed 他 now teaches other/different, additional and elsewhere constructions and explicitly includes alias ほか; no new lexical entry is needed.",
+          "selected": {
+            "sequence": "1203260",
+            "spelling": "ほか",
+            "reading": "ほか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another place",
+                  "some other place",
+                  "somewhere else",
+                  "outside"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another (person or thing)",
+                  "other",
+                  "different",
+                  "something else",
+                  "someone else",
+                  "the rest",
+                  "et al."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "besides",
+                  "in addition to",
+                  "as well as",
+                  "on top of"
+                ],
+                "notes": [
+                  "as ...のほか（に）, ...するほか（に）etc."
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: ほか|ほか#0. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "b8a80d5fd86558a0db0fc97c01b57bdd41f52c4cbf18f63a26606733284b9470",
+        "approvalHash": "b8a80d5fd86558a0db0fc97c01b57bdd41f52c4cbf18f63a26606733284b9470"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected TANOS N5 kana reference other/the rest and original cached JMdict candidate 1203260 spelling ほか reading ほか. It is the same lexical entry as independently reviewed 他/ほか, whose verified alias and three distinct other/additional/elsewhere contexts now cover this reference. Kana UniDic ordinary noun lemma 他 aType 0 is consistent with that lexeme, unlike verb fragments or separate adverb row. Verified-spelling-variant disposition and exact 058b target hash are justified.",
+        "contentHash": "b8a80d5fd86558a0db0fc97c01b57bdd41f52c4cbf18f63a26606733284b9470",
+        "approvalHash": "b8a80d5fd86558a0db0fc97c01b57bdd41f52c4cbf18f63a26606733284b9470"
+      }
+    },
+    {
+      "key": "ほか|ほか",
+      "referenceIndex": 1,
+      "referenceHash": "ecc4d1f39e797aaff3c1e3b973a8dca8f0ba6386c18a4368e81cf777d58a2a25",
+      "revisionId": "058c-candidate-hoka-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:1433"
+      ],
+      "targetHashes": {
+        "vocab-n5:1433": "c5594fd622cb7e87317908b6f6f59de825a2e9ef9f4db1839db4570801d4856c"
+      },
+      "reason": "Verified same-reading kana spelling of the reviewed 他/ほか lexeme; its alias and teaching contexts cover this reference without duplicating vocabulary.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1203260; spelling=ほか; reading=ほか; senses=1,2,5",
+          "finding": "Candidate kana spelling ほか has the same exact reading and JMdict entry as 他/ほか. Reviewed 他 now teaches other/different, additional and elsewhere constructions and explicitly includes alias ほか; no new lexical entry is needed.",
+          "selected": {
+            "sequence": "1203260",
+            "spelling": "ほか",
+            "reading": "ほか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another place",
+                  "some other place",
+                  "somewhere else",
+                  "outside"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another (person or thing)",
+                  "other",
+                  "different",
+                  "something else",
+                  "someone else",
+                  "the rest",
+                  "et al."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "besides",
+                  "in addition to",
+                  "as well as",
+                  "on top of"
+                ],
+                "notes": [
+                  "as ...のほか（に）, ...するほか（に）etc."
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: ほか|ほか#1. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "7d34b605052d25cf83d1f709b87dc28d4fa8acf4c1469b7049ab37bca206af6d",
+        "approvalHash": "7d34b605052d25cf83d1f709b87dc28d4fa8acf4c1469b7049ab37bca206af6d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected JLPT Sensei N5 kana reference other(place,thing,person)/the rest. Original JMdict candidate shares exact sequence 1203260 and unrestricted reading with 他/ほか. The independently reviewed 058b target explicitly retains ほか alias and teaches substitute book, additional questions and elsewhere-search uses, covering the reference without duplicate vocabulary. Same-reading variant disposition and exact current target binding are valid.",
+        "contentHash": "7d34b605052d25cf83d1f709b87dc28d4fa8acf4c1469b7049ab37bca206af6d",
+        "approvalHash": "7d34b605052d25cf83d1f709b87dc28d4fa8acf4c1469b7049ab37bca206af6d"
+      }
+    },
+    {
+      "key": "ゆっくりと|ゆっくりと",
+      "referenceIndex": 0,
+      "referenceHash": "22edf50a8a6802d7b74a3d965c89c7772b72661fe6fc4af332773c676718ed15",
+      "revisionId": "058c-candidate-yukkuri-to-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Excluded as a compositional ゆっくり + optional adverbial と construction. JMdict confirms the particle-taking base adverb and the reviewed entry now explicitly teaches it; exclusion does not mean the expression is invalid.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1013050; spelling=ゆっくり; reading=ゆっくり; senses=1,3",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict 1013050 lists the base ゆっくり as an adverb taking the to particle. The extra と in candidate ゆっくりと is this productive grammatical particle, not an independently different lexical word or reading.",
+          "selected": {
+            "sequence": "1013050",
+            "spelling": "ゆっくり",
+            "reading": "ゆっくり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "slowly",
+                  "unhurriedly",
+                  "without haste",
+                  "leisurely",
+                  "at one's leisure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "well (e.g. sleep)",
+                  "comfortably"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Exact reviewed teaching coverage",
+          "version": "Sealed 058b content SHA256 3866a9daecc64da61ac9a13e140f188a5f54af218536c36f0a391f355bc43b2e",
+          "locator": "scripts/vocabulary-completion/058b-full-n5.json#reviews/vocab-n5:341",
+          "finding": "The reviewed base entry explicitly explains optional と and teaches 今日は家でゆっくりと休みます。 Retained ゆっくり speech/walking examples show the particle is optional. Exclude the candidate as a redundant particle-bearing construction; do not create a different-reading alias."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected frozen reference identity, durable JMdict selections, exact reviewed target and target binding: ゆっくりと|ゆっくりと#0. Three 字引 references share one genuine addition; two ほか references match the reviewed 他 spelling alias; ゆっくりと is optional grammatical と expressly taught in sealed058b and reasonably excluded as redundant construction.",
+        "contentHash": "ff8f5f85f15df80166e1fa6f0e1e4c76228842e4eae5a3e704b2615b9be5fe01",
+        "approvalHash": "ff8f5f85f15df80166e1fa6f0e1e4c76228842e4eae5a3e704b2615b9be5fe01"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Inspected TANOS N5 slowly reference and original JMdict 1013050 base-adverb sense whose POS explicitly permits と. The final independently reviewed ゆっくり entry teaches optional と and natural resting example, alongside unmarked speech and walking examples. と contributes productive adverbial syntax, not a separate lexical identity/reading; no-match whole-form research is not used alone as exclusion proof. Excluding redundant composition is defensible and does not claim invalidity or infer a whole-phrase accent.",
+        "contentHash": "ff8f5f85f15df80166e1fa6f0e1e4c76228842e4eae5a3e704b2615b9be5fe01",
+        "approvalHash": "ff8f5f85f15df80166e1fa6f0e1e4c76228842e4eae5a3e704b2615b9be5fe01"
+      }
+    }
+  ]
+}

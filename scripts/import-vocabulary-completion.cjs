@@ -155,7 +155,15 @@ function legacyReport(plan) {
     dispositions:Object.fromEntries([...new Set([...decisions.values()].map(d=>d.disposition))].map(s=>[s,[...decisions.values()].filter(d=>d.disposition===s).length]))};
 }
 function prepare(batches = authoring(), m = manifest(), corrections) {
-  return require('./vocabulary-correction-pipeline.cjs').prepareCorrections(prepareLegacy(batches,m),corrections);
+  const plan=require('./vocabulary-correction-pipeline.cjs').prepareCorrections(prepareLegacy(batches,m),corrections);
+  const layerFile='vocab-romaji-hepburn.js';
+  if(fs.existsSync(path.join(root,layerFile))){
+    const runtime=loadVocabulary(plan.files);
+    const reviewedIds=new Set(plan.ledger.filter(row=>row.editorial==='reviewed').map(row=>row.id));
+    plan.files[layerFile]=require('./vocabulary-romaji-layer.cjs').reconcileLayer(
+      read(layerFile),plan.items,reviewedIds,runtime.c.getVocabRomajiHash).text;
+  }
+  return plan;
 }
 function report(plan) {
   return require('./vocabulary-correction-pipeline.cjs').correctionReport(plan,legacyReport(plan));

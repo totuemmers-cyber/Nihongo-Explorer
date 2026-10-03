@@ -24,6 +24,16 @@ for (const [reading, options, expected] of cases) assert.equal(romanize.hepburn(
 // The legacy kana-faithful output used by scripts/import-vocabulary-additions.cjs is unchanged.
 assert.equal(romanize('とうきょう'), 'toukyou');
 
+const {reconcileLayer}=require('./vocabulary-romaji-layer.cjs');
+const synthetic='window.VOCAB_ROMAJI_HEPBURN = '+JSON.stringify({'vocab-n5':{'0':[['r','old',[[0,2,'ō']]],[0,'retained',[[0,2,'ō']]]],'1':[['r','other',[[0,2,'ō']]]]}})+';';
+const sampleItems=[{id:'sample',source:'vocab-n5',__sourceIndex:0,romaji:'ō',examples:[{romaji:'retained'}]},
+  {id:'untouched',source:'vocab-n5',__sourceIndex:1,romaji:'other',examples:[]}];
+const cleaned=reconcileLayer(synthetic,sampleItems,new Set(['sample']),value=>value);
+assert.equal(cleaned.removed,1,'Only replaced reviewed fields lose display overrides');
+assert(cleaned.text.includes('retained')&&cleaned.text.includes('other'),'Unchanged overrides must survive');
+assert.equal(reconcileLayer(cleaned.text,sampleItems,new Set(['sample']),value=>value).text,cleaned.text,'Reconciliation must be idempotent');
+assert.throws(()=>reconcileLayer(synthetic,sampleItems,new Set(),value=>value),/Unreviewed romaji layer mismatch/);
+
 // vocab-romaji-hepburn.js: every span must still match the reviewed vocabulary string and change only
 // vowel length. A failure means an entry's romaji was edited after the layer was generated: regenerate
 // the layer (.content-cache/romaji) or author the entry in Hepburn directly.

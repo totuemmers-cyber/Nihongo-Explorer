@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "exhaustiveCampaign": {
     "status": "superseded",
     "supersededAt": "2026-09-22T17:03:41Z",
@@ -28,5 +28,236 @@
     "retainedAcceptedReviews": 378,
     "acceptedReviewsAfter": 399
   },
-  "defaultMaintenance": "Reported defects and reviews of future changes; no automatic new review waves or candidate additions."
+  "defaultMaintenance": "Reported defects and reviews of future changes; no automatic new review waves or candidate additions.",
+  "activeCampaign": {
+    "id": "full-enrichment-2026-10-03",
+    "status": "active",
+    "startedAt": "2026-10-03T20:25:36.337Z",
+    "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation.",
+    "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
+    "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
+    "activeLevel": "N5",
+    "levelOrder": [
+      "N5",
+      "N4",
+      "N3",
+      "N2",
+      "N1"
+    ],
+    "scope": {
+      "currentEntries": 15558,
+      "unresolvedCandidateReferences": 1944,
+      "usageNotes": "every entry",
+      "minimumDistinctExamples": 2,
+      "reviewAllContexts": true,
+      "pitchInvestigation": true
+    },
+    "phases": {
+      "N5": {
+        "status": "active",
+        "baseline": {
+          "level": "N5",
+          "total": 1644,
+          "reviewed": 542,
+          "missingNotes": 1405,
+          "fewerThanTwo": 77,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 1102,
+          "pitchUninvestigated": 1102,
+          "lackingReviewedDistinctContexts": 1576,
+          "unresolvedCandidates": 399,
+          "unresolvedCandidateReferences": 548,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      },
+      "N4": {
+        "status": "pending",
+        "baseline": {
+          "level": "N4",
+          "total": 1638,
+          "reviewed": 198,
+          "missingNotes": 1464,
+          "fewerThanTwo": 154,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 1440,
+          "pitchUninvestigated": 1440,
+          "lackingReviewedDistinctContexts": 1559,
+          "unresolvedCandidates": 238,
+          "unresolvedCandidateReferences": 314,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      },
+      "N3": {
+        "status": "pending",
+        "baseline": {
+          "level": "N3",
+          "total": 3757,
+          "reviewed": 497,
+          "missingNotes": 3230,
+          "fewerThanTwo": 3201,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 3260,
+          "pitchUninvestigated": 3260,
+          "lackingReviewedDistinctContexts": 3384,
+          "unresolvedCandidates": 307,
+          "unresolvedCandidateReferences": 434,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      },
+      "N2": {
+        "status": "pending",
+        "baseline": {
+          "level": "N2",
+          "total": 3169,
+          "reviewed": 755,
+          "missingNotes": 2398,
+          "fewerThanTwo": 2370,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 2414,
+          "pitchUninvestigated": 2414,
+          "lackingReviewedDistinctContexts": 2522,
+          "unresolvedCandidates": 208,
+          "unresolvedCandidateReferences": 283,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      },
+      "N1": {
+        "status": "pending",
+        "baseline": {
+          "level": "N1",
+          "total": 5350,
+          "reviewed": 1506,
+          "missingNotes": 3870,
+          "fewerThanTwo": 3846,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 3844,
+          "pitchUninvestigated": 3844,
+          "lackingReviewedDistinctContexts": 4014,
+          "unresolvedCandidates": 273,
+          "unresolvedCandidateReferences": 365,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      }
+    },
+    "checkpoints": [
+      {
+        "id": "n5-batches-055-059",
+        "status": "verified-partial",
+        "recordedAt": "2026-10-03T21:17:02.233Z",
+        "existingEntriesEnriched": 227,
+        "additions": 1,
+        "candidateReferencesResolved": 6,
+        "batches": [
+          "055a-full-n5.json",
+          "055b-full-n5.json",
+          "056a-full-n5.json",
+          "056b-full-n5.json",
+          "057a-full-n5.json",
+          "057b-full-n5.json",
+          "058a-full-n5.json",
+          "058b-full-n5.json",
+          "058c-full-n5.json",
+          "059a-full-n5.json",
+          "059b-full-n5.json"
+        ],
+        "verification": {
+          "fullChecksPassed": 21,
+          "originalVocabularyIdentitiesPreserved": 15558,
+          "generatedReplayIdentical": true,
+          "comprehensionAndAudioUnchanged": true,
+          "browserWidths": [
+            390,
+            1440
+          ],
+          "themes": [
+            "light",
+            "dark"
+          ]
+        },
+        "counts": {
+          "complete": false,
+          "total": 15559,
+          "counts": {
+            "N5": 1645,
+            "N4": 1638,
+            "N3": 3757,
+            "N2": 3169,
+            "N1": 5350
+          },
+          "updated": 10,
+          "added": 2476,
+          "missingNotes": 12147,
+          "fewerThanTwo": 9648,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 12059,
+          "unresolvedCandidates": 1428,
+          "dispositions": {
+            "verified-spelling-variant": 13,
+            "mixed": 6,
+            "added": 2487,
+            "excluded": 2
+          },
+          "reviewed": 3500,
+          "lackingReviewedDistinctContexts": 12828,
+          "corrections": 1028,
+          "merges": 16,
+          "pitchVerified": 3000,
+          "pitchUnknown": 500,
+          "pitchUninvestigated": 12059,
+          "missingRequiredNotes": 0,
+          "fewerThanRequiredContexts": 0,
+          "optionalEnrichmentMissingNotes": 740,
+          "optionalEnrichmentFewerThanTwo": 422,
+          "sampledRoutineReviews": 9,
+          "independentlyReviewed": 3438,
+          "workStates": {
+            "pending": 12058,
+            "researching": 1,
+            "drafted": 0,
+            "needs revision": 0,
+            "accepted": 3500
+          },
+          "pendingAdditions": 0,
+          "unresolvedCandidateReferences": 1948,
+          "candidateReferenceStates": {
+            "pending": 1827,
+            "researching": 73,
+            "drafted": 0,
+            "needs revision": 48,
+            "accepted": 4635
+          },
+          "openSampleDefects": 0,
+          "enrichmentComplete": false,
+          "strictComplete": false
+        },
+        "phase": {
+          "level": "N5",
+          "total": 1645,
+          "reviewed": 544,
+          "missingNotes": 1185,
+          "fewerThanTwo": 77,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 1101,
+          "pitchUninvestigated": 1101,
+          "lackingReviewedDistinctContexts": 1349,
+          "unresolvedCandidates": 413,
+          "unresolvedCandidateReferences": 566,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": false
+        }
+      }
+    ]
+  }
 }

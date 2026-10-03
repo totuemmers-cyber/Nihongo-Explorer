@@ -1,0 +1,421 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:1433",
+      "revisionId": "058b-full-n5-1433",
+      "state": "accepted",
+      "predecessorHash": "460211f9e1cbb4923baa59a55711c57e61dd36b62032e41359649e95e3b4aa06",
+      "predecessorRevisionHash": null,
+      "originalHash": "460211f9e1cbb4923baa59a55711c57e61dd36b62032e41359649e95e3b4aa06",
+      "rationale": "Full review and enrichment of 他/ほか: concrete noun/adverbial constructions, three distinct contexts, verified same-reading kana alias, and exact investigated pitch replacing an unsupported null.",
+      "original": {
+        "notes": "Auch 外 oder ほか; für weitere Dinge oder Möglichkeiten.",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "他の本を見せてください。",
+            "romaji": "Hoka no hon o misete kudasai.",
+            "german": "Zeigen Sie mir bitte ein anderes Buch."
+          },
+          {
+            "kind": "natural",
+            "japanese": "他に質問はありますか。",
+            "romaji": "Hoka ni shitsumon wa arimasu ka.",
+            "german": "Gibt es sonst noch Fragen?"
+          }
+        ],
+        "aliases": null,
+        "pitch": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "他（ほか）bezeichnet etwas anderes oder Zusätzliches. Vor einem Nomen steht の: 他の本 „ein anderes Buch“. 他に heißt oft „sonst noch, außerdem“, 他で „woanders“. Die Kana-Schreibung ほか ist ebenfalls üblich; die Lesung ほか ist von 他（た）in anderen Verbindungen zu unterscheiden.",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "他の本を見せてください。",
+            "romaji": "Hoka no hon o misete kudasai.",
+            "german": "Zeigen Sie mir bitte ein anderes Buch."
+          },
+          {
+            "kind": "natural",
+            "japanese": "他に質問はありますか。",
+            "romaji": "Hoka ni shitsumon wa arimasu ka.",
+            "german": "Gibt es sonst noch Fragen?"
+          },
+          {
+            "kind": "natural",
+            "japanese": "この店にはないので、他で探します。",
+            "romaji": "Kono mise ni wa nai node, hoka de sagashimasu.",
+            "german": "Da es das in diesem Laden nicht gibt, suche ich woanders."
+          }
+        ],
+        "aliases": [
+          "ほか"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243405105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact 他/ホカ; lemma 他; 名詞/普通名詞/副詞可能/*; aType 0. This ordinary noun/adverb-compatible 他 row is not a homophonous verb fragment.",
+            "match": {
+              "word": "他",
+              "reading": "ほか",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1203260; spelling=他; reading=ほか; senses=1,2,5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た.",
+          "selected": {
+            "sequence": "1203260",
+            "spelling": "他",
+            "reading": "ほか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another place",
+                  "some other place",
+                  "somewhere else",
+                  "outside"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "another (person or thing)",
+                  "other",
+                  "different",
+                  "something else",
+                  "someone else",
+                  "the rest",
+                  "et al."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "besides",
+                  "in addition to",
+                  "as well as",
+                  "on top of"
+                ],
+                "notes": [
+                  "as ...のほか（に）, ...するほか（に）etc."
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "verified-spelling-variant",
+          "teaching-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "andere; sonstige; sonst: JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た.",
+        "japanese": "他の本を見せてください。 / 他に質問はありますか。 / この店にはないので、他で探します。",
+        "romanization": "Hoka no hon o misete kudasai. / Hoka ni shitsumon wa arimasu ka. / Kono mise ni wa nai node, hoka de sagashimasu.. Modified Hepburn checked; headword hoka retained.",
+        "translation": "Zeigen Sie mir bitte ein anderes Buch. / Gibt es sonst noch Fragen? / Da es das in diesem Laden nicht gibt, suche ich woanders.",
+        "contexts": [
+          "Ein anderes Buch als Alternative erbitten: Ersatz oder Auswahl.",
+          "Nach zusätzlichen Fragen fragen: weiterer Bedarf.",
+          "Nach erfolgloser Suche in einem Laden woanders suchen: anderer Ort."
+        ],
+        "lexical": "JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た.",
+        "register": "Neutral everyday modern usage; no archaic or honorific construction introduced.",
+        "transitivity": "Noun target; の introduces nominal modification, に and で adverbial/place relations.",
+        "conjugation": "Target is not conjugated. The Japanese examples use natural verb constructions, with noun/adverb particles checked individually.",
+        "level": "Existing N5 retained; fundamental other/else or slowly/rest usage. Candidate study-list references also place these forms in N5; no official JLPT exhaustive-list claim."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact 他/ホカ, lemma 他, 名詞/普通名詞/副詞可能/*, sys.dic@243405105, aType 0; supports 0 for the selected lexical form.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243405105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact 他/ホカ; lemma 他; 名詞/普通名詞/副詞可能/*; aType 0. This ordinary noun/adverb-compatible 他 row is not a homophonous verb fragment.",
+            "match": {
+              "word": "他",
+              "reading": "ほか",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected all final Japanese, German, Hepburn and notes, selected JMdict senses/restrictions and exact lexical pitch evidence: other books, additional questions and searching elsewhere; exact hoka spelling alias and JMdict senses 1/2/5. Contexts are substantively distinct; reviewed marker and source selection agree with this exact assembly.",
+        "contentHash": "c5594fd622cb7e87317908b6f6f59de825a2e9ef9f4db1839db4570801d4856c",
+        "approvalHash": "dce60e732d87ed688150fcc181fe3fa6ab632d4594f89fd971c97cc46e07a8bc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently reviewed all three full Japanese/German/Hepburn contexts: another book, additional questions, and searching elsewhere are different nominal/modifier/place uses. 他の, 他に and 他で are natural, translations and hoka are accurate. JMdict 1203260 exact 他/ほか senses 1,2,5 corroborate these uses without borrowing た; kana alias ほか is the same lexical form. Original cached UniDic sys.dic@243405105 is exact ordinary/adverb-compatible noun 他/ホカ, aType 0, matching supplied source version/hash and retained pitch. The note distinguishes た and explains particles correctly; explicit context-review marker is supported by actual inspection.",
+        "contentHash": "c5594fd622cb7e87317908b6f6f59de825a2e9ef9f4db1839db4570801d4856c",
+        "approvalHash": "dce60e732d87ed688150fcc181fe3fa6ab632d4594f89fd971c97cc46e07a8bc"
+      }
+    },
+    {
+      "id": "vocab-n5:341",
+      "revisionId": "058b-full-n5-341",
+      "state": "accepted",
+      "predecessorHash": "94064ad872687ce3d947e5e29ebf90b2404412b29f3df1b05e1b13bacf275f4c",
+      "predecessorRevisionHash": "c5a59f1817a27ec8ad060b990e7f7c16c747eafe53ebefa51a899fe1e154d5ad",
+      "originalHash": "94064ad872687ce3d947e5e29ebf90b2404412b29f3df1b05e1b13bacf275f4c",
+      "rationale": "Full enrichment of ゆっくり: retain speech and walking examples, add natural rest context with optional と, explain the compositional particle form, and clarify in-Ruhe meaning without changing identity.",
+      "original": {
+        "notes": "Yukkuri beschreibt ein langsames oder gemächliches Tempo und steht vor dem Verb, etwa beim Sprechen oder Gehen.",
+        "examples": [
+          {
+            "japanese": "ゆっくり話してください。",
+            "romaji": "Yukkuri hanashite kudasai.",
+            "german": "Bitte sprechen Sie langsam."
+          },
+          {
+            "japanese": "ゆっくり歩きます。",
+            "romaji": "Yukkuri arukimasu.",
+            "german": "Ich gehe langsam."
+          }
+        ],
+        "meaning": "langsam",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@271665100",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact selected lexical form attests 3. Slowly/unhurriedly adverb; replace identical speech request with slow walking.",
+            "match": {
+              "word": "ゆっくり",
+              "reading": "ゆっくり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "langsam"
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "notes": "ゆっくり beschreibt ein langsames, gemächliches Tempo oder das Erholen in Ruhe. Es steht vor dem Verb: ゆっくり話す, ゆっくり休む. In diesen Verbindungen kann die Partikel と hinzutreten: ゆっくりと休む. ゆっくりと ist damit dieselbe adverbiale Verwendung mit と; die Bedeutung wird nicht zu einem neuen Wort.",
+        "examples": [
+          {
+            "japanese": "ゆっくり話してください。",
+            "romaji": "Yukkuri hanashite kudasai.",
+            "german": "Bitte sprechen Sie langsam."
+          },
+          {
+            "japanese": "ゆっくり歩きます。",
+            "romaji": "Yukkuri arukimasu.",
+            "german": "Ich gehe langsam."
+          },
+          {
+            "japanese": "今日は家でゆっくりと休みます。",
+            "romaji": "Kyō wa ie de yukkuri to yasumimasu.",
+            "german": "Heute erhole ich mich in Ruhe zu Hause."
+          }
+        ],
+        "meaning": "langsam, in Ruhe",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@271665100",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact ゆっくり/ユックリ; lemma ゆっくり; 副詞/*/*/*; aType 3. The pitch is for the base ゆっくり lexeme; do not infer or attach a separate whole-phrase ゆっくりと accent.",
+            "match": {
+              "word": "ゆっくり",
+              "reading": "ゆっくり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と."
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1013050; spelling=ゆっくり; reading=ゆっくり; senses=1,3",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と.",
+          "selected": {
+            "sequence": "1013050",
+            "spelling": "ゆっくり",
+            "reading": "ゆっくり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adverb taking the 'to' particle",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "slowly",
+                  "unhurriedly",
+                  "without haste",
+                  "leisurely",
+                  "at one's leisure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "onomatopoeic or mimetic word"
+                ],
+                "gloss": [
+                  "well (e.g. sleep)",
+                  "comfortably"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "additional-sense",
+          "teaching-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "langsam, in Ruhe: JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と.",
+        "japanese": "ゆっくり話してください。 / ゆっくり歩きます。 / 今日は家でゆっくりと休みます。",
+        "romanization": "Yukkuri hanashite kudasai. / Yukkuri arukimasu. / Kyō wa ie de yukkuri to yasumimasu.. Modified Hepburn checked; headword yukkuri retained.",
+        "translation": "Bitte sprechen Sie langsam. / Ich gehe langsam. / Heute erhole ich mich in Ruhe zu Hause.",
+        "contexts": [
+          "Um langsames Sprechen bitten: Verstehen eines Gesprächs.",
+          "Ein langsames Gehtempo angeben: Fortbewegung.",
+          "Sich zu Hause in Ruhe erholen: Entspannung mit optionalem と."
+        ],
+        "lexical": "JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と.",
+        "register": "Neutral everyday modern usage; no archaic or honorific construction introduced.",
+        "transitivity": "Adverb target; optional と marks adverbial usage. Not a transitivity-bearing verb.",
+        "conjugation": "Target is not conjugated. The Japanese examples use natural verb constructions, with noun/adverb particles checked individually.",
+        "level": "Existing N5 retained; fundamental other/else or slowly/rest usage. Candidate study-list references also place these forms in N5; no official JLPT exhaustive-list claim."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact ゆっくり/ユックリ, lemma ゆっくり, 副詞/*/*/*, sys.dic@271665100, aType 3; supports 3 for the selected lexical form.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@271665100",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact ゆっくり/ユックリ; lemma ゆっくり; 副詞/*/*/*; aType 3. The pitch is for the base ゆっくり lexeme; do not infer or attach a separate whole-phrase ゆっくりと accent.",
+            "match": {
+              "word": "ゆっくり",
+              "reading": "ゆっくり",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected all final Japanese, German, Hepburn and notes, selected JMdict senses/restrictions and exact lexical pitch evidence: slow speech, slow movement and relaxed rest; optional to particle and selected slowly/comfortably senses. Contexts are substantively distinct; reviewed marker and source selection agree with this exact assembly.",
+        "contentHash": "3866a9daecc64da61ac9a13e140f188a5f54af218536c36f0a391f355bc43b2e",
+        "approvalHash": "de8576231c288ea0e5bf6869cdd12738337d2cce681fa1d3c2d03205ce94b5dc"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently reviewed the slow-speech request, walking pace and newly added resting at home contexts; the rest example adds relaxation rather than merely another slow action. Japanese, German in Ruhe and Hepburn Kyō are natural and consistent. JMdict 1013050 senses 1,3 independently corroborate slow/unhurried and comfortable rest; sense 1 explicitly allows と, so ゆっくりと is an optional particle construction, not a distinct lexeme or accent claim. Original cached UniDic sys.dic@271665100 is exact ゆっくり/ユックリ adverb aType 3, matching evidence. Note and explicit distinct-context review marker correctly reflect those facts.",
+        "contentHash": "3866a9daecc64da61ac9a13e140f188a5f54af218536c36f0a391f355bc43b2e",
+        "approvalHash": "de8576231c288ea0e5bf6869cdd12738337d2cce681fa1d3c2d03205ce94b5dc"
+      }
+    }
+  ],
+  "decisions": []
+}

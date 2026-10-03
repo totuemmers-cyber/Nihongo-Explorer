@@ -37373,5 +37373,50 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:orenji"
+  },
+  {
+    "word": "字引",
+    "reading": "じびき",
+    "romaji": "jibiki",
+    "meaning": "Wörterbuch (ältere Bezeichnung)",
+    "type": "Nomen",
+    "category": "Arbeit",
+    "level": "N5",
+    "notes": "字引（じびき）, auch 字引き, ist eine ältere Bezeichnung für ein Wörterbuch. Im heutigen Alltag ist 辞書 die üblichere Wahl. 字引で調べる heißt „in einem Wörterbuch nachschlagen“. Das Wort wird weiterhin verstanden; die Kennzeichnung bedeutet nicht, dass es unbrauchbar oder ausschließlich historisch wäre.",
+    "examples": [
+      {
+        "japanese": "わからない言葉を字引で調べます。",
+        "romaji": "Wakaranai kotoba o jibiki de shirabemasu.",
+        "german": "Ich schlage unbekannte Wörter im Wörterbuch nach."
+      },
+      {
+        "japanese": "祖父の字引は大きくて、重いです。",
+        "romaji": "Sofu no jibiki wa ōkikute, omoi desu.",
+        "german": "Das Wörterbuch meines Großvaters ist groß und schwer."
+      }
+    ],
+    "aliases": [
+      "字引き"
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143849504",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3
+        ],
+        "finding": "Exact orthography 字引, kana ジビキ, ordinary noun, lemma 字引き, aType 3. UniDic lemma normalizes the okurigana spelling; the exact shorter orthography is attested, so no pitch inference from another word is required.",
+        "match": {
+          "word": "字引",
+          "reading": "じびき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Dictionary/reference book, JMdict 1315140 sense 1, not an inflected 引く verb."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:jibiki"
   }
 ];

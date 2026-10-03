@@ -62166,6 +62166,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "23": {
+        "notes": "書く bezeichnet das Schreiben eines Textes oder einzelner Zeichen. Das Geschriebene steht mit を: 手紙を書く, 名前を書く. Die て-Form lautet 書いて; die höfliche Form ist 書きます.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62175,17 +62176,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "書く / カク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 書く; aType 1.",
+            "finding": "Exakte Orthographie 書く, Lesung カク, Lemma 書く, 五段-カ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "書く",
               "reading": "かく",
-              "grammaticalForm": "動詞/一般/*/* / 五段-カ行 / 終止形-一般",
-              "sense": "The retained German sense and both examples consistently teach transitive 'write'; godan -ku metadata and romanization are correct. JMdict also lists a draw/paint sense, but the narrower teaching scope is coherent."
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "書く als schreiben"
             }
           }
         ]
       },
       "24": {
+        "notes": "Mit einer Sprache als Objekt heißt 話す „eine Sprache sprechen“: 日本語を話す. Die Gesprächsperson wird mit と angeschlossen, das Kommunikationsmittel mit で: 友達と電話で話す. Nicht mit dem ähnlichen 離す („trennen“) verwechseln.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62195,17 +62197,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "話す / ハナス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 話す; aType 2.",
+            "finding": "Exakte Orthographie 話す, Lesung ハナス, Lemma 話す, 五段-サ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "話す",
               "reading": "はなす",
-              "grammaticalForm": "動詞/一般/*/* / 五段-サ行 / 終止形-一般",
-              "sense": "JMdict sequence 1562350 supports the intended talk/speak senses, transitive godan -す metadata, and both retained examples. German, romanization, and translations are adequate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "話す als sprechen"
             }
           }
         ]
       },
       "25": {
+        "notes": "買う bedeutet hier, etwas gegen Geld zu kaufen. Die Ware steht mit を; der Kaufpreis kann mit で angegeben werden: いくらで買う („für wie viel kaufen“). Bei diesem Godan-Verb wird う in der て-Form zu って: 買って.",
+        "examples": [
+          {
+            "japanese": "パンを買います。",
+            "romaji": "Pan o kaimasu.",
+            "german": "Ich kaufe Brot."
+          },
+          {
+            "japanese": "そのかばんをいくらで買いましたか。",
+            "romaji": "Sono kaban o ikura de kaimashita ka.",
+            "german": "Für wie viel haben Sie diese Tasche gekauft?"
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62215,17 +62230,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "買う / カウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 買う; aType 0.",
+            "finding": "Exakte Orthographie 買う, Lesung カウ, Lemma 買う, 五段-ワア行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "買う",
               "reading": "かう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "Spelling, reading, kau, German kaufen, godan metadata, and both retained purchase examples are accurate. One example is sufficient under this policy; the second remains useful."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "買う als kaufen"
             }
           }
         ]
       },
       "26": {
+        "notes": "する ist unregelmäßig: します, して, した. Es bildet mit Tätigkeitsnomen Verben, etwa 勉強する; auch 勉強をする ist möglich. Bei Sportarten sagt man zum Beispiel テニスをする. Die Form ～しませんか lädt zu einer gemeinsamen Tätigkeit ein.",
+        "examples": [
+          {
+            "japanese": "勉強をします。",
+            "romaji": "Benkyō o shimasu.",
+            "german": "Ich lerne."
+          },
+          {
+            "japanese": "テニスをしませんか。",
+            "romaji": "Tenisu o shimasen ka.",
+            "german": "Wollen wir Tennis spielen?"
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62235,17 +62263,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "する / スル; 動詞/非自立可能/*/*; サ行変格; 終止形-一般; lemma 為る; aType 0.",
+            "finding": "Exakte Orthographie する, Lesung スル, Lemma 為る, サ行変格, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "する",
               "reading": "する",
-              "grammaticalForm": "動詞/非自立可能/*/* / サ行変格 / 終止形-一般",
-              "sense": "The intended common suru lexeme is fixed by the German meaning, examples, and suru conjugation; unrelated kana homographs in the cache do not apply. Both examples and translations are natural."
+              "grammaticalForm": "動詞/非自立可能/*/*; サ行変格; 終止形-一般",
+              "sense": "する als machen, tun"
             }
           }
         ]
       },
       "27": {
+        "notes": "ある drückt die Existenz unbelebter Dinge und die Verfügbarkeit etwa von Zeit aus. Ein Ort steht mit に, das Vorhandene mit が: 机の上に本がある. Für Menschen und Tiere verwendet man normalerweise いる. Die einfache Verneinung lautet ない, die höfliche ありません.",
+        "examples": [
+          {
+            "japanese": "机の上に本があります。",
+            "romaji": "Tsukue no ue ni hon ga arimasu.",
+            "german": "Auf dem Tisch liegt ein Buch."
+          },
+          {
+            "japanese": "今日は時間がありません。",
+            "romaji": "Kyō wa jikan ga arimasen.",
+            "german": "Heute habe ich keine Zeit."
+          }
+        ],
         "aliases": [
           "在る"
         ],
@@ -62258,18 +62299,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "ある / アル; 動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般; lemma 有る; aType 1.",
+            "finding": "Exakte Orthographie ある, Lesung アル, Lemma 有る, 五段-ラ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "ある",
               "reading": "ある",
-              "grammaticalForm": "動詞/非自立可能/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "JMdict sequence 1296400 and the examples identify the existential inanimate verb, not the homophonous prenominal ある. The irregular godan metadata and disabled derived forms are appropriate."
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "ある als existieren (Dinge)"
             }
           }
         ]
       },
       "28": {
-        "notes": "いる bezeichnet die Existenz oder Anwesenheit von Menschen und Tieren; für Dinge verwendet man ある. Nicht mit den gleich ausgesprochenen Verben wie 要る („brauchen“) verwechseln.",
+        "notes": "いる bezeichnet die Existenz oder Anwesenheit von Menschen und Tieren; für Dinge verwendet man ある. Nicht mit den gleich ausgesprochenen Verben wie 要る („brauchen“) verwechseln. In Ortsangaben steht der Ort mit に und das Lebewesen mit が: 部屋に猫がいる.",
         "examples": [
           {
             "japanese": "兄がいます。",
@@ -62291,17 +62332,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "The 居る/いる terminal-form row supports the intended animate-existence sense and existing pitch 0.",
+            "finding": "Exakte Orthographie いる, Lesung イル, Lemma 居る, 上一段-ア行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "いる",
               "reading": "いる",
               "grammaticalForm": "動詞/非自立可能/*/*; 上一段-ア行; 終止形-一般",
-              "sense": "Kana いる is an intransitive ichidan verb meaning animate existence or staying; unrelated homographs have different entries and grammar."
+              "sense": "いる als existieren (Lebewesen)"
             }
           }
         ]
       },
       "29": {
+        "notes": "Bei 分かる steht das Verstandene normalerweise mit が: 日本語が分かる. Das Verb ist trotz seiner Endung -る ein Godan-Verb: 分かります, 分かって. 分かりました kann als Antwort auch „Verstanden!“ heißen.",
+        "examples": [
+          {
+            "japanese": "日本語が分かります。",
+            "romaji": "Nihongo ga wakarimasu.",
+            "german": "Ich verstehe Japanisch."
+          },
+          {
+            "japanese": "この問題が分かりません。",
+            "romaji": "Kono mondai ga wakarimasen.",
+            "german": "Ich verstehe diese Aufgabe nicht."
+          }
+        ],
         "aliases": [
           "分る"
         ],
@@ -62314,17 +62368,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "分かる / ワカル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 分かる; aType 2.",
+            "finding": "Exakte Orthographie 分かる, Lesung ワカル, Lemma 分かる, 五段-ラ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "分かる",
               "reading": "わかる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "Meaning, intransitive godan metadata, romanization, and retained object-of-understanding examples agree with the intended sense."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "分かる als verstehen"
             }
           }
         ]
       },
       "30": {
+        "notes": "Auf wen oder was man wartet, steht mit を: バスを待つ. Ein Warteort wird mit で angegeben. Die て-Form lautet 待って; ～待ってください ist eine Bitte, ～待っています beschreibt das laufende Warten.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62334,17 +62389,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "待つ / マツ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; lemma 待つ; aType 1.",
+            "finding": "Exakte Orthographie 待つ, Lesung マツ, Lemma 待つ, 五段-タ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "待つ",
               "reading": "まつ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-タ行 / 終止形-一般",
-              "sense": "JMdict sequence 1410590 supports wait/await, godan -つ metadata, and both examples. The contracted causative-passive variant またされる is valid."
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "待つ als warten"
             }
           }
         ]
       },
       "31": {
+        "notes": "立つ bedeutet „sich hinstellen/aufstehen“ oder „stehen“. Bei einer bestehenden Position verwendet man oft 立っています; die Stelle steht mit に. Die て-Form lautet 立って. Für „jemanden oder etwas aufstellen“ verwendet man das transitive 立てる.",
+        "examples": [
+          {
+            "japanese": "立ってください。",
+            "romaji": "Tatte kudasai.",
+            "german": "Bitte stehen Sie auf."
+          },
+          {
+            "japanese": "みんなの前に立ちます。",
+            "romaji": "Minna no mae ni tachimasu.",
+            "german": "Ich stelle mich vor alle hin."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62354,17 +62422,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "立つ / タツ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; lemma 立つ; aType 1.",
+            "finding": "Exakte Orthographie 立つ, Lesung タツ, Lemma 立つ, 五段-タ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "立つ",
               "reading": "たつ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-タ行 / 終止形-一般",
-              "sense": "Spelling, reading, tatsu, German meaning, conjugation, and the request/location examples are accurate. The separate 発つ candidate is not this lexical sense."
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "立つ als stehen, aufstehen"
             }
           }
         ]
       },
       "32": {
+        "notes": "座る heißt „sich setzen“; 座っています beschreibt das Sitzen als Zustand. Die Sitzfläche oder der Sitzplatz steht mit に: 椅子に座る. Trotz -る ist es ein Godan-Verb, daher 座って und 座ります.",
+        "examples": [
+          {
+            "japanese": "椅子に座ってください。",
+            "romaji": "Isu ni suwatte kudasai.",
+            "german": "Bitte setzen Sie sich auf den Stuhl."
+          },
+          {
+            "japanese": "父は窓のそばに座っています。",
+            "romaji": "Chichi wa mado no soba ni suwatte imasu.",
+            "german": "Mein Vater sitzt am Fenster."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62374,27 +62455,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "座る / スワル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 座る; aType 0.",
+            "finding": "Exakte Orthographie 座る, Lesung スワル, Lemma 座る, 五段-ラ行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "座る",
               "reading": "すわる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "The entry correctly teaches the intransitive godan sitting sense; both request/suggestion examples and German translations are natural."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "座る als sich setzen"
             }
           }
         ]
       },
       "33": {
+        "notes": "寝る kann „schlafen“ oder „ins Bett gehen“ heißen. Eine Uhrzeit mit に bezeichnet oft die Bettgehzeit: 十一時に寝る. 寝ています bedeutet im passenden Zusammenhang „schläft“. Die Ichidan-Formen sind 寝ます und 寝て.",
         "examples": [
           {
             "japanese": "十一時に寝ます。",
-            "romaji": "Juuichiji ni nemasu.",
+            "romaji": "Jūichiji ni nemasu.",
             "german": "Ich gehe um elf Uhr ins Bett."
           },
           {
-            "japanese": "昨日早く寝ました。",
-            "romaji": "Kinou hayaku nemashita.",
-            "german": "Gestern bin ich früh ins Bett gegangen."
+            "japanese": "赤ちゃんはもう寝ています。",
+            "romaji": "Akachan wa mō nete imasu.",
+            "german": "Das Baby schläft schon."
           }
         ],
         "pitchProvenance": [
@@ -62406,17 +62488,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "寝る / ネル; 動詞/一般/*/*; 下一段-ナ行; 終止形-一般; lemma 寝る; aType 0.",
+            "finding": "Exakte Orthographie 寝る, Lesung ネル, Lemma 寝る, 下一段-ナ行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "寝る",
               "reading": "ねる",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-ナ行 / 終止形-一般",
-              "sense": "JMdict sequence 1360010 supports an intransitive ichidan verb. Both Japanese sentences use 寝る in the go-to-bed sense, while the German translations assert sleeping or falling asleep."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ナ行; 終止形-一般",
+              "sense": "寝る als schlafen"
             }
           }
         ]
       },
       "34": {
+        "notes": "起きる bezeichnet das Aufwachen oder Aufstehen. 起きています kann „wach sein“ bedeuten, während 立っています körperliches Stehen beschreibt. Die Uhrzeit steht mit に. Das Ichidan-Verb bildet 起きます und 起きて.",
+        "examples": [
+          {
+            "japanese": "毎朝六時に起きます。",
+            "romaji": "Maiasa rokuji ni okimasu.",
+            "german": "Ich stehe jeden Morgen um sechs auf."
+          },
+          {
+            "japanese": "赤ちゃんはまだ起きています。",
+            "romaji": "Akachan wa mada okite imasu.",
+            "german": "Das Baby ist noch wach."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62426,17 +62521,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "起きる / オキル; 動詞/一般/*/*; 上一段-カ行; 終止形-一般; lemma 起きる; aType 2.",
+            "finding": "Exakte Orthographie 起きる, Lesung オキル, Lemma 起きる, 上一段-カ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "起きる",
               "reading": "おきる",
-              "grammaticalForm": "動詞/一般/*/* / 上一段-カ行 / 終止形-一般",
-              "sense": "Spelling, reading, okiru, German meaning, ichidan metadata, and both daily-routine examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 上一段-カ行; 終止形-一般",
+              "sense": "起きる als aufstehen, aufwachen"
             }
           }
         ]
       },
       "35": {
+        "notes": "働く meint hier, einer Arbeit nachzugehen. Der Arbeitsplatz wird mit で angeschlossen: 銀行で働く. Eine regelmäßige berufliche Tätigkeit beschreibt oft 働いています. Eine Arbeitsdauer kann mit ～時間 angegeben werden.",
+        "examples": [
+          {
+            "japanese": "銀行で働いています。",
+            "romaji": "Ginkō de hataraite imasu.",
+            "german": "Ich arbeite bei einer Bank."
+          },
+          {
+            "japanese": "一日に八時間働きます。",
+            "romaji": "Ichinichi ni hachijikan hatarakimasu.",
+            "german": "Ich arbeite acht Stunden am Tag."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62446,17 +62554,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "働く / ハタラク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 働く; aType 0.",
+            "finding": "Exakte Orthographie 働く, Lesung ハタラク, Lemma 働く, 五段-カ行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "働く",
               "reading": "はたらく",
-              "grammaticalForm": "動詞/一般/*/* / 五段-カ行 / 終止形-一般",
-              "sense": "The employment sense, intransitive godan metadata, romanization, and workplace examples are mutually consistent."
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "働く als arbeiten"
             }
           }
         ]
       },
       "36": {
+        "notes": "休む kann eine Erholungspause oder das Fernbleiben von Arbeit oder Unterricht ausdrücken. Das Versäumte steht mit を: 学校を休む. Deshalb heißt 学校を休みます „ich gehe nicht zur Schule“, nicht „ich ruhe mich in der Schule aus“.",
+        "examples": [
+          {
+            "japanese": "疲れたので、少し休みます。",
+            "romaji": "Tsukareta node, sukoshi yasumimasu.",
+            "german": "Ich bin müde und mache deshalb eine kurze Pause."
+          },
+          {
+            "japanese": "月曜日は学校を休みます。",
+            "romaji": "Getsuyōbi wa gakkō o yasumimasu.",
+            "german": "Am Montag fehle ich in der Schule."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62466,17 +62587,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "休む / ヤスム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 休む; aType 2.",
+            "finding": "Exakte Orthographie 休む, Lesung ヤスム, Lemma 休む, 五段-マ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "休む",
               "reading": "やすむ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-マ行 / 終止形-一般",
-              "sense": "JMdict sequence 1227560 supports both retained senses, taking a rest and being absent, with intransitive godan -む metadata. The two examples and German translations correctly distinguish those uses."
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "休む als sich ausruhen, fehlen"
             }
           }
         ]
       },
       "37": {
+        "meaning": "lehren, unterrichten; sagen, erklären",
+        "notes": "教える bedeutet nicht nur „unterrichten“, sondern auch „jemandem etwas sagen oder zeigen“. Die angesprochene Person steht mit に, der vermittelte Inhalt mit を: 人に英語を教える. 道を教えてください ist eine Bitte um eine Wegbeschreibung.",
+        "examples": [
+          {
+            "japanese": "英語を教えています。",
+            "romaji": "Eigo o oshiete imasu.",
+            "german": "Ich unterrichte Englisch."
+          },
+          {
+            "japanese": "駅への道を教えてください。",
+            "romaji": "Eki e no michi o oshiete kudasai.",
+            "german": "Bitte erklären Sie mir den Weg zum Bahnhof."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62486,17 +62621,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "教える / オシエル; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; lemma 教える; aType 0.",
+            "finding": "Exakte Orthographie 教える, Lesung オシエル, Lemma 教える, 下一段-ア行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "教える",
               "reading": "おしえる",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-ア行 / 終止形-一般",
-              "sense": "Spelling, reading, oshieru, German teaching meanings, conjugation, and both examples are accurate. The broader tell/show sense need not be added to this focused entry."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "教える als lehren, unterrichten; sagen, erklären"
             }
           }
         ]
       },
       "38": {
+        "notes": "習う betont Lernen durch Unterricht oder Anleitung, etwa bei Musik oder einer Sprache. Der Lerngegenstand steht mit を, die Lehrperson mit に oder から. Für allgemeines Lernen oder selbstständiges Studieren verwendet man häufig 勉強する.",
+        "examples": [
+          {
+            "japanese": "ピアノを習っています。",
+            "romaji": "Piano o naratte imasu.",
+            "german": "Ich lerne Klavier."
+          },
+          {
+            "japanese": "先生に漢字の書き方を習いました。",
+            "romaji": "Sensei ni kanji no kakikata o naraimashita.",
+            "german": "Ich habe bei einer Lehrkraft gelernt, wie man Kanji schreibt."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62506,17 +62654,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "習う / ナラウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 習う; aType 2.",
+            "finding": "Exakte Orthographie 習う, Lesung ナラウ, Lemma 習う, 五段-ワア行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "習う",
               "reading": "ならう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "The meaning explicitly distinguishes learning through instruction, and the piano/Japanese lesson examples are compatible with transitive godan 習う. The concise German example translations remain acceptable."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "習う als lernen (von jemandem)"
             }
           }
         ]
       },
       "39": {
+        "meaning": "benutzen, verwenden; ausgeben",
+        "notes": "使う bezeichnet das Benutzen eines Werkzeugs oder Mittels. Bei Geld heißt お金を使う „Geld ausgeben“, bei Zeit 時間を使う „Zeit aufwenden“. Das Benutzte oder Verbrauchte steht mit を; die て-Form lautet 使って.",
+        "examples": [
+          {
+            "japanese": "パソコンを使います。",
+            "romaji": "Pasokon o tsukaimasu.",
+            "german": "Ich benutze einen Computer."
+          },
+          {
+            "japanese": "旅行でたくさんお金を使いました。",
+            "romaji": "Ryokō de takusan okane o tsukaimashita.",
+            "german": "Ich habe auf der Reise viel Geld ausgegeben."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62526,17 +62688,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "使う / ツカウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 使う; aType 0.",
+            "finding": "Exakte Orthographie 使う, Lesung ツカウ, Lemma 使う, 五段-ワア行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "使う",
               "reading": "つかう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "JMdict sequence 1305990 supports transitive godan use of tools and resources. Both retained examples, translations, and romanization are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "使う als benutzen, verwenden; ausgeben"
             }
           }
         ]
       },
       "40": {
+        "notes": "作る betont, dass etwas entsteht oder zubereitet wird, etwa ein Gegenstand oder Essen. Das Ergebnis steht mit を, das Material mit で: 紙で箱を作る. Das allgemeine する bezeichnet dagegen eine Tätigkeit, ohne dass dabei ein neues Produkt entstehen muss.",
+        "examples": [
+          {
+            "japanese": "ケーキを作ります。",
+            "romaji": "Kēki o tsukurimasu.",
+            "german": "Ich mache einen Kuchen."
+          },
+          {
+            "japanese": "紙で小さな箱を作りました。",
+            "romaji": "Kami de chīsana hako o tsukurimashita.",
+            "german": "Ich habe aus Papier eine kleine Schachtel gemacht."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62546,17 +62721,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "作る / ツクル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 作る; aType 2.",
+            "finding": "Exakte Orthographie 作る, Lesung ツクル, Lemma 作る, 五段-ラ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "作る",
               "reading": "つくる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "Spelling, reading, tsukuru, German meaning, conjugation, and cake/food examples are accurate. 造る remains a separately represented spelling/sense target in the combined candidate review."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "作る als machen, herstellen"
             }
           }
         ]
       },
       "41": {
+        "meaning": "eintreten, hineingehen; beitreten",
+        "notes": "入る bedeutet „hineingehen“ und auch „einer Gruppe beitreten“. Der betretene Ort oder die Gruppe steht mit に: 部屋に入る, クラブに入る. Obwohl das Wort auf -いる endet, ist es ein Godan-Verb: 入ります, 入って. Für „etwas hineinlegen“ verwendet man 入れる.",
+        "examples": [
+          {
+            "japanese": "部屋に入ります。",
+            "romaji": "Heya ni hairimasu.",
+            "german": "Ich betrete das Zimmer."
+          },
+          {
+            "japanese": "私は学校のテニスクラブに入りました。",
+            "romaji": "Watashi wa gakkō no tenisu kurabu ni hairimashita.",
+            "german": "Ich bin dem Tennisclub der Schule beigetreten."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62566,17 +62755,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "入る / ハイル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 入る; aType 1.",
+            "finding": "Exakte Orthographie 入る, Lesung ハイル, Lemma 入る, 五段-ラ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "入る",
               "reading": "はいる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "The common はいる entry consistently teaches entering a room/building; it is an intransitive godan verb and remains separate from literary 入る【いる】."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "入る als eintreten, hineingehen; beitreten"
             }
           }
         ]
       },
       "42": {
+        "meaning": "hinausgehen, herauskommen; teilnehmen",
+        "notes": "Beim Verlassen eines Ortes wird 出る mit を verwendet: 家を出る. Es kann auch „teilnehmen/anwesend sein“ bedeuten; dann steht eine Veranstaltung oder ein Unterricht mit に: 授業に出る. Das Ichidan-Verb bildet 出ます und 出て.",
+        "examples": [
+          {
+            "japanese": "家を出ます。",
+            "romaji": "Ie o demasu.",
+            "german": "Ich verlasse das Haus."
+          },
+          {
+            "japanese": "今日は日本語の授業に出ます。",
+            "romaji": "Kyō wa nihongo no jugyō ni demasu.",
+            "german": "Heute nehme ich am Japanischunterricht teil."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62586,17 +62789,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "出る / デル; 動詞/一般/*/*; 下一段-ダ行; 終止形-一般; lemma 出る; aType 1.",
+            "finding": "Exakte Orthographie 出る, Lesung デル, Lemma 出る, 下一段-ダ行, 終止形-一般, aType 1. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "出る",
               "reading": "でる",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-ダ行 / 終止形-一般",
-              "sense": "JMdict sequence 1338240 supports the intended leave/exit sense and intransitive ichidan metadata. Both examples are accurate; their similar contexts do not require replacement under targeted enrichment."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ダ行; 終止形-一般",
+              "sense": "出る als hinausgehen, herauskommen; teilnehmen"
             }
           }
         ]
       },
       "43": {
+        "notes": "出かける bedeutet, von zu Hause oder dem bisherigen Aufenthaltsort zu einer Unternehmung aufzubrechen. Der Zweck kann mit に stehen: 買い物に出かける; eine Begleitperson mit と. 出掛ける ist eine weitere Schreibweise desselben Wortes.",
         "aliases": [
           "出掛ける"
         ],
@@ -62609,18 +62813,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "出かける / デカケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 出掛ける; aType 0.",
+            "finding": "Exakte Orthographie 出かける, Lesung デカケル, Lemma 出掛ける, 下一段-カ行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "出かける",
               "reading": "でかける",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-カ行 / 終止形-一般",
-              "sense": "Spelling, reading, dekakeru, German meaning, conjugation, and shopping/social-outing examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "出かける als ausgehen, weggehen"
             }
           }
         ]
       },
       "44": {
         "meaning": "gehen, zu Fuß gehen",
+        "notes": "歩く heißt ausdrücklich „zu Fuß gehen“, im Gegensatz zum Rennen mit 走る. Eine durchquerte Strecke kann mit を stehen: 公園を歩く. Das Ziel oder Ende der Strecke kann mit まで angegeben werden: 駅まで歩く.",
+        "examples": [
+          {
+            "japanese": "公園を歩きます。",
+            "romaji": "Kōen o arukimasu.",
+            "german": "Ich gehe im Park spazieren."
+          },
+          {
+            "japanese": "駅まで歩きます。",
+            "romaji": "Eki made arukimasu.",
+            "german": "Ich gehe zu Fuß zum Bahnhof."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62630,17 +62847,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "歩く / アルク; 動詞/一般/*/*; 五段-カ行; 終止形-一般; lemma 歩く; aType 2.",
+            "finding": "Exakte Orthographie 歩く, Lesung アルク, Lemma 歩く, 五段-カ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "歩く",
               "reading": "あるく",
-              "grammaticalForm": "動詞/一般/*/* / 五段-カ行 / 終止形-一般",
-              "sense": "Grammar, examples, and pitch are correct, but German 'laufen' can imply running and overstates the sole JMdict sense 'walk'."
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "歩く als gehen, zu Fuß gehen"
             }
           }
         ]
       },
       "45": {
+        "notes": "走る bedeutet hier „rennen/joggen“, während 歩く das Gehen zu Fuß bezeichnet. Trotz -る ist 走る ein Godan-Verb: 走ります, 走って. Mit まで kann der Endpunkt des Laufens genannt werden, etwa 駅まで走る.",
+        "examples": [
+          {
+            "japanese": "毎朝走ります。",
+            "romaji": "Maiasa hashirimasu.",
+            "german": "Ich laufe jeden Morgen."
+          },
+          {
+            "japanese": "時間がないので、駅まで走りました。",
+            "romaji": "Jikan ga nai node, eki made hashirimashita.",
+            "german": "Da ich keine Zeit hatte, bin ich zum Bahnhof gerannt."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62650,17 +62880,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "走る / ハシル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 走る; aType 2.",
+            "finding": "Exakte Orthographie 走る, Lesung ハシル, Lemma 走る, 五段-ラ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "走る",
               "reading": "はしる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "JMdict sequence 1402540 supports run, intransitive godan -る metadata, and both retained examples. The contracted causative-passive variant はしらされる is valid."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "走る als rennen, laufen"
             }
           }
         ]
       },
       "46": {
+        "notes": "泳ぐ beschreibt Schwimmen bei Menschen und Tieren. Der Ort einer Schwimmaktivität steht mit で, ein durchschwommener Raum kann mit を stehen. Bei diesem Godan-Verb auf -ぐ lautet die て-Form 泳いで, nicht 泳いて.",
+        "examples": [
+          {
+            "japanese": "プールで泳ぎます。",
+            "romaji": "Pūru de oyogimasu.",
+            "german": "Ich schwimme im Pool."
+          },
+          {
+            "japanese": "魚が川を泳いでいます。",
+            "romaji": "Sakana ga kawa o oyoide imasu.",
+            "german": "Fische schwimmen im Fluss."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62670,17 +62913,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "泳ぐ / オヨグ; 動詞/一般/*/*; 五段-ガ行; 終止形-一般; lemma 泳ぐ; aType 2.",
+            "finding": "Exakte Orthographie 泳ぐ, Lesung オヨグ, Lemma 泳ぐ, 五段-ガ行, 終止形-一般, aType 2. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "泳ぐ",
               "reading": "およぐ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ガ行 / 終止形-一般",
-              "sense": "Spelling, reading, oyogu, German meaning, conjugation, and pool/sea examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ガ行; 終止形-一般",
+              "sense": "泳ぐ als schwimmen"
             }
           }
         ]
       },
       "47": {
+        "meaning": "spielen; Freizeit verbringen",
+        "notes": "遊ぶ kann Kinderspiel oder gemeinsame Freizeit bedeuten. 友達と遊ぶ heißt je nach Situation auch „mit Freunden Zeit verbringen“, ohne ein bestimmtes Spiel zu nennen. Für eine konkrete Sportart oder ein Instrument verwendet man passendere Verben, etwa テニスをする und ピアノを弾く.",
+        "examples": [
+          {
+            "japanese": "友達と遊びます。",
+            "romaji": "Tomodachi to asobimasu.",
+            "german": "Ich verbringe meine Freizeit mit Freunden."
+          },
+          {
+            "japanese": "子供たちが公園で遊んでいます。",
+            "romaji": "Kodomotachi ga kōen de asonde imasu.",
+            "german": "Die Kinder spielen im Park."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62690,17 +62947,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "遊ぶ / アソブ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; lemma 遊ぶ; aType 0.",
+            "finding": "Exakte Orthographie 遊ぶ, Lesung アソブ, Lemma 遊ぶ, 五段-バ行, 終止形-一般, aType 0. Diese Form stimmt mit dem ausgewählten JMdict-Sinn und der unveränderten Verbgruppe überein.",
             "match": {
               "word": "遊ぶ",
               "reading": "あそぶ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-バ行 / 終止形-一般",
-              "sense": "The retained material consistently teaches the beginner play/spend-time-with-friends sense; intransitive godan metadata and translations are correct."
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "遊ぶ als spielen; Freizeit verbringen"
             }
           }
         ]
       },
       "48": {
+        "notes": "歌う bedeutet „singen“. Das Lied steht mit を, der Ort etwa mit で: 歌を歌う, カラオケで歌う. Das Godan-Verb bildet die te-Form 歌って und die Verneinung 歌わない.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62710,17 +62968,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "歌う / ウタウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 歌う; aType 0.",
+            "finding": "Exact modern terminal form 歌う/ウタウ under lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "歌う",
               "reading": "うたう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "JMdict sequence 1588120 supports the sing sense and godan -う metadata. Both examples and translations are natural and accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Exact 歌う/うたう, JMdict 1588120, senses 1: to sing. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "49": {
+        "notes": "写真を撮る ist die übliche Verbindung für „ein Foto machen“; die fotografierte Person oder Sache kann ebenfalls mit を stehen. 撮る bezieht sich hier auf Aufnahmen und ist von 取る „nehmen“ und 捕る „fangen“ zu unterscheiden. Die te-Form lautet 撮って.",
+        "examples": [
+          {
+            "japanese": "写真を撮ります。",
+            "romaji": "Shashin o torimasu.",
+            "german": "Ich mache ein Foto."
+          },
+          {
+            "japanese": "富士山を撮りました。",
+            "romaji": "Fujisan o torimashita.",
+            "german": "Ich habe den Berg Fuji fotografiert."
+          },
+          {
+            "japanese": "ここでは写真を撮らないでください。",
+            "romaji": "Koko de wa shashin o toranaide kudasai.",
+            "german": "Bitte machen Sie hier keine Fotos."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62730,17 +63006,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "撮る / トル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 取る; aType 1.",
+            "finding": "Exact modern terminal form 撮る/トル under lemma 取る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 1. The spelling and taught meaning were checked.",
             "match": {
               "word": "撮る",
               "reading": "とる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "Spelling, reading, toru, German meaning, conjugation, and both photography examples are accurate. This is distinct from the 捕る candidate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 撮る/とる, JMdict 1298790, senses 1: to take (a photograph). German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "50": {
+        "notes": "開ける ist transitiv: Jemand öffnet etwas, etwa 窓を開ける. Das passende intransitive Verb ist 開く（あく）: 窓が開く „das Fenster geht auf“. 開ける kann auch das Öffnen eines Geschäfts bezeichnen; als Ichidan-Verb bildet es 開けて und 開けない.",
+        "examples": [
+          {
+            "japanese": "窓を開けてください。",
+            "romaji": "Mado o akete kudasai.",
+            "german": "Bitte öffnen Sie das Fenster."
+          },
+          {
+            "japanese": "ドアを開けてもいいですか。",
+            "romaji": "Doa o akete mo ii desu ka.",
+            "german": "Darf ich die Tür öffnen?"
+          },
+          {
+            "japanese": "朝九時に店を開けます。",
+            "romaji": "Asa kuji ni mise o akemasu.",
+            "german": "Ich öffne den Laden morgens um neun Uhr."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62750,17 +63044,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "開ける / アケル; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; lemma 開ける; aType 0.",
+            "finding": "Exact modern terminal form 開ける/アケル under lemma 開ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "開ける",
               "reading": "あける",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-カ行 / 終止形-一般",
-              "sense": "The transitive ichidan opening sense, conjugation reading, two object examples, romanization, and translations are correct."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Exact 開ける/あける, JMdict 1202450, senses 1, 2: to open (a door, etc.), to unwrap (e.g. parcel, package), to unlock; to open (for business, etc.). German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "51": {
+        "notes": "閉める heißt „etwas schließen“ und nimmt das Objekt mit を: ドアを閉める. 閉まる beschreibt dagegen, dass etwas geschlossen wird oder zugeht: ドアが閉まる. Das Ichidan-Verb bildet 閉めて; das gleich ausgesprochene 締める steht unter anderem für „festziehen“.",
+        "examples": [
+          {
+            "japanese": "ドアを閉めてください。",
+            "romaji": "Doa o shimete kudasai.",
+            "german": "Bitte schließen Sie die Tür."
+          },
+          {
+            "japanese": "窓を閉めてください。",
+            "romaji": "Mado o shimete kudasai.",
+            "german": "Bitte schließen Sie das Fenster."
+          },
+          {
+            "japanese": "夜八時に店を閉めます。",
+            "romaji": "Yoru hachiji ni mise o shimemasu.",
+            "german": "Ich schließe den Laden abends um acht Uhr."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62770,18 +63082,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "閉める / シメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 締める; aType 2.",
+            "finding": "Exact modern terminal form 閉める/シメル under lemma 締める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "閉める",
               "reading": "しめる",
-              "grammaticalForm": "動詞/一般/*/* / 下一段-マ行 / 終止形-一般",
-              "sense": "JMdict sequence 1508590 supports the transitive ichidan close/shut sense. UniDic has exact orthography 閉める while normalizing the lemma to 締める; this is not a sense mismatch."
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "Exact 閉める/しめる, JMdict 1508590, senses 1: to close, to shut. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "52": {
         "notes": "Hier bedeutet つける „ein Gerät oder Licht einschalten“ und wird auch 点ける oder 付ける geschrieben. Je nach Zusammenhang kann つける auch „befestigen“ oder „tragen“ bedeuten; das gleich ausgesprochene 浸ける bedeutet „eintauchen“.",
+        "examples": [
+          {
+            "japanese": "電気をつけてください。",
+            "romaji": "Denki o tsukete kudasai.",
+            "german": "Bitte machen Sie das Licht an."
+          },
+          {
+            "japanese": "テレビをつけてもいいですか。",
+            "romaji": "Terebi o tsukete mo ii desu ka.",
+            "german": "Darf ich den Fernseher einschalten?"
+          },
+          {
+            "japanese": "暗いので、電気をつけます。",
+            "romaji": "Kurai node, denki o tsukemasu.",
+            "german": "Weil es dunkel ist, mache ich das Licht an."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62791,17 +63120,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "The exact kana terminal form under lemma 付ける supports pitch 2; the pattern-0 浸ける row is a different sense.",
+            "finding": "Exact modern terminal form つける/ツケル under lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 終止形-一般; aType 2. The spelling and taught meaning were checked; reject the 浸ける pitch-0 homophone.",
             "match": {
               "word": "つける",
               "reading": "つける",
               "grammaticalForm": "動詞/非自立可能/*/*; 下一段-カ行; 終止形-一般",
-              "sense": "The 付ける lexical entry supports switching on as well as context-dependent attaching and wearing senses; the kana-homophonous 浸ける 'to soak/dip' is a separate lexical entry."
+              "sense": "JMdict 1610400 sense 1 covers the taught switching-on sense, whereas 1495770 supplies related attaching/wearing senses already distinguished in the retained note. The soak/pickle homophone 1433680 is not selected."
             }
           }
         ]
       },
       "53": {
+        "notes": "消す wird sowohl für das Ausschalten von Licht oder Geräten als auch für das Löschen von Schrift verwendet: 電気を消す, 字を消す. Es ist transitiv; 消える beschreibt dagegen das Erlöschen oder Verschwinden. Das Godan-Verb bildet 消して und 消さない.",
+        "examples": [
+          {
+            "japanese": "電気を消してください。",
+            "romaji": "Denki o keshite kudasai.",
+            "german": "Bitte machen Sie das Licht aus."
+          },
+          {
+            "japanese": "テレビを消してください。",
+            "romaji": "Terebi o keshite kudasai.",
+            "german": "Bitte schalten Sie den Fernseher aus."
+          },
+          {
+            "japanese": "間違えた字を消しました。",
+            "romaji": "Machigaeta ji o keshimashita.",
+            "german": "Ich habe das falsch geschriebene Zeichen gelöscht."
+          }
+        ],
         "pitch": 0,
         "pitchVariants": null,
         "pitchProvenance": [
@@ -62813,17 +63160,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "消す / ケス; 動詞/一般/*/*; 五段-サ行; 終止形-一般; lemma 消す; aType 0.",
+            "finding": "Exact modern terminal form 消す/ケス under lemma 消す; 動詞/一般/*/*; 五段-サ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "消す",
               "reading": "けす",
-              "grammaticalForm": "動詞/一般/*/* / 五段-サ行 / 終止形-一般",
-              "sense": "Meaning, transitive godan metadata, and switch-off examples are correct. Runtime pitch 1 is unsupported by the exact UniDic terminal-form row, which attests 0."
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "Exact 消す/けす, JMdict 1350110, senses 1, 2: to erase, to rub out, to rub off, to cross out, to delete; to turn off (a light, TV, heater, etc.), to switch off. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "54": {
+        "notes": "持つ kann „in der Hand halten“, „tragen“ oder „besitzen“ bedeuten; die Sache steht mit を. 持っています beschreibt oft einen anhaltenden Zustand, etwa dass man einen Schirm hat. Das Godan-Verb bildet 持って; „mitnehmen“ heißt häufig 持っていく.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62833,17 +63181,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "持つ / モツ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; lemma 持つ; aType 1.",
+            "finding": "Exact modern terminal form 持つ/モツ under lemma 持つ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; aType 1. The spelling and taught meaning were checked.",
             "match": {
               "word": "持つ",
               "reading": "もつ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-タ行 / 終止形-一般",
-              "sense": "JMdict sequence 1315720 supports both carry/hold and possess, with transitive godan -つ metadata. The examples correctly demonstrate possession and carrying."
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "Exact 持つ/もつ, JMdict 1315720, senses 1, 2: to hold (in one's hand), to take, to carry; to possess, to have, to own. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "55": {
+        "notes": "Der Wohnort steht bei 住む mit に: 東京に住んでいます. Für den gegenwärtigen Wohnsitz ist 住んでいます üblich; 住みたい drückt den Wunsch aus, irgendwo zu wohnen. 住む ist intransitiv und bildet als Godan-Verb 住んで.",
+        "examples": [
+          {
+            "japanese": "東京に住んでいます。",
+            "romaji": "Tōkyō ni sunde imasu.",
+            "german": "Ich wohne in Tokio."
+          },
+          {
+            "japanese": "大阪に住みたいです。",
+            "romaji": "Ōsaka ni sumitai desu.",
+            "german": "Ich möchte in Osaka wohnen."
+          },
+          {
+            "japanese": "この家には誰も住んでいません。",
+            "romaji": "Kono ie ni wa dare mo sunde imasen.",
+            "german": "In diesem Haus wohnt niemand."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62853,17 +63219,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "住む / スム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 住む; aType 1.",
+            "finding": "Exact modern terminal form 住む/スム under lemma 住む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 1. The spelling and taught meaning were checked.",
             "match": {
               "word": "住む",
               "reading": "すむ",
-              "grammaticalForm": "動詞/一般/*/* / 五段-マ行 / 終止形-一般",
-              "sense": "Spelling, reading, sumu, German wohnen, conjugation, and present/desire examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Exact 住む/すむ, JMdict 1334040, senses 1: to live (of humans), to reside, to inhabit, to dwell, to abide. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "56": {
+        "notes": "„Ich weiß es“ oder „ich kenne …“ heißt meist 知っています. Die übliche Verneinung ist 知りません. 知る kann auch den Moment des Erfahrens bezeichnen, etwa ニュースを知る „von einer Nachricht erfahren“; es ist ein transitives Godan-Verb mit der te-Form 知って.",
+        "examples": [
+          {
+            "japanese": "この人を知っていますか。",
+            "romaji": "Kono hito o shitte imasu ka.",
+            "german": "Kennen Sie diese Person?"
+          },
+          {
+            "japanese": "あの店を知っていますか。",
+            "romaji": "Ano mise o shitte imasu ka.",
+            "german": "Kennen Sie jenen Laden?"
+          },
+          {
+            "japanese": "昨日、初めてそのニュースを知りました。",
+            "romaji": "Kinō, hajimete sono nyūsu o shirimashita.",
+            "german": "Gestern habe ich zum ersten Mal von dieser Nachricht erfahren."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62873,17 +63257,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "知る / シル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 知る; aType 0.",
+            "finding": "Exact modern terminal form 知る/シル under lemma 知る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "知る",
               "reading": "しる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "The broad German pair wissen/kennen is supported; both retained examples naturally demonstrate familiarity and agree with transitive godan metadata."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 知る/しる, JMdict 1420470, senses 1, 4: to know, to be aware (of), to be conscious (of), to learn (of), to find out, to discover; to remember, to be familiar with, to be acquainted with. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "57": {
+        "notes": "Vor 思う steht eine Aussage in der einfachen Form mit と: 雨だと思います „ich denke, dass es regnet“. Bei Nomen und na-Adjektiven gehört だ dazu; bei i-Adjektiven steht kein だ. 思います kennzeichnet hier eine persönliche Einschätzung, keine gesicherte Tatsache.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62893,17 +63278,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "思う / オモウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 思う; aType 2.",
+            "finding": "Exact modern terminal form 思う/オモウ under lemma 思う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "思う",
               "reading": "おもう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "JMdict sequence 1589350 supports think/believe and transitive godan -う metadata. Both proposition-plus-と examples and German translations are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Exact 思う/おもう, JMdict 1589350, senses 1: to think, to consider, to believe, to reckon. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "58": {
+        "notes": "Die Person, die man trifft, steht häufig mit に: 友達に会う. と kann eine verabredete oder gemeinsame Begegnung hervorheben. 会う ist intransitiv; seine te-Form lautet 会って. Für das erstmalige Kennenlernen ist 初めて会う eine natürliche Verbindung.",
+        "examples": [
+          {
+            "japanese": "友達に会います。",
+            "romaji": "Tomodachi ni aimasu.",
+            "german": "Ich treffe einen Freund."
+          },
+          {
+            "japanese": "昨日先生に会いました。",
+            "romaji": "Kinō sensei ni aimashita.",
+            "german": "Gestern habe ich den Lehrer getroffen."
+          },
+          {
+            "japanese": "明日、駅で会いましょう。",
+            "romaji": "Ashita, eki de aimashō.",
+            "german": "Treffen wir uns morgen am Bahnhof."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62913,17 +63316,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "会う / アウ; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; lemma 会う; aType 1.",
+            "finding": "Exact modern terminal form 会う/アウ under lemma 会う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 1. The spelling and taught meaning were checked.",
             "match": {
               "word": "会う",
               "reading": "あう",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ワア行 / 終止形-一般",
-              "sense": "Spelling, reading, au, German treffen, conjugation, に case marking, and both examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Exact 会う/あう, JMdict 1198180, senses 1: to meet, to encounter, to see. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "59": {
+        "notes": "Das Verkehrsmittel steht bei 乗る mit に: 電車に乗る, バスに乗る. Das Verb kann sowohl das Einsteigen als auch die Fahrt bezeichnen. Es ist ein intransitives Godan-Verb und bildet 乗って; der Gegenbegriff für das Aussteigen ist 降りる.",
+        "examples": [
+          {
+            "japanese": "電車に乗ります。",
+            "romaji": "Densha ni norimasu.",
+            "german": "Ich steige in den Zug."
+          },
+          {
+            "japanese": "バスに乗りましょう。",
+            "romaji": "Basu ni norimashō.",
+            "german": "Lass uns den Bus nehmen."
+          },
+          {
+            "japanese": "毎日、自転車に乗って学校へ行きます。",
+            "romaji": "Mainichi, jitensha ni notte gakkō e ikimasu.",
+            "german": "Ich fahre jeden Tag mit dem Fahrrad zur Schule."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62933,17 +63354,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "乗る / ノル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 乗る; aType 0.",
+            "finding": "Exact modern terminal form 乗る/ノル under lemma 乗る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "乗る",
               "reading": "のる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "The entry correctly teaches boarding/taking transport with に; godan metadata, romanization, and translations are sound."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 乗る/のる, JMdict 1355120, senses 1: to get on (train, plane, bus, ship, etc.), to get in, to board, to take, to embark. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "60": {
+        "notes": "Beim Aussteigen steht das Verkehrsmittel oft mit を und der Ausstiegsort mit で: バスを降りる, 駅で降りる. 降りる ist dennoch intransitiv und gehört zur Ichidan-Gruppe; die te-Form lautet 降りて. Die Lesung おりる darf nicht mit 降る（ふる）„fallen, regnen“ verwechselt werden.",
+        "examples": [
+          {
+            "japanese": "次の駅で降ります。",
+            "romaji": "Tsugi no eki de orimasu.",
+            "german": "Ich steige an der nächsten Station aus."
+          },
+          {
+            "japanese": "ここで降りましょう。",
+            "romaji": "Koko de orimashō.",
+            "german": "Lass uns hier aussteigen."
+          },
+          {
+            "japanese": "バスを降りてから、歩きます。",
+            "romaji": "Basu o orite kara, arukimasu.",
+            "german": "Nachdem ich aus dem Bus ausgestiegen bin, gehe ich zu Fuß."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62953,17 +63392,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "降りる / オリル; 動詞/一般/*/*; 上一段-ラ行; 終止形-一般; lemma 下りる; aType 2.",
+            "finding": "Exact modern terminal form 降りる/オリル under lemma 下りる; 動詞/一般/*/*; 上一段-ラ行; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "降りる",
               "reading": "おりる",
-              "grammaticalForm": "動詞/一般/*/* / 上一段-ラ行 / 終止形-一般",
-              "sense": "JMdict sequence 1589500 supports the get-off/disembark sense and intransitive ichidan metadata. UniDic has exact orthography 降りる while normalizing the lemma to 下りる."
+              "grammaticalForm": "動詞/一般/*/*; 上一段-ラ行; 終止形-一般",
+              "sense": "Exact 降りる/おりる, JMdict 1589500, senses 2: to alight (e.g. from bus), to get off, to disembark, to dismount. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "61": {
+        "meaning": "abbiegen, sich biegen",
+        "notes": "Beim Abbiegen bezeichnet に die Richtung: 右に曲がる, 左に曲がる. Die durchquerte Ecke kann mit を stehen, obwohl 曲がる intransitiv ist. Das Verb bedeutet außerdem „sich biegen, gekrümmt sein“; für das aktive Biegen eines Gegenstands verwendet man 曲げる. Die te-Form lautet 曲がって.",
+        "examples": [
+          {
+            "japanese": "右に曲がってください。",
+            "romaji": "Migi ni magatte kudasai.",
+            "german": "Bitte biegen Sie rechts ab."
+          },
+          {
+            "japanese": "次の角を左に曲がります。",
+            "romaji": "Tsugi no kado o hidari ni magarimasu.",
+            "german": "An der nächsten Ecke biege ich links ab."
+          },
+          {
+            "japanese": "この道は川の近くで曲がっています。",
+            "romaji": "Kono michi wa kawa no chikaku de magatte imasu.",
+            "german": "Dieser Weg macht in der Nähe des Flusses eine Kurve."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62973,17 +63431,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "曲がる / マガル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 曲がる; aType 0.",
+            "finding": "Exact modern terminal form 曲がる/マガル under lemma 曲がる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "曲がる",
               "reading": "まがる",
-              "grammaticalForm": "動詞/一般/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "Spelling, reading, magaru, German abbiegen, conjugation, and both direction examples are accurate."
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 曲がる/まがる, JMdict 1239730, senses 1, 2: to bend, to curve, to warp, to wind, to twist; to turn. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "62": {
+        "notes": "Bei 渡る steht der überquerte Weg, Fluss oder die Brücke mit を: 橋を渡る, 川を渡る. Dieses を markiert den durchquerten Raum; 渡る bleibt intransitiv. Für das Verkehrsmittel ist で üblich, etwa 船で. Das Godan-Verb bildet 渡って.",
+        "examples": [
+          {
+            "japanese": "橋を渡ります。",
+            "romaji": "Hashi o watarimasu.",
+            "german": "Ich überquere die Brücke."
+          },
+          {
+            "japanese": "道を渡ってください。",
+            "romaji": "Michi o watatte kudasai.",
+            "german": "Bitte überqueren Sie die Straße."
+          },
+          {
+            "japanese": "船で川を渡りました。",
+            "romaji": "Fune de kawa o watarimashita.",
+            "german": "Ich habe den Fluss mit einem Boot überquert."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -62993,17 +63469,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "渡る / ワタル; 動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般; lemma 渡る; aType 0.",
+            "finding": "Exact modern terminal form 渡る/ワタル under lemma 渡る; 動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般; aType 0. The spelling and taught meaning were checked.",
             "match": {
               "word": "渡る",
               "reading": "わたる",
-              "grammaticalForm": "動詞/非自立可能/*/* / 五段-ラ行 / 終止形-一般",
-              "sense": "The crossing sense is intransitive in JMdict despite taking a route marked with を; retained godan metadata and both route examples are correct."
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 渡る/わたる, JMdict 1444680, senses 1: to cross over, to go across. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "63": {
+        "romaji": "ōkii",
+        "notes": "大きい ist ein i-Adjektiv: 大きい家, 家が大きい. Es beschreibt hier körperliche Größe; für Körperhöhe ist 背が高い üblich. 大きな steht ebenfalls vor Nomen, wird aber nicht als Satzprädikat mit です verwendet. Die Verneinung lautet 大きくない.",
+        "examples": [
+          {
+            "japanese": "この家は大きいです。",
+            "romaji": "Kono ie wa ōkii desu.",
+            "german": "Dieses Haus ist groß."
+          },
+          {
+            "japanese": "この犬は大きいです。",
+            "romaji": "Kono inu wa ōkii desu.",
+            "german": "Dieser Hund ist groß."
+          },
+          {
+            "japanese": "このかばんは大きいので、たくさん入ります。",
+            "romaji": "Kono kaban wa ōkii node, takusan hairimasu.",
+            "german": "Weil diese Tasche groß ist, passt viel hinein."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63013,17 +63508,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "大きい / オオキイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 大きい; aType 3.",
+            "finding": "Exact modern terminal form 大きい/オオキイ under lemma 大きい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 3. The spelling and taught meaning were checked.",
             "match": {
               "word": "大きい",
               "reading": "おおきい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1588880 supports the physical-size sense. The house and dog examples are accurate and give different referent contexts."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 大きい/おおきい, JMdict 1588880, senses 1: big, large, great. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "64": {
+        "romaji": "chīsai",
+        "notes": "小さい ist ein i-Adjektiv und beschreibt geringe Größe: 小さい猫. Bei Kindern kann es auch „noch jung, klein“ bedeuten. 小さな ist eine alternative Form unmittelbar vor einem Nomen; als Satzprädikat verwendet man 小さいです. Die Verneinung lautet 小さくない.",
+        "examples": [
+          {
+            "japanese": "小さい猫がいます。",
+            "romaji": "Chīsai neko ga imasu.",
+            "german": "Es gibt eine kleine Katze."
+          },
+          {
+            "japanese": "小さい子供が泣いています。",
+            "romaji": "Chīsai kodomo ga naite imasu.",
+            "german": "Ein kleines Kind weint."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63033,17 +63542,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "小さい / チイサイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 小さい; aType 3.",
+            "finding": "Exact modern terminal form 小さい/チイサイ under lemma 小さい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 3. The spelling and taught meaning were checked.",
             "match": {
               "word": "小さい",
               "reading": "ちいさい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, chiisai, German klein, adjective classification, and cat/child examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 小さい/ちいさい, JMdict 1347750, senses 1, 5: small, little, tiny; young, juvenile. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "65": {
+        "notes": "新しい kann „neu hergestellt oder gekauft“ sowie „neu hinzugekommen“ bedeuten: 新しい車, 新しい先生. Es ist ein i-Adjektiv und steht direkt vor dem Nomen. Die Vergangenheitsform lautet 新しかった; das Gegenteil bei Dingen ist 古い.",
+        "examples": [
+          {
+            "japanese": "新しい車を買いました。",
+            "romaji": "Atarashii kuruma o kaimashita.",
+            "german": "Ich habe ein neues Auto gekauft."
+          },
+          {
+            "japanese": "新しい靴を買いたいです。",
+            "romaji": "Atarashii kutsu o kaitai desu.",
+            "german": "Ich möchte neue Schuhe kaufen."
+          },
+          {
+            "japanese": "新しい先生は、今日から来ます。",
+            "romaji": "Atarashii sensei wa, kyō kara kimasu.",
+            "german": "Die neue Lehrkraft kommt ab heute."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63053,17 +63580,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               4
             ],
-            "finding": "新しい / アタラシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 新しい; aType 4.",
+            "finding": "Exact modern terminal form 新しい/アタラシイ under lemma 新しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 4. The spelling and taught meaning were checked.",
             "match": {
               "word": "新しい",
               "reading": "あたらしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Meaning, i-adjective type, romanization, purchase examples, and translations are correct."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 新しい/あたらしい, JMdict 1361490, senses 1: new, novel, fresh, recent, latest, up-to-date, modern. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "66": {
+        "notes": "古い beschreibt alte Dinge oder etwas, das lange zurückliegt: 古い建物, 古い写真. Für das hohe Alter einer Person verwendet man normalerweise 年を取っている statt 古い. Das i-Adjektiv bildet 古くない und 古かった; der Gegensatz für neue Dinge ist 新しい.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63073,17 +63601,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "古い / フルイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 古い; aType 2.",
+            "finding": "Exact modern terminal form 古い/フルイ under lemma 古い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "古い",
               "reading": "ふるい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1265070 supports old/aged objects. Both examples and translations are accurate; Japanese number-neutral 写真 permits the retained plural German rendering in context."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 古い/ふるい, JMdict 1265070, senses 1, 3: old, aged, ancient, antiquated, antique, timeworn; of the distant past, long-ago. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "67": {
+        "notes": "高い bezeichnet sowohl Höhe als auch einen hohen Preis. 山が高い heißt „der Berg ist hoch“, 服が高い „die Kleidung ist teuer“; 背が高い bedeutet „groß gewachsen“. Die Gegensätze sind je nach Bedeutung 低い „niedrig“ und 安い „günstig“.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63093,17 +63622,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "高い / タカイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 高い; aType 2.",
+            "finding": "Exact modern terminal form 高い/タカイ under lemma 高い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "高い",
               "reading": "たかい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, takai, both German meanings, adjective classification, and the height/price examples are accurate and demonstrate distinct uses."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 高い/たかい, JMdict 1283190, senses 1, 2: high, tall; expensive, high-priced. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "68": {
+        "notes": "安い bedeutet hier „preiswert, günstig“ und bezeichnet den Preis, nicht automatisch schlechte Qualität. 安い店 ist ein Laden mit günstigen Preisen. Das i-Adjektiv bildet 安かった und 安くない. Für „leicht zu tun“ verwendet man dagegen den Verbzusatz ～やすい.",
+        "examples": [
+          {
+            "japanese": "このレストランは安いです。",
+            "romaji": "Kono resutoran wa yasui desu.",
+            "german": "Dieses Restaurant ist günstig."
+          },
+          {
+            "japanese": "安い店を知っていますか。",
+            "romaji": "Yasui mise o shitte imasu ka.",
+            "german": "Kennen Sie einen günstigen Laden?"
+          },
+          {
+            "japanese": "このかばんは千円で、安かったです。",
+            "romaji": "Kono kaban wa sen'en de, yasukatta desu.",
+            "german": "Diese Tasche kostete tausend Yen und war günstig."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63113,17 +63660,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "安い / ヤスイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 安い; aType 2.",
+            "finding": "Exact modern terminal form 安い/ヤスイ under lemma 安い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "安い",
               "reading": "やすい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "The retained material consistently teaches the inexpensive sense; the restaurant/shop examples and translations are natural."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 安い/やすい, JMdict 1153670, senses 1: cheap, inexpensive. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "69": {
+        "notes": "長い beschreibt räumliche Länge und zeitliche Dauer: 長い道, 長い映画. Es ist ein i-Adjektiv und bildet 長くない sowie 長かった. Für die Höhe eines Berges oder Menschen verwendet man 高い; der Gegensatz zu 長い ist 短い.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63133,17 +63681,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "長い / ナガイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 長い; aType 2.",
+            "finding": "Exact modern terminal form 長い/ナガイ under lemma 長い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "長い",
               "reading": "ながい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1429750 supports both spatial length and temporal duration, demonstrated by the road and film examples."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 長い/ながい, JMdict 1429750, senses 1, 2: long (distance, length); long (time), protracted, prolonged. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "70": {
+        "notes": "短い bedeutet „kurz“ in Bezug auf Länge oder Dauer: 短い髪, 短い休み. Es bezeichnet nicht allgemein kleine Größe; dafür steht 小さい. Das i-Adjektiv bildet 短くない und 短かった; sein Gegensatz ist 長い.",
+        "examples": [
+          {
+            "japanese": "髪が短いです。",
+            "romaji": "Kami ga mijikai desu.",
+            "german": "Die Haare sind kurz."
+          },
+          {
+            "japanese": "短い鉛筆を使っています。",
+            "romaji": "Mijikai enpitsu o tsukatte imasu.",
+            "german": "Ich benutze einen kurzen Bleistift."
+          },
+          {
+            "japanese": "昼休みは短いです。",
+            "romaji": "Hiruyasumi wa mijikai desu.",
+            "german": "Die Mittagspause ist kurz."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63153,17 +63719,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "短い / ミジカイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 短い; aType 3.",
+            "finding": "Exact modern terminal form 短い/ミジカイ under lemma 短い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 3. The spelling and taught meaning were checked.",
             "match": {
               "word": "短い",
               "reading": "みじかい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, mijikai, German kurz, adjective classification, and hair/pencil examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 短い/みじかい, JMdict 1418620, senses 1, 2: short; brief. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "71": {
+        "notes": "良い（よい）ist die etwas schriftsprachlichere Form von いい. Beim Beugen verwendet man auch für いい den Stamm よ: よくない „nicht gut“, よかった „war gut“. Hier bewertet das Wort Wetter oder ein Buch positiv; es ist ein i-Adjektiv.",
         "aliases": [
           "好い"
         ],
@@ -63176,17 +63743,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "良い / ヨイ; 形容詞/非自立可能/*/*; 形容詞; 終止形-一般; lemma 良い; aType 1.",
+            "finding": "Exact modern terminal form 良い/ヨイ under lemma 良い; 形容詞/非自立可能/*/*; 形容詞; 終止形-一般; aType 1. The spelling and taught meaning were checked.",
             "match": {
               "word": "良い",
               "reading": "よい",
-              "grammaticalForm": "形容詞/非自立可能/*/* / 形容詞 / 終止形-一般",
-              "sense": "The general good/nice sense is taught consistently; i-adjective type, examples, translations, and pitch are correct."
+              "grammaticalForm": "形容詞/非自立可能/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 良い/よい, JMdict 1605820, senses 1: good, excellent, fine, nice, pleasant, agreeable. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "72": {
+        "notes": "悪い ist der allgemeine Gegensatz zu 良い: 天気が悪い „schlechtes Wetter“, 成績が悪い „schlechte Leistungen“. Bei Dingen und Ergebnissen bezeichnet es meist einen ungünstigen Zustand oder geringe Qualität. Das i-Adjektiv bildet 悪くない und 悪かった.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63196,17 +63764,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "悪い / ワルイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 悪い; aType 2.",
+            "finding": "Exact modern terminal form 悪い/ワルイ under lemma 悪い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. The spelling and taught meaning were checked.",
             "match": {
               "word": "悪い",
               "reading": "わるい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1151260 supports the broad bad/poor sense and both weather and performance examples. It is distinct from the にくい candidate reviewed below."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 悪い/わるい, JMdict 1151260, senses 1, 2: bad, poor, undesirable; poor (quality), inferior, insufficient. German teaching content and examples select these senses, retaining the existing lexical identity."
             }
           }
         ]
       },
       "73": {
+        "notes": "暑い beschreibt Hitze in der Umgebung, vor allem beim Wetter. Für einen heißen Gegenstand oder ein heißes Getränk schreibt man dagegen 熱い; beide Wörter werden あつい gelesen. Die Verneinung lautet 暑くない, die Vergangenheitsform 暑かった.",
+        "examples": [
+          {
+            "japanese": "今日は暑いです。",
+            "romaji": "Kyō wa atsui desu.",
+            "german": "Heute ist es heiß."
+          },
+          {
+            "japanese": "暑いので、窓を開けます。",
+            "romaji": "Atsui node, mado o akemasu.",
+            "german": "Da es heiß ist, öffne ich das Fenster."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63216,17 +63797,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "暑い / アツイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 暑い; aType 2.",
+            "finding": "UniDic sys.dic@44320543: orth=暑い, kana=アツイ, lemma=暑い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "暑い",
               "reading": "あつい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, atsui, weather-qualified German meaning, adjective classification, and day/season examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "暑い als heiß (Wetter)"
             }
           }
         ]
       },
       "74": {
+        "notes": "寒い beschreibt kaltes Wetter, eine kalte Umgebung oder das Gefühl zu frieren. 冷たい verwendet man dagegen für etwas Kaltes bei Berührung, etwa Wasser. Als い-Adjektiv bildet 寒い die Verneinung 寒くない und die Vergangenheit 寒かった.",
+        "examples": [
+          {
+            "japanese": "冬は寒いです。",
+            "romaji": "Fuyu wa samui desu.",
+            "german": "Im Winter ist es kalt."
+          },
+          {
+            "japanese": "寒いので、コートを着ます。",
+            "romaji": "Samui node, kōto o kimasu.",
+            "german": "Da es kalt ist, ziehe ich einen Mantel an."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63236,17 +63830,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "寒い / サムイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 寒い; aType 2.",
+            "finding": "UniDic sys.dic@132149021: orth=寒い, kana=サムイ, lemma=寒い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "寒い",
               "reading": "さむい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "The wording correctly restricts the beginner sense to cold weather/ambient conditions; both examples and translations are natural."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "寒い als kalt (Wetter)"
             }
           }
         ]
       },
       "75": {
+        "notes": "暖かい verwendet man besonders für angenehm warme Luft und für Kleidung, die vor Kälte schützt. 温かい steht häufig für die fühlbare Wärme von Essen oder Getränken; beide liest man あたたかい. Vor einem Nomen bleibt das い erhalten: 暖かい服.",
+        "examples": [
+          {
+            "japanese": "今日は暖かいです。",
+            "romaji": "Kyō wa atatakai desu.",
+            "german": "Heute ist es warm."
+          },
+          {
+            "japanese": "暖かい服を持ってきてください。",
+            "romaji": "Atatakai fuku o motte kite kudasai.",
+            "german": "Bitte bringen Sie warme Kleidung mit."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63256,17 +63863,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               4
             ],
-            "finding": "暖かい / アタタカイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 温かい; aType 4.",
+            "finding": "UniDic sys.dic@43872171: orth=暖かい, kana=アタタカイ, lemma=温かい, 形容詞, 終止形-一般, aType=4. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "暖かい",
               "reading": "あたたかい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1586420 supports warm/mild weather. UniDic has exact orthography 暖かい while normalizing the lemma to 温かい; the intended ambient-weather sense matches."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "暖かい als warm"
             }
           }
         ]
       },
       "76": {
+        "notes": "涼しい meint meist angenehme, erfrischende Kühle bei Luft oder Wetter. Es ist damit positiver als 寒い („kalt/frierend“). Die Form 涼しく kann adverbial gebraucht werden; vor einem Nomen sagt man 涼しい部屋.",
+        "examples": [
+          {
+            "japanese": "秋は涼しいです。",
+            "romaji": "Aki wa suzushii desu.",
+            "german": "Im Herbst ist es kühl."
+          },
+          {
+            "japanese": "涼しい部屋で勉強したいです。",
+            "romaji": "Suzushii heya de benkyō shitai desu.",
+            "german": "Ich möchte in einem kühlen Zimmer lernen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63276,17 +63896,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "涼しい / スズシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 涼しい; aType 3.",
+            "finding": "UniDic sys.dic@148028016: orth=涼しい, kana=スズシイ, lemma=涼しい, 形容詞, 終止形-一般, aType=3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "涼しい",
               "reading": "すずしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, suzushii, German kühl, adjective classification, and both weather examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "涼しい als kühl"
             }
           }
         ]
       },
       "77": {
+        "notes": "おいしい bewertet den Geschmack von Speisen und Getränken positiv. Auch die Schreibung 美味しい ist üblich. Für die Vergangenheit ersetzt man い durch かった: おいしかった. Übertragene Verwendungen für attraktive Angebote sind hier nicht gemeint.",
+        "examples": [
+          {
+            "japanese": "このケーキはおいしいです。",
+            "romaji": "Kono kēki wa oishii desu.",
+            "german": "Dieser Kuchen ist lecker."
+          },
+          {
+            "japanese": "おいしかったので、もう一つ食べました。",
+            "romaji": "Oishikatta node, mō hitotsu tabemashita.",
+            "german": "Weil es so lecker war, habe ich noch eins gegessen."
+          }
+        ],
         "pitchVariants": [
           3
         ],
@@ -63300,17 +63933,30 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               3
             ],
-            "finding": "おいしい / オイシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 美味しい; aType 0,3.",
+            "finding": "UniDic sys.dic@72700688: orth=おいしい, kana=オイシイ, lemma=美味しい, 形容詞, 終止形-一般, aType=0,3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "おいしい",
               "reading": "おいしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Meaning and food examples are correct. The exact UniDic row preserves two attested accent patterns, so the omitted alternative 3 must be retained."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "おいしい als lecker"
             }
           }
         ]
       },
       "78": {
+        "notes": "まずい heißt beim Essen „schlecht schmeckend“ und wirkt als direkte Bewertung deutlich. In höflichen Gesprächen ist あまりおいしくない („nicht besonders lecker“) oft zurückhaltender. Die Verbindungsform lautet まずくて. Die Karte behandelt den Geschmack, nicht die Bedeutung „problematisch“.",
+        "examples": [
+          {
+            "japanese": "この料理はまずいです。",
+            "romaji": "Kono ryōri wa mazui desu.",
+            "german": "Dieses Gericht schmeckt schlecht."
+          },
+          {
+            "japanese": "このコーヒーはまずくて、飲めません。",
+            "romaji": "Kono kōhī wa mazukute, nomemasen.",
+            "german": "Dieser Kaffee schmeckt so schlecht, dass ich ihn nicht trinken kann."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63320,17 +63966,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "まずい / マズイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 不味い; aType 2.",
+            "finding": "UniDic sys.dic@250054156: orth=まずい, kana=マズイ, lemma=不味い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "まずい",
               "reading": "まずい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1495000 supports the bad-tasting sense and kana spelling. UniDic's exact surface form まずい is appropriate despite its lexical lemma 不味い."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "まずい als schlecht schmeckend"
             }
           }
         ]
       },
       "79": {
+        "notes": "楽しい beschreibt etwas, das Freude macht, etwa eine Tätigkeit oder gemeinsame Zeit. Es ist ein い-Adjektiv: 楽しかった („hat Spaß gemacht“) und 楽しく („auf angenehme Weise“). Nicht mit 楽な („mühelos/bequem“) gleichsetzen.",
+        "examples": [
+          {
+            "japanese": "旅行は楽しいです。",
+            "romaji": "Ryokō wa tanoshii desu.",
+            "german": "Reisen macht Spaß."
+          },
+          {
+            "japanese": "昨日のパーティーはとても楽しかったです。",
+            "romaji": "Kinō no pātī wa totemo tanoshikatta desu.",
+            "german": "Die Party gestern hat viel Spaß gemacht."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63340,17 +63999,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "楽しい / タノシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 楽しい; aType 3.",
+            "finding": "UniDic sys.dic@164787231: orth=楽しい, kana=タノシイ, lemma=楽しい, 形容詞, 終止形-一般, aType=3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "楽しい",
               "reading": "たのしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, tanoshii, German meaning, adjective classification, and travel/social examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "楽しい als vergnüglich, spaßig"
             }
           }
         ]
       },
       "80": {
+        "notes": "面白い kann „interessant“ oder „lustig“ heißen. Bei einem Film oder Buch entscheidet der Zusammenhang, ob Interesse oder Humor betont wird. Die Verbindungsform lautet 面白くて; das い-Adjektiv kann auch direkt vor einem Nomen stehen: 面白い話.",
+        "examples": [
+          {
+            "japanese": "この映画は面白いです。",
+            "romaji": "Kono eiga wa omoshiroi desu.",
+            "german": "Dieser Film ist interessant."
+          },
+          {
+            "japanese": "彼の話は面白くて、みんな笑いました。",
+            "romaji": "Kare no hanashi wa omoshirokute, minna waraimashita.",
+            "german": "Seine Geschichte war lustig, und alle haben gelacht."
+          }
+        ],
         "aliases": [
           "おもしろい"
         ],
@@ -63363,17 +64035,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               4
             ],
-            "finding": "面白い / オモシロイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 面白い; aType 4.",
+            "finding": "UniDic sys.dic@83476419: orth=面白い, kana=オモシロイ, lemma=面白い, 形容詞, 終止形-一般, aType=4. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "面白い",
               "reading": "おもしろい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "German meaning covers the interesting and amusing senses; the retained film/book examples naturally exercise the interesting sense."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "面白い als interessant, lustig"
             }
           }
         ]
       },
       "81": {
+        "notes": "難しい bezeichnet etwas, das schwer zu verstehen oder zu bewältigen ist. Für großes Gewicht verwendet man dagegen 重い. Die Form 難しくて verbindet die Schwierigkeit mit einer weiteren Aussage; die Verneinung lautet 難しくない.",
+        "examples": [
+          {
+            "japanese": "日本語は難しいです。",
+            "romaji": "Nihongo wa muzukashii desu.",
+            "german": "Japanisch ist schwierig."
+          },
+          {
+            "japanese": "この問題は難しくて、答えが分かりません。",
+            "romaji": "Kono mondai wa muzukashikute, kotae ga wakarimasen.",
+            "german": "Diese Aufgabe ist so schwierig, dass ich die Antwort nicht weiß."
+          }
+        ],
         "pitchVariants": [
           4
         ],
@@ -63387,18 +64072,18 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               4
             ],
-            "finding": "難しい / ムズカシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 難しい; aType 0,4.",
+            "finding": "UniDic sys.dic@259157339: orth=難しい, kana=ムズカシイ, lemma=難しい, 形容詞, 終止形-一般, aType=0,4. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "難しい",
               "reading": "むずかしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1460850 supports difficult/hard and both retained examples. UniDic attests two accents for the exact terminal adjective, but runtime currently preserves only 0."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "難しい als schwierig"
             }
           }
         ]
       },
       "82": {
-        "notes": "易しい bedeutet „einfach/leicht“ und wird oft やさしい geschrieben. Nicht mit 優しい („freundlich, sanft“) verwechseln.",
+        "notes": "易しい bedeutet „einfach/leicht“ und wird oft やさしい geschrieben. Nicht mit 優しい („freundlich, sanft“) verwechseln. Das い-Adjektiv kann eine Aufgabe bewerten oder vor einem Nomen stehen: 易しい言葉 („einfache Wörter“).",
         "examples": [
           {
             "japanese": "この問題は易しいです。",
@@ -63424,17 +64109,30 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               3
             ],
-            "finding": "Exact 易しい/ヤサシイ terminal form attests patterns 0 and 3.",
+            "finding": "UniDic sys.dic@268141028: orth=易しい, kana=ヤサシイ, lemma=易しい, 形容詞, 終止形-一般, aType=0,3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "易しい",
               "reading": "やさしい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "易しい means easy/plain/simple and is usually written in kana; it is distinct from 優しい."
+              "sense": "易しい als einfach, leicht"
             }
           }
         ]
       },
       "83": {
+        "notes": "優しい beschreibt Freundlichkeit, Sanftheit oder fürsorglichen Umgang. Für „einfach“ schreibt man das gleich ausgesprochene 易しい. Die Form 優しく beschreibt, wie jemand handelt: 優しく説明する („freundlich erklären“).",
+        "examples": [
+          {
+            "japanese": "彼女は優しい人です。",
+            "romaji": "Kanojo wa yasashii hito desu.",
+            "german": "Sie ist eine nette Person."
+          },
+          {
+            "japanese": "先生は優しく説明してくれました。",
+            "romaji": "Sensei wa yasashiku setsumei shite kuremashita.",
+            "german": "Die Lehrkraft hat es mir freundlich erklärt."
+          }
+        ],
         "pitchVariants": [
           3
         ],
@@ -63448,17 +64146,30 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               3
             ],
-            "finding": "優しい / ヤサシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 優しい; aType 0,3.",
+            "finding": "UniDic sys.dic@268122596: orth=優しい, kana=ヤサシイ, lemma=優しい, 形容詞, 終止形-一般, aType=0,3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "優しい",
               "reading": "やさしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Meaning and person-description examples are correct. UniDic attests both 0 and 3, requiring the alternative to remain visible."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "優しい als freundlich, nett"
             }
           }
         ]
       },
       "84": {
+        "notes": "忙しい heißt, dass viele Aufgaben oder Termine die Zeit beanspruchen. Es beschreibt Beschäftigung, nicht bloß Bewegung. Die Verbindungsform ist 忙しくて; bei der Verneinung sagt man 忙しくない. Ein Zeitraum kann mit は hervorgehoben werden.",
+        "examples": [
+          {
+            "japanese": "今日はとても忙しいです。",
+            "romaji": "Kyō wa totemo isogashii desu.",
+            "german": "Heute bin ich sehr beschäftigt."
+          },
+          {
+            "japanese": "忙しくて、昼ご飯を食べる時間がありません。",
+            "romaji": "Isogashikute, hirugohan o taberu jikan ga arimasen.",
+            "german": "Ich bin so beschäftigt, dass ich keine Zeit zum Mittagessen habe."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63468,17 +64179,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               4
             ],
-            "finding": "忙しい / イソガシイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 忙しい; aType 4.",
+            "finding": "UniDic sys.dic@55129988: orth=忙しい, kana=イソガシイ, lemma=忙しい, 形容詞, 終止形-一般, aType=4. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "忙しい",
               "reading": "いそがしい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1519290 supports busy/occupied. The personal and teacher-schedule examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "忙しい als beschäftigt"
             }
           }
         ]
       },
       "85": {
+        "notes": "近い kann räumliche oder zeitliche Nähe ausdrücken. 駅が近い heißt „der Bahnhof ist nah“, 夏休みが近い „die Sommerferien stehen bevor“. Als Ortsnomen verwendet man 近く, zum Beispiel 駅の近く („in der Nähe des Bahnhofs“).",
+        "examples": [
+          {
+            "japanese": "駅は近いです。",
+            "romaji": "Eki wa chikai desu.",
+            "german": "Der Bahnhof ist nah."
+          },
+          {
+            "japanese": "夏休みが近いです。",
+            "romaji": "Natsuyasumi ga chikai desu.",
+            "german": "Die Sommerferien sind nicht mehr weit."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63488,27 +64212,29 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "近い / チカイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 近い; aType 2.",
+            "finding": "UniDic sys.dic@168464933: orth=近い, kana=チカイ, lemma=近い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "近い",
               "reading": "ちかい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, chikai, German nah, adjective classification, and both spatial examples are accurate."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "近い als nah"
             }
           }
         ]
       },
       "86": {
+        "romaji": "tōi",
+        "notes": "遠い bezeichnet hier eine große räumliche Entfernung. Einen Bezugspunkt kann man mit から nennen: 家から遠い („weit von zu Hause“). Für einen großen oder geräumigen Raum steht dagegen 広い. Die Lesung とおい enthält ein langes o und wird tōi romanisiert.",
         "examples": [
           {
             "japanese": "空港は遠いです。",
-            "romaji": "Kuukou wa tooi desu.",
+            "romaji": "Kūkō wa tōi desu.",
             "german": "Der Flughafen ist weit entfernt."
           },
           {
-            "japanese": "病院は家から遠いです。",
-            "romaji": "Byouin wa ie kara tooi desu.",
-            "german": "Das Krankenhaus ist weit von zu Hause entfernt."
+            "japanese": "学校が遠いので、バスで行きます。",
+            "romaji": "Gakkō ga tōi node, basu de ikimasu.",
+            "german": "Weil die Schule weit weg ist, fahre ich mit dem Bus."
           }
         ],
         "pitch": 0,
@@ -63522,17 +64248,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Exact 遠い/トオイ terminal form attests pitch 0; runtime pitch 2 is unsupported by this exact match.",
+            "finding": "UniDic sys.dic@183688124: orth=遠い, kana=トオイ, lemma=遠い, 形容詞, 終止形-一般, aType=0. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "遠い",
               "reading": "とおい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "遠い supports far/distant in physical distance contexts."
+              "sense": "遠い als weit, fern"
             }
           }
         ]
       },
       "87": {
+        "notes": "広い bezeichnet große Fläche oder viel verfügbaren Raum: ein geräumiges Zimmer oder einen weitläufigen Park. Es bedeutet nicht „weit entfernt“; dafür steht 遠い. Vor einem Nomen bleibt das い erhalten: 広い公園.",
+        "examples": [
+          {
+            "japanese": "この部屋は広いです。",
+            "romaji": "Kono heya wa hiroi desu.",
+            "german": "Dieses Zimmer ist geräumig."
+          },
+          {
+            "japanese": "広い公園で子供たちが遊んでいます。",
+            "romaji": "Hiroi kōen de kodomotachi ga asonde imasu.",
+            "german": "Kinder spielen in einem großen Park."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63542,17 +64281,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "広い / ヒロイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 広い; aType 2.",
+            "finding": "UniDic sys.dic@228586870: orth=広い, kana=ヒロイ, lemma=広い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "広い",
               "reading": "ひろい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1278410 supports spacious/wide. Room and park examples correctly distinguish indoor spaciousness from outdoor extent."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "広い als weit, geräumig"
             }
           }
         ]
       },
       "88": {
+        "notes": "狭い beschreibt wenig Breite oder wenig verfügbaren Platz. Bei einem Weg bedeutet es „schmal/eng“, bei einem Zimmer „beengt/klein“. Es ist das Gegenstück zu 広い. Die Verneinung lautet 狭くない, die Vergangenheit 狭かった.",
         "examples": [
           {
             "japanese": "この道は狭いです。",
@@ -63574,12 +64314,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Exact 狭い/セマイ terminal form supports existing pitch 2.",
+            "finding": "UniDic sys.dic@153233532: orth=狭い, kana=セマイ, lemma=狭い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "狭い",
               "reading": "せまい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "狭い supports narrow, confined, small, and cramped uses."
+              "sense": "狭い als eng, schmal"
             }
           }
         ]
@@ -63631,6 +64371,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "90": {
+        "notes": "暗い beschreibt hier geringe Helligkeit in einem Raum oder draußen. Die Verneinung 暗くない heißt „nicht dunkel“; das Gegenwort ist 明るい. Eine Farbe kann ebenfalls dunkel sein, doch die Karte konzentriert sich auf Lichtverhältnisse.",
+        "examples": [
+          {
+            "japanese": "夜は暗いです。",
+            "romaji": "Yoru wa kurai desu.",
+            "german": "Nachts ist es dunkel."
+          },
+          {
+            "japanese": "部屋が暗いので、電気をつけます。",
+            "romaji": "Heya ga kurai node, denki o tsukemasu.",
+            "german": "Da das Zimmer dunkel ist, mache ich das Licht an."
+          }
+        ],
         "pitchVariants": [
           2
         ],
@@ -63644,17 +64397,30 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               2
             ],
-            "finding": "暗い / クライ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 暗い; aType 0,2.",
+            "finding": "UniDic sys.dic@113876228: orth=暗い, kana=クライ, lemma=暗い, 形容詞, 終止形-一般, aType=0,2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "暗い",
               "reading": "くらい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "The entry correctly teaches physical darkness and remains distinct from particle くらい. UniDic attests both 0 and 2, requiring the omitted alternative."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "暗い als dunkel"
             }
           }
         ]
       },
       "91": {
+        "notes": "重い bedeutet hier „schwer“ in Bezug auf Gewicht. Bei einer schwierigen Aufgabe verwendet man 難しい, nicht automatisch 重い. Die Form 重くて kann das Gewicht mit einer Folge verbinden; 軽い ist das Gegenwort.",
+        "examples": [
+          {
+            "japanese": "この荷物は重いです。",
+            "romaji": "Kono nimotsu wa omoi desu.",
+            "german": "Dieses Gepäck ist schwer."
+          },
+          {
+            "japanese": "この箱は重くて、一人では持てません。",
+            "romaji": "Kono hako wa omokute, hitori de wa motemasen.",
+            "german": "Diese Kiste ist so schwer, dass ich sie allein nicht tragen kann."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63664,17 +64430,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "重い / オモイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 重い; aType 0.",
+            "finding": "UniDic sys.dic@81715565: orth=重い, kana=オモイ, lemma=重い, 形容詞, 終止形-一般, aType=0. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "重い",
               "reading": "おもい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1335750 supports physical heaviness, which both examples demonstrate accurately."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "重い als schwer"
             }
           }
         ]
       },
       "92": {
+        "notes": "軽い bedeutet hier „leicht“ im Sinn von wenig Gewicht. Für einen niedrigen Schwierigkeitsgrad steht 易しい. Das Gegenwort zu 軽い ist 重い. Das Adjektiv steht ohne な vor einem Nomen: 軽いかばん.",
+        "examples": [
+          {
+            "japanese": "このかばんは軽いです。",
+            "romaji": "Kono kaban wa karui desu.",
+            "german": "Diese Tasche ist leicht."
+          },
+          {
+            "japanese": "旅行には軽いかばんを持っていきます。",
+            "romaji": "Ryokō ni wa karui kaban o motte ikimasu.",
+            "german": "Auf Reisen nehme ich eine leichte Tasche mit."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63684,17 +64463,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "軽い / カルイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 軽い; aType 0.",
+            "finding": "UniDic sys.dic@99067132: orth=軽い, kana=カルイ, lemma=軽い, 形容詞, 終止形-一般, aType=0. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "軽い",
               "reading": "かるい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Spelling, reading, karui, weight-qualified German meaning, classification, and bag/box examples are accurate. The second example is optional enrichment but not harmful."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "軽い als leicht (Gewicht)"
             }
           }
         ]
       },
       "93": {
+        "romaji": "ōi",
+        "notes": "多い kann eine große Anzahl oder eine große Menge beschreiben. Die übliche Satzform ist 人が多い („es sind viele Menschen da“). Vor einem Nomen verwendet man für „viele …“ meist 多くの oder たくさんの, nicht einfach 多い. おおい wird mit langem o als ōi geschrieben.",
+        "examples": [
+          {
+            "japanese": "人が多いです。",
+            "romaji": "Hito ga ōi desu.",
+            "german": "Es gibt viele Menschen."
+          },
+          {
+            "japanese": "宿題が多くて、まだ終わりません。",
+            "romaji": "Shukudai ga ōkute, mada owarimasen.",
+            "german": "Ich habe so viele Hausaufgaben, dass ich noch nicht fertig bin."
+          }
+        ],
         "pitchVariants": [
           2
         ],
@@ -63708,17 +64501,30 @@ window.VOCAB_CORRECTION_RULES = {
               1,
               2
             ],
-            "finding": "多い / オオイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 多い; aType 1,2.",
+            "finding": "UniDic sys.dic@73679437: orth=多い, kana=オオイ, lemma=多い, 形容詞, 終止形-一般, aType=1,2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "多い",
               "reading": "おおい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "Meaning and quantity examples are correct and distinct from the interjection おおい. UniDic attests both 1 and 2, requiring the omitted alternative."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "多い als viel, zahlreich"
             }
           }
         ]
       },
       "94": {
+        "notes": "少ない bewertet eine geringe Anzahl oder Menge, etwa 人が少ない und お金が少ない. Als Adjektiv beschreibt es die Menge einer Sache; 少し ist dagegen ein Mengenadverb, zum Beispiel 少し食べる („ein wenig essen“). Die Verbindungsform lautet 少なくて.",
+        "examples": [
+          {
+            "japanese": "お金が少ないです。",
+            "romaji": "Okane ga sukunai desu.",
+            "german": "Es ist wenig Geld da."
+          },
+          {
+            "japanese": "今日は生徒が少ないので、教室が静かです。",
+            "romaji": "Kyō wa seito ga sukunai node, kyōshitsu ga shizuka desu.",
+            "german": "Heute sind wenige Schüler da, deshalb ist das Klassenzimmer ruhig."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63728,18 +64534,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "少ない / スクナイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 少ない; aType 3.",
+            "finding": "UniDic sys.dic@147067710: orth=少ない, kana=スクナイ, lemma=少ない, 形容詞, 終止形-一般, aType=3. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "少ない",
               "reading": "すくない",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1348910 supports few/little. Money and people-count examples are grammatical and accurately translated."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "少ない als wenig"
             }
           }
         ]
       },
       "95": {
-        "notes": "早い bezeichnet einen frühen Zeitpunkt oder eine schnelle Erledigung beziehungsweise Reaktion. 速い verwendet man vor allem für hohe Bewegungs- oder Ablaufgeschwindigkeit.",
+        "notes": "早い bezeichnet einen frühen Zeitpunkt oder eine schnelle Erledigung beziehungsweise Reaktion. 速い verwendet man vor allem für hohe Bewegungs- oder Ablaufgeschwindigkeit. Vor einem Verb wird 早い zu 早く: 早く起きる („früh aufstehen“).",
         "examples": [
           {
             "japanese": "朝早く起きます。",
@@ -63761,27 +64567,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Exact 早い/ハヤイ terminal form supports existing pitch 2.",
+            "finding": "UniDic sys.dic@217896971: orth=早い, kana=ハヤイ, lemma=早い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "早い",
               "reading": "はやい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "早い supports prompt/quick and early/soon; the early sense is restricted to 早い, while 速い is the usual physical-speed spelling."
+              "sense": "早い als früh, schnell"
             }
           }
         ]
       },
       "96": {
+        "notes": "遅い kann einen späten Zeitpunkt oder ein langsames Tempo beschreiben. もう遅いです heißt im passenden Kontext „es ist schon spät“. 歩くのが遅い meint dagegen „langsam gehen“. Für ein verspätetes Eintreffen verwendet man häufig 遅れる.",
         "examples": [
           {
             "japanese": "もう遅いです。",
-            "romaji": "Mou osoi desu.",
+            "romaji": "Mō osoi desu.",
             "german": "Es ist schon spät."
           },
           {
-            "japanese": "返事が遅いです。",
-            "romaji": "Henji ga osoi desu.",
-            "german": "Die Antwort kommt spät."
+            "japanese": "彼は歩くのが遅いです。",
+            "romaji": "Kare wa aruku no ga osoi desu.",
+            "german": "Er geht langsam."
           }
         ],
         "pitchVariants": [
@@ -63797,17 +64604,30 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               2
             ],
-            "finding": "遅い / オソイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 遅い; aType 0,2.",
+            "finding": "UniDic sys.dic@78566241: orth=遅い, kana=オソイ, lemma=遅い, 形容詞, 終止形-一般, aType=0,2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "遅い",
               "reading": "おそい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "The headword covers slow and late, but 今日は遅いです is context-poor and its German translation is not a reliable rendering; 返事が遅い describes a slow/delayed response rather than an answer that is itself late. UniDic also attests both 0 and 2."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "遅い als spät, langsam"
             }
           }
         ]
       },
       "97": {
+        "notes": "強い kann körperliche Stärke oder hohe Intensität ausdrücken, etwa bei einer Person oder starkem Wind. Das Gegenwort ist 弱い. Die Form 強く wird adverbial verwendet; vor einem Nomen sagt man 強い人 ohne な.",
+        "examples": [
+          {
+            "japanese": "彼は強い人です。",
+            "romaji": "Kare wa tsuyoi hito desu.",
+            "german": "Er ist ein starker Mensch."
+          },
+          {
+            "japanese": "今日は風が強いです。",
+            "romaji": "Kyō wa kaze ga tsuyoi desu.",
+            "german": "Heute weht ein starker Wind."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63817,26 +64637,27 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "強い / ツヨイ; 形容詞/一般/*/*; 形容詞; 終止形-一般; lemma 強い; aType 2.",
+            "finding": "UniDic sys.dic@178448696: orth=強い, kana=ツヨイ, lemma=強い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "強い",
               "reading": "つよい",
-              "grammaticalForm": "形容詞/一般/*/* / 形容詞 / 終止形-一般",
-              "sense": "JMdict sequence 1236070 supports physical/personal strength and intensity. The person and wind examples accurately cover those uses."
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "強い als stark"
             }
           }
         ]
       },
       "98": {
+        "notes": "弱い bezeichnet geringe Kraft, geringe Belastbarkeit oder geringe Wettbewerbsstärke. 体が弱い beschreibt eine schwache körperliche Verfassung, チームが弱い die geringe Spielstärke einer Mannschaft. Das Gegenwort ist 強い; die Verbindungsform lautet 弱くて.",
         "examples": [
           {
-            "japanese": "風邪に弱いです。",
-            "romaji": "Kaze ni yowai desu.",
-            "german": "Ich bin anfällig für Erkältungen."
+            "japanese": "体が弱いので、よく休みます。",
+            "romaji": "Karada ga yowai node, yoku yasumimasu.",
+            "german": "Da ich körperlich schwach bin, ruhe ich mich oft aus."
           },
           {
             "japanese": "このチームは弱いです。",
-            "romaji": "Kono chiimu wa yowai desu.",
+            "romaji": "Kono chīmu wa yowai desu.",
             "german": "Diese Mannschaft ist schwach."
           }
         ],
@@ -63849,17 +64670,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Exact 弱い/ヨワイ terminal form supports existing pitch 2.",
+            "finding": "UniDic sys.dic@277194501: orth=弱い, kana=ヨワイ, lemma=弱い, 形容詞, 終止形-一般, aType=2. Die Auswahl bezieht sich auf das exakte Adjektiv und die angegebenen JMdict-Bedeutungen; ähnliche oder gleich gelesene Wörter sind nicht gleichgesetzt.",
             "match": {
               "word": "弱い",
               "reading": "よわい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "弱い supports weak/frail and susceptibility uses; the replacement avoids the unnatural tea-flavor collocation."
+              "sense": "弱い als schwach"
             }
           }
         ]
       },
       "99": {
+        "notes": "白い ist das i-Adjektiv „weiß“ und steht direkt vor einem Nomen: 白い花. Der Farbname als Nomen lautet 白（しろ）. Für ein Kleidungsstück kann man daher 白いシャツ oder 白のシャツ sagen; die Verneinung des Adjektivs lautet 白くない.",
+        "examples": [
+          {
+            "japanese": "白い花がきれいです。",
+            "romaji": "Shiroi hana ga kirei desu.",
+            "german": "Die weißen Blumen sind schön."
+          },
+          {
+            "japanese": "雪は白いです。",
+            "romaji": "Yuki wa shiroi desu.",
+            "german": "Schnee ist weiß."
+          },
+          {
+            "japanese": "学校へ行くとき、白いシャツを着ます。",
+            "romaji": "Gakkō e iku toki, shiroi shatsu o kimasu.",
+            "german": "Wenn ich zur Schule gehe, trage ich ein weißes Hemd."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63869,17 +64708,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "白い / シロイ; 形容詞/一般/*/*; lemma 白い; cType 形容詞; cForm 終止形-一般; aType 2.",
+            "finding": "Exact 白い/シロイ; lemma 白い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "白い",
               "reading": "しろい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Spelling, reading, i-adjective type, German weiß, and shiroi match JMdict 1474910 sense 1. The flower and snow sentences are natural; their German translations preserve attributive and predicative color uses. N5 and Farben remain supported teaching classifications."
+              "sense": "Exact 白い/しろい, JMdict 1474910, senses 1: white. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "100": {
+        "notes": "黒い ist ein i-Adjektiv: 黒い猫 „schwarze Katze“. Der Farbname als Nomen lautet 黒（くろ）, etwa 黒の服. Hier wird die Farbe beschrieben; 黒い kann in anderen Zusammenhängen auch übertragen gebraucht werden. Die Verneinung lautet 黒くない.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63889,17 +64729,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "黒い / クロイ; 形容詞/一般/*/*; lemma 黒い; cType 形容詞; cForm 終止形-一般; aType 2.",
+            "finding": "Exact 黒い/クロイ; lemma 黒い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "黒い",
               "reading": "くろい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Spelling, reading, i-adjective type, German schwarz, and kuroi match JMdict 1287420 sense 1. A black cat and black clothing are distinct natural contexts with accurate German and romanization. No register, grammar, or level conflict found."
+              "sense": "Exact 黒い/くろい, JMdict 1287420, senses 1: black. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "101": {
+        "notes": "赤い heißt „rot“ und ist ein i-Adjektiv: 赤いりんご. 赤（あか）ist dagegen das Nomen für die Farbe. Bei Ampeln wird Rot ebenfalls mit 赤 beschrieben; „rot werden“ heißt 赤くなる. Die Verneinung lautet 赤くない.",
+        "examples": [
+          {
+            "japanese": "赤い車が好きです。",
+            "romaji": "Akai kuruma ga suki desu.",
+            "german": "Ich mag rote Autos."
+          },
+          {
+            "japanese": "赤いりんごをください。",
+            "romaji": "Akai ringo o kudasai.",
+            "german": "Einen roten Apfel, bitte."
+          },
+          {
+            "japanese": "信号が赤いので、止まってください。",
+            "romaji": "Shingō ga akai node, tomatte kudasai.",
+            "german": "Bitte bleiben Sie stehen, weil die Ampel rot ist."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63909,17 +64767,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "赤い / アカイ; 形容詞/一般/*/*; lemma 赤い; cType 形容詞; cForm 終止形-一般; aType 0.",
+            "finding": "Exact 赤い/アカイ; lemma 赤い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "赤い",
               "reading": "あかい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Akai, rot, and i-adjective classification match JMdict 1383240 sense 1. Preference for red cars and requesting a red apple are natural and accurately translated. The entry stays limited to the ordinary color sense."
+              "sense": "Exact 赤い/あかい, JMdict 1383240, senses 1: red, crimson, scarlet, vermilion. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "102": {
+        "notes": "青い ist ein i-Adjektiv und bezeichnet meist „blau“, etwa 青い空. In festen Zusammenhängen kann 青 auch Grün bezeichnen, besonders bei Ampeln oder unreifem Obst. Für die allgemeine Farbe Grün ist 緑（みどり）üblich. Die Verneinung von 青い lautet 青くない.",
+        "examples": [
+          {
+            "japanese": "空は青いです。",
+            "romaji": "Sora wa aoi desu.",
+            "german": "Der Himmel ist blau."
+          },
+          {
+            "japanese": "青い海がきれいです。",
+            "romaji": "Aoi umi ga kirei desu.",
+            "german": "Das blaue Meer ist schön."
+          },
+          {
+            "japanese": "この青いシャツをください。",
+            "romaji": "Kono aoi shatsu o kudasai.",
+            "german": "Dieses blaue Hemd, bitte."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63929,17 +64805,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "青い / アオイ; 形容詞/一般/*/*; lemma 青い; cType 形容詞; cForm 終止形-一般; aType 2.",
+            "finding": "Exact 青い/アオイ; lemma 青い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "青い",
               "reading": "あおい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Aoi, blau, and i-adjective classification match JMdict 1381390 sense 1. Blue sky and blue sea are natural color contexts with accurate translations. Other green/pale/unripe senses are outside this focused N5 entry."
+              "sense": "Exact 青い/あおい, JMdict 1381390, senses 1, 2: blue, azure; green. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "103": {
+        "notes": "甘い beschreibt hier einen süßen Geschmack: 甘いケーキ. 甘いもの heißt „etwas Süßes, Süßigkeiten“. Es ist ein i-Adjektiv und bildet 甘くない. Für „niedlich“ verwendet man かわいい; das deutsche „süß“ wird in diesem Sinn nicht mit 甘い übersetzt.",
+        "examples": [
+          {
+            "japanese": "このケーキは甘いです。",
+            "romaji": "Kono kēki wa amai desu.",
+            "german": "Dieser Kuchen ist süß."
+          },
+          {
+            "japanese": "みかんは甘いです。",
+            "romaji": "Mikan wa amai desu.",
+            "german": "Mandarinen sind süß."
+          },
+          {
+            "japanese": "甘いものはあまり食べません。",
+            "romaji": "Amai mono wa amari tabemasen.",
+            "german": "Ich esse nicht besonders viel Süßes."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -63949,27 +64843,33 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "甘い / アマイ; 形容詞/一般/*/*; lemma 甘い; cType 形容詞; cForm 終止形-一般; aType 0.",
+            "finding": "Exact 甘い/アマイ; lemma 甘い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "甘い",
               "reading": "あまい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Amai and süß match JMdict 1213400 sense 1; the entry intentionally teaches taste. Cake and mandarin examples are natural and accurately translated. The candidate 甘い|うまい is a different reading in JMdict 1310460 and is not evidence for changing this entry."
+              "sense": "Exact 甘い/あまい, JMdict 1213400, senses 1: sweet-tasting, sweet, sugary, sugared. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "104": {
+        "notes": "辛い（からい）bezeichnet hier scharfes Essen. 辛いもの sind scharfe Speisen. Die gleiche Schreibweise hat auch die Lesung つらい für „schmerzlich, schwer zu ertragen“; diese Lesung gehört nicht zur hier geübten Geschmacksbedeutung. Die Verneinung von からい lautet 辛くない（からくない）.",
         "examples": [
           {
             "japanese": "このカレーは辛いです。",
-            "romaji": "Kono karee wa karai desu.",
+            "romaji": "Kono karē wa karai desu.",
             "german": "Dieses Curry ist scharf."
           },
           {
             "japanese": "このキムチは辛いです。",
             "romaji": "Kono kimuchi wa karai desu.",
             "german": "Dieses Kimchi ist scharf."
+          },
+          {
+            "japanese": "辛いものは好きではありません。",
+            "romaji": "Karai mono wa suki de wa arimasen.",
+            "german": "Ich mag keine scharfen Speisen."
           }
         ],
         "pitchProvenance": [
@@ -63981,17 +64881,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "辛い / カライ; 形容詞/一般/*/*; lemma 辛い; cType 形容詞; cForm 終止形-一般; aType 2.",
+            "finding": "Exact 辛い/カライ; lemma 辛い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "辛い",
               "reading": "からい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Karai and scharf (Geschmack) match JMdict 1365850 sense 1; the つらい and suffix づらい candidates are separate JMdict entries. The curry sentence is sound. The miso-soup sentence is ambiguous because 辛い can mean salty and ordinary miso soup is not inherently spicy; its German scharf overcommits to one reading. No change to headword, reading, meaning, type, category, or level."
+              "sense": "Exact 辛い/からい, JMdict 1365850, senses 1: spicy, hot. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "105": {
+        "notes": "丸い beschreibt eine runde, kreisförmige oder kugelige Form. 丸い ist besonders für kugelige Dinge üblich; die alternative Schreibung 円い betont eher die Kreisform. Als i-Adjektiv steht 丸い direkt vor dem Nomen und bildet 丸くない.",
+        "examples": [
+          {
+            "japanese": "月は丸いです。",
+            "romaji": "Tsuki wa marui desu.",
+            "german": "Der Mond ist rund."
+          },
+          {
+            "japanese": "丸いボールがあります。",
+            "romaji": "Marui bōru ga arimasu.",
+            "german": "Es gibt einen runden Ball."
+          },
+          {
+            "japanese": "丸いテーブルでご飯を食べます。",
+            "romaji": "Marui tēburu de gohan o tabemasu.",
+            "german": "Ich esse an einem runden Tisch."
+          }
+        ],
         "pitchVariants": [
           2
         ],
@@ -64005,17 +64923,18 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               2
             ],
-            "finding": "丸い / マルイ; 形容詞/一般/*/*; lemma 丸い; cType 形容詞; cForm 終止形-一般; aType 0,2.",
+            "finding": "Exact 丸い/マルイ; lemma 丸い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 0,2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "丸い",
               "reading": "まるい",
               "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "Marui, rund, and the i-adjective classification match JMdict 1604230 sense 1. Moon and ball examples are natural, accurate, and may be retained. The candidate containing 丸い/円い cannot close until the separate 円い record is reviewed."
+              "sense": "Exact 丸い/まるい, JMdict 1604230, senses 1: round, circular, spherical. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "106": {
+        "notes": "元気 ist ein na-Adjektiv: 元気な子供 „munteres Kind“, 元気に遊ぶ „munter spielen“. お元気ですか fragt höflich nach dem Befinden. Das Wort kann Gesundheit und Energie bezeichnen; es wird nicht wie ein i-Adjektiv gebeugt. Die Verneinung lautet 元気ではありません.",
         "examples": [
           {
             "japanese": "お元気ですか。",
@@ -64037,17 +64956,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "元気 / ゲンキ; 名詞/普通名詞/形状詞可能/*; lemma 元気; cType *; cForm *; aType 1.",
+            "finding": "Exact 元気/ゲンキ; lemma 元気; 名詞/普通名詞/形状詞可能/*; *; *; aType 1. Modern lexical form and taught sense checked.",
             "match": {
               "word": "元気",
               "reading": "げんき",
               "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
-              "sense": "Genki and gesund, munter match both healthy and energetic senses of JMdict 1260720; the na-adjective classification is appropriate. お元気ですか is accurate. The German 'Ich verbringe jeden Tag munter' is unidiomatic and should be replaced together with its sentence by a clear energetic-activity context. No level or category change is supported."
+              "sense": "Exact 元気/げんき, JMdict 1260720, senses 1, 2: lively, full of spirit, energetic, vigorous, vital, spirited; healthy, well, fit, in good health. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "107": {
+        "notes": "好き ist im Japanischen ein na-Adjektiv, obwohl die deutsche Übersetzung „mögen“ ein Verb ist. Das Gemochte steht gewöhnlich mit が: 音楽が好きです. Vor Nomen steht な: 好きな本 „ein Buch, das man mag“. Die Verneinung lautet 好きではありません.",
+        "examples": [
+          {
+            "japanese": "日本料理が好きです。",
+            "romaji": "Nihon ryōri ga suki desu.",
+            "german": "Ich mag japanisches Essen."
+          },
+          {
+            "japanese": "音楽が好きです。",
+            "romaji": "Ongaku ga suki desu.",
+            "german": "Ich mag Musik."
+          },
+          {
+            "japanese": "好きな本を選んでください。",
+            "romaji": "Suki na hon o erande kudasai.",
+            "german": "Bitte wählen Sie ein Buch aus, das Sie mögen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64057,17 +64994,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "好き / スキ; 形状詞/一般/*/*; lemma 好き; cType *; cForm *; aType 2.",
+            "finding": "Exact 好き/スキ; lemma 好き; 形状詞/一般/*/*; *; *; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "好き",
               "reading": "すき",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Suki, mögen, and na-adjective usage match JMdict 1277450 sense 1; German uses a verb idiomatically while Japanese uses が好き. Preferences for Japanese food and music are natural, correctly marked with が, and accurately translated. The homophonous candidate 隙 is a distinct noun."
+              "sense": "Exact 好き/すき, JMdict 1277450, senses 1: liking, being fond of, to one's liking, to one's taste, preferred, favourite. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "108": {
+        "notes": "嫌い ist trotz der Endung い ein na-Adjektiv: 嫌いな食べ物. Die ungeliebte Sache steht meist mit が. 嫌いです kann eine deutliche Abneigung ausdrücken; 好きではありません „ich mag es nicht“ wirkt oft zurückhaltender. 嫌いではありません bedeutet „ich habe nichts dagegen“.",
+        "examples": [
+          {
+            "japanese": "虫が嫌いです。",
+            "romaji": "Mushi ga kirai desu.",
+            "german": "Ich mag keine Insekten."
+          },
+          {
+            "japanese": "運動が嫌いです。",
+            "romaji": "Undō ga kirai desu.",
+            "german": "Ich mag keinen Sport."
+          },
+          {
+            "japanese": "野菜は嫌いですが、毎日食べます。",
+            "romaji": "Yasai wa kirai desu ga, mainichi tabemasu.",
+            "german": "Ich mag Gemüse nicht, esse es aber jeden Tag."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64077,17 +65032,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "嫌い / キライ; 名詞/普通名詞/形状詞可能/*; lemma 嫌い; cType *; cForm *; aType 0.",
+            "finding": "Exact 嫌い/キライ; lemma 嫌い; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "嫌い",
               "reading": "きらい",
               "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
-              "sense": "Kirai, nicht mögen, and na-adjective usage match JMdict 1257240 sense 1. Dislike of insects and exercise are natural with が嫌い and accurately translated. No register or level issue found."
+              "sense": "Exact 嫌い/きらい, JMdict 1257240, senses 1: disliking, hating, detesting. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "109": {
+        "romaji": "jōzu",
+        "notes": "上手（じょうず）ist ein na-Adjektiv für Können oder Geschick. Die Tätigkeit steht oft mit が: 料理が上手です. 上手に beschreibt, wie eine Handlung ausgeführt wird. Das Wort eignet sich häufig zum Loben anderer; für die eigene Stärke ist 得意（とくい）oft natürlicher.",
+        "examples": [
+          {
+            "japanese": "彼女は料理が上手です。",
+            "romaji": "Kanojo wa ryōri ga jōzu desu.",
+            "german": "Sie ist gut im Kochen."
+          },
+          {
+            "japanese": "彼はテニスが上手です。",
+            "romaji": "Kare wa tenisu ga jōzu desu.",
+            "german": "Er ist gut im Tennis."
+          },
+          {
+            "japanese": "母は上手に魚を焼きます。",
+            "romaji": "Haha wa jōzu ni sakana o yakimasu.",
+            "german": "Meine Mutter bereitet Fisch geschickt auf dem Grill zu."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64097,17 +65071,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "上手 / ジョウズ; 名詞/普通名詞/形状詞可能/*; lemma 上手; cType *; cForm *; aType 3.",
+            "finding": "Exact 上手/ジョウズ; lemma 上手; 名詞/普通名詞/形状詞可能/*; *; *; aType 3. Modern lexical form and taught sense checked.",
             "match": {
               "word": "上手",
               "reading": "じょうず",
               "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
-              "sense": "Jouzu and geschickt, gut in match JMdict 1353320 sense 1 and na-adjective usage. Cooking and tennis skills are distinct, natural が上手 contexts with accurate German. The candidate 上手|うわて is JMdict 1580400 and must remain separate from this reading."
+              "sense": "Exact 上手/じょうず, JMdict 1353320, senses 1: skillful, skilled, proficient, good (at), adept, clever. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "110": {
+        "notes": "下手（へた）ist ein na-Adjektiv und bedeutet „nicht geschickt in etwas“. Die Tätigkeit steht häufig mit が: 歌が下手です. 下手な ist die Form vor einem Nomen, 下手に die adverbiale Form. Die Bezeichnung kann verletzend wirken, wenn man damit andere beurteilt; der Gegensatz ist 上手.",
+        "examples": [
+          {
+            "japanese": "私は歌が下手です。",
+            "romaji": "Watashi wa uta ga heta desu.",
+            "german": "Ich bin schlecht im Singen."
+          },
+          {
+            "japanese": "私は絵が下手です。",
+            "romaji": "Watashi wa e ga heta desu.",
+            "german": "Ich bin schlecht im Zeichnen."
+          },
+          {
+            "japanese": "歌が下手なので、毎日練習します。",
+            "romaji": "Uta ga heta na node, mainichi renshū shimasu.",
+            "german": "Weil ich nicht gut singen kann, übe ich jeden Tag."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64117,17 +65109,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "下手 / ヘタ; 名詞/普通名詞/サ変形状詞可能/*; lemma 下手; cType *; cForm *; aType 2.",
+            "finding": "Exact 下手/ヘタ; lemma 下手; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "下手",
               "reading": "へた",
               "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
-              "sense": "Heta and ungeschickt, schlecht in match JMdict 1185200 sense 1 and na-adjective usage. Singing and drawing skills are distinct natural contexts with accurate German. No conjugation metadata applies."
+              "sense": "Exact 下手/へた, JMdict 1185200, senses 1: unskillful, poor, awkward. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "111": {
+        "romaji": "yūmei",
+        "notes": "有名 ist ein na-Adjektiv: 有名な人 „berühmte Person“. Für „für etwas bekannt sein“ ist ～で有名 üblich, etwa 桜で有名 „für Kirschblüten bekannt“. 有名 sagt etwas über Bekanntheit aus; ob die Person oder Sache gut ist, ergibt sich erst aus dem Zusammenhang.",
+        "examples": [
+          {
+            "japanese": "この人は有名です。",
+            "romaji": "Kono hito wa yūmei desu.",
+            "german": "Diese Person ist berühmt."
+          },
+          {
+            "japanese": "この寺は有名です。",
+            "romaji": "Kono tera wa yūmei desu.",
+            "german": "Dieser Tempel ist berühmt."
+          },
+          {
+            "japanese": "有名な店なので、いつも人が多いです。",
+            "romaji": "Yūmei na mise na node, itsumo hito ga ōi desu.",
+            "german": "Weil es ein bekannter Laden ist, sind dort immer viele Menschen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64137,17 +65148,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "有名 / ユウメイ; 形状詞/一般/*/*; lemma 有名; cType *; cForm *; aType 0.",
+            "finding": "Exact 有名/ユウメイ; lemma 有名; 形状詞/一般/*/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "有名",
               "reading": "ゆうめい",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Yuumei, berühmt, and na-adjective classification match JMdict 1541620 sense 1. A famous person and a famous temple are distinct natural referents with accurate translations. No level change is warranted."
+              "sense": "Exact 有名/ゆうめい, JMdict 1541620, senses 1: famous, well-known. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "112": {
+        "notes": "静か ist ein na-Adjektiv für Ruhe oder geringe Geräuschentwicklung: 静かな町. 静かに beschreibt eine ruhige Handlung, etwa 静かに話す „leise sprechen“. Für eine negative Bewertung einer ausgestorbenen Umgebung ist 静か allein nicht immer ausreichend; das Wort kann angenehm ruhig bedeuten.",
+        "examples": [
+          {
+            "japanese": "この町は静かです。",
+            "romaji": "Kono machi wa shizuka desu.",
+            "german": "Diese Stadt ist ruhig."
+          },
+          {
+            "japanese": "図書館は静かです。",
+            "romaji": "Toshokan wa shizuka desu.",
+            "german": "Die Bibliothek ist ruhig."
+          },
+          {
+            "japanese": "図書館では静かに話してください。",
+            "romaji": "Toshokan de wa shizuka ni hanashite kudasai.",
+            "german": "Bitte sprechen Sie in der Bibliothek leise."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64157,17 +65186,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "静か / シズカ; 形状詞/一般/*/*; lemma 静か; cType *; cForm *; aType 1.",
+            "finding": "Exact 静か/シズカ; lemma 静か; 形状詞/一般/*/*; *; *; aType 1. Modern lexical form and taught sense checked.",
             "match": {
               "word": "静か",
               "reading": "しずか",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Shizuka and ruhig, still match JMdict 1381820 senses 1 and 3 with na-adjective grammar. A quiet town and library are natural environmental contexts with accurate German. The focused entry does not need the slow/unhurried sense."
+              "sense": "Exact 静か/しずか, JMdict 1381820, senses 1, 3: quiet, silent; calm, peaceful. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "113": {
+        "notes": "賑やか beschreibt eine belebte Umgebung oder eine lebhafte, oft fröhliche Atmosphäre: 賑やかな通り, 賑やかな祭り. Es ist ein na-Adjektiv; die adverbiale Form lautet 賑やかに. Das Wort ist häufig positiv oder neutral, während うるさい störenden Lärm kritisiert.",
+        "examples": [
+          {
+            "japanese": "この通りは賑やかです。",
+            "romaji": "Kono tōri wa nigiyaka desu.",
+            "german": "Diese Straße ist belebt."
+          },
+          {
+            "japanese": "お祭りは賑やかです。",
+            "romaji": "Omatsuri wa nigiyaka desu.",
+            "german": "Das Fest ist lebhaft."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64177,17 +65219,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "賑やか / ニギヤカ; 形状詞/一般/*/*; lemma 賑やか; cType *; cForm *; aType 2.",
+            "finding": "Exact 賑やか/ニギヤカ; lemma 賑やか; 形状詞/一般/*/*; *; *; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "賑やか",
               "reading": "にぎやか",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Nigiyaka and lebhaft, belebt match JMdict 1463480 senses 1-2 and na-adjective grammar. A busy street and lively festival demonstrate place and event uses naturally. No register or level conflict found."
+              "sense": "Exact 賑やか/にぎやか, JMdict 1463480, senses 1, 2: bustling, busy, crowded, lively, prosperous, thriving; lively (party, voices, etc.), loud, noisy, merry, cheerful. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "114": {
+        "notes": "きれい bedeutet je nach Zusammenhang „schön“ oder „sauber, ordentlich“. Trotz der Endung い ist es ein na-Adjektiv: きれいな花, きれいな部屋. Die Verneinung lautet きれいではありません, nicht きれくない. Die Kanji-Schreibungen 綺麗 und 奇麗 sind ebenfalls gebräuchlich.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64197,17 +65240,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "きれい / キレイ; 形状詞/一般/*/*; lemma 奇麗; cType *; cForm *; aType 1.",
+            "finding": "Select exact kana きれい, lemma 奇麗, 形状詞 row sys.dic@108480917 with aType 1. The competing 形容詞 rows with aType * are not numeric evidence and do not change the na-adjective teaching classification.",
             "match": {
               "word": "きれい",
               "reading": "きれい",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Kirei and schön, sauber match JMdict 1591900 senses 1-2; kana spelling is standard and na-adjective grammar is correct. Flower beauty and room cleanliness clearly distinguish the two taught senses. 奇麗 and 綺麗 are orthographic variants, but a duplicate existing 綺麗 record prevents closing both candidate references in this batch."
+              "sense": "Exact きれい/きれい, JMdict 1591900, senses 1, 2: pretty, lovely, beautiful, fair; clean, clear, pure, tidy, neat. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "115": {
+        "notes": "便利 ist ein na-Adjektiv für praktischen Nutzen oder eine günstige Lage: 便利な辞書, 便利な場所. Es bedeutet nicht unbedingt körperlich bequem; ein bequemes Sitzmöbel kann etwa 座り心地がいい sein. 便利ではありません ist die höfliche Verneinung; 不便（ふべん）heißt „unpraktisch“.",
         "examples": [
           {
             "japanese": "この辞書は便利です。",
@@ -64229,12 +65273,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "便利 / ベンリ; 名詞/普通名詞/形状詞可能/*; lemma 便利; cType *; cForm *; aType 1.",
+            "finding": "Exact 便利/ベンリ; lemma 便利; 名詞/普通名詞/形状詞可能/*; *; *; aType 1. Modern lexical form and taught sense checked.",
             "match": {
               "word": "便利",
               "reading": "べんり",
               "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
-              "sense": "Benri, praktisch, bequem and na-adjective classification match JMdict 1512610 sense 1. The dictionary example is sound. 'Die Nähe des Bahnhofs ist praktisch' is awkward German and obscures that living near a station is convenient. No headword, meaning, category, or level change is needed."
+              "sense": "Exact 便利/べんり, JMdict 1512610, senses 1: convenient, handy, useful. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
@@ -64274,6 +65318,25 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "117": {
+        "romaji": "daijōbu",
+        "notes": "大丈夫 bedeutet hier „in Ordnung, ohne Problem“. 大丈夫ですか fragt nach dem Befinden oder danach, ob etwas möglich ist. Im Gespräch kann 大丈夫です ein Angebot auch ablehnen; deshalb auf Situation und Ton achten. Es ist ein na-Adjektiv, nicht ein i-Adjektiv.",
+        "examples": [
+          {
+            "japanese": "大丈夫ですか。",
+            "romaji": "Daijōbu desu ka.",
+            "german": "Ist alles in Ordnung?"
+          },
+          {
+            "japanese": "熱がないから大丈夫です。",
+            "romaji": "Netsu ga nai kara daijōbu desu.",
+            "german": "Kein Fieber, also ist alles in Ordnung."
+          },
+          {
+            "japanese": "明日は休みなので、遅くても大丈夫です。",
+            "romaji": "Ashita wa yasumi na node, osokute mo daijōbu desu.",
+            "german": "Da morgen frei ist, ist es in Ordnung, auch wenn es spät wird."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64283,17 +65346,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "大丈夫 / ダイジョウブ; 形状詞/一般/*/*; lemma 大丈夫; cType *; cForm *; aType 3.",
+            "finding": "Exact 大丈夫/ダイジョウブ; lemma 大丈夫; 形状詞/一般/*/*; *; *; aType 3. Modern lexical form and taught sense checked.",
             "match": {
               "word": "大丈夫",
               "reading": "だいじょうぶ",
               "grammaticalForm": "形状詞/一般/*/*; *; *",
-              "sense": "Daijoubu and in Ordnung, okay match JMdict 1414150 sense 1 and na-adjective/interjection usage. Checking another person's condition and reassuring based on absence of fever are natural contexts with adequate German. The refusal interjection sense is not required for this focused entry."
+              "sense": "Exact 大丈夫/だいじょうぶ, JMdict 1414150, senses 1: safe, secure, sound, problem-free, without fear, all right, alright, OK, okay. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "118": {
+        "notes": "水 bezeichnet Wasser, im Alltag besonders kaltes oder ungewärmtes Wasser. Heißes Wasser heißt normalerweise お湯（おゆ）. 水を飲む bedeutet „Wasser trinken“, 水をあげる etwa „eine Pflanze gießen“. Für eine höfliche Bestellung ist お水をください ebenfalls üblich.",
+        "examples": [
+          {
+            "japanese": "水をください。",
+            "romaji": "Mizu o kudasai.",
+            "german": "Bitte geben Sie mir Wasser."
+          },
+          {
+            "japanese": "冷たい水をください。",
+            "romaji": "Tsumetai mizu o kudasai.",
+            "german": "Kaltes Wasser, bitte."
+          },
+          {
+            "japanese": "花に水をあげます。",
+            "romaji": "Hana ni mizu o agemasu.",
+            "german": "Ich gieße die Blumen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64303,37 +65384,52 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "水 / ミズ; 名詞/普通名詞/一般/*; lemma 水; cType *; cForm *; aType 0.",
+            "finding": "Exact 水/ミズ; lemma 水; 名詞/普通名詞/一般/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "水",
               "reading": "みず",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Mizu and Wasser match JMdict 1371260 sense 1 and noun grammar. A general water request and a temperature-qualified request are natural and accurately translated; similar request forms are optional retained enrichment. No level or category conflict found."
+              "sense": "Exact 水/みず, JMdict 1371260, senses 1: water (esp. cool or cold). German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "119": {
+        "notes": "お茶 ist die übliche höfliche Bezeichnung für Tee; das お bleibt auch im eigenen Alltag oft erhalten. Ohne nähere Angabe ist häufig japanischer grüner Tee gemeint, je nach Situation auch anderer Tee. Für schwarzen Tee ist 紅茶（こうちゃ）üblich. Eine Tasse Tee kann man mit お茶を一杯 zählen.",
         "pitchProvenance": [
           {
             "source": "Japan Foundation Marugoto Elementary 2 Competences Vocabulary Index",
-            "version": "Official vocabulary index PDF; retrieved 2026-09-22",
-            "locator": "https://marugoto.jpf.go.jp/assets/docs/download/elementary2_c/MarugotoElementary2CompetencesVocabularyIndex2_PT.pdf#entry=%E3%81%8A%E3%81%A1%E3%82%83",
+            "version": "Official vocabulary index PDF; 2021/10/1 revision; retrieved 2026-10-03",
+            "locator": "https://marugoto.jpf.go.jp/assets/docs/download/elementary2_c/MarugotoElementary2CompetencesVocabularyIndex2_PT.pdf#page=8",
             "attribution": "The Japan Foundation",
             "patterns": [
               0
             ],
-            "finding": "The entry おちゃ / お茶 is printed as おちゃ￣; the flat accent mark supports pattern 0.",
+            "finding": "Verified the primary Japan Foundation vocabulary index page 8: おちゃ(ちゃ) / お茶(茶) is printed with flat accent おちゃ￣ and Portuguese chá verde. This exact beverage sense supports pattern 0; UniDic has no exact entry.",
             "match": {
               "word": "お茶",
               "reading": "おちゃ",
               "grammaticalForm": "Noun dictionary form",
-              "sense": "Ocha and Tee match JMdict 1002430 sense 1 and noun grammar. Offering tea and drinking tea after a meal are distinct natural situations with accurate German. The versioned UniDic cache has no exact row; a traceable Japan Foundation fallback independently supports the existing pitch."
+              "sense": "お茶 as tea beverage, JMdict 1002430 sense 1; primary Japan Foundation page 8 beverage entry, not page 20 tea-ceremony entry."
             }
           }
         ]
       },
       "120": {
+        "romaji": "gyūnyū",
+        "notes": "牛乳 bezeichnet Kuhmilch. Es ist ein Nomen und steht als Getränk oder Kaufgegenstand mit を: 牛乳を飲む, 牛乳を買う. Pflanzliche Getränke werden normalerweise genauer bezeichnet, etwa 豆乳（とうにゅう）„Sojamilch“. Für die Menge sind 一杯 oder eine Verpackungsangabe wie 一本 möglich.",
+        "examples": [
+          {
+            "japanese": "牛乳を買います。",
+            "romaji": "Gyūnyū o kaimasu.",
+            "german": "Ich kaufe Milch."
+          },
+          {
+            "japanese": "毎朝牛乳を飲みます。",
+            "romaji": "Maiasa gyūnyū o nomimasu.",
+            "german": "Jeden Morgen trinke ich Milch."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64343,17 +65439,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "牛乳 / ギュウニュウ; 名詞/普通名詞/一般/*; lemma 牛乳; cType *; cForm *; aType 0.",
+            "finding": "Exact 牛乳/ギュウニュウ; lemma 牛乳; 名詞/普通名詞/一般/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "牛乳",
               "reading": "ぎゅうにゅう",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Gyuunyuu and Milch match JMdict 1231590 sense 1 and noun grammar. Buying milk and a daily drinking habit are distinct, natural contexts with accurate translations. Romanization follows the established doubled-vowel convention."
+              "sense": "Exact 牛乳/ぎゅうにゅう, JMdict 1231590, senses 1: (cow's) milk. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "121": {
+        "notes": "肉 bedeutet im Lebensmittelkontext „Fleisch“. Die Tierart lässt sich mit einem zusammengesetzten Wort angeben: 牛肉（ぎゅうにく）, 豚肉（ぶたにく）, 鶏肉（とりにく）. „Fleisch essen“ heißt 肉を食べる; als Stoff wird Fleisch oft nach Gewicht bestellt, etwa 百グラム.",
+        "examples": [
+          {
+            "japanese": "肉を食べます。",
+            "romaji": "Niku o tabemasu.",
+            "german": "Ich esse Fleisch."
+          },
+          {
+            "japanese": "スーパーで肉を買います。",
+            "romaji": "Sūpā de niku o kaimasu.",
+            "german": "Ich kaufe Fleisch im Supermarkt."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64363,17 +65472,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "肉 / ニク; 名詞/普通名詞/一般/*; lemma 肉; cType *; cForm *; aType 2.",
+            "finding": "Exact 肉/ニク; lemma 肉; 名詞/普通名詞/一般/*; *; *; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "肉",
               "reading": "にく",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Niku and Fleisch match JMdict 1463520 sense 2 and noun grammar. Eating meat and buying it at a supermarket are natural, distinct contexts with accurate German. Other flesh/content senses are outside this focused food entry."
+              "sense": "Exact 肉/にく, JMdict 1463520, senses 2: meat. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "122": {
+        "notes": "魚（さかな）bezeichnet sowohl lebende Fische als auch Fisch als Lebensmittel. Bei einem lebenden Fisch verwendet man für „es gibt“ いる, nicht ある. Die Lesung うお kommt ebenfalls vor, besonders in Zusammensetzungen; hier wird die häufige Alltagslesung さかな geübt.",
+        "examples": [
+          {
+            "japanese": "魚が好きです。",
+            "romaji": "Sakana ga suki desu.",
+            "german": "Ich mag Fisch."
+          },
+          {
+            "japanese": "魚を焼きます。",
+            "romaji": "Sakana o yakimasu.",
+            "german": "Ich grille Fisch."
+          },
+          {
+            "japanese": "川に魚がいます。",
+            "romaji": "Kawa ni sakana ga imasu.",
+            "german": "Im Fluss sind Fische."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64383,17 +65510,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "魚 / サカナ; 名詞/普通名詞/一般/*; lemma 魚; cType *; cForm *; aType 0.",
+            "finding": "Exact 魚/サカナ; lemma 魚; 名詞/普通名詞/一般/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "魚",
               "reading": "さかな",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Sakana and Fisch match JMdict 1578010 sense 1 and noun grammar. Food preference and cooking fish are natural contexts; 焼く permits the retained grill rendering. The queued 魚|うお reference is the same JMdict entry with an additional reading, not a separate fish sense."
+              "sense": "Exact 魚/さかな, JMdict 1578010, senses 1: fish. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "123": {
+        "notes": "野菜 ist der Sammelbegriff für Gemüse und trägt im Japanischen keine Pluralendung. 野菜を食べる bedeutet „Gemüse essen“; einzelne Sorten oder Stückzahlen werden bei Bedarf genauer benannt. 果物（くだもの）ist der alltägliche Gegenbegriff für Obst.",
+        "examples": [
+          {
+            "japanese": "野菜を食べましょう。",
+            "romaji": "Yasai o tabemashō.",
+            "german": "Lass uns Gemüse essen."
+          },
+          {
+            "japanese": "子供は野菜が嫌いです。",
+            "romaji": "Kodomo wa yasai ga kirai desu.",
+            "german": "Das Kind mag kein Gemüse."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64403,17 +65543,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "野菜 / ヤサイ; 名詞/普通名詞/一般/*; lemma 野菜; cType *; cForm *; aType 0.",
+            "finding": "Exact 野菜/ヤサイ; lemma 野菜; 名詞/普通名詞/一般/*; *; *; aType 0. Modern lexical form and taught sense checked.",
             "match": {
               "word": "野菜",
               "reading": "やさい",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Yasai and Gemüse match JMdict 1537370 sense 1 and noun grammar. Encouraging vegetable consumption and a generic statement about children disliking vegetables are natural and accurately translated. The cannabis slang sense is irrelevant to the N5 food entry."
+              "sense": "Exact 野菜/やさい, JMdict 1537370, senses 1: vegetable. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "124": {
+        "notes": "果物 ist der Sammelbegriff für Obst und bezeichnet essbare Früchte wie Äpfel oder Orangen. Es bekommt keine Pluralendung. Für einzelne Stücke verwendet man je nach Frucht passende Zählwörter, häufig 個. 野菜（やさい）bezeichnet Gemüse.",
+        "examples": [
+          {
+            "japanese": "果物が好きです。",
+            "romaji": "Kudamono ga suki desu.",
+            "german": "Ich mag Obst."
+          },
+          {
+            "japanese": "果物を毎日食べます。",
+            "romaji": "Kudamono o mainichi tabemasu.",
+            "german": "Ich esse jeden Tag Obst."
+          },
+          {
+            "japanese": "りんごは果物ですが、にんじんは野菜です。",
+            "romaji": "Ringo wa kudamono desu ga, ninjin wa yasai desu.",
+            "german": "Äpfel sind Obst, Karotten dagegen Gemüse."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64423,17 +65581,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "果物 / クダモノ; 名詞/普通名詞/一般/*; lemma 果物; aType 2.",
+            "finding": "Exact 果物/クダモノ; lemma 果物; 名詞/普通名詞/一般/*; *; *; aType 2. Modern lexical form and taught sense checked.",
             "match": {
               "word": "果物",
               "reading": "くだもの",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Fruit preference and daily fruit consumption accurately teach Obst; kudamono, particles and both German translations agree."
+              "sense": "Exact 果物/くだもの, JMdict 1193060, senses 1: fruit. German guidance and contextual examples select these uses without replacing the lexical identity."
             }
           }
         ]
       },
       "125": {
+        "notes": "卵 bezeichnet ein Ei, im Alltag häufig ein Hühnerei. Beim Kochen sieht man auch die Schreibung 玉子. Man kann Eier mit 個 zählen; die allgemeine Zählform 二つ ist ebenfalls möglich. Für „angehender Arzt“ in 医者の卵 gilt dagegen eine übertragene Bedeutung.",
+        "examples": [
+          {
+            "japanese": "卵を二つください。",
+            "romaji": "Tamago o futatsu kudasai.",
+            "german": "Zwei Eier, bitte."
+          },
+          {
+            "japanese": "卵でオムレツを作ります。",
+            "romaji": "Tamago de omuretsu o tsukurimasu.",
+            "german": "Ich mache mit Eiern ein Omelett."
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -64447,17 +65618,18 @@ window.VOCAB_CORRECTION_RULES = {
               2,
               0
             ],
-            "finding": "卵 / タマゴ; 名詞/普通名詞/一般/*; lemma 卵; aType 0,2.",
+            "finding": "Exaktes Nomen 卵/タマゴ, lemma 卵, POS 名詞/普通名詞/一般/*, aType 0,2. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "卵",
               "reading": "たまご",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "卵 spelling supports the egg and cooking senses. Futatsu and ryouri are correctly romanized; requesting eggs and cooking with eggs are natural. Preserve primary 2 and add attested 0."
+              "sense": "卵 als Ei"
             }
           }
         ]
       },
       "126": {
+        "notes": "パン bedeutet Brot und umfasst im japanischen Alltag auch verschiedene Brötchen und süße Backwaren wie 菓子パン. Es ist ein Nomen, kein Verb. 焼きたてのパン bezeichnet Brot, das gerade frisch gebacken wurde.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64467,17 +65639,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "パン / パン; 名詞/普通名詞/一般/*; lemma パン-pao; aType 1.",
+            "finding": "Exaktes Nomen パン/パン, lemma パン-pao, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "パン",
               "reading": "パン",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The breakfast and freshly baked bread sentences select bread, not Pan the god, camera panning or a frying pan. UniDic パン-pao is the matching noun lemma; both translations/romanizations are correct."
+              "sense": "パン als Brot"
             }
           }
         ]
       },
       "127": {
+        "notes": "ご飯 heißt gekochter Reis und je nach Zusammenhang eine Mahlzeit insgesamt. ご飯を食べる kann deshalb schlicht „essen“ bedeuten. Ungekochte Reiskörner nennt man 米. Bei ご飯とみそ汁 ist dagegen der Reis als einzelner Bestandteil gemeint.",
+        "examples": [
+          {
+            "japanese": "ご飯を食べましょう。",
+            "romaji": "Gohan o tabemashō.",
+            "german": "Lass uns essen."
+          },
+          {
+            "japanese": "ご飯とみそ汁が好きです。",
+            "romaji": "Gohan to misoshiru ga suki desu.",
+            "german": "Ich mag Reis und Misosuppe."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64487,17 +65672,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "ご飯 / ゴハン; 名詞/普通名詞/一般/*; lemma 御飯; aType 1.",
+            "finding": "Exaktes Nomen ご飯/ゴハン, lemma 御飯, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "ご飯",
               "reading": "ごはん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The invitation to eat uses the meal sense; the miso-soup sentence uses cooked rice. Gohan/tabemashou/misoshiru and the two German translations are correct; German Reis is adequate in this food context."
+              "sense": "ご飯 als Reis, Mahlzeit"
             }
           }
         ]
       },
       "128": {
+        "romaji": "ryōri",
+        "notes": "料理 kann die Tätigkeit Kochen, ein zubereitetes Gericht oder eine Küche als Stil bezeichnen. 日本料理 heißt „japanische Küche“, 母の料理 das zubereitete Essen der Mutter. Für die Tätigkeit verwendet man 料理する oder 料理をする.",
+        "examples": [
+          {
+            "japanese": "日本料理が好きです。",
+            "romaji": "Nihon ryōri ga suki desu.",
+            "german": "Ich mag japanisches Essen."
+          },
+          {
+            "japanese": "母の料理がおいしいです。",
+            "romaji": "Haha no ryōri ga oishii desu.",
+            "german": "Das Essen meiner Mutter ist lecker."
+          },
+          {
+            "japanese": "料理をするのが好きです。",
+            "romaji": "Ryōri o suru no ga suki desu.",
+            "german": "Ich koche gern."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64507,12 +65711,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "料理 / リョウリ; 名詞/普通名詞/サ変可能/*; lemma 料理; aType 1.",
+            "finding": "Exaktes Nomen 料理/リョウリ, lemma 料理, POS 名詞/普通名詞/サ変可能/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "料理",
               "reading": "りょうり",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "料理 is a noun here despite also allowing suru. Japanese cuisine and mother’s cooking examples naturally use the food/cuisine sense; Nihon ryouri and Haha no ryouri readings and German agree."
+              "sense": "料理 als Kochen, Gericht"
             }
           }
         ]
@@ -64560,6 +65764,19 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "130": {
+        "notes": "昼ご飯 bezeichnet die Mahlzeit am Mittag. Auch 昼御飯 oder 昼ごはん findet man als Schreibungen. Mit 何ですか fragt man nach dem Essen, das es gibt; 一緒に食べましょう lädt jemanden zum gemeinsamen Mittagessen ein.",
+        "examples": [
+          {
+            "japanese": "昼ご飯は何ですか。",
+            "romaji": "Hirugohan wa nan desu ka.",
+            "german": "Was gibt es zum Mittagessen?"
+          },
+          {
+            "japanese": "昼ご飯を一緒に食べましょう。",
+            "romaji": "Hirugohan o issho ni tabemashō.",
+            "german": "Lass uns zusammen zu Mittag essen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64569,17 +65786,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "昼ご飯 / ヒルゴハン; 名詞/普通名詞/一般/*; lemma 昼御飯; aType 3.",
+            "finding": "Exaktes Nomen 昼ご飯/ヒルゴハン, lemma 昼御飯, POS 名詞/普通名詞/一般/*, aType 3. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "昼ご飯",
               "reading": "ひるごはん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Both lunch noun uses are natural. Nan before desu and issho ni tabemashou are correctly romanized; the menu question and invitation have accurate German equivalents."
+              "sense": "昼ご飯 als Mittagessen"
             }
           }
         ]
       },
       "131": {
+        "notes": "晩ご飯 bedeutet die abendliche Mahlzeit. 晩御飯 und 晩ごはん sind weitere gebräuchliche Schreibungen; 夕食 ist eine andere Bezeichnung für Abendessen. Eine Essenszeit schließt man mit に an, etwa 七時に食べる.",
         "examples": [
           {
             "japanese": "晩ご飯を作ります。",
@@ -64601,17 +65819,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "晩ご飯 / バンゴハン; 名詞/普通名詞/一般/*; lemma 晩御飯; aType 3.",
+            "finding": "Exaktes Nomen 晩ご飯/バンゴハン, lemma 晩御飯, POS 名詞/普通名詞/一般/*, aType 3. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "晩ご飯",
               "reading": "ばんごはん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Evening meal, bangohan and shichiji are supported. Retain preparation sentence; render the second as eating at seven rather than a nominal schedule statement."
+              "sense": "晩ご飯 als Abendessen"
             }
           }
         ]
       },
       "132": {
+        "romaji": "gakkō",
+        "notes": "学校 bezeichnet eine Schule als Einrichtung und im Alltag auch den Schulbetrieb. 学校に行く nennt die Schule als Ziel; 学校で勉強する die Schule als Lernort. Das kleine っ in がっこう wird als Doppelkonsonant kk, das lange o als ō geschrieben.",
+        "examples": [
+          {
+            "japanese": "学校に行きます。",
+            "romaji": "Gakkō ni ikimasu.",
+            "german": "Ich gehe zur Schule."
+          },
+          {
+            "japanese": "学校は九時に始まります。",
+            "romaji": "Gakkō wa kuji ni hajimarimasu.",
+            "german": "Die Schule beginnt um neun."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64621,26 +65853,27 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "学校 / ガッコウ; 名詞/普通名詞/一般/*; lemma 学校; aType 0.",
+            "finding": "Exaktes Nomen 学校/ガッコウ, lemma 学校, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "学校",
               "reading": "がっこう",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "School noun, gakkou gemination/long vowel, kuji and hajimarimasu are correctly represented; going to school and school starting at nine are natural and correctly translated."
+              "sense": "学校 als Schule"
             }
           }
         ]
       },
       "133": {
+        "notes": "大学 bezeichnet eine Universität oder Hochschule. Der Ort einer Tätigkeit steht mit で: 大学で勉強する. In 大学は家から遠い bezeichnet 家から den Bezugspunkt der Entfernung. Die Karte behandelt weder historische Verwaltungsschulen noch den klassischen Buchtitel 大学.",
         "examples": [
           {
             "japanese": "大学で日本語を勉強します。",
-            "romaji": "Daigaku de nihongo o benkyou shimasu.",
+            "romaji": "Daigaku de nihongo o benkyō shimasu.",
             "german": "Ich studiere Japanisch an der Uni."
           },
           {
             "japanese": "大学は家から遠いです。",
-            "romaji": "Daigaku wa ie kara tooi desu.",
+            "romaji": "Daigaku wa ie kara tōi desu.",
             "german": "Die Uni ist weit von zu Hause entfernt."
           }
         ],
@@ -64653,17 +65886,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "大学 / ダイガク; 名詞/普通名詞/一般/*; lemma 大学; aType 0.",
+            "finding": "Exaktes Nomen 大学/ダイガク, lemma 大学, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "大学",
               "reading": "だいがく",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Select ordinary university noun rather than the proper-name UniDic row or historical senses. Japanese study and distance from home are natural; add entfernt to complete the German distance expression."
+              "sense": "大学 als Universität"
             }
           }
         ]
       },
       "134": {
+        "romaji": "byōin",
+        "notes": "病院 heißt Krankenhaus oder Klinik. 病院に行く kann im Alltag auch einen Arztbesuch meinen, ohne dass jemand stationär aufgenommen wird. Für den Zielort verwendet man に, für eine Handlung dort で. Nicht mit 美容院（びよういん, Friseursalon）verwechseln.",
+        "examples": [
+          {
+            "japanese": "病院に行きます。",
+            "romaji": "Byōin ni ikimasu.",
+            "german": "Ich gehe ins Krankenhaus."
+          },
+          {
+            "japanese": "病院で薬をもらいました。",
+            "romaji": "Byōin de kusuri o moraimashita.",
+            "german": "Ich habe im Krankenhaus Medizin bekommen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64673,17 +65920,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "病院 / ビョウイン; 名詞/普通名詞/一般/*; lemma 病院; aType 0.",
+            "finding": "Exaktes Nomen 病院/ビョウイン, lemma 病院, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "病院",
               "reading": "びょういん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Hospital is the intended institutional sense. Byouin/kusuri/moraimashita readings are correct; going to hospital and receiving medicine there are accurately translated."
+              "sense": "病院 als Krankenhaus"
             }
           }
         ]
       },
       "135": {
+        "romaji": "ginkō",
+        "notes": "銀行 bezeichnet ein Geldinstitut, keine Sitzbank. Der Standort kann mit ～の近く beschrieben werden. Für „Geld abheben“ verwendet man die Verbindung お金をおろす; die Bank als Handlungsort steht dabei mit で.",
+        "examples": [
+          {
+            "japanese": "銀行は駅の近くです。",
+            "romaji": "Ginkō wa eki no chikaku desu.",
+            "german": "Die Bank ist in der Nähe des Bahnhofs."
+          },
+          {
+            "japanese": "銀行でお金をおろします。",
+            "romaji": "Ginkō de okane o oroshimasu.",
+            "german": "Ich hebe Geld bei der Bank ab."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64693,57 +65954,98 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "銀行 / ギンコウ; 名詞/普通名詞/一般/*; lemma 銀行; aType 0.",
+            "finding": "Exaktes Nomen 銀行/ギンコウ, lemma 銀行, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "銀行",
               "reading": "ぎんこう",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Financial bank, not a bench. Ginkou, station-near location and money withdrawal sentences/romaji/German all agree with the financial institution sense."
+              "sense": "銀行 als Bank"
             }
           }
         ]
       },
       "136": {
+        "romaji": "yūbinkyoku",
+        "meaning": "Postamt, Postfiliale",
+        "notes": "郵便局 bezeichnet das Postamt oder eine Postfiliale, also den Ort für Postdienste. 郵便 allein ist die Post als Sendungen oder Dienst. Mit 郵便局で手紙を出す beschreibt man das Abschicken eines Briefes bei der Post.",
+        "examples": [
+          {
+            "japanese": "郵便局はどこですか。",
+            "romaji": "Yūbinkyoku wa doko desu ka.",
+            "german": "Wo ist die Post?"
+          },
+          {
+            "japanese": "郵便局で手紙を出します。",
+            "romaji": "Yūbinkyoku de tegami o dashimasu.",
+            "german": "Ich schicke einen Brief bei der Post ab."
+          }
+        ],
         "pitchProvenance": [
           {
-            "source": "OJAD",
-            "version": "Retrieved 2026-09-22T15:48:05.797Z; HTML SHA256 04cf5c61a9c18bd6506efb06584d30148419bb89634828213a3c75edf8049c76",
-            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%83%B5%E4%BE%BF%E5%B1%80#word_11455",
-            "attribution": "University of Tokyo, Minematsu and Saito laboratories",
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search page retrieved 2026-10-03; UTF-8 saved HTML SHA256 0f0f4e53d2e28b5774220989a82dbc6d46bcfb20859eec731e55dd53e9f8921f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%83%B5%E4%BE%BF%E5%B1%80#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lexical accent lookup cited, no OJAD audio redistributed",
             "patterns": [
               3
             ],
-            "finding": "No exact complete-word row in the versioned lookup. OJAD exact noun form: [{\"reading\":\"ゆうびんきょく\",\"morae\":[\"ゆ\",\"う\",\"び\",\"ん\",\"きょ\",\"く\"],\"pattern\":3,\"html\":\"<span class=\\\"accented_word\\\"><span class=\\\"mola_-6\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">ゆ</span></span></span><span class=\\\" accent_plain mola_-5\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">う</span></span></span><span class=\\\" accent_top mola_-4\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">び</span></span></span><span class=\\\"mola_-3\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">ん</span></span></span><span class=\\\"mola_-2\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">き</span><span class=\\\"char\\\">ょ</span></span></span><span class=\\\"mola_-1\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">く</span></span></span></span>\"}]",
+            "finding": "Die Wörterbuchform ゆうびんきょく hat accent_top auf び, der dritten Mora; Akzent 3. Der exakt beschriftete Nomeneintrag wurde direkt im HTML geprüft. Der UniDic-Cache enthält keine exakte Gesamtwortzeile; der Akzent wird nicht aus Bestandteilen berechnet.",
             "match": {
               "word": "郵便局",
               "reading": "ゆうびんきょく",
-              "grammaticalForm": "Noun dictionary form",
-              "sense": "郵便局 denotes the post office; Post is a natural German institutional abbreviation. Direction question and posting a letter are correct, including yuubinkyoku and tegami o dashimasu. Exact UniDic absent; OJAD word_11455 confirms full reading and accent 3."
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "郵便局 als Postamt, Postfiliale"
             }
           }
         ]
       },
       "137": {
+        "notes": "図書館 ist eine Bibliothek mit Büchern zum Lesen oder Ausleihen, keine Buchhandlung（本屋）. Bei Tätigkeiten dort steht der Ort mit で. 本を借りる heißt ein Buch ausleihen; 本を返す bedeutet es zurückgeben.",
+        "examples": [
+          {
+            "japanese": "図書館で本を借ります。",
+            "romaji": "Toshokan de hon o karimasu.",
+            "german": "Ich leihe mir ein Buch in der Bibliothek."
+          },
+          {
+            "japanese": "図書館で勉強します。",
+            "romaji": "Toshokan de benkyō shimasu.",
+            "german": "Ich lerne in der Bibliothek."
+          }
+        ],
         "pitchProvenance": [
           {
-            "source": "OJAD",
-            "version": "Retrieved 2026-09-22T15:48:06.799Z; HTML SHA256 c2ed5982e84e4ca4e0c8c30ff6b5e172cf0e57b88dd7dcd141ab974b5c6e48c9",
-            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%9B%B3%E6%9B%B8%E9%A4%A8#word_9178",
-            "attribution": "University of Tokyo, Minematsu and Saito laboratories",
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search page retrieved 2026-10-03; UTF-8 saved HTML SHA256 674b41702d9717d8f81747f28c6cfe9d38979b07d4f2e64740fa3427f5c737cc",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%9B%B3%E6%9B%B8%E9%A4%A8#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lexical accent lookup cited, no OJAD audio redistributed",
             "patterns": [
               2
             ],
-            "finding": "No exact complete-word row in the versioned lookup. OJAD exact noun form: [{\"reading\":\"としょかん\",\"morae\":[\"と\",\"しょ\",\"か\",\"ん\"],\"pattern\":2,\"html\":\"<span class=\\\"accented_word\\\"><span class=\\\"mola_-4\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">と</span></span></span><span class=\\\" accent_top mola_-3\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">し</span><span class=\\\"char\\\">ょ</span></span></span><span class=\\\"mola_-2\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">か</span></span></span><span class=\\\"mola_-1\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">ん</span></span></span></span>\"}]",
+            "finding": "Die Wörterbuchform としょかん hat accent_top auf しょ, der zweiten Mora; Akzent 2. Der exakt beschriftete Nomeneintrag wurde direkt im HTML geprüft. Der UniDic-Cache enthält keine exakte Gesamtwortzeile; der Akzent wird nicht aus Bestandteilen berechnet.",
             "match": {
               "word": "図書館",
               "reading": "としょかん",
-              "grammaticalForm": "Noun dictionary form",
-              "sense": "Library noun, toshokan and karimasu are accurate. Borrowing a book and studying in the library use correct Japanese, romaji and German. Exact UniDic absent; OJAD word_9178 confirms accent 2."
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "図書館 als Bibliothek"
             }
           }
         ]
       },
       "138": {
+        "notes": "会社 meint eine Firma und kann im Alltag auch den eigenen Arbeitsplatz bezeichnen. Deshalb heißt 会社に行く oft „zur Arbeit gehen“. Eine Tätigkeit am Arbeitsplatz verbindet man mit で, etwa 会社で働く. 大きい会社 kann eine große Organisation meinen, nicht nur ein großes Gebäude.",
+        "examples": [
+          {
+            "japanese": "会社に行きます。",
+            "romaji": "Kaisha ni ikimasu.",
+            "german": "Ich gehe zur Firma."
+          },
+          {
+            "japanese": "会社は大きいです。",
+            "romaji": "Kaisha wa ōkii desu.",
+            "german": "Die Firma ist groß."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64753,17 +66055,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "会社 / カイシャ; 名詞/普通名詞/一般/*; lemma 会社; aType 0.",
+            "finding": "Exaktes Nomen 会社/カイシャ, lemma 会社, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "会社",
               "reading": "かいしゃ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Company/workplace noun. Going to the company and describing its size are valid, and kaisha/ookii and German Firma translations are consistent."
+              "sense": "会社 als Firma"
             }
           }
         ]
       },
       "139": {
+        "notes": "店（みせ）bezeichnet ein Geschäft und kann auch einen gastronomischen Betrieb meinen. この店のケーキ sind die Kuchen, die dieses Geschäft anbietet. In Zusammensetzungen liest man 店 häufig テン, etwa 喫茶店; die einzelne Karte verwendet みせ.",
+        "examples": [
+          {
+            "japanese": "あの店は安いです。",
+            "romaji": "Ano mise wa yasui desu.",
+            "german": "Jener Laden ist günstig."
+          },
+          {
+            "japanese": "この店のケーキはおいしいです。",
+            "romaji": "Kono mise no kēki wa oishii desu.",
+            "german": "Der Kuchen dieses Ladens ist lecker."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64773,17 +66088,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "店 / ミセ; 名詞/普通名詞/一般/*; lemma 店; aType 2.",
+            "finding": "Exaktes Nomen 店/ミセ, lemma 店, POS 名詞/普通名詞/一般/*, aType 2. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "店",
               "reading": "みせ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Shop/establishment noun, mise. Describing low prices and praising its cake are natural; keeki represents ケーキ and both German translations preserve the intended meanings."
+              "sense": "店 als Laden, Geschäft"
             }
           }
         ]
       },
       "140": {
+        "notes": "レストラン ist ein Restaurant; das Wort wird besonders oft für Restaurants mit westlich geprägter Küche verwendet, ohne darauf streng beschränkt zu sein. Der Essensort steht mit で. 予約する beschreibt eine Reservierung, zum Beispiel für einen Restaurantbesuch.",
         "examples": [
           {
             "japanese": "レストランで食べます。",
@@ -64805,17 +66121,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "レストラン / レストラン; 名詞/普通名詞/一般/*; lemma レストラン-restaurant; aType 1.",
+            "finding": "Exaktes Nomen レストラン/レストラン, lemma レストラン-restaurant, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "レストラン",
               "reading": "レストラン",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Restaurant noun is supported. Eating there is correct; render restaurant reservation as im Restaurant reserviert to avoid suggesting the whole premises were booked. Resutoran/yoyaku romanization remains correct."
+              "sense": "レストラン als Restaurant"
             }
           }
         ]
       },
       "141": {
+        "notes": "ホテル bezeichnet ein Hotel. Für Übernachten in einer Unterkunft verwendet man ～に泊まる: ホテルに泊まる. ホテルの部屋 ist ein Hotelzimmer; の verbindet hier Unterkunft und zugehörigen Raum.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64825,17 +66142,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "ホテル / ホテル; 名詞/普通名詞/一般/*; lemma ホテル-hotel; aType 1.",
+            "finding": "Exaktes Nomen ホテル/ホテル, lemma ホテル-hotel, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "ホテル",
               "reading": "ホテル",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Hotel noun; hoteru, tomaru and hiroi readings are sound. Overnight stay and spacious hotel room sentences have accurate German translations."
+              "sense": "ホテル als Hotel"
             }
           }
         ]
       },
       "142": {
+        "romaji": "kūkō",
+        "notes": "空港 heißt Flughafen, nicht Flugzeug（飛行機）. ～まで nennt einen Zielpunkt; 一時間 beschreibt dann die benötigte Zeit bis dorthin. Die langen Vokale u und o in くうこう werden in Hepburn mit Makronen geschrieben: kūkō.",
+        "examples": [
+          {
+            "japanese": "空港まで一時間です。",
+            "romaji": "Kūkō made ichijikan desu.",
+            "german": "Bis zum Flughafen dauert es eine Stunde."
+          },
+          {
+            "japanese": "空港はとても大きいです。",
+            "romaji": "Kūkō wa totemo ōkii desu.",
+            "german": "Der Flughafen ist sehr groß."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64845,17 +66176,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "空港 / クウコウ; 名詞/普通名詞/一般/*; lemma 空港; aType 0.",
+            "finding": "Exaktes Nomen 空港/クウコウ, lemma 空港, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "空港",
               "reading": "くうこう",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Airport noun; kuukou/ichijikan correctly preserve long vowels and compound reading. Journey duration and airport size are distinct natural settings, accurately translated."
+              "sense": "空港 als Flughafen"
             }
           }
         ]
       },
       "143": {
+        "notes": "駅 bezeichnet einen Bahnhof oder eine Bahnstation, auch bei Stadt- und U-Bahnen. Eine Bushaltestelle nennt man normalerweise バス停. 駅まで歩いて十分 beschreibt die Gehzeit bis zum Bahnhof; 十分 wird hier じゅっぷん gelesen.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64865,17 +66197,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "駅 / エキ; 名詞/普通名詞/一般/*; lemma 駅; aType 1.",
+            "finding": "Exaktes Nomen 駅/エキ, lemma 駅, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "駅",
               "reading": "えき",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Modern railway station sense, not historical staging post or counter. Eki, aruite and juppun are correct; location question and ten-minute walk are natural and accurately translated."
+              "sense": "駅 als Bahnhof"
             }
           }
         ]
       },
       "144": {
+        "notes": "電車 ist ein Zug, wörtlich insbesondere ein elektrisch betriebener Zug. Als Verkehrsmittel steht es mit で: 電車で行く. Beim Einsteigen verwendet man に: 電車に乗る. 電車が来る beschreibt das Eintreffen eines Zuges.",
         "pitchVariants": [
           1
         ],
@@ -64889,17 +66222,18 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               1
             ],
-            "finding": "電車 / デンシャ; 名詞/普通名詞/一般/*; lemma 電車; aType 0,1.",
+            "finding": "Exaktes Nomen 電車/デンシャ, lemma 電車, POS 名詞/普通名詞/一般/*, aType 0,1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "電車",
               "reading": "でんしゃ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Train/electric train noun, densha. Travel mode and arriving train sentences are accurate, including kimashita/German gekommen. Retain primary 0 and add UniDic alternative 1."
+              "sense": "電車 als Zug"
             }
           }
         ]
       },
       "145": {
+        "notes": "バス meint hier den Autobus als Verkehrsmittel. Für Einsteigen oder Mitfahren sagt man バスに乗る, für die Art der Fortbewegung バスで行く. Gleich geschriebene Lehnwörter für Bad, Bass oder Fisch gehören zu anderen Bedeutungen.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64909,17 +66243,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "バス / バス; 名詞/普通名詞/一般/*; lemma バス-bus; aType 1.",
+            "finding": "Exaktes Nomen バス/バス, lemma バス-bus, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "バス",
               "reading": "バス",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Vehicle bus sense, distinct from bath and musical/fish bass homophones. UniDic バス-bus row matches. Basu/nanji and boarding/arrival-time examples translate correctly."
+              "sense": "バス als Bus"
             }
           }
         ]
       },
       "146": {
+        "romaji": "takushī",
+        "notes": "タクシー bezeichnet ein Taxi. Mit で nennt man es als Verkehrsmittel, mit を als das gerufene Fahrzeug: タクシーを呼ぶ. Das lange i am Wortende entsteht durch ー und wird takushī romanisiert.",
+        "examples": [
+          {
+            "japanese": "タクシーで帰ります。",
+            "romaji": "Takushī de kaerimasu.",
+            "german": "Ich fahre mit dem Taxi zurück."
+          },
+          {
+            "japanese": "タクシーを呼んでください。",
+            "romaji": "Takushī o yonde kudasai.",
+            "german": "Bitte rufen Sie ein Taxi."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64929,58 +66277,86 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "タクシー / タクシー; 名詞/普通名詞/一般/*; lemma タクシー-taxi; aType 1.",
+            "finding": "Exaktes Nomen タクシー/タクシー, lemma タクシー-taxi, POS 名詞/普通名詞/一般/*, aType 1. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "タクシー",
               "reading": "タクシー",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Taxi noun, takushii. Returning by taxi and requesting a taxi use correct kaerimasu/yonde forms and accurate German."
+              "sense": "タクシー als Taxi"
             }
           }
         ]
       },
       "147": {
+        "romaji": "hikōki",
+        "notes": "飛行機 bezeichnet ein Flugzeug. Als Reisemittel steht es mit で. 飛行機のチケット ist ein Flugticket; eine kürzere Bezeichnung dafür ist 航空券. Nicht mit 空港 („Flughafen“) verwechseln. ひこうき wird als hikōki geschrieben.",
+        "examples": [
+          {
+            "japanese": "飛行機で旅行します。",
+            "romaji": "Hikōki de ryokō shimasu.",
+            "german": "Ich reise mit dem Flugzeug."
+          },
+          {
+            "japanese": "飛行機のチケットを買いました。",
+            "romaji": "Hikōki no chiketto o kaimashita.",
+            "german": "Ich habe ein Flugticket gekauft."
+          }
+        ],
         "pitchProvenance": [
           {
-            "source": "OJAD",
-            "version": "Retrieved 2026-09-22T15:48:07.938Z; HTML SHA256 c5f7199d78073ea1ffb4c7905bb757f90bdb0a2f53520493c860f01db8e5623c",
-            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%A3%9B%E8%A1%8C%E6%A9%9F#word_10023",
-            "attribution": "University of Tokyo, Minematsu and Saito laboratories",
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search page retrieved 2026-10-03; UTF-8 saved HTML SHA256 6945ef2e9e623e2b2162256c904c7e678c9b6ea9b53048e3c73aa82807994537",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%A3%9B%E8%A1%8C%E6%A9%9F#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lexical accent lookup cited, no OJAD audio redistributed",
             "patterns": [
               2
             ],
-            "finding": "No exact complete-word row in the versioned lookup. OJAD exact noun form: [{\"reading\":\"ひこうき\",\"morae\":[\"ひ\",\"こ\",\"う\",\"き\"],\"pattern\":2,\"html\":\"<span class=\\\"accented_word\\\"><span class=\\\"mola_-4\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">ひ</span></span></span><span class=\\\" accent_top mola_-3\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">こ</span></span></span><span class=\\\"mola_-2\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">う</span></span></span><span class=\\\"mola_-1\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">き</span></span></span></span>\"}]",
+            "finding": "Die Wörterbuchform ひこうき hat accent_top auf こ, der zweiten Mora; Akzent 2. Der exakt beschriftete Nomeneintrag wurde direkt im HTML geprüft. Der UniDic-Cache enthält keine exakte Gesamtwortzeile; der Akzent wird nicht aus Bestandteilen berechnet.",
             "match": {
               "word": "飛行機",
               "reading": "ひこうき",
-              "grammaticalForm": "Noun dictionary form",
-              "sense": "Aircraft noun. Hikouki/ryokou/chiketto readings and both flight-travel/ticket-purchase sentences are correct. Exact UniDic absent; OJAD word_10023 confirms full-word accent 2."
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "飛行機 als Flugzeug"
             }
           }
         ]
       },
       "148": {
+        "notes": "自転車 ist ein Fahrrad. Für das Verkehrsmittel verwendet man で: 自転車で学校に行く. Für Aufsteigen oder Fahrradfahren steht に bei 乗る. Die Lesung lautet じてんしゃ, nicht じでんしゃ.",
+        "examples": [
+          {
+            "japanese": "自転車で学校に行きます。",
+            "romaji": "Jitensha de gakkō ni ikimasu.",
+            "german": "Ich fahre mit dem Fahrrad zur Schule."
+          },
+          {
+            "japanese": "自転車のタイヤに空気を入れます。",
+            "romaji": "Jitensha no taiya ni kūki o iremasu.",
+            "german": "Ich pumpe Luft in den Fahrradreifen."
+          }
+        ],
         "pitch": 0,
         "pitchProvenance": [
           {
-            "source": "OJAD",
-            "version": "Retrieved 2026-09-22T15:48:09.040Z; HTML SHA256 740ac1322bf98e2b200cc046ffb8fb08c00cdbac1252cd7cda36c64bf9e9b73c",
-            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%87%AA%E8%BB%A2%E8%BB%8A#word_6795",
-            "attribution": "University of Tokyo, Minematsu and Saito laboratories",
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search page retrieved 2026-10-03; UTF-8 saved HTML SHA256 a6356e0d1564a6c3457baf2d7035871e67dddae42bb6dbc0f2074eb9d83776a8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%87%AA%E8%BB%A2%E8%BB%8A#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lexical accent lookup cited, no OJAD audio redistributed",
             "patterns": [
               0
             ],
-            "finding": "No exact complete-word row in the versioned lookup. OJAD exact noun form: [{\"reading\":\"じてんしゃ\",\"morae\":[\"じ\",\"て\",\"ん\",\"しゃ\"],\"pattern\":0,\"html\":\"<span class=\\\"accented_word\\\"><span class=\\\"mola_-4\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">じ</span></span></span><span class=\\\" accent_plain mola_-3\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">て</span></span></span><span class=\\\" accent_plain mola_-2\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">ん</span></span></span><span class=\\\" accent_plain mola_-1\\\"><span class=\\\"inner\\\"><span class=\\\"char\\\">し</span><span class=\\\"char\\\">ゃ</span></span></span></span>\"}]",
+            "finding": "Die Wörterbuchform じてんしゃ zeigt die erste Mora tief und danach durchgehend accent_plain ohne accent_top; flacher Akzent 0. Der exakt beschriftete Nomeneintrag wurde direkt im HTML geprüft. Der UniDic-Cache enthält keine exakte Gesamtwortzeile; der Akzent wird nicht aus Bestandteilen berechnet.",
             "match": {
               "word": "自転車",
               "reading": "じてんしゃ",
-              "grammaticalForm": "Noun dictionary form",
-              "sense": "Bicycle noun and jitensha reading are correct. Cycling to school and riding a bicycle are adequate retained examples. Exact UniDic absent; OJAD word_6795 has all postinitial morae accent_plain with no accent_top, supporting heiban 0 and contradicting old 2."
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "自転車 als Fahrrad"
             }
           }
         ]
       },
       "149": {
+        "notes": "車（くるま）meint im Alltag meist ein Auto, kann aber allgemeiner ein Fahrzeug bezeichnen. 車を運転する heißt ein Auto fahren beziehungsweise steuern. Für „mit dem Auto fahren“ als Reisemittel steht 車で行く. Die Bedeutung Rad ist hier nicht gemeint.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -64990,17 +66366,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "車 / クルマ; 名詞/普通名詞/一般/*; lemma 車; aType 0.",
+            "finding": "Exaktes Nomen 車/クルマ, lemma 車, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "車",
               "reading": "くるま",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Car/vehicle sense rather than a wheel. Kuruma, unten and akai readings are accurate; driving and preference for red cars are naturally expressed and accurately translated."
+              "sense": "車 als Auto"
             }
           }
         ]
       },
       "150": {
+        "notes": "道（みち）bezeichnet eine Straße, einen Weg oder eine Route. Bei Fortbewegung kann die durchquerte Strecke mit を stehen: この道を行く. まっすぐ heißt in einer Wegbeschreibung geradeaus. Übertragene Bedeutungen wie Lebensweg werden hier nicht gelehrt.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65010,17 +66387,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "The road/path noun matches Weg, Straße; exclude the personal-name accent row.",
+            "finding": "Exaktes Nomen 道/ミチ, lemma 道, POS 名詞/普通名詞/一般/*, aType 0. Auswahl stimmt mit den angegebenen JMdict-Sinnen und den selbst geprüften Beispielen überein.",
             "match": {
               "word": "道",
               "reading": "みち",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The road/path noun matches Weg, Straße; exclude the personal-name accent row."
+              "sense": "道 als Weg, Straße"
             }
           }
         ]
       },
       "151": {
+        "notes": "橋（はし）ist ein Nomen für eine Brücke. „Eine Brücke überqueren“ heißt 橋を渡る; für eine Position verwendet man etwa 橋の上 „auf der Brücke“. Das gleich ausgesprochene 箸 bedeutet „Essstäbchen“; Schrift, Zusammenhang und Akzent helfen bei der Unterscheidung.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65030,17 +66408,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "The bridge noun matches Brücke; accent 2 belongs to the common noun, unlike surname accent 1.",
+            "finding": "Use ordinary noun 橋, lemma 橋, sys.dic@213942876, aType 2. Reject surname lemma ハシ at sys.dic@213941612, aType 1; that is not the bridge sense.",
             "match": {
               "word": "橋",
               "reading": "はし",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The bridge noun matches Brücke; accent 2 belongs to the common noun, unlike surname accent 1."
+              "sense": "Exact 橋/はし, JMdict 1237410, senses 1: bridge. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "152": {
+        "notes": "家（いえ）bezeichnet ein Haus oder das Zuhause. 家に帰る bedeutet „nach Hause zurückkehren“; beim Wohnort steht に. Für das eigene Zuhause ist auch うち sehr üblich. Die Lesung いえ wird hier geübt; 家 hat in Zusammensetzungen auch andere Lesungen.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65050,17 +66429,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "House/home matches Haus; no lineage sense is claimed.",
+            "finding": "Exact 家/イエ; lemma 家; 名詞/普通名詞/一般/*; aType 2. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "家",
               "reading": "いえ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "House/home matches Haus; no lineage sense is claimed."
+              "sense": "Exact 家/いえ, JMdict 1191730, senses 1: house, residence, dwelling, home. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "153": {
+        "notes": "部屋 heißt „Zimmer, Raum“. Der Aufenthaltsort steht meist mit に, eine Handlung im Zimmer mit で: 部屋にいる, 部屋で勉強する. „Das Zimmer putzen“ heißt 部屋を掃除する. Das Wort kann auch ein Hotelzimmer bezeichnen.",
         "examples": [
           {
             "japanese": "部屋はきれいです。",
@@ -65069,8 +66449,13 @@ window.VOCAB_CORRECTION_RULES = {
           },
           {
             "japanese": "部屋を掃除します。",
-            "romaji": "Heya o souji shimasu.",
+            "romaji": "Heya o sōji shimasu.",
             "german": "Ich putze das Zimmer."
+          },
+          {
+            "japanese": "このホテルの部屋を予約しました。",
+            "romaji": "Kono hoteru no heya o yoyaku shimashita.",
+            "german": "Ich habe ein Zimmer in diesem Hotel reserviert."
           }
         ],
         "pitch": 2,
@@ -65083,17 +66468,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "The room sense matches Zimmer. Exact common-noun pitch is 2; existing 0 is unsupported by this row.",
+            "finding": "Exact 部屋/ヘヤ; lemma 部屋; 名詞/普通名詞/一般/*; aType 2. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "部屋",
               "reading": "へや",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The room sense matches Zimmer. Exact common-noun pitch is 2; existing 0 is unsupported by this row."
+              "sense": "Exact 部屋/へや, JMdict 1499320, senses 1: room, chamber. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "154": {
+        "notes": "台所 bezeichnet die Küche als Raum oder Arbeitsbereich im Haushalt. Bei Tätigkeiten steht で: 台所で料理する. キッチン ist eine gebräuchliche Alternative. In 台所にいる steht dagegen に, weil nur der Aufenthaltsort angegeben wird.",
+        "examples": [
+          {
+            "japanese": "台所で料理します。",
+            "romaji": "Daidokoro de ryōri shimasu.",
+            "german": "Ich koche in der Küche."
+          },
+          {
+            "japanese": "台所で食事をします。",
+            "romaji": "Daidokoro de shokuji o shimasu.",
+            "german": "Ich esse in der Küche."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65103,37 +66501,56 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Kitchen matches Küche, excluding figurative financial affairs.",
+            "finding": "Exact 台所/ダイドコロ; lemma 台所; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "台所",
               "reading": "だいどころ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Kitchen matches Küche, excluding figurative financial affairs."
+              "sense": "Exact 台所/だいどころ, JMdict 1412640, senses 1: kitchen. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "155": {
+        "notes": "お風呂 ist die übliche höfliche Bezeichnung für ein Bad oder eine Badewanne; das お wird auch beim eigenen Bad oft verwendet. お風呂に入る heißt „ein Bad nehmen“. Eine Dusche nimmt man dagegen mit シャワーを浴びる. Das warme Badewasser wird gewöhnlich お湯 genannt.",
+        "examples": [
+          {
+            "japanese": "お風呂に入ります。",
+            "romaji": "Ofuro ni hairimasu.",
+            "german": "Ich nehme ein Bad."
+          },
+          {
+            "japanese": "お風呂はとても気持ちいいです。",
+            "romaji": "Ofuro wa totemo kimochi ii desu.",
+            "german": "Das Bad fühlt sich sehr gut an."
+          },
+          {
+            "japanese": "お風呂のお湯が熱いです。",
+            "romaji": "Ofuro no oyu ga atsui desu.",
+            "german": "Das Wasser in der Badewanne ist heiß."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "The Japan Foundation, Irodori Starter vocabulary list (Nepali)",
-            "version": "2021/10/01; retrieved 2026-09-22",
+            "version": "2021/10/01; primary PDF retrieved 2026-10-03",
             "locator": "https://nd.jpf.go.jp/wp-content/uploads/2022/06/wordlist_X.pdf#page=21",
             "attribution": "The Japan Foundation",
             "patterns": [
               2
             ],
-            "finding": "Printed whole-form ofuro entry (lesson 7, page L7-1) places the downstep after the second mora. The notation guide identifies the down arrow as an accent fall.",
+            "finding": "Freshly checked the official Japan Foundation Irodori Starter vocabulary PDF, page 21 (printed L7-1): exact prefixed お風呂 / ofuro has おふ↓ろ. Page 2 defines ↓ as the downstep, so the fall after the second mora supports pattern 2. UniDic has no exact prefixed match.",
             "match": {
               "word": "お風呂",
               "reading": "おふろ",
               "grammaticalForm": "Whole prefixed noun, dictionary form",
-              "sense": "Bath/bathroom, matching the exact prefixed headword and bathing context; not an inferred unprefixed accent."
+              "sense": "Exact prefixed noun お風呂, bath/bathroom, matching JMdict 2220600 bath and the retained bathing examples; no inference from the unprefixed 風呂 accent."
             }
           }
         ]
       },
       "156": {
+        "notes": "トイレ bezeichnet die Toilette oder den Toilettenraum. トイレはどこですか fragt nach dem Weg dorthin; トイレに行く heißt „zur Toilette gehen“. お手洗い（おてあらい）ist eine höflichere Bezeichnung, die man häufig auf Schildern oder in der Gastronomie findet.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65143,17 +66560,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "The abbreviated restroom noun matches Toilette and accent 1.",
+            "finding": "Exact トイレ/トイレ; lemma トイレ-toilet; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "トイレ",
               "reading": "トイレ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "The abbreviated restroom noun matches Toilette and accent 1."
+              "sense": "Exact トイレ/トイレ, JMdict 1084810, senses 1: toilet, restroom, bathroom, lavatory. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "157": {
+        "notes": "窓 ist das Nomen für ein Fenster. „Ein Fenster öffnen oder schließen“ heißt 窓を開ける・閉める. 窓から beschreibt den Blick von dort aus, etwa 窓から山が見える. Für einen Sitzplatz am Fenster ist 窓側（まどがわ）üblich.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65163,17 +66581,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Window matches Fenster and common-noun accent 1.",
+            "finding": "Exact 窓/マド; lemma 窓; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "窓",
               "reading": "まど",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Window matches Fenster and common-noun accent 1."
+              "sense": "Exact 窓/まど, JMdict 1401400, senses 1: window. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "158": {
+        "notes": "ドア bezeichnet eine Tür, häufig eine Tür mit Scharnieren. ドアを開ける・閉める heißt „die Tür öffnen oder schließen“. ドアの前 ist der Bereich vor der Tür. Für den Hauseingang als Bereich verwendet man oft 玄関（げんかん）.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65183,17 +66602,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Door matches Tür; loanword doa has accent 1.",
+            "finding": "Exact ドア/ドア; lemma ドア-door; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "ドア",
               "reading": "ドア",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Door matches Tür; loanword doa has accent 1."
+              "sense": "Exact ドア/ドア, JMdict 1087820, senses 1: door. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "159": {
+        "notes": "机 bezeichnet einen Tisch zum Arbeiten, Lernen oder Schreiben, meistens einen Schreibtisch. 机の上 heißt „auf dem Schreibtisch“, 机の下 „unter dem Schreibtisch“. Ein Ess- oder Wohnzimmertisch wird häufig テーブル genannt; die Verwendung ist für die Wortwahl wichtig.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65203,12 +66623,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Desk matches Schreibtisch; common-noun 0 is distinct from surname accent 1.",
+            "finding": "Use ordinary noun 机, lemma 机, sys.dic@174074771, aType 0. Reject surname ツクエ at sys.dic@174073861, aType 1.",
             "match": {
               "word": "机",
               "reading": "つくえ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Desk matches Schreibtisch; common-noun 0 is distinct from surname accent 1."
+              "sense": "Exact 机/つくえ, JMdict 1220210, senses 1: desk. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
@@ -65256,6 +66676,25 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "161": {
+        "meaning": "Telefon, Telefonanruf",
+        "notes": "電話 kann das Telefon oder einen Telefonanruf bezeichnen. 電話をかける heißt „anrufen“, 電話で話す „am Telefon sprechen“. Auch 電話する ist gebräuchlich. In 電話が鳴る „das Telefon klingelt“ steht das Gerät im Vordergrund.",
+        "examples": [
+          {
+            "japanese": "電話をかけます。",
+            "romaji": "Denwa o kakemasu.",
+            "german": "Ich rufe an."
+          },
+          {
+            "japanese": "電話で話しています。",
+            "romaji": "Denwa de hanashite imasu.",
+            "german": "Ich telefoniere gerade."
+          },
+          {
+            "japanese": "電話が鳴っています。",
+            "romaji": "Denwa ga natte imasu.",
+            "german": "Das Telefon klingelt."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65265,17 +66704,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "The telephone/call senses support Telefon in the taught collocations; no claim that all uses denote the device.",
+            "finding": "Exact 電話/デンワ; lemma 電話; 名詞/普通名詞/サ変可能/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "電話",
               "reading": "でんわ",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "The telephone/call senses support Telefon in the taught collocations; no claim that all uses denote the device."
+              "sense": "Exact 電話/でんわ, JMdict 1443840, senses 1, 2: telephone call, phone call; telephone (device), phone. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "162": {
+        "notes": "時計 bezeichnet eine Uhr; der Zusammenhang zeigt, ob eine Armbanduhr, Wanduhr oder andere Uhr gemeint ist. 腕時計（うでどけい）ist ausdrücklich eine Armbanduhr. 時計を見る bedeutet „auf die Uhr schauen“; für die Uhrzeit verwendet man 時間 oder eine Angabe mit 時.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65285,17 +66725,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Clock/watch matches Uhr; the recorded ateji reading is valid tokei.",
+            "finding": "Exact 時計/トケイ; lemma 時計; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "時計",
               "reading": "とけい",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Clock/watch matches Uhr; the recorded ateji reading is valid tokei."
+              "sense": "Exact 時計/とけい, JMdict 1316140, senses 1: clock, watch, timepiece. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "163": {
+        "notes": "傘 bezeichnet einen Regen- oder Sonnenschirm; im Alltag ist häufig der Regenschirm gemeint. „Einen Schirm aufspannen bzw. benutzen“ heißt 傘を差す（さす）. 傘を持つ kann das Halten oder Mitführen meinen. Schirme werden mit 本 gezählt, etwa 傘を一本.",
+        "examples": [
+          {
+            "japanese": "傘を忘れました。",
+            "romaji": "Kasa o wasuremashita.",
+            "german": "Ich habe meinen Regenschirm vergessen."
+          },
+          {
+            "japanese": "雨なので傘を持ちます。",
+            "romaji": "Ame na node kasa o mochimasu.",
+            "german": "Da es regnet, nehme ich einen Schirm mit."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65305,17 +66758,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Umbrella/parasol supports Regenschirm in the taught rain context.",
+            "finding": "Exact 傘/カサ; lemma 傘; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "傘",
               "reading": "かさ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Umbrella/parasol supports Regenschirm in the taught rain context."
+              "sense": "Exact 傘/かさ, JMdict 1301940, senses 1: umbrella, parasol. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "164": {
+        "notes": "鍵 ist ein Schlüssel; das Wort kann auch das Schloss bezeichnen. 鍵をかける bedeutet als feste Verbindung „abschließen“, 鍵を開ける „aufschließen“. Die Tür steht dabei häufig als Thema oder mit に. Schlüssel werden üblicherweise mit 本 gezählt.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65325,17 +66779,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Key matches Schlüssel; kagi o kakeru is the normal locking collocation.",
+            "finding": "Exact 鍵/カギ; lemma 鍵; 名詞/普通名詞/一般/*; aType 2. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "鍵",
               "reading": "かぎ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Key matches Schlüssel; kagi o kakeru is the normal locking collocation."
+              "sense": "Exact 鍵/かぎ, JMdict 1260490, senses 1, 2: key; lock. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "165": {
+        "notes": "財布 ist eine Geldbörse oder ein Portemonnaie für Bargeld und Karten. 財布にお金を入れる heißt „Geld in die Geldbörse stecken“; 財布を忘れる „die Geldbörse vergessen“. Für eine kleine Münzbörse verwendet man auch 小銭入れ（こぜにいれ）.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65345,17 +66800,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Wallet/purse matches Geldbörse and accent 0.",
+            "finding": "Exact 財布/サイフ; lemma 財布; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "財布",
               "reading": "さいふ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Wallet/purse matches Geldbörse and accent 0."
+              "sense": "Exact 財布/さいふ, JMdict 1296970, senses 1: wallet, purse, coin purse, billfold, pocketbook. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "166": {
+        "notes": "かばん bezeichnet eine Tasche, etwa eine Schul-, Reise- oder Aktentasche. Die Kanji-Schreibung lautet 鞄. かばんに本を入れる heißt „ein Buch in die Tasche stecken“, かばんの中 „das Innere der Tasche“. Eine einfache Tüte wird eher 袋（ふくろ）genannt.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65365,17 +66821,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Select kana-preferred bag sense 1208910, excluding going off duty and castle guards. Pitch comes from the common noun, not inflected kabaru.",
+            "finding": "Exact かばん/カバン; lemma 鞄; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "かばん",
               "reading": "かばん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Select kana-preferred bag sense 1208910, excluding going off duty and castle guards. Pitch comes from the common noun, not inflected kabaru."
+              "sense": "JMdict 1208910 is the bag/satchel/briefcase entry. Reject kana-homophonous 1186150 going off duty and 2856280 castle guards: neither fits this headword meaning, note or examples."
             }
           }
         ]
       },
       "167": {
+        "notes": "本 bedeutet als selbstständiges Nomen „Buch“. Bücher werden mit 冊 gezählt: 本を一冊 „ein Buch“. Das Zeichen 本 erscheint auch als Zählwort für lange, dünne Dinge; dann ist es nicht das Nomen „Buch“. 図書館で本を借りる heißt „ein Buch in der Bibliothek ausleihen“.",
         "examples": [
           {
             "japanese": "この本は面白いです。",
@@ -65397,17 +66854,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Book matches Buch; exclude counter and prefix rows and select common-noun accent 1.",
+            "finding": "Select ordinary noun 本, sys.dic@245734725, aType 1. Counter and prefix rows with aType * do not attest a separate numeric lexical accent; the counter is mentioned only as a grammatical contrast.",
             "match": {
               "word": "本",
               "reading": "ほん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Book matches Buch; exclude counter and prefix rows and select common-noun accent 1."
+              "sense": "Exact 本/ほん, JMdict 1522150, senses 1, 5: book, volume, script; counter for long, thin objects (sticks, tubes, strings, bottles, pillars, rivers, rail lines, etc.). German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "168": {
+        "notes": "新聞 ist eine Zeitung, nicht jede beliebige Nachricht. 新聞を読む heißt „Zeitung lesen“, 新聞を買う „eine Zeitung kaufen“. Eine Zeitschrift heißt 雑誌. Ein einzelnes Zeitungsexemplar kann mit 部 gezählt werden, etwa 新聞を一部.",
+        "examples": [
+          {
+            "japanese": "新聞を読みます。",
+            "romaji": "Shinbun o yomimasu.",
+            "german": "Ich lese die Zeitung."
+          },
+          {
+            "japanese": "朝新聞を読みます。",
+            "romaji": "Asa shinbun o yomimasu.",
+            "german": "Morgens lese ich die Zeitung."
+          },
+          {
+            "japanese": "駅で新聞を買いました。",
+            "romaji": "Eki de shinbun o kaimashita.",
+            "german": "Ich habe am Bahnhof eine Zeitung gekauft."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65417,17 +66892,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Newspaper matches Zeitung and accent 0.",
+            "finding": "Exact 新聞/シンブン; lemma 新聞; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "新聞",
               "reading": "しんぶん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Newspaper matches Zeitung and accent 0."
+              "sense": "Exact 新聞/しんぶん, JMdict 1362360, senses 1: newspaper. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "169": {
+        "notes": "雑誌 bezeichnet eine Zeitschrift oder ein Magazin, also eine periodisch erscheinende Veröffentlichung. 新聞 ist dagegen eine Zeitung. 雑誌を読む・買う sind häufige Verbindungen. Einzelne Hefte können mit 冊 gezählt werden, etwa 雑誌を一冊.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65437,17 +66913,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Magazine/periodical matches Zeitschrift and accent 0.",
+            "finding": "Exact 雑誌/ザッシ; lemma 雑誌; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "雑誌",
               "reading": "ざっし",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Magazine/periodical matches Zeitschrift and accent 0."
+              "sense": "Exact 雑誌/ざっし, JMdict 1299400, senses 1: magazine, journal, periodical. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "170": {
+        "notes": "辞書 ist ein Wörterbuch. 辞書で調べる heißt „im Wörterbuch nachschlagen“; で markiert dabei das Hilfsmittel. 日本語の辞書 kann ein Wörterbuch für Japanisch sein. Auch Wörterbuch-Apps oder elektronische Wörterbücher werden je nach Zusammenhang 辞書 genannt.",
+        "examples": [
+          {
+            "japanese": "辞書を使ってください。",
+            "romaji": "Jisho o tsukatte kudasai.",
+            "german": "Bitte benutzen Sie das Wörterbuch."
+          },
+          {
+            "japanese": "辞書で調べてください。",
+            "romaji": "Jisho de shirabete kudasai.",
+            "german": "Bitte schlagen Sie es im Wörterbuch nach."
+          },
+          {
+            "japanese": "これは日本語とドイツ語の辞書です。",
+            "romaji": "Kore wa Nihongo to Doitsugo no jisho desu.",
+            "german": "Das ist ein Wörterbuch für Japanisch und Deutsch."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65457,17 +66951,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Dictionary matches Wörterbuch; exclude the archaic resignation-letter sense.",
+            "finding": "Exact 辞書/ジショ; lemma 辞書; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "辞書",
               "reading": "じしょ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Dictionary matches Wörterbuch; exclude the archaic resignation-letter sense."
+              "sense": "Exact 辞書/じしょ, JMdict 1318970, senses 1: dictionary, lexicon. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "171": {
+        "romaji": "nōto",
+        "notes": "ノート bezeichnet hier ein Heft oder Notizbuch. ノートに書く heißt „ins Heft schreiben“; に markiert die Fläche oder den Zielort des Eintrags. ノートを取る ist die feste Verbindung für „Notizen machen“. Das deutsche „Note“ im Sinne einer Schulnote entspricht dieser Bedeutung nicht.",
+        "examples": [
+          {
+            "japanese": "ノートに書いてください。",
+            "romaji": "Nōto ni kaite kudasai.",
+            "german": "Bitte schreiben Sie es ins Heft."
+          },
+          {
+            "japanese": "ノートを忘れました。",
+            "romaji": "Nōto o wasuremashita.",
+            "german": "Ich habe mein Heft vergessen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65477,17 +66985,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Notebook/exercise book matches Notizbuch, Heft; no laptop or musical-note sense is taught.",
+            "finding": "Exact ノート/ノート; lemma ノート-note; 名詞/普通名詞/サ変可能/*; aType 1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "ノート",
               "reading": "ノート",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Notebook/exercise book matches Notizbuch, Heft; no laptop or musical-note sense is taught."
+              "sense": "Exact ノート/ノート, JMdict 1093450, senses 1: notebook, copy-book, exercise book. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "172": {
+        "notes": "鉛筆 bezeichnet einen Bleistift, meist einen Holzbleistift. 鉛筆で書く heißt „mit Bleistift schreiben“; で markiert das Schreibwerkzeug. Für einen Druckbleistift ist シャープペンシル oder kurz シャーペン üblich. Bleistifte werden mit 本 gezählt.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65497,18 +67006,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Wooden pencil matches Bleistift and common-noun accent 0.",
+            "finding": "Exact 鉛筆/エンピツ; lemma 鉛筆; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "鉛筆",
               "reading": "えんぴつ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Wooden pencil matches Bleistift and common-noun accent 0."
+              "sense": "Exact 鉛筆/えんぴつ, JMdict 1178590, senses 1: (wooden) pencil. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "173": {
         "meaning": "Stift (mit Tinte), Schreibfeder",
+        "notes": "ペン ist ein Schreibgerät mit Tinte oder eine Schreibfeder; ein Bleistift heißt 鉛筆. ボールペン bezeichnet ausdrücklich einen Kugelschreiber. ペンで書く bedeutet „mit einem Stift schreiben“; einzelne Stifte werden mit 本 gezählt.",
+        "examples": [
+          {
+            "japanese": "ペンを貸してください。",
+            "romaji": "Pen o kashite kudasai.",
+            "german": "Bitte leihen Sie mir einen Stift."
+          },
+          {
+            "japanese": "赤いペンをください。",
+            "romaji": "Akai pen o kudasai.",
+            "german": "Einen roten Stift, bitte."
+          },
+          {
+            "japanese": "ペンで名前を書きます。",
+            "romaji": "Pen de namae o kakimasu.",
+            "german": "Ich schreibe meinen Namen mit einem Stift."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65518,17 +67045,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "General pen is broader than Kugelschreiber; replace with Stift (mit Tinte), Schreibfeder. Exclude the PEN organization and unrelated pitch homophones.",
+            "finding": "Exact ペン/ペン; lemma ペン-pen; 名詞/普通名詞/一般/*; aType 1. Ordinary-noun form and taught sense checked; surname/place and other homophone rows are not selected.",
             "match": {
               "word": "ペン",
               "reading": "ペン",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "General pen is broader than Kugelschreiber; replace with Stift (mit Tinte), Schreibfeder. Exclude the PEN organization and unrelated pitch homophones."
+              "sense": "Select JMdict 1121380 pen, not 5000059 the PEN literary association. UniDic ordinary noun lemma ペン-pen supplies the writing-instrument sense; reject person/place names and kana forms under 変 or 片."
             }
           }
         ]
       },
       "174": {
+        "notes": "写真 ist ein Foto oder eine Fotografie. „Ein Foto machen“ heißt 写真を撮る, nicht 写真を作る. 写真を見せる bedeutet „Fotos zeigen“. Fotos als flache Gegenstände werden mit 枚 gezählt, etwa 写真を一枚.",
+        "examples": [
+          {
+            "japanese": "写真を撮りましょう。",
+            "romaji": "Shashin o torimashō.",
+            "german": "Lass uns ein Foto machen."
+          },
+          {
+            "japanese": "旅行の写真を見せてください。",
+            "romaji": "Ryokō no shashin o misete kudasai.",
+            "german": "Zeigen Sie mir die Reisefotos."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65538,17 +67078,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Photograph matches Foto; exclude the obsolete movie sense.",
+            "finding": "Exact 写真/シャシン; lemma 写真; 名詞/普通名詞/一般/*; aType 0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "写真",
               "reading": "しゃしん",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Photograph matches Foto; exclude the obsolete movie sense."
+              "sense": "Exact 写真/しゃしん, JMdict 1321900, senses 1: photograph, photo, picture, photography. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "175": {
+        "notes": "映画 bezeichnet einen Film als Werk oder eine Filmvorführung. 映画を見る heißt „einen Film ansehen“; 映画を見に行く „zum Ansehen eines Films ausgehen“. Das Kino als Gebäude heißt 映画館（えいがかん）. „Japanische Filme“ kann man mit 日本の映画 ausdrücken.",
         "pitchVariants": [
           1
         ],
@@ -65562,17 +67103,35 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               1
             ],
-            "finding": "Film matches Film. Exact UniDic noun row attests 0 and 1; retain primary 0 and add alternative 1.",
+            "finding": "Exact 映画/エイガ; lemma 映画; 名詞/普通名詞/一般/*; aType 0,1. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "映画",
               "reading": "えいが",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Film matches Film. Exact UniDic noun row attests 0 and 1; retain primary 0 and add alternative 1."
+              "sense": "Exact 映画/えいが, JMdict 1173720, senses 1: movie, film, motion picture. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "176": {
+        "notes": "音楽 ist der Sammelbegriff für Musik. 音楽を聞く heißt „Musik hören“; für aufmerksames oder genussvolles Zuhören wird auch 聴く geschrieben. Eine Musikrichtung kann davorstehen, etwa クラシック音楽. Ein einzelnes Musikstück heißt 曲（きょく）.",
+        "examples": [
+          {
+            "japanese": "音楽を聞きます。",
+            "romaji": "Ongaku o kikimasu.",
+            "german": "Ich höre Musik."
+          },
+          {
+            "japanese": "クラシック音楽が好きです。",
+            "romaji": "Kurashikku ongaku ga suki desu.",
+            "german": "Ich mag klassische Musik."
+          },
+          {
+            "japanese": "隣の部屋から音楽が聞こえます。",
+            "romaji": "Tonari no heya kara ongaku ga kikoemasu.",
+            "german": "Aus dem Nachbarzimmer ist Musik zu hören."
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -65586,17 +67145,31 @@ window.VOCAB_CORRECTION_RULES = {
               1,
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "finding": "Exact 音楽/オンガク; lemma 音楽; 名詞/普通名詞/一般/*; aType 1,0. Ordinary-noun form and taught sense checked.",
             "match": {
               "word": "音楽",
               "reading": "おんがく",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Musik"
+              "sense": "Exact 音楽/おんがく, JMdict 1183720, senses 1: music. German guidance and contextual examples select these uses, preserving the existing lexical identity."
             }
           }
         ]
       },
       "177": {
+        "romaji": "ryokō",
+        "notes": "旅行 bezeichnet eine Reise und bildet mit する das Verb reisen. 旅行に行く ist ebenfalls eine übliche Verbindung. Ein einzelner alltäglicher Weg zur Schule ist normalerweise keine 旅行; das Wort betont eine Reise oder einen Ausflug.",
+        "examples": [
+          {
+            "japanese": "旅行が好きです。",
+            "romaji": "Ryokō ga suki desu.",
+            "german": "Ich mag Reisen."
+          },
+          {
+            "japanese": "来月旅行に行きます。",
+            "romaji": "Raigetsu ryokō ni ikimasu.",
+            "german": "Nächsten Monat reise ich."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65606,17 +67179,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "finding": "Exakte Orthographie 旅行 und Lesung リョコウ, Lemma 旅行, 名詞/普通名詞/サ変可能/*, aType 0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "旅行",
               "reading": "りょこう",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Reise"
+              "sense": "旅行 als Reise"
             }
           }
         ]
       },
       "178": {
+        "notes": "散歩 ist ein Spaziergang, oft ohne ein bestimmtes Ziel und zur Erholung. 散歩する heißt spazieren gehen. Der durchquerte Raum kann mit を stehen, eine Begleitperson mit と: 公園を散歩する, 犬と散歩する.",
+        "examples": [
+          {
+            "japanese": "公園を散歩します。",
+            "romaji": "Kōen o sanpo shimasu.",
+            "german": "Ich gehe im Park spazieren."
+          },
+          {
+            "japanese": "毎朝犬と散歩します。",
+            "romaji": "Maiasa inu to sanpo shimasu.",
+            "german": "Jeden Morgen gehe ich mit dem Hund spazieren."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65626,17 +67212,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "finding": "Exakte Orthographie 散歩 und Lesung サンポ, Lemma 散歩, 名詞/普通名詞/サ変可能/*, aType 0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "散歩",
               "reading": "さんぽ",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Spaziergang"
+              "sense": "散歩 als Spaziergang"
             }
           }
         ]
       },
       "179": {
+        "notes": "天気 bezeichnet das Wetter allgemein. Mit どうですか fragt man nach seinem Zustand, mit 晴れ, 雨 oder 雪 gibt man eine Wetterlage an. „Schönes Wetter“ ist いい天気. 今日の天気 verbindet die Tagesangabe mit dem Nomen durch の.",
+        "examples": [
+          {
+            "japanese": "今日の天気はどうですか。",
+            "romaji": "Kyō no tenki wa dō desu ka.",
+            "german": "Wie ist das Wetter heute?"
+          },
+          {
+            "japanese": "明日の天気は晴れです。",
+            "romaji": "Ashita no tenki wa hare desu.",
+            "german": "Morgen wird es sonnig."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65646,17 +67245,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 天気 und Lesung テンキ, Lemma 天気, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "天気",
               "reading": "てんき",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Wetter"
+              "sense": "天気 als Wetter"
             }
           }
         ]
       },
       "180": {
+        "notes": "雨 ist ein Nomen: 雨です bedeutet im Wetterbericht „es regnet/es gibt Regen“. Für den laufenden Niederschlag verwendet man 雨が降っています. 雨の日 heißt Regentag; の verbindet das Wetter mit dem Tag.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65666,17 +67266,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 雨 und Lesung アメ, Lemma 雨, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "雨",
               "reading": "あめ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Regen"
+              "sense": "雨 als Regen"
             }
           }
         ]
       },
       "181": {
+        "notes": "雪 bezeichnet Schnee und Schneefall. 雪が降る heißt „es schneit“; 雪が降っています beschreibt den gerade laufenden Schneefall. Bei einer Schneemenge verwendet man etwa 雪が多い. Personennamen mit derselben Lesung sind nicht gemeint.",
+        "examples": [
+          {
+            "japanese": "雪が降っています。",
+            "romaji": "Yuki ga futte imasu.",
+            "german": "Es schneit."
+          },
+          {
+            "japanese": "今年は雪が多いです。",
+            "romaji": "Kotoshi wa yuki ga ōi desu.",
+            "german": "Dieses Jahr gibt es viel Schnee."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65686,17 +67299,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 雪 und Lesung ユキ, Lemma 雪, 名詞/普通名詞/一般/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "雪",
               "reading": "ゆき",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Schnee"
+              "sense": "雪 als Schnee"
             }
           }
         ]
       },
       "182": {
+        "notes": "風（かぜ）bedeutet hier Wind. Mit 強い beschreibt man seine Stärke, mit 涼しい seine angenehm kühle Wirkung. Eine Erkältung schreibt man normalerweise 風邪, ebenfalls かぜ. Die Lesung ふう in anderen Verwendungen ist nicht die Lesung dieser Karte.",
+        "examples": [
+          {
+            "japanese": "今日は風が強いです。",
+            "romaji": "Kyō wa kaze ga tsuyoi desu.",
+            "german": "Heute ist der Wind stark."
+          },
+          {
+            "japanese": "秋は風が涼しいです。",
+            "romaji": "Aki wa kaze ga suzushii desu.",
+            "german": "Im Herbst ist der Wind kühl."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65706,17 +67332,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "finding": "Exakte Orthographie 風 und Lesung カゼ, Lemma 風, 名詞/普通名詞/一般/*, aType 0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "風",
               "reading": "かぜ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Wind"
+              "sense": "風 als Wind"
             }
           }
         ]
       },
       "183": {
+        "notes": "空（そら）meint den Himmel beziehungsweise den Luftraum. 空に星が見える beschreibt die Position sichtbarer Sterne mit に. Dasselbe Kanji wird in anderen Wörtern auch から oder くう gelesen; diese Lesungen werden hier nicht verwendet.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65726,17 +67353,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 空 und Lesung ソラ, Lemma 空, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "空",
               "reading": "そら",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Himmel"
+              "sense": "空 als Himmel"
             }
           }
         ]
       },
       "184": {
+        "notes": "山（やま）bezeichnet einen Berg oder Hügel. 山に登る heißt auf einen Berg steigen. In vielen Bergnamen liest man 山 als さん, etwa 富士山（ふじさん）; deshalb ist 富士山 nicht *ふじやま in der hier verwendeten Standardbezeichnung.",
+        "examples": [
+          {
+            "japanese": "山に登ります。",
+            "romaji": "Yama ni noborimasu.",
+            "german": "Ich steige auf den Berg."
+          },
+          {
+            "japanese": "富士山は日本で一番高い山です。",
+            "romaji": "Fujisan wa Nihon de ichiban takai yama desu.",
+            "german": "Der Fuji ist der höchste Berg Japans."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65746,17 +67386,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 山 und Lesung ヤマ, Lemma 山, 名詞/普通名詞/一般/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "山",
               "reading": "やま",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Berg"
+              "sense": "山 als Berg"
             }
           }
         ]
       },
       "185": {
+        "notes": "川（かわ）bezeichnet einen Fluss oder Bach. Bei einer Tätigkeit im Fluss steht der Ort mit で. 川の水 bedeutet Flusswasser. In Flussnamen kann sich die Lesung durch Lautverbindung zu がわ ändern, etwa 多摩川（たまがわ）.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65766,17 +67407,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 川 und Lesung カワ, Lemma 川, 名詞/普通名詞/一般/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "川",
               "reading": "かわ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Fluss"
+              "sense": "川 als Fluss"
             }
           }
         ]
       },
       "186": {
+        "notes": "海 bezeichnet das Meer oder den Ozean. Die Verbindung 海に行く kann einen Ausflug an die Küste meinen, nicht zwingend ins Wasser hinein. Für eine Tätigkeit im Meer steht で: 海で泳ぐ. Der Zielort bei 行く steht mit に.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65786,17 +67428,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 海 und Lesung ウミ, Lemma 海, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "海",
               "reading": "うみ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Meer"
+              "sense": "海 als Meer"
             }
           }
         ]
       },
       "187": {
+        "notes": "花（はな）bezeichnet eine Blume oder Blüte. Es kann mehrere Blumen meinen, obwohl das Nomen keine eigene Pluralform braucht. Eine Pflanzstelle wird mit に angegeben: 庭に花を植える. 鼻 („Nase“) hat dieselbe Lesung, ist aber ein anderes Wort.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65806,17 +67449,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 花 und Lesung ハナ, Lemma 花, 名詞/普通名詞/一般/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "花",
               "reading": "はな",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Blume"
+              "sense": "花 als Blume"
             }
           }
         ]
       },
       "188": {
+        "notes": "木（き）bezeichnet hier einen Baum. 木 kann auch Holz heißen, doch die Beispiele betreffen einen lebenden Baum. 木の下 heißt unter dem Baum; der Ort einer Tätigkeit wird anschließend mit で markiert.",
+        "examples": [
+          {
+            "japanese": "大きい木があります。",
+            "romaji": "Ōkii ki ga arimasu.",
+            "german": "Es gibt einen großen Baum."
+          },
+          {
+            "japanese": "木の下で休みます。",
+            "romaji": "Ki no shita de yasumimasu.",
+            "german": "Ich ruhe mich unter dem Baum aus."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65826,17 +67482,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 木 und Lesung キ, Lemma 木, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "木",
               "reading": "き",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Baum"
+              "sense": "木 als Baum"
             }
           }
         ]
       },
       "189": {
+        "notes": "犬 bedeutet Hund. Für die Anwesenheit eines Hundes verwendet man als Lebewesen いる. 犬と散歩する heißt mit einem Hund spazieren gehen; と nennt den Begleiter. Hunde zählt man gewöhnlich mit 匹, große Tiere je nach Kontext auch mit 頭.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65846,17 +67503,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 犬 und Lesung イヌ, Lemma 犬, 名詞/普通名詞/一般/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "犬",
               "reading": "いぬ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Hund"
+              "sense": "犬 als Hund"
             }
           }
         ]
       },
       "190": {
+        "notes": "猫 bezeichnet eine Katze. Als Lebewesen wird ihre Existenz mit いる ausgedrückt. 猫は魚が好きです hat zwei Rollen: 猫は ist das Thema, 魚が das, was gemocht wird. Katzen zählt man meist mit 匹.",
+        "examples": [
+          {
+            "japanese": "猫がいます。",
+            "romaji": "Neko ga imasu.",
+            "german": "Da ist eine Katze."
+          },
+          {
+            "japanese": "この猫は魚が好きです。",
+            "romaji": "Kono neko wa sakana ga suki desu.",
+            "german": "Diese Katze mag Fisch."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65866,17 +67536,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 猫 und Lesung ネコ, Lemma 猫, 名詞/普通名詞/一般/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "猫",
               "reading": "ねこ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Katze"
+              "sense": "猫 als Katze"
             }
           }
         ]
       },
       "191": {
+        "notes": "鳥 bedeutet Vogel. Für fliegen sagt man 鳥が飛ぶ; Vogelrufe beschreibt man normalerweise mit 鳴く. Geflügelfleisch wird häufig 鶏肉 geschrieben; die Karte behandelt die lebenden Vögel. Für Tiere dieser Art ist 羽 ein üblicher Zähler.",
+        "examples": [
+          {
+            "japanese": "鳥が飛んでいます。",
+            "romaji": "Tori ga tonde imasu.",
+            "german": "Ein Vogel fliegt."
+          },
+          {
+            "japanese": "朝、鳥が鳴いています。",
+            "romaji": "Asa, tori ga naite imasu.",
+            "german": "Morgens zwitschern die Vögel."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65886,17 +67569,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0.",
+            "finding": "Exakte Orthographie 鳥 und Lesung トリ, Lemma 鳥, 名詞/普通名詞/一般/*, aType 0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "鳥",
               "reading": "とり",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Vogel"
+              "sense": "鳥 als Vogel"
             }
           }
         ]
       },
       "192": {
+        "romaji": "kyō",
+        "notes": "今日（きょう）bedeutet heute. Als einfache Zeitangabe braucht es normalerweise kein に; は hebt den heutigen Tag als Thema hervor. Vor einem Nomen verbindet man mit の: 今日の天気. Die lange Lesung きょう wird kyō geschrieben.",
+        "examples": [
+          {
+            "japanese": "今日は何曜日ですか。",
+            "romaji": "Kyō wa nan'yōbi desu ka.",
+            "german": "Welcher Wochentag ist heute?"
+          },
+          {
+            "japanese": "今日はいい天気です。",
+            "romaji": "Kyō wa ii tenki desu.",
+            "german": "Heute ist schönes Wetter."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65906,17 +67603,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 今日 und Lesung キョウ, Lemma 今日, 名詞/普通名詞/副詞可能/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "今日",
               "reading": "きょう",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "heute"
+              "sense": "今日 als heute"
             }
           }
         ]
       },
       "193": {
+        "notes": "明日（あした）ist der Tag nach heute. Das deutsche „morgen“ ist hier nicht die Tageszeit Morgen, die 朝 heißt. Als Zeitangabe braucht 明日 normalerweise kein に; 明日は setzt die Planung des nächsten Tages als Thema.",
+        "examples": [
+          {
+            "japanese": "明日は日曜日です。",
+            "romaji": "Ashita wa nichiyōbi desu.",
+            "german": "Morgen ist Sonntag."
+          },
+          {
+            "japanese": "明日は何をしますか。",
+            "romaji": "Ashita wa nani o shimasu ka.",
+            "german": "Was machen Sie morgen?"
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -65930,17 +67640,31 @@ window.VOCAB_CORRECTION_RULES = {
               3,
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 3, 0.",
+            "finding": "Exakte Orthographie 明日 und Lesung アシタ, Lemma 明日, 名詞/普通名詞/副詞可能/*, aType 3,0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "明日",
               "reading": "あした",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "morgen"
+              "sense": "明日 als morgen"
             }
           }
         ]
       },
       "194": {
+        "romaji": "kinō",
+        "notes": "昨日（きのう）bezeichnet den Tag vor heute. Passende Aussagen über abgeschlossene Handlungen stehen häufig in der Vergangenheit, etwa 見ました. Auch Adjektive bilden eine Vergangenheit: 忙しかった. Das lange o wird kinō geschrieben.",
+        "examples": [
+          {
+            "japanese": "昨日映画を見ました。",
+            "romaji": "Kinō eiga o mimashita.",
+            "german": "Gestern habe ich einen Film gesehen."
+          },
+          {
+            "japanese": "昨日は忙しかったです。",
+            "romaji": "Kinō wa isogashikatta desu.",
+            "german": "Gestern war ich beschäftigt."
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -65954,17 +67678,18 @@ window.VOCAB_CORRECTION_RULES = {
               2,
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2, 0.",
+            "finding": "Exakte Orthographie 昨日 und Lesung キノウ, Lemma 昨日, 名詞/普通名詞/副詞可能/*, aType 2,0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "昨日",
               "reading": "きのう",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "gestern"
+              "sense": "昨日 als gestern"
             }
           }
         ]
       },
       "195": {
+        "notes": "朝 bezeichnet den Morgen als Tageszeit, nicht den nächsten Tag（明日）. Es kann direkt als Zeitangabe stehen: 朝早く起きる. 朝ご飯 ist Frühstück; 朝ご飯の前に heißt vor dem Frühstück. Die Karte verwendet die Lesung あさ.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65974,17 +67699,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 朝 und Lesung アサ, Lemma 朝, 名詞/普通名詞/副詞可能/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "朝",
               "reading": "あさ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Morgen"
+              "sense": "朝 als Morgen"
             }
           }
         ]
       },
       "196": {
+        "meaning": "Mittag, tagsüber",
+        "notes": "昼 kann die Mittagszeit oder allgemein die helle Tageszeit meinen. 昼ご飯 heißt Mittagessen. In einem Gegensatz zu 夜 ist 昼 oft „tagsüber“, nicht nur genau zwölf Uhr. Die Lesung lautet ひる.",
+        "examples": [
+          {
+            "japanese": "昼ご飯を食べます。",
+            "romaji": "Hirugohan o tabemasu.",
+            "german": "Ich esse Mittagessen."
+          },
+          {
+            "japanese": "昼は暑いです。",
+            "romaji": "Hiru wa atsui desu.",
+            "german": "Tagsüber ist es heiß."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -65994,17 +67733,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 2.",
+            "finding": "Exakte Orthographie 昼 und Lesung ヒル, Lemma 昼, 名詞/普通名詞/副詞可能/*, aType 2. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "昼",
               "reading": "ひる",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Mittag"
+              "sense": "昼 als Mittag, tagsüber"
             }
           }
         ]
       },
       "197": {
+        "notes": "夜（よる）kann den Abend nach Einbruch der Dunkelheit oder die Nacht meinen. Als Zeitangabe kann es direkt vor der Tätigkeit stehen: 夜テレビを見る. 夜は hebt die nächtliche Zeit als Thema hervor. Für „jede Nacht/jeden Abend“ verwendet man 毎晩.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66014,17 +67754,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 夜 und Lesung ヨル, Lemma 夜, 名詞/普通名詞/副詞可能/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "夜",
               "reading": "よる",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Nacht, Abend"
+              "sense": "夜 als Nacht, Abend"
             }
           }
         ]
       },
       "198": {
+        "notes": "今 bedeutet jetzt, also den gegenwärtigen Zeitpunkt. Es ist enger als 今日 („heute“). 今何時ですか fragt nach der aktuellen Uhrzeit; 今～ています betont eine gerade laufende Handlung. Normalerweise steht nach 今 als Zeitangabe kein に.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66034,17 +67775,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1.",
+            "finding": "Exakte Orthographie 今 und Lesung イマ, Lemma 今, 名詞/普通名詞/副詞可能/*, aType 1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "今",
               "reading": "いま",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "jetzt"
+              "sense": "今 als jetzt"
             }
           }
         ]
       },
       "199": {
+        "notes": "毎日 bedeutet jeden Tag und beschreibt regelmäßige Wiederholung. Es steht meist ohne に vor der Tätigkeit. Ein Zeitraum innerhalb des Tages kann zusätzlich genannt werden, etwa 毎日一時間 („jeden Tag eine Stunde“). 今日 meint dagegen nur den heutigen Tag.",
+        "examples": [
+          {
+            "japanese": "毎日日本語を勉強します。",
+            "romaji": "Mainichi nihongo o benkyō shimasu.",
+            "german": "Ich lerne jeden Tag Japanisch."
+          },
+          {
+            "japanese": "毎日散歩します。",
+            "romaji": "Mainichi sanpo shimasu.",
+            "german": "Ich gehe jeden Tag spazieren."
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -66058,17 +67812,30 @@ window.VOCAB_CORRECTION_RULES = {
               1,
               0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 1, 0.",
+            "finding": "Exakte Orthographie 毎日 und Lesung マイニチ, Lemma 毎日, 名詞/普通名詞/副詞可能/*, aType 1,0. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "毎日",
               "reading": "まいにち",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "jeden Tag"
+              "sense": "毎日 als jeden Tag"
             }
           }
         ]
       },
       "200": {
+        "notes": "毎朝 heißt jeden Morgen. Es bezeichnet eine Wiederholung an jedem Morgen und wird normalerweise ohne に verwendet. Eine konkrete Uhrzeit kann zusätzlich mit に stehen: 毎朝六時に. Das erste あ in あさ bleibt erhalten: まいあさ.",
+        "examples": [
+          {
+            "japanese": "毎朝コーヒーを飲みます。",
+            "romaji": "Maiasa kōhī o nomimasu.",
+            "german": "Jeden Morgen trinke ich Kaffee."
+          },
+          {
+            "japanese": "毎朝六時に起きます。",
+            "romaji": "Maiasa rokuji ni okimasu.",
+            "german": "Jeden Morgen stehe ich um sechs auf."
+          }
+        ],
         "pitchVariants": [
           0
         ],
@@ -66079,20 +67846,24 @@ window.VOCAB_CORRECTION_RULES = {
             "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247084842",
             "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
             "patterns": [
-              0,
-              1
+              1,
+              0
             ],
-            "finding": "Matched common-noun row at exact reading, excluding competing proper-name or inflected rows. Attested accent 0, 1.",
+            "finding": "Exakte Orthographie 毎朝 und Lesung マイアサ, Lemma 毎朝, 名詞/普通名詞/副詞可能/*, aType 0,1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "毎朝",
               "reading": "まいあさ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "jeden Morgen"
+              "sense": "毎朝 als jeden Morgen"
             }
           }
         ]
       },
       "201": {
+        "notes": "毎晩 meint jeden Abend beziehungsweise jede Nacht. Es ist eine regelmäßige Zeitangabe ohne notwendiges に. 毎日 umfasst dagegen den ganzen täglichen Rhythmus. 晩 wird in diesem Wort ばん gelesen; beide Beispiele beschreiben wiederkehrende Abendgewohnheiten.",
+        "pitchVariants": [
+          0
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66100,20 +67871,34 @@ window.VOCAB_CORRECTION_RULES = {
             "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247383656",
             "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
             "patterns": [
-              0,
-              1
+              1,
+              0
             ],
-            "finding": "UniDic sys.dic@247383656 supports 0,1 for 毎晩 / まいばん. Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines.",
+            "finding": "Exakte Orthographie 毎晩 und Lesung マイバン, Lemma 毎晩, 名詞/普通名詞/副詞可能/*, aType 0,1. Der Nominalsinn beziehungsweise adverbiale Zeitausdruck stimmt mit der ausgewählten JMdict-Bedeutung und den Beispielen überein.",
             "match": {
               "word": "毎晩",
               "reading": "まいばん",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Every evening/night is 毎晩; Abend is appropriate for the reading and bathing routines."
+              "sense": "毎晩 als jeden Abend"
             }
           }
         ]
       },
       "202": {
+        "romaji": "maishū",
+        "notes": "毎週 bedeutet jede Woche und steht meist ohne に vor einer Tätigkeit. Man kann den Wochentag ergänzen: 毎週日曜日に („jede Woche am Sonntag“). 毎日 beschreibt dagegen eine tägliche Wiederholung; 週 ist die Woche.",
+        "examples": [
+          {
+            "japanese": "毎週テニスをします。",
+            "romaji": "Maishū tenisu o shimasu.",
+            "german": "Jede Woche spiele ich Tennis."
+          },
+          {
+            "japanese": "毎週日曜日に買い物をします。",
+            "romaji": "Maishū nichiyōbi ni kaimono o shimasu.",
+            "german": "Jeden Sonntag gehe ich einkaufen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66123,20 +67908,27 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@247287090 supports 0 for 毎週 / まいしゅう. Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday.",
+            "finding": "UniDic sys.dic@247287090: orth=毎週, kana=マイシュウ, lemma=毎週, 名詞/普通名詞/副詞可能/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "毎週",
               "reading": "まいしゅう",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Weekly tennis and every-Sunday shopping both instantiate 毎週; Sonntag preserves the explicit weekday."
+              "sense": "毎週 als jede Woche"
             }
           }
         ]
       },
       "203": {
-        "pitch": null
+        "notes": "いつも heißt immer oder regelmäßig wie gewohnt. Es steht vor der beschriebenen Gewohnheit, zum Beispiel いつもここで食べる. 時々 ist dagegen nur gelegentlich. Die Karte behandelt den Häufigkeitsgebrauch, nicht einen gleich gelesenen Ortsnamen.",
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
       },
       "204": {
+        "notes": "時々 bedeutet manchmal oder von Zeit zu Zeit, also keine tägliche oder ausnahmslose Gewohnheit. Das Zeichen 々 wiederholt 時 in der Schreibung; die Lesung ist ときどき. Als Zeitadverb steht es normalerweise ohne に.",
+        "pitchVariants": [
+          2
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66144,20 +67936,33 @@ window.VOCAB_CORRECTION_RULES = {
             "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184556361",
             "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
             "patterns": [
-              2,
-              0
+              0,
+              2
             ],
-            "finding": "UniDic sys.dic@184556361 supports 2,0 for 時々 / ときどき. 時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught.",
+            "finding": "UniDic sys.dic@184556361: orth=時々, kana=トキドキ, lemma=時々, 名詞/普通名詞/副詞可能/*, aType=2,0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "時々",
               "reading": "ときどき",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "時々 means occasionally in both movie watching and restaurant dining; seasonal sense is not taught."
+              "sense": "時々 als manchmal"
             }
           }
         ]
       },
       "205": {
+        "notes": "よく bedeutet je nach Zusammenhang „oft“ oder „gut/gründlich“. よく食べる kann eine häufige Tätigkeit beschreiben; よく分かる ein gutes Verständnis. Es ist ein Adverb, nicht das prädikative Adjektiv いい. 欲 („Verlangen“) und 翼 („Flügel“) sind andere gleich gelesene Wörter.",
+        "examples": [
+          {
+            "japanese": "よく日本料理を食べます。",
+            "romaji": "Yoku nihon ryōri o tabemasu.",
+            "german": "Ich esse oft japanisches Essen."
+          },
+          {
+            "japanese": "日本語がよく分かります。",
+            "romaji": "Nihongo ga yoku wakarimasu.",
+            "german": "Ich verstehe Japanisch gut."
+          }
+        ],
         "aliases": [
           "良く"
         ],
@@ -66170,17 +67975,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Add attested spelling 良く for same yoku adverb well/often. Kana preferred; do not merge greed, wing or next-prefix homophones, nor treat adjective inflection as separate adverb evidence. Selected exact adverb row attests accent1; all cached competitors inspected.",
+            "finding": "UniDic sys.dic@273256932: orth=よく, kana=ヨク, lemma=良く, 副詞/*/*/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "よく",
               "reading": "よく",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "oft, gut"
+              "sense": "よく als oft, gut"
             }
           }
         ]
       },
       "206": {
+        "meaning": "sofort; gleich in der Nähe",
+        "notes": "すぐ kann zeitlich „sofort“ oder räumlich „gleich in der Nähe“ heißen. すぐ行く ist sofort gehen; すぐそこ ist gleich dort, ohne großen Abstand. Das Wort bezeichnet hier ein Adverb, nicht das alte Verb すぐ („vorübergehen“).",
+        "examples": [
+          {
+            "japanese": "すぐ行きます。",
+            "romaji": "Sugu ikimasu.",
+            "german": "Ich gehe sofort."
+          },
+          {
+            "japanese": "駅はすぐそこです。",
+            "romaji": "Eki wa sugu soko desu.",
+            "german": "Der Bahnhof ist gleich dort."
+          }
+        ],
         "aliases": [
           "直ぐ"
         ],
@@ -66193,17 +68012,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Add attested 直ぐ for sugu immediately. Kana preferred; excludes archaic passing verb and inflected suguru. Source N1 list label does not redefine target beginner curriculum. Selected exact adverb row attests accent1; all cached competitors inspected.",
+            "finding": "UniDic sys.dic@147207523: orth=すぐ, kana=スグ, lemma=直ぐ, 副詞/*/*/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "すぐ",
               "reading": "すぐ",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "sofort"
+              "sense": "すぐ als sofort; gleich in der Nähe"
             }
           }
         ]
       },
       "207": {
+        "meaning": "noch; noch nicht",
+        "notes": "まだ mit einer bejahenden Aussage bedeutet „noch/immer noch“: まだ雨が降っています. Mit einer verneinten Aussage bedeutet es „noch nicht“: まだ終わっていません. Es signalisiert, dass ein erwarteter Wechsel oder Abschluss bisher nicht eingetreten ist.",
+        "examples": [
+          {
+            "japanese": "まだ雨が降っています。",
+            "romaji": "Mada ame ga futte imasu.",
+            "german": "Es regnet noch."
+          },
+          {
+            "japanese": "宿題がまだ終わっていません。",
+            "romaji": "Shukudai ga mada owatte imasen.",
+            "german": "Die Hausaufgaben sind noch nicht fertig."
+          }
+        ],
         "aliases": [
           "未だ"
         ],
@@ -66216,28 +68049,39 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Add attested 未だ for mada still/not yet. Kana preferred; negative verb required for not-yet sense. Do not merge alternate imada reading target2687. Selected exact adverb row attests accent1; all cached competitors inspected.",
+            "finding": "UniDic sys.dic@250430986: orth=まだ, kana=マダ, lemma=未だ, 副詞/*/*/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "まだ",
               "reading": "まだ",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "noch"
+              "sense": "まだ als noch; noch nicht"
             }
           }
         ]
       },
       "208": {
+        "romaji": "mō",
+        "meaning": "schon, bereits; nicht mehr",
+        "notes": "もう bezeichnet einen bereits erreichten Zeitpunkt oder Zustand: もう食べました. Mit einer Verneinung heißt es „nicht mehr“: もう食べません. Es steht damit im Gegensatz zu まだ („noch/noch nicht“). もう帰りましょう heißt, dass es jetzt Zeit zum Zurückgehen ist.",
         "examples": [
           {
             "japanese": "もう食べました。",
-            "romaji": "Mou tabemashita.",
+            "romaji": "Mō tabemashita.",
             "german": "Ich habe schon gegessen."
           },
           {
             "japanese": "もう帰りましょう。",
-            "romaji": "Mou kaerimashou.",
+            "romaji": "Mō kaerimashō.",
             "german": "Lass uns jetzt zurückgehen."
+          },
+          {
+            "japanese": "もう食べません。",
+            "romaji": "Mō tabemasen.",
+            "german": "Ich esse nichts mehr."
           }
+        ],
+        "pitchVariants": [
+          0
         ],
         "pitchProvenance": [
           {
@@ -66246,20 +68090,33 @@ window.VOCAB_CORRECTION_RULES = {
             "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262106615",
             "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
             "patterns": [
-              0,
-              1
+              1,
+              0
             ],
-            "finding": "UniDic sys.dic@262106615 supports 0,1 for もう / もう. もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded.",
+            "finding": "UniDic sys.dic@262106615: orth=もう, kana=モウ, lemma=もう, 副詞/*/*/*, aType=0,1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "もう",
               "reading": "もう",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "もう adverb means already/now; second example invites returning now. Change unnatural German schon zurückkehren to jetzt zurückgehen; noun/prefix and inflected-verb competitors excluded."
+              "sense": "もう als schon, bereits; nicht mehr"
             }
           }
         ]
       },
       "209": {
+        "notes": "とても verstärkt eine gradierbare Eigenschaft und bedeutet „sehr“. Es kann mit い- und な-Adjektiven sowie passenden Zustandsausdrücken stehen. Es nennt keine Anzahl von Gegenständen; dafür eignet sich たくさん. Die stärkere Alltagsform とっても ist ebenfalls gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "この花はとてもきれいです。",
+            "romaji": "Kono hana wa totemo kirei desu.",
+            "german": "Diese Blume ist sehr schön."
+          },
+          {
+            "japanese": "とても疲れたので、早く寝ます。",
+            "romaji": "Totemo tsukareta node, hayaku nemasu.",
+            "german": "Ich bin sehr müde und gehe deshalb früh ins Bett."
+          }
+        ],
         "pitch": 0,
         "pitchProvenance": [
           {
@@ -66270,17 +68127,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@186083134 supports 0 for とても / とても. とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction.",
+            "finding": "UniDic sys.dic@186083134: orth=とても, kana=トテモ, lemma=迚も, 副詞/*/*/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "とても",
               "reading": "とても",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "とても intensifies affirmative beautiful/interesting predicates; negative inability sense does not apply. UniDic adverb supports 0, so stored 1 requires correction."
+              "sense": "とても als sehr"
             }
           }
         ]
       },
       "210": {
+        "notes": "少し kann eine geringe Menge, einen niedrigen Grad oder eine kurze Zeit bedeuten. 少し分かる heißt etwas verstehen; 少し休む eine kurze Pause machen. Für die geringe Menge einer Sache als Eigenschaft verwendet man dagegen 少ない, etwa お金が少ない.",
+        "examples": [
+          {
+            "japanese": "日本語が少し分かります。",
+            "romaji": "Nihongo ga sukoshi wakarimasu.",
+            "german": "Ich verstehe ein wenig Japanisch."
+          },
+          {
+            "japanese": "少し休みましょう。",
+            "romaji": "Sukoshi yasumimashō.",
+            "german": "Lass uns ein wenig ausruhen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66290,17 +68160,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "UniDic sys.dic@147365150 supports 2 for 少し / すこし. 少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally.",
+            "finding": "UniDic sys.dic@147365150: orth=少し, kana=スコシ, lemma=少し, 副詞/*/*/*, aType=2. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "少し",
               "reading": "すこし",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "少し means a small amount of Japanese understanding and a short period of rest; German ein wenig covers both naturally."
+              "sense": "少し als ein wenig"
             }
           }
         ]
       },
       "211": {
+        "notes": "たくさん bedeutet eine große Menge oder Anzahl. Es kann direkt die Handlung begleiten, etwa 本をたくさん読む. Vor einem Nomen steht oft の: たくさんの本. Die Schreibung 沢山 ist möglich; hier wird das Wort in Kana gezeigt.",
         "pitch": 0,
         "pitchProvenance": [
           {
@@ -66311,17 +68182,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@159369673 supports 0 for たくさん / たくさん. たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3.",
+            "finding": "UniDic sys.dic@159369673: orth=たくさん, kana=タクサン, lemma=沢山, 副詞/*/*/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "たくさん",
               "reading": "たくさん",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "たくさん modifies reading and shopping as an adverb. Select UniDic adverb 0, reject shape-word row 3 for these uses; change stored 3."
+              "sense": "たくさん als viel, viele"
             }
           }
         ]
       },
       "212": {
+        "notes": "全部 bedeutet alles oder die Gesamtheit. Es kann eine ganze Menge als Objekt einer Handlung zusammenfassen. 全部で bezeichnet eine Gesamtsumme, etwa einen Preis. Es ist von たくさん zu unterscheiden: „viel“ muss nicht „alles“ sein.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66331,32 +68203,144 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "UniDic sys.dic@154953577 supports 1 for 全部 / ぜんぶ. 全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate.",
+            "finding": "UniDic sys.dic@154953577: orth=全部, kana=ゼンブ, lemma=全部, 名詞/普通名詞/副詞可能/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "全部",
               "reading": "ぜんぶ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "全部 denotes all food and total price; 全部で is idiomatic and German alles zusammen preserves the aggregate."
+              "sense": "全部 als alles, gesamt"
             }
           }
         ]
       },
       "213": {
-        "pitch": null
+        "notes": "一緒に bedeutet zusammen beziehungsweise gemeinsam. Eine andere beteiligte Person wird mit と ergänzt: 友達と一緒に. Das に gehört zur hier gelehrten adverbialen Wendung; es wird nicht noch einmal zusätzlich angehängt.",
+        "examples": [
+          {
+            "japanese": "一緒に行きましょう。",
+            "romaji": "Issho ni ikimashō.",
+            "german": "Lass uns zusammen gehen."
+          },
+          {
+            "japanese": "友達と一緒に住んでいます。",
+            "romaji": "Tomodachi to issho ni sunde imasu.",
+            "german": "Ich wohne mit einem Freund zusammen."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
       },
       "214": {
-        "pitch": null
+        "notes": "一つ ist die allgemeine Zählform für ein Ding, oft wenn kein spezieller Zähler verwendet wird. Es kann nach dem Objekt stehen: りんごを一つ. Vor einem Nomen verbindet man mit の: 一つのりんご. Die Lesung ひとつ ist nicht いちつ.",
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search HTML retrieved 2026-10-03; saved UTF-8 SHA256 6f95db00e13a6b662020751eacf24d8cffce033109e5a326d2e7ff96ec61e915",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E3%81%A4#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lookup cited without copying audio",
+            "patterns": [
+              2
+            ],
+            "finding": "一つ/ひとつ: accent_top auf と, der zweiten Mora, danach tiefe つ; Akzent 2.",
+            "match": {
+              "word": "一つ",
+              "reading": "ひとつ",
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "一つ als eins (zählen)"
+            }
+          }
+        ]
       },
       "215": {
-        "pitch": null
+        "notes": "二つ zählt zwei Dinge mit der allgemeinen ～つ-Reihe. Nach einem Objekt kann der Zähler ohne Partikel stehen: 卵を二つ買う. Vor einem Nomen braucht man の: 二つの道. Die Lesung lautet ふたつ, nicht につ.",
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search HTML retrieved 2026-10-03; saved UTF-8 SHA256 87483a993221c12153036afb28c0f2e0bf0ea9b2684355118199d570a3693ef8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%8C%E3%81%A4#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lookup cited without copying audio",
+            "patterns": [
+              3
+            ],
+            "finding": "二つ/ふたつ: accent_top auf つ, der dritten und letzten Mora; Akzent 3.",
+            "match": {
+              "word": "二つ",
+              "reading": "ふたつ",
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "二つ als zwei (zählen)"
+            }
+          }
+        ]
       },
       "216": {
-        "pitch": null
+        "notes": "三つ zählt drei Dinge in der allgemeinen ～つ-Reihe. Das kleine っ in みっつ wird als Doppelkonsonant in mittsu geschrieben. Die Zahl kann nach der gezählten Sache mit が oder を stehen: 箱が三つある, みかんを三つ食べる.",
+        "examples": [
+          {
+            "japanese": "箱が三つあります。",
+            "romaji": "Hako ga mittsu arimasu.",
+            "german": "Es gibt drei Schachteln."
+          },
+          {
+            "japanese": "みかんを三つ食べました。",
+            "romaji": "Mikan o mittsu tabemashita.",
+            "german": "Ich habe drei Mandarinen gegessen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search HTML retrieved 2026-10-03; saved UTF-8 SHA256 0742c5658f0b773836b6bf1631c6513f84041f275b41a6a10b903efc925b6305",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%89%E3%81%A4#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lookup cited without copying audio",
+            "patterns": [
+              3
+            ],
+            "finding": "三つ/みっつ: accent_top auf つ, der dritten Mora; っ ist die zweite Mora; Akzent 3.",
+            "match": {
+              "word": "三つ",
+              "reading": "みっつ",
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "三つ als drei (zählen)"
+            }
+          }
+        ]
       },
       "217": {
-        "pitch": null
+        "notes": "お金 ist die gewöhnliche Bezeichnung für Geld. Das お gehört zur geläufigen höflichen Wortform; man verwendet sie auch für das eigene Geld. お金がある beschreibt verfügbares Geld, お金を使う das Ausgeben. 円 nennt dagegen die Währung Yen.",
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Word-search HTML retrieved 2026-10-03; saved UTF-8 SHA256 d5d0682218415efd85b0dbb2a9d0e121bbd23bc90df1131ecb12fe3e9b2b6c4e",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E9%87%91#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; lookup cited without copying audio",
+            "patterns": [
+              0
+            ],
+            "finding": "お金/おかね: erste Mora tief, danach beide Morae accent_plain und keine accent_top; flacher Akzent 0.",
+            "match": {
+              "word": "お金",
+              "reading": "おかね",
+              "grammaticalForm": "Nomen; OJAD dictionary form",
+              "sense": "お金 als Geld"
+            }
+          }
+        ]
       },
       "218": {
+        "notes": "切符 bezeichnet eine Fahrkarte beziehungsweise ein Ticket, besonders für Verkehrsmittel. Papierfahrkarten zählt man mit 枚: 切符を二枚. Das kleine っ führt in der Romanisierung zum Doppel-p: kippu. Nicht mit 切手 („Briefmarke“) verwechseln.",
+        "examples": [
+          {
+            "japanese": "切符を買います。",
+            "romaji": "Kippu o kaimasu.",
+            "german": "Ich kaufe eine Fahrkarte."
+          },
+          {
+            "japanese": "切符をなくしました。",
+            "romaji": "Kippu o nakushimashita.",
+            "german": "Ich habe die Fahrkarte verloren."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66366,17 +68350,21 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@104733869 supports 0 for 切符 / きっぷ. 切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets.",
+            "finding": "UniDic sys.dic@104733869: orth=切符, kana=キップ, lemma=切符, 名詞/普通名詞/一般/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "切符",
               "reading": "きっぷ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "切符 is a ticket; transport Fahrkarte is a supported everyday teaching sense. 二枚 correctly counts two flat tickets."
+              "sense": "切符 als Fahrkarte"
             }
           }
         ]
       },
       "219": {
+        "notes": "切手 heißt Briefmarke für den Postversand. Die häufige Verbindung 切手を貼る bedeutet eine Briefmarke aufkleben. Als flache Papierstücke zählt man sie mit 枚. Die Lesung きって hat ein kleines っ; 切符（きっぷ）ist dagegen eine Fahrkarte.",
+        "pitchVariants": [
+          3
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66387,17 +68375,18 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               3
             ],
-            "finding": "UniDic sys.dic@104724297 supports 0,3 for 切手 / きって. 切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken.",
+            "finding": "UniDic sys.dic@104724297: orth=切手, kana=キッテ, lemma=切手, 名詞/普通名詞/一般/*, aType=0,3. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "切手",
               "reading": "きって",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "切手 means postage stamp here; reject merchandise certificate sense. Number-unspecified request can naturally use German plural Briefmarken."
+              "sense": "切手 als Briefmarke"
             }
           }
         ]
       },
       "220": {
+        "notes": "手紙 ist ein Brief oder eine schriftliche Nachricht, normalerweise als persönliches Schreiben. 手紙を書く heißt einen Brief schreiben. Beim Empfang nennt から den Absender: 友達から手紙が来る. 手紙 steht nicht für eine Briefmarke oder Fahrkarte.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66407,17 +68396,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@180131117 supports 0 for 手紙 / てがみ. 手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession.",
+            "finding": "UniDic sys.dic@180131117: orth=手紙, kana=テガミ, lemma=手紙, 名詞/普通名詞/一般/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "手紙",
               "reading": "てがみ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "手紙 is a letter, used for writing and receiving correspondence; German von meinem Freund appropriately supplies contextual possession."
+              "sense": "手紙 als Brief"
             }
           }
         ]
       },
       "221": {
+        "notes": "名前 bezeichnet einen Namen allgemein und je nach Zusammenhang auch einen Vornamen. お名前 ist die höfliche Form in einer Frage an eine andere Person. Mit の nennt man, wessen oder welcher Sache Name gemeint ist: この花の名前.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66427,17 +68417,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@197787508 supports 0 for 名前 / なまえ. 名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent.",
+            "finding": "UniDic sys.dic@197787508: orth=名前, kana=ナマエ, lemma=名前, 名詞/普通名詞/一般/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "名前",
               "reading": "なまえ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "名前 general name covers polite personal-name inquiry and a flower name; Wie heißen Sie is idiomatic and equivalent."
+              "sense": "名前 als Name"
             }
           }
         ]
       },
       "222": {
+        "notes": "言葉 kann ein einzelnes Wort, einen Ausdruck oder eine Sprache bezeichnen. この言葉の読み方 fragt nach der Lesung eines Wortes. Wenn man sagt, dass Länder verschiedene 言葉 haben, meint man ihre Sprachen. の verbindet Wort und seine Lesung.",
+        "examples": [
+          {
+            "japanese": "日本語の言葉を覚えます。",
+            "romaji": "Nihongo no kotoba o oboemasu.",
+            "german": "Ich lerne japanische Wörter."
+          },
+          {
+            "japanese": "この言葉の読み方を教えてください。",
+            "romaji": "Kono kotoba no yomikata o oshiete kudasai.",
+            "german": "Bitte sagen Sie mir, wie man dieses Wort liest."
+          },
+          {
+            "japanese": "日本とドイツでは、言葉が違います。",
+            "romaji": "Nihon to Doitsu de wa, kotoba ga chigaimasu.",
+            "german": "In Japan und Deutschland spricht man unterschiedliche Sprachen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66447,17 +68455,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "UniDic sys.dic@123567699 supports 3 for 言葉 / ことば. 言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German.",
+            "finding": "UniDic sys.dic@123567699: orth=言葉, kana=コトバ, lemma=言葉, 名詞/普通名詞/一般/*, aType=3. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "言葉",
               "reading": "ことば",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "言葉 covers language and words; both sentences teach words, with reading-instruction request rendered naturally in German."
+              "sense": "言葉 als Wort, Sprache"
             }
           }
         ]
       },
       "223": {
+        "notes": "意味 ist die Bedeutung oder der Sinn eines Wortes, Zeichens oder einer Aussage. この言葉の意味は何ですか fragt nach einer Erklärung. Bei Verstehen steht 意味 mit が bei 分かる. Es ist nicht dasselbe wie 読み方, die Aussprache beziehungsweise Lesung.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66467,17 +68476,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "UniDic sys.dic@57666154 supports 1 for 意味 / いみ. 意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry.",
+            "finding": "UniDic sys.dic@57666154: orth=意味, kana=イミ, lemma=意味, 名詞/普通名詞/サ変可能/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "意味",
               "reading": "いみ",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "意味 is meaning in questions about a word and a kanji. Noun usage matches the noun/suru dictionary analysis without requiring a verb entry."
+              "sense": "意味 als Bedeutung"
             }
           }
         ]
       },
       "224": {
+        "notes": "質問 ist eine Frage als Nachfrage an jemanden. 質問する heißt eine Frage stellen. Die befragte Person wird mit に angeschlossen: 先生に質問する. 質問がありますか fragt, ob jemand eine Frage hat; es ist keine schulische Aufgabenstellung wie 問題.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66487,17 +68497,34 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "UniDic sys.dic@136390287 supports 0 for 質問 / しつもん. 質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both.",
+            "finding": "UniDic sys.dic@136390287: orth=質問, kana=シツモン, lemma=質問, 名詞/普通名詞/サ変可能/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "質問",
               "reading": "しつもん",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "質問 is question/inquiry. 質問する is naturally asking a question, and してもいい asks permission; German preserves both."
+              "sense": "質問 als Frage"
             }
           }
         ]
       },
       "225": {
+        "meaning": "Antwort, Lösung",
+        "notes": "答え ist eine Antwort und bei Aufgaben auch die Lösung. Die Verbindung 答えを書く meint die Antwort aufschreiben. Dieses Nomen hat keine Verbkonjugation; das zugehörige Verb ist 答える. 問題の答え bezeichnet die Lösung einer Aufgabe.",
+        "examples": [
+          {
+            "japanese": "答えを書いてください。",
+            "romaji": "Kotae o kaite kudasai.",
+            "german": "Bitte schreiben Sie die Antwort."
+          },
+          {
+            "japanese": "この問題の答えがわかりません。",
+            "romaji": "Kono mondai no kotae ga wakarimasen.",
+            "german": "Ich kenne die Lösung dieser Aufgabe nicht."
+          }
+        ],
+        "pitchVariants": [
+          3
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66508,17 +68535,31 @@ window.VOCAB_CORRECTION_RULES = {
               2,
               3
             ],
-            "finding": "UniDic sys.dic@123065130 supports 2,3 for 答え / こたえ. 答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える.",
+            "finding": "UniDic sys.dic@123065130: orth=答え, kana=コタエ, lemma=答え, 名詞/普通名詞/一般/*, aType=2,3. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "答え",
               "reading": "こたえ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "答え is noun answer/solution in writing and knowing an answer. Select the noun row, excluding same-form inflections of 答える."
+              "sense": "答え als Antwort, Lösung"
             }
           }
         ]
       },
       "226": {
+        "meaning": "Problem, Frage, Aufgabe",
+        "notes": "問題 kann ein praktisches Problem oder eine Frage beziehungsweise Aufgabe in einer Prüfung bezeichnen. 問題はありません heißt „es gibt kein Problem“. この問題は難しい kann eine schwierige Schulaufgabe meinen. Eine Nachfrage an jemanden nennt man dagegen meist 質問.",
+        "examples": [
+          {
+            "japanese": "問題はありません。",
+            "romaji": "Mondai wa arimasen.",
+            "german": "Es gibt kein Problem."
+          },
+          {
+            "japanese": "この問題は難しいです。",
+            "romaji": "Kono mondai wa muzukashii desu.",
+            "german": "Diese Aufgabe ist schwierig."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66528,17 +68569,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Question/problem senses match Problem, Frage; no doubtful or controversial additional sense is introduced.",
+            "finding": "UniDic sys.dic@267073440: orth=問題, kana=モンダイ, lemma=問題, 名詞/普通名詞/一般/*, aType=0. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
             "match": {
               "word": "問題",
               "reading": "もんだい",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Question/problem senses match Problem, Frage; no doubtful or controversial additional sense is introduced."
+              "sense": "問題 als Problem, Frage, Aufgabe"
             }
           }
         ]
       },
       "227": {
+        "notes": "テスト bezeichnet hier einen Test oder eine Prüfung von Wissen und Fähigkeiten. テストがある kündigt einen Prüfungstermin an; テストを受ける heißt „an einer Prüfung teilnehmen“. Das Ergebnis kann mit 点 angegeben werden, etwa 百点 „hundert Punkte“.",
+        "examples": [
+          {
+            "japanese": "明日テストがあります。",
+            "romaji": "Ashita tesuto ga arimasu.",
+            "german": "Morgen gibt es einen Test."
+          },
+          {
+            "japanese": "テストは来週の月曜日です。",
+            "romaji": "Tesuto wa raishū no getsuyōbi desu.",
+            "german": "Der Test ist nächsten Montag."
+          },
+          {
+            "japanese": "テストで百点を取りました。",
+            "romaji": "Tesuto de hyakuten o torimashita.",
+            "german": "Ich habe bei dem Test hundert Punkte erreicht."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66548,17 +68607,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "The ability/knowledge test sense matches Test, Prüfung. Suru potential does not invalidate the nominal headword.",
+            "finding": "Exact テスト/テスト; lemma テスト-test; 名詞/普通名詞/サ変可能/*; aType 1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "テスト",
               "reading": "テスト",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "The ability/knowledge test sense matches Test, Prüfung. Suru potential does not invalidate the nominal headword."
+              "sense": "Exact テスト/テスト, JMdict 1079760, senses 1: test (of ability, knowledge, etc.), exam, examination, quiz. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "228": {
+        "notes": "宿題 bezeichnet Hausaufgaben oder einen aufgegebenen Arbeitsauftrag; das Japanische braucht dafür keine Pluralendung. 宿題をする heißt „Hausaufgaben machen“. 宿題を忘れる kann bedeuten, dass man sie nicht gemacht oder das Material nicht mitgebracht hat; der Zusammenhang entscheidet.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66568,17 +68628,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Homework matches Hausaufgabe; exclude the figurative unresolved-issue sense.",
+            "finding": "Exact 宿題/シュクダイ; lemma 宿題; 名詞/普通名詞/一般/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "宿題",
               "reading": "しゅくだい",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Homework matches Hausaufgabe; exclude the figurative unresolved-issue sense."
+              "sense": "Exact 宿題/しゅくだい, JMdict 1337270, senses 1: homework, assignment. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "229": {
+        "romaji": "benkyō",
+        "notes": "勉強 ist das Nomen für Lernen oder Studieren; mit する wird daraus „lernen“. Das Lernfach kann mit の stehen, etwa 日本語の勉強, oder mit を vor 勉強する. 二時間勉強する gibt die Dauer an; für einen festen Zeitpunkt verwendet man dagegen に.",
+        "examples": [
+          {
+            "japanese": "日本語の勉強は楽しいです。",
+            "romaji": "Nihongo no benkyō wa tanoshii desu.",
+            "german": "Japanisch lernen macht Spaß."
+          },
+          {
+            "japanese": "毎日二時間勉強します。",
+            "romaji": "Mainichi nijikan benkyō shimasu.",
+            "german": "Ich lerne jeden Tag zwei Stunden."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66588,17 +68662,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Study matches Lernen, Studium; noun and suru construction use the same selected study sense.",
+            "finding": "Exact 勉強/ベンキョウ; lemma 勉強; 名詞/普通名詞/サ変可能/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "勉強",
               "reading": "べんきょう",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Study matches Lernen, Studium; noun and suru construction use the same selected study sense."
+              "sense": "Exact 勉強/べんきょう, JMdict 1512670, senses 1: study. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "230": {
+        "notes": "仕事 kann eine konkrete Arbeit, Aufgabe oder die berufliche Beschäftigung bezeichnen. 仕事をする heißt „arbeiten“, 仕事が終わる „die Arbeit endet“. 新しい仕事を探す meint meist die Suche nach einer neuen Stelle; für eine einzelne Tätigkeit ist der Zusammenhang maßgeblich.",
+        "examples": [
+          {
+            "japanese": "仕事が終わりました。",
+            "romaji": "Shigoto ga owarimashita.",
+            "german": "Die Arbeit ist fertig."
+          },
+          {
+            "japanese": "仕事が終わってから帰ります。",
+            "romaji": "Shigoto ga owatte kara kaerimasu.",
+            "german": "Ich gehe nach der Arbeit nach Hause."
+          },
+          {
+            "japanese": "今、新しい仕事を探しています。",
+            "romaji": "Ima, atarashii shigoto o sagashite imasu.",
+            "german": "Ich suche gerade eine neue Arbeit."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66608,17 +68700,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Work/job matches Arbeit, Job; existing noun classification is appropriate.",
+            "finding": "Exact 仕事/シゴト; lemma 仕事; 名詞/普通名詞/サ変可能/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "仕事",
               "reading": "しごと",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Work/job matches Arbeit, Job; existing noun classification is appropriate."
+              "sense": "Exact 仕事/しごと, JMdict 1304970, senses 1: work, job, labor, labour, business, task, assignment, occupation, employment. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "231": {
+        "romaji": "renshū",
+        "notes": "練習 ist Übung oder Training zum Verbessern einer Fertigkeit. 練習する heißt „üben“; das Übungsgebiet steht oft mit を oder の, etwa ピアノを練習する, ピアノの練習. Es bezeichnet gezieltes Wiederholen und Anwenden; allgemeines Lernen heißt häufig 勉強.",
+        "examples": [
+          {
+            "japanese": "毎日練習します。",
+            "romaji": "Mainichi renshū shimasu.",
+            "german": "Ich übe jeden Tag."
+          },
+          {
+            "japanese": "ピアノの練習をしています。",
+            "romaji": "Piano no renshū o shite imasu.",
+            "german": "Ich übe Klavier."
+          },
+          {
+            "japanese": "練習の後で水を飲みます。",
+            "romaji": "Renshū no ato de mizu o nomimasu.",
+            "german": "Nach dem Training trinke ich Wasser."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66628,17 +68739,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Practice/training matches Übung; nominal headword naturally permits suru.",
+            "finding": "Exact 練習/レンシュウ; lemma 練習; 名詞/普通名詞/サ変可能/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "練習",
               "reading": "れんしゅう",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
-              "sense": "Practice/training matches Übung; nominal headword naturally permits suru."
+              "sense": "Exact 練習/れんしゅう, JMdict 1559160, senses 1: practice, training, drill, (an) exercise, workout. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "232": {
+        "notes": "右 ist ein Orts- und Richtungsnomen: 右に曲がる „rechts abbiegen“. Vor einem weiteren Nomen steht の, etwa 右のポケット „die rechte Tasche“. „Auf der rechten Seite von …“ heißt ～の右に. Die Richtung hängt vom Blickpunkt ab; der Gegensatz ist 左.",
+        "examples": [
+          {
+            "japanese": "右に曲がってください。",
+            "romaji": "Migi ni magatte kudasai.",
+            "german": "Bitte biegen Sie rechts ab."
+          },
+          {
+            "japanese": "次の角を右に曲がってください。",
+            "romaji": "Tsugi no kado o migi ni magatte kudasai.",
+            "german": "Bitte biegen Sie an der nächsten Ecke rechts ab."
+          },
+          {
+            "japanese": "右のポケットに鍵があります。",
+            "romaji": "Migi no poketto ni kagi ga arimasu.",
+            "german": "In der rechten Tasche ist ein Schlüssel."
+          }
+        ],
         "pitchVariants": [
           1
         ],
@@ -66652,17 +68781,35 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               1
             ],
-            "finding": "Right-hand side matches rechts in the two direction instructions; add the attested alternative 1 while retaining primary 0.",
+            "finding": "Exact 右/ミギ; lemma 右; 名詞/普通名詞/一般/*; aType 0,1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "右",
               "reading": "みぎ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Right-hand side matches rechts in the two direction instructions; add the attested alternative 1 while retaining primary 0."
+              "sense": "Exact 右/みぎ, JMdict 1171010, senses 1: right, right-hand side. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "233": {
+        "notes": "左 bezeichnet die linke Seite oder eine Richtung. 左に行く heißt „nach links gehen“, 左の道 „der linke Weg“. Für die Lage relativ zu etwas steht ～の左に. Der Gegensatz ist 右; das Wort ist ein Nomen und benötigt für die nähere Bestimmung häufig の.",
+        "examples": [
+          {
+            "japanese": "左に行ってください。",
+            "romaji": "Hidari ni itte kudasai.",
+            "german": "Bitte gehen Sie nach links."
+          },
+          {
+            "japanese": "左の道をまっすぐ行ってください。",
+            "romaji": "Hidari no michi o massugu itte kudasai.",
+            "german": "Bitte gehen Sie geradeaus auf dem linken Weg."
+          },
+          {
+            "japanese": "郵便局は銀行の左にあります。",
+            "romaji": "Yūbinkyoku wa ginkō no hidari ni arimasu.",
+            "german": "Die Post ist links neben der Bank."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66672,17 +68819,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Left-hand side matches links; reject the surname row and retain common-noun 0.",
+            "finding": "Select ordinary noun 左 at sys.dic@225738687, aType 0. Surname ヒダリ at sys.dic@225738337, aType 1, is a different lexical use.",
             "match": {
               "word": "左",
               "reading": "ひだり",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Left-hand side matches links; reject the surname row and retain common-noun 0."
+              "sense": "Exact 左/ひだり, JMdict 1290800, senses 1: left, left-hand side. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "234": {
+        "notes": "上（うえ）ist hier ein Ortsnomen für „oben, über, auf“. „Auf dem Schreibtisch“ heißt 机の上; mit に beschreibt man den Ort einer Sache, mit で den Ort einer Handlung. 上を見る heißt „nach oben schauen“. Andere Lesungen von 上, etwa じょう in Zusammensetzungen, sind getrennt zu lernen.",
+        "examples": [
+          {
+            "japanese": "机の上にあります。",
+            "romaji": "Tsukue no ue ni arimasu.",
+            "german": "Es ist auf dem Tisch."
+          },
+          {
+            "japanese": "テーブルの上に本があります。",
+            "romaji": "Tēburu no ue ni hon ga arimasu.",
+            "german": "Auf dem Tisch liegt ein Buch."
+          },
+          {
+            "japanese": "上を見てください。",
+            "romaji": "Ue o mite kudasai.",
+            "german": "Bitte schauen Sie nach oben."
+          }
+        ],
         "pitchVariants": [
           2
         ],
@@ -66696,17 +68861,35 @@ window.VOCAB_CORRECTION_RULES = {
               0,
               2
             ],
-            "finding": "Above/on a surface matches oben, auf; select common noun rather than place-name/suffix and add attested alternative 2.",
+            "finding": "Ordinary noun 上 at sys.dic@59951882 attests aType 0,2. Preserve both patterns; do not use place-name ウエ or suffix rows.",
             "match": {
               "word": "上",
               "reading": "うえ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Above/on a surface matches oben, auf; select common noun rather than place-name/suffix and add attested alternative 2."
+              "sense": "Exact 上/うえ, JMdict 1352130, senses 1, 3: above, over, up; surface, on (top of). German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "235": {
+        "notes": "下（した）bezeichnet hier den Bereich unter etwas oder eine tiefere Position. 机の下に heißt „unter dem Schreibtisch“; bei einer dort stattfindenden Handlung steht で. 下の階 ist die Etage darunter. Das Wort ist ein Nomen, kein i-Adjektiv; andere Lesungen wie げ gehören zu anderen Verbindungen.",
+        "examples": [
+          {
+            "japanese": "机の下にあります。",
+            "romaji": "Tsukue no shita ni arimasu.",
+            "german": "Es ist unter dem Tisch."
+          },
+          {
+            "japanese": "机の下に猫がいます。",
+            "romaji": "Tsukue no shita ni neko ga imasu.",
+            "german": "Unter dem Tisch ist eine Katze."
+          },
+          {
+            "japanese": "下の階で待っています。",
+            "romaji": "Shita no kai de matte imasu.",
+            "german": "Ich warte auf der Etage darunter."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66716,17 +68899,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Below/underneath matches unten, unter in the locative examples.",
+            "finding": "Exact 下/シタ; lemma 下; 名詞/普通名詞/一般/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "下",
               "reading": "した",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Below/underneath matches unten, unter in the locative examples."
+              "sense": "Exact 下/した, JMdict 1184140, senses 1, 3: below, down, under, younger (e.g. daughter); beneath, underneath. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "236": {
+        "notes": "中（なか）bezeichnet hier das Innere eines Behälters oder Raums: かばんの中, 家の中. Für den Aufenthaltsort steht に, für eine dort ausgeführte Handlung で. Die Lesungen ちゅう oder じゅう kommen in anderen Verbindungen vor, etwa 勉強中 oder 一日中; sie sind nicht die Lesung des hier geübten Ortsnomens.",
+        "examples": [
+          {
+            "japanese": "かばんの中にあります。",
+            "romaji": "Kaban no naka ni arimasu.",
+            "german": "Es ist in der Tasche."
+          },
+          {
+            "japanese": "箱の中に何がありますか。",
+            "romaji": "Hako no naka ni nani ga arimasu ka.",
+            "german": "Was ist in der Kiste?"
+          },
+          {
+            "japanese": "雨なので、家の中で遊びます。",
+            "romaji": "Ame na node, ie no naka de asobimasu.",
+            "german": "Weil es regnet, spiele ich im Haus."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66736,12 +68937,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Interior matches innen, in; exclude names and location-name homophones from pitch evidence.",
+            "finding": "Use ordinary noun/adverb-compatible 中 at sys.dic@193863002, aType 1. Homophonous person and place names ナカ do not supply the teaching evidence.",
             "match": {
               "word": "中",
               "reading": "なか",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Interior matches innen, in; exclude names and location-name homophones from pitch evidence."
+              "sense": "Exact 中/なか, JMdict 1423310, senses 1: inside, interior. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
@@ -66769,17 +68970,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Outside/exterior matches draußen, außen. Existing note correctly distinguishes locative ni/de and separate hoka usage.",
+            "finding": "Exact 外/ソト; lemma 外; 名詞/普通名詞/一般/*; aType 1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "外",
               "reading": "そと",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Outside/exterior matches draußen, außen. Existing note correctly distinguishes locative ni/de and separate hoka usage."
+              "sense": "Exact 外/そと, JMdict 1203250, senses 1, 2: outside, exterior; the open (air). German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "238": {
+        "notes": "前（まえ）kann räumlich „vor, vorne“ und zeitlich „vorher“ bedeuten. 駅の前 bezeichnet den Bereich vor dem Bahnhof. Beim Zeitpunkt vor einer Tätigkeit steht die einfache Verbform vor 前に: 寝る前に „vor dem Schlafengehen“. Bei einem Nomen verbindet の, etwa 食事の前に.",
+        "examples": [
+          {
+            "japanese": "駅の前にいます。",
+            "romaji": "Eki no mae ni imasu.",
+            "german": "Ich bin vor dem Bahnhof."
+          },
+          {
+            "japanese": "駅の前で待っています。",
+            "romaji": "Eki no mae de matte imasu.",
+            "german": "Ich warte vor dem Bahnhof."
+          },
+          {
+            "japanese": "寝る前に本を読みます。",
+            "romaji": "Neru mae ni hon o yomimasu.",
+            "german": "Vor dem Schlafengehen lese ich ein Buch."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66789,17 +69008,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "In front/front matches vor, vorne; select common noun rather than surname or suffix.",
+            "finding": "Ordinary noun 前 at sys.dic@247578843 attests 1. Surname マエ and suffix rows do not determine this entry’s lexical accent.",
             "match": {
               "word": "前",
               "reading": "まえ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "In front/front matches vor, vorne; select common noun rather than surname or suffix."
+              "sense": "Exact 前/まえ, JMdict 1392580, senses 1, 2: in front (of), before (e.g. a building); before, earlier, previously, prior, ago, (minutes) to (the hour). German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "239": {
+        "notes": "後ろ（うしろ）ist die räumliche Rückseite oder der Bereich hinter etwas. ～の後ろに heißt „hinter …“, 後ろを見る „nach hinten schauen“. Für „danach“ oder „nach einer Tätigkeit“ verwendet man gewöhnlich 後（あと）, etwa 食事の後で; das ist eine andere Lesung und Verwendung.",
+        "examples": [
+          {
+            "japanese": "後ろを見てください。",
+            "romaji": "Ushiro o mite kudasai.",
+            "german": "Bitte schauen Sie nach hinten."
+          },
+          {
+            "japanese": "学校の後ろに公園があります。",
+            "romaji": "Gakkō no ushiro ni kōen ga arimasu.",
+            "german": "Hinter der Schule gibt es einen Park."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66809,17 +69041,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Back/behind matches hinten, hinter.",
+            "finding": "Exact 後ろ/ウシロ; lemma 後ろ; 名詞/普通名詞/一般/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "後ろ",
               "reading": "うしろ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Back/behind matches hinten, hinter."
+              "sense": "Exact 後ろ/うしろ, JMdict 1269410, senses 1: back, behind, rear. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "240": {
+        "notes": "隣（となり）bezeichnet die unmittelbar benachbarte Person, Sache oder Wohnung. 隣の人 heißt „die Person nebenan“, ～の隣に „direkt neben …“. Für das Nachbarhaus kann 隣 allein stehen. 近く bezeichnet dagegen allgemein die Nähe und verlangt keine unmittelbare Nachbarschaft.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66829,17 +69062,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Adjacent/next door matches nebenan, daneben; both personal adjacency examples fit.",
+            "finding": "Exact 隣/トナリ; lemma 隣り; 名詞/普通名詞/一般/*; aType 0. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "隣",
               "reading": "となり",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Adjacent/next door matches nebenan, daneben; both personal adjacency examples fit."
+              "sense": "Exact 隣/となり, JMdict 1555830, senses 1, 2: next (to), adjoining, adjacent; house next door, neighbouring house, next-door neighbour, next-door neighbor. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "241": {
+        "notes": "近く ist hier ein Ortsnomen für die Nähe oder Umgebung. 駅の近くに heißt „in der Nähe des Bahnhofs“, この近く „hier in der Nähe“. Im Gegensatz zu 隣 muss der Ort nicht unmittelbar angrenzen. 近い ist das verwandte i-Adjektiv für „nah“; die hier geübte Form 近く wird als Nomen verwendet.",
         "pitchVariants": [
           2
         ],
@@ -66853,17 +69087,35 @@ window.VOCAB_CORRECTION_RULES = {
               1,
               2
             ],
-            "finding": "Vicinity matches Nähe; select lexical noun rather than inflected chikai adjective rows. Add the noun's attested alternative 2.",
+            "finding": "Exact 近く/チカク; lemma 近く; 名詞/普通名詞/副詞可能/*; aType 1,2. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "近く",
               "reading": "ちかく",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Vicinity matches Nähe; select lexical noun rather than inflected chikai adjective rows. Add the noun's attested alternative 2."
+              "sense": "Exact 近く/ちかく, JMdict 1242160, senses 1: near, neighbourhood, neighborhood, vicinity. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "242": {
+        "notes": "間（あいだ）bezeichnet einen räumlichen Abstand oder eine Zeitspanne. Zwischen zwei Dingen heißt ～と～の間; „während des Unterrichts“ etwa 授業の間. 間は umfasst meist die ganze Dauer, während 間に einen Vorgang innerhalb dieser Zeit hervorhebt. Die Lesung ま bezeichnet andere Verwendungen wie eine Pause oder Lücke.",
+        "examples": [
+          {
+            "japanese": "家と駅の間にあります。",
+            "romaji": "Ie to eki no aida ni arimasu.",
+            "german": "Es ist zwischen Haus und Bahnhof."
+          },
+          {
+            "japanese": "東京と大阪の間を新幹線で移動します。",
+            "romaji": "Tōkyō to Ōsaka no aida o shinkansen de idō shimasu.",
+            "german": "Ich fahre die Strecke zwischen Tokio und Osaka mit dem Shinkansen."
+          },
+          {
+            "japanese": "授業の間は静かにしてください。",
+            "romaji": "Jugyō no aida wa shizuka ni shite kudasai.",
+            "german": "Bitte seien Sie während des Unterrichts leise."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66873,17 +69125,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "Spatial and temporal interval senses support zwischen, während. Current examples both use space; exclude surname pitch row.",
+            "finding": "Ordinary noun/adverb-compatible 間 at sys.dic@39750213 attests aType 0. The surname アイダ row is not selected.",
             "match": {
               "word": "間",
               "reading": "あいだ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Spatial and temporal interval senses support zwischen, während. Current examples both use space; exclude surname pitch row."
+              "sense": "Exact 間/あいだ, JMdict 1215230, senses 1, 2, 3: space (between), gap, interval, distance, stretch; period of time (during, while), duration, interval; between (two parties or things). German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "243": {
+        "notes": "春 ist der Frühling als Jahreszeit. Bei allgemeinen Aussagen kann 春は stehen; 春になる heißt „es wird Frühling“. Für eine Handlung in dieser Jahreszeit ist auch 春に möglich. Das verwandte 春休み（はるやすみ）bezeichnet die Frühlingsferien.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66893,17 +69146,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Spring matches Frühling; exclude personal names and non-seasonal senses.",
+            "finding": "Select ordinary season noun 春 at sys.dic@219369662, aType 1; person-name ハル rows are not evidence for this sense.",
             "match": {
               "word": "春",
               "reading": "はる",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Spring matches Frühling; exclude personal names and non-seasonal senses."
+              "sense": "Exact 春/はる, JMdict 1341000, senses 1: spring, springtime. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "244": {
+        "notes": "夏 ist der Sommer. 夏は暑いです beschreibt das typische Wetter; 夏に海へ行く eine Tätigkeit in der Jahreszeit. 夏休み（なつやすみ）sind die Sommerferien. 暑い schreibt man für heißes Wetter; 熱い steht dagegen etwa für heißes Wasser oder heiße Gegenstände.",
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66913,17 +69167,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Summer matches Sommer; noun accent 2 differs from the surname row.",
+            "finding": "Ordinary season noun 夏 at sys.dic@197098401 attests aType 2; reject the surname ナツ row with aType 1.",
             "match": {
               "word": "夏",
               "reading": "なつ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Summer matches Sommer; noun accent 2 differs from the surname row."
+              "sense": "Exact 夏/なつ, JMdict 1191320, senses 1: summer. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "245": {
+        "notes": "秋 ist der Herbst. 秋は涼しいです beschreibt die Jahreszeit allgemein; 秋に旅行する nennt eine Handlung im Herbst. 紅葉（こうよう）bezeichnet hier die herbstliche Färbung der Blätter, nicht nur Laub ohne Farbveränderung.",
+        "examples": [
+          {
+            "japanese": "秋は涼しいです。",
+            "romaji": "Aki wa suzushii desu.",
+            "german": "Im Herbst ist es kühl."
+          },
+          {
+            "japanese": "秋は紅葉がきれいです。",
+            "romaji": "Aki wa kōyō ga kirei desu.",
+            "german": "Im Herbst ist die Laubfärbung schön."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66933,17 +69200,30 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Autumn matches Herbst; select season noun, not personal-name rows.",
+            "finding": "Use ordinary season noun 秋 at sys.dic@41279166, aType 1, not homophonous person-name アキ rows.",
             "match": {
               "word": "秋",
               "reading": "あき",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Autumn matches Herbst; select season noun, not personal-name rows."
+              "sense": "Exact 秋/あき, JMdict 1332650, senses 1: autumn, fall. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "246": {
+        "notes": "冬 ist der Winter. 冬は寒いです beschreibt das typische Wetter; 冬にスキーに行く nennt eine Unternehmung in dieser Jahreszeit. 冬休み（ふゆやすみ）sind die Winterferien. 寒い bezeichnet die Kälte der Umgebung, 冷たい etwa die Kälte eines berührten Gegenstands.",
+        "examples": [
+          {
+            "japanese": "冬は寒いです。",
+            "romaji": "Fuyu wa samui desu.",
+            "german": "Im Winter ist es kalt."
+          },
+          {
+            "japanese": "冬はスキーに行きたいです。",
+            "romaji": "Fuyu wa sukī ni ikitai desu.",
+            "german": "Im Winter möchte ich Ski fahren gehen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66953,17 +69233,35 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Winter matches Winter; reject names and adjective-stem rows and retain common noun 2.",
+            "finding": "Ordinary season noun 冬 at sys.dic@235666892 attests aType 2; the name フユ with pattern 1 is not selected.",
             "match": {
               "word": "冬",
               "reading": "ふゆ",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Winter matches Winter; reject names and adjective-stem rows and retain common noun 2."
+              "sense": "Exact 冬/ふゆ, JMdict 1446070, senses 1: winter. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "247": {
+        "notes": "月（つき）bezeichnet den Mond und kann als selbstständiges Nomen auch einen Monat meinen. Kalendermonate werden dagegen mit ～月（がつ）benannt, etwa 三月（さんがつ）„März“. Für eine gezählte Dauer ist ～か月（かげつ）üblich. Diese Formen haben andere Lesungen als das hier geübte つき.",
+        "examples": [
+          {
+            "japanese": "月がきれいです。",
+            "romaji": "Tsuki ga kirei desu.",
+            "german": "Der Mond ist schön."
+          },
+          {
+            "japanese": "月がきれいですね。",
+            "romaji": "Tsuki ga kirei desu ne.",
+            "german": "Der Mond ist schön, nicht wahr?"
+          },
+          {
+            "japanese": "次の月は、三月です。",
+            "romaji": "Tsugi no tsuki wa, sangatsu desu.",
+            "german": "Der folgende Monat ist März."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -66973,21 +69271,22 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Moon and month support Mond, Monat. Both existing examples only illustrate moon; no new sense is added.",
+            "finding": "Exact 月/ツキ; lemma 月; 名詞/普通名詞/助数詞可能/*; aType 2. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "月",
               "reading": "つき",
               "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Moon and month support Mond, Monat. Both existing examples only illustrate moon; no new sense is added."
+              "sense": "Exact 月/つき, JMdict 1255430, senses 1, 2: Moon; month. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "248": {
+        "notes": "年（とし）ist das selbstständige Nomen für ein Jahr und kann auch das Alter bezeichnen, etwa 年を取る „älter werden“. Jahreszahlen und gezählte Jahre verwenden meist ねん, etwa 二〇二六年（にせんにじゅうろくねん）. Diese Lesung gehört nicht zur hier geübten selbstständigen Form とし.",
         "examples": [
           {
             "japanese": "この年は雨が多かったです。",
-            "romaji": "Kono toshi wa ame ga ookatta desu.",
+            "romaji": "Kono toshi wa ame ga ōkatta desu.",
             "german": "In diesem Jahr hat es viel geregnet."
           },
           {
@@ -67005,17 +69304,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Year matches Jahr and toshi accent 2. Replace compound-only examples with two direct toshi examples so the actual headword reading is taught.",
+            "finding": "Exact 年/トシ; lemma 年; 名詞/普通名詞/副詞可能/*; aType 2. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "年",
               "reading": "とし",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Year matches Jahr and toshi accent 2. Replace compound-only examples with two direct toshi examples so the actual headword reading is taught."
+              "sense": "Exact 年/とし, JMdict 1468060, senses 1, 2: year; age, years. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "249": {
+        "romaji": "shū",
+        "notes": "週 ist die Woche. Zusammensetzungen wie 来週（らいしゅう）bezeichnen eine bestimmte Woche; 一週間（いっしゅうかん）eine Dauer von einer Woche. 一週間に三回 heißt „dreimal pro Woche“. Die Verdoppelung in いっしゅうかん gehört zur Aussprache dieser Zählform.",
+        "examples": [
+          {
+            "japanese": "来週テストがあります。",
+            "romaji": "Raishū tesuto ga arimasu.",
+            "german": "Nächste Woche gibt es einen Test."
+          },
+          {
+            "japanese": "一週間に三回運動します。",
+            "romaji": "Isshūkan ni sankai undō shimasu.",
+            "german": "Ich treibe dreimal pro Woche Sport."
+          }
+        ],
         "pitch": 1,
         "pitchProvenance": [
           {
@@ -67026,17 +69339,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Week matches Woche, including suffix use. Exact UniDic week noun gives 1; correct stored 0.",
+            "finding": "Exact 週/シュウ; lemma 週; 名詞/普通名詞/助数詞可能/*; aType 1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "週",
               "reading": "しゅう",
               "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Week matches Woche, including suffix use. Exact UniDic week noun gives 1; correct stored 0."
+              "sense": "Exact 週/しゅう, JMdict 1333450, senses 1: week. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "250": {
+        "meaning": "Vormittag, vor Mittag (a. m.)",
+        "notes": "午前 bezeichnet den Vormittag und bei Uhrzeitangaben die Zeit von Mitternacht bis vor Mittag, also a. m. 午前九時 ist 9 Uhr morgens; 午前二時 wäre 2 Uhr nachts. 午前中 meint den Vormittag als Zeitraum. Der Gegenbegriff bei Uhrzeiten ist 午後.",
+        "examples": [
+          {
+            "japanese": "午前九時に始まります。",
+            "romaji": "Gozen kuji ni hajimarimasu.",
+            "german": "Es beginnt um neun Uhr vormittags."
+          },
+          {
+            "japanese": "午前中に買い物に行きます。",
+            "romaji": "Gozenchū ni kaimono ni ikimasu.",
+            "german": "Vormittags gehe ich einkaufen."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -67046,17 +69373,31 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Exact full-form common-noun row supports accents 1. Morning/a.m. sense supports Vormittag; gozenchuu is the entire morning interval.",
+            "finding": "Exact 午前/ゴゼン; lemma 午前; 名詞/普通名詞/副詞可能/*; aType 1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "午前",
               "reading": "ごぜん",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Vormittag"
+              "sense": "Exact 午前/ごぜん, JMdict 1269060, senses 1: morning, a.m.. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
       },
       "251": {
+        "meaning": "Nachmittag, nach Mittag (p. m.)",
+        "notes": "午後 bezeichnet den Nachmittag und bei Uhrzeitangaben die Zeit von Mittag bis vor Mitternacht, also p. m. 午後三時 ist 15 Uhr; 午後八時 ist 20 Uhr und liegt am Abend. 午後から heißt „ab dem Nachmittag“. Der Gegenbegriff bei Uhrzeiten ist 午前.",
+        "examples": [
+          {
+            "japanese": "午後三時に会いましょう。",
+            "romaji": "Gogo sanji ni aimashō.",
+            "german": "Treffen wir uns um drei Uhr nachmittags."
+          },
+          {
+            "japanese": "午後から授業があります。",
+            "romaji": "Gogo kara jugyō ga arimasu.",
+            "german": "Ab dem Nachmittag habe ich Unterricht."
+          }
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -67066,12 +69407,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Exact full-form common-noun row supports accents 1. Afternoon/p.m. matches Nachmittag; exact noun form.",
+            "finding": "Exact 午後/ゴゴ; lemma 午後; 名詞/普通名詞/副詞可能/*; aType 1. The selected lexical reading and sense match, not a different suffix or homophone.",
             "match": {
               "word": "午後",
               "reading": "ごご",
               "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "Nachmittag"
+              "sense": "Exact 午後/ごご, JMdict 1268990, senses 1: afternoon, p.m.. German guidance and contexts select these meanings while keeping other readings and homophones separate."
             }
           }
         ]
@@ -69320,7 +71661,8 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "341": {
-        "notes": "Yukkuri beschreibt ein langsames oder gemächliches Tempo und steht vor dem Verb, etwa beim Sprechen oder Gehen.",
+        "meaning": "langsam, in Ruhe",
+        "notes": "ゆっくり beschreibt ein langsames, gemächliches Tempo oder das Erholen in Ruhe. Es steht vor dem Verb: ゆっくり話す, ゆっくり休む. In diesen Verbindungen kann die Partikel と hinzutreten: ゆっくりと休む. ゆっくりと ist damit dieselbe adverbiale Verwendung mit と; die Bedeutung wird nicht zu einem neuen Wort.",
         "examples": [
           {
             "japanese": "ゆっくり話してください。",
@@ -69331,6 +71673,11 @@ window.VOCAB_CORRECTION_RULES = {
             "japanese": "ゆっくり歩きます。",
             "romaji": "Yukkuri arukimasu.",
             "german": "Ich gehe langsam."
+          },
+          {
+            "japanese": "今日は家でゆっくりと休みます。",
+            "romaji": "Kyō wa ie de yukkuri to yasumimasu.",
+            "german": "Heute erhole ich mich in Ruhe zu Hause."
           }
         ],
         "pitchProvenance": [
@@ -69342,12 +71689,12 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "Exact selected lexical form attests 3. Slowly/unhurriedly adverb; replace identical speech request with slow walking.",
+            "finding": "Exact ゆっくり/ユックリ; lemma ゆっくり; 副詞/*/*/*; aType 3. The pitch is for the base ゆっくり lexeme; do not infer or attach a separate whole-phrase ゆっくりと accent.",
             "match": {
               "word": "ゆっくり",
               "reading": "ゆっくり",
               "grammaticalForm": "副詞/*/*/*; *; *",
-              "sense": "langsam"
+              "sense": "JMdict 1013050 exact ゆっくり sense 1 supports slowly/unhurriedly and explicitly lists adverb taking the to particle; sense 3 supports resting comfortably. No separate reading or lexical identity is introduced for optional と."
             }
           }
         ]
@@ -73107,6 +75454,51 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1433": {
+        "notes": "他（ほか）bezeichnet etwas anderes oder Zusätzliches. Vor einem Nomen steht の: 他の本 „ein anderes Buch“. 他に heißt oft „sonst noch, außerdem“, 他で „woanders“. Die Kana-Schreibung ほか ist ebenfalls üblich; die Lesung ほか ist von 他（た）in anderen Verbindungen zu unterscheiden.",
+        "examples": [
+          {
+            "kind": "teaching",
+            "japanese": "他の本を見せてください。",
+            "romaji": "Hoka no hon o misete kudasai.",
+            "german": "Zeigen Sie mir bitte ein anderes Buch."
+          },
+          {
+            "kind": "natural",
+            "japanese": "他に質問はありますか。",
+            "romaji": "Hoka ni shitsumon wa arimasu ka.",
+            "german": "Gibt es sonst noch Fragen?"
+          },
+          {
+            "kind": "natural",
+            "japanese": "この店にはないので、他で探します。",
+            "romaji": "Kono mise ni wa nai node, hoka de sagashimasu.",
+            "german": "Da es das in diesem Laden nicht gibt, suche ich woanders."
+          }
+        ],
+        "aliases": [
+          "ほか"
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243405105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact 他/ホカ; lemma 他; 名詞/普通名詞/副詞可能/*; aType 0. This ordinary noun/adverb-compatible 他 row is not a homophonous verb fragment.",
+            "match": {
+              "word": "他",
+              "reading": "ほか",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "JMdict 1203260 exact 他/ほか senses 1,2,5 supports elsewhere, other/different and besides/additionally. The spelling ほか is the same exact reading and lexeme in the candidate research; add it as an alias while preserving distinct readings such as た."
+            }
+          }
+        ]
+      },
       "1500": {
         "word": "イクラ",
         "reading": "いくら",
@@ -74274,6 +76666,50 @@ window.VOCAB_CORRECTION_RULES = {
               "reading": "オレンジ",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
               "sense": "オレンジ as \"Orange (Frucht); Orange (Farbe)\"."
+            }
+          }
+        ]
+      },
+      "1537": {
+        "word": "字引",
+        "reading": "じびき",
+        "romaji": "jibiki",
+        "meaning": "Wörterbuch (ältere Bezeichnung)",
+        "type": "Nomen",
+        "category": "Arbeit",
+        "level": "N5",
+        "notes": "字引（じびき）, auch 字引き, ist eine ältere Bezeichnung für ein Wörterbuch. Im heutigen Alltag ist 辞書 die üblichere Wahl. 字引で調べる heißt „in einem Wörterbuch nachschlagen“. Das Wort wird weiterhin verstanden; die Kennzeichnung bedeutet nicht, dass es unbrauchbar oder ausschließlich historisch wäre.",
+        "examples": [
+          {
+            "japanese": "わからない言葉を字引で調べます。",
+            "romaji": "Wakaranai kotoba o jibiki de shirabemasu.",
+            "german": "Ich schlage unbekannte Wörter im Wörterbuch nach."
+          },
+          {
+            "japanese": "祖父の字引は大きくて、重いです。",
+            "romaji": "Sofu no jibiki wa ōkikute, omoi desu.",
+            "german": "Das Wörterbuch meines Großvaters ist groß und schwer."
+          }
+        ],
+        "aliases": [
+          "字引き"
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143849504",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact orthography 字引, kana ジビキ, ordinary noun, lemma 字引き, aType 3. UniDic lemma normalizes the okurigana spelling; the exact shorter orthography is attested, so no pitch inference from another word is required.",
+            "match": {
+              "word": "字引",
+              "reading": "じびき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Dictionary/reference book, JMdict 1315140 sense 1, not an inflected 引く verb."
             }
           }
         ]
@@ -128896,6 +131332,7 @@ window.VOCAB_CORRECTION_RULES = {
       "1338": "vocab-n5:1338",
       "1339": "vocab-n5:1339",
       "1342": "vocab-n5:1342",
+      "1433": "vocab-n5:1433",
       "1500": "vocab-n5:correction:ikura-roe",
       "1501": "vocab-n5:correction:nannin",
       "1502": "vocab-n5:correction:nanji",
@@ -128932,7 +131369,8 @@ window.VOCAB_CORRECTION_RULES = {
       "1533": "vocab-n5:correction:macchi",
       "1534": "vocab-n5:correction:firumu",
       "1535": "vocab-n5:correction:rekoodo",
-      "1536": "vocab-n5:correction:orenji"
+      "1536": "vocab-n5:correction:orenji",
+      "1537": "vocab-n5:correction:jibiki"
     },
     "vocab-n4": {
       "24": "vocab-n4:24",

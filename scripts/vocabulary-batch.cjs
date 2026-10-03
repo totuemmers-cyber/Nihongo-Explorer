@@ -1,7 +1,7 @@
 // Reusable packaging; editorial decisions must be supplied explicitly by reviewers.
 const fs=require('fs'),path=require('path'),assert=require('assert');
 const crypto=require('crypto');
-const {root}=require('./vocabulary-tools.cjs');
+const {root,levels}=require('./vocabulary-tools.cjs');
 const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
 const {entryApprovalHash,decisionHash,mergeHash}=require('./vocabulary-review-workflow.cjs');
 const {selectedForBatch,POLICY_ID}=require('./vocabulary-review-policy.cjs');
@@ -15,12 +15,13 @@ function content(plan,id){return plan.workingItems?.get(id)||plan.items.find(v=>
 function binding(plan,id){const v=content(plan,id);assert(v,'Missing entry '+id);return {sourceHash:hash(project(v)),predecessorRevisionHash:plan.workHeads?.get(id)?.revisionHash??null};}
 function preparePackets(plan,options={}) {
   const started=Date.now();
-  let selected=queue(plan,75,{evidence:options.evidence!==false});
+  let selected=queue(plan,75,{evidence:options.evidence!==false,level:options.level,enrichment:options.enrichment});
   if(options.ids) {
     assert(Array.isArray(options.ids)&&options.ids.length>0&&options.ids.length<=75&&new Set(options.ids).size===options.ids.length,'Invalid revision roster');
     const cache=options.evidence===false?null:researchPackets();
     selected={...selected,entries:options.ids.map(id=>{
       const item=content(plan,id);assert(item,'Unknown explicit revision target');
+      assert(!options.level||item.level===options.level,'Explicit revision target is out-of-level');
       return {id,content:clone(item),...(cache?{researchPacket:researchPacket(id,item,cache)}:{})};
     }),candidates:[]};
   }
@@ -34,11 +35,14 @@ function preparePackets(plan,options={}) {
       candidates:candidates.filter((_,index)=>index%3===i)};return {...packet,packetHash:hash(packet)};})};
 }
 function prepareCandidatePackets(plan,requested,options={}) {
+  assert(!options.level||levels.includes(options.level),'Invalid candidate level');
   const cache=options.evidence===false?null:researchPackets();
-  const available=plan.candidateLedger.flatMap(c=>c.references.filter(r=>r.state!=='accepted').map(r=>({key:c.key,...r})));
+  const ownershipPlan=require('./vocabulary-phase-report.cjs').ownershipPlan(plan);
+  const available=plan.candidateLedger.filter(c=>!options.level||require('./vocabulary-phase-report.cjs').candidateLevel(plan.manifest.candidates.find(row=>row.key===c.key),ownershipPlan)===options.level)
+    .flatMap(c=>c.references.filter(r=>r.state!=='accepted').map(r=>({key:c.key,...r})));
   const selected=requested?requested.map(ref=>{
     const row=available.find(r=>r.key===ref.key&&r.index===(ref.index??ref.referenceIndex));
-    assert(row,'Unknown or accepted candidate reference');return {...row,additionIds:clone(ref.additionIds||[])};
+    assert(row,'Unknown, accepted or out-of-level candidate reference');return {...row,additionIds:clone(ref.additionIds||[])};
   }):available.slice(0,75);
   assert(selected.length<=75,'Candidate wave exceeds 75 references');
   assert.equal(new Set(selected.map(r=>r.key+'#'+r.index)).size,selected.length,'Repeated candidate allocation');
@@ -284,7 +288,12 @@ if(require.main===module){
   const [command,...args]=process.argv.slice(2),get=name=>args.find(a=>a.startsWith('--'+name+'='))?.slice(name.length+3);
   const required=name=>{const value=get(name);assert(value,'Missing --'+name);return value;};
   let result;
-  if(command==='prepare') result=get('defects')?prepareDefectPacket(importer.prepare(),read(get('defects'))):get('additions')?prepareAdditionPacket(importer.prepare(),read(get('additions'))):args.includes('--candidates')?prepareCandidatePackets(importer.prepare(),get('references')?read(get('references')):undefined):preparePackets(importer.prepare(),{ids:get('ids')?read(get('ids')):undefined});
+  if(command==='prepare') {
+    const status=read(path.join(root,'scripts/vocabulary-completion/campaign-status.json'));
+    const campaign=status.activeCampaign?.status==='active'?status.activeCampaign:null;
+    result=get('defects')?prepareDefectPacket(importer.prepare(),read(get('defects'))):get('additions')?prepareAdditionPacket(importer.prepare(),read(get('additions'))):args.includes('--candidates')?prepareCandidatePackets(importer.prepare(),get('references')?read(get('references')):undefined,{level:get('level')||campaign?.activeLevel}):preparePackets(importer.prepare(),{
+      ids:get('ids')?read(get('ids')):undefined,level:get('level')||campaign?.activeLevel,enrichment:args.includes('--enrichment')||Boolean(campaign)});
+  }
   else if(command==='assemble') {
     const packet=read(required('packet'));
     const proposal=get('findings')?require('./vocabulary-editorial-record.cjs').hydrate(packet,read(get('findings'))):read(required('proposal'));

@@ -6,7 +6,7 @@ const {spawnSync} = require('child_process');
 const {root} = require('./vocabulary-tools.cjs');
 const temp = fs.realpathSync(os.tmpdir());
 const fixture = fs.mkdtempSync(path.join(temp,'nihongo-vocabulary-completion-'));
-const files = ['vocab-n5.js','vocab-n4.js','vocab-n3.js','vocab-n2.js','vocab-n1.js','vocab-correction-rules.js','scripts/vocabulary-completion/ledger.json'];
+const files = ['vocab-n5.js','vocab-n4.js','vocab-n3.js','vocab-n2.js','vocab-n1.js','vocab-correction-rules.js','vocab-romaji-hepburn.js','scripts/vocabulary-completion/ledger.json'];
 const snapshot = () => files.map(f=>fs.readFileSync(path.join(fixture,f),'utf8'));
 function run(script,args=[],success=true) {
   const result=spawnSync(process.execPath,[script,...args],{cwd:fixture,encoding:'utf8'});

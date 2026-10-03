@@ -47,9 +47,12 @@ function packet(id,item,packets) {
 function queue(plan,limit=25,options={}) {
   const current=plan.workingItems || new Map(plan.items.map(v=>[v.id,v]));
   const acceptedIds=new Set(plan.ledger.filter(v=>v.editorial==='reviewed').map(v=>v.id));
+  const ledgerById=new Map(plan.ledger.map(row=>[row.id,row]));
   const sources=[...levels.map(l=>'vocab-'+l.toLowerCase()),'yojijukugo','idioms'];
-  const rows=[...current].filter(([id])=>plan.workHeads?.get(id)?.state!=='accepted'
-    && !acceptedIds.has(id));
+  if (options.level && !levels.includes(options.level)) throw new Error('Invalid queue level');
+  const rows=[...current].filter(([id,item])=>(!options.level || item.level===options.level)
+    && (options.enrichment ? require('./vocabulary-phase-report.cjs').needsEnrichment(plan,item,ledgerById)
+      : plan.workHeads?.get(id)?.state!=='accepted' && !acceptedIds.has(id)));
   rows.sort(([a,av],[b,bv])=>{
     const ah=plan.workHeads?.get(a),bh=plan.workHeads?.get(b);
     return Number(bh?.record.priority==='confirmed-error')-Number(ah?.record.priority==='confirmed-error')
@@ -74,18 +77,22 @@ function queue(plan,limit=25,options={}) {
     const record=plan.candidateHeads?.get(c.key+'#'+r.index)?.record;
     return {...r,...(record?.research?{research:record.research,openQuestions:record.openQuestions||[]}:{})};
   })}));
-  const candidates=unresolved.filter(c=>plan.manifest.candidates.find(v=>v.key===c.key).possibleTargets?.some(t=>ids.has(t.id)));
+  const ownershipPlan=require('./vocabulary-phase-report.cjs').ownershipPlan(plan);
+  const scopedCandidates=options.level?unresolved.filter(c=>require('./vocabulary-phase-report.cjs').candidateLevel(plan.manifest.candidates.find(row=>row.key===c.key),ownershipPlan)===options.level):unresolved;
+  const candidates=scopedCandidates.filter(c=>plan.manifest.candidates.find(v=>v.key===c.key).possibleTargets?.some(t=>ids.has(t.id))
+    || c.references.some(r=>(plan.candidateHeads?.get(c.key+'#'+r.index)?.record.targets||[]).some(id=>ids.has(id))));
   return {batchSize:limit,remainingEntries:rows.length,policy:POLICY_ID,
     samplingInstruction:'After editorial classification, select ceil(routine records / 10) with selectedForBatch; queue samples are preliminary only.',
     snapshotWarning:'Allocate all worker shards from one unchanged queue snapshot before importing results.',
     shard:{index:shardIndex+1,count:shardCount},entries,
-    candidates:entries.length?candidates:unresolved.slice(0,limit)};
+    candidates:entries.length?candidates:scopedCandidates.slice(0,limit)};
 }
 module.exports={queue,researchPackets,indexResearch,packet};
 if(require.main===module) {
   const statusFile=path.join(root,'scripts/vocabulary-completion/campaign-status.json');
   const status=fs.existsSync(statusFile)?JSON.parse(fs.readFileSync(statusFile,'utf8')):null;
-  if(status?.exhaustiveCampaign?.status==='superseded') {
+  const campaign=status?.activeCampaign;
+  if(status?.exhaustiveCampaign?.status==='superseded' && campaign?.status!=='active') {
     console.log(JSON.stringify({status:'superseded',complete:false,
       message:'The exhaustive queue is frozen. Use the bounded triage report; resumption requires a new explicit scope.',
       campaign:status},null,2));
@@ -94,5 +101,6 @@ if(require.main===module) {
   const value=name=>process.argv.find(arg=>arg.startsWith('--'+name+'='))?.split('=').slice(1).join('=');
   const limit=Number(value('limit')||25),shard=(value('shard')||'1/1').split('/').map(Number);
   if(!Number.isInteger(limit)||limit<1) throw new Error('Invalid --limit');
-  console.log(JSON.stringify(queue(prepare(),limit,{shardIndex:shard[0]-1,shardCount:shard[1],evidence:process.argv.includes('--evidence')}),null,2));
+  console.log(JSON.stringify(queue(prepare(),limit,{shardIndex:shard[0]-1,shardCount:shard[1],evidence:process.argv.includes('--evidence'),
+    level:value('level')||(campaign?.status==='active'?campaign.activeLevel:undefined),enrichment:process.argv.includes('--enrichment')||campaign?.status==='active'}),null,2));
 }

@@ -1,6 +1,13 @@
 Reusable vocabulary batch workflow
 ==================================
 
+For the active full-enrichment campaign, CLI preparation selects that campaign's
+level and includes accepted entries still lacking notes, two distinct examples,
+two reviewed contexts or investigated pitch. `--level=N5 --enrichment` makes this
+selection explicit. The reusable module keeps its maintenance defaults unless
+these options are supplied. Candidate groups are allocated separately; a phase
+requires all references in groups owned by that level to resolve.
+
 `node scripts/vocabulary-batch.cjs prepare --out=.content-cache/wave.json`
 allocates three fixed packets of up to 25 entries from one queue snapshot, in
 queue order. Save each element of `packets` to a separate packet JSON file.
@@ -49,3 +56,9 @@ Focused verification: `node scripts/vocabulary-batch-test.cjs`.
 Candidate additions are allocated before authoring: use `prepare --candidates --references=refs.json`, where each explicit reference may include `additionIds`, for example `[{"key":"candidate-key","index":0,"additionIds":["vocab-n5:correction:new-sense"]}]`. Every allocated ID must appear in `proposal.additions`, alongside its candidate decision, and reviews plus additions remain limited to 25 entries per packet. The addition supplies its complete `entry`, reason, level basis, evidence, pitch investigation and consequential enrichment policy. Its accepted candidate decision targets the exact entry hash. Both addition and decision need explicit first and independent second approvals. The allocated candidate identity is included in the addition's approval-bound policy. Reuse neither existing IDs nor a newly prepared packet after its source changes.
 
 For an explicit sample defect, use `prepare --defects=defects.json --out=packet.json` and then assemble a version-3 proposal containing the same `sampleDefects` roster. Supply the full affected batch revision IDs and documented shared-rule entries when opening a defect. Clearance supplies every affected entry's later independent revision/content hashes. The packet binds the current defect predecessor; assembly binds the exact finding and scope. Defect notices do not invent entry acceptance decisions: the existing workflow validates escalation scope and clearance approvals immediately before import. An open defect must be appended after its affected batch. Identity merges continue through the dedicated authoring workflow.
+# Romaji display overrides
+
+The importer reconciles `vocab-romaji-hepburn.js` with the final reviewed runtime.
+An unchanged authored string keeps its vowel spans. When approved authoring
+replaces a string with reviewed Hepburn, its obsolete display spans are removed
+within the same serialized import. An unreviewed mismatch fails validation.
