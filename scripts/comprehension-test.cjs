@@ -110,7 +110,7 @@ async function run() {
   assert(!legacy.d.getElementById('listening-n5-5-transcript').hidden);
   assert.deepEqual(JSON.parse(legacy.w.localStorage.getItem('nihongo-comprehension-v1')), legacyProgress);
   legacy.w.close();
-  for (const id of ['reading-n5-10', 'listening-n1-10']) {
+  for (const id of ['reading-n5-10', 'listening-n1-10', 'reading-n5-20', 'reading-n4-22', 'reading-n3-22', 'reading-n2-27', 'reading-n1-27']) {
     const skill = id.split('-')[0], route = '#' + skill + '/' + id;
     const deep = await boot(route, { progress: JSON.stringify(legacyProgress) });
     const unit = deep.w.COMPREHENSION_UNITS.find(u => u.id === id);
@@ -121,7 +121,7 @@ async function run() {
     const saved = deep.w.localStorage.getItem('nihongo-comprehension-v1');
     for (const oldId of Object.keys(legacyProgress)) assert.deepEqual(JSON.parse(saved)[oldId], legacyProgress[oldId]);
     const refreshed = await boot(route, { progress: saved });
-    assert(refreshed.d.querySelector('.comprehension-result').textContent.startsWith('3 von 3 richtig'), id);
+    assert(refreshed.d.querySelector('.comprehension-result').textContent.startsWith(unit.questions.length + ' von ' + unit.questions.length + ' richtig'), id);
     refreshed.w.close();
     clickText(deep.d, '← Zurück zu ' + (skill === 'reading' ? 'Lesen' : 'Hören'));
     assert.equal(deep.d.querySelectorAll('#' + skill + '-tab [data-unit]').length, levelCount(deep.w, skill, unit.level));
@@ -131,6 +131,33 @@ async function run() {
     if (skill === 'listening') assert(!deep.media.some(e => e[0] === 'play'), 'Unit ten must not autoplay on navigation');
     deep.w.close();
   }
+  // A one-question draft survives refresh, and both zero and perfect scores use a denominator of one.
+  const shortRoute = '#reading/reading-n5-11';
+  const draft = await boot(shortRoute, { progress: JSON.stringify(legacyProgress) });
+  const short = draft.w.COMPREHENSION_UNITS.find(u => u.id === 'reading-n5-11'), sq = short.questions[0];
+  const wrong = (sq.answer + 1) % 4;
+  draft.d.querySelector(`input[name="${sq.id}"][value="${wrong}"]`).click();
+  clickText(draft.d, 'Deutsche Übersetzung');
+  const savedDraft = draft.w.localStorage.getItem('nihongo-comprehension-v1');
+  draft.w.close();
+  const resumed = await boot(shortRoute, { progress: savedDraft });
+  assert(resumed.d.querySelector(`input[name="${sq.id}"][value="${wrong}"]`).checked);
+  assert(!resumed.d.querySelector('.comprehension-result'));
+  assert(!resumed.d.getElementById(short.id + '-translation').hidden);
+  resumed.d.querySelector('form').dispatchEvent(new resumed.w.Event('submit', { bubbles: true, cancelable: true }));
+  assert(resumed.d.querySelector('.comprehension-result').textContent.startsWith('0 von 1 richtig'));
+  const savedResult = resumed.w.localStorage.getItem('nihongo-comprehension-v1');
+  for (const oldId of Object.keys(legacyProgress)) assert.deepEqual(JSON.parse(savedResult)[oldId], legacyProgress[oldId]);
+  const zero = await boot(shortRoute, { progress: savedResult });
+  assert(zero.d.querySelector('.comprehension-result').textContent.startsWith('0 von 1 richtig'));
+  assert.equal(zero.d.querySelectorAll('.comprehension-feedback').length, 4);
+  zero.w.close();
+  clickText(resumed.d, 'Neuer Versuch');
+  resumed.d.querySelector(`input[name="${sq.id}"][value="${sq.answer}"]`).click();
+  resumed.d.querySelector('form').dispatchEvent(new resumed.w.Event('submit', { bubbles: true, cancelable: true }));
+  assert(resumed.d.querySelector('.comprehension-result').textContent.startsWith('1 von 1 richtig'));
+  assert.equal(JSON.parse(resumed.w.localStorage.getItem('nihongo-comprehension-v1'))[short.id].attempts.length, 2);
+  resumed.w.close();
   const all = await boot('#reading');
   for (const unit of all.w.COMPREHENSION_UNITS) {
     all.w.app.switchTab(unit.skill);
@@ -139,7 +166,11 @@ async function run() {
     const choiceTotal = unit.questions.reduce((n, q) => n + q.choices.length, 0);
     assert.equal(panel.querySelectorAll('fieldset').length, unit.questions.length, unit.id); assert.equal(panel.querySelectorAll('input[type="radio"]').length, choiceTotal, unit.id);
     for (const p of unit.passages) if (p.label) assert(panel.querySelector('#' + p.id).textContent.startsWith(p.label), unit.id + ': passage label');
-    if (unit.format) assert(panel.querySelector('.comprehension-unit .comprehension-meta').textContent.includes('·'), unit.id + ': format badge');
+    if (unit.format) {
+      const label = { short: 'Kurzer Text', medium: 'Mittellanger Text', long: 'Langer Text', integrated: 'Zwei Texte vergleichen', 'info-search': 'Informationen suchen', 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?' }[unit.format];
+      assert(panel.querySelector('.comprehension-unit .comprehension-meta').textContent.endsWith('· ' + label), unit.id + ': format badge');
+      assert(!panel.textContent.includes('undefined'), unit.id + ': missing format text');
+    }
     assert.equal(panel.querySelectorAll('.comprehension-feedback').length, 0, unit.id);
     for (const q of unit.questions) panel.querySelector('input[name="' + q.id + '"][value="' + q.answer + '"]').click();
     panel.querySelector('form').dispatchEvent(new all.w.Event('submit', { bubbles: true, cancelable: true }));
@@ -159,6 +190,6 @@ async function run() {
   assert(all.d.querySelector('[data-unit="' + extraId + '"]').closest('li').textContent.includes(nextOrder + '/' + nextOrder));
   assert.equal(all.w.Comprehension.counts('listening').total, listeningTotal);
   assert.equal(all.errors.length, 0, all.errors.map(e => e.message).join('\n')); all.w.close();
-  console.log('Guided learning tests passed: all units (incl. task formats), dynamic counts, unit-ten deep links/history/refresh, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, retry, audio lifecycle and unavailable storage.');
+  console.log('Guided learning tests passed: all units and format labels, dynamic counts, final-unit deep links/history/refresh, one-question draft/result restoration and scoring, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, retry, audio lifecycle and unavailable storage.');
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

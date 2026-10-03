@@ -12,7 +12,7 @@
       if (status) status.textContent = 'Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Neuladen dieser Seite erhalten.';
     }
   }
-  var FORMAT_LABELS = { 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?', 'info-search': 'Informationen suchen', integrated: 'Zwei Texte vergleichen', long: 'Langer Text' };
+  var FORMAT_LABELS = { short: 'Kurzer Text', medium: 'Mittellanger Text', 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?', 'info-search': 'Informationen suchen', integrated: 'Zwei Texte vergleichen', long: 'Langer Text' };
   function formatLabel(u) { return u.format ? ' · ' + FORMAT_LABELS[u.format] : ''; }
   function el(tag, text, cls) { var n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; }
   function button(text, fn) { var b = el('button', text); b.type = 'button'; b.onclick = fn; return b; }

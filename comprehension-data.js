@@ -3207,6 +3207,930 @@ window.COMPREHENSION_UNITS = [
     }
   },
   {
+    "id": "reading-n5-11",
+    "level": "N5",
+    "skill": "reading",
+    "order": 11,
+    "title": "Die vergessene Brotdose",
+    "objective": "Verbinde den Ort mit der Bitte am Ende der Nachricht.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n5-11-p1",
+        "speaker": "",
+        "text": "ゆきさん、おべんとうは{家|いえ}のテーブルの{上|うえ}にあります。きょうはおかあさんが{十二|じゅうに}じにがっこうへもっていきます。おひるはきょうしつでまっていてください。"
+      }
+    ],
+    "translation": "Yuki, deine Brotdose liegt auf dem Tisch zu Hause. Heute bringt Mama sie um zwölf Uhr zur Schule. Warte mittags bitte im Klassenzimmer.",
+    "glossary": [
+      [
+        "家（いえ）",
+        "Haus; Zuhause"
+      ],
+      [
+        "上（うえ）",
+        "oben; auf"
+      ]
+    ],
+    "note": "Verbinde den Ort mit der Bitte am Ende der Nachricht.",
+    "questions": [
+      {
+        "id": "reading-n5-11-q1",
+        "kind": "detail",
+        "prompt": "Wo soll Yuki mittags warten?",
+        "evidence": "reading-n5-11-p1",
+        "choices": [
+          {
+            "text": "Im Klassenzimmer.",
+            "explanation": "きょうしつで nennt den Ort, an dem Yuki warten soll.",
+            "evidence": "reading-n5-11-p1"
+          },
+          {
+            "text": "Zu Hause.",
+            "explanation": "Dort liegt die Brotdose, aber Yuki soll in der Schule warten.",
+            "evidence": "reading-n5-11-p1"
+          },
+          {
+            "text": "Vor der Schule.",
+            "explanation": "Die Nachricht nennt das Klassenzimmer als Warteort.",
+            "evidence": "reading-n5-11-p1"
+          },
+          {
+            "text": "Am Tisch in der Küche.",
+            "explanation": "Der Tisch bezeichnet den Ort der Brotdose, nicht Yukis Warteort.",
+            "evidence": "reading-n5-11-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n5-12",
+    "level": "N5",
+    "skill": "reading",
+    "order": 12,
+    "title": "Nach dem Unterricht",
+    "objective": "Achte auf die Reihenfolge: から nach einer Handlung bedeutet hier „danach“.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n5-12-p1",
+        "speaker": "",
+        "text": "たろうさん、きょうのじゅぎょうのあと、{図書館|としょかん}でいっしょにべんきょうしませんか。わたしは{三|さん}じから{四|よ}じまでいます。{本|ほん}をかりてから、{二|に}かいのへやへきてください。"
+      }
+    ],
+    "translation": "Taro, wollen wir heute nach dem Unterricht zusammen in der Bibliothek lernen? Ich bin von drei bis vier Uhr dort. Leih zuerst die Bücher aus und komm dann in den Raum im zweiten Stock.",
+    "glossary": [
+      [
+        "図書館（としょかん）",
+        "Bibliothek"
+      ],
+      [
+        "本（ほん）",
+        "Buch"
+      ]
+    ],
+    "note": "Achte auf die Reihenfolge: から nach einer Handlung bedeutet hier „danach“.",
+    "questions": [
+      {
+        "id": "reading-n5-12-q1",
+        "kind": "detail",
+        "prompt": "Was soll Taro vor dem Gang in den Raum tun?",
+        "evidence": "reading-n5-12-p1",
+        "choices": [
+          {
+            "text": "Bis vier Uhr lernen.",
+            "explanation": "Vier Uhr ist das Ende der Anwesenheit der schreibenden Person.",
+            "evidence": "reading-n5-12-p1"
+          },
+          {
+            "text": "Bücher ausleihen.",
+            "explanation": "本をかりてから stellt das Ausleihen vor den Gang in den Raum.",
+            "evidence": "reading-n5-12-p1"
+          },
+          {
+            "text": "Nach Hause gehen.",
+            "explanation": "Ein Gang nach Hause wird nicht verlangt.",
+            "evidence": "reading-n5-12-p1"
+          },
+          {
+            "text": "Im ersten Stock warten.",
+            "explanation": "Taro soll nach dem Ausleihen in den zweiten Stock kommen.",
+            "evidence": "reading-n5-12-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n5-13",
+    "level": "N5",
+    "skill": "reading",
+    "order": 13,
+    "title": "Der Besuch am Sonntag",
+    "objective": "Unterscheide die alte Verabredung von der neuen Ankunftszeit.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n5-13-p1",
+        "speaker": "",
+        "text": "にちようびに{友達|ともだち}がわたしの{家|いえ}へきます。はじめは{十|じゅう}じのやくそくでしたが、バスがないので、{十一|じゅういち}じにきます。わたしは{十|じゅう}じはんにえきへむかえにいきます。"
+      }
+    ],
+    "translation": "Am Sonntag kommt ein Freund zu mir nach Hause. Zuerst waren wir für zehn Uhr verabredet, aber weil kein Bus fährt, kommt er um elf Uhr. Ich gehe um halb elf zum Bahnhof, um ihn abzuholen.",
+    "glossary": [
+      [
+        "友達（ともだち）",
+        "Freund"
+      ],
+      [
+        "家（いえ）",
+        "Haus; Zuhause"
+      ]
+    ],
+    "note": "Unterscheide die alte Verabredung von der neuen Ankunftszeit.",
+    "questions": [
+      {
+        "id": "reading-n5-13-q1",
+        "kind": "detail",
+        "prompt": "Um wie viel Uhr kommt der Freund zum Haus?",
+        "evidence": "reading-n5-13-p1",
+        "choices": [
+          {
+            "text": "Um zehn Uhr.",
+            "explanation": "Das war die ursprüngliche Verabredung.",
+            "evidence": "reading-n5-13-p1"
+          },
+          {
+            "text": "Um halb elf.",
+            "explanation": "Um diese Zeit geht die erzählende Person zum Bahnhof.",
+            "evidence": "reading-n5-13-p1"
+          },
+          {
+            "text": "Um elf Uhr.",
+            "explanation": "十一じにきます nennt die neue Ankunftszeit.",
+            "evidence": "reading-n5-13-p1"
+          },
+          {
+            "text": "Um halb zwölf.",
+            "explanation": "Diese Uhrzeit kommt im Text nicht vor.",
+            "evidence": "reading-n5-13-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n5-14",
+    "level": "N5",
+    "skill": "reading",
+    "order": 14,
+    "title": "Der Zettel an der Tür",
+    "objective": "Suche die Frist für die konkrete Handlung, nicht nur die Schließzeit.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n5-14-p1",
+        "speaker": "",
+        "text": "この{店|みせ}はきょう、{三|さん}じにしめます。あしたは{九|く}じからあいています。パンをかいたい{人|ひと}は、きょうは{二|に}じはんまでにきてください。{三|さん}じのあと、でんわはできません。"
+      }
+    ],
+    "translation": "Dieser Laden schließt heute um drei Uhr. Morgen ist er ab neun Uhr geöffnet. Wer Brot kaufen möchte, soll heute bis halb drei kommen. Nach drei Uhr ist der Laden telefonisch nicht erreichbar.",
+    "glossary": [
+      [
+        "店（みせ）",
+        "Laden"
+      ],
+      [
+        "人（ひと）",
+        "Person"
+      ]
+    ],
+    "note": "Suche die Frist für die konkrete Handlung, nicht nur die Schließzeit.",
+    "questions": [
+      {
+        "id": "reading-n5-14-q1",
+        "kind": "detail",
+        "prompt": "Bis wann soll man heute zum Brotkauf kommen?",
+        "evidence": "reading-n5-14-p1",
+        "choices": [
+          {
+            "text": "Bis drei Uhr.",
+            "explanation": "Drei Uhr ist die Schließzeit; zum Kaufen soll man früher kommen.",
+            "evidence": "reading-n5-14-p1"
+          },
+          {
+            "text": "Bis neun Uhr.",
+            "explanation": "Neun Uhr ist die Öffnungszeit am nächsten Tag.",
+            "evidence": "reading-n5-14-p1"
+          },
+          {
+            "text": "Nach drei Uhr.",
+            "explanation": "Dann ist der Laden geschlossen und telefonisch nicht erreichbar.",
+            "evidence": "reading-n5-14-p1"
+          },
+          {
+            "text": "Bis halb drei.",
+            "explanation": "Für den Brotkauf steht ausdrücklich 二じはんまでに.",
+            "evidence": "reading-n5-14-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n5-15",
+    "level": "N5",
+    "skill": "reading",
+    "order": 15,
+    "title": "Eine neue Nachbarin",
+    "objective": "Ordne Namen, Orte und Verkehrsmittel jeweils der richtigen Person zu.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n5-15-p1",
+        "speaker": "",
+        "text": "きのう、となりの{家|いえ}にあたらしい{人|ひと}がきました。さとうさんという、わかいおんなのひとです。わたしはあさ、にわでさとうさんにあいました。さとうさんはちいさいいぬといっしょでした。わたしのいぬもにわにいたので、いぬのはなしをしました。さとうさんはこのまちをよくしりません。スーパーのばしょをきいたので、わたしはちずをかきました。スーパーはえきのまえですが、えきからさとうさんのいえはとおいです。あした、わたしたちはいっしょにスーパーへいきます。わたしのくるまでいきます。"
+      }
+    ],
+    "translation": "Gestern ist jemand Neues ins Nachbarhaus eingezogen: eine junge Frau namens Sato. Ich traf sie morgens im Garten. Sie war mit einem kleinen Hund dort. Mein Hund war ebenfalls im Garten, deshalb unterhielten wir uns über Hunde. Frau Sato kennt diese Stadt noch nicht gut. Sie fragte nach dem Supermarkt, und ich zeichnete eine Karte. Der Supermarkt liegt vor dem Bahnhof, aber Frau Satos Haus ist weit vom Bahnhof entfernt. Morgen fahren wir gemeinsam zum Supermarkt. Wir fahren mit meinem Auto.",
+    "glossary": [
+      [
+        "家（いえ）",
+        "Haus"
+      ],
+      [
+        "人（ひと）",
+        "Person"
+      ],
+      [
+        "となり",
+        "nebenan"
+      ]
+    ],
+    "note": "Ordne Namen, Orte und Verkehrsmittel jeweils der richtigen Person zu.",
+    "questions": [
+      {
+        "id": "reading-n5-15-q1",
+        "kind": "global",
+        "prompt": "Worüber sprechen die beiden zuerst?",
+        "evidence": "reading-n5-15-p1",
+        "choices": [
+          {
+            "text": "Über Hunde.",
+            "explanation": "Beide Hunde sind im Garten; darauf folgt いぬのはなしをしました.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Über Autos.",
+            "explanation": "Das Auto wird erst für die geplante Fahrt genannt.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Über die Arbeit.",
+            "explanation": "Eine Arbeit wird im Text nicht erwähnt.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Über das Wetter.",
+            "explanation": "Der Text nennt Hunde als Gesprächsthema.",
+            "evidence": "reading-n5-15-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n5-15-q2",
+        "kind": "detail",
+        "prompt": "Warum zeichnet die erzählende Person eine Karte?",
+        "evidence": "reading-n5-15-p1",
+        "choices": [
+          {
+            "text": "Frau Sato sucht ihren Hund.",
+            "explanation": "Ihr Hund ist bei ihr; er wird nicht gesucht.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Frau Sato fragt nach dem Supermarkt.",
+            "explanation": "スーパーのばしょをきいたので nennt den Grund.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Der Bahnhof ist geschlossen.",
+            "explanation": "Eine Schließung des Bahnhofs steht nicht im Text.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Sie möchte ein Haus kaufen.",
+            "explanation": "Frau Sato ist bereits nebenan eingezogen.",
+            "evidence": "reading-n5-15-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n5-15-q3",
+        "kind": "inference",
+        "prompt": "Wie wollen sie morgen einkaufen fahren?",
+        "evidence": "reading-n5-15-p1",
+        "choices": [
+          {
+            "text": "Mit dem Auto von Frau Sato.",
+            "explanation": "Das Auto gehört der erzählenden Person.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Mit der Bahn.",
+            "explanation": "Der Bahnhof beschreibt die Lage des Supermarkts.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Mit dem Auto der erzählenden Person.",
+            "explanation": "わたしのくるまで nennt das Verkehrsmittel und dessen Besitzer.",
+            "evidence": "reading-n5-15-p1"
+          },
+          {
+            "text": "Zu Fuß mit den Hunden.",
+            "explanation": "Für morgen wird ausdrücklich eine Autofahrt angekündigt.",
+            "evidence": "reading-n5-15-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n5-16",
+    "level": "N5",
+    "skill": "reading",
+    "order": 16,
+    "title": "Ein Tag ohne Handy",
+    "objective": "Verfolge, welche neue Erfahrung durch eine kleine Veränderung möglich wird.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n5-16-p1",
+        "speaker": "",
+        "text": "けさ、わたしは{学校|がっこう}へいきましたが、かばんにけいたいがありませんでした。{家|いえ}にわすれました。いつもバスのなかでけいたいをみます。でも、きょうはまどのそとをみました。おおきなこうえんがありました。いままでしりませんでした。がっこうでともだちのミナさんにそのはなしをしました。ミナさんは「わたしはよくそこでおべんとうをたべるよ」といいました。おひるにふたりでこうえんへいきました。きれいなはながたくさんありました。けいたいがなくても、きょうはたのしかったです。あしたもバスのまどからそとをみたいです。"
+      }
+    ],
+    "translation": "Heute Morgen fuhr ich zur Schule, aber mein Handy war nicht in der Tasche. Ich hatte es zu Hause vergessen. Normalerweise schaue ich im Bus aufs Handy. Heute sah ich jedoch aus dem Fenster. Dort war ein großer Park, den ich bisher nicht kannte. In der Schule erzählte ich meiner Freundin Mina davon. Mina sagte: „Ich esse dort oft mein mitgebrachtes Mittagessen.“ Mittags gingen wir zu zweit in den Park. Es gab viele schöne Blumen. Auch ohne Handy hatte ich heute Spaß. Morgen möchte ich wieder aus dem Busfenster schauen.",
+    "glossary": [
+      [
+        "学校（がっこう）",
+        "Schule"
+      ],
+      [
+        "家（いえ）",
+        "Haus; Zuhause"
+      ],
+      [
+        "まど",
+        "Fenster"
+      ]
+    ],
+    "note": "Verfolge, welche neue Erfahrung durch eine kleine Veränderung möglich wird.",
+    "questions": [
+      {
+        "id": "reading-n5-16-q1",
+        "kind": "global",
+        "prompt": "Wo liegt das Handy?",
+        "evidence": "reading-n5-16-p1",
+        "choices": [
+          {
+            "text": "Im Bus.",
+            "explanation": "Die Person fährt ohne Handy mit dem Bus.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Bei Mina.",
+            "explanation": "Mina spricht über den Park, nicht über das Handy.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Im Park.",
+            "explanation": "Der Park wird erst später besucht.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Zu Hause.",
+            "explanation": "家にわすれました sagt ausdrücklich, wo es vergessen wurde.",
+            "evidence": "reading-n5-16-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n5-16-q2",
+        "kind": "detail",
+        "prompt": "Was erfährt die Person von Mina?",
+        "evidence": "reading-n5-16-p1",
+        "choices": [
+          {
+            "text": "Mina isst oft im Park zu Mittag.",
+            "explanation": "よくそこでおべんとうをたべる bezieht sich auf den Park.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Mina hat ihr Handy gefunden.",
+            "explanation": "Ein Fund des Handys wird nicht berichtet.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Der Park hat keine Blumen.",
+            "explanation": "Später werden viele schöne Blumen beschrieben.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Mina fährt immer mit dem Auto.",
+            "explanation": "Minas Verkehrsmittel wird nicht genannt.",
+            "evidence": "reading-n5-16-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n5-16-q3",
+        "kind": "inference",
+        "prompt": "Was möchte die Person morgen tun?",
+        "evidence": "reading-n5-16-p1",
+        "choices": [
+          {
+            "text": "Das Handy im Park suchen.",
+            "explanation": "Das Handy wurde zu Hause vergessen.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Im Bus wieder nach draußen schauen.",
+            "explanation": "Der letzte Satz nennt diesen Wunsch.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Allein zu Hause essen.",
+            "explanation": "Ein solcher Plan wird nicht genannt.",
+            "evidence": "reading-n5-16-p1"
+          },
+          {
+            "text": "Nicht mehr zur Schule fahren.",
+            "explanation": "Nur das Verhalten im Bus soll sich ändern.",
+            "evidence": "reading-n5-16-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n5-17",
+    "level": "N5",
+    "skill": "reading",
+    "order": 17,
+    "title": "Der erste Kochkurs",
+    "objective": "Achte auf はじめに, それから und さいごに, um die Schritte zu ordnen.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n5-17-p1",
+        "speaker": "",
+        "text": "きょう、はじめてりょうりのクラスへいきました。{先生|せんせい}はやさいのスープをおしえました。わたしはりょうりがあまりできません。はじめににんじんをきりましたが、おおきすぎました。せんせいは「もうすこしちいさくしてください」といいました。それから、なべにみずとやさいをいれました。しおはさいごにいれました。となりの{人|ひと}は「わたしもはじめてです」といいました。ふたりでスープをつくって、いっしょにたべました。とてもおいしかったです。いえでもつくりたいので、かえりににんじんとたまねぎをかいました。"
+      }
+    ],
+    "translation": "Heute ging ich zum ersten Mal in einen Kochkurs. Die Lehrerin zeigte uns eine Gemüsesuppe. Ich kann nicht besonders gut kochen. Zuerst schnitt ich eine Karotte, aber die Stücke waren zu groß. Die Lehrerin sagte: „Bitte etwas kleiner schneiden.“ Dann kamen Wasser und Gemüse in den Topf. Das Salz kam zuletzt hinein. Die Person neben mir sagte: „Für mich ist es auch das erste Mal.“ Wir machten die Suppe zu zweit und aßen gemeinsam. Sie war sehr lecker. Weil ich sie auch zu Hause machen möchte, kaufte ich auf dem Rückweg Karotten und Zwiebeln.",
+    "glossary": [
+      [
+        "先生（せんせい）",
+        "Lehrer; Lehrerin"
+      ],
+      [
+        "人（ひと）",
+        "Person"
+      ],
+      [
+        "なべ",
+        "Topf"
+      ]
+    ],
+    "note": "Achte auf はじめに, それから und さいごに, um die Schritte zu ordnen.",
+    "questions": [
+      {
+        "id": "reading-n5-17-q1",
+        "kind": "global",
+        "prompt": "Was soll die Person an den Karotten ändern?",
+        "evidence": "reading-n5-17-p1",
+        "choices": [
+          {
+            "text": "Mehr Salz darauf geben.",
+            "explanation": "Salz wird erst am Ende in die Suppe gegeben.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Sie aus dem Topf nehmen.",
+            "explanation": "Diese Handlung wird nicht verlangt.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Die Stücke kleiner schneiden.",
+            "explanation": "Die Lehrerin bittet um kleinere Stücke.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Sie durch Zwiebeln ersetzen.",
+            "explanation": "Beide Gemüsesorten werden später gekauft.",
+            "evidence": "reading-n5-17-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n5-17-q2",
+        "kind": "detail",
+        "prompt": "Wann kommt das Salz in die Suppe?",
+        "evidence": "reading-n5-17-p1",
+        "choices": [
+          {
+            "text": "Vor dem Schneiden.",
+            "explanation": "Zuerst werden die Karotten geschnitten.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Vor dem Wasser.",
+            "explanation": "Wasser und Gemüse kommen vor dem Salz hinein.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Erst beim Einkaufen.",
+            "explanation": "Das Einkaufen geschieht nach dem Kurs.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Zuletzt.",
+            "explanation": "しおはさいごにいれました nennt die Reihenfolge.",
+            "evidence": "reading-n5-17-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n5-17-q3",
+        "kind": "inference",
+        "prompt": "Warum kauft die Person Gemüse?",
+        "evidence": "reading-n5-17-p1",
+        "choices": [
+          {
+            "text": "Sie möchte die Suppe zu Hause kochen.",
+            "explanation": "いえでもつくりたいので nennt den Grund.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Der Kurs hat noch nicht angefangen.",
+            "explanation": "Das Einkaufen findet nach dem Kurs statt.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Die andere Person hat nichts gegessen.",
+            "explanation": "Beide haben die Suppe gemeinsam gegessen.",
+            "evidence": "reading-n5-17-p1"
+          },
+          {
+            "text": "Die Lehrerin verkauft Gemüse.",
+            "explanation": "Die Lehrerin erklärt das Rezept; ein Verkauf wird nicht erwähnt.",
+            "evidence": "reading-n5-17-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n5-18",
+    "level": "N5",
+    "skill": "reading",
+    "order": 18,
+    "title": "Ein Ausflug mit der Schwester",
+    "objective": "Trenne das ursprüngliche Ziel von dem, was die Personen tatsächlich tun.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n5-18-p1",
+        "speaker": "",
+        "text": "どようび、{姉|あね}とやまへいきました。あさ{八|はち}じのバスにのりました。やまのうえまであるくのは{二|に}じかんです。でも、あねのあしがいたくなったので、いちじかんでやすみました。そこにちいさいカフェがありました。わたしはおちゃをのみ、あねはジュースをのみました。カフェのまどからうみがみえました。あねは「ここでおべんとうをたべよう」といいました。わたしたちはやまのうえへはいきませんでした。でも、きれいなうみをみて、ゆっくりはなすことができました。かえりに、あねは「またこのカフェへきたいね」といいました。いい{一日|いちにち}でした。"
+      }
+    ],
+    "translation": "Am Samstag fuhr ich mit meiner älteren Schwester in die Berge. Wir nahmen den Bus um acht Uhr. Der Weg zum Gipfel dauert zwei Stunden. Aber meiner Schwester tat der Fuß weh, und deshalb machten wir nach einer Stunde Pause. Dort gab es ein kleines Café. Ich trank Tee, meine Schwester Saft. Vom Fenster des Cafés sah man das Meer. Meine Schwester sagte: „Essen wir hier unser mitgebrachtes Mittagessen.“ Wir gingen nicht zum Gipfel. Aber wir konnten das schöne Meer anschauen und in Ruhe miteinander reden. Auf dem Rückweg sagte meine Schwester: „Ich möchte wieder in dieses Café kommen.“ Es war ein schöner Tag.",
+    "glossary": [
+      [
+        "姉（あね）",
+        "eigene ältere Schwester"
+      ],
+      [
+        "一日（いちにち）",
+        "ein Tag"
+      ],
+      [
+        "やま",
+        "Berg"
+      ]
+    ],
+    "note": "Trenne das ursprüngliche Ziel von dem, was die Personen tatsächlich tun.",
+    "questions": [
+      {
+        "id": "reading-n5-18-q1",
+        "kind": "global",
+        "prompt": "Warum machen sie nach einer Stunde Pause?",
+        "evidence": "reading-n5-18-p1",
+        "choices": [
+          {
+            "text": "Der Bus fährt nicht weiter.",
+            "explanation": "Zu diesem Zeitpunkt sind sie bereits zu Fuß unterwegs.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Der Schwester tut der Fuß weh.",
+            "explanation": "あねのあしがいたくなったので nennt den Grund.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Sie sind schon am Gipfel.",
+            "explanation": "Zum Gipfel wären es zwei Stunden; sie gehen nicht dorthin.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Es regnet stark.",
+            "explanation": "Regen wird nicht erwähnt.",
+            "evidence": "reading-n5-18-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n5-18-q2",
+        "kind": "detail",
+        "prompt": "Was sieht man aus dem Café?",
+        "evidence": "reading-n5-18-p1",
+        "choices": [
+          {
+            "text": "Den Bahnhof.",
+            "explanation": "Ein Bahnhof kommt in dieser Erzählung nicht vor.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Das Haus der Schwester.",
+            "explanation": "Das Haus wird nicht erwähnt.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Das Meer.",
+            "explanation": "まどからうみがみえました nennt den Ausblick.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Nur die Straße.",
+            "explanation": "Der Text nennt ausdrücklich das Meer.",
+            "evidence": "reading-n5-18-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n5-18-q3",
+        "kind": "inference",
+        "prompt": "Wie bewertet die erzählende Person den Ausflug?",
+        "evidence": "reading-n5-18-p1",
+        "choices": [
+          {
+            "text": "Als langweilig, weil sie nicht reden konnten.",
+            "explanation": "Sie konnten in Ruhe miteinander reden.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Als schlecht, weil das Café geschlossen war.",
+            "explanation": "Beide trinken im geöffneten Café.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Als Erfolg, weil sie den Gipfel erreichten.",
+            "explanation": "Sie gingen ausdrücklich nicht zum Gipfel.",
+            "evidence": "reading-n5-18-p1"
+          },
+          {
+            "text": "Als schönen Tag trotz des geänderten Plans.",
+            "explanation": "Obwohl sie den Gipfel nicht erreichen, endet der Text mit いい一日でした.",
+            "evidence": "reading-n5-18-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n5-19",
+    "level": "N5",
+    "skill": "reading",
+    "order": 19,
+    "title": "Mit der Fähre zur Insel",
+    "objective": "Suche getrennt nach Abfahrtsrichtung und Uhrzeit; verbinde danach die Angaben.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n5-19-p1",
+        "speaker": "",
+        "text": "さくらじまへいく{船|ふね}\nみなとをでるじかん：{九|く}じ、{十一|じゅういち}じ、{二|に}じ。しままで{三十分|さんじゅっぷん}です。\nしまをでるじかん：{十|じゅう}じ、{十二|じゅうに}じ、{四|よ}じ。さいごのふねは{四|よ}じです。\nおとなはかたみち{五百|ごひゃく}えん、こどもは{二百|にひゃく}えんです。きっぷはみなとのちいさい{店|みせ}でかってください。ふねのなかではかえません。\nふねがでる{十分|じゅっぷん}まえに、のりばへきてください。じてんしゃもいっしょにのせることができます。じてんしゃは{百|ひゃく}えんです。\nあめのひもふねはでます。でも、かぜがとてもつよいひはでません。でんわでたしかめてください。"
+      }
+    ],
+    "translation": "Fähre zur Insel Sakura. Abfahrt vom Hafen: 9, 11 und 14 Uhr. Die Überfahrt dauert 30 Minuten. Abfahrt von der Insel: 10, 12 und 16 Uhr; die letzte Fähre fährt um 16 Uhr. Eine einfache Fahrt kostet für Erwachsene 500 Yen, für Kinder 200 Yen. Kaufen Sie die Fahrkarte im kleinen Laden am Hafen; an Bord ist das nicht möglich. Kommen Sie zehn Minuten vor Abfahrt zur Anlegestelle. Fahrräder können mitgenommen werden; sie kosten 100 Yen. Auch bei Regen fährt die Fähre. Bei sehr starkem Wind fährt sie jedoch nicht. Erkundigen Sie sich telefonisch.",
+    "glossary": [
+      [
+        "船（ふね）",
+        "Schiff; Fähre"
+      ],
+      [
+        "店（みせ）",
+        "Laden"
+      ],
+      [
+        "かたみち",
+        "einfache Fahrt"
+      ]
+    ],
+    "note": "Suche getrennt nach Abfahrtsrichtung und Uhrzeit; verbinde danach die Angaben.",
+    "questions": [
+      {
+        "id": "reading-n5-19-q1",
+        "kind": "search",
+        "prompt": "Lena ist um 10:20 Uhr am Hafen. Wann kann sie frühestens auf der Insel ankommen?",
+        "evidence": "reading-n5-19-p1",
+        "choices": [
+          {
+            "text": "Um 11:30 Uhr.",
+            "explanation": "Sie nimmt die Fähre um elf; die Fahrt dauert dreißig Minuten.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "Um 10:30 Uhr.",
+            "explanation": "Um diese Zeit fährt keine Fähre vom Hafen ab.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "Um 11 Uhr.",
+            "explanation": "Elf Uhr ist die Abfahrt, nicht die Ankunft.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "Um 12:30 Uhr.",
+            "explanation": "Zwölf Uhr ist eine Abfahrt von der Insel, nicht vom Hafen.",
+            "evidence": "reading-n5-19-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n5-19-q2",
+        "kind": "search",
+        "prompt": "Was kostet eine einfache Fahrt für einen Erwachsenen mit Fahrrad?",
+        "evidence": "reading-n5-19-p1",
+        "choices": [
+          {
+            "text": "500 Yen.",
+            "explanation": "Für das Fahrrad kommen zusätzlich 100 Yen hinzu.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "600 Yen.",
+            "explanation": "500 Yen für die Person plus 100 Yen für das Fahrrad ergeben 600.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "300 Yen.",
+            "explanation": "200 Yen ist der Kinderpreis, nicht der Erwachsenenpreis.",
+            "evidence": "reading-n5-19-p1"
+          },
+          {
+            "text": "1000 Yen.",
+            "explanation": "Gefragt ist nur eine einfache Fahrt mit einem Fahrrad.",
+            "evidence": "reading-n5-19-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n5-20",
+    "level": "N5",
+    "skill": "reading",
+    "order": 20,
+    "title": "Flohmarkt an der Schule",
+    "objective": "Unterscheide die Anmeldung vom Zeitpunkt, zu dem die Waren gebracht werden.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n5-20-p1",
+        "speaker": "",
+        "text": "{学校|がっこう}のフリーマーケット\nにちようびの{十|じゅう}じから{三|さん}じまで、がっこうのにわでひらきます。あめのときはたいいくかんです。\n{本|ほん}、ふく、おもちゃをかうことができます。たべものはうりません。\nものをうりたいひとは、きんようびの{五|ご}じまでにせんせいにいってください。おかねはいりません。テーブルはがっこうにあります。うるものは、にちようびの{九|く}じはんに、にわへもってきてください。\nくるまでくるひとは、えきのちかくにとめてください。がっこうにはとめられません。かばんをもってきてください。かいもののふくろはありません。"
+      }
+    ],
+    "translation": "Flohmarkt an der Schule. Er findet am Sonntag von 10 bis 15 Uhr im Schulgarten statt. Bei Regen ist er in der Sporthalle. Man kann Bücher, Kleidung und Spielzeug kaufen. Lebensmittel werden nicht verkauft. Wer etwas verkaufen möchte, soll bis Freitag um 17 Uhr der Lehrkraft Bescheid sagen. Es kostet nichts. Tische gibt es in der Schule. Bringen Sie die Verkaufsgegenstände am Sonntag um 9:30 Uhr in den Garten. Wer mit dem Auto kommt, soll in der Nähe des Bahnhofs parken; an der Schule kann man nicht parken. Bringen Sie eine Tasche mit. Einkaufstüten gibt es nicht.",
+    "glossary": [
+      [
+        "学校（がっこう）",
+        "Schule"
+      ],
+      [
+        "本（ほん）",
+        "Buch"
+      ],
+      [
+        "ふくろ",
+        "Tüte; Beutel"
+      ]
+    ],
+    "note": "Unterscheide die Anmeldung vom Zeitpunkt, zu dem die Waren gebracht werden.",
+    "questions": [
+      {
+        "id": "reading-n5-20-q1",
+        "kind": "search",
+        "prompt": "Was muss jemand tun, der Kleidung verkaufen möchte?",
+        "evidence": "reading-n5-20-p1",
+        "choices": [
+          {
+            "text": "Am Sonntag um 10 Uhr zuerst einen Tisch kaufen.",
+            "explanation": "Tische stellt die Schule bereit; die Anmeldung ist vorher nötig.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Bis Sonntag um 15 Uhr Geld bezahlen.",
+            "explanation": "Das Verkaufen kostet nichts.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Bis Freitag um 17 Uhr der Lehrkraft Bescheid sagen.",
+            "explanation": "Diese Frist gilt für alle, die etwas verkaufen wollen.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Die Kleidung am Freitag zum Bahnhof bringen.",
+            "explanation": "Waren werden am Sonntag in den Schulgarten gebracht.",
+            "evidence": "reading-n5-20-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n5-20-q2",
+        "kind": "search",
+        "prompt": "Was gilt für einen Besucher mit Auto?",
+        "evidence": "reading-n5-20-p1",
+        "choices": [
+          {
+            "text": "Er kann im Schulgarten parken und bekommt eine Tüte.",
+            "explanation": "Beides widerspricht den Hinweisen.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Er muss bei Regen zu Hause bleiben.",
+            "explanation": "Bei Regen findet der Markt in der Sporthalle statt.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Er darf nur Lebensmittel kaufen.",
+            "explanation": "Lebensmittel werden gerade nicht verkauft.",
+            "evidence": "reading-n5-20-p1"
+          },
+          {
+            "text": "Er soll nahe dem Bahnhof parken und eine Tasche mitbringen.",
+            "explanation": "Der Hinweis nennt den Parkplatz beim Bahnhof und fehlende Einkaufstüten.",
+            "evidence": "reading-n5-20-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
+  },
+  {
     "id": "reading-n4-1",
     "level": "N4",
     "skill": "reading",
@@ -6624,6 +7548,964 @@ window.COMPREHENSION_UNITS = [
       "synthetic": true,
       "revision": "native16-v3"
     }
+  },
+  {
+    "id": "reading-n4-13",
+    "level": "N4",
+    "skill": "reading",
+    "order": 13,
+    "title": "Die geänderte Reservierung",
+    "objective": "Prüfe, was bei ausbleibender Antwort automatisch geschieht.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n4-13-p1",
+        "speaker": "",
+        "text": "{予約|よやく}のじかんについておしらせします。あしたの{六|ろく}じにごよやくをいただいていますが、へやのそうじにじかんがかかるため、{六|ろく}じはんからのごりようをおねがいします。おわるじかんも{三十分|さんじゅっぷん}おそくできます。むずかしいばあいは、きょうの{五|ご}じまでにお{電話|でんわ}ください。おへんじがなければ、{六|ろく}じはんのよやくにかえておきます。"
+      }
+    ],
+    "translation": "Wir informieren Sie über Ihre Reservierungszeit. Sie haben für morgen um 18 Uhr reserviert. Da die Reinigung des Raums länger dauert, bitten wir Sie, ihn ab 18:30 Uhr zu nutzen. Auch das Ende der Nutzungszeit kann um 30 Minuten verschoben werden. Sollte das schwierig sein, rufen Sie bitte heute bis 17 Uhr an. Wenn wir keine Antwort erhalten, ändern wir die Reservierung auf 18:30 Uhr.",
+    "glossary": [
+      [
+        "予約（よやく）",
+        "Reservierung"
+      ],
+      [
+        "電話（でんわ）",
+        "Telefon; Anruf"
+      ]
+    ],
+    "note": "Prüfe, was bei ausbleibender Antwort automatisch geschieht.",
+    "questions": [
+      {
+        "id": "reading-n4-13-q1",
+        "kind": "detail",
+        "prompt": "Was passiert, wenn der Kunde nicht antwortet?",
+        "evidence": "reading-n4-13-p1",
+        "choices": [
+          {
+            "text": "Die Reservierung wird auf 18:30 Uhr verschoben.",
+            "explanation": "おへんじがなければ nennt genau diese automatische Änderung.",
+            "evidence": "reading-n4-13-p1"
+          },
+          {
+            "text": "Die Reservierung wird gelöscht.",
+            "explanation": "Es wird nur die Uhrzeit geändert.",
+            "evidence": "reading-n4-13-p1"
+          },
+          {
+            "text": "Der Raum bleibt ab 18 Uhr verfügbar.",
+            "explanation": "Wegen der Reinigung ist der neue Beginn 18:30 Uhr.",
+            "evidence": "reading-n4-13-p1"
+          },
+          {
+            "text": "Die Nutzung muss 30 Minuten kürzer sein.",
+            "explanation": "Auch das Ende kann um 30 Minuten verschoben werden.",
+            "evidence": "reading-n4-13-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n4-14",
+    "level": "N4",
+    "skill": "reading",
+    "order": 14,
+    "title": "Bitte die Pflanzen gießen",
+    "objective": "ただ leitet eine Ausnahme ein; prüfe, welche Pflanzen davon betroffen sind.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n4-14-p1",
+        "speaker": "",
+        "text": "まいさん、あしたから{三日|みっか}かん{旅行|りょこう}にいきます。ベランダのはなにみずをあげてもらえませんか。あさ、{一かい|いっかい}だけでいいです。ただ、あめがふったひは、そとのはなにはあげないでください。へやのなかのはなには、あめでもおねがいします。かぎはいつものはこのなかです。かえったらおれいに{料理|りょうり}をつくります。"
+      }
+    ],
+    "translation": "Mai, ab morgen verreise ich für drei Tage. Könntest du die Blumen auf dem Balkon gießen? Einmal morgens genügt. An Tagen, an denen es regnet, gieße die Blumen draußen bitte nicht. Die Blumen im Zimmer gieße bitte auch bei Regen. Der Schlüssel liegt in der üblichen Schachtel. Wenn ich zurück bin, koche ich als Dank für dich.",
+    "glossary": [
+      [
+        "旅行（りょこう）",
+        "Reise"
+      ],
+      [
+        "料理（りょうり）",
+        "Gericht; Kochen"
+      ]
+    ],
+    "note": "ただ leitet eine Ausnahme ein; prüfe, welche Pflanzen davon betroffen sind.",
+    "questions": [
+      {
+        "id": "reading-n4-14-q1",
+        "kind": "detail",
+        "prompt": "Welche Pflanzen soll Mai an einem Regentag gießen?",
+        "evidence": "reading-n4-14-p1",
+        "choices": [
+          {
+            "text": "Nur die Pflanzen auf dem Balkon.",
+            "explanation": "Für die Pflanzen draußen gilt gerade die Ausnahme.",
+            "evidence": "reading-n4-14-p1"
+          },
+          {
+            "text": "Nur die Pflanzen im Zimmer.",
+            "explanation": "Draußen soll sie bei Regen nicht gießen; drinnen ausdrücklich trotzdem.",
+            "evidence": "reading-n4-14-p1"
+          },
+          {
+            "text": "Alle Pflanzen zweimal.",
+            "explanation": "Einmal morgens reicht, und draußen entfällt das Gießen bei Regen.",
+            "evidence": "reading-n4-14-p1"
+          },
+          {
+            "text": "Keine Pflanzen.",
+            "explanation": "Für die Pflanzen im Zimmer bleibt die Bitte bestehen.",
+            "evidence": "reading-n4-14-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n4-15",
+    "level": "N4",
+    "skill": "reading",
+    "order": 15,
+    "title": "Nachricht aus der Werkstatt",
+    "objective": "Unterscheide Fertigstellung und frühesten Abholtermin.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n4-15-p1",
+        "speaker": "",
+        "text": "おあずかりした{時計|とけい}のしゅうりがおわりました。でんちだけでなく、なかのぶひんもかえたので、りょうきんは{三千|さんぜん}えんです。おわたしはあしたからできます。きょうはお{店|みせ}を{六|ろく}じにしめますが、あしたは{八|はち}じまであいています。うけとるときは、おあずけになったときのかみをもってきてください。かみがないばあいは、おなまえをかくにんします。"
+      }
+    ],
+    "translation": "Die Reparatur Ihrer bei uns abgegebenen Uhr ist fertig. Wir haben nicht nur die Batterie, sondern auch ein Bauteil im Inneren ausgetauscht; der Preis beträgt deshalb 3000 Yen. Die Abholung ist ab morgen möglich. Heute schließen wir um 18 Uhr, morgen haben wir bis 20 Uhr geöffnet. Bringen Sie zur Abholung bitte den Beleg mit, den Sie beim Abgeben erhalten haben. Falls Sie ihn nicht haben, überprüfen wir Ihren Namen.",
+    "glossary": [
+      [
+        "時計（とけい）",
+        "Uhr"
+      ],
+      [
+        "店（みせ）",
+        "Laden"
+      ]
+    ],
+    "note": "Unterscheide Fertigstellung und frühesten Abholtermin.",
+    "questions": [
+      {
+        "id": "reading-n4-15-q1",
+        "kind": "detail",
+        "prompt": "Wie kann man die Uhr ohne Abholbeleg bekommen?",
+        "evidence": "reading-n4-15-p1",
+        "choices": [
+          {
+            "text": "Heute vor 18 Uhr gegen 3000 Yen.",
+            "explanation": "Heute ist die Abholung noch nicht möglich.",
+            "evidence": "reading-n4-15-p1"
+          },
+          {
+            "text": "Nur nach einer zweiten Reparatur.",
+            "explanation": "Die Reparatur ist fertig; eine zweite ist nicht nötig.",
+            "evidence": "reading-n4-15-p1"
+          },
+          {
+            "text": "Ab morgen nach Überprüfung des Namens.",
+            "explanation": "Die Abholung beginnt morgen; bei fehlendem Beleg wird der Name geprüft.",
+            "evidence": "reading-n4-15-p1"
+          },
+          {
+            "text": "Gar nicht, weil der Beleg zwingend nötig ist.",
+            "explanation": "Für einen fehlenden Beleg nennt die Nachricht eine Alternative.",
+            "evidence": "reading-n4-15-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n4-16",
+    "level": "N4",
+    "skill": "reading",
+    "order": 16,
+    "title": "Das Missverständnis beim Treffen",
+    "objective": "Beziehe „der übliche Ort“ auf die jeweilige Erfahrung der beiden Personen.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n4-16-p1",
+        "speaker": "",
+        "text": "きのう、{友達|ともだち}のユリさんとえきであうやくそくをしました。「いつものところで{二|に}じに」とメッセージをもらったので、わたしはえきのきたぐちへいきました。まえにそこであったことがあるからです。ところが、{二|に}じをすぎてもユリさんはきませんでした。でんわをすると、ユリさんはみなみぐちにいました。さいきん、ユリさんはみなみぐちのちかくのカフェによくいくので、そこを「いつものところ」とおもっていたそうです。わたしはきたぐちからみなみぐちへあるきました。えきのなかはひとがおおく、{十分|じゅっぷん}かかりました。カフェについたとき、ユリさんは「ばしょをちゃんとかかなくてごめんね」といいました。わたしも、わからないことをきかなかったのがよくなかったとおもいました。そのあと、ふたりでケーキをたべました。つぎからは、えきのどちらのいりぐちか、みせのなまえはなにかをメッセージでたしかめることにしました。おなじことばでも、かんがえているばしょはちがうことがあるのですね。{約束|やくそく}のじかんだけでなく、ばしょもたいせつです。"
+      }
+    ],
+    "translation": "Gestern verabredete ich mich mit meiner Freundin Yuri am Bahnhof. Sie schrieb: „Um zwei am üblichen Ort“, also ging ich zum Nordausgang. Wir hatten uns dort schon einmal getroffen. Doch auch nach zwei Uhr kam Yuri nicht. Als ich anrief, war sie am Südausgang. Seit Kurzem geht sie oft in ein Café nahe dem Südausgang; das hatte sie mit dem „üblichen Ort“ gemeint. Ich ging vom Nord- zum Südausgang. Im Bahnhof waren viele Menschen, und ich brauchte zehn Minuten. Im Café sagte Yuri: „Entschuldige, dass ich den Ort nicht richtig angegeben habe.“ Ich dachte, dass es auch von mir nicht gut gewesen war, bei Unklarheiten nicht nachzufragen. Anschließend aßen wir zusammen Kuchen. Für das nächste Mal beschlossen wir, per Nachricht zu klären, welcher Bahnhofsausgang und welches Café gemeint sind. Auch bei demselben Wort kann man an unterschiedliche Orte denken. Bei einer Verabredung ist neben der Zeit auch der Ort wichtig.",
+    "glossary": [
+      [
+        "友達（ともだち）",
+        "Freund; Freundin"
+      ],
+      [
+        "約束（やくそく）",
+        "Verabredung; Versprechen"
+      ]
+    ],
+    "note": "Beziehe „der übliche Ort“ auf die jeweilige Erfahrung der beiden Personen.",
+    "questions": [
+      {
+        "id": "reading-n4-16-q1",
+        "kind": "global",
+        "prompt": "Warum wartet die erzählende Person am Nordausgang?",
+        "evidence": "reading-n4-16-p1",
+        "choices": [
+          {
+            "text": "Yuri nennt den Nordausgang ausdrücklich.",
+            "explanation": "Die Nachricht sagt nur „am üblichen Ort“.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Das Café liegt am Nordausgang.",
+            "explanation": "Das Café liegt beim Südausgang.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Der Südausgang ist geschlossen.",
+            "explanation": "Eine Schließung wird nicht erwähnt.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Die beiden hatten sich früher dort getroffen.",
+            "explanation": "Diese frühere Begegnung begründet ihre Ortswahl.",
+            "evidence": "reading-n4-16-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n4-16-q2",
+        "kind": "detail",
+        "prompt": "Was denkt die Person über ihren eigenen Fehler?",
+        "evidence": "reading-n4-16-p1",
+        "choices": [
+          {
+            "text": "Sie hätte bei Unklarheiten nachfragen sollen.",
+            "explanation": "Sie nennt das unterlassene Nachfragen als eigenen Anteil.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Sie hätte keinen Kuchen bestellen sollen.",
+            "explanation": "Das gemeinsame Essen wird nicht als Fehler bewertet.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Sie hätte eine Stunde früher kommen sollen.",
+            "explanation": "Das Problem betrifft den Ort, nicht die Pünktlichkeit.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Sie hätte Yuri nicht anrufen dürfen.",
+            "explanation": "Der Anruf klärt das Missverständnis.",
+            "evidence": "reading-n4-16-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-16-q3",
+        "kind": "inference",
+        "prompt": "Was vereinbaren beide für zukünftige Treffen?",
+        "evidence": "reading-n4-16-p1",
+        "choices": [
+          {
+            "text": "Immer ohne Nachricht zum Nordausgang gehen.",
+            "explanation": "Sie wollen den Ort künftig genauer absprechen.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Ausgang und Namen des Cafés ausdrücklich bestätigen.",
+            "explanation": "Der Text nennt beide Angaben für die nächsten Nachrichten.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Nur noch zu Hause essen.",
+            "explanation": "Ein solcher Ortswechsel wird nicht beschlossen.",
+            "evidence": "reading-n4-16-p1"
+          },
+          {
+            "text": "Die Uhrzeit nicht mehr angeben.",
+            "explanation": "Auch die Zeit bleibt wichtig; der Ort kommt hinzu.",
+            "evidence": "reading-n4-16-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n4-17",
+    "level": "N4",
+    "skill": "reading",
+    "order": 17,
+    "title": "Früher aufstehen",
+    "objective": "Vergleiche die erwartete Wirkung mit dem tatsächlich wichtigsten Vorteil.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n4-17-p1",
+        "speaker": "",
+        "text": "わたしはいつも、しごとがはじまる{一|いち}じかんまえにおきていました。あさはじかんがなくて、パンをたべながらかばんのじゅんびをしていました。あるひ、バスにのりおくれて、{会社|かいしゃ}におくれました。それから、{三十分|さんじゅっぷん}はやくおきることにしました。はじめの{三日|みっか}かんはねむくて、すぐにやめたくなりました。でも、よるも{三十分|さんじゅっぷん}はやくねるようにすると、あさおきるのがすこしらくになりました。いまはテーブルにすわってあさごはんをたべています。かばんはよるのうちにじゅんびしておきます。あまったじかんに、ちかくのこうえんをすこしあるくこともあります。はやくおきれば、しごとがたくさんできるとおもっていましたが、いちばんよかったのは、いそがずにいえをでられることでした。にちようびはむりにはやくおきません。つかれているときは、ゆっくりやすみます。まいにちおなじようにしなければならないとかんがえると、つづけにくくなるからです。じぶんにあうやりかたをさがしながら、これからもこの{習慣|しゅうかん}をつづけたいです。"
+      }
+    ],
+    "translation": "Früher stand ich immer eine Stunde vor Arbeitsbeginn auf. Morgens war kaum Zeit, und ich bereitete meine Tasche vor, während ich Brot aß. Eines Tages verpasste ich den Bus und kam zu spät zur Arbeit. Danach beschloss ich, dreißig Minuten früher aufzustehen. Die ersten drei Tage war ich müde und wollte sofort aufhören. Doch als ich auch abends dreißig Minuten früher schlafen ging, wurde das Aufstehen etwas leichter. Jetzt frühstücke ich am Tisch. Die Tasche bereite ich schon am Abend vor. Wenn Zeit übrig ist, gehe ich manchmal kurz im nahen Park spazieren. Ich dachte, früheres Aufstehen würde mir ermöglichen, mehr zu arbeiten. Am besten war jedoch, dass ich ohne Eile das Haus verlassen kann. Sonntags zwinge ich mich nicht zum frühen Aufstehen. Wenn ich müde bin, ruhe ich mich aus. Denn mit dem Gedanken, jeden Tag alles gleich machen zu müssen, wird das Durchhalten schwieriger. Ich möchte diese Gewohnheit fortsetzen und dabei einen Weg finden, der zu mir passt.",
+    "glossary": [
+      [
+        "会社（かいしゃ）",
+        "Firma"
+      ],
+      [
+        "習慣（しゅうかん）",
+        "Gewohnheit"
+      ]
+    ],
+    "note": "Vergleiche die erwartete Wirkung mit dem tatsächlich wichtigsten Vorteil.",
+    "questions": [
+      {
+        "id": "reading-n4-17-q1",
+        "kind": "global",
+        "prompt": "Was macht das frühe Aufstehen leichter?",
+        "evidence": "reading-n4-17-p1",
+        "choices": [
+          {
+            "text": "Das Frühstück auszulassen.",
+            "explanation": "Die Person isst jetzt in Ruhe am Tisch.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Den Bus nicht mehr zu benutzen.",
+            "explanation": "Der Text berichtet keinen Wechsel des Verkehrsmittels.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Auch abends früher schlafen zu gehen.",
+            "explanation": "Diese Veränderung führt dazu, dass das Aufstehen leichter wird.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Sonntags besonders früh aufzustehen.",
+            "explanation": "Sonntags besteht gerade kein Zwang dazu.",
+            "evidence": "reading-n4-17-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n4-17-q2",
+        "kind": "detail",
+        "prompt": "Welcher Vorteil ist der Person am wichtigsten?",
+        "evidence": "reading-n4-17-p1",
+        "choices": [
+          {
+            "text": "Jeden Tag länger zu arbeiten.",
+            "explanation": "Mehr Arbeit war die Erwartung, aber nicht der wichtigste Gewinn.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Nie mehr müde zu sein.",
+            "explanation": "Bei Müdigkeit nimmt sich die Person weiterhin Zeit zum Ausruhen.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Jeden Morgen lange im Park zu laufen.",
+            "explanation": "Es sind nur gelegentliche kurze Spaziergänge.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Ohne Hektik das Haus verlassen zu können.",
+            "explanation": "いちばんよかったのは hebt diesen Vorteil hervor.",
+            "evidence": "reading-n4-17-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n4-17-q3",
+        "kind": "inference",
+        "prompt": "Warum hält die Person die Regel sonntags flexibel?",
+        "evidence": "reading-n4-17-p1",
+        "choices": [
+          {
+            "text": "Eine zu starre Regel erschwert das Durchhalten.",
+            "explanation": "Der Text begründet die Flexibilität mit つづけにくくなる.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Am Sonntag beginnt die Arbeit früher.",
+            "explanation": "Das wird nicht gesagt.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Frühes Aufstehen ist immer schädlich.",
+            "explanation": "Die Person möchte die Gewohnheit weiterführen.",
+            "evidence": "reading-n4-17-p1"
+          },
+          {
+            "text": "Sie will die Gewohnheit ganz aufgeben.",
+            "explanation": "Im letzten Satz steht ausdrücklich der Wunsch, weiterzumachen.",
+            "evidence": "reading-n4-17-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n4-18",
+    "level": "N4",
+    "skill": "reading",
+    "order": 18,
+    "title": "Das geliehene Fahrrad",
+    "objective": "Ordne ursprünglichen Plan, Hindernis und vereinbarte Lösung in dieser Reihenfolge.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n4-18-p1",
+        "speaker": "",
+        "text": "きのう、わたしの{自転車|じてんしゃ}がこわれたので、となりにすむたなかさんにじてんしゃをかりました。たなかさんは「よる{七|しち}じにつかうから、それまでにかえしてね」といいました。わたしはひるのあいだにかいものをして、{五|ご}じにはかえるつもりでした。ところが、スーパーをでると、あめがつよくふっていました。じてんしゃでかえるのはあぶないとおもい、スーパーのまえでまちました。{六|ろく}じになってもあめはやみませんでした。たなかさんにでんわをして、かえるのがおそくなりそうだとつたえました。すると、たなかさんは「じてんしゃはそのみせのちゅうりんじょうにおいて、バスでかえってきていいよ。わたしがくるまでとりにいくから」といいました。わたしはじてんしゃにかぎをかけ、かぎをもってバスにのりました。いえにつくと、すぐにたなかさんにかぎをわたしました。よる、おれいをいいにいくと、もうじてんしゃはもどっていました。かりたものをやくそくどおりにかえせないときは、はやく{連絡|れんらく}することがたいせつだとおもいました。"
+      }
+    ],
+    "translation": "Gestern ging mein Fahrrad kaputt, deshalb lieh ich mir eines von meinem Nachbarn Herrn Tanaka. Er sagte: „Ich brauche es um sieben Uhr abends, also gib es bitte bis dahin zurück.“ Ich wollte tagsüber einkaufen und um fünf Uhr zurück sein. Doch als ich aus dem Supermarkt kam, regnete es stark. Ich hielt die Rückfahrt mit dem Rad für gefährlich und wartete vor dem Supermarkt. Auch um sechs Uhr hörte der Regen nicht auf. Ich rief Herrn Tanaka an und sagte, dass ich wohl später zurückkommen würde. Er antwortete: „Stell das Fahrrad am Fahrradparkplatz des Ladens ab und komm mit dem Bus zurück. Ich hole es mit dem Auto.“ Ich schloss das Fahrrad ab und nahm den Schlüssel mit in den Bus. Zu Hause gab ich Herrn Tanaka sofort den Schlüssel. Als ich mich abends bedanken ging, war das Fahrrad bereits wieder da. Ich fand, dass man sich früh melden sollte, wenn man etwas Geliehenes nicht wie vereinbart zurückgeben kann.",
+    "glossary": [
+      [
+        "自転車（じてんしゃ）",
+        "Fahrrad"
+      ],
+      [
+        "連絡（れんらく）",
+        "Kontakt; Mitteilung"
+      ]
+    ],
+    "note": "Ordne ursprünglichen Plan, Hindernis und vereinbarte Lösung in dieser Reihenfolge.",
+    "questions": [
+      {
+        "id": "reading-n4-18-q1",
+        "kind": "global",
+        "prompt": "Wann wollte die Person ursprünglich zurück sein?",
+        "evidence": "reading-n4-18-p1",
+        "choices": [
+          {
+            "text": "Um 19 Uhr.",
+            "explanation": "Das ist die späteste vereinbarte Rückgabezeit.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Um 17 Uhr.",
+            "explanation": "五じにはかえるつもりでした nennt ihren Plan.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Um 18 Uhr.",
+            "explanation": "Um sechs Uhr wartet sie noch auf das Ende des Regens.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Erst am nächsten Morgen.",
+            "explanation": "Der ursprüngliche Plan ist am selben Nachmittag.",
+            "evidence": "reading-n4-18-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n4-18-q2",
+        "kind": "detail",
+        "prompt": "Was soll die Person nach Tanakas Vorschlag tun?",
+        "evidence": "reading-n4-18-p1",
+        "choices": [
+          {
+            "text": "Trotz Regen mit dem Rad fahren.",
+            "explanation": "Das hält die Person für gefährlich; Tanaka schlägt den Bus vor.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Den Schlüssel am Rad lassen.",
+            "explanation": "Die Person nimmt den Schlüssel mit und übergibt ihn zu Hause.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Das Rad am Supermarkt lassen und mit dem Bus zurückfahren.",
+            "explanation": "Tanaka bietet an, das Rad selbst mit dem Auto abzuholen.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Ein neues Fahrrad kaufen.",
+            "explanation": "Für die Rückgabe ist kein Neukauf nötig.",
+            "evidence": "reading-n4-18-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n4-18-q3",
+        "kind": "inference",
+        "prompt": "Welche Lehre zieht die Person aus dem Erlebnis?",
+        "evidence": "reading-n4-18-p1",
+        "choices": [
+          {
+            "text": "Niemals etwas von Nachbarn leihen.",
+            "explanation": "Eine solche allgemeine Ablehnung steht nicht im Text.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Bei Regen immer bis nachts warten.",
+            "explanation": "Der Anruf ermöglicht eine frühere Lösung.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Geliehene Fahrräder müssen mit dem Auto zurückgebracht werden.",
+            "explanation": "Das Auto ist eine Lösung in dieser Situation, keine allgemeine Regel.",
+            "evidence": "reading-n4-18-p1"
+          },
+          {
+            "text": "Bei Problemen mit der Rückgabe früh Bescheid geben.",
+            "explanation": "Der Schlusssatz hebt frühe Kontaktaufnahme hervor.",
+            "evidence": "reading-n4-18-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n4-19",
+    "level": "N4",
+    "skill": "reading",
+    "order": 19,
+    "title": "Ein neues Hobby",
+    "objective": "Achte darauf, wie ein konkretes Erlebnis die anfängliche Vorstellung verändert.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n4-19-p1",
+        "speaker": "",
+        "text": "わたしはさいきん、{写真|しゃしん}をとることをはじめました。ともだちからふるいカメラをもらったのがきっかけです。はじめは、きれいなけしきがあるとおいまちへいかなければ、いいしゃしんはとれないとおもっていました。そこで、やすみのひにでんしゃでうみへいきました。でも、そのひはくもっていて、しゃしんはおもったほどきれいではありませんでした。かえりに、いえのちかくでねこをみつけました。ねこはあかいじてんしゃのしたでねていました。おもしろいとおもってしゃしんをとると、ともだちが「これがいちばんすき」といってくれました。それから、まいあさおなじみちをあるきながら、いろいろなものをさがしています。いつものみちでも、ひかりやはなのいろがすこしずつちがいます。いまは、たかいカメラをかうより、よくみることがたいせつだとおもっています。しゃしんのきょうしつにもいきたいですが、まずはじぶんでつづけてみます。{毎日|まいにち}たくさんとるのではなく、これはとりたいとおもったときにカメラをだすようにしています。"
+      }
+    ],
+    "translation": "Seit Kurzem fotografiere ich. Der Anlass war, dass ein Freund mir eine alte Kamera schenkte. Zunächst dachte ich, gute Fotos seien nur möglich, wenn man in einen weit entfernten Ort mit schöner Landschaft fährt. Deshalb fuhr ich an einem freien Tag mit dem Zug ans Meer. Doch es war bewölkt, und die Fotos waren nicht so schön wie erwartet. Auf dem Rückweg entdeckte ich nahe meinem Haus eine Katze. Sie schlief unter einem roten Fahrrad. Ich fand das interessant und fotografierte sie. Mein Freund sagte: „Dieses Bild gefällt mir am besten.“ Seitdem suche ich morgens auf demselben Weg nach verschiedenen Motiven. Auch auf dem vertrauten Weg verändern sich das Licht und die Farben der Blumen ein wenig. Heute finde ich genaues Hinsehen wichtiger als den Kauf einer teuren Kamera. Ich würde auch gern einen Fotokurs besuchen, möchte aber zunächst selbst weitermachen. Ich mache nicht täglich viele Bilder, sondern hole die Kamera hervor, wenn ich etwas unbedingt fotografieren möchte.",
+    "glossary": [
+      [
+        "写真（しゃしん）",
+        "Foto; Fotografie"
+      ],
+      [
+        "毎日（まいにち）",
+        "jeden Tag"
+      ]
+    ],
+    "note": "Achte darauf, wie ein konkretes Erlebnis die anfängliche Vorstellung verändert.",
+    "questions": [
+      {
+        "id": "reading-n4-19-q1",
+        "kind": "global",
+        "prompt": "Wie beginnt das Hobby?",
+        "evidence": "reading-n4-19-p1",
+        "choices": [
+          {
+            "text": "Ein Freund schenkt der Person eine alte Kamera.",
+            "explanation": "Das wird ausdrücklich als きっかけ bezeichnet.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Die Person gewinnt eine neue Kamera.",
+            "explanation": "Einen Wettbewerb gibt es im Text nicht.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Ein Fotokurs ist verpflichtend.",
+            "explanation": "Einen Kurs möchte die Person erst später vielleicht besuchen.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Die Person zieht ans Meer.",
+            "explanation": "Sie macht nur einen Ausflug dorthin.",
+            "evidence": "reading-n4-19-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-19-q2",
+        "kind": "detail",
+        "prompt": "Welches Foto gefällt dem Freund am besten?",
+        "evidence": "reading-n4-19-p1",
+        "choices": [
+          {
+            "text": "Das Meer bei Sonnenschein.",
+            "explanation": "Am Meer war es bewölkt.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Die Katze unter einem roten Fahrrad.",
+            "explanation": "Nach diesem Foto sagt der Freund „Dieses gefällt mir am besten“.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Die neue teure Kamera.",
+            "explanation": "Die Person hat keine neue Kamera gekauft.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Ein Gruppenfoto aus dem Kurs.",
+            "explanation": "Sie hat noch keinen Kurs besucht.",
+            "evidence": "reading-n4-19-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n4-19-q3",
+        "kind": "inference",
+        "prompt": "Was hält die Person jetzt für besonders wichtig?",
+        "evidence": "reading-n4-19-p1",
+        "choices": [
+          {
+            "text": "Für jedes Foto weit zu reisen.",
+            "explanation": "Gerade diese anfängliche Vorstellung hat sich geändert.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Täglich möglichst viele Bilder zu machen.",
+            "explanation": "Der letzte Satz beschreibt gezielte Aufnahmen statt hoher Mengen.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Die Umgebung aufmerksam zu betrachten.",
+            "explanation": "よくみること wird dem Kauf einer teuren Kamera vorgezogen.",
+            "evidence": "reading-n4-19-p1"
+          },
+          {
+            "text": "Nur bei wolkenlosem Himmel zu fotografieren.",
+            "explanation": "Die neue Praxis betrifft alltägliche Motive und Beobachtung.",
+            "evidence": "reading-n4-19-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n4-20",
+    "level": "N4",
+    "skill": "reading",
+    "order": 20,
+    "title": "Der Nachbar zieht weg",
+    "objective": "Suche den Grund, aus dem eine Geschenkidee verworfen und durch eine andere ersetzt wird.",
+    "minutes": 8,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n4-20-p1",
+        "speaker": "",
+        "text": "となりの{山田|やまだ}さんが、らいげつひっこすことになりました。やまださんは、わたしがこのアパートにきたとき、ごみをだすひやちかくのみせをおしえてくれたひとです。しごとのために、べつのまちへいくそうです。わたしはさびしくなって、なにかプレゼントをしたいとおもいました。はじめは、おおきなはちにはいったはなをかおうとしました。でも、ひっこしのにもつがふえるとこまるかもしれません。そこで、おなじアパートのひとたちに、やまださんへのメッセージをかいてもらいました。しゃしんもいっしょに、ちいさいアルバムにいれました。ひっこしのまえのにちようびに、みんなでおちゃをのみながら、アルバムをわたしました。やまださんは「こんなにたくさんおもいでがあったんだね」といって、なんどもページをみていました。わたしは、もののおおきさやねだんより、いっしょにすごしたじかんをつたえることがたいせつだとおもいました。あたらしいまちの{住所|じゅうしょ}もおしえてもらいました。これからは、ときどきてがみをかこうとおもっています。"
+      }
+    ],
+    "translation": "Mein Nachbar Herr Yamada zieht nächsten Monat um. Als ich in dieses Apartmenthaus kam, erklärte er mir die Tage der Müllabfuhr und die Geschäfte in der Nähe. Wegen seiner Arbeit zieht er in eine andere Stadt. Ich war traurig und wollte ihm etwas schenken. Zuerst wollte ich eine große Topfpflanze kaufen. Doch zusätzliches Gepäck könnte beim Umzug stören. Deshalb bat ich die anderen Bewohner, Nachrichten für Herrn Yamada zu schreiben. Ich legte sie zusammen mit Fotos in ein kleines Album. Am Sonntag vor dem Umzug übergaben wir es ihm beim gemeinsamen Teetrinken. Herr Yamada sagte: „So viele Erinnerungen hatten wir also gemeinsam“, und betrachtete die Seiten immer wieder. Ich fand, dass es wichtiger war, unsere gemeinsame Zeit zu vermitteln, als Größe oder Preis des Geschenks. Er gab mir auch seine neue Adresse. Ich möchte ihm künftig gelegentlich Briefe schreiben.",
+    "glossary": [
+      [
+        "山田（やまだ）",
+        "Yamada (Familienname)"
+      ],
+      [
+        "住所（じゅうしょ）",
+        "Adresse"
+      ]
+    ],
+    "note": "Suche den Grund, aus dem eine Geschenkidee verworfen und durch eine andere ersetzt wird.",
+    "questions": [
+      {
+        "id": "reading-n4-20-q1",
+        "kind": "global",
+        "prompt": "Warum zieht Herr Yamada um?",
+        "evidence": "reading-n4-20-p1",
+        "choices": [
+          {
+            "text": "Weil das Apartment zu teuer ist.",
+            "explanation": "Die Wohnkosten werden nicht genannt.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Weil er seine Nachbarn nicht mag.",
+            "explanation": "Das gemeinsame Abschiedstreffen zeigt keinen solchen Konflikt.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Weil er ein Blumenladen eröffnet.",
+            "explanation": "Die Blumen sind nur eine verworfene Geschenkidee.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Wegen seiner Arbeit.",
+            "explanation": "しごとのために nennt den Umzugsgrund.",
+            "evidence": "reading-n4-20-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n4-20-q2",
+        "kind": "detail",
+        "prompt": "Warum wird die große Topfpflanze nicht gekauft?",
+        "evidence": "reading-n4-20-p1",
+        "choices": [
+          {
+            "text": "Sie könnte das Umzugsgepäck vergrößern.",
+            "explanation": "Die Person bedenkt, dass mehr Gepäck Schwierigkeiten machen könnte.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Yamada hat eine Pflanzenallergie.",
+            "explanation": "Eine Allergie wird nicht erwähnt.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Alle Blumen sind ausverkauft.",
+            "explanation": "Ein fehlendes Angebot ist kein genannter Grund.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Der Preis des Albums ist höher.",
+            "explanation": "Die Entscheidung wird nicht mit einem Preisvergleich begründet.",
+            "evidence": "reading-n4-20-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-20-q3",
+        "kind": "inference",
+        "prompt": "Was soll das tatsächliche Geschenk vermitteln?",
+        "evidence": "reading-n4-20-p1",
+        "choices": [
+          {
+            "text": "Die Größe des neuen Hauses.",
+            "explanation": "Das neue Haus wird nicht beschrieben.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Die gemeinsam verbrachte Zeit.",
+            "explanation": "Fotos und Nachrichten halten gemeinsame Erinnerungen fest.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Die genaue Höhe der Umzugskosten.",
+            "explanation": "Kosten werden nicht berechnet.",
+            "evidence": "reading-n4-20-p1"
+          },
+          {
+            "text": "Den Wunsch, keinen Kontakt mehr zu haben.",
+            "explanation": "Die Person möchte weiterhin Briefe schreiben.",
+            "evidence": "reading-n4-20-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n4-21",
+    "level": "N4",
+    "skill": "reading",
+    "order": 21,
+    "title": "Anmeldung zum Stadtlauf",
+    "objective": "Kombiniere Altersregel, Preis pro Person und streckenspezifische Startzeit.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n4-21-p1",
+        "speaker": "",
+        "text": "さくら{市|し}のマラソンたいかい\n{六月十五日|ろくがつじゅうごにち}に、かわのそばのこうえんでひらきます。あめでもおこないますが、つよいかぜのときはちゅうしします。\nＡコース：{五|ご}キロ。ちゅうがくせいからさんかできます。{九|く}じスタート。りょうきん{千|せん}えん。\nＢコース：{二|に}キロ。だれでもさんかできます。ただし、しょうがくせいはおとなといっしょにはしってください。{十|じゅう}じスタート。りょうきんはひとり{五百|ごひゃく}えん。\nもうしこみは{六月一日|ろくがつついたち}までです。しのホームページからもうしこんでください。でんわではうけつけません。おかねはもうしこみのあと、{一しゅうかん|いっしゅうかん}いないにはらってください。\nとうじつは、スタートの{三十分|さんじゅっぷん}まえまでにうけつけへきて、なまえをつたえてください。くつやタオルはじぶんでもってきてください。のみものはうけつけでわたします。\nもうしこみのあとにコースをかえることはできません。さんかできなくなったときは、{六月八日|ろくがつようか}までに{連絡|れんらく}すれば、おかねがもどります。"
+      }
+    ],
+    "translation": "Stadtlauf Sakura. Er findet am 15. Juni im Park am Fluss statt. Auch bei Regen wird gelaufen, bei starkem Wind fällt die Veranstaltung aus. Strecke A: fünf Kilometer, ab Mittelschulalter, Start um 9 Uhr, 1000 Yen. Strecke B: zwei Kilometer, offen für alle; Grundschulkinder müssen mit einem Erwachsenen laufen. Start um 10 Uhr, 500 Yen pro Person. Anmeldung bis 1. Juni über die Website der Stadt; telefonisch ist sie nicht möglich. Bezahlen Sie innerhalb einer Woche nach der Anmeldung. Melden Sie sich am Veranstaltungstag spätestens 30 Minuten vor dem Start am Empfang mit Ihrem Namen. Schuhe und Handtuch bringen Sie selbst mit, Getränke erhalten Sie dort. Nach der Anmeldung ist kein Streckenwechsel möglich. Wenn Sie nicht teilnehmen können und sich bis 8. Juni melden, erhalten Sie Ihr Geld zurück.",
+    "glossary": [
+      [
+        "市（し）",
+        "Stadt"
+      ],
+      [
+        "連絡（れんらく）",
+        "Kontaktaufnahme"
+      ]
+    ],
+    "note": "Kombiniere Altersregel, Preis pro Person und streckenspezifische Startzeit.",
+    "questions": [
+      {
+        "id": "reading-n4-21-q1",
+        "kind": "search",
+        "prompt": "Eine Mutter läuft mit ihrem Grundschulkind. Welche Kombination passt?",
+        "evidence": "reading-n4-21-p1",
+        "choices": [
+          {
+            "text": "Strecke A, zusammen 1000 Yen, Empfang bis 8:30 Uhr.",
+            "explanation": "Grundschulkinder dürfen Strecke A nicht laufen.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Strecke B, zusammen 500 Yen, Empfang bis 10 Uhr.",
+            "explanation": "Der Preis gilt pro Person, und man muss sich für diese Strecke spätestens um 9:30 Uhr am Empfang melden.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Strecke B, zusammen 1000 Yen, am Lauftag bis 9:30 Uhr am Empfang melden.",
+            "explanation": "Beide zahlen je 500 Yen und müssen 30 Minuten vor dem Start um zehn am Empfang sein.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Strecke A ohne Begleitung für das Kind.",
+            "explanation": "A beginnt erst ab Mittelschulalter; B verlangt für Grundschulkinder Begleitung.",
+            "evidence": "reading-n4-21-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n4-21-q2",
+        "kind": "search",
+        "prompt": "Was kann jemand tun, der nach der Anmeldung nicht teilnehmen kann?",
+        "evidence": "reading-n4-21-p1",
+        "choices": [
+          {
+            "text": "Am 15. Juni telefonisch die Strecke ändern.",
+            "explanation": "Ein Streckenwechsel ist nach Anmeldung ausgeschlossen.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Bis 14. Juni warten und automatisch Geld zurückerhalten.",
+            "explanation": "Die Rückerstattung setzt eine Meldung bis zum achten voraus.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Die Anmeldung erst am Starttag bezahlen.",
+            "explanation": "Bezahlt werden muss innerhalb einer Woche nach der Anmeldung.",
+            "evidence": "reading-n4-21-p1"
+          },
+          {
+            "text": "Bis 8. Juni Bescheid geben, um das Geld zurückzubekommen.",
+            "explanation": "Diese Frist gilt ausdrücklich für die Rückerstattung.",
+            "evidence": "reading-n4-21-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n4-22",
+    "level": "N4",
+    "skill": "reading",
+    "order": 22,
+    "title": "Campingausrüstung leihen",
+    "objective": "Berechne Kosten je Gegenstand und beachte die Uhrzeiten bei Rückgabe und Stornierung.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n4-22-p1",
+        "speaker": "",
+        "text": "みどりキャンプ{用品|ようひん}レンタル\nテント：{四人|よにん}よう。{一日|いちにち}{二千|にせん}えん。ねぶくろ：ひとつ{一日|いちにち}{五百|ごひゃく}えん。ライト：ひとつ{一日|いちにち}{三百|さんびゃく}えん。テントにはライトはついていません。\nかりるには、つかうひの{三日|みっか}まえまでに、ホームページでよやくしてください。うけとりはあさ{九|く}じからひる{十二|じゅうに}じまでです。よやくしたひとが、じゅうしょのわかるものをもってきてください。\nかえすのは、つかったさいごのひの{五|ご}じまでです。{五|ご}じをすぎたばあいは、もう{一日|いちにち}ぶんのおかねがかかります。よごれたものは、かるくふいてからかえしてください。\nうけとりのまえのひの{十二|じゅうに}じまでは、むりょうでキャンセルできます。そのあとは、{一日|いちにち}ぶんのりょうきんをいただきます。あめでキャンプをやめるばあいもおなじです。\nはじめてテントをつかうひとには、うけとりのときにくみたてかたをせつめいします。せつめいは{二十分|にじゅっぷん}ほどです。じかんに{余裕|よゆう}をもっておこしください。"
+      }
+    ],
+    "translation": "Verleih von Campingausrüstung Midori. Zelt für vier Personen: 2000 Yen pro Tag. Schlafsack: 500 Yen pro Stück und Tag. Lampe: 300 Yen pro Stück und Tag. Eine Lampe ist beim Zelt nicht dabei. Reservieren Sie spätestens drei Tage vor Nutzung über die Website. Abholung von 9 bis 12 Uhr durch die reservierende Person mit einem Nachweis ihrer Adresse. Rückgabe spätestens um 17 Uhr am letzten Nutzungstag; bei späterer Rückgabe wird ein weiterer Tag berechnet. Wischen Sie verschmutzte Ausrüstung vor der Rückgabe kurz ab. Bis 12 Uhr am Tag vor der Abholung ist eine kostenlose Stornierung möglich. Danach wird ein Tagespreis berechnet. Das gilt auch, wenn Sie wegen Regens absagen. Wer erstmals ein Zelt benutzt, erhält bei der Abholung eine Erklärung zum Aufbau. Sie dauert ungefähr 20 Minuten. Planen Sie genug Zeit ein.",
+    "glossary": [
+      [
+        "用品（ようひん）",
+        "Ausrüstung; Zubehör"
+      ],
+      [
+        "余裕（よゆう）",
+        "Spielraum; Reserve"
+      ]
+    ],
+    "note": "Berechne Kosten je Gegenstand und beachte die Uhrzeiten bei Rückgabe und Stornierung.",
+    "questions": [
+      {
+        "id": "reading-n4-22-q1",
+        "kind": "search",
+        "prompt": "Zwei Personen leihen für einen Tag ein Zelt, zwei Schlafsäcke und eine Lampe. Was kostet das?",
+        "evidence": "reading-n4-22-p1",
+        "choices": [
+          {
+            "text": "3300 Yen.",
+            "explanation": "2000 + zweimal 500 + 300 ergeben 3300 Yen.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "2800 Yen.",
+            "explanation": "Diese Rechnung berücksichtigt nur einen Schlafsack.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "3000 Yen.",
+            "explanation": "Die Lampe ist nicht im Zeltpreis enthalten.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "6600 Yen.",
+            "explanation": "Dieser Betrag wäre der Preis für zwei Tage.",
+            "evidence": "reading-n4-22-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n4-22-q2",
+        "kind": "search",
+        "prompt": "Die Abholung ist für Samstag geplant. Wann ist eine kostenlose Stornierung zuletzt möglich?",
+        "evidence": "reading-n4-22-p1",
+        "choices": [
+          {
+            "text": "Am Samstag um 9 Uhr bei Regen.",
+            "explanation": "Auch wetterbedingte Absagen unterliegen derselben Frist.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "Am Freitag um 12 Uhr.",
+            "explanation": "Die Frist ist zwölf Uhr am Tag vor der Abholung.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "Am Freitag um 17 Uhr.",
+            "explanation": "Fünf Uhr ist die Rückgabefrist, nicht die Stornofrist.",
+            "evidence": "reading-n4-22-p1"
+          },
+          {
+            "text": "Am Donnerstag um 12 Uhr.",
+            "explanation": "Die Frist liegt am Vortag, also Freitag, nicht zwei Tage vorher.",
+            "evidence": "reading-n4-22-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
   },
   {
     "id": "reading-n3-1",
@@ -10047,6 +11929,1116 @@ window.COMPREHENSION_UNITS = [
       "synthetic": true,
       "revision": "native16-v3"
     }
+  },
+  {
+    "id": "reading-n3-13",
+    "level": "N3",
+    "skill": "reading",
+    "order": 13,
+    "title": "Das geänderte Abonnement",
+    "objective": "Trenne Zeitpunkt der Umstellung und Format der aktuellen Ausgabe.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n3-13-p1",
+        "speaker": "",
+        "text": "雑誌の{定期購読|ていきこうどく}をご利用の皆様へ。来月から紙の雑誌の{発送|はっそう}日は毎月十日から十五日に変わります。電子版はこれまでどおり十日に読めます。紙から電子版に変更したい方は、今月二十五日までに会員ページでお手続きください。電話での変更は受け付けません。なお、今月中に変更しても、今月号は紙で届きます。電子版になるのは来月号からです。購読料金の変更はありません。"
+      }
+    ],
+    "translation": "An alle Abonnenten unserer Zeitschrift: Ab nächsten Monat wird die Papierausgabe statt am zehnten am fünfzehnten Tag des Monats verschickt. Die digitale Ausgabe bleibt ab dem zehnten lesbar. Wer von Papier auf digital wechseln möchte, erledigt das bitte bis zum 25. dieses Monats auf der Mitgliederseite. Telefonische Änderungen nehmen wir nicht an. Auch bei einem Wechsel in diesem Monat kommt die aktuelle Ausgabe noch auf Papier. Erst die nächste Ausgabe wird digital. Der Abonnementpreis bleibt gleich.",
+    "glossary": [
+      [
+        "定期購読（ていきこうどく）",
+        "Abonnement"
+      ],
+      [
+        "発送（はっそう）",
+        "Versand"
+      ]
+    ],
+    "note": "Trenne Zeitpunkt der Umstellung und Format der aktuellen Ausgabe.",
+    "questions": [
+      {
+        "id": "reading-n3-13-q1",
+        "kind": "detail",
+        "prompt": "Was gilt bei einem rechtzeitigen Wechsel zur digitalen Ausgabe?",
+        "evidence": "reading-n3-13-p1",
+        "choices": [
+          {
+            "text": "Schon die aktuelle Ausgabe wird ausschließlich digital.",
+            "explanation": "今月号は紙で届きます schließt das aus.",
+            "evidence": "reading-n3-13-p1"
+          },
+          {
+            "text": "Die digitale Ausgabe erscheint künftig am fünfzehnten.",
+            "explanation": "Nur der Versand der Papierausgabe verschiebt sich.",
+            "evidence": "reading-n3-13-p1"
+          },
+          {
+            "text": "Diesen Monat kommt noch Papier, ab nächstem Monat kann man die Ausgabe am zehnten lesen.",
+            "explanation": "Der Text verbindet den verzögerten Formatwechsel mit dem unveränderten digitalen Termin.",
+            "evidence": "reading-n3-13-p1"
+          },
+          {
+            "text": "Der Wechsel ist nur telefonisch möglich.",
+            "explanation": "Telefonische Änderungen werden ausdrücklich nicht angenommen.",
+            "evidence": "reading-n3-13-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n3-14",
+    "level": "N3",
+    "skill": "reading",
+    "order": 14,
+    "title": "Eine Bitte an das Projektteam",
+    "objective": "Prüfe den ausdrücklich genannten Zweck einer Bitte und die zurückgewiesene Deutung.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n3-14-p1",
+        "speaker": "",
+        "text": "{企画|きかく}チームの皆さんへ。金曜の会議では、新しい案を選ぶ前に、先週集めた利用者の意見を確認したいと思います。資料に目を通し、自分の案にとって都合のよい意見だけでなく、気になる{反対意見|はんたいいけん}も一つ挙げてください。{反対意見|はんたいいけん}を出した人に案の説明をやめてもらうという意味ではありません。問題を先に共有し、実現できる形に直すためです。案の提出期限は従来どおり木曜の正午です。"
+      }
+    ],
+    "translation": "An das Planungsteam: In der Besprechung am Freitag möchte ich vor der Auswahl eines neuen Vorschlags die letzte Woche gesammelten Nutzermeinungen prüfen. Lesen Sie die Unterlagen und nennen Sie neben Meinungen, die Ihrem Vorschlag entgegenkommen, auch eine bedenkenswerte Gegenmeinung. Das bedeutet nicht, dass jemand, der eine Gegenmeinung nennt, seinen Vorschlag nicht mehr erläutern soll. Wir wollen Probleme früh teilen und die Vorschläge in eine umsetzbare Form bringen. Die Abgabefrist bleibt Donnerstagmittag.",
+    "glossary": [
+      [
+        "企画（きかく）",
+        "Planung; Konzept"
+      ],
+      [
+        "反対意見（はんたいいけん）",
+        "Gegenmeinung"
+      ]
+    ],
+    "note": "Prüfe den ausdrücklich genannten Zweck einer Bitte und die zurückgewiesene Deutung.",
+    "questions": [
+      {
+        "id": "reading-n3-14-q1",
+        "kind": "detail",
+        "prompt": "Warum sollen Teammitglieder auch Gegenmeinungen nennen?",
+        "evidence": "reading-n3-14-p1",
+        "choices": [
+          {
+            "text": "Damit ihre Vorschläge ohne Diskussion gestrichen werden.",
+            "explanation": "Genau diese Deutung weist die Nachricht zurück.",
+            "evidence": "reading-n3-14-p1"
+          },
+          {
+            "text": "Weil die Abgabefrist auf Freitag verschoben wurde.",
+            "explanation": "Die Frist bleibt Donnerstagmittag.",
+            "evidence": "reading-n3-14-p1"
+          },
+          {
+            "text": "Damit nur negative Nutzermeinungen gesammelt werden.",
+            "explanation": "Es sollen auch hilfreiche Meinungen berücksichtigt werden.",
+            "evidence": "reading-n3-14-p1"
+          },
+          {
+            "text": "Damit Probleme gemeinsam erkannt und Vorschläge verbessert werden können.",
+            "explanation": "Der Text nennt 共有 und 実現できる形に直す als Ziel.",
+            "evidence": "reading-n3-14-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n3-15",
+    "level": "N3",
+    "skill": "reading",
+    "order": 15,
+    "title": "Mit dem Laufen anfangen",
+    "objective": "Unterscheide das Aufgeben eines kurzfristigen Ziels vom Aufgeben der Tätigkeit.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-15-p1",
+        "speaker": "",
+        "text": "運動不足を感じ、毎朝走ることにした。最初は五キロという目標を決めたが、三日目には足が痛くなり、外へ出るのも嫌になった。走っている友人に相談すると、「まず靴を履いて外へ出るだけでいい」と言われた。そんなことで運動になるのかと疑ったが、翌朝は十分だけ歩いた。気分がよかったので、次の日は途中で少し走った。一週間後には、距離を測らずに二十分ほど動けるようになっていた。以前は一日でも休むと失敗だと思っていた。しかし今は、雨の日に休んでも、次の日に戻ればよいと考えている。友人の{助言|じょげん}は、目標をなくすということではなく、始めるための{負担|ふたん}を小さくするということだったのだ。長く続けるには、今日できたことを認めるのも大事らしい。来月の大会への参加は見送ったが、運動そのものをやめるつもりはない。"
+      }
+    ],
+    "translation": "Weil ich mich zu wenig bewegte, beschloss ich, jeden Morgen zu laufen. Zuerst setzte ich mir fünf Kilometer als Ziel, doch am dritten Tag taten die Beine weh, und ich wollte nicht einmal mehr hinausgehen. Ein Freund, der läuft, riet mir: „Zieh erst einmal die Schuhe an und geh einfach hinaus.“ Ich bezweifelte, dass das als Bewegung zählen würde, ging am nächsten Morgen aber zehn Minuten spazieren. Es tat gut, deshalb lief ich am folgenden Tag zwischendurch ein wenig. Nach einer Woche konnte ich mich etwa zwanzig Minuten bewegen, ohne die Entfernung zu messen. Früher hielt ich schon einen ausgelassenen Tag für ein Scheitern. Jetzt denke ich: Wenn ich bei Regen pausiere, reicht es, am nächsten Tag wieder anzufangen. Der Rat meines Freundes bedeutete also nicht, Ziele abzuschaffen, sondern die Hürde für den Anfang kleiner zu machen. Um lange dabeizubleiben, scheint auch wichtig zu sein, das heute Erreichte anzuerkennen. Auf die Teilnahme am Wettkampf nächsten Monat habe ich verzichtet, aber die Bewegung selbst will ich nicht aufgeben.",
+    "glossary": [
+      [
+        "負担（ふたん）",
+        "Belastung"
+      ],
+      [
+        "助言（じょげん）",
+        "Rat"
+      ]
+    ],
+    "note": "Unterscheide das Aufgeben eines kurzfristigen Ziels vom Aufgeben der Tätigkeit.",
+    "questions": [
+      {
+        "id": "reading-n3-15-q1",
+        "kind": "global",
+        "prompt": "Warum verliert die Person anfangs die Lust?",
+        "evidence": "reading-n3-15-p1",
+        "choices": [
+          {
+            "text": "Das anfängliche Distanzziel führt zu Schmerzen.",
+            "explanation": "Nach dem Fünf-Kilometer-Ziel schmerzen am dritten Tag die Beine.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Der Freund verbietet ihr das Laufen.",
+            "explanation": "Er gibt einen Rat zum leichteren Einstieg.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Sie findet keine Schuhe.",
+            "explanation": "Die Schuhe sind Teil des Rats, kein fehlender Gegenstand.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Der Wettbewerb ist abgesagt.",
+            "explanation": "Sie selbst verzichtet auf die Teilnahme.",
+            "evidence": "reading-n3-15-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n3-15-q2",
+        "kind": "detail",
+        "prompt": "Was bedeutet der Rat nach ihrem späteren Verständnis?",
+        "evidence": "reading-n3-15-p1",
+        "choices": [
+          {
+            "text": "Sich überhaupt keine Ziele mehr setzen.",
+            "explanation": "Diese Deutung wird ausdrücklich verneint.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Die Einstiegshürde senken.",
+            "explanation": "始めるための負担を小さくする erklärt den Sinn ausdrücklich.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Jeden Tag mindestens fünf Kilometer laufen.",
+            "explanation": "Gerade dieses starre Anfangsziel überforderte sie.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Nur bei Regen trainieren.",
+            "explanation": "Regen ist ein akzeptierter Grund für eine Pause.",
+            "evidence": "reading-n3-15-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n3-15-q3",
+        "kind": "inference",
+        "prompt": "Wie geht die Person jetzt mit einem Ruhetag um?",
+        "evidence": "reading-n3-15-p1",
+        "choices": [
+          {
+            "text": "Sie betrachtet die ganze Gewohnheit als gescheitert.",
+            "explanation": "Das war ihre frühere Einstellung.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Sie meldet sich sofort zu einem Wettbewerb an.",
+            "explanation": "Die Teilnahme im nächsten Monat wird ausgelassen.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Sie beginnt am nächsten Tag wieder.",
+            "explanation": "次の日に戻ればよい beschreibt die neue Haltung.",
+            "evidence": "reading-n3-15-p1"
+          },
+          {
+            "text": "Sie muss am Folgetag die doppelte Strecke laufen.",
+            "explanation": "Eine solche Ausgleichsregel steht nicht im Text.",
+            "evidence": "reading-n3-15-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n3-16",
+    "level": "N3",
+    "skill": "reading",
+    "order": 16,
+    "title": "Der lohnende Umweg",
+    "objective": "Suche nach einer Einschränkung, die eine positive Bewertung begrenzt.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-16-p1",
+        "speaker": "",
+        "text": "駅へ向かう道が工事で通れず、いつもより遠い道を歩くことになった。遅刻しそうだったので、最初は腹が立った。ところが、角を曲がると、小さなパン屋があった。窓の前に「朝七時から」と書いてある。私は毎朝、駅の売店で同じパンを買っていたので、こんな近くに別の店があるとは知らなかった。その日は寄る時間がなかったが、翌日、十分早く家を出て入ってみた。店の人が焼き上がったばかりのパンを勧めてくれ、いつもの朝食より少しぜいたくな気持ちになった。工事が終われば、短い道に戻るだろう。でも、時間がある日には、この店まで歩きたい。無駄に思える{遠回り|とおまわり}にも、何かを見つける機会がある。ただし、遅れたことまでよかったと言うつもりはない。あの日は実際に会社へ五分遅れ、同僚を待たせた。{発見|はっけん}を楽しむことと、時間を守ることは別に考えなければならない。"
+      }
+    ],
+    "translation": "Der Weg zum Bahnhof war wegen Bauarbeiten gesperrt, und ich musste einen längeren Weg gehen. Weil ich wohl zu spät kommen würde, ärgerte ich mich zunächst. Doch hinter einer Ecke entdeckte ich eine kleine Bäckerei. Vor dem Fenster stand „Ab sieben Uhr morgens“. Ich kaufte jeden Morgen dasselbe Brot am Bahnhofskiosk und hatte nicht gewusst, dass es so nah einen anderen Laden gibt. An diesem Tag hatte ich keine Zeit hineinzugehen. Am nächsten Tag verließ ich das Haus zehn Minuten früher und ging hinein. Die Person im Laden empfahl frisch gebackenes Brot; mein Frühstück fühlte sich etwas besonderer an als sonst. Nach den Bauarbeiten werde ich wohl wieder den kurzen Weg nehmen. Wenn ich Zeit habe, möchte ich aber zu diesem Laden gehen. Ein scheinbar unnötiger Umweg kann eine Gelegenheit für Entdeckungen sein. Ich will damit allerdings nicht sagen, dass auch die Verspätung gut war. An jenem Tag kam ich tatsächlich fünf Minuten zu spät zur Firma und ließ einen Kollegen warten. Freude an Entdeckungen und Pünktlichkeit muss man getrennt betrachten.",
+    "glossary": [
+      [
+        "遠回り（とおまわり）",
+        "Umweg"
+      ],
+      [
+        "発見（はっけん）",
+        "Entdeckung"
+      ]
+    ],
+    "note": "Suche nach einer Einschränkung, die eine positive Bewertung begrenzt.",
+    "questions": [
+      {
+        "id": "reading-n3-16-q1",
+        "kind": "global",
+        "prompt": "Warum nimmt die Person zunächst den längeren Weg?",
+        "evidence": "reading-n3-16-p1",
+        "choices": [
+          {
+            "text": "Sie möchte bewusst eine Bäckerei suchen.",
+            "explanation": "Die Bäckerei wird zufällig entdeckt.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Der Bahnhofskiosk hat geschlossen.",
+            "explanation": "Eine Schließung des Kiosks wird nicht genannt.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Ein Kollege bittet sie um einen Spaziergang.",
+            "explanation": "Der Kollege wird wegen der Verspätung erwähnt.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Der übliche Weg ist wegen Bauarbeiten gesperrt.",
+            "explanation": "工事で通れず nennt den Auslöser.",
+            "evidence": "reading-n3-16-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n3-16-q2",
+        "kind": "detail",
+        "prompt": "Wann betritt sie die Bäckerei zum ersten Mal?",
+        "evidence": "reading-n3-16-p1",
+        "choices": [
+          {
+            "text": "Am nächsten Tag, nachdem sie früher losgegangen ist.",
+            "explanation": "Am Entdeckungstag fehlt die Zeit; 翌日 folgt der Besuch.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Sofort am Entdeckungstag.",
+            "explanation": "An diesem Tag kann sie nicht hineingehen.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Erst nach dem Ende der Bauarbeiten.",
+            "explanation": "Der Besuch findet schon am nächsten Tag statt.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Jeden Morgen bereits vor den Bauarbeiten.",
+            "explanation": "Sie kannte den Laden zuvor nicht.",
+            "evidence": "reading-n3-16-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n3-16-q3",
+        "kind": "inference",
+        "prompt": "Was will die Person mit dem letzten Absatz klarstellen?",
+        "evidence": "reading-n3-16-p1",
+        "choices": [
+          {
+            "text": "Umwege sind grundsätzlich besser als kurze Wege.",
+            "explanation": "Sie wird meist zum kurzen Weg zurückkehren.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Eine schöne Entdeckung rechtfertigt nicht die Verspätung.",
+            "explanation": "Sie trennt den Fund ausdrücklich vom Einhalten der Zeit.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Der wartende Kollege freut sich über die Verspätung.",
+            "explanation": "Seine Freude wird nicht beschrieben.",
+            "evidence": "reading-n3-16-p1"
+          },
+          {
+            "text": "Entdeckungen sind immer Zeitverschwendung.",
+            "explanation": "Der Fund wird positiv bewertet.",
+            "evidence": "reading-n3-16-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n3-17",
+    "level": "N3",
+    "skill": "reading",
+    "order": 17,
+    "title": "Eine ungewohnte Verantwortung",
+    "objective": "Vergleiche die Selbstbewertung der Person mit dem Beitrag, den andere erkennen.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-17-p1",
+        "speaker": "",
+        "text": "地域の祭りで、初めて{受付|うけつけ}の{責任者|せきにんしゃ}を頼まれた。私は人の前で話すのが苦手なので、断ろうとした。しかし、前の{責任者|せきにんしゃ}は「全部自分でやる必要はない」と言った。そこで、経験のある二人に手伝いをお願いし、私は仕事の順番を表にまとめた。当日、予定より多くの人が来て、入口に長い列ができた。私は慌てて一人ずつ説明しようとしたが、手伝いの一人が案内の紙を配ることを提案した。それを使うと、同じ説明を繰り返す時間が減った。祭りの後、私は自分が役に立たなかったと思い、二人に謝った。すると、「順番の表があったから、何をすればいいかすぐ分かった」と言ってもらえた。{責任者|せきにんしゃ}というのは、誰よりも上手に全部できる人ではない。周りの力を借りて、全体が進むようにする人なのかもしれない。次も同じ役を頼まれたら、今度はすぐに断らず、必要な助けを先に考えたい。"
+      }
+    ],
+    "translation": "Beim Stadtteilfest bat man mich erstmals, die Verantwortung für den Empfang zu übernehmen. Da mir das Sprechen vor anderen schwerfällt, wollte ich ablehnen. Doch die bisher verantwortliche Person sagte: „Du musst nicht alles selbst machen.“ Also bat ich zwei erfahrene Personen um Hilfe und stellte die Reihenfolge der Aufgaben in einer Übersicht zusammen. Am Festtag kamen mehr Menschen als erwartet, und am Eingang entstand eine lange Schlange. Ich versuchte hektisch, jedem einzeln alles zu erklären. Einer der Helfer schlug vor, Informationsblätter zu verteilen. Dadurch musste dieselbe Erklärung seltener wiederholt werden. Nach dem Fest dachte ich, ich hätte nichts beigetragen, und entschuldigte mich bei den beiden. Sie sagten jedoch: „Durch deine Übersicht wussten wir sofort, was zu tun war.“ Verantwortlich zu sein bedeutet vielleicht nicht, alles besser als alle anderen zu können, sondern mit der Hilfe anderer den gesamten Ablauf voranzubringen. Wenn man mich wieder darum bittet, möchte ich nicht sofort ablehnen, sondern zuerst überlegen, welche Hilfe ich brauche.",
+    "glossary": [
+      [
+        "責任者（せきにんしゃ）",
+        "verantwortliche Person"
+      ],
+      [
+        "受付（うけつけ）",
+        "Empfang; Anmeldung"
+      ]
+    ],
+    "note": "Vergleiche die Selbstbewertung der Person mit dem Beitrag, den andere erkennen.",
+    "questions": [
+      {
+        "id": "reading-n3-17-q1",
+        "kind": "global",
+        "prompt": "Was bereitet die Person vor dem Fest vor?",
+        "evidence": "reading-n3-17-p1",
+        "choices": [
+          {
+            "text": "Ein neues Eingangstor.",
+            "explanation": "Ein Bauvorhaben wird nicht erwähnt.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Eine vollständige Absage des Festes.",
+            "explanation": "Sie übernimmt die Aufgabe mit Unterstützung.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Eine Übersicht über die Reihenfolge der Aufgaben.",
+            "explanation": "仕事の順番を表にまとめた beschreibt ihren Beitrag.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Ein Informationsblatt ohne Hilfe der anderen.",
+            "explanation": "Die Informationsblätter werden später von einem Helfer vorgeschlagen.",
+            "evidence": "reading-n3-17-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-17-q2",
+        "kind": "detail",
+        "prompt": "Wie wird die lange Warteschlange entlastet?",
+        "evidence": "reading-n3-17-p1",
+        "choices": [
+          {
+            "text": "Indem niemand mehr eingelassen wird.",
+            "explanation": "Ein Einlassstopp wird nicht beschrieben.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Indem die Person allein länger erklärt.",
+            "explanation": "Einzelne Erklärungen waren gerade zu zeitaufwendig.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Durch eine Verlegung des Festes.",
+            "explanation": "Der Veranstaltungsort bleibt gleich.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Durch Informationsblätter, die wiederholte Erklärungen verringern.",
+            "explanation": "Der Text nennt genau diese Wirkung.",
+            "evidence": "reading-n3-17-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n3-17-q3",
+        "kind": "inference",
+        "prompt": "Wie verändert sich ihr Verständnis von Verantwortung?",
+        "evidence": "reading-n3-17-p1",
+        "choices": [
+          {
+            "text": "Sie erkennt, dass auch das Organisieren fremder Hilfe dazugehört.",
+            "explanation": "周りの力を借りて verbindet Verantwortung mit gemeinsamer Arbeit.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Sie glaubt, alles ohne andere können zu müssen.",
+            "explanation": "Diese anfängliche Vorstellung wird überwunden.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Sie hält Vorbereitung grundsätzlich für nutzlos.",
+            "explanation": "Ihre Übersicht wird von den Helfern gelobt.",
+            "evidence": "reading-n3-17-p1"
+          },
+          {
+            "text": "Sie will künftig jede Bitte sofort ablehnen.",
+            "explanation": "Beim nächsten Mal möchte sie zuerst den Hilfebedarf bedenken.",
+            "evidence": "reading-n3-17-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n3-18",
+    "level": "N3",
+    "skill": "reading",
+    "order": 18,
+    "title": "Die unvollständige Rezeptanleitung",
+    "objective": "Unterscheide eine feste Zeitangabe von einem Kriterium für den tatsächlichen Zustand.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-18-p1",
+        "speaker": "",
+        "text": "祖母からもらった料理のメモを見て、豆の煮物を作った。材料の量は細かく書いてあるのに、火にかける時間は「柔らかくなるまで」としか書いていない。私は三十分煮ればよいだろうと思ったが、豆はまだ硬かった。祖母に電話すると、「豆の古さや鍋によって違うから、時間だけでは決められない」と言われた。そして、一つ取り出して食べてみるように教えてくれた。結局、一時間近くかかった。最初は不親切なメモだと思っていた。しかし、祖母が何も考えずに時間を書かなかったわけではなかった。料理に慣れていない私には、{状態|じょうたい}を確かめるという{手順|てじゅん}自体が分からなかったのだ。私はメモの横に、「途中で豆を食べて硬さを見る」と書き足した。次にこのメモを妹に渡すときには、何分という数字より、その確かめ方を説明しようと思う。短い指示には、書いた人には当たり前でも、読む人には見えない経験が含まれている。"
+      }
+    ],
+    "translation": "Nach einer Rezeptnotiz meiner Großmutter kochte ich ein Bohnengericht. Die Mengen waren genau angegeben, doch zur Kochdauer stand nur „bis sie weich sind“. Ich dachte, dreißig Minuten müssten genügen, aber die Bohnen waren noch hart. Am Telefon sagte meine Großmutter: „Das hängt vom Alter der Bohnen und vom Topf ab; man kann es nicht allein nach der Zeit entscheiden.“ Sie erklärte, ich solle eine Bohne herausnehmen und probieren. Am Ende dauerte es fast eine Stunde. Zuerst hatte ich die Notiz für wenig hilfreich gehalten. Aber meine Großmutter hatte die Zeit nicht gedankenlos weggelassen. Mir fehlte als unerfahrener Person schon das Wissen, dass man den Zustand prüfen muss. Ich ergänzte am Rand: „Zwischendurch eine Bohne probieren und die Härte prüfen.“ Wenn ich die Notiz meiner Schwester gebe, möchte ich eher dieses Prüfen erklären als eine Minutenzahl. Kurze Anweisungen enthalten Erfahrung, die für die schreibende Person selbstverständlich, für die lesende aber unsichtbar ist.",
+    "glossary": [
+      [
+        "手順（てじゅん）",
+        "Vorgehensweise; Abfolge"
+      ],
+      [
+        "状態（じょうたい）",
+        "Zustand"
+      ]
+    ],
+    "note": "Unterscheide eine feste Zeitangabe von einem Kriterium für den tatsächlichen Zustand.",
+    "questions": [
+      {
+        "id": "reading-n3-18-q1",
+        "kind": "global",
+        "prompt": "Warum nennt die Großmutter keine feste Kochdauer?",
+        "evidence": "reading-n3-18-p1",
+        "choices": [
+          {
+            "text": "Sie hat das Gericht selbst nie gekocht.",
+            "explanation": "Der Text deutet auf ihre praktische Erfahrung hin.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Die benötigte Zeit hängt von Bohnen und Topf ab.",
+            "explanation": "Sie nennt beide Faktoren und verlangt deshalb eine Zustandsprüfung.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Sie möchte die Mengen geheim halten.",
+            "explanation": "Die Mengen stehen ausdrücklich genau in der Notiz.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Das Gericht soll roh gegessen werden.",
+            "explanation": "Die Bohnen werden bis zum Weichwerden gekocht.",
+            "evidence": "reading-n3-18-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n3-18-q2",
+        "kind": "detail",
+        "prompt": "Was ergänzt die Person auf der Notiz?",
+        "evidence": "reading-n3-18-p1",
+        "choices": [
+          {
+            "text": "Immer exakt dreißig Minuten kochen.",
+            "explanation": "Nach dreißig Minuten waren die Bohnen noch hart.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Immer exakt eine Stunde kochen.",
+            "explanation": "Die fast eine Stunde ist nur das Ergebnis dieses Versuchs.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Die Bohnen zwischendurch probieren, um die Härte zu prüfen.",
+            "explanation": "Diesen Prüfschritt schreibt sie ausdrücklich dazu.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Den Topf während des Kochens austauschen.",
+            "explanation": "Ein Topfwechsel wird nicht empfohlen.",
+            "evidence": "reading-n3-18-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-18-q3",
+        "kind": "inference",
+        "prompt": "Was erkennt die Person über kurze Anleitungen?",
+        "evidence": "reading-n3-18-p1",
+        "choices": [
+          {
+            "text": "Sie sind grundsätzlich absichtlich falsch.",
+            "explanation": "Die Person revidiert gerade ihre negative Erstbewertung.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Zahlen sind in Rezepten immer unwichtig.",
+            "explanation": "Die Mengen sind weiterhin nützlich und genau angegeben.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Erfahrene Menschen brauchen keinerlei Prüfung.",
+            "explanation": "Auch die Großmutter empfiehlt das Prüfen.",
+            "evidence": "reading-n3-18-p1"
+          },
+          {
+            "text": "Sie können Wissen voraussetzen, das Anfängern fehlt.",
+            "explanation": "Der letzte Satz beschreibt die unsichtbare Erfahrung hinter den Worten.",
+            "evidence": "reading-n3-18-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n3-19",
+    "level": "N3",
+    "skill": "reading",
+    "order": 19,
+    "title": "Ein Brief der früheren Lehrerin",
+    "objective": "Verfolge, wie ein wiedergefundenes Dokument die Deutung früherer Erfahrungen verändert.",
+    "minutes": 15,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-19-p1",
+        "speaker": "",
+        "text": "卒業して十年たった春、昔の先生から手紙が届いた。学校が{建て替え|たてかえ}られるので、古い教室を見に来ないかという案内だった。私はその学校にあまりいい思い出がなかった。成績は普通で、発表のときはいつも声が小さいと注意されていた。先生はきっと、活躍している卒業生に会いたいのだろうと思い、返事をしないつもりだった。"
+      },
+      {
+        "id": "reading-n3-19-p2",
+        "speaker": "",
+        "text": "ところが、手紙には一枚の作文のコピーが入っていた。私が最後の授業で書いたものだった。そこには、図書室で毎日少しずつ本を読んでいた話が書かれていた。先生は{余白|よはく}に、「あなたは自分の速度で続けることを知っていましたね」と書いていた。当時、私は読むのが遅いことを恥ずかしく思っていた。誰も気づいていないと思っていた時間を、先生は覚えていたのだ。"
+      },
+      {
+        "id": "reading-n3-19-p3",
+        "speaker": "",
+        "text": "私は久しぶりに学校へ行った。先生は、今の仕事や収入を尋ねる前に、最近読んだ本を聞いてくれた。教室の窓は記憶より小さく、廊下は思ったより明るかった。昔の自分をそのまま取り戻せたわけではない。でも、声が小さい、読むのが遅いという{評価|ひょうか}だけが、あの場所の全部ではなかったと分かった。帰り道、私は手紙に返事を書くことを決めた。{建て替え|たてかえ}を止めてほしいのではない。なくなる前に、私がそこから持ち帰れたものを先生に伝えたかった。新しい学校にも、自分の速度で学べる場所があればいいと思う。"
+      }
+    ],
+    "translation": "Diesen Frühling, zehn Jahre nach dem Abschluss, kam ein Brief meiner früheren Lehrerin. Die Schule sollte neu gebaut werden; sie lud mich ein, das alte Klassenzimmer noch einmal zu besuchen. Ich hatte kaum schöne Erinnerungen an die Schule. Meine Noten waren durchschnittlich, und bei Vorträgen wurde ich immer wegen meiner leisen Stimme ermahnt. Ich dachte, die Lehrerin wolle bestimmt erfolgreiche ehemalige Schüler sehen, und wollte nicht antworten. Doch im Brief lag die Kopie eines Aufsatzes aus der letzten Unterrichtsstunde. Darin hatte ich beschrieben, wie ich jeden Tag ein wenig in der Schulbibliothek las. Am Rand schrieb die Lehrerin: „Du wusstest, wie man in seinem eigenen Tempo dabeibleibt.“ Damals hatte ich mich für mein langsames Lesen geschämt. Die Lehrerin erinnerte sich an eine Zeit, die meiner Meinung nach niemand bemerkt hatte. Ich besuchte die Schule nach langer Zeit wieder. Bevor sie nach meiner heutigen Arbeit oder meinem Einkommen fragte, erkundigte sich die Lehrerin nach meinem zuletzt gelesenen Buch. Die Fenster waren kleiner als in meiner Erinnerung und der Flur heller. Ich konnte mein damaliges Ich nicht einfach zurückholen. Aber ich begriff, dass Urteile wie „leise Stimme“ oder „langsames Lesen“ nicht alles an diesem Ort ausmachten. Auf dem Heimweg beschloss ich, auf den Brief zu antworten. Ich wollte nicht darum bitten, den Neubau zu verhindern, sondern der Lehrerin vor dem Verschwinden des Gebäudes sagen, was ich von dort mitgenommen hatte. Ich hoffe, auch in der neuen Schule wird es einen Ort geben, an dem man im eigenen Tempo lernen kann.",
+    "glossary": [
+      [
+        "余白（よはく）",
+        "Rand; freier Raum"
+      ],
+      [
+        "評価（ひょうか）",
+        "Bewertung"
+      ],
+      [
+        "建て替え（たてかえ）",
+        "Neubau anstelle eines alten Gebäudes"
+      ]
+    ],
+    "note": "Verfolge, wie ein wiedergefundenes Dokument die Deutung früherer Erfahrungen verändert.",
+    "questions": [
+      {
+        "id": "reading-n3-19-q1",
+        "kind": "global",
+        "prompt": "Warum will die Person zunächst nicht antworten?",
+        "evidence": "reading-n3-19-p1",
+        "choices": [
+          {
+            "text": "Sie verbindet die Schule mit negativen Bewertungen und vermutet, nur erfolgreiche Ehemalige seien erwünscht.",
+            "explanation": "Der erste Absatz verknüpft diese Erinnerungen mit der Vermutung über die Einladung.",
+            "evidence": "reading-n3-19-p1"
+          },
+          {
+            "text": "Die Schule ist bereits abgerissen.",
+            "explanation": "Der Besuch ist vor dem Neubau vorgesehen.",
+            "evidence": "reading-n3-19-p1"
+          },
+          {
+            "text": "Die Lehrerin verlangt Geld.",
+            "explanation": "Die Einladung enthält keine Geldforderung.",
+            "evidence": "reading-n3-19-p1"
+          },
+          {
+            "text": "Sie hat den Brief nicht gelesen.",
+            "explanation": "Ihre anfängliche Reaktion zeigt, dass sie die Einladung gelesen hat.",
+            "evidence": "reading-n3-19-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n3-19-q2",
+        "kind": "detail",
+        "prompt": "Was zeigt die Randnotiz der Lehrerin?",
+        "evidence": "reading-n3-19-p2",
+        "choices": [
+          {
+            "text": "Die Lehrerin erinnerte sich nur an schlechte Noten.",
+            "explanation": "Die Notiz betrifft eine Stärke, nicht die Noten.",
+            "evidence": "reading-n3-19-p2"
+          },
+          {
+            "text": "Die Lehrerin hatte das ausdauernde Lesen im eigenen Tempo wahrgenommen.",
+            "explanation": "Die Notiz lobt gerade diese Beharrlichkeit.",
+            "evidence": "reading-n3-19-p2"
+          },
+          {
+            "text": "Der Aufsatz stammt von einem anderen Schüler.",
+            "explanation": "Er ist ausdrücklich der eigene Aufsatz der Person.",
+            "evidence": "reading-n3-19-p2"
+          },
+          {
+            "text": "Langsames Lesen wurde im Unterricht bestraft.",
+            "explanation": "Eine solche Strafe steht nicht in der Notiz.",
+            "evidence": "reading-n3-19-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n3-19-q3",
+        "kind": "inference",
+        "prompt": "Was erkennt die Person bei ihrem Besuch?",
+        "evidence": "reading-n3-19-p3",
+        "choices": [
+          {
+            "text": "Das Gebäude ist völlig unverändert.",
+            "explanation": "Fenster und Flur wirken anders als in der Erinnerung.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Sie kann wieder genau die Person von damals werden.",
+            "explanation": "Diese Möglichkeit wird ausdrücklich verneint.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Ihre negativen Selbstbewertungen erfassten nicht die gesamte Schulzeit.",
+            "explanation": "Sie sieht, dass die alten Bewertungen nicht alles an diesem Ort waren.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Die Lehrerin interessiert sich ausschließlich für ihr Einkommen.",
+            "explanation": "Zuerst fragt sie nach Büchern.",
+            "evidence": "reading-n3-19-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-19-q4",
+        "kind": "inference",
+        "prompt": "Was möchte die Person mit ihrem Antwortbrief erreichen?",
+        "evidence": "reading-n3-19-p3",
+        "choices": [
+          {
+            "text": "Den Neubau verhindern.",
+            "explanation": "Dieses Ziel wird ausdrücklich verneint.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Ihre damaligen Noten ändern lassen.",
+            "explanation": "Eine nachträgliche Notenänderung ist kein Thema.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Die Einladung an andere Ehemalige widerrufen lassen.",
+            "explanation": "Über deren Einladungen trifft die Person keine Forderung.",
+            "evidence": "reading-n3-19-p3"
+          },
+          {
+            "text": "Der Lehrerin sagen, was aus der Schulzeit für sie geblieben ist.",
+            "explanation": "持ち帰れたもの bezeichnet das persönlich Mitgenommene.",
+            "evidence": "reading-n3-19-p3"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n3-20",
+    "level": "N3",
+    "skill": "reading",
+    "order": 20,
+    "title": "Ein Gespräch verändert eine Meinung",
+    "objective": "Vergleiche ursprüngliche Ablehnung und spätere, weiterhin kritische Position.",
+    "minutes": 15,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n3-20-p1",
+        "speaker": "",
+        "text": "商店街に新しい図書館を作る計画を聞いたとき、私は反対だった。近くに大きな図書館があるのに、税金を使って小さなものを作る必要はないと思ったからだ。買い物の途中で計画の説明会に寄り、担当者にそう伝えた。担当者はすぐに反論せず、「今の図書館へは、どうやって行きますか」と聞いた。私は自転車で十五分だと答えた。"
+      },
+      {
+        "id": "reading-n3-20-p2",
+        "speaker": "",
+        "text": "そのとき、隣にいた年配の女性が話し始めた。彼女はもう自転車に乗れず、バス停から図書館までの坂道もつらいという。商店街なら、買い物のついでに歩いて寄れるそうだ。私は、地図の上で近い場所が、誰にとっても行きやすいとは限らないことに気づいた。担当者は、新しい図書館には大きな図書館と同じ数の本を置くのではなく、予約した本を受け取る窓口や、子どもが宿題をできる席を設けると説明した。"
+      },
+      {
+        "id": "reading-n3-20-p3",
+        "speaker": "",
+        "text": "説明会の後も、{建設費|けんせつひ}についての疑問は残った。計画のすべてに賛成したわけではない。ただ、以前のように「もう一つあるから{不要|ふよう}だ」とだけ言うことはできなくなった。私は次の説明会で、建物を新しく作る以外に、空いている店を使う方法はないかと質問するつもりだ。意見を変えるとは、相手の話を全部受け入れることではない。自分が見ていなかった{事情|じじょう}を加え、何を問題にするかを考え直すことでもある。あの女性と話さなければ、私は費用のことしか考え続けていなかっただろう。"
+      }
+    ],
+    "translation": "Als ich von dem Plan hörte, in der Einkaufsstraße eine neue Bibliothek einzurichten, war ich dagegen. In der Nähe gab es bereits eine große Bibliothek; ich hielt eine kleine neue Bibliothek mit Steuergeld für unnötig. Beim Einkaufen ging ich kurz in eine Informationsveranstaltung und sagte das dem Verantwortlichen. Er widersprach nicht sofort, sondern fragte, wie ich zur bestehenden Bibliothek fahre. Ich antwortete: mit dem Fahrrad in fünfzehn Minuten. Da erzählte eine ältere Frau neben mir, sie könne nicht mehr Rad fahren, und auch der ansteigende Weg von der Bushaltestelle zur Bibliothek sei beschwerlich. In der Einkaufsstraße könnte sie beim Einkaufen zu Fuß vorbeischauen. Mir wurde klar, dass ein Ort, der auf der Karte nah aussieht, nicht für alle leicht erreichbar ist. Der Verantwortliche erklärte, die neue Bibliothek solle nicht ebenso viele Bücher haben wie die große. Geplant seien eine Abholstelle für reservierte Bücher und Plätze, an denen Kinder Hausaufgaben machen können. Nach der Veranstaltung blieben meine Zweifel an den Baukosten. Ich stimmte nicht dem gesamten Plan zu. Aber ich konnte nicht mehr einfach sagen: „Es gibt schon eine, also ist sie überflüssig.“ Bei der nächsten Veranstaltung will ich fragen, ob man statt eines Neubaus einen leerstehenden Laden nutzen könnte. Seine Meinung zu ändern heißt nicht, alles zu akzeptieren, was die andere Seite sagt. Es kann auch bedeuten, bisher übersehene Umstände einzubeziehen und neu zu überlegen, worin das Problem besteht. Ohne das Gespräch mit der Frau hätte ich wohl weiter nur an die Kosten gedacht.",
+    "glossary": [
+      [
+        "事情（じじょう）",
+        "Umstände"
+      ],
+      [
+        "不要（ふよう）",
+        "unnötig"
+      ],
+      [
+        "建設費（けんせつひ）",
+        "Baukosten"
+      ]
+    ],
+    "note": "Vergleiche ursprüngliche Ablehnung und spätere, weiterhin kritische Position.",
+    "questions": [
+      {
+        "id": "reading-n3-20-q1",
+        "kind": "global",
+        "prompt": "Was begründet die ursprüngliche Ablehnung?",
+        "evidence": "reading-n3-20-p1",
+        "choices": [
+          {
+            "text": "Es gibt schon eine große Bibliothek in der Nähe.",
+            "explanation": "Daraus leitet die Person ab, dass eine weitere unnötig sei.",
+            "evidence": "reading-n3-20-p1"
+          },
+          {
+            "text": "Die Einkaufsstraße ist für alle unzugänglich.",
+            "explanation": "Gerade dort kann die ältere Frau leichter hingehen.",
+            "evidence": "reading-n3-20-p1"
+          },
+          {
+            "text": "Kinder dürfen keine Bücher ausleihen.",
+            "explanation": "Ein solches Verbot steht nicht im Text.",
+            "evidence": "reading-n3-20-p1"
+          },
+          {
+            "text": "Die neue Bibliothek soll keine öffentlichen Mittel erhalten.",
+            "explanation": "Die Verwendung von Steuergeld ist Teil der Kritik.",
+            "evidence": "reading-n3-20-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n3-20-q2",
+        "kind": "detail",
+        "prompt": "Welche bisher übersehene Schwierigkeit nennt die ältere Frau?",
+        "evidence": "reading-n3-20-p2",
+        "choices": [
+          {
+            "text": "Sie findet keine Bücher für Kinder.",
+            "explanation": "Sie spricht über den Zugang, nicht das Buchangebot.",
+            "evidence": "reading-n3-20-p2"
+          },
+          {
+            "text": "Sie kann weder Rad fahren noch den Weg von der Bushaltestelle leicht bewältigen.",
+            "explanation": "Ihr Beitrag zeigt, warum räumliche Nähe nicht genügt.",
+            "evidence": "reading-n3-20-p2"
+          },
+          {
+            "text": "Sie kauft nie in der Einkaufsstraße ein.",
+            "explanation": "Ein Besuch ließe sich gerade mit Einkäufen verbinden.",
+            "evidence": "reading-n3-20-p2"
+          },
+          {
+            "text": "Die bestehende Bibliothek hat jeden Tag geschlossen.",
+            "explanation": "Die Öffnungszeiten werden nicht diskutiert.",
+            "evidence": "reading-n3-20-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n3-20-q3",
+        "kind": "inference",
+        "prompt": "Was möchte die Person bei der nächsten Veranstaltung fragen?",
+        "evidence": "reading-n3-20-p3",
+        "choices": [
+          {
+            "text": "Ob die ältere Frau wieder Fahrrad fahren lernt.",
+            "explanation": "Die Person sucht eine räumliche Lösung, keine Änderung der Frau.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Ob alle Bücher aus der großen Bibliothek entfernt werden.",
+            "explanation": "Eine solche Verlagerung ist nicht vorgesehen.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Ob ein leerstehender Laden statt eines Neubaus genutzt werden kann.",
+            "explanation": "Das ist die ausdrücklich genannte Frage.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Ob der Plan ohne weitere Erklärung sofort gebaut wird.",
+            "explanation": "Sie hat weiterhin Fragen zu Kosten und Alternativen.",
+            "evidence": "reading-n3-20-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-20-q4",
+        "kind": "inference",
+        "prompt": "Wie versteht die Person eine Meinungsänderung?",
+        "evidence": "reading-n3-20-p3",
+        "choices": [
+          {
+            "text": "Alle Aussagen des Gegenübers vorbehaltlos übernehmen.",
+            "explanation": "Diese Gleichsetzung wird ausdrücklich zurückgewiesen.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Frühere Zweifel verschweigen.",
+            "explanation": "Zweifel an den Baukosten bleiben offen bestehen.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Nur noch über Geld reden.",
+            "explanation": "Das Gespräch hat gerade den Blick über Kosten hinaus erweitert.",
+            "evidence": "reading-n3-20-p3"
+          },
+          {
+            "text": "Neue Umstände berücksichtigen und die eigene Kritik neu ausrichten.",
+            "explanation": "Der Schluss unterscheidet das von vollständiger Zustimmung.",
+            "evidence": "reading-n3-20-p3"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n3-21",
+    "level": "N3",
+    "skill": "reading",
+    "order": 21,
+    "title": "Der Fotowettbewerb",
+    "objective": "Prüfe getrennt Teilnahmeberechtigung, Eignung des Bildes und Art der Einreichung.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n3-21-p1",
+        "speaker": "",
+        "text": "みどり市「暮らしの光」写真募集\n市内で撮影した、日常の暮らしが伝わる写真を募集します。有名な観光地を写す必要はありません。応募できるのは、市内に住む人、または市内の学校や職場に通う人です。年齢は問いません。\n一人二点まで。過去一年以内に本人が撮影し、ほかの大会で{入賞|にゅうしょう}していない作品に限ります。個人のブログに掲載した写真は応募できます。ただし、写っている人が分かる場合は、その人の{許可|きょか}を得てください。風景写真では、通行人の顔が分からなければ{許可|きょか}は不要です。\n受付は九月一日から三十日午後五時まで。データを専用サイトに送ってください。郵送や窓口への持参は受け付けません。作品ごとに題名、撮影日、場所、百字以内の説明を添えてください。二点送る場合も、一点ずつ説明が必要です。\n{入賞|にゅうしょう}作品は十一月の市民祭りで展示します。応募時の題名と説明も展示に使います。{入賞|にゅうしょう}者には十月十五日までにメールで連絡します。連絡から一週間以内に返事がない場合、{入賞|にゅうしょう}を取り消すことがあります。\n応募料は無料です。撮影や通信にかかる費用は応募者が{負担|ふたん}してください。展示後に作品を市の広報に使う場合は、改めて本人に確認します。応募しただけで自由な利用を認めたことにはなりません。質問は平日午前九時から午後四時まで電話で受け付けますが、応募そのものは電話ではできません。"
+      }
+    ],
+    "translation": "Fotowettbewerb der Stadt Midori „Licht des Alltags“. Gesucht werden in der Stadt aufgenommene Bilder, die das Alltagsleben zeigen; berühmte Sehenswürdigkeiten sind nicht nötig. Teilnehmen können Einwohner sowie Personen, die in der Stadt eine Schule besuchen oder arbeiten, unabhängig vom Alter. Pro Person höchstens zwei eigene, innerhalb des letzten Jahres aufgenommene Bilder, die in keinem anderen Wettbewerb ausgezeichnet wurden. Bilder aus dem eigenen Blog sind erlaubt. Erkennbare Personen müssen zustimmen; bei Landschaftsbildern mit nicht erkennbaren Gesichtern von Passanten ist keine Zustimmung nötig. Einsendungen vom 1. bis 30. September, 17 Uhr, als Datei über die spezielle Website; keine Postsendungen oder persönliche Abgabe. Zu jedem Bild gehören Titel, Aufnahmedatum, Ort und eine Erklärung mit höchstens hundert Zeichen. Auch bei zwei Bildern benötigt jedes eine Erklärung. Ausgezeichnete Werke werden im November beim Bürgerfest zusammen mit Titel und Erklärung ausgestellt. Die Gewinner werden bis 15. Oktober per E-Mail benachrichtigt. Bleibt die Antwort länger als eine Woche aus, kann die Auszeichnung entfallen. Die Teilnahme ist kostenlos; Aufnahme- und Übertragungskosten trägt man selbst. Für eine spätere Verwendung in städtischen Publikationen wird erneut die Zustimmung eingeholt; die Teilnahme allein erteilt keine freie Nutzungserlaubnis. Fragen können werktags von 9 bis 16 Uhr telefonisch gestellt werden, Einreichungen sind telefonisch nicht möglich.",
+    "glossary": [
+      [
+        "入賞（にゅうしょう）",
+        "Auszeichnung bei einem Wettbewerb"
+      ],
+      [
+        "許可（きょか）",
+        "Erlaubnis"
+      ],
+      [
+        "負担（ふたん）",
+        "Kostenübernahme; Belastung"
+      ]
+    ],
+    "note": "Prüfe getrennt Teilnahmeberechtigung, Eignung des Bildes und Art der Einreichung.",
+    "questions": [
+      {
+        "id": "reading-n3-21-q1",
+        "kind": "search",
+        "prompt": "Welche Person kann mit dem beschriebenen Bild teilnehmen?",
+        "evidence": "reading-n3-21-p1",
+        "choices": [
+          {
+            "text": "Eine auswärtige Angestellte mit einem vor sechs Monaten in der Stadt selbst aufgenommenen, nicht ausgezeichneten Landschaftsbild ohne erkennbare Personen.",
+            "explanation": "Arbeitsort, Ort und Alter der Aufnahme sowie die Rechtebedingungen passen.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Ein Tourist ohne Bezug zur Stadt mit einem dort gestern aufgenommenen Bild.",
+            "explanation": "Ein bloßer Besuch erfüllt keine der Teilnahmebedingungen.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Ein Einwohner mit einem vor zwei Jahren selbst aufgenommenen Bild.",
+            "explanation": "Die Aufnahme darf höchstens ein Jahr alt sein.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Eine Schülerin mit einem bereits bei einem anderen Wettbewerb ausgezeichneten Bild.",
+            "explanation": "Bereits ausgezeichnete Werke sind ausgeschlossen.",
+            "evidence": "reading-n3-21-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n3-21-q2",
+        "kind": "search",
+        "prompt": "Was gilt bei der Einreichung zweier Bilder?",
+        "evidence": "reading-n3-21-p1",
+        "choices": [
+          {
+            "text": "Eine gemeinsame Erklärung und persönliche Abgabe genügen.",
+            "explanation": "Jedes Bild braucht eine Erklärung; persönliche Abgabe ist ausgeschlossen.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Beide müssen bis 30. September um 17 Uhr online mit je einer eigenen Erklärung eingehen.",
+            "explanation": "Frist, Einreichungsweg und Erklärungspflicht gelten für jedes Bild.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Man darf eines online und eines telefonisch einreichen.",
+            "explanation": "Telefonisch sind nur Fragen möglich.",
+            "evidence": "reading-n3-21-p1"
+          },
+          {
+            "text": "Mit der Teilnahme erlaubt man automatisch jede spätere Veröffentlichung.",
+            "explanation": "Für städtische Publikationen wird erneut die Zustimmung eingeholt.",
+            "evidence": "reading-n3-21-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n3-22",
+    "level": "N3",
+    "skill": "reading",
+    "order": 22,
+    "title": "Angebote für den Wochenendausflug",
+    "objective": "Vergleiche alle Anforderungen der Reisenden; ein passender Preis allein reicht nicht.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n3-22-p1",
+        "speaker": "",
+        "text": "週末日帰りツアー案内\nすべてのコースは土曜日に実施します。料金には往復の交通費と案内料が含まれます。昼食については各コースの説明をご確認ください。集合場所は駅東口、{解散|かいさん}も同じ場所です。\nＡ　山の展望台：八時集合、十八時{解散|かいさん}。四千円。弁当付き。山道を二時間歩くため、歩きやすい靴が必要です。雨天中止。参加できるのは十二歳以上です。\nＢ　港と市場：九時集合、十六時{解散|かいさん}。三千円。昼食は市場で各自購入します。歩く時間は合計三十分程度。雨でも実施します。小学生以下は{保護者|ほごしゃ}と一緒に参加してください。\nＣ　工房見学：十時集合、十七時{解散|かいさん}。五千円。昼食付き。室内で陶器作りを体験します。年齢制限はありませんが、十歳未満の子どもは体験ができず、見学のみです。作った作品は一か月後に自宅へ送ります。送料は料金に含まれます。\n予約は出発の五日前までにウェブサイトで行ってください。一回の予約で四人まで申し込めます。定員に達したコースは、締切前でも受付を終了します。残りの席はサイトで確認できます。支払いは予約時にカードでお願いします。\nキャンセルは出発の三日前まで無料、それ以降は料金の半額がかかります。主催者が中止を決めた場合は全額{返金|へんきん}します。集合時刻に遅れた場合は参加できず、{返金|へんきん}もありません。食物アレルギーのある方は、昼食付きのコースを予約する前に電話でご相談ください。"
+      }
+    ],
+    "translation": "Tagesausflüge am Wochenende. Alle finden samstags statt; Hin- und Rückfahrt sowie Führung sind im Preis enthalten. Angaben zum Mittagessen stehen bei jedem Angebot. Treffpunkt und Ende sind am Ostausgang des Bahnhofs. A, Berg-Aussichtspunkt: 8 bis 18 Uhr, 4000 Yen, Lunchpaket enthalten, zwei Stunden auf Bergwegen; geeignetes Schuhwerk erforderlich. Bei Regen abgesagt, ab zwölf Jahren. B, Hafen und Markt: 9 bis 16 Uhr, 3000 Yen, Mittagessen selbst auf dem Markt kaufen, insgesamt etwa dreißig Minuten zu Fuß. Auch bei Regen; Kinder bis einschließlich Grundschulalter nur mit Sorgeberechtigten. C, Werkstattbesuch: 10 bis 17 Uhr, 5000 Yen, Mittagessen enthalten. Töpfern in Innenräumen. Kein Mindestalter für die Teilnahme; Kinder unter zehn dürfen aber nur zuschauen. Die gefertigten Stücke kommen einen Monat später per Post nach Hause, Versand inklusive. Reservierung bis fünf Tage vor Abfahrt online, höchstens vier Personen pro Buchung. Volle Angebote schließen früher; freie Plätze stehen auf der Website. Zahlung bei Buchung per Karte. Stornierung bis drei Tage vorher kostenlos, danach fällt der halbe Preis an. Bei Absage durch den Veranstalter wird alles erstattet. Wer zu spät kommt, kann nicht teilnehmen und erhält keine Erstattung. Bei Lebensmittelallergien bitte vor der Buchung eines Angebots mit Mittagessen telefonisch Rücksprache halten.",
+    "glossary": [
+      [
+        "解散（かいさん）",
+        "Ende des gemeinsamen Programms"
+      ],
+      [
+        "返金（へんきん）",
+        "Rückerstattung"
+      ],
+      [
+        "保護者（ほごしゃ）",
+        "Sorgeberechtigte"
+      ]
+    ],
+    "note": "Vergleiche alle Anforderungen der Reisenden; ein passender Preis allein reicht nicht.",
+    "questions": [
+      {
+        "id": "reading-n3-22-q1",
+        "kind": "search",
+        "prompt": "Eine Mutter und ihr neunjähriges Kind möchten auch bei Regen reisen und spätestens um 16 Uhr zurück sein. Welches Angebot passt?",
+        "evidence": "reading-n3-22-p1",
+        "choices": [
+          {
+            "text": "A, Berg-Aussichtspunkt.",
+            "explanation": "A fällt bei Regen aus, ist erst ab zwölf und endet später.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "C, Werkstattbesuch.",
+            "explanation": "C endet um 17 Uhr und erfüllt damit die Zeitgrenze nicht.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "B, Hafen und Markt.",
+            "explanation": "B findet auch bei Regen statt, erlaubt das Kind mit Begleitung und endet um 16 Uhr.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "Alle drei Angebote.",
+            "explanation": "Nur B erfüllt sämtliche Bedingungen gleichzeitig.",
+            "evidence": "reading-n3-22-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n3-22-q2",
+        "kind": "search",
+        "prompt": "Ein zwölfjähriges Kind möchte selbst töpfern und sein Werk zu Hause erhalten. Welche Kostenregel gilt bei C?",
+        "evidence": "reading-n3-22-p1",
+        "choices": [
+          {
+            "text": "5000 Yen plus Versandkosten.",
+            "explanation": "Der Versand ist ausdrücklich im Preis enthalten.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "3000 Yen ohne Mittagessen.",
+            "explanation": "Das sind die Angaben zu B, nicht zu C.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "5000 Yen nur fürs Zuschauen.",
+            "explanation": "Nur Kinder unter zehn sind vom Töpfern ausgeschlossen.",
+            "evidence": "reading-n3-22-p1"
+          },
+          {
+            "text": "5000 Yen einschließlich Mittagessen und späterem Versand.",
+            "explanation": "Mit zwölf ist die praktische Teilnahme erlaubt; beide Leistungen sind enthalten.",
+            "evidence": "reading-n3-22-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
   },
   {
     "id": "reading-n2-1",
@@ -13939,6 +16931,1130 @@ window.COMPREHENSION_UNITS = [
       "synthetic": true,
       "revision": "native16-v3"
     }
+  },
+  {
+    "id": "reading-n2-18",
+    "level": "N2",
+    "skill": "reading",
+    "order": 18,
+    "title": "Antwort auf eine Beschwerde",
+    "objective": "Trenne die Ursache der Verzögerung von der Verantwortung für die fehlende Mitteilung.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n2-18-p1",
+        "speaker": "",
+        "text": "このたびは講座の開始が遅れ、ご迷惑をおかけしました。設備の点検が長引いたことが原因ですが、{遅延|ちえん}が分かった時点でお知らせしなかったのは、運営側の{不手際|ふてぎわ}です。受講料の一部を返金いたします。ただし、返金をもって対応が完了したとは考えておりません。今後は開始十五分前までに準備状況を確認し、変更がある場合はその時点で参加者に連絡します。講座内容へのご意見も、引き続きお寄せいただければ幸いです。"
+      }
+    ],
+    "translation": "Wir bedauern die Unannehmlichkeiten durch den verspäteten Kursbeginn. Ursache war eine länger dauernde Geräteprüfung. Dass wir Sie nicht informierten, sobald die Verzögerung bekannt war, ist jedoch ein Fehler der Organisation. Wir erstatten einen Teil der Kursgebühr. Damit betrachten wir die Angelegenheit allerdings nicht als erledigt. Künftig prüfen wir den Stand der Vorbereitungen spätestens fünfzehn Minuten vor Beginn und informieren bei Änderungen sofort die Teilnehmenden. Auch Rückmeldungen zum Kursinhalt nehmen wir weiterhin gern entgegen.",
+    "glossary": [
+      [
+        "不手際（ふてぎわ）",
+        "organisatorischer Fehler"
+      ],
+      [
+        "遅延（ちえん）",
+        "Verzögerung"
+      ]
+    ],
+    "note": "Trenne die Ursache der Verzögerung von der Verantwortung für die fehlende Mitteilung.",
+    "questions": [
+      {
+        "id": "reading-n2-18-q1",
+        "kind": "detail",
+        "prompt": "Welche Haltung zeigt die Antwort?",
+        "evidence": "reading-n2-18-p1",
+        "choices": [
+          {
+            "text": "Die Organisation übernimmt Verantwortung für die fehlende Mitteilung und plant zusätzlich zur Erstattung Verbesserungen.",
+            "explanation": "不手際 und die künftige Informationsregel belegen beides.",
+            "evidence": "reading-n2-18-p1"
+          },
+          {
+            "text": "Die Geräteprüfung entlastet die Organisation vollständig.",
+            "explanation": "Die fehlende Information wird ausdrücklich als eigener Fehler anerkannt.",
+            "evidence": "reading-n2-18-p1"
+          },
+          {
+            "text": "Mit der Erstattung sind weitere Maßnahmen unnötig.",
+            "explanation": "Diese Auffassung wird ausdrücklich zurückgewiesen.",
+            "evidence": "reading-n2-18-p1"
+          },
+          {
+            "text": "Rückmeldungen zum Inhalt werden künftig nicht mehr angenommen.",
+            "explanation": "Der letzte Satz lädt weiterhin dazu ein.",
+            "evidence": "reading-n2-18-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n2-19",
+    "level": "N2",
+    "skill": "reading",
+    "order": 19,
+    "title": "Die verlängerte Bewerbungsfrist",
+    "objective": "Eine verlängerte Frist bedeutet nicht automatisch gelockerte Anforderungen.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n2-19-p1",
+        "speaker": "",
+        "text": "{研究助成|けんきゅうじょせい}の申請期限を今月末まで延長します。システム障害により、締切直前の申請ができなかったためです。対象者や審査基準の変更はありません。すでに提出した方は再申請不要ですが、期間内であれば内容を修正できます。その場合、最後に保存した版のみを審査します。延長期間中も{推薦状|すいせんじょう}の添付は必須です。推薦者への依頼が遅れたことを理由に、書類がそろわない申請を受け付けることはありません。結果の発表日は予定どおりです。"
+      }
+    ],
+    "translation": "Die Bewerbungsfrist für die Forschungsförderung wird bis Monatsende verlängert, weil eine Systemstörung Einreichungen kurz vor Ablauf verhindert hat. Bewerberkreis und Bewertungskriterien bleiben unverändert. Wer bereits eingereicht hat, muss sich nicht erneut bewerben, kann den Inhalt innerhalb der Frist aber ändern. Dann wird ausschließlich die zuletzt gespeicherte Fassung bewertet. Auch während der Verlängerung ist ein Empfehlungsschreiben Pflicht. Eine verspätete Bitte an die empfehlende Person ist kein Grund, unvollständige Bewerbungen anzunehmen. Die Ergebnisse werden zum geplanten Termin veröffentlicht.",
+    "glossary": [
+      [
+        "研究助成（けんきゅうじょせい）",
+        "Forschungsförderung"
+      ],
+      [
+        "推薦状（すいせんじょう）",
+        "Empfehlungsschreiben"
+      ]
+    ],
+    "note": "Eine verlängerte Frist bedeutet nicht automatisch gelockerte Anforderungen.",
+    "questions": [
+      {
+        "id": "reading-n2-19-q1",
+        "kind": "detail",
+        "prompt": "Was darf eine Person tun, die schon vollständig eingereicht hat?",
+        "evidence": "reading-n2-19-p1",
+        "choices": [
+          {
+            "text": "Ohne Empfehlungsschreiben eine zweite Fassung einreichen.",
+            "explanation": "Das Schreiben bleibt für alle Fassungen Pflicht.",
+            "evidence": "reading-n2-19-p1"
+          },
+          {
+            "text": "Bis zur neuen Frist Änderungen speichern; bewertet wird nur die letzte Fassung.",
+            "explanation": "Der Text erlaubt Korrekturen und nennt die maßgebliche Version.",
+            "evidence": "reading-n2-19-p1"
+          },
+          {
+            "text": "Verlangen, dass alle gespeicherten Fassungen bewertet werden.",
+            "explanation": "Bewertet wird ausschließlich die zuletzt gespeicherte Version.",
+            "evidence": "reading-n2-19-p1"
+          },
+          {
+            "text": "Bis zur verschobenen Ergebnisbekanntgabe Änderungen vornehmen.",
+            "explanation": "Die Bekanntgabe wird nicht verschoben; Änderungen sind nur innerhalb der Bewerbungsfrist erlaubt.",
+            "evidence": "reading-n2-19-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n2-20",
+    "level": "N2",
+    "skill": "reading",
+    "order": 20,
+    "title": "Eine irreführende Überschrift",
+    "objective": "Prüfe, welche Größe tatsächlich gemessen wird und wie weit die Schlussfolgerung reicht.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-20-p1",
+        "speaker": "",
+        "text": "「若者は本を読まなくなった」という見出しを見て、私はまた同じ話かと思った。ところが記事を読むと、調査で減っていたのは、紙の本を買った冊数だった。図書館から借りた本も電子書籍も、その数字には含まれていない。もちろん、購入冊数の減少は出版に関わる人にとって重大な問題だ。しかし、それだけで若者の読書全体が減ったとは言えない。記事の後半には、電子書籍を利用する人が増えたという別の調査も紹介されていた。見出しは間違った数字を使っているわけではない。ただ、何についての数字なのかを省いたために、数字が示す{範囲|はんい}より広い結論を読者に想像させてしまう。短い言葉で関心を引くことは必要だろう。けれども、本文を読めば分かるのだから問題ない、と片づけてよいだろうか。多くの人は見出しだけを読み、その印象を誰かに伝える。私はこの記事を批判する前に、自分も資料の一部分を都合よくまとめていないか考えた。数字を正確に写すだけでは十分ではない。その数字からどこまで言えるのか、どこから先は別の{根拠|こんきょ}が必要なのかを、言葉にする責任もあるのだ。"
+      }
+    ],
+    "translation": "Bei der Überschrift „Junge Menschen lesen keine Bücher mehr“ dachte ich: schon wieder dieselbe Geschichte. Im Artikel ging es jedoch um einen Rückgang der Zahl gekaufter Papierbücher. Bibliotheksbücher und E-Books waren in dieser Zahl nicht enthalten. Natürlich ist weniger Buchkauf für Menschen im Verlagswesen ein ernstes Problem. Daraus allein folgt aber kein Rückgang des gesamten Lesens junger Menschen. In der zweiten Hälfte stellte der Artikel sogar eine andere Untersuchung vor, nach der die Nutzung von E-Books zunahm. Die Überschrift verwendet keine falsche Zahl. Indem sie weglässt, worauf sich die Zahl bezieht, lässt sie die Leser jedoch eine weiter reichende Schlussfolgerung vermuten, als die Zahl trägt. Mit wenigen Worten Interesse zu wecken, mag nötig sein. Kann man das Problem aber einfach damit abtun, dass es bei Lektüre des Haupttextes klar wird? Viele lesen nur die Überschrift und geben diesen Eindruck weiter. Bevor ich den Artikel kritisierte, überlegte ich, ob auch ich Teile von Unterlagen bequem zusammenfasse. Zahlen korrekt abzuschreiben reicht nicht. Man trägt auch Verantwortung dafür, auszudrücken, wie weit sie eine Aussage erlauben und ab wann weitere Belege nötig sind.",
+    "glossary": [
+      [
+        "根拠（こんきょ）",
+        "Beleg; Grundlage"
+      ],
+      [
+        "範囲（はんい）",
+        "Umfang; Geltungsbereich"
+      ]
+    ],
+    "note": "Prüfe, welche Größe tatsächlich gemessen wird und wie weit die Schlussfolgerung reicht.",
+    "questions": [
+      {
+        "id": "reading-n2-20-q1",
+        "kind": "global",
+        "prompt": "Welche Größe nimmt laut der ersten Untersuchung ab?",
+        "evidence": "reading-n2-20-p1",
+        "choices": [
+          {
+            "text": "Die gesamte Lesezeit junger Menschen.",
+            "explanation": "Diese Größe wurde in der zitierten Zahl nicht erfasst.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Die Zahl aller Bibliotheksausleihen.",
+            "explanation": "Ausgeliehene Bücher sind ausdrücklich nicht enthalten.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Die Zahl gekaufter Papierbücher.",
+            "explanation": "Nur diese Käufe gehören zur genannten Zahl.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Die Nutzung von E-Books.",
+            "explanation": "Die zweite Untersuchung beschreibt dafür einen Anstieg.",
+            "evidence": "reading-n2-20-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-20-q2",
+        "kind": "detail",
+        "prompt": "Worin liegt die Kritik an der Überschrift?",
+        "evidence": "reading-n2-20-p1",
+        "choices": [
+          {
+            "text": "Sie enthält absichtlich gefälschte Zahlen.",
+            "explanation": "Der Text sagt ausdrücklich, dass keine falsche Zahl verwendet wird.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Sie ist zu lang, um Interesse zu wecken.",
+            "explanation": "Kritisiert wird die Verkürzung des Inhalts, nicht die Länge.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Sie erklärt ausführlich beide Untersuchungen.",
+            "explanation": "Gerade wichtige Abgrenzungen fehlen in der Überschrift.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Sie legt eine breitere Schlussfolgerung nahe, als die Daten erlauben.",
+            "explanation": "Durch das Weglassen des Bezugsbereichs wirkt die Zahl umfassender.",
+            "evidence": "reading-n2-20-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-20-q3",
+        "kind": "inference",
+        "prompt": "Welche Verantwortung betont die schreibende Person?",
+        "evidence": "reading-n2-20-p1",
+        "choices": [
+          {
+            "text": "Neben korrekten Zahlen auch deren Aussagegrenzen deutlich zu machen.",
+            "explanation": "Der Schluss nennt beides als Aufgabe.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Nur die Interessen der Verlage zu vertreten.",
+            "explanation": "Deren Problem wird anerkannt, aber die Datenkritik ist allgemeiner.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Auf jede kurze Überschrift zu verzichten.",
+            "explanation": "Interesse durch kurze Worte wird als nötig anerkannt.",
+            "evidence": "reading-n2-20-p1"
+          },
+          {
+            "text": "Kritik nur an anderen und nie an sich selbst zu üben.",
+            "explanation": "Die Person prüft ausdrücklich die eigene Art des Zusammenfassens.",
+            "evidence": "reading-n2-20-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n2-21",
+    "level": "N2",
+    "skill": "reading",
+    "order": 21,
+    "title": "Wenn Üben keinen Fortschritt zeigt",
+    "objective": "Suche nach weniger sichtbaren Fortschritten und nach ihrem Nutzen für das weitere Lernen.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-21-p1",
+        "speaker": "",
+        "text": "ピアノの練習を続けても、録音を聞くと同じところでつまずいている。以前の私は、それを進歩していない証拠だと考えていた。ところが先生は、三か月前の録音と今の録音を並べて聞かせ、「今は、つまずいた後に戻るまでの時間が短くなっています」と言った。私は間違えた回数ばかり数え、{立て直し|たてなおし}方を聞いていなかったのである。これは、間違いを気にしなくてよいという話ではない。苦手な部分を練習する必要は変わらない。ただ、完成した演奏だけを基準にすると、途中で身についた力が見えなくなる。たとえば、前は一つ間違えると曲の最初からやり直していたが、今は前の小節から再開できる。練習方法について質問するときも、ただ「できません」と言うのではなく、どこで何が起きるか説明できるようになった。先生はそれも学習の{成果|せいか}だと言う。目立つ結果が出ない時期には、続ければ必ず成功すると自分に言い聞かせるより、以前と違う点を具体的に探すほうが役に立つのかもしれない。そうすれば、同じ方法を続けるべきか、変えるべきかも考えやすい。進歩を見つけることは、安心するためだけでなく、次の練習を選ぶためでもある。"
+      }
+    ],
+    "translation": "Obwohl ich weiter Klavier übe, höre ich in den Aufnahmen, dass ich an denselben Stellen stocke. Früher hielt ich das für einen Beweis fehlenden Fortschritts. Doch meine Lehrerin spielte eine Aufnahme von vor drei Monaten und die aktuelle nebeneinander ab: „Heute brauchst du nach einem Fehler weniger Zeit, um wieder hineinzufinden.“ Ich hatte nur die Fehler gezählt und nicht auf die Erholung geachtet. Das bedeutet nicht, dass Fehler egal sind; schwierige Stellen muss ich weiterhin üben. Wer aber nur die fertige Aufführung als Maßstab nimmt, übersieht Fähigkeiten, die unterwegs entstanden sind. Früher fing ich nach einem Fehler das ganze Stück neu an, heute kann ich beim vorherigen Takt fortsetzen. Auch bei Fragen zum Üben sage ich nicht mehr bloß „Ich kann es nicht“, sondern beschreibe, wo was passiert. Die Lehrerin nennt auch das ein Lernergebnis. In Phasen ohne auffällige Ergebnisse ist es vielleicht hilfreicher, konkrete Unterschiede zu früher zu suchen, als sich einzureden, bloßes Weitermachen führe sicher zum Erfolg. So lässt sich auch leichter entscheiden, ob man die Methode beibehalten oder ändern sollte. Fortschritt zu erkennen dient nicht nur der Beruhigung, sondern auch der Auswahl des nächsten Übungsschritts.",
+    "glossary": [
+      [
+        "立て直し（たてなおし）",
+        "Wiederherstellung; Erholung nach einem Fehler"
+      ],
+      [
+        "成果（せいか）",
+        "Ergebnis; Erfolg"
+      ]
+    ],
+    "note": "Suche nach weniger sichtbaren Fortschritten und nach ihrem Nutzen für das weitere Lernen.",
+    "questions": [
+      {
+        "id": "reading-n2-21-q1",
+        "kind": "global",
+        "prompt": "Welchen Fortschritt erkennt die Lehrerin in den Aufnahmen?",
+        "evidence": "reading-n2-21-p1",
+        "choices": [
+          {
+            "text": "Es gibt überhaupt keine Fehler mehr.",
+            "explanation": "Die Person stockt weiterhin an denselben Stellen.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Die Person findet nach einem Fehler schneller wieder hinein.",
+            "explanation": "Die kürzere Zeit zum Wiederaufnehmen ist der konkrete Vergleich.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Die Person spielt jedes Stück auswendig.",
+            "explanation": "Auswendiglernen wird nicht erwähnt.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Die Zahl geübter Stücke hat sich verdoppelt.",
+            "explanation": "Der Vergleich betrifft den Umgang mit Fehlern, nicht die Stückzahl.",
+            "evidence": "reading-n2-21-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-21-q2",
+        "kind": "detail",
+        "prompt": "Was bedeutet die neue Sichtweise ausdrücklich nicht?",
+        "evidence": "reading-n2-21-p1",
+        "choices": [
+          {
+            "text": "Dass das Wiederaufnehmen nach Fehlern eine Fähigkeit ist.",
+            "explanation": "Gerade das wird als Fortschritt anerkannt.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Dass Fragen zum Üben genauer gestellt werden können.",
+            "explanation": "Auch diese Veränderung wird beschrieben.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Dass Fehler unwichtig wären und schwierige Stellen nicht mehr geübt werden müssten.",
+            "explanation": "Der Text hält die Notwendigkeit gezielter Übung ausdrücklich aufrecht.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Dass Aufnahmen beim Vergleich helfen können.",
+            "explanation": "Die Lehrerin verwendet sie als Beleg.",
+            "evidence": "reading-n2-21-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-21-q3",
+        "kind": "inference",
+        "prompt": "Wozu soll die Suche nach konkreten Veränderungen dienen?",
+        "evidence": "reading-n2-21-p1",
+        "choices": [
+          {
+            "text": "Zur Garantie, dass jede Methode zum Erfolg führt.",
+            "explanation": "Eine solche Selbstberuhigung wird als weniger hilfreich beschrieben.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Zum vollständigen Verzicht auf Ergebnisse.",
+            "explanation": "Ergebnisse bleiben wichtig, sind aber breiter zu betrachten.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Nur zum Trost ohne Einfluss auf die Methode.",
+            "explanation": "Der Text nennt ausdrücklich die Entscheidung über Beibehalten oder Ändern.",
+            "evidence": "reading-n2-21-p1"
+          },
+          {
+            "text": "Zur Entscheidung über die nächsten Übungsschritte.",
+            "explanation": "Der Schluss verbindet Fortschrittserkenntnis mit der Auswahl der weiteren Übung.",
+            "evidence": "reading-n2-21-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n2-22",
+    "level": "N2",
+    "skill": "reading",
+    "order": 22,
+    "title": "Eine Rezension mit Vorbehalten",
+    "objective": "Unterscheide begründete Kritik, persönliche Vorlieben und die insgesamt positive Erwartung.",
+    "minutes": 18,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-22-p1",
+        "speaker": "",
+        "text": "地方の小さな劇場で上演された新作を見た。町を離れた娘が、父の入院をきっかけに戻ってくるという、特別珍しくはない物語である。舞台装置も机と椅子があるだけで、派手な転換はない。それでも、帰りの電車で何度も思い出した場面があった。娘が父に「また来る」と言い、その後で自分の予定表を見る場面だ。台詞は短いのに、約束したい気持ちと、実際には難しいという事情が同時に伝わってきた。俳優はそれを説明するような表情をせず、少し長く予定表を見ていただけだった。私はこの{沈黙|ちんもく}に、日常の人間関係の複雑さを感じた。観客の側にも、その間に自分の経験を重ねる余地が残されていた。"
+      },
+      {
+        "id": "reading-n2-22-p2",
+        "speaker": "",
+        "text": "ただし、作品全体が同じように成功していたわけではない。前半には、登場人物が過去の出来事を順番に説明する場面が続く。観客に事情を知らせる必要はあるが、本人同士なら既に知っていることまで語るので、会話が不自然に聞こえた。終盤の音楽も、悲しむべき場所をあらかじめ指定するようで、私はかえって気持ちが離れた。隣の観客はその場面で涙を流していたから、音楽が効果を持たなかったと言い切ることもできない。私の好みと、{演出|えんしゅつ}の働きとは分けて考えたい。それでも、言葉の少ない場面が強かっただけに、説明を重ねる場面との差が惜しまれた。"
+      },
+      {
+        "id": "reading-n2-22-p3",
+        "speaker": "",
+        "text": "小さな劇場の作品には、大きな予算を使った舞台と同じ完成度を求めるべきではない、という声もある。しかし、{制作条件|せいさくじょうけん}を理解することと、弱点を見ないことは違う。むしろ、この作品に見る価値があると思うからこそ、成功した場面とそうでない場面を具体的に述べたい。「感動した」の一言では、何が観客に届いたのかを作り手に返せないからだ。私が次の上演も見たいと思ったのは、題材が身近だったからだけではない。言葉にしにくい迷いを、わずかな動作で見せる力を感じたからである。その力がもっと広い場面に生かされれば、説明に頼らなくても物語を伝えられるだろう。欠点があるという評価は、作品を退けるための結論であるとは限らない。可能性をどこに見いだしたかを示すためにも、評価は必要なのである。"
+      }
+    ],
+    "translation": "Ich sah ein neues Stück in einem kleinen Theater einer Provinzstadt. Eine Tochter, die den Ort verlassen hat, kehrt zurück, weil ihr Vater im Krankenhaus liegt: keine besonders ungewöhnliche Geschichte. Auch das Bühnenbild bestand nur aus Tisch und Stühlen, ohne spektakuläre Wechsel. Trotzdem dachte ich im Zug nach Hause wiederholt an eine Szene: Die Tochter sagt ihrem Vater „Ich komme wieder“ und schaut danach in ihren Terminkalender. Trotz des kurzen Satzes spürte man zugleich ihren Wunsch, ein Versprechen zu geben, und die Umstände, die es schwierig machen. Die Schauspielerin erklärte das nicht durch ihre Mimik; sie schaute nur etwas länger in den Kalender. In diesem Schweigen empfand ich die Komplexität alltäglicher Beziehungen. Auch den Zuschauern blieb in dieser Pause Raum, ihre eigenen Erfahrungen darin wiederzufinden. Allerdings gelang nicht alles im Stück gleichermaßen. In der ersten Hälfte erklären die Figuren nacheinander frühere Ereignisse. Informationen für das Publikum sind nötig, aber weil die Figuren sogar Dinge erzählen, die sie untereinander schon wissen, klingt der Dialog unnatürlich. Auch die Musik zum Ende wirkte, als lege sie vorab fest, wann man traurig sein solle; ich fühlte mich eher distanziert. Neben mir weinte ein Zuschauer, deshalb kann ich nicht behaupten, die Musik habe gar keine Wirkung gehabt. Ich möchte meinen Geschmack von der Wirkung der Inszenierung unterscheiden. Gerade weil die wortarmen Szenen stark waren, bedauerte ich aber den Unterschied zu den erklärenden Passagen. Manche meinen, man dürfe von kleinen Theatern nicht dieselbe Ausarbeitung wie von großen Produktionen erwarten. Produktionsbedingungen zu verstehen ist jedoch etwas anderes, als Schwächen zu übersehen. Gerade weil ich das Stück sehenswert finde, möchte ich konkret gelungene und weniger gelungene Szenen nennen. Ein bloßes „Es hat mich bewegt“ meldet den Kunstschaffenden nicht zurück, was angekommen ist. Ich möchte die nächste Aufführung nicht nur wegen des vertrauten Themas sehen, sondern wegen der Fähigkeit, schwer formulierbare Zweifel durch minimale Bewegungen zu zeigen. Wird diese Fähigkeit in mehr Szenen genutzt, könnte die Geschichte ohne erklärende Dialoge vermittelt werden. Mängel zu benennen bedeutet nicht zwingend, ein Werk abzulehnen. Bewertung ist auch nötig, um zu zeigen, wo man Möglichkeiten sieht.",
+    "glossary": [
+      [
+        "演出（えんしゅつ）",
+        "Inszenierung; Regie"
+      ],
+      [
+        "制作条件（せいさくじょうけん）",
+        "Produktionsbedingungen"
+      ],
+      [
+        "沈黙（ちんもく）",
+        "Schweigen"
+      ]
+    ],
+    "note": "Unterscheide begründete Kritik, persönliche Vorlieben und die insgesamt positive Erwartung.",
+    "questions": [
+      {
+        "id": "reading-n2-22-q1",
+        "kind": "global",
+        "prompt": "Was beeindruckt die schreibende Person besonders?",
+        "evidence": "reading-n2-22-p1",
+        "choices": [
+          {
+            "text": "Eine kleine Bewegung macht den Konflikt zwischen Wunsch und Möglichkeit sichtbar.",
+            "explanation": "Der Blick in den Kalender vermittelt beides ohne erklärende Mimik.",
+            "evidence": "reading-n2-22-p1"
+          },
+          {
+            "text": "Der ungewöhnliche Handlungsort in einer fernen Welt.",
+            "explanation": "Die Geschichte wird gerade als nicht ungewöhnlich beschrieben.",
+            "evidence": "reading-n2-22-p1"
+          },
+          {
+            "text": "Aufwendige Bühnenwechsel.",
+            "explanation": "Spektakuläre Wechsel gibt es nicht.",
+            "evidence": "reading-n2-22-p1"
+          },
+          {
+            "text": "Die genaue Erklärung aller Gefühle durch lange Reden.",
+            "explanation": "Besonders stark sind die wortarmen Szenen.",
+            "evidence": "reading-n2-22-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-22-q2",
+        "kind": "detail",
+        "prompt": "Warum werden die Dialoge der ersten Hälfte kritisiert?",
+        "evidence": "reading-n2-22-p2",
+        "choices": [
+          {
+            "text": "Das Publikum erfährt überhaupt nichts über die Vergangenheit.",
+            "explanation": "Die Vergangenheit wird sogar ausführlich erklärt.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Die Figuren erklären einander Dinge, die sie bereits wissen.",
+            "explanation": "Dadurch klingt das Gespräch für die schreibende Person unnatürlich.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Die Schauspieler sprechen zu leise.",
+            "explanation": "Die Lautstärke wird nicht kritisiert.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Die Geschichte hat keine Familienbeziehungen.",
+            "explanation": "Das Verhältnis zwischen Tochter und Vater ist zentral.",
+            "evidence": "reading-n2-22-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-22-q3",
+        "kind": "inference",
+        "prompt": "Warum erwähnt die Person den weinenden Zuschauer?",
+        "evidence": "reading-n2-22-p2",
+        "choices": [
+          {
+            "text": "Um zu beweisen, dass alle Zuschauer die Musik ablehnen.",
+            "explanation": "Sein Weinen widerspricht gerade einer allgemeinen Wirkungslosigkeit.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Um das Publikum als unaufmerksam darzustellen.",
+            "explanation": "Unaufmerksamkeit wird nicht behauptet.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Um die eigene negative Reaktion auf die Musik nicht als allgemeine Wirkung auszugeben.",
+            "explanation": "Der Zuschauer zeigt, dass die Musik anders wirken konnte.",
+            "evidence": "reading-n2-22-p2"
+          },
+          {
+            "text": "Um jede Bewertung von Musik zu verbieten.",
+            "explanation": "Die Person bewertet weiter, grenzt aber ihr Urteil ein.",
+            "evidence": "reading-n2-22-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-22-q4",
+        "kind": "inference",
+        "prompt": "Welche Funktion hat die Kritik insgesamt?",
+        "evidence": "reading-n2-22-p3",
+        "choices": [
+          {
+            "text": "Sie begründet, warum kleine Theater nicht besucht werden sollten.",
+            "explanation": "Das Stück wird ausdrücklich als sehenswert beurteilt.",
+            "evidence": "reading-n2-22-p3"
+          },
+          {
+            "text": "Sie fordert, Produktionsbedingungen immer zu ignorieren.",
+            "explanation": "Verständnis der Bedingungen wird von Blindheit für Schwächen unterschieden.",
+            "evidence": "reading-n2-22-p3"
+          },
+          {
+            "text": "Sie ersetzt konkrete Beobachtungen durch bloßes Lob.",
+            "explanation": "Gerade ein pauschales „Es hat mich bewegt“ gilt als unzureichend.",
+            "evidence": "reading-n2-22-p3"
+          },
+          {
+            "text": "Sie benennt Schwächen und zeigt zugleich Entwicklungsmöglichkeiten auf.",
+            "explanation": "Die Person will wiederkommen und begründet das Potenzial des Stücks.",
+            "evidence": "reading-n2-22-p3"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n2-23",
+    "level": "N2",
+    "skill": "reading",
+    "order": 23,
+    "title": "Sammeln und Verstehen",
+    "objective": "Verfolge, wie ein persönlicher Fund eine allgemeinere Aussage über Quellenarbeit begründet.",
+    "minutes": 18,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n2-23-p1",
+        "speaker": "",
+        "text": "父が残した古い地図を整理していると、同じ町の地図が何枚も出てきた。発行年が違うだけで、見た目はよく似ている。私は一枚だけ残し、あとは{処分|しょぶん}しようとした。場所を調べるなら、新しい地図があれば十分だと思ったからだ。ところが、一枚の端に父の字で「橋の位置が変わった」と書いてあった。ほかの地図と比べると、川沿いの道や駅前の広場も少しずつ違っていた。父は珍しい地図を集めていたのではなく、町の変化を追っていたらしい。枚数の多さは、それ自体が目的だったわけではなかった。私は地図を机に並べ、年ごとの差をノートに書き始めた。すると、一枚では気づかなかった道のつながりも見えてきた。"
+      },
+      {
+        "id": "reading-n2-23-p2",
+        "speaker": "",
+        "text": "資料を集めることは、理解への入口にはなる。しかし、集めた量がそのまま理解の深さになるわけではない。私は仕事でも、関連する記事を保存すると調べ終えた気分になっていた。必要なときに読めばよいと思い、保存した理由を記録しなかった。その結果、同じ話を別のサイトで読んで集めただけなのに、多くの根拠があると{錯覚|さっかく}したこともある。資料同士の関係を確かめなければ、重なっている内容と違っている内容は見えてこない。父の{書き込み|かきこみ}は短かったが、何を比べるべきかを示していた。集めたものに問いを向けることで、初めてただの束が、一つの変化を語る資料になるのだろう。"
+      },
+      {
+        "id": "reading-n2-23-p3",
+        "speaker": "",
+        "text": "では、目的がはっきりしないものは集めないほうがよいのか。私はそうは思わない。父の地図にも、まだ{書き込み|かきこみ}のないものがあった。意味は後から見つかることもある。ただし、いつか役立つかもしれないという言葉を、何も確かめないまま保存を続ける理由にしたくはない。すべてに今すぐ説明を付ける必要はなくても、ときどき取り出して、自分が何を知りたいのかを考える時間は必要だ。今回、私は地図を捨てずに残すことにした。それは父の持ち物だからという理由だけではない。同じ町に見えるものの中に、違う時間が重なっていることを、これから自分で調べたいからだ。保存する判断も、{処分|しょぶん}する判断も、理解の代わりにはならない。何を残すか決めた後に、それをどう読むかという仕事が始まる。"
+      }
+    ],
+    "translation": "Beim Ordnen der alten Karten meines verstorbenen Vaters fand ich mehrere Karten derselben Stadt. Nur die Erscheinungsjahre waren verschieden, das Aussehen war ähnlich. Ich wollte eine behalten und die anderen entsorgen: Zum Nachschlagen von Orten reicht eine aktuelle Karte, dachte ich. Doch am Rand einer Karte stand in Vaters Schrift: „Die Lage der Brücke hat sich geändert.“ Beim Vergleichen entdeckte ich auch Unterschiede bei der Straße am Fluss und dem Bahnhofsvorplatz. Offenbar hatte er nicht seltene Karten gesammelt, sondern die Veränderungen der Stadt verfolgt. Die Menge war kein Selbstzweck. Ich legte die Karten auf den Tisch und begann, Unterschiede zwischen den Jahren zu notieren. Dabei erkannte ich auch Verbindungen zwischen Straßen, die mir auf einer einzelnen Karte entgangen waren. Sammeln kann ein Zugang zum Verständnis sein; die Menge entspricht aber nicht automatisch der Tiefe des Verständnisses. Auch bei der Arbeit fühlte ich mich nach dem Speichern einschlägiger Artikel mit der Recherche fertig. Ich dachte, ich könne sie bei Bedarf lesen, und notierte den Speichergrund nicht. So sammelte ich mitunter dieselbe Geschichte von verschiedenen Websites und hielt das irrtümlich für viele Belege. Ohne Beziehungen zwischen Quellen zu prüfen, sieht man weder Überschneidungen noch Unterschiede. Vaters kurze Notizen zeigten, was zu vergleichen war. Erst eine Frage an das Gesammelte macht vielleicht aus einem bloßen Stapel Material, das von einer Veränderung erzählt. Sollte man also nichts sammeln, dessen Zweck noch unklar ist? Das glaube ich nicht. Auch manche Karten meines Vaters hatten keine Notizen. Bedeutung kann erst später sichtbar werden. Ich möchte „Vielleicht ist es irgendwann nützlich“ aber nicht als Ausrede verwenden, ungeprüft immer weiter zu speichern. Nicht alles muss sofort erklärt werden, doch man muss es gelegentlich hervorholen und überlegen, was man wissen möchte. Ich habe beschlossen, die Karten zu behalten: nicht nur, weil sie meinem Vater gehörten, sondern weil ich selbst untersuchen möchte, wie unterschiedliche Zeiten in scheinbar derselben Stadt übereinanderliegen. Weder Aufbewahren noch Wegwerfen ersetzt das Verstehen. Nach der Entscheidung, was bleibt, beginnt die Arbeit daran, wie man es liest.",
+    "glossary": [
+      [
+        "錯覚（さっかく）",
+        "Täuschung; falscher Eindruck"
+      ],
+      [
+        "書き込み（かきこみ）",
+        "handschriftliche Notiz"
+      ],
+      [
+        "処分（しょぶん）",
+        "Entsorgung"
+      ]
+    ],
+    "note": "Verfolge, wie ein persönlicher Fund eine allgemeinere Aussage über Quellenarbeit begründet.",
+    "questions": [
+      {
+        "id": "reading-n2-23-q1",
+        "kind": "global",
+        "prompt": "Warum hatte der Vater offenbar mehrere Karten derselben Stadt?",
+        "evidence": "reading-n2-23-p1",
+        "choices": [
+          {
+            "text": "Er verfolgte Veränderungen der Stadt über die Jahre.",
+            "explanation": "Die Notiz und die Unterschiede zwischen Ausgaben weisen auf diesen Zweck.",
+            "evidence": "reading-n2-23-p1"
+          },
+          {
+            "text": "Er wollte möglichst viele seltene Exemplare besitzen.",
+            "explanation": "Diese Deutung wird im ersten Absatz ausdrücklich revidiert.",
+            "evidence": "reading-n2-23-p1"
+          },
+          {
+            "text": "Er konnte auf den Karten keine Orte finden.",
+            "explanation": "Ein solches Problem wird nicht genannt.",
+            "evidence": "reading-n2-23-p1"
+          },
+          {
+            "text": "Alle Karten waren inhaltlich völlig gleich.",
+            "explanation": "Straßen, Brücke und Platz verändern sich.",
+            "evidence": "reading-n2-23-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-23-q2",
+        "kind": "detail",
+        "prompt": "Welcher Irrtum trat beim beruflichen Sammeln von Artikeln auf?",
+        "evidence": "reading-n2-23-p2",
+        "choices": [
+          {
+            "text": "Die Person hielt jede Website für eine Landkarte.",
+            "explanation": "Websites dienen nur als Quellen von Artikeln.",
+            "evidence": "reading-n2-23-p2"
+          },
+          {
+            "text": "Mehrfach veröffentlichter gleicher Inhalt wurde für mehrere unabhängige Belege gehalten.",
+            "explanation": "Die Person beschreibt genau diese Verwechslung.",
+            "evidence": "reading-n2-23-p2"
+          },
+          {
+            "text": "Zu jedem Artikel wurde ein zu langer Vergleich geschrieben.",
+            "explanation": "Speichergründe und Beziehungen wurden gerade nicht notiert.",
+            "evidence": "reading-n2-23-p2"
+          },
+          {
+            "text": "Die Artikel waren wegen ihres Alters unlesbar.",
+            "explanation": "Lesbarkeit wird nicht als Problem genannt.",
+            "evidence": "reading-n2-23-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-23-q3",
+        "kind": "inference",
+        "prompt": "Wie beurteilt die Person Material ohne klaren aktuellen Zweck?",
+        "evidence": "reading-n2-23-p3",
+        "choices": [
+          {
+            "text": "Es muss immer sofort entsorgt werden.",
+            "explanation": "Diese Forderung wird ausdrücklich zurückgewiesen.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Es sollte nie wieder angesehen werden.",
+            "explanation": "Regelmäßiges Hervorholen wird als nötig beschrieben.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Es kann sinnvoll sein, wenn man es später aktiv befragt und überprüft.",
+            "explanation": "Spätere Bedeutung ist möglich, bloßes unbegrenztes Speichern reicht aber nicht.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Seine Menge beweist schon tiefes Verständnis.",
+            "explanation": "Die Gleichsetzung von Menge und Verständnis wird kritisiert.",
+            "evidence": "reading-n2-23-p3"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-23-q4",
+        "kind": "inference",
+        "prompt": "Was bedeutet die Entscheidung, die Karten zu behalten?",
+        "evidence": "reading-n2-23-p3",
+        "choices": [
+          {
+            "text": "Die Untersuchung ist damit abgeschlossen.",
+            "explanation": "Der Schlusssatz sagt das Gegenteil.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Nur der Erinnerungswert zählt, Unterschiede sind unwichtig.",
+            "explanation": "Die Person möchte gerade die zeitlichen Unterschiede untersuchen.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Der Vater hat jede Karte vollständig erklärt.",
+            "explanation": "Einige Karten haben keine Notizen.",
+            "evidence": "reading-n2-23-p3"
+          },
+          {
+            "text": "Sie ist der Anfang einer eigenen Untersuchung.",
+            "explanation": "Nach der Aufbewahrungsentscheidung beginnt die Arbeit des Lesens und Vergleichens.",
+            "evidence": "reading-n2-23-p3"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n2-24",
+    "level": "N2",
+    "skill": "reading",
+    "order": 24,
+    "title": "Lernen mit Videos",
+    "objective": "Bestimme zuerst die gemeinsame Grundposition, dann die verschiedenen Formen eigener Aktivität.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n2-24-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "動画の講座は、分からないところを何度も見直せる点で便利だ。私は外国語の発音を学ぶとき、口の動きを止めて確認し、自分でも声を出してみる。ただ、見ているだけで練習した気分になりやすい。そこで、一本見たら画面を閉じ、何を説明していたかを自分の言葉で書く。思い出せない部分だけを再生すると、分かったつもりだった箇所が見えてくる。教室では先生が理解を確かめてくれるが、動画では自分でその仕組みを作る必要がある。便利さを生かすには、再生時間を増やすより、見ないで試す時間を{確保|かくほ}したい。動画を否定しているのではなく、その長所を学習につなげる使い方を考えているのである。"
+      },
+      {
+        "id": "reading-n2-24-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "動画で料理を学ぶ人が増えている。手の動きや材料の変化が見えるので、文章だけより分かりやすいことは多い。しかし、自分の鍋や火の強さが動画と同じとは限らない。画面どおりの時間で作っても、同じ結果にならない場合がある。大事なのは、何分たったかだけでなく、どんな状態になったら次へ進むのかを見ることだ。私は最初に全体を見てから実際に作り、迷った場面だけ見直す。途中で動画を止めるときも、鍋の中を観察することを忘れないようにしている。動画の説明を自分の状況に当てはめて{調整|ちょうせい}するところまでが、学ぶということなのだと思う。うまくいかなかった理由を記録しておけば、次に見るときの注目点も変わる。"
+      }
+    ],
+    "translation": "Text A: Videokurse sind praktisch, weil man unklare Stellen mehrfach ansehen kann. Beim Lernen fremdsprachlicher Aussprache halte ich das Bild an, prüfe Mundbewegungen und spreche selbst. Doch Zuschauen kann leicht das Gefühl erzeugen, schon geübt zu haben. Deshalb schließe ich nach einem Video das Bild und notiere in eigenen Worten, was erklärt wurde. Spiele ich nur die nicht erinnerten Stellen erneut ab, erkenne ich vermeintlich verstandene Punkte. Im Unterricht überprüft eine Lehrkraft das Verständnis; bei Videos muss man selbst dafür sorgen. Statt mehr Abspielzeit möchte ich Zeit für Versuche ohne Bild sichern. Ich lehne Videos nicht ab, sondern überlege, wie ihre Stärken zum Lernen beitragen. Text B: Immer mehr Menschen lernen Kochen mit Videos. Bewegungen der Hände und Veränderungen der Zutaten sind sichtbar und häufig verständlicher als reiner Text. Doch der eigene Topf und die Hitze müssen nicht denen im Video entsprechen. Dieselbe Zeit kann ein anderes Ergebnis liefern. Wichtig ist neben Minuten, bei welchem Zustand man zum nächsten Schritt geht. Ich sehe zuerst das Ganze, koche dann und schaue nur unsichere Stellen erneut an. Beim Anhalten des Videos vergesse ich nicht, den Inhalt des Topfes zu beobachten. Lernen umfasst meiner Ansicht nach auch, Erklärungen an die eigene Situation anzupassen. Notiert man die Gründe für misslungene Versuche, verändert sich auch, worauf man beim nächsten Anschauen achtet.",
+    "glossary": [
+      [
+        "確保（かくほ）",
+        "Sicherstellung; Freihalten"
+      ],
+      [
+        "調整（ちょうせい）",
+        "Anpassung"
+      ]
+    ],
+    "note": "Bestimme zuerst die gemeinsame Grundposition, dann die verschiedenen Formen eigener Aktivität.",
+    "questions": [
+      {
+        "id": "reading-n2-24-q1",
+        "kind": "integrated",
+        "prompt": "Welche eigene Lernkontrolle beschreibt Text A?",
+        "evidence": "reading-n2-24-p1",
+        "choices": [
+          {
+            "text": "Nach dem Anschauen ohne Bild in eigenen Worten wiedergeben.",
+            "explanation": "So werden Lücken im vermeintlichen Verständnis sichtbar.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Das Video ohne Pause mehrfach laufen lassen.",
+            "explanation": "A will die bloße Abspielzeit gerade nicht erhöhen.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Nur die Zahl angesehener Videos zählen.",
+            "explanation": "Die Zahl ist kein genannter Maßstab.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Alle Übungen durch das Beobachten des Mundes ersetzen.",
+            "explanation": "Eigene Aussprache und Wiedergabe bleiben nötig.",
+            "evidence": "reading-n2-24-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-24-q2",
+        "kind": "integrated",
+        "prompt": "Warum reicht laut Text B die Zeitangabe im Video nicht?",
+        "evidence": "reading-n2-24-p2",
+        "choices": [
+          {
+            "text": "Videos enthalten grundsätzlich keine Zeitangaben.",
+            "explanation": "B kritisiert nicht deren Fehlen, sondern ihre alleinige Anwendung.",
+            "evidence": "reading-n2-24-p2"
+          },
+          {
+            "text": "Topf und Hitze können abweichen; der Zustand der Zutaten muss geprüft werden.",
+            "explanation": "B verbindet unterschiedliche Bedingungen mit Beobachtung des Zustands.",
+            "evidence": "reading-n2-24-p2"
+          },
+          {
+            "text": "Jedes Gericht braucht exakt dieselbe Kochzeit.",
+            "explanation": "Unterschiedliche Ergebnisse unter verschiedenen Bedingungen widersprechen dem.",
+            "evidence": "reading-n2-24-p2"
+          },
+          {
+            "text": "Die eigene Küche darf nicht benutzt werden.",
+            "explanation": "B beschreibt gerade das tatsächliche Kochen.",
+            "evidence": "reading-n2-24-p2"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n2-24-q3",
+        "kind": "integrated",
+        "prompt": "Worin stimmen beide Texte überein?",
+        "evidence": "reading-n2-24-p1",
+        "choices": [
+          {
+            "text": "Videos sollten vollständig durch Bücher ersetzt werden.",
+            "explanation": "Beide nennen Vorteile der Videos.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Mehr Abspielzeit garantiert bessere Ergebnisse.",
+            "explanation": "A lehnt diesen Maßstab ab; B verlangt praktische Anpassung.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Videos sind nützlich, brauchen aber aktive Verarbeitung durch die Lernenden.",
+            "explanation": "A verlangt eigene Wiedergabe, B eigene Beobachtung und Anpassung.",
+            "evidence": "reading-n2-24-p1"
+          },
+          {
+            "text": "Die Lehrkraft im Video übernimmt jede Verständnisprüfung.",
+            "explanation": "A sagt, dass man dafür selbst sorgen muss.",
+            "evidence": "reading-n2-24-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n2-25",
+    "level": "N2",
+    "skill": "reading",
+    "order": 25,
+    "title": "Was eine gute Ausstellung ausmacht",
+    "objective": "Verwechsle unterschiedliche Schwerpunkte nicht mit einer vollständigen Gegnerschaft.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n2-25-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "展示室で説明文ばかり読んでいると、作品を見る時間がなくなる。私は、まず自分がどこに引かれるかを確かめ、その後で説明を読みたい。知識は見ることを助けるが、先に結論を渡されると、その結論に合う部分だけを探してしまう。よい展示には、説明のない時間を選べる{余地|よち}が必要だと思う。もちろん、作者名や制作年を隠すべきだと言うのではない。詳しい解説を一つの壁にまとめたり、希望する人が読める冊子にしたりすればよい。誰にでも同じ順番で理解を求めるのではなく、作品と向き合う入口を複数用意してほしい。初めて見る人にも、まず自分の感覚を試す機会があってよいはずだ。見た後で説明に戻り、自分の印象と比べられる配置なら、その両方を楽しめる。"
+      },
+      {
+        "id": "reading-n2-25-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "初めて見る作品の前で、自由に感じてくださいと言われても、何を見ればよいか分からない人はいる。展示する側は、見る{手がかり|てがかり}を用意する責任がある。ただし、唯一の正しい感想を教えるためではない。材料や当時の使われ方を知れば、形の意味が急に見えてくることがある。私は短い説明を作品のそばに置き、詳しい情報は別に選べる展示を評価する。説明が多いか少ないかだけで、展示のよしあしは決まらない。来場者が自分の疑問に合わせて情報を得られるかが大切だ。何も知らない人を置き去りにせず、知っている人の観察も妨げない工夫が求められる。"
+      }
+    ],
+    "translation": "Text A: Wer im Ausstellungsraum nur Erklärungstexte liest, hat keine Zeit mehr für die Werke. Ich möchte zuerst prüfen, was mich anzieht, und danach die Erklärung lesen. Wissen hilft beim Betrachten, aber eine vorab gelieferte Schlussfolgerung kann dazu führen, nur dazu passende Teile zu suchen. Eine gute Ausstellung sollte erlauben, Zeit ohne Erklärung zu wählen. Damit meine ich nicht, Namen und Entstehungsjahr zu verbergen. Ausführliche Erläuterungen könnten auf einer Wand oder in einem optionalen Heft stehen. Statt allen dieselbe Reihenfolge des Verstehens vorzuschreiben, sollte es mehrere Zugänge geben. Auch Neulinge dürfen zuerst ihre Wahrnehmung erproben. Eine Anordnung, in der man danach zur Erklärung zurückkehren und sie mit dem eigenen Eindruck vergleichen kann, erlaubt beides. Text B: Manche wissen vor einem unbekannten Werk auch nach der Aufforderung „Empfinden Sie frei“ nicht, worauf sie schauen sollen. Die Ausstellenden müssen Anhaltspunkte geben, jedoch keine einzig richtige Reaktion lehren. Wissen über Material und damalige Verwendung kann die Bedeutung der Form plötzlich erschließen. Ich schätze Ausstellungen mit kurzen Hinweisen am Werk und frei wählbaren weiterführenden Informationen. Viel oder wenig Text allein entscheidet nicht über die Qualität. Entscheidend ist, ob Besucher Informationen passend zu ihren Fragen erhalten können. Die Gestaltung soll Unwissende nicht zurücklassen und zugleich das Beobachten kundiger Besucher nicht behindern.",
+    "glossary": [
+      [
+        "手がかり（てがかり）",
+        "Anhaltspunkt"
+      ],
+      [
+        "余地（よち）",
+        "Spielraum"
+      ]
+    ],
+    "note": "Verwechsle unterschiedliche Schwerpunkte nicht mit einer vollständigen Gegnerschaft.",
+    "questions": [
+      {
+        "id": "reading-n2-25-q1",
+        "kind": "integrated",
+        "prompt": "Welches Risiko betont Text A?",
+        "evidence": "reading-n2-25-p1",
+        "choices": [
+          {
+            "text": "Fehlende Namensschilder machen jede Betrachtung unmöglich.",
+            "explanation": "A fordert gerade nicht, Namen zu verbergen.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Besucher lesen grundsätzlich keine Texte.",
+            "explanation": "Ausgangspunkt ist eher zu viel Lesen.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Alle Werke müssen chronologisch geordnet werden.",
+            "explanation": "Eine solche Forderung kommt nicht vor.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Eine vorgegebene Deutung kann die eigene Beobachtung verengen.",
+            "explanation": "Wer die Schlussfolgerung zuerst kennt, sucht womöglich nur passende Teile.",
+            "evidence": "reading-n2-25-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n2-25-q2",
+        "kind": "integrated",
+        "prompt": "Welche Aufgabe betont Text B?",
+        "evidence": "reading-n2-25-p2",
+        "choices": [
+          {
+            "text": "Auch unerfahrenen Besuchern Anhaltspunkte geben.",
+            "explanation": "B beschreibt Orientierung als Verantwortung der Ausstellung.",
+            "evidence": "reading-n2-25-p2"
+          },
+          {
+            "text": "Allen die einzig richtige Empfindung beibringen.",
+            "explanation": "Dieser Zweck wird ausdrücklich ausgeschlossen.",
+            "evidence": "reading-n2-25-p2"
+          },
+          {
+            "text": "Erklärungen ausschließlich für Fachleute bereitstellen.",
+            "explanation": "B will Unwissende gerade nicht zurücklassen.",
+            "evidence": "reading-n2-25-p2"
+          },
+          {
+            "text": "Informationen zu Material und Verwendung entfernen.",
+            "explanation": "B nennt deren Nutzen ausdrücklich.",
+            "evidence": "reading-n2-25-p2"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-25-q3",
+        "kind": "integrated",
+        "prompt": "Welche Gestaltung könnte beiden Positionen entsprechen?",
+        "evidence": "reading-n2-25-p1",
+        "choices": [
+          {
+            "text": "Eine verpflichtende lange Erklärung vor jedem Werk.",
+            "explanation": "Das widerspricht As Wahlfreiheit und Bs Anpassung an eigene Fragen.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Kurze Hinweise und frei wählbare Vertiefung mit Raum für eigene Betrachtung.",
+            "explanation": "A fordert wählbare Zugänge; B befürwortet kurze Hinweise und optionale Details.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Überhaupt keine Informationen für niemanden.",
+            "explanation": "Beide erkennen einen Nutzen von Wissen und Erklärungen an.",
+            "evidence": "reading-n2-25-p1"
+          },
+          {
+            "text": "Ein Rundgang, der nur eine richtige Deutung erlaubt.",
+            "explanation": "Beide wenden sich gegen einheitlich vorgegebene Schlussfolgerungen.",
+            "evidence": "reading-n2-25-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n2-26",
+    "level": "N2",
+    "skill": "reading",
+    "order": 26,
+    "title": "Zuschuss zur Weiterbildung",
+    "objective": "Prüfe erst die Förderfähigkeit und berechne dann den Zuschuss aus der richtigen Basis.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n2-26-p1",
+        "speaker": "",
+        "text": "さくら市就業者研修補助　申請案内\n市内在住で、申請時に{雇用契約|こようけいやく}のある方を対象とします。市外の勤務先でも構いません。自営業者と学生は対象外です。前年に本制度を利用した方は、今年度は申請できません。\n対象講座は、資格取得や現在の業務に関係する、合計二十時間以上の研修です。趣味を目的とする講座、勤務先が受講を義務づけた講座は除きます。オンラインでも、出席と修了を確認できるものは対象です。教材費、試験料、交通費は補助に含みません。\n補助額は受講料の半額、上限三万円です。勤務先から任意の補助を受ける場合は、その額を受講料から引いた残額を計算の基準とします。他の公的制度による補助との{併用|へいよう}はできません。\n受講開始の十四日前までに、申請書、講座案内、雇用を証明する書類をオンラインで提出してください。審査結果が届く前に受講料を払っても構いませんが、不{承認|しょうにん}の場合は補助されません。締切後の申請は、予算に余裕があっても受け付けません。\n講座修了後三十日以内に、修了証、領収書、勤務先の補助額が分かる書類を提出してください。勤務先の補助がない方は、その旨を申告してください。欠席などで修了できなかった場合は支給しません。申請時の予定と実際の受講料が異なる場合は、実際に払った額で再計算します。\n今年度の予算に達した時点で新規受付を終了します。受付状況は市のサイトに掲載します。申請を提出しただけでは予算枠は確保されません。{承認|しょうにん}通知を受け取った方の枠を確保します。転居や退職など、申請内容に変更があった場合は、速やかに担当窓口へ連絡してください。"
+      }
+    ],
+    "translation": "Weiterbildungszuschuss der Stadt Sakura. Berechtigt sind Einwohner mit Arbeitsvertrag zum Antragszeitpunkt; der Arbeitsplatz darf außerhalb liegen. Selbstständige und Studierende sind ausgeschlossen, ebenso Personen, die das Programm im Vorjahr nutzten. Förderfähig sind mindestens zwanzigstündige Kurse für Qualifikationen oder die aktuelle Arbeit. Hobbykurse und vom Arbeitgeber verpflichtend angeordnete Kurse sind ausgeschlossen. Onlinekurse sind zulässig, wenn Teilnahme und Abschluss überprüfbar sind. Lehrmittel, Prüfungen und Fahrtkosten werden nicht gefördert. Zuschuss: halbe Kursgebühr, höchstens 30.000 Yen. Freiwillige Arbeitgeberzuschüsse werden zuvor von der Gebühr abgezogen. Eine Kombination mit anderen öffentlichen Förderungen ist ausgeschlossen. Antrag, Kursbeschreibung und Beschäftigungsnachweis spätestens vierzehn Tage vor Beginn online einreichen. Zahlung vor dem Bescheid ist erlaubt, bei Ablehnung jedoch ohne Zuschuss. Verspätete Anträge werden auch bei freiem Budget nicht angenommen. Innerhalb von dreißig Tagen nach Abschluss sind Abschlussnachweis, Quittung und Nachweis über Arbeitgeberförderung einzureichen; ohne Arbeitgeberförderung ist dies anzugeben. Ohne Abschluss keine Auszahlung. Weicht die tatsächliche Gebühr ab, wird anhand der tatsächlichen Zahlung neu gerechnet. Bei ausgeschöpftem Jahresbudget endet die Annahme neuer Anträge; der Status steht auf der Website. Eine Einreichung allein reserviert kein Budget, erst die Bewilligung tut das. Änderungen wie Umzug oder Kündigung müssen umgehend gemeldet werden.",
+    "glossary": [
+      [
+        "雇用契約（こようけいやく）",
+        "Arbeitsvertrag"
+      ],
+      [
+        "併用（へいよう）",
+        "gleichzeitige Nutzung"
+      ],
+      [
+        "承認（しょうにん）",
+        "Bewilligung"
+      ]
+    ],
+    "note": "Prüfe erst die Förderfähigkeit und berechne dann den Zuschuss aus der richtigen Basis.",
+    "questions": [
+      {
+        "id": "reading-n2-26-q1",
+        "kind": "search",
+        "prompt": "Eine berechtigte Angestellte wählt freiwillig einen beruflichen 24-Stunden-Kurs für 80.000 Yen. Ihr Arbeitgeber zahlt 30.000 Yen. Wie hoch ist der städtische Zuschuss bei erfüllten übrigen Bedingungen?",
+        "evidence": "reading-n2-26-p1",
+        "choices": [
+          {
+            "text": "30.000 Yen.",
+            "explanation": "Die Obergrenze wird hier nicht erreicht, weil zuerst der Arbeitgeberzuschuss abgezogen wird.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "40.000 Yen.",
+            "explanation": "Das wäre die halbe volle Gebühr ohne Abzug und überdies über der Grenze.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "25.000 Yen.",
+            "explanation": "Die Basis ist 80.000 minus 30.000; die Hälfte von 50.000 beträgt 25.000 und liegt unter der Obergrenze.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "50.000 Yen.",
+            "explanation": "Das ist nur die Berechnungsbasis, nicht der Zuschuss.",
+            "evidence": "reading-n2-26-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n2-26-q2",
+        "kind": "search",
+        "prompt": "Welche Aussage über den Antrag ist richtig?",
+        "evidence": "reading-n2-26-p1",
+        "choices": [
+          {
+            "text": "Ein verspäteter Antrag ist bei freiem Budget zulässig.",
+            "explanation": "Die Anleitung schließt diese Ausnahme ausdrücklich aus.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "Die Einreichung garantiert bereits die Auszahlung.",
+            "explanation": "Es braucht Bewilligung und später den nachgewiesenen Abschluss.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "Ein verpflichtender Arbeitgeberkurs ist bei genügend Stunden immer förderfähig.",
+            "explanation": "Verpflichtend angeordnete Kurse sind unabhängig von der Dauer ausgeschlossen.",
+            "evidence": "reading-n2-26-p1"
+          },
+          {
+            "text": "Er muss spätestens vierzehn Tage vor Beginn eingehen; Budget wird erst nach Bewilligung reserviert.",
+            "explanation": "Frist und Reservierungsregel stehen in getrennten Abschnitten.",
+            "evidence": "reading-n2-26-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n2-27",
+    "level": "N2",
+    "skill": "reading",
+    "order": 27,
+    "title": "Versand mit knapper Frist",
+    "objective": "Prüfe Annahmefrist, Größe, Gewicht und spätesten Zustelltermin gemeinsam.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n2-27-p1",
+        "speaker": "",
+        "text": "国内発送サービス比較　東都営業所\n以下は本州の通常配達地域向けの案内です。離島、山間部、一部遠隔地には適用されません。受付時に宛先の郵便番号を確認し、対象地域かお知らせします。天候や交通障害がある場合は、保証付きのサービスでも指定時刻を守れないことがあります。\n標準便：平日十七時までの受付で翌々日配達。三辺の合計百二十センチ以内、重さ十キロ以内。千円。土曜受付分は月曜発送、木曜受付分は土曜配達です。配達時刻は指定できません。\n翌日便：平日十五時までの受付で翌日十八時までに配達。三辺の合計百センチ以内、重さ五キロ以内。千八百円。十五時を過ぎた荷物は{翌営業日|よくえいぎょうび}発送となり、その翌日に届きます。土曜、日曜、祝日は受付・発送を行いません。\n午前保証便：平日十二時までの受付で翌日正午までに配達。三辺の合計八十センチ以内、重さ二キロ以内。二千五百円。金曜受付分も土曜正午までに配達します。対象地域であれば、書類以外の品物も送れます。通常の事情で指定時刻に遅れた場合、送料を返金します。品物の代金を補償する制度ではありません。\nすべてのサービスで、危険物、冷蔵が必要な食品、現金は送れません。割れやすい品物は、発送者が{緩衝材|かんしょうざい}を入れてください。梱包用品は窓口で別料金で販売しています。\n{集荷|しゅうか}を希望する場合は、前営業日の十六時までに予約してください。当日の電話では{集荷|しゅうか}できません。{集荷|しゅうか}予約の時点で発送を受け付けたことにはならず、荷物が営業所に到着した時刻によって利用できる便が決まります。急ぐ場合は窓口への持参をお勧めします。"
+      }
+    ],
+    "translation": "Inlandsversand, Geschäftsstelle Toto. Die Angaben gelten für reguläre Zustellgebiete auf Honshu, nicht für Inseln, Bergregionen und einige entfernte Gebiete. Bei Annahme wird anhand der Postleitzahl geprüft, ob das Ziel dazugehört. Bei Wetter- oder Verkehrsstörungen können auch garantierte Termine verfehlt werden. Standard: Annahme werktags bis 17 Uhr, Zustellung übermorgen; Summe der drei Seiten höchstens 120 cm, maximal 10 kg, 1000 Yen. Samstags angenommene Sendungen werden montags verschickt; donnerstags angenommene samstags zugestellt. Keine Uhrzeitwahl. Folgetag: Annahme werktags bis 15 Uhr, Zustellung am nächsten Tag bis 18 Uhr; höchstens 100 cm und 5 kg, 1800 Yen. Nach 15 Uhr Versand am nächsten Geschäftstag und Zustellung an dessen Folgetag. Samstags, sonntags und feiertags keine Annahme und kein Versand. Vormittagsgarantie: Annahme werktags bis 12 Uhr, Zustellung am nächsten Tag bis mittags; höchstens 80 cm und 2 kg, 2500 Yen. Freitags angenommene Sendungen erreichen das Ziel auch samstags bis mittags. In zulässigen Gebieten dürfen neben Dokumenten auch Gegenstände versandt werden. Bei gewöhnlich verursachter Verspätung wird das Porto erstattet, nicht der Warenwert. Für alle Dienste ausgeschlossen sind Gefahrgut, kühlpflichtige Lebensmittel und Bargeld. Zerbrechliches muss der Absender polstern; Verpackungsmaterial kostet am Schalter extra. Abholung ist bis 16 Uhr am vorangehenden Geschäftstag zu buchen; Anrufe am selben Tag genügen nicht. Die Abholbuchung zählt noch nicht als Versandannahme: Die Ankunft des Pakets in der Geschäftsstelle bestimmt den Dienst. Eilige Sendungen sollten persönlich gebracht werden.",
+    "glossary": [
+      [
+        "緩衝材（かんしょうざい）",
+        "Polstermaterial"
+      ],
+      [
+        "集荷（しゅうか）",
+        "Abholung einer Sendung"
+      ],
+      [
+        "翌営業日（よくえいぎょうび）",
+        "nächster Geschäftstag"
+      ]
+    ],
+    "note": "Prüfe Annahmefrist, Größe, Gewicht und spätesten Zustelltermin gemeinsam.",
+    "questions": [
+      {
+        "id": "reading-n2-27-q1",
+        "kind": "search",
+        "prompt": "Ein zulässiges Paket von 1,5 kg und 75 cm Gesamtmaß kommt Freitag um 11:30 Uhr am Schalter an. Es muss Samstag vor 13 Uhr an ein bestätigtes reguläres Ziel geliefert werden. Welcher Dienst passt ohne Störung?",
+        "evidence": "reading-n2-27-p1",
+        "choices": [
+          {
+            "text": "Vormittagsgarantie für 2500 Yen.",
+            "explanation": "Frist und Maße passen; dieser Dienst liefert auch nach Freitagsannahme bis Samstagmittag.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Standard für 1000 Yen.",
+            "explanation": "Bei Freitagsannahme ist die Zustellung erst übermorgen vorgesehen.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Folgetag für 1800 Yen.",
+            "explanation": "Dieser Dienst sichert nur Samstag bis 18 Uhr, also nicht die erforderliche Zeit.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Keiner, weil samstags grundsätzlich nicht zugestellt wird.",
+            "explanation": "Die Vormittagsgarantie nennt ausdrücklich die Samstagszustellung.",
+            "evidence": "reading-n2-27-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n2-27-q2",
+        "kind": "search",
+        "prompt": "Was gilt bei einer am Donnerstag gebuchten Abholung für Freitag?",
+        "evidence": "reading-n2-27-p1",
+        "choices": [
+          {
+            "text": "Die Donnerstagbuchung gilt automatisch als Versandannahme am Donnerstag.",
+            "explanation": "Das wird ausdrücklich ausgeschlossen.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Die Ankunft in der Geschäftsstelle entscheidet, welcher Dienst am Freitag noch möglich ist.",
+            "explanation": "Die Buchung reserviert keinen Annahmezeitpunkt für den Versand.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Die Vormittagsgarantie erstattet bei Verspätung immer den Warenwert.",
+            "explanation": "Sie erstattet unter den genannten Bedingungen nur das Porto.",
+            "evidence": "reading-n2-27-p1"
+          },
+          {
+            "text": "Bei Buchung darf auch kühlpflichtiges Essen versandt werden.",
+            "explanation": "Das Verbot gilt für alle Dienste, unabhängig von der Abholung.",
+            "evidence": "reading-n2-27-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
   },
   {
     "id": "reading-n1-1",
@@ -17846,5 +21962,1129 @@ window.COMPREHENSION_UNITS = [
       "synthetic": true,
       "revision": "native16-v3"
     }
+  },
+  {
+    "id": "reading-n1-18",
+    "level": "N1",
+    "skill": "reading",
+    "order": 18,
+    "title": "Eine Zusage mit Einschränkung",
+    "objective": "Unterscheide grundsätzliche Bereitschaft, Voraussetzung und verbindliche Zusage.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n1-18-p1",
+        "speaker": "",
+        "text": "共同研究への参加について、基本的にはお引き受けする{意向|いこう}です。ただし、現在の担当業務を予定どおりに引き継げることが前提となります。この点を未確認のまま、私の参加を{既定|きてい}のものとして対外的に告知することはお控えください。条件を付すのは研究の意義を疑っているからではなく、十分な時間を割けないまま名だけを連ねる事態を避けたいからです。引き継ぎの見通しが立ち次第、正式なお返事を差し上げます。"
+      }
+    ],
+    "translation": "Grundsätzlich beabsichtige ich, an der gemeinsamen Forschung teilzunehmen. Voraussetzung ist jedoch, dass ich meine derzeitigen Aufgaben wie geplant übergeben kann. Bitte kündigen Sie meine Teilnahme nicht als feststehend nach außen an, solange das ungeklärt ist. Ich stelle diese Bedingung nicht, weil ich den Wert der Forschung bezweifle, sondern weil ich vermeiden möchte, ohne ausreichende Zeit nur meinen Namen beizusteuern. Sobald die Übergabe absehbar ist, gebe ich Ihnen eine verbindliche Antwort.",
+    "glossary": [
+      [
+        "既定（きてい）",
+        "bereits feststehend"
+      ],
+      [
+        "意向（いこう）",
+        "Absicht"
+      ]
+    ],
+    "note": "Unterscheide grundsätzliche Bereitschaft, Voraussetzung und verbindliche Zusage.",
+    "questions": [
+      {
+        "id": "reading-n1-18-q1",
+        "kind": "detail",
+        "prompt": "Wie ist die Antwort zu verstehen?",
+        "evidence": "reading-n1-18-p1",
+        "choices": [
+          {
+            "text": "Die Teilnahme ist endgültig bestätigt und kann sofort angekündigt werden.",
+            "explanation": "Gerade eine solche Ankündigung soll unterbleiben.",
+            "evidence": "reading-n1-18-p1"
+          },
+          {
+            "text": "Die Person lehnt wegen wissenschaftlicher Zweifel ab.",
+            "explanation": "Diesen Grund weist sie ausdrücklich zurück.",
+            "evidence": "reading-n1-18-p1"
+          },
+          {
+            "text": "Teilnahmebereitschaft besteht, eine öffentliche Zusage setzt aber die geklärte Aufgabenübergabe voraus.",
+            "explanation": "Die Person nennt eine positive Absicht und eine noch offene Voraussetzung.",
+            "evidence": "reading-n1-18-p1"
+          },
+          {
+            "text": "Es wird lediglich eine Namensnennung ohne Mitarbeit angeboten.",
+            "explanation": "Genau eine bloß nominelle Teilnahme soll vermieden werden.",
+            "evidence": "reading-n1-18-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n1-19",
+    "level": "N1",
+    "skill": "reading",
+    "order": 19,
+    "title": "Eine öffentliche Aussage präzisieren",
+    "objective": "Bestimme die positive Forderung zwischen den ausdrücklich ausgeschlossenen Deutungen.",
+    "minutes": 5,
+    "introduction": "Ein kurzer Text mit einer Frage. Kläre die Situation und suche den konkreten Beleg für deine Antwort.",
+    "passages": [
+      {
+        "id": "reading-n1-19-p1",
+        "speaker": "",
+        "text": "先日の発言で「現行制度では救えない人がいる」と述べたのは、制度そのものを廃止すべきだという趣旨ではありません。制度が一定の役割を果たしているからこそ、その適用からこぼれる事例を検討する必要があると考えています。また、個別の事例を重視することは、すべてを例外扱いにすることとも異なります。私が求めているのは、運用者の善意に委ねる{救済|きゅうさい}ではなく、{適用範囲|てきようはんい}と判断の根拠を検証できる仕組みです。"
+      }
+    ],
+    "translation": "Meine jüngste Aussage „Das bestehende System hilft manchen Menschen nicht“ bedeutete nicht, dass das System selbst abgeschafft werden soll. Gerade weil es eine gewisse Funktion erfüllt, müssen Fälle geprüft werden, die aus seinem Anwendungsbereich herausfallen. Einzelfälle ernst zu nehmen heißt außerdem nicht, alles als Ausnahme zu behandeln. Ich fordere keine Hilfe, die dem guten Willen der Verantwortlichen überlassen bleibt, sondern ein Verfahren, mit dem sich Anwendungsbereich und Entscheidungsgrundlagen überprüfen lassen.",
+    "glossary": [
+      [
+        "救済（きゅうさい）",
+        "Abhilfe; Unterstützung"
+      ],
+      [
+        "適用範囲（てきようはんい）",
+        "Anwendungsbereich"
+      ]
+    ],
+    "note": "Bestimme die positive Forderung zwischen den ausdrücklich ausgeschlossenen Deutungen.",
+    "questions": [
+      {
+        "id": "reading-n1-19-q1",
+        "kind": "detail",
+        "prompt": "Was fordert die Person?",
+        "evidence": "reading-n1-19-p1",
+        "choices": [
+          {
+            "text": "Die sofortige Abschaffung jeder bestehenden Regelung.",
+            "explanation": "Diese Auslegung wird zu Beginn ausdrücklich verneint.",
+            "evidence": "reading-n1-19-p1"
+          },
+          {
+            "text": "Unterstützung allein nach persönlichem Wohlwollen.",
+            "explanation": "救済を善意に委ねる ist gerade die abgelehnte Alternative.",
+            "evidence": "reading-n1-19-p1"
+          },
+          {
+            "text": "Jeden Einzelfall pauschal zur Ausnahme zu erklären.",
+            "explanation": "Das unterscheidet die Person ausdrücklich von der Beachtung einzelner Fälle.",
+            "evidence": "reading-n1-19-p1"
+          },
+          {
+            "text": "Nachprüfbare Regeln für Anwendungsbereich und Entscheidungsgründe.",
+            "explanation": "検証できる仕組み bezeichnet das gewünschte Verfahren.",
+            "evidence": "reading-n1-19-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "short"
+  },
+  {
+    "id": "reading-n1-20",
+    "level": "N1",
+    "skill": "reading",
+    "order": 20,
+    "title": "Höflichkeit und Distanz",
+    "objective": "Prüfe sprachliche Form und Wirkung im konkreten Verhältnis getrennt.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-20-p1",
+        "speaker": "",
+        "text": "丁寧な言葉遣いは、相手との距離を縮めるとは限らない。長く付き合ってきた同僚から、急に形式の整った依頼文が届くと、私はむしろ何かあったのかと身構える。言葉だけを見れば以前より丁寧なのに、関係の変化を感じ取ってしまうのである。だからといって、親しい相手には丁寧さが不要だということではない。ここで問題にしたいのは、表現の丁寧さを、そのまま{配慮|はいりょ}の大きさに置き換える見方だ。相手が困っているときに、整った挨拶を重ねながら肝心の返答を避ければ、礼儀正しさは距離を保つ装置にもなる。一方、短い言葉で具体的に助ける申し出が、十分な敬意を伝える場合もある。もちろん、言葉を省けば誠実になるわけでもない。互いに共有している状況が少なければ、説明を省くことは相手に推測の負担を押しつける。結局、丁寧さは言葉の形だけで測れず、その言葉が相手に何を可能にし、何を残してしまうかとともに考えるべきなのだろう。私たちはしばしば、失礼でないことを確認したところで安心してしまう。しかし、失礼を避けるための形式を満たすことと、相手に応答することとの間には、なお{隔たり|へだたり}がある。"
+      }
+    ],
+    "translation": "Höfliche Sprache verringert den Abstand zum Gegenüber nicht unbedingt. Wenn ein langjähriger Kollege plötzlich eine streng formale Bitte schickt, werde ich eher vorsichtig und frage mich, ob etwas vorgefallen ist. Die Worte sind höflicher als früher, doch ich spüre eine Veränderung der Beziehung. Das heißt nicht, dass man gegenüber vertrauten Menschen keine Höflichkeit braucht. Ich hinterfrage vielmehr, ob man die Höflichkeit einer Formulierung einfach mit dem Ausmaß der Rücksicht gleichsetzen kann. Wer bei Problemen des anderen formelle Grüße häuft und die eigentliche Antwort vermeidet, kann Höflichkeit auch als Mittel der Distanz verwenden. Ein knappes, konkretes Hilfsangebot kann dagegen viel Respekt vermitteln. Aber Kürze macht nicht automatisch aufrichtig. Bei wenig gemeinsamem Situationswissen zwingt ausgelassene Erklärung den anderen zum Raten. Höflichkeit lässt sich also nicht nur an der sprachlichen Form messen: Man muss auch fragen, was die Worte dem Gegenüber ermöglichen und was sie offenlassen. Oft sind wir schon beruhigt, sobald wir sicher sind, nicht unhöflich gewesen zu sein. Doch zwischen der Erfüllung der Formen zur Vermeidung von Unhöflichkeit und einer wirklichen Antwort auf den anderen bleibt ein Abstand.",
+    "glossary": [
+      [
+        "配慮（はいりょ）",
+        "Rücksicht"
+      ],
+      [
+        "隔たり（へだたり）",
+        "Abstand; Kluft"
+      ]
+    ],
+    "note": "Prüfe sprachliche Form und Wirkung im konkreten Verhältnis getrennt.",
+    "questions": [
+      {
+        "id": "reading-n1-20-q1",
+        "kind": "global",
+        "prompt": "Welche Funktion hat das Beispiel des langjährigen Kollegen?",
+        "evidence": "reading-n1-20-p1",
+        "choices": [
+          {
+            "text": "Es zeigt, dass formal höflichere Sprache als größere Distanz erlebt werden kann.",
+            "explanation": "Die abrupte Änderung lässt die Person eine veränderte Beziehung vermuten.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Es beweist, dass formale Bitten immer feindlich gemeint sind.",
+            "explanation": "Beschrieben wird ein situationsgebundener Eindruck, keine allgemeine Absicht.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Es fordert, unter Kollegen nur informell zu sprechen.",
+            "explanation": "Die Notwendigkeit von Höflichkeit unter Vertrauten wird nicht bestritten.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Es zeigt, dass die Person den Inhalt jeder Bitte ignoriert.",
+            "explanation": "Eine generelle Missachtung wird nicht behauptet.",
+            "evidence": "reading-n1-20-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-20-q2",
+        "kind": "detail",
+        "prompt": "Wann kann Kürze problematisch sein?",
+        "evidence": "reading-n1-20-p1",
+        "choices": [
+          {
+            "text": "Sobald die Personen miteinander vertraut sind.",
+            "explanation": "Gerade die gemeinsame Situation beeinflusst, wie viel Erklärung nötig ist.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Wenn wenig gemeinsames Situationswissen besteht und der andere deshalb viel erraten muss.",
+            "explanation": "Der Text nennt 推測の負担 als Folge ausgelassener Erklärung.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Nur wenn die Grammatik falsch ist.",
+            "explanation": "Grammatische Fehler sind nicht das besprochene Problem.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Wenn konkrete Hilfe angeboten wird.",
+            "explanation": "Ein kurzes Hilfsangebot kann ausdrücklich respektvoll sein.",
+            "evidence": "reading-n1-20-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-20-q3",
+        "kind": "inference",
+        "prompt": "Welchen Maßstab schlägt der Text für Höflichkeit vor?",
+        "evidence": "reading-n1-20-p1",
+        "choices": [
+          {
+            "text": "Ausschließlich die Länge der Begrüßung zählen.",
+            "explanation": "Formen allein genügen der Person nicht.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Jede formale Sprache durch möglichst wenige Wörter ersetzen.",
+            "explanation": "Auch Kürze wird ausdrücklich relativiert.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Auch berücksichtigen, was die Worte für das Gegenüber leisten oder offenlassen.",
+            "explanation": "Diese Wirkung ergänzt die reine sprachliche Form.",
+            "evidence": "reading-n1-20-p1"
+          },
+          {
+            "text": "Nur prüfen, ob eine Formulierung nicht beleidigend ist.",
+            "explanation": "Der letzte Absatz beschreibt gerade die Unzulänglichkeit dieses Mindestmaßes.",
+            "evidence": "reading-n1-20-p1"
+          }
+        ],
+        "answer": 2
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n1-21",
+    "level": "N1",
+    "skill": "reading",
+    "order": 21,
+    "title": "Die Wirkung einer Metapher",
+    "objective": "Prüfe bei jedem Bild sowohl die hervorgehobenen als auch die verdeckten Aspekte.",
+    "minutes": 12,
+    "introduction": "Lies den zusammenhängenden Text. Verfolge Gründe, Bezüge und die Hauptaussage, bevor du die drei Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-21-p1",
+        "speaker": "",
+        "text": "議論を「戦い」と呼ぶとき、私たちは単に分かりやすい言葉を選んでいるのではない。勝敗をつけること、相手の弱点を突くことが、議論の自然な目的であるかのように見えてくる。異なる意見から考えを修正する行為は、そこで敗北と受け取られかねない。{比喩|ひゆ}は対象の一部を照らす一方で、別の部分を見えにくくするのである。では、議論を「共同作業」と呼べば問題は解消するのか。そうとも言えない。その言葉の下では、実際に存在する{利害|りがい}の対立が、単なる協力不足として片づけられる恐れがある。争いを和らげる表現が、声を上げる必要のある人に沈黙を求めることもあり得る。私は{比喩|ひゆ}を使わずに話せと言いたいのではない。複雑な事柄を考えるうえで、{比喩|ひゆ}は避けがたく、しばしば有効だ。ただ、一つの{比喩|ひゆ}が説明そのものになってしまうと、それに収まらない経験は例外として追いやられる。言葉を選ぶ際には、その言葉が何を強調するかだけでなく、何を言いにくくするかを問いたい。同じ対象を別の{比喩|ひゆ}でも捉えてみることは、表現を飾るためではなく、最初の見方の限界を確かめるために役立つ。"
+      }
+    ],
+    "translation": "Wenn wir eine Diskussion „Kampf“ nennen, wählen wir nicht bloß ein verständliches Wort. Sieg und Niederlage sowie das Treffen gegnerischer Schwächen erscheinen dadurch als natürlicher Zweck der Diskussion. Die eigene Sicht aufgrund anderer Meinungen zu ändern könnte als Niederlage gelten. Eine Metapher beleuchtet einen Teil und verdeckt andere. Löst die Bezeichnung „gemeinsame Arbeit“ das Problem? Nicht unbedingt. Unter ihr könnten reale Interessenkonflikte als bloß mangelnde Zusammenarbeit abgetan werden. Eine konfliktmildernde Formulierung kann Menschen, die ihre Stimme erheben müssen, sogar zum Schweigen drängen. Ich fordere kein Sprechen ohne Metaphern. Beim Nachdenken über Komplexes sind sie kaum vermeidbar und oft hilfreich. Wird jedoch eine einzige Metapher zur Erklärung selbst, werden nicht passende Erfahrungen als Ausnahmen verdrängt. Bei der Wortwahl möchte ich nicht nur fragen, was ein Wort betont, sondern auch, was es schwer sagbar macht. Ein Gegenstand lässt sich versuchsweise mit einer anderen Metapher betrachten: Das dient nicht dem sprachlichen Schmuck, sondern der Prüfung der Grenzen des ersten Blickwinkels.",
+    "glossary": [
+      [
+        "比喩（ひゆ）",
+        "Metapher"
+      ],
+      [
+        "利害（りがい）",
+        "Interessen; Vor- und Nachteile"
+      ]
+    ],
+    "note": "Prüfe bei jedem Bild sowohl die hervorgehobenen als auch die verdeckten Aspekte.",
+    "questions": [
+      {
+        "id": "reading-n1-21-q1",
+        "kind": "global",
+        "prompt": "Welches Risiko birgt das Bild der Diskussion als Kampf?",
+        "evidence": "reading-n1-21-p1",
+        "choices": [
+          {
+            "text": "Unterschiede zwischen Meinungen verschwinden völlig.",
+            "explanation": "Das Kampfbild hebt Gegnerschaft eher hervor.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Jede Diskussion muss tatsächlich körperlich werden.",
+            "explanation": "Es geht um Deutungen, nicht um wörtliche körperliche Kämpfe.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Die Beteiligten arbeiten automatisch zusammen.",
+            "explanation": "Dieses Bild wird erst als andere Metapher geprüft.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Die Revision der eigenen Meinung kann als Niederlage erscheinen.",
+            "explanation": "Der erste Absatz verbindet das Kampfbild mit Sieg und Niederlage.",
+            "evidence": "reading-n1-21-p1"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-21-q2",
+        "kind": "detail",
+        "prompt": "Warum löst „gemeinsame Arbeit“ nicht alle Probleme?",
+        "evidence": "reading-n1-21-p1",
+        "choices": [
+          {
+            "text": "Reale Interessenkonflikte können dadurch verharmlost werden.",
+            "explanation": "Der Text nennt das Abtun von Konflikten als Kooperationsmangel.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Es ist grammatisch kein korrektes Japanisch.",
+            "explanation": "Sprachliche Korrektheit wird nicht kritisiert.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Es enthält gar keine Vorstellung von Zusammenarbeit.",
+            "explanation": "Gerade diese Vorstellung kann andere Aspekte verdecken.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Es zwingt dazu, ausschließlich über Siege zu reden.",
+            "explanation": "Sieg und Niederlage gehören zum Kampfbild.",
+            "evidence": "reading-n1-21-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-21-q3",
+        "kind": "inference",
+        "prompt": "Wozu dient das Ausprobieren einer zweiten Metapher?",
+        "evidence": "reading-n1-21-p1",
+        "choices": [
+          {
+            "text": "Um jede Metapher aus der Sprache zu entfernen.",
+            "explanation": "Die Person erkennt ihre Unvermeidbarkeit und ihren Nutzen an.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Um die Begrenztheit der ersten Perspektive sichtbar zu machen.",
+            "explanation": "Der letzte Satz nennt die Prüfung der Grenzen als Zweck.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Um einen Text ausschließlich schöner zu schmücken.",
+            "explanation": "Dieser Zweck wird ausdrücklich verneint.",
+            "evidence": "reading-n1-21-p1"
+          },
+          {
+            "text": "Um alle nicht passenden Erfahrungen zu ignorieren.",
+            "explanation": "Gerade deren Verdrängung ist das kritisierte Risiko.",
+            "evidence": "reading-n1-21-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "medium"
+  },
+  {
+    "id": "reading-n1-22",
+    "level": "N1",
+    "skill": "reading",
+    "order": 22,
+    "title": "Eine mehrdeutige Erinnerung",
+    "objective": "Halte gesicherten Anlass, mögliche Gefühle und die heutige Bedeutung der Erinnerung auseinander.",
+    "minutes": 20,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-22-p1",
+        "speaker": "",
+        "text": "祖父が駅まで見送ってくれた日のことを、私は長い間、別れを惜しむ場面として覚えていた。列車が動き出すまで、祖父はホームの端に立っていた。手を振ったかどうかは思い出せないが、背中が小さく見えたことだけは確かだと思っていた。先日、その話を姉にすると、祖父は当時、駅の近くにある診療所へ通っており、あの日も診察の前に私を送ったのだろうと言った。祖父にとっては別れのためだけの外出ではなかったかもしれない。その一言で、記憶の中のホームが少し違って見えた。私が遠ざかるのを見ていた姿と、次の用事に向かうまでの時間を過ごしていた姿は、同じ姿でもあり得る。"
+      },
+      {
+        "id": "reading-n1-22-p2",
+        "speaker": "",
+        "text": "だからといって、長年の思い出が偽物になったとは思わない。祖父が何を感じていたかは、診療所へ行く予定があったという事実だけでは決まらない。見送りを大切に思いながら、診察の時間を気にしていた可能性もある。むしろ私は、自分の旅立ちを中心に場面を組み立て、祖父にも私と同じ重みでその瞬間を受け止めていてほしかったのではないか、と考えるようになった。小さく見えた背中さえ、実際の大きさを覚えているのか、後から寂しさに形を与えたのか分からない。そう書くと、記憶は頼りにならないと言っているように見えるだろう。しかし、{細部|さいぶ}の確かさを疑うことは、その経験が今の自分に持つ意味まで消すことではない。私はあの日を思い出すたび、誰かに送られて出発できたことをありがたく感じている。"
+      },
+      {
+        "id": "reading-n1-22-p3",
+        "speaker": "",
+        "text": "思い出を人に語るとき、私たちは話が通じるように、いくつもの事情から一つの{筋|すじ}を選ぶ。その{筋|すじ}が繰り返されると、選ばれなかった事情は存在しなかったかのようになる。姉の話は、私の{筋|すじ}を壊したというより、そこから外れていた時間を戻したのだろう。祖父には、私を見送る時間の前にも後にも、私の知らない生活が続いていた。私は今、その続きがあることを含めて、駅の場面を覚えておきたい。祖父の本当の気持ちを一つに{確定|かくてい}するためではなく、私にとって大切な場面が、祖父の一日のすべてではなかったと忘れないために。記憶を守るとは、最初の語り方を変えずに保存することだけではない。他人の言葉によって、その周りにあったものを想像し直すことも、記憶を大切にする一つの仕方なのだと思う。"
+      }
+    ],
+    "translation": "Lange erinnerte ich mich an den Tag, an dem mein Großvater mich zum Bahnhof brachte, als Szene des schmerzlichen Abschieds. Bis der Zug losfuhr, stand er am Ende des Bahnsteigs. Ob er winkte, weiß ich nicht mehr; sicher schien mir nur, dass sein Rücken klein wirkte. Als ich kürzlich meiner Schwester davon erzählte, sagte sie, er sei damals regelmäßig in eine Praxis nahe dem Bahnhof gegangen und habe mich wohl auch an jenem Tag vor seinem Arzttermin begleitet. Vielleicht war der Abschied für ihn nicht der einzige Grund hinauszugehen. Dadurch sah der Bahnsteig in meiner Erinnerung etwas anders aus. Jemand, der meinem Fortfahren nachschaut, und jemand, der die Zeit bis zum nächsten Termin verbringt, können äußerlich dieselbe Person sein. Trotzdem halte ich die langjährige Erinnerung nicht für gefälscht. Seine Gefühle ergeben sich nicht allein aus dem geplanten Praxisbesuch. Vielleicht bedeutete ihm der Abschied viel, während er zugleich auf die Zeit achtete. Eher frage ich mich jetzt, ob ich die Szene um meinen eigenen Aufbruch geordnet hatte und wollte, dass sie für ihn dasselbe Gewicht hatte wie für mich. Selbst beim klein wirkenden Rücken weiß ich nicht, ob ich die tatsächliche Größe erinnere oder später meiner Traurigkeit eine Form gegeben habe. Das könnte klingen, als erklärte ich Erinnerungen für unzuverlässig. Aber Zweifel an Details löschen nicht die Bedeutung der Erfahrung für mein heutiges Ich. Jedes Erinnern macht mich dankbar dafür, dass jemand mich zum Abschied begleitet hat. Beim Erzählen wählen wir aus vielen Umständen einen Handlungsfaden, damit andere uns verstehen. Wird er oft wiederholt, wirken die nicht gewählten Umstände irgendwann, als hätten sie nie existiert. Die Worte meiner Schwester haben meinen Faden vielleicht nicht zerstört, sondern die ausgelassene Zeit wieder hineingeholt. Vor und nach meinem Abschied ging das mir unbekannte Leben meines Großvaters weiter. Diesen Zusammenhang möchte ich heute mit erinnern. Ich will seine wirklichen Gefühle nicht eindeutig festlegen, sondern daran denken, dass die für mich wichtige Szene nicht sein ganzer Tag war. Erinnerungen zu bewahren bedeutet nicht nur, die erste Erzählweise unverändert aufzubewahren. Durch Worte anderer ihr Umfeld neu zu imaginieren kann ebenfalls eine Form sein, sie wertzuschätzen.",
+    "glossary": [
+      [
+        "筋（すじ）",
+        "hier: erzählerischer Zusammenhang"
+      ],
+      [
+        "確定（かくてい）",
+        "eindeutige Festlegung"
+      ],
+      [
+        "細部（さいぶ）",
+        "Einzelheiten"
+      ]
+    ],
+    "note": "Halte gesicherten Anlass, mögliche Gefühle und die heutige Bedeutung der Erinnerung auseinander.",
+    "questions": [
+      {
+        "id": "reading-n1-22-q1",
+        "kind": "global",
+        "prompt": "Was verändert die Mitteilung der Schwester?",
+        "evidence": "reading-n1-22-p1",
+        "choices": [
+          {
+            "text": "Sie beweist, dass der Großvater gar nicht am Bahnhof war.",
+            "explanation": "Seine Anwesenheit wird nicht bestritten.",
+            "evidence": "reading-n1-22-p1"
+          },
+          {
+            "text": "Sie legt die Gefühle des Großvaters eindeutig fest.",
+            "explanation": "Der Text sagt, dass der Praxisbesuch Gefühle nicht festlegt.",
+            "evidence": "reading-n1-22-p1"
+          },
+          {
+            "text": "Sie ergänzt einen möglichen weiteren Zusammenhang für das Verhalten des Großvaters.",
+            "explanation": "Der Praxisbesuch eröffnet eine zusätzliche Deutung derselben Szene.",
+            "evidence": "reading-n1-22-p1"
+          },
+          {
+            "text": "Sie beseitigt jede Bedeutung des Abschieds.",
+            "explanation": "Die Dankbarkeit für die Begleitung bleibt bestehen.",
+            "evidence": "reading-n1-22-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-22-q2",
+        "kind": "detail",
+        "prompt": "Warum wird auch die Erinnerung an den kleinen Rücken hinterfragt?",
+        "evidence": "reading-n1-22-p2",
+        "choices": [
+          {
+            "text": "Die Schwester besitzt ein Foto mit einer anderen Person.",
+            "explanation": "Ein solches Foto kommt nicht vor.",
+            "evidence": "reading-n1-22-p2"
+          },
+          {
+            "text": "Der Großvater war nachweislich riesig.",
+            "explanation": "Seine tatsächliche Körpergröße wird nicht genannt.",
+            "evidence": "reading-n1-22-p2"
+          },
+          {
+            "text": "Die Person möchte absichtlich eine dramatische Lüge erzählen.",
+            "explanation": "Sie reflektiert Unsicherheit, ohne absichtliche Täuschung zu behaupten.",
+            "evidence": "reading-n1-22-p2"
+          },
+          {
+            "text": "Vielleicht hat spätere Traurigkeit die erinnerte Form mitgeprägt.",
+            "explanation": "Die Person unterscheidet tatsächliche Größe und nachträgliche Gefühlsform.",
+            "evidence": "reading-n1-22-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-22-q3",
+        "kind": "inference",
+        "prompt": "Welche Wirkung kann das wiederholte Erzählen eines einzigen Fadens haben?",
+        "evidence": "reading-n1-22-p3",
+        "choices": [
+          {
+            "text": "Andere Umstände erscheinen, als hätten sie nicht existiert.",
+            "explanation": "Der Text beschreibt die Verdrängung der nicht gewählten Zusammenhänge.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Alle Einzelheiten werden automatisch objektiv bestätigt.",
+            "explanation": "Wiederholung bestätigt keine Tatsachen.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Man erinnert sich zwangsläufig an das ganze Leben der anderen Person.",
+            "explanation": "Gerade deren weitere Lebenszusammenhänge können fehlen.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Das Erzählen wird vollständig unmöglich.",
+            "explanation": "Es ermöglicht Verständlichkeit, hat aber Grenzen.",
+            "evidence": "reading-n1-22-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-22-q4",
+        "kind": "inference",
+        "prompt": "Wie möchte die Person die Erinnerung künftig bewahren?",
+        "evidence": "reading-n1-22-p3",
+        "choices": [
+          {
+            "text": "Indem sie die erste Version gegen jede Ergänzung abschirmt.",
+            "explanation": "Auch eine veränderte Deutung gilt ihr als Wertschätzung.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Als bedeutsame Szene, die in das eigenständige Leben des Großvaters eingebettet bleibt.",
+            "explanation": "Die Schlussfolgerung verbindet persönliche Bedeutung mit seiner unbekannten weiteren Lebenszeit.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Indem sie nur noch den Arzttermin gelten lässt.",
+            "explanation": "Sie will den Abschied nicht durch eine einzige andere Deutung ersetzen.",
+            "evidence": "reading-n1-22-p3"
+          },
+          {
+            "text": "Indem sie die Gefühle des Großvaters endgültig beweist.",
+            "explanation": "Dieses Ziel wird ausdrücklich ausgeschlossen.",
+            "evidence": "reading-n1-22-p3"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n1-23",
+    "level": "N1",
+    "skill": "reading",
+    "order": 23,
+    "title": "Die Grenzen einer endgültigen Erklärung",
+    "objective": "Unterscheide überprüfbare Tatsachen, unterschiedliche Ursachenbegriffe und die Bedingungen einer Revision.",
+    "minutes": 20,
+    "introduction": "Ein längerer Text. Verfolge den Gedankengang Absatz für Absatz, bevor du die Fragen beantwortest.",
+    "passages": [
+      {
+        "id": "reading-n1-23-p1",
+        "speaker": "",
+        "text": "ある町で長く続いていた祭りが、今年で終わった。新聞は若者の減少を主な原因として報じた。確かに、準備を担う世代が少なくなったことは大きい。だが、実行委員の話を聞くと、会場の安全基準が変わったこと、道具の保管場所を失ったこと、以前から費用の負担をめぐる不満があったことも分かってきた。どれか一つを取り除けば続いたのかと尋ねても、答えはそろわない。私は、最も重要な原因を選べば説明が完成すると思っていた。しかし、その選択自体が、何を問い、誰に尋ねるかによって変わることに気づいた。終了という結果は一つでも、そこへ至る道筋は、人の立場によって違って見える。"
+      },
+      {
+        "id": "reading-n1-23-p2",
+        "speaker": "",
+        "text": "説明が複数あるというだけで、何も分からないと結論するのは早い。安全基準の変更がいつあったか、費用がどの程度増えたかなど、確かめられる事柄はある。それらを{照合|しょうごう}すれば、成り立ちにくい説明を退けることもできる。ただし、事実を増やせば、最後には一つの原因が自動的に残るわけではない。ある人には最後の決定を促した出来事が決定的であり、別の人には、それ以前から続いていた関係の悪化が重要なのだ。何をもって原因と呼ぶかが違えば、同じ事実の並びから異なる説明が生まれる。必要なのは、どれも同じくらい正しいと言うことではなく、それぞれが何を説明し、何を説明しきれていないかを示すことだろう。"
+      },
+      {
+        "id": "reading-n1-23-p3",
+        "speaker": "",
+        "text": "私は調査をまとめる文章に、「若者の減少が原因だった」とだけ書くのをやめた。かといって、聞いた話をすべて{列挙|れっきょ}すれば責任を果たせるとも思わない。資料に基づいて確かな点を述べ、判断が分かれる点については、その分かれ方の理由を書くことにした。読者は、はっきりした結論を避けていると感じるかもしれない。しかし、説明の条件を示すことは、結論を放棄することとは違う。何が分かれば説明を修正すべきかを明らかにしておけば、後から読む人が調査を引き継げる。終わった祭りを元に戻すことは、この文章だけではできない。それでも、終わりを{必然|ひつぜん}だったとして閉じるのではなく、どの判断に別の可能性があったかを考える手がかりは残せる。説明の完成を宣言するより、確かめ直せる形で差し出すことに、私は意味を見いだしている。"
+      }
+    ],
+    "translation": "Ein langjähriges Fest in einer Stadt fand dieses Jahr zum letzten Mal statt. Die Zeitung nannte vor allem den Rückgang junger Menschen als Ursache. Sicher ist es wichtig, dass die Generation für die Vorbereitung kleiner wurde. Doch Gespräche mit dem Organisationskomitee zeigten weitere Faktoren: geänderte Sicherheitsregeln am Veranstaltungsort, verlorener Lagerraum für Geräte und schon länger bestehender Streit über Kosten. Ob das Fest weitergegangen wäre, wenn nur ein Faktor beseitigt worden wäre, beantworteten die Beteiligten unterschiedlich. Ich dachte, mit der Auswahl der wichtigsten Ursache sei die Erklärung fertig. Doch die Auswahl hängt selbst davon ab, was man fragt und wen man befragt. Das Ende ist ein einziges Ergebnis, aber die Wege dorthin sehen je nach Position anders aus. Mehrere Erklärungen bedeuten nicht vorschnell, man könne nichts wissen. Zeitpunkt der Sicherheitsänderung und Umfang gestiegener Kosten sind überprüfbar. Durch Abgleich lassen sich unhaltbare Erklärungen zurückweisen. Mehr Tatsachen lassen aber nicht automatisch eine einzige Ursache übrig. Für eine Person ist das Ereignis entscheidend, das die letzte Entscheidung auslöste; für eine andere die vorherige Verschlechterung der Beziehungen. Unterschiedliche Ursachenbegriffe erzeugen aus denselben Tatsachen verschiedene Erklärungen. Man sollte nicht behaupten, alle seien gleich richtig, sondern zeigen, was jede erklärt und was sie offenlässt. In meinem Untersuchungsbericht schrieb ich deshalb nicht mehr bloß „Der Rückgang junger Menschen war die Ursache“. Aber auch das Auflisten aller Aussagen würde meine Verantwortung nicht erfüllen. Ich nannte anhand der Quellen gesicherte Punkte und erklärte bei abweichenden Urteilen die Gründe der Unterschiede. Leser könnten das für das Vermeiden einer klaren Schlussfolgerung halten. Bedingungen der Erklärung zu zeigen ist jedoch kein Verzicht auf Schlussfolgerungen. Wenn klar ist, welche neuen Erkenntnisse eine Revision erfordern, können spätere Leser die Untersuchung fortsetzen. Der Text allein bringt das beendete Fest nicht zurück. Er kann aber Anhaltspunkte dafür hinterlassen, welche Entscheidungen andere Möglichkeiten hatten, statt das Ende als unvermeidlich abzuschließen. Ich sehe mehr Sinn darin, eine überprüfbare Erklärung anzubieten, als ihre Vollendung zu verkünden.",
+    "glossary": [
+      [
+        "照合（しょうごう）",
+        "Abgleich"
+      ],
+      [
+        "必然（ひつぜん）",
+        "Unvermeidlichkeit; Notwendigkeit"
+      ],
+      [
+        "列挙（れっきょ）",
+        "Aufzählung"
+      ]
+    ],
+    "note": "Unterscheide überprüfbare Tatsachen, unterschiedliche Ursachenbegriffe und die Bedingungen einer Revision.",
+    "questions": [
+      {
+        "id": "reading-n1-23-q1",
+        "kind": "global",
+        "prompt": "Was erkennt die Person bei den Gesprächen über das Fest?",
+        "evidence": "reading-n1-23-p1",
+        "choices": [
+          {
+            "text": "Die Zeitung hat die Bevölkerungszahlen frei erfunden.",
+            "explanation": "Der Rückgang wird als realer wichtiger Faktor anerkannt.",
+            "evidence": "reading-n1-23-p1"
+          },
+          {
+            "text": "Alle Beteiligten nennen ausschließlich Sicherheitsregeln.",
+            "explanation": "Mehrere Faktoren und abweichende Antworten werden beschrieben.",
+            "evidence": "reading-n1-23-p1"
+          },
+          {
+            "text": "Welche Ursache als wichtigste erscheint, hängt auch von Fragen und Gesprächspartnern ab.",
+            "explanation": "Der erste Absatz macht die Auswahl selbst zum Gegenstand der Reflexion.",
+            "evidence": "reading-n1-23-p1"
+          },
+          {
+            "text": "Das Fest wurde nur vorübergehend verschoben.",
+            "explanation": "Es ist ausdrücklich beendet.",
+            "evidence": "reading-n1-23-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-23-q2",
+        "kind": "detail",
+        "prompt": "Was können zusätzliche überprüfte Tatsachen leisten?",
+        "evidence": "reading-n1-23-p2",
+        "choices": [
+          {
+            "text": "Automatisch eine letzte eindeutige Ursache liefern.",
+            "explanation": "Diesen Automatismus weist der Text zurück.",
+            "evidence": "reading-n1-23-p2"
+          },
+          {
+            "text": "Jede unterschiedliche Erklärung gleich richtig machen.",
+            "explanation": "Auch diese Gleichsetzung wird abgelehnt.",
+            "evidence": "reading-n1-23-p2"
+          },
+          {
+            "text": "Die Befragung unterschiedlicher Personen unnötig machen.",
+            "explanation": "Ihre Perspektiven bleiben Teil der Analyse.",
+            "evidence": "reading-n1-23-p2"
+          },
+          {
+            "text": "Unhaltbare Erklärungen ausschließen, ohne zwangsläufig eine einzige Ursache zu ergeben.",
+            "explanation": "Beide Grenzen werden im zweiten Absatz ausdrücklich genannt.",
+            "evidence": "reading-n1-23-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-23-q3",
+        "kind": "inference",
+        "prompt": "Warum reicht das Auflisten aller Aussagen nicht aus?",
+        "evidence": "reading-n1-23-p3",
+        "choices": [
+          {
+            "text": "Gesicherte Punkte und Gründe für unterschiedliche Urteile müssen erkennbar werden.",
+            "explanation": "Der gewählte Bericht geht über die bloße Sammlung hinaus.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Leser dürfen grundsätzlich keine abweichenden Meinungen erfahren.",
+            "explanation": "Abweichungen werden gerade erklärt.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Nur die zuerst gehörte Meinung darf zitiert werden.",
+            "explanation": "Die Person berücksichtigt unterschiedliche Positionen.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Eine Untersuchung muss ohne Quellen geschrieben werden.",
+            "explanation": "Die gesicherten Aussagen beruhen ausdrücklich auf Material.",
+            "evidence": "reading-n1-23-p3"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-23-q4",
+        "kind": "inference",
+        "prompt": "Worin sieht die Person den Wert ihrer Erklärung?",
+        "evidence": "reading-n1-23-p3",
+        "choices": [
+          {
+            "text": "Sie beweist die absolute Unvermeidlichkeit des Endes.",
+            "explanation": "Die Person will gerade andere Möglichkeiten sichtbar halten.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Sie bleibt nachprüfbar und zeigt, wann und wie sie weitergeführt werden kann.",
+            "explanation": "Revisionsbedingungen ermöglichen es späteren Lesern, die Untersuchung zu übernehmen.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Sie stellt das Fest durch das Schreiben unmittelbar wieder her.",
+            "explanation": "Diese Wirkung wird ausdrücklich ausgeschlossen.",
+            "evidence": "reading-n1-23-p3"
+          },
+          {
+            "text": "Sie erklärt jede weitere Forschung für sinnlos.",
+            "explanation": "Die Weiterführung ist ein genanntes Ziel.",
+            "evidence": "reading-n1-23-p3"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "long"
+  },
+  {
+    "id": "reading-n1-24",
+    "level": "N1",
+    "skill": "reading",
+    "order": 24,
+    "title": "Literaturkritik",
+    "objective": "Bestimme die gemeinsame Anforderung an Belege und den unterschiedlichen Schwerpunkt der Kritik.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n1-24-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "文学作品を評するとき、作者の{意図|いと}を確かめれば読みが定まると考えるのは危うい。作品には、作者が説明しなかった関係や、執筆時には意識していなかった響きも生じる。作者の発言は有力な資料にはなるが、読みを終わらせる命令ではない。{批評|ひひょう}は、その発言に合わない箇所も含めて、作品の言葉がどのように働くかを示すべきだ。ただし、作者の{意図|いと}から自由であることは、何を言ってもよいことを意味しない。作品中の細部によって支えられず、反する箇所への説明もない読みは、自由というより検討を欠いている。異なる読みと比べる際も、同じ条件で確かめられることが重要だ。私が{批評|ひひょう}に求めるのは、作者への同意でも反抗でもなく、読みの成立する条件を読者に開いて見せることである。"
+      },
+      {
+        "id": "reading-n1-24-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "作者の{意図|いと}を唯一の基準にしないという立場には賛成する。しかし、その名の下に、作品が置かれていた時代や作者の選択を調べる手間まで省いてしまう{批評|ひひょう}もある。今の読者には自然に見える言葉が、当時はあえて選ばれた表現だったかもしれない。背景を知ることは読みを縛るだけでなく、新しい問いを生むこともある。もちろん、背景の説明を積み上げただけでは、作品を読んだことにはならない。私は、資料と作品の細部を往復しながら、自分の読みが何に支えられているかを確かめる{批評|ひひょう}を信頼する。{意図|いと}に従うか否かという二択では、この作業の意味を捉えきれない。"
+      }
+    ],
+    "translation": "Text A: Es ist riskant, eine Lesart für festgelegt zu halten, sobald die Absicht des Autors geklärt ist. Im Werk entstehen auch nicht erklärte Beziehungen und bei der Entstehung unbewusste Resonanzen. Äußerungen des Autors sind wichtige Quellen, aber kein Befehl, die Lektüre zu beenden. Kritik soll zeigen, wie die Sprache wirkt, einschließlich nicht zur Selbsterklärung passender Stellen. Freiheit von der Autorabsicht bedeutet jedoch nicht Beliebigkeit. Eine Lesart ohne Stütze in Details und ohne Erklärung widersprechender Stellen ist eher ungeprüft als frei. Auch beim Vergleich mit anderen Lesarten ist eine Prüfung unter gleichen Bedingungen wichtig. Kritik soll weder zustimmen noch rebellieren, sondern die Bedingungen ihrer Lesart offenlegen. Text B: Ich stimme zu, dass die Autorabsicht nicht der einzige Maßstab sein sollte. Manche Kritik spart damit aber auch die Arbeit, Epoche und Entscheidungen des Autors zu untersuchen. Was heutigen Lesern natürlich erscheint, könnte damals bewusst gewählt gewesen sein. Hintergrundwissen kann nicht nur begrenzen, sondern Fragen eröffnen. Eine Ansammlung von Hintergrunderklärungen ist freilich noch keine Lektüre. Ich vertraue Kritik, die zwischen Quellen und Werkdetails hin und her geht und die Stützen ihrer Lesart überprüft. Die Alternative „der Absicht folgen oder nicht“ erfasst diese Arbeit nicht vollständig.",
+    "glossary": [
+      [
+        "批評（ひひょう）",
+        "Kritik; kritische Interpretation"
+      ],
+      [
+        "意図（いと）",
+        "Absicht"
+      ]
+    ],
+    "note": "Bestimme die gemeinsame Anforderung an Belege und den unterschiedlichen Schwerpunkt der Kritik.",
+    "questions": [
+      {
+        "id": "reading-n1-24-q1",
+        "kind": "integrated",
+        "prompt": "Welche Rolle haben Autorenäußerungen nach Text A?",
+        "evidence": "reading-n1-24-p1",
+        "choices": [
+          {
+            "text": "Sie müssen völlig ignoriert werden.",
+            "explanation": "A nennt sie ausdrücklich wichtige Quellen.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Sie machen jede Untersuchung der Werkdetails überflüssig.",
+            "explanation": "Die Details bleiben notwendige Stützen.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Sie sind wichtige Quellen, bestimmen aber nicht endgültig jede Lesart.",
+            "explanation": "A unterscheidet 資料 und das Beenden der Lektüre.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Sie dienen nur dazu, dem Autor zu widersprechen.",
+            "explanation": "A lehnt Zustimmung oder Rebellion als alleinige Ziele ab.",
+            "evidence": "reading-n1-24-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-24-q2",
+        "kind": "integrated",
+        "prompt": "Welche Verkürzung kritisiert Text B?",
+        "evidence": "reading-n1-24-p2",
+        "choices": [
+          {
+            "text": "Historische Informationen auch für neue Fragen zu nutzen.",
+            "explanation": "B nennt gerade das Entstehen neuer Fragen als möglichen Vorteil.",
+            "evidence": "reading-n1-24-p2"
+          },
+          {
+            "text": "Werkdetails überhaupt zu untersuchen.",
+            "explanation": "Die Verbindung von Details und Quellen wird positiv bewertet.",
+            "evidence": "reading-n1-24-p2"
+          },
+          {
+            "text": "Eine Quelle mit einer anderen zu vergleichen.",
+            "explanation": "Der Text wendet sich nicht gegen Quellenprüfung.",
+            "evidence": "reading-n1-24-p2"
+          },
+          {
+            "text": "Mit der Ablehnung einer einzigen Autorabsicht auch historische Recherche auszulassen.",
+            "explanation": "B beschreibt genau diese unter dem gleichen Grundsatz begangene Auslassung.",
+            "evidence": "reading-n1-24-p2"
+          }
+        ],
+        "answer": 3
+      },
+      {
+        "id": "reading-n1-24-q3",
+        "kind": "integrated",
+        "prompt": "Worin stimmen beide Texte überein?",
+        "evidence": "reading-n1-24-p1",
+        "choices": [
+          {
+            "text": "Lesarten müssen ihre Stützen und Grenzen überprüfbar machen.",
+            "explanation": "A fordert offene Bedingungen; B verlangt Prüfung anhand von Quellen und Details.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Alle Lesarten sind unabhängig von Belegen gleichwertig.",
+            "explanation": "A kritisiert ungestützte Deutungen ausdrücklich.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Nur die Selbsterklärung des Autors zählt.",
+            "explanation": "Beide weisen diesen alleinigen Maßstab zurück.",
+            "evidence": "reading-n1-24-p1"
+          },
+          {
+            "text": "Historische Informationen dürfen nie verwendet werden.",
+            "explanation": "B betont ihren möglichen Nutzen, A erkennt Autorenäußerungen als Quellen an.",
+            "evidence": "reading-n1-24-p1"
+          }
+        ],
+        "answer": 0
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n1-25",
+    "level": "N1",
+    "skill": "reading",
+    "order": 25,
+    "title": "Spezialisierung und breites Wissen",
+    "objective": "Vergleiche die Rolle eines eigenen Fachs mit der Offenheit für Fragen von außen.",
+    "minutes": 12,
+    "introduction": "Zwei Texte behandeln dasselbe Thema. Vergleiche, worin sie übereinstimmen und worin sie sich unterscheiden.",
+    "passages": [
+      {
+        "id": "reading-n1-25-p1",
+        "speaker": "",
+        "label": "Text A",
+        "text": "{専門|せんもん}を深めるほど、ほかの領域の知識を求められる場面が増える。自分の分野で当然とされる{前提|ぜんてい}も、隣の分野では説明を必要とするからだ。幅広く学ぶ意味は、{専門|せんもん}を薄めることではなく、その{前提|ぜんてい}を見えるようにすることにある。ただし、多くの用語を知っているだけで、分野をつなげられるわけではない。何を問題とし、どの方法で確かめるかまで理解しなければ、言葉の共通性を関係の深さと取り違える。私は、{専門|せんもん}を持ったうえで、その外側からの問いに答え直す経験を重ねたい。深さと広さを時間の奪い合いとして扱う前に、互いがどのように働きかけるかを見るべきだと思う。"
+      },
+      {
+        "id": "reading-n1-25-p2",
+        "speaker": "",
+        "label": "Text B",
+        "text": "幅広い知識を身につけよと言われても、限られた時間で何から始めるべきかは明らかではない。私はまず、一つの問題を自分の方法で最後まで追う経験が必要だと考える。その過程で方法の限界にぶつかれば、別の分野を学ぶ理由が具体的になる。ただし、必要になってからすべて学べばよいとも言い切れない。何が不足しているかに気づくためにも、外の分野に触れる機会はいる。だから、{専門|せんもん}が完成してから幅を広げるという順序を固定したくはない。中心となる問いを持ちつつ、その問い自体を変えるような出会いにも時間を残す。出会いのすべてがすぐ役に立つとは限らないが、評価を急がない余裕も必要だ。それが、知識をただ増やすことと学びを進めることとの違いだろう。"
+      }
+    ],
+    "translation": "Text A: Je tiefer die Spezialisierung, desto häufiger braucht man Wissen anderer Bereiche: Selbstverständliche Annahmen des eigenen Fachs verlangen nebenan eine Erklärung. Breites Lernen soll das Fach nicht verwässern, sondern seine Voraussetzungen sichtbar machen. Viele Fachwörter allein verbinden keine Disziplinen. Man muss auch deren Fragen und Prüfmethoden verstehen, sonst verwechselt man gemeinsame Wörter mit einer tiefen Beziehung. Ich möchte mit einem eigenen Fach immer wieder Fragen von außen beantworten. Bevor wir Tiefe und Breite als Konkurrenz um Zeit behandeln, sollten wir ihre Wechselwirkung betrachten. Text B: Die Forderung nach breitem Wissen sagt noch nicht, wo man bei begrenzter Zeit anfangen soll. Zunächst braucht man meiner Ansicht nach die Erfahrung, eine Frage mit der eigenen Methode konsequent zu verfolgen. An den Grenzen der Methode werden Gründe für das Lernen anderer Fächer konkret. Aber alles erst bei Bedarf zu lernen reicht vielleicht nicht: Schon um Lücken zu bemerken, braucht man Kontakt zu anderen Bereichen. Ich möchte daher nicht festlegen, dass Breite erst nach vollendeter Spezialisierung kommt. Eine zentrale Frage verfolgen und zugleich Zeit für Begegnungen lassen, die diese Frage verändern; nicht jede Begegnung ist sofort nützlich, doch man braucht auch Raum, sie nicht vorschnell zu bewerten: Das unterscheidet das bloße Vermehren von Wissen vom Voranbringen des Lernens.",
+    "glossary": [
+      [
+        "前提（ぜんてい）",
+        "Voraussetzung; Annahme"
+      ],
+      [
+        "専門（せんもん）",
+        "Fachgebiet; Spezialisierung"
+      ]
+    ],
+    "note": "Vergleiche die Rolle eines eigenen Fachs mit der Offenheit für Fragen von außen.",
+    "questions": [
+      {
+        "id": "reading-n1-25-q1",
+        "kind": "integrated",
+        "prompt": "Welchen Nutzen breiten Wissens betont Text A?",
+        "evidence": "reading-n1-25-p1",
+        "choices": [
+          {
+            "text": "Es ersetzt die Notwendigkeit einer eigenen Methode.",
+            "explanation": "Methoden anderer Bereiche müssen gerade verstanden werden.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Es kann die Voraussetzungen der eigenen Spezialisierung sichtbar machen.",
+            "explanation": "A nennt das Offenlegen der 前提 als Zweck.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Es macht das Auswendiglernen vieler Fachwörter ausreichend.",
+            "explanation": "Eine bloße Wortkenntnis wird als unzureichend bezeichnet.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Es verhindert jede Erklärung gegenüber anderen Fächern.",
+            "explanation": "Solche Erklärungen sind Anlass des breiten Lernens.",
+            "evidence": "reading-n1-25-p1"
+          }
+        ],
+        "answer": 1
+      },
+      {
+        "id": "reading-n1-25-q2",
+        "kind": "integrated",
+        "prompt": "Warum legt Text B keine feste Reihenfolge „erst Fach, dann Breite“ fest?",
+        "evidence": "reading-n1-25-p2",
+        "choices": [
+          {
+            "text": "Ein zentrales Problem behindert grundsätzlich jedes Lernen.",
+            "explanation": "B empfiehlt ausdrücklich eine zentrale Frage.",
+            "evidence": "reading-n1-25-p2"
+          },
+          {
+            "text": "Spezialisierung ist nie sinnvoll.",
+            "explanation": "Konsequentes Verfolgen eines Problems gilt als wichtig.",
+            "evidence": "reading-n1-25-p2"
+          },
+          {
+            "text": "Kontakte zu anderen Bereichen können schon helfen, eigene Wissenslücken zu bemerken.",
+            "explanation": "Außenkontakte werden auch vor einem konkret erkannten Bedarf benötigt.",
+            "evidence": "reading-n1-25-p2"
+          },
+          {
+            "text": "Zeitliche Begrenzungen existieren nicht.",
+            "explanation": "Begrenzte Zeit ist Ausgangspunkt des Textes.",
+            "evidence": "reading-n1-25-p2"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-25-q3",
+        "kind": "integrated",
+        "prompt": "Welche Auffassung teilen beide Texte?",
+        "evidence": "reading-n1-25-p1",
+        "choices": [
+          {
+            "text": "Tiefe und Breite schließen sich grundsätzlich aus.",
+            "explanation": "Beide suchen ihre Verbindung.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Man sollte nur das eigene Fach kennen.",
+            "explanation": "Außenkontakte sind für beide wichtig.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Alle Disziplinen prüfen Fragen auf genau gleiche Weise.",
+            "explanation": "A warnt gerade vor einer nur scheinbaren Gemeinsamkeit.",
+            "evidence": "reading-n1-25-p1"
+          },
+          {
+            "text": "Mehr Wissen allein genügt nicht; es muss die eigenen Fragen und Methoden in Beziehung zu anderen bringen.",
+            "explanation": "A verlangt Verständnis von Fragen und Methoden, B unterscheidet Wissensmenge und Lernfortschritt.",
+            "evidence": "reading-n1-25-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "integrated"
+  },
+  {
+    "id": "reading-n1-26",
+    "level": "N1",
+    "skill": "reading",
+    "order": 26,
+    "title": "Bedingungen des Literaturpreises",
+    "objective": "Prüfe Grenzwerte genau: „weniger als ein Zehntel“ schließt genau zehn Prozent aus.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n1-26-p1",
+        "speaker": "",
+        "text": "青葉文学賞　募集要項\n応募資格は、商業出版された{単著|たんちょ}の小説集を持たない方です。年齢、国籍、居住地は問いません。共著への参加、雑誌への短編掲載、自費出版の経験のみであれば応募できます。過去に本賞の大賞を受賞した方は応募できません。\n対象は日本語で書かれた未発表の小説で、本文二万字以上四万字以内です。題名とあらすじは字数に含めません。個人のサイトを含め、全文を公開した作品は未発表とみなしません。一部を公開した作品は、公開部分が本文の一割未満であれば応募できますが、公開した場所と分量を申告してください。\n他賞への同時応募は禁止します。他賞で落選が確定した作品は、{改稿|かいこう}の有無にかかわらず応募できます。選考中に他賞へ応募したことが判明した場合、本賞の選考対象から外します。\n一人一点、電子ファイルのみで受け付けます。本文には氏名を記さず、別の応募票に本名、筆名、連絡先、公開歴を記入してください。締切は十一月三十日二十三時五十九分、送信完了時刻を基準とします。送信を開始した時刻ではありません。受付番号が画面に表示されない場合は未完了です。\n受け付けた後の本文差し替えはできません。連絡先の変更のみ、受付番号を添えて届け出てください。応募の{撤回|てっかい}は最終候補発表前まで可能ですが、{撤回|てっかい}した作品を同じ年度に再応募することはできません。\n最終候補者には翌年二月中に通知します。候補作は選考会後に誌面へ掲載する場合があり、掲載に同意できることを応募条件とします。ただし、応募したすべての作品の出版権が主催者へ移るわけではありません。受賞作の単行本化に関する条件は、受賞後に別途協議します。"
+      }
+    ],
+    "translation": "Aoba-Literaturpreis, Ausschreibung. Teilnahmeberechtigt sind Personen ohne kommerziell veröffentlichte, allein verfasste Sammlung von Erzählungen. Alter, Nationalität und Wohnort sind frei. Bloße Beteiligung an Gemeinschaftswerken, Kurzgeschichten in Zeitschriften oder Selbstveröffentlichung schließen nicht aus; frühere Hauptpreisträger dieses Preises sind ausgeschlossen. Gesucht sind unveröffentlichte japanische Erzähltexte mit 20.000 bis 40.000 Zeichen im Haupttext; Titel und Zusammenfassung zählen nicht mit. Eine vollständige Onlineveröffentlichung, auch auf einer privaten Website, gilt als veröffentlicht. Teilveröffentlichung ist erlaubt, wenn sie weniger als ein Zehntel des Haupttexts ausmacht; Ort und Umfang müssen angegeben werden. Gleichzeitige Bewerbung bei anderen Preisen ist verboten. Dort bereits endgültig abgelehnte Werke dürfen mit oder ohne Überarbeitung eingereicht werden. Eine Bewerbung bei einem anderen Preis während der Auswahl führt zum Ausschluss. Pro Person ein Werk, nur als elektronische Datei. Kein Name im Haupttext; tatsächlicher Name, Pseudonym, Kontakt und Veröffentlichungsverlauf stehen auf einem separaten Formular. Frist: 30. November, 23:59 Uhr, maßgeblich ist der Abschluss des Versands, nicht sein Beginn. Ohne angezeigte Eingangsnummer ist er nicht abgeschlossen. Nach Annahme kein Austausch des Haupttexts. Nur Kontaktänderungen dürfen unter Angabe der Eingangsnummer gemeldet werden. Rückzug ist bis vor Bekanntgabe der Finalisten möglich, aber keine erneute Bewerbung desselben Werks im selben Jahr. Finalisten erhalten im Februar des Folgejahres Bescheid. Finaltexte können nach der Auswahlversammlung in der Zeitschrift erscheinen; die Zustimmung dazu ist Teilnahmebedingung. Die Teilnahme überträgt aber nicht die Veröffentlichungsrechte aller Einsendungen an den Veranstalter. Bedingungen einer Buchausgabe des Siegerwerks werden später gesondert verhandelt.",
+    "glossary": [
+      [
+        "単著（たんちょ）",
+        "allein verfasstes Werk"
+      ],
+      [
+        "改稿（かいこう）",
+        "Überarbeitung eines Textes"
+      ],
+      [
+        "撤回（てっかい）",
+        "Rücknahme"
+      ]
+    ],
+    "note": "Prüfe Grenzwerte genau: „weniger als ein Zehntel“ schließt genau zehn Prozent aus.",
+    "questions": [
+      {
+        "id": "reading-n1-26-q1",
+        "kind": "search",
+        "prompt": "Welche Einreichung erfüllt die genannten Bedingungen?",
+        "evidence": "reading-n1-26-p1",
+        "choices": [
+          {
+            "text": "Eine nur selbstveröffentlichte Autorin reicht 30.000 Zeichen ein, davon 2000 zuvor online, und gibt diese Veröffentlichung an; das Werk wurde bei einem anderen Preis bereits endgültig abgelehnt.",
+            "explanation": "Person, Umfang, Teilveröffentlichung unter zehn Prozent und abgeschlossene andere Auswahl sind zulässig.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Ein Autor mit einer eigenen kommerziellen Erzählsammlung reicht ein völlig neues Werk ein.",
+            "explanation": "Die persönliche Teilnahmeberechtigung fehlt unabhängig vom neuen Werk.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Ein berechtigter Autor reicht 20.000 Zeichen ein, davon genau 2000 bereits öffentlich.",
+            "explanation": "Genau zehn Prozent sind nicht weniger als ein Zehntel.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Ein unveröffentlichtes Werk ist zugleich noch bei einem anderen Preis in Auswahl.",
+            "explanation": "Die gleichzeitige Bewerbung ist verboten.",
+            "evidence": "reading-n1-26-p1"
+          }
+        ],
+        "answer": 0
+      },
+      {
+        "id": "reading-n1-26-q2",
+        "kind": "search",
+        "prompt": "Welche Aussage über Annahme und Rechte trifft zu?",
+        "evidence": "reading-n1-26-p1",
+        "choices": [
+          {
+            "text": "Der fristgerechte Versandbeginn genügt; danach darf der Text ausgetauscht werden.",
+            "explanation": "Versandabschluss ist maßgeblich, Austausch nach Annahme ausgeschlossen.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Der Versand muss fristgerecht abgeschlossen sein; Zustimmung zur möglichen Zeitschriftenveröffentlichung von Finaltexten ist nötig, eine Buchausgabe wird gesondert verhandelt.",
+            "explanation": "Alle drei Regeln werden ausdrücklich genannt.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Ein zurückgezogenes Werk kann im selben Jahr erneut eingereicht werden.",
+            "explanation": "Genau diese Wiederbewerbung ist verboten.",
+            "evidence": "reading-n1-26-p1"
+          },
+          {
+            "text": "Mit jeder Einreichung gehen sämtliche Veröffentlichungsrechte automatisch über.",
+            "explanation": "Der Text schließt einen pauschalen Rechteübergang ausdrücklich aus.",
+            "evidence": "reading-n1-26-p1"
+          }
+        ],
+        "answer": 1
+      }
+    ],
+    "format": "info-search"
+  },
+  {
+    "id": "reading-n1-27",
+    "level": "N1",
+    "skill": "reading",
+    "order": 27,
+    "title": "Pflichten der Gastforschenden",
+    "objective": "Unterscheide Ausnahmen von der Anwesenheitspflicht, zusätzliche Meldepflichten und fortbestehende Pflichten.",
+    "minutes": 8,
+    "introduction": "Du suchst bestimmte Informationen. Lies zuerst die Fragen und suche dann gezielt im Text.",
+    "passages": [
+      {
+        "id": "reading-n1-27-p1",
+        "speaker": "",
+        "text": "北都研究所　客員研究員受入条件\n滞在期間は三か月以上一年以内とします。受入時に他の機関に所属していることを原則としますが、独立研究者は、過去三年の研究実績を示す資料を添えれば審査の対象となります。受入期間中に本研究所から給与は支給しません。所属先の給与や外部助成金の利用は可能です。\n研究計画書には、共同で取り組む課題、使用予定の資料、滞在中の成果報告方法を明記してください。施設を利用するだけの計画は受け付けません。受入担当者との面談を経て計画を確定し、開始の一か月前までに双方が合意した版を提出してください。\n週二日以上の来所を標準とします。ただし、現地調査など計画に記載された活動については、担当者の事前承認により、その日を来所日と同様に数えます。個人的な都合で来所できない日は含めません。連続二週間以上不在となる場合は、来所日数の条件を満たしていても、別途届け出が必要です。\n月末までに簡潔な活動報告を提出し、終了時には公開研究会で成果を報告してください。未公表の機密資料を扱う場合は、公開報告の範囲を担当者と事前に調整します。公開できない資料があることを理由に、報告そのものを省略することはできません。\n研究所の資料を用いた成果を公表する際は、所定の{謝辞|しゃじ}を記載してください。共同研究者がいる場合、著者の範囲と順序は貢献に基づき協議します。客員の身分だけで担当者の名を著者に加える義務はありません。\n終了後三十日以内に、{貸与|たいよ}された機器と入館証を返却し、研究所の端末に保存した個人データを担当者{立会い|たちあい}で削除してください。研究記録として保存すべきデータは、個人データと区別して研究所に引き継ぎます。成果の公表が終了後になっても、{謝辞|しゃじ}の記載義務は継続します。"
+      }
+    ],
+    "translation": "Aufnahmebedingungen für Gastforschende am Hokuto-Institut. Aufenthalt mindestens drei Monate, höchstens ein Jahr. Grundsätzlich ist Zugehörigkeit zu einer anderen Einrichtung erforderlich; unabhängige Forschende können mit Belegen ihrer Forschung der letzten drei Jahre geprüft werden. Das Institut zahlt während des Aufenthalts kein Gehalt; Gehalt der Heimatinstitution und externe Förderung sind erlaubt. Der Plan muss gemeinsames Forschungsthema, vorgesehene Quellen und Berichtsform benennen; reine Nutzung der Einrichtungen genügt nicht. Nach einem Gespräch wird der Plan festgelegt; die von beiden Seiten vereinbarte Fassung ist spätestens einen Monat vor Beginn einzureichen. Standard sind mindestens zwei Anwesenheitstage pro Woche. Im Plan vorgesehene Tätigkeiten wie Feldforschung können mit vorheriger Zustimmung als Anwesenheitstage zählen, private Abwesenheit nicht. Mehr als oder genau zwei Wochen zusammenhängende Abwesenheit erfordern zusätzlich eine Meldung, auch wenn die Tagesbedingung erfüllt ist. Bis Monatsende kurzer Tätigkeitsbericht, am Ende Ergebnisvortrag bei einer öffentlichen Forschungsrunde. Bei vertraulichen unveröffentlichten Quellen wird der Umfang der öffentlichen Darstellung vorher abgestimmt; der Bericht darf deshalb nicht ganz entfallen. Veröffentlichungen mit Institutsquellen müssen die vorgeschriebene Danksagung enthalten. Bei gemeinsamer Forschung werden Autorenschaft und Reihenfolge nach Beitrag vereinbart. Allein der Gaststatus verpflichtet nicht dazu, die betreuende Person als Autor aufzunehmen. Innerhalb von dreißig Tagen nach Ende Geräte und Zugangskarte zurückgeben und persönliche Daten auf Institutsrechnern unter Aufsicht löschen. Forschungsdaten, die als Aufzeichnung erhalten bleiben sollen, werden getrennt übergeben. Die Pflicht zur Danksagung gilt auch bei späteren Veröffentlichungen.",
+    "glossary": [
+      [
+        "謝辞（しゃじ）",
+        "Danksagung"
+      ],
+      [
+        "立会い（たちあい）",
+        "Anwesenheit zur Aufsicht"
+      ],
+      [
+        "貸与（たいよ）",
+        "leihweise Überlassung"
+      ]
+    ],
+    "note": "Unterscheide Ausnahmen von der Anwesenheitspflicht, zusätzliche Meldepflichten und fortbestehende Pflichten.",
+    "questions": [
+      {
+        "id": "reading-n1-27-q1",
+        "kind": "search",
+        "prompt": "Eine Gastforscherin führt drei Wochen genehmigte, im Plan enthaltene Feldforschung mit je zwei Forschungstagen pro Woche durch. Was gilt?",
+        "evidence": "reading-n1-27-p1",
+        "choices": [
+          {
+            "text": "Eine Meldung entfällt, weil die Mindesttage erfüllt sind.",
+            "explanation": "Die Regel verlangt die Meldung ausdrücklich auch dann.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Feldforschung zählt grundsätzlich nie als Anwesenheit.",
+            "explanation": "Die genehmigte, geplante Tätigkeit ist eine ausdrücklich genannte Ausnahme.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Die Tage können als Anwesenheit zählen; die zusammenhängende Abwesenheit muss zusätzlich gemeldet werden.",
+            "explanation": "Vorab genehmigte Feldforschung zählt, die Zweiwochenregel verlangt trotzdem eine gesonderte Meldung.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Private Urlaubstage zählen unter denselben Bedingungen automatisch mit.",
+            "explanation": "Persönlich begründete Abwesenheit ist ausgeschlossen.",
+            "evidence": "reading-n1-27-p1"
+          }
+        ],
+        "answer": 2
+      },
+      {
+        "id": "reading-n1-27-q2",
+        "kind": "search",
+        "prompt": "Welche Pflichten bestehen bei vertraulichen Quellen und einer Veröffentlichung nach dem Aufenthalt?",
+        "evidence": "reading-n1-27-p1",
+        "choices": [
+          {
+            "text": "Den Abschlussbericht weglassen und nur später veröffentlichen.",
+            "explanation": "Der Bericht darf nicht vollständig entfallen.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Die betreuende Person allein wegen des Gaststatus als Autor nennen.",
+            "explanation": "Eine solche automatische Autorenschaftspflicht wird ausgeschlossen.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Alle Forschungsdaten zusammen mit persönlichen Daten vernichten.",
+            "explanation": "Zu erhaltende Forschungsaufzeichnungen müssen gesondert übergeben werden.",
+            "evidence": "reading-n1-27-p1"
+          },
+          {
+            "text": "Den Umfang des Abschlussberichts vorher abstimmen und später die vorgeschriebene Danksagung aufnehmen.",
+            "explanation": "Vertraulichkeit hebt die Berichtspflicht nicht auf; die Danksagungspflicht bleibt bestehen.",
+            "evidence": "reading-n1-27-p1"
+          }
+        ],
+        "answer": 3
+      }
+    ],
+    "format": "info-search"
   }
 ];

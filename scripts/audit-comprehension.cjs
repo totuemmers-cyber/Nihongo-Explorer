@@ -6,14 +6,57 @@ const { createHash } = require('node:crypto');
 const root = path.resolve(__dirname, '..'), sandbox = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'comprehension-data.js'), 'utf8'), sandbox);
 const units = sandbox.window.COMPREHENSION_UNITS;
+const legacy = require('./comprehension/legacy-payload-hashes.json');
+const digest = text => createHash('sha256').update(text).digest('hex');
+assert.equal(Object.keys(legacy.units).length, 134, 'Legacy fixture count');
+for (const [id, hash] of Object.entries(legacy.units)) {
+  const unit = units.find(u => u.id === id);
+  assert(unit, 'Missing legacy unit: ' + id);
+  assert.equal(digest(JSON.stringify(unit)), hash, 'Changed legacy payload: ' + id);
+}
+const additions = units.filter(u => !Object.hasOwn(legacy.units, u.id));
+assert.equal(additions.length, 50);
+assert(additions.every(u => u.skill === 'reading'));
+assert.equal(units.filter(u => u.skill === 'reading').length, 118);
+assert.equal(units.length, 184);
+assert.equal(units.reduce((n, u) => n + u.questions.length, 0), 540);
+assert.equal(additions.reduce((n, u) => n + u.questions.length, 0), 120);
+const mixes = {
+  N5: [4, 4, 0, 0, 2], N4: [3, 5, 0, 0, 2], N3: [2, 4, 2, 0, 2],
+  N2: [2, 2, 2, 2, 2], N1: [2, 2, 2, 2, 2]
+};
+const ranges = {
+  N5: { short: [60, 100], medium: [220, 280], 'info-search': [220, 280] },
+  N4: { short: [100, 200], medium: [400, 500], 'info-search': [350, 450] },
+  N3: { short: [150, 200], medium: [300, 400], long: [500, 600], 'info-search': [550, 650] },
+  N2: { short: [180, 240], medium: [450, 550], long: [850, 1000], integrated: [550, 650], 'info-search': [650, 750] },
+  N1: { short: [180, 240], medium: [450, 550], long: [900, 1100], integrated: [550, 650], 'info-search': [650, 750] }
+};
+const addedDistribution = [0, 0, 0, 0];
+for (const [level, mix] of Object.entries(mixes)) {
+  const group = additions.filter(u => u.level === level);
+  assert.equal(group.length, 10, level + ': additions');
+  assert.deepEqual(['short', 'medium', 'long', 'integrated', 'info-search'].map(f => group.filter(u => u.format === f).length), mix, level + ': format mix');
+  for (const u of group) {
+    const [min, max] = ranges[level][u.format];
+    const chars = u.passages.reduce((n, p) => n + p.text.replace(/\{([^|{}]+)\|([^{}]+)\}/g, '$1').length, 0);
+    assert(chars >= min && chars <= max, `${u.id}: editorial length ${chars}, expected ${min}–${max}`);
+    assert.equal(u.questions.length, ({ short: 1, medium: 3, long: 4, integrated: 3, 'info-search': 2 })[u.format], u.id + ': added question count');
+    assert.equal(u.minutes, ({ short: 5, medium: /^N[45]$/.test(level) ? 8 : 12, long: { N3: 15, N2: 18, N1: 20 }[level], integrated: 12, 'info-search': 8 })[u.format], u.id + ': added practice estimate');
+    for (const q of u.questions) addedDistribution[q.answer]++;
+  }
+}
+assert.deepEqual(addedDistribution, [30, 30, 30, 30], 'New answer positions');
 const ids = new Set(), distribution = [0, 0, 0, 0], distribution3 = [0, 0, 0];
 // Additional task formats: skill, question count range, choices per question, minimum passages.
 const FORMATS = {
+  short: { skill: 'reading', questions: [1, 1], choices: 4, passages: 1 },
+  medium: { skill: 'reading', questions: [3, 3], choices: 4, passages: 1 },
   'quick-response': { skill: 'listening', questions: [3, 6], choices: 3, passages: 3 },
   utterance: { skill: 'listening', questions: [3, 6], choices: 3, passages: 3 },
   'info-search': { skill: 'reading', questions: [2, 3], choices: 4, passages: 1 },
   integrated: { skill: 'reading', questions: [2, 3], choices: 4, passages: 2 },
-  long: { skill: 'reading', questions: [3, 4], choices: 4, passages: 3, minChars: { N2: 600, N1: 900 } }
+  long: { skill: 'reading', questions: [3, 4], choices: 4, passages: 3, minChars: { N3: 500, N2: 600, N1: 900 } }
 };
 function unique(id) { assert(!ids.has(id), 'Duplicate ID: ' + id); ids.add(id); }
 assert.equal(units.filter(u => !u.format).length, 100);
@@ -53,6 +96,7 @@ for (const u of units) {
   }
   assert(u.passages.some(p => /\{.+\|.+\}/.test(p.text)), 'No reading support: ' + u.id);
   for (const q of u.questions) {
+    assert(['global', 'detail', 'inference', 'response', 'utterance', 'search', 'integrated'].includes(q.kind), q.id + ': question kind');
     unique(q.id); assert(u.passages.some(p => p.id === q.evidence));
     const choices = spec ? spec.choices : 4;
     assert.equal(q.choices.length, choices, q.id + ': choices'); assert.equal(new Set(q.choices.map(c => c.text)).size, choices);
@@ -85,6 +129,7 @@ assert.equal(receipt.resampling, false);
 const sha = file => createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
 // Line endings follow Git's checkout settings; the receipt hashes the LF text.
 const manifestText = fs.readFileSync(path.join(root, 'audio-manifest.json'), 'utf8').replace(/\r\n/g, '\n');
+assert.equal(digest(manifestText), legacy.audioManifest, 'Reading expansion changed audio manifest');
 assert.equal(receipt.manifestSha256, createHash('sha256').update(manifestText).digest('hex'), 'Audio settings changed: regenerate WAVs');
 const listeningUnits = units.filter(u => u.skill === 'listening').length;
 assert.equal(receipt.files.length, listeningUnits);
