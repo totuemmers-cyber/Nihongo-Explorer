@@ -60,6 +60,11 @@ before writing anything. Import one to three approved batches independently of
 other packets' progress. Each imported packet retains its 25-entry history and
 sample. The journal records every validated output and its previous file hash.
 
+Run focused checks for code changes and the complete suite at publication
+checkpoints; authoring a card does not require the full suite. The check runner
+uses bounded parallel workers without changing import validation or checkpoint
+requirements. See [verification commands and cadence](check.md).
+
 After an interrupted import, run
 `node scripts/vocabulary-batch.cjs import --resume=.content-cache/import-013.json`.
 Recovery is idempotent and refuses files altered outside the recorded import.
