@@ -125,6 +125,25 @@ new-verb conjugation controls and new-card deep-link refresh. N5 remains active:
 contexts, and 386 unresolved references. N4–N1 remain pending; this checkpoint
 does not certify a level.
 
+The seventh verified checkpoint, batches 077c, 079ab, 080bc and 096–098,
+enriches 125 further N5 cards and the original N2 tasty adjective 旨い needed
+for two N5-owned references. The campaign now covers 1,423 unique original
+entries and five additions. Repeated alias and usage revisions count once.
+Ten further frozen references are resolved, 186 in total. 度 now explicitly
+teaches both degrees and occurrence counting with a separate third example;
+後 covers spatial behind as well as temporal after/later. Qualified searches
+include the canonical suffix spellings, subtraction without written okurigana,
+the rare demonstrative 彼の/あの and delicious うまい. The tasty adjective keeps
+its distinct meaning from skilled 上手い and explains its retained Kansai
+invitation. All 21 full checks pass. Generated replay is identical; all 15,558
+original IDs, headwords, readings and levels remain, with reading/audio files
+unchanged. Browser checks cover 36 detail states with notes at 390/1440 widths
+in both themes, six searches and enriched-card deep-link refresh; representative
+meaning and usage screens were visually inspected. N5 remains active: 113
+missing notes, 154 pending reviews, 174 entries lacking two reviewed contexts,
+and 376 unresolved references. N4–N1 remain pending; this checkpoint does not
+certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
