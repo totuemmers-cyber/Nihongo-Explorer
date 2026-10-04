@@ -4,13 +4,14 @@ const crypto=require('crypto');
 const {root,levels}=require('./vocabulary-tools.cjs');
 const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
 const {entryApprovalHash,decisionHash,mergeHash}=require('./vocabulary-review-workflow.cjs');
-const {selectedForBatch,POLICY_ID,requirements:reviewRequirements}=require('./vocabulary-review-policy.cjs');
+const {selectedForBatch,POLICY_ID,AUTHOR_ONLY_POLICY_ID,requirements:reviewRequirements}=require('./vocabulary-review-policy.cjs');
 const importer=require('./import-vocabulary-completion.cjs');
 const {queue,researchPackets,packet:researchPacket,retiredIds}=require('./vocabulary-review-queue.cjs');
 const clone=v=>JSON.parse(JSON.stringify(v));
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
 const json=value=>JSON.stringify(value,null,2)+'\n';
 const nonempty=v=>typeof v==='string'&&v.trim();
+const activePolicy=plan=>plan.reviewPolicyId||POLICY_ID;
 function content(plan,id){return plan.workingItems?.get(id)||plan.items.find(v=>v.id===id);}
 function binding(plan,id){assert(!retiredIds(plan).has(id),'Retired identity cannot be revised: '+id);const v=content(plan,id);assert(v,'Missing entry '+id);return {sourceHash:hash(project(v)),predecessorRevisionHash:plan.workHeads?.get(id)?.revisionHash??null};}
 function preparePackets(plan,options={}) {
@@ -31,7 +32,7 @@ function preparePackets(plan,options={}) {
     predecessorRevisionHash:plan.candidateHeads?.get(c.key+'#'+r.index)?.revisionHash??null})));
   const snapshotHash=hash({entries,candidates});
   return {version:1,snapshotHash,createdAt:new Date().toISOString(),preparationMs:Date.now()-started,remainingEntries:selected.remainingEntries,
-    packets:[0,1,2].map(i=>{const packet={version:1,policy:POLICY_ID,snapshotHash,slot:i+1,entries:entries.slice(i*25,i*25+25),
+    packets:[0,1,2].map(i=>{const packet={version:1,policy:activePolicy(plan),snapshotHash,slot:i+1,entries:entries.slice(i*25,i*25+25),
       candidates:candidates.filter((_,index)=>index%3===i)};return {...packet,packetHash:hash(packet)};})};
 }
 function prepareCandidatePackets(plan,requested,options={}) {
@@ -57,25 +58,25 @@ function prepareCandidatePackets(plan,requested,options={}) {
   for(const id of additionIds)assert(/^vocab-n[1-5]:correction:[a-z0-9-]+$/.test(id)&&!content(plan,id),'Invalid or existing allocated addition ID');
   const snapshotHash=hash(candidates);
   return {version:1,snapshotHash,createdAt:new Date().toISOString(),packets:[0,1,2].map(i=>{
-    const p={version:1,policy:POLICY_ID,kind:'candidate',snapshotHash,slot:i+1,entries:[],candidates:candidates.slice(i*25,i*25+25)};
+    const p={version:1,policy:activePolicy(plan),kind:'candidate',snapshotHash,slot:i+1,entries:[],candidates:candidates.slice(i*25,i*25+25)};
     assert(p.candidates.flatMap(c=>c.additionIds||[]).length<=25,'Candidate packet exceeds 25 additions');
     return {...p,packetHash:hash(p)};
   })};
 }
 // Correction-driven additions (README: "need not be in the historical candidate queue")
 // receive an explicit fixed ID roster. They carry no candidate decision and still need
-// full enrichment, level basis, reason and two exact approvals.
+// full enrichment, level basis, reason and the active policy's exact approvals.
 function prepareAdditionPacket(plan,additionIds) {
   assert(Array.isArray(additionIds)&&additionIds.length>0&&additionIds.length<=25&&new Set(additionIds).size===additionIds.length,'Invalid correction-driven addition roster');
   for(const id of additionIds)assert(/^vocab-n[1-5]:correction:[a-z0-9-]+$/.test(id)&&!content(plan,id),'Invalid or existing allocated addition ID');
-  const p={version:1,policy:POLICY_ID,kind:'addition',snapshotHash:hash(additionIds),slot:1,entries:[],candidates:[],additionIds:clone(additionIds)};
+  const p={version:1,policy:activePolicy(plan),kind:'addition',snapshotHash:hash(additionIds),slot:1,entries:[],candidates:[],additionIds:clone(additionIds)};
   return {...p,packetHash:hash(p)};
 }
 function prepareDefectPacket(plan,defects) {
   assert(Array.isArray(defects)&&defects.length,'Explicit sample-defect records required');
   assert.equal(new Set(defects.map(d=>d.id)).size,defects.length,'Repeated sample-defect ID');
   const defectHeads=defects.map(d=>{assert(nonempty(d.id),'Missing sample-defect ID');return {id:d.id,predecessorDefectHash:plan.sampleDefects?.find(v=>v.id===d.id)?.revisionHash??null};});
-  const p={version:1,policy:POLICY_ID,kind:'sample-defect',snapshotHash:hash(defectHeads),slot:1,entries:[],candidates:[],defectHeads};
+  const p={version:1,policy:activePolicy(plan),kind:'sample-defect',snapshotHash:hash(defectHeads),slot:1,entries:[],candidates:[],defectHeads};
   return {...p,packetHash:hash(p)};
 }
 // A survivor edit must renew its historical equivalence approval without editing
@@ -95,6 +96,7 @@ function allocateMergeRevisions(packet,plan,fromIds) {
 }
 function checkPacket(packet,plan) {
   const {packetHash,...body}=packet;assert.equal(hash(body),packetHash,'Packet was modified');
+  assert.equal(packet.policy,activePolicy(plan),'Review policy changed; prepare a new packet');
   assert(packet.entries.length<=25,'Packet exceeds 25 entries');
   for(const row of packet.entries) {
     assert.deepStrictEqual(binding(plan,row.id),{sourceHash:row.sourceHash,predecessorRevisionHash:row.predecessorRevisionHash},'Stale packet '+row.id);
@@ -202,14 +204,14 @@ function assemble(packet,proposal,plan) {
         assert.equal(r.targetHashes?.[id],hash(project({...value,...edit?.replacement})),'Candidate target snapshot differs');
       }
     }
-    if(r.state==='accepted'||r.policy) assert.equal(r.policy?.id,POLICY_ID,'New acceptances require current policy');
+    if(r.state==='accepted'||r.policy) assert.equal(r.policy?.id,packet.policy,'New acceptances require current policy');
     if(!r.id&&!r.from&&r.state==='accepted')reviewRequirements(r,{id:recordKey(r),kind:'candidate'});
     if(r.id&&r.state==='accepted') {
       checkVerbMetadata(additions.get(r.id)===r?r.entry:{...content(plan,r.id),...r.replacement});
       r.policy.approvalBinding='entry-identity-v1';
     }
   }
-  const sampled=selectedForBatch((batch.reviews||[]).filter(r=>r.state==='accepted'&&r.policy?.risk==='routine').map(r=>r.id));
+  const sampled=packet.policy===AUTHOR_ONLY_POLICY_ID?new Set():selectedForBatch((batch.reviews||[]).filter(r=>r.state==='accepted'&&r.policy?.risk==='routine').map(r=>r.id));
   for(const r of batch.reviews||[]) if(r.policy) r.policy.sampled=sampled.has(r.id);
   const value={version:1,packet:clone(packet),batch,finalContent:Object.fromEntries([...(batch.reviews||[]).map(r=>[r.id,project({...content(plan,r.id),...r.replacement})]),...(batch.additions||[]).map(r=>[r.id,project(r.entry)])])};
   for(const m of batch.merges||[]) {
@@ -314,7 +316,7 @@ function importWaveUnlocked(assemblies,names,journalFile,options={}) {
   const batches=manifest.authoringFiles.map(file=>{const batch=read(path.join(base,file));assert.equal(hash(batch),manifest.batchHashes[file],'Historical batch changed');return batch;});
   const writes={};
   assemblies.forEach((a,i)=>{const name=names[i];assert(/^scripts\/vocabulary-completion\/[\w-]+\.json$/.test(name),'Invalid batch path');assert(!manifest.authoringFiles.includes(name)&&!fs.existsSync(path.join(base,name)),'Batch already exists');manifest.authoringFiles.push(name);manifest.batchHashes[name]=hash(a.batch);batches.push(a.batch);writes[name]=json(a.batch);});
-  manifest.activeReviewPolicy.id=POLICY_ID;
+  assert.equal(manifest.activeReviewPolicy.id,activePolicy(current),'Configured review policy differs from prepared wave');
   const expected=new Set([...Object.keys(current.files||{}),...names,manifestPath,'scripts/vocabulary-completion/COVERAGE.md',...(options.expectedFiles||[])]);
   const fileHash=file=>hash(fs.existsSync(path.join(base,file))?fs.readFileSync(path.join(base,file),'utf8'):null);
   const before=Object.fromEntries([...expected].map(file=>[file,fileHash(file)]));

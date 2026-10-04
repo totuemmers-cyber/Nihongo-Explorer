@@ -25,6 +25,7 @@ function evidence(records) {
 function review(record, item, requirements={id:'strict-full-v1',enrichmentRequired:true,independentReviewRequired:true}) {
   const {validateContent,validateReview} = require('./import-vocabulary-completion.cjs');
   validateContent(item,{enrichmentRequired:requirements.enrichmentRequired});
+  if (requirements.id==='author-only-v1') assert.equal(record.review?.reviewedDistinctContexts,true,'Two distinct contexts need explicit author review');
   if (item.senseKey !== undefined) assert(text(item.senseKey),'Invalid separate sense key');
   assert(Array.isArray(record.review?.contexts),'Context review must identify each example');
   validateReview({...record,review:{...record.review,contexts:record.review.contexts.join('; ')}});
@@ -105,6 +106,8 @@ function prepareCorrections(legacy, options) {
   const expected = new Map([...original].map(([id,v])=>[id,clone(v)]));
   for (const batch of batches) {
     assert.equal(batch.version,2,'Unsupported correction batch');
+    if (!options?.revisionReplay) assert(![...(batch.reviews||[]),...(batch.additions||[]),...(batch.merges||[])]
+      .some(record=>record.policy?.id==='author-only-v1'),'Author-only work must use the version 3 workflow');
     for (const record of batch.reviews || []) {
       assert(original.has(record.id) && !reviews.has(record.id),'Unknown or repeated review '+record.id);
       const old = original.get(record.id);
@@ -165,7 +168,10 @@ function prepareCorrections(legacy, options) {
     // closest surviving entry; it needs an explicit reason and relationship instead of equal readings.
     if (merge.retirement) assert(text(merge.retirement.reason) && text(merge.retirement.relationship),'Retirement needs reason and relationship');
     else assert.equal(from.reading,to.reading,'Cannot merge distinct readings');
-    assert(text(merge.equivalentSense) && text(merge.preservedContent) && text(merge.secondPass),'Unreviewed sense merge');
+    const authorReviewed=options?.revisionReplay && merge.workflowRequirements?.id==='author-only-v1'
+      && merge.workflowRequirements.independentReviewRequired===false;
+    assert(text(merge.equivalentSense) && text(merge.preservedContent)
+      && text(authorReviewed?merge.firstPass?.finding:merge.secondPass),'Unreviewed sense merge');
     evidence(merge.evidence);
     assert(reviews.has(merge.from)&&reviews.has(merge.to),'Both merged entries require review');
     rules.completionRedirects[merge.from] = merge.to;

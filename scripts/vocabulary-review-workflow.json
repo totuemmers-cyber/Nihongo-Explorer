@@ -1,11 +1,12 @@
 {
   "version": 3,
   "activeReviewPolicy": {
-    "id": "risk-based-v2",
-    "routineIndependentSamplePercent": 10,
-    "sampleSeed": "vocabulary-risk-review-2026-09-22",
-    "minimumReviewedExamples": 1,
-    "targetedEnrichment": true
+    "id": "author-only-v1",
+    "authorReviewRequired": true,
+    "independentReviewRequired": false,
+    "routineIndependentSamplePercent": 0,
+    "minimumReviewedExamples": 2,
+    "targetedEnrichment": false
   },
   "historicalManifest": "scripts/vocabulary-correction-review.json",
   "historicalManifestHash": "47035470b288c3e137bdd6dfdf7267d8bdd87d8b90c431297136ba23d51ff88b",

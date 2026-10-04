@@ -1,7 +1,7 @@
 // Read-only next checkpoint. A dictionary hit never changes work state.
 const {prepare}=require('./import-vocabulary-completion.cjs');
 const {levels,root}=require('./vocabulary-tools.cjs');
-const {selectedForBatch,POLICY_ID}=require('./vocabulary-review-policy.cjs');
+const {selectedForBatch,POLICY_ID,AUTHOR_ONLY_POLICY_ID}=require('./vocabulary-review-policy.cjs');
 const fs=require('fs'),path=require('path');
 const formKey = row => JSON.stringify([row.word,row.reading]);
 const retiredIds = plan => new Set((plan.merges || []).map(row => row.from));
@@ -66,7 +66,8 @@ function queue(plan,limit=25,options={}) {
   const shardCount=options.shardCount||1,shardIndex=options.shardIndex||0;
   if (!Number.isInteger(shardCount)||shardCount<1||!Number.isInteger(shardIndex)||shardIndex<0||shardIndex>=shardCount) throw new Error('Invalid queue shard');
   const selected=rows.filter((_,index)=>index%shardCount===shardIndex).slice(0,limit);
-  const sampled=selectedForBatch(selected.map(([id])=>id));
+  const policy=plan.reviewPolicyId||POLICY_ID;
+  const sampled=policy===AUTHOR_ONLY_POLICY_ID?new Set():selectedForBatch(selected.map(([id])=>id));
   const packets=options.evidence?researchPackets():null;
   const entries=selected.map(([id,v])=>({id,word:v.word,reading:v.reading,level:v.level,
     state:plan.workHeads?.get(id)?.state || 'pending',
@@ -83,8 +84,9 @@ function queue(plan,limit=25,options={}) {
   const scopedCandidates=options.level?unresolved.filter(c=>require('./vocabulary-phase-report.cjs').candidateLevel(plan.manifest.candidates.find(row=>row.key===c.key),ownershipPlan)===options.level):unresolved;
   const candidates=scopedCandidates.filter(c=>plan.manifest.candidates.find(v=>v.key===c.key).possibleTargets?.some(t=>ids.has(t.id))
     || c.references.some(r=>(plan.candidateHeads?.get(c.key+'#'+r.index)?.record.targets||[]).some(id=>ids.has(id))));
-  return {batchSize:limit,remainingEntries:rows.length,policy:POLICY_ID,
-    samplingInstruction:'After editorial classification, select ceil(routine records / 10) with selectedForBatch; queue samples are preliminary only.',
+  return {batchSize:limit,remainingEntries:rows.length,policy,
+    samplingInstruction:policy===AUTHOR_ONLY_POLICY_ID?'Exact author approval required; no independent sample is required. A separate second pass is optional.':
+      'After editorial classification, select ceil(routine records / 10) with selectedForBatch; queue samples are preliminary only.',
     snapshotWarning:'Allocate all worker shards from one unchanged queue snapshot before importing results.',
     shard:{index:shardIndex+1,count:shardCount},entries,
     candidates:entries.length?candidates:scopedCandidates.slice(0,limit)};

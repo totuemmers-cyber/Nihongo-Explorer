@@ -2,7 +2,8 @@ const assert = require('assert');
 const crypto = require('crypto');
 
 const POLICY_ID = 'risk-based-v2';
-const SUPPORTED_POLICY_IDS = new Set(['risk-based-v1', POLICY_ID]);
+const AUTHOR_ONLY_POLICY_ID = 'author-only-v1';
+const SUPPORTED_POLICY_IDS = new Set(['risk-based-v1', POLICY_ID, AUTHOR_ONLY_POLICY_ID]);
 const contentHash = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const same = (a,b) => JSON.stringify(a)===JSON.stringify(b);
 const japanese = value => (value.normalize('NFC').match(/「[^」]*」|『[^』]*』|[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Mark}\u3000-\u303f\uff00-\uffefー]+/gu)||[]);
@@ -57,6 +58,7 @@ function requirements(record,{id=record.id,addition=false,additionIdentity=addit
   assert.equal(new Set(policy.reasons).size,policy.reasons.length,'Repeated review risk reason');
   assert.equal(typeof policy.enrichmentRequired,'boolean','Missing enrichment decision');
   assert.equal(typeof policy.sampled,'boolean','Missing deterministic sample decision');
+  if (policy.id===AUTHOR_ONLY_POLICY_ID) assert.equal(policy.sampled,false,'Author-only review has no independent sample');
   const changed=Object.keys(patch).filter(field=>CONSEQUENTIAL_FIELDS.has(field));
   let exemptGermanEdit=false;
   if (policy.id===POLICY_ID && policy.risk==='routine' && changed.length) {
@@ -76,11 +78,12 @@ function requirements(record,{id=record.id,addition=false,additionIdentity=addit
   else assert.equal(policy.reasons.length,0,'Routine review cannot claim consequential reasons');
   if (policy.risk==='consequential') assert.equal(policy.sampled,false,'Consequential work is not part of the routine sample');
   if (addition) assert(policy.reasons.includes('addition'),'Addition risk reason required');
-  const requiresEnrichment=additionIdentity || policy.reasons.some(reason=>ENRICHMENT_REASONS.has(reason));
+  const requiresEnrichment=additionIdentity || policy.reasons.some(reason=>ENRICHMENT_REASONS.has(reason))
+    || policy.id===AUTHOR_ONLY_POLICY_ID && kind==='entry';
   if (requiresEnrichment) assert(policy.enrichmentRequired,'This review reason requires teaching enrichment');
   const sampled=policy.risk==='routine' && policy.sampled;
   return {id:policy.id,risk:policy.risk,sampled,enrichmentRequired:policy.enrichmentRequired,
-    independentReviewRequired:policy.risk==='consequential' || sampled};
+    independentReviewRequired:policy.id!==AUTHOR_ONLY_POLICY_ID && (policy.risk==='consequential' || sampled)};
 }
 
-module.exports={POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED,requirements,selectedForBatch,germanEditEligible};
+module.exports={POLICY_ID,AUTHOR_ONLY_POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED,requirements,selectedForBatch,germanEditEligible};

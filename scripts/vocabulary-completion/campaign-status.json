@@ -50,7 +50,9 @@
       "usageNotes": "every entry",
       "minimumDistinctExamples": 2,
       "reviewAllContexts": true,
-      "pitchInvestigation": true
+      "pitchInvestigation": true,
+      "authorReviewRequired": true,
+      "independentReviewRequired": false
     },
     "phases": {
       "N5": {
@@ -2352,6 +2354,41 @@
             "openSampleDefects": 0,
             "complete": false
           }
+        }
+      }
+    ],
+    "reviewPolicyChanges": [
+      {
+        "recordedAt": "2026-10-04T19:59:25.681Z",
+        "previousPolicy": "risk-based-v2",
+        "policy": "author-only-v1",
+        "authorization": "User: \"the independent review thing can be eliminated for all i care if it isnt going to break anything\"",
+        "scope": "Future entry revisions, additions, source decisions and merge approvals require exact author review; an independent second pass is optional. Historical batches retain their original policy and approvals. Full teaching, evidence, pitch investigation, immutable identities, reference bindings and runtime validation remain required.",
+        "verification": {
+          "verifiedAt": "2026-10-04T20:11:52.606Z",
+          "fullChecksPassed": 21,
+          "generatedFilesIdentical": 8,
+          "originalVocabularyIdentitiesPreserved": 15558,
+          "historicalBatchesUnchanged": 457,
+          "firstOnlyApprovalsTested": [
+            "entry revisions",
+            "additions",
+            "source decisions",
+            "merges",
+            "historical defect corrections"
+          ],
+          "exactApprovalAndEvidenceChecksPreserved": true,
+          "validationBeforeWritesPreserved": true,
+          "offlineReplayPassed": true,
+          "comprehensionAndAudioUnchanged": true,
+          "phaseGates": {
+            "N5": "open",
+            "N4": "open",
+            "N3": "open",
+            "N2": "open",
+            "N1": "open"
+          },
+          "campaignAdvanceDryRun": "refused: N5 remains open"
         }
       }
     ]

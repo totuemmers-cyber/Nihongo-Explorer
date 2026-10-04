@@ -36,7 +36,7 @@ function hydrate(packet,findings) {
     assert(pitchEvidence?.length,'Pitch evidence required');
     if(f.pitch.status==='verified') replacement.pitchProvenance=copy(pitchEvidence);
     const final={...old,...replacement};
-    const policy={id:POLICY_ID,risk:f.risk,reasons:f.reasons||[],enrichmentRequired:f.enrichmentRequired===true,sampled:false};
+    const policy={id:packet.policy||POLICY_ID,risk:f.risk,reasons:f.reasons||[],enrichmentRequired:f.enrichmentRequired===true,sampled:false};
     if(f.germanEdit) {
       let accepted=old;
       if(Object.hasOwn(row,'acceptedContent')) {

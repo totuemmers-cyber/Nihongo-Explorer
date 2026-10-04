@@ -9,6 +9,9 @@ const packet={entries:[{id:'test',content,sourceHash:hash(project(content)),pred
 const finding={id:'test',revisionId:'test-r1',rationale:'Explicit word sense selected',dictionary:[{sequence:'1',senses:[1],finding:'Word sense checked'}],
   risk:'routine',review:{reviewer:'editor'},pitch:{status:'verified',rationale:'Exact noun row checked',selections:[{locators:['row1'],patterns:[1],finding:'Noun accent1',sense:'word'}]}};
 const result=hydrate(packet,{entries:[finding]}).reviews[0];
+const authorOnly=hydrate({...packet,policy:'author-only-v1'},{entries:[{...finding,enrichmentRequired:true}]}).reviews[0];
+assert.equal(authorOnly.policy.id,'author-only-v1','Hydration must use the allocated active policy');
+assert(!authorOnly.firstPass&&!authorOnly.secondPass,'Author-only hydration must not invent approval');
 assert(!result.firstPass&&!result.secondPass,'Hydration must not manufacture editorial acceptance');
 assert.deepStrictEqual(result.replacement.pitchProvenance,result.pitch.evidence);
 assert.equal(result.evidence[0].selected.senses[0].sense,1);

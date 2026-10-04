@@ -12,15 +12,21 @@ historical records.
 Each entry needs a specific German usage note and at least two semantically
 distinct Japanese example contexts, with Modified Hepburn and complete German
 translations. Previously accepted entries missing this enrichment re-enter the
-queue. Every teaching change requires exact-content first and independent second
-approvals; no dictionary hit or generated template constitutes acceptance.
+queue. The user removed mandatory independent review on 4 October 2026.
+New work uses `author-only-v1`: each teaching change, addition, source decision
+and merge requires exact-content author approval; an independent second pass
+is optional. Every note, example, selected sense, role and pitch claim still
+needs source-backed author review and validation. No dictionary hit or generated
+template constitutes acceptance. The policy change is recorded in campaign
+status; sealed historical records keep their original independent approvals.
 
-From batches 066–067 onward, each parallel author performs and records the
-first editorial inspection under their own reviewer identity. This includes
+From batches 066–067 through checkpoint 166a, each parallel author performed
+and recorded the first editorial inspection under their own reviewer identity. This included
 reading every assembled final entry and checking its selected source evidence;
-the first pass is an author self-review. A separate reviewer independently
-inspects every entry and supplies the second pass. The root agent binds those
-actual decisions, resolves findings, and owns serialized imports and verification.
+the first pass was an author self-review. A separate reviewer independently
+inspected every entry and supplied the second pass. Future authors supply the
+single required approval themselves. The root agent binds actual decisions,
+resolves findings, and owns serialized imports and verification.
 
 Use `npm run report:vocabulary-completion -- --level=N5` for current counts and
 `npm run audit:vocabulary-enrichment -- --level=N5` to gate that phase. The normal

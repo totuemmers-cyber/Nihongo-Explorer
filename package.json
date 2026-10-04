@@ -19,7 +19,7 @@
     "audit:vocabulary-completion": "node scripts/audit-vocabulary-completion.cjs",
     "audit:vocabulary-enrichment": "node scripts/audit-vocabulary-completion.cjs --strict-enrichment",
     "report:vocabulary-completion": "node scripts/audit-vocabulary-completion.cjs --progress",
-    "test:vocabulary-completion": "node scripts/vocabulary-completion-test.cjs && node scripts/vocabulary-correction-test.cjs && node scripts/vocabulary-workflow-test.cjs && node scripts/vocabulary-batch-test.cjs && node scripts/vocabulary-research-cache-test.cjs && node scripts/vocabulary-editorial-record-test.cjs && node scripts/vocabulary-phase-test.cjs",
+    "test:vocabulary-completion": "node scripts/vocabulary-completion-test.cjs && node scripts/vocabulary-correction-test.cjs && node scripts/vocabulary-workflow-test.cjs && node scripts/vocabulary-batch-test.cjs && node scripts/vocabulary-research-cache-test.cjs && node scripts/vocabulary-editorial-record-test.cjs && node scripts/vocabulary-phase-test.cjs && node scripts/vocabulary-author-review-test.cjs",
     "review:vocabulary-queue": "node scripts/vocabulary-review-queue.cjs",
     "audit:radicals": "node audit-kanji-radicals.js",
     "audit:counters": "node audit-counters.js",

@@ -2,7 +2,7 @@
 const assert = require('assert');
 const {read, levels, key} = require('./vocabulary-tools.cjs');
 const {hash, project, prepareCorrections, validateReviewRecord, validatePitch} = require('./vocabulary-correction-pipeline.cjs');
-const {requirements:reviewRequirements,selectedForBatch,POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED} = require('./vocabulary-review-policy.cjs');
+const {requirements:reviewRequirements,selectedForBatch,POLICY_ID,AUTHOR_ONLY_POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED} = require('./vocabulary-review-policy.cjs');
 const {validateSourceNotationTargets}=require('./vocabulary-source-notation.cjs');
 const copy = v => JSON.parse(JSON.stringify(v));
 const text = v => typeof v === 'string' && v.trim().length > 0;
@@ -37,7 +37,7 @@ function approval(record, requirements, contentHash, approvalHash=contentHash) {
     assert.equal(record.firstPass.contentHash,contentHash,'First pass is stale');
     assert.equal(record.firstPass.approvalHash,approvalHash,'First-pass evidence/review approval is stale');
   }
-  if (requirements.independentReviewRequired) {
+  if (requirements.independentReviewRequired || requirements.id===AUTHOR_ONLY_POLICY_ID && record.secondPass!==undefined) {
     const secondPass=record.secondPass;
     assert(secondPass?.decision==='accepted','Explicit second-pass acceptance required');
     assert(text(secondPass.reviewer) && text(secondPass.finding),'Missing critical second pass');
@@ -69,8 +69,14 @@ function prepareWorkflow(legacy, options) {
     [...LEGACY_V2_APPROVAL_BATCH_HASHES].sort(),'Legacy v2 approval allowlist is frozen');
   if (m.activeReviewPolicy) {
     assert(SUPPORTED_POLICY_IDS.has(m.activeReviewPolicy.id),'Configured review policy differs from validator');
-    assert.equal(m.activeReviewPolicy.routineIndependentSamplePercent,10,'Unsupported routine sample rate');
-    assert.equal(m.activeReviewPolicy.sampleSeed,SAMPLE_SEED,'Configured review sample seed differs from validator');
+    if (m.activeReviewPolicy.id===AUTHOR_ONLY_POLICY_ID) {
+      assert.equal(m.activeReviewPolicy.routineIndependentSamplePercent,0,'Author-only review has no independent sample');
+      assert.equal(m.activeReviewPolicy.independentReviewRequired,false,'Author-only review cannot require a second pass');
+      assert.equal(m.activeReviewPolicy.minimumReviewedExamples,2,'Author-only review retains two reviewed examples');
+    } else {
+      assert.equal(m.activeReviewPolicy.routineIndependentSamplePercent,10,'Unsupported routine sample rate');
+      assert.equal(m.activeReviewPolicy.sampleSeed,SAMPLE_SEED,'Configured review sample seed differs from validator');
+    }
   }
   if (m.historicalManifest) {
     const historic=JSON.parse(read(m.historicalManifest));
@@ -128,11 +134,11 @@ function prepareWorkflow(legacy, options) {
   for (const batch of modern) {
     assert(Array.isArray(batch.reviews || []) && Array.isArray(batch.additions || []),'Invalid authoring collections');
     const batchRecords=[...(batch.additions||[]),...(batch.reviews||[])];
-    for(const r of batchRecords) if(r.state==='accepted' && r.policy?.id===POLICY_ID
+    for(const r of batchRecords) if(r.state==='accepted' && [POLICY_ID,AUTHOR_ONLY_POLICY_ID].includes(r.policy?.id)
       && !(m.legacyV2ApprovalBatchHashes||[]).includes(hash(batch))) {
       assert.equal(r.policy.approvalBinding,'entry-identity-v1','V2 acceptance requires entry identity approval binding');
     }
-    if (batchRecords.some(r=>r.policy?.id===POLICY_ID)) {
+    if (batchRecords.some(r=>[POLICY_ID,AUTHOR_ONLY_POLICY_ID].includes(r.policy?.id))) {
       assert(batchRecords.length<=25,'V2 review batches are limited to 25 entries');
       assert.equal(new Set(batchRecords.map(r=>r.id)).size,batchRecords.length,'V2 batch repeats an entry');
     }
@@ -141,8 +147,8 @@ function prepareWorkflow(legacy, options) {
         const routine=batchRecords.filter(r=>r.policy?.id===policyId && r.policy.risk==='routine');
         // Preserve historical v1 selection, including its draft behavior. New
         // batches must sample entries actually accepted in this import.
-        const pool=policyId===POLICY_ID?routine.filter(r=>r.state==='accepted'):routine;
-        const sampled=selectedForBatch(pool.map(r=>r.id));
+        const pool=policyId==='risk-based-v1'?routine:routine.filter(r=>r.state==='accepted');
+        const sampled=policyId===AUTHOR_ONLY_POLICY_ID?new Set():selectedForBatch(pool.map(r=>r.id));
         for (const r of routine) assert.equal(r.policy.sampled,sampled.has(r.id),'Routine sample selection differs from fixed batch sample');
       }
     }
@@ -287,7 +293,7 @@ function prepareWorkflow(legacy, options) {
           const head=heads.get(id),requirements=acceptedRequirements.get(id),exact=defect.approvals[id];
           assert(head?.state==='accepted','Sample-defect clearance target is not accepted');
           assert.notEqual(head.revisionHash,previous.openedHeadHashes[id],'Sample-defect target was not reviewed after escalation');
-          assert(requirements?.independentReviewRequired,'Sample-defect target lacks independent review');
+          assert(requirements?.independentReviewRequired || requirements?.id===AUTHOR_ONLY_POLICY_ID,'Sample-defect target lacks independent review');
           assert.equal(exact.revisionHash,head.revisionHash,'Sample-defect clearance revision is stale');
           assert.equal(exact.contentHash,head.contentHash,'Sample-defect clearance content is stale');
         }
@@ -313,7 +319,9 @@ function prepareWorkflow(legacy, options) {
   for (const r of mergeRecords.values()) {
     assert.equal(r.fromHash,hash(project(accepted.get(r.from))),'Merged content changed; fresh merge review required');
     assert.equal(r.toHash,hash(project(accepted.get(r.to))),'Merge target changed; fresh merge review required');
-    flattened.merges.push({...r,secondPass:typeof r.secondPass==='string'?r.secondPass:r.secondPass.finding});
+    const requirements=r.policy?reviewRequirements(r,{kind:'merge'}):{id:'strict-full-v1',independentReviewRequired:true};
+    flattened.merges.push({...r,workflowRequirements:requirements,
+      ...(r.secondPass?{secondPass:typeof r.secondPass==='string'?r.secondPass:r.secondPass.finding}:{})});
   }
   // Map insertion order is the first acceptance order, not the first draft order.
   // A draft accepted later must not shift an addition already in the raw source.
@@ -364,6 +372,7 @@ function prepareWorkflow(legacy, options) {
     redirects:JSON.parse(plan.files['scripts/vocabulary-completion/ledger.json']).redirects},null,2)+'\n';
   return {...plan,decisions,ledger,candidateLedger,workStates,pendingAdditions:pendingAdditions.length,
     sampleDefects:sampleDefectLedger,openSampleDefects:sampleDefectLedger.filter(d=>d.state==='open').length,
-    reviewedDistinctContextIds,workHeads:heads,candidateHeads:refHeads,mergeHeads:mergeRecords,workingItems:working};
+    reviewedDistinctContextIds,reviewPolicyId:m.activeReviewPolicy?.id||POLICY_ID,
+    workHeads:heads,candidateHeads:refHeads,mergeHeads:mergeRecords,workingItems:working};
 }
 module.exports={prepareWorkflow,entryApprovalHash,decisionHash,mergeHash,states,LEGACY_V2_APPROVAL_BATCH_HASHES};
