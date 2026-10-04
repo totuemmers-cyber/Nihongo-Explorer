@@ -34,6 +34,18 @@ function validateSourceNotation(ref,target,notation) {
       assert.equal(notation.word,ref.word,'Kana conversion changed source spelling');
       assert.equal(kana(notation.reading),kana(ref.reading),'Kana conversion changed pronunciation');
       break;
+    case 'kana-orthography': {
+      // Only the modern-kana ji/zu spelling pairs have matching pronunciation.
+      // Keep the complete source word; this cannot repair missing dakuten,
+      // another reading, a truncated form, or an arbitrary spelling mistake.
+      const source=normalized(ref.reading),reading=normalized(notation.reading);
+      assert(/^[ぁ-ゖー]+$/u.test(source)&&/^[ぁ-ゖー]+$/u.test(reading),'Orthographic readings must be complete hiragana');
+      assert.equal(notation.word,ref.word,'Kana orthography changed source spelling');
+      assert.notEqual(source,reading,'Kana orthography requires a spelling difference');
+      const sound=s=>s.replace(/ぢ/g,'じ').replace(/づ/g,'ず');
+      assert.equal(sound(source),sound(reading),'Kana orthography changed pronunciation');
+      break;
+    }
     case 'combined-spellings': {
       const words=ref.word.split(/[/／]/u);
       assert(words.length>=2&&words.length<=3&&new Set(words).size===words.length&&words.every(Boolean),'Unsupported combined spellings');

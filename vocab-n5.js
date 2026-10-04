@@ -39789,5 +39789,221 @@ window.VOCAB_N5 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n5:correction:rajio-kasetto"
+  },
+  {
+    "word": "一昨日",
+    "reading": "いっさくじつ",
+    "romaji": "issakujitsu",
+    "meaning": "vorgestern (Lesung いっさくじつ)",
+    "type": "Nomen",
+    "category": "Zeitangaben",
+    "level": "N5",
+    "notes": "一昨日 wird hier いっさくじつ gelesen und nennt den Tag vor gestern. Diese chinesisch-japanische Lesung passt etwa zu einer schriftlichen Mitteilung oder einem Bericht; im alltäglichen Gespräch ist おととい üblich. Beide Lesungen bezeichnen denselben Tag. 一昨日の nennt etwas von diesem Tag, 一昨日から einen Beginn an diesem Tag. Das kleine っ verdoppelt den s-Laut: issakujitsu.",
+    "examples": [
+      {
+        "japanese": "一昨日の会議で、新しい計画が決まりました。",
+        "romaji": "Issakujitsu no kaigi de, atarashii keikaku ga kimarimashita.",
+        "german": "In der Sitzung vorgestern wurde der neue Plan beschlossen."
+      },
+      {
+        "japanese": "一昨日から、図書館の利用時間が変わりました。",
+        "romaji": "Issakujitsu kara, toshokan no riyō jikan ga kawarimashita.",
+        "german": "Seit vorgestern gelten in der Bibliothek andere Nutzungszeiten."
+      }
+    ],
+    "pitch": 4,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 2a99a0c5b02bcd9e2fdd0765c2df675a0e37300b3cefd2100d9102e7df5ddf1c",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%98%A8%E6%97%A5#word_3931",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          4
+        ],
+        "selectedCell": {
+          "id": "3931",
+          "head": "一昨日",
+          "forms": [
+            {
+              "chars": "いっさくじつ",
+              "reverse": 3
+            }
+          ]
+        },
+        "finding": "Personally read original whole citation cell3931, 6 morae; exact forms [{\"chars\":\"いっさくじつ\",\"reverse\":3}], patterns 4. Actual original1576050 sole noun/adverb day-before-yesterday1 with unrestrictedいっさくじつ reading; おととい/おとつい remain distinct reading identities. Actual Shogakukan heads independently attestいっさくじつ, not mechanical compound inference. Exact original UniDic whole surface query zero; complete OJAD3931 six-moraいっさくじつ reversepeak3 yields4. Noおととい contour transfer. Editorial written-report contexts appropriate for Sino-Japanese reading; no claim it is forbidden in speech.",
+        "match": {
+          "word": "一昨日",
+          "reading": "いっさくじつ",
+          "grammaticalForm": "Whole selected numeral or nominal/adverbial citation, not alternative-reading/compound transfer",
+          "sense": "vorgestern (Lesung いっさくじつ)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:issakujitsu-day-before-yesterday"
+  },
+  {
+    "word": "一昨年",
+    "reading": "いっさくねん",
+    "romaji": "issakunen",
+    "meaning": "vor zwei Jahren; Vorvorjahr (Lesung いっさくねん)",
+    "type": "Nomen",
+    "category": "Zeitangaben",
+    "level": "N5",
+    "notes": "一昨年 wird hier いっさくねん gelesen und bedeutet das Jahr vor dem letzten Jahr, also vor zwei Jahren. Die Lesung passt etwa zu Berichten und Rückblicken; im alltäglichen Gespräch ist おととし üblich. 一昨年の ordnet etwas diesem Jahr zu. 一昨年から nennt einen Beginn vor zwei Jahren. Gemeint ist das Kalenderjahr, nicht unbedingt ein Abstand von genau 24 Monaten. Das kleine っ verdoppelt den s-Laut: issakunen.",
+    "examples": [
+      {
+        "japanese": "一昨年の売上は、昨年より多かったです。",
+        "romaji": "Issakunen no uriage wa, sakunen yori ōkatta desu.",
+        "german": "Der Umsatz vor zwei Jahren war höher als im vergangenen Jahr."
+      },
+      {
+        "japanese": "この会社は一昨年から海外にも商品を売っています。",
+        "romaji": "Kono kaisha wa issakunen kara kaigai ni mo shōhin o utte imasu.",
+        "german": "Dieses Unternehmen verkauft seit dem Vorvorjahr auch Waren im Ausland."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      4
+    ],
+    "pitchProvenance": [
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 e862792da16751c84fd4a2b00833ef83792fe75e939ec64da0916c07b9160ac9",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%98%A8%E5%B9%B4#word_3932",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          0,
+          4
+        ],
+        "selectedCell": {
+          "id": "3932",
+          "head": "一昨年",
+          "forms": [
+            {
+              "chars": "いっさくねん",
+              "reverse": 0
+            },
+            {
+              "chars": "いっさくねん",
+              "reverse": 3
+            }
+          ]
+        },
+        "finding": "Personally read original whole citation cell3932, 6 morae; exact forms [{\"chars\":\"いっさくねん\",\"reverse\":0},{\"chars\":\"いっさくねん\",\"reverse\":3}], patterns 0/4. Actual original1576060 sole year-before-last noun/adverb1;いっさくねん reading explicitly restricted一昨年, soおと年 is not an alias for this reading. Existingおととし card preserved. Actual Shogakukan exact head/definition attests reading. Original UniDic exact whole row zero; actual complete OJAD3932 prints two whole six-moraいっさくねん contours flat0 and reversepeak3=4. Both retained, noおととし transfer. Sino-Japanese report contexts reflect reading without categorical speech prohibition.",
+        "match": {
+          "word": "一昨年",
+          "reading": "いっさくねん",
+          "grammaticalForm": "Whole selected numeral or nominal/adverbial citation, not alternative-reading/compound transfer",
+          "sense": "vor zwei Jahren; Vorvorjahr (Lesung いっさくねん)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:issakunen-year-before-last"
+  },
+  {
+    "word": "十",
+    "reading": "とお",
+    "romaji": "tō",
+    "meaning": "zehn (einheimische Zählreihe)",
+    "type": "Nomen",
+    "category": "Zahlen und Mengen",
+    "level": "N5",
+    "notes": "十 wird hier とお gelesen, als Ende der einheimischen Zählreihe 一つ、二つ、三つ…九つ、十. Damit kann man zehn Dinge zählen, ohne ein besonderes Zählwort zu nennen. Anders als bei 一つ bis 九つ folgt auf とお kein つ. In der chinesisch-japanischen Zahlenreihe lautet zehn じゅう. Beide Formen haben einen langen Vokal; die Umschrift von とお ist tō.",
+    "examples": [
+      {
+        "japanese": "箱の中にみかんが十あります。",
+        "romaji": "Hako no naka ni mikan ga tō arimasu.",
+        "german": "In der Kiste sind zehn Mandarinen."
+      },
+      {
+        "japanese": "子供と一つから十まで数えました。",
+        "romaji": "Kodomo to hitotsu kara tō made kazoemashita.",
+        "german": "Ich habe mit dem Kind in der einheimischen Zählreihe von eins bis zehn gezählt."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183680273",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@183680273",
+          "originalFields": [
+            "名詞",
+            "数詞",
+            "*",
+            "*",
+            "*",
+            "*",
+            "トオ",
+            "十",
+            "十",
+            "トー",
+            "十",
+            "トー",
+            "和",
+            "*",
+            "*",
+            "オ長削",
+            "基本形",
+            "*",
+            "*",
+            "数",
+            "トオ",
+            "トオ",
+            "トオ",
+            "トオ",
+            "1",
+            "C3",
+            "*",
+            "7197686616957440",
+            "26185"
+          ]
+        },
+        "finding": "Actually read original whole numeral 十, surfacekana20=トオ, pronunciation9=トー, aType=1. Actual original1579840 numeric ten1, exactとお reading restricted十/１０; unrelated什 poetic-book3 and ten-years-age2 are not selected. Original183680273 actual十 surfacekanaトオ/pronトー numeric noun aType1; complete OJAD9117 wholeとお two morae reversepeak2=1 corroborates. Global no exactとお head/alias, existing十1475じゅう and十日1490とおか preserved. Genuine original TANOSN5page15 literalじゅう とお supplies N5 alternate-reading basis; TANOSN3とお literal also matches. No arbitrary normalization or bare-from-date contour inference.",
+        "match": {
+          "word": "十",
+          "reading": "とお",
+          "grammaticalForm": "Exact native numeric citation, not calendar-day derivative",
+          "sense": "zehn (einheimische Zählreihe)"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 11166647b7c0e8f18094ab00c904abbbc4d1d566d3a6212c90d98ce9262b20ac",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8D%81#word_9117",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          1
+        ],
+        "selectedCell": {
+          "id": "9117",
+          "head": "十",
+          "forms": [
+            {
+              "chars": "とお",
+              "reverse": 2
+            }
+          ]
+        },
+        "finding": "Personally read original whole citation cell9117, 2 morae; exact forms [{\"chars\":\"とお\",\"reverse\":2}], patterns 1. Actual original1579840 numeric ten1, exactとお reading restricted十/１０; unrelated什 poetic-book3 and ten-years-age2 are not selected. Original183680273 actual十 surfacekanaトオ/pronトー numeric noun aType1; complete OJAD9117 wholeとお two morae reversepeak2=1 corroborates. Global no exactとお head/alias, existing十1475じゅう and十日1490とおか preserved. Genuine original TANOSN5page15 literalじゅう とお supplies N5 alternate-reading basis; TANOSN3とお literal also matches. No arbitrary normalization or bare-from-date contour inference.",
+        "match": {
+          "word": "十",
+          "reading": "とお",
+          "grammaticalForm": "Whole selected numeral or nominal/adverbial citation, not alternative-reading/compound transfer",
+          "sense": "zehn (einheimische Zählreihe)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:to-ten-general-counter"
   }
 ];

@@ -476,7 +476,8 @@ const notationCases=[
   [{word:'暖かい',reading:'あたたか(い)'}, {word:'暖かい',reading:'あたたかい'}, {kind:'parenthetical-reading',word:'暖かい',reading:'あたたかい'}],
   [{word:'急に',reading:'急に',gloss:'きゅうに'}, {word:'急に',reading:'きゅうに'}, {kind:'misplaced-reading',word:'急に',reading:'きゅうに'}],
   [{word:'塵',reading:'ごみ'}, {word:'ゴミ',reading:'ゴミ',aliases:['塵']}, {kind:'kana-script',word:'塵',reading:'ゴミ'}],
-  [{word:'川/河',reading:'かわ'}, {word:'川',reading:'かわ',aliases:['河']}, {kind:'combined-spellings',word:'川',reading:'かわ'}]
+  [{word:'川/河',reading:'かわ'}, {word:'川',reading:'かわ',aliases:['河']}, {kind:'combined-spellings',word:'川',reading:'かわ'}],
+  [{word:'三日月',reading:'みかずき'}, {word:'三日月',reading:'みかづき'}, {kind:'kana-orthography',word:'三日月',reading:'みかづき'}]
 ];
 for(const [ref,target,notation] of notationCases) {
   validateSourceNotation(ref,target,notation);
@@ -492,6 +493,12 @@ assert.throws(()=>validateSourceNotation({word:'暖かい',reading:'あたたか
 assert.throws(()=>validateSourceNotation({word:'急に',reading:'急に',gloss:'suddenly'},notationCases[2][1],notationCases[2][2]),/contain this reading/);
 assert.throws(()=>validateSourceNotation({word:'塵',reading:'ちり'},notationCases[3][1],notationCases[3][2]),/changed pronunciation/);
 assert.throws(()=>validateSourceNotation(notationCases[4][0],{word:'川',reading:'かわ'},notationCases[4][2]),/not fully covered/);
+validateSourceNotation({word:'縮む',reading:'ちじむ'},{word:'縮む',reading:'ちぢむ'},{kind:'kana-orthography',word:'縮む',reading:'ちぢむ'});
+const[orthographicRef,orthographicTarget,orthographicNotation]=notationCases[5];
+for(const reading of ['みかづき','みかすき','みかず','みがずき','みかずき ','みか ずき','ミカズキ','三日月'])
+  assert.throws(()=>validateSourceNotation({...orthographicRef,reading},orthographicTarget,orthographicNotation));
+assert.throws(()=>validateSourceNotation({word:'灰皿',reading:'はいさら'},{word:'灰皿',reading:'はいざら'},{kind:'kana-orthography',word:'灰皿',reading:'はいざら'}),/changed pronunciation/);
+assert.throws(()=>validateSourceNotation({...orthographicRef,word:'月'},orthographicTarget,orthographicNotation),/changed source spelling/);
 
 for(const ref of [
   {word:'椅子',reading:'い(す)',gloss:'chair',url:'fixture:parentheses'},
@@ -518,7 +525,7 @@ for(const ref of [
   }
   d.disposition='verified-spelling-variant';delete d.sourceNormalization;sealNotation();assert.throws(nrun,/Variant reading differs|Missing variant alias/);
 }
-console.log('Source-notation regressions passed: five bounded formats, unrelated forms rejected, exact/independent approvals enforced, strict spelling checks preserved.');
+console.log('Single-target source-notation regressions passed: six bounded formats, unrelated forms rejected, exact/independent approvals enforced, strict spelling checks preserved.');
 
 const multiNotationCases=[
   [{word:'毎年',reading:'まいとし / まいねん'},[{word:'毎年',reading:'まいとし'},{word:'毎年',reading:'まいねん'}],{kind:'alternative-readings',word:'毎年',reading:'まいとし / まいねん'}],
@@ -563,7 +570,7 @@ for(const[ref,target,notation]of notationCases) {
 
 // These are structural fixtures, not production lexical claims. Verify that
 // all independently accepted cards and the full source normalization are bound.
-for(const[ref,specs,notation]of multiNotationCases) {
+for(const[ref,specs,notation]of [...multiNotationCases,[orthographicRef,[orthographicTarget],orthographicNotation]]) {
   const source={...ref,gloss:'Synthetic multi-form reference.',url:'fixture:multi-source'},candidate={key:'multi-notation-fixture',word:source.word,reading:source.reading,references:[source]},mf=fixture([candidate]),mrun=()=>prepareCorrections(mf.legacy,mf.options);
   const additions=specs.map((spec,index)=>{
     const entry={...copy(complete.entries[0]),word:spec.word,reading:spec.reading,aliases:[],pitch:null};delete entry.pitchVariants;delete entry.pitchProvenance;
@@ -578,11 +585,11 @@ for(const[ref,specs,notation]of multiNotationCases) {
     reason:'Synthetic exact multi-form source review.',evidence:copy(additions[0].pitch.evidence),policy:{id:'risk-based-v2',risk:'consequential',reasons:['source-notation'],enrichmentRequired:false,sampled:false}};
   const seal=()=>{const h=decisionHash(d);d.firstPass={decision:'accepted',reviewer:'Fixture multi-form author',finding:'Synthetic structural first pass.',contentHash:h,approvalHash:h};d.secondPass={...d.firstPass,reviewer:'Fixture independent multi-form reviewer'};};
   seal();mf.options.batches.push({version:3,decisions:[d]});assert.equal(report(mrun()).unresolvedCandidateReferences,0);const saved=copy(d);
-  d.sourceNormalization.reading+=' ';assert.throws(mrun,/First pass is stale|changed source notation|changed reading/);Object.assign(d,copy(saved));
-  d.targetHashes[targetIds[1]]='stale';seal();assert.throws(mrun,/Candidate target approval is stale/);Object.assign(d,copy(saved));
-  d.targets.pop();delete d.targetHashes[targetIds.at(-1)];seal();assert.throws(mrun,/cover every distinct form/);Object.assign(d,copy(saved));
+  d.sourceNormalization.reading+=' ';assert.throws(mrun,specs.length===1?/Source notation reading differs/:/First pass is stale|changed source notation|changed reading/);Object.assign(d,copy(saved));
+  d.targetHashes[targetIds.at(-1)]='stale';seal();assert.throws(mrun,/Candidate target approval is stale/);Object.assign(d,copy(saved));
+  d.targets.pop();delete d.targetHashes[targetIds.at(-1)];seal();assert.throws(mrun,specs.length===1?/Invalid candidate targets/:/cover every distinct form/);Object.assign(d,copy(saved));
   delete d.secondPass;assert.throws(mrun,/second-pass acceptance/);Object.assign(d,copy(saved));
   d.secondPass.reviewer=d.firstPass.reviewer;assert.throws(mrun,/Independent reviewer/);Object.assign(d,copy(saved));
-  const savedAddition=copy(additions[1]);delete additions[1].secondPass;assert.throws(mrun,/second-pass acceptance/);Object.assign(additions[1],savedAddition);
+  const savedAddition=copy(additions.at(-1));delete additions.at(-1).secondPass;assert.throws(mrun,/second-pass acceptance/);Object.assign(additions.at(-1),savedAddition);
 }
-console.log('Multi-form source regressions passed: every reading/spelling bound to a distinct accepted card; missing, unrelated, ambiguous and stale forms rejected.');
+console.log('Source-form regressions passed: distinct complete forms and bounded kana orthography; missing, unrelated, ambiguous and stale targets rejected.');

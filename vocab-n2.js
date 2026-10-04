@@ -75888,5 +75888,207 @@ window.VOCAB_N2 = [
     "pitchProvenance": [],
     "senseKey": "measuring-device",
     "correctionId": "vocab-n2:correction:metoru-measuring-device"
+  },
+  {
+    "word": "頭",
+    "reading": "とう",
+    "romaji": "tō",
+    "meaning": "Zählwort für große Tiere",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N2",
+    "notes": "頭（とう） steht nach einer Zahl, wenn große Tiere wie Rinder, Pferde oder Elefanten gezählt werden. 象が三頭いる nennt die Anzahl vorhandener Tiere; 馬を二頭連れてくる beschreibt Tiere, die jemand mitbringt. Für viele kleinere Tiere verwendet man 匹（ひき）. Das eigenständige Wort für den Kopf heißt 頭（あたま）; dieselbe Kanji-Schreibung hat hier eine andere Lesung und Aufgabe.",
+    "examples": [
+      {
+        "japanese": "動物園には象が三頭います。",
+        "romaji": "Dōbutsuen ni wa zō ga santō imasu.",
+        "german": "Im Zoo gibt es drei Elefanten."
+      },
+      {
+        "japanese": "係の人が馬を二頭連れてきました。",
+        "romaji": "Kakari no hito ga uma o nitō tsurete kimashita.",
+        "german": "Der zuständige Mitarbeiter hat zwei Pferde mitgebracht."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:tou-animal-counter"
+  },
+  {
+    "word": "泊",
+    "reading": "はく",
+    "romaji": "haku",
+    "meaning": "Zählwort für Übernachtungen",
+    "type": "Nomen",
+    "category": "Reisen",
+    "level": "N2",
+    "notes": "泊 zählt die Nächte eines Aufenthalts, während 日 die Tage zählt. 二泊三日 bedeutet zwei Übernachtungen und drei Tage. Mit 泊まる beschreibst du den Aufenthalt; 一泊延ばす heißt ihn um eine Nacht verlängern. Lerne die Zahl zusammen mit dem Zählwort: 二泊 heißt にはく, bei 一泊 wird daraus いっぱく. Die Grundlesung はく allein lässt diese Lautänderung noch nicht erkennen.",
+    "examples": [
+      {
+        "japanese": "京都に二泊三日で旅行します。",
+        "romaji": "Kyōto ni nihaku mikka de ryokō shimasu.",
+        "german": "Ich reise für drei Tage mit zwei Übernachtungen nach Kyoto."
+      },
+      {
+        "japanese": "予定が変わったので、ホテルの滞在を一泊延ばしました。",
+        "romaji": "Yotei ga kawatta node, hoteru no taizai o ippaku nobashimashita.",
+        "german": "Weil sich meine Pläne geändert haben, habe ich den Hotelaufenthalt um eine Nacht verlängert."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213075858",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 泊/ハク; lemma 泊; POS 名詞/普通名詞/助数詞可能/*; aType 1. Full original1919550 exactはく counter1 selected; rare independent lodging noun2 explicitly unselected. Original surface row213075858 is common noun/助数詞可能, literally counter-capable, lemma泊 and exactハク aType1: this is a bare lexical counter-capable form, not an overnight-lodging-only plain-noun row or a numbered compound. It supports barehead1 only; surfaceパク213076050 is a different allomorph, not a second canonical reading variant. Complete OJAD12356いっぱく0 attests the whole example reading but is not headpitch provenance; no bareはく cell returned. Actual JPF Intermediate1 EN page18 printed17 records ～泊/～┐はく, downstep on unspecified preceding quantity; that placeholder does not establish numeric bareはく pitch and is not converted to1. Every numbered example remains without any invented compound contour.",
+        "match": {
+          "word": "泊",
+          "reading": "はく",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; cType *; cForm *; bare counter-capable lexical head, no number attached",
+          "sense": "Full original1919550 exactはく counter1 selected; rare independent lodging noun2 explicitly unselected. Original surface row213075858 is common noun/助数詞可能, literally counter-capable, lemma泊 and exactハク aType1: this is a bare lexical counter-capable form, not an overnight-lodging-only plain-noun row or a numbered compound. It supports barehead1 only; surfaceパク213076050 is a different allomorph, not a second canonical reading variant. Complete OJAD12356いっぱく0 attests the whole example reading but is not headpitch provenance; no bareはく cell returned. Actual JPF Intermediate1 EN page18 printed17 records ～泊/～┐はく, downstep on unspecified preceding quantity; that placeholder does not establish numeric bareはく pitch and is not converted to1. Every numbered example remains without any invented compound contour."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:haku-stay-counter"
+  },
+  {
+    "word": "隻",
+    "reading": "せき",
+    "romaji": "seki",
+    "meaning": "Zählwort für Schiffe; einen Teil eines Paares",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N2",
+    "notes": "隻 zählt Schiffe. Außerdem begegnet es dir bei Stellschirmen: Ein Paar zusammengehöriger 屏風 heißt 一双（いっそう）, ein einzelner Schirm daraus 一隻（いっせき）. So kann dieselbe Einheit im Hafen eine Schiffsanzahl und im Museum einen Teil eines Schirmpaares bezeichnen. Achte auf das kleine っ in 一隻; zwei Schiffe heißen 二隻（にせき）.",
+    "examples": [
+      {
+        "japanese": "港には船が二隻停泊しています。",
+        "romaji": "Minato ni wa fune ga niseki teihaku shite imasu.",
+        "german": "Im Hafen liegen zwei Schiffe."
+      },
+      {
+        "japanese": "一対の屏風のうち、一隻だけが展示されています。",
+        "romaji": "Ittsui no byōbu no uchi, isseki dake ga tenji sarete imasu.",
+        "german": "Von einem Stellschirmpaar ist nur ein einzelner Schirm ausgestellt."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:seki-counter"
+  },
+  {
+    "word": "島",
+    "reading": "とう",
+    "romaji": "tō",
+    "meaning": "Insel (Suffix in Ortsnamen)",
+    "type": "Nomen",
+    "category": "Geografie",
+    "level": "N2",
+    "notes": "In manchen Inselnamen wird das abschließende 島 als とう gelesen. Ein belegtes Beispiel ist 硫黄島（いおうとう）. Diese Lesung gehört zum vollständigen Ortsnamen; andere Namen können しま oder じま enthalten. Das allgemeine Wort für eine Insel lautet 島（しま）. Merke dir deshalb bei einem neuen Inselnamen immer die ganze Lesung, statt überall とう einzusetzen.",
+    "examples": [
+      {
+        "japanese": "地図で硫黄島の位置を確認しました。",
+        "romaji": "Chizu de Iōtō no ichi o kakunin shimashita.",
+        "german": "Ich habe auf der Karte die Lage von Iōtō überprüft."
+      },
+      {
+        "japanese": "研究者たちは硫黄島の火山活動を調べています。",
+        "romaji": "Kenkyūshatachi wa Iōtō no kazan katsudō o shirabete imasu.",
+        "german": "Die Forscher untersuchen die vulkanische Aktivität von Iōtō."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:tou-island-name-suffix"
+  },
+  {
+    "word": "早口",
+    "reading": "はやぐち",
+    "romaji": "hayaguchi",
+    "meaning": "schnelles Sprechen (Lesung はやぐち)",
+    "type": "Nomen",
+    "category": "Sprechen",
+    "level": "N2",
+    "notes": "早口 hat neben はやくち auch die Lesung はやぐち. Beide bezeichnen schnelles Sprechen. 早口で erklärt die Art des Sprechens, etwa in 早口で話す. Das Wort sagt etwas über das Tempo, nicht darüber, ob die Person geschickt formuliert oder viele Fremdsprachen beherrscht. In der ersten Situation verhindert das Tempo das Verstehen; die zweite empfiehlt eine deutlichere Erklärung. Der gleich gelesene Ortsname 早口 gehört zu einer anderen Verwendung.",
+    "examples": [
+      {
+        "japanese": "受付の説明が早口で、部屋番号を聞き取れませんでした。",
+        "romaji": "Uketsuke no setsumei ga hayaguchi de, heya bangō o kikitoremasen deshita.",
+        "german": "Die Erklärung an der Rezeption war so schnell gesprochen, dass ich die Zimmernummer nicht verstehen konnte."
+      },
+      {
+        "japanese": "早口で話すより、一つずつはっきり説明したほうが伝わります。",
+        "romaji": "Hayaguchi de hanasu yori, hitotsu zutsu hakkiri setsumei shita hō ga tsutawarimasu.",
+        "german": "Es kommt besser an, wenn man die Punkte einzeln klar erklärt, als wenn man schnell spricht."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217945219",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@217945219",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "ハヤクチ",
+            "早口",
+            "早口",
+            "ハヤグチ",
+            "早口",
+            "ハヤグチ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ハヤグチ",
+            "ハヤグチ",
+            "ハヤグチ",
+            "ハヤグチ",
+            "2",
+            "C1",
+            "*",
+            "8285936840483328",
+            "30144"
+          ]
+        },
+        "finding": "Personally parsed exact original sys.dic@217945219, orth=早口, surfacekana20=ハヤグチ, pronunciation9=ハヤグチ, lemma=早口, POS=名詞/普通名詞/一般/*, */*, aType=2. Whole canonical/positivelyverifiedsame-readingalias role; no names, unrelated homophone or compound accent. Full1400240 noun/noadjective speechtempo1 allowsboth早口/速口 withはやくち/はやぐち unrestricted. Shogakukan Nihonkoku expresslyalsoはやぐち under speechdefinition, not separateBritannica place. Actualordinarynominal217945219 exactwholeハヤグチ aType2; original1020はやくち notreshaped/no pitchborrow. LiteralSenseiN2 supportsestimatedlevel.",
+        "match": {
+          "word": "早口",
+          "reading": "はやぐち",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "schnelles Sprechen (Lesung はやぐち)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:hayaguchi-fast-talking"
   }
 ];

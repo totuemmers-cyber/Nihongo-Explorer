@@ -212,6 +212,32 @@ All 1,683 current N5 cards have complete reviewed teaching and investigated pitc
 The remaining 194 source references across 140 groups keep N5 active; N4–N1 remain
 pending. This checkpoint does not certify a level.
 
+The eleventh verified checkpoint adds 27 fully reviewed reading and grammatical-role
+cards and resolves 47 further frozen references. Campaign totals are 1,606 unique
+original entries enriched, 128 additions and 415 frozen references resolved.
+Formal date readings, counters, affixes and qualified alternate spellings receive
+complete German teaching, distinct contexts and investigated pitch. Separate
+noun and affix uses retain their own evidence; an unknown affix accent does not
+inherit the corresponding noun's contour. The spoken reading ゆう uses standard
+いう conjugations, verified in the browser as いいます, いわない, いって and いった.
+Original headwords, readings, levels and progress IDs remain intact.
+A bounded kana-orthography format recognizes only full same-pronunciation
+じ/ぢ and ず/づ spelling pairs with unchanged source word and exact reviewed target.
+It cannot repair missing voicing or change a reading. Original publisher PDFs,
+official spelling guidance and primary lexical evidence document source errors,
+including a wrapped verb ending incorrectly parsed as a separate す reference.
+All 21 full checks pass. A repeated build leaves all eight generated files
+identical; all 15,558 original identities and the four comprehension/audio
+payloads remain intact. No campaign source approval reopens.
+Browser verification covers 41 cards in 164 detail and note states across
+390/1440 widths and both themes, exact current teaching, 41 searches,
+refreshed deep links and the historical duplicate redirect. Eight representative
+cards have 32 detail and 32 note screenshots; eight varied mobile/desktop screens
+in both themes were personally inspected.
+All 1,686 current N5 cards have complete reviewed teaching and investigated pitch.
+The remaining 148 source references across 102 groups keep N5 active; N4–N1 remain
+pending. This checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -677,18 +703,24 @@ candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
 `additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
 
-`verified-source-notation` handles ten explicit publisher formats: a nominal
+`verified-source-notation` handles eleven explicit publisher formats: a nominal
 heading with a complete suru-verb reading, a parenthesized reading ending, a
 reading misplaced into the gloss column, a kana-script variant, or combined
 spellings, alternative readings, shared final okurigana, complete spellings
 separated by one literal space, parallel complete kana alternatives, or complete
-readings separated by one literal space.
+readings separated by one literal space, or matching ji/zu kana orthography.
 Its `sourceNormalization` contains `kind`, `word` and `reading`;
 all three are bound to both approvals. A single separator `・` immediately
 before `する` is allowed in that format; other punctuation is preserved.
 Mechanical checks require the exact
 indicated spelling and pronunciation and coverage of every combined spelling.
-The first five formats retain one target. `alternative-readings` preserves the
+The five original single-target formats and `kana-orthography` retain one target.
+`kana-orthography` preserves the complete source word and recognizes only the
+same-pronunciation hiragana pairs じ/ぢ and ず/づ. Positive spelling evidence
+and both exact approvals are required; the source reading remains frozen.
+Missing dakuten, truncated readings, other pronunciation differences, script
+changes, whitespace and a normalization without a spelling difference fail.
+`alternative-readings` preserves the
 literal slash-separated source reading and binds a distinct accepted card for
 each of its two or three readings. `shared-okurigana` expands the final kana
 ending in a source such as `堅/硬/固い` to `堅い/硬い/固い` and binds each

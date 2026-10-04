@@ -39348,5 +39348,109 @@ window.VOCAB_N4 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n4:correction:ka-person-suffix"
+  },
+  {
+    "word": "店",
+    "reading": "てん",
+    "romaji": "ten",
+    "meaning": "Laden; Geschäft; Restaurant (Suffix)",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "店（てん） steht am Ende von Bezeichnungen für Geschäfte oder Restaurants, etwa 書店（しょてん）, Buchhandlung, und 喫茶店（きっさてん）, Café. Der erste Wortteil sagt, um welche Art von Geschäft es geht. Als selbstständiges Wort für einen Laden liest man 店 gewöhnlich みせ: 店に入る. Übe die zusammengesetzten Bezeichnungen jeweils mit ihrer vollständigen Lesung.",
+    "examples": [
+      {
+        "japanese": "駅の前の書店で辞書を買いました。",
+        "romaji": "Eki no mae no shoten de jisho o kaimashita.",
+        "german": "Ich habe in der Buchhandlung vor dem Bahnhof ein Wörterbuch gekauft."
+      },
+      {
+        "japanese": "この喫茶店は朝七時から開いています。",
+        "romaji": "Kono kissaten wa asa shichiji kara aite imasu.",
+        "german": "Dieses Café ist morgens ab sieben Uhr geöffnet."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:ten-store-suffix"
+  },
+  {
+    "word": "易い",
+    "reading": "やすい",
+    "romaji": "yasui",
+    "meaning": "leicht, einfach (易い)",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N4",
+    "notes": "易い bedeutet hier leicht oder einfach. Selbstständig findet man es beispielsweise in 易い仕事 oder einer Gegenüberstellung mit 難しい. Für leicht verständliche Aufgaben und Texte ist auch やさしい üblich. 易い（やすい）ist von 安い（やすい）„billig“ zu unterscheiden: Gleiche Aussprache bedeutet hier eine andere Bedeutung und Kanji-Schreibung. Nach einem Verbstamm wie 読み in 読みやすい wirkt やすい als Nachsilbe; die Beispiele dieser Karte üben das selbstständige Adjektiv. Seine Verneinung lautet 易くない, die Vergangenheitsform 易かった.",
+    "examples": [
+      {
+        "japanese": "説明するのは易いですが、実際にやるのは難しいです。",
+        "romaji": "Setsumei suru no wa yasui desu ga, jissai ni yaru no wa muzukashii desu.",
+        "german": "Es zu erklären ist leicht, aber es tatsächlich zu tun ist schwierig."
+      },
+      {
+        "japanese": "この程度の修理なら、私にも易い仕事です。",
+        "romaji": "Kono teido no shūri nara, watashi ni mo yasui shigoto desu.",
+        "german": "Eine Reparatur dieses Umfangs ist auch für mich eine leichte Aufgabe."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268299714",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@268299714",
+          "originalFields": [
+            "形容詞",
+            "一般",
+            "*",
+            "*",
+            "形容詞",
+            "終止形-一般",
+            "ヤスイ",
+            "易い",
+            "易い",
+            "ヤスイ",
+            "易い",
+            "ヤスイ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "相",
+            "ヤスイ",
+            "ヤスイ",
+            "ヤスイ",
+            "ヤスイ",
+            "2",
+            "C1",
+            "*",
+            "27844324586824363",
+            "101297"
+          ]
+        },
+        "finding": "Personally parsed exact original sys.dic@268299714, orth=易い, surfacekana20=ヤスイ, pronunciation9=ヤスイ, lemma=易い, POS=形容詞/一般/*/*, 形容詞/終止形-一般, aType=2. Whole canonical/positivelyverifiedsame-readingalias role; no names, unrelated homophone or compound accent. Original1156990 independentadjectiveeasy1 selected, notsuffixlikely2/easyto3 andnotprice安い. PrimaryShogakukan independentexample confirmsrole. Actualterminal268299714 ordinaryadjectiveヤスイ aType2 selected, suffix268309144 independentlyexistsbutisnotthecitationfor this role and nocompoundpitch claimed. ExactMasterN4 frozenliteral supplieslevelbasis despiteTANOSN1 andimmutableN5ownership; original68price preserved.",
+        "match": {
+          "word": "易い",
+          "reading": "やすい",
+          "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+          "sense": "leicht, einfach (易い)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:yasui-easy"
   }
 ];

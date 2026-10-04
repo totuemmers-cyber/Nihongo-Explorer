@@ -81030,5 +81030,367 @@ window.VOCAB_N3 = [
     ],
     "senseKey": "calendar-day-counter",
     "correctionId": "vocab-n3:correction:nichi-calendar-day-counter"
+  },
+  {
+    "word": "館",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Großes Gebäude; öffentliche Einrichtung",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "館 kann selbstständig auf eine bereits genannte Einrichtung wie eine Bibliothek oder ein Museum verweisen. 館の運営 meint den Betrieb dieses Hauses; この館では leitet eine Aussage über seine Regeln ein. Diese Verwendung ist eher in Berichten und Beschreibungen üblich. Das gleich geschriebene Wort 館（やかた） für einen herrschaftlichen Wohnsitz hat eine andere Lesung. Die Endung in Gebäudenamen wird gesondert geübt.",
+    "examples": [
+      {
+        "japanese": "図書館の職員が、館の運営について話し合いました。",
+        "romaji": "Toshokan no shokuin ga, kan no un'ei ni tsuite hanashiaimashita.",
+        "german": "Die Mitarbeiter der Bibliothek haben über den Betrieb der Einrichtung gesprochen."
+      },
+      {
+        "japanese": "この館では、展示室での撮影を禁止しています。",
+        "romaji": "Kono kan de wa, tenjishitsu de no satsuei o kinshi shite imasu.",
+        "german": "In diesem Haus ist das Fotografieren in den Ausstellungsräumen verboten."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99961596",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 館/カン; lemma 館; POS 名詞/普通名詞/一般/*; aType 1. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix.",
+        "match": {
+          "word": "館",
+          "reading": "かん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent noun only",
+          "sense": "Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        }
+      }
+    ],
+    "senseKey": "independent-building-noun",
+    "correctionId": "vocab-n3:correction:kan-building-noun"
+  },
+  {
+    "word": "館",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Gebäude; Halle; Haus (Suffix in Gebäudebezeichnungen)",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N3",
+    "notes": "Die Endung 館 gehört zu Bezeichnungen größerer Gebäude und Einrichtungen: 公民館（こうみんかん） ist ein Gemeindezentrum, 旅館（りょかん） eine japanische Herberge. Der ganze Ausdruck bestimmt die Art des Hauses. In älteren Beschreibungen kann 館 auch eine Unterkunft oder ein großes Haus bezeichnen; daraus folgt nicht, dass jede Wohnung oder jedes Hotel heute einfach 館 heißt. Für ein gewöhnliches Hotel ist ホテル üblich.",
+    "examples": [
+      {
+        "japanese": "公民館では、毎週料理教室が開かれます。",
+        "romaji": "Kōminkan de wa, maishū ryōri kyōshitsu ga hirakaremasu.",
+        "german": "Im Gemeindezentrum findet jede Woche ein Kochkurs statt."
+      },
+      {
+        "japanese": "旅館の部屋から川が見えました。",
+        "romaji": "Ryokan no heya kara kawa ga miemashita.",
+        "german": "Vom Zimmer der japanischen Herberge aus konnte man den Fluss sehen."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "bound-building-suffix",
+    "correctionId": "vocab-n3:correction:kan-building-suffix"
+  },
+  {
+    "word": "感",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Gefühl; Empfindung; Eindruck",
+    "type": "Nomen",
+    "category": "Gefühle",
+    "level": "N3",
+    "notes": "感 ist ein eher schriftliches Nomen für ein Gefühl oder einen Eindruck. 感を抱く bedeutet einen Eindruck gewinnen oder ein Gefühl hegen; 奇異の感に打たれる beschreibt das Empfinden von etwas Befremdlichem. Der Inhalt kann durch eine Aussage mit という erläutert werden. Im alltäglichen Gespräch ist 感じ oft geläufiger. Hier übst du 感 als eigenes Nomen; zusammengesetzte Gefühlswörter wie 安心感 sind weitere Ausdrücke.",
+    "examples": [
+      {
+        "japanese": "彼の説明を聞いて、準備が十分ではないという感を抱きました。",
+        "romaji": "Kare no setsumei o kiite, junbi ga jūbun de wa nai to iu kan o idakimashita.",
+        "german": "Nach seiner Erklärung gewann ich den Eindruck, dass die Vorbereitung nicht ausreichend war."
+      },
+      {
+        "japanese": "初めてその建物を見たとき、奇異の感に打たれました。",
+        "romaji": "Hajimete sono tatemono o mita toki, kii no kan ni utaremashita.",
+        "german": "Als ich das Gebäude zum ersten Mal sah, hatte ich ein starkes Gefühl des Befremdens."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99952941",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 感/カン; lemma 感; POS 名詞/普通名詞/一般/*; aType 1. Original1955970 unrestrictedかん noun/n-suf1 feeling/sensation/emotion/admiration/impression taught as independentnoun; estimate suffix2 and dictionaryinterjectionabbr3 unselected. Licensed Shogakukan bilingualかん entry explicitlyfeeling/impression and奇異の感に打たれた supports free constructions; authored assessment versus first-sight emotion scenes, no bare noun contour on安心感 compound. Exact common noun99952941 aType1 and completewholeOJAD5027 pattern1 agree.",
+        "match": {
+          "word": "感",
+          "reading": "かん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent noun only",
+          "sense": "Original1955970 unrestrictedかん noun/n-suf1 feeling/sensation/emotion/admiration/impression taught as independentnoun; estimate suffix2 and dictionaryinterjectionabbr3 unselected. Licensed Shogakukan bilingualかん entry explicitlyfeeling/impression and奇異の感に打たれた supports free constructions; authored assessment versus first-sight emotion scenes, no bare noun contour on安心感 compound. Exact common noun99952941 aType1 and completewholeOJAD5027 pattern1 agree."
+        }
+      },
+      {
+        "source": "OJAD, University of Tokyo",
+        "version": "Original complete dictionary cell personally inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%84%9F#word_5027",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole cell 5027 かん; pattern 1. Original1955970 unrestrictedかん noun/n-suf1 feeling/sensation/emotion/admiration/impression taught as independentnoun; estimate suffix2 and dictionaryinterjectionabbr3 unselected. Licensed Shogakukan bilingualかん entry explicitlyfeeling/impression and奇異の感に打たれた supports free constructions; authored assessment versus first-sight emotion scenes, no bare noun contour on安心感 compound. Exact common noun99952941 aType1 and completewholeOJAD5027 pattern1 agree.",
+        "match": {
+          "word": "感",
+          "reading": "かん",
+          "grammaticalForm": "Complete independent noun dictionary head; no boundcompound/other-reading transfer",
+          "sense": "Original1955970 unrestrictedかん noun/n-suf1 feeling/sensation/emotion/admiration/impression taught as independentnoun; estimate suffix2 and dictionaryinterjectionabbr3 unselected. Licensed Shogakukan bilingualかん entry explicitlyfeeling/impression and奇異の感に打たれた supports free constructions; authored assessment versus first-sight emotion scenes, no bare noun contour on安心感 compound. Exact common noun99952941 aType1 and completewholeOJAD5027 pattern1 agree."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kan-impression-noun"
+  },
+  {
+    "word": "数",
+    "reading": "すう",
+    "romaji": "sū",
+    "meaning": "Zahl (mathematisches Nomen)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N3",
+    "notes": "数（すう） bezeichnet in mathematischen Texten eine Zahl als Begriff oder Rechenwert. 正の数 sind positive Zahlen; 二つの数を掛ける heißt zwei Zahlen multiplizieren. Im allgemeinen Alltag wird das selbstständige Wort 数 häufig かず gelesen. Dieser Eintrag übt gezielt die fachliche Nomenlesung すう. Das gleich gelesene Präfix vor Mengenangaben, etwa 数人, bedeutet einige und wird gesondert geübt.",
+    "examples": [
+      {
+        "japanese": "正の数に負の数を足すと、結果はどうなりますか。",
+        "romaji": "Sei no sū ni fu no sū o tasu to, kekka wa dō narimasu ka.",
+        "german": "Was passiert mit dem Ergebnis, wenn man zu einer positiven Zahl eine negative Zahl addiert?"
+      },
+      {
+        "japanese": "二つの数を掛ける前に、それぞれの符号を確認してください。",
+        "romaji": "Futatsu no sū o kakeru mae ni, sorezore no fugō o kakunin shite kudasai.",
+        "german": "Bitte überprüfen Sie vor dem Multiplizieren zweier Zahlen das jeweilige Vorzeichen."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145931960",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 数/スウ; lemma 数; POS 名詞/普通名詞/一般/*; aType 1. Original1580825 exact unrestrictedすう mathematicalnumber/numeral4 selected alone, distinct independent-number-noun senseKey; severalpref1 separate, quantity2/calculation3/grammaticalnumber5/fate6 not padded. Licensed Daijisen mathematicalnumber4 and NipponKokugo explicit数スウの連続 corroborate free mathematicalreading, unlike everydayかず existing330. Exactwhole commonnoun145931960 aType1 and actualOJAD7577 pattern1 selected; numeral145931694 aType1 recorded but not claimed to prove prefix/compound accent. Both math examples actuallyfree numbers, no implicit数人 interpretation.",
+        "match": {
+          "word": "数",
+          "reading": "すう",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent noun only",
+          "sense": "Original1580825 exact unrestrictedすう mathematicalnumber/numeral4 selected alone, distinct independent-number-noun senseKey; severalpref1 separate, quantity2/calculation3/grammaticalnumber5/fate6 not padded. Licensed Daijisen mathematicalnumber4 and NipponKokugo explicit数スウの連続 corroborate free mathematicalreading, unlike everydayかず existing330. Exactwhole commonnoun145931960 aType1 and actualOJAD7577 pattern1 selected; numeral145931694 aType1 recorded but not claimed to prove prefix/compound accent. Both math examples actuallyfree numbers, no implicit数人 interpretation."
+        }
+      },
+      {
+        "source": "OJAD, University of Tokyo",
+        "version": "Original complete dictionary cell personally inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%95%B0#word_7577",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole cell 7577 すう; pattern 1. Original1580825 exact unrestrictedすう mathematicalnumber/numeral4 selected alone, distinct independent-number-noun senseKey; severalpref1 separate, quantity2/calculation3/grammaticalnumber5/fate6 not padded. Licensed Daijisen mathematicalnumber4 and NipponKokugo explicit数スウの連続 corroborate free mathematicalreading, unlike everydayかず existing330. Exactwhole commonnoun145931960 aType1 and actualOJAD7577 pattern1 selected; numeral145931694 aType1 recorded but not claimed to prove prefix/compound accent. Both math examples actuallyfree numbers, no implicit数人 interpretation.",
+        "match": {
+          "word": "数",
+          "reading": "すう",
+          "grammaticalForm": "Complete independent noun dictionary head; no boundcompound/other-reading transfer",
+          "sense": "Original1580825 exact unrestrictedすう mathematicalnumber/numeral4 selected alone, distinct independent-number-noun senseKey; severalpref1 separate, quantity2/calculation3/grammaticalnumber5/fate6 not padded. Licensed Daijisen mathematicalnumber4 and NipponKokugo explicit数スウの連続 corroborate free mathematicalreading, unlike everydayかず existing330. Exactwhole commonnoun145931960 aType1 and actualOJAD7577 pattern1 selected; numeral145931694 aType1 recorded but not claimed to prove prefix/compound accent. Both math examples actuallyfree numbers, no implicit数人 interpretation."
+        }
+      }
+    ],
+    "senseKey": "independent-number-noun",
+    "correctionId": "vocab-n3:correction:su-mathematical-number-noun"
+  },
+  {
+    "word": "数",
+    "reading": "すう",
+    "romaji": "sū",
+    "meaning": "Einige; mehrere (Präfix vor Mengenangaben)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N3",
+    "notes": "数 steht vor einer Mengenangabe und lässt die genaue Zahl offen: 数人（すうにん） sind einige Personen, 数日（すうじつ） einige Tage. Es kann auch vor größeren Einheiten stehen, etwa 数百, mehrere Hundert. Die Bedeutung richtet sich nach der folgenden Einheit; 数 allein nennt keinen festen Zahlenwert. Diese Präfixverwendung ist von 数（すう） als mathematischem Nomen und 数（かず） als Anzahl zu unterscheiden.",
+    "examples": [
+      {
+        "japanese": "数人の学生が、片付けを手伝ってくれました。",
+        "romaji": "Sūnin no gakusei ga, katazuke o tetsudatte kuremashita.",
+        "german": "Einige Studenten haben mir beim Aufräumen geholfen."
+      },
+      {
+        "japanese": "修理には数日かかるそうです。",
+        "romaji": "Shūri ni wa sūjitsu kakaru sō desu.",
+        "german": "Die Reparatur soll einige Tage dauern."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "bound-several-prefix",
+    "correctionId": "vocab-n3:correction:su-several-prefix"
+  },
+  {
+    "word": "氏",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "Familienverband; Sippe (gleiche Abstammung)",
+    "type": "Nomen",
+    "category": "Geschichte und Gesellschaft",
+    "level": "N3",
+    "notes": "Als selbstständiges Nomen bezeichnet 氏（し） einen Familienverband mit gemeinsamer Abstammung. Diese Karte übt die Bedeutung in einem geschichtlichen Zusammenhang. Der Namenszusatz 〜氏 hat eine andere Funktion. Für einen heutigen Nachnamen verwendet man gewöhnlich 姓 oder 名字; 氏 wird in anderen Zusammenhängen auch うじ gelesen.",
+    "examples": [
+      {
+        "japanese": "氏は、同じ血筋をもつ一族を指す。",
+        "romaji": "Shi wa, onaji chisuji o motsu ichizoku o sasu.",
+        "german": "氏 bezeichnet einen Familienverband mit gemeinsamer Abstammung."
+      },
+      {
+        "japanese": "歴史の授業で、氏の成り立ちを学んだ。",
+        "romaji": "Rekishi no jugyō de, shi no naritachi o mananda.",
+        "german": "Im Geschichtsunterricht habe ich gelernt, wie solche Familienverbände entstanden."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133715406",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete common-general noun, soleシ/氏 terminal lexical form aType1 personally reread: 名詞,普通名詞,一般,*,*,*,シ,氏,氏,シ,氏,シ,漢,*,*,*,*,*,*,体,シ,シ,シ,シ,1,C3,*,4107784064999936,14944. Distinct suffix133715529aType* not charted at1; no compound/clan-name accent inferred.",
+        "match": {
+          "word": "氏",
+          "reading": "し",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Familienverband; Sippe (gleiche Abstammung)"
+        }
+      }
+    ],
+    "senseKey": "independent-clan-noun",
+    "correctionId": "vocab-n3:correction:shi-clan-noun"
+  },
+  {
+    "word": "言う",
+    "reading": "ゆう",
+    "romaji": "yū",
+    "meaning": "sagen; nennen (Aussprache ゆう)",
+    "type": "Verb",
+    "category": "Sprechen",
+    "level": "N3",
+    "notes": "言う wird am Satzende und vor einem Nomen häufig wie ゆう ausgesprochen. In gewöhnlicher Kana-Schreibung schreibt man dennoch いう. Mit ～と言う gibt man wieder, was jemand sagt; ～という人 nennt eine Person mit einem bestimmten Namen. Diese Aussprache gehört zu demselben Verb wie 言う（いう）. Bei der höflichen Form bleibt der Stamm いい: 言います lautet iimasu. Die üblichen Formen 言わない（いわない）und 言った（いった）bleiben für das Lernen maßgeblich; man bildet aus ゆう keine höfliche Form ゆいます.",
+    "examples": [
+      {
+        "japanese": "母は「急がなくていい」と言う。",
+        "romaji": "Haha wa “isoganakute ii” to yū.",
+        "german": "Meine Mutter sagt: „Du brauchst dich nicht zu beeilen.“"
+      },
+      {
+        "japanese": "田中という人から電話がありました。",
+        "romaji": "Tanaka to yū hito kara denwa ga arimashita.",
+        "german": "Es gab einen Anruf von einer Person namens Tanaka."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いう",
+      "conjugationKind": "verb",
+      "conjugationReason": "Original primaryNINJAL pronunciation research2018-06-20 directly distinguishes terminal/attributivespokenゆう from writtenいう and standardpolite stem言い; original modernUniDicterminal52454699 confirmsspokenwholeユウ, original52454529 confirmsstandardwrittenイウ. Canonical teachinginflections useいう Godan-u to preserveいい/いわ/いえ/いお/いっ, not mechanically deriveゆいます from recordedterminalpronunciation. All19 standardforms personally inspected; original956 unchanged.",
+      "conjugationVariants": {
+        "causPas": [
+          "いわされる"
+        ]
+      }
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "いう",
+    "conjugationVariants": {
+      "causPas": [
+        "いわされる"
+      ]
+    },
+    "conjugationReason": "Original primaryNINJAL pronunciation research2018-06-20 directly distinguishes terminal/attributivespokenゆう from writtenいう and standardpolite stem言い; original modernUniDicterminal52454699 confirmsspokenwholeユウ, original52454529 confirmsstandardwrittenイウ. Canonical teachinginflections useいう Godan-u to preserveいい/いわ/いえ/いお/いっ, not mechanically deriveゆいます from recordedterminalpronunciation. All19 standardforms personally inspected; original956 unchanged.",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@52454699",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@52454699",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ワア行",
+            "終止形-一般",
+            "イウ",
+            "言う",
+            "言う",
+            "ユー",
+            "言う",
+            "ユー",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "ユウ",
+            "ユウ",
+            "ユウ",
+            "ユウ",
+            "0",
+            "C4",
+            "*",
+            "431859028861611",
+            "1571"
+          ]
+        },
+        "finding": "Personally parsed exact original sys.dic@52454699, orth=言う, surfacekana20=ユウ, pronunciation9=ユー, lemma=言う, POS=動詞/一般/*/*, 五段-ワア行/終止形-一般, aType=0. Whole canonical/positivelyverifiedsame-readingalias role; no names, unrelated homophone or compound accent. Original1587040 unrestrictedゆう reading and speech1/naming2 selected; no noise3. Exact modern terminal52454699 orth言う/kanaユウ/pronユー/Godanワア/aType0; other UniDic continuous archaicrows not selected. Shogakukan and actual primaryNINJAL study distinguish pronouncedterminal/attributiveyū from ordinary writtenいう and standardpolite言い. NewN3 pronunciationcard preserves originalN5:956 and canonical nested/effectiveGodanいう to preventゆいます; full19standardforms inspected, no inferred separateverb conjugation.",
+        "match": {
+          "word": "言う",
+          "reading": "ゆう",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+          "sense": "sagen; nennen (Aussprache ゆう)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:yuu-say"
   }
 ];
