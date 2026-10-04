@@ -49,7 +49,7 @@ function validateSourceNotation(ref,target,notation) {
 // card rather than inventing a spelling alias or discarding an alternate reading.
 function validateSourceNotationTargets(ref,targets,notation) {
   assert(Array.isArray(targets)&&targets.length,'Missing source notation targets');
-  if(!['alternative-readings','shared-okurigana'].includes(notation?.kind)) {
+  if(!['alternative-readings','shared-okurigana','spaced-spellings'].includes(notation?.kind)) {
     assert.equal(targets.length,1,'Source notation requires one exact target');
     return validateSourceNotation(ref,targets[0],notation);
   }
@@ -62,6 +62,16 @@ function validateSourceNotationTargets(ref,targets,notation) {
     const readings=ref.reading.split(/[/／]/u).map(s=>normalized(s.trim()));
     assert(readings.length>=2&&readings.length<=3&&new Set(readings.map(kana)).size===readings.length&&readings.every(r=>/^[ぁ-ゖァ-ヺー]+$/u.test(r)),'Unsupported alternative readings');
     forms=readings.map(reading=>({word:ref.word,reading}));
+  } else if(notation.kind==='spaced-spellings') {
+    // Preserve the frozen source space. Only complete Han+kana spellings with
+    // the same written ending may be separated; incomplete stems and phrases
+    // with arbitrary whitespace are not a substitute for reviewed full forms.
+    const words=ref.word.split(' '),endings=words.map(word=>word.match(/^[\p{Script=Han}]+([ぁ-ゖ]+)$/u)?.[1]);
+    assert(words.length>=2&&words.length<=3&&endings.every(Boolean)&&new Set(endings).size===1,'Unsupported spaced spellings');
+    assert.equal(new Set(words).size,words.length,'Repeated spaced spelling');
+    assert.equal(notation.word,words.join('/'),'Spaced spellings changed source spelling');
+    assert.equal(normalized(notation.reading),normalized(ref.reading),'Spaced spellings changed reading');
+    forms=words.map(word=>({word,reading:normalized(ref.reading)}));
   } else {
     const parts=ref.word.split(/[/／]/u),last=parts.at(-1),suffix=last.match(/^[\p{Script=Han}]+([ぁ-ゖ]+)$/u)?.[1];
     assert(parts.length>=2&&parts.length<=3&&suffix&&parts.slice(0,-1).every(s=>/^[\p{Script=Han}]+$/u.test(s)),'Unsupported shared okurigana');

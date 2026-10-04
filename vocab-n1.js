@@ -130333,5 +130333,610 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:atashi-casual-i"
+  },
+  {
+    "word": "怒る",
+    "reading": "いかる",
+    "romaji": "ikaru",
+    "meaning": "zornig sein, sich empören",
+    "type": "Verb",
+    "category": "Gefühle und Ausdruck",
+    "level": "N1",
+    "notes": "いかる bezeichnet Zorn oder Empörung und wirkt oft schriftsprachlicher als おこる. Ein Anlass kann mit に stehen, etwa 不公平な扱いに怒る. Hier ist es ein intransitives Gefühlsverb: „jemanden ausschimpfen“ wird damit nicht einfach als direktes Objekt mit を ausgedrückt. Es ist ein Godan-Verb: いかって, いかった und いからない.",
+    "examples": [
+      {
+        "japanese": "不公平な扱いに怒る人々の声が、広場に響いていた。",
+        "romaji": "Fukōhei na atsukai ni ikaru hitobito no koe ga, hiroba ni hibiite ita.",
+        "german": "Auf dem Platz waren die Stimmen der Menschen zu hören, die über die ungerechte Behandlung empört waren."
+      },
+      {
+        "japanese": "彼は怒っていたが、相手を責める言葉は口にしなかった。",
+        "romaji": "Kare wa ikatte ita ga, aite o semeru kotoba wa kuchi ni shinakatta.",
+        "german": "Er war wütend, äußerte aber keine Vorwürfe gegen sein Gegenüber."
+      }
+    ],
+    "pitch": 2,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いかる",
+      "conjugationKind": "verb",
+      "conjugationReason": "Exakte JMdict2859682/1: formelles intransitives Godan-Verb aufる, UniDic52818808五段ラ終止形イカル; moderne Formenいかって/いかった undいからない geprüft."
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "いかる",
+    "conjugationReason": "Exakte JMdict2859682/1: formelles intransitives Godan-Verb aufる, UniDic52818808五段ラ終止形イカル; moderne Formenいかって/いかった undいからない geprüft.",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@52818808",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@52818808",
+          "orth": "怒る",
+          "kana": "イカル",
+          "lemma": "怒る",
+          "pos": [
+            "動詞",
+            "一般",
+            "*",
+            "*"
+          ],
+          "cType": "五段-ラ行",
+          "cForm": "終止形-一般",
+          "aType": "2",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "イカル",
+            "怒る",
+            "怒る",
+            "イカル",
+            "怒る",
+            "イカル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "イカル",
+            "イカル",
+            "イカル",
+            "イカル",
+            "2",
+            "C1",
+            "*",
+            "447784734040747",
+            "1629"
+          ]
+        },
+        "finding": "Personally inspected original complete surface orth8 怒る, surface kana20 イカル, pronunciation9 イカル, POS 動詞/一般/*/*, aType 2 at sys.dic@52818808. Exact formal/literary intransitive Godanラ anger verb2859682/1; whole terminal surfaceイカル52818808 aType2 and full OJAD75いかる2. Triggers useに; no transitive scolding or angular shoulders sense. Godanいかって/いかった/いからない actually checked.",
+        "patterns": [
+          2
+        ],
+        "match": {
+          "word": "怒る",
+          "reading": "いかる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般; exact whole citation lexical form",
+          "sense": "zornig sein, sich empören"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete saved original HTML SHA256 6ea6bd0909f3eddb5d92e2396ba2962428918aca76b7b1d81cf0bbf12bee3cde",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%80%92%E3%82%8B#word_75",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          2
+        ],
+        "finding": "Personally read entire citation cell 75: いかる, 3 morae, reverse peak 2, whole accent 2. Different-reading rows in actual same query explicitly excluded. Exact formal/literary intransitive Godanラ anger verb2859682/1; whole terminal surfaceイカル52818808 aType2 and full OJAD75いかる2. Triggers useに; no transitive scolding or angular shoulders sense. Godanいかって/いかった/いからない actually checked.",
+        "match": {
+          "word": "怒る",
+          "reading": "いかる",
+          "grammaticalForm": "Whole terminal dictionary verb, not stem or different reading",
+          "sense": "zornig sein, sich empören"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:ikaru-anger"
+  },
+  {
+    "word": "入口",
+    "reading": "いりくち",
+    "romaji": "irikuchi",
+    "meaning": "Eingang, Zugang",
+    "type": "Nomen",
+    "category": "Gebäude und Zugang",
+    "level": "N1",
+    "notes": "入口 kann außer いりぐち auch いりくち gelesen werden. In dieser Lesung bleibt く stimmlos; die Schreibungen 入口 und 入り口 sind beide möglich. Gemeint ist der Ort, an dem man hineingeht; 出口 ist der Ausgang. In 入口にできた列 bezeichnet に den Ort, an dem sich die Schlange gebildet hat.",
+    "examples": [
+      {
+        "japanese": "入口が裏通りにあるため、初めて来た人には見つけにくい。",
+        "romaji": "Irikuchi ga uradōri ni aru tame, hajimete kita hito ni wa mitsuke nikui.",
+        "german": "Weil der Eingang in der Seitenstraße liegt, ist er für Leute, die zum ersten Mal kommen, schwer zu finden."
+      },
+      {
+        "japanese": "係員の案内で、入口にできた列がゆっくり動き始めた。",
+        "romaji": "Kakariin no annai de, irikuchi ni dekita retsu ga yukkuri ugoki hajimeta.",
+        "german": "Unter Anleitung des Personals setzte sich die Schlange am Eingang langsam in Bewegung."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58249513",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@58249513",
+          "orth": "入口",
+          "kana": "イリクチ",
+          "lemma": "入り口",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "イリクチ",
+            "入り口",
+            "入口",
+            "イリクチ",
+            "入口",
+            "イリクチ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "イリクチ",
+            "イリクチ",
+            "イリクチ",
+            "イリクチ",
+            "0",
+            "C2",
+            "*",
+            "703696132514304",
+            "2560"
+          ]
+        },
+        "finding": "Personally inspected original complete surface orth8 入口, surface kana20 イリクチ, pronunciation9 イリクチ, POS 名詞/普通名詞/一般/*, aType 0 at sys.dic@58249513. Exact noun入口/いりくち,1582820/1 with reading restrictions入り口/入口; direct original ordinary-noun58249513surfaceイリクチ flat0. Same-reading alternate入り口58249311 same0; no unrelatedpronunciation accepted.",
+        "patterns": [
+          0
+        ],
+        "match": {
+          "word": "入口",
+          "reading": "いりくち",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; exact whole citation lexical form",
+          "sense": "Eingang, Zugang"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:irikuchi-entrance"
+  },
+  {
+    "word": "角",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "Winkel; Läufer (Shōgi)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N1",
+    "notes": "角 wird hier かく gelesen und bezeichnet einen geometrischen Winkel. In der japanischen Schachvariante Shōgi ist 角 die Kurzform von 角行（かくぎょう）, einer Figur, die sich diagonal bewegt. Mit 角を測る misst man einen Winkel; im Spiel ergibt sich die Bedeutung aus dem Zusammenhang mit den Figuren. 角 mit der Lesung かど heißt Ecke, mit つの Horn oder Geweih.",
+    "examples": [
+      {
+        "japanese": "この二つの直線が作る角を測ってください。",
+        "romaji": "Kono futatsu no chokusen ga tsukuru kaku o hakatte kudasai.",
+        "german": "Messen Sie bitte den Winkel, den diese beiden Geraden bilden."
+      },
+      {
+        "japanese": "角は斜めの方向に進む駒です。",
+        "romaji": "Kaku wa naname no hōkō ni susumu koma desu.",
+        "german": "Der Läufer im Shōgi ist eine Figur, die sich diagonal bewegt."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      1,
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90462189",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2,
+          1,
+          0
+        ],
+        "finding": "Actual complete original surface row 角/カク; lemma 角; 名詞/普通名詞/一般/*; aType 2,1,0. Actual JMdict1206100 exact角/かく selects angle1 and shogi bishop3 (abbreviation and shogi field personally read), not square2, music4, astronomy5 or currency6. Two genuinely distinct geometry measurement and shogi movement contexts with full German/Modified Hepburn inspected. Exact original common noun sys.dic@90462189 surfaceカク aType2,1,0, all compatible standalone variants retained; name rows90405076/90405841 and adjective-stem90467140/90468096 excluded. Whole OJAD4710 shows1,0, not grounds to drop compatible source2. Existingかど431 and other homophones untouched.",
+        "match": {
+          "word": "角",
+          "reading": "かく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole standalone common lexical noun, no attached phrase/number/name claim",
+          "sense": "Actual JMdict1206100 exact角/かく selects angle1 and shogi bishop3 (abbreviation and shogi field personally read), not square2, music4, astronomy5 or currency6. Two genuinely distinct geometry measurement and shogi movement contexts with full German/Modified Hepburn inspected. Exact original common noun sys.dic@90462189 surfaceカク aType2,1,0, all compatible standalone variants retained; name rows90405076/90405841 and adjective-stem90467140/90468096 excluded. Whole OJAD4710 shows1,0, not grounds to drop compatible source2. Existingかど431 and other homophones untouched."
+        }
+      },
+      {
+        "source": "OJAD, original complete selected dictionary cell",
+        "version": "Actual whole primary cell inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A7%92#word_4710",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          1,
+          0
+        ],
+        "finding": "Actual complete row 4710 角/かく shows 1,0. Additional compatible original UniDic variants retained, not discarded when this source has fewer. Actual JMdict1206100 exact角/かく selects angle1 and shogi bishop3 (abbreviation and shogi field personally read), not square2, music4, astronomy5 or currency6. Two genuinely distinct geometry measurement and shogi movement contexts with full German/Modified Hepburn inspected. Exact original common noun sys.dic@90462189 surfaceカク aType2,1,0, all compatible standalone variants retained; name rows90405076/90405841 and adjective-stem90467140/90468096 excluded. Whole OJAD4710 shows1,0, not grounds to drop compatible source2. Existingかど431 and other homophones untouched.",
+        "match": {
+          "word": "角",
+          "reading": "かく",
+          "grammaticalForm": "Whole common lexical noun dictionary form; not name or compound",
+          "sense": "Actual JMdict1206100 exact角/かく selects angle1 and shogi bishop3 (abbreviation and shogi field personally read), not square2, music4, astronomy5 or currency6. Two genuinely distinct geometry measurement and shogi movement contexts with full German/Modified Hepburn inspected. Exact original common noun sys.dic@90462189 surfaceカク aType2,1,0, all compatible standalone variants retained; name rows90405076/90405841 and adjective-stem90467140/90468096 excluded. Whole OJAD4710 shows1,0, not grounds to drop compatible source2. Existingかど431 and other homophones untouched."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kaku-angle"
+  },
+  {
+    "word": "門",
+    "reading": "かど",
+    "romaji": "kado",
+    "meaning": "Tor; Hauseingang (Lesung かど)",
+    "type": "Nomen",
+    "category": "Ort",
+    "level": "N1",
+    "notes": "門 wird in diesem Eintrag かど gelesen und bezeichnet das Tor oder den Eingang zu einem Haus. 門の外 nennt den Bereich außerhalb des Tores; 門をたたく heißt an das Tor klopfen. Dieselbe Schreibung kann auch もん gelesen werden. Die Lesung かど begegnet außerdem in 門口（かどぐち）. 角（かど）mit der Bedeutung Ecke ist ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "祖父は門の外で私を待っていました。",
+        "romaji": "Sofu wa kado no soto de watashi o matte imashita.",
+        "german": "Mein Großvater wartete vor dem Tor auf mich."
+      },
+      {
+        "japanese": "返事がなかったので、もう一度門をたたきました。",
+        "romaji": "Henji ga nakatta node, mō ichido kado o tatakimashita.",
+        "german": "Weil keine Antwort kam, klopfte ich noch einmal an das Tor."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95835736",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete original surface row 門/カド; lemma 門; 名詞/普通名詞/一般/*; aType 1. Actual separate JMdict2868800 exact門/かど gate/door1, not house/family2. Original Shogakukan separateかど entry confirms literal house gate and gate-knocking usage, no invented archaic or exclusive restriction. Direct original common noun sys.dic@95835736 surfaceカド aType1; surname95833792 excluded despite identical accent, OJAD11334もん1 is different reading and not evidence forかど. All location/waiting and repeated-knock causal contexts and full German/Hepburn inspected. Existing門もん1379 and角かど431 untouched.",
+        "match": {
+          "word": "門",
+          "reading": "かど",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole standalone common lexical noun, no attached phrase/number/name claim",
+          "sense": "Actual separate JMdict2868800 exact門/かど gate/door1, not house/family2. Original Shogakukan separateかど entry confirms literal house gate and gate-knocking usage, no invented archaic or exclusive restriction. Direct original common noun sys.dic@95835736 surfaceカド aType1; surname95833792 excluded despite identical accent, OJAD11334もん1 is different reading and not evidence forかど. All location/waiting and repeated-knock causal contexts and full German/Hepburn inspected. Existing門もん1379 and角かど431 untouched."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kado-gate"
+  },
+  {
+    "word": "縁",
+    "reading": "えん",
+    "romaji": "en",
+    "meaning": "Schicksalsverbindung; Beziehung; Gelegenheit zum Kennenlernen",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N1",
+    "notes": "縁（えん）kann eine schicksalhafte Begegnung oder die Verbindung zwischen Menschen bezeichnen. 何かの縁ですね bewertet eine Begegnung als eine Art Fügung; 縁がある sagt, dass eine Beziehung oder Berührung zu jemandem oder etwas besteht. ご縁 fügt die höfliche Vorsilbe ご hinzu. Beim Kennenlernen meint 縁 eine Gelegenheit, aus der eine Beziehung entsteht, und keine beliebige Chance. 縁（ふち）für Rand hat eine andere Lesung.",
+    "examples": [
+      {
+        "japanese": "旅先で再び会ったのも、何かの縁ですね。",
+        "romaji": "Tabisaki de futatabi atta no mo, nanika no en desu ne.",
+        "german": "Dass wir uns am Reiseort wieder begegnet sind, ist wohl auch eine Art Fügung."
+      },
+      {
+        "japanese": "父がそこで働いていたので、私もこの町には縁があります。",
+        "romaji": "Chichi ga soko de hataraite ita node, watashi mo kono machi ni wa en ga arimasu.",
+        "german": "Weil mein Vater dort gearbeitet hat, habe auch ich eine Verbindung zu dieser Stadt."
+      },
+      {
+        "japanese": "この集まりで、よい縁に恵まれました。",
+        "romaji": "Kono atsumari de, yoi en ni megumaremashita.",
+        "german": "Bei dieser Zusammenkunft hatte ich das Glück, eine gute Bekanntschaft zu machen."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71811973",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete original surface row 縁/エン; lemma 縁; 名詞/普通名詞/一般/*; aType 1. Actual JMdict1177490 exactえん reading restricted to縁 spelling; select fate1, relationship/bond2 and chance-to-meet4 (stagrえん compatible), not genericluck/currency homophone, Buddhistconditions5 orveranda6. Three distinct reunion-as-fate, inheritedcityconnection and luckynewacquaintance contexts fully inspected, not forced edgeふち meaning. Direct original common noun sys.dic@71811973 エン aType1; suffix71812116 aType* andotherreadingsエニシ/フチ/ユカリ excluded. Whole OJAD4249えん1 corroborates. ご縁 only explained as politeprefix, no compound accent claimed.",
+        "match": {
+          "word": "縁",
+          "reading": "えん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole standalone common lexical noun, no attached phrase/number/name claim",
+          "sense": "Actual JMdict1177490 exactえん reading restricted to縁 spelling; select fate1, relationship/bond2 and chance-to-meet4 (stagrえん compatible), not genericluck/currency homophone, Buddhistconditions5 orveranda6. Three distinct reunion-as-fate, inheritedcityconnection and luckynewacquaintance contexts fully inspected, not forced edgeふち meaning. Direct original common noun sys.dic@71811973 エン aType1; suffix71812116 aType* andotherreadingsエニシ/フチ/ユカリ excluded. Whole OJAD4249えん1 corroborates. ご縁 only explained as politeprefix, no compound accent claimed."
+        }
+      },
+      {
+        "source": "OJAD, original complete selected dictionary cell",
+        "version": "Actual whole primary cell inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B8%81#word_4249",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete row 4249 縁/えん shows 1. Additional compatible original UniDic variants retained, not discarded when this source has fewer. Actual JMdict1177490 exactえん reading restricted to縁 spelling; select fate1, relationship/bond2 and chance-to-meet4 (stagrえん compatible), not genericluck/currency homophone, Buddhistconditions5 orveranda6. Three distinct reunion-as-fate, inheritedcityconnection and luckynewacquaintance contexts fully inspected, not forced edgeふち meaning. Direct original common noun sys.dic@71811973 エン aType1; suffix71812116 aType* andotherreadingsエニシ/フチ/ユカリ excluded. Whole OJAD4249えん1 corroborates. ご縁 only explained as politeprefix, no compound accent claimed.",
+        "match": {
+          "word": "縁",
+          "reading": "えん",
+          "grammaticalForm": "Whole common lexical noun dictionary form; not name or compound",
+          "sense": "Actual JMdict1177490 exactえん reading restricted to縁 spelling; select fate1, relationship/bond2 and chance-to-meet4 (stagrえん compatible), not genericluck/currency homophone, Buddhistconditions5 orveranda6. Three distinct reunion-as-fate, inheritedcityconnection and luckynewacquaintance contexts fully inspected, not forced edgeふち meaning. Direct original common noun sys.dic@71811973 エン aType1; suffix71812116 aType* andotherreadingsエニシ/フチ/ユカリ excluded. Whole OJAD4249えん1 corroborates. ご縁 only explained as politeprefix, no compound accent claimed."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:en-bond"
+  },
+  {
+    "word": "後退",
+    "reading": "こうたい",
+    "romaji": "kōtai",
+    "meaning": "Rückzug; Rückwärtsbewegung; Rückschritt; Backspace-Taste",
+    "type": "Nomen",
+    "category": "Bewegung",
+    "level": "N1",
+    "notes": "後退 ist ein Nomen für einen Rückzug, eine Bewegung nach hinten oder einen Rückschritt. 前進 ist die Gegenrichtung. Mit する entsteht das intransitive Verb 後退する. In der Computerterminologie kann 後退 auch die Backspace-Taste bezeichnen; 後退キー macht diesen Zusammenhang deutlich. Das gleich gelesene 交代 bedeutet Wechsel. Der Akzent dieser Karte gilt für 後退 allein, nicht für 後退する oder 後退キー.",
+    "examples": [
+      {
+        "japanese": "計画の中止は、大きな後退だと思います。",
+        "romaji": "Keikaku no chūshi wa, ōkina kōtai da to omoimasu.",
+        "german": "Ich halte die Einstellung des Plans für einen großen Rückschritt."
+      },
+      {
+        "japanese": "車の後退中は、後ろに立たないでください。",
+        "romaji": "Kuruma no kōtaichū wa, ushiro ni tatanaide kudasai.",
+        "german": "Stehen Sie bitte nicht hinter dem Auto, während es rückwärtsfährt."
+      },
+      {
+        "japanese": "入力した最後の文字を、後退キーで消しました。",
+        "romaji": "Nyūryoku shita saigo no moji o, kōtai kī de keshimashita.",
+        "german": "Ich löschte das zuletzt eingegebene Zeichen mit der Backspace-Taste."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120349851",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Actual complete original surface row 後退/コウタイ; lemma 後退; 名詞/普通名詞/サ変可能/*; aType 0. Actual JMdict1269880 nominal/suru/intransitive retreat/moving-backward/retrogression1 and computerbackspace3, not economicrecession2. All three conceptualsetback/physicalreverse/inputcorrection contexts personally read in full German/Modified Hepburn. Exact original nominal-suru sys.dic@120349851 surfaceコウタイ aType0; reject別readingアトジサ/アトズサ verbtruncations. Existingfull後退する486N2 remains distinct; OJAD2121こうたいする no nominal contour borrowed. Whole accent applies only後退, no inference forキー/chū/suru compounds.",
+        "match": {
+          "word": "後退",
+          "reading": "こうたい",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *; whole standalone common lexical noun, no attached phrase/number/name claim",
+          "sense": "Actual JMdict1269880 nominal/suru/intransitive retreat/moving-backward/retrogression1 and computerbackspace3, not economicrecession2. All three conceptualsetback/physicalreverse/inputcorrection contexts personally read in full German/Modified Hepburn. Exact original nominal-suru sys.dic@120349851 surfaceコウタイ aType0; reject別readingアトジサ/アトズサ verbtruncations. Existingfull後退する486N2 remains distinct; OJAD2121こうたいする no nominal contour borrowed. Whole accent applies only後退, no inference forキー/chū/suru compounds."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kotai-retreat"
+  },
+  {
+    "word": "音",
+    "reading": "ね",
+    "romaji": "ne",
+    "meaning": "Klang, Ton; Zirpen",
+    "type": "Nomen",
+    "category": "Klänge und Wahrnehmung",
+    "level": "N1",
+    "notes": "音（ね）wird etwa für den Klang einer Glocke oder das Zirpen von Insekten verwendet: 鐘の音, 虫の音. Die Lesung begegnet häufig in anschaulichen Beschreibungen, die den wahrgenommenen Klang hervorheben. おと ist die allgemeine Lesung für Geräusche; ね und おと sind deshalb nicht in jeder Verbindung austauschbar. ね bleibt kurz.",
+    "examples": [
+      {
+        "japanese": "夕暮れの庭に、虫の音が静かに響いていた。",
+        "romaji": "Yūgure no niwa ni, mushi no ne ga shizuka ni hibiite ita.",
+        "german": "Im Garten erklang in der Abenddämmerung leise das Zirpen der Insekten."
+      },
+      {
+        "japanese": "遠くの鐘の音を聞くたびに、故郷の朝を思い出す。",
+        "romaji": "Tōku no kane no ne o kiku tabi ni, furusato no asa o omoidasu.",
+        "german": "Jedes Mal, wenn ich den Klang der fernen Glocke höre, denke ich an die Morgen in meiner Heimat."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@204802347",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@204802347",
+          "orth": "音",
+          "kana": "ネ",
+          "pronunciation": "ネ",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "aType": "0",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "ネ",
+            "音",
+            "音",
+            "ネ",
+            "音",
+            "ネ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ネ",
+            "ネ",
+            "ネ",
+            "ネ",
+            "0",
+            "C3",
+            "*",
+            "7905497227338240",
+            "28760"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 音, surfacekana20 ネ, pronunciation9 ネ, POS 名詞/普通名詞/一般/*, aType 0. Exact 音/ね ordinarytone/sound noun2859162/1; direct204802347 surfaceネ aType0 andwholeOJAD9543one-mora0. Other readingsおん/おと not transferred; neithercompound虫の音 nor鐘の音 contour inferred.",
+        "patterns": [
+          0
+        ],
+        "match": {
+          "word": "音",
+          "reading": "ね",
+          "grammaticalForm": "名詞/普通名詞/一般/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "Klang, Ton; Zirpen"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 f895248ce12ddfd210e5c4408d1930723d7711ed0a3c5dd2932d06738f9bbc98",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%9F%B3#word_9543",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          0
+        ],
+        "finding": "Personally inspected complete whole citation cell9543 ね, 1 morae, reversepeak0, wholepattern0. Exact 音/ね ordinarytone/sound noun2859162/1; direct204802347 surfaceネ aType0 andwholeOJAD9543one-mora0. Other readingsおん/おと not transferred; neithercompound虫の音 nor鐘の音 contour inferred.",
+        "match": {
+          "word": "音",
+          "reading": "ね",
+          "grammaticalForm": "Whole independent selected noun citation, not bound suffix or compound",
+          "sense": "Klang, Ton; Zirpen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:ne-tone"
+  },
+  {
+    "word": "ガル",
+    "reading": "ガル",
+    "romaji": "garu",
+    "meaning": "Gal (Einheit der Beschleunigung)",
+    "type": "Nomen",
+    "category": "Physik und Messwerte",
+    "level": "N1",
+    "notes": "ガル ist die Beschleunigungseinheit Gal. Ein Gal entspricht einem Zentimeter pro Sekunde zum Quadrat (1 cm/s²). Die Einheit begegnet etwa bei Messungen der Erdbeschleunigung oder der Beschleunigung von Erdbebenbewegungen. Eine Zahl steht direkt davor: 百ガル. Ein Gal-Wert ist keine Magnitude und lässt sich nicht ohne weitere Angaben in eine japanische Intensitätsstufe 震度 umrechnen. Das gleich klingende がる als Verb bildende Nachsilbe gehört zu einem anderen Eintrag.",
+    "examples": [
+      {
+        "japanese": "この資料では、地震の加速度をガルで示している。",
+        "romaji": "Kono shiryō de wa, jishin no kasokudo o garu de shimeshite iru.",
+        "german": "In dieser Unterlage wird die Beschleunigung der Erdbebenbewegung in Gal angegeben."
+      },
+      {
+        "japanese": "実験で測った加速度は百ガル、つまり一メートル毎秒毎秒だった。",
+        "romaji": "Jikken de hakatta kasokudo wa hyaku garu, tsumari ichi mētoru maibyō maibyō datta.",
+        "german": "Die im Experiment gemessene Beschleunigung betrug hundert Gal, also einen Meter pro Sekunde zum Quadrat."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101702064",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@101702064",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*",
+            "*",
+            "*",
+            "ガル",
+            "ガル-gal",
+            "ガル",
+            "ガル",
+            "ガル",
+            "ガル",
+            "外",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ガル",
+            "ガル",
+            "ガル",
+            "ガル",
+            "1",
+            "C3",
+            "*",
+            "36457340299518464",
+            "132631"
+          ]
+        },
+        "finding": "Actual original exact surfaceガル/ガル, pronunciationガル, 名詞/普通名詞/助数詞可能/*, */*, aType1. Actual2258510 sole scientificgalunitnoun selected, not emotional1631750 suffix. Actual101702064 ordinarynoun助数詞可能 lemmaガル-gal surfaceガル aType1; surnameガル-Gall101701706excluded and suffixaType* not used. Wholeunitcitation only, no numericalcompound accent inferred. OfficialJMAoriginal2016formatcorrectionHTML definesgal=cm/s²;100Gal=100cm/s²=1m/s² basic conversion personally checked; JMAFAQ saysintensity cannotbe inferredfromaccelerationalone. EstimatedN1 genuinelyfrozenMasterN1ref2, notN5emotionplacement.",
+        "match": {
+          "word": "ガル",
+          "reading": "ガル",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; whole selected lexical citation",
+          "sense": "Gal (Einheit der Beschleunigung)"
+        }
+      }
+    ],
+    "senseKey": "acceleration-unit",
+    "correctionId": "vocab-n1:correction:gal-acceleration-unit"
   }
 ];

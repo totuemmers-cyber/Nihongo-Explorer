@@ -37762,5 +37762,1006 @@ window.VOCAB_N5 = [
       "conditionalTara": "いったら"
     },
     "correctionId": "vocab-n5:correction:yuku-go"
+  },
+  {
+    "word": "背",
+    "reading": "せい",
+    "romaji": "sei",
+    "meaning": "Körpergröße",
+    "type": "Nomen",
+    "category": "Körper und Größe",
+    "level": "N5",
+    "notes": "背（せい）bedeutet hier Körpergröße. 背が高い heißt „groß gewachsen sein“, 背を測る „die Körpergröße messen“. せい klingt länger als せ, eine andere gebräuchliche Lesung von 背. Die Bedeutung „Rücken“ gehört nicht zu der hier gelernten Lesung せい.",
+    "examples": [
+      {
+        "japanese": "弟は私より背が高いです。",
+        "romaji": "Otōto wa watashi yori sei ga takai desu.",
+        "german": "Mein jüngerer Bruder ist größer als ich."
+      },
+      {
+        "japanese": "子供の背を毎月測っています。",
+        "romaji": "Kodomo no sei o maigetsu hakatte imasu.",
+        "german": "Ich messe jeden Monat die Körpergröße des Kindes."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151849946",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@151849946",
+          "orth": "背",
+          "kana": "セイ",
+          "lemma": "背",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "1",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "セ",
+            "背",
+            "背",
+            "セー",
+            "背",
+            "セー",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "セイ",
+            "セイ",
+            "セイ",
+            "セイ",
+            "1",
+            "C3",
+            "*",
+            "5407690276872704",
+            "19673"
+          ]
+        },
+        "finding": "Personally inspected original complete surface orth8 背, surface kana20 セイ, pronunciation9 セー, POS 名詞/普通名詞/一般/*, aType 1 at sys.dic@151849946. Exact stature noun背/せい, unrestricted1472650/1; actual surfaceセイ/pronセー row151849946 aType1 and whole OJAD7715せい1. Same-reading alternate脊 is rare; originalせ card remains intact.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "背",
+          "reading": "せい",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; exact whole citation lexical form",
+          "sense": "Körpergröße"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete saved original HTML SHA256 8e2cb4b20cb25bd2cc3f05f5e46d2055b6979ddc1fbe5deda57e3a6b8e0975f1",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%83%8C#word_7715",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          1
+        ],
+        "finding": "Personally read entire citation cell 7715: せい, 2 morae, reverse peak 2, whole accent 1. Different-reading rows in actual same query explicitly excluded. Exact stature noun背/せい, unrestricted1472650/1; actual surfaceセイ/pronセー row151849946 aType1 and whole OJAD7715せい1. Same-reading alternate脊 is rare; originalせ card remains intact.",
+        "match": {
+          "word": "背",
+          "reading": "せい",
+          "grammaticalForm": "Whole independent noun citation, not suffix compound",
+          "sense": "Körpergröße"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:sei-stature"
+  },
+  {
+    "word": "毎月",
+    "reading": "まいげつ",
+    "romaji": "maigetsu",
+    "meaning": "jeden Monat, monatlich",
+    "type": "Adverb",
+    "category": "Zeit und Wiederholung",
+    "level": "N5",
+    "notes": "まいげつ ist neben まいつき eine Lesung von 毎月 und bedeutet „jeden Monat“. Als Zeitangabe kann das Wort direkt vor dem Satz stehen. Nennt man zusätzlich einen bestimmten Tag, steht に nach diesem Tag: 毎月十日に. „Einen Monat lang“ heißt dagegen 一か月; 毎月 beschreibt die Wiederholung.",
+    "examples": [
+      {
+        "japanese": "毎月、家賃を払います。",
+        "romaji": "Maigetsu, yachin o haraimasu.",
+        "german": "Ich bezahle jeden Monat die Miete."
+      },
+      {
+        "japanese": "この雑誌は毎月十日に届きます。",
+        "romaji": "Kono zasshi wa maigetsu tōka ni todokimasu.",
+        "german": "Diese Zeitschrift kommt jeden Monat am Zehnten an."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247235252",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@247235252",
+          "orth": "毎月",
+          "kana": "マイゲツ",
+          "lemma": "毎月",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "マイゲツ",
+            "毎月",
+            "毎月",
+            "マイゲツ",
+            "毎月",
+            "マイゲツ",
+            "漢",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "マイゲツ",
+            "マイゲツ",
+            "マイゲツ",
+            "マイゲツ",
+            "0",
+            "C2",
+            "*",
+            "18636180958618112",
+            "67798"
+          ]
+        },
+        "finding": "Personally inspected original complete surface orth8 毎月, surface kana20 マイゲツ, pronunciation9 マイゲツ, POS 名詞/普通名詞/一般/*, aType 0 at sys.dic@247235252. Exact毎月/まいげつ,1584350/1 every month, adv/n. Original whole surfaceマイゲツ noun247235252 flat0, not differently readマイツキ OJAD10875. Literal allocated Master N5 reference covers this reading; combined TANOS reference stays pending.",
+        "patterns": [
+          0
+        ],
+        "match": {
+          "word": "毎月",
+          "reading": "まいげつ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; exact whole citation lexical form",
+          "sense": "jeden Monat, monatlich"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:maigetsu-monthly"
+  },
+  {
+    "word": "毎年",
+    "reading": "まいねん",
+    "romaji": "mainen",
+    "meaning": "jedes Jahr, jährlich",
+    "type": "Adverb",
+    "category": "Zeit und Wiederholung",
+    "level": "N5",
+    "notes": "まいねん ist neben まいとし eine Lesung von 毎年. Das Wort bezeichnet etwas, das sich jedes Jahr wiederholt. Vor einem Nomen steht の, etwa 毎年の旅行 für „die jährliche Reise“. Für eine Dauer von einem Jahr verwendet man 一年 oder 一年間; 毎年 bezeichnet keine Dauer.",
+    "examples": [
+      {
+        "japanese": "毎年、夏に海へ行きます。",
+        "romaji": "Mainen, natsu ni umi e ikimasu.",
+        "german": "Ich fahre jedes Jahr im Sommer ans Meer."
+      },
+      {
+        "japanese": "毎年の旅行を楽しみにしています。",
+        "romaji": "Mainen no ryokō o tanoshimi ni shite imasu.",
+        "german": "Ich freue mich auf die jährliche Reise."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247361626",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@247361626",
+          "orth": "毎年",
+          "kana": "マイネン",
+          "lemma": "毎年",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "副詞可能",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "副詞可能",
+            "*",
+            "*",
+            "*",
+            "マイネン",
+            "毎年",
+            "毎年",
+            "マイネン",
+            "毎年",
+            "マイネン",
+            "漢",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "マイネン",
+            "マイネン",
+            "マイネン",
+            "マイネン",
+            "0",
+            "C2",
+            "*",
+            "9739482622468608",
+            "35432"
+          ]
+        },
+        "finding": "Personally inspected original complete surface orth8 毎年, surface kana20 マイネン, pronunciation9 マイネン, POS 名詞/普通名詞/副詞可能/*, aType 0 at sys.dic@247361626. Exact毎年/まいねん unrestricted1584360/1, adv/n every year. Original whole nominal surfaceマイネン247361626 aType0 and full OJAD10880 four mora0; different-reading10877まいとし excluded. Direct allocated addition, no artificial candidate reference.",
+        "patterns": [
+          0
+        ],
+        "match": {
+          "word": "毎年",
+          "reading": "まいねん",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *; exact whole citation lexical form",
+          "sense": "jedes Jahr, jährlich"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete saved original HTML SHA256 edfd41a27a5d4c35404317ed7b3e445c632a08feec624e711c3e5f5895598383",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%AF%8E%E5%B9%B4#word_10880",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          0
+        ],
+        "finding": "Personally read entire citation cell 10880: まいねん, 4 morae, reverse peak 0, whole accent 0. Different-reading rows in actual same query explicitly excluded. Exact毎年/まいねん unrestricted1584360/1, adv/n every year. Original whole nominal surfaceマイネン247361626 aType0 and full OJAD10880 four mora0; different-reading10877まいとし excluded. Direct allocated addition, no artificial candidate reference.",
+        "match": {
+          "word": "毎年",
+          "reading": "まいねん",
+          "grammaticalForm": "Whole independent noun citation, not suffix compound",
+          "sense": "jedes Jahr, jährlich"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:mainen-yearly"
+  },
+  {
+    "word": "家",
+    "reading": "うち",
+    "romaji": "uchi",
+    "meaning": "Zuhause, eigenes Haus; Haushalt",
+    "type": "Nomen",
+    "category": "Zuhause und Familie",
+    "level": "N5",
+    "notes": "うち bezeichnet oft das eigene Zuhause oder den eigenen Haushalt und wird häufig in Hiragana geschrieben. 家で heißt hier „zu Hause“, 私の家に „zu mir nach Hause“. Auch die Familie kann als Einheit gemeint sein: 家は四人家族です. Die Lesung いえ bezeichnet oft das Haus als Gebäude; うち betont häufig den Bezug zu den Bewohnern.",
+    "examples": [
+      {
+        "japanese": "今日は家で夕ご飯を食べます。",
+        "romaji": "Kyō wa uchi de yūgohan o tabemasu.",
+        "german": "Heute esse ich zu Hause zu Abend."
+      },
+      {
+        "japanese": "今度、私の家に遊びに来てください。",
+        "romaji": "Kondo, watashi no uchi ni asobi ni kite kudasai.",
+        "german": "Kommen Sie demnächst zu mir nach Hause zu Besuch."
+      },
+      {
+        "japanese": "家は四人家族です。",
+        "romaji": "Uchi wa yonin kazoku desu.",
+        "german": "Wir sind eine vierköpfige Familie."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63190256",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@63190256",
+          "orth": "家",
+          "kana": "ウチ",
+          "pronunciation": "ウチ",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "aType": "0",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "ウチ",
+            "家",
+            "家",
+            "ウチ",
+            "家",
+            "ウチ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ウチ",
+            "ウチ",
+            "ウチ",
+            "ウチ",
+            "0",
+            "C3",
+            "*",
+            "881542104752640",
+            "3207"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 家, surfacekana20 ウチ, pronunciation9 ウチ, POS 名詞/普通名詞/一般/*, aType 0. Exact home/household noun 家/うち,1191740/1 usually kana. Existing 内/うち1449 teaches inside/within, not these home contexts. Original exact ordinary home-noun63190256 aType0 and whole OJAD12807うち0; unrelated姓内1 and regional pronoun rows excluded.",
+        "patterns": [
+          0
+        ],
+        "match": {
+          "word": "家",
+          "reading": "うち",
+          "grammaticalForm": "名詞/普通名詞/一般/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "Zuhause, eigenes Haus; Haushalt"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 05c76a577db5acd139b79e2de25785250aae1891a86123a5eddb4628e9c5e79f",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%B6#word_12807",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          0
+        ],
+        "finding": "Personally inspected complete whole citation cell12807 うち, 2 morae, reversepeak0, wholepattern0. Exact home/household noun 家/うち,1191740/1 usually kana. Existing 内/うち1449 teaches inside/within, not these home contexts. Original exact ordinary home-noun63190256 aType0 and whole OJAD12807うち0; unrelated姓内1 and regional pronoun rows excluded.",
+        "match": {
+          "word": "家",
+          "reading": "うち",
+          "grammaticalForm": "Whole independent selected noun citation, not bound suffix or compound",
+          "sense": "Zuhause, eigenes Haus; Haushalt"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:uchi-home"
+  },
+  {
+    "word": "何",
+    "reading": "なん",
+    "romaji": "nan",
+    "meaning": "was; wie viele (vor Zählwörtern)",
+    "type": "Nomen",
+    "category": "Fragen und Mengen",
+    "level": "N5",
+    "notes": "何ですか wird gewöhnlich なんですか gelesen. Vor einem Zählwort fragt なん nach der Anzahl, etwa 何回（なんかい）für „wie oft“. Die Lesung richtet sich nach der Verbindung; man kann なに deshalb nicht überall durch なん ersetzen. 何を in einer Frage nach dem Gegenstand wird normalerweise なにを gelesen.",
+    "examples": [
+      {
+        "japanese": "これは何ですか。",
+        "romaji": "Kore wa nan desu ka.",
+        "german": "Was ist das?"
+      },
+      {
+        "japanese": "週に何回、運動しますか。",
+        "romaji": "Shū ni nankai, undō shimasu ka.",
+        "german": "Wie oft treiben Sie pro Woche Sport?"
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197483008",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@197483008",
+          "orth": "何",
+          "kana": "ナン",
+          "pronunciation": "ナン",
+          "pos": [
+            "代名詞",
+            "*",
+            "*",
+            "*"
+          ],
+          "aType": "1",
+          "originalFields": [
+            "代名詞",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "ナニ",
+            "何",
+            "何",
+            "ナン",
+            "何",
+            "ナン",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ナン",
+            "ナン",
+            "ナン",
+            "ナン",
+            "1",
+            "*",
+            "*",
+            "7674608408994304",
+            "27920"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 何, surfacekana20 ナン, pronunciation9 ナン, POS 代名詞/*/*/*, aType 1. Exact 何/なん pronoun1 and counter-prefix2; ordinary pronoun197483008 surfaceナン aType1, nominal numerical citation199984593 also1. No wholecounter compound contour inferred. OJAD9346 onlyなに is excluded; originalなに card retained.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "何",
+          "reading": "なん",
+          "grammaticalForm": "代名詞/*/*/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "was; wie viele (vor Zählwörtern)"
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@199984593",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@199984593",
+          "orth": "何",
+          "kana": "ナン",
+          "pronunciation": "ナン",
+          "pos": [
+            "名詞",
+            "数詞",
+            "*",
+            "*"
+          ],
+          "aType": "1",
+          "originalFields": [
+            "名詞",
+            "数詞",
+            "*",
+            "*",
+            "*",
+            "*",
+            "ナン",
+            "何",
+            "何",
+            "ナン",
+            "何",
+            "ナン",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "Nn",
+            "*",
+            "数",
+            "ナン",
+            "ナン",
+            "ナン",
+            "ナン",
+            "1",
+            "C3",
+            "*",
+            "7719954640151040",
+            "28085"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 何, surfacekana20 ナン, pronunciation9 ナン, POS 名詞/数詞/*/*, aType 1. Exact 何/なん pronoun1 and counter-prefix2; ordinary pronoun197483008 surfaceナン aType1, nominal numerical citation199984593 also1. No wholecounter compound contour inferred. OJAD9346 onlyなに is excluded; originalなに card retained.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "何",
+          "reading": "なん",
+          "grammaticalForm": "名詞/数詞; exactナン quantity citation, not compound contour",
+          "sense": "was; wie viele (vor Zählwörtern)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:nan-what"
+  },
+  {
+    "word": "年",
+    "reading": "ねん",
+    "romaji": "nen",
+    "meaning": "Jahr; Zählwort für Jahre",
+    "type": "Nomen",
+    "category": "Zeit und Jahreszahlen",
+    "level": "N5",
+    "notes": "年（ねん）steht hinter Zahlen in Jahreszahlen und beim Zählen von Jahren. 三年 wird さんねん gelesen. Ohne vorangestellte Zahl kommt ねん etwa in 年に一度 vor: „einmal im Jahr“. Für das Jahr als selbständiges Zeitnomen ist auch 年（とし）gebräuchlich. Die abweichende Lesung とし wird durch diese Karte nicht ersetzt.",
+    "examples": [
+      {
+        "japanese": "年に一度、家族で写真を撮ります。",
+        "romaji": "Nen ni ichido, kazoku de shashin o torimasu.",
+        "german": "Einmal im Jahr machen wir ein Familienfoto."
+      },
+      {
+        "japanese": "日本に三年住んでいました。",
+        "romaji": "Nihon ni sannen sunde imashita.",
+        "german": "Ich habe drei Jahre in Japan gewohnt."
+      },
+      {
+        "japanese": "二〇二五年に日本へ行きました。",
+        "romaji": "Nisen nijūgonen ni Nihon e ikimashita.",
+        "german": "Ich reiste 2025 nach Japan."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207057432",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@207057432",
+          "orth": "年",
+          "kana": "ネン",
+          "pronunciation": "ネン",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*"
+          ],
+          "aType": "1",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*",
+            "*",
+            "*",
+            "ネン",
+            "年",
+            "年",
+            "ネン",
+            "年",
+            "ネン",
+            "漢",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "B4WW7G9G,B4WW",
+            "体",
+            "ネン",
+            "ネン",
+            "ネン",
+            "ネン",
+            "1",
+            "C3",
+            "*",
+            "7951401837797888",
+            "28927"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 年, surfacekana20 ネン, pronunciation9 ネン, POS 名詞/普通名詞/助数詞可能/*, aType 1. Exact citation 年/ねん,2084840 noun1/counter2; actual207057432 ordinary noun助数詞可能 surfaceネン aType1 supplies bare counter-capable lexical citation, never numeral-plus-year accent. Existingとし retained. OJAD9167とし not accepted forねん.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "年",
+          "reading": "ねん",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "Jahr; Zählwort für Jahre"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:nen-year-counter"
+  },
+  {
+    "word": "月",
+    "reading": "がつ",
+    "romaji": "gatsu",
+    "meaning": "Kalendermonat (nach Zahl oder Fragewort)",
+    "type": "Nomen",
+    "category": "Kalender und Monate",
+    "level": "N5",
+    "notes": "がつ bezeichnet den Monat innerhalb des Kalenderjahres: 四月（しがつ）ist April, 何月（なんがつ）fragt „in welchem Monat?“. Nach einer Monatsangabe steht für einen Zeitpunkt häufig に. Für die Dauer „vier Monate“ sagt man 四か月（よんかげつ）. Der Mond wird dagegen 月（つき）gelesen.",
+    "examples": [
+      {
+        "japanese": "四月に新しい学校へ行きます。",
+        "romaji": "Shigatsu ni atarashii gakkō e ikimasu.",
+        "german": "Im April gehe ich in eine neue Schule."
+      },
+      {
+        "japanese": "誕生日は何月ですか。",
+        "romaji": "Tanjōbi wa nangatsu desu ka.",
+        "german": "In welchem Monat haben Sie Geburtstag?"
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101486831",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@101486831",
+          "orth": "月",
+          "kana": "ガツ",
+          "pronunciation": "ガツ",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*"
+          ],
+          "aType": "1",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*",
+            "*",
+            "*",
+            "ガツ",
+            "月",
+            "月",
+            "ガツ",
+            "月",
+            "ガツ",
+            "漢",
+            "*",
+            "*",
+            "ツ促",
+            "基本形",
+            "*",
+            "B4G7G9G",
+            "体",
+            "ガツ",
+            "ガツ",
+            "ガツ",
+            "ガツ",
+            "1",
+            "C3",
+            "*",
+            "2232300695855616",
+            "8121"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 月, surfacekana20 ガツ, pronunciation9 ガツ, POS 名詞/普通名詞/助数詞可能/*, aType 1. Exact calendar-month citation月/がつ,2871532/1 nominal suffix; actual101486831 ordinary noun助数詞可能 surfaceガツ aType1 supports bare lexical counter-capable citation. No numeral compound pattern inferred; OJAD8722 onlyつき excluded.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "月",
+          "reading": "がつ",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "Kalendermonat (nach Zahl oder Fragewort)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:gatsu-calendar-month"
+  },
+  {
+    "word": "中",
+    "reading": "ちゅう",
+    "romaji": "chū",
+    "meaning": "mittel, mittlere Größe; Durchschnitt",
+    "type": "Nomen",
+    "category": "Größe und Bewertung",
+    "level": "N5",
+    "notes": "中（ちゅう）bezeichnet hier die mittlere Größe oder einen mittleren Rang. Bei Größen kann man 大・中・小（だい・ちゅう・しょう）gegenüberstellen. Als Nomen kann 中 allein das Gewählte benennen, etwa 中を一つ. Diese Bedeutung ist von der Nachsilbe in 工事中 oder 授業中 zu unterscheiden.",
+    "examples": [
+      {
+        "japanese": "コーヒーは中を一つください。",
+        "romaji": "Kōhī wa chū o hitotsu kudasai.",
+        "german": "Einen Kaffee in mittlerer Größe bitte."
+      },
+      {
+        "japanese": "テストの成績は中でした。",
+        "romaji": "Tesuto no seiseki wa chū deshita.",
+        "german": "Die Leistung im Test lag im Mittelfeld."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169770078",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "selectedRow": {
+          "locator": "sys.dic@169770078",
+          "orth": "中",
+          "kana": "チュウ",
+          "pronunciation": "チュー",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*"
+          ],
+          "aType": "1",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "チュウ",
+            "中",
+            "中",
+            "チュー",
+            "中",
+            "チュー",
+            "漢",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "チュウ",
+            "チュウ",
+            "チュウ",
+            "チュウ",
+            "1",
+            "C3",
+            "*",
+            "6525885012386304",
+            "23741"
+          ]
+        },
+        "finding": "Personally inspected original whole surface orth8 中, surfacekana20 チュウ, pronunciation9 チュー, POS 名詞/普通名詞/一般/*, aType 1. Independent medium/average noun中/ちゅう,1620400/1; actualordinarynoun169770078 surfaceチュウ/pronチュー aType1 and whole OJAD8539two-mora1. Separate suffix169770647 aType* and other boundforms not pitch sources for this noun.",
+        "patterns": [
+          1
+        ],
+        "match": {
+          "word": "中",
+          "reading": "ちゅう",
+          "grammaticalForm": "名詞/普通名詞/一般/*; exact selected lexical citation, no numeric compound contour inferred",
+          "sense": "mittel, mittlere Größe; Durchschnitt"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Complete original HTML SHA256 5268a4259d54a8e794d1db477f17e5c239f27e66b43ddc82662d5ac229d8d4de",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%AD#word_8539",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; accent facts, no audio copied",
+        "patterns": [
+          1
+        ],
+        "finding": "Personally inspected complete whole citation cell8539 ちゅう, 2 morae, reversepeak2, wholepattern1. Independent medium/average noun中/ちゅう,1620400/1; actualordinarynoun169770078 surfaceチュウ/pronチュー aType1 and whole OJAD8539two-mora1. Separate suffix169770647 aType* and other boundforms not pitch sources for this noun.",
+        "match": {
+          "word": "中",
+          "reading": "ちゅう",
+          "grammaticalForm": "Whole independent selected noun citation, not bound suffix or compound",
+          "sense": "mittel, mittlere Größe; Durchschnitt"
+        }
+      }
+    ],
+    "senseKey": "medium-size-grade",
+    "correctionId": "vocab-n5:correction:chu-medium"
+  },
+  {
+    "word": "がる",
+    "reading": "がる",
+    "romaji": "garu",
+    "meaning": "Anzeichen eines Gefühls zeigen; sich entsprechend geben (Verb bildende Nachsilbe)",
+    "type": "Verb",
+    "category": "Gefühle und Wortbildung",
+    "level": "N5",
+    "notes": "がる schließt hier an den Stamm eines Adjektivs an und beschreibt sichtbare Anzeichen eines Gefühls, häufig bei einer anderen Person. Bei 寒い fällt い weg: 寒がる. Bei 嫌な bleibt der Stamm 嫌: 嫌がる. Die entstandenen Verben sind Godan-Verben: 寒がります, 嫌がっている. Man beschreibt damit eine beobachtete Reaktion; man behauptet nicht, die Gedanken der anderen Person sicher zu kennen. Bei 得意がる bedeutet die Verbindung, dass jemand stolz auftritt. Der Wortteil がる steht in dieser Verwendung nicht allein.",
+    "examples": [
+      {
+        "japanese": "弟は寒がって、窓を閉めました。",
+        "romaji": "Otōto wa samugatte, mado o shimemashita.",
+        "german": "Mein jüngerer Bruder zeigte, dass ihm kalt war, und schloss das Fenster."
+      },
+      {
+        "japanese": "妹はこの薬を飲むのを嫌がっています。",
+        "romaji": "Imōto wa kono kusuri o nomu no o iyagatte imasu.",
+        "german": "Meine jüngere Schwester sträubt sich dagegen, dieses Medikament einzunehmen."
+      },
+      {
+        "japanese": "彼は少し褒められると、すぐ得意がります。",
+        "romaji": "Kare wa sukoshi homerareru to, sugu tokuigarimasu.",
+        "german": "Wenn er ein wenig gelobt wird, gibt er sich sofort stolz."
+      }
+    ],
+    "pitch": null,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "がる",
+      "conjugationKind": "verb",
+      "conjugationReason": "Actual original JMdict1631750/1,2 Godan lexical/bound role, personally inspected original surface terminal and full notes/contexts. Actual1631750/1 apparentfeeling followingadjectivestem and2behave-asif followingadjectivestem/noun selected; third得意がる context explicitly teaches source2, no automatic falsehood claim. Globalexactがる absent; distinctGalunit2258510 is not emotional suffix. Actual101697710bound動詞的 suffix terminalガルaType* and101687887ordinaryverbterminal* bothno bare numeric pitch; unitGal101702064peak1 unrelated. No derived寒がる/嫌がる contour inferred. CanonicalnestedregularGodanラ completeeffectivefields/reason, displayedbareform is citationofboundformingcomponent, not independentlyusable feelingverb."
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "がる",
+    "conjugationReason": "Actual original JMdict1631750/1,2 Godan lexical/bound role, personally inspected original surface terminal and full notes/contexts. Actual1631750/1 apparentfeeling followingadjectivestem and2behave-asif followingadjectivestem/noun selected; third得意がる context explicitly teaches source2, no automatic falsehood claim. Globalexactがる absent; distinctGalunit2258510 is not emotional suffix. Actual101697710bound動詞的 suffix terminalガルaType* and101687887ordinaryverbterminal* bothno bare numeric pitch; unitGal101702064peak1 unrelated. No derived寒がる/嫌がる contour inferred. CanonicalnestedregularGodanラ completeeffectivefields/reason, displayedbareform is citationofboundformingcomponent, not independentlyusable feelingverb.",
+    "pitchVariants": [],
+    "senseKey": "feeling-behaviour-suffix",
+    "correctionId": "vocab-n5:correction:garu-feeling-suffix"
+  },
+  {
+    "word": "番",
+    "reading": "ばん",
+    "romaji": "ban",
+    "meaning": "Nummer (in einer Reihe; Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N5",
+    "notes": "番（ばん）steht nach einer Zahl und bezeichnet eine Nummer innerhalb einer Reihe. 二番のバス ist der Bus mit der Nummer zwei; 問題の三番 nennt Aufgabe Nummer drei. Die Zahl und 番 bilden eine Einheit. Für die Reihenfolge von Personen gibt es auch 私の番 für ich bin dran; diese eigene Bedeutung wird hier nicht geübt.",
+    "examples": [
+      {
+        "japanese": "二番のバスに乗ってください。",
+        "romaji": "Niban no basu ni notte kudasai.",
+        "german": "Nehmen Sie bitte den Bus Nummer zwei."
+      },
+      {
+        "japanese": "問題の三番がわかりません。",
+        "romaji": "Mondai no sanban ga wakarimasen.",
+        "german": "Ich verstehe Aufgabe Nummer drei nicht."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n5:correction:ban-series-suffix"
+  },
+  {
+    "word": "個",
+    "reading": "こ",
+    "romaji": "ko",
+    "meaning": "Stück (Zählwort für kleine Dinge)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N5",
+    "notes": "個（こ）zählt kleine einzelne Dinge, etwa Eier oder Gegenstände in einer Schachtel. Es steht nach der Zahl: 二個 sind zwei Stück, 一個 wird いっこ gelesen. Die Mengenangabe kann direkt vor を stehen oder nach dem benannten Gegenstand folgen. Für Menschen verwendet man andere Zählwörter. Hier wird nur das Zählen von Dingen geübt.",
+    "examples": [
+      {
+        "japanese": "卵を二個買いました。",
+        "romaji": "Tamago o niko kaimashita.",
+        "german": "Ich habe zwei Eier gekauft."
+      },
+      {
+        "japanese": "箱には一個しか入っていません。",
+        "romaji": "Hako ni wa ikko shika haitte imasen.",
+        "german": "In der Schachtel ist nur ein Stück enthalten."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n5:correction:ko-small-counter"
+  },
+  {
+    "word": "語",
+    "reading": "ご",
+    "romaji": "go",
+    "meaning": "Wort; Begriff (Nomen)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N5",
+    "notes": "語（ご）bezeichnet als Nomen ein Wort oder einen Begriff. この語 nennt ein bestimmtes Wort, etwa bei einer Frage nach seiner Bedeutung; 別の語 meint ein anderes Wort. In Erläuterungen zu Sprache und Text ist dieser Gebrauch üblich. Die Nachsilbe für Sprachen in 日本語 steht auf einer eigenen Karte.",
+    "examples": [
+      {
+        "japanese": "この語の意味を教えてください。",
+        "romaji": "Kono go no imi o oshiete kudasai.",
+        "german": "Erklären Sie mir bitte die Bedeutung dieses Wortes."
+      },
+      {
+        "japanese": "同じ語を何度も使わず、別の語に変えました。",
+        "romaji": "Onaji go o nando mo tsukawazu, betsu no go ni kaemashita.",
+        "german": "Ich änderte das Wort, um nicht immer wieder dasselbe zu verwenden."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126232900",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actually read full original common noun row sys.dic@126232900; 語/ゴ; 名詞/普通名詞/一般/*; aType1. Actual1270910 exact語/ご wordterm1 noun/suffix/counter; thissplitcard barewordnounonly. Direct original126232900 commonゴ noun aType1 verified; different語り/語る contractedforms excluded. OJADwholeえいご/たんご/なにご etc no bareご, notneededaccentcorroboration. Bareworddefinitionrequest vs repetitionavoidingtextedit genuinecontexts fullJapanese/German/Hepburn inspected. Chartwholelexicalnoun only, no boundlanguage accenttransfer.",
+        "match": {
+          "word": "語",
+          "reading": "ご",
+          "grammaticalForm": "Whole selected independent lexical noun; no numeral, compound or affix contour claim",
+          "sense": "Actual1270910 exact語/ご wordterm1 noun/suffix/counter; thissplitcard barewordnounonly. Direct original126232900 commonゴ noun aType1 verified; different語り/語る contractedforms excluded. OJADwholeえいご/たんご/なにご etc no bareご, notneededaccentcorroboration. Bareworddefinitionrequest vs repetitionavoidingtextedit genuinecontexts fullJapanese/German/Hepburn inspected. Chartwholelexicalnoun only, no boundlanguage accenttransfer."
+        }
+      }
+    ],
+    "senseKey": "word-independent-noun",
+    "correctionId": "vocab-n5:correction:go-word-noun"
+  },
+  {
+    "word": "語",
+    "reading": "ご",
+    "romaji": "go",
+    "meaning": "Sprache von … (Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N5",
+    "notes": "語（ご）steht hinter einem Landes- oder Sprachennamen und bildet die Bezeichnung einer Sprache. 日本語 heißt Japanisch, フランス語 Französisch. Die Nachsilbe beschreibt die Sprache, nicht die Nationalität einer Person; 日本人 ist dafür ein anderes Wort. Der Gebrauch als freies Nomen für Wort wird separat geübt.",
+    "examples": [
+      {
+        "japanese": "日本語で名前を書いてください。",
+        "romaji": "Nihongo de namae o kaite kudasai.",
+        "german": "Schreiben Sie Ihren Namen bitte auf Japanisch."
+      },
+      {
+        "japanese": "この映画はフランス語ですが、日本語の字幕があります。",
+        "romaji": "Kono eiga wa Furansugo desu ga, Nihongo no jimaku ga arimasu.",
+        "german": "Dieser Film ist auf Französisch, hat aber japanische Untertitel."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "language-bound-suffix",
+    "correctionId": "vocab-n5:correction:go-language-suffix"
   }
 ];

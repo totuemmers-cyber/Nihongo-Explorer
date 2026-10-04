@@ -75415,5 +75415,448 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:itoko-female"
+  },
+  {
+    "word": "期",
+    "reading": "き",
+    "romaji": "ki",
+    "meaning": "Zeitraum; Zeitabschnitt",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N2",
+    "notes": "期 bezeichnet hier einen abgegrenzten Zeitraum oder Abschnitt. Im Geschäftsleben kann この期 die betrachtete Abrechnungsperiode nennen; bei einem Projekt unterscheidet man mehrere Zeitabschnitte. Das Wort erscheint auch als Nachsilbe, doch der Akzent dieser Karte gilt für das vollständige Einzelwort き. Die feste Wendung この期に及んで verwendet die andere Lesung ご und gehört nicht zu dieser Lesung.",
+    "examples": [
+      {
+        "japanese": "この期の売上は、前の期より増えました。",
+        "romaji": "Kono ki no uriage wa, mae no ki yori fuemashita.",
+        "german": "Der Umsatz in diesem Zeitraum ist gegenüber dem vorherigen gestiegen."
+      },
+      {
+        "japanese": "工事は二つの期に分けて行います。",
+        "romaji": "Kōji wa futatsu no ki ni wakete okonaimasu.",
+        "german": "Die Bauarbeiten werden in zwei Zeitabschnitten durchgeführt."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101931848",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete original surface row 期/キ; lemma 期; 名詞/普通名詞/助数詞可能/*; aType 1. Actual JMdict1220540 exact期/き noun/suffix period/time1 only; no chance2, geological3 or numbered office/session/stage/season suffix4-7 padded. Primary Shogakukan originalき entry independently confirms boundedperiod and distinguishesご inこの期に及んで. Direct original common noun counter-capable sys.dic@101931848 surfaceキ aType1, not verb abbreviated期する104050742 nor differentご126232272. No compound/numbered-term accent inference. Sales comparison versus phased construction contexts fully read; kōji/uriage/fuemashita/okonaimasu correct.",
+        "match": {
+          "word": "期",
+          "reading": "き",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; whole standalone common lexical noun, no attached phrase/number/name claim",
+          "sense": "Actual JMdict1220540 exact期/き noun/suffix period/time1 only; no chance2, geological3 or numbered office/session/stage/season suffix4-7 padded. Primary Shogakukan originalき entry independently confirms boundedperiod and distinguishesご inこの期に及んで. Direct original common noun counter-capable sys.dic@101931848 surfaceキ aType1, not verb abbreviated期する104050742 nor differentご126232272. No compound/numbered-term accent inference. Sales comparison versus phased construction contexts fully read; kōji/uriage/fuemashita/okonaimasu correct."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:ki-period"
+  },
+  {
+    "word": "再",
+    "reading": "さい",
+    "romaji": "sai",
+    "meaning": "wieder-; erneut (Vorsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "再（さい）steht vor einem anderen Wort und drückt aus, dass etwas nochmals geschieht: 再試験 ist eine Wiederholungsprüfung, 再放送 eine erneute Ausstrahlung. Die Vorsilbe steht dabei direkt vor dem folgenden Bestandteil. Sie ist kein freies Adverb wie もう一度. In 再来週 wird 再 dagegen さ gelesen; diese andere Lesung gehört nicht zu dieser Karte. Für die gebundene Vorsilbe ist hier kein eigener Akzent belegt.",
+    "examples": [
+      {
+        "japanese": "不合格だったので、再試験を受けます。",
+        "romaji": "Fugōkaku datta node, saishiken o ukemasu.",
+        "german": "Weil ich nicht bestanden habe, lege ich die Wiederholungsprüfung ab."
+      },
+      {
+        "japanese": "この番組の再放送は来週です。",
+        "romaji": "Kono bangumi no saihōsō wa raishū desu.",
+        "german": "Die Wiederholung dieser Sendung läuft nächste Woche."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:sai-again-prefix"
+  },
+  {
+    "word": "翌",
+    "reading": "よく",
+    "romaji": "yoku",
+    "meaning": "darauffolgend; nächst- (Vorsilbe)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N2",
+    "notes": "翌（よく）verbindet sich mit Zeitangaben wie 月 oder 朝 und bezeichnet den nächsten Abschnitt nach einem genannten Zeitpunkt. 翌月 ist daher der Monat nach dem erwähnten Monat, nicht automatisch der nächste Monat ab heute. In einer Erzählung bezieht sich 翌朝 auf den Morgen nach dem beschriebenen Abend. Das gleich gelesene よく für oft oder gut ist ein anderes Wort. Der Akzent der ganzen Verbindung wird aus der Vorsilbe allein nicht abgeleitet.",
+    "examples": [
+      {
+        "japanese": "二月に申し込み、翌月から授業を受けました。",
+        "romaji": "Nigatsu ni mōshikomi, yokugetsu kara jugyō o ukemashita.",
+        "german": "Ich meldete mich im Februar an und nahm ab dem darauffolgenden Monat am Unterricht teil."
+      },
+      {
+        "japanese": "昨夜は雪が降り、翌朝には庭が白くなっていました。",
+        "romaji": "Sakuya wa yuki ga furi, yokuasa ni wa niwa ga shiroku natte imashita.",
+        "german": "Gestern Nacht schneite es, und am darauffolgenden Morgen war der Garten weiß geworden."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:yoku-following-prefix"
+  },
+  {
+    "word": "今",
+    "reading": "こん",
+    "romaji": "kon",
+    "meaning": "dies-; aktuell; heutig (Vorsilbe)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N2",
+    "notes": "今（こん）steht hier am Anfang einer Zeitangabe: 今学期 bedeutet dieses Semester und 今晩 heute Abend. Die Bedeutung hängt vom folgenden Bestandteil ab; bei einer längeren Zeitspanne geht es um den aktuellen Abschnitt, bei einer Tagesangabe um den heutigen Tag. Das selbstständige 今（いま）für jetzt hat eine andere Lesung.",
+    "examples": [
+      {
+        "japanese": "今学期は、日本語の授業を二つ取っています。",
+        "romaji": "Kongakki wa, Nihongo no jugyō o futatsu totte imasu.",
+        "german": "Dieses Semester belege ich zwei Japanischkurse."
+      },
+      {
+        "japanese": "今晩は家で夕食を作ります。",
+        "romaji": "Konban wa ie de yūshoku o tsukurimasu.",
+        "german": "Heute Abend koche ich zu Hause das Abendessen."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:kon-current-prefix"
+  },
+  {
+    "word": "前",
+    "reading": "ぜん",
+    "romaji": "zen",
+    "meaning": "vorherig; ehemalig (Vorsilbe)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N2",
+    "notes": "前（ぜん）steht hier vor einer Amtsbezeichnung oder einem Zeitabschnitt. 前社長 nennt den vorherigen beziehungsweise ehemaligen Firmenpräsidenten, 前年度 das vorherige Geschäftsjahr. Die Vorsilbe wird direkt mit dem folgenden Nomen verbunden. Für die räumliche Bedeutung vor oder vorne verwendet man die eigene Lesung まえ.",
+    "examples": [
+      {
+        "japanese": "前社長から、新しい社長に資料が渡されました。",
+        "romaji": "Zenshachō kara, atarashii shachō ni shiryō ga watasaremashita.",
+        "german": "Der vorherige Firmenpräsident übergab dem neuen Präsidenten die Unterlagen."
+      },
+      {
+        "japanese": "前年度の売上と今年度の売上を比べました。",
+        "romaji": "Zennendo no uriage to konnendo no uriage o kurabemashita.",
+        "german": "Ich verglich den Umsatz des vorherigen Geschäftsjahres mit dem des laufenden Geschäftsjahres."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:zen-former-prefix"
+  },
+  {
+    "word": "最",
+    "reading": "さい",
+    "romaji": "sai",
+    "meaning": "aller-; am meisten; höchst- (Vorsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "最（さい）bildet hier den höchsten oder äußersten Grad einer Eigenschaft. 最年少 heißt am jüngsten; 最優秀賞 ist eine Auszeichnung für die beste Leistung. Die Bedeutung ergibt sich mit dem folgenden Wort, nicht als frei verwendbares deutsches aller-. Diese Karte übt die Vorsilbe; die eigene Wendung 最たる wird nicht mitgeübt. Trotz der gleichen Lesung ist 再 für erneut eine andere Vorsilbe.",
+    "examples": [
+      {
+        "japanese": "彼女はチームの最年少の選手です。",
+        "romaji": "Kanojo wa chīmu no sainenshō no senshu desu.",
+        "german": "Sie ist die jüngste Spielerin im Team."
+      },
+      {
+        "japanese": "私たちの作品が最優秀賞を受賞しました。",
+        "romaji": "Watashitachi no sakuhin ga saiyūshūshō o jushō shimashita.",
+        "german": "Unser Werk gewann den Preis für die beste Leistung."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:sai-superlative-prefix"
+  },
+  {
+    "word": "史",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "Geschichte; Historie (Nomen)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "史（し）kann als Nomen Geschichte oder ihre Darstellung bezeichnen. Der Gebrauch als Einzelwort wirkt schriftsprachlich; 史をひもとく heißt sich in historische Aufzeichnungen vertiefen, und 史を編む eine Geschichte beziehungsweise Chronik verfassen. Im Alltag ist 歴史 geläufiger. Die gebundene Nachsilbe in 日本史 wird auf einer eigenen Karte geübt.",
+    "examples": [
+      {
+        "japanese": "史をひもとくと、この町の成り立ちがわかります。",
+        "romaji": "Shi o himotoku to, kono machi no naritachi ga wakarimasu.",
+        "german": "Wenn man sich in die Geschichte vertieft, versteht man die Entstehung dieser Stadt."
+      },
+      {
+        "japanese": "この時代の史を編むには、多くの記録を調べる必要があります。",
+        "romaji": "Kono jidai no shi o amu ni wa, ōku no kiroku o shiraberu hitsuyō ga arimasu.",
+        "german": "Um eine Geschichte dieser Epoche zu verfassen, muss man viele Aufzeichnungen prüfen."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133710377",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actually read full original common noun row sys.dic@133710377; 史/シ; 名詞/普通名詞/一般/*; aType1. Original JMdict2080900 exact史/し unrestricted history1 explicitly common noun AND suffix. This allocated distinct card teaches common noun only; literal Master suffix reference binds separately supported noun plus actual suffix card. Primary Shogakukan separateし history1 explicitly has bare史をひもとく, NipponKokugo noun1 describes recorded human history and compilation. Original common noun sys.dic@133710377 surfaceシ aType1 directly verified; surname133709496 same1 rejected, suffix133710501 aType* never borrowed. Two natural original written-register bare-noun contexts have no boundhistorycompound in examples; reading-existinghistory for insight vs researchingto-write distinct. German/Hepburn himotoku/naritachi/amu/ōku/hitsuyō fully read. No historicalbureaucratic/malegiven-name senses.",
+        "match": {
+          "word": "史",
+          "reading": "し",
+          "grammaticalForm": "Whole standalone common noun; explicit separate suffix card unknown, no compound contour claim",
+          "sense": "Original JMdict2080900 exact史/し unrestricted history1 explicitly common noun AND suffix. This allocated distinct card teaches common noun only; literal Master suffix reference binds separately supported noun plus actual suffix card. Primary Shogakukan separateし history1 explicitly has bare史をひもとく, NipponKokugo noun1 describes recorded human history and compilation. Original common noun sys.dic@133710377 surfaceシ aType1 directly verified; surname133709496 same1 rejected, suffix133710501 aType* never borrowed. Two natural original written-register bare-noun contexts have no boundhistorycompound in examples; reading-existinghistory for insight vs researchingto-write distinct. German/Hepburn himotoku/naritachi/amu/ōku/hitsuyō fully read. No historicalbureaucratic/malegiven-name senses."
+        }
+      }
+    ],
+    "senseKey": "history-independent-noun",
+    "correctionId": "vocab-n2:correction:shi-history-noun"
+  },
+  {
+    "word": "史",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "Geschichte von … (Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "史（し）steht als Nachsilbe nach dem Bereich, dessen Geschichte gemeint ist. 日本史 nennt die Geschichte Japans; 会社の百年史 beschreibt die hundertjährige Geschichte eines Unternehmens. Die Nachsilbe verbindet sich direkt mit dem vorherigen Wort und ist kein Höflichkeitstitel wie 氏（し）.",
+    "examples": [
+      {
+        "japanese": "大学では日本史を専攻しています。",
+        "romaji": "Daigaku de wa Nihonshi o senkō shite imasu.",
+        "german": "An der Universität habe ich japanische Geschichte als Hauptfach."
+      },
+      {
+        "japanese": "会社の百年史を作るため、昔の写真を集めました。",
+        "romaji": "Kaisha no hyakunenshi o tsukuru tame, mukashi no shashin o atsumemashita.",
+        "german": "Um die hundertjährige Geschichte des Unternehmens zusammenzustellen, sammelte ich alte Fotos."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "history-bound-suffix",
+    "correctionId": "vocab-n2:correction:shi-history-suffix"
+  },
+  {
+    "word": "家",
+    "reading": "け",
+    "romaji": "ke",
+    "meaning": "Familie; Haus (Nachsilbe nach einem Familiennamen)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N2",
+    "notes": "家（け）wird nach einem Familiennamen angefügt und bezeichnet die Familie oder das Haus als Familienverband. 佐藤家 meint also die Familie Satō, nicht einfach irgendein Haus. Bei einer historischen Familie wie 徳川家 kann Haus auch eine Dynastie bezeichnen. Die Lesung いえ für das Gebäude und die Nachsilbe か in 作家 sind andere Verwendungen.",
+    "examples": [
+      {
+        "japanese": "今夜は佐藤家で夕食をごちそうになります。",
+        "romaji": "Kon'ya wa Satōke de yūshoku o gochisō ni narimasu.",
+        "german": "Heute Abend bin ich bei der Familie Satō zum Abendessen eingeladen."
+      },
+      {
+        "japanese": "徳川家の歴史について調べています。",
+        "romaji": "Tokugawake no rekishi ni tsuite shirabete imasu.",
+        "german": "Ich recherchiere über die Geschichte des Hauses Tokugawa."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ke-family-suffix"
+  },
+  {
+    "word": "風",
+    "reading": "ふう",
+    "romaji": "fū",
+    "meaning": "Art; Weise; Methode (Nomen)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "風（ふう）bezeichnet eine Art oder Weise. こんな風に heißt auf diese Weise; どんな風に fragt, wie etwas gemacht wird. Mit に beschreibt man die Art einer Handlung, mit な kann eine entsprechende Beschreibung vor einem Nomen stehen. In diesen Wendungen ist auch die Hiraganaschreibung ふう üblich. Die Lesung かぜ für Wind und die Nachsilbe in フランス風 sind andere Verwendungen.",
+    "examples": [
+      {
+        "japanese": "どんな風に説明すれば、子どもにも伝わりますか。",
+        "romaji": "Donna fū ni setsumei sureba, kodomo ni mo tsutawarimasu ka.",
+        "german": "Wie kann ich es erklären, sodass auch Kinder es verstehen?"
+      },
+      {
+        "japanese": "そんな風な考え方は、私には新鮮でした。",
+        "romaji": "Sonna fū na kangaekata wa, watashi ni wa shinsen deshita.",
+        "german": "Eine solche Denkweise war für mich neu und erfrischend."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230660291",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actually read full original common noun row sys.dic@230660291; 風/フウ; 名詞/普通名詞/形状詞可能/*; aType1. Actual1499730 exact風/ふう mannerway1 only, notappearance2/custom3/classicalfolksong4/elementwind5/resemblancesuffix6. Direct230660291 commonnounshape-capable aType1 verifieswholefreefū; suffix230660444/230660939*, プウ/ブリ/カゼ excluded. OJAD4812かぜ0 differentreading. Free Donna fū ni explanatorymanner vs Sonna fū na thoughtway reaction naturaldifferentcontexts withfullfaithfulGerman/Hepburn individuallyread. No boundstyleaccenttransfer.",
+        "match": {
+          "word": "風",
+          "reading": "ふう",
+          "grammaticalForm": "Whole selected independent lexical noun; no numeral, compound or affix contour claim",
+          "sense": "Actual1499730 exact風/ふう mannerway1 only, notappearance2/custom3/classicalfolksong4/elementwind5/resemblancesuffix6. Direct230660291 commonnounshape-capable aType1 verifieswholefreefū; suffix230660444/230660939*, プウ/ブリ/カゼ excluded. OJAD4812かぜ0 differentreading. Free Donna fū ni explanatorymanner vs Sonna fū na thoughtway reaction naturaldifferentcontexts withfullfaithfulGerman/Hepburn individuallyread. No boundstyleaccenttransfer."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:fu-manner-noun"
+  },
+  {
+    "word": "山",
+    "reading": "さん",
+    "romaji": "san",
+    "meaning": "Berg (Nachsilbe in Bergnamen)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "山（さん）steht in Namen von Bergen, etwa 富士山（ふじさん）oder 阿蘇山（あそさん）. Diese Lesung ist Teil des vollständigen Namens. Andere Bergnamen verwenden やま oder ざん, daher setzt man nicht automatisch an jeden Namen さん. Das freie Nomen 山（やま）und die Anrede さん sind eigene Einträge.",
+    "examples": [
+      {
+        "japanese": "いつか富士山に登りたいです。",
+        "romaji": "Itsuka Fujisan ni noboritai desu.",
+        "german": "Ich möchte irgendwann den Fuji besteigen."
+      },
+      {
+        "japanese": "阿蘇山についての写真集を図書館で借りました。",
+        "romaji": "Asosan ni tsuite no shashinshū o toshokan de karimashita.",
+        "german": "Ich lieh in der Bibliothek einen Bildband über den Berg Aso aus."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:san-mountain-suffix"
+  },
+  {
+    "word": "名",
+    "reading": "めい",
+    "romaji": "mei",
+    "meaning": "Personen (höfliches Zählwort)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "名（めい）zählt Personen in höflichen oder formellen Angaben, zum Beispiel bei einer Reservierung oder Teilnehmerzahl. 二名です bedeutet wir sind zwei Personen; mit 十名 nennt man zehn Teilnehmende. Im gewöhnlichen Gespräch ist 人（にん）geläufiger. Hier wird nur das Zählwort geübt, nicht 名 für Vorname oder die Vorsilbe in 名探偵.",
+    "examples": [
+      {
+        "japanese": "二名で予約したいのですが、席はありますか。",
+        "romaji": "Nimei de yoyaku shitai no desu ga, seki wa arimasu ka.",
+        "german": "Ich möchte für zwei Personen reservieren. Haben Sie noch Plätze?"
+      },
+      {
+        "japanese": "説明会には十名が参加しました。",
+        "romaji": "Setsumeikai ni wa jūmei ga sanka shimashita.",
+        "german": "An der Informationsveranstaltung nahmen zehn Personen teil."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:mei-person-counter"
+  },
+  {
+    "word": "色",
+    "reading": "しょく",
+    "romaji": "shoku",
+    "meaning": "Farben (Zählwort)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "色（しょく）steht nach einer Zahl, wenn man Farben zählt. 四色 wird よんしょく gelesen und nennt vier Farben; 一色 wird いっしょく gelesen. Die Verbindung zählt die unterschiedlichen Farben, nicht die Anzahl der Gegenstände. Das freie Wort Farbe wird 色（いろ）gelesen. Hier wird nur das Zählwort geübt.",
+    "examples": [
+      {
+        "japanese": "このプリンターは四色のインクを使います。",
+        "romaji": "Kono purintā wa yonshoku no inku o tsukaimasu.",
+        "german": "Dieser Drucker verwendet Tinte in vier Farben."
+      },
+      {
+        "japanese": "一色だけで絵を描くのは難しいです。",
+        "romaji": "Isshoku dake de e o kaku no wa muzukashii desu.",
+        "german": "Es ist schwierig, ein Bild mit nur einer Farbe zu malen."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:shoku-color-counter"
+  },
+  {
+    "word": "内",
+    "reading": "ない",
+    "romaji": "nai",
+    "meaning": "innerhalb von …; in … (Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "内（ない）wird direkt an ein Nomen angefügt und bezeichnet dessen Inneres oder Grenzen. 館内 meint innerhalb eines Gebäudes; 予算内 heißt innerhalb des Budgets. Der Zusammenhang kann räumlich sein oder eine festgelegte Grenze betreffen. Nach der Verbindung folgt die passende Partikel, etwa 館内では oder 予算内で. Die Lesung うち und ない für nicht vorhanden sind eigene Wörter.",
+    "examples": [
+      {
+        "japanese": "館内では、静かに話してください。",
+        "romaji": "Kannai de wa, shizuka ni hanashite kudasai.",
+        "german": "Sprechen Sie bitte innerhalb des Gebäudes leise."
+      },
+      {
+        "japanese": "必要な家具を、予算内でそろえました。",
+        "romaji": "Hitsuyō na kagu o, yosannai de soroemashita.",
+        "german": "Ich beschaffte die nötigen Möbel innerhalb des Budgets."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:nai-within-suffix"
+  },
+  {
+    "word": "外",
+    "reading": "がい",
+    "romaji": "gai",
+    "meaning": "außerhalb von …; nicht enthalten (Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N2",
+    "notes": "外（がい）steht nach einem Nomen und drückt aus, dass etwas außerhalb seiner Grenzen liegt oder nicht dazugehört. 営業時間外 bezeichnet die Zeit außerhalb der Öffnungszeiten; 範囲外 meint außerhalb eines bestimmten Bereichs. Es geht auch um abstrakte Grenzen wie den Umfang eines Themas. Das freie Wort draußen wird 外（そと）gelesen. Die Nachsilbe wird direkt angeschlossen.",
+    "examples": [
+      {
+        "japanese": "営業時間外は、この入口を使えません。",
+        "romaji": "Eigyōjikangai wa, kono iriguchi o tsukaemasen.",
+        "german": "Außerhalb der Öffnungszeiten kann man diesen Eingang nicht benutzen."
+      },
+      {
+        "japanese": "その質問は、今日の授業の範囲外です。",
+        "romaji": "Sono shitsumon wa, kyō no jugyō no han'igai desu.",
+        "german": "Diese Frage liegt außerhalb des Bereichs des heutigen Unterrichts."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:gai-outside-suffix"
   }
 ];

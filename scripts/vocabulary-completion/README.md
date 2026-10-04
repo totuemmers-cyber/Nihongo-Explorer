@@ -167,6 +167,27 @@ pending entry reviews, missing second reviewed contexts or uninvestigated
 pitch. Its 317 unresolved source references still keep the phase active;
 N4–N1 remain pending and this checkpoint does not certify a level.
 
+The ninth verified checkpoint adds 46 fully reviewed reading and grammatical-role
+cards and resolves 64 further frozen references. Campaign totals are 1,603 unique
+original entries enriched, 81 additions and 309 frozen references resolved.
+Distinct readings and noun, prefix, suffix, counter and particle uses retain
+separate teaching, IDs and investigated pitch. The verb-forming がる and the
+acceleration unit ガル remain separate despite their matching normalized sound.
+Qualified pronoun spellings and hanging/time/cost contexts extend existing cards.
+The frozen source notation 見る 観る preserves its literal space and binds both
+complete spellings to their separately reviewed cards.
+All 21 full checks pass. A repeated build leaves all eight generated files
+identical; all 15,558 original IDs/headwords/readings/levels and the four
+comprehension/audio payloads remain intact. No campaign source approval reopens.
+Browser verification covers 55 cards in 220 detail and note states across
+390/1440 widths and both themes, all their current examples and notes, 55
+searches, refreshed deep links and the historical duplicate redirect. Eight
+representative cards have 32 detail and 32 note screenshots; representative
+mobile/desktop screens in both themes were personally inspected.
+All 1,665 current N5 cards have complete reviewed teaching and investigated
+pitch. The remaining 253 source references across 182 groups keep N5 active;
+N4–N1 remain pending. This checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -632,10 +653,11 @@ candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
 `additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
 
-`verified-source-notation` handles seven explicit publisher formats: a nominal
+`verified-source-notation` handles eight explicit publisher formats: a nominal
 heading with a complete suru-verb reading, a parenthesized reading ending, a
 reading misplaced into the gloss column, a kana-script variant, or combined
-spellings, alternative readings, or shared final okurigana.
+spellings, alternative readings, shared final okurigana, or complete spellings
+separated by one literal space.
 Its `sourceNormalization` contains `kind`, `word` and `reading`;
 all three are bound to both approvals. A single separator `・` immediately
 before `する` is allowed in that format; other punctuation is preserved.
@@ -645,8 +667,12 @@ The first five formats retain one target. `alternative-readings` preserves the
 literal slash-separated source reading and binds a distinct accepted card for
 each of its two or three readings. `shared-okurigana` expands the final kana
 ending in a source such as `堅/硬/固い` to `堅い/硬い/固い` and binds each
-full spelling at the same reading to its own accepted card. Missing, unrelated,
-overlapping or extra targets fail; every target hash and both source approvals
+full spelling at the same reading to its own accepted card.
+`spaced-spellings` separates two or three complete Han-plus-kana forms with the
+same written ending, such as the frozen `見る 観る`, into explicit `見る/観る`
+coverage. Repeated forms, incomplete stems, differing endings and arbitrary
+whitespace fail. Each spelling requires its own current accepted target.
+Missing, unrelated, overlapping or extra targets fail; every target hash and both source approvals
 remain mandatory. These formats do not establish interchangeable usage.
 Lexical evidence and independent review are still required. This action cannot
 resolve an arbitrary reading, homophone or additional sense; the original

@@ -39287,5 +39287,66 @@ window.VOCAB_N4 = [
     ],
     "pitch": null,
     "correctionId": "vocab-n4:correction:ya-list-particle"
+  },
+  {
+    "word": "中",
+    "reading": "じゅう",
+    "romaji": "jū",
+    "meaning": "die ganze Zeit; überall; alle; bis zum Ende (Nachsilbe)",
+    "type": "Ausdruck",
+    "category": "Dauer und Umfang",
+    "level": "N4",
+    "notes": "じゅう umfasst einen ganzen Zeitraum, Ort oder Personenkreis: 一日中 „den ganzen Tag“, 世界中 „auf der ganzen Welt“, 親戚中 „alle Verwandten“. Mit に kann eine zeitliche Grenze gemeint sein: 今日中に heißt „noch heute, bis heute zu Ende ist“. Welche Lesung 中 erhält, hängt von der Verbindung und Bedeutung ab; 工事中 wird dagegen こうじちゅう gelesen.",
+    "examples": [
+      {
+        "japanese": "昨日は一日中雨が降っていました。",
+        "romaji": "Kinō wa ichinichi jū ame ga futte imashita.",
+        "german": "Gestern hat es den ganzen Tag geregnet."
+      },
+      {
+        "japanese": "今日中にこの仕事を終わらせます。",
+        "romaji": "Kyō jū ni kono shigoto o owarasemasu.",
+        "german": "Ich erledige diese Arbeit noch heute."
+      },
+      {
+        "japanese": "この歌は世界中で知られています。",
+        "romaji": "Kono uta wa sekai jū de shirarete imasu.",
+        "german": "Dieses Lied ist auf der ganzen Welt bekannt."
+      },
+      {
+        "japanese": "親戚中からお祝いの手紙が届きました。",
+        "romaji": "Shinseki jū kara oiwai no tegami ga todokimashita.",
+        "german": "Von allen Verwandten kamen Glückwunschbriefe."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "correctionId": "vocab-n4:correction:ju-throughout"
+  },
+  {
+    "word": "家",
+    "reading": "か",
+    "romaji": "ka",
+    "meaning": "Person mit einem Beruf, Interesse oder einer Neigung (Nachsilbe)",
+    "type": "Nomen",
+    "category": "Abstrakt",
+    "level": "N4",
+    "notes": "家（か）bildet nach einem Nomen eine Personenbezeichnung. 写真家 ist ein Fotograf oder eine Fotografin; 努力家 nennt jemanden, der sich sehr bemüht. Die Nachsilbe kann also einen Beruf oder eine ausgeprägte Eigenschaft ausdrücken. Sie wird direkt an den vorherigen Bestandteil angeschlossen. 家（いえ）für Haus und 家（け）nach einem Familiennamen sind andere Lesungen.",
+    "examples": [
+      {
+        "japanese": "写真家が海の写真を撮っています。",
+        "romaji": "Shashinka ga umi no shashin o totte imasu.",
+        "german": "Ein Fotograf macht Fotos vom Meer."
+      },
+      {
+        "japanese": "弟は毎日練習する努力家です。",
+        "romaji": "Otōto wa mainichi renshū suru doryokuka desu.",
+        "german": "Mein jüngerer Bruder ist ein fleißiger Mensch, der jeden Tag übt."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:ka-person-suffix"
   }
 ];

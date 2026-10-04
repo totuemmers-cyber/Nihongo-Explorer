@@ -522,7 +522,8 @@ console.log('Source-notation regressions passed: five bounded formats, unrelated
 
 const multiNotationCases=[
   [{word:'毎年',reading:'まいとし / まいねん'},[{word:'毎年',reading:'まいとし'},{word:'毎年',reading:'まいねん'}],{kind:'alternative-readings',word:'毎年',reading:'まいとし / まいねん'}],
-  [{word:'堅/硬/固い',reading:'かたい'},[{word:'堅い',reading:'かたい'},{word:'硬い',reading:'かたい'},{word:'固い',reading:'かたい'}],{kind:'shared-okurigana',word:'堅い/硬い/固い',reading:'かたい'}]
+  [{word:'堅/硬/固い',reading:'かたい'},[{word:'堅い',reading:'かたい'},{word:'硬い',reading:'かたい'},{word:'固い',reading:'かたい'}],{kind:'shared-okurigana',word:'堅い/硬い/固い',reading:'かたい'}],
+  [{word:'見る 観る',reading:'みる'},[{word:'見る',reading:'みる'},{word:'観る',reading:'みる'}],{kind:'spaced-spellings',word:'見る/観る',reading:'みる'}]
 ];
 for(const[ref,targets,notation]of multiNotationCases) {
   validateSourceNotationTargets(ref,targets,notation);
@@ -541,6 +542,10 @@ for(const reading of ['まいとし/まいとし','まいとし/マイトシ','�
 const[hardRef,hardTargets,hardNotation]=multiNotationCases[1];
 for(const word of ['堅/硬/固','堅い/硬/固い','堅/固/固い','堅//固い'])assert.throws(()=>validateSourceNotationTargets({...hardRef,word},hardTargets,hardNotation));
 assert.throws(()=>validateSourceNotationTargets(hardRef,[{word:'固い',reading:'かたい',aliases:['堅い','硬い']},...hardTargets.slice(1)],hardNotation),'Overlapping target coverage accepted');
+const[spacedRef,spacedTargets,spacedNotation]=multiNotationCases[2];
+for(const word of ['見る観る','見る  観る','見る\t観る','見る　観る','見る 観','見 観る','見る 観た','見る 見る','見る 観る 見る','見る 観る その他'])
+  assert.throws(()=>validateSourceNotationTargets({...spacedRef,word},spacedTargets,spacedNotation));
+assert.throws(()=>validateSourceNotationTargets(spacedRef,[{word:'見る',reading:'みる',aliases:['観る']},spacedTargets[1]],spacedNotation),'Overlapping spaced-form coverage accepted');
 for(const[ref,target,notation]of notationCases) {
   validateSourceNotationTargets(ref,[target],notation);
   assert.throws(()=>validateSourceNotationTargets(ref,[target,{word:'虫',reading:'むし'}],notation),'Legacy single-target format was broadened');
