@@ -467,3 +467,52 @@ assert.equal(germanEditEligible({notes:'\u300c\u884c\u304f\u300d means go.'},{no
 assert.equal(germanEditEligible({notes:'\u300c\u884c\u304f\u300d means go.'},{notes:'\u300c\u884c\u304f\uff1f\u300d means go.'}),false);
 assert.equal(germanEditEligible({notes:'\u304b\u3099 means ga.'},{notes:'\u304b\u309a means ga.'}),false);
 console.log('V2 hardening regressions passed: identity approvals, frozen history, accepted-only sampling, draft source attestations, Japanese punctuation/combining marks.');
+
+// Publisher-format corrections remain distinct from exact spelling variants.
+// The frozen source, lexical review and both approvals still bind the result.
+const {validateSourceNotation}=require('./vocabulary-source-notation.cjs');
+const notationCases=[
+  [{word:'散歩',reading:'さんぽする'}, {word:'散歩する',reading:'さんぽする'}, {kind:'nominal-verb',word:'散歩する',reading:'さんぽする'}],
+  [{word:'暖かい',reading:'あたたか(い)'}, {word:'暖かい',reading:'あたたかい'}, {kind:'parenthetical-reading',word:'暖かい',reading:'あたたかい'}],
+  [{word:'急に',reading:'急に',gloss:'きゅうに'}, {word:'急に',reading:'きゅうに'}, {kind:'misplaced-reading',word:'急に',reading:'きゅうに'}],
+  [{word:'塵',reading:'ごみ'}, {word:'ゴミ',reading:'ゴミ',aliases:['塵']}, {kind:'kana-script',word:'塵',reading:'ゴミ'}],
+  [{word:'川/河',reading:'かわ'}, {word:'川',reading:'かわ',aliases:['河']}, {kind:'combined-spellings',word:'川',reading:'かわ'}]
+];
+for(const [ref,target,notation] of notationCases) {
+  validateSourceNotation(ref,target,notation);
+  assert.throws(()=>validateSourceNotation(ref,{...target,reading:'むし'},notation),'Unrelated pronunciation accepted');
+  assert.throws(()=>validateSourceNotation(ref,{...target,word:'虫',aliases:[]},notation),'Unrelated spelling accepted');
+  assert.throws(()=>validateSourceNotation(ref,target,{...notation,kind:'unchecked'}));
+}
+assert.throws(()=>validateSourceNotation({word:'散歩',reading:'さんぽ'},notationCases[0][1],notationCases[0][2]),/complete suru reading/);
+assert.throws(()=>validateSourceNotation({word:'暖かい',reading:'あたたか(かった)'},notationCases[1][1],notationCases[1][2]),/changed source reading/);
+assert.throws(()=>validateSourceNotation({word:'急に',reading:'急に',gloss:'suddenly'},notationCases[2][1],notationCases[2][2]),/contain this reading/);
+assert.throws(()=>validateSourceNotation({word:'塵',reading:'ちり'},notationCases[3][1],notationCases[3][2]),/changed pronunciation/);
+assert.throws(()=>validateSourceNotation(notationCases[4][0],{word:'川',reading:'かわ'},notationCases[4][2]),/not fully covered/);
+
+for(const ref of [
+  {word:'椅子',reading:'い(す)',gloss:'chair',url:'fixture:parentheses'},
+  {word:'椅子',reading:'椅子',gloss:'いす',url:'fixture:columns'},
+  {word:'椅子',reading:'イス',gloss:'chair',url:'fixture:kana'},
+  {word:'椅子/いす',reading:'いす',gloss:'chair',url:'fixture:combined'}
+]) {
+  const kinds=['parenthetical-reading','misplaced-reading','kana-script','combined-spellings'];
+  const kind=kinds[['fixture:parentheses','fixture:columns','fixture:kana','fixture:combined'].indexOf(ref.url)];
+  const candidate={key:'notation-fixture',word:ref.word,reading:ref.reading,references:[ref]},nf=fixture([candidate]),nrun=()=>prepareCorrections(nf.legacy,nf.options),np=nrun(),v=np.items[0];
+  const d={key:candidate.key,referenceIndex:0,referenceHash:hash(ref),revisionId:'notation-'+(++serial),state:'accepted',predecessorHash:null,predecessorRevisionHash:null,
+    disposition:'verified-source-notation',targets:[v.id],targetHashes:{[v.id]:hash(project(v))},sourceNormalization:{kind,word:'椅子',reading:'いす'},
+    reason:'Synthetic source-format review, not a production lexical claim.',evidence:copy(complete.reviews[0].evidence),
+    policy:{id:'risk-based-v2',risk:'consequential',reasons:['source-notation'],enrichmentRequired:false,sampled:false}};
+  function sealNotation() {const h=decisionHash(d);d.firstPass={decision:'accepted',reviewer:'Fixture notation author',finding:'Synthetic exact source review.',contentHash:h,approvalHash:h};d.secondPass={...d.firstPass,reviewer:'Fixture independent notation reviewer'};}
+  sealNotation();nf.options.batches.push({version:3,decisions:[d]});assert.equal(report(nrun()).unresolvedCandidateReferences,0);
+  const saved=copy(d);
+  delete d.secondPass;assert.throws(nrun,/second-pass acceptance/);Object.assign(d,copy(saved));
+  d.secondPass.reviewer=d.firstPass.reviewer;assert.throws(nrun,/Independent reviewer/);Object.assign(d,copy(saved));
+  if(kind==='combined-spellings') {
+    // Both aliases are covered, but changing the chosen spelling invalidates
+    // the exact approval even though the mechanical normalization is valid.
+    d.sourceNormalization.word='いす';assert.throws(nrun,/First pass is stale/);Object.assign(d,copy(saved));
+  }
+  d.disposition='verified-spelling-variant';delete d.sourceNormalization;sealNotation();assert.throws(nrun,/Variant reading differs|Missing variant alias/);
+}
+console.log('Source-notation regressions passed: five bounded formats, unrelated forms rejected, exact/independent approvals enforced, strict spelling checks preserved.');

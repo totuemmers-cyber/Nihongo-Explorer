@@ -1,0 +1,987 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:3048",
+      "revisionId": "090a-suru-vocab-n3-3048",
+      "state": "accepted",
+      "predecessorHash": "8a578c49ce7db47534ab07e62113b3a7eed3e78d5aa7e3f2f9cc7cb01d1a33bd",
+      "predecessorRevisionHash": null,
+      "originalHash": "8a578c49ce7db47534ab07e62113b3a7eed3e78d5aa7e3f2f9cc7cb01d1a33bd",
+      "original": {
+        "notes": null,
+        "romaji": "sanposuru",
+        "examples": [
+          {
+            "japanese": "何時くらいに散歩する予定なんですか？",
+            "romaji": "Nanji kurai ni sanpo suru yotei na n desu ka?",
+            "german": "Um wie viel Uhr planen Sie, spazieren zu gehen?"
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "散歩する bedeutet „spazieren gehen“. 散歩 allein ist das Nomen „Spaziergang“; mit する entsteht das Verb, dessen Formen zum Beispiel 散歩します und 散歩した lauten. Ein Ort kann mit で angegeben werden; bei einer durchquerten Strecke steht auch を, wie in 河原を散歩する. 犬を連れて bedeutet „mit dem Hund“ beziehungsweise „den Hund mitnehmend“. Die erste Frage erkundigt sich nach der ungefähren Uhrzeit eines geplanten Spaziergangs.",
+        "romaji": "sanpo suru",
+        "examples": [
+          {
+            "japanese": "何時くらいに散歩する予定なんですか？",
+            "romaji": "Nanji kurai ni sanpo suru yotei nan desu ka?",
+            "german": "Um wie viel Uhr planen Sie, spazieren zu gehen?"
+          },
+          {
+            "japanese": "犬を連れて河原を散歩しました。",
+            "romaji": "Inu o tsurete kawara o sanpo shimashita.",
+            "german": "Ich ging mit dem Hund am Flussufer spazieren."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 8aa1996e0c09b440aed381d275a447a0211ea98c21e37229e54ab2d293b80d21",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%95%A3%E6%AD%A9%E3%81%99%E3%82%8B#2169_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">さ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">ぽ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2169_1_1_female\" href=\"#\" onclick=\"pronounce_play('2169_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2169_1_1_male\" href=\"#\" onclick=\"pronounce_play('2169_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "散歩する",
+              "reading": "さんぽする",
+              "grammaticalForm": "Complete suru-verb dictionary form; さんぽする",
+              "sense": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0."
+            }
+          }
+        ]
+      },
+      "rationale": "Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1303620; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+          "selected": {
+            "sequence": "1303620",
+            "spelling": "散歩",
+            "reading": "さんぽ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "walk",
+                  "stroll"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "teaching-enrichment",
+          "usage-note",
+          "pitch-research"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "spazieren gehen",
+        "japanese": "何時くらいに散歩する予定なんですか？ / 犬を連れて河原を散歩しました。",
+        "romanization": "Head sanpo suru; Nanji kurai ni sanpo suru yotei nan desu ka? / Inu o tsurete kawara o sanpo shimashita.",
+        "translation": "Um wie viel Uhr planen Sie, spazieren zu gehen? / Ich ging mit dem Hund am Flussufer spazieren.",
+        "contexts": [
+          "Nach der ungefähren Uhrzeit eines geplanten Spaziergangs fragen.",
+          "Einen zurückliegenden Spaziergang am Flussufer mit dem Hund schildern."
+        ],
+        "lexical": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "register": "散歩する bedeutet „spazieren gehen“. 散歩 allein ist das Nomen „Spaziergang“; mit する entsteht das Verb, dessen Formen zum Beispiel 散歩します und 散歩した lauten. Ein Ort kann mit で angegeben werden; bei einer durchquerten Strecke steht auch を, wie in 河原を散歩する. 犬を連れて bedeutet „mit dem Hund“ beziehungsweise „den Hund mitnehmend“. Die erste Frage erkundigt sich nach der ungefähren Uhrzeit eines geplanten Spaziergangs.",
+        "transitivity": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "conjugation": "Existing explicit suru group, nested/effective metadata and せよ variant retained; suru/shimasu/shita/shite forms personallyread. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "level": "Original N3 unchanged; N5 referenceownership is workflow routing."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "evidence": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 8aa1996e0c09b440aed381d275a447a0211ea98c21e37229e54ab2d293b80d21",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%95%A3%E6%AD%A9%E3%81%99%E3%82%8B#2169_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">さ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">ぽ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2169_1_1_female\" href=\"#\" onclick=\"pronounce_play('2169_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2169_1_1_male\" href=\"#\" onclick=\"pronounce_play('2169_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "散歩する",
+              "reading": "さんぽする",
+              "grammaticalForm": "Complete suru-verb dictionary form; さんぽする",
+              "sense": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "contentHash": "51424a09c330af2aae752a27925a3dc04ba808782f1b20c68426266e1866a890",
+        "approvalHash": "7fc3ac489bf10f4cae4ef878f9e76af60f96b5bed7d31974801c5153ea3bc2e3"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally read both complete contexts, German/Hepburn/note: approximate planned time differs from walking the riverside with a dog. Raw1303620 n/vs/vi1 allows the full sanpo suru verb, with route-o rather than transitive object. Actual OJAD2169 full dictionary cell explicitly prints flat0. Original N3 identity and effective/nested suru conjugation metadata retained.",
+        "contentHash": "51424a09c330af2aae752a27925a3dc04ba808782f1b20c68426266e1866a890",
+        "approvalHash": "7fc3ac489bf10f4cae4ef878f9e76af60f96b5bed7d31974801c5153ea3bc2e3"
+      }
+    },
+    {
+      "id": "vocab-n3:3096",
+      "revisionId": "090a-suru-vocab-n3-3096",
+      "state": "accepted",
+      "predecessorHash": "03bb811ea05df37df4a575fb7ac0dfc76385bfdd891b707c2b01284aa9ea2903",
+      "predecessorRevisionHash": null,
+      "originalHash": "03bb811ea05df37df4a575fb7ac0dfc76385bfdd891b707c2b01284aa9ea2903",
+      "original": {
+        "notes": null,
+        "romaji": "soujisuru",
+        "examples": [
+          {
+            "japanese": "「今朝は4時から起きてるよ。」「嘘でしょ？いったい何してるの？」「えっと…家を大掃除してるの。」",
+            "romaji": "Kesa wa 4ji kara oki teru yo. Uso desho? Ittai nani shi teru no? E to... ie o dai souji shi teru no.",
+            "german": "\"Ich bin seit vier Uhr morgens wach.\" \"Echt? Was machst du denn?\" \"Naja, ich putze das Haus.\""
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "掃除する heißt „putzen“ oder „sauber machen“. Der gereinigte Ort steht als Objekt mit を: 家を掃除する, 床を掃除する. 大掃除する bezeichnet eine gründliche, größere Reinigung. Im Gespräch sind 掃除している und 起きている zu 掃除してる und 起きてる verkürzt; das zeigt den lockeren Ton des ersten Beispiels. Im zweiten Beispiel ordnet 〜てから die Handlungen: erst aufräumen, danach den Boden putzen. Ohne する ist 掃除 ein Nomen.",
+        "romaji": "sōji suru",
+        "examples": [
+          {
+            "japanese": "「今朝は4時から起きてるよ。」「嘘でしょ？いったい何してるの？」「えっと…家を大掃除してるの。」",
+            "romaji": "\"Kesa wa yoji kara okiteru yo.\" \"Uso desho? Ittai nani shiteru no?\" \"Etto... ie o ōsōji shiteru no.\"",
+            "german": "„Ich bin heute Morgen seit vier Uhr wach.“ „Das gibt es doch nicht! Was machst du denn?“ „Ähm … ich mache das Haus gründlich sauber.“"
+          },
+          {
+            "japanese": "荷物を片付けてから、店の床を掃除しました。",
+            "romaji": "Nimotsu o katazukete kara, mise no yuka o sōji shimashita.",
+            "german": "Nachdem ich die Sachen weggeräumt hatte, putzte ich den Boden des Ladens."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 33435e592f548a918532cc9698c11d01a434e852475cd556d48684f1d0436c74",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8E%83%E9%99%A4%E3%81%99%E3%82%8B#2371_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">そ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">じ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2371_1_1_female\" href=\"#\" onclick=\"pronounce_play('2371_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2371_1_1_male\" href=\"#\" onclick=\"pronounce_play('2371_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "掃除する",
+              "reading": "そうじする",
+              "grammaticalForm": "Complete suru-verb dictionary form; そうじする",
+              "sense": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested."
+            }
+          }
+        ]
+      },
+      "rationale": "Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1399790; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+          "selected": {
+            "sequence": "1399790",
+            "spelling": "掃除",
+            "reading": "そうじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cleaning",
+                  "sweeping",
+                  "dusting",
+                  "scrubbing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "teaching-enrichment",
+          "usage-note",
+          "pitch-research"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "putzen",
+        "japanese": "「今朝は4時から起きてるよ。」「嘘でしょ？いったい何してるの？」「えっと…家を大掃除してるの。」 / 荷物を片付けてから、店の床を掃除しました。",
+        "romanization": "Head sōji suru; \"Kesa wa yoji kara okiteru yo.\" \"Uso desho? Ittai nani shiteru no?\" \"Etto... ie o ōsōji shiteru no.\" / Nimotsu o katazukete kara, mise no yuka o sōji shimashita.",
+        "translation": "„Ich bin heute Morgen seit vier Uhr wach.“ „Das gibt es doch nicht! Was machst du denn?“ „Ähm … ich mache das Haus gründlich sauber.“ / Nachdem ich die Sachen weggeräumt hatte, putzte ich den Boden des Ladens.",
+        "contexts": [
+          "In einem lockeren Gespräch eine gründliche Hausreinigung am frühen Morgen erklären.",
+          "Eine Reihenfolge von Aufräumen und Ladenbodenreinigung schildern."
+        ],
+        "lexical": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "register": "掃除する heißt „putzen“ oder „sauber machen“. Der gereinigte Ort steht als Objekt mit を: 家を掃除する, 床を掃除する. 大掃除する bezeichnet eine gründliche, größere Reinigung. Im Gespräch sind 掃除している und 起きている zu 掃除してる und 起きてる verkürzt; das zeigt den lockeren Ton des ersten Beispiels. Im zweiten Beispiel ordnet 〜てから die Handlungen: erst aufräumen, danach den Boden putzen. Ohne する ist 掃除 ein Nomen.",
+        "transitivity": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "conjugation": "Existing explicit suru group, nested/effective metadata and せよ variant retained; suru/shimasu/shita/shite forms personallyread. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "level": "Original N3 unchanged; N5 referenceownership is workflow routing."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "evidence": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 33435e592f548a918532cc9698c11d01a434e852475cd556d48684f1d0436c74",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8E%83%E9%99%A4%E3%81%99%E3%82%8B#2371_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">そ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">じ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2371_1_1_female\" href=\"#\" onclick=\"pronounce_play('2371_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2371_1_1_male\" href=\"#\" onclick=\"pronounce_play('2371_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "掃除する",
+              "reading": "そうじする",
+              "grammaticalForm": "Complete suru-verb dictionary form; そうじする",
+              "sense": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "contentHash": "f88f41c3ce01a07301afc50f83e1315a3ea65e686a9a6a6bebedb7779c322a1a",
+        "approvalHash": "9dffc06da5fe2ef5857c7a511cf76de5e140933a74d5655c9b0b6360b038825a"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally read entire three-turn informal dialogue plus distinct polite cleanup sequence. Yoji/os oji readings and thorough-cleaning German now match actual Japanese; contractions and te-kara guidance accurate. Raw1399790 n/vs/vt1 cleaning supports object-o; actual complete OJAD2371 soji suru cell gives0 directly. Original N3 identity and suru variants retained.",
+        "contentHash": "f88f41c3ce01a07301afc50f83e1315a3ea65e686a9a6a6bebedb7779c322a1a",
+        "approvalHash": "9dffc06da5fe2ef5857c7a511cf76de5e140933a74d5655c9b0b6360b038825a"
+      }
+    },
+    {
+      "id": "vocab-n4:957",
+      "revisionId": "090a-suru-vocab-n4-957",
+      "state": "accepted",
+      "predecessorHash": "9f50a7022c32be0a7852d6048195b84432e06c4fb2fddffed28442a240ebcbe9",
+      "predecessorRevisionHash": null,
+      "originalHash": "9f50a7022c32be0a7852d6048195b84432e06c4fb2fddffed28442a240ebcbe9",
+      "original": {
+        "notes": null,
+        "romaji": "benkyousuru",
+        "examples": [
+          {
+            "japanese": "ちゃんと毎日勉強するんだよ。",
+            "romaji": "Chanto mainichi benkyou suru n da yo.",
+            "german": "Du musst jeden Tag lernen."
+          },
+          {
+            "japanese": "毎日三時間勉強します。",
+            "romaji": "Mainichi sanjikan benkyou shimasu.",
+            "german": "Ich lerne jeden Tag drei Stunden."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "勉強する bedeutet hier „lernen“ oder „sich mit einem Lernstoff beschäftigen“. Das Fach oder die Sprache kann mit を stehen: 日本語を勉強する. Die Dauer steht ohne に, wie in 三時間勉強する. Die Wendung 〜するんだよ kann in diesem Zusammenhang eine nachdrückliche Aufforderung sein, nicht nur eine Beschreibung. Im dritten Beispiel nennt と den Lernpartner und で den Lernort. Für das wiederholte Einüben einer Fertigkeit passt oft 練習する. Die Karte übt die Lernbedeutung und keinen Preisnachlass.",
+        "romaji": "benkyō suru",
+        "examples": [
+          {
+            "japanese": "ちゃんと毎日勉強するんだよ。",
+            "romaji": "Chanto mainichi benkyō suru n da yo.",
+            "german": "Du musst jeden Tag ordentlich lernen."
+          },
+          {
+            "japanese": "毎日三時間勉強します。",
+            "romaji": "Mainichi sanjikan benkyō shimasu.",
+            "german": "Ich lerne jeden Tag drei Stunden."
+          },
+          {
+            "japanese": "試験の前に、友達と図書館で勉強しました。",
+            "romaji": "Shiken no mae ni, tomodachi to toshokan de benkyō shimashita.",
+            "german": "Vor der Prüfung habe ich mit einem Freund in der Bibliothek gelernt."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 30f3a1db1c5b06f940acc1a1e6a4edee434a5e979d52d780f1e519c2ad60c90f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8B%89%E5%BC%B7%E3%81%99%E3%82%8B#2683_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">べ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">き</span><span class=\"char\">ょ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2683_1_1_female\" href=\"#\" onclick=\"pronounce_play('2683_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2683_1_1_male\" href=\"#\" onclick=\"pronounce_play('2683_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "勉強する",
+              "reading": "べんきょうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; べんきょうする",
+              "sense": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference."
+            }
+          }
+        ]
+      },
+      "rationale": "Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1512670; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+          "selected": {
+            "sequence": "1512670",
+            "spelling": "勉強",
+            "reading": "べんきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "teaching-enrichment",
+          "usage-note",
+          "pitch-research"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "lernen",
+        "japanese": "ちゃんと毎日勉強するんだよ。 / 毎日三時間勉強します。 / 試験の前に、友達と図書館で勉強しました。",
+        "romanization": "Head benkyō suru; Chanto mainichi benkyō suru n da yo. / Mainichi sanjikan benkyō shimasu. / Shiken no mae ni, tomodachi to toshokan de benkyō shimashita.",
+        "translation": "Du musst jeden Tag ordentlich lernen. / Ich lerne jeden Tag drei Stunden. / Vor der Prüfung habe ich mit einem Freund in der Bibliothek gelernt.",
+        "contexts": [
+          "Jemanden nachdrücklich zum täglichen Lernen anhalten.",
+          "Die Dauer der eigenen täglichen Lerngewohnheit nennen.",
+          "Gemeinsames Lernen mit einem Freund vor einer Prüfung schildern."
+        ],
+        "lexical": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "register": "勉強する bedeutet hier „lernen“ oder „sich mit einem Lernstoff beschäftigen“. Das Fach oder die Sprache kann mit を stehen: 日本語を勉強する. Die Dauer steht ohne に, wie in 三時間勉強する. Die Wendung 〜するんだよ kann in diesem Zusammenhang eine nachdrückliche Aufforderung sein, nicht nur eine Beschreibung. Im dritten Beispiel nennt と den Lernpartner und で den Lernort. Für das wiederholte Einüben einer Fertigkeit passt oft 練習する. Die Karte übt die Lernbedeutung und keinen Preisnachlass.",
+        "transitivity": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "conjugation": "Existing explicit suru group, nested/effective metadata and せよ variant retained; suru/shimasu/shita/shite forms personallyread. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "level": "Original N4 unchanged; N5 referenceownership is workflow routing."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "evidence": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 30f3a1db1c5b06f940acc1a1e6a4edee434a5e979d52d780f1e519c2ad60c90f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8B%89%E5%BC%B7%E3%81%99%E3%82%8B#2683_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">べ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">き</span><span class=\"char\">ょ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2683_1_1_female\" href=\"#\" onclick=\"pronounce_play('2683_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2683_1_1_male\" href=\"#\" onclick=\"pronounce_play('2683_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "勉強する",
+              "reading": "べんきょうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; べんきょうする",
+              "sense": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "contentHash": "7a234bc63f6eb0c969014830c3433bd7d0cb70fe4a6a36cc296d1bfa2d5e3a1a",
+        "approvalHash": "c0aa59bdec9e5bd00cd5411d11bde028cf4c8ad90ec152e9e79fef05c80f8206"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read all three study contexts, German/Hepburn/note: directive, habitual duration and group library exam preparation are substantiated. Raw1512670 n/vs/vt study1 selected, discount/other senses excluded. Actual OJAD2683 complete six-mora benkyo suru flat0 verified, not nominal inference. Original N4 and effective/nested suru metadata retained.",
+        "contentHash": "7a234bc63f6eb0c969014830c3433bd7d0cb70fe4a6a36cc296d1bfa2d5e3a1a",
+        "approvalHash": "c0aa59bdec9e5bd00cd5411d11bde028cf4c8ad90ec152e9e79fef05c80f8206"
+      }
+    },
+    {
+      "id": "vocab-n4:1024",
+      "revisionId": "090a-suru-vocab-n4-1024",
+      "state": "accepted",
+      "predecessorHash": "0df5747bfac76b35650db3a34705e9bf14f3ad7f3330dee37ed846dd476ce52a",
+      "predecessorRevisionHash": null,
+      "originalHash": "0df5747bfac76b35650db3a34705e9bf14f3ad7f3330dee37ed846dd476ce52a",
+      "original": {
+        "notes": null,
+        "romaji": "renshuusuru",
+        "examples": [
+          {
+            "japanese": "どこで練習するの？",
+            "romaji": "Doko de renshuu suru no?",
+            "german": "Wo wirst du üben?"
+          },
+          {
+            "japanese": "ピアノを毎日練習しています。",
+            "romaji": "Piano o mainichi renshuu shite imasu.",
+            "german": "Ich übe jeden Tag Klavier."
+          }
+        ],
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "練習する heißt, eine Fertigkeit durch Wiederholung zu üben. Das Geübte kann mit を genannt werden: ピアノを練習する. どこで fragt nach dem Ort; das erste Beispiel kann sich auf einen geplanten Übungsort beziehen. 毎日練習しています beschreibt dagegen eine regelmäßige Gewohnheit. Mit 練習します, 練習した und 練習して ändern sich die Formen von する; 練習 allein ist das Nomen „Übung“.",
+        "romaji": "renshū suru",
+        "examples": [
+          {
+            "japanese": "どこで練習するの？",
+            "romaji": "Doko de renshū suru no?",
+            "german": "Wo wirst du üben?"
+          },
+          {
+            "japanese": "ピアノを毎日練習しています。",
+            "romaji": "Piano o mainichi renshū shite imasu.",
+            "german": "Ich übe jeden Tag Klavier."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 c1ff0884efe3f7b2a78910329751139457a668cbef4f35bfdd560ddb6fe4d38d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B7%B4%E7%BF%92%E3%81%99%E3%82%8B#2791_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">れ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">し</span><span class=\"char\">ゅ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2791_1_1_female\" href=\"#\" onclick=\"pronounce_play('2791_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2791_1_1_male\" href=\"#\" onclick=\"pronounce_play('2791_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "練習する",
+              "reading": "れんしゅうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; れんしゅうする",
+              "sense": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested."
+            }
+          }
+        ]
+      },
+      "rationale": "Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1559160; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+          "selected": {
+            "sequence": "1559160",
+            "spelling": "練習",
+            "reading": "れんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "practice",
+                  "training",
+                  "drill",
+                  "(an) exercise",
+                  "workout"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "teaching-enrichment",
+          "usage-note",
+          "pitch-research"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "üben",
+        "japanese": "どこで練習するの？ / ピアノを毎日練習しています。",
+        "romanization": "Head renshū suru; Doko de renshū suru no? / Piano o mainichi renshū shite imasu.",
+        "translation": "Wo wirst du üben? / Ich übe jeden Tag Klavier.",
+        "contexts": [
+          "Eine Person locker nach ihrem geplanten Übungsort fragen.",
+          "Die eigene regelmäßige Klavierpraxis beschreiben."
+        ],
+        "lexical": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "register": "練習する heißt, eine Fertigkeit durch Wiederholung zu üben. Das Geübte kann mit を genannt werden: ピアノを練習する. どこで fragt nach dem Ort; das erste Beispiel kann sich auf einen geplanten Übungsort beziehen. 毎日練習しています beschreibt dagegen eine regelmäßige Gewohnheit. Mit 練習します, 練習した und 練習して ändern sich die Formen von する; 練習 allein ist das Nomen „Übung“.",
+        "transitivity": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "conjugation": "Existing explicit suru group, nested/effective metadata and せよ variant retained; suru/shimasu/shita/shite forms personallyread. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "level": "Original N4 unchanged; N5 referenceownership is workflow routing."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "evidence": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 c1ff0884efe3f7b2a78910329751139457a668cbef4f35bfdd560ddb6fe4d38d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B7%B4%E7%BF%92%E3%81%99%E3%82%8B#2791_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">れ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">し</span><span class=\"char\">ゅ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2791_1_1_female\" href=\"#\" onclick=\"pronounce_play('2791_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2791_1_1_male\" href=\"#\" onclick=\"pronounce_play('2791_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "練習する",
+              "reading": "れんしゅうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; れんしゅうする",
+              "sense": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Reviewed the complete suruverb, explicit lexicalbase/vs sourcegrammar and actual OJAD compound citation. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "contentHash": "e595d87727b9dcb6d78dd67c2b0f32fabc47c4ed4d362e342b22fd36b407a7bf",
+        "approvalHash": "7ce5acfa52f2a89f59d6b87e36bc961809a903c511c48ae2612b2ff774c41307"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally read place-of-future-practice question and habitual piano practice, all German/Hepburn/notes. Contextual future interpretation is qualified; object-o and progressive accurate. Raw1559160 n/vs/vt1 supports full practice verb. Actual OJAD2791 complete renshu suru flat0, no constituent inference; original N4/suru variants retained.",
+        "contentHash": "e595d87727b9dcb6d78dd67c2b0f32fabc47c4ed4d362e342b22fd36b407a7bf",
+        "approvalHash": "7ce5acfa52f2a89f59d6b87e36bc961809a903c511c48ae2612b2ff774c41307"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "散歩|さんぽする",
+      "referenceIndex": 0,
+      "referenceHash": "9430523bfb0205118cfb3f541dc430c3fd50b712895baefa7ddd99cff7243019",
+      "revisionId": "090a-source-notation-0-0",
+      "state": "accepted",
+      "predecessorHash": "5a57275e92ef887f5560afd2a191a88a21e224b69cafd4b6542bfde80124c9ff",
+      "predecessorRevisionHash": "dd36e7fa35cb0b27eb4a9534b8270d5580d9f9bc2ef26d9f92f53afe60a502c1",
+      "disposition": "verified-source-notation",
+      "sourceNormalization": {
+        "kind": "nominal-verb",
+        "word": "散歩する",
+        "reading": "さんぽする"
+      },
+      "targets": [
+        "vocab-n3:3048"
+      ],
+      "targetHashes": {
+        "vocab-n3:3048": "51424a09c330af2aae752a27925a3dc04ba808782f1b20c68426266e1866a890"
+      },
+      "reason": "Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1303620; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+          "selected": {
+            "sequence": "1303620",
+            "spelling": "散歩",
+            "reading": "さんぽ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "walk",
+                  "stroll"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference notation and reviewed fullverb",
+          "version": "Reference SHA256 9430523bfb0205118cfb3f541dc430c3fd50b712895baefa7ddd99cff7243019",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=14",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N5\",\"word\":\"散歩\",\"reading\":\"さんぽする\",\"gloss\":\"to stroll\",\"page\":14,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=14\"}; exactfullreading and infinitive gloss compared with finalteaching and actual compoundOJAD. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0.",
+        "contentHash": "3aa092ab889e9ef1b8a18fe1bd7f39eeec607852e2d18a488ab242be17480548",
+        "approvalHash": "3aa092ab889e9ef1b8a18fe1bd7f39eeec607852e2d18a488ab242be17480548"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS nominal sanpo head explicitly has full sanpo suru reading and infinitive to stroll gloss. Raw1303620 vs/vi1 supports reconstructing the indicated full verb, mapping the personally reviewed N3 card with exact final hash; no bare-noun alias or homophone added. Refreshed explicit nominal-verb normalization mechanically appends suru to nominal source head while preserving its already complete verb reading; no bare-noun alias or lexical-sense inference.",
+        "contentHash": "3aa092ab889e9ef1b8a18fe1bd7f39eeec607852e2d18a488ab242be17480548",
+        "approvalHash": "3aa092ab889e9ef1b8a18fe1bd7f39eeec607852e2d18a488ab242be17480548"
+      }
+    },
+    {
+      "key": "掃除|そうじする",
+      "referenceIndex": 0,
+      "referenceHash": "882462aa31a6677928d07f90981d98793294dc50b57e2603a71e45a1fa61ed9a",
+      "revisionId": "090a-source-notation-1-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-source-notation",
+      "sourceNormalization": {
+        "kind": "nominal-verb",
+        "word": "掃除する",
+        "reading": "そうじする"
+      },
+      "targets": [
+        "vocab-n3:3096"
+      ],
+      "targetHashes": {
+        "vocab-n3:3096": "f88f41c3ce01a07301afc50f83e1315a3ea65e686a9a6a6bebedb7779c322a1a"
+      },
+      "reason": "Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1399790; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+          "selected": {
+            "sequence": "1399790",
+            "spelling": "掃除",
+            "reading": "そうじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cleaning",
+                  "sweeping",
+                  "dusting",
+                  "scrubbing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference notation and reviewed fullverb",
+          "version": "Reference SHA256 882462aa31a6677928d07f90981d98793294dc50b57e2603a71e45a1fa61ed9a",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=17",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N5\",\"word\":\"掃除\",\"reading\":\"そうじする\",\"gloss\":\"to clean, to sweep\",\"page\":17,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=17\"}; exactfullreading and infinitive gloss compared with finalteaching and actual compoundOJAD. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested.",
+        "contentHash": "c17e9139318bd95c3dfae3d088fef918d9ea25016eca65eae3aaca54ae32a666",
+        "approvalHash": "c17e9139318bd95c3dfae3d088fef918d9ea25016eca65eae3aaca54ae32a666"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS nominal soji head explicitly has full soji suru reading and infinitive clean/sweep gloss. Raw1399790 vs/vt1 and actual reviewed full-verb contexts establish notation resolution, not a bare-noun alias. Exact N3 final target hash recomputed. Refreshed explicit nominal-verb normalization mechanically appends suru to nominal source head while preserving its already complete verb reading; no bare-noun alias or lexical-sense inference.",
+        "contentHash": "c17e9139318bd95c3dfae3d088fef918d9ea25016eca65eae3aaca54ae32a666",
+        "approvalHash": "c17e9139318bd95c3dfae3d088fef918d9ea25016eca65eae3aaca54ae32a666"
+      }
+    },
+    {
+      "key": "勉強|べんきょうする",
+      "referenceIndex": 0,
+      "referenceHash": "83f0e01cf9362d24322d03381e324315ae82f46c63623a5fe6692af4bc442864",
+      "revisionId": "090a-source-notation-2-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-source-notation",
+      "sourceNormalization": {
+        "kind": "nominal-verb",
+        "word": "勉強する",
+        "reading": "べんきょうする"
+      },
+      "targets": [
+        "vocab-n4:957"
+      ],
+      "targetHashes": {
+        "vocab-n4:957": "7a234bc63f6eb0c969014830c3433bd7d0cb70fe4a6a36cc296d1bfa2d5e3a1a"
+      },
+      "reason": "Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1512670; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+          "selected": {
+            "sequence": "1512670",
+            "spelling": "勉強",
+            "reading": "べんきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "study"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference notation and reviewed fullverb",
+          "version": "Reference SHA256 83f0e01cf9362d24322d03381e324315ae82f46c63623a5fe6692af4bc442864",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=28",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N5\",\"word\":\"勉強\",\"reading\":\"べんきょうする\",\"gloss\":\"to study\",\"page\":28,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=28\"}; exactfullreading and infinitive gloss compared with finalteaching and actual compoundOJAD. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference.",
+        "contentHash": "e5ed039821d8648954e324773034df9a4adf19a0c8c1b46f55811895dc362611",
+        "approvalHash": "e5ed039821d8648954e324773034df9a4adf19a0c8c1b46f55811895dc362611"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS nominal benkyo head has complete benkyo suru reading and to study gloss. Raw1512670 study n/vs/vt1 supports the personally reviewed N4 full verb, with exact final target hash recomputed; no discount meaning or bare noun alias invented. Refreshed explicit nominal-verb normalization mechanically appends suru to nominal source head while preserving its already complete verb reading; no bare-noun alias or lexical-sense inference.",
+        "contentHash": "e5ed039821d8648954e324773034df9a4adf19a0c8c1b46f55811895dc362611",
+        "approvalHash": "e5ed039821d8648954e324773034df9a4adf19a0c8c1b46f55811895dc362611"
+      }
+    },
+    {
+      "key": "練習|れんしゅうする",
+      "referenceIndex": 0,
+      "referenceHash": "a5925faae0549423e5cbd815d3e2c14e7ba08567fa3035aba9017c196c990682",
+      "revisionId": "090a-source-notation-3-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-source-notation",
+      "sourceNormalization": {
+        "kind": "nominal-verb",
+        "word": "練習する",
+        "reading": "れんしゅうする"
+      },
+      "targets": [
+        "vocab-n4:1024"
+      ],
+      "targetHashes": {
+        "vocab-n4:1024": "e595d87727b9dcb6d78dd67c2b0f32fabc47c4ed4d362e342b22fd36b407a7bf"
+      },
+      "reason": "Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1559160; exact nominal base plus vs grammar; selected sense1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+          "selected": {
+            "sequence": "1559160",
+            "spelling": "練習",
+            "reading": "れんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "practice",
+                  "training",
+                  "drill",
+                  "(an) exercise",
+                  "workout"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference notation and reviewed fullverb",
+          "version": "Reference SHA256 a5925faae0549423e5cbd815d3e2c14e7ba08567fa3035aba9017c196c990682",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=33",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N5\",\"word\":\"練習\",\"reading\":\"れんしゅうする\",\"gloss\":\"to practice\",\"page\":33,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=33\"}; exactfullreading and infinitive gloss compared with finalteaching and actual compoundOJAD. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally authored and re-read all exact final Japanese/Hepburn/German teaching and frozen reference notation, all four raw JMdict bases with n/vs and exact transitivity, and all four actual OJAD dictionary-form compound cells. Noun-head plus fullverbreading explicitly reconstructs the already existingverb; no bare-noun aliases or unrelated homophone matches. Fullcompound pitch0 attested directly, original suru metadata retained. Frozen source writes the nominal base in the headword column but includes する in its reading and an infinitive verb gloss; reconstructing that indicated complete spelling identifies the already existing reviewed verb. This resolves source notation, not a homophone match or a bare-noun alias. 1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested.",
+        "contentHash": "9033bc95e522ee7842282cc857fcd6314b1832dfc5b6e7fac6460a6bed8e4f63",
+        "approvalHash": "9033bc95e522ee7842282cc857fcd6314b1832dfc5b6e7fac6460a6bed8e4f63"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS nominal renshu head has full renshu suru reading and infinitive practice gloss. Raw1559160 n/vs/vt1 supports mapping the actual reviewed existing N4 full verb via source-notation resolution. Exact final target hash recomputed; no nominal alias or ownership/level change. Refreshed explicit nominal-verb normalization mechanically appends suru to nominal source head while preserving its already complete verb reading; no bare-noun alias or lexical-sense inference.",
+        "contentHash": "9033bc95e522ee7842282cc857fcd6314b1832dfc5b6e7fac6460a6bed8e4f63",
+        "approvalHash": "9033bc95e522ee7842282cc857fcd6314b1832dfc5b6e7fac6460a6bed8e4f63"
+      }
+    }
+  ]
+}

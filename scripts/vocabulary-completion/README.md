@@ -89,6 +89,23 @@ deep-link refresh. N5 remains active: 418 missing notes, 537 pending reviews,
 574 entries lacking two reviewed contexts, and 436 unresolved references.
 N4–N1 remain pending; this checkpoint does not certify a level.
 
+The fifth verified checkpoint, batches 075ab, 076bc, 078a and 089–091,
+enriches 125 further N5 cards and 11 original higher-level cards needed for
+N5-owned affix and suru-verb references. The campaign covers 1,143 unique
+original entries and three additions; repeated spelling/note revisions count
+once. It resolves 23 further frozen references, 149 in total. Five narrowly
+validated publisher-notation formats preserve the frozen references and bind
+the exact normalized spelling/reading to both reviews. Existing strict spelling
+checks remain unchanged. Infrastructure and individual teaching/source reviews
+passed independent review. All 21 full checks pass, generated replay is identical,
+and all original 15,558 IDs, headwords, readings and levels remain. Reading/audio
+payloads are unchanged. Browser inspection covers 32 detail states with notes
+at 390/1440 widths in both themes, 13 spelling searches, three attested pitch
+variants, unknown affix pitch, an adverb classification and deep-link refresh.
+N5 remains active: 293 missing notes, 418 pending reviews, 449 entries lacking
+two reviewed contexts, and 413 unresolved references. N4–N1 remain pending;
+this checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -551,8 +568,18 @@ New `additions` carry explicit stable IDs such as
 `vocab-n5:correction:descriptive-slug`, full content/review/pitch evidence, a level
 basis and reason. A correction-driven addition need not be in the historical
 candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
-`additional-sense`, `additional-reading`, or `excluded`; they require individual
+`additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
+
+`verified-source-notation` handles five explicit publisher formats: a nominal
+heading with a complete suru-verb reading, a parenthesized reading ending, a
+reading misplaced into the gloss column, a kana-script variant, or combined
+spellings. Its `sourceNormalization` contains `kind`, `word` and `reading`;
+all three are bound to both approvals. Mechanical checks require the exact
+indicated spelling and pronunciation and coverage of every combined spelling.
+Lexical evidence and independent review are still required. This action cannot
+resolve an arbitrary reading, homophone or additional sense; the original
+publisher reference remains frozen. Exact spelling-variant checks remain strict.
 
 Collisions are rejected before writes. An explicit `merges` record must document
 equivalent reading and sense, preserved content, evidence and a second pass.

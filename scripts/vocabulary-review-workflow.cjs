@@ -3,10 +3,11 @@ const assert = require('assert');
 const {read, levels, key} = require('./vocabulary-tools.cjs');
 const {hash, project, prepareCorrections, validateReviewRecord, validatePitch} = require('./vocabulary-correction-pipeline.cjs');
 const {requirements:reviewRequirements,selectedForBatch,POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED} = require('./vocabulary-review-policy.cjs');
+const {validateSourceNotation}=require('./vocabulary-source-notation.cjs');
 const copy = v => JSON.parse(JSON.stringify(v));
 const text = v => typeof v === 'string' && v.trim().length > 0;
 const states = ['pending','researching','drafted','needs revision','accepted'];
-const actions = ['added','verified-spelling-variant','additional-sense','additional-reading','excluded'];
+const actions = ['added','verified-spelling-variant','verified-source-notation','additional-sense','additional-reading','excluded'];
 const LEGACY_V2_APPROVAL_BATCH_HASHES=Object.freeze([
   'f00dc1a2b3c80ae50a4f2699482028f33ff6da1b3515eec8383c69464c0cf54c',
   '16ac9b9eec4f60500c2212a33d03abc906e0399aa3c7b380c4dfa79560206150',
@@ -19,7 +20,8 @@ const entryApprovalHash = (record, content) => hash({content:project(content),ev
       predecessorHash:record.predecessorHash,predecessorRevisionHash:record.predecessorRevisionHash}
   }:{})});
 const decisionContent = d => ({key:d.key,referenceIndex:d.referenceIndex,referenceHash:d.referenceHash,
-  disposition:d.disposition,targets:d.targets,targetHashes:d.targetHashes,reason:d.reason,evidence:d.evidence,policy:d.policy});
+  disposition:d.disposition,targets:d.targets,targetHashes:d.targetHashes,reason:d.reason,evidence:d.evidence,policy:d.policy,
+  ...(d.sourceNormalization?{sourceNormalization:d.sourceNormalization}:{})});
 const decisionHash = d => hash(decisionContent(d));
 const mergeHash = m => hash({from:m.from,to:m.to,fromHash:m.fromHash,toHash:m.toHash,
   equivalentSense:m.equivalentSense,preservedContent:m.preservedContent,evidence:m.evidence,policy:m.policy,
@@ -211,6 +213,8 @@ function prepareWorkflow(legacy, options) {
       assert.equal(d.predecessorHash,previous?.contentHash ?? null,'Candidate decision chain is stale');
       if (d.state==='accepted') {
         assert(actions.includes(d.disposition),'Invalid candidate disposition');
+        assert(!d.sourceNormalization||d.disposition==='verified-source-notation','Source notation requires its explicit disposition');
+        if(d.disposition==='verified-source-notation')assert.equal(d.targets?.length,1,'Source notation requires one exact target');
         evidence(d.evidence);
         assert(text(d.reason),'Missing candidate rationale');
         assert(Array.isArray(d.targets) && new Set(d.targets).size===d.targets.length && (d.disposition==='excluded'?d.targets.length===0:d.targets.length>0),'Invalid candidate targets');
@@ -226,6 +230,7 @@ function prepareWorkflow(legacy, options) {
             assert.equal(ref.reading.normalize('NFKC'),v.reading.normalize('NFKC'),'Variant reading differs');
             assert(v.word===ref.word || (v.aliases||[]).includes(ref.word),'Missing variant alias');
           }
+          if(d.disposition==='verified-source-notation')validateSourceNotation(c.references[d.referenceIndex],v,d.sourceNormalization);
         }
         const requirements=d.policy?reviewRequirements(d,{id:k,kind:'candidate'}):{id:'strict-full-v1',independentReviewRequired:true};
         approval(d,requirements,decisionHash(d));

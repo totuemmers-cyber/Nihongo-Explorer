@@ -62304,7 +62304,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "26": {
-        "notes": "する ist unregelmäßig: します, して, した. Es bildet mit Tätigkeitsnomen Verben, etwa 勉強する; auch 勉強をする ist möglich. Bei Sportarten sagt man zum Beispiel テニスをする. Die Form ～しませんか lädt zu einer gemeinsamen Tätigkeit ein.",
+        "notes": "する ist unregelmäßig: します, して, した. Es bildet mit Tätigkeitsnomen Verben, etwa 勉強する; auch 勉強をする ist möglich. Bei Sportarten sagt man zum Beispiel テニスをする. Die Form ～しませんか lädt zu einer gemeinsamen Tätigkeit ein. 為る ist eine seltene Kanji-Schreibung dieses Verbs; üblich ist する in Hiragana.",
         "examples": [
           {
             "japanese": "勉強をします。",
@@ -62316,6 +62316,9 @@ window.VOCAB_CORRECTION_RULES = {
             "romaji": "Tenisu o shimasen ka.",
             "german": "Wollen wir Tennis spielen?"
           }
+        ],
+        "aliases": [
+          "為る"
         ],
         "pitchProvenance": [
           {
@@ -67479,7 +67482,10 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "185": {
-        "notes": "川（かわ）bezeichnet einen Fluss oder Bach. Bei einer Tätigkeit im Fluss steht der Ort mit で. 川の水 bedeutet Flusswasser. In Flussnamen kann sich die Lesung durch Lautverbindung zu がわ ändern, etwa 多摩川（たまがわ）.",
+        "notes": "川（かわ）bezeichnet einen Fluss oder Bach. Bei einer Tätigkeit im Fluss steht der Ort mit で. 川の水 bedeutet Flusswasser. In Flussnamen kann sich die Lesung durch Lautverbindung zu がわ ändern, etwa 多摩川（たまがわ）. 河 ist ebenfalls eine verzeichnete Schreibung von かわ für einen Fluss; die erste Beispielschreibung bleibt 川.",
+        "aliases": [
+          "河"
+        ],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -70246,7 +70252,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "273": {
         "meaning": "Stadt, Ort, Stadtviertel",
-        "notes": "町（まち）kann eine Stadt, einen kleineren Ort oder ein Stadtviertel bezeichnen. Die genaue Verwaltungskategorie ergibt sich nicht allein aus dem Wort. Der Standort eines Ortes wird mit に angegeben; 町には kann eine Aussage über vorhandene Einrichtungen einleiten.",
+        "notes": "町（まち）kann eine Stadt, einen kleineren Ort oder ein Stadtviertel bezeichnen. Die genaue Verwaltungskategorie ergibt sich nicht allein aus dem Wort. Der Standort eines Ortes wird mit に angegeben; 町には kann eine Aussage über vorhandene Einrichtungen einleiten. 街 ist eine weitere verzeichnete Schreibung von まち; diese Karte übt den Orts- und Viertelbegriff.",
         "examples": [
           {
             "japanese": "この町は静かです。",
@@ -70258,6 +70264,9 @@ window.VOCAB_CORRECTION_RULES = {
             "romaji": "Kono machi ni wa eki ga arimasen.",
             "german": "In dieser Stadt gibt es keinen Bahnhof."
           }
+        ],
+        "aliases": [
+          "街"
         ],
         "pitchProvenance": [
           {
@@ -81444,7 +81453,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "590": {
-        "notes": "ゴミ heißt Müll oder Abfall. ゴミを出す bedeutet ihn zur Abholung oder Entsorgung hinausbringen. ゴミを捨てる heißt wegwerfen; 道に nennt in der verneinten Bitte den unerwünschten Ablageort. Die Schreibungen ごみ und ゴミ sind beide üblich.",
+        "notes": "ゴミ heißt Müll oder Abfall. ゴミを出す bedeutet ihn zur Abholung oder Entsorgung hinausbringen. ゴミを捨てる heißt wegwerfen; 道に nennt in der verneinten Bitte den unerwünschten Ablageort. Die Schreibungen ごみ und ゴミ sind beide üblich. Für die Lesung ごみ ist auch die Kanji-Schreibung 塵 verzeichnet; im Alltag eignen sich die üblichen Kanaformen ごみ und ゴミ.",
         "examples": [
           {
             "japanese": "ゴミを出してください。",
@@ -81456,6 +81465,10 @@ window.VOCAB_CORRECTION_RULES = {
             "romaji": "Michi ni gomi o sutenaide kudasai.",
             "german": "Bitte werfen Sie keinen Müll auf die Straße."
           }
+        ],
+        "aliases": [
+          "ごみ",
+          "塵"
         ],
         "pitchProvenance": [
           {
@@ -89835,7 +89848,10 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "837": {
-        "notes": "玉 heißt hier „Kugel“ oder ein kleiner runder Gegenstand. なんだ、この玉？ ist eine vertraute Frage nach der Kugel; 玉で遊ぶ nennt sie als Spielmittel. Die Lesung ist たま. Bei Geldstücken findet man oft die veränderte Endung だま, etwa 百円玉; das ist nicht einfach die Lesung des alleinstehenden Wortes in diesen Beispielen.",
+        "notes": "玉 heißt hier „Kugel“ oder ein kleiner runder Gegenstand. なんだ、この玉？ ist eine vertraute Frage nach der Kugel; 玉で遊ぶ nennt sie als Spielmittel. Die Lesung ist たま. Bei Geldstücken findet man oft die veränderte Endung だま, etwa 百円玉; das ist nicht einfach die Lesung des alleinstehenden Wortes in diesen Beispielen. 球 ist ebenfalls eine Schreibung von たま für eine Kugel oder einen Ball. Die weiteren Bedeutungen dieses Worts richten sich nach der Schreibung und dem Zusammenhang.",
+        "aliases": [
+          "球"
+        ],
         "pitch": 2,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -95397,17 +95413,256 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1006": {
+        "meaning": "das ganze Land; landesweit",
+        "type": "Nomen",
+        "notes": "全国 bezeichnet das ganze Land und ist ein Nomen. 全国で nennt das Land als Gebiet einer Handlung oder eines Geschehens; 全国の図書館 meint Bibliotheken im ganzen Land. Als deutsche Übersetzung passt je nach Satz auch „landesweit“. Das Wort selbst sagt nicht, um welches Land es geht.",
+        "examples": [
+          {
+            "japanese": "全国の図書館を地図で調べました。",
+            "romaji": "Zenkoku no toshokan o chizu de shirabemashita.",
+            "german": "Ich habe Bibliotheken im ganzen Land auf einer Karte gesucht."
+          },
+          {
+            "japanese": "全国で雨が降っています。",
+            "romaji": "Zenkoku de ame ga futte imasu.",
+            "german": "Im ganzen Land regnet es."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154853380",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 全国/ゼンコク, 名詞/普通名詞/一般/*, */*, aType 1. 1581180/1 wholecountry noun and exact UniDicordinarynoun1 justify Adjektiv→Nomen. Nationwide librarysearch differs from whole-area rain; unnamed fictionalweather utterance, no current epidemiologicalclaim.",
+            "match": {
+              "word": "全国",
+              "reading": "ぜんこく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "全国 als das ganze Land; landesweit"
+            }
+          }
+        ]
+      },
+      "1007": {
+        "notes": "四国 ist der Name einer der vier japanischen Hauptinseln. Man liest das ganze Wort しこく. 四国に行く nennt die Insel als Reiseziel; 四国の地図 verbindet den Namen mit einer Karte. Bei 行ったことがありません sagt man, dass man diese Reise bisher noch nicht erlebt hat.",
+        "examples": [
+          {
+            "japanese": "四国にはまだ行ったことがありません。",
+            "romaji": "Shikoku ni wa mada itta koto ga arimasen.",
+            "german": "Ich war noch nie auf Shikoku."
+          },
+          {
+            "japanese": "四国の地図を買いました。",
+            "romaji": "Shikoku no chizu o kaimashita.",
+            "german": "Ich habe eine Karte von Shikoku gekauft."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135056976",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 四国/シコク, 名詞/固有名詞/地名/一般, */*, aType 1. 1307200/1 islandShikoku, exact geographicalpropernoun1. Wrong okonatta 行った reading corrected to itta; specific pilgrimagefact replaced by ordinarymap purchase, headidentity preserved.",
+            "match": {
+              "word": "四国",
+              "reading": "しこく",
+              "grammaticalForm": "名詞/固有名詞/地名/一般; *; *",
+              "sense": "四国 als Shikoku"
+            }
+          }
+        ]
+      },
+      "1008": {
+        "type": "Nomen",
+        "notes": "外国 ist ein anderes Land bzw. das Ausland aus der Sicht der sprechenden Person. Es ist ein Nomen: 外国に行く nennt ein Reiseziel, 外国の切手 beschreibt Briefmarken aus anderen Ländern. 外国に行ったことがない berichtet von fehlender Auslandserfahrung; がいこく hat keinen langen Vokal.",
+        "examples": [
+          {
+            "japanese": "まだ外国に行ったことがありません。",
+            "romaji": "Mada gaikoku ni itta koto ga arimasen.",
+            "german": "Ich war noch nie im Ausland."
+          },
+          {
+            "japanese": "外国の切手を集めています。",
+            "romaji": "Gaikoku no kitte o atsumete imasu.",
+            "german": "Ich sammle Briefmarken aus anderen Ländern."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101106349",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 外国/ガイコク, 名詞/普通名詞/一般/*, */*, aType 0. 1203620/1 foreigncountry n/no plus actualnominal0 supports Adjektiv→Nomen. Travel-experience absence differs from ongoingforeignstampcollection; duplicated travelquestion removed.",
+            "match": {
+              "word": "外国",
+              "reading": "がいこく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "外国 als Ausland"
+            }
+          }
+        ]
+      },
+      "1009": {
+        "meaning": "Person aus dem Ausland, ausländische Person",
+        "notes": "外国人 ist eine Person aus einem anderen Land; welches Land als „Ausland“ gilt, hängt vom Zusammenhang ab. 人 wird hier じん gelesen. 外国人の友人 verbindet die Herkunftsangabe mit einer befreundeten Person. Das Wort beschreibt keine bestimmte Sprache oder Herkunftsregion.",
+        "examples": [
+          {
+            "japanese": "六月に外国人の友人が日本に来ます。",
+            "romaji": "Rokugatsu ni gaikokujin no yūjin ga Nihon ni kimasu.",
+            "german": "Im Juni kommt ein befreundeter Mensch aus dem Ausland nach Japan."
+          },
+          {
+            "japanese": "この町には外国人が多いです。",
+            "romaji": "Kono machi ni wa gaikokujin ga ōi desu.",
+            "german": "In dieser Stadt leben viele Menschen aus dem Ausland."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved whole-form UTF-8 HTML SHA256 9e365d2fb5a38898b7d2284d620b1dacbd623cb72e71b2c15e10164be49ad351",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%96%E5%9B%BD%E4%BA%BA#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "patterns": [
+              4
+            ],
+            "finding": "Actual OJAD full 外国人 が/い/こ/く/じ/ん peaks fourthく:4, exact complete person-noun not derivedfrom外国.",
+            "match": {
+              "word": "外国人",
+              "reading": "がいこくじん",
+              "grammaticalForm": "Nomen; exact complete dictionary form",
+              "sense": "外国人 als Person aus dem Ausland, ausländische Person"
+            }
+          }
+        ]
+      },
+      "1010": {
+        "type": "Nomen",
+        "notes": "米国 ist eine Bezeichnung für die Vereinigten Staaten und ein Nomen. Man liest sie べいこく; 米 hat hier die Lesung べい. 米国にいる nennt den Aufenthaltsort einer Person, 米国の大学 eine Universität dort. Der Ausdruck begegnet häufig in geschriebenen Texten und Nachrichten.",
+        "examples": [
+          {
+            "japanese": "主人は米国にいます。",
+            "romaji": "Shujin wa Beikoku ni imasu.",
+            "german": "Mein Ehemann ist in den Vereinigten Staaten."
+          },
+          {
+            "japanese": "米国の大学のパンフレットを読みました。",
+            "romaji": "Beikoku no daigaku no panfuretto o yomimashita.",
+            "german": "Ich habe die Broschüre einer Universität in den Vereinigten Staaten gelesen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@241733444",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 米国/ベイコク, 名詞/固有名詞/地名/国, */*, aType 0. 1508900/1 USA and exactproper-country noun0 prove Adjektiv→Nomen. Husbandlocation differs from universitybrochure reading; presidentvisit example replaced by fictional uncontroversialreading activity.",
+            "match": {
+              "word": "米国",
+              "reading": "べいこく",
+              "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+              "sense": "米国 als Vereinigte Staaten"
+            }
+          }
+        ]
+      },
+      "1011": {
+        "notes": "姉妹 bezeichnet Schwestern gemeinsam, ohne jede einzelne als ältere oder jüngere Schwester zu benennen. Die Lesung ist しまい. 姉妹みたい beschreibt einen Eindruck oder Vergleich, nicht sicher eine Verwandtschaft. 姉妹がいますか fragt dagegen nach tatsächlich vorhandenen Schwestern.",
+        "examples": [
+          {
+            "japanese": "あの二人って姉妹みたいだよね。",
+            "romaji": "Ano futari tte shimai mitai da yo ne.",
+            "german": "Jene beiden wirken wie Schwestern, nicht wahr?"
+          },
+          {
+            "japanese": "姉妹がいますか。",
+            "romaji": "Shimai ga imasu ka.",
+            "german": "Haben Sie Schwestern?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137711216",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 姉妹/シマイ, 名詞/普通名詞/一般/*, */*, aType 1. 1579490/1 sisters commonnoun1. Perceivedresemblance versus actualfamilymembership inquiry distinct; みたい not asserted biologicalrelation.",
+            "match": {
+              "word": "姉妹",
+              "reading": "しまい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "姉妹 als Schwestern"
+            }
+          }
+        ]
+      },
+      "1012": {
+        "romaji": "ato de",
+        "notes": "後で heißt „später“ oder „danach“. Ohne genauere Angabe lässt es den Zeitpunkt offen: 後で電話します. 食事の後で wäre ausdrücklich „nach dem Essen“. In 後でホテルに来てください gehört で zur Zeitwendung; ホテルに nennt das Ziel des Kommens.",
+        "examples": [
+          {
+            "japanese": "後でホテルに来て下さい。",
+            "romaji": "Ato de hoteru ni kite kudasai.",
+            "german": "Bitte kommen Sie später ins Hotel."
+          },
+          {
+            "japanese": "後で電話します。",
+            "romaji": "Ato de denwa shimasu.",
+            "german": "Ich rufe später an."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "The Japan Foundation — Irodori Starter wordlist",
+            "version": "Ver.2021/10/01; PDF SHA256 9acf3fe9478e01dc9bca8970b5dc4496b51b36febec2c08560bf1b74a3891267",
+            "locator": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf#page=33; L10-2",
+            "attribution": "©The Japan Foundation; whole lexical accent facts inspected, no audio copied",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual English Starter PDF page33(index32) L10-2 rowあとで ato de あ↓とで later: peak/downstep afterfirstあ1 for whole temporalphrase. Firstpageversionverified2021/10/01; canonical kana spelling matches JMdict後で/あとで.",
+            "match": {
+              "word": "後で",
+              "reading": "あとで",
+              "grammaticalForm": "Temporal adverbial expression; exact completeあとで, canonical kana spelling",
+              "sense": "later/afterwards"
+            }
+          }
+        ]
+      },
       "1013": {
+        "type": "Nomen",
+        "notes": "海外 bezeichnet das Ausland bzw. Regionen jenseits des eigenen Landes. Es ist ein Nomen: 海外に行く nennt das Reiseziel, 海外のニュース Nachrichten aus dem Ausland. Obwohl 海 „Meer“ bedeutet, setzt die heutige Verwendung keine bestimmte Fahrt mit einem Schiff voraus.",
         "examples": [
           {
             "japanese": "海外に行きたいなぁ。",
             "romaji": "Kaigai ni ikitai nā.",
-            "german": "Ich möchte ins Ausland reisen."
+            "german": "Ich würde gern ins Ausland reisen."
           },
           {
-            "japanese": "海外旅行がしたいです。",
-            "romaji": "Kaigai ryokō ga shitai desu.",
-            "german": "Ich möchte eine Auslandsreise machen."
+            "japanese": "海外のニュースを読みました。",
+            "romaji": "Kaigai no nyūsu o yomimashita.",
+            "german": "Ich habe Nachrichten aus dem Ausland gelesen."
           }
         ],
         "pitchProvenance": [
@@ -95419,37 +95674,149 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "海外 / カイガイ; 名詞/普通名詞/一般/*; *; *; lemma 海外; aType 1. Existing pitch 1 attested by the exact row.",
+            "finding": "Exakte Form 海外/カイガイ, 名詞/普通名詞/一般/*, */*, aType 1. 1201260/1 abroad/overseas n/no, exactnoun1 supports Adjektiv→Nomen. Casualtravelwish versus foreignnewsreading distinct, duplicateoverseas-tripwish replaced.",
             "match": {
               "word": "海外",
               "reading": "かいがい",
               "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "海外 as \"Ausland\"."
+              "sense": "海外 als Ausland"
+            }
+          }
+        ]
+      },
+      "1014": {
+        "type": "Nomen",
+        "notes": "茶色 ist die Farbe Braun. Als Farbnomen steht es mit の vor einer Sache: 茶色の靴. Bei 私のカバンは茶色です wird die Farbe mit です ausgesagt. Die Lesung lautet ちゃいろ; ちゃ bildet eine gemeinsame Silbe. Das verwandte i-Adjektiv 茶色い hat zusätzlich ein い am Ende.",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169457130",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 茶色/チャイロ, 名詞/普通名詞/一般/*, */*, aType 0. 1422720/1 brown/lightbrown color n/no and exactnominal0 support Adjektiv→Nomen. UniDic茶色い-stem/truncatedadverbrows excluded despite same0. Coloridentification versus colorattributed purchase distinct.",
+            "match": {
+              "word": "茶色",
+              "reading": "ちゃいろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "茶色 als Braun"
+            }
+          }
+        ]
+      },
+      "1015": {
+        "romaji": "kubi ni naru",
+        "notes": "首になる heißt umgangssprachlich, entlassen oder „gefeuert“ zu werden. In 会社を首になる markiert を die Firma, die man verlassen muss; es ist nicht das Objekt einer Handlung am Hals. Man verändert den Godan-Teil なる: 首になりました, 首にならない. In formellen Gesprächen kann „gefeuert“ als Übersetzung entsprechend hart klingen.",
+        "examples": [
+          {
+            "japanese": "先月、会社を首になりました。",
+            "romaji": "Sengetsu, kaisha o kubi ni narimashita.",
+            "german": "Letzten Monat wurde ich von der Firma gefeuert."
+          },
+          {
+            "japanese": "首にならないように、仕事を丁寧にしています。",
+            "romaji": "Kubi ni naranai yō ni, shigoto o teinei ni shite imasu.",
+            "german": "Ich erledige meine Arbeit sorgfältig, damit ich nicht gefeuert werde."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1016": {
+        "notes": "亡くなる ist eine schonende Bezeichnung für „sterben“, besonders beim Sprechen über Menschen. Das Godan-Verb ist intransitiv: Die verstorbene Person steht mit が. 亡くなった祖父 beschreibt den verstorbenen Großvater. Die gleiche Lesung なくなる kann bei der Schreibung 無くなる stattdessen das Verschwinden einer Sache meinen.",
+        "examples": [
+          {
+            "japanese": "去年、母が亡くなった。",
+            "romaji": "Kyonen, haha ga nakunatta.",
+            "german": "Letztes Jahr ist meine Mutter gestorben."
+          },
+          {
+            "japanese": "亡くなった祖父の写真を見ました。",
+            "romaji": "Nakunatta sofu no shashin o mimashita.",
+            "german": "Ich habe ein Foto meines verstorbenen Großvaters angesehen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@195698642",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 亡くなる/ナクナル, 動詞/一般/*/*, 五段-ラ行/終止形-一般, aType 0. 1518540/1 euphemisticdie/passaway exactGodanラterminal0; unrelated無くなるdisappear notselected. Pastmotherloss report differs from viewinglategrandfatherphoto inrelative modifier.",
+            "match": {
+              "word": "亡くなる",
+              "reading": "なくなる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "亡くなる als sterben"
             }
           }
         ]
       },
       "1017": {
+        "notes": "小文字 bezeichnet hier Kleinbuchstaben wie a, im Gegensatz zu Großbuchstaben wie A. Es geht um die Buchstabenform, nicht bloß um die Schriftgröße. 小文字で入力する nennt die Form beim Tippen; 小文字のエー beschreibt ein kleines a. Die ganze Lesung ist こもじ.",
         "examples": [
           {
-            "japanese": "Eメールアドレスは、全て小文字で入力して下さい。",
-            "romaji": "E mēru adoresu wa, subete komoji de nyūryoku shite kudasai.",
-            "german": "Bitte geben Sie Ihre E-Mail-Adresse in Kleinbuchstaben ein."
+            "japanese": "メールアドレスは、全て小文字で入力して下さい。",
+            "romaji": "Mēru adoresu wa, subete komoji de nyūryoku shite kudasai.",
+            "german": "Bitte geben Sie die E-Mail-Adresse vollständig in Kleinbuchstaben ein."
           },
           {
-            "japanese": "パスワードは小文字で入力してください。",
-            "romaji": "Pasuwādo wa komoji de nyūryoku shite kudasai.",
-            "german": "Bitte geben Sie das Passwort in Kleinbuchstaben ein."
+            "japanese": "この文字は小文字のエーです。",
+            "romaji": "Kono moji wa komoji no ē desu.",
+            "german": "Dieses Zeichen ist ein kleines a."
           }
         ],
-        "pitch": null
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
       },
-      "1019": {
+      "1018": {
+        "notes": "冬休み sind die Winterferien bzw. eine winterliche Ferienzeit. 冬休みは来週からです gibt ihren Beginn an; 冬休みにスキーに行く nennt sie als Zeitraum einer geplanten Aktivität. Das Wort legt selbst keine bestimmten Monate oder Ferientermine fest.",
         "examples": [
           {
-            "japanese": "やっとJLPTN1にごうかくすることが出来ました。",
-            "romaji": "Yatto JLPT N1 ni gōkaku suru koto ga dekimashita.",
-            "german": "Ich konnte endlich die JLPT N1 bestehen."
+            "japanese": "冬休みは来週からです。",
+            "romaji": "Fuyuyasumi wa raishū kara desu.",
+            "german": "Die Winterferien beginnen nächste Woche."
+          },
+          {
+            "japanese": "冬休みにスキーに行きます。",
+            "romaji": "Fuyuyasumi ni sukī ni ikimasu.",
+            "german": "In den Winterferien gehe ich Ski fahren."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235715158",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exakte Form 冬休み/フユヤスミ, 名詞/普通名詞/一般/*, */*, aType 3. 1446090/1 wintervacation noun3; arbitrarytwofullmonthsNovemberDecembercalendarstatement replaced by relative fictionalstartnotice. Announcementofholidaystart differs from plannedholidayactivity.",
+            "match": {
+              "word": "冬休み",
+              "reading": "ふゆやすみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "冬休み als Winterferien"
+            }
+          }
+        ]
+      },
+      "1019": {
+        "meaning": "können; fertig sein oder werden",
+        "notes": "出来る ist ein intransitives Ichidan-Verb: 出来ます, 出来て. Mit Verb + ことが出来る spricht man über eine Fähigkeit oder Möglichkeit. Bei 料理が出来ました heißt es dagegen, dass das Essen fertig ist. Diese beiden Bedeutungen hängen vom Satz ab. Häufig schreibt man das Wort in Hiragana: できる.",
+        "examples": [
+          {
+            "japanese": "この漢字を読むことが出来ます。",
+            "romaji": "Kono kanji o yomu koto ga dekimasu.",
+            "german": "Ich kann dieses Kanji lesen."
           },
           {
             "japanese": "料理が出来ました。",
@@ -95466,12 +95833,824 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "出来る / デキル; 動詞/非自立可能/*/*; 上一段-カ行; 終止形-一般; lemma 出来る; aType 2. Existing pitch 2 attested by the exact row.",
+            "finding": "Exakte Form 出来る/デキル, 動詞/非自立可能/*/*, 上一段-カ行/終止形-一般, aType 2. 1340450/1 beable/possible and5 finished/ready explicitly selected; proficiency/building/pregnancyetc excluded. Exact上一段カterminal2. Concretekanjireadingability replaces overcomplicated JLPTN1success; foodreadiness distinct.",
             "match": {
               "word": "出来る",
               "reading": "できる",
               "grammaticalForm": "動詞/非自立可能/*/*; 上一段-カ行; 終止形-一般",
-              "sense": "出来る as \"können\"."
+              "sense": "出来る als können; fertig sein oder werden"
+            }
+          }
+        ]
+      },
+      "1020": {
+        "meaning": "schnelles Sprechen, schnelle Sprechweise",
+        "type": "Nomen",
+        "notes": "早口 bezeichnet schnelles Sprechen bzw. eine schnelle Sprechweise. Es ist ein Nomen: 兄は早口です beschreibt die Sprechweise des Bruders. 早口で話す nennt die Art des Sprechens; 早口で話さないでください bittet um ein geringeres Tempo. Das Wort meint nicht schon die Person als „Schnellsprecher“.",
+        "examples": [
+          {
+            "japanese": "兄は、とても早口です。",
+            "romaji": "Ani wa, totemo hayakuchi desu.",
+            "german": "Mein älterer Bruder spricht sehr schnell."
+          },
+          {
+            "japanese": "早口で話さないでください。",
+            "romaji": "Hayakuchi de hanasanaide kudasai.",
+            "german": "Bitte sprechen Sie nicht so schnell."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217945414",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exakte Form 早口/ハヤクチ, 名詞/普通名詞/一般/*, */*, aType 2. 1400240/1 rapidtalking noun/no, notperson; exactordinarynoun2 corrects0 and Adjektiv→Nomen. Styleassessment versus listenernegativepace request distinct, duplicatepersonassessment removed.",
+            "match": {
+              "word": "早口",
+              "reading": "はやくち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "早口 als schnelles Sprechen, schnelle Sprechweise"
+            }
+          }
+        ]
+      },
+      "1021": {
+        "notes": "足りない bedeutet „nicht genug sein/fehlen“. Die Sache, die nicht ausreicht, steht mit が: お金が足りない. Eine Mengenangabe wie 十円 sagt, wie viel fehlt. Die Wendung ist die negative Form von 足りる; höflich lautet sie 足りません. ので kann den fehlenden Vorrat oder die fehlende Zeit als Grund nennen.",
+        "examples": [
+          {
+            "japanese": "お金が十円足りないんです。",
+            "romaji": "Okane ga jūen tarinai n desu.",
+            "german": "Mir fehlen zehn Yen."
+          },
+          {
+            "japanese": "時間が足りないので、続きは明日読みます。",
+            "romaji": "Jikan ga tarinai node, tsuzuki wa ashita yomimasu.",
+            "german": "Die Zeit reicht nicht, deshalb lese ich morgen weiter."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved UTF-8 HTML SHA256 14cd60193973287a5a0a7f441db125ac7d18037906344f8fd2777de643eec79c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%B6%B3%E3%82%8A%E3%81%AA%E3%81%84#1512_5_1; nai-form",
+            "attribution": "OJAD, University of Tokyo; exact complete negativeform cited, no audio copied",
+            "patterns": [
+              0
+            ],
+            "finding": "Directly inspected 足りる・足ります row1512, katsuyo_nai_js cell/audioidentity1512_5_1: fullた/り/な/い, accent_plain onり/な/い and noaccent_top. Exact wholeたりない0; separately足るrowhasたらない, not interchangeable. Insufficiency interpretation matches selecteddictionarysense1.",
+            "match": {
+              "word": "足りない",
+              "reading": "たりない",
+              "grammaticalForm": "Exact complete plain negative足りない from足りる; OJADない形 row1512_5_1, not base form inference",
+              "sense": "insufficient/not enough"
+            }
+          }
+        ]
+      },
+      "1022": {
+        "meaning": "älter; ältere Person",
+        "type": "Nomen",
+        "notes": "年上 beschreibt ein höheres Lebensalter im Verhältnis zu einer anderen Person. 私より年上 heißt „älter als ich“. Als Nomen bestimmt es eine Person mit の: 年上の友達. Gemeint ist das Alter, nicht automatisch die Berufserfahrung oder eine höhere Position.",
+        "examples": [
+          {
+            "japanese": "元パートナーは、私より年上です。",
+            "romaji": "Moto pātonā wa, watashi yori toshiue desu.",
+            "german": "Mein ehemaliger Partner ist älter als ich."
+          },
+          {
+            "japanese": "年上の友達に相談しました。",
+            "romaji": "Toshiue no tomodachi ni sōdan shimashita.",
+            "german": "Ich habe einen älteren Freund um Rat gebeten."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185475726",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 年上/トシウエ, 名詞/普通名詞/一般/*, */*, aType 0. 1468870/1 older/senior n/no plus exactnoun0 supports Adjektiv→Nomen; age ratherthaninstitutionalrank. Formerpartnercomparison versus consultingageattributedfriend distinct, duplicatecomparison removed.",
+            "match": {
+              "word": "年上",
+              "reading": "としうえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "年上 als älter; ältere Person"
+            }
+          }
+        ]
+      },
+      "1023": {
+        "notes": "今年 ist das Kalenderjahr, in dem man spricht. 今年は setzt dieses Jahr als Thema einer Absicht oder eines Rückblicks. Die Lesung ことし muss man als Ganzes lernen. Eine Aussage über einen vergangenen Sommer kann trotzdem 今年 enthalten, wenn dieser Sommer zum aktuellen Jahr gehört.",
+        "examples": [
+          {
+            "japanese": "今年はダイエットをしたいです。",
+            "romaji": "Kotoshi wa daietto o shitai desu.",
+            "german": "Dieses Jahr möchte ich eine Diät machen."
+          },
+          {
+            "japanese": "今年は暑い夏でした。",
+            "romaji": "Kotoshi wa atsui natsu deshita.",
+            "german": "Dieses Jahr war der Sommer heiß."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123460523",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 今年/コトシ, 名詞/普通名詞/副詞可能/*, */*, aType 0. 1579130/1 currentyear nominal-adverb0. Personalgoal versus retrospectivesummerquality distinct, neither actualuserdietrecommendation nor currentmeteorologicalreport.",
+            "match": {
+              "word": "今年",
+              "reading": "ことし",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "今年 als dieses Jahr"
+            }
+          }
+        ]
+      },
+      "1024": {
+        "meaning": "jünger; jüngere Person",
+        "type": "Nomen",
+        "notes": "年下 beschreibt ein geringeres Lebensalter im Vergleich zu einer anderen Person. 年下の子 verbindet das Altersverhältnis mit einem Kind. Bei 三歳年下 nennt 三歳 die Differenz: drei Jahre jünger. Wer als Vergleich gemeint ist, wird mit より genannt oder ergibt sich aus der Situation.",
+        "examples": [
+          {
+            "japanese": "このクラスは私より年下の子が多いです。",
+            "romaji": "Kono kurasu wa watashi yori toshishita no ko ga ōi desu.",
+            "german": "In dieser Klasse gibt es viele Kinder, die jünger als ich sind."
+          },
+          {
+            "japanese": "弟は三歳年下です。",
+            "romaji": "Otōto wa sansai toshishita desu.",
+            "german": "Mein jüngerer Bruder ist drei Jahre jünger als ich."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185526768",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 年下/トシシタ, 名詞/普通名詞/一般/*, */*, aType 0. 1468230/1 younger/junior n/no and exactnominal0 justify Adjektiv→Nomen. Groupagecomparison viaattributiveの versus exactsiblingagedifference distinct; explicit私より resolvesfirstimplicitreferent.",
+            "match": {
+              "word": "年下",
+              "reading": "としした",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "年下 als jünger; jüngere Person"
+            }
+          }
+        ]
+      },
+      "1025": {
+        "meaning": "Osteingang, Ostausgang",
+        "notes": "東口 ist der Eingang oder Ausgang an der Ostseite, etwa eines Bahnhofs. 東 wird ひがし und 口 hier ぐち gelesen. 東口にある nennt etwas an diesem Ort; 東口から出る beschreibt, wo man hinausgeht. Ob man hinein- oder hinausgeht, entscheidet der Satz.",
+        "examples": [
+          {
+            "japanese": "東口にはコンビニがありますか？",
+            "romaji": "Higashiguchi ni wa konbini ga arimasu ka?",
+            "german": "Gibt es am Ostausgang einen Convenience-Store?"
+          },
+          {
+            "japanese": "東口から出てください。",
+            "romaji": "Higashiguchi kara dete kudasai.",
+            "german": "Bitte gehen Sie am Ostausgang hinaus."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222164232",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 東口/ヒガシグチ, 名詞/普通名詞/一般/*, */*, aType 0. 1447790/1 eastentrance/exit commonnoun0, surname sys.dic@222164005 with aType3 excluded. Broadnounmeaning accuratelyexpanded; locationamenityquery versus exitdirectionrequest distinct.",
+            "match": {
+              "word": "東口",
+              "reading": "ひがしぐち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "東口 als Osteingang, Ostausgang"
+            }
+          }
+        ]
+      },
+      "1026": {
+        "meaning": "sich wenden; ausgerichtet sein",
+        "notes": "向く kann das Sich-Wenden einer Person oder die Ausrichtung eines Gegenstands beschreiben. Das Godan-Verb bildet 向きます, 向いて. こっちを向く heißt, sich hierher zu drehen; 南を向く bedeutet, nach Süden ausgerichtet zu sein. を bezeichnet in diesen Sätzen die Blick- bzw. Ausrichtungsrichtung.",
+        "examples": [
+          {
+            "japanese": "こっちを向いてください。",
+            "romaji": "Kotchi o muite kudasai.",
+            "german": "Bitte drehen Sie sich hierher."
+          },
+          {
+            "japanese": "この窓は南を向いています。",
+            "romaji": "Kono mado wa minami o muite imasu.",
+            "german": "Dieses Fenster ist nach Süden ausgerichtet."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258275889",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 向く/ムク, 動詞/一般/*/*, 五段-カ行/終止形-一般, aType 0. 1277080/1 turn/looktoward and2 fixedfacingorientation both explicitvt/vi senses selected; suitabilityothersnotselected. ExactGodanカterminal0. Humanorientationrequest versus stationarywindowfacing distinct, duplicateこちらrequest removed.",
+            "match": {
+              "word": "向く",
+              "reading": "むく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "向く als sich wenden; ausgerichtet sein"
+            }
+          }
+        ]
+      },
+      "1027": {
+        "notes": "私生活 ist das Privatleben, etwa persönliche Beziehungen und der Alltag außerhalb des Berufs. 私 wird in diesem zusammengesetzten Wort し gelesen. 私生活のストレス verbindet einen Belastungsbereich mit dem Privatleben. 私生活を大切にする heißt, diesem Teil des Lebens Bedeutung und Aufmerksamkeit zu geben.",
+        "examples": [
+          {
+            "japanese": "私生活のストレスが大きい。",
+            "romaji": "Shiseikatsu no sutoresu ga ōkii.",
+            "german": "Der Stress in meinem Privatleben ist groß."
+          },
+          {
+            "japanese": "私生活を大切にしたいです。",
+            "romaji": "Shiseikatsu o taisetsu ni shitai desu.",
+            "german": "Ich möchte mein Privatleben wichtig nehmen."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1028": {
+        "type": "Nomen",
+        "notes": "私立 bezeichnet eine Einrichtung in privater Trägerschaft, besonders Schulen und Hochschulen. Als Nomen verbindet es sich mit の: 私立の学校. Die Lesung しりつ klingt wie 市立 „städtisch“; zur Unterscheidung sagt man für 私立 manchmal auch わたくしりつ.",
+        "examples": [
+          {
+            "japanese": "私立の大学に入りたいです。",
+            "romaji": "Shiritsu no daigaku ni hairitai desu.",
+            "german": "Ich möchte an einer privaten Universität aufgenommen werden."
+          },
+          {
+            "japanese": "これは私立の学校です。",
+            "romaji": "Kore wa shiritsu no gakkō desu.",
+            "german": "Das ist eine Privatschule."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142090437",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 私立/シリツ, 名詞/普通名詞/一般/*, */*, aType 1. 1311420/1 privateestablishment noun/no and exactnoun1 correct Adjektiv→Nomen/old0. Rawdictionary explicitly notes わたくしりつ toavoid市立confusion; preservedcardreadingしりつ, no alternate-readingpitch inferred.",
+            "match": {
+              "word": "私立",
+              "reading": "しりつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "私立 als privat"
+            }
+          }
+        ]
+      },
+      "1029": {
+        "notes": "広がる ist ein intransitives Godan-Verb: 広がります, 広がって. Es beschreibt eine räumliche Ausdehnung oder eine Verbreitung, auch von Gerüchten. Mit が nennt man, was sich ausdehnt oder verbreitet. Das transitive 広げる beschreibt dagegen, dass jemand etwas erweitert oder ausbreitet.",
+        "examples": [
+          {
+            "japanese": "目の前に青い海が広がっています。",
+            "romaji": "Me no mae ni aoi umi ga hirogatte imasu.",
+            "german": "Vor mir erstreckt sich das blaue Meer."
+          },
+          {
+            "japanese": "噂が広がりました。",
+            "romaji": "Uwasa ga hirogarimashita.",
+            "german": "Das Gerücht hat sich verbreitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@228770984",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 広がる/ヒロガル, 動詞/一般/*/*, 五段-ラ行/終止形-一般, aType 0. 1602360/1 spread/extend/reach/getaround intransitiveGodan, exactterminal0 corrects3. Staticseavistaextent versus temporalrumorpropagation distinct; awkwardlegspreadabilityprompt removed.",
+            "match": {
+              "word": "広がる",
+              "reading": "ひろがる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "広がる als sich ausbreiten"
+            }
+          }
+        ]
+      },
+      "1030": {
+        "type": "Nomen",
+        "notes": "豚肉 ist Schweinefleisch und ein Nomen. Beim Essen steht es mit を als Objekt: 豚肉を食べる. Bei 豚肉でカツを作る nennt で dagegen das Fleisch als Zutat bzw. Material. Die Lesung ぶたにく verbindet ぶた „Schwein“ mit にく „Fleisch“.",
+        "examples": [
+          {
+            "japanese": "私は豚肉を食べません。",
+            "romaji": "Watashi wa butaniku o tabemasen.",
+            "german": "Ich esse kein Schweinefleisch."
+          },
+          {
+            "japanese": "豚肉でカツを作りましょう。",
+            "romaji": "Butaniku de katsu o tsukurimashō.",
+            "german": "Bereiten wir Schnitzel aus Schweinefleisch zu."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238596983",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 豚肉/ブタニク, 名詞/普通名詞/一般/*, */*, aType 0. 1457440/1 pork noun plus exactordinarynoun0 supports Adjektiv→Nomen. Personal nonconsumptionhabit versus sharedcookingproposal distinct; no religion or medicalreason invented.",
+            "match": {
+              "word": "豚肉",
+              "reading": "ぶたにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "豚肉 als Schweinefleisch"
+            }
+          }
+        ]
+      },
+      "1031": {
+        "meaning": "Lotterie; Lotterielos",
+        "notes": "宝くじ kann die Lotterie oder ein einzelnes Lotterielos bezeichnen. Bei 宝くじを買う kauft man ein Los; 宝くじに当たる heißt, bei der Lotterie zu gewinnen. Die Lesung ist たからくじ. Ein Los gekauft zu haben sagt noch nichts über einen Gewinn aus.",
+        "examples": [
+          {
+            "japanese": "宝くじを買いました。",
+            "romaji": "Takarakuji o kaimashita.",
+            "german": "Ich habe ein Lotterielos gekauft."
+          },
+          {
+            "japanese": "宝くじに当たりました。",
+            "romaji": "Takarakuji ni atarimashita.",
+            "german": "Ich habe bei der Lotterie gewonnen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158946056",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "Exakte Form 宝くじ/タカラクジ, 名詞/普通名詞/一般/*, */*, aType 3,4. 1516170/1 lottery plus2 lottery ticket deliberately selected. Exact ordinarywhole UniDic3,4 both retained, correcting0. Purchasing ticket differs from winning lottery; erroneous German onlineavailablelottery removed, no present salesrule asserted.",
+            "match": {
+              "word": "宝くじ",
+              "reading": "たからくじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "宝くじ als Lotterie; Lotterielos"
+            }
+          }
+        ]
+      },
+      "1032": {
+        "notes": "一歩 ist ein Schritt. Die Lesung いっぽ enthält ein kleines っ und ein p, nicht h. あと一歩 nennt den noch fehlenden Schritt; 一歩ずつ bedeutet „Schritt für Schritt“. Mit 前に進む wird gesagt, in welche Richtung man weitergeht.",
+        "examples": [
+          {
+            "japanese": "あと一歩でゴールです。",
+            "romaji": "Ato ippo de gōru desu.",
+            "german": "Das Ziel ist nur noch einen Schritt entfernt."
+          },
+          {
+            "japanese": "一歩ずつ前に進みましょう。",
+            "romaji": "Ippo zutsu mae ni susumimashō.",
+            "german": "Gehen wir Schritt für Schritt voran."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56234911",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 一歩/イッポ, 副詞/*/*/*, */*, aType 1. 1166460/1 actualstep n/adv; stage/degree2,3 not silently selected. Whole UniDic adverb1 corrects0, compatible independentstepmeasure. Remaininggoal distance versus mannerofshared movement distinct.",
+            "match": {
+              "word": "一歩",
+              "reading": "いっぽ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "一歩 als ein Schritt"
+            }
+          }
+        ]
+      },
+      "1033": {
+        "romaji": "sharyō",
+        "meaning": "Fahrzeug; Eisenbahnwagen",
+        "notes": "車両 bezeichnet ein Fahrzeug oder einen Wagen eines Zuges. Die Lesung しゃりょう endet mit einem langen o. この車両は大きいです beschreibt einen bestimmten Wagen; 車両のドア verbindet das Wort mit dessen Tür. Beim Zählen von Eisenbahnwagen verwendet man üblicherweise 両, etwa 十両.",
+        "examples": [
+          {
+            "japanese": "この車両は大きいですね。",
+            "romaji": "Kono sharyō wa ōkii desu ne.",
+            "german": "Dieser Wagen ist groß, nicht wahr?"
+          },
+          {
+            "japanese": "車両のドアが閉まりました。",
+            "romaji": "Sharyō no doa ga shimarimashita.",
+            "german": "Die Tür des Wagens hat sich geschlossen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139637101",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 車両/シャリョウ, 名詞/普通名詞/一般/*, */*, aType 0. 1323250/1 includeswheeledvehicleandrailwaycar, exactnoun0 corrects1. Sizeassessment differs from door-closing event. Awkward 十車両 counterexample replaced; note普通十両 conventional carcounter, no arbitrary traincount.",
+            "match": {
+              "word": "車両",
+              "reading": "しゃりょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "車両 als Fahrzeug; Eisenbahnwagen"
+            }
+          }
+        ]
+      },
+      "1034": {
+        "meaning": "früh; schnell",
+        "type": "Adverb",
+        "notes": "早く kann „früh“ oder „schnell“ heißen. 早く会社に行く kann einen frühen Zeitpunkt meinen; bei 早く来てください bittet man meist um schnelles Kommen. Es ist die ku-Form von 早い. Für Geschwindigkeit sieht man auch die Schreibung 速く. Welche Bedeutung gemeint ist, zeigt die Situation.",
+        "examples": [
+          {
+            "japanese": "平日は早く会社に行きます。",
+            "romaji": "Heijitsu wa hayaku kaisha ni ikimasu.",
+            "german": "An Werktagen gehe ich früh zur Arbeit."
+          },
+          {
+            "japanese": "早く来てください。",
+            "romaji": "Hayaku kite kudasai.",
+            "german": "Bitte kommen Sie schnell."
+          }
+        ],
+        "conjugation": {
+          "type": "Adverb",
+          "conjugationKind": "excluded",
+          "verbGroup": null,
+          "conjugationReading": null
+        },
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217920970,sys.dic@217944131",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "Actual sys.dic@217920970 早く ハヤク lemma早い 形容詞連用形-一般 aType2; @217944131 早く ハヤク lemma早く 名詞普通名詞副詞可能 aType1. Selected actual early/quick senses raw1400150/1,2 and temporal/manner contexts compatible; both alternatives retained.",
+            "match": {
+              "word": "早く",
+              "reading": "はやく",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連用形-一般 | 名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "early/soon and quickly; same complete早く/はやく"
+            }
+          }
+        ]
+      },
+      "1035": {
+        "romaji": "-shitsu",
+        "meaning": "-raum, -zimmer",
+        "type": "Nomen",
+        "notes": "〜室 ist ein Wortbestandteil am Ende einer Raumbezeichnung: 会議室 „Besprechungsraum“, 社長室 „Büro der Geschäftsleitung“. 〜 zeigt hier die Stelle für den vorangehenden Wortteil. 室 wird しつ gelesen. Die Partikel steht nach dem ganzen Raumwort, etwa 会議室は oder 社長室のドア.",
+        "examples": [
+          {
+            "japanese": "社長室のドアをノックした。",
+            "romaji": "Shachōshitsu no doa o nokku shita.",
+            "german": "Ich klopfte an die Tür des Büros der Geschäftsleitung."
+          },
+          {
+            "japanese": "会議室はどこですか。",
+            "romaji": "Kaigishitsu wa doko desu ka.",
+            "german": "Wo ist der Besprechungsraum?"
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1036": {
+        "notes": "草地 ist eine mit Gras bewachsene Fläche, etwa eine Wiese. 草地に nennt sie als Ort; 草地の木 ist ein Baum auf dieser Fläche. Die Lesung ist くさち. 座りましょう schlägt gemeinsames Hinsetzen vor, ohne auszusagen, dass man bereits sitzt.",
+        "examples": [
+          {
+            "japanese": "草地に大きな木があった。",
+            "romaji": "Kusachi ni ōkina ki ga atta.",
+            "german": "Auf der Wiese stand ein großer Baum."
+          },
+          {
+            "japanese": "草地に座りましょう。",
+            "romaji": "Kusachi ni suwarimashō.",
+            "german": "Setzen wir uns auf die Wiese."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@110914529",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 草地/クサチ, 名詞/普通名詞/一般/*, */*, aType 0. 1633620/1 grassland/meadow exactcommon noun0; surname1,2 rejected. Existing tree-location memory differs from proposedseatingaction, redundant草地の上 streamlined. ProperGermanreflexive Hinsetzen corrected.",
+            "match": {
+              "word": "草地",
+              "reading": "くさち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "草地 als Wiese"
+            }
+          }
+        ]
+      },
+      "1037": {
+        "romaji": "kokuō",
+        "meaning": "König, Monarch",
+        "type": "Nomen",
+        "notes": "国王 bezeichnet das Oberhaupt einer Monarchie, meist mit „König“ übersetzt. Es ist ein Nomen: 国王の写真 ist ein Foto des Königs, 国王が来る nennt ihn als handelnde Person. Man liest こくおう mit langem o am Ende. Das Wort nennt für sich allein kein bestimmtes Land.",
+        "examples": [
+          {
+            "japanese": "国王の写真を見ました。",
+            "romaji": "Kokuō no shashin o mimashita.",
+            "german": "Ich habe ein Foto des Königs angesehen."
+          },
+          {
+            "japanese": "この物語では、国王が城に来ます。",
+            "romaji": "Kono monogatari de wa, kokuō ga shiro ni kimasu.",
+            "german": "In dieser Geschichte kommt der König ins Schloss."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121400255",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exakte Form 国王/コクオウ, 名詞/普通名詞/一般/*, */*, aType 3. 1286160/1 monarch sovereign king/queen noun; institutionalCrown2 notselected. Exactnoun3 supports Adjektiv→Nomen. Photo-viewing differs from narratedroyalarrival, currentbritish-officeholder assertion removed withoutidentitychange.",
+            "match": {
+              "word": "国王",
+              "reading": "こくおう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "国王 als König, Monarch"
+            }
+          }
+        ]
+      },
+      "1038": {
+        "type": "Nomen",
+        "notes": "水星 ist der Name des Planeten Merkur. Man liest すいせい; es bedeutet hier nicht den ebenfalls すいせい gelesenen „Kometen“ 彗星. 水星より nennt Merkur als Vergleichsgröße. 水星の絵 verbindet den Planetennamen mit einer Zeichnung.",
+        "examples": [
+          {
+            "japanese": "月は、水星より小さい。",
+            "romaji": "Tsuki wa, suisei yori chīsai.",
+            "german": "Der Mond ist kleiner als Merkur."
+          },
+          {
+            "japanese": "水星の絵を描きました。",
+            "romaji": "Suisei no e o kakimashita.",
+            "german": "Ich habe ein Bild von Merkur gezeichnet."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145641452",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 水星/スイセイ, 名詞/固有名詞/一般/*, */*, aType 0. 1371730/1 planetMercury, exactastronomicalpropernoun0 supports Adjektiv→Nomen. Physicalsizecomparison differs from drawing, homophonouscometnotselected. Familiarstable relative Moon-size retained notnew astronomical recommendation.",
+            "match": {
+              "word": "水星",
+              "reading": "すいせい",
+              "grammaticalForm": "名詞/固有名詞/一般/*; *; *",
+              "sense": "水星 als Merkur"
+            }
+          }
+        ]
+      },
+      "1039": {
+        "notes": "金星 ist der Planet Venus und wird きんせい gelesen. Die gleiche Schreibung kann mit きんぼし einen besonderen Sieg meinen; diese Karte übt den Planetennamen. あそこに見えるのが金星です identifiziert einen sichtbaren Himmelskörper. 金星の写真 nennt dagegen ein Bild davon.",
+        "examples": [
+          {
+            "japanese": "あそこに見えるのが、金星です。",
+            "romaji": "Asoko ni mieru no ga, kinsei desu.",
+            "german": "Was man dort sehen kann, ist die Venus."
+          },
+          {
+            "japanese": "金星の写真を見ました。",
+            "romaji": "Kinsei no shashin o mimashita.",
+            "german": "Ich habe ein Foto der Venus angesehen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108859736",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 金星/キンセイ, 名詞/固有名詞/一般/*, */*, aType 0. 1243010/1 Venus withreadingきんせい exactpropernoun0. Wrongexamplekinboshi corrected; separate victoryreading notusedaspitchproof. Visible identification differs from viewingphotographicrepresentation, duplicatetodayvisibility replaced.",
+            "match": {
+              "word": "金星",
+              "reading": "きんせい",
+              "grammaticalForm": "名詞/固有名詞/一般/*; *; *",
+              "sense": "金星 als Venus"
+            }
+          }
+        ]
+      },
+      "1040": {
+        "meaning": "wachsen, sprießen; durchbrechen (Zähne)",
+        "notes": "生える beschreibt, dass etwas aus einer Oberfläche heraus wächst oder hervortritt. Es ist ein intransitives Ichidan-Verb: 生えます, 生えて. Mit が nennt man, was wächst, und mit に die Stelle: 木にキノコが生える. Auch beim ersten Durchbrechen von Zähnen sagt man 歯が生える.",
+        "examples": [
+          {
+            "japanese": "この木にはキノコが生える。",
+            "romaji": "Kono ki ni wa kinoko ga haeru.",
+            "german": "An diesem Baum wachsen Pilze."
+          },
+          {
+            "japanese": "赤ちゃんに歯が生えました。",
+            "romaji": "Akachan ni ha ga haemashita.",
+            "german": "Das Baby hat einen Zahn bekommen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211922042",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exakte Form 生える/ハエル, 動詞/一般/*/*, 下一段-ア行/終止形-一般, aType 2. 1378490/1 sproutgrow plus2 cutteeth deliberatelyselected, exact下一段アterminal2. Treefungalgrowth differs from infantsfirstteetheruption; natural retainedplantcontext notduplicatedgardenplant.",
+            "match": {
+              "word": "生える",
+              "reading": "はえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "生える als wachsen, sprießen; durchbrechen (Zähne)"
+            }
+          }
+        ]
+      },
+      "1041": {
+        "notes": "土星 ist der Planet Saturn. 土 wird hier ど gelesen, 星 せい. 土星を調べる macht den Planeten zum Gegenstand des Nachschlagens; 土星には輪がある beschreibt seine Ringe. Die Schreibung ist ein Planetenname und keine freie Beschreibung von Erde oder Sternen.",
+        "examples": [
+          {
+            "japanese": "図鑑で土星を調べました。",
+            "romaji": "Zukan de dosei o shirabemashita.",
+            "german": "Ich habe Saturn in einem Nachschlagewerk nachgeschlagen."
+          },
+          {
+            "japanese": "土星には輪があります。",
+            "romaji": "Dosei ni wa wa ga arimasu.",
+            "german": "Saturn hat Ringe."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192766660",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 土星/ドセイ, 名詞/固有名詞/一般/*, */*, aType 0. 1445400/1 planetSaturn exactpropernoun0. Referencework lookup differs from ringspossessiondescription; genericsizeassessment replaced, nominalplanet preserved.",
+            "match": {
+              "word": "土星",
+              "reading": "どせい",
+              "grammaticalForm": "名詞/固有名詞/一般/*; *; *",
+              "sense": "土星 als Saturn"
+            }
+          }
+        ]
+      },
+      "1042": {
+        "notes": "活気 bezeichnet Lebendigkeit oder rege Aktivität, etwa in einer Stadt oder einem Laden. Mit 活気がある sagt man, dass ein Ort lebhaft ist. 活気が戻る beschreibt, dass die Lebendigkeit zurückkehrt. Das kleine っ in かっき verlängert den k-Laut.",
+        "examples": [
+          {
+            "japanese": "この町は、とても活気があります。",
+            "romaji": "Kono machi wa, totemo kakki ga arimasu.",
+            "german": "Diese Stadt ist sehr lebhaft."
+          },
+          {
+            "japanese": "祭りの日、店に活気が戻りました。",
+            "romaji": "Matsuri no hi, mise ni kakki ga modorimashita.",
+            "german": "Am Tag des Festes kehrte Leben in den Laden zurück."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95355587",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 活気/カッキ, 名詞/普通名詞/一般/*, */*, aType 0. 1208270/1 energy/liveliness exactnoun0. Existingmunicipalvitality assessment differs from restoredretailactivityonthefestday; duplicateplainvitalitystatement removed. Returningvitality figurativeoriginalsense, notnewunsupportedcausation.",
+            "match": {
+              "word": "活気",
+              "reading": "かっき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "活気 als Lebhaftigkeit"
+            }
+          }
+        ]
+      },
+      "1043": {
+        "romaji": "chichū",
+        "meaning": "im Boden, unter der Erde",
+        "type": "Nomen",
+        "notes": "地中 ist der Bereich innerhalb des Bodens. Als Ortsnomen verbindet es sich mit に: 地中に虫がいる. 地中に埋める nennt den Boden als Ziel des Vergrabens. Man liest ちちゅう mit langem u; das Wort beschreibt die Lage unter der Erdoberfläche.",
+        "examples": [
+          {
+            "japanese": "地中には、たくさんの虫がいます。",
+            "romaji": "Chichū ni wa, takusan no mushi ga imasu.",
+            "german": "Unter der Erde gibt es viele Insekten."
+          },
+          {
+            "japanese": "地中にケーブルを埋めました。",
+            "romaji": "Chichū ni kēburu o umemashita.",
+            "german": "Ich habe ein Kabel im Boden vergraben."
+          }
+        ],
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169060357",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exakte Form 地中/チチュウ, 名詞/普通名詞/一般/*, */*, aType 0,2. 1763200/1 undergroundregion n/no, exactnoun0,2 both retained and typeAdjektiv→Nomen. Insectexistence versus cableburial action distinct, duplicatedplaceexistence removed.",
+            "match": {
+              "word": "地中",
+              "reading": "ちちゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "地中 als im Boden, unter der Erde"
             }
           }
         ]
@@ -95510,6 +96689,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1045": {
         "romaji": "moto pātonā",
+        "notes": "元パートナー ist eine ehemalige Partnerin oder ein ehemaliger Partner. 元 wird hier もと gelesen und steht vor パートナー. Gemeint sein kann eine frühere private oder berufliche Partnerschaft; der Zusammenhang klärt das. から nennt den Absender einer Nachricht. の verbindet die Person mit einer Sache, etwa 元パートナーの本 „das Buch des früheren Partners“.",
         "examples": [
           {
             "japanese": "元パートナーからテキストがきた。",
@@ -95517,14 +96697,75 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich habe eine Nachricht von meinem Ex-Partner bekommen."
           },
           {
-            "japanese": "彼女は元パートナーに会いました。",
-            "romaji": "Kanojo wa moto pātonā ni aimashita.",
-            "german": "Sie hat ihren Ex-Partner getroffen."
+            "japanese": "元パートナーの本を返しました。",
+            "romaji": "Moto pātonā no hon o kaeshimashita.",
+            "german": "Ich habe das Buch meines Ex-Partners zurückgegeben."
           }
         ],
-        "pitch": null
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1046": {
+        "meaning": "kleiner Stein, Kieselstein",
+        "notes": "石ころ ist ein kleiner Stein oder Kieselstein. Bei 石ころが落ちる ist der Stein das Subjekt eines Fallens; bei 石ころを拾う hebt jemand ihn auf. Die Lesung ist いしころ. Das Wort bezeichnet keine bestimmte Steinsorte oder Farbe.",
+        "examples": [
+          {
+            "japanese": "オレンジ色の石ころが川に落ちた。",
+            "romaji": "Orenji iro no ishikoro ga kawa ni ochita.",
+            "german": "Ein orangefarbener Stein fiel in den Fluss."
+          },
+          {
+            "japanese": "子供が石ころを拾いました。",
+            "romaji": "Kodomo ga ishikoro o hiroimashita.",
+            "german": "Das Kind hat einen Kieselstein aufgehoben."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54596675",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "Exakte Form 石ころ/イシコロ, 名詞/普通名詞/一般/*, */*, aType 3,4. 1649700/1 smallstone/rock/pebble exactnoun3,4 both correct0. Fallingstoneevent differs from childpickup; 入った vagueenter replaced by 落ちた matchingGermanfell, オレンジ色 actualiro notorenjishoku.",
+            "match": {
+              "word": "石ころ",
+              "reading": "いしころ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "石ころ als kleiner Stein, Kieselstein"
+            }
+          }
+        ]
+      },
+      "1047": {
+        "romaji": "hoka no hito",
+        "notes": "他の人 sind eine andere Person oder andere Leute. の verbindet 他 mit 人; in dieser Wendung liest man ほかのひと. Andere Personen müssen dabei keine unbekannten Fremden sein. 他の人にしてもらう heißt, etwas von jemand anderem erledigen zu lassen; 他の人のカバン nennt den Besitzer einer Tasche.",
+        "examples": [
+          {
+            "japanese": "いいよ、他の人にしてもらうから！",
+            "romaji": "Ii yo, hoka no hito ni shite morau kara!",
+            "german": "Schon gut, ich lasse es jemand anderen machen!"
+          },
+          {
+            "japanese": "他の人のカバンを間違えて持って帰りました。",
+            "romaji": "Hoka no hito no kaban o machigaete motte kaerimashita.",
+            "german": "Ich habe aus Versehen die Tasche einer anderen Person mit nach Hause genommen."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
       },
       "1048": {
+        "notes": "一千万 sind zehn Millionen: 千 „tausend“ wird hier mit 万 „zehntausend“ verbunden. Die Lesung ist いっせんまん mit kleinem っ. Die Einheit folgt der Zahl, etwa 一千万ドル oder 一千万人. Bei 一千万円 folgt vor えん ein hörbares n.",
         "examples": [
           {
             "japanese": "一千万ドルがほしいなぁ。",
@@ -95532,15 +96773,217 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich wünsche mir zehn Millionen Dollar."
           },
           {
-            "japanese": "一千万円は大金です。",
-            "romaji": "Issenman en wa taikin desu.",
-            "german": "Zehn Millionen Yen sind ein großer Betrag."
+            "japanese": "この国には一千万人が住んでいます。",
+            "romaji": "Kono kuni ni wa issenman nin ga sunde imasu.",
+            "german": "In diesem Land leben zehn Millionen Menschen."
           }
         ],
-        "pitch": null
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1049": {
+        "notes": "この steht direkt vor einem Nomen und verweist auf etwas bei der sprechenden Person: この人, この映画. Es wird nicht mit な verbunden und steht hier nicht allein wie これ. この人、だれ？ ist eine verkürzte umgangssprachliche Frage. この映画は setzt den Film als Thema einer Bewertung.",
+        "examples": [
+          {
+            "japanese": "この人、だれ？",
+            "romaji": "Kono hito, dare?",
+            "german": "Wer ist diese Person?"
+          },
+          {
+            "japanese": "この映画は面白いです。",
+            "romaji": "Kono eiga wa omoshiroi desu.",
+            "german": "Dieser Film ist interessant."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123919124",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form この/コノ, 連体詞/*/*/*, */*, aType 0. 1582920/1 proximalspeaker-relatedrentaishi only, numericalnine1578150 and insulting3 excluded. Actual連体詞0 compatible nominalmodifier function. PersonID question differs from filmqualityassessment, German proximityexplicit.",
+            "match": {
+              "word": "この",
+              "reading": "この",
+              "grammaticalForm": "連体詞/*/*/*; *; *",
+              "sense": "この als dieser"
+            }
+          }
+        ]
+      },
+      "1050": {
+        "notes": "あれ verweist selbstständig auf etwas dort drüben, entfernt von sprechender und angesprochener Person. Es kann im vertrauten Gespräch auch eine Person meinen; beim höflichen Benennen passt eher あの人 oder あの方. Vor einem Nomen verwendet man あの: あの本. あれは何ですか fragt nach einer Sache in der Ferne.",
+        "examples": [
+          {
+            "japanese": "あれ、エミリーじゃない？",
+            "romaji": "Are, Emirī ja nai?",
+            "german": "Ist das dort drüben nicht Emily?"
+          },
+          {
+            "japanese": "あれは何ですか。",
+            "romaji": "Are wa nan desu ka.",
+            "german": "Was ist das dort drüben?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@48997515",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form あれ/アレ, 代名詞/*/*/*, */*, aType 0. 1000580/1 distal thing plus2 person (equals/inferiors) selected, not surpriseinterjection2847612 norhomonymousverbforms. Actualpronoun彼れ0 selected. Familiarpersonrecognition versus unidentifiedthingquery distinct; use-personregister explicitlyqualified.",
+            "match": {
+              "word": "あれ",
+              "reading": "あれ",
+              "grammaticalForm": "代名詞/*/*/*; *; *",
+              "sense": "あれ als jenes dort"
+            }
+          }
+        ]
+      },
+      "1051": {
+        "type": "Nomen",
+        "notes": "ドル ist die Währungseinheit Dollar und steht nach einer Zahl: 五ドル, 百ドル. Es ist keine Satzpartikel. Welcher Dollar gemeint ist, hängt vom Land oder Kontext ab. だって kann umgangssprachlich eine gehörte Preisangabe wiedergeben; 何円 fragt nach einem Betrag in Yen.",
+        "examples": [
+          {
+            "japanese": "このパン、５ドルだって。",
+            "romaji": "Kono pan, go doru datte.",
+            "german": "Dieses Brot kostet angeblich fünf Dollar."
+          },
+          {
+            "japanese": "百ドルは何円ですか。",
+            "romaji": "Hyaku doru wa nan en desu ka.",
+            "german": "Wie viele Yen sind hundert Dollar?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193238868",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form ドル/ドル, 名詞/普通名詞/助数詞可能/*, */*, aType 1. 1089090/1 dollar currencyunit nominalcounterpossibility, nonspecificmoney2excluded. ExactUniDicnouncounterpossible1 supports Partikel→Nomen. Reportedbreadprice differs from currency-equivalencequestion; no current exchange-rate answer invented.",
+            "match": {
+              "word": "ドル",
+              "reading": "ドル",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "ドル als Dollar"
+            }
+          }
+        ]
+      },
+      "1052": {
+        "notes": "どの fragt vor einem Nomen, welches aus einer Auswahl gemeint ist: どの子, どの本. Man verbindet es ohne な mit dem Nomen. Wenn das Nomen fehlt, fragt man mit どれ. どの本が欲しいですか richtet sich nach dem gewünschten Buch, nicht nur nach dessen Namen.",
+        "examples": [
+          {
+            "japanese": "どの子がマリアちゃん？",
+            "romaji": "Dono ko ga Maria-chan?",
+            "german": "Welches Kind ist Maria?"
+          },
+          {
+            "japanese": "どの本が欲しいですか。",
+            "romaji": "Dono hon ga hoshii desu ka.",
+            "german": "Welches Buch möchten Sie?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193002450",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form どの/ドノ, 連体詞/*/*/*, */*, aType 1. 1920240/1 interrogative rentaishi which only; polite suffix殿1442500 excluded. Exact連体詞何の1, suffixpitchwildcardnotselected. Personidentification differs from desiredbookchoice; -chan affectionateJapanese nameaddress preservedinHepburn.",
+            "match": {
+              "word": "どの",
+              "reading": "どの",
+              "grammaticalForm": "連体詞/*/*/*; *; *",
+              "sense": "どの als welcher"
+            }
+          }
+        ]
+      },
+      "1053": {
+        "notes": "ない verneint das Vorhandensein einer Sache: お金がない, 時間がない. Was fehlt, steht mit が. Es verhält sich hier wie ein i-Adjektiv: ないです ist höflicher, なかった beschreibt das Fehlen in der Vergangenheit. Die höfliche Form ありません ist ebenfalls möglich. Es verneint hier keine Handlung wie ein direkt ans Verb angehängtes ない.",
+        "examples": [
+          {
+            "japanese": "お金がぜんぜんない。",
+            "romaji": "Okane ga zenzen nai.",
+            "german": "Ich habe überhaupt kein Geld."
+          },
+          {
+            "japanese": "今日は時間がないです。",
+            "romaji": "Kyō wa jikan ga nai desu.",
+            "german": "Heute habe ich keine Zeit."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193494030",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form ない/ナイ, 形容詞/非自立可能/*/*, 形容詞/終止形-一般, aType 1. 1529520/1 nonexistent and2 unowned/notpossessed explicitly selected for money/timeabsence, notdead1518450 or verbnegativesuffix2257550. Exact current形容詞無いterminal1 selected; auxiliarywildcard/homonymousverbforms rejected. Exhaustivemoneyabsence differs from todaytimeavailability.",
+            "match": {
+              "word": "ない",
+              "reading": "ない",
+              "grammaticalForm": "形容詞/非自立可能/*/*; 形容詞; 終止形-一般",
+              "sense": "ない als nicht vorhanden"
+            }
+          }
+        ]
+      },
+      "1054": {
+        "notes": "カバン bezeichnet eine Tasche, oft zum Tragen von Büchern oder persönlichen Sachen. Es kann auch 鞄 geschrieben werden. カバンがない stellt fest, dass die Tasche fehlt; カバンを忘れてきた sagt, dass man sie beim Weggehen zurückgelassen hat. が markiert die fehlende Sache, を das vergessene Objekt.",
+        "examples": [
+          {
+            "japanese": "あ、カバンがない！",
+            "romaji": "A, kaban ga nai!",
+            "german": "Oh, meine Tasche ist nicht da!"
+          },
+          {
+            "japanese": "カバンを忘れてきました。",
+            "romaji": "Kaban o wasurete kimashita.",
+            "german": "Ich habe meine Tasche zurückgelassen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96456670",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form カバン/カバン, 名詞/普通名詞/一般/*, */*, aType 0. 1208910/1 bag/satchel etc usuallykana, exactwhole noun鞄0 samelexeme. Discoveryofmissingbag differs from selfreportedleft-behindcause; Germanmissinglocation ratherthan unqualifiednoownership. Retained two functions reviewed ratherthan duplicatinggenericbagpossession.",
+            "match": {
+              "word": "カバン",
+              "reading": "カバン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "カバン als Tasche"
+            }
+          }
+        ]
       },
       "1055": {
         "romaji": "nishi yōroppa",
+        "notes": "西ヨーロッパ ist Westeuropa. 西 wird hier にし gelesen; ヨーロッパ enthält ein langes o und ein kleines っ vor p. に nennt die Region als Reiseziel. 西ヨーロッパの地図 verbindet die Regionsbezeichnung mit einer Karte; die genaue Einteilung Europas kann vom Zusammenhang abhängen.",
         "examples": [
           {
             "japanese": "私は西ヨーロッパに行きたいです。",
@@ -95548,12 +96991,47 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich möchte nach Westeuropa reisen."
           },
           {
-            "japanese": "西ヨーロッパを旅行したいです。",
-            "romaji": "Nishi Yōroppa o ryokō shitai desu.",
-            "german": "Ich möchte Westeuropa bereisen."
+            "japanese": "西ヨーロッパの地図を買いました。",
+            "romaji": "Nishi Yōroppa no chizu o kaimashita.",
+            "german": "Ich habe eine Karte von Westeuropa gekauft."
           }
         ],
-        "pitch": null
+        "pitch": null,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "1056": {
+        "notes": "分ける ist ein transitives Ichidan-Verb: 分けます, 分けて. Die Sache, die geteilt oder aufgeteilt wird, steht mit を. 二人で nennt die zwei beteiligten Personen; 三つに nennt drei entstehende Teile. Bei 二人で分ける spricht man von gemeinsamem Teilen, nicht von zwei Teilen allein.",
+        "examples": [
+          {
+            "japanese": "パスタを二人で分ける。",
+            "romaji": "Pasuta o futari de wakeru.",
+            "german": "Wir teilen die Pasta zu zweit."
+          },
+          {
+            "japanese": "ケーキを三つに分けましょう。",
+            "romaji": "Kēki o mittsu ni wakemashō.",
+            "german": "Teilen wir den Kuchen in drei Stücke."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282099244",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exakte Form 分ける/ワケル, 動詞/一般/*/*, 下一段-カ行/終止形-一般, aType 2. 1503000/1 divideintoparts plus2 share/distribute explicitly selected; mediation/tie/saleetc excluded. Exact 下一段カterminal2. Sharingbetweentwopeople differs from dividingintothreeresultparts; wrong ninin replaced by futari.",
+            "match": {
+              "word": "分ける",
+              "reading": "わける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "分ける als teilen"
+            }
+          }
+        ]
       },
       "1082": {
         "romaji": "shūmatsu",
@@ -96412,6 +97890,1637 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1108": {
+        "type": "Nomen",
+        "notes": "三角形 ist ein Dreieck und wird hier さんかくけい gelesen. Das Nomen kann mit の ein anderes Ding näher bestimmen: 三角形のおにぎり ist ein dreieckiges Reisbällchen. 三角形です beschreibt die Form eines Gegenstands. Die ebenfalls gebräuchliche Aussprache さんかっけい ist eine verkürzte Variante; die Umschriften dieses Eintrags folgen der angegebenen Lesung さんかくけい.",
+        "examples": [
+          {
+            "japanese": "これが、三角形のおにぎりの作り方です。",
+            "romaji": "Kore ga, sankakukei no onigiri no tsukurikata desu.",
+            "german": "So macht man ein dreieckiges Reisbällchen."
+          },
+          {
+            "japanese": "この看板は三角形です。",
+            "romaji": "Kono kanban wa sankakukei desu.",
+            "german": "Dieses Schild hat eine Dreiecksform."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1109": {
+        "romaji": "katsuyōkei",
+        "notes": "活用形 nennt eine Form eines veränderlichen Worts. In der japanischen Schulgrammatik sind damit Formen wie 未然形 und 連用形 gemeint. Bei Verben ist wichtig, welche Form vor einer Endung steht: 書か wird etwa in 書かない verwendet. Die Lesung endet auf けい, nicht auf がた. 分かりません meldet hier ein Verständnisproblem, 覚えてください ist eine Lernaufforderung.",
+        "examples": [
+          {
+            "japanese": "「立つ」の活用形が分かりません。",
+            "romaji": "\"Tatsu\" no katsuyōkei ga wakarimasen.",
+            "german": "Ich kenne die Konjugationsformen von 'tatsu' nicht."
+          },
+          {
+            "japanese": "動詞の活用形を覚えてください。",
+            "romaji": "Dōshi no katsuyōkei o oboete kudasai.",
+            "german": "Bitte lernen Sie die Konjugationsformen der Verben."
+          },
+          {
+            "japanese": "「書か」は「書く」の活用形で、「書かない」で使います。",
+            "romaji": "\"Kaka\" wa \"kaku\" no katsuyōkei de, \"kakanai\" de tsukaimasu.",
+            "german": "„Kaka“ ist eine Konjugationsform von „kaku“ und wird in „kakanai“ verwendet."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1110": {
+        "meaning": "denn bloß; um alles in der Welt",
+        "notes": "一体 verstärkt hier eine Frage und zeigt Verwunderung, Ungeduld oder den Wunsch nach einer Erklärung. Es steht vor einem Fragewort, etwa 一体どう oder 一体何が. „Zum Teufel“ kann im Deutschen passen, ist aber stärker als manche japanische Verwendung; „denn bloß“ ist oft neutraler. Die Form mit んだ klingt direkter als die höfliche Frage mit のですか.",
+        "examples": [
+          {
+            "japanese": "一体どうなっているんだ。",
+            "romaji": "Ittai dō natte iru n da.",
+            "german": "Was zum Teufel ist hier los?"
+          },
+          {
+            "japanese": "一体何が起きたのですか。",
+            "romaji": "Ittai nani ga okita no desu ka.",
+            "german": "Was um alles in der Welt ist passiert?"
+          },
+          {
+            "japanese": "一体どうして約束を忘れたのですか。",
+            "romaji": "Ittai dōshite yakusoku o wasureta no desu ka.",
+            "german": "Warum haben Sie denn bloß die Verabredung vergessen?"
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56201268",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@56201268: 一体/イッタイ; lemma一体; 副詞/*/*/*; *; *; aType0. 1164510 emphaticinterrogativeadverb1 exactadverbsys.dic@56201268 (aType0) selected, nounonebodysys.dic@56201444 (aType0) excluded despite0. Direct/höflich situationquery extended by accountabilitywhyquestion. Dō/dōshite checked and strongerGermanprimarymeaningqualified.",
+            "match": {
+              "word": "一体",
+              "reading": "いったい",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Exact 一体/いったい, rawJMdict1164510, senses1: (what) the heck, (why) in the world, (who) on earth, (where) the hell, (how) the hell. Spelling/reading/restrictions inspected. 1164510 emphaticinterrogativeadverb1 exactadverbsys.dic@56201268 (aType0) selected, nounonebodysys.dic@56201444 (aType0) excluded despite0. Direct/höflich situationquery extended by accountabilitywhyquestion. Dō/dōshite checked and strongerGermanprimarymeaningqualified."
+            }
+          }
+        ]
+      },
+      "1111": {
+        "type": "Nomen",
+        "notes": "小声 ist eine leise Stimme. Mit で beschreibt das Nomen, wie jemand spricht: 小声で言う oder 小声で話す. Die erste Wendung kann ein leises Dankeswort wiedergeben, die zweite jemanden um geringere Lautstärke bitten. Anders als 耳打ち verlangt 小声 keine Nähe zum Ohr einer anderen Person. Vor einem Nomen steht の, etwa 小声の会話.",
+        "examples": [
+          {
+            "japanese": "「ありがとう」と小声で言いました。",
+            "romaji": "\"Arigatō\" to kogoe de iimashita.",
+            "german": "„Danke“, sagte ich leise."
+          },
+          {
+            "japanese": "小声で話してください。",
+            "romaji": "Kogoe de hanashite kudasai.",
+            "german": "Bitte sprechen Sie leise."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@122082139",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@122082139: 小声/コゴエ; lemma小声; 名詞/普通名詞/一般/*; *; *; aType0. 1639820 lowvoice noun/no1 exactsys.dic@122082139 (aType0). Formeradjective corrected noun; thanksquotation vs volume-regulatingrequest distinct. Earwhisperdistance not implied, Arigatō and naturalGermanquietvoice accurate.",
+            "match": {
+              "word": "小声",
+              "reading": "こごえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 小声/こごえ, rawJMdict1639820, senses1: low voice, whisper. Spelling/reading/restrictions inspected. 1639820 lowvoice noun/no1 exactsys.dic@122082139 (aType0). Formeradjective corrected noun; thanksquotation vs volume-regulatingrequest distinct. Earwhisperdistance not implied, Arigatō and naturalGermanquietvoice accurate."
+            }
+          }
+        ]
+      },
+      "1112": {
+        "romaji": "kaiōsei",
+        "notes": "海王星 ist der Planet Neptun. 太陽から遠い nennt seine große Entfernung von der Sonne; 海王星の色 bezeichnet seine Farbe. Der Name wird かいおうせい gelesen, mit einem langen おう. Er benennt einen Planeten und keine allgemeine Sternart. In den Beispielen unterscheiden sich sichtbare Farbe und räumliche Entfernung.",
+        "examples": [
+          {
+            "japanese": "海王星は色が青いです。",
+            "romaji": "Kaiōsei wa iro ga aoi desu.",
+            "german": "Die Farbe von Neptun ist blau."
+          },
+          {
+            "japanese": "海王星は太陽から遠いです。",
+            "romaji": "Kaiōsei wa taiyō kara tōi desu.",
+            "german": "Neptun ist weit von der Sonne entfernt."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1113": {
+        "notes": "〜以下 setzt eine obere Grenze und schließt den genannten Wert ein. 五千円以下 bedeutet höchstens 5.000 Yen, 十歳以下 bis einschließlich zehn Jahre. Für eine Grenze ohne den genannten Wert verwendet man bei Zahlen etwa 未満. Nach 以下 kann の ein Nomen verbinden: 五千円以下のテレビ. Die Beispiele zeigen eine Preisgrenze und eine Altersbedingung.",
+        "examples": [
+          {
+            "japanese": "五千円以下の中古のテレビはありますか？",
+            "romaji": "Gosen en ika no chūko no terebi wa arimasu ka?",
+            "german": "Gibt es einen gebrauchten Fernseher für 5.000 Yen oder weniger?"
+          },
+          {
+            "japanese": "十歳以下の子供は無料です。",
+            "romaji": "Jussai ika no kodomo wa muryō desu.",
+            "german": "Kinder bis einschließlich zehn Jahre zahlen nichts."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@52591221",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@52591221: actual wholecanonical 以下/イカ, 名詞/普通名詞/一般/*, aType1. Same selected meaning/reading; unspoken〜 placeholder preserved. Canonical bare-form accent, not inferredfromprecedingnumber. Displayed〜以下 keepsplaceholder; exactcanonicalJMdict1155060以下/いか nounsuffix1 notexceeding inclusive, not strictbelowstandard2 nor belowmentioned3. Actual sys.dic@52591221 (aType1) commonnoun supportswholecanonical suffixsense; direct1 not inferredfromnumber. German under10 wrong→inclusive10, chūko/muryōfixed.",
+            "match": {
+              "word": "〜以下",
+              "reading": "いか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; complete canonical selected noun/counter",
+              "sense": "Displayed 〜以下/いか preserves original identity; exact canonical 以下/いか rawJMdict1155060 sense1: not exceeding ..., not more than ..., ... and under, ... and below, ... or fewer. Placeholder or hiragana/katakana phonological equivalence explicitly reviewed; no different reading substituted. Displayed〜以下 keepsplaceholder; exactcanonicalJMdict1155060以下/いか nounsuffix1 notexceeding inclusive, not strictbelowstandard2 nor belowmentioned3. Actual sys.dic@52591221 (aType1) commonnoun supportswholecanonical suffixsense; direct1 not inferredfromnumber. German under10 wrong→inclusive10, chūko/muryōfixed."
+            }
+          }
+        ]
+      },
+      "1114": {
+        "romaji": "chōmin",
+        "notes": "町民 sind die Bewohnerinnen und Bewohner einer Gemeinde oder Kleinstadt. 町民が nennt sie als handelnde Gruppe, 町民だけ betont eine Regel, die nur für diese Gruppe gilt. 町民 ist keine Staatsangehörigkeit. Für Bewohner einer als 市 bezeichneten Stadt verwendet man 市民; im Eintrag wird die Gemeinde mit 町 bezeichnet.",
+        "examples": [
+          {
+            "japanese": "町民は毎年みんなで花見に行く。",
+            "romaji": "Chōmin wa maitoshi minna de hanami ni iku.",
+            "german": "Die Stadtbewohner gehen jedes Jahr zusammen Kirschblüten anschauen."
+          },
+          {
+            "japanese": "町民がお祭りに参加します。",
+            "romaji": "Chōmin ga omatsuri ni sanka shimasu.",
+            "german": "Die Stadtbewohner nehmen am Fest teil."
+          },
+          {
+            "japanese": "町民だけが、この施設を使えます。",
+            "romaji": "Chōmin dake ga, kono shisetsu o tsukaemasu.",
+            "german": "Nur die Einwohner der Gemeinde können diese Einrichtung nutzen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170321305",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@170321305: 町民/チョウミン; lemma町民; 名詞/普通名詞/一般/*; *; *; aType0. 1428820 townresident1 exactsys.dic@170321305 (aType0). Originalcommunityactivitypair expanded by residenteligibilitycondition onlydake. Chōmin macron and townmunicipalityvs市 precision checked.",
+            "match": {
+              "word": "町民",
+              "reading": "ちょうみん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 町民/ちょうみん, rawJMdict1428820, senses1: townsman, townswoman, resident of a town, townspeople, townsfolk. Spelling/reading/restrictions inspected. 1428820 townresident1 exactsys.dic@170321305 (aType0). Originalcommunityactivitypair expanded by residenteligibilitycondition onlydake. Chōmin macron and townmunicipalityvs市 precision checked."
+            }
+          }
+        ]
+      },
+      "1115": {
+        "romaji": "raishū",
+        "notes": "来週 ist die Woche nach der aktuellen Woche. Das Wort kann direkt den Zeitpunkt angeben oder mit の einen Plan näher bestimmen: 来週の予定. 来週です antwortet auf die Frage, wann etwas stattfindet. Für einen Termin genau eine Woche später ist 一週間後 genauer; das ist nicht immer derselbe Termin wie „nächste Woche“.",
+        "examples": [
+          {
+            "japanese": "次のクラスは来週です。",
+            "romaji": "Tsugi no kurasu wa raishū desu.",
+            "german": "Der nächste Kurs ist nächste Woche."
+          },
+          {
+            "japanese": "来週の予定を教えてください。",
+            "romaji": "Raishū no yotei o oshiete kudasai.",
+            "german": "Bitte sagen Sie mir die Pläne für nächste Woche."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277374569",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@277374569: 来週/ライシュウ; lemma来週; 名詞/普通名詞/副詞可能/*; *; *; aType0. 1548010 nextweek noun/adverb1 actualsys.dic@277374569 (aType0). Eventtimepredicate vs requestforplans differ; calendarweek distinction fromoneweeklater accurate, raishū corrected.",
+            "match": {
+              "word": "来週",
+              "reading": "らいしゅう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Exact 来週/らいしゅう, rawJMdict1548010, senses1: next week. Spelling/reading/restrictions inspected. 1548010 nextweek noun/adverb1 actualsys.dic@277374569 (aType0). Eventtimepredicate vs requestforplans differ; calendarweek distinction fromoneweeklater accurate, raishū corrected."
+            }
+          }
+        ]
+      },
+      "1116": {
+        "meaning": "von nun an; seitdem",
+        "notes": "以後 bezeichnet die Zeit ab einem Bezugspunkt. Ohne einen früheren Zeitpunkt heißt es oft „von nun an“, etwa bei einer geänderten E-Mail-Adresse oder einem Vorsatz. Nach einer te-Form kann es „seitdem“ heißen: 卒業して以後 blickt auf die Zeit nach dem Abschluss zurück. Das Wort klingt sachlicher als これから und kann als Zeitangabe direkt vor der Handlung stehen.",
+        "examples": [
+          {
+            "japanese": "以後は、このアドレスにメールして下さい。",
+            "romaji": "Igo wa, kono adoresu ni mēru shite kudasai.",
+            "german": "Bitte schreiben Sie ab jetzt an diese Adresse."
+          },
+          {
+            "japanese": "以後気をつけます。",
+            "romaji": "Igo ki o tsukemasu.",
+            "german": "Von nun an werde ich aufpassen."
+          },
+          {
+            "japanese": "卒業して以後、先生に会っていません。",
+            "romaji": "Sotsugyō shite igo, sensei ni atte imasen.",
+            "german": "Seit meinem Schulabschluss habe ich den Lehrer nicht mehr gesehen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54298118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@54298118: 以後/イゴ; lemma以後; 名詞/普通名詞/副詞可能/*; *; *; aType1. 1155100 fromnow1/thereaftersince2 espafterteform, actual sys.dic@54298118 (aType1) verified. Futurechange/promise extended by retrospectivegraduationcontact context. Mēru/sotsugyō/Germanzeitgrenze checked.",
+            "match": {
+              "word": "以後",
+              "reading": "いご",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Exact 以後/いご, rawJMdict1155100, senses1,2: after this, from now on, hereafter; thereafter, since (then), after. Spelling/reading/restrictions inspected. 1155100 fromnow1/thereaftersince2 espafterteform, actual sys.dic@54298118 (aType1) verified. Futurechange/promise extended by retrospectivegraduationcontact context. Mēru/sotsugyō/Germanzeitgrenze checked."
+            }
+          }
+        ]
+      },
+      "1117": {
+        "notes": "一斤 ist bei Brot eine Mengenangabe für einen Laib. Die Zahl der Scheiben wird getrennt genannt: 6枚切り heißt, dass diese Brotmenge in sechs Scheiben geschnitten ist, 8枚切り entsprechend in acht. Beim Bestellen kann die Menge direkt nach dem Objekt stehen: 食パンを一斤ください. Hier wird die Brotmenge geübt, nicht die ältere Gewichtseinheit 斤.",
+        "examples": [
+          {
+            "japanese": "一斤のパンは6枚切りか8枚切りで売られていることが多い。",
+            "romaji": "Ikkin no pan wa rokumaigiri ka hachimaigiri de urarete iru koto ga ōi.",
+            "german": "Ein Laib Brot wird oft in sechs oder acht Scheiben geschnitten verkauft."
+          },
+          {
+            "japanese": "食パンを一斤ください。",
+            "romaji": "Shokupan o ikkin kudasai.",
+            "german": "Einen Laib Brot, bitte."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1118": {
+        "meaning": "zwei Laibe Brot",
+        "notes": "二斤 nennt eine Brotmenge von zwei Laiben und wird にきん gelesen. 斤 ist dabei ein Zählwort für Brot, keine Angabe der Scheibenzahl. 二斤で五百円 nennt den Preis für die gesamte Menge von zwei Laiben. Beim Bestellen oder Backen kann die Mengenangabe ohne weitere Partikel nach dem Objekt stehen: パンを二斤注文する.",
+        "examples": [
+          {
+            "japanese": "このパンは、二斤で五百円です。",
+            "romaji": "Kono pan wa, nikin de gohyaku en desu.",
+            "german": "Dieses Brot kostet 500 Yen für zwei Laibe."
+          },
+          {
+            "japanese": "パンを二斤注文しました。",
+            "romaji": "Pan o nikin chūmon shimashita.",
+            "german": "Ich habe zwei Laibe Brot bestellt."
+          },
+          {
+            "japanese": "パンを二斤焼いて、隣の人に一斤あげました。",
+            "romaji": "Pan o nikin yaite, tonari no hito ni ikkin agemashita.",
+            "german": "Ich habe zwei Laibe Brot gebacken und einen davon dem Nachbarn gegeben."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1119": {
+        "notes": "火星 ist der Planet Mars. Mit 火星には fragt man nach etwas auf diesem Planeten, etwa nach Wasser. 星 kann im allgemeinen Sprachgebrauch auch einen Planeten meinen; astronomisch genauer ist 惑星. Der Name ist ein Nomen. Das の in 火星の写真 würde ein Bild dieses Planeten bezeichnen.",
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93896590",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@93896590: 火星/カセイ; lemma火星; 名詞/固有名詞/一般/*; *; *; aType0. 1194060 Marsplanet1 actualpropersys.dic@93896590 (aType0) source namesplanetfits, legitimatecelestialproper noun nothomophone. Wateravailabilityquestion doesnotassertcurrentdiscovery; appearanceclassification distinct andcommonknownredplanet.",
+            "match": {
+              "word": "火星",
+              "reading": "かせい",
+              "grammaticalForm": "名詞/固有名詞/一般/*; *; *",
+              "sense": "Exact 火星/かせい, rawJMdict1194060, senses1: Mars (planet). Spelling/reading/restrictions inspected. 1194060 Marsplanet1 actualpropersys.dic@93896590 (aType0) source namesplanetfits, legitimatecelestialproper noun nothomophone. Wateravailabilityquestion doesnotassertcurrentdiscovery; appearanceclassification distinct andcommonknownredplanet."
+            }
+          }
+        ]
+      },
+      "1120": {
+        "notes": "木星 ist Jupiter, ein Planet unseres Sonnensystems. 木星を見たことがありますか fragt nach einer bisherigen Beobachtung. Bei „der größte Planet“ muss der Bezugsrahmen klar sein: 太陽系で一番大きい惑星 grenzt die Aussage auf das Sonnensystem ein. 木星 ist ein Name; eine allgemeine Planetengruppe heißt 惑星.",
+        "examples": [
+          {
+            "japanese": "木星を見たことありますか？",
+            "romaji": "Mokusei o mita koto arimasu ka?",
+            "german": "Haben Sie schon einmal Jupiter gesehen?"
+          },
+          {
+            "japanese": "木星は、太陽系で一番大きい惑星です。",
+            "romaji": "Mokusei wa, taiyōkei de ichiban ōkii wakusei desu.",
+            "german": "Jupiter ist der größte Planet unseres Sonnensystems."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263384555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@263384555: 木星/モクセイ; lemma木星; 名詞/固有名詞/一般/*; *; *; aType0. 1534680 Jupiterplanet1 actualcelestialpropersys.dic@263384555 (aType0). Observationexperience versus sizecomparison; explicit太陽系 scope preventsuniversalfalseclaim, NASA Jupiterfacts corroborateslargestsolarplanet. Taiyōkei/ōkii checked.",
+            "match": {
+              "word": "木星",
+              "reading": "もくせい",
+              "grammaticalForm": "名詞/固有名詞/一般/*; *; *",
+              "sense": "Exact 木星/もくせい, rawJMdict1534680, senses1: Jupiter (planet). Spelling/reading/restrictions inspected. 1534680 Jupiterplanet1 actualcelestialpropersys.dic@263384555 (aType0). Observationexperience versus sizecomparison; explicit太陽系 scope preventsuniversalfalseclaim, NASA Jupiterfacts corroborateslargestsolarplanet. Taiyōkei/ōkii checked."
+            }
+          }
+        ]
+      },
+      "1121": {
+        "notes": "人里 bezeichnet einen von Menschen bewohnten Ort, besonders im Gegensatz zu Bergen, Wald oder Wildnis. 人里に着く beschreibt das Erreichen einer Siedlung. 人里離れた場所 ist ein Ort abseits menschlicher Besiedlung; 離れた verbindet sich hier direkt mit 場所. Das Wort klingt beschreibender als eine konkrete Gemeindeangabe wie 町.",
+        "examples": [
+          {
+            "japanese": "山を下りて、やっと人里に着きました。",
+            "romaji": "Yama o orite, yatto hitozato ni tsukimashita.",
+            "german": "Nach dem Abstieg vom Berg habe ich endlich eine Siedlung erreicht."
+          },
+          {
+            "japanese": "人里離れた場所です。",
+            "romaji": "Hitozato hanareta basho desu.",
+            "german": "Es ist ein Ort abseits der Siedlungen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226664808",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@226664808: 人里/ヒトザト; lemma人里; 名詞/普通名詞/一般/*; *; *; aType0. 1369480 humanhabitation1 actualsys.dic@226664808 (aType0). Redundanttownnearsettlementexample replaced with genuinearrival contrastingisolated-locationattribute. Yama o orite path/objectstandard, destinationに and attributivehanareta inspected.",
+            "match": {
+              "word": "人里",
+              "reading": "ひとざと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 人里/ひとざと, rawJMdict1369480, senses1: village, human habitation, human settlement. Spelling/reading/restrictions inspected. 1369480 humanhabitation1 actualsys.dic@226664808 (aType0). Redundanttownnearsettlementexample replaced with genuinearrival contrastingisolated-locationattribute. Yama o orite path/objectstandard, destinationに and attributivehanareta inspected."
+            }
+          }
+        ]
+      },
+      "1122": {
+        "notes": "〜分 nennt Minuten. Nach Zahlen wechselt die Aussprache: 二分 heißt にふん, 十分 wird hier じゅっぷん gelesen. Bei einer Dauer fragt man, wie viele Minuten eine Handlung braucht; あと十分で nennt dagegen die verbleibende Zeit bis zum Eintreffen. 十分 kann mit anderer Lesung auch じゅうぶん „ausreichend“ bedeuten; im Beispiel zeigt die Zeitangabe die Minutenlesung.",
+        "examples": [
+          {
+            "japanese": "大体、二分くらいかかります。",
+            "romaji": "Daitai, nifun kurai kakarimasu.",
+            "german": "Es dauert ungefähr zwei Minuten."
+          },
+          {
+            "japanese": "あと十分で着きます。",
+            "romaji": "Ato juppun de tsukimasu.",
+            "german": "In zehn Minuten bin ich da."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238251632",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@238251632: actual wholecanonical 分/フン, 名詞/普通名詞/助数詞可能/*, aType1. Same selected meaning/reading; unspoken〜 placeholder preserved. Canonical bare-form accent, not inferredfromprecedingnumber. Displayed〜分 originalplaceholder; exactcanonical rawJMdict1502840分/ふん minute1 notweight2. Actual238251632 counter-capableフン1 supportsbarecanonical, no transplantfromブン/プン/ブ or inflected分かる/分ける rows; numberschangephonology noted, wholeexampleaccentsnotinferred.",
+            "match": {
+              "word": "〜分",
+              "reading": "ふん",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; complete canonical selected noun/counter",
+              "sense": "Displayed 〜分/ふん preserves original identity; exact canonical 分/ふん rawJMdict1502840 sense1: minute (unit of time). Placeholder or hiragana/katakana phonological equivalence explicitly reviewed; no different reading substituted. Displayed〜分 originalplaceholder; exactcanonical rawJMdict1502840分/ふん minute1 notweight2. Actual238251632 counter-capableフン1 supportsbarecanonical, no transplantfromブン/プン/ブ or inflected分かる/分ける rows; numberschangephonology noted, wholeexampleaccentsnotinferred."
+            }
+          }
+        ]
+      },
+      "1123": {
+        "notes": "内ポケット ist eine Tasche auf der Innenseite eines Kleidungsstücks. Das Wort verbindet 内 mit dem Lehnwort ポケット und wird うちポケット gesprochen. 内ポケットがない beschreibt eine Eigenschaft einer Jacke; 内ポケットに財布を入れる nennt den Ort, in den man etwas hineinlegt. Es geht um die Tasche im Kleidungsstück, nicht um eine separate Handtasche.",
+        "examples": [
+          {
+            "japanese": "このスーツのジャケットには内ポケットがありません。",
+            "romaji": "Kono sūtsu no jaketto ni wa uchipoketto ga arimasen.",
+            "german": "Diese Anzugjacke hat keine Innentasche."
+          },
+          {
+            "japanese": "内ポケットに財布を入れています。",
+            "romaji": "Uchipoketto ni saifu o irete imasu.",
+            "german": "Ich habe die Brieftasche in der Innentasche."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1124": {
+        "romaji": "naporeon sansei",
+        "notes": "ナポレオン三世 ist der Personenname Napoleon III. Die Endung 三世 wird さんせい gelesen und unterscheidet ihn von anderen Trägern desselben Namens. について nennt das Thema einer Unterrichtseinheit, は stellt die Person für eine Beschreibung als Thema vor. Der Eintrag übt diesen Namen; 三世 wird hier nicht als „drei Welten“ übersetzt.",
+        "examples": [
+          {
+            "japanese": "今日は、ナポレオン三世について学びましょう。",
+            "romaji": "Kyō wa, Naporeon sansei ni tsuite manabimashō.",
+            "german": "Heute lernen wir über Napoleon den Dritten."
+          },
+          {
+            "japanese": "ナポレオン三世は有名な皇帝でした。",
+            "romaji": "Naporeon sansei wa yūmei na kōtei deshita.",
+            "german": "Napoleon III. war ein berühmter Kaiser."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1125": {
+        "meaning": "dieser (bei dir); der erwähnte",
+        "notes": "その steht unmittelbar vor einem Nomen. Es verweist oft auf etwas bei der angesprochenen Person oder auf etwas bereits Erwähntes: その本, その話. Es kann nicht allein ein Ding ersetzen; dafür gibt es それ. Die demonstrative Verwendung ist von dem zögernden Füllwort その… zu unterscheiden. Im Gespräch hilft der Zusammenhang zu erkennen, worauf gezeigt oder verwiesen wird.",
+        "examples": [
+          {
+            "japanese": "その人、有名人だよ。",
+            "romaji": "Sono hito, yūmeijin da yo.",
+            "german": "Die Person ist eine Berühmtheit."
+          },
+          {
+            "japanese": "その本を見せてください。",
+            "romaji": "Sono hon o misete kudasai.",
+            "german": "Bitte zeigen Sie mir dieses Buch."
+          },
+          {
+            "japanese": "その話は、昨日も聞きました。",
+            "romaji": "Sono hanashi wa, kinō mo kikimashita.",
+            "german": "Diese Geschichte habe ich gestern auch schon gehört."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@156488632",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@156488632: その/ソノ; lemma其の; 連体詞/*/*/*; *; *; aType0. 1006830 prenoun demonstrative1 notpartnumber2/filler3 nor garden1176240. Actual156488632連体詞lemma其の0 selected; filler156486021 and surname156487869 excluded despite0. Germanrelationalmeaningclarified, yūmeijin and discourseanaphorcontext reviewed.",
+            "match": {
+              "word": "その",
+              "reading": "その",
+              "grammaticalForm": "連体詞/*/*/*; *; *",
+              "sense": "Exact その/その, rawJMdict1006830, senses1: that, the. Spelling/reading/restrictions inspected. 1006830 prenoun demonstrative1 notpartnumber2/filler3 nor garden1176240. Actual156488632連体詞lemma其の0 selected; filler156486021 and surname156487869 excluded despite0. Germanrelationalmeaningclarified, yūmeijin and discourseanaphorcontext reviewed."
+            }
+          }
+        ]
+      },
+      "1126": {
+        "notes": "あの steht vor einem Nomen und verweist auf etwas, das von beiden Gesprächspartnern entfernt ist, etwa あの山. Es kann auch eine beiden bekannte Person meinen, auf die man hinweist. Allein als Stellvertreter für ein Ding verwendet man あれ. Das Füllwort あの… am Gesprächsbeginn ist eine andere Verwendung; in den Beispielen gehört あの jeweils zu 人 oder 山.",
+        "examples": [
+          {
+            "japanese": "あの人、どこかで見たことある気がする。",
+            "romaji": "Ano hito, dokoka de mita koto aru ki ga suru.",
+            "german": "Ich glaube, ich habe jene Person dort irgendwo schon einmal gesehen."
+          },
+          {
+            "japanese": "あの山は富士山です。",
+            "romaji": "Ano yama wa Fujisan desu.",
+            "german": "Jener Berg ist der Fuji."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@45242846",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@45242846: あの/アノ; lemma彼の; 連体詞/*/*/*; *; *; aType0. 1000420 demonstrativeprenoun1 notfillervariant1000430. Actual45242846連体詞lemma彼の0 selected; filler45239734 excluded. Personrecognition versus mountainidentification realroles, dokoka connectedandGermanjenereference accurate.",
+            "match": {
+              "word": "あの",
+              "reading": "あの",
+              "grammaticalForm": "連体詞/*/*/*; *; *",
+              "sense": "Exact あの/あの, rawJMdict1000420, senses1: that, those, the. Spelling/reading/restrictions inspected. 1000420 demonstrativeprenoun1 notfillervariant1000430. Actual45242846連体詞lemma彼の0 selected; filler45239734 excluded. Personrecognition versus mountainidentification realroles, dokoka connectedandGermanjenereference accurate."
+            }
+          }
+        ]
+      },
+      "1127": {
+        "notes": "海水魚 sind Fische, die im Meer beziehungsweise im Salzwasser leben. Das Gegenwort ist 淡水魚 für Süßwasserfische. 海水魚です ordnet eine Fischart dieser Gruppe zu; 水族館で海水魚を見る erzählt von einer Beobachtung im Aquarium. Die Endung 魚 wird hier ぎょ gelesen und gehört zum zusammengesetzten Tiergruppenwort.",
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1128": {
+        "meaning": "nördliches Land; nördliche Region",
+        "notes": "北国 kann ein nördliches Land oder eine nördliche Region bezeichnen. Im japanischen Zusammenhang ist oft eine Gegend im Norden gemeint; es ist kein fester Staatenname. 北国のくらし fragt nach dem Leben dort, 北国の冬 beschreibt eine Jahreszeit in dieser Gegend. Die Lesung きたぐに enthält ぐに als stimmhafte Form von 国.",
+        "examples": [
+          {
+            "japanese": "北国のくらしはどうですか？",
+            "romaji": "Kitaguni no kurashi wa dō desu ka?",
+            "german": "Wie ist das Leben in der nördlichen Region?"
+          },
+          {
+            "japanese": "北国の冬は寒いです。",
+            "romaji": "Kitaguni no fuyu wa samui desu.",
+            "german": "Der Winter im Norden ist kalt."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104386122",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "sys.dic@104386122: 北国/キタグニ; lemma北国; 名詞/普通名詞/一般/*; *; *; aType2. 1584170 northerncountry1/northernregions2 exact104386122a2; old0corrected. Country/regioncontextscope clear, question about life in a northern region versus winterclimate statement differ, Germanumlauts/dōfixed.",
+            "match": {
+              "word": "北国",
+              "reading": "きたぐに",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 北国/きたぐに, rawJMdict1584170, senses1,2: northern country; northern provinces, northern regions, northland. Spelling/reading/restrictions inspected. 1584170 northerncountry1/northernregions2 exact104386122a2; old0corrected. Country/regioncontextscope clear, question about life in a northern region versus winterclimate statement differ, Germanumlauts/dōfixed."
+            }
+          }
+        ]
+      },
+      "1129": {
+        "meaning": "Sonnenlicht aus Westen; Nachmittagssonne",
+        "notes": "西日 ist das von Westen einfallende Sonnenlicht, besonders am Nachmittag oder gegen Abend. 西日がまぶしい beschreibt, dass dieses Licht blendet. Es kann beim Fernsehen stören oder einen Grund geben, Vorhänge zu schließen. Das Wort wird にしび gelesen; es bezeichnet nicht nur einen Sonnenuntergang am Horizont.",
+        "examples": [
+          {
+            "japanese": "西日がまぶしくて、テレビが見えません。",
+            "romaji": "Nishibi ga mabushikute, terebi ga miemasen.",
+            "german": "Die Abendsonne ist so hell, dass ich den Fernseher nicht sehen kann."
+          },
+          {
+            "japanese": "西日が眩しいです。",
+            "romaji": "Nishibi ga mabushii desu.",
+            "german": "Die Abendsonne blendet."
+          },
+          {
+            "japanese": "西日を避けるため、カーテンを閉めました。",
+            "romaji": "Nishibi o sakeru tame, kāten o shimemashita.",
+            "german": "Um das Sonnenlicht aus dem Westen abzuhalten, habe ich die Vorhänge geschlossen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@201682607",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@201682607: 西日/ニシビ; lemma西日; 名詞/普通名詞/一般/*; *; *; aType0. 1381010 westering/afternoonsun1 actualsys.dic@201682607 (aType0), nishinichiwrongromanizationfixednishibi. Glarepair expanded by preventivecurtainaction, kāten macron. Headmeaningclarified beyond onlyevening.",
+            "match": {
+              "word": "西日",
+              "reading": "にしび",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 西日/にしび, rawJMdict1381010, senses1: westering sun, setting sun, afternoon sun. Spelling/reading/restrictions inspected. 1381010 westering/afternoonsun1 actualsys.dic@201682607 (aType0), nishinichiwrongromanizationfixednishibi. Glarepair expanded by preventivecurtainaction, kāten macron. Headmeaningclarified beyond onlyevening."
+            }
+          }
+        ]
+      },
+      "1130": {
+        "romaji": "higashi ajia",
+        "notes": "東アジア bezeichnet die geografische Region Ostasien. Die Lesung ist hier ひがしアジア: 東 wird als ひがし gelesen, アジア ist ein Lehnwort. 東アジアには nennt etwas innerhalb der Region; 東アジアの文化 stellt einen Bezug zu dieser Region her. Es ist ein Regionenname und keine Nationalität einer einzelnen Person.",
+        "examples": [
+          {
+            "japanese": "東アジアにはたくさんの山があります。",
+            "romaji": "Higashi Ajia ni wa takusan no yama ga arimasu.",
+            "german": "In Ostasien gibt es viele Berge."
+          },
+          {
+            "japanese": "東アジアの文化に興味があります。",
+            "romaji": "Higashi Ajia no bunka ni kyōmi ga arimasu.",
+            "german": "Ich interessiere mich für die Kultur Ostasiens."
+          }
+        ],
+        "pitch": 4,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "OJAD, Online Japanese Accent Dictionary, University of Tokyo",
+            "version": "Actual primary dictionaryform row inspected2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%9D%B1%E3%82%A2%E3%82%B8%E3%82%A2#word_10006",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory; OJAD",
+            "patterns": [
+              4
+            ],
+            "finding": "Actualprimary OJAD10006 complete東アジア/ひがしあじあ sixmora dictionarycell, accent_top fourthあ(reverse mola_-3), whole4. Full head inspected, not a prefix or component inference. RawJMdict1447460 exactspelling東アジア canonicalmixedreadingひがしアジア noun1 matches preservedhiraganaひがしあじあ phonologically. ActualOJAD10006completeひがしあじあ sixmora dictionarycell accent_top fourthあ(reverse3) giveswhole4, old0corrected. Geographicdescription versus culturalinterest distinct; actualcellnotcomponentinference.",
+            "match": {
+              "word": "東アジア",
+              "reading": "ひがしあじあ",
+              "grammaticalForm": "Complete geographical noun dictionaryform",
+              "sense": "Displayed 東アジア/ひがしあじあ preserves original identity; exact canonical 東アジア/ひがしアジア rawJMdict1447460 sense1: East Asia. Placeholder or hiragana/katakana phonological equivalence explicitly reviewed; no different reading substituted. RawJMdict1447460 exactspelling東アジア canonicalmixedreadingひがしアジア noun1 matches preservedhiraganaひがしあじあ phonologically. ActualOJAD10006completeひがしあじあ sixmora dictionarycell accent_top fourthあ(reverse3) giveswhole4, old0corrected. Geographicdescription versus culturalinterest distinct; actualcellnotcomponentinference."
+            }
+          }
+        ]
+      },
+      "1131": {
+        "meaning": "zu Ende gehen; dämmern",
+        "notes": "明ける ist in diesen Beispielen ein intransitives Ichidan-Verb. 夜が明ける heißt, dass die Nacht endet und es hell wird. Bei einem längeren Zeitraum wie ラマダーンが明ける bedeutet es „zu Ende gehen“. Das Subjekt steht mit が. Die Schreibweise 明ける hebt diesen zeitlichen Wechsel hervor; 開ける beschreibt häufig das Öffnen eines Gegenstands.",
+        "examples": [
+          {
+            "japanese": "もうすぐラマダーンが明ける。",
+            "romaji": "Mō sugu ramadān ga akeru.",
+            "german": "Bald ist der Ramadan vorbei."
+          },
+          {
+            "japanese": "夜が明けました。",
+            "romaji": "Yoru ga akemashita.",
+            "german": "Die Nacht ist zu Ende gegangen."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42203534",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@42203534: 明ける/アケル; lemma明ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType0. 1202450 intransitiveIchidan6dawn/7periodend esp明ける compatible selected; transitiveempty3/4/5開ける/空ける scopes excluded. Actual42203534 terminallemma明ける0, existingIchidanconjugation retained. Temporalperiod vs dawn distinct, mō/ramadān fixed.",
+            "match": {
+              "word": "明ける",
+              "reading": "あける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Exact 明ける/あける, rawJMdict1202450, senses6,7: to dawn, to grow light; to end (of a period, season). Spelling/reading/restrictions inspected. 1202450 intransitiveIchidan6dawn/7periodend esp明ける compatible selected; transitiveempty3/4/5開ける/空ける scopes excluded. Actual42203534 terminallemma明ける0, existingIchidanconjugation retained. Temporalperiod vs dawn distinct, mō/ramadān fixed."
+            }
+          }
+        ]
+      },
+      "1132": {
+        "notes": "円い heißt hier „rund“, besonders mit einer kreisförmigen, flachen Form. Die gleich gelesene Schreibweise 丸い wird oft für kugelige Dinge verwendet. Als i-Adjektiv steht 円い unmittelbar vor dem Nomen: 円い紙. Vor einer Handlung kann 円く die Art beschreiben; die Vergangenheit lautet 円かった. Die Beispiele betrachten Formen und das Bearbeiten eines runden Stücks Papier.",
+        "examples": [
+          {
+            "japanese": "円いフリスビーを子犬にプレゼントした。",
+            "romaji": "Marui furisubī o koinu ni purezento shita.",
+            "german": "Ich habe einem Welpen eine runde Frisbee geschenkt."
+          },
+          {
+            "japanese": "この石は円い形です。",
+            "romaji": "Kono ishi wa marui katachi desu.",
+            "german": "Dieser Stein hat eine runde Form."
+          },
+          {
+            "japanese": "円い紙を半分に折りました。",
+            "romaji": "Marui kami o hanbun ni orimashita.",
+            "german": "Ich habe das runde Blatt Papier in der Mitte gefaltet."
+          }
+        ],
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252498998",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "sys.dic@252498998: 円い/マルイ; lemma丸い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType0,2. 1604230 round/circular1 spellingnote円いusuallydisc/丸いball preference nothardrestriction. Exact252498998 adjective terminallemma丸い0,2 bothretained. Shape/giftpair expanded by physicalpaperfoldcontext, furisubī corrected.",
+            "match": {
+              "word": "円い",
+              "reading": "まるい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 円い/まるい, rawJMdict1604230, senses1: round, circular, spherical. Spelling/reading/restrictions inspected. 1604230 round/circular1 spellingnote円いusuallydisc/丸いball preference nothardrestriction. Exact252498998 adjective terminallemma丸い0,2 bothretained. Shape/giftpair expanded by physicalpaperfoldcontext, furisubī corrected."
+            }
+          }
+        ]
+      },
+      "1133": {
+        "notes": "見分ける heißt, Dinge oder Personen anhand erkennbarer Merkmale auseinanderzuhalten. Das Unterscheidungsobjekt steht mit を, das Merkmal oft mit で: 目の色で見分ける. 見分けるのは macht die Handlung zum Thema. Das transitive Ichidan-Verb bildet 見分けます und 見分けない; die Schreibweise ist nicht mit 分ける im Sinn des Aufteilens gleichzusetzen.",
+        "examples": [
+          {
+            "japanese": "兄弟を目の色で見分ける。",
+            "romaji": "Kyōdai o me no iro de miwakeru.",
+            "german": "Ich unterscheide die Brüder an ihrer Augenfarbe."
+          },
+          {
+            "japanese": "双子を見分けるのは難しいです。",
+            "romaji": "Futago o miwakeru no wa muzukashii desu.",
+            "german": "Zwillinge zu unterscheiden ist schwierig."
+          },
+          {
+            "japanese": "この機械は、赤い玉と青い玉を見分けます。",
+            "romaji": "Kono kikai wa, akai tama to aoi tama o miwakemasu.",
+            "german": "Diese Maschine unterscheidet rote und blaue Kugeln."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257667277",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "sys.dic@257667277: 見分ける/ミワケル; lemma見分ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType0,3. RawJMdict1260020 transitive Ichidan1; actual257667277 terminal0,3 both retained. Human recognition pair expanded with mechanical visual discrimination; Kyōdai/German Brüder corrected. Existing Ichidan conjugation consistent.",
+            "match": {
+              "word": "見分ける",
+              "reading": "みわける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Exact 見分ける/みわける, rawJMdict1260020, senses1: to distinguish, to recognize, to recognise, to tell apart, to differentiate. Spelling/reading/restrictions inspected. RawJMdict1260020 transitive Ichidan1; actual257667277 terminal0,3 both retained. Human recognition pair expanded with mechanical visual discrimination; Kyōdai/German Brüder corrected. Existing Ichidan conjugation consistent."
+            }
+          }
+        ]
+      },
+      "1134": {
+        "notes": "次回 bezeichnet die nächste Ausgabe, Sitzung oder Gelegenheit einer wiederholten Sache. Es klingt sachlicher als 今度 und legt keinen bestimmten Tag fest. 次回は、いつですか fragt nach dem Termin; 次回も schließt die nächste Gelegenheit an die bisherige an. Mit の kann es ein Nomen bestimmen, etwa 次回の授業.",
+        "examples": [
+          {
+            "japanese": "次回は、いつですか？",
+            "romaji": "Jikai wa, itsu desu ka?",
+            "german": "Wann ist das nächste Mal?"
+          },
+          {
+            "japanese": "次回も頑張りましょう。",
+            "romaji": "Jikai mo ganbarimashō.",
+            "german": "Geben wir auch nächstes Mal unser Bestes."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143496371",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "sys.dic@143496371: 次回/ジカイ; lemma次回; 名詞/普通名詞/副詞可能/*; *; *; aType1,0. 1316470 next occasion noun/adverb1 actual143496371 aType1,0 both retained. Question about scheduling versus encouragement, itsu desu separation and ganbarimashō corrected.",
+            "match": {
+              "word": "次回",
+              "reading": "じかい",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Exact 次回/じかい, rawJMdict1316470, senses1: next time (occasion). Spelling/reading/restrictions inspected. 1316470 next occasion noun/adverb1 actual143496371 aType1,0 both retained. Question about scheduling versus encouragement, itsu desu separation and ganbarimashō corrected."
+            }
+          }
+        ]
+      },
+      "1135": {
+        "romaji": "chūtō",
+        "type": "Nomen",
+        "notes": "中東 ist der Regionsname „Naher Osten“. Mit の verbindet er sich mit Themen wie 中東のニュース; に nennt bei 行く das Reiseziel. Das Wort ist ein Nomen, kein selbstständig verwendbares Adjektiv. Die Grenzen der so bezeichneten Region können je nach Zusammenhang unterschiedlich gezogen werden; der Eintrag nennt deshalb keine feste Länderliste.",
+        "examples": [
+          {
+            "japanese": "さっきテレビで中東のニュースを見ました。",
+            "romaji": "Sakki terebi de Chūtō no nyūsu o mimashita.",
+            "german": "Ich habe gerade Nachrichten über den Nahen Osten im Fernsehen gesehen."
+          },
+          {
+            "japanese": "中東に行ったことがありますか。",
+            "romaji": "Chūtō ni itta koto ga arimasu ka.",
+            "german": "Waren Sie schon einmal im Nahen Osten?"
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169924370",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@169924370: 中東/チュウトウ; lemmaチュウトウ; 名詞/固有名詞/地名/一般; *; *; aType0. 1425080 geographical noun1 exact169924370 placeproper0 legitimate geography, not person homograph. Original adjective corrected Nomen, chūtō/nyūsu fixed; news topic vs travel experience distinct.",
+            "match": {
+              "word": "中東",
+              "reading": "ちゅうとう",
+              "grammaticalForm": "名詞/固有名詞/地名/一般; *; *",
+              "sense": "Exact 中東/ちゅうとう, rawJMdict1425080, senses1: Middle East. Spelling/reading/restrictions inspected. 1425080 geographical noun1 exact169924370 placeproper0 legitimate geography, not person homograph. Original adjective corrected Nomen, chūtō/nyūsu fixed; news topic vs travel experience distinct."
+            }
+          }
+        ]
+      },
+      "1136": {
+        "notes": "辺り bezeichnet hier die nähere Umgebung, ohne eine genaue Grenze zu ziehen. この辺り ist „hier in der Gegend“; 辺りが明るくなる beschreibt eine Veränderung in der Umgebung. Das Wort kann auch bei ungefähren Angaben auftreten, die Beispiele üben jedoch seine räumliche Bedeutung. Für eine genau festgelegte Adresse nennt man den Ort konkreter.",
+        "examples": [
+          {
+            "japanese": "日が出て、辺りが明るくなってきました。",
+            "romaji": "Hi ga dete, atari ga akaruku natte kimashita.",
+            "german": "Die Sonne ist aufgegangen, und in der Umgebung wird es allmählich heller."
+          },
+          {
+            "japanese": "この辺りは静かですね。",
+            "romaji": "Kono atari wa shizuka desu ne.",
+            "german": "Hier in der Gegend ist es ruhig, nicht wahr?"
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44051737",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@44051737: 辺り/アタリ; lemma辺り; 名詞/普通名詞/副詞可能/*; *; *; aType1. 1512080 vicinity1 only, approximate suffix2/example3 not taught. Actual44051737 adverb-capable1 exact. Nattekimashita progression and kono atari German made faithful.",
+            "match": {
+              "word": "辺り",
+              "reading": "あたり",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Exact 辺り/あたり, rawJMdict1512080, senses1: (in the) neighbourhood, neighborhood, vicinity, nearby, surroundings. Spelling/reading/restrictions inspected. 1512080 vicinity1 only, approximate suffix2/example3 not taught. Actual44051737 adverb-capable1 exact. Nattekimashita progression and kono atari German made faithful."
+            }
+          }
+        ]
+      },
+      "1137": {
+        "romaji": "tōru",
+        "notes": "通る bezeichnet hier das Vorbeigehen, Vorbeifahren oder Benutzen eines Wegs. Trotz des intransitiven Verbs markiert を in この道を通る die durchquerte Strecke. Das Ziel folgt mit に: 学校に行く. Das Godan-Verb auf る bildet 通ります, 通って und 通らない; es gehört deshalb nicht zur Ichidan-Gruppe wie 見る.",
+        "examples": [
+          {
+            "japanese": "たくさんの車が通る。",
+            "romaji": "Takusan no kuruma ga tōru.",
+            "german": "Viele Autos fahren vorbei."
+          },
+          {
+            "japanese": "この道を通って学校に行きます。",
+            "romaji": "Kono michi o tōtte gakkō ni ikimasu.",
+            "german": "Ich gehe diesen Weg entlang zur Schule."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184018157",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@184018157: 通る/トオル; lemma通る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType1. 1433030 intransitive Godan1 physical route only selected, later pass-test/logical senses not taught. Exact184018157 terminal1. Routeを not transitive object; tōru/tōtte/gakkō checked, existing Godan conjugation valid.",
+            "match": {
+              "word": "通る",
+              "reading": "とおる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Exact 通る/とおる, rawJMdict1433030, senses1: to go by, to go past, to go along, to travel along, to pass through, to use (a road), to take (a route), to go via, to go by way of. Spelling/reading/restrictions inspected. 1433030 intransitive Godan1 physical route only selected, later pass-test/logical senses not taught. Exact184018157 terminal1. Routeを not transitive object; tōru/tōtte/gakkō checked, existing Godan conjugation valid."
+            }
+          }
+        ]
+      },
+      "1138": {
+        "meaning": "Motorleistung; Pferdestärke (PS)",
+        "notes": "馬力 bezeichnet die Motorleistung, die man in Pferdestärken angeben kann. Zahl plus 馬力 nennt den Leistungswert: 百馬力 sind 100 PS. 馬力がある beschreibt einen leistungsstarken Motor ohne eine genaue Zahl. Die Wörter 高い馬力 oder 馬力がある werden im Deutschen meist natürlicher mit „hohe Leistung“ oder „leistungsstark“ wiedergegeben als mit einer einzelnen „Pferdestärke“.",
+        "examples": [
+          {
+            "japanese": "このエンジンは百馬力です。",
+            "romaji": "Kono enjin wa hyaku bariki desu.",
+            "german": "Dieser Motor hat 100 PS."
+          },
+          {
+            "japanese": "この車は馬力がありますね。",
+            "romaji": "Kono kuruma wa bariki ga arimasu ne.",
+            "german": "Dieses Auto hat viel Leistung, nicht wahr?"
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220818831",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@220818831: 馬力/バリキ; lemma馬力; 名詞/普通名詞/助数詞可能/*; *; *; aType0. 1471870 literal horsepower1 only, vitality2/obsoletecart3 excluded. Actual220818831 counter-capable0. Awkward generalized highhorsepower original replaced with measurable100PS specification, adjective-style German corrected.",
+            "match": {
+              "word": "馬力",
+              "reading": "ばりき",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Exact 馬力/ばりき, rawJMdict1471870, senses1: horsepower, hp. Spelling/reading/restrictions inspected. 1471870 literal horsepower1 only, vitality2/obsoletecart3 excluded. Actual220818831 counter-capable0. Awkward generalized highhorsepower original replaced with measurable100PS specification, adjective-style German corrected."
+            }
+          }
+        ]
+      },
+      "1139": {
+        "romaji": "jūnin",
+        "notes": "住人 ist eine Person, die an einem Ort wohnt. このマンションの住人 ordnet jemanden einem Wohnhaus zu, während 住人がいます die dort lebenden Menschen nennt. Das Wort betrifft den Wohnort, keine Staatsangehörigkeit. アパート bezeichnet in den Beispielen das Wohngebäude; für eine einzelne Wohnung wäre etwa 部屋 genauer.",
+        "examples": [
+          {
+            "japanese": "このアパートには、たくさんの住人がいます。",
+            "romaji": "Kono apāto ni wa, takusan no jūnin ga imasu.",
+            "german": "In diesem Wohnhaus leben viele Menschen."
+          },
+          {
+            "japanese": "このマンションの住人です。",
+            "romaji": "Kono manshon no jūnin desu.",
+            "german": "Ich bin Bewohner dieses Wohnhauses."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144366152",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@144366152: 住人/ジュウニン; lemma住人; 名詞/普通名詞/一般/*; *; *; aType0. 1334110 literal inhabitant1 not colloquial websiteuser2. Actual1443661520 exact. Apāto building vs individualWohnung translation corrected, jūnin macron; population observation versus ownresident identity.",
+            "match": {
+              "word": "住人",
+              "reading": "じゅうにん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 住人/じゅうにん, rawJMdict1334110, senses1: dweller, inhabitant, resident. Spelling/reading/restrictions inspected. 1334110 literal inhabitant1 not colloquial websiteuser2. Actual1443661520 exact. Apāto building vs individualWohnung translation corrected, jūnin macron; population observation versus ownresident identity."
+            }
+          }
+        ]
+      },
+      "1140": {
+        "notes": "医大 ist die Kurzform für eine medizinische Hochschule beziehungsweise Universität. 医大に入る bedeutet hier, dort aufgenommen zu werden und ein Studium zu beginnen; es geht nicht bloß um das Betreten eines Gebäudes. 入るには nennt die Voraussetzung oder Kosten dieser Aufnahme. Mit 入りたい äußert man den eigenen Wunsch, an einer solchen Hochschule zu studieren.",
+        "examples": [
+          {
+            "japanese": "医大に入るにはお金がかかります。",
+            "romaji": "Idai ni hairu ni wa okane ga kakarimasu.",
+            "german": "Die Aufnahme an einer medizinischen Hochschule kostet Geld."
+          },
+          {
+            "japanese": "医大に入りたいです。",
+            "romaji": "Idai ni hairitai desu.",
+            "german": "Ich möchte an einer medizinischen Hochschule studieren."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55892491",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@55892491: 医大/イダイ; lemma医大; 名詞/普通名詞/一般/*; *; *; aType0. 1160030 abbreviated medicalschool1 actual55892491 commonnoun0. Admission-oriented hairu, cost versus aspiration contexts distinct, German unspecifiedschool faithful no definitearticle assumption.",
+            "match": {
+              "word": "医大",
+              "reading": "いだい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 医大/いだい, rawJMdict1160030, senses1: medical university, medical college, medical school. Spelling/reading/restrictions inspected. 1160030 abbreviated medicalschool1 actual55892491 commonnoun0. Admission-oriented hairu, cost versus aspiration contexts distinct, German unspecifiedschool faithful no definitearticle assumption."
+            }
+          }
+        ]
+      },
+      "1141": {
+        "notes": "医学 ist Medizin als Wissenschaft oder Studienfach. 医学を学ぶ und 医学を勉強する beschreiben das Lernen dieses Fachs; の verbindet es etwa mit 発展, der Entwicklung des Fachgebiets. Gemeint sind hier weder ein einzelnes Medikament noch eine ärztliche Behandlung. Für ein Medikament verwendet man 薬, für die Behandlung etwa 治療.",
+        "examples": [
+          {
+            "japanese": "大学では医学を学びます。",
+            "romaji": "Daigaku de wa igaku o manabimasu.",
+            "german": "An der Universität studiere ich Medizin."
+          },
+          {
+            "japanese": "医学を勉強しています。",
+            "romaji": "Igaku o benkyō shite imasu.",
+            "german": "Ich studiere Medizin."
+          },
+          {
+            "japanese": "この本には、医学の歴史が書いてあります。",
+            "romaji": "Kono hon ni wa, igaku no rekishi ga kaite arimasu.",
+            "german": "In diesem Buch steht die Geschichte der Medizin."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@52874746",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@52874746: 医学/イガク; lemma医学; 名詞/普通名詞/一般/*; *; *; aType1. 1159810 medicalscience1 actual52874746 commonnoun1. Redundant study pair expanded by historybook content; not drug/treatment senses. Benkyō corrected and fullGerman checked.",
+            "match": {
+              "word": "医学",
+              "reading": "いがく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 医学/いがく, rawJMdict1159810, senses1: medicine, medical science. Spelling/reading/restrictions inspected. 1159810 medicalscience1 actual52874746 commonnoun1. Redundant study pair expanded by historybook content; not drug/treatment senses. Benkyō corrected and fullGerman checked."
+            }
+          }
+        ]
+      },
+      "1142": {
+        "notes": "君主国 ist ein Staat mit einem Monarchen oder einer Monarchin als Staatsoberhaupt. Das Wort bezeichnet den Staat, nicht die einzelne Herrscherperson. Es sagt allein noch nicht, wie viel politische Macht diese Person besitzt. かつて und だったそうです berichten von einer früheren Staatsform, während 君主国です eine gegenwärtige Einordnung gibt.",
+        "examples": [
+          {
+            "japanese": "この国は、かつて君主国だったそうです。",
+            "romaji": "Kono kuni wa, katsute kunshukoku datta sō desu.",
+            "german": "Dieser Staat soll früher eine Monarchie gewesen sein."
+          },
+          {
+            "japanese": "イギリスは君主国です。",
+            "romaji": "Igirisu wa kunshukoku desu.",
+            "german": "Das Vereinigte Königreich ist eine Monarchie."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1143": {
+        "meaning": "Namenssuffix -kun (oft für Jungen oder junge Männer)",
+        "notes": "〜君 wird くん gelesen und an einen Namen angehängt, etwa 山田君. Häufig spricht man damit Jungen oder jüngere Männer an, die einem vertraut oder gleich- beziehungsweise nachgeordnet sind. Die Form ist keine allgemeine respektvolle Anrede für beliebige Personen; bei Unsicherheit ist さん oft die passendere Wahl. Sie kann sowohl in direkter Anrede als auch beim Sprechen über jemanden vorkommen. Das Zeichen 〜 ist nur der Platzhalter für den Namen.",
+        "examples": [
+          {
+            "japanese": "マイケル君には兄弟がいません。",
+            "romaji": "Maikeru-kun ni wa kyōdai ga imasen.",
+            "german": "Michael hat keine Geschwister."
+          },
+          {
+            "japanese": "山田君、おはようございます。",
+            "romaji": "Yamada-kun, ohayō gozaimasu.",
+            "german": "Guten Morgen, Yamada!"
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "OJAD, Online Japanese Accent Dictionary, University of Tokyo",
+            "version": "Actual primary dictionaryform row inspected2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%90%9B#word_12812",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory; OJAD",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual OJAD12812 complete canonical 君/くん dictionarycell, two morae, accent_top firstく reverse2, pattern1. Original 〜 is unspoken placeholder; canonical standalone suffix accent, not an inferred accent for a whole name. Displayed〜君 originalidentity retained; canonical rawJMdict1247260くん suffix1 maleequal/lowerstatus selected, femaleformal2/archaicDiet3 not taught. Actual116049300クンsuffix aType* no data; differentreadingきみ0/1 andぎみ1 excluded. ActualOJAD12812 canonicalbareくん twomora dictionarycell topfirstく reverse2 gives1, not inferred namedperson compound accent. Kyōdai/ohayō and hyphen suffix checked.",
+            "match": {
+              "word": "〜君",
+              "reading": "くん",
+              "grammaticalForm": "Complete canonical name suffix, original unspoken placeholder retained",
+              "sense": "Displayed 〜君/くん preserves unspoken placeholder; actual canonical 君/くん rawJMdict1247260 suffixsense1: Mr, master, boy. Restriction after the name of a male of equal or lower status. Displayed〜君 originalidentity retained; canonical rawJMdict1247260くん suffix1 maleequal/lowerstatus selected, femaleformal2/archaicDiet3 not taught. Actual116049300クンsuffix aType* no data; differentreadingきみ0/1 andぎみ1 excluded. ActualOJAD12812 canonicalbareくん twomora dictionarycell topfirstく reverse2 gives1, not inferred namedperson compound accent. Kyōdai/ohayō and hyphen suffix checked."
+            }
+          }
+        ]
+      },
+      "1144": {
+        "meaning": "sich auf ... beziehen; im Verhältnis zu ... stehen",
+        "notes": "対する verbindet in diesen Beispielen ein Thema oder einen Vergleichsmaßstab mit einer Aussage. 名詞に対する steht vor einem Nomen: ドルに対する円のレート. 名詞に対して folgt vor dem Prädikat, etwa beim Äußern einer Meinung zu einem Problem. Die te-Form lautet 対して, die höfliche Form 対します. „Gegenüber“ bedeutet hier eine Beziehung oder einen Vergleich, nicht zwingend einen räumlichen Standort.",
+        "examples": [
+          {
+            "japanese": "ドルに対する円のレートは、今いくらですか？",
+            "romaji": "Doru ni taisuru en no rēto wa, ima ikura desu ka?",
+            "german": "Wie hoch ist gerade der Wechselkurs des Yen gegenüber dem Dollar?"
+          },
+          {
+            "japanese": "この問題に対して意見があります。",
+            "romaji": "Kono mondai ni taishite iken ga arimasu.",
+            "german": "Ich habe eine Meinung zu diesem Problem."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158072830",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "sys.dic@158072830: 対する/タイスル; lemma対する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType3. 1610160 special suru2 relation/response and4 comparison selected, spatialface1/client3/confront5 not taught. Actual158072830 terminal3. Broken kon reading今 correctedima; rēto and ni taisuru segmentation checked. Existing special suru overrideたいせよ/nullpotential retained.",
+            "match": {
+              "word": "対する",
+              "reading": "たいする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Exact 対する/たいする, rawJMdict1610160, senses2,4: to be directed toward (the future, etc.), to be in response to, to be related to; to compare with, to contrast with, to be in opposition with, to be opposed to. Spelling/reading/restrictions inspected. 1610160 special suru2 relation/response and4 comparison selected, spatialface1/client3/confront5 not taught. Actual158072830 terminal3. Broken kon reading今 correctedima; rēto and ni taisuru segmentation checked. Existing special suru overrideたいせよ/nullpotential retained."
+            }
+          }
+        ]
+      },
+      "1145": {
+        "notes": "支局 ist eine Zweigstelle, besonders von einer Behörde, Nachrichtenagentur oder Zeitungsredaktion. 本社 bezeichnet dagegen die Zentrale eines Unternehmens. 支局から nennt den Ausgangspunkt einer Rückkehr; 支局で nennt den Arbeitsort. Für eine gewöhnliche Bank- oder Ladenfiliale ist 支店 das verbreitetere Wort.",
+        "examples": [
+          {
+            "japanese": "東京支局からポートランドの本社にもどって下さい。",
+            "romaji": "Tōkyō shikyoku kara Pōtorando no honsha ni modotte kudasai.",
+            "german": "Bitte kehren Sie von der Zweigstelle in Tokio zur Zentrale in Portland zurück."
+          },
+          {
+            "japanese": "新聞社の支局で働いています。",
+            "romaji": "Shinbunsha no shikyoku de hataraite imasu.",
+            "german": "Ich arbeite in der Zweigstelle des Zeitungsverlags."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0,
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134652433",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0,
+              1
+            ],
+            "finding": "sys.dic@134652433: 支局/シキョク; lemma支局; 名詞/普通名詞/一般/*; *; *; aType2,0,1. 1310140 branch-office1 actual134652433 commonnoun2,0,1 all retained. Tokyo/Portland macrons corrected, newspublisher translation precise; movement from branch versus worklocation distinct.",
+            "match": {
+              "word": "支局",
+              "reading": "しきょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 支局/しきょく, rawJMdict1310140, senses1: branch office. Spelling/reading/restrictions inspected. 1310140 branch-office1 actual134652433 commonnoun2,0,1 all retained. Tokyo/Portland macrons corrected, newspublisher translation precise; movement from branch versus worklocation distinct."
+            }
+          }
+        ]
+      },
+      "1146": {
+        "notes": "役人 bezeichnet jemanden, der für eine staatliche oder kommunale Verwaltung arbeitet. Im Deutschen passt oft „Beamter“, ohne dass damit eine genaue deutsche beamtenrechtliche Stellung behauptet wird. 役人が来る berichtet von einem Besuch; あの役人 bestimmt eine bestimmte Person, deren Verhalten man beurteilt. In förmlichen Berufsangaben hört man auch 公務員.",
+        "examples": [
+          {
+            "japanese": "今日、役人が来ましたよ。",
+            "romaji": "Kyō, yakunin ga kimashita yo.",
+            "german": "Heute kam ein Beamter."
+          },
+          {
+            "japanese": "あの役人はとても真面目です。",
+            "romaji": "Ano yakunin wa totemo majime desu.",
+            "german": "Jener Beamte ist sehr gewissenhaft."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267804076",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@267804076: 役人/ヤクニン; lemma役人; 名詞/普通名詞/一般/*; *; *; aType0. 1538050 governmentofficial1 actual2678040760. Arrivalnews versus evaluation of behavior; GermanBeamter not false nationallegalstatus asserted. Kyō macron fixed.",
+            "match": {
+              "word": "役人",
+              "reading": "やくにん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 役人/やくにん, rawJMdict1538050, senses1: government official. Spelling/reading/restrictions inspected. 1538050 governmentofficial1 actual2678040760. Arrivalnews versus evaluation of behavior; GermanBeamter not false nationallegalstatus asserted. Kyō macron fixed."
+            }
+          }
+        ]
+      },
+      "1147": {
+        "notes": "大役 ist eine besonders wichtige oder verantwortungsvolle Aufgabe. Die Lesung dieses Eintrags lautet たいやく. 大役を任される bedeutet, dass jemand einem diese Verantwortung überträgt; 大役です bewertet eine Tätigkeit als große Verantwortung. Das Wort bezeichnet mehr als bloß eine lang dauernde Arbeit. Die Beispiele verwenden die allgemeine Aufgabenbedeutung, keine spezielle Rolle im Theater.",
+        "examples": [
+          {
+            "japanese": "この学校の先生になることは、大役ですよ。",
+            "romaji": "Kono gakkō no sensei ni naru koto wa, taiyaku desu yo.",
+            "german": "Lehrer an dieser Schule zu werden, ist eine große Verantwortung."
+          },
+          {
+            "japanese": "大役を任されました。",
+            "romaji": "Taiyaku o makasaremashita.",
+            "german": "Mir wurde eine wichtige Aufgabe anvertraut."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158206697",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@158206697: 大役/タイヤク; lemma大役; 名詞/普通名詞/一般/*; *; *; aType0. 1785800 importanttask1 only, majoracting2/scoring3 excluded. Actual158206697 common0. Naru koto Germanwerden notsein, gakkō corrected; responsibilityevaluation vs delegatedrole distinct.",
+            "match": {
+              "word": "大役",
+              "reading": "たいやく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 大役/たいやく, rawJMdict1785800, senses1: important task, important role, great duty, important mission. Spelling/reading/restrictions inspected. 1785800 importanttask1 only, majoracting2/scoring3 excluded. Actual158206697 common0. Naru koto Germanwerden notsein, gakkō corrected; responsibilityevaluation vs delegatedrole distinct."
+            }
+          }
+        ]
+      },
+      "1148": {
+        "type": "Nomen",
+        "notes": "心身 fasst Geist und Körper zusammen. 心身のために nennt beide als Zweck einer Handlung; 心身ともに betont, dass eine Aussage für beide gilt. Das Wort selbst ist ein Nomen und verbindet sich mit einem weiteren Nomen durch の. しんしん wird ohne lange Vokale gesprochen; die Bestandteile 心 und 身 sind in dieser Zusammensetzung keine getrennten Wörter.",
+        "examples": [
+          {
+            "japanese": "心身のために毎日ヨガをしましょう。",
+            "romaji": "Shinshin no tame ni mainichi yoga o shimashō.",
+            "german": "Machen wir jeden Tag Yoga für Körper und Geist."
+          },
+          {
+            "japanese": "心身ともに健康です。",
+            "romaji": "Shinshin tomo ni kenkō desu.",
+            "german": "Ich bin körperlich und geistig gesund."
+          }
+        ],
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142751483",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "sys.dic@142751483: 心身/シンシン; lemma心身; 名詞/普通名詞/一般/*; *; *; aType1,0. 1360750 mindbody noun/no1 actual142751483 common1,0 both retained. Formeradjective→Nomen, shimashō/kenkō checked. Purpose of suggestedactivity versus personalhealthstate distinct; no medicalprescription added.",
+            "match": {
+              "word": "心身",
+              "reading": "しんしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 心身/しんしん, rawJMdict1360750, senses1: mind and body. Spelling/reading/restrictions inspected. 1360750 mindbody noun/no1 actual142751483 common1,0 both retained. Formeradjective→Nomen, shimashō/kenkō checked. Purpose of suggestedactivity versus personalhealthstate distinct; no medicalprescription added."
+            }
+          }
+        ]
+      },
+      "1149": {
+        "type": "Nomen",
+        "notes": "全身 bedeutet den ganzen Körper. Mit に kann es das Ziel einer Anwendung nennen, mit が den Körper als Träger einer Empfindung: 全身が筋肉痛です. Vor einem Nomen wird häufig の gebraucht, etwa 全身の写真 für ein Foto, das die ganze Person zeigt. 全身 ist selbst ein Nomen und kein i- oder na-Adjektiv.",
+        "examples": [
+          {
+            "japanese": "一日に一回、全身にスプレーして下さい。",
+            "romaji": "Ichinichi ni ikkai, zenshin ni supurē shite kudasai.",
+            "german": "Bitte besprühen Sie einmal täglich den ganzen Körper."
+          },
+          {
+            "japanese": "全身が筋肉痛です。",
+            "romaji": "Zenshin ga kinnikutsū desu.",
+            "german": "Mein ganzer Körper hat Muskelkater."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154881452",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@154881452: 全身/ゼンシン; lemma全身; 名詞/普通名詞/一般/*; *; *; aType0. 1395410 wholebody1 not medical systemic2. Actual1548814520. Formeradjective→Nomen; 一回ikkai notichikai, supurē/kinnikutsū correct; applicationtarget versus symptomlocation roles distinct, no new clinicaladvice.",
+            "match": {
+              "word": "全身",
+              "reading": "ぜんしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 全身/ぜんしん, rawJMdict1395410, senses1: whole (body), full-length (e.g. portrait). Spelling/reading/restrictions inspected. 1395410 wholebody1 not medical systemic2. Actual1548814520. Formeradjective→Nomen; 一回ikkai notichikai, supurē/kinnikutsū correct; applicationtarget versus symptomlocation roles distinct, no new clinicaladvice."
+            }
+          }
+        ]
+      },
+      "1150": {
+        "romaji": "ryōsha",
+        "notes": "両者 fasst zwei bereits bekannte Personen, Gruppen oder Seiten zusammen. Es klingt sachlicher als 二人 und kann sich auch auf zwei Parteien beziehen. 両者の考え vergleicht ihre Auffassungen; 両者の意見を聞く beschreibt, dass man beide zu Wort kommen lässt. Für mehr als zwei Beteiligte ist 両者 nicht die passende Sammelbezeichnung.",
+        "examples": [
+          {
+            "japanese": "両者の考えが同じじゃない。",
+            "romaji": "Ryōsha no kangae ga onaji ja nai.",
+            "german": "Die Ansichten beider Seiten sind nicht gleich."
+          },
+          {
+            "japanese": "両者の意見を聞きました。",
+            "romaji": "Ryōsha no iken o kikimashita.",
+            "german": "Ich habe die Meinungen beider Seiten gehört."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278926251",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@278926251: 両者/リョウシャ; lemma両者; 名詞/普通名詞/一般/*; *; *; aType1. 1553650 bothpersons/things1 actual2789262511. Two-partycomparison versus fairlistening action distinct; ryōsha macron checked, no generalmany-partyreading.",
+            "match": {
+              "word": "両者",
+              "reading": "りょうしゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 両者/りょうしゃ, rawJMdict1553650, senses1: pair, the two, both persons, both things. Spelling/reading/restrictions inspected. 1553650 bothpersons/things1 actual2789262511. Two-partycomparison versus fairlistening action distinct; ryōsha macron checked, no generalmany-partyreading."
+            }
+          }
+        ]
+      },
+      "1151": {
+        "notes": "作者 ist die Person, die ein Werk geschaffen hat. Bei einem Buch bedeutet es „Autor“, bei einem Bild kann es dessen Schöpfer oder Künstlerin bezeichnen. 作品の作者 ordnet die Person dem Werk zu. 作者に会う nennt sie als Ziel eines Treffens, 作者が書く beziehungsweise 描く als handelnde Person. Nicht jede Künstlerperson ist automatisch der 作者 des gerade betrachteten Werks.",
+        "examples": [
+          {
+            "japanese": "この本の作者に会いたいです。",
+            "romaji": "Kono hon no sakusha ni aitai desu.",
+            "german": "Ich möchte den Autor dieses Buches treffen."
+          },
+          {
+            "japanese": "この本の作者は有名です。",
+            "romaji": "Kono hon no sakusha wa yūmei desu.",
+            "german": "Der Autor dieses Buches ist berühmt."
+          },
+          {
+            "japanese": "この絵の作者は、私の友達です。",
+            "romaji": "Kono e no sakusha wa, watashi no tomodachi desu.",
+            "german": "Die Person, die dieses Bild geschaffen hat, ist mit mir befreundet."
+          }
+        ],
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128582984",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "sys.dic@128582984: 作者/サクシャ; lemma作者; 名詞/普通名詞/一般/*; *; *; aType1,0. 1297710 workcreator1 applies books/artwork, actual1285829841,0 both retained. Addedpainting context broadens literalcreator beyond onlywriter; aitai desu/yūmei corrected, German avoids inventedgender.",
+            "match": {
+              "word": "作者",
+              "reading": "さくしゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 作者/さくしゃ, rawJMdict1297710, senses1: creator (of a work), author, writer, artist, composer, playwright, dramatist. Spelling/reading/restrictions inspected. 1297710 workcreator1 applies books/artwork, actual1285829841,0 both retained. Addedpainting context broadens literalcreator beyond onlywriter; aitai desu/yūmei corrected, German avoids inventedgender."
+            }
+          }
+        ]
+      },
+      "1152": {
+        "romaji": "kōgakusha",
+        "notes": "工学者 ist jemand, der sich fachlich mit Technik beziehungsweise Ingenieurwissenschaften beschäftigt. Das Wort ist aus 工学 und 者 aufgebaut, wird aber als ganzes Nomen verwendet. 有名な工学者 beschreibt eine bekannte Fachperson; 工学者が nennt sie als Handelnden bei der Entwicklung einer Maschine. Die Beispiele verwenden „Ingenieur“, ohne damit einen bestimmten Hochschulabschluss oder Berufstitel festzulegen.",
+        "examples": [
+          {
+            "japanese": "あの男の人は有名な工学者です。",
+            "romaji": "Ano otoko no hito wa yūmei na kōgakusha desu.",
+            "german": "Jener Mann ist ein berühmter Ingenieur."
+          },
+          {
+            "japanese": "工学者が新しい機械を作りました。",
+            "romaji": "Kōgakusha ga atarashii kikai o tsukurimashita.",
+            "german": "Der Ingenieur hat eine neue Maschine gebaut."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "1153": {
+        "notes": "場所 benennt einen Ort oder eine bestimmte Stelle. この場所です kann auf eine Stelle hinweisen, an der etwas geschehen ist. 待ち合わせの場所 bestimmt sie als Treffpunkt; die Frage どこですか bittet um die Ortsangabe. Der Eintrag übt die räumliche Bedeutung und nicht die besondere Verwendung für ein Sumoturnier.",
+        "examples": [
+          {
+            "japanese": "土の中から古いお皿が見つかったのが、この場所です。",
+            "romaji": "Tsuchi no naka kara furui osara ga mitsukatta no ga, kono basho desu.",
+            "german": "Hier ist die Stelle, an der ein alter Teller in der Erde gefunden wurde."
+          },
+          {
+            "japanese": "待ち合わせの場所はどこですか。",
+            "romaji": "Machiawase no basho wa doko desu ka.",
+            "german": "Wo ist der Treffpunkt?"
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220376599",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@220376599: 場所/バショ; lemma場所; 名詞/普通名詞/一般/*; *; *; aType0. 1355850 physicalplace1 not space2/sumotournament3. Actual220376599 common0. Originalunnaturalcorpse-visible clause replaced natural discoveredoldplate location, 土tsuchi notdo; pastsite identification versus futuremeetingquestion.",
+            "match": {
+              "word": "場所",
+              "reading": "ばしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 場所/ばしょ, rawJMdict1355850, senses1: place, location, spot, position, area. Spelling/reading/restrictions inspected. 1355850 physicalplace1 not space2/sumotournament3. Actual220376599 common0. Originalunnaturalcorpse-visible clause replaced natural discoveredoldplate location, 土tsuchi notdo; pastsite identification versus futuremeetingquestion."
+            }
+          }
+        ]
+      },
+      "1154": {
+        "romaji": "nyūjō",
+        "notes": "入場 bezeichnet den Eintritt in einen Veranstaltungsraum oder auf ein Veranstaltungsgelände. Mit する wird daraus das intransitive 入場する, „eintreten“; einen direkten Gegenstand mit を braucht es dabei nicht. 入場料 ist dagegen das zusammengesetzte Nomen für den Eintrittspreis. Im ersten Beispiel gilt der Kartenkauf als Schritt vor dem Eintritt, im zweiten wird der Preis genannt.",
+        "examples": [
+          {
+            "japanese": "入場する前にチケットを買って下さい。",
+            "romaji": "Nyūjō suru mae ni chiketto o katte kudasai.",
+            "german": "Bitte kaufen Sie eine Eintrittskarte, bevor Sie eintreten."
+          },
+          {
+            "japanese": "入場料は五百円です。",
+            "romaji": "Nyūjōryō wa gohyaku en desu.",
+            "german": "Der Eintrittspreis beträgt fünfhundert Yen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202514789",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@202514789: 入場/ニュウジョウ; lemma入場; 名詞/普通名詞/サ変可能/*; *; *; aType0. 1466360 noun/suru intransitive1 actual202514789 nominalサ変可能0 headbare入場; not substitutednyūjōsuru pitch. Existing nominal-suru conjugation valid; nyūjō/nyūjōryō macrons, proceduralentry versus price distinct.",
+            "match": {
+              "word": "入場",
+              "reading": "にゅうじょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 入場/にゅうじょう, rawJMdict1466360, senses1: entrance, entering, admission, admittance. Spelling/reading/restrictions inspected. 1466360 noun/suru intransitive1 actual202514789 nominalサ変可能0 headbare入場; not substitutednyūjōsuru pitch. Existing nominal-suru conjugation valid; nyūjō/nyūjōryō macrons, proceduralentry versus price distinct."
+            }
+          }
+        ]
+      },
+      "1155": {
+        "meaning": "anderswo; andere Leute oder Gruppen",
+        "notes": "他所 wird hier よそ gelesen und häufig auch nur in Kana geschrieben. 他所の店 ist ein anderes Geschäft als das bisherige; 他所のこと meint hier die Angelegenheiten anderer Leute oder Gruppen. Das Wort stellt etwas außerhalb des eigenen Ortes oder Kreises gegenüber. Die Lesung よそ darf nicht durch die ebenfalls möglichen Zeichenlesungen als andere Wörter ersetzt werden.",
+        "examples": [
+          {
+            "japanese": "ここじゃなくて、どこか他所の店に行こうよ。",
+            "romaji": "Koko ja nakute, dokoka yoso no mise ni ikō yo.",
+            "german": "Gehen wir in irgendein anderes Geschäft statt in dieses hier."
+          },
+          {
+            "japanese": "他所のことは気にしないでください。",
+            "romaji": "Yoso no koto wa ki ni shinaide kudasai.",
+            "german": "Kümmern Sie sich bitte nicht um die Angelegenheiten anderer Leute."
+          }
+        ],
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@274265339",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "sys.dic@274265339: 他所/ヨソ; lemma余所; 名詞/普通名詞/一般/*; *; *; aType1,2. 1605940 otherplace1 and outsideownfamily/group2 both selected, indifferenceをよそに3 excluded. Actual274265339 commonlemma余所1,2 both retained. FullGerman store explicit and affairsotherpeople not vagueotherthings; nakute/dokoka/ikō accurate.",
+            "match": {
+              "word": "他所",
+              "reading": "よそ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 他所/よそ, rawJMdict1605940, senses1,2: another place, somewhere else, strange parts; outside (one's family or group), someone else, other people. Spelling/reading/restrictions inspected. 1605940 otherplace1 and outsideownfamily/group2 both selected, indifferenceをよそに3 excluded. Actual274265339 commonlemma余所1,2 both retained. FullGerman store explicit and affairsotherpeople not vagueotherthings; nakute/dokoka/ikō accurate."
+            }
+          }
+        ]
+      },
+      "1156": {
+        "notes": "朝ごはん ist das Frühstück als Mahlzeit. Im Alltag ist ごはん hier nicht auf Reis beschränkt: Das Frühstück kann auch aus Brot bestehen. 朝ごはんは beschreibt den Inhalt der Mahlzeit, 朝ごはんを食べる das Essen. 時間がなくて nennt im zusätzlichen Beispiel den Grund dafür, dass man die Mahlzeit ausgelassen hat.",
+        "examples": [
+          {
+            "japanese": "毎日の朝ごはんはベーコンとパンです。",
+            "romaji": "Mainichi no asagohan wa bēkon to pan desu.",
+            "german": "Mein tägliches Frühstück ist Speck und Brot."
+          },
+          {
+            "japanese": "毎朝朝ごはんを食べます。",
+            "romaji": "Maiasa asagohan o tabemasu.",
+            "german": "Jeden Morgen esse ich Frühstück."
+          },
+          {
+            "japanese": "今朝は時間がなくて、朝ごはんを食べませんでした。",
+            "romaji": "Kesa wa jikan ga nakute, asagohan o tabemasen deshita.",
+            "german": "Heute Morgen hatte ich keine Zeit und habe deshalb nicht gefrühstückt."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42540964",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "sys.dic@42540964: 朝ごはん/アサゴハン; lemma朝御飯; 名詞/普通名詞/一般/*; *; *; aType3. 1586330 breakfast1 actual42540964 commonlemma朝御飯3. Content/habit pair expanded by skippedmeal reason. Asagohan word segmentation/bēkon corrected, Germancompletecausalrelation faithful.",
+            "match": {
+              "word": "朝ごはん",
+              "reading": "あさごはん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 朝ごはん/あさごはん, rawJMdict1586330, senses1: breakfast. Spelling/reading/restrictions inspected. 1586330 breakfast1 actual42540964 commonlemma朝御飯3. Content/habit pair expanded by skippedmeal reason. Asagohan word segmentation/bēkon corrected, Germancompletecausalrelation faithful."
+            }
+          }
+        ]
+      },
+      "1157": {
+        "notes": "朝日 ist die Sonne beziehungsweise ihr Licht am Morgen. 朝日の中 nennt das Licht als Umgebung einer Tätigkeit; 朝日がきれい beschreibt den Anblick. 朝日が入る kann ausdrücken, dass Morgensonnenlicht durch ein Fenster hereinfällt. Hier ist das Naturwort gemeint, nicht ein Familien-, Orts- oder Firmenname mit denselben Zeichen.",
+        "examples": [
+          {
+            "japanese": "明るい朝日の中、ヨガをします。",
+            "romaji": "Akarui asahi no naka, yoga o shimasu.",
+            "german": "Ich mache Yoga im hellen Morgensonnenschein."
+          },
+          {
+            "japanese": "朝日がきれいですね。",
+            "romaji": "Asahi ga kirei desu ne.",
+            "german": "Die Morgensonne ist schön, nicht wahr?"
+          },
+          {
+            "japanese": "この部屋には、東の窓から朝日が入ります。",
+            "romaji": "Kono heya ni wa, higashi no mado kara asahi ga hairimasu.",
+            "german": "In dieses Zimmer fällt durch das Ostfenster Morgensonnenlicht."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42583675",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@42583675: 朝日/アサヒ; lemma朝日; 名詞/普通名詞/一般/*; *; *; aType1. 1428500 morningsun1 only; search-onlyMcIntosh2856154/name5524809 excluded. Actual42583675 commonnoun1, surname42582098/place42582627 rejected despite same1. Addedwindowlightflow physicalcontext; fullGerman/Hepburn inspected.",
+            "match": {
+              "word": "朝日",
+              "reading": "あさひ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 朝日/あさひ, rawJMdict1428500, senses1: morning sun. Spelling/reading/restrictions inspected. 1428500 morningsun1 only; search-onlyMcIntosh2856154/name5524809 excluded. Actual42583675 commonnoun1, surname42582098/place42582627 rejected despite same1. Addedwindowlightflow physicalcontext; fullGerman/Hepburn inspected."
+            }
+          }
+        ]
+      },
       "1188": {
         "examples": [
           {
@@ -96621,6 +99730,860 @@ window.VOCAB_CORRECTION_RULES = {
       "1220": {
         "level": "N3",
         "pitch": null
+      },
+      "1235": {
+        "meaning": "haften; befestigt sein; angehen (Licht)",
+        "notes": "付く ist hier intransitiv: 切手が付く beschreibt eine haftende Briefmarke, 電気が付く ein angehendes Licht. Die te-Form mit いる bezeichnet den bestehenden Zustand. Den Ort der Befestigung kann に nennen, etwa 手紙に. Für das aktive Anbringen verwendet man das transitive 付ける. Bei Licht schreibt man auch 点く; der Eintrag behält die vorliegende Schreibweise.",
+        "examples": [
+          {
+            "japanese": "この手紙には、まだ切手が付いてないですよ。",
+            "romaji": "Kono tegami ni wa, mada kitte ga tsuite nai desu yo.",
+            "german": "Auf diesem Brief ist noch keine Briefmarke."
+          },
+          {
+            "japanese": "電気が付いていますね。",
+            "romaji": "Denki ga tsuite imasu ne.",
+            "german": "Das Licht ist an, nicht wahr?"
+          }
+        ],
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@173966889",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "sys.dic@173966889: 付く/ツク; lemma付く; 動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; aType1,2. 1495740 intransitive Godan attachment1/light9 both selected, exact173966889 terminal1,2 all retained. Headscope expanded to both contexts, tsuite nai desu segmentation corrected. Existing Godan conjugation valid; no transitive-object assumption.",
+            "match": {
+              "word": "付く",
+              "reading": "つく",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-カ行; 終止形-一般",
+              "sense": "Exact 付く/つく, rawJMdict1495740, senses1,9: to be attached, to be connected with, to adhere, to stick, to cling; to be lit, to catch fire, to ignite, to be turned on (of a light, appliance, etc.). Spelling/reading/restrictions inspected. 1495740 intransitive Godan attachment1/light9 both selected, exact173966889 terminal1,2 all retained. Headscope expanded to both contexts, tsuite nai desu segmentation corrected. Existing Godan conjugation valid; no transitive-object assumption."
+            }
+          }
+        ]
+      },
+      "1236": {
+        "notes": "見付ける heißt, jemanden oder etwas zu finden. Das gefundene oder gesuchte Objekt steht mit を. Die teils ebenfalls übliche Schreibweise 見つける hat dieselbe Lesung; hier bleibt 見付ける erhalten. Das Ichidan-Verb bildet 見付けます und 見付けない. やっと betont im zweiten Beispiel, dass die Suche länger oder mühsamer war als erhofft.",
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@255849105",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@255849105: 見付ける/ミツケル; lemma見付ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType0. 1604570 transitiveIchidan finding1 not accustomedseeing2. Actual255849105 terminal0, inheritedIchidan valid. Personlocating query versus jobsuche result distinct; fullGerman/Hepburn retained valid.",
+            "match": {
+              "word": "見付ける",
+              "reading": "みつける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Exact 見付ける/みつける, rawJMdict1604570, senses1: to find, to discover, to come across, to spot, to catch (someone doing). Spelling/reading/restrictions inspected. 1604570 transitiveIchidan finding1 not accustomedseeing2. Actual255849105 terminal0, inheritedIchidan valid. Personlocating query versus jobsuche result distinct; fullGerman/Hepburn retained valid."
+            }
+          }
+        ]
+      },
+      "1237": {
+        "type": "Nomen",
+        "notes": "弱虫 bezeichnet abwertend einen „Feigling“ oder eine ängstliche Person. 虫 meint in dieser Zusammensetzung keinen wirklichen Käfer. 弱虫だ nennt die Person so, 弱虫だと言われる berichtet von der Bezeichnung durch andere. Das Wort kann als Nomen verwendet werden; der zusätzliche Satz zeigt, wie man sich gegen diese verletzende Bezeichnung verwahrt.",
+        "examples": [
+          {
+            "japanese": "弟は弱虫だと言われている。",
+            "romaji": "Otōto wa yowamushi da to iwarete iru.",
+            "german": "Man sagt, mein jüngerer Bruder sei ein Feigling."
+          },
+          {
+            "japanese": "あの子は弱虫ですね。",
+            "romaji": "Ano ko wa yowamushi desu ne.",
+            "german": "Jenes Kind ist ein Feigling, nicht wahr?"
+          },
+          {
+            "japanese": "弱虫と呼ばないでください。",
+            "romaji": "Yowamushi to yobanaide kudasai.",
+            "german": "Bitte nennen Sie mich nicht Feigling."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277235247",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "sys.dic@277235247: 弱虫/ヨワムシ; lemma弱虫; 名詞/普通名詞/一般/*; *; *; aType2. 1324840 noun/na/no1 actual277235247 commonnoun2, noun classifier selected actualuse da/desu ratherthan teaching adjectivederivation. Thirdcontext rejectslabeling ratherthan repeatingdescription; otōto/iwarete corrected and jener matchesあの.",
+            "match": {
+              "word": "弱虫",
+              "reading": "よわむし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 弱虫/よわむし, rawJMdict1324840, senses1: coward, weakling, scaredy cat, wimp, sissy. Spelling/reading/restrictions inspected. 1324840 noun/na/no1 actual277235247 commonnoun2, noun classifier selected actualuse da/desu ratherthan teaching adjectivederivation. Thirdcontext rejectslabeling ratherthan repeatingdescription; otōto/iwarete corrected and jener matchesあの."
+            }
+          }
+        ]
+      },
+      "1238": {
+        "notes": "弱々しい beschreibt etwas, das schwach oder kraftlos wirkt: einen Körper, eine Stimme oder auch Licht. Das i-Adjektiv steht ohne な vor einem Nomen: 弱々しい光. Im ersten Beispiel heißt 体ながら „trotz des Körpers in diesem Zustand“. Es geht um den Eindruck fehlender Kraft; das Wort legt keine bestimmte medizinische Ursache fest.",
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277251559",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "sys.dic@277251559: 弱々しい/ヨワヨワシイ; lemma弱々しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType5. 1606170 i-adjective1 frailbody/faintlight both exactsense, actual277251559 terminal5. Concessiveながら faithfulGerman, physicalperson versus visualstimulus genuinecontexts; no invented diagnosis.",
+            "match": {
+              "word": "弱々しい",
+              "reading": "よわよわしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Exact 弱々しい/よわよわしい, rawJMdict1606170, senses1: weak, weakly, feeble, frail, delicate, faint (voice, sunlight, etc.). Spelling/reading/restrictions inspected. 1606170 i-adjective1 frailbody/faintlight both exactsense, actual277251559 terminal5. Concessiveながら faithfulGerman, physicalperson versus visualstimulus genuinecontexts; no invented diagnosis."
+            }
+          }
+        ]
+      },
+      "1239": {
+        "meaning": "abgesplittert sein; fehlen; mangeln",
+        "notes": "欠ける ist hier ein intransitives Ichidan-Verb. Der beschädigte Rand steht mit が: 端が欠ける. Es kann auch ausdrücken, dass etwas Wesentliches fehlt; der Bezug folgt dann oft mit に. Die Form 欠けてしまった betont das unerwünschte Ergebnis. Die Beispiele zeigen einen materiellen Schaden und eine fehlende Erläuterung, ohne zu behaupten, dass jemand den Schaden absichtlich verursacht hat.",
+        "examples": [
+          {
+            "japanese": "マグカップの口の所が欠けてしまった。",
+            "romaji": "Magukappu no kuchi no tokoro ga kakete shimatta.",
+            "german": "Am Rand der Tasse ist leider ein Stück abgesplittert."
+          },
+          {
+            "japanese": "お皿の端が欠けました。",
+            "romaji": "Osara no hashi ga kakemashita.",
+            "german": "Am Rand des Tellers ist ein Stück abgesplittert."
+          },
+          {
+            "japanese": "この計画には、具体的な説明が欠けています。",
+            "romaji": "Kono keikaku ni wa, gutaiteki na setsumei ga kakete imasu.",
+            "german": "Bei diesem Plan fehlt eine konkrete Erklärung."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92406907",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@92406907: 欠ける/カケル; lemma欠ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType0. 1253920 intransitiveIchidan physicalchip1/deficiency3 both selected, absentmember2/moon4 excluded. Actual92406907 terminal0 replaceswrong2. Thirdabstractdeficiency context distinct; translations describechip notentirerim brokenoff, existingIchidan valid.",
+            "match": {
+              "word": "欠ける",
+              "reading": "かける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Exact 欠ける/かける, rawJMdict1253920, senses1,3: to chip, to be chipped, to break (off), to be damaged; to be lacking (in), to be short (of), to be deficient, to be wanting (in). Spelling/reading/restrictions inspected. 1253920 intransitiveIchidan physicalchip1/deficiency3 both selected, absentmember2/moon4 excluded. Actual92406907 terminal0 replaceswrong2. Thirdabstractdeficiency context distinct; translations describechip notentirerim brokenoff, existingIchidan valid."
+            }
+          }
+        ]
+      },
+      "1240": {
+        "type": "Nomen",
+        "notes": "白黒 bedeutet hier Schwarzweiß beziehungsweise ein Bild ohne Farben. Das Nomen verbindet sich mit einem anderen Nomen durch の: 白黒の写真. 白黒で印刷する nennt die Druckart, 白黒でした einen früheren Zustand. Die Beispiele verwenden die Bild- und Farbbedeutung; das Wort kann in anderen Zusammenhängen auch eine Entscheidung über Recht und Unrecht bezeichnen.",
+        "examples": [
+          {
+            "japanese": "祖母の家の古いテレビは白黒でした。",
+            "romaji": "Sobo no ie no furui terebi wa shirokuro deshita.",
+            "german": "Der alte Fernseher im Haus meiner Großmutter war schwarzweiß."
+          },
+          {
+            "japanese": "白黒の写真です。",
+            "romaji": "Shirokuro no shashin desu.",
+            "german": "Es ist ein Schwarzweißfoto."
+          },
+          {
+            "japanese": "この資料は白黒で印刷してください。",
+            "romaji": "Kono shiryō wa shirokuro de insatsu shite kudasai.",
+            "german": "Bitte drucken Sie diese Unterlagen in Schwarzweiß aus."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142327836",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "sys.dic@142327836: 白黒/シロクロ; lemma白黒; 名詞/普通名詞/サ変可能/*; *; *; aType0,1. 1475160 noun/no monochrome1 not rightwrong2. Actual1423278360,1 both retained; former adjective→noun. Unstableblanket seventy-years assertion replaced particularfamilyTV, printingcontext gives functionaluse beyondcolorpair; shiryō accurate.",
+            "match": {
+              "word": "白黒",
+              "reading": "しろくろ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 白黒/しろくろ, rawJMdict1475160, senses1: black and white, monochrome. Spelling/reading/restrictions inspected. 1475160 noun/no monochrome1 not rightwrong2. Actual1423278360,1 both retained; former adjective→noun. Unstableblanket seventy-years assertion replaced particularfamilyTV, printingcontext gives functionaluse beyondcolorpair; shiryō accurate."
+            }
+          }
+        ]
+      },
+      "1241": {
+        "romaji": "eizō",
+        "type": "Nomen",
+        "notes": "映像 bezeichnet hier Film- oder Videomaterial. Es kann mehrere bewegte Bilder umfassen und ist nicht auf einen einzelnen Kinofilm beschränkt. 映像を見る beschreibt das Anschauen, いい映像 bewertet das Material. Das Wort ist ein Nomen; in 映像の編集 verbindet の es etwa mit „Bearbeitung“. Die Beispiele verwenden keine Spiegelung oder bloße Vorstellung im Kopf.",
+        "examples": [
+          {
+            "japanese": "すごくいい映像ですね。",
+            "romaji": "Sugoku ii eizō desu ne.",
+            "german": "Das ist sehr schönes Filmmaterial."
+          },
+          {
+            "japanese": "テレビで映像を見ました。",
+            "romaji": "Terebi de eizō o mimashita.",
+            "german": "Ich habe das Filmmaterial im Fernsehen gesehen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69720672",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@69720672: 映像/エイゾウ; lemma映像; 名詞/普通名詞/一般/*; *; *; aType0. 1173800 footage2 selected, screenimage1/reflection3/mental4 nottaught. Actual69720672 noun0, formeradjective→noun; eizō corrected. Qualityappraisal versus viewingmedium distinct, GermanFilmmaterial compatible.",
+            "match": {
+              "word": "映像",
+              "reading": "えいぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 映像/えいぞう, rawJMdict1173800, senses2: video, film, footage. Spelling/reading/restrictions inspected. 1173800 footage2 selected, screenimage1/reflection3/mental4 nottaught. Actual69720672 noun0, formeradjective→noun; eizō corrected. Qualityappraisal versus viewingmedium distinct, GermanFilmmaterial compatible."
+            }
+          }
+        ]
+      },
+      "1242": {
+        "romaji": "gazō",
+        "notes": "画像 ist ein Bild, hier besonders eine digitale Bilddatei oder deren sichtbarer Inhalt. 画像をダウンロードする bezeichnet das Herunterladen dieser Datei. おもしろい画像 bewertet dagegen das, was auf dem Bild zu sehen ist. Mit の kann man eine Eigenschaft ergänzen, etwa 画像の大きさ für die Bildgröße; das Wort ist ein Nomen.",
+        "examples": [
+          {
+            "japanese": "おもしろい画像ですね。",
+            "romaji": "Omoshiroi gazō desu ne.",
+            "german": "Das ist ein interessantes Bild."
+          },
+          {
+            "japanese": "画像をダウンロードしました。",
+            "romaji": "Gazō o daunrōdo shimashita.",
+            "german": "Ich habe das Bild heruntergeladen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101387068",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@101387068: 画像/ガゾウ; lemma画像; 名詞/普通名詞/一般/*; *; *; aType0. 1197390 image1 actual1013870680. Contentjudgment versus fileoperation distinct; gazō/daunrōdo fixed, fullGerman faithful.",
+            "match": {
+              "word": "画像",
+              "reading": "がぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 画像/がぞう, rawJMdict1197390, senses1: image, picture, portrait. Spelling/reading/restrictions inspected. 1197390 image1 actual1013870680. Contentjudgment versus fileoperation distinct; gazō/daunrōdo fixed, fullGerman faithful."
+            }
+          }
+        ]
+      },
+      "1244": {
+        "notes": "生保 ist hier eine Abkürzung für 生命保険, Lebensversicherung. 生保に入っている fragt nach einem bestehenden Versicherungsvertrag, nicht nach dem Betreten eines Büros. Im ersten Beispiel bezieht 生保の sich auf den Bereich des Vertriebsleiters. Dieselben Zeichen können in anderen Zusammenhängen auch eine andere Abkürzung bilden; hier ist durch Vertrieb und Versicherung die Lebensversicherung gemeint.",
+        "examples": [
+          {
+            "japanese": "さっき生保のセールスマネジャーが家に来ましたよ。",
+            "romaji": "Sakki seiho no sērusu manejā ga ie ni kimashita yo.",
+            "german": "Vorhin kam ein Vertriebsleiter aus dem Bereich Lebensversicherung zu uns nach Hause."
+          },
+          {
+            "japanese": "生保に入っていますか。",
+            "romaji": "Seiho ni haitte imasu ka.",
+            "german": "Haben Sie eine Lebensversicherung?"
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152266074",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@152266074: 生保/セイホ; lemma生保; 名詞/普通名詞/一般/*; *; *; aType1. 1379500 lifeinsuranceabbreviation1 not welfare2. Actual1522660741 exact. セールスマネジャー sērusu manejā (notマネージャー inventedextra vowel) checked; brokercontact versus coveragequery; no financialrecommendation.",
+            "match": {
+              "word": "生保",
+              "reading": "せいほ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 生保/せいほ, rawJMdict1379500, senses1: life insurance. Spelling/reading/restrictions inspected. 1379500 lifeinsuranceabbreviation1 not welfare2. Actual1522660741 exact. セールスマネジャー sērusu manejā (notマネージャー inventedextra vowel) checked; brokercontact versus coveragequery; no financialrecommendation."
+            }
+          }
+        ]
+      },
+      "1245": {
+        "notes": "保つ heißt hier, etwas in seinem Zustand oder auf seinem bisherigen Niveau zu erhalten. Das Bewahrte steht mit を: 体力を保つ oder 状態を保つ. Das transitive Godan-Verb bildet 保ちます, 保って und 保たない. Im ersten Beispiel ist tägliches Gehen eine persönliche Gewohnheit; der zweite Satz fordert dazu auf, einen sauberen Zustand aufrechtzuerhalten.",
+        "examples": [
+          {
+            "japanese": "体力を保つために、毎朝歩いています。",
+            "romaji": "Tairyoku o tamotsu tame ni, maiasa aruite imasu.",
+            "german": "Um meine körperliche Kraft zu erhalten, gehe ich jeden Morgen zu Fuß."
+          },
+          {
+            "japanese": "きれいな状態を保ってください。",
+            "romaji": "Kirei na jōtai o tamotte kudasai.",
+            "german": "Bitte halten Sie es in sauberem Zustand."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@165833574",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "sys.dic@165833574: 保つ/タモツ; lemma保つ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; aType2. 1513250 transitivepreserve1 not intransitivelast2. Actual165833574 terminal2. Universal dailytrainingmust replaced personalwalkingpurpose statement; jōtai/tamotte correct and inheritedGodan valid.",
+            "match": {
+              "word": "保つ",
+              "reading": "たもつ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "Exact 保つ/たもつ, rawJMdict1513250, senses1: to keep, to preserve, to hold, to retain, to maintain, to sustain. Spelling/reading/restrictions inspected. 1513250 transitivepreserve1 not intransitivelast2. Actual165833574 terminal2. Universal dailytrainingmust replaced personalwalkingpurpose statement; jōtai/tamotte correct and inheritedGodan valid."
+            }
+          }
+        ]
+      },
+      "1246": {
+        "notes": "試みる heißt, einen Versuch zu unternehmen. Es klingt eher schriftlich oder sachlich als das alltägliche やってみる. Das Vorhaben steht mit を, etwa 説得を試みる. Das Ichidan-Verb bildet 試みます und 試みた. Die Beispiele unterscheiden das Ausprobieren einer neuen Kochidee vom Versuch, jemanden zu überzeugen; der Versuch garantiert noch keinen Erfolg.",
+        "examples": [
+          {
+            "japanese": "友人の説得を試みたが、うまくいかなかった。",
+            "romaji": "Yūjin no settoku o kokoromita ga, umaku ikanakatta.",
+            "german": "Ich versuchte, meinen Freund zu überzeugen, aber es gelang nicht."
+          },
+          {
+            "japanese": "新しいレシピでパン作りを試みました。",
+            "romaji": "Atarashii reshipi de panzukuri o kokoromimashita.",
+            "german": "Ich habe versucht, nach einem neuen Rezept Brot zu backen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121988077",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "sys.dic@121988077: 試みる/ココロミル; lemma試みる; 動詞/一般/*/*; 上一段-マ行; 終止形-一般; aType4. 1312280 transitiveIchidanattempt1 actual121988077 terminal4. Vagueyarikata statement replaced actualpersuasionattempt failurecontrast, recipe-based breadmaking attempt uses natural action objectパン作り; yūjin correct, existingIchidan valid.",
+            "match": {
+              "word": "試みる",
+              "reading": "こころみる",
+              "grammaticalForm": "動詞/一般/*/*; 上一段-マ行; 終止形-一般",
+              "sense": "Exact 試みる/こころみる, rawJMdict1312280, senses1: to try, to attempt, to have a go (at). Spelling/reading/restrictions inspected. 1312280 transitiveIchidanattempt1 actual121988077 terminal4. Vagueyarikata statement replaced actualpersuasionattempt failurecontrast, recipe-based breadmaking attempt uses natural action objectパン作り; yūjin correct, existingIchidan valid."
+            }
+          }
+        ]
+      },
+      "1247": {
+        "notes": "試食 bezeichnet das Probieren von Essen, oft vor einem Kauf oder als Kostprobe eines neuen Gerichts. Mit する entsteht das transitive 試食する; das probierte Gericht kann mit を stehen. 試食してみて ist eine vertraute Aufforderung, es einmal zu probieren. Das Wort betrifft Essen und nicht das Testen von Geräten oder eine Prüfung.",
+        "examples": [
+          {
+            "japanese": "先ずは何も言わないで試食してみて。",
+            "romaji": "Mazu wa nani mo iwanaide shishoku shite mite.",
+            "german": "Probiere es erst mal, ohne etwas zu sagen."
+          },
+          {
+            "japanese": "デパートで試食しました。",
+            "romaji": "Depāto de shishoku shimashita.",
+            "german": "Ich habe im Kaufhaus eine Kostprobe genommen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135265775",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@135265775: 試食/シショク; lemma試食; 名詞/普通名詞/サ変可能/*; *; *; aType0. 1312490 noun/suru transitivefoodtasting1 actual135265775 barehead0 notsuruformpitch. Existingnominalsuru conjugation retained; depāto corrected, requestversus shoppingtastingevent genuinecontexts.",
+            "match": {
+              "word": "試食",
+              "reading": "ししょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 試食/ししょく, rawJMdict1312490, senses1: sampling food, tasting, trying. Spelling/reading/restrictions inspected. 1312490 noun/suru transitivefoodtasting1 actual135265775 barehead0 notsuruformpitch. Existingnominalsuru conjugation retained; depāto corrected, requestversus shoppingtastingevent genuinecontexts."
+            }
+          }
+        ]
+      },
+      "1249": {
+        "romaji": "happyō",
+        "meaning": "Bekanntgabe; Vorstellung",
+        "notes": "発表 ist das Bekanntgeben oder öffentliche Vorstellen von etwas. 発表する nimmt den Inhalt mit を, etwa 新商品を発表する. Bei einer Ankündigung kann der Inhalt stattdessen im nächsten Satz folgen. Das Wort bezeichnet auch eine Präsentation; es verlangt nicht, dass der Inhalt geheim war. 発表 selbst ist das Nomen, 発表します die höfliche Verbform.",
+        "examples": [
+          {
+            "japanese": "それでは、発表します。スピーチコンテストの勝者は田中さんです！",
+            "romaji": "Sore de wa, happyō shimasu. Supīchi kontesuto no shōsha wa Tanaka-san desu!",
+            "german": "Nun gebe ich das Ergebnis bekannt: Gewonnen hat Tanaka beim Redewettbewerb!"
+          },
+          {
+            "japanese": "新商品を発表しました。",
+            "romaji": "Shinshōhin o happyō shimashita.",
+            "german": "Ich habe ein neues Produkt vorgestellt."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215892852",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@215892852: 発表/ハッピョウ; lemma発表; 名詞/普通名詞/サ変可能/*; *; *; aType0. 1477840 noun/suru transitiveannouncement1 actual215892852 nominal0. Tanaka gender notinferred and activefirstperson translation fits subjectellipsis; happyō/supīchi/shōsha/shinshōhin macrons and nominalsuru conjugation checked.",
+            "match": {
+              "word": "発表",
+              "reading": "はっぴょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 発表/はっぴょう, rawJMdict1477840, senses1: announcement, publication, presenting, statement, communique, making known, breaking (news story), expressing (one's opinion), releasing, unveiling. Spelling/reading/restrictions inspected. 1477840 noun/suru transitiveannouncement1 actual215892852 nominal0. Tanaka gender notinferred and activefirstperson translation fits subjectellipsis; happyō/supīchi/shōsha/shinshōhin macrons and nominalsuru conjugation checked."
+            }
+          }
+        ]
+      },
+      "1250": {
+        "meaning": "darstellen; ausdrücken",
+        "notes": "表す kann darstellen, wofür etwas steht, oder eine Bedeutung ausdrücken. Das Dargestellte folgt mit を: 人口を表す. Bei この絵は何を表していますか fragt man nach dem Inhalt oder der Aussage eines Bilds. Das transitive Godan-Verb auf す bildet 表します und 表して. Die Beispiele verwenden die zu dieser Schreibweise passenden Darstellungs- und Ausdrucksbedeutungen.",
+        "examples": [
+          {
+            "japanese": "このグラフは、町の人口を表しています。",
+            "romaji": "Kono gurafu wa, machi no jinkō o arawashite imasu.",
+            "german": "Diese Grafik stellt die Einwohnerzahl der Gemeinde dar."
+          },
+          {
+            "japanese": "この絵は何を表していますか。",
+            "romaji": "Kono e wa nani o arawashite imasu ka.",
+            "german": "Was drückt dieses Bild aus?"
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@48103611",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "sys.dic@48103611: 表す/アラワス; lemma表わす; 動詞/一般/*/*; 五段-サ行; 終止形-一般; aType3. 1263490 represent1/express3 esp表す selected; physicalreveal2esp現す/publicize4esp顕す nottaught. Actual48103611 terminallemma表わす3 exactorth. Overgeneral all-data statement replaced concretegraph, jinkō and German accurate; existingGodan valid.",
+            "match": {
+              "word": "表す",
+              "reading": "あらわす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "Exact 表す/あらわす, rawJMdict1263490, senses1,3: to represent, to signify, to stand for; to express. Spelling/reading/restrictions inspected. 1263490 represent1/express3 esp表す selected; physicalreveal2esp現す/publicize4esp顕す nottaught. Actual48103611 terminallemma表わす3 exactorth. Overgeneral all-data statement replaced concretegraph, jinkō and German accurate; existingGodan valid."
+            }
+          }
+        ]
+      },
+      "1251": {
+        "notes": "出発 bezeichnet das Abfahren oder Aufbrechen. Mit する wird es zum intransitiven Verb: 電車が出発する. 出発まで nennt die Zeit, die bis zum Aufbruch noch bleibt; 九時に nennt dagegen den Zeitpunkt selbst. Das Wort kann auch eine Reise zu Fuß betreffen und ist nicht auf Züge beschränkt.",
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140259681",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@140259681: 出発/シュッパツ; lemma出発; 名詞/普通名詞/サ変可能/*; *; *; aType0. 1340000 noun/suru intransitivedeparture1 actual140259681 barehead0. Countdownmade versus actualclockni distincttemporalroles, kuji/gofun/fullGerman valid, existingnominal-suru retained.",
+            "match": {
+              "word": "出発",
+              "reading": "しゅっぱつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 出発/しゅっぱつ, rawJMdict1340000, senses1: departure, leaving, setting off. Spelling/reading/restrictions inspected. 1340000 noun/suru intransitivedeparture1 actual140259681 barehead0. Countdownmade versus actualclockni distincttemporalroles, kuji/gofun/fullGerman valid, existingnominal-suru retained."
+            }
+          }
+        ]
+      },
+      "1252": {
+        "notes": "辛子 ist Senf, im japanischen Alltag häufig der scharfe gelbe Senf zu Gerichten wie Oden. Das Wort wird oft からし geschrieben; die Kanji-Schreibweise dieses Eintrags bleibt erhalten. 辛子をつける bedeutet, etwas davon auf das Essen zu geben. Im ersten Satz bittet das vertraute でしょ um Zustimmung zu einer Vorliebe, während der zweite nach der Essgewohnheit fragt.",
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@98051394",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@98051394: 辛子/カラシ; lemma芥子; 名詞/普通名詞/一般/*; *; *; aType0. 1202390 mustard1 usuallykana, actual98051394 commonlemma芥子0 selected (notけしhomograph). Preferenceconfirmation versus eatingpractice question distinct; existingOden/casualdesho/german valid.",
+            "match": {
+              "word": "辛子",
+              "reading": "からし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 辛子/からし, rawJMdict1202390, senses1: mustard. Spelling/reading/restrictions inspected. 1202390 mustard1 usuallykana, actual98051394 commonlemma芥子0 selected (notけしhomograph). Preferenceconfirmation versus eatingpractice question distinct; existingOden/casualdesho/german valid."
+            }
+          }
+        ]
+      },
+      "1253": {
+        "notes": "本屋 ist hier eine Buchhandlung. に markiert bei 行く das Ziel eines Besuchs, で bei 買う den Ort des Einkaufs. Die Lesung ほんや enthält ん vor や, keine zusammengehörige Silbe にゃ; in der Umschrift steht deshalb hon'ya. Die Beispiele betreffen das Geschäft, nicht einen Verlag oder das Hauptgebäude, die das Wort in anderen Zusammenhängen bezeichnen kann.",
+        "examples": [
+          {
+            "japanese": "先日、友人と本屋に行きました。",
+            "romaji": "Senjitsu, yūjin to hon'ya ni ikimashita.",
+            "german": "Neulich bin ich mit einem Freund in die Buchhandlung gegangen."
+          },
+          {
+            "japanese": "本屋で新しい小説を買いました。",
+            "romaji": "Hon'ya de atarashii shōsetsu o kaimashita.",
+            "german": "Ich habe in der Buchhandlung einen neuen Roman gekauft."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245850079",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@245850079: 本屋/ホンヤ; lemma本屋; 名詞/普通名詞/一般/*; *; *; aType1. 1522240 bookstore1 notpublisher2/mainbuilding3. Actual2458500791. Destinationni versus purchase-locationde distinct; hon'ya apostrophe beforey, yūjin/shōsetsu checked.",
+            "match": {
+              "word": "本屋",
+              "reading": "ほんや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 本屋/ほんや, rawJMdict1522240, senses1: bookstore, bookshop. Spelling/reading/restrictions inspected. 1522240 bookstore1 notpublisher2/mainbuilding3. Actual2458500791. Destinationni versus purchase-locationde distinct; hon'ya apostrophe beforey, yūjin/shōsetsu checked."
+            }
+          }
+        ]
+      },
+      "1254": {
+        "notes": "天使 ist ein Engel als religiöse oder bildlich dargestellte Gestalt. 天使みたい kann als Vergleich liebevoll ein besonders liebes Wesen beschreiben; der Welpe wird dadurch nicht wörtlich zum Engel. あの絵の天使 nennt dagegen die dargestellte Gestalt auf einem Bild. Das Wort wird als Nomen verwendet.",
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181396535",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@181396535: 天使/テンシ; lemma天使; 名詞/普通名詞/一般/*; *; *; aType1. 1439170 angel noun/no1 actual1813965351. Figurativecomparison versus literalartdepiction genuinelydifferent, Germanjener alignsあの, allretainedHepburn valid.",
+            "match": {
+              "word": "天使",
+              "reading": "てんし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 天使/てんし, rawJMdict1439170, senses1: angel. Spelling/reading/restrictions inspected. 1439170 angel noun/no1 actual1813965351. Figurativecomparison versus literalartdepiction genuinelydifferent, Germanjener alignsあの, allretainedHepburn valid."
+            }
+          }
+        ]
+      },
+      "1255": {
+        "notes": "新年 ist das neue Jahr beziehungsweise die Zeit seines Beginns. 新年に nennt es als Zeitpunkt einer Veranstaltung. 新年おめでとうございます ist eine höfliche Neujahrsgratulation. Das abschließende とう in おめでとう wird als langes tō gesprochen. Das ん von しん und das folgende ね von ねん bleiben in shinnen erkennbar, statt zu einer einzelnen Silbe zusammenzufallen.",
+        "examples": [
+          {
+            "japanese": "新年に大きいセールを行います。",
+            "romaji": "Shinnen ni ōkii sēru o okonaimasu.",
+            "german": "Wir werden im neuen Jahr einen großen Ausverkauf veranstalten."
+          },
+          {
+            "japanese": "新年おめでとうございます。",
+            "romaji": "Shinnen omedetō gozaimasu.",
+            "german": "Frohes neues Jahr!"
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143012020",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@143012020: 新年/シンネン; lemma新年; 名詞/普通名詞/副詞可能/*; *; *; aType1. 1362290 newyear noun/adverb1 actual1430120201 old0corrected. Eventtime versus greeting speechact; ōkii/sēru/omedetō checked, shinnen phonology accurately n+n notgeminatefalseclaim.",
+            "match": {
+              "word": "新年",
+              "reading": "しんねん",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Exact 新年/しんねん, rawJMdict1362290, senses1: New Year. Spelling/reading/restrictions inspected. 1362290 newyear noun/adverb1 actual1430120201 old0corrected. Eventtime versus greeting speechact; ōkii/sēru/omedetō checked, shinnen phonology accurately n+n notgeminatefalseclaim."
+            }
+          }
+        ]
+      },
+      "1256": {
+        "notes": "対談 ist ein Gespräch beziehungsweise Dialog zwischen zwei Personen, oft vor Publikum oder für eine Veröffentlichung. 対談を聞く und 対談を見る betrachten das Gespräch als Veranstaltung oder Medieninhalt. Mit する kann es auch ausdrücken, dass jemand mit einer anderen Person einen solchen Dialog führt. Gemeint ist hier mehr als ein kurzer Gruß im Vorbeigehen.",
+        "examples": [
+          {
+            "japanese": "工学者と心理学者の対談を聞きに行きました。",
+            "romaji": "Kōgakusha to shinrigakusha no taidan o kiki ni ikimashita.",
+            "german": "Ich bin hingegangen, um ein Gespräch zwischen einem Ingenieur und einem Psychologen zu hören."
+          },
+          {
+            "japanese": "テレビで対談を見ました。",
+            "romaji": "Terebi de taidan o mimashita.",
+            "german": "Ich habe ein Gespräch im Fernsehen gesehen."
+          }
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158123574",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@158123574: 対談/タイダン; lemma対談; 名詞/普通名詞/サ変可能/*; *; *; aType0. 1410230 noun/suru dialogue1 actual158123574 nominal0. Originalnestedのawkward replacednatural twoexpertsdialogue, kōgakusha macron. Retained classifierNomen accurately teaches nominal/suru roles, no inventedtransitivityrequirement; publicliveaudience vs TVvisual context.",
+            "match": {
+              "word": "対談",
+              "reading": "たいだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Exact 対談/たいだん, rawJMdict1410230, senses1: talk, dialogue, conversation. Spelling/reading/restrictions inspected. 1410230 noun/suru dialogue1 actual158123574 nominal0. Originalnestedのawkward replacednatural twoexpertsdialogue, kōgakusha macron. Retained classifierNomen accurately teaches nominal/suru roles, no inventedtransitivityrequirement; publicliveaudience vs TVvisual context."
+            }
+          }
+        ]
+      },
+      "1257": {
+        "romaji": "fujiyū",
+        "notes": "不自由 kann ausdrücken, dass eine körperliche Funktion eingeschränkt ist. 足が不自由 beschreibt eine Beeinträchtigung der Beine beziehungsweise des Gehens. Als na-Adjektiv verbindet es sich mit einer Person durch な: 足が不自由な方. なので nennt im ersten Beispiel die Begründung für die Wahl des Autos. Hier wird eine konkrete Einschränkung beschrieben, keine Eigenschaft der gesamten Person.",
+        "examples": [
+          {
+            "japanese": "母は足が不自由なので、車を使うことが多いです。",
+            "romaji": "Haha wa ashi ga fujiyū na node, kuruma o tsukau koto ga ōi desu.",
+            "german": "Meine Mutter hat eine Gehbehinderung, deshalb benutzt sie oft das Auto."
+          },
+          {
+            "japanese": "足が不自由な方もいます。",
+            "romaji": "Ashi ga fujiyū na kata mo imasu.",
+            "german": "Es gibt auch Menschen mit Gehbehinderung."
+          },
+          {
+            "japanese": "耳が不自由なので、紙に書いて伝えてください。",
+            "romaji": "Mimi ga fujiyū na node, kami ni kaite tsutaete kudasai.",
+            "german": "Da ich schlecht höre, teilen Sie es mir bitte schriftlich auf Papier mit."
+          }
+        ],
+        "pitchVariants": [
+          1,
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "Yomiuri Telecasting Corporation, original announcer lexical report10161",
+            "version": "Published2025-11-18; actual primary report inspected2026-10-04",
+            "locator": "https://www.ytv.co.jp/michiura_time/contents/202511/z9yp9bmlkwql7b1s.html",
+            "attribution": "道浦俊彦, Yomiuri Telecasting Corporation",
+            "patterns": [
+              2,
+              1,
+              3
+            ],
+            "finding": "Actual original YTV announcer report10161, published2025-11-18, directly records complete bare 不自由 NHK dictionary pronunciations: フ＼ジユー=1, フ／ジユ＼ー=3, フ／ジ＼ユー=2. Four moraeふじゆう, no な removal or constituent inference. All three reported whole-head patterns retained. 1492680 impairment3 only, inconvenience1/poverty2 excluded. ActualUniDicwholeabsent; OJAD3124 isふじゆうな1,2 notused toinferbarehead. ActualYTV10161 originalNHKlookup2025-11-18 directly attests bareフ＼ジユー1/フ／ジユ＼ー3/フ／ジ＼ユー2, allretained. Thirdaccommodationrequest givesdistincthearingfunction, fujiyū/ōi segmentationcorrect.",
+            "match": {
+              "word": "不自由",
+              "reading": "ふじゆう",
+              "grammaticalForm": "Complete bare adjectival noun head, four morae; not inflected OJAD na-form",
+              "sense": "Exact 不自由/ふじゆう, rawJMdict1492680, senses3: inability, disability, impairment (physical, mental, etc.), nonfluency (in a language). Spelling/reading/restrictions inspected. 1492680 impairment3 only, inconvenience1/poverty2 excluded. ActualUniDicwholeabsent; OJAD3124 isふじゆうな1,2 notused toinferbarehead. ActualYTV10161 originalNHKlookup2025-11-18 directly attests bareフ＼ジユー1/フ／ジユ＼ー3/フ／ジ＼ユー2, allretained. Thirdaccommodationrequest givesdistincthearingfunction, fujiyū/ōi segmentationcorrect."
+            }
+          }
+        ]
+      },
+      "1258": {
+        "notes": "教え ist eine Lehre, Unterweisung oder ein weitergegebener Grundsatz. 父からの教え nennt die Person, von der sie stammt; 先生の教え nennt den Urheber. 教えを大切にする heißt, diese Lehre wertzuschätzen und zu bewahren. Hier ist 教え das Nomen, nicht die gleich geschriebene Verbform von 教える.",
+        "examples": [
+          {
+            "japanese": "「毎日全力で生きる」というのは、父からの教えです。",
+            "romaji": "„Mainichi zenryoku de ikiru“ to iu no wa, chichi kara no oshie desu.",
+            "german": "„Jeden Tag mit voller Kraft leben“ ist eine Lehre meines Vaters."
+          },
+          {
+            "japanese": "先生の教えを大切にしています。",
+            "romaji": "Sensei no oshie o taisetsu ni shite imasu.",
+            "german": "Ich schätze die Lehre des Lehrers."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@76556114",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@76556114: 教え/オシエ; lemma教え; 名詞/普通名詞/一般/*; *; *; aType0. 1236890 nounteaching1 actual76556114 noun0 selected, verb76692566/76703234/76704930 forms教える excluded despite0. Sourceidentification viaquotation versus valueattitude distinct; to iu separated and quotedGerman accurate.",
+            "match": {
+              "word": "教え",
+              "reading": "おしえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 教え/おしえ, rawJMdict1236890, senses1: teaching, instruction, teachings, precept, lesson, doctrine. Spelling/reading/restrictions inspected. 1236890 nounteaching1 actual76556114 noun0 selected, verb76692566/76703234/76704930 forms教える excluded despite0. Sourceidentification viaquotation versus valueattitude distinct; to iu separated and quotedGerman accurate."
+            }
+          }
+        ]
+      },
+      "1259": {
+        "notes": "付近 ist die nähere Umgebung eines Orts. この付近 nennt die Gegend um den aktuellen Bezugspunkt; 駅の付近 nennt den Bahnhof als Ausgangspunkt der Orientierung. Die Angabe setzt keinen festen Abstand in Metern voraus. に markiert in den Beispielen den Ort vorhandener Geschäfte oder Gebäude; 付近 selbst ist ein Nomen.",
+        "examples": [
+          {
+            "japanese": "この付近に、コンビニはありますか？",
+            "romaji": "Kono fukin ni, konbini wa arimasu ka?",
+            "german": "Gibt es in dieser Umgebung einen Konbini?"
+          },
+          {
+            "japanese": "駅の付近にホテルがあります。",
+            "romaji": "Eki no fukin ni hoteru ga arimasu.",
+            "german": "In der Nähe des Bahnhofs gibt es ein Hotel."
+          },
+          {
+            "japanese": "駅の付近では、夜も車の音が聞こえます。",
+            "romaji": "Eki no fukin de wa, yoru mo kuruma no oto ga kikoemasu.",
+            "german": "In der Nähe des Bahnhofs hört man auch nachts Autogeräusche."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@232683867",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "sys.dic@232683867: 付近/フキン; lemma付近; 名詞/普通名詞/一般/*; *; *; aType1,2. 1496240 noun/suffixvicinity1 actual2326838671,2 allretained. Addedenvironmentalsoundexperience beyond redundantexistencelocationpair; ni existence versus de experiencelocation accurately explained, fullGerman/Hepburn checked.",
+            "match": {
+              "word": "付近",
+              "reading": "ふきん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 付近/ふきん, rawJMdict1496240, senses1: neighborhood, neighbourhood, vicinity, environs, surrounding area, district. Spelling/reading/restrictions inspected. 1496240 noun/suffixvicinity1 actual2326838671,2 allretained. Addedenvironmentalsoundexperience beyond redundantexistencelocationpair; ni existence versus de experiencelocation accurately explained, fullGerman/Hepburn checked."
+            }
+          }
+        ]
+      },
+      "1260": {
+        "notes": "泳ぎ ist das Schwimmen beziehungsweise die Art, wie jemand schwimmt. In 泳ぎが上手 wird die Schwimmfähigkeit mit が zum Gegenstand einer Bewertung. 泳ぎを練習する behandelt das Schwimmen als geübte Tätigkeit. Das Wort ist hier ein Nomen; die gleich geschriebene Anschlussform von 泳ぐ ist ein gesonderter grammatischer Gebrauch.",
+        "examples": [
+          {
+            "japanese": "マイケルは魚よりも泳ぎが上手です。",
+            "romaji": "Maikeru wa sakana yori mo oyogi ga jōzu desu.",
+            "german": "Michael schwimmt besser als ein Fisch!"
+          },
+          {
+            "japanese": "彼は泳ぎが上手です。",
+            "romaji": "Kare wa oyogi ga jōzu desu.",
+            "german": "Er ist gut im Schwimmen."
+          },
+          {
+            "japanese": "今日はプールで泳ぎを練習します。",
+            "romaji": "Kyō wa pūru de oyogi o renshū shimasu.",
+            "german": "Heute übe ich das Schwimmen im Schwimmbad."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83770228",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "sys.dic@83770228: 泳ぎ/オヨギ; lemma泳ぎ; 名詞/普通名詞/一般/*; *; *; aType3. 1613570 nounswimming1 exact83770228 noun3 selected, verb83949951泳ぐ連用形2 excluded. Old0corrected3; thirdtrainingcontext different fromabilitypair. Jōzu/kyō/pūru/renshū accurate; fishcomparison hyperbole notliteralbiologyclaim.",
+            "match": {
+              "word": "泳ぎ",
+              "reading": "およぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 泳ぎ/およぎ, rawJMdict1613570, senses1: swimming. Spelling/reading/restrictions inspected. 1613570 nounswimming1 exact83770228 noun3 selected, verb83949951泳ぐ連用形2 excluded. Old0corrected3; thirdtrainingcontext different fromabilitypair. Jōzu/kyō/pūru/renshū accurate; fishcomparison hyperbole notliteralbiologyclaim."
+            }
+          }
+        ]
+      },
+      "1261": {
+        "romaji": "tōsu",
+        "meaning": "hindurchlassen; hineinführen",
+        "notes": "通す ist hier transitiv. 光を通す bedeutet, Licht hindurchzulassen; お客様を部屋に通す bedeutet, einen Gast ins Zimmer zu führen. を markiert das Hindurchgelassene oder Hineingeführte, に das Ziel. Das Godan-Verb auf す bildet 通します und 通して. Anders als 通る beschreibt es hier, dass jemand oder etwas den Durchgang ermöglicht.",
+        "examples": [
+          {
+            "japanese": "ガラスは光を通します。",
+            "romaji": "Garasu wa hikari o tōshimasu.",
+            "german": "Glas lässt Licht hindurch."
+          },
+          {
+            "japanese": "お客様をお部屋に通してください。",
+            "romaji": "Okyakusama o oheya ni tōshite kudasai.",
+            "german": "Bitte führen Sie den Gast ins Zimmer."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183787502",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@183787502: 通す/トオス; lemma通す; 動詞/非自立可能/*/*; 五段-サ行; 終止形-一般; aType1. 1432900 transitivetransmitlight2/showguestin6 selected, otherpolysemyexcluded. Actual183787502 terminal1 old2corrected. Physicalmaterialproperty versus guestguidance distinct; tōsu/tōshimasu/tōshite accurate and existingGodan valid.",
+            "match": {
+              "word": "通す",
+              "reading": "とおす",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-サ行; 終止形-一般",
+              "sense": "Exact 通す/とおす, rawJMdict1432900, senses2,6: to transmit (e.g. light, sound, etc.), to conduct (electricity), to let permeate (e.g. water through a fabric), to permit through, to let through (e.g. air), to run through (e.g. a pipe), to penetrate, to let in; to lead (someone) into (a house, room, etc.), to show in, to guide in, to admit (someone). Spelling/reading/restrictions inspected. 1432900 transitivetransmitlight2/showguestin6 selected, otherpolysemyexcluded. Actual183787502 terminal1 old2corrected. Physicalmaterialproperty versus guestguidance distinct; tōsu/tōshimasu/tōshite accurate and existingGodan valid."
+            }
+          }
+        ]
       },
       "1279": {
         "romaji": "shūryō",
@@ -100403,6 +104366,27 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "749": {
+        "notes": "〜付き bedeutet hier „mit … ausgestattet“ oder „einschließlich …“. Der betreffende Bestandteil steht direkt davor: ケース付き, 朝食付き. Wenn die ganze Verbindung ein weiteres Nomen beschreibt, folgt の, wie in 朝食付きのホテル. Das Zeichen 〜 ist ein nicht gesprochenes Platzhalterzeichen. Die Karte übt diesen angehängten Bestandteil, nicht die gleich geschriebene Verbform von 付く oder ツキ im Sinn von „Glück“.",
+        "examples": [
+          {
+            "japanese": "このスプーンはケース付きですよ。",
+            "romaji": "Kono supūn wa kēsu-tsuki desu yo.",
+            "german": "Zu diesem Löffel gehört ein Etui."
+          },
+          {
+            "japanese": "朝食付きのホテルを予約しました。",
+            "romaji": "Chōshoku-tsuki no hoteru o yoyaku shimashita.",
+            "german": "Ich habe ein Hotel mit Frühstück gebucht."
+          }
+        ],
+        "aliases": [
+          "付き"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
       "761": {
         "pitchProvenance": [
           {
@@ -100713,6 +104697,45 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "957": {
+        "romaji": "benkyō suru",
+        "notes": "勉強する bedeutet hier „lernen“ oder „sich mit einem Lernstoff beschäftigen“. Das Fach oder die Sprache kann mit を stehen: 日本語を勉強する. Die Dauer steht ohne に, wie in 三時間勉強する. Die Wendung 〜するんだよ kann in diesem Zusammenhang eine nachdrückliche Aufforderung sein, nicht nur eine Beschreibung. Im dritten Beispiel nennt と den Lernpartner und で den Lernort. Für das wiederholte Einüben einer Fertigkeit passt oft 練習する. Die Karte übt die Lernbedeutung und keinen Preisnachlass.",
+        "examples": [
+          {
+            "japanese": "ちゃんと毎日勉強するんだよ。",
+            "romaji": "Chanto mainichi benkyō suru n da yo.",
+            "german": "Du musst jeden Tag ordentlich lernen."
+          },
+          {
+            "japanese": "毎日三時間勉強します。",
+            "romaji": "Mainichi sanjikan benkyō shimasu.",
+            "german": "Ich lerne jeden Tag drei Stunden."
+          },
+          {
+            "japanese": "試験の前に、友達と図書館で勉強しました。",
+            "romaji": "Shiken no mae ni, tomodachi to toshokan de benkyō shimashita.",
+            "german": "Vor der Prüfung habe ich mit einem Freund in der Bibliothek gelernt."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 30f3a1db1c5b06f940acc1a1e6a4edee434a5e979d52d780f1e519c2ad60c90f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8B%89%E5%BC%B7%E3%81%99%E3%82%8B#2683_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">べ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">き</span><span class=\"char\">ょ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2683_1_1_female\" href=\"#\" onclick=\"pronounce_play('2683_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2683_1_1_male\" href=\"#\" onclick=\"pronounce_play('2683_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "勉強する",
+              "reading": "べんきょうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; べんきょうする",
+              "sense": "1512670 study1 n/vs/vt selected; hardwork2, lifeexperience3 and discount4 excluded. Frozen nounhead勉強 with fullreadingべんきょうする validverbnotation. Directive n da yo versus own duration versus pastjoint exam-preparation personallyread. Chanto translated ordentlich, duration三時間 no に, studycompanionと/locationで accurate. WholeOJAD2683べんきょうする6mora0 actual, not nominal accent inference."
+            }
+          }
+        ]
+      },
       "978": {
         "examples": [
           {
@@ -100762,6 +104785,40 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ],
         "pitch": null
+      },
+      "1024": {
+        "romaji": "renshū suru",
+        "notes": "練習する heißt, eine Fertigkeit durch Wiederholung zu üben. Das Geübte kann mit を genannt werden: ピアノを練習する. どこで fragt nach dem Ort; das erste Beispiel kann sich auf einen geplanten Übungsort beziehen. 毎日練習しています beschreibt dagegen eine regelmäßige Gewohnheit. Mit 練習します, 練習した und 練習して ändern sich die Formen von する; 練習 allein ist das Nomen „Übung“.",
+        "examples": [
+          {
+            "japanese": "どこで練習するの？",
+            "romaji": "Doko de renshū suru no?",
+            "german": "Wo wirst du üben?"
+          },
+          {
+            "japanese": "ピアノを毎日練習しています。",
+            "romaji": "Piano o mainichi renshū shite imasu.",
+            "german": "Ich übe jeden Tag Klavier."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 c1ff0884efe3f7b2a78910329751139457a668cbef4f35bfdd560ddb6fe4d38d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B7%B4%E7%BF%92%E3%81%99%E3%82%8B#2791_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">れ</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">し</span><span class=\"char\">ゅ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2791_1_1_female\" href=\"#\" onclick=\"pronounce_play('2791_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2791_1_1_male\" href=\"#\" onclick=\"pronounce_play('2791_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "練習する",
+              "reading": "れんしゅうする",
+              "grammaticalForm": "Complete suru-verb dictionary form; れんしゅうする",
+              "sense": "1559160 n/vs/vt1 practice/training; frozen nounhead plus fullverbreading corresponds to reviewed existingN4verb. Future place question is context-licensed nonpast, no mandatoryfutureclaim; habitual progressive/pianoobjectを accurate. Suru stemchanges and retained imperativeせよ validmetadata. WholeOJAD2791れんしゅうする6mora0 directlyattested."
+            }
+          }
+        ]
       },
       "1050": {
         "examples": [
@@ -101077,6 +105134,27 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ],
         "pitch": null
+      },
+      "1239": {
+        "notes": "〜達 wird meist als たち geschrieben und kennzeichnet vor allem eine Gruppe von Menschen oder Tieren. 子供達 bedeutet „die Kinder“. Nach einem Personennamen meint es dagegen diese Person zusammen mit anderen: コウイチ達 heißt „Kōichi und die anderen“. Es ist kein automatisch erforderliches Pluralzeichen für jedes Nomen. Das Zeichen 〜 zeigt den Platz für den vorangehenden Ausdruck und wird nicht gesprochen; 達 ist die Kanji-Schreibung dieses Suffixes.",
+        "examples": [
+          {
+            "japanese": "コウイチ達、一体どこに行ったんだろう。",
+            "romaji": "Kōichi-tachi, ittai doko ni itta n darō.",
+            "german": "Ich frage mich, wohin Kōichi und die anderen gegangen sind."
+          },
+          {
+            "japanese": "子供達が遊んでいます。",
+            "romaji": "Kodomotachi ga asonde imasu.",
+            "german": "Die Kinder spielen."
+          }
+        ],
+        "aliases": [
+          "達"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       },
       "1292": {
         "examples": [
@@ -104940,6 +109018,27 @@ window.VOCAB_CORRECTION_RULES = {
         ],
         "pitch": null
       },
+      "2325": {
+        "notes": "各〜 steht vor einem Nomen und bedeutet „jeder einzelne“ oder „jeweils alle“: 各会場 meint jeden Veranstaltungsort, 各学校 jede Schule. Es passt etwa zu organisatorischen Mitteilungen und zur Verteilung von Aufgaben oder Unterlagen. Vor dem Nomen steht kein の. Das Zeichen 〜 markiert den folgenden Bestandteil und wird nicht ausgesprochen; 各 ist die Schreibung des Präfixes.",
+        "examples": [
+          {
+            "japanese": "各会場に、案内係が立っているはずです。",
+            "romaji": "Kaku kaijō ni, annaigakari ga tatte iru hazu desu.",
+            "german": "An jedem Veranstaltungsort müsste ein Mitarbeiter zur Auskunft bereitstehen."
+          },
+          {
+            "japanese": "各学校に同じ資料を送りました。",
+            "romaji": "Kaku gakkō ni onaji shiryō o okurimashita.",
+            "german": "Ich habe jeder Schule dieselben Unterlagen geschickt."
+          }
+        ],
+        "aliases": [
+          "各"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
       "2334": {
         "romaji": "ōzei",
         "examples": [
@@ -106139,6 +110238,28 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "2861": {
+        "meaning": "Abstammung, Zugehörigkeit; Typ",
+        "notes": "〜系 wird an einen Bestandteil angehängt und bezeichnet etwa eine Herkunft oder Zugehörigkeit: 韓国系 bedeutet „koreanischstämmig“. Umgangssprachlich beschreibt es auch einen Typ oder eine Ausstrahlung, wie in 癒し系 für Menschen, die beruhigend wirken. Das Zeichen 〜 ist ein Platzhalter und wird nicht gesprochen; 系 ist die Schreibung des angehängten Bestandteils. Diese Karte übt keinen selbstständigen mathematischen Begriff.",
+        "examples": [
+          {
+            "japanese": "私の町には韓国系アメリカ人がたくさん住んでいます。",
+            "romaji": "Watashi no machi ni wa Kankoku-kei Amerika-jin ga takusan sunde imasu.",
+            "german": "In meiner Stadt leben viele koreanischstämmige Amerikaner."
+          },
+          {
+            "japanese": "彼は癒し系の俳優として知られている。",
+            "romaji": "Kare wa iyashi-kei no haiyū to shite shirarete iru.",
+            "german": "Er ist als Schauspieler mit einer beruhigenden Ausstrahlung bekannt."
+          }
+        ],
+        "aliases": [
+          "系"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
       "2875": {
         "romaji": "kōnyū",
         "examples": [
@@ -106603,6 +110724,40 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "3048": {
+        "romaji": "sanpo suru",
+        "notes": "散歩する bedeutet „spazieren gehen“. 散歩 allein ist das Nomen „Spaziergang“; mit する entsteht das Verb, dessen Formen zum Beispiel 散歩します und 散歩した lauten. Ein Ort kann mit で angegeben werden; bei einer durchquerten Strecke steht auch を, wie in 河原を散歩する. 犬を連れて bedeutet „mit dem Hund“ beziehungsweise „den Hund mitnehmend“. Die erste Frage erkundigt sich nach der ungefähren Uhrzeit eines geplanten Spaziergangs.",
+        "examples": [
+          {
+            "japanese": "何時くらいに散歩する予定なんですか？",
+            "romaji": "Nanji kurai ni sanpo suru yotei nan desu ka?",
+            "german": "Um wie viel Uhr planen Sie, spazieren zu gehen?"
+          },
+          {
+            "japanese": "犬を連れて河原を散歩しました。",
+            "romaji": "Inu o tsurete kawara o sanpo shimashita.",
+            "german": "Ich ging mit dem Hund am Flussufer spazieren."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 8aa1996e0c09b440aed381d275a447a0211ea98c21e37229e54ab2d293b80d21",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%95%A3%E6%AD%A9%E3%81%99%E3%82%8B#2169_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">さ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">ぽ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2169_1_1_female\" href=\"#\" onclick=\"pronounce_play('2169_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2169_1_1_male\" href=\"#\" onclick=\"pronounce_play('2169_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "散歩する",
+              "reading": "さんぽする",
+              "grammaticalForm": "Complete suru-verb dictionary form; さんぽする",
+              "sense": "1303620 n/vs/vi1 exactwalk/stroll; nominal sourcehead散歩 plus verbreadingさんぽする explicitly encodes the whole suru verb, already existingN3target. Approximate-time plan versus past traversalwithdog are distinct. Routeを is traversal with intransitive movement, not a newly transitive object meaning; 連れて accompaniment exact. Dictionaryform/fullOJAD2169 directly displays さ low then んぽする high, no accent drop:0."
+            }
+          }
+        ]
+      },
       "3065": {
         "examples": [
           {
@@ -106683,6 +110838,40 @@ window.VOCAB_CORRECTION_RULES = {
               "reading": "おどろかす",
               "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
               "sense": "驚かす as \"überraschen\"."
+            }
+          }
+        ]
+      },
+      "3096": {
+        "romaji": "sōji suru",
+        "notes": "掃除する heißt „putzen“ oder „sauber machen“. Der gereinigte Ort steht als Objekt mit を: 家を掃除する, 床を掃除する. 大掃除する bezeichnet eine gründliche, größere Reinigung. Im Gespräch sind 掃除している und 起きている zu 掃除してる und 起きてる verkürzt; das zeigt den lockeren Ton des ersten Beispiels. Im zweiten Beispiel ordnet 〜てから die Handlungen: erst aufräumen, danach den Boden putzen. Ohne する ist 掃除 ein Nomen.",
+        "examples": [
+          {
+            "japanese": "「今朝は4時から起きてるよ。」「嘘でしょ？いったい何してるの？」「えっと…家を大掃除してるの。」",
+            "romaji": "\"Kesa wa yoji kara okiteru yo.\" \"Uso desho? Ittai nani shiteru no?\" \"Etto... ie o ōsōji shiteru no.\"",
+            "german": "„Ich bin heute Morgen seit vier Uhr wach.“ „Das gibt es doch nicht! Was machst du denn?“ „Ähm … ich mache das Haus gründlich sauber.“"
+          },
+          {
+            "japanese": "荷物を片付けてから、店の床を掃除しました。",
+            "romaji": "Nimotsu o katazukete kara, mise no yuka o sōji shimashita.",
+            "german": "Nachdem ich die Sachen weggeräumt hatte, putzte ich den Boden des Ladens."
+          }
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD",
+            "version": "Downloaded 2026-10-04; HTML SHA256 33435e592f548a918532cc9698c11d01a434e852475cd556d48684f1d0436c74",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8E%83%E9%99%A4%E3%81%99%E3%82%8B#2371_1_1",
+            "attribution": "OJAD, University of Tokyo; original written whole-word accent inspected",
+            "patterns": [
+              0
+            ],
+            "finding": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested. Actual辞書形 cell read, first mora low, remaining complete compound high, no accent_top drop. \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">そ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">じ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2371_1_1_female\" href=\"#\" onclick=\"pronounce_play('2371_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2371_1_1_male\" href=\"#\" onclick=\"pronounce_play('2371_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+            "match": {
+              "word": "掃除する",
+              "reading": "そうじする",
+              "grammaticalForm": "Complete suru-verb dictionary form; そうじする",
+              "sense": "1399790 n/vs/vt1 cleaning/sweeping; nominal sourcehead掃除 plus verbreadingそうじする identifies the existingwholeverb. Retained original three-turn colloquial dialogue actually says大掃除, translated gründlich; yoji/ōsōji correct readings, no invented dai-sōji. してる/起きてる contractions versus polite past work-sequence differentiated. Objects家/床を transitive. FullOJAD2371 exactそうじする0 directly attested."
             }
           }
         ]
@@ -122265,6 +126454,28 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "1568": {
+        "meaning": "eine von zwei Seiten; einseitig",
+        "notes": "片〜 bezeichnet hier einen Teil eines Paares: 片目 ist ein Auge, 片手 eine Hand. Es steht direkt vor dem betreffenden Bestandteil, ohne の. Im ersten Beispiel betrifft die eingeschränkte Sehkraft nur ein Auge; im zweiten reicht eine Hand nicht zum Tragen. Das Zeichen 〜 ist ein nicht gesprochenes Platzhalterzeichen. Diese Karte übt das Präfix かた und nicht die anderen Lesungen ひら oder へん für ein Stück beziehungsweise einen Bestandteil.",
+        "examples": [
+          {
+            "japanese": "片目だけ視力が悪いんです。",
+            "romaji": "Katame dake shiryoku ga warui n desu.",
+            "german": "Ich habe nur auf einem Auge eine schlechte Sehkraft."
+          },
+          {
+            "japanese": "荷物が重くて、片手では持てません。",
+            "romaji": "Nimotsu ga omokute, katate de wa motemasen.",
+            "german": "Das Gepäck ist schwer; mit einer Hand kann ich es nicht tragen."
+          }
+        ],
+        "aliases": [
+          "片"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
       "1574": {
         "examples": [
           {
@@ -122384,6 +126595,27 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "1661": {
+        "notes": "〜殿 ist eine förmliche Anrede nach einem Namen, etwa auf Urkunden oder in amtlichen und geschäftlichen Schreiben. Die Lesung ist hier どの: 中村コウイチ殿. Es ist keine allgemeine Empfehlung für jede persönliche Anrede; die passende Form hängt vom Schreiben und seinem institutionellen Gebrauch ab. Das Zeichen 〜 ist ein nicht gesprochener Platzhalter. Diese Karte übt das Anredesuffix und nicht 殿・との im Sinn von „Herr“ oder „Fürst“.",
+        "examples": [
+          {
+            "japanese": "この賞状は、中村コウイチ殿の優れた功績を称えて与えられます。",
+            "romaji": "Kono shōjō wa, Nakamura Kōichi-dono no sugureta kōseki o tataete ataeraremasu.",
+            "german": "Diese Urkunde wird Herrn Nakamura Kōichi in Anerkennung seiner herausragenden Leistungen verliehen."
+          },
+          {
+            "japanese": "通知書の宛名には「田中花子殿」と書かれていました。",
+            "romaji": "Tsūchisho no atena ni wa \"Tanaka Hanako-dono\" to kakarete imashita.",
+            "german": "In der Empfängerzeile der Mitteilung stand „Frau Hanako Tanaka“."
+          }
+        ],
+        "aliases": [
+          "殿"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       },
       "1670": {
         "examples": [
@@ -123307,6 +127539,27 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "2031": {
+        "notes": "〜歳 steht nach einer Zahl für ein Lebensalter. Die Aussprache verändert sich bei manchen Zahlen: 一歳 heißt いっさい, 八歳 はっさい und 二十歳 meist はたち. Bei 十歳 sind じっさい und じゅっさい gebräuchlich; die Beispiele verwenden じゅっさい. Das Zeichen 〜 markiert nur den Platz für die Zahl. 歳・さい ist hier ein Zählwort und nicht die selbstständige Lesung とし für „Jahr“ oder „Alter“.",
+        "examples": [
+          {
+            "japanese": "三十歳を過ぎてから、日本語を勉強し始めました。",
+            "romaji": "Sanjussai o sugite kara, Nihongo o benkyō shi-hajimemashita.",
+            "german": "Mit über dreißig begann ich, Japanisch zu lernen."
+          },
+          {
+            "japanese": "娘は今年十歳になります。",
+            "romaji": "Musume wa kotoshi jussai ni narimasu.",
+            "german": "Meine Tochter wird dieses Jahr zehn."
+          }
+        ],
+        "aliases": [
+          "歳"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       },
       "2036": {
         "examples": [
@@ -153224,13 +157477,57 @@ window.VOCAB_CORRECTION_RULES = {
       "1003": "vocab-n5:1003",
       "1004": "vocab-n5:1004",
       "1005": "vocab-n5:1005",
+      "1006": "vocab-n5:1006",
+      "1007": "vocab-n5:1007",
+      "1008": "vocab-n5:1008",
+      "1009": "vocab-n5:1009",
+      "1010": "vocab-n5:1010",
+      "1011": "vocab-n5:1011",
+      "1012": "vocab-n5:1012",
       "1013": "vocab-n5:1013",
+      "1014": "vocab-n5:1014",
+      "1015": "vocab-n5:1015",
+      "1016": "vocab-n5:1016",
       "1017": "vocab-n5:1017",
+      "1018": "vocab-n5:1018",
       "1019": "vocab-n5:1019",
+      "1020": "vocab-n5:1020",
+      "1021": "vocab-n5:1021",
+      "1022": "vocab-n5:1022",
+      "1023": "vocab-n5:1023",
+      "1024": "vocab-n5:1024",
+      "1025": "vocab-n5:1025",
+      "1026": "vocab-n5:1026",
+      "1027": "vocab-n5:1027",
+      "1028": "vocab-n5:1028",
+      "1029": "vocab-n5:1029",
+      "1030": "vocab-n5:1030",
+      "1031": "vocab-n5:1031",
+      "1032": "vocab-n5:1032",
+      "1033": "vocab-n5:1033",
+      "1034": "vocab-n5:1034",
+      "1035": "vocab-n5:1035",
+      "1036": "vocab-n5:1036",
+      "1037": "vocab-n5:1037",
+      "1038": "vocab-n5:1038",
+      "1039": "vocab-n5:1039",
+      "1040": "vocab-n5:1040",
+      "1041": "vocab-n5:1041",
+      "1042": "vocab-n5:1042",
+      "1043": "vocab-n5:1043",
       "1044": "vocab-n5:1044",
       "1045": "vocab-n5:1045",
+      "1046": "vocab-n5:1046",
+      "1047": "vocab-n5:1047",
       "1048": "vocab-n5:1048",
+      "1049": "vocab-n5:1049",
+      "1050": "vocab-n5:1050",
+      "1051": "vocab-n5:1051",
+      "1052": "vocab-n5:1052",
+      "1053": "vocab-n5:1053",
+      "1054": "vocab-n5:1054",
       "1055": "vocab-n5:1055",
+      "1056": "vocab-n5:1056",
       "1082": "vocab-n5:1082",
       "1083": "vocab-n5:1083",
       "1084": "vocab-n5:1084",
@@ -153256,6 +157553,56 @@ window.VOCAB_CORRECTION_RULES = {
       "1105": "vocab-n5:1105",
       "1106": "vocab-n5:1106",
       "1107": "vocab-n5:1107",
+      "1108": "vocab-n5:1108",
+      "1109": "vocab-n5:1109",
+      "1110": "vocab-n5:1110",
+      "1111": "vocab-n5:1111",
+      "1112": "vocab-n5:1112",
+      "1113": "vocab-n5:1113",
+      "1114": "vocab-n5:1114",
+      "1115": "vocab-n5:1115",
+      "1116": "vocab-n5:1116",
+      "1117": "vocab-n5:1117",
+      "1118": "vocab-n5:1118",
+      "1119": "vocab-n5:1119",
+      "1120": "vocab-n5:1120",
+      "1121": "vocab-n5:1121",
+      "1122": "vocab-n5:1122",
+      "1123": "vocab-n5:1123",
+      "1124": "vocab-n5:1124",
+      "1125": "vocab-n5:1125",
+      "1126": "vocab-n5:1126",
+      "1127": "vocab-n5:1127",
+      "1128": "vocab-n5:1128",
+      "1129": "vocab-n5:1129",
+      "1130": "vocab-n5:1130",
+      "1131": "vocab-n5:1131",
+      "1132": "vocab-n5:1132",
+      "1133": "vocab-n5:1133",
+      "1134": "vocab-n5:1134",
+      "1135": "vocab-n5:1135",
+      "1136": "vocab-n5:1136",
+      "1137": "vocab-n5:1137",
+      "1138": "vocab-n5:1138",
+      "1139": "vocab-n5:1139",
+      "1140": "vocab-n5:1140",
+      "1141": "vocab-n5:1141",
+      "1142": "vocab-n5:1142",
+      "1143": "vocab-n5:1143",
+      "1144": "vocab-n5:1144",
+      "1145": "vocab-n5:1145",
+      "1146": "vocab-n5:1146",
+      "1147": "vocab-n5:1147",
+      "1148": "vocab-n5:1148",
+      "1149": "vocab-n5:1149",
+      "1150": "vocab-n5:1150",
+      "1151": "vocab-n5:1151",
+      "1152": "vocab-n5:1152",
+      "1153": "vocab-n5:1153",
+      "1154": "vocab-n5:1154",
+      "1155": "vocab-n5:1155",
+      "1156": "vocab-n5:1156",
+      "1157": "vocab-n5:1157",
       "1188": "vocab-n5:1188",
       "1189": "vocab-n5:1189",
       "1194": "vocab-n5:1194",
@@ -153265,6 +157612,31 @@ window.VOCAB_CORRECTION_RULES = {
       "1205": "vocab-n5:1205",
       "1207": "vocab-n5:1207",
       "1220": "vocab-n5:1220",
+      "1235": "vocab-n5:1235",
+      "1236": "vocab-n5:1236",
+      "1237": "vocab-n5:1237",
+      "1238": "vocab-n5:1238",
+      "1239": "vocab-n5:1239",
+      "1240": "vocab-n5:1240",
+      "1241": "vocab-n5:1241",
+      "1242": "vocab-n5:1242",
+      "1244": "vocab-n5:1244",
+      "1245": "vocab-n5:1245",
+      "1246": "vocab-n5:1246",
+      "1247": "vocab-n5:1247",
+      "1249": "vocab-n5:1249",
+      "1250": "vocab-n5:1250",
+      "1251": "vocab-n5:1251",
+      "1252": "vocab-n5:1252",
+      "1253": "vocab-n5:1253",
+      "1254": "vocab-n5:1254",
+      "1255": "vocab-n5:1255",
+      "1256": "vocab-n5:1256",
+      "1257": "vocab-n5:1257",
+      "1258": "vocab-n5:1258",
+      "1259": "vocab-n5:1259",
+      "1260": "vocab-n5:1260",
+      "1261": "vocab-n5:1261",
       "1279": "vocab-n5:1279",
       "1302": "vocab-n5:1302",
       "1323": "vocab-n5:1323",
@@ -153394,6 +157766,7 @@ window.VOCAB_CORRECTION_RULES = {
       "694": "vocab-n4:694",
       "695": "vocab-n4:695",
       "727": "vocab-n4:727",
+      "749": "vocab-n4:749",
       "761": "vocab-n4:761",
       "765": "vocab-n4:765",
       "775": "vocab-n4:775",
@@ -153405,9 +157778,11 @@ window.VOCAB_CORRECTION_RULES = {
       "895": "vocab-n4:895",
       "901": "vocab-n4:901",
       "944": "vocab-n4:944",
+      "957": "vocab-n4:957",
       "978": "vocab-n4:978",
       "980": "vocab-n4:980",
       "1008": "vocab-n4:1008",
+      "1024": "vocab-n4:1024",
       "1050": "vocab-n4:1050",
       "1071": "vocab-n4:1071",
       "1099": "vocab-n4:1099",
@@ -153420,6 +157795,7 @@ window.VOCAB_CORRECTION_RULES = {
       "1193": "vocab-n4:1193",
       "1197": "vocab-n4:1197",
       "1199": "vocab-n4:1199",
+      "1239": "vocab-n4:1239",
       "1292": "vocab-n4:1292",
       "1312": "vocab-n4:1312",
       "1323": "vocab-n4:1323",
@@ -153541,6 +157917,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2280": "vocab-n3:2280",
       "2292": "vocab-n3:2292",
       "2319": "vocab-n3:2319",
+      "2325": "vocab-n3:2325",
       "2334": "vocab-n3:2334",
       "2392": "vocab-n3:2392",
       "2397": "vocab-n3:2397",
@@ -153590,6 +157967,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2847": "vocab-n3:2847",
       "2853": "vocab-n3:2853",
       "2854": "vocab-n3:2854",
+      "2861": "vocab-n3:2861",
       "2875": "vocab-n3:2875",
       "2876": "vocab-n3:2876",
       "2883": "vocab-n3:2883",
@@ -153609,9 +157987,11 @@ window.VOCAB_CORRECTION_RULES = {
       "2999": "vocab-n3:2999",
       "3012": "vocab-n3:3012",
       "3034": "vocab-n3:3034",
+      "3048": "vocab-n3:3048",
       "3065": "vocab-n3:3065",
       "3091": "vocab-n3:3091",
       "3095": "vocab-n3:3095",
+      "3096": "vocab-n3:3096",
       "3105": "vocab-n3:3105",
       "3132": "vocab-n3:3132",
       "3137": "vocab-n3:3137",
@@ -154021,11 +158401,13 @@ window.VOCAB_CORRECTION_RULES = {
       "1526": "vocab-n2:1526",
       "1541": "vocab-n2:1541",
       "1550": "vocab-n2:1550",
+      "1568": "vocab-n2:1568",
       "1574": "vocab-n2:1574",
       "1611": "vocab-n2:1611",
       "1628": "vocab-n2:1628",
       "1652": "vocab-n2:1652",
       "1654": "vocab-n2:1654",
+      "1661": "vocab-n2:1661",
       "1670": "vocab-n2:1670",
       "1672": "vocab-n2:1672",
       "1674": "vocab-n2:1674",
@@ -154063,6 +158445,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2010": "vocab-n2:2010",
       "2021": "vocab-n2:2021",
       "2027": "vocab-n2:2027",
+      "2031": "vocab-n2:2031",
       "2036": "vocab-n2:2036",
       "2052": "vocab-n2:2052",
       "2075": "vocab-n2:2075",
