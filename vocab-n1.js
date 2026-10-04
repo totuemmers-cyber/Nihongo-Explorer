@@ -114498,22 +114498,30 @@ window.VOCAB_N1 = [
     "word": "留める",
     "reading": "とどめる",
     "romaji": "todomeru",
-    "meaning": "beschränken auf, halten (bei); festhalten (im Gedächtnis, in Aufzeichnungen)",
+    "meaning": "aufhalten, zurückhalten; beschränken; festhalten (in Aufzeichnungen)",
     "type": "Verb",
     "category": "Handlung",
     "level": "N1",
-    "notes": "Gehoben, oft in Kana (とどめる): 被害を最小限に留める (den Schaden gering halten), 記憶に留める (im Gedächtnis behalten), 原形をとどめない (nicht wiederzuerkennen sein). Mit der Lesung とめる: befestigen, anstecken; auch 心に留める / 気に留める (beherzigen, beachten).",
+    "notes": "留める／止める mit der Lesung とどめる ist transitiv: Man hält jemanden oder etwas zurück, begrenzt einen Vorgang oder hält eine Tatsache fest. Die betroffene Person oder Sache steht mit を. 出発をとどめる heißt „die Abreise verhindern“, 被害を最小限にとどめる „den Schaden gering halten“ und 記録にとどめる „schriftlich festhalten“. Für den Aufzeichnungssinn verwendet man besonders 留める. Die Lesung とどめる ist ein Ichidan-Verb mit とどめます und とどめて; とめる ist eine eigene Lesung mit anderen gebräuchlichen Wendungen.",
     "examples": [
       {
         "japanese": "被害を最小限に留めることができた。",
-        "romaji": "Higai o saishougen ni todomeru koto ga dekita.",
+        "romaji": "Higai o saishōgen ni todomeru koto ga dekita.",
         "german": "Wir konnten den Schaden auf ein Minimum begrenzen."
       },
       {
         "japanese": "事故の教訓を記録に留めておく必要がある。",
-        "romaji": "Jiko no kyoukun o kiroku ni todomete oku hitsuyou ga aru.",
+        "romaji": "Jiko no kyōkun o kiroku ni todomete oku hitsuyō ga aru.",
         "german": "Die Lehren aus dem Unfall müssen schriftlich festgehalten werden."
+      },
+      {
+        "japanese": "警官は危険を察し、乗客の出発を止めた。",
+        "romaji": "Keikan wa kiken o sasshi, jōkyaku no shuppatsu o todometa.",
+        "german": "Der Polizist erkannte die Gefahr und hielt die Fahrgäste von der Abreise ab."
       }
+    ],
+    "aliases": [
+      "止める"
     ],
     "pitch": 3,
     "verbGroup": "ichidan",
@@ -114527,18 +114535,102 @@ window.VOCAB_N1 = [
     "pitchProvenance": [
       {
         "source": "現代書き言葉UniDic",
-        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
-        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
         "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186286390",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
         "patterns": [
           3
         ],
-        "finding": "留める / トドメル; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; lemma 留める; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "selectedRow": {
+          "locator": "sys.dic@186286390",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "下一段-マ行",
+            "終止形-一般",
+            "トドメル",
+            "留める",
+            "留める",
+            "トドメル",
+            "留める",
+            "トドメル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "トドメル",
+            "トドメル",
+            "トドメル",
+            "トドメル",
+            "3",
+            "C1",
+            "*",
+            "7289220993524395",
+            "26518"
+          ]
+        },
+        "finding": "Personally read original sys.dic@186286390, orth=留める, surfacekana20=トドメル, pronunciation9=トドメル, lemma=留める, POS=動詞/一般/*/*, 下一段-マ行/終止形-一般, aType=3. 1598820 exactunrestricted留める/止めるとどめる selectedstop1/limit4/record5; newdepartureprevention contextgenuinelyteaches1 whiletwoexistinggoodcontexts preserved. Shogakukan22295 exactとどめる stop/retain distinguishesotherとめる. Original186286390/186285938 wholeterminal3; entireIchidanmetadata unchanged andaccepted留める#0/#1 renewedatomically. OldHepburnlongvowels correctedonly.",
         "match": {
           "word": "留める",
           "reading": "とどめる",
           "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
-          "sense": "留める as \"beschränken auf, halten (bei); festhalten (im Gedächtnis, in Aufzeichnungen)\"."
+          "sense": "aufhalten, zurückhalten; beschränken; festhalten (in Aufzeichnungen)"
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186285938",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@186285938",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "下一段-マ行",
+            "終止形-一般",
+            "トドメル",
+            "留める",
+            "止める",
+            "トドメル",
+            "止める",
+            "トドメル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "トドメル",
+            "トドメル",
+            "トドメル",
+            "トドメル",
+            "3",
+            "C1",
+            "*",
+            "7289221027078827",
+            "26518"
+          ]
+        },
+        "finding": "Personally read original sys.dic@186285938, orth=止める, surfacekana20=トドメル, pronunciation9=トドメル, lemma=留める, POS=動詞/一般/*/*, 下一段-マ行/終止形-一般, aType=3. 1598820 exactunrestricted留める/止めるとどめる selectedstop1/limit4/record5; newdepartureprevention contextgenuinelyteaches1 whiletwoexistinggoodcontexts preserved. Shogakukan22295 exactとどめる stop/retain distinguishesotherとめる. Original186286390/186285938 wholeterminal3; entireIchidanmetadata unchanged andaccepted留める#0/#1 renewedatomically. OldHepburnlongvowels correctedonly.",
+        "match": {
+          "word": "留める",
+          "reading": "とどめる",
+          "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+          "sense": "aufhalten, zurückhalten; beschränken; festhalten (in Aufzeichnungen)"
         }
       }
     ],
@@ -131410,5 +131502,1023 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:gankyo-glasses"
+  },
+  {
+    "word": "会",
+    "reading": "え",
+    "romaji": "e",
+    "meaning": "Religiöse oder festliche Zusammenkunft (historisch)",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N1",
+    "notes": "Die Lesung え gehört vor allem zu älteren Texten über buddhistische Zeremonien oder Feste. 会を設ける bezeichnet dort das Veranstalten einer Zusammenkunft. Ein heutiges Treffen oder ein Verein heißt gewöhnlich 会（かい）; für „Verständnis“ ist diese eigenständige Lesung え ungeeignet.",
+    "examples": [
+      {
+        "japanese": "僧たちは寺に会を設け、亡くなった人々のために祈った。",
+        "romaji": "Sōtachi wa tera ni e o mōke, nakunatta hitobito no tame ni inotta.",
+        "german": "Die Mönche veranstalteten im Tempel eine religiöse Zusammenkunft und beteten für die Verstorbenen."
+      },
+      {
+        "japanese": "古い記録には、祭りの会に村人が集まったとある。",
+        "romaji": "Furui kiroku ni wa, matsuri no e ni murabito ga atsumatta to aru.",
+        "german": "In einer alten Aufzeichnung steht, dass sich die Dorfbewohner zu einer festlichen Zusammenkunft versammelten."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69555290",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 会/エ; lemma 会; POS 名詞/普通名詞/一般/*; row 69555290, aType 1. Complete JMdict1198160 sole noun1 explicitly archaic gathering; licensed Daijisen/NipponKokugo independentえ religious/festive gathering. Modernかい and component悟る/understanding not taught; originalTANOS literal understanding explicitly substantively corrected, not a source-notation normalization.",
+        "match": {
+          "word": "会",
+          "reading": "え",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; archaic independent noun",
+          "sense": "Complete JMdict1198160 sole noun1 explicitly archaic gathering; licensed Daijisen/NipponKokugo independentえ religious/festive gathering. Modernかい and component悟る/understanding not taught; originalTANOS literal understanding explicitly substantively corrected, not a source-notation normalization."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:e-religious-gathering"
+  },
+  {
+    "word": "重",
+    "reading": "え",
+    "romaji": "e",
+    "meaning": "Lage; Schicht (Zählwort mit japanischen Zahlformen)",
+    "type": "Nomen",
+    "category": "Mengen",
+    "level": "N1",
+    "notes": "重（え） zählt Lagen mit den japanischen Zahlformen: 一重（ひとえ）、二重（ふたえ）、三重（みえ）. Bei Stoffen beschreibt 二重に重ねる zwei übereinanderliegende Lagen; bei Blüten bezeichnet 八重（やえ） viele Blütenblattlagen. Die Lesung え lässt sich nicht einfach an beliebige sinojapanische Zahlen anhängen.",
+    "examples": [
+      {
+        "japanese": "寒いので、毛布を二重にして寝ました。",
+        "romaji": "Samui node, mōfu o futae ni shite nemashita.",
+        "german": "Weil es kalt war, schlief ich unter zwei Lagen einer Decke."
+      },
+      {
+        "japanese": "庭の桜には、一重の花と八重の花があります。",
+        "romaji": "Niwa no sakura ni wa, hitoe no hana to yae no hana ga arimasu.",
+        "german": "Die Kirschbäume im Garten haben Blüten mit einer Blütenblattlage und gefüllte Blüten mit mehreren Lagen."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:e-layer-counter"
+  },
+  {
+    "word": "役",
+    "reading": "えき",
+    "romaji": "eki",
+    "meaning": "Krieg; Feldzug (in historischen Bezeichnungen)",
+    "type": "Nomen",
+    "category": "Geschichte",
+    "level": "N1",
+    "notes": "役（えき） erscheint besonders in historischen Kriegsnamen wie 文禄の役 und 慶長の役. の verbindet die Bezeichnung mit 役; eine alltägliche „Aufgabe“ oder eine Theaterrolle heißt dagegen 役（やく）. Für einen gegenwärtigen Krieg ist 戦争 die übliche allgemeine Bezeichnung.",
+    "examples": [
+      {
+        "japanese": "授業では、文禄の役が始まった理由を調べました。",
+        "romaji": "Jugyō de wa, Bunroku no eki ga hajimatta riyū o shirabemashita.",
+        "german": "Im Unterricht untersuchten wir, warum der Bunroku-Feldzug begann."
+      },
+      {
+        "japanese": "慶長の役の後、両国の関係は少しずつ変わっていきました。",
+        "romaji": "Keichō no eki no ato, ryōkoku no kankei wa sukoshi zutsu kawatte ikimashita.",
+        "german": "Nach dem Keichō-Feldzug veränderten sich die Beziehungen zwischen den beiden Ländern allmählich."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69964271",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 役/エキ; lemma 役; POS 名詞/普通名詞/一般/*; row 69964271, aType 1. Full1537960 readingsえき/えだち unrestricted noun1 war/campaign selected; archaic unpaid forcedlabour2 unselected. Licensed独立えき noun historicalcampaign; no actorroleやく transferred. Own69964271,aType1.",
+        "match": {
+          "word": "役",
+          "reading": "えき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; historical-topic independent noun",
+          "sense": "Full1537960 readingsえき/えだち unrestricted noun1 war/campaign selected; archaic unpaid forcedlabour2 unselected. Licensed独立えき noun historicalcampaign; no actorroleやく transferred. Own69964271,aType1."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:eki-military-campaign"
+  },
+  {
+    "word": "塩",
+    "reading": "えん",
+    "romaji": "en",
+    "meaning": "Salz (chemische Stoffklasse)",
+    "type": "Nomen",
+    "category": "Wissenschaft",
+    "level": "N1",
+    "notes": "In der Chemie bezeichnet 塩（えん） eine Stoffklasse, zu der zum Beispiel Natriumchlorid und Calciumsulfat gehören. Es geht also nicht nur um essbares Kochsalz. Bei Speisen liest man 塩 gewöhnlich しお; in einem chemischen Zusammenhang können 塩の結晶 und 塩が生成する die Lesung えん haben.",
+    "examples": [
+      {
+        "japanese": "酸と塩基が反応すると、塩が生成する場合があります。",
+        "romaji": "San to enki ga hannō suru to, en ga seisei suru baai ga arimasu.",
+        "german": "Wenn eine Säure mit einer Base reagiert, kann ein Salz entstehen."
+      },
+      {
+        "japanese": "実験では、水に溶かした塩の結晶を取り出しました。",
+        "romaji": "Jikken de wa, mizu ni tokashita en no kesshō o toridashimashita.",
+        "german": "Im Experiment gewannen wir Kristalle eines zuvor in Wasser gelösten Salzes."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71810210",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 塩/エン; lemma 塩; POS 名詞/普通名詞/一般/*; row 71810210, aType 1. Full2847901 exactえん chemistry noun1 class salt selected; chloride abbreviation2 unselected. Exact71810210,aType1 commonnoun independent chemicalrole; noしお table-salt substitution.",
+        "match": {
+          "word": "塩",
+          "reading": "えん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; chemistry noun",
+          "sense": "Full2847901 exactえん chemistry noun1 class salt selected; chloride abbreviation2 unselected. Exact71810210,aType1 commonnoun independent chemicalrole; noしお table-salt substitution."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:en-chemical-salt"
+  },
+  {
+    "word": "艶",
+    "reading": "えん",
+    "romaji": "en",
+    "meaning": "Anmut; reizvoll, sinnlich schön (literarisch)",
+    "type": "Adjektiv",
+    "category": "Kultur",
+    "level": "N1",
+    "notes": "艶（えん） wirkt literarisch und beschreibt reizvolle, oft sinnliche Schönheit. Als Nomen kann es in 艶を競う stehen; als な-Adjektiv verbindet es sich mit einem Nomen, etwa 艶な姿. Den Glanz einer Oberfläche bezeichnet man gewöhnlich mit der anderen Lesung 艶（つや）.",
+    "examples": [
+      {
+        "japanese": "舞台に立つ二人の踊り手は、それぞれの艶を競っていた。",
+        "romaji": "Butai ni tatsu futari no odorite wa, sorezore no en o kisotte ita.",
+        "german": "Die beiden Tänzer auf der Bühne wetteiferten mit ihrer jeweiligen Anmut."
+      },
+      {
+        "japanese": "彼女の艶な姿が、古い映画の観客を魅了した。",
+        "romaji": "Kanojo no en na sugata ga, furui eiga no kankyaku o miryō shita.",
+        "german": "Ihre sinnlich schöne Erscheinung faszinierte das Publikum des alten Films."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71812265",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 艶/エン; lemma 艶; POS 名詞/普通名詞/形状詞可能/*; row 71812265, aType 1. Full1615260 sole exactえん adj-na/n charming/fascinating/voluptuous; actual Shogakukan艶を競う/艶な姿 supports both roles. Own71812265 adjective-capable noun,aType1; otherあで/つや readings not selected.",
+        "match": {
+          "word": "艶",
+          "reading": "えん",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; cType *; cForm *; literary noun / na-adjective",
+          "sense": "Full1615260 sole exactえん adj-na/n charming/fascinating/voluptuous; actual Shogakukan艶を競う/艶な姿 supports both roles. Own71812265 adjective-capable noun,aType1; otherあで/つや readings not selected."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:en-alluring-beauty"
+  },
+  {
+    "word": "園",
+    "reading": "えん",
+    "romaji": "en",
+    "meaning": "Angelegter Garten; Park (seltene selbständige Lesung)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N1",
+    "notes": "Als selbständiges Wort ist 園（えん） eine seltene, eher literarische Bezeichnung für einen angelegten Garten oder Park. In einer Beschreibung können 園の木陰 oder 園を歩く stehen. Im Alltag sind 庭園 oder 公園 eindeutiger; die hier gelernte Bedeutung bezeichnet keine abgekürzte Kindergarteneinrichtung.",
+    "examples": [
+      {
+        "japanese": "旅人は園の木陰に腰を下ろした。",
+        "romaji": "Tabibito wa en no kokage ni koshi o oroshita.",
+        "german": "Der Reisende setzte sich im Schatten der Bäume des Gartens nieder."
+      },
+      {
+        "japanese": "この園を造る際には、池の周りに遊歩道が設けられた。",
+        "romaji": "Kono en o tsukuru sai ni wa, ike no mawari ni yūhodō ga mōkerareta.",
+        "german": "Bei der Anlage dieses Gartens wurde rund um den Teich ein Spazierweg angelegt."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71809457",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 園/エン; lemma 園; POS 名詞/普通名詞/一般/*; row 71809457, aType 1. Licensed original Shogakukan精選版日本国語大辞典 independentえん【園】名詞 definition manmade garden/park and1877 citation positively supplies independent role. FullJMdict2854424 sense1 garden is ONLY n-suf and used here solely as related lexicalsense corroboration, never falsely relabeled noun; kindergarten-abbreviation noun2 unselected. Own71809457 independentnoun,aType1. Distinct independent-garden-noun senseKey.",
+        "match": {
+          "word": "園",
+          "reading": "えん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent literary garden noun",
+          "sense": "Licensed original Shogakukan精選版日本国語大辞典 independentえん【園】名詞 definition manmade garden/park and1877 citation positively supplies independent role. FullJMdict2854424 sense1 garden is ONLY n-suf and used here solely as related lexicalsense corroboration, never falsely relabeled noun; kindergarten-abbreviation noun2 unselected. Own71809457 independentnoun,aType1. Distinct independent-garden-noun senseKey."
+        }
+      }
+    ],
+    "senseKey": "independent-garden-noun",
+    "correctionId": "vocab-n1:correction:en-garden-noun"
+  },
+  {
+    "word": "園",
+    "reading": "えん",
+    "romaji": "en",
+    "meaning": "-Garten; -Plantage; -Park (Suffix)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N1",
+    "notes": "Die Endung 園（えん） bezeichnet in zusammengesetzten Wörtern ein angelegtes Gelände: 農園 ist ein landwirtschaftlicher Betrieb mit Anbauflächen, 公園 ein öffentlicher Park. Die Partikel steht nach dem ganzen Wort, zum Beispiel 農園で oder 公園を. Als Endung wird 園 unmittelbar an den vorangehenden Wortteil angeschlossen.",
+    "examples": [
+      {
+        "japanese": "この農園では、秋にりんごを収穫します。",
+        "romaji": "Kono nōen de wa, aki ni ringo o shūkaku shimasu.",
+        "german": "Auf dieser Obstplantage werden im Herbst Äpfel geerntet."
+      },
+      {
+        "japanese": "駅まで行くなら、公園を通ると近道になります。",
+        "romaji": "Eki made iku nara, kōen o tōru to chikamichi ni narimasu.",
+        "german": "Wenn du zum Bahnhof möchtest, ist der Weg durch den Park eine Abkürzung."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "bound-garden-suffix",
+    "correctionId": "vocab-n1:correction:en-garden-suffix"
+  },
+  {
+    "word": "玉",
+    "reading": "ぎょく",
+    "romaji": "gyoku",
+    "meaning": "Edelstein, besonders Jade; König im Shōgi",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N1",
+    "notes": "玉（ぎょく） bezeichnet einen kostbaren Stein, besonders Jade, und beim Shōgi die Königsfigur. Im Spiel ist es eine Kurzform von 玉将（ぎょくしょう）; bei einem Schmuckstück entscheidet der Zusammenhang über die Steinbedeutung. Die gewöhnliche Lesung たま für einen Ball oder eine Kugel lässt sich hier nicht einsetzen.",
+    "examples": [
+      {
+        "japanese": "この玉は、磨くと深い緑色の光を放ちます。",
+        "romaji": "Kono gyoku wa, migaku to fukai midoriiro no hikari o hanachimasu.",
+        "german": "Dieser Jadestein schimmert nach dem Polieren tiefgrün."
+      },
+      {
+        "japanese": "職人は小さな玉を彫り、帯の飾りにしました。",
+        "romaji": "Shokunin wa chīsana gyoku o hori, obi no kazari ni shimashita.",
+        "german": "Der Handwerker schnitzte einen kleinen Jadestein und machte daraus einen Schmuck für einen Obi."
+      },
+      {
+        "japanese": "自分の玉が逃げられる場所を確認してください。",
+        "romaji": "Jibun no gyoku ga nigerareru basho o kakunin shite kudasai.",
+        "german": "Prüfen Sie, auf welche Felder Ihr König ausweichen kann."
+      },
+      {
+        "japanese": "相手の玉を追う前に、自分の玉の安全を考えます。",
+        "romaji": "Aite no gyoku o ou mae ni, jibun no gyoku no anzen o kangaemasu.",
+        "german": "Bevor ich den gegnerischen König angreife, denke ich an die Sicherheit meines eigenen Königs."
+      }
+    ],
+    "aliases": [],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109372888",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Actual original whole surface 玉/ギョク; lemma 玉; POS 名詞/普通名詞/一般/*; row 109372888, aType 0. Full1921990 noun1 preciousstone/jade and shogi-abbreviation7 kingofjuniorplayer selected; historicalごく note not currentalias; sushi2,security3,position4,geisha5/6 unselected. Two actual contexts per selectedsense. Own109372888,aType0 commonnoun; propername109372190,aType1 excluded; actualwholeOJAD5433flat0 agrees.",
+        "match": {
+          "word": "玉",
+          "reading": "ぎょく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent noun with explicit jade and shogi king senses",
+          "sense": "Full1921990 noun1 preciousstone/jade and shogi-abbreviation7 kingofjuniorplayer selected; historicalごく note not currentalias; sushi2,security3,position4,geisha5/6 unselected. Two actual contexts per selectedsense. Own109372888,aType0 commonnoun; propername109372190,aType1 excluded; actualwholeOJAD5433flat0 agrees."
+        }
+      },
+      {
+        "source": "OJAD, University of Tokyo",
+        "version": "Original complete dictionary cell personally inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8E%89#word_5433",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          0
+        ],
+        "finding": "Actual whole cell 5433 ぎょく; pattern 0. Full1921990 noun1 preciousstone/jade and shogi-abbreviation7 kingofjuniorplayer selected; historicalごく note not currentalias; sushi2,security3,position4,geisha5/6 unselected. Two actual contexts per selectedsense. Own109372888,aType0 commonnoun; propername109372190,aType1 excluded; actualwholeOJAD5433flat0 agrees.",
+        "match": {
+          "word": "玉",
+          "reading": "ぎょく",
+          "grammaticalForm": "Complete independent noun dictionary head; no other-reading or compound-role transfer",
+          "sense": "Full1921990 noun1 preciousstone/jade and shogi-abbreviation7 kingofjuniorplayer selected; historicalごく note not currentalias; sushi2,security3,position4,geisha5/6 unselected. Two actual contexts per selectedsense. Own109372888,aType0 commonnoun; propername109372190,aType1 excluded; actualwholeOJAD5433flat0 agrees."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:gyoku-jade-shogi-king"
+  },
+  {
+    "word": "生",
+    "reading": "き",
+    "romaji": "ki",
+    "meaning": "Unverdünnter, unverfälschter Zustand (besonders Alkohol)",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N1",
+    "notes": "Bei Getränken bedeutet 生（き） „pur, ohne Verdünnung“. 生で飲む sagt, wie man das Getränk trinkt; 生のまま beschreibt den unveränderten Zustand. Die Lesung なま wird in anderen Zusammenhängen etwa für rohe Speisen oder frisches Bier verwendet und ist hier nicht die gelernte Lesung.",
+    "examples": [
+      {
+        "japanese": "父はこのウイスキーを生で飲みます。",
+        "romaji": "Chichi wa kono uisukī o ki de nomimasu.",
+        "german": "Mein Vater trinkt diesen Whisky pur."
+      },
+      {
+        "japanese": "この酒は、生のままだと香りがよく分かります。",
+        "romaji": "Kono sake wa, ki no mama da to kaori ga yoku wakarimasu.",
+        "german": "Bei diesem Alkohol erkennt man das Aroma gut, wenn er unverdünnt bleibt."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101935601",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 生/キ; lemma 生; POS 名詞/普通名詞/一般/*; row 101935601, aType 1. Complete1378440 sole noun/prefix1 pure/undiluted/raw/crude; selected independent undilutedrole positively licensed original Daijisenウイスキーを生で飲む and bilingualdrinkneat. Exact101935601 commonnounキ,aType1; なま/せい and prefixtransferexcluded. Independent-undiluted-noun senseKey.",
+        "match": {
+          "word": "生",
+          "reading": "き",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent pure/undiluted noun",
+          "sense": "Complete1378440 sole noun/prefix1 pure/undiluted/raw/crude; selected independent undilutedrole positively licensed original Daijisenウイスキーを生で飲む and bilingualdrinkneat. Exact101935601 commonnounキ,aType1; なま/せい and prefixtransferexcluded. Independent-undiluted-noun senseKey."
+        }
+      }
+    ],
+    "senseKey": "independent-undiluted-noun",
+    "correctionId": "vocab-n1:correction:ki-undiluted-noun"
+  },
+  {
+    "word": "生",
+    "reading": "き",
+    "romaji": "ki",
+    "meaning": "Pur; unverarbeitet, naturbelassen (Präfix)",
+    "type": "Nomen",
+    "category": "Material",
+    "level": "N1",
+    "notes": "Als Vorsilbe beschreibt 生（き） etwas Unverfälschtes oder noch nicht Weiterverarbeitetes. 生糸（きいと） ist Rohseide vor der weiteren Behandlung; 生醤油（きじょうゆ） bezeichnet hier reine, nicht mit weiteren Zutaten vermischte Sojasoße. Die Lesung gehört zum jeweiligen ganzen Wort und ist von なま in anderen Zusammensetzungen zu unterscheiden.",
+    "examples": [
+      {
+        "japanese": "この布には、精練する前の生糸が使われています。",
+        "romaji": "Kono nuno ni wa, seiren suru mae no kiito ga tsukawarete imasu.",
+        "german": "Für diesen Stoff wird Rohseide vor dem Entbasten verwendet."
+      },
+      {
+        "japanese": "この店では、生醤油に砂糖を加えて、たれを作ります。",
+        "romaji": "Kono mise de wa, kijōyu ni satō o kuwaete, tare o tsukurimasu.",
+        "german": "In diesem Geschäft stellt man die Sauce her, indem man reiner Sojasoße Zucker zusetzt."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "bound-unprocessed-prefix",
+    "correctionId": "vocab-n1:correction:ki-unprocessed-prefix"
+  },
+  {
+    "word": "冠",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Zeremonielle Kopfbedeckung; Krone; historische Volljährigkeitszeremonie",
+    "type": "Nomen",
+    "category": "Geschichte",
+    "level": "N1",
+    "notes": "Die selbständige Lesung 冠（かん） begegnet in gelehrten oder historischen Texten für eine zeremonielle Kopfbedeckung oder Krone. Alltäglicher ist かんむり. In der Beschreibung altchinesischer Bräuche kann 冠 auch die Zeremonie bezeichnen, bei der ein junger Mann erstmals die Kopfbedeckung eines Erwachsenen erhält; das ist keine allgemeine Bedeutung „benennen“.",
+    "examples": [
+      {
+        "japanese": "この絵では、天皇が冠を着けています。",
+        "romaji": "Kono e de wa, tennō ga kan o tsukete imasu.",
+        "german": "Auf diesem Bild trägt der Kaiser eine zeremonielle Kopfbedeckung."
+      },
+      {
+        "japanese": "金の冠には、赤い宝石がはめ込まれていた。",
+        "romaji": "Kin no kan ni wa, akai hōseki ga hamekomarete ita.",
+        "german": "In die goldene Krone waren rote Edelsteine eingelassen."
+      },
+      {
+        "japanese": "古代中国では、成人の儀式を「冠」と呼びました。",
+        "romaji": "Kodai Chūgoku de wa, seijin no gishiki o \"kan\" to yobimashita.",
+        "german": "Im alten China nannte man die Zeremonie des Erwachsenwerdens „kan“."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99948476",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 冠/カン; lemma 冠; POS 名詞/普通名詞/一般/*; row 99948476, aType 1. Full1577620 unrestricted noun1 traditionalcap and2crown selected; actual licensed NipponKokugo independentかん[1]②元服/加冠 separately positively supplies historicalcoming-of-age noun, explicitly not assigned toJMdict. Raw naming/title6 and radical3 stagrかんむり excluded; counter7 and verbstem100580874 not claimed. Exactindependentnoun99948476,aType1 applies bare head. Independent-ceremonial-crown-noun senseKey. OriginalfullTANOSPDF33 restorescap/crown/peerless andcoming-of-agetail, substantivegloss correctionfullyexplicit.",
+        "match": {
+          "word": "冠",
+          "reading": "かん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent ceremonial cap/crown; historical coming-of-age only if licensed scope selected explicitly",
+          "sense": "Full1577620 unrestricted noun1 traditionalcap and2crown selected; actual licensed NipponKokugo independentかん[1]②元服/加冠 separately positively supplies historicalcoming-of-age noun, explicitly not assigned toJMdict. Raw naming/title6 and radical3 stagrかんむり excluded; counter7 and verbstem100580874 not claimed. Exactindependentnoun99948476,aType1 applies bare head. Independent-ceremonial-crown-noun senseKey. OriginalfullTANOSPDF33 restorescap/crown/peerless andcoming-of-agetail, substantivegloss correctionfullyexplicit."
+        }
+      }
+    ],
+    "senseKey": "independent-ceremonial-crown-noun",
+    "correctionId": "vocab-n1:correction:kan-crown-noun"
+  },
+  {
+    "word": "冠",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Herausragend; unübertroffen (literarisch, mit たる)",
+    "type": "Adjektiv",
+    "category": "Bewertung",
+    "level": "N1",
+    "notes": "冠（かん） steht in gehobener Sprache besonders in der Verbindung ～に冠たる: „unter/in … herausragend“. たる verbindet das Wort mit dem folgenden Nomen, etwa 世界に冠たる技術. Es ist hier kein gewöhnliches な-Adjektiv und bezeichnet weder eine Kopfbedeckung noch die Zahl gewonnener Titel.",
+    "examples": [
+      {
+        "japanese": "この地域は、世界に冠たる織物の技術を守り続けている。",
+        "romaji": "Kono chiiki wa, sekai ni kan taru orimono no gijutsu o mamoritsuzukete iru.",
+        "german": "Diese Region bewahrt weiterhin ihre weltweit herausragende Webkunst."
+      },
+      {
+        "japanese": "当時、その大学は国内に冠たる研究設備を備えていた。",
+        "romaji": "Tōji, sono daigaku wa kokunai ni kan taru kenkyū setsubi o sonaete ita.",
+        "german": "Damals verfügte diese Universität über landesweit unübertroffene Forschungseinrichtungen."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99948619",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 冠/カン; lemma 冠; POS 形状詞/タリ/*/*; row 99948619, aType 1. Complete1577620 selected5 explicitlystagrかん adj-t/adverb-to best/peerless/first; actualShogakukan worldに冠たる supports productivelearnedconstruction. Actual99948619形状詞/タリ,aType1 ownrole; separate capnoun99948476 and suffixtitlecounter99948756* and verbstem row100580874, aType1 excluded. Peerless-tari-adjectival distinctsenseKey.",
+        "match": {
+          "word": "冠",
+          "reading": "かん",
+          "grammaticalForm": "形状詞/タリ/*/*; cType *; cForm *; literary tari-adjectival peerless/first",
+          "sense": "Complete1577620 selected5 explicitlystagrかん adj-t/adverb-to best/peerless/first; actualShogakukan worldに冠たる supports productivelearnedconstruction. Actual99948619形状詞/タリ,aType1 ownrole; separate capnoun99948476 and suffixtitlecounter99948756* and verbstem row100580874, aType1 excluded. Peerless-tari-adjectival distinctsenseKey."
+        }
+      }
+    ],
+    "senseKey": "peerless-tari-adjectival",
+    "correctionId": "vocab-n1:correction:kan-peerless-tari"
+  },
+  {
+    "word": "観",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Erscheinungsbild; Eindruck; Anblick (gehoben)",
+    "type": "Nomen",
+    "category": "Beschreibung",
+    "level": "N1",
+    "notes": "Als selbständiges Nomen bezeichnet 観（かん） den äußeren Anblick oder den Eindruck, den etwas vermittelt. ～の観がある heißt etwa „wirkt wie …“; ～の観を呈する beschreibt ein Erscheinungsbild in gehobener Sprache. Eine persönliche Weltanschauung wird dagegen durch Zusammensetzungen wie 人生観 ausgedrückt.",
+    "examples": [
+      {
+        "japanese": "改修された駅は、以前とは別の建物の観がある。",
+        "romaji": "Kaishū sareta eki wa, izen to wa betsu no tatemono no kan ga aru.",
+        "german": "Der renovierte Bahnhof wirkt im Vergleich zu früher wie ein anderes Gebäude."
+      },
+      {
+        "japanese": "夕日に照らされた山々は、壮大な絵の観を呈していた。",
+        "romaji": "Yūhi ni terasareta yamayama wa, sōdai na e no kan o teishite ita.",
+        "german": "Die von der Abendsonne beleuchteten Berge boten den Anblick eines großartigen Gemäldes."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99959368",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 観/カン; lemma 観; POS 名詞/普通名詞/一般/*; row 99959368, aType 1. Full1214770 noun/n-suf1appearance and2spectacle selected as independentnoun, exactlicensed別人の観がある supportsimpression. Buddhistmeditation3 and boundoutlook4 not onthiscard. Own99959368,aType1 vs suffix99959658*; independent-appearance-noun distinctsenseKey.",
+        "match": {
+          "word": "観",
+          "reading": "かん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent appearance/impression/spectacle noun",
+          "sense": "Full1214770 noun/n-suf1appearance and2spectacle selected as independentnoun, exactlicensed別人の観がある supportsimpression. Buddhistmeditation3 and boundoutlook4 not onthiscard. Own99959368,aType1 vs suffix99959658*; independent-appearance-noun distinctsenseKey."
+        }
+      }
+    ],
+    "senseKey": "independent-appearance-noun",
+    "correctionId": "vocab-n1:correction:kan-appearance-noun"
+  },
+  {
+    "word": "観",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Sicht auf …; Vorstellung von … (Suffix)",
+    "type": "Nomen",
+    "category": "Denken",
+    "level": "N1",
+    "notes": "Die Endung 観（かん） bildet Wörter für eine bestimmte Sichtweise: 人生観 ist die Lebensanschauung, 価値観 sind Wertvorstellungen. Die Zusammensetzung bezeichnet die Perspektive auf ein Thema, nicht einfach dessen sichtbare Oberfläche. Mit が oder を wird das ganze zusammengesetzte Nomen in den Satz eingebunden.",
+    "examples": [
+      {
+        "japanese": "留学の経験によって、私の人生観は変わりました。",
+        "romaji": "Ryūgaku no keiken ni yotte, watashi no jinseikan wa kawarimashita.",
+        "german": "Durch die Erfahrung meines Auslandsstudiums änderte sich meine Lebensanschauung."
+      },
+      {
+        "japanese": "一緒に働くには、お互いの価値観を理解することが大切です。",
+        "romaji": "Issho ni hataraku ni wa, otagai no kachikan o rikai suru koto ga taisetsu desu.",
+        "german": "Für die Zusammenarbeit ist es wichtig, die Wertvorstellungen des anderen zu verstehen."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "bound-viewpoint-suffix",
+    "correctionId": "vocab-n1:correction:kan-viewpoint-suffix"
+  },
+  {
+    "word": "入る",
+    "reading": "いる",
+    "romaji": "iru",
+    "meaning": "eintreten, hineingehen; untergehen (Sonne, Mond)",
+    "type": "Verb",
+    "category": "Bewegung",
+    "level": "N1",
+    "notes": "Diese Lesung von 入る findet man vor allem in festen Wendungen und literarischen Texten. Für das gewöhnliche Hineingehen sagt man heute meist はいる. Bei 日が入る kann いる den Sonnenuntergang bezeichnen. In 門に入る nennt に den betretenen Bereich. Trotz der Endung いる ist dies ein Godan-Verb: いります, いって, いった. Das gleichlautende 居る „da sein“ wird anders gebeugt: います, いて.",
+    "examples": [
+      {
+        "japanese": "旅人は日暮れに城門に入った。",
+        "romaji": "Tabibito wa higure ni jōmon ni itta.",
+        "german": "Der Reisende trat bei Einbruch der Dunkelheit durch das Burgtor."
+      },
+      {
+        "japanese": "日が山の向こうに入るころ、村は静かになった。",
+        "romaji": "Hi ga yama no mukō ni iru koro, mura wa shizuka ni natta.",
+        "german": "Als die Sonne hinter den Bergen unterging, wurde das Dorf still."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "いる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "いる",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58497490",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@58497490",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "イル",
+            "入る",
+            "入る",
+            "イル",
+            "入る",
+            "イル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "イル",
+            "イル",
+            "イル",
+            "イル",
+            "0",
+            "C4",
+            "*",
+            "710018290819755",
+            "2583"
+          ]
+        },
+        "finding": "Personally read original sys.dic@58497490, orth=入る, surfacekana20=イル, pronunciation9=イル, lemma=入る, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=0. 1465580 senses1/2 exact入るいる; fixed/literary entry and sunset actually taught, attainment3 and compound suffix4/5 not selected. Shogakukan436522 confirms contemporarymainはいる versus retainedいる and sunset. Original58497490 wholeイル Godan-r0, not居るIchidan. Existing41はいる preserved.",
+        "match": {
+          "word": "入る",
+          "reading": "いる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "eintreten, hineingehen; untergehen (Sonne, Mond)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:iru-enter"
+  },
+  {
+    "word": "来る",
+    "reading": "きたる",
+    "romaji": "kitaru",
+    "meaning": "kommend, bevorstehend; kommen, eintreffen",
+    "type": "Verb",
+    "category": "Zeit",
+    "level": "N1",
+    "notes": "来る／来たる mit der Lesung きたる wirkt in Ankündigungen und feierlichen Aussagen gehoben. Vor einem Datum bedeutet 来たる „kommend“: 来たる五月. Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“. Diese Lesung folgt der Godan-Beugung: きたります, きたった. Sie gehört nicht zur unregelmäßigen Beugung von 来る／くる mit きます und きた.",
+    "examples": [
+      {
+        "japanese": "来たる五月十日に、記念式典を開きます。",
+        "romaji": "Kitaru gogatsu tōka ni, kinen shikiten o hirakimasu.",
+        "german": "Am kommenden 10. Mai veranstalten wir eine Gedenkfeier."
+      },
+      {
+        "japanese": "長い冬が終わり、ようやく春が来たった。",
+        "romaji": "Nagai fuyu ga owari, yōyaku haru ga kitatta.",
+        "german": "Der lange Winter ging zu Ende, und endlich hielt der Frühling Einzug."
+      }
+    ],
+    "aliases": [
+      "来たる"
+    ],
+    "pitch": 2,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "きたる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "きたる",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104637149",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@104637149",
+          "originalFields": [
+            "動詞",
+            "非自立可能",
+            "*",
+            "*",
+            "文語四段-ラ行",
+            "終止形-一般",
+            "キタル",
+            "来たる",
+            "来る",
+            "キタル",
+            "来る",
+            "キタル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "キタル",
+            "キタル",
+            "キタル",
+            "キタル",
+            "2",
+            "C1",
+            "*",
+            "2375228684640939",
+            "8641"
+          ]
+        },
+        "finding": "Personally read original sys.dic@104637149, orth=来る, surfacekana20=キタル, pronunciation9=キタル, lemma=来たる, POS=動詞/非自立可能/*/*, 文語四段-ラ行/終止形-一般, aType=2. 1591270 senses1 upcomingprenominal and2 originalintransitivecoming; unrestricted来る/来たる sameきたる. Shogakukan474513 distinguishesbothroles andGodan-r. Whole来る104637149 literaryterminal2 andsamelexeme modernGodan来たる104627654 terminal2; noくる1853 transfer.",
+        "match": {
+          "word": "来る",
+          "reading": "きたる",
+          "grammaticalForm": "動詞/非自立可能/*/*; 文語四段-ラ行; 終止形-一般",
+          "sense": "kommend, bevorstehend; kommen, eintreffen"
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104627654",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@104627654",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "キタル",
+            "来たる",
+            "来たる",
+            "キタル",
+            "来たる",
+            "キタル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "キタル",
+            "キタル",
+            "キタル",
+            "キタル",
+            "2",
+            "C1",
+            "*",
+            "2375237241021099",
+            "8641"
+          ]
+        },
+        "finding": "Personally read original sys.dic@104627654, orth=来たる, surfacekana20=キタル, pronunciation9=キタル, lemma=来たる, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=2. 1591270 senses1 upcomingprenominal and2 originalintransitivecoming; unrestricted来る/来たる sameきたる. Shogakukan474513 distinguishesbothroles andGodan-r. Whole来る104637149 literaryterminal2 andsamelexeme modernGodan来たる104627654 terminal2; noくる1853 transfer.",
+        "match": {
+          "word": "来る",
+          "reading": "きたる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "kommend, bevorstehend; kommen, eintreffen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kitaru-come"
+  },
+  {
+    "word": "堪える",
+    "reading": "こたえる",
+    "romaji": "kotaeru",
+    "meaning": "aushalten, ertragen",
+    "type": "Verb",
+    "category": "Zustand",
+    "level": "N1",
+    "notes": "堪える／こたえる bezeichnet hier das Aushalten einer Belastung. Die Lesung ist besonders in 堪えられない „nicht auszuhalten“ und in zusammengesetzten Verben wie 持ちこたえる geläufig; diese Karte zeigt das selbstständige Verb. Die Belastung kann mit に stehen. Es ist ein Ichidan-Verb: こたえます, こたえて. Nicht damit vermischen: 応える／こたえる in 暑さが身に応える beschreibt die Wirkung der Hitze auf den Körper. Auch die Lesungen こらえる und たえる haben eigene Verwendungen.",
+    "examples": [
+      {
+        "japanese": "窓のない部屋の暑さには、とても堪えられない。",
+        "romaji": "Mado no nai heya no atsusa ni wa, totemo kotaerarenai.",
+        "german": "Die Hitze in dem fensterlosen Zimmer ist für mich unerträglich."
+      },
+      {
+        "japanese": "一晩なら堪えられるが、何日も眠れないのはつらい。",
+        "romaji": "Hitoban nara kotaerareru ga, nannichi mo nemurenai no wa tsurai.",
+        "german": "Eine Nacht kann ich durchhalten, aber mehrere Tage nicht schlafen zu können ist schwer."
+      }
+    ],
+    "pitch": 3,
+    "verbGroup": "ichidan",
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "こたえる",
+      "conjugationKind": "verb",
+      "conjugationReason": "Exact Shogakukan502120こた・えるア下一/Nihonkoku explicitly intransitive endurerole overrides JMdictsharedこらえるvt label; reading remainsこたえる, Ichidan modern forms personally reviewed."
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "こたえる",
+    "conjugationReason": "Exact Shogakukan502120こた・えるア下一/Nihonkoku explicitly intransitive endurerole overrides JMdictsharedこらえるvt label; reading remainsこたえる, Ichidan modern forms personally reviewed.",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123086902",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@123086902",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "下一段-ア行",
+            "終止形-一般",
+            "コタエル",
+            "堪える",
+            "堪える",
+            "コタエル",
+            "堪える",
+            "コタエル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "コタエル",
+            "コタエル",
+            "コタエル",
+            "コタエル",
+            "3",
+            "C1",
+            "*",
+            "3504701970719403",
+            "12750"
+          ]
+        },
+        "finding": "Personally read original sys.dic@123086902, orth=堪える, surfacekana20=コタエル, pronunciation9=コタエル, lemma=堪える, POS=動詞/一般/*/*, 下一段-ア行/終止形-一般, aType=3. 2827352 exactreadingこたえる restrictedto堪える; selectedendurance1 only, restraint2/forgive3 notforcedfromこらえる. Exact Shogakukan502120こた・えるア下一 andNihonkoku自動詞 positivelyoverride sharedJMdictvtlabel for thisreading. Kanjipedia distinguishes応えるimpact. Original123086902 exactコタエル Ichidanterminal3, noこらえる1174 transfer.",
+        "match": {
+          "word": "堪える",
+          "reading": "こたえる",
+          "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+          "sense": "aushalten, ertragen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kotaeru-endure"
+  },
+  {
+    "word": "出切る",
+    "reading": "できる",
+    "romaji": "dekiru",
+    "meaning": "vollständig herauskommen; restlos vorgebracht werden",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N1",
+    "notes": "出切る heißt, dass alles herauskommt oder vollständig vorgebracht ist: 意見が出切る bedeutet, dass alle Meinungen geäußert sind. Das Verb beschreibt den Vorgang mit が; es ist ein intransitives Godan-Verb. Seine Formen sind できります, できって und できった. Das unterscheidet es von 出来る „können, entstehen“ mit できます und できた. Die Aussage bezieht sich auf das vollständige Herauskommen, nicht allgemein auf jede Form von Warenmangel.",
+    "examples": [
+      {
+        "japanese": "会議では、全員の意見が出切ってから結論を出した。",
+        "romaji": "Kaigi de wa, zen'in no iken ga dekitte kara ketsuron o dashita.",
+        "german": "In der Sitzung wurde erst eine Schlussfolgerung gezogen, nachdem alle ihre Meinungen vorgebracht hatten."
+      },
+      {
+        "japanese": "箱の中の豆がすべて出切ったので、袋の口を閉じた。",
+        "romaji": "Hako no naka no mame ga subete dekitta node, fukuro no kuchi o tojita.",
+        "german": "Nachdem alle Bohnen aus der Schachtel herausgekommen waren, schloss ich die Öffnung des Beutels."
+      }
+    ],
+    "pitch": null,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "できる",
+      "conjugationKind": "verb",
+      "conjugationReason": "Original Shogakukan575489 exactで‐き・る Godan-r whole全部出る/出つくす and Nihonkoku自動詞 override contradictory sharedJMdictvt/availabilitygloss. Preserve distinctGodan all-outできります/できって/できった, never capabilityIchidanできます."
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "できる",
+    "conjugationReason": "Original Shogakukan575489 exactで‐き・る Godan-r whole全部出る/出つくす and Nihonkoku自動詞 override contradictory sharedJMdictvt/availabilitygloss. Preserve distinctGodan all-outできります/できって/できった, never capabilityIchidanできます.",
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:dekiru-all-out"
+  },
+  {
+    "word": "剃る",
+    "reading": "する",
+    "romaji": "suru",
+    "meaning": "rasieren (Variante von そる)",
+    "type": "Verb",
+    "category": "Körper",
+    "level": "N1",
+    "notes": "する ist eine belegte Variante von 剃る／そる, die auch in literarischen Texten vorkommt. Gemeint ist das Abschneiden von Haaren mit einer Klinge, etwa 髭をする „den Bart rasieren“. Das entfernte Haar steht mit を. Es handelt sich um ein Godan-Verb auf る: すります, すらない, すって, すった. Beim gleichlautenden unregelmäßigen する „tun“ lauten die Formen dagegen します und した.",
+    "examples": [
+      {
+        "japanese": "古い小説には、男が毎朝髭をする場面が出てくる。",
+        "romaji": "Furui shōsetsu ni wa, otoko ga maiasa hige o suru bamen ga dete kuru.",
+        "german": "In dem alten Roman kommt eine Szene vor, in der ein Mann jeden Morgen seinen Bart rasiert."
+      },
+      {
+        "japanese": "彼は頭をすってから、鏡で後ろまで確かめた。",
+        "romaji": "Kare wa atama o sutte kara, kagami de ushiro made tashikameta.",
+        "german": "Nachdem er sich den Kopf rasiert hatte, überprüfte er im Spiegel auch die Rückseite."
+      }
+    ],
+    "pitch": 1,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "する",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "する",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157446574",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@157446574",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "ソル",
+            "剃る",
+            "剃る",
+            "スル",
+            "剃る",
+            "スル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "スル",
+            "スル",
+            "スル",
+            "スル",
+            "1",
+            "C1",
+            "*",
+            "5897814764823211",
+            "21456"
+          ]
+        },
+        "finding": "Personally read original sys.dic@157446574, orth=剃る, surfacekana20=スル, pronunciation9=スル, lemma=剃る, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=1. 1581900 unrestrictedする/そる exactshaving1; Shogakukan544031 directGodan-rvariant andactualSosekiliteraryすって corroborate; noarchaiconly orfrequency claim. Original157446574 exactスル Godan-rterminal1, otherreadingOJAD357そる notborrowed; originalする26 andsoru correctionpreserved.",
+        "match": {
+          "word": "剃る",
+          "reading": "する",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "rasieren (Variante von そる)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:suru-shave"
   }
 ];

@@ -81392,5 +81392,309 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:yuu-say"
+  },
+  {
+    "word": "管",
+    "reading": "かん",
+    "romaji": "kan",
+    "meaning": "Rohr; Röhre",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N3",
+    "notes": "管（かん） bezeichnet in technischen Beschreibungen ein hohles Rohr oder eine Röhre. 管を通して水を送る beschreibt eine Leitung; 管に亀裂が入る einen Schaden am Bauteil. Die andere Lesung くだ kann ebenfalls eine Röhre bezeichnen; かん begegnet besonders in technischen Beschreibungen und Zusammensetzungen.",
+    "examples": [
+      {
+        "japanese": "細い管を通して、水を別の容器に送ります。",
+        "romaji": "Hosoi kan o tōshite, mizu o betsu no yōki ni okurimasu.",
+        "german": "Durch ein dünnes Rohr leiten wir Wasser in einen anderen Behälter."
+      },
+      {
+        "japanese": "古い管に亀裂が入ったため、交換が必要になりました。",
+        "romaji": "Furui kan ni kiretsu ga haitta tame, kōkan ga hitsuyō ni narimashita.",
+        "german": "Weil das alte Rohr einen Riss bekam, wurde ein Austausch nötig."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99957025",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual original whole surface 管/カン; lemma 管; POS 名詞/普通名詞/一般/*; row 99957025, aType 1. Complete1577650 exactかん noun1 pipe/tube only; musicalinstrument2/anatomical3/counter4 readunselected. Exact99957025 commonnoun,aType1 and actualwholeOJAD5025pattern1 agree. MasterliteralN3 vsTANOSN1conflict explicit, unrelatedくだcard preserved.",
+        "match": {
+          "word": "管",
+          "reading": "かん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; independent hollow-pipe/tube noun",
+          "sense": "Complete1577650 exactかん noun1 pipe/tube only; musicalinstrument2/anatomical3/counter4 readunselected. Exact99957025 commonnoun,aType1 and actualwholeOJAD5025pattern1 agree. MasterliteralN3 vsTANOSN1conflict explicit, unrelatedくだcard preserved."
+        }
+      },
+      {
+        "source": "OJAD, University of Tokyo",
+        "version": "Original complete dictionary cell personally inspected 2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%AE%A1#word_5025",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole cell 5025 かん; pattern 1. Complete1577650 exactかん noun1 pipe/tube only; musicalinstrument2/anatomical3/counter4 readunselected. Exact99957025 commonnoun,aType1 and actualwholeOJAD5025pattern1 agree. MasterliteralN3 vsTANOSN1conflict explicit, unrelatedくだcard preserved.",
+        "match": {
+          "word": "管",
+          "reading": "かん",
+          "grammaticalForm": "Complete independent noun dictionary head; no other-reading or compound-role transfer",
+          "sense": "Complete1577650 exactかん noun1 pipe/tube only; musicalinstrument2/anatomical3/counter4 readunselected. Exact99957025 commonnoun,aType1 and actualwholeOJAD5025pattern1 agree. MasterliteralN3 vsTANOSN1conflict explicit, unrelatedくだcard preserved."
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kan-pipe-noun"
+  },
+  {
+    "word": "いえ",
+    "reading": "いえ",
+    "romaji": "ie",
+    "meaning": "nein (kurze Antwortform)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N3",
+    "notes": "いえ ist eine kurze Form von いいえ. Mit dieser Antwort widerspricht man oder korrigiert eine Annahme; danach kann eine Erklärung folgen. いえ、結構です lehnt ein Angebot höflich ab. Sprich zwei Moren, い・え; いいえ ist länger. Das gleich gelesene 家 bedeutet „Haus“ und ist ein anderes Wort. Diese Karte übt die verneinende Antwort, nicht ältere Rufe der Überraschung oder Anrede.",
+    "examples": [
+      {
+        "japanese": "いえ、予約したのは明日です。",
+        "romaji": "Ie, yoyaku shita no wa ashita desu.",
+        "german": "Nein, ich habe für morgen reserviert."
+      },
+      {
+        "japanese": "いえ、結構です。タクシーは必要ありません。",
+        "romaji": "Ie, kekkō desu. Takushī wa hitsuyō arimasen.",
+        "german": "Nein, danke. Ich brauche kein Taxi."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@52471731",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@52471731",
+          "originalFields": [
+            "感動詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "*",
+            "イエ",
+            "いえ",
+            "いえ",
+            "イエ",
+            "いえ",
+            "イエ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "他",
+            "イエ",
+            "イエ",
+            "イエ",
+            "イエ",
+            "2",
+            "*",
+            "*",
+            "433765960786432",
+            "1578"
+          ]
+        },
+        "finding": "Personally parsed exact wholeいえ/イエ, independent感動詞一般, lexicallemmaいえ, aType2. House and imperative rows explicitly excluded. Both OJAD hits are other roles and supply no interjection contour.",
+        "match": {
+          "word": "いえ",
+          "reading": "いえ",
+          "grammaticalForm": "感動詞/一般/*/*; *; *",
+          "sense": "nein (kurze Antwortform)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:ie-no-interjection"
+  },
+  {
+    "word": "罹る",
+    "reading": "かかる",
+    "romaji": "kakaru",
+    "meaning": "an einer Krankheit erkranken",
+    "type": "Verb",
+    "category": "Gesundheit",
+    "level": "N3",
+    "notes": "病気にかかる bedeutet, an einer Krankheit zu erkranken. Die Krankheit steht mit に, die betroffene Person mit が oder は. Die Schreibweise 罹る benennt diesen Krankheitssinn; im Alltag ist Kana かかる üblich. Als intransitives Godan-Verb bildet es かかります, かかって, かかった. Die gleichlautenden Verwendungen von 掛かる für Zeitaufwand oder Hängen gehören zu einer anderen Karte.",
+    "examples": [
+      {
+        "japanese": "去年、インフルエンザに罹って一週間学校を休みました。",
+        "romaji": "Kyonen, infuruenza ni kakatte isshūkan gakkō o yasumimashita.",
+        "german": "Letztes Jahr bekam ich die Grippe und blieb eine Woche der Schule fern."
+      },
+      {
+        "japanese": "旅行の前に、現地でかかりやすい病気について調べた。",
+        "romaji": "Ryokō no mae ni, genchi de kakariyasui byōki ni tsuite shirabeta.",
+        "german": "Vor der Reise informierte ich mich über Krankheiten, an denen man vor Ort leicht erkranken kann."
+      }
+    ],
+    "pitch": 2,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "かかる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "かかる",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87595116",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@87595116",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "カカル",
+            "罹る",
+            "罹る",
+            "カカル",
+            "罹る",
+            "カカル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "カカル",
+            "カカル",
+            "カカル",
+            "カカル",
+            "2",
+            "C1",
+            "*",
+            "13201294982521515",
+            "48026"
+          ]
+        },
+        "finding": "Personally read original sys.dic@87595116, orth=罹る, surfacekana20=カカル, pronunciation9=カカル, lemma=罹る, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=2. 1609500 exact罹るかかる disease1 intransitiveGodan-r uk; original87595116 exact罹るterminal2 not掛かるhomophone. CompleteOJADzero rows notused todenyobservednumericwholeevidence. ActualTANOSN3literal lowerplacement supportsN3; MasterN2placementpreservedasreferencequalification.",
+        "match": {
+          "word": "罹る",
+          "reading": "かかる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "an einer Krankheit erkranken"
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kakaru-contract-disease"
+  },
+  {
+    "word": "得る",
+    "reading": "うる",
+    "romaji": "uru",
+    "meaning": "erlangen (gehoben); können, möglich sein (nach einem Verbstamm)",
+    "type": "Verb",
+    "category": "Möglichkeit",
+    "level": "N3",
+    "notes": "得る／うる kann in gehobener Sprache „erlangen“ heißen, etwa 承認をうる. Nach dem Stamm vor ます drückt es Möglichkeit aus: 起こりうる „kann geschehen“, 予想しうる „lässt sich vorhersehen“. Diese Formen sagen nichts darüber aus, ob etwas tatsächlich geschieht. Die Lesung うる steht vor allem am Satzende oder vor einem Nomen; in der heutigen Verneinung und Vergangenheit verwendet man えない und えた, nicht うない oder うた. Die gewöhnliche Lesung える wird gesondert gelernt. Der hier gezeigte Akzent gilt für das einzelne 得る／うる; zusammengesetzte Wörter haben eigene Betonungen.",
+    "examples": [
+      {
+        "japanese": "住民の承認をうることが、計画を進める条件である。",
+        "romaji": "Jūmin no shōnin o uru koto ga, keikaku o susumeru jōken de aru.",
+        "german": "Die Zustimmung der Einwohner zu erlangen ist eine Voraussetzung dafür, den Plan voranzutreiben."
+      },
+      {
+        "japanese": "小さな間違いでも、大きな事故につながりうる。",
+        "romaji": "Chīsana machigai demo, ōkina jiko ni tsunagariuru.",
+        "german": "Auch ein kleiner Fehler kann zu einem großen Unfall führen."
+      }
+    ],
+    "pitch": 1,
+    "conjugation": {
+      "conjugationKind": "excluded",
+      "conjugationReason": "Primary Shogakukan442148 exactうる entry and JMdict1454500 v2a-s positively attest lower-bigrade origin with modern restricted terminal/attributive formal acquisition and stem-attached possibility. Modern negative/past useえない/えた. Frozenうる cannot yield an unrestricted19-form modern Godan or Ichidan drill; exclude syntheticうます/うない/うて rather than borrow unrelated売る. Actualuru contexts and source restrictions personally reviewed."
+    },
+    "conjugationKind": "excluded",
+    "conjugationReason": "Primary Shogakukan442148 exactうる entry and JMdict1454500 v2a-s positively attest lower-bigrade origin with modern restricted terminal/attributive formal acquisition and stem-attached possibility. Modern negative/past useえない/えた. Frozenうる cannot yield an unrestricted19-form modern Godan or Ichidan drill; exclude syntheticうます/うない/うて rather than borrow unrelated売る. Actualuru contexts and source restrictions personally reviewed.",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71636813",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@71636813",
+          "originalFields": [
+            "動詞",
+            "非自立可能",
+            "*",
+            "*",
+            "下一段-ア行",
+            "終止形-一般",
+            "エル",
+            "得る",
+            "得る",
+            "ウル",
+            "得る",
+            "エル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "ウル",
+            "エル",
+            "ウル",
+            "エル",
+            "1",
+            "C1",
+            "*",
+            "1129215688843959",
+            "4108"
+          ]
+        },
+        "finding": "Personally read original sys.dic@71636813, orth=得る, surfacekana20=ウル, pronunciation9=ウル, lemma=得る, POS=動詞/非自立可能/*/*, 下一段-ア行/終止形-一般, aType=1. 1454500 selectedsuffixpossibility1 andformalliteraryacquisition2 bothgenuinelytaught. Shogakukan442148 originallowerbigradeうるterminal/attributive andmodernえない/えた restrictions positivelyjustify excludedgenericdrill; bareoriginal71636813ウルterminal1 only, noえる1103 orcompoundcontours transfer. ActualN3TANOS/ Masterreferencebasis, originalえる1268/売る27preserved.",
+        "match": {
+          "word": "得る",
+          "reading": "うる",
+          "grammaticalForm": "動詞/非自立可能/*/*; 下一段-ア行; 終止形-一般",
+          "sense": "erlangen (gehoben); können, möglich sein (nach einem Verbstamm)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:uru-obtain-possibility"
   }
 ];

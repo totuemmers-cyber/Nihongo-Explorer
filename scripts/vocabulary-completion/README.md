@@ -238,6 +238,29 @@ All 1,686 current N5 cards have complete reviewed teaching and investigated pitc
 The remaining 148 source references across 102 groups keep N5 active; N4–N1 remain
 pending. This checkpoint does not certify a level.
 
+The twelfth verified checkpoint adds 25 fully reviewed reading and grammatical-role
+cards and resolves 43 further frozen references. Campaign totals are 1,609 unique
+original entries enriched, 153 additions and 458 frozen references resolved.
+Independent garden, appearance and undiluted-product nouns remain distinct from
+their bound affix uses. Literary verb readings receive their own source-backed
+conjugations: 入るいる, 来るきたる, 剃るする and 出切るできる use their correct
+Godan paradigms rather than the familiar verbs with similar spellings or readings.
+The historically restricted 得るうる reading has explicit German teaching and is
+excluded from generic conjugation drills. Source-linked alternate spellings and
+gloss corrections preserve the immutable publisher metadata and original cards.
+All 21 full checks pass. A repeated build leaves all eight generated files
+identical; all 15,558 original identities and the four comprehension/audio
+payloads remain intact. No campaign source approval reopens.
+Browser verification covers 33 cards in 132 detail and note states across
+390/1440 widths and both themes, exact current teaching, 33 searches,
+refreshed deep links and the historical duplicate redirect. Eight representative
+cards have 32 detail and 32 note screenshots; eight varied mobile/desktop screens
+in both themes were personally inspected. Independent expected-form checks also
+verify the four alternate verb paradigms and the restricted 得るうる drill behavior.
+All 1,686 current N5 cards have complete reviewed teaching and investigated pitch.
+The remaining 105 source references across 75 groups keep N5 active; N4–N1 remain
+pending. This checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

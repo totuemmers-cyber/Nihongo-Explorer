@@ -66757,7 +66757,7 @@ window.VOCAB_N2 = [
     "type": "Verb",
     "category": "Zustand",
     "level": "N2",
-    "notes": "An einem Ort bleiben (現地にとどまる) oder auf etwas begrenzt bleiben (〜にとどまらない = geht über … hinaus). Oft in Kana とどまる.",
+    "notes": "留まる／止まる mit der Lesung とどまる heißt, an einem Ort zu bleiben oder auf einen Bereich begrenzt zu bleiben. Beide Verwendungen sind intransitiv: 町にとどまる, 一部にとどまる. Häufig schreibt man とどまる in Kana. 止まる／とまる ist eine andere Lesung, etwa für ein anhaltendes Fahrzeug. とどまる folgt der Godan-Beugung: とどまります, とどまって. Mit にとどまらない sagt man, dass etwas über den genannten Bereich hinausgeht.",
     "examples": [
       {
         "japanese": "彼は災害の後も町に留まった。",
@@ -66769,6 +66769,9 @@ window.VOCAB_N2 = [
         "romaji": "Higai wa ichibu no chiiki ni todomatta.",
         "german": "Die Schäden blieben auf einige Gebiete beschränkt."
       }
+    ],
+    "aliases": [
+      "止まる"
     ],
     "pitch": 3,
     "verbGroup": "godan",
@@ -66782,18 +66785,102 @@ window.VOCAB_N2 = [
     "pitchProvenance": [
       {
         "source": "現代書き言葉UniDic",
-        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
-        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
         "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186257623",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
         "patterns": [
           3
         ],
-        "finding": "留まる / トドマル; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; lemma 留まる; aType 3. Exact written-form/kana row for the taught lexeme.",
+        "selectedRow": {
+          "locator": "sys.dic@186257623",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "トドマル",
+            "留まる",
+            "留まる",
+            "トドマル",
+            "留まる",
+            "トドマル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "トドマル",
+            "トドマル",
+            "トドマル",
+            "トドマル",
+            "3",
+            "C1",
+            "*",
+            "7288671237710507",
+            "26516"
+          ]
+        },
+        "finding": "Personally read original sys.dic@186257623, orth=留まる, surfacekana20=トドマル, pronunciation9=トドマル, lemma=留まる, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=3. 2657130 exactunrestricted留まる/止まるとどまる senses1remain and2limited bothretainedactualcontexts; uk taught, unrelatedとまる notaliasreading. Originalwhole186257623/186257183 bothterminal3. Nested/effectiveGodanmetadata andall19forms unchanged; accepted留まる#0 renewedatomically withcurrenttarget.",
         "match": {
           "word": "留まる",
           "reading": "とどまる",
           "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
-          "sense": "留まる as \"bleiben; sich beschränken auf\"."
+          "sense": "bleiben; sich beschränken auf"
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@186257183",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@186257183",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-ラ行",
+            "終止形-一般",
+            "トドマル",
+            "留まる",
+            "止まる",
+            "トドマル",
+            "止まる",
+            "トドマル",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "トドマル",
+            "トドマル",
+            "トドマル",
+            "トドマル",
+            "3",
+            "C1",
+            "*",
+            "7288671271264939",
+            "26516"
+          ]
+        },
+        "finding": "Personally read original sys.dic@186257183, orth=止まる, surfacekana20=トドマル, pronunciation9=トドマル, lemma=留まる, POS=動詞/一般/*/*, 五段-ラ行/終止形-一般, aType=3. 2657130 exactunrestricted留まる/止まるとどまる senses1remain and2limited bothretainedactualcontexts; uk taught, unrelatedとまる notaliasreading. Originalwhole186257623/186257183 bothterminal3. Nested/effectiveGodanmetadata andall19forms unchanged; accepted留まる#0 renewedatomically withcurrenttarget.",
+        "match": {
+          "word": "留まる",
+          "reading": "とどまる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "bleiben; sich beschränken auf"
         }
       }
     ],
@@ -76090,5 +76177,178 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:hayaguchi-fast-talking"
+  },
+  {
+    "word": "吐く",
+    "reading": "つく",
+    "romaji": "tsuku",
+    "meaning": "ausatmen, seufzen; eine Lüge erzählen",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "Die Lesung つく verwendet man unter anderem in 息をつく „Atem holen, ausatmen“, ため息をつく „seufzen“ und 嘘をつく „lügen“. Häufig schreibt man das Verb in diesen Wendungen in Kana. Das Ausgeatmete oder die Lüge steht mit を. Die Godan-Formen lauten つきます, ついて, ついた. Für „sich übergeben“ ist die andere Lesung はく die gewöhnliche Wahl; diese Karte übt die Wendungen mit Atem und Lügen.",
+    "examples": [
+      {
+        "japanese": "結果を聞いて、彼女はほっと息を吐いた。",
+        "romaji": "Kekka o kiite, kanojo wa hotto iki o tsuita.",
+        "german": "Als sie das Ergebnis hörte, atmete sie erleichtert aus."
+      },
+      {
+        "japanese": "約束を守れなかった理由について、嘘を吐いてはいけません。",
+        "romaji": "Yakusoku o mamorenakatta riyū ni tsuite, uso o tsuite wa ikemasen.",
+        "german": "Du darfst nicht darüber lügen, warum du dein Versprechen nicht halten konntest."
+      }
+    ],
+    "pitch": 1,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "つく",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "つく",
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@174008010",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1,
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@174008010",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-カ行",
+            "終止形-一般",
+            "ツク",
+            "吐く",
+            "吐く",
+            "ツク",
+            "吐く",
+            "ツク",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "ツク",
+            "ツク",
+            "ツク",
+            "ツク",
+            "1,2",
+            "C1",
+            "*",
+            "6744138104054443",
+            "24535"
+          ]
+        },
+        "finding": "Personally read original sys.dic@174008010, orth=吐く, surfacekana20=ツク, pronunciation9=ツク, lemma=吐く, POS=動詞/一般/*/*, 五段-カ行/終止形-一般, aType=1,2. 1444150 breath1/lie2 taught, vomiting3 notselected; uk andtransitiveGodan-k preserved. ShogakukanProgressive exactつくheading confirmsbreath/sigh andlie. Original174008010 exactツク terminalaType1,2 bothattested; OJAD404 fullつく1 corroboratesfirst, unrelatedはく547 rejected. ActualMasterN2lower placement supportsN2 estimate, N1sourcegloss qualified.",
+        "match": {
+          "word": "吐く",
+          "reading": "つく",
+          "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+          "sense": "ausatmen, seufzen; eine Lüge erzählen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:tsuku-exhale"
+  },
+  {
+    "word": "注す",
+    "reading": "さす",
+    "romaji": "sasu",
+    "meaning": "eingießen, eine Flüssigkeit hinzufügen",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N2",
+    "notes": "注す／さす bezeichnet hier das Hinzufügen einer Flüssigkeit. Das Eingegossene steht mit を, das Gefäß oder der behandelte Gegenstand mit に: やかんに水をさす, 機械に油をさす. Oft steht das Verb in Kana; 注す hebt das Eingießen hervor. Es ist transitiv und wird als Godan-Verb gebeugt: さします, さして. Licht, das hereinscheint, beschreibt man mit dem anderen Verb 差す／射す.",
+    "examples": [
+      {
+        "japanese": "お湯が少なくなったので、やかんに水を注した。",
+        "romaji": "Oyu ga sukunaku natta node, yakan ni mizu o sashita.",
+        "german": "Weil nur noch wenig heißes Wasser übrig war, goss ich Wasser in den Wasserkessel."
+      },
+      {
+        "japanese": "音がする蝶番に、油を少し注してください。",
+        "romaji": "Oto ga suru chōtsugai ni, abura o sukoshi sashite kudasai.",
+        "german": "Bitte geben Sie etwas Öl auf das quietschende Scharnier."
+      }
+    ],
+    "pitch": 1,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "さす",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "さす",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@130968074",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@130968074",
+          "originalFields": [
+            "動詞",
+            "一般",
+            "*",
+            "*",
+            "五段-サ行",
+            "終止形-一般",
+            "サス",
+            "差す-他動詞",
+            "注す",
+            "サス",
+            "注す",
+            "サス",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "サス",
+            "サス",
+            "サス",
+            "サス",
+            "1",
+            "C1",
+            "*",
+            "3895853366518443",
+            "14173"
+          ]
+        },
+        "finding": "Personally read original sys.dic@130968074, orth=注す, surfacekana20=サス, pronunciation9=サス, lemma=差す-他動詞, POS=動詞/一般/*/*, 五段-サ行/終止形-一般, aType=1. 1609820 liquidpour/add1 esp注す uk exactさす; cosmeticapplication2esp点す notselected. ShogakukanProgressive差す・注す positivelyattestswatertokettle/oiltomachinery. Original130968074 exact注すterminal1 lemma差す-他動詞; lightintransitive130981795 notmixed, actualOJADfuzzy注ぐ/注射 etc notwholeevidence.",
+        "match": {
+          "word": "注す",
+          "reading": "さす",
+          "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+          "sense": "eingießen, eine Flüssigkeit hinzufügen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:sasu-pour"
   }
 ];
