@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "yojijukugo:149",
+      "to": "vocab-n5:663",
+      "equivalentSense": "起立礼着 meant the class routine of standing, bowing and sitting.",
+      "preservedContent": "Root read the actual unchanged invented起立礼着 retirement and exact finalお辞儀 survivor. Real classroom起立、礼、着席 sequence and standing then bowing to teacher remain explicit in note/example. Added御辞儀 search alias changes only spelling search; source relationship, originalID and redirect remain unchanged.",
+      "retirement": {
+        "reason": "Invented compound with no dictionary entry.",
+        "relationship": "Closest real word: お辞儀 (the bow); note explains 起立・礼・着席."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": "26a31d0beaefacd5d12f38127b7ad811905211ac53e4a51002ddfd60b1a44b45",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:149; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "起立礼着 has no JMdict entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1002030; spelling=お辞儀; reading=おじぎ; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Bow, bowing.",
+          "selected": {
+            "sequence": "1002030",
+            "spelling": "お辞儀",
+            "reading": "おじぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "bow",
+                  "bowing"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:149 -> vocab-n5:663",
+          "finding": "起立礼着 meant the class routine of standing, bowing and sitting."
+        },
+        {
+          "source": "Exact independently reviewed full-enrichment target and unchanged retired content",
+          "version": "067b assembly SHA256 e11f26b528420c9a278b36cdecfae5667773926ac2a2a90eeafe3add81af33e7; target SHA256 5d12ec32f932cac6f35419f4248387aaae96bb1f19cf3244324fe9943987577d",
+          "locator": "scripts/vocabulary-completion/067b-full-n5.json#reviews/vocab-n5:663",
+          "finding": "The historical invented 起立礼着 retirement still redirects to お辞儀. The final survivor explicitly retains the real 起立、礼、着席 sequence and a classroom example standing first and bowing to the teacher; new store gratitude example and whole-word0 do not remove that coverage."
+        },
+        {
+          "source": "Exact final independently reviewed teaching and unchanged retired content",
+          "version": "082a assembly SHA256 ef53d54bc2dd6fc899c818d7c0f8664e2e81d223e2fb4d07971631ff61827dac; target SHA256 df6e995e12dd0015b2a19449fed709c797e8f1fc97c7125e4450d06c8c0e9261",
+          "locator": "scripts/vocabulary-completion/082a-full-n5.json#reviews/vocab-n5:663",
+          "finding": "Root read the actual unchanged invented起立礼着 retirement and exact finalお辞儀 survivor. Real classroom起立、礼、着席 sequence and standing then bowing to teacher remain explicit in note/example. Added御辞儀 search alias changes only spelling search; source relationship, originalID and redirect remain unchanged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "df526dd49dfd58f2ba6d05b62f4029d8d278f6cc9cb2b2a009f7e9cd8d631427",
+      "toHash": "df6e995e12dd0015b2a19449fed709c797e8f1fc97c7125e4450d06c8c0e9261",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual unchanged invented起立礼着 retirement and exact finalお辞儀 survivor. Real classroom起立、礼、着席 sequence and standing then bowing to teacher remain explicit in note/example. Added御辞儀 search alias changes only spelling search; source relationship, originalID and redirect remain unchanged.",
+        "contentHash": "33eff3c41696f282e89efbd48d62321bbaad968119663db0e5a3f019639e8c49",
+        "approvalHash": "33eff3c41696f282e89efbd48d62321bbaad968119663db0e5a3f019639e8c49"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently read unchanged retired起立礼着 school-ritual example and exact futureお辞儀 survivor note/all three Japanese/Hepburn/German examples. Real classroom起立、礼、着席 and standing before bowing to teacher preserve the retired concept; store gratitude remains another context. Raw1002030 licenses御辞儀 same unrestrictedおじぎ bow1, actual OJAD4384 whole flat0 retained. Recomputed unchanged fromHash, exact082a toHash, predecessor whole-record hash against sealed067d and current mergeHash. Durable082a/067b locators bind survivor. Renews only historical target binding after spelling alias; no new retirement, redirect relationship or identity change.",
+        "contentHash": "33eff3c41696f282e89efbd48d62321bbaad968119663db0e5a3f019639e8c49",
+        "approvalHash": "33eff3c41696f282e89efbd48d62321bbaad968119663db0e5a3f019639e8c49"
+      }
+    }
+  ]
+}

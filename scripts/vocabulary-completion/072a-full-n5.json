@@ -1,0 +1,181 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "しょうゆ|しょうゆ",
+      "referenceIndex": 0,
+      "referenceHash": "98716f1e95f0a725c0f3b0997d3d5bcefc3225bb92827e3ed68fa1acefe0135d",
+      "revisionId": "072a-revalidation-0",
+      "state": "accepted",
+      "predecessorHash": "52af143ba6d45f8eae1e20249f3c26d993696eaa72829065203536b43d4ca047",
+      "predecessorRevisionHash": "fae278d8444396dd5ad9e31c0cce16c2a19db918afc324fbab0ec98e4c834c5a",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:353"
+      ],
+      "targetHashes": {
+        "vocab-n5:353": "b376d2371becf30c3c18d86537584f09f57189910c32eb8aaa583b4caf0d64ec"
+      },
+      "reason": "The exact kana soy-sauce noun is preserved by alias しょうゆ on 醤油; the reviewed sauce-pouring and sweet-sauce contexts teach the publisher soy sauce sense. Adding the rare spelling 醬油 and its qualification changed the target teaching hash, requiring this fresh complete source-to-final-target comparison.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1595020; spelling=しょうゆ; reading=しょうゆ; sense=1",
+          "finding": "The exact kana soy-sauce noun is preserved by alias しょうゆ on 醤油; the reviewed sauce-pouring and sweet-sauce contexts teach the publisher soy sauce sense. Adding the rare spelling 醬油 and its qualification changed the target teaching hash, requiring this fresh complete source-to-final-target comparison.",
+          "selected": {
+            "sequence": "1595020",
+            "spelling": "しょうゆ",
+            "reading": "しょうゆ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "soy sauce",
+                  "soya sauce",
+                  "shoyu"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and current final teaching",
+          "version": "Reference SHA256 98716f1e95f0a725c0f3b0997d3d5bcefc3225bb92827e3ed68fa1acefe0135d; target SHA256 b376d2371becf30c3c18d86537584f09f57189910c32eb8aaa583b4caf0d64ec",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=15",
+          "finding": "Personally read the source gloss against the final target aliases, full German note and both Japanese/German/Hepburn contexts. The exact kana soy-sauce noun is preserved by alias しょうゆ on 醤油; the reviewed sauce-pouring and sweet-sauce contexts teach the publisher soy sauce sense. Adding the rare spelling 醬油 and its qualification changed the target teaching hash, requiring this fresh complete source-to-final-target comparison."
+        },
+        {
+          "source": "Sealed actual final teaching revision",
+          "version": "Exact target hashes b376d2371becf30c3c18d86537584f09f57189910c32eb8aaa583b4caf0d64ec",
+          "locator": "scripts/vocabulary-completion/068d-full-n5.json#reviews/vocab-n5:353",
+          "finding": "The exact kana soy-sauce noun is preserved by alias しょうゆ on 醤油; the reviewed sauce-pouring and sweet-sauce contexts teach the publisher soy sauce sense. Adding the rare spelling 醬油 and its qualification changed the target teaching hash, requiring this fresh complete source-to-final-target comparison."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected the complete current303/353 final notes and both teaching contexts, frozen reference gloss and unrestricted exact JMdict sense. The exact kana soy-sauce noun is preserved by alias しょうゆ on 醤油; the reviewed sauce-pouring and sweet-sauce contexts teach the publisher soy sauce sense. Adding the rare spelling 醬油 and its qualification changed the target teaching hash, requiring this fresh complete source-to-final-target comparison.",
+        "contentHash": "2467feb5e6df91a48318083c5e795f25a538b123e5bb39f028e92a491088e484",
+        "approvalHash": "2467feb5e6df91a48318083c5e795f25a538b123e5bb39f028e92a491088e484"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently re-read frozen TANOS N5 soy-sauce reference and exact current353 aliases/complete note/JP/German/Hepburn sauce-pouring versus sweetness contexts. RawJMdict1595020 unrestricted soy-sauce1 supports kana key and rare醬油 qualification, no other reading borrowed. Current target b376d237... verified exactly after068d alias change, both contexts preserve source meaning and whole ordinary-head pitch0 provenance.",
+        "contentHash": "2467feb5e6df91a48318083c5e795f25a538b123e5bb39f028e92a491088e484",
+        "approvalHash": "2467feb5e6df91a48318083c5e795f25a538b123e5bb39f028e92a491088e484"
+      }
+    },
+    {
+      "key": "はじめまして|はじめまして",
+      "referenceIndex": 0,
+      "referenceHash": "c955a41289771327dba234d7d6649e8c7495ca69bdb44af6ac8a5afc2d9dfcf0",
+      "revisionId": "072a-revalidation-1",
+      "state": "accepted",
+      "predecessorHash": "f4dd4c7434ee07d80c0a6331d56e2ca39ab4731c10dd802f75a63994e01ebfd8",
+      "predecessorRevisionHash": "4d9404051d9e2173ede778d0f10b4c31573738d3171b9a0b6e6e4df819407c20",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:303"
+      ],
+      "targetHashes": {
+        "vocab-n5:303": "535073594814c3f668a41e4aa9d620f0d30131520b35796653a57ef6d002e75c"
+      },
+      "reason": "The kana first-contact greeting はじめまして is preserved on 初めまして with the same reading. Introducing oneself and opening an initial email teach first acquaintance, explicitly excluding reunion. The added attested 始めまして spelling and note changed the teaching hash; they do not change the formula or source sense.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1625780; spelling=はじめまして; reading=はじめまして; sense=1",
+          "finding": "The kana first-contact greeting はじめまして is preserved on 初めまして with the same reading. Introducing oneself and opening an initial email teach first acquaintance, explicitly excluding reunion. The added attested 始めまして spelling and note changed the teaching hash; they do not change the formula or source sense.",
+          "selected": {
+            "sequence": "1625780",
+            "spelling": "はじめまして",
+            "reading": "はじめまして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "nice to meet you",
+                  "I'm glad to make your acquaintance",
+                  "how do you do?"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and current final teaching",
+          "version": "Reference SHA256 c955a41289771327dba234d7d6649e8c7495ca69bdb44af6ac8a5afc2d9dfcf0; target SHA256 535073594814c3f668a41e4aa9d620f0d30131520b35796653a57ef6d002e75c",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=69",
+          "finding": "Personally read the source gloss against the final target aliases, full German note and both Japanese/German/Hepburn contexts. The kana first-contact greeting はじめまして is preserved on 初めまして with the same reading. Introducing oneself and opening an initial email teach first acquaintance, explicitly excluding reunion. The added attested 始めまして spelling and note changed the teaching hash; they do not change the formula or source sense."
+        },
+        {
+          "source": "Sealed actual final teaching revision",
+          "version": "Exact target hashes 535073594814c3f668a41e4aa9d620f0d30131520b35796653a57ef6d002e75c",
+          "locator": "scripts/vocabulary-completion/068d-full-n5.json#reviews/vocab-n5:303",
+          "finding": "The kana first-contact greeting はじめまして is preserved on 初めまして with the same reading. Introducing oneself and opening an initial email teach first acquaintance, explicitly excluding reunion. The added attested 始めまして spelling and note changed the teaching hash; they do not change the formula or source sense."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root inspected the complete current303/353 final notes and both teaching contexts, frozen reference gloss and unrestricted exact JMdict sense. The kana first-contact greeting はじめまして is preserved on 初めまして with the same reading. Introducing oneself and opening an initial email teach first acquaintance, explicitly excluding reunion. The added attested 始めまして spelling and note changed the teaching hash; they do not change the formula or source sense.",
+        "contentHash": "c06aba4aebc3f3f8e735b28494c64e69c555df0ae2808b5f67e8fa99abcab893",
+        "approvalHash": "c06aba4aebc3f3f8e735b28494c64e69c555df0ae2808b5f67e8fa99abcab893"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently re-read frozen TANOS N2 first-acquaintance formula reference and actual current303 N5 teaching: spoken introduction versus written first-contact email, full Japanese/German/Hepburn and reunion exclusion. RawJMdict1625780 unrestricted polite usual-kana expression1 permits初めまして/始めまして/same kana; source level does not migrate card. Current target53507359... verified exactly after068d alias change, retained full interjection pitch4 provenance.",
+        "contentHash": "c06aba4aebc3f3f8e735b28494c64e69c555df0ae2808b5f67e8fa99abcab893",
+        "approvalHash": "c06aba4aebc3f3f8e735b28494c64e69c555df0ae2808b5f67e8fa99abcab893"
+      }
+    }
+  ]
+}

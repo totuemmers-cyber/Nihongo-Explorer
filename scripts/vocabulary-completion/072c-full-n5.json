@@ -1,0 +1,500 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "空き|あき",
+      "referenceIndex": 0,
+      "referenceHash": "6e8eab527b6d2fb49b3f553d319571ee6ba544213d697f0b0652723860609810",
+      "revisionId": "072c-revalidate-aki-vacancy-0",
+      "state": "accepted",
+      "predecessorHash": "5828a382e8a69fa7af75931f1f1d8c8bc7b1908ff2bf14e80131282072416157",
+      "predecessorRevisionHash": "4d3061799a5c7abf2d84b4005ca1db195e6dc58c0baa6e65d95d21a0a4cb1627",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:correction:aki-vacancy"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:aki-vacancy": "f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f"
+      },
+      "reason": "Fresh source-to-final-target comparison after071a changed teaching. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609010; spelling=空き; reading=あき; senses=1,2,3",
+          "finding": "The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+          "selected": {
+            "sequence": "1609010",
+            "spelling": "空き",
+            "reading": "あき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "space",
+                  "room",
+                  "gap",
+                  "emptiness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "vacancy",
+                  "opening",
+                  "empty seat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free time",
+                  "time to spare"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final target teaching",
+          "version": "Reference SHA256 6e8eab527b6d2fb49b3f553d319571ee6ba544213d697f0b0652723860609810; target SHA256 f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=1",
+          "finding": "Personally read every frozen gloss against complete final Japanese/German/Hepburn contexts and note, including mismatched passive/femur publisher wording. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level."
+        },
+        {
+          "source": "Sealed independently reviewed teaching",
+          "version": "Current target SHA256 f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+          "locator": "scripts/vocabulary-completion/071a-full-n5.json#reviews/vocab-n3:correction:aki-vacancy",
+          "finding": "The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual final four targets, all source glosses and exact dictionary senses/restrictions. This refresh preserves previous coverage following071a changes, without certifying any advanced phase. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+        "contentHash": "79e83ad98bdd074348ebb39703d217e7b1f24fa501e84400d2c61228335ec9b2",
+        "approvalHash": "79e83ad98bdd074348ebb39703d217e7b1f24fa501e84400d2c61228335ec9b2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Re-read actual final N3 vacancy/free-time card, hotel availability versus spare afternoon, complete JP/German/ModifiedHepburn/明き alias note. Frozen TANOS room/time-to-spare/emptiness matches raw unrestrictedJMdict1609010 senses1/2/3; disuse4/autumn/boredom excluded. Exact final f34b41... hash verified after071a; retained common noun UniDic412785510 not verb stem.",
+        "contentHash": "79e83ad98bdd074348ebb39703d217e7b1f24fa501e84400d2c61228335ec9b2",
+        "approvalHash": "79e83ad98bdd074348ebb39703d217e7b1f24fa501e84400d2c61228335ec9b2"
+      }
+    },
+    {
+      "key": "空き|あき",
+      "referenceIndex": 1,
+      "referenceHash": "44fb38c5a231defd04095f184f9fc7d4707b59a1cf6f5e325b887af70bf2e3f7",
+      "revisionId": "072c-revalidate-aki-vacancy-1",
+      "state": "accepted",
+      "predecessorHash": "f0f5768429b039c7a5e666bbd0d04ffb84c69f38d097ff3072ee48ae3495e636",
+      "predecessorRevisionHash": "c11c2c3d5c0ee57cb16cc0f43fb5fb06e5954be96177793b5efdffab76b6f13e",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:correction:aki-vacancy"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:aki-vacancy": "f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f"
+      },
+      "reason": "Fresh source-to-final-target comparison after071a changed teaching. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609010; spelling=空き; reading=あき; senses=1,2,3",
+          "finding": "The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+          "selected": {
+            "sequence": "1609010",
+            "spelling": "空き",
+            "reading": "あき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "space",
+                  "room",
+                  "gap",
+                  "emptiness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "vacancy",
+                  "opening",
+                  "empty seat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free time",
+                  "time to spare"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final target teaching",
+          "version": "Reference SHA256 44fb38c5a231defd04095f184f9fc7d4707b59a1cf6f5e325b887af70bf2e3f7; target SHA256 f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=3",
+          "finding": "Personally read every frozen gloss against complete final Japanese/German/Hepburn contexts and note, including mismatched passive/femur publisher wording. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level."
+        },
+        {
+          "source": "Sealed independently reviewed teaching",
+          "version": "Current target SHA256 f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+          "locator": "scripts/vocabulary-completion/071a-full-n5.json#reviews/vocab-n3:correction:aki-vacancy",
+          "finding": "The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual final four targets, all source glosses and exact dictionary senses/restrictions. This refresh preserves previous coverage following071a changes, without certifying any advanced phase. The exact vacancy/space/free-time noun is taught by availability in a hotel and spare afternoon time, with note explaining free space. Exclude separate disuse sense4, autumn秋 and boredom飽き. Current qualified 明き alias changed the teaching hash without changing lexeme or target level.",
+        "contentHash": "0d5c49fce5dbbf76b50ef14d015bb38442b64b032ab12f86d0e3dc903fb84ef9",
+        "approvalHash": "0d5c49fce5dbbf76b50ef14d015bb38442b64b032ab12f86d0e3dc903fb84ef9"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Re-read frozen Master space/room/emptiness reference against actual final N3 card and both full hotel/time contexts plus explicit free-space note. RawJMdict1609010 noun1/2/free-time3 unrestricted; no source match to autumn秋/飽き. Same actual f34b41... target hash verified independently, no extra disuse meaning assumed.",
+        "contentHash": "0d5c49fce5dbbf76b50ef14d015bb38442b64b032ab12f86d0e3dc903fb84ef9",
+        "approvalHash": "0d5c49fce5dbbf76b50ef14d015bb38442b64b032ab12f86d0e3dc903fb84ef9"
+      }
+    },
+    {
+      "key": "くるむ|くるむ",
+      "referenceIndex": 0,
+      "referenceHash": "9cb7a9cc0f02567cf5cc6df11454f5065829997903792e9d36191b941d54a2ee",
+      "revisionId": "072c-revalidate-kurumu-0",
+      "state": "accepted",
+      "predecessorHash": "6f5be442b4562e6d5fb3931a1efa2b5330cd2521f36f3aedc5f11df6a9fc3fc4",
+      "predecessorRevisionHash": "730e0f2b6c4083b17d1821a643dd3b68badbfe48bec96354fd1303af72e11284",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:kurumu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kurumu": "405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a"
+      },
+      "reason": "Fresh source-to-final-target comparison after071a changed teaching. The exact transitive Godan-mu wrap/tuck verb covers blanket around a baby versus protective newspaper around glass. Publisher English passive wording does not turn Japaneseくるむ into an intransitive verb. Objectを/materialで andくるんで/くるんだ are explicit; distinguish包む/つつむ.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2831360; spelling=くるむ; reading=くるむ; senses=1",
+          "finding": "The exact transitive Godan-mu wrap/tuck verb covers blanket around a baby versus protective newspaper around glass. Publisher English passive wording does not turn Japaneseくるむ into an intransitive verb. Objectを/materialで andくるんで/くるんだ are explicit; distinguish包む/つつむ.",
+          "selected": {
+            "sequence": "2831360",
+            "spelling": "くるむ",
+            "reading": "くるむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to wrap up (in)",
+                  "to roll up (in)",
+                  "to tuck (up)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final target teaching",
+          "version": "Reference SHA256 9cb7a9cc0f02567cf5cc6df11454f5065829997903792e9d36191b941d54a2ee; target SHA256 405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=23",
+          "finding": "Personally read every frozen gloss against complete final Japanese/German/Hepburn contexts and note, including mismatched passive/femur publisher wording. The exact transitive Godan-mu wrap/tuck verb covers blanket around a baby versus protective newspaper around glass. Publisher English passive wording does not turn Japaneseくるむ into an intransitive verb. Objectを/materialで andくるんで/くるんだ are explicit; distinguish包む/つつむ."
+        },
+        {
+          "source": "Sealed independently reviewed teaching",
+          "version": "Current target SHA256 405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a",
+          "locator": "scripts/vocabulary-completion/071a-full-n5.json#reviews/vocab-n2:correction:kurumu",
+          "finding": "The exact transitive Godan-mu wrap/tuck verb covers blanket around a baby versus protective newspaper around glass. Publisher English passive wording does not turn Japaneseくるむ into an intransitive verb. Objectを/materialで andくるんで/くるんだ are explicit; distinguish包む/つつむ."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual final four targets, all source glosses and exact dictionary senses/restrictions. This refresh preserves previous coverage following071a changes, without certifying any advanced phase. The exact transitive Godan-mu wrap/tuck verb covers blanket around a baby versus protective newspaper around glass. Publisher English passive wording does not turn Japaneseくるむ into an intransitive verb. Objectを/materialで andくるんで/くるんだ are explicit; distinguish包む/つつむ.",
+        "contentHash": "bf78872edb1abd9a164f5bb497f07b04f6b84c160d21c1ddc737e5d3f46909f7",
+        "approvalHash": "bf78872edb1abd9a164f5bb497f07b04f6b84c160d21c1ddc737e5d3f46909f7"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS passive English wording examined against actual baby-warmth versus protective-glass wrapping, full Japanese/German/Hepburn/material de/object wo/Godan forms note. RawJMdict2831360 transitive-mu1 proves lexical wrapping; reference passive wording does not license an intransitive sense. Existing N2 target405f0c... verified, ordinary terminal UniDic1152376222 retained, 包む/つつむ homograph distinguished.",
+        "contentHash": "bf78872edb1abd9a164f5bb497f07b04f6b84c160d21c1ddc737e5d3f46909f7",
+        "approvalHash": "bf78872edb1abd9a164f5bb497f07b04f6b84c160d21c1ddc737e5d3f46909f7"
+      }
+    },
+    {
+      "key": "そうして|そうして",
+      "referenceIndex": 0,
+      "referenceHash": "8b30e9c7e7c87f042f99c26dab00bc2a81076057198ab0a68154f004d18d191a",
+      "revisionId": "072c-revalidate-soushite-0",
+      "state": "accepted",
+      "predecessorHash": "b7132cac4f66c451a7e099014c4aba332dbda7245edaca33e2f54fd7ca74c5e9",
+      "predecessorRevisionHash": "99950cd21e2083daac3c4fe9a022eca8108ccb0ee32bc9f6c6cf6239aff976d4",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:soushite"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:soushite": "de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2"
+      },
+      "reason": "Fresh source-to-final-target comparison after071a changed teaching. And/like that is covered by narrative result after sustained practice and reference to the manner of preparing dough. Long-vowel Hepburn and rare然うして spelling are qualified. The investigated unknown whole pitch remains unknown, not an inference from constituent words.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612860; spelling=そうして; reading=そうして; senses=1",
+          "finding": "And/like that is covered by narrative result after sustained practice and reference to the manner of preparing dough. Long-vowel Hepburn and rare然うして spelling are qualified. The investigated unknown whole pitch remains unknown, not an inference from constituent words.",
+          "selected": {
+            "sequence": "1612860",
+            "spelling": "そうして",
+            "reading": "そうして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and",
+                  "like that"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final target teaching",
+          "version": "Reference SHA256 8b30e9c7e7c87f042f99c26dab00bc2a81076057198ab0a68154f004d18d191a; target SHA256 de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=48",
+          "finding": "Personally read every frozen gloss against complete final Japanese/German/Hepburn contexts and note, including mismatched passive/femur publisher wording. And/like that is covered by narrative result after sustained practice and reference to the manner of preparing dough. Long-vowel Hepburn and rare然うして spelling are qualified. The investigated unknown whole pitch remains unknown, not an inference from constituent words."
+        },
+        {
+          "source": "Sealed independently reviewed teaching",
+          "version": "Current target SHA256 de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2",
+          "locator": "scripts/vocabulary-completion/071a-full-n5.json#reviews/vocab-n2:correction:soushite",
+          "finding": "And/like that is covered by narrative result after sustained practice and reference to the manner of preparing dough. Long-vowel Hepburn and rare然うして spelling are qualified. The investigated unknown whole pitch remains unknown, not an inference from constituent words."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual final four targets, all source glosses and exact dictionary senses/restrictions. This refresh preserves previous coverage following071a changes, without certifying any advanced phase. And/like that is covered by narrative result after sustained practice and reference to the manner of preparing dough. Long-vowel Hepburn and rare然うして spelling are qualified. The investigated unknown whole pitch remains unknown, not an inference from constituent words.",
+        "contentHash": "d76ede0916f88a76578c84cefcea35243019b4c2a95de027af597427393de259",
+        "approvalHash": "d76ede0916f88a76578c84cefcea35243019b4c2a95de027af597427393de259"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS and/like-that gloss maps exact actual narrative practice/result versus recipe manner, full JP/German/Hepburn and rare然うして note re-read. RawJMdict1612860 usually-kana conjunction1 unrestricted. Existing N2 final de6987... verified; investigated unknown remains runtime pitch null without fake provenance chart or component accent.",
+        "contentHash": "d76ede0916f88a76578c84cefcea35243019b4c2a95de027af597427393de259",
+        "approvalHash": "d76ede0916f88a76578c84cefcea35243019b4c2a95de027af597427393de259"
+      }
+    },
+    {
+      "key": "腿|もも",
+      "referenceIndex": 0,
+      "referenceHash": "86ad1c51ef7b65bb48cd903fde4b423f09a68bee4fef79c39ffddf194b8ce704",
+      "revisionId": "072c-revalidate-momo-thigh-0",
+      "state": "accepted",
+      "predecessorHash": "17bf930326d51138766be6da2b99b5de3bee8f0b0e8983649a4a43f0d95c9adf",
+      "predecessorRevisionHash": "3034cd1f1bee54ebfe812f64dfdf7803e142751043d610cfb60d4ee4351fbb86",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:momo-thigh"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:momo-thigh": "6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266"
+      },
+      "reason": "Fresh source-to-final-target comparison after071a changed teaching. The exact noun is thigh, shown by muscle pain and a ball bruise. Publisher femur gloss is imprecise: primary JMdict sense1 is thigh, not the bone大腿骨. Teaching correctly covers thigh without inventing a bone sense. 股/もも is an attested variant;股/また and桃/もも remain other lexemes.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=腿; reading=もも; senses=1",
+          "finding": "The exact noun is thigh, shown by muscle pain and a ball bruise. Publisher femur gloss is imprecise: primary JMdict sense1 is thigh, not the bone大腿骨. Teaching correctly covers thigh without inventing a bone sense. 股/もも is an attested variant;股/また and桃/もも remain other lexemes.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "腿",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final target teaching",
+          "version": "Reference SHA256 86ad1c51ef7b65bb48cd903fde4b423f09a68bee4fef79c39ffddf194b8ce704; target SHA256 6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=163",
+          "finding": "Personally read every frozen gloss against complete final Japanese/German/Hepburn contexts and note, including mismatched passive/femur publisher wording. The exact noun is thigh, shown by muscle pain and a ball bruise. Publisher femur gloss is imprecise: primary JMdict sense1 is thigh, not the bone大腿骨. Teaching correctly covers thigh without inventing a bone sense. 股/もも is an attested variant;股/また and桃/もも remain other lexemes."
+        },
+        {
+          "source": "Sealed independently reviewed teaching",
+          "version": "Current target SHA256 6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266",
+          "locator": "scripts/vocabulary-completion/071a-full-n5.json#reviews/vocab-n1:correction:momo-thigh",
+          "finding": "The exact noun is thigh, shown by muscle pain and a ball bruise. Publisher femur gloss is imprecise: primary JMdict sense1 is thigh, not the bone大腿骨. Teaching correctly covers thigh without inventing a bone sense. 股/もも is an attested variant;股/また and桃/もも remain other lexemes."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read the actual final four targets, all source glosses and exact dictionary senses/restrictions. This refresh preserves previous coverage following071a changes, without certifying any advanced phase. The exact noun is thigh, shown by muscle pain and a ball bruise. Publisher femur gloss is imprecise: primary JMdict sense1 is thigh, not the bone大腿骨. Teaching correctly covers thigh without inventing a bone sense. 股/もも is an attested variant;股/また and桃/もも remain other lexemes.",
+        "contentHash": "02508aa1d09b356ab44811a75a3ac20498708ad8689ee43145a664b1eb36aff4",
+        "approvalHash": "02508aa1d09b356ab44811a75a3ac20498708ad8689ee43145a664b1eb36aff4"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Frozen TANOS thigh/femur gloss examined critically: rawJMdict1605310 unrestricted thigh1 supports actual muscle pain after running versus ball-bruised thigh, full JP/German/Hepburn/股 reading note. Femur wording is imprecise and does not add unsupported bone sense; 桃 or 股/また excluded. Existing N1 final6ac442... verified, complete ordinary UniDic2661242331 retained.",
+        "contentHash": "02508aa1d09b356ab44811a75a3ac20498708ad8689ee43145a664b1eb36aff4",
+        "approvalHash": "02508aa1d09b356ab44811a75a3ac20498708ad8689ee43145a664b1eb36aff4"
+      }
+    }
+  ]
+}

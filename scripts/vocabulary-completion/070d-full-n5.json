@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "yojijukugo:159",
+      "to": "vocab-n5:843",
+      "equivalentSense": "右左右左 described looking both ways before crossing.",
+      "preservedContent": "The retired invented右左右左 described looking right and left before crossing the street. The exact final左右 survivor explicitly preserves road-crossing left/right-checking in its Japanese example and German translation, plus the physical left/right sense in the note. Existing ID, retirement reason and redirect relationship remain unchanged; this refresh binds newly enriched target teaching, without turning invented右左右左 into a lexeme.",
+      "retirement": {
+        "reason": "Invented reduplication with no dictionary entry.",
+        "relationship": "Closest real word: 左右."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": "c9cf4d83b2e5ab0e09e8441238e974d041a4e09b248da753746e3ecdd5131970",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact-form lookup yojijukugo:159; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "右左右左 has no JMdict entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1290810; spelling=左右; reading=さゆう; senses=1; scripts/vocabulary-completion/maintenance-022/research-supplement.json (lookup-forms.json via maintenance-021/lookup-exact-forms.py)",
+          "finding": "Left and right.",
+          "selected": {
+            "sequence": "1290810",
+            "spelling": "左右",
+            "reading": "さゆう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "left and right",
+                  "right and left"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Lead-reported duplicate/invalid entry (maintenance batch 022)",
+          "version": "2026-09-23",
+          "locator": "yojijukugo:159 -> vocab-n5:843",
+          "finding": "右左右左 described looking both ways before crossing."
+        },
+        {
+          "source": "Exact final independently reviewed teaching and unchanged retired content",
+          "version": "070c assembly SHA256 0f8da9c8dfdbc5417f84d2b37849be1294a33a346eafe6ed1ad0400679bb0d62; target SHA256 a7f8a13f21129278bf3f5836b08cc59e6114a2e29b37b5be4f2ff1018da5bd29",
+          "locator": "scripts/vocabulary-completion/070c-full-n5.json#reviews/vocab-n5:843",
+          "finding": "The retired invented右左右左 described looking right and left before crossing the street. The exact final左右 survivor explicitly preserves road-crossing left/right-checking in its Japanese example and German translation, plus the physical left/right sense in the note. Existing ID, retirement reason and redirect relationship remain unchanged; this refresh binds newly enriched target teaching, without turning invented右左右左 into a lexeme."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement",
+          "target-content-change"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "99f71f0b1fe4af7896a8af81b91efd65dac00b6f70f9c782369fc3acd5cc1609",
+      "toHash": "a7f8a13f21129278bf3f5836b08cc59e6114a2e29b37b5be4f2ff1018da5bd29",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root read unchanged retired entry and every final survivor note/context/German/Hepburn. The retired invented右左右左 described looking right and left before crossing the street. The exact final左右 survivor explicitly preserves road-crossing left/right-checking in its Japanese example and German translation, plus the physical left/right sense in the note. Existing ID, retirement reason and redirect relationship remain unchanged; this refresh binds newly enriched target teaching, without turning invented右左右左 into a lexeme.",
+        "contentHash": "2077d88495471e372c77eddffc1d9771c728443daf92ab5cd01a13ee1e1251f6",
+        "approvalHash": "2077d88495471e372c77eddffc1d9771c728443daf92ab5cd01a13ee1e1251f6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently read original retired右左右左 road-crossing example and exact future843左右 note/all three Japanese/German/Hepburn examples. New道路を渡る前に、左右をよく見ます preserves looking both ways before crossing, with German and sayū/dōro matching; jacket-sides context and ordinary direction check also remain. Raw1290810 physical left/right1 and independently parsed actual UniDic132336436 whole noun1 support survivor, not influence-suru or an invented reduplication. Recomputed fromHash/toHash and predecessor whole record against sealed022b, checked future070c durable evidence locator and exact mergeHash. Historical ID/retirement/redirect relationship preserved, no new merger or invented lexeme revival.",
+        "contentHash": "2077d88495471e372c77eddffc1d9771c728443daf92ab5cd01a13ee1e1251f6",
+        "approvalHash": "2077d88495471e372c77eddffc1d9771c728443daf92ab5cd01a13ee1e1251f6"
+      }
+    }
+  ]
+}

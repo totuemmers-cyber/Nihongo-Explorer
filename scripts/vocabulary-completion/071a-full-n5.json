@@ -1,0 +1,1426 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:correction:kurumu",
+      "revisionId": "071a-alias-kurumu",
+      "state": "accepted",
+      "predecessorHash": "25dc7dfbd5c0e7e9eb8ac18b0c32388f160fa4edddeafe878d5b1fda3101accc",
+      "predecessorRevisionHash": "82f5863f7a323ea33208e1878c0c99a9429baea7259d50c7cc87ca89669afbd4",
+      "originalHash": "25dc7dfbd5c0e7e9eb8ac18b0c32388f160fa4edddeafe878d5b1fda3101accc",
+      "rationale": "Resolve N5-owned homophone reference against its actual already reviewed lexeme; retain its existing level and ID, clarify exact spelling/reading and normalize authored examples to Modified Hepburn.",
+      "original": {
+        "aliases": null,
+        "notes": "Transitives Godan-Verb, etwas weich und locker ganz einhüllen: 赤ちゃんを毛布でくるむ. Ähnlich, aber allgemeiner: 包む（つつむ）.",
+        "examples": [
+          {
+            "japanese": "赤ちゃんを暖かい毛布でくるんだ。",
+            "romaji": "Akachan o atatakai moufu de kurunda.",
+            "german": "Ich wickelte das Baby in eine warme Decke."
+          },
+          {
+            "japanese": "割れないように、コップを新聞紙でくるんだ。",
+            "romaji": "Warenai you ni, koppu o shinbunshi de kurunda.",
+            "german": "Damit es nicht zerbricht, wickelte ich das Glas in Zeitungspapier."
+          }
+        ]
+      },
+      "replacement": {
+        "aliases": [
+          "包む"
+        ],
+        "notes": "くるむ heißt „einwickeln, einhüllen“. Das eingewickelte Objekt steht mit を, das Material mit で: 赤ちゃんを毛布でくるむ. Das Godan-Verb bildet くるんで und くるんだ. Auch 包む wird hier くるむ gelesen; dieselben Kanji können mit der Lesung つつむ ein allgemeineres Verb für „einpacken“ bezeichnen.",
+        "examples": [
+          {
+            "japanese": "赤ちゃんを暖かい毛布でくるんだ。",
+            "romaji": "Akachan o atatakai mōfu de kurunda.",
+            "german": "Ich wickelte das Baby in eine warme Decke."
+          },
+          {
+            "japanese": "割れないように、コップを新聞紙でくるんだ。",
+            "romaji": "Warenai yō ni, koppu o shinbunshi de kurunda.",
+            "german": "Damit es nicht zerbricht, wickelte ich das Glas in Zeitungspapier."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2831360; spelling=くるむ; reading=くるむ; senses=1; scripts/vocabulary-completion/maintenance-033/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 2831360 くるむ/くるむ sense(s) 1 support \"einwickeln, einhüllen\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "2831360",
+            "spelling": "くるむ",
+            "reading": "くるむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to wrap up (in)",
+                  "to roll up (in)",
+                  "to tuck (up)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2831360; spelling=包む; reading=くるむ; senses=1",
+          "finding": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+          "selected": {
+            "sequence": "2831360",
+            "spelling": "包む",
+            "reading": "くるむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to wrap up (in)",
+                  "to roll up (in)",
+                  "to tuck (up)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-spelling-alias",
+          "usage-note",
+          "example-romaji"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "meaning": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+        "japanese": "Personally reread both retained natural Japanese contexts and compared each expression and particle with selected source scope. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+        "romanization": "Personally checked exact final Modified Hepburn including mōfu/yō, renshū/sōshite/yūshō/zairyō, kyō and bōru where present.",
+        "translation": "Personally read both retained German translations; tense, roles and purposes agree with the exact Japanese contexts. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+        "contexts": [
+          "Wrapping a baby.",
+          "Packing a glass."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "godan; transitivity per JMdict and explained in the note.",
+        "conjugation": "godan verb, conjugation reading くるむ; nested and top-level metadata agree.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@115237622 attest 2; primary 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115237622",
+            "patterns": [
+              2
+            ],
+            "finding": "くるむ / クルム; 動詞/一般/*/*; 五段-マ行; 終止形-一般; lemma 包む; aType 2. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "くるむ",
+              "reading": "くるむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "くるむ as \"einwickeln, einhüllen\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a",
+        "approvalHash": "4e2254912c9e40b771a65aab168bb08810c436b15f453ba76df5a2a4ae661d81"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read baby warmth versus newspaper protecting glass, complete Japanese/German/Hepburn and wrapping material de/object wo. Original JMdict2831360 unrestricted 包む/くるむ is transitive Godan-mu1, distinct from tsutsumu. Maintenance033 exact UniDic115237622 terminal2 independently checked; N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a",
+        "approvalHash": "4e2254912c9e40b771a65aab168bb08810c436b15f453ba76df5a2a4ae661d81"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:soushite",
+      "revisionId": "071a-alias-soushite",
+      "state": "accepted",
+      "predecessorHash": "46f0894c4cf6792d20012782b958f7cab47a1b229ee5494db2c39c492748c870",
+      "predecessorRevisionHash": "1dbfa5e3ce99a5cee4ffef5e99d1a244049a4c7b5da02fc94897c11e3baa5b03",
+      "originalHash": "46f0894c4cf6792d20012782b958f7cab47a1b229ee5494db2c39c492748c870",
+      "rationale": "Resolve N5-owned homophone reference against its actual already reviewed lexeme; retain its existing level and ID, clarify exact spelling/reading and normalize authored examples to Modified Hepburn.",
+      "original": {
+        "aliases": null,
+        "notes": "Etwas betontere, eher schriftliche Form von そして („und so, und dann“); auch „auf diese Weise“: そうしてできた作品.",
+        "examples": [
+          {
+            "japanese": "彼は毎日練習した。そうして、ついに優勝した。",
+            "romaji": "Kare wa mainichi renshuu shita. Soushite, tsui ni yuushou shita.",
+            "german": "Er trainierte jeden Tag. Und so gewann er schließlich."
+          },
+          {
+            "japanese": "材料を混ぜて、そうしてできた生地を焼く。",
+            "romaji": "Zairyou o mazete, soushite dekita kiji o yaku.",
+            "german": "Man mischt die Zutaten und bäckt den so entstandenen Teig."
+          }
+        ],
+        "romaji": "soushite"
+      },
+      "replacement": {
+        "aliases": [
+          "然うして"
+        ],
+        "notes": "そうして verbindet einen Ablauf im Sinn von „und so, und dann“. Es kann auch auf die zuvor beschriebene Art verweisen: そうしてできた生地 ist der so entstandene Teig. 然うして ist eine seltene Wörterbuchschreibung; üblich ist die Kanaform そうして.",
+        "examples": [
+          {
+            "japanese": "彼は毎日練習した。そうして、ついに優勝した。",
+            "romaji": "Kare wa mainichi renshū shita. Sōshite, tsui ni yūshō shita.",
+            "german": "Er trainierte jeden Tag. Und so gewann er schließlich."
+          },
+          {
+            "japanese": "材料を混ぜて、そうしてできた生地を焼く。",
+            "romaji": "Zairyō o mazete, sōshite dekita kiji o yaku.",
+            "german": "Man mischt die Zutaten und bäckt den so entstandenen Teig."
+          }
+        ],
+        "romaji": "sōshite"
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612860; spelling=そうして; reading=そうして; senses=1; scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1612860 そうして/そうして sense(s) 1 support \"und dann, und so; auf diese Weise\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1612860",
+            "spelling": "そうして",
+            "reading": "そうして",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and",
+                  "like that"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612860; spelling=然うして; reading=そうして; senses=1",
+          "finding": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+          "selected": {
+            "sequence": "1612860",
+            "spelling": "然うして",
+            "reading": "そうして",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "rarely used kanji form"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and",
+                  "like that"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-spelling-alias",
+          "usage-note",
+          "example-romaji"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "meaning": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+        "japanese": "Personally reread both retained natural Japanese contexts and compared each expression and particle with selected source scope. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+        "romanization": "Personally checked exact final Modified Hepburn including mōfu/yō, renshū/sōshite/yūshō/zairyō, kyō and bōru where present.",
+        "translation": "Personally read both retained German translations; tense, roles and purposes agree with the exact Japanese contexts. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+        "contexts": [
+          "Narrative sequence.",
+          "Recipe (in this way)."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Fixed expression; not given conjugation metadata.",
+        "level": "Publisher references: tanos N2. Editorial N2."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Investigated exact whole そうして: no matching UniDic whole-form row and official OJAD exact search returned no numeric word rows. Keep unknown; no accent inferred from そう, して or そして.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "scripts/vocabulary-completion/maintenance-034/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py); exact written-form/kana lookup そうして / そうして",
+            "finding": "No exact-form row; no accent inferred from components."
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual saved UTF-8 HTML SHA256 0d8f48ddd9d240717ea172ea15fb386a3a29e7989de7c13c771e96bbead02433",
+            "attribution": "University of Tokyo, OJAD",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%9D%E3%81%86%E3%81%97%E3%81%A6",
+            "finding": "Root inspected saved actual41035-byte primary search response: search_word is exactlyそうして and zero numeric word rows exist. A missing search result leaves whole-form pitch unknown; neither components nor conjunctionそして were used."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2",
+        "approvalHash": "b5cd5dda9d09b6d823e8b9c09f1559cb24d288aecc9d1c82cea6dc6bb13be758"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read narrative training/outcome versus recipe manner reference, complete German/Hepburn and rare spelling guide. Original JMdict1612860 unrestricted 然うして/そうして conjunction1 with rare-kanji flag verified. Independently fetched official whole OJAD search, actual41035-byte exact-query response with no numeric word rows, SHA0d8f48…02433 now correctly bound; unknown retained without component inference. N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2",
+        "approvalHash": "b5cd5dda9d09b6d823e8b9c09f1559cb24d288aecc9d1c82cea6dc6bb13be758"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:aki-vacancy",
+      "revisionId": "071a-alias-aki-vacancy",
+      "state": "accepted",
+      "predecessorHash": "b0372b194af3062066ba39c5fd1c5c5edaacaef39e5344ce2bd48ee647d62e20",
+      "predecessorRevisionHash": "2fa0e71c6d7cfdeceff5a3b4fad158513faf7c57c23abbb66594972bcc938ce6",
+      "originalHash": "b0372b194af3062066ba39c5fd1c5c5edaacaef39e5344ce2bd48ee647d62e20",
+      "rationale": "Resolve N5-owned homophone reference against its actual already reviewed lexeme; retain its existing level and ID, clarify exact spelling/reading and normalize authored examples to Modified Hepburn.",
+      "original": {
+        "aliases": null,
+        "notes": "Freier Raum, freie Zeit oder ein freier Platz: 空き部屋 (freies Zimmer), 空き時間 (Zeit zwischendurch), 空き缶 (leere Dose). Gleich klingend: 秋 (Herbst) und 飽き (Überdruss).",
+        "examples": [
+          {
+            "japanese": "今日の午後は少し空きがあります。",
+            "romaji": "Kyou no gogo wa sukoshi aki ga arimasu.",
+            "german": "Heute Nachmittag habe ich etwas Zeit frei."
+          },
+          {
+            "japanese": "ホテルに空きがあるか電話で聞いた。",
+            "romaji": "Hoteru ni aki ga aru ka denwa de kiita.",
+            "german": "Ich habe telefonisch gefragt, ob im Hotel noch etwas frei ist."
+          }
+        ]
+      },
+      "replacement": {
+        "aliases": [
+          "明き"
+        ],
+        "notes": "空き bezeichnet freien Platz, eine freie Unterkunft oder freie Zeit. 空きがある meldet eine vorhandene freie Stelle; im Hotel fragt man damit nach einer freien Unterkunft. 今日の午後は空きがある heißt, dass man am Nachmittag Zeit frei hat. Die Wörterbuchvariante 明き hat dieselbe Lesung あき; 秋 „Herbst“ und 飽き „Überdruss“ sind andere Wörter.",
+        "examples": [
+          {
+            "japanese": "今日の午後は少し空きがあります。",
+            "romaji": "Kyō no gogo wa sukoshi aki ga arimasu.",
+            "german": "Heute Nachmittag habe ich etwas Zeit frei."
+          },
+          {
+            "japanese": "ホテルに空きがあるか電話で聞いた。",
+            "romaji": "Hoteru ni aki ga aru ka denwa de kiita.",
+            "german": "Ich habe telefonisch gefragt, ob im Hotel noch etwas frei ist."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609010; spelling=空き; reading=あき; senses=1,2,3; scripts/vocabulary-completion/maintenance-031/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1609010 空き/あき sense(s) 1,2,3 support \"freier Platz, Lücke; freie Zeit\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1609010",
+            "spelling": "空き",
+            "reading": "あき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "space",
+                  "room",
+                  "gap",
+                  "emptiness"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "vacancy",
+                  "opening",
+                  "empty seat"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free time",
+                  "time to spare"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609010; spelling=明き; reading=あき; senses=1,2,3",
+          "finding": "Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+          "selected": {
+            "sequence": "1609010",
+            "spelling": "明き",
+            "reading": "あき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "space",
+                  "room",
+                  "gap",
+                  "emptiness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "vacancy",
+                  "opening",
+                  "empty seat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free time",
+                  "time to spare"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-spelling-alias",
+          "usage-note",
+          "example-romaji"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "meaning": "Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+        "japanese": "Personally reread both retained natural Japanese contexts and compared each expression and particle with selected source scope. Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+        "romanization": "Personally checked exact final Modified Hepburn including mōfu/yō, renshū/sōshite/yūshō/zairyō, kyō and bōru where present.",
+        "translation": "Personally read both retained German translations; tense, roles and purposes agree with the exact Japanese contexts. Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+        "contexts": [
+          "Free time slot.",
+          "Hotel vacancy."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N3, Nihongo Master N3. Editorial N3."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@41278551 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@41278551",
+            "patterns": [
+              0
+            ],
+            "finding": "空き / アキ; 名詞/普通名詞/一般/*; *; *; lemma 明き; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "空き",
+              "reading": "あき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "空き as \"freier Platz, Lücke; freie Zeit\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+        "approvalHash": "27e6b600a347c3d66b2ea8462c98a2f394f111f072de7689beccf1f7f3d89290"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read afternoon spare time versus querying hotel vacancy, full German/Hepburn and free-place note. Original JMdict1609010 unrestricted 明き/あき noun senses1/2/3 support scope, not autumn/boredom. Exact maintenance031 UniDic41278551 noun0 selected over 空く conjugated stem; N3 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f",
+        "approvalHash": "27e6b600a347c3d66b2ea8462c98a2f394f111f072de7689beccf1f7f3d89290"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:momo-thigh",
+      "revisionId": "071a-alias-momo-thigh",
+      "state": "accepted",
+      "predecessorHash": "bb94013fa5b03a8d56ff75432b8dcec226244c13fa64d5ca8c27b7007184ded7",
+      "predecessorRevisionHash": "1e0d00c105336b570016ca9854f1023f9822fa14309beeddb6c58172492a0c79",
+      "originalHash": "bb94013fa5b03a8d56ff75432b8dcec226244c13fa64d5ca8c27b7007184ded7",
+      "rationale": "Resolve N5-owned homophone reference against its actual already reviewed lexeme; retain its existing level and ID, clarify exact spelling/reading and normalize authored examples to Modified Hepburn.",
+      "original": {
+        "aliases": null,
+        "notes": "Oft in Kana: もも; üblicher ist 太もも (太腿). Beim Fleisch: 鶏もも肉 (Hähnchenschenkel). Gleich lautend: 桃 (Pfirsich).",
+        "examples": [
+          {
+            "japanese": "走りすぎて、腿の筋肉が痛い。",
+            "romaji": "Hashirisugite, momo no kinniku ga itai.",
+            "german": "Ich bin zu viel gelaufen, jetzt tun mir die Oberschenkelmuskeln weh."
+          },
+          {
+            "japanese": "ボールが腿に当たって、あざができた。",
+            "romaji": "Booru ga momo ni atatte, aza ga dekita.",
+            "german": "Der Ball traf mich am Oberschenkel, und ich bekam einen blauen Fleck."
+          }
+        ]
+      },
+      "replacement": {
+        "aliases": [
+          "股"
+        ],
+        "notes": "腿 heißt „Oberschenkel“; häufig schreibt man もも oder 太もも. Auch 股 kann in dieser Bedeutung もも gelesen werden. Die andere Lesung また von 股 bezeichnet einen anderen Körperbereich. 鶏もも肉 ist Fleisch vom Hähnchenschenkel; 桃 „Pfirsich“ ist ein gleich klingendes anderes Wort.",
+        "examples": [
+          {
+            "japanese": "走りすぎて、腿の筋肉が痛い。",
+            "romaji": "Hashirisugite, momo no kinniku ga itai.",
+            "german": "Ich bin zu viel gelaufen, jetzt tun mir die Oberschenkelmuskeln weh."
+          },
+          {
+            "japanese": "ボールが腿に当たって、あざができた。",
+            "romaji": "Bōru ga momo ni atatte, aza ga dekita.",
+            "german": "Der Ball traf mich am Oberschenkel, und ich bekam einen blauen Fleck."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=腿; reading=もも; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1605310 腿/もも sense(s) 1 support \"Oberschenkel\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "腿",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=股; reading=もも; senses=1",
+          "finding": "Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "股",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-spelling-alias",
+          "usage-note",
+          "example-romaji"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "meaning": "Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+        "japanese": "Personally reread both retained natural Japanese contexts and compared each expression and particle with selected source scope. Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+        "romanization": "Personally checked exact final Modified Hepburn including mōfu/yō, renshū/sōshite/yūshō/zairyō, kyō and bōru where present.",
+        "translation": "Personally read both retained German translations; tense, roles and purposes agree with the exact Japanese contexts. Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+        "contexts": [
+          "Sore muscles after running.",
+          "Ball hitting the leg."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N1. Editorial N1."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@266124233 attest 1; primary 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@266124233",
+            "patterns": [
+              1
+            ],
+            "finding": "腿 / モモ; 名詞/普通名詞/一般/*; *; *; lemma 腿; aType 1. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "腿",
+              "reading": "もも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "腿 as \"Oberschenkel\"."
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266",
+        "approvalHash": "7baa7175a08284a8e56f39c0df607eccfc537427c602a688528244396553cb13"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read muscle pain from running versus bruise after ball impact, full German/Hepburn and qualified body-part note. Original JMdict1605310 unrestricted 股/もも thigh1 verified, distinct from mata crotch and peach. Exact maintenance049 UniDic2661242331, N1 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266",
+        "approvalHash": "7baa7175a08284a8e56f39c0df607eccfc537427c602a688528244396553cb13"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "包む|くるむ",
+      "referenceIndex": 0,
+      "referenceHash": "857eaf5c2863ff06400a0a83d1ffa9dfa81eb949851935fba78e1978e317612d",
+      "revisionId": "071a-candidate-kurumu-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:kurumu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kurumu": "405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a"
+      },
+      "reason": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2831360; spelling=包む; reading=くるむ; senses=1",
+          "finding": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+          "selected": {
+            "sequence": "2831360",
+            "spelling": "包む",
+            "reading": "くるむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to wrap up (in)",
+                  "to roll up (in)",
+                  "to tuck (up)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 857eaf5c2863ff06400a0a83d1ffa9dfa81eb949851935fba78e1978e317612d",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=48",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "cfcbf3da46c8c6d9fb2716c2ee1447729a1ceaa598d6f76c368a5f5239d68f2c",
+        "approvalHash": "cfcbf3da46c8c6d9fb2716c2ee1447729a1ceaa598d6f76c368a5f5239d68f2c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 包む|くるむ#0 and verified current exact target hash. Read baby warmth versus newspaper protecting glass, complete Japanese/German/Hepburn and wrapping material de/object wo. Original JMdict2831360 unrestricted 包む/くるむ is transitive Godan-mu1, distinct from tsutsumu. Maintenance033 exact UniDic115237622 terminal2 independently checked; N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "cfcbf3da46c8c6d9fb2716c2ee1447729a1ceaa598d6f76c368a5f5239d68f2c",
+        "approvalHash": "cfcbf3da46c8c6d9fb2716c2ee1447729a1ceaa598d6f76c368a5f5239d68f2c"
+      }
+    },
+    {
+      "key": "包む|くるむ",
+      "referenceIndex": 1,
+      "referenceHash": "41c899dd357e98685057a47e7ff4e25a5b0166c51e52263d156466cf23da5603",
+      "revisionId": "071a-candidate-kurumu-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:kurumu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kurumu": "405f0cb67c7fb5fd7d2b8278346cd4184d4da30aef7b2c9b55b6782ad973d46a"
+      },
+      "reason": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=2831360; spelling=包む; reading=くるむ; senses=1",
+          "finding": "Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ.",
+          "selected": {
+            "sequence": "2831360",
+            "spelling": "包む",
+            "reading": "くるむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to wrap up (in)",
+                  "to roll up (in)",
+                  "to tuck (up)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 41c899dd357e98685057a47e7ff4e25a5b0166c51e52263d156466cf23da5603",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Wrap/tuck matches the transitive Godan-mu verb, with objectを and wrapping materialで. Baby in blanket versus fragile glass in newspaper have different practical purposes; くるむ is explicitly distinguished from つつむ. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "1e141f7ea17e5009e7c7ae8ad707f8616cfc6160058e3dab86afa82ed9769de6",
+        "approvalHash": "1e141f7ea17e5009e7c7ae8ad707f8616cfc6160058e3dab86afa82ed9769de6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 包む|くるむ#1 and verified current exact target hash. Read baby warmth versus newspaper protecting glass, complete Japanese/German/Hepburn and wrapping material de/object wo. Original JMdict2831360 unrestricted 包む/くるむ is transitive Godan-mu1, distinct from tsutsumu. Maintenance033 exact UniDic115237622 terminal2 independently checked; N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "1e141f7ea17e5009e7c7ae8ad707f8616cfc6160058e3dab86afa82ed9769de6",
+        "approvalHash": "1e141f7ea17e5009e7c7ae8ad707f8616cfc6160058e3dab86afa82ed9769de6"
+      }
+    },
+    {
+      "key": "然うして|そうして",
+      "referenceIndex": 0,
+      "referenceHash": "355689f69d563724c60f983fdcc464381d785f2be71d58650b376bb2c5353989",
+      "revisionId": "071a-candidate-soushite-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:soushite"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:soushite": "de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2"
+      },
+      "reason": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612860; spelling=然うして; reading=そうして; senses=1",
+          "finding": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+          "selected": {
+            "sequence": "1612860",
+            "spelling": "然うして",
+            "reading": "そうして",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "rarely used kanji form"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and",
+                  "like that"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 355689f69d563724c60f983fdcc464381d785f2be71d58650b376bb2c5353989",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=93",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "52c6763bed10317adebd47a6b549201b3317a226788f44adf0037240ecd24011",
+        "approvalHash": "52c6763bed10317adebd47a6b549201b3317a226788f44adf0037240ecd24011"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 然うして|そうして#0 and verified current exact target hash. Read narrative training/outcome versus recipe manner reference, complete German/Hepburn and rare spelling guide. Original JMdict1612860 unrestricted 然うして/そうして conjunction1 with rare-kanji flag verified. Independently fetched official whole OJAD search, actual41035-byte exact-query response with no numeric word rows, SHA0d8f48…02433 now correctly bound; unknown retained without component inference. N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "52c6763bed10317adebd47a6b549201b3317a226788f44adf0037240ecd24011",
+        "approvalHash": "52c6763bed10317adebd47a6b549201b3317a226788f44adf0037240ecd24011"
+      }
+    },
+    {
+      "key": "然うして|そうして",
+      "referenceIndex": 1,
+      "referenceHash": "2b7319d465df0c473432c49d005124b221c30b7eb664748e2711e16b7c220790",
+      "revisionId": "071a-candidate-soushite-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:soushite"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:soushite": "de6987e6cd7447ddf974be5fbd028a4679148627251e76c5bd9f91ece959bcb2"
+      },
+      "reason": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1612860; spelling=然うして; reading=そうして; senses=1",
+          "finding": "And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして.",
+          "selected": {
+            "sequence": "1612860",
+            "spelling": "然うして",
+            "reading": "そうして",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "rarely used kanji form"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and",
+                  "like that"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 2b7319d465df0c473432c49d005124b221c30b7eb664748e2711e16b7c220790",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list?page=2",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. And/like that selects the conjunction expression, supported by narrative outcome after practice and recipe manner after mixing. Rare spelling qualified; whole-form unknown retained without inference from そう orして. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "7a20c1f71b7e09c9605ee18d3a332802e0ead27d684a8c23720ca8228a67b4e6",
+        "approvalHash": "7a20c1f71b7e09c9605ee18d3a332802e0ead27d684a8c23720ca8228a67b4e6"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 然うして|そうして#1 and verified current exact target hash. Read narrative training/outcome versus recipe manner reference, complete German/Hepburn and rare spelling guide. Original JMdict1612860 unrestricted 然うして/そうして conjunction1 with rare-kanji flag verified. Independently fetched official whole OJAD search, actual41035-byte exact-query response with no numeric word rows, SHA0d8f48…02433 now correctly bound; unknown retained without component inference. N2 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "7a20c1f71b7e09c9605ee18d3a332802e0ead27d684a8c23720ca8228a67b4e6",
+        "approvalHash": "7a20c1f71b7e09c9605ee18d3a332802e0ead27d684a8c23720ca8228a67b4e6"
+      }
+    },
+    {
+      "key": "明き|あき",
+      "referenceIndex": 0,
+      "referenceHash": "0983757f5e612690f3f1311090249a3e4db4025741a5ec7bd1ee5aa41b26e8cc",
+      "revisionId": "071a-candidate-aki-vacancy-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:correction:aki-vacancy"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:aki-vacancy": "f34b41a9fcefaa8a157d94a511a8abbb33e9619a6ced6274dd8750f254ee2f0f"
+      },
+      "reason": "Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1609010; spelling=明き; reading=あき; senses=1,2,3",
+          "finding": "Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling.",
+          "selected": {
+            "sequence": "1609010",
+            "spelling": "明き",
+            "reading": "あき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "space",
+                  "room",
+                  "gap",
+                  "emptiness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "vacancy",
+                  "opening",
+                  "empty seat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free time",
+                  "time to spare"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 0983757f5e612690f3f1311090249a3e4db4025741a5ec7bd1ee5aa41b26e8cc",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=1",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Space/vacancy/free time selects the noun, not autumn秋 or boredom飽き. Afternoon spare time and hotel availability explicitly teach time versus accommodation; 明き is attested same-reading spelling. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "af73c0249148acf9f973e2436aeb303f086f66f6cd69295aca0daf8d91debbf0",
+        "approvalHash": "af73c0249148acf9f973e2436aeb303f086f66f6cd69295aca0daf8d91debbf0"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 明き|あき#0 and verified current exact target hash. Read afternoon spare time versus querying hotel vacancy, full German/Hepburn and free-place note. Original JMdict1609010 unrestricted 明き/あき noun senses1/2/3 support scope, not autumn/boredom. Exact maintenance031 UniDic41278551 noun0 selected over 空く conjugated stem; N3 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "af73c0249148acf9f973e2436aeb303f086f66f6cd69295aca0daf8d91debbf0",
+        "approvalHash": "af73c0249148acf9f973e2436aeb303f086f66f6cd69295aca0daf8d91debbf0"
+      }
+    },
+    {
+      "key": "股|もも",
+      "referenceIndex": 0,
+      "referenceHash": "80ed8fa73767172f0120c79665752c45acefa17230675edfd7b42f313d476cc7",
+      "revisionId": "071a-candidate-momo-thigh-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:momo-thigh"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:momo-thigh": "6ac442197ec93735d65373f709eb42f08847089614302fb1ba92a3e6972ab266"
+      },
+      "reason": "Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1605310; spelling=股; reading=もも; senses=1",
+          "finding": "Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged.",
+          "selected": {
+            "sequence": "1605310",
+            "spelling": "股",
+            "reading": "もも",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thigh"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 80ed8fa73767172f0120c79665752c45acefa17230675edfd7b42f313d476cc7",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Thigh maps the exact body-part noun, with muscle pain after running and bruising from a ball. 股/もも is same sense; 股/また groin/crotch and peach桃 must not be merged. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "6283957e3f7382f61fec70a6092946ecfa36c9256e82d389189d56a29fc0dddb",
+        "approvalHash": "6283957e3f7382f61fec70a6092946ecfa36c9256e82d389189d56a29fc0dddb"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 股|もも#0 and verified current exact target hash. Read muscle pain from running versus bruise after ball impact, full German/Hepburn and qualified body-part note. Original JMdict1605310 unrestricted 股/もも thigh1 verified, distinct from mata crotch and peach. Exact maintenance049 UniDic2661242331, N1 identity retained. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "6283957e3f7382f61fec70a6092946ecfa36c9256e82d389189d56a29fc0dddb",
+        "approvalHash": "6283957e3f7382f61fec70a6092946ecfa36c9256e82d389189d56a29fc0dddb"
+      }
+    },
+    {
+      "key": "福|ふく",
+      "referenceIndex": 0,
+      "referenceHash": "d8a71433a8cc8d642c6eaaa77ea3c66d3d1efac7879410b545e34617795a8c27",
+      "revisionId": "071a-candidate-fuku-fortune-0",
+      "state": "accepted",
+      "predecessorHash": "3fdfd8e3a995154d04ecaaf75c702ba68572575eb6854d09dcc51e73295e41b6",
+      "predecessorRevisionHash": "26251d7b6c1a6af49198f953e6afccab008fb64c867dc3d1b0aef2d6eea4649f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:fuku-fortune"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuku-fortune": "d1db339d0bf191d728db9fd721fe322043cbde9262f818c887a124f0afcaa4c8"
+      },
+      "reason": "Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1501020; spelling=福; reading=ふく; senses=1",
+          "finding": "Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed.",
+          "selected": {
+            "sequence": "1501020",
+            "spelling": "福",
+            "reading": "ふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good fortune",
+                  "happiness",
+                  "blessing",
+                  "good luck"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 d8a71433a8cc8d642c6eaaa77ea3c66d3d1efac7879410b545e34617795a8c27",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=142",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "11d3328b1d48d32ac9bb433a18d306b54c49970ea7a7449895b7c33b9154c7c2",
+        "approvalHash": "11d3328b1d48d32ac9bb433a18d306b54c49970ea7a7449895b7c33b9154c7c2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 福|ふく#0 and verified current exact target hash. Read full current Setsubun bean-throwing versus laughter proverb, German/Hepburn and fortune note. Original JMdict1501020 noun good-fortune1 supports exact 福/ふく. Maintenance047 ordinary UniDic2327195482 selected over personal-name1 rows; no additional card or alias claimed. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "11d3328b1d48d32ac9bb433a18d306b54c49970ea7a7449895b7c33b9154c7c2",
+        "approvalHash": "11d3328b1d48d32ac9bb433a18d306b54c49970ea7a7449895b7c33b9154c7c2"
+      }
+    },
+    {
+      "key": "福|ふく",
+      "referenceIndex": 1,
+      "referenceHash": "3c3977aa797a3e3036f8fa170b31ec049e5d291e96e5a8c146853ebd971d09c9",
+      "revisionId": "071a-candidate-fuku-fortune-1",
+      "state": "accepted",
+      "predecessorHash": "d4f51048dd57100f1083e9faf92d4dda7f7266a12382f8001b768dbd86d55771",
+      "predecessorRevisionHash": "03bcf59b1cfc23000261257951b7a85db0e4e4eb5dab9584c4ee35efad90d857",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:fuku-fortune"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuku-fortune": "d1db339d0bf191d728db9fd721fe322043cbde9262f818c887a124f0afcaa4c8"
+      },
+      "reason": "Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1501020; spelling=福; reading=ふく; senses=1",
+          "finding": "Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed.",
+          "selected": {
+            "sequence": "1501020",
+            "spelling": "福",
+            "reading": "ふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good fortune",
+                  "happiness",
+                  "blessing",
+                  "good luck"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact reviewed target",
+          "version": "Reference SHA256 3c3977aa797a3e3036f8fa170b31ec049e5d291e96e5a8c146853ebd971d09c9",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Root personally read the exact publisher gloss/reading and the selected dictionary restrictions against final teaching, preserving the actual lexeme level. Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read the exact final notes, every Japanese/Hepburn/German example, same-reading alias, selected dictionary senses and source spelling restrictions. Good fortune/happiness/blessing maps the exact existing 福 noun, not clothes服 or blowing吹く. Setsubun bean-throwing and laughter proverb both express invited fortune; no alias or additional identity is needed. Saved-progress identity and researched whole-head pitch remain preserved; kana, rare spellings, ateji, and search-only markers are explicitly qualified.",
+        "contentHash": "7b486097d9530712803e61354b43cab8936245e7ec7d2d9bc409b1e5d4a00a33",
+        "approvalHash": "7b486097d9530712803e61354b43cab8936245e7ec7d2d9bc409b1e5d4a00a33"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read frozen publisher reference 福|ふく#1 and verified current exact target hash. Read full current Setsubun bean-throwing versus laughter proverb, German/Hepburn and fortune note. Original JMdict1501020 noun good-fortune1 supports exact 福/ふく. Maintenance047 ordinary UniDic2327195482 selected over personal-name1 rows; no additional card or alias claimed. Rechecked investigated unknown retained in review.pitch evidence/rationale while final runtime pitch remains null without pitchProvenance; source proof and teaching remain intact.",
+        "contentHash": "7b486097d9530712803e61354b43cab8936245e7ec7d2d9bc409b1e5d4a00a33",
+        "approvalHash": "7b486097d9530712803e61354b43cab8936245e7ec7d2d9bc409b1e5d4a00a33"
+      }
+    }
+  ]
+}

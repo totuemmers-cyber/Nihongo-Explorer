@@ -120875,7 +120875,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Körper",
     "level": "N1",
-    "notes": "Oft in Kana: もも; üblicher ist 太もも (太腿). Beim Fleisch: 鶏もも肉 (Hähnchenschenkel). Gleich lautend: 桃 (Pfirsich).",
+    "notes": "腿 heißt „Oberschenkel“; häufig schreibt man もも oder 太もも. Auch 股 kann in dieser Bedeutung もも gelesen werden. Die andere Lesung また von 股 bezeichnet einen anderen Körperbereich. 鶏もも肉 ist Fleisch vom Hähnchenschenkel; 桃 „Pfirsich“ ist ein gleich klingendes anderes Wort.",
     "examples": [
       {
         "japanese": "走りすぎて、腿の筋肉が痛い。",
@@ -120884,9 +120884,12 @@ window.VOCAB_N1 = [
       },
       {
         "japanese": "ボールが腿に当たって、あざができた。",
-        "romaji": "Booru ga momo ni atatte, aza ga dekita.",
+        "romaji": "Bōru ga momo ni atatte, aza ga dekita.",
         "german": "Der Ball traf mich am Oberschenkel, und ich bekam einen blauen Fleck."
       }
+    ],
+    "aliases": [
+      "股"
     ],
     "pitch": 1,
     "pitchProvenance": [

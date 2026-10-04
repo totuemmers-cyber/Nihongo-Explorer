@@ -66821,11 +66821,11 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Alltag",
     "level": "N3",
-    "notes": "Freier Raum, freie Zeit oder ein freier Platz: 空き部屋 (freies Zimmer), 空き時間 (Zeit zwischendurch), 空き缶 (leere Dose). Gleich klingend: 秋 (Herbst) und 飽き (Überdruss).",
+    "notes": "空き bezeichnet freien Platz, eine freie Unterkunft oder freie Zeit. 空きがある meldet eine vorhandene freie Stelle; im Hotel fragt man damit nach einer freien Unterkunft. 今日の午後は空きがある heißt, dass man am Nachmittag Zeit frei hat. Die Wörterbuchvariante 明き hat dieselbe Lesung あき; 秋 „Herbst“ und 飽き „Überdruss“ sind andere Wörter.",
     "examples": [
       {
         "japanese": "今日の午後は少し空きがあります。",
-        "romaji": "Kyou no gogo wa sukoshi aki ga arimasu.",
+        "romaji": "Kyō no gogo wa sukoshi aki ga arimasu.",
         "german": "Heute Nachmittag habe ich etwas Zeit frei."
       },
       {
@@ -66833,6 +66833,9 @@ window.VOCAB_N3 = [
         "romaji": "Hoteru ni aki ga aru ka denwa de kiita.",
         "german": "Ich habe telefonisch gefragt, ob im Hotel noch etwas frei ist."
       }
+    ],
+    "aliases": [
+      "明き"
     ],
     "pitch": 0,
     "pitchProvenance": [

@@ -15,6 +15,13 @@ translations. Previously accepted entries missing this enrichment re-enter the
 queue. Every teaching change requires exact-content first and independent second
 approvals; no dictionary hit or generated template constitutes acceptance.
 
+From batches 066–067 onward, each parallel author performs and records the
+first editorial inspection under their own reviewer identity. This includes
+reading every assembled final entry and checking its selected source evidence;
+the first pass is an author self-review. A separate reviewer independently
+inspects every entry and supplies the second pass. The root agent binds those
+actual decisions, resolves findings, and owns serialized imports and verification.
+
 Use `npm run report:vocabulary-completion -- --level=N5` for current counts and
 `npm run audit:vocabulary-enrichment -- --level=N5` to gate that phase. The normal
 global audit commands continue to gate the entire library. Shared candidate groups
@@ -52,6 +59,20 @@ is identical, all 15,558 original identities remain, and comprehension/audio
 payloads are unchanged. Browser inspection covers 390/1440 widths in both themes,
 verified and investigated unknown pitch, nine alias searches and addition
 deep-link refresh. N5 remains active and incomplete; N4–N1 are pending.
+
+The third verified checkpoint, batches 066–072 and 082, enriches 300 further
+N5 entries and reviews targeted spelling/note updates for five more original
+entries (one N5 and four existing higher-level lexemes needed for N5-owned
+references). This campaign now covers 832 unique original entries plus 字引;
+repeat revisions are counted once. It closes 88 more baseline references,
+104 in total, and renews four historical merge approvals while preserving all
+16 existing redirects. All 21 full checks pass, generated replay is identical,
+and all original IDs, headwords, readings and levels remain. Comprehension/audio
+payloads are unchanged. Browser inspection covers 390/1440 widths, both themes,
+verified/variant/unknown pitch, 14 spelling searches, note display and card
+deep-link refresh. N5 remains active: 593 missing notes, 700 pending reviews,
+749 entries lacking two reviewed contexts, and 458 unresolved references.
+N4–N1 remain pending; this checkpoint does not certify a level.
 
 ## Historical campaign freeze
 

@@ -54434,18 +54434,21 @@ window.VOCAB_N2 = [
     "type": "Verb",
     "category": "Handlung",
     "level": "N2",
-    "notes": "Transitives Godan-Verb, etwas weich und locker ganz einhüllen: 赤ちゃんを毛布でくるむ. Ähnlich, aber allgemeiner: 包む（つつむ）.",
+    "notes": "くるむ heißt „einwickeln, einhüllen“. Das eingewickelte Objekt steht mit を, das Material mit で: 赤ちゃんを毛布でくるむ. Das Godan-Verb bildet くるんで und くるんだ. Auch 包む wird hier くるむ gelesen; dieselben Kanji können mit der Lesung つつむ ein allgemeineres Verb für „einpacken“ bezeichnen.",
     "examples": [
       {
         "japanese": "赤ちゃんを暖かい毛布でくるんだ。",
-        "romaji": "Akachan o atatakai moufu de kurunda.",
+        "romaji": "Akachan o atatakai mōfu de kurunda.",
         "german": "Ich wickelte das Baby in eine warme Decke."
       },
       {
         "japanese": "割れないように、コップを新聞紙でくるんだ。",
-        "romaji": "Warenai you ni, koppu o shinbunshi de kurunda.",
+        "romaji": "Warenai yō ni, koppu o shinbunshi de kurunda.",
         "german": "Damit es nicht zerbricht, wickelte ich das Glas in Zeitungspapier."
       }
+    ],
+    "aliases": [
+      "包む"
     ],
     "pitch": 2,
     "verbGroup": "godan",
@@ -73321,23 +73324,26 @@ window.VOCAB_N2 = [
   {
     "word": "そうして",
     "reading": "そうして",
-    "romaji": "soushite",
+    "romaji": "sōshite",
     "meaning": "und dann, und so; auf diese Weise",
     "type": "Ausdruck",
     "category": "Sprache",
     "level": "N2",
-    "notes": "Etwas betontere, eher schriftliche Form von そして („und so, und dann“); auch „auf diese Weise“: そうしてできた作品.",
+    "notes": "そうして verbindet einen Ablauf im Sinn von „und so, und dann“. Es kann auch auf die zuvor beschriebene Art verweisen: そうしてできた生地 ist der so entstandene Teig. 然うして ist eine seltene Wörterbuchschreibung; üblich ist die Kanaform そうして.",
     "examples": [
       {
         "japanese": "彼は毎日練習した。そうして、ついに優勝した。",
-        "romaji": "Kare wa mainichi renshuu shita. Soushite, tsui ni yuushou shita.",
+        "romaji": "Kare wa mainichi renshū shita. Sōshite, tsui ni yūshō shita.",
         "german": "Er trainierte jeden Tag. Und so gewann er schließlich."
       },
       {
         "japanese": "材料を混ぜて、そうしてできた生地を焼く。",
-        "romaji": "Zairyou o mazete, soushite dekita kiji o yaku.",
+        "romaji": "Zairyō o mazete, sōshite dekita kiji o yaku.",
         "german": "Man mischt die Zutaten und bäckt den so entstandenen Teig."
       }
+    ],
+    "aliases": [
+      "然うして"
     ],
     "pitch": null,
     "correctionId": "vocab-n2:correction:soushite"
