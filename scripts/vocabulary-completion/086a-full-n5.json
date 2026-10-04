@@ -1,0 +1,273 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "直ぐ|すぐ",
+      "referenceIndex": 0,
+      "referenceHash": "7315bbabbfd73a93cfcbc798e1aaba5b4defd022041b388ccc6f571add177991",
+      "revisionId": "086a-206",
+      "state": "accepted",
+      "predecessorHash": "bdcb7cab115a067cf5e6f7444e40d90db07c1f0323abe24f51a3817b3e2631f3",
+      "predecessorRevisionHash": "9b85760e04eb58fef251a11dc79be54a3ca675f46c1bbedd41b285bd22436739",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:206"
+      ],
+      "targetHashes": {
+        "vocab-n5:206": "9347177a859ee653f0c89de7bbdff775d950b2958f7ebd4a5d1eac16fef35a46"
+      },
+      "reason": "Exact adverb 直ぐ/すぐ, normally kana, selects immediate action and spatial proximity. Personally reread すぐ行きます and 駅はすぐそこです with German and Hepburn; the current note explicitly distinguishes adverb from archaic verb. This reference is covered for senses1/4; the publisher also lists soon/easily/honest, which this decision does not claim as newly authored senses. Existing alias and verified exact adverb pitch1 retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1430610; spelling=直ぐ; reading=すぐ; senses=1,4",
+          "finding": "Exact adverb 直ぐ/すぐ, normally kana, selects immediate action and spatial proximity. Personally reread すぐ行きます and 駅はすぐそこです with German and Hepburn; the current note explicitly distinguishes adverb from archaic verb. This reference is covered for senses1/4; the publisher also lists soon/easily/honest, which this decision does not claim as newly authored senses. Existing alias and verified exact adverb pitch1 retained.",
+          "selected": {
+            "sequence": "1430610",
+            "spelling": "直ぐ",
+            "reading": "すぐ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "immediately",
+                  "at once",
+                  "right away",
+                  "directly"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "adverb (fukushi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "right (near)",
+                  "nearby",
+                  "just (handy)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and final reviewed target",
+          "version": "Reference SHA256 7315bbabbfd73a93cfcbc798e1aaba5b4defd022041b388ccc6f571add177991",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=86",
+          "finding": "Exact adverb 直ぐ/すぐ, normally kana, selects immediate action and spatial proximity. Personally reread すぐ行きます and 駅はすぐそこです with German and Hepburn; the current note explicitly distinguishes adverb from archaic verb. This reference is covered for senses1/4; the publisher also lists soon/easily/honest, which this decision does not claim as newly authored senses. Existing alias and verified exact adverb pitch1 retained.",
+          "targetContent": {
+            "word": "すぐ",
+            "reading": "すぐ",
+            "romaji": "sugu",
+            "meaning": "sofort; gleich in der Nähe",
+            "type": "Adverb",
+            "category": "Zeit",
+            "level": "N5",
+            "notes": "すぐ kann zeitlich „sofort“ oder räumlich „gleich in der Nähe“ heißen. すぐ行く ist sofort gehen; すぐそこ ist gleich dort, ohne großen Abstand. Das Wort bezeichnet hier ein Adverb, nicht das alte Verb すぐ („vorübergehen“).",
+            "examples": [
+              {
+                "japanese": "すぐ行きます。",
+                "romaji": "Sugu ikimasu.",
+                "german": "Ich gehe sofort."
+              },
+              {
+                "japanese": "駅はすぐそこです。",
+                "romaji": "Eki wa sugu soko desu.",
+                "german": "Der Bahnhof ist gleich dort."
+              }
+            ],
+            "aliases": [
+              "直ぐ"
+            ],
+            "pitch": 1,
+            "pitchProvenance": [
+              {
+                "source": "現代書き言葉UniDic",
+                "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+                "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147207523",
+                "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+                "patterns": [
+                  1
+                ],
+                "finding": "UniDic sys.dic@147207523: orth=すぐ, kana=スグ, lemma=直ぐ, 副詞/*/*/*, aType=1. Exakte Wortart und ausgewählte JMdict-Bedeutung passen zu den selbst geprüften Beispielen.",
+                "match": {
+                  "word": "すぐ",
+                  "reading": "すぐ",
+                  "grammaticalForm": "副詞/*/*/*; *; *",
+                  "sense": "すぐ als sofort; gleich in der Nähe"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally inspected the complete exact final target, Japanese sentences, Modified Hepburn, German meanings/translations/usage notes and alias; compared the selected JMdict senses with the frozen publisher gloss and verified existing pitch evidence. Exact adverb 直ぐ/すぐ, normally kana, selects immediate action and spatial proximity. Personally reread すぐ行きます and 駅はすぐそこです with German and Hepburn; the current note explicitly distinguishes adverb from archaic verb. This reference is covered for senses1/4; the publisher also lists soon/easily/honest, which this decision does not claim as newly authored senses. Existing alias and verified exact adverb pitch1 retained.",
+        "contentHash": "b149f55d05efdbe5413ad9546d67d25f4104fc246ce208d11202050ff02989f2",
+        "approvalHash": "b149f55d05efdbe5413ad9546d67d25f4104fc246ce208d11202050ff02989f2"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently read frozen TANOS reference/gloss and final206 note, both Japanese/German/Hepburn examples and existing直ぐ alias. Raw1430610 unrestrictedすぐ usual-kana adverb immediately1 and nearby4 support immediate departure versus nearby station contexts; soon2/easily3/honest-na5 explicitly unclaimed, not asserted as newly authored senses. Actual original UniDic147207523 exactすぐ adverb lemma直ぐ aType1 independently parsed. Recomputed embedded final target hash and actual runtime projection both9347177a… match decision. This renews same-lexeme spelling coverage with unchanged N5 ID/head/read/level, not broader sense certification.",
+        "contentHash": "b149f55d05efdbe5413ad9546d67d25f4104fc246ce208d11202050ff02989f2",
+        "approvalHash": "b149f55d05efdbe5413ad9546d67d25f4104fc246ce208d11202050ff02989f2"
+      }
+    },
+    {
+      "key": "先先月|せんせんげつ",
+      "referenceIndex": 0,
+      "referenceHash": "6fc0a249b26c3e8549d64b4f89161f6c4470f9475b25d6d63a6b7e84f66f7113",
+      "revisionId": "086a-878",
+      "state": "accepted",
+      "predecessorHash": "7516d3236bf1cba9542c6274917922a24eeddc4cd087db52c0732c978f2d648f",
+      "predecessorRevisionHash": "27b376eeb554166d802e8f41219e250443c7ae844d92d95ffd3633a3e0225b94",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:878"
+      ],
+      "targetHashes": {
+        "vocab-n5:878": "cdf700923726d5b1cc71ec64ad4022373d7b3581c35bb5cd7975a3681183e5c2"
+      },
+      "reason": "Exact temporal noun/adverb means month before last. Personally reread travel to Cuba in that month versus asking that month’s rental price, including Kyūba, の modifier, past tense and German translations. 先先月 is the same-reading spelling of 先々月 already present as a search alias. Rebind the historical spelling decision after the independently reviewed 073a enrichment and whole-form OJAD accent3; do not infer the alias accent from individual components.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1596200; spelling=先先月; reading=せんせんげつ; senses=1",
+          "finding": "Exact temporal noun/adverb means month before last. Personally reread travel to Cuba in that month versus asking that month’s rental price, including Kyūba, の modifier, past tense and German translations. 先先月 is the same-reading spelling of 先々月 already present as a search alias. Rebind the historical spelling decision after the independently reviewed 073a enrichment and whole-form OJAD accent3; do not infer the alias accent from individual components.",
+          "selected": {
+            "sequence": "1596200",
+            "spelling": "先先月",
+            "reading": "せんせんげつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "month before last"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and final reviewed target",
+          "version": "Reference SHA256 6fc0a249b26c3e8549d64b4f89161f6c4470f9475b25d6d63a6b7e84f66f7113",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=91",
+          "finding": "Exact temporal noun/adverb means month before last. Personally reread travel to Cuba in that month versus asking that month’s rental price, including Kyūba, の modifier, past tense and German translations. 先先月 is the same-reading spelling of 先々月 already present as a search alias. Rebind the historical spelling decision after the independently reviewed 073a enrichment and whole-form OJAD accent3; do not infer the alias accent from individual components.",
+          "targetContent": {
+            "word": "先々月",
+            "reading": "せんせんげつ",
+            "romaji": "sensengetsu",
+            "meaning": "vorletzter Monat",
+            "type": "Nomen",
+            "category": "Zeit",
+            "level": "N5",
+            "notes": "先々月 ist der vorletzte Monat, also zwei Monate vor dem aktuellen Monat. Man kann es ohne Partikel als Zeitangabe verwenden. Mit 先々月の verbindet man diesen Zeitraum mit einem Nomen, etwa 先々月の家賃 für die Miete des vorletzten Monats.",
+            "examples": [
+              {
+                "japanese": "先々月、キューバにいきました。",
+                "romaji": "Sensengetsu, Kyūba ni ikimashita.",
+                "german": "Vorletzten Monat bin ich nach Kuba gereist."
+              },
+              {
+                "japanese": "先々月の家賃はいくらでしたか。",
+                "romaji": "Sensengetsu no yachin wa ikura deshita ka.",
+                "german": "Wie hoch war die Miete im vorletzten Monat?"
+              }
+            ],
+            "aliases": [
+              "先先月"
+            ],
+            "pitch": 3,
+            "pitchProvenance": [
+              {
+                "source": "OJAD — University of Tokyo",
+                "version": "Saved whole-form UTF-8 HTML SHA256 33ff82b0bfceda82672e3cf7b191a865f78e7f16deb19a3bc8a28982c5116ca4",
+                "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%88%E3%80%85%E6%9C%88#dictionary-form",
+                "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+                "patterns": [
+                  3
+                ],
+                "finding": "Saved OJAD exact 先々月 full cell せ/ん/せ/ん/げ/つ peaks thirdせ: complete six-mora temporal noun3, resolving former unknown.",
+                "match": {
+                  "word": "先々月",
+                  "reading": "せんせんげつ",
+                  "grammaticalForm": "Nomen; exact complete dictionary form",
+                  "sense": "先々月 als vorletzter Monat"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally inspected the complete exact final target, Japanese sentences, Modified Hepburn, German meanings/translations/usage notes and alias; compared the selected JMdict senses with the frozen publisher gloss and verified existing pitch evidence. Exact temporal noun/adverb means month before last. Personally reread travel to Cuba in that month versus asking that month’s rental price, including Kyūba, の modifier, past tense and German translations. 先先月 is the same-reading spelling of 先々月 already present as a search alias. Rebind the historical spelling decision after the independently reviewed 073a enrichment and whole-form OJAD accent3; do not infer the alias accent from individual components.",
+        "contentHash": "6ffc1550cd48224b5f2f5377865373e439f1ce3198565fcd32c48183583156af",
+        "approvalHash": "6ffc1550cd48224b5f2f5377865373e439f1ce3198565fcd32c48183583156af"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Independently read frozen TANOS reference and actual final878 note, Cuba-travel versus past-month-rent inquiry with German/Hepburn Kyūba, modifiers and past tense. Raw1596200 explicitly pairs先先月/先々月 unrestrictedせんせんげつ for month-before-last noun/adverb1. Previously independently read actual073a OJAD7956 complete six-mora form with thirdせ drop3, retained provenance/source hash exact. Recomputed embedded target hash and actual runtime projection bothcdf70092… match decision. Renewed alias binding after full enrichment preserves original N5 identity and genuine distinct contexts, no component accent or publisher-level migration.",
+        "contentHash": "6ffc1550cd48224b5f2f5377865373e439f1ce3198565fcd32c48183583156af",
+        "approvalHash": "6ffc1550cd48224b5f2f5377865373e439f1ce3198565fcd32c48183583156af"
+      }
+    }
+  ]
+}

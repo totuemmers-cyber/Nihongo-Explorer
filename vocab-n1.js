@@ -130211,5 +130211,66 @@ window.VOCAB_N1 = [
     ],
     "pitch": null,
     "correctionId": "vocab-n1:correction:honkakuteki"
+  },
+  {
+    "word": "節倹",
+    "reading": "せっけん",
+    "romaji": "sekken",
+    "meaning": "Sparsamkeit, genügsame Lebensführung",
+    "type": "Nomen",
+    "category": "Finanzen",
+    "level": "N1",
+    "notes": "節倹 bedeutet, die Ausgaben zurückzuhalten und schlicht zu leben. Als Nomen steht es etwa in 節倹に努める „sich um Sparsamkeit bemühen“ oder 節倹を重んじる „Sparsamkeit hochschätzen“. Auch 節倹する ist verzeichnet. Die Beispiele zeigen eine persönliche Lebensweise und den Umgang mit öffentlichen Mitteln. Das gleich ausgesprochene 石鹸・せっけん bedeutet „Seife“ und ist ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "母は長年節倹に努め、子どもたちの学費を用意した。",
+        "romaji": "Haha wa naganen sekken ni tsutome, kodomotachi no gakuhi o yōi shita.",
+        "german": "Meine Mutter bemühte sich jahrelang um Sparsamkeit und stellte das Geld für die Ausbildung ihrer Kinder bereit."
+      },
+      {
+        "japanese": "市長は、公金の使い方を見直し、節倹を重んじる姿勢を示した。",
+        "romaji": "Shichō wa, kōkin no tsukaikata o minaoshi, sekken o omonjiru shisei o shimeshita.",
+        "german": "Der Bürgermeister überprüfte die Verwendung öffentlicher Gelder und machte seine Wertschätzung für Sparsamkeit deutlich."
+      }
+    ],
+    "aliases": [
+      "せっけん"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152932794",
+        "patterns": [
+          0
+        ],
+        "finding": "Personally parsed actual complete節倹/セッケン/lemma節倹 noun nominal-adjective-capable row aType0. The lexical thrift sense fits both examples. Excluded five same-orthography classical verb節倹る rows with other readings; no soap accent inferred.",
+        "match": {
+          "word": "節倹",
+          "reading": "せっけん",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "Sparsamkeit und schlichte Lebensführung"
+        },
+        "selectedRow": {
+          "locator": "sys.dic@152932794",
+          "orth": "節倹",
+          "kana": "セッケン",
+          "lemma": "節倹",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "形状詞可能",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "raw": "名詞,普通名詞,形状詞可能,*,*,*,セッケン,節倹,節倹,セッケン,節倹,セッケン,漢,*,*,*,*,*,*,体,セッケン,セッケン,セッケン,セッケン,0,C2,*,16201312458908160,58940"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:sekken-thrift"
   }
 ];

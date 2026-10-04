@@ -1,0 +1,296 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n1:correction:sekken-thrift",
+      "revisionId": "088c-sekken-thrift",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "節倹",
+        "reading": "せっけん",
+        "romaji": "sekken",
+        "meaning": "Sparsamkeit, genügsame Lebensführung",
+        "type": "Nomen",
+        "category": "Finanzen",
+        "level": "N1",
+        "aliases": [
+          "せっけん"
+        ],
+        "notes": "節倹 bedeutet, die Ausgaben zurückzuhalten und schlicht zu leben. Als Nomen steht es etwa in 節倹に努める „sich um Sparsamkeit bemühen“ oder 節倹を重んじる „Sparsamkeit hochschätzen“. Auch 節倹する ist verzeichnet. Die Beispiele zeigen eine persönliche Lebensweise und den Umgang mit öffentlichen Mitteln. Das gleich ausgesprochene 石鹸・せっけん bedeutet „Seife“ und ist ein anderes Wort.",
+        "examples": [
+          {
+            "japanese": "母は長年節倹に努め、子どもたちの学費を用意した。",
+            "romaji": "Haha wa naganen sekken ni tsutome, kodomotachi no gakuhi o yōi shita.",
+            "german": "Meine Mutter bemühte sich jahrelang um Sparsamkeit und stellte das Geld für die Ausbildung ihrer Kinder bereit."
+          },
+          {
+            "japanese": "市長は、公金の使い方を見直し、節倹を重んじる姿勢を示した。",
+            "romaji": "Shichō wa, kōkin no tsukaikata o minaoshi, sekken o omonjiru shisei o shimeshita.",
+            "german": "Der Bürgermeister überprüfte die Verwendung öffentlicher Gelder und machte seine Wertschätzung für Sparsamkeit deutlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152932794",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally parsed actual complete節倹/セッケン/lemma節倹 noun nominal-adjective-capable row aType0. The lexical thrift sense fits both examples. Excluded five same-orthography classical verb節倹る rows with other readings; no soap accent inferred.",
+            "match": {
+              "word": "節倹",
+              "reading": "せっけん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Sparsamkeit und schlichte Lebensführung"
+            },
+            "selectedRow": {
+              "locator": "sys.dic@152932794",
+              "orth": "節倹",
+              "kana": "セッケン",
+              "lemma": "節倹",
+              "pos": [
+                "名詞",
+                "普通名詞",
+                "形状詞可能",
+                "*"
+              ],
+              "cType": "*",
+              "cForm": "*",
+              "aType": "0",
+              "raw": "名詞,普通名詞,形状詞可能,*,*,*,セッケン,節倹,節倹,セッケン,節倹,セッケン,漢,*,*,*,*,*,*,体,セッケン,セッケン,セッケン,セッケン,0,C2,*,16201312458908160,58940"
+            }
+          }
+        ]
+      },
+      "reason": "Represent the frozen source’s valid thrift homophone as its own dictionary-backed lexical entry, preserving the existing soap card.",
+      "levelBasis": "Editorial estimated N1 for abstract written/literary usage, with primary classical citation context and advanced collocations; TANOS N5 source label is retained but not copied as a word-difficulty certification.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1386220; canonical節倹; readingせっけん; sense1",
+          "finding": "Source kanaせっけん with gloss Economy selects actual 節倹1386220 thrift, not 石鹸1382590 soap, 接見 interview or 席巻 sweeping. Raw canonical spelling/reading and Shogakukan noun/nominal-adjective/suru treatment inspected.",
+          "selected": {
+            "sequence": "1386220",
+            "spelling": "せっけん",
+            "reading": "せっけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "economy",
+                  "thrift"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ],
+            "canonicalSpelling": "節倹"
+          }
+        },
+        {
+          "source": "デジタル大辞泉 — Shogakukan licensed Kotobank entry",
+          "version": "Saved UTF-8 HTML SHA256 708d442459f6314b4ce89a15c27b8dd51505e6db3a570968f5924b36b487b09c",
+          "locator": "https://kotobank.jp/word/%E7%AF%80%E5%80%B9-548065#デジタル大辞泉",
+          "attribution": "Shogakukan; lexical facts paraphrased, no example quotation copied",
+          "finding": "Primary exactせっけん/節倹 noun, nominal-adjective and suru entry defines restrained expenditure and simple living, supporting the two original nominal contexts."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "ambiguous-sense",
+          "distinct-examples",
+          "usage-note"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "せっけん|せっけん",
+          "referenceIndex": 0,
+          "referenceHash": "b903a08216f679a6ad31449c7ab790dbb296269244f032206efad842efb520d9"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "Personally read source economy/thrift and checked complete German Sparsamkeit/genügsame Lebensführung against both primary dictionary entries.",
+        "japanese": "Personally read all authored sentences: long-term family frugality aimed at preparing children’s school funds; reviewing public spending and expressing esteem for frugality. に努める effort target and を重んじる valued object are natural nominal constructions.",
+        "romanization": "Checked sekken smallっ→kk, naganen, tsutome, kodomotachi, gakuhi/yōi; shichō/kōkin, tsukaikata, minaoshi, omonjiru, shisei and shimeshita. Particlesは/を usewa/o, no Cyrillic letters.",
+        "translation": "Full German preserves past family effort and preparation of funds, then spending review plus stance toward frugality. Ausbildungskosten covers学費 without claiming university-only or an exact amount. No real mayor or current policy is asserted.",
+        "contexts": [
+          "Jahrelange persönliche Sparsamkeit zur Vorbereitung der Ausbildungskosten.",
+          "Eine Haltung zur Sparsamkeit beim Umgang mit öffentlichen Mitteln zeigen."
+        ],
+        "lexical": "Source kanaせっけん with gloss Economy selects actual 節倹1386220 thrift, not 石鹸1382590 soap, 接見 interview or 席巻 sweeping. Raw canonical spelling/reading and Shogakukan noun/nominal-adjective/suru treatment inspected.",
+        "register": "Noun use supported directly; primary classical citations support a written-literary teaching emphasis as an editorial judgment, not a dictionary-supplied rare label.",
+        "transitivity": "Noun; 努める targetに, 用意する objectを, 見直す object公金の使い方を, 重んじる object節倹を and 示す object姿勢を all checked. Optional dictionary-listed suru use is mentioned without pretending this noun is a conjugation card.",
+        "conjugation": "努め→用意した and 見直し→示した sequential polite-neutral written past; 重んじる attributive modifies姿勢; たち associative plural children, の学費 genitive.",
+        "level": "Estimated N1 editorial placement for the abstract written/literary noun and advanced public-spending context. Frozen TANOS N5 label retained as provenance; this is not official JLPT certification or a change to any original entry level."
+      },
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact whole canonical noun 節倹/せっけん row sys.dic@152932794 aType0 fits the primary thrift sense. Other classical readings and homophones excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152932794",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally parsed actual complete節倹/セッケン/lemma節倹 noun nominal-adjective-capable row aType0. The lexical thrift sense fits both examples. Excluded five same-orthography classical verb節倹る rows with other readings; no soap accent inferred.",
+            "match": {
+              "word": "節倹",
+              "reading": "せっけん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Sparsamkeit und schlichte Lebensführung"
+            },
+            "selectedRow": {
+              "locator": "sys.dic@152932794",
+              "orth": "節倹",
+              "kana": "セッケン",
+              "lemma": "節倹",
+              "pos": [
+                "名詞",
+                "普通名詞",
+                "形状詞可能",
+                "*"
+              ],
+              "cType": "*",
+              "cForm": "*",
+              "aType": "0",
+              "raw": "名詞,普通名詞,形状詞可能,*,*,*,セッケン,節倹,節倹,セッケン,節倹,セッケン,漢,*,*,*,*,*,*,体,セッケン,セッケン,セッケン,セッケン,0,C2,*,16201312458908160,58940"
+            }
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally reread the exact final note, head/read, all Japanese, complete German translations and Modified Hepburn. Family savings/preparing school funds versus a mayor’s public-spending stance are semantically distinct illustrative contexts, with natural particles and attributive/sequence grammar. Personally read rawJMdict1386220 and Shogakukan standalone noun/nominal-adjective/suru definition; parsed actualsysdic152932794 noun形状詞可能a0 and rejected classical other-reading verbs. Direct whole head accent0 retained in matching provenance; no homophone or phrase inference. Estimated N1 basis is transparent and leaves all original levels intact.",
+        "contentHash": "0ef80b9574c03242e4e9ddf23d43429d265cb01cad291c326c172f91db02c38f",
+        "approvalHash": "d2c11614ae38581f91fb48f56c080e54eb6be96ef6d0c36c702fc04d6417ee0b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally read the complete new thrift noun, German meaning/note, both Japanese/German/Hepburn contexts and the levelBasis. Original JMdict1386220 unrestricted canonical sekken explicitly gives economy/thrift; raw1382590 separately means soap. Personally opened primary Shogakukan Daijisen noun/nominal-adjective/suru definition and classical citations: restrained spending and simple living support the note. Family frugality to fund education and reviewing public spending with esteem for frugality are distinct natural nominal contexts, with sound ni tsutomeru/o omonjiru syntax and accurate translations/macrons. Actually parsed whole UniDic152932794 nominal sekken0 and all five different-reading classical verb rows; no soap accent is borrowed. Estimated N1 is a defensible editorial placement for abstract written usage and advanced collocations, explicitly not an official certification; the frozen N5 label remains source provenance and no old entry level changes.",
+        "contentHash": "0ef80b9574c03242e4e9ddf23d43429d265cb01cad291c326c172f91db02c38f",
+        "approvalHash": "d2c11614ae38581f91fb48f56c080e54eb6be96ef6d0c36c702fc04d6417ee0b"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "せっけん|せっけん",
+      "referenceIndex": 0,
+      "referenceHash": "b903a08216f679a6ad31449c7ab790dbb296269244f032206efad842efb520d9",
+      "revisionId": "088c-thrift-candidate",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sekken-thrift"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sekken-thrift": "0ef80b9574c03242e4e9ddf23d43429d265cb01cad291c326c172f91db02c38f"
+      },
+      "reason": "Economy is a real thrift sense of 節倹/せっけん, not a basis to map this source to soap or to exclude a valid word. Add its exact canonical noun with two distinct contexts and direct whole-form accent0.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1386220; canonical節倹; readingせっけん; sense1",
+          "finding": "Source kanaせっけん with gloss Economy selects actual 節倹1386220 thrift, not 石鹸1382590 soap, 接見 interview or 席巻 sweeping. Raw canonical spelling/reading and Shogakukan noun/nominal-adjective/suru treatment inspected.",
+          "selected": {
+            "sequence": "1386220",
+            "spelling": "せっけん",
+            "reading": "せっけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "economy",
+                  "thrift"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ],
+            "canonicalSpelling": "節倹"
+          }
+        },
+        {
+          "source": "デジタル大辞泉 — Shogakukan licensed Kotobank entry",
+          "version": "Saved UTF-8 HTML SHA256 708d442459f6314b4ce89a15c27b8dd51505e6db3a570968f5924b36b487b09c",
+          "locator": "https://kotobank.jp/word/%E7%AF%80%E5%80%B9-548065#デジタル大辞泉",
+          "attribution": "Shogakukan; lexical facts paraphrased, no example quotation copied",
+          "finding": "Primary exactせっけん/節倹 noun, nominal-adjective and suru entry defines restrained expenditure and simple living, supporting the two original nominal contexts."
+        },
+        {
+          "source": "Frozen TANOS N5 reference",
+          "version": "Reference SHA256 b903a08216f679a6ad31449c7ab790dbb296269244f032206efad842efb520d9",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=17",
+          "finding": "Exact kana head/readingせっけん and Economy gloss select the dictionary thrift homophone. Historical N5 source placement does not alter any original identity or certify the new lexical level."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read exact frozen kanaせっけん/Economy source and the distinct primary thrift1386220 lexeme. Dictionary-backed新節倹 target has two reviewed contexts and exact canonical whole noun0, while soap/interview/sweeping homophones remain separate; estimated N1 editorial basis explicit.",
+        "contentHash": "984fe3538730e455568a4ffbe328930603247d7616e7f979621f4eeb29f69a1b",
+        "approvalHash": "984fe3538730e455568a4ffbe328930603247d7616e7f979621f4eeb29f69a1b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally inspected frozen TANOS N5 kana sekken/Economy reference, its exact referenceHash and original JMdict1386220/1 against both complete target teaching contexts. Economy as thrift is genuinely attested, so the new canonical thrift noun is a defensible added disposition rather than mapping to soap, interview or sweeping homophones. The kana alias represents the same unrestricted reading. Recomputed the new target contentHash and verified the individual candidate target binding. Direct whole-form thrift pitch0 is supported independently of soap. Editorial estimated N1 is explicitly explained while the frozen source N5 level is preserved as provenance; no original identity, reading, level or soap entry is modified.",
+        "contentHash": "984fe3538730e455568a4ffbe328930603247d7616e7f979621f4eeb29f69a1b",
+        "approvalHash": "984fe3538730e455568a4ffbe328930603247d7616e7f979621f4eeb29f69a1b"
+      }
+    }
+  ]
+}

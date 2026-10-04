@@ -74,6 +74,21 @@ deep-link refresh. N5 remains active: 593 missing notes, 700 pending reviews,
 749 entries lacking two reviewed contexts, and 458 unresolved references.
 N4–N1 remain pending; this checkpoint does not certify a level.
 
+The fourth verified checkpoint, batches 073–074, 076a and 085–088, enriches
+175 further original N5 entries. The campaign now covers 1,007 unique original
+entries and three additions; repeat revisions are counted once. The two new
+entries distinguish an older geographical meaning of 州・しゅう from the modern
+administrative sense, and 節倹・せっけん (thrift) from 石鹸 (soap). Their placement
+and usage qualifications are explicit editorial estimates. Spelling aliases
+and notes close 22 more frozen references, 126 in total. All 21 full checks
+pass, generated replay is identical, and all 15,558 original IDs, headwords,
+readings and levels remain. Comprehension/audio payloads are unchanged. Browser
+inspection covers 28 detail states and their notes at 390/1440 widths in both
+themes, verified/variant/unknown pitch, 18 spelling searches and new-card
+deep-link refresh. N5 remains active: 418 missing notes, 537 pending reviews,
+574 entries lacking two reviewed contexts, and 436 unresolved references.
+N4–N1 remain pending; this checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

@@ -79033,5 +79033,30 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:gareeji"
+  },
+  {
+    "word": "州",
+    "reading": "しゅう",
+    "romaji": "shū",
+    "meaning": "durch Ablagerung entstandene Landfläche oder Insel (ältere Wörterbuchbedeutung)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "Diese Karte behandelt eine geografische Bedeutung von 州 mit der Lesung しゅう, die das 精選版日本国語大辞典 mit einem alten Beleg verzeichnet. Die Einordnung als älterer Wörterbuchgebrauch ist eine redaktionelle Einschätzung. Für heutige geografische Beschreibungen begegnen Ihnen etwa 州・す, 中州・なかす oder 砂州・さす. Die Beispiele zeigen das Nachschlagen und Erklären dieser Bedeutung. Die häufige Bedeutung „Bundesstaat, Provinz“ gehört zur anderen Karte 州・しゅう.",
+    "examples": [
+      {
+        "japanese": "辞書で「州」を調べると、土砂が積もってできた陸地という意味も見つかった。",
+        "romaji": "Jisho de \"shū\" o shiraberu to, dosha ga tsumotte dekita rikuchi to iu imi mo mitsukatta.",
+        "german": "Als ich „shū“ im Wörterbuch nachschlug, fand ich auch die Bedeutung einer durch Ablagerung von Erde und Sand entstandenen Landfläche."
+      },
+      {
+        "japanese": "先生は、「州」のこの意味は、アメリカの州とは違うと説明した。",
+        "romaji": "Sensei wa, \"shū\" no kono imi wa, Amerika no shū to wa chigau to setsumei shita.",
+        "german": "Die Lehrerin erklärte, dass diese Bedeutung von „shū“ sich von der Bedeutung „Bundesstaat“ wie bei den amerikanischen Bundesstaaten unterscheidet."
+      }
+    ],
+    "pitch": null,
+    "senseKey": "sediment-land-historical",
+    "correctionId": "vocab-n3:correction:shuu-sediment-land"
   }
 ];

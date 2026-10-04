@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n3:correction:shuu-sediment-land",
+      "revisionId": "085b-shuu-sediment-land",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "州",
+        "reading": "しゅう",
+        "romaji": "shū",
+        "meaning": "durch Ablagerung entstandene Landfläche oder Insel (ältere Wörterbuchbedeutung)",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N3",
+        "senseKey": "sediment-land-historical",
+        "pitch": null,
+        "notes": "Diese Karte behandelt eine geografische Bedeutung von 州 mit der Lesung しゅう, die das 精選版日本国語大辞典 mit einem alten Beleg verzeichnet. Die Einordnung als älterer Wörterbuchgebrauch ist eine redaktionelle Einschätzung. Für heutige geografische Beschreibungen begegnen Ihnen etwa 州・す, 中州・なかす oder 砂州・さす. Die Beispiele zeigen das Nachschlagen und Erklären dieser Bedeutung. Die häufige Bedeutung „Bundesstaat, Provinz“ gehört zur anderen Karte 州・しゅう.",
+        "examples": [
+          {
+            "japanese": "辞書で「州」を調べると、土砂が積もってできた陸地という意味も見つかった。",
+            "romaji": "Jisho de \"shū\" o shiraberu to, dosha ga tsumotte dekita rikuchi to iu imi mo mitsukatta.",
+            "german": "Als ich „shū“ im Wörterbuch nachschlug, fand ich auch die Bedeutung einer durch Ablagerung von Erde und Sand entstandenen Landfläche."
+          },
+          {
+            "japanese": "先生は、「州」のこの意味は、アメリカの州とは違うと説明した。",
+            "romaji": "Sensei wa, \"shū\" no kono imi wa, Amerika no shū to wa chigau to setsumei shita.",
+            "german": "Die Lehrerin erklärte, dass diese Bedeutung von „shū“ sich von der Bedeutung „Bundesstaat“ wie bei den amerikanischen Bundesstaaten unterscheidet."
+          }
+        ]
+      },
+      "reason": "Preserve the valid rare same-reading geographic reference separately from the existing administrative meaning and its accent.",
+      "levelBasis": "TANOS N3 reference page39; estimated publisher level, not an official vocabulary list.",
+      "evidence": [
+        {
+          "source": "精選版 日本国語大辞典 — Shogakukan, licensed Kotobank entry",
+          "version": "Saved UTF-8 HTML SHA256 9996ae2686388ca488f4867aa0c1d48ca3a2801f62656bcbd3aa2d7a8bc5c174",
+          "locator": "https://kotobank.jp/word/%E5%B7%9E-526126#精選版-日本国語大辞典; standaloneしゅう[1]①",
+          "attribution": "Shogakukan; meaning and reading facts paraphrased, no copied example text",
+          "finding": "Standalone noun sense① attests sediment land/island forしゅう. Rarity assessment is editorial inference, not a dictionary usage label."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1331840; standalone州/しゅう versus ent_seq=1331850 州/す",
+          "finding": "Modern JMdictしゅう senses are administrative/continent/address; theす entry separately covers sandbank. Primary historical noun evidence is therefore needed, not a homophone match."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "additional-sense",
+          "usage-note",
+          "distinct-examples",
+          "investigated-unknown-pitch"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "candidateReference": {
+          "key": "州|しゅう",
+          "referenceIndex": 0,
+          "referenceHash": "d62c3bbc0030b2ffc33a648d0202fef1a3df3414df9ba243d71589f086cc5cc2"
+        },
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "reviewedDistinctContexts": true,
+        "meaning": "Personally read the primary standalone noun sense, distinguished kanji heading from lexical entry, and checked the qualified German meaning.",
+        "japanese": "Personally read both authored contexts: dictionary lookup leads to finding a definition; classroom explanation contrasts the geographical meaning with American administrative units. The quoted headword is readしゅう; no modern river-scene usage is invented.",
+        "romanization": "Checked shū macron, jisho, dosha, tsumotte/dekita, rikuchi, to iu, mitsukatta, and the contrast to wa chigau quotation with setsumei shita; particlesは/を are wa/o.",
+        "translation": "Both full German translations preserve discovery versus reported explanation. Erde und Sand renders土砂; no state geography or modern frequency assertion added to the examples.",
+        "contexts": [
+          "Beim Nachschlagen die geografische Wörterbuchbedeutung entdecken.",
+          "Im Unterricht die geografische Bedeutung von der administrativen unterscheiden."
+        ],
+        "lexical": "Same-reading separate geographical sense is attested in the primary noun entry; senseKey prevents collision with the existing administrative card.",
+        "register": "Older lexicographic treatment is editorial inference from the old citation and absence in modern JMdict/Daijisen standalone noun senses; not claimed as an explicit archaic label.",
+        "transitivity": "Noun; accompanying transitive調べる/説明する and intransitive見つかる correctly allocateを/が and quoted complementと.",
+        "conjugation": "調べると conditional discovery,積もって→できた relative definition,見つかった past discovery; second sentence説明した reported explanation withとは contrast.",
+        "level": "Estimated N3 retained from the exact TANOS N3 source reference; no official JLPT word-level certification. Rare sense receives explicit reading guidance rather than an N5 placement from unrelated週."
+      },
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Investigated exact whole headword in UniDic and OJAD; same spelling/reading evidence does not establish accent for the separately taught historical geographical sense. Keep runtime null and administrative entry unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139806051",
+            "finding": "Actual exact orth州/kanaシュウ/lemma州 nominal counter-capable row aType1 lacks historical-geography sense identification. It supports no independent accent claim for this rare sense; administrative-card pitch1 is not transferred.",
+            "rejectedRows": [
+              {
+                "locator": "sys.dic@139806051",
+                "orth": "州",
+                "kana": "シュウ",
+                "lemma": "州",
+                "pos": [
+                  "名詞",
+                  "普通名詞",
+                  "助数詞可能",
+                  "*"
+                ],
+                "cType": "*",
+                "cForm": "*",
+                "aType": "1"
+              }
+            ]
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved UTF-8 HTML SHA256 1d717fe86194b9d817a33b7c8bf149efbc95aca63363238f6cdad18a57591ed9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%B7%9E",
+            "attribution": "OJAD, University of Tokyo; no audio copied",
+            "finding": "Personally inspected the single exact 州/しゅう noun row. The listing provides no definition distinguishing this historical geographical sense from administrative 州, so it cannot establish rare-sense accent."
+          }
+        ]
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally read every final Japanese, Modified Hepburn, German example/meaning/note and exact primary source. Distinct contexts are discovery during lookup versus a teacher’s semantic contrast. Historical/rare classification is explicitly editorial inference; source spelling/reading facts are attested. Inspected actual OJAD whole6938 row1 and UniDic139806051 nominal counter row; neither identifies this historical sense, so unknown pitch is supported without transplanting administrative1.",
+        "contentHash": "ffa5de3afdc6878e2f7c44f0cf46af1b5f708b0e36a442ae8656bbf9bbe5630e",
+        "approvalHash": "6ccf95539125b654893d9cd3bd18812df42d89caf21fc60806186740f8537138"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally opened the licensed Shogakukan primary entry and read standalone noun shuu [1] sense one, distinct from the kanji heading: sediment-formed land/island is genuinely attested. Read all final Japanese, German, Hepburn and the explicit editorial qualification. Dictionary discovery and a teacher contrasting US states are distinct actual lexicographic contexts, with sound reported syntax and accurate translations. Direct raw JMdict 1331840 lacks this geographical sense while 1331850 is the different reading su; neither is fabricated as support for the new reading. Personally inspected whole OJAD6938 pattern1 and raw UniDic139806051 counter-capable1, which lack rare-sense identification; unknown remains justified. The separate senseKey retains the original N3 ownership and administrative card pitch1. Personally reread refreshed policy metadata: addition explicitly includes the addition risk reason and additional-sense candidate requires enrichment. Exact teaching content hash is unchanged; refreshed assembly and individual approval bindings were checked.",
+        "contentHash": "ffa5de3afdc6878e2f7c44f0cf46af1b5f708b0e36a442ae8656bbf9bbe5630e",
+        "approvalHash": "6ccf95539125b654893d9cd3bd18812df42d89caf21fc60806186740f8537138"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "州|しゅう",
+      "referenceIndex": 0,
+      "referenceHash": "d62c3bbc0030b2ffc33a648d0202fef1a3df3414df9ba243d71589f086cc5cc2",
+      "revisionId": "085b-shuu-candidate",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n3:correction:shuu-sediment-land"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:shuu-sediment-land": "ffa5de3afdc6878e2f7c44f0cf46af1b5f708b0e36a442ae8656bbf9bbe5630e"
+      },
+      "reason": "The publisher’s sandbank meaning is an attested historical same-reading sense. Teach it in a separate senseKey card with source-qualified examples and investigated unknown pitch; existing administrative 州 is preserved.",
+      "evidence": [
+        {
+          "source": "精選版 日本国語大辞典 — Shogakukan, licensed Kotobank entry",
+          "version": "Saved UTF-8 HTML SHA256 9996ae2686388ca488f4867aa0c1d48ca3a2801f62656bcbd3aa2d7a8bc5c174",
+          "locator": "https://kotobank.jp/word/%E5%B7%9E-526126#精選版-日本国語大辞典; standaloneしゅう[1]①",
+          "attribution": "Shogakukan; meaning and reading facts paraphrased, no copied example text",
+          "finding": "Standalone noun sense① attests sediment land/island forしゅう. Rarity assessment is editorial inference, not a dictionary usage label."
+        },
+        {
+          "source": "Frozen TANOS publisher reference",
+          "version": "Reference SHA256 d62c3bbc0030b2ffc33a648d0202fef1a3df3414df9ba243d71589f086cc5cc2",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=39",
+          "finding": "Exact source州/しゅう gloss sandbank agrees with the attested rare geographical sense, not the unrelated N5週 or modern administrative examples."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-sense"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-root-editor",
+        "finding": "Root personally checked frozen TANOS reading/gloss against the primary standaloneしゅう noun sense, not merely the kanji heading. Separate-sense target preserves modern admin ID and accent; no unrelated週 coverage claimed.",
+        "contentHash": "0d8b8acb2814c19418dd9bea4cef8ca58f165fa1755e0a642039d326b3c5e50e",
+        "approvalHash": "0d8b8acb2814c19418dd9bea4cef8ca58f165fa1755e0a642039d326b3c5e50e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Read the exact frozen TANOS N3 sandbank reference and its reference hash, the complete new target content and the primary standalone noun evidence. The additional-sense disposition is defensible because Shogakukan explicitly attests sediment land/island at shuu, whereas modern JMdict administrative shuu and sandbank su are not interchangeable. Recomputed final target hash and verified its exact decision binding. The rare-sense card supplies two distinct dictionary-reading contexts and investigated unknown pitch; the existing administrative card, reading and level are preserved rather than using the unrelated N5 week homophone. Personally reread refreshed policy metadata: addition explicitly includes the addition risk reason and additional-sense candidate requires enrichment. Exact teaching content hash is unchanged; refreshed assembly and individual approval bindings were checked.",
+        "contentHash": "0d8b8acb2814c19418dd9bea4cef8ca58f165fa1755e0a642039d326b3c5e50e",
+        "approvalHash": "0d8b8acb2814c19418dd9bea4cef8ca58f165fa1755e0a642039d326b3c5e50e"
+      }
+    }
+  ]
+}
