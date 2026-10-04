@@ -470,7 +470,7 @@ console.log('V2 hardening regressions passed: identity approvals, frozen history
 
 // Publisher-format corrections remain distinct from exact spelling variants.
 // The frozen source, lexical review and both approvals still bind the result.
-const {validateSourceNotation}=require('./vocabulary-source-notation.cjs');
+const {validateSourceNotation,validateSourceNotationTargets}=require('./vocabulary-source-notation.cjs');
 const notationCases=[
   [{word:'散歩',reading:'さんぽする'}, {word:'散歩する',reading:'さんぽする'}, {kind:'nominal-verb',word:'散歩する',reading:'さんぽする'}],
   [{word:'暖かい',reading:'あたたか(い)'}, {word:'暖かい',reading:'あたたかい'}, {kind:'parenthetical-reading',word:'暖かい',reading:'あたたかい'}],
@@ -519,3 +519,55 @@ for(const ref of [
   d.disposition='verified-spelling-variant';delete d.sourceNormalization;sealNotation();assert.throws(nrun,/Variant reading differs|Missing variant alias/);
 }
 console.log('Source-notation regressions passed: five bounded formats, unrelated forms rejected, exact/independent approvals enforced, strict spelling checks preserved.');
+
+const multiNotationCases=[
+  [{word:'毎年',reading:'まいとし / まいねん'},[{word:'毎年',reading:'まいとし'},{word:'毎年',reading:'まいねん'}],{kind:'alternative-readings',word:'毎年',reading:'まいとし / まいねん'}],
+  [{word:'堅/硬/固い',reading:'かたい'},[{word:'堅い',reading:'かたい'},{word:'硬い',reading:'かたい'},{word:'固い',reading:'かたい'}],{kind:'shared-okurigana',word:'堅い/硬い/固い',reading:'かたい'}]
+];
+for(const[ref,targets,notation]of multiNotationCases) {
+  validateSourceNotationTargets(ref,targets,notation);
+  validateSourceNotationTargets(ref,[...targets].reverse(),notation);
+  assert.throws(()=>validateSourceNotationTargets(ref,targets.slice(1),notation));
+  assert.throws(()=>validateSourceNotationTargets(ref,[...targets,{word:'虫',reading:'むし'}],notation));
+  assert.throws(()=>validateSourceNotationTargets(ref,[{...targets[0],reading:'むし'},...targets.slice(1)],notation));
+  assert.throws(()=>validateSourceNotationTargets(ref,[{...targets[0],word:'虫'},...targets.slice(1)],notation));
+  assert.throws(()=>validateSourceNotationTargets(ref,targets,{...notation,reading:'むし'}));
+  assert.throws(()=>validateSourceNotationTargets(ref,targets,{...notation,word:'虫'}));
+  assert.throws(()=>validateSourceNotationTargets(ref,targets,{...notation,extra:'unchecked'}));
+  assert.throws(()=>validateSourceNotationTargets(ref,targets,{...notation,kind:'unchecked'}));
+}
+const[yearRef,yearTargets,yearNotation]=multiNotationCases[0];
+for(const reading of ['まいとし/まいとし','まいとし/マイトシ','まいとし/','まいとし/毎年','まいとし、まいねん'])assert.throws(()=>validateSourceNotationTargets({...yearRef,reading},yearTargets,{...yearNotation,reading}));
+const[hardRef,hardTargets,hardNotation]=multiNotationCases[1];
+for(const word of ['堅/硬/固','堅い/硬/固い','堅/固/固い','堅//固い'])assert.throws(()=>validateSourceNotationTargets({...hardRef,word},hardTargets,hardNotation));
+assert.throws(()=>validateSourceNotationTargets(hardRef,[{word:'固い',reading:'かたい',aliases:['堅い','硬い']},...hardTargets.slice(1)],hardNotation),'Overlapping target coverage accepted');
+for(const[ref,target,notation]of notationCases) {
+  validateSourceNotationTargets(ref,[target],notation);
+  assert.throws(()=>validateSourceNotationTargets(ref,[target,{word:'虫',reading:'むし'}],notation),'Legacy single-target format was broadened');
+}
+
+// These are structural fixtures, not production lexical claims. Verify that
+// all independently accepted cards and the full source normalization are bound.
+for(const[ref,specs,notation]of multiNotationCases) {
+  const source={...ref,gloss:'Synthetic multi-form reference.',url:'fixture:multi-source'},candidate={key:'multi-notation-fixture',word:source.word,reading:source.reading,references:[source]},mf=fixture([candidate]),mrun=()=>prepareCorrections(mf.legacy,mf.options);
+  const additions=specs.map((spec,index)=>{
+    const entry={...copy(complete.entries[0]),word:spec.word,reading:spec.reading,aliases:[],pitch:null};delete entry.pitchVariants;delete entry.pitchProvenance;
+    const record={...copy(complete.reviews[0]),id:'vocab-n5:correction:multi-'+index,entry,state:'accepted',revisionId:'multi-add-'+(++serial),predecessorHash:null,predecessorRevisionHash:null,
+      reason:'Synthetic structural regression addition.',levelBasis:'Synthetic fixture level.',policy:{id:'risk-based-v2',approvalBinding:'entry-identity-v1',risk:'consequential',reasons:['addition'],enrichmentRequired:true,sampled:false},
+      pitch:{status:'unknown',rationale:'Synthetic fixture makes no accent claim.',evidence:[{source:'Synthetic fixture',version:'1',locator:'fixture:multi-source',attribution:'Structural test fixture; no dictionary attribution.',finding:'Structural regression only; no production lexical claim.'}]}};
+    return approveRisk(record,entry);
+  });
+  mf.options.batches.push({version:3,additions});const mp=mrun(),targetIds=additions.map(r=>r.id);
+  const d={key:candidate.key,referenceIndex:0,referenceHash:hash(source),revisionId:'multi-source-'+(++serial),state:'accepted',predecessorHash:null,predecessorRevisionHash:null,
+    disposition:'verified-source-notation',targets:targetIds,targetHashes:Object.fromEntries(targetIds.map(id=>[id,hash(project(mp.items.find(v=>v.id===id)))])),sourceNormalization:copy(notation),
+    reason:'Synthetic exact multi-form source review.',evidence:copy(additions[0].pitch.evidence),policy:{id:'risk-based-v2',risk:'consequential',reasons:['source-notation'],enrichmentRequired:false,sampled:false}};
+  const seal=()=>{const h=decisionHash(d);d.firstPass={decision:'accepted',reviewer:'Fixture multi-form author',finding:'Synthetic structural first pass.',contentHash:h,approvalHash:h};d.secondPass={...d.firstPass,reviewer:'Fixture independent multi-form reviewer'};};
+  seal();mf.options.batches.push({version:3,decisions:[d]});assert.equal(report(mrun()).unresolvedCandidateReferences,0);const saved=copy(d);
+  d.sourceNormalization.reading+=' ';assert.throws(mrun,/First pass is stale|changed source notation|changed reading/);Object.assign(d,copy(saved));
+  d.targetHashes[targetIds[1]]='stale';seal();assert.throws(mrun,/Candidate target approval is stale/);Object.assign(d,copy(saved));
+  d.targets.pop();delete d.targetHashes[targetIds.at(-1)];seal();assert.throws(mrun,/cover every distinct form/);Object.assign(d,copy(saved));
+  delete d.secondPass;assert.throws(mrun,/second-pass acceptance/);Object.assign(d,copy(saved));
+  d.secondPass.reviewer=d.firstPass.reviewer;assert.throws(mrun,/Independent reviewer/);Object.assign(d,copy(saved));
+  const savedAddition=copy(additions[1]);delete additions[1].secondPass;assert.throws(mrun,/second-pass acceptance/);Object.assign(additions[1],savedAddition);
+}
+console.log('Multi-form source regressions passed: every reading/spelling bound to a distinct accepted card; missing, unrelated, ambiguous and stale forms rejected.');

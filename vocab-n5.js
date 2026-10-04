@@ -37418,5 +37418,349 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:jibiki"
+  },
+  {
+    "word": "私",
+    "reading": "わたくし",
+    "romaji": "watakushi",
+    "meaning": "ich (formelle Selbstbezeichnung)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "私 wird hier わたくし gelesen. Diese Selbstbezeichnung ist formeller als わたし und passt etwa zu einer beruflichen Vorstellung oder einer öffentlichen Ansprache. Sie wird von Personen verschiedener Geschlechter verwendet. Als Pronomen kann わたくし vor は oder が stehen. Im ersten Beispiel stellt sich jemand vor; im zweiten betont が, wer den Brief geschrieben hat. Die Lesung わたし bleibt eine weitere gebräuchliche Selbstbezeichnung.",
+    "examples": [
+      {
+        "japanese": "わたくしは田中です。",
+        "romaji": "Watakushi wa Tanaka desu.",
+        "german": "Mein Name ist Tanaka."
+      },
+      {
+        "japanese": "その手紙は、わたくしが書きました。",
+        "romaji": "Sono tegami wa, watakushi ga kakimashita.",
+        "german": "Diesen Brief habe ich geschrieben."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282329659",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@282329659",
+          "orth": "私",
+          "kana": "ワタクシ",
+          "lemma": "私-代名詞",
+          "pos": [
+            "代名詞",
+            "*",
+            "*",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "raw": "代名詞,*,*,*,*,*,ワタクシ,私-代名詞,私,ワタクシ,私,ワタクシ,和,*,*,*,*,*,*,体,ワタクシ,ワタクシ,ワタクシ,ワタクシ,0,*,*,11345327978324480,41274"
+        },
+        "finding": "Entire raw2842390 read, exactわたくし personal pronoun sense1 more formal thanわたし. Private affairs2, selfishness3 and secrecy4 excluded. Original N5私/わたし identity retained; genuinely absent exact formal reading is separately taught. Full self-introduction with Tanaka and topicalized letter with focused作者が are distinct functions; grammatical particles and polite past書きました, exact Watakushi/Sono tegami/kakimashita and German authorship preserved. Whole original pronoun私/ワタクシ lemma私-代名詞 row282329659 aType0, not same-reading私 nominal suru-capable private row282328662. Whole OJAD11947 four moraeわ/た/く/し flat0 independently read; no contour transplanted fromわたし or nounし.",
+        "match": {
+          "word": "私",
+          "reading": "わたくし",
+          "grammaticalForm": "代名詞/*/*/*; whole uninflected citation",
+          "sense": "ich (formelle Selbstbezeichnung)"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Saved original HTML SHA256 11b3f920edf0a26d767341a50fc61fe0fb60d47a260af4a2ccf0f2e7ca8a3246",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%82%8F%E3%81%9F%E3%81%8F%E3%81%97#11947_1_1",
+        "attribution": "OJAD, University of Tokyo, original whole lexical form inspected",
+        "patterns": [
+          0
+        ],
+        "finding": "Entire raw2842390 read, exactわたくし personal pronoun sense1 more formal thanわたし. Private affairs2, selfishness3 and secrecy4 excluded. Original N5私/わたし identity retained; genuinely absent exact formal reading is separately taught. Full self-introduction with Tanaka and topicalized letter with focused作者が are distinct functions; grammatical particles and polite past書きました, exact Watakushi/Sono tegami/kakimashita and German authorship preserved. Whole original pronoun私/ワタクシ lemma私-代名詞 row282329659 aType0, not same-reading私 nominal suru-capable private row282328662. Whole OJAD11947 four moraeわ/た/く/し flat0 independently read; no contour transplanted fromわたし or nounし. Entire actual dictionary-form cell: \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-4\"><span class=\"inner\"><span class=\"char\">わ</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">た</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">く</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">し</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n            </div>\n</div>\n                                ",
+        "match": {
+          "word": "私",
+          "reading": "わたくし",
+          "grammaticalForm": "Whole lexical dictionary form",
+          "sense": "ich (formelle Selbstbezeichnung)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:watakushi-formal-i"
+  },
+  {
+    "word": "一月",
+    "reading": "ひとつき",
+    "romaji": "hitotsuki",
+    "meaning": "ein Monat (Dauer)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "一月 wird hier ひとつき gelesen und bezeichnet die Dauer eines Monats. Dieselbe Kanji-Schreibung kann mit いちがつ den Januar bezeichnen; die Lesung und der Zusammenhang entscheiden. Die ebenfalls belegte Schreibung ひと月 macht die Dauer leichter erkennbar. 一月に一度 bedeutet einmal im Monat, während eine Zeitspanne vor einer Tätigkeit deren Dauer nennt.",
+    "examples": [
+      {
+        "japanese": "兄は一月、京都に住んでいました。",
+        "romaji": "Ani wa hitotsuki, Kyōto ni sunde imashita.",
+        "german": "Mein älterer Bruder hat einen Monat lang in Kyoto gewohnt."
+      },
+      {
+        "japanese": "一月に一度、部屋の窓を全部掃除します。",
+        "romaji": "Hitotsuki ni ichido, heya no mado o zenbu sōji shimasu.",
+        "german": "Einmal im Monat putze ich alle Fenster des Zimmers."
+      }
+    ],
+    "aliases": [
+      "ひと月"
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "OJAD, Online Japanese Accent Dictionary",
+        "version": "Actual original complete dictionary cell inspected2026-10-04",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%9C%88#word_10118",
+        "attribution": "University of Tokyo, Minematsu/Saito Laboratory; OJAD",
+        "patterns": [
+          2
+        ],
+        "finding": "Actualwhole一月/ひとつき row10118 4morae andaccent2 directlyread, rejectsJanuarydifferentreading. Actual1162130wholeone-month noun1 andsame-readingaliasひと月, readingいちげつ restricted一月 separate notselected. ActualwholeOJAD10118ひとつきfour-mora2, excludes同orthJanuary3898いちがつ4. Residence-duration versus recurrence distinct, identityseparatefromexistingJanuary828.",
+        "match": {
+          "word": "一月",
+          "reading": "ひとつき",
+          "grammaticalForm": "Whole lexical noun dictionaryform",
+          "sense": "One-month duration, notJanuary; Actual1162130wholeone-month noun1 andsame-readingaliasひと月, readingいちげつ restricted一月 separate notselected. ActualwholeOJAD10118ひとつきfour-mora2, excludes同orthJanuary3898いちがつ4. Residence-duration versus recurrence distinct, identityseparatefromexistingJanuary828."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:hitotsuki"
+  },
+  {
+    "word": "回",
+    "reading": "かい",
+    "romaji": "kai",
+    "meaning": "Mal; Zählwort für Vorkommnisse",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N5",
+    "notes": "回 zählt, wie oft eine Handlung oder ein Ereignis vorkommt. Nach einer Zahl heißt 一回 einmal und 三回 dreimal; 一回 wird いっかい gesprochen. 週に三回 gibt die Häufigkeit pro Woche an. もう一回 bittet um eine Wiederholung. Die Zählverbindung zählt Vorgänge; die gleich gelesenen Wörter 階 und 貝 haben andere Bedeutungen.",
+    "examples": [
+      {
+        "japanese": "週に三回、図書館へ行きます。",
+        "romaji": "Shū ni sankai, toshokan e ikimasu.",
+        "german": "Ich gehe dreimal pro Woche in die Bibliothek."
+      },
+      {
+        "japanese": "もう一回、名前を言ってください。",
+        "romaji": "Mō ikkai, namae o itte kudasai.",
+        "german": "Nennen Sie Ihren Namen bitte noch einmal."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85496170",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Directly inspected entire source row 回/カイ; lemma回; 名詞/普通名詞/助数詞可能/*; *; aType1. 1199330counteroccurrences1 andinstance noun2 actual;85496170回/カイ commoncounter-capable noun1 independentlyattests barewholehead, excludespropername85491319. Standalonelexicalcontour1 is not attributedto numericphrases一回/三回. Sankai notfloor sangaialternative; ikkai gemination checked. Recurrentfrequency versus immediateonetime repetition distinct.",
+        "match": {
+          "word": "回",
+          "reading": "かい",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; standalonelexicalform; no accentclaimedfor attachedphrases/numerals",
+          "sense": "1199330counteroccurrences1 andinstance noun2 actual;85496170回/カイ commoncounter-capable noun1 independentlyattests barewholehead, excludespropername85491319. Standalonelexicalcontour1 is not attributedto numericphrases一回/三回. Sankai notfloor sangaialternative; ikkai gemination checked. Recurrentfrequency versus immediateonetime repetition distinct."
+        }
+      }
+    ],
+    "correctionId": "vocab-n5:correction:kai-counter"
+  },
+  {
+    "word": "くらい",
+    "reading": "くらい",
+    "romaji": "kurai",
+    "meaning": "ungefähr, etwa (nach einer Menge)",
+    "type": "Partikel",
+    "category": "Sprache",
+    "level": "N5",
+    "notes": "くらい steht hier nach einer Mengen- oder Zeitangabe und bedeutet „ungefähr“: 十五分くらい, 三千円くらい. Die Aussprache ぐらい kommt ebenfalls vor. Diese Karte übt die Lesung くらい und die ungefähre Menge; weitere Verwendungen für einen Grad oder Vergleich werden hier nicht behandelt. Üblich ist Kana. Das Wort ist von 暗い „dunkel“ und dem Nomen 位 „Rang/Zahlenstelle“ zu unterscheiden.",
+    "examples": [
+      {
+        "japanese": "駅まで歩いて十五分くらいかかります。",
+        "romaji": "Eki made aruite jūgofun kurai kakarimasu.",
+        "german": "Zu Fuß dauert es bis zum Bahnhof ungefähr fünfzehn Minuten."
+      },
+      {
+        "japanese": "このかばんは三千円くらいでした。",
+        "romaji": "Kono kaban wa sanzen’en kurai deshita.",
+        "german": "Diese Tasche hat ungefähr dreitausend Yen gekostet."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:kurai-approximation"
+  },
+  {
+    "word": "人",
+    "reading": "にん",
+    "romaji": "nin",
+    "meaning": "Zählwort für Personen",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N5",
+    "notes": "人 wird als Zählwort für Personen hier にん gelesen: 三人 さんにん, 四人 よにん. Eine Person heißt 一人 ひとり, zwei Personen 二人 ふたり. 何人 なんにん fragt „wie viele Personen?“. Die Zahl mit 人 kann nach dem zugehörigen Nomen stehen: 学生が三人います. 何人で beschreibt die Größe einer Gruppe, die gemeinsam etwas unternimmt. Das selbstständige Nomen 人 „Mensch“ hat die andere Lesung ひと.",
+    "examples": [
+      {
+        "japanese": "この教室には学生が三人います。",
+        "romaji": "Kono kyōshitsu ni wa gakusei ga sannin imasu.",
+        "german": "In diesem Klassenzimmer sind drei Studierende."
+      },
+      {
+        "japanese": "旅行には何人で行きますか。",
+        "romaji": "Ryokō ni wa nannin de ikimasu ka.",
+        "german": "Mit wie vielen Personen fahren Sie auf die Reise?"
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:nin-person-counter"
+  },
+  {
+    "word": "冊",
+    "reading": "さつ",
+    "romaji": "satsu",
+    "meaning": "Zählwort für Bücher, Hefte und Bände",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N5",
+    "notes": "冊 zählt gebundene Bücher, Hefte oder einzelne Bände eines Werkes. 二冊 にさつ bedeutet „zwei Bücher/Bände“, 三冊 さんさつ „drei Bücher/Bände“. Eine Einheit heißt 一冊 いっさつ; das doppelte s in der Umschrift steht für einen gedehnten Konsonanten. 本を二冊借りる nennt die Menge ausgeliehener Bücher; 全部で三冊 nennt die Gesamtzahl der Bände. Das ähnlich klingende 札 さつ gehört zu Geldscheinen und ist ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "図書館で本を二冊借りました。",
+        "romaji": "Toshokan de hon o nisatsu karimashita.",
+        "german": "Ich habe in der Bibliothek zwei Bücher ausgeliehen."
+      },
+      {
+        "japanese": "この小説は全部で三冊あります。",
+        "romaji": "Kono shōsetsu wa zenbu de sansatsu arimasu.",
+        "german": "Dieser Roman umfasst insgesamt drei Bände."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n5:correction:satsu-book-counter"
+  },
+  {
+    "word": "行く",
+    "reading": "ゆく",
+    "romaji": "yuku",
+    "meaning": "gehen, einen Weg entlanggehen (Lesung ゆく)",
+    "type": "Verb",
+    "category": "Bewegung",
+    "level": "N5",
+    "notes": "ゆく und いく können beide „gehen“ bedeuten. ゆく wirkt gegenüber いく eher schriftsprachlich; hier wird diese Lesung bewusst geübt. Das Ziel steht mit へ oder に, ein durchquerter Weg mit を. Die höfliche Form ist ゆきます. Für die heutige て-Form und einfache Vergangenheit verwendet man いって und いった, nicht ゆいて und ゆいた.",
+    "examples": [
+      {
+        "japanese": "私は北の町へ行く。",
+        "romaji": "Watashi wa kita no machi e yuku.",
+        "german": "Ich gehe in die Stadt im Norden."
+      },
+      {
+        "japanese": "旅人は細い山道を行きます。",
+        "romaji": "Tabibito wa hosoi yamamichi o yukimasu.",
+        "german": "Der Reisende geht einen schmalen Bergpfad entlang."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "ゆく",
+      "conjugationKind": "verb",
+      "conjugationReason": "JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+      "conjugationOverrides": {
+        "te": "いって",
+        "past": "いった",
+        "conditionalTara": "いったら"
+      }
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "ゆく",
+    "conjugationReason": "JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54010670",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@54010670",
+          "orth": "行く",
+          "kana": "ユク",
+          "lemma": "行く",
+          "pos": [
+            "動詞",
+            "非自立可能",
+            "*",
+            "*"
+          ],
+          "cType": "五段-カ行",
+          "cForm": "終止形-一般",
+          "aType": "0",
+          "originalFields": [
+            "動詞",
+            "非自立可能",
+            "*",
+            "*",
+            "五段-カ行",
+            "終止形-一般",
+            "イク",
+            "行く",
+            "行く",
+            "ユク",
+            "行く",
+            "ユク",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "用",
+            "ユク",
+            "ユク",
+            "ユク",
+            "ユク",
+            "0",
+            "C2",
+            "*",
+            "470883101713067",
+            "1713"
+          ]
+        },
+        "finding": "Actually inspected exact original whole surface 行く/ユク at sys.dic@54010670, aType 0. Surface orth8/kana20/pron9 verified independently of lemma reading. Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+        "match": {
+          "word": "行く",
+          "reading": "ゆく",
+          "grammaticalForm": "動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; whole citation form, not an inferred compound or different-reading pattern",
+          "sense": "gehen, einen Weg entlanggehen (Lesung ゆく)"
+        }
+      }
+    ],
+    "conjugationOverrides": {
+      "te": "いって",
+      "past": "いった",
+      "conditionalTara": "いったら"
+    },
+    "correctionId": "vocab-n5:correction:yuku-go"
   }
 ];

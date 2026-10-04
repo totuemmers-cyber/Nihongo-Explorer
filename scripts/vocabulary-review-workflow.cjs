@@ -3,7 +3,7 @@ const assert = require('assert');
 const {read, levels, key} = require('./vocabulary-tools.cjs');
 const {hash, project, prepareCorrections, validateReviewRecord, validatePitch} = require('./vocabulary-correction-pipeline.cjs');
 const {requirements:reviewRequirements,selectedForBatch,POLICY_ID,SUPPORTED_POLICY_IDS,SAMPLE_SEED} = require('./vocabulary-review-policy.cjs');
-const {validateSourceNotation}=require('./vocabulary-source-notation.cjs');
+const {validateSourceNotationTargets}=require('./vocabulary-source-notation.cjs');
 const copy = v => JSON.parse(JSON.stringify(v));
 const text = v => typeof v === 'string' && v.trim().length > 0;
 const states = ['pending','researching','drafted','needs revision','accepted'];
@@ -214,7 +214,6 @@ function prepareWorkflow(legacy, options) {
       if (d.state==='accepted') {
         assert(actions.includes(d.disposition),'Invalid candidate disposition');
         assert(!d.sourceNormalization||d.disposition==='verified-source-notation','Source notation requires its explicit disposition');
-        if(d.disposition==='verified-source-notation')assert.equal(d.targets?.length,1,'Source notation requires one exact target');
         evidence(d.evidence);
         assert(text(d.reason),'Missing candidate rationale');
         assert(Array.isArray(d.targets) && new Set(d.targets).size===d.targets.length && (d.disposition==='excluded'?d.targets.length===0:d.targets.length>0),'Invalid candidate targets');
@@ -230,8 +229,8 @@ function prepareWorkflow(legacy, options) {
             assert.equal(ref.reading.normalize('NFKC'),v.reading.normalize('NFKC'),'Variant reading differs');
             assert(v.word===ref.word || (v.aliases||[]).includes(ref.word),'Missing variant alias');
           }
-          if(d.disposition==='verified-source-notation')validateSourceNotation(c.references[d.referenceIndex],v,d.sourceNormalization);
         }
+        if(d.disposition==='verified-source-notation')validateSourceNotationTargets(c.references[d.referenceIndex],d.targets.map(id=>accepted.get(id)),d.sourceNormalization);
         const requirements=d.policy?reviewRequirements(d,{id:k,kind:'candidate'}):{id:'strict-full-v1',independentReviewRequired:true};
         approval(d,requirements,decisionHash(d));
       }

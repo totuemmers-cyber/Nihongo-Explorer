@@ -45,4 +45,39 @@ function validateSourceNotation(ref,target,notation) {
     default: assert.fail('Unsupported source notation kind');
   }
 }
-module.exports={validateSourceNotation};
+// A list may abbreviate several full forms. Bind every form to its own accepted
+// card rather than inventing a spelling alias or discarding an alternate reading.
+function validateSourceNotationTargets(ref,targets,notation) {
+  assert(Array.isArray(targets)&&targets.length,'Missing source notation targets');
+  if(!['alternative-readings','shared-okurigana'].includes(notation?.kind)) {
+    assert.equal(targets.length,1,'Source notation requires one exact target');
+    return validateSourceNotation(ref,targets[0],notation);
+  }
+  assert.deepStrictEqual(Object.keys(notation).sort(),['kind','reading','word'],'Invalid source notation fields');
+  for(const field of ['word','reading'])assert(typeof notation[field]==='string'&&notation[field].trim(),'Incomplete source notation');
+  let forms;
+  if(notation.kind==='alternative-readings') {
+    assert.equal(notation.word,ref.word,'Alternative readings changed source spelling');
+    assert.equal(notation.reading,ref.reading,'Alternative readings changed source notation');
+    const readings=ref.reading.split(/[/／]/u).map(s=>normalized(s.trim()));
+    assert(readings.length>=2&&readings.length<=3&&new Set(readings.map(kana)).size===readings.length&&readings.every(r=>/^[ぁ-ゖァ-ヺー]+$/u.test(r)),'Unsupported alternative readings');
+    forms=readings.map(reading=>({word:ref.word,reading}));
+  } else {
+    const parts=ref.word.split(/[/／]/u),last=parts.at(-1),suffix=last.match(/^[\p{Script=Han}]+([ぁ-ゖ]+)$/u)?.[1];
+    assert(parts.length>=2&&parts.length<=3&&suffix&&parts.slice(0,-1).every(s=>/^[\p{Script=Han}]+$/u.test(s)),'Unsupported shared okurigana');
+    const words=[...parts.slice(0,-1).map(s=>s+suffix),last];
+    assert.equal(new Set(words).size,words.length,'Repeated shared-okurigana spelling');
+    assert.equal(notation.word,words.join('/'),'Shared okurigana changed source spelling');
+    assert.equal(normalized(notation.reading),normalized(ref.reading),'Shared okurigana changed reading');
+    forms=words.map(word=>({word,reading:normalized(ref.reading)}));
+  }
+  assert.equal(targets.length,forms.length,'Source notation must cover every distinct form');
+  const assigned=new Set();
+  for(const form of forms) {
+    const matches=targets.filter(t=>normalized(t.reading)===form.reading&&(t.word===form.word||(t.aliases||[]).includes(form.word)));
+    assert.equal(matches.length,1,'Source form needs one exact target');
+    assert(!assigned.has(matches[0]),'Source forms must retain distinct targets');
+    assigned.add(matches[0]);
+  }
+}
+module.exports={validateSourceNotation,validateSourceNotationTargets};

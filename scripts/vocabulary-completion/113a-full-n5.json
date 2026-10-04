@@ -1,0 +1,335 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:correction:yuku-go",
+      "revisionId": "113a-yuku-canonical-conjugation",
+      "state": "accepted",
+      "predecessorHash": "df249c45454708cbf005991f0257dbd2306d4cfc6140648170bba5438f721bca",
+      "predecessorRevisionHash": "68ad5b67ecd6078a4a1a7e941c6c2c57bcc68ea7956368c2c4d801d28b1a43b5",
+      "originalHash": "df249c45454708cbf005991f0257dbd2306d4cfc6140648170bba5438f721bca",
+      "original": {
+        "verbGroup": "godan",
+        "conjugationReading": "ゆく",
+        "conjugationKind": "verb",
+        "conjugationReason": null,
+        "conjugationOverrides": {
+          "te": "いって",
+          "past": "いった",
+          "conditionalTara": "いったら"
+        },
+        "conjugation": null
+      },
+      "replacement": {
+        "verbGroup": "godan",
+        "conjugationReading": "ゆく",
+        "conjugationKind": "verb",
+        "conjugationReason": "JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+        "conjugationOverrides": {
+          "te": "いって",
+          "past": "いった",
+          "conditionalTara": "いったら"
+        },
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ゆく",
+          "conjugationKind": "verb",
+          "conjugationReason": "JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+          "conjugationOverrides": {
+            "te": "いって",
+            "past": "いった",
+            "conditionalTara": "いったら"
+          }
+        }
+      },
+      "rationale": "Append-only canonical nested verb metadata correction; retain all previously reviewed teaching and exactpitch, preserve original sealed103 revision. JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578850; spelling=行く; reading=ゆく; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1578850",
+            "spelling": "行く",
+            "reading": "ゆく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go",
+                  "to move (towards)",
+                  "to head (towards)",
+                  "to leave (for)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to move through",
+                  "to travel across",
+                  "to walk along (e.g. a road)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface."
+        },
+        {
+          "source": "Shogakukan, original Digital Daijisen and where specified Seisen Nihon Kokugo Daijiten, via Kotobank",
+          "version": "Actual original lexical page inspected 2026-10-04; SHA256 8b45a1884ae7299ccdcf9b77d111302ad434105fcc9da2a8767ef432d2aba56d",
+          "locator": "https://kotobank.jp/word/%E8%A1%8C%E3%81%8F-431393",
+          "attribution": "Shogakukan via Kotobank; only lexical facts paraphrased, original teaching sentences newly authored",
+          "finding": "Actual original Shogakukan Digital Daijisen separateゆく entry and supplement inspected: target movement and walking path, written-register contrast withいく, modern促音便 usingいって/いった. No copied source sentences or auxiliary sense expansion."
+        },
+        {
+          "source": "Actual app canonical conjugation resolution and full verb audit",
+          "version": "Current conjugation.js and audit-verb-conjugation.js personally inspected 2026-10-04",
+          "locator": "conjugation.js#resolveVocabVerbConjugation; audit-verb-conjugation.js#runtime-verbs",
+          "finding": "Runtime selects item.conjugation||item and the full audit requires nested metadata for every Verb. Original entry lacked nested metadata despite effective Godan fields. New append-only revision preserves all teaching, word/reading/level and verifies the actual nested resolver with source-backed modern irregular overrides."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54010670",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@54010670",
+              "orth": "行く",
+              "kana": "ユク",
+              "lemma": "行く",
+              "pos": [
+                "動詞",
+                "非自立可能",
+                "*",
+                "*"
+              ],
+              "cType": "五段-カ行",
+              "cForm": "終止形-一般",
+              "aType": "0",
+              "originalFields": [
+                "動詞",
+                "非自立可能",
+                "*",
+                "*",
+                "五段-カ行",
+                "終止形-一般",
+                "イク",
+                "行く",
+                "行く",
+                "ユク",
+                "行く",
+                "ユク",
+                "和",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "用",
+                "ユク",
+                "ユク",
+                "ユク",
+                "ユク",
+                "0",
+                "C2",
+                "*",
+                "470883101713067",
+                "1713"
+              ]
+            },
+            "finding": "Actually inspected exact original whole surface 行く/ユク at sys.dic@54010670, aType 0. Surface orth8/kana20/pron9 verified independently of lemma reading. Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+            "match": {
+              "word": "行く",
+              "reading": "ゆく",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; whole citation form, not an inferred compound or different-reading pattern",
+              "sense": "gehen, einen Weg entlanggehen (Lesung ゆく)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "conjugation",
+          "full-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "reviewedDistinctContexts": true,
+        "meaning": "gehen, einen Weg entlanggehen (Lesung ゆく); Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+        "japanese": "私は北の町へ行く。 / 旅人は細い山道を行きます。; each grammar and reading actually inspected.",
+        "romanization": "yuku; Watashi wa kita no machi e yuku. / Tabibito wa hosoi yamamichi o yukimasu.; exact Modified Hepburn individually checked, with long vowels, sokuon, n and particles.",
+        "translation": "Ich gehe in die Stadt im Norden. / Der Reisende geht einen schmalen Bergpfad entlang.; precise scene, tense, modality and omission actually reviewed.",
+        "contexts": [
+          "Eigener Aufbruch zu einer Stadt als Ziel mit へ und Wörterbuchform ゆく.",
+          "Erzählung über den Weg eines Reisenden: durchquerter Bergpfad mit を und höflicher Form ゆきます."
+        ],
+        "lexical": "Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+        "register": "Shogakukan Digital Daijisen actualゆく supplement explicitly contrasts more colloquialいく with writtenゆく and modernて/past forms. Original teaching uses actualゆく/ゆきます ratherthan readingいく fromsamekanji.",
+        "transitivity": "Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface.",
+        "conjugation": "Personally re-read modernゆく Godan special forms from original JMdict/Daijisen and verified actual canonical nested metadata. Both effective and nested fields use godan,ゆく,verb and source-backed reason; teいって/pastいった/taraいったら overrides repeated within nested metadata because the resolver selects it. Original full motion/path contexts re-read unchanged.",
+        "level": "Editorial estimated N5 placement for this separately taught exact reading, aligned with the allocated frozen TANOS N5 reference page32. Publisher placement is not official JLPT vocabulary certification; historical N5 campaign ownership comes from the existing other-reading possible target and does not relevel that original card."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author editorial self-review after personally inspecting exact final record, selected original sources and runtime; separate independent review required. Personally read the exact final northern-town destination versus traveller narrowmountainpath teaching, all German/Hepburn and source-backed usage note unchanged; actual full raw1578850 senses1–2 and original Daijisen modern促音便 supplement re-read. Canonical nestedmetadata repeats Godan/ゆく/verb, source-backed reason and modernいって/いった/いったら overrides consistently with effective fields. Actual resolver selects nested and printed all19 forms, each personally inspected:ゆく,ゆきます,ゆかない,ゆきません,いった,ゆきました,ゆかなかった,ゆきませんでした,いって,ゆける,ゆかれる,ゆかせる,ゆかせられる,ゆけば,いったら,ゆこう,ゆきましょう,ゆけ,ゆくな. Exact wholeゆくflat0 evidence retained, no otherreadingaccent transfer. Append-only current entry predecessor68ad5b… inspected; sealed103 untouched.",
+        "contentHash": "6f3aa08728c74accba31beb4a31716e6d424a8e2bba7b8467a17729a6ec4aa19",
+        "approvalHash": "fd38ed4d5dfd2a88fb05a1f3c991eacfac6910455f371bc794015926958ff423"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally re-read all final heading, note and both complete destination-town and traversed-mountain-path scenes, Japanese/German/Hepburn; compared sealed103a final teaching and this append-only target: only canonical nested conjugation plus matching reason is new. Re-read full original1578850 unrestricted Yuku senses1/2 special Godan intransitive and primary Shogakukan supplement (https://kotobank.jp/word/%E8%A1%8C%E3%81%8F-431393) explicitly modern Itte/Itta rather than historical Yu ite. Independently executed actual resolver on nested metadata and inspected all19 forms including Yuku/Yukimasu/Yukanai and source-backed Itte/Itta/Ittara overrides; every nested/effective field matches. Retained exact whole terminal54010670 surface Yuku0, not normalized lemma Iku. Current predecessor content/revision inspected; originals, level and source scopes remain unchanged.",
+        "contentHash": "6f3aa08728c74accba31beb4a31716e6d424a8e2bba7b8467a17729a6ec4aa19",
+        "approvalHash": "fd38ed4d5dfd2a88fb05a1f3c991eacfac6910455f371bc794015926958ff423"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "行く|ゆく",
+      "referenceIndex": 0,
+      "referenceHash": "4fd376123a44312f46bcca7abd2bab6b0616f9726157ed6f09b2a23f35b0f352",
+      "revisionId": "113a-renew-yuku-literal-reference",
+      "state": "accepted",
+      "predecessorHash": "5088220a8a22b56f5d88af3673a3a8574ef96135c8d059934031809a881e108a",
+      "predecessorRevisionHash": "9f12b130324422721d674b1881bf4b14d67b7f47658ed877fd57cb7153895322",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n5:correction:yuku-go"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:yuku-go": "6f3aa08728c74accba31beb4a31716e6d424a8e2bba7b8467a17729a6ec4aa19"
+      },
+      "reason": "Renew already accepted literal 行く/ゆく source to the append-only canonical nested-conjugation revision. Exact head/reading/level and source senses1–2 remain unchanged; no new source reading or coverage assertion. JMdict1578850/1–2 Godan-Iku/Yuku-Sonderklasse; exakte UniDic終止形ユク. Digital Daijisenゆく erläutert moderne促音便いって/いった. Diese belegten Formen undいったら sind explizite Ausnahmen, auch in den verschachtelten Konjugationsangaben.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578850; spelling=行く; reading=ゆく; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1578850",
+            "spelling": "行く",
+            "reading": "ゆく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go",
+                  "to move (towards)",
+                  "to head (towards)",
+                  "to leave (for)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb - Iku/Yuku special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to move through",
+                  "to travel across",
+                  "to walk along (e.g. a road)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Entire original1578850 read; unrestrictedゆく senses1 destination motion and2 path traversal, Godan specialIku/Yuku intransitive, not unrelatedauxiliary/death/slang senses. Destinationへ versus traversedpathを is grammatical, nottransitivitychange. Ownfuture/generaldeparture versus narratedtravellerpath context; yuku/yukimasu surfaceactuallyreviewed. PrimaryDaijisenゆく entry confirms modern te/pastいって/いった ratherthan historicalゆいて; bind explicit app overrides te/past/conditionalTara. Directwhole terminal54010670 orth行く surfaceユク aType0, lemma-readingイク not selectedsurface."
+        },
+        {
+          "source": "Shogakukan, original Digital Daijisen and where specified Seisen Nihon Kokugo Daijiten, via Kotobank",
+          "version": "Actual original lexical page inspected 2026-10-04; SHA256 8b45a1884ae7299ccdcf9b77d111302ad434105fcc9da2a8767ef432d2aba56d",
+          "locator": "https://kotobank.jp/word/%E8%A1%8C%E3%81%8F-431393",
+          "attribution": "Shogakukan via Kotobank; only lexical facts paraphrased, original teaching sentences newly authored",
+          "finding": "Actual original Shogakukan Digital Daijisen separateゆく entry and supplement inspected: target movement and walking path, written-register contrast withいく, modern促音便 usingいって/いった. No copied source sentences or auxiliary sense expansion."
+        },
+        {
+          "source": "Frozen publisher source-reference identity",
+          "version": "Source-reference SHA256 4fd376123a44312f46bcca7abd2bab6b0616f9726157ed6f09b2a23f35b0f352",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt5/vocab/VocabList.N5.pdf#page=32",
+          "finding": "Exact literal 行く/ゆく and to go retained. Editorial estimated N5 placement for this separately taught exact reading, aligned with the allocated frozen TANOS N5 reference page32. Publisher placement is not official JLPT vocabulary certification; historical N5 campaign ownership comes from the existing other-reading possible target and does not relevel that original card."
+        },
+        {
+          "source": "Canonical nested metadata revision target",
+          "version": "Actual exact final target SHA256 6f3aa08728c74accba31beb4a31716e6d424a8e2bba7b8467a17729a6ec4aa19",
+          "locator": "scripts/vocabulary-review-workflow.json#vocab-n5:correction:yuku-go",
+          "finding": "Accepted literal reference remains bound to the same identity and complete motion/path teaching. Only canonical conjugation data changes; targetHash explicitly renewed, no reopening of existing source coverage."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-reading"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author editorial self-review after personally inspecting exact final record, selected original sources and runtime; separate independent review required. Personally read exact original accepted TANOS N5 literal行く/ゆく, page32, referenceHash4fd376… and currentaccepted candidate predecessor revision9f12b1…. Sameword/reading/level and two complete motion/path senses remaincovered. NewtargetHash binds canonical nestedmetadata revision only; existingcoverage does not reopen. Actual modernnestedresolver forms/source and policyadditional-reading requiresenrichment verified. No new candidate or fabricated reference.",
+        "contentHash": "31b0d9e19bcc6aff58cf365081f43c40b6a517e80c23bd726501ddd5456ef611",
+        "approvalHash": "31b0d9e19bcc6aff58cf365081f43c40b6a517e80c23bd726501ddd5456ef611"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally inspected frozen literal TANOSN5 page32 Yuku to-go reference and already accepted predecessor identity, full current destination/path teaching and unrestricted raw1578850 selected1/2. New decision renews exact same target after canonical conjugation repair; no new spelling/read/level/sense claim and no alias to the distinct Iku original. Independently recomputed fresh targetHash, verified retained whole Yuku0 and actual nested source-backed modern forms; additional-reading consequential enrichment true passes. Append-only predecessor binding preserves sealed103a historical approval.",
+        "contentHash": "31b0d9e19bcc6aff58cf365081f43c40b6a517e80c23bd726501ddd5456ef611",
+        "approvalHash": "31b0d9e19bcc6aff58cf365081f43c40b6a517e80c23bd726501ddd5456ef611"
+      }
+    }
+  ]
+}

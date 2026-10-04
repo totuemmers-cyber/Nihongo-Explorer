@@ -4,7 +4,7 @@ const crypto=require('crypto');
 const {root,levels}=require('./vocabulary-tools.cjs');
 const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
 const {entryApprovalHash,decisionHash,mergeHash}=require('./vocabulary-review-workflow.cjs');
-const {selectedForBatch,POLICY_ID}=require('./vocabulary-review-policy.cjs');
+const {selectedForBatch,POLICY_ID,requirements:reviewRequirements}=require('./vocabulary-review-policy.cjs');
 const importer=require('./import-vocabulary-completion.cjs');
 const {queue,researchPackets,packet:researchPacket}=require('./vocabulary-review-queue.cjs');
 const clone=v=>JSON.parse(JSON.stringify(v));
@@ -102,6 +102,25 @@ function rows(batch){return [...(batch.reviews||[]),...(batch.additions||[]),...
 function recordKey(r){return r.id||(r.from?'merge:'+r.from:r.key+'#'+r.referenceIndex);}
 const targetHash=r=>r.from?mergeHash(r):decisionHash(r);
 function unsigned(assembly){const value=clone(assembly);delete value.assemblyHash;for(const r of rows(value.batch)){delete r.firstPass;delete r.secondPass;}return value;}
+function checkVerbMetadata(item) {
+  if(item.type!=='Verb')return;
+  const meta=item.conjugation;
+  assert(meta&&typeof meta==='object'&&!Array.isArray(meta),'Accepted verb requires canonical conjugation metadata');
+  assert(['verb','nominal-suru','excluded'].includes(meta.conjugationKind),'Missing canonical conjugation disposition');
+  if(meta.conjugationKind==='excluded')assert(nonempty(meta.conjugationReason),'Excluded conjugation needs a canonical reason');
+  else {
+    assert(['godan','ichidan','suru','kuru','zuru','aru'].includes(meta.verbGroup),'Missing canonical verb group');
+    assert(nonempty(meta.conjugationReading),'Missing canonical conjugation reading');
+    if(meta.conjugationKind==='nominal-suru') {
+      assert.equal(meta.verbGroup,'suru','Canonical nominal-suru requires suru group');
+      assert(meta.conjugationReading.endsWith('する'),'Canonical nominal-suru requires expanded conjugation reading');
+    }
+  }
+  // The runtime resolver prefers the nested object. A top-level override left out
+  // of that object would silently disappear, even if the other fields agreed.
+  for(const field of new Set([...Object.keys(meta),'verbGroup','conjugationKind','conjugationReading','conjugationReason','conjugationVariants','conjugationOverrides']))
+    assert.deepStrictEqual(item[field],meta[field],'Conflicting canonical conjugation metadata '+field);
+}
 function assemble(packet,proposal,plan) {
   checkPacket(packet,plan);
   const batch=clone(proposal);assert.equal(batch.version,3,'Version 3 required');
@@ -160,7 +179,11 @@ function assemble(packet,proposal,plan) {
       }
     }
     if(r.state==='accepted'||r.policy) assert.equal(r.policy?.id,POLICY_ID,'New acceptances require current policy');
-    if(r.id&&r.state==='accepted')r.policy.approvalBinding='entry-identity-v1';
+    if(!r.id&&!r.from&&r.state==='accepted')reviewRequirements(r,{id:recordKey(r),kind:'candidate'});
+    if(r.id&&r.state==='accepted') {
+      checkVerbMetadata(additions.get(r.id)===r?r.entry:{...content(plan,r.id),...r.replacement});
+      r.policy.approvalBinding='entry-identity-v1';
+    }
   }
   const sampled=selectedForBatch((batch.reviews||[]).filter(r=>r.state==='accepted'&&r.policy?.risk==='routine').map(r=>r.id));
   for(const r of batch.reviews||[]) if(r.policy) r.policy.sampled=sampled.has(r.id);

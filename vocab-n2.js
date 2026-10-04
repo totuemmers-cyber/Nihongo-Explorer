@@ -75372,5 +75372,48 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:tsukeru-hitasu"
+  },
+  {
+    "word": "従姉妹",
+    "reading": "いとこ",
+    "romaji": "itoko",
+    "meaning": "Cousine (weiblich)",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N2",
+    "notes": "従姉妹 bezeichnet in dieser Schreibung eine weibliche Cousine. Die Lesung いとこ wird häufig in Kana geschrieben; dann ergibt sich das Geschlecht aus dem Zusammenhang. 従兄弟 ist die entsprechende männliche Schreibung. In 年上です beschreibt man einen Altersunterschied, während 従姉妹に電話する mit に die angerufene Cousine nennt.",
+    "examples": [
+      {
+        "japanese": "従姉妹は私より二歳年上です。",
+        "romaji": "Itoko wa watashi yori nisai toshiue desu.",
+        "german": "Meine Cousine ist zwei Jahre älter als ich."
+      },
+      {
+        "japanese": "旅行中に道に迷った時、従姉妹に電話して助けてもらいました。",
+        "romaji": "Ryokochū ni michi ni mayotta toki, itoko ni denwa shite tasukete moraimashita.",
+        "german": "Als ich mich auf einer Reise verlaufen hatte, rief ich meine Cousine an und ließ mir helfen."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56619146",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Actually inspected original whole surface row 従姉妹/イトコ; lemma 従兄弟; 名詞/普通名詞/一般/*; *; *; aType 2. Actual separate JMdict1335310 female-cousin sense1 and gikun readingいとこ, alternateじゅうしまい not selected. Direct exact surface従姉妹/イトコ row56619146 common noun2; normalized lemma従兄弟 is not a male meaning assertion. Existing male1335290/698 remains explicitly male with original identity. Age comparison versus travel-help communication are distinct; no gender-neutral kana alias attached to male heading.",
+        "match": {
+          "word": "従姉妹",
+          "reading": "いとこ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole standalone lexical form",
+          "sense": "Actual separate JMdict1335310 female-cousin sense1 and gikun readingいとこ, alternateじゅうしまい not selected. Direct exact surface従姉妹/イトコ row56619146 common noun2; normalized lemma従兄弟 is not a male meaning assertion. Existing male1335290/698 remains explicitly male with original identity. Age comparison versus travel-help communication are distinct; no gender-neutral kana alias attached to male heading."
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:itoko-female"
   }
 ];

@@ -130272,5 +130272,66 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:sekken-thrift"
+  },
+  {
+    "word": "あたし",
+    "reading": "あたし",
+    "romaji": "atashi",
+    "meaning": "ich (umgangssprachliche Selbstbezeichnung)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N1",
+    "notes": "あたし ist eine umgangssprachliche Selbstbezeichnung, besonders in weiblich geprägter Alltagssprache. Gewöhnlich wird sie in Kana geschrieben; die Kanji-Schreibung 私 kann ebenfalls diese Lesung haben. Für formelle Gespräche ist わたし die gebräuchlichere Wahl. Im ersten Beispiel bedeutet も „auch“. Im zweiten hebt が hervor, wer heute kocht; das abschließende ね sucht Zustimmung. Die Lesungen わたし und わたくし werden in eigenen Einträgen behandelt.",
+    "examples": [
+      {
+        "japanese": "あたしもその映画を見たい。",
+        "romaji": "Atashi mo sono eiga o mitai.",
+        "german": "Ich möchte den Film auch sehen."
+      },
+      {
+        "japanese": "今日はあたしが料理するね。",
+        "romaji": "Kyō wa atashi ga ryōri suru ne.",
+        "german": "Heute koche ich, okay?"
+      }
+    ],
+    "aliases": [
+      "私"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282334947",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@282334947",
+          "orth": "あたし",
+          "kana": "アタシ",
+          "lemma": "私",
+          "pos": [
+            "代名詞",
+            "*",
+            "*",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "0",
+          "raw": "代名詞,*,*,*,*,*,ワタシ,私,あたし,アタシ,あたし,アタシ,和,*,*,*,*,*,*,体,アタシ,アタシ,アタシ,アタシ,0,*,*,11346143988556288,41277"
+        },
+        "finding": "Entire raw1311125 read: actual私 kanji, exactあたし female/casual pronoun sense1, usually kana; separateあたくし more polite and search-onlyアタシ excluded. Canonical learner headあたし follows uk usage and explicit same-reading私 alias preserves frozen spelling coverage; original私/わたし remains untouched. Shared film-viewing desire withも and informal focused cooking offer withが/ね are distinct; exact Atashi/Sono eiga/mitai and Kyō/ryōri long vowels with full German match. Corrected direct original-byte scan personally read the complete exact surfaceあたし/アタシ pronoun row282334947 aType0, lemma私 and lemma readingワタシ. Surface pronunciation fields support this actual whole reading; the different lemma reading does not disqualify it. Initial scratch scan wrongly marked a nonmatching orthographic row as seen while searching私, then skipped it when searchingあたし. Fixed exact-surface scan independently corroborates original row0. Unrelated surfaceワタシ/ワタクシ and nounシ not borrowed. Actual OJADあたし query has zero lexical rows, so only the direct original complete surface row supplies numeric0.",
+        "match": {
+          "word": "あたし",
+          "reading": "あたし",
+          "grammaticalForm": "代名詞/*/*/*; whole uninflected citation",
+          "sense": "ich (umgangssprachliche Selbstbezeichnung)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:atashi-casual-i"
   }
 ];

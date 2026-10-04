@@ -144,6 +144,29 @@ missing notes, 154 pending reviews, 174 entries lacking two reviewed contexts,
 and 376 unresolved references. N4–N1 remain pending; this checkpoint does not
 certify a level.
 
+The eighth verified checkpoint enriches the remaining 174 original N5 cards
+plus four further original entries needed for N5-owned source references. The
+campaign now covers 1,601 unique original entries and 35 additions; repeat
+revisions count once. It resolves 59 further frozen references, 245 in total.
+Alternate readings receive separate cards with their own meanings, examples
+and investigated pitch; counter and particle entries retain unknown pitch
+where whole-form evidence does not support a contour. Qualified spelling
+searches distinguish material hardness, reliability, animal taming and
+empty/free space. Shared final okurigana and alternative-reading source
+notation bind every actual form to a separately reviewed current target.
+The historical duplicate redirect remains, with its approval renewed against
+the updated survivor. Three appended canonical verb metadata renewals retain
+the reviewed teaching and exact irregular overrides; packaging now rejects
+missing or conflicting canonical metadata before editorial approval.
+All 21 full checks pass. Generated replay is identical, all 15,558 original
+IDs/headwords/readings/levels are preserved and reading/audio files are
+unchanged. Browser checks cover 84 detail and 84 note states at 390/1440
+widths in both themes, 21 searches and refreshed card/duplicate deep links;
+representative screens were visually inspected. N5 now has no missing notes,
+pending entry reviews, missing second reviewed contexts or uninvestigated
+pitch. Its 317 unresolved source references still keep the phase active;
+N4–N1 remain pending and this checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -609,14 +632,22 @@ candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
 `additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
 
-`verified-source-notation` handles five explicit publisher formats: a nominal
+`verified-source-notation` handles seven explicit publisher formats: a nominal
 heading with a complete suru-verb reading, a parenthesized reading ending, a
 reading misplaced into the gloss column, a kana-script variant, or combined
-spellings. Its `sourceNormalization` contains `kind`, `word` and `reading`;
+spellings, alternative readings, or shared final okurigana.
+Its `sourceNormalization` contains `kind`, `word` and `reading`;
 all three are bound to both approvals. A single separator `・` immediately
 before `する` is allowed in that format; other punctuation is preserved.
 Mechanical checks require the exact
 indicated spelling and pronunciation and coverage of every combined spelling.
+The first five formats retain one target. `alternative-readings` preserves the
+literal slash-separated source reading and binds a distinct accepted card for
+each of its two or three readings. `shared-okurigana` expands the final kana
+ending in a source such as `堅/硬/固い` to `堅い/硬い/固い` and binds each
+full spelling at the same reading to its own accepted card. Missing, unrelated,
+overlapping or extra targets fail; every target hash and both source approvals
+remain mandatory. These formats do not establish interchangeable usage.
 Lexical evidence and independent review are still required. This action cannot
 resolve an arbitrary reading, homophone or additional sense; the original
 publisher reference remains frozen. Exact spelling-variant checks remain strict.

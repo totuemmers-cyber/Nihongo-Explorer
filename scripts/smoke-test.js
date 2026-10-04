@@ -320,7 +320,7 @@ async function run() {
   const calendar = vocab.filteredItems[calendarIndex];
   vocab.openDetail(calendarIndex);
   assert(document.getElementById('vocab-detail-examples').textContent.includes('休みの日'), 'Second new example missing');
-  assert(document.getElementById('vocab-detail-pitch').classList.contains('hidden'), 'Unknown accent must not appear as verified');
+  assert(Number.isInteger(calendar.pitch) && !document.getElementById('vocab-detail-pitch').classList.contains('hidden'), 'Reviewed calendar accent is missing');
   window.toggleBookmark('vocab', calendar.id);
   vocab.closeDetail();
   vocab.filters.bookmarks = 'starred';
@@ -328,6 +328,14 @@ async function run() {
   assert(vocab.filteredItems.some(function (v) { return v.id === calendar.id; }), 'New vocabulary bookmark not found');
   window.toggleBookmark('vocab', calendar.id);
   vocab.filters.bookmarks = 'all';
+  vocab.dom.search.value = '';
+  vocab.applyFilters();
+  const unknownPitchIndex = vocab.filteredItems.findIndex(function (item) { return item.pitch === null && item.notes; });
+  assert(unknownPitchIndex >= 0, 'Investigated unknown-accent vocabulary is missing');
+  vocab.openDetail(unknownPitchIndex);
+  assert(document.getElementById('vocab-detail-pitch').classList.contains('hidden'), 'Unknown accent must not appear as verified');
+  assert(!document.querySelector('#vocab-detail-pitch .pitch-svg'), 'Unknown accent must not retain a previous card chart');
+  vocab.closeDetail();
   vocab.dom.search.value = '医者';
   vocab.applyFilters();
   assert(vocab.filteredItems.some(function (v) { return v.word === '医者' && v.level === 'N5'; }), 'Corrected beginner level missing from filter');

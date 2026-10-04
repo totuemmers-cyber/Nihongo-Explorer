@@ -39185,5 +39185,107 @@ window.VOCAB_N4 = [
       }
     ],
     "correctionId": "vocab-n4:correction:shokuji-suru-meal"
+  },
+  {
+    "word": "明日",
+    "reading": "あす",
+    "romaji": "asu",
+    "meaning": "morgen (Lesung あす)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "明日 wird auf dieser Karte あす gelesen und bedeutet „morgen“. Daneben gibt es die alltägliche Lesung あした. Eine Zeitangabe wie 明日 steht in diesen Sätzen ohne に. 明日は nennt das Thema der Wettermitteilung; 〜そうです gibt hier eine gehörte Information wieder. 明日までに setzt eine Frist: Die Unterlagen sollen spätestens morgen abgegeben werden.",
+    "examples": [
+      {
+        "japanese": "明日は雨が降るそうです。",
+        "romaji": "Asu wa ame ga furu sō desu.",
+        "german": "Es soll morgen regnen."
+      },
+      {
+        "japanese": "この書類は明日までに出してください。",
+        "romaji": "Kono shorui wa asu made ni dashite kudasai.",
+        "german": "Bitte reichen Sie diese Unterlagen bis morgen ein."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@43160838",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2,
+          0
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@43160838",
+          "orth": "明日",
+          "kana": "アス",
+          "lemma": "明日",
+          "pos": [
+            "名詞",
+            "普通名詞",
+            "副詞可能",
+            "*"
+          ],
+          "cType": "*",
+          "cForm": "*",
+          "aType": "2,0",
+          "raw": "名詞,普通名詞,副詞可能,*,*,*,アス,明日,明日,アス,明日,アス,和,*,*,*,*,*,*,体,アス,アス,アス,アス,\"2,0\",C4,*,184451732742656,671"
+        },
+        "finding": "Entire raw1584660 read, exact alternateあす sense1 tomorrow, not restrictedあす near-future2. Existing original明日/あした is preserved as a separate reading. Two original contexts are attributed tomorrow-weather report with hearsayそうです, and document submission deadlineまでに with polite request. Asu has two short vowels; sō long vowel, shorui and dashite exact; German attributed forecast and deadline are faithful. Direct original sys.dic43160838 whole明日/アス adverb-capable noun aType2,0 gives both complete lexical variants; separateアシタ3,0 andミョウニチ1 rejected. Whole OJAD3672 two moraeあ/す accent_top on second gives2, corroborating retained primary2 without dropping actual variant0.",
+        "match": {
+          "word": "明日",
+          "reading": "あす",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; whole uninflected citation",
+          "sense": "morgen (Lesung あす)"
+        }
+      },
+      {
+        "source": "OJAD — University of Tokyo",
+        "version": "Saved original HTML SHA256 f72259a1fe2e8bb21d81f4298234720803740cdd52aeaecb354a894a8350c957",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%82%E3%81%99#3672_1_1",
+        "attribution": "OJAD, University of Tokyo, original whole lexical form inspected",
+        "patterns": [
+          2
+        ],
+        "finding": "Entire raw1584660 read, exact alternateあす sense1 tomorrow, not restrictedあす near-future2. Existing original明日/あした is preserved as a separate reading. Two original contexts are attributed tomorrow-weather report with hearsayそうです, and document submission deadlineまでに with polite request. Asu has two short vowels; sō long vowel, shorui and dashite exact; German attributed forecast and deadline are faithful. Direct original sys.dic43160838 whole明日/アス adverb-capable noun aType2,0 gives both complete lexical variants; separateアシタ3,0 andミョウニチ1 rejected. Whole OJAD3672 two moraeあ/す accent_top on second gives2, corroborating retained primary2 without dropping actual variant0. Entire actual dictionary-form cell: \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-2\"><span class=\"inner\"><span class=\"char\">あ</span></span></span><span class=\" accent_top mola_-1\"><span class=\"inner\"><span class=\"char\">す</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n            </div>\n</div>\n                                ",
+        "match": {
+          "word": "明日",
+          "reading": "あす",
+          "grammaticalForm": "Whole lexical dictionary form",
+          "sense": "morgen (Lesung あす)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:asu-tomorrow"
+  },
+  {
+    "word": "や",
+    "reading": "や",
+    "romaji": "ya",
+    "meaning": "und … und; unter anderem (Aufzählung)",
+    "type": "Partikel",
+    "category": "Sprache",
+    "level": "N4",
+    "notes": "や verbindet Nomen in einer Aufzählung, die weitere, ungenannte Dinge zulässt. 本やノート nennt etwa Bücher und Hefte unter anderen Gegenständen. と nennt dagegen die aufgeführten Dinge als vollständige Liste im jeweiligen Zusammenhang. Die ganze Wortgruppe kann vor が oder を stehen: 本やノートが, 料理や掃除を. Diese Verwendung ist von 〜屋 für Läden oder Berufe und von der regionalen Kopula や zu unterscheiden.",
+    "examples": [
+      {
+        "japanese": "机の上に、本やノートがあります。",
+        "romaji": "Tsukue no ue ni, hon ya nōto ga arimasu.",
+        "german": "Auf dem Schreibtisch liegen unter anderem Bücher und Hefte."
+      },
+      {
+        "japanese": "休日は、料理や掃除をします。",
+        "romaji": "Kyūjitsu wa, ryōri ya sōji o shimasu.",
+        "german": "An freien Tagen erledige ich unter anderem das Kochen und Putzen."
+      }
+    ],
+    "pitch": null,
+    "correctionId": "vocab-n4:correction:ya-list-particle"
   }
 ];

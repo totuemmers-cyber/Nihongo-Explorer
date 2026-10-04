@@ -1,0 +1,577 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:correction:hiku-run-over",
+      "revisionId": "113b-canonical-hiku-run-over",
+      "state": "accepted",
+      "predecessorHash": "f8d943d0cc7be269f1de8b842d7f6ad2ef1a6e10db03cc66b4fa043375f698fd",
+      "predecessorRevisionHash": "4342b599dc84aa71de62a26cf4bcba7dd856e6dd498439526cd99e9de94c91af",
+      "originalHash": "f8d943d0cc7be269f1de8b842d7f6ad2ef1a6e10db03cc66b4fa043375f698fd",
+      "original": {
+        "verbGroup": "godan",
+        "conjugationReading": "ひく",
+        "conjugationKind": "verb",
+        "conjugationReason": null,
+        "conjugation": null
+      },
+      "replacement": {
+        "verbGroup": "godan",
+        "conjugationReading": "ひく",
+        "conjugationKind": "verb",
+        "conjugationReason": "Personally inspected original JMdict1612920/1 transitive Godan-ku and original exact UniDic terminal surface 轢く/ひく. Regular ku verb: て-form ひいて, past ひいた; no irregular overrides.",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "ひく",
+          "conjugationKind": "verb",
+          "conjugationReason": "Personally inspected original JMdict1612920/1 transitive Godan-ku and original exact UniDic terminal surface 轢く/ひく. Regular ku verb: て-form ひいて, past ひいた; no irregular overrides."
+        }
+      },
+      "rationale": "Append-only canonical nested conjugation correction preserving every original teaching and lexical identity. Personally inspected original JMdict1612920/1 transitive Godan-ku and original exact UniDic terminal surface 轢く/ひく. Regular ku verb: て-form ひいて, past ひいた; no irregular overrides.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1612920; spelling=轢く; reading=ひく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1612920",
+            "spelling": "轢く",
+            "reading": "ひく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to run over (with a vehicle)",
+                  "to knock down"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct."
+        },
+        {
+          "source": "Frozen original publisher candidate references",
+          "version": "Reference hashes d969f5e1375ec3d91a489675fdbc3f8a46b860b0fddb61cacbe3c619740e49de, d2eae74f13f92eb47a8965d1949afd55977c01a0661664f110d2a478eb40091d",
+          "locator": "scripts/vocabulary-completion.json#candidates/轢く|ひく/references",
+          "finding": "tanos N3 轢く/ひく to run somebody over (with vehicle),to knock someone; master N3 轢く/ひく to run somebody over (with vehicle); to knock someone down; renverser (par un véhicule). Both frozen TANOS N3 page74 and Nihongo Master N3 references classify exact轢く/ひく vehicle collision verb at N3. Use that estimated study placement; a shared reading with N5引く does not make this the same lexical entry. No official exhaustive JLPT vocabulary-list claim."
+        },
+        {
+          "source": "Actual canonical conjugation runtime and full verb audit",
+          "version": "Current conjugation.js and audit-verb-conjugation.js personally inspected 2026-10-04",
+          "locator": "conjugation.js#resolveVocabVerbConjugation; audit-verb-conjugation.js#runtime-verbs",
+          "finding": "Runtime selects item.conjugation||item; audit requires nested conjugation for every Verb. Add consistent nested regular Godan-ku metadata and source-backed reason. Preserve word/reading/level, literal meaning, contexts and exact whole-form pitch."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225058942",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Actually inspected original whole surface row 轢く/ヒク; lemma 挽く; 動詞/一般/*/*; 五段-カ行; 終止形-一般; aType 0. Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+            "match": {
+              "word": "轢く",
+              "reading": "ひく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般; whole standalone lexical form",
+              "sense": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225060398",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Actually inspected original whole surface row 轢く/ヒク; lemma 挽く; 動詞/一般/*/*; 五段-カ行; 連体形-一般; aType 0. Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+            "match": {
+              "word": "轢く",
+              "reading": "ひく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 連体形-一般; whole standalone lexical form",
+              "sense": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "conjugation",
+          "full-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "reviewedDistinctContexts": true,
+        "meaning": "anfahren; überfahren (mit einem Fahrzeug). Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+        "japanese": "車が道を渡っていた人を轢きました。 / あの犬は、車に轢かれたそうです。",
+        "romanization": "hiku; Kuruma ga michi o watatte ita hito o hikimashita. / Ano inu wa, kuruma ni hikareta sō desu.. Actual Modified Hepburn inspection.",
+        "translation": "Ein Auto überfuhr eine Person, die gerade die Straße überquerte. / Ich habe gehört, dass jener Hund von einem Auto überfahren wurde.",
+        "contexts": [
+          "Ein Fahrzeug als Verursacher eines Unfalls mit einer überquerenden Person nennen.",
+          "Vom Hörensagen über einen überfahrenen Hund berichten und dabei die Passivform verwenden."
+        ],
+        "lexical": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+        "register": "轢く bedeutet jemanden oder etwas mit einem Fahrzeug anfahren oder überfahren. Das betroffene Lebewesen steht vor を; in einem Passivsatz nennt 車に das verursachende Fahrzeug. Das Godanverb wird zu 轢きます, 轢いて und 轢かれる. Man schreibt auch ひく in Hiragana; das gleiche gesprochene Wort 引く bedeutet je nach Zusammenhang ziehen und ist ein anderer Eintrag.",
+        "transitivity": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct.",
+        "conjugation": "Personally inspected original JMdict1612920/1 transitive Godan-ku and original exact UniDic terminal surface 轢く/ひく. Regular ku verb: て-form ひいて, past ひいた; no irregular overrides. Canonical nested metadata repeats effective fields; resolver selects nested metadata. Original complete teaching personally re-read.",
+        "level": "Both frozen TANOS N3 page74 and Nihongo Master N3 references classify exact轢く/ひく vehicle collision verb at N3. Use that estimated study placement; a shared reading with N5引く does not make this the same lexical entry. No official exhaustive JLPT vocabulary-list claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author A editorial self-review after personally reading exact final record, original sources and runtime forms; separate independent review required. Personally reread original raw1612920 sole sense1: transitive Godan-ku vehicle run-over, uk. Exact final active crossing-person collision versus reported passive dog collision, complete faithful German and hikimashita/hikareta Hepburn read. Actual original sys.dic bytes225058942/225060398 exact轢く/ヒク both0 personally read despite normalized挽く. Nested/effective Godan,ひく,verb and source-backed reason consistent. All19 actual nested resolver forms printed and individually checked:ひく,ひきます,ひかない,ひきません,ひいた,ひきました,ひかなかった,ひきませんでした,ひいて,ひける,ひかれる,ひかせる,ひかせられる,ひけば,ひいたら,ひこう,ひきましょう,ひけ,ひくな. Append-only correction preserves identity and all teaching.",
+        "contentHash": "147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca",
+        "approvalHash": "8d5dedaad95dd542146a49e41cded4546d99f74efa9fd1c271d7fa11134aec4b"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally re-read entire final heading, vehicle-specific note and both complete pedestrian-crossing active and reported dog passive scenes, Japanese/German/Hepburn. Compared actual current sealed104a teaching: only canonical nested conjugation and matching source-backed reason change. Full original JMdict1612920 has unrestricted vehicle run-over/knock-down sense1, transitive Godan-ku; no pulling or musical homophone claim. Independently parsed original whole UniDic terminal225058942 and attributive225060398: actual surface Hiku vehicle spelling, accent0, normalized lemma Hiku saw spelling does not change selected lexeme. Executed actual resolver and inspected all19 regular forms including Hiku/Hikimasu/Hikanai/Hiite/Hiita/Hikareru/Hiitara; nested and effective fields agree, no irregular override. Existing original identity, N3 placement, two contexts, full pitch provenance and source meaning remain intact.",
+        "contentHash": "147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca",
+        "approvalHash": "8d5dedaad95dd542146a49e41cded4546d99f74efa9fd1c271d7fa11134aec4b"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:kaku-draw",
+      "revisionId": "113b-canonical-kaku-draw",
+      "state": "accepted",
+      "predecessorHash": "beca3aa8d485ea5259a0b90e2082c73987520e5add6bceff43d50952a55157d6",
+      "predecessorRevisionHash": "99e73aaf42d42f7e4ee13eb87e26ef90790e0b4c36f77d97fba2492c408f979a",
+      "originalHash": "beca3aa8d485ea5259a0b90e2082c73987520e5add6bceff43d50952a55157d6",
+      "original": {
+        "verbGroup": "godan",
+        "conjugationReading": "かく",
+        "conjugationKind": "verb",
+        "conjugationReason": null,
+        "conjugation": null
+      },
+      "replacement": {
+        "verbGroup": "godan",
+        "conjugationReading": "かく",
+        "conjugationKind": "verb",
+        "conjugationReason": "Personally inspected original JMdict1583460/1 transitive Godan-ku and original exact UniDic terminal surface 描く/かく. Regular ku verb: て-form かいて, past かいた; no irregular overrides.",
+        "conjugation": {
+          "verbGroup": "godan",
+          "conjugationReading": "かく",
+          "conjugationKind": "verb",
+          "conjugationReason": "Personally inspected original JMdict1583460/1 transitive Godan-ku and original exact UniDic terminal surface 描く/かく. Regular ku verb: て-form かいて, past かいた; no irregular overrides."
+        }
+      },
+      "rationale": "Append-only canonical nested conjugation correction preserving every original teaching and lexical identity. Personally inspected original JMdict1583460/1 transitive Godan-ku and original exact UniDic terminal surface 描く/かく. Regular ku verb: て-form かいて, past かいた; no irregular overrides.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1583460; spelling=描く; reading=かく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1583460",
+            "spelling": "描く",
+            "reading": "かく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to draw",
+                  "to paint",
+                  "to sketch"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation."
+        },
+        {
+          "source": "Frozen original publisher candidate references",
+          "version": "Reference hashes 9b21dc6e787e7cf1a5805f39a00161904fca1b3d9ce0b48b1376023d94d08e7c",
+          "locator": "scripts/vocabulary-completion.json#candidates/描く|かく/references",
+          "finding": "tanos N3 描く/かく to draw,to paint,to sketch,to depict,to describe. Frozen TANOS N3 page15 names描く/かく, but broadgloss includesdescribe restrictedbyoriginaldictionarytoえがく. EstimateN3 for validliteralかく reading and explicitly narrow to compatibleactualsource sense1; retainexisting描く/えがく/N4 and書く/N5 identities untouched. No invented source-normalization kind."
+        },
+        {
+          "source": "Actual canonical conjugation runtime and full verb audit",
+          "version": "Current conjugation.js and audit-verb-conjugation.js personally inspected 2026-10-04",
+          "locator": "conjugation.js#resolveVocabVerbConjugation; audit-verb-conjugation.js#runtime-verbs",
+          "finding": "Runtime selects item.conjugation||item; audit requires nested conjugation for every Verb. Add consistent nested regular Godan-ku metadata and source-backed reason. Preserve word/reading/level, literal meaning, contexts and exact whole-form pitch."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90444695",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actually inspected original whole surface row 描く/カク; lemma 書く; 動詞/一般/*/*; 五段-カ行; 終止形-一般; aType 1. Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+            "match": {
+              "word": "描く",
+              "reading": "かく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般; whole standalone lexical form",
+              "sense": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90446231",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actually inspected original whole surface row 描く/カク; lemma 書く; 動詞/一般/*/*; 五段-カ行; 連体形-一般; aType 1. Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+            "match": {
+              "word": "描く",
+              "reading": "かく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 連体形-一般; whole standalone lexical form",
+              "sense": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "conjugation",
+          "full-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "reviewedDistinctContexts": true,
+        "meaning": "zeichnen; malen; skizzieren (Lesung かく). Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+        "japanese": "妹は紙に猫の絵を描きました。 / ここに簡単な地図を描いてください。",
+        "romanization": "kaku; Imōto wa kami ni neko no e o kakimashita. / Koko ni kantan na chizu o kaite kudasai.. Actual Modified Hepburn inspection.",
+        "translation": "Meine jüngere Schwester zeichnete ein Katzenbild auf Papier. / Zeichnen Sie bitte hier eine einfache Karte.",
+        "contexts": [
+          "Von der konkreten Zeichnung eines Katzenbilds auf Papier berichten.",
+          "Um das Zeichnen einer einfachen Karte an einer bezeichneten Stelle bitten."
+        ],
+        "lexical": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+        "register": "描く wird hier かく gelesen und bezeichnet das Zeichnen, Malen oder Skizzieren. Das Bild oder die dargestellte Sache steht vor を, der Untergrund kann vor に stehen. Die て-Form lautet 描いて（かいて）. Es gibt auch die Lesung えがく beim selben Kanji; für beschreiben oder bildlich darstellen wird gewöhnlich えがく verwendet. Dieser Eintrag übt das konkrete Zeichnen mit かく.",
+        "transitivity": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation.",
+        "conjugation": "Personally inspected original JMdict1583460/1 transitive Godan-ku and original exact UniDic terminal surface 描く/かく. Regular ku verb: て-form かいて, past かいた; no irregular overrides. Canonical nested metadata repeats effective fields; resolver selects nested metadata. Original complete teaching personally re-read.",
+        "level": "Frozen TANOS N3 page15 names描く/かく, but broadgloss includesdescribe restrictedbyoriginaldictionarytoえがく. EstimateN3 for validliteralかく reading and explicitly narrow to compatibleactualsource sense1; retainexisting描く/えがく/N4 and書く/N5 identities untouched. No invented source-normalization kind."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author A editorial self-review after personally reading exact final record, original sources and runtime forms; separate independent review required. Personally reread complete raw1583460, selecting literal drawing/painting1 only; describe2 explicitly stagrえがく excluded. Exact final cat picture on paper versus practical map request, German and kakimashita/kaite Hepburn read. Original sys.dic bytes90444695/90446231 exact描く/カク both1 personally read despite normalized書く. Nested/effective Godan,かく,verb and source-backed reason consistent. All19 actual nested resolver forms printed and individually checked:かく,かきます,かかない,かきません,かいた,かきました,かかなかった,かきませんでした,かいて,かける,かかれる,かかせる,かかせられる,かけば,かいたら,かこう,かきましょう,かけ,かくな. No egaku reading/meaning transfer.",
+        "contentHash": "9517cff1f3ac67b6f8e0899ff33d7b11d3eb3f098eb36a022e7a257e52ce43a4",
+        "approvalHash": "e2a87a334e6d90bca764e0ae9371745a4e5d8fe3dcc3e36eade4bc028f4efb0d"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally re-read all final heading, reading-specific literal drawing note and complete sister drawing a cat versus requested simple-map scenes, Japanese/German/Hepburn. Compared actual current sealed104b teaching: only canonical nested conjugation and matching source-backed reason change. Full original JMdict1583460 sense1 unrestricted transitive Godan-ku draw/paint/sketch supports Kaku; sense2 depict/describe is restricted to Egaku and remains excluded, as do untaught senses3/4. Independently parsed original exact whole terminal90444695 and attributive90446231 surface Kaku drawing spelling, accent1; normalized lemma Kaku writing spelling does not replace selected lexeme or import Egaku2. Executed actual resolver and inspected all19 forms including Kaku/Kakimasu/Kakanai/Kaite/Kaita/Kakareru/Kaitara. Canonical nested/effective fields agree, source-backed regular ku forms need no overrides; all original teaching, N3 identity and retained pitch provenance survive unchanged.",
+        "contentHash": "9517cff1f3ac67b6f8e0899ff33d7b11d3eb3f098eb36a022e7a257e52ce43a4",
+        "approvalHash": "e2a87a334e6d90bca764e0ae9371745a4e5d8fe3dcc3e36eade4bc028f4efb0d"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "key": "轢く|ひく",
+      "referenceIndex": 0,
+      "referenceHash": "d969f5e1375ec3d91a489675fdbc3f8a46b860b0fddb61cacbe3c619740e49de",
+      "revisionId": "113b-renew-ひく-0",
+      "state": "accepted",
+      "predecessorHash": "1dade09ef53c3c35c923bf86e9c6937d29498e157156decb4ce95659183cc0d4",
+      "predecessorRevisionHash": "1cdc347065848f1db68e242cc9e23c33779a066b8d1f92a55e4905d47df6b850",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hiku-run-over"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hiku-run-over": "147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca"
+      },
+      "reason": "Exact missing lexical spelling and reading now covered by the stable allocated original full addition. Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct. Renew the same accepted literal reference to append-only canonical nested conjugation metadata; no new lexical coverage or reading claim.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1612920; spelling=轢く; reading=ひく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1612920",
+            "spelling": "轢く",
+            "reading": "ひく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to run over (with a vehicle)",
+                  "to knock down"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct."
+        },
+        {
+          "source": "Frozen original publisher candidate references",
+          "version": "Reference hashes d969f5e1375ec3d91a489675fdbc3f8a46b860b0fddb61cacbe3c619740e49de, d2eae74f13f92eb47a8965d1949afd55977c01a0661664f110d2a478eb40091d",
+          "locator": "scripts/vocabulary-completion.json#candidates/轢く|ひく/references",
+          "finding": "tanos N3 轢く/ひく to run somebody over (with vehicle),to knock someone; master N3 轢く/ひく to run somebody over (with vehicle); to knock someone down; renverser (par un véhicule). Both frozen TANOS N3 page74 and Nihongo Master N3 references classify exact轢く/ひく vehicle collision verb at N3. Use that estimated study placement; a shared reading with N5引く does not make this the same lexical entry. No official exhaustive JLPT vocabulary-list claim."
+        },
+        {
+          "source": "Exact canonical nested conjugation revision target",
+          "version": "Target SHA256 147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca",
+          "locator": "scripts/vocabulary-review-workflow.json#vocab-n3:correction:hiku-run-over",
+          "finding": "Same frozen source and compatible taught senses preserved. Exact target hashes updated only for the canonical nested conjugation correction; sealed104 records retained."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author A editorial self-review after personally reading exact final record, original sources and runtime forms; separate independent review required. Personally reread actual frozen TANOS N3 page74 exact literal轢く/ひく vehicle collision reference and current predecessor1cdc347…. Same source-compatible1612920/1 head and full active/passive teaching retained. TargetHash renews only nested canonical metadata correction; original accepted104 source not reopened.",
+        "contentHash": "034df877ff4f886da773b6fe839ba1e1cc870479c7ebac6e0759de7670b53b38",
+        "approvalHash": "034df877ff4f886da773b6fe839ba1e1cc870479c7ebac6e0759de7670b53b38"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally inspected this exact TANOSN3 page74 literal Hiku vehicle reference, existing accepted predecessor content/revision hashes and complete current active pedestrian/passive dog teaching. Original unrestricted1612920/1 directly supports both vehicle scenes, exact surface UniDic225058942 accent0 retained. This append-only renewal binds the newly canonical nested Godan-ku target; it introduces no spelling, reading, level, sense or retirement change and leaves sealed104a approval history intact. Independently recomputed targetHash and verified source literal scope, fresh target metadata and original accepted disposition.",
+        "contentHash": "034df877ff4f886da773b6fe839ba1e1cc870479c7ebac6e0759de7670b53b38",
+        "approvalHash": "034df877ff4f886da773b6fe839ba1e1cc870479c7ebac6e0759de7670b53b38"
+      }
+    },
+    {
+      "key": "轢く|ひく",
+      "referenceIndex": 1,
+      "referenceHash": "d2eae74f13f92eb47a8965d1949afd55977c01a0661664f110d2a478eb40091d",
+      "revisionId": "113b-renew-ひく-1",
+      "state": "accepted",
+      "predecessorHash": "656ba02531e2dd9148ff98637e39b83e94ceb1747afa15f27fea61efcd61c19b",
+      "predecessorRevisionHash": "c1491468fe02c1028c5beb067080653389736f7341a2556e7979dff9b1878c9e",
+      "disposition": "added",
+      "targets": [
+        "vocab-n3:correction:hiku-run-over"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:hiku-run-over": "147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca"
+      },
+      "reason": "Exact missing lexical spelling and reading now covered by the stable allocated original full addition. Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct. Renew the same accepted literal reference to append-only canonical nested conjugation metadata; no new lexical coverage or reading claim.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1612920; spelling=轢く; reading=ひく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1612920",
+            "spelling": "轢く",
+            "reading": "ひく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to run over (with a vehicle)",
+                  "to knock down"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Actual JMdict1612920 exact轢く/ひく vehicle run-over sense1, transitive Godan-ku and uk tag. Direct surface row225058942 orth轢く and surfacekanaヒク terminal0; normalized lemma挽く does not replace exact surface or lexical meaning. Reject distinct surfaceビク, 引く/pull and弾く/play. Active affected objectを versus reported passive vehicleに contexts personally inspected, hiku/hikimashita/hikareta correct."
+        },
+        {
+          "source": "Frozen original publisher candidate references",
+          "version": "Reference hashes d969f5e1375ec3d91a489675fdbc3f8a46b860b0fddb61cacbe3c619740e49de, d2eae74f13f92eb47a8965d1949afd55977c01a0661664f110d2a478eb40091d",
+          "locator": "scripts/vocabulary-completion.json#candidates/轢く|ひく/references",
+          "finding": "tanos N3 轢く/ひく to run somebody over (with vehicle),to knock someone; master N3 轢く/ひく to run somebody over (with vehicle); to knock someone down; renverser (par un véhicule). Both frozen TANOS N3 page74 and Nihongo Master N3 references classify exact轢く/ひく vehicle collision verb at N3. Use that estimated study placement; a shared reading with N5引く does not make this the same lexical entry. No official exhaustive JLPT vocabulary-list claim."
+        },
+        {
+          "source": "Exact canonical nested conjugation revision target",
+          "version": "Target SHA256 147227aa91b5180c9368a5b0b48cf0dab183f0bc264f40a793b6f9fb306797ca",
+          "locator": "scripts/vocabulary-review-workflow.json#vocab-n3:correction:hiku-run-over",
+          "finding": "Same frozen source and compatible taught senses preserved. Exact target hashes updated only for the canonical nested conjugation correction; sealed104 records retained."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author A editorial self-review after personally reading exact final record, original sources and runtime forms; separate independent review required. Personally reread actual frozen Master N3 page4 exact轢く/ひく dictionary58993 vehicle collision reference and current predecessorc149146…. Same compatible1612920/1 head and original complete teaching retained. Exact targetHash renews canonical nested metadata; no fabricated coverage/reading.",
+        "contentHash": "a1f9d33647e0146d8777897259609b19ac5468f6520ade03083d64fd20b66f9c",
+        "approvalHash": "a1f9d33647e0146d8777897259609b19ac5468f6520ade03083d64fd20b66f9c"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally inspected this exact MasterN3 literal Hiku vehicle reference, existing accepted predecessor content/revision hashes and complete current active pedestrian/passive dog teaching. Original unrestricted1612920/1 directly supports both vehicle scenes, exact surface UniDic225058942 accent0 retained. This append-only renewal binds the newly canonical nested Godan-ku target; it introduces no spelling, reading, level, sense or retirement change and leaves sealed104a approval history intact. Independently recomputed targetHash and verified source literal scope, fresh target metadata and original accepted disposition.",
+        "contentHash": "a1f9d33647e0146d8777897259609b19ac5468f6520ade03083d64fd20b66f9c",
+        "approvalHash": "a1f9d33647e0146d8777897259609b19ac5468f6520ade03083d64fd20b66f9c"
+      }
+    },
+    {
+      "key": "描く|かく",
+      "referenceIndex": 0,
+      "referenceHash": "9b21dc6e787e7cf1a5805f39a00161904fca1b3d9ce0b48b1376023d94d08e7c",
+      "revisionId": "113b-renew-かく-0",
+      "state": "accepted",
+      "predecessorHash": "9765ef12fff0cc809413babfc01cce7efa59b85f86d2340773346fff53995412",
+      "predecessorRevisionHash": "686bd28cae2a9c1cecb1127d021e2645a4a9be689c9361e356456fcd7abda809",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n3:correction:kaku-draw"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kaku-draw": "9517cff1f3ac67b6f8e0899ff33d7b11d3eb3f098eb36a022e7a257e52ce43a4"
+      },
+      "reason": "Exact compatible literal drawing sense for this additional reading, never transfer reading-restricted depict/describe sense fromえがく. Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation. Renew the same accepted literal reference to append-only canonical nested conjugation metadata; no new lexical coverage or reading claim.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1583460; spelling=描く; reading=かく; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1583460",
+            "spelling": "描く",
+            "reading": "かく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to draw",
+                  "to paint",
+                  "to sketch"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Actual1583460exactかく literal drawing/painting/sketch1 selected only; rawdescribe/depict2 hasexplicitstagrえがく and isnotclaimed forthisreading. Direct90444695 exact描く surfaceカク terminal1 normalizeslemma書く butdoesnotchangeactualdrawing lexicalsense. Reject69947281surfaceエガク2 as otherreading. Objectdrawing animalpicture versus practicaldirection-maprequest are distinctnaturalかく uses, kaite notegaitereading/conjugation."
+        },
+        {
+          "source": "Frozen original publisher candidate references",
+          "version": "Reference hashes 9b21dc6e787e7cf1a5805f39a00161904fca1b3d9ce0b48b1376023d94d08e7c",
+          "locator": "scripts/vocabulary-completion.json#candidates/描く|かく/references",
+          "finding": "tanos N3 描く/かく to draw,to paint,to sketch,to depict,to describe. Frozen TANOS N3 page15 names描く/かく, but broadgloss includesdescribe restrictedbyoriginaldictionarytoえがく. EstimateN3 for validliteralかく reading and explicitly narrow to compatibleactualsource sense1; retainexisting描く/えがく/N4 and書く/N5 identities untouched. No invented source-normalization kind."
+        },
+        {
+          "source": "Exact canonical nested conjugation revision target",
+          "version": "Target SHA256 9517cff1f3ac67b6f8e0899ff33d7b11d3eb3f098eb36a022e7a257e52ce43a4",
+          "locator": "scripts/vocabulary-review-workflow.json#vocab-n3:correction:kaku-draw",
+          "finding": "Same frozen source and compatible taught senses preserved. Exact target hashes updated only for the canonical nested conjugation correction; sealed104 records retained."
+        }
+      ],
+      "policy": {
+        "id": "risk-based-v2",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-reading"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-author-a",
+        "finding": "Actual author A editorial self-review after personally reading exact final record, original sources and runtime forms; separate independent review required. Personally reread actual frozen TANOS N3 page15 literal描く/かく and current predecessor686bd28…. Broad sourcegloss describe/depict is restricted by original raw1583460 sense2 toえがく, so retain explicit compatible literal drawing1 only. Same exact head and full teaching; targetHash renews nested canonical metadata. Additional-reading consequential policy correctly requires enrichment.",
+        "contentHash": "c08c1870e2669c4352d4f9c637561e87261ffcf2e4d47633e42996ac4b72593e",
+        "approvalHash": "c08c1870e2669c4352d4f9c637561e87261ffcf2e4d47633e42996ac4b72593e"
+      },
+      "secondPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-independent-reviewer",
+        "finding": "Personally inspected exact TANOSN3 page15 literal Kaku drawing reference and accepted predecessor content/revision hashes, complete cat-picture/map teaching and current canonical nested Godan-ku repair. Full original1583460 unrestricted drawing sense1 supports the unchanged reading; its depict/describe sense2 explicitly requires Egaku and the publisher broad gloss is therefore qualified rather than claimed. Retained whole surface90444695 accent1 and all19 actual Kaku forms checked. Independently recomputed fresh targetHash; consequential additional-reading enrichment remains true, originals and sealed104b history are preserved without a new lexical claim.",
+        "contentHash": "c08c1870e2669c4352d4f9c637561e87261ffcf2e4d47633e42996ac4b72593e",
+        "approvalHash": "c08c1870e2669c4352d4f9c637561e87261ffcf2e4d47633e42996ac4b72593e"
+      }
+    }
+  ]
+}

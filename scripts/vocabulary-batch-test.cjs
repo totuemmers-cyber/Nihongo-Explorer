@@ -93,6 +93,42 @@ const decision={key:ck,referenceIndex:0,referenceHash:hash(ref),revisionId:'cand
  policy:{id:POLICY_ID,risk:'consequential',reasons:['candidate-decision'],enrichmentRequired:false,sampled:false}};
 const addProposal={version:3,reviews:[],additions:[addition],decisions:[decision]};
 const aa=assemble(candidatePacket,addProposal,cp);
+// Canonical nested metadata drives the runtime resolver; top-level-only verbs
+// and overrides omitted from the nested object must fail before review.
+{
+  const meta={verbGroup:'godan',conjugationKind:'verb',conjugationReading:'ゆく',conjugationOverrides:{te:'いって',past:'いった'}};
+  const verbProposal=JSON.parse(JSON.stringify(addProposal));
+  const setEntry=entry=>{verbProposal.additions[0].entry=entry;verbProposal.decisions[0].targetHashes[aid]=hash(project(entry));};
+  const valid={...newEntry,type:'Verb',...meta,conjugation:meta};
+  setEntry(valid);assert.equal(assemble(candidatePacket,verbProposal,cp).finalContent[aid].conjugation.conjugationOverrides.te,'いって');
+  for(const field of ['conjugation','verbGroup','conjugationReading','conjugationKind','conjugationOverrides']) {
+    const bad=JSON.parse(JSON.stringify(valid));
+    if(field==='conjugation')delete bad.conjugation;else delete bad.conjugation[field];
+    setEntry(bad);assert.throws(()=>assemble(candidatePacket,verbProposal,cp),/canonical/);
+  }
+  const conflicting=JSON.parse(JSON.stringify(valid));conflicting.conjugation.conjugationOverrides.te='ゆいて';
+  setEntry(conflicting);assert.throws(()=>assemble(candidatePacket,verbProposal,cp),/Conflicting canonical conjugation metadata conjugationOverrides/);
+  const excluded={...newEntry,type:'Verb',conjugationKind:'excluded',conjugationReason:'Synthetic exclusion',conjugation:{conjugationKind:'excluded',conjugationReason:'Synthetic exclusion'}};
+  setEntry(excluded);assert.equal(assemble(candidatePacket,verbProposal,cp).finalContent[aid].conjugationKind,'excluded');
+  delete excluded.conjugation.conjugationReason;setEntry(excluded);assert.throws(()=>assemble(candidatePacket,verbProposal,cp),/canonical reason/);
+  // The same guard applies to revisions of existing entries, not just additions.
+  const revision=JSON.parse(JSON.stringify(proposal));revision.reviews[0].replacement={type:'Verb',...meta};
+  assert.throws(()=>assemble(packet,revision,plan),/canonical conjugation metadata/);
+  revision.reviews[0].replacement.conjugation=meta;assert(assemble(packet,revision,plan).finalContent[entry.id].conjugation);
+  const nominal={verbGroup:'suru',conjugationKind:'nominal-suru',conjugationReading:'ごする',conjugationVariants:{imperative:['ごせよ']}};
+  revision.reviews[0].replacement={type:'Verb',...nominal,conjugation:nominal};
+  assert.equal(assemble(packet,revision,plan).finalContent[entry.id].conjugation.conjugationVariants.imperative[0],'ごせよ');
+  for(const bad of [{...nominal,verbGroup:'godan'},{...nominal,conjugationReading:'ご'}]) {
+    revision.reviews[0].replacement={type:'Verb',...bad,conjugation:bad};
+    assert.throws(()=>assemble(packet,revision,plan),/Canonical nominal-suru/);
+  }
+}
+for(const reason of ['additional-reading','ambiguous-sense']) {
+  const badPolicy=JSON.parse(JSON.stringify(addProposal));badPolicy.decisions[0].policy.reasons.push(reason);
+  assert.throws(()=>assemble(candidatePacket,badPolicy,cp),/requires teaching enrichment/,'Candidate policy mismatch reached editorial approval');
+  badPolicy.decisions[0].policy.enrichmentRequired=true;
+  assert.equal(assemble(candidatePacket,badPolicy,cp).batch.decisions[0].policy.enrichmentRequired,true);
+}
 assert.equal(approvalTargets(aa).length,2);assert.deepStrictEqual(aa.finalContent[aid],project(newEntry));
 assert.deepStrictEqual(aa.batch.additions[0].policy.candidateReference,{key:ck,referenceIndex:0,referenceHash:hash(ref)});
 const af=approve(aa,approvalTargets(aa).map(t=>({...t,pass:'firstPass',decision:'accepted',reviewer:'editor',finding:'Synthetic explicit acceptance'})));
