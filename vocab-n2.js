@@ -76350,5 +76350,213 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:sasu-pour"
+  },
+  {
+    "word": "偶",
+    "reading": "たま",
+    "romaji": "tama",
+    "meaning": "selten; gelegentlich (mit の oder な)",
+    "type": "Adjektiv",
+    "category": "Häufigkeit",
+    "level": "N2",
+    "notes": "たま beschreibt etwas, das nur selten vorkommt. Vor einem Nomen steht häufig の, etwa たまの休み „ein seltener freier Tag“; auch たまなこと „etwas Seltenes“ ist möglich. Die Schreibung 偶 ist ungebräuchlich, meist schreibt man Hiragana. Das längere たまに bedeutet als Adverb „gelegentlich“; „gerade Zahl“ heißt dagegen 偶数（ぐうすう）.",
+    "examples": [
+      {
+        "japanese": "たまの休みには、家でゆっくり本を読みます。",
+        "romaji": "Tama no yasumi ni wa, ie de yukkuri hon o yomimasu.",
+        "german": "An meinen seltenen freien Tagen lese ich zu Hause in Ruhe."
+      },
+      {
+        "japanese": "彼が会議で黙っているのは、たまなことです。",
+        "romaji": "Kare ga kaigi de damatte iru no wa, tama na koto desu.",
+        "german": "Dass er in einer Besprechung schweigt, kommt selten vor."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:tama-rare-adjectival"
+  },
+  {
+    "word": "古",
+    "reading": "ふる",
+    "romaji": "furu",
+    "meaning": "gebrauchter Gegenstand; alt-, gebraucht- (Wortbestandteil)",
+    "type": "Nomen",
+    "category": "Eigenschaft",
+    "level": "N2",
+    "notes": "ふる bezeichnet einen gebrauchten Gegenstand, gewöhnlich mit お: 父のお古 ist etwas, das zuvor dem Vater gehörte. Als Wortbestandteil kann 古 vor einem Nomen „alt“ oder „gebraucht“ bedeuten, etwa 古新聞 „alte Zeitungen“. Nicht jedes Wort mit 古 wird so gelesen; neue Zusammensetzungen lernt man als Ganzes. Das gewöhnliche Adjektiv „alt“ heißt 古い／ふるい. Für den gebrauchten Gegenstand verwendet man im Alltag eher お古 als ein alleinstehendes ふる.",
+    "examples": [
+      {
+        "japanese": "このコートは父のお古だが、まだ十分に着られる。",
+        "romaji": "Kono kōto wa chichi no ofuru da ga, mada jūbun ni kirareru.",
+        "german": "Dieser Mantel ist ein abgelegtes Stück meines Vaters, aber ich kann ihn noch gut tragen."
+      },
+      {
+        "japanese": "古新聞を束ねて、回収の日まで玄関に置いた。",
+        "romaji": "Furushinbun o tabanete, kaishū no hi made genkan ni oita.",
+        "german": "Ich bündelte die alten Zeitungen und legte sie bis zum Abholtag in den Eingangsbereich."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:furu-used-item"
+  },
+  {
+    "word": "辛い",
+    "reading": "づらい",
+    "romaji": "zurai",
+    "meaning": "schwer zu tun (körperlich oder emotional; Suffix)",
+    "type": "Adjektiv",
+    "category": "Schwierigkeit",
+    "level": "N2",
+    "notes": "づらい wird an den Stamm vor ます angehängt: 読みます → 読みづらい. Es beschreibt, dass eine Handlung körperlich schwierig ist oder inneren Widerstand auslöst. Die Form wird gewöhnlich in Kana geschrieben und wie ein i-Adjektiv gebeugt: 読みづらかった, 読みづらくない. Man verwendet sie in dieser Bedeutung mit einem Verbstamm, nicht als freies づらいな vor einem Nomen. 辛い／からい „scharf“ und 辛い／つらい „schmerzlich, belastend“ sind andere Lesungen.",
+    "examples": [
+      {
+        "japanese": "字が薄くて、この手紙は読みづらい。",
+        "romaji": "Ji ga usukute, kono tegami wa yomizurai.",
+        "german": "Weil die Schrift blass ist, lässt sich dieser Brief schwer lesen."
+      },
+      {
+        "japanese": "助けてもらったばかりなので、断りづらい。",
+        "romaji": "Tasukete moratta bakari na node, kotowarizurai.",
+        "german": "Weil mir die Person gerade erst geholfen hat, fällt es mir schwer, abzulehnen."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12 original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179697297",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@179697297",
+          "originalFields": [
+            "接尾辞",
+            "形容詞的",
+            "*",
+            "*",
+            "形容詞",
+            "終止形-一般",
+            "ヅライ",
+            "辛い",
+            "辛い",
+            "ズライ",
+            "辛い",
+            "ズライ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "接尾相",
+            "ヅライ",
+            "ヅライ",
+            "ヅライ",
+            "ヅライ",
+            "2",
+            "C1",
+            "*",
+            "6836771958694571",
+            "24872"
+          ]
+        },
+        "finding": "Personally read original sys.dic@179697297 orth=辛い, surfacekana20=ヅライ, pronunciation9=ズライ, lemma=辛い, POS=接尾辞/形容詞的/*/*, form=形容詞/終止形-一般, aType=2. 2096480 suf/adj-i/uk aftermasustem exactづらい physical/emotionaldifficulty1 selected; alternativeずらい explicitlyik not defaultaddedalias. Actual primary exactづらい section/Nihonkoku接尾語 supports both authored contexts. Original179697297接尾辞形容詞的 terminal surface20ヅライ, pron9ズライ, aType2 is own selected-role citation, not standaloneつらい; no full yomizurai/kotowarizurai compound contours inferred. OJADonlyからい/つらい unrelated; existing104からい and tsurai preserved.",
+        "match": {
+          "word": "辛い",
+          "reading": "づらい",
+          "grammaticalForm": "接尾辞/形容詞的/*/*; 形容詞; 終止形-一般",
+          "sense": "schwer zu tun (körperlich oder emotional; Suffix)"
+        }
+      }
+    ],
+    "senseKey": "physical-emotional-difficulty-suffix",
+    "correctionId": "vocab-n2:correction:zurai-difficult-suffix"
+  },
+  {
+    "word": "同",
+    "reading": "どう",
+    "romaji": "dō",
+    "meaning": "derselbe, besagter; dito (Verweiswort)",
+    "type": "Nomen",
+    "category": "Verweis",
+    "level": "N2",
+    "notes": "同／どう verweist in sachlichen Texten auf etwas zuvor Genanntes. Vor einem Nomen kann es „dieselbe“ oder „die besagte“ bedeuten, etwa 同校 „die genannte Schule“. In Listen oder Aufzeichnungen ersetzt 同 auch eine wiederholte Angabe, ähnlich „dito“: 令和五年入学、同七年卒業. Man braucht den vorausgehenden Zusammenhang, um den Bezug zu verstehen. Das Fragewort どう „wie“ hat eine andere Bedeutung. Die Aussprache längerer Wörter wie 同校 lernt man als Ganzes.",
+    "examples": [
+      {
+        "japanese": "記事では新しい高校を紹介し、同校の校長の話も載せている。",
+        "romaji": "Kiji de wa atarashii kōkō o shōkai shi, dōkō no kōchō no hanashi mo nosete iru.",
+        "german": "Der Artikel stellt eine neue Oberschule vor und gibt auch Aussagen des Schulleiters dieser Schule wieder."
+      },
+      {
+        "japanese": "記録には「令和五年入学、同七年卒業」とある。",
+        "romaji": "Kiroku ni wa “Reiwa gonen nyūgaku, dō shichinen sotsugyō” to aru.",
+        "german": "Im Eintrag steht: „Eintritt im Jahr Reiwa 5, Abschluss im Jahr 7 derselben Ära.“"
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12 original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192307972",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@192307972",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "ドウ",
+            "同",
+            "同",
+            "ドー",
+            "同",
+            "ドー",
+            "漢",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "ドウ",
+            "ドウ",
+            "ドウ",
+            "ドウ",
+            "1",
+            "C3",
+            "*",
+            "7413740651815424",
+            "26971"
+          ]
+        },
+        "finding": "Personally read original sys.dic@192307972 orth=同, surfacekana20=ドウ, pronunciation9=ドー, lemma=同, POS=名詞/普通名詞/一般/*, form=*/*, aType=1. 1451730 prefixsame/said1 plus likewise2 and actual Shogakukan exactどう wordentry inspected. Nihonkokuどう【同・仝】 explicitly名詞1equal/2repeating previous words/3anaphoricprenominalその positively supports ONE qualified referenceword Nomen role. Authored schoolanaphora and era-name repetition contexts actually cover both. Original192307972普通名詞同ドウ/pronドー1 and whole OJAD9023どう1 are own nominal citation; no inferred compound dōkō contour. MasterN2 lower exact source basis, TANOSN1 frozen, originalどうhow/道/銅/胴 remain intact.",
+        "match": {
+          "word": "同",
+          "reading": "どう",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "derselbe, besagter; dito (Verweiswort)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:dou-same-reference"
   }
 ];

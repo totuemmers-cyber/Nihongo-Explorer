@@ -39452,5 +39452,85 @@ window.VOCAB_N4 = [
       }
     ],
     "correctionId": "vocab-n4:correction:yasui-easy"
+  },
+  {
+    "word": "杯",
+    "reading": "はい",
+    "romaji": "hai",
+    "meaning": "Trinkschale, Sakeschale (in festen Wendungen)",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N4",
+    "notes": "杯／はい kann eine Schale für alkoholische Getränke bezeichnen, besonders in festen oder gehobenen Wendungen. 杯を挙げる heißt, den Becher zum Trinken oder Anstoßen zu heben; 杯を重ねる bedeutet, wiederholt zu trinken. Die Schreibweise 盃 ist ebenfalls belegt. Die geläufige Lesung さかずき wird gesondert gelernt. Als Zählwort in 一杯／いっぱい hat 杯 eine andere Funktion; diese Karte zeigt die Trinkschale in den genannten Wendungen.",
+    "examples": [
+      {
+        "japanese": "祝宴で、皆が杯を挙げて二人の幸せを祈った。",
+        "romaji": "Shukuen de, minna ga hai o agete futari no shiawase o inotta.",
+        "german": "Beim Festbankett hoben alle ihre Becher und wünschten dem Paar Glück."
+      },
+      {
+        "japanese": "宴が終わっても、二人は杯を重ねていた。",
+        "romaji": "Utage ga owatte mo, futari wa hai o kasanete ita.",
+        "german": "Auch nachdem das Fest vorbei war, tranken die beiden noch einen Becher nach dem anderen."
+      }
+    ],
+    "aliases": [
+      "盃"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12 original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210891691",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@210891691",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*",
+            "*",
+            "*",
+            "ハイ",
+            "杯",
+            "杯",
+            "ハイ",
+            "杯",
+            "ハイ",
+            "漢",
+            "ハ混合",
+            "基本形",
+            "*",
+            "*",
+            "*",
+            "B1S6S8SjShS,B1S6SjShS,B1S8SjShS,B1S6S7G8SjShS",
+            "体",
+            "ハイ",
+            "ハイ",
+            "ハイ",
+            "ハイ",
+            "1",
+            "C3",
+            "*",
+            "8064101779644928",
+            "29337"
+          ]
+        },
+        "finding": "Personally read original sys.dic@210891691 orth=杯, surfacekana20=ハイ, pronunciation9=ハイ, lemma=杯, POS=名詞/普通名詞/助数詞可能/*, form=*/*, aType=1. 2019640 unrestricted杯/盃はい free alcoholcup1 selected; counter2/3/4 and championshipsuffix5 not claimed. Primary Shogakukan exactはい名＋接尾 and Nihonkoku[1]名詞 positively attest ordinarycup role and杯を挙げる/重ねる. Authored formalidiom contexts actually taught, original210891691普通名詞助数詞可能ハイ1 valid own nominalcitation, no numeralcompound accent inferred; OJADさかずき0 rejected. ExactMasterN4 level estimate, sakazukiN1 separatehead and yes/lung/ash unchanged.",
+        "match": {
+          "word": "杯",
+          "reading": "はい",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+          "sense": "Trinkschale, Sakeschale (in festen Wendungen)"
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:hai-drinking-cup"
   }
 ];

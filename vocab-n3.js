@@ -81696,5 +81696,82 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:uru-obtain-possibility"
+  },
+  {
+    "word": "空",
+    "reading": "から",
+    "romaji": "kara",
+    "meaning": "leer; Leere",
+    "type": "Nomen",
+    "category": "Zustand",
+    "level": "N3",
+    "notes": "空／から bezeichnet einen Zustand ohne Inhalt. Als Nomen kann es mit の stehen: 空の箱 „eine leere Schachtel“; am Satzende heißt es 箱は空だ. Bei einem Geldbeutel bedeutet 空, dass kein Geld darin ist. Weitere Verwendungen als Wortbestandteil lernt man mit der jeweiligen Zusammensetzung. 空／そら heißt „Himmel“ und ist eine andere Lesung.",
+    "examples": [
+      {
+        "japanese": "届いた箱を開けたら、中は空だった。",
+        "romaji": "Todoita hako o aketara, naka wa kara datta.",
+        "german": "Als ich die zugestellte Schachtel öffnete, war sie innen leer."
+      },
+      {
+        "japanese": "財布が空なので、今日は歩いて帰ります。",
+        "romaji": "Saifu ga kara na node, kyō wa aruite kaerimasu.",
+        "german": "Weil mein Geldbeutel leer ist, gehe ich heute zu Fuß nach Hause."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12 original sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97947432",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@97947432",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "一般",
+            "*",
+            "*",
+            "*",
+            "カラ",
+            "空",
+            "空",
+            "カラ",
+            "空",
+            "カラ",
+            "和",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*",
+            "体",
+            "カラ",
+            "カラ",
+            "カラ",
+            "カラ",
+            "2",
+            "C3",
+            "*",
+            "1984902023225856",
+            "7221"
+          ]
+        },
+        "finding": "Personally read original sys.dic@97947432 orth=空, surfacekana20=カラ, pronunciation9=カラ, lemma=空, POS=名詞/普通名詞/一般/*, form=*/*, aType=2. 1245280 independentnoun/adj-no emptiness1 selected; prefixemptyhands2/insincere3 not taught, rare虚notneeded. Actual Shogakukanから emptywallet supports whole role, original97947432カラ2 and complete OJAD4980から2 inspected. Original TANOSN3 sky gloss explicitly belongs toそら, not this actual validから pair; MasterN3 emptiness supports level. Existing183そら/1750くう/殻305 unchanged.",
+        "match": {
+          "word": "空",
+          "reading": "から",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "leer; Leere"
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:kara-empty"
   }
 ];

@@ -261,6 +261,31 @@ All 1,686 current N5 cards have complete reviewed teaching and investigated pitc
 The remaining 105 source references across 75 groups keep N5 active; N4–N1 remain
 pending. This checkpoint does not certify a level.
 
+The thirteenth verified checkpoint adds 19 fully reviewed reading and grammatical-role
+cards and resolves 29 further frozen references. Campaign totals are 1,610 unique
+original entries enriched, 172 additions and 487 frozen references resolved.
+The original sibling card gains a qualified 姉妹 spelling, and 憎い receives complete
+German usage teaching, distinct dislike and admiration contexts and a qualified
+悪い spelling. Both original identities and levels remain intact. New reading cards
+distinguish technical colour, vacant rooms, literary descriptions, proximity,
+empty contents, drinking cups, comparative superiority and bound suffixes.
+Every selected lexical role has its own pitch evidence or an investigated unknown;
+compound accents and another reading's grammatical role are not transferred.
+All 21 full checks pass. A repeated build leaves all eight generated files
+identical; all 15,558 original identities and the four comprehension/audio
+payloads remain intact. No campaign source approval reopens.
+Browser verification covers 26 cards in 104 detail and note states across
+390/1440 widths and both themes, exact current teaching, 26 head searches and
+five qualified spelling searches, refreshed deep links and the historical duplicate
+redirect. Eight representative cards have 32 detail and 32 note screenshots;
+eight varied mobile/desktop screens in both themes were personally inspected.
+Independent expected-form checks verify 弾くはじく as はじきます, はじかない,
+はじいて and はじいた.
+All 1,686 current N5 cards have complete reviewed teaching and investigated pitch.
+The remaining 76 source references across 54 groups keep N5 active; N4–N1 remain
+pending. Ambiguous source scopes remain open for further primary research.
+This checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
