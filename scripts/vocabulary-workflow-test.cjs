@@ -523,7 +523,9 @@ console.log('Source-notation regressions passed: five bounded formats, unrelated
 const multiNotationCases=[
   [{word:'毎年',reading:'まいとし / まいねん'},[{word:'毎年',reading:'まいとし'},{word:'毎年',reading:'まいねん'}],{kind:'alternative-readings',word:'毎年',reading:'まいとし / まいねん'}],
   [{word:'堅/硬/固い',reading:'かたい'},[{word:'堅い',reading:'かたい'},{word:'硬い',reading:'かたい'},{word:'固い',reading:'かたい'}],{kind:'shared-okurigana',word:'堅い/硬い/固い',reading:'かたい'}],
-  [{word:'見る 観る',reading:'みる'},[{word:'見る',reading:'みる'},{word:'観る',reading:'みる'}],{kind:'spaced-spellings',word:'見る/観る',reading:'みる'}]
+  [{word:'見る 観る',reading:'みる'},[{word:'見る',reading:'みる'},{word:'観る',reading:'みる'}],{kind:'spaced-spellings',word:'見る/観る',reading:'みる'}],
+  [{word:'キロ/キログラム',reading:'キロ/キログラム'},[{word:'キロ',reading:'キロ'},{word:'キログラム',reading:'キログラム'}],{kind:'parallel-alternatives',word:'キロ/キログラム',reading:'キロ/キログラム'}],
+  [{word:'十',reading:'じゅう とお'},[{word:'十',reading:'じゅう'},{word:'十',reading:'とお'}],{kind:'spaced-readings',word:'十',reading:'じゅう とお'}]
 ];
 for(const[ref,targets,notation]of multiNotationCases) {
   validateSourceNotationTargets(ref,targets,notation);
@@ -546,6 +548,14 @@ const[spacedRef,spacedTargets,spacedNotation]=multiNotationCases[2];
 for(const word of ['見る観る','見る  観る','見る\t観る','見る　観る','見る 観','見 観る','見る 観た','見る 見る','見る 観る 見る','見る 観る その他'])
   assert.throws(()=>validateSourceNotationTargets({...spacedRef,word},spacedTargets,spacedNotation));
 assert.throws(()=>validateSourceNotationTargets(spacedRef,[{word:'見る',reading:'みる',aliases:['観る']},spacedTargets[1]],spacedNotation),'Overlapping spaced-form coverage accepted');
+const[parallelRef,parallelTargets,parallelNotation]=multiNotationCases[3];
+for(const [word,reading]of [['キロ/キログラム','キログラム/キロ'],['キロ/キログラム','キロ'],['キロ/キログラム','キロ/'],['キロ/','キロ/'],['キロ/キロ','キロ/キロ'],['キロ/きろ','キロ/きろ'],['キロ/キログラム','キロ/グラム'],['キロ/米','キロ/メートル'],['キロ、キログラム','キロ、キログラム'],['キロ/キロ グラム','キロ/キロ グラム']])
+  assert.throws(()=>validateSourceNotationTargets({word,reading},parallelTargets,{...parallelNotation,word,reading}));
+assert.throws(()=>validateSourceNotationTargets(parallelRef,[{word:'キロ',reading:'キロ',aliases:['キログラム']},{word:'キログラム',reading:'キロ'}],parallelNotation),'Crossed parallel target readings accepted');
+validateSourceNotationTargets({word:'キロ ／ キロメートル',reading:'キロ ／ キロメートル'},[{word:'キロメートル',reading:'キロメートル'},{word:'キロ',reading:'キロ'}],{kind:'parallel-alternatives',word:'キロ ／ キロメートル',reading:'キロ ／ キロメートル'});
+const[tenRef,tenTargets,tenNotation]=multiNotationCases[4];
+for(const reading of ['じゅうとお','じゅう  とお','じゅう\tとお','じゅう　とお','じゅう とお ',' じゅう とお','じゅう 十','じゅう ジュウ','じゅう とお じゅう','じゅう/とお'])
+  assert.throws(()=>validateSourceNotationTargets({...tenRef,reading},tenTargets,{...tenNotation,reading}));
 for(const[ref,target,notation]of notationCases) {
   validateSourceNotationTargets(ref,[target],notation);
   assert.throws(()=>validateSourceNotationTargets(ref,[target,{word:'虫',reading:'むし'}],notation),'Legacy single-target format was broadened');

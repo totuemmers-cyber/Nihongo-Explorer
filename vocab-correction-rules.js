@@ -4730,6 +4730,43 @@ window.VOCAB_CORRECTION_RULES = {
           }
         ]
       },
+      "3677": {
+        "notes": "鶏肉 wird hier とりにく gelesen und bezeichnet Hühnerfleisch. とり肉 ist eine gemischte Schreibung mit Hiragana für 鶏, der man beispielsweise in einem vereinfachten Text begegnen kann. 鶏肉のささみ sind die Innenfilets der Hähnchenbrust. 食べるようにしています beschreibt eine bewusst eingehaltene Gewohnheit; できるだけ heißt hier möglichst, nicht eine festgelegte Fleischmenge. Die ebenfalls belegte Lesung けいにく ist nicht die auf dieser Karte geübte Lesung.",
+        "examples": [
+          {
+            "japanese": "できるだけ鶏肉のささみを食べるようにしています。",
+            "romaji": "Dekiru dake toriniku no sasami o taberu yō ni shite imasu.",
+            "german": "Ich versuche, möglichst Hähncheninnenfilet zu essen."
+          },
+          {
+            "japanese": "買い物のメモに「とり肉三百グラム」と書きました。",
+            "romaji": "Kaimono no memo ni \"toriniku sanbyaku guramu\" to kakimashita.",
+            "german": "Ich schrieb „300 Gramm Hühnerfleisch“ auf den Einkaufszettel."
+          }
+        ],
+        "aliases": [
+          "とり肉"
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@190877856",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual original whole surface 鶏肉/トリニク; lemma 鳥肉; 名詞/普通名詞/一般/*; *; *; aType 0. Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+            "match": {
+              "word": "鶏肉",
+              "reading": "とりにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole selected lexical role",
+              "sense": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice."
+            }
+          }
+        ]
+      },
       "3687": {
         "examples": [
           {
@@ -93330,7 +93367,8 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "917": {
-        "notes": "どれ ist ein Fragepronomen und fragt selbstständig nach einer Sache aus mehreren Möglichkeiten. Es steht anstelle des Nomens: どれがあなたの本ですか. Mit どれにする wählt man eine Möglichkeit aus. Direkt vor einem Nomen verwendet man dagegen どの, etwa どの本.",
+        "meaning": "welches; nun, mal sehen (Ausruf)",
+        "notes": "どれ fragt selbstständig nach einer Sache aus mehreren Möglichkeiten: どれがあなたの本ですか. Mit どれにする wählt man etwas aus; direkt vor einem Nomen steht dagegen どの. Als Ausruf kann どれ auch nun oder mal sehen bedeuten und eine Handlung einleiten. 何れ ist für diese Lesung eine seltene Kanji-Schreibung; gewöhnlich steht どれ in Hiragana. 何れ kann außerdem いずれ gelesen werden, eine andere Form.",
         "examples": [
           {
             "japanese": "プレゼントのネクタイ、どれにする？",
@@ -93341,9 +93379,34 @@ window.VOCAB_CORRECTION_RULES = {
             "japanese": "どれがあなたの本ですか。",
             "romaji": "Dore ga anata no hon desu ka.",
             "german": "Welches ist Ihr Buch?"
+          },
+          {
+            "japanese": "どれ、温かいうちにスープをいただこう。",
+            "romaji": "Dore, atatakai uchi ni sūpu o itadakō.",
+            "german": "Nun, dann esse ich die Suppe, solange sie warm ist."
           }
         ],
+        "aliases": [
+          "何れ"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193256825",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual original whole surface どれ/ドレ; lemma どれ; 感動詞/一般/*/*; *; *; aType 1. Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully.",
+            "match": {
+              "word": "どれ",
+              "reading": "どれ",
+              "grammaticalForm": "感動詞/一般/*/*; *; *; whole selected lexical role",
+              "sense": "Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully."
+            }
+          },
           {
             "source": "現代書き言葉UniDic",
             "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
@@ -93352,12 +93415,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Exakte Form どれ/ドレ, 代名詞/*/*/*, */*, aType 1. 1009290/1 standalonewhichofthreeormore pronoun only, interjection2 notselected. Exact UniDicpronoun何れ1, wildcard auxiliaries/取る inflections and interjection rows excluded. Existing Nomen retained app lacksPronomen type.",
+            "finding": "Actual original whole surface どれ/ドレ; lemma 何れ; 代名詞/*/*/*; *; *; aType 1. Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully.",
             "match": {
               "word": "どれ",
               "reading": "どれ",
-              "grammaticalForm": "代名詞/*/*/*; *; *",
-              "sense": "どれ als welches"
+              "grammaticalForm": "代名詞/*/*/*; *; *; whole selected lexical role",
+              "sense": "Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%A9%E3%82%8C#word_12142",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual complete row12142 どれ whole pattern1. Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully.",
+            "match": {
+              "word": "どれ",
+              "reading": "どれ",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1009290 exact何れ/どれ pronoun1 AND interjection2 unrestrictedbothuk selectedbecauseTANOSliteralincludeswell/now/letmesee. Explicitnewactualactioninitiation context notfakequestionmeaning; retainedgiftselection/owneridentification read. Separate actual193257281 canonicalpronoun aType1 and193256825 interjection aType1 bothdirectlyparsed, samewholepatterns legitimatelycoverbothroles; alias193257698 pronoun1, otherイズレ0 excluded; auxiliary/取る rows notused. CompleteOJAD12142どれ1 corroboratespronoun; interjection1 independently verified, never noun-to-interjection contour inference. Germanthird personallyinitiatedmeal renders implicitvolition faithfully."
             }
           }
         ]
@@ -95260,7 +95339,8 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "975": {
-        "notes": "その他 bedeutet „das Übrige“ oder „darüber hinaus“. Dieser Eintrag übt そのほか; besonders in geschriebenen Aufzählungen ist auch そのた üblich. Vor einem Nomen steht の: その他のご質問 „weitere Fragen“. Welche Dinge „übrig“ sind, ergibt sich aus dem vorangehenden Zusammenhang. Die Beispielsätze bleiben bei der geübten Lesung そのほか. Die Kanaform そのほか macht die hier geübte Lesung ausdrücklich sichtbar.",
+        "meaning": "Sonstiges; andere; darüber hinaus",
+        "notes": "その他 bedeutet das Übrige oder darüber hinaus. Dieser Eintrag übt そのほか; besonders in geschriebenen Aufzählungen ist auch そのた üblich. Vor einem Nomen steht の: その他のご質問, weitere Fragen. Als Zusatz kann そのほか auch einen weiteren Punkt einleiten. Die Schreibung その外 ist eine belegte Variante, während そのほか die hier geübte Lesung ausdrücklich sichtbar macht. Was übrig ist oder hinzukommt, ergibt sich aus dem Zusammenhang.",
         "examples": [
           {
             "japanese": "その他のゴミはリサイクルして下さい。",
@@ -95271,10 +95351,16 @@ window.VOCAB_CORRECTION_RULES = {
             "japanese": "「その他のご質問はありますか。」",
             "romaji": "Sonohoka no goshitsumon wa arimasu ka?",
             "german": "Haben Sie sonstige Fragen?"
+          },
+          {
+            "japanese": "店では、パンを売っています。その外、飲み物も買えます。",
+            "romaji": "Mise de wa, pan o utte imasu. Sonohoka, nomimono mo kaemasu.",
+            "german": "Im Laden wird Brot verkauft. Außerdem kann man dort Getränke kaufen."
           }
         ],
         "aliases": [
-          "そのほか"
+          "そのほか",
+          "その外"
         ],
         "pitch": null,
         "pitchVariants": [],
@@ -95352,7 +95438,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "978": {
-        "notes": "それ heißt „das“ für etwas beim Gesprächspartner oder etwas, das gerade im Gespräch genannt wurde. Es steht selbstständig; vor einem Nomen braucht man dagegen その. それはいくらですか fragt nach dem Preis dieses Gegenstands. 面白そう beschreibt einen Eindruck, nicht bereits eine bewiesene Eigenschaft. Die hier geübte Form ist ein Zeigewort, kein gleich klingender Ausruf oder eine Verbform.",
+        "notes": "それ heißt das für etwas beim Gesprächspartner oder etwas, das gerade im Gespräch genannt wurde. Es steht selbstständig; vor einem Nomen braucht man dagegen その. それはいくらですか fragt nach dem Preis dieses Gegenstands. 面白そう beschreibt einen Eindruck. 其れ ist eine seltene Kanji-Schreibung derselben Form; üblich ist それ in Hiragana. Die Beispiele üben das Zeigewort, keinen Ausruf und keine Verbform.",
         "examples": [
           {
             "japanese": "それ、おもしろそうだね！",
@@ -95365,6 +95451,10 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Wie viel kostet das?"
           }
         ],
+        "aliases": [
+          "其れ"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -95374,12 +95464,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@157479164: それ/ソレ, lemma 其れ, 代名詞/*/*/*; *; *; aType 0. Demonstrative1006970pronoun1 actualUniDic157479164代名詞其れ0 excludesinterjection1574752541 andallverbforms. SupportedcoarseNomentypekepttruepronounbehaviornoted. Omoshirosō da separatedlong, Germaninterestbroadsensefaithful. Whole-form scope reviewed.",
+            "finding": "Actual original whole surface それ/ソレ; lemma 其れ; 代名詞/*/*/*; *; *; aType 0. Original1006970 pronoun1 uk exact其れ rK withlistener/action/mentalreferentnote supports qualifiedrarevariant; time2/archaicthere3/you4 notclaimed. Original157479164 canonical and157482516 alias exactソレ pronoun aType0; interjection157475254 aType1 andallverbforms excluded. WholeOJAD12123それ0 actualread, 剃る/反る2 notborrowed. Retainedspontaneousimpression versus pricequestion fullaccurateJapanese/German/Hepburn distinct, uncommonorthographyregisterhonest.",
             "match": {
               "word": "それ",
               "reading": "それ",
-              "grammaticalForm": "代名詞/*/*/*; *; *",
-              "sense": "Exact それ/それ, JMdict 1006970, senses 1: that, it. Spelling, reading and restrictions inspected. Demonstrative1006970pronoun1 actualUniDic157479164代名詞其れ0 excludesinterjection1574752541 andallverbforms. SupportedcoarseNomentypekepttruepronounbehaviornoted. Omoshirosō da separatedlong, Germaninterestbroadsensefaithful. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+              "grammaticalForm": "代名詞/*/*/*; *; *; whole selected lexical role",
+              "sense": "Original1006970 pronoun1 uk exact其れ rK withlistener/action/mentalreferentnote supports qualifiedrarevariant; time2/archaicthere3/you4 notclaimed. Original157479164 canonical and157482516 alias exactソレ pronoun aType0; interjection157475254 aType1 andallverbforms excluded. WholeOJAD12123それ0 actualread, 剃る/反る2 notborrowed. Retainedspontaneousimpression versus pricequestion fullaccurateJapanese/German/Hepburn distinct, uncommonorthographyregisterhonest."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%9D%E3%82%8C#word_12123",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual complete row12123 それ whole pattern0. Original1006970 pronoun1 uk exact其れ rK withlistener/action/mentalreferentnote supports qualifiedrarevariant; time2/archaicthere3/you4 notclaimed. Original157479164 canonical and157482516 alias exactソレ pronoun aType0; interjection157475254 aType1 andallverbforms excluded. WholeOJAD12123それ0 actualread, 剃る/反る2 notborrowed. Retainedspontaneousimpression versus pricequestion fullaccurateJapanese/German/Hepburn distinct, uncommonorthographyregisterhonest.",
+            "match": {
+              "word": "それ",
+              "reading": "それ",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1006970 pronoun1 uk exact其れ rK withlistener/action/mentalreferentnote supports qualifiedrarevariant; time2/archaicthere3/you4 notclaimed. Original157479164 canonical and157482516 alias exactソレ pronoun aType0; interjection157475254 aType1 andallverbforms excluded. WholeOJAD12123それ0 actualread, 剃る/反る2 notborrowed. Retainedspontaneousimpression versus pricequestion fullaccurateJapanese/German/Hepburn distinct, uncommonorthographyregisterhonest."
             }
           }
         ]
@@ -97804,7 +97910,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1052": {
-        "notes": "どの fragt vor einem Nomen, welches aus einer Auswahl gemeint ist: どの子, どの本. Man verbindet es ohne な mit dem Nomen. Wenn das Nomen fehlt, fragt man mit どれ. どの本が欲しいですか richtet sich nach dem gewünschten Buch, nicht nur nach dessen Namen.",
+        "notes": "どの fragt direkt vor einem Nomen, welches aus einer Auswahl gemeint ist: どの子, どの本. Man verbindet es ohne な mit dem Nomen. Fehlt das Nomen, fragt man mit どれ. どの本が欲しいですか fragt nach dem gewünschten Buch. 何の ist eine seltene Kanji-Schreibung für どの; im Alltag ist die Hiraganaschreibung üblich. Dieselben Schriftzeichen können in anderen Wendungen なんの heißen, doch diese Karte übt ausdrücklich どの.",
         "examples": [
           {
             "japanese": "どの子がマリアちゃん？",
@@ -97817,6 +97923,10 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Welches Buch möchten Sie?"
           }
         ],
+        "aliases": [
+          "何の"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -97826,18 +97936,18 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Exakte Form どの/ドノ, 連体詞/*/*/*, */*, aType 1. 1920240/1 interrogative rentaishi which only; polite suffix殿1442500 excluded. Exact連体詞何の1, suffixpitchwildcardnotselected. Personidentification differs from desiredbookchoice; -chan affectionateJapanese nameaddress preservedinHepburn.",
+            "finding": "Actual original whole surface どの/ドノ; lemma 何の; 連体詞/*/*/*; *; *; aType 1. Original1920240 interrogativerentaishi1 uk and何の rK exactどの, not何のなんの1308750 lexicalexpression orpolitesuffix殿1442500. Exact193002450 canonical and193002728 aliasドノ連体詞 aType1; suffix193002867 wildcardexcluded. Complete OJAD何の search returnsなん/なに compounds only, notmatchingreading, no falselexicalswitch. Bothretainedperson/book questions naturallydistinct, allHepburn/German read, nounfollowing grammarclear.",
             "match": {
               "word": "どの",
               "reading": "どの",
-              "grammaticalForm": "連体詞/*/*/*; *; *",
-              "sense": "どの als welcher"
+              "grammaticalForm": "連体詞/*/*/*; *; *; whole selected lexical role",
+              "sense": "Original1920240 interrogativerentaishi1 uk and何の rK exactどの, not何のなんの1308750 lexicalexpression orpolitesuffix殿1442500. Exact193002450 canonical and193002728 aliasドノ連体詞 aType1; suffix193002867 wildcardexcluded. Complete OJAD何の search returnsなん/なに compounds only, notmatchingreading, no falselexicalswitch. Bothretainedperson/book questions naturallydistinct, allHepburn/German read, nounfollowing grammarclear."
             }
           }
         ]
       },
       "1053": {
-        "notes": "ない verneint das Vorhandensein einer Sache: お金がない, 時間がない. Was fehlt, steht mit が. Es verhält sich hier wie ein i-Adjektiv: ないです ist höflicher, なかった beschreibt das Fehlen in der Vergangenheit. Die höfliche Form ありません ist ebenfalls möglich. Es verneint hier keine Handlung wie ein direkt ans Verb angehängtes ない.",
+        "notes": "ない verneint hier das Vorhandensein einer Sache: お金がない, 時間がない. Was fehlt, steht mit が. Es verhält sich als i-Adjektiv: ないです ist höflicher, なかった beschreibt das Fehlen in der Vergangenheit. ありません ist ebenfalls möglich. 無い ist die Kanji-Schreibung für dieses fehlende Vorhandensein; Hiragana ist sehr üblich. Das direkt ans Verb angeschlossene ない, etwa in 行かない, ist eine Hilfsform und wird gewöhnlich ohne Kanji geschrieben.",
         "examples": [
           {
             "japanese": "お金がぜんぜんない。",
@@ -97850,6 +97960,10 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Heute habe ich keine Zeit."
           }
         ],
+        "aliases": [
+          "無い"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -97859,12 +97973,44 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "Exakte Form ない/ナイ, 形容詞/非自立可能/*/*, 形容詞/終止形-一般, aType 1. 1529520/1 nonexistent and2 unowned/notpossessed explicitly selected for money/timeabsence, notdead1518450 or verbnegativesuffix2257550. Exact current形容詞無いterminal1 selected; auxiliarywildcard/homonymousverbforms rejected. Exhaustivemoneyabsence differs from todaytimeavailability.",
+            "finding": "Actual original whole surface ない/ナイ; lemma 無い; 形容詞/非自立可能/*/*; 形容詞; 終止形-一般; aType 1. Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear.",
             "match": {
               "word": "ない",
               "reading": "ない",
-              "grammaticalForm": "形容詞/非自立可能/*/*; 形容詞; 終止形-一般",
-              "sense": "ない als nicht vorhanden"
+              "grammaticalForm": "形容詞/非自立可能/*/*; 形容詞; 終止形-一般; whole selected lexical role",
+              "sense": "Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193500639",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual original whole surface ない/ナイ; lemma 無い; 形容詞/非自立可能/*/*; 形容詞; 連体形-一般; aType 1. Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear.",
+            "match": {
+              "word": "ない",
+              "reading": "ない",
+              "grammaticalForm": "形容詞/非自立可能/*/*; 形容詞; 連体形-一般; whole selected lexical role",
+              "sense": "Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%AA%E3%81%84#word_2958",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual complete row2958 ない whole pattern1. Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear.",
+            "match": {
+              "word": "ない",
+              "reading": "ない",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1529520 independentadjectiveexistence1/unowned2 selected, notunique3/extendedexperience4/auxiliarystates5/6, no grammaticalverbclaimfrompublisherFrenchroughgloss. Exact193494030/193500639 canonical and193496919/193503135 alias modernterminal/attributive形容詞無い aType1; boundauxiliary193472522/193475467/alias193477281 wildcard rejected, classicalandverbhomographs excluded. CompletewholeOJAD2958ない1 corroborates, notあるverbrow66. Bothretainedmoney/time examples fullJapanese/German/Hepburn read, specificnounabsencegrammar and kanjivsbounduse distinction clear."
             }
           }
         ]
@@ -104748,7 +104894,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1266": {
-        "notes": "そこ bezeichnet einen Ort in der Nähe des Gegenübers oder einen gerade erwähnten Ort. Es kann selbst mit einer Orts-Partikel verbunden werden: そこで nennt den Ort einer Handlung, そこに bei 座る die Stelle, an der man sich hinsetzt. Für einen Ort weit von beiden Gesprächspartnern entfernt verwendet man häufig あそこ. Gemeint ist hier das Ortszeigwort, nicht 底, „Boden“.",
+        "notes": "そこ bezeichnet einen Ort in der Nähe des Gegenübers oder einen gerade erwähnten Ort. そこで nennt den Ort einer Handlung; そこに bei 座る die Stelle, an der man sich hinsetzt. Für einen Ort weit von beiden Gesprächspartnern entfernt verwendet man häufig あそこ. 其処 ist eine seltene Kanji-Schreibung; im Alltag schreibt man gewöhnlich そこ. Gemeint ist das Ortszeigwort, nicht 底, Boden.",
         "examples": [
           {
             "japanese": "そこで先生に会ったよ。",
@@ -104761,6 +104907,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Bitte setzen Sie sich dorthin."
           }
         ],
+        "aliases": [
+          "其処"
+        ],
         "pitchVariants": [],
         "pitchProvenance": [
           {
@@ -104771,12 +104920,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@155715669: そこ/ソコ; lemma其処; 代名詞/*/*/*; *; *; aType0. 1006670 demonstrativeplace1/mentionedplace2 selected, incident3/archaicyou4 nottaught. Actual155715669代名詞lemma其処0 selected, noun底155717252 excluded despite0. RuntimeNomen broadclassifier retained but note explainsactuallocativepronoun; soko de separated.",
+            "finding": "Actual original whole surface そこ/ソコ; lemma 其処; 代名詞/*/*/*; *; *; aType 0. Original1006670 pronounplace1/mentionedplace2 uk and其処 rK supports qualified rarealias. Exact155715669 canonicallemma其処 and155716817 actual其処 pronoun aType0; canonicalnoun底155717252 excluded despite0. ActualwholeOJAD12120そこ0 agrees, separate底8081 notlexicallyborrowed. Retainedmeetreport andseatingdirective distinctfullcontexts everyGerman/Hepburn accurate, no archaicyou4 orincident3 claim.",
             "match": {
               "word": "そこ",
               "reading": "そこ",
-              "grammaticalForm": "代名詞/*/*/*; *; *",
-              "sense": "Exact そこ/そこ, rawJMdict1006670, senses1,2: there (place relatively near listener); there (place just mentioned), that place. Spelling/reading/restrictions inspected. 1006670 demonstrativeplace1/mentionedplace2 selected, incident3/archaicyou4 nottaught. Actual155715669代名詞lemma其処0 selected, noun底155717252 excluded despite0. RuntimeNomen broadclassifier retained but note explainsactuallocativepronoun; soko de separated."
+              "grammaticalForm": "代名詞/*/*/*; *; *; whole selected lexical role",
+              "sense": "Original1006670 pronounplace1/mentionedplace2 uk and其処 rK supports qualified rarealias. Exact155715669 canonicallemma其処 and155716817 actual其処 pronoun aType0; canonicalnoun底155717252 excluded despite0. ActualwholeOJAD12120そこ0 agrees, separate底8081 notlexicallyborrowed. Retainedmeetreport andseatingdirective distinctfullcontexts everyGerman/Hepburn accurate, no archaicyou4 orincident3 claim."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%9D%E3%81%93#word_12120",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual complete row12120 そこ whole pattern0. Original1006670 pronounplace1/mentionedplace2 uk and其処 rK supports qualified rarealias. Exact155715669 canonicallemma其処 and155716817 actual其処 pronoun aType0; canonicalnoun底155717252 excluded despite0. ActualwholeOJAD12120そこ0 agrees, separate底8081 notlexicallyborrowed. Retainedmeetreport andseatingdirective distinctfullcontexts everyGerman/Hepburn accurate, no archaicyou4 orincident3 claim.",
+            "match": {
+              "word": "そこ",
+              "reading": "そこ",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1006670 pronounplace1/mentionedplace2 uk and其処 rK supports qualified rarealias. Exact155715669 canonicallemma其処 and155716817 actual其処 pronoun aType0; canonicalnoun底155717252 excluded despite0. ActualwholeOJAD12120そこ0 agrees, separate底8081 notlexicallyborrowed. Retainedmeetreport andseatingdirective distinctfullcontexts everyGerman/Hepburn accurate, no archaicyou4 orincident3 claim."
             }
           }
         ]
@@ -104809,7 +104974,7 @@ window.VOCAB_CORRECTION_RULES = {
       "1268": {
         "meaning": "Kilogramm; Kilometer (kurz: Kilo)",
         "type": "Nomen",
-        "notes": "キロ ist hier die Kurzform für キログラム oder キロメートル. Das Thema entscheidet, ob Gewicht oder Strecke gemeint ist: やせる bezieht sich auf das Körpergewicht, 走る auf eine zurückgelegte Entfernung. Zahl plus キロ nennt die Menge. Die Beispiele verwenden das Einheitenwort als Nomen, nicht eine Satzpartikel oder die abstrakte Vorsilbe für „tausend“.",
+        "notes": "キロ ist die Kurzform für キログラム oder キロメートル. Das Thema entscheidet, ob Gewicht oder Strecke gemeint ist: やせる bezieht sich auf das Körpergewicht, 走る auf die zurückgelegte Entfernung. Eine Zahl vor キロ nennt die Menge. Wenn der Zusammenhang beides zulässt, ist die volle Bezeichnung eindeutiger. In anderen Zusammensetzungen kann キロ auch die Vorsilbe für tausend sein; die beiden Beispiele üben die Einheiten als Nomen.",
         "examples": [
           {
             "japanese": "一ヶ月で五キロやせました。",
@@ -104822,6 +104987,7 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich bin fünf Kilometer gerannt."
           }
         ],
+        "aliases": [],
         "pitchVariants": [],
         "pitchProvenance": [
           {
@@ -104832,12 +104998,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "sys.dic@108580415: キロ/キロ; lemmaキロ-kilo; 名詞/普通名詞/助数詞可能/*; *; *; aType1. 1042610 kilogramabbreviation2/km3 selected, abstractprefix1/binary4 excluded. Actual108580415 counter-capablenoun1, formerPartikel→Nomen reflects selectedsenses. 一ヶ月ikkagetsu notichikagetsu, countspacing go kiro, distinctweight/length dimensions; no weightlossrecommendation.",
+            "finding": "Actual original whole surface キロ/キロ; lemma キロ-kilo; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 1. Personally read original1042610: exactキロ/キロ noun abbreviation senses2 kilogram and3 kilometre; prefix1000 sense1 and computing1024 sense4 deliberately unselected. Two distinct retained weight-loss and running contexts accurately teach the two actual noun roles. Original common-noun unit row108580415 aType1 and fullOJAD5449 pattern1 match; no prefix contour inferred.",
             "match": {
               "word": "キロ",
               "reading": "キロ",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact キロ/キロ, rawJMdict1042610, senses2,3: kilogram, kilogramme; kilometre, kilometer. Spelling/reading/restrictions inspected. 1042610 kilogramabbreviation2/km3 selected, abstractprefix1/binary4 excluded. Actual108580415 counter-capablenoun1, formerPartikel→Nomen reflects selectedsenses. 一ヶ月ikkagetsu notichikagetsu, countspacing go kiro, distinctweight/length dimensions; no weightlossrecommendation."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Personally read original1042610: exactキロ/キロ noun abbreviation senses2 kilogram and3 kilometre; prefix1000 sense1 and computing1024 sense4 deliberately unselected. Two distinct retained weight-loss and running contexts accurately teach the two actual noun roles. Original common-noun unit row108580415 aType1 and fullOJAD5449 pattern1 match; no prefix contour inferred."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%82%AD%E3%83%AD#word_5449",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 5449 きろ; pattern 1. Personally read original1042610: exactキロ/キロ noun abbreviation senses2 kilogram and3 kilometre; prefix1000 sense1 and computing1024 sense4 deliberately unselected. Two distinct retained weight-loss and running contexts accurately teach the two actual noun roles. Original common-noun unit row108580415 aType1 and fullOJAD5449 pattern1 match; no prefix contour inferred.",
+            "match": {
+              "word": "キロ",
+              "reading": "キロ",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Personally read original1042610: exactキロ/キロ noun abbreviation senses2 kilogram and3 kilometre; prefix1000 sense1 and computing1024 sense4 deliberately unselected. Two distinct retained weight-loss and running contexts accurately teach the two actual noun roles. Original common-noun unit row108580415 aType1 and fullOJAD5449 pattern1 match; no prefix contour inferred."
             }
           }
         ]
@@ -107151,7 +107333,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1336": {
         "meaning": "Zigarette; Tabak",
-        "notes": "タバコ bezeichnet Tabak bzw. eine Zigarette. タバコのにおい beschreibt den wahrgenommenen Geruch. タバコを吸う heißt, zu rauchen; 吸わないでください bittet darum, es nicht zu tun. Häufig schreibt man das Wort in Kana. Alle Vokale in タバコ sind kurz.",
+        "notes": "タバコ bezeichnet Tabak bzw. eine Zigarette. タバコのにおい beschreibt den wahrgenommenen Geruch. タバコを吸う heißt, zu rauchen; 吸わないでください bittet darum, es nicht zu tun. Häufig schreibt man das Wort in Kana. Alle Vokale in タバコ sind kurz. 煙草（たばこ） ist eine Kanji-Schreibung desselben Wortes; häufig verwendet man タバコ oder たばこ. Die Zeichen werden als ganzes Wort たばこ gelesen.",
         "examples": [
           {
             "japanese": "あ、タバコのにおいがする。",
@@ -107163,6 +107345,9 @@ window.VOCAB_CORRECTION_RULES = {
             "romaji": "Koko de tabako o suwanaide kudasai.",
             "german": "Bitte rauchen Sie hier keine Zigaretten."
           }
+        ],
+        "aliases": [
+          "煙草"
         ],
         "pitchProvenance": [
           {
@@ -110980,7 +111165,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1445": {
         "romaji": "pēji",
-        "notes": "ページ bezeichnet eine Buchseite und wird zugleich nach Zahlen als Zähleinheit verwendet. Bei 十ページを開く meint die Zahl die Seite, die aufgeschlagen werden soll; 五ページ読む nennt die Anzahl gelesener Seiten. Das Verb hilft also, Seitenzahl und Seitenmenge auseinanderzuhalten. Bei der Aussprache von zehn ist auch die verkürzte Form じゅっページ gebräuchlich.",
+        "notes": "ページ bezeichnet eine Buchseite und steht auch nach einer Zahl. 十ページを開く nennt die Seite, die aufgeschlagen werden soll; 五ページ読む die Anzahl gelesener Seiten. Das Verb hilft, Seitenzahl und Seitenmenge zu unterscheiden. Die Kanji-Schreibung 頁 wird in dieser Verwendung ebenfalls ページ gelesen; du findest sie etwa in Büchern und Verzeichnissen. Bei zehn ist neben じっページ auch じゅっページ gebräuchlich.",
         "examples": [
           {
             "kind": "teaching",
@@ -110995,6 +111180,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich lese jeden Tag fünf Seiten."
           }
         ],
+        "aliases": [
+          "頁"
+        ],
         "pitch": 0,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111006,18 +111194,37 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@242520799: ページ/ページ; lemmaページ-page; 名詞/普通名詞/助数詞可能/*; *; *; aType0. 1120410 commonpage/counter1 andnthpage2 both selected. Whole242520799page0, person2425191431 rejected. Existingjuppēji valid geminated numeral beforep retained, go pēji amount distinctordinal.",
+            "finding": "Actual original whole surface ページ/ページ; lemma ページ-page; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 0. Original1120410 noun/counter page1 and noun-used-as-suffix nthpage2 explicitly selected, unrestricted頁/ページ exactreading. Source頁 is not rK; merelyuk favorskana. Retained actual十ページ request and五ページ daily amount teach both roles; reviewed Juppēji as actualじゅっvariant, note alsoじっ not a fabricated numbered accent. Canonicalpage commonnoun242520799/alias頁242521466 aType0, proper-namePage242519143 aType1 and radical頁/オオガイ73958189 excluded. FullOJAD10654 flat0 bare lexicalpage only; numbered compounds not assigned this contour.",
             "match": {
               "word": "ページ",
               "reading": "ページ",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact ページ/ページ, rawJMdict1120410, senses1,2: page; nth page, page .... Spelling/reading/restrictions inspected. 1120410 commonpage/counter1 andnthpage2 both selected. Whole242520799page0, person2425191431 rejected. Existingjuppēji valid geminated numeral beforep retained, go pēji amount distinctordinal."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1120410 noun/counter page1 and noun-used-as-suffix nthpage2 explicitly selected, unrestricted頁/ページ exactreading. Source頁 is not rK; merelyuk favorskana. Retained actual十ページ request and五ページ daily amount teach both roles; reviewed Juppēji as actualじゅっvariant, note alsoじっ not a fabricated numbered accent. Canonicalpage commonnoun242520799/alias頁242521466 aType0, proper-namePage242519143 aType1 and radical頁/オオガイ73958189 excluded. FullOJAD10654 flat0 bare lexicalpage only; numbered compounds not assigned this contour."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%83%9A%E3%83%BC%E3%82%B8#word_10654",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 10654 ぺーじ; pattern 0. Original1120410 noun/counter page1 and noun-used-as-suffix nthpage2 explicitly selected, unrestricted頁/ページ exactreading. Source頁 is not rK; merelyuk favorskana. Retained actual十ページ request and五ページ daily amount teach both roles; reviewed Juppēji as actualじゅっvariant, note alsoじっ not a fabricated numbered accent. Canonicalpage commonnoun242520799/alias頁242521466 aType0, proper-namePage242519143 aType1 and radical頁/オオガイ73958189 excluded. FullOJAD10654 flat0 bare lexicalpage only; numbered compounds not assigned this contour.",
+            "match": {
+              "word": "ページ",
+              "reading": "ページ",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1120410 noun/counter page1 and noun-used-as-suffix nthpage2 explicitly selected, unrestricted頁/ページ exactreading. Source頁 is not rK; merelyuk favorskana. Retained actual十ページ request and五ページ daily amount teach both roles; reviewed Juppēji as actualじゅっvariant, note alsoじっ not a fabricated numbered accent. Canonicalpage commonnoun242520799/alias頁242521466 aType0, proper-namePage242519143 aType1 and radical頁/オオガイ73958189 excluded. FullOJAD10654 flat0 bare lexicalpage only; numbered compounds not assigned this contour."
             }
           }
         ]
       },
       "1446": {
-        "notes": "ボタン kann einen Kleidungsknopf oder eine Taste an einem Gerät bezeichnen. Eine Taste wird mit ボタンを押す gedrückt. Bei einem abgegangenen Kleidungsknopf heißt es ボタンが取れる: が nennt den Knopf, der sich gelöst hat. Die gleich klingende Pflanzenbezeichnung 牡丹 gehört zu einem anderen Wort.",
+        "notes": "ボタン kann einen Kleidungsknopf oder eine Taste an einem Gerät bezeichnen. Mit ボタンを押す drückt man eine Taste; ボタンが取れる beschreibt einen Knopf, der sich gelöst hat. Die seltene Kanji-Schreibung 釦 wird in beiden Bedeutungen ボタン gelesen. Im Alltag ist die Katakanaform üblich. Die gleich klingende Pflanzenbezeichnung 牡丹 ist ein anderes Wort.",
+        "aliases": [
+          "釦"
+        ],
         "pitch": 0,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111029,12 +111236,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@246254019: ボタン/ボタン; lemmaボタン-button; 名詞/普通名詞/一般/*; *; *; aType0. 1123880 clothing1/pushbutton2; actualbutton2462540190 excludesadverb2 andpeony1. 押すtransitivebuttonobject; 取れるintransitive detachedbutton subject, not取る.",
+            "finding": "Actual original whole surface ボタン/ボタン; lemma ボタン-button; 名詞/普通名詞/一般/*; cType *; cForm *; aType 0. Original1123880 clothingbutton1 and pushbutton2 exactボタン; rare ateji釦 rK, unrestrictedreading andno stagk for either sense, so alias is not artificially clothing-only. Actual distinct device pressing and detached shirtbutton retained/read. Canonicalbutton246254019/alias釦246254820 aType0 and completeOJAD10776 flat0. Peony牡丹/ボタン1182880 and row246256060 aType1 excluded, unrelatedadverb246253475 aType2 excluded.",
             "match": {
               "word": "ボタン",
               "reading": "ボタン",
-              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Exact ボタン/ボタン, rawJMdict1123880, senses1,2: button (clothing); push-button, button. Spelling/reading/restrictions inspected. 1123880 clothing1/pushbutton2; actualbutton2462540190 excludesadverb2 andpeony1. 押すtransitivebuttonobject; 取れるintransitive detachedbutton subject, not取る."
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1123880 clothingbutton1 and pushbutton2 exactボタン; rare ateji釦 rK, unrestrictedreading andno stagk for either sense, so alias is not artificially clothing-only. Actual distinct device pressing and detached shirtbutton retained/read. Canonicalbutton246254019/alias釦246254820 aType0 and completeOJAD10776 flat0. Peony牡丹/ボタン1182880 and row246256060 aType1 excluded, unrelatedadverb246253475 aType2 excluded."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%83%9C%E3%82%BF%E3%83%B3#word_10776",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 10776 ぼたん; pattern 0. Original1123880 clothingbutton1 and pushbutton2 exactボタン; rare ateji釦 rK, unrestrictedreading andno stagk for either sense, so alias is not artificially clothing-only. Actual distinct device pressing and detached shirtbutton retained/read. Canonicalbutton246254019/alias釦246254820 aType0 and completeOJAD10776 flat0. Peony牡丹/ボタン1182880 and row246256060 aType1 excluded, unrelatedadverb246253475 aType2 excluded.",
+            "match": {
+              "word": "ボタン",
+              "reading": "ボタン",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1123880 clothingbutton1 and pushbutton2 exactボタン; rare ateji釦 rK, unrestrictedreading andno stagk for either sense, so alias is not artificially clothing-only. Actual distinct device pressing and detached shirtbutton retained/read. Canonicalbutton246254019/alias釦246254820 aType0 and completeOJAD10776 flat0. Peony牡丹/ボタン1182880 and row246256060 aType1 excluded, unrelatedadverb246253475 aType2 excluded."
             }
           }
         ]
@@ -111372,7 +111595,8 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1459": {
         "romaji": "mētoru",
-        "notes": "メートル ist die Längeneinheit Meter und folgt auf eine Zahl. 幅が三メートルあります beschreibt die Breite eines Raums. 百メートル先 dagegen gibt eine Entfernung nach vorn an; 先 gehört zur Ortsangabe, nicht zur Maßeinheit. Die lange Silbe メー bleibt auch hinter einer Zahl erhalten.",
+        "meaning": "Meter (Längeneinheit)",
+        "notes": "Dieser Eintrag übt メートル als Längeneinheit. Das Wort folgt auf eine Zahl: 幅が三メートルあります beschreibt eine Breite, 百メートル先 eine Entfernung nach vorn. Die seltene Kanji-Schreibung 米 wird in dieser Bedeutung メートル gelesen und ist vom Reiswort 米（こめ） zu unterscheiden. Üblich sind メートル oder das Zeichen m. Die Nebenbedeutung als Messgerät wird gesondert geübt; dafür ist heute meist メーター gebräuchlich.",
         "examples": [
           {
             "kind": "teaching",
@@ -111387,6 +111611,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Hundert Meter weiter liegt ein Bahnhof."
           }
         ],
+        "aliases": [
+          "米"
+        ],
         "pitch": 0,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111398,19 +111625,36 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@262077900: メートル/メートル; lemmaメートル-metre; 名詞/普通名詞/助数詞可能/*; *; *; aType0. 1132570 metreunit1, gauge2notselected; actual262077900metre0 excludesmaitre2620765521. Dimension vsroute distance retaineddistinct, no numberedcompoundaccentinference.",
+            "finding": "Actual original whole surface メートル/メートル; lemma メートル-metre; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 0. Original1132570 lengthunit sense1 selected alone, Frenchmètre origin; device sense2 kept in separately accepted senseKey measuring-device. Canonical and rare ateji/rK米 readings unrestricted, no stagk/stagr limits. Original exactcanonical262077900 and alias262078130 metre-noun unit aType0 retained; maitre homograph262076552 aType1 rejected, device contour not transferred. ActualOJAD11261 flat0 supports unit. All two retained width/location contexts read, explicit length-unit senseKey prevents runtime merge with technicaldevice card.",
             "match": {
               "word": "メートル",
               "reading": "メートル",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact メートル/メートル, rawJMdict1132570, senses1: metre (unit of length), meter. Spelling/reading/restrictions inspected. 1132570 metreunit1, gauge2notselected; actual262077900metre0 excludesmaitre2620765521. Dimension vsroute distance retaineddistinct, no numberedcompoundaccentinference."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1132570 lengthunit sense1 selected alone, Frenchmètre origin; device sense2 kept in separately accepted senseKey measuring-device. Canonical and rare ateji/rK米 readings unrestricted, no stagk/stagr limits. Original exactcanonical262077900 and alias262078130 metre-noun unit aType0 retained; maitre homograph262076552 aType1 rejected, device contour not transferred. ActualOJAD11261 flat0 supports unit. All two retained width/location contexts read, explicit length-unit senseKey prevents runtime merge with technicaldevice card."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB#word_11261",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 11261 めーとる; pattern 0. Original1132570 lengthunit sense1 selected alone, Frenchmètre origin; device sense2 kept in separately accepted senseKey measuring-device. Canonical and rare ateji/rK米 readings unrestricted, no stagk/stagr limits. Original exactcanonical262077900 and alias262078130 metre-noun unit aType0 retained; maitre homograph262076552 aType1 rejected, device contour not transferred. ActualOJAD11261 flat0 supports unit. All two retained width/location contexts read, explicit length-unit senseKey prevents runtime merge with technicaldevice card.",
+            "match": {
+              "word": "メートル",
+              "reading": "メートル",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1132570 lengthunit sense1 selected alone, Frenchmètre origin; device sense2 kept in separately accepted senseKey measuring-device. Canonical and rare ateji/rK米 readings unrestricted, no stagk/stagr limits. Original exactcanonical262077900 and alias262078130 metre-noun unit aType0 retained; maitre homograph262076552 aType1 rejected, device contour not transferred. ActualOJAD11261 flat0 supports unit. All two retained width/location contexts read, explicit length-unit senseKey prevents runtime merge with technicaldevice card."
             }
           }
-        ]
+        ],
+        "senseKey": "length-unit"
       },
       "1460": {
         "romaji": "kiromētoru",
-        "notes": "キロメートル wird für längere Entfernungen und zurückgelegte Strecken verwendet. 学校まで二キロメートルあります nennt die Entfernung bis zur Schule; 五キロメートル歩く die Strecke, die man geht. Im Gespräch kann キロ genügen, wenn aus dem Zusammenhang klar ist, dass eine Entfernung gemeint ist.",
+        "notes": "キロメートル bezeichnet längere Entfernungen und zurückgelegte Strecken. 学校まで二キロメートルあります nennt die Entfernung bis zur Schule; 五キロメートル歩く die Strecke, die man geht. Im Gespräch kann キロ genügen, wenn eine Entfernung gemeint ist. Die seltene Kanji-Schreibung 粁 hat dieselbe Lesung; üblich sind die Katakanaform und das Zeichen km.",
         "examples": [
           {
             "kind": "teaching",
@@ -111425,6 +111669,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Heute bin ich fünf Kilometer gegangen."
           }
         ],
+        "aliases": [
+          "粁"
+        ],
         "pitch": 3,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111436,18 +111683,34 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "sys.dic@108594220: キロメートル/キロメートル; lemmaキロメートル-kilometre; 名詞/普通名詞/助数詞可能/*; *; *; aType3. 1042650kilometre1 actualwhole1085942203, no kilo/metreconstituentinference. までdestinationvsdistancebarequantityobjectdistinct; school/todaymacronscorrected.",
+            "finding": "Actual original whole surface キロメートル/キロメートル; lemma キロメートル-kilometre; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 3. Original1042650 sole noun kilometre1; canonicalキロメートル and rareKanji粁 share unrestricted exactreading, uk kana and rK粁 inspected. Distance-to-school versus walked journey retained and read, no changes to good examples. Original canonical108594220/alias108595372 eachaType3; fullOJAD5452 pattern3. Search-onlyalternateキロメーター and キロ米 not silently aliased; no compound/number contour claims.",
             "match": {
               "word": "キロメートル",
               "reading": "キロメートル",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact キロメートル/キロメートル, rawJMdict1042650, senses1: kilometer, kilometre. Spelling/reading/restrictions inspected. 1042650kilometre1 actualwhole1085942203, no kilo/metreconstituentinference. までdestinationvsdistancebarequantityobjectdistinct; school/todaymacronscorrected."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1042650 sole noun kilometre1; canonicalキロメートル and rareKanji粁 share unrestricted exactreading, uk kana and rK粁 inspected. Distance-to-school versus walked journey retained and read, no changes to good examples. Original canonical108594220/alias108595372 eachaType3; fullOJAD5452 pattern3. Search-onlyalternateキロメーター and キロ米 not silently aliased; no compound/number contour claims."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%82%AD%E3%83%AD%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB#word_5452",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 5452 きろめーとる; pattern 3. Original1042650 sole noun kilometre1; canonicalキロメートル and rareKanji粁 share unrestricted exactreading, uk kana and rK粁 inspected. Distance-to-school versus walked journey retained and read, no changes to good examples. Original canonical108594220/alias108595372 eachaType3; fullOJAD5452 pattern3. Search-onlyalternateキロメーター and キロ米 not silently aliased; no compound/number contour claims.",
+            "match": {
+              "word": "キロメートル",
+              "reading": "キロメートル",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1042650 sole noun kilometre1; canonicalキロメートル and rareKanji粁 share unrestricted exactreading, uk kana and rK粁 inspected. Distance-to-school versus walked journey retained and read, no changes to good examples. Original canonical108594220/alias108595372 eachaType3; fullOJAD5452 pattern3. Search-onlyalternateキロメーター and キロ米 not silently aliased; no compound/number contour claims."
             }
           }
         ]
       },
       "1461": {
-        "notes": "キログラム folgt auf eine Zahl und gibt das Gewicht an. Bei この荷物は十キログラムです wird das Gewicht eines Gepäckstücks beschrieben. 米を二キログラム買う nennt dagegen die beim Kauf abgemessene Menge. Die Kurzform キロ kann sowohl Kilogramm als auch Kilometer meinen; beim Einkauf oder Wiegen entscheidet der Zusammenhang.",
+        "notes": "キログラム folgt auf eine Zahl und gibt das Gewicht an. この荷物は十キログラムです beschreibt das Gewicht eines Gepäckstücks; 米を二キログラム買う die beim Kauf abgemessene Menge. Die Kurzform キロ genügt, wenn der Zusammenhang klar ist. Die seltene Kanji-Schreibung 瓩 wird ebenfalls キログラム gelesen; im Alltag begegnet dir meist die Katakanaform oder das Zeichen kg.",
         "examples": [
           {
             "kind": "teaching",
@@ -111462,6 +111725,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich habe zwei Kilogramm Reis gekauft."
           }
         ],
+        "aliases": [
+          "瓩"
+        ],
         "pitch": 3,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111473,18 +111739,34 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "sys.dic@108585154: キログラム/キログラム; lemmaキログラム-kilogramme; 名詞/普通名詞/助数詞可能/*; *; *; aType3. 1042620kilogram1 actualwhole1085851543 retainednotprefixaccent. Weightpredicate vs purchasedquantity distinct. jū correctlongnumeral10.",
+            "finding": "Actual original whole surface キログラム/キログラム; lemma キログラム-kilogramme; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 3. Original1042620 sole noun kilogram1, canonical kana and rareKanji瓩 unrestricted exactキログラム reading; source uk favors kana, rK flags rare瓩. Retained luggage weight versus purchasedrice quantity are genuinely distinct roles and all strings read. Canonicalrow108585154 and aliasrow108585684 aType3; fullOJAD5451 pattern3. No number-plus-unit contour inferred.",
             "match": {
               "word": "キログラム",
               "reading": "キログラム",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact キログラム/キログラム, rawJMdict1042620, senses1: kilogram, kilogramme. Spelling/reading/restrictions inspected. 1042620kilogram1 actualwhole1085851543 retainednotprefixaccent. Weightpredicate vs purchasedquantity distinct. jū correctlongnumeral10."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1042620 sole noun kilogram1, canonical kana and rareKanji瓩 unrestricted exactキログラム reading; source uk favors kana, rK flags rare瓩. Retained luggage weight versus purchasedrice quantity are genuinely distinct roles and all strings read. Canonicalrow108585154 and aliasrow108585684 aType3; fullOJAD5451 pattern3. No number-plus-unit contour inferred."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%82%AD%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0#word_5451",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 5451 きろぐらむ; pattern 3. Original1042620 sole noun kilogram1, canonical kana and rareKanji瓩 unrestricted exactキログラム reading; source uk favors kana, rK flags rare瓩. Retained luggage weight versus purchasedrice quantity are genuinely distinct roles and all strings read. Canonicalrow108585154 and aliasrow108585684 aType3; fullOJAD5451 pattern3. No number-plus-unit contour inferred.",
+            "match": {
+              "word": "キログラム",
+              "reading": "キログラム",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1042620 sole noun kilogram1, canonical kana and rareKanji瓩 unrestricted exactキログラム reading; source uk favors kana, rK flags rare瓩. Retained luggage weight versus purchasedrice quantity are genuinely distinct roles and all strings read. Canonicalrow108585154 and aliasrow108585684 aType3; fullOJAD5451 pattern3. No number-plus-unit contour inferred."
             }
           }
         ]
       },
       "1462": {
-        "notes": "グラム dient beim Einkaufen und Kochen zur Angabe kleinerer Gewichtsmengen. 肉を二百グラムください ist eine Bestellung mit einer bestimmten Menge. 砂糖を五十グラム入れる nennt die Menge einer Zutat, die hinzugegeben wird. Das Nomen für die Ware oder Zutat und die Gewichtsmenge können dabei getrennt im Satz stehen.",
+        "notes": "グラム gibt beim Einkaufen und Kochen kleinere Gewichtsmengen an. 肉を二百グラムください bestellt eine bestimmte Menge; 砂糖を五十グラム入れる nennt die Menge einer Zutat. Die seltene Kanji-Schreibung 瓦 kann ebenfalls グラム bedeuten. Sie gehört hier zum Einheitenwort und ist vom gewöhnlichen Wort 瓦（かわら）, Dachziegel, zu unterscheiden. In Rezepten und auf Verpackungen sind グラム oder g üblich.",
         "examples": [
           {
             "kind": "teaching",
@@ -111499,6 +111781,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich gebe fünfzig Gramm Zucker hinzu."
           }
         ],
+        "aliases": [
+          "瓦"
+        ],
         "pitch": 1,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111510,18 +111795,37 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               1
             ],
-            "finding": "sys.dic@116487096: グラム/グラム; lemmaグラム; 名詞/普通名詞/助数詞可能/*; *; *; aType1. 1046810gram1 actual116487096countercapable1 notproperpersonGram1164874721. Purchaseorderquantity vsrecipeingredientaction distinct. satō/gojū corrected.",
+            "finding": "Actual original whole surface グラム/グラム; lemma グラム; 名詞/普通名詞/助数詞可能/*; cType *; cForm *; aType 1. Original1046810 solegram1 with rare瓦 rK and kana-usual uk, exactreadingグラム unrestricted; unrelated roof-tile瓦/かわら1209580 excluded. Canonical common-unitrow116487096 aType1 and actualOJAD5565 pattern1. Gram surname116487472 not selected; alias瓦 scan onlyroof-tile rows99786826/99787003 readingmismatch, no nonexistent alias accent claimed. Retained buying versus ingredient-measuring scenes actually read.",
             "match": {
               "word": "グラム",
               "reading": "グラム",
-              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
-              "sense": "Exact グラム/グラム, rawJMdict1046810, senses1: gram, gramme. Spelling/reading/restrictions inspected. 1046810gram1 actual116487096countercapable1 notproperpersonGram1164874721. Purchaseorderquantity vsrecipeingredientaction distinct. satō/gojū corrected."
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1046810 solegram1 with rare瓦 rK and kana-usual uk, exactreadingグラム unrestricted; unrelated roof-tile瓦/かわら1209580 excluded. Canonical common-unitrow116487096 aType1 and actualOJAD5565 pattern1. Gram surname116487472 not selected; alias瓦 scan onlyroof-tile rows99786826/99787003 readingmismatch, no nonexistent alias accent claimed. Retained buying versus ingredient-measuring scenes actually read."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%82%B0%E3%83%A9%E3%83%A0#word_5565",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 5565 ぐらむ; pattern 1. Original1046810 solegram1 with rare瓦 rK and kana-usual uk, exactreadingグラム unrestricted; unrelated roof-tile瓦/かわら1209580 excluded. Canonical common-unitrow116487096 aType1 and actualOJAD5565 pattern1. Gram surname116487472 not selected; alias瓦 scan onlyroof-tile rows99786826/99787003 readingmismatch, no nonexistent alias accent claimed. Retained buying versus ingredient-measuring scenes actually read.",
+            "match": {
+              "word": "グラム",
+              "reading": "グラム",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1046810 solegram1 with rare瓦 rK and kana-usual uk, exactreadingグラム unrestricted; unrelated roof-tile瓦/かわら1209580 excluded. Canonical common-unitrow116487096 aType1 and actualOJAD5565 pattern1. Gram surname116487472 not selected; alias瓦 scan onlyroof-tile rows99786826/99787003 readingmismatch, no nonexistent alias accent claimed. Retained buying versus ingredient-measuring scenes actually read."
             }
           }
         ]
       },
       "1463": {
-        "notes": "ワイシャツ bezeichnet ein Oberhemd, wie es etwa zur Arbeit oder zu einem Anzug getragen wird. Dafür verwendet man 着る; in 着て行く kommt hinzu, dass man damit an einen Ort geht. ワイシャツにアイロンを掛ける heißt das Hemd bügeln. Neben der Katakanaform ist auch Ｙシャツ belegt; die Bezeichnung legt keine bestimmte Hemdfarbe fest.",
+        "notes": "ワイシャツ bezeichnet ein Oberhemd, wie es etwa zur Arbeit oder zu einem Anzug getragen wird. Dafür verwendet man 着る; 着て行く beschreibt zusätzlich das Gehen in dieser Kleidung. ワイシャツにアイロンを掛ける heißt das Hemd bügeln. Auch die Schreibung Ｙシャツ wird ワイシャツ gelesen. Obwohl der Ausdruck auf englisch white shirt zurückgeht, kann das Hemd eine andere Farbe haben.",
+        "aliases": [
+          "Ｙシャツ"
+        ],
         "pitch": 0,
         "pitchVariants": [],
         "pitchProvenance": [
@@ -111533,12 +111837,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               0
             ],
-            "finding": "sys.dic@280827753: ワイシャツ/ワイシャツ; lemmaワイシャツ; 名詞/普通名詞/一般/*; *; *; aType0. 1148640formalshirt1 rawspellingＹシャツ attested/whole2808277530. Wearandgotojobvsironmaintenance retained distinct. Neithercolorrestriction norwhiteuniversalclaim; exactfullshirt0.",
+            "finding": "Actual original whole surface ワイシャツ/ワイシャツ; lemma ワイシャツ; 名詞/普通名詞/一般/*; cType *; cForm *; aType 0. Original1148640 soleformal/business/button-up shirt1, kanausualuk and literalfullwidthＹシャツ ateji originalspelling; exactワイシャツ reading unrestricted, no adjectivewhite restriction oncurrent meaning. Retained work-clothing and ironing contexts bothread, allHepburn/German faithful. Originalwholeワイシャツ280827753 aType0 and completeOJAD11910 flat0; fullwidthalias lacksnumeric row, no made-up letterpronunciation.",
             "match": {
               "word": "ワイシャツ",
               "reading": "ワイシャツ",
-              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "Exact ワイシャツ/ワイシャツ, rawJMdict1148640, senses1: (formal) shirt, dress shirt, business shirt, button-up shirt. Spelling/reading/restrictions inspected. 1148640formalshirt1 rawspellingＹシャツ attested/whole2808277530. Wearandgotojobvsironmaintenance retained distinct. Neithercolorrestriction norwhiteuniversalclaim; exactfullshirt0."
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1148640 soleformal/business/button-up shirt1, kanausualuk and literalfullwidthＹシャツ ateji originalspelling; exactワイシャツ reading unrestricted, no adjectivewhite restriction oncurrent meaning. Retained work-clothing and ironing contexts bothread, allHepburn/German faithful. Originalwholeワイシャツ280827753 aType0 and completeOJAD11910 flat0; fullwidthalias lacksnumeric row, no made-up letterpronunciation."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%83%AF%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%84#word_11910",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 11910 わいしゃつ; pattern 0. Original1148640 soleformal/business/button-up shirt1, kanausualuk and literalfullwidthＹシャツ ateji originalspelling; exactワイシャツ reading unrestricted, no adjectivewhite restriction oncurrent meaning. Retained work-clothing and ironing contexts bothread, allHepburn/German faithful. Originalwholeワイシャツ280827753 aType0 and completeOJAD11910 flat0; fullwidthalias lacksnumeric row, no made-up letterpronunciation.",
+            "match": {
+              "word": "ワイシャツ",
+              "reading": "ワイシャツ",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1148640 soleformal/business/button-up shirt1, kanausualuk and literalfullwidthＹシャツ ateji originalspelling; exactワイシャツ reading unrestricted, no adjectivewhite restriction oncurrent meaning. Retained work-clothing and ironing contexts bothread, allHepburn/German faithful. Originalwholeワイシャツ280827753 aType0 and completeOJAD11910 flat0; fullwidthalias lacksnumeric row, no made-up letterpronunciation."
             }
           }
         ]
@@ -115327,6 +115647,1014 @@ window.VOCAB_CORRECTION_RULES = {
         "pitchVariants": [],
         "pitchProvenance": [],
         "senseKey": "language-bound-suffix"
+      },
+      "1558": {
+        "word": "嗚呼",
+        "reading": "ああ",
+        "romaji": "ā",
+        "meaning": "ach!; ah!; oh! (Ausruf)",
+        "type": "Ausdruck",
+        "category": "Gefühle",
+        "level": "N5",
+        "notes": "ああ drückt als Ausruf ein Gefühl aus, etwa Enttäuschung oder Erleichterung. Der Ton und der folgende Satz zeigen, was gemeint ist. 嗚呼 ist eine seltene, eher literarische Schreibung; im Alltag schreibt man meist ああ. Nach dem Ausruf folgt oft eine kurze Pause. Diese Verwendung ist von ああ für auf jene Weise zu unterscheiden; sie ersetzt keine höfliche Antwort auf eine Frage.",
+        "examples": [
+          {
+            "japanese": "ああ、楽しみにしていた試合が中止になってしまった。",
+            "romaji": "Ā, tanoshimi ni shite ita shiai ga chūshi ni natte shimatta.",
+            "german": "Ach, das Spiel, auf das ich mich gefreut hatte, wurde abgesagt."
+          },
+          {
+            "japanese": "ああ、無事に帰ってきてくれてよかった。",
+            "romaji": "Ā, buji ni kaette kite kurete yokatta.",
+            "german": "Ah, wie schön, dass du wohlbehalten zurückgekommen bist."
+          }
+        ],
+        "aliases": [
+          "ああ"
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39497883",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual original whole surface 嗚呼/アア; lemma ああ; 感動詞/一般/*/*; *; *; aType 1. Original1565440 exact嗚呼/ああ emotionalinterjection1 ah/oh/alas, 嗚呼 sK occasionalwrittennote. Otheryes2/exasperated3/hey4/uhhuh5 notclaimed. Existingvocab-n4:correction:aa is mannerdemonstrative別rawnotcompatible; actualwhole39497883 嗚呼 and39493650 ああ感動詞 aType1 supportemotionalword, while39492315 adverb1,0 and75553323オコnoun1 excluded. Newstableemotive-interjection senseKey preventsrolemerge; originalcanonicalhead嗚呼 withkanaaliasallphoneticsame, literalsourceheadcovered. Distinct disappointment/relief properordinaryregister scenes withfullGerman/Hepburn read.",
+            "match": {
+              "word": "嗚呼",
+              "reading": "ああ",
+              "grammaticalForm": "感動詞/一般/*/*; *; *; whole selected lexical role",
+              "sense": "Original1565440 exact嗚呼/ああ emotionalinterjection1 ah/oh/alas, 嗚呼 sK occasionalwrittennote. Otheryes2/exasperated3/hey4/uhhuh5 notclaimed. Existingvocab-n4:correction:aa is mannerdemonstrative別rawnotcompatible; actualwhole39497883 嗚呼 and39493650 ああ感動詞 aType1 supportemotionalword, while39492315 adverb1,0 and75553323オコnoun1 excluded. Newstableemotive-interjection senseKey preventsrolemerge; originalcanonicalhead嗚呼 withkanaaliasallphoneticsame, literalsourceheadcovered. Distinct disappointment/relief properordinaryregister scenes withfullGerman/Hepburn read."
+            }
+          }
+        ],
+        "senseKey": "emotive-interjection"
+      },
+      "1559": {
+        "word": "週間",
+        "reading": "しゅうかん",
+        "romaji": "shūkan",
+        "meaning": "Woche als Zeitspanne",
+        "type": "Nomen",
+        "category": "Zeit und Dauer",
+        "level": "N5",
+        "notes": "週間 nennt eine Dauer von Wochen und folgt einer Zahl: 一週間（いっしゅうかん）, 二週間（にしゅうかん）. Es bezeichnet eine Zeitspanne, während 週 auch eine bestimmte Kalenderwoche bezeichnen kann. 一週間以内 bedeutet „innerhalb einer Woche“. Das gleich gelesene 習慣 bedeutet „Gewohnheit“.",
+        "examples": [
+          {
+            "japanese": "日本に三週間いました。",
+            "romaji": "Nihon ni sanshūkan imashita.",
+            "german": "Ich war drei Wochen in Japan."
+          },
+          {
+            "japanese": "この宿題は二週間以内に出してください。",
+            "romaji": "Kono shukudai wa nishūkan inai ni dashite kudasai.",
+            "german": "Geben Sie diese Hausaufgabe bitte innerhalb von zwei Wochen ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139842880",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@139842880",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "シュウカン",
+                "週間",
+                "週間",
+                "シューカン",
+                "週間",
+                "シューカン",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "B1S8SjS",
+                "体",
+                "シュウカン",
+                "シュウカン",
+                "シュウカン",
+                "シュウカン",
+                "0",
+                "C2",
+                "*",
+                "4418670977753600",
+                "16075"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 週間/シュウカン, pronunciation シューカン, role 名詞/普通名詞/助数詞可能/*, aType 0. Actual1333500 sole week-duration noun. Unrelated習慣/収監 homophones excluded. Exact139842880週間/シュウカン ordinary counter-capable noun0; whole duration-unit citation, no 一週間 or numeral compound contour transfer. Actual source frozen MasterN5 plus TANOS/SenseiN3; editorial N5 basic weeks-duration scope.",
+            "match": {
+              "word": "週間",
+              "reading": "しゅうかん",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected week-duration role",
+              "sense": "Woche als Zeitspanne"
+            }
+          }
+        ],
+        "senseKey": "week-duration"
+      },
+      "1560": {
+        "word": "台",
+        "reading": "だい",
+        "romaji": "dai",
+        "meaning": "Unterlage; Gestell; Plattform",
+        "type": "Nomen",
+        "category": "Gegenstände und Haushalt",
+        "level": "N5",
+        "notes": "台 bezeichnet hier eine Unterlage oder Plattform, auf der etwas steht oder auf die man etwas stellt. Mit 台の上に nennt man einen Platz auf dieser Unterlage. In 作業台 bezeichnet es beispielsweise eine Arbeitsfläche. Dieselbe Schreibung kann auch als Zählwort für Geräte und Fahrzeuge dienen; das ist eine andere Verwendung.",
+        "examples": [
+          {
+            "japanese": "この台の上に箱を置いてください。",
+            "romaji": "Kono dai no ue ni hako o oite kudasai.",
+            "german": "Stellen Sie die Kiste bitte auf diese Unterlage."
+          },
+          {
+            "japanese": "この台は低いので、上の棚に手が届きません。",
+            "romaji": "Kono dai wa hikui node, ue no tana ni te ga todokimasen.",
+            "german": "Diese Plattform ist zu niedrig, deshalb komme ich nicht an das obere Regal."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166713785",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@166713785",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "ダイ",
+                "台",
+                "台",
+                "ダイ",
+                "台",
+                "ダイ",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "B,B4WB7G9G",
+                "体",
+                "ダイ",
+                "ダイ",
+                "ダイ",
+                "ダイ",
+                "1",
+                "C3",
+                "*",
+                "6302684151947776",
+                "22929"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 台/ダイ, pronunciation ダイ, role 名詞/普通名詞/助数詞可能/*, aType 1. Actual1412560/1 physical base/stand/platform selected, not vehicle counter4 or numeric-range5. Note explicitly distinguishes counter use rather than teaching that role as a free base. Actual166713785 ordinary counter-capable noun台/ダイ1; rejected surname166712389 despite same spelling/accent. Whole OJAD8145だい1 corroborates. Global代 fee and題 title are separate lexemes.",
+            "match": {
+              "word": "台",
+              "reading": "だい",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected physical-stand role",
+              "sense": "Unterlage; Gestell; Plattform"
+            }
+          }
+        ],
+        "senseKey": "physical-stand"
+      },
+      "1561": {
+        "word": "日",
+        "reading": "にち",
+        "romaji": "nichi",
+        "meaning": "Sonntag (Kalenderabkürzung)",
+        "type": "Nomen",
+        "category": "Kalender und Wochentage",
+        "level": "N5",
+        "notes": "日 steht in Kalendern und Öffnungszeiten als Kurzform für 日曜日, Sonntag. Diese Abkürzung begegnet zusammen mit den anderen Wochentagen, etwa 土・日 für Samstag und Sonntag. Die Lesung にち gehört hier zur Wochentagsbezeichnung; das Wort 日 für „Tag“ oder „Sonne“ wird in anderen Zusammenhängen ひ gelesen.",
+        "examples": [
+          {
+            "japanese": "この予定表では、「日」は日曜日を表しています。",
+            "romaji": "Kono yoteihyō de wa, \"nichi\" wa nichiyōbi o arawashite imasu.",
+            "german": "In diesem Terminplan steht „日“ für Sonntag."
+          },
+          {
+            "japanese": "営業時間の欄に「日：休み」と書いてあります。",
+            "romaji": "Eigyō jikan no ran ni \"nichi: yasumi\" to kaite arimasu.",
+            "german": "Bei den Öffnungszeiten steht „Sonntag: geschlossen“."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202062742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@202062742",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "ニチ",
+                "日",
+                "日",
+                "ニチ",
+                "日",
+                "ニチ",
+                "漢",
+                "*",
+                "*",
+                "チ促",
+                "基本形",
+                "*",
+                "B4WB,B4WB9G",
+                "体",
+                "ニチ",
+                "ニチ",
+                "ニチ",
+                "ニチ",
+                "1",
+                "C3",
+                "*",
+                "7799669233164800",
+                "28375"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 日/ニチ, pronunciation ニチ, role 名詞/普通名詞/助数詞可能/*, aType 1. Actual2083100/1 free nominal abbreviation of日曜 Sunday selected; distinct counter2/3 receives separate N3 card/senseKey. Current globalひ day/sun preserved. Original exact202062742日/ニチ ordinary counter-capable noun1 and complete OJAD9443にち1; other OJAD9989ひ0 excluded, no reading transfer. Sunday context explicitly written calendar abbreviation and voiced citationにち, not false general sun reading. Frozen MasterN5 Sunday literal supports N5 placement.",
+            "match": {
+              "word": "日",
+              "reading": "にち",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected sunday-abbreviation role",
+              "sense": "Sonntag (Kalenderabkürzung)"
+            }
+          }
+        ],
+        "senseKey": "sunday-abbreviation"
+      },
+      "1562": {
+        "word": "側",
+        "reading": "がわ",
+        "romaji": "gawa",
+        "meaning": "Seite; Partei oder Beteiligtenseite",
+        "type": "Nomen",
+        "category": "Ort und Beteiligte",
+        "level": "N5",
+        "notes": "側 wird hier がわ gelesen und bezeichnet eine Seite. Nach anderen Wörtern entstehen etwa 右側（みぎがわ）, rechte Seite, und 店の側, die Seite des Geschäfts als beteiligte Partei. どちら側 fragt „auf welcher Seite?“. Die Lesung そば desselben Kanjis bedeutet dagegen „Nähe“ oder „neben“.",
+        "examples": [
+          {
+            "japanese": "道の右側を歩いてください。",
+            "romaji": "Michi no migigawa o aruite kudasai.",
+            "german": "Gehen Sie bitte auf der rechten Straßenseite."
+          },
+          {
+            "japanese": "店の側と客の側で、意見が違いました。",
+            "romaji": "Mise no gawa to kyaku no gawa de, iken ga chigaimashita.",
+            "german": "Die Geschäftsseite und die Kundenseite waren unterschiedlicher Meinung."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101749623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@101749623",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "一般",
+                "*",
+                "*",
+                "*",
+                "ガワ",
+                "側",
+                "側",
+                "ガワ",
+                "側",
+                "ガワ",
+                "和",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "体",
+                "ガワ",
+                "ガワ",
+                "ガワ",
+                "ガワ",
+                "0",
+                "C4",
+                "*",
+                "2248784780337664",
+                "8181"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 側/ガワ, pronunciation ガワ, role 名詞/普通名詞/一般/*, aType 0. Actual1581310/1 physical side and participant side noun/suffix selected, watch-case2 excluded. Exact101749623 ordinarynoun側/ガワ0 whole selected head, not global側/そば closeness or OJAD8116そば1. Actual same pronunciationがわ distinguished from alternativeかわ reading, no compound右側 accent inference.",
+            "match": {
+              "word": "側",
+              "reading": "がわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; exact lexical citation in selected side-party role",
+              "sense": "Seite; Partei oder Beteiligtenseite"
+            }
+          }
+        ],
+        "senseKey": "side-party"
+      },
+      "1563": {
+        "word": "御",
+        "reading": "ご",
+        "romaji": "go",
+        "meaning": "höfliche oder ehrerbietige Vorsilbe",
+        "type": "Nomen",
+        "category": "Höflichkeit und Wortbildung",
+        "level": "N5",
+        "notes": "御 wird in dieser Verwendung ご gelesen und meist in Kana geschrieben. Die Vorsilbe macht ein Wort höflicher oder drückt Achtung aus: ご住所, ご家族, ご連絡. Sie steht häufig vor Wörtern chinesischen Ursprungs; man kann sie aber nicht beliebig jedem Nomen hinzufügen. In ご連絡ありがとうございます gilt der Dank der Nachricht der anderen Person. お ist eine verwandte Vorsilbe mit anderen üblichen Verbindungen.",
+        "examples": [
+          {
+            "japanese": "ご住所とお名前を書いてください。",
+            "romaji": "Gojūsho to onamae o kaite kudasai.",
+            "german": "Schreiben Sie bitte Ihre Adresse und Ihren Namen auf."
+          },
+          {
+            "japanese": "ご連絡ありがとうございます。",
+            "romaji": "Gorenraku arigatō gozaimasu.",
+            "german": "Vielen Dank für Ihre Nachricht."
+          }
+        ],
+        "aliases": [
+          "ご"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "honorific-prefix"
+      },
+      "1564": {
+        "word": "人",
+        "reading": "じん",
+        "romaji": "jin",
+        "meaning": "Nachsilbe für Herkunft oder ein Tätigkeitsgebiet",
+        "type": "Nomen",
+        "category": "Menschen und Wortbildung",
+        "level": "N5",
+        "notes": "人 wird als diese Nachsilbe じん gelesen. Nach einem Ländernamen nennt es die Herkunft oder Nationalität: ドイツ人, 日本人. Auch ein Tätigkeitsbereich kann davorstehen: 芸能人 bezeichnet jemanden aus der Unterhaltungsbranche. Es ist hier kein frei stehendes Wort für „Mensch“; dafür verwendet man 人（ひと）. Beim Zählen von Personen lautet die Grundlesung にん.",
+        "examples": [
+          {
+            "japanese": "私はドイツ人です。",
+            "romaji": "Watashi wa Doitsujin desu.",
+            "german": "Ich bin Deutscher beziehungsweise Deutsche."
+          },
+          {
+            "japanese": "あの芸能人は歌も演技も上手です。",
+            "romaji": "Ano geinōjin wa uta mo engi mo jōzu desu.",
+            "german": "Jener Star ist sowohl im Singen als auch im Schauspielern gut."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "nationality-occupation-suffix"
+      },
+      "1565": {
+        "word": "匹",
+        "reading": "ひき",
+        "romaji": "hiki",
+        "meaning": "Zählwort für kleine Tiere",
+        "type": "Nomen",
+        "category": "Zählwörter und Tiere",
+        "level": "N5",
+        "notes": "匹 zählt hier kleinere Tiere, beispielsweise Katzen, Hunde oder Fische. Nach einer Zahl verändert sich der Anfangslaut oft: 一匹（いっぴき）, 二匹（にひき）, 三匹（さんびき）, 六匹（ろっぴき）. Die Verbindung nennt die Anzahl; 猫が三匹います bedeutet, dass drei Katzen da sind. Für Menschen verwendet man 人.",
+        "examples": [
+          {
+            "japanese": "庭に猫が三匹います。",
+            "romaji": "Niwa ni neko ga sanbiki imasu.",
+            "german": "Im Garten sind drei Katzen."
+          },
+          {
+            "japanese": "魚を二匹買いました。",
+            "romaji": "Sakana o nihiki kaimashita.",
+            "german": "Ich habe zwei Fische gekauft."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "small-animal-counter"
+      },
+      "1566": {
+        "word": "枚",
+        "reading": "まい",
+        "romaji": "mai",
+        "meaning": "Zählwort für dünne, flache Gegenstände",
+        "type": "Nomen",
+        "category": "Zählwörter und Gegenstände",
+        "level": "N5",
+        "notes": "枚 zählt dünne, flache Gegenstände, etwa Papierblätter, Teller oder Fahrkarten. Die Zahl steht davor: 一枚（いちまい）, 三枚（さんまい）. Der Anfangslaut von まい bleibt dabei unverändert. 紙を二枚ください bestellt zwei Blätter Papier; 切符が二枚あります beschreibt zwei vorhandene Fahrkarten.",
+        "examples": [
+          {
+            "japanese": "紙を三枚ください。",
+            "romaji": "Kami o sanmai kudasai.",
+            "german": "Geben Sie mir bitte drei Blätter Papier."
+          },
+          {
+            "japanese": "切符は二枚買いましたが、友達が一人来られなくなりました。",
+            "romaji": "Kippu wa nimai kaimashita ga, tomodachi ga hitori korarenaku narimashita.",
+            "german": "Ich habe zwei Fahrkarten gekauft, aber ein Freund kann nun doch nicht kommen."
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "flat-object-counter"
+      },
+      "1567": {
+        "word": "乍ら",
+        "reading": "ながら",
+        "romaji": "nagara",
+        "meaning": "während; gleichzeitig mit einer anderen Handlung",
+        "type": "Partikel",
+        "category": "Grammatik und Gleichzeitigkeit",
+        "level": "N5",
+        "notes": "In dieser Verwendung schreibt man gewöhnlich ながら. Es folgt dem Stamm vor ます: 聞きます → 聞きながら. Es verbindet zwei Handlungen derselben Person, die gleichzeitig stattfinden. Die Handlung am Satzende ist meist die Hauptaussage: 音楽を聞きながら勉強する bedeutet, dass man beim Lernen Musik hört. Andere Bedeutungen, etwa „obwohl“, hängen von der Verbindung ab.",
+        "examples": [
+          {
+            "japanese": "音楽を聞きながら料理をします。",
+            "romaji": "Ongaku o kikinagara ryōri o shimasu.",
+            "german": "Ich höre beim Kochen Musik."
+          },
+          {
+            "japanese": "父は新聞を読みながら朝ご飯を食べています。",
+            "romaji": "Chichi wa shinbun o yominagara asagohan o tabete imasu.",
+            "german": "Mein Vater liest Zeitung, während er frühstückt."
+          }
+        ],
+        "aliases": [
+          "ながら"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "simultaneous-action-particle"
+      },
+      "1568": {
+        "word": "か月",
+        "reading": "かげつ",
+        "romaji": "kagetsu",
+        "meaning": "Zählwort für eine Anzahl von Monaten",
+        "type": "Nomen",
+        "category": "Zählwörter und Dauer",
+        "level": "N5",
+        "notes": "か月 zählt eine Dauer oder Anzahl von Monaten; es nennt keinen Monat des Jahres. Es steht nach einer Zahl und erscheint auch als ヶ月, カ月 oder 箇月. Häufige Formen sind 一か月（いっかげつ）, 三か月（さんかげつ） und 六か月（ろっかげつ）. 三月（さんがつ） bedeutet dagegen März. Bei einer Dauer kann 間 folgen: 三か月間.",
+        "examples": [
+          {
+            "japanese": "日本語を三か月勉強しました。",
+            "romaji": "Nihongo o sankagetsu benkyō shimashita.",
+            "german": "Ich habe drei Monate Japanisch gelernt."
+          },
+          {
+            "japanese": "この券は買った日から一か月間使えます。",
+            "romaji": "Kono ken wa katta hi kara ikkagetsukan tsukaemasu.",
+            "german": "Diese Karte kann man vom Kauftag an einen Monat lang benutzen."
+          }
+        ],
+        "aliases": [
+          "ヶ月",
+          "ヵ月",
+          "カ月",
+          "箇月"
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92477286",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@92477286",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "カゲツ",
+                "箇月",
+                "か月",
+                "カゲツ",
+                "か月",
+                "カゲツ",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "B1S6SjShS,B1S6S8SjShS",
+                "体",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "1",
+                "C1",
+                "*",
+                "1734488216445440",
+                "6310"
+              ]
+            },
+            "finding": "Actually inspected original whole surface か月/カゲツ, pronunciation カゲツ, role 名詞/普通名詞/助数詞可能/*, aType 1. Coarse app type Nomen for selected month unit; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1194480 sole months counter, unrestricted compatible alternative spellings; unlike calendar月/がつ from111. Exact matched ordinary counter-capable rowsか月92477286/ヶ月92478102/箇月92478714 allカゲツ1, bare unit citation only. Whole二か月前 OJADcompound not used for bare accent. いっかげつ/さんかげつ/ろっかげつ and duration間 reviewed.",
+            "match": {
+              "word": "か月",
+              "reading": "かげつ",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected month-duration-counter role",
+              "sense": "Zählwort für eine Anzahl von Monaten"
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92478102",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@92478102",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "カゲツ",
+                "箇月",
+                "ヶ月",
+                "カゲツ",
+                "ヶ月",
+                "カゲツ",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "B1S6SjShS,B1S6S8SjShS",
+                "体",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "1",
+                "C1",
+                "*",
+                "1734488350663168",
+                "6310"
+              ]
+            },
+            "finding": "Actually inspected original whole surface ヶ月/カゲツ, pronunciation カゲツ, role 名詞/普通名詞/助数詞可能/*, aType 1. Coarse app type Nomen for selected month unit; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1194480 sole months counter, unrestricted compatible alternative spellings; unlike calendar月/がつ from111. Exact matched ordinary counter-capable rowsか月92477286/ヶ月92478102/箇月92478714 allカゲツ1, bare unit citation only. Whole二か月前 OJADcompound not used for bare accent. いっかげつ/さんかげつ/ろっかげつ and duration間 reviewed.",
+            "match": {
+              "word": "か月",
+              "reading": "かげつ",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected month-duration-counter role",
+              "sense": "Zählwort für eine Anzahl von Monaten"
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92478714",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@92478714",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "カゲツ",
+                "箇月",
+                "箇月",
+                "カゲツ",
+                "箇月",
+                "カゲツ",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "B1S6SjShS,B1S6S8SjShS",
+                "体",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "カゲツ",
+                "1",
+                "C1",
+                "*",
+                "1734488384217600",
+                "6310"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 箇月/カゲツ, pronunciation カゲツ, role 名詞/普通名詞/助数詞可能/*, aType 1. Coarse app type Nomen for selected month unit; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1194480 sole months counter, unrestricted compatible alternative spellings; unlike calendar月/がつ from111. Exact matched ordinary counter-capable rowsか月92477286/ヶ月92478102/箇月92478714 allカゲツ1, bare unit citation only. Whole二か月前 OJADcompound not used for bare accent. いっかげつ/さんかげつ/ろっかげつ and duration間 reviewed.",
+            "match": {
+              "word": "か月",
+              "reading": "かげつ",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected month-duration-counter role",
+              "sense": "Zählwort für eine Anzahl von Monaten"
+            }
+          }
+        ],
+        "senseKey": "month-duration-counter"
+      },
+      "1569": {
+        "word": "か",
+        "reading": "か",
+        "romaji": "ka",
+        "meaning": "Fragepartikel am Satzende",
+        "type": "Partikel",
+        "category": "Grammatik und Fragen",
+        "level": "N5",
+        "notes": "か kennzeichnet hier am Satzende eine Frage: 行きますか. In höflichen Fragen folgt es häufig auf です oder ます. Es verändert das Verb nicht und braucht im japanischen Satz kein Fragezeichen. In ungezwungener Sprache kann auch allein eine steigende Intonation eine Frage anzeigen. Ein knappes か nach einer einfachen Verbform kann je nach Situation deutlich direkter wirken als eine höfliche Frage.",
+        "examples": [
+          {
+            "japanese": "この席は空いていますか。",
+            "romaji": "Kono seki wa aite imasu ka.",
+            "german": "Ist dieser Platz frei?"
+          },
+          {
+            "japanese": "明日は何時に来ますか。",
+            "romaji": "Ashita wa nanji ni kimasu ka.",
+            "german": "Um wie viel Uhr kommen Sie morgen?"
+          }
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "sentence-question-particle"
+      },
+      "1570": {
+        "word": "どうも有難うございます",
+        "reading": "どうもありがとうございます",
+        "romaji": "dōmo arigatō gozaimasu",
+        "meaning": "Vielen herzlichen Dank (höflich)",
+        "type": "Ausdruck",
+        "category": "Dank und höfliche Formeln",
+        "level": "N5",
+        "notes": "どうもありがとうございます ist eine höfliche vollständige Dankesformel. どうも verstärkt den Dank gegenüber ありがとうございます. In Briefen und Nachrichten sowie im Gespräch ist die Kana-Schreibung üblich; 有難う wird ebenfalls ありがとう gelesen. Mit einem vorangestellten Anlass wird der Dank konkret: ご招待どうもありがとうございます. Für etwas bereits Abgeschlossenes verwendet man auch ありがとうございました.",
+        "examples": [
+          {
+            "japanese": "荷物を持ってくださって、どうもありがとうございます。",
+            "romaji": "Nimotsu o motte kudasatte, dōmo arigatō gozaimasu.",
+            "german": "Vielen herzlichen Dank, dass Sie mein Gepäck tragen."
+          },
+          {
+            "japanese": "ご招待どうもありがとうございます。ぜひ伺います。",
+            "romaji": "Goshōtai dōmo arigatō gozaimasu. Zehi ukagaimasu.",
+            "german": "Vielen herzlichen Dank für Ihre Einladung. Ich komme sehr gern."
+          }
+        ],
+        "aliases": [
+          "どうもありがとうございます"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "senseKey": "full-polite-thanks-formula"
+      },
+      "1571": {
+        "word": "鶏肉",
+        "reading": "けいにく",
+        "romaji": "keiniku",
+        "meaning": "Hühnerfleisch (Lesung けいにく)",
+        "type": "Nomen",
+        "category": "Lebensmittel und Lesungen",
+        "level": "N5",
+        "notes": "鶏肉 kann neben とりにく auch けいにく gelesen werden. Die Lesung けいにく besteht aus den chinesischen Lesungen von 鶏 und 肉 und bezeichnet dasselbe Hühnerfleisch. Das えい wird in der gesprochenen Aussprache meist zu einem langen e; die Umschrift dieser Lesung lautet keiniku. Die Schreibung 鳥肉 mit dem allgemeineren Kanji 鳥 hat weitere Lesungen und bezeichnet auch Fleisch anderer Vögel.",
+        "examples": [
+          {
+            "japanese": "この資料では、鶏肉の生産量を調べています。",
+            "romaji": "Kono shiryō de wa, keiniku no seisanryō o shirabete imasu.",
+            "german": "In dieser Unterlage wird die Produktionsmenge von Hühnerfleisch untersucht."
+          },
+          {
+            "japanese": "鶏肉と豚肉を別々の袋に入れてください。",
+            "romaji": "Keiniku to butaniku o betsubetsu no fukuro ni irete kudasai.",
+            "german": "Packen Sie das Hühnerfleisch und das Schweinefleisch bitte in getrennte Beutel."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117116825",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@117116825",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "一般",
+                "*",
+                "*",
+                "*",
+                "ケイニク",
+                "鶏肉",
+                "鶏肉",
+                "ケーニク",
+                "鶏肉",
+                "ケーニク",
+                "漢",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "体",
+                "ケイニク",
+                "ケイニク",
+                "ケイニク",
+                "ケイニク",
+                "0",
+                "C2",
+                "*",
+                "3031087303500288",
+                "11027"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 鶏肉/ケイニク, pronunciation ケーニク, role 名詞/普通名詞/一般/*, aType 0. Actual1253020/1 chickenmeat withけいにく re_restr鶏肉 only; birdmeat2 stagk鳥肉 andちょうにく reading restricted鳥肉 excluded. Existingとりにく identity/B118 separate spelling work untouched. Actual original Shogakukan NihonKokugoDaijiten and Nipponica explicitly headけいにく; encyclopedia redirects toとりにく, no invented archaic or forbidden-speech limitation. Actual117116825 exact鶏肉 surfacekanaケイニク pronunciationケーニク0; dictionarykana conventionkeiniku retained, spoken long e explained. N5 estimated placement actualMasterN5 literal, no official exhaustive-list claim.",
+            "match": {
+              "word": "鶏肉",
+              "reading": "けいにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; exact lexical citation in selected chicken-alternate-reading role",
+              "sense": "Hühnerfleisch (Lesung けいにく)"
+            }
+          }
+        ],
+        "senseKey": "chicken-alternate-reading"
+      },
+      "1572": {
+        "word": "リッパー",
+        "reading": "リッパー",
+        "romaji": "rippā",
+        "meaning": "Nahttrenner",
+        "type": "Nomen",
+        "category": "Nähen und Werkzeuge",
+        "level": "N5",
+        "notes": "リッパー bezeichnet hier einen Nahttrenner zum Durchtrennen von Nähfäden. Man verwendet ihn etwa, um eine falsch genähte Naht aufzutrennen oder einen Knopf zu lösen. Mit リッパーで nennt man das verwendete Werkzeug. Das kleine ッ verdoppelt den folgenden p-Laut, und ー verlängert den letzten Vokal: rippā. Andere Fachgebiete verwenden dasselbe Lehnwort für andere Geräte oder Software.",
+        "examples": [
+          {
+            "japanese": "間違えた縫い目をリッパーでほどきました。",
+            "romaji": "Machigaeta nuime o rippā de hodokimashita.",
+            "german": "Ich habe die falsch genähte Naht mit einem Nahttrenner aufgetrennt."
+          },
+          {
+            "japanese": "ボタンの糸を切るために、リッパーを貸してください。",
+            "romaji": "Botan no ito o kiru tame ni, rippā o kashite kudasai.",
+            "german": "Leihen Sie mir bitte einen Nahttrenner, damit ich den Faden am Knopf durchtrennen kann."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278379259",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@278379259",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "一般",
+                "*",
+                "*",
+                "*",
+                "リッパー",
+                "リッパー-ripper",
+                "リッパー",
+                "リッパー",
+                "リッパー",
+                "リッパー",
+                "外",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "*",
+                "体",
+                "リッパー",
+                "リッパー",
+                "リッパー",
+                "リッパー",
+                "1",
+                "C1",
+                "*",
+                "11958022209413632",
+                "43503"
+              ]
+            },
+            "finding": "Actually inspected original whole surface リッパー/リッパー, pronunciation リッパー, role 名詞/普通名詞/一般/*, aType 1. Actual2021190/1 seamripper noun selected, heavy-machine/software/ripsaw2–4 explicitly excluded. Original actual Clover manufacturer product757 supports cutting seam/button/basting threads and toolusage. Original278379259 exactリッパー-ripper ordinarynounリッパー1, no リッパ shortened-form transfer. Complete Japanese spelling, doubled p and final long a personally checked. Niche everyday tool, estimated N5 from actual MasterN5 literal reference not an official list.",
+            "match": {
+              "word": "リッパー",
+              "reading": "リッパー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; exact lexical citation in selected seam-ripper role",
+              "sense": "Nahttrenner"
+            }
+          }
+        ],
+        "senseKey": "seam-ripper"
+      },
+      "1573": {
+        "word": "パーティ",
+        "reading": "パーティ",
+        "romaji": "pāti",
+        "meaning": "Party; Gruppe (etwa beim Bergsteigen); politische Partei",
+        "type": "Nomen",
+        "category": "Freizeit",
+        "level": "N5",
+        "notes": "パーティ ist eine Form ohne das lange Schluss-i von パーティー. Das Wort kann eine Feier bezeichnen oder eine Gruppe, die gemeinsam etwas unternimmt, besonders beim Bergsteigen: パーティを組む heißt eine solche Gruppe bilden. Auch die Bedeutung politische Partei ist belegt; dafür ist im heutigen allgemeinen Sprachgebrauch 政党 deutlicher. Der Zusammenhang entscheidet, welche Bedeutung gemeint ist.",
+        "examples": [
+          {
+            "japanese": "友達の家でパーティを開きます。",
+            "romaji": "Tomodachi no ie de pāti o hirakimasu.",
+            "german": "Wir veranstalten im Haus eines Freundes eine Party."
+          },
+          {
+            "japanese": "三人でパーティを組んで、山に登りました。",
+            "romaji": "Sannin de pāti o kunde, yama ni noborimashita.",
+            "german": "Wir bildeten zu dritt eine Gruppe und bestiegen einen Berg."
+          },
+          {
+            "japanese": "この本では、政党のことを「パーティ」と呼んでいます。",
+            "romaji": "Kono hon de wa, seitō no koto o \"pāti\" to yonde imasu.",
+            "german": "In diesem Buch werden politische Parteien als „パーティ“ bezeichnet."
+          }
+        ],
+        "aliases": [],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@221758145",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual original whole surface パーティ/パーティ; lemma パーティー-party; 名詞/普通名詞/一般/*; cType *; cForm *; aType 1. Original1100760 exactshortパーティ unrestricted reading, social1/activitygroup2/politicalparty3 all selectedto cover literal Masterparty/cordée/parti; originallicensedShogakukan confirms allthree and actualshort パーティ groupquote. Source3 currentunqualified, not labeledobsolete; learner note simply recommends明確政党 modern usage. Three actualdistinct social/climbing/political contexts personallyread. Exact originalwhole short221758145 aType1, separatelong221758370 not borrowed; actualOJADshort query no result, long9977 excluded. Existing1444 longfinalreading pātī retained independently, notwrongreading alias.",
+            "match": {
+              "word": "パーティ",
+              "reading": "パーティ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1100760 exactshortパーティ unrestricted reading, social1/activitygroup2/politicalparty3 all selectedto cover literal Masterparty/cordée/parti; originallicensedShogakukan confirms allthree and actualshort パーティ groupquote. Source3 currentunqualified, not labeledobsolete; learner note simply recommends明確政党 modern usage. Three actualdistinct social/climbing/political contexts personallyread. Exact originalwhole short221758145 aType1, separatelong221758370 not borrowed; actualOJADshort query no result, long9977 excluded. Existing1444 longfinalreading pātī retained independently, notwrongreading alias."
+            }
+          }
+        ]
+      },
+      "1574": {
+        "word": "ラジカセ",
+        "reading": "ラジカセ",
+        "romaji": "rajikase",
+        "meaning": "Radiokassettenrekorder",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N5",
+        "notes": "ラジカセ ist die Kurzform von ラジオカセット: ein Gerät, das Radio und einen Kassettenrekorder verbindet. ラジカセで音楽を聞く nennt das Gerät als Mittel zum Hören. Mit ラジカセで録音する beschreibt man eine Aufnahme mithilfe des Geräts; 録音する bedeutet aufnehmen. Ein gewöhnliches Radio ohne Kassettenfunktion heißt ラジオ.",
+        "examples": [
+          {
+            "japanese": "父の古いラジカセで音楽を聞いています。",
+            "romaji": "Chichi no furui rajikase de ongaku o kiite imasu.",
+            "german": "Ich höre Musik mit dem alten Radiokassettenrekorder meines Vaters."
+          },
+          {
+            "japanese": "ラジカセで、自分の歌を録音しました。",
+            "romaji": "Rajikase de, jibun no uta o rokuon shimashita.",
+            "german": "Ich habe meinen eigenen Gesang mit dem Radiokassettenrekorder aufgenommen."
+          }
+        ],
+        "aliases": [],
+        "pitch": 0,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277594288",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual original whole surface ラジカセ/ラジカセ; lemma ラジカセ; 名詞/普通名詞/一般/*; cType *; cForm *; aType 0. Original1138960 exactwholeラジカセ nounabbreviation1, xrefラジオカセット; completeoriginalpublisherTANOSN5 page33 givesラジカセ / linebreakラジオカセット radio cassette player. Two separatelyreviewed directadditions teachtruecompleteforms while isolated malformedfrozenartifact isexcluded in122b, notvalid vocabulary. Originalwhole277594288 aType0 and actualOJAD11655 flat0 independently matchexactshortnoun; partialradio accent neverborrowed. Playbackversusownvocalrecording aregenuinelydifferent operationalcontexts; all completeHepburn/German read.",
+            "match": {
+              "word": "ラジカセ",
+              "reading": "ラジカセ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; selected complete lexical noun, no numbered-compound pitch claim",
+              "sense": "Original1138960 exactwholeラジカセ nounabbreviation1, xrefラジオカセット; completeoriginalpublisherTANOSN5 page33 givesラジカセ / linebreakラジオカセット radio cassette player. Two separatelyreviewed directadditions teachtruecompleteforms while isolated malformedfrozenartifact isexcluded in122b, notvalid vocabulary. Originalwhole277594288 aType0 and actualOJAD11655 flat0 independently matchexactshortnoun; partialradio accent neverborrowed. Playbackversusownvocalrecording aregenuinelydifferent operationalcontexts; all completeHepburn/German read."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo",
+            "version": "Original complete dictionary cell actually inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%83%A9%E3%82%B8%E3%82%AB%E3%82%BB#word_11655",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Personally inspected actual complete whole dictionary cell 11655 らじかせ; pattern 0. Original1138960 exactwholeラジカセ nounabbreviation1, xrefラジオカセット; completeoriginalpublisherTANOSN5 page33 givesラジカセ / linebreakラジオカセット radio cassette player. Two separatelyreviewed directadditions teachtruecompleteforms while isolated malformedfrozenartifact isexcluded in122b, notvalid vocabulary. Originalwhole277594288 aType0 and actualOJAD11655 flat0 independently matchexactshortnoun; partialradio accent neverborrowed. Playbackversusownvocalrecording aregenuinelydifferent operationalcontexts; all completeHepburn/German read.",
+            "match": {
+              "word": "ラジカセ",
+              "reading": "ラジカセ",
+              "grammaticalForm": "Complete dictionary head noun; selected role, no compound/number transfer",
+              "sense": "Original1138960 exactwholeラジカセ nounabbreviation1, xrefラジオカセット; completeoriginalpublisherTANOSN5 page33 givesラジカセ / linebreakラジオカセット radio cassette player. Two separatelyreviewed directadditions teachtruecompleteforms while isolated malformedfrozenartifact isexcluded in122b, notvalid vocabulary. Originalwhole277594288 aType0 and actualOJAD11655 flat0 independently matchexactshortnoun; partialradio accent neverborrowed. Playbackversusownvocalrecording aregenuinelydifferent operationalcontexts; all completeHepburn/German read."
+            }
+          }
+        ]
+      },
+      "1575": {
+        "word": "ラジオカセット",
+        "reading": "ラジオカセット",
+        "romaji": "rajio kasetto",
+        "meaning": "Radiokassettenrekorder",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N5",
+        "notes": "ラジオカセット ist die volle Bezeichnung für ein kombiniertes Radio und einen Kassettenrekorder; im Gespräch wird sie oft zu ラジカセ verkürzt. カセットを入れる beschreibt das Einlegen einer Kassette, ラジオカセットが壊れる einen Defekt des Geräts. Die Bezeichnung meint das ganze Gerät, während カセット allein die Kassette oder ein Modul bezeichnet.",
+        "examples": [
+          {
+            "japanese": "ラジオカセットにカセットを入れて、再生ボタンを押しました。",
+            "romaji": "Rajio kasetto ni kasetto o irete, saisei botan o oshimashita.",
+            "german": "Ich habe eine Kassette in den Radiokassettenrekorder eingelegt und die Wiedergabetaste gedrückt."
+          },
+          {
+            "japanese": "ラジオカセットが壊れたので、修理を頼みました。",
+            "romaji": "Rajio kasetto ga kowareta node, shūri o tanomimashita.",
+            "german": "Weil der Radiokassettenrekorder kaputt war, habe ich um eine Reparatur gebeten."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       }
     },
     "vocab-n4": {
@@ -119412,7 +120740,10 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "1179": {
-        "notes": "一昨日 wird hier おととい gelesen und heißt „vorgestern“. Als Zeitangabe kann es ohne Partikel stehen. 一昨日から betont einen Beginn an diesem Tag, der bis zum Sprechzeitpunkt fortwirkt. Die Lesung おととい enthält vier kurze Vokale bzw. Moren; sie ist nicht おととし „vor zwei Jahren“.",
+        "notes": "一昨日 wird hier おととい gelesen und heißt vorgestern. おととい ist die übliche Hiraganaschreibung derselben Zeitangabe. Das Wort kann ohne Partikel stehen; 一昨日から betont einen Beginn an diesem Tag, der bis zum Sprechzeitpunkt fortwirkt. Die ebenfalls belegte Lesung いっさくじつ ist eher schriftlich und formell und wird hier nicht geübt. おととい enthält vier kurze Moren und ist nicht おととし, vor zwei Jahren.",
+        "aliases": [
+          "おととい"
+        ],
         "pitchVariants": [
           0
         ],
@@ -119426,12 +120757,28 @@ window.VOCAB_CORRECTION_RULES = {
               3,
               0
             ],
-            "finding": "Exakte Form 一昨日/オトトイ, 名詞/普通名詞/一般/*, */*, aType 3,0. 1576050/1 daybeforeyesterday rawgikunselectedototoi nototherototsui/issakujitsu. Exactnoun80072246 aType3,0 bothretained. Continuingfeversincepastday versus completedmovieevent distinct, nothealthadvice.",
+            "finding": "Actual original whole surface 一昨日/オトトイ; lemma 一昨日; 名詞/普通名詞/一般/*; *; *; aType 3,0. Original1576050 exact一昨日/おととい gikun noun/adverb1, kana alias sameword, otherototsui/issakujitsu notmatchingidentity. Original80072246 canonical and80071607 kana commonnoun aType3,0 bothattested retained; full OJAD4436 fourmora reverse2 gives3, no accidentalissakujitsu3931 pattern accepted. Retained feverbeginning versus completefilmevent Japanese/German/Hepburn allaccurate, no medical recommendations.",
             "match": {
               "word": "一昨日",
               "reading": "おととい",
-              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
-              "sense": "一昨日 als vorgestern"
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole selected lexical role",
+              "sense": "Original1576050 exact一昨日/おととい gikun noun/adverb1, kana alias sameword, otherototsui/issakujitsu notmatchingidentity. Original80072246 canonical and80071607 kana commonnoun aType3,0 bothattested retained; full OJAD4436 fourmora reverse2 gives3, no accidentalissakujitsu3931 pattern accepted. Retained feverbeginning versus completefilmevent Japanese/German/Hepburn allaccurate, no medical recommendations."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%98%A8%E6%97%A5#word_4436",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Actual complete row4436 おととい whole pattern3. Original1576050 exact一昨日/おととい gikun noun/adverb1, kana alias sameword, otherototsui/issakujitsu notmatchingidentity. Original80072246 canonical and80071607 kana commonnoun aType3,0 bothattested retained; full OJAD4436 fourmora reverse2 gives3, no accidentalissakujitsu3931 pattern accepted. Retained feverbeginning versus completefilmevent Japanese/German/Hepburn allaccurate, no medical recommendations.",
+            "match": {
+              "word": "一昨日",
+              "reading": "おととい",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1576050 exact一昨日/おととい gikun noun/adverb1, kana alias sameword, otherototsui/issakujitsu notmatchingidentity. Original80072246 canonical and80071607 kana commonnoun aType3,0 bothattested retained; full OJAD4436 fourmora reverse2 gives3, no accidentalissakujitsu3931 pattern accepted. Retained feverbeginning versus completefilmevent Japanese/German/Hepburn allaccurate, no medical recommendations."
             }
           }
         ]
@@ -120147,7 +121494,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1310": {
         "meaning": "vor zwei Jahren; Vorvorjahr",
-        "notes": "一昨年 wird hier おととし gelesen: das Jahr vor dem letzten Jahr, also „vor zwei Jahren“. 一昨年の ordnet etwas diesem Jahr zu. Das Wort kann auch ohne Partikel als Zeitangabe stehen. だったっけ fragt vertraut nach einer Erinnerung. おととし ist nicht 一昨日 おととい „vorgestern“.",
+        "notes": "一昨年 wird hier おととし gelesen: das Jahr vor dem letzten Jahr, also vor zwei Jahren. おととし ist die Hiraganaschreibung derselben Zeitangabe. 一昨年の ordnet etwas diesem Jahr zu; ohne Partikel kann das Wort den Zeitpunkt einer Handlung nennen. だったっけ fragt vertraut nach einer Erinnerung. Die formellere Lesung いっさくねん gehört nicht zu den Beispielen dieser Karte. おととし ist nicht おととい, vorgestern.",
         "examples": [
           {
             "japanese": "一昨年の市長って誰だったっけ？",
@@ -120160,6 +121507,10 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Vor zwei Jahren war ich in Deutschland."
           }
         ],
+        "aliases": [
+          "おととし"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -120169,12 +121520,28 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               2
             ],
-            "finding": "Exakte Form 一昨年/オトトシ, 名詞/普通名詞/副詞可能/*, */*, aType 2. 1576060/1 yearbeforelast actualototoshi unrestrictedspelling. Alternateissakunen notreadingidentity; oldfirstIssakunen romanizationcorrectedOtotoshi. Actual80072879 aType2. Memoryquestionaboutpastmayor versus owntravelhistory distinct.",
+            "finding": "Actual original whole surface 一昨年/オトトシ; lemma 一昨年; 名詞/普通名詞/副詞可能/*; *; *; aType 2. Original1576060 exact一昨年/おととし unrestrictednoun/adverb1; kanaaliaswholelexeme, alternativeいっさくねん readingrestricted一昨年 distinctnotborrowed. Original80072879 canonical and80072664 kana commonadverbialnoun aType2; whole OJAD4437 fourmora reverse3 gives2. Retainedmayor memoryquestion versus ownGermanytravel contexts every Japanese/Hepburn/German read, no rereading example toいっさくねん.",
             "match": {
               "word": "一昨年",
               "reading": "おととし",
-              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
-              "sense": "一昨年 als vor zwei Jahren; Vorvorjahr"
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *; whole selected lexical role",
+              "sense": "Original1576060 exact一昨年/おととし unrestrictednoun/adverb1; kanaaliaswholelexeme, alternativeいっさくねん readingrestricted一昨年 distinctnotborrowed. Original80072879 canonical and80072664 kana commonadverbialnoun aType2; whole OJAD4437 fourmora reverse3 gives2. Retainedmayor memoryquestion versus ownGermanytravel contexts every Japanese/Hepburn/German read, no rereading example toいっさくねん."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%98%A8%E5%B9%B4#word_4437",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              2
+            ],
+            "finding": "Actual complete row4437 おととし whole pattern2. Original1576060 exact一昨年/おととし unrestrictednoun/adverb1; kanaaliaswholelexeme, alternativeいっさくねん readingrestricted一昨年 distinctnotborrowed. Original80072879 canonical and80072664 kana commonadverbialnoun aType2; whole OJAD4437 fourmora reverse3 gives2. Retainedmayor memoryquestion versus ownGermanytravel contexts every Japanese/Hepburn/German read, no rereading example toいっさくねん.",
+            "match": {
+              "word": "一昨年",
+              "reading": "おととし",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1576060 exact一昨年/おととし unrestrictednoun/adverb1; kanaaliaswholelexeme, alternativeいっさくねん readingrestricted一昨年 distinctnotborrowed. Original80072879 canonical and80072664 kana commonadverbialnoun aType2; whole OJAD4437 fourmora reverse3 gives2. Retainedmayor memoryquestion versus ownGermanytravel contexts every Japanese/Hepburn/German read, no rereading example toいっさくねん."
             }
           }
         ]
@@ -125376,7 +126743,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2629": {
-        "notes": "再来年 ist das Jahr nach dem nächsten Jahr, also „übernächstes Jahr“. 再来年には kann dieses Jahr als Zeitpunkt betonen, bis zu dem man eine Entwicklung erwartet. でしょう kennzeichnet eine Vermutung. 再来年…したいです nennt dagegen einen persönlichen Wunsch für dieses Jahr. さらいねん enthält keine langen Vokale.",
+        "notes": "再来年 ist das Jahr nach dem nächsten Jahr, also übernächstes Jahr. 再来年には kann diesen Zeitpunkt als Grenze einer erwarteten Entwicklung betonen; でしょう kennzeichnet eine Vermutung. 再来年…したいです nennt einen persönlichen Wunsch für dieses Jahr. さ来年 ist eine gemischte Schreibung derselben Lesung, etwa in vereinfachten Texten; die vollständige Kanji-Schreibung lautet 再来年. さらいねん enthält keine langen Vokale.",
         "examples": [
           {
             "japanese": "再来年には景気もよくなっているでしょう。",
@@ -125389,21 +126756,25 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Übernächstes Jahr möchte ich in Japan studieren."
           }
         ],
+        "aliases": [
+          "さ来年"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "OJAD — University of Tokyo",
-            "version": "Saved whole-form UTF-8 HTML SHA256 ce9f2cd25b9485ea5c5b5f08f41ac690d59127811537f1689b808f7ec1aac08b",
-            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%86%8D%E6%9D%A5%E5%B9%B4#dictionary-form",
-            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%86%8D%E6%9D%A5%E5%B9%B4#word_6503",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
             "patterns": [
               0
             ],
-            "finding": "ActualwholeOJAD6503さ/ら/い/ね/ん5mora plainhighらいねん/nopeak =>0; wholefutureyearnoun inspected.",
+            "finding": "Actual complete row6503 さらいねん whole pattern0. Original1293660 exact再来年/さ来年 bothさらいねん one noun/adverb1; mixedさ来年 sK search-only kanji form in JMdict; original TANOS literal independently attests this alternative spelling and qualifies alias, not saiprefixpronunciation or newword. FulloriginalUniDic scan no exact 再来年/さ来年 rows; complete OJAD6503 wholeさらいねん5mora0 actual read. Both retained forecast and studywish contexts accurate German/Hepburn, preserve identities and originalN5 runtimelevel.",
             "match": {
               "word": "再来年",
               "reading": "さらいねん",
-              "grammaticalForm": "Nomen; exact complete dictionary form",
-              "sense": "再来年 als übernächstes Jahr"
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1293660 exact再来年/さ来年 bothさらいねん one noun/adverb1; mixedさ来年 sK search-only kanji form in JMdict; original TANOS literal independently attests this alternative spelling and qualifies alias, not saiprefixpronunciation or newword. FulloriginalUniDic scan no exact 再来年/さ来年 rows; complete OJAD6503 wholeさらいねん5mora0 actual read. Both retained forecast and studywish contexts accurate German/Hepburn, preserve identities and originalN5 runtimelevel."
             }
           }
         ]
@@ -143865,6 +145236,83 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null,
         "pitchVariants": [],
         "pitchProvenance": []
+      },
+      "3755": {
+        "word": "日",
+        "reading": "にち",
+        "romaji": "nichi",
+        "meaning": "Zählwort für Tage; Kalendertag",
+        "type": "Nomen",
+        "category": "Kalender und Zeitspannen",
+        "level": "N3",
+        "notes": "日 steht nach einer Zahl für einen Kalendertag oder eine Anzahl von Tagen. Die Grundlesung にち erscheint etwa in 二十一日（にじゅういちにち）. Viele niedrige Zahlen bilden besondere Formen: 三日（みっか）, 十日（とおか）. Für eine Dauer kann 間 folgen: 十日間, zehn Tage lang. 日曜日 bezeichnet dagegen einen Wochentag.",
+        "examples": [
+          {
+            "japanese": "二十一日に東京へ行きます。",
+            "romaji": "Nijūichi-nichi ni Tōkyō e ikimasu.",
+            "german": "Am einundzwanzigsten fahre ich nach Tokio."
+          },
+          {
+            "japanese": "旅行は十日間です。",
+            "romaji": "Ryokō wa tōkakan desu.",
+            "german": "Die Reise dauert zehn Tage."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202062742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "selectedRow": {
+              "locator": "sys.dic@202062742",
+              "originalFields": [
+                "名詞",
+                "普通名詞",
+                "助数詞可能",
+                "*",
+                "*",
+                "*",
+                "ニチ",
+                "日",
+                "日",
+                "ニチ",
+                "日",
+                "ニチ",
+                "漢",
+                "*",
+                "*",
+                "チ促",
+                "基本形",
+                "*",
+                "B4WB,B4WB9G",
+                "体",
+                "ニチ",
+                "ニチ",
+                "ニチ",
+                "ニチ",
+                "1",
+                "C3",
+                "*",
+                "7799669233164800",
+                "28375"
+              ]
+            },
+            "finding": "Actually inspected original whole surface 日/ニチ, pronunciation ニチ, role 名詞/普通名詞/助数詞可能/*, aType 1. Coarse app type Nomen for selected calendar/day unit; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual2083100/2 calendar nth day and3 day-duration counter selected; nominal Sunday1 separate senseKey/card, ひ sun/day and Japan abbreviation4 not taught. Exact202062742 ordinary counter-capable日/ニチ1 plus OJAD9443にち1 supports bare numeric unit citation, no compound contour inference. Reading changes explicitly taught: 二十一日 nijūichi-nichi versus 十日間 tōkakan. Editorial N3 from actual TANOSN3 literal day reference; no invented MasterN5 counter attribution. Frozen TANOS broad sun/sunshine gloss belongs to other readingひ and is explicitly excluded from this selected scope.",
+            "match": {
+              "word": "日",
+              "reading": "にち",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected calendar-day-counter role",
+              "sense": "Zählwort für Tage; Kalendertag"
+            }
+          }
+        ],
+        "senseKey": "calendar-day-counter"
       }
     },
     "vocab-n2": {
@@ -144264,7 +145712,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "732": {
-        "notes": "可愛い ist ein i-Adjektiv für „niedlich“ oder „süß“. Es kann ein Tier, einen Gegenstand oder sein Aussehen beschreiben. Häufig steht かわいい in Hiragana. Vor einem Nomen braucht es kein な: 可愛い人形. Die Vokalfolge am Ende ist ii; sie wird in kawaii nicht verkürzt.",
+        "notes": "可愛い ist ein i-Adjektiv für niedlich oder süß. Es kann ein Tier, einen Gegenstand oder sein Aussehen beschreiben. Häufig schreibt man かわいい in Hiragana; 可愛い ist eine gebräuchliche Kanji-Schreibung mit zugewiesener Lesung. Vor einem Nomen braucht es kein な: 可愛い人形. Die Vokalfolge am Ende ist ii; sie wird in kawaii nicht verkürzt. Bei Speisen meint süß dagegen 甘い.",
         "examples": [
           {
             "japanese": "この子犬はとても可愛い。",
@@ -144277,6 +145725,10 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich habe meiner jüngeren Schwester eine süße Puppe geschenkt."
           }
         ],
+        "aliases": [
+          "かわいい"
+        ],
+        "pitchVariants": [],
         "pitchProvenance": [
           {
             "source": "現代書き言葉UniDic",
@@ -144286,12 +145738,44 @@ window.VOCAB_CORRECTION_RULES = {
             "patterns": [
               3
             ],
-            "finding": "Exakte Form 可愛い/カワイイ, 形容詞/一般/*/*, 形容詞/終止形-一般, aType 3. 1577200/1 cute actualatejiuk i-adj99498024 aType3; dear/childlike/tiny/selfdear2–5 notneeded. Puppyassessment versus giftselection/action distinct, sourceGerman süßappearance notfoodtaste.",
+            "finding": "Actual original whole surface 可愛い/カワイイ; lemma 可愛い; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 3. Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded.",
             "match": {
               "word": "可愛い",
               "reading": "かわいい",
-              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
-              "sense": "可愛い als niedlich, süß"
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般; whole selected lexical role",
+              "sense": "Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@99510481",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Actual original whole surface 可愛い/カワイイ; lemma 可愛い; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 3. Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded.",
+            "match": {
+              "word": "可愛い",
+              "reading": "かわいい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連体形-一般; whole selected lexical role",
+              "sense": "Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded."
+            }
+          },
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8F%AF%E6%84%9B%E3%81%84#word_2883",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Actual complete row2883 かわいい whole pattern3. Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded.",
+            "match": {
+              "word": "可愛い",
+              "reading": "かわいい",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1577200 adjective cute1 usuallykana and 可愛い ateji; exact same reading kana alias matches selected sense. Actual terminal/attributive whole rows99498024/99510481 canonical and99491932/99506730 kana aType3; stem and abbreviatedsurfaceカワイ rows excluded. Complete OJAD2883かわいい3 corroborates. Both retained actual puppy appraisal and gift action contexts fully read, no dear/childlike/tiny/selfpreservation senses padded."
             }
           }
         ]
@@ -144825,7 +146309,7 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null
       },
       "1509": {
-        "notes": "奥さん ist eine respektvolle Bezeichnung für die Ehefrau einer anderen Person; je nach Zusammenhang kann damit auch die angesprochene verheiratete Frau gemeint sein. Im Gespräch über die eigene Frau ist 妻 die übliche sachliche Bezeichnung. Der erste Dialog ist mit おまえ und だよ sehr vertraut formuliert; diese Anrede passt nicht automatisch zu einem höflichen Gespräch mit Fremden.",
+        "notes": "奥さん ist eine respektvolle Bezeichnung für die Ehefrau einer anderen Person; auch die angesprochene verheiratete Frau kann gemeint sein. おくさん ist die Hiraganaschreibung mit derselben Lesung. Im Gespräch über die eigene Frau ist 妻 die übliche sachliche Bezeichnung. Der erste Dialog ist mit おまえ und だよ sehr vertraut formuliert; diese Anrede passt nicht automatisch zu einem höflichen Gespräch mit Fremden.",
         "examples": [
           {
             "japanese": "「おまえの奥さんって、どんな人？」「彼女は何でもバリバリやるタイプだよ。」",
@@ -144838,22 +146322,25 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Ich habe Tanakas Ehefrau am Bahnhof getroffen."
           }
         ],
+        "aliases": [
+          "おくさん"
+        ],
         "pitchVariants": [],
         "pitchProvenance": [
           {
-            "source": "OJAD, Online Japanese Accent Dictionary, University of Tokyo",
-            "version": "Actual primary whole-form row inspected2026-10-04",
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
             "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A5%A5%E3%81%95%E3%82%93#word_4361",
-            "attribution": "University of Tokyo, Minematsu/Saito Laboratory; OJAD",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
             "patterns": [
               1
             ],
-            "finding": "Actual OJAD4361 complete 奥さん/おくさん Complete selected noun or expression/verb dictionaryform with 4 morae; all observed patterns 1. 1179330honorificwife1 exact/wholeOJAD4361おくさん1fourmora; originalcasualomae/dialoguefullretained andregisterhonestlyexplained, neutralformalmentionnewcontext. Notinferredfrom奥/suffix.",
+            "finding": "Actual complete row4361 おくさん whole pattern1. Original1179330 unrestricted honorificwife1 includes wife/yourwife/hiswife/madam; exactかなaliassameword, not奥interior compoundanalysis. Fullscan no exact奥さん/おくさん UniDic row, full originalOJAD4361 fourmora peakfirst1 bothheadsearches agree. Retainedcasualdialogue and respectful thirdpersonreport completeJapanese/German/Hepburn personally read, registerexplicit, no ownwife defaultclaim.",
             "match": {
               "word": "奥さん",
               "reading": "おくさん",
-              "grammaticalForm": "Complete selected noun or expression/verb dictionaryform; original reading script preserved",
-              "sense": "Exact 奥さん/おくさん, rawJMdict1179330, senses1: wife, your wife, his wife, married lady, madam. Spelling/reading/restrictions inspected. 1179330honorificwife1 exact/wholeOJAD4361おくさん1fourmora; originalcasualomae/dialoguefullretained andregisterhonestlyexplained, neutralformalmentionnewcontext. Notinferredfrom奥/suffix."
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1179330 unrestricted honorificwife1 includes wife/yourwife/hiswife/madam; exactかなaliassameword, not奥interior compoundanalysis. Fullscan no exact奥さん/おくさん UniDic row, full originalOJAD4361 fourmora peakfirst1 bothheadsearches agree. Retainedcasualdialogue and respectful thirdpersonreport completeJapanese/German/Hepburn personally read, registerexplicit, no ownwife defaultclaim."
             }
           }
         ]
@@ -146467,6 +147954,46 @@ window.VOCAB_CORRECTION_RULES = {
               "reading": "げきつい",
               "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
               "sense": "撃墜 as \"Abschuss\"."
+            }
+          }
+        ]
+      },
+      "2106": {
+        "romaji": "obāsan",
+        "meaning": "Großmutter; ältere Frau",
+        "notes": "おばあさん kann eine Großmutter oder eine ältere Frau bezeichnen. In Kanji schreibt man für die Großmutter gewöhnlich お祖母さん, für eine ältere Frau お婆さん; die Hiraganaschreibung ist sehr üblich. Über die eigene Großmutter gegenüber Außenstehenden sagt man meist 祖母. Eine unbekannte ältere Frau spricht man je nach Situation besser mit ihrem Namen oder einer passenden Anrede an. Das lange ああ unterscheidet おばあさん von おばさん, Tante.",
+        "examples": [
+          {
+            "japanese": "お正月は、お祖母さんの家に泊まります。",
+            "romaji": "Oshōgatsu wa, obāsan no ie ni tomarimasu.",
+            "german": "Über Neujahr übernachte ich bei meiner Großmutter."
+          },
+          {
+            "japanese": "バスで、荷物を持ったお婆さんに席を譲りました。",
+            "romaji": "Basu de, nimotsu o motta obāsan ni seki o yuzurimashita.",
+            "german": "Im Bus überließ ich einer älteren Frau mit Gepäck meinen Platz."
+          }
+        ],
+        "aliases": [
+          "おばあさん",
+          "お祖母さん"
+        ],
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Actual complete original UTF-8 dictionary cell inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E5%A9%86%E3%81%95%E3%82%93#word_4453",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              2
+            ],
+            "finding": "Actual complete row4453 おばあさん whole pattern2. Original1002330 unrestricted grandmother1 usuallyお祖母さん and olderwoman2 usuallyお婆さん, both kana uk. Preserve actual headお婆さん and N2, teach both legitimate senses and qualified spellings instead of false freely interchangeable orthography. Replaced pedagogically awkward condolence romance monologue and malformed Hepburn with natural family/olderwoman situations, all full German/Hepburn inspected. Whole original OJAD4453おばあさん five mora peaksecond pattern2; no exact canonical/alias UniDic surfaces returned, no inferred婆 or祖母 accent. Original pitch2 retained with exact whole-form support. Long vowel obāsan explicitly not aunt obasan.",
+            "match": {
+              "word": "お婆さん",
+              "reading": "おばあさん",
+              "grammaticalForm": "Complete dictionary form, selected full lexical word; interjection roles independently sourced where taught",
+              "sense": "Original1002330 unrestricted grandmother1 usuallyお祖母さん and olderwoman2 usuallyお婆さん, both kana uk. Preserve actual headお婆さん and N2, teach both legitimate senses and qualified spellings instead of false freely interchangeable orthography. Replaced pedagogically awkward condolence romance monologue and malformed Hepburn with natural family/olderwoman situations, all full German/Hepburn inspected. Whole original OJAD4453おばあさん five mora peaksecond pattern2; no exact canonical/alias UniDic surfaces returned, no inferred婆 or祖母 accent. Original pitch2 retained with exact whole-form support. Long vowel obāsan explicitly not aunt obasan."
             }
           }
         ]
@@ -173800,6 +175327,35 @@ window.VOCAB_CORRECTION_RULES = {
         "pitch": null,
         "pitchVariants": [],
         "pitchProvenance": []
+      },
+      "3060": {
+        "word": "メートル",
+        "reading": "メートル",
+        "romaji": "mētoru",
+        "meaning": "Messgerät; Zähler (meist メーター)",
+        "type": "Nomen",
+        "category": "Technik",
+        "level": "N2",
+        "notes": "メートル hat neben der Längeneinheit eine belegte Bedeutung als Messgerät oder Zähler. Für solche Geräte ist heute meist メーター üblich, etwa ガスメーター. Die Bezeichnung メートル検査員 meint jemanden, der Messgeräte prüft; sie enthält hier keine Angabe einer Länge. Die seltene Schreibung 米 kann laut Wörterbuch auch diese Bedeutung tragen. Übe zunächst die Katakanaform und achte in älteren oder fachlichen Texten auf den Zusammenhang.",
+        "examples": [
+          {
+            "japanese": "古い記事には、メートル検査員が各家庭の計器を調べたと書かれています。",
+            "romaji": "Furui kiji ni wa, mētoru kensain ga kaku katei no keiki o shirabeta to kakarete imasu.",
+            "german": "In einem alten Artikel steht, dass ein Prüfer von Messgeräten die Geräte in jedem Haushalt untersucht hat."
+          },
+          {
+            "japanese": "昔の説明書には、ガスのメートルを毎月確認するように書いてあります。",
+            "romaji": "Mukashi no setsumeisho ni wa, gasu no mētoru o maitsuki kakunin suru yō ni kaite arimasu.",
+            "german": "In einer früheren Anleitung steht, dass man den Gaszähler jeden Monat prüfen soll."
+          }
+        ],
+        "aliases": [
+          "米"
+        ],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": [],
+        "senseKey": "measuring-device"
       }
     },
     "idioms": {
@@ -174916,6 +176472,7 @@ window.VOCAB_CORRECTION_RULES = {
       "3594": "vocab-n1:3594",
       "3629": "vocab-n1:3629",
       "3642": "vocab-n1:3642",
+      "3677": "vocab-n1:3677",
       "3687": "vocab-n1:3687",
       "3697": "vocab-n1:3697",
       "3715": "vocab-n1:3715",
@@ -177827,7 +179384,25 @@ window.VOCAB_CORRECTION_RULES = {
       "1554": "vocab-n5:correction:ban-series-suffix",
       "1555": "vocab-n5:correction:ko-small-counter",
       "1556": "vocab-n5:correction:go-word-noun",
-      "1557": "vocab-n5:correction:go-language-suffix"
+      "1557": "vocab-n5:correction:go-language-suffix",
+      "1558": "vocab-n5:correction:aa-emotive-interjection",
+      "1559": "vocab-n5:correction:shukan-week-duration",
+      "1560": "vocab-n5:correction:dai-physical-stand",
+      "1561": "vocab-n5:correction:nichi-sunday-abbreviation",
+      "1562": "vocab-n5:correction:gawa-side-party",
+      "1563": "vocab-n5:correction:go-honorific-prefix",
+      "1564": "vocab-n5:correction:jin-nationality-occupation-suffix",
+      "1565": "vocab-n5:correction:hiki-small-animal-counter",
+      "1566": "vocab-n5:correction:mai-flat-object-counter",
+      "1567": "vocab-n5:correction:nagara-simultaneous-action",
+      "1568": "vocab-n5:correction:kagetsu-month-duration-counter",
+      "1569": "vocab-n5:correction:ka-question-particle",
+      "1570": "vocab-n5:correction:domo-arigato-gozaimasu-full-thanks",
+      "1571": "vocab-n5:correction:keiniku-chicken-reading",
+      "1572": "vocab-n5:correction:rippa-seam-ripper",
+      "1573": "vocab-n5:correction:party-short",
+      "1574": "vocab-n5:correction:rajikase",
+      "1575": "vocab-n5:correction:rajio-kasetto"
     },
     "vocab-n4": {
       "24": "vocab-n4:24",
@@ -178615,7 +180190,8 @@ window.VOCAB_CORRECTION_RULES = {
       "3751": "vocab-n3:correction:tsuno-horn",
       "3752": "vocab-n3:correction:chu-during",
       "3753": "vocab-n3:correction:kan-volume-noun",
-      "3754": "vocab-n3:correction:ko-lake-suffix"
+      "3754": "vocab-n3:correction:ko-lake-suffix",
+      "3755": "vocab-n3:correction:nichi-calendar-day-counter"
     },
     "vocab-n2": {
       "67": "vocab-n2:67",
@@ -178717,6 +180293,7 @@ window.VOCAB_CORRECTION_RULES = {
       "2087": "vocab-n2:2087",
       "2098": "vocab-n2:2098",
       "2101": "vocab-n2:2101",
+      "2106": "vocab-n2:2106",
       "2111": "vocab-n2:2111",
       "2117": "vocab-n2:2117",
       "2121": "vocab-n2:2121",
@@ -179402,7 +180979,8 @@ window.VOCAB_CORRECTION_RULES = {
       "3056": "vocab-n2:correction:mei-person-counter",
       "3057": "vocab-n2:correction:shoku-color-counter",
       "3058": "vocab-n2:correction:nai-within-suffix",
-      "3059": "vocab-n2:correction:gai-outside-suffix"
+      "3059": "vocab-n2:correction:gai-outside-suffix",
+      "3060": "vocab-n2:correction:metoru-measuring-device"
     },
     "idioms": {
       "47": "idioms:47",

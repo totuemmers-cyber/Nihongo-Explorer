@@ -49,19 +49,29 @@ function validateSourceNotation(ref,target,notation) {
 // card rather than inventing a spelling alias or discarding an alternate reading.
 function validateSourceNotationTargets(ref,targets,notation) {
   assert(Array.isArray(targets)&&targets.length,'Missing source notation targets');
-  if(!['alternative-readings','shared-okurigana','spaced-spellings'].includes(notation?.kind)) {
+  if(!['alternative-readings','spaced-readings','shared-okurigana','spaced-spellings','parallel-alternatives'].includes(notation?.kind)) {
     assert.equal(targets.length,1,'Source notation requires one exact target');
     return validateSourceNotation(ref,targets[0],notation);
   }
   assert.deepStrictEqual(Object.keys(notation).sort(),['kind','reading','word'],'Invalid source notation fields');
   for(const field of ['word','reading'])assert(typeof notation[field]==='string'&&notation[field].trim(),'Incomplete source notation');
   let forms;
-  if(notation.kind==='alternative-readings') {
+  if(['alternative-readings','spaced-readings'].includes(notation.kind)) {
     assert.equal(notation.word,ref.word,'Alternative readings changed source spelling');
     assert.equal(notation.reading,ref.reading,'Alternative readings changed source notation');
-    const readings=ref.reading.split(/[/／]/u).map(s=>normalized(s.trim()));
+    const readings=notation.kind==='spaced-readings'?ref.reading.split(' ').map(normalized):ref.reading.split(/[/／]/u).map(s=>normalized(s.trim()));
     assert(readings.length>=2&&readings.length<=3&&new Set(readings.map(kana)).size===readings.length&&readings.every(r=>/^[ぁ-ゖァ-ヺー]+$/u.test(r)),'Unsupported alternative readings');
     forms=readings.map(reading=>({word:ref.word,reading}));
+  } else if(notation.kind==='parallel-alternatives') {
+    // Complete kana alternatives must preserve both literal source lists.
+    // Pair them by position; never transfer one reading to another spelling.
+    assert.equal(notation.word,ref.word,'Parallel alternatives changed source spelling');
+    assert.equal(notation.reading,ref.reading,'Parallel alternatives changed source notation');
+    const words=ref.word.split(/[/／]/u).map(s=>normalized(s.trim())),readings=ref.reading.split(/[/／]/u).map(s=>normalized(s.trim()));
+    assert(words.length>=2&&words.length<=3&&readings.length===words.length,'Unsupported parallel alternative lists');
+    assert(words.every((w,i)=>/^[ぁ-ゖァ-ヺー]+$/u.test(w)&&/^[ぁ-ゖァ-ヺー]+$/u.test(readings[i])&&kana(w)===kana(readings[i])),'Unsupported parallel alternative forms');
+    assert(new Set(words.map(kana)).size===words.length,'Repeated parallel alternative');
+    forms=words.map((word,i)=>({word,reading:readings[i]}));
   } else if(notation.kind==='spaced-spellings') {
     // Preserve the frozen source space. Only complete Han+kana spellings with
     // the same written ending may be separated; incomplete stems and phrases

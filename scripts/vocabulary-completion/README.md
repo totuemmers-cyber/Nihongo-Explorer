@@ -188,6 +188,30 @@ All 1,665 current N5 cards have complete reviewed teaching and investigated
 pitch. The remaining 253 source references across 182 groups keep N5 active;
 N4–N1 remain pending. This checkpoint does not certify a level.
 
+The tenth verified checkpoint adds 20 fully reviewed reading and grammatical-role
+cards and resolves 59 further frozen references. Campaign totals are 1,605 unique
+original entries enriched, 101 additions and 368 frozen references resolved.
+Counters, honorific and nationality affixes, particles, alternate readings and
+radio vocabulary receive their own teaching and investigated pitch. Separate
+calendar-day and Sunday uses, and the metre unit and measuring-device use, retain
+distinct cards. Original headwords, readings, levels and progress IDs remain.
+Parallel complete kana alternatives now bind their exact separate reviewed
+targets. A second bounded format recognizes two or three complete readings
+separated by one literal ASCII space; malformed lists continue to fail. The
+frozen truncated radio reference is excluded with positive original-PDF evidence,
+while both genuine whole radio forms are independently reviewed additions.
+All 21 full checks pass. A repeated build leaves all eight generated files
+identical; all 15,558 original identities and the four comprehension/audio
+payloads remain intact. No campaign source approval reopens.
+Browser verification covers 44 cards in 176 detail and note states across
+390/1440 widths and both themes, their exact current teaching, 44 searches,
+refreshed deep links and the historical duplicate redirect. Eight representative
+cards have 32 detail and 32 note screenshots; eight varied mobile/desktop screens
+in both themes were personally inspected.
+All 1,683 current N5 cards have complete reviewed teaching and investigated pitch.
+The remaining 194 source references across 140 groups keep N5 active; N4–N1 remain
+pending. This checkpoint does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -653,11 +677,12 @@ candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
 `additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
 
-`verified-source-notation` handles eight explicit publisher formats: a nominal
+`verified-source-notation` handles ten explicit publisher formats: a nominal
 heading with a complete suru-verb reading, a parenthesized reading ending, a
 reading misplaced into the gloss column, a kana-script variant, or combined
-spellings, alternative readings, shared final okurigana, or complete spellings
-separated by one literal space.
+spellings, alternative readings, shared final okurigana, complete spellings
+separated by one literal space, parallel complete kana alternatives, or complete
+readings separated by one literal space.
 Its `sourceNormalization` contains `kind`, `word` and `reading`;
 all three are bound to both approvals. A single separator `・` immediately
 before `する` is allowed in that format; other punctuation is preserved.
@@ -672,6 +697,15 @@ full spelling at the same reading to its own accepted card.
 same written ending, such as the frozen `見る 観る`, into explicit `見る/観る`
 coverage. Repeated forms, incomplete stems, differing endings and arbitrary
 whitespace fail. Each spelling requires its own current accepted target.
+`parallel-alternatives` preserves both literal slash-separated source lists,
+such as `キロ/キログラム` in both columns. It pairs two or three complete kana
+spellings and readings by position, requiring matching pronunciations and one
+distinct current accepted card per pair. Repeated, truncated, crossed or
+unequal lists fail. It cannot reconstruct a missing source alternative.
+`spaced-readings` preserves a literal reading such as `じゅう とお`. Two or
+three complete kana readings separated by single ASCII spaces require their
+own current accepted cards at the unchanged source spelling. Empty, repeated,
+concatenated or non-kana forms and other whitespace fail.
 Missing, unrelated, overlapping or extra targets fail; every target hash and both source approvals
 remain mandatory. These formats do not establish interchangeable usage.
 Lexical evidence and independent review are still required. This action cannot

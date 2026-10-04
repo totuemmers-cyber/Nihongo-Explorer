@@ -80952,5 +80952,83 @@ window.VOCAB_N3 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n3:correction:ko-lake-suffix"
+  },
+  {
+    "word": "日",
+    "reading": "にち",
+    "romaji": "nichi",
+    "meaning": "Zählwort für Tage; Kalendertag",
+    "type": "Nomen",
+    "category": "Kalender und Zeitspannen",
+    "level": "N3",
+    "notes": "日 steht nach einer Zahl für einen Kalendertag oder eine Anzahl von Tagen. Die Grundlesung にち erscheint etwa in 二十一日（にじゅういちにち）. Viele niedrige Zahlen bilden besondere Formen: 三日（みっか）, 十日（とおか）. Für eine Dauer kann 間 folgen: 十日間, zehn Tage lang. 日曜日 bezeichnet dagegen einen Wochentag.",
+    "examples": [
+      {
+        "japanese": "二十一日に東京へ行きます。",
+        "romaji": "Nijūichi-nichi ni Tōkyō e ikimasu.",
+        "german": "Am einundzwanzigsten fahre ich nach Tokio."
+      },
+      {
+        "japanese": "旅行は十日間です。",
+        "romaji": "Ryokō wa tōkakan desu.",
+        "german": "Die Reise dauert zehn Tage."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202062742",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "selectedRow": {
+          "locator": "sys.dic@202062742",
+          "originalFields": [
+            "名詞",
+            "普通名詞",
+            "助数詞可能",
+            "*",
+            "*",
+            "*",
+            "ニチ",
+            "日",
+            "日",
+            "ニチ",
+            "日",
+            "ニチ",
+            "漢",
+            "*",
+            "*",
+            "チ促",
+            "基本形",
+            "*",
+            "B4WB,B4WB9G",
+            "体",
+            "ニチ",
+            "ニチ",
+            "ニチ",
+            "ニチ",
+            "1",
+            "C3",
+            "*",
+            "7799669233164800",
+            "28375"
+          ]
+        },
+        "finding": "Actually inspected original whole surface 日/ニチ, pronunciation ニチ, role 名詞/普通名詞/助数詞可能/*, aType 1. Coarse app type Nomen for selected calendar/day unit; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual2083100/2 calendar nth day and3 day-duration counter selected; nominal Sunday1 separate senseKey/card, ひ sun/day and Japan abbreviation4 not taught. Exact202062742 ordinary counter-capable日/ニチ1 plus OJAD9443にち1 supports bare numeric unit citation, no compound contour inference. Reading changes explicitly taught: 二十一日 nijūichi-nichi versus 十日間 tōkakan. Editorial N3 from actual TANOSN3 literal day reference; no invented MasterN5 counter attribution. Frozen TANOS broad sun/sunshine gloss belongs to other readingひ and is explicitly excluded from this selected scope.",
+        "match": {
+          "word": "日",
+          "reading": "にち",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; exact lexical citation in selected calendar-day-counter role",
+          "sense": "Zählwort für Tage; Kalendertag"
+        }
+      }
+    ],
+    "senseKey": "calendar-day-counter",
+    "correctionId": "vocab-n3:correction:nichi-calendar-day-counter"
   }
 ];

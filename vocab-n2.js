@@ -75858,5 +75858,35 @@ window.VOCAB_N2 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n2:correction:gai-outside-suffix"
+  },
+  {
+    "word": "メートル",
+    "reading": "メートル",
+    "romaji": "mētoru",
+    "meaning": "Messgerät; Zähler (meist メーター)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N2",
+    "notes": "メートル hat neben der Längeneinheit eine belegte Bedeutung als Messgerät oder Zähler. Für solche Geräte ist heute meist メーター üblich, etwa ガスメーター. Die Bezeichnung メートル検査員 meint jemanden, der Messgeräte prüft; sie enthält hier keine Angabe einer Länge. Die seltene Schreibung 米 kann laut Wörterbuch auch diese Bedeutung tragen. Übe zunächst die Katakanaform und achte in älteren oder fachlichen Texten auf den Zusammenhang.",
+    "examples": [
+      {
+        "japanese": "古い記事には、メートル検査員が各家庭の計器を調べたと書かれています。",
+        "romaji": "Furui kiji ni wa, mētoru kensain ga kaku katei no keiki o shirabeta to kakarete imasu.",
+        "german": "In einem alten Artikel steht, dass ein Prüfer von Messgeräten die Geräte in jedem Haushalt untersucht hat."
+      },
+      {
+        "japanese": "昔の説明書には、ガスのメートルを毎月確認するように書いてあります。",
+        "romaji": "Mukashi no setsumeisho ni wa, gasu no mētoru o maitsuki kakunin suru yō ni kaite arimasu.",
+        "german": "In einer früheren Anleitung steht, dass man den Gaszähler jeden Monat prüfen soll."
+      }
+    ],
+    "aliases": [
+      "米"
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "measuring-device",
+    "correctionId": "vocab-n2:correction:metoru-measuring-device"
   }
 ];
