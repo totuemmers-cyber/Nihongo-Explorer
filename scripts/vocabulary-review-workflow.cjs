@@ -364,6 +364,6 @@ function prepareWorkflow(legacy, options) {
     redirects:JSON.parse(plan.files['scripts/vocabulary-completion/ledger.json']).redirects},null,2)+'\n';
   return {...plan,decisions,ledger,candidateLedger,workStates,pendingAdditions:pendingAdditions.length,
     sampleDefects:sampleDefectLedger,openSampleDefects:sampleDefectLedger.filter(d=>d.state==='open').length,
-    reviewedDistinctContextIds,workHeads:heads,candidateHeads:refHeads,workingItems:working};
+    reviewedDistinctContextIds,workHeads:heads,candidateHeads:refHeads,mergeHeads:mergeRecords,workingItems:working};
 }
 module.exports={prepareWorkflow,entryApprovalHash,decisionHash,mergeHash,states,LEGACY_V2_APPROVAL_BATCH_HASHES};

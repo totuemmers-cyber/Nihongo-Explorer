@@ -82055,5 +82055,232 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:shimo-lower-part-downstream"
+  },
+  {
+    "word": "園",
+    "reading": "その",
+    "romaji": "sono",
+    "meaning": "Garten, Obstgarten; Park (gehoben)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N3",
+    "notes": "園（その）bezeichnet ein abgegrenztes, angelegtes Stück Land mit Blumen, Obstbäumen oder anderen Pflanzen. Die Lesung klingt oft literarisch und steht etwa in 梅の園 „Pflaumengarten“. Für einen öffentlichen Park ist im Alltag 公園 geläufiger. Die ebenfalls belegten Schreibungen 苑 und die seltenere Form 薗 gelten hier für dieselbe Lesung und Bedeutung. Das gleich gelesene その „dieser“ ist ein Demonstrativwort. Die Lesung えん, etwa in 公園, gehört zu anderen Wortformen.",
+    "examples": [
+      {
+        "japanese": "春になると、梅の園に白い花が咲く。",
+        "romaji": "Haru ni naru to, ume no sono ni shiroi hana ga saku.",
+        "german": "Im Frühling blühen im Pflaumengarten weiße Blüten."
+      },
+      {
+        "japanese": "旅人は、園の木陰で静かに休んだ。",
+        "romaji": "Tabibito wa, sono no kokage de shizuka ni yasunda.",
+        "german": "Der Reisende ruhte sich still im Schatten der Bäume des Gartens aus."
+      }
+    ],
+    "aliases": [
+      "苑",
+      "薗"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@156489877",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 園/ソノ, lemma 園, 名詞/普通名詞/一般/*/*/*, aType1. Exact1176240s1 noun garden/orchard/park, Shogakukanその independentplantedlandpositive includingflowers/fruit/vegetables; frozenTANOS95 plantation andMaster16556 gardenorchardpark fully cover cultivatedgardens. No demonstrativeその orえん suffix transfer. 156489877 ordinarynoun aType1, surname1564880240 excluded. Exact苑 andrare薗 positiveJMdictaliases.",
+        "match": {
+          "word": "園",
+          "reading": "その",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Garten, Obstgarten; Park (gehoben)"
+        }
+      }
+    ],
+    "senseKey": "sono-cultivated-garden-noun",
+    "correctionId": "vocab-n3:correction:sono-cultivated-garden-noun"
+  },
+  {
+    "word": "周",
+    "reading": "しゅう",
+    "romaji": "shū",
+    "meaning": "Zhou-Dynastie (China)",
+    "type": "Nomen",
+    "category": "Geschichte",
+    "level": "N3",
+    "notes": "周（しゅう）ist hier der Name der alten chinesischen Zhou-Dynastie. Er erscheint in Geschichtstexten und in den Bezeichnungen 西周 „Westliche Zhou“ und 東周 „Östliche Zhou“. „Zhou“ und die ältere Umschrift „Chou“ geben den chinesischen Namen wieder; beim Lesen eines japanischen Texts lautet die Lesung しゅう. Das gleich geschriebene Wort für Umläufe oder den Umfang einer Figur hat eine andere Bedeutung. 週 „Woche“ und der Familienname 周 werden hier ebenfalls nicht gelernt.",
+    "examples": [
+      {
+        "japanese": "歴史の授業で、周の政治制度を学んだ。",
+        "romaji": "Rekishi no jugyō de, Shū no seiji seido o mananda.",
+        "german": "Im Geschichtsunterricht lernte ich das politische System der Zhou-Dynastie kennen."
+      },
+      {
+        "japanese": "博物館には、周の時代に作られた青銅器が展示されている。",
+        "romaji": "Hakubutsukan ni wa, Shū no jidai ni tsukurareta seidōki ga tenji sarete iru.",
+        "german": "Im Museum werden Bronzegefäße aus der Zeit der Zhou-Dynastie ausgestellt."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139804807",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 周/シュウ, lemma 周, 名詞/固有名詞/地名/国/*/*, aType1. Exact1331020s3 historical Zhou dynasty andlicensedShogakukan separateしゅうChinese-dynastyarticle, no lap/perimeter conflation. Only frozenMaster31631 ref1 Zhou/Chou resolves; TANOS73ref0 literalcircuit/lap/circumference/vicinity/Chou retainedopen because whole mixedscope not covered. Direct139804807 lemma周 properplace country accent1 selected; surname139803960 andordinarycounter139805165 excluded.",
+        "match": {
+          "word": "周",
+          "reading": "しゅう",
+          "grammaticalForm": "名詞/固有名詞/地名/国/*/*; exact selected Nomen",
+          "sense": "Zhou-Dynastie (China)"
+        }
+      }
+    ],
+    "senseKey": "shuu-zhou-dynasty",
+    "correctionId": "vocab-n3:correction:shuu-zhou-dynasty"
+  },
+  {
+    "word": "と",
+    "reading": "と",
+    "romaji": "to",
+    "meaning": "wenn; sobald (Bedingungs- und Zeitpartikel)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N3",
+    "notes": "と steht hier nach der einfachen Form eines Verbs oder i-Adjektivs und verbindet eine Bedingung oder ein Ereignis mit einer folgenden Folge. Es eignet sich besonders für regelmäßige oder automatisch eintretende Ergebnisse, etwa ボタンを押すと „wenn man den Knopf drückt“. Es kann auch das unmittelbar folgende Geschehen einer Erzählung einführen. Aufforderungen und frei gewählte Vorhaben als Folge passen meist besser zu たら oder なら. Die Funktionen „und“, „mit“ und das Zitieren haben eigene Verwendungen; der gleich gelesene Shōgi-Spielstein ist ein Nomen.",
+    "examples": [
+      {
+        "japanese": "このボタンを押すと、ドアが開きます。",
+        "romaji": "Kono botan o osu to, doa ga akimasu.",
+        "german": "Wenn man diesen Knopf drückt, öffnet sich die Tür."
+      },
+      {
+        "japanese": "駅を出ると、友達が手を振っていた。",
+        "romaji": "Eki o deru to, tomodachi ga te o futte ita.",
+        "german": "Als ich aus dem Bahnhof kam, winkte mir ein Freund zu."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "to-conditional-particle",
+    "correctionId": "vocab-n3:correction:to-conditional-particle"
+  },
+  {
+    "word": "ト",
+    "reading": "ト",
+    "romaji": "to",
+    "meaning": "siebte Iroha-Kennzeichnung; Ton G (japanische Tonbezeichnung)",
+    "type": "Nomen",
+    "category": "Sprache und Musik",
+    "level": "N3",
+    "notes": "ト steht in der Iroha-Reihenfolge イ・ロ・ハ・ニ・ホ・ヘ・ト an siebter Stelle und kann damit die siebte Position einer geordneten Liste kennzeichnen. Als japanischer Tonname bezeichnet ト den Ton G, etwa in ト長調 „G-Dur“. Das sind verschiedene Bezugssysteme: Von ハ（C）aus ist G der fünfte Ton; „siebte Iroha-Position“ bedeutet nicht „siebte Stufe der C-Dur-Tonleiter“. Die Partikel と und der Shōgi-Spielstein と haben andere Funktionen. Für die Tonbezeichnung wird üblicherweise Katakana verwendet.",
+    "examples": [
+      {
+        "japanese": "申込書では、イからトまでの七項目に答えてください。",
+        "romaji": "Mōshikomisho de wa, i kara to made no nana kōmoku ni kotaete kudasai.",
+        "german": "Bitte beantworten Sie im Antragsformular die sieben Punkte von イ bis ト."
+      },
+      {
+        "japanese": "一覧表のトの欄には、七番目の候補が載っている。",
+        "romaji": "Ichiranhyō no to no ran ni wa, nanabanme no kōho ga notte iru.",
+        "german": "In der Spalte ト der Übersicht steht der siebte Kandidat."
+      },
+      {
+        "japanese": "先生は、トの音をピアノで弾いて聞かせた。",
+        "romaji": "Sensei wa, to no oto o piano de hiite kikaseta.",
+        "german": "Der Lehrer spielte auf dem Klavier den Ton G vor."
+      },
+      {
+        "japanese": "この曲はト長調で書かれている。",
+        "romaji": "Kono kyoku wa tochōchō de kakarete iru.",
+        "german": "Dieses Stück ist in G-Dur geschrieben."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "to-iroha-label-musical-g",
+    "correctionId": "vocab-n3:correction:to-iroha-label-musical-g"
+  },
+  {
+    "word": "対",
+    "reading": "たい",
+    "romaji": "tai",
+    "meaning": "Gegenstück; Gegensatz",
+    "type": "Nomen",
+    "category": "Beziehung",
+    "level": "N3",
+    "notes": "Als selbstständiges Nomen bezeichnet 対（たい）hier ein Gegenstück oder einen Gegensatz, besonders in einer begrifflichen Gegenüberstellung. Das Wort wirkt sachlich oder gehoben. Die Verwendung zwischen Sportmannschaften oder Zahlen gehört zu anderen Bedeutungen; ein gewöhnliches Paar von Gegenständen heißt meist 対（つい）.",
+    "examples": [
+      {
+        "japanese": "「動」の対は「静」だ。",
+        "romaji": "“Dō” no tai wa “sei” da.",
+        "german": "Das Gegenstück zu „Bewegung“ ist „Ruhe“."
+      },
+      {
+        "japanese": "この絵では、光と闇を対として描いている。",
+        "romaji": "Kono e de wa, hikari to yami o tai to shite egaite iru.",
+        "german": "In diesem Bild werden Licht und Dunkelheit als Gegensätze dargestellt."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157918403",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 対/タイ, lemma 対, 名詞/普通名詞/一般/*/*/*, aType1. Exact independent noun対たい as opposite/complementary counterpart, JMdict1409800sense5 plus Daijisenたいdefinition1 and NipponKokugo noun①ハ. This covers the entire frozenMasteropposite/opposition meaning, not sportsversus, numberratio, prefixorordinaryついpair/counter. Exact wholeUniDic157918403 commonnoun対/タイaType1 matches this nominal head; truncated対するverb158080577 excluded.",
+        "match": {
+          "word": "対",
+          "reading": "たい",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Gegenstück; Gegensatz"
+        }
+      }
+    ],
+    "senseKey": "tai-opposed-counterpart-noun",
+    "correctionId": "vocab-n3:correction:tai-opposed-counterpart-noun"
+  },
+  {
+    "word": "対",
+    "reading": "たい",
+    "romaji": "tai",
+    "meaning": "Paar; zusammengehöriges Gegenstück (literarisch)",
+    "type": "Nomen",
+    "category": "Literatur",
+    "level": "N3",
+    "notes": "Die Lesung たい kann in älterer oder literarischer Sprache ein zusammengehöriges Paar bzw. dessen passendes Gegenstück bezeichnen, etwa zwei aufeinander bezogene Verse. Diese seltene Bedeutung ist ausdrücklich als Nomen belegt. Im heutigen Alltag liest man 対 für ein gewöhnliches Paar meist つい; auch 一対 heißt いっつい. Die Beispiele verwenden bewusst den literarischen Sinn mit der Lesung たい.",
+    "examples": [
+      {
+        "japanese": "この二つの句は、意味の上で対をなしている。",
+        "romaji": "Kono futatsu no ku wa, imi no ue de tai o nashite iru.",
+        "german": "Diese beiden Verse bilden inhaltlich ein zusammengehöriges Paar."
+      },
+      {
+        "japanese": "詩人は、先の句にふさわしい対を考えた。",
+        "romaji": "Shijin wa, saki no ku ni fusawashii tai o kangaeta.",
+        "german": "Der Dichter überlegte sich eine passende Gegenzeile zur ersten Verszeile."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "tai-literary-paired-set-noun",
+    "correctionId": "vocab-n3:correction:tai-literary-paired-set-noun"
   }
 ];

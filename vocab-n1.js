@@ -133551,5 +133551,797 @@ window.VOCAB_N1 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n1:correction:kai-biological-kingdom-noun"
+  },
+  {
+    "word": "画",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "Schriftstrich (eines Kanji)",
+    "type": "Nomen",
+    "category": "Sprache",
+    "level": "N1",
+    "notes": "画（かく）bezeichnet hier einen Strich oder Punkt, der mit einem durchgehenden Schreibzug entsteht und ein Kanji mit aufbaut. Beim Schreiben spricht man etwa von der letzten 画 eines Zeichens. Es ist ein selbstständiges Nomen; das gleich geschriebene Zählwort nach einer Zahl wird gesondert behandelt. Die Lesung が für ein Bild und das Verb 書く（かく）sind andere Wörter.",
+    "examples": [
+      {
+        "japanese": "この画は長すぎるので、少し短くしてください。",
+        "romaji": "Kono kaku wa nagasugiru node, sukoshi mijikaku shite kudasai.",
+        "german": "Dieser Schriftstrich ist zu lang; bitte machen Sie ihn etwas kürzer."
+      },
+      {
+        "japanese": "先生は最後の画を赤いペンで示した。",
+        "romaji": "Sensei wa saigo no kaku o akai pen de shimeshita.",
+        "german": "Der Lehrer markierte den letzten Schriftstrich mit einem roten Stift."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90461452",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 画/カク, lemma 画, 名詞/普通名詞/助数詞可能/*, aType1. Whole independentnoun stroke role exact1197050 n/ctr; primaryDaijisen expressly separates名1 and接尾. Both examples use independentnoun, not numeral counter. Original90461452 ordinary助数詞可能 noun1 selected; verbellipsis90657905 excluded.",
+        "match": {
+          "word": "画",
+          "reading": "かく",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*/*/*; exact selected Nomen",
+          "sense": "Schriftstrich (eines Kanji)"
+        }
+      }
+    ],
+    "senseKey": "kaku-written-stroke-noun",
+    "correctionId": "vocab-n1:correction:kaku-written-stroke-noun"
+  },
+  {
+    "word": "過多",
+    "reading": "かた",
+    "romaji": "kata",
+    "meaning": "Übermaß, Überschuss; übermäßig",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N1",
+    "notes": "過多 bezeichnet eine zu große Menge, meist in sachlicher oder fachlicher Sprache. Es steht häufig nach einem Nomen, etwa 情報過多 „Informationsüberflutung“ oder 供給過多 „Überangebot“. Anders als 多い bedeutet es ausdrücklich „zu viel“. Als na-Adjektiv ist auch 過多な möglich; es ist kein i-Adjektiv. Die gleich gelesenen Wörter 肩 und 型 haben andere Bedeutungen.",
+    "examples": [
+      {
+        "japanese": "情報過多で、必要な記事を見つけられない。",
+        "romaji": "Jōhō kata de, hitsuyō na kiji o mitsukerarenai.",
+        "german": "Wegen der Informationsüberflutung kann ich den benötigten Artikel nicht finden."
+      },
+      {
+        "japanese": "市場では供給過多が続き、価格が下がった。",
+        "romaji": "Shijō de wa kyōkyū kata ga tsuzuki, kakaku ga sagatta.",
+        "german": "Auf dem Markt hielt das Überangebot an, und die Preise sanken."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94073879",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 過多/カタ, lemma 過多, 名詞/普通名詞/形状詞可能/*, aType1. 1196230 n/adj-na too much; primary exact名形動 agrees. Two domains information/marketupply, faithfulGerman and ichidan potential見つけられない checked. Whole94073879 noun形状詞可能1 supports lexical pitch.",
+        "match": {
+          "word": "過多",
+          "reading": "かた",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*/*/*; exact selected Nomen / na-Adjektiv",
+          "sense": "Übermaß, Überschuss; übermäßig"
+        }
+      }
+    ],
+    "senseKey": "kata-excess",
+    "correctionId": "vocab-n1:correction:kata-excess"
+  },
+  {
+    "word": "対辺",
+    "reading": "たいへん",
+    "romaji": "taihen",
+    "meaning": "gegenüberliegende Seite (Geometrie)",
+    "type": "Nomen",
+    "category": "Mathematik",
+    "level": "N1",
+    "notes": "対辺 ist ein geometrischer Fachbegriff. Im Dreieck liegt die 対辺 einem bestimmten Innenwinkel gegenüber; im Viereck können zwei einander gegenüberliegende Seiten so heißen. Der Bezugspunkt muss aus der Aufgabe oder Zeichnung klar sein. Das gleich gelesene 大変 bedeutet unter anderem „schwierig“ und gehört nicht zu dieser Karte.",
+    "examples": [
+      {
+        "japanese": "この三角形で、赤い角の対辺を指してください。",
+        "romaji": "Kono sankakkei de, akai kaku no taihen o sashite kudasai.",
+        "german": "Bitte zeigen Sie in diesem Dreieck auf die Seite gegenüber dem rot markierten Winkel."
+      },
+      {
+        "japanese": "長方形の対辺は長さが等しい。",
+        "romaji": "Chōhōkei no taihen wa nagasa ga hitoshii.",
+        "german": "Gegenüberliegende Seiten eines Rechtecks sind gleich lang."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158176240",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 対辺/タイヘン, lemma 対辺, 名詞/普通名詞/一般/*, aType1. 1655340 mathnoun opposite-side, primaryDaijisen/Kokugo both triangleangle andquadrilateralopposites. These are distinctselectedgeometric configurations; no oppositepoint/surfaces or大変homophone. Exactwhole158176240 ordinarynoun1.",
+        "match": {
+          "word": "対辺",
+          "reading": "たいへん",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "gegenüberliegende Seite (Geometrie)"
+        }
+      }
+    ],
+    "senseKey": "taihen-opposite-side",
+    "correctionId": "vocab-n1:correction:taihen-opposite-side"
+  },
+  {
+    "word": "おおい",
+    "reading": "おおい",
+    "romaji": "ōi",
+    "meaning": "he!; hallo! (Ruf in die Ferne)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N1",
+    "notes": "おおい ist ein lauter Ruf an jemanden in einiger Entfernung. Er kann etwa einen Freund auf der anderen Straßenseite aufmerksam machen oder nach einer Person rufen. Üblich ist auch die Schreibung おーい. Der Ruf ist ungezwungen; für ein höfliches Ansprechen aus der Nähe eignet sich beispielsweise すみません. 多い（おおい）„viele“ und 覆い（おおい）„Abdeckung“ sind andere Wörter.",
+    "examples": [
+      {
+        "japanese": "おおい、川の向こうにいるのは君か。",
+        "romaji": "Ōi, kawa no mukō ni iru no wa kimi ka.",
+        "german": "He, bist du das auf der anderen Seite des Flusses?"
+      },
+      {
+        "japanese": "船が離れる前に、岸から「おおい、忘れ物だぞ」と叫んだ。",
+        "romaji": "Fune ga hanareru mae ni, kishi kara \"ōi, wasuremono da zo\" to sakenda.",
+        "german": "Bevor das Boot ablegte, rief ich vom Ufer: „He, du hast etwas vergessen!“"
+      }
+    ],
+    "aliases": [
+      "おーい"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73672464",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete おおい/オオイ, lemma おおい, 感動詞/一般/*/*, aType1. Exact2853873callingfromdistance interjection1; exactShogakukanおおい449497 personallyreadsupports lexicalrole. Two communicativepurposes identityquestion/warning. Wholeinterjection73672464 accent1; adjective多い1,2/cover0,3/place1 excluded.",
+        "match": {
+          "word": "おおい",
+          "reading": "おおい",
+          "grammaticalForm": "感動詞/一般/*/*/*/*; exact selected Ausdruck",
+          "sense": "he!; hallo! (Ruf in die Ferne)"
+        }
+      }
+    ],
+    "senseKey": "ooi-distance-call",
+    "correctionId": "vocab-n1:correction:ooi-distance-call"
+  },
+  {
+    "word": "佳句",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "schöne Verszeile; gelungenes Haiku",
+    "type": "Nomen",
+    "category": "Literatur",
+    "level": "N1",
+    "notes": "佳句（かく）bezeichnet eine besonders schöne oder gelungene Formulierung in einem Gedicht; auch ein ausgezeichnetes Haiku kann so heißen. Das Wort gehört zur literarischen Kritik und klingt gehoben. Es bezeichnet nicht beliebige Alltagssätze. In Gesprächen über Gedichte ist der Zusammenhang meist nötig. 書く „schreiben“, 画 „Schriftstrich“ und 核 „Kern“ sind trotz derselben Lesung andere Wörter.",
+    "examples": [
+      {
+        "japanese": "詩集を読みながら、心に残る佳句に線を引いた。",
+        "romaji": "Shishū o yominagara, kokoro ni nokoru kaku ni sen o hiita.",
+        "german": "Beim Lesen des Gedichtbands unterstrich ich schöne Verszeilen, die mir im Gedächtnis blieben."
+      },
+      {
+        "japanese": "俳句の会で、先生は参加者の佳句を紹介した。",
+        "romaji": "Haiku no kai de, sensei wa sankasha no kaku o shōkai shita.",
+        "german": "Beim Haiku-Treffen stellte der Lehrer gelungene Haiku der Teilnehmer vor."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90406888",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 佳句/カク, lemma 佳句, 名詞/普通名詞/一般/*, aType1. Exact1189710 independent literary noun; Shogakukanかく noun covers fine poetic wording and excellent haiku, not general phrases. Original TANOS28 and Master17857 exact literary passage scope. UniDic90406888 ordinarynoun accent1, no書く/画/核 transfer.",
+        "match": {
+          "word": "佳句",
+          "reading": "かく",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "schöne Verszeile; gelungenes Haiku"
+        }
+      }
+    ],
+    "senseKey": "kaku-beautiful-literary-line",
+    "correctionId": "vocab-n1:correction:kaku-beautiful-literary-line"
+  },
+  {
+    "word": "戸",
+    "reading": "こ",
+    "romaji": "ko",
+    "meaning": "Zählwort für Häuser und Wohneinheiten",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N1",
+    "notes": "戸（こ）steht nach einer Zahl und zählt Häuser, Haushalte oder einzelne Wohneinheiten. Bei einem Wohnhaus mit mehreren Wohnungen zählt man damit also häufig die Wohnungen. Beispiele sind 五百戸（ごひゃっこ）„fünfhundert Wohneinheiten“ und 十戸（じゅっこ）„zehn Wohneinheiten“. Die Zahl kann die Aussprache verändern: hier wird aus こ ein verdoppeltes k. Diese Karte behandelt das Zählwort, keine selbstständige Türbezeichnung; eine Tür heißt 戸（と）. Die Akzente vollständiger Zahlenverbindungen werden gesondert bestimmt.",
+    "examples": [
+      {
+        "japanese": "この地区には住宅が五百戸ある。",
+        "romaji": "Kono chiku ni wa jūtaku ga gohyakko aru.",
+        "german": "In diesem Bezirk gibt es fünfhundert Wohneinheiten."
+      },
+      {
+        "japanese": "新しいマンションでは、来月十戸を売り出す。",
+        "romaji": "Atarashii manshon de wa, raigetsu jukko o uridasu.",
+        "german": "Im neuen Wohnhaus werden nächsten Monat zehn Wohnungen zum Verkauf angeboten."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "ko-house-dwelling-counter",
+    "correctionId": "vocab-n1:correction:ko-house-dwelling-counter"
+  },
+  {
+    "word": "衆",
+    "reading": "しゅう",
+    "romaji": "shū",
+    "meaning": "viele Menschen, die Menge; zahlenmäßige Überlegenheit",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N1",
+    "notes": "衆（しゅう）bezeichnet hier als selbstständiges Nomen eine große Zahl von Menschen oder die zahlenmäßige Überlegenheit einer Gruppe. Es klingt gehoben und steht in Wendungen wie 衆に先んじる „anderen voraus sein“ oder 衆を頼む „auf die Überzahl bauen“. Das angeschlossene ～衆 in 旦那衆 oder 若い衆 hat eine andere grammatische Funktion. Die Lesung しゅ und historische Hofämter werden auf dieser Karte nicht geübt. 週 „Woche“ ist ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "彼女は衆に先んじて新しい方法を提案した。",
+        "romaji": "Kanojo wa shū ni sakinjite atarashii hōhō o teian shita.",
+        "german": "Sie schlug vor allen anderen eine neue Methode vor."
+      },
+      {
+        "japanese": "衆を頼んで相手を脅すのは卑怯だ。",
+        "romaji": "Shū o tanonde aite o odosu no wa hikyō da.",
+        "german": "Es ist feige, auf die eigene Überzahl zu bauen und den anderen einzuschüchtern."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139807378",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 衆/シュウ, lemma 衆, 名詞/普通名詞/一般/*, aType1. 1333240 sense1 masses/many people/numerical superiority exactly covers both frozen scopes TANOS73 andMaster31852. Primary independent名1/2 positive collocations selected, honorific/familiar bound-suffix2 excluded. Actual139807378 commonnoun accent1; personalname139803788 andsuffix139807543 not borrowed.",
+        "match": {
+          "word": "衆",
+          "reading": "しゅう",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "viele Menschen, die Menge; zahlenmäßige Überlegenheit"
+        }
+      }
+    ],
+    "senseKey": "shuu-many-people-noun",
+    "correctionId": "vocab-n1:correction:shuu-many-people-noun"
+  },
+  {
+    "word": "体",
+    "reading": "てい",
+    "romaji": "tei",
+    "meaning": "äußeres Erscheinungsbild, Zustand; Anschein",
+    "type": "Nomen",
+    "category": "Beschreibung",
+    "level": "N1",
+    "notes": "体（てい）bezeichnet hier die von außen erkennbare Gestalt oder den Zustand einer Person oder Sache, manchmal auch einen bewusst erweckten Anschein. Es klingt schriftsprachlich und steht oft nach の oder einer beschreibenden Form, etwa 何も知らない体 „als wüsste man von nichts“. Auch 態 ist für diese Lesung belegt. 体（からだ）„Körper“ und 体（たい）in anderen Fach- oder Zählverwendungen sind eigene Lesungen. Die Endung ～体 als herabsetzende Bezeichnung wird hier nicht geübt.",
+    "examples": [
+      {
+        "japanese": "彼は何も知らない体で質問に答えた。",
+        "romaji": "Kare wa nani mo shiranai tei de shitsumon ni kotaeta.",
+        "german": "Er beantwortete die Frage, als wüsste er von nichts."
+      },
+      {
+        "japanese": "雨にぬれた一行は、見るも哀れな体だった。",
+        "romaji": "Ame ni nureta ikkō wa, miru mo aware na tei datta.",
+        "german": "Die vom Regen durchnässte Gruppe bot einen erbarmungswürdigen Anblick."
+      }
+    ],
+    "aliases": [
+      "態"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179873880",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 体/テイ, lemma 体, 名詞/普通名詞/一般/*, aType1. Exact1409160 noun appearance/air/condition/state/form; licensedShogakukan independentてい名1 outwardstate and2 facade; Kokugoてい① shape/state positive. LiteralTANOS111 andMaster39255 whole scope covered through visiblecondition andfeignedair, noからだ/たい/suffixrole transfer. Actual179873880 ordinarynoun accent1. 態 exactpositive alias inJMdict/Master/Daijisen.",
+        "match": {
+          "word": "体",
+          "reading": "てい",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "äußeres Erscheinungsbild, Zustand; Anschein"
+        }
+      }
+    ],
+    "senseKey": "tei-outward-appearance-noun",
+    "correctionId": "vocab-n1:correction:tei-outward-appearance-noun"
+  },
+  {
+    "word": "干し",
+    "reading": "ほし",
+    "romaji": "hoshi",
+    "meaning": "Trocknung; getrocknet (als Präfix)",
+    "type": "Nomen",
+    "category": "Lebensmittel",
+    "level": "N1",
+    "notes": "干し（ほし）bezeichnet als Nomen das Trocknen oder den Trocknungsgrad, etwa in 干しが足りない „nicht ausreichend getrocknet“. Vor einem weiteren Nomen bildet es Wörter für getrocknete Erzeugnisse, etwa 干し柿（ほしがき）„getrocknete Kakis“ oder 干し肉（ほしにく）„Trockenfleisch“. Dabei ist „getrocknet“ eine Präfixbedeutung, kein selbstständig verwendetes Adjektiv. Auch 乾し ist belegt; 干 und 乾 ohne し sind unregelmäßige Schreibvarianten für genau diese Lesung und Bedeutung. Andere Lesungen von 乾 werden daraus nicht abgeleitet. Der Akzent des nominalen Eintrags wird nicht ungeprüft auf das Präfix und seine Zusammensetzungen übertragen.",
+    "examples": [
+      {
+        "japanese": "この魚は干しが足りないので、もう少し日に当てよう。",
+        "romaji": "Kono sakana wa hoshi ga tarinai node, mō sukoshi hi ni ateyō.",
+        "german": "Dieser Fisch ist noch nicht ausreichend getrocknet; lassen wir ihn noch etwas länger in der Sonne liegen."
+      },
+      {
+        "japanese": "海苔の干しには、十分な日差しが必要だ。",
+        "romaji": "Nori no hoshi ni wa, jūbun na hizashi ga hitsuyō da.",
+        "german": "Zum Trocknen von Nori braucht man genügend Sonnenschein."
+      },
+      {
+        "japanese": "干し柿は、涼しい場所に保存してください。",
+        "romaji": "Hoshigaki wa, suzushii basho ni hozon shite kudasai.",
+        "german": "Bitte bewahren Sie die getrockneten Kakis an einem kühlen Ort auf."
+      },
+      {
+        "japanese": "山では、干し肉を少しずつ食べて体力を保った。",
+        "romaji": "Yama de wa, hoshiniku o sukoshi zutsu tabete tairyoku o tamotta.",
+        "german": "In den Bergen aß ich nach und nach Trockenfleisch, um bei Kräften zu bleiben."
+      }
+    ],
+    "aliases": [
+      "乾し",
+      "干",
+      "乾"
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "hoshi-drying-dried-prefix",
+    "correctionId": "vocab-n1:correction:hoshi-drying-dried-prefix"
+  },
+  {
+    "word": "と",
+    "reading": "と",
+    "romaji": "to",
+    "meaning": "beförderter Bauer im Shōgi (Kurzform von と金)",
+    "type": "Nomen",
+    "category": "Spiele",
+    "level": "N1",
+    "notes": "と ist im Shōgi die Kurzform von と金（ときん）, dem beförderten Bauern. Der Stein wird aus einem 歩（ふ）durch Beförderung und zieht dann wie ein 金（きん）. Die Kurzform erscheint vor allem in Kommentaren, Notation und Gesprächen über eine Partie. Der Ausdruck ist ein selbstständiges Nomen, keine Bedingungspartikel.",
+    "examples": [
+      {
+        "japanese": "相手のとを取って、攻めを止めた。",
+        "romaji": "Aite no to o totte, seme o tometa.",
+        "german": "Ich schlug den beförderten Bauern des Gegners und stoppte den Angriff."
+      },
+      {
+        "japanese": "歩を進めてとを作り、王に迫った。",
+        "romaji": "Fu o susumete to o tsukuri, ō ni sematta.",
+        "german": "Ich rückte mit einem Bauern vor, beförderte ihn und bedrängte den König."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "to-promoted-shogi-pawn",
+    "correctionId": "vocab-n1:correction:to-promoted-shogi-pawn"
+  },
+  {
+    "word": "画期",
+    "reading": "かっき",
+    "romaji": "kakki",
+    "meaning": "Beginn einer neuen Epoche; epochaler Einschnitt",
+    "type": "Nomen",
+    "category": "Geschichte",
+    "level": "N1",
+    "notes": "画期（かっき）ist ein Nomen für einen Einschnitt, der eine vergangene von einer neuen Epoche trennt. Es steht in sachlicher oder historischer Sprache, etwa in 画期をなす „einen epochalen Einschnitt bilden“. Das na-Adjektiv „bahnbrechend, epochal“ heißt 画期的（かっきてき）; das bare 画期 wird hier nicht als Adjektiv verwendet. Die seltenere Schreibung 劃期 ist ebenfalls belegt. 活気（かっき）„Lebhaftigkeit“ bezeichnet etwas anderes.",
+    "examples": [
+      {
+        "japanese": "この発見は、研究の歴史に大きな画期をなした。",
+        "romaji": "Kono hakken wa, kenkyū no rekishi ni ōkina kakki o nashita.",
+        "german": "Diese Entdeckung bildete einen bedeutenden Einschnitt in der Forschungsgeschichte."
+      },
+      {
+        "japanese": "戦争の終結は、この国の歴史を分ける画期となった。",
+        "romaji": "Sensō no shūketsu wa, kono kuni no rekishi o wakeru kakki to natta.",
+        "german": "Das Ende des Krieges wurde zum Einschnitt zwischen zwei Epochen der Geschichte dieses Landes."
+      }
+    ],
+    "aliases": [
+      "劃期"
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95356120",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          1
+        ],
+        "finding": "Actual complete 画期/カッキ, lemma 画期, 名詞/普通名詞/一般/*/*/*, aType0,1. Exact1197170 independentnoun transition/change ofera, licensedShogakukan464150 sameheadnouninnovation createsnewperiod orboundary. OriginalTANOS31epoch-making andMaster18587groundbreaking/epochmaking plusnominalGrenze are positivelyqualified with exactnounrole, notfalseadjective; derivation画期的 onlyexplained. Original95356120 independentordinarynoun aType0,1 supportsverified primary0+variant1, no活気homophonetransfer.",
+        "match": {
+          "word": "画期",
+          "reading": "かっき",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Beginn einer neuen Epoche; epochaler Einschnitt"
+        }
+      }
+    ],
+    "senseKey": "kakki-epoch-boundary-noun",
+    "correctionId": "vocab-n1:correction:kakki-epoch-boundary-noun"
+  },
+  {
+    "word": "持ち",
+    "reading": "もち",
+    "romaji": "mochi",
+    "meaning": "Unentschieden, Gleichstand (historisch oder gehoben)",
+    "type": "Nomen",
+    "category": "Spiele und Literatur",
+    "level": "N1",
+    "notes": "持ち（もち）bezeichnet hier ein Unentschieden: Bei einem Wettstreit lässt sich kein Sieger bestimmen. Die Lesung ist besonders in älteren Texten über 歌合わせ „Gedichtwettstreite“ oder Brettspiele belegt. Heute ist 引き分け meist geläufiger. 持ちとなる und 持ちとされる bedeuten in diesem Zusammenhang „unentschieden ausgehen“ beziehungsweise „als unentschieden gewertet werden“. Die Lesung じ von 持 sowie „Besitz“ und „Haltbarkeit“ werden auf dieser Karte nicht gleichgesetzt.",
+    "examples": [
+      {
+        "japanese": "碁の勝負は持ちとなり、二人は笑って盤を片づけた。",
+        "romaji": "Go no shōbu wa mochi to nari, futari wa waratte ban o katazuketa.",
+        "german": "Die Go-Partie endete unentschieden, und die beiden räumten lachend das Brett weg."
+      },
+      {
+        "japanese": "歌合わせで優劣がつかず、その番は持ちとされた。",
+        "romaji": "Utaawase de yūretsu ga tsukazu, sono ban wa mochi to sareta.",
+        "german": "Beim Gedichtwettstreit ließ sich kein besserer Beitrag bestimmen, und diese Runde wurde als unentschieden gewertet."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "mochi-historical-draw-noun",
+    "correctionId": "vocab-n1:correction:mochi-historical-draw-noun"
+  },
+  {
+    "word": "いく",
+    "reading": "いく",
+    "romaji": "iku",
+    "meaning": "einen Orgasmus haben (umgangssprachlich)",
+    "type": "Verb",
+    "category": "Körper",
+    "level": "N1",
+    "notes": "Umgangssprachliches Verb für „einen Orgasmus haben“, oft in Katakana als イク geschrieben. Es ist ein Ausdruck für intime Gespräche zwischen Erwachsenen; in sachlicher Sprache ist オルガスムに達する eindeutiger. Hier wird ausschließlich いく gelesen. Die Form ゆく gehört nicht zu dieser Bedeutung. Das intransitive Godan-Verb bildet die te-Form いって und die Vergangenheit いった; die Verneinung lautet いかない. Die Bewegungsbedeutung „gehen“ wird auf einer eigenen Karte behandelt.",
+    "examples": [
+      {
+        "japanese": "彼女は、いったふりをしたことをパートナーに打ち明けた。",
+        "romaji": "Kanojo wa, itta furi o shita koto o pātonā ni uchiaketa.",
+        "german": "Sie gestand ihrem Partner, dass sie einen Orgasmus vorgetäuscht hatte."
+      },
+      {
+        "japanese": "彼は「まだいっていない」とパートナーに伝えた。",
+        "romaji": "Kare wa “mada itte inai” to pātonā ni tsutaeta.",
+        "german": "Er sagte seinem Partner: „Ich bin noch nicht zum Orgasmus gekommen.“"
+      }
+    ],
+    "aliases": [
+      "イク"
+    ],
+    "pitch": null,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationKind": "verb",
+      "conjugationReading": "いく"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "いく",
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "iku-sexual-climax-verb",
+    "correctionId": "vocab-n1:correction:iku-sexual-climax-verb"
+  },
+  {
+    "word": "弟",
+    "reading": "おと",
+    "romaji": "oto",
+    "meaning": "jüngerer Bruder; jüngere Schwester (historisch)",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N1",
+    "notes": "Historisches Nomen für einen jüngeren Bruder oder eine jüngere Schwester. Heute bezeichnet 弟（おとうと）gewöhnlich den jüngeren Bruder; die kurze Lesung おと begegnet in älteren Texten. Auch die Schreibung 乙 ist für dieses alte Wort belegt. Die Beispiele sind Erzählkontexte mit der bewusst historischen Lesung おと. Das Nomen wird hier von dem alten Präfix für „jünger“ und vom Namen einer Kyōgen-Maske getrennt.",
+    "examples": [
+      {
+        "japanese": "兄が旅立つ朝、弟は門の前で見送った。",
+        "romaji": "Ani ga tabidatsu asa, oto wa mon no mae de miokutta.",
+        "german": "Am Morgen, als der ältere Bruder aufbrach, verabschiedete ihn sein jüngerer Bruder vor dem Tor."
+      },
+      {
+        "japanese": "姉は幼い弟に、昔話を聞かせた。",
+        "romaji": "Ane wa osanai oto ni, mukashibanashi o kikaseta.",
+        "german": "Die ältere Schwester erzählte ihrer kleinen Schwester eine Geschichte aus alter Zeit."
+      }
+    ],
+    "aliases": [
+      "乙"
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "oto-archaic-younger-sibling-noun",
+    "correctionId": "vocab-n1:correction:oto-archaic-younger-sibling-noun"
+  },
+  {
+    "word": "象",
+    "reading": "しょう",
+    "romaji": "shō",
+    "meaning": "Erscheinung; Erscheinungsbild (gehoben)",
+    "type": "Nomen",
+    "category": "Beschreibung",
+    "level": "N1",
+    "notes": "Gehobenes oder literarisches Nomen für die sichtbare Erscheinung, Gestalt oder den Zustand einer Sache. Hier liest man 象 ausdrücklich しょう; die Alltagslesung ぞう bedeutet „Elefant“. Für ein konkretes Phänomen sagt man heute gewöhnlich 現象（げんしょう）. Die Beispiele verwenden den älteren selbstständigen Sinn „Erscheinungsbild“, etwa in einer Landschaftsbeschreibung oder bei der Betrachtung eines Gemäldes.",
+    "examples": [
+      {
+        "japanese": "山々は、夕日を受けて荘厳な象を示した。",
+        "romaji": "Yamayama wa, yūhi o ukete sōgon na shō o shimeshita.",
+        "german": "Die Berge boten im Licht der Abendsonne einen erhabenen Anblick."
+      },
+      {
+        "japanese": "この絵は、荒れた海の象をよく伝えている。",
+        "romaji": "Kono e wa, areta umi no shō o yoku tsutaete iru.",
+        "german": "Dieses Gemälde gibt das Erscheinungsbild der aufgewühlten See gut wieder."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "shou-appearance-phenomenon-noun",
+    "correctionId": "vocab-n1:correction:shou-appearance-phenomenon-noun"
+  },
+  {
+    "word": "秭",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "Quadrillion (10²⁴; seltene Zahleneinheit)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N1",
+    "notes": "Sehr seltene japanische Zahleneinheit für 10²⁴, also eine Quadrillion im deutschen Zahlensystem. Sie entspricht zehntausend 垓（がい）. Die kana-Schreibung し bezeichnet auf dieser Karte ausschließlich diese Zahleneinheit. Ältere Zählsysteme wiesen 秭 auch andere Werte zu; hier gilt der in der Quelle gewählte Wert 10²⁴. Die Einheit gehört zur Reihe großer Zahlennamen und wird nicht mit der gleich klingenden Partikel し oder 四 für „vier“ verwechselt.",
+    "examples": [
+      {
+        "japanese": "秭は、十の二十四乗を表す数の単位だ。",
+        "romaji": "Shi wa, jū no nijūyonjō o arawasu kazu no tan'i da.",
+        "german": "Shi ist eine Zahleneinheit, die zehn hoch vierundzwanzig bezeichnet."
+      },
+      {
+        "japanese": "この計算では、粒子の数を秭で表した。",
+        "romaji": "Kono keisan de wa, ryūshi no kazu o shi de arawashita.",
+        "german": "In dieser Berechnung wurde die Zahl der Teilchen in der Einheit Shi angegeben."
+      }
+    ],
+    "aliases": [
+      "し"
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "shi-large-number-unit",
+    "correctionId": "vocab-n1:correction:shi-large-number-unit"
+  },
+  {
+    "word": "駟",
+    "reading": "し",
+    "romaji": "shi",
+    "meaning": "Viergespann; vierspänniger Wagen (historisch)",
+    "type": "Nomen",
+    "category": "Geschichte",
+    "level": "N1",
+    "notes": "Historisches, vor allem in Texten über das alte China vorkommendes Nomen für die vier Pferde eines Gespanns oder den von ihnen gezogenen Wagen. Die Lesung lautet し; auf dieser Karte ist die kana-Schreibung し ausschließlich als phonetische Schreibung dieses Nomens zu verstehen. Heute sagt man meist 四頭立ての馬車 bzw. bezeichnet das Gespann ausdrücklich. Die beiden Beispiele unterscheiden das Fahren im Wagen von der Führung der vier Pferde.",
+    "examples": [
+      {
+        "japanese": "王は駟に乗って、城を出た。",
+        "romaji": "Ō wa shi ni notte, shiro o deta.",
+        "german": "Der König verließ die Burg in einem vierspännigen Wagen."
+      },
+      {
+        "japanese": "御者は、駟を小川へ連れていった。",
+        "romaji": "Gyosha wa, shi o ogawa e tsurete itta.",
+        "german": "Der Kutscher führte das Viergespann zu einem Bach."
+      }
+    ],
+    "aliases": [
+      "し"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133718597",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 駟/シ, lemma 駟, 名詞/普通名詞/一般/*/*/*, aType1. FrozenMasterしref1hasadditionalGermanwholebranchhorsesofafour-in-hand/four-in-hand. Positiveexactnoun駟し rawJMdict2842988four-horsecarriage/teamoffourhorses, fullDaijisen駟515192 andNipponKokugo名independentbothmeanings withactualclassicalattestation. CurrentMaster102442articleonlylicensesgrammarbranch anddoesnotattestthisnoun; evidenceclearlyqualifiesfrozenmixedhomophonescope, notfabricatedpublisherclaim. Qualifiedphoneticしaliasonlythishistoricalnoun; separategrammar/numericcardsvia senseKey. ExactwholeUniDic133718597common-noun駟/シaType1 matchesselectedtwo-partnominalmeaning. EditorialN1forrareclassicalchariotvocabulary, sourceMasterN4grammarlevelpreservedintheoriginalfrozenreference withoutassigningit tothishistoricalnoun.",
+        "match": {
+          "word": "駟",
+          "reading": "し",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Viergespann; vierspänniger Wagen (historisch)"
+        }
+      }
+    ],
+    "senseKey": "shi-four-horse-carriage-team",
+    "correctionId": "vocab-n1:correction:shi-four-horse-carriage-team"
+  },
+  {
+    "word": "哉",
+    "reading": "や",
+    "romaji": "ya",
+    "meaning": "Fragepartikel für Fragen und rhetorische Fragen (ältere Sprache)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N1",
+    "notes": "Ältere oder bewusst gehobene Schlussfragepartikel, die eine Frage oder eine rhetorische Frage kennzeichnet. Die seltene Schreibung 哉 wird hier や gelesen; üblich ist die kana-Schreibung や. Im heutigen Alltag würde man meist か oder eine entsprechende Frageform verwenden. 哉 bezeichnet hier ein gesprochenes Wort zur Markierung einer Frage, kein Satzzeichen wie „?“. Die Beispiele verwenden bewusst einen gehobenen Frageton. Die Lesung かな für einen Ausruf und die aufzählende Partikel や sind andere Verwendungen.",
+    "examples": [
+      {
+        "japanese": "この知らせは、真実であろう哉。",
+        "romaji": "Kono shirase wa, shinjitsu de arō ya.",
+        "german": "Ist diese Nachricht wohl wahr?"
+      },
+      {
+        "japanese": "どうしてその約束を破れよう哉。",
+        "romaji": "Dōshite sono yakusoku o yabureyō ya.",
+        "german": "Wie könnte man dieses Versprechen brechen?"
+      }
+    ],
+    "aliases": [
+      "や"
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "ya-historical-interrogative-final-particle",
+    "correctionId": "vocab-n1:correction:ya-historical-interrogative-final-particle"
+  },
+  {
+    "word": "周",
+    "reading": "しゅう",
+    "romaji": "shū",
+    "meaning": "Umfang einer Figur; Zählwort für Runden",
+    "type": "Nomen",
+    "category": "Mathematik",
+    "level": "N1",
+    "notes": "Als mathematisches Nomen bezeichnet 周（しゅう）die Begrenzung oder den Umfang einer geschlossenen Figur. Als Zählwort zählt es vollständige Runden oder Umläufe: 一周（いっしゅう）ist eine Runde, 三周（さんしゅう）sind drei Runden. Beim Zählen steht die Zahl unmittelbar davor. Die Akzentangabe gilt für den einzelnen Wortstamm; Zahl und Zählwort bilden zusammen ein eigenes Wort, dessen Akzent davon abweichen kann. Die Dynastie 周 und das seltene Nomen für die Umgebung haben eigene Karten; 週 bedeutet „Woche“.",
+    "examples": [
+      {
+        "japanese": "この三角形の周は、十二センチメートルだ。",
+        "romaji": "Kono sankakkei no shū wa, jūni senchimētoru da.",
+        "german": "Der Umfang dieses Dreiecks beträgt zwölf Zentimeter."
+      },
+      {
+        "japanese": "選手たちは、競技場のトラックを三周走った。",
+        "romaji": "Senshu-tachi wa, kyōgijō no torakku o sanshū hashitta.",
+        "german": "Die Sportler liefen drei Runden auf der Laufbahn des Stadions."
+      },
+      {
+        "japanese": "宇宙船は、地球の周りを二周した。",
+        "romaji": "Uchūsen wa, chikyū no mawari o nishū shita.",
+        "german": "Das Raumschiff umrundete die Erde zweimal."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139805165",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 周/シュウ, lemma 周, 名詞/普通名詞/助数詞可能/*/*/*, aType1. Full exact Daijisen 周しゅう independent mathematical closed perimeter noun and 接尾counter circuits, exact JMdict1331020s1ctr/s2math n. Actual sys.dic@139805165 common noun 助数詞可能 lemma周/シュウ aType1 and C4 nominal/countable role, not country139804807 or surname139803960. Runtimepitch1 is the inspected standalone lemma; number+counter compound accent is not inferred. Entire TANOS73 scope jointly covered by this circumference/circuit/lap target, separate positive vicinity target and unchanged reviewed Zhou dynasty target. Source page continuation actually completes Chou(dynasty), never discarded.",
+        "match": {
+          "word": "周",
+          "reading": "しゅう",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*/*/*; exact selected Nomen",
+          "sense": "Umfang einer Figur; Zählwort für Runden"
+        }
+      }
+    ],
+    "senseKey": "shuu-perimeter-circuit-counter",
+    "correctionId": "vocab-n1:correction:shuu-perimeter-circuit-counter"
+  },
+  {
+    "word": "周",
+    "reading": "しゅう",
+    "romaji": "shū",
+    "meaning": "Umgebung; Bereich ringsum (gehoben)",
+    "type": "Nomen",
+    "category": "Beschreibung",
+    "level": "N1",
+    "notes": "Gehobenes oder älteres selbstständiges Nomen für den Bereich rings um einen Ort. Hier wird 周 しゅう gelesen; die Alltagswörter für „Umgebung“ sind 周囲（しゅうい）oder まわり. In einer bewusst gehobenen Beschreibung kann beispielsweise 城の周 die Umgebung einer Burg bezeichnen. Dieser räumliche Sinn meint weder den mathematisch gemessenen Umfang noch eine gezählte Runde und auch nicht die Zhou-Dynastie. Die Beispiele geben den älteren nominalen Gebrauch in einer historischen Erzählung und einer Landschaftsbeschreibung wieder.",
+    "examples": [
+      {
+        "japanese": "兵は、城の周に陣を張った。",
+        "romaji": "Hei wa, shiro no shū ni jin o hatta.",
+        "german": "Die Soldaten schlugen in der Umgebung der Burg ihr Lager auf."
+      },
+      {
+        "japanese": "寺の周には、深い森が広がっていた。",
+        "romaji": "Tera no shū ni wa, fukai mori ga hirogatte ita.",
+        "german": "Rings um den Tempel erstreckte sich ein dichter Wald."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "shuu-surroundings-literary-noun",
+    "correctionId": "vocab-n1:correction:shuu-surroundings-literary-noun"
+  },
+  {
+    "word": "クラブ",
+    "reading": "クラブ",
+    "romaji": "kurabu",
+    "meaning": "Krabbe (in Speise- und Artnamen)",
+    "type": "Nomen",
+    "category": "Tiere",
+    "level": "N1",
+    "notes": "Aus dem englischen crab stammendes Nomen für eine Krabbe bzw. ihr Fleisch. Es begegnet im Japanischen besonders als Bestandteil von Speise- oder Artnamen, etwa クラブケーキ „Krabbenküchlein“ und ストーンクラブ „Steinkrabbe“. Das gewöhnliche japanische Wort für das Tier ist かに（蟹）. In solchen zusammengesetzten Bezeichnungen benennt クラブ das Tier oder sein Fleisch. Das gleich geschriebene, aus club stammende Wort für einen Verein, Nachtclub oder Golfschläger gehört zur anderen Karte. Dessen Akzentangabe gilt nicht automatisch für den Krabbensinn.",
+    "examples": [
+      {
+        "japanese": "前菜に、クラブケーキを一つ注文した。",
+        "romaji": "Zensai ni, kurabu kēki o hitotsu chūmon shita.",
+        "german": "Als Vorspeise bestellte ich ein Krabbenküchlein."
+      },
+      {
+        "japanese": "料理人は、ストーンクラブを蒸して殻を割った。",
+        "romaji": "Ryōrinin wa, sutōn kurabu o mushite kara o watta.",
+        "german": "Der Koch dämpfte eine Steinkrabbe und öffnete ihren Panzer."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "kurabu-crab-food-species",
+    "correctionId": "vocab-n1:correction:kurabu-crab-food-species"
   }
 ];

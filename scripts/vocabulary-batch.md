@@ -7,6 +7,12 @@ two reviewed contexts or investigated pitch. `--level=N5 --enrichment` makes thi
 selection explicit. The reusable module keeps its maintenance defaults unless
 these options are supplied. Candidate groups are allocated separately; a phase
 requires all references in groups owned by that level to resolve.
+Retired merge sources stay in working history but are excluded from both queue
+modes. Explicit entry rosters and previously allocated packets also reject them;
+pending additions remain eligible.
+Enrichment eligibility uses each working map's ID key, including projected
+addition content without an embedded ID. Fully reviewed additions do not
+re-enter the queue solely because their content snapshot omits that field.
 
 `node scripts/vocabulary-batch.cjs prepare --out=.content-cache/wave.json`
 allocates three fixed packets of up to 25 entries from one queue snapshot, in
@@ -20,7 +26,7 @@ for resolved proposals and researching/drafted/needs revision for unresolved
 ones; preserve their findings and open questions. Supply all final content,
 provenance, policy classification, and editorial checks before assembly.
 Candidate additions and sample defects use explicitly allocated packets described
-below. Identity merges retain the existing dedicated revision authoring path.
+below. Existing merge approvals use the explicit renewal allocation described below.
 
 `node scripts/vocabulary-batch.cjs assemble --packet=packet.json --proposal=proposal.json --out=assembly.json`
 binds the exact proposal and computes the per-batch deterministic routine sample.
@@ -52,6 +58,18 @@ during validation rejects the import without overwriting that edit. Temporary
 files use unique names. Use a new journal filename for each new wave.
 
 Focused verification: `node scripts/vocabulary-batch-test.cjs`.
+
+When editing a surviving merge target, allocate its approval renewal before
+assembly with the module function
+`allocateMergeRevisions(packet, plan, [retiredSourceId])`. The returned packet
+binds the exact historical merge predecessor and both current content snapshots.
+Append a merge proposal with that predecessor hash, the unchanged surviving ID,
+current evidence and preservation findings, and a consequential merge policy.
+Omit `fromHash`, `toHash` and old approvals; assembly binds the unchanged retired
+content and the final survivor content. Every allocated merge renewal must be
+present, and each requires fresh author and independent approvals against the
+same complete assembly. Import it in the same wave as the survivor edit. The
+retired source receives no new teaching review and its redirect is preserved.
 
 Candidate additions are allocated before authoring: use `prepare --candidates --references=refs.json`, where each explicit reference may include `additionIds`, for example `[{"key":"candidate-key","index":0,"additionIds":["vocab-n5:correction:new-sense"]}]`. Every allocated ID must appear in `proposal.additions`, alongside its candidate decision, and reviews plus additions remain limited to 25 entries per packet. The addition supplies its complete `entry`, reason, level basis, evidence, pitch investigation and consequential enrichment policy. Its accepted candidate decision targets the exact entry hash. Both addition and decision need explicit first and independent second approvals. The allocated candidate identity is included in the addition's approval-bound policy. Reuse neither existing IDs nor a newly prepared packet after its source changes.
 

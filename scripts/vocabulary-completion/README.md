@@ -36,6 +36,27 @@ include accepted entries still needing enrichment. Use explicit `--level=N4
 --enrichment` for a scoped inspection. Imports remain serialized and recovery-safe.
 See [current coverage](COVERAGE.md) and [batch workflow](../vocabulary-batch.md).
 
+The [priority N5 research findings](research-n5-priority-20261004.json) preserve
+the six difficult source cases researched on 4 October: exact frozen references,
+original publisher and primary dictionary locators, inspected-source hashes,
+positive lexical findings and the evidence still needed. These are dated research
+snapshots; current acceptance and coverage come from the review ledger. Inaccessible
+historical material is recorded explicitly so a search-index lead cannot become
+an asserted source inspection.
+
+The [remaining N5 research snapshot](research-n5-remaining-20261004.json)
+records all 14 references still open after batch 158, including the whole
+publisher meaning, positive partial evidence and the specific proof gap for
+each reading and role. It also identifies fetched articles that resolved to a
+different headword. The [N4 quality findings](research-n4-quality-20261004.json)
+retain targeted follow-ups discovered while correcting queue selection, and
+record the independently reviewed club/crab scope repair in batch 156.
+The [renewed 上／じょう investigation](research-jou-governmental-20261004.json)
+adds the original university-hosted Hepburn scans and distinguishes their
+しょう ruler-title evidence from the selected じょう reading and the still-open
+governmental scope. Research findings describe discovery-time content;
+explicit later resolutions supersede them.
+
 After a passing level gate and full test suite, run
 `node scripts/vocabulary-campaign.cjs advance` to advance the campaign. It validates
 the actual runtime, ledger and immutable baseline, rechecks every earlier phase,
@@ -306,6 +327,48 @@ have 32 detail and 32 note captures; eight varied captures were visually inspect
 N5 teaching is complete for all 1,686 current cards, but 62 references across 44
 groups keep N5 active. No earlier accepted reference reopens. N4–N1 enrichment
 remains open; live counts are in COVERAGE.md. This checkpoint certifies no level.
+
+The next verified checkpoint (164a) reviews 223
+further unique original N4 entries, adds 45 justified cards and closes
+67 frozen references.
+The library has 15,787 entries. Campaign totals
+are 1,833 original entries reviewed,
+229 additions and 568 of 1,944 frozen
+references resolved. Original-entry totals count unique campaign reviews,
+including improvements to previously complete teaching; repeats count once.
+This checkpoint closes 183 missing usage-note requirements
+and 187 missing requirements for two reviewed contexts.
+The exact 23-batch roster is recorded in campaign status.
+
+Every teaching change and source decision has exact author and independent
+approval. 36 earlier accepted references and
+one historical merge approval were
+renewed against their final targets; no accepted reference reopened. Good
+existing examples and all original identities, headwords, readings and levels are preserved.
+The retired-card queue defect is fixed in both modes without changing redirects.
+Survivor edits now allocate an exact merge-renewal roster through the batch tool;
+stale snapshots, changed predecessors and retargeting are rejected.
+The verb audit now honors explicitly reviewed noun roles while checking retained
+metadata, runtime role equality and correct conjugations for complete verbs.
+
+All 21 full checks pass. A second generation leaves eight generated files
+identical; all 15,558 original identities survive, and comprehension/audio
+payloads remain unchanged. Edge verifies 312 cards in
+1248 detail and note states at 390/1440 widths in both
+themes, with all qualified aliases, verified/variant/unknown pitch,
+pronunciation reading selection, conjugations, distinct same-reading sense
+refreshes, historical redirects and saved bookmarks. Eight representative
+cards have 32 detail and 32 note captures; eight varied captures were personally
+inspected. Completion audits and phase gates remain open with the counts below.
+N5 remains the active level; this checkpoint certifies no level.
+
+| Level | Missing notes | Missing two reviewed contexts | Open references |
+| --- | ---: | ---: | ---: |
+| N5 | 0 | 0 | 14 |
+| N4 | 1270 | 1361 | 296 |
+| N3 | 3225 | 3379 | 438 |
+| N2 | 2389 | 2513 | 276 |
+| N1 | 3869 | 4013 | 352 |
 
 ## Historical campaign freeze
 

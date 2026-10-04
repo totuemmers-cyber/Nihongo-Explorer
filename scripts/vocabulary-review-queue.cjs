@@ -4,6 +4,7 @@ const {levels,root}=require('./vocabulary-tools.cjs');
 const {selectedForBatch,POLICY_ID}=require('./vocabulary-review-policy.cjs');
 const fs=require('fs'),path=require('path');
 const formKey = row => JSON.stringify([row.word,row.reading]);
+const retiredIds = plan => new Set((plan.merges || []).map(row => row.from));
 function indexResearch(source) {
   const rows=Object.values(source?.entries||{});
   const byForm=new Map();
@@ -46,12 +47,13 @@ function packet(id,item,packets) {
 }
 function queue(plan,limit=25,options={}) {
   const current=plan.workingItems || new Map(plan.items.map(v=>[v.id,v]));
+  const retired=retiredIds(plan);
   const acceptedIds=new Set(plan.ledger.filter(v=>v.editorial==='reviewed').map(v=>v.id));
   const ledgerById=new Map(plan.ledger.map(row=>[row.id,row]));
   const sources=[...levels.map(l=>'vocab-'+l.toLowerCase()),'yojijukugo','idioms'];
   if (options.level && !levels.includes(options.level)) throw new Error('Invalid queue level');
-  const rows=[...current].filter(([id,item])=>(!options.level || item.level===options.level)
-    && (options.enrichment ? require('./vocabulary-phase-report.cjs').needsEnrichment(plan,item,ledgerById)
+  const rows=[...current].filter(([id,item])=>!retired.has(id) && (!options.level || item.level===options.level)
+    && (options.enrichment ? require('./vocabulary-phase-report.cjs').needsEnrichment(plan,item.id===id?item:{...item,id},ledgerById)
       : plan.workHeads?.get(id)?.state!=='accepted' && !acceptedIds.has(id)));
   rows.sort(([a,av],[b,bv])=>{
     const ah=plan.workHeads?.get(a),bh=plan.workHeads?.get(b);
@@ -87,7 +89,7 @@ function queue(plan,limit=25,options={}) {
     shard:{index:shardIndex+1,count:shardCount},entries,
     candidates:entries.length?candidates:scopedCandidates.slice(0,limit)};
 }
-module.exports={queue,researchPackets,indexResearch,packet};
+module.exports={queue,researchPackets,indexResearch,packet,retiredIds};
 if(require.main===module) {
   const statusFile=path.join(root,'scripts/vocabulary-completion/campaign-status.json');
   const status=fs.existsSync(statusFile)?JSON.parse(fs.readFileSync(statusFile,'utf8')):null;

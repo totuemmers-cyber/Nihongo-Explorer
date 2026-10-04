@@ -6,13 +6,13 @@ const {hash,project}=require('./vocabulary-correction-pipeline.cjs');
 const {entryApprovalHash,decisionHash,mergeHash}=require('./vocabulary-review-workflow.cjs');
 const {selectedForBatch,POLICY_ID,requirements:reviewRequirements}=require('./vocabulary-review-policy.cjs');
 const importer=require('./import-vocabulary-completion.cjs');
-const {queue,researchPackets,packet:researchPacket}=require('./vocabulary-review-queue.cjs');
+const {queue,researchPackets,packet:researchPacket,retiredIds}=require('./vocabulary-review-queue.cjs');
 const clone=v=>JSON.parse(JSON.stringify(v));
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
 const json=value=>JSON.stringify(value,null,2)+'\n';
 const nonempty=v=>typeof v==='string'&&v.trim();
 function content(plan,id){return plan.workingItems?.get(id)||plan.items.find(v=>v.id===id);}
-function binding(plan,id){const v=content(plan,id);assert(v,'Missing entry '+id);return {sourceHash:hash(project(v)),predecessorRevisionHash:plan.workHeads?.get(id)?.revisionHash??null};}
+function binding(plan,id){assert(!retiredIds(plan).has(id),'Retired identity cannot be revised: '+id);const v=content(plan,id);assert(v,'Missing entry '+id);return {sourceHash:hash(project(v)),predecessorRevisionHash:plan.workHeads?.get(id)?.revisionHash??null};}
 function preparePackets(plan,options={}) {
   const started=Date.now();
   let selected=queue(plan,75,{evidence:options.evidence!==false,level:options.level,enrichment:options.enrichment});
@@ -78,6 +78,21 @@ function prepareDefectPacket(plan,defects) {
   const p={version:1,policy:POLICY_ID,kind:'sample-defect',snapshotHash:hash(defectHeads),slot:1,entries:[],candidates:[],defectHeads};
   return {...p,packetHash:hash(p)};
 }
+// A survivor edit must renew its historical equivalence approval without editing
+// the retired card. Bind both existing snapshots and the exact merge predecessor.
+function allocateMergeRevisions(packet,plan,fromIds) {
+  checkPacket(packet,plan);
+  assert(!packet.mergeHeads,'Merge revision roster already allocated');
+  assert(Array.isArray(fromIds)&&fromIds.length>0&&fromIds.length<=25&&new Set(fromIds).size===fromIds.length,'Invalid merge revision roster');
+  const {packetHash,...body}=clone(packet);
+  body.mergeHeads=fromIds.map(from=>{
+    const previous=plan.mergeHeads?.get(from);
+    assert(previous&&retiredIds(plan).has(from),'Unknown retired merge source');
+    return {from,to:previous.to,predecessorMergeHash:hash(previous),
+      fromHash:hash(project(content(plan,from))),toHash:hash(project(content(plan,previous.to)))};
+  });
+  return {...body,packetHash:hash(body)};
+}
 function checkPacket(packet,plan) {
   const {packetHash,...body}=packet;assert.equal(hash(body),packetHash,'Packet was modified');
   assert(packet.entries.length<=25,'Packet exceeds 25 entries');
@@ -97,6 +112,11 @@ function checkPacket(packet,plan) {
   for(const row of packet.candidates)for(const id of row.additionIds||[])assert(!content(plan,id),'Allocated addition ID now exists');
   for(const id of packet.additionIds||[])assert(!content(plan,id),'Allocated addition ID now exists');
   for(const row of packet.defectHeads||[])assert.equal(plan.sampleDefects?.find(d=>d.id===row.id)?.revisionHash??null,row.predecessorDefectHash,'Stale sample-defect packet');
+  for(const row of packet.mergeHeads||[]) {
+    const previous=plan.mergeHeads?.get(row.from);
+    assert(previous&&previous.to===row.to&&hash(previous)===row.predecessorMergeHash,'Stale merge revision packet');
+    for(const side of ['from','to'])assert.equal(hash(project(content(plan,row[side]))),row[side+'Hash'],'Stale merge content snapshot');
+  }
 }
 function rows(batch){return [...(batch.reviews||[]),...(batch.additions||[]),...(batch.decisions||[]),...(batch.merges||[])];}
 function recordKey(r){return r.id||(r.from?'merge:'+r.from:r.key+'#'+r.referenceIndex);}
@@ -124,6 +144,8 @@ function checkVerbMetadata(item) {
 function assemble(packet,proposal,plan) {
   checkPacket(packet,plan);
   const batch=clone(proposal);assert.equal(batch.version,3,'Version 3 required');
+  assert.deepStrictEqual((batch.merges||[]).filter(r=>r.predecessorMergeHash!==null).map(r=>r.from).sort(),
+    (packet.mergeHeads||[]).map(r=>r.from).sort(),'Preserve complete fixed merge revision roster');
   if(packet.kind==='candidate') assert.deepStrictEqual((batch.decisions||[]).map(r=>r.key+'#'+r.referenceIndex).sort(),
     packet.candidates.map(r=>r.key+'#'+r.index).sort(),'Proposal must preserve the complete fixed candidate roster');
   assert.deepStrictEqual((batch.sampleDefects||[]).map(d=>d.id).sort(),(packet.defectHeads||[]).map(d=>d.id).sort(),'Preserve fixed sample-defect roster');
@@ -160,10 +182,12 @@ function assemble(packet,proposal,plan) {
     else if(r.from) {
       // Merges/retirements: the retired entry must be revised in this packet; the survivor
       // must be accepted here or already. Both snapshot hashes are bound after assembly.
-      assert(allocated.has(r.from),'Merge source outside fixed packet');
+      const renewal=(packet.mergeHeads||[]).find(head=>head.from===r.from);
+      assert(renewal||allocated.has(r.from),'Merge source outside fixed packet');
       assert(r.from!==r.to&&(allocated.has(r.to)||plan.workHeads?.get(r.to)?.state==='accepted'),'Merge target requires an accepted review');
       assert(!Object.hasOwn(r,'fromHash')&&!Object.hasOwn(r,'toHash'),'Merge hashes are bound by assembly');
-      assert.equal(r.predecessorMergeHash,null,'Use dedicated revision authoring to revise an existing merge');
+      assert.equal(r.predecessorMergeHash,renewal?.predecessorMergeHash??null,'Merge predecessor differs from allocation');
+      if(renewal)assert.equal(r.to,renewal.to,'Merge revision must preserve its surviving target');
       assert(r.policy?.risk==='consequential'&&(r.policy.reasons||[]).includes('merge'),'Merge requires consequential merge policy');
       if(r.retirement)assert(nonempty(r.retirement.reason)&&nonempty(r.retirement.relationship),'Retirement needs reason and relationship');
     }
@@ -190,9 +214,9 @@ function assemble(packet,proposal,plan) {
   const value={version:1,packet:clone(packet),batch,finalContent:Object.fromEntries([...(batch.reviews||[]).map(r=>[r.id,project({...content(plan,r.id),...r.replacement})]),...(batch.additions||[]).map(r=>[r.id,project(r.entry)])])};
   for(const m of batch.merges||[]) {
     const reviewed=id=>(batch.reviews||[]).find(r=>r.id===id);
-    assert(reviewed(m.from)?.state==='accepted','Merge source requires an accepted review in this batch');
+    assert((packet.mergeHeads||[]).some(head=>head.from===m.from)||reviewed(m.from)?.state==='accepted','Merge source requires an accepted review in this batch');
     assert(!reviewed(m.to)||reviewed(m.to).state==='accepted','Merge target review is unresolved');
-    m.fromHash=hash(value.finalContent[m.from]);
+    m.fromHash=hash(value.finalContent[m.from]||project(content(plan,m.from)));
     m.toHash=hash(value.finalContent[m.to]||project(content(plan,m.to)));
   }
   value.assemblyHash=hash(unsigned(value));return value;
@@ -306,7 +330,7 @@ function importWaveUnlocked(assemblies,names,journalFile,options={}) {
   writeAtomic(journalFile,json({version:1,complete:false,writes,writesHash:hash(writes),before}));
   return resumeJournalUnlocked(journalFile,base);
 }
-module.exports={preparePackets,prepareCandidatePackets,prepareAdditionPacket,prepareDefectPacket,checkPacket,assemble,approve,approvalTargets,verifyAssembly,importWave,resumeJournal};
+module.exports={preparePackets,prepareCandidatePackets,prepareAdditionPacket,prepareDefectPacket,allocateMergeRevisions,checkPacket,assemble,approve,approvalTargets,verifyAssembly,importWave,resumeJournal};
 if(require.main===module){
   const [command,...args]=process.argv.slice(2),get=name=>args.find(a=>a.startsWith('--'+name+'='))?.slice(name.length+3);
   const required=name=>{const value=get(name);assert(value,'Missing --'+name);return value;};

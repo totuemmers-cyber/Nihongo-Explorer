@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "findings": [
+    {
+      "discoveredAt": "2026-10-04",
+      "state": "resolved-by-independent-editorial-review",
+      "origin": "Superseded queue selected already complete corrections; no proposed edits or approvals imported.",
+      "id": "vocab-n4:correction:kiiboodo",
+      "currentWord": "キーボード",
+      "currentReading": "キーボード",
+      "finding": "Current meaning/note include the electronic musical instrument, but both examples use the computer keyboard. The richer instrument meaning lacks a distinct taught context.",
+      "source": {
+        "locator": "https://kotobank.jp/word/%E3%81%8D%E3%83%BC%E3%81%BC%E3%83%BC%E3%81%A9-3149389",
+        "inspectedFile": ".content-cache\\vocab-145a-primary-keyboard.html",
+        "sha256": "e1ee61a6cd97a311408e5c735bb0b6bc57d5a01386d6b5fd33f72b7ca4826b7b",
+        "finding": "Complete Shogakukan Digital Daijisen section personally inspected: electronic keyboard instruments sense2; computer input keyboard sense3. Full original JMdict1040910 generic keyboardnoun1 read; rawUniDic108980029 exactnoun3 read."
+      },
+      "proposedFix": "Preserve both useful computer examples and append 姉はバンドでキーボードを弾いています / Ane wa bando de kībōdo o hiite imasu / Meine ältere Schwester spielt in einer Band Keyboard, with exact source/content re-review.",
+      "resolution": {
+        "batch": "147a-full-n4.json",
+        "note": "Both original computer examples preserved with checked Hepburn; musical instrument example and specific German usage note independently approved against exact final content."
+      }
+    },
+    {
+      "discoveredAt": "2026-10-04",
+      "state": "research-guard-no-published-pitch-defect",
+      "origin": "Superseded queue selected already complete corrections; no proposed edits or approvals imported.",
+      "id": "vocab-n4:correction:omataseshimashita",
+      "currentWord": "お待たせしました",
+      "currentReading": "おまたせしました",
+      "finding": "Full formula currently has null pitch. The fresh exact-query OJAD result returns only the shorter お待たせ; that record cannot verify a contour for the entire お待たせしました. Two current contexts are generic waiting apologies; add an explicit personal-meeting application alongside coffee service.",
+      "source": {
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E5%BE%85%E3%81%9F%E3%81%9B%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F#word_12935",
+        "inspectedFile": ".content-cache/vocab-145a-ojad-omataseshimashita.html",
+        "sha256": "ff7785ff5a6cb80c04d0384a3c4bde9ce0ae4883bf2ce924cf65d1c8fd3baefd",
+        "finding": "Personally inspected full original word12935 row: headお待たせ, four moraeお/ま/た/せ, no accent_top. Whole requested readingおまたせしました has eight morae and no attested complete result. This finding does not assert any existing runtime false verified pitch."
+      },
+      "proposedFix": "Retain investigated null and record the actual rejected truncated OJAD result; retain original examples and append explicit arrival/apology to a waiting friend. Renew source108521 against exact final content."
+    },
+    {
+      "discoveredAt": "2026-10-04",
+      "state": "whole-source-scope-resolved",
+      "origin": "Superseded queue selected already complete corrections; no proposed edits or approvals imported.",
+      "id": "vocab-n4:correction:kurabu",
+      "currentWord": "クラブ",
+      "currentReading": "クラブ",
+      "finding": "Accepted historical027c reference TANOS N1 frozen whole gloss club, crab is bound only to the club teaching card. Full JMdict has an independent crab lexeme2846405; the entire reference cannot be renewed by only the club branch.",
+      "source": {
+        "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=175",
+        "inspectedFile": ".content-cache/jlpt-vocabulary/tanos-N1.pdf",
+        "sha256": "9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+        "finding": "Frozen literal reference personally read from immutable campaign record. Complete fresh dictionary matches1044310club,1243910club/fraternity,2846405crab located; originalN1page175 exact scope still requires source-author inspection before any decision."
+      },
+      "proposedFix": "Hold existing card unchanged. Root routed full crab scope investigation to source-author156; use positively qualified independent sense or supported exclusion, then renew whole reference and final targets.",
+      "resolution": {
+        "batch": "156a-full-n4.json",
+        "referenceHash": "0593c7386b23744923a1d9f4ddab00a3dba93fc20694076deb52cd52a411b898",
+        "targets": [
+          "vocab-n4:correction:kurabu",
+          "vocab-n1:correction:kurabu-crab-food-species"
+        ],
+        "note": "Separate qualified crab food/species card added and the whole historical club/crab reference independently renewed. Existing club card unchanged in this batch; its stored Hepburn cleanup remains a separate editorial follow-up. Batch147 now independently reviews stored Hepburn and adds distinct golf/card contexts, renewing the complete club/crab reference against both final targets.",
+        "storedHepburnCleanupBatch": "147a-full-n4.json"
+      }
+    }
+  ],
+  "scope": "Dated N4 quality findings, with checked cached evidence and explicit resolution status. No inferred pitch defect, source decision or editorial acceptance is created by this artifact."
+}

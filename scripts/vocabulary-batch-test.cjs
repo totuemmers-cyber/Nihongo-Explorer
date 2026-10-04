@@ -9,6 +9,32 @@ assert.deepStrictEqual(allocation.packets.map(p=>p.entries.length),[25,25,25]);
 assert.equal(new Set(allocation.packets.flatMap(p=>p.entries.map(e=>e.id))).size,75);
 assert.equal(new Set(allocation.packets.map(p=>p.snapshotHash)).size,1);
 const packet=allocation.packets[0],entry=packet.entries[0];
+// Working history retains retired cards; neither queue mode may resurrect them.
+// A pending addition is still eligible even though it is absent from runtime items.
+const pending={...items[1],id:'vocab-n5:correction:pending-test'};
+const mergedPlan={...plan,items:items.slice(1),merges:[{from:items[0].id,to:items[1].id}],
+  workingItems:new Map([...plan.workingItems,[pending.id,pending]])};
+const {queue}=require('./vocabulary-review-queue.cjs');
+for(const enrichment of [false,true]) {
+  const ids=queue(mergedPlan,100,{enrichment,level:'N5'}).entries.map(row=>row.id);
+  assert(!ids.includes(items[0].id),'Retired card must be absent from the review queue');
+  assert(ids.includes(items[1].id),'Canonical survivor must remain eligible');
+  assert(ids.includes(pending.id),'Pending addition must remain eligible');
+}
+assert.throws(()=>preparePackets(mergedPlan,{ids:[items[0].id],evidence:false}),/Retired identity/);
+assert.throws(()=>assemble(packet,{version:3,reviews:[]},mergedPlan),/Retired identity/,
+  'A packet allocated before retirement must also be rejected');
+// Addition working snapshots are projected content without an embedded ID.
+// Eligibility must use the map key to find their accepted ledger/context state.
+const completeAddition={...pending,notes:'Specific usage note',examples:[{japanese:'First',romaji:'First',german:'First'},{japanese:'Second',romaji:'Second',german:'Second'}]};
+const {id:completeId,...idlessComplete}=completeAddition;
+const {id:pendingId,...idlessPending}={...completeAddition,id:'vocab-n5:correction:still-pending'};
+const additionPlan={...plan,items:[...items,completeAddition],
+  workingItems:new Map([...plan.workingItems,[completeId,idlessComplete],[pendingId,idlessPending]]),
+  ledger:[{id:completeId,editorial:'reviewed',pitch:'unknown'}],reviewedDistinctContextIds:new Set([completeId])};
+const additionQueue=queue(additionPlan,100,{enrichment:true});
+assert(!additionQueue.entries.some(row=>row.id===completeId),'A completed addition must not re-enter enrichment because its projected content lacks an ID');
+assert(additionQueue.entries.some(row=>row.id===pendingId),'An ID-less pending addition must remain eligible');
 const record={id:entry.id,state:'accepted',revisionId:'test-0',originalHash:entry.sourceHash,predecessorHash:entry.sourceHash,predecessorRevisionHash:null,replacement:{},original:{},rationale:'Reviewed',review:{reviewer:'editor'},evidence:[{finding:'Checked'}],pitch:{status:'unknown'},policy:{id:POLICY_ID,risk:'routine',reasons:[],enrichmentRequired:false,sampled:false}};
 const proposal={version:3,reviews:packet.entries.map((e,i)=>({...record,id:e.id,revisionId:'test-'+i,originalHash:e.sourceHash,predecessorHash:e.sourceHash,state:i?'researching':'accepted'})),decisions:[]};
 const assembly=assemble(packet,proposal,plan);
@@ -250,5 +276,29 @@ console.log('Full-validator candidate addition import regression passed');
   assert.throws(()=>assemble(mp,{version:3,reviews:mp.entries.map(rev),merges:[{...merge,from:items[9].id}]},plan),/Merge source outside/);
   assert.throws(()=>assemble(mp,{version:3,reviews:mp.entries.map(rev),merges:[{...merge,retirement:{reason:''}}]},plan),/Retirement needs/);
   const changed=copy(ma);changed.batch.merges[0].retirement.reason='other';assert.throws(()=>approve(changed,[]),/Assembly changed/);
+  const {allocateMergeRevisions,checkPacket}=require('./vocabulary-batch.cjs');
+  const previous=mf.batch.merges[0];
+  const merged={...plan,items:items.filter(item=>item.id!==merge.from),merges:[previous],
+    mergeHeads:new Map([[merge.from,previous]])};
+  const survivorPacket=preparePackets(merged,{ids:[merge.to],evidence:false}).packets[0];
+  const renewedPacket=allocateMergeRevisions(survivorPacket,merged,[merge.from]);
+  const survivor={...rev(renewedPacket.entries[0],0),replacement:{notes:'New survivor note'}};
+  const renewal={...merge,predecessorMergeHash:hash(previous)};
+  const renewalProposal={version:3,reviews:[survivor],merges:[renewal]};
+  const ra=assemble(renewedPacket,renewalProposal,merged);
+  assert.equal(ra.batch.merges[0].fromHash,previous.fromHash,'Retired snapshot must remain unchanged');
+  assert.equal(ra.batch.merges[0].toHash,hash(ra.finalContent[merge.to]));
+  assert.notEqual(ra.batch.merges[0].toHash,previous.toHash);
+  assert(!Object.hasOwn(ra.finalContent,merge.from),'Renewal must not revise the retired card');
+  const fresh=approve(ra,approvalTargets(ra).map(t=>({...t,pass:'firstPass',decision:'accepted',reviewer:'editor',finding:'Exact revised survivor and historical equivalence inspected'})));
+  const independent=approve(fresh,approvalTargets(fresh).map(t=>({...t,pass:'secondPass',decision:'accepted',reviewer:'independent',finding:'Exact revised survivor and redirect inspected'})));
+  assert(independent.batch.merges[0].secondPass);
+  assert.throws(()=>assemble(renewedPacket,{...renewalProposal,merges:[]},merged),/fixed merge revision roster/);
+  assert.throws(()=>assemble(renewedPacket,{...renewalProposal,merges:[{...renewal,to:items[4].id}]},merged),/accepted review|surviving target/);
+  assert.throws(()=>checkPacket(renewedPacket,{...merged,mergeHeads:new Map([[merge.from,{...previous,preservedContent:'Changed'}]])}),/Stale merge revision packet/);
+  const newWorking=new Map(merged.workingItems);newWorking.set(merge.to,{...items[3],notes:'Concurrent edit'});
+  assert.throws(()=>checkPacket(renewedPacket,{...merged,workingItems:newWorking}),/Stale packet|Stale merge content snapshot/);
+  assert.throws(()=>allocateMergeRevisions(survivorPacket,merged,[items[4].id]),/Unknown retired/);
+  assert.throws(()=>allocateMergeRevisions(survivorPacket,merged,[merge.from,merge.from]),/Invalid merge revision roster/);
   console.log('Merge and retirement assembly regression passed');
 }

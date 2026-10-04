@@ -118,9 +118,14 @@ baseline.forEach((b, i) => {
   assert.equal(item.__rawWord, e.word, 'Raw source position changed');
   assert.equal(item.word, correction.word || e.word, 'Undocumented spelling change');
   assert.equal(item.reading, correction.reading || e.reading, 'Undocumented reading change');
+  if (correction.type) assert.equal(item.type, correction.type, 'Reviewed grammatical role drift: ' + e.word);
   assert.equal(JSON.stringify(item.conjugation), JSON.stringify(metadata), 'Metadata drift: ' + e.word);
   const resolved = ctx.resolveVocabVerbConjugation(item);
-  assert.equal(!!resolved, correction.conjugation ? metadata.conjugationKind === 'verb' : e.disposition === 'verified', 'Unexpected eligibility: ' + e.word);
+  // An explicit reviewed noun role can retain historical nominal-suru metadata
+  // without exposing conjugations for the bare noun.
+  const correctedNonverb = correction.type && correction.type !== 'Verb';
+  const eligible = !correctedNonverb && (correction.conjugation ? metadata.conjugationKind === 'verb' : e.disposition === 'verified');
+  assert.equal(!!resolved, eligible, 'Unexpected eligibility: ' + e.word);
   if (resolved) {
     const correctionEntry = correctionPlan.items.find(v=>v.source===e.source && v.__sourceIndex===e.index);
     const evidence = correctionPlan.correctionReviews.get(correctionEntry?.id)?.evidence || e.evidence;
@@ -128,6 +133,16 @@ baseline.forEach((b, i) => {
     for (const f of Object.values(resolved.result.forms)) assert(f.japanese && f.label);
   }
 });
+const signalNoun = allVocab.find(v => v.__sourceName === 'vocab-n4' && v.__sourceIndex === 980);
+assert.equal(signalNoun.type, 'Nomen', 'Bare 合図 has a reviewed nominal role');
+assert.equal(signalNoun.conjugation.conjugationKind, 'nominal-suru');
+assert.equal(ctx.resolveVocabVerbConjugation(signalNoun), null, 'Bare 合図 must not expose verb conjugations');
+const signalVerb = ctx.resolveVocabVerbConjugation({type:'Verb',word:'合図する',reading:'あいずする',
+  conjugation:{verbGroup:'suru',conjugationReading:'あいずする',conjugationKind:'verb'}});
+assert(signalVerb, 'Complete 合図する remains conjugatable');
+for (const [key, value] of Object.entries({polite:'あいずします',negative:'あいずしない',te:'あいずして',past:'あいずした'})) {
+  assert.equal(signalVerb.result.forms[key].japanese, value, '合図する/' + key);
+}
 for (const v of verbs) assert(v.conjugation, 'Unreviewed verb: ' + v.word);
 assert.equal(ctx.resolveVocabVerbConjugation({type:'Verb',word:'発表',reading:'はっぴょう',meaning:'veröffentlichen'}), null);
 const extraFixtures = require('./scripts/verb-expected-forms.json');

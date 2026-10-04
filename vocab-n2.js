@@ -76612,5 +76612,326 @@ window.VOCAB_N2 = [
     "pitchVariants": [],
     "pitchProvenance": [],
     "correctionId": "vocab-n2:correction:ji-temple-counter"
+  },
+  {
+    "word": "畳",
+    "reading": "じょう",
+    "romaji": "jō",
+    "meaning": "Zählwort für Tatami-Matten; Tatami-Flächeneinheit",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N2",
+    "notes": "畳（じょう）steht nach einer Zahl und zählt Tatami-Matten; mit solchen Zahlenangaben beschreibt man auch die Größe eines Zimmers. 六畳（ろくじょう）bedeutet ungefähr „sechs Tatami groß“. Die Fläche einer Matte ist regional unterschiedlich, daher ist 畳 keine überall identische Quadratmeterangabe. Die einzelne Matte heißt 畳（たたみ）. Der Akzent vollständiger Zahlenverbindungen wird nicht aus dem isolierten Wörterbucheintrag abgeleitet.",
+    "examples": [
+      {
+        "japanese": "六畳の部屋に机と布団を置いた。",
+        "romaji": "Rokujō no heya ni tsukue to futon o oita.",
+        "german": "Ich stellte einen Tisch und legte einen Futon in das sechs Tatami große Zimmer."
+      },
+      {
+        "japanese": "畳屋さんに畳を八畳注文した。",
+        "romaji": "Tatamiyasan ni tatami o hachijō chūmon shita.",
+        "german": "Ich bestellte beim Tatami-Händler acht Tatami-Matten."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "jou-tatami-area-counter",
+    "correctionId": "vocab-n2:correction:jou-tatami-area-counter"
+  },
+  {
+    "word": "五味",
+    "reading": "ごみ",
+    "romaji": "gomi",
+    "meaning": "die fünf traditionellen Geschmacksrichtungen",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N2",
+    "notes": "五味 bezeichnet in der traditionellen Einteilung süß, sauer, scharf, bitter und salzig. Diese Karte lehrt diese ältere kulinarische Einteilung. Sie unterscheidet sich von den fünf Grundgeschmacksarten der heutigen Geschmacksphysiologie, in denen Umami statt Schärfe enthalten ist. Die buddhistische Einteilung von Milchprodukten und der Familienname 五味 werden hier nicht geübt. ゴミ „Müll“ ist ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "料理の先生は、五味には辛さも含まれると説明した。",
+        "romaji": "Ryōri no sensei wa, gomi ni wa karasa mo fukumareru to setsumei shita.",
+        "german": "Der Kochlehrer erklärte, dass zu den fünf traditionellen Geschmacksrichtungen auch Schärfe gehört."
+      },
+      {
+        "japanese": "この献立では、五味のバランスを考えて食材を選んだ。",
+        "romaji": "Kono kondate de wa, gomi no baransu o kangaete shokuzai o eranda.",
+        "german": "Für dieses Menü wählte ich die Zutaten mit Blick auf ein ausgewogenes Verhältnis der fünf traditionellen Geschmacksrichtungen aus."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126692843",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 五味/ゴミ, lemma 五味, 名詞/普通名詞/一般/*, aType1. 2573390 sense1 five actualtraditionalflavors; primaryDaijisen1/Kokugo1 andsupplement explicitly distinguish modernphysiology umami, Buddhistmilk andsurname. Exactordinary1266928431 selected; surname1266925310,1 excluded.",
+        "match": {
+          "word": "五味",
+          "reading": "ごみ",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "die fünf traditionellen Geschmacksrichtungen"
+        }
+      }
+    ],
+    "senseKey": "gomi-traditional-five-flavors",
+    "correctionId": "vocab-n2:correction:gomi-traditional-five-flavors"
+  },
+  {
+    "word": "調度",
+    "reading": "ちょうど",
+    "romaji": "chōdo",
+    "meaning": "Hausrat, Einrichtungsgegenstände",
+    "type": "Nomen",
+    "category": "Wohnen",
+    "level": "N2",
+    "notes": "調度 bezeichnet Hausrat, alltägliche Gerätschaften und kleinere Möbel oder Einrichtungsgegenstände. Das Wort klingt gehoben oder schriftsprachlich und erscheint auch in 調度品. Es bezeichnet Gegenstände, keine Handlung des Ausstattens. 丁度／ちょうど „genau, gerade“ ist ein anderes Wort. Die historische Bedeutung „Pfeil und Bogen“ wird hier nicht gelernt.",
+    "examples": [
+      {
+        "japanese": "新居に合う調度を少しずつ揃えている。",
+        "romaji": "Shinkyo ni au chōdo o sukoshi zutsu soroete iru.",
+        "german": "Ich stelle nach und nach die zum neuen Zuhause passenden Einrichtungsgegenstände zusammen."
+      },
+      {
+        "japanese": "展示室には昔の家で使われていた調度が並んでいる。",
+        "romaji": "Tenjishitsu ni wa mukashi no ie de tsukawarete ita chōdo ga narande iru.",
+        "german": "Im Ausstellungsraum stehen Einrichtungsgegenstände, die früher in Häusern benutzt wurden."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170282693",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 調度/チョウド, lemma 調度, 名詞/普通名詞/一般/*, aType1. 1429280 noun1 householdfurnishings; licensedDaijisen1/Kokugo positive ordinarytools/smallfurniture; archery2 unselected. Entire170282693 commonnoun1 rather than adverb丁度.",
+        "match": {
+          "word": "調度",
+          "reading": "ちょうど",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Hausrat, Einrichtungsgegenstände"
+        }
+      }
+    ],
+    "senseKey": "choudo-household-furnishings",
+    "correctionId": "vocab-n2:correction:choudo-household-furnishings"
+  },
+  {
+    "word": "幾",
+    "reading": "いく",
+    "romaji": "iku",
+    "meaning": "einige, mehrere; wie viele (Präfix)",
+    "type": "Nomen",
+    "category": "Zahlen",
+    "level": "N2",
+    "notes": "幾（いく）steht als Präfix vor Mengen- und Zählwörtern. Mit か kann es eine unbestimmte Anzahl bezeichnen: 幾人か „einige Personen“. In einer Frage kann es „wie viele“ heißen; im Gespräch ist 何人 für „wie viele Personen“ meist geläufiger als 幾人. 幾度か bedeutet „einige Male“. 幾 wird hier nicht allein als selbstständiges Zahlwort verwendet. Die Wörter 行く und 幾つ bleiben eigene Karten.",
+    "examples": [
+      {
+        "japanese": "玄関で幾人かの客が待っていた。",
+        "romaji": "Genkan de ikunin ka no kyaku ga matte ita.",
+        "german": "Am Eingang warteten einige Gäste."
+      },
+      {
+        "japanese": "同じ失敗を幾度か繰り返して、やっと原因に気づいた。",
+        "romaji": "Onaji shippai o ikudo ka kurikaeshite, yatto gen'in ni kizuita.",
+        "german": "Nachdem ich denselben Fehler einige Male wiederholt hatte, bemerkte ich endlich die Ursache."
+      },
+      {
+        "japanese": "会場には幾人の参加者が集まったのでしょうか。",
+        "romaji": "Kaijō ni wa ikunin no sankasha ga atsumatta no deshō ka.",
+        "german": "Wie viele Teilnehmer haben sich wohl am Veranstaltungsort versammelt?"
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "iku-quantity-prefix",
+    "correctionId": "vocab-n2:correction:iku-quantity-prefix"
+  },
+  {
+    "word": "持ち",
+    "reading": "もち",
+    "romaji": "mochi",
+    "meaning": "-Halten, -Besitz; auf Kosten von (nominale Endung)",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N2",
+    "notes": "持ち（もち）bezeichnet hier das Halten, Benutzen oder Besitzen und die Übernahme einer Aufgabe oder eines Aufwands. Nach einem Nomen bildet es nominale Verbindungen: 片手持ち „mit einer Hand halten“, 二台持ち „Besitz von zwei Geräten“ und 私持ち „auf meine Kosten“. Die Partikel folgt dem ganzen Ausdruck. 費用は私持ちだ nennt die Person, die zahlt. Diese Karte behandelt solche nominalen Verbindungen, nicht die Verbform 持ち aus 持つ. Die eigenständigen Bedeutungen „Haltbarkeit“ und „Unentschieden“ haben separate Karten.",
+    "examples": [
+      {
+        "japanese": "このカメラは重いので、片手持ちでは安定しない。",
+        "romaji": "Kono kamera wa omoi node, katate mochi de wa antei shinai.",
+        "german": "Diese Kamera ist schwer und lässt sich mit nur einer Hand nicht stabil halten."
+      },
+      {
+        "japanese": "仕事用と私用で、携帯電話を二台持ちにしている。",
+        "romaji": "Shigotoyō to shiyō de, keitai denwa o nidai mochi ni shite iru.",
+        "german": "Ich habe zwei Mobiltelefone, eines für die Arbeit und eines für den privaten Gebrauch."
+      },
+      {
+        "japanese": "今日の昼食代は私持ちです。",
+        "romaji": "Kyō no chūshokudai wa watashi mochi desu.",
+        "german": "Das heutige Mittagessen geht auf meine Kosten."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "mochi-holder-cost-bearing-suffix",
+    "correctionId": "vocab-n2:correction:mochi-holder-cost-bearing-suffix"
+  },
+  {
+    "word": "持ち",
+    "reading": "もち",
+    "romaji": "mochi",
+    "meaning": "Haltbarkeit, Lebensdauer; Dauer der Wirkung",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N2",
+    "notes": "持ち（もち）bezeichnet hier als selbstständiges Nomen, wie lange Qualität, Funktion oder Wirkung erhalten bleiben. 持ちがいい heißt „hält lange“, 持ちが悪い „hält nicht lange“. Das Wort wird etwa für Akkus, Kleidung oder Lebensmittel verwendet. Es bezeichnet keine Besitzperson und ist hier keine angehängte Endung. 保ち ist eine gelegentliche Schreibung für diese Bedeutung. Im jeweiligen Zusammenhang muss klar sein, welche Eigenschaft erhalten bleibt.",
+    "examples": [
+      {
+        "japanese": "この電池は持ちがいいので、旅行に向いている。",
+        "romaji": "Kono denchi wa mochi ga ii node, ryokō ni muite iru.",
+        "german": "Diese Batterie hält lange und eignet sich deshalb für Reisen."
+      },
+      {
+        "japanese": "その布は持ちが悪く、すぐに傷んでしまった。",
+        "romaji": "Sono nuno wa mochi ga waruku, sugu ni itande shimatta.",
+        "german": "Dieser Stoff war wenig haltbar und verschliss schnell."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263869777",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Actual complete 持ち/モチ, lemma 持ち, 名詞/普通名詞/一般/*/*/*, aType2. Exact1612060s2 nounwear/durability/life andShogakukan持ち1/Kokugo持② independentlongquality/function maintenance; originalTANOS162fullcontinuation meaning2 covered, notliteraltruncatedtailinvented. Whole263869777 commonnounlemma持ちaType2 exactnominaldurabilityrole; bound263870246* and持つverb2647266201 excluded.",
+        "match": {
+          "word": "持ち",
+          "reading": "もち",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Haltbarkeit, Lebensdauer; Dauer der Wirkung"
+        }
+      }
+    ],
+    "senseKey": "mochi-durability-noun",
+    "correctionId": "vocab-n2:correction:mochi-durability-noun"
+  },
+  {
+    "word": "女",
+    "reading": "じょ",
+    "romaji": "jo",
+    "meaning": "Frau; Mädchen; Tochter (gehoben oder in Zusammensetzungen)",
+    "type": "Nomen",
+    "category": "Familie",
+    "level": "N2",
+    "notes": "女（じょ）bezeichnet eine Frau, ein Mädchen oder eine Tochter. Als alleinstehendes Nomen wirkt diese Lesung gehoben oder historisch; im Alltag sagt man für „Frau“ meist 女（おんな）. In Zusammensetzungen ist じょ üblich, etwa 一男一女（いちなんいちじょ）für einen Sohn und eine Tochter. Die Beispiele zeigen die ältere selbstständige Verwendung und die Tochter-Bedeutung in einer Zahlverbindung. Der Namenszusatz bei Frauennamen und die gleich geschriebene Himmelskonstellation gehören zu anderen Verwendungen.",
+    "examples": [
+      {
+        "japanese": "女は、花を売って暮らしていた。",
+        "romaji": "Jo wa, hana o utte kurashite ita.",
+        "german": "Die Frau verdiente ihren Lebensunterhalt mit dem Verkauf von Blumen."
+      },
+      {
+        "japanese": "夫妻には、一男一女がいる。",
+        "romaji": "Fūsai ni wa, ichinan ichijo ga iru.",
+        "german": "Das Ehepaar hat einen Sohn und eine Tochter."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "jo-female-person-daughter-nominal",
+    "correctionId": "vocab-n2:correction:jo-female-person-daughter-nominal"
+  },
+  {
+    "word": "器",
+    "reading": "き",
+    "romaji": "ki",
+    "meaning": "Gerät; Instrument (Wortbildungselement)",
+    "type": "Nomen",
+    "category": "Technik",
+    "level": "N2",
+    "notes": "器（き）ist hier ein nominales Wortbildungselement am Ende von Gerätebezeichnungen, etwa 受話器（じゅわき）für einen Telefonhörer oder 電熱器（でんねつき）für ein elektrisches Heizgerät. Es wird in diesen Zusammensetzungen zusammen mit dem vorangehenden Teil ausgesprochen. Die Karte behandelt die Geräte-Bedeutung; das selbstständige 器（うつわ）für ein Gefäß und die gehobene Bedeutung „Begabung“ sind eigene Verwendungen. Die Schreibungen 器 und 機 lassen sich bei Geräten nicht beliebig austauschen.",
+    "examples": [
+      {
+        "japanese": "古い受話器から、かすかな声が聞こえた。",
+        "romaji": "Furui juwaki kara, kasukana koe ga kikoeta.",
+        "german": "Aus dem alten Telefonhörer war eine leise Stimme zu hören."
+      },
+      {
+        "japanese": "実験では、電熱器で水を温めた。",
+        "romaji": "Jikken de wa, dennetsuki de mizu o atatameta.",
+        "german": "Bei dem Experiment wurde das Wasser mit einem elektrischen Heizgerät erwärmt."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "ki-device-instrument-suffix",
+    "correctionId": "vocab-n2:correction:ki-device-instrument-suffix"
+  },
+  {
+    "word": "佚",
+    "reading": "いつ",
+    "romaji": "itsu",
+    "meaning": "Muße; behagliche Ruhe (literarisch)",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N2",
+    "notes": "Seltenes, literarisches Nomen für ein behagliches Ausruhen oder ein Leben in Muße. Die Lesung ist いつ; das gleich klingende Fragewort いつ „wann“ ist eine andere Vokabel. Bekannt ist die Wendung 佚を以て労を待つ: Man ruht sich aus und erwartet den bereits ermüdeten Gegner. Im Alltag spricht man eher von 休息 oder のんびりする. Die Karte behandelt den selbstständigen Ruhesinn; weitere Zeichenbedeutungen von 佚 wie „verloren gehen“ gehören nicht zu diesem Wortgebrauch.",
+    "examples": [
+      {
+        "japanese": "将軍は、佚を以て労を待つ策を取った。",
+        "romaji": "Shōgun wa, itsu o motte rō o matsu saku o totta.",
+        "german": "Der General wählte die Strategie, sich auszuruhen und den erschöpften Gegner zu erwarten."
+      },
+      {
+        "japanese": "老人は、静かな山里で佚を楽しんだ。",
+        "romaji": "Rōjin wa, shizuka na yamazato de itsu o tanoshinda.",
+        "german": "Der alte Mann genoss seine Muße in einem ruhigen Bergdorf."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56240212",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete 佚/イツ, lemma 佚, 名詞/普通名詞/一般/*/*/*, aType1. Exact independent 佚いつ noun comfortable rest/relaxation, original JMdict1585390 sole n sense and complete Shogakukan NipponKokugo 名詞 heading. Current original Master56326 exact noun/N2 and entire frozen ref1 comfortable/relaxing, not broader TANOS character scope ref0. Exact KanjiPedia lexical idiom0000249100 佚を以て労を待つ positively supplies bare noun rest/at ease in genuine grammatical context. Selected ordinary noun sys.dic@56240212 lemma佚 exactイツ aType1, competing person-name row56238496 rejected. Do not reinterpret asいつwhen, as lost/beautiful character use or as proper name.",
+        "match": {
+          "word": "佚",
+          "reading": "いつ",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Muße; behagliche Ruhe (literarisch)"
+        }
+      }
+    ],
+    "senseKey": "itsu-leisure-relaxation-noun",
+    "correctionId": "vocab-n2:correction:itsu-leisure-relaxation-noun"
   }
 ];

@@ -16,8 +16,8 @@ function coverageDocument(plan) {
     ].map(([label,count])=>`| ${label} | ${count} |`).join('\n')+
     '\n\nReview completion: **'+(r.complete?'complete':'open')+'**. Strict enrichment: **'+(r.strictComplete?'complete':'open')+'**.\n\n'+
     'Ledger SHA256: `'+hash(ledger)+'`.\n\n'+
-    '## Level phases\n\n| Level | Entries | Missing notes | Missing second example | Pending reviews | Unresolved references | Complete |\n| --- | ---: | ---: | ---: | ---: | ---: | --- |\n'+
-    Object.values(phases).map(p=>`| ${p.level} | ${p.total} | ${p.missingNotes} | ${p.fewerThanTwo} | ${p.unreviewedEntries} | ${p.unresolvedCandidateReferences} | ${p.complete?'yes':'no'} |`).join('\n')+'\n\n'+
+    '## Level phases\n\n| Level | Entries | Missing notes | Missing second example | Missing two reviewed contexts | Pending reviews | Unresolved references | Complete |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |\n'+
+    Object.values(phases).map(p=>`| ${p.level} | ${p.total} | ${p.missingNotes} | ${p.fewerThanTwo} | ${p.lackingReviewedDistinctContexts} | ${p.unreviewedEntries} | ${p.unresolvedCandidateReferences} | ${p.complete?'yes':'no'} |`).join('\n')+'\n\n'+
     'Shared candidate groups belong to the earliest level among their reference levels and current target-entry levels, including targets allocated by later decisions (historical target levels are used only when no current entry exists). Every reference in such a group must be resolved before that phase completes. Open review defects block all phase gates.\n';
 }
 module.exports={coverageDocument};
