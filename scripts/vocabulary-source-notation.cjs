@@ -13,7 +13,9 @@ function validateSourceNotation(ref,target,notation) {
     case 'nominal-verb':
       assert.equal(notation.word,ref.word+'する','Source does not indicate this suru verb');
       assert(ref.reading.endsWith('する'),'Source lacks complete suru reading');
-      assert.equal(normalized(notation.reading),normalized(ref.reading),'Source suru reading differs');
+      // Some lists place one separator immediately before the suru ending.
+      // No other punctuation or part of the reading may be discarded.
+      assert.equal(normalized(notation.reading),normalized(ref.reading.replace(/・(?=する$)/u,'')),'Source suru reading differs');
       break;
     case 'parenthetical-reading': {
       const match=ref.reading.match(/^(.+)[(（]([ぁ-ゖァ-ヺー]+)[)）]$/u);

@@ -39065,5 +39065,125 @@ window.VOCAB_N4 = [
       }
     ],
     "correctionId": "vocab-n4:correction:koudou-hall"
+  },
+  {
+    "word": "運動する",
+    "reading": "うんどうする",
+    "romaji": "undō suru",
+    "meaning": "Sport treiben, sich körperlich bewegen",
+    "type": "Verb",
+    "category": "Sport",
+    "level": "N4",
+    "notes": "運動する bedeutet hier, sich körperlich zu bewegen oder Sport zu treiben. Der Ort steht mit で; eine Dauer wie 三十分 steht ohne に. 毎朝 beschreibt eine Gewohnheit, während 〜ので im zweiten Beispiel den Grund für die Wahl des Ortes nennt. Das Verb ist intransitiv; Ort und Dauer beschreiben die Tätigkeit. Die Formen sind zum Beispiel 運動します, 運動した und 運動して. 運動 allein ist ein Nomen; die Bedeutungen „Kampagne“ und „Bewegung eines Körpers“ werden hier nicht geübt.",
+    "examples": [
+      {
+        "japanese": "毎朝、公園で三十分運動します。",
+        "romaji": "Maiasa, kōen de sanjuppun undō shimasu.",
+        "german": "Ich treibe jeden Morgen dreißig Minuten im Park Sport."
+      },
+      {
+        "japanese": "昨日は雨だったので、家で運動しました。",
+        "romaji": "Kinō wa ame datta node, ie de undō shimashita.",
+        "german": "Weil es gestern regnete, machte ich zu Hause Sport."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "うんどうする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "うんどうせよ"
+        ]
+      }
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "うんどうする",
+    "conjugationVariants": {
+      "imperative": [
+        "うんどうせよ"
+      ]
+    },
+    "pitchProvenance": [
+      {
+        "source": "OJAD",
+        "version": "Downloaded 2026-10-04; HTML SHA256 a231e2c65fb3f39d9e6cc2ad837a1a60e6b33808d0ca40e5f2f44b84330bf6a6",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%8B%E5%8B%95%E3%81%99%E3%82%8B#1905_1_1",
+        "attribution": "OJAD, University of Tokyo; original whole-word dictionary-form accent inspected",
+        "patterns": [
+          0
+        ],
+        "finding": "Raw JMdict1172910 exactうんどう, sense1 n/vs/vi physical exercise, workout and sport. Campaign2 and physical motion3 excluded. Whole OJAD1905 directly gives dictionary-formうんどうする six morae, initialう low followed byんどうする high, no accent_top:0. Original first context habitual morning workout with duration, second past indoor choice due to rain. Sanjuppun thirty minutes, kōen/kinō/undō long vowels, ので causal past datta and intransitive placeで are faithful. Actual complete辞書形 cell: \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-6\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-5\"><span class=\"inner\"><span class=\"char\">ん</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">ど</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">う</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"1905_1_1_female\" href=\"#\" onclick=\"pronounce_play('1905_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"1905_1_1_male\" href=\"#\" onclick=\"pronounce_play('1905_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+        "match": {
+          "word": "運動する",
+          "reading": "うんどうする",
+          "grammaticalForm": "Complete suru verb dictionary form; うんどうする",
+          "sense": "Sport treiben, sich körperlich bewegen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:undou-suru-exercise"
+  },
+  {
+    "word": "食事する",
+    "reading": "しょくじする",
+    "romaji": "shokuji suru",
+    "meaning": "eine Mahlzeit einnehmen",
+    "type": "Verb",
+    "category": "Essen",
+    "level": "N4",
+    "notes": "食事する heißt, eine Mahlzeit einzunehmen. 食事 allein ist das Nomen „Mahlzeit“; auch 食事をする ist möglich. Das vollständige Verb 食事する ist intransitiv. Für ein bestimmtes Essen als Objekt verwendet man etwa パンを食べる. Mit 〜しませんか kann man höflich zum gemeinsamen Essen einladen. 一緒に bedeutet „zusammen“, と nennt den Begleiter und で den Ort. Die Formen von する ändern sich, etwa in 食事します, 食事しました und 食事して.",
+    "examples": [
+      {
+        "japanese": "映画の前に、一緒に食事しませんか。",
+        "romaji": "Eiga no mae ni, issho ni shokuji shimasen ka.",
+        "german": "Möchten Sie vor dem Film zusammen essen?"
+      },
+      {
+        "japanese": "家族とレストランで食事しました。",
+        "romaji": "Kazoku to resutoran de shokuji shimashita.",
+        "german": "Ich habe mit meiner Familie im Restaurant gegessen."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しょくじする",
+      "conjugationKind": "verb",
+      "conjugationVariants": {
+        "imperative": [
+          "しょくじせよ"
+        ]
+      }
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "しょくじする",
+    "conjugationVariants": {
+      "imperative": [
+        "しょくじせよ"
+      ]
+    },
+    "pitchProvenance": [
+      {
+        "source": "OJAD",
+        "version": "Downloaded 2026-10-04; HTML SHA256 37444436fc34d2fd449d80d224a1eb5fedad4201d987bdc932c55c06ca20d2d9",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B#2289_1_1",
+        "attribution": "OJAD, University of Tokyo; original whole-word dictionary-form accent inspected",
+        "patterns": [
+          0
+        ],
+        "finding": "Raw JMdict1358490 exactしょくじ, sense1 n/vs/vi meal, not diet sense2 noun-only. Whole OJAD2289 directly gives dictionary-formしょくじする five morae しょ/く/じ/す/る, initial low remaining high with no accent_top:0. Invitation before film and past family restaurant meal are distinct contexts. Polite negativeしませんか functions as invitation; の前に, 一緒に, partnerと and restaurantで accurately translated. Shokuji has no long vowel; issho correctly doubles smallっ. Actual complete辞書形 cell: \n                                    <div class=\"katsuyo_proc\">\n        <p>\n        <span class=\"katsuyo_accent\"><span class=\"accented_word\"><span class=\"mola_-5\"><span class=\"inner\"><span class=\"char\">し</span><span class=\"char\">ょ</span></span></span><span class=\" accent_plain mola_-4\"><span class=\"inner\"><span class=\"char\">く</span></span></span><span class=\" accent_plain mola_-3\"><span class=\"inner\"><span class=\"char\">じ</span></span></span><span class=\" accent_plain mola_-2\"><span class=\"inner\"><span class=\"char\">す</span></span></span><span class=\" accent_plain mola_-1\"><span class=\"inner\"><span class=\"char\">る</span></span></span></span></span>\n    </p>\n    <div class=\"katsuyo_proc_button clearfix\">\n                    <a class=\"katsuyo_proc_female_button js_proc_female_button\" id=\"2289_1_1_female\" href=\"#\" onclick=\"pronounce_play('2289_1_1_female');return false;\"></a>\n                        <a class=\"katsuyo_proc_male_button js_proc_male_button\" id=\"2289_1_1_male\" href=\"#\" onclick=\"pronounce_play('2289_1_1_male');return false;\"></a>\n            </div>\n</div>\n                                ",
+        "match": {
+          "word": "食事する",
+          "reading": "しょくじする",
+          "grammaticalForm": "Complete suru verb dictionary form; しょくじする",
+          "sense": "eine Mahlzeit einnehmen"
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:shokuji-suru-meal"
   }
 ];

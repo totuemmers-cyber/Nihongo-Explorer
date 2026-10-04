@@ -104,13 +104,13 @@ async function run() {
     app.workspace.save();
     app.switchTab('vocab'); await app.ensureSectionLoaded('vocab');
     // Romaji search ignores vowel length: doubled, macron and plain spellings find 東京.
-    for (const q of ['toukyou', 'tōkyō', 'tokyo']) {
+    for (const q of ['toukyou', 'tōkyō', 'tokyo', 'TŌKYŌ']) {
       app.sections.vocab.dom.search.value = q; app.sections.vocab.applyFilters();
       assert(app.sections.vocab.filteredItems.some(v => v.word === '東京'), 'romaji search finds 東京 for ' + q);
     }
-    // The generated Hepburn layer is applied when vocabulary loads.
+    // The reviewed proper name keeps its capitalization and Hepburn macrons.
     const tokyo = app.sections.vocab.allItems.find(v => v.word === '東京');
-    assert.equal(tokyo.romaji, 'tōkyō');
+    assert.equal(tokyo.romaji, 'Tōkyō');
     app.sections.vocab.dom.search.value = 'Wasser'; app.sections.vocab.applyFilters();
     w.history.back();
     await until(() => app.activeTab === 'kanji' && sec.isOverlayOpen(), 'history restores Kanji');

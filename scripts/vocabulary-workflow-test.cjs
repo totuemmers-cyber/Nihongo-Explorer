@@ -484,6 +484,9 @@ for(const [ref,target,notation] of notationCases) {
   assert.throws(()=>validateSourceNotation(ref,{...target,word:'虫',aliases:[]},notation),'Unrelated spelling accepted');
   assert.throws(()=>validateSourceNotation(ref,target,{...notation,kind:'unchecked'}));
 }
+validateSourceNotation({word:'散歩',reading:'さんぽ・する'},notationCases[0][1],notationCases[0][2]);
+assert.throws(()=>validateSourceNotation({word:'散歩',reading:'さん・ぽする'},notationCases[0][1],notationCases[0][2]),/Source suru reading differs/);
+assert.throws(()=>validateSourceNotation({word:'散歩',reading:'さんぽ・・する'},notationCases[0][1],notationCases[0][2]),/Source suru reading differs/);
 assert.throws(()=>validateSourceNotation({word:'散歩',reading:'さんぽ'},notationCases[0][1],notationCases[0][2]),/complete suru reading/);
 assert.throws(()=>validateSourceNotation({word:'暖かい',reading:'あたたか(かった)'},notationCases[1][1],notationCases[1][2]),/changed source reading/);
 assert.throws(()=>validateSourceNotation({word:'急に',reading:'急に',gloss:'suddenly'},notationCases[2][1],notationCases[2][2]),/contain this reading/);

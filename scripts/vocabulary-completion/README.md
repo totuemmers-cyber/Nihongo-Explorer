@@ -106,6 +106,25 @@ N5 remains active: 293 missing notes, 418 pending reviews, 449 entries lacking
 two reviewed contexts, and 413 unresolved references. N4–N1 remain pending;
 this checkpoint does not certify a level.
 
+The sixth verified checkpoint, batches 075c, 077ab, 078bc, 080a and 092–095,
+enriches 150 further N5 cards and four original higher-level verb cards needed
+for N5-owned references. This campaign now covers 1,297 unique original entries
+and five additions. Two new complete suru verbs, 運動する and 食事する, retain
+the existing nominal cards and use explicit estimated N4 placement. Repeated
+spelling and note revisions count once. It closes 27 further frozen references,
+176 in total. Exact source reading separators, canonical suffix searches,
+qualified spelling variants, part-of-speech labels and a complete-verb accent
+were independently reviewed. All 21 full checks pass after updating the Tokyo
+UI assertion for the reviewed proper-name capitalization; search also checks
+uppercase macrons. Generated replay is identical and all 15,558 original IDs,
+headwords, readings and levels remain. Reading/audio payloads are unchanged.
+Browser inspection covers 36 detail states with notes at 390/1440 widths in both
+themes, 15 searches, verified and investigated unknown pitch, suffix labels,
+new-verb conjugation controls and new-card deep-link refresh. N5 remains active:
+168 missing notes, 276 pending reviews, 299 entries lacking two reviewed
+contexts, and 386 unresolved references. N4–N1 remain pending; this checkpoint
+does not certify a level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
@@ -575,7 +594,9 @@ evidence, rationale, second-pass findings, and reviewed surviving IDs when relev
 heading with a complete suru-verb reading, a parenthesized reading ending, a
 reading misplaced into the gloss column, a kana-script variant, or combined
 spellings. Its `sourceNormalization` contains `kind`, `word` and `reading`;
-all three are bound to both approvals. Mechanical checks require the exact
+all three are bound to both approvals. A single separator `・` immediately
+before `する` is allowed in that format; other punctuation is preserved.
+Mechanical checks require the exact
 indicated spelling and pronunciation and coverage of every combined spelling.
 Lexical evidence and independent review are still required. This action cannot
 resolve an arbitrary reading, homophone or additional sense; the original
