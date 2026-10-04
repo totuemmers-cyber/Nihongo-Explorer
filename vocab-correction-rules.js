@@ -64655,6 +64655,188 @@ window.VOCAB_CORRECTION_RULES = {
         "pitchVariants": [],
         "pitchProvenance": [],
         "senseKey": "band-zone-suffix"
+      },
+      "5287": {
+        "word": "橋",
+        "reading": "きょう",
+        "romaji": "kyō",
+        "meaning": "Pons, Brücke (Teil des Hirnstamms)",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "きょう bezeichnet hier einen Abschnitt des Hirnstamms zwischen Mittelhirn und verlängertem Mark. Die deutsche anatomische Bezeichnung lautet „Pons“ oder „Brücke“. Diese Lesung gehört zur Fachsprache der Anatomie; eine Brücke als Bauwerk heißt はし. In einer Beschreibung kann 橋の構造 „Aufbau des Pons“ bedeuten, während eine Abbildung den Abschnitt mit 橋 beschriftet.",
+        "examples": [
+          {
+            "japanese": "解剖図では、中脳と延髄の間にある部分が「橋」と示されていた。",
+            "romaji": "Kaibōzu de wa, chūnō to enzui no aida ni aru bubun ga \"kyō\" to shimesarete ita.",
+            "german": "In der anatomischen Abbildung war der Abschnitt zwischen Mittelhirn und verlängertem Mark als „Pons“ bezeichnet."
+          },
+          {
+            "japanese": "学生は、橋の構造について発表した。",
+            "romaji": "Gakusei wa, kyō no kōzō ni tsuite happyō shita.",
+            "german": "Der Student hielt einen Vortrag über den Aufbau des Pons."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "5288": {
+        "word": "薬",
+        "reading": "やく",
+        "romaji": "yaku",
+        "meaning": "Rauschgift, Drogen (Slang)",
+        "type": "Nomen",
+        "category": "Gesellschaft",
+        "level": "N1",
+        "notes": "やく ist hier ein umgangssprachliches Wort für Rauschgift; häufig schreibt man es ヤク. Es wirkt deutlich salopper als 麻薬 und kann in Kriminalgeschichten oder in zitierter Rede vorkommen. Für gewöhnliche Medikamente sagt man くすり. Die Lesung やく in Zusammensetzungen für Arzneimittel bedeutet deshalb nicht automatisch das hier gemeinte Rauschgift.",
+        "examples": [
+          {
+            "japanese": "小説の中で、男は「ヤクには手を出すな」と弟に言った。",
+            "romaji": "Shōsetsu no naka de, otoko wa \"Yaku ni wa te o dasu na\" to otōto ni itta.",
+            "german": "Im Roman sagte der Mann zu seinem jüngeren Bruder: „Lass die Finger von Drogen.“"
+          },
+          {
+            "japanese": "記者は、薬を売っていた男の逮捕について記事を書いた。",
+            "romaji": "Kisha wa, yaku o utte ita otoko no taiho ni tsuite kiji o kaita.",
+            "german": "Der Reporter schrieb einen Artikel über die Festnahme eines Mannes, der Rauschgift verkauft hatte."
+          }
+        ],
+        "aliases": [
+          "ヤク"
+        ],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267706656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual whole 薬/ヤク, lemma 薬, 名詞/普通名詞/一般/*; row267706656, aType1. Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり.",
+            "match": {
+              "word": "薬",
+              "reading": "やく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Slang narcotics noun",
+              "sense": "Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり. Completed quoted fictional drugwarning inkatakana and reported arrest for selling narcotics inkanji are distinctslangcontexts. Full2220820 slangnoun1 and licensed currentnarcoticやく support both; rawヤク re_nokanji is a kana form, while unrestrictedやく licenses薬. FullMaster115515N1 frozen dope/narcotics/drugs taught; medication suffix and animalyak remain distinct. Original薬/ヤク wholelemmapitch1 independently verified."
+            }
+          },
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267706505",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual whole ヤク/ヤク, lemma 薬, 名詞/普通名詞/一般/*; row267706505, aType1. Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり.",
+            "match": {
+              "word": "薬",
+              "reading": "やく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Slang narcotics noun",
+              "sense": "Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり. Completed quoted fictional drugwarning inkatakana and reported arrest for selling narcotics inkanji are distinctslangcontexts. Full2220820 slangnoun1 and licensed currentnarcoticやく support both; rawヤク re_nokanji is a kana form, while unrestrictedやく licenses薬. FullMaster115515N1 frozen dope/narcotics/drugs taught; medication suffix and animalyak remain distinct. Original薬/ヤク wholelemmapitch1 independently verified."
+            }
+          }
+        ]
+      },
+      "5289": {
+        "word": "味",
+        "reading": "み",
+        "romaji": "mi",
+        "meaning": "Geschmack, Geschmacksobjekt (buddhistische Fachsprache)",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "み ist hier ein selbstständiger Fachbegriff in buddhistischen Beschreibungen der Wahrnehmung. Er bezeichnet den Geschmack als Gegenstand, den die Zunge wahrnimmt. Bei der Einteilung in sechs Wahrnehmungsobjekte steht 味 neben 香 こう, dem Geruchsobjekt. Gemeint ist der wahrgenommene Geschmack, nicht das Sinnesorgan oder die Fähigkeit zu schmecken. Für den gewöhnlichen Geschmack einer Speise sagt man あじ. Das Anhängsel in 甘み und das Zählwort für Speise- oder Arzneiarten haben andere Verwendungen.",
+        "examples": [
+          {
+            "japanese": "仏教の六境の分類では、舌がとらえる対象を味と呼ぶ。",
+            "romaji": "Bukkyō no rokkyō no bunrui de wa, shita ga toraeru taishō o mi to yobu.",
+            "german": "In der buddhistischen Einteilung der sechs Wahrnehmungsobjekte nennt man das von der Zunge wahrgenommene Objekt Geschmack."
+          },
+          {
+            "japanese": "仏教の授業で香と味を同じものとして説明したら、先生に区別するよう注意された。",
+            "romaji": "Bukkyō no jugyō de kō to mi o onaji mono to shite setsumei shitara, sensei ni kubetsu suru yō chūi sareta.",
+            "german": "Als ich im Buddhismusunterricht Geruchs- und Geschmacksobjekt als dasselbe erklärte, wies mich der Lehrer darauf hin, sie zu unterscheiden."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "5290": {
+        "word": "心",
+        "reading": "しん",
+        "romaji": "shin",
+        "meaning": "Geist, innere Kraft; innerstes Wesen",
+        "type": "Nomen",
+        "category": "Kultur",
+        "level": "N1",
+        "notes": "しん bezeichnet die geistige Haltung oder das innere Wesen eines Menschen. Die Lesung wirkt stärker literarisch oder auf innere Festigkeit bezogen als das alltägliche こころ. In Wendungen wie 心が強い steht die seelische Standfestigkeit im Vordergrund. Im zweiten Beispiel wird auch 心から gezielt しんから gelesen, eine literarisch wirkende Wendung für „aus dem Innersten“. Im Alltag ist die Lesung こころから geläufig. Den materiellen Kern eines Gegenstands schreibt man meist 芯. Das bedeutet nicht, dass 心 in jedem Ausdruck durch 芯 ersetzt werden kann.",
+        "examples": [
+          {
+            "japanese": "彼女はおだやかだが、心の強い人だ。",
+            "romaji": "Kanojo wa odayaka da ga, shin no tsuyoi hito da.",
+            "german": "Sie ist sanft, besitzt aber große innere Stärke."
+          },
+          {
+            "japanese": "彼は心から、その仕事を続けたいと願っていた。",
+            "romaji": "Kare wa shin kara, sono shigoto o tsuzuketai to negatte ita.",
+            "german": "Tief im Innersten wünschte er sich, diese Arbeit weiterzuführen."
+          }
+        ],
+        "aliases": [],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142547769",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual whole 心/シン, lemma 心, 名詞/普通名詞/一般/*; row142547769, aType1. Daijisen independentしん心1 spirit/deep heart licenses心技体 and心の強い人; Kokugoしん名詞1精神. Genuine free noun, not only心漢字項目.",
+            "match": {
+              "word": "心",
+              "reading": "しん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Independent mental spirit/inner-strength noun",
+              "sense": "Daijisen independentしん心1 spirit/deep heart licenses心技体 and心の強い人; Kokugoしん名詞1精神. Genuine free noun, not only心漢字項目. Completed gentle-but-internally-strong character and deeplyfelt desire scenes teach raw1595125 mentalspirit1/innerheart2. Actuallicensedしん心精神 andしんから distinguish genericこころ from literaryinnerstrength reading. FullMaster57271N1 mentalheart/mind literal covered. Existing芯1595120 physicalcorecard anditsmetaphor remain unchanged; no broadheart alias onto that coreheading. Wholecommon心/シン noun1 only, no suffix/prefix accent transfer."
+            }
+          }
+        ]
+      },
+      "5291": {
+        "word": "界",
+        "reading": "かい",
+        "romaji": "kai",
+        "meaning": "Reich (biologische Klassifikationsstufe)",
+        "type": "Nomen",
+        "category": "Wissenschaft",
+        "level": "N1",
+        "notes": "界 ist hier das biologische „Reich“, eine Stufe bei der Einteilung von Lebewesen. Sie liegt über 門 und unter der übergeordneten Domäne. Wörter wie 動物界 und 植物界 benennen einzelne Reiche; als Nomen kann 界 auch die Stufe selbst oder eines dieser Reiche bezeichnen. Die Einteilung und die Zahl der Reiche hängen vom verwendeten System ab. Die Bedeutung „Welt oder gesellschaftlicher Bereich“ in 政界 ist eine andere Verwendung.",
+        "examples": [
+          {
+            "japanese": "生物の分類では、界は門より上の階級である。",
+            "romaji": "Seibutsu no bunrui de wa, kai wa mon yori ue no kaikyū de aru.",
+            "german": "In der biologischen Klassifikation steht das Reich als Rang über dem Stamm."
+          },
+          {
+            "japanese": "先生は、この二つの生物が同じ界に属するかどうかを尋ねた。",
+            "romaji": "Sensei wa, kono futatsu no seibutsu ga onaji kai ni zokusuru ka dō ka o tazuneta.",
+            "german": "Der Lehrer fragte, ob diese beiden Lebewesen zum selben Reich gehören."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       }
     },
     "vocab-n5": {
@@ -149462,6 +149644,283 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "3768": {
+        "word": "上",
+        "reading": "かみ",
+        "romaji": "kami",
+        "meaning": "oberer oder erster Teil; flussaufwärts; Obrigkeit; gehobene Qualität (älter)",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N3",
+        "notes": "かみ bezeichnet den Anfang oder die obere Seite eines zusammenhängenden Ganzen: bei einem Fluss die Richtung zur Quelle, bei einem Text den vorderen Teil. Gegenstück ist しも. 上の巻 kann in älteren Texten かみのまき heißen; für den ersten Band ist heute じょう üblich. Auch die Bewertung als besonders gute Qualität gehört zu älteren Verwendungen. In historischen Erzählungen kann 上 die Obrigkeit oder deren Behörden bezeichnen; mit お begegnet diese Bedeutung in お上. Die Lesung うえ ist für gewöhnliche Ortsangaben wie „auf dem Tisch“ gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "船は川の上へゆっくり進んだ。",
+            "romaji": "Fune wa kawa no kami e yukkuri susunda.",
+            "german": "Das Boot fuhr langsam flussaufwärts."
+          },
+          {
+            "japanese": "この物語は、上の巻から順に読んでください。",
+            "romaji": "Kono monogatari wa, kami no maki kara jun ni yonde kudasai.",
+            "german": "Bitte lesen Sie diese Erzählung der Reihe nach, beginnend mit dem ersten Band."
+          },
+          {
+            "japanese": "この物語の商人は、質のよい反物を「上」と呼んでいる。",
+            "romaji": "Kono monogatari no shōnin wa, shitsu no yoi tanmono o \"kami\" to yonde iru.",
+            "german": "Der Händler in dieser Erzählung bezeichnet Stoffballen guter Qualität als „erstklassig“."
+          },
+          {
+            "japanese": "村人たちは、上から届いたお触れに従った。",
+            "romaji": "Murabitotachi wa, kami kara todoita ofure ni shitagatta.",
+            "german": "Die Dorfbewohner folgten der von der Obrigkeit übermittelten Anordnung."
+          }
+        ],
+        "aliases": [],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96903087",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual whole 上/カミ, lemma 上, 名詞/普通名詞/一般/*; row96903087, aType1. Daijisen explicitly lists upper reaches1a, beginning/上の巻1e, government3c and historically superior rank/value5. Kokugo independently confirms each, including quoted上(かミ) quality. Therefore do NOT call all TANOS glosses erroneous from mere absence in contemporary JMdict.",
+            "match": {
+              "word": "上",
+              "reading": "かみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Independent upper/first-part/upstream noun; historically high quality and authority",
+              "sense": "Daijisen explicitly lists upper reaches1a, beginning/上の巻1e, government3c and historically superior rank/value5. Kokugo independently confirms each, including quoted上(かミ) quality. Therefore do NOT call all TANOS glosses erroneous from mere absence in contemporary JMdict. Completed four actual contexts teach river upstream, first book volume, older quoted assessment of fabric quality and historical governmental authority. Original TANOSN3 PDF17 has all three latter glosses; Daijisen/Kokugo positively license each forかみ, including historical quality beyond current rawJMdict. Master33695/listpage4 exact river noun is also covered. Quality is explicitly licensed separately, not assigned to a nonexistent JMdict quality sense. Modern ordinary volume/gradeじょう and locationうえ are qualified in the learner note."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo, actual original complete dictionary cell",
+            "version": "Wholehead4950 personally inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%8A#word_4950",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual complete 上/かみ head4950 contour1 agrees with selected independentnoun record; no constituent or otherreading transfer.",
+            "match": {
+              "word": "上",
+              "reading": "かみ",
+              "grammaticalForm": "Complete independent nominal lexical head",
+              "sense": "Daijisen explicitly lists upper reaches1a, beginning/上の巻1e, government3c and historically superior rank/value5. Kokugo independently confirms each, including quoted上(かミ) quality. Therefore do NOT call all TANOS glosses erroneous from mere absence in contemporary JMdict."
+            }
+          }
+        ]
+      },
+      "3769": {
+        "word": "上",
+        "reading": "じょう",
+        "romaji": "jō",
+        "meaning": "gehobene Qualität, obere Stufe; erster Band",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N3",
+        "notes": "Als Nomen bezeichnet じょう eine höhere Qualitätsstufe oder den ersten Band einer zwei- oder dreibändigen Ausgabe. Bei einer Einstufung steht es oft zusammen mit 中 und 下, etwa 中の上 „oberes Mittelfeld“. Auf Speisekarten kann 上 eine bessere Ausführung kennzeichnen. Beim Lesen einer Buchreihe ist 上 das Gegenstück zu 下 oder zu 中 und 下. Das gleich geschriebene Anhängsel in 安全上 „aus Sicherheitsgründen“ hat eine eigene Verwendung.",
+        "examples": [
+          {
+            "japanese": "成績は中の上だった。",
+            "romaji": "Seiseki wa chū no jō datta.",
+            "german": "Meine Leistungen lagen im oberen Mittelfeld."
+          },
+          {
+            "japanese": "この小説は三冊に分かれています。まず上を買いました。",
+            "romaji": "Kono shōsetsu wa sansatsu ni wakarete imasu. Mazu jō o kaimashita.",
+            "german": "Dieser Roman ist in drei Bände aufgeteilt. Zuerst habe ich den ersten Band gekauft."
+          }
+        ],
+        "aliases": [],
+        "pitch": 1,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144767008",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual whole 上/ジョウ, lemma 上, 名詞/普通名詞/一般/*; row144767008, aType1. Daijisen separately labelsじょう名 grade1/firstvolume2 and 接尾 from standpoint. Kokugo/Daijisen also separately labelじょう漢字項目 with governmental compounds; that does not prove a free governmental noun or productive governmental prefix.",
+            "match": {
+              "word": "上",
+              "reading": "じょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Grade/first-volume independent noun",
+              "sense": "Daijisen separately labelsじょう名 grade1/firstvolume2 and 接尾 from standpoint. Kokugo/Daijisen also separately labelじょう漢字項目 with governmental compounds; that does not prove a free governmental noun or productive governmental prefix. Completed grade-in-upper-middle and first-volume purchase contexts independently teach raw1352170 noun3/4. This is a direct correction-driven addition, with own actual full Master33696 N3 noun senses and TANOSN3 PDF41 partialvolume/quality level evidence, not a candidate target for the Master standpoint suffix. The entire TANOS上じょう#0 government-tail reference remains open, with no assertion of a productive governmental prefix or free governmental noun. Distinct independent-grade-volume senseKey prevents noun/suffix merge."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo, actual original complete dictionary cell",
+            "version": "Wholehead7127 personally inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%8A#word_7127",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual complete 上/じょう head7127 contour1 agrees with selected independentnoun record; no constituent or otherreading transfer.",
+            "match": {
+              "word": "上",
+              "reading": "じょう",
+              "grammaticalForm": "Complete independent nominal lexical head",
+              "sense": "Daijisen separately labelsじょう名 grade1/firstvolume2 and 接尾 from standpoint. Kokugo/Daijisen also separately labelじょう漢字項目 with governmental compounds; that does not prove a free governmental noun or productive governmental prefix."
+            }
+          }
+        ],
+        "senseKey": "independent-grade-volume"
+      },
+      "3770": {
+        "word": "上",
+        "reading": "じょう",
+        "romaji": "jō",
+        "meaning": "in Bezug auf …; aus … Gründen (Suffix)",
+        "type": "Nomen",
+        "category": "Grammatik",
+        "level": "N3",
+        "notes": "上 wird hier an ein Nomen angehängt und nennt den Gesichtspunkt oder Bereich, auf den sich eine Aussage bezieht. 安全上の理由 sind Gründe, die die Sicherheit betreffen; 法律上 bedeutet „rechtlich betrachtet“. Häufig folgen の und ein weiteres Nomen oder は als Themenpartikel. Anders als うえ „oben“ steht dieses じょう fest am vorangehenden Wort. Es bewertet keine Qualität und bezeichnet keinen Buchband.",
+        "examples": [
+          {
+            "japanese": "安全上の理由で、この扉は開けられません。",
+            "romaji": "Anzenjō no riyū de, kono tobira wa akeraremasen.",
+            "german": "Aus Sicherheitsgründen kann diese Tür nicht geöffnet werden."
+          },
+          {
+            "japanese": "法律上は問題がなくても、近所の人に説明したほうがいい。",
+            "romaji": "Hōritsujō wa mondai ga nakute mo, kinjo no hito ni setsumei shita hō ga ii.",
+            "german": "Auch wenn es rechtlich kein Problem gibt, sollte man es den Nachbarn erklären."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": [],
+        "senseKey": "bound-standpoint-suffix"
+      },
+      "3771": {
+        "word": "下",
+        "reading": "げ",
+        "romaji": "ge",
+        "meaning": "untere Stufe, geringe Qualität; letzter Band",
+        "type": "Nomen",
+        "category": "Alltag",
+        "level": "N3",
+        "notes": "げ bezeichnet als Nomen die niedrigere Stufe einer Einteilung, etwa 下 in 上・中・下. Es kann dadurch abwertend wirken, wenn man Menschen oder Leistungen einstuft. Bei einem zwei- oder dreibändigen Werk steht 下 für den letzten Band. Die Lesung した verwendet man dagegen in gewöhnlichen räumlichen Angaben wie „unter dem Tisch“; für einen Flussabschnitt begegnet しも.",
+        "examples": [
+          {
+            "japanese": "品物の質は、上・中・下の三段階で評価された。",
+            "romaji": "Shinamono no shitsu wa, jō, chū, ge no sandankai de hyōka sareta.",
+            "german": "Die Qualität der Waren wurde in drei Stufen bewertet: hoch, mittel und niedrig."
+          },
+          {
+            "japanese": "上と中は図書館にありましたが、下は貸し出し中でした。",
+            "romaji": "Jō to chū wa toshokan ni arimashita ga, ge wa kashidashichū deshita.",
+            "german": "Der erste und der mittlere Band waren in der Bibliothek vorhanden, aber der letzte war ausgeliehen."
+          }
+        ],
+        "aliases": [],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119024114",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Actual whole 下/ゲ, lemma 下, 名詞/普通名詞/一般/*; row119024114, aType1,0. Daijisenげ defines inferior grade1 and final volume2. Kokugoげ名詞 also explicitly saysした1 before grade2/volume3, positively supporting a lower noun rather than only a kanji component.",
+            "match": {
+              "word": "下",
+              "reading": "げ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Independent lower-grade/final-volume noun",
+              "sense": "Daijisenげ defines inferior grade1 and final volume2. Kokugoげ名詞 also explicitly saysした1 before grade2/volume3, positively supporting a lower noun rather than only a kanji component. Completed three-tier assessment of goods and last-volume library availability cover raw2080200 noun1/2. Full Master101834 N3 matchesgrade; original TANOSPDF26 genericunder/below/beneath is qualified to lower grade/part, supported by licensed independentげ noun lower/inferiority, without implying spatialordinaryした is readげ. All compatible noun1/0 variants retained."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo, actual original complete dictionary cell",
+            "version": "Wholehead5612 personally inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%8B#word_5612",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Actual complete 下/げ head5612 contour1 agrees with selected independentnoun record; no constituent or otherreading transfer.",
+            "match": {
+              "word": "下",
+              "reading": "げ",
+              "grammaticalForm": "Complete independent nominal lexical head",
+              "sense": "Daijisenげ defines inferior grade1 and final volume2. Kokugoげ名詞 also explicitly saysした1 before grade2/volume3, positively supporting a lower noun rather than only a kanji component."
+            }
+          }
+        ]
+      },
+      "3772": {
+        "word": "下",
+        "reading": "しも",
+        "romaji": "shimo",
+        "meaning": "unterer Teil; flussabwärts, Unterlauf",
+        "type": "Nomen",
+        "category": "Natur",
+        "level": "N3",
+        "notes": "しも nennt den unteren oder abschließenden Teil eines zusammenhängenden Ganzen. Bei einem Fluss liegt 下 näher an der Mündung; Gegenstück ist 上 かみ. In älteren oder fachlich geprägten Beschreibungen kann es auch einen tiefer gelegenen Abschnitt bezeichnen. Für alltägliche Ortsangaben verwendet man meist した. Die Einteilung nach Buchbänden oder Qualitätsstufen liest man gewöhnlich げ.",
+        "examples": [
+          {
+            "japanese": "雨のあと、川の下では水が濁っていた。",
+            "romaji": "Ame no ato, kawa no shimo de wa mizu ga nigotte ita.",
+            "german": "Nach dem Regen war das Wasser am Unterlauf des Flusses trüb."
+          },
+          {
+            "japanese": "上の田で余った水を、下の田へ流した。",
+            "romaji": "Kami no ta de amatta mizu o, shimo no ta e nagashita.",
+            "german": "Das überschüssige Wasser aus dem höher gelegenen Reisfeld wurde zum tiefer gelegenen Reisfeld geleitet."
+          }
+        ],
+        "aliases": [],
+        "pitch": 2,
+        "pitchVariants": [],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@138771835",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Actual whole 下/シモ, lemma 下, 名詞/普通名詞/一般/*; row138771835, aType2. Daijisenしも independent definitions1a downstream and2a lower location; Kokugoしも名詞 confirms both. This is a genuine noun, not an inferred kanji reading.",
+            "match": {
+              "word": "下",
+              "reading": "しも",
+              "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Independent lower/end-part and downstream noun",
+              "sense": "Daijisenしも independent definitions1a downstream and2a lower location; Kokugoしも名詞 confirms both. This is a genuine noun, not an inferred kanji reading. Completed downstream turbidwater and watertransfer to a lower ricefield cover raw2080210 noun1/2. Master101835 N3 river and original TANOSPDF39 lower/below scopes are both taught by actual independentnounしも, with ordinaryspatialした qualified. Otherbody/sexual/excretory senses remain unselected; no other-readingaliases."
+            }
+          },
+          {
+            "source": "OJAD, University of Tokyo, actual original complete dictionary cell",
+            "version": "Wholehead6862 personally inspected 2026-10-04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%8B#word_6862",
+            "attribution": "University of Tokyo, Minematsu/Saito Laboratory",
+            "patterns": [
+              2
+            ],
+            "finding": "Actual complete 下/しも head6862 contour2 agrees with selected independentnoun record; no constituent or otherreading transfer.",
+            "match": {
+              "word": "下",
+              "reading": "しも",
+              "grammaticalForm": "Complete independent nominal lexical head",
+              "sense": "Daijisenしも independent definitions1a downstream and2a lower location; Kokugoしも名詞 confirms both. This is a genuine noun, not an inferred kanji reading."
+            }
+          }
+        ]
       }
     },
     "vocab-n2": {
@@ -180304,6 +180763,58 @@ window.VOCAB_CORRECTION_RULES = {
             }
           }
         ]
+      },
+      "3072": {
+        "word": "下",
+        "reading": "か",
+        "romaji": "ka",
+        "meaning": "unter … Bedingungen oder Einfluss (Suffix)",
+        "type": "Nomen",
+        "category": "Grammatik",
+        "level": "N2",
+        "notes": "下 folgt einem Nomen, das eine Bedingung, einen Einfluss oder eine Kontrolle nennt. 影響下 bedeutet „unter dem Einfluss“, 悪条件下 „unter ungünstigen Bedingungen“. Das ganze Wort kann mit で die Umstände einer Handlung angeben. Dieses か steht am vorangehenden Wort; es ersetzt kein selbstständiges した als räumliches „unter“. Besonders in Berichten und sachlichen Texten ist die Form gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "その地域は長い間、隣国の影響下にあった。",
+            "romaji": "Sono chiiki wa nagai aida, rinkoku no eikyōka ni atta.",
+            "german": "Diese Region stand lange Zeit unter dem Einfluss des Nachbarlandes."
+          },
+          {
+            "japanese": "作業員たちは悪条件下で修理を続けた。",
+            "romaji": "Sagyōintachi wa akujōkenka de shūri o tsuzuketa.",
+            "german": "Die Arbeiter setzten die Reparatur unter ungünstigen Bedingungen fort."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
+      },
+      "3073": {
+        "word": "寺",
+        "reading": "じ",
+        "romaji": "ji",
+        "meaning": "Zählwort für buddhistische Tempel",
+        "type": "Nomen",
+        "category": "Grammatik",
+        "level": "N2",
+        "notes": "寺 wird hinter einer Zahl mit der Lesung じ zum Zählen von Tempeln verwendet. Diese Form findet man besonders in Beschreibungen von Tempelbezirken, Pilgerwegen oder historischem Besitz. Ein Tempel als eigenständiges Wort heißt てら. Das bloße Vorkommen von 寺 in einem Tempelnamen ist noch keine Zählung: Beim Zählwort muss davor eine Anzahl stehen.",
+        "examples": [
+          {
+            "japanese": "この町には、古い寺が十寺残っている。",
+            "romaji": "Kono machi ni wa, furui tera ga jūji nokotte iru.",
+            "german": "In dieser Stadt sind noch zehn alte Tempel erhalten."
+          },
+          {
+            "japanese": "本山は、各地の百寺に知らせを送った。",
+            "romaji": "Honzan wa, kakuchi no hyakuji ni shirase o okutta.",
+            "german": "Der Haupttempel schickte eine Mitteilung an hundert Tempel in verschiedenen Regionen."
+          }
+        ],
+        "aliases": [],
+        "pitch": null,
+        "pitchVariants": [],
+        "pitchProvenance": []
       }
     },
     "idioms": {
@@ -182820,7 +183331,12 @@ window.VOCAB_CORRECTION_RULES = {
       "5283": "vocab-n1:correction:kinkin-soon",
       "5284": "vocab-n1:correction:toko-bed",
       "5285": "vocab-n1:correction:hajiku-flick-repel",
-      "5286": "vocab-n1:correction:tai-band-zone-suffix"
+      "5286": "vocab-n1:correction:tai-band-zone-suffix",
+      "5287": "vocab-n1:correction:kyou-pons",
+      "5288": "vocab-n1:correction:yaku-narcotics-slang",
+      "5289": "vocab-n1:correction:mi-sense-of-taste-noun",
+      "5290": "vocab-n1:correction:shin-inner-mind-spirit",
+      "5291": "vocab-n1:correction:kai-biological-kingdom-noun"
     },
     "vocab-n5": {
       "0": "vocab-n5:0",
@@ -185201,7 +185717,12 @@ window.VOCAB_CORRECTION_RULES = {
       "3764": "vocab-n3:correction:ie-no-interjection",
       "3765": "vocab-n3:correction:kakaru-contract-disease",
       "3766": "vocab-n3:correction:uru-obtain-possibility",
-      "3767": "vocab-n3:correction:kara-empty"
+      "3767": "vocab-n3:correction:kara-empty",
+      "3768": "vocab-n3:correction:kami-upper-part-authority",
+      "3769": "vocab-n3:correction:jou-grade-volume-noun",
+      "3770": "vocab-n3:correction:jou-standpoint-suffix",
+      "3771": "vocab-n3:correction:ge-low-grade-final-volume",
+      "3772": "vocab-n3:correction:shimo-lower-part-downstream"
     },
     "vocab-n2": {
       "67": "vocab-n2:67",
@@ -186002,7 +186523,9 @@ window.VOCAB_CORRECTION_RULES = {
       "3068": "vocab-n2:correction:tama-rare-adjectival",
       "3069": "vocab-n2:correction:furu-used-item",
       "3070": "vocab-n2:correction:zurai-difficult-suffix",
-      "3071": "vocab-n2:correction:dou-same-reference"
+      "3071": "vocab-n2:correction:dou-same-reference",
+      "3072": "vocab-n2:correction:ka-under-conditions-suffix",
+      "3073": "vocab-n2:correction:ji-temple-counter"
     },
     "idioms": {
       "47": "idioms:47",

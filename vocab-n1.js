@@ -133364,5 +133364,192 @@ window.VOCAB_N1 = [
     "pitchProvenance": [],
     "senseKey": "band-zone-suffix",
     "correctionId": "vocab-n1:correction:tai-band-zone-suffix"
+  },
+  {
+    "word": "橋",
+    "reading": "きょう",
+    "romaji": "kyō",
+    "meaning": "Pons, Brücke (Teil des Hirnstamms)",
+    "type": "Nomen",
+    "category": "Wissenschaft",
+    "level": "N1",
+    "notes": "きょう bezeichnet hier einen Abschnitt des Hirnstamms zwischen Mittelhirn und verlängertem Mark. Die deutsche anatomische Bezeichnung lautet „Pons“ oder „Brücke“. Diese Lesung gehört zur Fachsprache der Anatomie; eine Brücke als Bauwerk heißt はし. In einer Beschreibung kann 橋の構造 „Aufbau des Pons“ bedeuten, während eine Abbildung den Abschnitt mit 橋 beschriftet.",
+    "examples": [
+      {
+        "japanese": "解剖図では、中脳と延髄の間にある部分が「橋」と示されていた。",
+        "romaji": "Kaibōzu de wa, chūnō to enzui no aida ni aru bubun ga \"kyō\" to shimesarete ita.",
+        "german": "In der anatomischen Abbildung war der Abschnitt zwischen Mittelhirn und verlängertem Mark als „Pons“ bezeichnet."
+      },
+      {
+        "japanese": "学生は、橋の構造について発表した。",
+        "romaji": "Gakusei wa, kyō no kōzō ni tsuite happyō shita.",
+        "german": "Der Student hielt einen Vortrag über den Aufbau des Pons."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:kyou-pons"
+  },
+  {
+    "word": "薬",
+    "reading": "やく",
+    "romaji": "yaku",
+    "meaning": "Rauschgift, Drogen (Slang)",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N1",
+    "notes": "やく ist hier ein umgangssprachliches Wort für Rauschgift; häufig schreibt man es ヤク. Es wirkt deutlich salopper als 麻薬 und kann in Kriminalgeschichten oder in zitierter Rede vorkommen. Für gewöhnliche Medikamente sagt man くすり. Die Lesung やく in Zusammensetzungen für Arzneimittel bedeutet deshalb nicht automatisch das hier gemeinte Rauschgift.",
+    "examples": [
+      {
+        "japanese": "小説の中で、男は「ヤクには手を出すな」と弟に言った。",
+        "romaji": "Shōsetsu no naka de, otoko wa \"Yaku ni wa te o dasu na\" to otōto ni itta.",
+        "german": "Im Roman sagte der Mann zu seinem jüngeren Bruder: „Lass die Finger von Drogen.“"
+      },
+      {
+        "japanese": "記者は、薬を売っていた男の逮捕について記事を書いた。",
+        "romaji": "Kisha wa, yaku o utte ita otoko no taiho ni tsuite kiji o kaita.",
+        "german": "Der Reporter schrieb einen Artikel über die Festnahme eines Mannes, der Rauschgift verkauft hatte."
+      }
+    ],
+    "aliases": [
+      "ヤク"
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267706656",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole 薬/ヤク, lemma 薬, 名詞/普通名詞/一般/*; row267706656, aType1. Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり.",
+        "match": {
+          "word": "薬",
+          "reading": "やく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Slang narcotics noun",
+          "sense": "Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり. Completed quoted fictional drugwarning inkatakana and reported arrest for selling narcotics inkanji are distinctslangcontexts. Full2220820 slangnoun1 and licensed currentnarcoticやく support both; rawヤク re_nokanji is a kana form, while unrestrictedやく licenses薬. FullMaster115515N1 frozen dope/narcotics/drugs taught; medication suffix and animalyak remain distinct. Original薬/ヤク wholelemmapitch1 independently verified."
+        }
+      },
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267706505",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole ヤク/ヤク, lemma 薬, 名詞/普通名詞/一般/*; row267706505, aType1. Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり.",
+        "match": {
+          "word": "薬",
+          "reading": "やく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Slang narcotics noun",
+          "sense": "Daijisen独立やく薬:俗に麻薬; Kokugoやく名詞 current narcotic slang. Raw2220820 includes unrestrictedやく plusヤク re_nokanji; no wrong reading assigned to薬くすり. Completed quoted fictional drugwarning inkatakana and reported arrest for selling narcotics inkanji are distinctslangcontexts. Full2220820 slangnoun1 and licensed currentnarcoticやく support both; rawヤク re_nokanji is a kana form, while unrestrictedやく licenses薬. FullMaster115515N1 frozen dope/narcotics/drugs taught; medication suffix and animalyak remain distinct. Original薬/ヤク wholelemmapitch1 independently verified."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:yaku-narcotics-slang"
+  },
+  {
+    "word": "味",
+    "reading": "み",
+    "romaji": "mi",
+    "meaning": "Geschmack, Geschmacksobjekt (buddhistische Fachsprache)",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N1",
+    "notes": "み ist hier ein selbstständiger Fachbegriff in buddhistischen Beschreibungen der Wahrnehmung. Er bezeichnet den Geschmack als Gegenstand, den die Zunge wahrnimmt. Bei der Einteilung in sechs Wahrnehmungsobjekte steht 味 neben 香 こう, dem Geruchsobjekt. Gemeint ist der wahrgenommene Geschmack, nicht das Sinnesorgan oder die Fähigkeit zu schmecken. Für den gewöhnlichen Geschmack einer Speise sagt man あじ. Das Anhängsel in 甘み und das Zählwort für Speise- oder Arzneiarten haben andere Verwendungen.",
+    "examples": [
+      {
+        "japanese": "仏教の六境の分類では、舌がとらえる対象を味と呼ぶ。",
+        "romaji": "Bukkyō no rokkyō no bunrui de wa, shita ga toraeru taishō o mi to yobu.",
+        "german": "In der buddhistischen Einteilung der sechs Wahrnehmungsobjekte nennt man das von der Zunge wahrgenommene Objekt Geschmack."
+      },
+      {
+        "japanese": "仏教の授業で香と味を同じものとして説明したら、先生に区別するよう注意された。",
+        "romaji": "Bukkyō no jugyō de kō to mi o onaji mono to shite setsumei shitara, sensei ni kubetsu suru yō chūi sareta.",
+        "german": "Als ich im Buddhismusunterricht Geruchs- und Geschmacksobjekt als dasselbe erklärte, wies mich der Lehrer darauf hin, sie zu unterscheiden."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:mi-sense-of-taste-noun"
+  },
+  {
+    "word": "心",
+    "reading": "しん",
+    "romaji": "shin",
+    "meaning": "Geist, innere Kraft; innerstes Wesen",
+    "type": "Nomen",
+    "category": "Kultur",
+    "level": "N1",
+    "notes": "しん bezeichnet die geistige Haltung oder das innere Wesen eines Menschen. Die Lesung wirkt stärker literarisch oder auf innere Festigkeit bezogen als das alltägliche こころ. In Wendungen wie 心が強い steht die seelische Standfestigkeit im Vordergrund. Im zweiten Beispiel wird auch 心から gezielt しんから gelesen, eine literarisch wirkende Wendung für „aus dem Innersten“. Im Alltag ist die Lesung こころから geläufig. Den materiellen Kern eines Gegenstands schreibt man meist 芯. Das bedeutet nicht, dass 心 in jedem Ausdruck durch 芯 ersetzt werden kann.",
+    "examples": [
+      {
+        "japanese": "彼女はおだやかだが、心の強い人だ。",
+        "romaji": "Kanojo wa odayaka da ga, shin no tsuyoi hito da.",
+        "german": "Sie ist sanft, besitzt aber große innere Stärke."
+      },
+      {
+        "japanese": "彼は心から、その仕事を続けたいと願っていた。",
+        "romaji": "Kare wa shin kara, sono shigoto o tsuzuketai to negatte ita.",
+        "german": "Tief im Innersten wünschte er sich, diese Arbeit weiterzuführen."
+      }
+    ],
+    "aliases": [],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142547769",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual whole 心/シン, lemma 心, 名詞/普通名詞/一般/*; row142547769, aType1. Daijisen independentしん心1 spirit/deep heart licenses心技体 and心の強い人; Kokugoしん名詞1精神. Genuine free noun, not only心漢字項目.",
+        "match": {
+          "word": "心",
+          "reading": "しん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; cType *; cForm *; Independent mental spirit/inner-strength noun",
+          "sense": "Daijisen independentしん心1 spirit/deep heart licenses心技体 and心の強い人; Kokugoしん名詞1精神. Genuine free noun, not only心漢字項目. Completed gentle-but-internally-strong character and deeplyfelt desire scenes teach raw1595125 mentalspirit1/innerheart2. Actuallicensedしん心精神 andしんから distinguish genericこころ from literaryinnerstrength reading. FullMaster57271N1 mentalheart/mind literal covered. Existing芯1595120 physicalcorecard anditsmetaphor remain unchanged; no broadheart alias onto that coreheading. Wholecommon心/シン noun1 only, no suffix/prefix accent transfer."
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:shin-inner-mind-spirit"
+  },
+  {
+    "word": "界",
+    "reading": "かい",
+    "romaji": "kai",
+    "meaning": "Reich (biologische Klassifikationsstufe)",
+    "type": "Nomen",
+    "category": "Wissenschaft",
+    "level": "N1",
+    "notes": "界 ist hier das biologische „Reich“, eine Stufe bei der Einteilung von Lebewesen. Sie liegt über 門 und unter der übergeordneten Domäne. Wörter wie 動物界 und 植物界 benennen einzelne Reiche; als Nomen kann 界 auch die Stufe selbst oder eines dieser Reiche bezeichnen. Die Einteilung und die Zahl der Reiche hängen vom verwendeten System ab. Die Bedeutung „Welt oder gesellschaftlicher Bereich“ in 政界 ist eine andere Verwendung.",
+    "examples": [
+      {
+        "japanese": "生物の分類では、界は門より上の階級である。",
+        "romaji": "Seibutsu no bunrui de wa, kai wa mon yori ue no kaikyū de aru.",
+        "german": "In der biologischen Klassifikation steht das Reich als Rang über dem Stamm."
+      },
+      {
+        "japanese": "先生は、この二つの生物が同じ界に属するかどうかを尋ねた。",
+        "romaji": "Sensei wa, kono futatsu no seibutsu ga onaji kai ni zokusuru ka dō ka o tazuneta.",
+        "german": "Der Lehrer fragte, ob diese beiden Lebewesen zum selben Reich gehören."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:kai-biological-kingdom-noun"
   }
 ];

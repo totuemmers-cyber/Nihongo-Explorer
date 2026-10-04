@@ -286,6 +286,27 @@ The remaining 76 source references across 54 groups keep N5 active; N4–N1 rema
 pending. Ambiguous source scopes remain open for further primary research.
 This checkpoint does not certify a level.
 
+The fourteenth verified checkpoint imports independently reviewed batch 139a:
+12 reading and grammatical-role cards, 26 examples and 14 more resolved frozen
+references. Campaign totals are 1,610 unique original entries enriched, 184
+additions and 501 of the 1,944 frozen references resolved. The library has 15,742
+entries. Existing cards are unchanged. The independent grade/volume noun and
+bound standpoint suffix for 上・じょう have separate sense keys; the unresolved
+governmental meaning in the TANOS reference remains open. 道・どう also remains
+open until natural road contexts for that exact selected reading are established.
+Six additions have verified pitch and six have explicitly investigated unknown
+pitch; 17 original UniDic byte rows were checked for head, reading and role.
+All 21 full checks pass. Repeated generation is identical, all 15,558 original
+identities and levels survive, and the four comprehension/audio payloads remain
+unchanged. Browser verification covers 38 cards in 152 detail and note states at
+390/1440 widths in both themes, 38 head searches, five qualified aliases,
+pronunciation-button reading selection, conjugations, refreshed new-card and
+existing-card deep links, and the historical redirect. Eight representative cards
+have 32 detail and 32 note captures; eight varied captures were visually inspected.
+N5 teaching is complete for all 1,686 current cards, but 62 references across 44
+groups keep N5 active. No earlier accepted reference reopens. N4–N1 enrichment
+remains open; live counts are in COVERAGE.md. This checkpoint certifies no level.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

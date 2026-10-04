@@ -76558,5 +76558,59 @@ window.VOCAB_N2 = [
       }
     ],
     "correctionId": "vocab-n2:correction:dou-same-reference"
+  },
+  {
+    "word": "下",
+    "reading": "か",
+    "romaji": "ka",
+    "meaning": "unter … Bedingungen oder Einfluss (Suffix)",
+    "type": "Nomen",
+    "category": "Grammatik",
+    "level": "N2",
+    "notes": "下 folgt einem Nomen, das eine Bedingung, einen Einfluss oder eine Kontrolle nennt. 影響下 bedeutet „unter dem Einfluss“, 悪条件下 „unter ungünstigen Bedingungen“. Das ganze Wort kann mit で die Umstände einer Handlung angeben. Dieses か steht am vorangehenden Wort; es ersetzt kein selbstständiges した als räumliches „unter“. Besonders in Berichten und sachlichen Texten ist die Form gebräuchlich.",
+    "examples": [
+      {
+        "japanese": "その地域は長い間、隣国の影響下にあった。",
+        "romaji": "Sono chiiki wa nagai aida, rinkoku no eikyōka ni atta.",
+        "german": "Diese Region stand lange Zeit unter dem Einfluss des Nachbarlandes."
+      },
+      {
+        "japanese": "作業員たちは悪条件下で修理を続けた。",
+        "romaji": "Sagyōintachi wa akujōkenka de shūri o tsuzuketa.",
+        "german": "Die Arbeiter setzten die Reparatur unter ungünstigen Bedingungen fort."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ka-under-conditions-suffix"
+  },
+  {
+    "word": "寺",
+    "reading": "じ",
+    "romaji": "ji",
+    "meaning": "Zählwort für buddhistische Tempel",
+    "type": "Nomen",
+    "category": "Grammatik",
+    "level": "N2",
+    "notes": "寺 wird hinter einer Zahl mit der Lesung じ zum Zählen von Tempeln verwendet. Diese Form findet man besonders in Beschreibungen von Tempelbezirken, Pilgerwegen oder historischem Besitz. Ein Tempel als eigenständiges Wort heißt てら. Das bloße Vorkommen von 寺 in einem Tempelnamen ist noch keine Zählung: Beim Zählwort muss davor eine Anzahl stehen.",
+    "examples": [
+      {
+        "japanese": "この町には、古い寺が十寺残っている。",
+        "romaji": "Kono machi ni wa, furui tera ga jūji nokotte iru.",
+        "german": "In dieser Stadt sind noch zehn alte Tempel erhalten."
+      },
+      {
+        "japanese": "本山は、各地の百寺に知らせを送った。",
+        "romaji": "Honzan wa, kakuchi no hyakuji ni shirase o okutta.",
+        "german": "Der Haupttempel schickte eine Mitteilung an hundert Tempel in verschiedenen Regionen."
+      }
+    ],
+    "aliases": [],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ji-temple-counter"
   }
 ];
