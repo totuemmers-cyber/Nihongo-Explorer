@@ -59,6 +59,15 @@ files use unique names. Use a new journal filename for each new wave.
 
 Focused verification: `node scripts/vocabulary-batch-test.cjs`.
 
+For an inflected adjective taught as an adverb, a UniDic surface row alone does
+not establish the realized accent. Its `aType` can describe the basic form;
+inflection changes are described separately by `aModType`. Inspect the actual
+realized-form evidence, such as the complete OJAD adjective `〜く形` cell, and
+bind the supported contours to the selected reading and role. Keep pitch
+investigated unknown when the whole form remains unsupported. Preserve the
+historical record and append an independently reviewed revision when replacing
+lemma-only evidence or adding directly attested variants.
+
 When editing a surviving merge target, allocate its approval renewal before
 assembly with the module function
 `allocateMergeRevisions(packet, plan, [retiredSourceId])`. The returned packet

@@ -39951,5 +39951,167 @@ window.VOCAB_N4 = [
     ],
     "senseKey": "riyou-use-utilization-noun",
     "correctionId": "vocab-n4:correction:riyou-use-utilization-noun"
+  },
+  {
+    "word": "ステレオ",
+    "reading": "ステレオ",
+    "romaji": "sutereo",
+    "meaning": "Stereo; Stereoanlage",
+    "type": "Nomen",
+    "category": "Freizeit",
+    "level": "N4",
+    "notes": "ステレオ bezeichnet Stereo-Ton mit getrennten linken und rechten Kanälen und auch eine Stereoanlage. ステレオで録音する heißt in Stereo aufnehmen; ステレオを修理する eine Stereoanlage reparieren. Der Gegensatz beim Tonformat ist モノラル „Mono“. Diese Karte übt das selbstständige Nomen für Ton und Gerät. Der Wortbestandteil ステレオ in Bezeichnungen für räumliches Sehen hat eine andere Verwendung.",
+    "examples": [
+      {
+        "japanese": "この録音はステレオなので、左右から違う音が聞こえる。",
+        "romaji": "Kono rokuon wa sutereo na node, sayū kara chigau oto ga kikoeru.",
+        "german": "Diese Aufnahme ist in Stereo, deshalb hört man von links und rechts unterschiedliche Klänge."
+      },
+      {
+        "japanese": "古いステレオを修理して、またレコードを聴けるようになった。",
+        "romaji": "Furui sutereo o shūri shite, mata rekōdo o kikeru yō ni natta.",
+        "german": "Nachdem ich die alte Stereoanlage repariert hatte, konnte ich wieder Schallplatten hören."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@148611414",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Actual complete ステレオ/ステレオ, lemma ステレオ-stereo, 名詞/普通名詞/一般/*/*/*, aType0. Full original JMdict1070650 nominal senses1 stereo sound and2 stereo player/set, independently licensed in full Daijisenステレオ3182198 and NipponKokugo nominal[2]①sound/②equipment. Bound stereoscopic photographic element[1] and JMdictadj-f3 are separate, not assigned to the independent audio noun. Entire original TANOS N4PDF17 stereo, genuine Sensei N4row468 nominal katakana stereo and full Master6597 N4 noun scope inspected. Exact actual UniDic148611414 ordinary noun lemmaステレオ-stereo, orth/pronステレオ, aType0 positively verifies selected audio noun. Recording format and repair of physical equipment are distinct contexts.",
+        "match": {
+          "word": "ステレオ",
+          "reading": "ステレオ",
+          "grammaticalForm": "名詞/普通名詞/一般/*/*/*; exact selected Nomen",
+          "sense": "Stereo; Stereoanlage"
+        }
+      }
+    ],
+    "senseKey": "sutereo-sound-equipment-noun",
+    "correctionId": "vocab-n4:correction:sutereo-sound-equipment-noun"
+  },
+  {
+    "word": "昨夜",
+    "reading": "さくや",
+    "romaji": "sakuya",
+    "meaning": "gestern Abend; letzte Nacht",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "昨夜 mit der Lesung さくや bedeutet „gestern Abend“ oder „letzte Nacht“. Es wirkt schriftlicher oder förmlicher als ゆうべ, das ebenfalls 昨夜 geschrieben werden kann. 昨夜遅く heißt spät gestern Abend beziehungsweise spät in der letzten Nacht; 昨夜から beschreibt den Beginn eines Zustands in der vergangenen Nacht. Als Zeitangabe steht 昨夜 oft ohne Partikel vor dem Verb.",
+    "examples": [
+      {
+        "japanese": "昨夜遅く、兄から電話があった。",
+        "romaji": "Sakuya osoku, ani kara denwa ga atta.",
+        "german": "Spät gestern Abend rief mein älterer Bruder an."
+      },
+      {
+        "japanese": "昨夜から雨が降り続いている。",
+        "romaji": "Sakuya kara ame ga furitsuzuite iru.",
+        "german": "Seit letzter Nacht regnet es ununterbrochen."
+      }
+    ],
+    "pitch": 2,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128637080",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2,
+          0
+        ],
+        "finding": "Actual complete 昨夜/サクヤ, lemma 昨夜, 名詞/普通名詞/副詞可能/*/*/*, aType2,0. Complete original JMdict2863052 sole noun/adverb last night/yesterday evening, explicit less colloquial thanゆうべ and separate exactさくや reading. Full licensed Daijisen昨夜509767さくや and NipponKokugo名 positively license yesterday night; otherようべ/ゆんべ/よべ readings remain separate. Genuine original Sensei N4row395 exactさくや noun/adverbial noun last night personally read. Exact actual UniDic128637080 ordinary noun副詞可能, lemma昨夜/pronサクヤ, aType2,0 verifies exact whole form primary2 with attested variant0. No accent borrowed from別readingゆうべ. Two contexts distinguish one event late last night and a continuing condition since last night.",
+        "match": {
+          "word": "昨夜",
+          "reading": "さくや",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*/*/*; exact selected Nomen",
+          "sense": "gestern Abend; letzte Nacht"
+        }
+      }
+    ],
+    "senseKey": "sakuya-last-night",
+    "correctionId": "vocab-n4:correction:sakuya-last-night"
+  },
+  {
+    "word": "けど",
+    "reading": "けど",
+    "romaji": "kedo",
+    "meaning": "aber; obwohl (Verbindung von Teilsätzen)",
+    "type": "Partikel",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "けど verbindet in der gesprochenen Sprache zwei Teilsätze mit einem Gegensatz: „aber“ oder „obwohl“. Es ist eine kurze Form von けれども und steht direkt nach dem ersten Teilsatz, zum Beispiel 高いけど „es ist teuer, aber …“ oder 練習したけど „obwohl ich geübt habe …“. Nach einem Nomen oder な-Adjektiv steht meist だけど. In förmlicher Schrift sind けれども und が häufiger. Das selbstständige けど am Anfang eines neuen Satzes hat eine eigene Karte.",
+    "examples": [
+      {
+        "japanese": "値段は高いけど、長く使える。",
+        "romaji": "Nedan wa takai kedo, nagaku tsukaeru.",
+        "german": "Der Preis ist hoch, aber man kann es lange benutzen."
+      },
+      {
+        "japanese": "練習したけど、試合には勝てなかった。",
+        "romaji": "Renshū shita kedo, shiai ni wa katenakatta.",
+        "german": "Obwohl ich geübt hatte, konnte ich das Spiel nicht gewinnen."
+      }
+    ],
+    "pitch": null,
+    "pitchVariants": [],
+    "pitchProvenance": [],
+    "senseKey": "kedo-contrast-connecting-particle",
+    "correctionId": "vocab-n4:correction:kedo-contrast-connecting-particle"
+  },
+  {
+    "word": "けど",
+    "reading": "けど",
+    "romaji": "kedo",
+    "meaning": "aber; jedoch (Satzanfang)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "Als selbstständige Konjunktion kann けど am Anfang eines neuen Satzes stehen: „aber“ oder „jedoch“. Es greift einen zuvor genannten Sachverhalt auf und stellt ihm eine Einschränkung oder ein unerwartetes Ergebnis gegenüber. Diese kurze Form von けれども ist umgangssprachlich; in förmlicheren Texten passen けれども oder しかし. Die Partikel けど, die direkt zwei Teilsätze verbindet, wird auf einer eigenen Karte geübt.",
+    "examples": [
+      {
+        "japanese": "今日は忙しい。けど、少しなら話せる。",
+        "romaji": "Kyō wa isogashii. Kedo, sukoshi nara hanaseru.",
+        "german": "Heute habe ich viel zu tun. Aber ein bisschen kann ich reden."
+      },
+      {
+        "japanese": "彼は道を間違えた。けど、約束の時間には間に合った。",
+        "romaji": "Kare wa michi o machigaeta. Kedo, yakusoku no jikan ni wa ma ni atta.",
+        "german": "Er nahm den falschen Weg. Trotzdem war er zur vereinbarten Zeit da."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118628327",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Actual complete けど/ケド, lemma けれど, 接続詞/*/*/*/*/*, aType1. Complete original JMdict1004200 exactけど conjunction and particle but/however/although; this card selects independent 接続詞 role. Full licensed Daijisenけれども491210［接］plus explicit contractionけど and NipponKokugo[2]接続詞 expressly listingけど positively license a new sentence contrasting a preceding assertion. Full Master382 N4 whole conjunction/particle frozen gloss jointly covered with bound particle companion. Exact actual UniDic118628327 orth/pronけど/ケド lemmaけれど, 接続詞 and aType1 verifies independent conjunction only. Connecting-particle118625335 aType* and unrelated気取る inflections remain different roles. Casual register applies; no sentence-final ellipsis meaning assigned.",
+        "match": {
+          "word": "けど",
+          "reading": "けど",
+          "grammaticalForm": "接続詞/*/*/*/*/*; exact selected Ausdruck",
+          "sense": "aber; jedoch (Satzanfang)"
+        }
+      }
+    ],
+    "senseKey": "kedo-independent-contrast-conjunction",
+    "correctionId": "vocab-n4:correction:kedo-independent-contrast-conjunction"
   }
 ];

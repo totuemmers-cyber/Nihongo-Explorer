@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "recordedAt": "2026-10-04T18:52:17.914Z",
+  "status": "resolved",
+  "scope": "Full scan of accepted verified Adverb cards found these four bare lexical-aType claims for adjective continuative forms. The scan was repeated independently; historical approvals remain unchanged.",
+  "finding": "A matching inflected surface in UniDic does not by itself prove the realized pitch: lexical aType can describe basic form, and inflection modifications must be checked. All four retained primary values are positively supported by exact OJAD realized adjective ku-form cells. Three missing attested variant-1 contours are added; the fourth was already present. No primary is guessed or borrowed from a lemma.",
+  "primaryMethodSource": {
+    "title": "UniDic manual, printed page 23, section 6.6 and Table 9",
+    "url": "https://www.gavo.t.u-tokyo.ac.jp/~mine/japanese/nlp%2Bslp/UNIDIC_manual.pdf",
+    "sha256": "1911ff669f58214155a5f0b32a840faa96c636c03c0021f56aa588598e8e1e6e",
+    "finding": "Basic accent and inflection modifications are distinct. This manual motivates the source rule; exact modern realized contours are established separately by OJAD."
+  },
+  "resolutionBatch": "149d-full-n4.json",
+  "assemblyHash": "57961af9991a7448a9a5d2105a9cf262b1763034ebc34e065bf86c8bebe5692e",
+  "batchHash": "06d80a97c361578f0a3946cd71d933881e71aa9db03c2ad2c4b85ab5c1e2a7d7",
+  "cases": [
+    {
+      "id": "vocab-n5:515",
+      "word": "すごく",
+      "reading": "すごく",
+      "status": "resolved-by-appended-independently-reviewed-revision",
+      "discoverySnapshot": {
+        "id": "vocab-n5:515",
+        "word": "すごく",
+        "reading": "すごく",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@147440263",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Genau すごく/スゴク, Lexeme 凄い, 形容詞/一般/*/*, 形容詞, 連用形-一般, aType 2. JMdict2272830 Bedeutung1 äußerst/sehr Adverb. Exakte UniDic凄い連用形2 entspricht diesem adverbialen Kopf; gleichgelesenesVerb素扱く ausgeschlossen. Erlebnisbewertung und Aktionsgeschwindigkeit sind getrennt.",
+            "match": {
+              "word": "すごく",
+              "reading": "すごく",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連用形-一般",
+              "sense": "すごく als sehr, unglaublich"
+            }
+          }
+        ]
+      },
+      "finalContentHash": "35deff5d726c6ebebdf2b1903aadc3e17641c57e5d045fab8e0ebcb91adfc461",
+      "pitch": 2,
+      "pitchVariants": [
+        1
+      ],
+      "realizedFormEvidence": {
+        "source": "OJAD University of Tokyo, complete original realized adjectiveく-form cell",
+        "version": "Original personally inspected2026-10-04; HTMLSHA256ca0cff80f3fc6ff688b8250ff5d51e071fa02ac7b4c4978489eb1053af87698c; word_2926",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%99%E3%81%94%E3%81%84#word_2926; katsuyo_ukemi_js, adjective column〜く形",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory; OJAD",
+        "patterns": [
+          1,
+          2
+        ],
+        "finding": "Personally read original adjective table header〜く形 and entire selected cell; actual rendered full すごく has 3 morae with 2 separately complete contours at peaks1,2. Cell CSS uses shared katsuyo_ukemi_js but header explicitly labels adjectiveく-form, not a verb passive. ExactJMdict2272830sense1 usual-kana degree adverb extremely/very. Two good contexts intensify enjoyment and running speed; preserve all teaching. Source2926凄い has exact realizedすごく く形 contours1,2; primary2 retained and verifiedvariant1 added.",
+        "match": {
+          "word": "すごく",
+          "reading": "すごく",
+          "grammaticalForm": "Exact realized adjectiveく-form used adverbially; entire すごく/すごく independently rendered, not underlying adjective lemma",
+          "sense": "ExactJMdict2272830sense1 usual-kana degree adverb extremely/very. Two good contexts intensify enjoyment and running speed; preserve all teaching. Source2926凄い has exact realizedすごく く形 contours1,2; primary2 retained and verifiedvariant1 added."
+        }
+      },
+      "sourceBytesSha256": "ca0cff80f3fc6ff688b8250ff5d51e071fa02ac7b4c4978489eb1053af87698c"
+    },
+    {
+      "id": "vocab-n5:1034",
+      "word": "早く",
+      "reading": "はやく",
+      "status": "resolved-by-appended-independently-reviewed-revision",
+      "discoverySnapshot": {
+        "id": "vocab-n5:1034",
+        "word": "早く",
+        "reading": "はやく",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217920970,sys.dic@217944131",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              1
+            ],
+            "finding": "Actual sys.dic@217920970 早く ハヤク lemma早い 形容詞連用形-一般 aType2; @217944131 早く ハヤク lemma早く 名詞普通名詞副詞可能 aType1. Selected actual early/quick senses raw1400150/1,2 and temporal/manner contexts compatible; both alternatives retained.",
+            "match": {
+              "word": "早く",
+              "reading": "はやく",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連用形-一般 | 名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "early/soon and quickly; same complete早く/はやく"
+            }
+          }
+        ]
+      },
+      "finalContentHash": "cfac5a4476c49ff8676dbc05fe8dbce3449dd4e18d8b28e70b2b629feb1c4ec7",
+      "pitch": 2,
+      "pitchVariants": [
+        1
+      ],
+      "realizedFormEvidence": {
+        "source": "OJAD University of Tokyo, complete original realized adjectiveく-form cell",
+        "version": "Original personally inspected2026-10-04; HTMLSHA256dc1f7b920c0a20572c23749aadaafcd33b99ffd57b0128b379aaeeabaff3b725; word_2986",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%97%A9%E3%81%84#word_2986; katsuyo_ukemi_js, adjective column〜く形",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory; OJAD",
+        "patterns": [
+          1,
+          2
+        ],
+        "finding": "Personally read original adjective table header〜く形 and entire selected cell; actual rendered full はやく has 3 morae with 2 separately complete contours at peaks1,2. Cell CSS uses shared katsuyo_ukemi_js but header explicitly labels adjectiveく-form, not a verb passive. ExactJMdict1400150senses1 early/soon (早く spelling restriction) and2 quickly (esp速く, not a prohibition on早く). Preserve early work departure and quick-arrival request. Source2986早い realized早く/はやく く形 contours1,2 support retainedprimary2/variant1; preserve existing excluded verb-conjugation metadata.",
+        "match": {
+          "word": "早く",
+          "reading": "はやく",
+          "grammaticalForm": "Exact realized adjectiveく-form used adverbially; entire 早く/はやく independently rendered, not underlying adjective lemma",
+          "sense": "ExactJMdict1400150senses1 early/soon (早く spelling restriction) and2 quickly (esp速く, not a prohibition on早く). Preserve early work departure and quick-arrival request. Source2986早い realized早く/はやく く形 contours1,2 support retainedprimary2/variant1; preserve existing excluded verb-conjugation metadata."
+        }
+      },
+      "sourceBytesSha256": "dc1f7b920c0a20572c23749aadaafcd33b99ffd57b0128b379aaeeabaff3b725"
+    },
+    {
+      "id": "vocab-n5:1103",
+      "word": "大きく",
+      "reading": "おおきく",
+      "status": "resolved-by-appended-independently-reviewed-revision",
+      "discoverySnapshot": {
+        "id": "vocab-n5:1103",
+        "word": "大きく",
+        "reading": "おおきく",
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73995227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "sys.dic@73995227: 大きく/オオキク; lemma大きい; 形容詞/一般/*/*; 形容詞; 連用形-一般; aType3. 2039990 inbigway adverb1 exactwholeinflected73995227大きく adverbial連用形lemma大きい a3 selected, no baseformaccent inference. ExistingAdverb excludedconjugation retained; movementextent versus writingsize distinct, ōkiku/takushī corrected.",
+            "match": {
+              "word": "大きく",
+              "reading": "おおきく",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連用形-一般",
+              "sense": "Exact 大きく/おおきく, JMdict2039990, senses1: in a big way, in a large way, on a grand scale, wide, extensively. Spelling, reading and restrictions inspected. 2039990 inbigway adverb1 exactwholeinflected73995227大きく adverbial連用形lemma大きい a3 selected, no baseformaccent inference. ExistingAdverb excludedconjugation retained; movementextent versus writingsize distinct, ōkiku/takushī corrected."
+            }
+          }
+        ]
+      },
+      "finalContentHash": "1da0ff3f3e94054ce3422cff1f0ccf3cb42e3ce09e7eb6a17b63357160b8fdad",
+      "pitch": 3,
+      "pitchVariants": [
+        1
+      ],
+      "realizedFormEvidence": {
+        "source": "OJAD University of Tokyo, complete original realized adjectiveく-form cell",
+        "version": "Original personally inspected2026-10-04; HTMLSHA25612ebc30b8c377a99becad2e9bd334fe027e8f39af69198711834b1ea5288faf7; word_2864",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%A7%E3%81%8D%E3%81%84#word_2864; katsuyo_ukemi_js, adjective column〜く形",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory; OJAD",
+        "patterns": [
+          1,
+          3
+        ],
+        "finding": "Personally read original adjective table header〜く形 and entire selected cell; actual rendered full おおきく has 4 morae with 2 separately complete contours at peaks1,3. Cell CSS uses shared katsuyo_ukemi_js but header explicitly labels adjectiveく-form, not a verb passive. ExactJMdict2039990sense1 whole adverb in a large way/extensively. Preserve clear large hand movement and large written characters. Source2864大きい realized大きく/おおきく く形 contours1,3 support retainedprimary3 and addedvariant1; excluded verb-conjugation metadata retained.",
+        "match": {
+          "word": "大きく",
+          "reading": "おおきく",
+          "grammaticalForm": "Exact realized adjectiveく-form used adverbially; entire 大きく/おおきく independently rendered, not underlying adjective lemma",
+          "sense": "ExactJMdict2039990sense1 whole adverb in a large way/extensively. Preserve clear large hand movement and large written characters. Source2864大きい realized大きく/おおきく く形 contours1,3 support retainedprimary3 and addedvariant1; excluded verb-conjugation metadata retained."
+        }
+      },
+      "sourceBytesSha256": "12ebc30b8c377a99becad2e9bd334fe027e8f39af69198711834b1ea5288faf7"
+    },
+    {
+      "id": "vocab-n4:83",
+      "word": "うまく",
+      "reading": "うまく",
+      "status": "resolved-by-appended-independently-reviewed-revision",
+      "discoverySnapshot": {
+        "id": "vocab-n4:83",
+        "word": "うまく",
+        "reading": "うまく",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@67120009",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Individually inspected exact whole うまく/ウマク; lemma 旨い; 形容詞/一般/*/*; 形容詞; 連用形-一般; aType 2. Exact1310490senses1 skillfully and2 successfully; preserve successful outcome and difficulty explaining. Exactsurfaceうまく67120009 形容詞/一般, 形容詞,連用形-一般 aType2 directly attests this whole adverbial form; literaryク-inflection and uninflectedうまい not substituted.",
+            "match": {
+              "word": "うまく",
+              "reading": "うまく",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 連用形-一般",
+              "sense": "Exact1310490senses1 skillfully and2 successfully; preserve successful outcome and difficulty explaining. Exactsurfaceうまく67120009 形容詞/一般, 形容詞,連用形-一般 aType2 directly attests this whole adverbial form; literaryク-inflection and uninflectedうまい not substituted."
+            }
+          }
+        ]
+      },
+      "finalContentHash": "2a7fbe212e3fa74304378b5b3cd8edb52c482f83aad03e92f27e1a007b289627",
+      "pitch": 2,
+      "pitchVariants": [
+        1
+      ],
+      "realizedFormEvidence": {
+        "source": "OJAD University of Tokyo, complete original realized adjectiveく-form cell",
+        "version": "Original personally inspected2026-10-04; HTMLSHA256ed8e4f4af0c93f3ad245299b293a38194b28c73831804b5f388a958f9e40f7f0; word_2859",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%86%E3%81%BE%E3%81%8F#word_2859; katsuyo_ukemi_js, adjective column〜く形",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory; OJAD",
+        "patterns": [
+          1,
+          2
+        ],
+        "finding": "Personally read original adjective table header〜く形 and entire selected cell; actual rendered full うまく has 3 morae with 2 separately complete contours at peaks1,2. Cell CSS uses shared katsuyo_ukemi_js but header explicitly labels adjectiveく-form, not a verb passive. ExactJMdict1310490senses1 skillfully and2 successfully, usually kana. Preserve successful outcome and difficulty explaining. Source2859上手い exact realizedうまく く形 contours1,2 directly matches selected performance adverb, retainedprimary2 and addedvariant1. Deliciously sense3 is not selected.",
+        "match": {
+          "word": "うまく",
+          "reading": "うまく",
+          "grammaticalForm": "Exact realized adjectiveく-form used adverbially; entire うまく/うまく independently rendered, not underlying adjective lemma",
+          "sense": "ExactJMdict1310490senses1 skillfully and2 successfully, usually kana. Preserve successful outcome and difficulty explaining. Source2859上手い exact realizedうまく く形 contours1,2 directly matches selected performance adverb, retainedprimary2 and addedvariant1. Deliciously sense3 is not selected."
+        }
+      },
+      "sourceBytesSha256": "ed8e4f4af0c93f3ad245299b293a38194b28c73831804b5f388a958f9e40f7f0"
+    }
+  ],
+  "relatedWholeVerbCorrection": {
+    "id": "vocab-n4:84",
+    "type": "Verb",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationKind": "verb",
+      "conjugationReading": "おせわになる"
+    },
+    "finding": "JMdict1002260 exp/v5r supports the complete expression as a Godan-ru Verb. All retained teaching is unchanged; the whole reading is used for conjugation. Whole-expression pitch remains investigated unknown."
+  },
+  "review": "Author and independent reviewer inspected all complete original source cells and final assembly, checked retained German notes and all eleven Japanese/Hepburn/German examples, and verified whole-expression conjugation. Exact approvals are preserved in the appended batch."
+}

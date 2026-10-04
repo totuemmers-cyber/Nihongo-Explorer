@@ -57,6 +57,14 @@ adds the original university-hosted Hepburn scans and distinguishes their
 governmental scope. Research findings describe discovery-time content;
 explicit later resolutions supersede them.
 
+The [resolved inflected-adverb investigation](research-adverb-inflection-20261004.json)
+records four accepted cards whose UniDic lexical accent evidence needed a check
+against the realized adjective form. Exact OJAD く-form cells support all retained
+primary accents and variant 1. Appended batch 149d replaces the misleading proof,
+adds three missing variants and supplies whole-expression conjugation metadata
+for お世話になる, with fresh author and independent reviews. Historical approvals
+and good existing teaching remain preserved.
+
 After a passing level gate and full test suite, run
 `node scripts/vocabulary-campaign.cjs advance` to advance the campaign. It validates
 the actual runtime, ledger and immutable baseline, rechecks every earlier phase,
@@ -366,6 +374,47 @@ N5 remains the active level; this checkpoint certifies no level.
 | --- | ---: | ---: | ---: |
 | N5 | 0 | 0 | 14 |
 | N4 | 1270 | 1361 | 296 |
+| N3 | 3225 | 3379 | 438 |
+| N2 | 2389 | 2513 | 276 |
+| N1 | 3869 | 4013 | 352 |
+
+The next verified checkpoint (166a) reviews 75
+further unique original N4 entries, adds 4 justified cards and closes
+5 frozen references.
+The library has 15,791 entries. Campaign totals
+are 1,908 original entries reviewed,
+233 additions and 573 of 1,944 frozen
+references resolved. Original-entry totals count unique campaign reviews,
+including improvements to previously complete teaching; repeats count once.
+This checkpoint closes 75 missing usage-note requirements
+and 75 missing requirements for two reviewed contexts.
+The exact 5-batch roster is recorded in campaign status.
+
+Every teaching change and source decision has exact author and independent
+approval. No accepted reference reopened. These five packets have no affected
+earlier accepted source or merge targets requiring renewal. Good existing examples
+and all original identities, headwords, readings and levels are preserved.
+The four-case inflected-adverb research finding is resolved through appended,
+independently reviewed corrections using exact realized OJAD forms. Supported
+primary accents remain unchanged; attested variants and truthful provenance
+are included. The complete expression お世話になる now has canonical Verb
+metadata and whole-reading conjugations. Existing teaching is preserved.
+
+All 21 full checks pass. A second generation leaves eight generated files
+identical; all 15,558 original identities survive, and comprehension/audio
+payloads remain unchanged. Edge verifies 133 cards in
+532 detail and note states at 390/1440 widths in both
+themes, with all qualified aliases, verified/variant/unknown pitch,
+pronunciation reading selection, conjugations, distinct same-reading sense
+refreshes, historical redirects and saved bookmarks. Eight representative
+cards have 32 detail and 32 note captures; eight varied captures were personally
+inspected. Completion audits and phase gates remain open with the counts below.
+N5 remains the active level; this checkpoint certifies no level.
+
+| Level | Missing notes | Missing two reviewed contexts | Open references |
+| --- | ---: | ---: | ---: |
+| N5 | 0 | 0 | 14 |
+| N4 | 1195 | 1286 | 291 |
 | N3 | 3225 | 3379 | 438 |
 | N2 | 2389 | 2513 | 276 |
 | N1 | 3869 | 4013 | 352 |
