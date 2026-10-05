@@ -460,6 +460,26 @@ and katazuku, and 39 German meanings are corrected, e.g. 啜る „schlüpfen“
 改札 „Schranke“→„Fahrkartensperre“. No source references were resolved in this checkpoint.
 N4 now has 786 pending reviews and 291 open references.
 
+**N4 enrichment completed (5 October 2026).** Batches 170a–170j, 171a–171j and
+172a–172l (`author-only-v1`, author first pass only) enrich the remaining 786 N4-level
+entries from one queue snapshot: vocab-n4:748–1469 plus the N4-levelled vocab-n3 (47),
+vocab-n2 (43) and vocab-n1 (1) cards, 40 idioms and 8 yojijukugo. Each entry has a
+German usage note and 2–3 examples in distinct situations; 1,105 new sentences are
+written in Modified Hepburn and 295 entries get corrected original examples. The pitch
+of 572 entries is verified (532 from exact UniDic rows, 40 from exact OJAD cells),
+correcting 76 stored primary accents and filling 72 previously unset ones; 214 entries,
+mostly compounds, set phrases and idioms, are investigated unknowns. Two role rules were
+tightened: Partikel cards accept only particle or suffix rows (程 no longer takes the
+noun accent), and だから/ちゃん are recorded unknowns because their only accented rows
+belong to other words (the rendaku form of 宝, the adverb ちゃん). Seventy-one cards
+get a part-of-speech correction, mostly nouns typed as Adjektiv (母親, 学期, 商人, the
+pronouns 彼ら/俺/俺ら) to Nomen, following the N5 precedent; 立入禁止 becomes Ausdruck.
+Suru nouns typed Verb (e.g. 安売り, 急行) keep the project convention. 140 German
+meanings are corrected, e.g. 目を閉じる „etwas ignorieren“→„(verhüllend) sterben“
+(the ignoring sense is 目をつぶる). 新宿 has no JMdict_e entry and records that scan
+instead of a sense. No source references were resolved. N4 now has 0 pending reviews;
+its 291 open references remain before the level can be certified.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
