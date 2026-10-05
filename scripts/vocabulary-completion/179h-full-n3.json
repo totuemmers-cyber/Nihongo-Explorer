@@ -1,0 +1,3721 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1083",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1083",
+      "state": "accepted",
+      "predecessorHash": "80b42f1e5ae0e28b3c218093f56e18ddda5e0d792493bb94d9065261ccfce767",
+      "originalHash": "80b42f1e5ae0e28b3c218093f56e18ddda5e0d792493bb94d9065261ccfce767",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "肉を解凍します。",
+            "romaji": "Niku o kaitou shimasu.",
+            "german": "Ich taue das Fleisch auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "解凍 heißt „auftauen“ und ist als transitives する-Verb sehr häufig: 冷凍の肉を解凍する, 電子レンジで解凍する, 自然解凍 „bei Zimmertemperatur auftauen lassen“. Gegenbegriff ist 冷凍 „einfrieren“. Am Computer bedeutet 解凍 außerdem „eine komprimierte Datei entpacken“ (ZIPファイルを解凍する); das Gegenstück dazu ist 圧縮.",
+        "examples": [
+          {
+            "japanese": "肉を解凍します。",
+            "romaji": "Niku o kaitou shimasu.",
+            "german": "Ich taue das Fleisch auf."
+          },
+          {
+            "japanese": "冷凍のパンは電子レンジで解凍すると便利です。",
+            "romaji": "Reitou no pan wa denshi renji de kaitou suru to benri desu.",
+            "german": "Gefrorenes Brot taut man am bequemsten in der Mikrowelle auf."
+          },
+          {
+            "japanese": "ダウンロードしたファイルを解凍してください。",
+            "romaji": "Daunroodo shita fairu o kaitou shite kudasai.",
+            "german": "Bitte entpacken Sie die heruntergeladene Datei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86314941",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 解凍/カイトウ; lemma 解凍; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "解凍",
+              "reading": "かいとう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 解凍/かいとう \"Auftauen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1199150 senses 1–2, noun / suru verb (transitive): thawing, defrosting; decompressing (data) Pitch: Verified [0] via exact UniDic row. 解凍 heißt „auftauen“ und ist als transitives する-Verb sehr häufig: 冷凍の肉を解凍する, 電子レンジで解凍する, 自然解凍 „bei Zimmertemperatur auftauen lassen“. Gegenbegriff ist 冷凍 „einfrieren“. Am Computer bedeutet 解凍 außerdem „eine komprimierte Datei entpacken“ (ZIPファイルを解凍する); das Gegenstück dazu ist 圧縮. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1199150; spelling=解凍; reading=かいとう",
+          "selected": {
+            "sequence": "1199150",
+            "spelling": "解凍",
+            "reading": "かいとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thawing",
+                  "defrosting"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "decompression (of data)",
+                  "extraction",
+                  "unpacking",
+                  "unzipping"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1199150 senses 1–2, noun / suru verb (transitive): thawing, defrosting; decompressing (data)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 解凍/カイトウ; lemma 解凍; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86314941",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 解凍/カイトウ; lemma 解凍; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "解凍",
+              "reading": "かいとう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 解凍/かいとう \"Auftauen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Auftauen. JMdict 1199150 senses 1–2, noun / suru verb (transitive): thawing, defrosting; decompressing (data)",
+        "japanese": "肉を解凍します。 / 冷凍のパンは電子レンジで解凍すると便利です。 / ダウンロードしたファイルを解凍してください。",
+        "romanization": "kaitou; Niku o kaitou shimasu. / Reitou no pan wa denshi renji de kaitou suru to benri desu. / Daunroodo shita fairu o kaitou shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich taue das Fleisch auf. / Gefrorenes Brot taut man am bequemsten in der Mikrowelle auf. / Bitte entpacken Sie die heruntergeladene Datei.",
+        "contexts": [
+          "Preparing dinner",
+          "Using the microwave",
+          "Unzipping a file"
+        ],
+        "lexical": "JMdict 1199150 senses 1–2, noun / suru verb (transitive): thawing, defrosting; decompressing (data)",
+        "register": "neutral",
+        "transitivity": "transitive as 解凍する (X を解凍する)",
+        "conjugation": "noun; suru verb (解凍する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1083 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preparing dinner; Using the microwave; Unzipping a file), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "005ad80ccfea370af4c81f827c63a9bf4a46033834241a70af16e5bd22970ff8",
+        "approvalHash": "c2d0e1e670095612f0f2e15e48c436af9dcf12e4fc61a6e751c8cf3ba81e5c9c"
+      }
+    },
+    {
+      "id": "vocab-n3:1084",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1084",
+      "state": "accepted",
+      "predecessorHash": "6a3ae35ec1b2d84b7c225d243637049fe66cedb30ef15214dc0eda8286d86cce",
+      "originalHash": "6a3ae35ec1b2d84b7c225d243637049fe66cedb30ef15214dc0eda8286d86cce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "食中毒に気をつけてください。",
+            "romaji": "Shokuchuudoku ni ki o tsukete kudasai.",
+            "german": "Bitte achten Sie auf Lebensmittelvergiftung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "食中毒 ist eine Lebensmittelvergiftung durch Bakterien, Viren oder Giftstoffe im Essen. Typisch sind 食中毒になる „eine Lebensmittelvergiftung bekommen“, 食中毒を起こす (von Lebensmitteln oder Restaurants gesagt) und 食中毒に気をつける. Vor allem im feuchten Sommer warnen Nachrichten und Schulen davor. Das kürzere 中毒 bedeutet allgemein „Vergiftung“, aber auch „Sucht“ (ゲーム中毒).",
+        "examples": [
+          {
+            "japanese": "食中毒に気をつけてください。",
+            "romaji": "Shokuchuudoku ni ki o tsukete kudasai.",
+            "german": "Passen Sie bitte auf, dass Sie keine Lebensmittelvergiftung bekommen."
+          },
+          {
+            "japanese": "夏は食べ物が傷みやすいので、食中毒が増えます。",
+            "romaji": "Natsu wa tabemono ga itamiyasui node, shokuchuudoku ga fuemasu.",
+            "german": "Im Sommer verdirbt Essen leicht, deshalb gibt es mehr Lebensmittelvergiftungen."
+          },
+          {
+            "japanese": "生の貝を食べて、食中毒になってしまいました。",
+            "romaji": "Nama no kai o tabete, shokuchuudoku ni natte shimaimashita.",
+            "german": "Ich habe rohe Muscheln gegessen und mir eine Lebensmittelvergiftung geholt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1609950 sense 1, noun: food poisoning Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 食中毒 ist eine Lebensmittelvergiftung durch Bakterien, Viren oder Giftstoffe im Essen. Typisch sind 食中毒になる „eine Lebensmittelvergiftung bekommen“, 食中毒を起こす (von Lebensmitteln oder Restaurants gesagt) und 食中毒に気をつける. Vor allem im feuchten Sommer warnen Nachrichten und Schulen davor. Das kürzere 中毒 bedeutet allgemein „Vergiftung“, aber auch „Sucht“ (ゲーム中毒). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1609950; spelling=食中毒; reading=しょくちゅうどく",
+          "selected": {
+            "sequence": "1609950",
+            "spelling": "食中毒",
+            "reading": "しょくちゅうどく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "food poisoning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1609950 sense 1, noun: food poisoning"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 食中毒/しょくちゅうどく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%A3%9F%E4%B8%AD%E6%AF%92",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 食中毒/しょくちゅうどく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lebensmittelvergiftung. JMdict 1609950 sense 1, noun: food poisoning",
+        "japanese": "食中毒に気をつけてください。 / 夏は食べ物が傷みやすいので、食中毒が増えます。 / 生の貝を食べて、食中毒になってしまいました。",
+        "romanization": "shokuchuudoku; Shokuchuudoku ni ki o tsukete kudasai. / Natsu wa tabemono ga itamiyasui node, shokuchuudoku ga fuemasu. / Nama no kai o tabete, shokuchuudoku ni natte shimaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Passen Sie bitte auf, dass Sie keine Lebensmittelvergiftung bekommen. / Im Sommer verdirbt Essen leicht, deshalb gibt es mehr Lebensmittelvergiftungen. / Ich habe rohe Muscheln gegessen und mir eine Lebensmittelvergiftung geholt.",
+        "contexts": [
+          "Health warning",
+          "Summer food safety",
+          "After eating raw shellfish"
+        ],
+        "lexical": "JMdict 1609950 sense 1, noun: food poisoning",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1084 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Health warning; Summer food safety; After eating raw shellfish), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b553fec9efc34260f442ac46a1f9c798d602460f2d4e357a20585974138a7835",
+        "approvalHash": "a1cf5f0f7a8dca61e75fe5924826d377b09db19dfc1a023dc0b8c5a3756a55c4"
+      }
+    },
+    {
+      "id": "vocab-n3:1085",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1085",
+      "state": "accepted",
+      "predecessorHash": "ed03c14b9052d2687e2e4c163e5364b21180121ac73b75a4d6e48a6a882828b4",
+      "originalHash": "ed03c14b9052d2687e2e4c163e5364b21180121ac73b75a4d6e48a6a882828b4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "教壇に立ちます。",
+            "romaji": "Kyoudan ni tachimasu.",
+            "german": "Ich stehe am Lehrerpult."
+          }
+        ],
+        "meaning": "Katheder, Lehrerpult",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "教壇 ist das erhöhte Podest vorne im Klassenzimmer, auf dem die Lehrkraft steht; das Pult darauf heißt 教卓. Sehr häufig ist die übertragene Wendung 教壇に立つ „als Lehrer unterrichten“, etwa 三十年間教壇に立つ, sowie 教壇を去る „aus dem Schuldienst ausscheiden“. Das Wort klingt etwas gehoben; in modernen Schulen gibt es das Podest selbst oft gar nicht mehr.",
+        "examples": [
+          {
+            "japanese": "教壇に立ちます。",
+            "romaji": "Kyoudan ni tachimasu.",
+            "german": "Ich stehe als Lehrer vor der Klasse."
+          },
+          {
+            "japanese": "父は三十年間、高校の教壇に立ちました。",
+            "romaji": "Chichi wa sanjuunenkan, koukou no kyoudan ni tachimashita.",
+            "german": "Mein Vater hat dreißig Jahre lang an einer Oberschule unterrichtet."
+          },
+          {
+            "japanese": "先生が教壇から下りて、生徒の席まで来ました。",
+            "romaji": "Sensei ga kyoudan kara orite, seito no seki made kimashita.",
+            "german": "Der Lehrer stieg vom Podium herunter und kam zu den Plätzen der Schüler."
+          }
+        ],
+        "meaning": "Podium (im Klassenzimmer), Katheder",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106295657",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 教壇/キョウダン; lemma 教壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "教壇",
+              "reading": "きょうだん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 教壇/きょうだん \"Katheder, Lehrerpult\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1237270 sense 1, noun: (teacher's) platform, podium, dais Pitch: Verified [0] via exact UniDic row. 教壇 ist das erhöhte Podest vorne im Klassenzimmer, auf dem die Lehrkraft steht; das Pult darauf heißt 教卓. Sehr häufig ist die übertragene Wendung 教壇に立つ „als Lehrer unterrichten“, etwa 三十年間教壇に立つ, sowie 教壇を去る „aus dem Schuldienst ausscheiden“. Das Wort klingt etwas gehoben; in modernen Schulen gibt es das Podest selbst oft gar nicht mehr. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1237270; spelling=教壇; reading=きょうだん",
+          "selected": {
+            "sequence": "1237270",
+            "spelling": "教壇",
+            "reading": "きょうだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(teacher's) platform",
+                  "podium",
+                  "dais"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1237270 sense 1, noun: (teacher's) platform, podium, dais"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 教壇/キョウダン; lemma 教壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106295657",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 教壇/キョウダン; lemma 教壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "教壇",
+              "reading": "きょうだん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 教壇/きょうだん \"Katheder, Lehrerpult\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Podium (im Klassenzimmer), Katheder. JMdict 1237270 sense 1, noun: (teacher's) platform, podium, dais",
+        "japanese": "教壇に立ちます。 / 父は三十年間、高校の教壇に立ちました。 / 先生が教壇から下りて、生徒の席まで来ました。",
+        "romanization": "kyoudan; Kyoudan ni tachimasu. / Chichi wa sanjuunenkan, koukou no kyoudan ni tachimashita. / Sensei ga kyoudan kara orite, seito no seki made kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich stehe als Lehrer vor der Klasse. / Mein Vater hat dreißig Jahre lang an einer Oberschule unterrichtet. / Der Lehrer stieg vom Podium herunter und kam zu den Plätzen der Schüler.",
+        "contexts": [
+          "Talking about one's job",
+          "Long teaching career",
+          "Classroom scene"
+        ],
+        "lexical": "JMdict 1237270 sense 1, noun: (teacher's) platform, podium, dais",
+        "register": "neutral to slightly formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1085 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Talking about one's job; Long teaching career; Classroom scene), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1c27613d73d8ec14534abf2764c028b31843ae22b0904f9db7e797fcbeae040a",
+        "approvalHash": "c689744100b8a9ff8056b49de64bae7fcdefb74f23e93c7463780811e7f1f255"
+      }
+    },
+    {
+      "id": "vocab-n3:1087",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1087",
+      "state": "accepted",
+      "predecessorHash": "6e77d038f987ab01090c5bd3fe43de49a3f9fce8e7f0ba612917d06f0d6a37dc",
+      "originalHash": "6e77d038f987ab01090c5bd3fe43de49a3f9fce8e7f0ba612917d06f0d6a37dc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "百科事典で調べました。",
+            "romaji": "Hyakkajiten de shirabemashita.",
+            "german": "Ich habe in der Enzyklopädie nachgeschlagen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "百科事典 ist eine Enzyklopädie über alle Wissensgebiete (百科 „hundert Fächer“). Typisch ist 百科事典で調べる „in der Enzyklopädie nachschlagen“; heute meint man damit oft auch Online-Lexika. Beachte das Kanji: 事典 erklärt Sachen, während 辞典 bzw. 辞書 Wörter erklärt. Einen Menschen, der alles weiß, nennt man scherzhaft 歩く百科事典 „wandelndes Lexikon“.",
+        "examples": [
+          {
+            "japanese": "百科事典で調べました。",
+            "romaji": "Hyakkajiten de shirabemashita.",
+            "german": "Ich habe in der Enzyklopädie nachgeschlagen."
+          },
+          {
+            "japanese": "図書館には全二十巻の百科事典があります。",
+            "romaji": "Toshokan ni wa zen nijukkan no hyakkajiten ga arimasu.",
+            "german": "In der Bibliothek steht eine Enzyklopädie in zwanzig Bänden."
+          },
+          {
+            "japanese": "兄は何でも知っていて、まるで歩く百科事典です。",
+            "romaji": "Ani wa nan demo shitte ite, marude aruku hyakkajiten desu.",
+            "german": "Mein großer Bruder weiß einfach alles – er ist ein wandelndes Lexikon."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1602190 sense 1, noun: encyclopedia Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 百科事典 ist eine Enzyklopädie über alle Wissensgebiete (百科 „hundert Fächer“). Typisch ist 百科事典で調べる „in der Enzyklopädie nachschlagen“; heute meint man damit oft auch Online-Lexika. Beachte das Kanji: 事典 erklärt Sachen, während 辞典 bzw. 辞書 Wörter erklärt. Einen Menschen, der alles weiß, nennt man scherzhaft 歩く百科事典 „wandelndes Lexikon“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1602190; spelling=百科事典; reading=ひゃっかじてん",
+          "selected": {
+            "sequence": "1602190",
+            "spelling": "百科事典",
+            "reading": "ひゃっかじてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "encyclopedia",
+                  "encyclopaedia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1602190 sense 1, noun: encyclopedia"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 百科事典/ひゃっかじてん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%99%BE%E7%A7%91%E4%BA%8B%E5%85%B8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 百科事典/ひゃっかじてん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Enzyklopädie. JMdict 1602190 sense 1, noun: encyclopedia",
+        "japanese": "百科事典で調べました。 / 図書館には全二十巻の百科事典があります。 / 兄は何でも知っていて、まるで歩く百科事典です。",
+        "romanization": "hyakkajiten; Hyakkajiten de shirabemashita. / Toshokan ni wa zen nijukkan no hyakkajiten ga arimasu. / Ani wa nan demo shitte ite, marude aruku hyakkajiten desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe in der Enzyklopädie nachgeschlagen. / In der Bibliothek steht eine Enzyklopädie in zwanzig Bänden. / Mein großer Bruder weiß einfach alles – er ist ein wandelndes Lexikon.",
+        "contexts": [
+          "Researching a topic",
+          "At the library",
+          "Describing a know-it-all"
+        ],
+        "lexical": "JMdict 1602190 sense 1, noun: encyclopedia",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1087 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Researching a topic; At the library; Describing a know-it-all), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e433d2e7fbb2af55a8dcfabe5f67e0095b94c243bdfaf4818241e3aadb60df3d",
+        "approvalHash": "8e1bbc13d61d1f93c60686f2925859d7731b365b21b06928274a914b5900c499"
+      }
+    },
+    {
+      "id": "vocab-n3:1089",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1089",
+      "state": "accepted",
+      "predecessorHash": "25d35249a68d6ad23fa53381131565d0756b701b9785227676ddbcc09c5b77a0",
+      "originalHash": "25d35249a68d6ad23fa53381131565d0756b701b9785227676ddbcc09c5b77a0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "演習に参加します。",
+            "romaji": "Enshuu ni sanka shimasu.",
+            "german": "Ich nehme am Seminar teil."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "演習 ist eine praktische Übung zum Festigen von Gelerntem, z. B. 演習問題 „Übungsaufgaben“. An Universitäten bezeichnet es ein Seminar bzw. eine Übung im Gegensatz zur Vorlesung 講義, oft in Kursnamen wie 英語演習. Beim Militär sind 演習 Manöver (軍事演習). Für alltägliches „üben“ sagt man eher 練習する; 演習 klingt schulisch und formell.",
+        "examples": [
+          {
+            "japanese": "演習に参加します。",
+            "romaji": "Enshuu ni sanka shimasu.",
+            "german": "Ich nehme am Seminar teil."
+          },
+          {
+            "japanese": "教科書の後ろにある演習問題を解いてください。",
+            "romaji": "Kyoukasho no ushiro ni aru enshuu mondai o toite kudasai.",
+            "german": "Bitte lösen Sie die Übungsaufgaben hinten im Lehrbuch."
+          },
+          {
+            "japanese": "近くの海で軍の演習が行われました。",
+            "romaji": "Chikaku no umi de gun no enshuu ga okonawaremashita.",
+            "german": "Im Meer ganz in der Nähe fand ein Militärmanöver statt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71902153",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 演習/エンシュウ; lemma 演習; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "演習",
+              "reading": "えんしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 演習/えんしゅう \"Übung, Seminar\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1176930 senses 1–3, noun / suru verb: practice, exercise, drill; military manoeuvres; seminar Pitch: Verified [0] via exact UniDic row. 演習 ist eine praktische Übung zum Festigen von Gelerntem, z. B. 演習問題 „Übungsaufgaben“. An Universitäten bezeichnet es ein Seminar bzw. eine Übung im Gegensatz zur Vorlesung 講義, oft in Kursnamen wie 英語演習. Beim Militär sind 演習 Manöver (軍事演習). Für alltägliches „üben“ sagt man eher 練習する; 演習 klingt schulisch und formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1176930; spelling=演習; reading=えんしゅう",
+          "selected": {
+            "sequence": "1176930",
+            "spelling": "演習",
+            "reading": "えんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "practice",
+                  "exercise",
+                  "drill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "military exercise",
+                  "manoeuvres",
+                  "maneuvers",
+                  "drill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seminar"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1176930 senses 1–3, noun / suru verb: practice, exercise, drill; military manoeuvres; seminar"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 演習/エンシュウ; lemma 演習; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71902153",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 演習/エンシュウ; lemma 演習; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "演習",
+              "reading": "えんしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 演習/えんしゅう \"Übung, Seminar\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Übung, Seminar. JMdict 1176930 senses 1–3, noun / suru verb: practice, exercise, drill; military manoeuvres; seminar",
+        "japanese": "演習に参加します。 / 教科書の後ろにある演習問題を解いてください。 / 近くの海で軍の演習が行われました。",
+        "romanization": "enshuu; Enshuu ni sanka shimasu. / Kyoukasho no ushiro ni aru enshuu mondai o toite kudasai. / Chikaku no umi de gun no enshuu ga okonawaremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme am Seminar teil. / Bitte lösen Sie die Übungsaufgaben hinten im Lehrbuch. / Im Meer ganz in der Nähe fand ein Militärmanöver statt.",
+        "contexts": [
+          "University seminar",
+          "Textbook exercises",
+          "Military manoeuvre in the news"
+        ],
+        "lexical": "JMdict 1176930 senses 1–3, noun / suru verb: practice, exercise, drill; military manoeuvres; seminar",
+        "register": "neutral to formal (academic)",
+        "transitivity": "mostly used as a noun; 演習する can be transitive or intransitive",
+        "conjugation": "noun; suru verb (演習する, rare in everyday speech)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1089 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (University seminar; Textbook exercises; Military manoeuvre in the news), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f9f15104e5bba7bf32c9f0e949c7bd9fa6c95a05db8c429a02689655ab1e18a7",
+        "approvalHash": "84b33d7073bfcc23207081ebd57c808d2593602bfb6eaf760120c53ff92143ba"
+      }
+    },
+    {
+      "id": "vocab-n3:1092",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1092",
+      "state": "accepted",
+      "predecessorHash": "b506b8fb2a2cfcb56c812d82c380ef39a703e1de754572c874d5eba1e25a390b",
+      "originalHash": "b506b8fb2a2cfcb56c812d82c380ef39a703e1de754572c874d5eba1e25a390b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "部活に入りました。",
+            "romaji": "Bukatsu ni hairimashita.",
+            "german": "Ich bin einem Schulclub beigetreten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "部活 ist die Kurzform von 部活動 und bezeichnet die Club-Aktivitäten an Mittel- und Oberschulen, etwa サッカー部 oder 吹奏楽部. Man sagt 部活に入る „einem Club beitreten“, 部活がある und 部活を休む; für einen konkreten Club meist 〜部に入る. Unterschieden werden 運動部 (Sport) und 文化部 (Kultur). Das Wort ist ein sehr häufiges, alltägliches Schülerwort.",
+        "examples": [
+          {
+            "japanese": "部活に入りました。",
+            "romaji": "Bukatsu ni hairimashita.",
+            "german": "Ich bin einem Schulclub beigetreten."
+          },
+          {
+            "japanese": "今日は部活があるので、帰りが遅くなります。",
+            "romaji": "Kyou wa bukatsu ga aru node, kaeri ga osoku narimasu.",
+            "german": "Heute habe ich Club, deshalb komme ich später nach Hause."
+          },
+          {
+            "japanese": "中学時代、部活でバスケットボールをしていました。",
+            "romaji": "Chuugaku jidai, bukatsu de basukettobooru o shite imashita.",
+            "german": "In der Mittelschule habe ich im Schulclub Basketball gespielt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238518205",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 部活/ブカツ; lemma 部活; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "部活",
+              "reading": "ぶかつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部活/ぶかつ \"Schulclub-Aktivität\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1622100 sense 1, noun: club activities, extracurricular activities Pitch: Verified [0] via exact UniDic row. 部活 ist die Kurzform von 部活動 und bezeichnet die Club-Aktivitäten an Mittel- und Oberschulen, etwa サッカー部 oder 吹奏楽部. Man sagt 部活に入る „einem Club beitreten“, 部活がある und 部活を休む; für einen konkreten Club meist 〜部に入る. Unterschieden werden 運動部 (Sport) und 文化部 (Kultur). Das Wort ist ein sehr häufiges, alltägliches Schülerwort. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1622100; spelling=部活; reading=ぶかつ",
+          "selected": {
+            "sequence": "1622100",
+            "spelling": "部活",
+            "reading": "ぶかつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "club activities",
+                  "extracurricular activities"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1622100 sense 1, noun: club activities, extracurricular activities"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 部活/ブカツ; lemma 部活; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238518205",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 部活/ブカツ; lemma 部活; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "部活",
+              "reading": "ぶかつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部活/ぶかつ \"Schulclub-Aktivität\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schulclub-Aktivität. JMdict 1622100 sense 1, noun: club activities, extracurricular activities",
+        "japanese": "部活に入りました。 / 今日は部活があるので、帰りが遅くなります。 / 中学時代、部活でバスケットボールをしていました。",
+        "romanization": "bukatsu; Bukatsu ni hairimashita. / Kyou wa bukatsu ga aru node, kaeri ga osoku narimasu. / Chuugaku jidai, bukatsu de basukettobooru o shite imashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin einem Schulclub beigetreten. / Heute habe ich Club, deshalb komme ich später nach Hause. / In der Mittelschule habe ich im Schulclub Basketball gespielt.",
+        "contexts": [
+          "Joining a club",
+          "Coming home late",
+          "School memories"
+        ],
+        "lexical": "JMdict 1622100 sense 1, noun: club activities, extracurricular activities",
+        "register": "neutral / colloquial abbreviation",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1092 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Joining a club; Coming home late; School memories), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5fd126960e6ab08030511125f2d8d257663e3f4aca7aa50643d51f0545ac909e",
+        "approvalHash": "0cd8ce6ab08dc13511b8de41a78b3246008d4074cd8a1eca4b2e57843ccf10c0"
+      }
+    },
+    {
+      "id": "vocab-n3:1093",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1093",
+      "state": "accepted",
+      "predecessorHash": "562be4cc841c961faccc2f8b1f35b2cbdb8f0dd9154ada2ea6efdc4e90213bf7",
+      "originalHash": "562be4cc841c961faccc2f8b1f35b2cbdb8f0dd9154ada2ea6efdc4e90213bf7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "文化祭の準備をしています。",
+            "romaji": "Bunkasai no junbi o shite imasu.",
+            "german": "Wir bereiten das Kulturfest vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文化祭 ist das jährliche Kulturfest einer Schule, meist im Herbst: Klassen betreiben Essensstände, spielen Theater oder stellen Arbeiten aus, und auch Besucher von außen sind willkommen. Typisch sind 文化祭の準備, 文化祭で劇をする und 文化祭に行く. An Universitäten heißt das Fest oft 学園祭 oder 大学祭; das sportliche Gegenstück ist 体育祭.",
+        "examples": [
+          {
+            "japanese": "文化祭の準備をしています。",
+            "romaji": "Bunkasai no junbi o shite imasu.",
+            "german": "Wir bereiten das Kulturfest vor."
+          },
+          {
+            "japanese": "文化祭でクラスのみんなと劇をしました。",
+            "romaji": "Bunkasai de kurasu no minna to geki o shimashita.",
+            "german": "Beim Schulfest habe ich mit der ganzen Klasse ein Theaterstück aufgeführt."
+          },
+          {
+            "japanese": "妹の高校の文化祭に遊びに行きました。",
+            "romaji": "Imouto no koukou no bunkasai ni asobi ni ikimashita.",
+            "german": "Ich habe das Schulfest an der Oberschule meiner kleinen Schwester besucht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1505140 sense 1, noun: school festival, cultural festival Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 文化祭 ist das jährliche Kulturfest einer Schule, meist im Herbst: Klassen betreiben Essensstände, spielen Theater oder stellen Arbeiten aus, und auch Besucher von außen sind willkommen. Typisch sind 文化祭の準備, 文化祭で劇をする und 文化祭に行く. An Universitäten heißt das Fest oft 学園祭 oder 大学祭; das sportliche Gegenstück ist 体育祭. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505140; spelling=文化祭; reading=ぶんかさい",
+          "selected": {
+            "sequence": "1505140",
+            "spelling": "文化祭",
+            "reading": "ぶんかさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "school festival",
+                  "cultural festival",
+                  "annual open day school event showcasing student talent"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505140 sense 1, noun: school festival, cultural festival"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 文化祭/ぶんかさい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%96%87%E5%8C%96%E7%A5%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 文化祭/ぶんかさい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kulturfest (Schule). JMdict 1505140 sense 1, noun: school festival, cultural festival",
+        "japanese": "文化祭の準備をしています。 / 文化祭でクラスのみんなと劇をしました。 / 妹の高校の文化祭に遊びに行きました。",
+        "romanization": "bunkasai; Bunkasai no junbi o shite imasu. / Bunkasai de kurasu no minna to geki o shimashita. / Imouto no koukou no bunkasai ni asobi ni ikimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir bereiten das Kulturfest vor. / Beim Schulfest habe ich mit der ganzen Klasse ein Theaterstück aufgeführt. / Ich habe das Schulfest an der Oberschule meiner kleinen Schwester besucht.",
+        "contexts": [
+          "Preparing the event",
+          "Class performance",
+          "Visiting a sibling's school"
+        ],
+        "lexical": "JMdict 1505140 sense 1, noun: school festival, cultural festival",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1093 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preparing the event; Class performance; Visiting a sibling's school), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2c883610c04fb134ea8fa696e6320f0267164c00d6d4cf3dfc8eea1a02d44697",
+        "approvalHash": "a62581bdbabeaf69316195ff30eb3039612a625aceee23e5f5661d20fcca34ba"
+      }
+    },
+    {
+      "id": "vocab-n3:1094",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1094",
+      "state": "accepted",
+      "predecessorHash": "a256ccfb222ab7397316d8c8b852836e0847af2a6a15d1d60a789132cd3a627f",
+      "originalHash": "a256ccfb222ab7397316d8c8b852836e0847af2a6a15d1d60a789132cd3a627f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "体育祭が楽しみです。",
+            "romaji": "Taiikusai ga tanoshimi desu.",
+            "german": "Ich freue mich auf das Sportfest."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "体育祭 ist das Sportfest einer Mittel- oder Oberschule mit Wettläufen, Staffeln und Mannschaftsspielen, oft zwischen Teams wie 紅組 und 白組. In Grundschulen heißt die gleiche Veranstaltung meist 運動会, ein Wort, das auch für Firmen- oder Stadtteilfeste gebraucht wird. Typisch sind 体育祭に出る, 体育祭のリレー und 体育祭が延期になる.",
+        "examples": [
+          {
+            "japanese": "体育祭が楽しみです。",
+            "romaji": "Taiikusai ga tanoshimi desu.",
+            "german": "Ich freue mich auf das Sportfest."
+          },
+          {
+            "japanese": "体育祭のリレーでアンカーを走りました。",
+            "romaji": "Taiikusai no riree de ankaa o hashirimashita.",
+            "german": "Beim Sportfest bin ich in der Staffel als Schlussläufer gelaufen."
+          },
+          {
+            "japanese": "雨のため、体育祭は来週に延期されました。",
+            "romaji": "Ame no tame, taiikusai wa raishuu ni enki saremashita.",
+            "german": "Wegen Regen wurde das Sportfest auf nächste Woche verschoben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1941700 sense 1, noun: (school) athletic festival, sports day Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 体育祭 ist das Sportfest einer Mittel- oder Oberschule mit Wettläufen, Staffeln und Mannschaftsspielen, oft zwischen Teams wie 紅組 und 白組. In Grundschulen heißt die gleiche Veranstaltung meist 運動会, ein Wort, das auch für Firmen- oder Stadtteilfeste gebraucht wird. Typisch sind 体育祭に出る, 体育祭のリレー und 体育祭が延期になる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1941700; spelling=体育祭; reading=たいいくさい",
+          "selected": {
+            "sequence": "1941700",
+            "spelling": "体育祭",
+            "reading": "たいいくさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(school) athletic festival",
+                  "sports day",
+                  "field day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1941700 sense 1, noun: (school) athletic festival, sports day"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 体育祭/たいいくさい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BD%93%E8%82%B2%E7%A5%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 体育祭/たいいくさい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sportfest (Schule). JMdict 1941700 sense 1, noun: (school) athletic festival, sports day",
+        "japanese": "体育祭が楽しみです。 / 体育祭のリレーでアンカーを走りました。 / 雨のため、体育祭は来週に延期されました。",
+        "romanization": "taiikusai; Taiikusai ga tanoshimi desu. / Taiikusai no riree de ankaa o hashirimashita. / Ame no tame, taiikusai wa raishuu ni enki saremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich freue mich auf das Sportfest. / Beim Sportfest bin ich in der Staffel als Schlussläufer gelaufen. / Wegen Regen wurde das Sportfest auf nächste Woche verschoben.",
+        "contexts": [
+          "Looking forward to it",
+          "Relay race",
+          "Postponed by rain"
+        ],
+        "lexical": "JMdict 1941700 sense 1, noun: (school) athletic festival, sports day",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1094 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Looking forward to it; Relay race; Postponed by rain), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a0301b0a4910341dff9616168611347ae7a96f3cb2869913ae25f3e5fc04e212",
+        "approvalHash": "8dcc9c68adc56158b7a92a546d05470f2ada9fcf9bd0180be69f22d0497f9e84"
+      }
+    },
+    {
+      "id": "vocab-n3:1095",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1095",
+      "state": "accepted",
+      "predecessorHash": "53749ebadd778309e85b32ac6a8ca173fe97d6ffae52542d3efe359976c8a2c0",
+      "originalHash": "53749ebadd778309e85b32ac6a8ca173fe97d6ffae52542d3efe359976c8a2c0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "遠足に行きました。",
+            "romaji": "Ensoku ni ikimashita.",
+            "german": "Ich war auf einem Schulausflug."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遠足 ist ein Tagesausflug, den Kindergarten oder Schule mit der ganzen Klasse unternimmt, etwa in einen Park, Zoo oder auf einen Hügel. Feste Ausdrücke sind 遠足に行く und 遠足のお弁当; legendär ist die Regel, dass Süßigkeiten fürs 遠足 nur bis 300 Yen kosten dürfen. Im Unterschied zu 修学旅行 (mehrtägige Klassenfahrt) dauert ein 遠足 nur einen Tag; einen privaten Ausflug nennt man eher ハイキング oder お出かけ.",
+        "examples": [
+          {
+            "japanese": "遠足に行きました。",
+            "romaji": "Ensoku ni ikimashita.",
+            "german": "Ich war auf einem Schulausflug."
+          },
+          {
+            "japanese": "明日の遠足は動物園です。",
+            "romaji": "Ashita no ensoku wa doubutsuen desu.",
+            "german": "Der Ausflug morgen geht in den Zoo."
+          },
+          {
+            "japanese": "遠足のお弁当を母が作ってくれました。",
+            "romaji": "Ensoku no obentou o haha ga tsukutte kuremashita.",
+            "german": "Meine Mutter hat mir das Lunchpaket für den Ausflug gemacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71988829",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遠足/エンソク; lemma 遠足; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遠足",
+              "reading": "えんそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遠足/えんそく \"Schulausflug\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1178260 sense 1, noun / suru verb: school trip, field trip, excursion Pitch: Verified [0] via exact UniDic row. 遠足 ist ein Tagesausflug, den Kindergarten oder Schule mit der ganzen Klasse unternimmt, etwa in einen Park, Zoo oder auf einen Hügel. Feste Ausdrücke sind 遠足に行く und 遠足のお弁当; legendär ist die Regel, dass Süßigkeiten fürs 遠足 nur bis 300 Yen kosten dürfen. Im Unterschied zu 修学旅行 (mehrtägige Klassenfahrt) dauert ein 遠足 nur einen Tag; einen privaten Ausflug nennt man eher ハイキング oder お出かけ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1178260; spelling=遠足; reading=えんそく",
+          "selected": {
+            "sequence": "1178260",
+            "spelling": "遠足",
+            "reading": "えんそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "school trip",
+                  "field trip",
+                  "excursion",
+                  "outing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "dated term"
+                ],
+                "gloss": [
+                  "long walk",
+                  "excursion (on foot)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1178260 sense 1, noun / suru verb: school trip, field trip, excursion"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 遠足/エンソク; lemma 遠足; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@71988829",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遠足/エンソク; lemma 遠足; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遠足",
+              "reading": "えんそく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遠足/えんそく \"Schulausflug\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schulausflug. JMdict 1178260 sense 1, noun / suru verb: school trip, field trip, excursion",
+        "japanese": "遠足に行きました。 / 明日の遠足は動物園です。 / 遠足のお弁当を母が作ってくれました。",
+        "romanization": "ensoku; Ensoku ni ikimashita. / Ashita no ensoku wa doubutsuen desu. / Ensoku no obentou o haha ga tsukutte kuremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich war auf einem Schulausflug. / Der Ausflug morgen geht in den Zoo. / Meine Mutter hat mir das Lunchpaket für den Ausflug gemacht.",
+        "contexts": [
+          "Recalling a school outing",
+          "Tomorrow's destination",
+          "Packed lunch from mum"
+        ],
+        "lexical": "JMdict 1178260 sense 1, noun / suru verb: school trip, field trip, excursion",
+        "register": "neutral",
+        "transitivity": "usually 遠足に行く; 遠足する (intransitive) is rare",
+        "conjugation": "noun; suru verb rarely used",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1095 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Recalling a school outing; Tomorrow's destination; Packed lunch from mum), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9dccd101213f3caddbf64539d32b84bd4347ecb3a12b1cb9c8b007f55f006ace",
+        "approvalHash": "2dd0751dda626f2879488f1e083e1f2c53f023b9276871ddf0e46c1830867f83"
+      }
+    },
+    {
+      "id": "vocab-n3:1096",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1096",
+      "state": "accepted",
+      "predecessorHash": "05ead0545541882e236b35624e2458d621dfe45d6065cb2625704aaab6083725",
+      "originalHash": "05ead0545541882e236b35624e2458d621dfe45d6065cb2625704aaab6083725",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "修学旅行で京都に行きます。",
+            "romaji": "Shuugaku ryokou de Kyouto ni ikimasu.",
+            "german": "Auf der Klassenfahrt fahren wir nach Kyoto."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "修学旅行 ist die mehrtägige Klassenfahrt, die japanische Schulen meist im letzten Jahr der Grund-, Mittel- oder Oberschule unternehmen; beliebte Ziele sind Kyoto, Nara oder Okinawa. Man sagt 修学旅行に行く und 修学旅行で〜へ行く. Das Wort ist fest an die Schule gebunden: Eine Fortbildungsreise von Firmenmitarbeitern heißt 研修旅行, und ein eintägiger Schulausflug ist ein 遠足.",
+        "examples": [
+          {
+            "japanese": "修学旅行で京都に行きます。",
+            "romaji": "Shuugaku ryokou de Kyouto ni ikimasu.",
+            "german": "Auf der Klassenfahrt fahren wir nach Kyoto."
+          },
+          {
+            "japanese": "修学旅行の夜は、友だちと遅くまで話しました。",
+            "romaji": "Shuugaku ryokou no yoru wa, tomodachi to osoku made hanashimashita.",
+            "german": "Abends auf der Klassenfahrt habe ich mit Freunden bis spät in die Nacht geredet."
+          },
+          {
+            "japanese": "修学旅行のお土産に八つ橋を買いました。",
+            "romaji": "Shuugaku ryokou no omiyage ni yatsuhashi o kaimashita.",
+            "german": "Als Mitbringsel von der Klassenfahrt habe ich Yatsuhashi gekauft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1331960 sense 1, noun: school trip, excursion Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 修学旅行 ist die mehrtägige Klassenfahrt, die japanische Schulen meist im letzten Jahr der Grund-, Mittel- oder Oberschule unternehmen; beliebte Ziele sind Kyoto, Nara oder Okinawa. Man sagt 修学旅行に行く und 修学旅行で〜へ行く. Das Wort ist fest an die Schule gebunden: Eine Fortbildungsreise von Firmenmitarbeitern heißt 研修旅行, und ein eintägiger Schulausflug ist ein 遠足. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1331960; spelling=修学旅行; reading=しゅうがくりょこう",
+          "selected": {
+            "sequence": "1331960",
+            "spelling": "修学旅行",
+            "reading": "しゅうがくりょこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "excursion",
+                  "field trip",
+                  "school trip"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1331960 sense 1, noun: school trip, excursion"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 修学旅行/しゅうがくりょこう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BF%AE%E5%AD%A6%E6%97%85%E8%A1%8C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 修学旅行/しゅうがくりょこう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Klassenfahrt. JMdict 1331960 sense 1, noun: school trip, excursion",
+        "japanese": "修学旅行で京都に行きます。 / 修学旅行の夜は、友だちと遅くまで話しました。 / 修学旅行のお土産に八つ橋を買いました。",
+        "romanization": "shuugaku ryokou; Shuugaku ryokou de Kyouto ni ikimasu. / Shuugaku ryokou no yoru wa, tomodachi to osoku made hanashimashita. / Shuugaku ryokou no omiyage ni yatsuhashi o kaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf der Klassenfahrt fahren wir nach Kyoto. / Abends auf der Klassenfahrt habe ich mit Freunden bis spät in die Nacht geredet. / Als Mitbringsel von der Klassenfahrt habe ich Yatsuhashi gekauft.",
+        "contexts": [
+          "Trip destination",
+          "Night at the hotel",
+          "Buying souvenirs"
+        ],
+        "lexical": "JMdict 1331960 sense 1, noun: school trip, excursion",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1096 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Trip destination; Night at the hotel; Buying souvenirs), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f94330d441a0de08ee3c76ff9b86a13322f79190f9756509ee6d4c11ee34a205",
+        "approvalHash": "2b5284db9226756c2227549f8a2b26c83f0ef43bacf50990e0615fe9f5bd4912"
+      }
+    },
+    {
+      "id": "vocab-n3:1097",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1097",
+      "state": "accepted",
+      "predecessorHash": "b2238b50ba859b3c80f8e69dcc38d18d26c1bea25059785363fadab961c38a45",
+      "originalHash": "b2238b50ba859b3c80f8e69dcc38d18d26c1bea25059785363fadab961c38a45",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大学を受験します。",
+            "romaji": "Daigaku o juken shimasu.",
+            "german": "Ich nehme an der Aufnahmeprüfung teil."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "受験 bezeichnet das Ablegen einer Prüfung, besonders einer Aufnahmeprüfung für Schule oder Universität. Als する-Verb steht die Schule oder Prüfung mit を: 大学を受験する, 高校を受験する; für Prüfungen allgemein sagt man auch 試験を受ける. Viele Komposita drehen sich um die gefürchtete Prüfungszeit: 受験生 „Prüfungskandidat“, 受験勉強, 受験票 „Prüfungsausweis“.",
+        "examples": [
+          {
+            "japanese": "大学を受験します。",
+            "romaji": "Daigaku o juken shimasu.",
+            "german": "Ich nehme an der Aufnahmeprüfung teil."
+          },
+          {
+            "japanese": "受験勉強で毎日夜遅くまで起きています。",
+            "romaji": "Juken benkyou de mainichi yoru osoku made okite imasu.",
+            "german": "Wegen der Prüfungsvorbereitung bleibe ich jeden Abend lange auf."
+          },
+          {
+            "japanese": "受験票を忘れないようにしてください。",
+            "romaji": "Jukenhyou o wasurenai you ni shite kudasai.",
+            "german": "Vergessen Sie bitte Ihren Prüfungsausweis nicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144436842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 受験/ジュケン; lemma 受験; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "受験",
+              "reading": "じゅけん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 受験/じゅけん \"Prüfung ablegen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1329740 sense 1, noun / suru verb (transitive): taking an (entrance) examination Pitch: Verified [0] via exact UniDic row. 受験 bezeichnet das Ablegen einer Prüfung, besonders einer Aufnahmeprüfung für Schule oder Universität. Als する-Verb steht die Schule oder Prüfung mit を: 大学を受験する, 高校を受験する; für Prüfungen allgemein sagt man auch 試験を受ける. Viele Komposita drehen sich um die gefürchtete Prüfungszeit: 受験生 „Prüfungskandidat“, 受験勉強, 受験票 „Prüfungsausweis“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1329740; spelling=受験; reading=じゅけん",
+          "selected": {
+            "sequence": "1329740",
+            "spelling": "受験",
+            "reading": "じゅけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "taking an examination (esp. for entrance to a school or university)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1329740 sense 1, noun / suru verb (transitive): taking an (entrance) examination"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 受験/ジュケン; lemma 受験; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144436842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 受験/ジュケン; lemma 受験; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "受験",
+              "reading": "じゅけん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 受験/じゅけん \"Prüfung ablegen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Prüfung ablegen. JMdict 1329740 sense 1, noun / suru verb (transitive): taking an (entrance) examination",
+        "japanese": "大学を受験します。 / 受験勉強で毎日夜遅くまで起きています。 / 受験票を忘れないようにしてください。",
+        "romanization": "juken; Daigaku o juken shimasu. / Juken benkyou de mainichi yoru osoku made okite imasu. / Jukenhyou o wasurenai you ni shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme an der Aufnahmeprüfung teil. / Wegen der Prüfungsvorbereitung bleibe ich jeden Abend lange auf. / Vergessen Sie bitte Ihren Prüfungsausweis nicht.",
+        "contexts": [
+          "University entrance exam",
+          "Studying late at night",
+          "Exam-day reminder"
+        ],
+        "lexical": "JMdict 1329740 sense 1, noun / suru verb (transitive): taking an (entrance) examination",
+        "register": "neutral",
+        "transitivity": "transitive as 受験する (school / exam を受験する)",
+        "conjugation": "noun; suru verb (受験する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1097 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (University entrance exam; Studying late at night; Exam-day reminder), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "83699bc575208d972731e71763232954ca3108c7ffe8a6464f073f95b04e5eea",
+        "approvalHash": "836fd807eab934dba44f5bde9f5be833519b3fa464cd83192900f1c9ab35197c"
+      }
+    },
+    {
+      "id": "vocab-n3:1098",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1098",
+      "state": "accepted",
+      "predecessorHash": "c2a031a9c2a9d5f01a5f5a81baa0881ae41f3066cdb3622f12e0e71e9918e498",
+      "originalHash": "c2a031a9c2a9d5f01a5f5a81baa0881ae41f3066cdb3622f12e0e71e9918e498",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "試験に合格しました。",
+            "romaji": "Shiken ni goukaku shimashita.",
+            "german": "Ich habe die Prüfung bestanden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "合格 ist das Bestehen einer Prüfung und als intransitives する-Verb sehr häufig: 試験に合格する, 大学に合格する „an der Uni angenommen werden“. Das Ziel steht mit に, nicht mit を. Es gilt auch für Kontrollen und Normen, etwa 検査に合格する. Gegenteil ist 不合格; die Bekanntgabe der Ergebnisse heißt 合格発表, und gratulieren kann man mit 合格おめでとう.",
+        "examples": [
+          {
+            "japanese": "試験に合格しました。",
+            "romaji": "Shiken ni goukaku shimashita.",
+            "german": "Ich habe die Prüfung bestanden."
+          },
+          {
+            "japanese": "行きたかった大学に合格しました。",
+            "romaji": "Ikitakatta daigaku ni goukaku shimashita.",
+            "german": "Ich habe die Aufnahmeprüfung für meine Wunsch-Uni geschafft."
+          },
+          {
+            "japanese": "この製品は安全検査に合格しています。",
+            "romaji": "Kono seihin wa anzen kensa ni goukaku shite imasu.",
+            "german": "Dieses Produkt hat die Sicherheitsprüfung bestanden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126253399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 合格/ゴウカク; lemma 合格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "合格",
+              "reading": "ごうかく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 合格/ごうかく \"Bestehen (einer Prüfung)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1284600 senses 1–2, noun / suru verb (intransitive): passing (an exam); meeting standards, passing inspection Pitch: Verified [0] via exact UniDic row. 合格 ist das Bestehen einer Prüfung und als intransitives する-Verb sehr häufig: 試験に合格する, 大学に合格する „an der Uni angenommen werden“. Das Ziel steht mit に, nicht mit を. Es gilt auch für Kontrollen und Normen, etwa 検査に合格する. Gegenteil ist 不合格; die Bekanntgabe der Ergebnisse heißt 合格発表, und gratulieren kann man mit 合格おめでとう. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1284600; spelling=合格; reading=ごうかく",
+          "selected": {
+            "sequence": "1284600",
+            "spelling": "合格",
+            "reading": "ごうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "passing (an exam)",
+                  "pass",
+                  "success",
+                  "passing grade"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting (specifications, standards, etc.)",
+                  "passing (inspection)",
+                  "qualification",
+                  "being found eligible"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1284600 senses 1–2, noun / suru verb (intransitive): passing (an exam); meeting standards, passing inspection"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 合格/ゴウカク; lemma 合格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126253399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 合格/ゴウカク; lemma 合格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "合格",
+              "reading": "ごうかく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 合格/ごうかく \"Bestehen (einer Prüfung)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bestehen (einer Prüfung). JMdict 1284600 senses 1–2, noun / suru verb (intransitive): passing (an exam); meeting standards, passing inspection",
+        "japanese": "試験に合格しました。 / 行きたかった大学に合格しました。 / この製品は安全検査に合格しています。",
+        "romanization": "goukaku; Shiken ni goukaku shimashita. / Ikitakatta daigaku ni goukaku shimashita. / Kono seihin wa anzen kensa ni goukaku shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe die Prüfung bestanden. / Ich habe die Aufnahmeprüfung für meine Wunsch-Uni geschafft. / Dieses Produkt hat die Sicherheitsprüfung bestanden.",
+        "contexts": [
+          "Passing an exam",
+          "University admission",
+          "Product safety inspection"
+        ],
+        "lexical": "JMdict 1284600 senses 1–2, noun / suru verb (intransitive): passing (an exam); meeting standards, passing inspection",
+        "register": "neutral",
+        "transitivity": "intransitive as 合格する (exam / school に合格する)",
+        "conjugation": "noun; suru verb (合格する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1098 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Passing an exam; University admission; Product safety inspection), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7752377c4f28a6f83d30c74de664b615f1326d50948adaa26c8a6143015f4a43",
+        "approvalHash": "54a78243382b544988609e957d8c3372214a601a2243a17825cb28a307d4e138"
+      }
+    },
+    {
+      "id": "vocab-n3:1099",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1099",
+      "state": "accepted",
+      "predecessorHash": "e6f7381920c3ab28e7f1beff1a88da63a977f1dceb445df5930d568822aef2a1",
+      "originalHash": "e6f7381920c3ab28e7f1beff1a88da63a977f1dceb445df5930d568822aef2a1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "残念ながら不合格でした。",
+            "romaji": "Zannen nagara fugoukaku deshita.",
+            "german": "Leider bin ich durchgefallen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不合格 ist das Nichtbestehen einer Prüfung oder Kontrolle. Es ist ein reines Nomen ohne する: Man sagt 不合格になる oder 不合格だった, nicht 不合格する. Im Gespräch klingt 試験に落ちる „durchfallen“ natürlicher und persönlicher; 不合格 steht eher auf Bescheiden und in sachlichen Berichten. Gegenteil ist 合格.",
+        "examples": [
+          {
+            "japanese": "残念ながら不合格でした。",
+            "romaji": "Zannen nagara fugoukaku deshita.",
+            "german": "Leider bin ich durchgefallen."
+          },
+          {
+            "japanese": "一点足りなくて、不合格になりました。",
+            "romaji": "Itten tarinakute, fugoukaku ni narimashita.",
+            "german": "Mir hat ein Punkt gefehlt, und ich bin durchgefallen."
+          },
+          {
+            "japanese": "検査で不合格になった部品は使えません。",
+            "romaji": "Kensa de fugoukaku ni natta buhin wa tsukaemasen.",
+            "german": "Teile, die bei der Kontrolle durchgefallen sind, dürfen nicht verwendet werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1492400 sense 1, noun: (examination) failure, rejection Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 不合格 ist das Nichtbestehen einer Prüfung oder Kontrolle. Es ist ein reines Nomen ohne する: Man sagt 不合格になる oder 不合格だった, nicht 不合格する. Im Gespräch klingt 試験に落ちる „durchfallen“ natürlicher und persönlicher; 不合格 steht eher auf Bescheiden und in sachlichen Berichten. Gegenteil ist 合格. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1492400; spelling=不合格; reading=ふごうかく",
+          "selected": {
+            "sequence": "1492400",
+            "spelling": "不合格",
+            "reading": "ふごうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(examination) failure",
+                  "rejection",
+                  "disqualification"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1492400 sense 1, noun: (examination) failure, rejection"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不合格/ふごうかく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E5%90%88%E6%A0%BC",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不合格/ふごうかく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Durchfallen. JMdict 1492400 sense 1, noun: (examination) failure, rejection",
+        "japanese": "残念ながら不合格でした。 / 一点足りなくて、不合格になりました。 / 検査で不合格になった部品は使えません。",
+        "romanization": "fugoukaku; Zannen nagara fugoukaku deshita. / Itten tarinakute, fugoukaku ni narimashita. / Kensa de fugoukaku ni natta buhin wa tsukaemasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Leider bin ich durchgefallen. / Mir hat ein Punkt gefehlt, und ich bin durchgefallen. / Teile, die bei der Kontrolle durchgefallen sind, dürfen nicht verwendet werden.",
+        "contexts": [
+          "Exam result",
+          "Missing by one point",
+          "Quality inspection"
+        ],
+        "lexical": "JMdict 1492400 sense 1, noun: (examination) failure, rejection",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (不合格になる / 不合格だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1099 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Exam result; Missing by one point; Quality inspection), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ecd4255cfcee2dbadbacd6dc8a85191266800a33d88f2730d500189caf850891",
+        "approvalHash": "0e7d6af90bae00bf6fcd1180ddf1e500cce9f87247760401cfa0a8134db76583"
+      }
+    },
+    {
+      "id": "vocab-n3:1100",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1100",
+      "state": "accepted",
+      "predecessorHash": "4a16cc94d933506bbd14768d3bccee858f4ae8b86936c11d8887329d41e09a73",
+      "originalHash": "4a16cc94d933506bbd14768d3bccee858f4ae8b86936c11d8887329d41e09a73",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "出席を取ります。",
+            "romaji": "Shusseki o torimasu.",
+            "german": "Ich nehme die Anwesenheit auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "出席 ist die Anwesenheit bei Unterricht, Sitzungen oder Feiern; als intransitives する-Verb mit に: 会議に出席する, 結婚式に出席する. 出席を取る heißt „die Anwesenheit kontrollieren“. Im lockeren Gespräch sagt man oft einfach 出る (授業に出る); 出席 ist sachlicher und höflicher und steht z. B. auf Einladungskarten (ご出席). Gegenteil ist 欠席.",
+        "examples": [
+          {
+            "japanese": "出席を取ります。",
+            "romaji": "Shusseki o torimasu.",
+            "german": "Ich prüfe jetzt die Anwesenheit."
+          },
+          {
+            "japanese": "来週の会議には部長も出席します。",
+            "romaji": "Raishuu no kaigi ni wa buchou mo shusseki shimasu.",
+            "german": "An der Besprechung nächste Woche nimmt auch der Abteilungsleiter teil."
+          },
+          {
+            "japanese": "友だちの結婚式に出席しました。",
+            "romaji": "Tomodachi no kekkonshiki ni shusseki shimashita.",
+            "german": "Ich war auf der Hochzeit eines Freundes."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140250707",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 出席/シュッセキ; lemma 出席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "出席",
+              "reading": "しゅっせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 出席/しゅっせき \"Anwesenheit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1339460 sense 1, noun / suru verb (intransitive): attendance, presence Pitch: Verified [0] via exact UniDic row. 出席 ist die Anwesenheit bei Unterricht, Sitzungen oder Feiern; als intransitives する-Verb mit に: 会議に出席する, 結婚式に出席する. 出席を取る heißt „die Anwesenheit kontrollieren“. Im lockeren Gespräch sagt man oft einfach 出る (授業に出る); 出席 ist sachlicher und höflicher und steht z. B. auf Einladungskarten (ご出席). Gegenteil ist 欠席. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1339460; spelling=出席; reading=しゅっせき",
+          "selected": {
+            "sequence": "1339460",
+            "spelling": "出席",
+            "reading": "しゅっせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "attendance",
+                  "presence",
+                  "appearance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1339460 sense 1, noun / suru verb (intransitive): attendance, presence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 出席/シュッセキ; lemma 出席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140250707",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 出席/シュッセキ; lemma 出席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "出席",
+              "reading": "しゅっせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 出席/しゅっせき \"Anwesenheit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anwesenheit. JMdict 1339460 sense 1, noun / suru verb (intransitive): attendance, presence",
+        "japanese": "出席を取ります。 / 来週の会議には部長も出席します。 / 友だちの結婚式に出席しました。",
+        "romanization": "shusseki; Shusseki o torimasu. / Raishuu no kaigi ni wa buchou mo shusseki shimasu. / Tomodachi no kekkonshiki ni shusseki shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich prüfe jetzt die Anwesenheit. / An der Besprechung nächste Woche nimmt auch der Abteilungsleiter teil. / Ich war auf der Hochzeit eines Freundes.",
+        "contexts": [
+          "Roll call in class",
+          "Business meeting",
+          "Attending a wedding"
+        ],
+        "lexical": "JMdict 1339460 sense 1, noun / suru verb (intransitive): attendance, presence",
+        "register": "neutral to polite",
+        "transitivity": "intransitive as 出席する (event に出席する)",
+        "conjugation": "noun; suru verb (出席する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1100 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Roll call in class; Business meeting; Attending a wedding), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6313789e2f4d50cdb8e89afcf70ad9691c8ed50da51a5df1d5ad6897f2568099",
+        "approvalHash": "bb8df35dc9abf50ee5734e986163adae1ea6c52a6829a92d018e93c4a40f818d"
+      }
+    },
+    {
+      "id": "vocab-n3:1101",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1101",
+      "state": "accepted",
+      "predecessorHash": "3cb2c2c5e2e8dec32188bc7bfba66d7650a573063c9338caa8e4edb50a2eab42",
+      "originalHash": "3cb2c2c5e2e8dec32188bc7bfba66d7650a573063c9338caa8e4edb50a2eab42",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "風邪で欠席します。",
+            "romaji": "Kaze de kesseki shimasu.",
+            "german": "Ich fehle wegen Erkältung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "欠席 ist das Fehlen bei Unterricht, Sitzungen oder Feiern; als する-Verb steht der versäumte Termin mit を: 授業を欠席する, 会議を欠席する, und der Grund mit で: 風邪で欠席する. Fürs Fernbleiben von der Arbeit sagt man dagegen 欠勤 oder einfach 休む. Auf Antwortkarten zu Einladungen wählt man ご出席 oder ご欠席; Gegenteil ist 出席.",
+        "examples": [
+          {
+            "japanese": "風邪で欠席します。",
+            "romaji": "Kaze de kesseki shimasu.",
+            "german": "Ich fehle wegen Erkältung."
+          },
+          {
+            "japanese": "田中さんは今日の会議を欠席しています。",
+            "romaji": "Tanaka-san wa kyou no kaigi o kesseki shite imasu.",
+            "german": "Herr Tanaka nimmt an der heutigen Besprechung nicht teil."
+          },
+          {
+            "japanese": "欠席が多いと、単位がもらえません。",
+            "romaji": "Kesseki ga ooi to, tan'i ga moraemasen.",
+            "german": "Wer zu oft fehlt, bekommt keine Leistungspunkte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117913523",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 欠席/ケッセキ; lemma 欠席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "欠席",
+              "reading": "けっせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 欠席/けっせき \"Abwesenheit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1254020 sense 1, noun / suru verb: absence, non-attendance Pitch: Verified [0] via exact UniDic row. 欠席 ist das Fehlen bei Unterricht, Sitzungen oder Feiern; als する-Verb steht der versäumte Termin mit を: 授業を欠席する, 会議を欠席する, und der Grund mit で: 風邪で欠席する. Fürs Fernbleiben von der Arbeit sagt man dagegen 欠勤 oder einfach 休む. Auf Antwortkarten zu Einladungen wählt man ご出席 oder ご欠席; Gegenteil ist 出席. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1254020; spelling=欠席; reading=けっせき",
+          "selected": {
+            "sequence": "1254020",
+            "spelling": "欠席",
+            "reading": "けっせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "absence",
+                  "non-attendance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1254020 sense 1, noun / suru verb: absence, non-attendance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 欠席/ケッセキ; lemma 欠席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117913523",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 欠席/ケッセキ; lemma 欠席; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "欠席",
+              "reading": "けっせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 欠席/けっせき \"Abwesenheit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abwesenheit. JMdict 1254020 sense 1, noun / suru verb: absence, non-attendance",
+        "japanese": "風邪で欠席します。 / 田中さんは今日の会議を欠席しています。 / 欠席が多いと、単位がもらえません。",
+        "romanization": "kesseki; Kaze de kesseki shimasu. / Tanaka-san wa kyou no kaigi o kesseki shite imasu. / Kesseki ga ooi to, tan'i ga moraemasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich fehle wegen Erkältung. / Herr Tanaka nimmt an der heutigen Besprechung nicht teil. / Wer zu oft fehlt, bekommt keine Leistungspunkte.",
+        "contexts": [
+          "Calling in sick",
+          "Missing a meeting",
+          "University attendance rules"
+        ],
+        "lexical": "JMdict 1254020 sense 1, noun / suru verb: absence, non-attendance",
+        "register": "neutral to polite",
+        "transitivity": "intransitive suru verb; the missed event takes を (授業を欠席する)",
+        "conjugation": "noun; suru verb (欠席する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1101 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Calling in sick; Missing a meeting; University attendance rules), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ff3d85a5a3e81d42bb0c74028d30b68fe8162c087897c4e41a055e5614bc5f19",
+        "approvalHash": "a39585e87d317c2a9004c25cf2eb98df21010f132ac6bfa73864fac5b8ba0ace"
+      }
+    },
+    {
+      "id": "vocab-n3:1102",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1102",
+      "state": "accepted",
+      "predecessorHash": "615f7c7286747c065bb2f45e9c0d8718e742dad720ad414ce4a07363f854701d",
+      "originalHash": "615f7c7286747c065bb2f45e9c0d8718e742dad720ad414ce4a07363f854701d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来月から産休に入ります。",
+            "romaji": "Raigetsu kara sankyuu ni hairimasu.",
+            "german": "Ab nächstem Monat gehe ich in den Mutterschutz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "産休 ist die Kurzform von 産前産後休業, dem gesetzlichen Mutterschutz vor und nach der Geburt. Typisch sind 産休に入る „in den Mutterschutz gehen“, 産休を取る und 産休中. Daran schließt meist 育休 (Elternzeit) an, die auch Väter nehmen können; im Gespräch nennt man beides oft zusammen: 産休・育休.",
+        "examples": [
+          {
+            "japanese": "来月から産休に入ります。",
+            "romaji": "Raigetsu kara sankyuu ni hairimasu.",
+            "german": "Ab nächstem Monat gehe ich in den Mutterschutz."
+          },
+          {
+            "japanese": "産休中の山田さんの仕事は、私が担当します。",
+            "romaji": "Sankyuu chuu no Yamada-san no shigoto wa, watashi ga tantou shimasu.",
+            "german": "Solange Frau Yamada im Mutterschutz ist, übernehme ich ihre Aufgaben."
+          },
+          {
+            "japanese": "姉は産休が終わったあと、すぐに職場に戻りました。",
+            "romaji": "Ane wa sankyuu ga owatta ato, sugu ni shokuba ni modorimashita.",
+            "german": "Meine Schwester ist nach dem Mutterschutz gleich an ihren Arbeitsplatz zurückgekehrt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132971756",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 産休/サンキュウ; lemma 産休; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "産休",
+              "reading": "さんきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 産休/さんきゅう \"Mutterschutz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1303760 sense 1, noun (abbreviation): maternity leave Pitch: Verified [0] via exact UniDic row. 産休 ist die Kurzform von 産前産後休業, dem gesetzlichen Mutterschutz vor und nach der Geburt. Typisch sind 産休に入る „in den Mutterschutz gehen“, 産休を取る und 産休中. Daran schließt meist 育休 (Elternzeit) an, die auch Väter nehmen können; im Gespräch nennt man beides oft zusammen: 産休・育休. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1303760; spelling=産休; reading=さんきゅう",
+          "selected": {
+            "sequence": "1303760",
+            "spelling": "産休",
+            "reading": "さんきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "maternity leave",
+                  "paternity leave"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1303760 sense 1, noun (abbreviation): maternity leave"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 産休/サンキュウ; lemma 産休; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132971756",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 産休/サンキュウ; lemma 産休; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "産休",
+              "reading": "さんきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 産休/さんきゅう \"Mutterschutz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mutterschutz. JMdict 1303760 sense 1, noun (abbreviation): maternity leave",
+        "japanese": "来月から産休に入ります。 / 産休中の山田さんの仕事は、私が担当します。 / 姉は産休が終わったあと、すぐに職場に戻りました。",
+        "romanization": "sankyuu; Raigetsu kara sankyuu ni hairimasu. / Sankyuu chuu no Yamada-san no shigoto wa, watashi ga tantou shimasu. / Ane wa sankyuu ga owatta ato, sugu ni shokuba ni modorimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ab nächstem Monat gehe ich in den Mutterschutz. / Solange Frau Yamada im Mutterschutz ist, übernehme ich ihre Aufgaben. / Meine Schwester ist nach dem Mutterschutz gleich an ihren Arbeitsplatz zurückgekehrt.",
+        "contexts": [
+          "Announcing leave",
+          "Covering a colleague's work",
+          "Returning to work"
+        ],
+        "lexical": "JMdict 1303760 sense 1, noun (abbreviation): maternity leave",
+        "register": "neutral (everyday abbreviation)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1102 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Announcing leave; Covering a colleague's work; Returning to work), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ae0460bfc1a7845eebf760e6b0e67acd15a0459d75bca81c08dc629e4a4055da",
+        "approvalHash": "d3a43312f8938b6c5b4b5bf177d88ddb5b1d614da582376250e81f9a4e15c887"
+      }
+    },
+    {
+      "id": "vocab-n3:1103",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1103",
+      "state": "accepted",
+      "predecessorHash": "e19ada6d41330b9ff69d8c6b47aca2f873d52e707510822fef09799d42734af4",
+      "originalHash": "e19ada6d41330b9ff69d8c6b47aca2f873d52e707510822fef09799d42734af4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "育休を取りました。",
+            "romaji": "Ikukyuu o torimashita.",
+            "german": "Ich habe Elternzeit genommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "育休 ist die Kurzform von 育児休業 „Elternzeit“. Man sagt 育休を取る, 育休中 und 育休から復帰する „aus der Elternzeit zurückkehren“. Anders als 産休, das nur die Mutter rund um die Geburt betrifft, können 育休 Mütter und Väter nehmen; über Väter in Elternzeit spricht man oft als 男性の育休.",
+        "examples": [
+          {
+            "japanese": "育休を取りました。",
+            "romaji": "Ikukyuu o torimashita.",
+            "german": "Ich habe Elternzeit genommen."
+          },
+          {
+            "japanese": "夫も三か月の育休を取ることにしました。",
+            "romaji": "Otto mo sankagetsu no ikukyuu o toru koto ni shimashita.",
+            "german": "Mein Mann hat beschlossen, auch drei Monate Elternzeit zu nehmen."
+          },
+          {
+            "japanese": "来年の四月に育休を終えて、仕事に戻る予定です。",
+            "romaji": "Rainen no shigatsu ni ikukyuu o oete, shigoto ni modoru yotei desu.",
+            "german": "Im April nächsten Jahres will ich die Elternzeit beenden und wieder arbeiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54042018",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 育休/イクキュウ; lemma 育休; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "育休",
+              "reading": "いくきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 育休/いくきゅう \"Elternzeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2088640 sense 1, noun (abbreviation): childcare leave, parental leave Pitch: Verified [0] via exact UniDic row. 育休 ist die Kurzform von 育児休業 „Elternzeit“. Man sagt 育休を取る, 育休中 und 育休から復帰する „aus der Elternzeit zurückkehren“. Anders als 産休, das nur die Mutter rund um die Geburt betrifft, können 育休 Mütter und Väter nehmen; über Väter in Elternzeit spricht man oft als 男性の育休. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2088640; spelling=育休; reading=いくきゅう",
+          "selected": {
+            "sequence": "2088640",
+            "spelling": "育休",
+            "reading": "いくきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "childcare leave (taken after the compulsory childcare leave)",
+                  "maternity leave",
+                  "paternity leave"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2088640 sense 1, noun (abbreviation): childcare leave, parental leave"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 育休/イクキュウ; lemma 育休; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54042018",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 育休/イクキュウ; lemma 育休; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "育休",
+              "reading": "いくきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 育休/いくきゅう \"Elternzeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Elternzeit. JMdict 2088640 sense 1, noun (abbreviation): childcare leave, parental leave",
+        "japanese": "育休を取りました。 / 夫も三か月の育休を取ることにしました。 / 来年の四月に育休を終えて、仕事に戻る予定です。",
+        "romanization": "ikukyuu; Ikukyuu o torimashita. / Otto mo sankagetsu no ikukyuu o toru koto ni shimashita. / Rainen no shigatsu ni ikukyuu o oete, shigoto ni modoru yotei desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Elternzeit genommen. / Mein Mann hat beschlossen, auch drei Monate Elternzeit zu nehmen. / Im April nächsten Jahres will ich die Elternzeit beenden und wieder arbeiten.",
+        "contexts": [
+          "Taking leave",
+          "Father on parental leave",
+          "Planning the return"
+        ],
+        "lexical": "JMdict 2088640 sense 1, noun (abbreviation): childcare leave, parental leave",
+        "register": "neutral (everyday abbreviation)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1103 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Taking leave; Father on parental leave; Planning the return), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9da9495137838a28a55823819394197916a43866ecee8de5c96a28824c56a2e4",
+        "approvalHash": "d0d8ec12e8db3d1c8e6fa430645a81e0b94f509e522d1f11a41268dc4f256bec"
+      }
+    },
+    {
+      "id": "vocab-n3:1104",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1104",
+      "state": "accepted",
+      "predecessorHash": "a56e5c1a69c23b1801ae352d14b49bfbe66518ad94e79c67de7216c19b5ca877",
+      "originalHash": "a56e5c1a69c23b1801ae352d14b49bfbe66518ad94e79c67de7216c19b5ca877",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "派遣社員として働いています。",
+            "romaji": "Haken shain to shite hataraite imasu.",
+            "german": "Ich arbeite als Zeitarbeiter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "派遣 bedeutet ursprünglich „entsenden“ und ist dann ein transitives する-Verb: 医者を被災地に派遣する. Im Arbeitsalltag steht es vor allem für Leiharbeit: 派遣社員 „Leiharbeiter“, 派遣会社 „Zeitarbeitsfirma“ und kurz 派遣で働く. Gegenbegriff im Arbeitsleben ist 正社員 „Festangestellter“.",
+        "examples": [
+          {
+            "japanese": "派遣社員として働いています。",
+            "romaji": "Haken shain to shite hataraite imasu.",
+            "german": "Ich arbeite als Zeitarbeiter."
+          },
+          {
+            "japanese": "国はその地域に医者を派遣しました。",
+            "romaji": "Kuni wa sono chiiki ni isha o haken shimashita.",
+            "german": "Der Staat entsandte Ärzte in die Region."
+          },
+          {
+            "japanese": "派遣会社に登録して、仕事を探しています。",
+            "romaji": "Haken gaisha ni touroku shite, shigoto o sagashite imasu.",
+            "german": "Ich habe mich bei einer Zeitarbeitsfirma angemeldet und suche Arbeit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213297553",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 派遣/ハケン; lemma 派遣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "派遣",
+              "reading": "はけん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 派遣/はけん \"Entsendung, Zeitarbeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1471130 senses 1–2, noun / suru verb (transitive): dispatch, deployment; temporary (agency) worker Pitch: Verified [0] via exact UniDic row. 派遣 bedeutet ursprünglich „entsenden“ und ist dann ein transitives する-Verb: 医者を被災地に派遣する. Im Arbeitsalltag steht es vor allem für Leiharbeit: 派遣社員 „Leiharbeiter“, 派遣会社 „Zeitarbeitsfirma“ und kurz 派遣で働く. Gegenbegriff im Arbeitsleben ist 正社員 „Festangestellter“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1471130; spelling=派遣; reading=はけん",
+          "selected": {
+            "sequence": "1471130",
+            "spelling": "派遣",
+            "reading": "はけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dispatch",
+                  "despatch",
+                  "deployment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "temporary employee (esp. from an agency)",
+                  "temporary worker",
+                  "agency temp"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1471130 senses 1–2, noun / suru verb (transitive): dispatch, deployment; temporary (agency) worker"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 派遣/ハケン; lemma 派遣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@213297553",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 派遣/ハケン; lemma 派遣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "派遣",
+              "reading": "はけん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 派遣/はけん \"Entsendung, Zeitarbeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entsendung, Zeitarbeit. JMdict 1471130 senses 1–2, noun / suru verb (transitive): dispatch, deployment; temporary (agency) worker",
+        "japanese": "派遣社員として働いています。 / 国はその地域に医者を派遣しました。 / 派遣会社に登録して、仕事を探しています。",
+        "romanization": "haken; Haken shain to shite hataraite imasu. / Kuni wa sono chiiki ni isha o haken shimashita. / Haken gaisha ni touroku shite, shigoto o sagashite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich arbeite als Zeitarbeiter. / Der Staat entsandte Ärzte in die Region. / Ich habe mich bei einer Zeitarbeitsfirma angemeldet und suche Arbeit.",
+        "contexts": [
+          "Describing one's job",
+          "Sending doctors to a region",
+          "Job hunting via an agency"
+        ],
+        "lexical": "JMdict 1471130 senses 1–2, noun / suru verb (transitive): dispatch, deployment; temporary (agency) worker",
+        "register": "neutral",
+        "transitivity": "transitive as 派遣する (人を〜に派遣する)",
+        "conjugation": "noun; suru verb (派遣する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1104 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing one's job; Sending doctors to a region; Job hunting via an agency), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b73685bf931affd5a1abd9e4ab4d4af2feb5fd76f9f3136a938742f80a571bba",
+        "approvalHash": "8520fa919bde64876e810a3480ea33ed0d3b5c8db238d1ced8e30dbe82260c39"
+      }
+    },
+    {
+      "id": "vocab-n3:1105",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1105",
+      "state": "accepted",
+      "predecessorHash": "0a8f32889e64fb61dd43c4f68683367c6420b30ac5df8bc18c3aeb96db101c43",
+      "originalHash": "0a8f32889e64fb61dd43c4f68683367c6420b30ac5df8bc18c3aeb96db101c43",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "正社員になりたいです。",
+            "romaji": "Seishain ni naritai desu.",
+            "german": "Ich möchte festangestellt werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "正社員 ist ein fest angestellter Vollzeitmitarbeiter mit unbefristetem Vertrag, Sozialleistungen und Bonus. Man sagt 正社員になる, 正社員として働く oder 正社員として採用される. Gegenbegriffe sind 契約社員 (befristet), 派遣社員 (Leiharbeit) sowie パート und アルバイト; zusammengefasst heißen diese 非正規 „nicht regulär Beschäftigte“.",
+        "examples": [
+          {
+            "japanese": "正社員になりたいです。",
+            "romaji": "Seishain ni naritai desu.",
+            "german": "Ich möchte festangestellt werden."
+          },
+          {
+            "japanese": "三年間アルバイトをして、やっと正社員として採用されました。",
+            "romaji": "Sannenkan arubaito o shite, yatto seishain to shite saiyou saremashita.",
+            "german": "Nach drei Jahren als Aushilfe wurde ich endlich fest angestellt."
+          },
+          {
+            "japanese": "この会社は正社員を募集しています。",
+            "romaji": "Kono kaisha wa seishain o boshuu shite imasu.",
+            "german": "Diese Firma sucht Festangestellte."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1377330 sense 1, noun: regular / permanent employee Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 正社員 ist ein fest angestellter Vollzeitmitarbeiter mit unbefristetem Vertrag, Sozialleistungen und Bonus. Man sagt 正社員になる, 正社員として働く oder 正社員として採用される. Gegenbegriffe sind 契約社員 (befristet), 派遣社員 (Leiharbeit) sowie パート und アルバイト; zusammengefasst heißen diese 非正規 „nicht regulär Beschäftigte“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1377330; spelling=正社員; reading=せいしゃいん",
+          "selected": {
+            "sequence": "1377330",
+            "spelling": "正社員",
+            "reading": "せいしゃいん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "regular employee",
+                  "permanent employee",
+                  "full-time employee"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1377330 sense 1, noun: regular / permanent employee"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 正社員/せいしゃいん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%AD%A3%E7%A4%BE%E5%93%A1",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 正社員/せいしゃいん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Festangestellter. JMdict 1377330 sense 1, noun: regular / permanent employee",
+        "japanese": "正社員になりたいです。 / 三年間アルバイトをして、やっと正社員として採用されました。 / この会社は正社員を募集しています。",
+        "romanization": "seishain; Seishain ni naritai desu. / Sannenkan arubaito o shite, yatto seishain to shite saiyou saremashita. / Kono kaisha wa seishain o boshuu shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich möchte festangestellt werden. / Nach drei Jahren als Aushilfe wurde ich endlich fest angestellt. / Diese Firma sucht Festangestellte.",
+        "contexts": [
+          "Career goal",
+          "From part-time to permanent",
+          "Job advertisement"
+        ],
+        "lexical": "JMdict 1377330 sense 1, noun: regular / permanent employee",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1105 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Career goal; From part-time to permanent; Job advertisement), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0dca8174d11b7491939d53b6a013d018c8c215b234dc15f00606bf2bd1742972",
+        "approvalHash": "90f3d2689ff58d0bbc52508371e4baeec6dfd5c5eb9c8d02cedd12e1fd9d8f14"
+      }
+    },
+    {
+      "id": "vocab-n3:1106",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1106",
+      "state": "accepted",
+      "predecessorHash": "7ad116dbce2f15acbc8388ff0e047c7d8ec9b79098017a4eac5cea78b271158b",
+      "originalHash": "7ad116dbce2f15acbc8388ff0e047c7d8ec9b79098017a4eac5cea78b271158b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自営業を始めました。",
+            "romaji": "Jieigyou o hajimemashita.",
+            "german": "Ich habe mich selbständig gemacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "自営業 ist die selbständige Erwerbstätigkeit mit eigenem Laden, Betrieb oder Praxis, etwa als Restaurantbesitzer oder Handwerker. Auf Formularen steht 自営業 als Berufsangabe neben 会社員 oder 学生. Typisch sind 自営業をしている, 自営業の家 und 実家は自営業です. Im Unterschied zu 起業 „eine Firma gründen“ betont 自営業 das selbständige Arbeiten an sich, oft in kleinem Rahmen.",
+        "examples": [
+          {
+            "japanese": "自営業を始めました。",
+            "romaji": "Jieigyou o hajimemashita.",
+            "german": "Ich habe mich selbständig gemacht."
+          },
+          {
+            "japanese": "父は自営業で、小さなパン屋をやっています。",
+            "romaji": "Chichi wa jieigyou de, chiisana pan'ya o yatte imasu.",
+            "german": "Mein Vater ist selbständig und betreibt eine kleine Bäckerei."
+          },
+          {
+            "japanese": "申込書の職業のところに「自営業」と書きました。",
+            "romaji": "Moushikomisho no shokugyou no tokoro ni 'jieigyou' to kakimashita.",
+            "german": "Im Antragsformular habe ich bei Beruf „selbständig“ eingetragen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1609850 sense 1, noun: independent business, self-employment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 自営業 ist die selbständige Erwerbstätigkeit mit eigenem Laden, Betrieb oder Praxis, etwa als Restaurantbesitzer oder Handwerker. Auf Formularen steht 自営業 als Berufsangabe neben 会社員 oder 学生. Typisch sind 自営業をしている, 自営業の家 und 実家は自営業です. Im Unterschied zu 起業 „eine Firma gründen“ betont 自営業 das selbständige Arbeiten an sich, oft in kleinem Rahmen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1609850; spelling=自営業; reading=じえいぎょう",
+          "selected": {
+            "sequence": "1609850",
+            "spelling": "自営業",
+            "reading": "じえいぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "independent business",
+                  "self-employment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1609850 sense 1, noun: independent business, self-employment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 自営業/じえいぎょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%87%AA%E5%96%B6%E6%A5%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 自営業/じえいぎょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Selbständigkeit. JMdict 1609850 sense 1, noun: independent business, self-employment",
+        "japanese": "自営業を始めました。 / 父は自営業で、小さなパン屋をやっています。 / 申込書の職業のところに「自営業」と書きました。",
+        "romanization": "jieigyou; Jieigyou o hajimemashita. / Chichi wa jieigyou de, chiisana pan'ya o yatte imasu. / Moushikomisho no shokugyou no tokoro ni 'jieigyou' to kakimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe mich selbständig gemacht. / Mein Vater ist selbständig und betreibt eine kleine Bäckerei. / Im Antragsformular habe ich bei Beruf „selbständig“ eingetragen.",
+        "contexts": [
+          "Starting out on one's own",
+          "Family business",
+          "Filling in a form"
+        ],
+        "lexical": "JMdict 1609850 sense 1, noun: independent business, self-employment",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1106 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Starting out on one's own; Family business; Filling in a form), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1a51384297cc9fec6e0be89d07bf5416de98a25d0c30a32e1c31a4fefbba6d80",
+        "approvalHash": "a5d24e2e5cf908f276346046efd55629fecd410b0013c25f968fc71913b536b5"
+      }
+    },
+    {
+      "id": "vocab-n3:1107",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1107",
+      "state": "accepted",
+      "predecessorHash": "e15665580bcc710d358d60c6b84bacb9ce5d01d0d5e4fbf95299b3d290068174",
+      "originalHash": "e15665580bcc710d358d60c6b84bacb9ce5d01d0d5e4fbf95299b3d290068174",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "起業を考えています。",
+            "romaji": "Kigyou o kangaete imasu.",
+            "german": "Ich denke darüber nach, ein Unternehmen zu gründen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "起業 ist das Gründen eines eigenen Unternehmens; als intransitives する-Verb: 起業する, 大学を出てすぐ起業する. Dazu gehören 起業家 „Gründer, Unternehmer“ und 起業資金. Achtung, Homophon: 企業 (きぎょう) bedeutet „Unternehmen, Firma“ selbst, während 起業 den Akt der Gründung meint. Formeller, besonders bei Kapitalgesellschaften, ist 会社を設立する.",
+        "examples": [
+          {
+            "japanese": "起業を考えています。",
+            "romaji": "Kigyou o kangaete imasu.",
+            "german": "Ich denke darüber nach, ein Unternehmen zu gründen."
+          },
+          {
+            "japanese": "彼は二十五歳で起業して、会社を大きくしました。",
+            "romaji": "Kare wa nijuugo sai de kigyou shite, kaisha o ookiku shimashita.",
+            "german": "Er hat mit 25 ein Unternehmen gegründet und es groß gemacht."
+          },
+          {
+            "japanese": "起業するには、まず資金が必要です。",
+            "romaji": "Kigyou suru ni wa, mazu shikin ga hitsuyou desu.",
+            "german": "Um ein Unternehmen zu gründen, braucht man zuerst Kapital."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103549903",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 起業/キギョウ; lemma 起業; 名詞/普通名詞/サ変可能/*; *; *; aType 1,0.",
+            "match": {
+              "word": "起業",
+              "reading": "きぎょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 起業/きぎょう \"Unternehmensgründung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1223750 sense 1, noun / suru verb (intransitive): starting a business Pitch: Verified [1,0] via exact UniDic row. 起業 ist das Gründen eines eigenen Unternehmens; als intransitives する-Verb: 起業する, 大学を出てすぐ起業する. Dazu gehören 起業家 „Gründer, Unternehmer“ und 起業資金. Achtung, Homophon: 企業 (きぎょう) bedeutet „Unternehmen, Firma“ selbst, während 起業 den Akt der Gründung meint. Formeller, besonders bei Kapitalgesellschaften, ist 会社を設立する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1223750; spelling=起業; reading=きぎょう",
+          "selected": {
+            "sequence": "1223750",
+            "spelling": "起業",
+            "reading": "きぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "starting a business",
+                  "promotion of enterprise"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1223750 sense 1, noun / suru verb (intransitive): starting a business"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact UniDic row. Exact whole 起業/キギョウ; lemma 起業; 名詞/普通名詞/サ変可能/*; *; *; aType 1,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103549903",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 起業/キギョウ; lemma 起業; 名詞/普通名詞/サ変可能/*; *; *; aType 1,0.",
+            "match": {
+              "word": "起業",
+              "reading": "きぎょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 起業/きぎょう \"Unternehmensgründung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unternehmensgründung. JMdict 1223750 sense 1, noun / suru verb (intransitive): starting a business",
+        "japanese": "起業を考えています。 / 彼は二十五歳で起業して、会社を大きくしました。 / 起業するには、まず資金が必要です。",
+        "romanization": "kigyou; Kigyou o kangaete imasu. / Kare wa nijuugo sai de kigyou shite, kaisha o ookiku shimashita. / Kigyou suru ni wa, mazu shikin ga hitsuyou desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich denke darüber nach, ein Unternehmen zu gründen. / Er hat mit 25 ein Unternehmen gegründet und es groß gemacht. / Um ein Unternehmen zu gründen, braucht man zuerst Kapital.",
+        "contexts": [
+          "Career plans",
+          "Success story",
+          "Startup funding"
+        ],
+        "lexical": "JMdict 1223750 sense 1, noun / suru verb (intransitive): starting a business",
+        "register": "neutral",
+        "transitivity": "intransitive as 起業する",
+        "conjugation": "noun; suru verb (起業する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1107 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Career plans; Success story; Startup funding), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "73dfe605686ac8d66218587658f2e25258a906df49019247b8d9cf5cbd8274bd",
+        "approvalHash": "78d24e0abcaf9c89abe036bfe541d2b0bfa9eda5a91d25fdb1f8ab287062530b"
+      }
+    },
+    {
+      "id": "vocab-n3:1108",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1108",
+      "state": "accepted",
+      "predecessorHash": "4a182a4f0ff89b15815d1a56f05091ea7fc8570e93ca79bc87bcfd8b3e34266a",
+      "originalHash": "4a182a4f0ff89b15815d1a56f05091ea7fc8570e93ca79bc87bcfd8b3e34266a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "株式会社を設立しました。",
+            "romaji": "Kabushiki gaisha o setsuritsu shimashita.",
+            "german": "Wir haben eine AG gegründet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "株式会社 ist die japanische Aktiengesellschaft (K.K.), die häufigste Rechtsform für Firmen. Es steht im Firmennamen vor oder hinter dem Namen, z. B. 株式会社さくら oder さくら商事株式会社, und wird oft als (株) abgekürzt. Beachte die Stimmhaftwerdung: かいしゃ wird zu がいしゃ. Im Gespräch sagt man einfach 会社; 株式会社 hört man vor allem in formellen Kontexten wie Verträgen, auf Visitenkarten und am Telefon.",
+        "examples": [
+          {
+            "japanese": "株式会社を設立しました。",
+            "romaji": "Kabushiki gaisha o setsuritsu shimashita.",
+            "german": "Wir haben eine AG gegründet."
+          },
+          {
+            "japanese": "お電話ありがとうございます。株式会社さくらでございます。",
+            "romaji": "Odenwa arigatou gozaimasu. Kabushiki gaisha Sakura de gozaimasu.",
+            "german": "Vielen Dank für Ihren Anruf. Hier ist die Sakura AG."
+          },
+          {
+            "japanese": "日本の会社の多くは株式会社です。",
+            "romaji": "Nihon no kaisha no ooku wa kabushiki gaisha desu.",
+            "german": "Viele japanische Firmen sind Aktiengesellschaften."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1208980 sense 1, noun: stock company, corporation, kabushiki kaisha Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 株式会社 ist die japanische Aktiengesellschaft (K.K.), die häufigste Rechtsform für Firmen. Es steht im Firmennamen vor oder hinter dem Namen, z. B. 株式会社さくら oder さくら商事株式会社, und wird oft als (株) abgekürzt. Beachte die Stimmhaftwerdung: かいしゃ wird zu がいしゃ. Im Gespräch sagt man einfach 会社; 株式会社 hört man vor allem in formellen Kontexten wie Verträgen, auf Visitenkarten und am Telefon. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1208980; spelling=株式会社; reading=かぶしきがいしゃ",
+          "selected": {
+            "sequence": "1208980",
+            "spelling": "株式会社",
+            "reading": "かぶしきがいしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stock company",
+                  "corporation",
+                  "kabushiki kaisha",
+                  "KK"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1208980 sense 1, noun: stock company, corporation, kabushiki kaisha"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 株式会社/かぶしきがいしゃ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 株式会社/かぶしきがいしゃ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Aktiengesellschaft. JMdict 1208980 sense 1, noun: stock company, corporation, kabushiki kaisha",
+        "japanese": "株式会社を設立しました。 / お電話ありがとうございます。株式会社さくらでございます。 / 日本の会社の多くは株式会社です。",
+        "romanization": "kabushiki gaisha; Kabushiki gaisha o setsuritsu shimashita. / Odenwa arigatou gozaimasu. Kabushiki gaisha Sakura de gozaimasu. / Nihon no kaisha no ooku wa kabushiki gaisha desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben eine AG gegründet. / Vielen Dank für Ihren Anruf. Hier ist die Sakura AG. / Viele japanische Firmen sind Aktiengesellschaften.",
+        "contexts": [
+          "Founding a company",
+          "Answering the phone",
+          "Company types in Japan"
+        ],
+        "lexical": "JMdict 1208980 sense 1, noun: stock company, corporation, kabushiki kaisha",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1108 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Founding a company; Answering the phone; Company types in Japan), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "da60907282b63e68a8f22365f333776e707e28225717b20a81877b90cb80dde5",
+        "approvalHash": "b316873df3c4b22764b89a92c83297677049a84bae0845d65d56231487e35bea"
+      }
+    },
+    {
+      "id": "vocab-n3:1109",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1109",
+      "state": "accepted",
+      "predecessorHash": "e1a66f8c6ad638cb49fdd5f754026015b3b0dd5fb5b799af783fa6efe67f0e38",
+      "originalHash": "e1a66f8c6ad638cb49fdd5f754026015b3b0dd5fb5b799af783fa6efe67f0e38",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "本社は東京にあります。",
+            "romaji": "Honsha wa Toukyou ni arimasu.",
+            "german": "Der Hauptsitz ist in Tokyo."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "本社 ist die Zentrale bzw. der Hauptsitz eines Unternehmens: 本社は東京にある, 本社に転勤する, 本社ビル. Gegenbegriffe sind 支社 (regionale Niederlassung) und 支店 (Filiale mit Kundenverkehr, z. B. bei Banken oder Läden). Seltener bezeichnet 本社 das Hauptheiligtum einer Schreinanlage, im Alltag dominiert aber klar die Bedeutung „Hauptsitz“.",
+        "examples": [
+          {
+            "japanese": "本社は東京にあります。",
+            "romaji": "Honsha wa Toukyou ni arimasu.",
+            "german": "Der Hauptsitz ist in Tokyo."
+          },
+          {
+            "japanese": "来月、大阪支社から本社に転勤します。",
+            "romaji": "Raigetsu, Oosaka shisha kara honsha ni tenkin shimasu.",
+            "german": "Nächsten Monat werde ich von der Niederlassung Osaka in die Zentrale versetzt."
+          },
+          {
+            "japanese": "この件は本社の判断を待たなければなりません。",
+            "romaji": "Kono ken wa honsha no handan o matanakereba narimasen.",
+            "german": "In dieser Sache müssen wir die Entscheidung der Zentrale abwarten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245772115",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 本社/ホンシャ; lemma 本社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "本社",
+              "reading": "ほんしゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 本社/ほんしゃ \"Hauptsitz, Zentrale\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1522630 sense 1, noun: head office, headquarters Pitch: Verified [1] via exact UniDic row. 本社 ist die Zentrale bzw. der Hauptsitz eines Unternehmens: 本社は東京にある, 本社に転勤する, 本社ビル. Gegenbegriffe sind 支社 (regionale Niederlassung) und 支店 (Filiale mit Kundenverkehr, z. B. bei Banken oder Läden). Seltener bezeichnet 本社 das Hauptheiligtum einer Schreinanlage, im Alltag dominiert aber klar die Bedeutung „Hauptsitz“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1522630; spelling=本社; reading=ほんしゃ",
+          "selected": {
+            "sequence": "1522630",
+            "spelling": "本社",
+            "reading": "ほんしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "head office",
+                  "main office",
+                  "headquarters",
+                  "parent company"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "ほんしゃ"
+                ]
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "main shrine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "this company",
+                  "this shrine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "ほんしゃ"
+                ]
+              }
+            ]
+          },
+          "finding": "JMdict 1522630 sense 1, noun: head office, headquarters"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 本社/ホンシャ; lemma 本社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245772115",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 本社/ホンシャ; lemma 本社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "本社",
+              "reading": "ほんしゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 本社/ほんしゃ \"Hauptsitz, Zentrale\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hauptsitz, Zentrale. JMdict 1522630 sense 1, noun: head office, headquarters",
+        "japanese": "本社は東京にあります。 / 来月、大阪支社から本社に転勤します。 / この件は本社の判断を待たなければなりません。",
+        "romanization": "honsha; Honsha wa Toukyou ni arimasu. / Raigetsu, Oosaka shisha kara honsha ni tenkin shimasu. / Kono ken wa honsha no handan o matanakereba narimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Hauptsitz ist in Tokyo. / Nächsten Monat werde ich von der Niederlassung Osaka in die Zentrale versetzt. / In dieser Sache müssen wir die Entscheidung der Zentrale abwarten.",
+        "contexts": [
+          "Company location",
+          "Job transfer",
+          "Waiting for HQ approval"
+        ],
+        "lexical": "JMdict 1522630 sense 1, noun: head office, headquarters",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1109 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company location; Job transfer; Waiting for HQ approval), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e077afa72943e794c9e71edfd521669ee96962eed7ca6856b02f74b585af2d31",
+        "approvalHash": "4cf97ddad87a0e02b4a9b1bee1d335953af1b3ff30a3cefb7a811decaf43ff56"
+      }
+    },
+    {
+      "id": "vocab-n3:1110",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1110",
+      "state": "accepted",
+      "predecessorHash": "a47f78570cecdc0bda2dea61c4f037114748c57fdca475bc333e73e99b6c286b",
+      "originalHash": "a47f78570cecdc0bda2dea61c4f037114748c57fdca475bc333e73e99b6c286b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大阪に支社があります。",
+            "romaji": "Oosaka ni shisha ga arimasu.",
+            "german": "Es gibt eine Filiale in Osaka."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "支社 ist eine Zweigstelle oder Niederlassung eines Unternehmens, meist für eine Region zuständig: 大阪支社, 海外支社, 支社長. Im Vergleich zu 支店 (Filiale mit Kundenverkehr, z. B. Bank oder Laden) ist ein 支社 eher eine regionale Verwaltungseinheit. Gegenbegriff ist 本社 „Hauptsitz“; man wird z. B. 支社に転勤する „in eine Niederlassung versetzt“.",
+        "examples": [
+          {
+            "japanese": "大阪に支社があります。",
+            "romaji": "Oosaka ni shisha ga arimasu.",
+            "german": "Es gibt eine Filiale in Osaka."
+          },
+          {
+            "japanese": "来年、シンガポールに新しい支社を作る予定です。",
+            "romaji": "Rainen, Shingapooru ni atarashii shisha o tsukuru yotei desu.",
+            "german": "Nächstes Jahr wollen wir eine neue Niederlassung in Singapur eröffnen."
+          },
+          {
+            "japanese": "支社の人たちとオンラインで会議をしました。",
+            "romaji": "Shisha no hitotachi to onrain de kaigi o shimashita.",
+            "german": "Ich hatte eine Online-Besprechung mit den Kollegen aus der Niederlassung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135244132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 支社/シシャ; lemma 支社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "支社",
+              "reading": "ししゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 支社/ししゃ \"Zweigstelle, Filiale\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1310170 sense 1, noun: branch office Pitch: Verified [1] via exact UniDic row. 支社 ist eine Zweigstelle oder Niederlassung eines Unternehmens, meist für eine Region zuständig: 大阪支社, 海外支社, 支社長. Im Vergleich zu 支店 (Filiale mit Kundenverkehr, z. B. Bank oder Laden) ist ein 支社 eher eine regionale Verwaltungseinheit. Gegenbegriff ist 本社 „Hauptsitz“; man wird z. B. 支社に転勤する „in eine Niederlassung versetzt“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310170; spelling=支社; reading=ししゃ",
+          "selected": {
+            "sequence": "1310170",
+            "spelling": "支社",
+            "reading": "ししゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "branch office"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1310170 sense 1, noun: branch office"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 支社/シシャ; lemma 支社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135244132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 支社/シシャ; lemma 支社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "支社",
+              "reading": "ししゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 支社/ししゃ \"Zweigstelle, Filiale\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zweigstelle, Filiale. JMdict 1310170 sense 1, noun: branch office",
+        "japanese": "大阪に支社があります。 / 来年、シンガポールに新しい支社を作る予定です。 / 支社の人たちとオンラインで会議をしました。",
+        "romanization": "shisha; Oosaka ni shisha ga arimasu. / Rainen, Shingapooru ni atarashii shisha o tsukuru yotei desu. / Shisha no hitotachi to onrain de kaigi o shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt eine Filiale in Osaka. / Nächstes Jahr wollen wir eine neue Niederlassung in Singapur eröffnen. / Ich hatte eine Online-Besprechung mit den Kollegen aus der Niederlassung.",
+        "contexts": [
+          "Company structure",
+          "Overseas expansion",
+          "Online meeting with a branch"
+        ],
+        "lexical": "JMdict 1310170 sense 1, noun: branch office",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1110 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company structure; Overseas expansion; Online meeting with a branch), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "778682399dd7fd7a63733bc6d965222140b49507e4f806e1b404107ffd18f747",
+        "approvalHash": "85da28a793bfcd94e1d1d55e9726f34fc132192212bc0bd609284b8a4c909850"
+      }
+    },
+    {
+      "id": "vocab-n3:1111",
+      "revisionId": "179h-n3-enrichment-vocab-n3-1111",
+      "state": "accepted",
+      "predecessorHash": "eedd8bfe8aebc6daea985f774ec1fae1779d53156c6ffbe2cf5c5d051c0106b6",
+      "originalHash": "eedd8bfe8aebc6daea985f774ec1fae1779d53156c6ffbe2cf5c5d051c0106b6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい部署に異動しました。",
+            "romaji": "Atarashii busho ni idou shimashita.",
+            "german": "Ich wurde in eine neue Abteilung versetzt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "部署 ist die Abteilung bzw. die Stelle, der man in einer Firma oder Behörde zugeteilt ist. Typisch sind 部署に配属される „einer Abteilung zugeteilt werden“, 部署を異動する, 別の部署 und die Frage どちらの部署ですか. Es ist ein Oberbegriff für Einheiten wie 部, 課 oder 係; konkret nennt man meist den Namen, etwa 営業部 oder 経理課.",
+        "examples": [
+          {
+            "japanese": "新しい部署に異動しました。",
+            "romaji": "Atarashii busho ni idou shimashita.",
+            "german": "Ich wurde in eine neue Abteilung versetzt."
+          },
+          {
+            "japanese": "失礼ですが、どちらの部署の方ですか。",
+            "romaji": "Shitsurei desu ga, dochira no busho no kata desu ka.",
+            "german": "Entschuldigung, aus welcher Abteilung kommen Sie?"
+          },
+          {
+            "japanese": "この書類は担当の部署に出してください。",
+            "romaji": "Kono shorui wa tantou no busho ni dashite kudasai.",
+            "german": "Bitte reichen Sie dieses Dokument bei der zuständigen Abteilung ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238560562",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 部署/ブショ; lemma 部署; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "部署",
+              "reading": "ぶしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部署/ぶしょ \"Abteilung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1603140 sense 1, noun: department, section; one's post Pitch: Verified [1] via exact UniDic row. 部署 ist die Abteilung bzw. die Stelle, der man in einer Firma oder Behörde zugeteilt ist. Typisch sind 部署に配属される „einer Abteilung zugeteilt werden“, 部署を異動する, 別の部署 und die Frage どちらの部署ですか. Es ist ein Oberbegriff für Einheiten wie 部, 課 oder 係; konkret nennt man meist den Namen, etwa 営業部 oder 経理課. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1603140; spelling=部署; reading=ぶしょ",
+          "selected": {
+            "sequence": "1603140",
+            "spelling": "部署",
+            "reading": "ぶしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's post",
+                  "one's station",
+                  "department",
+                  "bureau",
+                  "section"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1603140 sense 1, noun: department, section; one's post"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 部署/ブショ; lemma 部署; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238560562",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 部署/ブショ; lemma 部署; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "部署",
+              "reading": "ぶしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部署/ぶしょ \"Abteilung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abteilung. JMdict 1603140 sense 1, noun: department, section; one's post",
+        "japanese": "新しい部署に異動しました。 / 失礼ですが、どちらの部署の方ですか。 / この書類は担当の部署に出してください。",
+        "romanization": "busho; Atarashii busho ni idou shimashita. / Shitsurei desu ga, dochira no busho no kata desu ka. / Kono shorui wa tantou no busho ni dashite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wurde in eine neue Abteilung versetzt. / Entschuldigung, aus welcher Abteilung kommen Sie? / Bitte reichen Sie dieses Dokument bei der zuständigen Abteilung ein.",
+        "contexts": [
+          "Job transfer",
+          "Asking a visitor politely",
+          "Submitting paperwork"
+        ],
+        "lexical": "JMdict 1603140 sense 1, noun: department, section; one's post",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-179",
+        "finding": "Author reread the exact final card vocab-n3:1111 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Job transfer; Asking a visitor politely; Submitting paperwork), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "17d73d6a9d9a4fd88ae33bb67f2b3a733db8ea4d5ee08da95955ec3ff0273945",
+        "approvalHash": "91a2ecfcaee05deb2aa352d93c69df0ff243cd4d004c640d9a629280934d1ee9"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

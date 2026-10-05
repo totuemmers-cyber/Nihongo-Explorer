@@ -1,0 +1,4095 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:720",
+      "revisionId": "178d-n3-enrichment-vocab-n3-720",
+      "state": "accepted",
+      "predecessorHash": "091232a74abf5e165b08cc116ce24db123a22f54b504603e978bc7e34357c72e",
+      "originalHash": "091232a74abf5e165b08cc116ce24db123a22f54b504603e978bc7e34357c72e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "皮肉を言いました。",
+            "romaji": "Hiniku o iimashita.",
+            "german": "Er hat etwas Sarkastisches gesagt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "皮肉 bedeutet „Ironie, Sarkasmus, spitze Bemerkung“; wörtlich „Haut und Fleisch“, also etwas, das nur an der Oberfläche kratzt. Typisch sind 皮肉を言う „sticheln“, 皮肉っぽい „sarkastisch klingend“ und das Verb 皮肉る. Als na-Adjektiv beschreibt es ironische Zufälle: 皮肉な結果, 皮肉なことに „ironischerweise“. Anders als 冗談 (Scherz) steckt in 皮肉 immer ein versteckter Vorwurf.",
+        "examples": [
+          {
+            "japanese": "皮肉を言いました。",
+            "romaji": "Hiniku o iimashita.",
+            "german": "Er hat etwas Sarkastisches gesagt."
+          },
+          {
+            "japanese": "皮肉なことに、傘を持って出かけた日に限って雨が降らない。",
+            "romaji": "Hiniku na koto ni, kasa o motte dekaketa hi ni kagitte ame ga furanai.",
+            "german": "Ironischerweise regnet es ausgerechnet an den Tagen nicht, an denen ich einen Schirm dabeihabe."
+          },
+          {
+            "japanese": "彼のほめ言葉は皮肉に聞こえた。",
+            "romaji": "Kare no homekotoba wa hiniku ni kikoeta.",
+            "german": "Sein Lob klang eher sarkastisch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226992709",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 皮肉/ヒニク; lemma 皮肉; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 3.",
+            "match": {
+              "word": "皮肉",
+              "reading": "ひにく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 皮肉/ひにく \"Ironie, Sarkasmus\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1483900 senses 1-2, noun / na-adjective: irony, sarcasm; ironic, contrary to expectation Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 皮肉 bedeutet „Ironie, Sarkasmus, spitze Bemerkung“; wörtlich „Haut und Fleisch“, also etwas, das nur an der Oberfläche kratzt. Typisch sind 皮肉を言う „sticheln“, 皮肉っぽい „sarkastisch klingend“ und das Verb 皮肉る. Als na-Adjektiv beschreibt es ironische Zufälle: 皮肉な結果, 皮肉なことに „ironischerweise“. Anders als 冗談 (Scherz) steckt in 皮肉 immer ein versteckter Vorwurf. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483900; spelling=皮肉; reading=ひにく",
+          "selected": {
+            "sequence": "1483900",
+            "spelling": "皮肉",
+            "reading": "ひにく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "irony",
+                  "sarcasm",
+                  "cynicism",
+                  "satire"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unexpected",
+                  "different from what one expected",
+                  "not as one had planned"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(only) surface",
+                  "something superficial"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "skin and bone",
+                  "body"
+                ],
+                "notes": [
+                  "literal meaning"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1483900 senses 1-2, noun / na-adjective: irony, sarcasm; ironic, contrary to expectation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 皮肉/ヒニク; lemma 皮肉; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226992709",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 皮肉/ヒニク; lemma 皮肉; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 皮肉/ヒニク; lemma 皮肉る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 3.",
+            "match": {
+              "word": "皮肉",
+              "reading": "ひにく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 皮肉/ひにく \"Ironie, Sarkasmus\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ironie, Sarkasmus. JMdict 1483900 senses 1-2, noun / na-adjective: irony, sarcasm; ironic, contrary to expectation",
+        "japanese": "皮肉を言いました。 / 皮肉なことに、傘を持って出かけた日に限って雨が降らない。 / 彼のほめ言葉は皮肉に聞こえた。",
+        "romanization": "hiniku; Hiniku o iimashita. / Hiniku na koto ni, kasa o motte dekaketa hi ni kagitte ame ga furanai. / Kare no homekotoba wa hiniku ni kikoeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er hat etwas Sarkastisches gesagt. / Ironischerweise regnet es ausgerechnet an den Tagen nicht, an denen ich einen Schirm dabeihabe. / Sein Lob klang eher sarkastisch.",
+        "contexts": [
+          "Snide remark",
+          "Ironic coincidence",
+          "Suspicious compliment"
+        ],
+        "lexical": "JMdict 1483900 senses 1-2, noun / na-adjective: irony, sarcasm; ironic, contrary to expectation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun; na-adjective 皮肉な; verb 皮肉る separately)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:720 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Snide remark; Ironic coincidence; Suspicious compliment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0cbc6acc98130d46fcd1b570f2f926cf025f1a998c53b33816c677b38ff70c29",
+        "approvalHash": "43b8f7bf26519317663e66e20651b5569837cb755ad6b6c5ab947a620c5d27c6"
+      }
+    },
+    {
+      "id": "vocab-n3:721",
+      "revisionId": "178d-n3-enrichment-vocab-n3-721",
+      "state": "accepted",
+      "predecessorHash": "ad588673b164ef68ba894bc50aa8865f40ada53c7fb18fde53f235fdc4559ed3",
+      "originalHash": "ad588673b164ef68ba894bc50aa8865f40ada53c7fb18fde53f235fdc4559ed3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お世話になりました。",
+            "romaji": "Osewa ni narimashita.",
+            "german": "Sie haben sich um mich gekümmert. (Danke)"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "世話 ist „Fürsorge, Betreuung, Hilfe“. Man kümmert sich um jemanden mit 〜の世話をする (犬の世話をする); Hilfe empfangen heißt 世話になる. Daraus stammen die festen Höflichkeitsformeln お世話になりました „danke für alles“ beim Abschied und お世話になっております als Standardgruß in Geschäftsmails. 余計なお世話 bedeutet „das geht dich nichts an“, 世話を焼く „sich (zu sehr) um jemanden kümmern“.",
+        "examples": [
+          {
+            "japanese": "お世話になりました。",
+            "romaji": "Osewa ni narimashita.",
+            "german": "Vielen Dank für all Ihre Unterstützung."
+          },
+          {
+            "japanese": "毎朝、犬の世話をしています。",
+            "romaji": "Maiasa, inu no sewa o shite imasu.",
+            "german": "Jeden Morgen kümmere ich mich um den Hund."
+          },
+          {
+            "japanese": "余計なお世話だよ。",
+            "romaji": "Yokei na osewa da yo.",
+            "german": "Das geht dich nichts an!"
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154222772",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 世話/セワ; lemma 世話; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "世話",
+              "reading": "せわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 世話/せわ \"Fürsorge, Pflege\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1374300 senses 1-2, noun / suru verb: care, looking after, help; trouble, bother Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 世話 ist „Fürsorge, Betreuung, Hilfe“. Man kümmert sich um jemanden mit 〜の世話をする (犬の世話をする); Hilfe empfangen heißt 世話になる. Daraus stammen die festen Höflichkeitsformeln お世話になりました „danke für alles“ beim Abschied und お世話になっております als Standardgruß in Geschäftsmails. 余計なお世話 bedeutet „das geht dich nichts an“, 世話を焼く „sich (zu sehr) um jemanden kümmern“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1374300; spelling=世話; reading=せわ",
+          "selected": {
+            "sequence": "1374300",
+            "spelling": "世話",
+            "reading": "せわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "care",
+                  "looking after",
+                  "help",
+                  "assistance",
+                  "aid"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trouble",
+                  "bother"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good offices",
+                  "recommendation",
+                  "introduction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "everyday life",
+                  "everyday affairs",
+                  "everyday language"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "sewamono (Edo-period drama about contemporary life)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1374300 senses 1-2, noun / suru verb: care, looking after, help; trouble, bother"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 世話/セワ; lemma 世話; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154222772",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 世話/セワ; lemma 世話; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "世話",
+              "reading": "せわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 世話/せわ \"Fürsorge, Pflege\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fürsorge, Pflege. JMdict 1374300 senses 1-2, noun / suru verb: care, looking after, help; trouble, bother",
+        "japanese": "お世話になりました。 / 毎朝、犬の世話をしています。 / 余計なお世話だよ。",
+        "romanization": "sewa; Osewa ni narimashita. / Maiasa, inu no sewa o shite imasu. / Yokei na osewa da yo. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vielen Dank für all Ihre Unterstützung. / Jeden Morgen kümmere ich mich um den Hund. / Das geht dich nichts an!",
+        "contexts": [
+          "Farewell at work",
+          "Pet care routine",
+          "Rejecting unwanted advice"
+        ],
+        "lexical": "JMdict 1374300 senses 1-2, noun / suru verb: care, looking after, help; trouble, bother",
+        "register": "neutral; お世話になります are polite set phrases",
+        "transitivity": "transitive as 世話をする / 世話する (〜の世話をする); receiving help: 〜に世話になる",
+        "conjugation": "noun; suru verb (世話する, usually 世話をする)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:721 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Farewell at work; Pet care routine; Rejecting unwanted advice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d485f626284a126ab32ea60c7cc4aebc9aac880755a31a8c51be236e138d1947",
+        "approvalHash": "3b4b1954cbfc13e78c085cd99448b47601dc7f9d642597eaf1709d21a9620371"
+      }
+    },
+    {
+      "id": "vocab-n3:722",
+      "revisionId": "178d-n3-enrichment-vocab-n3-722",
+      "state": "accepted",
+      "predecessorHash": "9e54d64ba83d7a869b01b3ea890173c7e3bcfd38b35cca72c5364a4ae17cea9a",
+      "originalHash": "9e54d64ba83d7a869b01b3ea890173c7e3bcfd38b35cca72c5364a4ae17cea9a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "行儀よくしなさい。",
+            "romaji": "Gyougi yoku shinasai.",
+            "german": "Benimm dich ordentlich!"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "行儀 bezeichnet das Benehmen eines Menschen, besonders im Alltag und bei Tisch: 行儀がいい／悪い, 行儀よくする. Gegenüber Kindern sagt man gern お行儀. マナー meint dagegen die Regeln der Etikette in bestimmten Situationen, 礼儀 die respektvolle Höflichkeit gegenüber anderen. 他人行儀 heißt „förmlich-distanziert wie bei Fremden“.",
+        "examples": [
+          {
+            "japanese": "行儀よくしなさい。",
+            "romaji": "Gyougi yoku shinasai.",
+            "german": "Benimm dich ordentlich!"
+          },
+          {
+            "japanese": "食事中に肘をつくのは行儀が悪いよ。",
+            "romaji": "Shokujichuu ni hiji o tsuku no wa gyougi ga warui yo.",
+            "german": "Beim Essen die Ellbogen aufzustützen gehört sich nicht."
+          },
+          {
+            "japanese": "あの子はとてもお行儀がいいですね。",
+            "romaji": "Ano ko wa totemo ogyougi ga ii desu ne.",
+            "german": "Das Kind ist aber sehr artig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109298388",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 行儀/ギョウギ; lemma 行儀; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "行儀",
+              "reading": "ぎょうぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 行儀/ぎょうぎ \"Benehmen, Manieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1281890 sense 1, noun: manners, behaviour Pitch: Verified [0] via exact UniDic row. 行儀 bezeichnet das Benehmen eines Menschen, besonders im Alltag und bei Tisch: 行儀がいい／悪い, 行儀よくする. Gegenüber Kindern sagt man gern お行儀. マナー meint dagegen die Regeln der Etikette in bestimmten Situationen, 礼儀 die respektvolle Höflichkeit gegenüber anderen. 他人行儀 heißt „förmlich-distanziert wie bei Fremden“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1281890; spelling=行儀; reading=ぎょうぎ",
+          "selected": {
+            "sequence": "1281890",
+            "spelling": "行儀",
+            "reading": "ぎょうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "manners",
+                  "behavior",
+                  "behaviour"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1281890 sense 1, noun: manners, behaviour"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 行儀/ギョウギ; lemma 行儀; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109298388",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 行儀/ギョウギ; lemma 行儀; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "行儀",
+              "reading": "ぎょうぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 行儀/ぎょうぎ \"Benehmen, Manieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Benehmen, Manieren. JMdict 1281890 sense 1, noun: manners, behaviour",
+        "japanese": "行儀よくしなさい。 / 食事中に肘をつくのは行儀が悪いよ。 / あの子はとてもお行儀がいいですね。",
+        "romanization": "gyougi; Gyougi yoku shinasai. / Shokujichuu ni hiji o tsuku no wa gyougi ga warui yo. / Ano ko wa totemo ogyougi ga ii desu ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Benimm dich ordentlich! / Beim Essen die Ellbogen aufzustützen gehört sich nicht. / Das Kind ist aber sehr artig.",
+        "contexts": [
+          "Parent scolding a child",
+          "Table manners",
+          "Complimenting a child"
+        ],
+        "lexical": "JMdict 1281890 sense 1, noun: manners, behaviour",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:722 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Parent scolding a child; Table manners; Complimenting a child), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0c5a087eb247ada44932d4e3518799d16a086b2b13bf2163cd268cc64747e4e6",
+        "approvalHash": "d2f3af7891ca089ec6a11db80ca3a047d7979e46766a7016edcf42dd93d31974"
+      }
+    },
+    {
+      "id": "vocab-n3:723",
+      "revisionId": "178d-n3-enrichment-vocab-n3-723",
+      "state": "accepted",
+      "predecessorHash": "3556bf3891e2b50a097b028436337b4785555130fb0c200886fa550f38ec17a0",
+      "originalHash": "3556bf3891e2b50a097b028436337b4785555130fb0c200886fa550f38ec17a0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "非常識な行動です。",
+            "romaji": "Hijoushiki na koudou desu.",
+            "german": "Das ist rücksichtsloses Verhalten."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "非常識 bedeutet „ohne gesunden Menschenverstand, daneben, unverschämt“ und ist ein na-Adjektiv bzw. Nomen: 非常識な人, 非常識な時間, 〜なんて非常識だ. Es ist eine deutliche Kritik an Verhalten, das gegen allgemein erwartete soziale Regeln verstößt. 失礼 betont dagegen die Unhöflichkeit gegenüber einer bestimmten Person. Gegenteil: 常識的, 常識がある.",
+        "examples": [
+          {
+            "japanese": "非常識な行動です。",
+            "romaji": "Hijoushiki na koudou desu.",
+            "german": "Das ist rücksichtsloses Verhalten."
+          },
+          {
+            "japanese": "夜中の二時に電話するなんて、非常識だよ。",
+            "romaji": "Yonaka no niji ni denwa suru nante, hijoushiki da yo.",
+            "german": "Um zwei Uhr nachts anzurufen, das gehört sich doch nicht!"
+          },
+          {
+            "japanese": "結婚式に白いドレスで行くのは非常識だと言われた。",
+            "romaji": "Kekkonshiki ni shiroi doresu de iku no wa hijoushiki da to iwareta.",
+            "german": "Man sagte mir, es gehöre sich nicht, in einem weißen Kleid zu einer Hochzeit zu gehen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1484990 sense 1, noun / na-adjective: lack of common sense, thoughtlessness, absurdity Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 非常識 bedeutet „ohne gesunden Menschenverstand, daneben, unverschämt“ und ist ein na-Adjektiv bzw. Nomen: 非常識な人, 非常識な時間, 〜なんて非常識だ. Es ist eine deutliche Kritik an Verhalten, das gegen allgemein erwartete soziale Regeln verstößt. 失礼 betont dagegen die Unhöflichkeit gegenüber einer bestimmten Person. Gegenteil: 常識的, 常識がある. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1484990; spelling=非常識; reading=ひじょうしき",
+          "selected": {
+            "sequence": "1484990",
+            "spelling": "非常識",
+            "reading": "ひじょうしき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lack of common sense",
+                  "thoughtlessness",
+                  "senselessness",
+                  "irrationality",
+                  "absurdity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1484990 sense 1, noun / na-adjective: lack of common sense, thoughtlessness, absurdity"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 非常識/ひじょうしき scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 非常識/ひじょうしき with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9D%9E%E5%B8%B8%E8%AD%98",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 非常識/ひじょうしき scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 05e35364aea50db2f8194be65ef50444899f73308e67c0e1837e98953510ce9c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%9D%9E%E5%B8%B8%E8%AD%98",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 非常識/ひじょうしき with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "unvernünftig, rücksichtslos. JMdict 1484990 sense 1, noun / na-adjective: lack of common sense, thoughtlessness, absurdity",
+        "japanese": "非常識な行動です。 / 夜中の二時に電話するなんて、非常識だよ。 / 結婚式に白いドレスで行くのは非常識だと言われた。",
+        "romanization": "hijoushiki; Hijoushiki na koudou desu. / Yonaka no niji ni denwa suru nante, hijoushiki da yo. / Kekkonshiki ni shiroi doresu de iku no wa hijoushiki da to iwareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das ist rücksichtsloses Verhalten. / Um zwei Uhr nachts anzurufen, das gehört sich doch nicht! / Man sagte mir, es gehöre sich nicht, in einem weißen Kleid zu einer Hochzeit zu gehen.",
+        "contexts": [
+          "Criticizing behaviour",
+          "Late-night phone call",
+          "Wedding dress code"
+        ],
+        "lexical": "JMdict 1484990 sense 1, noun / na-adjective: lack of common sense, thoughtlessness, absurdity",
+        "register": "neutral (critical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 非常識な)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:723 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Criticizing behaviour; Late-night phone call; Wedding dress code), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9fe303bcb6f6ae71fe70067ed5219a652cd27ea2f540e2c4c9a7678e67b779de",
+        "approvalHash": "ba129381e71b8d5fcec80a3c5a29de8fa8c6f0e2ff2a01d49e5fe9086db9c9ad"
+      }
+    },
+    {
+      "id": "vocab-n3:724",
+      "revisionId": "178d-n3-enrichment-vocab-n3-724",
+      "state": "accepted",
+      "predecessorHash": "78b9369944675c070e1ba8ead6eb94ee12d7a908ec089452ae9050335062fa2b",
+      "originalHash": "78b9369944675c070e1ba8ead6eb94ee12d7a908ec089452ae9050335062fa2b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "マナーを守ってください。",
+            "romaji": "Manaa o mamotte kudasai.",
+            "german": "Bitte beachten Sie die Manieren."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "マナー bezeichnet die Regeln der Etikette in bestimmten Situationen: 食事のマナー, ビジネスマナー, 電車のマナー. Typisch sind マナーを守る „sich an die Regeln halten“, マナーが悪い und マナー違反 „Verstoß gegen die Etikette“. マナーモード ist der Stumm-Modus des Handys. Anders als englisch „manner“ heißt es nie „Art und Weise“. 行儀 ist eher das persönliche Benehmen.",
+        "examples": [
+          {
+            "japanese": "マナーを守ってください。",
+            "romaji": "Manaa o mamotte kudasai.",
+            "german": "Bitte halten Sie sich an die Benimmregeln."
+          },
+          {
+            "japanese": "電車の中では、携帯電話をマナーモードにしてください。",
+            "romaji": "Densha no naka de wa, keitai denwa o manaa moodo ni shite kudasai.",
+            "german": "Bitte schalten Sie Ihr Handy im Zug auf lautlos."
+          },
+          {
+            "japanese": "彼は食事のマナーが悪い。",
+            "romaji": "Kare wa shokuji no manaa ga warui.",
+            "german": "Er hat schlechte Tischmanieren."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251702734",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole マナー/マナー; lemma マナー-manner; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: マナー/マナー; lemma マナー-manor; 名詞/普通名詞/一般/*; *; *; aType *.",
+            "match": {
+              "word": "マナー",
+              "reading": "まなー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen マナー/まなー \"Manieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1128740 sense 1, noun: manners, etiquette Pitch: Verified [1] via exact UniDic row. マナー bezeichnet die Regeln der Etikette in bestimmten Situationen: 食事のマナー, ビジネスマナー, 電車のマナー. Typisch sind マナーを守る „sich an die Regeln halten“, マナーが悪い und マナー違反 „Verstoß gegen die Etikette“. マナーモード ist der Stumm-Modus des Handys. Anders als englisch „manner“ heißt es nie „Art und Weise“. 行儀 ist eher das persönliche Benehmen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1128740; spelling=マナー; reading=まなー",
+          "finding": "JMdict 1128740 sense 1, noun: manners, etiquette"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole マナー/マナー; lemma マナー-manner; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: マナー/マナー; lemma マナー-manor; 名詞/普通名詞/一般/*; *; *; aType *.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251702734",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole マナー/マナー; lemma マナー-manner; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: マナー/マナー; lemma マナー-manor; 名詞/普通名詞/一般/*; *; *; aType *.",
+            "match": {
+              "word": "マナー",
+              "reading": "まなー",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen マナー/まなー \"Manieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Manieren. JMdict 1128740 sense 1, noun: manners, etiquette",
+        "japanese": "マナーを守ってください。 / 電車の中では、携帯電話をマナーモードにしてください。 / 彼は食事のマナーが悪い。",
+        "romanization": "manaa; Manaa o mamotte kudasai. / Densha no naka de wa, keitai denwa o manaa moodo ni shite kudasai. / Kare wa shokuji no manaa ga warui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte halten Sie sich an die Benimmregeln. / Bitte schalten Sie Ihr Handy im Zug auf lautlos. / Er hat schlechte Tischmanieren.",
+        "contexts": [
+          "Public notice",
+          "Train announcement",
+          "Complaining about table manners"
+        ],
+        "lexical": "JMdict 1128740 sense 1, noun: manners, etiquette",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:724 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Public notice; Train announcement; Complaining about table manners), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d0a37c294163131f2f23711077dd02f3fc7f0dbd05aeec404306f26e4b005002",
+        "approvalHash": "e0307cf72409218dd92cbd8f413c1e25eb2aa2572bbb9deacfbe0edba5f09bdb"
+      }
+    },
+    {
+      "id": "vocab-n3:725",
+      "revisionId": "178d-n3-enrichment-vocab-n3-725",
+      "state": "accepted",
+      "predecessorHash": "b94e1ab826dc5a2a6dd95308c61af312e467bc1b54dd74a64a6a75f4c644cd4c",
+      "originalHash": "b94e1ab826dc5a2a6dd95308c61af312e467bc1b54dd74a64a6a75f4c644cd4c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご迷惑をおかけしました。",
+            "romaji": "Gomeiwaku o okake shimashita.",
+            "german": "Entschuldigung für die Unannehmlichkeiten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "迷惑 ist „Belästigung, Unannehmlichkeit, Last für andere“. Zentral sind 迷惑をかける „jemandem zur Last fallen“ (höflich ご迷惑をおかけしました) und 〜の迷惑になる „andere stören“. Als na-Adjektiv: 迷惑な人, 迷惑な話. 迷惑する heißt „belästigt werden, darunter leiden“ (騒音に迷惑している). 迷惑メール sind Spam-Mails. 邪魔 meint dagegen „im Weg sein, behindern“.",
+        "examples": [
+          {
+            "japanese": "ご迷惑をおかけしました。",
+            "romaji": "Gomeiwaku o okake shimashita.",
+            "german": "Entschuldigung für die Unannehmlichkeiten."
+          },
+          {
+            "japanese": "夜遅くに騒ぐと、近所の迷惑になります。",
+            "romaji": "Yoru osoku ni sawagu to, kinjo no meiwaku ni narimasu.",
+            "german": "Wer spätabends Lärm macht, stört die Nachbarn."
+          },
+          {
+            "japanese": "迷惑メールが毎日たくさん届いて困っている。",
+            "romaji": "Meiwaku meeru ga mainichi takusan todoite komatte iru.",
+            "german": "Jeden Tag kommen jede Menge Spam-Mails, das nervt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260219051",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 迷惑/メイワク; lemma 迷惑; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "迷惑",
+              "reading": "めいわく",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 迷惑/めいわく \"Belästigung, Störung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1532800 senses 1-2, noun / na-adjective / suru verb: trouble, nuisance, inconvenience; to be bothered Pitch: Verified [1] via exact UniDic row. 迷惑 ist „Belästigung, Unannehmlichkeit, Last für andere“. Zentral sind 迷惑をかける „jemandem zur Last fallen“ (höflich ご迷惑をおかけしました) und 〜の迷惑になる „andere stören“. Als na-Adjektiv: 迷惑な人, 迷惑な話. 迷惑する heißt „belästigt werden, darunter leiden“ (騒音に迷惑している). 迷惑メール sind Spam-Mails. 邪魔 meint dagegen „im Weg sein, behindern“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1532800; spelling=迷惑; reading=めいわく",
+          "selected": {
+            "sequence": "1532800",
+            "spelling": "迷惑",
+            "reading": "めいわく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trouble",
+                  "bother",
+                  "annoyance",
+                  "nuisance",
+                  "inconvenience"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be troubled (by)",
+                  "to be bothered (by)",
+                  "to be inconvenienced (by)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1532800 senses 1-2, noun / na-adjective / suru verb: trouble, nuisance, inconvenience; to be bothered"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 迷惑/メイワク; lemma 迷惑; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260219051",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 迷惑/メイワク; lemma 迷惑; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "迷惑",
+              "reading": "めいわく",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 迷惑/めいわく \"Belästigung, Störung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Belästigung, Störung. JMdict 1532800 senses 1-2, noun / na-adjective / suru verb: trouble, nuisance, inconvenience; to be bothered",
+        "japanese": "ご迷惑をおかけしました。 / 夜遅くに騒ぐと、近所の迷惑になります。 / 迷惑メールが毎日たくさん届いて困っている。",
+        "romanization": "meiwaku; Gomeiwaku o okake shimashita. / Yoru osoku ni sawagu to, kinjo no meiwaku ni narimasu. / Meiwaku meeru ga mainichi takusan todoite komatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Entschuldigung für die Unannehmlichkeiten. / Wer spätabends Lärm macht, stört die Nachbarn. / Jeden Tag kommen jede Menge Spam-Mails, das nervt.",
+        "contexts": [
+          "Business apology",
+          "House rules for noise",
+          "Spam problem"
+        ],
+        "lexical": "JMdict 1532800 senses 1-2, noun / na-adjective / suru verb: trouble, nuisance, inconvenience; to be bothered",
+        "register": "neutral; ご迷惑をおかけします is a polite set phrase",
+        "transitivity": "intransitive as 迷惑する (be bothered); causing trouble: 〜に迷惑をかける",
+        "conjugation": "noun; na-adjective (迷惑な); suru verb (迷惑する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:725 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Business apology; House rules for noise; Spam problem), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "51644417ae40772f07d5e79da0fcb7e85e8c84fa23c137c626683eda9884d5ea",
+        "approvalHash": "7b6b675c7dc7cfd99167e7fffa175f76d771ff3f3df29aa947bf094c2c679b95"
+      }
+    },
+    {
+      "id": "vocab-n3:727",
+      "revisionId": "178d-n3-enrichment-vocab-n3-727",
+      "state": "accepted",
+      "predecessorHash": "4dc0ee98c59c7c5ab71b3d2d35c5d3caf0b27ca70dcb8a2431db6b96b0bc004c",
+      "originalHash": "4dc0ee98c59c7c5ab71b3d2d35c5d3caf0b27ca70dcb8a2431db6b96b0bc004c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "謙遜しすぎです。",
+            "romaji": "Kenson shisugi desu.",
+            "german": "Sie sind zu bescheiden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "謙遜 ist das bescheidene Herunterspielen der eigenen Leistung, besonders als Reaktion auf Lob: 謙遜する, 謙遜して〜と言う. Wird jemand gelobt und wehrt ab, antwortet man höflich ご謙遜を „Sie sind zu bescheiden“. 謙虚 (na-Adjektiv) beschreibt dagegen den bescheidenen Charakter allgemein. In Japan gilt Abwehr von Lob als normale Höflichkeit.",
+        "examples": [
+          {
+            "japanese": "謙遜しすぎです。",
+            "romaji": "Kenson shisugi desu.",
+            "german": "Sie sind zu bescheiden."
+          },
+          {
+            "japanese": "日本では、褒められると謙遜するのが普通だ。",
+            "romaji": "Nihon de wa, homerareru to kenson suru no ga futsuu da.",
+            "german": "In Japan ist es üblich, Lob bescheiden abzuwehren."
+          },
+          {
+            "japanese": "彼は謙遜して、自分の功績をあまり話さない。",
+            "romaji": "Kare wa kenson shite, jibun no kouseki o amari hanasanai.",
+            "german": "Aus Bescheidenheit spricht er kaum über seine Verdienste."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118853545",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 謙遜/ケンソン; lemma 謙遜; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "謙遜",
+              "reading": "けんそん",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 謙遜/けんそん \"Bescheidenheit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1260240 sense 1, noun / suru verb: modesty, humility, being humble Pitch: Verified [0] via exact UniDic row. 謙遜 ist das bescheidene Herunterspielen der eigenen Leistung, besonders als Reaktion auf Lob: 謙遜する, 謙遜して〜と言う. Wird jemand gelobt und wehrt ab, antwortet man höflich ご謙遜を „Sie sind zu bescheiden“. 謙虚 (na-Adjektiv) beschreibt dagegen den bescheidenen Charakter allgemein. In Japan gilt Abwehr von Lob als normale Höflichkeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1260240; spelling=謙遜; reading=けんそん",
+          "selected": {
+            "sequence": "1260240",
+            "spelling": "謙遜",
+            "reading": "けんそん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "modesty",
+                  "humility",
+                  "being humble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1260240 sense 1, noun / suru verb: modesty, humility, being humble"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 謙遜/ケンソン; lemma 謙遜; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118853545",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 謙遜/ケンソン; lemma 謙遜; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "謙遜",
+              "reading": "けんそん",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 謙遜/けんそん \"Bescheidenheit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bescheidenheit. JMdict 1260240 sense 1, noun / suru verb: modesty, humility, being humble",
+        "japanese": "謙遜しすぎです。 / 日本では、褒められると謙遜するのが普通だ。 / 彼は謙遜して、自分の功績をあまり話さない。",
+        "romanization": "kenson; Kenson shisugi desu. / Nihon de wa, homerareru to kenson suru no ga futsuu da. / Kare wa kenson shite, jibun no kouseki o amari hanasanai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie sind zu bescheiden. / In Japan ist es üblich, Lob bescheiden abzuwehren. / Aus Bescheidenheit spricht er kaum über seine Verdienste.",
+        "contexts": [
+          "Responding to modesty",
+          "Cultural norm",
+          "Describing a modest colleague"
+        ],
+        "lexical": "JMdict 1260240 sense 1, noun / suru verb: modesty, humility, being humble",
+        "register": "neutral, slightly formal",
+        "transitivity": "intransitive as 謙遜する",
+        "conjugation": "noun; suru verb (謙遜する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:727 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Responding to modesty; Cultural norm; Describing a modest colleague), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1c29d95191b24282af00b8b62f35fa04b6a4b06b27389e11e9d7054a4c5a5c5f",
+        "approvalHash": "a40e2e4f902e8d710bc4c69ba11b5bbca10432a8802336024c69ee63dcb0c761"
+      }
+    },
+    {
+      "id": "vocab-n3:728",
+      "revisionId": "178d-n3-enrichment-vocab-n3-728",
+      "state": "accepted",
+      "predecessorHash": "0288f504757a7f2055d8956f09a004a3b6a8c3c4f3a44e6e64074a8b586d1127",
+      "originalHash": "0288f504757a7f2055d8956f09a004a3b6a8c3c4f3a44e6e64074a8b586d1127",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "辛抱強く待ちます。",
+            "romaji": "Shinbouzuyoku machimasu.",
+            "german": "Ich warte geduldig."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "辛抱 ist geduldiges Ausharren in einer unangenehmen Lage über eine gewisse Zeit: 辛抱する, 辛抱強い „geduldig, ausdauernd“, もう少しの辛抱だ „nur noch ein bisschen durchhalten“. 我慢 ist häufiger und betont das Unterdrücken von Wünschen oder Schmerz im Moment; 忍耐 ist schriftlicher. 辛抱 klingt warm und ermutigend, oft gegenüber Kindern.",
+        "examples": [
+          {
+            "japanese": "辛抱強く待ちます。",
+            "romaji": "Shinbouzuyoku machimasu.",
+            "german": "Ich warte geduldig."
+          },
+          {
+            "japanese": "もう少しの辛抱だから、頑張って。",
+            "romaji": "Mou sukoshi no shinbou da kara, ganbatte.",
+            "german": "Halte durch, es dauert nur noch ein kleines bisschen."
+          },
+          {
+            "japanese": "痛いけど、少し辛抱してね。",
+            "romaji": "Itai kedo, sukoshi shinbou shite ne.",
+            "german": "Es tut ein bisschen weh, aber halt kurz durch, ja?"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143066248",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 辛抱/シンボウ; lemma 辛抱; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "辛抱",
+              "reading": "しんぼう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 辛抱/しんぼう \"Geduld, Ausdauer\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1365930 sense 1, noun / suru verb: patience, endurance, perseverance Pitch: Verified [1] via exact UniDic row. 辛抱 ist geduldiges Ausharren in einer unangenehmen Lage über eine gewisse Zeit: 辛抱する, 辛抱強い „geduldig, ausdauernd“, もう少しの辛抱だ „nur noch ein bisschen durchhalten“. 我慢 ist häufiger und betont das Unterdrücken von Wünschen oder Schmerz im Moment; 忍耐 ist schriftlicher. 辛抱 klingt warm und ermutigend, oft gegenüber Kindern. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1365930; spelling=辛抱; reading=しんぼう",
+          "selected": {
+            "sequence": "1365930",
+            "spelling": "辛抱",
+            "reading": "しんぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "patience",
+                  "endurance",
+                  "perseverance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1365930 sense 1, noun / suru verb: patience, endurance, perseverance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 辛抱/シンボウ; lemma 辛抱; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143066248",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 辛抱/シンボウ; lemma 辛抱; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "辛抱",
+              "reading": "しんぼう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 辛抱/しんぼう \"Geduld, Ausdauer\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geduld, Ausdauer. JMdict 1365930 sense 1, noun / suru verb: patience, endurance, perseverance",
+        "japanese": "辛抱強く待ちます。 / もう少しの辛抱だから、頑張って。 / 痛いけど、少し辛抱してね。",
+        "romanization": "shinbou; Shinbouzuyoku machimasu. / Mou sukoshi no shinbou da kara, ganbatte. / Itai kedo, sukoshi shinbou shite ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich warte geduldig. / Halte durch, es dauert nur noch ein kleines bisschen. / Es tut ein bisschen weh, aber halt kurz durch, ja?",
+        "contexts": [
+          "Waiting patiently",
+          "Encouraging someone",
+          "Doctor to a child"
+        ],
+        "lexical": "JMdict 1365930 sense 1, noun / suru verb: patience, endurance, perseverance",
+        "register": "neutral",
+        "transitivity": "intransitive as 辛抱する (also 〜を辛抱する)",
+        "conjugation": "noun; suru verb (辛抱する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:728 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Waiting patiently; Encouraging someone; Doctor to a child), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6d7d375d98e2cfb0a78a03beca6c2e85ddedac20248a50dee041f20244cf38e1",
+        "approvalHash": "1bdb1eb0088dd12d573ceaf1af5ca7903b067b6f72b90a76fb399a1077df59cd"
+      }
+    },
+    {
+      "id": "vocab-n3:729",
+      "revisionId": "178d-n3-enrichment-vocab-n3-729",
+      "state": "accepted",
+      "predecessorHash": "ea9f3900ae7bf9eeab4658e53efa62ca9c16fe6ecfd0e807e87da0c4200c94c9",
+      "originalHash": "ea9f3900ae7bf9eeab4658e53efa62ca9c16fe6ecfd0e807e87da0c4200c94c9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "根気が必要な仕事です。",
+            "romaji": "Konki ga hitsuyou na shigoto desu.",
+            "german": "Es ist eine Arbeit, die Ausdauer braucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "根気 ist die Ausdauer, eine mühsame oder langwierige Sache ruhig weiterzumachen: 根気がある／ない, 根気よく続ける, 根気強い, 根気のいる仕事. 辛抱 betont das Ertragen von Unangenehmem, 根性 eher Kampfgeist und Biss. 根気 passt besonders zu geduldiger Kleinarbeit wie Üben, Lernen oder Basteln.",
+        "examples": [
+          {
+            "japanese": "根気が必要な仕事です。",
+            "romaji": "Konki ga hitsuyou na shigoto desu.",
+            "german": "Es ist eine Arbeit, die Ausdauer braucht."
+          },
+          {
+            "japanese": "根気よく練習を続けたら、上手になった。",
+            "romaji": "Konki yoku renshuu o tsuzuketara, jouzu ni natta.",
+            "german": "Weil ich geduldig weitergeübt habe, bin ich gut geworden."
+          },
+          {
+            "japanese": "私は根気がないので、何をやっても続かない。",
+            "romaji": "Watashi wa konki ga nai node, nani o yatte mo tsuzukanai.",
+            "german": "Mir fehlt die Ausdauer, deshalb halte ich nichts lange durch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125835383",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 根気/コンキ; lemma 根気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "根気",
+              "reading": "こんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 根気/こんき \"Ausdauer, Beharrlichkeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1290110 sense 1, noun: patience, perseverance, persistence Pitch: Verified [0] via exact UniDic row. 根気 ist die Ausdauer, eine mühsame oder langwierige Sache ruhig weiterzumachen: 根気がある／ない, 根気よく続ける, 根気強い, 根気のいる仕事. 辛抱 betont das Ertragen von Unangenehmem, 根性 eher Kampfgeist und Biss. 根気 passt besonders zu geduldiger Kleinarbeit wie Üben, Lernen oder Basteln. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1290110; spelling=根気; reading=こんき",
+          "selected": {
+            "sequence": "1290110",
+            "spelling": "根気",
+            "reading": "こんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "patience",
+                  "perseverance",
+                  "persistence",
+                  "tenacity",
+                  "energy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1290110 sense 1, noun: patience, perseverance, persistence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 根気/コンキ; lemma 根気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125835383",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 根気/コンキ; lemma 根気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "根気",
+              "reading": "こんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 根気/こんき \"Ausdauer, Beharrlichkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ausdauer, Beharrlichkeit. JMdict 1290110 sense 1, noun: patience, perseverance, persistence",
+        "japanese": "根気が必要な仕事です。 / 根気よく練習を続けたら、上手になった。 / 私は根気がないので、何をやっても続かない。",
+        "romanization": "konki; Konki ga hitsuyou na shigoto desu. / Konki yoku renshuu o tsuzuketara, jouzu ni natta. / Watashi wa konki ga nai node, nani o yatte mo tsuzukanai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist eine Arbeit, die Ausdauer braucht. / Weil ich geduldig weitergeübt habe, bin ich gut geworden. / Mir fehlt die Ausdauer, deshalb halte ich nichts lange durch.",
+        "contexts": [
+          "Job description",
+          "Learning an instrument",
+          "Admitting a weakness"
+        ],
+        "lexical": "JMdict 1290110 sense 1, noun: patience, perseverance, persistence",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:729 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Job description; Learning an instrument; Admitting a weakness), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "38300d59f8ca2eb55bb8479033515fa019818e8756660734f0dd87cfb8eaea61",
+        "approvalHash": "baf9eee84c42142e8b34df047b3d10402142601108f0d1b29bb5f08157b1634d"
+      }
+    },
+    {
+      "id": "vocab-n3:730",
+      "revisionId": "178d-n3-enrichment-vocab-n3-730",
+      "state": "accepted",
+      "predecessorHash": "aaccf0aed597633b7fc4ac5798cad13d24b67cfd4425782cbb9b363c8b559891",
+      "originalHash": "aaccf0aed597633b7fc4ac5798cad13d24b67cfd4425782cbb9b363c8b559891",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "集中して勉強します。",
+            "romaji": "Shuuchuu shite benkyou shimasu.",
+            "german": "Ich lerne konzentriert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "集中 ist „Konzentration“ in zwei Sinnen. Geistig: 〜に集中する „sich auf etwas konzentrieren“, 集中して勉強する, 集中力 „Konzentrationsfähigkeit“. Räumlich: Menschen, Gebäude oder Macht ballen sich an einem Ort (人口が都市に集中する). Transitiv mit を: 意識を集中する. 集中豪雨 ist ein örtlich begrenzter Starkregen.",
+        "examples": [
+          {
+            "japanese": "集中して勉強します。",
+            "romaji": "Shuuchuu shite benkyou shimasu.",
+            "german": "Ich lerne konzentriert."
+          },
+          {
+            "japanese": "うるさくて、仕事に集中できない。",
+            "romaji": "Urusakute, shigoto ni shuuchuu dekinai.",
+            "german": "Es ist so laut, dass ich mich nicht auf die Arbeit konzentrieren kann."
+          },
+          {
+            "japanese": "日本では人口が東京に集中している。",
+            "romaji": "Nihon de wa jinkou ga Toukyou ni shuuchuu shite iru.",
+            "german": "In Japan ballt sich die Bevölkerung in Tokio."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139974392",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 集中/シュウチュウ; lemma 集中; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "集中",
+              "reading": "しゅうちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 集中/しゅうちゅう \"Konzentration\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1333750 senses 1-2, noun / suru verb: concentration (on a task); concentration, centralization (of population etc.) Pitch: Verified [0] via exact UniDic row. 集中 ist „Konzentration“ in zwei Sinnen. Geistig: 〜に集中する „sich auf etwas konzentrieren“, 集中して勉強する, 集中力 „Konzentrationsfähigkeit“. Räumlich: Menschen, Gebäude oder Macht ballen sich an einem Ort (人口が都市に集中する). Transitiv mit を: 意識を集中する. 集中豪雨 ist ein örtlich begrenzter Starkregen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1333750; spelling=集中; reading=しゅうちゅう",
+          "selected": {
+            "sequence": "1333750",
+            "spelling": "集中",
+            "reading": "しゅうちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "concentration (on a task)",
+                  "focusing one's attention"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "concentration (of population, buildings, power, etc.)",
+                  "centralization",
+                  "convergence",
+                  "focus (of a debate, questions, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "within a collection of works"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1333750 senses 1-2, noun / suru verb: concentration (on a task); concentration, centralization (of population etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 集中/シュウチュウ; lemma 集中; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139974392",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 集中/シュウチュウ; lemma 集中; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "集中",
+              "reading": "しゅうちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 集中/しゅうちゅう \"Konzentration\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Konzentration. JMdict 1333750 senses 1-2, noun / suru verb: concentration (on a task); concentration, centralization (of population etc.)",
+        "japanese": "集中して勉強します。 / うるさくて、仕事に集中できない。 / 日本では人口が東京に集中している。",
+        "romanization": "shuuchuu; Shuuchuu shite benkyou shimasu. / Urusakute, shigoto ni shuuchuu dekinai. / Nihon de wa jinkou ga Toukyou ni shuuchuu shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lerne konzentriert. / Es ist so laut, dass ich mich nicht auf die Arbeit konzentrieren kann. / In Japan ballt sich die Bevölkerung in Tokio.",
+        "contexts": [
+          "Exam preparation",
+          "Noisy office",
+          "Population geography"
+        ],
+        "lexical": "JMdict 1333750 senses 1-2, noun / suru verb: concentration (on a task); concentration, centralization (of population etc.)",
+        "register": "neutral",
+        "transitivity": "intransitive (〜に集中する); transitive (意識を集中する)",
+        "conjugation": "noun; suru verb (集中する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:730 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Exam preparation; Noisy office; Population geography), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ffee0191bd59c14f487a9cc3bb580972e4fde0476e461dab630b30c8aacf4ac8",
+        "approvalHash": "fe2f8e04fb2898908b5c97332c6ac8dc869e86fb1fa5cf452b2abf4e651e6079"
+      }
+    },
+    {
+      "id": "vocab-n3:731",
+      "revisionId": "178d-n3-enrichment-vocab-n3-731",
+      "state": "accepted",
+      "predecessorHash": "b584fe0da34b532a7d1291ed851269c4e03978f195e5eb11804acf456a54138c",
+      "originalHash": "b584fe0da34b532a7d1291ed851269c4e03978f195e5eb11804acf456a54138c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "油断しないでください。",
+            "romaji": "Yudan shinaide kudasai.",
+            "german": "Bitte seien Sie nicht unachtsam."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "油断 bedeutet, in der Wachsamkeit nachzulassen, weil man sich zu sicher fühlt: 油断する, ちょっと油断したら…, 油断は禁物 „man darf nicht leichtsinnig werden“. Das Sprichwort 油断大敵 heißt „Unachtsamkeit ist der größte Feind“. 不注意 betont dagegen einen konkreten Flüchtigkeitsfehler; 油断 ist eher eine Haltung der Sorglosigkeit.",
+        "examples": [
+          {
+            "japanese": "油断しないでください。",
+            "romaji": "Yudan shinaide kudasai.",
+            "german": "Bitte bleiben Sie wachsam."
+          },
+          {
+            "japanese": "ちょっと油断したら、財布を盗まれた。",
+            "romaji": "Chotto yudan shitara, saifu o nusumareta.",
+            "german": "Ich habe nur kurz nicht aufgepasst, schon war mein Portemonnaie gestohlen."
+          },
+          {
+            "japanese": "相手が弱くても油断は禁物だ。",
+            "romaji": "Aite ga yowakute mo yudan wa kinmotsu da.",
+            "german": "Auch wenn der Gegner schwach ist, darf man ihn nicht unterschätzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@271661259",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 油断/ユダン; lemma 油断; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "油断",
+              "reading": "ゆだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 油断/ゆだん \"Unachtsamkeit, Nachlässigkeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1538690 sense 1, noun / suru verb: negligence, carelessness, inattention, unpreparedness Pitch: Verified [0] via exact UniDic row. 油断 bedeutet, in der Wachsamkeit nachzulassen, weil man sich zu sicher fühlt: 油断する, ちょっと油断したら…, 油断は禁物 „man darf nicht leichtsinnig werden“. Das Sprichwort 油断大敵 heißt „Unachtsamkeit ist der größte Feind“. 不注意 betont dagegen einen konkreten Flüchtigkeitsfehler; 油断 ist eher eine Haltung der Sorglosigkeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1538690; spelling=油断; reading=ゆだん",
+          "selected": {
+            "sequence": "1538690",
+            "spelling": "油断",
+            "reading": "ゆだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "negligence",
+                  "carelessness",
+                  "inattention",
+                  "unpreparedness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1538690 sense 1, noun / suru verb: negligence, carelessness, inattention, unpreparedness"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 油断/ユダン; lemma 油断; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@271661259",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 油断/ユダン; lemma 油断; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "油断",
+              "reading": "ゆだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 油断/ゆだん \"Unachtsamkeit, Nachlässigkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unachtsamkeit, Nachlässigkeit. JMdict 1538690 sense 1, noun / suru verb: negligence, carelessness, inattention, unpreparedness",
+        "japanese": "油断しないでください。 / ちょっと油断したら、財布を盗まれた。 / 相手が弱くても油断は禁物だ。",
+        "romanization": "yudan; Yudan shinaide kudasai. / Chotto yudan shitara, saifu o nusumareta. / Aite ga yowakute mo yudan wa kinmotsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte bleiben Sie wachsam. / Ich habe nur kurz nicht aufgepasst, schon war mein Portemonnaie gestohlen. / Auch wenn der Gegner schwach ist, darf man ihn nicht unterschätzen.",
+        "contexts": [
+          "Safety reminder",
+          "Pickpocket incident",
+          "Coach before a match"
+        ],
+        "lexical": "JMdict 1538690 sense 1, noun / suru verb: negligence, carelessness, inattention, unpreparedness",
+        "register": "neutral",
+        "transitivity": "intransitive as 油断する",
+        "conjugation": "noun; suru verb (油断する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:731 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Safety reminder; Pickpocket incident; Coach before a match), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9f25993d56621514bac26a52a19f6d8b11c6e59cc08c8446f52c483ee9599f5b",
+        "approvalHash": "0d511d9c8326d2c7883a39d4b271fcef9fe070651bc1da93aa422675afa5b87a"
+      }
+    },
+    {
+      "id": "vocab-n3:732",
+      "revisionId": "178d-n3-enrichment-vocab-n3-732",
+      "state": "accepted",
+      "predecessorHash": "7a4a019684c40100100b5850e99285bfe77682b7f59e09a7189001ec75d64117",
+      "originalHash": "7a4a019684c40100100b5850e99285bfe77682b7f59e09a7189001ec75d64117",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "覚悟を決めました。",
+            "romaji": "Kakugo o kimemashita.",
+            "german": "Ich habe mich entschlossen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "覚悟 ist die innere Bereitschaft, etwas Schweres oder Negatives auf sich zu nehmen: 覚悟を決める „sich innerlich darauf einstellen“, 覚悟はできている, 〜は覚悟している „auf etwas gefasst sein“, 〜覚悟で „auf die Gefahr hin“. 決心 und 決意 meinen eher den Entschluss, etwas zu tun; 覚悟 betont das Hinnehmen möglicher Folgen.",
+        "examples": [
+          {
+            "japanese": "覚悟を決めました。",
+            "romaji": "Kakugo o kimemashita.",
+            "german": "Ich habe mich innerlich darauf eingestellt."
+          },
+          {
+            "japanese": "失敗する覚悟で挑戦してみる。",
+            "romaji": "Shippai suru kakugo de chousen shite miru.",
+            "german": "Ich versuche es, auch auf die Gefahr hin zu scheitern."
+          },
+          {
+            "japanese": "留学するなら、苦労は覚悟しておいたほうがいい。",
+            "romaji": "Ryuugaku suru nara, kurou wa kakugo shite oita hou ga ii.",
+            "german": "Wenn du im Ausland studierst, solltest du dich auf Schwierigkeiten gefasst machen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90497420",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 覚悟/カクゴ; lemma 覚悟; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+            "match": {
+              "word": "覚悟",
+              "reading": "かくご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 覚悟/かくご \"Entschlossenheit, Bereitschaft\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1206080 senses 1-3, noun / suru verb: readiness, preparedness; resolution; resignation Pitch: Verified [1,2] via exact UniDic row. 覚悟 ist die innere Bereitschaft, etwas Schweres oder Negatives auf sich zu nehmen: 覚悟を決める „sich innerlich darauf einstellen“, 覚悟はできている, 〜は覚悟している „auf etwas gefasst sein“, 〜覚悟で „auf die Gefahr hin“. 決心 und 決意 meinen eher den Entschluss, etwas zu tun; 覚悟 betont das Hinnehmen möglicher Folgen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1206080; spelling=覚悟; reading=かくご",
+          "selected": {
+            "sequence": "1206080",
+            "spelling": "覚悟",
+            "reading": "かくご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "readiness",
+                  "(mental) preparedness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resolution",
+                  "determination"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resignation (to one's fate)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1206080 senses 1-3, noun / suru verb: readiness, preparedness; resolution; resignation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row. Exact whole 覚悟/カクゴ; lemma 覚悟; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90497420",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 覚悟/カクゴ; lemma 覚悟; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+            "match": {
+              "word": "覚悟",
+              "reading": "かくご",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 覚悟/かくご \"Entschlossenheit, Bereitschaft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entschlossenheit, Bereitschaft. JMdict 1206080 senses 1-3, noun / suru verb: readiness, preparedness; resolution; resignation",
+        "japanese": "覚悟を決めました。 / 失敗する覚悟で挑戦してみる。 / 留学するなら、苦労は覚悟しておいたほうがいい。",
+        "romanization": "kakugo; Kakugo o kimemashita. / Shippai suru kakugo de chousen shite miru. / Ryuugaku suru nara, kurou wa kakugo shite oita hou ga ii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe mich innerlich darauf eingestellt. / Ich versuche es, auch auf die Gefahr hin zu scheitern. / Wenn du im Ausland studierst, solltest du dich auf Schwierigkeiten gefasst machen.",
+        "contexts": [
+          "Facing a tough decision",
+          "Taking a risk",
+          "Advice before studying abroad"
+        ],
+        "lexical": "JMdict 1206080 senses 1-3, noun / suru verb: readiness, preparedness; resolution; resignation",
+        "register": "neutral",
+        "transitivity": "transitive (〜を覚悟する)",
+        "conjugation": "noun; suru verb (覚悟する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:732 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Facing a tough decision; Taking a risk; Advice before studying abroad), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4e1c977eb5bf19bf2ace421165b8ba732ad401f10ed017200efabfc6b2a0fe0a",
+        "approvalHash": "aeec37c429963667ff724c0c7eca699e9e25c709ba47d97d5654aa685daad0a4"
+      }
+    },
+    {
+      "id": "vocab-n3:733",
+      "revisionId": "178d-n3-enrichment-vocab-n3-733",
+      "state": "accepted",
+      "predecessorHash": "0013d841dc70283a12c2ca9d0c97916e107d31728a3a1cf05e9794aba6156481",
+      "originalHash": "0013d841dc70283a12c2ca9d0c97916e107d31728a3a1cf05e9794aba6156481",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい挑戦に挑みます。",
+            "romaji": "Atarashii chousen ni idomimasu.",
+            "german": "Ich stelle mich einer neuen Herausforderung."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "挑む heißt „sich an etwas Schwieriges wagen“ oder „jemanden herausfordern“. Mit einer Aufgabe steht に: 記録に挑む, 冬山に挑む, 難問に挑む. Bei einer Person steht der Gegner mit に und der Kampf mit を: 相手に勝負を挑む. Das Wort klingt gehoben und kommt oft in Nachrichten und Sportberichten vor; im Alltag sagt man meist 挑戦する. 挑戦に挑む ist doppelt gemoppelt.",
+        "examples": [
+          {
+            "japanese": "彼は世界記録に挑んだ。",
+            "romaji": "Kare wa sekai kiroku ni idonda.",
+            "german": "Er versuchte sich am Weltrekord."
+          },
+          {
+            "japanese": "若い選手がチャンピオンに勝負を挑んだ。",
+            "romaji": "Wakai senshu ga chanpion ni shoubu o idonda.",
+            "german": "Ein junger Sportler forderte den Champion heraus."
+          },
+          {
+            "japanese": "冬の富士山に挑むのは危険だ。",
+            "romaji": "Fuyu no Fujisan ni idomu no wa kiken da.",
+            "german": "Sich im Winter an den Fuji zu wagen ist gefährlich."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56776795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "挑む",
+              "reading": "いどむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 挑む/いどむ \"herausfordern, sich stellen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1428230 senses 1-2, godan verb: to challenge (someone) to; to tackle, to attempt Pitch: Verified [2] via exact UniDic row. 挑む heißt „sich an etwas Schwieriges wagen“ oder „jemanden herausfordern“. Mit einer Aufgabe steht に: 記録に挑む, 冬山に挑む, 難問に挑む. Bei einer Person steht der Gegner mit に und der Kampf mit を: 相手に勝負を挑む. Das Wort klingt gehoben und kommt oft in Nachrichten und Sportberichten vor; im Alltag sagt man meist 挑戦する. 挑戦に挑む ist doppelt gemoppelt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1428230; spelling=挑む; reading=いどむ",
+          "selected": {
+            "sequence": "1428230",
+            "spelling": "挑む",
+            "reading": "いどむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to challenge to (a fight, game, etc.)",
+                  "to throw down the gauntlet",
+                  "to contend for"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to tackle (e.g. a problem)",
+                  "to attempt",
+                  "to go after (a prize, record, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pressure (someone) for sex",
+                  "to make advances to"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1428230 senses 1-2, godan verb: to challenge (someone) to; to tackle, to attempt"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56776795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 挑む/イドム; lemma 挑む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "挑む",
+              "reading": "いどむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 挑む/いどむ \"herausfordern, sich stellen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "herausfordern, sich stellen. JMdict 1428230 senses 1-2, godan verb: to challenge (someone) to; to tackle, to attempt",
+        "japanese": "彼は世界記録に挑んだ。 / 若い選手がチャンピオンに勝負を挑んだ。 / 冬の富士山に挑むのは危険だ。",
+        "romanization": "idomu; Kare wa sekai kiroku ni idonda. / Wakai senshu ga chanpion ni shoubu o idonda. / Fuyu no Fujisan ni idomu no wa kiken da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er versuchte sich am Weltrekord. / Ein junger Sportler forderte den Champion heraus. / Sich im Winter an den Fuji zu wagen ist gefährlich.",
+        "contexts": [
+          "Sports record attempt",
+          "Challenging a champion",
+          "Winter mountaineering"
+        ],
+        "lexical": "JMdict 1428230 senses 1-2, godan verb: to challenge (someone) to; to tackle, to attempt",
+        "register": "written / formal (news, sports)",
+        "transitivity": "transitive (相手に勝負を挑む); intransitive use with に (記録に挑む)",
+        "conjugation": "godan -mu (挑む → 挑んで, 挑まない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:733 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sports record attempt; Challenging a champion; Winter mountaineering), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d1fb170756bb21919cb07d16abd66abf06d0080d0de24e4843c324fbd76f7b5a",
+        "approvalHash": "7872f2d37b845b785572fc576b52239981df46308e01838b8ca1af4be0d25c07"
+      }
+    },
+    {
+      "id": "vocab-n3:734",
+      "revisionId": "178d-n3-enrichment-vocab-n3-734",
+      "state": "accepted",
+      "predecessorHash": "146e9f05f1228aa8ffda48c65b2f1af14281074f15754c63a688f031f8613d7f",
+      "originalHash": "146e9f05f1228aa8ffda48c65b2f1af14281074f15754c63a688f031f8613d7f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "挑戦し続けます。",
+            "romaji": "Chousen shitsuzukemasu.",
+            "german": "Ich stelle mich weiter Herausforderungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "挑戦 ist das Wagen eines schwierigen Versuchs: 〜に挑戦する „sich an etwas versuchen, etwas in Angriff nehmen“. Im Japanischen wird es viel breiter verwendet als das deutsche „Herausforderung“, etwa schon für ein neues Rezept oder eine neue Sportart. Das Lehnwort チャレンジ ist ein häufiges Synonym. Personen: 挑戦者 „Herausforderer“. Das Verb 挑む ist schriftlicher.",
+        "examples": [
+          {
+            "japanese": "挑戦し続けます。",
+            "romaji": "Chousen shitsuzukemasu.",
+            "german": "Ich stelle mich weiter Herausforderungen."
+          },
+          {
+            "japanese": "来年、フルマラソンに挑戦するつもりです。",
+            "romaji": "Rainen, furu marason ni chousen suru tsumori desu.",
+            "german": "Nächstes Jahr will ich mich an einem Marathon versuchen."
+          },
+          {
+            "japanese": "週末、初めてケーキ作りに挑戦してみた。",
+            "romaji": "Shuumatsu, hajimete keeki-zukuri ni chousen shite mita.",
+            "german": "Am Wochenende habe ich mich zum ersten Mal ans Kuchenbacken gewagt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170242446",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 挑戦/チョウセン; lemma 挑戦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "挑戦",
+              "reading": "ちょうせん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 挑戦/ちょうせん \"Herausforderung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1428240 sense 1, noun / suru verb: challenge, attempt, try Pitch: Verified [0] via exact UniDic row. 挑戦 ist das Wagen eines schwierigen Versuchs: 〜に挑戦する „sich an etwas versuchen, etwas in Angriff nehmen“. Im Japanischen wird es viel breiter verwendet als das deutsche „Herausforderung“, etwa schon für ein neues Rezept oder eine neue Sportart. Das Lehnwort チャレンジ ist ein häufiges Synonym. Personen: 挑戦者 „Herausforderer“. Das Verb 挑む ist schriftlicher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1428240; spelling=挑戦; reading=ちょうせん",
+          "selected": {
+            "sequence": "1428240",
+            "spelling": "挑戦",
+            "reading": "ちょうせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "challenge",
+                  "defiance",
+                  "dare",
+                  "attempt",
+                  "try"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1428240 sense 1, noun / suru verb: challenge, attempt, try"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 挑戦/チョウセン; lemma 挑戦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170242446",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 挑戦/チョウセン; lemma 挑戦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "挑戦",
+              "reading": "ちょうせん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 挑戦/ちょうせん \"Herausforderung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Herausforderung. JMdict 1428240 sense 1, noun / suru verb: challenge, attempt, try",
+        "japanese": "挑戦し続けます。 / 来年、フルマラソンに挑戦するつもりです。 / 週末、初めてケーキ作りに挑戦してみた。",
+        "romanization": "chousen; Chousen shitsuzukemasu. / Rainen, furu marason ni chousen suru tsumori desu. / Shuumatsu, hajimete keeki-zukuri ni chousen shite mita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich stelle mich weiter Herausforderungen. / Nächstes Jahr will ich mich an einem Marathon versuchen. / Am Wochenende habe ich mich zum ersten Mal ans Kuchenbacken gewagt.",
+        "contexts": [
+          "Personal motto",
+          "Sports goal",
+          "Trying a new hobby"
+        ],
+        "lexical": "JMdict 1428240 sense 1, noun / suru verb: challenge, attempt, try",
+        "register": "neutral",
+        "transitivity": "intransitive as 挑戦する (〜に挑戦する)",
+        "conjugation": "noun; suru verb (挑戦する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:734 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Personal motto; Sports goal; Trying a new hobby), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5eb15931e8a18487fb31c90898ba78322283504812a1c78cb927292768495fb8",
+        "approvalHash": "5027204501943133612b35a735733d497318370b1bb9b90389d863a6bd848f9f"
+      }
+    },
+    {
+      "id": "vocab-n3:735",
+      "revisionId": "178d-n3-enrichment-vocab-n3-735",
+      "state": "accepted",
+      "predecessorHash": "27be5506257b05a88512f65b5f769a88d328fa2878dbd439af2d0efa7fd3a963",
+      "originalHash": "27be5506257b05a88512f65b5f769a88d328fa2878dbd439af2d0efa7fd3a963",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "困難を克服しました。",
+            "romaji": "Konnan o kokufuku shimashita.",
+            "german": "Ich habe die Schwierigkeiten überwunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "克服 ist das Überwinden einer Schwierigkeit oder Schwäche: 困難を克服する, 病気を克服する, 苦手を克服する. Es ist ein transitives する-Verb mit を und klingt etwas formeller als das gleichbedeutende 乗り越える. Typisch für Berichte über Krankheit, Krisen, Ängste und schulische Schwächen.",
+        "examples": [
+          {
+            "japanese": "困難を克服しました。",
+            "romaji": "Konnan o kokufuku shimashita.",
+            "german": "Ich habe die Schwierigkeiten überwunden."
+          },
+          {
+            "japanese": "彼女は病気を克服して、仕事に戻った。",
+            "romaji": "Kanojo wa byouki o kokufuku shite, shigoto ni modotta.",
+            "german": "Sie hat ihre Krankheit besiegt und ist an die Arbeit zurückgekehrt."
+          },
+          {
+            "japanese": "苦手な数学を克服するために、毎日練習している。",
+            "romaji": "Nigate na suugaku o kokufuku suru tame ni, mainichi renshuu shite iru.",
+            "german": "Um meine Schwäche in Mathe loszuwerden, übe ich jeden Tag."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121473164",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 克服/コクフク; lemma 克服; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "克服",
+              "reading": "こくふく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 克服/こくふく \"Überwindung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1285790 sense 1, noun / suru verb: overcoming, conquest (of a difficulty, illness, etc.) Pitch: Verified [0] via exact UniDic row. 克服 ist das Überwinden einer Schwierigkeit oder Schwäche: 困難を克服する, 病気を克服する, 苦手を克服する. Es ist ein transitives する-Verb mit を und klingt etwas formeller als das gleichbedeutende 乗り越える. Typisch für Berichte über Krankheit, Krisen, Ängste und schulische Schwächen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1285790; spelling=克服; reading=こくふく",
+          "selected": {
+            "sequence": "1285790",
+            "spelling": "克服",
+            "reading": "こくふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conquest (of a difficulty, illness, crisis, etc.)",
+                  "overcoming",
+                  "surmounting",
+                  "bringing under control"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1285790 sense 1, noun / suru verb: overcoming, conquest (of a difficulty, illness, etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 克服/コクフク; lemma 克服; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121473164",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 克服/コクフク; lemma 克服; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "克服",
+              "reading": "こくふく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 克服/こくふく \"Überwindung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Überwindung. JMdict 1285790 sense 1, noun / suru verb: overcoming, conquest (of a difficulty, illness, etc.)",
+        "japanese": "困難を克服しました。 / 彼女は病気を克服して、仕事に戻った。 / 苦手な数学を克服するために、毎日練習している。",
+        "romanization": "kokufuku; Konnan o kokufuku shimashita. / Kanojo wa byouki o kokufuku shite, shigoto ni modotta. / Nigate na suugaku o kokufuku suru tame ni, mainichi renshuu shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe die Schwierigkeiten überwunden. / Sie hat ihre Krankheit besiegt und ist an die Arbeit zurückgekehrt. / Um meine Schwäche in Mathe loszuwerden, übe ich jeden Tag.",
+        "contexts": [
+          "Looking back on hard times",
+          "Recovery from illness",
+          "Improving at school"
+        ],
+        "lexical": "JMdict 1285790 sense 1, noun / suru verb: overcoming, conquest (of a difficulty, illness, etc.)",
+        "register": "neutral, slightly formal",
+        "transitivity": "transitive (〜を克服する)",
+        "conjugation": "noun; suru verb (克服する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:735 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Looking back on hard times; Recovery from illness; Improving at school), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6c0e4eecb6912076f468de44b7d793e88fd9fd5e3aa28ca03a0b1862de23fa28",
+        "approvalHash": "de4d0b9e52434618380249f73a62112143cac4c837669615b685f292a8948099"
+      }
+    },
+    {
+      "id": "vocab-n3:736",
+      "revisionId": "178d-n3-enrichment-vocab-n3-736",
+      "state": "accepted",
+      "predecessorHash": "bb303946b370fbae9cf9acda3511b7be19a5bdbda7162a6f649ffb09d68eab94",
+      "originalHash": "bb303946b370fbae9cf9acda3511b7be19a5bdbda7162a6f649ffb09d68eab94",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "目標を達成しました。",
+            "romaji": "Mokuhyou o tassei shimashita.",
+            "german": "Ich habe das Ziel erreicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "達成 heißt „Erreichen, Erfüllen“ eines Ziels oder einer Vorgabe: 目標を達成する, 記録を達成する, ノルマを達成する. Für das Ankommen an einem Ort nimmt man dagegen 着く oder 到着する. Häufig ist 達成感 „Erfolgsgefühl, Gefühl, etwas geschafft zu haben“. 実現 meint eher „verwirklichen“ (Traum, Plan).",
+        "examples": [
+          {
+            "japanese": "目標を達成しました。",
+            "romaji": "Mokuhyou o tassei shimashita.",
+            "german": "Ich habe das Ziel erreicht."
+          },
+          {
+            "japanese": "山の頂上に着いたとき、大きな達成感を味わった。",
+            "romaji": "Yama no choujou ni tsuita toki, ookina tasseikan o ajiwatta.",
+            "german": "Als ich den Gipfel erreichte, spürte ich ein großes Erfolgsgefühl."
+          },
+          {
+            "japanese": "ノルマを達成するまで帰れない。",
+            "romaji": "Noruma o tassei suru made kaerenai.",
+            "german": "Ich kann erst nach Hause, wenn ich mein Soll erfüllt habe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163680694",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 達成/タッセイ; lemma 達成; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "達成",
+              "reading": "たっせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 達成/たっせい \"Erreichung, Verwirklichung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1416260 sense 1, noun / suru verb: achievement, attainment, accomplishment Pitch: Verified [0] via exact UniDic row. 達成 heißt „Erreichen, Erfüllen“ eines Ziels oder einer Vorgabe: 目標を達成する, 記録を達成する, ノルマを達成する. Für das Ankommen an einem Ort nimmt man dagegen 着く oder 到着する. Häufig ist 達成感 „Erfolgsgefühl, Gefühl, etwas geschafft zu haben“. 実現 meint eher „verwirklichen“ (Traum, Plan). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1416260; spelling=達成; reading=たっせい",
+          "selected": {
+            "sequence": "1416260",
+            "spelling": "達成",
+            "reading": "たっせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "achievement",
+                  "attainment",
+                  "accomplishment",
+                  "realization"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1416260 sense 1, noun / suru verb: achievement, attainment, accomplishment"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 達成/タッセイ; lemma 達成; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@163680694",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 達成/タッセイ; lemma 達成; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "達成",
+              "reading": "たっせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 達成/たっせい \"Erreichung, Verwirklichung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Erreichung, Verwirklichung. JMdict 1416260 sense 1, noun / suru verb: achievement, attainment, accomplishment",
+        "japanese": "目標を達成しました。 / 山の頂上に着いたとき、大きな達成感を味わった。 / ノルマを達成するまで帰れない。",
+        "romanization": "tassei; Mokuhyou o tassei shimashita. / Yama no choujou ni tsuita toki, ookina tasseikan o ajiwatta. / Noruma o tassei suru made kaerenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe das Ziel erreicht. / Als ich den Gipfel erreichte, spürte ich ein großes Erfolgsgefühl. / Ich kann erst nach Hause, wenn ich mein Soll erfüllt habe.",
+        "contexts": [
+          "Reporting success",
+          "Reaching a summit",
+          "Sales quota pressure"
+        ],
+        "lexical": "JMdict 1416260 sense 1, noun / suru verb: achievement, attainment, accomplishment",
+        "register": "neutral",
+        "transitivity": "transitive (〜を達成する)",
+        "conjugation": "noun; suru verb (達成する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:736 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reporting success; Reaching a summit; Sales quota pressure), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e30108cc8bfbd427a5cc8653cc6c068f5330826eb3c68dd30aada53369c1104d",
+        "approvalHash": "9a36bbe1f9bbc846ff2fff8bc1e6dcb1e441b67b5a3d24e5cbe1c414a1bd3a7e"
+      }
+    },
+    {
+      "id": "vocab-n3:737",
+      "revisionId": "178d-n3-enrichment-vocab-n3-737",
+      "state": "accepted",
+      "predecessorHash": "ed2ad091710489c46fa890f275b47f6d2018b9dee4489ee3c6ef3d93e4bd17b2",
+      "originalHash": "ed2ad091710489c46fa890f275b47f6d2018b9dee4489ee3c6ef3d93e4bd17b2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大きな功績を残しました。",
+            "romaji": "Ookina kouseki o nokoshimashita.",
+            "german": "Er hat große Verdienste hinterlassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "功績 ist ein anerkannter, bedeutender Verdienst für eine Gemeinschaft oder ein Fachgebiet: 功績を残す, 功績を上げる, 功績が認められる, 功績をたたえる. Es ist förmlich und steht oft in Reden, Nachrufen und Preisbegründungen. 業績 meint eher messbare Ergebnisse (Firmenergebnisse, wissenschaftliche Leistungen), 手柄 ist umgangssprachlich „Verdienst, Lorbeeren“.",
+        "examples": [
+          {
+            "japanese": "大きな功績を残しました。",
+            "romaji": "Ookina kouseki o nokoshimashita.",
+            "german": "Er hat sich große Verdienste erworben."
+          },
+          {
+            "japanese": "彼は環境保護の功績が認められて、賞を受けた。",
+            "romaji": "Kare wa kankyou hogo no kouseki ga mitomerarete, shou o uketa.",
+            "german": "Für seine Verdienste um den Umweltschutz wurde er ausgezeichnet."
+          },
+          {
+            "japanese": "このプロジェクトの成功は、チーム全員の功績です。",
+            "romaji": "Kono purojekuto no seikou wa, chiimu zen'in no kouseki desu.",
+            "german": "Der Erfolg dieses Projekts ist das Verdienst des ganzen Teams."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120291468",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 功績/コウセキ; lemma 功績; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "功績",
+              "reading": "こうせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 功績/こうせき \"Verdienst, Leistung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1275070 sense 1, noun: achievement, meritorious deed, distinguished service, contribution Pitch: Verified [0] via exact UniDic row. 功績 ist ein anerkannter, bedeutender Verdienst für eine Gemeinschaft oder ein Fachgebiet: 功績を残す, 功績を上げる, 功績が認められる, 功績をたたえる. Es ist förmlich und steht oft in Reden, Nachrufen und Preisbegründungen. 業績 meint eher messbare Ergebnisse (Firmenergebnisse, wissenschaftliche Leistungen), 手柄 ist umgangssprachlich „Verdienst, Lorbeeren“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1275070; spelling=功績; reading=こうせき",
+          "selected": {
+            "sequence": "1275070",
+            "spelling": "功績",
+            "reading": "こうせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "achievement",
+                  "meritorious deed",
+                  "distinguished service",
+                  "contribution"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1275070 sense 1, noun: achievement, meritorious deed, distinguished service, contribution"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 功績/コウセキ; lemma 功績; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120291468",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 功績/コウセキ; lemma 功績; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "功績",
+              "reading": "こうせき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 功績/こうせき \"Verdienst, Leistung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verdienst, Leistung. JMdict 1275070 sense 1, noun: achievement, meritorious deed, distinguished service, contribution",
+        "japanese": "大きな功績を残しました。 / 彼は環境保護の功績が認められて、賞を受けた。 / このプロジェクトの成功は、チーム全員の功績です。",
+        "romanization": "kouseki; Ookina kouseki o nokoshimashita. / Kare wa kankyou hogo no kouseki ga mitomerarete, shou o uketa. / Kono purojekuto no seikou wa, chiimu zen'in no kouseki desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er hat sich große Verdienste erworben. / Für seine Verdienste um den Umweltschutz wurde er ausgezeichnet. / Der Erfolg dieses Projekts ist das Verdienst des ganzen Teams.",
+        "contexts": [
+          "Obituary or retirement speech",
+          "Award ceremony",
+          "Praising a team"
+        ],
+        "lexical": "JMdict 1275070 sense 1, noun: achievement, meritorious deed, distinguished service, contribution",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:737 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Obituary or retirement speech; Award ceremony; Praising a team), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "45b60200cf11d933a3bb52c65961bb6f2714d1a0bf0a97321c1e9d2ba7de7bd8",
+        "approvalHash": "8582e0330e9fa0fe6a3e77472fa8e75a803a959efd2783d4acfc76a8ee716c4c"
+      }
+    },
+    {
+      "id": "vocab-n3:738",
+      "revisionId": "178d-n3-enrichment-vocab-n3-738",
+      "state": "accepted",
+      "predecessorHash": "4a8d248d612956875ed9b0eeac6fb4f3b3cd81fa5efd38ddb66ad633f345ef3e",
+      "originalHash": "4a8d248d612956875ed9b0eeac6fb4f3b3cd81fa5efd38ddb66ad633f345ef3e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "名誉ある賞です。",
+            "romaji": "Meiyo aru shou desu.",
+            "german": "Es ist ein ehrenvoller Preis."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "名誉 bedeutet „Ehre“ im Sinn von Auszeichnung (名誉ある賞, 名誉に思う) und „guter Ruf“ (名誉を傷つける, 名誉を回復する). Als Präfix heißt es „Ehren-“: 名誉教授, 名誉市民. Für die bescheidene Dankesformel „Es ist mir eine Ehre“ sagt man meist 光栄です. 名誉 kann auch als na-Adjektiv stehen: 名誉なこと.",
+        "examples": [
+          {
+            "japanese": "名誉ある賞です。",
+            "romaji": "Meiyo aru shou desu.",
+            "german": "Es ist ein ehrenvoller Preis."
+          },
+          {
+            "japanese": "代表に選ばれて、とても名誉に思います。",
+            "romaji": "Daihyou ni erabarete, totemo meiyo ni omoimasu.",
+            "german": "Ich fühle mich sehr geehrt, als Vertreter ausgewählt worden zu sein."
+          },
+          {
+            "japanese": "嘘の記事で名誉を傷つけられた。",
+            "romaji": "Uso no kiji de meiyo o kizutsukerareta.",
+            "german": "Durch einen erlogenen Artikel wurde mein Ruf geschädigt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260186116",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 名誉/メイヨ; lemma 名誉; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "名誉",
+              "reading": "めいよ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 名誉/めいよ \"Ehre, Ruhm\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1531870 senses 1-3, noun / na-adjective / prefix: honour, glory; reputation, good name; honorary Pitch: Verified [1] via exact UniDic row. 名誉 bedeutet „Ehre“ im Sinn von Auszeichnung (名誉ある賞, 名誉に思う) und „guter Ruf“ (名誉を傷つける, 名誉を回復する). Als Präfix heißt es „Ehren-“: 名誉教授, 名誉市民. Für die bescheidene Dankesformel „Es ist mir eine Ehre“ sagt man meist 光栄です. 名誉 kann auch als na-Adjektiv stehen: 名誉なこと. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1531870; spelling=名誉; reading=めいよ",
+          "selected": {
+            "sequence": "1531870",
+            "spelling": "名誉",
+            "reading": "めいよ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honor",
+                  "honour",
+                  "credit",
+                  "glory",
+                  "fame",
+                  "distinction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prestige",
+                  "dignity",
+                  "reputation",
+                  "honor",
+                  "good name"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun, used as a prefix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "honorary (e.g. president, doctorate)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1531870 senses 1-3, noun / na-adjective / prefix: honour, glory; reputation, good name; honorary"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 名誉/メイヨ; lemma 名誉; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260186116",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 名誉/メイヨ; lemma 名誉; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "名誉",
+              "reading": "めいよ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 名誉/めいよ \"Ehre, Ruhm\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ehre, Ruhm. JMdict 1531870 senses 1-3, noun / na-adjective / prefix: honour, glory; reputation, good name; honorary",
+        "japanese": "名誉ある賞です。 / 代表に選ばれて、とても名誉に思います。 / 嘘の記事で名誉を傷つけられた。",
+        "romanization": "meiyo; Meiyo aru shou desu. / Daihyou ni erabarete, totemo meiyo ni omoimasu. / Uso no kiji de meiyo o kizutsukerareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist ein ehrenvoller Preis. / Ich fühle mich sehr geehrt, als Vertreter ausgewählt worden zu sein. / Durch einen erlogenen Artikel wurde mein Ruf geschädigt.",
+        "contexts": [
+          "Describing an award",
+          "Being chosen as representative",
+          "Defamation"
+        ],
+        "lexical": "JMdict 1531870 senses 1-3, noun / na-adjective / prefix: honour, glory; reputation, good name; honorary",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:738 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing an award; Being chosen as representative; Defamation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9b2599a54ff55bf4c5367447587c57f9735f011d5bf849c95acc16174f64838e",
+        "approvalHash": "1353abad511ff50cb07b4d8219b5c18ab0b71e1bf7070e355105fafde5578bc7"
+      }
+    },
+    {
+      "id": "vocab-n3:739",
+      "revisionId": "178d-n3-enrichment-vocab-n3-739",
+      "state": "accepted",
+      "predecessorHash": "b09e989d5864dd58d6a0850d5a22bd80ee2fa77b3736310ac260c44f445ff6d1",
+      "originalHash": "b09e989d5864dd58d6a0850d5a22bd80ee2fa77b3736310ac260c44f445ff6d1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本文化に誇りを持っています。",
+            "romaji": "Nihon bunka ni hokori o motte imasu.",
+            "german": "Ich bin stolz auf die japanische Kultur."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "誇り ist ein positiver Stolz auf etwas Wertvolles: 〜に誇りを持つ, 〜を誇りに思う, 誇りを傷つける. Das Verb ist 誇る, das Adjektiv 誇らしい „stolz (machend)“. プライド wird oft für empfindlichen Stolz oder Ego verwendet (プライドが高い). Achtung: ほこり in Kana bedeutet meist 埃 „Staub“, deshalb schreibt man 誇り fast immer mit Kanji.",
+        "examples": [
+          {
+            "japanese": "日本文化に誇りを持っています。",
+            "romaji": "Nihon bunka ni hokori o motte imasu.",
+            "german": "Ich bin stolz auf die japanische Kultur."
+          },
+          {
+            "japanese": "息子が優勝して、誇りに思います。",
+            "romaji": "Musuko ga yuushou shite, hokori ni omoimasu.",
+            "german": "Ich bin stolz, dass mein Sohn gewonnen hat."
+          },
+          {
+            "japanese": "彼の言葉は私の誇りを傷つけた。",
+            "romaji": "Kare no kotoba wa watashi no hokori o kizutsuketa.",
+            "german": "Seine Worte haben meinen Stolz verletzt."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243598598",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 誇り/ホコリ; lemma 誇り; 名詞/普通名詞/一般/*; *; *; aType 0,3. Rejected for this role: 誇り/ホコリ; lemma 誇る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+            "match": {
+              "word": "誇り",
+              "reading": "ほこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 誇り/ほこり \"Stolz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1267740 sense 1, noun: pride, credit (to) Pitch: Verified [0,3] via exact UniDic row. 誇り ist ein positiver Stolz auf etwas Wertvolles: 〜に誇りを持つ, 〜を誇りに思う, 誇りを傷つける. Das Verb ist 誇る, das Adjektiv 誇らしい „stolz (machend)“. プライド wird oft für empfindlichen Stolz oder Ego verwendet (プライドが高い). Achtung: ほこり in Kana bedeutet meist 埃 „Staub“, deshalb schreibt man 誇り fast immer mit Kanji. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1267740; spelling=誇り; reading=ほこり",
+          "selected": {
+            "sequence": "1267740",
+            "spelling": "誇り",
+            "reading": "ほこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pride",
+                  "boast",
+                  "credit (to)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1267740 sense 1, noun: pride, credit (to)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 誇り/ホコリ; lemma 誇り; 名詞/普通名詞/一般/*; *; *; aType 0,3. Rejected for this role: 誇り/ホコリ; lemma 誇る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243598598",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 誇り/ホコリ; lemma 誇り; 名詞/普通名詞/一般/*; *; *; aType 0,3. Rejected for this role: 誇り/ホコリ; lemma 誇る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+            "match": {
+              "word": "誇り",
+              "reading": "ほこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 誇り/ほこり \"Stolz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stolz. JMdict 1267740 sense 1, noun: pride, credit (to)",
+        "japanese": "日本文化に誇りを持っています。 / 息子が優勝して、誇りに思います。 / 彼の言葉は私の誇りを傷つけた。",
+        "romanization": "hokori; Nihon bunka ni hokori o motte imasu. / Musuko ga yuushou shite, hokori ni omoimasu. / Kare no kotoba wa watashi no hokori o kizutsuketa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin stolz auf die japanische Kultur. / Ich bin stolz, dass mein Sohn gewonnen hat. / Seine Worte haben meinen Stolz verletzt.",
+        "contexts": [
+          "Cultural identity",
+          "Proud parent",
+          "Hurt pride"
+        ],
+        "lexical": "JMdict 1267740 sense 1, noun: pride, credit (to)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:739 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cultural identity; Proud parent; Hurt pride), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1b7a4b92ba1d1c79e4e98755d64a832c18c07439987d4d66bada092c09871db0",
+        "approvalHash": "bfe00b2975964fc626613bba94f939367aba6718e3c2dec31553930d0d00b308"
+      }
+    },
+    {
+      "id": "vocab-n3:740",
+      "revisionId": "178d-n3-enrichment-vocab-n3-740",
+      "state": "accepted",
+      "predecessorHash": "62bec3079a3e6c62dff331ce5db85849b9c42b5499491d46993b25fbdb7390b6",
+      "originalHash": "62bec3079a3e6c62dff331ce5db85849b9c42b5499491d46993b25fbdb7390b6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自信を持ってください。",
+            "romaji": "Jishin o motte kudasai.",
+            "german": "Haben Sie Selbstvertrauen!"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "自信 ist das Vertrauen in die eigenen Fähigkeiten: 自信がある／ない, 〜に自信がある „in etwas sicher sein“, 自信を持つ, 自信をなくす, 自信満々 „siegessicher“, 自信過剰 „überheblich“. Vorsicht vor dem gleich gelesenen 地震 „Erdbeben“. 自身 (selbst, 私自身) ist ebenfalls ein Homophon.",
+        "examples": [
+          {
+            "japanese": "自信を持ってください。",
+            "romaji": "Jishin o motte kudasai.",
+            "german": "Haben Sie mehr Vertrauen in sich!"
+          },
+          {
+            "japanese": "料理には自信があります。",
+            "romaji": "Ryouri ni wa jishin ga arimasu.",
+            "german": "Beim Kochen bin ich mir meiner Sache sicher."
+          },
+          {
+            "japanese": "試験に落ちて、自信をなくしてしまった。",
+            "romaji": "Shiken ni ochite, jishin o nakushite shimatta.",
+            "german": "Seit ich durch die Prüfung gefallen bin, ist mein Selbstvertrauen weg."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143630203",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 自信/ジシン; lemma 自信; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "自信",
+              "reading": "じしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 自信/じしん \"Selbstvertrauen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1317970 sense 1, noun: self-confidence Pitch: Verified [0] via exact UniDic row. 自信 ist das Vertrauen in die eigenen Fähigkeiten: 自信がある／ない, 〜に自信がある „in etwas sicher sein“, 自信を持つ, 自信をなくす, 自信満々 „siegessicher“, 自信過剰 „überheblich“. Vorsicht vor dem gleich gelesenen 地震 „Erdbeben“. 自身 (selbst, 私自身) ist ebenfalls ein Homophon. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1317970; spelling=自信; reading=じしん",
+          "selected": {
+            "sequence": "1317970",
+            "spelling": "自信",
+            "reading": "じしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "self-confidence",
+                  "confidence (in oneself)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1317970 sense 1, noun: self-confidence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 自信/ジシン; lemma 自信; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143630203",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 自信/ジシン; lemma 自信; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "自信",
+              "reading": "じしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 自信/じしん \"Selbstvertrauen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Selbstvertrauen. JMdict 1317970 sense 1, noun: self-confidence",
+        "japanese": "自信を持ってください。 / 料理には自信があります。 / 試験に落ちて、自信をなくしてしまった。",
+        "romanization": "jishin; Jishin o motte kudasai. / Ryouri ni wa jishin ga arimasu. / Shiken ni ochite, jishin o nakushite shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Haben Sie mehr Vertrauen in sich! / Beim Kochen bin ich mir meiner Sache sicher. / Seit ich durch die Prüfung gefallen bin, ist mein Selbstvertrauen weg.",
+        "contexts": [
+          "Encouraging a nervous friend",
+          "Job interview strengths",
+          "After a failed exam"
+        ],
+        "lexical": "JMdict 1317970 sense 1, noun: self-confidence",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:740 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Encouraging a nervous friend; Job interview strengths; After a failed exam), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bd80d3714ceac97805c6cdf26fefe6cc0c8f4093db02639883b040457d7d2aa2",
+        "approvalHash": "3b42b48bc3653aae120303164521f2ca73cc275de202da2e9d00d12e03c490ea"
+      }
+    },
+    {
+      "id": "vocab-n3:741",
+      "revisionId": "178d-n3-enrichment-vocab-n3-741",
+      "state": "accepted",
+      "predecessorHash": "8757896c668afd654a90df6af30cbdd73b849d94d017085bb7f0a0edb8356102",
+      "originalHash": "8757896c668afd654a90df6af30cbdd73b849d94d017085bb7f0a0edb8356102",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "勇気を出してください。",
+            "romaji": "Yuuki o dashite kudasai.",
+            "german": "Fassen Sie Mut!"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "勇気 ist „Mut“: 勇気を出す „Mut fassen“, 勇気がある, 〜には勇気がいる „dafür braucht man Mut“. Typisch japanisch sind 勇気をもらう „ermutigt werden“ und 勇気を与える „Mut machen“, oft über Sportler oder Künstler; dazu das Verb 勇気づける. 勇敢 (na-Adjektiv) beschreibt mutiges, tapferes Handeln, 度胸 eher Nervenstärke.",
+        "examples": [
+          {
+            "japanese": "勇気を出してください。",
+            "romaji": "Yuuki o dashite kudasai.",
+            "german": "Fassen Sie Mut!"
+          },
+          {
+            "japanese": "彼の言葉に勇気をもらった。",
+            "romaji": "Kare no kotoba ni yuuki o moratta.",
+            "german": "Seine Worte haben mir Mut gemacht."
+          },
+          {
+            "japanese": "一人で海外に行くのは勇気がいる。",
+            "romaji": "Hitori de kaigai ni iku no wa yuuki ga iru.",
+            "german": "Allein ins Ausland zu gehen, erfordert Mut."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270568668",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勇気/ユウキ; lemma 勇気; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 勇気/ユウキ; lemma ユウキ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "勇気",
+              "reading": "ゆうき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 勇気/ゆうき \"Mut\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1539740 sense 1, noun: courage, bravery, nerve Pitch: Verified [1] via exact UniDic row. 勇気 ist „Mut“: 勇気を出す „Mut fassen“, 勇気がある, 〜には勇気がいる „dafür braucht man Mut“. Typisch japanisch sind 勇気をもらう „ermutigt werden“ und 勇気を与える „Mut machen“, oft über Sportler oder Künstler; dazu das Verb 勇気づける. 勇敢 (na-Adjektiv) beschreibt mutiges, tapferes Handeln, 度胸 eher Nervenstärke. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1539740; spelling=勇気; reading=ゆうき",
+          "selected": {
+            "sequence": "1539740",
+            "spelling": "勇気",
+            "reading": "ゆうき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "courage",
+                  "bravery",
+                  "valour",
+                  "valor",
+                  "nerve",
+                  "boldness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1539740 sense 1, noun: courage, bravery, nerve"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 勇気/ユウキ; lemma 勇気; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 勇気/ユウキ; lemma ユウキ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270568668",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勇気/ユウキ; lemma 勇気; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 勇気/ユウキ; lemma ユウキ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "勇気",
+              "reading": "ゆうき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 勇気/ゆうき \"Mut\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mut. JMdict 1539740 sense 1, noun: courage, bravery, nerve",
+        "japanese": "勇気を出してください。 / 彼の言葉に勇気をもらった。 / 一人で海外に行くのは勇気がいる。",
+        "romanization": "yuuki; Yuuki o dashite kudasai. / Kare no kotoba ni yuuki o moratta. / Hitori de kaigai ni iku no wa yuuki ga iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Fassen Sie Mut! / Seine Worte haben mir Mut gemacht. / Allein ins Ausland zu gehen, erfordert Mut.",
+        "contexts": [
+          "Encouragement",
+          "Being inspired",
+          "Solo travel"
+        ],
+        "lexical": "JMdict 1539740 sense 1, noun: courage, bravery, nerve",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:741 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Encouragement; Being inspired; Solo travel), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fb7a7c81d0c63b138ff2aa2d5cc11b6d4d86f973c6557a4a1970239bf64953ce",
+        "approvalHash": "58bd195f062cc7ef505de48b188d219a57f01f3cef2cd27dc8858bdc34f747a4"
+      }
+    },
+    {
+      "id": "vocab-n3:742",
+      "revisionId": "178d-n3-enrichment-vocab-n3-742",
+      "state": "accepted",
+      "predecessorHash": "126cd42883b79cbe7d8e9fef8f4327d0f2deb65cfa30536c71c7210073f981d0",
+      "originalHash": "126cd42883b79cbe7d8e9fef8f4327d0f2deb65cfa30536c71c7210073f981d0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ゲームに夢中です。",
+            "romaji": "Geemu ni muchuu desu.",
+            "german": "Ich bin in das Spiel vertieft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "夢中 bedeutet, ganz in etwas aufzugehen: 〜に夢中だ／夢中になる „begeistert, vertieft, verrückt nach“ (ゲームに夢中, 彼女に夢中). 夢中で beschreibt selbstvergessenes Handeln, ohne an anderes zu denken. Verstärkt: 無我夢中 „völlig selbstvergessen“. 熱中 ist sachlicher, 夢中 betont stärker das Vergessen der Umgebung. Grammatisch ein na-Adjektiv bzw. Nomen.",
+        "examples": [
+          {
+            "japanese": "ゲームに夢中です。",
+            "romaji": "Geemu ni muchuu desu.",
+            "german": "Ich bin in das Spiel vertieft."
+          },
+          {
+            "japanese": "夢中になって本を読んでいたら、朝になっていた。",
+            "romaji": "Muchuu ni natte hon o yonde itara, asa ni natte ita.",
+            "german": "Ich war so in das Buch vertieft, dass es auf einmal Morgen war."
+          },
+          {
+            "japanese": "子どもたちは夢中で虫を追いかけている。",
+            "romaji": "Kodomotachi wa muchuu de mushi o oikakete iru.",
+            "german": "Die Kinder jagen ganz selbstvergessen Insekten nach."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1529500 senses 1-2, na-adjective / noun: absorbed in, crazy about; forgetting oneself Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 夢中 bedeutet, ganz in etwas aufzugehen: 〜に夢中だ／夢中になる „begeistert, vertieft, verrückt nach“ (ゲームに夢中, 彼女に夢中). 夢中で beschreibt selbstvergessenes Handeln, ohne an anderes zu denken. Verstärkt: 無我夢中 „völlig selbstvergessen“. 熱中 ist sachlicher, 夢中 betont stärker das Vergessen der Umgebung. Grammatisch ein na-Adjektiv bzw. Nomen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1529500; spelling=夢中; reading=むちゅう",
+          "selected": {
+            "sequence": "1529500",
+            "spelling": "夢中",
+            "reading": "むちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "absorbed in",
+                  "immersed in",
+                  "crazy about",
+                  "obsessed with",
+                  "devoted to"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "forgetting oneself",
+                  "daze",
+                  "trance",
+                  "ecstasy",
+                  "delirium"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "within a dream",
+                  "while dreaming"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1529500 senses 1-2, na-adjective / noun: absorbed in, crazy about; forgetting oneself"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 夢中/ムチュウ; lemma 夢中; 形状詞/一般/*/*; *; *; aType 0. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A4%A2%E4%B8%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 夢中/ムチュウ; lemma 夢中; 形状詞/一般/*/*; *; *; aType 0. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "begeistert, versunken. JMdict 1529500 senses 1-2, na-adjective / noun: absorbed in, crazy about; forgetting oneself",
+        "japanese": "ゲームに夢中です。 / 夢中になって本を読んでいたら、朝になっていた。 / 子どもたちは夢中で虫を追いかけている。",
+        "romanization": "muchuu; Geemu ni muchuu desu. / Muchuu ni natte hon o yonde itara, asa ni natte ita. / Kodomotachi wa muchuu de mushi o oikakete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin in das Spiel vertieft. / Ich war so in das Buch vertieft, dass es auf einmal Morgen war. / Die Kinder jagen ganz selbstvergessen Insekten nach.",
+        "contexts": [
+          "Hobby obsession",
+          "Reading all night",
+          "Kids playing outside"
+        ],
+        "lexical": "JMdict 1529500 senses 1-2, na-adjective / noun: absorbed in, crazy about; forgetting oneself",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 夢中な, 夢中に, 夢中で)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:742 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hobby obsession; Reading all night; Kids playing outside), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "908a0cd9602e77ee0230fab40060bca2ca74e768a849c01492405decb1458869",
+        "approvalHash": "3a3b46f156f36b7fb6e48512fe138f546bdf2783b5c3130916a2f3add64f6664"
+      }
+    },
+    {
+      "id": "vocab-n3:744",
+      "revisionId": "178d-n3-enrichment-vocab-n3-744",
+      "state": "accepted",
+      "predecessorHash": "da37c1b76c402f6be83f09e59e076f0172a1cd547a260cd935f1765f84679d46",
+      "originalHash": "da37c1b76c402f6be83f09e59e076f0172a1cd547a260cd935f1765f84679d46",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "真剣に考えています。",
+            "romaji": "Shinken ni kangaete imasu.",
+            "german": "Ich denke ernsthaft darüber nach."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "真剣 beschreibt eine ernste, voll konzentrierte Haltung in einer Situation: 真剣に考える, 真剣な顔, 真剣に付き合う. まじめ ist dagegen eine Charaktereigenschaft („fleißig, gewissenhaft“), 本気 betont, dass etwas ernst gemeint und kein Scherz ist. Wörtlich ist 真剣 ein „echtes Schwert“ statt eines Übungsschwerts; daher 真剣勝負 „Kampf auf Leben und Tod, ernsthafter Wettstreit“.",
+        "examples": [
+          {
+            "japanese": "真剣に考えています。",
+            "romaji": "Shinken ni kangaete imasu.",
+            "german": "Ich denke ernsthaft darüber nach."
+          },
+          {
+            "japanese": "彼は真剣な顔で話し始めた。",
+            "romaji": "Kare wa shinken na kao de hanashi hajimeta.",
+            "german": "Er begann mit ernster Miene zu sprechen."
+          },
+          {
+            "japanese": "遊びではなく、真剣に付き合いたい。",
+            "romaji": "Asobi de wa naku, shinken ni tsukiaitai.",
+            "german": "Ich will keine Spielerei, sondern eine ernsthafte Beziehung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142663581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 真剣/シンケン; lemma 真剣; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "真剣",
+              "reading": "しんけん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 真剣/しんけん \"ernst, ernsthaft\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1363650 sense 1, na-adjective: serious, earnest Pitch: Verified [0] via exact UniDic row. 真剣 beschreibt eine ernste, voll konzentrierte Haltung in einer Situation: 真剣に考える, 真剣な顔, 真剣に付き合う. まじめ ist dagegen eine Charaktereigenschaft („fleißig, gewissenhaft“), 本気 betont, dass etwas ernst gemeint und kein Scherz ist. Wörtlich ist 真剣 ein „echtes Schwert“ statt eines Übungsschwerts; daher 真剣勝負 „Kampf auf Leben und Tod, ernsthafter Wettstreit“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1363650; spelling=真剣; reading=しんけん",
+          "selected": {
+            "sequence": "1363650",
+            "spelling": "真剣",
+            "reading": "しんけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "serious",
+                  "earnest"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "real sword (as opposed to a wooden practice weapon)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1363650 sense 1, na-adjective: serious, earnest"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 真剣/シンケン; lemma 真剣; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142663581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 真剣/シンケン; lemma 真剣; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "真剣",
+              "reading": "しんけん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 真剣/しんけん \"ernst, ernsthaft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "ernst, ernsthaft. JMdict 1363650 sense 1, na-adjective: serious, earnest",
+        "japanese": "真剣に考えています。 / 彼は真剣な顔で話し始めた。 / 遊びではなく、真剣に付き合いたい。",
+        "romanization": "shinken; Shinken ni kangaete imasu. / Kare wa shinken na kao de hanashi hajimeta. / Asobi de wa naku, shinken ni tsukiaitai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich denke ernsthaft darüber nach. / Er begann mit ernster Miene zu sprechen. / Ich will keine Spielerei, sondern eine ernsthafte Beziehung.",
+        "contexts": [
+          "Considering an offer",
+          "Serious conversation",
+          "Talking about a relationship"
+        ],
+        "lexical": "JMdict 1363650 sense 1, na-adjective: serious, earnest",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 真剣な, 真剣に)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:744 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Considering an offer; Serious conversation; Talking about a relationship), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8f3a0a690d6a4901c3389f14f88902148aa9ae406522f02fc8755af0abcb50fe",
+        "approvalHash": "555e64a15f1a24b1da4df14244e96c3156c03519e471339517dfdf7bfef23821"
+      }
+    },
+    {
+      "id": "vocab-n3:745",
+      "revisionId": "178d-n3-enrichment-vocab-n3-745",
+      "state": "accepted",
+      "predecessorHash": "60f0596214fc7daa3af6131f8444a15d72ed745f4d3da23c87b9b55f3d0f9a6a",
+      "originalHash": "60f0596214fc7daa3af6131f8444a15d72ed745f4d3da23c87b9b55f3d0f9a6a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "堅実な経営です。",
+            "romaji": "Kenjitsu na keiei desu.",
+            "german": "Es ist eine solide Geschäftsführung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "堅実 bedeutet „solide, verlässlich, ohne Risiko“: 堅実な経営, 堅実な生き方, 堅実に貯金する. Es lobt eine vorsichtige, bodenständige Art, die zwar nicht spektakulär ist, aber sicher zum Ziel führt. 着実 betont dagegen das stetige, schrittweise Vorankommen, 確実 die Gewissheit eines Ergebnisses. Typisch für Wirtschafts- und Personenbeschreibungen.",
+        "examples": [
+          {
+            "japanese": "堅実な経営です。",
+            "romaji": "Kenjitsu na keiei desu.",
+            "german": "Das Unternehmen wird solide geführt."
+          },
+          {
+            "japanese": "彼は派手さはないが、堅実な選手だ。",
+            "romaji": "Kare wa hadesa wa nai ga, kenjitsu na senshu da.",
+            "german": "Er ist nicht spektakulär, aber ein verlässlicher Spieler."
+          },
+          {
+            "japanese": "投資はしないで、堅実に貯金している。",
+            "romaji": "Toushi wa shinaide, kenjitsu ni chokin shite iru.",
+            "german": "Ich investiere nicht, sondern spare lieber solide."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118800058",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "堅実",
+              "reading": "けんじつ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 堅実/けんじつ \"solide, zuverlässig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1592720 sense 1, na-adjective: steady, sound, reliable, solid Pitch: Verified [0] via exact UniDic row. 堅実 bedeutet „solide, verlässlich, ohne Risiko“: 堅実な経営, 堅実な生き方, 堅実に貯金する. Es lobt eine vorsichtige, bodenständige Art, die zwar nicht spektakulär ist, aber sicher zum Ziel führt. 着実 betont dagegen das stetige, schrittweise Vorankommen, 確実 die Gewissheit eines Ergebnisses. Typisch für Wirtschafts- und Personenbeschreibungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1592720; spelling=堅実; reading=けんじつ",
+          "selected": {
+            "sequence": "1592720",
+            "spelling": "堅実",
+            "reading": "けんじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "steady",
+                  "sound",
+                  "stable",
+                  "safe (e.g. business)",
+                  "reliable",
+                  "trustworthy",
+                  "solid"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1592720 sense 1, na-adjective: steady, sound, reliable, solid"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118800058",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "堅実",
+              "reading": "けんじつ",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 堅実/けんじつ \"solide, zuverlässig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "solide, zuverlässig. JMdict 1592720 sense 1, na-adjective: steady, sound, reliable, solid",
+        "japanese": "堅実な経営です。 / 彼は派手さはないが、堅実な選手だ。 / 投資はしないで、堅実に貯金している。",
+        "romanization": "kenjitsu; Kenjitsu na keiei desu. / Kare wa hadesa wa nai ga, kenjitsu na senshu da. / Toushi wa shinaide, kenjitsu ni chokin shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Unternehmen wird solide geführt. / Er ist nicht spektakulär, aber ein verlässlicher Spieler. / Ich investiere nicht, sondern spare lieber solide.",
+        "contexts": [
+          "Company evaluation",
+          "Sports commentary",
+          "Personal finances"
+        ],
+        "lexical": "JMdict 1592720 sense 1, na-adjective: steady, sound, reliable, solid",
+        "register": "neutral, slightly formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 堅実な, 堅実に)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:745 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company evaluation; Sports commentary; Personal finances), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e18fbdb5b0610d4da6eef3805060caed4d9254128d7de178f2fe7f60393bfc84",
+        "approvalHash": "19fb7c7741728b15065faa679ec57bdea14054ad6e068a2bba5c3dec916a749d"
+      }
+    },
+    {
+      "id": "vocab-n3:746",
+      "revisionId": "178d-n3-enrichment-vocab-n3-746",
+      "state": "accepted",
+      "predecessorHash": "cd4b7fc9bceb4598cef8dbc0051b5b7052ade4d1897abf6720c276e45b3c3699",
+      "originalHash": "cd4b7fc9bceb4598cef8dbc0051b5b7052ade4d1897abf6720c276e45b3c3699",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "正当な理由があります。",
+            "romaji": "Seitou na riyuu ga arimasu.",
+            "german": "Es gibt einen berechtigten Grund."
+          }
+        ],
+        "meaning": "rechtmässig, berechtigt",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "正当 bedeutet „berechtigt, rechtmäßig, angemessen“ und steht meist vor Nomen: 正当な理由, 正当な権利, 正当な評価, 正当な給料. 正当化する heißt „rechtfertigen“, 正当防衛 „Notwehr“. Nicht verwechseln mit dem Homophon 正統 „orthodox, rechtmäßig (Nachfolge)“. 妥当 bedeutet eher „angemessen, plausibel“.",
+        "examples": [
+          {
+            "japanese": "正当な理由があります。",
+            "romaji": "Seitou na riyuu ga arimasu.",
+            "german": "Es gibt einen berechtigten Grund."
+          },
+          {
+            "japanese": "働いた分の正当な給料を求めた。",
+            "romaji": "Hataraita bun no seitou na kyuuryou o motometa.",
+            "german": "Ich habe eine angemessene Bezahlung für meine geleistete Arbeit verlangt."
+          },
+          {
+            "japanese": "彼の主張は正当だと思う。",
+            "romaji": "Kare no shuchou wa seitou da to omou.",
+            "german": "Ich halte seine Forderung für berechtigt."
+          }
+        ],
+        "meaning": "rechtmäßig, berechtigt, angemessen",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152208227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 正当/セイトウ; lemma 正当; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "正当",
+              "reading": "せいとう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 正当/せいとう \"rechtmässig, berechtigt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1377660 sense 1, na-adjective / noun: just, justifiable, proper, legitimate, lawful Pitch: Verified [0] via exact UniDic row. 正当 bedeutet „berechtigt, rechtmäßig, angemessen“ und steht meist vor Nomen: 正当な理由, 正当な権利, 正当な評価, 正当な給料. 正当化する heißt „rechtfertigen“, 正当防衛 „Notwehr“. Nicht verwechseln mit dem Homophon 正統 „orthodox, rechtmäßig (Nachfolge)“. 妥当 bedeutet eher „angemessen, plausibel“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1377660; spelling=正当; reading=せいとう",
+          "selected": {
+            "sequence": "1377660",
+            "spelling": "正当",
+            "reading": "せいとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "just",
+                  "justifiable",
+                  "right",
+                  "due",
+                  "proper",
+                  "equitable",
+                  "reasonable",
+                  "legitimate",
+                  "legal",
+                  "lawful"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1377660 sense 1, na-adjective / noun: just, justifiable, proper, legitimate, lawful"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 正当/セイトウ; lemma 正当; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152208227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 正当/セイトウ; lemma 正当; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "正当",
+              "reading": "せいとう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 正当/せいとう \"rechtmässig, berechtigt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "reviewedDistinctContexts": true,
+        "meaning": "rechtmäßig, berechtigt, angemessen. JMdict 1377660 sense 1, na-adjective / noun: just, justifiable, proper, legitimate, lawful",
+        "japanese": "正当な理由があります。 / 働いた分の正当な給料を求めた。 / 彼の主張は正当だと思う。",
+        "romanization": "seitou; Seitou na riyuu ga arimasu. / Hataraita bun no seitou na kyuuryou o motometa. / Kare no shuchou wa seitou da to omou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt einen berechtigten Grund. / Ich habe eine angemessene Bezahlung für meine geleistete Arbeit verlangt. / Ich halte seine Forderung für berechtigt.",
+        "contexts": [
+          "Excusing an absence",
+          "Wage dispute",
+          "Judging an argument"
+        ],
+        "lexical": "JMdict 1377660 sense 1, na-adjective / noun: just, justifiable, proper, legitimate, lawful",
+        "register": "neutral, slightly formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 正当な)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-178",
+        "finding": "Author reread the exact final card vocab-n3:746 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Excusing an absence; Wage dispute; Judging an argument), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b9601a0277e1ec03922b08b5ccb7b34c21a54d2103dd7cbdf8b1a888d3e60f24",
+        "approvalHash": "dcd63bb0834c2dd3115f9a1a06162ef22504f00baf88819a33ae122854d99821"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

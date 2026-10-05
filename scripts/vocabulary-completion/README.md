@@ -519,6 +519,15 @@ duplicate merges (特技, 一石二鳥, 自業自得, 実るほど頭を垂れ�
 merge approvals were renewed after checking that the preserved coverage still holds.
 No source references were resolved. N3 now has 2,621 pending reviews and 422 open references.
 
+**Second N3 checkpoint (5 October 2026).** Batches 178a–178j, 179a–179j and 180a–180j enrich
+the next 750 N3 entries (vocab-n3:642–1422 in queue order) with German usage notes and 2–3
+examples in distinct situations: 1,538 new sentences, 127 entries with corrected original
+examples. The pitch of 648 entries is verified (639 UniDic, 9 OJAD), correcting 94 stored
+primary accents; 102 are investigated unknowns. 71 German meanings are corrected (e.g. 羨望
+no longer „Eifersucht“ — that is 嫉妬; 甘酒 „Amazake, süßes Reisgetränk“; 教壇 „Podium“), 大幅
+is retyped Adverb → Adjektiv and 洗練 Adjektiv → Nomen. No source references were resolved.
+N3 now has 1,871 pending reviews and 422 open references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
