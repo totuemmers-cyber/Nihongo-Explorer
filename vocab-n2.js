@@ -76933,5 +76933,409 @@ window.VOCAB_N2 = [
     ],
     "senseKey": "itsu-leisure-relaxation-noun",
     "correctionId": "vocab-n2:correction:itsu-leisure-relaxation-noun"
+  },
+  {
+    "word": "湿気",
+    "reading": "しっき",
+    "romaji": "shikki",
+    "meaning": "Feuchtigkeit, Luftfeuchtigkeit",
+    "type": "Nomen",
+    "category": "Wetter",
+    "level": "N2",
+    "notes": "しっき ist eine seltenere Nebenlesung von 湿気 mit derselben Bedeutung „Feuchtigkeit“. Im Alltag sagt man fast immer しっけ (eigene Karte), etwa 湿気が多い oder 湿気を取る; しっき hört man eher in förmlichen oder älteren Texten und Vorträgen. Beim Sprechen sollte man しっけ wählen. Nicht verwechseln mit dem Homophon 漆器 „Lackware“.",
+    "examples": [
+      {
+        "japanese": "梅雨の時期は部屋に湿気がこもりやすい。",
+        "romaji": "Tsuyu no jiki wa heya ni shikki ga komoriyasui.",
+        "german": "In der Regenzeit staut sich leicht Feuchtigkeit im Zimmer."
+      },
+      {
+        "japanese": "この地方は夏になると湿気が多くて蒸し暑い。",
+        "romaji": "Kono chihou wa natsu ni naru to shikki ga ookute mushiatsui.",
+        "german": "In dieser Gegend ist es im Sommer feucht und schwül."
+      },
+      {
+        "japanese": "本は湿気を避けて保管してください。",
+        "romaji": "Hon wa shikki o sakete hokan shite kudasai.",
+        "german": "Bitte lagern Sie die Bücher vor Feuchtigkeit geschützt."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136253385",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          3
+        ],
+        "finding": "Exact whole 湿気/シッキ; lemma 湿気; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+        "match": {
+          "word": "湿気",
+          "reading": "しっき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 湿気/しっき \"Feuchtigkeit, Luftfeuchtigkeit\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:shikki-humidity"
+  },
+  {
+    "word": "〜等",
+    "reading": "とう",
+    "romaji": "tō",
+    "meaning": "usw., und dergleichen (Suffix, schriftsprachlich); Klasse, Rang (z. B. 一等) (Zähleinheitswort)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N2",
+    "notes": "Als Suffix „usw.“ steht 等 in Nachrichten, Formularen und Gesetzestexten und wird dort とう gelesen (東京、大阪等); in der Alltagssprache sagt man dafür など (eigene Karte), das in Kana geschrieben wird. Als Zähleinheitswort bezeichnet 〜等 Klassen und Ränge: 一等 „erster Preis, erste Klasse“, 二等, 三等賞. Nicht verwechseln mit 〜等々 „und so weiter“ und mit 等 als Pluralsuffix ら (彼等).",
+    "examples": [
+      {
+        "japanese": "くじ引きで一等が当たりました。",
+        "romaji": "Kujibiki de ittō ga atarimashita.",
+        "german": "Ich habe bei der Verlosung den ersten Preis gewonnen."
+      },
+      {
+        "japanese": "東京、大阪等の大都市では家賃が高い。",
+        "romaji": "Tōkyō, Ōsaka tō no daitoshi de wa yachin ga takai.",
+        "german": "In Großstädten wie Tokio, Osaka usw. sind die Mieten hoch."
+      },
+      {
+        "japanese": "昔の列車には一等車と二等車がありました。",
+        "romaji": "Mukashi no ressha ni wa ittōsha to nitōsha ga arimashita.",
+        "german": "Früher hatten Züge Wagen der ersten und der zweiten Klasse."
+      }
+    ],
+    "aliases": [
+      "等"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:tou-etc-rank"
+  },
+  {
+    "word": "〜料",
+    "reading": "りょう",
+    "romaji": "ryō",
+    "meaning": "Gebühr, Entgelt (Suffix, z. B. 入場料); Material (Suffix, z. B. 材料)",
+    "type": "Partikel",
+    "category": "Geld",
+    "level": "N2",
+    "notes": "〜料 bildet Wörter für Gebühren: 入場料 „Eintritt“, 授業料 „Studiengebühr“, 送料 „Versandkosten“, 手数料 „Bearbeitungsgebühr“; dazu 無料 „kostenlos“ und 有料 „kostenpflichtig“. In 材料 und 調味料 bedeutet es „Stoff, Material“. Ähnliche Suffixe sind 〜代 (電気代), 〜費 (交通費) und 〜賃 (家賃); allein steht 料 kaum.",
+    "examples": [
+      {
+        "japanese": "この美術館の入場料は千円です。",
+        "romaji": "Kono bijutsukan no nyūjōryō wa sen'en desu.",
+        "german": "Der Eintritt in dieses Kunstmuseum kostet 1000 Yen."
+      },
+      {
+        "japanese": "三千円以上買うと、送料は無料です。",
+        "romaji": "Sanzen'en ijō kau to, sōryō wa muryō desu.",
+        "german": "Ab einem Einkauf von 3000 Yen ist der Versand kostenlos."
+      },
+      {
+        "japanese": "大学の授業料が毎年上がっている。",
+        "romaji": "Daigaku no jugyōryō ga maitoshi agatte iru.",
+        "german": "Die Studiengebühren an der Universität steigen jedes Jahr."
+      }
+    ],
+    "aliases": [
+      "料"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ryou-fee"
+  },
+  {
+    "word": "〜等々",
+    "reading": "とうとう",
+    "romaji": "tōtō",
+    "meaning": "usw., und so weiter (Suffix, schriftsprachlich)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N2",
+    "notes": "等々 schließt eine Aufzählung ab und betont, dass es noch mehr gibt (パン、飲み物等々); es wirkt schriftlich und etwas nachdrücklicher als 〜等. Gesprochen sagt man meist など oder verdoppelt などなど, das ebenfalls 等々 geschrieben werden kann. Nicht verwechseln mit dem gleich klingenden Adverb とうとう „endlich, schließlich“ (eigene Karte), das nie 等々 geschrieben wird.",
+    "examples": [
+      {
+        "japanese": "会場ではパン、飲み物、お菓子等々を販売しています。",
+        "romaji": "Kaijō de wa pan, nomimono, okashi tōtō o hanbai shite imasu.",
+        "german": "Am Veranstaltungsort werden Brot, Getränke, Süßigkeiten und so weiter verkauft."
+      },
+      {
+        "japanese": "掃除、洗濯、料理等々、家事は毎日たくさんある。",
+        "romaji": "Sōji, sentaku, ryōri tōtō, kaji wa mainichi takusan aru.",
+        "german": "Putzen, Waschen, Kochen und so weiter – Hausarbeit gibt es jeden Tag reichlich."
+      },
+      {
+        "japanese": "申込書、写真、身分証明書等々の書類をご用意ください。",
+        "romaji": "Mōshikomisho, shashin, mibun shōmeisho tōtō no shorui o go-yōi kudasai.",
+        "german": "Bitte halten Sie Unterlagen wie Antragsformular, Foto, Ausweis usw. bereit."
+      }
+    ],
+    "aliases": [
+      "等々"
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183515003",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole 等々/トウトウ; lemma 等々; 接尾辞/名詞的/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "〜等々",
+          "reading": "とうとう",
+          "grammaticalForm": "接尾辞/名詞的/一般/*; *; *",
+          "sense": "Partikel 〜等々/とうとう \"usw., und so weiter (Suffix, schriftsprachlich)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:toutou-etc"
+  },
+  {
+    "word": "いなご",
+    "reading": "いなご",
+    "romaji": "inago",
+    "meaning": "Reisheuschrecke, Heuschrecke",
+    "type": "Nomen",
+    "category": "Tiere",
+    "level": "N2",
+    "notes": "Name einer Heuschreckenart, die in Reisfeldern lebt (daher 稲子, wörtlich „Reiskind“). Im Alltag fast immer in Kana, in Sachtexten oft in Katakana イナゴ; die Kanji 稲子 oder 蝗 sind selten. Allgemein für Heuschrecken und Grashüpfer sagt man バッタ; いなご ist die kleinere, reisfeldtypische Art, die in manchen Regionen als いなごの佃煮 gegessen wird.",
+    "examples": [
+      {
+        "japanese": "秋の田んぼには、いなごがたくさん跳んでいる。",
+        "romaji": "Aki no tanbo ni wa, inago ga takusan tonde iru.",
+        "german": "Im Herbst springen viele Reisheuschrecken in den Reisfeldern herum."
+      },
+      {
+        "japanese": "長野では、いなごの佃煮を食べる習慣がある。",
+        "romaji": "Nagano de wa, inago no tsukudani o taberu shuukan ga aru.",
+        "german": "In Nagano isst man traditionell in Sojasoße eingekochte Heuschrecken."
+      },
+      {
+        "japanese": "子どものころ、よく友だちとイナゴを捕まえて遊んだ。",
+        "romaji": "Kodomo no koro, yoku tomodachi to inago o tsukamaete asonda.",
+        "german": "Als Kind habe ich oft mit Freunden Heuschrecken gefangen."
+      }
+    ],
+    "aliases": [
+      "稲子",
+      "イナゴ"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56841658",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole いなご/イナゴ; lemma 蝗; 名詞/普通名詞/一般/*; *; *; aType 0 | イナゴ/イナゴ; lemma 蝗; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "match": {
+          "word": "いなご",
+          "reading": "いなご",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen いなご/いなご \"Reisheuschrecke, Heuschrecke\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:inago-grasshopper"
+  },
+  {
+    "word": "鸛",
+    "reading": "こうのとり",
+    "romaji": "kounotori",
+    "meaning": "Storch (bes. Schwarzschnabelstorch)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N2",
+    "notes": "Das seltene Kanji 鸛 wird kaum benutzt; üblich ist こうのとり oder als Tiername コウノトリ in Katakana. Wie in Europa gilt der Storch als Bringer der Babys. Nicht mit dem Kranich 鶴 (つる) verwechseln, der in Japan Glück und langes Leben symbolisiert.",
+    "examples": [
+      {
+        "japanese": "コウノトリが赤ちゃんを運んでくるという言い伝えがある。",
+        "romaji": "Kounotori ga akachan o hakonde kuru to iu iitsutae ga aru.",
+        "german": "Es gibt die Überlieferung, dass der Storch die Babys bringt."
+      },
+      {
+        "japanese": "豊岡市では、コウノトリを野生に戻す取り組みが行われている。",
+        "romaji": "Toyooka-shi de wa, kounotori o yasei ni modosu torikumi ga okonawarete iru.",
+        "german": "In der Stadt Toyooka bemüht man sich, Störche wieder in die Wildnis zu entlassen."
+      },
+      {
+        "japanese": "田んぼに一羽のこうのとりが降りてきた。",
+        "romaji": "Tanbo ni ichiwa no kounotori ga orite kita.",
+        "german": "Ein Storch ist im Reisfeld gelandet."
+      }
+    ],
+    "aliases": [
+      "コウノトリ"
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120473325",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3,
+          1
+        ],
+        "finding": "Exact whole コウノトリ/コウノトリ; lemma 鸛; 名詞/普通名詞/一般/*; *; *; aType 3,1 | 鸛/コウノトリ; lemma 鸛; 名詞/普通名詞/一般/*; *; *; aType 3,1.",
+        "match": {
+          "word": "鸛",
+          "reading": "こうのとり",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 鸛/こうのとり \"Storch (bes. Schwarzschnabelstorch)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:kounotori-stork"
+  },
+  {
+    "word": "両〜",
+    "reading": "りょう",
+    "romaji": "ryō",
+    "meaning": "beide (Präfix, z. B. 両手, 両親); Wagen (Zähleinheitswort, z. B. 十両編成)",
+    "type": "Partikel",
+    "category": "Allgemein",
+    "level": "N2",
+    "notes": "両〜 steht vor Paaren und bedeutet „beide“: 両手 „beide Hände“, 両親 „Eltern“, 両側 „beide Seiten“, 両国 „beide Länder“. Nach einer Zahl zählt 〜両 Eisenbahnwagen (十両編成 „Zug mit zehn Wagen“). Das selbstständige Nomen für „beide“ ist 両方; 量 „Menge“ und 寮 „Wohnheim“ sind gleich gelesene, andere Wörter.",
+    "examples": [
+      {
+        "japanese": "重いので、両手で持ってください。",
+        "romaji": "Omoi node, ryōte de motte kudasai.",
+        "german": "Es ist schwer, bitte halte es mit beiden Händen."
+      },
+      {
+        "japanese": "道の両側に桜の木が並んでいます。",
+        "romaji": "Michi no ryōgawa ni sakura no ki ga narande imasu.",
+        "german": "Auf beiden Seiten der Straße stehen Kirschbäume."
+      },
+      {
+        "japanese": "この電車は十両編成です。",
+        "romaji": "Kono densha wa jūryō hensei desu.",
+        "german": "Dieser Zug hat zehn Wagen."
+      }
+    ],
+    "aliases": [
+      "両"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ryou-both"
+  },
+  {
+    "word": "〜領",
+    "reading": "りょう",
+    "romaji": "ryō",
+    "meaning": "Territorium, Hoheitsgebiet (Suffix, z. B. アメリカ領)",
+    "type": "Partikel",
+    "category": "Politik",
+    "level": "N2",
+    "notes": "〜領 nach einem Ländernamen bezeichnet ein Gebiet, das zu diesem Staat gehört: アメリカ領, イギリス領, abgekürzt auch 英領 oder 仏領. Dieselbe Bedeutung steckt in 領土 „Staatsgebiet“, 領海 „Hoheitsgewässer“ und 領空 „Luftraum“. Es ist vor allem in Nachrichten, Geschichte und Geografie üblich.",
+    "examples": [
+      {
+        "japanese": "グアムはアメリカ領の島です。",
+        "romaji": "Guamu wa Amerika-ryō no shima desu.",
+        "german": "Guam ist eine Insel, die zu den USA gehört."
+      },
+      {
+        "japanese": "香港は1997年までイギリス領だった。",
+        "romaji": "Honkon wa 1997-nen made Igirisu-ryō datta.",
+        "german": "Hongkong war bis 1997 britisches Territorium."
+      },
+      {
+        "japanese": "許可なく他の国の領空に入ってはいけない。",
+        "romaji": "Kyoka naku hoka no kuni no ryōkū ni haitte wa ikenai.",
+        "german": "Ohne Genehmigung darf man nicht in den Luftraum eines anderen Landes eindringen."
+      }
+    ],
+    "aliases": [
+      "領"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:ryou-territory"
+  },
+  {
+    "word": "〜港",
+    "reading": "こう",
+    "romaji": "kou",
+    "meaning": "Hafen (Suffix in Hafennamen, z. B. 横浜港)",
+    "type": "Partikel",
+    "category": "Verkehr",
+    "level": "N2",
+    "notes": "Sino-japanische Lesung von 港 als Suffix hinter Ortsnamen: 横浜港, 神戸港, 博多港. Allein gebraucht heißt „Hafen“ immer 港（みなと）; こう erscheint nur in Zusammensetzungen wie 空港 „Flughafen“, 漁港 „Fischereihafen“ oder 入港 „Einlaufen in den Hafen“, während 港町 みなとまち gelesen wird. Ähnlich funktioniert 島（とう） in Inselnamen.",
+    "examples": [
+      {
+        "japanese": "船は朝八時に横浜港に着きます。",
+        "romaji": "Fune wa asa hachiji ni Yokohamakou ni tsukimasu.",
+        "german": "Das Schiff kommt um acht Uhr morgens im Hafen von Yokohama an."
+      },
+      {
+        "japanese": "神戸港は、昔から外国との貿易で栄えてきた。",
+        "romaji": "Koubekou wa, mukashi kara gaikoku to no boueki de sakaete kita.",
+        "german": "Der Hafen von Kobe ist seit jeher durch den Außenhandel aufgeblüht."
+      },
+      {
+        "japanese": "台風のため、博多港を出る船はすべて欠航になった。",
+        "romaji": "Taifuu no tame, Hakatakou o deru fune wa subete kekkou ni natta.",
+        "german": "Wegen des Taifuns fielen alle Schiffe ab dem Hafen Hakata aus."
+      }
+    ],
+    "aliases": [
+      "港"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:kou-harbour-suffix"
+  },
+  {
+    "word": "当〜",
+    "reading": "とう",
+    "romaji": "tō",
+    "meaning": "dieser, unser, betreffend (Präfix, z. B. 当店, 当社)",
+    "type": "Partikel",
+    "category": "Geschäft",
+    "level": "N2",
+    "notes": "Förmliches Präfix, mit dem ein Geschäft oder eine Organisation sich selbst bezeichnet: 当店 „unser Laden“, 当社 „unsere Firma“, 当ホテル. Es steht oft auf Schildern, in Ansagen und auf Webseiten. Bescheidener als 当社 ist 弊社 „unsere (bescheidene) Firma“; im Sinn „betreffend, besagt“ steckt 当 auch in 当日 „der betreffende Tag“ und 当時 „damals“.",
+    "examples": [
+      {
+        "japanese": "当店ではクレジットカードがご利用いただけます。",
+        "romaji": "Tōten de wa kurejitto kādo ga go-riyō itadakemasu.",
+        "german": "In unserem Geschäft können Sie mit Kreditkarte bezahlen."
+      },
+      {
+        "japanese": "当ホテルの朝食は七時からです。",
+        "romaji": "Tō hoteru no chōshoku wa shichiji kara desu.",
+        "german": "Das Frühstück in unserem Hotel beginnt um sieben Uhr."
+      },
+      {
+        "japanese": "当社の製品はすべて日本で作られています。",
+        "romaji": "Tōsha no seihin wa subete Nihon de tsukurarete imasu.",
+        "german": "Alle Produkte unserer Firma werden in Japan hergestellt."
+      }
+    ],
+    "aliases": [
+      "当"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:tou-this"
   }
 ];

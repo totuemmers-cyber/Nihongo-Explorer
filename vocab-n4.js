@@ -37916,6 +37916,9 @@ window.VOCAB_N4 = [
         "german": "Ich mag alle asiatischen Küchen."
       }
     ],
+    "aliases": [
+      "亜細亜"
+    ],
     "pitch": 1,
     "pitchProvenance": [
       {
@@ -37957,6 +37960,9 @@ window.VOCAB_N4 = [
         "romaji": "Afurika ni wa gojū ijō no kuni ga arimasu.",
         "german": "In Afrika gibt es mindestens fünfzig Länder."
       }
+    ],
+    "aliases": [
+      "阿弗利加"
     ],
     "pitch": 0,
     "pitchProvenance": [
@@ -40113,5 +40119,975 @@ window.VOCAB_N4 = [
     ],
     "senseKey": "kedo-independent-contrast-conjunction",
     "correctionId": "vocab-n4:correction:kedo-independent-contrast-conjunction"
+  },
+  {
+    "word": "挨拶する",
+    "reading": "あいさつする",
+    "romaji": "aisatsu suru",
+    "meaning": "grüßen, begrüßen; eine Ansprache halten",
+    "type": "Verb",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "挨拶する heißt „grüßen“; die gegrüßte Person steht mit に (先生に挨拶する), gleichwertig ist die Form 挨拶をする. Bei Feiern bedeutet es auch „eine kurze Ansprache halten“. Das Nomen 挨拶 „Begrüßung, Grußwort“ hat eine eigene Karte. Die Kanji sind schwierig, deshalb schreibt man im Alltag oft あいさつする in Kana.",
+    "examples": [
+      {
+        "japanese": "朝、会社に着いたら、みんなに挨拶します。",
+        "romaji": "Asa, kaisha ni tsuitara, minna ni aisatsu shimasu.",
+        "german": "Wenn ich morgens in der Firma ankomme, grüße ich alle."
+      },
+      {
+        "japanese": "新しい隣の人にまだ挨拶していません。",
+        "romaji": "Atarashii tonari no hito ni mada aisatsu shite imasen.",
+        "german": "Die neuen Nachbarn habe ich noch nicht begrüßt."
+      },
+      {
+        "japanese": "結婚式では、最初に社長が挨拶しました。",
+        "romaji": "Kekkonshiki de wa, saisho ni shachō ga aisatsu shimashita.",
+        "german": "Bei der Hochzeit hielt zuerst der Firmenchef eine Ansprache."
+      }
+    ],
+    "aliases": [
+      "あいさつする"
+    ],
+    "pitch": 1,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "あいさつする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "あいさつする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 127e5b5c91fdd13a4dad712d4c5ee389c58f352c6b19620be774da2ff4a86a85",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8C%A8%E6%8B%B6%E3%81%99%E3%82%8B#word_1612",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          1
+        ],
+        "finding": "Dictionary-form cell of the exact head 挨拶する/あいさつする read; accent_top positions [1] (0 = no accent_top). Exact whole 挨拶する/あいさつする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "挨拶する",
+          "reading": "あいさつする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 挨拶する/あいさつする \"grüßen, begrüßen; eine Ansprache halten\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:aisatsu-suru-greet"
+  },
+  {
+    "word": "お金持ち",
+    "reading": "おかねもち",
+    "romaji": "okanemochi",
+    "meaning": "reiche Person, Reiche(r)",
+    "type": "Nomen",
+    "category": "Menschen",
+    "level": "N4",
+    "notes": "Höflich-weiche Form von 金持ち（かねもち） „Reicher“ mit dem Präfix お. Im Gespräch klingt お金持ち natürlicher und freundlicher; 金持ち ist neutral bis etwas derb (金持ちのくせに) und steht in Zusammensetzungen wie 大金持ち. Häufig in お金持ちになる „reich werden“ und お金持ちの家 „wohlhabende Familie“.",
+    "examples": [
+      {
+        "japanese": "将来はお金持ちになって、大きな家に住みたい。",
+        "romaji": "Shourai wa okanemochi ni natte, ookina ie ni sumitai.",
+        "german": "Später möchte ich reich werden und in einem großen Haus wohnen."
+      },
+      {
+        "japanese": "あの人はお金持ちなのに、いつも安い服を着ている。",
+        "romaji": "Ano hito wa okanemochi na noni, itsumo yasui fuku o kite iru.",
+        "german": "Obwohl er reich ist, trägt er immer billige Kleidung."
+      },
+      {
+        "japanese": "彼女はお金持ちの家に生まれた。",
+        "romaji": "Kanojo wa okanemochi no ie ni umareta.",
+        "german": "Sie wurde in eine wohlhabende Familie geboren."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:okanemochi-rich-person"
+  },
+  {
+    "word": "計画する",
+    "reading": "けいかくする",
+    "romaji": "keikaku suru",
+    "meaning": "planen",
+    "type": "Verb",
+    "category": "Arbeit",
+    "level": "N4",
+    "notes": "計画する ist transitiv: Das Geplante steht mit を (旅行を計画する), ganze Vorhaben mit 〜ことを計画する. Mit dem Nomen 計画 (eigene Karte) sagt man auch 計画を立てる „einen Plan aufstellen“. 予定 ist dagegen ein fester Termin oder ein Vorhaben im Kalender, während 計画 die Vorbereitung und Organisation betont.",
+    "examples": [
+      {
+        "japanese": "夏休みに家族で旅行を計画しています。",
+        "romaji": "Natsuyasumi ni kazoku de ryokō o keikaku shite imasu.",
+        "german": "Wir planen für die Sommerferien eine Familienreise."
+      },
+      {
+        "japanese": "友だちの誕生日パーティーをこっそり計画しました。",
+        "romaji": "Tomodachi no tanjōbi pātī o kossori keikaku shimashita.",
+        "german": "Wir haben heimlich die Geburtstagsparty eines Freundes geplant."
+      },
+      {
+        "japanese": "会社は来年、新しい工場を建てることを計画している。",
+        "romaji": "Kaisha wa rainen, atarashii kōjō o tateru koto o keikaku shite iru.",
+        "german": "Die Firma plant, nächstes Jahr eine neue Fabrik zu bauen."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "けいかくする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "けいかくする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 4d21bb56bacdc8fdb89fab636efe80515dda83ffafede15ccb48b7b66154ef53",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A8%88%E7%94%BB%E3%81%99%E3%82%8B#word_2059",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          0
+        ],
+        "finding": "Dictionary-form cell of the exact head 計画する/けいかくする read; accent_top positions [0] (0 = no accent_top). Exact whole 計画する/けいかくする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "計画する",
+          "reading": "けいかくする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 計画する/けいかくする \"planen\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:keikaku-suru-plan"
+  },
+  {
+    "word": "怪我する",
+    "reading": "けがする",
+    "romaji": "kega suru",
+    "meaning": "sich verletzen, verletzt werden",
+    "type": "Verb",
+    "category": "Körper",
+    "level": "N4",
+    "notes": "Verbform zur Nomen-Karte 怪我（けが） „Verletzung“. Im Alltag ist 怪我をする genauso üblich wie 怪我する; der verletzte Körperteil steht mit を (足を怪我する). Gemeint ist „sich (unabsichtlich) verletzen“ – jemand anderen verletzen heißt 怪我をさせる. Oft in Kana geschrieben (けがする); vgl. 傷（きず） „Wunde“ und 痛める „sich etwas verletzen, überanstrengen“.",
+    "examples": [
+      {
+        "japanese": "階段から落ちて、足を怪我しました。",
+        "romaji": "Kaidan kara ochite, ashi o kega shimashita.",
+        "german": "Ich bin die Treppe hinuntergefallen und habe mir das Bein verletzt."
+      },
+      {
+        "japanese": "事故で三人が怪我したそうです。",
+        "romaji": "Jiko de sannin ga kega shita sou desu.",
+        "german": "Bei dem Unfall sollen drei Menschen verletzt worden sein."
+      },
+      {
+        "japanese": "包丁を使うときは、怪我しないように気をつけてね。",
+        "romaji": "Houchou o tsukau toki wa, kega shinai you ni ki o tsukete ne.",
+        "german": "Pass beim Benutzen des Küchenmessers auf, dass du dich nicht verletzt."
+      }
+    ],
+    "aliases": [
+      "けがする"
+    ],
+    "pitch": 2,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "けがする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "けがする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 84ea9ab69f96a3908b3e9d147be4beff09d99e758f2b6d99dbc0ba8680c4bed0",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%80%AA%E6%88%91%E3%81%99%E3%82%8B#word_1826",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          2
+        ],
+        "finding": "Dictionary-form cell of the exact head 怪我する/けがする read; accent_top positions [2] (0 = no accent_top). Exact whole 怪我する/けがする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "怪我する",
+          "reading": "けがする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 怪我する/けがする \"sich verletzen, verletzt werden\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:kegasuru-injure"
+  },
+  {
+    "word": "支度する",
+    "reading": "したくする",
+    "romaji": "shitaku suru",
+    "meaning": "sich vorbereiten, sich fertig machen",
+    "type": "Verb",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "支度する meint die praktische Vorbereitung im Alltag: sich zum Ausgehen fertig machen, Essen vorbereiten, Gepäck packen. Häufig ist auch die Form mit dem Nomen: 出かける支度をする, 夕飯の支度をする (Nomen 支度 hat eine eigene Karte). 準備する ist allgemeiner und förmlicher (auch für Pläne, Veranstaltungen), 用意する betont das Bereitlegen von Dingen. Die Schreibung 仕度する ist gleichbedeutend.",
+    "examples": [
+      {
+        "japanese": "早く支度しなさい。学校に遅れるよ。",
+        "romaji": "Hayaku shitaku shinasai. Gakkō ni okureru yo.",
+        "german": "Mach dich schnell fertig! Du kommst sonst zu spät zur Schule."
+      },
+      {
+        "japanese": "五分で支度しますから、ちょっと待ってください。",
+        "romaji": "Gofun de shitaku shimasu kara, chotto matte kudasai.",
+        "german": "Ich mache mich in fünf Minuten fertig, warten Sie bitte kurz."
+      },
+      {
+        "japanese": "旅行に必要な物はもう全部支度しておきました。",
+        "romaji": "Ryokō ni hitsuyō na mono wa mō zenbu shitaku shite okimashita.",
+        "german": "Ich habe schon alles, was ich für die Reise brauche, vorbereitet."
+      }
+    ],
+    "aliases": [
+      "仕度する"
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "したくする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "したくする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 c770f6cb661554b08fd442bbac25da579b2d3b467fd916584583572e0068c290",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%AF%E5%BA%A6%E3%81%99%E3%82%8B#word_2188",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          0
+        ],
+        "finding": "Dictionary-form cell of the exact head 支度する/したくする read; accent_top positions [0] (0 = no accent_top). Exact whole 支度する/したくする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "支度する",
+          "reading": "したくする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 支度する/したくする \"sich vorbereiten, sich fertig machen\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:shitaku-suru"
+  },
+  {
+    "word": "承知する",
+    "reading": "しょうちする",
+    "romaji": "shōchi suru",
+    "meaning": "einverstanden sein, zustimmen; wissen, verstehen (höflich)",
+    "type": "Verb",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "承知する ist ein förmliches „zur Kenntnis nehmen, einwilligen“. Sehr häufig ist die bescheiden-höfliche Antwort 承知しました „Verstanden, wird gemacht“ im Beruf; noch demütiger ist かしこまりました, lockerer 分かりました oder 了解. ご承知のとおり bedeutet „wie Sie wissen“. Mit Objekt: X を承知する oder X は承知している „sich einer Sache bewusst sein“. Das Nomen 承知 hat eine eigene Karte.",
+    "examples": [
+      {
+        "japanese": "はい、承知しました。少々お待ちください。",
+        "romaji": "Hai, shōchi shimashita. Shōshō omachi kudasai.",
+        "german": "Jawohl, verstanden. Einen Moment bitte."
+      },
+      {
+        "japanese": "危険なことは十分承知しています。",
+        "romaji": "Kiken na koto wa jūbun shōchi shite imasu.",
+        "german": "Ich bin mir der Gefahr voll bewusst."
+      },
+      {
+        "japanese": "父は私の留学をなかなか承知しなかった。",
+        "romaji": "Chichi wa watashi no ryūgaku o nakanaka shōchi shinakatta.",
+        "german": "Mein Vater wollte meinem Auslandsstudium lange nicht zustimmen."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "しょうちする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "しょうちする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 961663d71603cf15920d2f1bfb192e792e44d27da3001fb249ed21dcc2932961",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%89%BF%E7%9F%A5%E3%81%99%E3%82%8B#word_2274",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          0
+        ],
+        "finding": "Dictionary-form cell of the exact head 承知する/しょうちする read; accent_top positions [0] (0 = no accent_top). Exact whole 承知する/しょうちする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "承知する",
+          "reading": "しょうちする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 承知する/しょうちする \"einverstanden sein, zustimmen; wissen, verstehen (höflich)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:shouchi-suru"
+  },
+  {
+    "word": "すっと",
+    "reading": "すっと",
+    "romaji": "sutto",
+    "meaning": "gerade, direkt; schnell, plötzlich; leise, sanft; (〜する) sich erleichtert fühlen",
+    "type": "Adverb",
+    "category": "Lautmalerei",
+    "level": "N4",
+    "notes": "Lautmalerisches Adverb für eine glatte, mühelose und oft plötzliche Bewegung: すっと立ち上がる, 痛みがすっと消える, 手をすっと出す. Mit する bedeutet 気持ちがすっとする / 胸がすっとする „sich erleichtert, befreit fühlen“. Nicht verwechseln mit ずっと „die ganze Zeit; viel mehr“ und そっと „leise, behutsam“ – すっと betont das Reibungslose und Schnelle. Gesprochen oft gedehnt als すーっと.",
+    "examples": [
+      {
+        "japanese": "名前を呼ばれると、彼はすっと立ち上がった。",
+        "romaji": "Namae o yobareru to, kare wa sutto tachiagatta.",
+        "german": "Als sein Name aufgerufen wurde, stand er ohne Zögern auf."
+      },
+      {
+        "japanese": "薬を飲んだら、頭の痛みがすっと消えた。",
+        "romaji": "Kusuri o nondara, atama no itami ga sutto kieta.",
+        "german": "Nachdem ich die Tablette genommen hatte, waren die Kopfschmerzen auf einmal weg."
+      },
+      {
+        "japanese": "言いたいことを全部言ったら、気持ちがすっとした。",
+        "romaji": "Iitai koto o zenbu ittara, kimochi ga sutto shita.",
+        "german": "Nachdem ich alles gesagt hatte, was ich sagen wollte, fühlte ich mich erleichtert."
+      }
+    ],
+    "aliases": [
+      "スッと"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:sutto-straight"
+  },
+  {
+    "word": "生活する",
+    "reading": "せいかつする",
+    "romaji": "seikatsu suru",
+    "meaning": "leben, seinen Alltag verbringen",
+    "type": "Verb",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Suru-Verb zum Nomen 生活 „Leben, Alltag“; der Ort steht mit で (東京で生活する), die Mittel ebenfalls mit で (年金で生活する). Es betont die Lebensführung und den Lebensunterhalt, während 暮らす etwas wärmer und alltäglicher klingt und 住む nur „wohnen“ bedeutet. Für „lebendig sein“ heißt es dagegen 生きる.",
+    "examples": [
+      {
+        "japanese": "大学に入ってから、一人で生活しています。",
+        "romaji": "Daigaku ni haitte kara, hitori de seikatsu shite imasu.",
+        "german": "Seit ich an der Uni bin, lebe ich allein."
+      },
+      {
+        "japanese": "月十万円で生活するのは大変です。",
+        "romaji": "Tsuki juuman-en de seikatsu suru no wa taihen desu.",
+        "german": "Von 100.000 Yen im Monat zu leben ist hart."
+      },
+      {
+        "japanese": "電気のない島で一週間生活した。",
+        "romaji": "Denki no nai shima de isshuukan seikatsu shita.",
+        "german": "Ich habe eine Woche lang auf einer Insel ohne Strom gelebt."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "せいかつする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "せいかつする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 6fe122c921091346d38cbdadb37678e6a4c7847451ddaaa6ff3e241b3eb8fbf2",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%94%9F%E6%B4%BB%E3%81%99%E3%82%8B#word_3570",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          0
+        ],
+        "finding": "Dictionary-form cell of the exact head 生活する/せいかつする read; accent_top positions [0] (0 = no accent_top). Exact whole 生活する/せいかつする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "生活する",
+          "reading": "せいかつする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 生活する/せいかつする \"leben, seinen Alltag verbringen\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:seikatsu-suru-leben"
+  },
+  {
+    "word": "世話する",
+    "reading": "せわする",
+    "romaji": "sewa suru",
+    "meaning": "sich kümmern um, betreuen, versorgen",
+    "type": "Verb",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Am häufigsten ist die Form 〜の世話をする (犬の世話をする „sich um den Hund kümmern“); X を世話する ist ebenfalls möglich, klingt aber etwas schriftlicher. Wer Hilfe bekommt, sagt dagegen 世話になる bzw. höflich お世話になる (eigene Karten). In der Bedeutung „vermitteln“ sagt man auch 仕事を世話する „eine Stelle vermitteln“.",
+    "examples": [
+      {
+        "japanese": "毎日、弟が犬の世話をしています。",
+        "romaji": "Mainichi, otōto ga inu no sewa o shite imasu.",
+        "german": "Mein jüngerer Bruder kümmert sich jeden Tag um den Hund."
+      },
+      {
+        "japanese": "母は入院中の祖母を毎日世話している。",
+        "romaji": "Haha wa nyūinchū no sobo o mainichi sewa shite iru.",
+        "german": "Meine Mutter pflegt jeden Tag die Großmutter, die im Krankenhaus liegt."
+      },
+      {
+        "japanese": "旅行の間、猫の世話をしてくれませんか。",
+        "romaji": "Ryokō no aida, neko no sewa o shite kuremasen ka.",
+        "german": "Könntest du dich während meiner Reise um die Katze kümmern?"
+      }
+    ],
+    "pitch": 2,
+    "verbGroup": "suru",
+    "conjugation": {
+      "verbGroup": "suru",
+      "conjugationReading": "せわする",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "せわする",
+    "pitchProvenance": [
+      {
+        "source": "OJAD (Online Japanese Accent Dictionary)",
+        "version": "Retrieved 2026-10-05; page SHA256 813314c037cafad489dfd1265cf2289fe26d91db1bb2e94462af1fa2d2da5fab",
+        "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%96%E8%A9%B1%E3%81%99%E3%82%8B#word_1831",
+        "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+        "patterns": [
+          2
+        ],
+        "finding": "Dictionary-form cell of the exact head 世話する/せわする read; accent_top positions [2] (0 = no accent_top). Exact whole 世話する/せわする scan has zero matching rows; no constituent pattern inference.",
+        "match": {
+          "word": "世話する",
+          "reading": "せわする",
+          "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+          "sense": "Verb 世話する/せわする \"sich kümmern um, betreuen, versorgen\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:sewa-suru-look-after"
+  },
+  {
+    "word": "菓子",
+    "reading": "かし",
+    "romaji": "kashi",
+    "meaning": "Süßigkeiten, Gebäck, Konfekt",
+    "type": "Nomen",
+    "category": "Essen",
+    "level": "N4",
+    "notes": "Grundwort ohne das höfliche Präfix お. Allein gesprochen sagt man im Alltag fast immer お菓子（おかし）; 菓子 allein wirkt schriftlich oder fachlich und erscheint vor allem in Zusammensetzungen: 菓子パン „süßes Brötchen“, 菓子店 „Konditorei“, 和菓子（わがし） „japanische Süßigkeiten“, 洋菓子（ようがし） „westliche Süßwaren“ – dort mit stimmhaftem が. Nicht verwechseln mit den Homophonen 歌詞 „Liedtext“ und 貸し „Verleih“.",
+    "examples": [
+      {
+        "japanese": "駅前に新しい菓子店ができました。",
+        "romaji": "Ekimae ni atarashii kashiten ga dekimashita.",
+        "german": "Vor dem Bahnhof hat eine neue Konditorei eröffnet."
+      },
+      {
+        "japanese": "朝ご飯に、コンビニで菓子パンを買った。",
+        "romaji": "Asagohan ni, konbini de kashipan o katta.",
+        "german": "Zum Frühstück habe ich im Konbini ein süßes Brötchen gekauft."
+      },
+      {
+        "japanese": "客間には、お茶と菓子が用意してあった。",
+        "romaji": "Kyakuma ni wa, ocha to kashi ga youi shite atta.",
+        "german": "Im Gästezimmer standen Tee und Gebäck bereit."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93029040",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole 菓子/カシ; lemma 菓子; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "菓子",
+          "reading": "かし",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 菓子/かし \"Süßigkeiten, Gebäck, Konfekt\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:kashi-sweets"
+  },
+  {
+    "word": "〜軒",
+    "reading": "けん",
+    "romaji": "ken",
+    "meaning": "Zähleinheitswort für Häuser, Gebäude, Läden (Zähleinheitswort)",
+    "type": "Partikel",
+    "category": "Zähleinheitswörter",
+    "level": "N4",
+    "notes": "Zählt Häuser, Läden, Restaurants und andere Gebäude: 一軒 (いっけん), 二軒, 三軒 (さんげん), 六軒 (ろっけん), 八軒 (はっけん), 十軒 (じゅっけん), Frage 何軒 (なんげん). 一軒家 heißt „Einfamilienhaus“. Die Karte 軒/のき lehrt dagegen das Nomen „Dachvorsprung“; nicht verwechseln mit 〜件 (Fälle, Angelegenheiten) und 〜県 (Präfektur).",
+    "examples": [
+      {
+        "japanese": "駅の近くに本屋が一軒あります。",
+        "romaji": "Eki no chikaku ni hon'ya ga ikken arimasu.",
+        "german": "In der Nähe des Bahnhofs gibt es einen Buchladen."
+      },
+      {
+        "japanese": "この通りにはコンビニが三軒もある。",
+        "romaji": "Kono tōri ni wa konbini ga sangen mo aru.",
+        "german": "In dieser Straße gibt es sogar drei Convenience-Stores."
+      },
+      {
+        "japanese": "昨日は友達と居酒屋を何軒も回った。",
+        "romaji": "Kinō wa tomodachi to izakaya o nangen mo mawatta.",
+        "german": "Gestern bin ich mit Freunden durch etliche Kneipen gezogen."
+      }
+    ],
+    "aliases": [
+      "軒"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:ken-buildings-counter"
+  },
+  {
+    "word": "招待",
+    "reading": "しょうたい",
+    "romaji": "shōtai",
+    "meaning": "Einladung",
+    "type": "Nomen",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "招待 ist die förmliche Einladung als Nomen: 招待を受ける „eine Einladung annehmen“, 招待を断る „ablehnen“, höflich ご招待. Die Einladungskarte heißt 招待状. Das Verb „einladen“ ist 招待する (eigene Karte); 正体 „wahre Identität“ wird gleich gelesen, ist aber ein anderes Wort.",
+    "examples": [
+      {
+        "japanese": "友だちから結婚式の招待状が届きました。",
+        "romaji": "Tomodachi kara kekkonshiki no shōtaijō ga todokimashita.",
+        "german": "Von einem Freund ist eine Einladung zur Hochzeit angekommen."
+      },
+      {
+        "japanese": "ご招待、ありがとうございます。",
+        "romaji": "Go-shōtai, arigatō gozaimasu.",
+        "german": "Vielen Dank für die Einladung."
+      },
+      {
+        "japanese": "忙しかったので、パーティーへの招待を断りました。",
+        "romaji": "Isogashikatta node, pātī e no shōtai o kotowarimashita.",
+        "german": "Weil ich viel zu tun hatte, habe ich die Einladung zur Party abgelehnt."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141053634",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole 招待/ショウタイ; lemma 招待; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "match": {
+          "word": "招待",
+          "reading": "しょうたい",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "Nomen 招待/しょうたい \"Einladung\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:shoutai-invitation"
+  },
+  {
+    "word": "頬",
+    "reading": "ほほ",
+    "romaji": "hoho",
+    "meaning": "Wange (Lesevariante von ほお)",
+    "type": "Nomen",
+    "category": "Körper",
+    "level": "N4",
+    "notes": "Zweite, gleichberechtigte Lesung von 頬 „Wange“ neben ほお (eigene Karte). ほお gilt als Standard- und Wörterbuchform und steht fest in 頬杖（ほおづえ） und 頬張る（ほおばる）; ほほ ist im gesprochenen Japanisch sehr verbreitet und steckt in ほほえむ „lächeln“ (微笑む). In freier Verwendung (頬が赤い) sind beide Lesungen richtig; ほほ wirkt etwas weicher und umgangssprachlicher.",
+    "examples": [
+      {
+        "japanese": "寒さで子どもの頬が赤くなっている。",
+        "romaji": "Samusa de kodomo no hoho ga akaku natte iru.",
+        "german": "Die Wangen des Kindes sind von der Kälte ganz rot."
+      },
+      {
+        "japanese": "映画を見ながら、涙が頬を流れた。",
+        "romaji": "Eiga o minagara, namida ga hoho o nagareta.",
+        "german": "Beim Anschauen des Films liefen mir Tränen über die Wangen."
+      },
+      {
+        "japanese": "祖母は私の頬を両手で包んで、「大きくなったね」と言った。",
+        "romaji": "Sobo wa watashi no hoho o ryoute de tsutsunde, \"Ookiku natta ne\" to itta.",
+        "german": "Meine Großmutter nahm mein Gesicht in beide Hände und sagte: „Bist du groß geworden!“"
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243344186",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole 頬/ホホ; lemma 頬; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "頬",
+          "reading": "ほほ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 頬/ほほ \"Wange (Lesevariante von ほお)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:hoho-cheek"
+  },
+  {
+    "word": "よう",
+    "reading": "よう",
+    "romaji": "you",
+    "meaning": "Art, Weise; Anschein; wie (〜ような, 〜ように, 〜ようだ)",
+    "type": "Nomen",
+    "category": "Art und Weise",
+    "level": "N4",
+    "notes": "Formales Nomen, das fast immer in Kana steht und nie allein vorkommt: ようだ „scheint“, ような „wie ein …“, ように „so dass / wie“; nach dem Verbstamm bezeichnet es die Art und Weise (言いようがない „es gibt keine Worte dafür“). Nicht verwechseln mit 〜様 (さま, höfliches Namenssuffix), 様子 (ようす, Zustand, Anschein) oder 用 (よう, Angelegenheit).",
+    "examples": [
+      {
+        "japanese": "田中さんは今日とても疲れているようだ。",
+        "romaji": "Tanaka-san wa kyou totemo tsukarete iru you da.",
+        "german": "Herr Tanaka scheint heute sehr müde zu sein."
+      },
+      {
+        "japanese": "日本語が上手に話せるように、毎日練習しています。",
+        "romaji": "Nihongo ga jouzu ni hanaseru you ni, mainichi renshuu shite imasu.",
+        "german": "Ich übe jeden Tag, damit ich gut Japanisch sprechen kann."
+      },
+      {
+        "japanese": "あの時のうれしさは言いようがない。",
+        "romaji": "Ano toki no ureshisa wa iiyou ga nai.",
+        "german": "Die Freude von damals lässt sich gar nicht in Worte fassen."
+      }
+    ],
+    "aliases": [
+      "様"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:you-manner"
+  },
+  {
+    "word": "悪口",
+    "reading": "わるくち",
+    "romaji": "warukuchi",
+    "meaning": "Lästerei, üble Nachrede, Beschimpfung (Lesung わるくち)",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "悪口 hat zwei gleichwertige Standardlesungen, わるくち und わるぐち (eigene Karte); Bedeutung und Gebrauch sind identisch, わるくち ist etwas häufiger und steht in Wörterbüchern oft zuerst. Typisch ist 〜の悪口を言う „über jemanden lästern“, passiv 悪口を言われる. Die sinojapanische Lesung あっこう kommt nur in Schriftsprache und Redewendungen wie 悪口雑言 vor.",
+    "examples": [
+      {
+        "japanese": "人の悪口を言うのはよくないよ。",
+        "romaji": "Hito no warukuchi o iu no wa yoku nai yo.",
+        "german": "Es ist nicht gut, über andere zu lästern."
+      },
+      {
+        "japanese": "彼女はいつも陰で上司の悪口を言っている。",
+        "romaji": "Kanojo wa itsumo kage de jōshi no warukuchi o itte iru.",
+        "german": "Sie lästert ständig hinter dem Rücken über ihren Chef."
+      },
+      {
+        "japanese": "クラスで悪口を言われて、とても悲しかった。",
+        "romaji": "Kurasu de warukuchi o iwarete, totemo kanashikatta.",
+        "german": "Ich war sehr traurig, weil in der Klasse über mich hergezogen wurde."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@283659202",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Exact whole 悪口/ワルクチ; lemma 悪口; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "match": {
+          "word": "悪口",
+          "reading": "わるくち",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 悪口/わるくち \"Lästerei, üble Nachrede, Beschimpfung (Lesung わるくち)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:warukuchi-abuse"
+  },
+  {
+    "word": "開放",
+    "reading": "かいほう",
+    "romaji": "kaihou",
+    "meaning": "Öffnung, Offenlassen; Freigabe (für die Öffentlichkeit)",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N4",
+    "notes": "Nomen zum Verb 開放する (öffnen, zugänglich machen); typisch in 校庭開放 „Öffnung des Schulhofs“, 市場の開放 „Marktöffnung“ und 開放感 „Gefühl von Weite“. Nicht verwechseln mit den Homophonen 解放 (Befreiung von Zwang oder Gefangenschaft) und 介抱 (Pflege eines Kranken): 開放 öffnet Türen, Räume und Märkte, 解放 befreit Menschen.",
+    "examples": [
+      {
+        "japanese": "毎週土曜日は校庭開放の日です。",
+        "romaji": "Maishuu doyoubi wa koutei kaihou no hi desu.",
+        "german": "Jeden Samstag ist der Schulhof für alle geöffnet."
+      },
+      {
+        "japanese": "政府は農産物市場の開放を進めている。",
+        "romaji": "Seifu wa nousanbutsu shijou no kaihou o susumete iru.",
+        "german": "Die Regierung treibt die Öffnung des Agrarmarktes voran."
+      },
+      {
+        "japanese": "この部屋は天井が高くて開放感がある。",
+        "romaji": "Kono heya wa tenjou ga takakute kaihoukan ga aru.",
+        "german": "Dieses Zimmer hat eine hohe Decke und wirkt schön offen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86522281",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 開放/カイホウ; lemma 開放; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "match": {
+          "word": "開放",
+          "reading": "かいほう",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "Nomen 開放/かいほう \"Öffnung, Offenlassen; Freigabe (für die Öffentlichkeit)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:kaihou-opening"
+  },
+  {
+    "word": "〜員",
+    "reading": "いん",
+    "romaji": "in",
+    "meaning": "-angestellte(r), -mitglied, Personal (Suffix, z. B. 会社員, 店員)",
+    "type": "Partikel",
+    "category": "Arbeit",
+    "level": "N4",
+    "notes": "Suffix für Personen, die einer Organisation angehören oder dort arbeiten: 会社員 „Firmenangestellte(r)“, 店員 „Verkäufer(in)“, 駅員 „Bahnangestellte(r)“, 会員 „Mitglied“, 公務員 „Beamte(r)“. Allein steht 員 praktisch nie; als eigenständiges Wort sagt man メンバー oder 一員（いちいん）. Anders als 〜者（しゃ） „Person, die … tut“ betont 〜員 die Zugehörigkeit zu einer Gruppe oder Belegschaft. Nicht verwechseln mit dem Homophon 韻（いん） „Reim“.",
+    "examples": [
+      {
+        "japanese": "兄は銀行員で、毎朝早く家を出ます。",
+        "romaji": "Ani wa ginkouin de, maiasa hayaku ie o demasu.",
+        "german": "Mein älterer Bruder ist Bankangestellter und verlässt jeden Morgen früh das Haus."
+      },
+      {
+        "japanese": "道がわからなかったので、駅員に聞きました。",
+        "romaji": "Michi ga wakaranakatta node, ekiin ni kikimashita.",
+        "german": "Weil ich den Weg nicht wusste, habe ich einen Bahnangestellten gefragt."
+      },
+      {
+        "japanese": "このジムの会員になると、プールも使えます。",
+        "romaji": "Kono jimu no kaiin ni naru to, puuru mo tsukaemasu.",
+        "german": "Wenn man Mitglied in diesem Fitnessstudio wird, kann man auch das Schwimmbad benutzen."
+      }
+    ],
+    "aliases": [
+      "員"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:in-member-suffix"
+  },
+  {
+    "word": "十分",
+    "reading": "じっぷん",
+    "romaji": "jippun",
+    "meaning": "zehn Minuten",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "Als Zeitangabe liest man 十分 じっぷん oder, heute im Gespräch häufiger, じゅっぷん „zehn Minuten“. Dieselbe Schreibung gelesen じゅうぶん heißt „genug, ausreichend“ (eigene Karte); deshalb schreibt man die Minuten meist mit Ziffern als 10分. Mit 〜間 betont 十分間 die Dauer.",
+    "examples": [
+      {
+        "japanese": "駅まで歩いて十分ぐらいです。",
+        "romaji": "Eki made aruite jippun gurai desu.",
+        "german": "Zum Bahnhof sind es zu Fuß etwa zehn Minuten."
+      },
+      {
+        "japanese": "あと十分で会議が始まります。",
+        "romaji": "Ato jippun de kaigi ga hajimarimasu.",
+        "german": "In zehn Minuten beginnt die Besprechung."
+      },
+      {
+        "japanese": "授業と授業の間に十分の休憩があります。",
+        "romaji": "Jugyō to jugyō no aida ni jippun no kyūkei ga arimasu.",
+        "german": "Zwischen den Unterrichtsstunden gibt es zehn Minuten Pause."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:juppun-ten-minutes"
+  },
+  {
+    "word": "ばかり",
+    "reading": "ばかり",
+    "romaji": "bakari",
+    "meaning": "nur, lauter, nichts als; ungefähr, etwa; gerade erst (〜たばかり)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "ばかり folgt Nomen oder Verbformen: 肉ばかり食べる „nur Fleisch essen“, 遊んでばかりいる „nichts als spielen“, 食べたばかり „gerade erst gegessen“. Nach Mengenangaben bedeutet es „ungefähr“ (一時間ばかり), ähnlich wie ぐらい. Anders als だけ klingt ばかり oft vorwurfsvoll („immer nur“). Umgangssprachlich oft ばっかり; geschrieben fast immer in Kana, die Kanji-Form 許り ist selten.",
+    "examples": [
+      {
+        "japanese": "弟はゲームばかりしています。",
+        "romaji": "Otouto wa geemu bakari shite imasu.",
+        "german": "Mein kleiner Bruder spielt nur Videospiele."
+      },
+      {
+        "japanese": "さっき昼ご飯を食べたばかりです。",
+        "romaji": "Sakki hirugohan o tabeta bakari desu.",
+        "german": "Ich habe gerade erst zu Mittag gegessen."
+      },
+      {
+        "japanese": "駅で十分ばかり待ちました。",
+        "romaji": "Eki de juppun bakari machimashita.",
+        "german": "Ich habe etwa zehn Minuten am Bahnhof gewartet."
+      }
+    ],
+    "aliases": [
+      "許り"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:bakari-nur"
+  },
+  {
+    "word": "まま",
+    "reading": "まま",
+    "romaji": "mama",
+    "meaning": "so wie es ist, unverändert; während (Zustand bleibt); nach Belieben",
+    "type": "Nomen",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Formales Nomen, das einen unveränderten Zustand ausdrückt: Verb in der た-Form + まま (窓を開けたまま寝る „bei offenem Fenster schlafen“), Nomen + のまま (昔のまま), auch 言われるままに „wie einem gesagt wird“. Anders als 〜ながら beschreibt まま keine zweite Handlung, sondern einen Zustand, der bestehen bleibt, oft unerwartet. そのまま hat eine eigene Karte; nicht verwechseln mit ママ „Mama“ und 間々 „gelegentlich“. Fast immer in Kana.",
+    "examples": [
+      {
+        "japanese": "靴を履いたまま部屋に入らないでください。",
+        "romaji": "Kutsu o haita mama heya ni hairanaide kudasai.",
+        "german": "Bitte betreten Sie das Zimmer nicht mit Schuhen."
+      },
+      {
+        "japanese": "窓を開けたまま寝てしまって、風邪をひいた。",
+        "romaji": "Mado o aketa mama nete shimatte, kaze o hiita.",
+        "german": "Ich bin bei offenem Fenster eingeschlafen und habe mich erkältet."
+      },
+      {
+        "japanese": "この町には昔のままの古い家がたくさん残っている。",
+        "romaji": "Kono machi ni wa mukashi no mama no furui ie ga takusan nokotte iru.",
+        "german": "In dieser Stadt sind viele alte Häuser so erhalten, wie sie früher waren."
+      }
+    ],
+    "aliases": [
+      "儘"
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252060694",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Exact whole まま/ママ; lemma 侭; 名詞/普通名詞/副詞可能/*; *; *; aType 2 | 儘/ママ; lemma 侭; 名詞/普通名詞/副詞可能/*; *; *; aType 2. Rejected for this role: まま/ママ; lemma まま; 副詞/*/*/*; *; *; aType * | まま/ママ; lemma ママ-mama; 名詞/普通名詞/一般/*; *; *; aType 1 | まま/ママ; lemma 間々; 副詞/*/*/*; *; *; aType 0,1 | まま/ママ; lemma 飯; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "まま",
+          "reading": "まま",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "Nomen まま/まま \"so wie es ist, unverändert; während (Zustand bleibt); nach Belieben\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:mama-as-is"
+  },
+  {
+    "word": "によると",
+    "reading": "によると",
+    "romaji": "ni yoru to",
+    "meaning": "laut, gemäß, zufolge (〜によると)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "〜によると nennt die Informationsquelle und steht meist am Satzanfang: 天気予報によると „laut Wettervorhersage“. Der Satz endet dann typischerweise mit einer Hörensagen-Form wie 〜そうです oder 〜ということです. Gleichbedeutend, etwas schriftlicher ist 〜によれば. Nicht verwechseln mit ことによると „womöglich“ und dem Verb 拠る „beruhen auf“; die Kanji-Schreibung に依ると ist selten.",
+    "examples": [
+      {
+        "japanese": "天気予報によると、明日は雨が降るそうです。",
+        "romaji": "Tenki yohou ni yoru to, ashita wa ame ga furu sou desu.",
+        "german": "Laut Wettervorhersage soll es morgen regnen."
+      },
+      {
+        "japanese": "ニュースによると、駅の近くで事故があったそうです。",
+        "romaji": "Nyuusu ni yoru to, eki no chikaku de jiko ga atta sou desu.",
+        "german": "Den Nachrichten zufolge gab es in der Nähe des Bahnhofs einen Unfall."
+      },
+      {
+        "japanese": "田中さんの話によると、あの店は来月閉まるそうです。",
+        "romaji": "Tanaka-san no hanashi ni yoru to, ano mise wa raigetsu shimaru sou desu.",
+        "german": "Nach dem, was Herr Tanaka erzählt, schließt der Laden nächsten Monat."
+      }
+    ],
+    "aliases": [
+      "に依ると"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:niyoruto-laut"
+  },
+  {
+    "word": "いけません",
+    "reading": "いけません",
+    "romaji": "ikemasen",
+    "meaning": "nicht gut, falsch; darf nicht (…てはいけません); hoffnungslos",
+    "type": "Ausdruck",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Höfliche Form von いけない; zentral in …てはいけません „man darf nicht“ (Verbot) und …なければいけません „man muss“ (Pflicht). Allein drückt それはいけませんね Mitgefühl aus: „Das ist ja schlimm.“ Fast immer in Kana geschrieben, denn 行けません ist zugleich die Potentialform von 行く „kann nicht gehen“. Locker sagt man …ちゃだめ oder …てはだめ.",
+    "examples": [
+      {
+        "japanese": "美術館の中で写真を撮ってはいけません。",
+        "romaji": "Bijutsukan no naka de shashin o totte wa ikemasen.",
+        "german": "Im Museum darf man nicht fotografieren."
+      },
+      {
+        "japanese": "明日までにレポートを出さなければいけません。",
+        "romaji": "Ashita made ni repōto o dasanakereba ikemasen.",
+        "german": "Ich muss den Bericht bis morgen abgeben."
+      },
+      {
+        "japanese": "えっ、熱があるんですか。それはいけませんね。",
+        "romaji": "E, netsu ga aru n desu ka. Sore wa ikemasen ne.",
+        "german": "Was, du hast Fieber? Das ist ja nicht gut."
+      }
+    ],
+    "aliases": [
+      "行けません"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:ikemasen"
   }
 ];

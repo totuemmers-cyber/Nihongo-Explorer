@@ -1,0 +1,1277 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "すてき|すてき",
+      "referenceIndex": 0,
+      "referenceHash": "f8e639d03d33f1b09f1eba5c158a15b274d88bc836389bd15a5fc1c9f210b84a",
+      "revisionId": "174g-reference-すてき|すてき-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:157"
+      ],
+      "targetHashes": {
+        "vocab-n4:157": "3e1d9c4331541e34d6ad35427e09034b6cef65256250e48989ea76075f6e0a67"
+      },
+      "reason": "Tanos row すてき 'lovely, dreamy, beautiful, great' is the kana form of 素敵 (JMdict 1397350, adj-na 'lovely; wonderful'; 素敵/素適 are ateji). Card vocab-n4:157 素敵/すてき 'wunderbar, toll' has the identical reading and sense, so the kana form becomes its alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 f8e639d03d33f1b09f1eba5c158a15b274d88bc836389bd15a5fc1c9f210b84a",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=47",
+          "finding": "すてき/すてき glossed \"lovely,dreamy,beautiful,great\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1397350; 素敵/すてき",
+          "finding": "adj-na lovely; wonderful; charming: same reading and sense"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference すてき|すてき#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:157.",
+        "contentHash": "74ba0e26bc6f1e57c130728650b074f5ff522015b1f1103cb74570c51ed6f1f0",
+        "approvalHash": "74ba0e26bc6f1e57c130728650b074f5ff522015b1f1103cb74570c51ed6f1f0"
+      }
+    },
+    {
+      "key": "素晴らし|すばらしい",
+      "referenceIndex": 0,
+      "referenceHash": "666cb8e15bf4db55638b5489795bede3056c6982cea55c6946d1619e843d42b2",
+      "revisionId": "174g-reference-素晴らし|すばらしい-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Source error: tanos writes 素晴らし (final い missing) but reads すばらしい. 素晴らし is no JMdict form (lookup: no entry); the word is 素晴らしい (JMdict 1397300), already taught by vocab-n4:15 素晴らしい/すばらしい 'wunderbar, großartig'. A truncated spelling must not become an alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 666cb8e15bf4db55638b5489795bede3056c6982cea55c6946d1619e843d42b2",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=47",
+          "finding": "素晴らし/すばらしい glossed \"wonderful,splendid,magnificent\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 素晴らし",
+          "finding": "no JMdict entry for the truncated spelling"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1397300; 素晴らしい/すばらしい",
+          "finding": "the intended word; card vocab-n4:15"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 素晴らし|すばらしい#0, its evidence and the excluded decision.",
+        "contentHash": "003baac8811597ab837069f9fa5b6268bf617186f840b662a646acceabc668bd",
+        "approvalHash": "003baac8811597ab837069f9fa5b6268bf617186f840b662a646acceabc668bd"
+      }
+    },
+    {
+      "key": "唯|たった",
+      "referenceIndex": 0,
+      "referenceHash": "6d5a880bbd7c336708ada4d95b33123a33f432375440c6dfe3909aedd14ada35",
+      "revisionId": "174g-reference-唯|たった-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Source mix-up. 唯 is read ただ (JMdict 1538900 只/唯 【ただ】, rK), and the gloss 'free of charge, mere, sole, only, usual, common' is exactly the sense list of ただ. たった (JMdict 1007230) is kana-only with no kanji spelling, and JMdict has no 唯/たった. The meaning 'only' is taught by vocab-n4:317 たった and vocab-n3:correction:tada ただ ('nur, bloß; kostenlos; gewöhnlich').",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 6d5a880bbd7c336708ada4d95b33123a33f432375440c6dfe3909aedd14ada35",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=55",
+          "finding": "唯/たった glossed \"free of charge,mere,sole,only,usual,common\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1538900; 只/唯/ただ",
+          "finding": "唯 is a rare kanji for ただ: free; ordinary; only"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1007230; たった",
+          "finding": "kana-only entry; there is no 唯 spelling"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 唯/たった",
+          "finding": "no JMdict entry for this spelling+reading"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 唯|たった#0, its evidence and the excluded decision.",
+        "contentHash": "e56d07468defb351c100978f6769ab8e4f8163109fee89adab1a409e2a0350c1",
+        "approvalHash": "e56d07468defb351c100978f6769ab8e4f8163109fee89adab1a409e2a0350c1"
+      }
+    },
+    {
+      "key": "出来るだ|できるだけ",
+      "referenceIndex": 0,
+      "referenceHash": "348bc38a535a8d4a115f0d0017e8cebcddb0e1056a114bf679a00eeed525790c",
+      "revisionId": "174g-reference-出来るだ|できるだけ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Source error: tanos spelling 出来るだ is truncated (missing け) and is not a word; JMdict 1340460 has 出来るだけ/出来る丈 【できるだけ】 'as much as possible' (uk). The word is already taught by reviewed card vocab-n4:79 できるだけ/できるだけ, and the master row 出来るだけ|できるだけ covers the correct kanji spelling; adding the garbled string 出来るだ as an alias would be wrong.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 348bc38a535a8d4a115f0d0017e8cebcddb0e1056a114bf679a00eeed525790c",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=61",
+          "finding": "出来るだ/できるだけ glossed \"if at all possible\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1340460; 出来るだけ/できるだけ",
+          "finding": "exp,adv uk: as much as possible; if at all possible"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 出来るだ",
+          "finding": "no JMdict entry for the truncated spelling"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 出来るだ|できるだけ#0, its evidence and the excluded decision.",
+        "contentHash": "6b2f43ff252022dbcf7a8ca1b5903ced121cee9859921782bd832c865d9ef836",
+        "approvalHash": "6b2f43ff252022dbcf7a8ca1b5903ced121cee9859921782bd832c865d9ef836"
+      }
+    },
+    {
+      "key": "何とか|なんとか",
+      "referenceIndex": 0,
+      "referenceHash": "55d6df94205dec5dbbaf524cf4b23b4591bdfa359b01c7277d9962d3c78c0757",
+      "revisionId": "174g-reference-何とか|なんとか-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:318"
+      ],
+      "targetHashes": {
+        "vocab-n4:318": "b910f62ddfc76c9320c0a75ce0db3610bc23a127913e65c141081f1a0f39a842"
+      },
+      "reason": "Tanos 何とか 'somehow, anyhow' is the kanji headword of JMdict 1188420 何とか【なんとか】 sense 2 (adv, uk). Card vocab-n4:318 なんとか (irgendwie) teaches exactly this sense with identical reading; add 何とか as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 55d6df94205dec5dbbaf524cf4b23b4591bdfa359b01c7277d9962d3c78c0757",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=68",
+          "finding": "何とか/なんとか glossed \"somehow,anyhow,one way or another\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1188420; 何とか/なんとか",
+          "finding": "sense 2 [adv,vs; uk] somehow; anyhow; one way or another"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 何とか|なんとか#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:318.",
+        "contentHash": "34c93a02eeb456de56563b22e74509a7f602e43e5bb820c5ed3c079b7689a625",
+        "approvalHash": "34c93a02eeb456de56563b22e74509a7f602e43e5bb820c5ed3c079b7689a625"
+      }
+    },
+    {
+      "key": "何とか|なんとか",
+      "referenceIndex": 1,
+      "referenceHash": "3d99d6f6963844eb86564f8f82bce8855c1ae95a1455ce544b63796117301f5c",
+      "revisionId": "174g-reference-何とか|なんとか-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n4:318"
+      ],
+      "targetHashes": {
+        "vocab-n4:318": "b910f62ddfc76c9320c0a75ce0db3610bc23a127913e65c141081f1a0f39a842"
+      },
+      "reason": "Nihongo Master 何とか 'something; something or other; so-and-so' is JMdict 1188420 sense 1 [exp; uk], same entry and reading as card vocab-n4:318 なんとか, which only teaches 'irgendwie' (sense 2). The placeholder sense (なんとかさん, なんとかという店) is common and learnable, so append it; 何とか also becomes an alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N3)",
+          "version": "Frozen candidate reference SHA256 3d99d6f6963844eb86564f8f82bce8855c1ae95a1455ce544b63796117301f5c",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "何とか/なんとか glossed \"something; something or other; so-and-so\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1188420; 何とか/なんとか",
+          "finding": "sense 1 [exp; uk] something; something or other; so-and-so — not on the card"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-sense"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 何とか|なんとか#1, its evidence and the additional-sense decision against the exact current target card(s) vocab-n4:318.",
+        "contentHash": "3b25e3e24b1fc55078a14d43378d3aeb430bc891e575323a1122139b99f74b50",
+        "approvalHash": "3b25e3e24b1fc55078a14d43378d3aeb430bc891e575323a1122139b99f74b50"
+      }
+    },
+    {
+      "key": "無|ぶ",
+      "referenceIndex": 0,
+      "referenceHash": "db4929c6159dbd69555d21e12f3a8f88e6288901cfe88de81d7567fd7c4de81b",
+      "revisionId": "174g-reference-無|ぶ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: tanos pairs the bare kanji 無 with its on-reading ぶ and kanji-dictionary meanings 'nothing, naught, nil, zero'. JMdict has no word 無/ぶ with that sense: 'nothing; nil' is 無/む (1956960), while 無/不【ぶ】 (2423740) is only the prefix 'un-; non-'. The prefix ぶ is covered by the Nihongo Master row of this key (new card 無〜/ぶ); the noun む 'nothing' has no app card and is not N4 material; the suggested target 〜部 is an unrelated homophone.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 db4929c6159dbd69555d21e12f3a8f88e6288901cfe88de81d7567fd7c4de81b",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=76",
+          "finding": "無/ぶ glossed \"nothing,naught,nil,zero\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1956960; 無/む",
+          "finding": "the 'nothing; nil; zero' sense belongs to reading む"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2423740; 無/不 ぶ",
+          "finding": "only prefix senses un-/non-, bad"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 無|ぶ#0, its evidence and the excluded decision.",
+        "contentHash": "4ad6aeb1e14879d888717839c06c0ba80e5756152dd0bbd1e11cf935f30ca5b4",
+        "approvalHash": "4ad6aeb1e14879d888717839c06c0ba80e5756152dd0bbd1e11cf935f30ca5b4"
+      }
+    },
+    {
+      "key": "祭|まつり",
+      "referenceIndex": 0,
+      "referenceHash": "d38eff459381898ca81fb837f4956dd7371f5043c3e1ca9d9f9de7e1f128b276",
+      "revisionId": "174g-reference-祭|まつり-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:226"
+      ],
+      "targetHashes": {
+        "vocab-n4:226": "7f420b8e724197c34c4239dc1446f49481de9ba61b956d050db6e9f2a22a9762"
+      },
+      "reason": "TANOS/Nihongo Master 祭/まつり \"festival, feast\" is the okurigana-less spelling of 祭り. JMdict 1604130 lists 祭り/祭 under まつり, sense 1 festival. Card vocab-n4:226 祭り/まつり \"Fest, Festival\" teaches it with identical reading; add 祭 as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 d38eff459381898ca81fb837f4956dd7371f5043c3e1ca9d9f9de7e1f128b276",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=83",
+          "finding": "祭/まつり glossed \"festival,feast\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1604130; 祭り/祭【まつり】",
+          "finding": "祭 listed in same entry; sense 1 festival; feast"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 祭|まつり#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:226.",
+        "contentHash": "e721959986ceeb6280ad34928827018baedd0e68bc078302c9c69c7716776cdd",
+        "approvalHash": "e721959986ceeb6280ad34928827018baedd0e68bc078302c9c69c7716776cdd"
+      }
+    },
+    {
+      "key": "祭|まつり",
+      "referenceIndex": 1,
+      "referenceHash": "995c789f3a49aa1e5d07fa6bf58e36aca389043d71ce5f075c65c06f59298b83",
+      "revisionId": "174g-reference-祭|まつり-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:226"
+      ],
+      "targetHashes": {
+        "vocab-n4:226": "7f420b8e724197c34c4239dc1446f49481de9ba61b956d050db6e9f2a22a9762"
+      },
+      "reason": "TANOS/Nihongo Master 祭/まつり \"festival, feast\" is the okurigana-less spelling of 祭り. JMdict 1604130 lists 祭り/祭 under まつり, sense 1 festival. Card vocab-n4:226 祭り/まつり \"Fest, Festival\" teaches it with identical reading; add 祭 as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N3)",
+          "version": "Frozen candidate reference SHA256 995c789f3a49aa1e5d07fa6bf58e36aca389043d71ce5f075c65c06f59298b83",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=2",
+          "finding": "祭/まつり glossed \"festival; feast; fête\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1604130; 祭り/祭【まつり】",
+          "finding": "祭 listed in same entry; sense 1 festival; feast"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 祭|まつり#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:226.",
+        "contentHash": "47ab6f816070099b8217bf23bfa2ed2adfe2f10f9c697ad767d9a5a8809c0688",
+        "approvalHash": "47ab6f816070099b8217bf23bfa2ed2adfe2f10f9c697ad767d9a5a8809c0688"
+      }
+    },
+    {
+      "key": "回り|まわり",
+      "referenceIndex": 0,
+      "referenceHash": "cbd741f07c3a08ebddb6739e11c6874590d618cef3ef1a6a3b8f2716360bda5b",
+      "revisionId": "174g-reference-回り|まわり-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:972"
+      ],
+      "targetHashes": {
+        "vocab-n4:972": "77e04109f91b9fe41fd9488f0b50e5f2c606b8032b1545af85efbbfcc7fcb51a"
+      },
+      "reason": "Tanos 回り 'circumference, surroundings, circulation' copies the old merged EDICT entry 回り/周り. The main senses (circumference, surroundings) are those of JMdict 1604290 周り【まわり】, taught by card vocab-n4:972 周り/まわり (Umgebung) with identical reading. 回り was the standard spelling for 'surroundings' before 周 got the reading まわり in the 2010 Joyo revision (cf. 身の回り, JMdict 1365590 lists 身の回り/身の周り together), so 回り is an older spelling of this word.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 cbd741f07c3a08ebddb6739e11c6874590d618cef3ef1a6a3b8f2716360bda5b",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=83",
+          "finding": "回り/まわり glossed \"circumference,surroundings,circulation\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1604290; 周り/まわり",
+          "finding": "circumference; surroundings; people around — matches source glosses"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2800530; 回り/まわり",
+          "finding": "now separate entry: rotation; rounds; via; counter — only 'circulation' of the source fits here"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1365590; 身の回り/身の周り",
+          "finding": "回り and 周り interchangeable for the 'surroundings' sense"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 回り|まわり#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:972.",
+        "contentHash": "313fd02e4bf8f15d48af628c2b3d3b9175ea973b33313d2285eff9155825cda2",
+        "approvalHash": "313fd02e4bf8f15d48af628c2b3d3b9175ea973b33313d2285eff9155825cda2"
+      }
+    },
+    {
+      "key": "回り|まわり",
+      "referenceIndex": 1,
+      "referenceHash": "38a1f93f8372a41eaab220091eee1082912bab178f4c597cbab94ae2f454fd1b",
+      "revisionId": "174g-reference-回り|まわり-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:972"
+      ],
+      "targetHashes": {
+        "vocab-n4:972": "77e04109f91b9fe41fd9488f0b50e5f2c606b8032b1545af85efbbfcc7fcb51a"
+      },
+      "reason": "Nihongo Master 回り 'circumference; perimeter; edge' gives purely the senses of JMdict 1604290 周り【まわり】, taught by card vocab-n4:972 周り/まわり with identical reading; 回り is the older (pre-2010 Joyo) spelling of this word. Same decision as the tanos row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N4)",
+          "version": "Frozen candidate reference SHA256 38a1f93f8372a41eaab220091eee1082912bab178f4c597cbab94ae2f454fd1b",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "回り/まわり glossed \"circumference; perimeter; edge\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1604290; 周り/まわり",
+          "finding": "sense 1 circumference; girth — matches source gloss"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2800530; 回り/まわり",
+          "finding": "separate entry (rotation, rounds) — does not carry the source gloss"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 回り|まわり#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:972.",
+        "contentHash": "1341cc0d7306f0ca618fa78837981ea76b8483150f541ed10c6e3b983fbac0ff",
+        "approvalHash": "1341cc0d7306f0ca618fa78837981ea76b8483150f541ed10c6e3b983fbac0ff"
+      }
+    },
+    {
+      "key": "わがまま|わがまま",
+      "referenceIndex": 0,
+      "referenceHash": "a483fca2cc8d629c4babf6cf92acf9e5ae5d5c81fe404185ce66152f166779bf",
+      "revisionId": "174g-reference-わがまま|わがまま-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:176"
+      ],
+      "targetHashes": {
+        "vocab-n4:176": "d207d60adf6593712c12ec2cd82d5de58825688293fe5974ad5045ff2fcd5018"
+      },
+      "reason": "The source word is kana わがまま 'selfishness'. JMdict 1197020 我儘/我が儘 【わがまま】 is tagged uk, so kana is the usual form. The reviewed card vocab-n4:176 我儘/わがまま 'egoistisch, eigensinnig' teaches it.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Frozen candidate reference SHA256 a483fca2cc8d629c4babf6cf92acf9e5ae5d5c81fe404185ce66152f166779bf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=93",
+          "finding": "わがまま/わがまま glossed \"selfishness,egoism,wilfulness,disobedience,whim\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1197020; 我儘/わがまま",
+          "finding": "adj-na,n, uk: selfish; egoist"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference わがまま|わがまま#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:176.",
+        "contentHash": "843f838c60e7f94f7c1fcaaccc235d03dae792c1b5ecbc398a9fa7d3e4144433",
+        "approvalHash": "843f838c60e7f94f7c1fcaaccc235d03dae792c1b5ecbc398a9fa7d3e4144433"
+      }
+    },
+    {
+      "key": "あいかわらず|あいかわらず",
+      "referenceIndex": 0,
+      "referenceHash": "593afd7fbc6c0e6f300b2720e2539af3c5705c3263e922f2858f11c34b59a072",
+      "revisionId": "174g-reference-あいかわらず|あいかわらず-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:312"
+      ],
+      "targetHashes": {
+        "vocab-n4:312": "2918917d66adf76dfa67a73d332ac7d7aa2bb155d77e48c55ca098d2f2a36518"
+      },
+      "reason": "The source word is kana あいかわらず 'as ever, as usual'. JMdict 1401310 相変わらず 【あいかわらず】 'as usual'. Card vocab-n4:312 相変わらず/あいかわらず has the same reading and sense, so the kana form becomes an alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 593afd7fbc6c0e6f300b2720e2539af3c5705c3263e922f2858f11c34b59a072",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=1",
+          "finding": "あいかわらず/あいかわらず glossed \"as ever,as usual,the same\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1401310; 相変わらず/あいかわらず",
+          "finding": "adv: as usual; as always; as ever"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference あいかわらず|あいかわらず#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:312.",
+        "contentHash": "c589b361d3b085f13b0399bc8acf6dcaec86074d0b610976127004f4d6646218",
+        "approvalHash": "c589b361d3b085f13b0399bc8acf6dcaec86074d0b610976127004f4d6646218"
+      }
+    },
+    {
+      "key": "あかんぼう|あかんぼう",
+      "referenceIndex": 0,
+      "referenceHash": "288f055f8c7b32fa8cf65a49557bacb2a4a126936f8fb4e9f70e556a080cde35",
+      "revisionId": "174g-reference-あかんぼう|あかんぼう-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:2323"
+      ],
+      "targetHashes": {
+        "vocab-n3:2323": "1c465c8a13adb307bf4dadf7ec0966acc014ad04563bb730f8a3963325afd543"
+      },
+      "reason": "Kana spelling of 赤ん坊 'baby'. JMdict 1383310 赤ん坊/赤んぼ/赤んぼう 【あかんぼう/あかんぼ】. Reviewed card vocab-n3:2323 赤ん坊/あかんぼう 'Säugling' has the identical reading; kana form added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 288f055f8c7b32fa8cf65a49557bacb2a4a126936f8fb4e9f70e556a080cde35",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=1",
+          "finding": "あかんぼう/あかんぼう glossed \"baby\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1383310; 赤ん坊/あかんぼう",
+          "finding": "n: baby; infant"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference あかんぼう|あかんぼう#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n3:2323.",
+        "contentHash": "bf6884120e977dee5487cb9cedf064a734096a3b6b2d9ea16b508491918cd04b",
+        "approvalHash": "bf6884120e977dee5487cb9cedf064a734096a3b6b2d9ea16b508491918cd04b"
+      }
+    },
+    {
+      "key": "暖まる|あたたまる",
+      "referenceIndex": 0,
+      "referenceHash": "6731ebd703987f4bc623a9458844ac6bb228a5e29bae8bfbc37625dbff11b172",
+      "revisionId": "174g-reference-暖まる|あたたまる-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:983"
+      ],
+      "targetHashes": {
+        "vocab-n4:983": "0dc947a7ced4de267fe7732647aa2ceabfd55c7a69c87ad81e56a24a06d84713"
+      },
+      "reason": "TANOS 暖まる/あたたまる \"to warm up\" is the alternative kanji of 温まる. JMdict 1586430 lists 温まる/暖まる under あたたまる, single sense to warm oneself / get warm. Card vocab-n4:983 温まる/あたたまる \"sich erwärmen\" covers it with identical reading; add 暖まる as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 6731ebd703987f4bc623a9458844ac6bb228a5e29bae8bfbc37625dbff11b172",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=2",
+          "finding": "暖まる/あたたまる glossed \"to warm up,to get warm\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1586430; 温まる/暖まる【あたたまる】",
+          "finding": "暖まる listed in same entry; to warm up; to get warm"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 暖まる|あたたまる#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:983.",
+        "contentHash": "9f0c6919ac1b546f1a341102907a584cf460d11aea8840aeb40e5edc59ea499b",
+        "approvalHash": "9f0c6919ac1b546f1a341102907a584cf460d11aea8840aeb40e5edc59ea499b"
+      }
+    },
+    {
+      "key": "暖める|あたためる",
+      "referenceIndex": 0,
+      "referenceHash": "b7f9ef649a2b5a4bd241bac18d89adcb56361c2fc629f16b442ea4bb758bb1a1",
+      "revisionId": "174g-reference-暖める|あたためる-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:112"
+      ],
+      "targetHashes": {
+        "vocab-n4:112": "39e075f50eb49da13b82e7648e43cdd2d0d7040053cf9099c6970b4ccb432945"
+      },
+      "reason": "暖める is listed in JMdict 1586440 温める/暖める【あたためる】 'to warm, to heat'. Card vocab-n4:112 温める/あたためる (erwärmen, aufwärmen) teaches the same verb with identical reading; add 暖める as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 b7f9ef649a2b5a4bd241bac18d89adcb56361c2fc629f16b442ea4bb758bb1a1",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=2",
+          "finding": "暖める/あたためる glossed \"to warm,to heat\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1586440; 温める/暖める",
+          "finding": "both kanji spellings in one entry, to warm (up); to heat (up)"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 暖める|あたためる#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:112.",
+        "contentHash": "6f6ac43523786f0dacd1eed07dc703ff0ffc059ef2be06d1075f5a53d6e20937",
+        "approvalHash": "6f6ac43523786f0dacd1eed07dc703ff0ffc059ef2be06d1075f5a53d6e20937"
+      }
+    },
+    {
+      "key": "あわただしい|あわただしい",
+      "referenceIndex": 0,
+      "referenceHash": "b2c9ea71a08673f4b63cfdb788c1cc5a18b36972b96e637e77bb980bf38ab64c",
+      "revisionId": "174g-reference-あわただしい|あわただしい-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:584"
+      ],
+      "targetHashes": {
+        "vocab-n4:584": "707421cf37b6bc7e23a97ae7d44f763d1ade3a8d831c3ad421d35bf44bf3fb85"
+      },
+      "reason": "Tanos row あわただしい 'busy, hurried, confused, flurried' is the kana form of 慌ただしい (JMdict 1278810, adj-i 'busy; hectic; hurried'). Card vocab-n4:584 慌ただしい/あわただしい 'hektisch, geschäftig' has the identical reading and sense, so the kana form becomes its alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 b2c9ea71a08673f4b63cfdb788c1cc5a18b36972b96e637e77bb980bf38ab64c",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=3",
+          "finding": "あわただしい/あわただしい glossed \"busy,hurried,confused,flurried\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1278810; 慌ただしい/あわただしい",
+          "finding": "adj-i busy; hectic; hurried: same reading and sense"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference あわただしい|あわただしい#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:584.",
+        "contentHash": "9dfc114c51ca18e9cdb2ce376655d4fe8362cb75df6fe2b0f46d0511dc5708ed",
+        "approvalHash": "9dfc114c51ca18e9cdb2ce376655d4fe8362cb75df6fe2b0f46d0511dc5708ed"
+      }
+    },
+    {
+      "key": "浮ぶ|うかぶ",
+      "referenceIndex": 0,
+      "referenceHash": "89a6dfa1604b09d7ce8b99d1dd2a4c28b86129254f77cf7a419e4b2f9c86f753",
+      "revisionId": "174g-reference-浮ぶ|うかぶ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:211"
+      ],
+      "targetHashes": {
+        "vocab-n4:211": "0b9907545e7d71a6cf6c7dfd98ef99377bfce1cbeb4e28ada9eaa5805e786620"
+      },
+      "reason": "tanos writes the short-okurigana form 浮ぶ/うかぶ 'to float, to come to mind'. JMdict 1497430 浮かぶ/泛ぶ/浮ぶ/泛かぶ【うかぶ】 lists 浮ぶ in the same entry (search-only form). Card vocab-n4:211 浮かぶ/うかぶ teaches the same senses; 浮ぶ added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 89a6dfa1604b09d7ce8b99d1dd2a4c28b86129254f77cf7a419e4b2f9c86f753",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=6",
+          "finding": "浮ぶ/うかぶ glossed \"to float,to rise to surface,to come to mind\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497430; 浮かぶ/浮ぶ うかぶ",
+          "finding": "浮ぶ is an okurigana variant in the same entry"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 浮ぶ|うかぶ#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:211.",
+        "contentHash": "29ad85fb72be527f072556951608d8245dcf4bff7816222ac2fc1734c5a80452",
+        "approvalHash": "29ad85fb72be527f072556951608d8245dcf4bff7816222ac2fc1734c5a80452"
+      }
+    },
+    {
+      "key": "打合せ|うちあわせ",
+      "referenceIndex": 0,
+      "referenceHash": "56461b8353e77b23173893a3f6af97fdaebad08b26c9e1cd3ffc8ed2cfb83e60",
+      "revisionId": "174g-reference-打合せ|うちあわせ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:524"
+      ],
+      "targetHashes": {
+        "vocab-n4:524": "708754c3f347fa56e14d5489f456cc8fa679e3e3559a3435b6b61272cddc1545"
+      },
+      "reason": "打合せ is the reduced-okurigana spelling of 打ち合わせ (common in business writing). JMdict 1588140 lists it in the same entry: 打ち合わせ/打合せ 【うちあわせ】 'meeting; advance arrangements'. Card vocab-n4:524 打ち合わせ/うちあわせ 'Besprechung, Meeting' matches.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 56461b8353e77b23173893a3f6af97fdaebad08b26c9e1cd3ffc8ed2cfb83e60",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=6",
+          "finding": "打合せ/うちあわせ glossed \"business meeting,previous arrangement,appointment\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1588140; 打ち合わせ/打合せ/うちあわせ",
+          "finding": "打合せ is the 2nd spelling of the same entry; meeting, arrangement"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 打合せ|うちあわせ#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:524.",
+        "contentHash": "7d36023db11569d55540dec5d6388e0bf9dbb1a6640a6fb2d1ab10fb95079f9a",
+        "approvalHash": "7d36023db11569d55540dec5d6388e0bf9dbb1a6640a6fb2d1ab10fb95079f9a"
+      }
+    },
+    {
+      "key": "追い掛ける|おいかける",
+      "referenceIndex": 0,
+      "referenceHash": "94ef59481aee8c2e47b20a6cb983f3fefa06dde7db9cb0faa35d00e3170b040c",
+      "revisionId": "174g-reference-追い掛ける|おいかける-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:462"
+      ],
+      "targetHashes": {
+        "vocab-n4:462": "0528b3c5f1c5cac465d6e9b4c56bb064bd32708d639a573fc2d540cce6b805d5"
+      },
+      "reason": "Okurigana/kanji variant: JMdict 1608720 追いかける/追い掛ける/追い駆ける/追掛ける 【おいかける】 lists 追い掛ける in the same entry. Reviewed card vocab-n4:462 追いかける/おいかける 'verfolgen, nachlaufen' has identical reading and sense.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 94ef59481aee8c2e47b20a6cb983f3fefa06dde7db9cb0faa35d00e3170b040c",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=8",
+          "finding": "追い掛ける/おいかける glossed \"to chase or run after someone,to run down,to pursue\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1608720; 追いかける/おいかける",
+          "finding": "追い掛ける listed as spelling; v1: to chase; to run after; to pursue"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 追い掛ける|おいかける#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:462.",
+        "contentHash": "5b96255c724ae4dd25f45f9e6a241c702eab7388bd0482baeff904011cfdfe95",
+        "approvalHash": "5b96255c724ae4dd25f45f9e6a241c702eab7388bd0482baeff904011cfdfe95"
+      }
+    },
+    {
+      "key": "おかげさまで|おかげさまで",
+      "referenceIndex": 0,
+      "referenceHash": "c63b492d4614488d15834929f376a3c0e947d6de90689d06f673cdc4800720f5",
+      "revisionId": "174g-reference-おかげさまで|おかげさまで-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:168"
+      ],
+      "targetHashes": {
+        "vocab-n4:168": "9df7b3e8bc54961642fc87191b2b38b255b8808829df4f535b14f4e6ac4c2ac3"
+      },
+      "reason": "TANOS おかげさまで \"thanks to you\" is the usual-kana form of お陰様で. JMdict 1270220 お陰様で【おかげさまで】 senses tagged pol,uk. Card vocab-n4:168 お陰様で/おかげさまで \"dank Ihrer Hilfe\" is the same expression with identical reading; add the kana form as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 c63b492d4614488d15834929f376a3c0e947d6de90689d06f673cdc4800720f5",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=9",
+          "finding": "おかげさまで/おかげさまで glossed \"Thanks to god,thanks to you\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270220; お陰様で【おかげさまで】",
+          "finding": "both senses pol,uk: kana form is the usual form; thanks to you"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference おかげさまで|おかげさまで#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:168.",
+        "contentHash": "5fdde6e208c39fc1bd4dc7a351b3777835bf2f8e2354b7f01dfb21a7a6ede23c",
+        "approvalHash": "5fdde6e208c39fc1bd4dc7a351b3777835bf2f8e2354b7f01dfb21a7a6ede23c"
+      }
+    },
+    {
+      "key": "落着く|おちつく",
+      "referenceIndex": 0,
+      "referenceHash": "db34ebd33ca8649822fafc494ded131faa9220e1e829249dc037e10c935d0337",
+      "revisionId": "174g-reference-落着く|おちつく-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:599"
+      ],
+      "targetHashes": {
+        "vocab-n4:599": "0097e7fa075116d5c2bacbb9ba6ae5137463b433e1f3956da957213eda58c5ac"
+      },
+      "reason": "落着く is an okurigana variant listed in JMdict 1589220 落ち着く/落ちつく/落着く【おちつく】 'to calm down, settle down'. Card vocab-n4:599 落ち着く/おちつく teaches it with identical reading; add alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 db34ebd33ca8649822fafc494ded131faa9220e1e829249dc037e10c935d0337",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=11",
+          "finding": "落着く/おちつく glossed \"to calm down,to settle down\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1589220; 落ち着く/落着く",
+          "finding": "落着く listed in same entry; to calm down; to settle down"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 落着く|おちつく#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:599.",
+        "contentHash": "4c9193c40544c0b1cdd574e88f019ce749e1b3f9837f05ab3298ea9ac291544b",
+        "approvalHash": "4c9193c40544c0b1cdd574e88f019ce749e1b3f9837f05ab3298ea9ac291544b"
+      }
+    },
+    {
+      "key": "関西|関西",
+      "referenceIndex": 0,
+      "referenceHash": "2072459502c219b8d98fc3e97b5588240df930c8f663e98324e36a1be1c52b0e",
+      "revisionId": "174g-reference-関西|関西-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-source-notation",
+      "sourceNormalization": {
+        "kind": "misplaced-reading",
+        "word": "関西",
+        "reading": "かんさい"
+      },
+      "targets": [
+        "vocab-n4:1113"
+      ],
+      "targetHashes": {
+        "vocab-n4:1113": "f94d2ce47bdb14f418d927055f6c87f79931841a61f6117d3e4a81f5e1c82082"
+      },
+      "reason": "tanos row repeats the spelling 関西 in the reading column and puts the reading かんさい in the gloss column. JMdict 1215910 関西【かんさい】 Kansai region. Card vocab-n4:1113 関西/かんさい 'Kansai' teaches it.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 2072459502c219b8d98fc3e97b5588240df930c8f663e98324e36a1be1c52b0e",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=19",
+          "finding": "関西/関西 glossed \"かんさい\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1215910; 関西/かんさい",
+          "finding": "Kansai region; かんさい is the standard reading"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-source-notation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 関西|関西#0, its evidence and the verified-source-notation decision against the exact current target card(s) vocab-n4:1113.",
+        "contentHash": "02e9736e8b4e0d4b306a4164f80a615946d22c40485878eef61e0ee2ddd5460c",
+        "approvalHash": "02e9736e8b4e0d4b306a4164f80a615946d22c40485878eef61e0ee2ddd5460c"
+      }
+    },
+    {
+      "key": "すれちがう|すれちがう",
+      "referenceIndex": 0,
+      "referenceHash": "9fe2ff4dd9a423c66540c53a75b7a0558dff67910059fd6bfc1218ef78d8ad5c",
+      "revisionId": "174g-reference-すれちがう|すれちがう-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:536"
+      ],
+      "targetHashes": {
+        "vocab-n4:536": "a9c9c13a1fd75cadeeaec86ba84aff08f12729ccecd6e8088c2ba71553e22c91"
+      },
+      "reason": "Kana spelling of すれ違う. JMdict 1595920 すれ違う/擦れ違う 【すれちがう】 'to pass by each other; to be at odds'. Reviewed card vocab-n4:536 すれ違う/すれちがう has the identical reading; kana form added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 9fe2ff4dd9a423c66540c53a75b7a0558dff67910059fd6bfc1218ef78d8ad5c",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=45",
+          "finding": "すれちがう/すれちがう glossed \"to pass by one another,to disagree\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1595920; すれ違う/すれちがう",
+          "finding": "v5u: to pass (by) each other; to miss each other; to be at odds"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference すれちがう|すれちがう#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:536.",
+        "contentHash": "009fa94557c2b679730d12c2d26b21b0cc835df7de5aa51ece78c4f636514ceb",
+        "approvalHash": "009fa94557c2b679730d12c2d26b21b0cc835df7de5aa51ece78c4f636514ceb"
+      }
+    },
+    {
+      "key": "田ぼ|たんぼ",
+      "referenceIndex": 0,
+      "referenceHash": "602d1958641781544a99939a286c4c5be2a8ddb9b3db80015c7a76ba7f613802",
+      "revisionId": "174g-reference-田ぼ|たんぼ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:236"
+      ],
+      "targetHashes": {
+        "vocab-n4:236": "b3ef36ca56174dd1af229ec76eb73b404b8f77bd21b1d2f2b40c152013263928"
+      },
+      "reason": "TANOS 田ぼ/たんぼ \"paddy field\" is a spelling of 田んぼ. JMdict 1442840 lists 田んぼ/田圃/田畝/田ぼ under たんぼ, sense rice field. Card vocab-n4:236 田んぼ/たんぼ \"Reisfeld\" teaches it; identical reading, add 田ぼ as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Frozen candidate reference SHA256 602d1958641781544a99939a286c4c5be2a8ddb9b3db80015c7a76ba7f613802",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=50",
+          "finding": "田ぼ/たんぼ glossed \"paddy field,farm\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1442840; 田んぼ/田圃/田畝/田ぼ【たんぼ】",
+          "finding": "田ぼ listed in the same entry (minor/search form); rice paddy"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 田ぼ|たんぼ#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n4:236.",
+        "contentHash": "378944788b79fd22073e345a5b6263175a0339fd6d2d046726369d005e3c67ac",
+        "approvalHash": "378944788b79fd22073e345a5b6263175a0339fd6d2d046726369d005e3c67ac"
+      }
+    }
+  ]
+}

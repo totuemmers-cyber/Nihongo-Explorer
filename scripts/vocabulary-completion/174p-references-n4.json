@@ -1,0 +1,737 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "換算|かんさん",
+      "referenceIndex": 0,
+      "referenceHash": "d465e559a62674a2a14b4ae45cb9ddd8da075f92d17229e0c08c53f8e636bcc7",
+      "revisionId": "174p-reference-換算|かんさん-0",
+      "state": "accepted",
+      "predecessorHash": "d5113d283f41c227375398639e8433370ec13bc8f6d2f4042b6a4b5dd2febbf1",
+      "predecessorRevisionHash": "3a6d00feca0a4b8e179bbdb3914208a26a000f47669ab285fd2da66d23c137d6",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansan": "c834d5c5c8dede43e8ef47ace5c81947225610abef2ce4d2caa7d1ecded295a3"
+      },
+      "reason": "Reference 換算/かんさん (tanos N1) is the same lexeme as the new entry 換算【かんさん】. Renewed unchanged: the target card(s) vocab-n1:correction:kansan were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=34",
+          "finding": "tanos lists 換算/かんさん at N1 (gloss: conversion, change, exchange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212820; spelling=換算; reading=かんさん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212820 as the reference form.",
+          "selected": {
+            "sequence": "1212820",
+            "spelling": "換算",
+            "reading": "かんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conversion (e.g. yen to dollars)",
+                  "change",
+                  "exchange",
+                  "translation (numerical)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 換算|かんさん#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:kansan.",
+        "contentHash": "a823a0eec72b6db504717d789c43a1fb150cb6188972eb957fa996223886796e",
+        "approvalHash": "a823a0eec72b6db504717d789c43a1fb150cb6188972eb957fa996223886796e"
+      }
+    },
+    {
+      "key": "換算|かんさん",
+      "referenceIndex": 1,
+      "referenceHash": "0b2ac2e1dfdefbaa784332858b4ad4061070ddce99ffedb919836ea21e836473",
+      "revisionId": "174p-reference-換算|かんさん-1",
+      "state": "accepted",
+      "predecessorHash": "1de21656b23045a1cd82722693fd69d1d2e0db83bd171e7861040034b6e396dd",
+      "predecessorRevisionHash": "19e1a4af85af126f885c387fb14fa3d11e4a2291c793b0dd9c68ac28557b2a36",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kansan"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kansan": "c834d5c5c8dede43e8ef47ace5c81947225610abef2ce4d2caa7d1ecded295a3"
+      },
+      "reason": "Reference 換算/かんさん (master N1) is the same lexeme as the new entry 換算【かんさん】. Renewed unchanged: the target card(s) vocab-n1:correction:kansan were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 換算/かんさん at N1 (gloss: conversion (e.g. yen to dollars); change; exchange)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1212820; spelling=換算; reading=かんさん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1212820 as the reference form.",
+          "selected": {
+            "sequence": "1212820",
+            "spelling": "換算",
+            "reading": "かんさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "conversion (e.g. yen to dollars)",
+                  "change",
+                  "exchange",
+                  "translation (numerical)"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 換算|かんさん#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:kansan.",
+        "contentHash": "21d39160a77b3392c84f68a661f313136549ecb731d7836eb8e0409e9383c1a2",
+        "approvalHash": "21d39160a77b3392c84f68a661f313136549ecb731d7836eb8e0409e9383c1a2"
+      }
+    },
+    {
+      "key": "宮殿|きゅうでん",
+      "referenceIndex": 0,
+      "referenceHash": "ba8be36919b74d2926a3e49e2605de87d8c1aa6d31b9b25fec48bf0cfd336db9",
+      "revisionId": "174p-reference-宮殿|きゅうでん-0",
+      "state": "accepted",
+      "predecessorHash": "3f544dc542cc71980daebf7fcc04b702bc22b4c19f94aa6fc5e0ef53e7fb4e89",
+      "predecessorRevisionHash": "109048070768ad6b6e8a05957c93987ea0e29d26fd36e660e26f59e02cbb4339",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kyuuden"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kyuuden": "d7250a9a50e795f594df80fbabf1c4ec82d1f7fd9e3a4128be9d0d1d9df3c64c"
+      },
+      "reason": "Reference 宮殿/きゅうでん (tanos N1) is the same lexeme as the new entry 宮殿【きゅうでん】. Renewed unchanged: the target card(s) vocab-n1:correction:kyuuden were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=42",
+          "finding": "tanos lists 宮殿/きゅうでん at N1 (gloss: palace)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228470; spelling=宮殿; reading=きゅうでん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1228470 as the reference form.",
+          "selected": {
+            "sequence": "1228470",
+            "spelling": "宮殿",
+            "reading": "きゅうでん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "palace"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 宮殿|きゅうでん#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:kyuuden.",
+        "contentHash": "510121802c09301f7ba2c82d7a658901cbb9413f5b769936f8270e030e279965",
+        "approvalHash": "510121802c09301f7ba2c82d7a658901cbb9413f5b769936f8270e030e279965"
+      }
+    },
+    {
+      "key": "宮殿|きゅうでん",
+      "referenceIndex": 1,
+      "referenceHash": "fa50451af44227f44886b0ad78c097b89bb3c58919fe3a7110dadf4ad4760cc2",
+      "revisionId": "174p-reference-宮殿|きゅうでん-1",
+      "state": "accepted",
+      "predecessorHash": "32ab6b05fdd47c53542e5bc39db9c66c1f060ef50c85c86539510f69e6f8a3ed",
+      "predecessorRevisionHash": "67c36b182bc948f2bb8f44cb51005393968103627bd5dd02cec5a4bb16a909b9",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kyuuden"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kyuuden": "d7250a9a50e795f594df80fbabf1c4ec82d1f7fd9e3a4128be9d0d1d9df3c64c"
+      },
+      "reason": "Reference 宮殿/きゅうでん (master N1) is the same lexeme as the new entry 宮殿【きゅうでん】. Renewed unchanged: the target card(s) vocab-n1:correction:kyuuden were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 宮殿/きゅうでん at N1 (gloss: palace; palais; дворец)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1228470; spelling=宮殿; reading=きゅうでん; senses=1; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1228470 as the reference form.",
+          "selected": {
+            "sequence": "1228470",
+            "spelling": "宮殿",
+            "reading": "きゅうでん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "palace"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 宮殿|きゅうでん#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:kyuuden.",
+        "contentHash": "6ec4f935410d51360333efa116dccab07fe0ce4a4e81061542a58f42b2a64c82",
+        "approvalHash": "6ec4f935410d51360333efa116dccab07fe0ce4a4e81061542a58f42b2a64c82"
+      }
+    },
+    {
+      "key": "清濁|せいだく",
+      "referenceIndex": 0,
+      "referenceHash": "603ff9d03395e24502dc6bd00f197697c57ac50a1569f89ceb786948a4baabe8",
+      "revisionId": "174p-reference-清濁|せいだく-0",
+      "state": "accepted",
+      "predecessorHash": "00aa969ba3839dfcc9852354e1623fd3b01855200d62282e13c976c5ced771b1",
+      "predecessorRevisionHash": "bd1c8c8a6c5988f675024ca73a3b8eaa5ed30583f3c70aa8c40028f8423aa306",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:seidaku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:seidaku": "8c3b7a45654637bdec5986cb188e659cf5f2621f5224ad22766ef95f3bc562c7"
+      },
+      "reason": "Reference 清濁/せいだく (tanos N1) is the same lexeme as the new entry 清濁【せいだく】. Renewed unchanged: the target card(s) vocab-n1:correction:seidaku were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=89",
+          "finding": "tanos lists 清濁/せいだく at N1 (gloss: good and evil, purity and impurity)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378350; spelling=清濁; reading=せいだく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378350 as the reference form.",
+          "selected": {
+            "sequence": "1378350",
+            "spelling": "清濁",
+            "reading": "せいだく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good and evil",
+                  "purity and impurity"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "voiced and unvoiced consonants"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 清濁|せいだく#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:seidaku.",
+        "contentHash": "1e040b80d3ff54ceaca65c896f3c6e34a82ce04dc08aefc175cb0755566f1b0d",
+        "approvalHash": "1e040b80d3ff54ceaca65c896f3c6e34a82ce04dc08aefc175cb0755566f1b0d"
+      }
+    },
+    {
+      "key": "清濁|せいだく",
+      "referenceIndex": 1,
+      "referenceHash": "4dc3007919992301f11ca4d5a8d4b3f88e4a0df32e13d8e1fb1619d8a89d41ae",
+      "revisionId": "174p-reference-清濁|せいだく-1",
+      "state": "accepted",
+      "predecessorHash": "7c79ac5baf51c47acfd076316cc7e3da063e75090dbfb5b49b66174a029935b4",
+      "predecessorRevisionHash": "5d82bf26d0d33d8dc0a598f2389fb39080a5cc96767d3cb6a79c8544c4968160",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:seidaku"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:seidaku": "8c3b7a45654637bdec5986cb188e659cf5f2621f5224ad22766ef95f3bc562c7"
+      },
+      "reason": "Reference 清濁/せいだく (master N1) is the same lexeme as the new entry 清濁【せいだく】. Renewed unchanged: the target card(s) vocab-n1:correction:seidaku were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "Nihongo Master lists 清濁/せいだく at N1 (gloss: good and evil; purity and impurity; tolérant)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1378350; spelling=清濁; reading=せいだく; senses=1,2; scripts/vocabulary-completion/maintenance-043/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1378350 as the reference form.",
+          "selected": {
+            "sequence": "1378350",
+            "spelling": "清濁",
+            "reading": "せいだく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good and evil",
+                  "purity and impurity"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "voiced and unvoiced consonants"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 清濁|せいだく#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:seidaku.",
+        "contentHash": "1e7444a53c64aa013d170d4cf916bcef666fe2f9cad89fabab3373e6240a9391",
+        "approvalHash": "1e7444a53c64aa013d170d4cf916bcef666fe2f9cad89fabab3373e6240a9391"
+      }
+    },
+    {
+      "key": "封|ふう",
+      "referenceIndex": 0,
+      "referenceHash": "8424406133ad6a0ef65ef469aaeb29eb79bf344ab07208a32168abf50d225ad5",
+      "revisionId": "174p-reference-封|ふう-0",
+      "state": "accepted",
+      "predecessorHash": "eca0b6020df6181a57d578fd8deda46222ffbaba54cb7c13739e1a8ab9446b81",
+      "predecessorRevisionHash": "b122e05379b0d4a0394e88c1e2e8ab67288e5fb197b1bc9fd442c8ef1a3e31d9",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fuu-seal"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuu-seal": "9e64a32c5690873787ca04902f19b7e6ca8b88ddb1cc8d0abba03887ee4a370b"
+      },
+      "reason": "Reference 封/ふう (tanos N1) is the same lexeme as the new entry 封【ふう】. Renewed unchanged: the target card(s) vocab-n1:correction:fuu-seal were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=141",
+          "finding": "tanos lists 封/ふう at N1 (gloss: seal)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1499580; spelling=封; reading=ふう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1499580 as the reference form.",
+          "selected": {
+            "sequence": "1499580",
+            "spelling": "封",
+            "reading": "ふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 封|ふう#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:fuu-seal.",
+        "contentHash": "3d2543f503b234b060b7322770ab574049bd511bf454b2717c7425961b87de43",
+        "approvalHash": "3d2543f503b234b060b7322770ab574049bd511bf454b2717c7425961b87de43"
+      }
+    },
+    {
+      "key": "封|ふう",
+      "referenceIndex": 1,
+      "referenceHash": "986b04bf00f60c91e1aa6d71411741e80c1cfad6091982956bbead4f0e097717",
+      "revisionId": "174p-reference-封|ふう-1",
+      "state": "accepted",
+      "predecessorHash": "4719da69641853dc2cb34b2464cae7c2571233ab101fc756499b6f18e40b2639",
+      "predecessorRevisionHash": "00c3da14b1b1508895a9c0b0da56c482b764d9636508284c7b1a82b64d485792",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:fuu-seal"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:fuu-seal": "9e64a32c5690873787ca04902f19b7e6ca8b88ddb1cc8d0abba03887ee4a370b"
+      },
+      "reason": "Reference 封/ふう (master N1) is the same lexeme as the new entry 封【ふう】. Renewed unchanged: the target card(s) vocab-n1:correction:fuu-seal were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 封/ふう at N1 (gloss: seal; cachet; sceau)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1499580; spelling=封; reading=ふう; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1499580 as the reference form.",
+          "selected": {
+            "sequence": "1499580",
+            "spelling": "封",
+            "reading": "ふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seal"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 封|ふう#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:fuu-seal.",
+        "contentHash": "78c378138df3148d8056608269dcdf58af233639f4e1c498f3a7556039cdf12e",
+        "approvalHash": "78c378138df3148d8056608269dcdf58af233639f4e1c498f3a7556039cdf12e"
+      }
+    },
+    {
+      "key": "若しくは|もしくは",
+      "referenceIndex": 0,
+      "referenceHash": "ed502ec0de56e8a9148d377df92dbc2792c58250d1e261fd02fe1dce1fa47b6c",
+      "revisionId": "174p-reference-若しくは|もしくは-0",
+      "state": "accepted",
+      "predecessorHash": "a5128cfad2d5f84021d506ac9516195058878623a9c7d6685584b600b667fe7b",
+      "predecessorRevisionHash": "4498f4089707df2b9545e2bf1cf5d498fc06ccdb3bc12130ff3ae29c3ccb1f5a",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moshikuwa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moshikuwa": "060c9accbaa4610693b49e746290343c7eaa3c89d8e9874260228483aa85a645"
+      },
+      "reason": "Reference 若しくは/もしくは (tanos N1) is the same lexeme as the new entry もしくは【もしくは】. Renewed unchanged: the target card(s) vocab-n1:correction:moshikuwa were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=162",
+          "finding": "tanos lists 若しくは/もしくは at N1 (gloss: or, otherwise)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324320; spelling=もしくは; reading=もしくは; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324320 as the reference form.",
+          "selected": {
+            "sequence": "1324320",
+            "spelling": "もしくは",
+            "reading": "もしくは",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "or",
+                  "otherwise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 若しくは|もしくは#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:moshikuwa.",
+        "contentHash": "6f2d84743e4142d64227771f40efc57607dbc688c24be4dbac7b2c7a81f2f301",
+        "approvalHash": "6f2d84743e4142d64227771f40efc57607dbc688c24be4dbac7b2c7a81f2f301"
+      }
+    },
+    {
+      "key": "若しくは|もしくは",
+      "referenceIndex": 1,
+      "referenceHash": "193a14e833f6b4c0da0f2c5f7b4ad29c5ce013b615536c68a0441ae6822d7054",
+      "revisionId": "174p-reference-若しくは|もしくは-1",
+      "state": "accepted",
+      "predecessorHash": "b5a0c8057abcc4cb9fc6c0f48f974600171d170e5b631ba24d9bb5bbbc8c0a71",
+      "predecessorRevisionHash": "ee24c4db42abd9221d752964b3bdad651280973600946518f85574f656d95b81",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:moshikuwa"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:moshikuwa": "060c9accbaa4610693b49e746290343c7eaa3c89d8e9874260228483aa85a645"
+      },
+      "reason": "Reference 若しくは/もしくは (master N1) is the same lexeme as the new entry もしくは【もしくは】. Renewed unchanged: the target card(s) vocab-n1:correction:moshikuwa were re-reviewed (enrichment or alias review in batches 168-173); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 若しくは/もしくは at N1 (gloss: or; otherwise; ou bien)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1324320; spelling=もしくは; reading=もしくは; senses=1; scripts/vocabulary-completion/maintenance-049/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1324320 as the reference form.",
+          "selected": {
+            "sequence": "1324320",
+            "spelling": "もしくは",
+            "reading": "もしくは",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "conjunction"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "or",
+                  "otherwise"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-174",
+        "finding": "Author reread the frozen reference 若しくは|もしくは#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:moshikuwa.",
+        "contentHash": "215fca7c63bbcd12bdcc8cea8c5e0180265d7b284e07bd6aec2729125d955788",
+        "approvalHash": "215fca7c63bbcd12bdcc8cea8c5e0180265d7b284e07bd6aec2729125d955788"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:correction:amerika",
+      "revisionId": "173h-reference-target-vocab-n5-correction-amerika",
+      "state": "accepted",
+      "predecessorHash": "41e238b44bb3caf5fa46106050d0dfd43e4488a677b5bb62970d646906b1f047",
+      "originalHash": "41e238b44bb3caf5fa46106050d0dfd43e4488a677b5bb62970d646906b1f047",
+      "predecessorRevisionHash": "838ca119bbe195d28f08bbdc3155ce8f040808a238f5cd856823de93024939a5",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "亜米利加"
+        ]
+      },
+      "rationale": "Spelling alias review: 亜米利加 added to アメリカ/アメリカ. 亜米利加 is the ateji spelling of アメリカ. JMdict 1149830 亜米利加 【アメリカ】 (ateji, uk). The source reading is katakana アメリカ, identical to card vocab-n5:correction:amerika アメリカ/アメリカ 'Amerika, USA', so 亜米利加 becomes an alias. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1149830; spelling=アメリカ; reading=アメリカ; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1149830 アメリカ/アメリカ sense(s) 1 support \"Amerika, USA\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1149830",
+            "spelling": "アメリカ",
+            "reading": "アメリカ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "(United States of) America",
+                  "United States",
+                  "US",
+                  "USA"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1149830; 亜米利加/アメリカ",
+          "finding": "亜米利加 is the first (ateji) spelling of the same entry; uk (reference 亜米利加|あめりか#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@46863736 attest 0; primary 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46863736",
+            "patterns": [
+              0
+            ],
+            "finding": "アメリカ / アメリカ; 名詞/固有名詞/地名/国; *; *; lemma アメリカ-America; aType 0. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "アメリカ",
+              "reading": "アメリカ",
+              "grammaticalForm": "名詞/固有名詞/地名/国; *; *",
+              "sense": "アメリカ as \"Amerika, USA\"."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n4-reference-closing-author-173",
+        "meaning": "\"Amerika, USA\" matches JMdict 1149830 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Where a relative lives.",
+          "Films from a country."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1149830; no homophone merged. Added reviewed spelling alias(es) 亜米利加 for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher references: tanos N4, JLPT Sensei N4. The app already teaches アメリカ人 at N5, and country names are introduced with self-introductions at N5. Editorial N5."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n4-reference-closing-author-173",
+        "finding": "Author reread the exact final card vocab-n5:correction:amerika: aliases [\"亜米利加\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0accb39c3dc86a52a1f1ae1508efcfddcb8431a13876076c528385fc72aa1a16",
+        "approvalHash": "42a54e4c3f87761673fadf484c339290f4aef4609cbe83382bf58b1fad5f1f22"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

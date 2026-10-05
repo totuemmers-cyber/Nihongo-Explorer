@@ -36893,6 +36893,9 @@ window.VOCAB_N5 = [
         "german": "Ich schaue oft amerikanische Filme."
       }
     ],
+    "aliases": [
+      "亜米利加"
+    ],
     "pitch": 0,
     "pitchProvenance": [
       {

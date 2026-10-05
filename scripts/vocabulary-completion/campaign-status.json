@@ -36,7 +36,7 @@
     "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation. Independent review was later made optional by the user (author-only-v1, 4 October 2026; see reviewPolicyChanges).",
     "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
     "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
-    "activeLevel": "N4",
+    "activeLevel": "N3",
     "levelOrder": [
       "N5",
       "N4",
@@ -93,7 +93,7 @@
         }
       },
       "N4": {
-        "status": "active",
+        "status": "complete",
         "baseline": {
           "level": "N4",
           "total": 1638,
@@ -109,10 +109,28 @@
           "pendingAdditions": 0,
           "openSampleDefects": 0,
           "complete": false
+        },
+        "completedAt": "2026-10-05T16:47:57.825Z",
+        "result": {
+          "level": "N4",
+          "total": 1682,
+          "reviewed": 1682,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       },
       "N3": {
-        "status": "pending",
+        "status": "active",
         "baseline": {
           "level": "N3",
           "total": 3757,
@@ -2604,6 +2622,103 @@
         "verification": {
           "policy": "author-only-v1, first pass by the batch author; no independent pass",
           "fullChecksPassed": 22
+        }
+      },
+      {
+        "id": "n4-source-closure-173-174",
+        "status": "verified-level-complete",
+        "recordedAt": "2026-10-05T16:48:11.158Z",
+        "newExistingEntriesEnriched": 0,
+        "existingTargetReviews": {
+          "total": 108,
+          "aliasOnly": 91,
+          "authored": 17,
+          "aliasesAdded": 110,
+          "meaningChanges": 11
+        },
+        "newAdditions": 70,
+        "cumulativeAdditions": 303,
+        "additionLevels": {
+          "N4": 22,
+          "N3": 17,
+          "N2": 10,
+          "N1": 21
+        },
+        "additionPitch": {
+          "verified": 47,
+          "investigatedUnknown": 23
+        },
+        "newBaselineCandidateReferencesResolved": 287,
+        "dispositions": {
+          "verified-spelling-variant": 137,
+          "added": 67,
+          "additional-reading": 32,
+          "verified-source-notation": 18,
+          "additional-sense": 4,
+          "excluded": 29
+        },
+        "exclusions": {
+          "source-error": 19,
+          "archaic-or-rare-reading": 7,
+          "kanji-reading-row": 3
+        },
+        "renewedStaleDecisions": {
+          "total": 41,
+          "N5": 2,
+          "N4": 8,
+          "N3": 16,
+          "N2": 5,
+          "N1": 10,
+          "cause": "Target cards re-reviewed in batches 168-173 (enrichment or alias review) made earlier accepted decisions stale; each was renewed unchanged against the current target content."
+        },
+        "batches": [
+          "173a-references-n4.json",
+          "173b-references-n4.json",
+          "173c-references-n4.json",
+          "173d-references-n4.json",
+          "173e-references-n4.json",
+          "173f-references-n4.json",
+          "173g-references-n4.json",
+          "173h-references-n4.json",
+          "174a-references-n4.json",
+          "174b-references-n4.json",
+          "174c-references-n4.json",
+          "174d-references-n4.json",
+          "174e-references-n4.json",
+          "174f-references-n4.json",
+          "174g-references-n4.json",
+          "174h-references-n4.json",
+          "174i-references-n4.json",
+          "174j-references-n4.json",
+          "174k-references-n4.json",
+          "174l-references-n4.json",
+          "174m-references-n4.json",
+          "174n-references-n4.json",
+          "174o-references-n4.json",
+          "174p-references-n4.json"
+        ],
+        "verification": {
+          "policy": "author-only-v1, first pass by the batch author; no independent pass",
+          "fullChecksPassed": 22,
+          "campaignAdvanceDryRun": "passed: N4 complete, next level N3",
+          "campaignAdvanced": "N4 -> N3"
+        },
+        "phase": {
+          "level": "N4",
+          "total": 1682,
+          "reviewed": 1682,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       }
     ],

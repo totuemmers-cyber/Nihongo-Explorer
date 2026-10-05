@@ -480,6 +480,31 @@ meanings are corrected, e.g. 目を閉じる „etwas ignorieren“→„(verhü
 instead of a sense. No source references were resolved. N4 now has 0 pending reviews;
 its 291 open references remain before the level can be certified.
 
+**N4 certified (5 October 2026).** Batches 173a–174p (`author-only-v1`) close all 291
+N4-owned source references. Six parallel triage passes decided each row from JMdict and
+the current cards; the decisions are 137 `verified-spelling-variant`, 18
+`verified-source-notation` (15 nominal-verb, plus misplaced-reading and
+parallel-alternatives rows), 4 `additional-sense`, 32 `additional-reading`, 67 `added`
+and 29 `excluded`. Wave A (173a–173h) reviews 108 existing target cards first: 91 gain
+reviewed spelling aliases only (110 aliases, e.g. うそ on 嘘, 起す on 起こす), and 17 are
+rewritten: 12 never-reviewed targets (e.g. 駄目, 暫く, 是非, 準備する) get full enrichment,
+邪魔 gets the note and examples its earlier review lacked,
+and 4 gain a sense (舐める „unterschätzen“, 喧嘩 as a verb, なんとか „Soundso“, 弁 „Rede“).
+Wave B (174a–174p) adds 70 new cards (22 N4, 17 N3, 10 N2, 21 N1). They include
+missing suru verbs such as 計画する, 支度する and 承知する, alternative readings such as
+工場/こうば, 頬/ほほ and 十分/じっぷん, affixes such as 〜料, 〜員 and 不〜, and words like
+菓子, 礼, ばかり and まま. Their pitch is verified for 47 of them; 23 are investigated
+unknowns. The 29 exclusions are 19 source errors (garbled readings such as 途中/つちゅう,
+glosses of another word such as 重なる/おもなる „main“ = 主な), 3 kanji-reading rows and
+7 archaic, dated or rare readings that JMdict tags as such or lists without any
+priority (末/うら, 悪口/あっこう, 商人/あきうど). Changing a target card makes earlier
+decisions that point at it stale, so 41 accepted decisions at every level (N5 2, N4 8,
+N3 16, N2 5, N1 10) were renewed unchanged against the current targets. Pitch research now
+uses only rows of the card's own lemma (its headword or an alias): when that lemma exists
+in UniDic without an accented row in the card's role, rows of homographic other lemmas are
+not used (よう: 八/用 rows; 一位: yew tree). All 22 full checks pass; `advance --dry-run`
+passed and the campaign advanced from N4 to N3.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
