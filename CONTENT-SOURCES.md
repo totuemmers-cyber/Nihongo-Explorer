@@ -2,8 +2,8 @@
 
 ## Guided comprehension
 
-The 100 original reading/listening units, 300 questions and 50 bundled synthetic
-Japanese recordings are documented in [COMPREHENSION.md](COMPREHENSION.md),
+The 184 reading/listening units (118 reading, 66 listening), 540 questions and 66
+bundled synthetic Japanese recordings are documented in [COMPREHENSION.md](COMPREHENSION.md),
 including JLPT source links, editable authoring files, audio generation settings,
 automated checks and the pending browser/perceptual listening acceptance checks.
 
@@ -221,7 +221,9 @@ evidence needed for replay, so the import does not fetch dictionaries or study l
 
 ## Vocabulary corrections — 22 September 2026
 
-The current append-only workflow uses the versioned `risk-based-v1` review policy.
+At the time, the append-only workflow used the versioned `risk-based-v1` review policy
+(since superseded; new work uses `author-only-v1`, see
+[the completion README](scripts/vocabulary-completion/README.md)).
 Dictionary and pitch caches prepare evidence leads but never approve content.
 Every accepted entry has a content-bound first pass. Additions, corrections,
 ambiguous judgments, changed teaching content, and a deterministic 10% routine
@@ -266,9 +268,9 @@ The remaining pitch research leads do not yet certify values for other entries.
 
 The [version 3 authoring manifest](scripts/vocabulary-review-workflow.json) pins
 historical files and adds drafts, separate critical passes, corrections and
-individual source-reference decisions. [Current coverage](scripts/vocabulary-completion/README.md)
-is 159 accepted entries, with 12,947 entry reviews and 3,917 candidate groups still
-open. The new state/approval machinery does not turn a dictionary match into an
+individual source-reference decisions. At that checkpoint, 159 entries were accepted,
+with 12,947 entry reviews and 3,917 candidate groups still open; live counts are in
+[the generated coverage report](scripts/vocabulary-completion/COVERAGE.md). The new state/approval machinery does not turn a dictionary match into an
 editorial acceptance. Original evidence and rejected drafts remain in the history.
 
 The same hashed JMdict and UniDic snapshots were researched separately for every

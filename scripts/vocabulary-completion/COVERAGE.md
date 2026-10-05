@@ -7,8 +7,8 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 | Entries | 15791 |
 | Accepted editorial reviews | 5002 |
 | Pending entry reviews | 10789 |
-| Unresolved candidate groups | 1016 |
-| Unresolved candidate references | 1371 |
+| Unresolved candidate groups | 1002 |
+| Unresolved candidate references | 1357 |
 | Missing usage notes | 10678 |
 | Missing second example | 9541 |
 | Missing two reviewed contexts | 11191 |
@@ -21,13 +21,13 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 Review completion: **open**. Strict enrichment: **open**.
 
-Ledger SHA256: `daab6f8a5f908fb8685526bf91ce5955095ffb9bf495413cbded2793a9f290d5`.
+Ledger SHA256: `f8445eb39c421609bbf6824e243a602500bf8cb323a048d568ec3af797451867`.
 
 ## Level phases
 
 | Level | Entries | Missing notes | Missing second example | Missing two reviewed contexts | Pending reviews | Unresolved references | Complete |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| N5 | 1686 | 0 | 0 | 0 | 0 | 14 | no |
+| N5 | 1686 | 0 | 0 | 0 | 0 | 0 | yes |
 | N4 | 1660 | 1195 | 139 | 1286 | 1286 | 291 | no |
 | N3 | 3809 | 3225 | 3196 | 3379 | 3255 | 438 | no |
 | N2 | 3208 | 2389 | 2361 | 2513 | 2405 | 276 | no |

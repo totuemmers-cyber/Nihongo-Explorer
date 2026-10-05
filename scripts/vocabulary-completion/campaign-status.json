@@ -33,10 +33,10 @@
     "id": "full-enrichment-2026-10-03",
     "status": "active",
     "startedAt": "2026-10-03T20:25:36.337Z",
-    "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation.",
+    "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation. Independent review was later made optional by the user (author-only-v1, 4 October 2026; see reviewPolicyChanges).",
     "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
     "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
-    "activeLevel": "N5",
+    "activeLevel": "N4",
     "levelOrder": [
       "N5",
       "N4",
@@ -56,7 +56,7 @@
     },
     "phases": {
       "N5": {
-        "status": "active",
+        "status": "complete",
         "baseline": {
           "level": "N5",
           "total": 1644,
@@ -72,10 +72,28 @@
           "pendingAdditions": 0,
           "openSampleDefects": 0,
           "complete": false
+        },
+        "completedAt": "2026-10-05T14:17:25.368Z",
+        "result": {
+          "level": "N5",
+          "total": 1686,
+          "reviewed": 1686,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       },
       "N4": {
-        "status": "pending",
+        "status": "active",
         "baseline": {
           "level": "N4",
           "total": 1638,
@@ -2355,6 +2373,43 @@
             "complete": false
           }
         }
+      },
+      {
+        "id": "n5-source-closure-167a",
+        "status": "verified-level-complete",
+        "recordedAt": "2026-10-05T14:17:37.817Z",
+        "newExistingEntriesEnriched": 0,
+        "newAdditions": 0,
+        "newBaselineCandidateReferencesResolved": 14,
+        "dispositions": {
+          "excluded": 12,
+          "additional-sense": 2
+        },
+        "batches": [
+          "167a-full-n5.json"
+        ],
+        "verification": {
+          "fullChecksPassed": 22,
+          "campaignAdvanceDryRun": "passed: N5 complete, next level N4",
+          "campaignAdvanced": "N5 -> N4"
+        },
+        "phase": {
+          "level": "N5",
+          "total": 1686,
+          "reviewed": 1686,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
+        }
       }
     ],
     "reviewPolicyChanges": [
@@ -2390,6 +2445,13 @@
           },
           "campaignAdvanceDryRun": "refused: N5 remains open"
         }
+      },
+      {
+        "recordedAt": "2026-10-05T14:17:37.816Z",
+        "policy": "author-only-v1",
+        "addition": "kanji-reading-row rule",
+        "authorization": "User chose \"Exclude: kanji-reading row\" for bare-kanji publisher rows (5 October 2026).",
+        "scope": "A publisher row giving a bare kanji with a character reading and kanji-dictionary meanings is excluded unless JMdict has a word for that spelling, reading and sense; when it does, the row maps to that card with additional-sense. Rows whose gloss belongs to a different word are excluded as source mix-ups. Documented in README.md (Kanji-reading rows) and scripts/vocabulary-batch.md."
       }
     ]
   }

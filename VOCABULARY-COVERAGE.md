@@ -1,16 +1,35 @@
 # JLPT vocabulary coverage update
 
-The exhaustive campaign is **superseded**, not completed. The current task is one
-[bounded quality sweep](scripts/vocabulary-completion/QUALITY-SWEEP.md); sample
-observations do not count as accepted reviews. Default maintenance afterward covers
-reported defects and future changes, with no automatic review waves.
+## Current status
 
-Current ledger-backed counts are generated in
+The active work is the [full enrichment campaign](scripts/vocabulary-completion/README.md)
+`full-enrichment-2026-10-03`, run level by level from N5 to N1. Every entry gets a
+German usage note, at least two reviewed distinct example contexts and a pitch
+investigation; every open source reference must be resolved. Since 4 October 2026
+new work uses the `author-only-v1` review policy (an independent second pass is
+optional). Live counts are generated in
 [current review coverage](scripts/vocabulary-completion/COVERAGE.md).
-New batches use `risk-based-v2`; the checkpoint descriptions below are retained
-as historical records. The full review remains open.
 
-Completion work is **still open**. The current runtime contains **15,558 entries**:
+As of 5 October 2026 the runtime contains **15,791 entries**; 5,002 have accepted
+full reviews and 10,789 are pending. **N5 is complete**; batch 167a closed its last
+14 source references under the documented kanji-reading-row rule. N4 is the active
+phase.
+
+| Level | Entries | Pending reviews | Open source references | Complete |
+| --- | ---: | ---: | ---: | --- |
+| N5 | 1,686 | 0 | 0 | yes |
+| N4 | 1,660 | 1,286 | 291 | no |
+| N3 | 3,809 | 3,255 | 438 | no |
+| N2 | 3,208 | 2,405 | 276 | no |
+| N1 | 5,428 | 3,843 | 352 | no |
+
+## History
+
+The sections below are historical records. The exhaustive campaign was superseded
+on 22 September 2026 by one [bounded quality sweep](scripts/vocabulary-completion/QUALITY-SWEEP.md),
+which finished the same day; the October campaign replaced both.
+
+On 3 October 2026 (campaign baseline) the runtime contained **15,558 entries**:
 N5 **1,644**, N4 **1,638**, N3 **3,757**, N2 **3,169**, N1 **5,350**.
 Maintenance batch 025 (27 September 2026) added 102 everyday words (countries,
 languages, online vocabulary, animals, daily life); batch 026 added 25 idioms and sayings; batch 027 added 46 N5/N4 JLPT-list words; batches 028–031 added 285 N3 JLPT-list words; see
@@ -23,7 +42,7 @@ duplicate examples remain. See [the maintenance summary](scripts/vocabulary-comp
 The historical expansion below remains unchanged as a record of that work.
 See [completion authoring and current gaps](scripts/vocabulary-completion/README.md).
 
-Current risk-based follow-up: **159 entries accepted; 12,947 await review**.
+Risk-based follow-up (22 September 2026): **159 entries accepted; 12,947 awaited review**.
 Batch 010 resolved seven candidate references with five documented aliases;
 batches 011 and 012 accepted 50 further reviews. **3,917 candidate groups / 6,552
 source references remain open**. Pitch: 158 verified and one investigated unknown.

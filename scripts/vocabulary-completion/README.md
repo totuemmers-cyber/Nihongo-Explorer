@@ -551,9 +551,10 @@ The full-corpus request is **not complete**. The risk-based completion gate must
 until every entry, candidate and pitch investigation meets the acceptance rules.
 Mechanical dictionary matches are research leads, not editorial approvals.
 
-## Active review policy — risk-based-v2
+## Historical review policy — risk-based-v2
 
-New batches use `risk-based-v2`. Existing strict and `risk-based-v1` batches retain
+Superseded on 4 October 2026 by `author-only-v1` (see the campaign section above).
+Batches 013–166 used `risk-based-v2`. Existing strict and `risk-based-v1` batches retain
 their original rules and hashes. In addition to unchanged entries, the routine
 pool permits meaning-preserving German spelling, punctuation, formatting and
 wording changes to existing meanings, notes and example translations. Each edit
@@ -644,7 +645,7 @@ the risk-based gate. `npm run audit:vocabulary-enrichment` retains the former fu
 note/two-context gate. Historical approvals remain under `strict-full-v1`; their
 records, hashes, and requirements are not rewritten.
 
-## Current checkpoint — risk-based follow-up
+## Earlier checkpoint — risk-based follow-up
 
 Batch [010](010-pilot-candidates.json) adds five documented search aliases and
 accepts seven individual source references. Four broader-sense references remain
@@ -889,6 +890,21 @@ basis and reason. A correction-driven addition need not be in the historical
 candidate queue. Candidate `decisions` use `added`, `verified-spelling-variant`,
 `additional-sense`, `additional-reading`, `verified-source-notation`, or `excluded`; they require individual
 evidence, rationale, second-pass findings, and reviewed surviving IDs when relevant.
+
+**Kanji-reading rows** (user-approved rule, 5 October 2026). Some publisher rows,
+mostly in the TANOS lists, give a bare kanji with one of its character readings
+and the meanings from a kanji dictionary, e.g. 幹/かん "(tree) trunk" or 働/どう
+"work, labor". Such a row is not a vocabulary word. It is `excluded` when JMdict
+has no word for that spelling, reading and sense. Rare abbreviations and unrelated
+senses don't count as such a word. The reason names the actual words for the
+meanings (e.g. 幹/みき) and, where the kanji is in the Kanji section, cites its
+reading there. If the spelling and reading do form a real word, the row maps to
+that word's card with `additional-sense`. Any remaining gloss branches that are
+only character meanings are named in the reason and need no separate card. Rows
+whose gloss belongs to a different word (e.g. 灰/あく for 灰汁, 誰/たれ for the
+suffix 〜たれ) are `excluded` as source mix-ups. Policy reasons are
+`kanji-reading-row` or `source-error`. Batch 167a applied the rule to the last 14
+N5-owned references.
 
 `verified-source-notation` handles eleven explicit publisher formats: a nominal
 heading with a complete suru-verb reading, a parenthesized reading ending, a

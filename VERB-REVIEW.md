@@ -63,7 +63,6 @@ These remain searchable with their original IDs and wording:
 
 | Entry | Reason |
 | --- | --- |
-| 文句する | Matched noun lacks a supporting する verb sense |
 | 前提とする | Full expression not matched by this dictionary review |
 | 有効にする | Full expression not matched by this dictionary review |
 | 即〜 | Affix spelling not matched as a dictionary-form verb |
@@ -71,10 +70,13 @@ These remain searchable with their original IDs and wording:
 | 恤む | No matching spelling/reading pair |
 | 躍起になる | Full expression not matched by this dictionary review |
 | 慣行する | Matched noun lacks a supporting する verb sense |
-| 宥す / なだめる | No matching spelling/reading pair |
 
 An exclusion means that this review cannot safely supply quiz answers, not that
 the expression necessarily cannot occur in Japanese.
+
+Two earlier exclusions were later resolved by vocabulary review: 文句する became
+the godan expression 文句を言う (quality sweep batch 020), and 宥す is now ゆるす
+"forgive" with godan conjugation (batch 002), separate from 宥める.
 
 ## Curriculum and validation
 

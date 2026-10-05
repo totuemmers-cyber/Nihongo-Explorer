@@ -1,0 +1,821 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "上|じょう",
+      "referenceIndex": 0,
+      "referenceHash": "7356f67e40b143dd9e5cf098cd96842ae517e3bcc26c3f167192b3ad6eda9d6b",
+      "revisionId": "167a-reference-上|じょう-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n3:correction:jou-grade-volume-noun"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:jou-grade-volume-noun": "25b2e9991f1f3f28d37192501aee6f586f61c3f23b982757279816384dbc9c06"
+      },
+      "reason": "The row 上/じょう is the real noun じょう (JMdict 1352170 senses 3-4: top grade, first volume). Glosses (1) first volume and (2) superior quality are taught by the reviewed card 上/じょう \"gehobene Qualität, obere Stufe; erster Band\". Gloss (3) \"governmental\" has no じょう sense in JMdict; it is a character meaning of 上 (ruler/authority, as in 上意 and 上奏) and is taught by the separate card 上/かみ \"Obrigkeit\". Under the kanji-reading row (scripts/vocabulary-completion/README.md, \"Kanji-reading rows\") rule, that kanji-level tail does not need its own vocabulary card.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N3)",
+          "version": "Original publisher file SHA256 dd2646193eb16f28636a91a4419110bec0e24a18fba2326a2505978d27021830",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=41",
+          "finding": "上/じょう glossed \"(1) first volume,(2) superior quality,(3) governmental\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#上|じょう",
+          "finding": "First-volume and superior-quality noun senses are independently licensed and now taught in the separate reviewed grade/volume card. Daijisenかみ explicitly licenses governmental-authority noun, but is a different reading. NipponKokugoじょう noun③ cross-refers toしょう②=天子, and nominal② concerns high官職; this is positive historical ruler/rank evidence, not absence."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1352170; 上/じょう",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Senses: suffix \"from the standpoint of\", suffix \"on/above\", noun \"the best, top, first class\", noun \"first volume\", expression \"with my compliments\". No governmental sense."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 上",
+          "locator": "kanji-data.js / kanji-n1.js entry 上",
+          "finding": "On-reading ジョウ is taught; the kun-reading かみ card covers the authority sense."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-sense",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 上|じょう. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "b3105e5a912931f1fc64bf8c6e0a8c3510a17b199c3f82eb76bf3e2bdbc9a0f7",
+        "approvalHash": "b3105e5a912931f1fc64bf8c6e0a8c3510a17b199c3f82eb76bf3e2bdbc9a0f7"
+      }
+    },
+    {
+      "key": "佚|いつ",
+      "referenceIndex": 0,
+      "referenceHash": "83302a66cd6e283f4adc71522190ef3228a707e62b1256d735a2c15b635e8777",
+      "revisionId": "167a-reference-佚|いつ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n2:correction:itsu-leisure-relaxation-noun"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:itsu-leisure-relaxation-noun": "414a5c48012ab81eb0039b896d3dadca49b30ba298eb713070a513fd3b17696f"
+      },
+      "reason": "The row 佚/いつ is the literary noun いつ \"comfort, relaxing\" (JMdict 1585390), taught by the reviewed card 佚/いつ \"Muße; behagliche Ruhe\". The remaining TANOS glosses (be lost, hide, mistake, beautiful, in turn) are character meanings of 佚 (shared with 逸) from kanji dictionaries, not uses of the noun いつ. Under the kanji-reading row (scripts/vocabulary-completion/README.md, \"Kanji-reading rows\") rule, they need no separate card; the target card notes already state that the other character meanings are outside this word.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N2)",
+          "version": "Original publisher file SHA256 5450f0827871f7dfe5f5e4959578ffa3baa70d111e3cf65184012566bb1cfb32",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=4",
+          "finding": "佚/いつ glossed \"be lost,peace,hide,mistake,beautiful,in turn\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#佚|いつ",
+          "finding": "Exact independentいつ noun meaning freely relaxing or enjoying oneself positively licensed by NipponKokugo and JMdict1585390. Original Master56326 independently labels noun and N2 with comfortable/relaxing only. TANOS original N2PDF4 genuinely contains the broad lost/peace/hide/mistake/beautiful/in-turn scope. KanjiPedia search leads and 字通 support several character meanings, without establishing independent lexical uses for every frozen branch."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1585390; 佚/いつ",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Single noun sense: being comfortable, relaxing."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-sense",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 佚|いつ. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "97d4a5cb75f8c0b68f6c87731a04d6345530dbab5d74c3f4326d11f445e03a56",
+        "approvalHash": "97d4a5cb75f8c0b68f6c87731a04d6345530dbab5d74c3f4326d11f445e03a56"
+      }
+    },
+    {
+      "key": "灰|あく",
+      "referenceIndex": 0,
+      "referenceHash": "4b3481b109d3eb0d20769ded6c30afba37e12cdad060d0b41d8d73ac49f1425c",
+      "revisionId": "167a-reference-灰|あく-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Source mix-up: \"puckery juice\" is the gloss of 灰汁/あく (JMdict 1201960: lye, harsh/astringent taste, scum). JMdict has no 灰/あく word, and bare 灰 is はい \"ash\" (taught as the N3 card 灰/はい). The intended word 灰汁 is not yet in the vocabulary; that is a possible later addition, not a reason to keep this malformed row open.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=2",
+          "finding": "灰/あく glossed \"puckery juice\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#灰|あく",
+          "finding": "Selected astringent plant-component meaning is positively licensed for the complete 灰汁/あく. The current bare灰 article teachesはい; this alone does not prove all historicalあく spellings invalid. Search-indexed 字通 historical訓 includesアク and literary灰あく examples are promising research leads."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 灰|あく over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1201960; 灰汁/あく",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "lye; harsh, bitter, astringent taste; scum on soup; strong individuality."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 灰|あく. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "61f48fe1aa0265726a1410755ee3ccabdb970f2aac289b7706b57d7387fa0e36",
+        "approvalHash": "61f48fe1aa0265726a1410755ee3ccabdb970f2aac289b7706b57d7387fa0e36"
+      }
+    },
+    {
+      "key": "乾|かん",
+      "referenceIndex": 0,
+      "referenceHash": "4f175b57fdc0b50217b99e8ed26e87b9c3edb31d862dc74a05cc743a08e1dfaf",
+      "revisionId": "167a-reference-乾|かん-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives the character 乾 with the sound かん and the character meanings \"heaven, emperor\". JMdict has no 乾/かん word; the heaven sense belongs to the trigram noun けん (JMdict 1577540, I Ching \"qian\"). The Kanji section teaches 乾 with the readings カン and ケン.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "finding": "乾/かん glossed \"heaven, emperor\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#乾|かん",
+          "finding": "Daijisen explicitly distinguishesカン drying fromケン heaven/emperor within kanji article. Independentけん noun in both dictionaries is the I Ching trigram and/or heaven, with historical sources. TANOS N1PDF33 explicitly readsかん for heaven/emperor."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 乾|かん over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1577540; 乾/けん",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Trigram qian (heaven, northwest)."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 乾",
+          "locator": "kanji-data.js / kanji-n1.js entry 乾",
+          "finding": "On-readings カン and ケン; kun-readings かわく, かわかす."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 乾|かん. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "8f193c6e36f95f4a14565ce951ac054b93c65c16ad443bd3f946ec528419641c",
+        "approvalHash": "8f193c6e36f95f4a14565ce951ac054b93c65c16ad443bd3f946ec528419641c"
+      }
+    },
+    {
+      "key": "幹|かん",
+      "referenceIndex": 0,
+      "referenceHash": "f54b4bdc18b5dff6a884919c4802db251c00cd73daebceb64de15d4a234db625",
+      "revisionId": "167a-reference-幹|かん-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives the character 幹 with its sound かん and the character meaning \"tree trunk\". JMdict has no 幹/かん word; the independent noun is みき, taught as 幹/みき \"Stamm (Baum)\". The Kanji section teaches the on-reading カン.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "finding": "幹/かん glossed \"(tree) trunk\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#幹|かん",
+          "finding": "Daijisen exactかん is marked漢字項目 with tree-trunk compound樹幹; independent botanical head isみき. Kokugo also licenses historicalから/こあし/こわし, separate readings. TANOS N1PDF33 exactかん trunk confirmed."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 幹|かん over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 幹",
+          "locator": "kanji-data.js / kanji-n1.js entry 幹",
+          "finding": "On-reading カン; kun-reading みき."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 幹|かん. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "63b8a0436bcfa53c8df3f528b9929a5db42ee197e617e15082140e68e731e7d8",
+        "approvalHash": "63b8a0436bcfa53c8df3f528b9929a5db42ee197e617e15082140e68e731e7d8"
+      }
+    },
+    {
+      "key": "共|きょう",
+      "referenceIndex": 0,
+      "referenceHash": "a8576d952d503edd4c7237d4c757d467e51f3bf71a5ac9796d0588c61957a9f5",
+      "revisionId": "167a-reference-共|きょう-0",
+      "state": "accepted",
+      "predecessorHash": "984e5ea72944a164d5b46835945f51e96f304bcc27b2d0031c5cb8ec46d748aa",
+      "predecessorRevisionHash": "1f717677c38239a7666247de24b7193832dd068592d12d81b28efc5d94d7a500",
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 共 with its sound きょう and the meanings of the character and of the separate words とも/ども (both, all, and, including, plural). JMdict has no 共/きょう word; those meanings belong to 共/とも (1578040) and 共/ども (1234250). The Kanji section teaches the on-reading キョウ and the kun-reading とも.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=42",
+          "finding": "共/きょう glossed \"both, neither (neg), all, and, as well as,\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#共|きょう",
+          "finding": "Exactきょう Daijisen heading is漢字項目 for together and abbreviated communism in compounds. Complete independently lexicalとも and boundpluralども/とも/ぐち are positively licensed. Original TANOS N1PDF42 continues including,with,together-with,plural-ending after the truncated frozen first line."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 共|きょう over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578040; 共/とも",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "together with; same; both, all, neither; including."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 共",
+          "locator": "kanji-data.js / kanji-n1.js entry 共",
+          "finding": "On-reading キョウ; kun-reading とも."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 共|きょう. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "fa90fff3a0ec03329ae50871ad344332e8c79aff204e5210d3a0629407777674",
+        "approvalHash": "fa90fff3a0ec03329ae50871ad344332e8c79aff204e5210d3a0629407777674"
+      }
+    },
+    {
+      "key": "供|きょう",
+      "referenceIndex": 0,
+      "referenceHash": "b644f9ce0948002b282034ce27e075a449e824be7b40e1d0fc7b8c77d36708c9",
+      "revisionId": "167a-reference-供|きょう-0",
+      "state": "accepted",
+      "predecessorHash": "0e84fe58ea161c56f72bf5a57fb1e8ea0d606c7c4c8f0cf8afd82c97239fe2a9",
+      "predecessorRevisionHash": "a1247484567742b1d001acb232baa5905abd854be017dc5569531de43455687c",
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 供 with its sound きょう and character meanings (offer, present, submit, serve, supply) that occur in compounds such as 提供 and 供給 and in the verb 供する. JMdict has no 供/きょう word. The Kanji section teaches the on-readings キョウ and ク.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=42",
+          "finding": "供/きょう glossed \"offer, present, submit, serve (a meal), supply\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#供|きょう",
+          "finding": "Daijisenきょう is explicitly a kanji item, with offering/providing/submitting/hospitality functions illustrated in actual compounds. Independent nominal article headings areとも andぐ. The complete verb供する is a distinct lexical form."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 供|きょう over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 供",
+          "locator": "kanji-data.js / kanji-n1.js entry 供",
+          "finding": "On-readings キョウ, ク; kun-readings そなえる, とも."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 供|きょう. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "5ab468e91ef83befee725c7b25288e5939e2591fa14f10b866011a5270a21736",
+        "approvalHash": "5ab468e91ef83befee725c7b25288e5939e2591fa14f10b866011a5270a21736"
+      }
+    },
+    {
+      "key": "頃|けい",
+      "referenceIndex": 0,
+      "referenceHash": "e856e7940526b5929baef7527916285a11bff56ccb55ade1de055e534227ea73",
+      "revisionId": "167a-reference-頃|けい-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 頃 with its sound けい and the temporal character meaning \"time, about\", which as a word is ころ/ごろ. The only JMdict 頃/けい word is a rare Chinese land-area unit (JMdict 2210780), an unrelated sense. The Kanji section teaches the on-reading ケイ and the kun-readings ころ/ごろ.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=49",
+          "finding": "頃/けい glossed \"time, about, toward, approximately (time)\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#頃|けい",
+          "finding": "Daijisenけい kanji article illustrates current-time/brief-time meanings through頃日/頃刻/少頃. NipponKokugo independentけい noun is a Chinese land-area unit. Approximate-time noun and suffix are separatelyころ/ごろ."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2210780; 頃/けい",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Single rare noun sense: qing, Chinese unit of land area."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 頃",
+          "locator": "kanji-data.js / kanji-n1.js entry 頃",
+          "finding": "On-reading ケイ; kun-readings ころ, ごろ."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 頃|けい. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "b17876f8dd232ab2f40ee12f15c5c2dd2bec4d8ce62e451f7bc90551f0c6aa87",
+        "approvalHash": "b17876f8dd232ab2f40ee12f15c5c2dd2bec4d8ce62e451f7bc90551f0c6aa87"
+      }
+    },
+    {
+      "key": "傾|けい",
+      "referenceIndex": 0,
+      "referenceHash": "fd50d0e098d3ca90cc2ce5e91c05f04a77fbc8a8306d31deba13915e52407b84",
+      "revisionId": "167a-reference-傾|けい-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 傾 with its sound けい and the character meaning \"lean, incline\", which as words is かたむく/かたむける or compounds such as 傾向. JMdict has no 傾/けい word for this sense. The Kanji section teaches the on-reading ケイ.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=49",
+          "finding": "傾/けい glossed \"lean, incline\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#傾|けい",
+          "finding": "けい kanji article uses compounds傾斜/傾向 for lean/incline. Exact independentけい noun is positively licensed as abbreviation傾城(courtesan), a different meaning. Noun inclination headings areかたむき/かたぶき/なだり. TANOS N1PDF49 exactけい lean/incline confirmed."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 傾|けい over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 傾",
+          "locator": "kanji-data.js / kanji-n1.js entry 傾",
+          "finding": "On-reading ケイ; kun-readings かたむく, かたむける."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 傾|けい. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "c09ba9c2cbde89f398df3ff6ab18f520bfceaee277a8a8092ad8023cf7a5a248",
+        "approvalHash": "c09ba9c2cbde89f398df3ff6ab18f520bfceaee277a8a8092ad8023cf7a5a248"
+      }
+    },
+    {
+      "key": "次|し",
+      "referenceIndex": 0,
+      "referenceHash": "510b8346aff0e159746d88362822a7bac4329e294708580b14cdddb3877037b1",
+      "revisionId": "167a-reference-次|し-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 次 with its sound し and the character meanings \"order, sequence, times, next, below\" (as in 次第). JMdict has no 次/し word; the words are 次/つぎ (taught at N5) and the prefix 次/じ (taught at N1). The Kanji section teaches the on-readings ジ and シ.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=68",
+          "finding": "次/し glossed \"order, sequence, times, next, below\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#次|し",
+          "finding": "Daijisen explicitly listsシ as character sound and順序 through次第. Independentじ noun andじ suffix cover sequence/times, independentつぎ covers next/below; historicalつぎてつぎてし adjective also separate. TANOS N1PDF68 exactし order/sequence/times/next/below confirmed."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 次|し over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 次",
+          "locator": "kanji-data.js / kanji-n1.js entry 次",
+          "finding": "On-readings ジ, シ; kun-readings つぐ, つぎ."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 次|し. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "0025b0dfcb749f592d1245aad2b346f00ec9477091b0dd22d200c775dcb46ddb",
+        "approvalHash": "0025b0dfcb749f592d1245aad2b346f00ec9477091b0dd22d200c775dcb46ddb"
+      }
+    },
+    {
+      "key": "前|せん",
+      "referenceIndex": 0,
+      "referenceHash": "8ef1501ea9add1b5fd87248d8077b13fee3145587ba4ddaa8e3123f178f358c7",
+      "revisionId": "167a-reference-前|せん-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 前 with the kan-on sound せん and the character meaning \"before\". JMdict has no 前/せん word; the words are 前/まえ (taught at N5) and the prefix 前/ぜん (taught at N2). The Kanji section teaches the on-reading ゼン.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=91",
+          "finding": "前/せん glossed \"before\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#前|せん",
+          "finding": "Daijisen kanji article listsセン漢音 andゼン呉音; exact independentbefore noun and bound forms areぜん, while ordinary nounまえ. Historical前栽せんざい and sourceかのせむ大王 are compound/phonetic historical leads. TANOS N1PDF91 exactせん before confirmed."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 前|せん over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 前",
+          "locator": "kanji-data.js / kanji-n1.js entry 前",
+          "finding": "On-reading ゼン; kun-reading まえ."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 前|せん. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "d59c083a2cb1d94914b8769b195d1b6868f925c2eeba5c5c6517ff0e91f5b357",
+        "approvalHash": "d59c083a2cb1d94914b8769b195d1b6868f925c2eeba5c5c6517ff0e91f5b357"
+      }
+    },
+    {
+      "key": "誰|たれ",
+      "referenceIndex": 0,
+      "referenceHash": "0f2f20a4fcdb5ffcea5b0507dad530cb3aba18b5de9c8d543f69d214526a79da",
+      "revisionId": "167a-reference-誰|たれ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Source mix-up: \"adjectival suffix for a person\" is the gloss of the derogatory suffix 〜たれ, spelled 垂れ (JMdict 1370860 sense 6: -ass, -head, as in 馬鹿たれ), not of 誰. 誰 read たれ is an older form of the pronoun \"who\"; this exclusion does not deny that word. The pronoun 誰/だれ is taught at N5, and the Kanji section lists the reading たれ.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=101",
+          "finding": "誰/たれ glossed \"adjectival suffix for a person\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#誰|たれ",
+          "finding": "Exact誰たれ is positively licensed as older indefinite human pronoun who. All inspected primary lexicons explicitly mark代名詞; the source original TANOS N1PDF101 genuinely says adjectival suffix for a person. Similar colloquial suffix〜たれ may have a different spelling/role."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 誰|たれ over the complete decompressed JMdict_e",
+          "finding": "No entry with this spelling+reading."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1370860; 垂れ/たれ",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Sense 6: -ass, -head (derogatory noun suffix)."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 誰",
+          "locator": "kanji-data.js / kanji-n1.js entry 誰",
+          "finding": "On-reading スイ; kun-readings だれ, たれ."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 誰|たれ. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "c0f224e0a1cbb5976ad664c34c8a6931e92fcb93b09d2ce158154cc284abf60f",
+        "approvalHash": "c0f224e0a1cbb5976ad664c34c8a6931e92fcb93b09d2ce158154cc284abf60f"
+      }
+    },
+    {
+      "key": "働|どう",
+      "referenceIndex": 0,
+      "referenceHash": "702608088566acc618b3589d988a1841bbf0bfd3b7358bd672419a65105b4757",
+      "revisionId": "167a-reference-働|どう-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row: TANOS gives 働 with its sound どう and the character meaning \"work, labor\", which occurs in compounds such as 労働 and 稼働. JMdict has no 働/どう word; the independent words are はたらく and はたらき. The Kanji section teaches the on-reading ドウ.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Original publisher file SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=120",
+          "finding": "働/どう glossed \"work, labor\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#働|どう",
+          "finding": "Daijisenどう is marked漢字項目 with稼働/実働/労働 compounds, and 字通 explicitly states Japanese-created character pronounced like動. Exact independent nounはたらき is positive work/labour but different reading. TANOS N1PDF120 exactどう work/labor confirmed."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "exact spelling+reading query 働|どう over the complete decompressed JMdict_e",
+          "finding": "No entry."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 働",
+          "locator": "kanji-data.js / kanji-n1.js entry 働",
+          "finding": "On-reading ドウ; kun-reading はたらく."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 働|どう. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "886792c6e57ebb3dfeb24daeb53cd2b66f303cf068a015a06b9d4b19cda48bfd",
+        "approvalHash": "886792c6e57ebb3dfeb24daeb53cd2b66f303cf068a015a06b9d4b19cda48bfd"
+      }
+    },
+    {
+      "key": "道|どう",
+      "referenceIndex": 0,
+      "referenceHash": "e169210ed0a81174fcfc64c78adc67f4c74a0632c205f899f898c718bfb8f250",
+      "revisionId": "167a-reference-道|どう-0",
+      "state": "accepted",
+      "predecessorHash": "aba63f66b31b538f7245da69fde377303b5b0805aac1a6f98ad860002e5badbe",
+      "predecessorRevisionHash": "f00152a19b9a4a67966d88e1e8162ad16be5657641ef39afc09e7063c3407a20",
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Kanji-reading row (rare abbreviation): the Nihongo Master row gives 道 with its sound どう and the meaning \"road\". JMdict 2158900 marks that sense as an abbreviation; two research rounds found no natural free-standing use of どう for a physical road. The everyday word is 道/みち (taught at N5); どう is taught through the suffix card 〜道/どう and in the Kanji section, and the Hokkaido sense belongs to place names.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Original publisher file SHA256 82929a95bcac499b742a524f3535d1a2a482dc015bef3c2e5e7001e4a51799cb",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/109416",
+          "finding": "道/どう glossed \"road\"; row read in the saved original."
+        },
+        {
+          "source": "Batch research record",
+          "version": "research-n5-remaining-20261004 (2026-10-04)",
+          "locator": "scripts/vocabulary-completion/research-n5-remaining-20261004.json#道|どう",
+          "finding": "Independentどう physical-road noun is positively licensed by both Shogakukan dictionaries and the original Master entry. This is not a nonexistent or automatically erroneous publisher pair."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2158900; 道/どう",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0",
+          "finding": "Sense 1 \"road, path, street, route\" is tagged [abbr]; other senses: way/practice, Buddhist teachings, Taoism, Hokkaido and other administrative regions."
+        },
+        {
+          "source": "Nihongo Explorer Kanji section (kanji-data.js / kanji-n1.js), repository state d4775a9",
+          "version": "Runtime kanji entry 道",
+          "locator": "kanji-data.js / kanji-n1.js entry 道",
+          "finding": "On-reading ドウ; kun-reading みち."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "kanji-reading-row"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-source-author-167",
+        "finding": "Author reread the frozen reference row, the saved research case, the exact JMdict entries and the Kanji section entry for 道|どう. The disposition follows the documented kanji-reading-row rule (or source mix-up), the reason names every gloss branch, and any target is an existing accepted card whose hash is bound unchanged.",
+        "contentHash": "9718e32d838958820ef0f3ec153a79b78960a168608f78aa4e3358bbacff1570",
+        "approvalHash": "9718e32d838958820ef0f3ec153a79b78960a168608f78aa4e3358bbacff1570"
+      }
+    }
+  ]
+}

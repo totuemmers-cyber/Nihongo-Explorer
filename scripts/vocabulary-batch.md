@@ -17,6 +17,11 @@ two reviewed contexts or investigated pitch. `--level=N5 --enrichment` makes thi
 selection explicit. The reusable module keeps its maintenance defaults unless
 these options are supplied. Candidate groups are allocated separately; a phase
 requires all references in groups owned by that level to resolve.
+Bare-kanji publisher rows (a character reading plus kanji-dictionary meanings)
+follow the kanji-reading-row rule in
+[the completion README](vocabulary-completion/README.md): exclude them unless the
+spelling and reading form a real JMdict word, and map them with `additional-sense`
+when they do.
 Retired merge sources stay in working history but are excluded from both queue
 modes. Explicit entry rosters and previously allocated packets also reject them;
 pending additions remain eligible.
