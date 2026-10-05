@@ -1,0 +1,4077 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:331",
+      "revisionId": "168g-n4-enrichment-331",
+      "state": "accepted",
+      "predecessorHash": "aa8cddfa3de96741264e6b466fd277832a380ae1ece13edde04dd2fa327b3b64",
+      "originalHash": "aa8cddfa3de96741264e6b466fd277832a380ae1ece13edde04dd2fa327b3b64",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "去年の二倍になりました。",
+            "romaji": "Kyonen no nibai ni narimashita.",
+            "german": "Es ist doppelt so viel wie letztes Jahr."
+          },
+          {
+            "japanese": "去年の倍の量を売りました。",
+            "romaji": "Kyonen no bai no ryou o urimashita.",
+            "german": "Wir haben die doppelte Menge vom letzten Jahr verkauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Allein bedeutet 倍 „das Doppelte“: 倍になる („sich verdoppeln“), 倍にする („verdoppeln“). Mit einer Zahl davor ist es ein Zähler für „-fach“: 二倍, 三倍, 十倍. Vergleiche bildet man mit AはBの三倍です („A ist dreimal so viel wie B“); 倍 und 二倍 bedeuten beide „doppelt“.",
+        "examples": [
+          {
+            "japanese": "去年の二倍になりました。",
+            "romaji": "Kyonen no nibai ni narimashita.",
+            "german": "Es ist doppelt so viel wie letztes Jahr."
+          },
+          {
+            "japanese": "東京の家賃は私の町の三倍ぐらいです。",
+            "romaji": "Tōkyō no yachin wa watashi no machi no sanbai gurai desu.",
+            "german": "Die Mieten in Tokio sind etwa dreimal so hoch wie in meiner Stadt."
+          },
+          {
+            "japanese": "試験の前なので、勉強の時間を倍にしました。",
+            "romaji": "Shiken no mae na node, benkyō no jikan o bai ni shimashita.",
+            "german": "Weil die Prüfung bevorsteht, habe ich meine Lernzeit verdoppelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220003173",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 倍/バイ; lemma 倍; 名詞/普通名詞/助数詞可能/*; *; *; aType 0,1. Rejected for this role: 倍/バイ; lemma 倍する; 動詞/一般/*/*; 五段-サ行; 連体形-省略; aType 1.",
+            "match": {
+              "word": "倍",
+              "reading": "ばい",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Nomen 倍/ばい \"-fach, doppelt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1473230 senses 1-2, noun/counter: double, twice as much; -fold Pitch: Verified [0,1] via exact UniDic row. Allein bedeutet 倍 „das Doppelte“: 倍になる („sich verdoppeln“), 倍にする („verdoppeln“). Mit einer Zahl davor ist es ein Zähler für „-fach“: 二倍, 三倍, 十倍. Vergleiche bildet man mit AはBの三倍です („A ist dreimal so viel wie B“); 倍 und 二倍 bedeuten beide „doppelt“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1473230; spelling=倍; reading=ばい",
+          "selected": {
+            "sequence": "1473230",
+            "spelling": "倍",
+            "reading": "ばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "double",
+                  "twice (as much)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "times (as much)",
+                  "-fold"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "1-nth",
+                  "1 to n",
+                  "1 in n"
+                ],
+                "notes": [
+                  "e.g. 40倍 = 1 in 40"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1473230 senses 1-2, noun/counter: double, twice as much; -fold"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 倍/バイ; lemma 倍; 名詞/普通名詞/助数詞可能/*; *; *; aType 0,1. Rejected for this role: 倍/バイ; lemma 倍する; 動詞/一般/*/*; 五段-サ行; 連体形-省略; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@220003173",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 倍/バイ; lemma 倍; 名詞/普通名詞/助数詞可能/*; *; *; aType 0,1. Rejected for this role: 倍/バイ; lemma 倍する; 動詞/一般/*/*; 五段-サ行; 連体形-省略; aType 1.",
+            "match": {
+              "word": "倍",
+              "reading": "ばい",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Nomen 倍/ばい \"-fach, doppelt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "-fach, doppelt. JMdict 1473230 senses 1-2, noun/counter: double, twice as much; -fold",
+        "japanese": "去年の二倍になりました。 / 東京の家賃は私の町の三倍ぐらいです。 / 試験の前なので、勉強の時間を倍にしました。",
+        "romanization": "bai; Kyonen no nibai ni narimashita. / Tōkyō no yachin wa watashi no machi no sanbai gurai desu. / Shiken no mae na node, benkyō no jikan o bai ni shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist doppelt so viel wie letztes Jahr. / Die Mieten in Tokio sind etwa dreimal so hoch wie in meiner Stadt. / Weil die Prüfung bevorsteht, habe ich meine Lernzeit verdoppelt.",
+        "contexts": [
+          "Doubling compared to last year",
+          "Comparing rents between cities",
+          "Doubling study time before an exam"
+        ],
+        "lexical": "JMdict 1473230 senses 1-2, noun/counter: double, twice as much; -fold",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb; used in 倍になる (intransitive) / 倍にする (transitive)",
+        "conjugation": "Nonverb (noun / counter)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:331 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Doubling compared to last year; Comparing rents between cities; Doubling study time before an exam), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "497b5ce028d259c63c1dff438ae3b0fb116a0bf85c811bfdf5673a83b364f2f9",
+        "approvalHash": "88613eceb69f898a767cbe89f98f3e9b2f3606f738275eff65ad05729877b6a3"
+      }
+    },
+    {
+      "id": "vocab-n4:333",
+      "revisionId": "168g-n4-enrichment-333",
+      "state": "accepted",
+      "predecessorHash": "26d16e441b621b3cf944fa84e698f920ecedaf1170df47f95727a597549cf644",
+      "originalHash": "26d16e441b621b3cf944fa84e698f920ecedaf1170df47f95727a597549cf644",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "全体を見てください。",
+            "romaji": "Zentai o mite kudasai.",
+            "german": "Schauen Sie sich das Ganze an."
+          },
+          {
+            "japanese": "全体の計画を見せてください。",
+            "romaji": "Zentai no keikaku o misete kudasai.",
+            "german": "Bitte zeigen Sie mir den Gesamtplan."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "全体 betrachtet etwas als zusammenhängendes Ganzes, während 全部 alle einzelnen Teile aufzählt („alles“). Nachgestellt bildet es „der/die/das ganze …“: クラス全体, 町全体. Attributiv steht es mit の (全体の計画), adverbial oft als 全体的に („insgesamt“).",
+        "examples": [
+          {
+            "japanese": "全体の計画を見せてください。",
+            "romaji": "Zentai no keikaku o misete kudasai.",
+            "german": "Bitte zeigen Sie mir den Gesamtplan."
+          },
+          {
+            "japanese": "クラス全体で京都へ旅行に行きました。",
+            "romaji": "Kurasu zentai de Kyōto e ryokō ni ikimashita.",
+            "german": "Die ganze Klasse ist nach Kyoto gereist."
+          },
+          {
+            "japanese": "雪が降って、町全体が白くなりました。",
+            "romaji": "Yuki ga futte, machi zentai ga shiroku narimashita.",
+            "german": "Es hat geschneit, und die ganze Stadt ist weiß geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154910742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 全体/ゼンタイ; lemma 全体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "全体",
+              "reading": "ぜんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 全体/ぜんたい \"Gesamtheit, Ganzes\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1395660 sense 1, noun: whole, entirety Pitch: Verified [0] via exact UniDic row. 全体 betrachtet etwas als zusammenhängendes Ganzes, während 全部 alle einzelnen Teile aufzählt („alles“). Nachgestellt bildet es „der/die/das ganze …“: クラス全体, 町全体. Attributiv steht es mit の (全体の計画), adverbial oft als 全体的に („insgesamt“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1395660; spelling=全体; reading=ぜんたい",
+          "selected": {
+            "sequence": "1395660",
+            "spelling": "全体",
+            "reading": "ぜんたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "whole",
+                  "entirety"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to begin with",
+                  "in the first place"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... the heck (e.g. \"what the heck?\")",
+                  "... in the world (e.g. \"why in the world?\")",
+                  "... on earth (e.g. \"who on earth?\")"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1395660 sense 1, noun: whole, entirety"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 全体/ゼンタイ; lemma 全体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154910742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 全体/ゼンタイ; lemma 全体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "全体",
+              "reading": "ぜんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 全体/ぜんたい \"Gesamtheit, Ganzes\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gesamtheit, Ganzes. JMdict 1395660 sense 1, noun: whole, entirety",
+        "japanese": "全体の計画を見せてください。 / クラス全体で京都へ旅行に行きました。 / 雪が降って、町全体が白くなりました。",
+        "romanization": "zentai; Zentai no keikaku o misete kudasai. / Kurasu zentai de Kyōto e ryokō ni ikimashita. / Yuki ga futte, machi zentai ga shiroku narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte zeigen Sie mir den Gesamtplan. / Die ganze Klasse ist nach Kyoto gereist. / Es hat geschneit, und die ganze Stadt ist weiß geworden.",
+        "contexts": [
+          "Asking for the overall plan",
+          "Whole-class trip",
+          "Town covered in snow"
+        ],
+        "lexical": "JMdict 1395660 sense 1, noun: whole, entirety",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:333 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking for the overall plan; Whole-class trip; Town covered in snow), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a593faeb579b3e40e98e0e1ff2dd5b6280f95d3e4737df43b90ccc107aac5e60",
+        "approvalHash": "0d09ccefad73b993f6ab23973cebc5135ec5386eab983de2258d64c89fbee57a"
+      }
+    },
+    {
+      "id": "vocab-n4:334",
+      "revisionId": "168g-n4-enrichment-334",
+      "state": "accepted",
+      "predecessorHash": "37b96793eaa39dd6c79074d1ce0829191d5e47f9e05d13365d594ad2a9f9ba4e",
+      "originalHash": "37b96793eaa39dd6c79074d1ce0829191d5e47f9e05d13365d594ad2a9f9ba4e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この部分が分かりません。",
+            "romaji": "Kono bubun ga wakarimasen.",
+            "german": "Diesen Teil verstehe ich nicht."
+          },
+          {
+            "japanese": "この部分がわかりません。",
+            "romaji": "Kono bubun ga wakarimasen.",
+            "german": "Diesen Teil verstehe ich nicht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "部分 bezeichnet einen bestimmten Abschnitt oder eine Stelle innerhalb eines Ganzen, etwa eines Textes, Films oder Gegenstands: この部分, 最後の部分. Für „ein Teil davon, manche“ verwendet man eher 一部: 一部の人. Das Adverb 部分的に bedeutet „teilweise“.",
+        "examples": [
+          {
+            "japanese": "この部分が分かりません。",
+            "romaji": "Kono bubun ga wakarimasen.",
+            "german": "Diesen Teil verstehe ich nicht."
+          },
+          {
+            "japanese": "映画の最後の部分がとてもよかったです。",
+            "romaji": "Eiga no saigo no bubun ga totemo yokatta desu.",
+            "german": "Der Schluss des Films war sehr gut."
+          },
+          {
+            "japanese": "椅子の壊れた部分を直しました。",
+            "romaji": "Isu no kowareta bubun o naoshimashita.",
+            "german": "Ich habe die kaputte Stelle am Stuhl repariert."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239605885",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 部分/ブブン; lemma 部分; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "部分",
+              "reading": "ぶぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部分/ぶぶん \"Teil, Abschnitt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1499490 sense 1, noun: portion, section, part Pitch: Verified [1] via exact UniDic row. 部分 bezeichnet einen bestimmten Abschnitt oder eine Stelle innerhalb eines Ganzen, etwa eines Textes, Films oder Gegenstands: この部分, 最後の部分. Für „ein Teil davon, manche“ verwendet man eher 一部: 一部の人. Das Adverb 部分的に bedeutet „teilweise“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1499490; spelling=部分; reading=ぶぶん",
+          "selected": {
+            "sequence": "1499490",
+            "spelling": "部分",
+            "reading": "ぶぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "portion",
+                  "section",
+                  "part"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1499490 sense 1, noun: portion, section, part"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 部分/ブブン; lemma 部分; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239605885",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 部分/ブブン; lemma 部分; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "部分",
+              "reading": "ぶぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部分/ぶぶん \"Teil, Abschnitt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Teil, Abschnitt. JMdict 1499490 sense 1, noun: portion, section, part",
+        "japanese": "この部分が分かりません。 / 映画の最後の部分がとてもよかったです。 / 椅子の壊れた部分を直しました。",
+        "romanization": "bubun; Kono bubun ga wakarimasen. / Eiga no saigo no bubun ga totemo yokatta desu. / Isu no kowareta bubun o naoshimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diesen Teil verstehe ich nicht. / Der Schluss des Films war sehr gut. / Ich habe die kaputte Stelle am Stuhl repariert.",
+        "contexts": [
+          "Not understanding part of a text",
+          "Favorite part of a movie",
+          "Repairing a broken chair"
+        ],
+        "lexical": "JMdict 1499490 sense 1, noun: portion, section, part",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:334 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Not understanding part of a text; Favorite part of a movie; Repairing a broken chair), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1bfef3d9f7cc3e719b393c54c07808cb99bfd265622f6227b17dfaa05ba1ed93",
+        "approvalHash": "85a499864f6b87a729bfccc0ec04b8022e47acc4913eca0147bfcf4af002c75b"
+      }
+    },
+    {
+      "id": "vocab-n4:335",
+      "revisionId": "168g-n4-enrichment-335",
+      "state": "accepted",
+      "predecessorHash": "432d093928f81cc1584532c2b3f593bc970532463c4dbaaae6a8ce818d6dcbd5",
+      "originalHash": "432d093928f81cc1584532c2b3f593bc970532463c4dbaaae6a8ce818d6dcbd5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "残りは明日やります。",
+            "romaji": "Nokori wa ashita yarimasu.",
+            "german": "Den Rest erledige ich morgen."
+          },
+          {
+            "japanese": "残りの仕事は明日します。",
+            "romaji": "Nokori no shigoto wa ashita shimasu.",
+            "german": "Die restliche Arbeit mache ich morgen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "残り ist das Nomen zu 残る („übrig bleiben“) und bezeichnet den Rest. Attributiv steht es mit の: 残りの仕事, 残りのお金. Mit einer Mengenangabe heißt es „noch … übrig“: 残り三日 („noch drei Tage“). Übrig gebliebenes Essen nennt man auch 残り物.",
+        "examples": [
+          {
+            "japanese": "残りの仕事は明日します。",
+            "romaji": "Nokori no shigoto wa ashita shimasu.",
+            "german": "Die restliche Arbeit mache ich morgen."
+          },
+          {
+            "japanese": "ケーキの残りは冷蔵庫に入れておきました。",
+            "romaji": "Kēki no nokori wa reizōko ni irete okimashita.",
+            "german": "Den Rest des Kuchens habe ich in den Kühlschrank gestellt."
+          },
+          {
+            "japanese": "夏休みも残り三日です。",
+            "romaji": "Natsuyasumi mo nokori mikka desu.",
+            "german": "Die Sommerferien dauern nur noch drei Tage."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207494312",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 残り/ノコリ; lemma 残り; 名詞/普通名詞/一般/*; *; *; aType 3. Rejected for this role: 残り/ノコリ; lemma 残る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+            "match": {
+              "word": "残り",
+              "reading": "のこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 残り/のこり \"Rest, Übriges\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1304480 sense 1, noun: remainder, the rest, leftovers Pitch: Verified [3] via exact UniDic row. 残り ist das Nomen zu 残る („übrig bleiben“) und bezeichnet den Rest. Attributiv steht es mit の: 残りの仕事, 残りのお金. Mit einer Mengenangabe heißt es „noch … übrig“: 残り三日 („noch drei Tage“). Übrig gebliebenes Essen nennt man auch 残り物. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1304480; spelling=残り; reading=のこり",
+          "selected": {
+            "sequence": "1304480",
+            "spelling": "残り",
+            "reading": "のこり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "remainder",
+                  "remnant",
+                  "the rest",
+                  "what is left",
+                  "balance",
+                  "leftovers"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1304480 sense 1, noun: remainder, the rest, leftovers"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row. Exact whole 残り/ノコリ; lemma 残り; 名詞/普通名詞/一般/*; *; *; aType 3. Rejected for this role: 残り/ノコリ; lemma 残る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207494312",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 残り/ノコリ; lemma 残り; 名詞/普通名詞/一般/*; *; *; aType 3. Rejected for this role: 残り/ノコリ; lemma 残る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+            "match": {
+              "word": "残り",
+              "reading": "のこり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 残り/のこり \"Rest, Übriges\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rest, Übriges. JMdict 1304480 sense 1, noun: remainder, the rest, leftovers",
+        "japanese": "残りの仕事は明日します。 / ケーキの残りは冷蔵庫に入れておきました。 / 夏休みも残り三日です。",
+        "romanization": "nokori; Nokori no shigoto wa ashita shimasu. / Kēki no nokori wa reizōko ni irete okimashita. / Natsuyasumi mo nokori mikka desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die restliche Arbeit mache ich morgen. / Den Rest des Kuchens habe ich in den Kühlschrank gestellt. / Die Sommerferien dauern nur noch drei Tage.",
+        "contexts": [
+          "Leaving the rest of the work for tomorrow",
+          "Storing leftover cake",
+          "Last days of summer vacation"
+        ],
+        "lexical": "JMdict 1304480 sense 1, noun: remainder, the rest, leftovers",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun, derived from godan verb 残る)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:335 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Leaving the rest of the work for tomorrow; Storing leftover cake; Last days of summer vacation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7dbc2b6527d76c140de636939d8ccf9a7c89038c143dfee9758b4b3ab05f367a",
+        "approvalHash": "96e28341f40acab1e98028fd7b7a2cb2f9699e5e77fcd25888e2517ed1221f53"
+      }
+    },
+    {
+      "id": "vocab-n4:336",
+      "revisionId": "168g-n4-enrichment-336",
+      "state": "accepted",
+      "predecessorHash": "de86f31f455e15d5a76e4e3bbc512e7744d46ec5bae32fed21e6346f16ff7414",
+      "originalHash": "de86f31f455e15d5a76e4e3bbc512e7744d46ec5bae32fed21e6346f16ff7414",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "仕方がありません。",
+            "romaji": "Shikata ga arimasen.",
+            "german": "Es lässt sich nicht ändern."
+          },
+          {
+            "japanese": "他に仕方がありません。",
+            "romaji": "Hoka ni shikata ga arimasen.",
+            "german": "Es gibt keinen anderen Weg."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "N + の仕方 bedeutet „die Art, wie man N macht“, besonders bei する-Nomen: 勉強の仕方, 挨拶の仕方. Bei gewöhnlichen Verben nimmt man dagegen Verbstamm + 方: 使い方, 書き方. Am häufigsten begegnet 仕方 in der festen Wendung 仕方がない / 仕方がありません („da kann man nichts machen“), umgangssprachlich verkürzt zu 仕方ない oder しょうがない.",
+        "examples": [
+          {
+            "japanese": "仕方がありません。",
+            "romaji": "Shikata ga arimasen.",
+            "german": "Es lässt sich nicht ändern."
+          },
+          {
+            "japanese": "挨拶の仕方は国によって違います。",
+            "romaji": "Aisatsu no shikata wa kuni ni yotte chigaimasu.",
+            "german": "Wie man sich begrüßt, ist von Land zu Land verschieden."
+          },
+          {
+            "japanese": "雨でピクニックが中止になった。仕方ないね。",
+            "romaji": "Ame de pikunikku ga chūshi ni natta. Shikata nai ne.",
+            "german": "Wegen des Regens fällt das Picknick aus. Da kann man nichts machen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134265555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仕方/シカタ; lemma 仕方; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仕方",
+              "reading": "しかた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仕方/しかた \"Art und Weise, Methode\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1594110 sense 1, noun: way, method; also in set phrase 仕方がない Pitch: Verified [0] via exact UniDic row. N + の仕方 bedeutet „die Art, wie man N macht“, besonders bei する-Nomen: 勉強の仕方, 挨拶の仕方. Bei gewöhnlichen Verben nimmt man dagegen Verbstamm + 方: 使い方, 書き方. Am häufigsten begegnet 仕方 in der festen Wendung 仕方がない / 仕方がありません („da kann man nichts machen“), umgangssprachlich verkürzt zu 仕方ない oder しょうがない. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1594110; spelling=仕方; reading=しかた",
+          "selected": {
+            "sequence": "1594110",
+            "spelling": "仕方",
+            "reading": "しかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way",
+                  "method",
+                  "means",
+                  "resource",
+                  "course"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1594110 sense 1, noun: way, method; also in set phrase 仕方がない"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 仕方/シカタ; lemma 仕方; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134265555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仕方/シカタ; lemma 仕方; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仕方",
+              "reading": "しかた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仕方/しかた \"Art und Weise, Methode\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Art und Weise, Methode. JMdict 1594110 sense 1, noun: way, method; also in set phrase 仕方がない",
+        "japanese": "仕方がありません。 / 挨拶の仕方は国によって違います。 / 雨でピクニックが中止になった。仕方ないね。",
+        "romanization": "shikata; Shikata ga arimasen. / Aisatsu no shikata wa kuni ni yotte chigaimasu. / Ame de pikunikku ga chūshi ni natta. Shikata nai ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es lässt sich nicht ändern. / Wie man sich begrüßt, ist von Land zu Land verschieden. / Wegen des Regens fällt das Picknick aus. Da kann man nichts machen.",
+        "contexts": [
+          "Accepting an unchangeable situation",
+          "Greeting customs in different countries",
+          "Picnic cancelled by rain"
+        ],
+        "lexical": "JMdict 1594110 sense 1, noun: way, method; also in set phrase 仕方がない",
+        "register": "neutral; 仕方ない / しょうがない colloquial",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:336 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accepting an unchangeable situation; Greeting customs in different countries; Picnic cancelled by rain), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0240656da31bf6b62368b7656160c644527d90fbcddd71c4a82cbf3633158cc3",
+        "approvalHash": "d39694070d213d9c4436b8095d2242e08274f84f059b04ed89b8f445579cbb59"
+      }
+    },
+    {
+      "id": "vocab-n4:337",
+      "revisionId": "168g-n4-enrichment-337",
+      "state": "accepted",
+      "predecessorHash": "bcfb0776581d6439cebf3f490d64351365b0b6262095140845d8ab9e1e44d8a9",
+      "originalHash": "bcfb0776581d6439cebf3f490d64351365b0b6262095140845d8ab9e1e44d8a9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "やり方を教えてください。",
+            "romaji": "Yarikata o oshiete kudasai.",
+            "german": "Bitte zeigen Sie mir, wie es geht."
+          },
+          {
+            "japanese": "やり方を教えてもらえますか。",
+            "romaji": "Yarikata o oshiete moraemasu ka.",
+            "german": "Können Sie mir die Vorgehensweise zeigen?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "やり方 kommt von やる, der lockeren Variante von する, und ist im Alltag sehr häufig: やり方を教えてください. Es kann auch den persönlichen Stil oder das Vorgehen eines Menschen bezeichnen, oft mit kritischem Unterton: あの人のやり方. Etwas formeller ist 方法 („Methode“).",
+        "examples": [
+          {
+            "japanese": "やり方を教えてください。",
+            "romaji": "Yarikata o oshiete kudasai.",
+            "german": "Bitte zeigen Sie mir, wie es geht."
+          },
+          {
+            "japanese": "彼のやり方には賛成できません。",
+            "romaji": "Kare no yarikata ni wa sansei dekimasen.",
+            "german": "Mit seiner Vorgehensweise bin ich nicht einverstanden."
+          },
+          {
+            "japanese": "やり方を変えたら、仕事が早く終わりました。",
+            "romaji": "Yarikata o kaetara, shigoto ga hayaku owarimashita.",
+            "german": "Als ich meine Vorgehensweise geändert habe, war ich schneller mit der Arbeit fertig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1012960 sense 1, noun: way of doing, manner, method Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). やり方 kommt von やる, der lockeren Variante von する, und ist im Alltag sehr häufig: やり方を教えてください. Es kann auch den persönlichen Stil oder das Vorgehen eines Menschen bezeichnen, oft mit kritischem Unterton: あの人のやり方. Etwas formeller ist 方法 („Methode“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1012960; spelling=やり方; reading=やりかた",
+          "selected": {
+            "sequence": "1012960",
+            "spelling": "やり方",
+            "reading": "やりかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way (of doing)",
+                  "manner",
+                  "method",
+                  "means"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1012960 sense 1, noun: way of doing, manner, method"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole やり方/やりかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%82%84%E3%82%8A%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole やり方/やりかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Art und Weise, Vorgehen. JMdict 1012960 sense 1, noun: way of doing, manner, method",
+        "japanese": "やり方を教えてください。 / 彼のやり方には賛成できません。 / やり方を変えたら、仕事が早く終わりました。",
+        "romanization": "yarikata; Yarikata o oshiete kudasai. / Kare no yarikata ni wa sansei dekimasen. / Yarikata o kaetara, shigoto ga hayaku owarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte zeigen Sie mir, wie es geht. / Mit seiner Vorgehensweise bin ich nicht einverstanden. / Als ich meine Vorgehensweise geändert habe, war ich schneller mit der Arbeit fertig.",
+        "contexts": [
+          "Asking how something is done",
+          "Disagreeing with someone's approach",
+          "Changing one's method at work"
+        ],
+        "lexical": "JMdict 1012960 sense 1, noun: way of doing, manner, method",
+        "register": "neutral to colloquial; more formal: 方法",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:337 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking how something is done; Disagreeing with someone's approach; Changing one's method at work), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8119c9255d4f02636ef3ab53e0bb4dd2baa3c990bd3581bbf5e524f07ec336ea",
+        "approvalHash": "b74e1b9a5a2f83c974d88248342549aafedee6e9d9a7dc1b657034f4cdbc7322"
+      }
+    },
+    {
+      "id": "vocab-n4:338",
+      "revisionId": "168g-n4-enrichment-338",
+      "state": "accepted",
+      "predecessorHash": "fb77b0965bd25aedbe5425cc0eb72b879cfa1b1feef0c3157190d9ea4ec0acb5",
+      "originalHash": "fb77b0965bd25aedbe5425cc0eb72b879cfa1b1feef0c3157190d9ea4ec0acb5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "使い方が分かりません。",
+            "romaji": "Tsukaikata ga wakarimasen.",
+            "german": "Ich weiß nicht, wie man es benutzt."
+          },
+          {
+            "japanese": "このアプリの使い方がわかりません。",
+            "romaji": "Kono apuri no tsukaikata ga wakarimasen.",
+            "german": "Ich verstehe nicht, wie man diese App benutzt."
+          }
+        ],
+        "meaning": "Bedienungsweise",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "使い方 („wie man etwas benutzt“) gilt für Geräte und Apps, aber auch für Geld, Zeit und Wörter: お金の使い方, 時間の使い方, 言葉の使い方. Das Objekt steht mit の davor: このアプリの使い方. Eine Bedienungsanleitung heißt 説明書.",
+        "examples": [
+          {
+            "japanese": "このアプリの使い方がわかりません。",
+            "romaji": "Kono apuri no tsukaikata ga wakarimasen.",
+            "german": "Ich verstehe nicht, wie man diese App benutzt."
+          },
+          {
+            "japanese": "お金の使い方に気をつけてください。",
+            "romaji": "Okane no tsukaikata ni ki o tsukete kudasai.",
+            "german": "Bitte achten Sie darauf, wofür Sie Ihr Geld ausgeben."
+          },
+          {
+            "japanese": "この言葉の使い方は正しいですか。",
+            "romaji": "Kono kotoba no tsukaikata wa tadashii desu ka.",
+            "german": "Ist dieses Wort so richtig verwendet?"
+          }
+        ],
+        "meaning": "Gebrauchsweise, Verwendung, Bedienung",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1305950 sense 1, noun: way of using, how to use, usage Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 使い方 („wie man etwas benutzt“) gilt für Geräte und Apps, aber auch für Geld, Zeit und Wörter: お金の使い方, 時間の使い方, 言葉の使い方. Das Objekt steht mit の davor: このアプリの使い方. Eine Bedienungsanleitung heißt 説明書. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1305950; spelling=使い方; reading=つかいかた",
+          "selected": {
+            "sequence": "1305950",
+            "spelling": "使い方",
+            "reading": "つかいかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way of using (something)",
+                  "way to use",
+                  "how to use",
+                  "usage",
+                  "use"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way of handling (employees, subordinates, etc.)",
+                  "way of treating",
+                  "treatment",
+                  "management"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1305950 sense 1, noun: way of using, how to use, usage"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 使い方/つかいかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BD%BF%E3%81%84%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 使い方/つかいかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gebrauchsweise, Verwendung, Bedienung. JMdict 1305950 sense 1, noun: way of using, how to use, usage",
+        "japanese": "このアプリの使い方がわかりません。 / お金の使い方に気をつけてください。 / この言葉の使い方は正しいですか。",
+        "romanization": "tsukaikata; Kono apuri no tsukaikata ga wakarimasen. / Okane no tsukaikata ni ki o tsukete kudasai. / Kono kotoba no tsukaikata wa tadashii desu ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich verstehe nicht, wie man diese App benutzt. / Bitte achten Sie darauf, wofür Sie Ihr Geld ausgeben. / Ist dieses Wort so richtig verwendet?",
+        "contexts": [
+          "Not understanding an app",
+          "Spending money wisely",
+          "Checking word usage"
+        ],
+        "lexical": "JMdict 1305950 sense 1, noun: way of using, how to use, usage",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:338 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Not understanding an app; Spending money wisely; Checking word usage), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "10d2d78bafaa6c0abf71996f87dd4f5d52432eb3f50878feafb156c7b42f52a3",
+        "approvalHash": "3eabe184bf420991289686950f2b650fd902930392de76094e136df6889ae67e"
+      }
+    },
+    {
+      "id": "vocab-n4:340",
+      "revisionId": "168g-n4-enrichment-340",
+      "state": "accepted",
+      "predecessorHash": "9d399595ba5f0121f0e7b0f8737ab7aa10b142db0cd21e1788d8f41a4162ddd5",
+      "originalHash": "9d399595ba5f0121f0e7b0f8737ab7aa10b142db0cd21e1788d8f41a4162ddd5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "手紙の書き方を習います。",
+            "romaji": "Tegami no kakikata o naraimasu.",
+            "german": "Ich lerne, wie man Briefe schreibt."
+          },
+          {
+            "japanese": "手紙の書き方を習いました。",
+            "romaji": "Tegami no kakikata o naraimashita.",
+            "german": "Ich habe gelernt, wie man Briefe schreibt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "書き方 ist die Art, etwas zu schreiben: die Form eines Briefs (手紙の書き方), wie ein Kanji geschrieben wird (漢字の書き方) oder das Format eines Dokuments. Wie bei allen Wörtern auf Verbstamm + 方 steht das Objekt mit の davor. Für die Strichreihenfolge im engeren Sinn gibt es auch 書き順.",
+        "examples": [
+          {
+            "japanese": "手紙の書き方を習います。",
+            "romaji": "Tegami no kakikata o naraimasu.",
+            "german": "Ich lerne, wie man Briefe schreibt."
+          },
+          {
+            "japanese": "この漢字の書き方を教えてください。",
+            "romaji": "Kono kanji no kakikata o oshiete kudasai.",
+            "german": "Bitte zeigen Sie mir, wie man dieses Kanji schreibt."
+          },
+          {
+            "japanese": "住所の書き方は日本とドイツで違います。",
+            "romaji": "Jūsho no kakikata wa Nihon to Doitsu de chigaimasu.",
+            "german": "Adressen schreibt man in Japan anders als in Deutschland."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1343910 senses 1, 3, 4, noun: way of writing; format; stroke order Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 書き方 ist die Art, etwas zu schreiben: die Form eines Briefs (手紙の書き方), wie ein Kanji geschrieben wird (漢字の書き方) oder das Format eines Dokuments. Wie bei allen Wörtern auf Verbstamm + 方 steht das Objekt mit の davor. Für die Strichreihenfolge im engeren Sinn gibt es auch 書き順. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1343910; spelling=書き方; reading=かきかた",
+          "selected": {
+            "sequence": "1343910",
+            "spelling": "書き方",
+            "reading": "かきかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way of writing",
+                  "manner of writing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "penmanship (esp. used in old textbooks)",
+                  "calligraphy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "format (e.g. of a report)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stroke order of a character"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1343910 senses 1, 3, 4, noun: way of writing; format; stroke order"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 書き方/かきかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%9B%B8%E3%81%8D%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 書き方/かきかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schreibweise. JMdict 1343910 senses 1, 3, 4, noun: way of writing; format; stroke order",
+        "japanese": "手紙の書き方を習います。 / この漢字の書き方を教えてください。 / 住所の書き方は日本とドイツで違います。",
+        "romanization": "kakikata; Tegami no kakikata o naraimasu. / Kono kanji no kakikata o oshiete kudasai. / Jūsho no kakikata wa Nihon to Doitsu de chigaimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lerne, wie man Briefe schreibt. / Bitte zeigen Sie mir, wie man dieses Kanji schreibt. / Adressen schreibt man in Japan anders als in Deutschland.",
+        "contexts": [
+          "Learning to write letters",
+          "Asking how to write a kanji",
+          "Address formats in Japan and Germany"
+        ],
+        "lexical": "JMdict 1343910 senses 1, 3, 4, noun: way of writing; format; stroke order",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:340 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Learning to write letters; Asking how to write a kanji; Address formats in Japan and Germany), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "15e5e4867f3a7fb047ded11596eb3ad069b406cc447a950184a8be7b02a4e0c0",
+        "approvalHash": "7c5013643ec67ba0911063c39e5aaf86b9da395051ac4b817cdaf314e55580ab"
+      }
+    },
+    {
+      "id": "vocab-n4:341",
+      "revisionId": "168g-n4-enrichment-341",
+      "state": "accepted",
+      "predecessorHash": "92c9d45dd4097b2842ce85421ca9a089ad5c8e0f093cd24e3bf9324507b2c772",
+      "originalHash": "92c9d45dd4097b2842ce85421ca9a089ad5c8e0f093cd24e3bf9324507b2c772",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "おにぎりの作り方を教えてください。",
+            "romaji": "Onigiri no tsukurikata o oshiete kudasai.",
+            "german": "Wie macht man Onigiri?"
+          },
+          {
+            "japanese": "味噌汁の作り方を教えてください。",
+            "romaji": "Misoshiru no tsukurikata o oshiete kudasai.",
+            "german": "Bitte zeigen Sie mir, wie man Misosuppe macht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "作り方 ist die Art, etwas herzustellen; beim Kochen entspricht es „Zubereitung“ oder „Rezept“: カレーの作り方. Auf Verpackungen steht 作り方 oft als Überschrift über der Zubereitungsanleitung. Es gilt aber ebenso für Basteln und Bauen: 紙飛行機の作り方.",
+        "examples": [
+          {
+            "japanese": "味噌汁の作り方を教えてください。",
+            "romaji": "Misoshiru no tsukurikata o oshiete kudasai.",
+            "german": "Bitte zeigen Sie mir, wie man Misosuppe macht."
+          },
+          {
+            "japanese": "箱の後ろに作り方が書いてあります。",
+            "romaji": "Hako no ushiro ni tsukurikata ga kaite arimasu.",
+            "german": "Auf der Rückseite der Packung steht die Zubereitung."
+          },
+          {
+            "japanese": "子どもに紙飛行機の作り方を教えました。",
+            "romaji": "Kodomo ni kamihikōki no tsukurikata o oshiemashita.",
+            "german": "Ich habe den Kindern gezeigt, wie man Papierflieger baut."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1297430 senses 1-2, noun: way of making; recipe Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 作り方 ist die Art, etwas herzustellen; beim Kochen entspricht es „Zubereitung“ oder „Rezept“: カレーの作り方. Auf Verpackungen steht 作り方 oft als Überschrift über der Zubereitungsanleitung. Es gilt aber ebenso für Basteln und Bauen: 紙飛行機の作り方. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1297430; spelling=作り方; reading=つくりかた",
+          "selected": {
+            "sequence": "1297430",
+            "spelling": "作り方",
+            "reading": "つくりかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "style of building",
+                  "construction",
+                  "workmanship",
+                  "way of making"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recipe"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "how to grow (something)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1297430 senses 1-2, noun: way of making; recipe"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 作り方/つくりかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BD%9C%E3%82%8A%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 作り方/つくりかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Herstellungsweise, Rezept. JMdict 1297430 senses 1-2, noun: way of making; recipe",
+        "japanese": "味噌汁の作り方を教えてください。 / 箱の後ろに作り方が書いてあります。 / 子どもに紙飛行機の作り方を教えました。",
+        "romanization": "tsukurikata; Misoshiru no tsukurikata o oshiete kudasai. / Hako no ushiro ni tsukurikata ga kaite arimasu. / Kodomo ni kamihikōki no tsukurikata o oshiemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte zeigen Sie mir, wie man Misosuppe macht. / Auf der Rückseite der Packung steht die Zubereitung. / Ich habe den Kindern gezeigt, wie man Papierflieger baut.",
+        "contexts": [
+          "Asking for a miso soup recipe",
+          "Instructions on a package",
+          "Making paper airplanes with kids"
+        ],
+        "lexical": "JMdict 1297430 senses 1-2, noun: way of making; recipe",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:341 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking for a miso soup recipe; Instructions on a package; Making paper airplanes with kids), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "feb10a939d5faecb91b4fea777777c4c3eda384f786df18956a0439edeabeb73",
+        "approvalHash": "0a44c41236caa6172c52775fb44117a9b6ac6292bccd58950574986d748d5646"
+      }
+    },
+    {
+      "id": "vocab-n4:343",
+      "revisionId": "168g-n4-enrichment-343",
+      "state": "accepted",
+      "predecessorHash": "c895815267d0a6aca5030f36f03cecbc42bad355b15f303b9f10a3746846b19e",
+      "originalHash": "c895815267d0a6aca5030f36f03cecbc42bad355b15f303b9f10a3746846b19e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "考え方が違います。",
+            "romaji": "Kangaekata ga chigaimasu.",
+            "german": "Die Denkweise ist anders."
+          },
+          {
+            "japanese": "人によって考え方が違います。",
+            "romaji": "Hito ni yotte kangaekata ga chigaimasu.",
+            "german": "Die Denkweise unterscheidet sich von Person zu Person."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "考え方 bezeichnet die Denkweise oder Einstellung einer Person, aber auch die Herangehensweise an ein Problem. Typisch sind 考え方が違う, 考え方が古い und 考え方を変える. 考え ohne 方 ist dagegen ein einzelner Gedanke oder eine Idee: いい考えがあります.",
+        "examples": [
+          {
+            "japanese": "人によって考え方が違います。",
+            "romaji": "Hito ni yotte kangaekata ga chigaimasu.",
+            "german": "Die Denkweise unterscheidet sich von Person zu Person."
+          },
+          {
+            "japanese": "父は考え方が少し古いです。",
+            "romaji": "Chichi wa kangaekata ga sukoshi furui desu.",
+            "german": "Mein Vater hat etwas altmodische Ansichten."
+          },
+          {
+            "japanese": "考え方を変えたら、問題が小さく見えました。",
+            "romaji": "Kangaekata o kaetara, mondai ga chiisaku miemashita.",
+            "german": "Als ich meine Sichtweise geändert habe, wirkte das Problem kleiner."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1281090 sense 1, noun: way of thinking, point of view, approach Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 考え方 bezeichnet die Denkweise oder Einstellung einer Person, aber auch die Herangehensweise an ein Problem. Typisch sind 考え方が違う, 考え方が古い und 考え方を変える. 考え ohne 方 ist dagegen ein einzelner Gedanke oder eine Idee: いい考えがあります. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1281090; spelling=考え方; reading=かんがえかた",
+          "selected": {
+            "sequence": "1281090",
+            "spelling": "考え方",
+            "reading": "かんがえかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way of thinking",
+                  "point of view",
+                  "opinion",
+                  "approach (e.g. to a problem)",
+                  "attitude"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1281090 sense 1, noun: way of thinking, point of view, approach"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 考え方/かんがえかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%80%83%E3%81%88%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 考え方/かんがえかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Denkweise. JMdict 1281090 sense 1, noun: way of thinking, point of view, approach",
+        "japanese": "人によって考え方が違います。 / 父は考え方が少し古いです。 / 考え方を変えたら、問題が小さく見えました。",
+        "romanization": "kangaekata; Hito ni yotte kangaekata ga chigaimasu. / Chichi wa kangaekata ga sukoshi furui desu. / Kangaekata o kaetara, mondai ga chiisaku miemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Denkweise unterscheidet sich von Person zu Person. / Mein Vater hat etwas altmodische Ansichten. / Als ich meine Sichtweise geändert habe, wirkte das Problem kleiner.",
+        "contexts": [
+          "People think differently",
+          "Old-fashioned father",
+          "Changing perspective on a problem"
+        ],
+        "lexical": "JMdict 1281090 sense 1, noun: way of thinking, point of view, approach",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:343 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (People think differently; Old-fashioned father; Changing perspective on a problem), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6d164de10e7a5acc451825c168e9a1e58aae19e0d83942248fdca23bd5edcc8f",
+        "approvalHash": "1f94976fa06a367bf0893204b241e8f5adcf59c214f8141125c43c1df0963d04"
+      }
+    },
+    {
+      "id": "vocab-n4:344",
+      "revisionId": "168g-n4-enrichment-344",
+      "state": "accepted",
+      "predecessorHash": "ed4d54d57d4f98f4cddb7e189e64cc4192b4c573c930c1ef2490be785c40e742",
+      "originalHash": "ed4d54d57d4f98f4cddb7e189e64cc4192b4c573c930c1ef2490be785c40e742",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自分の生き方を選びます。",
+            "romaji": "Jibun no ikikata o erabimasu.",
+            "german": "Ich wähle meine Lebensweise."
+          },
+          {
+            "japanese": "自分の生き方を大切にしたいです。",
+            "romaji": "Jibun no ikikata o taisetsu ni shitai desu.",
+            "german": "Ich möchte meine Lebensweise wertschätzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "生き方 meint, wie man sein Leben führt: Werte, Entscheidungen, Lebensentwurf. Für den Lebensalltag (Wohnen, Arbeit, Unterhalt) passen eher 生活 oder 暮らし. Achtung: Das gleich klingende 行き方 (いきかた) bedeutet „Weg dorthin“: 駅への行き方.",
+        "examples": [
+          {
+            "japanese": "自分の生き方を選びます。",
+            "romaji": "Jibun no ikikata o erabimasu.",
+            "german": "Ich wähle meine Lebensweise."
+          },
+          {
+            "japanese": "祖父の生き方を尊敬しています。",
+            "romaji": "Sofu no ikikata o sonkei shite imasu.",
+            "german": "Ich bewundere die Lebensweise meines Großvaters."
+          },
+          {
+            "japanese": "仕事をやめて、田舎で新しい生き方を始めました。",
+            "romaji": "Shigoto o yamete, inaka de atarashii ikikata o hajimemashita.",
+            "german": "Ich habe meinen Job gekündigt und auf dem Land ein neues Leben begonnen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1587100 sense 1, noun: way of life, how to live Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 生き方 meint, wie man sein Leben führt: Werte, Entscheidungen, Lebensentwurf. Für den Lebensalltag (Wohnen, Arbeit, Unterhalt) passen eher 生活 oder 暮らし. Achtung: Das gleich klingende 行き方 (いきかた) bedeutet „Weg dorthin“: 駅への行き方. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1587100; spelling=生き方; reading=いきかた",
+          "selected": {
+            "sequence": "1587100",
+            "spelling": "生き方",
+            "reading": "いきかた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "way of life",
+                  "how to live"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1587100 sense 1, noun: way of life, how to live"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 生き方/いきかた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%9F%E3%81%8D%E6%96%B9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 生き方/いきかた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lebensweise. JMdict 1587100 sense 1, noun: way of life, how to live",
+        "japanese": "自分の生き方を選びます。 / 祖父の生き方を尊敬しています。 / 仕事をやめて、田舎で新しい生き方を始めました。",
+        "romanization": "ikikata; Jibun no ikikata o erabimasu. / Sofu no ikikata o sonkei shite imasu. / Shigoto o yamete, inaka de atarashii ikikata o hajimemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wähle meine Lebensweise. / Ich bewundere die Lebensweise meines Großvaters. / Ich habe meinen Job gekündigt und auf dem Land ein neues Leben begonnen.",
+        "contexts": [
+          "Choosing one's own path",
+          "Admiring grandfather's way of life",
+          "Starting a new life in the countryside"
+        ],
+        "lexical": "JMdict 1587100 sense 1, noun: way of life, how to live",
+        "register": "neutral, somewhat reflective",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:344 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Choosing one's own path; Admiring grandfather's way of life; Starting a new life in the countryside), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f9836266d358c6443328db8564022d3483dfdcc81a0a707125879db73da19d0e",
+        "approvalHash": "c1a1f9652678810eedbccf717c85a5b8aa9d18f3f64eed67be6434f8262646a8"
+      }
+    },
+    {
+      "id": "vocab-n4:346",
+      "revisionId": "168g-n4-enrichment-346",
+      "state": "accepted",
+      "predecessorHash": "cafaadcab5817fba2829d067d3fcf0a59e9967f77dfcc006be720330078201fe",
+      "originalHash": "cafaadcab5817fba2829d067d3fcf0a59e9967f77dfcc006be720330078201fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "長い行列ができています。",
+            "romaji": "Nagai gyouretsu ga dekite imasu.",
+            "german": "Es hat sich eine lange Schlange gebildet."
+          },
+          {
+            "japanese": "人気のラーメン店に行列ができています。",
+            "romaji": "Ninki no raamen-ten ni gyouretsu ga dekite imasu.",
+            "german": "Vor dem beliebten Ramen-Laden hat sich eine Schlange gebildet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "行列 ist eine Menschenschlange: 行列ができる („eine Schlange bildet sich“), 行列に並ぶ („sich anstellen“). 行列のできる店 ist ein so beliebter Laden, dass man anstehen muss. Außerdem bedeutet 行列 „Umzug, Prozession“, etwa bei Festen; für eine einfache Reihe sagt man oft nur 列.",
+        "examples": [
+          {
+            "japanese": "人気のラーメン店に行列ができています。",
+            "romaji": "Ninki no raamen-ten ni gyouretsu ga dekite imasu.",
+            "german": "Vor dem beliebten Ramen-Laden hat sich eine Schlange gebildet."
+          },
+          {
+            "japanese": "行列に並んで、一時間待ちました。",
+            "romaji": "Gyōretsu ni narande, ichijikan machimashita.",
+            "german": "Ich habe mich angestellt und eine Stunde gewartet."
+          },
+          {
+            "japanese": "お祭りの行列が町の中を通りました。",
+            "romaji": "Omatsuri no gyōretsu ga machi no naka o tōrimashita.",
+            "german": "Der Festumzug zog durch die Stadt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109365784",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 行列/ギョウレツ; lemma 行列; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "行列",
+              "reading": "ぎょうれつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 行列/ぎょうれつ \"Schlange, Reihe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1282220 sense 1, noun: line, queue, procession Pitch: Verified [0] via exact UniDic row. 行列 ist eine Menschenschlange: 行列ができる („eine Schlange bildet sich“), 行列に並ぶ („sich anstellen“). 行列のできる店 ist ein so beliebter Laden, dass man anstehen muss. Außerdem bedeutet 行列 „Umzug, Prozession“, etwa bei Festen; für eine einfache Reihe sagt man oft nur 列. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1282220; spelling=行列; reading=ぎょうれつ",
+          "selected": {
+            "sequence": "1282220",
+            "spelling": "行列",
+            "reading": "ぎょうれつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "line",
+                  "queue",
+                  "procession",
+                  "parade"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "matrix"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1282220 sense 1, noun: line, queue, procession"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 行列/ギョウレツ; lemma 行列; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109365784",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 行列/ギョウレツ; lemma 行列; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "行列",
+              "reading": "ぎょうれつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 行列/ぎょうれつ \"Schlange, Reihe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schlange, Reihe. JMdict 1282220 sense 1, noun: line, queue, procession",
+        "japanese": "人気のラーメン店に行列ができています。 / 行列に並んで、一時間待ちました。 / お祭りの行列が町の中を通りました。",
+        "romanization": "gyouretsu; Ninki no raamen-ten ni gyouretsu ga dekite imasu. / Gyōretsu ni narande, ichijikan machimashita. / Omatsuri no gyōretsu ga machi no naka o tōrimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vor dem beliebten Ramen-Laden hat sich eine Schlange gebildet. / Ich habe mich angestellt und eine Stunde gewartet. / Der Festumzug zog durch die Stadt.",
+        "contexts": [
+          "Line at a popular ramen shop",
+          "Waiting in line for an hour",
+          "Festival procession"
+        ],
+        "lexical": "JMdict 1282220 sense 1, noun: line, queue, procession",
+        "register": "neutral",
+        "transitivity": "Nonverb; also 行列する (intransitive)",
+        "conjugation": "Nonverb (noun; suru verb possible)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:346 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Line at a popular ramen shop; Waiting in line for an hour; Festival procession), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8deaaf7608cd7d257f6c1fca256e45dca40354c6a35f334af26c0436cb850fee",
+        "approvalHash": "9b767491daa130bdec3d68d7f3a3bf1553db3a8a9bf097fe10ef8ab482a0b93f"
+      }
+    },
+    {
+      "id": "vocab-n4:347",
+      "revisionId": "168g-n4-enrichment-347",
+      "state": "accepted",
+      "predecessorHash": "56d27438c47dd76f553ecc0301b9c62de1bdbdd3527ba81c8aa843675e4092bf",
+      "originalHash": "56d27438c47dd76f553ecc0301b9c62de1bdbdd3527ba81c8aa843675e4092bf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "混雑を避けましょう。",
+            "romaji": "Konzatsu o sakemashou.",
+            "german": "Vermeiden wir das Gedränge."
+          },
+          {
+            "japanese": "朝の電車は混雑しています。",
+            "romaji": "Asa no densha wa konzatsu shite imasu.",
+            "german": "Die Züge am Morgen sind überfüllt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "混雑 ist das formellere Wort für Gedränge; im Gespräch sagt man meist 混む: 電車が混んでいます. 混雑 hört man oft in Durchsagen und liest es auf Hinweisen: 大変混雑しております. Als する-Verb ist es intransitiv; der überfüllte Ort steht mit が oder は.",
+        "examples": [
+          {
+            "japanese": "混雑を避けましょう。",
+            "romaji": "Konzatsu o sakemashou.",
+            "german": "Vermeiden wir das Gedränge."
+          },
+          {
+            "japanese": "朝の電車は混雑しています。",
+            "romaji": "Asa no densha wa konzatsu shite imasu.",
+            "german": "Die Züge am Morgen sind überfüllt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125889046",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 混雑/コンザツ; lemma 混雑; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "混雑",
+              "reading": "こんざつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 混雑/こんざつ \"Gedränge, Überfüllung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1290390 sense 1, noun / suru verb: congestion, crowding Pitch: Verified [1] via exact UniDic row. 混雑 ist das formellere Wort für Gedränge; im Gespräch sagt man meist 混む: 電車が混んでいます. 混雑 hört man oft in Durchsagen und liest es auf Hinweisen: 大変混雑しております. Als する-Verb ist es intransitiv; der überfüllte Ort steht mit が oder は. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1290390; spelling=混雑; reading=こんざつ",
+          "selected": {
+            "sequence": "1290390",
+            "spelling": "混雑",
+            "reading": "こんざつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "congestion",
+                  "crush",
+                  "crowding",
+                  "jam"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confusion",
+                  "disorder"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1290390 sense 1, noun / suru verb: congestion, crowding"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 混雑/コンザツ; lemma 混雑; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125889046",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 混雑/コンザツ; lemma 混雑; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "混雑",
+              "reading": "こんざつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 混雑/こんざつ \"Gedränge, Überfüllung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gedränge, Überfüllung. JMdict 1290390 sense 1, noun / suru verb: congestion, crowding",
+        "japanese": "混雑を避けましょう。 / 朝の電車は混雑しています。",
+        "romanization": "konzatsu; Konzatsu o sakemashou. / Asa no densha wa konzatsu shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vermeiden wir das Gedränge. / Die Züge am Morgen sind überfüllt.",
+        "contexts": [
+          "Avoiding the crowds",
+          "Crowded morning trains"
+        ],
+        "lexical": "JMdict 1290390 sense 1, noun / suru verb: congestion, crowding",
+        "register": "formal/written; colloquial equivalent 混む",
+        "transitivity": "Noun; 混雑する intransitive, subject with が",
+        "conjugation": "Noun; suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:347 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Avoiding the crowds; Crowded morning trains), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a204ea43feb668f42f6d4a85de33c5b29956ec89e812042e1b8c02764ac18f43",
+        "approvalHash": "0ce4f177e8d195d28d169a6cfc138d0abde0e12518014a9ec22fa18dc3cda653"
+      }
+    },
+    {
+      "id": "vocab-n4:348",
+      "revisionId": "168g-n4-enrichment-348",
+      "state": "accepted",
+      "predecessorHash": "fdd8bbbde3f10186333801d267d32c2d2cb2f94283062d5546fd04f6a88e98a7",
+      "originalHash": "fdd8bbbde3f10186333801d267d32c2d2cb2f94283062d5546fd04f6a88e98a7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "電車に遅れが出ています。",
+            "romaji": "Densha ni okure ga dete imasu.",
+            "german": "Die Züge haben Verspätung."
+          },
+          {
+            "japanese": "電車の遅れで遅刻しました。",
+            "romaji": "Densha no okure de chikoku shimashita.",
+            "german": "Wegen der Zugverspätung kam ich zu spät."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遅れ ist das Nomen zu 遅れる und bezeichnet Verspätung oder Rückstand. Bei Verkehrsmitteln heißt es 遅れが出る („es kommt zu Verspätungen“); der Grund steht mit で: 電車の遅れで. Einen Rückstand beim Lernen oder bei der Arbeit holt man mit 遅れを取り戻す auf.",
+        "examples": [
+          {
+            "japanese": "電車の遅れで遅刻しました。",
+            "romaji": "Densha no okure de chikoku shimashita.",
+            "german": "Wegen der Zugverspätung kam ich zu spät."
+          },
+          {
+            "japanese": "一週間休んだので、勉強の遅れを取り戻したいです。",
+            "romaji": "Isshūkan yasunda node, benkyō no okure o torimodoshitai desu.",
+            "german": "Da ich eine Woche gefehlt habe, möchte ich den Rückstand beim Lernen aufholen."
+          },
+          {
+            "japanese": "工事に遅れが出ています。",
+            "romaji": "Kōji ni okure ga dete imasu.",
+            "german": "Bei den Bauarbeiten kommt es zu Verzögerungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75494078",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遅れ/オクレ; lemma 遅れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 未然形-一般; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連体形-省略; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連用形-一般; aType 0.",
+            "match": {
+              "word": "遅れ",
+              "reading": "おくれ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遅れ/おくれ \"Verspätung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1422020 sense 1, noun: delay, lag, falling behind Pitch: Verified [0] via exact UniDic row. 遅れ ist das Nomen zu 遅れる und bezeichnet Verspätung oder Rückstand. Bei Verkehrsmitteln heißt es 遅れが出る („es kommt zu Verspätungen“); der Grund steht mit で: 電車の遅れで. Einen Rückstand beim Lernen oder bei der Arbeit holt man mit 遅れを取り戻す auf. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1422020; spelling=遅れ; reading=おくれ",
+          "selected": {
+            "sequence": "1422020",
+            "spelling": "遅れ",
+            "reading": "おくれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "delay",
+                  "lag",
+                  "falling behind"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "falling behind in",
+                  "lagging behind in"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1422020 sense 1, noun: delay, lag, falling behind"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 遅れ/オクレ; lemma 遅れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 未然形-一般; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連体形-省略; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連用形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75494078",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遅れ/オクレ; lemma 遅れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 未然形-一般; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連体形-省略; aType 0 | 遅れ/オクレ; lemma 遅れる; 動詞/非自立可能/*/*; 下一段-ラ行; 連用形-一般; aType 0.",
+            "match": {
+              "word": "遅れ",
+              "reading": "おくれ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遅れ/おくれ \"Verspätung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verspätung. JMdict 1422020 sense 1, noun: delay, lag, falling behind",
+        "japanese": "電車の遅れで遅刻しました。 / 一週間休んだので、勉強の遅れを取り戻したいです。 / 工事に遅れが出ています。",
+        "romanization": "okure; Densha no okure de chikoku shimashita. / Isshūkan yasunda node, benkyō no okure o torimodoshitai desu. / Kōji ni okure ga dete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen der Zugverspätung kam ich zu spät. / Da ich eine Woche gefehlt habe, möchte ich den Rückstand beim Lernen aufholen. / Bei den Bauarbeiten kommt es zu Verzögerungen.",
+        "contexts": [
+          "Late due to a train delay",
+          "Catching up on missed lessons",
+          "Construction falling behind schedule"
+        ],
+        "lexical": "JMdict 1422020 sense 1, noun: delay, lag, falling behind",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun, derived from ichidan verb 遅れる)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:348 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Late due to a train delay; Catching up on missed lessons; Construction falling behind schedule), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ce8b54b809a2180f1ca186a286d7ad32fe424c5eddbcf9a4c1be46258fdfa2de",
+        "approvalHash": "6e487aa06e8b3914b0c1bc7333decc120c88b219da62c2d9a3484663622b4878"
+      }
+    },
+    {
+      "id": "vocab-n4:349",
+      "revisionId": "168g-n4-enrichment-349",
+      "state": "accepted",
+      "predecessorHash": "ce507cf5cbb6de0c322b7452022fdf44503b1e07977acca7320ae1c45600b7fe",
+      "originalHash": "ce507cf5cbb6de0c322b7452022fdf44503b1e07977acca7320ae1c45600b7fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大きな変化がありました。",
+            "romaji": "Ookina henka ga arimashita.",
+            "german": "Es gab grosse Veränderungen."
+          },
+          {
+            "japanese": "季節の変化を感じます。",
+            "romaji": "Kisetsu no henka o kanjimasu.",
+            "german": "Ich spüre den Wechsel der Jahreszeiten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "変化 ist ein eher sachliches Wort für Veränderung; im Gespräch nimmt man oft das Verb 変わる. Typisch: 変化がある, 気温の変化, 変化する (intransitiv). Eine bewusst vorgenommene Änderung, etwa eines Plans, heißt dagegen 変更.",
+        "examples": [
+          {
+            "japanese": "大きな変化がありました。",
+            "romaji": "Ookina henka ga arimashita.",
+            "german": "Es gab große Veränderungen."
+          },
+          {
+            "japanese": "季節の変化を感じます。",
+            "romaji": "Kisetsu no henka o kanjimasu.",
+            "german": "Ich spüre den Wechsel der Jahreszeiten."
+          },
+          {
+            "japanese": "この町は十年でずいぶん変化しました。",
+            "romaji": "Kono machi wa jūnen de zuibun henka shimashita.",
+            "german": "Diese Stadt hat sich in zehn Jahren stark verändert."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@241599007",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 変化/ヘンカ; lemma 変化; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "変化",
+              "reading": "へんか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 変化/へんか \"Veränderung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1510890 sense 1, noun / suru verb: change, variation, transition Pitch: Verified [1] via exact UniDic row. 変化 ist ein eher sachliches Wort für Veränderung; im Gespräch nimmt man oft das Verb 変わる. Typisch: 変化がある, 気温の変化, 変化する (intransitiv). Eine bewusst vorgenommene Änderung, etwa eines Plans, heißt dagegen 変更. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1510890; spelling=変化; reading=へんか",
+          "selected": {
+            "sequence": "1510890",
+            "spelling": "変化",
+            "reading": "へんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "change",
+                  "variation",
+                  "alteration",
+                  "mutation",
+                  "transition",
+                  "transformation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "variety",
+                  "diversity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inflection",
+                  "declension",
+                  "conjugation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "henka",
+                  "evasive sidestep at the beginning of a bout"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1510890 sense 1, noun / suru verb: change, variation, transition"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 変化/ヘンカ; lemma 変化; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@241599007",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 変化/ヘンカ; lemma 変化; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "変化",
+              "reading": "へんか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 変化/へんか \"Veränderung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Veränderung. JMdict 1510890 sense 1, noun / suru verb: change, variation, transition",
+        "japanese": "大きな変化がありました。 / 季節の変化を感じます。 / この町は十年でずいぶん変化しました。",
+        "romanization": "henka; Ookina henka ga arimashita. / Kisetsu no henka o kanjimasu. / Kono machi wa jūnen de zuibun henka shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gab große Veränderungen. / Ich spüre den Wechsel der Jahreszeiten. / Diese Stadt hat sich in zehn Jahren stark verändert.",
+        "contexts": [
+          "Major changes happened",
+          "Feeling the seasons change",
+          "A town changing over a decade"
+        ],
+        "lexical": "JMdict 1510890 sense 1, noun / suru verb: change, variation, transition",
+        "register": "neutral to slightly formal; everyday verb: 変わる",
+        "transitivity": "Noun; 変化する intransitive, subject with が",
+        "conjugation": "Noun; suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:349 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Major changes happened; Feeling the seasons change; A town changing over a decade), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "68019d2cd885e76798471a4981952f01594edc3506e657ca0be492213c48ca3c",
+        "approvalHash": "584829f0e92ca12e4bc8d7794306cb969b296578fbe0c262e672933fb2c70df4"
+      }
+    },
+    {
+      "id": "vocab-n4:350",
+      "revisionId": "168g-n4-enrichment-350",
+      "state": "accepted",
+      "predecessorHash": "052e915bf7164b3342d63fdf1a65af53fae01af607a18cc1c8683c2d32bef84d",
+      "originalHash": "052e915bf7164b3342d63fdf1a65af53fae01af607a18cc1c8683c2d32bef84d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "天気の影響で遅れました。",
+            "romaji": "Tenki no eikyou de okuremashita.",
+            "german": "Wegen des Wetters kam es zu Verspätungen."
+          },
+          {
+            "japanese": "天気が気分に影響します。",
+            "romaji": "Tenki ga kibun ni eikyou shimasu.",
+            "german": "Das Wetter beeinflusst die Stimmung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "影響 kann man ausüben und empfangen: AがBに影響する / 影響を与える („beeinflussen“), Bの影響を受ける („beeinflusst werden“). Mit で nennt es eine Ursache: 台風の影響で電車が止まりました. Diese Form ist in Nachrichten und Durchsagen sehr häufig.",
+        "examples": [
+          {
+            "japanese": "天気の影響で遅れました。",
+            "romaji": "Tenki no eikyou de okuremashita.",
+            "german": "Wegen des Wetters kam es zu Verspätungen."
+          },
+          {
+            "japanese": "天気が気分に影響します。",
+            "romaji": "Tenki ga kibun ni eikyou shimasu.",
+            "german": "Das Wetter beeinflusst die Stimmung."
+          },
+          {
+            "japanese": "兄の影響で、ギターを始めました。",
+            "romaji": "Ani no eikyō de, gitā o hajimemashita.",
+            "german": "Durch meinen älteren Bruder habe ich mit der Gitarre angefangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69611633",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 影響/エイキョウ; lemma 影響; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "影響",
+              "reading": "えいきょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 影響/えいきょう \"Einfluss, Auswirkung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1173660 sense 1, noun / suru verb: influence, effect, impact Pitch: Verified [0] via exact UniDic row. 影響 kann man ausüben und empfangen: AがBに影響する / 影響を与える („beeinflussen“), Bの影響を受ける („beeinflusst werden“). Mit で nennt es eine Ursache: 台風の影響で電車が止まりました. Diese Form ist in Nachrichten und Durchsagen sehr häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1173660; spelling=影響; reading=えいきょう",
+          "selected": {
+            "sequence": "1173660",
+            "spelling": "影響",
+            "reading": "えいきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "influence",
+                  "effect",
+                  "impact"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1173660 sense 1, noun / suru verb: influence, effect, impact"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 影響/エイキョウ; lemma 影響; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69611633",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 影響/エイキョウ; lemma 影響; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "影響",
+              "reading": "えいきょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 影響/えいきょう \"Einfluss, Auswirkung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einfluss, Auswirkung. JMdict 1173660 sense 1, noun / suru verb: influence, effect, impact",
+        "japanese": "天気の影響で遅れました。 / 天気が気分に影響します。 / 兄の影響で、ギターを始めました。",
+        "romanization": "eikyou; Tenki no eikyou de okuremashita. / Tenki ga kibun ni eikyou shimasu. / Ani no eikyō de, gitā o hajimemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen des Wetters kam es zu Verspätungen. / Das Wetter beeinflusst die Stimmung. / Durch meinen älteren Bruder habe ich mit der Gitarre angefangen.",
+        "contexts": [
+          "Weather causing delays",
+          "Weather affecting mood",
+          "Inspired by an older brother"
+        ],
+        "lexical": "JMdict 1173660 sense 1, noun / suru verb: influence, effect, impact",
+        "register": "neutral, common in news",
+        "transitivity": "Noun; 影響する intransitive, affected thing with に",
+        "conjugation": "Noun; suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:350 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weather causing delays; Weather affecting mood; Inspired by an older brother), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "14576b32e221da69a7cd01548658214a36be70c39536f0c07bd5b367f6fb7ce3",
+        "approvalHash": "8837806b33f480ef3af0754bf14adaecccc13a3da7aed67509296e4b40660dc7"
+      }
+    },
+    {
+      "id": "vocab-n4:352",
+      "revisionId": "168g-n4-enrichment-352",
+      "state": "accepted",
+      "predecessorHash": "1473e29a154670b2f150e2979412f5088f6fe8b58e9e98bd42c732f99aadd7fc",
+      "originalHash": "1473e29a154670b2f150e2979412f5088f6fe8b58e9e98bd42c732f99aadd7fc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "いい印象を受けました。",
+            "romaji": "Ii inshou o ukemashita.",
+            "german": "Ich habe einen guten Eindruck bekommen."
+          },
+          {
+            "japanese": "第一印象は大切です。",
+            "romaji": "Daiichi inshou wa taisetsu desu.",
+            "german": "Der erste Eindruck ist wichtig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Typische Wendungen: いい印象を受ける („einen guten Eindruck bekommen“), 印象を与える („einen Eindruck machen“), 第一印象 („erster Eindruck“), 印象に残る („in Erinnerung bleiben“). Die Frage 日本の印象はどうですか hören Besucher in Japan sehr oft. Das Adjektiv 印象的な bedeutet „eindrucksvoll“.",
+        "examples": [
+          {
+            "japanese": "いい印象を受けました。",
+            "romaji": "Ii inshou o ukemashita.",
+            "german": "Ich habe einen guten Eindruck bekommen."
+          },
+          {
+            "japanese": "第一印象は大切です。",
+            "romaji": "Daiichi inshou wa taisetsu desu.",
+            "german": "Der erste Eindruck ist wichtig."
+          },
+          {
+            "japanese": "日本の印象はどうですか。",
+            "romaji": "Nihon no inshō wa dō desu ka.",
+            "german": "Wie ist Ihr Eindruck von Japan?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59309875",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 印象/インショウ; lemma 印象; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 印象/インショウ; lemma インショウ; 名詞/固有名詞/人名/名; *; *; aType 0.",
+            "match": {
+              "word": "印象",
+              "reading": "いんしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 印象/いんしょう \"Eindruck\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1168390 sense 1, noun: impression Pitch: Verified [0] via exact UniDic row. Typische Wendungen: いい印象を受ける („einen guten Eindruck bekommen“), 印象を与える („einen Eindruck machen“), 第一印象 („erster Eindruck“), 印象に残る („in Erinnerung bleiben“). Die Frage 日本の印象はどうですか hören Besucher in Japan sehr oft. Das Adjektiv 印象的な bedeutet „eindrucksvoll“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1168390; spelling=印象; reading=いんしょう",
+          "selected": {
+            "sequence": "1168390",
+            "spelling": "印象",
+            "reading": "いんしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "impression"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1168390 sense 1, noun: impression"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 印象/インショウ; lemma 印象; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 印象/インショウ; lemma インショウ; 名詞/固有名詞/人名/名; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59309875",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 印象/インショウ; lemma 印象; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 印象/インショウ; lemma インショウ; 名詞/固有名詞/人名/名; *; *; aType 0.",
+            "match": {
+              "word": "印象",
+              "reading": "いんしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 印象/いんしょう \"Eindruck\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Eindruck. JMdict 1168390 sense 1, noun: impression",
+        "japanese": "いい印象を受けました。 / 第一印象は大切です。 / 日本の印象はどうですか。",
+        "romanization": "inshou; Ii inshou o ukemashita. / Daiichi inshou wa taisetsu desu. / Nihon no inshō wa dō desu ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen guten Eindruck bekommen. / Der erste Eindruck ist wichtig. / Wie ist Ihr Eindruck von Japan?",
+        "contexts": [
+          "Receiving a good impression",
+          "Importance of first impressions",
+          "Asking a visitor about Japan"
+        ],
+        "lexical": "JMdict 1168390 sense 1, noun: impression",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:352 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Receiving a good impression; Importance of first impressions; Asking a visitor about Japan), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8934f2c9384938f078cd8f5d486c67b14f57885b1bdb0590e6767cf2fecd831a",
+        "approvalHash": "1a6f4f5cf848b64bd08dba0cf8533f7071d7961ad9155c2c505a7523bb4c2d6e"
+      }
+    },
+    {
+      "id": "vocab-n4:353",
+      "revisionId": "168g-n4-enrichment-353",
+      "state": "accepted",
+      "predecessorHash": "5dd4dfc17a424b8cee750bac168cf89cc28b011ff7a561ad6b48feb4264b2193",
+      "originalHash": "5dd4dfc17a424b8cee750bac168cf89cc28b011ff7a561ad6b48feb4264b2193",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "いい記憶があります。",
+            "romaji": "Ii kioku ga arimasu.",
+            "german": "Ich habe gute Erinnerungen."
+          },
+          {
+            "japanese": "子供の頃の記憶がほとんどありません。",
+            "romaji": "Kodomo no koro no kioku ga hotondo arimasen.",
+            "german": "Ich habe kaum Erinnerungen an meine Kindheit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "記憶 ist das Gedächtnis bzw. eine gespeicherte Erinnerung und klingt eher sachlich: 記憶がない, 記憶にない („sich nicht erinnern können“), 記憶力 („Merkfähigkeit“). Für schöne persönliche Erinnerungen sagt man eher 思い出: 楽しい思い出. „Sich erinnern“ heißt im Alltag meist 覚えている.",
+        "examples": [
+          {
+            "japanese": "子供の頃の記憶がほとんどありません。",
+            "romaji": "Kodomo no koro no kioku ga hotondo arimasen.",
+            "german": "Ich habe kaum Erinnerungen an meine Kindheit."
+          },
+          {
+            "japanese": "この歌を聞くと、学生時代の記憶がよみがえります。",
+            "romaji": "Kono uta o kiku to, gakusei jidai no kioku ga yomigaerimasu.",
+            "german": "Wenn ich dieses Lied höre, werden Erinnerungen an meine Studienzeit wach."
+          },
+          {
+            "japanese": "祖父は九十歳ですが、記憶力がとてもいいです。",
+            "romaji": "Sofu wa kyūjussai desu ga, kiokuryoku ga totemo ii desu.",
+            "german": "Mein Großvater ist neunzig, hat aber ein sehr gutes Gedächtnis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@102205563",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 記憶/キオク; lemma 記憶; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "記憶",
+              "reading": "きおく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 記憶/きおく \"Erinnerung, Gedächtnis\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1223150 sense 1, noun: memory, recollection Pitch: Verified [0] via exact UniDic row. 記憶 ist das Gedächtnis bzw. eine gespeicherte Erinnerung und klingt eher sachlich: 記憶がない, 記憶にない („sich nicht erinnern können“), 記憶力 („Merkfähigkeit“). Für schöne persönliche Erinnerungen sagt man eher 思い出: 楽しい思い出. „Sich erinnern“ heißt im Alltag meist 覚えている. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1223150; spelling=記憶; reading=きおく",
+          "selected": {
+            "sequence": "1223150",
+            "spelling": "記憶",
+            "reading": "きおく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "memory",
+                  "recollection",
+                  "remembrance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "memory",
+                  "storage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1223150 sense 1, noun: memory, recollection"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 記憶/キオク; lemma 記憶; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@102205563",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 記憶/キオク; lemma 記憶; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "記憶",
+              "reading": "きおく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 記憶/きおく \"Erinnerung, Gedächtnis\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Erinnerung, Gedächtnis. JMdict 1223150 sense 1, noun: memory, recollection",
+        "japanese": "子供の頃の記憶がほとんどありません。 / この歌を聞くと、学生時代の記憶がよみがえります。 / 祖父は九十歳ですが、記憶力がとてもいいです。",
+        "romanization": "kioku; Kodomo no koro no kioku ga hotondo arimasen. / Kono uta o kiku to, gakusei jidai no kioku ga yomigaerimasu. / Sofu wa kyūjussai desu ga, kiokuryoku ga totemo ii desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe kaum Erinnerungen an meine Kindheit. / Wenn ich dieses Lied höre, werden Erinnerungen an meine Studienzeit wach. / Mein Großvater ist neunzig, hat aber ein sehr gutes Gedächtnis.",
+        "contexts": [
+          "Few childhood memories",
+          "A song bringing back memories",
+          "Grandfather's sharp memory"
+        ],
+        "lexical": "JMdict 1223150 sense 1, noun: memory, recollection",
+        "register": "neutral to slightly formal; personal fond memories: 思い出",
+        "transitivity": "Noun; 記憶する transitive, object with を",
+        "conjugation": "Noun; suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:353 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Few childhood memories; A song bringing back memories; Grandfather's sharp memory), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5946f3197199a773ef7aac7ea2dc0954f60e635d339f7ab4d360a8e5103583aa",
+        "approvalHash": "29112dc422e424248f98be8295978fb7c34f4a0a0f6bb4956772fc13506a9cb9"
+      }
+    },
+    {
+      "id": "vocab-n4:354",
+      "revisionId": "168g-n4-enrichment-354",
+      "state": "accepted",
+      "predecessorHash": "c1e8fbad80232600b939c57e9f5be1b87b94f87d168c7787e971cfc325b1d4d1",
+      "originalHash": "c1e8fbad80232600b939c57e9f5be1b87b94f87d168c7787e971cfc325b1d4d1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "知恵を出し合いましょう。",
+            "romaji": "Chie o dashiaimashou.",
+            "german": "Lass uns gemeinsam überlegen."
+          },
+          {
+            "japanese": "おばあさんの知恵を借りましょう。",
+            "romaji": "Obaasan no chie o karimashou.",
+            "german": "Lass uns die Weisheit der Großmutter nutzen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "知恵 ist praktische Klugheit und Lebensweisheit, nicht angelerntes Wissen (das wäre 知識). Feste Wendungen: 知恵を借りる („jemanden um Rat fragen“), 知恵を出し合う („gemeinsam nach einer Lösung suchen“), 生活の知恵 („Alltagstipp, Hausmittel“). Bei Kindern sagt man 知恵がつく („klüger werden“).",
+        "examples": [
+          {
+            "japanese": "おばあさんの知恵を借りましょう。",
+            "romaji": "Obaasan no chie o karimashou.",
+            "german": "Lass uns die Weisheit der Großmutter nutzen."
+          },
+          {
+            "japanese": "レモンで汚れを落とすのは生活の知恵です。",
+            "romaji": "Remon de yogore o otosu no wa seikatsu no chie desu.",
+            "german": "Flecken mit Zitrone zu entfernen ist ein bewährter Haushaltstipp."
+          },
+          {
+            "japanese": "三歳になって、息子は知恵がついてきました。",
+            "romaji": "Sansai ni natte, musuko wa chie ga tsuite kimashita.",
+            "german": "Mit drei Jahren wird mein Sohn allmählich richtig pfiffig."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168418892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 知恵/チエ; lemma 知恵; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 知恵/チエ; lemma チエ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "知恵",
+              "reading": "ちえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 知恵/ちえ \"Weisheit, Klugheit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1420530 sense 1, noun: wisdom, wit, sense Pitch: Verified [2] via exact UniDic row; stored primary 1 corrected to 2. 知恵 ist praktische Klugheit und Lebensweisheit, nicht angelerntes Wissen (das wäre 知識). Feste Wendungen: 知恵を借りる („jemanden um Rat fragen“), 知恵を出し合う („gemeinsam nach einer Lösung suchen“), 生活の知恵 („Alltagstipp, Hausmittel“). Bei Kindern sagt man 知恵がつく („klüger werden“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1420530; spelling=知恵; reading=ちえ",
+          "selected": {
+            "sequence": "1420530",
+            "spelling": "知恵",
+            "reading": "ちえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wisdom",
+                  "wit",
+                  "sagacity",
+                  "sense",
+                  "intelligence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prajna (insight leading to enlightenment)"
+                ],
+                "notes": [
+                  "usu. 智慧"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1420530 sense 1, noun: wisdom, wit, sense"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 1 corrected to 2. Exact whole 知恵/チエ; lemma 知恵; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 知恵/チエ; lemma チエ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168418892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 知恵/チエ; lemma 知恵; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 知恵/チエ; lemma チエ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "知恵",
+              "reading": "ちえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 知恵/ちえ \"Weisheit, Klugheit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Weisheit, Klugheit. JMdict 1420530 sense 1, noun: wisdom, wit, sense",
+        "japanese": "おばあさんの知恵を借りましょう。 / レモンで汚れを落とすのは生活の知恵です。 / 三歳になって、息子は知恵がついてきました。",
+        "romanization": "chie; Obaasan no chie o karimashou. / Remon de yogore o otosu no wa seikatsu no chie desu. / Sansai ni natte, musuko wa chie ga tsuite kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Lass uns die Weisheit der Großmutter nutzen. / Flecken mit Zitrone zu entfernen ist ein bewährter Haushaltstipp. / Mit drei Jahren wird mein Sohn allmählich richtig pfiffig.",
+        "contexts": [
+          "Asking grandmother for advice",
+          "Household cleaning tip",
+          "A toddler getting clever"
+        ],
+        "lexical": "JMdict 1420530 sense 1, noun: wisdom, wit, sense",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:354 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking grandmother for advice; Household cleaning tip; A toddler getting clever), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c2ed89d239ec16b9775cdaa60f50dff32c10f19ea246fd0df8f23b750afaa2b1",
+        "approvalHash": "73bf3f53641fd9eb9baf2e139285cd70b17d143dfc4a617209dcef7bb220aaa0"
+      }
+    },
+    {
+      "id": "vocab-n4:355",
+      "revisionId": "168g-n4-enrichment-355",
+      "state": "accepted",
+      "predecessorHash": "235a95ed5147a53d00720aefb3588e2be8d4671e76e40fb1edc88bf7d75a07cc",
+      "originalHash": "235a95ed5147a53d00720aefb3588e2be8d4671e76e40fb1edc88bf7d75a07cc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "能力を発揮しました。",
+            "romaji": "Nouryoku o hakki shimashita.",
+            "german": "Er hat seine Fähigkeiten gezeigt."
+          },
+          {
+            "japanese": "彼は高い能力を持っています。",
+            "romaji": "Kare wa takai nouryoku o motte imasu.",
+            "german": "Er hat hohe Fähigkeiten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "能力 ist die allgemeine Fähigkeit, etwas zu tun, angeboren oder erworben: 能力がある, 能力が高い, ～する能力. Sehr bekannt ist 日本語能力試験, der JLPT. Abgrenzung: 才能 ist Begabung, 実力 das tatsächlich bewiesene Können.",
+        "examples": [
+          {
+            "japanese": "彼は高い能力を持っています。",
+            "romaji": "Kare wa takai nouryoku o motte imasu.",
+            "german": "Er ist sehr fähig."
+          },
+          {
+            "japanese": "十二月に日本語能力試験を受けます。",
+            "romaji": "Jūnigatsu ni Nihongo Nōryoku Shiken o ukemasu.",
+            "german": "Im Dezember lege ich den JLPT ab."
+          },
+          {
+            "japanese": "この仕事には英語の能力が必要です。",
+            "romaji": "Kono shigoto ni wa eigo no nōryoku ga hitsuyō desu.",
+            "german": "Für diese Stelle braucht man Englischkenntnisse."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207239508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 能力/ノウリョク; lemma 能力; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "能力",
+              "reading": "のうりょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 能力/のうりょく \"Fähigkeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1470370 sense 1, noun: ability, faculty Pitch: Verified [1] via exact UniDic row. 能力 ist die allgemeine Fähigkeit, etwas zu tun, angeboren oder erworben: 能力がある, 能力が高い, ～する能力. Sehr bekannt ist 日本語能力試験, der JLPT. Abgrenzung: 才能 ist Begabung, 実力 das tatsächlich bewiesene Können. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1470370; spelling=能力; reading=のうりょく",
+          "selected": {
+            "sequence": "1470370",
+            "spelling": "能力",
+            "reading": "のうりょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ability",
+                  "faculty"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1470370 sense 1, noun: ability, faculty"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 能力/ノウリョク; lemma 能力; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207239508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 能力/ノウリョク; lemma 能力; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "能力",
+              "reading": "のうりょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 能力/のうりょく \"Fähigkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fähigkeit. JMdict 1470370 sense 1, noun: ability, faculty",
+        "japanese": "彼は高い能力を持っています。 / 十二月に日本語能力試験を受けます。 / この仕事には英語の能力が必要です。",
+        "romanization": "nouryoku; Kare wa takai nouryoku o motte imasu. / Jūnigatsu ni Nihongo Nōryoku Shiken o ukemasu. / Kono shigoto ni wa eigo no nōryoku ga hitsuyō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er ist sehr fähig. / Im Dezember lege ich den JLPT ab. / Für diese Stelle braucht man Englischkenntnisse.",
+        "contexts": [
+          "Describing a capable person",
+          "Taking the JLPT",
+          "Job requirements"
+        ],
+        "lexical": "JMdict 1470370 sense 1, noun: ability, faculty",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:355 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing a capable person; Taking the JLPT; Job requirements), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d41244b2e17634c95f3c7436c7fbad247013c9eb4fd134e6c625fde1f09c125f",
+        "approvalHash": "0645e6f9e3fba885e9dcf8d2a70849663406f6014fa0ffb541cc066980449cf5"
+      }
+    },
+    {
+      "id": "vocab-n4:356",
+      "revisionId": "168g-n4-enrichment-356",
+      "state": "accepted",
+      "predecessorHash": "fd500a2befe61e6b7c05b2ac343cb53d26afe7d7b276103521d477d0831426f7",
+      "originalHash": "fd500a2befe61e6b7c05b2ac343cb53d26afe7d7b276103521d477d0831426f7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "音楽の才能があります。",
+            "romaji": "Ongaku no sainou ga arimasu.",
+            "german": "Er hat musikalisches Talent."
+          },
+          {
+            "japanese": "彼女には音楽の才能があります。",
+            "romaji": "Kanojo ni wa ongaku no sainou ga arimasu.",
+            "german": "Sie hat ein Talent für Musik."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "才能 ist eine meist angeborene Begabung, besonders in Kunst, Musik oder Sport. Typisch: Nの才能がある, 才能のある人, 才能を伸ばす („ein Talent fördern“). Wer das Talent hat, steht oft mit には: 彼女には才能があります. Allgemeine, auch erlernte Fähigkeiten heißen eher 能力.",
+        "examples": [
+          {
+            "japanese": "彼女には音楽の才能があります。",
+            "romaji": "Kanojo ni wa ongaku no sainou ga arimasu.",
+            "german": "Sie hat ein Talent für Musik."
+          },
+          {
+            "japanese": "才能より努力のほうが大切だと思います。",
+            "romaji": "Sainō yori doryoku no hō ga taisetsu da to omoimasu.",
+            "german": "Ich finde, Fleiß ist wichtiger als Talent."
+          },
+          {
+            "japanese": "先生は彼の絵の才能に気がつきました。",
+            "romaji": "Sensei wa kare no e no sainō ni ki ga tsukimashita.",
+            "german": "Der Lehrer bemerkte sein Talent zum Zeichnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127119788",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 才能/サイノウ; lemma 才能; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "才能",
+              "reading": "さいのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 才能/さいのう \"Talent, Begabung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1294630 sense 1, noun: talent, ability Pitch: Verified [0] via exact UniDic row. 才能 ist eine meist angeborene Begabung, besonders in Kunst, Musik oder Sport. Typisch: Nの才能がある, 才能のある人, 才能を伸ばす („ein Talent fördern“). Wer das Talent hat, steht oft mit には: 彼女には才能があります. Allgemeine, auch erlernte Fähigkeiten heißen eher 能力. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1294630; spelling=才能; reading=さいのう",
+          "selected": {
+            "sequence": "1294630",
+            "spelling": "才能",
+            "reading": "さいのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "talent",
+                  "ability"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1294630 sense 1, noun: talent, ability"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 才能/サイノウ; lemma 才能; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127119788",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 才能/サイノウ; lemma 才能; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "才能",
+              "reading": "さいのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 才能/さいのう \"Talent, Begabung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Talent, Begabung. JMdict 1294630 sense 1, noun: talent, ability",
+        "japanese": "彼女には音楽の才能があります。 / 才能より努力のほうが大切だと思います。 / 先生は彼の絵の才能に気がつきました。",
+        "romanization": "sainou; Kanojo ni wa ongaku no sainou ga arimasu. / Sainō yori doryoku no hō ga taisetsu da to omoimasu. / Sensei wa kare no e no sainō ni ki ga tsukimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie hat ein Talent für Musik. / Ich finde, Fleiß ist wichtiger als Talent. / Der Lehrer bemerkte sein Talent zum Zeichnen.",
+        "contexts": [
+          "Musical talent",
+          "Talent versus effort",
+          "Teacher discovering a talent"
+        ],
+        "lexical": "JMdict 1294630 sense 1, noun: talent, ability",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:356 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Musical talent; Talent versus effort; Teacher discovering a talent), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "187be93e3b49bc281bd442ddc794bb694c17b2ed6fd55d8a233ff7e3d95eaec5",
+        "approvalHash": "17a9457a21abf1dbb189a5d8d56373b9d13893f6277a682b3f5625ad8a355880"
+      }
+    },
+    {
+      "id": "vocab-n4:357",
+      "revisionId": "168g-n4-enrichment-357",
+      "state": "accepted",
+      "predecessorHash": "e71a18781f890b3a3923b5d5d41f2eb5314bc2966853f5b3ba2d097cec2ac383",
+      "originalHash": "e71a18781f890b3a3923b5d5d41f2eb5314bc2966853f5b3ba2d097cec2ac383",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "実力を見せましょう。",
+            "romaji": "Jitsuryoku o misemashou.",
+            "german": "Zeigen wir unsere wahre Stärke."
+          },
+          {
+            "japanese": "実力を出してください。",
+            "romaji": "Jitsuryoku o dashite kudasai.",
+            "german": "Zeigen Sie Ihr wahres Können."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "実力 ist das tatsächliche, in der Praxis bewiesene Können, im Gegensatz zu 才能 (Begabung) oder bloßem Potenzial. Typisch: 実力がある, 実力を出す („sein Können zeigen“), 実力で („aus eigener Kraft“). Im Sport und bei Prüfungen sehr häufig, z. B. 実力テスト.",
+        "examples": [
+          {
+            "japanese": "実力を見せましょう。",
+            "romaji": "Jitsuryoku o misemashou.",
+            "german": "Zeigen wir unsere wahre Stärke."
+          },
+          {
+            "japanese": "試験で自分の実力がよく分かりました。",
+            "romaji": "Shiken de jibun no jitsuryoku ga yoku wakarimashita.",
+            "german": "Durch die Prüfung habe ich gesehen, wo ich wirklich stehe."
+          },
+          {
+            "japanese": "彼は実力で社長になりました。",
+            "romaji": "Kare wa jitsuryoku de shachō ni narimashita.",
+            "german": "Er ist aus eigener Kraft Firmenchef geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143790341",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 実力/ジツリョク; lemma 実力; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "実力",
+              "reading": "じつりょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 実力/じつりょく \"wahre Stärke, Kompetenz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1321530 sense 1, noun: real ability, true strength, competency Pitch: Verified [0] via exact UniDic row. 実力 ist das tatsächliche, in der Praxis bewiesene Können, im Gegensatz zu 才能 (Begabung) oder bloßem Potenzial. Typisch: 実力がある, 実力を出す („sein Können zeigen“), 実力で („aus eigener Kraft“). Im Sport und bei Prüfungen sehr häufig, z. B. 実力テスト. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1321530; spelling=実力; reading=じつりょく",
+          "selected": {
+            "sequence": "1321530",
+            "spelling": "実力",
+            "reading": "じつりょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(real) ability",
+                  "true strength",
+                  "merit",
+                  "efficiency",
+                  "competency"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arms",
+                  "force"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1321530 sense 1, noun: real ability, true strength, competency"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 実力/ジツリョク; lemma 実力; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143790341",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 実力/ジツリョク; lemma 実力; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "実力",
+              "reading": "じつりょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 実力/じつりょく \"wahre Stärke, Kompetenz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "wahre Stärke, Kompetenz. JMdict 1321530 sense 1, noun: real ability, true strength, competency",
+        "japanese": "実力を見せましょう。 / 試験で自分の実力がよく分かりました。 / 彼は実力で社長になりました。",
+        "romanization": "jitsuryoku; Jitsuryoku o misemashou. / Shiken de jibun no jitsuryoku ga yoku wakarimashita. / Kare wa jitsuryoku de shachō ni narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zeigen wir unsere wahre Stärke. / Durch die Prüfung habe ich gesehen, wo ich wirklich stehe. / Er ist aus eigener Kraft Firmenchef geworden.",
+        "contexts": [
+          "Showing true strength in a match",
+          "An exam revealing one's level",
+          "Becoming company president on merit"
+        ],
+        "lexical": "JMdict 1321530 sense 1, noun: real ability, true strength, competency",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:357 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Showing true strength in a match; An exam revealing one's level; Becoming company president on merit), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b6af2333cf02cda4b814138f48edff78ad6fe7962e0ce2d7070511e6369f7b04",
+        "approvalHash": "a16e96213bedda050e4b23eef68e4006ab81590360f0a608fb552af20e3f347d"
+      }
+    },
+    {
+      "id": "vocab-n4:359",
+      "revisionId": "168g-n4-enrichment-359",
+      "state": "accepted",
+      "predecessorHash": "9aa3ca542874e11a55c3686025238596a30cdcd1f3254d92ededf15e675c227d",
+      "originalHash": "9aa3ca542874e11a55c3686025238596a30cdcd1f3254d92ededf15e675c227d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本の伝統を守ります。",
+            "romaji": "Nihon no dentou o mamorimasu.",
+            "german": "Wir bewahren japanische Traditionen."
+          },
+          {
+            "japanese": "伝統を大切にしています。",
+            "romaji": "Dentou o taisetsu ni shite imasu.",
+            "german": "Wir schätzen die Tradition."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "伝統 ist eine über Generationen weitergegebene Tradition. Typisch: 伝統を守る („bewahren“), 伝統がある, 百年の伝統. Als Adjektiv dient 伝統的な („traditionell“): 伝統的な料理. Für einzelne Bräuche, etwa zu Festtagen, passen eher 習慣 oder 風習.",
+        "examples": [
+          {
+            "japanese": "日本の伝統を守ります。",
+            "romaji": "Nihon no dentou o mamorimasu.",
+            "german": "Wir bewahren japanische Traditionen."
+          },
+          {
+            "japanese": "この店には百年の伝統があります。",
+            "romaji": "Kono mise ni wa hyakunen no dentō ga arimasu.",
+            "german": "Dieses Geschäft hat eine hundertjährige Tradition."
+          },
+          {
+            "japanese": "着物は日本の伝統的な服です。",
+            "romaji": "Kimono wa Nihon no dentōteki na fuku desu.",
+            "german": "Der Kimono ist ein traditionelles japanisches Kleidungsstück."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182921197",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 伝統/デントウ; lemma 伝統; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "伝統",
+              "reading": "でんとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 伝統/でんとう \"Tradition\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1442260 sense 1, noun: tradition, convention Pitch: Verified [0] via exact UniDic row. 伝統 ist eine über Generationen weitergegebene Tradition. Typisch: 伝統を守る („bewahren“), 伝統がある, 百年の伝統. Als Adjektiv dient 伝統的な („traditionell“): 伝統的な料理. Für einzelne Bräuche, etwa zu Festtagen, passen eher 習慣 oder 風習. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1442260; spelling=伝統; reading=でんとう",
+          "selected": {
+            "sequence": "1442260",
+            "spelling": "伝統",
+            "reading": "でんとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tradition",
+                  "convention"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1442260 sense 1, noun: tradition, convention"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 伝統/デントウ; lemma 伝統; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182921197",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 伝統/デントウ; lemma 伝統; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "伝統",
+              "reading": "でんとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 伝統/でんとう \"Tradition\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tradition. JMdict 1442260 sense 1, noun: tradition, convention",
+        "japanese": "日本の伝統を守ります。 / この店には百年の伝統があります。 / 着物は日本の伝統的な服です。",
+        "romanization": "dentou; Nihon no dentou o mamorimasu. / Kono mise ni wa hyakunen no dentō ga arimasu. / Kimono wa Nihon no dentōteki na fuku desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir bewahren japanische Traditionen. / Dieses Geschäft hat eine hundertjährige Tradition. / Der Kimono ist ein traditionelles japanisches Kleidungsstück.",
+        "contexts": [
+          "Preserving Japanese traditions",
+          "A shop with a long history",
+          "Traditional clothing"
+        ],
+        "lexical": "JMdict 1442260 sense 1, noun: tradition, convention",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:359 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preserving Japanese traditions; A shop with a long history; Traditional clothing), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9fe87d137c1ef7ec1e89c30b8b2851b324bbbf7b0bc6daec4c0f2a24fab4f19d",
+        "approvalHash": "eb7d83c8a5288bee6803be9756e2dac6ecd170ccc5f3166c3177d6cf1a6cbaba"
+      }
+    },
+    {
+      "id": "vocab-n4:360",
+      "revisionId": "168g-n4-enrichment-360",
+      "state": "accepted",
+      "predecessorHash": "1d82b5c505cae11e9c00b9baceb93f6e492d1944594ccf31b271521b2d3b5776",
+      "originalHash": "1d82b5c505cae11e9c00b9baceb93f6e492d1944594ccf31b271521b2d3b5776",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "地方の風習を知りたいです。",
+            "romaji": "Chihou no fuushuu o shiritai desu.",
+            "german": "Ich möchte lokale Bräuche kennenlernen."
+          },
+          {
+            "japanese": "その風習は今も続いています。",
+            "romaji": "Sono fuushuu wa ima mo tsuzuite imasu.",
+            "german": "Dieser Brauch besteht noch heute."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "風習 bezeichnet überlieferte Bräuche einer Gegend oder Gesellschaft, oft mit regionaler oder altertümlicher Färbung. Typisch: ～する風習がある, 地方の風習, 古い風習. 習慣 ist breiter und kann auch persönliche Gewohnheiten meinen; 伝統 betont die lange Überlieferung.",
+        "examples": [
+          {
+            "japanese": "地方の風習を知りたいです。",
+            "romaji": "Chihou no fuushuu o shiritai desu.",
+            "german": "Ich möchte lokale Bräuche kennenlernen."
+          },
+          {
+            "japanese": "その風習は今も続いています。",
+            "romaji": "Sono fuushuu wa ima mo tsuzuite imasu.",
+            "german": "Dieser Brauch besteht noch heute."
+          },
+          {
+            "japanese": "日本には、お正月に子どもにお年玉をあげる風習があります。",
+            "romaji": "Nihon ni wa, oshōgatsu ni kodomo ni otoshidama o ageru fūshū ga arimasu.",
+            "german": "In Japan gibt es den Brauch, Kindern zu Neujahr Geld zu schenken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230699634",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 風習/フウシュウ; lemma 風習; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "風習",
+              "reading": "ふうしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 風習/ふうしゅう \"Brauch, Sitte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1499890 sense 1, noun: custom Pitch: Verified [0] via exact UniDic row. 風習 bezeichnet überlieferte Bräuche einer Gegend oder Gesellschaft, oft mit regionaler oder altertümlicher Färbung. Typisch: ～する風習がある, 地方の風習, 古い風習. 習慣 ist breiter und kann auch persönliche Gewohnheiten meinen; 伝統 betont die lange Überlieferung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1499890; spelling=風習; reading=ふうしゅう",
+          "selected": {
+            "sequence": "1499890",
+            "spelling": "風習",
+            "reading": "ふうしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "custom"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1499890 sense 1, noun: custom"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 風習/フウシュウ; lemma 風習; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230699634",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 風習/フウシュウ; lemma 風習; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "風習",
+              "reading": "ふうしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 風習/ふうしゅう \"Brauch, Sitte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Brauch, Sitte. JMdict 1499890 sense 1, noun: custom",
+        "japanese": "地方の風習を知りたいです。 / その風習は今も続いています。 / 日本には、お正月に子どもにお年玉をあげる風習があります。",
+        "romanization": "fuushuu; Chihou no fuushuu o shiritai desu. / Sono fuushuu wa ima mo tsuzuite imasu. / Nihon ni wa, oshōgatsu ni kodomo ni otoshidama o ageru fūshū ga arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich möchte lokale Bräuche kennenlernen. / Dieser Brauch besteht noch heute. / In Japan gibt es den Brauch, Kindern zu Neujahr Geld zu schenken.",
+        "contexts": [
+          "Learning local customs",
+          "A custom still alive today",
+          "New Year's money for children"
+        ],
+        "lexical": "JMdict 1499890 sense 1, noun: custom",
+        "register": "neutral to slightly written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:360 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Learning local customs; A custom still alive today; New Year's money for children), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9a064c42eb92915e28778cc993f722e620d83b03668ed46f2fc431f4de267027",
+        "approvalHash": "466cc169afa921ae62aca4e4f40d297b255dfa224ba411a479d632e283430671"
+      }
+    },
+    {
+      "id": "vocab-n4:361",
+      "revisionId": "168g-n4-enrichment-361",
+      "state": "accepted",
+      "predecessorHash": "0bf6e97aa3589a30b4d930416c2d5f2723b541e856661f826938b788ba70d824",
+      "originalHash": "0bf6e97aa3589a30b4d930416c2d5f2723b541e856661f826938b788ba70d824",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "宗教に興味がありますか。",
+            "romaji": "Shuukyou ni kyoumi ga arimasu ka.",
+            "german": "Interessieren Sie sich für Religion?"
+          },
+          {
+            "japanese": "日本にはいくつかの宗教があります。",
+            "romaji": "Nihon ni wa ikutsuka no shuukyou ga arimasu.",
+            "german": "In Japan gibt es mehrere Religionen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "宗教 bedeutet „Religion“ allgemein; einzelne Religionen bildet man mit 教: 仏教, キリスト教, イスラム教. Viele Japaner sagen von sich 特に宗教はありません, auch wenn sie Feste von Shintō und Buddhismus feiern. Bei Essensregeln hört man oft 宗教上の理由で („aus religiösen Gründen“).",
+        "examples": [
+          {
+            "japanese": "宗教に興味がありますか。",
+            "romaji": "Shuukyou ni kyoumi ga arimasu ka.",
+            "german": "Interessieren Sie sich für Religion?"
+          },
+          {
+            "japanese": "日本にはいくつかの宗教があります。",
+            "romaji": "Nihon ni wa ikutsuka no shuukyou ga arimasu.",
+            "german": "In Japan gibt es mehrere Religionen."
+          },
+          {
+            "japanese": "宗教上の理由で、豚肉を食べません。",
+            "romaji": "Shūkyōjō no riyū de, butaniku o tabemasen.",
+            "german": "Aus religiösen Gründen esse ich kein Schweinefleisch."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139852639",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 宗教/シュウキョウ; lemma 宗教; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "宗教",
+              "reading": "しゅうきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 宗教/しゅうきょう \"Religion\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1331400 sense 1, noun: religion, belief, faith Pitch: Verified [1] via exact UniDic row. 宗教 bedeutet „Religion“ allgemein; einzelne Religionen bildet man mit 教: 仏教, キリスト教, イスラム教. Viele Japaner sagen von sich 特に宗教はありません, auch wenn sie Feste von Shintō und Buddhismus feiern. Bei Essensregeln hört man oft 宗教上の理由で („aus religiösen Gründen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1331400; spelling=宗教; reading=しゅうきょう",
+          "selected": {
+            "sequence": "1331400",
+            "spelling": "宗教",
+            "reading": "しゅうきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "religion",
+                  "religious affiliation",
+                  "belief",
+                  "faith",
+                  "creed"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "religious activity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1331400 sense 1, noun: religion, belief, faith"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 宗教/シュウキョウ; lemma 宗教; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139852639",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 宗教/シュウキョウ; lemma 宗教; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "宗教",
+              "reading": "しゅうきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 宗教/しゅうきょう \"Religion\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Religion. JMdict 1331400 sense 1, noun: religion, belief, faith",
+        "japanese": "宗教に興味がありますか。 / 日本にはいくつかの宗教があります。 / 宗教上の理由で、豚肉を食べません。",
+        "romanization": "shuukyou; Shuukyou ni kyoumi ga arimasu ka. / Nihon ni wa ikutsuka no shuukyou ga arimasu. / Shūkyōjō no riyū de, butaniku o tabemasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Interessieren Sie sich für Religion? / In Japan gibt es mehrere Religionen. / Aus religiösen Gründen esse ich kein Schweinefleisch.",
+        "contexts": [
+          "Asking about interest in religion",
+          "Religions in Japan",
+          "Dietary restriction for religious reasons"
+        ],
+        "lexical": "JMdict 1331400 sense 1, noun: religion, belief, faith",
+        "register": "neutral; can be a sensitive topic in conversation",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:361 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking about interest in religion; Religions in Japan; Dietary restriction for religious reasons), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c2a347ee7f58ea39ecaa4916b9f43a4964014201d8f1fa1f273d24e5ff1db102",
+        "approvalHash": "444eff5cd0b787c344c263b452ace610bb04805f50605a4369cbf08c122995d6"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

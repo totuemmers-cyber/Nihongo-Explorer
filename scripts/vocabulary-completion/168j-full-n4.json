@@ -1,0 +1,4074 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:419",
+      "revisionId": "168j-n4-enrichment-419",
+      "state": "accepted",
+      "predecessorHash": "effde04a0f071c8570d57b638fbb7e78f580d9855ad5dfccc26465cead70cf9a",
+      "originalHash": "effde04a0f071c8570d57b638fbb7e78f580d9855ad5dfccc26465cead70cf9a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "美容院に行きます。",
+            "romaji": "Biyouin ni ikimasu.",
+            "german": "Ich gehe zum Friseur."
+          },
+          {
+            "japanese": "美容院で髪を切りました。",
+            "romaji": "Biyouin de kami o kirimashita.",
+            "german": "Ich habe mir beim Friseur die Haare schneiden lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "美容院 (auch 美容室) ist ein Friseursalon mit Schnitt, Färben und Styling; der klassische Herrenfriseur heißt 床屋 oder 理容室. Man geht 美容院に行く und lässt sich dort die Haare schneiden: 美容院で髪を切る. Nicht mit 病院 (びょういん, „Krankenhaus“) verwechseln: 美容院 wird び・よう・いん gesprochen.",
+        "examples": [
+          {
+            "japanese": "美容院に行きます。",
+            "romaji": "Biyouin ni ikimasu.",
+            "german": "Ich gehe zum Friseur."
+          },
+          {
+            "japanese": "美容院で髪を切りました。",
+            "romaji": "Biyouin de kami o kirimashita.",
+            "german": "Ich habe mir beim Friseur die Haare schneiden lassen."
+          },
+          {
+            "japanese": "電話で美容院を予約しました。",
+            "romaji": "Denwa de biyōin o yoyaku shimashita.",
+            "german": "Ich habe telefonisch einen Termin beim Friseur gemacht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1486680 sense 1, noun: beauty salon, hairdressing salon Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 美容院 (auch 美容室) ist ein Friseursalon mit Schnitt, Färben und Styling; der klassische Herrenfriseur heißt 床屋 oder 理容室. Man geht 美容院に行く und lässt sich dort die Haare schneiden: 美容院で髪を切る. Nicht mit 病院 (びょういん, „Krankenhaus“) verwechseln: 美容院 wird び・よう・いん gesprochen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1486680; spelling=美容院; reading=びよういん",
+          "selected": {
+            "sequence": "1486680",
+            "spelling": "美容院",
+            "reading": "びよういん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "beauty parlour",
+                  "beauty parlor",
+                  "beauty salon",
+                  "hairdressing salon"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1486680 sense 1, noun: beauty salon, hairdressing salon"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 美容院/びよういん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%BE%8E%E5%AE%B9%E9%99%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 美容院/びよういん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Friseursalon. JMdict 1486680 sense 1, noun: beauty salon, hairdressing salon",
+        "japanese": "美容院に行きます。 / 美容院で髪を切りました。 / 電話で美容院を予約しました。",
+        "romanization": "biyouin; Biyouin ni ikimasu. / Biyouin de kami o kirimashita. / Denwa de biyōin o yoyaku shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gehe zum Friseur. / Ich habe mir beim Friseur die Haare schneiden lassen. / Ich habe telefonisch einen Termin beim Friseur gemacht.",
+        "contexts": [
+          "Going to the hairdresser",
+          "Getting a haircut",
+          "Booking a salon appointment"
+        ],
+        "lexical": "JMdict 1486680 sense 1, noun: beauty salon, hairdressing salon",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:419 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Going to the hairdresser; Getting a haircut; Booking a salon appointment), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a5d334dbc05f20d0d7276070379b46a06812067b300f1005c20e6ca9fe4991c4",
+        "approvalHash": "2d839e3ee40fc5c75b947ab3f0dd31ce13492fefcdeb12ae8a2546a3e4fd4d95"
+      }
+    },
+    {
+      "id": "vocab-n4:420",
+      "revisionId": "168j-n4-enrichment-420",
+      "state": "accepted",
+      "predecessorHash": "5f2e30ecdfea354610673c3c89d72f9a98042e1679222c6691e53bbbc0ed8837",
+      "originalHash": "5f2e30ecdfea354610673c3c89d72f9a98042e1679222c6691e53bbbc0ed8837",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "歯医者に行かなければなりません。",
+            "romaji": "Haisha ni ikanakereba narimasen.",
+            "german": "Ich muss zum Zahnarzt gehen."
+          },
+          {
+            "japanese": "歯が痛いので歯医者に行きます。",
+            "romaji": "Ha ga itai node haisha ni ikimasu.",
+            "german": "Weil ich Zahnschmerzen habe, gehe ich zum Zahnarzt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "歯医者 bezeichnet den Zahnarzt und zugleich die Zahnarztpraxis: 歯医者に行く („zum Zahnarzt gehen“). Über den Arzt selbst spricht man freundlich-höflich von 歯医者さん. Auf Schildern und in formellen Texten stehen stattdessen 歯科 bzw. 歯科医.",
+        "examples": [
+          {
+            "japanese": "歯が痛いので歯医者に行きます。",
+            "romaji": "Ha ga itai node haisha ni ikimasu.",
+            "german": "Weil ich Zahnschmerzen habe, gehe ich zum Zahnarzt."
+          },
+          {
+            "japanese": "歯医者さんに、甘いものを食べすぎないように言われました。",
+            "romaji": "Haisha-san ni, amai mono o tabesuginai yō ni iwaremashita.",
+            "german": "Der Zahnarzt hat mir gesagt, ich soll nicht zu viele Süßigkeiten essen."
+          },
+          {
+            "japanese": "歯医者の予約は三時です。",
+            "romaji": "Haisha no yoyaku wa sanji desu.",
+            "german": "Mein Zahnarzttermin ist um drei Uhr."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1313080 sense 1, noun: dentist (also the dental practice) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 1). 歯医者 bezeichnet den Zahnarzt und zugleich die Zahnarztpraxis: 歯医者に行く („zum Zahnarzt gehen“). Über den Arzt selbst spricht man freundlich-höflich von 歯医者さん. Auf Schildern und in formellen Texten stehen stattdessen 歯科 bzw. 歯科医. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1313080; spelling=歯医者; reading=はいしゃ",
+          "selected": {
+            "sequence": "1313080",
+            "spelling": "歯医者",
+            "reading": "はいしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dentist"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1313080 sense 1, noun: dentist (also the dental practice)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 歯医者/はいしゃ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%AD%AF%E5%8C%BB%E8%80%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 歯医者/はいしゃ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zahnarzt. JMdict 1313080 sense 1, noun: dentist (also the dental practice)",
+        "japanese": "歯が痛いので歯医者に行きます。 / 歯医者さんに、甘いものを食べすぎないように言われました。 / 歯医者の予約は三時です。",
+        "romanization": "haisha; Ha ga itai node haisha ni ikimasu. / Haisha-san ni, amai mono o tabesuginai yō ni iwaremashita. / Haisha no yoyaku wa sanji desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Weil ich Zahnschmerzen habe, gehe ich zum Zahnarzt. / Der Zahnarzt hat mir gesagt, ich soll nicht zu viele Süßigkeiten essen. / Mein Zahnarzttermin ist um drei Uhr.",
+        "contexts": [
+          "Toothache",
+          "Dentist's advice",
+          "Dental appointment time"
+        ],
+        "lexical": "JMdict 1313080 sense 1, noun: dentist (also the dental practice)",
+        "register": "neutral, everyday; formal/written 歯科医",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:420 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Toothache; Dentist's advice; Dental appointment time), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8455999a084b7e781015b084661dcfb02cd870cbd4879121b1d306a69d0a7658",
+        "approvalHash": "87257a616d9e6579c812a0795d13f81afb57e6beb9b55ed0790d086b3ecd1dbc"
+      }
+    },
+    {
+      "id": "vocab-n4:421",
+      "revisionId": "168j-n4-enrichment-421",
+      "state": "accepted",
+      "predecessorHash": "6104090d2bc4f675762bee667698ad8178cdb274057b68c594f8dda44b273698",
+      "originalHash": "6104090d2bc4f675762bee667698ad8178cdb274057b68c594f8dda44b273698",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "子供を保育園に預けます。",
+            "romaji": "Kodomo o hoikuen ni azukemasu.",
+            "german": "Ich bringe das Kind in den Kindergarten."
+          },
+          {
+            "japanese": "子供を保育園に送ります。",
+            "romaji": "Kodomo o hoikuen ni okurimasu.",
+            "german": "Ich bringe das Kind in den Kindergarten."
+          }
+        ],
+        "meaning": "Kindergarten, Kita",
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "保育園 ist eine Kita bzw. Krippe für Kinder von 0 bis etwa 5 Jahren, vor allem für berufstätige Eltern, mit Ganztagsbetreuung. Ein Kind dort abgeben heißt 保育園に預ける, abholen 保育園に迎えに行く. Davon zu unterscheiden ist 幼稚園, der eher bildungsorientierte Kindergarten ab 3 Jahren mit kürzeren Betreuungszeiten.",
+        "examples": [
+          {
+            "japanese": "子供を保育園に預けます。",
+            "romaji": "Kodomo o hoikuen ni azukemasu.",
+            "german": "Ich gebe mein Kind in der Kita ab."
+          },
+          {
+            "japanese": "五時に保育園に子供を迎えに行きます。",
+            "romaji": "Goji ni hoikuen ni kodomo o mukae ni ikimasu.",
+            "german": "Um fünf hole ich mein Kind von der Kita ab."
+          },
+          {
+            "japanese": "近くの保育園は空きがありません。",
+            "romaji": "Chikaku no hoikuen wa aki ga arimasen.",
+            "german": "In der Kita in der Nähe ist kein Platz frei."
+          }
+        ],
+        "meaning": "Kita, Kindertagesstätte, Kinderkrippe",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1513300 sense 1, noun: nursery school, day nursery, day-care centre Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 保育園 ist eine Kita bzw. Krippe für Kinder von 0 bis etwa 5 Jahren, vor allem für berufstätige Eltern, mit Ganztagsbetreuung. Ein Kind dort abgeben heißt 保育園に預ける, abholen 保育園に迎えに行く. Davon zu unterscheiden ist 幼稚園, der eher bildungsorientierte Kindergarten ab 3 Jahren mit kürzeren Betreuungszeiten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1513300; spelling=保育園; reading=ほいくえん",
+          "selected": {
+            "sequence": "1513300",
+            "spelling": "保育園",
+            "reading": "ほいくえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nursery school",
+                  "day nursery",
+                  "day care center"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1513300 sense 1, noun: nursery school, day nursery, day-care centre"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 保育園/ほいくえん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BF%9D%E8%82%B2%E5%9C%92",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 保育園/ほいくえん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kita, Kindertagesstätte, Kinderkrippe. JMdict 1513300 sense 1, noun: nursery school, day nursery, day-care centre",
+        "japanese": "子供を保育園に預けます。 / 五時に保育園に子供を迎えに行きます。 / 近くの保育園は空きがありません。",
+        "romanization": "hoikuen; Kodomo o hoikuen ni azukemasu. / Goji ni hoikuen ni kodomo o mukae ni ikimasu. / Chikaku no hoikuen wa aki ga arimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gebe mein Kind in der Kita ab. / Um fünf hole ich mein Kind von der Kita ab. / In der Kita in der Nähe ist kein Platz frei.",
+        "contexts": [
+          "Dropping a child off at daycare",
+          "Picking a child up from daycare",
+          "No daycare places available"
+        ],
+        "lexical": "JMdict 1513300 sense 1, noun: nursery school, day nursery, day-care centre",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:421 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dropping a child off at daycare; Picking a child up from daycare; No daycare places available), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1379948e3932622bb698fd0c631d5519660831039f15945db9665fc24482ce1a",
+        "approvalHash": "eb684fda4bab0a951fac074170a2b0cd99af724e03e379e6ada19a3de1e45562"
+      }
+    },
+    {
+      "id": "vocab-n4:422",
+      "revisionId": "168j-n4-enrichment-422",
+      "state": "accepted",
+      "predecessorHash": "85f21b1ebd24736b1a65573c51bf87299d97289546b001263981c78a842a088a",
+      "originalHash": "85f21b1ebd24736b1a65573c51bf87299d97289546b001263981c78a842a088a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "幼稚園に通っています。",
+            "romaji": "Youchien ni kayotte imasu.",
+            "german": "Er geht in den Kindergarten."
+          },
+          {
+            "japanese": "息子は来年幼稚園に入ります。",
+            "romaji": "Musuko wa rainen youchien ni hairimasu.",
+            "german": "Mein Sohn kommt nächstes Jahr in die Vorschule."
+          }
+        ],
+        "meaning": "Vorschule",
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "幼稚園 ist der Kindergarten für Kinder ab etwa 3 Jahren bis zur Einschulung; er gilt als Bildungseinrichtung und hat meist kürzere Betreuungszeiten als das 保育園 („Kita“). Typisch sind 幼稚園に通う („in den Kindergarten gehen“) und 幼稚園に入る („in den Kindergarten kommen“). Die Übersetzung „Vorschule“ trifft es im Deutschen nicht.",
+        "examples": [
+          {
+            "japanese": "幼稚園に通っています。",
+            "romaji": "Youchien ni kayotte imasu.",
+            "german": "Er geht in den Kindergarten."
+          },
+          {
+            "japanese": "息子は来年幼稚園に入ります。",
+            "romaji": "Musuko wa rainen youchien ni hairimasu.",
+            "german": "Mein Sohn kommt nächstes Jahr in den Kindergarten."
+          },
+          {
+            "japanese": "幼稚園の先生になりたいです。",
+            "romaji": "Yōchien no sensei ni naritai desu.",
+            "german": "Ich möchte Erzieher im Kindergarten werden."
+          }
+        ],
+        "meaning": "Kindergarten",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1545260 sense 1, noun: kindergarten (ages 3 to school entry), preschool Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 幼稚園 ist der Kindergarten für Kinder ab etwa 3 Jahren bis zur Einschulung; er gilt als Bildungseinrichtung und hat meist kürzere Betreuungszeiten als das 保育園 („Kita“). Typisch sind 幼稚園に通う („in den Kindergarten gehen“) und 幼稚園に入る („in den Kindergarten kommen“). Die Übersetzung „Vorschule“ trifft es im Deutschen nicht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1545260; spelling=幼稚園; reading=ようちえん",
+          "selected": {
+            "sequence": "1545260",
+            "spelling": "幼稚園",
+            "reading": "ようちえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kindergarten (in Japan, non-compulsory education from age 3 until primary school)",
+                  "preschool"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1545260 sense 1, noun: kindergarten (ages 3 to school entry), preschool"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 幼稚園/ようちえん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B9%BC%E7%A8%9A%E5%9C%92",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 幼稚園/ようちえん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kindergarten. JMdict 1545260 sense 1, noun: kindergarten (ages 3 to school entry), preschool",
+        "japanese": "幼稚園に通っています。 / 息子は来年幼稚園に入ります。 / 幼稚園の先生になりたいです。",
+        "romanization": "youchien; Youchien ni kayotte imasu. / Musuko wa rainen youchien ni hairimasu. / Yōchien no sensei ni naritai desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er geht in den Kindergarten. / Mein Sohn kommt nächstes Jahr in den Kindergarten. / Ich möchte Erzieher im Kindergarten werden.",
+        "contexts": [
+          "Child attending kindergarten",
+          "Starting kindergarten next year",
+          "Wanting to be a kindergarten teacher"
+        ],
+        "lexical": "JMdict 1545260 sense 1, noun: kindergarten (ages 3 to school entry), preschool",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:422 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Child attending kindergarten; Starting kindergarten next year; Wanting to be a kindergarten teacher), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0fac118b6484ddcb544c3bde68e7afb4b491e20c88c5246c501f524b4c708d9d",
+        "approvalHash": "407eab117204b1c241927139ffaecacbdc2ba9bc8bb4019728edd9310d456855"
+      }
+    },
+    {
+      "id": "vocab-n4:423",
+      "revisionId": "168j-n4-enrichment-423",
+      "state": "accepted",
+      "predecessorHash": "7a983ae1fcdbad5ddc6be34be4875d09366e5ddaf3dbe227c5d243fdea45791b",
+      "originalHash": "7a983ae1fcdbad5ddc6be34be4875d09366e5ddaf3dbe227c5d243fdea45791b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "塾で数学を勉強します。",
+            "romaji": "Juku de suugaku o benkyou shimasu.",
+            "german": "Ich lerne Mathematik in der Nachhilfeschule."
+          },
+          {
+            "japanese": "週三回塾に通っています。",
+            "romaji": "Shuu sankai juku ni kayotte imasu.",
+            "german": "Ich gehe dreimal pro Woche zur Nachhilfe."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "塾 ist eine private Nachhilfe- bzw. Paukschule, die viele japanische Schüler nach dem regulären Unterricht besuchen. Regelmäßiger Besuch heißt 塾に通う, der einzelne Gang 塾に行く. Speziell für Universitäts-Aufnahmeprüfungen gibt es außerdem das 予備校.",
+        "examples": [
+          {
+            "japanese": "週三回塾に通っています。",
+            "romaji": "Shuu sankai juku ni kayotte imasu.",
+            "german": "Ich gehe dreimal pro Woche zur Nachhilfe."
+          },
+          {
+            "japanese": "塾が終わるのは夜九時です。",
+            "romaji": "Juku ga owaru no wa yoru kuji desu.",
+            "german": "Die Nachhilfeschule ist erst um neun Uhr abends aus."
+          },
+          {
+            "japanese": "塾の先生は教え方がとても上手です。",
+            "romaji": "Juku no sensei wa oshiekata ga totemo jōzu desu.",
+            "german": "Der Lehrer an der Nachhilfeschule erklärt sehr gut."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144408083",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 塾/ジュク; lemma 塾; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "塾",
+              "reading": "じゅく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 塾/じゅく \"Nachhilfeschule\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1337780 sense 1, noun: cram school, private tutoring school Pitch: Verified [1] via exact UniDic row. 塾 ist eine private Nachhilfe- bzw. Paukschule, die viele japanische Schüler nach dem regulären Unterricht besuchen. Regelmäßiger Besuch heißt 塾に通う, der einzelne Gang 塾に行く. Speziell für Universitäts-Aufnahmeprüfungen gibt es außerdem das 予備校. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1337780; spelling=塾; reading=じゅく",
+          "selected": {
+            "sequence": "1337780",
+            "spelling": "塾",
+            "reading": "じゅく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cram school",
+                  "private tutoring school",
+                  "juku"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1337780 sense 1, noun: cram school, private tutoring school"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 塾/ジュク; lemma 塾; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144408083",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 塾/ジュク; lemma 塾; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "塾",
+              "reading": "じゅく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 塾/じゅく \"Nachhilfeschule\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nachhilfeschule. JMdict 1337780 sense 1, noun: cram school, private tutoring school",
+        "japanese": "週三回塾に通っています。 / 塾が終わるのは夜九時です。 / 塾の先生は教え方がとても上手です。",
+        "romanization": "juku; Shuu sankai juku ni kayotte imasu. / Juku ga owaru no wa yoru kuji desu. / Juku no sensei wa oshiekata ga totemo jōzu desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gehe dreimal pro Woche zur Nachhilfe. / Die Nachhilfeschule ist erst um neun Uhr abends aus. / Der Lehrer an der Nachhilfeschule erklärt sehr gut.",
+        "contexts": [
+          "Attending cram school weekly",
+          "Late finish at cram school",
+          "Good cram-school teacher"
+        ],
+        "lexical": "JMdict 1337780 sense 1, noun: cram school, private tutoring school",
+        "register": "neutral; formal compound 学習塾",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:423 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Attending cram school weekly; Late finish at cram school; Good cram-school teacher), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e206792584b8dc9c8ad11f324ea85b531e87da31b69b60ac76820aa5820d9c51",
+        "approvalHash": "a8794904bb929ef0674e739c1fde21d3e8a1899be9f2a14355e8884a4345bf29"
+      }
+    },
+    {
+      "id": "vocab-n4:424",
+      "revisionId": "168j-n4-enrichment-424",
+      "state": "accepted",
+      "predecessorHash": "a58c548eb047213fe6c3838ecfe30e54de8e2bba0a3d37874e50b1ee9dbc34ec",
+      "originalHash": "a58c548eb047213fe6c3838ecfe30e54de8e2bba0a3d37874e50b1ee9dbc34ec",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "予備校に通っています。",
+            "romaji": "Yobikou ni kayotte imasu.",
+            "german": "Ich gehe zur Vorbereitungsschule."
+          },
+          {
+            "japanese": "大学受験のために予備校に行きます。",
+            "romaji": "Daigaku juken no tame ni yobikou ni ikimasu.",
+            "german": "Ich gehe zur Vorbereitungsschule für die Uni-Aufnahmeprüfung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "予備校 ist eine Vorbereitungsschule, die gezielt auf Aufnahmeprüfungen vorbereitet, vor allem auf die für die Universität (大学受験). Besonders 浪人 – Schulabgänger, die im ersten Anlauf nicht bestanden haben – lernen oft ein Jahr lang dort. Anders als das 塾 richtet sich ein 予備校 vor allem an Oberschüler und Abiturienten.",
+        "examples": [
+          {
+            "japanese": "大学受験のために予備校に行きます。",
+            "romaji": "Daigaku juken no tame ni yobikou ni ikimasu.",
+            "german": "Ich gehe zur Vorbereitungsschule für die Uni-Aufnahmeprüfung."
+          },
+          {
+            "japanese": "予備校の授業は夜まであります。",
+            "romaji": "Yobikō no jugyō wa yoru made arimasu.",
+            "german": "Der Unterricht an der Vorbereitungsschule geht bis in den Abend."
+          },
+          {
+            "japanese": "試験に落ちて、一年間予備校で勉強しました。",
+            "romaji": "Shiken ni ochite, ichinenkan yobikō de benkyō shimashita.",
+            "german": "Nachdem ich durch die Prüfung gefallen war, habe ich ein Jahr lang an einer Vorbereitungsschule gelernt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1543430 sense 1, noun: preparatory school for entrance examinations Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 予備校 ist eine Vorbereitungsschule, die gezielt auf Aufnahmeprüfungen vorbereitet, vor allem auf die für die Universität (大学受験). Besonders 浪人 – Schulabgänger, die im ersten Anlauf nicht bestanden haben – lernen oft ein Jahr lang dort. Anders als das 塾 richtet sich ein 予備校 vor allem an Oberschüler und Abiturienten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1543430; spelling=予備校; reading=よびこう",
+          "selected": {
+            "sequence": "1543430",
+            "spelling": "予備校",
+            "reading": "よびこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "preparatory school (for entrance examinations)",
+                  "cram school",
+                  "cramming school"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1543430 sense 1, noun: preparatory school for entrance examinations"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 予備校/よびこう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BA%88%E5%82%99%E6%A0%A1",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 予備校/よびこう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorbereitungsschule. JMdict 1543430 sense 1, noun: preparatory school for entrance examinations",
+        "japanese": "大学受験のために予備校に行きます。 / 予備校の授業は夜まであります。 / 試験に落ちて、一年間予備校で勉強しました。",
+        "romanization": "yobikou; Daigaku juken no tame ni yobikou ni ikimasu. / Yobikō no jugyō wa yoru made arimasu. / Shiken ni ochite, ichinenkan yobikō de benkyō shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gehe zur Vorbereitungsschule für die Uni-Aufnahmeprüfung. / Der Unterricht an der Vorbereitungsschule geht bis in den Abend. / Nachdem ich durch die Prüfung gefallen war, habe ich ein Jahr lang an einer Vorbereitungsschule gelernt.",
+        "contexts": [
+          "Preparing for university entrance exams",
+          "Evening classes at prep school",
+          "A year at prep school after failing"
+        ],
+        "lexical": "JMdict 1543430 sense 1, noun: preparatory school for entrance examinations",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:424 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preparing for university entrance exams; Evening classes at prep school; A year at prep school after failing), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3fc603af1c0ed6aa0ca459fb622f6060024c2a822a98027059000ed267e43f3b",
+        "approvalHash": "6065eeec65586062d088111bf8e42d53726ed89eb5c88bed360dccb0bc1d86e6"
+      }
+    },
+    {
+      "id": "vocab-n4:425",
+      "revisionId": "168j-n4-enrichment-425",
+      "state": "accepted",
+      "predecessorHash": "fed885c1064fab4c4224be32e78d328082113bf762def2db80d2c290334e3cbf",
+      "originalHash": "fed885c1064fab4c4224be32e78d328082113bf762def2db80d2c290334e3cbf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "奨学金をもらっています。",
+            "romaji": "Shougakukin o moratte imasu.",
+            "german": "Ich bekomme ein Stipendium."
+          },
+          {
+            "japanese": "奨学金をもらって留学しました。",
+            "romaji": "Shougakukin o moratte ryuugaku shimashita.",
+            "german": "Ich habe ein Stipendium bekommen und im Ausland studiert."
+          }
+        ],
+        "meaning": "Stipendium",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "奨学金 ist finanzielle Unterstützung fürs Studium: 奨学金をもらう („bekommen“), 奨学金に申し込む („sich bewerben“). Achtung: In Japan sind viele 奨学金 Darlehen, die nach dem Studium zurückgezahlt werden müssen (奨学金を返す). Ein Stipendium ohne Rückzahlung heißt genauer 給付型奨学金.",
+        "examples": [
+          {
+            "japanese": "奨学金をもらって留学しました。",
+            "romaji": "Shougakukin o moratte ryuugaku shimashita.",
+            "german": "Ich habe ein Stipendium bekommen und im Ausland studiert."
+          },
+          {
+            "japanese": "奨学金に申し込みました。",
+            "romaji": "Shōgakukin ni mōshikomimashita.",
+            "german": "Ich habe mich um ein Stipendium beworben."
+          },
+          {
+            "japanese": "大学を出てから、奨学金を返しています。",
+            "romaji": "Daigaku o dete kara, shōgakukin o kaeshite imasu.",
+            "german": "Seit dem Studienabschluss zahle ich mein Studiendarlehen zurück."
+          }
+        ],
+        "meaning": "Stipendium; Studiendarlehen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1347530 senses 1-2, noun: scholarship; student loan Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 奨学金 ist finanzielle Unterstützung fürs Studium: 奨学金をもらう („bekommen“), 奨学金に申し込む („sich bewerben“). Achtung: In Japan sind viele 奨学金 Darlehen, die nach dem Studium zurückgezahlt werden müssen (奨学金を返す). Ein Stipendium ohne Rückzahlung heißt genauer 給付型奨学金. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1347530; spelling=奨学金; reading=しょうがくきん",
+          "selected": {
+            "sequence": "1347530",
+            "spelling": "奨学金",
+            "reading": "しょうがくきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "scholarship",
+                  "stipend",
+                  "bursary",
+                  "grant-in-aid"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "student loan"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1347530 senses 1-2, noun: scholarship; student loan"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 奨学金/しょうがくきん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A5%A8%E5%AD%A6%E9%87%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 奨学金/しょうがくきん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stipendium; Studiendarlehen. JMdict 1347530 senses 1-2, noun: scholarship; student loan",
+        "japanese": "奨学金をもらって留学しました。 / 奨学金に申し込みました。 / 大学を出てから、奨学金を返しています。",
+        "romanization": "shougakukin; Shougakukin o moratte ryuugaku shimashita. / Shōgakukin ni mōshikomimashita. / Daigaku o dete kara, shōgakukin o kaeshite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe ein Stipendium bekommen und im Ausland studiert. / Ich habe mich um ein Stipendium beworben. / Seit dem Studienabschluss zahle ich mein Studiendarlehen zurück.",
+        "contexts": [
+          "Studying abroad on a scholarship",
+          "Applying for a scholarship",
+          "Repaying a student loan"
+        ],
+        "lexical": "JMdict 1347530 senses 1-2, noun: scholarship; student loan",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:425 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Studying abroad on a scholarship; Applying for a scholarship; Repaying a student loan), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b2240c0bf936dfaaecc0347a1cb6e8f1e12d111953408e6f486090b3bc7e1d3c",
+        "approvalHash": "da21d86db75f3391fc1cc24c1eb9a94f914297c19a9cfe35a83b8306c21dee6a"
+      }
+    },
+    {
+      "id": "vocab-n4:426",
+      "revisionId": "168j-n4-enrichment-426",
+      "state": "accepted",
+      "predecessorHash": "35a0494d6d4bc1c68edc0ff700aad7cd90f3365cd6551cc52ee0527141880bf4",
+      "originalHash": "35a0494d6d4bc1c68edc0ff700aad7cd90f3365cd6551cc52ee0527141880bf4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "アルバイトを探しています。",
+            "romaji": "Arubaito o sagashite imasu.",
+            "german": "Ich suche einen Nebenjob."
+          },
+          {
+            "japanese": "レストランでアルバイトをしています。",
+            "romaji": "Resutoran de arubaito o shite imasu.",
+            "german": "Ich habe einen Nebenjob in einem Restaurant."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "アルバイト (vom deutschen „Arbeit“) ist ein Nebenjob, vor allem von Schülern und Studenten; umgangssprachlich kurz バイト. Man sagt アルバイトをする und gibt den Arbeitsort mit で an: コンビニでアルバイトをする. Bezahlt wird meist pro Stunde (時給); Teilzeitarbeit von Erwachsenen, etwa Hausfrauen, heißt eher パート.",
+        "examples": [
+          {
+            "japanese": "アルバイトを探しています。",
+            "romaji": "Arubaito o sagashite imasu.",
+            "german": "Ich suche einen Nebenjob."
+          },
+          {
+            "japanese": "レストランでアルバイトをしています。",
+            "romaji": "Resutoran de arubaito o shite imasu.",
+            "german": "Ich habe einen Nebenjob in einem Restaurant."
+          },
+          {
+            "japanese": "アルバイトの時給は千二百円です。",
+            "romaji": "Arubaito no jikyū wa sen nihyaku en desu.",
+            "german": "Der Stundenlohn im Nebenjob beträgt 1.200 Yen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@48909022",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole アルバイト/アルバイト; lemma アルバイト-Arbeit; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "アルバイト",
+              "reading": "アルバイト",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen アルバイト/アルバイト \"Teilzeitjob, Nebenjob\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1019420 sense 1, noun (also suru verb): part-time job, side job Pitch: Verified [3] via exact UniDic row. アルバイト (vom deutschen „Arbeit“) ist ein Nebenjob, vor allem von Schülern und Studenten; umgangssprachlich kurz バイト. Man sagt アルバイトをする und gibt den Arbeitsort mit で an: コンビニでアルバイトをする. Bezahlt wird meist pro Stunde (時給); Teilzeitarbeit von Erwachsenen, etwa Hausfrauen, heißt eher パート. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1019420; spelling=アルバイト; reading=アルバイト",
+          "selected": {
+            "sequence": "1019420",
+            "spelling": "アルバイト",
+            "reading": "アルバイト",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "part-time job",
+                  "side job"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "part-time worker"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1019420 sense 1, noun (also suru verb): part-time job, side job"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row. Exact whole アルバイト/アルバイト; lemma アルバイト-Arbeit; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@48909022",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole アルバイト/アルバイト; lemma アルバイト-Arbeit; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "アルバイト",
+              "reading": "アルバイト",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen アルバイト/アルバイト \"Teilzeitjob, Nebenjob\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Teilzeitjob, Nebenjob. JMdict 1019420 sense 1, noun (also suru verb): part-time job, side job",
+        "japanese": "アルバイトを探しています。 / レストランでアルバイトをしています。 / アルバイトの時給は千二百円です。",
+        "romanization": "arubaito; Arubaito o sagashite imasu. / Resutoran de arubaito o shite imasu. / Arubaito no jikyū wa sen nihyaku en desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich suche einen Nebenjob. / Ich habe einen Nebenjob in einem Restaurant. / Der Stundenlohn im Nebenjob beträgt 1.200 Yen.",
+        "contexts": [
+          "Looking for a part-time job",
+          "Working at a restaurant",
+          "Hourly wage"
+        ],
+        "lexical": "JMdict 1019420 sense 1, noun (also suru verb): part-time job, side job",
+        "register": "neutral; colloquial short form バイト",
+        "transitivity": "Noun; used with をする (アルバイトをする), intransitive",
+        "conjugation": "Nonverb (usable as suru verb: アルバイトする)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:426 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Looking for a part-time job; Working at a restaurant; Hourly wage), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ec405634ade9a06ea23781be17e16d71ec64753b1e4bc37e18857f1064974ea4",
+        "approvalHash": "c4cb13179ea16078ec8e25afec306ff4cfafc82f62bbcbe6f4ab43bc2082faf7"
+      }
+    },
+    {
+      "id": "vocab-n4:427",
+      "revisionId": "168j-n4-enrichment-427",
+      "state": "accepted",
+      "predecessorHash": "6669741758a724b627cf21ba7e45356514501be01ca5aeb16421a9e095e6fe45",
+      "originalHash": "6669741758a724b627cf21ba7e45356514501be01ca5aeb16421a9e095e6fe45",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ボランティアに参加します。",
+            "romaji": "Borantia ni sanka shimasu.",
+            "german": "Ich nehme an Freiwilligenarbeit teil."
+          },
+          {
+            "japanese": "週末にボランティアをしています。",
+            "romaji": "Shuumatsu ni borantia o shite imasu.",
+            "german": "Am Wochenende mache ich Freiwilligenarbeit."
+          }
+        ],
+        "meaning": "Freiwilligenarbeit",
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ボランティア bezeichnet sowohl die ehrenamtliche Tätigkeit (ボランティアをする, ボランティアに参加する) als auch die freiwillige Person selbst (ボランティアとして働く, ボランティアの人). Häufige Komposita sind ボランティア活動 („ehrenamtliche Tätigkeit“) und ボランティア団体 („Hilfsorganisation“). Mitgedacht ist dabei immer, dass die Arbeit unbezahlt ist.",
+        "examples": [
+          {
+            "japanese": "ボランティアに参加します。",
+            "romaji": "Borantia ni sanka shimasu.",
+            "german": "Ich nehme an Freiwilligenarbeit teil."
+          },
+          {
+            "japanese": "週末にボランティアをしています。",
+            "romaji": "Shuumatsu ni borantia o shite imasu.",
+            "german": "Am Wochenende mache ich Freiwilligenarbeit."
+          },
+          {
+            "japanese": "大会でボランティアとして働きました。",
+            "romaji": "Taikai de borantia to shite hatarakimashita.",
+            "german": "Ich habe beim Turnier als freiwilliger Helfer gearbeitet."
+          }
+        ],
+        "meaning": "Freiwilligenarbeit; Freiwillige(r)",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246450262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole ボランティア/ボランティア; lemma ボランティア-volunteer; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "ボランティア",
+              "reading": "ボランティア",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ボランティア/ボランティア \"Freiwilligenarbeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1124300 sense 1, noun: volunteer (person and, in Japanese usage, volunteer work) Pitch: Verified [2] via exact UniDic row. ボランティア bezeichnet sowohl die ehrenamtliche Tätigkeit (ボランティアをする, ボランティアに参加する) als auch die freiwillige Person selbst (ボランティアとして働く, ボランティアの人). Häufige Komposita sind ボランティア活動 („ehrenamtliche Tätigkeit“) und ボランティア団体 („Hilfsorganisation“). Mitgedacht ist dabei immer, dass die Arbeit unbezahlt ist. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1124300; spelling=ボランティア; reading=ボランティア",
+          "selected": {
+            "sequence": "1124300",
+            "spelling": "ボランティア",
+            "reading": "ボランティア",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "volunteer"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1124300 sense 1, noun: volunteer (person and, in Japanese usage, volunteer work)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole ボランティア/ボランティア; lemma ボランティア-volunteer; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246450262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole ボランティア/ボランティア; lemma ボランティア-volunteer; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "ボランティア",
+              "reading": "ボランティア",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ボランティア/ボランティア \"Freiwilligenarbeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Freiwilligenarbeit; Freiwillige(r). JMdict 1124300 sense 1, noun: volunteer (person and, in Japanese usage, volunteer work)",
+        "japanese": "ボランティアに参加します。 / 週末にボランティアをしています。 / 大会でボランティアとして働きました。",
+        "romanization": "borantia; Borantia ni sanka shimasu. / Shuumatsu ni borantia o shite imasu. / Taikai de borantia to shite hatarakimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme an Freiwilligenarbeit teil. / Am Wochenende mache ich Freiwilligenarbeit. / Ich habe beim Turnier als freiwilliger Helfer gearbeitet.",
+        "contexts": [
+          "Joining a volunteer activity",
+          "Volunteering on weekends",
+          "Volunteer helper at a tournament"
+        ],
+        "lexical": "JMdict 1124300 sense 1, noun: volunteer (person and, in Japanese usage, volunteer work)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:427 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Joining a volunteer activity; Volunteering on weekends; Volunteer helper at a tournament), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "29b25e3c2764ef07058e52b414e1137fa315b6a51297fc64c9ba10c79aaeca66",
+        "approvalHash": "a9a63808e248fa3c6e0b9f8579ff183259b701dbdeda1ea5fd8b1b3d056e8bc3"
+      }
+    },
+    {
+      "id": "vocab-n4:428",
+      "revisionId": "168j-n4-enrichment-428",
+      "state": "accepted",
+      "predecessorHash": "57bcff1702287a06a3c04a3aeb6bc510a49ec594cdbd1f2c9585e4b7eac0068a",
+      "originalHash": "57bcff1702287a06a3c04a3aeb6bc510a49ec594cdbd1f2c9585e4b7eac0068a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "夏にキャンプに行きます。",
+            "romaji": "Natsu ni kyanpu ni ikimasu.",
+            "german": "Im Sommer gehe ich campen."
+          },
+          {
+            "japanese": "山でキャンプをしました。",
+            "romaji": "Yama de kyanpu o shimashita.",
+            "german": "Wir haben in den Bergen gecampt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "キャンプ ist Camping bzw. Zelten: キャンプに行く („campen gehen“) oder キャンプをする. Der Campingplatz heißt キャンプ場, ein Lagerfeuer キャンプファイヤー. Im Sport bezeichnet キャンプ auch ein Trainingslager, etwa 春季キャンプ im Profibaseball.",
+        "examples": [
+          {
+            "japanese": "夏にキャンプに行きます。",
+            "romaji": "Natsu ni kyanpu ni ikimasu.",
+            "german": "Im Sommer gehe ich campen."
+          },
+          {
+            "japanese": "山でキャンプをしました。",
+            "romaji": "Yama de kyanpu o shimashita.",
+            "german": "Wir haben in den Bergen gecampt."
+          },
+          {
+            "japanese": "キャンプ場でカレーを作りました。",
+            "romaji": "Kyanpujō de karē o tsukurimashita.",
+            "german": "Auf dem Campingplatz haben wir Curry gekocht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105777581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole キャンプ/キャンプ; lemma キャンプ-camp; 名詞/普通名詞/サ変可能/*; *; *; aType 1. Rejected for this role: キャンプ/キャンプ; lemma キャンプ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "キャンプ",
+              "reading": "キャンプ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen キャンプ/キャンプ \"Camping\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1042200 sense 1, noun (also suru verb): camp, camping Pitch: Verified [1] via exact UniDic row. キャンプ ist Camping bzw. Zelten: キャンプに行く („campen gehen“) oder キャンプをする. Der Campingplatz heißt キャンプ場, ein Lagerfeuer キャンプファイヤー. Im Sport bezeichnet キャンプ auch ein Trainingslager, etwa 春季キャンプ im Profibaseball. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1042200; spelling=キャンプ; reading=キャンプ",
+          "selected": {
+            "sequence": "1042200",
+            "spelling": "キャンプ",
+            "reading": "キャンプ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "camp",
+                  "camping"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1042200 sense 1, noun (also suru verb): camp, camping"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole キャンプ/キャンプ; lemma キャンプ-camp; 名詞/普通名詞/サ変可能/*; *; *; aType 1. Rejected for this role: キャンプ/キャンプ; lemma キャンプ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105777581",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole キャンプ/キャンプ; lemma キャンプ-camp; 名詞/普通名詞/サ変可能/*; *; *; aType 1. Rejected for this role: キャンプ/キャンプ; lemma キャンプ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "キャンプ",
+              "reading": "キャンプ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen キャンプ/キャンプ \"Camping\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Camping. JMdict 1042200 sense 1, noun (also suru verb): camp, camping",
+        "japanese": "夏にキャンプに行きます。 / 山でキャンプをしました。 / キャンプ場でカレーを作りました。",
+        "romanization": "kyanpu; Natsu ni kyanpu ni ikimasu. / Yama de kyanpu o shimashita. / Kyanpujō de karē o tsukurimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Sommer gehe ich campen. / Wir haben in den Bergen gecampt. / Auf dem Campingplatz haben wir Curry gekocht.",
+        "contexts": [
+          "Summer camping trip",
+          "Camping in the mountains",
+          "Cooking at a campsite"
+        ],
+        "lexical": "JMdict 1042200 sense 1, noun (also suru verb): camp, camping",
+        "register": "neutral",
+        "transitivity": "Noun; used with をする or に行く, intransitive",
+        "conjugation": "Nonverb (usable as suru verb: キャンプする)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:428 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Summer camping trip; Camping in the mountains; Cooking at a campsite), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ff0fbff0f84a7bb86f9485ba1446a0e7f007151917fa71bfefb997947db749b6",
+        "approvalHash": "9223623be0047fc51dcc1e0dce6472ec28d01d90f352ff73f4b502aac9132443"
+      }
+    },
+    {
+      "id": "vocab-n4:429",
+      "revisionId": "168j-n4-enrichment-429",
+      "state": "accepted",
+      "predecessorHash": "4ee2a6db0895975695a2fe54a8b7a6e25350895f0697bedf2b621786f3a09d82",
+      "originalHash": "4ee2a6db0895975695a2fe54a8b7a6e25350895f0697bedf2b621786f3a09d82",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "釣りに行きましょう。",
+            "romaji": "Tsuri ni ikimashou.",
+            "german": "Lass uns angeln gehen."
+          },
+          {
+            "japanese": "父と一緒に釣りに行きました。",
+            "romaji": "Chichi to issho ni tsuri ni ikimashita.",
+            "german": "Ich bin mit meinem Vater angeln gegangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "釣り ist das Angeln als Tätigkeit und Hobby; mit Zweck-に sagt man 釣りに行く („angeln gehen“). Das zugehörige Verb ist 釣る: 魚を釣る („einen Fisch fangen“). Achtung: Als おつり (meist in Kana) bedeutet dasselbe Wort „Wechselgeld“.",
+        "examples": [
+          {
+            "japanese": "父と一緒に釣りに行きました。",
+            "romaji": "Chichi to issho ni tsuri ni ikimashita.",
+            "german": "Ich bin mit meinem Vater angeln gegangen."
+          },
+          {
+            "japanese": "趣味は釣りです。",
+            "romaji": "Shumi wa tsuri desu.",
+            "german": "Mein Hobby ist Angeln."
+          },
+          {
+            "japanese": "この川は釣り禁止です。",
+            "romaji": "Kono kawa wa tsuri kinshi desu.",
+            "german": "An diesem Fluss ist Angeln verboten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@178737555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 釣り/ツリ; lemma 釣り; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 釣り/ツリ; lemma 吊る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0.",
+            "match": {
+              "word": "釣り",
+              "reading": "つり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 釣り/つり \"Angeln\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1434040 sense 1, noun: fishing, angling Pitch: Verified [0] via exact UniDic row. 釣り ist das Angeln als Tätigkeit und Hobby; mit Zweck-に sagt man 釣りに行く („angeln gehen“). Das zugehörige Verb ist 釣る: 魚を釣る („einen Fisch fangen“). Achtung: Als おつり (meist in Kana) bedeutet dasselbe Wort „Wechselgeld“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1434040; spelling=釣り; reading=つり",
+          "selected": {
+            "sequence": "1434040",
+            "spelling": "釣り",
+            "reading": "つり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fishing",
+                  "angling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "change (for a purchase)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clickbaiting"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "Internet slang"
+                ],
+                "gloss": [
+                  "trolling",
+                  "bait",
+                  "making deliberately inflammatory posts online"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1434040 sense 1, noun: fishing, angling"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 釣り/ツリ; lemma 釣り; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 釣り/ツリ; lemma 吊る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@178737555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 釣り/ツリ; lemma 釣り; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 釣り/ツリ; lemma 吊る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0.",
+            "match": {
+              "word": "釣り",
+              "reading": "つり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 釣り/つり \"Angeln\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Angeln. JMdict 1434040 sense 1, noun: fishing, angling",
+        "japanese": "父と一緒に釣りに行きました。 / 趣味は釣りです。 / この川は釣り禁止です。",
+        "romanization": "tsuri; Chichi to issho ni tsuri ni ikimashita. / Shumi wa tsuri desu. / Kono kawa wa tsuri kinshi desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin mit meinem Vater angeln gegangen. / Mein Hobby ist Angeln. / An diesem Fluss ist Angeln verboten.",
+        "contexts": [
+          "Fishing trip with father",
+          "Fishing as a hobby",
+          "No-fishing river"
+        ],
+        "lexical": "JMdict 1434040 sense 1, noun: fishing, angling",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:429 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Fishing trip with father; Fishing as a hobby; No-fishing river), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d8275db3364f816d24f88bab433227f6d14533564bcfba5f67375bd78b27e5aa",
+        "approvalHash": "fe8e5ee958a185c8dae6963578fb74389e4adf4e3993791152415497087029f1"
+      }
+    },
+    {
+      "id": "vocab-n4:430",
+      "revisionId": "168j-n4-enrichment-430",
+      "state": "accepted",
+      "predecessorHash": "ce9c3d648470b47156b5c13e628833df950fb466701c0f0424a9bfcc38542f91",
+      "originalHash": "ce9c3d648470b47156b5c13e628833df950fb466701c0f0424a9bfcc38542f91",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "富士山に登山します。",
+            "romaji": "Fujisan ni tozan shimasu.",
+            "german": "Ich besteige den Fuji."
+          },
+          {
+            "japanese": "週末に登山をする予定です。",
+            "romaji": "Shuumatsu ni tozan o suru yotei desu.",
+            "german": "Ich plane am Wochenende bergsteigen zu gehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "登山 umfasst Bergsteigen ebenso wie Bergwandern. Das Verb 登山する klingt etwas gehobener; im Alltag sagt man oft einfach 山に登る. Den Berg kann man mit に angeben: 富士山に登山する. Dazu passen 登山道 („Bergpfad“) und 登山靴 („Bergschuhe“).",
+        "examples": [
+          {
+            "japanese": "富士山に登山します。",
+            "romaji": "Fujisan ni tozan shimasu.",
+            "german": "Ich besteige den Fuji."
+          },
+          {
+            "japanese": "週末に登山をする予定です。",
+            "romaji": "Shuumatsu ni tozan o suru yotei desu.",
+            "german": "Ich plane am Wochenende bergsteigen zu gehen."
+          },
+          {
+            "japanese": "登山の前に、天気をよく調べてください。",
+            "romaji": "Tozan no mae ni, tenki o yoku shirabete kudasai.",
+            "german": "Prüfen Sie vor einer Bergtour gründlich das Wetter."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185459621",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 登山/トザン; lemma 登山; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "登山",
+              "reading": "とざん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 登山/とざん \"Bergsteigen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1444780 sense 1, noun (also suru verb): mountain climbing Pitch: Verified [0,1] via exact UniDic row. 登山 umfasst Bergsteigen ebenso wie Bergwandern. Das Verb 登山する klingt etwas gehobener; im Alltag sagt man oft einfach 山に登る. Den Berg kann man mit に angeben: 富士山に登山する. Dazu passen 登山道 („Bergpfad“) und 登山靴 („Bergschuhe“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1444780; spelling=登山; reading=とざん",
+          "selected": {
+            "sequence": "1444780",
+            "spelling": "登山",
+            "reading": "とざん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mountain climbing",
+                  "mountaineering",
+                  "ascent of a mountain"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1444780 sense 1, noun (also suru verb): mountain climbing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 登山/トザン; lemma 登山; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185459621",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 登山/トザン; lemma 登山; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "登山",
+              "reading": "とざん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 登山/とざん \"Bergsteigen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bergsteigen. JMdict 1444780 sense 1, noun (also suru verb): mountain climbing",
+        "japanese": "富士山に登山します。 / 週末に登山をする予定です。 / 登山の前に、天気をよく調べてください。",
+        "romanization": "tozan; Fujisan ni tozan shimasu. / Shuumatsu ni tozan o suru yotei desu. / Tozan no mae ni, tenki o yoku shirabete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich besteige den Fuji. / Ich plane am Wochenende bergsteigen zu gehen. / Prüfen Sie vor einer Bergtour gründlich das Wetter.",
+        "contexts": [
+          "Climbing Mount Fuji",
+          "Weekend hiking plan",
+          "Checking the weather before a hike"
+        ],
+        "lexical": "JMdict 1444780 sense 1, noun (also suru verb): mountain climbing",
+        "register": "neutral; 登山する slightly more formal than 山に登る",
+        "transitivity": "Noun; as 登山する intransitive, mountain with に",
+        "conjugation": "Nonverb (usable as suru verb: 登山する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:430 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Climbing Mount Fuji; Weekend hiking plan; Checking the weather before a hike), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4565aaf7bff9eedb7d57206db65b8bf72523c67979a1819c31d907d0bfd02d3b",
+        "approvalHash": "e48973c5dfdb2029dc1b57af73bae658916ae22418942bc0ddf6a80bd42fe6f5"
+      }
+    },
+    {
+      "id": "vocab-n4:431",
+      "revisionId": "168j-n4-enrichment-431",
+      "state": "accepted",
+      "predecessorHash": "051ad5f37f11b5482ab567b1106f92d43c499f31197c616e720f7ecd48168493",
+      "originalHash": "051ad5f37f11b5482ab567b1106f92d43c499f31197c616e720f7ecd48168493",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "水泳が得意です。",
+            "romaji": "Suiei ga tokui desu.",
+            "german": "Ich bin gut im Schwimmen."
+          },
+          {
+            "japanese": "水泳は体にいい運動です。",
+            "romaji": "Suiei wa karada ni ii undou desu.",
+            "german": "Schwimmen ist ein guter Sport für den Körper."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "水泳 ist Schwimmen als Sportart oder Schulfach: 水泳が得意, 水泳教室 („Schwimmkurs“), 水泳部 („Schwimmclub“). Für die konkrete Tätigkeit „schwimmen“ verwendet man meist das Verb 泳ぐ: プールで泳ぐ. Wettkämpfe heißen 水泳大会.",
+        "examples": [
+          {
+            "japanese": "水泳が得意です。",
+            "romaji": "Suiei ga tokui desu.",
+            "german": "Ich bin gut im Schwimmen."
+          },
+          {
+            "japanese": "水泳は体にいい運動です。",
+            "romaji": "Suiei wa karada ni ii undou desu.",
+            "german": "Schwimmen ist ein guter Sport für den Körper."
+          },
+          {
+            "japanese": "毎週、水泳教室に通っています。",
+            "romaji": "Maishū, suiei kyōshitsu ni kayotte imasu.",
+            "german": "Ich gehe jede Woche zum Schwimmkurs."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145520293",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 水泳/スイエイ; lemma 水泳; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "水泳",
+              "reading": "すいえい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 水泳/すいえい \"Schwimmen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1371320 sense 1, noun: swimming (as a sport) Pitch: Verified [0] via exact UniDic row. 水泳 ist Schwimmen als Sportart oder Schulfach: 水泳が得意, 水泳教室 („Schwimmkurs“), 水泳部 („Schwimmclub“). Für die konkrete Tätigkeit „schwimmen“ verwendet man meist das Verb 泳ぐ: プールで泳ぐ. Wettkämpfe heißen 水泳大会. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1371320; spelling=水泳; reading=すいえい",
+          "selected": {
+            "sequence": "1371320",
+            "spelling": "水泳",
+            "reading": "すいえい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "swimming"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1371320 sense 1, noun: swimming (as a sport)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 水泳/スイエイ; lemma 水泳; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145520293",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 水泳/スイエイ; lemma 水泳; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "水泳",
+              "reading": "すいえい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 水泳/すいえい \"Schwimmen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schwimmen. JMdict 1371320 sense 1, noun: swimming (as a sport)",
+        "japanese": "水泳が得意です。 / 水泳は体にいい運動です。 / 毎週、水泳教室に通っています。",
+        "romanization": "suiei; Suiei ga tokui desu. / Suiei wa karada ni ii undou desu. / Maishū, suiei kyōshitsu ni kayotte imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin gut im Schwimmen. / Schwimmen ist ein guter Sport für den Körper. / Ich gehe jede Woche zum Schwimmkurs.",
+        "contexts": [
+          "Being good at swimming",
+          "Swimming as healthy exercise",
+          "Weekly swimming lessons"
+        ],
+        "lexical": "JMdict 1371320 sense 1, noun: swimming (as a sport)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:431 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Being good at swimming; Swimming as healthy exercise; Weekly swimming lessons), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5281ac62d1615f07afe7609e13cbbad684f30931a8776e75084d0cc9dfc7b20e",
+        "approvalHash": "706c47d5b9486d95a375091e9d3a6c34660259a01b72b346af6c61d713a3c18d"
+      }
+    },
+    {
+      "id": "vocab-n4:433",
+      "revisionId": "168j-n4-enrichment-433",
+      "state": "accepted",
+      "predecessorHash": "bf64ec9fe0449e7e8ab22dfeca4f58d070ab104275256f34c93694c0e8df958d",
+      "originalHash": "bf64ec9fe0449e7e8ab22dfeca4f58d070ab104275256f34c93694c0e8df958d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "全国大会に出場します。",
+            "romaji": "Zenkoku taikai ni shutsujou shimasu.",
+            "german": "Ich nehme am landesweiten Turnier teil."
+          },
+          {
+            "japanese": "来月サッカーの大会があります。",
+            "romaji": "Raigetsu sakkaa no taikai ga arimasu.",
+            "german": "Nächsten Monat gibt es ein Fußballturnier."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大会 ist ein Turnier oder Wettkampf, aber auch eine große Veranstaltung: サッカーの大会, 全国大会 („landesweites Turnier“), 花火大会 („Feuerwerksfest“). Teilnehmen heißt 大会に出る oder formeller 大会に出場する. Das Sportfest in der Schule heißt dagegen 運動会.",
+        "examples": [
+          {
+            "japanese": "全国大会に出場します。",
+            "romaji": "Zenkoku taikai ni shutsujou shimasu.",
+            "german": "Ich nehme am landesweiten Turnier teil."
+          },
+          {
+            "japanese": "来月サッカーの大会があります。",
+            "romaji": "Raigetsu sakkaa no taikai ga arimasu.",
+            "german": "Nächsten Monat gibt es ein Fußballturnier."
+          },
+          {
+            "japanese": "夏に花火大会を見に行きました。",
+            "romaji": "Natsu ni hanabi taikai o mi ni ikimashita.",
+            "german": "Im Sommer waren wir bei einem Feuerwerksfest."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157942785",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 大会/タイカイ; lemma 大会; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "大会",
+              "reading": "たいかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大会/たいかい \"Turnier, Veranstaltung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1413180 senses 2 and 3, noun: tournament, competition; grand event Pitch: Verified [0] via exact UniDic row. 大会 ist ein Turnier oder Wettkampf, aber auch eine große Veranstaltung: サッカーの大会, 全国大会 („landesweites Turnier“), 花火大会 („Feuerwerksfest“). Teilnehmen heißt 大会に出る oder formeller 大会に出場する. Das Sportfest in der Schule heißt dagegen 運動会. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1413180; spelling=大会; reading=たいかい",
+          "selected": {
+            "sequence": "1413180",
+            "spelling": "大会",
+            "reading": "たいかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mass meeting",
+                  "convention",
+                  "rally",
+                  "conference",
+                  "assembly",
+                  "gathering"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tournament",
+                  "competition",
+                  "contest",
+                  "meet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "grand event"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1413180 senses 2 and 3, noun: tournament, competition; grand event"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 大会/タイカイ; lemma 大会; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157942785",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 大会/タイカイ; lemma 大会; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "大会",
+              "reading": "たいかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大会/たいかい \"Turnier, Veranstaltung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Turnier, Veranstaltung. JMdict 1413180 senses 2 and 3, noun: tournament, competition; grand event",
+        "japanese": "全国大会に出場します。 / 来月サッカーの大会があります。 / 夏に花火大会を見に行きました。",
+        "romanization": "taikai; Zenkoku taikai ni shutsujou shimasu. / Raigetsu sakkaa no taikai ga arimasu. / Natsu ni hanabi taikai o mi ni ikimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme am landesweiten Turnier teil. / Nächsten Monat gibt es ein Fußballturnier. / Im Sommer waren wir bei einem Feuerwerksfest.",
+        "contexts": [
+          "Competing in a national tournament",
+          "Football tournament next month",
+          "Summer fireworks festival"
+        ],
+        "lexical": "JMdict 1413180 senses 2 and 3, noun: tournament, competition; grand event",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:433 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Competing in a national tournament; Football tournament next month; Summer fireworks festival), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c4bdf941151dff5793760a3be76e0c7b24dbead98e41003f13656fc1fbe96f87",
+        "approvalHash": "53fa0e8d7907f7dbe94fac9e215035cc984c8ff282704d6661c9067d861db602"
+      }
+    },
+    {
+      "id": "vocab-n4:434",
+      "revisionId": "168j-n4-enrichment-434",
+      "state": "accepted",
+      "predecessorHash": "16465913631291469d4f5afc99cbdd97508c01d276f0f782f7a512e515901029",
+      "originalHash": "16465913631291469d4f5afc99cbdd97508c01d276f0f782f7a512e515901029",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "優勝おめでとうございます。",
+            "romaji": "Yuushou omedetou gozaimasu.",
+            "german": "Herzlichen Glückwunsch zum Sieg."
+          },
+          {
+            "japanese": "チームが優勝しました。",
+            "romaji": "Chiimu ga yuushou shimashita.",
+            "german": "Das Team hat gewonnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "優勝 ist der Gesamtsieg bzw. Titelgewinn in einem Turnier oder einer Liga, nicht der Sieg in einem einzelnen Spiel (dafür 勝つ). Als Verb sagt man 大会で優勝する („das Turnier gewinnen“). Gratuliert wird mit 優勝おめでとうございます; die Siegermannschaft heißt 優勝チーム.",
+        "examples": [
+          {
+            "japanese": "優勝おめでとうございます。",
+            "romaji": "Yuushou omedetou gozaimasu.",
+            "german": "Herzlichen Glückwunsch zum Sieg."
+          },
+          {
+            "japanese": "チームが優勝しました。",
+            "romaji": "Chiimu ga yuushou shimashita.",
+            "german": "Das Team hat gewonnen."
+          },
+          {
+            "japanese": "一回戦には勝ちましたが、優勝はできませんでした。",
+            "romaji": "Ikkaisen ni wa kachimashita ga, yūshō wa dekimasen deshita.",
+            "german": "Die erste Runde haben wir gewonnen, aber den Titel haben wir nicht geholt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270642328",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 優勝/ユウショウ; lemma 優勝; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "優勝",
+              "reading": "ゆうしょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 優勝/ゆうしょう \"Sieg, Meisterschaft\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1539280 sense 1, noun (also suru verb): overall victory, championship Pitch: Verified [0] via exact UniDic row. 優勝 ist der Gesamtsieg bzw. Titelgewinn in einem Turnier oder einer Liga, nicht der Sieg in einem einzelnen Spiel (dafür 勝つ). Als Verb sagt man 大会で優勝する („das Turnier gewinnen“). Gratuliert wird mit 優勝おめでとうございます; die Siegermannschaft heißt 優勝チーム. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1539280; spelling=優勝; reading=ゆうしょう",
+          "selected": {
+            "sequence": "1539280",
+            "spelling": "優勝",
+            "reading": "ゆうしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "overall victory",
+                  "championship",
+                  "winning the title"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "(being in) heaven",
+                  "bliss",
+                  "perfect contentment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1539280 sense 1, noun (also suru verb): overall victory, championship"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 優勝/ユウショウ; lemma 優勝; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270642328",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 優勝/ユウショウ; lemma 優勝; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "優勝",
+              "reading": "ゆうしょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 優勝/ゆうしょう \"Sieg, Meisterschaft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sieg, Meisterschaft. JMdict 1539280 sense 1, noun (also suru verb): overall victory, championship",
+        "japanese": "優勝おめでとうございます。 / チームが優勝しました。 / 一回戦には勝ちましたが、優勝はできませんでした。",
+        "romanization": "yuushou; Yuushou omedetou gozaimasu. / Chiimu ga yuushou shimashita. / Ikkaisen ni wa kachimashita ga, yūshō wa dekimasen deshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Herzlichen Glückwunsch zum Sieg. / Das Team hat gewonnen. / Die erste Runde haben wir gewonnen, aber den Titel haben wir nicht geholt.",
+        "contexts": [
+          "Congratulating a champion",
+          "Team winning the title",
+          "Won a round but not the title"
+        ],
+        "lexical": "JMdict 1539280 sense 1, noun (also suru verb): overall victory, championship",
+        "register": "neutral",
+        "transitivity": "Noun; as 優勝する intransitive, competition with で",
+        "conjugation": "Nonverb (usable as suru verb: 優勝する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:434 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Congratulating a champion; Team winning the title; Won a round but not the title), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "89bf491f52a46f8e5bb8bc8c86af427be96d6451cf233107f9edbf00a3773f5a",
+        "approvalHash": "3e4e0ad455f82dfd64db052fb8299cd916c975842fe6de13bbb991852d68138c"
+      }
+    },
+    {
+      "id": "vocab-n4:435",
+      "revisionId": "168j-n4-enrichment-435",
+      "state": "accepted",
+      "predecessorHash": "c4ff723c1508715ae2bed2a643bd5299aed20918d5da103ab1bd4aad75ede37c",
+      "originalHash": "c4ff723c1508715ae2bed2a643bd5299aed20918d5da103ab1bd4aad75ede37c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "試合に勝ちました。",
+            "romaji": "Shiai ni kachimashita.",
+            "german": "Ich habe das Spiel gewonnen."
+          },
+          {
+            "japanese": "今日の試合に勝ちたいです。",
+            "romaji": "Kyou no shiai ni kachitai desu.",
+            "german": "Ich möchte das heutige Spiel gewinnen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "勝つ ist intransitiv: Wen oder was man besiegt, steht mit に, nie mit を: 試合に勝つ, 相手に勝つ. Die Disziplin wird mit で angegeben: テニスで勝つ. Die て-Form lautet 勝って; das Gegenteil ist 負ける, den Titelgewinn im Turnier nennt man 優勝する.",
+        "examples": [
+          {
+            "japanese": "試合に勝ちました。",
+            "romaji": "Shiai ni kachimashita.",
+            "german": "Ich habe das Spiel gewonnen."
+          },
+          {
+            "japanese": "兄にテニスで勝ちました。",
+            "romaji": "Ani ni tenisu de kachimashita.",
+            "german": "Ich habe meinen älteren Bruder im Tennis geschlagen."
+          },
+          {
+            "japanese": "勝っても負けても、楽しかったです。",
+            "romaji": "Katte mo makete mo, tanoshikatta desu.",
+            "german": "Egal ob gewonnen oder verloren, es hat Spaß gemacht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95542017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; aType 1. Rejected for this role: 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 連体形-一般; aType 1.",
+            "match": {
+              "word": "勝つ",
+              "reading": "かつ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "Verb 勝つ/かつ \"gewinnen, siegen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1346150 sense 1, godan verb: to win, to gain victory Pitch: Verified [1] via exact UniDic row. 勝つ ist intransitiv: Wen oder was man besiegt, steht mit に, nie mit を: 試合に勝つ, 相手に勝つ. Die Disziplin wird mit で angegeben: テニスで勝つ. Die て-Form lautet 勝って; das Gegenteil ist 負ける, den Titelgewinn im Turnier nennt man 優勝する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1346150; spelling=勝つ; reading=かつ",
+          "selected": {
+            "sequence": "1346150",
+            "spelling": "勝つ",
+            "reading": "かつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'tsu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to win",
+                  "to gain victory"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1346150 sense 1, godan verb: to win, to gain victory"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; aType 1. Rejected for this role: 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 連体形-一般; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95542017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 終止形-一般; aType 1. Rejected for this role: 勝つ/カツ; lemma 勝つ; 動詞/一般/*/*; 五段-タ行; 連体形-一般; aType 1.",
+            "match": {
+              "word": "勝つ",
+              "reading": "かつ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-タ行; 終止形-一般",
+              "sense": "Verb 勝つ/かつ \"gewinnen, siegen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "gewinnen, siegen. JMdict 1346150 sense 1, godan verb: to win, to gain victory",
+        "japanese": "試合に勝ちました。 / 兄にテニスで勝ちました。 / 勝っても負けても、楽しかったです。",
+        "romanization": "katsu; Shiai ni kachimashita. / Ani ni tenisu de kachimashita. / Katte mo makete mo, tanoshikatta desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe das Spiel gewonnen. / Ich habe meinen älteren Bruder im Tennis geschlagen. / Egal ob gewonnen oder verloren, es hat Spaß gemacht.",
+        "contexts": [
+          "Winning a match",
+          "Beating one's brother at tennis",
+          "Fun regardless of the result"
+        ],
+        "lexical": "JMdict 1346150 sense 1, godan verb: to win, to gain victory",
+        "register": "neutral",
+        "transitivity": "intransitive; opponent/contest with に, discipline with で",
+        "conjugation": "godan verb (-tsu), unchanged; te-form 勝って",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:435 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Winning a match; Beating one's brother at tennis; Fun regardless of the result), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "786bf6cf7d5766d9e86943dacf4617610296f563217711aaf2571ea6c025e18e",
+        "approvalHash": "8ec37c9c7cf375e1bea95f6ad493392155626d11877b9c63d0980748d44a102f"
+      }
+    },
+    {
+      "id": "vocab-n4:436",
+      "revisionId": "168j-n4-enrichment-436",
+      "state": "accepted",
+      "predecessorHash": "3cb5189f787793bb93ec725f2258a64d610ef946aeabb5e7375e5f4efb3d25e2",
+      "originalHash": "3cb5189f787793bb93ec725f2258a64d610ef946aeabb5e7375e5f4efb3d25e2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "残念ながら負けました。",
+            "romaji": "Zannen nagara makemashita.",
+            "german": "Leider habe ich verloren."
+          },
+          {
+            "japanese": "試合に負けて悔しいです。",
+            "romaji": "Shiai ni makete kuyashii desu.",
+            "german": "Es ist ärgerlich, das Spiel verloren zu haben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "負ける ist intransitiv: Wogegen oder gegen wen man verliert, steht mit に: 試合に負ける, 相手に負ける. Übertragen heißt es „nachgeben, unterliegen“: 暑さに負けない („sich von der Hitze nicht unterkriegen lassen“). Beim Einkaufen bedeutet 負ける außerdem „einen Rabatt geben“: 少し負けてください.",
+        "examples": [
+          {
+            "japanese": "試合に負けて悔しいです。",
+            "romaji": "Shiai ni makete kuyashii desu.",
+            "german": "Es ist ärgerlich, das Spiel verloren zu haben."
+          },
+          {
+            "japanese": "暑さに負けないで、頑張ってください。",
+            "romaji": "Atsusa ni makenaide, ganbatte kudasai.",
+            "german": "Lassen Sie sich von der Hitze nicht unterkriegen!"
+          },
+          {
+            "japanese": "少し負けてくれませんか。",
+            "romaji": "Sukoshi makete kuremasen ka.",
+            "german": "Könnten Sie mir einen kleinen Rabatt geben?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249255290",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType 0. Rejected for this role: 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "負ける",
+              "reading": "まける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Verb 負ける/まける \"verlieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1497980 sense 1 (main), plus senses 2 (to give in to) and 5 (to give a discount), ichidan verb: to lose Pitch: Verified [0] via exact UniDic row. 負ける ist intransitiv: Wogegen oder gegen wen man verliert, steht mit に: 試合に負ける, 相手に負ける. Übertragen heißt es „nachgeben, unterliegen“: 暑さに負けない („sich von der Hitze nicht unterkriegen lassen“). Beim Einkaufen bedeutet 負ける außerdem „einen Rabatt geben“: 少し負けてください. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497980; spelling=負ける; reading=まける",
+          "selected": {
+            "sequence": "1497980",
+            "spelling": "負ける",
+            "reading": "まける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lose",
+                  "to be defeated",
+                  "to be beaten"
+                ],
+                "notes": [
+                  "occ. written as 敗ける"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to give in (to)",
+                  "to yield",
+                  "to succumb",
+                  "to give way",
+                  "to surrender",
+                  "to be overcome (with)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be inferior (to)",
+                  "to be second (to)",
+                  "to be outdone (by)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to get a rash (from)",
+                  "to come out in a rash"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to reduce the price",
+                  "to give a discount",
+                  "to throw in (something extra) for free"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1497980 sense 1 (main), plus senses 2 (to give in to) and 5 (to give a discount), ichidan verb: to lose"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType 0. Rejected for this role: 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249255290",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 終止形-一般; aType 0. Rejected for this role: 負ける/マケル; lemma 負ける; 動詞/一般/*/*; 下一段-カ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "負ける",
+              "reading": "まける",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-カ行; 終止形-一般",
+              "sense": "Verb 負ける/まける \"verlieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "verlieren. JMdict 1497980 sense 1 (main), plus senses 2 (to give in to) and 5 (to give a discount), ichidan verb: to lose",
+        "japanese": "試合に負けて悔しいです。 / 暑さに負けないで、頑張ってください。 / 少し負けてくれませんか。",
+        "romanization": "makeru; Shiai ni makete kuyashii desu. / Atsusa ni makenaide, ganbatte kudasai. / Sukoshi makete kuremasen ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist ärgerlich, das Spiel verloren zu haben. / Lassen Sie sich von der Hitze nicht unterkriegen! / Könnten Sie mir einen kleinen Rabatt geben?",
+        "contexts": [
+          "Frustration after losing a match",
+          "Not giving in to the heat",
+          "Haggling for a discount"
+        ],
+        "lexical": "JMdict 1497980 sense 1 (main), plus senses 2 (to give in to) and 5 (to give a discount), ichidan verb: to lose",
+        "register": "neutral; discount sense colloquial, used in shops and markets",
+        "transitivity": "intransitive; opponent/contest with に (sense 5 'give a discount' is transitive)",
+        "conjugation": "ichidan verb, unchanged; te-form 負けて",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:436 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Frustration after losing a match; Not giving in to the heat; Haggling for a discount), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b4b4970ffee612cb00c45613e8077112a653302565f38784e207843bcc8b7791",
+        "approvalHash": "d02db0fd6e5eef27871b8e91a99791f8952b83a5264d8ad9ccb672fe3f59dc90"
+      }
+    },
+    {
+      "id": "vocab-n4:438",
+      "revisionId": "168j-n4-enrichment-438",
+      "state": "accepted",
+      "predecessorHash": "c6953f40290224ba96c8d3af18ff62d07e54a30b57293374b3d36b6ac5bf17dd",
+      "originalHash": "c6953f40290224ba96c8d3af18ff62d07e54a30b57293374b3d36b6ac5bf17dd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "チームを応援します。",
+            "romaji": "Chiimu o ouen shimasu.",
+            "german": "Ich feuere das Team an."
+          },
+          {
+            "japanese": "好きなチームを応援しています。",
+            "romaji": "Suki na chiimu o ouen shite imasu.",
+            "german": "Ich feuere mein Lieblingsteam an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "応援する heißt „anfeuern“ beim Sport, aber auch ganz allgemein „unterstützen, die Daumen drücken“. Wen oder was man unterstützt, steht mit を: チームを応援する, 夢を応援する. Unter Freunden ermutigt man mit 応援してるよ („Ich drück dir die Daumen“). Ein organisierter Fanblock heißt 応援団.",
+        "examples": [
+          {
+            "japanese": "チームを応援します。",
+            "romaji": "Chiimu o ouen shimasu.",
+            "german": "Ich feuere das Team an."
+          },
+          {
+            "japanese": "試験、頑張ってね。応援してるよ。",
+            "romaji": "Shiken, ganbatte ne. Ōen shiteru yo.",
+            "german": "Viel Erfolg bei der Prüfung! Ich drück dir die Daumen."
+          },
+          {
+            "japanese": "両親が私の留学を応援してくれました。",
+            "romaji": "Ryōshin ga watashi no ryūgaku o ōen shite kuremashita.",
+            "german": "Meine Eltern haben mein Auslandsstudium unterstützt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 607f1996dc9e2b469530fab03924626106d2f69209d3190998a3e5876978afe3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B#word_1920",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 応援する/おうえんする read; accent_top positions [0] (0 = no accent_top). Exact whole 応援する/おうえんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "応援する",
+              "reading": "おうえんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 応援する/おうえんする \"anfeuern, unterstützen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1179840 (応援, n/vs/vt) senses 2 and 1: cheering, rooting for; support, help (input listed no match) Pitch: Verified [0] via exact OJAD dictionary-form cell. 応援する heißt „anfeuern“ beim Sport, aber auch ganz allgemein „unterstützen, die Daumen drücken“. Wen oder was man unterstützt, steht mit を: チームを応援する, 夢を応援する. Unter Freunden ermutigt man mit 応援してるよ („Ich drück dir die Daumen“). Ein organisierter Fanblock heißt 応援団. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1179840; spelling=応援する; reading=おうえんする",
+          "finding": "JMdict 1179840 (応援, n/vs/vt) senses 2 and 1: cheering, rooting for; support, help (input listed no match)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 応援する/おうえんする read; accent_top positions [0] (0 = no accent_top). Exact whole 応援する/おうえんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 607f1996dc9e2b469530fab03924626106d2f69209d3190998a3e5876978afe3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B#word_1920",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 応援する/おうえんする read; accent_top positions [0] (0 = no accent_top). Exact whole 応援する/おうえんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "応援する",
+              "reading": "おうえんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 応援する/おうえんする \"anfeuern, unterstützen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "anfeuern, unterstützen. JMdict 1179840 (応援, n/vs/vt) senses 2 and 1: cheering, rooting for; support, help (input listed no match)",
+        "japanese": "チームを応援します。 / 試験、頑張ってね。応援してるよ。 / 両親が私の留学を応援してくれました。",
+        "romanization": "ouen suru; Chiimu o ouen shimasu. / Shiken, ganbatte ne. Ōen shiteru yo. / Ryōshin ga watashi no ryūgaku o ōen shite kuremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich feuere das Team an. / Viel Erfolg bei der Prüfung! Ich drück dir die Daumen. / Meine Eltern haben mein Auslandsstudium unterstützt.",
+        "contexts": [
+          "Cheering for a team",
+          "Encouraging a friend before an exam",
+          "Parents supporting study abroad"
+        ],
+        "lexical": "JMdict 1179840 (応援, n/vs/vt) senses 2 and 1: cheering, rooting for; support, help (input listed no match)",
+        "register": "neutral; 応援してるよ is casual speech",
+        "transitivity": "transitive; object with を",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:438 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cheering for a team; Encouraging a friend before an exam; Parents supporting study abroad), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0b3f891a271d910c5c296a43e258a28028c2c1687360007f32c08508683f83bf",
+        "approvalHash": "51f59f1ae21040f9c297e54cfe41326ea792f2eeb266702dfc1886661db6f8f6"
+      }
+    },
+    {
+      "id": "vocab-n4:439",
+      "revisionId": "168j-n4-enrichment-439",
+      "state": "accepted",
+      "predecessorHash": "5e695a77c2075f0812a86f3e94198373b937765c98e546a6f390463246e2cd35",
+      "originalHash": "5e695a77c2075f0812a86f3e94198373b937765c98e546a6f390463246e2cd35",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新記録を出しました。",
+            "romaji": "Shinkiroku o dashimashita.",
+            "german": "Es wurde ein neuer Rekord aufgestellt."
+          },
+          {
+            "japanese": "世界記録を更新しました。",
+            "romaji": "Sekai kiroku o koushin shimashita.",
+            "german": "Der Weltrekord wurde gebrochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "記録 hat zwei Hauptbedeutungen: „Aufzeichnung, Protokoll“ (記録する „aufzeichnen, notieren“) und „Rekord“ im Sport. Für Rekorde sagt man 記録を出す („aufstellen“), 記録を破る／更新する („brechen, verbessern“) und 新記録 („neuer Rekord“). 記録的な bedeutet „Rekord-“, etwa 記録的な大雨 („Rekordregen“).",
+        "examples": [
+          {
+            "japanese": "新記録を出しました。",
+            "romaji": "Shinkiroku o dashimashita.",
+            "german": "Es wurde ein neuer Rekord aufgestellt."
+          },
+          {
+            "japanese": "毎日、体重を記録しています。",
+            "romaji": "Mainichi, taijū o kiroku shite imasu.",
+            "german": "Ich notiere jeden Tag mein Gewicht."
+          },
+          {
+            "japanese": "会議の内容を記録してください。",
+            "romaji": "Kaigi no naiyō o kiroku shite kudasai.",
+            "german": "Bitte protokollieren Sie den Inhalt der Besprechung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108584800",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 記録/キロク; lemma 記録; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "記録",
+              "reading": "きろく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 記録/きろく \"Rekord, Aufzeichnung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1223440 senses 2 and 1, noun (also suru verb): record (sports); record, documentation Pitch: Verified [0] via exact UniDic row. 記録 hat zwei Hauptbedeutungen: „Aufzeichnung, Protokoll“ (記録する „aufzeichnen, notieren“) und „Rekord“ im Sport. Für Rekorde sagt man 記録を出す („aufstellen“), 記録を破る／更新する („brechen, verbessern“) und 新記録 („neuer Rekord“). 記録的な bedeutet „Rekord-“, etwa 記録的な大雨 („Rekordregen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1223440; spelling=記録; reading=きろく",
+          "selected": {
+            "sequence": "1223440",
+            "spelling": "記録",
+            "reading": "きろく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "record",
+                  "document",
+                  "minutes",
+                  "log",
+                  "recording",
+                  "putting on record",
+                  "keeping a record (of)",
+                  "writing down"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "record (e.g. in sports)",
+                  "setting (a record)",
+                  "recording (a record high, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1223440 senses 2 and 1, noun (also suru verb): record (sports); record, documentation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 記録/キロク; lemma 記録; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108584800",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 記録/キロク; lemma 記録; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "記録",
+              "reading": "きろく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 記録/きろく \"Rekord, Aufzeichnung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rekord, Aufzeichnung. JMdict 1223440 senses 2 and 1, noun (also suru verb): record (sports); record, documentation",
+        "japanese": "新記録を出しました。 / 毎日、体重を記録しています。 / 会議の内容を記録してください。",
+        "romanization": "kiroku; Shinkiroku o dashimashita. / Mainichi, taijū o kiroku shite imasu. / Kaigi no naiyō o kiroku shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es wurde ein neuer Rekord aufgestellt. / Ich notiere jeden Tag mein Gewicht. / Bitte protokollieren Sie den Inhalt der Besprechung.",
+        "contexts": [
+          "Setting a new record",
+          "Tracking body weight",
+          "Taking meeting minutes"
+        ],
+        "lexical": "JMdict 1223440 senses 2 and 1, noun (also suru verb): record (sports); record, documentation",
+        "register": "neutral",
+        "transitivity": "Noun; as 記録する transitive, object with を",
+        "conjugation": "Nonverb (usable as suru verb: 記録する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:439 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Setting a new record; Tracking body weight; Taking meeting minutes), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "85a916e4cf924f90df77de68f2b6968f985a7b5a3068c66268c43ce0ca84af67",
+        "approvalHash": "a89be57096be2298cc303fd067bf586a8feb3529627cdd0fbda29c1dfafbb698"
+      }
+    },
+    {
+      "id": "vocab-n4:440",
+      "revisionId": "168j-n4-enrichment-440",
+      "state": "accepted",
+      "predecessorHash": "1f6c6cdc857897ed4d4c561b26f08302ad679b9386e8d024a2d25423bccf8b42",
+      "originalHash": "1f6c6cdc857897ed4d4c561b26f08302ad679b9386e8d024a2d25423bccf8b42",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "得点が高いです。",
+            "romaji": "Tokuten ga takai desu.",
+            "german": "Die Punktzahl ist hoch."
+          },
+          {
+            "japanese": "彼は最後に得点を決めました。",
+            "romaji": "Kare wa saigo ni tokuten o kimemashita.",
+            "german": "Er hat am Ende den Punkt erzielt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "得点 ist ein erzielter Punkt bzw. die erzielte Punktzahl, etwa ein Tor im Fußball oder ein Run im Baseball. Als Verb heißt 得点する „punkten, ein Tor erzielen“; das Gegenstück, der Gegentreffer, ist 失点. Für Testergebnisse und Schulnoten sagt man im Alltag eher 点数 oder einfach 点.",
+        "examples": [
+          {
+            "japanese": "日本は後半に得点しました。",
+            "romaji": "Nihon wa kōhan ni tokuten shimashita.",
+            "german": "Japan hat in der zweiten Halbzeit ein Tor erzielt."
+          },
+          {
+            "japanese": "彼はチームで一番得点が多い選手です。",
+            "romaji": "Kare wa chīmu de ichiban tokuten ga ōi senshu desu.",
+            "german": "Er ist der Spieler mit den meisten Punkten im Team."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184953914",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 得点/トクテン; lemma 得点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "得点",
+              "reading": "とくてん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 得点/とくてん \"Punkte, Punktzahl\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1454590 sense 1, noun (also suru verb): score, points made, goals Pitch: Verified [0] via exact UniDic row. 得点 ist ein erzielter Punkt bzw. die erzielte Punktzahl, etwa ein Tor im Fußball oder ein Run im Baseball. Als Verb heißt 得点する „punkten, ein Tor erzielen“; das Gegenstück, der Gegentreffer, ist 失点. Für Testergebnisse und Schulnoten sagt man im Alltag eher 点数 oder einfach 点. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1454590; spelling=得点; reading=とくてん",
+          "selected": {
+            "sequence": "1454590",
+            "spelling": "得点",
+            "reading": "とくてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "scoring",
+                  "score",
+                  "points made",
+                  "marks obtained",
+                  "goals",
+                  "runs"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1454590 sense 1, noun (also suru verb): score, points made, goals"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 得点/トクテン; lemma 得点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184953914",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 得点/トクテン; lemma 得点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "得点",
+              "reading": "とくてん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 得点/とくてん \"Punkte, Punktzahl\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Punkte, Punktzahl. JMdict 1454590 sense 1, noun (also suru verb): score, points made, goals",
+        "japanese": "日本は後半に得点しました。 / 彼はチームで一番得点が多い選手です。",
+        "romanization": "tokuten; Nihon wa kōhan ni tokuten shimashita. / Kare wa chīmu de ichiban tokuten ga ōi senshu desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Japan hat in der zweiten Halbzeit ein Tor erzielt. / Er ist der Spieler mit den meisten Punkten im Team.",
+        "contexts": [
+          "Scoring in the second half",
+          "Top scorer of the team"
+        ],
+        "lexical": "JMdict 1454590 sense 1, noun (also suru verb): score, points made, goals",
+        "register": "neutral; typical of sports reporting",
+        "transitivity": "Noun; as 得点する intransitive",
+        "conjugation": "Nonverb (usable as suru verb: 得点する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:440 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Scoring in the second half; Top scorer of the team), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "51e7f866a9fa57e7d93ff09fb2d7cbc366ce9b02c389421140357bc177ffb487",
+        "approvalHash": "260f98c34656f082cdff176ee966318ae3908bc15474fe2d7bcc0a7f888a7ec4"
+      }
+    },
+    {
+      "id": "vocab-n4:441",
+      "revisionId": "168j-n4-enrichment-441",
+      "state": "accepted",
+      "predecessorHash": "0cefb51f167f98d5259de7f3ed59141b104df01d99f0b4252db5d58d59b6b960",
+      "originalHash": "0cefb51f167f98d5259de7f3ed59141b104df01d99f0b4252db5d58d59b6b960",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "審判の判定に従います。",
+            "romaji": "Shinpan no hantei ni shitagaimasu.",
+            "german": "Ich folge der Entscheidung des Schiedsrichters."
+          },
+          {
+            "japanese": "審判の判定に抗議しました。",
+            "romaji": "Shinpan no hantei ni kougi shimashita.",
+            "german": "Es wurde gegen die Entscheidung des Schiedsrichters protestiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "審判 ist im Sport der Schiedsrichter und zugleich das Schiedsrichtern selbst: 審判をする („Schiedsrichter sein, pfeifen“). Seine Entscheidung heißt 審判の判定. Im übertragenen Sinn bedeutet 審判 „Urteil“, z. B. 最後の審判 („das Jüngste Gericht“).",
+        "examples": [
+          {
+            "japanese": "審判の判定に従います。",
+            "romaji": "Shinpan no hantei ni shitagaimasu.",
+            "german": "Ich folge der Entscheidung des Schiedsrichters."
+          },
+          {
+            "japanese": "兄はサッカーの試合で審判をしています。",
+            "romaji": "Ani wa sakkā no shiai de shinpan o shite imasu.",
+            "german": "Mein älterer Bruder pfeift Fußballspiele als Schiedsrichter."
+          },
+          {
+            "japanese": "審判が笛を吹いて、試合が始まりました。",
+            "romaji": "Shinpan ga fue o fuite, shiai ga hajimarimashita.",
+            "german": "Der Schiedsrichter pfiff, und das Spiel begann."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143033343",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 審判/シンパン; lemma 審判; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "審判",
+              "reading": "しんぱん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 審判/しんぱん \"Schiedsrichter\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1360410 senses 4 and 2, noun: referee, umpire; refereeing Pitch: Verified [0,1] via exact UniDic row. 審判 ist im Sport der Schiedsrichter und zugleich das Schiedsrichtern selbst: 審判をする („Schiedsrichter sein, pfeifen“). Seine Entscheidung heißt 審判の判定. Im übertragenen Sinn bedeutet 審判 „Urteil“, z. B. 最後の審判 („das Jüngste Gericht“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1360410; spelling=審判; reading=しんぱん",
+          "selected": {
+            "sequence": "1360410",
+            "spelling": "審判",
+            "reading": "しんぱん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "judgement",
+                  "judgment",
+                  "decision",
+                  "verdict",
+                  "sentence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "refereeing",
+                  "umpiring",
+                  "judging"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "judgement (of God)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "referee",
+                  "umpire",
+                  "judge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1360410 senses 4 and 2, noun: referee, umpire; refereeing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 審判/シンパン; lemma 審判; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143033343",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 審判/シンパン; lemma 審判; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "審判",
+              "reading": "しんぱん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 審判/しんぱん \"Schiedsrichter\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schiedsrichter. JMdict 1360410 senses 4 and 2, noun: referee, umpire; refereeing",
+        "japanese": "審判の判定に従います。 / 兄はサッカーの試合で審判をしています。 / 審判が笛を吹いて、試合が始まりました。",
+        "romanization": "shinpan; Shinpan no hantei ni shitagaimasu. / Ani wa sakkā no shiai de shinpan o shite imasu. / Shinpan ga fue o fuite, shiai ga hajimarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich folge der Entscheidung des Schiedsrichters. / Mein älterer Bruder pfeift Fußballspiele als Schiedsrichter. / Der Schiedsrichter pfiff, und das Spiel begann.",
+        "contexts": [
+          "Accepting the referee's decision",
+          "Brother refereeing football",
+          "Kick-off whistle"
+        ],
+        "lexical": "JMdict 1360410 senses 4 and 2, noun: referee, umpire; refereeing",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:441 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accepting the referee's decision; Brother refereeing football; Kick-off whistle), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8a04b82de42637e963c126c101aee1578ba48c01b668e373bce156cad289fcf0",
+        "approvalHash": "20a7b761795637126e89607e637097014f5fff2a231d2030063b68d2f066936a"
+      }
+    },
+    {
+      "id": "vocab-n4:442",
+      "revisionId": "168j-n4-enrichment-442",
+      "state": "accepted",
+      "predecessorHash": "cd40283a88e1aafbb75706e1a8e20bbfe853e33ed0d5717da78eec004019fd74",
+      "originalHash": "cd40283a88e1aafbb75706e1a8e20bbfe853e33ed0d5717da78eec004019fd74",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "有名な選手に会いました。",
+            "romaji": "Yuumei na senshu ni aimashita.",
+            "german": "Ich habe einen berühmten Athleten getroffen."
+          },
+          {
+            "japanese": "あの選手はとても速いです。",
+            "romaji": "Ano senshu wa totemo hayai desu.",
+            "german": "Dieser Athlet ist sehr schnell."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "選手 ist ein Sportler bzw. Spieler im Wettkampfsport: サッカー選手, 野球選手, 代表選手 („Nationalspieler“); allgemein sagt man スポーツ選手. In den Medien wird 選手 respektvoll hinter Namen gesetzt: 大谷選手. Für Musiker oder Schauspieler verwendet man es nicht.",
+        "examples": [
+          {
+            "japanese": "有名な選手に会いました。",
+            "romaji": "Yuumei na senshu ni aimashita.",
+            "german": "Ich habe einen berühmten Athleten getroffen."
+          },
+          {
+            "japanese": "あの選手はとても速いです。",
+            "romaji": "Ano senshu wa totemo hayai desu.",
+            "german": "Dieser Athlet ist sehr schnell."
+          },
+          {
+            "japanese": "将来、サッカー選手になりたいです。",
+            "romaji": "Shōrai, sakkā senshu ni naritai desu.",
+            "german": "Später möchte ich Fußballspieler werden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154374132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 選手/センシュ; lemma 選手; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "選手",
+              "reading": "せんしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 選手/せんしゅ \"Spieler, Athlet\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1392250 sense 1, noun: player, athlete, team member Pitch: Verified [1] via exact UniDic row. 選手 ist ein Sportler bzw. Spieler im Wettkampfsport: サッカー選手, 野球選手, 代表選手 („Nationalspieler“); allgemein sagt man スポーツ選手. In den Medien wird 選手 respektvoll hinter Namen gesetzt: 大谷選手. Für Musiker oder Schauspieler verwendet man es nicht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1392250; spelling=選手; reading=せんしゅ",
+          "selected": {
+            "sequence": "1392250",
+            "spelling": "選手",
+            "reading": "せんしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "player (of a sport)",
+                  "athlete",
+                  "team member"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1392250 sense 1, noun: player, athlete, team member"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 選手/センシュ; lemma 選手; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154374132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 選手/センシュ; lemma 選手; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "選手",
+              "reading": "せんしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 選手/せんしゅ \"Spieler, Athlet\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Spieler, Athlet. JMdict 1392250 sense 1, noun: player, athlete, team member",
+        "japanese": "有名な選手に会いました。 / あの選手はとても速いです。 / 将来、サッカー選手になりたいです。",
+        "romanization": "senshu; Yuumei na senshu ni aimashita. / Ano senshu wa totemo hayai desu. / Shōrai, sakkā senshu ni naritai desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen berühmten Athleten getroffen. / Dieser Athlet ist sehr schnell. / Später möchte ich Fußballspieler werden.",
+        "contexts": [
+          "Meeting a famous athlete",
+          "A fast player",
+          "Dream of becoming a footballer"
+        ],
+        "lexical": "JMdict 1392250 sense 1, noun: player, athlete, team member",
+        "register": "neutral; also an honorific-like title after names in media",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:442 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Meeting a famous athlete; A fast player; Dream of becoming a footballer), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "071cf6a794830755c33c980b6920dbecbd79dbb7dc29f7694e4239e714157f62",
+        "approvalHash": "d9be2a583af40ea6984c8d797ba543633434dd59b8febff8aa26cea94a15a623"
+      }
+    },
+    {
+      "id": "vocab-n4:443",
+      "revisionId": "168j-n4-enrichment-443",
+      "state": "accepted",
+      "predecessorHash": "7881c57de57bb3820265d53d0df8c74e648c03694ff2ddb435966b9e0d04d8d7",
+      "originalHash": "7881c57de57bb3820265d53d0df8c74e648c03694ff2ddb435966b9e0d04d8d7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "監督の指示に従います。",
+            "romaji": "Kantoku no shiji ni shitagaimasu.",
+            "german": "Ich folge den Anweisungen des Trainers."
+          },
+          {
+            "japanese": "映画の監督に会いました。",
+            "romaji": "Eiga no kantoku ni aimashita.",
+            "german": "Ich habe den Filmregisseur getroffen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "監督 ist die leitende Person: im Film der Regisseur (映画監督), im Sport der Cheftrainer bzw. Teamchef – Assistenztrainer heißen dagegen コーチ. Als suru-Verb bedeutet 監督する „beaufsichtigen, überwachen“: 試験を監督する („die Prüfung beaufsichtigen“).",
+        "examples": [
+          {
+            "japanese": "監督の指示に従います。",
+            "romaji": "Kantoku no shiji ni shitagaimasu.",
+            "german": "Ich folge den Anweisungen des Trainers."
+          },
+          {
+            "japanese": "映画の監督に会いました。",
+            "romaji": "Eiga no kantoku ni aimashita.",
+            "german": "Ich habe den Filmregisseur getroffen."
+          },
+          {
+            "japanese": "先生が試験を監督しています。",
+            "romaji": "Sensei ga shiken o kantoku shite imasu.",
+            "german": "Der Lehrer beaufsichtigt die Prüfung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100793562",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 監督/カントク; lemma 監督; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "監督",
+              "reading": "かんとく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 監督/かんとく \"Regisseur, Trainer\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1213720 sense 2 (director, coach, manager) as main role; sense 1 (supervision, suru verb) shown in example 3 Pitch: Verified [0] via exact UniDic row. 監督 ist die leitende Person: im Film der Regisseur (映画監督), im Sport der Cheftrainer bzw. Teamchef – Assistenztrainer heißen dagegen コーチ. Als suru-Verb bedeutet 監督する „beaufsichtigen, überwachen“: 試験を監督する („die Prüfung beaufsichtigen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1213720; spelling=監督; reading=かんとく",
+          "selected": {
+            "sequence": "1213720",
+            "spelling": "監督",
+            "reading": "かんとく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "supervision",
+                  "control",
+                  "superintendence",
+                  "direction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "director",
+                  "superintendent",
+                  "supervisor",
+                  "coach",
+                  "foreman",
+                  "manager",
+                  "overseer",
+                  "controller",
+                  "boss"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1213720 sense 2 (director, coach, manager) as main role; sense 1 (supervision, suru verb) shown in example 3"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 監督/カントク; lemma 監督; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100793562",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 監督/カントク; lemma 監督; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "監督",
+              "reading": "かんとく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 監督/かんとく \"Regisseur, Trainer\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Regisseur, Trainer. JMdict 1213720 sense 2 (director, coach, manager) as main role; sense 1 (supervision, suru verb) shown in example 3",
+        "japanese": "監督の指示に従います。 / 映画の監督に会いました。 / 先生が試験を監督しています。",
+        "romanization": "kantoku; Kantoku no shiji ni shitagaimasu. / Eiga no kantoku ni aimashita. / Sensei ga shiken o kantoku shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich folge den Anweisungen des Trainers. / Ich habe den Filmregisseur getroffen. / Der Lehrer beaufsichtigt die Prüfung.",
+        "contexts": [
+          "Following the coach's instructions",
+          "Meeting a film director",
+          "Supervising an exam"
+        ],
+        "lexical": "JMdict 1213720 sense 2 (director, coach, manager) as main role; sense 1 (supervision, suru verb) shown in example 3",
+        "register": "neutral",
+        "transitivity": "Noun; as 監督する transitive, object with を",
+        "conjugation": "Nonverb (usable as suru verb: 監督する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:443 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Following the coach's instructions; Meeting a film director; Supervising an exam), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5ac02f711ba6ebdd0623bc47aa86fe53f9d989ce403a69502d621e190594f8aa",
+        "approvalHash": "9b4f72e784e3d8d62d2162cab7736e0d95126d7e9f99657dbde31416af163fb0"
+      }
+    },
+    {
+      "id": "vocab-n4:444",
+      "revisionId": "168j-n4-enrichment-444",
+      "state": "accepted",
+      "predecessorHash": "c2d9265867c6b14c39706eb85c87a09a4035ef2566fa5808d009c8f1fca287b6",
+      "originalHash": "c2d9265867c6b14c39706eb85c87a09a4035ef2566fa5808d009c8f1fca287b6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼のファンです。",
+            "romaji": "Kare no fan desu.",
+            "german": "Ich bin sein Fan."
+          },
+          {
+            "japanese": "彼女は有名な歌手のファンです。",
+            "romaji": "Kanojo wa yuumei na kashu no fan desu.",
+            "german": "Sie ist Fan eines berühmten Sängers."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ファン ist ein Fan oder Anhänger: 〜のファンです („Ich bin Fan von …“), 〜のファンになる („Fan werden“). Organisierte Fans treffen sich in einem ファンクラブ. Gleich geschrieben wird ein anderes Wort für einen Ventilator oder Lüfter (パソコンのファン); diese Karte meint den Fan.",
+        "examples": [
+          {
+            "japanese": "彼女は有名な歌手のファンです。",
+            "romaji": "Kanojo wa yuumei na kashu no fan desu.",
+            "german": "Sie ist Fan eines berühmten Sängers."
+          },
+          {
+            "japanese": "サッカーのファンがたくさん集まりました。",
+            "romaji": "Sakkā no fan ga takusan atsumarimashita.",
+            "german": "Viele Fußballfans haben sich versammelt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230434917",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ファン/ファン; lemma ファン-fan（扇風機）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fan（熱狂者）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fun; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-van; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ファン/ファン; lemma ファン; 名詞/固有名詞/人名/姓; *; *; aType 1 | ファン/ファン; lemma ファン-Juan; 名詞/固有名詞/人名/一般; *; *; aType * | ファン/ファン; lemma ファン-Van; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "ファン",
+              "reading": "ファン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ファン/ファン \"Fan, Anhänger\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1108540 sense 1 (fan, enthusiast) as main role; sense 2 (electric fan) in example 3 Pitch: Verified [1] via exact UniDic row. ファン ist ein Fan oder Anhänger: 〜のファンです („Ich bin Fan von …“), 〜のファンになる („Fan werden“). Organisierte Fans treffen sich in einem ファンクラブ. Gleich geschrieben wird ein anderes Wort für einen Ventilator oder Lüfter (パソコンのファン); diese Karte meint den Fan. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1108540; spelling=ファン; reading=ファン",
+          "selected": {
+            "sequence": "1108540",
+            "spelling": "ファン",
+            "reading": "ファン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fan",
+                  "enthusiast",
+                  "lover (of)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(electric) fan"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1108540 sense 1 (fan, enthusiast) as main role; sense 2 (electric fan) in example 3"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole ファン/ファン; lemma ファン-fan（扇風機）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fan（熱狂者）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fun; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-van; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ファン/ファン; lemma ファン; 名詞/固有名詞/人名/姓; *; *; aType 1 | ファン/ファン; lemma ファン-Juan; 名詞/固有名詞/人名/一般; *; *; aType * | ファン/ファン; lemma ファン-Van; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230434917",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ファン/ファン; lemma ファン-fan（扇風機）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fan（熱狂者）; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-fun; 名詞/普通名詞/一般/*; *; *; aType 1 | ファン/ファン; lemma ファン-van; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ファン/ファン; lemma ファン; 名詞/固有名詞/人名/姓; *; *; aType 1 | ファン/ファン; lemma ファン-Juan; 名詞/固有名詞/人名/一般; *; *; aType * | ファン/ファン; lemma ファン-Van; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "ファン",
+              "reading": "ファン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ファン/ファン \"Fan, Anhänger\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fan, Anhänger. JMdict 1108540 sense 1 (fan, enthusiast) as main role; sense 2 (electric fan) in example 3",
+        "japanese": "彼女は有名な歌手のファンです。 / サッカーのファンがたくさん集まりました。",
+        "romanization": "fan; Kanojo wa yuumei na kashu no fan desu. / Sakkā no fan ga takusan atsumarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie ist Fan eines berühmten Sängers. / Viele Fußballfans haben sich versammelt.",
+        "contexts": [
+          "Fan of a singer",
+          "Crowd of football fans"
+        ],
+        "lexical": "JMdict 1108540 sense 1 (fan, enthusiast) as main role; sense 2 (electric fan) in example 3",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:444 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Fan of a singer; Crowd of football fans), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c4e88ca50983cbd90d47c277db8d439e3ed14a678206ada344c5cef07ce99b2e",
+        "approvalHash": "cc8324daf0cf9893f792e25c1d979486b1e2edbf6b95e8475645f0da7000e31a"
+      }
+    },
+    {
+      "id": "vocab-n4:445",
+      "revisionId": "168j-n4-enrichment-445",
+      "state": "accepted",
+      "predecessorHash": "0cd1aa3420f5e91b6444fd83d90fb8a357571da8daee446bcb97f7b2c365b467",
+      "originalHash": "0cd1aa3420f5e91b6444fd83d90fb8a357571da8daee446bcb97f7b2c365b467",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この店は人気があります。",
+            "romaji": "Kono mise wa ninki ga arimasu.",
+            "german": "Dieses Geschäft ist beliebt."
+          },
+          {
+            "japanese": "あのレストランはとても人気です。",
+            "romaji": "Ano resutoran wa totemo ninki desu.",
+            "german": "Dieses Restaurant ist sehr beliebt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "人気 heißt „Beliebtheit“: 人気がある („beliebt sein“), 人気の店 („beliebter Laden“); bei wem, steht mit に: 若い人に人気がある. Beliebt werden heißt 人気が出る, eine beliebte Person ist ein 人気者. Achtung: Als ひとけ gelesen bedeutet 人気 „Anwesenheit von Menschen“, etwa 人気のない道 („menschenleerer Weg“).",
+        "examples": [
+          {
+            "japanese": "この店は人気があります。",
+            "romaji": "Kono mise wa ninki ga arimasu.",
+            "german": "Dieses Geschäft ist beliebt."
+          },
+          {
+            "japanese": "彼女はクラスの人気者です。",
+            "romaji": "Kanojo wa kurasu no ninkimono desu.",
+            "german": "Sie ist in der Klasse sehr beliebt."
+          },
+          {
+            "japanese": "このゲームは子供たちの間で人気が出ました。",
+            "romaji": "Kono gēmu wa kodomotachi no aida de ninki ga demashita.",
+            "german": "Dieses Spiel ist bei Kindern beliebt geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202864149",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 人気/ニンキ; lemma 人気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "人気",
+              "reading": "にんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 人気/にんき \"Beliebtheit, Popularität\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1367010 sense 1, noun: popularity, public favour Pitch: Verified [0] via exact UniDic row. 人気 heißt „Beliebtheit“: 人気がある („beliebt sein“), 人気の店 („beliebter Laden“); bei wem, steht mit に: 若い人に人気がある. Beliebt werden heißt 人気が出る, eine beliebte Person ist ein 人気者. Achtung: Als ひとけ gelesen bedeutet 人気 „Anwesenheit von Menschen“, etwa 人気のない道 („menschenleerer Weg“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1367010; spelling=人気; reading=にんき",
+          "selected": {
+            "sequence": "1367010",
+            "spelling": "人気",
+            "reading": "にんき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "popularity",
+                  "public favor"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "condition (e.g. market)",
+                  "tone",
+                  "character",
+                  "nature"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1367010 sense 1, noun: popularity, public favour"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 人気/ニンキ; lemma 人気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202864149",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 人気/ニンキ; lemma 人気; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "人気",
+              "reading": "にんき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 人気/にんき \"Beliebtheit, Popularität\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Beliebtheit, Popularität. JMdict 1367010 sense 1, noun: popularity, public favour",
+        "japanese": "この店は人気があります。 / 彼女はクラスの人気者です。 / このゲームは子供たちの間で人気が出ました。",
+        "romanization": "ninki; Kono mise wa ninki ga arimasu. / Kanojo wa kurasu no ninkimono desu. / Kono gēmu wa kodomotachi no aida de ninki ga demashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dieses Geschäft ist beliebt. / Sie ist in der Klasse sehr beliebt. / Dieses Spiel ist bei Kindern beliebt geworden.",
+        "contexts": [
+          "Popular shop",
+          "Popular classmate",
+          "Game becoming popular"
+        ],
+        "lexical": "JMdict 1367010 sense 1, noun: popularity, public favour",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:445 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Popular shop; Popular classmate; Game becoming popular), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "74d57509d13690001277fd3482c299a8a0943f3c72323664522208ec070eb492",
+        "approvalHash": "3ce5c185797477772fa8108ef6dd8828d0241a64fcc323121ac04e9ac1eb2fc7"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

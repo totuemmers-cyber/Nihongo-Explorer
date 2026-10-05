@@ -1,0 +1,4141 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:188",
+      "revisionId": "168b-n4-enrichment-188",
+      "state": "accepted",
+      "predecessorHash": "fda93eff6d109632bd5d881b0b59264daf1e83ae05daa9aa045caa3b536c6d93",
+      "originalHash": "fda93eff6d109632bd5d881b0b59264daf1e83ae05daa9aa045caa3b536c6d93",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "映画に感動しました。",
+            "romaji": "Eiga ni kandou shimashita.",
+            "german": "Ich war vom Film gerührt."
+          },
+          {
+            "japanese": "この映画にとても感動しました。",
+            "romaji": "Kono eiga ni totemo kandou shimashita.",
+            "german": "Ich war von diesem Film sehr gerührt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "感動する bedeutet, innerlich tief bewegt oder ergriffen zu sein – immer im positiven Sinn. Wovon man bewegt ist, steht mit に (映画に感動する) oder als Grund in der て-Form (～を見て感動しました). Das Adjektiv dazu lautet 感動的な „bewegend, ergreifend“.",
+        "examples": [
+          {
+            "japanese": "この映画にとても感動しました。",
+            "romaji": "Kono eiga ni totemo kandou shimashita.",
+            "german": "Ich war von diesem Film sehr gerührt."
+          },
+          {
+            "japanese": "マラソンで最後まで走る選手を見て、感動しました。",
+            "romaji": "Marason de saigo made hashiru senshu o mite, kandō shimashita.",
+            "german": "Es hat mich tief bewegt, die Läufer zu sehen, die den Marathon bis zum Ende durchhielten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 3e30b41e0346cf8e643fe3295375535023a7cca7b2733425cbc067ca6e5eb2df",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%84%9F%E5%8B%95%E3%81%99%E3%82%8B#word_2001",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 感動する/かんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 感動する/かんどうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "感動する",
+              "reading": "かんどうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 感動する/かんどうする \"gerührt sein, beeindruckt sein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1212570 sense 1, suru verb: being deeply moved, impression Pitch: Verified [0] via exact OJAD dictionary-form cell. 感動する bedeutet, innerlich tief bewegt oder ergriffen zu sein – immer im positiven Sinn. Wovon man bewegt ist, steht mit に (映画に感動する) oder als Grund in der て-Form (～を見て感動しました). Das Adjektiv dazu lautet 感動的な „bewegend, ergreifend“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1212570; spelling=感動する; reading=かんどうする",
+          "finding": "JMdict 1212570 sense 1, suru verb: being deeply moved, impression"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 感動する/かんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 感動する/かんどうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 3e30b41e0346cf8e643fe3295375535023a7cca7b2733425cbc067ca6e5eb2df",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%84%9F%E5%8B%95%E3%81%99%E3%82%8B#word_2001",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 感動する/かんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 感動する/かんどうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "感動する",
+              "reading": "かんどうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 感動する/かんどうする \"gerührt sein, beeindruckt sein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "gerührt sein, beeindruckt sein. JMdict 1212570 sense 1, suru verb: being deeply moved, impression",
+        "japanese": "この映画にとても感動しました。 / マラソンで最後まで走る選手を見て、感動しました。",
+        "romanization": "kandou suru; Kono eiga ni totemo kandou shimashita. / Marason de saigo made hashiru senshu o mite, kandō shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich war von diesem Film sehr gerührt. / Es hat mich tief bewegt, die Läufer zu sehen, die den Marathon bis zum Ende durchhielten.",
+        "contexts": [
+          "Moved by a film",
+          "Watching marathon runners"
+        ],
+        "lexical": "JMdict 1212570 sense 1, suru verb: being deeply moved, impression",
+        "register": "neutral",
+        "transitivity": "intransitive; cause with に or て-clause",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:188 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Moved by a film; Watching marathon runners), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "112ce331177ba4248843d950cd12c57417a711b3dd55cd7be782f3b81b4e6f99",
+        "approvalHash": "1589dbc22e5db6bd016f169e08c47dda91056b3dc5873aed80b7627d6959c0ea"
+      }
+    },
+    {
+      "id": "vocab-n4:189",
+      "revisionId": "168b-n4-enrichment-189",
+      "state": "accepted",
+      "predecessorHash": "f9a16c1bb9e6647bd5d8fb3179ff0c50dabec3c0bb95612c1a3ded74452916a4",
+      "originalHash": "f9a16c1bb9e6647bd5d8fb3179ff0c50dabec3c0bb95612c1a3ded74452916a4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "無事で安心しました。",
+            "romaji": "Buji de anshin shimashita.",
+            "german": "Ich bin erleichtert, dass alles gut ist."
+          },
+          {
+            "japanese": "テストに合格して安心しました。",
+            "romaji": "Tesuto ni goukaku shite anshin shimashita.",
+            "german": "Ich war erleichtert, den Test bestanden zu haben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "安心する heißt „beruhigt, erleichtert sein“, wenn eine Sorge wegfällt; der Grund steht meist in der て-Form oder mit で: 無事で安心しました. 安心して～ bedeutet „unbesorgt, bedenkenlos …“, und 安心してください beruhigt jemanden („Keine Sorge“). Das Gegenteil ist 心配する; als na-Adjektiv: 安心な町.",
+        "examples": [
+          {
+            "japanese": "無事で安心しました。",
+            "romaji": "Buji de anshin shimashita.",
+            "german": "Ich bin erleichtert, dass alles gut ist."
+          },
+          {
+            "japanese": "この水は安心して飲めます。",
+            "romaji": "Kono mizu wa anshin shite nomemasu.",
+            "german": "Dieses Wasser kann man bedenkenlos trinken."
+          },
+          {
+            "japanese": "薬を飲めばすぐ治りますから、安心してください。",
+            "romaji": "Kusuri o nomeba sugu naorimasu kara, anshin shite kudasai.",
+            "german": "Mit dem Medikament wird es schnell besser, machen Sie sich keine Sorgen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 41a80cd71a54e078a16712be4f75fd8e11f1c85ab5a980333a1f6976eae8ed9f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%89%E5%BF%83%E3%81%99%E3%82%8B#word_1878",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 安心する/あんしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 安心する/あんしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "安心する",
+              "reading": "あんしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 安心する/あんしんする \"beruhigt sein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1153890 sense 1, suru verb (also na-adjective): relief, peace of mind Pitch: Verified [0] via exact OJAD dictionary-form cell. 安心する heißt „beruhigt, erleichtert sein“, wenn eine Sorge wegfällt; der Grund steht meist in der て-Form oder mit で: 無事で安心しました. 安心して～ bedeutet „unbesorgt, bedenkenlos …“, und 安心してください beruhigt jemanden („Keine Sorge“). Das Gegenteil ist 心配する; als na-Adjektiv: 安心な町. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1153890; spelling=安心する; reading=あんしんする",
+          "finding": "JMdict 1153890 sense 1, suru verb (also na-adjective): relief, peace of mind"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 安心する/あんしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 安心する/あんしんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 41a80cd71a54e078a16712be4f75fd8e11f1c85ab5a980333a1f6976eae8ed9f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%89%E5%BF%83%E3%81%99%E3%82%8B#word_1878",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 安心する/あんしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 安心する/あんしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "安心する",
+              "reading": "あんしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 安心する/あんしんする \"beruhigt sein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "beruhigt sein. JMdict 1153890 sense 1, suru verb (also na-adjective): relief, peace of mind",
+        "japanese": "無事で安心しました。 / この水は安心して飲めます。 / 薬を飲めばすぐ治りますから、安心してください。",
+        "romanization": "anshin suru; Buji de anshin shimashita. / Kono mizu wa anshin shite nomemasu. / Kusuri o nomeba sugu naorimasu kara, anshin shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin erleichtert, dass alles gut ist. / Dieses Wasser kann man bedenkenlos trinken. / Mit dem Medikament wird es schnell besser, machen Sie sich keine Sorgen.",
+        "contexts": [
+          "Relief at someone's safety",
+          "Safe drinking water",
+          "Doctor reassuring a patient"
+        ],
+        "lexical": "JMdict 1153890 sense 1, suru verb (also na-adjective): relief, peace of mind",
+        "register": "neutral",
+        "transitivity": "intransitive; reason with て-form or で",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:189 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Relief at someone's safety; Safe drinking water; Doctor reassuring a patient), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3052343c2296eaff09ddbe17922c37655432ae7517080973bfbf19b0d90a3ed6",
+        "approvalHash": "ec1447549a33d563d843b70fcef710c43dde85535335f087375036a67b1fac13"
+      }
+    },
+    {
+      "id": "vocab-n4:190",
+      "revisionId": "168b-n4-enrichment-190",
+      "state": "accepted",
+      "predecessorHash": "babced6a420da9a793d26c8f0ffaaf2f8862f54ca245a79d95f5a25924dda250",
+      "originalHash": "babced6a420da9a793d26c8f0ffaaf2f8862f54ca245a79d95f5a25924dda250",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "子供が勉強を嫌がります。",
+            "romaji": "Kodomo ga benkyou o iyagarimasu.",
+            "german": "Das Kind mag nicht lernen."
+          },
+          {
+            "japanese": "子供は野菜を嫌がります。",
+            "romaji": "Kodomo wa yasai o iyagarimasu.",
+            "german": "Das Kind mag kein Gemüse."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "嫌がる beschreibt, dass jemand anderes sichtbar etwas nicht mag oder sich sträubt; für eigene Gefühle sagt man 嫌だ oder 嫌い. Das Abgelehnte steht mit を, eine Handlung mit ～のを: 病院に行くのを嫌がる. 人が嫌がることをしない heißt „nichts tun, was anderen unangenehm ist“.",
+        "examples": [
+          {
+            "japanese": "子供は野菜を嫌がります。",
+            "romaji": "Kodomo wa yasai o iyagarimasu.",
+            "german": "Das Kind mag kein Gemüse."
+          },
+          {
+            "japanese": "弟は病院に行くのを嫌がっています。",
+            "romaji": "Otōto wa byōin ni iku no o iyagatte imasu.",
+            "german": "Mein jüngerer Bruder sträubt sich dagegen, ins Krankenhaus zu gehen."
+          },
+          {
+            "japanese": "人が嫌がることをしてはいけません。",
+            "romaji": "Hito ga iyagaru koto o shite wa ikemasen.",
+            "german": "Man darf nichts tun, was anderen unangenehm ist."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 9429fb8717055c0bcd37aa08fb2799f971b7aa0036f56960ad51c3d0db9b2d83",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AB%8C%E3%81%8C%E3%82%8B#word_92",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Dictionary-form cell of the exact head 嫌がる/いやがる read; accent_top positions [3] (0 = no accent_top). Exact whole 嫌がる/いやがる scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "嫌がる",
+              "reading": "いやがる",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 嫌がる/いやがる \"ungern tun, ablehnen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1609260 sense 1, godan verb: to show dislike, to seem to hate Pitch: Verified [3] via exact OJAD dictionary-form cell; stored primary 0 corrected to 3. 嫌がる beschreibt, dass jemand anderes sichtbar etwas nicht mag oder sich sträubt; für eigene Gefühle sagt man 嫌だ oder 嫌い. Das Abgelehnte steht mit を, eine Handlung mit ～のを: 病院に行くのを嫌がる. 人が嫌がることをしない heißt „nichts tun, was anderen unangenehm ist“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1609260; spelling=嫌がる; reading=いやがる",
+          "selected": {
+            "sequence": "1609260",
+            "spelling": "嫌がる",
+            "reading": "いやがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to appear uncomfortable (with)",
+                  "to seem to hate",
+                  "to express dislike"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1609260 sense 1, godan verb: to show dislike, to seem to hate"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact OJAD dictionary-form cell; stored primary 0 corrected to 3. Dictionary-form cell of the exact head 嫌がる/いやがる read; accent_top positions [3] (0 = no accent_top). Exact whole 嫌がる/いやがる scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 9429fb8717055c0bcd37aa08fb2799f971b7aa0036f56960ad51c3d0db9b2d83",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AB%8C%E3%81%8C%E3%82%8B#word_92",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              3
+            ],
+            "finding": "Dictionary-form cell of the exact head 嫌がる/いやがる read; accent_top positions [3] (0 = no accent_top). Exact whole 嫌がる/いやがる scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "嫌がる",
+              "reading": "いやがる",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 嫌がる/いやがる \"ungern tun, ablehnen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "ungern tun, ablehnen. JMdict 1609260 sense 1, godan verb: to show dislike, to seem to hate",
+        "japanese": "子供は野菜を嫌がります。 / 弟は病院に行くのを嫌がっています。 / 人が嫌がることをしてはいけません。",
+        "romanization": "iyagaru; Kodomo wa yasai o iyagarimasu. / Otōto wa byōin ni iku no o iyagatte imasu. / Hito ga iyagaru koto o shite wa ikemasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Kind mag kein Gemüse. / Mein jüngerer Bruder sträubt sich dagegen, ins Krankenhaus zu gehen. / Man darf nichts tun, was anderen unangenehm ist.",
+        "contexts": [
+          "Child refusing vegetables",
+          "Reluctance to see a doctor",
+          "Rule about respecting others"
+        ],
+        "lexical": "JMdict 1609260 sense 1, godan verb: to show dislike, to seem to hate",
+        "register": "neutral; describes third persons",
+        "transitivity": "transitive; disliked thing or action (～の) with を",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:190 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Child refusing vegetables; Reluctance to see a doctor; Rule about respecting others), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "49f267260ef34e7dce7e0f298662d4d202812c7e3cb9b1c3fd2758754fc26de2",
+        "approvalHash": "5dbb8fda4038539b1f52005d09f8c914463c82743322258be5f5ae9e38a67ce8"
+      }
+    },
+    {
+      "id": "vocab-n4:191",
+      "revisionId": "168b-n4-enrichment-191",
+      "state": "accepted",
+      "predecessorHash": "6bec75ce6bbafff20de4fc5d46a5d8c7bf9dbb9d56b90531512c16f2c54f1259",
+      "originalHash": "6bec75ce6bbafff20de4fc5d46a5d8c7bf9dbb9d56b90531512c16f2c54f1259",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "昔の写真を懐かしがります。",
+            "romaji": "Mukashi no shashin o natsukashigarimasu.",
+            "german": "Er fühlt sich nostalgisch bei alten Fotos."
+          },
+          {
+            "japanese": "祖母は故郷を懐かしがっています。",
+            "romaji": "Sobo wa furusato o natsukashigatte imasu.",
+            "german": "Meine Großmutter denkt nostalgisch an ihre Heimat."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "懐かしがる beschreibt, dass jemand anderes sichtbar wehmütig an Vergangenes zurückdenkt; für das eigene Gefühl sagt man 懐かしい. Das Vermisste steht mit を: 故郷を懐かしがる. Meist steht es in der ～ている-Form oder in der Vergangenheit.",
+        "examples": [
+          {
+            "japanese": "祖母は故郷を懐かしがっています。",
+            "romaji": "Sobo wa furusato o natsukashigatte imasu.",
+            "german": "Meine Großmutter denkt nostalgisch an ihre Heimat."
+          },
+          {
+            "japanese": "父は学生時代の歌を聞いて、とても懐かしがっていました。",
+            "romaji": "Chichi wa gakusei jidai no uta o kiite, totemo natsukashigatte imashita.",
+            "german": "Als mein Vater die Lieder aus seiner Studienzeit hörte, wurde er ganz wehmütig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2863413 sense 1, godan verb: to show nostalgia (for), to remember fondly Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 懐かしがる beschreibt, dass jemand anderes sichtbar wehmütig an Vergangenes zurückdenkt; für das eigene Gefühl sagt man 懐かしい. Das Vermisste steht mit を: 故郷を懐かしがる. Meist steht es in der ～ている-Form oder in der Vergangenheit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2863413; spelling=懐かしがる; reading=なつかしがる",
+          "selected": {
+            "sequence": "2863413",
+            "spelling": "懐かしがる",
+            "reading": "なつかしがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to show nostalgia (for)",
+                  "to long for",
+                  "to yearn after",
+                  "to remember fondly",
+                  "to reminisce"
+                ],
+                "notes": [
+                  "not referring to oneself"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2863413 sense 1, godan verb: to show nostalgia (for), to remember fondly"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 懐かしがる/なつかしがる scan has zero matching rows; no constituent pattern inference. Query returned 3 rows (懐く, 懐かしい, 懐中電灯); none is the exact head 懐かしがる/なつかしがる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%87%90%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 懐かしがる/なつかしがる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 0d6da3385586316353b10d3cdc314603a53a4b45e0bb1de2af7fa8027d72f821",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%87%90%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 3 rows (懐く, 懐かしい, 懐中電灯); none is the exact head 懐かしがる/なつかしがる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich nostalgisch fühlen. JMdict 2863413 sense 1, godan verb: to show nostalgia (for), to remember fondly",
+        "japanese": "祖母は故郷を懐かしがっています。 / 父は学生時代の歌を聞いて、とても懐かしがっていました。",
+        "romanization": "natsukashigaru; Sobo wa furusato o natsukashigatte imasu. / Chichi wa gakusei jidai no uta o kiite, totemo natsukashigatte imashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Meine Großmutter denkt nostalgisch an ihre Heimat. / Als mein Vater die Lieder aus seiner Studienzeit hörte, wurde er ganz wehmütig.",
+        "contexts": [
+          "Grandmother missing her hometown",
+          "Old songs bringing back memories"
+        ],
+        "lexical": "JMdict 2863413 sense 1, godan verb: to show nostalgia (for), to remember fondly",
+        "register": "neutral; describes third persons",
+        "transitivity": "transitive; object of longing with を",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:191 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Grandmother missing her hometown; Old songs bringing back memories), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9fafb192898f46c46d1e9eed2e833acddc3431a90284d1cf99a4f6f9ba16a056",
+        "approvalHash": "5184aba0d2f7c76fb9b0363c6892c8284676e7c6dfc179a2b1805aec3a40a358"
+      }
+    },
+    {
+      "id": "vocab-n4:192",
+      "revisionId": "168b-n4-enrichment-192",
+      "state": "accepted",
+      "predecessorHash": "8cfec1bb1c5b15af72ec6c550f23801b075de0acc31a43eb3600bb91029dc0fb",
+      "originalHash": "8cfec1bb1c5b15af72ec6c550f23801b075de0acc31a43eb3600bb91029dc0fb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "子供が恥ずかしがっています。",
+            "romaji": "Kodomo ga hazukashigatte imasu.",
+            "german": "Das Kind ist schüchtern."
+          },
+          {
+            "japanese": "妹は写真を撮られるのを恥ずかしがります。",
+            "romaji": "Imouto wa shashin o torareru no o hazukashigarimasu.",
+            "german": "Meine Schwester schämt sich, fotografiert zu werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "恥ずかしがる beschreibt sichtbare Schüchternheit oder Verlegenheit bei anderen; für sich selbst sagt man 恥ずかしい. Der Anlass steht mit を oder ～のを: 写真を撮られるのを恥ずかしがる. Die verneinte Bitte 恥ずかしがらないで ermuntert jemanden; ein schüchterner Mensch heißt 恥ずかしがり屋.",
+        "examples": [
+          {
+            "japanese": "子供が恥ずかしがっています。",
+            "romaji": "Kodomo ga hazukashigatte imasu.",
+            "german": "Das Kind ist schüchtern."
+          },
+          {
+            "japanese": "妹は写真を撮られるのを恥ずかしがります。",
+            "romaji": "Imouto wa shashin o torareru no o hazukashigarimasu.",
+            "german": "Meine Schwester schämt sich, fotografiert zu werden."
+          },
+          {
+            "japanese": "恥ずかしがらないで、大きい声で話してください。",
+            "romaji": "Hazukashigaranaide, ōkii koe de hanashite kudasai.",
+            "german": "Seien Sie nicht schüchtern, sprechen Sie bitte laut."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1421640 sense 1, godan verb: to be shy, to be bashful Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 恥ずかしがる beschreibt sichtbare Schüchternheit oder Verlegenheit bei anderen; für sich selbst sagt man 恥ずかしい. Der Anlass steht mit を oder ～のを: 写真を撮られるのを恥ずかしがる. Die verneinte Bitte 恥ずかしがらないで ermuntert jemanden; ein schüchterner Mensch heißt 恥ずかしがり屋. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1421640; spelling=恥ずかしがる; reading=はずかしがる",
+          "selected": {
+            "sequence": "1421640",
+            "spelling": "恥ずかしがる",
+            "reading": "はずかしがる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be shy of",
+                  "to be bashful",
+                  "to be abashed",
+                  "to blush"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1421640 sense 1, godan verb: to be shy, to be bashful"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 恥ずかしがる/はずかしがる scan has zero matching rows; no constituent pattern inference. Query returned 5 rows (恥らう, 恥じる, 恥ずかしい, 恥ずかしがり屋, 恥); none is the exact head 恥ずかしがる/はずかしがる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 恥ずかしがる/はずかしがる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 52016a1ee0feadac6cb548e795f6b267542238b3fc6af9ae0e9db8e730f04b2c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 5 rows (恥らう, 恥じる, 恥ずかしい, 恥ずかしがり屋, 恥); none is the exact head 恥ずかしがる/はずかしがる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich schämen, schüchtern sein. JMdict 1421640 sense 1, godan verb: to be shy, to be bashful",
+        "japanese": "子供が恥ずかしがっています。 / 妹は写真を撮られるのを恥ずかしがります。 / 恥ずかしがらないで、大きい声で話してください。",
+        "romanization": "hazukashigaru; Kodomo ga hazukashigatte imasu. / Imouto wa shashin o torareru no o hazukashigarimasu. / Hazukashigaranaide, ōkii koe de hanashite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Kind ist schüchtern. / Meine Schwester schämt sich, fotografiert zu werden. / Seien Sie nicht schüchtern, sprechen Sie bitte laut.",
+        "contexts": [
+          "Shy child",
+          "Embarrassed about photos",
+          "Encouraging someone to speak up"
+        ],
+        "lexical": "JMdict 1421640 sense 1, godan verb: to be shy, to be bashful",
+        "register": "neutral; describes third persons",
+        "transitivity": "intransitive; cause optionally marked with を (～のを)",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:192 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shy child; Embarrassed about photos; Encouraging someone to speak up), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "15bccc7e5ba61766aa2f511817e411bf8e7bcc6eb1d6c6627b3ac60e8f4cb2a3",
+        "approvalHash": "a3118bd132bb38a502cd17a1ea7a25b8d605a72fa390504556352f6d4d7cd2af"
+      }
+    },
+    {
+      "id": "vocab-n4:193",
+      "revisionId": "168b-n4-enrichment-193",
+      "state": "accepted",
+      "predecessorHash": "6ba9aa620bf9398b7a3cac6a2e85963f642c86272cc42ba91a9a8f10915d4cf5",
+      "originalHash": "6ba9aa620bf9398b7a3cac6a2e85963f642c86272cc42ba91a9a8f10915d4cf5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この柱は古いです。",
+            "romaji": "Kono hashira wa furui desu.",
+            "german": "Diese Säule ist alt."
+          },
+          {
+            "japanese": "この柱はとても古いです。",
+            "romaji": "Kono hashira wa totemo furui desu.",
+            "german": "Diese Säule ist sehr alt."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "柱 ist eine tragende Säule oder ein Pfosten, etwa in Häusern und Tempeln; gezählt wird mit 本. Verwandte Wörter sind 電柱 „Strommast“ und 大黒柱 „Hauptstütze (der Familie)“. Man stößt gegen einen Pfeiler mit に: 柱にぶつかる.",
+        "examples": [
+          {
+            "japanese": "この柱は古いです。",
+            "romaji": "Kono hashira wa furui desu.",
+            "german": "Diese Säule ist alt."
+          },
+          {
+            "japanese": "柱にぶつかって、頭が痛いです。",
+            "romaji": "Hashira ni butsukatte, atama ga itai desu.",
+            "german": "Ich bin gegen einen Pfeiler gestoßen und habe Kopfschmerzen."
+          },
+          {
+            "japanese": "このお寺には太い柱がたくさんあります。",
+            "romaji": "Kono otera ni wa futoi hashira ga takusan arimasu.",
+            "german": "In diesem Tempel gibt es viele dicke Säulen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@214118046",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Exact whole 柱/ハシラ; lemma 柱; 名詞/普通名詞/一般/*; *; *; aType 3,0. Rejected for this role: 柱/ハシラ; lemma ハシラ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "柱",
+              "reading": "はしら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 柱/はしら \"Säule, Pfeiler\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1426480 sense 1, noun: pillar, post Pitch: Verified [3,0] via exact UniDic row. 柱 ist eine tragende Säule oder ein Pfosten, etwa in Häusern und Tempeln; gezählt wird mit 本. Verwandte Wörter sind 電柱 „Strommast“ und 大黒柱 „Hauptstütze (der Familie)“. Man stößt gegen einen Pfeiler mit に: 柱にぶつかる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1426480; spelling=柱; reading=はしら",
+          "selected": {
+            "sequence": "1426480",
+            "spelling": "柱",
+            "reading": "はしら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pillar",
+                  "post"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "support",
+                  "prop",
+                  "mainstay"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "suffix",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for buddhas, gods, nobles, etc."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1426480 sense 1, noun: pillar, post"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3,0] via exact UniDic row. Exact whole 柱/ハシラ; lemma 柱; 名詞/普通名詞/一般/*; *; *; aType 3,0. Rejected for this role: 柱/ハシラ; lemma ハシラ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@214118046",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Exact whole 柱/ハシラ; lemma 柱; 名詞/普通名詞/一般/*; *; *; aType 3,0. Rejected for this role: 柱/ハシラ; lemma ハシラ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "柱",
+              "reading": "はしら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 柱/はしら \"Säule, Pfeiler\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Säule, Pfeiler. JMdict 1426480 sense 1, noun: pillar, post",
+        "japanese": "この柱は古いです。 / 柱にぶつかって、頭が痛いです。 / このお寺には太い柱がたくさんあります。",
+        "romanization": "hashira; Kono hashira wa furui desu. / Hashira ni butsukatte, atama ga itai desu. / Kono otera ni wa futoi hashira ga takusan arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese Säule ist alt. / Ich bin gegen einen Pfeiler gestoßen und habe Kopfschmerzen. / In diesem Tempel gibt es viele dicke Säulen.",
+        "contexts": [
+          "Old pillar in a house",
+          "Bumping into a post",
+          "Temple architecture"
+        ],
+        "lexical": "JMdict 1426480 sense 1, noun: pillar, post",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:193 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Old pillar in a house; Bumping into a post; Temple architecture), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f6fb2ac58d1b5c6dfbd5e2adc717ace211a80218ae1fa016b1c4f0e82619c71f",
+        "approvalHash": "6202a694774e8701225500cc3963c363bdfa223a4951d7144b695566e09b547a"
+      }
+    },
+    {
+      "id": "vocab-n4:194",
+      "revisionId": "168b-n4-enrichment-194",
+      "state": "accepted",
+      "predecessorHash": "86e3bd7d36fb0c145fa5e94e18e120a69b5010305a1c32e74e829cba35c3ed10",
+      "originalHash": "86e3bd7d36fb0c145fa5e94e18e120a69b5010305a1c32e74e829cba35c3ed10",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "布団を押し入れに入れます。",
+            "romaji": "Futon o oshiire ni iremasu.",
+            "german": "Ich lege den Futon in den Wandschrank."
+          },
+          {
+            "japanese": "押し入れの中に布団があります。",
+            "romaji": "Oshiire no naka ni futon ga arimasu.",
+            "german": "Im Wandschrank liegen Futons."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "押し入れ ist der eingebaute Wandschrank mit Schiebetüren im japanischen Tatami-Zimmer, in dem tagsüber vor allem Futons verstaut werden. Ein westlicher Kleiderschrank heißt クローゼット. Man legt etwas mit に hinein: 布団を押し入れに入れる; auch die Schreibung 押入れ kommt vor.",
+        "examples": [
+          {
+            "japanese": "布団を押し入れに入れます。",
+            "romaji": "Futon o oshiire ni iremasu.",
+            "german": "Ich lege den Futon in den Wandschrank."
+          },
+          {
+            "japanese": "押し入れを片付けたら、古いアルバムが出てきました。",
+            "romaji": "Oshiire o katazuketara, furui arubamu ga dete kimashita.",
+            "german": "Als ich den Wandschrank aufräumte, kam ein altes Fotoalbum zum Vorschein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@76511288",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 押し入れ/オシイレ; lemma 押し入れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 仮定形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 命令形; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 未然形-一般; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連体形-省略; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "押し入れ",
+              "reading": "おしいれ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 押し入れ/おしいれ \"Wandschrank\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1589110 sense 1, noun: built-in closet with sliding doors Pitch: Verified [0] via exact UniDic row. 押し入れ ist der eingebaute Wandschrank mit Schiebetüren im japanischen Tatami-Zimmer, in dem tagsüber vor allem Futons verstaut werden. Ein westlicher Kleiderschrank heißt クローゼット. Man legt etwas mit に hinein: 布団を押し入れに入れる; auch die Schreibung 押入れ kommt vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1589110; spelling=押し入れ; reading=おしいれ",
+          "selected": {
+            "sequence": "1589110",
+            "spelling": "押し入れ",
+            "reading": "おしいれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "closet (built into the wall, usu. with sliding doors)",
+                  "(built-in) wardrobe"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1589110 sense 1, noun: built-in closet with sliding doors"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 押し入れ/オシイレ; lemma 押し入れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 仮定形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 命令形; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 未然形-一般; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連体形-省略; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連用形-一般; aType 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@76511288",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 押し入れ/オシイレ; lemma 押し入れ; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 仮定形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 命令形; aType 3 | 押し入れ/オシイレ; lemma 押し入る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 3 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 未然形-一般; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連体形-省略; aType 4 | 押し入れ/オシイレ; lemma 押し入れる; 動詞/一般/*/*; 下一段-ラ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "押し入れ",
+              "reading": "おしいれ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 押し入れ/おしいれ \"Wandschrank\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wandschrank. JMdict 1589110 sense 1, noun: built-in closet with sliding doors",
+        "japanese": "布団を押し入れに入れます。 / 押し入れを片付けたら、古いアルバムが出てきました。",
+        "romanization": "oshiire; Futon o oshiire ni iremasu. / Oshiire o katazuketara, furui arubamu ga dete kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lege den Futon in den Wandschrank. / Als ich den Wandschrank aufräumte, kam ein altes Fotoalbum zum Vorschein.",
+        "contexts": [
+          "Putting away bedding",
+          "Finding old photos while tidying"
+        ],
+        "lexical": "JMdict 1589110 sense 1, noun: built-in closet with sliding doors",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:194 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Putting away bedding; Finding old photos while tidying), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0e883963e8b973601039ea212a4213df7b6894d8213f7c62f84a75e92f06f248",
+        "approvalHash": "252ea82df56b0a58d6f07a4d06aa8d527edc0bdb92a71d05e8701c323e5393f2"
+      }
+    },
+    {
+      "id": "vocab-n4:195",
+      "revisionId": "168b-n4-enrichment-195",
+      "state": "accepted",
+      "predecessorHash": "3ea3fec69ddffe3a7dcb4eeeb33cc18d02afe6e380d1e054b0345cf56c158ec7",
+      "originalHash": "3ea3fec69ddffe3a7dcb4eeeb33cc18d02afe6e380d1e054b0345cf56c158ec7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "毛布が必要ですか。",
+            "romaji": "Moufu ga hitsuyou desu ka.",
+            "german": "Brauchen Sie eine Decke?"
+          },
+          {
+            "japanese": "寒いので毛布をもう一枚ください。",
+            "romaji": "Samui node moufu o mou ichimai kudasai.",
+            "german": "Es ist kalt, bitte geben Sie mir noch eine Decke."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "毛布 ist die (Woll-)Decke zum Zudecken, zum Beispiel im Flugzeug oder als zusätzliche Decke im Winter; gezählt wird mit 枚. Jemanden zudecken heißt 毛布をかける. Die dicke Bettdecke eines Futons heißt dagegen 掛け布団.",
+        "examples": [
+          {
+            "japanese": "毛布が必要ですか。",
+            "romaji": "Moufu ga hitsuyou desu ka.",
+            "german": "Brauchen Sie eine Decke?"
+          },
+          {
+            "japanese": "寒いので毛布をもう一枚ください。",
+            "romaji": "Samui node moufu o mou ichimai kudasai.",
+            "german": "Es ist kalt, bitte geben Sie mir noch eine Decke."
+          },
+          {
+            "japanese": "寝ている子供に毛布をかけてあげました。",
+            "romaji": "Nete iru kodomo ni mōfu o kakete agemashita.",
+            "german": "Ich habe das schlafende Kind mit einer Decke zugedeckt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262751112",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 毛布/モウフ; lemma 毛布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "毛布",
+              "reading": "もうふ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 毛布/もうふ \"Decke (zum Zudecken)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1533950 sense 1, noun: blanket Pitch: Verified [1] via exact UniDic row. 毛布 ist die (Woll-)Decke zum Zudecken, zum Beispiel im Flugzeug oder als zusätzliche Decke im Winter; gezählt wird mit 枚. Jemanden zudecken heißt 毛布をかける. Die dicke Bettdecke eines Futons heißt dagegen 掛け布団. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1533950; spelling=毛布; reading=もうふ",
+          "selected": {
+            "sequence": "1533950",
+            "spelling": "毛布",
+            "reading": "もうふ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blanket"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1533950 sense 1, noun: blanket"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 毛布/モウフ; lemma 毛布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262751112",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 毛布/モウフ; lemma 毛布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "毛布",
+              "reading": "もうふ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 毛布/もうふ \"Decke (zum Zudecken)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Decke (zum Zudecken). JMdict 1533950 sense 1, noun: blanket",
+        "japanese": "毛布が必要ですか。 / 寒いので毛布をもう一枚ください。 / 寝ている子供に毛布をかけてあげました。",
+        "romanization": "moufu; Moufu ga hitsuyou desu ka. / Samui node moufu o mou ichimai kudasai. / Nete iru kodomo ni mōfu o kakete agemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Brauchen Sie eine Decke? / Es ist kalt, bitte geben Sie mir noch eine Decke. / Ich habe das schlafende Kind mit einer Decke zugedeckt.",
+        "contexts": [
+          "Flight attendant offering a blanket",
+          "Asking for an extra blanket",
+          "Covering a sleeping child"
+        ],
+        "lexical": "JMdict 1533950 sense 1, noun: blanket",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:195 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Flight attendant offering a blanket; Asking for an extra blanket; Covering a sleeping child), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "91404b3b22c0b87d525cfde93114ed720d3c8f13961464ba8be35e8c7fbae6e9",
+        "approvalHash": "5695d685f0bab5ed461bf1a44e95f2cb824fd141b6c11656d732f1c1118e4674"
+      }
+    },
+    {
+      "id": "vocab-n4:196",
+      "revisionId": "168b-n4-enrichment-196",
+      "state": "accepted",
+      "predecessorHash": "9e7694ab0837dea1adf28c87dd81eb86e98ecd8002dcafb1b493ac80c8ae93a5",
+      "originalHash": "9e7694ab0837dea1adf28c87dd81eb86e98ecd8002dcafb1b493ac80c8ae93a5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ガスを止めてください。",
+            "romaji": "Gasu o tomete kudasai.",
+            "german": "Bitte stellen Sie das Gas ab."
+          },
+          {
+            "japanese": "ガスの元栓を閉めてください。",
+            "romaji": "Gasu no motosen o shimete kudasai.",
+            "german": "Bitte schließen Sie den Gashahn."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ガス meint im Alltag meist das Heiz- und Kochgas im Haushalt. Man stellt es mit 止める ab; die Gasrechnung heißt ガス代, der Gasherd ガスコンロ. Benzin heißt dagegen ガソリン.",
+        "examples": [
+          {
+            "japanese": "ガスを止めてください。",
+            "romaji": "Gasu o tomete kudasai.",
+            "german": "Bitte stellen Sie das Gas ab."
+          },
+          {
+            "japanese": "冬はガス代が高くなります。",
+            "romaji": "Fuyu wa gasu-dai ga takaku narimasu.",
+            "german": "Im Winter wird die Gasrechnung höher."
+          },
+          {
+            "japanese": "ガスのにおいがします。窓を開けてください。",
+            "romaji": "Gasu no nioi ga shimasu. Mado o akete kudasai.",
+            "german": "Es riecht nach Gas. Bitte öffnen Sie das Fenster."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101357086",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ガス/ガス; lemma ガス-gas; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType * | ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType *.",
+            "match": {
+              "word": "ガス",
+              "reading": "ガス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ガス/ガス \"Gas\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1040060 sense 1, noun: gas (as a fuel) Pitch: Verified [1] via exact UniDic row. ガス meint im Alltag meist das Heiz- und Kochgas im Haushalt. Man stellt es mit 止める ab; die Gasrechnung heißt ガス代, der Gasherd ガスコンロ. Benzin heißt dagegen ガソリン. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1040060; spelling=ガス; reading=ガス",
+          "selected": {
+            "sequence": "1040060",
+            "spelling": "ガス",
+            "reading": "ガス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "gas (as a fuel)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "gas (state of matter)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "poison gas"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "dense fog",
+                  "thick fog"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "gas stove",
+                  "gas cooker",
+                  "gas range"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "gasoline",
+                  "gas",
+                  "petrol"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "colloquial"
+                ],
+                "gloss": [
+                  "flatulence",
+                  "gas",
+                  "wind",
+                  "fart"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "gassed yarn"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1040060 sense 1, noun: gas (as a fuel)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole ガス/ガス; lemma ガス-gas; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType * | ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType *.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101357086",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ガス/ガス; lemma ガス-gas; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType * | ガス/ガス; lemma ガスる; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType *.",
+            "match": {
+              "word": "ガス",
+              "reading": "ガス",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ガス/ガス \"Gas\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gas. JMdict 1040060 sense 1, noun: gas (as a fuel)",
+        "japanese": "ガスを止めてください。 / 冬はガス代が高くなります。 / ガスのにおいがします。窓を開けてください。",
+        "romanization": "gasu; Gasu o tomete kudasai. / Fuyu wa gasu-dai ga takaku narimasu. / Gasu no nioi ga shimasu. Mado o akete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte stellen Sie das Gas ab. / Im Winter wird die Gasrechnung höher. / Es riecht nach Gas. Bitte öffnen Sie das Fenster.",
+        "contexts": [
+          "Turning off the gas",
+          "Winter utility bill",
+          "Smelling a gas leak"
+        ],
+        "lexical": "JMdict 1040060 sense 1, noun: gas (as a fuel)",
+        "register": "neutral; katakana loanword",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:196 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Turning off the gas; Winter utility bill; Smelling a gas leak), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0e3137a70a8d12779f9f542d14fec247674691a96e9be0b6177db5f06a797aeb",
+        "approvalHash": "ff8f6ed95fb4ac98c3f39f7beb5144c545c731b5b71e1d980e6dd3fd225eb261"
+      }
+    },
+    {
+      "id": "vocab-n4:197",
+      "revisionId": "168b-n4-enrichment-197",
+      "state": "accepted",
+      "predecessorHash": "49e2f7e1478d46eee4aee65e16638d0443e3599ab534b3603f0798e9331113ce",
+      "originalHash": "49e2f7e1478d46eee4aee65e16638d0443e3599ab534b3603f0798e9331113ce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "洗剤を買ってきてください。",
+            "romaji": "Senzai o katte kite kudasai.",
+            "german": "Bitte kaufen Sie Waschmittel."
+          },
+          {
+            "japanese": "新しい洗剤を買わなければなりません。",
+            "romaji": "Atarashii senzai o kawanakereba narimasen.",
+            "german": "Ich muss neues Waschmittel kaufen."
+          }
+        ],
+        "meaning": "Waschmittel",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "洗剤 ist der Oberbegriff für Reinigungsmittel – Waschmittel für die Wäsche ebenso wie Spülmittel für Geschirr (食器用洗剤). Man gibt es mit 入れる hinein und benutzt es mit で: 洗剤で洗う. Seife heißt dagegen 石けん.",
+        "examples": [
+          {
+            "japanese": "洗剤を買ってきてください。",
+            "romaji": "Senzai o katte kite kudasai.",
+            "german": "Bitte kaufen Sie Waschmittel."
+          },
+          {
+            "japanese": "お皿を洗う洗剤がなくなりました。",
+            "romaji": "Osara o arau senzai ga nakunarimashita.",
+            "german": "Das Spülmittel ist alle."
+          },
+          {
+            "japanese": "洗剤を入れすぎないでください。",
+            "romaji": "Senzai o iresuginaide kudasai.",
+            "german": "Geben Sie bitte nicht zu viel Waschmittel hinein."
+          }
+        ],
+        "meaning": "Waschmittel, Spülmittel, Reinigungsmittel",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154353403",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 洗剤/センザイ; lemma 洗剤; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "洗剤",
+              "reading": "せんざい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 洗剤/せんざい \"Waschmittel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1390950 sense 1, noun: detergent, cleanser Pitch: Verified [0] via exact UniDic row. 洗剤 ist der Oberbegriff für Reinigungsmittel – Waschmittel für die Wäsche ebenso wie Spülmittel für Geschirr (食器用洗剤). Man gibt es mit 入れる hinein und benutzt es mit で: 洗剤で洗う. Seife heißt dagegen 石けん. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1390950; spelling=洗剤; reading=せんざい",
+          "selected": {
+            "sequence": "1390950",
+            "spelling": "洗剤",
+            "reading": "せんざい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "detergent",
+                  "cleanser",
+                  "cleaning agent",
+                  "washing material"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1390950 sense 1, noun: detergent, cleanser"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 洗剤/センザイ; lemma 洗剤; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154353403",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 洗剤/センザイ; lemma 洗剤; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "洗剤",
+              "reading": "せんざい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 洗剤/せんざい \"Waschmittel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Waschmittel, Spülmittel, Reinigungsmittel. JMdict 1390950 sense 1, noun: detergent, cleanser",
+        "japanese": "洗剤を買ってきてください。 / お皿を洗う洗剤がなくなりました。 / 洗剤を入れすぎないでください。",
+        "romanization": "senzai; Senzai o katte kite kudasai. / Osara o arau senzai ga nakunarimashita. / Senzai o iresuginaide kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte kaufen Sie Waschmittel. / Das Spülmittel ist alle. / Geben Sie bitte nicht zu viel Waschmittel hinein.",
+        "contexts": [
+          "Shopping errand",
+          "Dish soap running out",
+          "Using the washing machine"
+        ],
+        "lexical": "JMdict 1390950 sense 1, noun: detergent, cleanser",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:197 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shopping errand; Dish soap running out; Using the washing machine), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1ac6e508d37a28e9872edb89d1c7c30c47146e707db64699501c03ae4ee5ecf8",
+        "approvalHash": "c902a9507b64ee8182c581d253b29716e8cf31fc05ede04a4a41f4c201e887b1"
+      }
+    },
+    {
+      "id": "vocab-n4:198",
+      "revisionId": "168b-n4-enrichment-198",
+      "state": "accepted",
+      "predecessorHash": "1ce064d840d2f3f4a858e9d0a0e76c70bc56165273c8e0ae4a58354a46518d3c",
+      "originalHash": "1ce064d840d2f3f4a858e9d0a0e76c70bc56165273c8e0ae4a58354a46518d3c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "歯磨きをしてから寝ます。",
+            "romaji": "Hamigaki o shite kara nemasu.",
+            "german": "Ich putze mir die Zähne bevor ich schlafe."
+          },
+          {
+            "japanese": "寝る前に歯磨きをしてください。",
+            "romaji": "Neru mae ni hamigaki o shite kudasai.",
+            "german": "Bitte putzen Sie vor dem Schlafengehen die Zähne."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "歯磨き ist das Zähneputzen; man sagt 歯磨きをする oder mit dem Verb 歯を磨く. Die Zahnpasta heißt meist 歯磨き粉, die Zahnbürste 歯ブラシ. In Japan putzen sich viele auch nach dem Mittagessen in der Firma oder Schule die Zähne.",
+        "examples": [
+          {
+            "japanese": "寝る前に歯磨きをしてください。",
+            "romaji": "Neru mae ni hamigaki o shite kudasai.",
+            "german": "Bitte putzen Sie vor dem Schlafengehen die Zähne."
+          },
+          {
+            "japanese": "昼ご飯の後、会社で歯磨きをします。",
+            "romaji": "Hirugohan no ato, kaisha de hamigaki o shimasu.",
+            "german": "Nach dem Mittagessen putze ich mir in der Firma die Zähne."
+          },
+          {
+            "japanese": "旅行用の歯磨きセットを買いました。",
+            "romaji": "Ryokō-yō no hamigaki setto o kaimashita.",
+            "german": "Ich habe ein Zahnputzset für die Reise gekauft."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217644283",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 歯磨き/ハミガキ; lemma 歯磨き; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "歯磨き",
+              "reading": "はみがき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 歯磨き/はみがき \"Zähneputzen, Zahnpasta\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1601040 sense 1 (brushing one's teeth), noun / する; sense 2 toothpaste noted Pitch: Verified [2] via exact UniDic row; stored primary 3 corrected to 2. 歯磨き ist das Zähneputzen; man sagt 歯磨きをする oder mit dem Verb 歯を磨く. Die Zahnpasta heißt meist 歯磨き粉, die Zahnbürste 歯ブラシ. In Japan putzen sich viele auch nach dem Mittagessen in der Firma oder Schule die Zähne. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1601040; spelling=歯磨き; reading=はみがき",
+          "selected": {
+            "sequence": "1601040",
+            "spelling": "歯磨き",
+            "reading": "はみがき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dental brushing",
+                  "brushing one's teeth"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dentifrice",
+                  "toothpaste",
+                  "tooth powder"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1601040 sense 1 (brushing one's teeth), noun / する; sense 2 toothpaste noted"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 3 corrected to 2. Exact whole 歯磨き/ハミガキ; lemma 歯磨き; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217644283",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 歯磨き/ハミガキ; lemma 歯磨き; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "歯磨き",
+              "reading": "はみがき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 歯磨き/はみがき \"Zähneputzen, Zahnpasta\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zähneputzen, Zahnpasta. JMdict 1601040 sense 1 (brushing one's teeth), noun / する; sense 2 toothpaste noted",
+        "japanese": "寝る前に歯磨きをしてください。 / 昼ご飯の後、会社で歯磨きをします。 / 旅行用の歯磨きセットを買いました。",
+        "romanization": "hamigaki; Neru mae ni hamigaki o shite kudasai. / Hirugohan no ato, kaisha de hamigaki o shimasu. / Ryokō-yō no hamigaki setto o kaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte putzen Sie vor dem Schlafengehen die Zähne. / Nach dem Mittagessen putze ich mir in der Firma die Zähne. / Ich habe ein Zahnputzset für die Reise gekauft.",
+        "contexts": [
+          "Bedtime routine",
+          "Brushing at the office after lunch",
+          "Packing for a trip"
+        ],
+        "lexical": "JMdict 1601040 sense 1 (brushing one's teeth), noun / する; sense 2 toothpaste noted",
+        "register": "neutral",
+        "transitivity": "Nonverb (as 歯磨きをする: intransitive)",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:198 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Bedtime routine; Brushing at the office after lunch; Packing for a trip), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "44e132434a43e123fa8eb75165091c4b87466db064d70803bac4c6402806b7a5",
+        "approvalHash": "b3ba749ade4441410824acdc22bf28bcd98029aaaba5fefd2af17e1f91b5f066"
+      }
+    },
+    {
+      "id": "vocab-n4:200",
+      "revisionId": "168b-n4-enrichment-200",
+      "state": "accepted",
+      "predecessorHash": "11150750986e29d06340e525ee329c1a040e51354266f088942bbb4ba857a6b6",
+      "originalHash": "11150750986e29d06340e525ee329c1a040e51354266f088942bbb4ba857a6b6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "注射が怖いです。",
+            "romaji": "Chuusha ga kowai desu.",
+            "german": "Ich habe Angst vor Spritzen."
+          },
+          {
+            "japanese": "注射は少し痛いです。",
+            "romaji": "Chuusha wa sukoshi itai desu.",
+            "german": "Die Spritze tut ein bisschen weh."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "注射 ist die Spritze bzw. Injektion. Der Arzt gibt sie mit 注射をする oder 注射を打つ, als Patient sagt man 注射をしてもらう oder 注射を受ける; 予防注射 ist eine Schutzimpfung. Vorsicht: Das gleich klingende 駐車 (ちゅうしゃ) bedeutet „Parken“.",
+        "examples": [
+          {
+            "japanese": "注射が怖いです。",
+            "romaji": "Chuusha ga kowai desu.",
+            "german": "Ich habe Angst vor Spritzen."
+          },
+          {
+            "japanese": "病院で注射を打ってもらいました。",
+            "romaji": "Byōin de chūsha o utte moraimashita.",
+            "german": "Ich habe im Krankenhaus eine Spritze bekommen."
+          },
+          {
+            "japanese": "注射の後はお風呂に入らないでください。",
+            "romaji": "Chūsha no ato wa ofuro ni hairanaide kudasai.",
+            "german": "Bitte baden Sie nach der Spritze nicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169837184",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 注射/チュウシャ; lemma 注射; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "注射",
+              "reading": "ちゅうしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 注射/ちゅうしゃ \"Spritze, Injektion\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1426590 sense 1, noun: injection, shot Pitch: Verified [0] via exact UniDic row. 注射 ist die Spritze bzw. Injektion. Der Arzt gibt sie mit 注射をする oder 注射を打つ, als Patient sagt man 注射をしてもらう oder 注射を受ける; 予防注射 ist eine Schutzimpfung. Vorsicht: Das gleich klingende 駐車 (ちゅうしゃ) bedeutet „Parken“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1426590; spelling=注射; reading=ちゅうしゃ",
+          "selected": {
+            "sequence": "1426590",
+            "spelling": "注射",
+            "reading": "ちゅうしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "injection",
+                  "jab",
+                  "shot"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1426590 sense 1, noun: injection, shot"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 注射/チュウシャ; lemma 注射; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169837184",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 注射/チュウシャ; lemma 注射; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "注射",
+              "reading": "ちゅうしゃ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 注射/ちゅうしゃ \"Spritze, Injektion\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Spritze, Injektion. JMdict 1426590 sense 1, noun: injection, shot",
+        "japanese": "注射が怖いです。 / 病院で注射を打ってもらいました。 / 注射の後はお風呂に入らないでください。",
+        "romanization": "chuusha; Chuusha ga kowai desu. / Byōin de chūsha o utte moraimashita. / Chūsha no ato wa ofuro ni hairanaide kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Angst vor Spritzen. / Ich habe im Krankenhaus eine Spritze bekommen. / Bitte baden Sie nach der Spritze nicht.",
+        "contexts": [
+          "Fear of needles",
+          "Getting a shot at the hospital",
+          "Aftercare instructions"
+        ],
+        "lexical": "JMdict 1426590 sense 1, noun: injection, shot",
+        "register": "neutral; medical everyday word",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:200 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Fear of needles; Getting a shot at the hospital; Aftercare instructions), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "21b0ba25506888bdc78f5b6e4e423d342d8da2cd93743790daf689d0b8363351",
+        "approvalHash": "99a570ae07d8ac244606c04da00fc90b76dc512151c4c466c9107b3ddc49360c"
+      }
+    },
+    {
+      "id": "vocab-n4:201",
+      "revisionId": "168b-n4-enrichment-201",
+      "state": "accepted",
+      "predecessorHash": "a043f7ff538b597ea56d267c0456e464f999dde86951c340c50683c1430b7474",
+      "originalHash": "a043f7ff538b597ea56d267c0456e464f999dde86951c340c50683c1430b7474",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来週手術をします。",
+            "romaji": "Raishuu shujutsu o shimasu.",
+            "german": "Nächste Woche werde ich operiert."
+          },
+          {
+            "japanese": "手術は無事に終わりました。",
+            "romaji": "Shujutsu wa buji ni owarimashita.",
+            "german": "Die Operation ist erfolgreich verlaufen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "手術 ist eine Operation. 手術をする kann aus Sicht des Arztes („operieren“) wie des Patienten („operiert werden“) stehen; eindeutig als Patient sagt man 手術を受ける. Der betroffene Körperteil steht mit の davor: 目の手術, 心臓の手術.",
+        "examples": [
+          {
+            "japanese": "来週手術をします。",
+            "romaji": "Raishuu shujutsu o shimasu.",
+            "german": "Nächste Woche werde ich operiert."
+          },
+          {
+            "japanese": "手術は無事に終わりました。",
+            "romaji": "Shujutsu wa buji ni owarimashita.",
+            "german": "Die Operation ist erfolgreich verlaufen."
+          },
+          {
+            "japanese": "祖父は目の手術を受けました。",
+            "romaji": "Sofu wa me no shujutsu o ukemashita.",
+            "german": "Mein Großvater wurde am Auge operiert."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140191937",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 手術/シュジュツ; lemma 手術; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "手術",
+              "reading": "しゅじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 手術/しゅじゅつ \"Operation\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1327790 sense 1, noun: surgery, operation Pitch: Verified [1] via exact UniDic row. 手術 ist eine Operation. 手術をする kann aus Sicht des Arztes („operieren“) wie des Patienten („operiert werden“) stehen; eindeutig als Patient sagt man 手術を受ける. Der betroffene Körperteil steht mit の davor: 目の手術, 心臓の手術. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1327790; spelling=手術; reading=しゅじゅつ",
+          "selected": {
+            "sequence": "1327790",
+            "spelling": "手術",
+            "reading": "しゅじゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "surgery",
+                  "operation",
+                  "procedure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "obsolete term"
+                ],
+                "gloss": [
+                  "skill with one's hands",
+                  "sleight of hand"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1327790 sense 1, noun: surgery, operation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 手術/シュジュツ; lemma 手術; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140191937",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 手術/シュジュツ; lemma 手術; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "手術",
+              "reading": "しゅじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 手術/しゅじゅつ \"Operation\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Operation. JMdict 1327790 sense 1, noun: surgery, operation",
+        "japanese": "来週手術をします。 / 手術は無事に終わりました。 / 祖父は目の手術を受けました。",
+        "romanization": "shujutsu; Raishuu shujutsu o shimasu. / Shujutsu wa buji ni owarimashita. / Sofu wa me no shujutsu o ukemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nächste Woche werde ich operiert. / Die Operation ist erfolgreich verlaufen. / Mein Großvater wurde am Auge operiert.",
+        "contexts": [
+          "Scheduled surgery",
+          "Operation went well",
+          "Grandfather's eye surgery"
+        ],
+        "lexical": "JMdict 1327790 sense 1, noun: surgery, operation",
+        "register": "neutral; medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:201 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Scheduled surgery; Operation went well; Grandfather's eye surgery), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "30120c6f1a5ab40f31f08f1084e93d3f0e26a03b1f1084a92a0f9728b5afb5ab",
+        "approvalHash": "827db686dec738c67c0e8bd428b2ec45c18ab2a3566169830ad1ca56fee7aebe"
+      }
+    },
+    {
+      "id": "vocab-n4:202",
+      "revisionId": "168b-n4-enrichment-202",
+      "state": "accepted",
+      "predecessorHash": "6b81a4eec5877244eb63a65e571d70ebdb6781b5be010af9937119c1f8a3fd45",
+      "originalHash": "6b81a4eec5877244eb63a65e571d70ebdb6781b5be010af9937119c1f8a3fd45",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "父が入院しました。",
+            "romaji": "Chichi ga nyuuin shimashita.",
+            "german": "Mein Vater wurde im Krankenhaus aufgenommen."
+          },
+          {
+            "japanese": "母が二週間入院しました。",
+            "romaji": "Haha ga nishuukan nyuuin shimashita.",
+            "german": "Meine Mutter war zwei Wochen im Krankenhaus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "入院する heißt „stationär ins Krankenhaus kommen“; das Krankenhaus steht mit に: 病院に入院する. Die Dauer steht ohne Partikel (二週間入院する), 入院中 heißt „im Krankenhaus liegend“. Kranke besucht man zur お見舞い; das Gegenteil ist 退院する, ambulante Behandlung heißt 通院.",
+        "examples": [
+          {
+            "japanese": "母が二週間入院しました。",
+            "romaji": "Haha ga nishuukan nyuuin shimashita.",
+            "german": "Meine Mutter war zwei Wochen im Krankenhaus."
+          },
+          {
+            "japanese": "入院している友達のお見舞いに行きます。",
+            "romaji": "Nyūin shite iru tomodachi no omimai ni ikimasu.",
+            "german": "Ich besuche einen Freund, der im Krankenhaus liegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 8898125923994c837dd68385a72217967a140f9b958d0707abb562ea8b0feb1f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%A5%E9%99%A2%E3%81%99%E3%82%8B#word_2552",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 入院する/にゅういんする read; accent_top positions [0] (0 = no accent_top). Exact whole 入院する/にゅういんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "入院する",
+              "reading": "にゅういんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 入院する/にゅういんする \"im Krankenhaus aufgenommen werden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1465720 sense 1, suru verb: hospitalization, admission to hospital Pitch: Verified [0] via exact OJAD dictionary-form cell. 入院する heißt „stationär ins Krankenhaus kommen“; das Krankenhaus steht mit に: 病院に入院する. Die Dauer steht ohne Partikel (二週間入院する), 入院中 heißt „im Krankenhaus liegend“. Kranke besucht man zur お見舞い; das Gegenteil ist 退院する, ambulante Behandlung heißt 通院. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1465720; spelling=入院する; reading=にゅういんする",
+          "finding": "JMdict 1465720 sense 1, suru verb: hospitalization, admission to hospital"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 入院する/にゅういんする read; accent_top positions [0] (0 = no accent_top). Exact whole 入院する/にゅういんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 8898125923994c837dd68385a72217967a140f9b958d0707abb562ea8b0feb1f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%A5%E9%99%A2%E3%81%99%E3%82%8B#word_2552",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 入院する/にゅういんする read; accent_top positions [0] (0 = no accent_top). Exact whole 入院する/にゅういんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "入院する",
+              "reading": "にゅういんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 入院する/にゅういんする \"im Krankenhaus aufgenommen werden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "im Krankenhaus aufgenommen werden. JMdict 1465720 sense 1, suru verb: hospitalization, admission to hospital",
+        "japanese": "母が二週間入院しました。 / 入院している友達のお見舞いに行きます。",
+        "romanization": "nyuuin suru; Haha ga nishuukan nyuuin shimashita. / Nyūin shite iru tomodachi no omimai ni ikimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Meine Mutter war zwei Wochen im Krankenhaus. / Ich besuche einen Freund, der im Krankenhaus liegt.",
+        "contexts": [
+          "Length of a hospital stay",
+          "Visiting a sick friend"
+        ],
+        "lexical": "JMdict 1465720 sense 1, suru verb: hospitalization, admission to hospital",
+        "register": "neutral",
+        "transitivity": "intransitive; hospital with に",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:202 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Length of a hospital stay; Visiting a sick friend), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "15917d8288e1e7baab5b0980d04d551e5ed7c9cea37f608a4d0b49fad25a50a8",
+        "approvalHash": "9fa01736c3fd16a974dca0af902b29119f4a49872ef120fcae646c6742115790"
+      }
+    },
+    {
+      "id": "vocab-n4:203",
+      "revisionId": "168b-n4-enrichment-203",
+      "state": "accepted",
+      "predecessorHash": "3c2edf78487d1bb5a28d2247b3143e21175f5f528e95b6b99b1d936058a36a7b",
+      "originalHash": "3c2edf78487d1bb5a28d2247b3143e21175f5f528e95b6b99b1d936058a36a7b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来週退院します。",
+            "romaji": "Raishuu taiin shimasu.",
+            "german": "Nächste Woche werde ich entlassen."
+          },
+          {
+            "japanese": "来週退院できるそうです。",
+            "romaji": "Raishuu taiin dekiru sou desu.",
+            "german": "Er soll nächste Woche entlassen werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "退院する heißt „aus dem Krankenhaus entlassen werden“; das verlassene Krankenhaus kann mit を stehen: 病院を退院する. Häufig sind 退院できる und Pläne mit 退院したら „sobald ich entlassen bin“. Glückwunsch: 退院おめでとうございます. Gegenteil: 入院する.",
+        "examples": [
+          {
+            "japanese": "来週退院できるそうです。",
+            "romaji": "Raishuu taiin dekiru sou desu.",
+            "german": "Er soll nächste Woche entlassen werden."
+          },
+          {
+            "japanese": "退院したら、温泉に行きたいです。",
+            "romaji": "Taiin shitara, onsen ni ikitai desu.",
+            "german": "Wenn ich aus dem Krankenhaus komme, möchte ich in ein Onsen fahren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 703c17ba4e1af91b50fba45d17f5ebdaf820c6419e6be5edf6d2850ec00c2c66",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%80%80%E9%99%A2%E3%81%99%E3%82%8B#word_2395",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 退院する/たいいんする read; accent_top positions [0] (0 = no accent_top). Exact whole 退院する/たいいんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "退院する",
+              "reading": "たいいんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 退院する/たいいんする \"aus dem Krankenhaus entlassen werden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1411300 sense 1, suru verb: leaving hospital, discharge Pitch: Verified [0] via exact OJAD dictionary-form cell. 退院する heißt „aus dem Krankenhaus entlassen werden“; das verlassene Krankenhaus kann mit を stehen: 病院を退院する. Häufig sind 退院できる und Pläne mit 退院したら „sobald ich entlassen bin“. Glückwunsch: 退院おめでとうございます. Gegenteil: 入院する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1411300; spelling=退院する; reading=たいいんする",
+          "finding": "JMdict 1411300 sense 1, suru verb: leaving hospital, discharge"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 退院する/たいいんする read; accent_top positions [0] (0 = no accent_top). Exact whole 退院する/たいいんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 703c17ba4e1af91b50fba45d17f5ebdaf820c6419e6be5edf6d2850ec00c2c66",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%80%80%E9%99%A2%E3%81%99%E3%82%8B#word_2395",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 退院する/たいいんする read; accent_top positions [0] (0 = no accent_top). Exact whole 退院する/たいいんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "退院する",
+              "reading": "たいいんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 退院する/たいいんする \"aus dem Krankenhaus entlassen werden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "aus dem Krankenhaus entlassen werden. JMdict 1411300 sense 1, suru verb: leaving hospital, discharge",
+        "japanese": "来週退院できるそうです。 / 退院したら、温泉に行きたいです。",
+        "romanization": "taiin suru; Raishuu taiin dekiru sou desu. / Taiin shitara, onsen ni ikitai desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er soll nächste Woche entlassen werden. / Wenn ich aus dem Krankenhaus komme, möchte ich in ein Onsen fahren.",
+        "contexts": [
+          "News about a patient's discharge",
+          "Plans after leaving hospital"
+        ],
+        "lexical": "JMdict 1411300 sense 1, suru verb: leaving hospital, discharge",
+        "register": "neutral",
+        "transitivity": "intransitive; hospital left may take を",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:203 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (News about a patient's discharge; Plans after leaving hospital), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "41964ce02a6867c4f6f4abcf6a56f68854d44d54532f46bc9a8ae2066135436e",
+        "approvalHash": "f86d5e878c697ea8dcba3b989ea609c6d273da1d73f58f0780dea008e5d42a67"
+      }
+    },
+    {
+      "id": "vocab-n4:204",
+      "revisionId": "168b-n4-enrichment-204",
+      "state": "accepted",
+      "predecessorHash": "32752e69e84fa0e786f5e8b99f8e12996687ba6e01df348ac427291815903442",
+      "originalHash": "32752e69e84fa0e786f5e8b99f8e12996687ba6e01df348ac427291815903442",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "患者さんに優しくしてください。",
+            "romaji": "Kanja-san ni yasashiku shite kudasai.",
+            "german": "Seien Sie nett zu den Patienten."
+          },
+          {
+            "japanese": "この病院には多くの患者がいます。",
+            "romaji": "Kono byouin ni wa ooku no kanja ga imasu.",
+            "german": "In diesem Krankenhaus gibt es viele Patienten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "患者 ist der Patient im medizinischen Sinn; im Krankenhaus spricht man höflich von 患者さん. Ein Kranker allgemein heißt 病人. Zahlen und Mengen: 多くの患者, 患者が増える.",
+        "examples": [
+          {
+            "japanese": "患者さんに優しくしてください。",
+            "romaji": "Kanja-san ni yasashiku shite kudasai.",
+            "german": "Seien Sie nett zu den Patienten."
+          },
+          {
+            "japanese": "この病院には多くの患者がいます。",
+            "romaji": "Kono byouin ni wa ooku no kanja ga imasu.",
+            "german": "In diesem Krankenhaus gibt es viele Patienten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100545303",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 患者/カンジャ; lemma 患者; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "患者",
+              "reading": "かんじゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 患者/かんじゃ \"Patient\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1212210 sense 1, noun: patient Pitch: Verified [0] via exact UniDic row. 患者 ist der Patient im medizinischen Sinn; im Krankenhaus spricht man höflich von 患者さん. Ein Kranker allgemein heißt 病人. Zahlen und Mengen: 多くの患者, 患者が増える. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1212210; spelling=患者; reading=かんじゃ",
+          "selected": {
+            "sequence": "1212210",
+            "spelling": "患者",
+            "reading": "かんじゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "patient"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1212210 sense 1, noun: patient"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 患者/カンジャ; lemma 患者; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100545303",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 患者/カンジャ; lemma 患者; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "患者",
+              "reading": "かんじゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 患者/かんじゃ \"Patient\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Patient. JMdict 1212210 sense 1, noun: patient",
+        "japanese": "患者さんに優しくしてください。 / この病院には多くの患者がいます。",
+        "romanization": "kanja; Kanja-san ni yasashiku shite kudasai. / Kono byouin ni wa ooku no kanja ga imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Seien Sie nett zu den Patienten. / In diesem Krankenhaus gibt es viele Patienten.",
+        "contexts": [
+          "Instructing hospital staff",
+          "Busy hospital"
+        ],
+        "lexical": "JMdict 1212210 sense 1, noun: patient",
+        "register": "neutral; 患者さん is the polite form used by staff",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:204 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Instructing hospital staff; Busy hospital), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "017167f8f6255ca777dac76c4f54d1d3eaffe66668d4e51dd0074c0e3ad694af",
+        "approvalHash": "88ff64458450cf20ec9917f32c11685be59598111d6ad05370821cccd468cf9d"
+      }
+    },
+    {
+      "id": "vocab-n4:205",
+      "revisionId": "168b-n4-enrichment-205",
+      "state": "accepted",
+      "predecessorHash": "7d9a5a1c34917780811566247d6f37c672b4ad1b48fd87d4aaa7ecceca209f6f",
+      "originalHash": "7d9a5a1c34917780811566247d6f37c672b4ad1b48fd87d4aaa7ecceca209f6f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "円に両替したいです。",
+            "romaji": "En ni ryougae shitai desu.",
+            "german": "Ich möchte in Yen wechseln."
+          },
+          {
+            "japanese": "銀行でドルを円に両替しました。",
+            "romaji": "Ginkou de doru o en ni ryougae shimashita.",
+            "german": "Ich habe in der Bank Dollar in Yen gewechselt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "両替する heißt „Geld wechseln“, sowohl in eine andere Währung als auch in Kleingeld. Das Muster ist AをBに両替する: ドルを円に両替する. In Bussen gibt es oft einen 両替機 zum Wechseln von Scheinen in Münzen. Für das Tauschen von Waren sagt man 交換する.",
+        "examples": [
+          {
+            "japanese": "銀行でドルを円に両替しました。",
+            "romaji": "Ginkou de doru o en ni ryougae shimashita.",
+            "german": "Ich habe in der Bank Dollar in Yen gewechselt."
+          },
+          {
+            "japanese": "千円札を百円玉に両替してもらえますか。",
+            "romaji": "Sen'en-satsu o hyaku-en-dama ni ryōgae shite moraemasu ka.",
+            "german": "Können Sie mir einen 1000-Yen-Schein in 100-Yen-Münzen wechseln?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e36a80af88e8f95637728ed26d975f6807a99e624e1d9399563dca82fc5dc389",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%A1%E6%9B%BF%E3%81%99%E3%82%8B#word_2782",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 両替する/りょうがえする read; accent_top positions [0] (0 = no accent_top). Exact whole 両替する/りょうがえする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "両替する",
+              "reading": "りょうがえする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 両替する/りょうがえする \"Geld wechseln\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1553820 sense 1, suru verb: money exchange, changing money Pitch: Verified [0] via exact OJAD dictionary-form cell. 両替する heißt „Geld wechseln“, sowohl in eine andere Währung als auch in Kleingeld. Das Muster ist AをBに両替する: ドルを円に両替する. In Bussen gibt es oft einen 両替機 zum Wechseln von Scheinen in Münzen. Für das Tauschen von Waren sagt man 交換する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1553820; spelling=両替する; reading=りょうがえする",
+          "finding": "JMdict 1553820 sense 1, suru verb: money exchange, changing money"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 両替する/りょうがえする read; accent_top positions [0] (0 = no accent_top). Exact whole 両替する/りょうがえする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e36a80af88e8f95637728ed26d975f6807a99e624e1d9399563dca82fc5dc389",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%A1%E6%9B%BF%E3%81%99%E3%82%8B#word_2782",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 両替する/りょうがえする read; accent_top positions [0] (0 = no accent_top). Exact whole 両替する/りょうがえする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "両替する",
+              "reading": "りょうがえする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 両替する/りょうがえする \"Geld wechseln\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geld wechseln. JMdict 1553820 sense 1, suru verb: money exchange, changing money",
+        "japanese": "銀行でドルを円に両替しました。 / 千円札を百円玉に両替してもらえますか。",
+        "romanization": "ryougae suru; Ginkou de doru o en ni ryougae shimashita. / Sen'en-satsu o hyaku-en-dama ni ryōgae shite moraemasu ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe in der Bank Dollar in Yen gewechselt. / Können Sie mir einen 1000-Yen-Schein in 100-Yen-Münzen wechseln?",
+        "contexts": [
+          "Currency exchange at a bank",
+          "Breaking a bill into coins"
+        ],
+        "lexical": "JMdict 1553820 sense 1, suru verb: money exchange, changing money",
+        "register": "neutral",
+        "transitivity": "transitive; source money with を, target with に",
+        "conjugation": "suru verb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:205 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Currency exchange at a bank; Breaking a bill into coins), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f4e87df541e6e7c0f16106c94cca43f0cdd57c0b4fc2563ccb02dbb0ace21ad7",
+        "approvalHash": "c1362c6d8a447bae8467bad1c862d1a45213538f3b42e7efb9959e50b579cad1"
+      }
+    },
+    {
+      "id": "vocab-n4:206",
+      "revisionId": "168b-n4-enrichment-206",
+      "state": "accepted",
+      "predecessorHash": "145b6ed5eb2d6e28e33eabbc03838ab800c6994e507d42289214b091847b8aa8",
+      "originalHash": "145b6ed5eb2d6e28e33eabbc03838ab800c6994e507d42289214b091847b8aa8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お荷物をお預かりします。",
+            "romaji": "Onimotsu o oazukari shimasu.",
+            "german": "Ich nehme Ihr Gepäck in Verwahrung."
+          },
+          {
+            "japanese": "友達の荷物を預かりました。",
+            "romaji": "Tomodachi no nimotsu o azukarimashita.",
+            "german": "Ich habe das Gepäck meines Freundes aufbewahrt."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "預かる heißt, etwas oder jemanden vorübergehend in Obhut zu nehmen: 荷物を預かる, 子供を預かる. Das Gegenstück ist 預ける („in Obhut geben“): 荷物をフロントに預ける. In Hotels und an der Kasse hört man die höfliche Form お預かりします, z. B. 一万円お預かりします „Ich erhalte 10.000 Yen von Ihnen“.",
+        "examples": [
+          {
+            "japanese": "お荷物をお預かりします。",
+            "romaji": "Onimotsu o oazukari shimasu.",
+            "german": "Ich nehme Ihr Gepäck in Verwahrung."
+          },
+          {
+            "japanese": "隣の人が子供を預かってくれました。",
+            "romaji": "Tonari no hito ga kodomo o azukatte kuremashita.",
+            "german": "Die Nachbarin hat auf mein Kind aufgepasst."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@43332326",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 3. Rejected for this role: 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 3.",
+            "match": {
+              "word": "預かる",
+              "reading": "あずかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 預かる/あずかる \"aufbewahren, in Obhut nehmen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1544970 sense 1, godan verb: to look after, to keep, to take care of Pitch: Verified [3] via exact UniDic row. 預かる heißt, etwas oder jemanden vorübergehend in Obhut zu nehmen: 荷物を預かる, 子供を預かる. Das Gegenstück ist 預ける („in Obhut geben“): 荷物をフロントに預ける. In Hotels und an der Kasse hört man die höfliche Form お預かりします, z. B. 一万円お預かりします „Ich erhalte 10.000 Yen von Ihnen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1544970; spelling=預かる; reading=あずかる",
+          "selected": {
+            "sequence": "1544970",
+            "spelling": "預かる",
+            "reading": "あずかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to look after",
+                  "to take care of",
+                  "to keep",
+                  "to hold on to",
+                  "to keep in custody"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be put in charge of",
+                  "to be given responsibility for",
+                  "to be entrusted with"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to withhold (an announcement)",
+                  "to reserve (judgment)",
+                  "to leave undecided"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to take upon oneself (to do)",
+                  "to settle (a matter) oneself"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1544970 sense 1, godan verb: to look after, to keep, to take care of"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row. Exact whole 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 3. Rejected for this role: 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@43332326",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 3. Rejected for this role: 預かる/アズカル; lemma 預かる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 3.",
+            "match": {
+              "word": "預かる",
+              "reading": "あずかる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 預かる/あずかる \"aufbewahren, in Obhut nehmen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "aufbewahren, in Obhut nehmen. JMdict 1544970 sense 1, godan verb: to look after, to keep, to take care of",
+        "japanese": "お荷物をお預かりします。 / 隣の人が子供を預かってくれました。",
+        "romanization": "azukaru; Onimotsu o oazukari shimasu. / Tonari no hito ga kodomo o azukatte kuremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme Ihr Gepäck in Verwahrung. / Die Nachbarin hat auf mein Kind aufgepasst.",
+        "contexts": [
+          "Hotel staff taking luggage",
+          "Neighbor looking after a child"
+        ],
+        "lexical": "JMdict 1544970 sense 1, godan verb: to look after, to keep, to take care of",
+        "register": "neutral; お預かりします is humble service language",
+        "transitivity": "transitive; entrusted thing/person with を",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:206 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hotel staff taking luggage; Neighbor looking after a child), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "eebd60bef1fc6b98b36e10655bffdb6de8870373991c5705ce112c57944d65e9",
+        "approvalHash": "01d5178b4ea121e6c54d9669f25dba76bcba057c38bfc6e370bdf10591a23c93"
+      }
+    },
+    {
+      "id": "vocab-n4:207",
+      "revisionId": "168b-n4-enrichment-207",
+      "state": "accepted",
+      "predecessorHash": "ba06ec854f26576e7d9a6b399dfff80b6a3ae764b471680cf61f3fa82d2e04b4",
+      "originalHash": "ba06ec854f26576e7d9a6b399dfff80b6a3ae764b471680cf61f3fa82d2e04b4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "プリントを配ります。",
+            "romaji": "Purinto o kubarimasu.",
+            "german": "Ich verteile die Blätter."
+          },
+          {
+            "japanese": "チラシを駅前で配りました。",
+            "romaji": "Chirashi o ekimae de kubarimashita.",
+            "german": "Ich habe Flyer vor dem Bahnhof verteilt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "配る heißt, etwas an mehrere Personen zu verteilen; die Empfänger stehen mit に: 学生にプリントを配る. Typische Objekte sind Handzettel, Flyer, Karten oder Geschenke. Die Wendung 気を配る bedeutet „aufmerksam sein, auf andere achten“.",
+        "examples": [
+          {
+            "japanese": "プリントを配ります。",
+            "romaji": "Purinto o kubarimasu.",
+            "german": "Ich verteile die Blätter."
+          },
+          {
+            "japanese": "チラシを駅前で配りました。",
+            "romaji": "Chirashi o ekimae de kubarimashita.",
+            "german": "Ich habe Flyer vor dem Bahnhof verteilt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112740318",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "配る",
+              "reading": "くばる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 配る/くばる \"verteilen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1472990 sense 1, godan verb: to distribute, to hand out Pitch: Verified [2] via exact UniDic row. 配る heißt, etwas an mehrere Personen zu verteilen; die Empfänger stehen mit に: 学生にプリントを配る. Typische Objekte sind Handzettel, Flyer, Karten oder Geschenke. Die Wendung 気を配る bedeutet „aufmerksam sein, auf andere achten“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1472990; spelling=配る; reading=くばる",
+          "selected": {
+            "sequence": "1472990",
+            "spelling": "配る",
+            "reading": "くばる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to distribute",
+                  "to hand out",
+                  "to deliver",
+                  "to deal out",
+                  "to serve out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to allot",
+                  "to allocate",
+                  "to place (staff, soldiers, etc.)",
+                  "to station"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1472990 sense 1, godan verb: to distribute, to hand out"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112740318",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 配る/クバル; lemma 配る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "配る",
+              "reading": "くばる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 配る/くばる \"verteilen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "verteilen. JMdict 1472990 sense 1, godan verb: to distribute, to hand out",
+        "japanese": "プリントを配ります。 / チラシを駅前で配りました。",
+        "romanization": "kubaru; Purinto o kubarimasu. / Chirashi o ekimae de kubarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich verteile die Blätter. / Ich habe Flyer vor dem Bahnhof verteilt.",
+        "contexts": [
+          "Handing out worksheets in class",
+          "Distributing flyers at a station"
+        ],
+        "lexical": "JMdict 1472990 sense 1, godan verb: to distribute, to hand out",
+        "register": "neutral",
+        "transitivity": "transitive; object with を, recipients with に",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:207 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Handing out worksheets in class; Distributing flyers at a station), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1c825015f0c239b579f805063a4ba31a961ba6066e39b3c4ba55061b210fe531",
+        "approvalHash": "63be229f6fa8e6f761e6f59330694c18fb3895fef1472812ebe1677be1653db0"
+      }
+    },
+    {
+      "id": "vocab-n4:208",
+      "revisionId": "168b-n4-enrichment-208",
+      "state": "accepted",
+      "predecessorHash": "e975ea1793ea8439663280c0ce23ba97103fd726b2509ef72755fe81fb99aa65",
+      "originalHash": "e975ea1793ea8439663280c0ce23ba97103fd726b2509ef72755fe81fb99aa65",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "道が滑りやすいです。",
+            "romaji": "Michi ga suberiyasui desu.",
+            "german": "Der Weg ist rutschig."
+          },
+          {
+            "japanese": "氷の上で滑りました。",
+            "romaji": "Koori no ue de suberimashita.",
+            "german": "Ich bin auf dem Eis ausgerutscht."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "滑る bedeutet sowohl „ausrutschen“ als auch „gleiten“ (auf Eis, auf Skiern). 滑りやすい heißt „rutschig“, 手が滑る „aus der Hand rutschen“. Umgangssprachlich bedeutet 滑る auch „durch eine Prüfung fallen“ oder dass ein Witz nicht ankommt.",
+        "examples": [
+          {
+            "japanese": "道が滑りやすいです。",
+            "romaji": "Michi ga suberiyasui desu.",
+            "german": "Der Weg ist rutschig."
+          },
+          {
+            "japanese": "氷の上で滑りました。",
+            "romaji": "Koori no ue de suberimashita.",
+            "german": "Ich bin auf dem Eis ausgerutscht."
+          },
+          {
+            "japanese": "冬休みに、スキー場で一日中滑りました。",
+            "romaji": "Fuyuyasumi ni, sukījō de ichinichijū suberimashita.",
+            "german": "In den Winterferien bin ich den ganzen Tag auf der Piste Ski gefahren."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149273918",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "滑る",
+              "reading": "すべる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 滑る/すべる \"rutschen, ausrutschen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1208640 senses 1–3, godan verb: to slide, to glide, to slip, to be slippery Pitch: Verified [2] via exact UniDic row. 滑る bedeutet sowohl „ausrutschen“ als auch „gleiten“ (auf Eis, auf Skiern). 滑りやすい heißt „rutschig“, 手が滑る „aus der Hand rutschen“. Umgangssprachlich bedeutet 滑る auch „durch eine Prüfung fallen“ oder dass ein Witz nicht ankommt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1208640; spelling=滑る; reading=すべる",
+          "selected": {
+            "sequence": "1208640",
+            "spelling": "滑る",
+            "reading": "すべる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to slide",
+                  "to glide",
+                  "to skate",
+                  "to ski"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to slip",
+                  "to skid"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be slippery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fail (an examination)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lose (a position)",
+                  "to be demoted"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "to bomb (when telling a joke)",
+                  "to fall flat"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to slide (move)"
+                ],
+                "notes": [
+                  "usu. スベる"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1208640 senses 1–3, godan verb: to slide, to glide, to slip, to be slippery"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149273918",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 2. Rejected for this role: 滑る/スベル; lemma 滑る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "滑る",
+              "reading": "すべる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 滑る/すべる \"rutschen, ausrutschen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "rutschen, ausrutschen. JMdict 1208640 senses 1–3, godan verb: to slide, to glide, to slip, to be slippery",
+        "japanese": "道が滑りやすいです。 / 氷の上で滑りました。 / 冬休みに、スキー場で一日中滑りました。",
+        "romanization": "suberu; Michi ga suberiyasui desu. / Koori no ue de suberimashita. / Fuyuyasumi ni, sukījō de ichinichijū suberimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Weg ist rutschig. / Ich bin auf dem Eis ausgerutscht. / In den Winterferien bin ich den ganzen Tag auf der Piste Ski gefahren.",
+        "contexts": [
+          "Slippery road warning",
+          "Slipping on ice",
+          "Skiing on holiday"
+        ],
+        "lexical": "JMdict 1208640 senses 1–3, godan verb: to slide, to glide, to slip, to be slippery",
+        "register": "neutral",
+        "transitivity": "intransitive; place with で or の上で",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:208 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Slippery road warning; Slipping on ice; Skiing on holiday), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ac130caf0f4f8546873881baac7c9a684ee1e9ac142b8521ff37c80d0f09006b",
+        "approvalHash": "db891e6326d63952ae6f263c39b82a2c463f6601d021fe89f1f253f71c87ad38"
+      }
+    },
+    {
+      "id": "vocab-n4:209",
+      "revisionId": "168b-n4-enrichment-209",
+      "state": "accepted",
+      "predecessorHash": "fb048bc72802b7d804a10ee3d6930cc5d82601268b1cb96bee050d501847fb59",
+      "originalHash": "fb048bc72802b7d804a10ee3d6930cc5d82601268b1cb96bee050d501847fb59",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "階段で転びました。",
+            "romaji": "Kaidan de korobimashita.",
+            "german": "Ich bin auf der Treppe gestürzt."
+          },
+          {
+            "japanese": "階段で転んでしまいました。",
+            "romaji": "Kaidan de koronde shimaimashita.",
+            "german": "Ich bin auf der Treppe gestürzt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "転ぶ heißt „hinfallen, stürzen“, wenn eine Person das Gleichgewicht verliert; der Ort steht mit で: 階段で転ぶ. 倒れる dagegen bedeutet „umfallen, zusammenbrechen“ (auch bei Gegenständen), 落ちる „herunterfallen“. Häufig mit ～てしまう oder ～ないように気をつける.",
+        "examples": [
+          {
+            "japanese": "階段で転んでしまいました。",
+            "romaji": "Kaidan de koronde shimaimashita.",
+            "german": "Ich bin auf der Treppe gestürzt."
+          },
+          {
+            "japanese": "子供が転んで、ひざにけがをしました。",
+            "romaji": "Kodomo ga koronde, hiza ni kega o shimashita.",
+            "german": "Das Kind ist hingefallen und hat sich am Knie verletzt."
+          },
+          {
+            "japanese": "雪の日は転ばないように気をつけてください。",
+            "romaji": "Yuki no hi wa korobanai yō ni ki o tsukete kudasai.",
+            "german": "Passen Sie an Schneetagen auf, dass Sie nicht hinfallen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125538928",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "転ぶ",
+              "reading": "ころぶ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "Verb 転ぶ/ころぶ \"hinfallen, stolpern\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1582130 sense 1, godan verb: to fall down, to fall over Pitch: Verified [0] via exact UniDic row. 転ぶ heißt „hinfallen, stürzen“, wenn eine Person das Gleichgewicht verliert; der Ort steht mit で: 階段で転ぶ. 倒れる dagegen bedeutet „umfallen, zusammenbrechen“ (auch bei Gegenständen), 落ちる „herunterfallen“. Häufig mit ～てしまう oder ～ないように気をつける. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1582130; spelling=転ぶ; reading=ころぶ",
+          "selected": {
+            "sequence": "1582130",
+            "spelling": "転ぶ",
+            "reading": "ころぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to fall down",
+                  "to fall over"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to turn out",
+                  "to play out"
+                ],
+                "notes": [
+                  "oft. as どう転んでも"
+                ],
+                "stagk": [],
+                "stagr": [
+                  "ころぶ"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to abandon Christianity (and convert to Buddhism)",
+                  "to apostatize"
+                ],
+                "notes": [
+                  "in early Japanese Christianity"
+                ],
+                "stagk": [],
+                "stagr": [
+                  "ころぶ"
+                ]
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to roll",
+                  "to tumble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "(for a geisha) to prostitute (herself) in secret"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1582130 sense 1, godan verb: to fall down, to fall over"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125538928",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 転ぶ/コロブ; lemma 転ぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "転ぶ",
+              "reading": "ころぶ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "Verb 転ぶ/ころぶ \"hinfallen, stolpern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "hinfallen, stolpern. JMdict 1582130 sense 1, godan verb: to fall down, to fall over",
+        "japanese": "階段で転んでしまいました。 / 子供が転んで、ひざにけがをしました。 / 雪の日は転ばないように気をつけてください。",
+        "romanization": "korobu; Kaidan de koronde shimaimashita. / Kodomo ga koronde, hiza ni kega o shimashita. / Yuki no hi wa korobanai yō ni ki o tsukete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin auf der Treppe gestürzt. / Das Kind ist hingefallen und hat sich am Knie verletzt. / Passen Sie an Schneetagen auf, dass Sie nicht hinfallen.",
+        "contexts": [
+          "Falling on stairs",
+          "Child scraping a knee",
+          "Warning on a snowy day"
+        ],
+        "lexical": "JMdict 1582130 sense 1, godan verb: to fall down, to fall over",
+        "register": "neutral",
+        "transitivity": "intransitive; place with で",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:209 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Falling on stairs; Child scraping a knee; Warning on a snowy day), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7791aec25b40337d28b8a2ea63ad5428a821c873847ab58295a57cf19897e19d",
+        "approvalHash": "93a01e5bc68f786fe047153f3e1b9b2b3f71f37bcea24ad22ba9e3efc470fdf5"
+      }
+    },
+    {
+      "id": "vocab-n4:210",
+      "revisionId": "168b-n4-enrichment-210",
+      "state": "accepted",
+      "predecessorHash": "3d482bf976821118c5641e2e4656d76ec1f18b268bd0d0a11b14148f4d519a14",
+      "originalHash": "3d482bf976821118c5641e2e4656d76ec1f18b268bd0d0a11b14148f4d519a14",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "太陽が沈みます。",
+            "romaji": "Taiyou ga shizumimasu.",
+            "german": "Die Sonne geht unter."
+          },
+          {
+            "japanese": "太陽が海に沈みます。",
+            "romaji": "Taiyou ga umi ni shizumimasu.",
+            "german": "Die Sonne geht im Meer unter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "沈む heißt „sinken, untergehen“ – bei Schiffen ebenso wie bei der Sonne (日が沈む; Gegenteil: 昇る). Übertragen bedeutet 気分が沈む „niedergeschlagen sein“. Das transitive Gegenstück ist 沈める („versenken“), das Gegenteil 浮かぶ.",
+        "examples": [
+          {
+            "japanese": "太陽が海に沈みます。",
+            "romaji": "Taiyou ga umi ni shizumimasu.",
+            "german": "Die Sonne geht im Meer unter."
+          },
+          {
+            "japanese": "嵐で船が沈みました。",
+            "romaji": "Arashi de fune ga shizumimashita.",
+            "german": "Wegen des Sturms ist das Schiff gesunken."
+          },
+          {
+            "japanese": "雨の日は気分が沈みます。",
+            "romaji": "Ame no hi wa kibun ga shizumimasu.",
+            "german": "An Regentagen bin ich niedergeschlagen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135566312",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "沈む",
+              "reading": "しずむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 沈む/しずむ \"sinken, untergehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1431670 senses 1–3, godan verb: to sink; to set (sun); to feel depressed Pitch: Verified [0] via exact UniDic row. 沈む heißt „sinken, untergehen“ – bei Schiffen ebenso wie bei der Sonne (日が沈む; Gegenteil: 昇る). Übertragen bedeutet 気分が沈む „niedergeschlagen sein“. Das transitive Gegenstück ist 沈める („versenken“), das Gegenteil 浮かぶ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1431670; spelling=沈む; reading=しずむ",
+          "selected": {
+            "sequence": "1431670",
+            "spelling": "沈む",
+            "reading": "しずむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to sink",
+                  "to go under",
+                  "to submerge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to go down (e.g. sun)",
+                  "to set",
+                  "to descend"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to feel depressed",
+                  "to become subdued",
+                  "to become somber"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1431670 senses 1–3, godan verb: to sink; to set (sun); to feel depressed"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135566312",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 沈む/シズム; lemma 沈む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "沈む",
+              "reading": "しずむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 沈む/しずむ \"sinken, untergehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "sinken, untergehen. JMdict 1431670 senses 1–3, godan verb: to sink; to set (sun); to feel depressed",
+        "japanese": "太陽が海に沈みます。 / 嵐で船が沈みました。 / 雨の日は気分が沈みます。",
+        "romanization": "shizumu; Taiyou ga umi ni shizumimasu. / Arashi de fune ga shizumimashita. / Ame no hi wa kibun ga shizumimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Sonne geht im Meer unter. / Wegen des Sturms ist das Schiff gesunken. / An Regentagen bin ich niedergeschlagen.",
+        "contexts": [
+          "Sunset over the sea",
+          "Ship sinking in a storm",
+          "Gloomy mood on rainy days"
+        ],
+        "lexical": "JMdict 1431670 senses 1–3, godan verb: to sink; to set (sun); to feel depressed",
+        "register": "neutral",
+        "transitivity": "intransitive; subject with が, destination with に",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:210 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sunset over the sea; Ship sinking in a storm; Gloomy mood on rainy days), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a4f3b2a99648dc88d57bad1bd881dbf6fea2c6b887c7f4b97947ec79482121ed",
+        "approvalHash": "3105700d23f787c371a0f328c1cc389bc48642af3b31e27b9cd2af8fe3bcaaa4"
+      }
+    },
+    {
+      "id": "vocab-n4:211",
+      "revisionId": "168b-n4-enrichment-211",
+      "state": "accepted",
+      "predecessorHash": "3da06c1734f2f9f9ebd993a5bae8748421767e5e1b7d8413a3969d95217ffed6",
+      "originalHash": "3da06c1734f2f9f9ebd993a5bae8748421767e5e1b7d8413a3969d95217ffed6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "雲が浮かんでいます。",
+            "romaji": "Kumo ga ukande imasu.",
+            "german": "Wolken schweben am Himmel."
+          },
+          {
+            "japanese": "雲が空に浮かんでいます。",
+            "romaji": "Kumo ga sora ni ukande imasu.",
+            "german": "Wolken schweben am Himmel."
+          }
+        ],
+        "meaning": "schwimmen, auftauchen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "浮かぶ heißt „schweben, treiben“ (雲が空に浮かぶ, 船が海に浮かぶ) und übertragen „auftauchen, in den Sinn kommen“: いい考えが浮かぶ. Der Ort steht mit に. Das transitive Gegenstück ist 浮かべる (涙を浮かべる „Tränen in den Augen haben“); „schwimmen“ im Sinne von Schwimmen als Sport ist 泳ぐ.",
+        "examples": [
+          {
+            "japanese": "雲が空に浮かんでいます。",
+            "romaji": "Kumo ga sora ni ukande imasu.",
+            "german": "Wolken schweben am Himmel."
+          },
+          {
+            "japanese": "いい考えが浮かびました。",
+            "romaji": "Ii kangae ga ukabimashita.",
+            "german": "Mir ist eine gute Idee gekommen."
+          },
+          {
+            "japanese": "彼女の目に涙が浮かびました。",
+            "romaji": "Kanojo no me ni namida ga ukabimashita.",
+            "german": "Ihr stiegen Tränen in die Augen."
+          }
+        ],
+        "meaning": "schweben, treiben; auftauchen, in den Sinn kommen",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@60665873",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "浮かぶ",
+              "reading": "うかぶ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "Verb 浮かぶ/うかぶ \"schwimmen, auftauchen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1497430 senses 1–3, godan verb: to float; to appear; to come to mind Pitch: Verified [0] via exact UniDic row. 浮かぶ heißt „schweben, treiben“ (雲が空に浮かぶ, 船が海に浮かぶ) und übertragen „auftauchen, in den Sinn kommen“: いい考えが浮かぶ. Der Ort steht mit に. Das transitive Gegenstück ist 浮かべる (涙を浮かべる „Tränen in den Augen haben“); „schwimmen“ im Sinne von Schwimmen als Sport ist 泳ぐ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497430; spelling=浮かぶ; reading=うかぶ",
+          "selected": {
+            "sequence": "1497430",
+            "spelling": "浮かぶ",
+            "reading": "うかぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to float",
+                  "to be suspended"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to rise to the surface",
+                  "to appear",
+                  "to emerge",
+                  "to show up",
+                  "to loom (up)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to come to mind",
+                  "to have inspiration"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1497430 senses 1–3, godan verb: to float; to appear; to come to mind"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@60665873",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 終止形-一般; aType 0. Rejected for this role: 浮かぶ/ウカブ; lemma 浮かぶ; 動詞/一般/*/*; 五段-バ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "浮かぶ",
+              "reading": "うかぶ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "Verb 浮かぶ/うかぶ \"schwimmen, auftauchen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "schweben, treiben; auftauchen, in den Sinn kommen. JMdict 1497430 senses 1–3, godan verb: to float; to appear; to come to mind",
+        "japanese": "雲が空に浮かんでいます。 / いい考えが浮かびました。 / 彼女の目に涙が浮かびました。",
+        "romanization": "ukabu; Kumo ga sora ni ukande imasu. / Ii kangae ga ukabimashita. / Kanojo no me ni namida ga ukabimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wolken schweben am Himmel. / Mir ist eine gute Idee gekommen. / Ihr stiegen Tränen in die Augen.",
+        "contexts": [
+          "Clouds in the sky",
+          "Idea coming to mind",
+          "Tears welling up"
+        ],
+        "lexical": "JMdict 1497430 senses 1–3, godan verb: to float; to appear; to come to mind",
+        "register": "neutral",
+        "transitivity": "intransitive; subject with が, location with に",
+        "conjugation": "godan verb, unchanged",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:211 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Clouds in the sky; Idea coming to mind; Tears welling up), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "01207201e3573ca1bd87f3cc80442358c7959d88f5c863aef564ca1cb9228e96",
+        "approvalHash": "4eea4c58ffffd980df4346180fc5140e32eca9ba3b2103b0d5fddd012aafbaa6"
+      }
+    },
+    {
+      "id": "vocab-n4:214",
+      "revisionId": "168b-n4-enrichment-214",
+      "state": "accepted",
+      "predecessorHash": "2ab5e26e2e76c5a311186ae84465bc852956eba35890333b332d08171f1c3b52",
+      "originalHash": "2ab5e26e2e76c5a311186ae84465bc852956eba35890333b332d08171f1c3b52",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "冠婚葬祭は大切です。",
+            "romaji": "Kankonsousai wa taisetsu desu.",
+            "german": "Zeremonielle Anlässe sind wichtig."
+          },
+          {
+            "japanese": "冠婚葬祭にはマナーがあります。",
+            "romaji": "Kankonsousai ni wa manaa ga arimasu.",
+            "german": "Für zeremonielle Anlässe gibt es Benimmregeln."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "冠婚葬祭 ist ein Vier-Zeichen-Ausdruck (四字熟語) für die wichtigen Familienzeremonien: 冠 Volljährigkeit, 婚 Hochzeit, 葬 Begräbnis, 祭 Ahnenfeier. Er steht meist als Sammelbegriff, etwa in 冠婚葬祭のマナー oder 冠婚葬祭の費用. Das Wort ist eher sachlich-schriftlich.",
+        "examples": [
+          {
+            "japanese": "冠婚葬祭にはマナーがあります。",
+            "romaji": "Kankonsousai ni wa manaa ga arimasu.",
+            "german": "Für zeremonielle Anlässe gibt es Benimmregeln."
+          },
+          {
+            "japanese": "冠婚葬祭にはお金がかかります。",
+            "romaji": "Kankonsōsai ni wa okane ga kakarimasu.",
+            "german": "Hochzeiten, Beerdigungen und andere Familienfeiern kosten viel Geld."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1210260 sense 1, noun (yojijukugo): important ceremonial occasions in family life Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 5). 冠婚葬祭 ist ein Vier-Zeichen-Ausdruck (四字熟語) für die wichtigen Familienzeremonien: 冠 Volljährigkeit, 婚 Hochzeit, 葬 Begräbnis, 祭 Ahnenfeier. Er steht meist als Sammelbegriff, etwa in 冠婚葬祭のマナー oder 冠婚葬祭の費用. Das Wort ist eher sachlich-schriftlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1210260; spelling=冠婚葬祭; reading=かんこんそうさい",
+          "selected": {
+            "sequence": "1210260",
+            "spelling": "冠婚葬祭",
+            "reading": "かんこんそうさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "yojijukugo"
+                ],
+                "gloss": [
+                  "important ceremonial occasions in family relationships"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1210260 sense 1, noun (yojijukugo): important ceremonial occasions in family life"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 冠婚葬祭/かんこんそうさい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%86%A0%E5%A9%9A%E8%91%AC%E7%A5%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 冠婚葬祭/かんこんそうさい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "zeremonielle Anlässe. JMdict 1210260 sense 1, noun (yojijukugo): important ceremonial occasions in family life",
+        "japanese": "冠婚葬祭にはマナーがあります。 / 冠婚葬祭にはお金がかかります。",
+        "romanization": "kankonsousai; Kankonsousai ni wa manaa ga arimasu. / Kankonsōsai ni wa okane ga kakarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für zeremonielle Anlässe gibt es Benimmregeln. / Hochzeiten, Beerdigungen und andere Familienfeiern kosten viel Geld.",
+        "contexts": [
+          "Etiquette for ceremonies",
+          "Cost of family ceremonies"
+        ],
+        "lexical": "JMdict 1210260 sense 1, noun (yojijukugo): important ceremonial occasions in family life",
+        "register": "formal / written; collective term",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:214 (2 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Etiquette for ceremonies; Cost of family ceremonies), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bb175cc2ad162dc0ece72bc1610d459cefde966ea2a0092c1e09e32e308c6a65",
+        "approvalHash": "9bb378816dfe6978876c690e37e634889c6987ac9af4b1016cb521a096925774"
+      }
+    },
+    {
+      "id": "vocab-n4:215",
+      "revisionId": "168b-n4-enrichment-215",
+      "state": "accepted",
+      "predecessorHash": "a565f5af5d2a35cf5a72c12a8d19feb4757151c9e28f965cd8dae4e20b216351",
+      "originalHash": "a565f5af5d2a35cf5a72c12a8d19feb4757151c9e28f965cd8dae4e20b216351",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "結婚式に出席します。",
+            "romaji": "Kekkonshiki ni shusseki shimasu.",
+            "german": "Ich nehme an der Hochzeit teil."
+          },
+          {
+            "japanese": "来月友達の結婚式に出ます。",
+            "romaji": "Raigetsu tomodachi no kekkonshiki ni demasu.",
+            "german": "Nächsten Monat gehe ich zur Hochzeit meines Freundes."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "結婚式 ist die Hochzeitszeremonie. Als Gast nimmt man mit に teil: 結婚式に出る/出席する; das Brautpaar hält sie ab: 結婚式を挙げる. Die anschließende Feier mit Essen heißt 披露宴, das Geldgeschenk der Gäste ご祝儀.",
+        "examples": [
+          {
+            "japanese": "来月友達の結婚式に出ます。",
+            "romaji": "Raigetsu tomodachi no kekkonshiki ni demasu.",
+            "german": "Nächsten Monat gehe ich zur Hochzeit meines Freundes."
+          },
+          {
+            "japanese": "二人は来年の春に結婚式を挙げます。",
+            "romaji": "Futari wa rainen no haru ni kekkonshiki o agemasu.",
+            "german": "Die beiden feiern nächstes Frühjahr Hochzeit."
+          },
+          {
+            "japanese": "結婚式でスピーチを頼まれました。",
+            "romaji": "Kekkonshiki de supīchi o tanomaremashita.",
+            "german": "Ich wurde gebeten, bei der Hochzeit eine Rede zu halten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1254810 sense 1, noun: wedding ceremony Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 結婚式 ist die Hochzeitszeremonie. Als Gast nimmt man mit に teil: 結婚式に出る/出席する; das Brautpaar hält sie ab: 結婚式を挙げる. Die anschließende Feier mit Essen heißt 披露宴, das Geldgeschenk der Gäste ご祝儀. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1254810; spelling=結婚式; reading=けっこんしき",
+          "selected": {
+            "sequence": "1254810",
+            "spelling": "結婚式",
+            "reading": "けっこんしき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "marriage ceremony",
+                  "wedding",
+                  "nuptials"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1254810 sense 1, noun: wedding ceremony"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 結婚式/けっこんしき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B5%90%E5%A9%9A%E5%BC%8F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 結婚式/けっこんしき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hochzeitszeremonie. JMdict 1254810 sense 1, noun: wedding ceremony",
+        "japanese": "来月友達の結婚式に出ます。 / 二人は来年の春に結婚式を挙げます。 / 結婚式でスピーチを頼まれました。",
+        "romanization": "kekkonshiki; Raigetsu tomodachi no kekkonshiki ni demasu. / Futari wa rainen no haru ni kekkonshiki o agemasu. / Kekkonshiki de supīchi o tanomaremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nächsten Monat gehe ich zur Hochzeit meines Freundes. / Die beiden feiern nächstes Frühjahr Hochzeit. / Ich wurde gebeten, bei der Hochzeit eine Rede zu halten.",
+        "contexts": [
+          "Attending a friend's wedding",
+          "Couple planning their wedding",
+          "Asked to give a wedding speech"
+        ],
+        "lexical": "JMdict 1254810 sense 1, noun: wedding ceremony",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-168",
+        "finding": "Author reread the exact final card vocab-n4:215 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Attending a friend's wedding; Couple planning their wedding; Asked to give a wedding speech), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4c7bf456a4db4a2f8e415719531603fe87579b885df210c8f9140665a52d84fc",
+        "approvalHash": "159d94db69b92273162adf9b598ae400727e28c496b23ee7d4044523810ce232"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

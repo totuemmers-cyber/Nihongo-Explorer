@@ -425,6 +425,27 @@ N5 remains the active level; this checkpoint certifies no level.
 | N2 | 2389 | 2513 | 276 |
 | N1 | 3869 | 4013 | 352 |
 
+**N5 certified (5 October 2026).** Batch [167a](167a-full-n5.json) closes the last
+14 N5-owned references under the new kanji-reading-row rule (see "Kanji-reading
+rows" below): twelve exclusions and two `additional-sense` mappings to the
+existing 上/じょう and 佚/いつ cards. All 22 full checks passed, `advance --dry-run`
+passed, and the campaign advanced from N5 to N4.
+
+**First N4 checkpoint after the advance (5 October 2026).** Batches 168a–168k
+(`author-only-v1`, author first pass only) enrich 250 existing N4 entries
+(vocab-n4:160–445 in queue order). Each entry has a German usage note and 2–3
+examples covering distinct situations; 368 new example sentences are written in
+Modified Hepburn. The pitch of 221 entries is verified, 194 from exact UniDic rows
+filtered by part of speech and 27 from exact OJAD dictionary-form cells. Eighteen
+stored primary accents were wrong and are corrected, e.g. 花見 0→3 and 嫌がる 0→3.
+The remaining 29 entries are investigated unknowns with their UniDic and OJAD
+queries recorded; a direct sys.dic rescan confirmed that UniDic has no whole-word row
+for these compounds. Batch 168k corrects 退屈 and 贅沢: their な-adjective rows
+(サ変形状詞可能) had first been rejected, and they are now verified (0; 3/4). Twenty-five German meanings were corrected, e.g. 幼稚園
+„Vorschule“→„Kindergarten“ and 保育園 „Kindergarten“→„Kita“. No source references
+were resolved in this checkpoint. N4 now has 1,036 pending reviews and 291 open
+references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
