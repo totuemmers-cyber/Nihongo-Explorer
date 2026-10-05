@@ -446,6 +446,20 @@ for these compounds. Batch 168k corrects 退屈 and 贅沢: their な-adjective 
 were resolved in this checkpoint. N4 now has 1,036 pending reviews and 291 open
 references.
 
+**Second N4 checkpoint (5 October 2026).** Batches 169a–169j (`author-only-v1`, author
+first pass only) enrich the next 250 N4 entries (vocab-n4:446–747 in queue order), each
+with a German usage note and 2–3 examples in distinct situations; 388 new example
+sentences are written in Modified Hepburn, and 49 entries get corrected original examples.
+The pitch of 220 entries is verified, 211 from exact UniDic rows and 9 from exact OJAD
+dictionary-form cells; 40 stored primary accents are corrected, e.g. 握る 2→0, 運命 3→1
+and 頬 0→1. UniDic rows of a homographic other lemma are no longer accepted: 一位 has
+only a yew-tree row (lemma いちい) with an accent, so it stays an investigated unknown
+with 29 other compounds and set phrases. Six nouns typed as Adjektiv (売り切れ, 本物, 一位,
+首位, 初級, 中級) are corrected to Nomen, the card romaji of ぼんやり and 片付く to bon'yari
+and katazuku, and 39 German meanings are corrected, e.g. 啜る „schlüpfen“→„schlürfen“ and
+改札 „Schranke“→„Fahrkartensperre“. No source references were resolved in this checkpoint.
+N4 now has 786 pending reviews and 291 open references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

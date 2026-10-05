@@ -1,0 +1,4102 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:507",
+      "revisionId": "169c-n4-enrichment-507",
+      "state": "accepted",
+      "predecessorHash": "9bfd08d63b85aac0a142b1f93a9521c7058f13d18267eb8638fe035bb35abb99",
+      "originalHash": "9bfd08d63b85aac0a142b1f93a9521c7058f13d18267eb8638fe035bb35abb99",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "横断歩道を渡ります。",
+            "romaji": "Oudan hodou o watarimasu.",
+            "german": "Ich überquere den Zebrastreifen."
+          },
+          {
+            "japanese": "横断歩道を渡ってください。",
+            "romaji": "Oudan hodou o watatte kudasai.",
+            "german": "Bitte überqueren Sie den Zebrastreifen."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "横断歩道 ist jeder markierte Fußgängerüberweg – sowohl der klassische Zebrastreifen als auch der Überweg an einer Ampel. Typisch ist 横断歩道を渡る, wobei を die überquerte Strecke markiert. Die Ampel dazu heißt 信号, eine Fußgängerbrücke 歩道橋 und der Gehweg selbst 歩道. 横断 allein bedeutet „Überquerung“: 道路を横断する „die Straße überqueren“.",
+        "examples": [
+          {
+            "japanese": "横断歩道を渡ります。",
+            "romaji": "Oudan hodou o watarimasu.",
+            "german": "Ich überquere den Zebrastreifen."
+          },
+          {
+            "japanese": "二つ目の横断歩道を渡って、右に曲がってください。",
+            "romaji": "Futatsume no oudan hodou o watatte, migi ni magatte kudasai.",
+            "german": "Gehen Sie über den zweiten Zebrastreifen und biegen Sie dann rechts ab."
+          },
+          {
+            "japanese": "車は横断歩道の前で止まらなければなりません。",
+            "romaji": "Kuruma wa oudan hodou no mae de tomaranakereba narimasen.",
+            "german": "Autos müssen vor dem Zebrastreifen anhalten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1180910 sense 1, noun: pedestrian crossing, crosswalk Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 5). 横断歩道 ist jeder markierte Fußgängerüberweg – sowohl der klassische Zebrastreifen als auch der Überweg an einer Ampel. Typisch ist 横断歩道を渡る, wobei を die überquerte Strecke markiert. Die Ampel dazu heißt 信号, eine Fußgängerbrücke 歩道橋 und der Gehweg selbst 歩道. 横断 allein bedeutet „Überquerung“: 道路を横断する „die Straße überqueren“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1180910; spelling=横断歩道; reading=おうだんほどう",
+          "selected": {
+            "sequence": "1180910",
+            "spelling": "横断歩道",
+            "reading": "おうだんほどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pedestrian crossing",
+                  "crosswalk"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1180910 sense 1, noun: pedestrian crossing, crosswalk"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 横断歩道/おうだんほどう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A8%AA%E6%96%AD%E6%AD%A9%E9%81%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 横断歩道/おうだんほどう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zebrastreifen. JMdict 1180910 sense 1, noun: pedestrian crossing, crosswalk",
+        "japanese": "横断歩道を渡ります。 / 二つ目の横断歩道を渡って、右に曲がってください。 / 車は横断歩道の前で止まらなければなりません。",
+        "romanization": "oudan hodou; Oudan hodou o watarimasu. / Futatsume no oudan hodou o watatte, migi ni magatte kudasai. / Kuruma wa oudan hodou no mae de tomaranakereba narimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich überquere den Zebrastreifen. / Gehen Sie über den zweiten Zebrastreifen und biegen Sie dann rechts ab. / Autos müssen vor dem Zebrastreifen anhalten.",
+        "contexts": [
+          "Crossing the street",
+          "Giving directions",
+          "Traffic rule for drivers"
+        ],
+        "lexical": "JMdict 1180910 sense 1, noun: pedestrian crossing, crosswalk",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:507 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Crossing the street; Giving directions; Traffic rule for drivers), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "51eeec61107e42cd7528add4dbb28019d39fe3dd20468b408dfdcb6340077d80",
+        "approvalHash": "94f1569b5f9814584b24cc938e843f73d06061d2a5ac676dc9afefc501dd9192"
+      }
+    },
+    {
+      "id": "vocab-n4:508",
+      "revisionId": "169c-n4-enrichment-508",
+      "state": "accepted",
+      "predecessorHash": "4fee4d43873235a496671747c71c58d394c32e37327d6ed1a4f2b7ffeec4eee7",
+      "originalHash": "4fee4d43873235a496671747c71c58d394c32e37327d6ed1a4f2b7ffeec4eee7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "近道を通りましょう。",
+            "romaji": "Chikamichi o toorimashou.",
+            "german": "Nehmen wir die Abkürzung."
+          },
+          {
+            "japanese": "近道を知っていますよ。",
+            "romaji": "Chikamichi o shitte imasu yo.",
+            "german": "Ich kenne eine Abkürzung."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "近道 ist der kürzere Weg selbst und als する-Verb das Abkürzen: 近道をする oder 近道を通る „eine Abkürzung nehmen“; wird ein Weg kürzer, sagt man ～が近道になる. Übertragen steht es für den schnellsten Weg zu einem Ziel: 上手になる近道. Gegenteil ist 遠回り „Umweg“. Achtung: Eine sprachliche „Abkürzung“ (eines Wortes) heißt nicht 近道, sondern 略語.",
+        "examples": [
+          {
+            "japanese": "近道を通りましょう。",
+            "romaji": "Chikamichi o toorimashou.",
+            "german": "Nehmen wir die Abkürzung."
+          },
+          {
+            "japanese": "近道を知っていますよ。",
+            "romaji": "Chikamichi o shitte imasu yo.",
+            "german": "Ich kenne eine Abkürzung."
+          },
+          {
+            "japanese": "日本語が上手になる近道はありますか。",
+            "romaji": "Nihongo ga jouzu ni naru chikamichi wa arimasu ka.",
+            "german": "Gibt es einen schnellen Weg, gut Japanisch zu lernen?"
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168613910",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 近道/チカミチ; lemma 近道; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "近道",
+              "reading": "ちかみち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 近道/ちかみち \"Abkürzung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1597380 sense 1, noun / suru verb: shorter way, shortcut (also figurative) Pitch: Verified [2] via exact UniDic row. 近道 ist der kürzere Weg selbst und als する-Verb das Abkürzen: 近道をする oder 近道を通る „eine Abkürzung nehmen“; wird ein Weg kürzer, sagt man ～が近道になる. Übertragen steht es für den schnellsten Weg zu einem Ziel: 上手になる近道. Gegenteil ist 遠回り „Umweg“. Achtung: Eine sprachliche „Abkürzung“ (eines Wortes) heißt nicht 近道, sondern 略語. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1597380; spelling=近道; reading=ちかみち",
+          "selected": {
+            "sequence": "1597380",
+            "spelling": "近道",
+            "reading": "ちかみち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shorter way",
+                  "shortcut"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1597380 sense 1, noun / suru verb: shorter way, shortcut (also figurative)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 近道/チカミチ; lemma 近道; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168613910",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 近道/チカミチ; lemma 近道; 名詞/普通名詞/サ変可能/*; *; *; aType 2.",
+            "match": {
+              "word": "近道",
+              "reading": "ちかみち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 近道/ちかみち \"Abkürzung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abkürzung. JMdict 1597380 sense 1, noun / suru verb: shorter way, shortcut (also figurative)",
+        "japanese": "近道を通りましょう。 / 近道を知っていますよ。 / 日本語が上手になる近道はありますか。",
+        "romanization": "chikamichi; Chikamichi o toorimashou. / Chikamichi o shitte imasu yo. / Nihongo ga jouzu ni naru chikamichi wa arimasu ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nehmen wir die Abkürzung. / Ich kenne eine Abkürzung. / Gibt es einen schnellen Weg, gut Japanisch zu lernen?",
+        "contexts": [
+          "Suggesting a shorter route",
+          "Offering local knowledge",
+          "Asking for a learning shortcut"
+        ],
+        "lexical": "JMdict 1597380 sense 1, noun / suru verb: shorter way, shortcut (also figurative)",
+        "register": "neutral",
+        "transitivity": "intransitive as 近道する; the path taken can be marked with を (近道を通る)",
+        "conjugation": "noun; suru verb (近道する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:508 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Suggesting a shorter route; Offering local knowledge; Asking for a learning shortcut), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "76d3e9c15a6fa0b5902d9d9b8b2601ff9f28053a2d26745bd996a342c8360304",
+        "approvalHash": "eea064fc642726788e05f19ec4ded488cc4be3cc1d353c09795b1167e719c006"
+      }
+    },
+    {
+      "id": "vocab-n4:511",
+      "revisionId": "169c-n4-enrichment-511",
+      "state": "accepted",
+      "predecessorHash": "c0c50691ed4608950fbbe912535eb90c389530b6c7b35277d7293d15644d5e6f",
+      "originalHash": "c0c50691ed4608950fbbe912535eb90c389530b6c7b35277d7293d15644d5e6f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新宿で乗り換えます。",
+            "romaji": "Shinjuku de norikaemasu.",
+            "german": "Ich steige in Shinjuku um."
+          },
+          {
+            "japanese": "次の駅で乗り換えてください。",
+            "romaji": "Tsugi no eki de norikaete kudasai.",
+            "german": "Bitte steigen Sie an der nächsten Station um."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "乗り換え ist das Nomen zum Ichidan-Verb 乗り換える „umsteigen“. Der Umsteigeort steht mit で (新宿で乗り換える), die neue Linie mit に (山手線に乗り換える). Als Nomen hört man 乗り換えがある, 乗り換えなしで行ける oder 乗り換えの時間; auf Bahnhofsschildern steht oft die Kurzform 乗換. Übertragen bedeutet es auch den Wechsel zu einem anderen Anbieter oder System.",
+        "examples": [
+          {
+            "japanese": "新宿で乗り換えます。",
+            "romaji": "Shinjuku de norikaemasu.",
+            "german": "Ich steige in Shinjuku um."
+          },
+          {
+            "japanese": "空港までは乗り換えが一回あります。",
+            "romaji": "Kuukou made wa norikae ga ikkai arimasu.",
+            "german": "Bis zum Flughafen muss man einmal umsteigen."
+          },
+          {
+            "japanese": "乗り換えの時間が五分しかないので、急ぎましょう。",
+            "romaji": "Norikae no jikan ga gofun shika nai node, isogimashou.",
+            "german": "Wir haben nur fünf Minuten zum Umsteigen, also beeilen wir uns."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@209969762",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 乗り換え/ノリカエ; lemma 乗り換え; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 未然形-一般; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連体形-省略; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連用形-一般; aType 3,4.",
+            "match": {
+              "word": "乗り換え",
+              "reading": "のりかえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 乗り換え/のりかえ \"Umsteigen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1600460 sense 1, noun: transfer (trains, buses), change, connection Pitch: Verified [0] via exact UniDic row. 乗り換え ist das Nomen zum Ichidan-Verb 乗り換える „umsteigen“. Der Umsteigeort steht mit で (新宿で乗り換える), die neue Linie mit に (山手線に乗り換える). Als Nomen hört man 乗り換えがある, 乗り換えなしで行ける oder 乗り換えの時間; auf Bahnhofsschildern steht oft die Kurzform 乗換. Übertragen bedeutet es auch den Wechsel zu einem anderen Anbieter oder System. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1600460; spelling=乗り換え; reading=のりかえ",
+          "selected": {
+            "sequence": "1600460",
+            "spelling": "乗り換え",
+            "reading": "のりかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transfer (trains, buses, etc.)",
+                  "change",
+                  "connection"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "switch (to another ideology, party, system, method, etc.)",
+                  "change",
+                  "conversion"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "switching (stock)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chromosomal crossover",
+                  "crossing over"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1600460 sense 1, noun: transfer (trains, buses), change, connection"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 乗り換え/ノリカエ; lemma 乗り換え; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 未然形-一般; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連体形-省略; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連用形-一般; aType 3,4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@209969762",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 乗り換え/ノリカエ; lemma 乗り換え; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 未然形-一般; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連体形-省略; aType 3,4 | 乗り換え/ノリカエ; lemma 乗り換える; 動詞/一般/*/*; 下一段-ア行; 連用形-一般; aType 3,4.",
+            "match": {
+              "word": "乗り換え",
+              "reading": "のりかえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 乗り換え/のりかえ \"Umsteigen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umsteigen. JMdict 1600460 sense 1, noun: transfer (trains, buses), change, connection",
+        "japanese": "新宿で乗り換えます。 / 空港までは乗り換えが一回あります。 / 乗り換えの時間が五分しかないので、急ぎましょう。",
+        "romanization": "norikae; Shinjuku de norikaemasu. / Kuukou made wa norikae ga ikkai arimasu. / Norikae no jikan ga gofun shika nai node, isogimashou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich steige in Shinjuku um. / Bis zum Flughafen muss man einmal umsteigen. / Wir haben nur fünf Minuten zum Umsteigen, also beeilen wir uns.",
+        "contexts": [
+          "Describing a route",
+          "Number of transfers to the airport",
+          "Tight connection"
+        ],
+        "lexical": "JMdict 1600460 sense 1, noun: transfer (trains, buses), change, connection",
+        "register": "neutral",
+        "transitivity": "Nonverb (noun); verb partner 乗り換える: place with で, new line with に",
+        "conjugation": "Nonverb (noun of ichidan 乗り換える → 乗り換えて, 乗り換えない)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:511 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing a route; Number of transfers to the airport; Tight connection), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c0b9780427201bffb7556b60c6530d810076d9e59e6dfb1aeb0932b2cc9634d7",
+        "approvalHash": "2413956f7ca50a25f5eef0288b38fd4a7578250e569ce0f54f47c97367606788"
+      }
+    },
+    {
+      "id": "vocab-n4:512",
+      "revisionId": "169c-n4-enrichment-512",
+      "state": "accepted",
+      "predecessorHash": "24e6ab464dd2d63453f48b362b34861230a63134fb7f40598689e49d4bcac92f",
+      "originalHash": "24e6ab464dd2d63453f48b362b34861230a63134fb7f40598689e49d4bcac92f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "片道切符を買いました。",
+            "romaji": "Katamichi kippu o kaimashita.",
+            "german": "Ich habe eine einfache Fahrkarte gekauft."
+          },
+          {
+            "japanese": "片道の切符をください。",
+            "romaji": "Katamichi no kippu o kudasai.",
+            "german": "Eine einfache Fahrkarte bitte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "片道 ist eine Richtung einer Strecke: 片道切符 „einfache Fahrkarte“, 片道料金, und bei Zeitangaben „pro Strecke“: 片道一時間. Am Schalter genügt oft 片道でお願いします. Das Gegenstück ist 往復 „hin und zurück“. Achtung: Eine Einbahnstraße heißt nicht 片道, sondern 一方通行.",
+        "examples": [
+          {
+            "japanese": "片道切符を買いました。",
+            "romaji": "Katamichi kippu o kaimashita.",
+            "german": "Ich habe eine einfache Fahrkarte gekauft."
+          },
+          {
+            "japanese": "片道の切符をください。",
+            "romaji": "Katamichi no kippu o kudasai.",
+            "german": "Eine einfache Fahrkarte bitte."
+          },
+          {
+            "japanese": "家から会社まで片道一時間かかります。",
+            "romaji": "Ie kara kaisha made katamichi ichijikan kakarimasu.",
+            "german": "Von zu Hause bis zur Firma brauche ich pro Strecke eine Stunde."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94566051",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 片道/カタミチ; lemma 片道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "片道",
+              "reading": "かたみち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 片道/かたみち \"einfache Fahrt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1511760 senses 1–2, noun / no-adjective: one-way (trip), one-way ticket Pitch: Verified [0] via exact UniDic row. 片道 ist eine Richtung einer Strecke: 片道切符 „einfache Fahrkarte“, 片道料金, und bei Zeitangaben „pro Strecke“: 片道一時間. Am Schalter genügt oft 片道でお願いします. Das Gegenstück ist 往復 „hin und zurück“. Achtung: Eine Einbahnstraße heißt nicht 片道, sondern 一方通行. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1511760; spelling=片道; reading=かたみち",
+          "selected": {
+            "sequence": "1511760",
+            "spelling": "片道",
+            "reading": "かたみち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one-way (trip)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "one-way ticket"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1511760 senses 1–2, noun / no-adjective: one-way (trip), one-way ticket"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 片道/カタミチ; lemma 片道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@94566051",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 片道/カタミチ; lemma 片道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "片道",
+              "reading": "かたみち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 片道/かたみち \"einfache Fahrt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "einfache Fahrt. JMdict 1511760 senses 1–2, noun / no-adjective: one-way (trip), one-way ticket",
+        "japanese": "片道切符を買いました。 / 片道の切符をください。 / 家から会社まで片道一時間かかります。",
+        "romanization": "katamichi; Katamichi kippu o kaimashita. / Katamichi no kippu o kudasai. / Ie kara kaisha made katamichi ichijikan kakarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe eine einfache Fahrkarte gekauft. / Eine einfache Fahrkarte bitte. / Von zu Hause bis zur Firma brauche ich pro Strecke eine Stunde.",
+        "contexts": [
+          "Telling about a ticket purchase",
+          "Ordering at the ticket counter",
+          "Commuting time"
+        ],
+        "lexical": "JMdict 1511760 senses 1–2, noun / no-adjective: one-way (trip), one-way ticket",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:512 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Telling about a ticket purchase; Ordering at the ticket counter; Commuting time), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "af39c5e609ce83b9122cefd9766180b688da4d5f18c3d75b40a19f541be10fb3",
+        "approvalHash": "0ede8d762f0868b9695ec3ab417f0ca58da96ef2493dfa5f2eaa895bc5736bbb"
+      }
+    },
+    {
+      "id": "vocab-n4:513",
+      "revisionId": "169c-n4-enrichment-513",
+      "state": "accepted",
+      "predecessorHash": "94190168521f8c5394ee02ef4e071aef765d11ed7ccaac9510295cfe3546f623",
+      "originalHash": "94190168521f8c5394ee02ef4e071aef765d11ed7ccaac9510295cfe3546f623",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "往復切符はいくらですか。",
+            "romaji": "Oufuku kippu wa ikura desu ka.",
+            "german": "Wie viel kostet die Hin- und Rückfahrkarte?"
+          },
+          {
+            "japanese": "往復の切符を買いました。",
+            "romaji": "Oufuku no kippu o kaimashita.",
+            "german": "Ich habe eine Hin- und Rückfahrkarte gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "往復 heißt „hin und zurück“: als Nomen in 往復切符 oder 往復の切符, bei Preisen mit で: 往復で三万円. Als する-Verb steht die Strecke mit を: 家と会社を往復する „zwischen Wohnung und Firma pendeln“. Das Gegenstück ist 片道. In gehobener Sprache bezeichnet 往復 auch einen Briefwechsel, z. B. 往復はがき „Postkarte mit Antwortkarte“.",
+        "examples": [
+          {
+            "japanese": "往復切符はいくらですか。",
+            "romaji": "Oufuku kippu wa ikura desu ka.",
+            "german": "Wie viel kostet die Hin- und Rückfahrkarte?"
+          },
+          {
+            "japanese": "往復の切符を買いました。",
+            "romaji": "Oufuku no kippu o kaimashita.",
+            "german": "Ich habe eine Hin- und Rückfahrkarte gekauft."
+          },
+          {
+            "japanese": "毎日、家と会社を往復するだけです。",
+            "romaji": "Mainichi, ie to kaisha o oufuku suru dake desu.",
+            "german": "Jeden Tag pendle ich nur zwischen Wohnung und Büro hin und her."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73587629",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 往復/オウフク; lemma 往復; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "往復",
+              "reading": "おうふく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 往復/おうふく \"Hin- und Rückfahrt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1179760 senses 1–2, noun / suru verb: round trip, going and returning; round-trip ticket Pitch: Verified [0] via exact UniDic row. 往復 heißt „hin und zurück“: als Nomen in 往復切符 oder 往復の切符, bei Preisen mit で: 往復で三万円. Als する-Verb steht die Strecke mit を: 家と会社を往復する „zwischen Wohnung und Firma pendeln“. Das Gegenstück ist 片道. In gehobener Sprache bezeichnet 往復 auch einen Briefwechsel, z. B. 往復はがき „Postkarte mit Antwortkarte“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1179760; spelling=往復; reading=おうふく",
+          "selected": {
+            "sequence": "1179760",
+            "spelling": "往復",
+            "reading": "おうふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "making a round trip",
+                  "going and returning",
+                  "coming and going"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "round-trip ticket",
+                  "return ticket"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "correspondence",
+                  "exchanging (of letters)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "keeping company (with)",
+                  "socializing",
+                  "visiting each other"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1179760 senses 1–2, noun / suru verb: round trip, going and returning; round-trip ticket"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 往復/オウフク; lemma 往復; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@73587629",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 往復/オウフク; lemma 往復; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "往復",
+              "reading": "おうふく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 往復/おうふく \"Hin- und Rückfahrt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hin- und Rückfahrt. JMdict 1179760 senses 1–2, noun / suru verb: round trip, going and returning; round-trip ticket",
+        "japanese": "往復切符はいくらですか。 / 往復の切符を買いました。 / 毎日、家と会社を往復するだけです。",
+        "romanization": "oufuku; Oufuku kippu wa ikura desu ka. / Oufuku no kippu o kaimashita. / Mainichi, ie to kaisha o oufuku suru dake desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wie viel kostet die Hin- und Rückfahrkarte? / Ich habe eine Hin- und Rückfahrkarte gekauft. / Jeden Tag pendle ich nur zwischen Wohnung und Büro hin und her.",
+        "contexts": [
+          "Asking the fare",
+          "Ticket already bought",
+          "Monotonous daily routine"
+        ],
+        "lexical": "JMdict 1179760 senses 1–2, noun / suru verb: round trip, going and returning; round-trip ticket",
+        "register": "neutral",
+        "transitivity": "intransitive as 往復する; the route is marked with を (AとBを往復する)",
+        "conjugation": "noun; suru verb (往復する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:513 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking the fare; Ticket already bought; Monotonous daily routine), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7caebdc84e8782cc1ade26f6b90e54c0be29e8242cc0002af18d3cc3dbcf731d",
+        "approvalHash": "38c24f61c8e3d08325be22f1b95c3b5110c80733211bf780d859b1fae7a0fdac"
+      }
+    },
+    {
+      "id": "vocab-n4:514",
+      "revisionId": "169c-n4-enrichment-514",
+      "state": "accepted",
+      "predecessorHash": "07470ebcff50977eb0da4f801b17acb705d7f8750802adbbf56ec8ec4d5ed18c",
+      "originalHash": "07470ebcff50977eb0da4f801b17acb705d7f8750802adbbf56ec8ec4d5ed18c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "始発電車に乗ります。",
+            "romaji": "Shihatsu densha ni norimasu.",
+            "german": "Ich nehme den ersten Zug."
+          },
+          {
+            "japanese": "始発の電車に乗ります。",
+            "romaji": "Shihatsu no densha ni norimasu.",
+            "german": "Ich nehme den ersten Zug."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "始発 ist der erste Zug oder Bus des Tages; man fährt 始発で („mit dem ersten Zug“) oder wartet auf den 始発. Gegenstück ist 終電 bzw. 終バス. Zweite Bedeutung: Ein Zug, der an einem Bahnhof seine Fahrt beginnt, ist dort 始発 – 東京駅始発の電車; an so einem 始発駅 bekommt man meist leicht einen Sitzplatz.",
+        "examples": [
+          {
+            "japanese": "始発電車に乗ります。",
+            "romaji": "Shihatsu densha ni norimasu.",
+            "german": "Ich nehme den ersten Zug."
+          },
+          {
+            "japanese": "終電に間に合わなかったので、始発を待ちました。",
+            "romaji": "Shuuden ni maniawanakatta node, shihatsu o machimashita.",
+            "german": "Weil ich die letzte Bahn verpasst hatte, habe ich auf den ersten Zug gewartet."
+          },
+          {
+            "japanese": "この電車は東京駅始発です。",
+            "romaji": "Kono densha wa Toukyou-eki shihatsu desu.",
+            "german": "Dieser Zug beginnt seine Fahrt am Bahnhof Tokio."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137060858",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 始発/シハツ; lemma 始発; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "始発",
+              "reading": "しはつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 始発/しはつ \"erster Zug/Bus\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1307610 senses 1–2, noun: first train/bus of the day; departing from the starting station Pitch: Verified [0] via exact UniDic row. 始発 ist der erste Zug oder Bus des Tages; man fährt 始発で („mit dem ersten Zug“) oder wartet auf den 始発. Gegenstück ist 終電 bzw. 終バス. Zweite Bedeutung: Ein Zug, der an einem Bahnhof seine Fahrt beginnt, ist dort 始発 – 東京駅始発の電車; an so einem 始発駅 bekommt man meist leicht einen Sitzplatz. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1307610; spelling=始発; reading=しはつ",
+          "selected": {
+            "sequence": "1307610",
+            "spelling": "始発",
+            "reading": "しはつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first departure (of the day)",
+                  "first train",
+                  "first bus"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "departing from the starting station (of a bus, train, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1307610 senses 1–2, noun: first train/bus of the day; departing from the starting station"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 始発/シハツ; lemma 始発; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137060858",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 始発/シハツ; lemma 始発; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "始発",
+              "reading": "しはつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 始発/しはつ \"erster Zug/Bus\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "erster Zug/Bus. JMdict 1307610 senses 1–2, noun: first train/bus of the day; departing from the starting station",
+        "japanese": "始発電車に乗ります。 / 終電に間に合わなかったので、始発を待ちました。 / この電車は東京駅始発です。",
+        "romanization": "shihatsu; Shihatsu densha ni norimasu. / Shuuden ni maniawanakatta node, shihatsu o machimashita. / Kono densha wa Toukyou-eki shihatsu desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme den ersten Zug. / Weil ich die letzte Bahn verpasst hatte, habe ich auf den ersten Zug gewartet. / Dieser Zug beginnt seine Fahrt am Bahnhof Tokio.",
+        "contexts": [
+          "Early morning departure",
+          "Waiting after missing the last train",
+          "Train's starting station"
+        ],
+        "lexical": "JMdict 1307610 senses 1–2, noun: first train/bus of the day; departing from the starting station",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:514 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Early morning departure; Waiting after missing the last train; Train's starting station), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f3a0fa4da4e7d3a2decd97b4be1773ac5a2c9df08e133c418d2415b74eb2aa13",
+        "approvalHash": "57aecaae839c42c41ad3df739cf11a7ccb5cbefef3ce490e4c8e9c77745ca49f"
+      }
+    },
+    {
+      "id": "vocab-n4:515",
+      "revisionId": "169c-n4-enrichment-515",
+      "state": "accepted",
+      "predecessorHash": "fa6b018a9e3ab9a82726b2f00839d7db96db6ad94ce6832a806cc6589ecd1f90",
+      "originalHash": "fa6b018a9e3ab9a82726b2f00839d7db96db6ad94ce6832a806cc6589ecd1f90",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "終電に間に合いました。",
+            "romaji": "Shuuden ni maniaimashita.",
+            "german": "Ich habe den letzten Zug noch erreicht."
+          },
+          {
+            "japanese": "終電に間に合いませんでした。",
+            "romaji": "Shuuden ni maniaimasen deshita.",
+            "german": "Ich habe den letzten Zug verpasst."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "終電 ist die Kurzform von 最終電車, der letzten Bahn des Tages. Typische Wendungen: 終電に間に合う „die letzte Bahn noch erreichen“, 終電に乗り遅れる oder 終電を逃す „sie verpassen“ und 終電がなくなる „es fährt keine Bahn mehr“. Gegenstück ist 始発. Beim Bus spricht man vom 終バス bzw. 最終バス.",
+        "examples": [
+          {
+            "japanese": "終電に間に合いました。",
+            "romaji": "Shuuden ni maniaimashita.",
+            "german": "Ich habe den letzten Zug noch erreicht."
+          },
+          {
+            "japanese": "終電は何時ですか。",
+            "romaji": "Shuuden wa nanji desu ka.",
+            "german": "Wann fährt die letzte Bahn?"
+          },
+          {
+            "japanese": "終電がなくなったので、タクシーで帰りました。",
+            "romaji": "Shuuden ga nakunatta node, takushii de kaerimashita.",
+            "german": "Weil keine Bahn mehr fuhr, bin ich mit dem Taxi nach Hause gefahren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139980009",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 終電/シュウデン; lemma 終電; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "終電",
+              "reading": "しゅうでん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 終電/しゅうでん \"letzter Zug\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1332960 sense 1, noun: last train (of the day) Pitch: Verified [0] via exact UniDic row. 終電 ist die Kurzform von 最終電車, der letzten Bahn des Tages. Typische Wendungen: 終電に間に合う „die letzte Bahn noch erreichen“, 終電に乗り遅れる oder 終電を逃す „sie verpassen“ und 終電がなくなる „es fährt keine Bahn mehr“. Gegenstück ist 始発. Beim Bus spricht man vom 終バス bzw. 最終バス. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1332960; spelling=終電; reading=しゅうでん",
+          "selected": {
+            "sequence": "1332960",
+            "spelling": "終電",
+            "reading": "しゅうでん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "last train (of the day)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1332960 sense 1, noun: last train (of the day)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 終電/シュウデン; lemma 終電; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139980009",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 終電/シュウデン; lemma 終電; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "終電",
+              "reading": "しゅうでん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 終電/しゅうでん \"letzter Zug\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "letzter Zug. JMdict 1332960 sense 1, noun: last train (of the day)",
+        "japanese": "終電に間に合いました。 / 終電は何時ですか。 / 終電がなくなったので、タクシーで帰りました。",
+        "romanization": "shuuden; Shuuden ni maniaimashita. / Shuuden wa nanji desu ka. / Shuuden ga nakunatta node, takushii de kaerimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe den letzten Zug noch erreicht. / Wann fährt die letzte Bahn? / Weil keine Bahn mehr fuhr, bin ich mit dem Taxi nach Hause gefahren.",
+        "contexts": [
+          "Just made it",
+          "Asking about the timetable",
+          "Taking a taxi home"
+        ],
+        "lexical": "JMdict 1332960 sense 1, noun: last train (of the day)",
+        "register": "neutral, everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:515 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Just made it; Asking about the timetable; Taking a taxi home), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "344a4ae2bca154f231d39f7b2e2857a6030ab059a9ad79059fb4e93ad0660ec9",
+        "approvalHash": "e897a4da3cf656f5a4b85015cc2d216afcd0a2ade7699e5927f1d9005dcaff4f"
+      }
+    },
+    {
+      "id": "vocab-n4:516",
+      "revisionId": "169c-n4-enrichment-516",
+      "state": "accepted",
+      "predecessorHash": "d02763f42570dd356357420bd4b12cdaa75cc11e367d5694d3fb3c5f867172e7",
+      "originalHash": "d02763f42570dd356357420bd4b12cdaa75cc11e367d5694d3fb3c5f867172e7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "定期券を更新します。",
+            "romaji": "Teikiken o koushin shimasu.",
+            "german": "Ich erneuere meine Monatskarte."
+          },
+          {
+            "japanese": "定期券を更新しなければなりません。",
+            "romaji": "Teikiken o koushin shinakereba narimasen.",
+            "german": "Ich muss meine Monatskarte erneuern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "定期券 ist eine Zeitkarte für eine feste Strecke, meist für einen, drei oder sechs Monate; Berufspendler haben ein 通勤定期, Schüler und Studenten ein 通学定期. Im Alltag sagt man oft nur 定期. Heute ist das Ticket meist auf einer IC-Karte gespeichert. Typisch: 定期券を買う/更新する; viele Firmen zahlen ihren Angestellten das 定期券代.",
+        "examples": [
+          {
+            "japanese": "定期券を更新します。",
+            "romaji": "Teikiken o koushin shimasu.",
+            "german": "Ich erneuere meine Monatskarte."
+          },
+          {
+            "japanese": "定期券を家に忘れてしまいました。",
+            "romaji": "Teikiken o ie ni wasurete shimaimashita.",
+            "german": "Ich habe meine Monatskarte zu Hause vergessen."
+          },
+          {
+            "japanese": "会社が定期券代を払ってくれます。",
+            "romaji": "Kaisha ga teikikendai o haratte kuremasu.",
+            "german": "Die Firma übernimmt die Kosten für meine Monatskarte."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1435510 sense 1, noun: commuter pass, season ticket Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 定期券 ist eine Zeitkarte für eine feste Strecke, meist für einen, drei oder sechs Monate; Berufspendler haben ein 通勤定期, Schüler und Studenten ein 通学定期. Im Alltag sagt man oft nur 定期. Heute ist das Ticket meist auf einer IC-Karte gespeichert. Typisch: 定期券を買う/更新する; viele Firmen zahlen ihren Angestellten das 定期券代. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1435510; spelling=定期券; reading=ていきけん",
+          "selected": {
+            "sequence": "1435510",
+            "spelling": "定期券",
+            "reading": "ていきけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "commuter pass",
+                  "season ticket"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1435510 sense 1, noun: commuter pass, season ticket"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 定期券/ていきけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AE%9A%E6%9C%9F%E5%88%B8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 定期券/ていきけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Monatskarte, Zeitkarte. JMdict 1435510 sense 1, noun: commuter pass, season ticket",
+        "japanese": "定期券を更新します。 / 定期券を家に忘れてしまいました。 / 会社が定期券代を払ってくれます。",
+        "romanization": "teikiken; Teikiken o koushin shimasu. / Teikiken o ie ni wasurete shimaimashita. / Kaisha ga teikikendai o haratte kuremasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich erneuere meine Monatskarte. / Ich habe meine Monatskarte zu Hause vergessen. / Die Firma übernimmt die Kosten für meine Monatskarte.",
+        "contexts": [
+          "Renewing the pass",
+          "Forgot the pass at home",
+          "Employer pays commuting costs"
+        ],
+        "lexical": "JMdict 1435510 sense 1, noun: commuter pass, season ticket",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:516 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Renewing the pass; Forgot the pass at home; Employer pays commuting costs), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cc84d91977022ce10bf14599f3089dd0ec963bb97c0387a54f932c17c46f0d00",
+        "approvalHash": "6f40bc550483c67e1635b0330532e50d0455c98bbe8581799fd5046895017f78"
+      }
+    },
+    {
+      "id": "vocab-n4:518",
+      "revisionId": "169c-n4-enrichment-518",
+      "state": "accepted",
+      "predecessorHash": "0b887fbae14c449ebcd6dd1a607bc94b842449ee1ffb5ebcc08b822690a0f151",
+      "originalHash": "0b887fbae14c449ebcd6dd1a607bc94b842449ee1ffb5ebcc08b822690a0f151",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "改札を通ります。",
+            "romaji": "Kaisatsu o toorimasu.",
+            "german": "Ich gehe durch die Fahrkartenschranke."
+          },
+          {
+            "japanese": "改札を通ってホームに行きます。",
+            "romaji": "Kaisatsu o tootte hoomu ni ikimasu.",
+            "german": "Ich gehe durch die Schranke zum Bahnsteig."
+          }
+        ],
+        "meaning": "Fahrkartenkontrolle, Schranke",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "改札 bezeichnet heute vor allem die Fahrkartensperre im Bahnhof, auch 改札口; ursprünglich meinte es die Kontrolle der Fahrkarten. Typisch: 改札を通る, 改札を出る/に入る und 改札で待ち合わせる. Große Bahnhöfe haben mehrere Sperren wie 中央改札 oder 北口の改札; automatische Sperren heißen 自動改札. Eine Bahnschranke am Bahnübergang ist dagegen 踏切.",
+        "examples": [
+          {
+            "japanese": "改札を通ります。",
+            "romaji": "Kaisatsu o toorimasu.",
+            "german": "Ich gehe durch die Fahrkartenschranke."
+          },
+          {
+            "japanese": "改札の前で待っています。",
+            "romaji": "Kaisatsu no mae de matte imasu.",
+            "german": "Ich warte vor der Fahrkartensperre."
+          },
+          {
+            "japanese": "北口の改札を出て、右に行ってください。",
+            "romaji": "Kitaguchi no kaisatsu o dete, migi ni itte kudasai.",
+            "german": "Gehen Sie am Nordausgang durch die Sperre hinaus und dann nach rechts."
+          }
+        ],
+        "meaning": "Fahrkartensperre, Fahrkartenkontrolle",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85959345",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 改札/カイサツ; lemma 改札; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "改札",
+              "reading": "かいさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 改札/かいさつ \"Fahrkartenkontrolle, Schranke\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1200840 senses 1–2, noun: ticket gate, ticket barrier; examination of tickets Pitch: Verified [0] via exact UniDic row. 改札 bezeichnet heute vor allem die Fahrkartensperre im Bahnhof, auch 改札口; ursprünglich meinte es die Kontrolle der Fahrkarten. Typisch: 改札を通る, 改札を出る/に入る und 改札で待ち合わせる. Große Bahnhöfe haben mehrere Sperren wie 中央改札 oder 北口の改札; automatische Sperren heißen 自動改札. Eine Bahnschranke am Bahnübergang ist dagegen 踏切. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1200840; spelling=改札; reading=かいさつ",
+          "selected": {
+            "sequence": "1200840",
+            "spelling": "改札",
+            "reading": "かいさつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "examination of tickets"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "ticket gate",
+                  "ticket barrier"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1200840 senses 1–2, noun: ticket gate, ticket barrier; examination of tickets"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 改札/カイサツ; lemma 改札; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85959345",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 改札/カイサツ; lemma 改札; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "改札",
+              "reading": "かいさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 改札/かいさつ \"Fahrkartenkontrolle, Schranke\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fahrkartensperre, Fahrkartenkontrolle. JMdict 1200840 senses 1–2, noun: ticket gate, ticket barrier; examination of tickets",
+        "japanese": "改札を通ります。 / 改札の前で待っています。 / 北口の改札を出て、右に行ってください。",
+        "romanization": "kaisatsu; Kaisatsu o toorimasu. / Kaisatsu no mae de matte imasu. / Kitaguchi no kaisatsu o dete, migi ni itte kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gehe durch die Fahrkartenschranke. / Ich warte vor der Fahrkartensperre. / Gehen Sie am Nordausgang durch die Sperre hinaus und dann nach rechts.",
+        "contexts": [
+          "Entering the station",
+          "Meeting point",
+          "Directions from the station"
+        ],
+        "lexical": "JMdict 1200840 senses 1–2, noun: ticket gate, ticket barrier; examination of tickets",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:518 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Entering the station; Meeting point; Directions from the station), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ebebb1ad69018703c881addd76be0517107ff0a4c648349e74786ddd4b108671",
+        "approvalHash": "91e6f3bfe549852cffb0b2f8869c6e946617b02d90941af200f2354f9433eb24"
+      }
+    },
+    {
+      "id": "vocab-n4:519",
+      "revisionId": "169c-n4-enrichment-519",
+      "state": "accepted",
+      "predecessorHash": "2d103d45b837871f1708bb7ff1e5c813eac86535bcddfd9afe8b01ad6dd9ab1a",
+      "originalHash": "2d103d45b837871f1708bb7ff1e5c813eac86535bcddfd9afe8b01ad6dd9ab1a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "遅刻してすみません。",
+            "romaji": "Chikoku shite sumimasen.",
+            "german": "Entschuldigung für die Verspätung."
+          },
+          {
+            "japanese": "遅刻は許されません。",
+            "romaji": "Chikoku wa yurusaremasen.",
+            "german": "Verspätung wird nicht geduldet."
+          }
+        ],
+        "meaning": "Verspätung, Zupätekommen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遅刻 heißt, zu einem festen Termin zu spät zu kommen; das Ziel steht mit に: 学校に遅刻する, 会議に遅刻する. Es wird nur für Menschen gebraucht – verspätete Züge oder Busse 遅れる, nicht 遅刻する. Zur Entschuldigung sagt man 遅刻してすみません oder 遅れてすみません. Gegenstück zum früheren Gehen ist 早退.",
+        "examples": [
+          {
+            "japanese": "遅刻してすみません。",
+            "romaji": "Chikoku shite sumimasen.",
+            "german": "Entschuldigung für die Verspätung."
+          },
+          {
+            "japanese": "遅刻は許されません。",
+            "romaji": "Chikoku wa yurusaremasen.",
+            "german": "Verspätung wird nicht geduldet."
+          },
+          {
+            "japanese": "寝坊して、学校に遅刻しました。",
+            "romaji": "Nebou shite, gakkou ni chikoku shimashita.",
+            "german": "Ich habe verschlafen und kam zu spät zur Schule."
+          }
+        ],
+        "meaning": "Zuspätkommen, Verspätung",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168949594",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遅刻/チコク; lemma 遅刻; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "遅刻",
+              "reading": "ちこく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 遅刻/ちこく \"Verspätung, Zupätekommen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1422050 sense 1, noun / suru verb: lateness, arriving late Pitch: Verified [0] via exact UniDic row. 遅刻 heißt, zu einem festen Termin zu spät zu kommen; das Ziel steht mit に: 学校に遅刻する, 会議に遅刻する. Es wird nur für Menschen gebraucht – verspätete Züge oder Busse 遅れる, nicht 遅刻する. Zur Entschuldigung sagt man 遅刻してすみません oder 遅れてすみません. Gegenstück zum früheren Gehen ist 早退. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1422050; spelling=遅刻; reading=ちこく",
+          "selected": {
+            "sequence": "1422050",
+            "spelling": "遅刻",
+            "reading": "ちこく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lateness",
+                  "tardiness",
+                  "arriving late"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1422050 sense 1, noun / suru verb: lateness, arriving late"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 遅刻/チコク; lemma 遅刻; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168949594",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遅刻/チコク; lemma 遅刻; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "遅刻",
+              "reading": "ちこく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 遅刻/ちこく \"Verspätung, Zupätekommen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zuspätkommen, Verspätung. JMdict 1422050 sense 1, noun / suru verb: lateness, arriving late",
+        "japanese": "遅刻してすみません。 / 遅刻は許されません。 / 寝坊して、学校に遅刻しました。",
+        "romanization": "chikoku; Chikoku shite sumimasen. / Chikoku wa yurusaremasen. / Nebou shite, gakkou ni chikoku shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Entschuldigung für die Verspätung. / Verspätung wird nicht geduldet. / Ich habe verschlafen und kam zu spät zur Schule.",
+        "contexts": [
+          "Apologizing on arrival",
+          "Strict rule",
+          "Overslept before school"
+        ],
+        "lexical": "JMdict 1422050 sense 1, noun / suru verb: lateness, arriving late",
+        "register": "neutral",
+        "transitivity": "intransitive as 遅刻する; the appointment is marked with に (学校に遅刻する)",
+        "conjugation": "noun; suru verb (遅刻する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:519 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Apologizing on arrival; Strict rule; Overslept before school), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a47993fa9905d8134d0662d87a815b7953e276322ec1e5f347d6db09c5da6627",
+        "approvalHash": "3782a1b842e355b9741c7821a00a06b49c5389d79ee3b7576b9541c5ea49895b"
+      }
+    },
+    {
+      "id": "vocab-n4:520",
+      "revisionId": "169c-n4-enrichment-520",
+      "state": "accepted",
+      "predecessorHash": "1202ad8391a2cf997fcee78a1289d6100cbf315bda6858339b703a257d87c5f1",
+      "originalHash": "1202ad8391a2cf997fcee78a1289d6100cbf315bda6858339b703a257d87c5f1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "体調が悪いので早退します。",
+            "romaji": "Taichou ga warui node soutai shimasu.",
+            "german": "Weil ich mich nicht wohl fühle, gehe ich früher."
+          },
+          {
+            "japanese": "体調が悪くて早退しました。",
+            "romaji": "Taichou ga warukute soutai shimashita.",
+            "german": "Ich bin wegen Unwohlsein früher gegangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "早退 bedeutet, Arbeit oder Schule vor dem regulären Ende zu verlassen; der Ort steht mit を: 会社を早退する, 学校を早退する. Um Erlaubnis bittet man mit 早退してもいいですか oder 早退させてください. Gegenstück ist 遅刻; ganz fehlen heißt 休む bzw. in der Schule 欠席する.",
+        "examples": [
+          {
+            "japanese": "体調が悪いので早退します。",
+            "romaji": "Taichou ga warui node soutai shimasu.",
+            "german": "Weil ich mich nicht wohl fühle, gehe ich früher."
+          },
+          {
+            "japanese": "今日は用事があるので、三時に早退してもいいですか。",
+            "romaji": "Kyou wa youji ga aru node, sanji ni soutai shite mo ii desu ka.",
+            "german": "Ich habe heute noch etwas zu erledigen – darf ich um drei Uhr früher gehen?"
+          },
+          {
+            "japanese": "息子が熱で学校を早退しました。",
+            "romaji": "Musuko ga netsu de gakkou o soutai shimashita.",
+            "german": "Mein Sohn ist wegen Fieber früher aus der Schule nach Hause gekommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155351981",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 早退/ソウタイ; lemma 早退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "早退",
+              "reading": "そうたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 早退/そうたい \"frühes Verlassen (Arbeit/Schule)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1400310 sense 1, noun / suru verb: leaving (work, school) early Pitch: Verified [0] via exact UniDic row. 早退 bedeutet, Arbeit oder Schule vor dem regulären Ende zu verlassen; der Ort steht mit を: 会社を早退する, 学校を早退する. Um Erlaubnis bittet man mit 早退してもいいですか oder 早退させてください. Gegenstück ist 遅刻; ganz fehlen heißt 休む bzw. in der Schule 欠席する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1400310; spelling=早退; reading=そうたい",
+          "selected": {
+            "sequence": "1400310",
+            "spelling": "早退",
+            "reading": "そうたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "leaving early"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1400310 sense 1, noun / suru verb: leaving (work, school) early"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 早退/ソウタイ; lemma 早退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155351981",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 早退/ソウタイ; lemma 早退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "早退",
+              "reading": "そうたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 早退/そうたい \"frühes Verlassen (Arbeit/Schule)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "frühes Verlassen (Arbeit/Schule). JMdict 1400310 sense 1, noun / suru verb: leaving (work, school) early",
+        "japanese": "体調が悪いので早退します。 / 今日は用事があるので、三時に早退してもいいですか。 / 息子が熱で学校を早退しました。",
+        "romanization": "soutai; Taichou ga warui node soutai shimasu. / Kyou wa youji ga aru node, sanji ni soutai shite mo ii desu ka. / Musuko ga netsu de gakkou o soutai shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Weil ich mich nicht wohl fühle, gehe ich früher. / Ich habe heute noch etwas zu erledigen – darf ich um drei Uhr früher gehen? / Mein Sohn ist wegen Fieber früher aus der Schule nach Hause gekommen.",
+        "contexts": [
+          "Feeling unwell at work",
+          "Asking the boss for permission",
+          "Child sent home from school"
+        ],
+        "lexical": "JMdict 1400310 sense 1, noun / suru verb: leaving (work, school) early",
+        "register": "neutral",
+        "transitivity": "intransitive as 早退する; the place left is marked with を (学校を早退する)",
+        "conjugation": "noun; suru verb (早退する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:520 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Feeling unwell at work; Asking the boss for permission; Child sent home from school), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0d02959e5aef0e02662c80260a292c2709f71e4ebcf1e0507ae93f8f065229c7",
+        "approvalHash": "97910ceca1237305a3c13b260084fbd7c36c376049cc4068760ecba708e6c06c"
+      }
+    },
+    {
+      "id": "vocab-n4:522",
+      "revisionId": "169c-n4-enrichment-522",
+      "state": "accepted",
+      "predecessorHash": "71d488b65732afdd2fff1a96d85963f51e993f7b43349be1f15b184cade81d43",
+      "originalHash": "71d488b65732afdd2fff1a96d85963f51e993f7b43349be1f15b184cade81d43",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "転職を考えています。",
+            "romaji": "Tenshoku o kangaeteimasu.",
+            "german": "Ich denke über einen Jobwechsel nach."
+          },
+          {
+            "japanese": "来月転職する予定です。",
+            "romaji": "Raigetsu tenshoku suru yotei desu.",
+            "german": "Ich plane nächsten Monat den Job zu wechseln."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "転職 ist der Wechsel der Arbeitsstelle oder des Berufs; die neue Stelle steht mit に: 旅行会社に転職する. Abzugrenzen sind 就職 „die erste Anstellung finden“ und 退職 „aus dem Dienst ausscheiden“. Die Stellensuche beim Wechsel heißt 転職活動. Ein Umzug wegen Versetzung innerhalb derselben Firma ist dagegen 転勤.",
+        "examples": [
+          {
+            "japanese": "転職を考えています。",
+            "romaji": "Tenshoku o kangaeteimasu.",
+            "german": "Ich denke über einen Jobwechsel nach."
+          },
+          {
+            "japanese": "来月転職する予定です。",
+            "romaji": "Raigetsu tenshoku suru yotei desu.",
+            "german": "Ich plane nächsten Monat den Job zu wechseln."
+          },
+          {
+            "japanese": "銀行から旅行会社に転職しました。",
+            "romaji": "Ginkou kara ryokou gaisha ni tenshoku shimashita.",
+            "german": "Ich bin von einer Bank zu einem Reiseunternehmen gewechselt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181408073",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 転職/テンショク; lemma 転職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "転職",
+              "reading": "てんしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 転職/てんしょく \"Jobwechsel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1441210 sense 1, noun / suru verb: change of job, career change Pitch: Verified [0] via exact UniDic row. 転職 ist der Wechsel der Arbeitsstelle oder des Berufs; die neue Stelle steht mit に: 旅行会社に転職する. Abzugrenzen sind 就職 „die erste Anstellung finden“ und 退職 „aus dem Dienst ausscheiden“. Die Stellensuche beim Wechsel heißt 転職活動. Ein Umzug wegen Versetzung innerhalb derselben Firma ist dagegen 転勤. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1441210; spelling=転職; reading=てんしょく",
+          "selected": {
+            "sequence": "1441210",
+            "spelling": "転職",
+            "reading": "てんしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "change of job",
+                  "change of occupation",
+                  "career change"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1441210 sense 1, noun / suru verb: change of job, career change"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 転職/テンショク; lemma 転職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181408073",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 転職/テンショク; lemma 転職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "転職",
+              "reading": "てんしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 転職/てんしょく \"Jobwechsel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Jobwechsel. JMdict 1441210 sense 1, noun / suru verb: change of job, career change",
+        "japanese": "転職を考えています。 / 来月転職する予定です。 / 銀行から旅行会社に転職しました。",
+        "romanization": "tenshoku; Tenshoku o kangaeteimasu. / Raigetsu tenshoku suru yotei desu. / Ginkou kara ryokou gaisha ni tenshoku shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich denke über einen Jobwechsel nach. / Ich plane nächsten Monat den Job zu wechseln. / Ich bin von einer Bank zu einem Reiseunternehmen gewechselt.",
+        "contexts": [
+          "Considering a career move",
+          "Announcing a planned change",
+          "Describing a past job change"
+        ],
+        "lexical": "JMdict 1441210 sense 1, noun / suru verb: change of job, career change",
+        "register": "neutral",
+        "transitivity": "intransitive as 転職する; new employer marked with に",
+        "conjugation": "noun; suru verb (転職する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:522 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Considering a career move; Announcing a planned change; Describing a past job change), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b174393ca51eb6d1f92eed291c888376349858f9f690a9dc3769abb5f6d7811f",
+        "approvalHash": "7ace0bb7c65252f4e80957376f0169d19039a2d827be88ac58dd8e1fc98daf44"
+      }
+    },
+    {
+      "id": "vocab-n4:523",
+      "revisionId": "169c-n4-enrichment-523",
+      "state": "accepted",
+      "predecessorHash": "6e8e3fbdaaaf0fb92aa0674aaa008779327bb9c0d570194ffa6fd51f1f9985bf",
+      "originalHash": "6e8e3fbdaaaf0fb92aa0674aaa008779327bb9c0d570194ffa6fd51f1f9985bf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "取引先を訪問します。",
+            "romaji": "Torihikisaki o houmon shimasu.",
+            "german": "Ich besuche den Geschäftspartner."
+          },
+          {
+            "japanese": "取引先との打ち合わせがあります。",
+            "romaji": "Torihikisaki to no uchiawase ga arimasu.",
+            "german": "Ich habe eine Besprechung mit dem Geschäftspartner."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "取引先 sind Firmen oder Personen, mit denen man regelmäßig Geschäfte macht – Kunden ebenso wie Lieferanten. Es gehört zur Geschäftssprache; über die Menschen dort spricht man höflich von 取引先の方. Für Kunden in einem Laden sagt man dagegen お客様. Typisch: 取引先を訪問する, 取引先との打ち合わせ, 取引先に連絡する.",
+        "examples": [
+          {
+            "japanese": "取引先を訪問します。",
+            "romaji": "Torihikisaki o houmon shimasu.",
+            "german": "Ich besuche den Geschäftspartner."
+          },
+          {
+            "japanese": "取引先との打ち合わせがあります。",
+            "romaji": "Torihikisaki to no uchiawase ga arimasu.",
+            "german": "Ich habe eine Besprechung mit dem Geschäftspartner."
+          },
+          {
+            "japanese": "取引先に新しい商品を紹介しました。",
+            "romaji": "Torihikisaki ni atarashii shouhin o shoukai shimashita.",
+            "german": "Wir haben unserem Geschäftskunden ein neues Produkt vorgestellt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1599130 sense 1, noun: client, customer, business connection, trade partner Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 取引先 sind Firmen oder Personen, mit denen man regelmäßig Geschäfte macht – Kunden ebenso wie Lieferanten. Es gehört zur Geschäftssprache; über die Menschen dort spricht man höflich von 取引先の方. Für Kunden in einem Laden sagt man dagegen お客様. Typisch: 取引先を訪問する, 取引先との打ち合わせ, 取引先に連絡する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1599130; spelling=取引先; reading=とりひきさき",
+          "selected": {
+            "sequence": "1599130",
+            "spelling": "取引先",
+            "reading": "とりひきさき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "customer",
+                  "client",
+                  "client company",
+                  "business connection",
+                  "trade partner"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1599130 sense 1, noun: client, customer, business connection, trade partner"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 取引先/とりひきさき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8F%96%E5%BC%95%E5%85%88",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 取引先/とりひきさき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geschäftspartner, Kunde. JMdict 1599130 sense 1, noun: client, customer, business connection, trade partner",
+        "japanese": "取引先を訪問します。 / 取引先との打ち合わせがあります。 / 取引先に新しい商品を紹介しました。",
+        "romanization": "torihikisaki; Torihikisaki o houmon shimasu. / Torihikisaki to no uchiawase ga arimasu. / Torihikisaki ni atarashii shouhin o shoukai shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich besuche den Geschäftspartner. / Ich habe eine Besprechung mit dem Geschäftspartner. / Wir haben unserem Geschäftskunden ein neues Produkt vorgestellt.",
+        "contexts": [
+          "Client visit",
+          "Scheduled meeting",
+          "Presenting a new product"
+        ],
+        "lexical": "JMdict 1599130 sense 1, noun: client, customer, business connection, trade partner",
+        "register": "business, neutral-formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:523 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Client visit; Scheduled meeting; Presenting a new product), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b0a722bd255f8068b934160a3475213f4d0b15facae5a15ddb67a71eddce1107",
+        "approvalHash": "69738e768cdf8e366d12d466cc1f31e6f27f6831ec15875c5005ce9092f3625d"
+      }
+    },
+    {
+      "id": "vocab-n4:525",
+      "revisionId": "169c-n4-enrichment-525",
+      "state": "accepted",
+      "predecessorHash": "1b542bdf17cbb6548b4ce86bafed676d44f5a7ffa6caf7f5b1274ca3b51826c8",
+      "originalHash": "1b542bdf17cbb6548b4ce86bafed676d44f5a7ffa6caf7f5b1274ca3b51826c8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来週出張に行きます。",
+            "romaji": "Raishuu shutchou ni ikimasu.",
+            "german": "Nächste Woche fahre ich auf Geschäftsreise."
+          },
+          {
+            "japanese": "来週大阪に出張します。",
+            "romaji": "Raishuu Oosaka ni shutchou shimasu.",
+            "german": "Nächste Woche bin ich auf Dienstreise in Osaka."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "出張 ist eine dienstliche Reise; das Ziel steht mit に oder へ: 大阪に出張する, oder man sagt 出張に行く bzw. 出張で大阪へ行く. Am Telefon hört man oft 出張中です „ist auf Dienstreise“. Eine private Reise ist dagegen 旅行. In Zusammensetzungen wie 出張修理 bedeutet 出張 auch „Service vor Ort beim Kunden“.",
+        "examples": [
+          {
+            "japanese": "来週出張に行きます。",
+            "romaji": "Raishuu shutchou ni ikimasu.",
+            "german": "Nächste Woche fahre ich auf Geschäftsreise."
+          },
+          {
+            "japanese": "来週大阪に出張します。",
+            "romaji": "Raishuu Oosaka ni shutchou shimasu.",
+            "german": "Nächste Woche bin ich auf Dienstreise in Osaka."
+          },
+          {
+            "japanese": "部長は今、出張中です。",
+            "romaji": "Buchou wa ima, shutchouchuu desu.",
+            "german": "Der Abteilungsleiter ist gerade auf Dienstreise."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140254325",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 出張/シュッチョウ; lemma 出張; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "出張",
+              "reading": "しゅっちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 出張/しゅっちょう \"Geschäftsreise, Dienstreise\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1339660 sense 1, noun / suru verb: business trip, official trip Pitch: Verified [0] via exact UniDic row. 出張 ist eine dienstliche Reise; das Ziel steht mit に oder へ: 大阪に出張する, oder man sagt 出張に行く bzw. 出張で大阪へ行く. Am Telefon hört man oft 出張中です „ist auf Dienstreise“. Eine private Reise ist dagegen 旅行. In Zusammensetzungen wie 出張修理 bedeutet 出張 auch „Service vor Ort beim Kunden“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1339660; spelling=出張; reading=しゅっちょう",
+          "selected": {
+            "sequence": "1339660",
+            "spelling": "出張",
+            "reading": "しゅっちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "business trip",
+                  "official trip"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1339660 sense 1, noun / suru verb: business trip, official trip"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 出張/シュッチョウ; lemma 出張; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140254325",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 出張/シュッチョウ; lemma 出張; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "出張",
+              "reading": "しゅっちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 出張/しゅっちょう \"Geschäftsreise, Dienstreise\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geschäftsreise, Dienstreise. JMdict 1339660 sense 1, noun / suru verb: business trip, official trip",
+        "japanese": "来週出張に行きます。 / 来週大阪に出張します。 / 部長は今、出張中です。",
+        "romanization": "shutchou; Raishuu shutchou ni ikimasu. / Raishuu Oosaka ni shutchou shimasu. / Buchou wa ima, shutchouchuu desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nächste Woche fahre ich auf Geschäftsreise. / Nächste Woche bin ich auf Dienstreise in Osaka. / Der Abteilungsleiter ist gerade auf Dienstreise.",
+        "contexts": [
+          "Upcoming trip",
+          "Destination of the trip",
+          "Answering the office phone"
+        ],
+        "lexical": "JMdict 1339660 sense 1, noun / suru verb: business trip, official trip",
+        "register": "neutral, work context",
+        "transitivity": "intransitive as 出張する; destination with に/へ",
+        "conjugation": "noun; suru verb (出張する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:525 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Upcoming trip; Destination of the trip; Answering the office phone), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "44bf27ac8026bbe0c0bb8db852d550d1f6a78778d319cce4b275e9859fa00a2d",
+        "approvalHash": "f2b4a1e856634aa2c0518d2dd180d6cd2bb3616d5edc819194365a564db22c4e"
+      }
+    },
+    {
+      "id": "vocab-n4:526",
+      "revisionId": "169c-n4-enrichment-526",
+      "state": "accepted",
+      "predecessorHash": "5ea64f6440a7cfecd3fa2c87b1318a1937bd23c50e5ff3ca0716b81a3ba438aa",
+      "originalHash": "5ea64f6440a7cfecd3fa2c87b1318a1937bd23c50e5ff3ca0716b81a3ba438aa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "売上が伸びています。",
+            "romaji": "Uriage ga nobiteimasu.",
+            "german": "Der Umsatz wächst."
+          },
+          {
+            "japanese": "今月の売上が良かったです。",
+            "romaji": "Kongetsu no uriage ga yokatta desu.",
+            "german": "Der Umsatz dieses Monats war gut."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "売上 ist der Umsatz, also die Summe der verkauften Waren oder Leistungen – nicht der Gewinn, der 利益 heißt. Typisch: 売上が伸びる/上がる „steigen“, 売上が下がる/落ちる „sinken“, 売上を伸ばす „steigern“. Man schreibt auch 売り上げ; in der Buchhaltung steht 売上高.",
+        "examples": [
+          {
+            "japanese": "売上が伸びています。",
+            "romaji": "Uriage ga nobiteimasu.",
+            "german": "Der Umsatz wächst."
+          },
+          {
+            "japanese": "今月の売上が良かったです。",
+            "romaji": "Kongetsu no uriage ga yokatta desu.",
+            "german": "Der Umsatz dieses Monats war gut."
+          },
+          {
+            "japanese": "雨の日は店の売上が下がります。",
+            "romaji": "Ame no hi wa mise no uriage ga sagarimasu.",
+            "german": "An Regentagen sinkt der Umsatz des Ladens."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68467656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 売上/ウリアゲ; lemma 売り上げ; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "売上",
+              "reading": "うりあげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 売上/うりあげ \"Umsatz, Verkaufserlös\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1588500 sense 1, noun: sales, proceeds, turnover Pitch: Verified [0] via exact UniDic row. 売上 ist der Umsatz, also die Summe der verkauften Waren oder Leistungen – nicht der Gewinn, der 利益 heißt. Typisch: 売上が伸びる/上がる „steigen“, 売上が下がる/落ちる „sinken“, 売上を伸ばす „steigern“. Man schreibt auch 売り上げ; in der Buchhaltung steht 売上高. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1588500; spelling=売上; reading=うりあげ",
+          "selected": {
+            "sequence": "1588500",
+            "spelling": "売上",
+            "reading": "うりあげ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "amount sold",
+                  "sales",
+                  "proceeds",
+                  "takings",
+                  "turnover"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1588500 sense 1, noun: sales, proceeds, turnover"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 売上/ウリアゲ; lemma 売り上げ; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68467656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 売上/ウリアゲ; lemma 売り上げ; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "売上",
+              "reading": "うりあげ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 売上/うりあげ \"Umsatz, Verkaufserlös\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umsatz, Verkaufserlös. JMdict 1588500 sense 1, noun: sales, proceeds, turnover",
+        "japanese": "売上が伸びています。 / 今月の売上が良かったです。 / 雨の日は店の売上が下がります。",
+        "romanization": "uriage; Uriage ga nobiteimasu. / Kongetsu no uriage ga yokatta desu. / Ame no hi wa mise no uriage ga sagarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Umsatz wächst. / Der Umsatz dieses Monats war gut. / An Regentagen sinkt der Umsatz des Ladens.",
+        "contexts": [
+          "Growth trend",
+          "Monthly result",
+          "Weather and shop sales"
+        ],
+        "lexical": "JMdict 1588500 sense 1, noun: sales, proceeds, turnover",
+        "register": "neutral, business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:526 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Growth trend; Monthly result; Weather and shop sales), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1ec59e90b17f13078d619224bc4c8189f0e1c3788d5d91222e2ea7ccc0e3cb68",
+        "approvalHash": "4ea917396d956fd9254295f6335b8105488d3b94cb8e0f1fe822cd9de36f7338"
+      }
+    },
+    {
+      "id": "vocab-n4:527",
+      "revisionId": "169c-n4-enrichment-527",
+      "state": "accepted",
+      "predecessorHash": "c58ab8c34db4a5088007422c3bc8ce6a46f28a4b196bae8d196a127832e16356",
+      "originalHash": "c58ab8c34db4a5088007422c3bc8ce6a46f28a4b196bae8d196a127832e16356",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "敷金は二ヶ月分です。",
+            "romaji": "Shikikin wa nikagetsubun desu.",
+            "german": "Die Kaution beträgt zwei Monatsmieten."
+          },
+          {
+            "japanese": "敷金は退去時に返されます。",
+            "romaji": "Shikikin wa taikyo ji ni kaesaremasu.",
+            "german": "Die Kaution wird beim Auszug zurückgegeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "敷金 ist die Mietkaution, die man beim Einzug zahlt; beim Auszug werden Reinigung und Reparaturen abgezogen und der Rest zurückgezahlt. Die Höhe wird in Monatsmieten angegeben: 敷金二か月分. Nicht verwechseln mit 礼金 „Schlüsselgeld“, einem Geschenk an den Vermieter, das man nie zurückbekommt. In Westjapan heißt die Kaution teils 保証金.",
+        "examples": [
+          {
+            "japanese": "敷金は二ヶ月分です。",
+            "romaji": "Shikikin wa nikagetsubun desu.",
+            "german": "Die Kaution beträgt zwei Monatsmieten."
+          },
+          {
+            "japanese": "引っ越すとき、敷金は返してもらえますか。",
+            "romaji": "Hikkosu toki, shikikin wa kaeshite moraemasu ka.",
+            "german": "Bekomme ich die Kaution zurück, wenn ich ausziehe?"
+          },
+          {
+            "japanese": "この部屋は敷金も礼金もいりません。",
+            "romaji": "Kono heya wa shikikin mo reikin mo irimasen.",
+            "german": "Für diese Wohnung braucht man weder Kaution noch Schlüsselgeld."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134546788",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 敷金/シキキン; lemma 敷金; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "敷金",
+              "reading": "しききん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 敷金/しききん \"Kaution\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1497040 sense 1, noun: (security) deposit Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 敷金 ist die Mietkaution, die man beim Einzug zahlt; beim Auszug werden Reinigung und Reparaturen abgezogen und der Rest zurückgezahlt. Die Höhe wird in Monatsmieten angegeben: 敷金二か月分. Nicht verwechseln mit 礼金 „Schlüsselgeld“, einem Geschenk an den Vermieter, das man nie zurückbekommt. In Westjapan heißt die Kaution teils 保証金. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497040; spelling=敷金; reading=しききん",
+          "selected": {
+            "sequence": "1497040",
+            "spelling": "敷金",
+            "reading": "しききん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(security) deposit",
+                  "caution money"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1497040 sense 1, noun: (security) deposit"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 敷金/シキキン; lemma 敷金; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134546788",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 敷金/シキキン; lemma 敷金; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "敷金",
+              "reading": "しききん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 敷金/しききん \"Kaution\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kaution. JMdict 1497040 sense 1, noun: (security) deposit",
+        "japanese": "敷金は二ヶ月分です。 / 引っ越すとき、敷金は返してもらえますか。 / この部屋は敷金も礼金もいりません。",
+        "romanization": "shikikin; Shikikin wa nikagetsubun desu. / Hikkosu toki, shikikin wa kaeshite moraemasu ka. / Kono heya wa shikikin mo reikin mo irimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Kaution beträgt zwei Monatsmieten. / Bekomme ich die Kaution zurück, wenn ich ausziehe? / Für diese Wohnung braucht man weder Kaution noch Schlüsselgeld.",
+        "contexts": [
+          "Rental conditions",
+          "Asking about the refund",
+          "Apartment advertisement"
+        ],
+        "lexical": "JMdict 1497040 sense 1, noun: (security) deposit",
+        "register": "neutral, housing / rental",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:527 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rental conditions; Asking about the refund; Apartment advertisement), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f0cf0653264df0942c6689b904d301a5f367708c96394050ac3f20f318ce86e1",
+        "approvalHash": "7654bc91ca56490093ff55bac172a388fda39e07aaa6484ea316c214283c0258"
+      }
+    },
+    {
+      "id": "vocab-n4:529",
+      "revisionId": "169c-n4-enrichment-529",
+      "state": "accepted",
+      "predecessorHash": "02f9cbf3b4de0bd33343f174f2ab997419ab88250d2bf717bc5fc450be999d8b",
+      "originalHash": "02f9cbf3b4de0bd33343f174f2ab997419ab88250d2bf717bc5fc450be999d8b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "間取りを見せてください。",
+            "romaji": "Madori o misete kudasai.",
+            "german": "Bitte zeigen Sie mir den Grundriss."
+          },
+          {
+            "japanese": "間取りを見てから決めます。",
+            "romaji": "Madori o mite kara kimemasu.",
+            "german": "Ich entscheide nach Anschauen des Grundrisses."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "間取り ist die Raumaufteilung einer Wohnung, also ihr Schnitt. In Anzeigen wird er mit Codes wie 1K oder 2LDK angegeben (L = Wohnzimmer, D = Essbereich, K = Küche, die Zahl = weitere Zimmer). Die Zeichnung dazu heißt 間取り図. Typisch: 間取りがいい, 使いやすい間取り, 間取りを見る.",
+        "examples": [
+          {
+            "japanese": "間取りを見せてください。",
+            "romaji": "Madori o misete kudasai.",
+            "german": "Bitte zeigen Sie mir den Grundriss."
+          },
+          {
+            "japanese": "間取りを見てから決めます。",
+            "romaji": "Madori o mite kara kimemasu.",
+            "german": "Ich entscheide mich, wenn ich den Grundriss gesehen habe."
+          },
+          {
+            "japanese": "この部屋は間取りがいいですね。",
+            "romaji": "Kono heya wa madori ga ii desu ne.",
+            "german": "Diese Wohnung hat einen guten Schnitt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251514428",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 間取り/マドリ; lemma 間取り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "間取り",
+              "reading": "まどり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 間取り/まどり \"Raumaufteilung, Grundriss\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1215490 sense 1, noun: layout (of a house or apartment), arrangement of rooms Pitch: Verified [0] via exact UniDic row. 間取り ist die Raumaufteilung einer Wohnung, also ihr Schnitt. In Anzeigen wird er mit Codes wie 1K oder 2LDK angegeben (L = Wohnzimmer, D = Essbereich, K = Küche, die Zahl = weitere Zimmer). Die Zeichnung dazu heißt 間取り図. Typisch: 間取りがいい, 使いやすい間取り, 間取りを見る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1215490; spelling=間取り; reading=まどり",
+          "selected": {
+            "sequence": "1215490",
+            "spelling": "間取り",
+            "reading": "まどり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "layout (of a house or apartment)",
+                  "arrangement of rooms"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1215490 sense 1, noun: layout (of a house or apartment), arrangement of rooms"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 間取り/マドリ; lemma 間取り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@251514428",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 間取り/マドリ; lemma 間取り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "間取り",
+              "reading": "まどり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 間取り/まどり \"Raumaufteilung, Grundriss\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Raumaufteilung, Grundriss. JMdict 1215490 sense 1, noun: layout (of a house or apartment), arrangement of rooms",
+        "japanese": "間取りを見せてください。 / 間取りを見てから決めます。 / この部屋は間取りがいいですね。",
+        "romanization": "madori; Madori o misete kudasai. / Madori o mite kara kimemasu. / Kono heya wa madori ga ii desu ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte zeigen Sie mir den Grundriss. / Ich entscheide mich, wenn ich den Grundriss gesehen habe. / Diese Wohnung hat einen guten Schnitt.",
+        "contexts": [
+          "At the real estate agent",
+          "Deciding after seeing the plan",
+          "Viewing an apartment"
+        ],
+        "lexical": "JMdict 1215490 sense 1, noun: layout (of a house or apartment), arrangement of rooms",
+        "register": "neutral, housing",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:529 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (At the real estate agent; Deciding after seeing the plan; Viewing an apartment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7e36363506c589068bd63863d42cb77ca85a71e4e8b4ec3dd0fb361075593d56",
+        "approvalHash": "9c109fef215539074d4c297d432d45dba2cbe66422f2faefb91c81393650ba35"
+      }
+    },
+    {
+      "id": "vocab-n4:530",
+      "revisionId": "169c-n4-enrichment-530",
+      "state": "accepted",
+      "predecessorHash": "c0b0932eb8debe2cef4134e61ef2128b43d46b7e65b452244cc040dd4110e1e7",
+      "originalHash": "c0b0932eb8debe2cef4134e61ef2128b43d46b7e65b452244cc040dd4110e1e7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大家さんに連絡します。",
+            "romaji": "Ooyasan ni renraku shimasu.",
+            "german": "Ich kontaktiere den Vermieter."
+          },
+          {
+            "japanese": "大家さんに連絡しました。",
+            "romaji": "Ooya-san ni renraku shimashita.",
+            "german": "Ich habe den Vermieter kontaktiert."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大家 (おおや) ist der Vermieter oder die Vermieterin und wird fast immer mit さん gebraucht: 大家さん. Etwas förmlicher ist 家主. Dieselben Kanji gelesen たいか bedeuten etwas ganz anderes, nämlich „Meister, Koryphäe“ (書道の大家). Bei größeren Häusern läuft der Kontakt oft über eine Verwaltungsfirma (管理会社) statt direkt über den 大家さん.",
+        "examples": [
+          {
+            "japanese": "大家さんに連絡します。",
+            "romaji": "Ooyasan ni renraku shimasu.",
+            "german": "Ich kontaktiere den Vermieter."
+          },
+          {
+            "japanese": "大家さんは一階に住んでいます。",
+            "romaji": "Ooya-san wa ikkai ni sunde imasu.",
+            "german": "Der Vermieter wohnt im Erdgeschoss."
+          },
+          {
+            "japanese": "家賃は毎月大家さんに払います。",
+            "romaji": "Yachin wa maigetsu ooya-san ni haraimasu.",
+            "german": "Die Miete zahle ich jeden Monat an den Vermieter."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@74372624",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大家/オオヤ; lemma 大家; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 大家/オオヤ; lemma オオヤ; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "大家",
+              "reading": "おおや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大家/おおや \"Vermieter, Hauseigentümer\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1413140 sense 1, noun: landlord, landlady Pitch: Verified [1] via exact UniDic row; stored primary 2 corrected to 1. 大家 (おおや) ist der Vermieter oder die Vermieterin und wird fast immer mit さん gebraucht: 大家さん. Etwas förmlicher ist 家主. Dieselben Kanji gelesen たいか bedeuten etwas ganz anderes, nämlich „Meister, Koryphäe“ (書道の大家). Bei größeren Häusern läuft der Kontakt oft über eine Verwaltungsfirma (管理会社) statt direkt über den 大家さん. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1413140; spelling=大家; reading=おおや",
+          "selected": {
+            "sequence": "1413140",
+            "spelling": "大家",
+            "reading": "おおや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "landlord",
+                  "landlady"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1413140 sense 1, noun: landlord, landlady"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 2 corrected to 1. Exact whole 大家/オオヤ; lemma 大家; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 大家/オオヤ; lemma オオヤ; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@74372624",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大家/オオヤ; lemma 大家; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 大家/オオヤ; lemma オオヤ; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "大家",
+              "reading": "おおや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大家/おおや \"Vermieter, Hauseigentümer\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vermieter, Hauseigentümer. JMdict 1413140 sense 1, noun: landlord, landlady",
+        "japanese": "大家さんに連絡します。 / 大家さんは一階に住んでいます。 / 家賃は毎月大家さんに払います。",
+        "romanization": "ooya; Ooyasan ni renraku shimasu. / Ooya-san wa ikkai ni sunde imasu. / Yachin wa maigetsu ooya-san ni haraimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich kontaktiere den Vermieter. / Der Vermieter wohnt im Erdgeschoss. / Die Miete zahle ich jeden Monat an den Vermieter.",
+        "contexts": [
+          "Reporting a problem",
+          "Where the landlord lives",
+          "Paying the rent"
+        ],
+        "lexical": "JMdict 1413140 sense 1, noun: landlord, landlady",
+        "register": "neutral; usually with さん",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:530 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reporting a problem; Where the landlord lives; Paying the rent), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0b99c6b098880c9c841968df756b58da361e460f9d06f2d282ec6927b3e3bc45",
+        "approvalHash": "f5333733096cc17912c2ac3613b11cdb5a63328d746fdb0e0e66ec97b8d016bd"
+      }
+    },
+    {
+      "id": "vocab-n4:531",
+      "revisionId": "169c-n4-enrichment-531",
+      "state": "accepted",
+      "predecessorHash": "8c0b3458eee2ed192ebc6deb838e711e7a141e74427f9f3fa2baaabad3cad15d",
+      "originalHash": "8c0b3458eee2ed192ebc6deb838e711e7a141e74427f9f3fa2baaabad3cad15d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来月引っ越しをします。",
+            "romaji": "Raigetsu hikkoshi o shimasu.",
+            "german": "Nächsten Monat ziehe ich um."
+          },
+          {
+            "japanese": "引っ越しの準備で忙しいです。",
+            "romaji": "Hikkoshi no junbi de isogashii desu.",
+            "german": "Ich bin mit den Umzugsvorbereitungen beschäftigt."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "引っ越し ist das Nomen zum Godan-Verb 引っ越す „umziehen“ (東京に引っ越す, 新しい家へ引っ越す). Als Nomen sagt man 引っ越しをする, 引っ越しの準備, 引っ越しを手伝う. Nach dem Einzug ist es üblich, sich bei den Nachbarn mit einer kleinen Gabe vorzustellen (引っ越しの挨拶). Auf Firmenschildern liest man oft die kürzere Schreibung 引越し.",
+        "examples": [
+          {
+            "japanese": "来月引っ越しをします。",
+            "romaji": "Raigetsu hikkoshi o shimasu.",
+            "german": "Nächsten Monat ziehe ich um."
+          },
+          {
+            "japanese": "引っ越しの準備で忙しいです。",
+            "romaji": "Hikkoshi no junbi de isogashii desu.",
+            "german": "Ich bin mit den Umzugsvorbereitungen beschäftigt."
+          },
+          {
+            "japanese": "引っ越しを手伝ってくれてありがとう。",
+            "romaji": "Hikkoshi o tetsudatte kurete arigatou.",
+            "german": "Danke, dass du mir beim Umzug geholfen hast."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226132160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 引っ越し/ヒッコシ; lemma 引っ越し; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 引っ越し/ヒッコシ; lemma 引っ越す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 3.",
+            "match": {
+              "word": "引っ越し",
+              "reading": "ひっこし",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 引っ越し/ひっこし \"Umzug\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1601880 sense 1, noun / suru verb: moving (house), changing residence Pitch: Verified [0] via exact UniDic row; stored primary 4 corrected to 0. 引っ越し ist das Nomen zum Godan-Verb 引っ越す „umziehen“ (東京に引っ越す, 新しい家へ引っ越す). Als Nomen sagt man 引っ越しをする, 引っ越しの準備, 引っ越しを手伝う. Nach dem Einzug ist es üblich, sich bei den Nachbarn mit einer kleinen Gabe vorzustellen (引っ越しの挨拶). Auf Firmenschildern liest man oft die kürzere Schreibung 引越し. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1601880; spelling=引っ越し; reading=ひっこし",
+          "selected": {
+            "sequence": "1601880",
+            "spelling": "引っ越し",
+            "reading": "ひっこし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "moving (dwelling, office, etc.)",
+                  "changing residence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1601880 sense 1, noun / suru verb: moving (house), changing residence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 4 corrected to 0. Exact whole 引っ越し/ヒッコシ; lemma 引っ越し; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 引っ越し/ヒッコシ; lemma 引っ越す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226132160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 引っ越し/ヒッコシ; lemma 引っ越し; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 引っ越し/ヒッコシ; lemma 引っ越す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 3.",
+            "match": {
+              "word": "引っ越し",
+              "reading": "ひっこし",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 引っ越し/ひっこし \"Umzug\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umzug. JMdict 1601880 sense 1, noun / suru verb: moving (house), changing residence",
+        "japanese": "来月引っ越しをします。 / 引っ越しの準備で忙しいです。 / 引っ越しを手伝ってくれてありがとう。",
+        "romanization": "hikkoshi; Raigetsu hikkoshi o shimasu. / Hikkoshi no junbi de isogashii desu. / Hikkoshi o tetsudatte kurete arigatou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nächsten Monat ziehe ich um. / Ich bin mit den Umzugsvorbereitungen beschäftigt. / Danke, dass du mir beim Umzug geholfen hast.",
+        "contexts": [
+          "Announcing a move",
+          "Busy with packing",
+          "Thanking a friend for help"
+        ],
+        "lexical": "JMdict 1601880 sense 1, noun / suru verb: moving (house), changing residence",
+        "register": "neutral",
+        "transitivity": "intransitive as 引っ越しする; verb partner 引っ越す (destination with に/へ)",
+        "conjugation": "noun; suru verb (引っ越しする); related godan 引っ越す",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:531 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Announcing a move; Busy with packing; Thanking a friend for help), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a4fe74c76825edaf0588a019d56f43042c24411e8629e17e2578930fb69f25ac",
+        "approvalHash": "9231409a57e022f31bd73439856a03cc6bdc884aed281231ad3921ae6a39325a"
+      }
+    },
+    {
+      "id": "vocab-n4:532",
+      "revisionId": "169c-n4-enrichment-532",
+      "state": "accepted",
+      "predecessorHash": "737e0690db4b293e4152786d2dde1bdf51648ff767b727bcef4ee39214192584",
+      "originalHash": "737e0690db4b293e4152786d2dde1bdf51648ff767b727bcef4ee39214192584",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "粗大ごみの回収日はいつですか。",
+            "romaji": "Sodai gomi no kaishuubi wa itsu desu ka.",
+            "german": "Wann ist der Sperrmülltag?"
+          },
+          {
+            "japanese": "古いソファを粗大ごみに出します。",
+            "romaji": "Furui sofa o sodai gomi ni dashimasu.",
+            "german": "Ich entsorge das alte Sofa als Sperrmüll."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "粗大ごみ ist Sperrmüll wie Möbel, Fahrräder oder große Geräte. In Japan muss man ihn meist vorher bei der Gemeinde anmelden und eine gebührenpflichtige Marke (粗大ごみ処理券, oft einfach シール) kaufen; dann stellt man ihn am vereinbarten Tag heraus: 粗大ごみに出す. Man schreibt auch 粗大ゴミ. Scherzhaft nennt man so auch einen Ehemann im Ruhestand, der zu Hause nur im Weg ist.",
+        "examples": [
+          {
+            "japanese": "粗大ごみの回収日はいつですか。",
+            "romaji": "Sodai gomi no kaishuubi wa itsu desu ka.",
+            "german": "Wann ist der Sperrmülltag?"
+          },
+          {
+            "japanese": "古いソファを粗大ごみに出します。",
+            "romaji": "Furui sofa o sodai gomi ni dashimasu.",
+            "german": "Ich entsorge das alte Sofa als Sperrmüll."
+          },
+          {
+            "japanese": "粗大ごみを捨てるには、シールを買わなければなりません。",
+            "romaji": "Sodai gomi o suteru ni wa, shiiru o kawanakereba narimasen.",
+            "german": "Um Sperrmüll zu entsorgen, muss man eine Gebührenmarke kaufen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1397030 sense 1, noun: large-size refuse, bulky rubbish Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 4). 粗大ごみ ist Sperrmüll wie Möbel, Fahrräder oder große Geräte. In Japan muss man ihn meist vorher bei der Gemeinde anmelden und eine gebührenpflichtige Marke (粗大ごみ処理券, oft einfach シール) kaufen; dann stellt man ihn am vereinbarten Tag heraus: 粗大ごみに出す. Man schreibt auch 粗大ゴミ. Scherzhaft nennt man so auch einen Ehemann im Ruhestand, der zu Hause nur im Weg ist. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1397030; spelling=粗大ごみ; reading=そだいごみ",
+          "selected": {
+            "sequence": "1397030",
+            "spelling": "粗大ごみ",
+            "reading": "そだいごみ",
+            "readingRestrictions": [
+              "粗大ごみ",
+              "粗大塵"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large-size refuse (e.g. furniture, electrical goods)",
+                  "oversized garbage",
+                  "bulky rubbish"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "jocular, humorous term",
+                  "colloquial"
+                ],
+                "gloss": [
+                  "useless man about the house",
+                  "husband who is retired and considered a nuisance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1397030 sense 1, noun: large-size refuse, bulky rubbish"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 粗大ごみ/そだいごみ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B2%97%E5%A4%A7%E3%81%94%E3%81%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 粗大ごみ/そだいごみ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sperrmüll. JMdict 1397030 sense 1, noun: large-size refuse, bulky rubbish",
+        "japanese": "粗大ごみの回収日はいつですか。 / 古いソファを粗大ごみに出します。 / 粗大ごみを捨てるには、シールを買わなければなりません。",
+        "romanization": "sodai gomi; Sodai gomi no kaishuubi wa itsu desu ka. / Furui sofa o sodai gomi ni dashimasu. / Sodai gomi o suteru ni wa, shiiru o kawanakereba narimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wann ist der Sperrmülltag? / Ich entsorge das alte Sofa als Sperrmüll. / Um Sperrmüll zu entsorgen, muss man eine Gebührenmarke kaufen.",
+        "contexts": [
+          "Asking about collection day",
+          "Getting rid of a sofa",
+          "Disposal rules"
+        ],
+        "lexical": "JMdict 1397030 sense 1, noun: large-size refuse, bulky rubbish",
+        "register": "neutral, municipal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:532 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking about collection day; Getting rid of a sofa; Disposal rules), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b9f2a439592e8ad03e0c7c00edf4694cdda6c52eb9f18e3533d6fd606a809106",
+        "approvalHash": "766b0797202d06df8bd5261a996559e39c9b1794e15ee85168caf5ff3ec084b3"
+      }
+    },
+    {
+      "id": "vocab-n4:533",
+      "revisionId": "169c-n4-enrichment-533",
+      "state": "accepted",
+      "predecessorHash": "a31a8165402788ea5ae88ccbf9ecb0d5e30a72d33f855aee3fe82b63c1f54be4",
+      "originalHash": "a31a8165402788ea5ae88ccbf9ecb0d5e30a72d33f855aee3fe82b63c1f54be4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ごみの分別をしてください。",
+            "romaji": "Gomi no bunbetsu o shite kudasai.",
+            "german": "Bitte trennen Sie den Müll."
+          },
+          {
+            "japanese": "ゴミの分別をしてください。",
+            "romaji": "Gomi no bunbetsu o shite kudasai.",
+            "german": "Bitte trennen Sie den Müll."
+          }
+        ],
+        "meaning": "Mülltrennung",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分別 (ぶんべつ) ist das Trennen und Sortieren, im Alltag vor allem von Müll: ごみの分別, ごみを分別する. In Japan wird streng nach brennbarem Müll, Plastik, Dosen, Flaschen usw. getrennt. Achtung: Dieselben Kanji gelesen ふんべつ bedeuten „Vernunft, Urteilsvermögen“ (分別のある大人). Für einfaches Sortieren sagt man auch 分ける.",
+        "examples": [
+          {
+            "japanese": "ごみの分別をしてください。",
+            "romaji": "Gomi no bunbetsu o shite kudasai.",
+            "german": "Bitte trennen Sie den Müll."
+          },
+          {
+            "japanese": "この町では、ごみを八種類に分別します。",
+            "romaji": "Kono machi de wa, gomi o hasshurui ni bunbetsu shimasu.",
+            "german": "In dieser Stadt wird der Müll in acht Sorten getrennt."
+          },
+          {
+            "japanese": "ペットボトルとかんは分別して捨ててください。",
+            "romaji": "Petto botoru to kan wa bunbetsu shite sutete kudasai.",
+            "german": "Bitte entsorgen Sie PET-Flaschen und Dosen getrennt."
+          }
+        ],
+        "meaning": "Mülltrennung, Sortieren",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240204069",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 分別/ブンベツ; lemma 分別; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "分別",
+              "reading": "ぶんべつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 分別/ぶんべつ \"Mülltrennung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1504200 sense 1, noun / suru verb: separation (esp. of rubbish), classification Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 分別 (ぶんべつ) ist das Trennen und Sortieren, im Alltag vor allem von Müll: ごみの分別, ごみを分別する. In Japan wird streng nach brennbarem Müll, Plastik, Dosen, Flaschen usw. getrennt. Achtung: Dieselben Kanji gelesen ふんべつ bedeuten „Vernunft, Urteilsvermögen“ (分別のある大人). Für einfaches Sortieren sagt man auch 分ける. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1504200; spelling=分別; reading=ぶんべつ",
+          "selected": {
+            "sequence": "1504200",
+            "spelling": "分別",
+            "reading": "ぶんべつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "separation (e.g. of rubbish when recycling)",
+                  "classification",
+                  "discrimination",
+                  "division",
+                  "distinction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1504200 sense 1, noun / suru verb: separation (esp. of rubbish), classification"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 分別/ブンベツ; lemma 分別; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240204069",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 分別/ブンベツ; lemma 分別; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "分別",
+              "reading": "ぶんべつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 分別/ぶんべつ \"Mülltrennung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mülltrennung, Sortieren. JMdict 1504200 sense 1, noun / suru verb: separation (esp. of rubbish), classification",
+        "japanese": "ごみの分別をしてください。 / この町では、ごみを八種類に分別します。 / ペットボトルとかんは分別して捨ててください。",
+        "romanization": "bunbetsu; Gomi no bunbetsu o shite kudasai. / Kono machi de wa, gomi o hasshurui ni bunbetsu shimasu. / Petto botoru to kan wa bunbetsu shite sutete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte trennen Sie den Müll. / In dieser Stadt wird der Müll in acht Sorten getrennt. / Bitte entsorgen Sie PET-Flaschen und Dosen getrennt.",
+        "contexts": [
+          "House rule notice",
+          "Local recycling system",
+          "Instructions at a bin"
+        ],
+        "lexical": "JMdict 1504200 sense 1, noun / suru verb: separation (esp. of rubbish), classification",
+        "register": "neutral",
+        "transitivity": "transitive as 分別する (ごみを分別する)",
+        "conjugation": "noun; suru verb (分別する)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:533 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (House rule notice; Local recycling system; Instructions at a bin), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bda0b291921015df3a613bc8ccf781caf809855060b196a56fe809be7e119072",
+        "approvalHash": "9a33eae3d752501ce1a9603d6bf3472cbb7c9c4bf66b1fdda63e892ad435dda6"
+      }
+    },
+    {
+      "id": "vocab-n4:535",
+      "revisionId": "169c-n4-enrichment-535",
+      "state": "accepted",
+      "predecessorHash": "b9186181cd99cbd55f9a5d567a0f824d1cd7a8f1f9aa63e01aa5d17f44015ef4",
+      "originalHash": "b9186181cd99cbd55f9a5d567a0f824d1cd7a8f1f9aa63e01aa5d17f44015ef4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "回覧板を回してください。",
+            "romaji": "Kairanban o mawashite kudasai.",
+            "german": "Bitte reichen Sie das Rundschreiben weiter."
+          },
+          {
+            "japanese": "回覧板を隣の家に回してください。",
+            "romaji": "Kairanban o tonari no ie ni mawashite kudasai.",
+            "german": "Bitte geben Sie das Rundschreiben an das Nachbarhaus weiter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "回覧板 ist eine Mappe oder ein Klemmbrett mit Mitteilungen der Nachbarschaftsvereinigung (町内会), die von Haushalt zu Haushalt weitergereicht wird. Man liest sie, zeichnet ab und gibt sie weiter: 回覧板を回す; kommt sie bei einem an, sagt man 回覧板が回ってくる. Darin stehen z. B. Feste, Müllregeln oder Katastrophenübungen. 回覧 allein bezeichnet das Zirkulieren von Dokumenten, etwa in einer Firma.",
+        "examples": [
+          {
+            "japanese": "回覧板を回してください。",
+            "romaji": "Kairanban o mawashite kudasai.",
+            "german": "Bitte reichen Sie das Rundschreiben weiter."
+          },
+          {
+            "japanese": "回覧板でお祭りのお知らせが来ました。",
+            "romaji": "Kairanban de omatsuri no oshirase ga kimashita.",
+            "german": "Über das Rundschreiben kam eine Ankündigung für das Fest."
+          },
+          {
+            "japanese": "回覧板にごみの出し方が書いてあります。",
+            "romaji": "Kairanban ni gomi no dashikata ga kaite arimasu.",
+            "german": "Im Rundschreiben steht, wie man den Müll herausstellt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1199810 sense 1, noun: circular notice passed around a neighbourhood association Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 回覧板 ist eine Mappe oder ein Klemmbrett mit Mitteilungen der Nachbarschaftsvereinigung (町内会), die von Haushalt zu Haushalt weitergereicht wird. Man liest sie, zeichnet ab und gibt sie weiter: 回覧板を回す; kommt sie bei einem an, sagt man 回覧板が回ってくる. Darin stehen z. B. Feste, Müllregeln oder Katastrophenübungen. 回覧 allein bezeichnet das Zirkulieren von Dokumenten, etwa in einer Firma. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1199810; spelling=回覧板; reading=かいらんばん",
+          "selected": {
+            "sequence": "1199810",
+            "spelling": "回覧板",
+            "reading": "かいらんばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "circular notice (esp. in binder form; passed around households within a neighbourhood association, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1199810 sense 1, noun: circular notice passed around a neighbourhood association"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 回覧板/かいらんばん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%9B%9E%E8%A6%A7%E6%9D%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 回覧板/かいらんばん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rundschreiben (Nachbarschaft). JMdict 1199810 sense 1, noun: circular notice passed around a neighbourhood association",
+        "japanese": "回覧板を回してください。 / 回覧板でお祭りのお知らせが来ました。 / 回覧板にごみの出し方が書いてあります。",
+        "romanization": "kairanban; Kairanban o mawashite kudasai. / Kairanban de omatsuri no oshirase ga kimashita. / Kairanban ni gomi no dashikata ga kaite arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte reichen Sie das Rundschreiben weiter. / Über das Rundschreiben kam eine Ankündigung für das Fest. / Im Rundschreiben steht, wie man den Müll herausstellt.",
+        "contexts": [
+          "Passing it to the neighbor",
+          "Festival announcement",
+          "Garbage rules notice"
+        ],
+        "lexical": "JMdict 1199810 sense 1, noun: circular notice passed around a neighbourhood association",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:535 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Passing it to the neighbor; Festival announcement; Garbage rules notice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b51c34a1214b172954e12d27a502c1b2475b76b3ee60e8c4c490814b92b4dc72",
+        "approvalHash": "d62b32b86da2773e3107d97aee61bfc813c78f0c8a83db1b2fb072a036f46ce6"
+      }
+    },
+    {
+      "id": "vocab-n4:536",
+      "revisionId": "169c-n4-enrichment-536",
+      "state": "accepted",
+      "predecessorHash": "f3c972820cb0534ce24113ec99c8e418f552ae05c486a0f00db46d50f509741c",
+      "originalHash": "f3c972820cb0534ce24113ec99c8e418f552ae05c486a0f00db46d50f509741c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "駅で友達とすれ違いました。",
+            "romaji": "Eki de tomodachi to surechigaimashita.",
+            "german": "Ich bin am Bahnhof einem Freund begegnet."
+          },
+          {
+            "japanese": "狭い道で車とすれ違いました。",
+            "romaji": "Semai michi de kuruma to surechigaimashita.",
+            "german": "Auf der schmalen Straße bin ich an einem Auto vorbeigegangen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "すれ違う bedeutet, in entgegengesetzter Richtung aneinander vorbeizugehen oder -zufahren; der Partner steht mit と: 友達とすれ違う, 車とすれ違う. Daneben heißt es „sich verfehlen“, wenn man sich treffen wollte, und übertragen „aneinander vorbeigehen, nicht übereinstimmen“: 気持ちがすれ違う. Das Nomen ist すれ違い. Meist wird nur 違う mit Kanji geschrieben.",
+        "examples": [
+          {
+            "japanese": "駅で友達とすれ違いました。",
+            "romaji": "Eki de tomodachi to surechigaimashita.",
+            "german": "Am Bahnhof bin ich an einem Freund vorbeigegangen."
+          },
+          {
+            "japanese": "狭い道で車とすれ違いました。",
+            "romaji": "Semai michi de kuruma to surechigaimashita.",
+            "german": "Auf der schmalen Straße kam mir ein Auto entgegen, und wir fuhren knapp aneinander vorbei."
+          },
+          {
+            "japanese": "母を駅まで迎えに行きましたが、すれ違ってしまいました。",
+            "romaji": "Haha o eki made mukae ni ikimashita ga, surechigatte shimaimashita.",
+            "german": "Ich wollte meine Mutter am Bahnhof abholen, aber wir haben uns verpasst."
+          }
+        ],
+        "pitch": 4,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151034307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "Exact whole すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 4,0. Rejected for this role: すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 4,0.",
+            "match": {
+              "word": "すれ違う",
+              "reading": "すれちがう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Verb すれ違う/すれちがう \"aneinander vorbeigehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1595920 senses 1–2, godan verb: to pass each other, to brush past; to miss each other Pitch: Verified [4,0] via exact UniDic row; stored primary 3 corrected to 4. すれ違う bedeutet, in entgegengesetzter Richtung aneinander vorbeizugehen oder -zufahren; der Partner steht mit と: 友達とすれ違う, 車とすれ違う. Daneben heißt es „sich verfehlen“, wenn man sich treffen wollte, und übertragen „aneinander vorbeigehen, nicht übereinstimmen“: 気持ちがすれ違う. Das Nomen ist すれ違い. Meist wird nur 違う mit Kanji geschrieben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1595920; spelling=すれ違う; reading=すれちがう",
+          "selected": {
+            "sequence": "1595920",
+            "spelling": "すれ違う",
+            "reading": "すれちがう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pass (by) each other",
+                  "to brush past"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to miss (meeting) each other",
+                  "to fail to meet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'u' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be at odds",
+                  "to clash",
+                  "to be in conflict"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1595920 senses 1–2, godan verb: to pass each other, to brush past; to miss each other"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [4,0] via exact UniDic row; stored primary 3 corrected to 4. Exact whole すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 4,0. Rejected for this role: すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 4,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151034307",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "Exact whole すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 4,0. Rejected for this role: すれ違う/スレチガウ; lemma 擦れ違う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 4,0.",
+            "match": {
+              "word": "すれ違う",
+              "reading": "すれちがう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Verb すれ違う/すれちがう \"aneinander vorbeigehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "aneinander vorbeigehen. JMdict 1595920 senses 1–2, godan verb: to pass each other, to brush past; to miss each other",
+        "japanese": "駅で友達とすれ違いました。 / 狭い道で車とすれ違いました。 / 母を駅まで迎えに行きましたが、すれ違ってしまいました。",
+        "romanization": "surechigau; Eki de tomodachi to surechigaimashita. / Semai michi de kuruma to surechigaimashita. / Haha o eki made mukae ni ikimashita ga, surechigatte shimaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Am Bahnhof bin ich an einem Freund vorbeigegangen. / Auf der schmalen Straße kam mir ein Auto entgegen, und wir fuhren knapp aneinander vorbei. / Ich wollte meine Mutter am Bahnhof abholen, aber wir haben uns verpasst.",
+        "contexts": [
+          "Passing a friend",
+          "Oncoming car on a narrow road",
+          "Missing each other"
+        ],
+        "lexical": "JMdict 1595920 senses 1–2, godan verb: to pass each other, to brush past; to miss each other",
+        "register": "neutral",
+        "transitivity": "intransitive (partner with と); no transitive partner",
+        "conjugation": "godan -u (すれ違う → すれ違って, すれ違わない)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:536 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Passing a friend; Oncoming car on a narrow road; Missing each other), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2e873d7f13dd980318383115daf826d6894405739f65062b87fa10e5d91abd0c",
+        "approvalHash": "e8c68c7769c13b45e701f2fdac936c3fe98c3a45b74885e111c7a75911956944"
+      }
+    },
+    {
+      "id": "vocab-n4:537",
+      "revisionId": "169c-n4-enrichment-537",
+      "state": "accepted",
+      "predecessorHash": "33f891b7667c93b173f2d3e53d19af546d2f3eda53646ecfb915121598a2308d",
+      "originalHash": "33f891b7667c93b173f2d3e53d19af546d2f3eda53646ecfb915121598a2308d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "石につまずきました。",
+            "romaji": "Ishi ni tsumazukimashita.",
+            "german": "Ich bin über einen Stein gestolpert."
+          },
+          {
+            "japanese": "石につまずいて転びました。",
+            "romaji": "Ishi ni tsumazuite korobimashita.",
+            "german": "Ich bin über einen Stein gestolpert und hingefallen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "つまずく heißt „stolpern“; das Hindernis steht mit に: 石につまずく. Folgt ein Sturz, sagt man つまずいて転ぶ – 転ぶ ist das Hinfallen selbst. Übertragen bedeutet es „auf Schwierigkeiten stoßen, scheitern“, der Bereich steht dann mit で: 仕事でつまずく. Das Kanji 躓く ist schwierig und selten; man schreibt fast immer in Kana.",
+        "examples": [
+          {
+            "japanese": "石につまずきました。",
+            "romaji": "Ishi ni tsumazukimashita.",
+            "german": "Ich bin über einen Stein gestolpert."
+          },
+          {
+            "japanese": "暗い部屋で、子どものおもちゃにつまずきました。",
+            "romaji": "Kurai heya de, kodomo no omocha ni tsumazukimashita.",
+            "german": "Im dunklen Zimmer bin ich über ein Spielzeug der Kinder gestolpert."
+          },
+          {
+            "japanese": "漢字の勉強でつまずいています。",
+            "romaji": "Kanji no benkyou de tsumazuite imasu.",
+            "german": "Beim Kanji-Lernen komme ich gerade nicht weiter."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177429354",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 終止形-一般; aType 0,3. Rejected for this role: つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "つまずく",
+              "reading": "つまずく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "Verb つまずく/つまずく \"stolpern\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1573400 senses 1–2, godan verb: to trip, to stumble; to suffer a setback Pitch: Verified [0,3] via exact UniDic row. つまずく heißt „stolpern“; das Hindernis steht mit に: 石につまずく. Folgt ein Sturz, sagt man つまずいて転ぶ – 転ぶ ist das Hinfallen selbst. Übertragen bedeutet es „auf Schwierigkeiten stoßen, scheitern“, der Bereich steht dann mit で: 仕事でつまずく. Das Kanji 躓く ist schwierig und selten; man schreibt fast immer in Kana. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1573400; spelling=つまずく; reading=つまずく",
+          "selected": {
+            "sequence": "1573400",
+            "spelling": "つまずく",
+            "reading": "つまずく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to trip (over)",
+                  "to stumble"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fail",
+                  "to suffer a setback"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1573400 senses 1–2, godan verb: to trip, to stumble; to suffer a setback"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 終止形-一般; aType 0,3. Rejected for this role: つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 連体形-一般; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177429354",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 終止形-一般; aType 0,3. Rejected for this role: つまずく/ツマズク; lemma 躓く; 動詞/一般/*/*; 五段-カ行; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "つまずく",
+              "reading": "つまずく",
+              "grammaticalForm": "動詞/一般/*/*; 五段-カ行; 終止形-一般",
+              "sense": "Verb つまずく/つまずく \"stolpern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "stolpern. JMdict 1573400 senses 1–2, godan verb: to trip, to stumble; to suffer a setback",
+        "japanese": "石につまずきました。 / 暗い部屋で、子どものおもちゃにつまずきました。 / 漢字の勉強でつまずいています。",
+        "romanization": "tsumazuku; Ishi ni tsumazukimashita. / Kurai heya de, kodomo no omocha ni tsumazukimashita. / Kanji no benkyou de tsumazuite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin über einen Stein gestolpert. / Im dunklen Zimmer bin ich über ein Spielzeug der Kinder gestolpert. / Beim Kanji-Lernen komme ich gerade nicht weiter.",
+        "contexts": [
+          "Walking outside",
+          "Toy on the floor at night",
+          "Stuck in one's studies"
+        ],
+        "lexical": "JMdict 1573400 senses 1–2, godan verb: to trip, to stumble; to suffer a setback",
+        "register": "neutral",
+        "transitivity": "intransitive (obstacle with に); no transitive partner",
+        "conjugation": "godan -ku (つまずく → つまずいて, つまずかない)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:537 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Walking outside; Toy on the floor at night; Stuck in one's studies), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "32e9d5481e41602beeb7668a2120857148f1e8ab2061822b31fa93e14a87556c",
+        "approvalHash": "be4a7f7fd8cfaf9e8171a58c34400435c5b9c4656652aa666a82670be3b6666c"
+      }
+    },
+    {
+      "id": "vocab-n4:538",
+      "revisionId": "169c-n4-enrichment-538",
+      "state": "accepted",
+      "predecessorHash": "406235402e64b51b7a5e588865ddea7ef76d28228ed5fd6245b490a653e50d12",
+      "originalHash": "406235402e64b51b7a5e588865ddea7ef76d28228ed5fd6245b490a653e50d12",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "子供が跳ねています。",
+            "romaji": "Kodomo ga haneteimasu.",
+            "german": "Die Kinder hüpfen."
+          },
+          {
+            "japanese": "子供たちが嬉しそうに跳ねています。",
+            "romaji": "Kodomotachi ga ureshisou ni hanete imasu.",
+            "german": "Die Kinder hüpfen fröhlich herum."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "跳ねる heißt „hüpfen, hochspringen“ – von Kindern, Tieren, Fischen oder Bällen; lebhaftes Herumhüpfen ist oft 飛び跳ねる. Außerdem spritzen Flüssigkeiten: 油が跳ねる, 泥が跳ねる. Zum Vergleich: 跳ぶ ist ein gezielter Sprung (über etwas, weit), 飛ぶ heißt „fliegen“. Nicht verwechseln mit dem transitiven はねる „anfahren“ (車にはねられる), das 撥ねる geschrieben wird.",
+        "examples": [
+          {
+            "japanese": "子供が跳ねています。",
+            "romaji": "Kodomo ga haneteimasu.",
+            "german": "Die Kinder hüpfen."
+          },
+          {
+            "japanese": "油が跳ねるので、気をつけてください。",
+            "romaji": "Abura ga haneru node, ki o tsukete kudasai.",
+            "german": "Vorsicht, das Öl spritzt."
+          },
+          {
+            "japanese": "池で魚が跳ねました。",
+            "romaji": "Ike de sakana ga hanemashita.",
+            "german": "Im Teich ist ein Fisch hochgesprungen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217195287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 終止形-一般; aType 2. Rejected for this role: 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "跳ねる",
+              "reading": "はねる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ナ行; 終止形-一般",
+              "sense": "Verb 跳ねる/はねる \"springen, hüpfen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1429620 senses 1–2, ichidan verb: to jump, to hop, to leap; to splash, to spatter Pitch: Verified [2] via exact UniDic row. 跳ねる heißt „hüpfen, hochspringen“ – von Kindern, Tieren, Fischen oder Bällen; lebhaftes Herumhüpfen ist oft 飛び跳ねる. Außerdem spritzen Flüssigkeiten: 油が跳ねる, 泥が跳ねる. Zum Vergleich: 跳ぶ ist ein gezielter Sprung (über etwas, weit), 飛ぶ heißt „fliegen“. Nicht verwechseln mit dem transitiven はねる „anfahren“ (車にはねられる), das 撥ねる geschrieben wird. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1429620; spelling=跳ねる; reading=はねる",
+          "selected": {
+            "sequence": "1429620",
+            "spelling": "跳ねる",
+            "reading": "はねる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to jump",
+                  "to leap",
+                  "to prance",
+                  "to spring up",
+                  "to bound",
+                  "to hop"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to splash (of oil, mud, etc.)",
+                  "to spatter",
+                  "to splash up"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to burst",
+                  "to crack open",
+                  "to pop"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to come to an end (of a show, movie, etc.)",
+                  "to close for the day (e.g of a shop)",
+                  "to be finished"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to play hane",
+                  "to hane"
+                ],
+                "notes": [
+                  "usu. ハネる"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1429620 senses 1–2, ichidan verb: to jump, to hop, to leap; to splash, to spatter"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 終止形-一般; aType 2. Rejected for this role: 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 連体形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217195287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 終止形-一般; aType 2. Rejected for this role: 跳ねる/ハネル; lemma 跳ねる; 動詞/一般/*/*; 下一段-ナ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "跳ねる",
+              "reading": "はねる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ナ行; 終止形-一般",
+              "sense": "Verb 跳ねる/はねる \"springen, hüpfen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "reviewedDistinctContexts": true,
+        "meaning": "springen, hüpfen. JMdict 1429620 senses 1–2, ichidan verb: to jump, to hop, to leap; to splash, to spatter",
+        "japanese": "子供が跳ねています。 / 油が跳ねるので、気をつけてください。 / 池で魚が跳ねました。",
+        "romanization": "haneru; Kodomo ga haneteimasu. / Abura ga haneru node, ki o tsukete kudasai. / Ike de sakana ga hanemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Kinder hüpfen. / Vorsicht, das Öl spritzt. / Im Teich ist ein Fisch hochgesprungen.",
+        "contexts": [
+          "Children at play",
+          "Frying in the kitchen",
+          "Fish in a pond"
+        ],
+        "lexical": "JMdict 1429620 senses 1–2, ichidan verb: to jump, to hop, to leap; to splash, to spatter",
+        "register": "neutral",
+        "transitivity": "intransitive; no direct transitive partner (transitive はねる/撥ねる 'to hit, to reject' is a separate word)",
+        "conjugation": "ichidan (跳ねる → 跳ねて, 跳ねない)",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n4-author-169",
+        "finding": "Author reread the exact final card vocab-n4:538 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Children at play; Frying in the kitchen; Fish in a pond), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6eaaa377338b53ffee0678a6bb6a9a30dc8a20371e857736e9d8c354dc4822f3",
+        "approvalHash": "6ebd68c3850ecd5e7555c182d0947183243784a0135073e2cb1542ae078ad4ea"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
