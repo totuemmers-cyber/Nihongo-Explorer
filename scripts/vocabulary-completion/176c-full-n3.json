@@ -1,0 +1,3516 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:177",
+      "revisionId": "176c-n3-enrichment-vocab-n3-177",
+      "state": "accepted",
+      "predecessorHash": "de2977c56e6c98a22faa064499081941b1bf1bb643be3daaae008790e74f2215",
+      "originalHash": "de2977c56e6c98a22faa064499081941b1bf1bb643be3daaae008790e74f2215",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "二つの案を比較します。",
+            "romaji": "Futatsu no an o hikaku shimasu.",
+            "german": "Ich vergleiche die zwei Vorschläge."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "比較する heißt „vergleichen“, meist in der Form AをBと比較する oder AとBを比較する. Sehr häufig ist die Wendung 〜と比較して „im Vergleich zu“. Im Alltag sagt man meist das japanische Verb 比べる; 比較する klingt sachlicher und passt zu Berichten, Statistiken und Preisvergleichen. Verwandt: 比較的 „relativ, verhältnismäßig“.",
+        "examples": [
+          {
+            "japanese": "二つの案を比較します。",
+            "romaji": "Futatsu no an o hikaku shimasu.",
+            "german": "Ich vergleiche die zwei Vorschläge."
+          },
+          {
+            "japanese": "去年と比較して、今年は雨が少ないです。",
+            "romaji": "Kyonen to hikaku shite, kotoshi wa ame ga sukunai desu.",
+            "german": "Im Vergleich zum Vorjahr regnet es dieses Jahr weniger."
+          },
+          {
+            "japanese": "買う前に、ネットで値段を比較しました。",
+            "romaji": "Kau mae ni, netto de nedan o hikaku shimashita.",
+            "german": "Vor dem Kauf habe ich im Internet die Preise verglichen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 20aad4d30d23a085761a68291aaa840a9349ee389ccad9ce225afbc936da13e4",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B#word_2627",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 比較する/ひかくする read; accent_top positions [0] (0 = no accent_top). Exact whole 比較する/ひかくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "比較する",
+              "reading": "ひかくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 比較する/ひかくする \"vergleichen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1483560 sense 1, noun / suru verb: comparison, to compare Pitch: Verified [0] via exact OJAD dictionary-form cell. 比較する heißt „vergleichen“, meist in der Form AをBと比較する oder AとBを比較する. Sehr häufig ist die Wendung 〜と比較して „im Vergleich zu“. Im Alltag sagt man meist das japanische Verb 比べる; 比較する klingt sachlicher und passt zu Berichten, Statistiken und Preisvergleichen. Verwandt: 比較的 „relativ, verhältnismäßig“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483560; spelling=比較する; reading=ひかくする",
+          "finding": "JMdict 1483560 sense 1, noun / suru verb: comparison, to compare"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 比較する/ひかくする read; accent_top positions [0] (0 = no accent_top). Exact whole 比較する/ひかくする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 20aad4d30d23a085761a68291aaa840a9349ee389ccad9ce225afbc936da13e4",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%AF%94%E8%BC%83%E3%81%99%E3%82%8B#word_2627",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 比較する/ひかくする read; accent_top positions [0] (0 = no accent_top). Exact whole 比較する/ひかくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "比較する",
+              "reading": "ひかくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 比較する/ひかくする \"vergleichen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "vergleichen. JMdict 1483560 sense 1, noun / suru verb: comparison, to compare",
+        "japanese": "二つの案を比較します。 / 去年と比較して、今年は雨が少ないです。 / 買う前に、ネットで値段を比較しました。",
+        "romanization": "hikaku suru; Futatsu no an o hikaku shimasu. / Kyonen to hikaku shite, kotoshi wa ame ga sukunai desu. / Kau mae ni, netto de nedan o hikaku shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich vergleiche die zwei Vorschläge. / Im Vergleich zum Vorjahr regnet es dieses Jahr weniger. / Vor dem Kauf habe ich im Internet die Preise verglichen.",
+        "contexts": [
+          "Weighing two proposals",
+          "Comparing with last year",
+          "Price comparison before buying"
+        ],
+        "lexical": "JMdict 1483560 sense 1, noun / suru verb: comparison, to compare",
+        "register": "neutral, slightly formal",
+        "transitivity": "transitive (A を B と比較する)",
+        "conjugation": "suru verb (比較する → 比較して, 比較しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:177 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weighing two proposals; Comparing with last year; Price comparison before buying), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2f408a7bdbcf3bea85ae84e67d667501f980f8634d7cfe865979079528d6a5db",
+        "approvalHash": "ab817fb333c777ab16f87506a1c53f5eee72e9a89de106a3eb09a771228ae89f"
+      }
+    },
+    {
+      "id": "vocab-n3:178",
+      "revisionId": "176c-n3-enrichment-vocab-n3-178",
+      "state": "accepted",
+      "predecessorHash": "eff282caccbe5635c7fcba06ee54a208bfc93d740e261c87fb3c967461c2143f",
+      "originalHash": "eff282caccbe5635c7fcba06ee54a208bfc93d740e261c87fb3c967461c2143f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "二つを区別してください。",
+            "romaji": "Futatsu o kubetsu shite kudasai.",
+            "german": "Bitte unterscheiden Sie die beiden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "区別する bedeutet „unterscheiden, auseinanderhalten“: AとBを区別する oder AをBと区別する. Sehr häufig sind 区別がつく „man kann es unterscheiden“ und 区別がつかない „man kann es nicht auseinanderhalten“. Nicht verwechseln mit 差別 „Diskriminierung“, das eine ungerechte Benachteiligung von Menschen meint. 見分ける betont dagegen das Erkennen mit den Augen.",
+        "examples": [
+          {
+            "japanese": "二つを区別してください。",
+            "romaji": "Futatsu o kubetsu shite kudasai.",
+            "german": "Bitte unterscheiden Sie die beiden."
+          },
+          {
+            "japanese": "仕事とプライベートを区別するのは大切です。",
+            "romaji": "Shigoto to puraibeeto o kubetsu suru no wa taisetsu desu.",
+            "german": "Es ist wichtig, Arbeit und Privatleben zu trennen."
+          },
+          {
+            "japanese": "双子なので、どちらがどちらか区別がつきません。",
+            "romaji": "Futago na node, dochira ga dochira ka kubetsu ga tsukimasen.",
+            "german": "Sie sind Zwillinge, deshalb kann ich sie nicht auseinanderhalten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e720b79b9f2884ba0bf63a4b390059c7261ce199a814fc1523f1c0ed741a53b1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8C%BA%E5%88%A5%E3%81%99%E3%82%8B#word_1684",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 区別する/くべつする read; accent_top positions [1] (0 = no accent_top). Exact whole 区別する/くべつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "区別する",
+              "reading": "くべつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 区別する/くべつする \"unterscheiden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1244250 sense 1, noun / suru verb: distinction, to distinguish, to differentiate Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 区別する bedeutet „unterscheiden, auseinanderhalten“: AとBを区別する oder AをBと区別する. Sehr häufig sind 区別がつく „man kann es unterscheiden“ und 区別がつかない „man kann es nicht auseinanderhalten“. Nicht verwechseln mit 差別 „Diskriminierung“, das eine ungerechte Benachteiligung von Menschen meint. 見分ける betont dagegen das Erkennen mit den Augen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1244250; spelling=区別する; reading=くべつする",
+          "finding": "JMdict 1244250 sense 1, noun / suru verb: distinction, to distinguish, to differentiate"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 区別する/くべつする read; accent_top positions [1] (0 = no accent_top). Exact whole 区別する/くべつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e720b79b9f2884ba0bf63a4b390059c7261ce199a814fc1523f1c0ed741a53b1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8C%BA%E5%88%A5%E3%81%99%E3%82%8B#word_1684",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 区別する/くべつする read; accent_top positions [1] (0 = no accent_top). Exact whole 区別する/くべつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "区別する",
+              "reading": "くべつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 区別する/くべつする \"unterscheiden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "unterscheiden. JMdict 1244250 sense 1, noun / suru verb: distinction, to distinguish, to differentiate",
+        "japanese": "二つを区別してください。 / 仕事とプライベートを区別するのは大切です。 / 双子なので、どちらがどちらか区別がつきません。",
+        "romanization": "kubetsu suru; Futatsu o kubetsu shite kudasai. / Shigoto to puraibeeto o kubetsu suru no wa taisetsu desu. / Futago na node, dochira ga dochira ka kubetsu ga tsukimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte unterscheiden Sie die beiden. / Es ist wichtig, Arbeit und Privatleben zu trennen. / Sie sind Zwillinge, deshalb kann ich sie nicht auseinanderhalten.",
+        "contexts": [
+          "Instruction to tell things apart",
+          "Work-life balance",
+          "Unable to tell twins apart"
+        ],
+        "lexical": "JMdict 1244250 sense 1, noun / suru verb: distinction, to distinguish, to differentiate",
+        "register": "neutral",
+        "transitivity": "transitive (A と B を区別する / A を B と区別する); 区別がつく as intransitive phrase",
+        "conjugation": "suru verb (区別する → 区別して, 区別しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:178 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Instruction to tell things apart; Work-life balance; Unable to tell twins apart), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b4a806bbc75c8a3b848c9338d82d3749db65381c960b5e4034a8e6de0c91a566",
+        "approvalHash": "83d268c192a90259bc3a5b3da4a3d53c47670de0e316e8b4952d0f64ada04de2"
+      }
+    },
+    {
+      "id": "vocab-n3:179",
+      "revisionId": "176c-n3-enrichment-vocab-n3-179",
+      "state": "accepted",
+      "predecessorHash": "df3cc9e4718883d9a59529170ed1568406649f54ff183bbf26dead7fabd06617",
+      "originalHash": "df3cc9e4718883d9a59529170ed1568406649f54ff183bbf26dead7fabd06617",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "データを分類します。",
+            "romaji": "Deeta o bunrui shimasu.",
+            "german": "Ich klassifiziere die Daten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分類する heißt „klassifizieren, in Gruppen einordnen“: AをBに分類する „A in B einteilen“. Sehr häufig ist das Passiv 〜に分類される „wird zu … gezählt“. Im Alltag sagt man einfacher 分ける. Für das Mülltrennen benutzt man nicht 分類, sondern 分別（ぶんべつ）: ゴミの分別.",
+        "examples": [
+          {
+            "japanese": "データを分類します。",
+            "romaji": "Deeta o bunrui shimasu.",
+            "german": "Ich klassifiziere die Daten."
+          },
+          {
+            "japanese": "図書館の本はテーマごとに分類されています。",
+            "romaji": "Toshokan no hon wa teema goto ni bunrui sarete imasu.",
+            "german": "Die Bücher in der Bibliothek sind nach Themen geordnet."
+          },
+          {
+            "japanese": "トマトは野菜に分類されることが多いです。",
+            "romaji": "Tomato wa yasai ni bunrui sareru koto ga ooi desu.",
+            "german": "Tomaten werden meist zum Gemüse gezählt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 88d60f00f5a3132c046bf697a9fef7cd316a44c516532e39afcbc5f6a4adc8ab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E9%A1%9E%E3%81%99%E3%82%8B#word_2672",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分類する/ぶんるいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分類する/ぶんるいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分類する",
+              "reading": "ぶんるいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分類する/ぶんるいする \"klassifizieren, einordnen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1504460 sense 1, noun / suru verb: classification, categorization, to classify Pitch: Verified [0] via exact OJAD dictionary-form cell. 分類する heißt „klassifizieren, in Gruppen einordnen“: AをBに分類する „A in B einteilen“. Sehr häufig ist das Passiv 〜に分類される „wird zu … gezählt“. Im Alltag sagt man einfacher 分ける. Für das Mülltrennen benutzt man nicht 分類, sondern 分別（ぶんべつ）: ゴミの分別. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1504460; spelling=分類する; reading=ぶんるいする",
+          "finding": "JMdict 1504460 sense 1, noun / suru verb: classification, categorization, to classify"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 分類する/ぶんるいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分類する/ぶんるいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 88d60f00f5a3132c046bf697a9fef7cd316a44c516532e39afcbc5f6a4adc8ab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E9%A1%9E%E3%81%99%E3%82%8B#word_2672",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分類する/ぶんるいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分類する/ぶんるいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分類する",
+              "reading": "ぶんるいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分類する/ぶんるいする \"klassifizieren, einordnen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "klassifizieren, einordnen. JMdict 1504460 sense 1, noun / suru verb: classification, categorization, to classify",
+        "japanese": "データを分類します。 / 図書館の本はテーマごとに分類されています。 / トマトは野菜に分類されることが多いです。",
+        "romanization": "bunrui suru; Deeta o bunrui shimasu. / Toshokan no hon wa teema goto ni bunrui sarete imasu. / Tomato wa yasai ni bunrui sareru koto ga ooi desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich klassifiziere die Daten. / Die Bücher in der Bibliothek sind nach Themen geordnet. / Tomaten werden meist zum Gemüse gezählt.",
+        "contexts": [
+          "Sorting data at work",
+          "Library organisation",
+          "Which category a food belongs to"
+        ],
+        "lexical": "JMdict 1504460 sense 1, noun / suru verb: classification, categorization, to classify",
+        "register": "neutral, slightly formal",
+        "transitivity": "transitive (A を B に分類する); passive 〜に分類される common",
+        "conjugation": "suru verb (分類する → 分類して, 分類しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:179 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sorting data at work; Library organisation; Which category a food belongs to), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "cba068d8d609868247ea3cb669288ddfc1a67cc139bd728aec47e8270ec8eda3",
+        "approvalHash": "4e64d0949f149778c3f8791e36cf112197a5d1d0c9a9bb5ac6f1894e2d68fc51"
+      }
+    },
+    {
+      "id": "vocab-n3:180",
+      "revisionId": "176c-n3-enrichment-vocab-n3-180",
+      "state": "accepted",
+      "predecessorHash": "3caac1bc197e8193a04266806bc9ca0d8e0e50707d63a30331eda4623a0651b0",
+      "originalHash": "3caac1bc197e8193a04266806bc9ca0d8e0e50707d63a30331eda4623a0651b0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "原因を特定します。",
+            "romaji": "Genin o tokutei shimasu.",
+            "german": "Ich identifiziere die Ursache."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "特定する bedeutet „genau bestimmen, ermitteln, identifizieren“ – aus mehreren Möglichkeiten die eine richtige herausfinden: 原因を特定する, 犯人を特定する, 場所を特定する. Typisch für Nachrichten, Polizei und Technik. Als Adjektiv 特定の heißt es „bestimmt, spezifisch“ (特定の人). Nicht verwechseln mit 指定する „festlegen, vorgeben“.",
+        "examples": [
+          {
+            "japanese": "原因を特定します。",
+            "romaji": "Gen'in o tokutei shimasu.",
+            "german": "Ich identifiziere die Ursache."
+          },
+          {
+            "japanese": "警察は防犯カメラの映像から犯人を特定しました。",
+            "romaji": "Keisatsu wa bouhan kamera no eizou kara hannin o tokutei shimashita.",
+            "german": "Die Polizei hat den Täter anhand von Überwachungsvideos identifiziert."
+          },
+          {
+            "japanese": "写真から場所を特定されることもあるので、気をつけてください。",
+            "romaji": "Shashin kara basho o tokutei sareru koto mo aru node, ki o tsukete kudasai.",
+            "german": "Seien Sie vorsichtig: Anhand von Fotos kann manchmal der Ort ermittelt werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1455210 sense 2, noun / suru verb: specifying, identifying, pinpointing Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 特定する bedeutet „genau bestimmen, ermitteln, identifizieren“ – aus mehreren Möglichkeiten die eine richtige herausfinden: 原因を特定する, 犯人を特定する, 場所を特定する. Typisch für Nachrichten, Polizei und Technik. Als Adjektiv 特定の heißt es „bestimmt, spezifisch“ (特定の人). Nicht verwechseln mit 指定する „festlegen, vorgeben“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1455210; spelling=特定する; reading=とくていする",
+          "finding": "JMdict 1455210 sense 2, noun / suru verb: specifying, identifying, pinpointing"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 特定する/とくていする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (特定); none is the exact head 特定する/とくていする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%89%B9%E5%AE%9A%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 特定する/とくていする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 f27d56092aae3d73458bf4fd775390a059070da5a000e121ab6e7f761bd30faf",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%89%B9%E5%AE%9A%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (特定); none is the exact head 特定する/とくていする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "identifizieren, bestimmen. JMdict 1455210 sense 2, noun / suru verb: specifying, identifying, pinpointing",
+        "japanese": "原因を特定します。 / 警察は防犯カメラの映像から犯人を特定しました。 / 写真から場所を特定されることもあるので、気をつけてください。",
+        "romanization": "tokutei suru; Gen'in o tokutei shimasu. / Keisatsu wa bouhan kamera no eizou kara hannin o tokutei shimashita. / Shashin kara basho o tokutei sareru koto mo aru node, ki o tsukete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich identifiziere die Ursache. / Die Polizei hat den Täter anhand von Überwachungsvideos identifiziert. / Seien Sie vorsichtig: Anhand von Fotos kann manchmal der Ort ermittelt werden.",
+        "contexts": [
+          "Troubleshooting a fault",
+          "Police investigation",
+          "Privacy warning about photos"
+        ],
+        "lexical": "JMdict 1455210 sense 2, noun / suru verb: specifying, identifying, pinpointing",
+        "register": "neutral to formal (news, technical)",
+        "transitivity": "transitive (X を特定する); passive 特定される",
+        "conjugation": "suru verb (特定する → 特定して, 特定しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:180 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Troubleshooting a fault; Police investigation; Privacy warning about photos), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "78db974804f062ad00bd82895dbad8a48649cfab029b3a69bbcb40b6b3594d7e",
+        "approvalHash": "cba1d2472d07d16fa467e0307f15a496238f5a1d40cd0f65c33db43d74ac6d1c"
+      }
+    },
+    {
+      "id": "vocab-n3:181",
+      "revisionId": "176c-n3-enrichment-vocab-n3-181",
+      "state": "accepted",
+      "predecessorHash": "8c055a6ff6602d22ffe83d5155f3d235a70e958c390b1c0a0cb9323c65d2a1f6",
+      "originalHash": "8c055a6ff6602d22ffe83d5155f3d235a70e958c390b1c0a0cb9323c65d2a1f6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "最悪のケースを想定します。",
+            "romaji": "Saiaku no keesu o soutei shimasu.",
+            "german": "Ich nehme den schlimmsten Fall an."
+          }
+        ],
+        "meaning": "annehmen, voraussetzen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "想定する heißt „(einen Fall) annehmen, von etwas ausgehen, einkalkulieren“ – man stellt sich eine Situation im Voraus vor, um sich darauf vorzubereiten: 〜を想定して準備する. Sehr häufig sind 想定外 „unerwartet, nicht eingeplant“ und 想定内 „im Rahmen des Erwarteten“. 予想 ist dagegen die Erwartung eines Ergebnisses, 仮定 eine rein gedankliche Annahme.",
+        "examples": [
+          {
+            "japanese": "最悪のケースを想定します。",
+            "romaji": "Saiaku no keesu o soutei shimasu.",
+            "german": "Ich nehme den schlimmsten Fall an."
+          },
+          {
+            "japanese": "地震を想定して、避難訓練を行いました。",
+            "romaji": "Jishin o soutei shite, hinan kunren o okonaimashita.",
+            "german": "Wir haben für den Fall eines Erdbebens eine Evakuierungsübung durchgeführt."
+          },
+          {
+            "japanese": "こんなに人が来るとは想定していませんでした。",
+            "romaji": "Konna ni hito ga kuru to wa soutei shite imasen deshita.",
+            "german": "Mit so vielen Leuten hatten wir nicht gerechnet."
+          }
+        ],
+        "meaning": "annehmen, von etw. ausgehen, einkalkulieren",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 71a974d9ec09c1b5d9ae9c53629c3d67ed7c5d9d84208530852ef9f65f4dd722",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%83%B3%E5%AE%9A%E3%81%99%E3%82%8B#word_2380",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 想定する/そうていする read; accent_top positions [0] (0 = no accent_top). Exact whole 想定する/そうていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "想定する",
+              "reading": "そうていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 想定する/そうていする \"annehmen, voraussetzen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1399630 sense 1, noun / suru verb: supposition, assumption, anticipation; to assume, to envisage Pitch: Verified [0] via exact OJAD dictionary-form cell. 想定する heißt „(einen Fall) annehmen, von etwas ausgehen, einkalkulieren“ – man stellt sich eine Situation im Voraus vor, um sich darauf vorzubereiten: 〜を想定して準備する. Sehr häufig sind 想定外 „unerwartet, nicht eingeplant“ und 想定内 „im Rahmen des Erwarteten“. 予想 ist dagegen die Erwartung eines Ergebnisses, 仮定 eine rein gedankliche Annahme. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1399630; spelling=想定する; reading=そうていする",
+          "finding": "JMdict 1399630 sense 1, noun / suru verb: supposition, assumption, anticipation; to assume, to envisage"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 想定する/そうていする read; accent_top positions [0] (0 = no accent_top). Exact whole 想定する/そうていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 71a974d9ec09c1b5d9ae9c53629c3d67ed7c5d9d84208530852ef9f65f4dd722",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%83%B3%E5%AE%9A%E3%81%99%E3%82%8B#word_2380",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 想定する/そうていする read; accent_top positions [0] (0 = no accent_top). Exact whole 想定する/そうていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "想定する",
+              "reading": "そうていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 想定する/そうていする \"annehmen, voraussetzen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "annehmen, von etw. ausgehen, einkalkulieren. JMdict 1399630 sense 1, noun / suru verb: supposition, assumption, anticipation; to assume, to envisage",
+        "japanese": "最悪のケースを想定します。 / 地震を想定して、避難訓練を行いました。 / こんなに人が来るとは想定していませんでした。",
+        "romanization": "soutei suru; Saiaku no keesu o soutei shimasu. / Jishin o soutei shite, hinan kunren o okonaimashita. / Konna ni hito ga kuru to wa soutei shite imasen deshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme den schlimmsten Fall an. / Wir haben für den Fall eines Erdbebens eine Evakuierungsübung durchgeführt. / Mit so vielen Leuten hatten wir nicht gerechnet.",
+        "contexts": [
+          "Risk planning",
+          "Earthquake drill",
+          "Unexpectedly large crowd"
+        ],
+        "lexical": "JMdict 1399630 sense 1, noun / suru verb: supposition, assumption, anticipation; to assume, to envisage",
+        "register": "neutral to formal (business, planning)",
+        "transitivity": "transitive (X を想定する; 〜と想定する)",
+        "conjugation": "suru verb (想定する → 想定して, 想定しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:181 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Risk planning; Earthquake drill; Unexpectedly large crowd), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4e0cab754024bdd4c0f26e199c1ae72f426ac38ae55ee0cc97019a379ab7e2c9",
+        "approvalHash": "985af9d72d4d6b61c6a4184b12581c1cac27c8d4909076831d1c04972f66b164"
+      }
+    },
+    {
+      "id": "vocab-n3:182",
+      "revisionId": "176c-n3-enrichment-vocab-n3-182",
+      "state": "accepted",
+      "predecessorHash": "a42601d3560ed2c70acc80fcb290aa566688379db567d46febe1b6d4b7b50cb4",
+      "originalHash": "a42601d3560ed2c70acc80fcb290aa566688379db567d46febe1b6d4b7b50cb4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "将来を予測します。",
+            "romaji": "Shourai o yosoku shimasu.",
+            "german": "Ich sage die Zukunft vorher."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "予測する bedeutet „vorhersagen, prognostizieren“, meist auf Grundlage von Daten oder Analysen: 売り上げを予測する, 〜と予測している. Häufig verneint: 予測できない / 予測がつかない „unberechenbar“. 予想 ist allgemeiner und auch für persönliche Tipps üblich (試合の結果を予想する), 予報 ist speziell die Wettervorhersage.",
+        "examples": [
+          {
+            "japanese": "将来を予測するのは難しいです。",
+            "romaji": "Shourai o yosoku suru no wa muzukashii desu.",
+            "german": "Die Zukunft vorherzusagen ist schwierig."
+          },
+          {
+            "japanese": "専門家は、来年も物価が上がると予測しています。",
+            "romaji": "Senmonka wa, rainen mo bukka ga agaru to yosoku shite imasu.",
+            "german": "Experten sagen voraus, dass die Preise auch nächstes Jahr steigen."
+          },
+          {
+            "japanese": "子どもの行動は予測できません。",
+            "romaji": "Kodomo no koudou wa yosoku dekimasen.",
+            "german": "Was Kinder als Nächstes tun, ist unberechenbar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 f07f8e8fad0597757adcbd1befa80fe9c66262161cf2c20d7ed3f95ced87cf6d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B#word_2765",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 予測する/よそくする read; accent_top positions [0] (0 = no accent_top). Exact whole 予測する/よそくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "予測する",
+              "reading": "よそくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 予測する/よそくする \"vorhersagen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1543200 sense 1, noun / suru verb: prediction, estimation; to predict, to forecast Pitch: Verified [0] via exact OJAD dictionary-form cell. 予測する bedeutet „vorhersagen, prognostizieren“, meist auf Grundlage von Daten oder Analysen: 売り上げを予測する, 〜と予測している. Häufig verneint: 予測できない / 予測がつかない „unberechenbar“. 予想 ist allgemeiner und auch für persönliche Tipps üblich (試合の結果を予想する), 予報 ist speziell die Wettervorhersage. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1543200; spelling=予測する; reading=よそくする",
+          "finding": "JMdict 1543200 sense 1, noun / suru verb: prediction, estimation; to predict, to forecast"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 予測する/よそくする read; accent_top positions [0] (0 = no accent_top). Exact whole 予測する/よそくする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 f07f8e8fad0597757adcbd1befa80fe9c66262161cf2c20d7ed3f95ced87cf6d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%88%E6%B8%AC%E3%81%99%E3%82%8B#word_2765",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 予測する/よそくする read; accent_top positions [0] (0 = no accent_top). Exact whole 予測する/よそくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "予測する",
+              "reading": "よそくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 予測する/よそくする \"vorhersagen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "vorhersagen. JMdict 1543200 sense 1, noun / suru verb: prediction, estimation; to predict, to forecast",
+        "japanese": "将来を予測するのは難しいです。 / 専門家は、来年も物価が上がると予測しています。 / 子どもの行動は予測できません。",
+        "romanization": "yosoku suru; Shourai o yosoku suru no wa muzukashii desu. / Senmonka wa, rainen mo bukka ga agaru to yosoku shite imasu. / Kodomo no koudou wa yosoku dekimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zukunft vorherzusagen ist schwierig. / Experten sagen voraus, dass die Preise auch nächstes Jahr steigen. / Was Kinder als Nächstes tun, ist unberechenbar.",
+        "contexts": [
+          "General statement about the future",
+          "Economic forecast",
+          "Parenting"
+        ],
+        "lexical": "JMdict 1543200 sense 1, noun / suru verb: prediction, estimation; to predict, to forecast",
+        "register": "neutral, slightly formal",
+        "transitivity": "transitive (X を予測する; 〜と予測する)",
+        "conjugation": "suru verb (予測する → 予測して, 予測しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:182 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (General statement about the future; Economic forecast; Parenting), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c2ee4c2ac170764407328ee682602a45a9a34803825f1d6b19d453b0a956fee3",
+        "approvalHash": "3532a2191dc06c341a8108bc487248fa63acbf4d9b3aeafe4e6673c10fb5bec8"
+      }
+    },
+    {
+      "id": "vocab-n3:183",
+      "revisionId": "176c-n3-enrichment-vocab-n3-183",
+      "state": "accepted",
+      "predecessorHash": "0211ceb8f1a8238094db77870756ece8eda1052e5c133b925976f5121edd8c07",
+      "originalHash": "0211ceb8f1a8238094db77870756ece8eda1052e5c133b925976f5121edd8c07",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "被害額を推定します。",
+            "romaji": "Higaigaku o suitei shimasu.",
+            "german": "Ich schätze die Schadenshöhe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "推定する heißt „schätzen, (aufgrund von Indizien) annehmen“. Typisch in Nachrichten und Wissenschaft, oft im Passiv: 〜と推定される „man schätzt, dass …“, z. B. bei Alter, Schaden oder Zeitpunkt. 推測 ist eher eine Vermutung ohne feste Grundlage, 見積もる das Schätzen von Kosten (Kostenvoranschlag). Bekannt ist auch 推定無罪 „Unschuldsvermutung“.",
+        "examples": [
+          {
+            "japanese": "被害額を推定します。",
+            "romaji": "Higaigaku o suitei shimasu.",
+            "german": "Ich schätze die Schadenshöhe."
+          },
+          {
+            "japanese": "この寺は約八百年前に建てられたと推定されています。",
+            "romaji": "Kono tera wa yaku happyaku nen mae ni taterareta to suitei sarete imasu.",
+            "german": "Man schätzt, dass dieser Tempel vor etwa 800 Jahren erbaut wurde."
+          },
+          {
+            "japanese": "警察は、男の年齢を四十歳ぐらいと推定しています。",
+            "romaji": "Keisatsu wa, otoko no nenrei o yonjussai gurai to suitei shite imasu.",
+            "german": "Die Polizei schätzt das Alter des Mannes auf etwa vierzig Jahre."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 f00c6e65279bfd0872cc6d105810fdeac550f4a21f0a0a472e21612f329a8685",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8E%A8%E5%AE%9A%E3%81%99%E3%82%8B#word_2315",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 推定する/すいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 推定する/すいていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "推定する",
+              "reading": "すいていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 推定する/すいていする \"schätzen, vermuten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1371210 senses 1–2, noun / suru verb: presumption, assumption, estimation Pitch: Verified [0] via exact OJAD dictionary-form cell. 推定する heißt „schätzen, (aufgrund von Indizien) annehmen“. Typisch in Nachrichten und Wissenschaft, oft im Passiv: 〜と推定される „man schätzt, dass …“, z. B. bei Alter, Schaden oder Zeitpunkt. 推測 ist eher eine Vermutung ohne feste Grundlage, 見積もる das Schätzen von Kosten (Kostenvoranschlag). Bekannt ist auch 推定無罪 „Unschuldsvermutung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1371210; spelling=推定する; reading=すいていする",
+          "finding": "JMdict 1371210 senses 1–2, noun / suru verb: presumption, assumption, estimation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 推定する/すいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 推定する/すいていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 f00c6e65279bfd0872cc6d105810fdeac550f4a21f0a0a472e21612f329a8685",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8E%A8%E5%AE%9A%E3%81%99%E3%82%8B#word_2315",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 推定する/すいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 推定する/すいていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "推定する",
+              "reading": "すいていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 推定する/すいていする \"schätzen, vermuten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "schätzen, vermuten. JMdict 1371210 senses 1–2, noun / suru verb: presumption, assumption, estimation",
+        "japanese": "被害額を推定します。 / この寺は約八百年前に建てられたと推定されています。 / 警察は、男の年齢を四十歳ぐらいと推定しています。",
+        "romanization": "suitei suru; Higaigaku o suitei shimasu. / Kono tera wa yaku happyaku nen mae ni taterareta to suitei sarete imasu. / Keisatsu wa, otoko no nenrei o yonjussai gurai to suitei shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich schätze die Schadenshöhe. / Man schätzt, dass dieser Tempel vor etwa 800 Jahren erbaut wurde. / Die Polizei schätzt das Alter des Mannes auf etwa vierzig Jahre.",
+        "contexts": [
+          "Damage assessment",
+          "Dating a historic building",
+          "Police description of a suspect"
+        ],
+        "lexical": "JMdict 1371210 senses 1–2, noun / suru verb: presumption, assumption, estimation",
+        "register": "written / formal (news, science)",
+        "transitivity": "transitive (X を Y と推定する); passive 〜と推定される common",
+        "conjugation": "suru verb (推定する → 推定して, 推定しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:183 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Damage assessment; Dating a historic building; Police description of a suspect), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1351ee35132c2ea8e6a3ab20f838b87c98056d91f12c2291b75fc7dfda8790f4",
+        "approvalHash": "c5bab61eb7e83d1ee3d5b97ffca77331f3be5b09261393ccffc92479f04afce5"
+      }
+    },
+    {
+      "id": "vocab-n3:184",
+      "revisionId": "176c-n3-enrichment-vocab-n3-184",
+      "state": "accepted",
+      "predecessorHash": "0c87280bafb4a5b51882c1e148165c68d0fa4300d74c53064fd92019979de00c",
+      "originalHash": "0c87280bafb4a5b51882c1e148165c68d0fa4300d74c53064fd92019979de00c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "温度を測定します。",
+            "romaji": "Ondo o sokutei shimasu.",
+            "german": "Ich messe die Temperatur."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "測定する bedeutet „(mit Instrumenten) messen“ und klingt technisch: 温度・距離・騒音を測定する, 測定値 „Messwert“. Im Alltag sagt man meist 測る (Länge, Temperatur), 計る (Zeit) oder 量る (Gewicht). In der Schule gibt es 身体測定 (Messung von Größe und Gewicht) und 体力測定 (Fitnesstest).",
+        "examples": [
+          {
+            "japanese": "温度を測定します。",
+            "romaji": "Ondo o sokutei shimasu.",
+            "german": "Ich messe die Temperatur."
+          },
+          {
+            "japanese": "部屋の騒音レベルを測定しました。",
+            "romaji": "Heya no souon reberu o sokutei shimashita.",
+            "german": "Wir haben den Lärmpegel im Zimmer gemessen."
+          },
+          {
+            "japanese": "四月に、学校で身長と体重を測定します。",
+            "romaji": "Shigatsu ni, gakkou de shinchou to taijuu o sokutei shimasu.",
+            "german": "Im April werden in der Schule Größe und Gewicht gemessen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 07b08ee5029ddcab90a8b1f3bf72ec1d7fb1ee046f1f2d9dc2f74297dcdc3a3c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B8%AC%E5%AE%9A%E3%81%99%E3%82%8B#word_2386",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 測定する/そくていする read; accent_top positions [0] (0 = no accent_top). Exact whole 測定する/そくていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "測定する",
+              "reading": "そくていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 測定する/そくていする \"messen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1404570 sense 1, noun / suru verb: measurement; to measure Pitch: Verified [0] via exact OJAD dictionary-form cell. 測定する bedeutet „(mit Instrumenten) messen“ und klingt technisch: 温度・距離・騒音を測定する, 測定値 „Messwert“. Im Alltag sagt man meist 測る (Länge, Temperatur), 計る (Zeit) oder 量る (Gewicht). In der Schule gibt es 身体測定 (Messung von Größe und Gewicht) und 体力測定 (Fitnesstest). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1404570; spelling=測定する; reading=そくていする",
+          "finding": "JMdict 1404570 sense 1, noun / suru verb: measurement; to measure"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 測定する/そくていする read; accent_top positions [0] (0 = no accent_top). Exact whole 測定する/そくていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 07b08ee5029ddcab90a8b1f3bf72ec1d7fb1ee046f1f2d9dc2f74297dcdc3a3c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B8%AC%E5%AE%9A%E3%81%99%E3%82%8B#word_2386",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 測定する/そくていする read; accent_top positions [0] (0 = no accent_top). Exact whole 測定する/そくていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "測定する",
+              "reading": "そくていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 測定する/そくていする \"messen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "messen. JMdict 1404570 sense 1, noun / suru verb: measurement; to measure",
+        "japanese": "温度を測定します。 / 部屋の騒音レベルを測定しました。 / 四月に、学校で身長と体重を測定します。",
+        "romanization": "sokutei suru; Ondo o sokutei shimasu. / Heya no souon reberu o sokutei shimashita. / Shigatsu ni, gakkou de shinchou to taijuu o sokutei shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich messe die Temperatur. / Wir haben den Lärmpegel im Zimmer gemessen. / Im April werden in der Schule Größe und Gewicht gemessen.",
+        "contexts": [
+          "Lab or technical measurement",
+          "Noise complaint",
+          "School health check"
+        ],
+        "lexical": "JMdict 1404570 sense 1, noun / suru verb: measurement; to measure",
+        "register": "neutral to technical",
+        "transitivity": "transitive (X を測定する)",
+        "conjugation": "suru verb (測定する → 測定して, 測定しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:184 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lab or technical measurement; Noise complaint; School health check), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "138c12232ec3242286d865dcd5c3134a3ca81fecbc860700270278739cbc2492",
+        "approvalHash": "b0b22114ac0c59839062beda2ec20020fa9a44ab0c713a6ee612a95ccd9786c9"
+      }
+    },
+    {
+      "id": "vocab-n3:185",
+      "revisionId": "176c-n3-enrichment-vocab-n3-185",
+      "state": "accepted",
+      "predecessorHash": "ec7606402890b94d7b6c02c1f0092436fb1b7519125051acb7f3cbb29178241b",
+      "originalHash": "ec7606402890b94d7b6c02c1f0092436fb1b7519125051acb7f3cbb29178241b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "動物を観察します。",
+            "romaji": "Doubutsu o kansatsu shimasu.",
+            "german": "Ich beobachte Tiere."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "観察する heißt „aufmerksam beobachten“, meist über längere Zeit, um etwas zu lernen oder zu verstehen: 植物・動物・様子を観察する. Japanische Grundschüler führen in den Ferien oft ein 観察日記. 観測 ist das wissenschaftliche Beobachten mit Messungen (Wetter, Sterne), 監視 die Überwachung. Einfaches „ansehen“ ist nur 見る.",
+        "examples": [
+          {
+            "japanese": "動物を観察します。",
+            "romaji": "Doubutsu o kansatsu shimasu.",
+            "german": "Ich beobachte Tiere."
+          },
+          {
+            "japanese": "夏休みに、アサガオを毎日観察して日記を書きました。",
+            "romaji": "Natsuyasumi ni, asagao o mainichi kansatsu shite nikki o kakimashita.",
+            "german": "In den Sommerferien habe ich jeden Tag eine Trichterwinde beobachtet und Tagebuch darüber geführt."
+          },
+          {
+            "japanese": "人の行動を観察するのが好きです。",
+            "romaji": "Hito no koudou o kansatsu suru no ga suki desu.",
+            "german": "Ich beobachte gern, wie sich Menschen verhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 cb907f5824b1464bc5fef9d856d5633a459b73d605a148b91a6093322dd3ded1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B#word_1993",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 観察する/かんさつする read; accent_top positions [0] (0 = no accent_top). Exact whole 観察する/かんさつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "観察する",
+              "reading": "かんさつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 観察する/かんさつする \"beobachten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1214900 sense 1, noun / suru verb: observation, watching; to observe Pitch: Verified [0] via exact OJAD dictionary-form cell. 観察する heißt „aufmerksam beobachten“, meist über längere Zeit, um etwas zu lernen oder zu verstehen: 植物・動物・様子を観察する. Japanische Grundschüler führen in den Ferien oft ein 観察日記. 観測 ist das wissenschaftliche Beobachten mit Messungen (Wetter, Sterne), 監視 die Überwachung. Einfaches „ansehen“ ist nur 見る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1214900; spelling=観察する; reading=かんさつする",
+          "finding": "JMdict 1214900 sense 1, noun / suru verb: observation, watching; to observe"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 観察する/かんさつする read; accent_top positions [0] (0 = no accent_top). Exact whole 観察する/かんさつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 cb907f5824b1464bc5fef9d856d5633a459b73d605a148b91a6093322dd3ded1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A6%B3%E5%AF%9F%E3%81%99%E3%82%8B#word_1993",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 観察する/かんさつする read; accent_top positions [0] (0 = no accent_top). Exact whole 観察する/かんさつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "観察する",
+              "reading": "かんさつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 観察する/かんさつする \"beobachten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "beobachten. JMdict 1214900 sense 1, noun / suru verb: observation, watching; to observe",
+        "japanese": "動物を観察します。 / 夏休みに、アサガオを毎日観察して日記を書きました。 / 人の行動を観察するのが好きです。",
+        "romanization": "kansatsu suru; Doubutsu o kansatsu shimasu. / Natsuyasumi ni, asagao o mainichi kansatsu shite nikki o kakimashita. / Hito no koudou o kansatsu suru no ga suki desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich beobachte Tiere. / In den Sommerferien habe ich jeden Tag eine Trichterwinde beobachtet und Tagebuch darüber geführt. / Ich beobachte gern, wie sich Menschen verhalten.",
+        "contexts": [
+          "Nature watching",
+          "School holiday project",
+          "People-watching hobby"
+        ],
+        "lexical": "JMdict 1214900 sense 1, noun / suru verb: observation, watching; to observe",
+        "register": "neutral",
+        "transitivity": "transitive (X を観察する)",
+        "conjugation": "suru verb (観察する → 観察して, 観察しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:185 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Nature watching; School holiday project; People-watching hobby), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b8a2388b6b984ba7e100c1197615abadfba6b62d4effa987b471dd8a11af5e10",
+        "approvalHash": "24cc096a89b73ca078ce402304927cdd659e17fe46bf2b05cb4d6e16cfdf5934"
+      }
+    },
+    {
+      "id": "vocab-n3:186",
+      "revisionId": "176c-n3-enrichment-vocab-n3-186",
+      "state": "accepted",
+      "predecessorHash": "ed1f1292747b716c6d5820aba8a8512a84b8c8f397e2c15f683f602b7b6065ff",
+      "originalHash": "ed1f1292747b716c6d5820aba8a8512a84b8c8f397e2c15f683f602b7b6065ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい方法を実験します。",
+            "romaji": "Atarashii houhou o jikken shimasu.",
+            "german": "Ich experimentiere mit einer neuen Methode."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "実験する bedeutet „ein Experiment durchführen, experimentieren“. Oft steht es als 実験をする, mit で für das Material oder Versuchsobjekt (マウスで実験する) oder mit 〜かどうか実験する „testen, ob …“. Für einfaches Ausprobieren im Alltag sagt man eher 試す. Verwandt: 実験室 „Labor“, 実験的 „experimentell“.",
+        "examples": [
+          {
+            "japanese": "新しい方法が効果的かどうか実験してみます。",
+            "romaji": "Atarashii houhou ga koukateki ka dou ka jikken shite mimasu.",
+            "german": "Ich teste in einem Experiment, ob die neue Methode wirksam ist."
+          },
+          {
+            "japanese": "理科の授業で、水を使った実験をしました。",
+            "romaji": "Rika no jugyou de, mizu o tsukatta jikken o shimashita.",
+            "german": "Im Naturkundeunterricht haben wir ein Experiment mit Wasser gemacht."
+          },
+          {
+            "japanese": "マウスで実験した結果、薬の効果が確認されました。",
+            "romaji": "Mausu de jikken shita kekka, kusuri no kouka ga kakunin saremashita.",
+            "german": "Versuche an Mäusen haben die Wirkung des Medikaments bestätigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 dd613a1693a9f44089fb6f726bc39d58e54603cd6ba159b6605a8f89a69770bf",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%9F%E9%A8%93%E3%81%99%E3%82%8B#word_2194",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 実験する/じっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 実験する/じっけんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "実験する",
+              "reading": "じっけんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 実験する/じっけんする \"experimentieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1320970 sense 1, noun / suru verb: experiment, experimentation Pitch: Verified [0] via exact OJAD dictionary-form cell. 実験する bedeutet „ein Experiment durchführen, experimentieren“. Oft steht es als 実験をする, mit で für das Material oder Versuchsobjekt (マウスで実験する) oder mit 〜かどうか実験する „testen, ob …“. Für einfaches Ausprobieren im Alltag sagt man eher 試す. Verwandt: 実験室 „Labor“, 実験的 „experimentell“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1320970; spelling=実験する; reading=じっけんする",
+          "finding": "JMdict 1320970 sense 1, noun / suru verb: experiment, experimentation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 実験する/じっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 実験する/じっけんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 dd613a1693a9f44089fb6f726bc39d58e54603cd6ba159b6605a8f89a69770bf",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%9F%E9%A8%93%E3%81%99%E3%82%8B#word_2194",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 実験する/じっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 実験する/じっけんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "実験する",
+              "reading": "じっけんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 実験する/じっけんする \"experimentieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "experimentieren. JMdict 1320970 sense 1, noun / suru verb: experiment, experimentation",
+        "japanese": "新しい方法が効果的かどうか実験してみます。 / 理科の授業で、水を使った実験をしました。 / マウスで実験した結果、薬の効果が確認されました。",
+        "romanization": "jikken suru; Atarashii houhou ga koukateki ka dou ka jikken shite mimasu. / Rika no jugyou de, mizu o tsukatta jikken o shimashita. / Mausu de jikken shita kekka, kusuri no kouka ga kakunin saremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich teste in einem Experiment, ob die neue Methode wirksam ist. / Im Naturkundeunterricht haben wir ein Experiment mit Wasser gemacht. / Versuche an Mäusen haben die Wirkung des Medikaments bestätigt.",
+        "contexts": [
+          "Testing a new method",
+          "Science class",
+          "Medical research"
+        ],
+        "lexical": "JMdict 1320970 sense 1, noun / suru verb: experiment, experimentation",
+        "register": "neutral",
+        "transitivity": "mostly used as 実験(を)する; subject of the test marked with で or 〜かどうか",
+        "conjugation": "suru verb (実験する → 実験して, 実験しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:186 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Testing a new method; Science class; Medical research), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e4fe68b26a080f4f0eb30d86666226010ac2bf44a229cfde9e57e40d3c055ad9",
+        "approvalHash": "6cb4f9d67fb92a9c75015e76915a82b448963a47c694bcd6b09167d136a30d17"
+      }
+    },
+    {
+      "id": "vocab-n3:187",
+      "revisionId": "176c-n3-enrichment-vocab-n3-187",
+      "state": "accepted",
+      "predecessorHash": "b6b88a72a80d06e6e7405b8e6d7d9dfa7420016890dfc492bf6ad7a4bdefe503",
+      "originalHash": "b6b88a72a80d06e6e7405b8e6d7d9dfa7420016890dfc492bf6ad7a4bdefe503",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自分の力を証明しました。",
+            "romaji": "Jibun no chikara o shoumei shimashita.",
+            "german": "Ich habe meine Fähigkeiten bewiesen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "証明する heißt „beweisen, nachweisen“ – eine Tatsache, Theorie oder Fähigkeit: 〜ことを証明する, 力を証明する. Außerdem bedeutet es „(amtlich) bescheinigen“: 身分を証明する „sich ausweisen“, 証明書 „Bescheinigung, Nachweis“. Nicht verwechseln mit 説明する „erklären“ und dem gleich gelesenen 照明 „Beleuchtung“.",
+        "examples": [
+          {
+            "japanese": "自分の力を証明しました。",
+            "romaji": "Jibun no chikara o shoumei shimashita.",
+            "german": "Ich habe meine Fähigkeiten bewiesen."
+          },
+          {
+            "japanese": "身分を証明できるものをお持ちですか。",
+            "romaji": "Mibun o shoumei dekiru mono o o-mochi desu ka.",
+            "german": "Haben Sie etwas dabei, womit Sie sich ausweisen können?"
+          },
+          {
+            "japanese": "この理論が正しいことを実験で証明しました。",
+            "romaji": "Kono riron ga tadashii koto o jikken de shoumei shimashita.",
+            "german": "Sie haben experimentell bewiesen, dass diese Theorie stimmt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e8fa03a23e51587a30aab80107fb9306c67621145ae12f7792140d19e7191531",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A8%BC%E6%98%8E%E3%81%99%E3%82%8B#word_2281",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 証明する/しょうめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 証明する/しょうめいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "証明する",
+              "reading": "しょうめいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 証明する/しょうめいする \"beweisen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1351680 sense 1, noun / suru verb: proof, demonstration, verification, certification Pitch: Verified [0] via exact OJAD dictionary-form cell. 証明する heißt „beweisen, nachweisen“ – eine Tatsache, Theorie oder Fähigkeit: 〜ことを証明する, 力を証明する. Außerdem bedeutet es „(amtlich) bescheinigen“: 身分を証明する „sich ausweisen“, 証明書 „Bescheinigung, Nachweis“. Nicht verwechseln mit 説明する „erklären“ und dem gleich gelesenen 照明 „Beleuchtung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1351680; spelling=証明する; reading=しょうめいする",
+          "finding": "JMdict 1351680 sense 1, noun / suru verb: proof, demonstration, verification, certification"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 証明する/しょうめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 証明する/しょうめいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 e8fa03a23e51587a30aab80107fb9306c67621145ae12f7792140d19e7191531",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A8%BC%E6%98%8E%E3%81%99%E3%82%8B#word_2281",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 証明する/しょうめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 証明する/しょうめいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "証明する",
+              "reading": "しょうめいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 証明する/しょうめいする \"beweisen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "beweisen. JMdict 1351680 sense 1, noun / suru verb: proof, demonstration, verification, certification",
+        "japanese": "自分の力を証明しました。 / 身分を証明できるものをお持ちですか。 / この理論が正しいことを実験で証明しました。",
+        "romanization": "shoumei suru; Jibun no chikara o shoumei shimashita. / Mibun o shoumei dekiru mono o o-mochi desu ka. / Kono riron ga tadashii koto o jikken de shoumei shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe meine Fähigkeiten bewiesen. / Haben Sie etwas dabei, womit Sie sich ausweisen können? / Sie haben experimentell bewiesen, dass diese Theorie stimmt.",
+        "contexts": [
+          "Proving oneself",
+          "ID check at a counter",
+          "Scientific proof"
+        ],
+        "lexical": "JMdict 1351680 sense 1, noun / suru verb: proof, demonstration, verification, certification",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を証明する; 〜ことを証明する)",
+        "conjugation": "suru verb (証明する → 証明して, 証明しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:187 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Proving oneself; ID check at a counter; Scientific proof), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "89354d7eafa518e2eba8b50d3f5c3bd47957fba3d478f1d9510663160c946716",
+        "approvalHash": "9f7ee952c716f61d1655a704a9b8f91eab0897c728802d68441000b6584c5dab"
+      }
+    },
+    {
+      "id": "vocab-n3:188",
+      "revisionId": "176c-n3-enrichment-vocab-n3-188",
+      "state": "accepted",
+      "predecessorHash": "4662203ac7b5db3eb2d29c7f3d5f43f6ac90621ad080e078655c51f5d8a6b285",
+      "originalHash": "4662203ac7b5db3eb2d29c7f3d5f43f6ac90621ad080e078655c51f5d8a6b285",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい星を発見しました。",
+            "romaji": "Atarashii hoshi o hakken shimashita.",
+            "german": "Ein neuer Stern wurde entdeckt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発見する bedeutet „entdecken“ – etwas bisher Unbekanntes finden (新しい星, 遺跡) oder etwas Verborgenes aufspüren (病気の早期発見 „Früherkennung“). Für Alltägliches wie verlorene Schlüssel sagt man 見つける. 発明する ist dagegen „erfinden“, also etwas Neues erschaffen. Als Nomen: 新しい発見がある „eine neue Entdeckung machen“.",
+        "examples": [
+          {
+            "japanese": "新しい星を発見しました。",
+            "romaji": "Atarashii hoshi o hakken shimashita.",
+            "german": "Ein neuer Stern wurde entdeckt."
+          },
+          {
+            "japanese": "健康診断でがんが早期に発見されました。",
+            "romaji": "Kenkou shindan de gan ga souki ni hakken saremashita.",
+            "german": "Bei der Vorsorgeuntersuchung wurde der Krebs früh entdeckt."
+          },
+          {
+            "japanese": "旅行すると、いつも新しい発見があります。",
+            "romaji": "Ryokou suru to, itsumo atarashii hakken ga arimasu.",
+            "german": "Auf Reisen macht man immer neue Entdeckungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 38a25f74bb916519b5553ed31d440e0260c8f77826215a27613a7d5e85b2d086",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E8%A6%8B%E3%81%99%E3%82%8B#word_2589",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発見する/はっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 発見する/はっけんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発見する",
+              "reading": "はっけんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発見する/はっけんする \"entdecken\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1477310 sense 1, noun / suru verb: discovery, detection, finding Pitch: Verified [0] via exact OJAD dictionary-form cell. 発見する bedeutet „entdecken“ – etwas bisher Unbekanntes finden (新しい星, 遺跡) oder etwas Verborgenes aufspüren (病気の早期発見 „Früherkennung“). Für Alltägliches wie verlorene Schlüssel sagt man 見つける. 発明する ist dagegen „erfinden“, also etwas Neues erschaffen. Als Nomen: 新しい発見がある „eine neue Entdeckung machen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477310; spelling=発見する; reading=はっけんする",
+          "finding": "JMdict 1477310 sense 1, noun / suru verb: discovery, detection, finding"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 発見する/はっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 発見する/はっけんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 38a25f74bb916519b5553ed31d440e0260c8f77826215a27613a7d5e85b2d086",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E8%A6%8B%E3%81%99%E3%82%8B#word_2589",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発見する/はっけんする read; accent_top positions [0] (0 = no accent_top). Exact whole 発見する/はっけんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発見する",
+              "reading": "はっけんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発見する/はっけんする \"entdecken\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "entdecken. JMdict 1477310 sense 1, noun / suru verb: discovery, detection, finding",
+        "japanese": "新しい星を発見しました。 / 健康診断でがんが早期に発見されました。 / 旅行すると、いつも新しい発見があります。",
+        "romanization": "hakken suru; Atarashii hoshi o hakken shimashita. / Kenkou shindan de gan ga souki ni hakken saremashita. / Ryokou suru to, itsumo atarashii hakken ga arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein neuer Stern wurde entdeckt. / Bei der Vorsorgeuntersuchung wurde der Krebs früh entdeckt. / Auf Reisen macht man immer neue Entdeckungen.",
+        "contexts": [
+          "Astronomy news",
+          "Medical check-up",
+          "Travel experiences"
+        ],
+        "lexical": "JMdict 1477310 sense 1, noun / suru verb: discovery, detection, finding",
+        "register": "neutral",
+        "transitivity": "transitive (X を発見する); passive 発見される common",
+        "conjugation": "suru verb (発見する → 発見して, 発見しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:188 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Astronomy news; Medical check-up; Travel experiences), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5110447d35b62a55c8cf83c6658bdfa3e2f36895756c95e7bd926506e5428c57",
+        "approvalHash": "ef43410a8476a3f522226ce831e63bd754a4da3d931744b096e62daf6021fe98"
+      }
+    },
+    {
+      "id": "vocab-n3:189",
+      "revisionId": "176c-n3-enrichment-vocab-n3-189",
+      "state": "accepted",
+      "predecessorHash": "2ecb48a853a162e5922d4bf709f0e12408ba8cccb2927b4f4a0cbbd77c73771a",
+      "originalHash": "2ecb48a853a162e5922d4bf709f0e12408ba8cccb2927b4f4a0cbbd77c73771a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい装置を発明しました。",
+            "romaji": "Atarashii souchi o hatsumei shimashita.",
+            "german": "Ein neues Gerät wurde erfunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発明する heißt „erfinden“ – etwas Neues, das es vorher nicht gab, technisch erschaffen: 機械・道具を発明する. Dazu 発明品 „Erfindung“ und 発明家 „Erfinder“. Gegensatz: 発見する „entdecken“ (etwas schon Vorhandenes finden). 開発する ist das planmäßige Entwickeln von Produkten in Firmen.",
+        "examples": [
+          {
+            "japanese": "新しい装置を発明しました。",
+            "romaji": "Atarashii souchi o hatsumei shimashita.",
+            "german": "Ein neues Gerät wurde erfunden."
+          },
+          {
+            "japanese": "カップラーメンを発明したのは日本人です。",
+            "romaji": "Kappu raamen o hatsumei shita no wa nihonjin desu.",
+            "german": "Die Instant-Becher-Nudeln hat ein Japaner erfunden."
+          },
+          {
+            "japanese": "子どものころ、空を飛ぶ機械を発明したいと思っていました。",
+            "romaji": "Kodomo no koro, sora o tobu kikai o hatsumei shitai to omotte imashita.",
+            "german": "Als Kind wollte ich eine Flugmaschine erfinden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 2d05bec4218db3c32996eaa90ea4239672492a92fdf8772cc8c388efc925f7b9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E6%98%8E%E3%81%99%E3%82%8B#word_2606",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発明する/はつめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 発明する/はつめいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発明する",
+              "reading": "はつめいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発明する/はつめいする \"erfinden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1477910 sense 1, noun / suru verb: invention; to invent Pitch: Verified [0] via exact OJAD dictionary-form cell. 発明する heißt „erfinden“ – etwas Neues, das es vorher nicht gab, technisch erschaffen: 機械・道具を発明する. Dazu 発明品 „Erfindung“ und 発明家 „Erfinder“. Gegensatz: 発見する „entdecken“ (etwas schon Vorhandenes finden). 開発する ist das planmäßige Entwickeln von Produkten in Firmen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477910; spelling=発明する; reading=はつめいする",
+          "finding": "JMdict 1477910 sense 1, noun / suru verb: invention; to invent"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 発明する/はつめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 発明する/はつめいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 2d05bec4218db3c32996eaa90ea4239672492a92fdf8772cc8c388efc925f7b9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E6%98%8E%E3%81%99%E3%82%8B#word_2606",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発明する/はつめいする read; accent_top positions [0] (0 = no accent_top). Exact whole 発明する/はつめいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発明する",
+              "reading": "はつめいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発明する/はつめいする \"erfinden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "erfinden. JMdict 1477910 sense 1, noun / suru verb: invention; to invent",
+        "japanese": "新しい装置を発明しました。 / カップラーメンを発明したのは日本人です。 / 子どものころ、空を飛ぶ機械を発明したいと思っていました。",
+        "romanization": "hatsumei suru; Atarashii souchi o hatsumei shimashita. / Kappu raamen o hatsumei shita no wa nihonjin desu. / Kodomo no koro, sora o tobu kikai o hatsumei shitai to omotte imashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein neues Gerät wurde erfunden. / Die Instant-Becher-Nudeln hat ein Japaner erfunden. / Als Kind wollte ich eine Flugmaschine erfinden.",
+        "contexts": [
+          "Technical invention",
+          "Food history trivia",
+          "Childhood dream"
+        ],
+        "lexical": "JMdict 1477910 sense 1, noun / suru verb: invention; to invent",
+        "register": "neutral",
+        "transitivity": "transitive (X を発明する)",
+        "conjugation": "suru verb (発明する → 発明して, 発明しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:189 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Technical invention; Food history trivia; Childhood dream), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "50e5cf90568cdbf272058b56f285d24c92360be9d5a5d7d49bc86bebee75e67d",
+        "approvalHash": "ec56066eae986a93207f48684fc737052ef91a06406d795c4bd089bb9dde010a"
+      }
+    },
+    {
+      "id": "vocab-n3:190",
+      "revisionId": "176c-n3-enrichment-vocab-n3-190",
+      "state": "accepted",
+      "predecessorHash": "89d0ca8d53f9ca57a140280ec55c8da7ab5aebff6502fdcc28e06ebd144b9b4e",
+      "originalHash": "89d0ca8d53f9ca57a140280ec55c8da7ab5aebff6502fdcc28e06ebd144b9b4e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新製品を開発します。",
+            "romaji": "Shinseihin o kaihatsu shimasu.",
+            "german": "Wir entwickeln ein neues Produkt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "開発する bedeutet „entwickeln“ (Produkte, Technik, Software: 新製品・アプリを開発する) und „erschließen“ (Land, Ressourcen: 駅前を開発する, 都市開発). Dazu 開発者 „Entwickler“ und 開発途上国 „Entwicklungsland“. Nicht verwechseln mit 発展する „sich entwickeln, wachsen“ (Stadt, Wirtschaft), das intransitiv ist.",
+        "examples": [
+          {
+            "japanese": "新製品を開発します。",
+            "romaji": "Shinseihin o kaihatsu shimasu.",
+            "german": "Wir entwickeln ein neues Produkt."
+          },
+          {
+            "japanese": "この会社はスマホのアプリを開発しています。",
+            "romaji": "Kono kaisha wa sumaho no apuri o kaihatsu shite imasu.",
+            "german": "Diese Firma entwickelt Smartphone-Apps."
+          },
+          {
+            "japanese": "駅の周りが開発されて、高いビルが増えました。",
+            "romaji": "Eki no mawari ga kaihatsu sarete, takai biru ga fuemashita.",
+            "german": "Die Gegend um den Bahnhof wurde erschlossen, und es gibt jetzt viel mehr Hochhäuser."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 26ae8b1f3955d5f583020033deced84156c9156a8ae597a342402ac0ff1223f9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%96%8B%E7%99%BA%E3%81%99%E3%82%8B#word_1952",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 開発する/かいはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 開発する/かいはつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "開発する",
+              "reading": "かいはつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 開発する/かいはつする \"entwickeln\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1202880 senses 1–2, noun / suru verb: development; exploitation (of resources) Pitch: Verified [0] via exact OJAD dictionary-form cell. 開発する bedeutet „entwickeln“ (Produkte, Technik, Software: 新製品・アプリを開発する) und „erschließen“ (Land, Ressourcen: 駅前を開発する, 都市開発). Dazu 開発者 „Entwickler“ und 開発途上国 „Entwicklungsland“. Nicht verwechseln mit 発展する „sich entwickeln, wachsen“ (Stadt, Wirtschaft), das intransitiv ist. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1202880; spelling=開発する; reading=かいはつする",
+          "finding": "JMdict 1202880 senses 1–2, noun / suru verb: development; exploitation (of resources)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 開発する/かいはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 開発する/かいはつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 26ae8b1f3955d5f583020033deced84156c9156a8ae597a342402ac0ff1223f9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%96%8B%E7%99%BA%E3%81%99%E3%82%8B#word_1952",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 開発する/かいはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 開発する/かいはつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "開発する",
+              "reading": "かいはつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 開発する/かいはつする \"entwickeln\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "entwickeln. JMdict 1202880 senses 1–2, noun / suru verb: development; exploitation (of resources)",
+        "japanese": "新製品を開発します。 / この会社はスマホのアプリを開発しています。 / 駅の周りが開発されて、高いビルが増えました。",
+        "romanization": "kaihatsu suru; Shinseihin o kaihatsu shimasu. / Kono kaisha wa sumaho no apuri o kaihatsu shite imasu. / Eki no mawari ga kaihatsu sarete, takai biru ga fuemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir entwickeln ein neues Produkt. / Diese Firma entwickelt Smartphone-Apps. / Die Gegend um den Bahnhof wurde erschlossen, und es gibt jetzt viel mehr Hochhäuser.",
+        "contexts": [
+          "Product development",
+          "Software company",
+          "Urban redevelopment"
+        ],
+        "lexical": "JMdict 1202880 senses 1–2, noun / suru verb: development; exploitation (of resources)",
+        "register": "neutral",
+        "transitivity": "transitive (X を開発する); passive 開発される",
+        "conjugation": "suru verb (開発する → 開発して, 開発しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:190 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Product development; Software company; Urban redevelopment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b5d8c94323ab25f95e598f2575db81f783186727256ac26ebc7bab23560f7573",
+        "approvalHash": "2666ca2bc648e1e771445432a30055d766fc54e39f3318261529798d8f9704e6"
+      }
+    },
+    {
+      "id": "vocab-n3:191",
+      "revisionId": "176c-n3-enrichment-vocab-n3-191",
+      "state": "accepted",
+      "predecessorHash": "913ab8370365f6861178e5ba4cb77848eec3c7328df93ad04e672b9ff6285fe6",
+      "originalHash": "913ab8370365f6861178e5ba4cb77848eec3c7328df93ad04e672b9ff6285fe6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "スマホが世界中に普及しました。",
+            "romaji": "Sumaho ga sekaijuu ni fukyuu shimashita.",
+            "german": "Smartphones haben sich weltweit verbreitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "普及する heißt „sich verbreiten, allgemein üblich werden“ – Technik, Produkte oder Ideen, die viele Menschen übernehmen: スマホが普及する, 〜に普及している. Meist intransitiv mit が; aktiv verbreiten heißt 普及させる. Dazu 普及率 „Verbreitungsgrad“. 広まる passt auch für Gerüchte, 流行る für kurzlebige Trends.",
+        "examples": [
+          {
+            "japanese": "スマホが世界中に普及しました。",
+            "romaji": "Sumaho ga sekaijuu ni fukyuu shimashita.",
+            "german": "Smartphones haben sich weltweit verbreitet."
+          },
+          {
+            "japanese": "電気自動車はまだ十分に普及していません。",
+            "romaji": "Denki jidousha wa mada juubun ni fukyuu shite imasen.",
+            "german": "Elektroautos sind noch nicht ausreichend verbreitet."
+          },
+          {
+            "japanese": "政府はリサイクルの考え方を普及させようとしています。",
+            "romaji": "Seifu wa risaikuru no kangaekata o fukyuu saseyou to shite imasu.",
+            "german": "Die Regierung versucht, den Recycling-Gedanken zu verbreiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 da229cff1cc19a8436c2a850d4ebdc27c8c8e138c577ba84dd177a1ee0cb51af",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%99%AE%E5%8F%8A%E3%81%99%E3%82%8B#word_2646",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 普及する/ふきゅうする read; accent_top positions [0] (0 = no accent_top). Exact whole 普及する/ふきゅうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "普及する",
+              "reading": "ふきゅうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 普及する/ふきゅうする \"sich verbreiten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1497110 sense 1, noun / suru verb: diffusion, spread, popularization Pitch: Verified [0] via exact OJAD dictionary-form cell. 普及する heißt „sich verbreiten, allgemein üblich werden“ – Technik, Produkte oder Ideen, die viele Menschen übernehmen: スマホが普及する, 〜に普及している. Meist intransitiv mit が; aktiv verbreiten heißt 普及させる. Dazu 普及率 „Verbreitungsgrad“. 広まる passt auch für Gerüchte, 流行る für kurzlebige Trends. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497110; spelling=普及する; reading=ふきゅうする",
+          "finding": "JMdict 1497110 sense 1, noun / suru verb: diffusion, spread, popularization"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 普及する/ふきゅうする read; accent_top positions [0] (0 = no accent_top). Exact whole 普及する/ふきゅうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-05; page SHA256 da229cff1cc19a8436c2a850d4ebdc27c8c8e138c577ba84dd177a1ee0cb51af",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%99%AE%E5%8F%8A%E3%81%99%E3%82%8B#word_2646",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 普及する/ふきゅうする read; accent_top positions [0] (0 = no accent_top). Exact whole 普及する/ふきゅうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "普及する",
+              "reading": "ふきゅうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 普及する/ふきゅうする \"sich verbreiten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich verbreiten. JMdict 1497110 sense 1, noun / suru verb: diffusion, spread, popularization",
+        "japanese": "スマホが世界中に普及しました。 / 電気自動車はまだ十分に普及していません。 / 政府はリサイクルの考え方を普及させようとしています。",
+        "romanization": "fukyuu suru; Sumaho ga sekaijuu ni fukyuu shimashita. / Denki jidousha wa mada juubun ni fukyuu shite imasen. / Seifu wa risaikuru no kangaekata o fukyuu saseyou to shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Smartphones haben sich weltweit verbreitet. / Elektroautos sind noch nicht ausreichend verbreitet. / Die Regierung versucht, den Recycling-Gedanken zu verbreiten.",
+        "contexts": [
+          "Spread of technology",
+          "State of electric cars",
+          "Government campaign"
+        ],
+        "lexical": "JMdict 1497110 sense 1, noun / suru verb: diffusion, spread, popularization",
+        "register": "neutral to formal",
+        "transitivity": "mainly intransitive (X が普及する); causative 普及させる for actively spreading",
+        "conjugation": "suru verb (普及する → 普及して, 普及しない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:191 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Spread of technology; State of electric cars; Government campaign), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "472f0e7d76db1ec00bb228ec5cd79534836444b21ada18ff5d6061c20e223960",
+        "approvalHash": "b25f9ac211ca196d4f51f37bc9dbd32a87a52256d76fe7daa6383e44ab540454"
+      }
+    },
+    {
+      "id": "vocab-n3:192",
+      "revisionId": "176c-n3-enrichment-vocab-n3-192",
+      "state": "accepted",
+      "predecessorHash": "a89b414ae4766a3f6d46a229cbff895f23cf442ac9a7405dc14580c5db739186",
+      "originalHash": "a89b414ae4766a3f6d46a229cbff895f23cf442ac9a7405dc14580c5db739186",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "著しい進歩を遂げました。",
+            "romaji": "Ichijirushii shinpo o togemashita.",
+            "german": "Bemerkenswerte Fortschritte wurden erzielt."
+          }
+        ],
+        "meaning": "bemerkenswert, auffallend",
+        "pitch": 5,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "著しい ist ein い-Adjektiv der Schriftsprache: eine Veränderung oder ein Unterschied ist „auffallend groß, erheblich“. Typisch: 著しい変化・成長・進歩・差. Es bewertet nur das Ausmaß, nicht ob etwas gut ist – auch 著しい低下 „ein drastischer Rückgang“ ist möglich. Adverbial: 著しく. Im Gespräch sagt man eher すごい, 大きい oder かなり.",
+        "examples": [
+          {
+            "japanese": "著しい進歩を遂げました。",
+            "romaji": "Ichijirushii shinpo o togemashita.",
+            "german": "Bemerkenswerte Fortschritte wurden erzielt."
+          },
+          {
+            "japanese": "この十年で、町の人口に著しい変化がありました。",
+            "romaji": "Kono juunen de, machi no jinkou ni ichijirushii henka ga arimashita.",
+            "german": "In den letzten zehn Jahren hat sich die Einwohnerzahl der Stadt stark verändert."
+          },
+          {
+            "japanese": "最近、気温の差が著しいので、体調に気をつけてください。",
+            "romaji": "Saikin, kion no sa ga ichijirushii node, taichou ni ki o tsukete kudasai.",
+            "german": "Die Temperaturschwankungen sind zurzeit extrem, achten Sie also auf Ihre Gesundheit."
+          }
+        ],
+        "meaning": "auffallend, beträchtlich, erheblich",
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56028032",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+            "match": {
+              "word": "著しい",
+              "reading": "いちじるしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Adjektiv 著しい/いちじるしい \"bemerkenswert, auffallend\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1427070 sense 1, i-adjective: striking, remarkable, considerable Pitch: Verified [5] via exact UniDic row. 著しい ist ein い-Adjektiv der Schriftsprache: eine Veränderung oder ein Unterschied ist „auffallend groß, erheblich“. Typisch: 著しい変化・成長・進歩・差. Es bewertet nur das Ausmaß, nicht ob etwas gut ist – auch 著しい低下 „ein drastischer Rückgang“ ist möglich. Adverbial: 著しく. Im Gespräch sagt man eher すごい, 大きい oder かなり. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1427070; spelling=著しい; reading=いちじるしい",
+          "selected": {
+            "sequence": "1427070",
+            "spelling": "著しい",
+            "reading": "いちじるしい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "striking",
+                  "remarkable",
+                  "considerable"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1427070 sense 1, i-adjective: striking, remarkable, considerable"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [5] via exact UniDic row. Exact whole 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56028032",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 著しい/イチジルシイ; lemma 著しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+            "match": {
+              "word": "著しい",
+              "reading": "いちじるしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Adjektiv 著しい/いちじるしい \"bemerkenswert, auffallend\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "auffallend, beträchtlich, erheblich. JMdict 1427070 sense 1, i-adjective: striking, remarkable, considerable",
+        "japanese": "著しい進歩を遂げました。 / この十年で、町の人口に著しい変化がありました。 / 最近、気温の差が著しいので、体調に気をつけてください。",
+        "romanization": "ichijirushii; Ichijirushii shinpo o togemashita. / Kono juunen de, machi no jinkou ni ichijirushii henka ga arimashita. / Saikin, kion no sa ga ichijirushii node, taichou ni ki o tsukete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bemerkenswerte Fortschritte wurden erzielt. / In den letzten zehn Jahren hat sich die Einwohnerzahl der Stadt stark verändert. / Die Temperaturschwankungen sind zurzeit extrem, achten Sie also auf Ihre Gesundheit.",
+        "contexts": [
+          "Progress report",
+          "Demographic change",
+          "Weather health advice"
+        ],
+        "lexical": "JMdict 1427070 sense 1, i-adjective: striking, remarkable, considerable",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "i-adjective (著しい → 著しく, 著しくない, 著しかった)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:192 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Progress report; Demographic change; Weather health advice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f8d04acbbd6fe8f5ec4bb0d1b7b9a2ec094d5ddfd5b9362097a85d4fda759e57",
+        "approvalHash": "3a841af29d18117a883495aaca7a0e4070008268e8d52ef5565f730a81df7d09"
+      }
+    },
+    {
+      "id": "vocab-n3:193",
+      "revisionId": "176c-n3-enrichment-vocab-n3-193",
+      "state": "accepted",
+      "predecessorHash": "93f6c19615c2520a78f988dfb0acce97bf49c4523236f9c3b942581a75f19d5b",
+      "originalHash": "93f6c19615c2520a78f988dfb0acce97bf49c4523236f9c3b942581a75f19d5b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "顕著な効果がありました。",
+            "romaji": "Kencho na kouka ga arimashita.",
+            "german": "Es gab eine deutliche Wirkung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "顕著 ist ein な-Adjektiv der Schrift- und Fachsprache: „deutlich erkennbar, ausgeprägt“. Typisch: 顕著な効果・傾向・例, 〜が顕著だ, 〜が顕著に現れる. Nah an 著しい, doch 顕著 betont die klare Sichtbarkeit, 著しい das große Ausmaß. Im Gespräch sagt man eher はっきりした oder 目立つ.",
+        "examples": [
+          {
+            "japanese": "顕著な効果がありました。",
+            "romaji": "Kencho na kouka ga arimashita.",
+            "german": "Es gab eine deutliche Wirkung."
+          },
+          {
+            "japanese": "若者の読書離れが顕著になっています。",
+            "romaji": "Wakamono no dokusho banare ga kencho ni natte imasu.",
+            "german": "Dass junge Leute immer weniger lesen, wird deutlich sichtbar."
+          },
+          {
+            "japanese": "この傾向は、特に都市部で顕著です。",
+            "romaji": "Kono keikou wa, toku ni toshibu de kencho desu.",
+            "german": "Dieser Trend ist besonders in den Städten ausgeprägt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118882897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+            "match": {
+              "word": "顕著",
+              "reading": "けんちょ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 顕著/けんちょ \"auffällig, deutlich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1260640 sense 1, na-adjective / noun: remarkable, striking, obvious Pitch: Verified [1] via exact UniDic row. 顕著 ist ein な-Adjektiv der Schrift- und Fachsprache: „deutlich erkennbar, ausgeprägt“. Typisch: 顕著な効果・傾向・例, 〜が顕著だ, 〜が顕著に現れる. Nah an 著しい, doch 顕著 betont die klare Sichtbarkeit, 著しい das große Ausmaß. Im Gespräch sagt man eher はっきりした oder 目立つ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1260640; spelling=顕著; reading=けんちょ",
+          "selected": {
+            "sequence": "1260640",
+            "spelling": "顕著",
+            "reading": "けんちょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "remarkable",
+                  "striking",
+                  "obvious"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1260640 sense 1, na-adjective / noun: remarkable, striking, obvious"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118882897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+            "match": {
+              "word": "顕著",
+              "reading": "けんちょ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 顕著/けんちょ \"auffällig, deutlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "auffällig, deutlich. JMdict 1260640 sense 1, na-adjective / noun: remarkable, striking, obvious",
+        "japanese": "顕著な効果がありました。 / 若者の読書離れが顕著になっています。 / この傾向は、特に都市部で顕著です。",
+        "romanization": "kencho; Kencho na kouka ga arimashita. / Wakamono no dokusho banare ga kencho ni natte imasu. / Kono keikou wa, toku ni toshibu de kencho desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gab eine deutliche Wirkung. / Dass junge Leute immer weniger lesen, wird deutlich sichtbar. / Dieser Trend ist besonders in den Städten ausgeprägt.",
+        "contexts": [
+          "Effect of a treatment",
+          "Social trend report",
+          "Regional statistics"
+        ],
+        "lexical": "JMdict 1260640 sense 1, na-adjective / noun: remarkable, striking, obvious",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (顕著な, 顕著に, 顕著だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:193 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Effect of a treatment; Social trend report; Regional statistics), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dee89f9b4858033fd3de40b9bbbb03ddb0748b57297371dd6af872d960daa1a9",
+        "approvalHash": "490b46a9b14fb783ac05e927c67d2db2f613223be09510edc6f2051def525b73"
+      }
+    },
+    {
+      "id": "vocab-n3:194",
+      "revisionId": "176c-n3-enrichment-vocab-n3-194",
+      "state": "accepted",
+      "predecessorHash": "a94936143d9bbf182b5987655fd5dadfe00d6336c7ed20fe92e753cc251d6a36",
+      "originalHash": "a94936143d9bbf182b5987655fd5dadfe00d6336c7ed20fe92e753cc251d6a36",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "微妙な問題です。",
+            "romaji": "Bimyou na mondai desu.",
+            "german": "Es ist ein heikles Problem."
+          }
+        ],
+        "meaning": "subtil, heikel",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "微妙 hat mehrere Bedeutungen: „fein, subtil“ (微妙な違い „ein feiner Unterschied“), „heikel“ (微妙な問題・立場) und „fraglich, ungewiss“ (間に合うか微妙だ). Umgangssprachlich ist 微妙 außerdem eine höfliche Ausweichantwort für „naja, nicht so toll“: „どう？“ – „うーん、微妙。“. So vermeidet man ein direktes Nein.",
+        "examples": [
+          {
+            "japanese": "微妙な問題です。",
+            "romaji": "Bimyou na mondai desu.",
+            "german": "Es ist ein heikles Problem."
+          },
+          {
+            "japanese": "「この服、どう？」「うーん、ちょっと微妙かな。」",
+            "romaji": "\"Kono fuku, dou?\" \"Uun, chotto bimyou ka na.\"",
+            "german": "„Wie findest du dieses Outfit?“ – „Hm, na ja, eher so mittel.“"
+          },
+          {
+            "japanese": "今から出ても、会議に間に合うかどうか微妙です。",
+            "romaji": "Ima kara dete mo, kaigi ni maniau ka dou ka bimyou desu.",
+            "german": "Selbst wenn ich jetzt losgehe, ist fraglich, ob ich es rechtzeitig zum Meeting schaffe."
+          }
+        ],
+        "meaning": "subtil, heikel, fraglich, (ugs.) mäßig",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229581949",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 微妙/ビミョウ; lemma 微妙; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "微妙",
+              "reading": "びみょう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 微妙/びみょう \"subtil, heikel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1486170 senses 1–4, na-adjective / noun: subtle, delicate; tricky; doubtful; not great (colloquial) Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 微妙 hat mehrere Bedeutungen: „fein, subtil“ (微妙な違い „ein feiner Unterschied“), „heikel“ (微妙な問題・立場) und „fraglich, ungewiss“ (間に合うか微妙だ). Umgangssprachlich ist 微妙 außerdem eine höfliche Ausweichantwort für „naja, nicht so toll“: „どう？“ – „うーん、微妙。“. So vermeidet man ein direktes Nein. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1486170; spelling=微妙; reading=びみょう",
+          "selected": {
+            "sequence": "1486170",
+            "spelling": "微妙",
+            "reading": "びみょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "subtle",
+                  "delicate",
+                  "fine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "difficult",
+                  "complex",
+                  "tricky",
+                  "delicate (situation, position, etc.)",
+                  "close (e.g. decision)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "doubtful",
+                  "questionable",
+                  "dicey"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "not great",
+                  "iffy"
+                ],
+                "notes": [
+                  "oft. ビミョー"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "slightly",
+                  "somewhat",
+                  "a little bit"
+                ],
+                "notes": [
+                  "adverbially as ～に"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1486170 senses 1–4, na-adjective / noun: subtle, delicate; tricky; doubtful; not great (colloquial)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 微妙/ビミョウ; lemma 微妙; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229581949",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 微妙/ビミョウ; lemma 微妙; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "微妙",
+              "reading": "びみょう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 微妙/びみょう \"subtil, heikel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "subtil, heikel, fraglich, (ugs.) mäßig. JMdict 1486170 senses 1–4, na-adjective / noun: subtle, delicate; tricky; doubtful; not great (colloquial)",
+        "japanese": "微妙な問題です。 / 「この服、どう？」「うーん、ちょっと微妙かな。」 / 今から出ても、会議に間に合うかどうか微妙です。",
+        "romanization": "bimyou; Bimyou na mondai desu. / \"Kono fuku, dou?\" \"Uun, chotto bimyou ka na.\" / Ima kara dete mo, kaigi ni maniau ka dou ka bimyou desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist ein heikles Problem. / „Wie findest du dieses Outfit?“ – „Hm, na ja, eher so mittel.“ / Selbst wenn ich jetzt losgehe, ist fraglich, ob ich es rechtzeitig zum Meeting schaffe.",
+        "contexts": [
+          "Sensitive topic",
+          "Lukewarm opinion among friends",
+          "Uncertain timing"
+        ],
+        "lexical": "JMdict 1486170 senses 1–4, na-adjective / noun: subtle, delicate; tricky; doubtful; not great (colloquial)",
+        "register": "neutral; colloquial in the sense „so-so“",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (微妙な, 微妙に, 微妙だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:194 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sensitive topic; Lukewarm opinion among friends; Uncertain timing), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5a085369fd09c33440624868c30dfbb12b97401697deb497a7104020c9e46f7a",
+        "approvalHash": "c7a6cce44f2c21fbeacd50f625556eb3aad1526c2b6b076a16f5637a64e11176"
+      }
+    },
+    {
+      "id": "vocab-n3:195",
+      "revisionId": "176c-n3-enrichment-vocab-n3-195",
+      "state": "accepted",
+      "predecessorHash": "8082f697f374d1941f3c48795ef20f25ea69491cb961f97b61d811f1f1fdc83c",
+      "originalHash": "8082f697f374d1941f3c48795ef20f25ea69491cb961f97b61d811f1f1fdc83c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "厳密に言えば違います。",
+            "romaji": "Genmitsu ni ieba chigaimasu.",
+            "german": "Streng genommen ist es anders."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "厳密 ist ein な-Adjektiv für „genau, exakt, streng“ im Sinne von gründlicher Präzision: 厳密な検査, 厳密に管理する. Sehr häufig ist 厳密に言えば／言うと „genau genommen“. 厳しい meint dagegen „streng, hart“ gegenüber Menschen (厳しい先生), 正確 einfach „korrekt, genau“.",
+        "examples": [
+          {
+            "japanese": "厳密に言えば違います。",
+            "romaji": "Genmitsu ni ieba chigaimasu.",
+            "german": "Streng genommen ist es anders."
+          },
+          {
+            "japanese": "薬の品質は厳密に管理されています。",
+            "romaji": "Kusuri no hinshitsu wa genmitsu ni kanri sarete imasu.",
+            "german": "Die Qualität der Medikamente wird streng kontrolliert."
+          },
+          {
+            "japanese": "厳密なルールはないので、自由に書いてください。",
+            "romaji": "Genmitsu na ruuru wa nai node, jiyuu ni kaite kudasai.",
+            "german": "Es gibt keine festen Regeln, schreiben Sie also ruhig frei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119492266",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 厳密/ゲンミツ; lemma 厳密; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "厳密",
+              "reading": "げんみつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 厳密/げんみつ \"streng, genau\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1262830 sense 1, na-adjective: strict, close, precise, scrupulous Pitch: Verified [0] via exact UniDic row. 厳密 ist ein な-Adjektiv für „genau, exakt, streng“ im Sinne von gründlicher Präzision: 厳密な検査, 厳密に管理する. Sehr häufig ist 厳密に言えば／言うと „genau genommen“. 厳しい meint dagegen „streng, hart“ gegenüber Menschen (厳しい先生), 正確 einfach „korrekt, genau“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1262830; spelling=厳密; reading=げんみつ",
+          "selected": {
+            "sequence": "1262830",
+            "spelling": "厳密",
+            "reading": "げんみつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "strict",
+                  "close",
+                  "precise",
+                  "scrupulous"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1262830 sense 1, na-adjective: strict, close, precise, scrupulous"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 厳密/ゲンミツ; lemma 厳密; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119492266",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 厳密/ゲンミツ; lemma 厳密; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "厳密",
+              "reading": "げんみつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 厳密/げんみつ \"streng, genau\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "streng, genau. JMdict 1262830 sense 1, na-adjective: strict, close, precise, scrupulous",
+        "japanese": "厳密に言えば違います。 / 薬の品質は厳密に管理されています。 / 厳密なルールはないので、自由に書いてください。",
+        "romanization": "genmitsu; Genmitsu ni ieba chigaimasu. / Kusuri no hinshitsu wa genmitsu ni kanri sarete imasu. / Genmitsu na ruuru wa nai node, jiyuu ni kaite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Streng genommen ist es anders. / Die Qualität der Medikamente wird streng kontrolliert. / Es gibt keine festen Regeln, schreiben Sie also ruhig frei.",
+        "contexts": [
+          "Correcting a detail",
+          "Quality control",
+          "Relaxed writing task"
+        ],
+        "lexical": "JMdict 1262830 sense 1, na-adjective: strict, close, precise, scrupulous",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (厳密な, 厳密に, 厳密だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:195 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Correcting a detail; Quality control; Relaxed writing task), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "10f6296a18bc0f69bf1cd21e197ad3dc1cdb864ac86c2bdf4c1b40398086fcf1",
+        "approvalHash": "d97b50c6ea78e9b5a5a4d4d875ac5af790bc25d73953789f43ef947d9fecf88c"
+      }
+    },
+    {
+      "id": "vocab-n3:196",
+      "revisionId": "176c-n3-enrichment-vocab-n3-196",
+      "state": "accepted",
+      "predecessorHash": "31a259d3e441711557857f5d4dd8002ba57f6a467ad773c0d026a1e73a50f532",
+      "originalHash": "31a259d3e441711557857f5d4dd8002ba57f6a467ad773c0d026a1e73a50f532",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "妥当な価格です。",
+            "romaji": "Datou na kakaku desu.",
+            "german": "Es ist ein angemessener Preis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "妥当 ist ein な-Adjektiv für „angemessen, vernünftig, stichhaltig“ – nach Abwägung der Umstände richtig: 妥当な判断・価格・結論, 〜とするのが妥当だ. Es klingt sachlich und passt zu Beruf und Diskussion. Vorsicht bei 適当: Im Alltag heißt es oft „schlampig, halbherzig“; 適切 bedeutet „geeignet, passend“.",
+        "examples": [
+          {
+            "japanese": "妥当な価格です。",
+            "romaji": "Datou na kakaku desu.",
+            "german": "Es ist ein angemessener Preis."
+          },
+          {
+            "japanese": "今回は、計画を延期するのが妥当だと思います。",
+            "romaji": "Konkai wa, keikaku o enki suru no ga datou da to omoimasu.",
+            "german": "Diesmal halte ich es für vernünftig, den Plan zu verschieben."
+          },
+          {
+            "japanese": "その結論が妥当かどうか、もう一度考えてみましょう。",
+            "romaji": "Sono ketsuron ga datou ka dou ka, mou ichido kangaete mimashou.",
+            "german": "Lasst uns noch einmal überlegen, ob diese Schlussfolgerung stichhaltig ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167596840",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 妥当/ダトウ; lemma 妥当; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "妥当",
+              "reading": "だとう",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Adjektiv 妥当/だとう \"angemessen, vernünftig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1408540 sense 1, na-adjective / noun: valid, proper, appropriate, reasonable Pitch: Verified [0] via exact UniDic row. 妥当 ist ein な-Adjektiv für „angemessen, vernünftig, stichhaltig“ – nach Abwägung der Umstände richtig: 妥当な判断・価格・結論, 〜とするのが妥当だ. Es klingt sachlich und passt zu Beruf und Diskussion. Vorsicht bei 適当: Im Alltag heißt es oft „schlampig, halbherzig“; 適切 bedeutet „geeignet, passend“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1408540; spelling=妥当; reading=だとう",
+          "selected": {
+            "sequence": "1408540",
+            "spelling": "妥当",
+            "reading": "だとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "valid",
+                  "proper",
+                  "right",
+                  "appropriate",
+                  "reasonable"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1408540 sense 1, na-adjective / noun: valid, proper, appropriate, reasonable"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 妥当/ダトウ; lemma 妥当; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@167596840",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 妥当/ダトウ; lemma 妥当; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "妥当",
+              "reading": "だとう",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Adjektiv 妥当/だとう \"angemessen, vernünftig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "angemessen, vernünftig. JMdict 1408540 sense 1, na-adjective / noun: valid, proper, appropriate, reasonable",
+        "japanese": "妥当な価格です。 / 今回は、計画を延期するのが妥当だと思います。 / その結論が妥当かどうか、もう一度考えてみましょう。",
+        "romanization": "datou; Datou na kakaku desu. / Konkai wa, keikaku o enki suru no ga datou da to omoimasu. / Sono ketsuron ga datou ka dou ka, mou ichido kangaete mimashou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist ein angemessener Preis. / Diesmal halte ich es für vernünftig, den Plan zu verschieben. / Lasst uns noch einmal überlegen, ob diese Schlussfolgerung stichhaltig ist.",
+        "contexts": [
+          "Judging a price",
+          "Recommending a decision",
+          "Reviewing an argument"
+        ],
+        "lexical": "JMdict 1408540 sense 1, na-adjective / noun: valid, proper, appropriate, reasonable",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (妥当な, 妥当に, 妥当だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:196 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Judging a price; Recommending a decision; Reviewing an argument), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9f8f65c062397549b23e2acc642604ce68d64d730f2f7893702a1299abafabbe",
+        "approvalHash": "11773774ab76ed00ce203d7ab903dd3b6e58039f01491b16d8e98ba98b823f40"
+      }
+    },
+    {
+      "id": "vocab-n3:197",
+      "revisionId": "176c-n3-enrichment-vocab-n3-197",
+      "state": "accepted",
+      "predecessorHash": "b11fad79747fd90b33ef3a863cf69edea5aaf430f83e231646308735ea063710",
+      "originalHash": "b11fad79747fd90b33ef3a863cf69edea5aaf430f83e231646308735ea063710",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この方法は有効です。",
+            "romaji": "Kono houhou wa yuukou desu.",
+            "german": "Diese Methode ist wirksam."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "有効 hat zwei Hauptbedeutungen: „wirksam, effektiv“ (有効な方法, 時間を有効に使う „Zeit sinnvoll nutzen“) und „gültig“ (チケットは三日間有効, 有効期限 „Gültigkeitsdauer, Ablaufdatum“). Das Gegenteil ist 無効. 効果的 betont nur die Wirksamkeit, nicht die Gültigkeit.",
+        "examples": [
+          {
+            "japanese": "この方法は有効です。",
+            "romaji": "Kono houhou wa yuukou desu.",
+            "german": "Diese Methode ist wirksam."
+          },
+          {
+            "japanese": "このチケットは発行日から三日間有効です。",
+            "romaji": "Kono chiketto wa hakkoubi kara mikkakan yuukou desu.",
+            "german": "Dieses Ticket ist ab dem Ausstellungsdatum drei Tage gültig."
+          },
+          {
+            "japanese": "通勤時間を有効に使って、英語を勉強しています。",
+            "romaji": "Tsuukin jikan o yuukou ni tsukatte, eigo o benkyou shite imasu.",
+            "german": "Ich nutze die Pendelzeit sinnvoll und lerne Englisch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270607892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 有効/ユウコウ; lemma 有効; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "有効",
+              "reading": "ゆうこう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 有効/ゆうこう \"wirksam, gültig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1541290 sense 1, na-adjective / noun: valid, effective Pitch: Verified [0] via exact UniDic row. 有効 hat zwei Hauptbedeutungen: „wirksam, effektiv“ (有効な方法, 時間を有効に使う „Zeit sinnvoll nutzen“) und „gültig“ (チケットは三日間有効, 有効期限 „Gültigkeitsdauer, Ablaufdatum“). Das Gegenteil ist 無効. 効果的 betont nur die Wirksamkeit, nicht die Gültigkeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1541290; spelling=有効; reading=ゆうこう",
+          "selected": {
+            "sequence": "1541290",
+            "spelling": "有効",
+            "reading": "ゆうこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "valid",
+                  "effective"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yuko (judo)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1541290 sense 1, na-adjective / noun: valid, effective"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 有効/ユウコウ; lemma 有効; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270607892",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 有効/ユウコウ; lemma 有効; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "有効",
+              "reading": "ゆうこう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 有効/ゆうこう \"wirksam, gültig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "wirksam, gültig. JMdict 1541290 sense 1, na-adjective / noun: valid, effective",
+        "japanese": "この方法は有効です。 / このチケットは発行日から三日間有効です。 / 通勤時間を有効に使って、英語を勉強しています。",
+        "romanization": "yuukou; Kono houhou wa yuukou desu. / Kono chiketto wa hakkoubi kara mikkakan yuukou desu. / Tsuukin jikan o yuukou ni tsukatte, eigo o benkyou shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese Methode ist wirksam. / Dieses Ticket ist ab dem Ausstellungsdatum drei Tage gültig. / Ich nutze die Pendelzeit sinnvoll und lerne Englisch.",
+        "contexts": [
+          "Effective method",
+          "Ticket validity",
+          "Using commute time"
+        ],
+        "lexical": "JMdict 1541290 sense 1, na-adjective / noun: valid, effective",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (有効な, 有効に, 有効だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:197 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Effective method; Ticket validity; Using commute time), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ede3ecd39c0fba0269a78385f419e4dd0f21bdd83787cbf43e3d047b32839a39",
+        "approvalHash": "7ec5d8c582e8be020b271c0ec97afc8abbafd8ec00697db2d51ba5fea3d79431"
+      }
+    },
+    {
+      "id": "vocab-n3:198",
+      "revisionId": "176c-n3-enrichment-vocab-n3-198",
+      "state": "accepted",
+      "predecessorHash": "1296f94cff44200338c97841848a24b9fc33ac2b1c8ee74316b578862daa577c",
+      "originalHash": "1296f94cff44200338c97841848a24b9fc33ac2b1c8ee74316b578862daa577c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この切符は無効です。",
+            "romaji": "Kono kippu wa mukou desu.",
+            "german": "Diese Fahrkarte ist ungültig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "無効 bedeutet „ungültig, nichtig“ – für Fahrkarten, Verträge, Gutscheine oder Stimmen (無効票): 無効になる „ungültig werden“. In der IT heißt 無効にする „deaktivieren“ (Gegenteil 有効にする). Für „wirkungslos“ sagt man im Alltag eher 効果がない. Nicht verwechseln mit dem gleich gelesenen 向こう „drüben“.",
+        "examples": [
+          {
+            "japanese": "この切符は無効です。",
+            "romaji": "Kono kippu wa mukou desu.",
+            "german": "Diese Fahrkarte ist ungültig."
+          },
+          {
+            "japanese": "期限が切れたクーポンは無効になります。",
+            "romaji": "Kigen ga kireta kuupon wa mukou ni narimasu.",
+            "german": "Abgelaufene Gutscheine verlieren ihre Gültigkeit."
+          },
+          {
+            "japanese": "設定で通知を無効にしました。",
+            "romaji": "Settei de tsuuchi o mukou ni shimashita.",
+            "german": "Ich habe die Benachrichtigungen in den Einstellungen deaktiviert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258445337",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 無効/ムコウ; lemma 無効; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "無効",
+              "reading": "むこう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 無効/むこう \"ungültig, unwirksam\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1529930 sense 1, na-adjective / no-adjective / noun: invalid, void, ineffective Pitch: Verified [0] via exact UniDic row. 無効 bedeutet „ungültig, nichtig“ – für Fahrkarten, Verträge, Gutscheine oder Stimmen (無効票): 無効になる „ungültig werden“. In der IT heißt 無効にする „deaktivieren“ (Gegenteil 有効にする). Für „wirkungslos“ sagt man im Alltag eher 効果がない. Nicht verwechseln mit dem gleich gelesenen 向こう „drüben“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1529930; spelling=無効; reading=むこう",
+          "selected": {
+            "sequence": "1529930",
+            "spelling": "無効",
+            "reading": "むこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "invalid",
+                  "void",
+                  "ineffective",
+                  "unavailable"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1529930 sense 1, na-adjective / no-adjective / noun: invalid, void, ineffective"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 無効/ムコウ; lemma 無効; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@258445337",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 無効/ムコウ; lemma 無効; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "無効",
+              "reading": "むこう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 無効/むこう \"ungültig, unwirksam\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "ungültig, unwirksam. JMdict 1529930 sense 1, na-adjective / no-adjective / noun: invalid, void, ineffective",
+        "japanese": "この切符は無効です。 / 期限が切れたクーポンは無効になります。 / 設定で通知を無効にしました。",
+        "romanization": "mukou; Kono kippu wa mukou desu. / Kigen ga kireta kuupon wa mukou ni narimasu. / Settei de tsuuchi o mukou ni shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese Fahrkarte ist ungültig. / Abgelaufene Gutscheine verlieren ihre Gültigkeit. / Ich habe die Benachrichtigungen in den Einstellungen deaktiviert.",
+        "contexts": [
+          "Invalid ticket",
+          "Expired coupon",
+          "Phone settings"
+        ],
+        "lexical": "JMdict 1529930 sense 1, na-adjective / no-adjective / noun: invalid, void, ineffective",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (無効な, 無効に, 無効だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:198 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Invalid ticket; Expired coupon; Phone settings), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ce3b9d3658e88fb4b5721245a1cf839cef476ad65395391512fb0e531b0c1947",
+        "approvalHash": "f57d7b79e4549dcc49ae8bf3f970181478fd804cd2c5d4a88cee833c2cd259e9"
+      }
+    },
+    {
+      "id": "vocab-n3:199",
+      "revisionId": "176c-n3-enrichment-vocab-n3-199",
+      "state": "accepted",
+      "predecessorHash": "5f4c848955971c2fc837d09a15cb25c0a53a3030df1ed9d1a3a2c7d431d93e53",
+      "originalHash": "5f4c848955971c2fc837d09a15cb25c0a53a3030df1ed9d1a3a2c7d431d93e53",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "チームワークは不可欠です。",
+            "romaji": "Chiimuwaaku wa fukaketsu desu.",
+            "german": "Teamwork ist unverzichtbar."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不可欠 setzt sich aus 不 „nicht“, 可 „möglich“ und 欠 „fehlen“ zusammen: „darf nicht fehlen, unerlässlich“. Typisch: 〜に不可欠だ, 〜にとって不可欠な, und die feste Verbindung 必要不可欠 „absolut notwendig“. Es ist stärker und formeller als 必要; umgangssprachlich sagt man 欠かせない.",
+        "examples": [
+          {
+            "japanese": "チームワークは不可欠です。",
+            "romaji": "Chiimuwaaku wa fukaketsu desu.",
+            "german": "Teamwork ist unverzichtbar."
+          },
+          {
+            "japanese": "植物が育つには、水と光が不可欠です。",
+            "romaji": "Shokubutsu ga sodatsu ni wa, mizu to hikari ga fukaketsu desu.",
+            "german": "Damit Pflanzen wachsen, sind Wasser und Licht unerlässlich."
+          },
+          {
+            "japanese": "今の生活に、スマホは必要不可欠なものになりました。",
+            "romaji": "Ima no seikatsu ni, sumaho wa hitsuyou fukaketsu na mono ni narimashita.",
+            "german": "Smartphones sind aus dem heutigen Leben nicht mehr wegzudenken."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231206983",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 不可欠/フカケツ; lemma 不可欠; 形状詞/一般/*/*; *; *; aType 2.",
+            "match": {
+              "word": "不可欠",
+              "reading": "ふかけつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 不可欠/ふかけつ \"unverzichtbar, unentbehrlich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1491400 sense 1, na-adjective / noun: indispensable, essential Pitch: Verified [2] via exact UniDic row. 不可欠 setzt sich aus 不 „nicht“, 可 „möglich“ und 欠 „fehlen“ zusammen: „darf nicht fehlen, unerlässlich“. Typisch: 〜に不可欠だ, 〜にとって不可欠な, und die feste Verbindung 必要不可欠 „absolut notwendig“. Es ist stärker und formeller als 必要; umgangssprachlich sagt man 欠かせない. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1491400; spelling=不可欠; reading=ふかけつ",
+          "selected": {
+            "sequence": "1491400",
+            "spelling": "不可欠",
+            "reading": "ふかけつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "indispensable",
+                  "essential"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1491400 sense 1, na-adjective / noun: indispensable, essential"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 不可欠/フカケツ; lemma 不可欠; 形状詞/一般/*/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@231206983",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 不可欠/フカケツ; lemma 不可欠; 形状詞/一般/*/*; *; *; aType 2.",
+            "match": {
+              "word": "不可欠",
+              "reading": "ふかけつ",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 不可欠/ふかけつ \"unverzichtbar, unentbehrlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "unverzichtbar, unentbehrlich. JMdict 1491400 sense 1, na-adjective / noun: indispensable, essential",
+        "japanese": "チームワークは不可欠です。 / 植物が育つには、水と光が不可欠です。 / 今の生活に、スマホは必要不可欠なものになりました。",
+        "romanization": "fukaketsu; Chiimuwaaku wa fukaketsu desu. / Shokubutsu ga sodatsu ni wa, mizu to hikari ga fukaketsu desu. / Ima no seikatsu ni, sumaho wa hitsuyou fukaketsu na mono ni narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Teamwork ist unverzichtbar. / Damit Pflanzen wachsen, sind Wasser und Licht unerlässlich. / Smartphones sind aus dem heutigen Leben nicht mehr wegzudenken.",
+        "contexts": [
+          "Team motivation",
+          "Biology basics",
+          "Modern daily life"
+        ],
+        "lexical": "JMdict 1491400 sense 1, na-adjective / noun: indispensable, essential",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (不可欠な, 不可欠だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:199 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Team motivation; Biology basics; Modern daily life), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7ebf056214aebbf2d80cf9b9219276df841acb7ebb4708434d37c03838589423",
+        "approvalHash": "944a7f128e5930ff7acee4ddce2dc9a2d0cade0b60a308ba0c542021a7b6f87a"
+      }
+    },
+    {
+      "id": "vocab-n3:200",
+      "revisionId": "176c-n3-enrichment-vocab-n3-200",
+      "state": "accepted",
+      "predecessorHash": "9373194ecc9b1084bf8c390457637b0ebe1b67e15ad7a5cb737dc67217bdf184",
+      "originalHash": "9373194ecc9b1084bf8c390457637b0ebe1b67e15ad7a5cb737dc67217bdf184",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "多様な意見があります。",
+            "romaji": "Tayou na iken ga arimasu.",
+            "german": "Es gibt vielfältige Meinungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "多様 ist ein な-Adjektiv für „vielfältig, verschieden“ und klingt eher schriftlich: 多様な文化・価値観・働き方. Dazu 多様化 „Diversifizierung“, 多様性 „Vielfalt, Diversität“ und die feste Wendung 多種多様 „von aller Art“. Im Gespräch sagt man meist いろいろな oder さまざまな.",
+        "examples": [
+          {
+            "japanese": "多様な意見があります。",
+            "romaji": "Tayou na iken ga arimasu.",
+            "german": "Es gibt vielfältige Meinungen."
+          },
+          {
+            "japanese": "この町には、多様な文化を持つ人々が住んでいます。",
+            "romaji": "Kono machi ni wa, tayou na bunka o motsu hitobito ga sunde imasu.",
+            "german": "In dieser Stadt leben Menschen mit ganz unterschiedlichen kulturellen Hintergründen."
+          },
+          {
+            "japanese": "働き方が多様になってきました。",
+            "romaji": "Hatarakikata ga tayou ni natte kimashita.",
+            "german": "Die Arbeitsformen sind vielfältiger geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@165903129",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 多様/タヨウ; lemma 多様; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "多様",
+              "reading": "たよう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 多様/たよう \"vielfältig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1408100 sense 1, na-adjective / noun: diverse, various Pitch: Verified [0] via exact UniDic row. 多様 ist ein な-Adjektiv für „vielfältig, verschieden“ und klingt eher schriftlich: 多様な文化・価値観・働き方. Dazu 多様化 „Diversifizierung“, 多様性 „Vielfalt, Diversität“ und die feste Wendung 多種多様 „von aller Art“. Im Gespräch sagt man meist いろいろな oder さまざまな. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1408100; spelling=多様; reading=たよう",
+          "selected": {
+            "sequence": "1408100",
+            "spelling": "多様",
+            "reading": "たよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diverse",
+                  "various"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1408100 sense 1, na-adjective / noun: diverse, various"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 多様/タヨウ; lemma 多様; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@165903129",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 多様/タヨウ; lemma 多様; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "多様",
+              "reading": "たよう",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 多様/たよう \"vielfältig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "vielfältig. JMdict 1408100 sense 1, na-adjective / noun: diverse, various",
+        "japanese": "多様な意見があります。 / この町には、多様な文化を持つ人々が住んでいます。 / 働き方が多様になってきました。",
+        "romanization": "tayou; Tayou na iken ga arimasu. / Kono machi ni wa, tayou na bunka o motsu hitobito ga sunde imasu. / Hatarakikata ga tayou ni natte kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt vielfältige Meinungen. / In dieser Stadt leben Menschen mit ganz unterschiedlichen kulturellen Hintergründen. / Die Arbeitsformen sind vielfältiger geworden.",
+        "contexts": [
+          "Discussion with many views",
+          "Multicultural city",
+          "Changing work styles"
+        ],
+        "lexical": "JMdict 1408100 sense 1, na-adjective / noun: diverse, various",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (多様な, 多様に, 多様だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:200 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Discussion with many views; Multicultural city; Changing work styles), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ca8f735b17baaa1a8faad4ec6d5a218b647250c6fa566e6c982e783e25abd8e4",
+        "approvalHash": "a2a91f367463b709c4741df6252428fc63a589c010698c914025f8cd15d0b25c"
+      }
+    },
+    {
+      "id": "vocab-n3:201",
+      "revisionId": "176c-n3-enrichment-vocab-n3-201",
+      "state": "accepted",
+      "predecessorHash": "75fbb434511a9925b7d996e99abf47a630d93a66935c0b996581edcbd784a0cd",
+      "originalHash": "75fbb434511a9925b7d996e99abf47a630d93a66935c0b996581edcbd784a0cd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "慎重に行動しましょう。",
+            "romaji": "Shinchou ni koudou shimashou.",
+            "german": "Handeln wir vorsichtig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "慎重 ist ein な-Adjektiv für „vorsichtig, umsichtig, bedacht“ – man handelt oder entscheidet erst nach gründlicher Überlegung: 慎重に検討する, 慎重に選ぶ, 慎重な性格. Das Gegenteil ist 軽率 „leichtsinnig“. 気をつける meint eher Achtsamkeit gegenüber Gefahren, 丁寧 Sorgfalt und Höflichkeit. Nicht verwechseln mit dem gleich gelesenen 身長 „Körpergröße“.",
+        "examples": [
+          {
+            "japanese": "慎重に行動しましょう。",
+            "romaji": "Shinchou ni koudou shimashou.",
+            "german": "Handeln wir vorsichtig."
+          },
+          {
+            "japanese": "大事なことなので、慎重に考えてから決めます。",
+            "romaji": "Daiji na koto na node, shinchou ni kangaete kara kimemasu.",
+            "german": "Weil es wichtig ist, überlege ich gründlich, bevor ich mich entscheide."
+          },
+          {
+            "japanese": "割れやすいので、慎重に運んでください。",
+            "romaji": "Wareyasui node, shinchou ni hakonde kudasai.",
+            "german": "Das ist zerbrechlich, bitte tragen Sie es vorsichtig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142945453",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 慎重/シンチョウ; lemma 慎重; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "慎重",
+              "reading": "しんちょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 慎重/しんちょう \"vorsichtig, besonnen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1361110 sense 1, na-adjective / noun: careful, cautious, prudent, deliberate Pitch: Verified [0] via exact UniDic row. 慎重 ist ein な-Adjektiv für „vorsichtig, umsichtig, bedacht“ – man handelt oder entscheidet erst nach gründlicher Überlegung: 慎重に検討する, 慎重に選ぶ, 慎重な性格. Das Gegenteil ist 軽率 „leichtsinnig“. 気をつける meint eher Achtsamkeit gegenüber Gefahren, 丁寧 Sorgfalt und Höflichkeit. Nicht verwechseln mit dem gleich gelesenen 身長 „Körpergröße“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1361110; spelling=慎重; reading=しんちょう",
+          "selected": {
+            "sequence": "1361110",
+            "spelling": "慎重",
+            "reading": "しんちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "careful",
+                  "cautious",
+                  "prudent",
+                  "discreet",
+                  "deliberate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1361110 sense 1, na-adjective / noun: careful, cautious, prudent, deliberate"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 慎重/シンチョウ; lemma 慎重; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142945453",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 慎重/シンチョウ; lemma 慎重; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "慎重",
+              "reading": "しんちょう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 慎重/しんちょう \"vorsichtig, besonnen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "reviewedDistinctContexts": true,
+        "meaning": "vorsichtig, besonnen. JMdict 1361110 sense 1, na-adjective / noun: careful, cautious, prudent, deliberate",
+        "japanese": "慎重に行動しましょう。 / 大事なことなので、慎重に考えてから決めます。 / 割れやすいので、慎重に運んでください。",
+        "romanization": "shinchou; Shinchou ni koudou shimashou. / Daiji na koto na node, shinchou ni kangaete kara kimemasu. / Wareyasui node, shinchou ni hakonde kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Handeln wir vorsichtig. / Weil es wichtig ist, überlege ich gründlich, bevor ich mich entscheide. / Das ist zerbrechlich, bitte tragen Sie es vorsichtig.",
+        "contexts": [
+          "Call for caution",
+          "Important decision",
+          "Handling fragile goods"
+        ],
+        "lexical": "JMdict 1361110 sense 1, na-adjective / noun: careful, cautious, prudent, deliberate",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (慎重な, 慎重に, 慎重だ)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-176",
+        "finding": "Author reread the exact final card vocab-n3:201 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Call for caution; Important decision; Handling fragile goods), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "599989a64b84a5d9b1fb681ac5a6df27223d7c75102ee33e8eadac1103e1fbc4",
+        "approvalHash": "6b2ff6f530938d557915462d72b729b9277d420474223de5712bd6fdb5c01150"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

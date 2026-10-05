@@ -505,6 +505,20 @@ in UniDic without an accented row in the card's role, rows of homographic other 
 not used (よう: 八/用 rows; 一位: yew tree). All 22 full checks pass; `advance --dry-run`
 passed and the campaign advanced from N4 to N3.
 
+**First N3 checkpoint (5 October 2026).** Batches 175a–175j, 176a–176j and 177a–177j
+(`author-only-v1`, author first pass only) enrich 750 N3-level entries from one queue
+snapshot (mostly vocab-n3:1–641, plus N3-levelled cards from other lists, a few idioms
+and yojijukugo). Each has a German usage note and 2–3 examples in distinct situations;
+1,492 new sentences are written in Modified Hepburn and 101 entries get corrected original
+examples. The pitch of 608 entries is verified (530 UniDic, 78 OJAD), correcting 61 stored
+primary accents; 142 are investigated unknowns. Pitch research uses the own-lemma rule from
+batch 174, with aliases counted as the card's own forms. 101 German meanings are corrected
+(e.g. 被害 „Opfer“ removed — that is 被害者; 申請 „Bewerbung“ → „Beantragung“; 発想 „Einfalt“
+→ „Einfall“), and 紫色 and 我 are retyped from Adjektiv to Nomen. Four survivors of historical
+duplicate merges (特技, 一石二鳥, 自業自得, 実るほど頭を垂れる稲穂かな) were re-reviewed, so their
+merge approvals were renewed after checking that the preserved coverage still holds.
+No source references were resolved. N3 now has 2,621 pending reviews and 422 open references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
