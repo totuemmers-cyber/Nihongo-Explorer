@@ -539,6 +539,20 @@ Nachnahme being 代引き; 芒 „Chinaschilf“ instead of „Pampasgras“). �
 Adjektiv, and four card romanizations are corrected (urazuke, en'yasu, oodougu, kodougu).
 No source references were resolved. N3 now has 1,121 pending reviews and 422 open references.
 
+**Fourth N3 checkpoint (6 October 2026).** Batches 184a–184j, 185a–185j and 186a–186j enrich
+the next 750 N3 entries (vocab-n3:2218–3081 in queue order) with German usage notes and 2–3
+examples in distinct situations: 1,575 new sentences, 305 entries with corrected original
+examples (mostly mis-segmented or misread romaji such as „okonatta“ for 行った). The pitch of
+565 entries is verified (516 from exact UniDic rows, 49 from OJAD dictionary-form cells),
+correcting 112 stored primary accents; 185 are investigated unknowns, mostly compounds and
+set phrases (e.g. 各駅停車, 飲酒運転, いい加減にしろ). 236 German meanings are corrected (e.g.
+更衣室 „Umkleideraum“ — a fitting booth is 試着室; 警視庁 „Polizeipräsidium Tokio“ against
+警察庁 „Nationale Polizeibehörde“; 賀状 „Neujahrskarte“; 背後 no longer „Hintergrund“). 83
+cards are retyped: plain nouns typed Adjektiv, Partikel or Adverb become Nomen (e.g. 祝日,
+教師, 主義, 違い, 位置), and 再び and 再度 become Adverb. Cards without their own JMdict entry
+(アメリカ製, 二巻, 岡山城, 第一段, 徳川) record the complete scan instead of a sequence.
+No source references were resolved. N3 now has 371 pending reviews and 422 open references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one
